@@ -1,0 +1,45 @@
+# AuTxGNN Jekyll Configuration
+title: AuTxGNN - Australia Drug Repurposing Predictions
+description: Drug repurposing predictions for Australia using TxGNN knowledge graph
+url: "https://autxgnn.yao.care"
+baseurl: ""
+
+# Language and locale
+lang: en-AU
+country_code: AU
+country_name: Australia
+regulatory_agency: "Therapeutic Goods Administration (TGA)"
+regulatory_agency_url: "https://www.tga.gov.au/"
+
+# Theme settings
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Collections
+collections:
+  drugs:
+    output: true
+    permalink: /drugs/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "drugs"
+    values:
+      layout: "drug"
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore

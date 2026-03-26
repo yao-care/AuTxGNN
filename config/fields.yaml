@@ -1,0 +1,35 @@
+# AuTxGNN - Australia TGA ARTG Field Configuration
+
+country_code: AU
+language: en
+regulatory_agency: TGA  # Therapeutic Goods Administration
+
+# Data source information
+data_source:
+  name: "Australian Register of Therapeutic Goods (ARTG)"
+  url: "https://www.tga.gov.au/resources/artg"
+  format: "Excel/CSV"
+  download_required: true
+  notes: |
+    ARTG data must be downloaded manually from TGA website.
+    Export as CSV/Excel from the ARTG search interface.
+
+# Field mapping (based on ARTG export format)
+# These may need adjustment based on actual export format
+field_mapping:
+  license_id: "ARTG_ID"           # ARTG Number
+  brand_name_local: "Product_Name"
+  brand_name_en: "Product_Name"
+  ingredients: "Active_Ingredients"
+  indication: null                 # ARTG may not have indication field
+  dosage_form: "Dosage_Form"
+  status: "Status"
+  sponsor: "Sponsor"
+
+# Status values indicating withdrawn/cancelled
+withdrawn_statuses:
+  - "Cancelled"
+  - "Suspended"
+
+# Indication settings
+has_indication: false  # ARTG export may not include indications
