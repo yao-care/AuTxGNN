@@ -67,8 +67,13 @@ def load_kg_predictions() -> pd.DataFrame:
     return kg
 
 
-def load_dl_predictions(score_threshold: float = 0.5) -> pd.DataFrame:
-    """Load DL prediction results with optional filtering."""
+def load_dl_predictions(score_threshold: float = 0.5) -> pd.DataFrame | None:
+    """Load DL prediction results with optional filtering. Returns None if file missing."""
+    if not DL_PREDICTIONS.exists():
+        print(f"\nDL predictions file not found: {DL_PREDICTIONS}")
+        print("  Running in KG-only mode.")
+        return None
+
     print(f"\nLoading DL predictions (score >= {score_threshold})...")
 
     # Read in chunks to handle large file
@@ -284,8 +289,30 @@ def main():
     dl = load_dl_predictions(score_threshold=args.dl_threshold)
     mapping = load_drug_mapping()
 
-    # Integrate
-    unified = integrate_predictions(kg, dl, mapping)
+    # KG-only mode: assign all KG predictions as medium confidence
+    if dl is None:
+        print("\nKG-only integration mode...")
+        unified = kg.copy()
+        unified["kg_prediction"] = True
+        unified["dl_prediction"] = False
+        unified["dl_score"] = np.nan
+        unified["confidence"] = "medium"
+        unified["source"] = "KG"
+        # Rename to standard output columns
+        unified = unified.rename(columns={
+            KG_COLS["license_id"]: "license_id",
+            KG_COLS["brand_name"]: "brand_name",
+            KG_COLS["ingredient"]: "drug_ingredient",
+            KG_COLS["indication"]: "potential_indication",
+            KG_COLS["source"]: "_orig_source",
+        })
+        unified["source"] = "KG"
+        unified = unified[["license_id", "brand_name", "drug_ingredient", "drugbank_id",
+                           "potential_indication", "kg_prediction", "dl_prediction", "dl_score", "source", "confidence"]]
+        print(f"  KG-only predictions: {len(unified):,}")
+    else:
+        # Integrate
+        unified = integrate_predictions(kg, dl, mapping)
 
     # Statistics
     print_statistics(unified)
