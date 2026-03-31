@@ -1,44 +1,31 @@
 # AuTxGNN - Australia Drug Repurposing Predictions
 
-Drug repurposing predictions for TGA (Therapeutic Goods Administration) approved medications using TxGNN knowledge graph and deep learning methods.
+[![Website](https://img.shields.io/badge/Website-autxgnn.yao.care-blue)](https://autxgnn.yao.care)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Overview
-
-This project analyzes medications registered in the Australian Register of Therapeutic Goods (ARTG) to identify potential new therapeutic uses through computational methods.
-
-## Data Sources
-
-- **Drug Data**: [TGA ARTG](https://www.tga.gov.au/resources/artg) - Australian Register of Therapeutic Goods
-- **Knowledge Graph**: [TxGNN](https://github.com/mims-harvard/TxGNN)
-- **Drug Identifiers**: [DrugBank](https://go.drugbank.com/)
-
-## Installation
-
-```bash
-uv sync
-```
-
-## Usage
-
-```bash
-# Prepare external data
-uv run python scripts/prepare_external_data.py
-
-# Run KG prediction
-uv run python scripts/run_kg_prediction.py
-
-# Generate FHIR resources
-uv run python scripts/generate_fhir_resources.py
-```
-
-## Website
-
-https://autxgnn.yao.care
+Drug repurposing predictions for Australia using the TxGNN model.
 
 ## Disclaimer
 
-This content is for **research purposes only**. Predictions are computational and have not been validated for clinical use. Always consult healthcare professionals before making any medical decisions.
+- The results of this project are for research purposes only and do not constitute medical advice.
+- Drug repurposing candidates require clinical validation before application.
 
-## License
+## Project Overview
 
-MIT License - See LICENSE for details.
+| Item | Count |
+|------|-------|
+| **Drug Reports** | 729 |
+| **Total Predictions** | 12,439,638 |
+
+## Prediction Methods
+
+### Knowledge Graph Method
+Direct querying of drug-disease relationships in the TxGNN knowledge graph, identifying potential repurposing candidates based on existing connections in the biomedical network.
+
+### Deep Learning Method
+Uses the TxGNN pre-trained neural network model to compute prediction scores, evaluating the likelihood of new therapeutic indications for approved drugs.
+
+## Links
+
+- Website: https://autxgnn.yao.care
+- TxGNN Paper: https://doi.org/10.1038/s41591-023-02233-x
