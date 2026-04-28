@@ -12,7 +12,7 @@ regulatory_agency: "Therapeutic Goods Administration (TGA)"
 regulatory_agency_url: "https://www.tga.gov.au/"
 
 # Theme settings
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
