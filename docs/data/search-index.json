@@ -1,8 +1,2246 @@
 {
-  "generated": "2026-04-18",
-  "drug_count": 729,
-  "indication_count": 51,
+  "generated": "2026-07-13",
+  "drug_count": 997,
+  "indication_count": 349,
   "drugs": [
+    {
+      "name": "Abacavir",
+      "slug": "abacavir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Simian immunodeficiency virus infection | 0.998 | L4 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Feline acquired immunodeficiency syndrome | 0.998 | L3 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Neurodevelopmental disorder with ataxic gait | 0.998 | L5 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Obsolete familial combined hyperlipidaemia | 0.987 | L5 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Congenital human immunodeficiency virus | 0.928 | L1 | S3 | **Proceed with Guardrails**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "AIDS-related complex | 0.928 | L2 | S3 | **Proceed with Guardrails**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Chronic hepatitis C virus infection | 0.927 | L3 | S1 | **Research Question**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Paratenonitis | 0.882 | L5 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Calcific tendinitis | 0.879 | L5 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Fibroma of prostate | 0.870 | L5 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | Rare genetic disorder; no NRTI mechanism relevant to neurodevelopment. High TxGNN score likely reflects topological proximity to HIV encephalopathy in the knowledge graph.",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Obsolete familial combined hyperlipidaemia | Ontology term marked as \"obsolete.\" NRTIs including Abacavir are associated with **worsening** dyslipidaemia as an adverse effect — a **contraindication signal**.",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Paratenonitis | Mechanical/inflammatory tendon sheath condition; no NRTI anti-inflammatory mechanism.",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Calcific tendinitis | Calcium deposition disorder; Abacavir has no calcium metabolism or tendon repair activity.",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Fibroma of prostate | Benign mesenchymal tumour; no anti-tumour or anti-fibrotic NRTI mechanism.",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Abatacept",
+      "slug": "abatacept",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Rheumatoid vasculitis | 0.9991 | L4 | S1 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Ankylosing spondylitis | 0.9991 | L3 | S1 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hypermobility of coccyx | 0.9987 | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Inflammatory spondylopathy | 0.9984 | L2 | S2 | **Proceed with Guardrails**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Kümmell disease | 0.9984 | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Polyarticular juvenile rheumatoid arthritis | 0.9983 | **L1** | **S3** | **Proceed with Guardrails**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Vertebral disease | 0.9968 | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Spondyloarthropathy, susceptibility to | 0.9965 | L4 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Brachydactyly-syndactyly syndrome | 0.9950 | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 0.9948 | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "2012 | Case report | Rapid efficacy of abatacept in RV (Tier 2)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "2018 | Case report/series | Abatacept as therapeutic option for RV (Tier 2)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "2016 | Case report | **New-onset RV during abatacept therapy** (Tier 2)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "2018 | Case report | RA-associated orbital vasculitis **during abatacept** (Tier 2)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "2023 | Case report | ANCA-associated nephritis during abatacept therapy (Tier 3)",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Abemaciclib",
+      "slug": "abemaciclib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Rheumatoid arthritis | 0.9732 | L5 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hyperthyroidism | 0.9717 | L5 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Multiple endocrine neoplasia (MEN) | 0.9707 | L4 | S1 | **Research Question**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Resistance to thyroid hormone (THR-β mutation) | 0.9688 | L5 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Homozygous familial hypercholesterolaemia | 0.9656 | L5 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Heart disease | 0.9630 | L5 | S0 | **Hold** ⚠️",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Laubry-Pezzi syndrome | 0.9630 | L5 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pierre Robin syndrome (chromosomal) | 0.9629 | L5 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Jeune syndrome with situs inversus | 0.9623 | L5 | S0 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Amyotrophic lateral sclerosis (ALS) | 0.9623 | L4 | S1 | **Research Question**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Abemaciclib and Vacuolin-1 decrease aggregate-prone TDP-43 accumulation by accelerating autophagic flux | Preclinical (in vitro) | **Direct evidence** that abemaciclib reduces TDP-43 aggregation via autophagy enhancement",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "P97/VCP ATPase inhibitors can rescue p97 mutation-linked motor neuron degeneration | Preclinical (iPSC motor neurones) | Contextual evidence on protein homeostasis in motor neurone disease",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Systematic review/meta-analysis: QTc prolongation across CDK4/6 inhibitors | Cardiac risk signal",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Meta-analysis: QTc prolongation and major cardiovascular adverse events with CDK4/6 inhibitors | Cardiac risk signal",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "FAERS analysis: QT prolongation and Torsades de Pointes with CDK4/6 inhibitors | Serious cardiac arrhythmia risk",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Case report: Coronary plaque erosion after abemaciclib initiation | Acute myocardial infarction",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Animal study: Abemaciclib causes cardiac damage and fibrosis in rats | Direct cardiotoxicity",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Review: Pre-existing cardiovascular comorbidity must guide CDK4/6 inhibitor selection | Clinical safety guidance",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Abiraterone",
+      "slug": "abiraterone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Migraine disorder | 0.988 | L5 | S0 | **Hold** | Very weak",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Migraine with or without aura (susceptibility) | 0.988 | L5 | S0 | **Hold** | Very weak",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Migraine with brainstem aura | 0.986 | L5 | S0 | **Hold** | Very weak",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Leprosy | 0.986 | L5 | S0 | **Hold** | None",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pulmonary hypertension | 0.984 | L4 | S1 | **Research Question** | Weak–contradictory",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Nephrogenic syndrome of inappropriate antidiuresis | 0.982 | L5 | S0 | **Hold** | Very weak (harmful direction)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Rheumatoid arthritis | 0.981 | L5 | S0 | **Hold** | Contradictory",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Kyphoscoliotic heart disease | 0.981 | L5 | S0 | **Hold** | None",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Atrophoderma vermiculata | 0.977 | L5 | S0 | **Hold** | Very weak, speculative",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Ulerythema ophryogenesis | 0.975 | L5 | S0 | **Hold** | Very weak, speculative",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Acalabrutinib",
+      "slug": "acalabrutinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Acamprosate",
+      "slug": "acamprosate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Acarbose",
+      "slug": "acarbose",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Acetaminophen",
+      "slug": "acetaminophen",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Acetazolamide",
+      "slug": "acetazolamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Exercise-induced malignant hyperthermia | 99.95% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hypertrophic cardiomyopathy | 99.93% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Congenital myopathy with excess of thin filaments | 99.90% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "HCM due to intensive athletic training | 99.89% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Distal myopathy, Tateyama type | 99.88% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cirrhotic cardiomyopathy | 99.88% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Intestinal obstruction ⚠️ | 99.82% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Glycogen storage disease — late-onset Pompe | 99.80% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Unclassified intestinal pseudoobstruction ⚠️ | 99.79% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Acetic Acid",
+      "slug": "acetic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Acetylsalicylic Acid",
+      "slug": "acetylsalicylic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Acitretin",
+      "slug": "acitretin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Aclidinium",
+      "slug": "aclidinium",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Adalimumab",
+      "slug": "adalimumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Afatinib",
+      "slug": "afatinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Aflibercept",
+      "slug": "aflibercept",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Esotropia | 99.38% | ❌ No VEGF link — likely KG artefact | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Esophageal varices (without bleeding) | 97.56% | ✅ Biologically plausible — VEGF drives portal hypertension neovascularisation | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Esophageal varices (with bleeding) | 97.56% | ⚠️ Plausible mechanism but acute haemorrhage setting raises serious safety concerns | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Varicose disease | 96.95% | ⚠️ Partial match — VEGF-A/B role in venous remodelling; VEGF-C/D (via VEGFR3) not blocked by Aflibercept | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Urethral calculus | 95.97% | ❌ No VEGF link — likely KG artefact | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Adenosine deaminase deficiency | 95.76% | ❌ Metabolic/genetic disease; no VEGF connection | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hemorrhagic disease of newborn | 95.56% | ❌ Vitamin K deficiency mechanism; no VEGF connection | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Ectomesenchymoma | 94.52% | ✅ Tumour angiogenesis VEGF mechanism applicable (ultra-rare tumour) | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malignant cutaneous granular cell skin tumour | 94.51% | ✅ Soft tissue sarcoma — VEGF/PlGF mechanism plausible | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Middle ear neuroendocrine tumour | 94.42% | ✅ Highly vascular NET; consistent with anti-VEGF class mechanism | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Albendazole",
+      "slug": "albendazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Alectinib",
+      "slug": "alectinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Alemtuzumab",
+      "slug": "alemtuzumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Alendronic Acid",
+      "slug": "alendronic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Alfuzosin",
+      "slug": "alfuzosin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Allopurinol",
+      "slug": "allopurinol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Alogliptin",
+      "slug": "alogliptin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Alprazolam",
+      "slug": "alprazolam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Alprostadil",
+      "slug": "alprostadil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Aluminium",
+      "slug": "aluminium",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Amantadine",
+      "slug": "amantadine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ambrisentan",
+      "slug": "ambrisentan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Amifampridine",
+      "slug": "amifampridine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Glaucoma | 99.71% | L5 | Hold | Theoretical VGKC in ciliary body/trabecular meshwork; no direct evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acute Intermittent Porphyria | 99.32% | L5 | Hold | No mechanistic link; KG artefact via neurological symptom co-occurrence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Esophageal Varices with Bleeding | 98.77% | L5 | Hold | Portal hypertension pathology unrelated to VGKC",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Esophageal Varices without Bleeding | 98.77% | L5 | Hold | Identical score to Rank 3; duplicate KG nodes",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Porphyria | 98.51% | L5 | Hold | Haem synthesis pathway unrelated to VGKC",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Primary Immunodeficiency (p14 Deficiency) | 98.39% | L5 | Hold | Ultra-rare disease (<20 cases globally); mechanism unrelated; likely KG artefact",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "**Paraneoplastic Limbic Encephalitis** | 98.31% | **L4** | **Research Question** | Indirect: LGI1/CASPR2/VGCC antibody subtype overlaps with LEMS autoimmune mechanism",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "**Paraneoplastic Polyneuropathy** | 98.26% | **L4** | **Research Question** | Indirect: LEMS can co-present with sensorimotor neuropathy; anti-VGCC/Hu antibody overlap",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Varicose Disease | 98.08% | L5 | Hold | Venous valve/wall structural pathology unrelated to VGKC; no supporting evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "**Paraneoplastic Cerebellar Degeneration** | 97.99% | **L4** | **Research Question** | Strongest candidate: SCLC-associated, shared P/Q-type VGCC autoimmunity with LEMS; 2 contextual publications identified",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Amiodarone",
+      "slug": "amiodarone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Amisulpride",
+      "slug": "amisulpride",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Amitriptyline",
+      "slug": "amitriptyline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Amlodipine",
+      "slug": "amlodipine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Amorolfine",
+      "slug": "amorolfine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Amoxicillin",
+      "slug": "amoxicillin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Amphotericin B",
+      "slug": "amphotericin_b",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Anakinra",
+      "slug": "anakinra",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Extracutaneous Mastocytoma | 99.93% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hepatic Infarction | 99.89% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Autosomal Recessive Familial Mediterranean Fever | 99.89% | L3 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Aggressive Systemic Mastocytosis | 99.88% | L4 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hepatic Veno-Occlusive Disease | 99.88% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Peliosis Hepatis | 99.85% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Oligoarticular JIA (ANA−) | 99.85% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Oligoarticular JIA (ANA+) | 99.85% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Unclassified Autoinflammatory Syndrome | 99.81% | L3 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Anastrozole",
+      "slug": "anastrozole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Anifrolumab",
+      "slug": "anifrolumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Apalutamide",
+      "slug": "apalutamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Apixaban",
+      "slug": "apixaban",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Apomorphine",
+      "slug": "apomorphine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Apremilast",
+      "slug": "apremilast",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Aprepitant",
+      "slug": "aprepitant",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Aripiprazole",
+      "slug": "aripiprazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Armodafinil",
+      "slug": "armodafinil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ascorbic Acid",
+      "slug": "ascorbic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Vitamin Deficiency Disorder | **L1** | **Proceed with Guardrails** | RCTs confirming Ascorbic acid as definitive scurvy/hypovitaminosis C treatment; large observational study ([NCT02422901](https://clinicaltrials.gov/study/NCT02422901), n=5,000); PMID [37795755](https://pubmed.ncbi.nlm.nih.gov/37795755/); Australian paediatric scurvy case series PMID [39031615](https://pubmed.ncbi.nlm.nih.gov/39031615/)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Perinatal Disease | **L2** | Research Question | Phase 3 Bangladesh antenatal RCT ([NCT00860470](https://clinicaltrials.gov/study/NCT00860470), n=44,567); Guinea-Bissau Phase 1 RCT ([NCT00168688](https://clinicaltrials.gov/study/NCT00168688), n=2,100); preeclampsia Phase 1 trial ([NCT03451266](https://clinicaltrials.gov/study/NCT03451266), n=34)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Injury | **L3** | Research Question | Phase 3 burn trial VICToRY ([NCT04138394](https://clinicaltrials.gov/study/NCT04138394), n=666); Phase 1 burn micronutrient study ([NCT00879723](https://clinicaltrials.gov/study/NCT00879723), n=28); spinal cord injury Vitamin C + iron study ([NCT00881803](https://clinicaltrials.gov/study/NCT00881803), n=60); PMID [27852613](https://pubmed.ncbi.nlm.nih.gov/27852613/) RCT on collagen synthesis",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Esophageal Disease | **L3** | Research Question | Linxian nutritional intervention trial ([NCT00342654](https://clinicaltrials.gov/study/NCT00342654), n=32,902); dose-response meta-analyses on dietary Vitamin C and oesophageal cancer risk (PMID [26355388](https://pubmed.ncbi.nlm.nih.gov/26355388/); PMID [35703897](https://pubmed.ncbi.nlm.nih.gov/35703897/)) — ⚠️ **Safety caveat:** animal studies (PMID [17953708](https://pubmed.ncbi.nlm.nih.gov/17953708/)) suggest potential pro-carcinogenic signal under acid reflux conditions with sodium nitrite co-exposure; dual-direction risk assessment required before clinical development",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Asenapine",
+      "slug": "asenapine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Atazanavir",
+      "slug": "atazanavir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Atenolol",
+      "slug": "atenolol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Posterolateral myocardial infarction | 99.87% | L4 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Posteroinferior myocardial infarction | 99.87% | L4 | 0 | 1 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malignant hypertensive renal disease | 99.85% | L5 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malignant renovascular hypertension | 99.85% | L4 | 0 | 1 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pulmonary hypertension — multifactorial ⚠️ | 99.84% | L5 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pulmonary hypertension — lung disease/hypoxia ⚠️ | 99.84% | L5 | 0 | 20* | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Septal myocardial infarction | 99.84% | L4 | 0 | 1 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Braddock syndrome | 99.80% | L5 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Primary hereditary glaucoma | 98.84% | L4 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Atezolizumab",
+      "slug": "atezolizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Atomoxetine",
+      "slug": "atomoxetine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Atorvastatin",
+      "slug": "atorvastatin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Atovaquone",
+      "slug": "atovaquone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Leprosy | 94.24% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Nocardiosis | 90.90% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Facial nerve palsy (herpes zoster) | 89.16% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acne | 88.00% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Creeping myiasis | 85.07% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Wound myiasis | 85.07% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Furuncular myiasis | 85.07% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Myiasis | 82.88% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Atropine",
+      "slug": "atropine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Auranofin",
+      "slug": "auranofin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Avanafil",
+      "slug": "avanafil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Avatrombopag",
+      "slug": "avatrombopag",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Avelumab",
+      "slug": "avelumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Axitinib",
+      "slug": "axitinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Azacitidine",
+      "slug": "azacitidine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Azathioprine",
+      "slug": "azathioprine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Azithromycin",
+      "slug": "azithromycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Baclofen",
+      "slug": "baclofen",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Attention Deficit-Hyperactivity Disorder | 99.32% | L4 | 0 | 10 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "**Nicotine Dependence** | 99.19% | **L2** | **3** | **20** | **Proceed with Guardrails**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "ADHD — Inattentive Type | 98.89% | L5 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Myofascial Pain Syndrome | 98.87% | L3 | 1* | 4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Faciodigitogenital Syndrome (Aarskog-Scott) | 98.78% | L5 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Trigeminal Nerve Neoplasm | 98.70% | L5 | 0 | 2† | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Methemoglobinemia | 98.33% | L5 | 0 | 1† | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Chondromyxoid Fibroma | 98.15% | L5 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Methemoglobinemia — Alpha Type | 97.97% | L5 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Specific Developmental Disorder | 97.95% | L4 | 2† | 2 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Balsalazide",
+      "slug": "balsalazide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Baricitinib",
+      "slug": "baricitinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.94% | L5 | Hold | Very low — structural congenital defect; likely KG artefact",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Brachydactyly-syndactyly syndrome | 99.94% | L5 | Hold | Very low — skeletal developmental anomaly",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Indolent plasma cell myeloma | 93.31% | L5 | Hold | Moderate (theoretical) — IL-6/JAK/STAT3 axis relevant; no evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "WHIM syndrome | 93.12% | L5 | Research Question | Moderate (theoretical) — CXCR4→JAK2 cross-talk; no evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Plasma cell myeloma | 91.83% | L4 | Research Question | Moderate — IL-6/JAK1/JAK2→STAT3; 1 case report (indirect)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Myeloid leukemia | 91.01% | L4 | Research Question | Moderate — FLT3-ITD/BCR-ABL→JAK-STAT; 1 trial + 4 publications",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Meester-Loeys syndrome | 88.21% | L5 | Hold | Very low — connective tissue/aortic structural disorder",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Ganglioneuroblastoma | 87.59% | L5 | Hold | Low — neural tumour; no JAK-specific preclinical data",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Heparin cofactor 2 deficiency | 86.31% | L5 | Hold | ⚠️ Adverse match — JAK inhibitors increase VTE risk",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Vertebral anomalies + T-cell dysfunction | 84.68% | L5 | Research Question | Low-moderate — T-cell JAK-STAT component; structural elements unaddressable",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Bendamustine",
+      "slug": "bendamustine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Benralizumab",
+      "slug": "benralizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Benzatropine",
+      "slug": "benzatropine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Benzocaine",
+      "slug": "benzocaine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Benzoic Acid",
+      "slug": "benzoic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Benzydamine",
+      "slug": "benzydamine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Benign Prostatic Hyperplasia | 99.26% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Headache Disorder | 97.58% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Trigeminal Autonomic Cephalalgia | 97.17% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Peripheral Vascular Disease | 96.19% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Peripheral Arterial Disease | 95.56% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Female Breast Carcinoma | 95.23% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Toxocariasis | 95.13% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Subarachnoid Haemorrhage | 94.86% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Alopecia | 94.82% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Benzylpenicillin",
+      "slug": "benzylpenicillin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Betamethasone",
+      "slug": "betamethasone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Bevacizumab",
+      "slug": "bevacizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Bicalutamide",
+      "slug": "bicalutamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Bimatoprost",
+      "slug": "bimatoprost",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Bimekizumab",
+      "slug": "bimekizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Binimetinib",
+      "slug": "binimetinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Bisacodyl",
+      "slug": "bisacodyl",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Bisoprolol",
+      "slug": "bisoprolol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Bivalirudin",
+      "slug": "bivalirudin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Bleomycin",
+      "slug": "bleomycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Blinatumomab",
+      "slug": "blinatumomab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Bortezomib",
+      "slug": "bortezomib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Bosentan",
+      "slug": "bosentan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Botulinum Toxin Type A",
+      "slug": "botulinum_toxin_type_a",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Brentuximab Vedotin",
+      "slug": "brentuximab_vedotin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Brexpiprazole",
+      "slug": "brexpiprazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Brigatinib",
+      "slug": "brigatinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Brimonidine",
+      "slug": "brimonidine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Primary Hereditary Glaucoma | 96.90% | L4 | α2 agonism reduces IOP — directly addresses the core pathology (MYOC/OPTN/TBK1 mutations); additional neuroprotection potential",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Rosacea Conjunctivitis | 94.65% | L4 | FDA-approved Mirvaso rosacea mechanism (vasoconstriction) may extend to ocular rosacea vascular pathology",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Brinzolamide",
+      "slug": "brinzolamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Brivaracetam",
+      "slug": "brivaracetam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Brolucizumab",
+      "slug": "brolucizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Bromazepam",
+      "slug": "bromazepam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Bromocriptine",
+      "slug": "bromocriptine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Budesonide",
+      "slug": "budesonide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Buprenorphine",
+      "slug": "buprenorphine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Acute intermittent porphyria | 99.41% | L5 | Hold | One anaesthesia case report (PMID 8301837); buprenorphine used *safely in* AIP, not *as treatment for* AIP — prediction likely reflects pain pathway co-occurrence in knowledge graph",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Lingual-facial-buccal dyskinesia | 99.32% | L4 | Hold | Highly speculative KOR/dopamine inference; no clinical trials; literature is largely unrelated to the indication",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Chronic tic disorder | 99.13% | L5 | Hold | One case series on heroin addiction in Tourette syndrome (PMID 30395551); no evidence of buprenorphine as a tic treatment",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Continuous spikes and waves during sleep | 99.05% | L5 | Hold | No evidence; opioids may lower seizure threshold — potential safety concern in this paediatric epilepsy syndrome",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Benign shuddering attacks | 99.03% | L5 | Hold | No evidence; self-limiting paediatric condition with no known opioid pathway involvement",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Extrapyramidal and movement disease | 99.03% | L5 | Hold | Indication too broad to assess meaningfully; no specific evidence for any subtype",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Schizophreniform disorder | 98.99% | L4 | Research Question | Mechanistically plausible extrapolation from schizophrenia evidence; requires independent study before clinical consideration",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Benign paroxysmal tonic upgaze with ataxia | 98.91% | L5 | Hold | Rare paediatric condition; no evidence; no plausible opioid pathway link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Psychogenic movement disorders | 98.89% | L5 | Hold | No evidence; functional neurological disorder with no established direct treatment rationale for buprenorphine",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Bupropion",
+      "slug": "bupropion",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Burosumab",
+      "slug": "burosumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Busulfan",
+      "slug": "busulfan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cabazitaxel",
+      "slug": "cabazitaxel",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cabergoline",
+      "slug": "cabergoline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cabotegravir",
+      "slug": "cabotegravir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cabozantinib",
+      "slug": "cabozantinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Calcitriol",
+      "slug": "calcitriol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Calcium",
+      "slug": "calcium",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Candesartan",
+      "slug": "candesartan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Capecitabine",
+      "slug": "capecitabine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Captopril",
+      "slug": "captopril",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Carbamazepine",
+      "slug": "carbamazepine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Carbamide Peroxide",
+      "slug": "carbamide_peroxide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Carbimazole",
+      "slug": "carbimazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Carboplatin",
+      "slug": "carboplatin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Carfilzomib",
+      "slug": "carfilzomib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "CMM7 (CDKN2A/CDK4-mutated hereditary melanoma) | 99.37% | L5 | Hold | No clinical or preclinical evidence; no biological rationale linking proteasome inhibition to this genetic subtype",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Paediatric leptomeningeal melanoma | 99.30% | L5 | Hold | Blood-brain barrier penetration is a major obstacle; no evidence; paediatric safety concerns",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Epithelioid cell uveal melanoma | 99.23% | L5 | Hold | Driven by GNAQ/GNA11 mutations; no mechanistic link to proteasome inhibition",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Vulvar melanoma | 99.19% | L5 | Hold | Rare mucosal subtype; minimal BRAF mutations; no supporting evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Melanoma (general) | 99.03% | L4 | Research Question | In vitro data in B16-F1 cells; computational modelling; no clinical trials; clinical translation from solid tumours historically poor for proteasome inhibitors",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Indolent plasma cell myeloma | 97.94% | L4 | Research Question | Mechanistically related to approved MM indication; smouldering MM biology (low proliferation rate) differs; no RCT supporting early intervention",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Intellectual disability, autosomal dominant 55, with seizures | 97.82% | L5 | Hold | Neurodevelopmental genetic disease; no biological rationale; Carfilzomib's known peripheral neuropathy risk is a serious concern in this population",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Neutrophil immunodeficiency syndrome | 95.11% | L5 | Hold | No biological rationale; proteasome inhibition could worsen infection susceptibility in an already immunocompromised population",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "CNS melanocytic neoplasm | 93.29% | L5 | Hold | Blood-brain barrier penetration barrier; no clinical or preclinical evidence",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Cariprazine",
+      "slug": "cariprazine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Carmustine",
+      "slug": "carmustine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Carvedilol",
+      "slug": "carvedilol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Malignant Renovascular Hypertension | 99.55% | L4 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malignant Hypertensive Renal Disease | 99.55% | L4 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pulmonary Hypertension (Lung Disease / Hypoxia) | 99.54% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pulmonary Hypertension (Unclear Multifactorial) | 99.54% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Braddock Syndrome | 99.37% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Susceptibility to Ischaemic Stroke *(obsolete ontology term)* | 68.65% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cerebrovascular Disorder | 68.08% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Ocular Tuberculosis | 61.20% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Brain Stem Infarction | 59.72% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Castor Oil",
+      "slug": "castor_oil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cefaclor",
+      "slug": "cefaclor",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cefazolin",
+      "slug": "cefazolin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ceftriaxone",
+      "slug": "ceftriaxone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cefuroxime",
+      "slug": "cefuroxime",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ciprofloxacin",
+      "slug": "ciprofloxacin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cisplatin",
+      "slug": "cisplatin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Citalopram",
+      "slug": "citalopram",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Citric Acid",
+      "slug": "citric_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Citrulline",
+      "slug": "citrulline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cladribine",
+      "slug": "cladribine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clarithromycin",
+      "slug": "clarithromycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clindamycin",
+      "slug": "clindamycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clobetasol",
+      "slug": "clobetasol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clomifene",
+      "slug": "clomifene",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clomipramine",
+      "slug": "clomipramine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clonazepam",
+      "slug": "clonazepam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clonidine",
+      "slug": "clonidine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clopidogrel",
+      "slug": "clopidogrel",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clotrimazole",
+      "slug": "clotrimazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Clozapine",
+      "slug": "clozapine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cobimetinib",
+      "slug": "cobimetinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cocaine",
+      "slug": "cocaine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Codeine",
+      "slug": "codeine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Nasal cavity disease | 99.93% | **False positive** — literature describes opioid-induced nasal tissue *damage*, not treatment | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acute laryngopharyngitis | 99.92% | Infectious aetiology; codeine has no anti-infective mechanism; no evidence | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Trigeminal autonomic cephalalgia | 99.43% | Opioids generally contraindicated in cluster headache; literature reports describe drug misuse, not efficacy | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Allergic urticaria | 99.37% | **Reverse mechanism** — codeine is a known urticaria *trigger* via non-immunological mast cell degranulation | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Faucial diphtheria | 97.63% | Bacterial toxin disease; codeine has no antibacterial or anti-toxin mechanism; zero evidence | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cervical disc degenerative disorder | 97.40% | Extension of existing analgesic use, not novel repurposing; chronic opioid use in musculoskeletal pain is actively discouraged | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Papillary conjunctivitis | 97.17% | No mechanistic rationale; opioid-induced histamine release could theoretically worsen allergic ocular symptoms | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Tracheal disease | 95.70% | Antitussive rationale is plausible for cough symptom only; no disease-modifying evidence; structural tracheal pathology unaddressed | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cold urticaria | 94.63% | **Methodological false positive** — codeine used as a positive control stimulus in lab skin tests, not as a therapy | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Colchicine",
+      "slug": "colchicine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Corifollitropin Alfa",
+      "slug": "corifollitropin_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cortisone",
+      "slug": "cortisone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Crizotinib",
+      "slug": "crizotinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cyclophosphamide",
+      "slug": "cyclophosphamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cyclosporine",
+      "slug": "cyclosporine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cyproterone Acetate",
+      "slug": "cyproterone_acetate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Migraine disorder | 99.66% | L5 | Hold | No clinical or literature evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Migraine with brainstem aura | 99.58% | L5 | Hold | No evidence; mechanistic link to posterior circulation is very weak",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Prinzmetal angina | 99.52% | L5 | Hold | ⚠️ CPA's prothrombotic effect may worsen coronary vasospasm events",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Antithrombin deficiency type 2 | 99.48% | L5 | Hold | ⛔ CONTRAINDICATION: CPA increases VTE risk in inherited thrombophilia",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Heparin cofactor 2 deficiency | 99.45% | L5 | Hold | ⛔ CONTRAINDICATION: CPA worsens coagulation imbalance",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Factor V excess with spontaneous thrombosis | 99.45% | L5 | Hold | ⛔ CONTRAINDICATION: CPA + Factor V Leiden = synergistic VTE risk (PMID 29614525)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Migraine susceptibility (with/without aura) | 99.34% | L5 | Hold | 20 publications retrieved — all are epilepsy genetics papers with no CPA relevance",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Amenorrhea | 99.28% | L3 | Proceed with Guardrails | Best evidence: 4 clinical trials + 14 publications; mechanistic basis well-established",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Breast fibrocystic disease | 99.15% | L4 | Research Question | 4 publications; preclinical hypothesis only; dual hormonal effects uncertain",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Thrombophilia | 99.03% | L4 | Hold | ⛔ REVERSE CAUSATION: 18 publications all document CPA as a VTE risk factor, not a treatment",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Cytarabine",
+      "slug": "cytarabine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dabigatran",
+      "slug": "dabigatran",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dabrafenib",
+      "slug": "dabrafenib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dantrolene",
+      "slug": "dantrolene",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Darolutamide",
+      "slug": "darolutamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Darunavir",
+      "slug": "darunavir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dasatinib",
+      "slug": "dasatinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
     {
       "name": "Erbitux",
       "slug": "db00002",
@@ -188813,9 +191051,2086 @@
           "level": "L5"
         }
       ]
+    },
+    {
+      "name": "Deferasirox",
+      "slug": "deferasirox",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Deferiprone",
+      "slug": "deferiprone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Degarelix",
+      "slug": "degarelix",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Denosumab",
+      "slug": "denosumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Desmopressin",
+      "slug": "desmopressin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Congenital prothrombin deficiency | 99.70% | L4 | Hold | Weak mechanistic link (DDAVP does not affect Factor II)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Inherited thrombophilia | 99.44% | L4 | Hold | ⚠️ Potential contraindication — DDAVP promotes platelet aggregation in already hypercoagulable states",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Glanzmann thrombasthenia | 99.30% | L4 | Research Question | Partial benefit plausible via GPIb-vWF alternative pathway; GPIIb/IIIa remains non-functional",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "**Primary release disorder of platelets** | **99.26%** | **L3** | **Proceed with Guardrails** | **Best mechanistic-evidence match; prospective clinical data available**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pseudo-von Willebrand disease | 99.16% | L4 | Hold | ⚠️ Known contraindication — GPIbα gain-of-function mutation; DDAVP worsens thrombocytopenia",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Scott syndrome | 99.16% | L5 | Hold | No mechanistic relevance — DDAVP cannot correct phosphatidylserine externalisation defect",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Flood factor deficiency | 99.15% | L5 | Hold | ⚠️ Uncertain disease definition; term not standard — requires clarification before evaluation",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Thrombocytopenic purpura (TTP) | 98.95% | L3 | Hold | ⚠️ Documented harm — DDAVP worsens TTP by releasing additional vWF multimers (PMID 15499705, PMID 21921792)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Bleeding diathesis due to collagen receptor defect | 98.95% | L4 | Research Question | Indirect mechanistic rationale — DDAVP-vWF may bridge collagen via GPIb-vWF-A3 domain pathway",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hereditary thrombocytosis with transverse limb defect | 98.95% | L5 | Hold | No evidence; DDAVP rationale absent in thrombocytosis setting",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Desvenlafaxine",
+      "slug": "desvenlafaxine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dexamethasone",
+      "slug": "dexamethasone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dexpanthenol",
+      "slug": "dexpanthenol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Anorectal stricture | 99.72% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Imperforate anus | 99.71% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Anal polyp | 99.62% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Vulvar inverted follicular keratosis | 99.60% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Proctitis | 99.60% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Punctate epithelial keratoconjunctivitis | 99.34% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acute urate nephropathy | 98.99% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Indeterminate colitis | 98.87% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Diversion colitis | 98.87% | L5 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Diazepam",
+      "slug": "diazepam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Diclofenac",
+      "slug": "diclofenac",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dicloxacillin",
+      "slug": "dicloxacillin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dienogest",
+      "slug": "dienogest",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Digoxin",
+      "slug": "digoxin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Prinzmetal Angina | 99.81% | L4 | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Duodenal Obstruction | 99.70% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Duodenal Ulcer | 99.59% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Duodenogastric Reflux | 99.53% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Ischemic Stroke Susceptibility *(obsolete term)* | 99.29% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hypoalphalipoproteinaemia | 99.20% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Homozygous Familial Hypercholesterolaemia | 98.98% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Nephrogenic Syndrome of Inappropriate Antidiuresis | 98.83% | L5 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Thrombotic Disease | 98.75% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "**Stroke Disorder** | **98.19%** | **L3** | **Proceed with Guardrails**",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Diltiazem",
+      "slug": "diltiazem",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dimethyl Fumarate",
+      "slug": "dimethyl_fumarate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Diroximel Fumarate",
+      "slug": "diroximel_fumarate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Disopyramide",
+      "slug": "disopyramide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Docetaxel",
+      "slug": "docetaxel",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Docusate",
+      "slug": "docusate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dolutegravir",
+      "slug": "dolutegravir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "AIDS Related Complex (ARC)",
+          "score": 5.0,
+          "level": "L1"
+        },
+        {
+          "name": "Congenital / Perinatal HIV",
+          "score": 6.0,
+          "level": "L1"
+        }
+      ]
+    },
+    {
+      "name": "Domperidone",
+      "slug": "domperidone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Donepezil",
+      "slug": "donepezil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dornase Alfa",
+      "slug": "dornase_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dorzolamide",
+      "slug": "dorzolamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dostarlimab",
+      "slug": "dostarlimab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dosulepin",
+      "slug": "dosulepin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Doxorubicin",
+      "slug": "doxorubicin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Doxycycline",
+      "slug": "doxycycline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Drospirenone",
+      "slug": "drospirenone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dulaglutide",
+      "slug": "dulaglutide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Duloxetine",
+      "slug": "duloxetine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dupilumab",
+      "slug": "dupilumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Durvalumab",
+      "slug": "durvalumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dutasteride",
+      "slug": "dutasteride",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Ambras type hypertrichosis universalis congenita | 99.998% | L5 | **Hold** | TRPS1 gene defect; non-DHT-dependent; likely KG artefact",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hypertrichosis (disease) | 99.997% | L5 | **Hold** | Heterogeneous aetiology; no Dutasteride-specific evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malformation syndrome with odontal/periodontal component | 99.997% | L5 | **Hold** | 20 literature hits all on general periodontitis; none on Dutasteride; KG artefact",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Syndrome with Dandy-Walker malformation as major feature | 99.996% | L5 | **Hold** | Congenital posterior fossa brain defect; no DHT pathway link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Isolated genetic hair shaft abnormality | 99.996% | L5 | **Hold** | Keratin structural protein mutations; non-DHT-dependent",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hypotrichosis simplex of the scalp | 99.771% | L5 | **Hold** | Autosomal genetic hypotrichosis (CDSN/LPAR6); non-androgenic",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Congenital hypotrichosis milia | 99.753% | L5 | **Hold** | Rare skin barrier protein defect; no DHT intersection",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Migraine with brainstem aura | 99.667% | L5 | **Hold** | Neurosteroid hypothesis present but multi-step indirect; no clinical data",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Familial isolated trichomegaly | 99.565% | L5 | **Hold** | Rare eyelash genetic disorder; no Dutasteride research proposed to date",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Eculizumab",
+      "slug": "eculizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Edaravone",
+      "slug": "edaravone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Eflornithine",
+      "slug": "eflornithine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Elafibranor",
+      "slug": "elafibranor",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Eletriptan",
+      "slug": "eletriptan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Elotuzumab",
+      "slug": "elotuzumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Eltrombopag",
+      "slug": "eltrombopag",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Empagliflozin",
+      "slug": "empagliflozin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Enalapril",
+      "slug": "enalapril",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Encorafenib",
+      "slug": "encorafenib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Enfortumab Vedotin",
+      "slug": "enfortumab_vedotin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Leprosy | 99.53% | No mechanistic link. EV is a tumour-targeted ADC with no antibacterial or immunomodulatory activity against *Mycobacterium leprae*. Likely knowledge graph topological noise.",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Multiple Endocrine Neoplasia | 99.43% | MEN is a hereditary syndrome driven by MEN1/RET mutations. No clinical or preclinical evidence that EV has any activity in this condition.",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cytomegalovirus Infection | 99.36% | CMV is a viral infection. EV has no antiviral mechanism. EV-related immunosuppression could worsen CMV reactivation — a contra-indicator, not a treatment signal.",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Candidiasis | 99.30% | The only retrieved publication (PMID 41341429) identifies candidiasis as an **adverse event signal** of EV — i.e., EV may increase risk of candidiasis, not treat it. This is reverse evidence.",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cerebral Infarction | 99.23% | Ischaemic stroke involves thrombosis and neuronal hypoxia. No mechanistic relevance to Nectin-4/MMAE biology.",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "HIV Infectious Disease | 99.19% | HIV requires antiretroviral therapy. EV has no anti-HIV activity. EV immunotoxicity is particularly hazardous in immunocompromised patients.",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Homozygous Familial Hypercholesterolaemia | 99.18% | LDL receptor-deficiency metabolic disease; completely unrelated to Nectin-4 biology or lipid metabolism.",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malignant Catarrh | 99.13% | A viral disease of **ruminant animals** (OvHV-2/AlHV-1). Species incompatibility — EV is a human oncology drug.",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Infectious Bovine Rhinotracheitis | 99.13% | A **cattle** disease (BHV-1 virus). Same species incompatibility issue as above. Likely due to topological proximity of animal disease nodes in the knowledge graph.",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Enoxaparin",
+      "slug": "enoxaparin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Entacapone",
+      "slug": "entacapone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "PLA2G6-associated neurodegeneration | 99.76% | L5 | **Hold** | Low — phospholipase/iron accumulation pathway, no dopaminergic link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Rasmussen subacute encephalitis | 99.73% | L5 | **Hold** | Very Low — autoimmune T-cell mediated neuronal destruction",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Myelitis | 99.63% | L5 | **Hold** | Low — spinal cord inflammation, no established dopaminergic bridge",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Paralysis agitans, juvenile, of Hunt | 99.60% | L5 | Research Question | **High** — juvenile Parkinsonism shares core nigrostriatal dopamine deficiency mechanism",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Transaldolase deficiency | 99.43% | L5 | **Hold** | Very Low — pentose phosphate pathway metabolic disorder",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Lethal infantile mitochondrial myopathy | 99.28% | L5 | **Hold** | ⚠️ Potentially harmful — Entacapone has in vitro mitochondrial Complex I inhibition signal",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Lewy body dementia | 99.25% | L4 | Research Question | **Moderate** — significant dopaminergic deficit; preclinical evidence available",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Fructose-1,6-bisphosphatase deficiency | 99.22% | L5 | **Hold** | Very Low — gluconeogenesis metabolic disorder",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Polymicrogyria, perisylvian (with cerebellar hypoplasia and arthrogryposis) | 99.06% | L5 | **Hold** | None — congenital structural brain abnormality, not amenable to pharmacological repair",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Progressive supranuclear palsy–corticobasal syndrome | 99.04% | L4 | Research Question | Low–Moderate — tauopathy; levodopa response generally poor (<20%)",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Entecavir",
+      "slug": "entecavir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Entrectinib",
+      "slug": "entrectinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Enzalutamide",
+      "slug": "enzalutamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ephedrine",
+      "slug": "ephedrine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Epinephrine",
+      "slug": "epinephrine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Epirubicin",
+      "slug": "epirubicin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Eplerenone",
+      "slug": "eplerenone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Epoprostenol",
+      "slug": "epoprostenol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Eprosartan",
+      "slug": "eprosartan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Eptinezumab",
+      "slug": "eptinezumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Eribulin",
+      "slug": "eribulin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Erlotinib",
+      "slug": "erlotinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Erythromycin",
+      "slug": "erythromycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Escitalopram",
+      "slug": "escitalopram",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Esketamine",
+      "slug": "esketamine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ethosuximide",
+      "slug": "ethosuximide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Etonogestrel",
+      "slug": "etonogestrel",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Amenorrhea (disease) | 99.84% | L3 | Proceed with Guardrails",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Breast fibrocystic disease | 99.61% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Apocrine adenosis of breast | 99.29% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Blunt duct adenosis of breast | 99.29% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Benign mammary dysplasia | 99.21% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Breast abscess | 98.99% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Fat necrosis of breast | 98.99% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Breast adenosis | 98.86% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acne (disease) | 98.69% | L4 | Hold ⚠️",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Etoposide",
+      "slug": "etoposide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Etravirine",
+      "slug": "etravirine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Eucalyptus Oil",
+      "slug": "eucalyptus_oil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Everolimus",
+      "slug": "everolimus",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Evolocumab",
+      "slug": "evolocumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Exemestane",
+      "slug": "exemestane",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ezetimibe",
+      "slug": "ezetimibe",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Famciclovir",
+      "slug": "famciclovir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Famotidine",
+      "slug": "famotidine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Granisetron",
+      "slug": "granisetron",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Griseofulvin",
+      "slug": "griseofulvin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Myiasis | 99.41% | L5 | ❌ Dipteran larvae — antifungal mechanism irrelevant",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Wound myiasis | 99.34% | L5 | ❌ Same as above; no literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Creeping myiasis | 99.34% | L5 | ❌ Same as above; no literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Furuncular myiasis | 99.34% | L5 | ❌ Same as above; physical removal is standard care",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Echinococcus granulosus infection | 99.32% | L5 | ❌ Tapeworm disease — Albendazole/surgery is standard; Griseofulvin has no anthelmintic activity",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cutaneous candidiasis | 98.71% | L4 | ❌ **Reverse evidence** — Griseofulvin is pharmacologically inactive against *Candida*; 20 retrieved references use it as a negative comparator",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Toxoplasmosis | 98.69% | L5 | ❌ Protozoan infection — standard therapy is Pyrimethamine + Sulfadiazine; no mechanistic link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Alveolar echinococcosis | 98.36% | L5 | ❌ *Echinococcus multilocularis* tapeworm — same false positive pattern as rank 5",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Blastomycosis | 97.08% | L4 | ❌ Dimorphic fungus — Griseofulvin has minimal in vitro activity; IDSA 2008 guidelines recommend Itraconazole or Amphotericin B; references are 1960–70s historical reviews only",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Bacteroidaceae infectious disease | 95.57% | L5 | ❌ Gram-negative anaerobic bacteria — Griseofulvin has no antibacterial activity; most egregious cross-domain model error",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Guanfacine",
+      "slug": "guanfacine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Guselkumab",
+      "slug": "guselkumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Haloperidol",
+      "slug": "haloperidol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Heparin",
+      "slug": "heparin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Hyaluronic Acid",
+      "slug": "hyaluronic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Hydrochlorothiazide",
+      "slug": "hydrochlorothiazide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Hydrocortisone",
+      "slug": "hydrocortisone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Hydrocortisone Acetate",
+      "slug": "hydrocortisone_acetate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Hydromorphone",
+      "slug": "hydromorphone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Hydroxocobalamin",
+      "slug": "hydroxocobalamin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Hydroxychloroquine",
+      "slug": "hydroxychloroquine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Hydroxyurea",
+      "slug": "hydroxyurea",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Hypromellose",
+      "slug": "hypromellose",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ibandronate",
+      "slug": "ibandronate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ibrutinib",
+      "slug": "ibrutinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Insulin Detemir",
+      "slug": "insulin_detemir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Insulin Glargine",
+      "slug": "insulin_glargine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Insulin Glulisine",
+      "slug": "insulin_glulisine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Insulin Lispro",
+      "slug": "insulin_lispro",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Interferon Beta-1B",
+      "slug": "interferon_beta-1b",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Interferon Gamma-1B",
+      "slug": "interferon_gamma-1b",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Iodine",
+      "slug": "iodine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ipilimumab",
+      "slug": "ipilimumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Choroideremia | 99.06% | L5 — No evidence | **Hold** (likely false positive)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Epithelioid Cell Melanoma | 98.96% | L3 — Case series | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Eyelid Melanoma | 98.95% | L4 — Case reports | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Scrotum Melanoma | 98.84% | L4 — No direct evidence | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Lentigo Maligna Melanoma | 98.64% | L4 — Case reports | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Balloon Cell Melanoma | 98.64% | L5 — Safety concern only | **Hold**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Nodular Malignant Melanoma | 98.64% | L3 — Retrospective cohorts | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Ipratropium",
+      "slug": "ipratropium",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Irbesartan",
+      "slug": "irbesartan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Irinotecan",
+      "slug": "irinotecan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Iron Sucrose",
+      "slug": "iron_sucrose",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Isoniazid",
+      "slug": "isoniazid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Isosorbide Dinitrate",
+      "slug": "isosorbide_dinitrate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Isosorbide Mononitrate",
+      "slug": "isosorbide_mononitrate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Isotretinoin",
+      "slug": "isotretinoin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Malignant hypertensive renal disease | 99.01% | L5 | Hold | No evidence; likely knowledge-graph artefact",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malignant renovascular hypertension | 99.01% | L5 | Hold | Identical score — same disease-ontology cluster as rank 1",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pulmonary hypertension (lung disease/hypoxia) | 98.89% | L5 | Hold | 20 general hypoxia-biology reviews retrieved; none specific to Isotretinoin",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pulmonary hypertension (multifactorial/unclear) | 98.89% | L5 | Hold | Identical score to rank 3 — WHO Group 5 heterogeneous cluster",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Braddock syndrome | 98.66% | L5 | Hold | Rare genetic syndrome (ID, cardiac, craniofacial); no RAR pathway link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cholangiocarcinoma susceptibility | 61.91% | L5 | Hold | Prevention scope; RARβ silencing hypothesis only; score near threshold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Obsolete functional visual loss | 59.19% | L5 | Hold | Retired disease ontology term — no valid clinical entity",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Myxomatous mitral valve prolapse | 59.11% | L5 | Hold | Indirect MMP/ECM hypothesis; TxGNN score approaching random",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Ocular tuberculosis | 58.68% | L5 | Hold | No known anti-mycobacterial activity; weakest prediction in set",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Itraconazole",
+      "slug": "itraconazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ivabradine",
+      "slug": "ivabradine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ivacaftor",
+      "slug": "ivacaftor",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ivermectin",
+      "slug": "ivermectin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Vulvovaginal Candidiasis | 99.95% | 0 | 0 | L5 | Hold | Yes — no antifungal mechanism",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Esophageal Candidiasis | 99.73% | 0 | 1* | L5 | Hold | Yes — cited paper treats strongyloidiasis, not candidiasis",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Anogenital HPV Infection | 99.48% | 0 | 0 | L5 | Hold | Yes — no anti-HPV mechanism; geographic KG co-occurrence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Vulvovaginitis | 99.36% | 0 | 0 | L5 | Hold | Yes — minimal isolated preclinical signal (*Trichomonas*); no clinical data",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Candida glabrata | 99.25% | 0 | 0 | L5 | Hold | Yes — no antifungal mechanism for this azole-resistant species",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Congenital Candidiasis | 99.25% | 0 | 1* | L5 | Hold | Yes — cited paper treats scabies, not candidiasis",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Neonatal Candidiasis | 99.25% | 0 | 0 | L5 | Hold | Yes — no mechanism; Ivermectin generally avoided in neonates (<15 kg)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Postmenopausal Atrophic Vaginitis | 99.18% | 0 | 0 | L5 | Hold | Yes — non-infectious; no plausible mechanism",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Candidiasis, Invasive | 99.16% | 0 | 0 | L5 | Hold | Yes — no systemic antifungal mechanism; plasma levels far below any antifungal threshold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Vulvitis | 98.98% | 0 | 0 | L5 | Hold | Yes — lowest score; no mechanism or evidence",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Ivosidenib",
+      "slug": "ivosidenib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ixekizumab",
+      "slug": "ixekizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
     }
   ],
   "indications": [
+    {
+      "name": "**Nicotine Dependence** | 99.19% | **L2** | **3** | **20** | **Proceed with Guardrails**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baclofen",
+          "slug": "baclofen",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "**Paraneoplastic Cerebellar Degeneration** | 97.99% | **L4** | **Research Question** | Strongest candidate: SCLC-associated, shared P/Q-type VGCC autoimmunity with LEMS; 2 contextual publications identified",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Amifampridine",
+          "slug": "amifampridine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "**Paraneoplastic Limbic Encephalitis** | 98.31% | **L4** | **Research Question** | Indirect: LGI1/CASPR2/VGCC antibody subtype overlaps with LEMS autoimmune mechanism",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Amifampridine",
+          "slug": "amifampridine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "**Paraneoplastic Polyneuropathy** | 98.26% | **L4** | **Research Question** | Indirect: LEMS can co-present with sensorimotor neuropathy; anti-VGCC/Hu antibody overlap",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Amifampridine",
+          "slug": "amifampridine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "**Primary release disorder of platelets** | **99.26%** | **L3** | **Proceed with Guardrails** | **Best mechanistic-evidence match; prospective clinical data available**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Desmopressin",
+          "slug": "desmopressin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "**Stroke Disorder** | **98.19%** | **L3** | **Proceed with Guardrails**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Digoxin",
+          "slug": "digoxin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "2012 | Case report | Rapid efficacy of abatacept in RV (Tier 2)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "2016 | Case report | **New-onset RV during abatacept therapy** (Tier 2)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "2018 | Case report | RA-associated orbital vasculitis **during abatacept** (Tier 2)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "2018 | Case report/series | Abatacept as therapeutic option for RV (Tier 2)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "2023 | Case report | ANCA-associated nephritis during abatacept therapy (Tier 3)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "ADHD — Inattentive Type | 98.89% | L5 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baclofen",
+          "slug": "baclofen",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "AIDS Related Complex (ARC)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dolutegravir",
+          "slug": "dolutegravir",
+          "score": 5.0
+        }
+      ]
+    },
+    {
+      "name": "AIDS-related complex | 0.928 | L2 | S3 | **Proceed with Guardrails**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Abemaciclib and Vacuolin-1 decrease aggregate-prone TDP-43 accumulation by accelerating autophagic flux | Preclinical (in vitro) | **Direct evidence** that abemaciclib reduces TDP-43 aggregation via autophagy enhancement",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Acne (disease) | 98.69% | L4 | Hold ⚠️",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Etonogestrel",
+          "slug": "etonogestrel",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Acne | 88.00% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atovaquone",
+          "slug": "atovaquone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Acute Intermittent Porphyria | 99.32% | L5 | Hold | No mechanistic link; KG artefact via neurological symptom co-occurrence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Amifampridine",
+          "slug": "amifampridine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Acute intermittent porphyria | 99.41% | L5 | Hold | One anaesthesia case report (PMID 8301837); buprenorphine used *safely in* AIP, not *as treatment for* AIP — prediction likely reflects pain pathway co-occurrence in knowledge graph",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Buprenorphine",
+          "slug": "buprenorphine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Acute laryngopharyngitis | 99.92% | Infectious aetiology; codeine has no anti-infective mechanism; no evidence | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Codeine",
+          "slug": "codeine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Acute urate nephropathy | 98.99% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dexpanthenol",
+          "slug": "dexpanthenol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Adenosine deaminase deficiency | 95.76% | ❌ Metabolic/genetic disease; no VEGF connection | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Aflibercept",
+          "slug": "aflibercept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Aggressive Systemic Mastocytosis | 99.88% | L4 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Anakinra",
+          "slug": "anakinra",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Allergic urticaria | 99.37% | **Reverse mechanism** — codeine is a known urticaria *trigger* via non-immunological mast cell degranulation | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Codeine",
+          "slug": "codeine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Alopecia | 94.82% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Benzydamine",
+          "slug": "benzydamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Alveolar echinococcosis | 98.36% | L5 | ❌ *Echinococcus multilocularis* tapeworm — same false positive pattern as rank 5",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Griseofulvin",
+          "slug": "griseofulvin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Ambras type hypertrichosis universalis congenita | 99.998% | L5 | **Hold** | TRPS1 gene defect; non-DHT-dependent; likely KG artefact",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dutasteride",
+          "slug": "dutasteride",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Amenorrhea (disease) | 99.84% | L3 | Proceed with Guardrails",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Etonogestrel",
+          "slug": "etonogestrel",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Amenorrhea | 99.28% | L3 | Proceed with Guardrails | Best evidence: 4 clinical trials + 14 publications; mechanistic basis well-established",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cyproterone Acetate",
+          "slug": "cyproterone_acetate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Amyotrophic lateral sclerosis (ALS) | 0.9623 | L4 | S1 | **Research Question**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Anal polyp | 99.62% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dexpanthenol",
+          "slug": "dexpanthenol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Animal study: Abemaciclib causes cardiac damage and fibrosis in rats | Direct cardiotoxicity",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Ankylosing spondylitis | 0.9991 | L3 | S1 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Anogenital HPV Infection | 99.48% | 0 | 0 | L5 | Hold | Yes — no anti-HPV mechanism; geographic KG co-occurrence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ivermectin",
+          "slug": "ivermectin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Anorectal stricture | 99.72% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dexpanthenol",
+          "slug": "dexpanthenol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Antithrombin deficiency type 2 | 99.48% | L5 | Hold | ⛔ CONTRAINDICATION: CPA increases VTE risk in inherited thrombophilia",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cyproterone Acetate",
+          "slug": "cyproterone_acetate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Apocrine adenosis of breast | 99.29% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Etonogestrel",
+          "slug": "etonogestrel",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Atrophoderma vermiculata | 0.977 | L5 | S0 | **Hold** | Very weak, speculative",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abiraterone",
+          "slug": "abiraterone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Attention Deficit-Hyperactivity Disorder | 99.32% | L4 | 0 | 10 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baclofen",
+          "slug": "baclofen",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Autosomal Recessive Familial Mediterranean Fever | 99.89% | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Anakinra",
+          "slug": "anakinra",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Bacteroidaceae infectious disease | 95.57% | L5 | ❌ Gram-negative anaerobic bacteria — Griseofulvin has no antibacterial activity; most egregious cross-domain model error",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Griseofulvin",
+          "slug": "griseofulvin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Balloon Cell Melanoma | 98.64% | L5 — Safety concern only | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ipilimumab",
+          "slug": "ipilimumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Benign Prostatic Hyperplasia | 99.26% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Benzydamine",
+          "slug": "benzydamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Benign mammary dysplasia | 99.21% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Etonogestrel",
+          "slug": "etonogestrel",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Benign paroxysmal tonic upgaze with ataxia | 98.91% | L5 | Hold | Rare paediatric condition; no evidence; no plausible opioid pathway link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Buprenorphine",
+          "slug": "buprenorphine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Benign shuddering attacks | 99.03% | L5 | Hold | No evidence; self-limiting paediatric condition with no known opioid pathway involvement",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Buprenorphine",
+          "slug": "buprenorphine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Blastomycosis | 97.08% | L4 | ❌ Dimorphic fungus — Griseofulvin has minimal in vitro activity; IDSA 2008 guidelines recommend Itraconazole or Amphotericin B; references are 1960–70s historical reviews only",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Griseofulvin",
+          "slug": "griseofulvin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Bleeding diathesis due to collagen receptor defect | 98.95% | L4 | Research Question | Indirect mechanistic rationale — DDAVP-vWF may bridge collagen via GPIb-vWF-A3 domain pathway",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Desmopressin",
+          "slug": "desmopressin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Blunt duct adenosis of breast | 99.29% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Etonogestrel",
+          "slug": "etonogestrel",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Brachydactyly-syndactyly syndrome | 0.9950 | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Brachydactyly-syndactyly syndrome | 99.94% | L5 | Hold | Very low — skeletal developmental anomaly",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baricitinib",
+          "slug": "baricitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Braddock Syndrome | 99.37% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carvedilol",
+          "slug": "carvedilol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Braddock syndrome | 98.66% | L5 | Hold | Rare genetic syndrome (ID, cardiac, craniofacial); no RAR pathway link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Isotretinoin",
+          "slug": "isotretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Braddock syndrome | 99.80% | L5 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atenolol",
+          "slug": "atenolol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Brain Stem Infarction | 59.72% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carvedilol",
+          "slug": "carvedilol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Breast abscess | 98.99% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Etonogestrel",
+          "slug": "etonogestrel",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Breast adenosis | 98.86% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Etonogestrel",
+          "slug": "etonogestrel",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Breast fibrocystic disease | 99.15% | L4 | Research Question | 4 publications; preclinical hypothesis only; dual hormonal effects uncertain",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cyproterone Acetate",
+          "slug": "cyproterone_acetate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Breast fibrocystic disease | 99.61% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Etonogestrel",
+          "slug": "etonogestrel",
+          "score": 99.0
+        }
+      ]
+    },
     {
       "name": "Brown syndrome",
       "drug_count": 729,
@@ -188884,6 +193199,622 @@
       ]
     },
     {
+      "name": "CMM7 (CDKN2A/CDK4-mutated hereditary melanoma) | 99.37% | L5 | Hold | No clinical or preclinical evidence; no biological rationale linking proteasome inhibition to this genetic subtype",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carfilzomib",
+          "slug": "carfilzomib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "CNS melanocytic neoplasm | 93.29% | L5 | Hold | Blood-brain barrier penetration barrier; no clinical or preclinical evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carfilzomib",
+          "slug": "carfilzomib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Calcific tendinitis | 0.879 | L5 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Calcific tendinitis | Calcium deposition disorder; Abacavir has no calcium metabolism or tendon repair activity.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Candida glabrata | 99.25% | 0 | 0 | L5 | Hold | Yes — no antifungal mechanism for this azole-resistant species",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ivermectin",
+          "slug": "ivermectin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Candidiasis | 99.30% | The only retrieved publication (PMID 41341429) identifies candidiasis as an **adverse event signal** of EV — i.e., EV may increase risk of candidiasis, not treat it. This is reverse evidence.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Enfortumab Vedotin",
+          "slug": "enfortumab_vedotin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Candidiasis, Invasive | 99.16% | 0 | 0 | L5 | Hold | Yes — no systemic antifungal mechanism; plasma levels far below any antifungal threshold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ivermectin",
+          "slug": "ivermectin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Case report: Coronary plaque erosion after abemaciclib initiation | Acute myocardial infarction",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Cerebral Infarction | 99.23% | Ischaemic stroke involves thrombosis and neuronal hypoxia. No mechanistic relevance to Nectin-4/MMAE biology.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Enfortumab Vedotin",
+          "slug": "enfortumab_vedotin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Cerebrovascular Disorder | 68.08% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carvedilol",
+          "slug": "carvedilol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Cervical disc degenerative disorder | 97.40% | Extension of existing analgesic use, not novel repurposing; chronic opioid use in musculoskeletal pain is actively discouraged | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Codeine",
+          "slug": "codeine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Cholangiocarcinoma susceptibility | 61.91% | L5 | Hold | Prevention scope; RARβ silencing hypothesis only; score near threshold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Isotretinoin",
+          "slug": "isotretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Chondromyxoid Fibroma | 98.15% | L5 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baclofen",
+          "slug": "baclofen",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Choroideremia | 99.06% | L5 — No evidence | **Hold** (likely false positive)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ipilimumab",
+          "slug": "ipilimumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Chronic hepatitis C virus infection | 0.927 | L3 | S1 | **Research Question**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Chronic tic disorder | 99.13% | L5 | Hold | One case series on heroin addiction in Tourette syndrome (PMID 30395551); no evidence of buprenorphine as a tic treatment",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Buprenorphine",
+          "slug": "buprenorphine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Cirrhotic cardiomyopathy | 99.88% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Acetazolamide",
+          "slug": "acetazolamide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Cold urticaria | 94.63% | **Methodological false positive** — codeine used as a positive control stimulus in lab skin tests, not as a therapy | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Codeine",
+          "slug": "codeine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 0.9948 | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.94% | L5 | Hold | Very low — structural congenital defect; likely KG artefact",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baricitinib",
+          "slug": "baricitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Congenital / Perinatal HIV",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dolutegravir",
+          "slug": "dolutegravir",
+          "score": 6.0
+        }
+      ]
+    },
+    {
+      "name": "Congenital Candidiasis | 99.25% | 0 | 1* | L5 | Hold | Yes — cited paper treats scabies, not candidiasis",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ivermectin",
+          "slug": "ivermectin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Congenital human immunodeficiency virus | 0.928 | L1 | S3 | **Proceed with Guardrails**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Congenital hypotrichosis milia | 99.753% | L5 | **Hold** | Rare skin barrier protein defect; no DHT intersection",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dutasteride",
+          "slug": "dutasteride",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Congenital myopathy with excess of thin filaments | 99.90% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Acetazolamide",
+          "slug": "acetazolamide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Congenital prothrombin deficiency | 99.70% | L4 | Hold | Weak mechanistic link (DDAVP does not affect Factor II)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Desmopressin",
+          "slug": "desmopressin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Continuous spikes and waves during sleep | 99.05% | L5 | Hold | No evidence; opioids may lower seizure threshold — potential safety concern in this paediatric epilepsy syndrome",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Buprenorphine",
+          "slug": "buprenorphine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Creeping myiasis | 85.07% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atovaquone",
+          "slug": "atovaquone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Creeping myiasis | 99.34% | L5 | ❌ Same as above; no literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Griseofulvin",
+          "slug": "griseofulvin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Cutaneous candidiasis | 98.71% | L4 | ❌ **Reverse evidence** — Griseofulvin is pharmacologically inactive against *Candida*; 20 retrieved references use it as a negative comparator",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Griseofulvin",
+          "slug": "griseofulvin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Cytomegalovirus Infection | 99.36% | CMV is a viral infection. EV has no antiviral mechanism. EV-related immunosuppression could worsen CMV reactivation — a contra-indicator, not a treatment signal.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Enfortumab Vedotin",
+          "slug": "enfortumab_vedotin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Distal myopathy, Tateyama type | 99.88% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Acetazolamide",
+          "slug": "acetazolamide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Diversion colitis | 98.87% | L5 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dexpanthenol",
+          "slug": "dexpanthenol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Duodenal Obstruction | 99.70% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Digoxin",
+          "slug": "digoxin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Duodenal Ulcer | 99.59% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Digoxin",
+          "slug": "digoxin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Duodenogastric Reflux | 99.53% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Digoxin",
+          "slug": "digoxin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Echinococcus granulosus infection | 99.32% | L5 | ❌ Tapeworm disease — Albendazole/surgery is standard; Griseofulvin has no anthelmintic activity",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Griseofulvin",
+          "slug": "griseofulvin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Ectomesenchymoma | 94.52% | ✅ Tumour angiogenesis VEGF mechanism applicable (ultra-rare tumour) | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Aflibercept",
+          "slug": "aflibercept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Epithelioid Cell Melanoma | 98.96% | L3 — Case series | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ipilimumab",
+          "slug": "ipilimumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Epithelioid cell uveal melanoma | 99.23% | L5 | Hold | Driven by GNAQ/GNA11 mutations; no mechanistic link to proteasome inhibition",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carfilzomib",
+          "slug": "carfilzomib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Esophageal Candidiasis | 99.73% | 0 | 1* | L5 | Hold | Yes — cited paper treats strongyloidiasis, not candidiasis",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ivermectin",
+          "slug": "ivermectin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Esophageal Disease | **L3** | Research Question | Linxian nutritional intervention trial ([NCT00342654](https://clinicaltrials.gov/study/NCT00342654), n=32,902); dose-response meta-analyses on dietary Vitamin C and oesophageal cancer risk (PMID [26355388](https://pubmed.ncbi.nlm.nih.gov/26355388/); PMID [35703897](https://pubmed.ncbi.nlm.nih.gov/35703897/)) — ⚠️ **Safety caveat:** animal studies (PMID [17953708](https://pubmed.ncbi.nlm.nih.gov/17953708/)) suggest potential pro-carcinogenic signal under acid reflux conditions with sodium nitrite co-exposure; dual-direction risk assessment required before clinical development",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ascorbic Acid",
+          "slug": "ascorbic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Esophageal Varices with Bleeding | 98.77% | L5 | Hold | Portal hypertension pathology unrelated to VGKC",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Amifampridine",
+          "slug": "amifampridine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Esophageal Varices without Bleeding | 98.77% | L5 | Hold | Identical score to Rank 3; duplicate KG nodes",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Amifampridine",
+          "slug": "amifampridine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Esophageal varices (with bleeding) | 97.56% | ⚠️ Plausible mechanism but acute haemorrhage setting raises serious safety concerns | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Aflibercept",
+          "slug": "aflibercept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Esophageal varices (without bleeding) | 97.56% | ✅ Biologically plausible — VEGF drives portal hypertension neovascularisation | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Aflibercept",
+          "slug": "aflibercept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Esotropia | 99.38% | ❌ No VEGF link — likely KG artefact | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Aflibercept",
+          "slug": "aflibercept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Exercise-induced malignant hyperthermia | 99.95% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Acetazolamide",
+          "slug": "acetazolamide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Extracutaneous Mastocytoma | 99.93% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Anakinra",
+          "slug": "anakinra",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Extrapyramidal and movement disease | 99.03% | L5 | Hold | Indication too broad to assess meaningfully; no specific evidence for any subtype",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Buprenorphine",
+          "slug": "buprenorphine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Eyelid Melanoma | 98.95% | L4 — Case reports | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ipilimumab",
+          "slug": "ipilimumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "FAERS analysis: QT prolongation and Torsades de Pointes with CDK4/6 inhibitors | Serious cardiac arrhythmia risk",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Facial nerve palsy (herpes zoster) | 89.16% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atovaquone",
+          "slug": "atovaquone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Faciodigitogenital Syndrome (Aarskog-Scott) | 98.78% | L5 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baclofen",
+          "slug": "baclofen",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Factor V excess with spontaneous thrombosis | 99.45% | L5 | Hold | ⛔ CONTRAINDICATION: CPA + Factor V Leiden = synergistic VTE risk (PMID 29614525)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cyproterone Acetate",
+          "slug": "cyproterone_acetate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Familial isolated trichomegaly | 99.565% | L5 | **Hold** | Rare eyelash genetic disorder; no Dutasteride research proposed to date",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dutasteride",
+          "slug": "dutasteride",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Fanconi anemia complementation group",
       "drug_count": 729,
       "drugs": [
@@ -188935,6 +193866,116 @@
         {
           "drug": "Kineret",
           "slug": "db00026",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Fat necrosis of breast | 98.99% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Etonogestrel",
+          "slug": "etonogestrel",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Faucial diphtheria | 97.63% | Bacterial toxin disease; codeine has no antibacterial or anti-toxin mechanism; zero evidence | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Codeine",
+          "slug": "codeine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Feline acquired immunodeficiency syndrome | 0.998 | L3 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Female Breast Carcinoma | 95.23% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Benzydamine",
+          "slug": "benzydamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Fibroma of prostate | 0.870 | L5 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Fibroma of prostate | Benign mesenchymal tumour; no anti-tumour or anti-fibrotic NRTI mechanism.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Flood factor deficiency | 99.15% | L5 | Hold | ⚠️ Uncertain disease definition; term not standard — requires clarification before evaluation",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Desmopressin",
+          "slug": "desmopressin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Fructose-1,6-bisphosphatase deficiency | 99.22% | L5 | **Hold** | Very Low — gluconeogenesis metabolic disorder",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entacapone",
+          "slug": "entacapone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Furuncular myiasis | 85.07% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atovaquone",
+          "slug": "atovaquone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Furuncular myiasis | 99.34% | L5 | ❌ Same as above; physical removal is standard care",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Griseofulvin",
+          "slug": "griseofulvin",
           "score": 99.0
         }
       ]
@@ -188996,6 +194037,1579 @@
       ]
     },
     {
+      "name": "Ganglioneuroblastoma | 87.59% | L5 | Hold | Low — neural tumour; no JAK-specific preclinical data",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baricitinib",
+          "slug": "baricitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Glanzmann thrombasthenia | 99.30% | L4 | Research Question | Partial benefit plausible via GPIb-vWF alternative pathway; GPIIb/IIIa remains non-functional",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Desmopressin",
+          "slug": "desmopressin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Glaucoma | 99.71% | L5 | Hold | Theoretical VGKC in ciliary body/trabecular meshwork; no direct evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Amifampridine",
+          "slug": "amifampridine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Glycogen storage disease — late-onset Pompe | 99.80% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Acetazolamide",
+          "slug": "acetazolamide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "HCM due to intensive athletic training | 99.89% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Acetazolamide",
+          "slug": "acetazolamide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "HIV Infectious Disease | 99.19% | HIV requires antiretroviral therapy. EV has no anti-HIV activity. EV immunotoxicity is particularly hazardous in immunocompromised patients.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Enfortumab Vedotin",
+          "slug": "enfortumab_vedotin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Headache Disorder | 97.58% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Benzydamine",
+          "slug": "benzydamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Heart disease | 0.9630 | L5 | S0 | **Hold** ⚠️",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hemorrhagic disease of newborn | 95.56% | ❌ Vitamin K deficiency mechanism; no VEGF connection | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Aflibercept",
+          "slug": "aflibercept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Heparin cofactor 2 deficiency | 86.31% | L5 | Hold | ⚠️ Adverse match — JAK inhibitors increase VTE risk",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baricitinib",
+          "slug": "baricitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Heparin cofactor 2 deficiency | 99.45% | L5 | Hold | ⛔ CONTRAINDICATION: CPA worsens coagulation imbalance",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cyproterone Acetate",
+          "slug": "cyproterone_acetate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hepatic Infarction | 99.89% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Anakinra",
+          "slug": "anakinra",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hepatic Veno-Occlusive Disease | 99.88% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Anakinra",
+          "slug": "anakinra",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hereditary thrombocytosis with transverse limb defect | 98.95% | L5 | Hold | No evidence; DDAVP rationale absent in thrombocytosis setting",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Desmopressin",
+          "slug": "desmopressin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Homozygous Familial Hypercholesterolaemia | 98.98% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Digoxin",
+          "slug": "digoxin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Homozygous Familial Hypercholesterolaemia | 99.18% | LDL receptor-deficiency metabolic disease; completely unrelated to Nectin-4 biology or lipid metabolism.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Enfortumab Vedotin",
+          "slug": "enfortumab_vedotin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Homozygous familial hypercholesterolaemia | 0.9656 | L5 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hypermobility of coccyx | 0.9987 | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hyperthyroidism | 0.9717 | L5 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hypertrichosis (disease) | 99.997% | L5 | **Hold** | Heterogeneous aetiology; no Dutasteride-specific evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dutasteride",
+          "slug": "dutasteride",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hypertrophic cardiomyopathy | 99.93% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Acetazolamide",
+          "slug": "acetazolamide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hypoalphalipoproteinaemia | 99.20% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Digoxin",
+          "slug": "digoxin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hypotrichosis simplex of the scalp | 99.771% | L5 | **Hold** | Autosomal genetic hypotrichosis (CDSN/LPAR6); non-androgenic",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dutasteride",
+          "slug": "dutasteride",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Imperforate anus | 99.71% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dexpanthenol",
+          "slug": "dexpanthenol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Indeterminate colitis | 98.87% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dexpanthenol",
+          "slug": "dexpanthenol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Indolent plasma cell myeloma | 93.31% | L5 | Hold | Moderate (theoretical) — IL-6/JAK/STAT3 axis relevant; no evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baricitinib",
+          "slug": "baricitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Indolent plasma cell myeloma | 97.94% | L4 | Research Question | Mechanistically related to approved MM indication; smouldering MM biology (low proliferation rate) differs; no RCT supporting early intervention",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carfilzomib",
+          "slug": "carfilzomib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Infectious Bovine Rhinotracheitis | 99.13% | A **cattle** disease (BHV-1 virus). Same species incompatibility issue as above. Likely due to topological proximity of animal disease nodes in the knowledge graph.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Enfortumab Vedotin",
+          "slug": "enfortumab_vedotin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Inflammatory spondylopathy | 0.9984 | L2 | S2 | **Proceed with Guardrails**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Inherited thrombophilia | 99.44% | L4 | Hold | ⚠️ Potential contraindication — DDAVP promotes platelet aggregation in already hypercoagulable states",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Desmopressin",
+          "slug": "desmopressin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Injury | **L3** | Research Question | Phase 3 burn trial VICToRY ([NCT04138394](https://clinicaltrials.gov/study/NCT04138394), n=666); Phase 1 burn micronutrient study ([NCT00879723](https://clinicaltrials.gov/study/NCT00879723), n=28); spinal cord injury Vitamin C + iron study ([NCT00881803](https://clinicaltrials.gov/study/NCT00881803), n=60); PMID [27852613](https://pubmed.ncbi.nlm.nih.gov/27852613/) RCT on collagen synthesis",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ascorbic Acid",
+          "slug": "ascorbic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Intellectual disability, autosomal dominant 55, with seizures | 97.82% | L5 | Hold | Neurodevelopmental genetic disease; no biological rationale; Carfilzomib's known peripheral neuropathy risk is a serious concern in this population",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carfilzomib",
+          "slug": "carfilzomib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Intestinal obstruction ⚠️ | 99.82% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Acetazolamide",
+          "slug": "acetazolamide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Ischemic Stroke Susceptibility *(obsolete term)* | 99.29% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Digoxin",
+          "slug": "digoxin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Isolated genetic hair shaft abnormality | 99.996% | L5 | **Hold** | Keratin structural protein mutations; non-DHT-dependent",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dutasteride",
+          "slug": "dutasteride",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Jeune syndrome with situs inversus | 0.9623 | L5 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Kyphoscoliotic heart disease | 0.981 | L5 | S0 | **Hold** | None",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abiraterone",
+          "slug": "abiraterone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Kümmell disease | 0.9984 | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Laubry-Pezzi syndrome | 0.9630 | L5 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Lentigo Maligna Melanoma | 98.64% | L4 — Case reports | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ipilimumab",
+          "slug": "ipilimumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Leprosy | 0.986 | L5 | S0 | **Hold** | None",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abiraterone",
+          "slug": "abiraterone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Leprosy | 94.24% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atovaquone",
+          "slug": "atovaquone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Leprosy | 99.53% | No mechanistic link. EV is a tumour-targeted ADC with no antibacterial or immunomodulatory activity against *Mycobacterium leprae*. Likely knowledge graph topological noise.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Enfortumab Vedotin",
+          "slug": "enfortumab_vedotin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Lethal infantile mitochondrial myopathy | 99.28% | L5 | **Hold** | ⚠️ Potentially harmful — Entacapone has in vitro mitochondrial Complex I inhibition signal",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entacapone",
+          "slug": "entacapone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Lewy body dementia | 99.25% | L4 | Research Question | **Moderate** — significant dopaminergic deficit; preclinical evidence available",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entacapone",
+          "slug": "entacapone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Lingual-facial-buccal dyskinesia | 99.32% | L4 | Hold | Highly speculative KOR/dopamine inference; no clinical trials; literature is largely unrelated to the indication",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Buprenorphine",
+          "slug": "buprenorphine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Malformation syndrome with odontal/periodontal component | 99.997% | L5 | **Hold** | 20 literature hits all on general periodontitis; none on Dutasteride; KG artefact",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dutasteride",
+          "slug": "dutasteride",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Malignant Catarrh | 99.13% | A viral disease of **ruminant animals** (OvHV-2/AlHV-1). Species incompatibility — EV is a human oncology drug.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Enfortumab Vedotin",
+          "slug": "enfortumab_vedotin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Malignant Hypertensive Renal Disease | 99.55% | L4 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carvedilol",
+          "slug": "carvedilol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Malignant Renovascular Hypertension | 99.55% | L4 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carvedilol",
+          "slug": "carvedilol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Malignant cutaneous granular cell skin tumour | 94.51% | ✅ Soft tissue sarcoma — VEGF/PlGF mechanism plausible | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Aflibercept",
+          "slug": "aflibercept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Malignant hypertensive renal disease | 99.01% | L5 | Hold | No evidence; likely knowledge-graph artefact",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Isotretinoin",
+          "slug": "isotretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Malignant hypertensive renal disease | 99.85% | L5 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atenolol",
+          "slug": "atenolol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Malignant renovascular hypertension | 99.01% | L5 | Hold | Identical score — same disease-ontology cluster as rank 1",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Isotretinoin",
+          "slug": "isotretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Malignant renovascular hypertension | 99.85% | L4 | 0 | 1 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atenolol",
+          "slug": "atenolol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Meester-Loeys syndrome | 88.21% | L5 | Hold | Very low — connective tissue/aortic structural disorder",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baricitinib",
+          "slug": "baricitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Melanoma (general) | 99.03% | L4 | Research Question | In vitro data in B16-F1 cells; computational modelling; no clinical trials; clinical translation from solid tumours historically poor for proteasome inhibitors",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carfilzomib",
+          "slug": "carfilzomib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Meta-analysis: QTc prolongation and major cardiovascular adverse events with CDK4/6 inhibitors | Cardiac risk signal",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Methemoglobinemia | 98.33% | L5 | 0 | 1† | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baclofen",
+          "slug": "baclofen",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Methemoglobinemia — Alpha Type | 97.97% | L5 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baclofen",
+          "slug": "baclofen",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Middle ear neuroendocrine tumour | 94.42% | ✅ Highly vascular NET; consistent with anti-VEGF class mechanism | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Aflibercept",
+          "slug": "aflibercept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Migraine disorder | 0.988 | L5 | S0 | **Hold** | Very weak",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abiraterone",
+          "slug": "abiraterone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Migraine disorder | 99.66% | L5 | Hold | No clinical or literature evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cyproterone Acetate",
+          "slug": "cyproterone_acetate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Migraine susceptibility (with/without aura) | 99.34% | L5 | Hold | 20 publications retrieved — all are epilepsy genetics papers with no CPA relevance",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cyproterone Acetate",
+          "slug": "cyproterone_acetate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Migraine with brainstem aura | 0.986 | L5 | S0 | **Hold** | Very weak",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abiraterone",
+          "slug": "abiraterone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Migraine with brainstem aura | 99.58% | L5 | Hold | No evidence; mechanistic link to posterior circulation is very weak",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cyproterone Acetate",
+          "slug": "cyproterone_acetate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Migraine with brainstem aura | 99.667% | L5 | **Hold** | Neurosteroid hypothesis present but multi-step indirect; no clinical data",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dutasteride",
+          "slug": "dutasteride",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Migraine with or without aura (susceptibility) | 0.988 | L5 | S0 | **Hold** | Very weak",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abiraterone",
+          "slug": "abiraterone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Multiple Endocrine Neoplasia | 99.43% | MEN is a hereditary syndrome driven by MEN1/RET mutations. No clinical or preclinical evidence that EV has any activity in this condition.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Enfortumab Vedotin",
+          "slug": "enfortumab_vedotin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Multiple endocrine neoplasia (MEN) | 0.9707 | L4 | S1 | **Research Question**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Myelitis | 99.63% | L5 | **Hold** | Low — spinal cord inflammation, no established dopaminergic bridge",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entacapone",
+          "slug": "entacapone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Myeloid leukemia | 91.01% | L4 | Research Question | Moderate — FLT3-ITD/BCR-ABL→JAK-STAT; 1 trial + 4 publications",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baricitinib",
+          "slug": "baricitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Myiasis | 82.88% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atovaquone",
+          "slug": "atovaquone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Myiasis | 99.41% | L5 | ❌ Dipteran larvae — antifungal mechanism irrelevant",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Griseofulvin",
+          "slug": "griseofulvin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Myofascial Pain Syndrome | 98.87% | L3 | 1* | 4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baclofen",
+          "slug": "baclofen",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Myxomatous mitral valve prolapse | 59.11% | L5 | Hold | Indirect MMP/ECM hypothesis; TxGNN score approaching random",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Isotretinoin",
+          "slug": "isotretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Nasal cavity disease | 99.93% | **False positive** — literature describes opioid-induced nasal tissue *damage*, not treatment | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Codeine",
+          "slug": "codeine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Neonatal Candidiasis | 99.25% | 0 | 0 | L5 | Hold | Yes — no mechanism; Ivermectin generally avoided in neonates (<15 kg)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ivermectin",
+          "slug": "ivermectin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Nephrogenic Syndrome of Inappropriate Antidiuresis | 98.83% | L5 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Digoxin",
+          "slug": "digoxin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Nephrogenic syndrome of inappropriate antidiuresis | 0.982 | L5 | S0 | **Hold** | Very weak (harmful direction)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abiraterone",
+          "slug": "abiraterone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Neurodevelopmental disorder with ataxic gait | 0.998 | L5 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | Rare genetic disorder; no NRTI mechanism relevant to neurodevelopment. High TxGNN score likely reflects topological proximity to HIV encephalopathy in the knowledge graph.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Neutrophil immunodeficiency syndrome | 95.11% | L5 | Hold | No biological rationale; proteasome inhibition could worsen infection susceptibility in an already immunocompromised population",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carfilzomib",
+          "slug": "carfilzomib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Nocardiosis | 90.90% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atovaquone",
+          "slug": "atovaquone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Nodular Malignant Melanoma | 98.64% | L3 — Retrospective cohorts | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ipilimumab",
+          "slug": "ipilimumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Obsolete familial combined hyperlipidaemia | 0.987 | L5 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Obsolete familial combined hyperlipidaemia | Ontology term marked as \"obsolete.\" NRTIs including Abacavir are associated with **worsening** dyslipidaemia as an adverse effect — a **contraindication signal**.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Obsolete functional visual loss | 59.19% | L5 | Hold | Retired disease ontology term — no valid clinical entity",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Isotretinoin",
+          "slug": "isotretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Ocular Tuberculosis | 61.20% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carvedilol",
+          "slug": "carvedilol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Ocular tuberculosis | 58.68% | L5 | Hold | No known anti-mycobacterial activity; weakest prediction in set",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Isotretinoin",
+          "slug": "isotretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Oligoarticular JIA (ANA+) | 99.85% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Anakinra",
+          "slug": "anakinra",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Oligoarticular JIA (ANA−) | 99.85% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Anakinra",
+          "slug": "anakinra",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "P97/VCP ATPase inhibitors can rescue p97 mutation-linked motor neuron degeneration | Preclinical (iPSC motor neurones) | Contextual evidence on protein homeostasis in motor neurone disease",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "PLA2G6-associated neurodegeneration | 99.76% | L5 | **Hold** | Low — phospholipase/iron accumulation pathway, no dopaminergic link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entacapone",
+          "slug": "entacapone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Paediatric leptomeningeal melanoma | 99.30% | L5 | Hold | Blood-brain barrier penetration is a major obstacle; no evidence; paediatric safety concerns",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carfilzomib",
+          "slug": "carfilzomib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Papillary conjunctivitis | 97.17% | No mechanistic rationale; opioid-induced histamine release could theoretically worsen allergic ocular symptoms | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Codeine",
+          "slug": "codeine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Paralysis agitans, juvenile, of Hunt | 99.60% | L5 | Research Question | **High** — juvenile Parkinsonism shares core nigrostriatal dopamine deficiency mechanism",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entacapone",
+          "slug": "entacapone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Paratenonitis | 0.882 | L5 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Paratenonitis | Mechanical/inflammatory tendon sheath condition; no NRTI anti-inflammatory mechanism.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Peliosis Hepatis | 99.85% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Anakinra",
+          "slug": "anakinra",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Perinatal Disease | **L2** | Research Question | Phase 3 Bangladesh antenatal RCT ([NCT00860470](https://clinicaltrials.gov/study/NCT00860470), n=44,567); Guinea-Bissau Phase 1 RCT ([NCT00168688](https://clinicaltrials.gov/study/NCT00168688), n=2,100); preeclampsia Phase 1 trial ([NCT03451266](https://clinicaltrials.gov/study/NCT03451266), n=34)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ascorbic Acid",
+          "slug": "ascorbic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Peripheral Arterial Disease | 95.56% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Benzydamine",
+          "slug": "benzydamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Peripheral Vascular Disease | 96.19% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Benzydamine",
+          "slug": "benzydamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pierre Robin syndrome (chromosomal) | 0.9629 | L5 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Plasma cell myeloma | 91.83% | L4 | Research Question | Moderate — IL-6/JAK1/JAK2→STAT3; 1 case report (indirect)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baricitinib",
+          "slug": "baricitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Polyarticular juvenile rheumatoid arthritis | 0.9983 | **L1** | **S3** | **Proceed with Guardrails**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Polymicrogyria, perisylvian (with cerebellar hypoplasia and arthrogryposis) | 99.06% | L5 | **Hold** | None — congenital structural brain abnormality, not amenable to pharmacological repair",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entacapone",
+          "slug": "entacapone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Porphyria | 98.51% | L5 | Hold | Haem synthesis pathway unrelated to VGKC",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Amifampridine",
+          "slug": "amifampridine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Posteroinferior myocardial infarction | 99.87% | L4 | 0 | 1 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atenolol",
+          "slug": "atenolol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Posterolateral myocardial infarction | 99.87% | L4 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atenolol",
+          "slug": "atenolol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Postmenopausal Atrophic Vaginitis | 99.18% | 0 | 0 | L5 | Hold | Yes — non-infectious; no plausible mechanism",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ivermectin",
+          "slug": "ivermectin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Primary Hereditary Glaucoma | 96.90% | L4 | α2 agonism reduces IOP — directly addresses the core pathology (MYOC/OPTN/TBK1 mutations); additional neuroprotection potential",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Brimonidine",
+          "slug": "brimonidine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Primary Immunodeficiency (p14 Deficiency) | 98.39% | L5 | Hold | Ultra-rare disease (<20 cases globally); mechanism unrelated; likely KG artefact",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Amifampridine",
+          "slug": "amifampridine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Primary hereditary glaucoma | 98.84% | L4 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atenolol",
+          "slug": "atenolol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Prinzmetal Angina | 99.81% | L4 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Digoxin",
+          "slug": "digoxin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Prinzmetal angina | 99.52% | L5 | Hold | ⚠️ CPA's prothrombotic effect may worsen coronary vasospasm events",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cyproterone Acetate",
+          "slug": "cyproterone_acetate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Proctitis | 99.60% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dexpanthenol",
+          "slug": "dexpanthenol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Progressive supranuclear palsy–corticobasal syndrome | 99.04% | L4 | Research Question | Low–Moderate — tauopathy; levodopa response generally poor (<20%)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entacapone",
+          "slug": "entacapone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pseudo-von Willebrand disease | 99.16% | L4 | Hold | ⚠️ Known contraindication — GPIbα gain-of-function mutation; DDAVP worsens thrombocytopenia",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Desmopressin",
+          "slug": "desmopressin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Psychogenic movement disorders | 98.89% | L5 | Hold | No evidence; functional neurological disorder with no established direct treatment rationale for buprenorphine",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Buprenorphine",
+          "slug": "buprenorphine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pulmonary Hypertension (Lung Disease / Hypoxia) | 99.54% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carvedilol",
+          "slug": "carvedilol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pulmonary Hypertension (Unclear Multifactorial) | 99.54% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carvedilol",
+          "slug": "carvedilol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pulmonary hypertension (lung disease/hypoxia) | 98.89% | L5 | Hold | 20 general hypoxia-biology reviews retrieved; none specific to Isotretinoin",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Isotretinoin",
+          "slug": "isotretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pulmonary hypertension (multifactorial/unclear) | 98.89% | L5 | Hold | Identical score to rank 3 — WHO Group 5 heterogeneous cluster",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Isotretinoin",
+          "slug": "isotretinoin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pulmonary hypertension | 0.984 | L4 | S1 | **Research Question** | Weak–contradictory",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abiraterone",
+          "slug": "abiraterone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pulmonary hypertension — lung disease/hypoxia ⚠️ | 99.84% | L5 | 0 | 20* | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atenolol",
+          "slug": "atenolol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pulmonary hypertension — multifactorial ⚠️ | 99.84% | L5 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atenolol",
+          "slug": "atenolol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Punctate epithelial keratoconjunctivitis | 99.34% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dexpanthenol",
+          "slug": "dexpanthenol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Rasmussen subacute encephalitis | 99.73% | L5 | **Hold** | Very Low — autoimmune T-cell mediated neuronal destruction",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entacapone",
+          "slug": "entacapone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Resistance to thyroid hormone (THR-β mutation) | 0.9688 | L5 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Review: Pre-existing cardiovascular comorbidity must guide CDK4/6 inhibitor selection | Clinical safety guidance",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Rheumatoid arthritis | 0.9732 | L5 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Rheumatoid arthritis | 0.981 | L5 | S0 | **Hold** | Contradictory",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abiraterone",
+          "slug": "abiraterone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Rheumatoid vasculitis | 0.9991 | L4 | S1 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Rosacea Conjunctivitis | 94.65% | L4 | FDA-approved Mirvaso rosacea mechanism (vasoconstriction) may extend to ocular rosacea vascular pathology",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Brimonidine",
+          "slug": "brimonidine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Schizophreniform disorder | 98.99% | L4 | Research Question | Mechanistically plausible extrapolation from schizophrenia evidence; requires independent study before clinical consideration",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Buprenorphine",
+          "slug": "buprenorphine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Scott syndrome | 99.16% | L5 | Hold | No mechanistic relevance — DDAVP cannot correct phosphatidylserine externalisation defect",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Desmopressin",
+          "slug": "desmopressin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Scrotum Melanoma | 98.84% | L4 — No direct evidence | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ipilimumab",
+          "slug": "ipilimumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Septal myocardial infarction | 99.84% | L4 | 0 | 1 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atenolol",
+          "slug": "atenolol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Simian immunodeficiency virus infection | 0.998 | L4 | S0 | **Hold**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abacavir",
+          "slug": "abacavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Specific Developmental Disorder | 97.95% | L4 | 2† | 2 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baclofen",
+          "slug": "baclofen",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Spondyloarthropathy, susceptibility to | 0.9965 | L4 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Subarachnoid Haemorrhage | 94.86% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Benzydamine",
+          "slug": "benzydamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Summitt syndrome",
       "drug_count": 729,
       "drugs": [
@@ -189047,6 +195661,336 @@
         {
           "drug": "Kineret",
           "slug": "db00026",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Susceptibility to Ischaemic Stroke *(obsolete ontology term)* | 68.65% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carvedilol",
+          "slug": "carvedilol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Syndrome with Dandy-Walker malformation as major feature | 99.996% | L5 | **Hold** | Congenital posterior fossa brain defect; no DHT pathway link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dutasteride",
+          "slug": "dutasteride",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Systematic review/meta-analysis: QTc prolongation across CDK4/6 inhibitors | Cardiac risk signal",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abemaciclib",
+          "slug": "abemaciclib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Thrombocytopenic purpura (TTP) | 98.95% | L3 | Hold | ⚠️ Documented harm — DDAVP worsens TTP by releasing additional vWF multimers (PMID 15499705, PMID 21921792)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Desmopressin",
+          "slug": "desmopressin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Thrombophilia | 99.03% | L4 | Hold | ⛔ REVERSE CAUSATION: 18 publications all document CPA as a VTE risk factor, not a treatment",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Cyproterone Acetate",
+          "slug": "cyproterone_acetate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Thrombotic Disease | 98.75% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Digoxin",
+          "slug": "digoxin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Toxocariasis | 95.13% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Benzydamine",
+          "slug": "benzydamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Toxoplasmosis | 98.69% | L5 | ❌ Protozoan infection — standard therapy is Pyrimethamine + Sulfadiazine; no mechanistic link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Griseofulvin",
+          "slug": "griseofulvin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Tracheal disease | 95.70% | Antitussive rationale is plausible for cough symptom only; no disease-modifying evidence; structural tracheal pathology unaddressed | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Codeine",
+          "slug": "codeine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Transaldolase deficiency | 99.43% | L5 | **Hold** | Very Low — pentose phosphate pathway metabolic disorder",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entacapone",
+          "slug": "entacapone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Trigeminal Autonomic Cephalalgia | 97.17% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Benzydamine",
+          "slug": "benzydamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Trigeminal Nerve Neoplasm | 98.70% | L5 | 0 | 2† | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baclofen",
+          "slug": "baclofen",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Trigeminal autonomic cephalalgia | 99.43% | Opioids generally contraindicated in cluster headache; literature reports describe drug misuse, not efficacy | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Codeine",
+          "slug": "codeine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Ulerythema ophryogenesis | 0.975 | L5 | S0 | **Hold** | Very weak, speculative",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abiraterone",
+          "slug": "abiraterone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Unclassified Autoinflammatory Syndrome | 99.81% | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Anakinra",
+          "slug": "anakinra",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Unclassified intestinal pseudoobstruction ⚠️ | 99.79% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Acetazolamide",
+          "slug": "acetazolamide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Urethral calculus | 95.97% | ❌ No VEGF link — likely KG artefact | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Aflibercept",
+          "slug": "aflibercept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Varicose Disease | 98.08% | L5 | Hold | Venous valve/wall structural pathology unrelated to VGKC; no supporting evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Amifampridine",
+          "slug": "amifampridine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Varicose disease | 96.95% | ⚠️ Partial match — VEGF-A/B role in venous remodelling; VEGF-C/D (via VEGFR3) not blocked by Aflibercept | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Aflibercept",
+          "slug": "aflibercept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Vertebral anomalies + T-cell dysfunction | 84.68% | L5 | Research Question | Low-moderate — T-cell JAK-STAT component; structural elements unaddressable",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baricitinib",
+          "slug": "baricitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Vertebral disease | 0.9968 | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Abatacept",
+          "slug": "abatacept",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Vitamin Deficiency Disorder | **L1** | **Proceed with Guardrails** | RCTs confirming Ascorbic acid as definitive scurvy/hypovitaminosis C treatment; large observational study ([NCT02422901](https://clinicaltrials.gov/study/NCT02422901), n=5,000); PMID [37795755](https://pubmed.ncbi.nlm.nih.gov/37795755/); Australian paediatric scurvy case series PMID [39031615](https://pubmed.ncbi.nlm.nih.gov/39031615/)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ascorbic Acid",
+          "slug": "ascorbic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Vulvar inverted follicular keratosis | 99.60% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dexpanthenol",
+          "slug": "dexpanthenol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Vulvar melanoma | 99.19% | L5 | Hold | Rare mucosal subtype; minimal BRAF mutations; no supporting evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Carfilzomib",
+          "slug": "carfilzomib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Vulvitis | 98.98% | 0 | 0 | L5 | Hold | Yes — lowest score; no mechanism or evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ivermectin",
+          "slug": "ivermectin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Vulvovaginal Candidiasis | 99.95% | 0 | 0 | L5 | Hold | Yes — no antifungal mechanism",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ivermectin",
+          "slug": "ivermectin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Vulvovaginitis | 99.36% | 0 | 0 | L5 | Hold | Yes — minimal isolated preclinical signal (*Trichomonas*); no clinical data",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ivermectin",
+          "slug": "ivermectin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "WHIM syndrome | 93.12% | L5 | Research Question | Moderate (theoretical) — CXCR4→JAK2 cross-talk; no evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Baricitinib",
+          "slug": "baricitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Wound myiasis | 85.07% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Atovaquone",
+          "slug": "atovaquone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Wound myiasis | 99.34% | L5 | ❌ Same as above; no literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Griseofulvin",
+          "slug": "griseofulvin",
           "score": 99.0
         }
       ]

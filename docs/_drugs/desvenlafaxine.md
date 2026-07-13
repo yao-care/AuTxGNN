@@ -2,7 +2,7 @@
 layout: default
 title: Desvenlafaxine
 parent: 僅模型預測 (L5)
-nav_order: 148
+nav_order: 175
 evidence_level: L5
 indication_count: 10
 ---
