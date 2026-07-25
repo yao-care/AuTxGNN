@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB00494-intellectual-developmental-disorder-x-linked-syndromic-hackmann-di-donato-type",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T13:58:33.300558+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB00494",
+      "display": "Xifaxan"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "intellectual-developmental-disorder-x-linked-syndromic-hackmann-di-donato-type",
+          "display": "intellectual developmental disorder, X-linked, syndromic, Hackmann-Di Donato type"
+        }
+      ],
+      "text": "intellectual developmental disorder, X-linked, syndromic, Hackmann-Di Donato type"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

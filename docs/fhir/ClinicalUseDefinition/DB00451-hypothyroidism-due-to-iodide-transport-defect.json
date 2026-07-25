@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB00451-hypothyroidism-due-to-iodide-transport-defect",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T13:58:33.300558+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB00451",
+      "display": "Xifaxan"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "hypothyroidism-due-to-iodide-transport-defect",
+          "display": "hypothyroidism due to iodide transport defect"
+        }
+      ],
+      "text": "hypothyroidism due to iodide transport defect"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

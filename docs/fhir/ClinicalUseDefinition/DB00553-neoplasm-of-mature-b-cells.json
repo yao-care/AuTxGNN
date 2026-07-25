@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB00553-neoplasm-of-mature-b-cells",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T13:58:33.300558+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB00553",
+      "display": "Xifaxan"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "neoplasm-of-mature-b-cells",
+          "display": "neoplasm of mature B-cells"
+        }
+      ],
+      "text": "neoplasm of mature B-cells"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

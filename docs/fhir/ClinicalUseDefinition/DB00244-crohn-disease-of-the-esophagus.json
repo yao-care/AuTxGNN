@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB00244-crohn-disease-of-the-esophagus",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T13:58:33.300558+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB00244",
+      "display": "Xifaxan"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "crohn-disease-of-the-esophagus",
+          "display": "Crohn disease of the esophagus"
+        }
+      ],
+      "text": "Crohn disease of the esophagus"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}
