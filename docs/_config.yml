@@ -2,9 +2,6 @@
 title: AuTxGNN - Australia Drug Repurposing Predictions
 description: Drug repurposing predictions for Australia using TxGNN knowledge graph
 
-author:
-  name: 藥提醒科技有限公司 (yao.care)
-  url: https://www.yao.care/
 url: "https://autxgnn.yao.care"
 baseurl: ""
 
@@ -49,4 +46,5 @@ exclude:
   - .gitignore
 
 footer_content: "Copyright &copy; 2026 藥提醒科技有限公司 (yao.care). This report is for research purposes only and does not constitute medical advice."
+
 
