@@ -113,7 +113,7 @@ rare diseases."
 
 | Item | Value |
 |------|-------|
-| Drug reports | 997 |
+| Drug reports | {{ site.drugs.size }} |
 | Regulatory authority | TGA |
 | Deployed sites | 30 countries / regions |
 
