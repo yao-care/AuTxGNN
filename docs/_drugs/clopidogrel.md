@@ -2,7 +2,7 @@
 layout: default
 title: Clopidogrel
 parent: 僅模型預測 (L5)
-nav_order: 149
+nav_order: 163
 evidence_level: L5
 indication_count: 10
 ---

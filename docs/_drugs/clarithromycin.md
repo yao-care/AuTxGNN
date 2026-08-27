@@ -2,7 +2,7 @@
 layout: default
 title: Clarithromycin
 parent: 僅模型預測 (L5)
-nav_order: 142
+nav_order: 156
 evidence_level: L5
 indication_count: 10
 ---

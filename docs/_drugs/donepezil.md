@@ -2,7 +2,7 @@
 layout: default
 title: Donepezil
 parent: 僅模型預測 (L5)
-nav_order: 191
+nav_order: 208
 evidence_level: L5
 indication_count: 10
 ---
