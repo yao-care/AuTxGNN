@@ -2,7 +2,7 @@
 layout: default
 title: Perhexiline
 parent: 僅模型預測 (L5)
-nav_order: 524
+nav_order: 525
 evidence_level: L5
 indication_count: 10
 ---

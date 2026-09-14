@@ -2,7 +2,7 @@
 layout: default
 title: Potassium Bicarbonate
 parent: 僅模型預測 (L5)
-nav_order: 545
+nav_order: 546
 evidence_level: L5
 indication_count: 10
 ---

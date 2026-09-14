@@ -2,7 +2,7 @@
 layout: default
 title: Phylloquinone
 parent: 僅模型預測 (L5)
-nav_order: 534
+nav_order: 535
 evidence_level: L5
 indication_count: 10
 ---

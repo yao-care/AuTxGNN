@@ -2,7 +2,7 @@
 layout: default
 title: Peppermint Oil
 parent: 僅模型預測 (L5)
-nav_order: 522
+nav_order: 523
 evidence_level: L5
 indication_count: 10
 ---

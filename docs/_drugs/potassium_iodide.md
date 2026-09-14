@@ -2,7 +2,7 @@
 layout: default
 title: Potassium Iodide
 parent: 僅模型預測 (L5)
-nav_order: 548
+nav_order: 549
 evidence_level: L5
 indication_count: 10
 ---

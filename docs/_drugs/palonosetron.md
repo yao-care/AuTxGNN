@@ -2,7 +2,7 @@
 layout: default
 title: Palonosetron
 parent: 僅模型預測 (L5)
-nav_order: 508
+nav_order: 509
 evidence_level: L5
 indication_count: 10
 ---

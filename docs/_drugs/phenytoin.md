@@ -2,7 +2,7 @@
 layout: default
 title: Phenytoin
 parent: 僅模型預測 (L5)
-nav_order: 533
+nav_order: 534
 evidence_level: L5
 indication_count: 10
 ---

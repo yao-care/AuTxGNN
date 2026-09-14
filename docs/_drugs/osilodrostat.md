@@ -2,7 +2,7 @@
 layout: default
 title: Osilodrostat
 parent: 僅模型預測 (L5)
-nav_order: 496
+nav_order: 497
 evidence_level: L5
 indication_count: 10
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Pravastatin
 parent: 僅模型預測 (L5)
-nav_order: 554
+nav_order: 555
 evidence_level: L5
 indication_count: 10
 ---

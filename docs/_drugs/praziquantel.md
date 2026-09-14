@@ -2,7 +2,7 @@
 layout: default
 title: Praziquantel
 parent: 僅模型預測 (L5)
-nav_order: 555
+nav_order: 556
 evidence_level: L5
 indication_count: 10
 ---
