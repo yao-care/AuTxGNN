@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Loratadine
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 405
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Loratadine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -57,7 +57,7 @@ Detailed mechanism-of-action data is not available as a structured field for thi
 
 Importantly, the evidence pack itself notes this is **not a genuinely novel repurposing signal**: second-generation antihistamines, including loratadine, are an established drug class for urticaria internationally, so this prediction largely reconfirms already-known pharmacology rather than surfacing a new therapeutic hypothesis.
 
-No Taiwan/TGA regulatory license records were returned for this drug in this evidence pack (`market_status: 未上市`, 0 ARTG entries), so the original approved indication could not be extracted from local regulatory sources. This should be treated as a data gap rather than evidence that no original indication exists.
+No Taiwan/TGA regulatory license records were returned for this drug in this evidence pack (`market_status: Not marketed`, 0 ARTG entries), so the original approved indication could not be extracted from local regulatory sources. This should be treated as a data gap rather than evidence that no original indication exists.
 
 ---
 
@@ -91,7 +91,7 @@ No Taiwan/TGA regulatory license records were returned for this drug in this evi
 
 ## Australia Market Information
 
-No ARTG entries were returned for Loratadine in this evidence pack (`total_licenses: 0`, `market_status: 未上市`). This should be confirmed directly against the TGA ARTG database, as it may reflect a data collection gap rather than true absence from the Australian market.
+No ARTG entries were returned for Loratadine in this evidence pack (`total_licenses: 0`, `market_status: Not marketed`). This should be confirmed directly against the TGA ARTG database, as it may reflect a data collection gap rather than true absence from the Australian market.
 
 ---
 

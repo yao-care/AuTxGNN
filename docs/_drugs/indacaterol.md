@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Indacaterol
-parent: 高證據等級 (L1-L2)
+parent: High Evidence (L1-L2)
 nav_order: 348
 evidence_level: L1
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Indacaterol
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -41,11 +41,11 @@ Indacaterol 是一種長效型 β2-腎上腺素受體促效劑（LABA），已�
 
 | 項目 | 內容 |
 |------|------|
-| 原始適應症 | 資料缺口（台灣未上市，無 TFDA 核准適應症紀錄；證據包內機轉敘述顯示國際間核准用途為 COPD／氣喘維持治療） |
+| 原始適應症 | 資料缺口（台灣Not marketed，無 TFDA 核准適應症紀錄；證據包內機轉敘述顯示國際間核准用途為 COPD／氣喘維持治療） |
 | 預測新適應症 | Bronchial disease（支氣管疾病，廣義呼吸道適應症類別） |
 | TxGNN 預測分數 | 99.18% |
 | 證據等級 | L1 |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | TFDA 核准字號筆數 | 0 |
 | 建議決策 | Proceed with Guardrails（附條件推進） |
 
@@ -97,7 +97,7 @@ Indacaterol 是一種長效型 β2-腎上腺素受體促效劑（LABA），已�
 
 ## 台灣市場資訊
 
-目前查無 TFDA 核准之 Indacaterol 上市許可證（`total_licenses = 0`），台灣市場狀態為**未上市**。此為進入下一階段評估前需優先補齊的資料缺口（見結論）。
+目前查無 TFDA 核准之 Indacaterol 上市許可證（`total_licenses = 0`），台灣市場狀態為**Not marketed**。此為進入下一階段評估前需優先補齊的資料缺口（見結論）。
 
 ---
 
@@ -112,7 +112,7 @@ Indacaterol 是一種長效型 β2-腎上腺素受體促效劑（LABA），已�
 **決策：Proceed with Guardrails（附條件推進）**
 
 **理由：**
-「支氣管疾病」預測具備多筆已完成 Phase 3 大型對照試驗與 20 篇文獻支持（L1），機轉合理性明確，但此適應症分類與 Indacaterol 既有 LABA 核准用途重疊度高，臨床新穎性有限；同時台灣尚未上市、仿單安全性資料全數缺口，須待補齊後才能進入正式安全性初評。
+「支氣管疾病」預測具備多筆已完成 Phase 3 大型對照試驗與 20 篇文獻支持（L1），機轉合理性明確，但此適應症分類與 Indacaterol 既有 LABA 核准用途重疊度高，臨床新穎性有限；同時台灣尚Not marketed、仿單安全性資料全數缺口，須待補齊後才能進入正式安全性初評。
 
 **推進前需補齊：**
 - TFDA 仿單警語、禁忌症資料（Blocking，DG001）

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sodium Bicarbonate
-parent: 僅模型預測 (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 635
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Sodium Bicarbonate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,13 +25,13 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
 Using superpowers:using-superpowers checked — no listed skill matches "write a drug-repurposing evaluation report from a supplied Evidence Pack" (txgnn-pipeline covers model/pipeline ops, not report authoring), so proceeding directly per the detailed format already specified in the prompt.
 
-A few notes before the report: `original_moa` and `original_indications` are both empty/Data Gap in this pack, and `taiwan_regulatory.licenses` is empty (0 ARTG entries, market status "未上市"/Not Marketed) — so I'm not fabricating Australian regulatory specifics for those fields, only using well-established general pharmacology of sodium bicarbonate as a systemic alkalinising agent, flagged as such.
+A few notes before the report: `original_moa` and `original_indications` are both empty/Data Gap in this pack, and `taiwan_regulatory.licenses` is empty (0 ARTG entries, market status "Not marketed"/Not Marketed) — so I'm not fabricating Australian regulatory specifics for those fields, only using well-established general pharmacology of sodium bicarbonate as a systemic alkalinising agent, flagged as such.
 
 ---
 

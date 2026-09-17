@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Celecoxib
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 135
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Celecoxib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -107,7 +107,7 @@ More notably, recent literature (PMID 39757202, 36800138) suggests celecoxib may
 
 ## Australia Market Information
 
-No ARTG entries or product licences were returned for celecoxib in this evidence pack (`total_licenses: 0`, `market_status: 未上市/Not marketed`). This is unexpected for a long-marketed drug of this class, and should be treated as a **data completeness gap in this pipeline** rather than confirmation of non-availability — recommend direct verification against the TGA/ARTG public database before this is relied upon for any regulatory or supply decision.
+No ARTG entries or product licences were returned for celecoxib in this evidence pack (`total_licenses: 0`, `market_status: Not marketed/Not marketed`). This is unexpected for a long-marketed drug of this class, and should be treated as a **data completeness gap in this pipeline** rather than confirmation of non-availability — recommend direct verification against the TGA/ARTG public database before this is relied upon for any regulatory or supply decision.
 
 ---
 

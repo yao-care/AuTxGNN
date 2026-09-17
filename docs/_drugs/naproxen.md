@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Naproxen
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Naproxen
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -47,7 +47,7 @@ TxGNN 模型將其評分最高的新適應症為 **Brachydactyly-Syndactyly Synd
 | 預測新適應症 | Brachydactyly-Syndactyly Syndrome（短指-併指症候群） |
 | TxGNN 預測分數 | 99.35% |
 | 證據等級 | L5（僅模型預測，無實際研究） |
-| 澳洲市場狀態 | 未上市 |
+| 澳洲市場狀態 | Not marketed |
 | ARTG 登錄數 | 0 |
 | 建議決策 | Hold |
 

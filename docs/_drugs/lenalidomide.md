@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lenalidomide
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lenalidomide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -43,11 +43,11 @@ TxGNN 模型預測其可能對**骨髓性白血病（Myeloid Leukemia）**有效
 
 | Item | Content |
 |------|------|
-| Original Indication | 台灣藥證資料無記錄（未上市）；依證據包內文獻，Lenalidomide 已知用於多發性骨髓瘤（合併 dexamethasone）及 del(5q) 異常之 MDS |
+| Original Indication | 台灣藥證資料無記錄（Not marketed）；依證據包內文獻，Lenalidomide 已知用於多發性骨髓瘤（合併 dexamethasone）及 del(5q) 異常之 MDS |
 | Predicted New Indication | Myeloid Leukemia（骨髓性白血病） |
 | TxGNN Prediction Score | 99.49% |
 | Evidence Level | L3（系統性回顧／統合分析 + 前瞻性早期臨床研究，未見該適應症之已完成 Phase 2/3 RCT） |
-| Australia Market Status | 未上市 |
+| Australia Market Status | Not marketed |
 | Number of ARTG Entries | 0 |
 | Recommended Decision | Hold |
 
@@ -103,7 +103,7 @@ TxGNN 模型預測其可能對**骨髓性白血病（Myeloid Leukemia）**有效
 - 取得 TFDA／TGA 核准仿單（警語、禁忌、藥物交互作用）— Blocking，需優先補齊
 - 透過 DrugBank API 補齊作用機轉（MOA）結構化資料
 - 檢索是否有專門針對「骨髓性白血病／AML」適應症之已完成 Phase 2/3 RCT（現有試驗多集中於 MDS del(5q) 或多發性骨髓瘤族群）
-- 若考慮於澳洲市場申請新適應症，需評估 ARTG 登錄路徑（現況未上市）
+- 若考慮於澳洲市場申請新適應症，需評估 ARTG 登錄路徑（現況Not marketed）
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

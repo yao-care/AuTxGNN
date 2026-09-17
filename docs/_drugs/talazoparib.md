@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Talazoparib
-parent: 中證據等級 (L3-L4)
+parent: Moderate Evidence (L3-L4)
 nav_order: 651
 evidence_level: L3
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Talazoparib
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -47,7 +47,7 @@ Talazoparib（Talzenna）是一款 PARP 抑制劑，國際核准適應症為 BRC
 | 預測新適應症 | HER2 Positive Breast Carcinoma（HER2 陽性乳癌） |
 | TxGNN 預測分數 | 98.98%（排名 10415） |
 | 證據等級 | L3 |
-| 澳洲市場狀態 | 未上市（無 ARTG 登記） |
+| 澳洲市場狀態 | Not marketed（無 ARTG 登記） |
 | ARTG 登記筆數 | 0 |
 | 建議決策 | Hold |
 
@@ -127,7 +127,7 @@ Talazoparib 目前**未於澳洲上市**，無 ARTG 登記資料，因此無法�
 
 **理由：**
 - 排名第一之預測適應症（HER2 陽性乳癌）與其自身佐證的試驗/文獻族群（幾乎全數為 HER2 陰性）直接矛盾，證據包本身亦已標註此為疑似標籤錯誤，須先釐清才能可靠評估。
-- 藥物於澳洲未上市，且 TFDA/TGA 仿單警語與禁忌屬「Blocking」等級資料缺口（DG001），無法完成 S1 安全性初評。
+- 藥物於澳洲Not marketed，且 TFDA/TGA 仿單警語與禁忌屬「Blocking」等級資料缺口（DG001），無法完成 S1 安全性初評。
 
 **若要推進，需補充：**
 - 人工核實「HER2 positive breast carcinoma」標籤是否應更正為 HER2 陰性（或改列為候選排除項）

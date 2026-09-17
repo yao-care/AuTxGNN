@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Codeine
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 168
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Codeine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -68,7 +68,7 @@ Before the primary analysis, this evidence pack contains an important finding: t
 | Predicted New Indication | Bronchial Disease |
 | TxGNN Prediction Score | 93.66% |
 | Evidence Level | L3 — Observational studies and systematic reviews |
-| Australia Market Status | Not marketed (未上市) |
+| Australia Market Status | Not marketed (Not marketed) |
 | Number of ARTG Entries | 0 |
 | Recommended Decision | Research Question (Hold for all other ranks) |
 

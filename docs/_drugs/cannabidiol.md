@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Cannabidiol
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 119
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Cannabidiol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,13 +25,13 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
 Using the report template you've supplied (this is a direct content-generation task from the Evidence Pack JSON, not a coding task, so no additional skill applies), here is the evaluation report.
 
-A few data-fidelity notes before the report: `taiwan_regulatory.licenses` is empty (0 ARTG entries, market status "未上市"/Not Marketed), `drug.original_indications` is empty, and `original_moa` is `[Data Gap]`. Per the prohibition on outputting "[Data Gap]" literally, I've replaced these with plain-language statements rather than inventing regulatory text. I also flag a discrepancy in the source data: two of the four RLS-tagged trials (NCT02818777, NCT03582137) are titled and summarised as Parkinson's Disease tremor/motor-symptom studies, not RLS studies, despite being graded "A" for RLS relevance — I've reported them as written in `brief_summary` rather than silently correcting the mismatch, so you can judge relevance yourself.
+A few data-fidelity notes before the report: `taiwan_regulatory.licenses` is empty (0 ARTG entries, market status "Not marketed"/Not Marketed), `drug.original_indications` is empty, and `original_moa` is `[Data Gap]`. Per the prohibition on outputting "[Data Gap]" literally, I've replaced these with plain-language statements rather than inventing regulatory text. I also flag a discrepancy in the source data: two of the four RLS-tagged trials (NCT02818777, NCT03582137) are titled and summarised as Parkinson's Disease tremor/motor-symptom studies, not RLS studies, despite being graded "A" for RLS relevance — I've reported them as written in `brief_summary` rather than silently correcting the mismatch, so you can judge relevance yourself.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Prednisolone
-parent: 僅模型預測 (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 558
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Prednisolone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -92,7 +92,7 @@ The remaining 15 trials in the evidence set (mostly Phase 2/3 SLE studies of non
 
 ## Australia Market Information
 
-Prednisolone currently has **no ARTG entries** on file in this evidence pack (`market_status: 未上市` / not marketed, `total_licenses: 0`). No product name, dosage form or approved indication text is available to populate a licence table.
+Prednisolone currently has **no ARTG entries** on file in this evidence pack (`market_status: Not marketed` / not marketed, `total_licenses: 0`). No product name, dosage form or approved indication text is available to populate a licence table.
 
 ---
 

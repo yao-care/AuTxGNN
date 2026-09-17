@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Venetoclax
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 719
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Venetoclax
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -79,7 +79,7 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-No ARTG entries were returned in this evidence pack. The `taiwan_regulatory` record for venetoclax states market status as **"未上市" (Not marketed)** with 0 registered licenses.
+No ARTG entries were returned in this evidence pack. The `taiwan_regulatory` record for venetoclax states market status as **"Not marketed" (Not marketed)** with 0 registered licenses.
 
 ⚠️ This is flagged as a likely data-collection gap rather than a confirmed market-absence, given venetoclax's status as a globally established oncology therapy. Direct verification against the TGA/ARTG database is recommended before this is relied upon for any regulatory decision.
 

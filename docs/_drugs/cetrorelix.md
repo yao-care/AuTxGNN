@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cetrorelix
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Cetrorelix
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,13 +25,13 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
 Using no specialised skill here — this is a self-contained report-writing task with a fully specified template in the system prompt, so I'll follow it directly rather than invoking an unrelated skill.
 
-A few data-fidelity notes before the report: the evidence pack has `drug.original_indications = []`, `original_moa = "[Data Gap]"`, and `taiwan_regulatory.licenses = []` (0 ARTG entries, market status "未上市"/Not Marketed). Per the prohibitions ("do not output `[Data Gap]`", "do not guess"), I cannot state a specific original indication — I've made that gap explicit rather than inventing one. The only MOA information available is what's embedded in the model's own `repurposing_rationale` text (repeated references to Cetrorelix as a GnRH antagonist), which I've used since it's actual evidence-pack content, not outside knowledge. `predicted_indications[0]` (Hypertrichosis) itself has zero trials/literature and a rationale that says there's no real mechanistic support — I've reported that honestly rather than overselling it, and flagged in the rationale section that lower-ranked candidates (aromatase excess syndrome, central precocious puberty) have stronger biological plausibility per the pack's own text. Sections with no data (Australia Market Information, Cytotoxicity) are omitted per the "no empty sections" rule.
+A few data-fidelity notes before the report: the evidence pack has `drug.original_indications = []`, `original_moa = "[Data Gap]"`, and `taiwan_regulatory.licenses = []` (0 ARTG entries, market status "Not marketed"/Not Marketed). Per the prohibitions ("do not output `[Data Gap]`", "do not guess"), I cannot state a specific original indication — I've made that gap explicit rather than inventing one. The only MOA information available is what's embedded in the model's own `repurposing_rationale` text (repeated references to Cetrorelix as a GnRH antagonist), which I've used since it's actual evidence-pack content, not outside knowledge. `predicted_indications[0]` (Hypertrichosis) itself has zero trials/literature and a rationale that says there's no real mechanistic support — I've reported that honestly rather than overselling it, and flagged in the rationale section that lower-ranked candidates (aromatase excess syndrome, central precocious puberty) have stronger biological plausibility per the pack's own text. Sections with no data (Australia Market Information, Cytotoxicity) are omitted per the "no empty sections" rule.
 
 ---
 

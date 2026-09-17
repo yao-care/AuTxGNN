@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clozapine
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 165
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Clozapine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -95,7 +95,7 @@ Both treatment-resistant schizophrenia and treatment-resistant bipolar mania rep
 
 ## Australia Market Information
 
-The current data query returned zero ARTG entries for Clozapine (market status recorded as "未上市" — not marketed). This is most likely a **query limitation** rather than an accurate reflection of TGA registration status: multiple publications in this evidence pack reference approved Clozapine use and titration protocols specifically within Australia (see PMID 31567198), and Clozapine (under brand names such as Clopine® and Clozaril®) is understood to be registered in Australia for treatment-resistant schizophrenia.
+The current data query returned zero ARTG entries for Clozapine (market status recorded as "Not marketed" — not marketed). This is most likely a **query limitation** rather than an accurate reflection of TGA registration status: multiple publications in this evidence pack reference approved Clozapine use and titration protocols specifically within Australia (see PMID 31567198), and Clozapine (under brand names such as Clopine® and Clozaril®) is understood to be registered in Australia for treatment-resistant schizophrenia.
 
 **Manual verification against the TGA's ARTG search tool is essential before any regulatory or clinical decision-making.** The absence of ARTG data in this report should not be interpreted as a finding of non-registration.
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pravastatin
-parent: 僅模型預測 (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 555
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -88,7 +88,7 @@ Three further hits (ezetimibe, atorvastatin general reviews, and PCSK9/CETP back
 
 ## Australia Market Information
 
-No ARTG entries are present in this dataset (`total_licenses: 0`, `market_status: 未上市`). No product name, dosage form, or approved indication text could be extracted. This does not necessarily reflect pravastatin's true Australian market status generally — it reflects a gap in the data source queried for this evidence pack and should be verified directly against the ARTG before any decision is finalised.
+No ARTG entries are present in this dataset (`total_licenses: 0`, `market_status: Not marketed`). No product name, dosage form, or approved indication text could be extracted. This does not necessarily reflect pravastatin's true Australian market status generally — it reflects a gap in the data source queried for this evidence pack and should be verified directly against the ARTG before any decision is finalised.
 
 ---
 

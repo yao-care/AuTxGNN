@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Liothyronine
-parent: 中證據等級 (L3-L4)
+parent: Moderate Evidence (L3-L4)
 nav_order: 399
 evidence_level: L3
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Liothyronine
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -46,7 +46,7 @@ TxGNN 模型的原始排序將**腎發育不全（renal hypodysplasia/aplasia）
 | 預測新適應症 | 結節性甲狀腺腫（Nodular Goiter） |
 | TxGNN 預測分數 | 99.94%（原始排名第 1192） |
 | 證據等級 | L3 |
-| 澳洲市場狀態 | 未上市 |
+| 澳洲市場狀態 | Not marketed |
 | ARTG 登錄筆數 | 0 |
 | 建議決策 | Proceed with Guardrails |
 

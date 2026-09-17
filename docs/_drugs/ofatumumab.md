@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ofatumumab
-parent: 高證據等級 (L1-L2)
+parent: High Evidence (L1-L2)
 nav_order: 485
 evidence_level: L1
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ofatumumab
 {: .fs-9 }
 
-證據等級: **L1** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -48,7 +48,7 @@ TxGNN 模型預測其可用於**慢性淋巴球性白血病/小淋巴球性淋�
 | 預測新適應症 | 慢性淋巴球性白血病/小淋巴球性淋巴瘤（CLL/SLL） |
 | TxGNN 預測分數 | 99.55% |
 | 證據等級 | L1 |
-| 澳洲市場狀態 | 未上市 |
+| 澳洲市場狀態 | Not marketed |
 | ARTG 收錄數量 | 0 |
 | 建議決策 | Proceed with Guardrails（有條件推進） |
 
@@ -56,7 +56,7 @@ TxGNN 模型預測其可用於**慢性淋巴球性白血病/小淋巴球性淋�
 
 ## 為什麼這個預測合理？
 
-根據證據包內的機轉關聯說明，Ofatumumab 是全人源抗 CD20 單株抗體，透過補體依賴性細胞毒殺（CDC）與抗體依賴性細胞毒殺（ADCC）機轉清除 CD20 陽性 B 淋巴球。CLL/SLL 屬於 CD20 陽性 B 細胞惡性腫瘤，機轉直接對應。此適應症在部分國際市場已為核准用途，本站標記「未上市」僅反映澳洲當地法規登記狀態，並非療效存在不確定性。
+根據證據包內的機轉關聯說明，Ofatumumab 是全人源抗 CD20 單株抗體，透過補體依賴性細胞毒殺（CDC）與抗體依賴性細胞毒殺（ADCC）機轉清除 CD20 陽性 B 淋巴球。CLL/SLL 屬於 CD20 陽性 B 細胞惡性腫瘤，機轉直接對應。此適應症在部分國際市場已為核准用途，本站標記「Not marketed」僅反映澳洲當地法規登記狀態，並非療效存在不確定性。
 
 支持證據相當扎實：現有已完成的 Phase 3 RCT 包括 NCT00824265（ofatumumab 併用 fludarabine-cyclophosphamide vs. 單用 FC，n=365，復發性 CLL）、NCT02004522（Duvelisib vs. Ofatumumab 頭對頭試驗，n=319）、NCT01578707（Ibrutinib vs. Ofatumumab，RESONATE，n=391）等，符合 L1 證據等級門檻（≥2 項已完成 Phase 3 RCT）。
 

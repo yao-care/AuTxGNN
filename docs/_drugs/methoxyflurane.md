@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Methoxyflurane
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 434
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Methoxyflurane
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -41,11 +41,11 @@ Methoxyflurane（甲氧氟烷）為鹵化醚類吸入性全身麻醉劑，目前
 
 | 項目 | 內容 |
 |------|------|
-| 原始適應症 | 全身麻醉／程序性鎮痛（吸入性麻醉劑；台灣未上市，無核准適應症紀錄） |
+| 原始適應症 | 全身麻醉／程序性鎮痛（吸入性麻醉劑；台灣Not marketed，無核准適應症紀錄） |
 | 預測新適應症 | 失眠症（Insomnia） |
 | TxGNN 預測分數 | 98.01%（模型排名第 18,563） |
 | 證據等級 | L5（僅模型預測，無實際研究） |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | ARTG／許可證數量 | 0 |
 | 建議決策 | Hold（暫緩） |
 
@@ -75,7 +75,7 @@ Methoxyflurane（甲氧氟烷）為鹵化醚類吸入性全身麻醉劑，目前
 
 ## 台灣上市資訊
 
-本藥於台灣未取得上市許可（市場狀態：未上市），無 ARTG／許可證登記資料。
+本藥於台灣未取得上市許可（市場狀態：Not marketed），無 ARTG／許可證登記資料。
 
 ---
 
