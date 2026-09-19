@@ -29,78 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Naproxen：從關節炎/疼痛治療到 Brachydactyly-Syndactyly Syndrome（低信心度預測）
+# Naproxen: From Arthritis/Pain Treatment to Brachydactyly-Syndactyly Syndrome (Low-confidence Prediction)
 
-## 一句話摘要
+## Executive Summary
 
-Naproxen 是傳統非類固醇消炎止痛藥（NSAID），臨床上廣泛用於關節炎、疼痛與發炎症狀。
-TxGNN 模型將其評分最高的新適應症為 **Brachydactyly-Syndactyly Syndrome**（短指-併指症候群），
-但目前**沒有任何臨床試驗或文獻支持**此連結，機轉理由亦明確指出該疾病屬先天骨骼發育異常，與 NSAID 消炎機轉無直接病理關聯。
+Naproxen is a traditional non-steroidal anti-inflammatory drug (NSAID) and is clinically widely used for arthritis, pain, and inflammatory symptoms. The TxGNN model's highest-scoring new indication is **Brachydactyly-Syndactyly Syndrome**, but there is currently **no clinical trial or literature support for this connection**, and the mechanistic rationale clearly indicates that this disease is a congenital skeletal developmental abnormality with no direct pathological association with NSAID anti-inflammatory mechanisms.
 
 ---
 
-## 快速總覽
+## Quick Overview
 
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 本證據包未提供 TFDA/ARTG 核准適應症文字（Naproxen 目前未在澳洲上市）；就公開藥理學常識，Naproxen 為傳統 NSAID，普遍用於疼痛、發炎與關節炎治療 |
-| 預測新適應症 | Brachydactyly-Syndactyly Syndrome（短指-併指症候群） |
-| TxGNN 預測分數 | 99.35% |
-| 證據等級 | L5（僅模型預測，無實際研究） |
-| 澳洲市場狀態 | Not marketed |
-| ARTG 登錄數 | 0 |
-| 建議決策 | Hold |
-
----
-
-## 為什麼這個預測合理？
-
-目前尚無詳細作用機轉資料。根據已知資訊，Naproxen 為傳統非選擇性 COX-1/COX-2 抑制劑類 NSAID 之一員，其於疼痛與發炎相關適應症之療效已獲廣泛臨床證實，機轉上主要透過抑制前列腺素合成產生消炎、鎮痛與解熱作用。
-
-然而，Brachydactyly-Syndactyly Syndrome 屬先天性肢端骨骼發育異常（骨骼形成基因缺陷所致），病理核心為胚胎發育期的骨骼形成機制異常，而非發炎介質驅動的病理過程。根據本證據包提供的 `repurposing_rationale`，此預測「與 NSAID 之 COX 抑制/消炎機轉無直接病理連結」，推測高分主要源自知識圖譜中骨骼相關節點的間接鄰近性（graph-proximity 假陽性），而非真實的機轉關聯。
-
-換言之，此預測目前**沒有機轉層面的合理支持**，屬於需要人工審查排除的低信心度候選。
+| Item | Content |
+|------|---------|
+| Original Indications | This evidence package does not provide TFDA/ARTG approved indication wording (Naproxen is currently not marketed in Australia); based on publicly available pharmacological knowledge, Naproxen is a traditional NSAID widely used for pain, inflammation, and arthritis treatment |
+| Predicted New Indication | Brachydactyly-Syndactyly Syndrome |
+| TxGNN Prediction Score | 99.35% |
+| Evidence Level | L5 (model prediction only, no clinical trials or literature support) |
+| Australian Market Status | Not marketed |
+| ARTG Registry Count | 0 |
+| Recommended Decision | Hold |
 
 ---
 
-## 臨床試驗證據
+## Why is this prediction reasonable?
 
-目前無相關臨床試驗登記。
+Currently, there is no detailed mechanistic data available. Based on known information, Naproxen is a traditional non-selective COX-1/COX-2 inhibitor class NSAID, whose efficacy in pain and inflammation-related indications has been widely clinically proven, with the mechanism primarily through inhibition of prostaglandin synthesis to produce anti-inflammatory, analgesic, and antipyretic effects.
 
-## 文獻證據
+However, Brachydactyly-Syndactyly Syndrome is a congenital acral skeletal developmental abnormality (caused by skeletal formation gene defects), with the pathological core being anomalous bone formation mechanisms during embryonic development, rather than an inflammatory mediator-driven pathological process. According to the `repurposing_rationale` provided in this evidence package, this prediction "has no direct pathological association with NSAID's COX inhibition/anti-inflammatory mechanism", suggesting the high score primarily originates from indirect proximity of bone-related nodes in the knowledge graph (graph-proximity false positive), rather than authentic mechanistic association.
 
-目前無相關文獻。
-
----
-
-## 澳洲市場資訊
-
-Naproxen 目前**未在澳洲上市**（ARTG 登錄數：0），本證據包未提供任何 ARTG 條目資料。
+In other words, this prediction currently lacks reasonable mechanistic support and represents a low-confidence candidate that should be excluded through manual review.
 
 ---
 
-## 安全性考量
+## Clinical Trial Evidence
 
-請參閱 TGA 核准的產品說明書（PI）以取得安全性資訊（本證據包之關鍵警語、禁忌症與藥物交互作用資料均缺失）。
+Currently, there are no relevant clinical trials registered.
 
----
+## Literature Evidence
 
-## 結論與後續步驟
-
-**決策：Hold**
-
-**理由：**
-此候選僅達 L5 證據等級（純模型預測，無任何臨床試驗或文獻佐證），且機轉理由本身已明確指出與原適應症之藥理機轉無直接病理連結，高分可能為知識圖譜結構性假陽性。不建議投入後續資源。
-
-**若要繼續推進，需要補充：**
-- 至少 1 項體外/體內機轉研究，證實 COX 抑制路徑與短指-併指症候群病理的關聯性
-- TFDA/TGA 產品說明書（仿單警語、禁忌症）以完成 S1 安全性初評
-- DrugBank 完整 MOA 資料
-- 若機轉支持薄弱，建議直接排除此候選
+Currently, there is no relevant literature.
 
 ---
 
-**附註：** 本證據包（TW-DB00788-multi）內含 10 個 TxGNN 預測適應症，其中排名第 8（inflammatory spondylopathy）與第 10（polyarticular juvenile rheumatoid arthritis）之證據等級達 L2、決策階段 S2、建議「Proceed with Guardrails」，但兩者的 `repurposing_rationale` 均註明屬既有臨床實務用途之再確認，而非新穎機轉假說。若目的是尋找具實證支持的候選，建議改以這兩項適應症為主體另行產出報告，而非本文所評估之 rank 1 候選。
+## Australian Market Information
+
+Naproxen is currently **not marketed in Australia** (ARTG registry count: 0), and this evidence package does not provide any ARTG entry data.
+
+---
+
+## Safety Considerations
+
+Please refer to the TGA-approved Product Information (PI) for safety information (key warnings, contraindications, and drug interaction data are missing from this evidence package).
+
+---
+
+## Conclusion and Next Steps
+
+**Decision: Hold**
+
+**Rationale:**
+This candidate achieves only L5 evidence level (model prediction alone with no clinical trial or literature support), and the mechanistic rationale itself has clearly indicated no direct pathological association with the original indication's pharmacological mechanism; the high score is likely a knowledge graph structural false positive. It is not recommended to invest further resources.
+
+**If proceeding further is desired, the following must be supplemented:**
+- At least 1 in vitro/in vivo mechanistic study to confirm the association between COX inhibition pathway and Brachydactyly-Syndactyly Syndrome pathology
+- TFDA/TGA Product Information (product labeling warnings, contraindications) to complete S1 safety initial assessment
+- Complete DrugBank MOA data
+- If mechanistic support is weak, it is recommended to directly exclude this candidate
+
+---
+
+**Appendix:** This evidence package (TW-DB00788-multi) contains 10 TxGNN-predicted indications, of which rank 8 (inflammatory spondylopathy) and rank 10 (polyarticular juvenile rheumatoid arthritis) achieve evidence level L2, decision stage S2, and recommendation "Proceed with Guardrails", but the `repurposing_rationale` for both indicates they are confirmations of existing clinical practice uses, not novel mechanistic hypotheses. If the purpose is to identify evidence-supported candidates, it is recommended to generate a separate report based on these two indications as the main body, rather than the rank 1 candidate evaluated in this document.
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

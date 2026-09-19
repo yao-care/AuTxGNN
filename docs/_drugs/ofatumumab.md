@@ -29,112 +29,113 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Ofatumumab：從尚未於澳洲上市，到預測用於慢性淋巴球性白血病/小淋巴球性淋巴瘤
+# Ofatumumab: From Not Yet Marketed in Australia to Predicted Use in Chronic Lymphocytic Leukaemia/Small Lymphocytic Lymphoma
 
-## 一句話摘要
+## One-Sentence Summary
 
-Ofatumumab（DrugBank：DB06650）為全人源抗 CD20 單株抗體，目前**未於澳洲上市**（ARTG 收錄數為 0），本地原始核准適應症資料尚缺。
-TxGNN 模型預測其可用於**慢性淋巴球性白血病/小淋巴球性淋巴瘤（CLL/SLL）**，
-此為 Ofatumumab 在國際上已具實證基礎的既有用途方向，目前有 **34 項相關臨床試驗**（含多項完成的 Phase 3 RCT）與 **20 篇文獻**支持。
-另有次要方向濾泡性淋巴瘤（follicular lymphoma）以多項 Phase 2 試驗支持，機轉相同（詳見下方說明）。
-
----
-
-## 重點總覽
-
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 尚無本地（澳洲）核准適應症資料；藥品目前未於澳洲上市 |
-| 預測新適應症 | 慢性淋巴球性白血病/小淋巴球性淋巴瘤（CLL/SLL） |
-| TxGNN 預測分數 | 99.55% |
-| 證據等級 | L1 |
-| 澳洲市場狀態 | Not marketed |
-| ARTG 收錄數量 | 0 |
-| 建議決策 | Proceed with Guardrails（有條件推進） |
+Ofatumumab (DrugBank: DB06650) is a fully human anti-CD20 monoclonal antibody, currently **not marketed in Australia** (ARTG listed count: 0), with local initial approved indication data not yet available.
+The TxGNN model predicts it may be used for **chronic lymphocytic leukaemia/small lymphocytic lymphoma (CLL/SLL)**,
+which represents an established international evidence-based use direction for ofatumumab, currently supported by **34 related clinical trials** (including multiple completed Phase 3 RCTs) and **20 publications**.
+A secondary direction—follicular lymphoma—is supported by multiple Phase 2 trials with the same mechanism, detailed below.
 
 ---
 
-## 為什麼這個預測合理？
+## Key Overview
 
-根據證據包內的機轉關聯說明，Ofatumumab 是全人源抗 CD20 單株抗體，透過補體依賴性細胞毒殺（CDC）與抗體依賴性細胞毒殺（ADCC）機轉清除 CD20 陽性 B 淋巴球。CLL/SLL 屬於 CD20 陽性 B 細胞惡性腫瘤，機轉直接對應。此適應症在部分國際市場已為核准用途，本站標記「Not marketed」僅反映澳洲當地法規登記狀態，並非療效存在不確定性。
-
-支持證據相當扎實：現有已完成的 Phase 3 RCT 包括 NCT00824265（ofatumumab 併用 fludarabine-cyclophosphamide vs. 單用 FC，n=365，復發性 CLL）、NCT02004522（Duvelisib vs. Ofatumumab 頭對頭試驗，n=319）、NCT01578707（Ibrutinib vs. Ofatumumab，RESONATE，n=391）等，符合 L1 證據等級門檻（≥2 項已完成 Phase 3 RCT）。
-
-同一藥物證據包中，另有次要方向「濾泡性淋巴瘤」（TxGNN 分數 99.70%，證據等級 L2）機轉相同（同屬 CD20+ B 細胞淋巴瘤），並有多項 Phase 2 試驗（如 NCT01190449、NCT01294579）支持初治族群療效，可作為後續追蹤方向。至於惡性螺旋腺瘤、Langerhans 細胞組織球增生症、組織細胞/樹突細胞腫瘤及兒童縱膈神經源性腫瘤等其他預測（證據等級 L5、決策階段 S0），因無任何試驗或文獻支持，且細胞來源與 CD20 表現無關，證據包本身已標註為模型雜訊，建議排除，不納入本報告主要評估範圍。
-
-需注意：MOA 詳細資料（DrugBank 查詢）與 TFDA/PI 仿單警語資料目前仍為缺口（DG001、DG002），其中 DG001 屬 Blocking 等級，會影響安全性初評（S1）的進行，即便療效證據已達 L1，最終決策仍需待此缺口補齊。
-
----
-
-## 臨床試驗證據
-
-| 試驗編號 | 期別 | 狀態 | 收案人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT00824265](https://clinicaltrials.gov/study/NCT00824265) | Phase 3 | Completed | 365 | Ofatumumab 併用 fludarabine-cyclophosphamide vs. 單用 FC，評估復發性 CLL 安全性與療效 |
-| [NCT02004522](https://clinicaltrials.gov/study/NCT02004522) | Phase 3 | Completed | 319 | DUO 試驗：Duvelisib vs. Ofatumumab 單藥頭對頭比較，復發/難治 CLL/SLL |
-| [NCT01578707](https://clinicaltrials.gov/study/NCT01578707) | Phase 3 | Completed | 391 | RESONATE 試驗：Ibrutinib vs. Ofatumumab，評估 PFS 於復發/難治 CLL/SLL |
-| [NCT01313689](https://clinicaltrials.gov/study/NCT01313689) | Phase 3 | Completed | 122 | Ofatumumab vs. 醫師選擇治療，用於 bulky fludarabine-refractory CLL 之確認性試驗 |
-| [NCT01039376](https://clinicaltrials.gov/study/NCT01039376) | Phase 3 | Terminated | 480 | Ofatumumab 維持治療 vs. 觀察，復發 CLL 已對誘導治療反應者 |
-| [NCT01217749](https://clinicaltrials.gov/study/NCT01217749) | Phase 1b/2 | Completed | 71 | BTK 抑制劑（PCI-32765）併用 Ofatumumab，復發/難治 CLL/SLL |
-| [NCT02049515](https://clinicaltrials.gov/study/NCT02049515) | Phase 3 | Completed | 99 | Duvelisib 或 Ofatumumab 單藥治療於前期研究病程進展病人（延伸試驗） |
-| [NCT01453062](https://clinicaltrials.gov/study/NCT01453062) | N/A | Completed | 1 | 歐盟真實世界觀察性研究，CLL 病人接受 Ofatumumab 治療 |
-| [NCT01520922](https://clinicaltrials.gov/study/NCT01520922) | Phase 2 | Completed | 99 | Ofatumumab 併用 bendamustine，未治療或復發 CLL |
-| [NCT01024010](https://clinicaltrials.gov/study/NCT01024010) | Phase 2 | Completed | 82 | Ofatumumab 併用 pentostatin、cyclophosphamide，未治療 CLL/SLL |
+| Item | Content |
+|------|---------|
+| Original Indication | No local (Australian) approved indication data available; drug not currently marketed in Australia |
+| Predicted New Indication | Chronic lymphocytic leukaemia/small lymphocytic lymphoma (CLL/SLL) |
+| TxGNN Prediction Score | 99.55% |
+| Evidence Level | L1 |
+| Australian Market Status | Not marketed |
+| ARTG Registration Count | 0 |
+| Recommended Decision | Proceed with Guardrails |
 
 ---
 
-## 文獻證據
+## Why This Prediction Is Reasonable
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [31512258](https://pubmed.ncbi.nlm.nih.gov/31512258/) | 2019 | RCT（長期追蹤） | American Journal of Hematology | RESONATE 試驗最終分析，Ibrutinib 對比 Ofatumumab 於已治療 CLL/SLL，最長 6 年追蹤結果 |
-| [37138022](https://pubmed.ncbi.nlm.nih.gov/37138022/) | 2023 | Meta-analysis | Annals of Hematology | 統合分析評估 Ofatumumab 治療 CLL 之整體療效 |
-| [25828085](https://pubmed.ncbi.nlm.nih.gov/25828085/) | 2015 | Review | Haematologica | 綜述 Ofatumumab 作為 CLL 免疫治療之角色 |
-| [20481657](https://pubmed.ncbi.nlm.nih.gov/20481657/) | 2010 | Review | Drugs | Ofatumumab 藥理特性回顧，含關鍵性 fludarabine/alemtuzumab 難治 CLL 研究 |
-| [26566719](https://pubmed.ncbi.nlm.nih.gov/26566719/) | 2015 | Review（安全性） | Expert Opinion on Drug Safety | Ofatumumab 治療 CLL 之安全性剖析 |
-| [25736010](https://pubmed.ncbi.nlm.nih.gov/25736010/) | 2015 | Guideline | Journal of the National Comprehensive Cancer Network | CLL/SLL 治療指引，列入 Ofatumumab 作為核准單株抗體選項 |
-| [20068404](https://pubmed.ncbi.nlm.nih.gov/20068404/) | 2009 | Review | mAbs | Ofatumumab 藥物概述，含 CLL 核准申請背景 |
-| [28782884](https://pubmed.ncbi.nlm.nih.gov/28782884/) | 2017 | Review | American Journal of Hematology | CLL 診斷、風險分層與治療更新 |
-| [29212732](https://pubmed.ncbi.nlm.nih.gov/29212732/) | 2018 | Review | The Oncologist | CLL 治療中抗 CD20 單株抗體（含 Ofatumumab）角色與生物相似藥探討 |
-| [24947256](https://pubmed.ncbi.nlm.nih.gov/24947256/) | 2014 | Review | Future Oncology | Ofatumumab 作為未治療 CLL 一線治療之定位討論 |
+According to the mechanism-of-action information in the evidence package, ofatumumab is a fully human anti-CD20 monoclonal antibody that eliminates CD20-positive B lymphocytes through complement-dependent cytotoxicity (CDC) and antibody-dependent cellular cytotoxicity (ADCC). CLL/SLL is a CD20-positive B-cell malignancy with a mechanism directly corresponding to this target. This indication represents an approved use in some international markets; the "Not marketed" designation here reflects only the Australian regulatory registration status, not uncertainty regarding therapeutic efficacy.
+
+The supporting evidence is substantial: completed Phase 3 RCTs include NCT00824265 (ofatumumab plus fludarabine-cyclophosphamide vs. FC alone, n=365, relapsed CLL), NCT02004522 (duvelisib vs. ofatumumab head-to-head, n=319), and NCT01578707 (ibrutinib vs. ofatumumab, RESONATE, n=391), meeting the L1 evidence threshold (≥2 completed Phase 3 RCTs).
+
+Within the same drug evidence package, a secondary direction—"follicular lymphoma" (TxGNN score 99.70%, evidence level L2)—shares the same mechanism (CD20+ B-cell lymphoma) and is supported by multiple Phase 2 trials (e.g., NCT01190449, NCT01294579) demonstrating efficacy in treatment-naive populations, suitable for future tracking. Other predicted indications—sebaceous carcinoma, Langerhans cell histiocytosis, histiocytic/dendritic cell tumours, and childhood mediastinal neurogenic tumours—carry evidence level L5 and decision stage S0. Lacking any trial or literature support and unrelated to CD20 expression by cell origin, the evidence package itself has flagged these as model noise; they are recommended for exclusion and not included in the primary scope of this report.
+
+Note: Detailed MOA data (DrugBank query) and TFDA/PI product information warnings remain gaps (DG001, DG002), with DG001 classified as Blocking level. This affects progression to safety assessment (S1); even though efficacy evidence reaches L1, final decision awaits closure of this gap.
 
 ---
 
-## 澳洲市場資訊
+## Clinical Trial Evidence
 
-Ofatumumab 目前**未於澳洲藥品登記系統（ARTG）註冊**，無任何核准劑型或適應症紀錄。
-
----
-
-## 細胞毒性資訊
-
-| 項目 | 內容 |
-|------|------|
-| 細胞毒性分類 | 標靶治療／免疫治療（抗 CD20 單株抗體，非傳統化療藥物） |
-| 骨髓抑制風險 | 請參考核准仿單（PI）警語與注意事項 |
-| 致吐性分類 | 請參考核准仿單（PI）警語與注意事項 |
-| 監測項目 | 請參考核准仿單（PI）警語與注意事項 |
-| 處理防護 | 請參考核准仿單（PI）警語與注意事項 |
-
----
-
-## 安全性考量
-
-目前無可用之警語、禁忌症或藥物交互作用資料。請參考 TGA 核准之產品說明書（PI）以取得安全性資訊。
+| Trial Number | Phase | Status | Enrolled | Primary Finding |
+|----------|-------|--------|----------|-----------------|
+| [NCT00824265](https://clinicaltrials.gov/study/NCT00824265) | Phase 3 | Completed | 365 | Ofatumumab plus fludarabine-cyclophosphamide vs. FC alone, evaluating safety and efficacy in relapsed CLL |
+| [NCT02004522](https://clinicaltrials.gov/study/NCT02004522) | Phase 3 | Completed | 319 | DUO trial: duvelisib vs. ofatumumab head-to-head comparison, relapsed/refractory CLL/SLL |
+| [NCT01578707](https://clinicaltrials.gov/study/NCT01578707) | Phase 3 | Completed | 391 | RESONATE trial: ibrutinib vs. ofatumumab, evaluating PFS in relapsed/refractory CLL/SLL |
+| [NCT01313689](https://clinicaltrials.gov/study/NCT01313689) | Phase 3 | Completed | 122 | Ofatumumab vs. physician's choice of treatment in bulky fludarabine-refractory CLL confirmatory trial |
+| [NCT01039376](https://clinicaltrials.gov/study/NCT01039376) | Phase 3 | Terminated | 480 | Ofatumumab maintenance vs. observation in relapsed CLL patients responsive to induction therapy |
+| [NCT01217749](https://clinicaltrials.gov/study/NCT01217749) | Phase 1b/2 | Completed | 71 | BTK inhibitor (PCI-32765) combined with ofatumumab, relapsed/refractory CLL/SLL |
+| [NCT02049515](https://clinicaltrials.gov/study/NCT02049515) | Phase 3 | Completed | 99 | Duvelisib or ofatumumab monotherapy in patients with prior progression from early-phase studies (extension trial) |
+| [NCT01453062](https://clinicaltrials.gov/study/NCT01453062) | N/A | Completed | 1 | European real-world observational study, CLL patients receiving ofatumumab treatment |
+| [NCT01520922](https://clinicaltrials.gov/study/NCT01520922) | Phase 2 | Completed | 99 | Ofatumumab combined with bendamustine, treatment-naive or relapsed CLL |
+| [NCT01024010](https://clinicaltrials.gov/study/NCT01024010) | Phase 2 | Completed | 82 | Ofatumumab combined with pentostatin and cyclophosphamide, treatment-naive CLL/SLL |
 
 ---
 
-## 結論與後續步驟
+## Literature Evidence
 
-**決策：Proceed with Guardrails（有條件推進）**
+| PMID | Year | Type | Journal | Key Finding |
+|------|------|------|---------|------------|
+| [31512258](https://pubmed.ncbi.nlm.nih.gov/31512258/) | 2019 | RCT (long-term follow-up) | American Journal of Hematology | RESONATE trial final analysis, ibrutinib vs. ofatumumab in previously treated CLL/SLL, 6-year follow-up results |
+| [37138022](https://pubmed.ncbi.nlm.nih.gov/37138022/) | 2023 | Meta-analysis | Annals of Hematology | Systematic review assessing overall efficacy of ofatumumab in treating CLL |
+| [25828085](https://pubmed.ncbi.nlm.nih.gov/25828085/) | 2015 | Review | Haematologica | Review of ofatumumab's role in immunotherapy for CLL |
+| [20481657](https://pubmed.ncbi.nlm.nih.gov/20481657/) | 2010 | Review | Drugs | Pharmacological characteristics review of ofatumumab, including key fludarabine/alemtuzumab-refractory CLL studies |
+| [26566719](https://pubmed.ncbi.nlm.nih.gov/26566719/) | 2015 | Review (safety) | Expert Opinion on Drug Safety | Safety analysis of ofatumumab in CLL treatment |
+| [25736010](https://pubmed.ncbi.nlm.nih.gov/25736010/) | 2015 | Guideline | Journal of the National Comprehensive Cancer Network | CLL/SLL treatment guidelines including ofatumumab as approved monoclonal antibody option |
+| [20068404](https://pubmed.ncbi.nlm.nih.gov/20068404/) | 2009 | Review | mAbs | Drug overview of ofatumumab, including CLL approval application background |
+| [28782884](https://pubmed.ncbi.nlm.nih.gov/28782884/) | 2017 | Review | American Journal of Hematology | CLL diagnosis, risk stratification and treatment updates |
+| [29212732](https://pubmed.ncbi.nlm.nih.gov/29212732/) | 2018 | Review | The Oncologist | Role of anti-CD20 monoclonal antibodies (including ofatumumab) in CLL treatment and biosimilar considerations |
+| [24947256](https://pubmed.ncbi.nlm.nih.gov/24947256/) | 2014 | Review | Future Oncology | Discussion of ofatumumab positioning as first-line therapy in treatment-naive CLL |
 
-**理由：**
-CLL/SLL 適應症方向已有多項已完成的 Phase 3 RCT 支持（符合 L1 證據等級），機轉明確且部分市場已核准此用途；但藥品本身之 TFDA/PI 仿單警語與詳細作用機轉資料仍為缺口（其中仿單警語資料為 Blocking 等級缺口），在完整安全性初評（S1）尚未完成前，不建議直接列為 Go。
+---
 
-**推進所需補充：**
-- 取得 TFDA（或澳洲對應之 TGA）仿單警語與禁忌症資料，完成 S1 安全性初評
-- 補齊 DrugBank 作用機轉（MOA）詳細資料，強化機轉關聯性分析
-- 若考慮推進次要方向濾泡性淋巴瘤，需另行評估其證據等級（現為 L2）是否足以支持後續決策階段
+## Australian Market Information
+
+Ofatumumab is currently **not registered in the Australian Register of Therapeutic Goods (ARTG)**, with no approved formulations or indications on record.
+
+---
+
+## Cytotoxicity Information
+
+| Item | Content |
+|------|---------|
+| Cytotoxicity Classification | Targeted/immunotherapy (anti-CD20 monoclonal antibody, not conventional chemotherapy) |
+| Myelosuppression Risk | Refer to approved product information (PI) warnings and precautions |
+| Emetogenic Classification | Refer to approved product information (PI) warnings and precautions |
+| Monitoring Parameters | Refer to approved product information (PI) warnings and precautions |
+| Handling and Protection | Refer to approved product information (PI) warnings and precautions |
+
+---
+
+## Safety Considerations
+
+No warnings, contraindications, or drug interaction data are currently available. Please refer to the TGA-approved product information (PI) for safety information.
+
+---
+
+## Conclusions and Next Steps
+
+**Decision: Proceed with Guardrails**
+
+**Rationale:**
+The CLL/SLL indication direction is supported by multiple completed Phase 3 RCTs (meeting L1 evidence level), with clear mechanism and approved use in some markets; however, detailed TFDA/PI product information warnings and mechanism-of-action data remain gaps (product information warnings classified as Blocking-level gap). Complete safety assessment (S1) has not yet been performed; until this gap is closed, listing as Go is not recommended.
+
+**Supplementary Requirements for Progression:**
+- Obtain TFDA (or corresponding TGA) product information warnings and contraindications to complete S1 safety assessment
+- Close MOA data gaps from DrugBank to strengthen mechanism-of-action analysis
+- If considering progression to the secondary direction of follicular lymphoma, separately evaluate whether its evidence level (currently L2) is sufficient to support subsequent decision stages
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

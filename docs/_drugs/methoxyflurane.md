@@ -29,74 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methoxyflurane：從全身麻醉／程序性鎮痛到失眠症（Insomnia）
+# Methoxyflurane: From General Anesthesia/Procedural Sedation to Insomnia
 
-## 一句話摘要
+## One-sentence Summary
 
-Methoxyflurane（甲氧氟烷）為鹵化醚類吸入性全身麻醉劑，目前臨床上主要作為程序性鎮痛藥物（如 Penthrox®）使用，台灣尚未取得上市許可。TxGNN 模型預測其可能對**失眠症（Insomnia）**具治療效果，預測分數高達 **98.01%**，但目前**無任何臨床試驗或文獻**支持此方向。
-
----
-
-## 快速總覽
-
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 全身麻醉／程序性鎮痛（吸入性麻醉劑；台灣Not marketed，無核准適應症紀錄） |
-| 預測新適應症 | 失眠症（Insomnia） |
-| TxGNN 預測分數 | 98.01%（模型排名第 18,563） |
-| 證據等級 | L5（僅模型預測，無實際研究） |
-| 台灣上市狀態 | Not marketed |
-| ARTG／許可證數量 | 0 |
-| 建議決策 | Hold（暫緩） |
+Methoxyflurane is a halogenated ether volatile general anesthetic, currently used clinically mainly as a procedural sedation/analgesia agent (such as Penthrox®). Taiwan has not obtained marketing approval. The TxGNN model predicts it may have therapeutic effects on **insomnia** with a prediction score as high as **98.01%**, but currently there is **no clinical trial or literature** supporting this direction.
 
 ---
 
-## 為何此預測具有合理性？
+## Quick Overview
 
-目前尚無詳細作用機轉（MOA）資料。根據現有資訊，Methoxyflurane 屬於鹵化醚類吸入性全身麻醉劑，其於全身麻醉／程序性鎮痛之療效已獲臨床肯定，機轉上可能透過 GABA-A 受體增強作用誘導鎮靜／嗜睡效果。
-
-全身麻醉／鎮靜與失眠症在藥理層面同屬中樞神經抑制作用範疇，這也是 TxGNN 模型產生此關聯預測的理論基礎。然而，全身麻醉的鎮靜作用屬短效、單次給藥情境，與失眠症所需的慢性、重複性治療模式在給藥方式與安全性考量上有本質差異。
-
-更關鍵的是，Methoxyflurane 已知具有腎毒性風險，此特性使其不適合作為需要長期／慢性給藥的失眠症治療選項。此預測目前純屬 TxGNN 分數推論，缺乏任何臨床試驗或文獻佐證。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記（ClinicalTrials.gov 與 ICTRP 針對「Methoxyflurane + insomnia」查詢皆為 0 筆結果）。
+| Item | Content |
+|------|---------|
+| Original indication | General anesthesia/procedural sedation (volatile anesthetic; Taiwan not marketed, no approved indication records) |
+| Predicted new indication | Insomnia |
+| TxGNN prediction score | 98.01% (model ranking #18,563) |
+| Evidence level | L5 (model prediction only, no actual research) |
+| Taiwan market status | Not marketed |
+| ARTG/license count | 0 |
+| Recommended decision | Hold |
 
 ---
 
-## 文獻證據
+## Why Is This Prediction Reasonable?
 
-目前無相關文獻資料（PubMed 查詢針對「Methoxyflurane + insomnia」為 0 筆結果）。
+Currently there are no detailed mechanism of action (MOA) data. Based on existing information, methoxyflurane is a halogenated ether volatile general anesthetic, whose efficacy in general anesthesia/procedural sedation has been clinically established. The mechanism may induce sedation/somnolence effects through GABA-A receptor enhancement.
 
----
+General anesthesia/sedation and insomnia belong to the same category of central nervous system depression in terms of pharmacology, which is also the theoretical basis for the TxGNN model generating this association prediction. However, the sedative effects of general anesthesia are short-acting and single-dose in nature, which differs fundamentally from the chronic, repetitive treatment model required for insomnia in terms of dosing methods and safety considerations.
 
-## 台灣上市資訊
-
-本藥於台灣未取得上市許可（市場狀態：Not marketed），無 ARTG／許可證登記資料。
+More critically, methoxyflurane is known to carry nephrotoxicity risk, a characteristic that makes it unsuitable as a treatment option for insomnia requiring long-term/chronic administration. This prediction is currently purely based on TxGNN score inference, lacking any clinical trial or literature support.
 
 ---
 
-## 安全性考量
+## Clinical Trial Evidence
 
-請參考 TGA（或 TFDA）核准之產品說明書（PI）以獲取安全性資訊。目前查無正式之警語、禁忌症資料，藥物交互作用（DDI）查詢結果為 not_found。
+Currently no relevant clinical trials are registered (searches for "methoxyflurane + insomnia" on ClinicalTrials.gov and ICTRP both yield 0 results).
 
 ---
 
-## 結論與後續建議
+## Literature Evidence
 
-**決策：Hold（暫緩）**
+Currently no relevant literature data (PubMed search for "methoxyflurane + insomnia" yields 0 results).
 
-**理由：**
-TxGNN 預測分數雖高，但完全缺乏臨床試驗與文獻佐證，證據等級僅達 L5（純模型預測），且藥物已知腎毒性風險使其不適合作為失眠症之慢性治療選項，暫不建議推進。
+---
 
-**若欲繼續推進，需補充：**
-- Methoxyflurane 完整作用機轉（MOA）資料
-- 至少 1 項機轉相關之臨床前或臨床研究以支持失眠症適應症
-- 慢性／重複給藥之腎毒性風險評估
-- 台灣／澳洲上市與仿單安全性資料（警語、禁忌、DDI）
+## Taiwan Market Information
+
+This drug has not obtained marketing approval in Taiwan (market status: not marketed), with no ARTG/license registration records.
+
+---
+
+## Safety Considerations
+
+Please refer to the product information sheet (PI) approved by TGA (or TFDA) for safety information. Currently no formal warnings or contraindication data can be found; drug-drug interaction (DDI) search results are not_found.
+
+---
+
+## Conclusion and Further Recommendations
+
+**Decision: Hold**
+
+**Rationale:**
+Although the TxGNN prediction score is high, it completely lacks clinical trial and literature support, with evidence level reaching only L5 (pure model prediction). Moreover, the drug's known nephrotoxicity risk makes it unsuitable as a chronic treatment option for insomnia; progression is not recommended at this time.
+
+**If further advancement is considered, the following should be supplemented:**
+- Complete mechanism of action (MOA) data for methoxyflurane
+- At least 1 mechanism-related preclinical or clinical study to support insomnia indication
+- Nephrotoxicity risk assessment with chronic/repeated dosing
+- Taiwan/Australian market approval and product information safety data (warnings, contraindications, DDI)
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

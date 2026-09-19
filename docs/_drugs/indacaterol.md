@@ -29,116 +29,117 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Indacaterol：從 COPD／氣喘維持治療 到 支氣管疾病（廣義適應症擴展）
+# Indacaterol: From COPD/Asthma Maintenance Therapy to Bronchial Disease (Broad Indication Expansion)
 
-## 一句話摘要
+## One-line Summary
 
-Indacaterol 是一種長效型 β2-腎上腺素受體促效劑（LABA），已知的臨床使用機轉為 COPD／氣喘維持治療的支氣管擴張劑成分之一，但**尚未在台灣上市**（無 TFDA 核准字號）。TxGNN 模型針對此藥共列出 10 項預測新適應症，其中僅**「支氣管疾病（bronchial disease）」**具備實質支持——**37 筆臨床試驗**與**20 篇文獻**，且多筆為 Phase 3 大型對照試驗；其餘 9 項預測分數雖高，但均無臨床試驗或文獻佐證，且部分機轉方向與藥理學已知作用相反。
-
----
-
-## 快速總覽
-
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 資料缺口（台灣Not marketed，無 TFDA 核准適應症紀錄；證據包內機轉敘述顯示國際間核准用途為 COPD／氣喘維持治療） |
-| 預測新適應症 | Bronchial disease（支氣管疾病，廣義呼吸道適應症類別） |
-| TxGNN 預測分數 | 99.18% |
-| 證據等級 | L1 |
-| 台灣上市狀態 | Not marketed |
-| TFDA 核准字號筆數 | 0 |
-| 建議決策 | Proceed with Guardrails（附條件推進） |
-
-> 註：TxGNN 依分數排序的第一名預測為「nephrogenic syndrome of inappropriate antidiuresis」（分數 99.54%），但該候選完全無臨床試驗、無文獻，且模型自身的機轉理由已明確指出與 β2 促效機轉無關（見文末「其他預測適應症」）。本報告以**證據等級最高、具實際決策價值**的「支氣管疾病」作為主要評估對象。
+Indacaterol is a long-acting beta-2 adrenergic receptor agonist (LABA) with known clinical use mechanisms for COPD/asthma maintenance therapy as a bronchodilator component; however, it is **not yet marketed in Taiwan** (no TFDA approval number). The TxGNN model identifies 10 predicted new indications for this drug, of which only **"bronchial disease"** has substantial support—**37 clinical trials** and **20 literature reports**, with multiple Phase 3 large-scale controlled trials; the remaining 9 predicted indications, while scoring high, lack clinical trial or literature evidence, and some mechanistic directions contradict known pharmacological action.
 
 ---
 
-## 為什麼這個預測合理？
+## Quick Overview
 
-目前尚無完整的作用機轉（MOA）結構化資料可用（DrugBank 查詢欄位為資料缺口）。但根據證據包內機轉敘述，Indacaterol 為**長效型 β2-腎上腺素受體促效劑（LABA）**，透過活化氣道平滑肌上的 β2 受體促使支氣管擴張，此機轉已是其國際間核准用於 COPD 與氣喘維持治療的臨床應用基礎。
+| Item | Content |
+|------|---------|
+| Original Indication | Data gap (Taiwan: Not marketed, no TFDA approval record; mechanistic description within evidence package indicates international approval for COPD/asthma maintenance therapy) |
+| Predicted New Indication | Bronchial disease |
+| TxGNN Prediction Score | 99.18% |
+| Evidence Level | L1 |
+| Taiwan Market Status | Not marketed |
+| TFDA Approval Number | 0 |
+| Recommended Decision | Proceed with Guardrails |
 
-「支氣管疾病」為廣義的呼吸道適應症分類，與 Indacaterol 既有的 COPD／氣喘適應症在病理生理上高度重疊，因此 TxGNN 預測在機轉上具有直接、明確的藥理對應關係，而非跨系統的新穎連結。換言之，此項預測較接近**既有核准用途的分類擴展確認**，而非傳統意義上的「老藥新用」。也因此，證據強度雖高（L1），但臨床新穎性有限，實際效益需視此分類是否對應到台灣尚未涵蓋的特定適應症子類別而定。
-
----
-
-## 臨床試驗證據
-
-| 試驗編號 | 期別 | 狀態 | 收案人數 | 主要發現 |
-|---------|------|------|------|---------|
-| [NCT02554786](https://clinicaltrials.gov/study/NCT02554786) | Phase 3 | 已完成 | 2216 | 比較兩種劑量 QMF149（indacaterol／mometasone）與 mometasone 單方於控制不佳氣喘患者之療效與安全性 |
-| [NCT02571777](https://clinicaltrials.gov/study/NCT02571777) | Phase 3 | 已完成 | 3092 | 比較 QVM149（indacaterol/glycopyrronium/mometasone 三合一）與 QMF149 兩種劑量之療效與安全性 |
-| [NCT00529529](https://clinicaltrials.gov/study/NCT00529529) | Phase 3 | 已完成 | 805 | 以 salmeterol 為活性對照，評估 indacaterol 300/600 µg 於中重度持續性氣喘患者 26 週安全性 |
-| [NCT03158311](https://clinicaltrials.gov/study/NCT03158311) | Phase 3 | 已完成 | 1426 | QVM149 對比 salmeterol/fluticasone + tiotropium 自由組合治療，證實非劣性 |
-| [NCT01079130](https://clinicaltrials.gov/study/NCT01079130) | Phase 3 | 已完成 | 511 | 以 salmeterol 為活性對照之隨機雙盲試驗，評估 indacaterol 14 天支氣管擴張療效 |
-| [NCT00941798](https://clinicaltrials.gov/study/NCT00941798) | Phase 2 | 已完成 | 2283 | QMF149 與 mometasone 單方之安全性比較，事件驅動試驗評估嚴重氣喘惡化發生率 |
-| [NCT01609478](https://clinicaltrials.gov/study/NCT01609478) | Phase 2 | 已完成 | 335 | 12 週劑量探索試驗，支持 QMF149 固定劑量組合之劑量選擇 |
-| [NCT05562466](https://clinicaltrials.gov/study/NCT05562466) | Phase 3 | 招募中 | 200 | QMF149 對比 budesonide，於 6-12 歲兒童氣喘患者之療效與安全性 |
-| [NCT02892019](https://clinicaltrials.gov/study/NCT02892019) | Phase 2 | 已完成 | 79 | 評估 indacaterol acetate 於 6-12 歲兒童氣喘患者之肺功能與全身暴露量 |
-| [NCT02059434](https://clinicaltrials.gov/study/NCT02059434) | Phase 1 | 已完成 | 55 | 吸入式支氣管擴張劑於氣喘與 COPD 患者之安全性、耐受性與藥效初步試驗 |
+> Note: The first-ranked prediction by TxGNN score is "nephrogenic syndrome of inappropriate antidiuresis" (99.54% score), but that candidate has no clinical trials or literature support, and the model's own mechanistic reasoning explicitly indicates no relationship to β2 agonist mechanism (see "Other Predicted Indications" at end of report). This report uses **the highest evidence level indication with actual decision value—"bronchial disease"—as the primary assessment target**.
 
 ---
 
-## 文獻證據
+## Why Is This Prediction Reasonable?
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [32653074](https://pubmed.ncbi.nlm.nih.gov/32653074/) | 2020 | RCT (Phase 3) | Lancet Respir Med | IRIDIUM 試驗：每日一次 mometasone-indacaterol-glycopyrronium 三合一 vs. 雙合一或每日兩次 fluticasone-salmeterol，用於控制不佳氣喘患者 |
-| [33711782](https://pubmed.ncbi.nlm.nih.gov/33711782/) | 2021 | 匯總分析（Phase 3） | Respir Med | 匯總多項 Phase 3 試驗，評估 mometasone/indacaterol 與三合一組合之心血管安全性 |
-| [28768531](https://pubmed.ncbi.nlm.nih.gov/28768531/) | 2017 | RCT（交叉試驗） | Respir Res | 三向交叉試驗，評估 glycopyrronium 與 indacaterol 單用及合併對輕度氣喘患者 methacholine 劑量反應曲線之影響 |
-| [35348408](https://pubmed.ncbi.nlm.nih.gov/35348408/) | 2023 | 開放性長期安全性研究 | J Asthma | 兩項 52 週開放性研究，評估 IND/GLY/MF 高劑量於日本氣喘患者之長期安全性 |
-| [34329722](https://pubmed.ncbi.nlm.nih.gov/34329722/) | 2021 | 藥動橋接研究 | Pulm Pharmacol Ther | MF/IND 與 MF/IND/GLY 固定劑量組合間 mometasone 劑量橋接資料 |
-| [33871819](https://pubmed.ncbi.nlm.nih.gov/33871819/) | 2021 | Review | Drugs | Indacaterol/glycopyrronium/mometasone（Enerzair）於氣喘治療之整體回顧 |
-| [19609496](https://pubmed.ncbi.nlm.nih.gov/19609496/) | 2009 | Review | Adv Ther | Indacaterol 作為新型每日一次 LABA 於阻塞性呼吸道疾病治療之臨床前及臨床資料回顧 |
-| [39905183](https://pubmed.ncbi.nlm.nih.gov/39905183/) | 2025 | 系統性回顧與統合分析 | Sci Rep | 比較不同三合一治療於控制不佳氣喘患者之相對療效 |
-| [35072888](https://pubmed.ncbi.nlm.nih.gov/35072888/) | 2022 | Review | Adv Ther | IND/GLY/MF 首創同類每日一次三合一固定劑量組合藥物開發策略回顧 |
-| [31425937](https://pubmed.ncbi.nlm.nih.gov/31425937/) | 2019 | Review | Respir Med | Ultra-LABA（含 indacaterol）於氣喘治療角色之回顧 |
+Currently, there is no complete mechanism of action (MOA) structured data available (DrugBank query field represents a data gap). However, based on the mechanistic description in the evidence package, indacaterol is a **long-acting beta-2 adrenergic receptor agonist (LABA)**, which promotes bronchial dilation by activating β2 receptors on airway smooth muscle. This mechanism is already the clinical application foundation for its international approval for COPD and asthma maintenance therapy.
+
+"Bronchial disease" is a broad respiratory indication classification that significantly overlaps with indacaterol's existing COPD/asthma indications in pathophysiology; therefore, the TxGNN prediction has direct, explicit pharmacological correspondence in mechanism, not a cross-system novel linkage. In other words, this prediction is more akin to a **classification expansion confirmation of existing approved use** rather than traditional "drug repurposing." Consequently, while evidence strength is high (L1), clinical novelty is limited, and actual benefit depends on whether this classification corresponds to specific indication subcategories not yet covered in Taiwan.
 
 ---
 
-## 台灣市場資訊
+## Clinical Trial Evidence
 
-目前查無 TFDA 核准之 Indacaterol 上市許可證（`total_licenses = 0`），台灣市場狀態為**Not marketed**。此為進入下一階段評估前需優先補齊的資料缺口（見結論）。
-
----
-
-## 安全性考量
-
-請參閱 TFDA 核准之藥品仿單（PI）以獲取安全性資訊。目前查無仿單警語、禁忌症及藥物交互作用（DDI）資料，此為 Blocking 等級資料缺口，須於下一階段補齊後方可進行初步安全性評估。
-
----
-
-## 結論與後續步驟
-
-**決策：Proceed with Guardrails（附條件推進）**
-
-**理由：**
-「支氣管疾病」預測具備多筆已完成 Phase 3 大型對照試驗與 20 篇文獻支持（L1），機轉合理性明確，但此適應症分類與 Indacaterol 既有 LABA 核准用途重疊度高，臨床新穎性有限；同時台灣尚Not marketed、仿單安全性資料全數缺口，須待補齊後才能進入正式安全性初評。
-
-**推進前需補齊：**
-- TFDA 仿單警語、禁忌症資料（Blocking，DG001）
-- DrugBank 完整作用機轉（MOA）資料（High，DG002）
-- 台灣上市申請狀態追蹤（目前 0 筆核准字號）
-- 釐清「支氣管疾病」此廣義分類相對於現行 COPD／氣喘適應症的實際新增臨床價值
+| Trial Number | Phase | Status | Enrolled N | Key Findings |
+|---------------|-------|--------|------------|--------------|
+| [NCT02554786](https://clinicaltrials.gov/study/NCT02554786) | Phase 3 | Completed | 2216 | Comparison of two doses of QMF149 (indacaterol/mometasone) vs. mometasone monotherapy regarding efficacy and safety in patients with uncontrolled asthma |
+| [NCT02571777](https://clinicaltrials.gov/study/NCT02571777) | Phase 3 | Completed | 3092 | Comparison of QVM149 (indacaterol/glycopyrronium/mometasone triple combination) vs. two doses of QMF149 regarding efficacy and safety |
+| [NCT00529529](https://clinicaltrials.gov/study/NCT00529529) | Phase 3 | Completed | 805 | Salmeterol as active comparator; safety evaluation of indacaterol 300/600 µg over 26 weeks in patients with moderate-to-severe persistent asthma |
+| [NCT03158311](https://clinicaltrials.gov/study/NCT03158311) | Phase 3 | Completed | 1426 | QVM149 vs. salmeterol/fluticasone + tiotropium free combination therapy; demonstrated non-inferiority |
+| [NCT01079130](https://clinicaltrials.gov/study/NCT01079130) | Phase 3 | Completed | 511 | Randomized, double-blind trial with salmeterol as active comparator; evaluated bronchodilation efficacy of indacaterol at day 14 |
+| [NCT00941798](https://clinicaltrials.gov/study/NCT00941798) | Phase 2 | Completed | 2283 | Safety comparison of QMF149 vs. mometasone monotherapy; event-driven trial assessing severe asthma exacerbation incidence |
+| [NCT01609478](https://clinicaltrials.gov/study/NCT01609478) | Phase 2 | Completed | 335 | 12-week dose exploration trial supporting fixed-dose combination selection for QMF149 |
+| [NCT05562466](https://clinicaltrials.gov/study/NCT05562466) | Phase 3 | Recruiting | 200 | QMF149 vs. budesonide regarding efficacy and safety in children aged 6–12 years with asthma |
+| [NCT02892019](https://clinicaltrials.gov/study/NCT02892019) | Phase 2 | Completed | 79 | Evaluation of indacaterol acetate regarding lung function and systemic exposure in children aged 6–12 years with asthma |
+| [NCT02059434](https://clinicaltrials.gov/study/NCT02059434) | Phase 1 | Completed | 55 | Preliminary safety, tolerability, and pharmacodynamic evaluation of inhaled bronchodilator in asthma and COPD patients |
 
 ---
 
-### 附註：其他 TxGNN 預測適應症（證據不足，暫緩）
+## Literature Evidence
 
-以下 9 項候選適應症雖 TxGNN 分數與「支氣管疾病」相近甚至更高，但均無臨床試驗或文獻支持，證據等級 L5，建議 **Hold**：
+| PMID | Year | Study Type | Journal | Key Findings |
+|------|------|-----------|---------|--------------|
+| [32653074](https://pubmed.ncbi.nlm.nih.gov/32653074/) | 2020 | RCT (Phase 3) | Lancet Respir Med | IRIDIUM trial: once-daily mometasone-indacaterol-glycopyrronium triple combination vs. dual combination or twice-daily fluticasone-salmeterol in patients with uncontrolled asthma |
+| [33711782](https://pubmed.ncbi.nlm.nih.gov/33711782/) | 2021 | Meta-analysis (Phase 3) | Respir Med | Meta-analysis of multiple Phase 3 trials assessing cardiovascular safety of mometasone/indacaterol and triple combination regimens |
+| [28768531](https://pubmed.ncbi.nlm.nih.gov/28768531/) | 2017 | RCT (crossover) | Respir Res | Three-way crossover trial evaluating effects of glycopyrronium and indacaterol monotherapy and combination on methacholine dose-response curve in patients with mild asthma |
+| [35348408](https://pubmed.ncbi.nlm.nih.gov/35348408/) | 2023 | Open-label long-term safety study | J Asthma | Two 52-week open-label studies assessing long-term safety of IND/GLY/MF high-dose in Japanese asthma patients |
+| [34329722](https://pubmed.ncbi.nlm.nih.gov/34329722/) | 2021 | Pharmacokinetic bridge study | Pulm Pharmacol Ther | Bridging data for mometasone dose between MF/IND and MF/IND/GLY fixed-dose combinations |
+| [33871819](https://pubmed.ncbi.nlm.nih.gov/33871819/) | 2021 | Review | Drugs | Comprehensive review of indacaterol/glycopyrronium/mometasone (Enerzair) in asthma treatment |
+| [19609496](https://pubmed.ncbi.nlm.nih.gov/19609496/) | 2009 | Review | Adv Ther | Review of preclinical and clinical data on indacaterol as a novel once-daily LABA in obstructive airway disease treatment |
+| [39905183](https://pubmed.ncbi.nlm.nih.gov/39905183/) | 2025 | Systematic review and meta-analysis | Sci Rep | Comparison of relative efficacy of different triple therapies in patients with uncontrolled asthma |
+| [35072888](https://pubmed.ncbi.nlm.nih.gov/35072888/) | 2022 | Review | Adv Ther | Review of development strategy for IND/GLY/MF, the first-in-class once-daily triple fixed-dose combination |
+| [31425937](https://pubmed.ncbi.nlm.nih.gov/31425937/) | 2019 | Review | Respir Med | Review of the role of ultra-LABA (including indacaterol) in asthma treatment |
 
-| 排名 | 預測適應症 | TxGNN 分數 | 機轉合理性摘要 |
-|------|-----------|-----------|---------------|
-| 1 | Nephrogenic syndrome of inappropriate antidiuresis | 99.54% | V2 受體基因突變致病，與 β2 促效機轉無關 |
-| 2 | Headache disorder | 99.53% | 所列試驗實為 COPD 耐受性研究，頭痛僅為不良反應監測項目；β 阻斷劑（非促效劑）才是偏頭痛預防機轉，方向相反 |
-| 3 | Trigeminal autonomic cephalalgia | 99.33% | 無已知機轉關聯 |
-| 4 | Paratenonitis | 99.26% | 無已知機轉關聯 |
-| 5 | Calcific tendinitis | 99.25% | 無已知機轉關聯 |
-| 6 | Hypertrichosis (disease) | 99.23% | 多毛症機轉為鉀通道開放劑，與 β2 促效無關 |
-| 8 | Myositis | 99.12% | 無實證支持 |
-| 9 | Anaphylaxis | 99.07% | 過敏性休克首選為腎上腺素，indacaterol 起效與藥動特性不適用於急性處置 |
-| 10 | Ambras type hypertrichosis universalis congenita | 99.06% | 染色體重排罕見疾病，與藥理路徑無關 |
+---
 
-*本報告僅供研究參考，不構成醫療建議；老藥新用候選需經臨床驗證後方可應用。*
+## Taiwan Market Information
+
+No TFDA-approved indacaterol marketing authorization has been identified (`total_licenses = 0`); Taiwan market status is **Not marketed**. This is a data gap that requires priority completion before proceeding to the next evaluation stage (see Conclusion).
+
+---
+
+## Safety Considerations
+
+Please consult the TFDA-approved product package insert (PI) for safety information. Currently, data on package insert warnings, contraindications, and drug-drug interactions (DDI) are not available; this is a blocking-level data gap that must be completed at the next stage before preliminary safety assessment can be conducted.
+
+---
+
+## Conclusion and Next Steps
+
+**Decision: Proceed with Guardrails**
+
+**Rationale:**
+The "bronchial disease" prediction has substantial support from multiple completed Phase 3 large-scale controlled trials and 20 literature reports (L1), with clear mechanistic reasonableness; however, this indication classification has high overlap with indacaterol's existing LABA-approved uses, with limited clinical novelty. Additionally, since it is currently not marketed in Taiwan with all safety package insert data missing, completion is necessary before formal safety preliminary assessment can proceed.
+
+**Required completion before advancement:**
+- TFDA package insert warnings and contraindications data (Blocking, DG001)
+- Complete DrugBank mechanism of action (MOA) data (High, DG002)
+- Tracking of Taiwan market application status (currently 0 approved numbers)
+- Clarification of the actual added clinical value of "bronchial disease" as a broad classification relative to current COPD/asthma indications
+
+---
+
+### Note: Other TxGNN Predicted Indications (Insufficient Evidence, Hold)
+
+The following 9 candidate indications, although scoring similarly or higher to "bronchial disease" by TxGNN, lack clinical trial or literature support, evidence level L5, and are recommended to be **held**:
+
+| Rank | Predicted Indication | TxGNN Score | Mechanistic Reasonableness Summary |
+|------|--------|----------|-----------|
+| 1 | Nephrogenic syndrome of inappropriate antidiuresis | 99.54% | V2 receptor gene mutation disease; unrelated to β2 agonist mechanism |
+| 2 | Headache disorder | 99.53% | Cited trials are actually COPD tolerability studies; headache only a monitored adverse event; β-blockers (not agonists) are the mechanism for migraine prevention, opposite direction |
+| 3 | Trigeminal autonomic cephalalgia | 99.33% | No known mechanistic association |
+| 4 | Paratenonitis | 99.26% | No known mechanistic association |
+| 5 | Calcific tendinitis | 99.25% | No known mechanistic association |
+| 6 | Hypertrichosis (disease) | 99.23% | Hypertrichosis mechanism is potassium channel opener, unrelated to β2 agonism |
+| 8 | Myositis | 99.12% | No evidence-based support |
+| 9 | Anaphylaxis | 99.07% | Anaphylaxis first-line is epinephrine; indacaterol onset and pharmacokinetic properties unsuitable for acute management |
+| 10 | Ambras type hypertrichosis universalis congenita | 99.06% | Rare chromosomal rearrangement disease; unrelated to drug pathway |
+
+*This report is for research reference only and does not constitute medical advice; drug repurposing candidates require clinical verification before application.*
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
