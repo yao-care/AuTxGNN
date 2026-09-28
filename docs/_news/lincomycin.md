@@ -3,7 +3,7 @@ layout: default
 title: "Lincomycin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lincomycin. Original indication: . 0 predicted indications."
+description: "Health news related to Lincomycin. Original indication: . 10 predicted indications."
 permalink: /news/lincomycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lincomycin/
 ---
 
 <p class="key-answer" data-question="What news is there about Lincomycin?">
-<strong>Lincomycin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Lincomycin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Lincomycin with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hyperamylasemia (99.1%)</li>
+<li>polyclonal hyperviscosity syndrome (99.1%)</li>
+<li>congenital analbuminemia (99.1%)</li>
+<li>blood group incompatibility (98.8%)</li>
+<li>premalignant hematological system disease (98.7%)</li>
+<li>monoclonal gammopathy (98.5%)</li>
+<li>hematological disease associated with an acquired peripheral neuropathy (98.4%)</li>
+<li>septicemic plague (98.1%)</li>
+<li>congenital hematological disorder (98.0%)</li>
+<li>urinary tract infection (disease) (97.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lincomycin/' | relative_url }}">View full drug report →</a></p>
 </div>

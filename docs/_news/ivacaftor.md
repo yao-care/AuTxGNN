@@ -3,7 +3,7 @@ layout: default
 title: "Ivacaftor News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ivacaftor. Original indication: . 0 predicted indications."
+description: "Health news related to Ivacaftor. Original indication: . 10 predicted indications."
 permalink: /news/ivacaftor/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ivacaftor/
 ---
 
 <p class="key-answer" data-question="What news is there about Ivacaftor?">
-<strong>Ivacaftor</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ivacaftor</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Ivacaftor with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>rheumatoid arthritis (97.0%)</li>
+<li>HIV infectious disease (96.7%)</li>
+<li>leprosy (96.2%)</li>
+<li>simian immunodeficiency virus infection (96.0%)</li>
+<li>feline acquired immunodeficiency syndrome (96.0%)</li>
+<li>multiple endocrine neoplasia (95.8%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (95.5%)</li>
+<li>brachydactyly-syndactyly syndrome (95.5%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (95.1%)</li>
+<li>cytomegalovirus infection (94.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ivacaftor/' | relative_url }}">View full drug report →</a></p>
 </div>

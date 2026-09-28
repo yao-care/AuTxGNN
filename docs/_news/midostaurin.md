@@ -3,7 +3,7 @@ layout: default
 title: "Midostaurin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Midostaurin. Original indication: . 0 predicted indications."
+description: "Health news related to Midostaurin. Original indication: . 10 predicted indications."
 permalink: /news/midostaurin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/midostaurin/
 ---
 
 <p class="key-answer" data-question="What news is there about Midostaurin?">
-<strong>Midostaurin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Midostaurin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Midostaurin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>familial thrombocytosis (98.9%)</li>
+<li>reactive thrombocytosis (98.8%)</li>
+<li>metastatic melanoma (97.6%)</li>
+<li>inverse Klippel-Trenaunay syndrome (97.6%)</li>
+<li>thrombocythemia (97.5%)</li>
+<li>non-cutaneous melanoma (97.1%)</li>
+<li>epithelioid cell melanoma (97.0%)</li>
+<li>eyelid melanoma (96.9%)</li>
+<li>scrotum melanoma (96.7%)</li>
+<li>amelanotic skin melanoma (96.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/midostaurin/' | relative_url }}">View full drug report →</a></p>
 </div>

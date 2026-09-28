@@ -3,7 +3,7 @@ layout: default
 title: "Bromazepam News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bromazepam. Original indication: . 0 predicted indications."
+description: "Health news related to Bromazepam. Original indication: . 10 predicted indications."
 permalink: /news/bromazepam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bromazepam/
 ---
 
 <p class="key-answer" data-question="What news is there about Bromazepam?">
-<strong>Bromazepam</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Bromazepam</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Bromazepam with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>migraine disorder (99.1%)</li>
+<li>migraine with brainstem aura (98.9%)</li>
+<li>insomnia (disease) (98.5%)</li>
+<li>migraine with or without aura, susceptibility to (98.1%)</li>
+<li>atrophoderma vermiculata (97.5%)</li>
+<li>anxiety (97.3%)</li>
+<li>alcohol withdrawal delirium (96.9%)</li>
+<li>ulerythema ophryogenesis (96.7%)</li>
+<li>dysthymic disorder (96.7%)</li>
+<li>tendinitis (96.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/bromazepam/' | relative_url }}">View full drug report →</a></p>
 </div>

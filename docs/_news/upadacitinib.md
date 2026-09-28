@@ -3,7 +3,7 @@ layout: default
 title: "Upadacitinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Upadacitinib. Original indication: . 0 predicted indications."
+description: "Health news related to Upadacitinib. Original indication: . 10 predicted indications."
 permalink: /news/upadacitinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/upadacitinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Upadacitinib?">
-<strong>Upadacitinib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Upadacitinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Upadacitinib with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.6%)</li>
+<li>brachydactyly-syndactyly syndrome (99.6%)</li>
+<li>indolent plasma cell myeloma (94.4%)</li>
+<li>amyotrohpic lateral sclerosis type 22 (93.2%)</li>
+<li>heparin cofactor 2 deficiency (92.8%)</li>
+<li>amyotrophic lateral sclerosis, susceptibility to (92.8%)</li>
+<li>plasma cell myeloma (92.6%)</li>
+<li>Mills syndrome (91.9%)</li>
+<li>amyotrophic lateral sclerosis (91.9%)</li>
+<li>axial spondylometaphyseal dysplasia (91.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/upadacitinib/' | relative_url }}">View full drug report →</a></p>
 </div>

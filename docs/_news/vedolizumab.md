@@ -3,7 +3,7 @@ layout: default
 title: "Vedolizumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Vedolizumab. Original indication: . 0 predicted indications."
+description: "Health news related to Vedolizumab. Original indication: . 10 predicted indications."
 permalink: /news/vedolizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/vedolizumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Vedolizumab?">
-<strong>Vedolizumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Vedolizumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Vedolizumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>severe nonproliferative diabetic retinopathy (94.5%)</li>
+<li>dermatitis (93.6%)</li>
+<li>neonatal dermatomyositis (92.7%)</li>
+<li>acne keloid (92.3%)</li>
+<li>acrodermatitis chronica atrophicans (92.2%)</li>
+<li>hydroa vacciniforme, familial (92.2%)</li>
+<li>secondary interstitial lung disease specific to childhood associated with a connective tissue disease (92.1%)</li>
+<li>amyopathic dermatomyositis (91.7%)</li>
+<li>bronchitis (91.0%)</li>
+<li>drug-induced osteoporosis (87.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/vedolizumab/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Lactic acid with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Atypical coarctation of aorta | 99.59% | L5 | S0 | Hold (99.0%)</li>
-<li>Aortic malformation | 99.35% | L4 | S0 | Hold (99.0%)</li>
-<li>Non-syndromic esophageal malformation | 99.23% | L5 | S0 | Hold (99.0%)</li>
-<li>Amenorrhea (disease) | 99.16% | L4 | S0 | Hold (99.0%)</li>
-<li>**Dry eye syndrome** | 99.13% | **L3** | **S1** | **Research Question** (99.0%)</li>
-<li>Esophageal disease | 98.94% | L5 | S0 | Hold (99.0%)</li>
-<li>Double outlet right ventricle with AVSD, pulmonary stenosis, heterotaxy | 98.82% | L5 | S0 | Hold (99.0%)</li>
-<li>Excretory apparatus of the lacrimal system anomaly | 98.77% | L5 | S0 | Hold (99.0%)</li>
-<li>**Eye disease** | 98.68% | **L3** | **S1** | **Research Question** (99.0%)</li>
-<li>Cauda equina syndrome | 98.67% | L5 | S0 | Hold (99.0%)</li>
+<li>atypical coarctation of aorta (99.6%)</li>
+<li>aortic malformation (99.3%)</li>
+<li>non-syndromic esophageal malformation (99.2%)</li>
+<li>amenorrhea (disease) (99.2%)</li>
+<li>dry eye syndrome (99.1%)</li>
+<li>esophageal disease (98.9%)</li>
+<li>double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy (98.8%)</li>
+<li>excretory apparatus of the lacrimal system anomaly (98.8%)</li>
+<li>eye disease (98.7%)</li>
+<li>cauda equina syndrome (98.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/lactic_acid/' | relative_url }}">View full drug report →</a></p>

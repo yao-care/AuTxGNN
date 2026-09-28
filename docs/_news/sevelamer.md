@@ -3,7 +3,7 @@ layout: default
 title: "Sevelamer News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sevelamer. Original indication: . 0 predicted indications."
+description: "Health news related to Sevelamer. Original indication: . 10 predicted indications."
 permalink: /news/sevelamer/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sevelamer/
 ---
 
 <p class="key-answer" data-question="What news is there about Sevelamer?">
-<strong>Sevelamer</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Sevelamer</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Sevelamer with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>breast fibrocystic disease (92.5%)</li>
+<li>blunt duct adenosis of breast (89.9%)</li>
+<li>apocrine adenosis of breast (89.9%)</li>
+<li>benign mammary dysplasia (88.9%)</li>
+<li>HIV infectious disease (87.2%)</li>
+<li>AIDS (86.4%)</li>
+<li>breast abscess (83.6%)</li>
+<li>fat necrosis of breast (83.6%)</li>
+<li>lactation disease (83.4%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (83.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sevelamer/' | relative_url }}">View full drug report →</a></p>
 </div>

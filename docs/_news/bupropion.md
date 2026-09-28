@@ -3,7 +3,7 @@ layout: default
 title: "Bupropion News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bupropion. Original indication: . 0 predicted indications."
+description: "Health news related to Bupropion. Original indication: . 10 predicted indications."
 permalink: /news/bupropion/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bupropion/
 ---
 
 <p class="key-answer" data-question="What news is there about Bupropion?">
-<strong>Bupropion</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Bupropion</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Bupropion with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>attention deficit-hyperactivity disorder (100.0%)</li>
+<li>attention deficit hyperactivity disorder, inattentive type (100.0%)</li>
+<li>faciodigitogenital syndrome (100.0%)</li>
+<li>specific developmental disorder (100.0%)</li>
+<li>chondromyxoid fibroma (100.0%)</li>
+<li>proximal 16p11.2 microdeletion syndrome (99.8%)</li>
+<li>hypervitaminosis (99.7%)</li>
+<li>benign paroxysmal torticollis of infancy (99.5%)</li>
+<li>trigeminal nerve neoplasm (99.3%)</li>
+<li>obsolete hypertelorism (disease) (99.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/bupropion/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Etonogestrel News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Etonogestrel. Original indication: . 9 predicted indications."
+description: "Health news related to Etonogestrel. Original indication: . 10 predicted indications."
 permalink: /news/etonogestrel/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/etonogestrel/
 ---
 
 <p class="key-answer" data-question="What news is there about Etonogestrel?">
-<strong>Etonogestrel</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Etonogestrel</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Etonogestrel with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Amenorrhea (disease) | 99.84% | L3 | Proceed with Guardrails (99.0%)</li>
-<li>Breast fibrocystic disease | 99.61% | L5 | Hold (99.0%)</li>
-<li>Apocrine adenosis of breast | 99.29% | L5 | Hold (99.0%)</li>
-<li>Blunt duct adenosis of breast | 99.29% | L5 | Hold (99.0%)</li>
-<li>Benign mammary dysplasia | 99.21% | L5 | Hold (99.0%)</li>
-<li>Breast abscess | 98.99% | L5 | Hold (99.0%)</li>
-<li>Fat necrosis of breast | 98.99% | L5 | Hold (99.0%)</li>
-<li>Breast adenosis | 98.86% | L5 | Hold (99.0%)</li>
-<li>Acne (disease) | 98.69% | L4 | Hold ⚠️ (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>amenorrhea (disease) (99.8%)</li>
+<li>breast fibrocystic disease (99.6%)</li>
+<li>apocrine adenosis of breast (99.3%)</li>
+<li>blunt duct adenosis of breast (99.3%)</li>
+<li>benign mammary dysplasia (99.2%)</li>
+<li>breast abscess (99.0%)</li>
+<li>fat necrosis of breast (99.0%)</li>
+<li>lactation disease (98.9%)</li>
+<li>breast adenosis (98.9%)</li>
+<li>acne (disease) (98.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/etonogestrel/' | relative_url }}">View full drug report →</a></p>

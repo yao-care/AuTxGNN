@@ -3,7 +3,7 @@ layout: default
 title: "Dexpanthenol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dexpanthenol. Original indication: . 9 predicted indications."
+description: "Health news related to Dexpanthenol. Original indication: . 10 predicted indications."
 permalink: /news/dexpanthenol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dexpanthenol/
 ---
 
 <p class="key-answer" data-question="What news is there about Dexpanthenol?">
-<strong>Dexpanthenol</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Dexpanthenol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Dexpanthenol with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Anorectal stricture | 99.72% | L5 | Hold (99.0%)</li>
-<li>Imperforate anus | 99.71% | L5 | Hold (99.0%)</li>
-<li>Anal polyp | 99.62% | L5 | Hold (99.0%)</li>
-<li>Vulvar inverted follicular keratosis | 99.60% | L5 | Hold (99.0%)</li>
-<li>Proctitis | 99.60% | L4 | Research Question (99.0%)</li>
-<li>Punctate epithelial keratoconjunctivitis | 99.34% | L4 | Research Question (99.0%)</li>
-<li>Acute urate nephropathy | 98.99% | L5 | Hold (99.0%)</li>
-<li>Indeterminate colitis | 98.87% | L5 | Hold (99.0%)</li>
-<li>Diversion colitis | 98.87% | L5 | Research Question (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>anorectal stricture (99.7%)</li>
+<li>imperforate anus (99.7%)</li>
+<li>anal polyp (99.6%)</li>
+<li>vulvar inverted follicular keratosis (99.6%)</li>
+<li>proctitis (99.6%)</li>
+<li>exanthem (disease) (99.6%)</li>
+<li>punctate epithelial keratoconjunctivitis (99.3%)</li>
+<li>acute urate nephropathy (99.0%)</li>
+<li>indeterminate colitis (98.9%)</li>
+<li>diversion colitis (98.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dexpanthenol/' | relative_url }}">View full drug report →</a></p>

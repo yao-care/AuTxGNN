@@ -3,7 +3,7 @@ layout: default
 title: "Benzylpenicillin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Benzylpenicillin. Original indication: . 0 predicted indications."
+description: "Health news related to Benzylpenicillin. Original indication: . 10 predicted indications."
 permalink: /news/benzylpenicillin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/benzylpenicillin/
 ---
 
 <p class="key-answer" data-question="What news is there about Benzylpenicillin?">
-<strong>Benzylpenicillin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Benzylpenicillin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Benzylpenicillin with the la
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pericoronitis (99.4%)</li>
+<li>gingival recession (99.3%)</li>
+<li>canker sore (99.3%)</li>
+<li>ulcerative stomatitis (99.3%)</li>
+<li>denture stomatitis (99.3%)</li>
+<li>chemotherapy-induced oral mucositis (99.3%)</li>
+<li>leukoplakia of gingiva (99.1%)</li>
+<li>conjunctivitis (97.9%)</li>
+<li>cat-scratch disease (97.8%)</li>
+<li>chronic ethmoidal sinusitis (97.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/benzylpenicillin/' | relative_url }}">View full drug report →</a></p>
 </div>

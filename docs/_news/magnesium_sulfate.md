@@ -3,7 +3,7 @@ layout: default
 title: "Magnesium sulfate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Magnesium sulfate. Original indication: . 0 predicted indications."
+description: "Health news related to Magnesium sulfate. Original indication: . 3 predicted indications."
 permalink: /news/magnesium_sulfate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/magnesium_sulfate/
 ---
 
 <p class="key-answer" data-question="What news is there about Magnesium sulfate?">
-<strong>Magnesium sulfate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Magnesium sulfate</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,11 @@ This page combines the AI-predicted indications for Magnesium sulfate with the l
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>preeclampsia/eclampsia (100.0%)</li>
+<li>toxemia of pregnancy (100.0%)</li>
+<li>thrombotic disease (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/magnesium_sulfate/' | relative_url }}">View full drug report →</a></p>
 </div>

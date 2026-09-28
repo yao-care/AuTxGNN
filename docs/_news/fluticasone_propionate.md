@@ -3,7 +3,7 @@ layout: default
 title: "Fluticasone propionate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fluticasone propionate. Original indication: . 0 predicted indications."
+description: "Health news related to Fluticasone propionate. Original indication: . 10 predicted indications."
 permalink: /news/fluticasone_propionate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fluticasone_propionate/
 ---
 
 <p class="key-answer" data-question="What news is there about Fluticasone propionate?">
-<strong>Fluticasone propionate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Fluticasone propionate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Fluticasone propionate with 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>2-hydroxyethyl methacrylate sensitization (98.6%)</li>
+<li>vulvar inverted follicular keratosis (96.4%)</li>
+<li>alopecia mucinosa (96.1%)</li>
+<li>telogen effluvium (96.0%)</li>
+<li>alopecia areata (95.9%)</li>
+<li>Quinquaud's folliculitis decalvans (95.4%)</li>
+<li>atopic dermatitis (95.3%)</li>
+<li>polyp of vocal cord (95.0%)</li>
+<li>hereditary hypotrichosis with recurrent skin vesicles (95.0%)</li>
+<li>polyp of middle ear (94.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/fluticasone_propionate/' | relative_url }}">View full drug report →</a></p>
 </div>

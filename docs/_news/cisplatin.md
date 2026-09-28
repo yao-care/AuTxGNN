@@ -3,7 +3,7 @@ layout: default
 title: "Cisplatin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cisplatin. Original indication: . 0 predicted indications."
+description: "Health news related to Cisplatin. Original indication: . 10 predicted indications."
 permalink: /news/cisplatin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cisplatin/
 ---
 
 <p class="key-answer" data-question="What news is there about Cisplatin?">
-<strong>Cisplatin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Cisplatin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Cisplatin with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>female breast carcinoma (97.4%)</li>
+<li>choriocarcinoma of ovary (95.7%)</li>
+<li>gonadal germ cell tumor (95.7%)</li>
+<li>adult germ cell tumor (95.5%)</li>
+<li>ovarian primitive germ cell tumor (95.5%)</li>
+<li>enteric pattern testicular yolk sac tumor (95.0%)</li>
+<li>reticular pattern testicular yolk sac tumor (95.0%)</li>
+<li>testicular yolk sac tumor, hepatoid pattern (95.0%)</li>
+<li>testicular yolk sac tumor, endodermal sinus pattern (95.0%)</li>
+<li>testicular yolk sac tumor, papillary pattern (95.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cisplatin/' | relative_url }}">View full drug report →</a></p>
 </div>

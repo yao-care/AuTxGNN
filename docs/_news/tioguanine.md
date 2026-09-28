@@ -3,7 +3,7 @@ layout: default
 title: "Tioguanine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tioguanine. Original indication: . 0 predicted indications."
+description: "Health news related to Tioguanine. Original indication: . 10 predicted indications."
 permalink: /news/tioguanine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tioguanine/
 ---
 
 <p class="key-answer" data-question="What news is there about Tioguanine?">
-<strong>Tioguanine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Tioguanine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Tioguanine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>chronic myelogenous leukemia, BCR-ABL1 positive (98.9%)</li>
+<li>upper aerodigestive tract neoplasm (98.8%)</li>
+<li>unclassified myelodysplastic syndrome (98.2%)</li>
+<li>partial deletion of the long arm of chromosome 5 (98.2%)</li>
+<li>refractory cytopenia of childhood (98.0%)</li>
+<li>aregenerative anemia (97.9%)</li>
+<li>severe congenital hypochromic anemia with ringed sideroblasts (97.8%)</li>
+<li>blast phase chronic myelogenous leukemia, BCR-ABL1 positive (97.7%)</li>
+<li>osteoclastic giant cell tumor of pancreas (97.2%)</li>
+<li>solid pseudopapillary carcinoma of pancreas (97.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tioguanine/' | relative_url }}">View full drug report →</a></p>
 </div>

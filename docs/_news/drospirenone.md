@@ -3,7 +3,7 @@ layout: default
 title: "Drospirenone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Drospirenone. Original indication: . 0 predicted indications."
+description: "Health news related to Drospirenone. Original indication: . 10 predicted indications."
 permalink: /news/drospirenone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/drospirenone/
 ---
 
 <p class="key-answer" data-question="What news is there about Drospirenone?">
-<strong>Drospirenone</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Drospirenone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Drospirenone with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>zinc, elevated plasma (98.7%)</li>
+<li>dyschondrosteosis-nephritis syndrome (93.6%)</li>
+<li>torticollis-keloids-cryptorchidism-renal dysplasia syndrome (93.5%)</li>
+<li>infundibulopelvic stenosis-multicystic kidney syndrome (93.3%)</li>
+<li>pyogenic arthritis-pyoderma gangrenosum-acne syndrome (93.2%)</li>
+<li>46,XX disorder of sex development-anorectal anomalies syndrome (92.8%)</li>
+<li>thyrocerebrorenal syndrome (92.8%)</li>
+<li>acrorenal syndrome (92.8%)</li>
+<li>radial hypoplasia-triphalangeal thumbs-hypospadias-maxillary diastema syndrome (92.7%)</li>
+<li>Mayer-Rokitansky-Kuster-Hauser syndrome (92.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/drospirenone/' | relative_url }}">View full drug report →</a></p>
 </div>

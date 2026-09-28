@@ -3,7 +3,7 @@ layout: default
 title: "Armodafinil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Armodafinil. Original indication: . 0 predicted indications."
+description: "Health news related to Armodafinil. Original indication: . 10 predicted indications."
 permalink: /news/armodafinil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/armodafinil/
 ---
 
 <p class="key-answer" data-question="What news is there about Armodafinil?">
-<strong>Armodafinil</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Armodafinil</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Armodafinil with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>insomnia (disease) (99.9%)</li>
+<li>faciodigitogenital syndrome (96.8%)</li>
+<li>Wernicke-Korsakoff syndrome (96.3%)</li>
+<li>disorder of peroxisomal alpha-, beta- and omega-oxidation (96.3%)</li>
+<li>attention deficit-hyperactivity disorder (96.1%)</li>
+<li>ACBD5 deficiency (95.8%)</li>
+<li>sleep disorder, initiating and maintaining sleep (95.1%)</li>
+<li>narcolepsy, susceptibility to (94.9%)</li>
+<li>Creutzfeldt-Jakob disease (94.8%)</li>
+<li>megaconial type congenital muscular dystrophy (93.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/armodafinil/' | relative_url }}">View full drug report →</a></p>
 </div>

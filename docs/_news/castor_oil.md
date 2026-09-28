@@ -3,7 +3,7 @@ layout: default
 title: "Castor oil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Castor oil. Original indication: . 0 predicted indications."
+description: "Health news related to Castor oil. Original indication: . 10 predicted indications."
 permalink: /news/castor_oil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/castor_oil/
 ---
 
 <p class="key-answer" data-question="What news is there about Castor oil?">
-<strong>Castor oil</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Castor oil</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Castor oil with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hypotrichosis simplex of the scalp (98.1%)</li>
+<li>congenital hypotrichosis milia (98.0%)</li>
+<li>diffuse alopecia areata (97.8%)</li>
+<li>alopecia (97.7%)</li>
+<li>primary hereditary glaucoma (96.5%)</li>
+<li>open-angle glaucoma (96.3%)</li>
+<li>pulmonary hypertension (91.7%)</li>
+<li>kyphoscoliotic heart disease (90.5%)</li>
+<li>pulmonary arterial hypertension (90.2%)</li>
+<li>pulmonary hypertension, primary, autosomal recessive (89.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/castor_oil/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Terbinafine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Terbinafine. Original indication: . 0 predicted indications."
+description: "Health news related to Terbinafine. Original indication: . 10 predicted indications."
 permalink: /news/terbinafine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/terbinafine/
 ---
 
 <p class="key-answer" data-question="What news is there about Terbinafine?">
-<strong>Terbinafine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Terbinafine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Terbinafine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>creeping myiasis (96.7%)</li>
+<li>furuncular myiasis (96.7%)</li>
+<li>wound myiasis (96.7%)</li>
+<li>myiasis (96.2%)</li>
+<li>cutaneous candidiasis (95.0%)</li>
+<li>toxoplasmosis (94.8%)</li>
+<li>blastomycosis (91.8%)</li>
+<li>tinea manuum (90.1%)</li>
+<li>echinococcus granulosus infectious disease (86.1%)</li>
+<li>superficial mycosis (84.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/terbinafine/' | relative_url }}">View full drug report →</a></p>
 </div>

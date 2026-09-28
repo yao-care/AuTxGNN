@@ -3,7 +3,7 @@ layout: default
 title: "Povidone-iodine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Povidone-iodine. Original indication: . 0 predicted indications."
+description: "Health news related to Povidone-iodine. Original indication: . 10 predicted indications."
 permalink: /news/povidone-iodine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/povidone-iodine/
 ---
 
 <p class="key-answer" data-question="What news is there about Povidone-iodine?">
-<strong>Povidone-iodine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Povidone-iodine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Povidone-iodine with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Plasmodium falciparum malaria (88.3%)</li>
+<li>peptic esophagitis (83.0%)</li>
+<li>peritonitis (82.6%)</li>
+<li>Peyronie disease (81.7%)</li>
+<li>malaria (81.4%)</li>
+<li>pneumonia (80.5%)</li>
+<li>Camurati-Engelmann disease (79.8%)</li>
+<li>appendicitis (79.8%)</li>
+<li>aortic valve insufficiency (79.6%)</li>
+<li>active peptic ulcer disease (79.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/povidone-iodine/' | relative_url }}">View full drug report →</a></p>
 </div>

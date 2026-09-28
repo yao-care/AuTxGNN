@@ -3,7 +3,7 @@ layout: default
 title: "Alogliptin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Alogliptin. Original indication: . 0 predicted indications."
+description: "Health news related to Alogliptin. Original indication: . 10 predicted indications."
 permalink: /news/alogliptin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alogliptin/
 ---
 
 <p class="key-answer" data-question="What news is there about Alogliptin?">
-<strong>Alogliptin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Alogliptin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Alogliptin with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>classic stiff person syndrome (98.0%)</li>
+<li>focal stiff limb syndrome (98.0%)</li>
+<li>opsismodysplasia (97.8%)</li>
+<li>thiamine-responsive dysfunction syndrome (97.8%)</li>
+<li>drug-induced localized lipodystrophy (96.5%)</li>
+<li>pancreatic agenesis (96.5%)</li>
+<li>centrifugal lipodystrophy (96.4%)</li>
+<li>pressure-induced localized lipoatrophy (96.3%)</li>
+<li>idiopathic localized lipodystrophy (96.1%)</li>
+<li>autoimmune oophoritis (87.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/alogliptin/' | relative_url }}">View full drug report →</a></p>
 </div>

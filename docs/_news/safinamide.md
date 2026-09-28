@@ -3,7 +3,7 @@ layout: default
 title: "Safinamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Safinamide. Original indication: . 0 predicted indications."
+description: "Health news related to Safinamide. Original indication: . 10 predicted indications."
 permalink: /news/safinamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/safinamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Safinamide?">
-<strong>Safinamide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Safinamide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Safinamide with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Rasmussen subacute encephalitis (99.6%)</li>
+<li>myelitis (99.5%)</li>
+<li>PLA2G6-associated neurodegeneration (99.2%)</li>
+<li>transaldolase deficiency (98.9%)</li>
+<li>fructose-1,6-bisphosphatase deficiency (98.8%)</li>
+<li>paralysis agitans, juvenile, of Hunt (98.8%)</li>
+<li>Lewy body dementia (98.4%)</li>
+<li>X-linked intellectual disability-ataxia-apraxia syndrome (97.9%)</li>
+<li>lethal infantile mitochondrial myopathy (97.9%)</li>
+<li>X-linked intellectual disability-cerebellar hypoplasia syndrome (97.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/safinamide/' | relative_url }}">View full drug report →</a></p>
 </div>

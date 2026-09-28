@@ -3,7 +3,7 @@ layout: default
 title: "Chloroform News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Chloroform. Original indication: . 0 predicted indications."
+description: "Health news related to Chloroform. Original indication: . 10 predicted indications."
 permalink: /news/chloroform/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/chloroform/
 ---
 
 <p class="key-answer" data-question="What news is there about Chloroform?">
-<strong>Chloroform</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Chloroform</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Chloroform with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>insomnia (disease) (98.9%)</li>
+<li>anxiety (91.1%)</li>
+<li>sleep disorder, initiating and maintaining sleep (90.8%)</li>
+<li>irritable bowel syndrome (90.0%)</li>
+<li>enterocolitis (disease) (86.4%)</li>
+<li>Jeune syndrome situs inversus (86.1%)</li>
+<li>bronchitis (86.0%)</li>
+<li>orofacial clefting syndrome (85.9%)</li>
+<li>partial deletion of the long arm of chromosome 22 (85.8%)</li>
+<li>interventricular septum aneurysm (85.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/chloroform/' | relative_url }}">View full drug report →</a></p>
 </div>

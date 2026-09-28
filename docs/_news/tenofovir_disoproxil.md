@@ -3,7 +3,7 @@ layout: default
 title: "Tenofovir disoproxil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tenofovir disoproxil. Original indication: . 0 predicted indications."
+description: "Health news related to Tenofovir disoproxil. Original indication: . 10 predicted indications."
 permalink: /news/tenofovir_disoproxil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tenofovir_disoproxil/
 ---
 
 <p class="key-answer" data-question="What news is there about Tenofovir disoproxil?">
-<strong>Tenofovir disoproxil</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Tenofovir disoproxil</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Tenofovir disoproxil with th
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>simian immunodeficiency virus infection (100.0%)</li>
+<li>feline acquired immunodeficiency syndrome (100.0%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (100.0%)</li>
+<li>obsolete familial combined hyperlipidemia (99.6%)</li>
+<li>fibroma of prostate (95.9%)</li>
+<li>hepatitis B virus infection (95.8%)</li>
+<li>Brenner tumor (95.5%)</li>
+<li>benign reproductive system neoplasm (95.5%)</li>
+<li>benign prostate phyllodes tumor (95.0%)</li>
+<li>AIDS related complex (94.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tenofovir_disoproxil/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Kaolin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Kaolin. Original indication: . 0 predicted indications."
+description: "Health news related to Kaolin. Original indication: . 10 predicted indications."
 permalink: /news/kaolin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/kaolin/
 ---
 
 <p class="key-answer" data-question="What news is there about Kaolin?">
-<strong>Kaolin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Kaolin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Kaolin with the latest healt
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>thrombotic disease (94.7%)</li>
+<li>bronchitis (91.9%)</li>
+<li>heparin cofactor 2 deficiency (90.4%)</li>
+<li>antithrombin deficiency type 2 (90.0%)</li>
+<li>factor 5 excess with spontaneous thrombosis (89.9%)</li>
+<li>vein disease (89.6%)</li>
+<li>thrombophilia (88.3%)</li>
+<li>interventricular septum aneurysm (88.2%)</li>
+<li>Jeune syndrome situs inversus (88.1%)</li>
+<li>heart disease (88.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/kaolin/' | relative_url }}">View full drug report →</a></p>
 </div>

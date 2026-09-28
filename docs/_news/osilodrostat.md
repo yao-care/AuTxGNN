@@ -3,7 +3,7 @@ layout: default
 title: "Osilodrostat News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Osilodrostat. Original indication: . 0 predicted indications."
+description: "Health news related to Osilodrostat. Original indication: . 10 predicted indications."
 permalink: /news/osilodrostat/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/osilodrostat/
 ---
 
 <p class="key-answer" data-question="What news is there about Osilodrostat?">
-<strong>Osilodrostat</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Osilodrostat</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Osilodrostat with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>familial generalized lentiginosis (98.2%)</li>
+<li>acromelanosis (98.0%)</li>
+<li>congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome (98.0%)</li>
+<li>gastrocutaneous syndrome (98.0%)</li>
+<li>leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome (97.9%)</li>
+<li>Moynahan syndrome (97.8%)</li>
+<li>rhabdoid tumor (97.8%)</li>
+<li>X-linked lymphoproliferative disease due to SH2D1A deficiency (97.7%)</li>
+<li>osteopathia striata-pigmentary dermopathy-white forelock syndrome (97.7%)</li>
+<li>peripheral nerve schwannoma (97.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/osilodrostat/' | relative_url }}">View full drug report →</a></p>
 </div>

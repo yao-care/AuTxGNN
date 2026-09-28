@@ -3,7 +3,7 @@ layout: default
 title: "Afatinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Afatinib. Original indication: . 0 predicted indications."
+description: "Health news related to Afatinib. Original indication: . 10 predicted indications."
 permalink: /news/afatinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/afatinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Afatinib?">
-<strong>Afatinib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Afatinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Afatinib with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>HER2 positive breast carcinoma (98.7%)</li>
+<li>multiple endocrine neoplasia (98.5%)</li>
+<li>progesterone-receptor negative breast cancer (97.9%)</li>
+<li>progesterone-receptor positive breast cancer (97.9%)</li>
+<li>normal breast-like subtype of breast carcinoma (97.9%)</li>
+<li>breast tumor luminal A or B (97.9%)</li>
+<li>thrombocytopenia (97.6%)</li>
+<li>marcothrombocytopenia with mitral valve insufficiency (97.4%)</li>
+<li>hereditary thrombocytopenia with normal platelets (97.4%)</li>
+<li>dense granule disease (97.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/afatinib/' | relative_url }}">View full drug report →</a></p>
 </div>

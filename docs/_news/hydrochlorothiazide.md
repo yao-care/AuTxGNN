@@ -3,7 +3,7 @@ layout: default
 title: "Hydrochlorothiazide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Hydrochlorothiazide. Original indication: . 0 predicted indications."
+description: "Health news related to Hydrochlorothiazide. Original indication: . 10 predicted indications."
 permalink: /news/hydrochlorothiazide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/hydrochlorothiazide/
 ---
 
 <p class="key-answer" data-question="What news is there about Hydrochlorothiazide?">
-<strong>Hydrochlorothiazide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Hydrochlorothiazide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Hydrochlorothiazide with the
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>malignant hypertensive renal disease (98.4%)</li>
+<li>malignant renovascular hypertension (98.4%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (98.3%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (98.3%)</li>
+<li>Braddock syndrome (97.9%)</li>
+<li>chronic pulmonary heart disease (97.8%)</li>
+<li>acute pulmonary heart disease (93.2%)</li>
+<li>primary hereditary glaucoma (90.9%)</li>
+<li>open-angle glaucoma (86.2%)</li>
+<li>hypotrichosis simplex of the scalp (74.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/hydrochlorothiazide/' | relative_url }}">View full drug report →</a></p>
 </div>

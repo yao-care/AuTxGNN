@@ -3,7 +3,7 @@ layout: default
 title: "Hydromorphone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Hydromorphone. Original indication: . 0 predicted indications."
+description: "Health news related to Hydromorphone. Original indication: . 10 predicted indications."
 permalink: /news/hydromorphone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/hydromorphone/
 ---
 
 <p class="key-answer" data-question="What news is there about Hydromorphone?">
-<strong>Hydromorphone</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Hydromorphone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Hydromorphone with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pharyngitis (99.8%)</li>
+<li>allergic urticaria (99.8%)</li>
+<li>nasal cavity disease (99.8%)</li>
+<li>acute laryngopharyngitis (99.8%)</li>
+<li>headache disorder (99.7%)</li>
+<li>trigeminal autonomic cephalalgia (99.6%)</li>
+<li>cold urticaria (98.3%)</li>
+<li>faucial diphtheria (95.8%)</li>
+<li>cervical disc degenerative disorder (95.5%)</li>
+<li>papillary conjunctivitis (95.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/hydromorphone/' | relative_url }}">View full drug report →</a></p>
 </div>

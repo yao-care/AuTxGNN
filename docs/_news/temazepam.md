@@ -3,7 +3,7 @@ layout: default
 title: "Temazepam News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Temazepam. Original indication: . 0 predicted indications."
+description: "Health news related to Temazepam. Original indication: . 10 predicted indications."
 permalink: /news/temazepam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/temazepam/
 ---
 
 <p class="key-answer" data-question="What news is there about Temazepam?">
-<strong>Temazepam</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Temazepam</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Temazepam with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>sleep disorder, initiating and maintaining sleep (99.8%)</li>
+<li>acute encephalopathy with biphasic seizures and late reduced diffusion (98.5%)</li>
+<li>benign paroxysmal torticollis of infancy (95.6%)</li>
+<li>agoraphobia (95.0%)</li>
+<li>restless legs syndrome (94.0%)</li>
+<li>alcohol withdrawal (91.2%)</li>
+<li>anxiety (90.4%)</li>
+<li>Wernicke-Korsakoff syndrome (90.1%)</li>
+<li>epilepsy, childhood absence, susceptibility to (88.3%)</li>
+<li>alcohol withdrawal delirium (84.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/temazepam/' | relative_url }}">View full drug report →</a></p>
 </div>

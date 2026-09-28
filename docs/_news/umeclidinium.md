@@ -3,7 +3,7 @@ layout: default
 title: "Umeclidinium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Umeclidinium. Original indication: . 0 predicted indications."
+description: "Health news related to Umeclidinium. Original indication: . 10 predicted indications."
 permalink: /news/umeclidinium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/umeclidinium/
 ---
 
 <p class="key-answer" data-question="What news is there about Umeclidinium?">
-<strong>Umeclidinium</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Umeclidinium</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Umeclidinium with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>migraine disorder (96.4%)</li>
+<li>migraine with brainstem aura (95.8%)</li>
+<li>open-angle glaucoma (93.3%)</li>
+<li>primary hereditary glaucoma (92.9%)</li>
+<li>nephrogenic syndrome of inappropriate antidiuresis (92.0%)</li>
+<li>gastroduodenitis (91.9%)</li>
+<li>common cold (91.7%)</li>
+<li>atrophoderma vermiculata (91.2%)</li>
+<li>peptic ulcer disease (91.0%)</li>
+<li>allergic urticaria (90.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/umeclidinium/' | relative_url }}">View full drug report →</a></p>
 </div>

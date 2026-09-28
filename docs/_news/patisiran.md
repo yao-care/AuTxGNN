@@ -3,7 +3,7 @@ layout: default
 title: "Patisiran News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Patisiran. Original indication: . 0 predicted indications."
+description: "Health news related to Patisiran. Original indication: . 10 predicted indications."
 permalink: /news/patisiran/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/patisiran/
 ---
 
 <p class="key-answer" data-question="What news is there about Patisiran?">
-<strong>Patisiran</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Patisiran</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Patisiran with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>dermatitis (90.7%)</li>
+<li>hydroa vacciniforme, familial (90.1%)</li>
+<li>amyopathic dermatomyositis (90.1%)</li>
+<li>acne keloid (90.0%)</li>
+<li>secondary interstitial lung disease specific to childhood associated with a connective tissue disease (90.0%)</li>
+<li>neonatal dermatomyositis (89.9%)</li>
+<li>acrodermatitis chronica atrophicans (89.1%)</li>
+<li>Smouldering systemic mastocytosis (85.1%)</li>
+<li>overactive bladder (disease) (84.9%)</li>
+<li>lymphoadenopathic mastocytosis with eosinophilia (84.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/patisiran/' | relative_url }}">View full drug report →</a></p>
 </div>

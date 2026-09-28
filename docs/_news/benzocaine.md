@@ -3,7 +3,7 @@ layout: default
 title: "Benzocaine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Benzocaine. Original indication: . 0 predicted indications."
+description: "Health news related to Benzocaine. Original indication: . 10 predicted indications."
 permalink: /news/benzocaine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/benzocaine/
 ---
 
 <p class="key-answer" data-question="What news is there about Benzocaine?">
-<strong>Benzocaine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Benzocaine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Benzocaine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>papillary conjunctivitis (99.4%)</li>
+<li>blepharoconjunctivitis (98.8%)</li>
+<li>rosacea conjunctivitis (98.6%)</li>
+<li>dyspepsia (98.3%)</li>
+<li>ulcerative blepharitis (98.2%)</li>
+<li>parasitic eyelid infestation (98.0%)</li>
+<li>cutaneous candidiasis (97.9%)</li>
+<li>noninfectious dermatoses of eyelid (97.7%)</li>
+<li>nasal cavity disease (96.7%)</li>
+<li>acute laryngopharyngitis (96.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/benzocaine/' | relative_url }}">View full drug report →</a></p>
 </div>

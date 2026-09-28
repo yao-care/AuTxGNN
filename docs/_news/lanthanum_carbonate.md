@@ -3,7 +3,7 @@ layout: default
 title: "Lanthanum carbonate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lanthanum carbonate. Original indication: . 0 predicted indications."
+description: "Health news related to Lanthanum carbonate. Original indication: . 10 predicted indications."
 permalink: /news/lanthanum_carbonate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lanthanum_carbonate/
 ---
 
 <p class="key-answer" data-question="What news is there about Lanthanum carbonate?">
-<strong>Lanthanum carbonate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Lanthanum carbonate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Lanthanum carbonate with the
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>dyspepsia (95.1%)</li>
+<li>infectious otitis media (94.9%)</li>
+<li>otosalpingitis (93.6%)</li>
+<li>middle ear cholesterol granuloma (93.5%)</li>
+<li>allergic otitis media (93.5%)</li>
+<li>chronic otitis media (93.5%)</li>
+<li>middle ear disease (93.4%)</li>
+<li>non-suppurative otitis media (93.4%)</li>
+<li>suppurative otitis media (93.1%)</li>
+<li>pharyngitis (93.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lanthanum_carbonate/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Lercanidipine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lercanidipine. Original indication: . 0 predicted indications."
+description: "Health news related to Lercanidipine. Original indication: . 10 predicted indications."
 permalink: /news/lercanidipine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lercanidipine/
 ---
 
 <p class="key-answer" data-question="What news is there about Lercanidipine?">
-<strong>Lercanidipine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Lercanidipine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Lercanidipine with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (98.8%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (98.8%)</li>
+<li>malignant hypertensive renal disease (98.7%)</li>
+<li>malignant renovascular hypertension (98.7%)</li>
+<li>Braddock syndrome (98.4%)</li>
+<li>chronic pulmonary heart disease (90.8%)</li>
+<li>migraine with brainstem aura (78.7%)</li>
+<li>migraine disorder (77.9%)</li>
+<li>cerebrovascular disorder (69.6%)</li>
+<li>obsolete susceptibility to ischemic stroke (66.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lercanidipine/' | relative_url }}">View full drug report →</a></p>
 </div>

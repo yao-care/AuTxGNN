@@ -3,7 +3,7 @@ layout: default
 title: "Lapatinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lapatinib. Original indication: . 0 predicted indications."
+description: "Health news related to Lapatinib. Original indication: . 10 predicted indications."
 permalink: /news/lapatinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lapatinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Lapatinib?">
-<strong>Lapatinib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Lapatinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Lapatinib with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>dermatofibrosarcoma protuberans (99.3%)</li>
+<li>fibroblastic neoplasm (98.4%)</li>
+<li>conventional fibrosarcoma (98.4%)</li>
+<li>kidney fibrosarcoma (98.3%)</li>
+<li>cysticercosis (98.3%)</li>
+<li>heart fibrosarcoma (98.2%)</li>
+<li>low grade fibromyxoid sarcoma (98.2%)</li>
+<li>Plasmodium falciparum malaria (98.0%)</li>
+<li>coenurosis (97.5%)</li>
+<li>lymphangiomyoma (97.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lapatinib/' | relative_url }}">View full drug report →</a></p>
 </div>

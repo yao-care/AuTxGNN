@@ -3,7 +3,7 @@ layout: default
 title: "Niraparib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Niraparib. Original indication: . 0 predicted indications."
+description: "Health news related to Niraparib. Original indication: . 10 predicted indications."
 permalink: /news/niraparib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/niraparib/
 ---
 
 <p class="key-answer" data-question="What news is there about Niraparib?">
-<strong>Niraparib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Niraparib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Niraparib with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>epiglottis neoplasm (100.0%)</li>
+<li>cystic neoplasm (100.0%)</li>
+<li>benign neoplasm of hypopharynx (100.0%)</li>
+<li>benign neoplasm of tongue (100.0%)</li>
+<li>benign neoplasm of floor of mouth (100.0%)</li>
+<li>cervical neuroblastoma (100.0%)</li>
+<li>tumor of testis and paratestis (100.0%)</li>
+<li>inner ear neoplasm (100.0%)</li>
+<li>pre-malignant neoplasm (100.0%)</li>
+<li>schwannoma of jugular foramen (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/niraparib/' | relative_url }}">View full drug report →</a></p>
 </div>

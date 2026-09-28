@@ -3,7 +3,7 @@ layout: default
 title: "Nifedipine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nifedipine. Original indication: . 0 predicted indications."
+description: "Health news related to Nifedipine. Original indication: . 10 predicted indications."
 permalink: /news/nifedipine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nifedipine/
 ---
 
 <p class="key-answer" data-question="What news is there about Nifedipine?">
-<strong>Nifedipine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Nifedipine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Nifedipine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>migraine with brainstem aura (92.6%)</li>
+<li>migraine disorder (91.8%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (77.8%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (77.8%)</li>
+<li>malignant renovascular hypertension (76.6%)</li>
+<li>malignant hypertensive renal disease (76.6%)</li>
+<li>Braddock syndrome (74.0%)</li>
+<li>tendinitis (70.5%)</li>
+<li>common cold (70.2%)</li>
+<li>idiopathic granulomatous myositis (68.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nifedipine/' | relative_url }}">View full drug report →</a></p>
 </div>

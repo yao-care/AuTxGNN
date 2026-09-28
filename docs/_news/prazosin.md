@@ -3,7 +3,7 @@ layout: default
 title: "Prazosin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Prazosin. Original indication: . 0 predicted indications."
+description: "Health news related to Prazosin. Original indication: . 10 predicted indications."
 permalink: /news/prazosin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/prazosin/
 ---
 
 <p class="key-answer" data-question="What news is there about Prazosin?">
-<strong>Prazosin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Prazosin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Prazosin with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>malignant hypertensive renal disease (90.2%)</li>
+<li>malignant renovascular hypertension (90.2%)</li>
+<li>attention deficit-hyperactivity disorder (89.7%)</li>
+<li>attention deficit hyperactivity disorder, inattentive type (89.7%)</li>
+<li>faciodigitogenital syndrome (89.5%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (89.3%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (89.3%)</li>
+<li>specific developmental disorder (87.2%)</li>
+<li>Braddock syndrome (86.2%)</li>
+<li>chondromyxoid fibroma (77.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/prazosin/' | relative_url }}">View full drug report →</a></p>
 </div>

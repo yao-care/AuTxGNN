@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Pyrantel with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Papillary conjunctivitis | 97.99% | L5 | S0 | Hold (99.0%)</li>
-<li>Toxocariasis | 95.51% | L4 | S1 | Research Question (99.0%)</li>
-<li>Toxascariasis | 94.86% | L4 | S0 | Hold (99.0%)</li>
-<li>Anisakiasis | 94.79% | L5 | S0 | Hold (99.0%)</li>
-<li>Allergic urticaria | 94.54% | L5 | S0 | Hold (99.0%)</li>
-<li>Atopic conjunctivitis | 91.37% | L5 | S0 | Hold (99.0%)</li>
-<li>Cutaneous larva migrans | 90.41% | L4 | S1 | Research Question (99.0%)</li>
-<li>Sorsby's fundus dystrophy | 90.41% | L5 | S0 | Hold (99.0%)</li>
-<li>**Capillariasis** | 89.08% | **L3** | **S2** | **Research Question** (99.0%)</li>
-<li>Rosacea conjunctivitis | 88.32% | L5 | S0 | Hold (99.0%)</li>
+<li>papillary conjunctivitis (98.0%)</li>
+<li>toxocariasis (95.5%)</li>
+<li>toxascariasis (94.9%)</li>
+<li>anisakiasis (94.8%)</li>
+<li>allergic urticaria (94.5%)</li>
+<li>atopic conjunctivitis (91.4%)</li>
+<li>cutaneous larva migrans (90.4%)</li>
+<li>Sorsby's fundus dystrophy (90.4%)</li>
+<li>capillariasis (89.1%)</li>
+<li>rosacea conjunctivitis (88.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pyrantel/' | relative_url }}">View full drug report →</a></p>

@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Obinutuzumab with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Pregerminal center CLL/SLL | 99.21% | L4 | S1 | Research Question (99.0%)</li>
-<li>CLL/SLL with IGHV somatic hypermutation | 99.21% | L4 | S1 | Research Question (99.0%)</li>
-<li>**Follicular lymphoma** | 99.18% | **L1** | S3 | **Proceed with Guardrails** (99.0%)</li>
-<li>**Mantle cell lymphoma** | 98.75% | **L2** | S3 | **Proceed with Guardrails** (99.0%)</li>
-<li>Metastatic neoplasm | 98.51% | L4 | S0 | Hold (99.0%)</li>
-<li>Malignant spiradenoma | 98.47% | L5 | S0 | Hold (99.0%)</li>
-<li>Neoplasm of mature B-cells | 98.08% | L3 | S2 | Research Question (99.0%)</li>
-<li>Small intestinal Burkitt lymphoma | 97.84% | L5 | S0 | Hold (99.0%)</li>
-<li>Langerhans cell histiocytosis | 97.81% | L5 | S0 | Hold (99.0%)</li>
-<li>Thyroid gland MALT lymphoma | 97.76% | L5 | S0 | Hold (99.0%)</li>
+<li>pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (99.2%)</li>
+<li>chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (99.2%)</li>
+<li>follicular lymphoma (99.2%)</li>
+<li>mantle cell lymphoma (98.8%)</li>
+<li>metastatic neoplasm (98.5%)</li>
+<li>malignant spiradenoma (98.5%)</li>
+<li>neoplasm of mature B-cells (98.1%)</li>
+<li>small intestinal Burkitt lymphoma (97.8%)</li>
+<li>Langerhans cell histiocytosis (97.8%)</li>
+<li>thyroid gland mucosa-associated lymphoid tissue lymphoma (97.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/obinutuzumab/' | relative_url }}">View full drug report →</a></p>

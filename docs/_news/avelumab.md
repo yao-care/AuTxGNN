@@ -3,7 +3,7 @@ layout: default
 title: "Avelumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Avelumab. Original indication: HHV-8 related tumours — particularly Kaposi sarcom.... 0 predicted indications."
+description: "Health news related to Avelumab. Original indication: HHV-8 related tumours — particularly Kaposi sarcom.... 10 predicted indications."
 permalink: /news/avelumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/avelumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Avelumab?">
-<strong>Avelumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Avelumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,6 +26,18 @@ This page combines the AI-predicted indications for Avelumab with the latest hea
 <ul>
 <li><strong>Original indication</strong>: HHV-8 related tumours — particularly Kaposi sarcoma (KS), primary effusion lymphoma (PEL), and multicentric Castleman disease (MCD) — actively exploit viral immune evasion strategies involving the...</li>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>human herpesvirus 8-related tumor (100.0%)</li>
+<li>middle ear neuroendocrine tumor (100.0%)</li>
+<li>malignant cutaneous granular cell skin tumor (100.0%)</li>
+<li>ectomesenchymoma (100.0%)</li>
+<li>adenosine deaminase deficiency (100.0%)</li>
+<li>reticular dysgenesis (99.9%)</li>
+<li>Immunoerythromyeloid hypoplasia (99.9%)</li>
+<li>non-severe combined immunodeficiency (99.9%)</li>
+<li>prostatic urethra urothelial carcinoma (99.9%)</li>
+<li>kidney pelvis sarcomatoid transitional cell carcinoma (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/avelumab/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Donepezil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Donepezil. Original indication: . 0 predicted indications."
+description: "Health news related to Donepezil. Original indication: . 10 predicted indications."
 permalink: /news/donepezil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/donepezil/
 ---
 
 <p class="key-answer" data-question="What news is there about Donepezil?">
-<strong>Donepezil</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Donepezil</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Donepezil with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>psychogenic movement disorders (99.2%)</li>
+<li>chronic tic disorder (99.2%)</li>
+<li>primary orthostatic tremor (99.2%)</li>
+<li>extrapyramidal and movement disease (99.2%)</li>
+<li>benign shuddering attacks (99.2%)</li>
+<li>tremor-nystagmus-duodenal ulcer syndrome (99.2%)</li>
+<li>benign paroxysmal tonic upgaze of childhood with ataxia (99.1%)</li>
+<li>lingual-facial-buccal dyskinesia (99.0%)</li>
+<li>acute intermittent porphyria (98.8%)</li>
+<li>glaucoma (98.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/donepezil/' | relative_url }}">View full drug report →</a></p>
 </div>

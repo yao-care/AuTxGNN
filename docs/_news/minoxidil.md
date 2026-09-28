@@ -3,7 +3,7 @@ layout: default
 title: "Minoxidil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Minoxidil. Original indication: . 2 predicted indications."
+description: "Health news related to Minoxidil. Original indication: . 4 predicted indications."
 permalink: /news/minoxidil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/minoxidil/
 ---
 
 <p class="key-answer" data-question="What news is there about Minoxidil?">
-<strong>Minoxidil</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Minoxidil</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,9 +24,11 @@ This page combines the AI-predicted indications for Minoxidil with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (2)</strong>:<ul>
+<li><strong>Predicted indications (4)</strong>:<ul>
 <li>Hypotrichosis simplex of the scalp (100.0%)</li>
 <li>Congenital hypotrichosis with milia (100.0%)</li>
+<li>congenital hypotrichosis milia (100.0%)</li>
+<li>diffuse alopecia areata (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/minoxidil/' | relative_url }}">View full drug report →</a></p>

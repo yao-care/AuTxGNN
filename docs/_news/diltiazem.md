@@ -3,7 +3,7 @@ layout: default
 title: "Diltiazem News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Diltiazem. Original indication: . 0 predicted indications."
+description: "Health news related to Diltiazem. Original indication: . 10 predicted indications."
 permalink: /news/diltiazem/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/diltiazem/
 ---
 
 <p class="key-answer" data-question="What news is there about Diltiazem?">
-<strong>Diltiazem</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Diltiazem</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Diltiazem with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>obsolete susceptibility to ischemic stroke (99.1%)</li>
+<li>brain stem infarction (98.2%)</li>
+<li>obsolete bundle branch block (97.9%)</li>
+<li>cerebrovascular disorder (97.6%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (97.2%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (97.2%)</li>
+<li>malignant hypertensive renal disease (97.2%)</li>
+<li>malignant renovascular hypertension (97.2%)</li>
+<li>ABri amyloidosis (97.0%)</li>
+<li>Braddock syndrome (96.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/diltiazem/' | relative_url }}">View full drug report →</a></p>
 </div>

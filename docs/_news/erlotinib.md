@@ -3,7 +3,7 @@ layout: default
 title: "Erlotinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Erlotinib. Original indication: . 0 predicted indications."
+description: "Health news related to Erlotinib. Original indication: . 10 predicted indications."
 permalink: /news/erlotinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/erlotinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Erlotinib?">
-<strong>Erlotinib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Erlotinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Erlotinib with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Ewing sarcoma (95.8%)</li>
+<li>fibromatosis, gingival (95.3%)</li>
+<li>fibroma of lung (95.1%)</li>
+<li>hamartoma of lung (95.1%)</li>
+<li>lung benign neoplasm (95.0%)</li>
+<li>lung hilum carcinoma (95.0%)</li>
+<li>lung germ cell tumor (94.5%)</li>
+<li>pulmonary sulcus neoplasm (94.5%)</li>
+<li>inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia (93.3%)</li>
+<li>junctional epidermolysis bullosa (92.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/erlotinib/' | relative_url }}">View full drug report →</a></p>
 </div>

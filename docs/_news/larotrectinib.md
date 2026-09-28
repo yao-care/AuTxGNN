@@ -3,7 +3,7 @@ layout: default
 title: "Larotrectinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Larotrectinib. Original indication: . 0 predicted indications."
+description: "Health news related to Larotrectinib. Original indication: . 10 predicted indications."
 permalink: /news/larotrectinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/larotrectinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Larotrectinib?">
-<strong>Larotrectinib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Larotrectinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Larotrectinib with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>multiple endocrine neoplasia (99.2%)</li>
+<li>HER2 positive breast carcinoma (99.1%)</li>
+<li>cytomegalovirus infection (99.0%)</li>
+<li>malignant catarrh (98.9%)</li>
+<li>infectious bovine rhinotracheitis (98.9%)</li>
+<li>progesterone-receptor negative breast cancer (98.7%)</li>
+<li>normal breast-like subtype of breast carcinoma (98.6%)</li>
+<li>progesterone-receptor positive breast cancer (98.6%)</li>
+<li>breast tumor luminal A or B (98.6%)</li>
+<li>thrombocytopenia (98.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/larotrectinib/' | relative_url }}">View full drug report →</a></p>
 </div>

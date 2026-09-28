@@ -3,7 +3,7 @@ layout: default
 title: "Ponatinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ponatinib. Original indication: . 0 predicted indications."
+description: "Health news related to Ponatinib. Original indication: . 10 predicted indications."
 permalink: /news/ponatinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ponatinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Ponatinib?">
-<strong>Ponatinib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ponatinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Ponatinib with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>fibromatosis, gingival (99.0%)</li>
+<li>liposarcoma (99.0%)</li>
+<li>inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia (99.0%)</li>
+<li>ovarian myxoid liposarcoma (98.9%)</li>
+<li>hamartoma of lung (98.9%)</li>
+<li>fibroma of lung (98.9%)</li>
+<li>junctional epidermolysis bullosa (98.9%)</li>
+<li>Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome (98.8%)</li>
+<li>lung benign neoplasm (98.8%)</li>
+<li>lung hilum carcinoma (98.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ponatinib/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Vorinostat News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Vorinostat. Original indication: . 0 predicted indications."
+description: "Health news related to Vorinostat. Original indication: . 10 predicted indications."
 permalink: /news/vorinostat/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/vorinostat/
 ---
 
 <p class="key-answer" data-question="What news is there about Vorinostat?">
-<strong>Vorinostat</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Vorinostat</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Vorinostat with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>primary cutaneous B-cell lymphoma (99.2%)</li>
+<li>Sezary syndrome (99.1%)</li>
+<li>myeloid leukemia (99.0%)</li>
+<li>lymph node cancer (98.0%)</li>
+<li>seborrheic dermatitis (97.7%)</li>
+<li>lymphosarcoma (97.7%)</li>
+<li>relapsing-remitting multiple sclerosis (97.3%)</li>
+<li>granulomatous slack skin disease (97.1%)</li>
+<li>acute lymphoblastic leukemia (disease) (97.0%)</li>
+<li>parapsoriasis (96.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/vorinostat/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Nilotinib with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Dermatofibrosarcoma protuberans | 99.31% | L4 | S1 | Research Question (99.0%)</li>
-<li>Liposarcoma | 98.85% | L3 | S2 | Research Question (99.0%)</li>
-<li>Ovarian myxoid liposarcoma | 98.74% | L5 | S0 | Hold (99.0%)</li>
-<li>Ewing sarcoma | 98.45% | L5 | S0 | Hold (99.0%)</li>
-<li>Ganglioneuroblastoma (disease) | 97.02% | L5 | S0 | Hold (99.0%)</li>
-<li>Heart fibrosarcoma | 97.01% | L5 | S0 | Hold (99.0%)</li>
-<li>Vertebral anomalies and variable endocrine and T-cell dysfunction | 96.94% | L5 | S0 | Hold (likely a KG entity-mapping artefact — recommend verifying entity validity before any further review) (99.0%)</li>
-<li>Kidney fibrosarcoma | 96.90% | L5 | S0 | Hold (99.0%)</li>
-<li>Fibroblastic neoplasm | 96.90% | L4 | S1 | Research Question (99.0%)</li>
-<li>Conventional fibrosarcoma | 96.79% | L5 | S0 | Hold (99.0%)</li>
+<li>dermatofibrosarcoma protuberans (99.3%)</li>
+<li>liposarcoma (98.8%)</li>
+<li>ovarian myxoid liposarcoma (98.7%)</li>
+<li>Ewing sarcoma (98.5%)</li>
+<li>ganglioneuroblastoma (disease) (97.0%)</li>
+<li>heart fibrosarcoma (97.0%)</li>
+<li>vertebral anomalies and variable endocrine and T-cell dysfunction (96.9%)</li>
+<li>kidney fibrosarcoma (96.9%)</li>
+<li>fibroblastic neoplasm (96.9%)</li>
+<li>conventional fibrosarcoma (96.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/nilotinib/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Omeprazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Omeprazole. Original indication: . 0 predicted indications."
+description: "Health news related to Omeprazole. Original indication: . 10 predicted indications."
 permalink: /news/omeprazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/omeprazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Omeprazole?">
-<strong>Omeprazole</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Omeprazole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Omeprazole with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>duodenogastric reflux (99.6%)</li>
+<li>duodenal obstruction (99.6%)</li>
+<li>active peptic ulcer disease (98.8%)</li>
+<li>peptic ulcer perforation (98.5%)</li>
+<li>gastrojejunal ulcer (98.5%)</li>
+<li>abnormality of glucagon secretion (97.0%)</li>
+<li>gastroduodenitis (96.7%)</li>
+<li>Smouldering systemic mastocytosis (96.5%)</li>
+<li>lymphoadenopathic mastocytosis with eosinophilia (95.7%)</li>
+<li>duodenitis (95.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/omeprazole/' | relative_url }}">View full drug report →</a></p>
 </div>

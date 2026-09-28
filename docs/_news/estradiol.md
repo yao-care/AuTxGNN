@@ -3,7 +3,7 @@ layout: default
 title: "Estradiol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Estradiol. Original indication: . 9 predicted indications."
+description: "Health news related to Estradiol. Original indication: . 10 predicted indications."
 permalink: /news/estradiol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/estradiol/
 ---
 
 <p class="key-answer" data-question="What news is there about Estradiol?">
-<strong>Estradiol</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Estradiol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,16 +24,17 @@ This page combines the AI-predicted indications for Estradiol with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Anovulation | 98.58% | L2 | **Proceed with Guardrails** (99.0%)</li>
-<li>Ovarian remnant syndrome | 98.58% | L4 | Hold (99.0%)</li>
-<li>Partial trisomy/tetrasomy, short arm of chromosome 18 | 98.56% | L5 | Hold (99.0%)</li>
-<li>Partial trisomy/tetrasomy, short arm of chromosome 12 | 98.56% | L5 | Hold (99.0%)</li>
-<li>Partial trisomy/tetrasomy, short arm of chromosome 5 | 98.54% | L5 | Hold (99.0%)</li>
-<li>Blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement | 98.52% | L5 | Hold (99.0%)</li>
-<li>Luteoma of pregnancy | 98.47% | L4 | Hold (99.0%)</li>
-<li>Partial autosomal trisomy/tetrasomy | 98.45% | L5 | Hold (99.0%)</li>
-<li>Ovarian ectopic pregnancy | 98.44% | L4 | Hold (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>symptomatic form of fragile X syndrome in female carrier (98.8%)</li>
+<li>anovulation (98.6%)</li>
+<li>ovarian remnant syndrome (98.6%)</li>
+<li>partial trisomy/tetrasomy of the short arm of chromosome 18 (98.6%)</li>
+<li>partial trisomy/tetrasomy of the short arm of chromosome 12 (98.6%)</li>
+<li>partial trisomy/tetrasomy of the short arm of chromosome 5 (98.5%)</li>
+<li>blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome (98.5%)</li>
+<li>luteoma of pregnancy (98.5%)</li>
+<li>partial autosomal trisomy/tetrasomy (98.5%)</li>
+<li>ovarian ectopic pregnancy (98.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/estradiol/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Nintedanib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nintedanib. Original indication: . 0 predicted indications."
+description: "Health news related to Nintedanib. Original indication: . 10 predicted indications."
 permalink: /news/nintedanib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nintedanib/
 ---
 
 <p class="key-answer" data-question="What news is there about Nintedanib?">
-<strong>Nintedanib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Nintedanib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Nintedanib with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>dermatofibrosarcoma protuberans (99.2%)</li>
+<li>liposarcoma (99.1%)</li>
+<li>ovarian myxoid liposarcoma (99.1%)</li>
+<li>heart fibrosarcoma (98.9%)</li>
+<li>axial spondylometaphyseal dysplasia (98.9%)</li>
+<li>amyotrohpic lateral sclerosis type 22 (98.9%)</li>
+<li>fibroblastic neoplasm (98.8%)</li>
+<li>kidney fibrosarcoma (98.8%)</li>
+<li>conventional fibrosarcoma (98.8%)</li>
+<li>amyotrophic lateral sclerosis, susceptibility to (98.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nintedanib/' | relative_url }}">View full drug report →</a></p>
 </div>

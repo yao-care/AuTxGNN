@@ -3,7 +3,7 @@ layout: default
 title: "Ravulizumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ravulizumab. Original indication: . 0 predicted indications."
+description: "Health news related to Ravulizumab. Original indication: . 10 predicted indications."
 permalink: /news/ravulizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ravulizumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Ravulizumab?">
-<strong>Ravulizumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ravulizumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Ravulizumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>autosomal recessive severe congenital neutropenia due to G6PC3 deficiency (100.0%)</li>
+<li>cyclic hematopoiesis (99.9%)</li>
+<li>primary hyperoxaluria (99.9%)</li>
+<li>severe congenital neutropenia (99.9%)</li>
+<li>autosomal recessive severe congenital neutropenia due to CXCR2 deficiency (99.9%)</li>
+<li>primary immunodeficiency syndrome due to p14 deficiency (99.8%)</li>
+<li>pseudo-von Willebrand disease (99.8%)</li>
+<li>X-linked severe congenital neutropenia (99.8%)</li>
+<li>primary release disorder of platelets (99.8%)</li>
+<li>megaloblastic anemia (disease) (99.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ravulizumab/' | relative_url }}">View full drug report →</a></p>
 </div>

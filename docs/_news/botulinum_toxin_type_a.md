@@ -3,7 +3,7 @@ layout: default
 title: "Botulinum toxin type A News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Botulinum toxin type A. Original indication: . 0 predicted indications."
+description: "Health news related to Botulinum toxin type A. Original indication: . 10 predicted indications."
 permalink: /news/botulinum_toxin_type_a/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/botulinum_toxin_type_a/
 ---
 
 <p class="key-answer" data-question="What news is there about Botulinum toxin type A?">
-<strong>Botulinum toxin type A</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Botulinum toxin type A</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Botulinum toxin type A with 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>primary hereditary glaucoma (89.4%)</li>
+<li>parkinsonian disorder (88.8%)</li>
+<li>open-angle glaucoma (88.8%)</li>
+<li>insomnia (disease) (87.5%)</li>
+<li>glaucoma 1, open angle (79.0%)</li>
+<li>restless legs syndrome (77.9%)</li>
+<li>Parkinson disease (77.7%)</li>
+<li>paralysis agitans, juvenile, of Hunt (77.3%)</li>
+<li>bronchitis (75.8%)</li>
+<li>autosomal recessive Parkinson disease (73.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/botulinum_toxin_type_a/' | relative_url }}">View full drug report →</a></p>
 </div>

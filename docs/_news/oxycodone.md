@@ -3,7 +3,7 @@ layout: default
 title: "Oxycodone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Oxycodone. Original indication: . 0 predicted indications."
+description: "Health news related to Oxycodone. Original indication: . 10 predicted indications."
 permalink: /news/oxycodone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/oxycodone/
 ---
 
 <p class="key-answer" data-question="What news is there about Oxycodone?">
-<strong>Oxycodone</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Oxycodone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Oxycodone with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>methemoglobinemia (92.7%)</li>
+<li>restless legs syndrome (90.3%)</li>
+<li>myofascial pain syndrome (88.5%)</li>
+<li>methemoglobinemia, alpha type (85.9%)</li>
+<li>common cold (85.2%)</li>
+<li>nephrogenic syndrome of inappropriate antidiuresis (85.0%)</li>
+<li>headache disorder (84.5%)</li>
+<li>tendinitis (84.4%)</li>
+<li>idiopathic granulomatous myositis (84.4%)</li>
+<li>myositis fibrosa (84.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/oxycodone/' | relative_url }}">View full drug report →</a></p>
 </div>

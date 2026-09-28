@@ -3,7 +3,7 @@ layout: default
 title: "Pomalidomide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pomalidomide. Original indication: . 0 predicted indications."
+description: "Health news related to Pomalidomide. Original indication: . 10 predicted indications."
 permalink: /news/pomalidomide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pomalidomide/
 ---
 
 <p class="key-answer" data-question="What news is there about Pomalidomide?">
-<strong>Pomalidomide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Pomalidomide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Pomalidomide with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>indolent plasma cell myeloma (94.0%)</li>
+<li>CMM7 (75.0%)</li>
+<li>pediatric leptomeningeal melanoma (73.5%)</li>
+<li>vulvar melanoma (disease) (73.3%)</li>
+<li>epithelioid cell uveal melanoma (72.2%)</li>
+<li>melanoma (63.3%)</li>
+<li>cholangiocarcinoma, susceptibility to (60.3%)</li>
+<li>congenital temporomandibular joint ankylosis (59.6%)</li>
+<li>polydipsia (59.2%)</li>
+<li>ganglioneuroblastoma (disease) (58.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/pomalidomide/' | relative_url }}">View full drug report →</a></p>
 </div>

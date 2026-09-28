@@ -3,7 +3,7 @@ layout: default
 title: "Lamivudine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lamivudine. Original indication: . 0 predicted indications."
+description: "Health news related to Lamivudine. Original indication: . 10 predicted indications."
 permalink: /news/lamivudine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lamivudine/
 ---
 
 <p class="key-answer" data-question="What news is there about Lamivudine?">
-<strong>Lamivudine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Lamivudine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Lamivudine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>simian immunodeficiency virus infection (99.9%)</li>
+<li>feline acquired immunodeficiency syndrome (99.9%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.9%)</li>
+<li>obsolete familial combined hyperlipidemia (99.6%)</li>
+<li>chronic hepatitis C virus infection (99.1%)</li>
+<li>hepatitis B virus infection (97.8%)</li>
+<li>hepatitis C virus infection (97.0%)</li>
+<li>idiopathic copper-associated cirrhosis (96.3%)</li>
+<li>hepatoportal sclerosis (96.3%)</li>
+<li>primitive portal vein thrombosis (96.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lamivudine/' | relative_url }}">View full drug report →</a></p>
 </div>

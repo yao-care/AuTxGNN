@@ -3,7 +3,7 @@ layout: default
 title: "Hydrocortisone acetate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Hydrocortisone acetate. Original indication: . 0 predicted indications."
+description: "Health news related to Hydrocortisone acetate. Original indication: . 10 predicted indications."
 permalink: /news/hydrocortisone_acetate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/hydrocortisone_acetate/
 ---
 
 <p class="key-answer" data-question="What news is there about Hydrocortisone acetate?">
-<strong>Hydrocortisone acetate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Hydrocortisone acetate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Hydrocortisone acetate with 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>alopecia areata (99.9%)</li>
+<li>telogen effluvium (99.9%)</li>
+<li>alopecia mucinosa (99.9%)</li>
+<li>Quinquaud's folliculitis decalvans (99.9%)</li>
+<li>hereditary hypotrichosis with recurrent skin vesicles (99.9%)</li>
+<li>alopecia antibody deficiency (99.9%)</li>
+<li>alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome (99.9%)</li>
+<li>atrichia with papular lesions (99.7%)</li>
+<li>seborrheic keratosis (99.4%)</li>
+<li>idiopathic steroid-sensitive nephrotic syndrome (99.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/hydrocortisone_acetate/' | relative_url }}">View full drug report →</a></p>
 </div>

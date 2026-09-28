@@ -3,7 +3,7 @@ layout: default
 title: "Ciprofloxacin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ciprofloxacin. Original indication: . 0 predicted indications."
+description: "Health news related to Ciprofloxacin. Original indication: . 10 predicted indications."
 permalink: /news/ciprofloxacin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ciprofloxacin/
 ---
 
 <p class="key-answer" data-question="What news is there about Ciprofloxacin?">
-<strong>Ciprofloxacin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ciprofloxacin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Ciprofloxacin with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>diffuse scleroderma (99.9%)</li>
+<li>polyclonal hyperviscosity syndrome (99.9%)</li>
+<li>hyperamylasemia (99.9%)</li>
+<li>congenital analbuminemia (99.8%)</li>
+<li>blood group incompatibility (99.8%)</li>
+<li>premalignant hematological system disease (99.7%)</li>
+<li>punctate epithelial keratoconjunctivitis (99.7%)</li>
+<li>monoclonal gammopathy (99.7%)</li>
+<li>hematological disease associated with an acquired peripheral neuropathy (99.7%)</li>
+<li>septicemic plague (99.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ciprofloxacin/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Temozolomide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Temozolomide. Original indication: . 0 predicted indications."
+description: "Health news related to Temozolomide. Original indication: . 10 predicted indications."
 permalink: /news/temozolomide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/temozolomide/
 ---
 
 <p class="key-answer" data-question="What news is there about Temozolomide?">
-<strong>Temozolomide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Temozolomide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Temozolomide with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>adult astrocytic tumour (99.4%)</li>
+<li>cauda equina neoplasm (99.3%)</li>
+<li>childhood cerebral astrocytoma (97.5%)</li>
+<li>cerebellar astrocytoma (97.4%)</li>
+<li>subependymal giant cell astrocytoma (97.4%)</li>
+<li>diencephalic astrocytomas (97.3%)</li>
+<li>astrocytic tumor (97.2%)</li>
+<li>high grade astrocytic tumor (97.2%)</li>
+<li>low grade astrocytic tumor (96.5%)</li>
+<li>brain astrocytoma (96.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/temozolomide/' | relative_url }}">View full drug report →</a></p>
 </div>

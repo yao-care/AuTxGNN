@@ -3,7 +3,7 @@ layout: default
 title: "Clarithromycin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Clarithromycin. Original indication: . 0 predicted indications."
+description: "Health news related to Clarithromycin. Original indication: . 10 predicted indications."
 permalink: /news/clarithromycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/clarithromycin/
 ---
 
 <p class="key-answer" data-question="What news is there about Clarithromycin?">
-<strong>Clarithromycin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Clarithromycin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Clarithromycin with the late
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hyperamylasemia (99.3%)</li>
+<li>polyclonal hyperviscosity syndrome (99.3%)</li>
+<li>congenital analbuminemia (99.2%)</li>
+<li>punctate epithelial keratoconjunctivitis (99.1%)</li>
+<li>blood group incompatibility (99.1%)</li>
+<li>premalignant hematological system disease (98.9%)</li>
+<li>monoclonal gammopathy (98.8%)</li>
+<li>septicemic plague (98.7%)</li>
+<li>hematological disease associated with an acquired peripheral neuropathy (98.7%)</li>
+<li>congenital hematological disorder (98.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/clarithromycin/' | relative_url }}">View full drug report →</a></p>
 </div>

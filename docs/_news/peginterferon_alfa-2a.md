@@ -3,7 +3,7 @@ layout: default
 title: "Peginterferon alfa-2a News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Peginterferon alfa-2a. Original indication: . 0 predicted indications."
+description: "Health news related to Peginterferon alfa-2a. Original indication: . 10 predicted indications."
 permalink: /news/peginterferon_alfa-2a/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/peginterferon_alfa-2a/
 ---
 
 <p class="key-answer" data-question="What news is there about Peginterferon alfa-2a?">
-<strong>Peginterferon alfa-2a</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Peginterferon alfa-2a</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Peginterferon alfa-2a with t
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hepatitis B virus infection (99.9%)</li>
+<li>hepatitis E virus infection (99.8%)</li>
+<li>hepatitis A virus infection (99.8%)</li>
+<li>hepatitis, viral, animal (99.8%)</li>
+<li>Omsk hemorrhagic fever (99.8%)</li>
+<li>Kyasanur forest disease (99.8%)</li>
+<li>heart conduction disease (99.5%)</li>
+<li>heart neoplasm (99.4%)</li>
+<li>heart valve disease (99.4%)</li>
+<li>congenital anomaly of ventricular septum (99.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/peginterferon_alfa-2a/' | relative_url }}">View full drug report →</a></p>
 </div>

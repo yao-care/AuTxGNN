@@ -3,7 +3,7 @@ layout: default
 title: "Eflornithine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Eflornithine. Original indication: . 0 predicted indications."
+description: "Health news related to Eflornithine. Original indication: . 10 predicted indications."
 permalink: /news/eflornithine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/eflornithine/
 ---
 
 <p class="key-answer" data-question="What news is there about Eflornithine?">
-<strong>Eflornithine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Eflornithine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Eflornithine with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>esotropia (99.8%)</li>
+<li>neurotrophic keratopathy (99.4%)</li>
+<li>congenital analbuminemia (98.9%)</li>
+<li>hyperamylasemia (98.8%)</li>
+<li>polyclonal hyperviscosity syndrome (98.8%)</li>
+<li>trypanosomiasis, bovine (98.4%)</li>
+<li>blood group incompatibility (98.4%)</li>
+<li>monoclonal gammopathy (98.2%)</li>
+<li>premalignant hematological system disease (98.1%)</li>
+<li>congenital prothrombin deficiency (98.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/eflornithine/' | relative_url }}">View full drug report →</a></p>
 </div>

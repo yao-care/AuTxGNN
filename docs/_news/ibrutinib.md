@@ -3,7 +3,7 @@ layout: default
 title: "Ibrutinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ibrutinib. Original indication: . 0 predicted indications."
+description: "Health news related to Ibrutinib. Original indication: . 10 predicted indications."
 permalink: /news/ibrutinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ibrutinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Ibrutinib?">
-<strong>Ibrutinib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ibrutinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Ibrutinib with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>polyclonal hypergammaglobulinemia (91.8%)</li>
+<li>monoclonal paraproteinemia disease (91.2%)</li>
+<li>thyroid gland mucosa-associated lymphoid tissue lymphoma (88.4%)</li>
+<li>small intestinal mucosa-associated lymphoid tissue lymphoma (88.4%)</li>
+<li>small intestinal Burkitt lymphoma (88.3%)</li>
+<li>breast mucosa-associated lymphoid tissue lymphoma (88.1%)</li>
+<li>tonsillar lymphoma (88.0%)</li>
+<li>marginal zone lymphoma (88.0%)</li>
+<li>extracutaneous mastocytoma (87.7%)</li>
+<li>neoplasm of mature B-cells (86.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ibrutinib/' | relative_url }}">View full drug report →</a></p>
 </div>

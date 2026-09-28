@@ -3,7 +3,7 @@ layout: default
 title: "Clobetasol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Clobetasol. Original indication: . 0 predicted indications."
+description: "Health news related to Clobetasol. Original indication: . 10 predicted indications."
 permalink: /news/clobetasol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/clobetasol/
 ---
 
 <p class="key-answer" data-question="What news is there about Clobetasol?">
-<strong>Clobetasol</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Clobetasol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Clobetasol with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>primary cutaneous T-cell lymphoma (99.5%)</li>
+<li>lymphosarcoma (98.9%)</li>
+<li>cystic teratoma (98.9%)</li>
+<li>Crohn's colitis (98.9%)</li>
+<li>spinal cord dermoid cyst (98.9%)</li>
+<li>disease of orbital part of eye adnexa (98.9%)</li>
+<li>disease of orbital region (98.8%)</li>
+<li>dermoid cyst of ovary (98.7%)</li>
+<li>candidiasis (98.6%)</li>
+<li>polyp of vocal cord (98.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/clobetasol/' | relative_url }}">View full drug report →</a></p>
 </div>

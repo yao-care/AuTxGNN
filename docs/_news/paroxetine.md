@@ -3,7 +3,7 @@ layout: default
 title: "Paroxetine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Paroxetine. Original indication: . 0 predicted indications."
+description: "Health news related to Paroxetine. Original indication: . 10 predicted indications."
 permalink: /news/paroxetine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/paroxetine/
 ---
 
 <p class="key-answer" data-question="What news is there about Paroxetine?">
-<strong>Paroxetine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Paroxetine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Paroxetine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Ohdo syndrome and variants (99.1%)</li>
+<li>melancholia (98.7%)</li>
+<li>blepharophimosis - intellectual disability syndrome, Ohdo type (98.7%)</li>
+<li>neurotic depression (98.7%)</li>
+<li>benign paroxysmal torticollis of infancy (98.1%)</li>
+<li>agoraphobia (97.8%)</li>
+<li>paranoid personality disorder (97.7%)</li>
+<li>schizotypal personality disorder (97.7%)</li>
+<li>histrionic personality disorder (disease) (97.7%)</li>
+<li>schizoid personality disorder (97.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/paroxetine/' | relative_url }}">View full drug report →</a></p>
 </div>

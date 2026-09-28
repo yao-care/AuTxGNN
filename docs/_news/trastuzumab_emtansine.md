@@ -3,7 +3,7 @@ layout: default
 title: "Trastuzumab emtansine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Trastuzumab emtansine. Original indication: . 0 predicted indications."
+description: "Health news related to Trastuzumab emtansine. Original indication: . 10 predicted indications."
 permalink: /news/trastuzumab_emtansine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/trastuzumab_emtansine/
 ---
 
 <p class="key-answer" data-question="What news is there about Trastuzumab emtansine?">
-<strong>Trastuzumab emtansine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Trastuzumab emtansine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Trastuzumab emtansine with t
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>normal breast-like subtype of breast carcinoma (99.8%)</li>
+<li>progesterone-receptor positive breast cancer (99.8%)</li>
+<li>progesterone-receptor negative breast cancer (99.8%)</li>
+<li>breast tumor luminal A or B (99.8%)</li>
+<li>synovium cancer (97.5%)</li>
+<li>tenosynovial giant cell tumor (96.7%)</li>
+<li>tenosynovial giant cell tumor, localized type (96.2%)</li>
+<li>malignant giant cell tumor (96.0%)</li>
+<li>human herpesvirus 8-related tumor (95.5%)</li>
+<li>ectomesenchymoma (95.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/trastuzumab_emtansine/' | relative_url }}">View full drug report →</a></p>
 </div>

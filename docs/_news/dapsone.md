@@ -3,7 +3,7 @@ layout: default
 title: "Dapsone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dapsone. Original indication: . 0 predicted indications."
+description: "Health news related to Dapsone. Original indication: . 10 predicted indications."
 permalink: /news/dapsone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dapsone/
 ---
 
 <p class="key-answer" data-question="What news is there about Dapsone?">
-<strong>Dapsone</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Dapsone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Dapsone with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pneumocystosis (99.7%)</li>
+<li>malaria (98.3%)</li>
+<li>familial acanthosis nigricans (97.8%)</li>
+<li>urticaria, familial localized heat (97.7%)</li>
+<li>van den Bosch syndrome (97.6%)</li>
+<li>Tietz syndrome (97.5%)</li>
+<li>aplasia cutis-myopia syndrome (97.5%)</li>
+<li>familial pityriasis rubra pilaris (97.4%)</li>
+<li>pseudoxanthoma elasticum-like skin manifestations with retinitis pigmentosa (97.3%)</li>
+<li>anhidrosis, familial generalized, with abnormal or absent sweat glands (97.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dapsone/' | relative_url }}">View full drug report →</a></p>
 </div>

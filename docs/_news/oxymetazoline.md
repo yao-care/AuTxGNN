@@ -3,7 +3,7 @@ layout: default
 title: "Oxymetazoline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Oxymetazoline. Original indication: . 0 predicted indications."
+description: "Health news related to Oxymetazoline. Original indication: . 10 predicted indications."
 permalink: /news/oxymetazoline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/oxymetazoline/
 ---
 
 <p class="key-answer" data-question="What news is there about Oxymetazoline?">
-<strong>Oxymetazoline</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Oxymetazoline</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Oxymetazoline with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>nasal cavity disease (100.0%)</li>
+<li>acute laryngopharyngitis (100.0%)</li>
+<li>headache disorder (99.0%)</li>
+<li>trigeminal autonomic cephalalgia (99.0%)</li>
+<li>allergic urticaria (98.9%)</li>
+<li>faucial diphtheria (98.1%)</li>
+<li>papillary conjunctivitis (98.1%)</li>
+<li>cervical disc degenerative disorder (98.0%)</li>
+<li>nasopharyngitis (98.0%)</li>
+<li>massive neonatal aspiration syndrome (97.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/oxymetazoline/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Talazoparib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Talazoparib. Original indication: . 0 predicted indications."
+description: "Health news related to Talazoparib. Original indication: . 10 predicted indications."
 permalink: /news/talazoparib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/talazoparib/
 ---
 
 <p class="key-answer" data-question="What news is there about Talazoparib?">
-<strong>Talazoparib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Talazoparib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Talazoparib with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>HER2 positive breast carcinoma (99.0%)</li>
+<li>HIV infectious disease (98.5%)</li>
+<li>progesterone-receptor negative breast cancer (98.3%)</li>
+<li>progesterone-receptor positive breast cancer (98.3%)</li>
+<li>normal breast-like subtype of breast carcinoma (98.3%)</li>
+<li>breast tumor luminal A or B (98.3%)</li>
+<li>multiple endocrine neoplasia (98.3%)</li>
+<li>primary release disorder of platelets (98.1%)</li>
+<li>feline acquired immunodeficiency syndrome (98.1%)</li>
+<li>simian immunodeficiency virus infection (98.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/talazoparib/' | relative_url }}">View full drug report →</a></p>
 </div>

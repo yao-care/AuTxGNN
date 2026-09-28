@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Methotrexate with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Pulmonary blastoma | 99.45% | L5 | S0 | Hold (99.0%)</li>
-<li>Primary pulmonary lymphoma | 99.45% | L4 | S1 | Research Question (99.0%)</li>
-<li>Small cell lung carcinoma | 99.43% | L2 | S1 | Research Question (99.0%)</li>
-<li>Well-differentiated fetal adenocarcinoma of the lung | 99.42% | L5 | S0 | Hold (99.0%)</li>
-<li>Hodgkin's lymphoma | 99.32% | L2 | S2 | Research Question (99.0%)</li>
-<li>Rhabdomyosarcoma (disease) | 99.25% | L3 | S1 | Research Question (99.0%)</li>
-<li>Pregerminal-centre CLL/SLL | 99.23% | L5 | S0 | Hold (99.0%)</li>
-<li>CLL/SLL with IGHV somatic hypermutation | 99.23% | L5 | S0 | Hold (99.0%)</li>
-<li>Parameningeal embryonal rhabdomyosarcoma | 99.21% | L5 | S0 | Hold (99.0%)</li>
-<li>Botryoid-type embryonal rhabdomyosarcoma of the vagina | 99.21% | L5 | S0 | Hold (99.0%)</li>
+<li>pulmonary blastoma (99.5%)</li>
+<li>primary pulmonary lymphoma (99.5%)</li>
+<li>small cell lung carcinoma (99.4%)</li>
+<li>well-differentiated fetal adenocarcinoma of the lung (99.4%)</li>
+<li>Hodgkins lymphoma (99.3%)</li>
+<li>rhabdomyosarcoma (disease) (99.2%)</li>
+<li>pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (99.2%)</li>
+<li>chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (99.2%)</li>
+<li>parameningeal embryonal rhabdomyosarcoma (99.2%)</li>
+<li>botryoid-type embryonal rhabdomyosarcoma of the vagina (99.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/methotrexate/' | relative_url }}">View full drug report →</a></p>

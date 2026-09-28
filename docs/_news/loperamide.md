@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Loperamide with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Acute contagious conjunctivitis | 99.97% | L5 | Hold | Likely embedding artefact (99.0%)</li>
-<li>Amebic dysentery | 99.95% | L4 | Hold | Literature suggests harm risk (toxic megacolon), not benefit (99.0%)</li>
-<li>Conjunctivitis | 99.87% | L5 | Hold | Trials found are for azithromycin/trachoma, unrelated to loperamide (99.0%)</li>
-<li>Gastroduodenitis | 99.77% | L3 | Research Question | Single 1986 cohort study; symptomatic-relief hypothesis only (99.0%)</li>
-<li>Pseudomembranous conjunctivitis | 99.65% | L5 | Hold | Conjunctivitis-cluster noise (99.0%)</li>
-<li>Parasitic conjunctivitis | 99.65% | L5 | Hold | Conjunctivitis-cluster noise (99.0%)</li>
-<li>Conjunctival folliculosis | 99.65% | L5 | Hold | Conjunctivitis-cluster noise (99.0%)</li>
-<li>Serous conjunctivitis (except viral) | 99.65% | L5 | Hold | Conjunctivitis-cluster noise (99.0%)</li>
-<li>Chronic follicular conjunctivitis | 99.65% | L5 | Hold | Conjunctivitis-cluster noise (99.0%)</li>
-<li>Angelucci syndrome | 99.63% | L5 | Hold | No physiological pathway overlap (99.0%)</li>
+<li>acute contagious conjunctivitis (100.0%)</li>
+<li>amebic dysentery (100.0%)</li>
+<li>conjunctivitis (99.9%)</li>
+<li>gastroduodenitis (99.8%)</li>
+<li>pseudomembranous conjunctivitis (99.7%)</li>
+<li>parasitic conjunctivitis (99.7%)</li>
+<li>conjunctival folliculosis (99.7%)</li>
+<li>serous conjunctivitis except viral (99.7%)</li>
+<li>chronic follicular conjunctivitis (99.7%)</li>
+<li>Angelucci syndrome (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/loperamide/' | relative_url }}">View full drug report →</a></p>

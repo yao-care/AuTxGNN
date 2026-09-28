@@ -3,7 +3,7 @@ layout: default
 title: "Benralizumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Benralizumab. Original indication: However, the clinical evidence tells a more comple.... 0 predicted indications."
+description: "Health news related to Benralizumab. Original indication: However, the clinical evidence tells a more comple.... 10 predicted indications."
 permalink: /news/benralizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/benralizumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Benralizumab?">
-<strong>Benralizumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Benralizumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,6 +26,18 @@ This page combines the AI-predicted indications for Benralizumab with the latest
 <ul>
 <li><strong>Original indication</strong>: However, the clinical evidence tells a more complex story. The HILLIER Phase 2 RCT (NCT04605094, n=194) was terminated early due to lack of primary efficacy, and the published results in JEADV (PMID...</li>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>thrombocytopenia due to immune destruction (99.3%)</li>
+<li>dermatitis (99.2%)</li>
+<li>acne keloid (99.1%)</li>
+<li>neonatal dermatomyositis (99.0%)</li>
+<li>amyopathic dermatomyositis (99.0%)</li>
+<li>acrodermatitis chronica atrophicans (98.9%)</li>
+<li>secondary interstitial lung disease specific to childhood associated with a connective tissue disease (98.9%)</li>
+<li>hydroa vacciniforme, familial (98.9%)</li>
+<li>autoimmune thrombocytopenic (98.4%)</li>
+<li>Evans syndrome (98.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/benralizumab/' | relative_url }}">View full drug report →</a></p>
 </div>

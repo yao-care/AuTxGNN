@@ -3,7 +3,7 @@ layout: default
 title: "Ixekizumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ixekizumab. Original indication: . 0 predicted indications."
+description: "Health news related to Ixekizumab. Original indication: . 10 predicted indications."
 permalink: /news/ixekizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ixekizumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Ixekizumab?">
-<strong>Ixekizumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ixekizumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Ixekizumab with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>rheumatoid vasculitis (97.5%)</li>
+<li>acute lymphoblastic/lymphocytic leukemia (97.3%)</li>
+<li>pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (97.1%)</li>
+<li>chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (97.1%)</li>
+<li>hypermobility of coccyx (96.9%)</li>
+<li>inflammatory spondylopathy (96.8%)</li>
+<li>Kummell disease (96.7%)</li>
+<li>polyarticular juvenile rheumatoid arthritis (96.4%)</li>
+<li>vertebral disease (95.1%)</li>
+<li>fibromatosis, gingival (92.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ixekizumab/' | relative_url }}">View full drug report →</a></p>
 </div>

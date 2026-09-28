@@ -3,7 +3,7 @@ layout: default
 title: "Apalutamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Apalutamide. Original indication: . 0 predicted indications."
+description: "Health news related to Apalutamide. Original indication: . 10 predicted indications."
 permalink: /news/apalutamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/apalutamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Apalutamide?">
-<strong>Apalutamide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Apalutamide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Apalutamide with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>prostate cancer/brain cancer susceptibility (98.4%)</li>
+<li>prostate leiomyoma (97.8%)</li>
+<li>Brenner tumor (97.6%)</li>
+<li>benign reproductive system neoplasm (97.5%)</li>
+<li>fibroma of prostate (97.5%)</li>
+<li>prostate phyllodes tumor (97.5%)</li>
+<li>benign neoplasm of prostate (97.5%)</li>
+<li>male reproductive organ cancer (97.4%)</li>
+<li>benign prostate phyllodes tumor (97.2%)</li>
+<li>palmoplantar keratoderma-sclerodactyly syndrome (97.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/apalutamide/' | relative_url }}">View full drug report →</a></p>
 </div>

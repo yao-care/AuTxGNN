@@ -3,7 +3,7 @@ layout: default
 title: "Carbamide peroxide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Carbamide peroxide. Original indication: . 0 predicted indications."
+description: "Health news related to Carbamide peroxide. Original indication: . 10 predicted indications."
 permalink: /news/carbamide_peroxide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/carbamide_peroxide/
 ---
 
 <p class="key-answer" data-question="What news is there about Carbamide peroxide?">
-<strong>Carbamide peroxide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Carbamide peroxide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Carbamide peroxide with the 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>sinusitis (94.2%)</li>
+<li>paratyphoid fever (93.7%)</li>
+<li>bacterial arthritis (93.6%)</li>
+<li>chronic ethmoidal sinusitis (93.5%)</li>
+<li>chronic rhinosinusitis (93.3%)</li>
+<li>paranasal sinus neoplasm (disease) (93.2%)</li>
+<li>peritonitis (93.2%)</li>
+<li>relapsing fever (92.5%)</li>
+<li>meningococcal infection (92.0%)</li>
+<li>infectious otitis media (91.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/carbamide_peroxide/' | relative_url }}">View full drug report →</a></p>
 </div>

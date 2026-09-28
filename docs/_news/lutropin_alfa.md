@@ -3,7 +3,7 @@ layout: default
 title: "Lutropin alfa News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lutropin alfa. Original indication: . 0 predicted indications."
+description: "Health news related to Lutropin alfa. Original indication: . 10 predicted indications."
 permalink: /news/lutropin_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lutropin_alfa/
 ---
 
 <p class="key-answer" data-question="What news is there about Lutropin alfa?">
-<strong>Lutropin alfa</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Lutropin alfa</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Lutropin alfa with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>postural orthostatic tachycardia syndrome (97.0%)</li>
+<li>peptic esophagitis (97.0%)</li>
+<li>trichotillomania (96.3%)</li>
+<li>Raynaud disease (95.7%)</li>
+<li>duodenal ulcer (disease) (95.6%)</li>
+<li>Tourette syndrome (95.2%)</li>
+<li>esophageal disease (94.9%)</li>
+<li>sinoatrial block (94.9%)</li>
+<li>multiple endocrine neoplasia (94.9%)</li>
+<li>duodenogastric reflux (94.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lutropin_alfa/' | relative_url }}">View full drug report →</a></p>
 </div>

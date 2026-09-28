@@ -3,7 +3,7 @@ layout: default
 title: "Oxaliplatin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Oxaliplatin. Original indication: . 0 predicted indications."
+description: "Health news related to Oxaliplatin. Original indication: . 10 predicted indications."
 permalink: /news/oxaliplatin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/oxaliplatin/
 ---
 
 <p class="key-answer" data-question="What news is there about Oxaliplatin?">
-<strong>Oxaliplatin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Oxaliplatin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Oxaliplatin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>malignant pleural mesothelioma (99.7%)</li>
+<li>malignant epithelioid mesothelioma (99.5%)</li>
+<li>sarcomatoid mesothelioma (99.4%)</li>
+<li>malignant visceral pleura tumor (99.3%)</li>
+<li>female breast carcinoma (98.5%)</li>
+<li>botryoid-type embryonal rhabdomyosarcoma of the vagina (98.3%)</li>
+<li>parameningeal embryonal rhabdomyosarcoma (98.2%)</li>
+<li>extrahepatic bile duct rhabdomyosarcoma (98.2%)</li>
+<li>embryonal extrahepatic bile duct rhabdomyosarcoma (98.2%)</li>
+<li>prostate embryonal rhabdomyosarcoma (98.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/oxaliplatin/' | relative_url }}">View full drug report →</a></p>
 </div>

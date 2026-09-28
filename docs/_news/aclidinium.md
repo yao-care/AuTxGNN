@@ -3,7 +3,7 @@ layout: default
 title: "Aclidinium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Aclidinium. Original indication: . 0 predicted indications."
+description: "Health news related to Aclidinium. Original indication: . 10 predicted indications."
 permalink: /news/aclidinium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/aclidinium/
 ---
 
 <p class="key-answer" data-question="What news is there about Aclidinium?">
-<strong>Aclidinium</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Aclidinium</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Aclidinium with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>open-angle glaucoma (89.4%)</li>
+<li>primary hereditary glaucoma (89.0%)</li>
+<li>migraine disorder (86.2%)</li>
+<li>migraine with brainstem aura (85.4%)</li>
+<li>irritable bowel syndrome (84.6%)</li>
+<li>headache disorder (83.5%)</li>
+<li>trigeminal autonomic cephalalgia (82.7%)</li>
+<li>glaucoma 1, open angle (79.6%)</li>
+<li>gastroduodenitis (79.5%)</li>
+<li>dermatitis (79.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/aclidinium/' | relative_url }}">View full drug report →</a></p>
 </div>

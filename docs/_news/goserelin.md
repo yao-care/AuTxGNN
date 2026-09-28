@@ -3,7 +3,7 @@ layout: default
 title: "Goserelin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Goserelin. Original indication: . 0 predicted indications."
+description: "Health news related to Goserelin. Original indication: . 10 predicted indications."
 permalink: /news/goserelin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/goserelin/
 ---
 
 <p class="key-answer" data-question="What news is there about Goserelin?">
-<strong>Goserelin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Goserelin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Goserelin with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>amenorrhea (disease) (100.0%)</li>
+<li>renal hypoplasia (disease) (99.1%)</li>
+<li>renal hypoplasia, bilateral (99.1%)</li>
+<li>cervix endometriosis (98.8%)</li>
+<li>gelatinous drop-like corneal dystrophy (98.7%)</li>
+<li>duodenogastric reflux (98.5%)</li>
+<li>endometriosis in cutaneous scar (98.5%)</li>
+<li>endometriosis of rectovaginal septum and vagina (98.5%)</li>
+<li>duodenal obstruction (98.5%)</li>
+<li>duodenal ulcer (disease) (98.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/goserelin/' | relative_url }}">View full drug report →</a></p>
 </div>

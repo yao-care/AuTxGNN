@@ -3,7 +3,7 @@ layout: default
 title: "Dolutegravir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dolutegravir. Original indication: . 2 predicted indications."
+description: "Health news related to Dolutegravir. Original indication: . 12 predicted indications."
 permalink: /news/dolutegravir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dolutegravir/
 ---
 
 <p class="key-answer" data-question="What news is there about Dolutegravir?">
-<strong>Dolutegravir</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Dolutegravir</strong> currently has <strong>0 news articles</strong>, with 12 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,9 +25,19 @@ This page combines the AI-predicted indications for Dolutegravir with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
+<li><strong>Predicted indications (12)</strong>:<ul>
 <li>AIDS Related Complex (ARC) (5.0%)</li>
 <li>Congenital / Perinatal HIV (6.0%)</li>
+<li>simian immunodeficiency virus infection (99.8%)</li>
+<li>feline acquired immunodeficiency syndrome (99.8%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.8%)</li>
+<li>chronic hepatitis C virus infection (96.4%)</li>
+<li>AIDS related complex (96.4%)</li>
+<li>congenital human immunodeficiency virus (96.4%)</li>
+<li>hepatitis C virus infection (93.7%)</li>
+<li>obsolete familial combined hyperlipidemia (93.4%)</li>
+<li>hepatitis E virus infection (92.5%)</li>
+<li>hepatitis A virus infection (92.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dolutegravir/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Nicotine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nicotine. Original indication: . 0 predicted indications."
+description: "Health news related to Nicotine. Original indication: . 10 predicted indications."
 permalink: /news/nicotine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nicotine/
 ---
 
 <p class="key-answer" data-question="What news is there about Nicotine?">
-<strong>Nicotine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Nicotine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Nicotine with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>exercise-induced malignant hyperthermia (83.9%)</li>
+<li>migraine with brainstem aura (82.7%)</li>
+<li>oppositional defiant disorder (disease) (82.1%)</li>
+<li>migraine disorder (81.2%)</li>
+<li>blepharospasm (81.1%)</li>
+<li>46,XY disorder of sex development due to testicular steroidogenesis defect (80.2%)</li>
+<li>transverse vaginal septum (78.3%)</li>
+<li>longitudinal vaginal septum (78.3%)</li>
+<li>communication disorder (78.0%)</li>
+<li>developmental disorder of mental health (77.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nicotine/' | relative_url }}">View full drug report →</a></p>
 </div>

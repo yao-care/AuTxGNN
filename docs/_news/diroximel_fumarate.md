@@ -3,7 +3,7 @@ layout: default
 title: "Diroximel fumarate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Diroximel fumarate. Original indication: . 0 predicted indications."
+description: "Health news related to Diroximel fumarate. Original indication: . 10 predicted indications."
 permalink: /news/diroximel_fumarate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/diroximel_fumarate/
 ---
 
 <p class="key-answer" data-question="What news is there about Diroximel fumarate?">
-<strong>Diroximel fumarate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Diroximel fumarate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Diroximel fumarate with the 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>diabetic cataract (100.0%)</li>
+<li>diabetic retinopathy (100.0%)</li>
+<li>severe nonproliferative diabetic retinopathy (100.0%)</li>
+<li>tetanic cataract (100.0%)</li>
+<li>mature cataract (100.0%)</li>
+<li>nuclear senile cataract (100.0%)</li>
+<li>diabetes mellitus type 2 associated cataract (100.0%)</li>
+<li>cortical cataract (100.0%)</li>
+<li>immature cataract (100.0%)</li>
+<li>craniostenosis cataract (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/diroximel_fumarate/' | relative_url }}">View full drug report →</a></p>
 </div>

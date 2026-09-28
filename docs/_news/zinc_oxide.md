@@ -3,7 +3,7 @@ layout: default
 title: "Zinc oxide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Zinc oxide. Original indication: . 0 predicted indications."
+description: "Health news related to Zinc oxide. Original indication: . 10 predicted indications."
 permalink: /news/zinc_oxide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/zinc_oxide/
 ---
 
 <p class="key-answer" data-question="What news is there about Zinc oxide?">
-<strong>Zinc oxide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Zinc oxide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Zinc oxide with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>acne (disease) (99.9%)</li>
+<li>anorectal stricture (99.5%)</li>
+<li>anal polyp (99.3%)</li>
+<li>papillary conjunctivitis (99.1%)</li>
+<li>postinfectious vasculitis (99.0%)</li>
+<li>post-bacterial disorder (99.0%)</li>
+<li>Chagas cardiomyopathy (99.0%)</li>
+<li>infection-related hemolytic uremic syndrome (99.0%)</li>
+<li>post-infectious syndrome (99.0%)</li>
+<li>otitis externa (98.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/zinc_oxide/' | relative_url }}">View full drug report →</a></p>
 </div>

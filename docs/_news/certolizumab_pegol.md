@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Certolizumab pegol with the 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Rheumatoid vasculitis | 99.78% | L4 | Hold (safety contradiction) (99.0%)</li>
-<li>Hypermobility of coccyx | 99.75% | L5 | Hold (no biological plausibility) (99.0%)</li>
-<li>Inflammatory spondylopathy | 99.73% | L1 | Proceed with Guardrails (99.0%)</li>
-<li>Kummell disease | 99.70% | L5 | Hold (no biological plausibility) (99.0%)</li>
-<li>Polyarticular juvenile rheumatoid arthritis | 99.69% | L2 | Research Question (99.0%)</li>
-<li>Vertebral disease | 99.26% | L1 | Proceed with Guardrails (99.0%)</li>
-<li>Mendelian susceptibility to mycobacterial disease (IL12B deficiency) | 96.85% | L5 | Hold (mechanistic contraindication) (99.0%)</li>
-<li>Brachydactyly-syndactyly syndrome | 96.01% | L5 | Hold (no biological plausibility) (99.0%)</li>
-<li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 95.72% | L5 | Hold (no biological plausibility) (99.0%)</li>
-<li>Tenosynovitis | 95.69% | L5 | Research Question (99.0%)</li>
+<li>rheumatoid vasculitis (99.8%)</li>
+<li>hypermobility of coccyx (99.8%)</li>
+<li>inflammatory spondylopathy (99.7%)</li>
+<li>Kummell disease (99.7%)</li>
+<li>polyarticular juvenile rheumatoid arthritis (99.7%)</li>
+<li>vertebral disease (99.3%)</li>
+<li>mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency (96.8%)</li>
+<li>brachydactyly-syndactyly syndrome (96.0%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (95.7%)</li>
+<li>tenosynovitis (95.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/certolizumab_pegol/' | relative_url }}">View full drug report →</a></p>

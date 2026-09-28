@@ -3,7 +3,7 @@ layout: default
 title: "Amitriptyline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Amitriptyline. Original indication: . 0 predicted indications."
+description: "Health news related to Amitriptyline. Original indication: . 10 predicted indications."
 permalink: /news/amitriptyline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/amitriptyline/
 ---
 
 <p class="key-answer" data-question="What news is there about Amitriptyline?">
-<strong>Amitriptyline</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Amitriptyline</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Amitriptyline with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>benign paroxysmal torticollis of infancy (97.7%)</li>
+<li>endogenous depression (97.7%)</li>
+<li>agoraphobia (97.3%)</li>
+<li>major depressive disorder (96.8%)</li>
+<li>Ohdo syndrome and variants (96.0%)</li>
+<li>melancholia (95.5%)</li>
+<li>neurotic depression (95.5%)</li>
+<li>phobic disorder (94.7%)</li>
+<li>unipolar depression (94.6%)</li>
+<li>blepharophimosis - intellectual disability syndrome, Ohdo type (94.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/amitriptyline/' | relative_url }}">View full drug report →</a></p>
 </div>

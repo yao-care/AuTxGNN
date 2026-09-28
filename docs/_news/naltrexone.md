@@ -3,7 +3,7 @@ layout: default
 title: "Naltrexone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Naltrexone. Original indication: . 0 predicted indications."
+description: "Health news related to Naltrexone. Original indication: . 10 predicted indications."
 permalink: /news/naltrexone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/naltrexone/
 ---
 
 <p class="key-answer" data-question="What news is there about Naltrexone?">
-<strong>Naltrexone</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Naltrexone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Naltrexone with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hypervitaminosis (98.7%)</li>
+<li>proximal 16p11.2 microdeletion syndrome (98.1%)</li>
+<li>obsolete hypertelorism (disease) (95.6%)</li>
+<li>frontorhiny (93.2%)</li>
+<li>restless legs syndrome (92.2%)</li>
+<li>progressive encephalopathy with leukodystrophy due to DECR deficiency (72.9%)</li>
+<li>mitral valve prolapse, myxomatous (62.6%)</li>
+<li>attention deficit hyperactivity disorder, inattentive type (62.2%)</li>
+<li>triphalangeal thumb, Nonopposable (61.8%)</li>
+<li>hypospadias 3, autosomal (61.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/naltrexone/' | relative_url }}">View full drug report →</a></p>
 </div>

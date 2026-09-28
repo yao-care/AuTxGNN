@@ -3,7 +3,7 @@ layout: default
 title: "Dabigatran News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dabigatran. Original indication: . 0 predicted indications."
+description: "Health news related to Dabigatran. Original indication: . 10 predicted indications."
 permalink: /news/dabigatran/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dabigatran/
 ---
 
 <p class="key-answer" data-question="What news is there about Dabigatran?">
-<strong>Dabigatran</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Dabigatran</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Dabigatran with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hemoglobinopathy (98.4%)</li>
+<li>myocardial infarction (98.1%)</li>
+<li>partial deletion of the short arm of chromosome 16 (97.8%)</li>
+<li>beta-thalassemia with other manifestations (97.7%)</li>
+<li>hemolytic anemia due to glucophosphate isomerase deficiency (97.6%)</li>
+<li>pyruvate kinase deficiency of red cells (97.5%)</li>
+<li>posterolateral myocardial infarction (97.5%)</li>
+<li>posteroinferior myocardial infarction (97.5%)</li>
+<li>septal myocardial infarction (97.4%)</li>
+<li>coronary thrombosis (97.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dabigatran/' | relative_url }}">View full drug report →</a></p>
 </div>

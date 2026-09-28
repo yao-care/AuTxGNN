@@ -3,7 +3,7 @@ layout: default
 title: "Methoxyflurane News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Methoxyflurane. Original indication: . 0 predicted indications."
+description: "Health news related to Methoxyflurane. Original indication: . 10 predicted indications."
 permalink: /news/methoxyflurane/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/methoxyflurane/
 ---
 
 <p class="key-answer" data-question="What news is there about Methoxyflurane?">
-<strong>Methoxyflurane</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Methoxyflurane</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Methoxyflurane with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>insomnia (disease) (98.0%)</li>
+<li>migraine disorder (98.0%)</li>
+<li>migraine with brainstem aura (97.6%)</li>
+<li>dysthymic disorder (97.2%)</li>
+<li>migraine with or without aura, susceptibility to (96.5%)</li>
+<li>atrophoderma vermiculata (95.7%)</li>
+<li>neurotic disorder (95.0%)</li>
+<li>ulerythema ophryogenesis (95.0%)</li>
+<li>anxiety disorder (94.4%)</li>
+<li>anxiety (94.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/methoxyflurane/' | relative_url }}">View full drug report →</a></p>
 </div>

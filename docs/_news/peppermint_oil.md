@@ -3,7 +3,7 @@ layout: default
 title: "Peppermint oil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Peppermint oil. Original indication: . 9 predicted indications."
+description: "Health news related to Peppermint oil. Original indication: . 10 predicted indications."
 permalink: /news/peppermint_oil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/peppermint_oil/
 ---
 
 <p class="key-answer" data-question="What news is there about Peppermint oil?">
-<strong>Peppermint oil</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Peppermint oil</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,16 +24,17 @@ This page combines the AI-predicted indications for Peppermint oil with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Leprosy | 99.80% | None | L5 | Hold — no known mechanism, judged model noise (99.0%)</li>
-<li>Pneumocystosis | 99.58% | None | L5 | Hold — no known antifungal mechanism (99.0%)</li>
-<li>Coronary Artery Disease | 99.35% | None | L5 | Hold — mechanism purely inferential (99.0%)</li>
-<li>Myocardial Ischemia | 99.26% | None | L5 | Hold — no preclinical/clinical validation (99.0%)</li>
-<li>Echinococcus granulosus Infection | 99.25% | None | L5 | Hold — no specific antiparasitic mechanism (99.0%)</li>
-<li>Polyp of Vocal Cord | 99.14% | None | L5 | Hold — no known mechanism (99.0%)</li>
-<li>Uterine Polyp | 99.14% | None | L5 | Hold — no known mechanism (99.0%)</li>
-<li>Polyp of Middle Ear | 99.14% | None | L5 | Hold — no known mechanism (99.0%)</li>
-<li>Polyp of Frontal Sinus | 99.12% | None | L5 | Hold — sensory/decongestant effect only, not curative (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>leprosy (99.8%)</li>
+<li>pneumocystosis (99.6%)</li>
+<li>coronary artery disease (99.3%)</li>
+<li>myocardial ischemia (99.3%)</li>
+<li>echinococcus granulosus infectious disease (99.2%)</li>
+<li>polyp of vocal cord (99.1%)</li>
+<li>uterine polyp (99.1%)</li>
+<li>polyp of middle ear (99.1%)</li>
+<li>cardiovascular disease (99.1%)</li>
+<li>polyp of frontal sinus (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/peppermint_oil/' | relative_url }}">View full drug report →</a></p>

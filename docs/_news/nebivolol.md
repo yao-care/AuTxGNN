@@ -3,7 +3,7 @@ layout: default
 title: "Nebivolol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nebivolol. Original indication: . 2 predicted indications."
+description: "Health news related to Nebivolol. Original indication: . 10 predicted indications."
 permalink: /news/nebivolol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nebivolol/
 ---
 
 <p class="key-answer" data-question="What news is there about Nebivolol?">
-<strong>Nebivolol</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Nebivolol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,9 +24,17 @@ This page combines the AI-predicted indications for Nebivolol with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>Chronic pulmonary heart disease (cor pulmonale) | L2 | Research Question | 4 clinical trials incl. a head-to-head Phase 4 vs. carvedilol/bisoprolol in heart failure and hypoxia (NCT00517725, NCT00924833); 18 literature entries on β-blocker safety in COPD/HF overlap (99.0%)</li>
-<li>Prinzmetal (vasospastic) angina | L2 | Research Question | Direct Phase 4 completed trial "The Effect of Nebivolol in Hypertensive Patients With Coronary Arterial Spasm" (NCT03930433, n=51) (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>malignant renovascular hypertension (99.4%)</li>
+<li>malignant hypertensive renal disease (99.4%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.4%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (99.4%)</li>
+<li>Braddock syndrome (99.1%)</li>
+<li>chronic pulmonary heart disease (91.8%)</li>
+<li>Prinzmetal angina (87.5%)</li>
+<li>ocular tuberculosis (65.5%)</li>
+<li>congenital temporomandibular joint ankylosis (62.9%)</li>
+<li>polydipsia (62.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/nebivolol/' | relative_url }}">View full drug report →</a></p>

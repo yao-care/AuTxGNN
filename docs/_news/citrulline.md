@@ -3,7 +3,7 @@ layout: default
 title: "Citrulline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Citrulline. Original indication: . 0 predicted indications."
+description: "Health news related to Citrulline. Original indication: . 10 predicted indications."
 permalink: /news/citrulline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/citrulline/
 ---
 
 <p class="key-answer" data-question="What news is there about Citrulline?">
-<strong>Citrulline</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Citrulline</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Citrulline with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>multiple endocrine neoplasia (97.0%)</li>
+<li>mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (83.9%)</li>
+<li>dyspepsia (80.7%)</li>
+<li>benign mammary dysplasia (74.5%)</li>
+<li>exocrine pancreatic insufficiency (73.6%)</li>
+<li>pregnancy associated osteoporosis (71.5%)</li>
+<li>breast fibrocystic disease (71.5%)</li>
+<li>apocrine adenosis of breast (70.0%)</li>
+<li>blunt duct adenosis of breast (70.0%)</li>
+<li>succinyl-CoA:3-ketoacid CoA transferase deficiency (68.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/citrulline/' | relative_url }}">View full drug report →</a></p>
 </div>

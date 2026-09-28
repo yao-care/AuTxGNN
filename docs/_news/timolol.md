@@ -3,7 +3,7 @@ layout: default
 title: "Timolol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Timolol. Original indication: . 0 predicted indications."
+description: "Health news related to Timolol. Original indication: . 10 predicted indications."
 permalink: /news/timolol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/timolol/
 ---
 
 <p class="key-answer" data-question="What news is there about Timolol?">
-<strong>Timolol</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Timolol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Timolol with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>primary hereditary glaucoma (98.6%)</li>
+<li>closed-angle glaucoma (97.2%)</li>
+<li>malignant hypertensive renal disease (94.5%)</li>
+<li>malignant renovascular hypertension (94.5%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (93.7%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (93.7%)</li>
+<li>Braddock syndrome (92.6%)</li>
+<li>chronic pulmonary heart disease (87.8%)</li>
+<li>glaucoma 1, open angle (86.5%)</li>
+<li>angle-closure glaucoma (85.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/timolol/' | relative_url }}">View full drug report →</a></p>
 </div>

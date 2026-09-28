@@ -3,7 +3,7 @@ layout: default
 title: "Pilocarpine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pilocarpine. Original indication: . 0 predicted indications."
+description: "Health news related to Pilocarpine. Original indication: . 10 predicted indications."
 permalink: /news/pilocarpine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pilocarpine/
 ---
 
 <p class="key-answer" data-question="What news is there about Pilocarpine?">
-<strong>Pilocarpine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Pilocarpine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Pilocarpine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>primary hereditary glaucoma (99.8%)</li>
+<li>oral candidiasis (98.9%)</li>
+<li>glaucoma 1, open angle (98.8%)</li>
+<li>open angle glaucoma (98.6%)</li>
+<li>osteoradionecrosis of the mandible (98.6%)</li>
+<li>commissural lip fistula (98.6%)</li>
+<li>oral leukoedema (98.6%)</li>
+<li>burning mouth syndrome (98.6%)</li>
+<li>chronic tic disorder (96.9%)</li>
+<li>extrapyramidal and movement disease (96.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/pilocarpine/' | relative_url }}">View full drug report →</a></p>
 </div>

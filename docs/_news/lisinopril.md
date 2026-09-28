@@ -3,7 +3,7 @@ layout: default
 title: "Lisinopril News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lisinopril. Original indication: . 0 predicted indications."
+description: "Health news related to Lisinopril. Original indication: . 10 predicted indications."
 permalink: /news/lisinopril/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lisinopril/
 ---
 
 <p class="key-answer" data-question="What news is there about Lisinopril?">
-<strong>Lisinopril</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Lisinopril</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Lisinopril with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>posterolateral myocardial infarction (99.9%)</li>
+<li>posteroinferior myocardial infarction (99.9%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.9%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (99.9%)</li>
+<li>malignant hypertensive renal disease (99.9%)</li>
+<li>malignant renovascular hypertension (99.9%)</li>
+<li>septal myocardial infarction (99.9%)</li>
+<li>Braddock syndrome (99.9%)</li>
+<li>chronic pulmonary heart disease (99.7%)</li>
+<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (99.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lisinopril/' | relative_url }}">View full drug report →</a></p>
 </div>

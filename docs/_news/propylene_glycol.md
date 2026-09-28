@@ -3,7 +3,7 @@ layout: default
 title: "Propylene glycol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Propylene glycol. Original indication: . 0 predicted indications."
+description: "Health news related to Propylene glycol. Original indication: . 10 predicted indications."
 permalink: /news/propylene_glycol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/propylene_glycol/
 ---
 
 <p class="key-answer" data-question="What news is there about Propylene glycol?">
-<strong>Propylene glycol</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Propylene glycol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Propylene glycol with the la
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>bronchitis (99.9%)</li>
+<li>severe nonproliferative diabetic retinopathy (99.8%)</li>
+<li>diabetic retinopathy (99.7%)</li>
+<li>nuclear senile cataract (99.6%)</li>
+<li>cortical cataract (99.6%)</li>
+<li>senile cataract (99.5%)</li>
+<li>diabetic cataract (99.5%)</li>
+<li>immature cataract (99.5%)</li>
+<li>mature cataract (99.5%)</li>
+<li>tetanic cataract (99.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/propylene_glycol/' | relative_url }}">View full drug report →</a></p>
 </div>

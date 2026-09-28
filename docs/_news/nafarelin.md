@@ -3,7 +3,7 @@ layout: default
 title: "Nafarelin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nafarelin. Original indication: . 0 predicted indications."
+description: "Health news related to Nafarelin. Original indication: . 10 predicted indications."
 permalink: /news/nafarelin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nafarelin/
 ---
 
 <p class="key-answer" data-question="What news is there about Nafarelin?">
-<strong>Nafarelin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Nafarelin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Nafarelin with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Ambras type hypertrichosis universalis congenita (99.9%)</li>
+<li>malformation syndrome with odontal and/or periodontal component (99.8%)</li>
+<li>hypertrichosis (disease) (99.8%)</li>
+<li>pelvic organ prolapse (99.8%)</li>
+<li>syndrome with a Dandy-Walker malformation as major feature (99.8%)</li>
+<li>physiological sexual disorder (99.8%)</li>
+<li>female genital tuberculosis (99.8%)</li>
+<li>isolated genetic hair shaft abnormality (99.7%)</li>
+<li>centra precocious puberty 1 (99.7%)</li>
+<li>dysplasia of cervix (99.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nafarelin/' | relative_url }}">View full drug report →</a></p>
 </div>

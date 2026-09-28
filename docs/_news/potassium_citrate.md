@@ -3,7 +3,7 @@ layout: default
 title: "Potassium citrate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Potassium citrate. Original indication: . 0 predicted indications."
+description: "Health news related to Potassium citrate. Original indication: . 10 predicted indications."
 permalink: /news/potassium_citrate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/potassium_citrate/
 ---
 
 <p class="key-answer" data-question="What news is there about Potassium citrate?">
-<strong>Potassium citrate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Potassium citrate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Potassium citrate with the l
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>familial visceral myopathy (100.0%)</li>
+<li>mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (99.9%)</li>
+<li>Pendred syndrome (99.9%)</li>
+<li>nephrolithiasis (99.8%)</li>
+<li>cystinosis (99.7%)</li>
+<li>hypermanganesemia with dystonia (99.7%)</li>
+<li>nephrolithiasis susceptibility caused by SLC26A1 (99.7%)</li>
+<li>autosomal recessive nonsyndromic deafness (99.7%)</li>
+<li>exocrine pancreatic insufficiency (99.7%)</li>
+<li>leukocyte adhesion deficiency (99.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/potassium_citrate/' | relative_url }}">View full drug report →</a></p>
 </div>

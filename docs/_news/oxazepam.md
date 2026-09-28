@@ -3,7 +3,7 @@ layout: default
 title: "Oxazepam News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Oxazepam. Original indication: . 0 predicted indications."
+description: "Health news related to Oxazepam. Original indication: . 10 predicted indications."
 permalink: /news/oxazepam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/oxazepam/
 ---
 
 <p class="key-answer" data-question="What news is there about Oxazepam?">
-<strong>Oxazepam</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Oxazepam</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Oxazepam with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>insomnia (disease) (99.9%)</li>
+<li>sleep disorder, initiating and maintaining sleep (96.3%)</li>
+<li>cauda equina syndrome (93.4%)</li>
+<li>barbiturate abuse (92.7%)</li>
+<li>hallucinogen abuse (92.7%)</li>
+<li>antidepressant type abuse (92.7%)</li>
+<li>alcohol withdrawal (92.2%)</li>
+<li>myofascial pain syndrome (87.6%)</li>
+<li>acute encephalopathy with biphasic seizures and late reduced diffusion (85.1%)</li>
+<li>phencyclidine abuse (85.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/oxazepam/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Inotuzumab ozogamicin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Inotuzumab ozogamicin. Original indication: . 0 predicted indications."
+description: "Health news related to Inotuzumab ozogamicin. Original indication: . 10 predicted indications."
 permalink: /news/inotuzumab_ozogamicin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/inotuzumab_ozogamicin/
 ---
 
 <p class="key-answer" data-question="What news is there about Inotuzumab ozogamicin?">
-<strong>Inotuzumab ozogamicin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Inotuzumab ozogamicin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Inotuzumab ozogamicin with t
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>drug-induced osteoporosis (98.2%)</li>
+<li>HER2 positive breast carcinoma (97.8%)</li>
+<li>progesterone-receptor positive breast cancer (96.8%)</li>
+<li>normal breast-like subtype of breast carcinoma (96.8%)</li>
+<li>breast tumor luminal A or B (96.8%)</li>
+<li>progesterone-receptor negative breast cancer (96.7%)</li>
+<li>severe nonproliferative diabetic retinopathy (92.0%)</li>
+<li>primary release disorder of platelets (91.5%)</li>
+<li>pseudo-von Willebrand disease (89.8%)</li>
+<li>infectious bovine rhinotracheitis (89.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/inotuzumab_ozogamicin/' | relative_url }}">View full drug report →</a></p>
 </div>

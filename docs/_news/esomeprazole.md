@@ -3,7 +3,7 @@ layout: default
 title: "Esomeprazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Esomeprazole. Original indication: . 0 predicted indications."
+description: "Health news related to Esomeprazole. Original indication: . 10 predicted indications."
 permalink: /news/esomeprazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/esomeprazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Esomeprazole?">
-<strong>Esomeprazole</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Esomeprazole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Esomeprazole with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>duodenogastric reflux (99.5%)</li>
+<li>duodenal obstruction (99.5%)</li>
+<li>duodenal ulcer (disease) (99.4%)</li>
+<li>active peptic ulcer disease (99.0%)</li>
+<li>abnormality of glucagon secretion (99.0%)</li>
+<li>gastrojejunal ulcer (98.9%)</li>
+<li>peptic ulcer perforation (98.9%)</li>
+<li>Smouldering systemic mastocytosis (97.0%)</li>
+<li>multiple endocrine neoplasia (96.7%)</li>
+<li>acne (disease) (96.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/esomeprazole/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Brentuximab vedotin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Brentuximab vedotin. Original indication: . 0 predicted indications."
+description: "Health news related to Brentuximab vedotin. Original indication: . 10 predicted indications."
 permalink: /news/brentuximab_vedotin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/brentuximab_vedotin/
 ---
 
 <p class="key-answer" data-question="What news is there about Brentuximab vedotin?">
-<strong>Brentuximab vedotin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Brentuximab vedotin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Brentuximab vedotin with the
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>follicular lymphoma (99.9%)</li>
+<li>myeloid leukemia (99.8%)</li>
+<li>acute lymphoblastic/lymphocytic leukemia (99.7%)</li>
+<li>B-cell neoplasm (99.6%)</li>
+<li>chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (99.5%)</li>
+<li>pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (99.5%)</li>
+<li>Richter syndrome (99.4%)</li>
+<li>mantle cell lymphoma (99.3%)</li>
+<li>ganglioneuroblastoma (disease) (99.2%)</li>
+<li>vertebral anomalies and variable endocrine and T-cell dysfunction (99.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/brentuximab_vedotin/' | relative_url }}">View full drug report →</a></p>
 </div>

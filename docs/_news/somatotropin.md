@@ -3,7 +3,7 @@ layout: default
 title: "Somatotropin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Somatotropin. Original indication: . 0 predicted indications."
+description: "Health news related to Somatotropin. Original indication: . 10 predicted indications."
 permalink: /news/somatotropin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/somatotropin/
 ---
 
 <p class="key-answer" data-question="What news is there about Somatotropin?">
-<strong>Somatotropin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Somatotropin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Somatotropin with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>middle ear neuroendocrine tumor (96.8%)</li>
+<li>malignant cutaneous granular cell skin tumor (96.6%)</li>
+<li>ectomesenchymoma (96.5%)</li>
+<li>human herpesvirus 8-related tumor (96.4%)</li>
+<li>mixed gonadal dysgenesis (95.6%)</li>
+<li>mosaic monosomy X (95.1%)</li>
+<li>Turner syndrome due to structural X chromosome anomalies (95.0%)</li>
+<li>familial generalized lentiginosis (94.8%)</li>
+<li>rhabdoid tumor (94.5%)</li>
+<li>gastrocutaneous syndrome (94.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/somatotropin/' | relative_url }}">View full drug report →</a></p>
 </div>

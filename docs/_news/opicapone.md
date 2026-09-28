@@ -3,7 +3,7 @@ layout: default
 title: "Opicapone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Opicapone. Original indication: . 0 predicted indications."
+description: "Health news related to Opicapone. Original indication: . 10 predicted indications."
 permalink: /news/opicapone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/opicapone/
 ---
 
 <p class="key-answer" data-question="What news is there about Opicapone?">
-<strong>Opicapone</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Opicapone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Opicapone with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Rasmussen subacute encephalitis (98.6%)</li>
+<li>myelitis (98.2%)</li>
+<li>PLA2G6-associated neurodegeneration (97.6%)</li>
+<li>paralysis agitans, juvenile, of Hunt (97.3%)</li>
+<li>transaldolase deficiency (96.0%)</li>
+<li>fructose-1,6-bisphosphatase deficiency (95.7%)</li>
+<li>Lewy body dementia (95.7%)</li>
+<li>lethal infantile mitochondrial myopathy (95.4%)</li>
+<li>X-linked intellectual disability-ataxia-apraxia syndrome (94.3%)</li>
+<li>X-linked intellectual disability-cerebellar hypoplasia syndrome (93.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/opicapone/' | relative_url }}">View full drug report →</a></p>
 </div>

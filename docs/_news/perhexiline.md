@@ -3,7 +3,7 @@ layout: default
 title: "Perhexiline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Perhexiline. Original indication: . 0 predicted indications."
+description: "Health news related to Perhexiline. Original indication: . 10 predicted indications."
 permalink: /news/perhexiline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/perhexiline/
 ---
 
 <p class="key-answer" data-question="What news is there about Perhexiline?">
-<strong>Perhexiline</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Perhexiline</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Perhexiline with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>migraine disorder (99.0%)</li>
+<li>migraine with brainstem aura (98.8%)</li>
+<li>hypertrichosis (disease) (98.1%)</li>
+<li>Ambras type hypertrichosis universalis congenita (97.5%)</li>
+<li>syndrome with a Dandy-Walker malformation as major feature (97.5%)</li>
+<li>malformation syndrome with odontal and/or periodontal component (97.5%)</li>
+<li>isolated genetic hair shaft abnormality (97.4%)</li>
+<li>oral candidiasis (97.2%)</li>
+<li>headache disorder (97.0%)</li>
+<li>leprosy (97.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/perhexiline/' | relative_url }}">View full drug report →</a></p>
 </div>

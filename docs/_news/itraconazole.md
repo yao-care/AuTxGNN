@@ -3,7 +3,7 @@ layout: default
 title: "Itraconazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Itraconazole. Original indication: . 0 predicted indications."
+description: "Health news related to Itraconazole. Original indication: . 10 predicted indications."
 permalink: /news/itraconazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/itraconazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Itraconazole?">
-<strong>Itraconazole</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Itraconazole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Itraconazole with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pneumocystosis (99.3%)</li>
+<li>Cryptococcal meningitis (93.7%)</li>
+<li>penicilliosis (89.0%)</li>
+<li>trichosporonosis (89.0%)</li>
+<li>hyalohyphomycosis (89.0%)</li>
+<li>geotrichosis (89.0%)</li>
+<li>maple bark strippers' lung (88.8%)</li>
+<li>leprosy (87.5%)</li>
+<li>candida glabrata (85.0%)</li>
+<li>neonatal candidiasis (85.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/itraconazole/' | relative_url }}">View full drug report →</a></p>
 </div>

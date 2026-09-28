@@ -3,7 +3,7 @@ layout: default
 title: "Zinc sulfate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Zinc sulfate. Original indication: . 0 predicted indications."
+description: "Health news related to Zinc sulfate. Original indication: . 10 predicted indications."
 permalink: /news/zinc_sulfate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/zinc_sulfate/
 ---
 
 <p class="key-answer" data-question="What news is there about Zinc sulfate?">
-<strong>Zinc sulfate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Zinc sulfate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Zinc sulfate with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pharyngitis (99.8%)</li>
+<li>nasal cavity disease (99.8%)</li>
+<li>acute laryngopharyngitis (99.8%)</li>
+<li>congenital prothrombin deficiency (99.2%)</li>
+<li>thrombotic disease (97.6%)</li>
+<li>gastroparesis (disease) (97.3%)</li>
+<li>faucial diphtheria (97.2%)</li>
+<li>cervical disc degenerative disorder (97.2%)</li>
+<li>dyspepsia (94.9%)</li>
+<li>acne (disease) (94.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/zinc_sulfate/' | relative_url }}">View full drug report →</a></p>
 </div>

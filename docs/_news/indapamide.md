@@ -3,7 +3,7 @@ layout: default
 title: "Indapamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Indapamide. Original indication: . 0 predicted indications."
+description: "Health news related to Indapamide. Original indication: . 10 predicted indications."
 permalink: /news/indapamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/indapamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Indapamide?">
-<strong>Indapamide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Indapamide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Indapamide with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>chronic pulmonary heart disease (93.0%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (92.8%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (92.8%)</li>
+<li>malignant hypertensive renal disease (92.7%)</li>
+<li>malignant renovascular hypertension (92.7%)</li>
+<li>acute pulmonary heart disease (91.0%)</li>
+<li>Braddock syndrome (90.4%)</li>
+<li>primary hereditary glaucoma (84.5%)</li>
+<li>open-angle glaucoma (79.6%)</li>
+<li>chronic kidney disease (78.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/indapamide/' | relative_url }}">View full drug report →</a></p>
 </div>

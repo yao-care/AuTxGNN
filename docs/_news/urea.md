@@ -3,7 +3,7 @@ layout: default
 title: "Urea News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Urea. Original indication: . 0 predicted indications."
+description: "Health news related to Urea. Original indication: . 10 predicted indications."
 permalink: /news/urea/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/urea/
 ---
 
 <p class="key-answer" data-question="What news is there about Urea?">
-<strong>Urea</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Urea</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Urea with the latest health 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>dermatitis (98.2%)</li>
+<li>acne keloid (97.5%)</li>
+<li>neonatal dermatomyositis (97.5%)</li>
+<li>acrodermatitis chronica atrophicans (97.4%)</li>
+<li>secondary interstitial lung disease specific to childhood associated with a connective tissue disease (97.2%)</li>
+<li>amyopathic dermatomyositis (97.1%)</li>
+<li>hydroa vacciniforme, familial (96.6%)</li>
+<li>acne (disease) (95.5%)</li>
+<li>vulvar inverted follicular keratosis (86.8%)</li>
+<li>familial pityriasis rubra pilaris (75.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/urea/' | relative_url }}">View full drug report →</a></p>
 </div>

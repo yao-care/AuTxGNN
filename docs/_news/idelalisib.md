@@ -3,7 +3,7 @@ layout: default
 title: "Idelalisib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Idelalisib. Original indication: . 0 predicted indications."
+description: "Health news related to Idelalisib. Original indication: . 10 predicted indications."
 permalink: /news/idelalisib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/idelalisib/
 ---
 
 <p class="key-answer" data-question="What news is there about Idelalisib?">
-<strong>Idelalisib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Idelalisib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Idelalisib with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>mantle cell lymphoma (99.8%)</li>
+<li>Hodgkins lymphoma (99.8%)</li>
+<li>B-cell neoplasm (99.8%)</li>
+<li>pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (99.7%)</li>
+<li>chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (99.7%)</li>
+<li>lymphoma, non-Hodgkin, familial (99.6%)</li>
+<li>myeloid leukemia (99.5%)</li>
+<li>chronic myelogenous leukemia, BCR-ABL1 positive (99.5%)</li>
+<li>small intestinal Burkitt lymphoma (99.5%)</li>
+<li>colon adenocarcinoma (99.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/idelalisib/' | relative_url }}">View full drug report →</a></p>
 </div>

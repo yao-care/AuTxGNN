@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Cinacalcet with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Nephrogenic syndrome of inappropriate antidiuresis | 98.48% | 0 | 0 | L5 | Hold (99.0%)</li>
-<li>Common cold | 95.39% | 0 | 0 | L5 | Hold (99.0%)</li>
-<li>Female breast carcinoma | 94.23% | 0 | 5 | L4 | Hold (99.0%)</li>
-<li>Multiple endocrine neoplasia (MEN1/2A) | 93.73% | 3 | 19 | L2 | Proceed with Guardrails (99.0%)</li>
-<li>Headache disorder | 93.08% | 0 | 0 | L5 | Hold (99.0%)</li>
-<li>Trigeminal autonomic cephalalgia | 92.16% | 0 | 0 | L5 | Hold (99.0%)</li>
-<li>Hypertrichosis | 91.66% | 0 | 0 | L5 | Hold (99.0%)</li>
-<li>Subarachnoid haemorrhage | 91.39% | 0 | 0 | L5 | Hold (99.0%)</li>
-<li>Pulmonary hypertension | 91.21% | 0 | 4 | L4 | Hold (99.0%)</li>
-<li>Familial combined hyperlipidaemia (obsolete term) | 90.80% | 0 | 0 | L5 | Hold (99.0%)</li>
+<li>nephrogenic syndrome of inappropriate antidiuresis (98.5%)</li>
+<li>common cold (95.4%)</li>
+<li>female breast carcinoma (94.2%)</li>
+<li>multiple endocrine neoplasia (93.7%)</li>
+<li>headache disorder (93.1%)</li>
+<li>trigeminal autonomic cephalalgia (92.2%)</li>
+<li>hypertrichosis (disease) (91.7%)</li>
+<li>subarachnoid hemorrhage (disease) (91.4%)</li>
+<li>pulmonary hypertension (91.2%)</li>
+<li>obsolete familial combined hyperlipidemia (90.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cinacalcet/' | relative_url }}">View full drug report →</a></p>

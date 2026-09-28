@@ -3,7 +3,7 @@ layout: default
 title: "Risankizumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Risankizumab. Original indication: . 0 predicted indications."
+description: "Health news related to Risankizumab. Original indication: . 10 predicted indications."
 permalink: /news/risankizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/risankizumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Risankizumab?">
-<strong>Risankizumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Risankizumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Risankizumab with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>dermatitis (100.0%)</li>
+<li>neonatal dermatomyositis (100.0%)</li>
+<li>amyopathic dermatomyositis (100.0%)</li>
+<li>acrodermatitis chronica atrophicans (100.0%)</li>
+<li>acne keloid (100.0%)</li>
+<li>secondary interstitial lung disease specific to childhood associated with a connective tissue disease (100.0%)</li>
+<li>hydroa vacciniforme, familial (100.0%)</li>
+<li>severe nonproliferative diabetic retinopathy (100.0%)</li>
+<li>pityriasis lichenoides (99.9%)</li>
+<li>acute lichenoid pityriasis (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/risankizumab/' | relative_url }}">View full drug report →</a></p>
 </div>

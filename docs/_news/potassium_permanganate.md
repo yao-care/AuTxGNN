@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Potassium permanganate with 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Benign prostatic hyperplasia | 97.66% | L5 | Hold | Literature is keyword coincidence, not mechanistic (99.0%)</li>
-<li>Alopecia | 97.17% | L5 | Hold | No literature or trials (99.0%)</li>
-<li>Congestive heart failure | 96.86% | L5 | Hold | 5 literature hits, all unrelated topics (99.0%)</li>
-<li>Osteoarthritis | 96.71% | L4 | Hold | Evidence points opposite direction (disease-induction model, not treatment) (99.0%)</li>
-<li>Hypotrichosis simplex of the scalp | 96.62% | L5 | Hold | No literature or trials; rare genetic disease (99.0%)</li>
-<li>Congenital hypotrichosis milia | 96.48% | L5 | Hold | No literature or trials; rare genetic disease (99.0%)</li>
-<li>Osteoarthritis susceptibility | 96.27% | L5 | Hold | No literature or trials (99.0%)</li>
-<li>Acute pulmonary heart disease | 96.13% | L5 | Hold | No literature or trials (99.0%)</li>
-<li>Pulmonary hypertension | 95.99% | L5 | Hold | 2 literature hits, unrelated topics (99.0%)</li>
-<li>Diffuse alopecia areata | 95.87% | L5 | Hold | No literature or trials (99.0%)</li>
+<li>benign prostatic hyperplasia (disease) (97.7%)</li>
+<li>alopecia (97.2%)</li>
+<li>congestive heart failure (96.9%)</li>
+<li>osteoarthritis (96.7%)</li>
+<li>hypotrichosis simplex of the scalp (96.6%)</li>
+<li>congenital hypotrichosis milia (96.5%)</li>
+<li>osteoarthritis susceptibility (96.3%)</li>
+<li>acute pulmonary heart disease (96.1%)</li>
+<li>pulmonary hypertension (96.0%)</li>
+<li>diffuse alopecia areata (95.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/potassium_permanganate/' | relative_url }}">View full drug report →</a></p>

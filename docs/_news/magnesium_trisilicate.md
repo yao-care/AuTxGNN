@@ -3,7 +3,7 @@ layout: default
 title: "Magnesium trisilicate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Magnesium trisilicate. Original indication: . 0 predicted indications."
+description: "Health news related to Magnesium trisilicate. Original indication: . 10 predicted indications."
 permalink: /news/magnesium_trisilicate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/magnesium_trisilicate/
 ---
 
 <p class="key-answer" data-question="What news is there about Magnesium trisilicate?">
-<strong>Magnesium trisilicate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Magnesium trisilicate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Magnesium trisilicate with t
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>active peptic ulcer disease (99.9%)</li>
+<li>gastrojejunal ulcer (99.8%)</li>
+<li>peptic ulcer perforation (99.8%)</li>
+<li>gastroduodenitis (99.7%)</li>
+<li>gastric ulcer (disease) (99.6%)</li>
+<li>stomach disease (95.1%)</li>
+<li>duodenal obstruction (92.4%)</li>
+<li>gastroparesis (disease) (91.4%)</li>
+<li>duodenogastric reflux (90.8%)</li>
+<li>hiatus hernia (disease) (88.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/magnesium_trisilicate/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Trastuzumab deruxtecan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Trastuzumab deruxtecan. Original indication: . 0 predicted indications."
+description: "Health news related to Trastuzumab deruxtecan. Original indication: . 10 predicted indications."
 permalink: /news/trastuzumab_deruxtecan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/trastuzumab_deruxtecan/
 ---
 
 <p class="key-answer" data-question="What news is there about Trastuzumab deruxtecan?">
-<strong>Trastuzumab deruxtecan</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Trastuzumab deruxtecan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Trastuzumab deruxtecan with 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>drug-induced osteoporosis (99.3%)</li>
+<li>severe nonproliferative diabetic retinopathy (98.9%)</li>
+<li>diabetic retinopathy (98.5%)</li>
+<li>bronchitis (98.0%)</li>
+<li>diabetic cataract (96.6%)</li>
+<li>non-seminomatous lesion (96.0%)</li>
+<li>bronchial adenomas/carcinoids childhood (96.0%)</li>
+<li>ductal or ductular proliferation (96.0%)</li>
+<li>chondroid hamartoma (96.0%)</li>
+<li>tumor of testis and paratestis (95.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/trastuzumab_deruxtecan/' | relative_url }}">View full drug report →</a></p>
 </div>

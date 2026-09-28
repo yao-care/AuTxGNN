@@ -3,7 +3,7 @@ layout: default
 title: "Ferrous fumarate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ferrous fumarate. Original indication: . 0 predicted indications."
+description: "Health news related to Ferrous fumarate. Original indication: . 10 predicted indications."
 permalink: /news/ferrous_fumarate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ferrous_fumarate/
 ---
 
 <p class="key-answer" data-question="What news is there about Ferrous fumarate?">
-<strong>Ferrous fumarate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ferrous fumarate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Ferrous fumarate with the la
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>non-syndromic esophageal malformation (99.5%)</li>
+<li>esophageal disease (98.2%)</li>
+<li>esophageal ulcer (98.0%)</li>
+<li>Plummer-Vinson syndrome (96.8%)</li>
+<li>vitamin B12- and folate-independent constitutional megaloblastic anemia (96.7%)</li>
+<li>injury (95.7%)</li>
+<li>perinatal disease (94.8%)</li>
+<li>segmental odontomaxillary dysplasia (94.8%)</li>
+<li>florid cemento-osseous dysplasia (94.8%)</li>
+<li>disease by subcellular system affected (94.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ferrous_fumarate/' | relative_url }}">View full drug report →</a></p>
 </div>

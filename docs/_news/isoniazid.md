@@ -3,7 +3,7 @@ layout: default
 title: "Isoniazid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Isoniazid. Original indication: . 0 predicted indications."
+description: "Health news related to Isoniazid. Original indication: . 10 predicted indications."
 permalink: /news/isoniazid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/isoniazid/
 ---
 
 <p class="key-answer" data-question="What news is there about Isoniazid?">
-<strong>Isoniazid</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Isoniazid</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Isoniazid with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>conjunctivitis (99.4%)</li>
+<li>rheumatoid arthritis (98.7%)</li>
+<li>shigellosis (98.5%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (97.9%)</li>
+<li>leprosy (97.8%)</li>
+<li>brachydactyly-syndactyly syndrome (97.8%)</li>
+<li>vestibular neuronitis (97.8%)</li>
+<li>motor nerve neuritis (97.8%)</li>
+<li>infectious otitis media (97.7%)</li>
+<li>brachial plexus neuritis (97.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/isoniazid/' | relative_url }}">View full drug report →</a></p>
 </div>

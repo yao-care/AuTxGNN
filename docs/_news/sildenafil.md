@@ -3,7 +3,7 @@ layout: default
 title: "Sildenafil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sildenafil. Original indication: . 0 predicted indications."
+description: "Health news related to Sildenafil. Original indication: . 10 predicted indications."
 permalink: /news/sildenafil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sildenafil/
 ---
 
 <p class="key-answer" data-question="What news is there about Sildenafil?">
-<strong>Sildenafil</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Sildenafil</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Sildenafil with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Ambras type hypertrichosis universalis congenita (98.4%)</li>
+<li>malformation syndrome with odontal and/or periodontal component (98.2%)</li>
+<li>syndrome with a Dandy-Walker malformation as major feature (98.0%)</li>
+<li>isolated genetic hair shaft abnormality (97.9%)</li>
+<li>hypertrichosis (disease) (97.8%)</li>
+<li>homozygous familial hypercholesterolemia (93.8%)</li>
+<li>hypoalphalipoproteinemia (90.1%)</li>
+<li>familial isolated trichomegaly (79.8%)</li>
+<li>genetic alopecia (75.0%)</li>
+<li>obsolete patella aplasia, coxa vara, and tarsal synostosis (70.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sildenafil/' | relative_url }}">View full drug report →</a></p>
 </div>

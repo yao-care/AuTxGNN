@@ -3,7 +3,7 @@ layout: default
 title: "Mebeverine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mebeverine. Original indication: . 0 predicted indications."
+description: "Health news related to Mebeverine. Original indication: . 10 predicted indications."
 permalink: /news/mebeverine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mebeverine/
 ---
 
 <p class="key-answer" data-question="What news is there about Mebeverine?">
-<strong>Mebeverine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Mebeverine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Mebeverine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>cauda equina syndrome (98.0%)</li>
+<li>insomnia (disease) (96.9%)</li>
+<li>obsolete neurogenic bladder (disease) (96.8%)</li>
+<li>autonomic nervous system disease (93.1%)</li>
+<li>rhinitis (84.6%)</li>
+<li>familial mitral valve prolapse (81.5%)</li>
+<li>dysautonomia (81.2%)</li>
+<li>gastroduodenitis (81.1%)</li>
+<li>mitral valve prolapse (disease) (78.7%)</li>
+<li>MVP1 (76.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/mebeverine/' | relative_url }}">View full drug report →</a></p>
 </div>

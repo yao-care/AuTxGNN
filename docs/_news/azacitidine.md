@@ -3,7 +3,7 @@ layout: default
 title: "Azacitidine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Azacitidine. Original indication: . 0 predicted indications."
+description: "Health news related to Azacitidine. Original indication: . 10 predicted indications."
 permalink: /news/azacitidine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/azacitidine/
 ---
 
 <p class="key-answer" data-question="What news is there about Azacitidine?">
-<strong>Azacitidine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Azacitidine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Azacitidine with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>bulbar polio (98.6%)</li>
+<li>refractory cytopenia of childhood (98.2%)</li>
+<li>unclassified myelodysplastic syndrome (98.1%)</li>
+<li>partial deletion of the long arm of chromosome 5 (97.9%)</li>
+<li>aregenerative anemia (97.9%)</li>
+<li>severe congenital hypochromic anemia with ringed sideroblasts (97.6%)</li>
+<li>5q35 microduplication syndrome (97.5%)</li>
+<li>neuralgic amyotrophy (96.2%)</li>
+<li>amyotrophic neuralgia (95.9%)</li>
+<li>familial thrombocytosis (93.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/azacitidine/' | relative_url }}">View full drug report →</a></p>
 </div>

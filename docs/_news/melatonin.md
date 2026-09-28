@@ -3,7 +3,7 @@ layout: default
 title: "Melatonin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Melatonin. Original indication: . 0 predicted indications."
+description: "Health news related to Melatonin. Original indication: . 10 predicted indications."
 permalink: /news/melatonin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/melatonin/
 ---
 
 <p class="key-answer" data-question="What news is there about Melatonin?">
-<strong>Melatonin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Melatonin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Melatonin with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>migraine with brainstem aura (87.9%)</li>
+<li>obesity disorder (85.8%)</li>
+<li>restless legs syndrome (85.7%)</li>
+<li>migraine disorder (85.5%)</li>
+<li>hypervitaminosis (84.4%)</li>
+<li>obsolete hypertelorism (disease) (83.1%)</li>
+<li>monogenic obesity (81.2%)</li>
+<li>frontorhiny (79.4%)</li>
+<li>proximal 16p11.2 microdeletion syndrome (78.5%)</li>
+<li>acute encephalopathy with biphasic seizures and late reduced diffusion (78.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/melatonin/' | relative_url }}">View full drug report →</a></p>
 </div>

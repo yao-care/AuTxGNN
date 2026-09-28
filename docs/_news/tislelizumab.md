@@ -3,7 +3,7 @@ layout: default
 title: "Tislelizumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tislelizumab. Original indication: . 0 predicted indications."
+description: "Health news related to Tislelizumab. Original indication: . 10 predicted indications."
 permalink: /news/tislelizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tislelizumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Tislelizumab?">
-<strong>Tislelizumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Tislelizumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Tislelizumab with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>mixed-type autoimmune hemolytic anemia (93.8%)</li>
+<li>idiopathic aplastic anemia (93.8%)</li>
+<li>dermatitis (93.7%)</li>
+<li>paroxysmal nocturnal hemoglobinuria (93.7%)</li>
+<li>drug-induced autoimmune hemolytic anemia (93.7%)</li>
+<li>proteinuria (93.1%)</li>
+<li>acne keloid (93.0%)</li>
+<li>neonatal autoimmune hemolytic anemia (93.0%)</li>
+<li>primary CD59 deficiency (92.8%)</li>
+<li>amyopathic dermatomyositis (92.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tislelizumab/' | relative_url }}">View full drug report →</a></p>
 </div>

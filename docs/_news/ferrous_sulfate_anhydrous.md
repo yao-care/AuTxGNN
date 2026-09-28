@@ -3,7 +3,7 @@ layout: default
 title: "Ferrous sulfate anhydrous News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ferrous sulfate anhydrous. Original indication: . 0 predicted indications."
+description: "Health news related to Ferrous sulfate anhydrous. Original indication: . 10 predicted indications."
 permalink: /news/ferrous_sulfate_anhydrous/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ferrous_sulfate_anhydrous/
 ---
 
 <p class="key-answer" data-question="What news is there about Ferrous sulfate anhydrous?">
-<strong>Ferrous sulfate anhydrous</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ferrous sulfate anhydrous</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Ferrous sulfate anhydrous wi
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>vitamin B12- and folate-independent constitutional megaloblastic anemia (99.8%)</li>
+<li>Plummer-Vinson syndrome (99.8%)</li>
+<li>biotin metabolic disease (99.5%)</li>
+<li>non-syndromic esophageal malformation (99.5%)</li>
+<li>esophageal disease (98.3%)</li>
+<li>injury (98.1%)</li>
+<li>perinatal disease (97.6%)</li>
+<li>segmental odontomaxillary dysplasia (97.6%)</li>
+<li>florid cemento-osseous dysplasia (97.6%)</li>
+<li>radiation or chemically induced disorder (97.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ferrous_sulfate_anhydrous/' | relative_url }}">View full drug report →</a></p>
 </div>

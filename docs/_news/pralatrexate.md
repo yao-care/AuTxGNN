@@ -3,7 +3,7 @@ layout: default
 title: "Pralatrexate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pralatrexate. Original indication: . 0 predicted indications."
+description: "Health news related to Pralatrexate. Original indication: . 10 predicted indications."
 permalink: /news/pralatrexate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pralatrexate/
 ---
 
 <p class="key-answer" data-question="What news is there about Pralatrexate?">
-<strong>Pralatrexate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Pralatrexate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Pralatrexate with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pleural adenomatoid tumor (99.9%)</li>
+<li>relapsing-remitting multiple sclerosis (99.9%)</li>
+<li>pleural biphasic mesothelioma (99.9%)</li>
+<li>pleural epithelioid mesothelioma (99.9%)</li>
+<li>lymphohistiocytoid mesothelioma (99.9%)</li>
+<li>pericardium cancer (99.9%)</li>
+<li>pleural sarcomatoid mesothelioma (99.9%)</li>
+<li>malignant peritoneal mesothelioma (99.9%)</li>
+<li>well differentiated papillary mesothelioma (99.8%)</li>
+<li>pleural mesothelioma (99.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/pralatrexate/' | relative_url }}">View full drug report →</a></p>
 </div>

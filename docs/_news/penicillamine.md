@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Penicillamine with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Megaloblastic anaemia | 98.02% | L5 | Hold (99.0%)</li>
-<li>Tricarboxylic acid cycle disorder | 93.46% | L4 | Research Question (99.0%)</li>
-<li>Disease of transporter activity | 93.02% | L2 | Proceed with Guardrails (99.0%)</li>
-<li>Neurodevelopmental disorder (ataxic gait/absent speech) | 93.01% | L5 | Hold (99.0%)</li>
-<li>Glycogen storage disease (branching enzyme, congenital) | 92.88% | L5 | Hold (99.0%)</li>
-<li>Glycogen storage disease (branching enzyme, perinatal) | 92.88% | L5 | Hold (99.0%)</li>
-<li>Adult polyglucosan body disease | 92.49% | L5 | Hold (99.0%)</li>
-<li>Chronic granulomatous disease, X-linked | 92.48% | L4 | Hold (evidence mismatch — see below) (99.0%)</li>
-<li>Pyruvate metabolism disorder | 91.54% | L4 | Research Question (99.0%)</li>
-<li>Haemolytic anaemia due to G6PD deficiency | 90.26% | L5 | Hold (99.0%)</li>
+<li>megaloblastic anemia (disease) (98.0%)</li>
+<li>tricarboxylic acid cycle disorder (93.5%)</li>
+<li>disease of transporter activity (93.0%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (93.0%)</li>
+<li>glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form (92.9%)</li>
+<li>glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form (92.9%)</li>
+<li>adult polyglucosan body disease (92.5%)</li>
+<li>granulomatous disease, chronic, X-linked (92.5%)</li>
+<li>pyruvate metabolism disorder (91.5%)</li>
+<li>anemia, nonspherocytic hemolytic, due to G6PD deficiency (90.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/penicillamine/' | relative_url }}">View full drug report →</a></p>

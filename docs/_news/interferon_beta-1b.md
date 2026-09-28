@@ -3,7 +3,7 @@ layout: default
 title: "Interferon beta-1b News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Interferon beta-1b. Original indication: . 0 predicted indications."
+description: "Health news related to Interferon beta-1b. Original indication: . 10 predicted indications."
 permalink: /news/interferon_beta-1b/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/interferon_beta-1b/
 ---
 
 <p class="key-answer" data-question="What news is there about Interferon beta-1b?">
-<strong>Interferon beta-1b</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Interferon beta-1b</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Interferon beta-1b with the 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hairy cell leukemia (99.2%)</li>
+<li>autoimmune disease of central nervous system (99.0%)</li>
+<li>CNS demyelinating autoimmune disease (98.9%)</li>
+<li>multiple sclerosis, susceptibility to (98.8%)</li>
+<li>fetal methylmercury syndrome (98.5%)</li>
+<li>hepatic infarction (98.2%)</li>
+<li>progressive multiple sclerosis (98.0%)</li>
+<li>hairy cell leukemia variant (97.9%)</li>
+<li>extramammary Paget disease (97.9%)</li>
+<li>peliosis hepatis (97.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/interferon_beta-1b/' | relative_url }}">View full drug report →</a></p>
 </div>

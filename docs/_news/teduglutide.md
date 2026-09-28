@@ -3,7 +3,7 @@ layout: default
 title: "Teduglutide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Teduglutide. Original indication: . 0 predicted indications."
+description: "Health news related to Teduglutide. Original indication: . 10 predicted indications."
 permalink: /news/teduglutide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/teduglutide/
 ---
 
 <p class="key-answer" data-question="What news is there about Teduglutide?">
-<strong>Teduglutide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Teduglutide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Teduglutide with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>papillary conjunctivitis (98.5%)</li>
+<li>gastroduodenitis (98.2%)</li>
+<li>peptic ulcer disease (96.6%)</li>
+<li>nasal cavity disease (96.2%)</li>
+<li>acute laryngopharyngitis (95.2%)</li>
+<li>allergic urticaria (95.2%)</li>
+<li>pharyngitis (94.7%)</li>
+<li>chronic intestinal vascular insufficiency (92.2%)</li>
+<li>isolated mesenteric vein thrombosis (92.0%)</li>
+<li>atopic conjunctivitis (88.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/teduglutide/' | relative_url }}">View full drug report →</a></p>
 </div>

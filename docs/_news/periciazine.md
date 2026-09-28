@@ -3,7 +3,7 @@ layout: default
 title: "Periciazine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Periciazine. Original indication: . 0 predicted indications."
+description: "Health news related to Periciazine. Original indication: . 10 predicted indications."
 permalink: /news/periciazine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/periciazine/
 ---
 
 <p class="key-answer" data-question="What news is there about Periciazine?">
-<strong>Periciazine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Periciazine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Periciazine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>migraine disorder (99.9%)</li>
+<li>migraine with brainstem aura (99.8%)</li>
+<li>atrophoderma vermiculata (99.4%)</li>
+<li>dysthymic disorder (99.2%)</li>
+<li>migraine with or without aura, susceptibility to (99.2%)</li>
+<li>ulerythema ophryogenesis (99.2%)</li>
+<li>sciatic neuropathy (97.7%)</li>
+<li>anxiety (97.7%)</li>
+<li>anxiety disorder (97.4%)</li>
+<li>open-angle glaucoma (97.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/periciazine/' | relative_url }}">View full drug report →</a></p>
 </div>

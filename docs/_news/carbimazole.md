@@ -3,7 +3,7 @@ layout: default
 title: "Carbimazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Carbimazole. Original indication: . 0 predicted indications."
+description: "Health news related to Carbimazole. Original indication: . 10 predicted indications."
 permalink: /news/carbimazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/carbimazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Carbimazole?">
-<strong>Carbimazole</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Carbimazole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Carbimazole with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (99.7%)</li>
+<li>neonatal thyrotoxicosis (99.4%)</li>
+<li>hyperthyroxinemia (99.2%)</li>
+<li>Prinzmetal angina (98.8%)</li>
+<li>autoimmune thyroid disease (98.3%)</li>
+<li>Hashimoto thyroiditis (98.0%)</li>
+<li>Raynaud disease (97.9%)</li>
+<li>migraine with brainstem aura (95.8%)</li>
+<li>kyphoscoliotic heart disease (95.6%)</li>
+<li>migraine disorder (94.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/carbimazole/' | relative_url }}">View full drug report →</a></p>
 </div>

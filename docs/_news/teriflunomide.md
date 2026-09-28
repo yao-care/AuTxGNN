@@ -3,7 +3,7 @@ layout: default
 title: "Teriflunomide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Teriflunomide. Original indication: . 0 predicted indications."
+description: "Health news related to Teriflunomide. Original indication: . 10 predicted indications."
 permalink: /news/teriflunomide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/teriflunomide/
 ---
 
 <p class="key-answer" data-question="What news is there about Teriflunomide?">
-<strong>Teriflunomide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Teriflunomide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Teriflunomide with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>relapsing-remitting multiple sclerosis (99.2%)</li>
+<li>marcothrombocytopenia with mitral valve insufficiency (98.1%)</li>
+<li>hereditary thrombocytopenia with normal platelets (98.1%)</li>
+<li>transient neonatal thrombocytopenia (98.1%)</li>
+<li>thrombocytopenia (98.0%)</li>
+<li>dense granule disease (97.8%)</li>
+<li>penile fibromatosis (97.3%)</li>
+<li>Ledderhose disease (97.2%)</li>
+<li>chronic hepatitis C virus infection (97.0%)</li>
+<li>palmar fibromatosis (96.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/teriflunomide/' | relative_url }}">View full drug report →</a></p>
 </div>

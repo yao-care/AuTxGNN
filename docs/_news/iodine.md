@@ -3,7 +3,7 @@ layout: default
 title: "Iodine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Iodine. Original indication: . 0 predicted indications."
+description: "Health news related to Iodine. Original indication: . 10 predicted indications."
 permalink: /news/iodine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/iodine/
 ---
 
 <p class="key-answer" data-question="What news is there about Iodine?">
-<strong>Iodine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Iodine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Iodine with the latest healt
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Sjogren syndrome (94.1%)</li>
+<li>prolapse of lacrimal gland (93.6%)</li>
+<li>acne (disease) (93.1%)</li>
+<li>seborrheic keratosis (91.4%)</li>
+<li>fetal erythroblastosis (91.0%)</li>
+<li>recurrent corneal erosion (90.7%)</li>
+<li>keratitis (89.7%)</li>
+<li>vulvar inverted follicular keratosis (89.6%)</li>
+<li>peptic esophagitis (89.4%)</li>
+<li>lacrimal gland neoplasm (89.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/iodine/' | relative_url }}">View full drug report →</a></p>
 </div>

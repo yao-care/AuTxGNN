@@ -3,7 +3,7 @@ layout: default
 title: "Iron sucrose News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Iron sucrose. Original indication: . 0 predicted indications."
+description: "Health news related to Iron sucrose. Original indication: . 10 predicted indications."
 permalink: /news/iron_sucrose/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/iron_sucrose/
 ---
 
 <p class="key-answer" data-question="What news is there about Iron sucrose?">
-<strong>Iron sucrose</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Iron sucrose</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Iron sucrose with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>primary hyperoxaluria (98.8%)</li>
+<li>pancreatitis (97.8%)</li>
+<li>tumoral calcinosis, hyperphosphatemic, familial (97.8%)</li>
+<li>familial apolipoprotein C-II deficiency (97.6%)</li>
+<li>esophageal varices with bleeding (96.9%)</li>
+<li>esophageal varices without bleeding (96.9%)</li>
+<li>familial hyperphosphatemic tumoral calcinosis/hyperphosphatemic hyperostosis syndrome (96.9%)</li>
+<li>hyperparathyroidism (96.2%)</li>
+<li>hyperlipidemia (96.1%)</li>
+<li>immune-mediated necrotizing myopathy (96.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/iron_sucrose/' | relative_url }}">View full drug report →</a></p>
 </div>

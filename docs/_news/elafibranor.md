@@ -3,7 +3,7 @@ layout: default
 title: "Elafibranor News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Elafibranor. Original indication: . 0 predicted indications."
+description: "Health news related to Elafibranor. Original indication: . 10 predicted indications."
 permalink: /news/elafibranor/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/elafibranor/
 ---
 
 <p class="key-answer" data-question="What news is there about Elafibranor?">
-<strong>Elafibranor</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Elafibranor</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Elafibranor with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>amenorrhea (disease) (99.9%)</li>
+<li>non-syndromic esophageal malformation (98.9%)</li>
+<li>bone Paget disease (98.9%)</li>
+<li>dentinogenesis imperfecta (98.5%)</li>
+<li>squamous cell carcinoma (98.5%)</li>
+<li>rectal cloacogenic carcinoma (98.5%)</li>
+<li>gallbladder adenosquamous carcinoma (98.5%)</li>
+<li>deafness, autosomal dominant 39, with dentinogenesis imperfecta 1 (98.4%)</li>
+<li>acantholytic variant squamous cell breast carcinoma (98.4%)</li>
+<li>adenosquamous breast carcinoma (98.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/elafibranor/' | relative_url }}">View full drug report →</a></p>
 </div>

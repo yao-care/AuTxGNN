@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Baricitinib with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.94% | L5 | Hold | Very low — structural congenital defect; likely KG artefact (99.0%)</li>
-<li>Brachydactyly-syndactyly syndrome | 99.94% | L5 | Hold | Very low — skeletal developmental anomaly (99.0%)</li>
-<li>Indolent plasma cell myeloma | 93.31% | L5 | Hold | Moderate (theoretical) — IL-6/JAK/STAT3 axis relevant; no evidence (99.0%)</li>
-<li>WHIM syndrome | 93.12% | L5 | Research Question | Moderate (theoretical) — CXCR4→JAK2 cross-talk; no evidence (99.0%)</li>
-<li>Plasma cell myeloma | 91.83% | L4 | Research Question | Moderate — IL-6/JAK1/JAK2→STAT3; 1 case report (indirect) (99.0%)</li>
-<li>Myeloid leukemia | 91.01% | L4 | Research Question | Moderate — FLT3-ITD/BCR-ABL→JAK-STAT; 1 trial + 4 publications (99.0%)</li>
-<li>Meester-Loeys syndrome | 88.21% | L5 | Hold | Very low — connective tissue/aortic structural disorder (99.0%)</li>
-<li>Ganglioneuroblastoma | 87.59% | L5 | Hold | Low — neural tumour; no JAK-specific preclinical data (99.0%)</li>
-<li>Heparin cofactor 2 deficiency | 86.31% | L5 | Hold | ⚠️ Adverse match — JAK inhibitors increase VTE risk (99.0%)</li>
-<li>Vertebral anomalies + T-cell dysfunction | 84.68% | L5 | Research Question | Low-moderate — T-cell JAK-STAT component; structural elements unaddressable (99.0%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.9%)</li>
+<li>brachydactyly-syndactyly syndrome (99.9%)</li>
+<li>indolent plasma cell myeloma (93.3%)</li>
+<li>WHIM syndrome (93.1%)</li>
+<li>plasma cell myeloma (91.8%)</li>
+<li>myeloid leukemia (91.0%)</li>
+<li>Meester-Loeys syndrome (88.2%)</li>
+<li>ganglioneuroblastoma (disease) (87.6%)</li>
+<li>heparin cofactor 2 deficiency (86.3%)</li>
+<li>vertebral anomalies and variable endocrine and T-cell dysfunction (84.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/baricitinib/' | relative_url }}">View full drug report →</a></p>

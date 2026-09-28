@@ -3,7 +3,7 @@ layout: default
 title: "Ipilimumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ipilimumab. Original indication: . 7 predicted indications."
+description: "Health news related to Ipilimumab. Original indication: . 10 predicted indications."
 permalink: /news/ipilimumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ipilimumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Ipilimumab?">
-<strong>Ipilimumab</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
+<strong>Ipilimumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,14 +25,17 @@ This page combines the AI-predicted indications for Ipilimumab with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (7)</strong>:<ul>
-<li>Choroideremia | 99.06% | L5 — No evidence | **Hold** (likely false positive) (99.0%)</li>
-<li>Epithelioid Cell Melanoma | 98.96% | L3 — Case series | Research Question (99.0%)</li>
-<li>Eyelid Melanoma | 98.95% | L4 — Case reports | Research Question (99.0%)</li>
-<li>Scrotum Melanoma | 98.84% | L4 — No direct evidence | Research Question (99.0%)</li>
-<li>Lentigo Maligna Melanoma | 98.64% | L4 — Case reports | Research Question (99.0%)</li>
-<li>Balloon Cell Melanoma | 98.64% | L5 — Safety concern only | **Hold** (99.0%)</li>
-<li>Nodular Malignant Melanoma | 98.64% | L3 — Retrospective cohorts | Research Question (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>choroideremia (99.1%)</li>
+<li>non-cutaneous melanoma (99.0%)</li>
+<li>epithelioid cell melanoma (99.0%)</li>
+<li>eyelid melanoma (99.0%)</li>
+<li>scrotum melanoma (98.8%)</li>
+<li>lentigo maligna melanoma (98.6%)</li>
+<li>acral lentiginous melanoma (disease) (98.6%)</li>
+<li>balloon cell malignant melanoma (98.6%)</li>
+<li>nodular malignant melanoma (98.6%)</li>
+<li>malignant melanoma of the mucosa (98.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ipilimumab/' | relative_url }}">View full drug report →</a></p>

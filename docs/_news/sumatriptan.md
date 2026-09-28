@@ -3,7 +3,7 @@ layout: default
 title: "Sumatriptan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sumatriptan. Original indication: . 0 predicted indications."
+description: "Health news related to Sumatriptan. Original indication: . 10 predicted indications."
 permalink: /news/sumatriptan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sumatriptan/
 ---
 
 <p class="key-answer" data-question="What news is there about Sumatriptan?">
-<strong>Sumatriptan</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Sumatriptan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Sumatriptan with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>migraine with brainstem aura (99.7%)</li>
+<li>atrophoderma vermiculata (98.0%)</li>
+<li>ulerythema ophryogenesis (96.8%)</li>
+<li>headache disorder (93.3%)</li>
+<li>trigeminal autonomic cephalalgia (92.9%)</li>
+<li>sciatic neuropathy (92.4%)</li>
+<li>tendinitis (87.5%)</li>
+<li>obsolete vascular headache (86.5%)</li>
+<li>myositis fibrosa (85.4%)</li>
+<li>idiopathic granulomatous myositis (85.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sumatriptan/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Leflunomide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Leflunomide. Original indication: . 0 predicted indications."
+description: "Health news related to Leflunomide. Original indication: . 10 predicted indications."
 permalink: /news/leflunomide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/leflunomide/
 ---
 
 <p class="key-answer" data-question="What news is there about Leflunomide?">
-<strong>Leflunomide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Leflunomide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Leflunomide with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>brachydactyly-syndactyly syndrome (99.9%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.9%)</li>
+<li>indolent plasma cell myeloma (95.5%)</li>
+<li>plasma cell myeloma (95.2%)</li>
+<li>myeloid leukemia (93.0%)</li>
+<li>Meester-Loeys syndrome (86.5%)</li>
+<li>ganglioneuroblastoma (disease) (76.3%)</li>
+<li>WHIM syndrome (75.9%)</li>
+<li>scalp dermatosis (73.9%)</li>
+<li>vertebral anomalies and variable endocrine and T-cell dysfunction (72.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/leflunomide/' | relative_url }}">View full drug report →</a></p>
 </div>

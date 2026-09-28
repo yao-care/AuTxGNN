@@ -3,7 +3,7 @@ layout: default
 title: "Sonidegib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sonidegib. Original indication: . 0 predicted indications."
+description: "Health news related to Sonidegib. Original indication: . 10 predicted indications."
 permalink: /news/sonidegib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sonidegib/
 ---
 
 <p class="key-answer" data-question="What news is there about Sonidegib?">
-<strong>Sonidegib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Sonidegib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Sonidegib with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>medulloblastoma with extensive nodularity (99.9%)</li>
+<li>xeroderma pigmentosum (99.9%)</li>
+<li>annular epidermolytic ichthyosis (99.8%)</li>
+<li>epidermolysis bullosa simplex with mottled pigmentation (99.8%)</li>
+<li>trichothiodystrophy photosensitive (99.8%)</li>
+<li>skin cancer (99.8%)</li>
+<li>cutaneous adenocystic carcinoma (99.8%)</li>
+<li>benign neoplasm of sweat gland (99.7%)</li>
+<li>eccrine carcinoma (99.7%)</li>
+<li>obsolete cataract, microcephaly, failure to thrive, kyphoscoliosis syndrome (99.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sonidegib/' | relative_url }}">View full drug report →</a></p>
 </div>

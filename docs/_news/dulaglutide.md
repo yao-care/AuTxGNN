@@ -3,7 +3,7 @@ layout: default
 title: "Dulaglutide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dulaglutide. Original indication: Opsismodysplasia is an ultra-rare autosomal recess.... 0 predicted indications."
+description: "Health news related to Dulaglutide. Original indication: Opsismodysplasia is an ultra-rare autosomal recess.... 10 predicted indications."
 permalink: /news/dulaglutide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dulaglutide/
 ---
 
 <p class="key-answer" data-question="What news is there about Dulaglutide?">
-<strong>Dulaglutide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Dulaglutide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,6 +26,18 @@ This page combines the AI-predicted indications for Dulaglutide with the latest 
 <ul>
 <li><strong>Original indication</strong>: Opsismodysplasia is an ultra-rare autosomal recessive skeletal dysplasia caused by loss-of-function mutations in INPPL1 (SHIP2), a phosphatase that regulates the phosphoinositide signalling cascade....</li>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>opsismodysplasia (97.0%)</li>
+<li>classic stiff person syndrome (97.0%)</li>
+<li>focal stiff limb syndrome (97.0%)</li>
+<li>thiamine-responsive dysfunction syndrome (96.8%)</li>
+<li>drug-induced localized lipodystrophy (95.6%)</li>
+<li>pancreatic agenesis (95.5%)</li>
+<li>centrifugal lipodystrophy (95.4%)</li>
+<li>pressure-induced localized lipoatrophy (95.3%)</li>
+<li>idiopathic localized lipodystrophy (95.0%)</li>
+<li>autoimmune oophoritis (69.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dulaglutide/' | relative_url }}">View full drug report →</a></p>
 </div>

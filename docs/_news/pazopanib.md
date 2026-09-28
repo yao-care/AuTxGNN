@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Pazopanib with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>RCC associated with Xp11.2 translocations/TFE3 fusions | 99.63% | 0 | 0 | L5 (99.0%)</li>
-<li>RCC associated with neuroblastoma | 99.63% | 0 | 0 | L5 (99.0%)</li>
-<li>Unclassified renal cell carcinoma | 99.63% | 1 | 6 | L2 (99.0%)</li>
-<li>Liposarcoma | 99.59% | 9 | 20 | L2 (99.0%)</li>
-<li>Childhood kidney cell carcinoma | 99.54% | 1 | 0 | L4 (99.0%)</li>
-<li>Ovarian myxoid liposarcoma | 99.51% | 0 | 0 | L5 (99.0%)</li>
-<li>Heart fibrosarcoma | 99.37% | 3 | 0 | L4 (99.0%)</li>
-<li>Fibroblastic neoplasm (SFT/desmoid) | 99.35% | 3 | 20 | L3 (99.0%)</li>
-<li>Kidney fibrosarcoma | 99.33% | 0 | 0 | L5 (99.0%)</li>
-<li>Dermatofibrosarcoma protuberans | 99.29% | 4 | 14 | L3 (99.0%)</li>
+<li>renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions (99.6%)</li>
+<li>renal cell carcinoma associated with neuroblastoma (99.6%)</li>
+<li>unclassified renal cell carcinoma (99.6%)</li>
+<li>liposarcoma (99.6%)</li>
+<li>childhood kidney cell carcinoma (99.5%)</li>
+<li>ovarian myxoid liposarcoma (99.5%)</li>
+<li>heart fibrosarcoma (99.4%)</li>
+<li>fibroblastic neoplasm (99.3%)</li>
+<li>kidney fibrosarcoma (99.3%)</li>
+<li>dermatofibrosarcoma protuberans (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pazopanib/' | relative_url }}">View full drug report →</a></p>

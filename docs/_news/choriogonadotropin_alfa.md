@@ -3,7 +3,7 @@ layout: default
 title: "Choriogonadotropin alfa News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Choriogonadotropin alfa. Original indication: . 9 predicted indications."
+description: "Health news related to Choriogonadotropin alfa. Original indication: . 10 predicted indications."
 permalink: /news/choriogonadotropin_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/choriogonadotropin_alfa/
 ---
 
 <p class="key-answer" data-question="What news is there about Choriogonadotropin alfa?">
-<strong>Choriogonadotropin alfa</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Choriogonadotropin alfa</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,16 +24,17 @@ This page combines the AI-predicted indications for Choriogonadotropin alfa with
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Postural orthostatic tachycardia syndrome | 98.33% | No known link to autonomic/vascular regulation (99.0%)</li>
-<li>Esophageal disease | 97.61% | Overly broad disease category; no specific pathology to map (99.0%)</li>
-<li>Raynaud disease | 97.43% | Purely speculative; no published hCG–vasospasm link (99.0%)</li>
-<li>Non-syndromic esophageal malformation | 96.89% | Congenital structural defect; low biological plausibility for any drug therapy (99.0%)</li>
-<li>Esophageal ulcer | 96.84% | Same oesophageal cluster as rank 1 and 3; no mechanistic evidence (99.0%)</li>
-<li>His bundle tachycardia | 95.95% | No known hCG action on cardiac conduction tissue (99.0%)</li>
-<li>Sinoatrial block | 95.88% | Likely clustering artefact with other cardiac-rhythm predictions (99.0%)</li>
-<li>Progressive familial heart block | 95.66% | Genetic ion-channel disorder; no hormonal mechanism pathway (99.0%)</li>
-<li>Sinoatrial node disease | 95.47% | Same cardiac-rhythm cluster; flagged as prediction noise (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>peptic esophagitis (98.4%)</li>
+<li>postural orthostatic tachycardia syndrome (98.3%)</li>
+<li>esophageal disease (97.6%)</li>
+<li>Raynaud disease (97.4%)</li>
+<li>non-syndromic esophageal malformation (96.9%)</li>
+<li>esophageal ulcer (96.8%)</li>
+<li>His bundle tachycardia (96.0%)</li>
+<li>sinoatrial block (95.9%)</li>
+<li>progressive familial heart block (95.7%)</li>
+<li>sinoatrial node disease (95.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/choriogonadotropin_alfa/' | relative_url }}">View full drug report →</a></p>

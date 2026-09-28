@@ -3,7 +3,7 @@ layout: default
 title: "Acitretin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Acitretin. Original indication: . 0 predicted indications."
+description: "Health news related to Acitretin. Original indication: . 10 predicted indications."
 permalink: /news/acitretin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/acitretin/
 ---
 
 <p class="key-answer" data-question="What news is there about Acitretin?">
-<strong>Acitretin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Acitretin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Acitretin with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>acne (disease) (99.9%)</li>
+<li>pediatric systemic lupus erythematosus (99.3%)</li>
+<li>fetal erythroblastosis (99.3%)</li>
+<li>familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome (99.1%)</li>
+<li>complement component 4a deficiency (98.9%)</li>
+<li>subacute bacterial endocarditis (98.5%)</li>
+<li>familial acanthosis nigricans (98.4%)</li>
+<li>prolapse of lacrimal gland (98.4%)</li>
+<li>urticaria, familial localized heat (98.4%)</li>
+<li>Sjogren syndrome (98.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/acitretin/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Guselkumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Guselkumab. Original indication: . 0 predicted indications."
+description: "Health news related to Guselkumab. Original indication: . 10 predicted indications."
 permalink: /news/guselkumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/guselkumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Guselkumab?">
-<strong>Guselkumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Guselkumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Guselkumab with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>drug-induced osteoporosis (99.8%)</li>
+<li>severe nonproliferative diabetic retinopathy (99.8%)</li>
+<li>psoriasis (99.8%)</li>
+<li>diabetic retinopathy (99.7%)</li>
+<li>renal osteodystrophy (99.7%)</li>
+<li>ulcerative colitis (disease) (99.7%)</li>
+<li>congenital hypotrichosis with juvenile macular dystrophy (99.7%)</li>
+<li>primary release disorder of platelets (99.6%)</li>
+<li>Glanzmann thrombasthenia (99.6%)</li>
+<li>non-renal secondary hyperparathyroidism (99.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/guselkumab/' | relative_url }}">View full drug report →</a></p>
 </div>

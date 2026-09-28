@@ -3,7 +3,7 @@ layout: default
 title: "Durvalumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Durvalumab. Original indication: . 0 predicted indications."
+description: "Health news related to Durvalumab. Original indication: . 10 predicted indications."
 permalink: /news/durvalumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/durvalumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Durvalumab?">
-<strong>Durvalumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Durvalumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Durvalumab with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>prostatic urethra urothelial carcinoma (100.0%)</li>
+<li>kidney pelvis sarcomatoid transitional cell carcinoma (100.0%)</li>
+<li>infiltrating bladder urothelial carcinoma sarcomatoid variant (100.0%)</li>
+<li>renal pelvis papillary urothelial carcinoma (100.0%)</li>
+<li>uterine ligament adenocarcinoma (99.9%)</li>
+<li>endocervical carcinoma (99.9%)</li>
+<li>adenoid cystic carcinoma of the cervix uteri (99.9%)</li>
+<li>uterine ligament serous adenocarcinoma (99.9%)</li>
+<li>signet ring cell variant cervical mucinous adenocarcinoma (99.9%)</li>
+<li>intestinal variant cervical mucinous adenocarcinoma (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/durvalumab/' | relative_url }}">View full drug report →</a></p>
 </div>

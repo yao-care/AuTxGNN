@@ -3,7 +3,7 @@ layout: default
 title: "Gabapentin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Gabapentin. Original indication: . 0 predicted indications."
+description: "Health news related to Gabapentin. Original indication: . 10 predicted indications."
 permalink: /news/gabapentin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/gabapentin/
 ---
 
 <p class="key-answer" data-question="What news is there about Gabapentin?">
-<strong>Gabapentin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Gabapentin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Gabapentin with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>acne (disease) (98.5%)</li>
+<li>adolescent/adult onset autosomal dominant epilepsy with auditory features (95.9%)</li>
+<li>epilepsy with generalized tonic-clonic seizures (94.6%)</li>
+<li>myofascial pain syndrome (93.0%)</li>
+<li>visual epilepsy (85.3%)</li>
+<li>active cochlear Meniere disease (83.4%)</li>
+<li>active cochleovestibular Meniere disease (83.4%)</li>
+<li>active vestibular Meniere disease (83.4%)</li>
+<li>trigeminal nerve neoplasm (82.9%)</li>
+<li>osteoarthritis susceptibility (82.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/gabapentin/' | relative_url }}">View full drug report →</a></p>
 </div>

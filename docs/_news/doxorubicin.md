@@ -3,7 +3,7 @@ layout: default
 title: "Doxorubicin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Doxorubicin. Original indication: . 0 predicted indications."
+description: "Health news related to Doxorubicin. Original indication: . 10 predicted indications."
 permalink: /news/doxorubicin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/doxorubicin/
 ---
 
 <p class="key-answer" data-question="What news is there about Doxorubicin?">
-<strong>Doxorubicin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Doxorubicin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Doxorubicin with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Ewing sarcoma (99.9%)</li>
+<li>well-differentiated fetal adenocarcinoma of the lung (99.9%)</li>
+<li>primary pulmonary lymphoma (99.8%)</li>
+<li>pulmonary blastoma (99.8%)</li>
+<li>chronic myelogenous leukemia, BCR-ABL1 positive (99.8%)</li>
+<li>monocytic leukemia (99.7%)</li>
+<li>botryoid-type embryonal rhabdomyosarcoma of the vagina (99.7%)</li>
+<li>parameningeal embryonal rhabdomyosarcoma (99.7%)</li>
+<li>rhabdomyosarcoma (disease) (99.7%)</li>
+<li>ganglioneuroblastoma (disease) (99.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/doxorubicin/' | relative_url }}">View full drug report →</a></p>
 </div>

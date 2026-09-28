@@ -3,7 +3,7 @@ layout: default
 title: "Bortezomib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bortezomib. Original indication: . 0 predicted indications."
+description: "Health news related to Bortezomib. Original indication: . 10 predicted indications."
 permalink: /news/bortezomib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bortezomib/
 ---
 
 <p class="key-answer" data-question="What news is there about Bortezomib?">
-<strong>Bortezomib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Bortezomib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Bortezomib with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>vertebral anomalies and variable endocrine and T-cell dysfunction (96.1%)</li>
+<li>ganglioneuroblastoma (disease) (96.0%)</li>
+<li>retroperitoneal neoplasm (95.6%)</li>
+<li>neuroblastoma (95.1%)</li>
+<li>Hodgkins lymphoma (85.1%)</li>
+<li>myeloid leukemia (83.8%)</li>
+<li>lymphoma, non-Hodgkin, familial (83.6%)</li>
+<li>colon adenocarcinoma (79.1%)</li>
+<li>lymph node cancer (78.0%)</li>
+<li>dermatofibrosarcoma protuberans (77.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/bortezomib/' | relative_url }}">View full drug report →</a></p>
 </div>

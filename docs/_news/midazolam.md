@@ -3,7 +3,7 @@ layout: default
 title: "Midazolam News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Midazolam. Original indication: . 0 predicted indications."
+description: "Health news related to Midazolam. Original indication: . 10 predicted indications."
 permalink: /news/midazolam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/midazolam/
 ---
 
 <p class="key-answer" data-question="What news is there about Midazolam?">
-<strong>Midazolam</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Midazolam</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Midazolam with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>insomnia (disease) (99.7%)</li>
+<li>myofascial pain syndrome (97.9%)</li>
+<li>obsessive-compulsive disorder (95.7%)</li>
+<li>tendinitis (93.5%)</li>
+<li>benign paroxysmal torticollis of infancy (93.5%)</li>
+<li>anxiety disorder (92.8%)</li>
+<li>agoraphobia (92.8%)</li>
+<li>myositis fibrosa (92.5%)</li>
+<li>idiopathic granulomatous myositis (92.5%)</li>
+<li>dysthymic disorder (92.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/midazolam/' | relative_url }}">View full drug report →</a></p>
 </div>

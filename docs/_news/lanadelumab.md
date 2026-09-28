@@ -3,7 +3,7 @@ layout: default
 title: "Lanadelumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lanadelumab. Original indication: . 0 predicted indications."
+description: "Health news related to Lanadelumab. Original indication: . 10 predicted indications."
 permalink: /news/lanadelumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lanadelumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Lanadelumab?">
-<strong>Lanadelumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Lanadelumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Lanadelumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>C1 inhibitor deficiency (100.0%)</li>
+<li>serpinopathy with toxic serpin polymerization (100.0%)</li>
+<li>pancreatitis (99.9%)</li>
+<li>pseudo-von Willebrand disease (99.5%)</li>
+<li>primary release disorder of platelets (99.5%)</li>
+<li>immune-mediated necrotizing myopathy (99.3%)</li>
+<li>Glanzmann thrombasthenia (99.3%)</li>
+<li>antisynthetase syndrome (99.3%)</li>
+<li>focal myositis (99.3%)</li>
+<li>Scott syndrome (99.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lanadelumab/' | relative_url }}">View full drug report →</a></p>
 </div>

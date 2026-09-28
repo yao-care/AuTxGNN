@@ -3,7 +3,7 @@ layout: default
 title: "Migalastat News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Migalastat. Original indication: . 0 predicted indications."
+description: "Health news related to Migalastat. Original indication: . 10 predicted indications."
 permalink: /news/migalastat/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/migalastat/
 ---
 
 <p class="key-answer" data-question="What news is there about Migalastat?">
-<strong>Migalastat</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Migalastat</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Migalastat with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hepatoportal sclerosis (98.8%)</li>
+<li>primitive portal vein thrombosis (98.8%)</li>
+<li>hepatopulmonary syndrome (98.8%)</li>
+<li>early-onset familial noncirrhotic portal hypertension (98.8%)</li>
+<li>idiopathic copper-associated cirrhosis (98.8%)</li>
+<li>hepatic porphyria (98.4%)</li>
+<li>mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (95.7%)</li>
+<li>disorder of tyrosine metabolism (93.9%)</li>
+<li>teratogenic Pierre Robin syndrome (93.6%)</li>
+<li>nodular regenerative hyperplasia of the liver (93.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/migalastat/' | relative_url }}">View full drug report →</a></p>
 </div>

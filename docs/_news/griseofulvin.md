@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Griseofulvin with the latest
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Myiasis | 99.41% | L5 | ❌ Dipteran larvae — antifungal mechanism irrelevant (99.0%)</li>
-<li>Wound myiasis | 99.34% | L5 | ❌ Same as above; no literature (99.0%)</li>
-<li>Creeping myiasis | 99.34% | L5 | ❌ Same as above; no literature (99.0%)</li>
-<li>Furuncular myiasis | 99.34% | L5 | ❌ Same as above; physical removal is standard care (99.0%)</li>
-<li>Echinococcus granulosus infection | 99.32% | L5 | ❌ Tapeworm disease — Albendazole/surgery is standard; Griseofulvin has no anthelmintic activity (99.0%)</li>
-<li>Cutaneous candidiasis | 98.71% | L4 | ❌ **Reverse evidence** — Griseofulvin is pharmacologically inactive against *Candida*; 20 retrieved references use it as a negative comparator (99.0%)</li>
-<li>Toxoplasmosis | 98.69% | L5 | ❌ Protozoan infection — standard therapy is Pyrimethamine + Sulfadiazine; no mechanistic link (99.0%)</li>
-<li>Alveolar echinococcosis | 98.36% | L5 | ❌ *Echinococcus multilocularis* tapeworm — same false positive pattern as rank 5 (99.0%)</li>
-<li>Blastomycosis | 97.08% | L4 | ❌ Dimorphic fungus — Griseofulvin has minimal in vitro activity; IDSA 2008 guidelines recommend Itraconazole or Amphotericin B; references are 1960–70s historical reviews only (99.0%)</li>
-<li>Bacteroidaceae infectious disease | 95.57% | L5 | ❌ Gram-negative anaerobic bacteria — Griseofulvin has no antibacterial activity; most egregious cross-domain model error (99.0%)</li>
+<li>myiasis (99.4%)</li>
+<li>wound myiasis (99.3%)</li>
+<li>creeping myiasis (99.3%)</li>
+<li>furuncular myiasis (99.3%)</li>
+<li>echinococcus granulosus infectious disease (99.3%)</li>
+<li>cutaneous candidiasis (98.7%)</li>
+<li>toxoplasmosis (98.7%)</li>
+<li>alveolar echinococcosis (98.4%)</li>
+<li>blastomycosis (97.1%)</li>
+<li>Bacteroidaceae infectious disease (95.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/griseofulvin/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Rituximab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Rituximab. Original indication: . 0 predicted indications."
+description: "Health news related to Rituximab. Original indication: . 10 predicted indications."
 permalink: /news/rituximab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/rituximab/
 ---
 
 <p class="key-answer" data-question="What news is there about Rituximab?">
-<strong>Rituximab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Rituximab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Rituximab with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>follicular lymphoma (96.1%)</li>
+<li>chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (93.6%)</li>
+<li>pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (93.6%)</li>
+<li>metastatic neoplasm (93.3%)</li>
+<li>malignant spiradenoma (93.2%)</li>
+<li>neoplasm of mature B-cells (92.8%)</li>
+<li>small intestinal Burkitt lymphoma (92.7%)</li>
+<li>small intestinal mucosa-associated lymphoid tissue lymphoma (92.3%)</li>
+<li>thyroid gland mucosa-associated lymphoid tissue lymphoma (92.3%)</li>
+<li>breast mucosa-associated lymphoid tissue lymphoma (92.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/rituximab/' | relative_url }}">View full drug report →</a></p>
 </div>

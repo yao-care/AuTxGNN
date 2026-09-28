@@ -3,7 +3,7 @@ layout: default
 title: "Thalidomide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Thalidomide. Original indication: . 0 predicted indications."
+description: "Health news related to Thalidomide. Original indication: . 10 predicted indications."
 permalink: /news/thalidomide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/thalidomide/
 ---
 
 <p class="key-answer" data-question="What news is there about Thalidomide?">
-<strong>Thalidomide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Thalidomide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Thalidomide with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>ganglioneuroblastoma (disease) (99.0%)</li>
+<li>vertebral anomalies and variable endocrine and T-cell dysfunction (99.0%)</li>
+<li>retroperitoneal neoplasm (98.7%)</li>
+<li>neuroblastoma (98.7%)</li>
+<li>brachydactyly-syndactyly syndrome (94.2%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (93.2%)</li>
+<li>rheumatoid arthritis (92.4%)</li>
+<li>myeloid leukemia (90.5%)</li>
+<li>indolent plasma cell myeloma (88.5%)</li>
+<li>acute lymphoblastic leukemia (disease) (74.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/thalidomide/' | relative_url }}">View full drug report →</a></p>
 </div>

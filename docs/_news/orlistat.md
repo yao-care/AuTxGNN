@@ -3,7 +3,7 @@ layout: default
 title: "Orlistat News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Orlistat. Original indication: . 0 predicted indications."
+description: "Health news related to Orlistat. Original indication: . 10 predicted indications."
 permalink: /news/orlistat/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/orlistat/
 ---
 
 <p class="key-answer" data-question="What news is there about Orlistat?">
-<strong>Orlistat</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Orlistat</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Orlistat with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hypervitaminosis (99.4%)</li>
+<li>proximal 16p11.2 microdeletion syndrome (98.9%)</li>
+<li>obsolete hypertelorism (disease) (97.8%)</li>
+<li>frontorhiny (96.6%)</li>
+<li>hypoalphalipoproteinemia (96.5%)</li>
+<li>obsolete susceptibility to ischemic stroke (92.0%)</li>
+<li>ABri amyloidosis (85.7%)</li>
+<li>fatty liver disease (85.3%)</li>
+<li>homozygous familial hypercholesterolemia (79.8%)</li>
+<li>amenorrhea (disease) (77.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/orlistat/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Ezetimibe News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ezetimibe. Original indication: . 0 predicted indications."
+description: "Health news related to Ezetimibe. Original indication: . 10 predicted indications."
 permalink: /news/ezetimibe/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ezetimibe/
 ---
 
 <p class="key-answer" data-question="What news is there about Ezetimibe?">
-<strong>Ezetimibe</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ezetimibe</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Ezetimibe with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hyperlipoproteinemia (99.6%)</li>
+<li>familial hypercholesterolemia (99.4%)</li>
+<li>hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency (99.2%)</li>
+<li>cholesterol-ester transfer protein deficiency (99.1%)</li>
+<li>HIV infectious disease (98.8%)</li>
+<li>hypercholesterolemia, autosomal dominant (98.8%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (98.7%)</li>
+<li>hyperlipidemia due to hepatic triglyceride lipase deficiency (98.6%)</li>
+<li>simian immunodeficiency virus infection (98.1%)</li>
+<li>feline acquired immunodeficiency syndrome (98.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ezetimibe/' | relative_url }}">View full drug report →</a></p>
 </div>

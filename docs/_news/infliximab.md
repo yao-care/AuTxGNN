@@ -3,7 +3,7 @@ layout: default
 title: "Infliximab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Infliximab. Original indication: . 9 predicted indications."
+description: "Health news related to Infliximab. Original indication: . 11 predicted indications."
 permalink: /news/infliximab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/infliximab/
 ---
 
 <p class="key-answer" data-question="What news is there about Infliximab?">
-<strong>Infliximab</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Infliximab</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Infliximab with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (9)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
 <li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome (90.2%)</li>
 <li>Brachydactyly-syndactyly syndrome (89.9%)</li>
 <li>Hypermobility of coccyx (82.5%)</li>
@@ -34,6 +34,8 @@ This page combines the AI-predicted indications for Infliximab with the latest h
 <li>Bronchitis (77.9%)</li>
 <li>Anus disease (≈ perianal Crohn's) (81.2%)</li>
 <li>Crohn disease of the esophagus (77.6%)</li>
+<li>rheumatoid vasculitis (85.3%)</li>
+<li>anus disease (81.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/infliximab/' | relative_url }}">View full drug report →</a></p>

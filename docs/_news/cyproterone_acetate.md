@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Cyproterone acetate with the
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Migraine disorder | 99.66% | L5 | Hold | No clinical or literature evidence (99.0%)</li>
-<li>Migraine with brainstem aura | 99.58% | L5 | Hold | No evidence; mechanistic link to posterior circulation is very weak (99.0%)</li>
-<li>Prinzmetal angina | 99.52% | L5 | Hold | ⚠️ CPA's prothrombotic effect may worsen coronary vasospasm events (99.0%)</li>
-<li>Antithrombin deficiency type 2 | 99.48% | L5 | Hold | ⛔ CONTRAINDICATION: CPA increases VTE risk in inherited thrombophilia (99.0%)</li>
-<li>Heparin cofactor 2 deficiency | 99.45% | L5 | Hold | ⛔ CONTRAINDICATION: CPA worsens coagulation imbalance (99.0%)</li>
-<li>Factor V excess with spontaneous thrombosis | 99.45% | L5 | Hold | ⛔ CONTRAINDICATION: CPA + Factor V Leiden = synergistic VTE risk (PMID 29614525) (99.0%)</li>
-<li>Migraine susceptibility (with/without aura) | 99.34% | L5 | Hold | 20 publications retrieved — all are epilepsy genetics papers with no CPA relevance (99.0%)</li>
-<li>Amenorrhea | 99.28% | L3 | Proceed with Guardrails | Best evidence: 4 clinical trials + 14 publications; mechanistic basis well-established (99.0%)</li>
-<li>Breast fibrocystic disease | 99.15% | L4 | Research Question | 4 publications; preclinical hypothesis only; dual hormonal effects uncertain (99.0%)</li>
-<li>Thrombophilia | 99.03% | L4 | Hold | ⛔ REVERSE CAUSATION: 18 publications all document CPA as a VTE risk factor, not a treatment (99.0%)</li>
+<li>migraine disorder (99.7%)</li>
+<li>migraine with brainstem aura (99.6%)</li>
+<li>Prinzmetal angina (99.5%)</li>
+<li>antithrombin deficiency type 2 (99.5%)</li>
+<li>heparin cofactor 2 deficiency (99.5%)</li>
+<li>factor 5 excess with spontaneous thrombosis (99.5%)</li>
+<li>migraine with or without aura, susceptibility to (99.3%)</li>
+<li>amenorrhea (disease) (99.3%)</li>
+<li>breast fibrocystic disease (99.2%)</li>
+<li>thrombophilia (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cyproterone_acetate/' | relative_url }}">View full drug report →</a></p>

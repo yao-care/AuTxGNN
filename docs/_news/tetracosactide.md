@@ -3,7 +3,7 @@ layout: default
 title: "Tetracosactide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tetracosactide. Original indication: . 0 predicted indications."
+description: "Health news related to Tetracosactide. Original indication: . 10 predicted indications."
 permalink: /news/tetracosactide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tetracosactide/
 ---
 
 <p class="key-answer" data-question="What news is there about Tetracosactide?">
-<strong>Tetracosactide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Tetracosactide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Tetracosactide with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>familial adrenal hypoplasia with absent pituitary luteinizing hormone (98.2%)</li>
+<li>adrenomyodystrophy (97.8%)</li>
+<li>Congenital adrenal insuffiency with 46, XY sex reversal OR 46,XY disorder of sex development-adrenal insufficiency due to CYP11A1 deficiency (97.5%)</li>
+<li>46,XY disorder of sex development (97.4%)</li>
+<li>PAGOD syndrome (97.3%)</li>
+<li>inherited isolated adrenal insufficiency due to partial CYP11A1 deficiency (97.2%)</li>
+<li>IMAGe syndrome (97.1%)</li>
+<li>adrenal cortex disease (92.8%)</li>
+<li>familial glucocorticoid deficiency (88.5%)</li>
+<li>glucocorticoid deficiency (86.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tetracosactide/' | relative_url }}">View full drug report →</a></p>
 </div>

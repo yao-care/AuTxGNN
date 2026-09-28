@@ -3,7 +3,7 @@ layout: default
 title: "Quinine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Quinine. Original indication: . 0 predicted indications."
+description: "Health news related to Quinine. Original indication: . 10 predicted indications."
 permalink: /news/quinine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/quinine/
 ---
 
 <p class="key-answer" data-question="What news is there about Quinine?">
-<strong>Quinine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Quinine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Quinine with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Smouldering systemic mastocytosis (96.9%)</li>
+<li>lymphoadenopathic mastocytosis with eosinophilia (96.2%)</li>
+<li>systemic mastocytosis (95.5%)</li>
+<li>nephrogenic syndrome of inappropriate antidiuresis (91.7%)</li>
+<li>thoracic malformation (81.8%)</li>
+<li>polycystic kidney disease 3 with or without polycystic liver disease (81.4%)</li>
+<li>trigeminal nerve neoplasm (81.3%)</li>
+<li>renal-hepatic-pancreatic dysplasia (80.9%)</li>
+<li>adult familial nephronophthisis-spastic quadriparesia syndrome (80.3%)</li>
+<li>karyomegalic interstitial nephritis (80.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/quinine/' | relative_url }}">View full drug report →</a></p>
 </div>

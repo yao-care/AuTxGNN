@@ -3,7 +3,7 @@ layout: default
 title: "Atovaquone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Atovaquone. Original indication: . 8 predicted indications."
+description: "Health news related to Atovaquone. Original indication: . 10 predicted indications."
 permalink: /news/atovaquone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/atovaquone/
 ---
 
 <p class="key-answer" data-question="What news is there about Atovaquone?">
-<strong>Atovaquone</strong> currently has <strong>0 news articles</strong>, with 8 predicted indications.
+<strong>Atovaquone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,15 +25,17 @@ This page combines the AI-predicted indications for Atovaquone with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (8)</strong>:<ul>
-<li>Leprosy | 94.24% | L5 | Hold (99.0%)</li>
-<li>Nocardiosis | 90.90% | L5 | Hold (99.0%)</li>
-<li>Facial nerve palsy (herpes zoster) | 89.16% | L5 | Hold (99.0%)</li>
-<li>Acne | 88.00% | L5 | Hold (99.0%)</li>
-<li>Creeping myiasis | 85.07% | L5 | Hold (99.0%)</li>
-<li>Wound myiasis | 85.07% | L5 | Hold (99.0%)</li>
-<li>Furuncular myiasis | 85.07% | L5 | Hold (99.0%)</li>
-<li>Myiasis | 82.88% | L5 | Hold (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>leprosy (94.2%)</li>
+<li>nocardiosis (90.9%)</li>
+<li>facial nerve palsy due to herpes zoster infection (89.2%)</li>
+<li>acne (disease) (88.0%)</li>
+<li>toxoplasmosis (86.7%)</li>
+<li>ocular toxoplasmosis (85.3%)</li>
+<li>creeping myiasis (85.1%)</li>
+<li>wound myiasis (85.1%)</li>
+<li>furuncular myiasis (85.1%)</li>
+<li>myiasis (82.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/atovaquone/' | relative_url }}">View full drug report →</a></p>

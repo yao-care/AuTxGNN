@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Saxagliptin with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Opsismodysplasia | 98.09% | L5 | No mechanistic link identified (99.0%)</li>
-<li>Classic stiff person syndrome | 97.66% | L5 | Autoimmune/GABAergic mechanism, unrelated to DPP-4 (99.0%)</li>
-<li>Focal stiff limb syndrome | 97.66% | L5 | Variant of #2, same reasoning (99.0%)</li>
-<li>Thiamine-responsive dysfunction syndrome | 97.50% | L5 | Diabetes phenotype present, but caused by thiamine transporter defect, not incretin pathway (99.0%)</li>
-<li>Drug-induced localized lipodystrophy | 96.35% | L5 | Local/injection-site process, not systemic incretin effect (99.0%)</li>
-<li>Pancreatic agenesis | 96.24% | **L4** | 2 publications found, but these describe **pancreatic histopathology risk from incretin-based drugs**, i.e. a potential safety signal, not efficacy evidence (99.0%)</li>
-<li>Centrifugal lipodystrophy | 96.12% | L5 | No mechanistic link identified (99.0%)</li>
-<li>Pressure-induced localized lipoatrophy | 96.02% | L5 | Physical/local mechanism, unrelated (99.0%)</li>
-<li>Idiopathic localized lipodystrophy | 95.75% | L5 | Cause unknown, no link established (99.0%)</li>
-<li>Autoimmune oophoritis | 85.22% | L5 | Lowest score of the set; autoimmune mechanism unrelated to DPP-4 (99.0%)</li>
+<li>opsismodysplasia (98.1%)</li>
+<li>classic stiff person syndrome (97.7%)</li>
+<li>focal stiff limb syndrome (97.7%)</li>
+<li>thiamine-responsive dysfunction syndrome (97.5%)</li>
+<li>drug-induced localized lipodystrophy (96.3%)</li>
+<li>pancreatic agenesis (96.2%)</li>
+<li>centrifugal lipodystrophy (96.1%)</li>
+<li>pressure-induced localized lipoatrophy (96.0%)</li>
+<li>idiopathic localized lipodystrophy (95.8%)</li>
+<li>autoimmune oophoritis (85.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/saxagliptin/' | relative_url }}">View full drug report →</a></p>

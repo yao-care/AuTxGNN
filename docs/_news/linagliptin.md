@@ -3,7 +3,7 @@ layout: default
 title: "Linagliptin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Linagliptin. Original indication: . 0 predicted indications."
+description: "Health news related to Linagliptin. Original indication: . 10 predicted indications."
 permalink: /news/linagliptin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/linagliptin/
 ---
 
 <p class="key-answer" data-question="What news is there about Linagliptin?">
-<strong>Linagliptin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Linagliptin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Linagliptin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>opsismodysplasia (94.9%)</li>
+<li>thiamine-responsive dysfunction syndrome (94.5%)</li>
+<li>classic stiff person syndrome (94.2%)</li>
+<li>focal stiff limb syndrome (94.2%)</li>
+<li>drug-induced localized lipodystrophy (91.8%)</li>
+<li>centrifugal lipodystrophy (91.5%)</li>
+<li>pressure-induced localized lipoatrophy (91.2%)</li>
+<li>pancreatic agenesis (91.2%)</li>
+<li>idiopathic localized lipodystrophy (90.8%)</li>
+<li>homozygous familial hypercholesterolemia (90.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/linagliptin/' | relative_url }}">View full drug report →</a></p>
 </div>

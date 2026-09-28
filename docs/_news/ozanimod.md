@@ -3,7 +3,7 @@ layout: default
 title: "Ozanimod News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ozanimod. Original indication: . 0 predicted indications."
+description: "Health news related to Ozanimod. Original indication: . 10 predicted indications."
 permalink: /news/ozanimod/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ozanimod/
 ---
 
 <p class="key-answer" data-question="What news is there about Ozanimod?">
-<strong>Ozanimod</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ozanimod</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Ozanimod with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>progressive relapsing multiple sclerosis (99.3%)</li>
+<li>transient neonatal thrombocytopenia (97.9%)</li>
+<li>thrombocytopenia (97.8%)</li>
+<li>marcothrombocytopenia with mitral valve insufficiency (97.7%)</li>
+<li>hereditary thrombocytopenia with normal platelets (97.7%)</li>
+<li>relapsing-remitting multiple sclerosis (97.7%)</li>
+<li>dense granule disease (97.5%)</li>
+<li>colonic neoplasm (96.7%)</li>
+<li>psoriasis (96.4%)</li>
+<li>cecum villous adenoma (96.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ozanimod/' | relative_url }}">View full drug report →</a></p>
 </div>

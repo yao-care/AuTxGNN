@@ -3,7 +3,7 @@ layout: default
 title: "Nusinersen News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nusinersen. Original indication: . 0 predicted indications."
+description: "Health news related to Nusinersen. Original indication: . 10 predicted indications."
 permalink: /news/nusinersen/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nusinersen/
 ---
 
 <p class="key-answer" data-question="What news is there about Nusinersen?">
-<strong>Nusinersen</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Nusinersen</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Nusinersen with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>fallopian tube serous adenofibroma (50.0%)</li>
+<li>pancreatic vasoactive intestinal peptide producing tumor (50.0%)</li>
+<li>salpingitis (50.0%)</li>
+<li>external ear squamous cell carcinoma (50.0%)</li>
+<li>isolated mesenteric vein thrombosis (50.0%)</li>
+<li>isolated splenic vein thrombosis (50.0%)</li>
+<li>epithelioid cell synovial sarcoma (50.0%)</li>
+<li>cellular ependymoma (50.0%)</li>
+<li>biphasic synovial sarcoma (50.0%)</li>
+<li>thymus squamous cell carcinoma (50.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nusinersen/' | relative_url }}">View full drug report →</a></p>
 </div>

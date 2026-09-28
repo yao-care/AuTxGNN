@@ -3,7 +3,7 @@ layout: default
 title: "Avanafil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Avanafil. Original indication: . 0 predicted indications."
+description: "Health news related to Avanafil. Original indication: . 10 predicted indications."
 permalink: /news/avanafil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/avanafil/
 ---
 
 <p class="key-answer" data-question="What news is there about Avanafil?">
-<strong>Avanafil</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Avanafil</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Avanafil with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>amenorrhea (disease) (94.6%)</li>
+<li>hypoalphalipoproteinemia (91.5%)</li>
+<li>malignant catarrh (90.6%)</li>
+<li>infectious bovine rhinotracheitis (90.6%)</li>
+<li>Raynaud disease (88.5%)</li>
+<li>Ambras type hypertrichosis universalis congenita (87.8%)</li>
+<li>obsolete susceptibility to ischemic stroke (87.3%)</li>
+<li>malformation syndrome with odontal and/or periodontal component (80.5%)</li>
+<li>stroke disorder (79.2%)</li>
+<li>adrenal gland hyperfunction (79.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/avanafil/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Romosozumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Romosozumab. Original indication: . 9 predicted indications."
+description: "Health news related to Romosozumab. Original indication: . 10 predicted indications."
 permalink: /news/romosozumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/romosozumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Romosozumab?">
-<strong>Romosozumab</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Romosozumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,16 +24,17 @@ This page combines the AI-predicted indications for Romosozumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Obsolete vitamin D deficiency | 97.83% | L5 | Hold (99.0%)</li>
-<li>Calcium-alkali syndrome | 97.44% | L5 | Hold (99.0%)</li>
-<li>Primary bone dysplasia (defective mineralization) | 97.27% | L5 | Hold (99.0%)</li>
-<li>Severe nonproliferative diabetic retinopathy | 95.01% | L5 | Hold (99.0%)</li>
-<li>Renal osteodystrophy | 94.28% | L3 | Research Question (99.0%)</li>
-<li>Osteomalacia | 93.47% | L4 | Hold (99.0%)</li>
-<li>Pregnancy-associated osteoporosis | 92.86% | L4 | Research Question (99.0%)</li>
-<li>Autosomal dominant neovascular inflammatory vitreoretinopathy | 92.43% | L5 | Hold (99.0%)</li>
-<li>Worth syndrome | 92.37% | L5 | Hold (mechanistically contraindicated — see below) (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>obsolete vitamin D deficiency (97.8%)</li>
+<li>calcium-alkali syndrome (97.4%)</li>
+<li>primary bone dysplasia with defective bone mineralization (97.3%)</li>
+<li>severe nonproliferative diabetic retinopathy (95.0%)</li>
+<li>renal osteodystrophy (94.3%)</li>
+<li>osteomalacia (disease) (93.5%)</li>
+<li>pregnancy associated osteoporosis (92.9%)</li>
+<li>autosomal dominant neovascular inflammatory vitreoretinopathy (92.4%)</li>
+<li>Worth syndrome (92.4%)</li>
+<li>impaired renal function disease (91.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/romosozumab/' | relative_url }}">View full drug report →</a></p>

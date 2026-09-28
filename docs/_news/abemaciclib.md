@@ -3,7 +3,7 @@ layout: default
 title: "Abemaciclib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Abemaciclib. Original indication: Abemaciclib is TGA-approved for:. 18 predicted indications."
+description: "Health news related to Abemaciclib. Original indication: Abemaciclib is TGA-approved for:. 10 predicted indications."
 permalink: /news/abemaciclib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/abemaciclib/
 ---
 
 <p class="key-answer" data-question="What news is there about Abemaciclib?">
-<strong>Abemaciclib</strong> currently has <strong>0 news articles</strong>, with 18 predicted indications.
+<strong>Abemaciclib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,25 +26,17 @@ This page combines the AI-predicted indications for Abemaciclib with the latest 
 <ul>
 <li><strong>Original indication</strong>: Abemaciclib is TGA-approved for:</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (18)</strong>:<ul>
-<li>Rheumatoid arthritis | 0.9732 | L5 | S0 | **Hold** (99.0%)</li>
-<li>Hyperthyroidism | 0.9717 | L5 | S0 | **Hold** (99.0%)</li>
-<li>Multiple endocrine neoplasia (MEN) | 0.9707 | L4 | S1 | **Research Question** (99.0%)</li>
-<li>Resistance to thyroid hormone (THR-β mutation) | 0.9688 | L5 | S0 | **Hold** (99.0%)</li>
-<li>Homozygous familial hypercholesterolaemia | 0.9656 | L5 | S0 | **Hold** (99.0%)</li>
-<li>Heart disease | 0.9630 | L5 | S0 | **Hold** ⚠️ (99.0%)</li>
-<li>Laubry-Pezzi syndrome | 0.9630 | L5 | S0 | **Hold** (99.0%)</li>
-<li>Pierre Robin syndrome (chromosomal) | 0.9629 | L5 | S0 | **Hold** (99.0%)</li>
-<li>Jeune syndrome with situs inversus | 0.9623 | L5 | S0 | **Hold** (99.0%)</li>
-<li>Amyotrophic lateral sclerosis (ALS) | 0.9623 | L4 | S1 | **Research Question** (99.0%)</li>
-<li>Abemaciclib and Vacuolin-1 decrease aggregate-prone TDP-43 accumulation by accelerating autophagic flux | Preclinical (in vitro) | **Direct evidence** that abemaciclib reduces TDP-43 aggregation via autophagy enhancement (99.0%)</li>
-<li>P97/VCP ATPase inhibitors can rescue p97 mutation-linked motor neuron degeneration | Preclinical (iPSC motor neurones) | Contextual evidence on protein homeostasis in motor neurone disease (99.0%)</li>
-<li>Systematic review/meta-analysis: QTc prolongation across CDK4/6 inhibitors | Cardiac risk signal (99.0%)</li>
-<li>Meta-analysis: QTc prolongation and major cardiovascular adverse events with CDK4/6 inhibitors | Cardiac risk signal (99.0%)</li>
-<li>FAERS analysis: QT prolongation and Torsades de Pointes with CDK4/6 inhibitors | Serious cardiac arrhythmia risk (99.0%)</li>
-<li>Case report: Coronary plaque erosion after abemaciclib initiation | Acute myocardial infarction (99.0%)</li>
-<li>Animal study: Abemaciclib causes cardiac damage and fibrosis in rats | Direct cardiotoxicity (99.0%)</li>
-<li>Review: Pre-existing cardiovascular comorbidity must guide CDK4/6 inhibitor selection | Clinical safety guidance (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>rheumatoid arthritis (97.3%)</li>
+<li>hyperthyroidism (97.2%)</li>
+<li>multiple endocrine neoplasia (97.1%)</li>
+<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (96.9%)</li>
+<li>homozygous familial hypercholesterolemia (96.6%)</li>
+<li>heart disease (96.3%)</li>
+<li>Laubry-Pezzi syndrome (96.3%)</li>
+<li>Pierre Robin syndrome associated with a chromosomal anomaly (96.3%)</li>
+<li>Jeune syndrome situs inversus (96.2%)</li>
+<li>amyotrophic lateral sclerosis (96.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/abemaciclib/' | relative_url }}">View full drug report →</a></p>

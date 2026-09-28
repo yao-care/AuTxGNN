@@ -3,7 +3,7 @@ layout: default
 title: "Permethrin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Permethrin. Original indication: . 0 predicted indications."
+description: "Health news related to Permethrin. Original indication: . 10 predicted indications."
 permalink: /news/permethrin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/permethrin/
 ---
 
 <p class="key-answer" data-question="What news is there about Permethrin?">
-<strong>Permethrin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Permethrin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Permethrin with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>trombiculiasis (95.2%)</li>
+<li>lip neoplasm (93.0%)</li>
+<li>lower lip fistula (92.9%)</li>
+<li>anisakiasis (91.3%)</li>
+<li>toxascariasis (91.3%)</li>
+<li>toxocariasis (91.2%)</li>
+<li>herpes labialis (89.6%)</li>
+<li>punctate epithelial keratoconjunctivitis (88.1%)</li>
+<li>nasopharyngitis (86.2%)</li>
+<li>tonsillitis (85.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/permethrin/' | relative_url }}">View full drug report →</a></p>
 </div>

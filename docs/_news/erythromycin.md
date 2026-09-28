@@ -3,7 +3,7 @@ layout: default
 title: "Erythromycin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Erythromycin. Original indication: . 0 predicted indications."
+description: "Health news related to Erythromycin. Original indication: . 10 predicted indications."
 permalink: /news/erythromycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/erythromycin/
 ---
 
 <p class="key-answer" data-question="What news is there about Erythromycin?">
-<strong>Erythromycin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Erythromycin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Erythromycin with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>punctate epithelial keratoconjunctivitis (99.9%)</li>
+<li>acute contagious conjunctivitis (99.5%)</li>
+<li>exposure keratitis (99.5%)</li>
+<li>lymphogranuloma venereum (99.0%)</li>
+<li>necrotizing ulcerative gingivitis (99.0%)</li>
+<li>polyclonal hyperviscosity syndrome (98.8%)</li>
+<li>hyperamylasemia (98.8%)</li>
+<li>postinfectious vasculitis (98.8%)</li>
+<li>post-bacterial disorder (98.8%)</li>
+<li>post-infectious syndrome (98.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/erythromycin/' | relative_url }}">View full drug report →</a></p>
 </div>

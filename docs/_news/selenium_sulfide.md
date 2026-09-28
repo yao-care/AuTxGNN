@@ -3,7 +3,7 @@ layout: default
 title: "Selenium Sulfide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Selenium Sulfide. Original indication: . 0 predicted indications."
+description: "Health news related to Selenium Sulfide. Original indication: . 10 predicted indications."
 permalink: /news/selenium_sulfide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/selenium_sulfide/
 ---
 
 <p class="key-answer" data-question="What news is there about Selenium Sulfide?">
-<strong>Selenium Sulfide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Selenium Sulfide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Selenium Sulfide with the la
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>vulvar inverted follicular keratosis (89.5%)</li>
+<li>cutaneous candidiasis (83.9%)</li>
+<li>acne keloid (79.9%)</li>
+<li>acrodermatitis chronica atrophicans (79.6%)</li>
+<li>neonatal dermatomyositis (78.7%)</li>
+<li>secondary interstitial lung disease specific to childhood associated with a connective tissue disease (77.4%)</li>
+<li>amyopathic dermatomyositis (77.1%)</li>
+<li>hydroa vacciniforme, familial (75.0%)</li>
+<li>lichen planus, familial (69.3%)</li>
+<li>acne (disease) (65.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/selenium_sulfide/' | relative_url }}">View full drug report →</a></p>
 </div>

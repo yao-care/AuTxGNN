@@ -3,7 +3,7 @@ layout: default
 title: "Hydroxychloroquine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Hydroxychloroquine. Original indication: . 0 predicted indications."
+description: "Health news related to Hydroxychloroquine. Original indication: . 10 predicted indications."
 permalink: /news/hydroxychloroquine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/hydroxychloroquine/
 ---
 
 <p class="key-answer" data-question="What news is there about Hydroxychloroquine?">
-<strong>Hydroxychloroquine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Hydroxychloroquine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Hydroxychloroquine with the 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Quinquaud's folliculitis decalvans (98.7%)</li>
+<li>telogen effluvium (98.5%)</li>
+<li>alopecia antibody deficiency (98.5%)</li>
+<li>alopecia mucinosa (98.5%)</li>
+<li>hereditary hypotrichosis with recurrent skin vesicles (98.4%)</li>
+<li>alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome (98.4%)</li>
+<li>alopecia areata (98.2%)</li>
+<li>rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (98.0%)</li>
+<li>juvenile chronic polyarthritis (97.8%)</li>
+<li>rheumatoid nodulosis (97.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/hydroxychloroquine/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Icatibant News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Icatibant. Original indication: . 0 predicted indications."
+description: "Health news related to Icatibant. Original indication: . 10 predicted indications."
 permalink: /news/icatibant/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/icatibant/
 ---
 
 <p class="key-answer" data-question="What news is there about Icatibant?">
-<strong>Icatibant</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Icatibant</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Icatibant with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>C1 inhibitor deficiency (100.0%)</li>
+<li>serpinopathy with toxic serpin polymerization (100.0%)</li>
+<li>pseudo-von Willebrand disease (99.2%)</li>
+<li>primary release disorder of platelets (99.1%)</li>
+<li>immune-mediated necrotizing myopathy (99.1%)</li>
+<li>antisynthetase syndrome (99.0%)</li>
+<li>Glanzmann thrombasthenia (99.0%)</li>
+<li>focal myositis (99.0%)</li>
+<li>Scott syndrome (98.8%)</li>
+<li>inflammatory myopathy with abundant macrophages (98.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/icatibant/' | relative_url }}">View full drug report →</a></p>
 </div>

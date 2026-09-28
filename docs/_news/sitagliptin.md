@@ -3,7 +3,7 @@ layout: default
 title: "Sitagliptin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sitagliptin. Original indication: . 0 predicted indications."
+description: "Health news related to Sitagliptin. Original indication: . 10 predicted indications."
 permalink: /news/sitagliptin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sitagliptin/
 ---
 
 <p class="key-answer" data-question="What news is there about Sitagliptin?">
-<strong>Sitagliptin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Sitagliptin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Sitagliptin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>opsismodysplasia (98.9%)</li>
+<li>focal stiff limb syndrome (98.7%)</li>
+<li>classic stiff person syndrome (98.7%)</li>
+<li>thiamine-responsive dysfunction syndrome (98.6%)</li>
+<li>drug-induced localized lipodystrophy (98.0%)</li>
+<li>pancreatic agenesis (97.9%)</li>
+<li>centrifugal lipodystrophy (97.9%)</li>
+<li>pressure-induced localized lipoatrophy (97.8%)</li>
+<li>idiopathic localized lipodystrophy (97.7%)</li>
+<li>autoimmune oophoritis (88.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sitagliptin/' | relative_url }}">View full drug report →</a></p>
 </div>

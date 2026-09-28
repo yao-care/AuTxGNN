@@ -3,7 +3,7 @@ layout: default
 title: "Ciclesonide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ciclesonide. Original indication: . 0 predicted indications."
+description: "Health news related to Ciclesonide. Original indication: . 10 predicted indications."
 permalink: /news/ciclesonide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ciclesonide/
 ---
 
 <p class="key-answer" data-question="What news is there about Ciclesonide?">
-<strong>Ciclesonide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ciclesonide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Ciclesonide with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>atopic eczema (100.0%)</li>
+<li>2-hydroxyethyl methacrylate sensitization (99.8%)</li>
+<li>dermatitis, atopic (99.7%)</li>
+<li>bronchitis (99.7%)</li>
+<li>contact dermatitis (99.2%)</li>
+<li>asthma-related traits, susceptibility to (99.1%)</li>
+<li>phototoxic dermatitis (98.8%)</li>
+<li>occupational dermatitis (98.7%)</li>
+<li>seborrheic dermatitis (98.5%)</li>
+<li>polyp of vocal cord (98.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ciclesonide/' | relative_url }}">View full drug report →</a></p>
 </div>

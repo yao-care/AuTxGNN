@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Rosuvastatin with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Cholesterol-ester transfer protein deficiency | 99.54% | L4 | S0 | Hold | Likely TxGNN entity-matching error — cited literature concerns unrelated disorders (Apo A-I, hepatic lipase deficiency) (99.0%)</li>
-<li>**Familial hypercholesterolaemia** | 99.54% | **L1** | S3 | **Proceed with Guardrails** | Strongest candidate — direct mechanism, extensive paediatric/adult trial base (99.0%)</li>
-<li>Hypercholesterolaemia due to CYP7A1 deficiency | 99.51% | L4 | S1 | Hold | Mechanistic rationale only; no trials in this rare disorder (99.0%)</li>
-<li>Brain stem infarction | 99.44% | L4 | S1 | Hold | Only animal/mechanistic and biomarker literature; no trials in this population (99.0%)</li>
-<li>HIV infectious disease | 99.37% | L2 | S2 | Research Question | Adjunct anti-inflammatory/cardiovascular use, not antiviral; watch for antiretroviral DDI (99.0%)</li>
-<li>Hypoalphalipoproteinemia (low HDL) | 99.25% | L3 | S1 | Research Question | Weak mechanistic fit; evidence mostly indirect (99.0%)</li>
-<li>Neurodevelopmental disorder (ataxic gait/absent speech) | 99.22% | L5 | S0 | Hold | No mechanism, trials, or literature — score only (99.0%)</li>
-<li>Hyperlipidaemia due to hepatic triglyceride lipase deficiency | 99.20% | L5 | S0 | Hold | No supporting evidence beyond model score (99.0%)</li>
-<li>ABri amyloidosis | 99.18% | L5 | S0 | Hold | No known mechanistic link; no evidence (99.0%)</li>
-<li>Hyperlipidaemia | 99.09% | L1 | S3 | Proceed with Guardrails | Mechanistically sound but overlaps with already-approved statin use — not true repurposing (99.0%)</li>
+<li>cholesterol-ester transfer protein deficiency (99.5%)</li>
+<li>familial hypercholesterolemia (99.5%)</li>
+<li>hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency (99.5%)</li>
+<li>brain stem infarction (99.4%)</li>
+<li>HIV infectious disease (99.4%)</li>
+<li>hypoalphalipoproteinemia (99.2%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.2%)</li>
+<li>hyperlipidemia due to hepatic triglyceride lipase deficiency (99.2%)</li>
+<li>ABri amyloidosis (99.2%)</li>
+<li>hyperlipidemia (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/rosuvastatin/' | relative_url }}">View full drug report →</a></p>

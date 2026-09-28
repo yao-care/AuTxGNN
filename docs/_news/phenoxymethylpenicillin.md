@@ -3,7 +3,7 @@ layout: default
 title: "Phenoxymethylpenicillin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Phenoxymethylpenicillin. Original indication: . 0 predicted indications."
+description: "Health news related to Phenoxymethylpenicillin. Original indication: . 10 predicted indications."
 permalink: /news/phenoxymethylpenicillin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/phenoxymethylpenicillin/
 ---
 
 <p class="key-answer" data-question="What news is there about Phenoxymethylpenicillin?">
-<strong>Phenoxymethylpenicillin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Phenoxymethylpenicillin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Phenoxymethylpenicillin with
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>epiglottitis (99.9%)</li>
+<li>laryngitis (99.8%)</li>
+<li>urinary tract infection (disease) (98.9%)</li>
+<li>gonococcal urethritis (98.8%)</li>
+<li>Ureaplasma urethritis (98.8%)</li>
+<li>urogenital tuberculosis (98.5%)</li>
+<li>lymph node palisaded myofibroblastoma (98.4%)</li>
+<li>celiac trunk compression syndrome (98.4%)</li>
+<li>abdominal cystic lymphangioma (98.4%)</li>
+<li>abdominal ectopic pregnancy (98.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/phenoxymethylpenicillin/' | relative_url }}">View full drug report →</a></p>
 </div>

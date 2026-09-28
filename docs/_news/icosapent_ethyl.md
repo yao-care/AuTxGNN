@@ -3,7 +3,7 @@ layout: default
 title: "Icosapent ethyl News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Icosapent ethyl. Original indication: . 0 predicted indications."
+description: "Health news related to Icosapent ethyl. Original indication: . 10 predicted indications."
 permalink: /news/icosapent_ethyl/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/icosapent_ethyl/
 ---
 
 <p class="key-answer" data-question="What news is there about Icosapent ethyl?">
-<strong>Icosapent ethyl</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Icosapent ethyl</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Icosapent ethyl with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hemoglobinopathy (99.1%)</li>
+<li>partial deletion of the short arm of chromosome 16 (98.7%)</li>
+<li>beta-thalassemia with other manifestations (98.7%)</li>
+<li>myocardial infarction (98.6%)</li>
+<li>hemolytic anemia due to glucophosphate isomerase deficiency (98.5%)</li>
+<li>pyruvate kinase deficiency of red cells (98.4%)</li>
+<li>pyropoikilocytosis, hereditary (98.4%)</li>
+<li>rheumatoid arthritis (98.1%)</li>
+<li>posterolateral myocardial infarction (98.1%)</li>
+<li>posteroinferior myocardial infarction (98.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/icosapent_ethyl/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Aprepitant News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Aprepitant. Original indication: . 0 predicted indications."
+description: "Health news related to Aprepitant. Original indication: . 10 predicted indications."
 permalink: /news/aprepitant/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/aprepitant/
 ---
 
 <p class="key-answer" data-question="What news is there about Aprepitant?">
-<strong>Aprepitant</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Aprepitant</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Aprepitant with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>nephrogenic syndrome of inappropriate antidiuresis (100.0%)</li>
+<li>hypertrichosis (disease) (99.9%)</li>
+<li>pulmonary hypertension (99.9%)</li>
+<li>leprosy (99.9%)</li>
+<li>Ambras type hypertrichosis universalis congenita (99.9%)</li>
+<li>malformation syndrome with odontal and/or periodontal component (99.9%)</li>
+<li>kyphoscoliotic heart disease (99.9%)</li>
+<li>syndrome with a Dandy-Walker malformation as major feature (99.9%)</li>
+<li>subarachnoid hemorrhage (disease) (99.8%)</li>
+<li>isolated genetic hair shaft abnormality (99.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/aprepitant/' | relative_url }}">View full drug report →</a></p>
 </div>

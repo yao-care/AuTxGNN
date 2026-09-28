@@ -3,7 +3,7 @@ layout: default
 title: "Racementhol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Racementhol. Original indication: . 0 predicted indications."
+description: "Health news related to Racementhol. Original indication: . 10 predicted indications."
 permalink: /news/racementhol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/racementhol/
 ---
 
 <p class="key-answer" data-question="What news is there about Racementhol?">
-<strong>Racementhol</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Racementhol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Racementhol with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>acne keloid (95.2%)</li>
+<li>acrodermatitis chronica atrophicans (94.9%)</li>
+<li>neonatal dermatomyositis (94.7%)</li>
+<li>secondary interstitial lung disease specific to childhood associated with a connective tissue disease (94.6%)</li>
+<li>amyopathic dermatomyositis (94.4%)</li>
+<li>hydroa vacciniforme, familial (94.0%)</li>
+<li>exanthem (disease) (92.4%)</li>
+<li>neurodermatitis (81.2%)</li>
+<li>postinfectious vasculitis (77.5%)</li>
+<li>post-bacterial disorder (77.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/racementhol/' | relative_url }}">View full drug report →</a></p>
 </div>

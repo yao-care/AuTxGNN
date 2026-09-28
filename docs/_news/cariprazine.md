@@ -3,7 +3,7 @@ layout: default
 title: "Cariprazine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cariprazine. Original indication: . 0 predicted indications."
+description: "Health news related to Cariprazine. Original indication: . 10 predicted indications."
 permalink: /news/cariprazine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cariprazine/
 ---
 
 <p class="key-answer" data-question="What news is there about Cariprazine?">
-<strong>Cariprazine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Cariprazine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Cariprazine with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>retinal dystrophy with or without extraocular anomalies (98.7%)</li>
+<li>hydranencephaly (disease) (98.5%)</li>
+<li>polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (98.4%)</li>
+<li>congenital disorder of glycosylation with defective fucosylation (98.4%)</li>
+<li>Charcot-Marie-Tooth disease, demyelinating, type 1G (98.3%)</li>
+<li>syndromic myopia (98.3%)</li>
+<li>myopia X-linked (98.2%)</li>
+<li>myopia 26, X-linked, female-limited (98.1%)</li>
+<li>atypical glycine encephalopathy (97.9%)</li>
+<li>distal 17p13.3 microdeletion syndrome (91.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cariprazine/' | relative_url }}">View full drug report →</a></p>
 </div>

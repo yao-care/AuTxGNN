@@ -3,7 +3,7 @@ layout: default
 title: "Idarubicin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Idarubicin. Original indication: . 0 predicted indications."
+description: "Health news related to Idarubicin. Original indication: . 10 predicted indications."
 permalink: /news/idarubicin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/idarubicin/
 ---
 
 <p class="key-answer" data-question="What news is there about Idarubicin?">
-<strong>Idarubicin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Idarubicin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Idarubicin with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>bulbar polio (97.0%)</li>
+<li>5q35 microduplication syndrome (94.9%)</li>
+<li>neuralgic amyotrophy (92.8%)</li>
+<li>amyotrophic neuralgia (92.2%)</li>
+<li>familial thrombocytosis (79.3%)</li>
+<li>reactive thrombocytosis (79.2%)</li>
+<li>ganglioneuroblastoma (disease) (78.4%)</li>
+<li>retroperitoneal neoplasm (77.4%)</li>
+<li>vertebral anomalies and variable endocrine and T-cell dysfunction (75.6%)</li>
+<li>obsolete Hodgkin's granuloma (72.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/idarubicin/' | relative_url }}">View full drug report →</a></p>
 </div>

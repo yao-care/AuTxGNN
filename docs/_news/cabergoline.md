@@ -3,7 +3,7 @@ layout: default
 title: "Cabergoline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cabergoline. Original indication: . 0 predicted indications."
+description: "Health news related to Cabergoline. Original indication: . 10 predicted indications."
 permalink: /news/cabergoline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cabergoline/
 ---
 
 <p class="key-answer" data-question="What news is there about Cabergoline?">
-<strong>Cabergoline</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Cabergoline</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Cabergoline with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pituitary adenocarcinoma (disease) (99.1%)</li>
+<li>progeria-short stature-pigmented nevi syndrome (99.1%)</li>
+<li>pituitary cancer (99.0%)</li>
+<li>cerebral palsy, spastic quadriplegic (99.0%)</li>
+<li>glaucoma (99.0%)</li>
+<li>progeroid syndrome, Petty type (99.0%)</li>
+<li>psychogenic movement disorders (99.0%)</li>
+<li>kleptomania (99.0%)</li>
+<li>primary orthostatic tremor (98.9%)</li>
+<li>multiple fibroadenoma of the breast (98.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cabergoline/' | relative_url }}">View full drug report →</a></p>
 </div>

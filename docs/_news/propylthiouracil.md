@@ -3,7 +3,7 @@ layout: default
 title: "Propylthiouracil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Propylthiouracil. Original indication: . 0 predicted indications."
+description: "Health news related to Propylthiouracil. Original indication: . 10 predicted indications."
 permalink: /news/propylthiouracil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/propylthiouracil/
 ---
 
 <p class="key-answer" data-question="What news is there about Propylthiouracil?">
-<strong>Propylthiouracil</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Propylthiouracil</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Propylthiouracil with the la
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (99.7%)</li>
+<li>neonatal thyrotoxicosis (99.4%)</li>
+<li>hyperthyroxinemia (99.1%)</li>
+<li>Hashimoto thyroiditis (98.2%)</li>
+<li>autoimmune thyroid disease (98.0%)</li>
+<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (96.6%)</li>
+<li>brain small vessel disease 1 with or without ocular anomalies (96.5%)</li>
+<li>diabetic nephropathy (95.0%)</li>
+<li>Prinzmetal angina (90.4%)</li>
+<li>primary hereditary glaucoma (90.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/propylthiouracil/' | relative_url }}">View full drug report →</a></p>
 </div>

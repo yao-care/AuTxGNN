@@ -3,7 +3,7 @@ layout: default
 title: "Bevacizumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bevacizumab. Original indication: . 0 predicted indications."
+description: "Health news related to Bevacizumab. Original indication: . 10 predicted indications."
 permalink: /news/bevacizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bevacizumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Bevacizumab?">
-<strong>Bevacizumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Bevacizumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Bevacizumab with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>epiglottis neoplasm (99.9%)</li>
+<li>benign neoplasm of tongue (99.9%)</li>
+<li>tumor of testis and paratestis (99.9%)</li>
+<li>benign neoplasm of hypopharynx (99.9%)</li>
+<li>benign neoplasm of floor of mouth (99.9%)</li>
+<li>cervical neuroblastoma (99.9%)</li>
+<li>cystic neoplasm (99.9%)</li>
+<li>nasal cavity inverting papilloma (99.9%)</li>
+<li>mesenchymoma (99.9%)</li>
+<li>schwannoma of jugular foramen (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/bevacizumab/' | relative_url }}">View full drug report →</a></p>
 </div>

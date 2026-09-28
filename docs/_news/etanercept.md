@@ -3,7 +3,7 @@ layout: default
 title: "Etanercept News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Etanercept. Original indication: . 0 predicted indications."
+description: "Health news related to Etanercept. Original indication: . 10 predicted indications."
 permalink: /news/etanercept/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/etanercept/
 ---
 
 <p class="key-answer" data-question="What news is there about Etanercept?">
-<strong>Etanercept</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Etanercept</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Etanercept with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>rheumatoid vasculitis (99.7%)</li>
+<li>hypermobility of coccyx (99.6%)</li>
+<li>inflammatory spondylopathy (99.6%)</li>
+<li>Kummell disease (99.5%)</li>
+<li>polyarticular juvenile rheumatoid arthritis (99.5%)</li>
+<li>vertebral disease (99.2%)</li>
+<li>rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (98.3%)</li>
+<li>rheumatoid nodulosis (98.2%)</li>
+<li>juvenile chronic polyarthritis (98.1%)</li>
+<li>WHIM syndrome (97.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/etanercept/' | relative_url }}">View full drug report →</a></p>
 </div>

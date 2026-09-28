@@ -3,7 +3,7 @@ layout: default
 title: "Oxybutynin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Oxybutynin. Original indication: . 0 predicted indications."
+description: "Health news related to Oxybutynin. Original indication: . 10 predicted indications."
 permalink: /news/oxybutynin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/oxybutynin/
 ---
 
 <p class="key-answer" data-question="What news is there about Oxybutynin?">
-<strong>Oxybutynin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Oxybutynin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Oxybutynin with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>restless legs syndrome (99.7%)</li>
+<li>gastroduodenitis (99.6%)</li>
+<li>peptic ulcer disease (99.3%)</li>
+<li>low compliance bladder (97.9%)</li>
+<li>nephrogenic syndrome of inappropriate antidiuresis (97.5%)</li>
+<li>insomnia (disease) (96.9%)</li>
+<li>attention deficit-hyperactivity disorder (95.1%)</li>
+<li>faciodigitogenital syndrome (95.0%)</li>
+<li>familial episodic pain syndrome with predominantly upper body involvement (92.6%)</li>
+<li>transient tic disorder (92.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/oxybutynin/' | relative_url }}">View full drug report →</a></p>
 </div>

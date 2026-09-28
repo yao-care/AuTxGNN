@@ -3,7 +3,7 @@ layout: default
 title: "Siltuximab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Siltuximab. Original indication: . 0 predicted indications."
+description: "Health news related to Siltuximab. Original indication: . 10 predicted indications."
 permalink: /news/siltuximab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/siltuximab/
 ---
 
 <p class="key-answer" data-question="What news is there about Siltuximab?">
-<strong>Siltuximab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Siltuximab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Siltuximab with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>extracutaneous mastocytoma (99.6%)</li>
+<li>hepatic infarction (99.4%)</li>
+<li>hepatic veno-occlusive disease (99.4%)</li>
+<li>peliosis hepatis (99.3%)</li>
+<li>Kaposi's sarcoma (disease) (99.3%)</li>
+<li>autosomal recessive familial Mediterranean fever (99.2%)</li>
+<li>aggressive systemic mastocytosis (99.2%)</li>
+<li>autosomal dominant familial periodic fever (99.0%)</li>
+<li>syndrome with combined immunodeficiency (98.8%)</li>
+<li>TAFRO syndrome (98.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/siltuximab/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Trimethoprim News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Trimethoprim. Original indication: . 0 predicted indications."
+description: "Health news related to Trimethoprim. Original indication: . 10 predicted indications."
 permalink: /news/trimethoprim/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/trimethoprim/
 ---
 
 <p class="key-answer" data-question="What news is there about Trimethoprim?">
-<strong>Trimethoprim</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Trimethoprim</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Trimethoprim with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>punctate epithelial keratoconjunctivitis (99.6%)</li>
+<li>conjunctivitis (disease) (99.2%)</li>
+<li>exposure keratitis (99.0%)</li>
+<li>postinfectious vasculitis (98.4%)</li>
+<li>post-bacterial disorder (98.4%)</li>
+<li>post-infectious syndrome (98.3%)</li>
+<li>infective urethral stricture (98.2%)</li>
+<li>otitis externa (98.1%)</li>
+<li>Chagas cardiomyopathy (98.1%)</li>
+<li>infection-related hemolytic uremic syndrome (98.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/trimethoprim/' | relative_url }}">View full drug report →</a></p>
 </div>

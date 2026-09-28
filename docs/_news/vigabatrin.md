@@ -3,7 +3,7 @@ layout: default
 title: "Vigabatrin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Vigabatrin. Original indication: . 0 predicted indications."
+description: "Health news related to Vigabatrin. Original indication: . 10 predicted indications."
 permalink: /news/vigabatrin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/vigabatrin/
 ---
 
 <p class="key-answer" data-question="What news is there about Vigabatrin?">
-<strong>Vigabatrin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Vigabatrin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Vigabatrin with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>intellectual disability, X-linked, with or without seizures, arx-related (98.7%)</li>
+<li>episodic kinesigenic dyskinesia (97.3%)</li>
+<li>1q44 microdeletion syndrome (96.7%)</li>
+<li>PURA-related severe neonatal hypotonia-seizures-encephalopathy syndrome due to a point mutation (96.6%)</li>
+<li>DK1-CDG (96.5%)</li>
+<li>microtriplication 11q24.1 (96.3%)</li>
+<li>CCDC115-CDG (96.3%)</li>
+<li>neonatal period electroclinical syndrome (96.2%)</li>
+<li>genetic lethal multiple congenital anomalies/dysmorphic syndrome (96.2%)</li>
+<li>COG2-CDG (96.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/vigabatrin/' | relative_url }}">View full drug report →</a></p>
 </div>

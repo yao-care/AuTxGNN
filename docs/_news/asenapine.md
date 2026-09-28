@@ -3,7 +3,7 @@ layout: default
 title: "Asenapine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Asenapine. Original indication: . 0 predicted indications."
+description: "Health news related to Asenapine. Original indication: . 10 predicted indications."
 permalink: /news/asenapine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/asenapine/
 ---
 
 <p class="key-answer" data-question="What news is there about Asenapine?">
-<strong>Asenapine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Asenapine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Asenapine with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>retinal dystrophy with or without extraocular anomalies (99.8%)</li>
+<li>congenital disorder of glycosylation with defective fucosylation (99.8%)</li>
+<li>hydranencephaly (disease) (99.7%)</li>
+<li>syndromic myopia (99.7%)</li>
+<li>myopia X-linked (99.7%)</li>
+<li>Charcot-Marie-Tooth disease, demyelinating, type 1G (99.7%)</li>
+<li>polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (99.7%)</li>
+<li>myopia 26, X-linked, female-limited (99.7%)</li>
+<li>atypical glycine encephalopathy (99.6%)</li>
+<li>major affective disorder (99.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/asenapine/' | relative_url }}">View full drug report →</a></p>
 </div>

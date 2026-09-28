@@ -3,7 +3,7 @@ layout: default
 title: "Cannabidiol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cannabidiol. Original indication: . 0 predicted indications."
+description: "Health news related to Cannabidiol. Original indication: . 10 predicted indications."
 permalink: /news/cannabidiol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cannabidiol/
 ---
 
 <p class="key-answer" data-question="What news is there about Cannabidiol?">
-<strong>Cannabidiol</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Cannabidiol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Cannabidiol with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>restless legs syndrome (96.2%)</li>
+<li>bilateral parasagittal parieto-occipital polymicrogyria (96.0%)</li>
+<li>axial spondylometaphyseal dysplasia (94.2%)</li>
+<li>amyotrophic lateral sclerosis (94.2%)</li>
+<li>trichomegaly-retina pigmentary degeneration-dwarfism syndrome (93.8%)</li>
+<li>episodic kinesigenic dyskinesia (93.7%)</li>
+<li>Mills syndrome (93.4%)</li>
+<li>amyotrophic lateral sclerosis, susceptibility to (93.4%)</li>
+<li>lower motor neuron syndrome with late-adult onset (93.2%)</li>
+<li>lethal arthrogryposis-anterior horn cell disease syndrome (93.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cannabidiol/' | relative_url }}">View full drug report →</a></p>
 </div>

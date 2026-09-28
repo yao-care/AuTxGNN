@@ -3,7 +3,7 @@ layout: default
 title: "Mesalazine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mesalazine. Original indication: . 0 predicted indications."
+description: "Health news related to Mesalazine. Original indication: . 10 predicted indications."
 permalink: /news/mesalazine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mesalazine/
 ---
 
 <p class="key-answer" data-question="What news is there about Mesalazine?">
-<strong>Mesalazine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Mesalazine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Mesalazine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>congenital hypotrichosis with juvenile macular dystrophy (99.7%)</li>
+<li>osteoarthritis (99.6%)</li>
+<li>rheumatoid arthritis (99.6%)</li>
+<li>seborrheic keratosis (99.5%)</li>
+<li>osteoarthritis susceptibility (99.3%)</li>
+<li>vulvar inverted follicular keratosis (99.3%)</li>
+<li>pseudoachondroplasia (99.2%)</li>
+<li>acromesomelic dysplasia, Hunter-Thompson type (99.0%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.0%)</li>
+<li>brachydactyly-syndactyly syndrome (98.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/mesalazine/' | relative_url }}">View full drug report →</a></p>
 </div>

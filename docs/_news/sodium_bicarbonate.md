@@ -3,7 +3,7 @@ layout: default
 title: "Sodium bicarbonate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sodium bicarbonate. Original indication: . 0 predicted indications."
+description: "Health news related to Sodium bicarbonate. Original indication: . 10 predicted indications."
 permalink: /news/sodium_bicarbonate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sodium_bicarbonate/
 ---
 
 <p class="key-answer" data-question="What news is there about Sodium bicarbonate?">
-<strong>Sodium bicarbonate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Sodium bicarbonate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Sodium bicarbonate with the 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>bronchitis (97.9%)</li>
+<li>irritable bowel syndrome (96.9%)</li>
+<li>open-angle glaucoma (96.7%)</li>
+<li>hyperthyroidism (96.6%)</li>
+<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (96.6%)</li>
+<li>primary hereditary glaucoma (96.5%)</li>
+<li>anaphylaxis (95.2%)</li>
+<li>hyperthyroxinemia (95.1%)</li>
+<li>food-dependent exercise-induced anaphylaxis (95.1%)</li>
+<li>esotropia (94.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sodium_bicarbonate/' | relative_url }}">View full drug report →</a></p>
 </div>

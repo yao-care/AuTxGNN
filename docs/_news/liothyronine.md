@@ -3,7 +3,7 @@ layout: default
 title: "Liothyronine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Liothyronine. Original indication: . 0 predicted indications."
+description: "Health news related to Liothyronine. Original indication: . 10 predicted indications."
 permalink: /news/liothyronine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/liothyronine/
 ---
 
 <p class="key-answer" data-question="What news is there about Liothyronine?">
-<strong>Liothyronine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Liothyronine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Liothyronine with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>renal hypodysplasia/aplasia (100.0%)</li>
+<li>bilateral renal agenesis (99.9%)</li>
+<li>nodular goiter (disease) (99.9%)</li>
+<li>Carney complex (99.9%)</li>
+<li>peripheral dysostosis (99.9%)</li>
+<li>Potter sequence (99.9%)</li>
+<li>acrodysostosis with or without hormone resistance (99.9%)</li>
+<li>angiomyxoma (99.9%)</li>
+<li>myxoma (99.9%)</li>
+<li>hypotrichosis simplex of the scalp (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/liothyronine/' | relative_url }}">View full drug report →</a></p>
 </div>

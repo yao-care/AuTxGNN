@@ -3,7 +3,7 @@ layout: default
 title: "Cetuximab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cetuximab. Original indication: . 7 predicted indications."
+description: "Health news related to Cetuximab. Original indication: . 10 predicted indications."
 permalink: /news/cetuximab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cetuximab/
 ---
 
 <p class="key-answer" data-question="What news is there about Cetuximab?">
-<strong>Cetuximab</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
+<strong>Cetuximab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,14 +24,17 @@ This page combines the AI-predicted indications for Cetuximab with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (7)</strong>:<ul>
-<li>Bronchial adenomas/carcinoids, childhood | 99.95% | L5 | S0 | Hold (99.0%)</li>
-<li>Chondroid hamartoma | 99.95% | L5 | S0 | Hold (99.0%)</li>
-<li>Ductal or ductular proliferation | 99.95% | L5 | S0 | Hold (literature keyword mismatch — hepatic ductular reaction, not cancer) (99.0%)</li>
-<li>Non-seminomatous lesion | 99.95% | L5 | S0 | Hold (99.0%)</li>
-<li>Tumor of testis and paratestis | 99.95% | L5 | S0 | Hold (99.0%)</li>
-<li>Odontogenic cyst | 99.95% | L4 | S1 | Research Question (2 case reports only) (99.0%)</li>
-<li>Epiglottis neoplasm | 99.95% | L4 | S1 | Research Question (mechanistic extrapolation only, no direct evidence) (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>bronchial adenomas/carcinoids childhood (100.0%)</li>
+<li>chondroid hamartoma (100.0%)</li>
+<li>ductal or ductular proliferation (100.0%)</li>
+<li>non-seminomatous lesion (100.0%)</li>
+<li>tumor of testis and paratestis (100.0%)</li>
+<li>odontogenic cyst (100.0%)</li>
+<li>thyroglossal duct cyst (100.0%)</li>
+<li>cystic neoplasm (100.0%)</li>
+<li>epiglottis neoplasm (100.0%)</li>
+<li>pre-malignant neoplasm (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cetuximab/' | relative_url }}">View full drug report →</a></p>

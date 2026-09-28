@@ -3,7 +3,7 @@ layout: default
 title: "Lipegfilgrastim News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lipegfilgrastim. Original indication: . 0 predicted indications."
+description: "Health news related to Lipegfilgrastim. Original indication: . 10 predicted indications."
 permalink: /news/lipegfilgrastim/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lipegfilgrastim/
 ---
 
 <p class="key-answer" data-question="What news is there about Lipegfilgrastim?">
-<strong>Lipegfilgrastim</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Lipegfilgrastim</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Lipegfilgrastim with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>primary release disorder of platelets (99.9%)</li>
+<li>severe nonproliferative diabetic retinopathy (99.9%)</li>
+<li>pseudo-von Willebrand disease (99.9%)</li>
+<li>Glanzmann thrombasthenia (99.9%)</li>
+<li>diabetic retinopathy (99.8%)</li>
+<li>hemorrhagic disorder due to a constitutional thrombocytopenia (99.0%)</li>
+<li>thrombocytopenia due to immune destruction (99.0%)</li>
+<li>bleeding diathesis due to a collagen receptor defect (98.9%)</li>
+<li>Scott syndrome (98.8%)</li>
+<li>drug-induced osteoporosis (98.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lipegfilgrastim/' | relative_url }}">View full drug report →</a></p>
 </div>

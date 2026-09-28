@@ -3,7 +3,7 @@ layout: default
 title: "Ibandronate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ibandronate. Original indication: . 0 predicted indications."
+description: "Health news related to Ibandronate. Original indication: . 10 predicted indications."
 permalink: /news/ibandronate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ibandronate/
 ---
 
 <p class="key-answer" data-question="What news is there about Ibandronate?">
-<strong>Ibandronate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ibandronate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Ibandronate with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>duodenal ulcer (disease) (97.8%)</li>
+<li>duodenogastric reflux (96.9%)</li>
+<li>duodenal obstruction (96.4%)</li>
+<li>Worth syndrome (94.7%)</li>
+<li>autosomal dominant neovascular inflammatory vitreoretinopathy (91.3%)</li>
+<li>digitalis poisoning (89.0%)</li>
+<li>pregnancy associated osteoporosis (88.6%)</li>
+<li>succinyl-CoA:3-ketoacid CoA transferase deficiency (88.0%)</li>
+<li>multiple endocrine neoplasia (80.8%)</li>
+<li>calcium-alkali syndrome (78.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ibandronate/' | relative_url }}">View full drug report →</a></p>
 </div>

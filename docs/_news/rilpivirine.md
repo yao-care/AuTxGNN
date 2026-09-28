@@ -3,7 +3,7 @@ layout: default
 title: "Rilpivirine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Rilpivirine. Original indication: . 0 predicted indications."
+description: "Health news related to Rilpivirine. Original indication: . 10 predicted indications."
 permalink: /news/rilpivirine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/rilpivirine/
 ---
 
 <p class="key-answer" data-question="What news is there about Rilpivirine?">
-<strong>Rilpivirine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Rilpivirine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Rilpivirine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>feline acquired immunodeficiency syndrome (100.0%)</li>
+<li>simian immunodeficiency virus infection (100.0%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (100.0%)</li>
+<li>AIDS related complex (99.6%)</li>
+<li>congenital human immunodeficiency virus (99.6%)</li>
+<li>obsolete familial combined hyperlipidemia (98.6%)</li>
+<li>chronic hepatitis C virus infection (95.2%)</li>
+<li>fibroma of prostate (93.9%)</li>
+<li>benign reproductive system neoplasm (93.2%)</li>
+<li>Brenner tumor (93.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/rilpivirine/' | relative_url }}">View full drug report →</a></p>
 </div>

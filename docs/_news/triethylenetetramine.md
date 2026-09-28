@@ -3,7 +3,7 @@ layout: default
 title: "Triethylenetetramine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Triethylenetetramine. Original indication: . 0 predicted indications."
+description: "Health news related to Triethylenetetramine. Original indication: . 10 predicted indications."
 permalink: /news/triethylenetetramine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/triethylenetetramine/
 ---
 
 <p class="key-answer" data-question="What news is there about Triethylenetetramine?">
-<strong>Triethylenetetramine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Triethylenetetramine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Triethylenetetramine with th
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>thyroid gland undifferentiated (anaplastic) carcinoma (99.9%)</li>
+<li>hepatopulmonary syndrome (99.8%)</li>
+<li>early-onset familial noncirrhotic portal hypertension (99.8%)</li>
+<li>primitive portal vein thrombosis (99.8%)</li>
+<li>idiopathic copper-associated cirrhosis (99.8%)</li>
+<li>hepatoportal sclerosis (99.8%)</li>
+<li>hepatic porphyria (99.7%)</li>
+<li>disorder of tyrosine metabolism (98.8%)</li>
+<li>renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions (98.8%)</li>
+<li>renal cell carcinoma associated with neuroblastoma (98.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/triethylenetetramine/' | relative_url }}">View full drug report →</a></p>
 </div>

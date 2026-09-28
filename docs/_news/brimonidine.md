@@ -3,7 +3,7 @@ layout: default
 title: "Brimonidine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Brimonidine. Original indication: . 2 predicted indications."
+description: "Health news related to Brimonidine. Original indication: . 10 predicted indications."
 permalink: /news/brimonidine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/brimonidine/
 ---
 
 <p class="key-answer" data-question="What news is there about Brimonidine?">
-<strong>Brimonidine</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Brimonidine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,9 +25,17 @@ This page combines the AI-predicted indications for Brimonidine with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>Primary Hereditary Glaucoma | 96.90% | L4 | α2 agonism reduces IOP — directly addresses the core pathology (MYOC/OPTN/TBK1 mutations); additional neuroprotection potential (99.0%)</li>
-<li>Rosacea Conjunctivitis | 94.65% | L4 | FDA-approved Mirvaso rosacea mechanism (vasoconstriction) may extend to ocular rosacea vascular pathology (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>papillary conjunctivitis (98.5%)</li>
+<li>primary hereditary glaucoma (96.9%)</li>
+<li>lichen disease (95.2%)</li>
+<li>congenital hypotrichosis milia (94.8%)</li>
+<li>rosacea conjunctivitis (94.7%)</li>
+<li>hypotrichosis simplex of the scalp (94.6%)</li>
+<li>diffuse alopecia areata (94.0%)</li>
+<li>hypertrophic lichen planus (93.2%)</li>
+<li>annular atrophic lichen planus (93.2%)</li>
+<li>lichen planus pigmentosus (93.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/brimonidine/' | relative_url }}">View full drug report →</a></p>

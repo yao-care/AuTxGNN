@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Tofacitinib with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Colobomatous microphthalmia–rhizomelic dysplasia syndrome | 98.96% | L5 | S0 | Hold (99.0%)</li>
-<li>Brachydactyly–syndactyly syndrome | 98.88% | L5 | S0 | Hold (99.0%)</li>
-<li>Indolent plasma cell myeloma | 96.66% | L5 | S0 | Hold (99.0%)</li>
-<li>**Plasma cell myeloma** | 96.09% | **L4** | **S1** | **Research Question** (99.0%)</li>
-<li>Myeloid leukemia | 95.43% | L4 | S0 | Hold (safety signal) (99.0%)</li>
-<li>Ganglioneuroblastoma | 79.55% | L5 | S0 | Hold (99.0%)</li>
-<li>Macrothrombocytopenia with mitral valve insufficiency | 76.17% | L5 | S0 | Hold (99.0%)</li>
-<li>Hereditary thrombocytopenia with normal platelets | 75.76% | L5 | S0 | Hold (99.0%)</li>
-<li>Vertebral anomalies with variable endocrine and T-cell dysfunction | 75.34% | L5 | S0 | Hold (99.0%)</li>
-<li>Retroperitoneal neoplasm | 75.26% | L5 | S0 | Hold (99.0%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.0%)</li>
+<li>brachydactyly-syndactyly syndrome (98.9%)</li>
+<li>indolent plasma cell myeloma (96.7%)</li>
+<li>plasma cell myeloma (96.1%)</li>
+<li>myeloid leukemia (95.4%)</li>
+<li>ganglioneuroblastoma (disease) (79.5%)</li>
+<li>marcothrombocytopenia with mitral valve insufficiency (76.2%)</li>
+<li>hereditary thrombocytopenia with normal platelets (75.8%)</li>
+<li>vertebral anomalies and variable endocrine and T-cell dysfunction (75.3%)</li>
+<li>retroperitoneal neoplasm (75.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tofacitinib/' | relative_url }}">View full drug report →</a></p>

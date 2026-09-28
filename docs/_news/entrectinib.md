@@ -3,7 +3,7 @@ layout: default
 title: "Entrectinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Entrectinib. Original indication: . 0 predicted indications."
+description: "Health news related to Entrectinib. Original indication: . 10 predicted indications."
 permalink: /news/entrectinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/entrectinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Entrectinib?">
-<strong>Entrectinib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Entrectinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Entrectinib with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>multiple endocrine neoplasia (98.6%)</li>
+<li>amenorrhea (disease) (98.4%)</li>
+<li>thrombocytopenia (98.1%)</li>
+<li>cytomegalovirus infection (98.0%)</li>
+<li>pulmonary hypertension (97.9%)</li>
+<li>marcothrombocytopenia with mitral valve insufficiency (97.8%)</li>
+<li>hereditary thrombocytopenia with normal platelets (97.8%)</li>
+<li>female breast carcinoma (97.8%)</li>
+<li>transient neonatal thrombocytopenia (97.8%)</li>
+<li>infectious bovine rhinotracheitis (97.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/entrectinib/' | relative_url }}">View full drug report →</a></p>
 </div>

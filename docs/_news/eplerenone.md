@@ -3,7 +3,7 @@ layout: default
 title: "Eplerenone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Eplerenone. Original indication: . 0 predicted indications."
+description: "Health news related to Eplerenone. Original indication: . 10 predicted indications."
 permalink: /news/eplerenone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/eplerenone/
 ---
 
 <p class="key-answer" data-question="What news is there about Eplerenone?">
-<strong>Eplerenone</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Eplerenone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Eplerenone with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.5%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (99.5%)</li>
+<li>malignant renovascular hypertension (99.5%)</li>
+<li>malignant hypertensive renal disease (99.5%)</li>
+<li>Braddock syndrome (99.3%)</li>
+<li>chronic pulmonary heart disease (95.6%)</li>
+<li>obsolete susceptibility to ischemic stroke (86.3%)</li>
+<li>brain stem infarction (77.2%)</li>
+<li>cerebrovascular disorder (69.6%)</li>
+<li>cerebral artery occlusion (68.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/eplerenone/' | relative_url }}">View full drug report →</a></p>
 </div>

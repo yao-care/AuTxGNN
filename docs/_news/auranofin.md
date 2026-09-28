@@ -3,7 +3,7 @@ layout: default
 title: "Auranofin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Auranofin. Original indication: . 0 predicted indications."
+description: "Health news related to Auranofin. Original indication: . 10 predicted indications."
 permalink: /news/auranofin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/auranofin/
 ---
 
 <p class="key-answer" data-question="What news is there about Auranofin?">
-<strong>Auranofin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Auranofin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Auranofin with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.6%)</li>
+<li>brachydactyly-syndactyly syndrome (99.2%)</li>
+<li>osteoarthritis susceptibility (91.8%)</li>
+<li>acromesomelic dysplasia, Hunter-Thompson type (77.2%)</li>
+<li>brachyolmia-amelogenesis imperfecta syndrome (73.5%)</li>
+<li>brachyolmia (72.9%)</li>
+<li>myosclerosis (68.3%)</li>
+<li>cholangiocarcinoma, susceptibility to (64.1%)</li>
+<li>arthropathy (62.8%)</li>
+<li>osteoarthritis (61.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/auranofin/' | relative_url }}">View full drug report →</a></p>
 </div>

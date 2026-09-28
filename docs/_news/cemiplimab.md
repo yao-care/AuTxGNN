@@ -3,7 +3,7 @@ layout: default
 title: "Cemiplimab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cemiplimab. Original indication: . 0 predicted indications."
+description: "Health news related to Cemiplimab. Original indication: . 10 predicted indications."
 permalink: /news/cemiplimab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cemiplimab/
 ---
 
 <p class="key-answer" data-question="What news is there about Cemiplimab?">
-<strong>Cemiplimab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Cemiplimab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Cemiplimab with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>gallbladder adenosquamous carcinoma (100.0%)</li>
+<li>glottis squamous cell carcinoma (100.0%)</li>
+<li>rectal cloacogenic carcinoma (100.0%)</li>
+<li>external ear basal cell carcinoma (100.0%)</li>
+<li>adenosquamous prostate carcinoma (100.0%)</li>
+<li>urethral verrucous carcinoma (100.0%)</li>
+<li>lung occult squamous cell carcinoma (100.0%)</li>
+<li>pancreatic adenosquamous carcinoma (100.0%)</li>
+<li>non-keratinizing sinonasal squamous cell carcinoma (100.0%)</li>
+<li>supraglottis squamous cell carcinoma (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cemiplimab/' | relative_url }}">View full drug report →</a></p>
 </div>

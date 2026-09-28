@@ -3,7 +3,7 @@ layout: default
 title: "Tiagabine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tiagabine. Original indication: . 0 predicted indications."
+description: "Health news related to Tiagabine. Original indication: . 10 predicted indications."
 permalink: /news/tiagabine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tiagabine/
 ---
 
 <p class="key-answer" data-question="What news is there about Tiagabine?">
-<strong>Tiagabine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Tiagabine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Tiagabine with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>visual epilepsy (99.2%)</li>
+<li>restless legs syndrome (98.8%)</li>
+<li>startle epilepsy (98.8%)</li>
+<li>thinking seizures (98.8%)</li>
+<li>eating seizures (98.8%)</li>
+<li>orgasm-induced seizures (98.8%)</li>
+<li>micturation-induced seizures (98.8%)</li>
+<li>audiogenic seizures (98.8%)</li>
+<li>status epilepticus (98.7%)</li>
+<li>adolescent/adult onset autosomal dominant epilepsy with auditory features (98.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tiagabine/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Probenecid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Probenecid. Original indication: . 0 predicted indications."
+description: "Health news related to Probenecid. Original indication: . 10 predicted indications."
 permalink: /news/probenecid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/probenecid/
 ---
 
 <p class="key-answer" data-question="What news is there about Probenecid?">
-<strong>Probenecid</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Probenecid</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Probenecid with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hypouricemia, renal (99.7%)</li>
+<li>Lesch-Nyhan syndrome (99.4%)</li>
+<li>hypoxanthine guanine phosphoribosyltransferase partial deficiency (99.4%)</li>
+<li>cholelithiasis (97.7%)</li>
+<li>hepatopulmonary syndrome (96.6%)</li>
+<li>early-onset familial noncirrhotic portal hypertension (96.6%)</li>
+<li>idiopathic copper-associated cirrhosis (96.6%)</li>
+<li>primitive portal vein thrombosis (96.6%)</li>
+<li>hepatoportal sclerosis (96.6%)</li>
+<li>disorder of phenylalanine metabolism (96.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/probenecid/' | relative_url }}">View full drug report →</a></p>
 </div>

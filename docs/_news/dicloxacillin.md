@@ -3,7 +3,7 @@ layout: default
 title: "Dicloxacillin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dicloxacillin. Original indication: . 0 predicted indications."
+description: "Health news related to Dicloxacillin. Original indication: . 10 predicted indications."
 permalink: /news/dicloxacillin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dicloxacillin/
 ---
 
 <p class="key-answer" data-question="What news is there about Dicloxacillin?">
-<strong>Dicloxacillin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Dicloxacillin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Dicloxacillin with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>bacterial arthritis (97.1%)</li>
+<li>polyclonal hyperviscosity syndrome (96.0%)</li>
+<li>hyperamylasemia (96.0%)</li>
+<li>congenital analbuminemia (95.8%)</li>
+<li>streptococcal pneumonia (94.6%)</li>
+<li>blood group incompatibility (94.3%)</li>
+<li>premalignant hematological system disease (93.6%)</li>
+<li>monoclonal gammopathy (92.6%)</li>
+<li>hematological disease associated with an acquired peripheral neuropathy (92.1%)</li>
+<li>staphylococcal toxemia (91.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dicloxacillin/' | relative_url }}">View full drug report →</a></p>
 </div>

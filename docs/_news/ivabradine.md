@@ -3,7 +3,7 @@ layout: default
 title: "Ivabradine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ivabradine. Original indication: . 0 predicted indications."
+description: "Health news related to Ivabradine. Original indication: . 10 predicted indications."
 permalink: /news/ivabradine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ivabradine/
 ---
 
 <p class="key-answer" data-question="What news is there about Ivabradine?">
-<strong>Ivabradine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ivabradine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Ivabradine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hypertrichosis (disease) (99.8%)</li>
+<li>Ambras type hypertrichosis universalis congenita (99.7%)</li>
+<li>malformation syndrome with odontal and/or periodontal component (99.7%)</li>
+<li>syndrome with a Dandy-Walker malformation as major feature (99.7%)</li>
+<li>isolated genetic hair shaft abnormality (99.7%)</li>
+<li>nephrogenic syndrome of inappropriate antidiuresis (99.1%)</li>
+<li>pulmonary hypertension (98.5%)</li>
+<li>familial isolated trichomegaly (98.4%)</li>
+<li>kyphoscoliotic heart disease (98.2%)</li>
+<li>leprosy (98.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ivabradine/' | relative_url }}">View full drug report →</a></p>
 </div>

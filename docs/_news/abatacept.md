@@ -3,7 +3,7 @@ layout: default
 title: "Abatacept News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Abatacept. Original indication: . 15 predicted indications."
+description: "Health news related to Abatacept. Original indication: . 10 predicted indications."
 permalink: /news/abatacept/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/abatacept/
 ---
 
 <p class="key-answer" data-question="What news is there about Abatacept?">
-<strong>Abatacept</strong> currently has <strong>0 news articles</strong>, with 15 predicted indications.
+<strong>Abatacept</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,22 +25,17 @@ This page combines the AI-predicted indications for Abatacept with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (15)</strong>:<ul>
-<li>Rheumatoid vasculitis | 0.9991 | L4 | S1 | Research Question (99.0%)</li>
-<li>Ankylosing spondylitis | 0.9991 | L3 | S1 | **Hold** (99.0%)</li>
-<li>Hypermobility of coccyx | 0.9987 | L5 | S0 | Hold (99.0%)</li>
-<li>Inflammatory spondylopathy | 0.9984 | L2 | S2 | **Proceed with Guardrails** (99.0%)</li>
-<li>Kümmell disease | 0.9984 | L5 | S0 | Hold (99.0%)</li>
-<li>Polyarticular juvenile rheumatoid arthritis | 0.9983 | **L1** | **S3** | **Proceed with Guardrails** (99.0%)</li>
-<li>Vertebral disease | 0.9968 | L5 | S0 | Hold (99.0%)</li>
-<li>Spondyloarthropathy, susceptibility to | 0.9965 | L4 | S0 | Hold (99.0%)</li>
-<li>Brachydactyly-syndactyly syndrome | 0.9950 | L5 | S0 | Hold (99.0%)</li>
-<li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 0.9948 | L5 | S0 | Hold (99.0%)</li>
-<li>2012 | Case report | Rapid efficacy of abatacept in RV (Tier 2) (99.0%)</li>
-<li>2018 | Case report/series | Abatacept as therapeutic option for RV (Tier 2) (99.0%)</li>
-<li>2016 | Case report | **New-onset RV during abatacept therapy** (Tier 2) (99.0%)</li>
-<li>2018 | Case report | RA-associated orbital vasculitis **during abatacept** (Tier 2) (99.0%)</li>
-<li>2023 | Case report | ANCA-associated nephritis during abatacept therapy (Tier 3) (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>rheumatoid vasculitis (99.9%)</li>
+<li>ankylosing spondylitis (99.9%)</li>
+<li>hypermobility of coccyx (99.9%)</li>
+<li>inflammatory spondylopathy (99.8%)</li>
+<li>Kummell disease (99.8%)</li>
+<li>polyarticular juvenile rheumatoid arthritis (99.8%)</li>
+<li>vertebral disease (99.7%)</li>
+<li>spondyloarthropathy, susceptibility to (99.7%)</li>
+<li>brachydactyly-syndactyly syndrome (99.5%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/abatacept/' | relative_url }}">View full drug report →</a></p>

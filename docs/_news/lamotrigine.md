@@ -3,7 +3,7 @@ layout: default
 title: "Lamotrigine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lamotrigine. Original indication: . 9 predicted indications."
+description: "Health news related to Lamotrigine. Original indication: . 11 predicted indications."
 permalink: /news/lamotrigine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lamotrigine/
 ---
 
 <p class="key-answer" data-question="What news is there about Lamotrigine?">
-<strong>Lamotrigine</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Lamotrigine</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Lamotrigine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (9)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
 <li>Trigeminal nerve neoplasm (100.0%)</li>
 <li>Startle epilepsy (99.4%)</li>
 <li>Restless legs syndrome (98.9%)</li>
@@ -34,6 +34,8 @@ This page combines the AI-predicted indications for Lamotrigine with the latest 
 <li>Audiogenic seizures (99.4%)</li>
 <li>Micturition-induced seizures (99.4%)</li>
 <li>Orgasm-induced seizures (99.4%)</li>
+<li>trigeminal neuralgia (99.9%)</li>
+<li>micturation-induced seizures (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/lamotrigine/' | relative_url }}">View full drug report →</a></p>

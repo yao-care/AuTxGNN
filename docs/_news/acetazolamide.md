@@ -3,7 +3,7 @@ layout: default
 title: "Acetazolamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Acetazolamide. Original indication: Clinicians wishing to prescribe Acetazolamide in A.... 9 predicted indications."
+description: "Health news related to Acetazolamide. Original indication: Clinicians wishing to prescribe Acetazolamide in A.... 10 predicted indications."
 permalink: /news/acetazolamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/acetazolamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Acetazolamide?">
-<strong>Acetazolamide</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Acetazolamide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,16 +26,17 @@ This page combines the AI-predicted indications for Acetazolamide with the lates
 <ul>
 <li><strong>Original indication</strong>: Clinicians wishing to prescribe Acetazolamide in Australia would need to access it through one of the following pathways:</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Exercise-induced malignant hyperthermia | 99.95% | L5 | Hold (99.0%)</li>
-<li>Hypertrophic cardiomyopathy | 99.93% | L5 | Hold (99.0%)</li>
-<li>Congenital myopathy with excess of thin filaments | 99.90% | L5 | Hold (99.0%)</li>
-<li>HCM due to intensive athletic training | 99.89% | L5 | Hold (99.0%)</li>
-<li>Distal myopathy, Tateyama type | 99.88% | L5 | Hold (99.0%)</li>
-<li>Cirrhotic cardiomyopathy | 99.88% | L5 | Hold (99.0%)</li>
-<li>Intestinal obstruction ⚠️ | 99.82% | L5 | Hold (99.0%)</li>
-<li>Glycogen storage disease — late-onset Pompe | 99.80% | L5 | Hold (99.0%)</li>
-<li>Unclassified intestinal pseudoobstruction ⚠️ | 99.79% | L5 | Hold (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>exercise-induced malignant hyperthermia (100.0%)</li>
+<li>hypertrophic cardiomyopathy (99.9%)</li>
+<li>congenital myopathy with excess of thin filaments (99.9%)</li>
+<li>hypertrophic cardiomyopathy due to intensive athletic training (99.9%)</li>
+<li>distal myopathy, Tateyama type (99.9%)</li>
+<li>cirrhotic cardiomyopathy (99.9%)</li>
+<li>cardiomyopathy (99.8%)</li>
+<li>intestinal obstruction (99.8%)</li>
+<li>glycogen storage disease due to acid maltase deficiency, late-onset (99.8%)</li>
+<li>unclassified intestinal pseudoobstruction (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/acetazolamide/' | relative_url }}">View full drug report →</a></p>

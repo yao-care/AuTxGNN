@@ -3,7 +3,7 @@ layout: default
 title: "Mometasone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mometasone. Original indication: . 0 predicted indications."
+description: "Health news related to Mometasone. Original indication: . 10 predicted indications."
 permalink: /news/mometasone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mometasone/
 ---
 
 <p class="key-answer" data-question="What news is there about Mometasone?">
-<strong>Mometasone</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Mometasone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Mometasone with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>primary cutaneous T-cell lymphoma (99.4%)</li>
+<li>Crohn's colitis (98.8%)</li>
+<li>myelodysplastic syndrome (98.3%)</li>
+<li>refractory cytopenia of childhood (98.1%)</li>
+<li>unclassified myelodysplastic syndrome (97.9%)</li>
+<li>partial deletion of the long arm of chromosome 5 (97.9%)</li>
+<li>cystic teratoma (97.8%)</li>
+<li>spinal cord dermoid cyst (97.8%)</li>
+<li>aregenerative anemia (97.8%)</li>
+<li>disease of orbital part of eye adnexa (97.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/mometasone/' | relative_url }}">View full drug report →</a></p>
 </div>

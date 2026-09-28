@@ -3,7 +3,7 @@ layout: default
 title: "Atazanavir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Atazanavir. Original indication: . 0 predicted indications."
+description: "Health news related to Atazanavir. Original indication: . 10 predicted indications."
 permalink: /news/atazanavir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/atazanavir/
 ---
 
 <p class="key-answer" data-question="What news is there about Atazanavir?">
-<strong>Atazanavir</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Atazanavir</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Atazanavir with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>feline acquired immunodeficiency syndrome (100.0%)</li>
+<li>simian immunodeficiency virus infection (100.0%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (100.0%)</li>
+<li>obsolete familial combined hyperlipidemia (99.8%)</li>
+<li>congenital human immunodeficiency virus (99.7%)</li>
+<li>AIDS related complex (99.7%)</li>
+<li>fibroma of prostate (98.8%)</li>
+<li>Brenner tumor (98.7%)</li>
+<li>benign reproductive system neoplasm (98.7%)</li>
+<li>benign prostate phyllodes tumor (98.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/atazanavir/' | relative_url }}">View full drug report →</a></p>
 </div>

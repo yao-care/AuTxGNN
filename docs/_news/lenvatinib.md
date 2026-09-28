@@ -3,7 +3,7 @@ layout: default
 title: "Lenvatinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lenvatinib. Original indication: . 0 predicted indications."
+description: "Health news related to Lenvatinib. Original indication: . 10 predicted indications."
 permalink: /news/lenvatinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lenvatinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Lenvatinib?">
-<strong>Lenvatinib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Lenvatinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Lenvatinib with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>liposarcoma (99.5%)</li>
+<li>unclassified renal cell carcinoma (99.5%)</li>
+<li>renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions (99.5%)</li>
+<li>renal cell carcinoma associated with neuroblastoma (99.5%)</li>
+<li>ovarian myxoid liposarcoma (99.5%)</li>
+<li>childhood kidney cell carcinoma (99.4%)</li>
+<li>renal carcinoma (99.4%)</li>
+<li>angiolipoma (99.3%)</li>
+<li>familial spontaneous pneumothorax (99.3%)</li>
+<li>endocrine-cerebro-osteodysplasia syndrome (99.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lenvatinib/' | relative_url }}">View full drug report →</a></p>
 </div>

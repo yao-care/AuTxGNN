@@ -3,7 +3,7 @@ layout: default
 title: "Gilteritinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Gilteritinib. Original indication: . 0 predicted indications."
+description: "Health news related to Gilteritinib. Original indication: . 10 predicted indications."
 permalink: /news/gilteritinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/gilteritinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Gilteritinib?">
-<strong>Gilteritinib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Gilteritinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Gilteritinib with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>bulbar polio (99.1%)</li>
+<li>acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent (99.0%)</li>
+<li>acute myeloid leukemia and myelodysplastic syndromes related to radiation (99.0%)</li>
+<li>5q35 microduplication syndrome (98.9%)</li>
+<li>neuralgic amyotrophy (98.1%)</li>
+<li>amyotrophic neuralgia (98.0%)</li>
+<li>vertebral anomalies and variable endocrine and T-cell dysfunction (97.4%)</li>
+<li>ganglioneuroblastoma (disease) (97.2%)</li>
+<li>retroperitoneal neoplasm (97.0%)</li>
+<li>myelodysplastic/myeloproliferative disease (97.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/gilteritinib/' | relative_url }}">View full drug report →</a></p>
 </div>

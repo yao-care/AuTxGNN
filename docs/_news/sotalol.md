@@ -3,7 +3,7 @@ layout: default
 title: "Sotalol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sotalol. Original indication: . 0 predicted indications."
+description: "Health news related to Sotalol. Original indication: . 10 predicted indications."
 permalink: /news/sotalol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sotalol/
 ---
 
 <p class="key-answer" data-question="What news is there about Sotalol?">
-<strong>Sotalol</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Sotalol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Sotalol with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>sick sinus syndrome 2, autosomal dominant (99.8%)</li>
+<li>Wildervanck syndrome (99.7%)</li>
+<li>sarcoglycanopathy (99.6%)</li>
+<li>stroke disorder (99.4%)</li>
+<li>manic bipolar affective disorder (99.4%)</li>
+<li>macrocephaly, dysmorphic facies, and psychomotor retardation (99.4%)</li>
+<li>obsolete susceptibility to ischemic stroke (99.2%)</li>
+<li>nephrogenic syndrome of inappropriate antidiuresis (98.8%)</li>
+<li>ABri amyloidosis (98.7%)</li>
+<li>periodic paralysis with transient compartment-like syndrome (98.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sotalol/' | relative_url }}">View full drug report →</a></p>
 </div>

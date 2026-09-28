@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Digoxin with the latest heal
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Prinzmetal Angina | 99.81% | L4 | **Hold** (99.0%)</li>
-<li>Duodenal Obstruction | 99.70% | L5 | Hold (99.0%)</li>
-<li>Duodenal Ulcer | 99.59% | L5 | Hold (99.0%)</li>
-<li>Duodenogastric Reflux | 99.53% | L5 | Hold (99.0%)</li>
-<li>Ischemic Stroke Susceptibility *(obsolete term)* | 99.29% | L5 | Hold (99.0%)</li>
-<li>Hypoalphalipoproteinaemia | 99.20% | L5 | Hold (99.0%)</li>
-<li>Homozygous Familial Hypercholesterolaemia | 98.98% | L5 | Hold (99.0%)</li>
-<li>Nephrogenic Syndrome of Inappropriate Antidiuresis | 98.83% | L5 | Research Question (99.0%)</li>
-<li>Thrombotic Disease | 98.75% | L4 | Research Question (99.0%)</li>
-<li>**Stroke Disorder** | **98.19%** | **L3** | **Proceed with Guardrails** (99.0%)</li>
+<li>Prinzmetal angina (99.8%)</li>
+<li>duodenal obstruction (99.7%)</li>
+<li>duodenal ulcer (disease) (99.6%)</li>
+<li>duodenogastric reflux (99.5%)</li>
+<li>obsolete susceptibility to ischemic stroke (99.3%)</li>
+<li>hypoalphalipoproteinemia (99.2%)</li>
+<li>homozygous familial hypercholesterolemia (99.0%)</li>
+<li>nephrogenic syndrome of inappropriate antidiuresis (98.8%)</li>
+<li>thrombotic disease (98.8%)</li>
+<li>stroke disorder (98.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/digoxin/' | relative_url }}">View full drug report →</a></p>

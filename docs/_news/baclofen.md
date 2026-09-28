@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Baclofen with the latest hea
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Attention Deficit-Hyperactivity Disorder | 99.32% | L4 | 0 | 10 | Hold (99.0%)</li>
-<li>**Nicotine Dependence** | 99.19% | **L2** | **3** | **20** | **Proceed with Guardrails** (99.0%)</li>
-<li>ADHD — Inattentive Type | 98.89% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Myofascial Pain Syndrome | 98.87% | L3 | 1* | 4 | Research Question (99.0%)</li>
-<li>Faciodigitogenital Syndrome (Aarskog-Scott) | 98.78% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Trigeminal Nerve Neoplasm | 98.70% | L5 | 0 | 2† | Hold (99.0%)</li>
-<li>Methemoglobinemia | 98.33% | L5 | 0 | 1† | Hold (99.0%)</li>
-<li>Chondromyxoid Fibroma | 98.15% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Methemoglobinemia — Alpha Type | 97.97% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Specific Developmental Disorder | 97.95% | L4 | 2† | 2 | Research Question (99.0%)</li>
+<li>attention deficit-hyperactivity disorder (99.3%)</li>
+<li>nicotine dependence (99.2%)</li>
+<li>attention deficit hyperactivity disorder, inattentive type (98.9%)</li>
+<li>myofascial pain syndrome (98.9%)</li>
+<li>faciodigitogenital syndrome (98.8%)</li>
+<li>trigeminal nerve neoplasm (98.7%)</li>
+<li>methemoglobinemia (98.3%)</li>
+<li>chondromyxoid fibroma (98.2%)</li>
+<li>methemoglobinemia, alpha type (98.0%)</li>
+<li>specific developmental disorder (98.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/baclofen/' | relative_url }}">View full drug report →</a></p>

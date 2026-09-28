@@ -3,7 +3,7 @@ layout: default
 title: "Norethisterone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Norethisterone. Original indication: . 0 predicted indications."
+description: "Health news related to Norethisterone. Original indication: . 10 predicted indications."
 permalink: /news/norethisterone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/norethisterone/
 ---
 
 <p class="key-answer" data-question="What news is there about Norethisterone?">
-<strong>Norethisterone</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Norethisterone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Norethisterone with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>amenorrhea (disease) (99.6%)</li>
+<li>symptomatic form of fragile X syndrome in female carrier (97.0%)</li>
+<li>zinc, elevated plasma (96.9%)</li>
+<li>ovarian remnant syndrome (96.6%)</li>
+<li>anovulation (96.6%)</li>
+<li>partial trisomy/tetrasomy of the short arm of chromosome 18 (96.5%)</li>
+<li>partial trisomy/tetrasomy of the short arm of chromosome 12 (96.5%)</li>
+<li>luteoma of pregnancy (96.4%)</li>
+<li>blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome (96.4%)</li>
+<li>partial trisomy/tetrasomy of the short arm of chromosome 5 (96.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/norethisterone/' | relative_url }}">View full drug report →</a></p>
 </div>

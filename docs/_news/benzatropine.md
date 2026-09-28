@@ -3,7 +3,7 @@ layout: default
 title: "Benzatropine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Benzatropine. Original indication: . 0 predicted indications."
+description: "Health news related to Benzatropine. Original indication: . 10 predicted indications."
 permalink: /news/benzatropine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/benzatropine/
 ---
 
 <p class="key-answer" data-question="What news is there about Benzatropine?">
-<strong>Benzatropine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Benzatropine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Benzatropine with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>PLA2G6-associated neurodegeneration (99.2%)</li>
+<li>attention deficit-hyperactivity disorder (99.0%)</li>
+<li>Rasmussen subacute encephalitis (99.0%)</li>
+<li>paralysis agitans, juvenile, of Hunt (98.9%)</li>
+<li>myelitis (98.7%)</li>
+<li>faciodigitogenital syndrome (98.5%)</li>
+<li>polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (98.5%)</li>
+<li>Charcot-Marie-Tooth disease, demyelinating, type 1G (98.2%)</li>
+<li>lethal infantile mitochondrial myopathy (98.2%)</li>
+<li>congenital disorder of glycosylation with defective fucosylation (98.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/benzatropine/' | relative_url }}">View full drug report →</a></p>
 </div>

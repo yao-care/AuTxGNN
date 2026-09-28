@@ -3,7 +3,7 @@ layout: default
 title: "Acetic acid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Acetic acid. Original indication: . 0 predicted indications."
+description: "Health news related to Acetic acid. Original indication: . 10 predicted indications."
 permalink: /news/acetic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/acetic_acid/
 ---
 
 <p class="key-answer" data-question="What news is there about Acetic acid?">
-<strong>Acetic acid</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Acetic acid</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Acetic acid with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>post-bacterial disorder (100.0%)</li>
+<li>postinfectious vasculitis (100.0%)</li>
+<li>post-infectious syndrome (100.0%)</li>
+<li>Chagas cardiomyopathy (100.0%)</li>
+<li>infective urethral stricture (100.0%)</li>
+<li>infection-related hemolytic uremic syndrome (100.0%)</li>
+<li>drug-induced osteoporosis (99.7%)</li>
+<li>pityriasis simplex (99.3%)</li>
+<li>tinea corporis (99.2%)</li>
+<li>ulcerative blepharitis (99.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/acetic_acid/' | relative_url }}">View full drug report →</a></p>
 </div>

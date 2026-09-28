@@ -3,7 +3,7 @@ layout: default
 title: "Raltitrexed News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Raltitrexed. Original indication: . 0 predicted indications."
+description: "Health news related to Raltitrexed. Original indication: . 10 predicted indications."
 permalink: /news/raltitrexed/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/raltitrexed/
 ---
 
 <p class="key-answer" data-question="What news is there about Raltitrexed?">
-<strong>Raltitrexed</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Raltitrexed</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Raltitrexed with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>sclerosing cholangitis (100.0%)</li>
+<li>myelodysplastic syndrome (100.0%)</li>
+<li>sickle cell-hemoglobin d disease syndrome (100.0%)</li>
+<li>sickle cell-hemoglobin E disease syndrome (100.0%)</li>
+<li>sickle cell-beta-thalassemia disease syndrome (100.0%)</li>
+<li>sickle cell-hemoglobin c disease syndrome (100.0%)</li>
+<li>hereditary persistence of fetal hemoglobin-sickle cell disease syndrome (100.0%)</li>
+<li>unclassified myelodysplastic syndrome (100.0%)</li>
+<li>refractory cytopenia of childhood (100.0%)</li>
+<li>partial deletion of the long arm of chromosome 5 (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/raltitrexed/' | relative_url }}">View full drug report →</a></p>
 </div>

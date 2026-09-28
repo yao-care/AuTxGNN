@@ -3,7 +3,7 @@ layout: default
 title: "Sapropterin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sapropterin. Original indication: . 0 predicted indications."
+description: "Health news related to Sapropterin. Original indication: . 10 predicted indications."
 permalink: /news/sapropterin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sapropterin/
 ---
 
 <p class="key-answer" data-question="What news is there about Sapropterin?">
-<strong>Sapropterin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Sapropterin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Sapropterin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>disorder of tyrosine metabolism (99.9%)</li>
+<li>teratogenic Pierre Robin syndrome (99.9%)</li>
+<li>tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria (99.8%)</li>
+<li>hyperphenylalaninemia due to tetrahydrobiopterin deficiency (99.1%)</li>
+<li>genetic otorhinolaryngological malformation (98.8%)</li>
+<li>mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (98.7%)</li>
+<li>neonatal epileptic encephalopathy due to glutaminase deficiency (98.5%)</li>
+<li>idiopathic bilateral vestibulopathy (98.5%)</li>
+<li>semicircular canal dehiscence syndrome (98.5%)</li>
+<li>silent sinus syndrome (98.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sapropterin/' | relative_url }}">View full drug report →</a></p>
 </div>

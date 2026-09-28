@@ -3,7 +3,7 @@ layout: default
 title: "Onasemnogene abeparvovec News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Onasemnogene abeparvovec. Original indication: . 0 predicted indications."
+description: "Health news related to Onasemnogene abeparvovec. Original indication: . 10 predicted indications."
 permalink: /news/onasemnogene_abeparvovec/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/onasemnogene_abeparvovec/
 ---
 
 <p class="key-answer" data-question="What news is there about Onasemnogene abeparvovec?">
-<strong>Onasemnogene abeparvovec</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Onasemnogene abeparvovec</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Onasemnogene abeparvovec wit
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>bronchitis (86.1%)</li>
+<li>severe nonproliferative diabetic retinopathy (79.8%)</li>
+<li>diabetic retinopathy (77.4%)</li>
+<li>bronchial neoplasm (disease) (77.1%)</li>
+<li>non-seminomatous lesion (76.8%)</li>
+<li>bronchial adenomas/carcinoids childhood (76.8%)</li>
+<li>chondroid hamartoma (76.8%)</li>
+<li>ductal or ductular proliferation (76.8%)</li>
+<li>rectosigmoid junction neoplasm (76.7%)</li>
+<li>tumor of testis and paratestis (76.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/onasemnogene_abeparvovec/' | relative_url }}">View full drug report →</a></p>
 </div>

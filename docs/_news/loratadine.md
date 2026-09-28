@@ -3,7 +3,7 @@ layout: default
 title: "Loratadine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Loratadine. Original indication: . 0 predicted indications."
+description: "Health news related to Loratadine. Original indication: . 10 predicted indications."
 permalink: /news/loratadine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/loratadine/
 ---
 
 <p class="key-answer" data-question="What news is there about Loratadine?">
-<strong>Loratadine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Loratadine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Loratadine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>allergic urticaria (99.0%)</li>
+<li>nasal cavity disease (99.0%)</li>
+<li>acute laryngopharyngitis (98.8%)</li>
+<li>rosacea conjunctivitis (98.5%)</li>
+<li>cold urticaria (96.2%)</li>
+<li>viral conjunctivitis (89.3%)</li>
+<li>punctate epithelial keratoconjunctivitis (84.2%)</li>
+<li>trigeminal autonomic cephalalgia (80.4%)</li>
+<li>faucial diphtheria (78.5%)</li>
+<li>cervical disc degenerative disorder (76.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/loratadine/' | relative_url }}">View full drug report →</a></p>
 </div>

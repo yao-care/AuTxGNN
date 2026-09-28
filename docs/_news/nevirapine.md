@@ -3,7 +3,7 @@ layout: default
 title: "Nevirapine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nevirapine. Original indication: . 0 predicted indications."
+description: "Health news related to Nevirapine. Original indication: . 10 predicted indications."
 permalink: /news/nevirapine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nevirapine/
 ---
 
 <p class="key-answer" data-question="What news is there about Nevirapine?">
-<strong>Nevirapine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Nevirapine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Nevirapine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>feline acquired immunodeficiency syndrome (99.8%)</li>
+<li>simian immunodeficiency virus infection (99.8%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.8%)</li>
+<li>fibroma of prostate (99.0%)</li>
+<li>Brenner tumor (98.9%)</li>
+<li>benign reproductive system neoplasm (98.9%)</li>
+<li>benign prostate phyllodes tumor (98.8%)</li>
+<li>male reproductive organ cancer (98.6%)</li>
+<li>congenital human immunodeficiency virus (98.5%)</li>
+<li>AIDS related complex (98.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nevirapine/' | relative_url }}">View full drug report →</a></p>
 </div>

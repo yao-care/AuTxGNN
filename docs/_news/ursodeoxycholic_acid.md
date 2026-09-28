@@ -3,7 +3,7 @@ layout: default
 title: "Ursodeoxycholic acid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ursodeoxycholic acid. Original indication: . 0 predicted indications."
+description: "Health news related to Ursodeoxycholic acid. Original indication: . 10 predicted indications."
 permalink: /news/ursodeoxycholic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ursodeoxycholic_acid/
 ---
 
 <p class="key-answer" data-question="What news is there about Ursodeoxycholic acid?">
-<strong>Ursodeoxycholic acid</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ursodeoxycholic acid</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Ursodeoxycholic acid with th
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>homozygous familial hypercholesterolemia (99.9%)</li>
+<li>brain small vessel disease 1 with or without ocular anomalies (98.3%)</li>
+<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (98.3%)</li>
+<li>pseudo-von Willebrand disease (97.2%)</li>
+<li>primary release disorder of platelets (97.1%)</li>
+<li>primary hyperoxaluria (96.9%)</li>
+<li>diabetic nephropathy (96.7%)</li>
+<li>Glanzmann thrombasthenia (96.1%)</li>
+<li>obsolete familial combined hyperlipidemia (96.0%)</li>
+<li>hypolipoproteinemia (disease) (96.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ursodeoxycholic_acid/' | relative_url }}">View full drug report →</a></p>
 </div>

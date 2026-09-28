@@ -3,7 +3,7 @@ layout: default
 title: "Alectinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Alectinib. Original indication: . 0 predicted indications."
+description: "Health news related to Alectinib. Original indication: . 10 predicted indications."
 permalink: /news/alectinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alectinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Alectinib?">
-<strong>Alectinib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Alectinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Alectinib with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>fibromatosis, gingival (100.0%)</li>
+<li>fibroma of lung (100.0%)</li>
+<li>hamartoma of lung (100.0%)</li>
+<li>lung hilum carcinoma (100.0%)</li>
+<li>lung benign neoplasm (100.0%)</li>
+<li>pulmonary sulcus neoplasm (100.0%)</li>
+<li>lung germ cell tumor (100.0%)</li>
+<li>Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome (100.0%)</li>
+<li>inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia (100.0%)</li>
+<li>junctional epidermolysis bullosa (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/alectinib/' | relative_url }}">View full drug report →</a></p>
 </div>

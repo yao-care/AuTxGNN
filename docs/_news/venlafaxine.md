@@ -3,7 +3,7 @@ layout: default
 title: "Venlafaxine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Venlafaxine. Original indication: . 0 predicted indications."
+description: "Health news related to Venlafaxine. Original indication: . 10 predicted indications."
 permalink: /news/venlafaxine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/venlafaxine/
 ---
 
 <p class="key-answer" data-question="What news is there about Venlafaxine?">
-<strong>Venlafaxine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Venlafaxine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Venlafaxine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Ohdo syndrome and variants (95.9%)</li>
+<li>ligneous conjunctivitis (94.0%)</li>
+<li>blepharophimosis - intellectual disability syndrome, Ohdo type (93.8%)</li>
+<li>benign paroxysmal torticollis of infancy (89.7%)</li>
+<li>dysthymic disorder (89.1%)</li>
+<li>melancholia (88.8%)</li>
+<li>childhood apraxia of speech (88.3%)</li>
+<li>neurotic depression (88.3%)</li>
+<li>obsessive-compulsive disorder (87.3%)</li>
+<li>agoraphobia (85.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/venlafaxine/' | relative_url }}">View full drug report →</a></p>
 </div>

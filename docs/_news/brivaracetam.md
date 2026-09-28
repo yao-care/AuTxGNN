@@ -3,7 +3,7 @@ layout: default
 title: "Brivaracetam News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Brivaracetam. Original indication: . 0 predicted indications."
+description: "Health news related to Brivaracetam. Original indication: . 10 predicted indications."
 permalink: /news/brivaracetam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/brivaracetam/
 ---
 
 <p class="key-answer" data-question="What news is there about Brivaracetam?">
-<strong>Brivaracetam</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Brivaracetam</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Brivaracetam with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>visual epilepsy (99.5%)</li>
+<li>status epilepticus (99.4%)</li>
+<li>orgasm-induced seizures (99.2%)</li>
+<li>audiogenic seizures (99.2%)</li>
+<li>thinking seizures (99.2%)</li>
+<li>startle epilepsy (99.2%)</li>
+<li>eating seizures (99.2%)</li>
+<li>micturation-induced seizures (99.2%)</li>
+<li>beta-ketothiolase deficiency (99.1%)</li>
+<li>adolescent/adult onset autosomal dominant epilepsy with auditory features (99.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/brivaracetam/' | relative_url }}">View full drug report →</a></p>
 </div>

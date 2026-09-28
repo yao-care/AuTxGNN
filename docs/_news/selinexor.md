@@ -3,7 +3,7 @@ layout: default
 title: "Selinexor News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Selinexor. Original indication: . 9 predicted indications."
+description: "Health news related to Selinexor. Original indication: . 10 predicted indications."
 permalink: /news/selinexor/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/selinexor/
 ---
 
 <p class="key-answer" data-question="What news is there about Selinexor?">
-<strong>Selinexor</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Selinexor</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,16 +24,17 @@ This page combines the AI-predicted indications for Selinexor with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Drug-induced osteoporosis | 99.22% | L5 | Hold — no supporting trials/literature; likely model noise (99.0%)</li>
-<li>HER2 positive breast carcinoma | 98.13% | L4 | Hold — only indirect literature, no direct trial evidence (99.0%)</li>
-<li>Normal breast-like subtype of breast carcinoma | 97.18% | L5 | Hold — no trials or literature (99.0%)</li>
-<li>Progesterone-receptor positive breast cancer | 97.18% | L5 | Hold — no trials or literature (99.0%)</li>
-<li>Breast tumor luminal A or B | 97.11% | L5 | Hold — literature returned is an unrelated keyword-matching artefact ("B cell" topics), flagged as a data quality issue (99.0%)</li>
-<li>Squamous cell lung carcinoma | 96.91% | L3 | Hold — two relevant trials, both terminated/withdrawn without usable data (99.0%)</li>
-<li>Gestational trophoblastic neoplasm | 96.54% | L5 | Hold — no trials or literature; pregnancy-related safety concerns unaddressed (99.0%)</li>
-<li>Cervical neuroblastoma | 96.33% | L4 | Hold — no direct evidence; only literature is an unrelated drug-synthesis review (99.0%)</li>
-<li>Schwannoma of jugular foramen | 96.32% | L5 | Hold — no trials or literature; typically benign tumour, unclear risk-benefit rationale (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>drug-induced osteoporosis (99.2%)</li>
+<li>HER2 positive breast carcinoma (98.1%)</li>
+<li>progesterone-receptor negative breast cancer (97.2%)</li>
+<li>normal breast-like subtype of breast carcinoma (97.2%)</li>
+<li>progesterone-receptor positive breast cancer (97.2%)</li>
+<li>breast tumor luminal A or B (97.1%)</li>
+<li>squamous cell lung carcinoma (96.9%)</li>
+<li>gestational trophoblastic neoplasm (96.5%)</li>
+<li>cervical neuroblastoma (96.3%)</li>
+<li>schwannoma of jugular foramen (96.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/selinexor/' | relative_url }}">View full drug report →</a></p>

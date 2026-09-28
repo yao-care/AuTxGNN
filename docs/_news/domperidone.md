@@ -3,7 +3,7 @@ layout: default
 title: "Domperidone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Domperidone. Original indication: . 0 predicted indications."
+description: "Health news related to Domperidone. Original indication: . 10 predicted indications."
 permalink: /news/domperidone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/domperidone/
 ---
 
 <p class="key-answer" data-question="What news is there about Domperidone?">
-<strong>Domperidone</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Domperidone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Domperidone with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>nephrogenic syndrome of inappropriate antidiuresis (99.1%)</li>
+<li>Plasmodium falciparum malaria (98.7%)</li>
+<li>common cold (97.0%)</li>
+<li>headache disorder (96.7%)</li>
+<li>allergic urticaria (96.4%)</li>
+<li>trigeminal autonomic cephalalgia (96.2%)</li>
+<li>collagenopathy (95.7%)</li>
+<li>renin-angiotensin-aldosterone system-blocker-induced angioedema (95.6%)</li>
+<li>lymphocytic hypereosinophilic syndrome (95.5%)</li>
+<li>hypertrichosis (disease) (95.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/domperidone/' | relative_url }}">View full drug report →</a></p>
 </div>

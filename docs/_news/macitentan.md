@@ -3,7 +3,7 @@ layout: default
 title: "Macitentan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Macitentan. Original indication: . 0 predicted indications."
+description: "Health news related to Macitentan. Original indication: . 10 predicted indications."
 permalink: /news/macitentan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/macitentan/
 ---
 
 <p class="key-answer" data-question="What news is there about Macitentan?">
-<strong>Macitentan</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Macitentan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Macitentan with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pulmonary arteriovenous malformation (disease) (98.9%)</li>
+<li>pulmonary arterial hypertension associated with congenital heart disease (98.8%)</li>
+<li>pulmonary arterial hypertension associated with chronic hemolytic anemia (98.6%)</li>
+<li>pulmonary arterial hypertension associated with schistosomiasis (98.6%)</li>
+<li>pulmonary arterial hypertension associated with connective tissue disease (98.6%)</li>
+<li>pulmonary arterial hypertension associated with HIV infection (98.6%)</li>
+<li>hypotrichosis simplex of the scalp (98.2%)</li>
+<li>congenital hypotrichosis milia (97.8%)</li>
+<li>diffuse alopecia areata (97.6%)</li>
+<li>alopecia (93.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/macitentan/' | relative_url }}">View full drug report →</a></p>
 </div>

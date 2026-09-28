@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Amifampridine with the lates
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Glaucoma | 99.71% | L5 | Hold | Theoretical VGKC in ciliary body/trabecular meshwork; no direct evidence (99.0%)</li>
-<li>Acute Intermittent Porphyria | 99.32% | L5 | Hold | No mechanistic link; KG artefact via neurological symptom co-occurrence (99.0%)</li>
-<li>Esophageal Varices with Bleeding | 98.77% | L5 | Hold | Portal hypertension pathology unrelated to VGKC (99.0%)</li>
-<li>Esophageal Varices without Bleeding | 98.77% | L5 | Hold | Identical score to Rank 3; duplicate KG nodes (99.0%)</li>
-<li>Porphyria | 98.51% | L5 | Hold | Haem synthesis pathway unrelated to VGKC (99.0%)</li>
-<li>Primary Immunodeficiency (p14 Deficiency) | 98.39% | L5 | Hold | Ultra-rare disease (<20 cases globally); mechanism unrelated; likely KG artefact (99.0%)</li>
-<li>**Paraneoplastic Limbic Encephalitis** | 98.31% | **L4** | **Research Question** | Indirect: LGI1/CASPR2/VGCC antibody subtype overlaps with LEMS autoimmune mechanism (99.0%)</li>
-<li>**Paraneoplastic Polyneuropathy** | 98.26% | **L4** | **Research Question** | Indirect: LEMS can co-present with sensorimotor neuropathy; anti-VGCC/Hu antibody overlap (99.0%)</li>
-<li>Varicose Disease | 98.08% | L5 | Hold | Venous valve/wall structural pathology unrelated to VGKC; no supporting evidence (99.0%)</li>
-<li>**Paraneoplastic Cerebellar Degeneration** | 97.99% | **L4** | **Research Question** | Strongest candidate: SCLC-associated, shared P/Q-type VGCC autoimmunity with LEMS; 2 contextual publications identified (99.0%)</li>
+<li>glaucoma (99.7%)</li>
+<li>acute intermittent porphyria (99.3%)</li>
+<li>esophageal varices with bleeding (98.8%)</li>
+<li>esophageal varices without bleeding (98.8%)</li>
+<li>porphyria (98.5%)</li>
+<li>primary immunodeficiency syndrome due to p14 deficiency (98.4%)</li>
+<li>paraneoplastic limbic encephalitis (98.3%)</li>
+<li>paraneoplastic polyneuropathy (98.3%)</li>
+<li>varicose disease (98.1%)</li>
+<li>paraneoplastic cerebellar degeneration (98.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/amifampridine/' | relative_url }}">View full drug report →</a></p>

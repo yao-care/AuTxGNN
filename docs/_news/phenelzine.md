@@ -3,7 +3,7 @@ layout: default
 title: "Phenelzine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Phenelzine. Original indication: . 0 predicted indications."
+description: "Health news related to Phenelzine. Original indication: . 10 predicted indications."
 permalink: /news/phenelzine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/phenelzine/
 ---
 
 <p class="key-answer" data-question="What news is there about Phenelzine?">
-<strong>Phenelzine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Phenelzine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Phenelzine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>agoraphobia (94.0%)</li>
+<li>benign paroxysmal torticollis of infancy (93.7%)</li>
+<li>neurotic depression (92.5%)</li>
+<li>melancholia (92.3%)</li>
+<li>Keppen-Lubinsky syndrome (90.7%)</li>
+<li>Ohdo syndrome and variants (87.8%)</li>
+<li>obsessive-compulsive disorder (86.7%)</li>
+<li>vitamin B12-responsive methylmalonic acidemia (86.2%)</li>
+<li>autosomal dominant slowed nerve conduction velocity (85.8%)</li>
+<li>congenital isolated adrenocorticotropic hormone deficiency (disease) (85.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/phenelzine/' | relative_url }}">View full drug report →</a></p>
 </div>

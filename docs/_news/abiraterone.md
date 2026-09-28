@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Abiraterone with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Migraine disorder | 0.988 | L5 | S0 | **Hold** | Very weak (99.0%)</li>
-<li>Migraine with or without aura (susceptibility) | 0.988 | L5 | S0 | **Hold** | Very weak (99.0%)</li>
-<li>Migraine with brainstem aura | 0.986 | L5 | S0 | **Hold** | Very weak (99.0%)</li>
-<li>Leprosy | 0.986 | L5 | S0 | **Hold** | None (99.0%)</li>
-<li>Pulmonary hypertension | 0.984 | L4 | S1 | **Research Question** | Weak–contradictory (99.0%)</li>
-<li>Nephrogenic syndrome of inappropriate antidiuresis | 0.982 | L5 | S0 | **Hold** | Very weak (harmful direction) (99.0%)</li>
-<li>Rheumatoid arthritis | 0.981 | L5 | S0 | **Hold** | Contradictory (99.0%)</li>
-<li>Kyphoscoliotic heart disease | 0.981 | L5 | S0 | **Hold** | None (99.0%)</li>
-<li>Atrophoderma vermiculata | 0.977 | L5 | S0 | **Hold** | Very weak, speculative (99.0%)</li>
-<li>Ulerythema ophryogenesis | 0.975 | L5 | S0 | **Hold** | Very weak, speculative (99.0%)</li>
+<li>migraine disorder (98.8%)</li>
+<li>migraine with or without aura, susceptibility to (98.8%)</li>
+<li>migraine with brainstem aura (98.6%)</li>
+<li>leprosy (98.6%)</li>
+<li>pulmonary hypertension (98.4%)</li>
+<li>nephrogenic syndrome of inappropriate antidiuresis (98.2%)</li>
+<li>rheumatoid arthritis (98.1%)</li>
+<li>kyphoscoliotic heart disease (98.1%)</li>
+<li>atrophoderma vermiculata (97.7%)</li>
+<li>ulerythema ophryogenesis (97.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/abiraterone/' | relative_url }}">View full drug report →</a></p>

@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Aflibercept with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Esotropia | 99.38% | ❌ No VEGF link — likely KG artefact | Hold (99.0%)</li>
-<li>Esophageal varices (without bleeding) | 97.56% | ✅ Biologically plausible — VEGF drives portal hypertension neovascularisation | Research Question (99.0%)</li>
-<li>Esophageal varices (with bleeding) | 97.56% | ⚠️ Plausible mechanism but acute haemorrhage setting raises serious safety concerns | Hold (99.0%)</li>
-<li>Varicose disease | 96.95% | ⚠️ Partial match — VEGF-A/B role in venous remodelling; VEGF-C/D (via VEGFR3) not blocked by Aflibercept | Research Question (99.0%)</li>
-<li>Urethral calculus | 95.97% | ❌ No VEGF link — likely KG artefact | Hold (99.0%)</li>
-<li>Adenosine deaminase deficiency | 95.76% | ❌ Metabolic/genetic disease; no VEGF connection | Hold (99.0%)</li>
-<li>Hemorrhagic disease of newborn | 95.56% | ❌ Vitamin K deficiency mechanism; no VEGF connection | Hold (99.0%)</li>
-<li>Ectomesenchymoma | 94.52% | ✅ Tumour angiogenesis VEGF mechanism applicable (ultra-rare tumour) | Research Question (99.0%)</li>
-<li>Malignant cutaneous granular cell skin tumour | 94.51% | ✅ Soft tissue sarcoma — VEGF/PlGF mechanism plausible | Research Question (99.0%)</li>
-<li>Middle ear neuroendocrine tumour | 94.42% | ✅ Highly vascular NET; consistent with anti-VEGF class mechanism | Research Question (99.0%)</li>
+<li>esotropia (99.4%)</li>
+<li>esophageal varices without bleeding (97.6%)</li>
+<li>esophageal varices with bleeding (97.6%)</li>
+<li>varicose disease (97.0%)</li>
+<li>urethral calculus (96.0%)</li>
+<li>adenosine deaminase deficiency (95.8%)</li>
+<li>hemorrhagic disease of newborn (95.6%)</li>
+<li>ectomesenchymoma (94.5%)</li>
+<li>malignant cutaneous granular cell skin tumor (94.5%)</li>
+<li>middle ear neuroendocrine tumor (94.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/aflibercept/' | relative_url }}">View full drug report →</a></p>

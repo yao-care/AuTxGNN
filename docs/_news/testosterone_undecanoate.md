@@ -3,7 +3,7 @@ layout: default
 title: "Testosterone undecanoate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Testosterone undecanoate. Original indication: . 0 predicted indications."
+description: "Health news related to Testosterone undecanoate. Original indication: . 10 predicted indications."
 permalink: /news/testosterone_undecanoate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/testosterone_undecanoate/
 ---
 
 <p class="key-answer" data-question="What news is there about Testosterone undecanoate?">
-<strong>Testosterone undecanoate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Testosterone undecanoate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Testosterone undecanoate wit
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>homozygous familial hypercholesterolemia (98.7%)</li>
+<li>androgen insensitivity syndrome (95.7%)</li>
+<li>Leydig cell hypoplasia due to LH resistance (94.5%)</li>
+<li>46,XY disorder of sex development due to impaired androgen production (93.7%)</li>
+<li>symptomatic form of fragile X syndrome in female carrier (92.7%)</li>
+<li>blepharophimosis-epicanthus inversus-ptosis (91.6%)</li>
+<li>blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome (90.9%)</li>
+<li>telecanthus (90.6%)</li>
+<li>ovarian hyperstimulation syndrome (90.5%)</li>
+<li>partial trisomy/tetrasomy of the short arm of chromosome 5 (90.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/testosterone_undecanoate/' | relative_url }}">View full drug report →</a></p>
 </div>

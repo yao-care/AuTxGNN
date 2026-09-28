@@ -3,7 +3,7 @@ layout: default
 title: "Cobimetinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cobimetinib. Original indication: . 0 predicted indications."
+description: "Health news related to Cobimetinib. Original indication: . 10 predicted indications."
 permalink: /news/cobimetinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cobimetinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Cobimetinib?">
-<strong>Cobimetinib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Cobimetinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Cobimetinib with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>amyotrophic lateral sclerosis (99.7%)</li>
+<li>bilateral parasagittal parieto-occipital polymicrogyria (99.7%)</li>
+<li>axial spondylometaphyseal dysplasia (99.6%)</li>
+<li>Mills syndrome (99.6%)</li>
+<li>amyotrophic lateral sclerosis, susceptibility to (99.6%)</li>
+<li>lower motor neuron syndrome with late-adult onset (99.6%)</li>
+<li>trichomegaly-retina pigmentary degeneration-dwarfism syndrome (99.6%)</li>
+<li>lethal arthrogryposis-anterior horn cell disease syndrome (99.5%)</li>
+<li>amyotrohpic lateral sclerosis type 22 (99.5%)</li>
+<li>monomelic amyotrophy (99.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cobimetinib/' | relative_url }}">View full drug report →</a></p>
 </div>

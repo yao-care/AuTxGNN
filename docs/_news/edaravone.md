@@ -3,7 +3,7 @@ layout: default
 title: "Edaravone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Edaravone. Original indication: . 0 predicted indications."
+description: "Health news related to Edaravone. Original indication: . 10 predicted indications."
 permalink: /news/edaravone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/edaravone/
 ---
 
 <p class="key-answer" data-question="What news is there about Edaravone?">
-<strong>Edaravone</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Edaravone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Edaravone with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>heparin cofactor 2 deficiency (99.5%)</li>
+<li>factor 5 excess with spontaneous thrombosis (99.1%)</li>
+<li>bilateral parasagittal parieto-occipital polymicrogyria (99.0%)</li>
+<li>antithrombin deficiency type 2 (99.0%)</li>
+<li>axial spondylometaphyseal dysplasia (98.8%)</li>
+<li>amyotrophic lateral sclerosis, susceptibility to (98.8%)</li>
+<li>amyotrohpic lateral sclerosis type 22 (98.8%)</li>
+<li>trichomegaly-retina pigmentary degeneration-dwarfism syndrome (98.7%)</li>
+<li>Mills syndrome (98.7%)</li>
+<li>lower motor neuron syndrome with late-adult onset (98.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/edaravone/' | relative_url }}">View full drug report →</a></p>
 </div>

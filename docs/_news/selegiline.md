@@ -3,7 +3,7 @@ layout: default
 title: "Selegiline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Selegiline. Original indication: . 0 predicted indications."
+description: "Health news related to Selegiline. Original indication: . 10 predicted indications."
 permalink: /news/selegiline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/selegiline/
 ---
 
 <p class="key-answer" data-question="What news is there about Selegiline?">
-<strong>Selegiline</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Selegiline</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Selegiline with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (99.2%)</li>
+<li>schizophrenia (99.1%)</li>
+<li>congenital disorder of glycosylation with defective fucosylation (99.0%)</li>
+<li>retinal dystrophy with or without extraocular anomalies (99.0%)</li>
+<li>Charcot-Marie-Tooth disease, demyelinating, type 1G (99.0%)</li>
+<li>atypical glycine encephalopathy (98.9%)</li>
+<li>myopia X-linked (98.9%)</li>
+<li>myopia 26, X-linked, female-limited (98.8%)</li>
+<li>syndromic myopia (98.8%)</li>
+<li>hydranencephaly (disease) (98.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/selegiline/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Burosumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Burosumab. Original indication: . 0 predicted indications."
+description: "Health news related to Burosumab. Original indication: . 10 predicted indications."
 permalink: /news/burosumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/burosumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Burosumab?">
-<strong>Burosumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Burosumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Burosumab with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>renal osteodystrophy (96.9%)</li>
+<li>impaired renal function disease (95.9%)</li>
+<li>non-renal secondary hyperparathyroidism (95.8%)</li>
+<li>bone remodeling disease (95.5%)</li>
+<li>hyperparathyroidism, transient neonatal (95.0%)</li>
+<li>severe nonproliferative diabetic retinopathy (94.6%)</li>
+<li>diabetic retinopathy (94.0%)</li>
+<li>diabetic cataract (90.6%)</li>
+<li>hypocalcemic rickets (89.7%)</li>
+<li>cortical cataract (87.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/burosumab/' | relative_url }}">View full drug report →</a></p>
 </div>

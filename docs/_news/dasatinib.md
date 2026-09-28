@@ -3,7 +3,7 @@ layout: default
 title: "Dasatinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dasatinib. Original indication: . 0 predicted indications."
+description: "Health news related to Dasatinib. Original indication: . 10 predicted indications."
 permalink: /news/dasatinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dasatinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Dasatinib?">
-<strong>Dasatinib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Dasatinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Dasatinib with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Ewing sarcoma (99.9%)</li>
+<li>myeloid leukemia (99.7%)</li>
+<li>liposarcoma (99.7%)</li>
+<li>fibromatosis, gingival (99.7%)</li>
+<li>dermatofibrosarcoma protuberans (99.7%)</li>
+<li>ovarian myxoid liposarcoma (99.6%)</li>
+<li>ganglioneuroblastoma (disease) (99.6%)</li>
+<li>vertebral anomalies and variable endocrine and T-cell dysfunction (99.6%)</li>
+<li>inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia (99.6%)</li>
+<li>hamartoma of lung (99.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dasatinib/' | relative_url }}">View full drug report →</a></p>
 </div>

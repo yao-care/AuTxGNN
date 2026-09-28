@@ -3,7 +3,7 @@ layout: default
 title: "Ritonavir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ritonavir. Original indication: . 0 predicted indications."
+description: "Health news related to Ritonavir. Original indication: . 10 predicted indications."
 permalink: /news/ritonavir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ritonavir/
 ---
 
 <p class="key-answer" data-question="What news is there about Ritonavir?">
-<strong>Ritonavir</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ritonavir</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Ritonavir with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>simian immunodeficiency virus infection (99.9%)</li>
+<li>feline acquired immunodeficiency syndrome (99.9%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.9%)</li>
+<li>hepatitis B virus infection (98.1%)</li>
+<li>congenital human immunodeficiency virus (96.7%)</li>
+<li>AIDS related complex (96.7%)</li>
+<li>fibroma of prostate (95.8%)</li>
+<li>hepatitis E virus infection (95.5%)</li>
+<li>hepatitis, viral, animal (95.5%)</li>
+<li>hepatitis A virus infection (95.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ritonavir/' | relative_url }}">View full drug report →</a></p>
 </div>

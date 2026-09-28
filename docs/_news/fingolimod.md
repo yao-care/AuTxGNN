@@ -3,7 +3,7 @@ layout: default
 title: "Fingolimod News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fingolimod. Original indication: . 0 predicted indications."
+description: "Health news related to Fingolimod. Original indication: . 10 predicted indications."
 permalink: /news/fingolimod/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fingolimod/
 ---
 
 <p class="key-answer" data-question="What news is there about Fingolimod?">
-<strong>Fingolimod</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Fingolimod</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Fingolimod with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>borderline ovarian serous tumor (94.9%)</li>
+<li>ovarian papillary cystadenoma (94.6%)</li>
+<li>malignant ovarian Brenner tumor (94.6%)</li>
+<li>rete ovarii cystadenoma (94.6%)</li>
+<li>serous neoplasm (94.3%)</li>
+<li>ovarian mucinous cystadenofibroma (94.3%)</li>
+<li>mucinous ovarian cystadenoma (94.2%)</li>
+<li>ovarian benign neoplasm (94.2%)</li>
+<li>ovarian surface papilloma (94.0%)</li>
+<li>Immunoerythromyeloid hypoplasia (93.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/fingolimod/' | relative_url }}">View full drug report →</a></p>
 </div>

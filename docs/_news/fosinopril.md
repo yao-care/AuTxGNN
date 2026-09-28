@@ -3,7 +3,7 @@ layout: default
 title: "Fosinopril News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fosinopril. Original indication: . 0 predicted indications."
+description: "Health news related to Fosinopril. Original indication: . 10 predicted indications."
 permalink: /news/fosinopril/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fosinopril/
 ---
 
 <p class="key-answer" data-question="What news is there about Fosinopril?">
-<strong>Fosinopril</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Fosinopril</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Fosinopril with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>malignant hypertensive renal disease (99.9%)</li>
+<li>malignant renovascular hypertension (99.9%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (99.9%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.9%)</li>
+<li>Braddock syndrome (99.8%)</li>
+<li>chronic pulmonary heart disease (98.8%)</li>
+<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (93.0%)</li>
+<li>brain small vessel disease 1 with or without ocular anomalies (92.2%)</li>
+<li>intracerebral hemorrhage (85.0%)</li>
+<li>diabetic nephropathy (80.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/fosinopril/' | relative_url }}">View full drug report →</a></p>
 </div>

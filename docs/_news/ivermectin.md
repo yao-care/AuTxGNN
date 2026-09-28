@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Ivermectin with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Vulvovaginal Candidiasis | 99.95% | 0 | 0 | L5 | Hold | Yes — no antifungal mechanism (99.0%)</li>
-<li>Esophageal Candidiasis | 99.73% | 0 | 1* | L5 | Hold | Yes — cited paper treats strongyloidiasis, not candidiasis (99.0%)</li>
-<li>Anogenital HPV Infection | 99.48% | 0 | 0 | L5 | Hold | Yes — no anti-HPV mechanism; geographic KG co-occurrence (99.0%)</li>
-<li>Vulvovaginitis | 99.36% | 0 | 0 | L5 | Hold | Yes — minimal isolated preclinical signal (*Trichomonas*); no clinical data (99.0%)</li>
-<li>Candida glabrata | 99.25% | 0 | 0 | L5 | Hold | Yes — no antifungal mechanism for this azole-resistant species (99.0%)</li>
-<li>Congenital Candidiasis | 99.25% | 0 | 1* | L5 | Hold | Yes — cited paper treats scabies, not candidiasis (99.0%)</li>
-<li>Neonatal Candidiasis | 99.25% | 0 | 0 | L5 | Hold | Yes — no mechanism; Ivermectin generally avoided in neonates (<15 kg) (99.0%)</li>
-<li>Postmenopausal Atrophic Vaginitis | 99.18% | 0 | 0 | L5 | Hold | Yes — non-infectious; no plausible mechanism (99.0%)</li>
-<li>Candidiasis, Invasive | 99.16% | 0 | 0 | L5 | Hold | Yes — no systemic antifungal mechanism; plasma levels far below any antifungal threshold (99.0%)</li>
-<li>Vulvitis | 98.98% | 0 | 0 | L5 | Hold | Yes — lowest score; no mechanism or evidence (99.0%)</li>
+<li>vulvovaginal candidiasis (100.0%)</li>
+<li>esophageal candidiasis (99.7%)</li>
+<li>anogenital human papillomavirus infection (99.5%)</li>
+<li>vulvovaginitis (99.4%)</li>
+<li>candida glabrata (99.2%)</li>
+<li>congenital candidiasis (99.2%)</li>
+<li>neonatal candidiasis (99.2%)</li>
+<li>postmenopausal atrophic vaginitis (99.2%)</li>
+<li>candidiasis, invasive (99.2%)</li>
+<li>vulvitis (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ivermectin/' | relative_url }}">View full drug report →</a></p>

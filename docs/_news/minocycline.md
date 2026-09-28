@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Minocycline with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Punctate epithelial keratoconjunctivitis | 99.63% | L5 | S0 | Hold | No trials/literature; theoretical MMP-inhibition link only (99.0%)</li>
-<li>Exposure keratitis | 99.20% | L5 | S0 | Hold | No trials/literature (99.0%)</li>
-<li>Neurotrophic keratopathy | 98.98% | L5 | S0 | Hold | No trials/literature (99.0%)</li>
-<li>Postinfectious vasculitis | 98.76% | L5 | S0 | Hold | **Safety signal, not efficacy signal** — Minocycline is a known cause of ANCA-associated vasculitis; the score likely reflects a drug-causes-disease association, not a treatment relationship (99.0%)</li>
-<li>Post-bacterial disorder | 98.74% | L3 | S1 | Research Question | 16 trials retrieved, mostly unrelated to this diffuse label (rosacea, periodontitis, TB, stroke); needs a specific target indication before further evaluation (99.0%)</li>
-<li>**Otitis externa** | 98.70% | L3 | S2 | **Proceed with Guardrails** | See main report above (99.0%)</li>
-<li>Post-infectious syndrome | 98.68% | L2 | S1 | Research Question | Includes an ongoing Phase 3 platform trial (NCT07280572, RECLAIM, Long COVID) with a minocycline arm, and a terminated Phase 1/2 HIV-cognitive-impairment trial (NCT00855062) (99.0%)</li>
-<li>Chronic ethmoidal sinusitis | 98.67% | L5 | S0 | Hold | No trials/literature (99.0%)</li>
-<li>Chronic rhinosinusitis | 98.63% | L4 | S0 | Hold | Only 1 background (non-treatment) publication (99.0%)</li>
-<li>Paranasal sinus neoplasm | 98.61% | L5 | S0 | Hold | No trials/literature; theoretical antitumour rationale only (99.0%)</li>
+<li>punctate epithelial keratoconjunctivitis (99.6%)</li>
+<li>exposure keratitis (99.2%)</li>
+<li>neurotrophic keratopathy (99.0%)</li>
+<li>postinfectious vasculitis (98.8%)</li>
+<li>post-bacterial disorder (98.7%)</li>
+<li>otitis externa (98.7%)</li>
+<li>post-infectious syndrome (98.7%)</li>
+<li>chronic ethmoidal sinusitis (98.7%)</li>
+<li>chronic rhinosinusitis (98.6%)</li>
+<li>paranasal sinus neoplasm (disease) (98.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/minocycline/' | relative_url }}">View full drug report →</a></p>

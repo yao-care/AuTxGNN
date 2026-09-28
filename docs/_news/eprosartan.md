@@ -3,7 +3,7 @@ layout: default
 title: "Eprosartan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Eprosartan. Original indication: . 0 predicted indications."
+description: "Health news related to Eprosartan. Original indication: . 10 predicted indications."
 permalink: /news/eprosartan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/eprosartan/
 ---
 
 <p class="key-answer" data-question="What news is there about Eprosartan?">
-<strong>Eprosartan</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Eprosartan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Eprosartan with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>malignant renovascular hypertension (93.7%)</li>
+<li>malignant hypertensive renal disease (93.7%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (93.0%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (93.0%)</li>
+<li>Braddock syndrome (91.7%)</li>
+<li>chronic pulmonary heart disease (68.5%)</li>
+<li>obsolete susceptibility to ischemic stroke (66.2%)</li>
+<li>ocular tuberculosis (63.0%)</li>
+<li>congenital temporomandibular joint ankylosis (61.6%)</li>
+<li>obsolete functional visual loss (61.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/eprosartan/' | relative_url }}">View full drug report →</a></p>
 </div>

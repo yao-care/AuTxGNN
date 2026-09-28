@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Toripalimab with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Mixed-type autoimmune hemolytic anemia | 93.76% | L5 | Hold | No evidence; mechanism contradicts (99.0%)</li>
-<li>Idiopathic aplastic anemia | 93.76% | L5 | Hold | No evidence; immune-mediated marrow suppression risk (99.0%)</li>
-<li>Dermatitis | 93.69% | L4 | Hold | Trials/literature describe drug as **cause** of severe skin irAEs (SJS/TEN), not treatment (99.0%)</li>
-<li>Paroxysmal nocturnal hemoglobinuria | 93.67% | L5 | Hold | Mechanism unrelated (complement-mediated, not T-cell) (99.0%)</li>
-<li>Drug-induced autoimmune hemolytic anemia | 93.67% | L5 | Hold | Logically inconsistent — checkpoint inhibitors are a known *cause* of this condition (99.0%)</li>
-<li>Proteinuria | 93.07% | L4 | Hold | Literature describes proteinuria as a renal irAE during toripalimab combination therapy (99.0%)</li>
-<li>Acne keloid | 93.05% | L5 | Hold | No evidence, no mechanistic rationale (99.0%)</li>
-<li>Neonatal autoimmune hemolytic anemia | 93.03% | L5 | Hold | Population mismatch; mechanism contradicts (99.0%)</li>
-<li>Primary CD59 deficiency | 92.84% | L5 | Hold | No known mechanistic link (genetic complement disorder) (99.0%)</li>
-<li>Amyopathic dermatomyositis | 92.79% | L5 | Hold | PD-1 inhibitors are a known trigger of myositis/dermatomyositis-like irAEs (99.0%)</li>
+<li>mixed-type autoimmune hemolytic anemia (93.8%)</li>
+<li>idiopathic aplastic anemia (93.8%)</li>
+<li>dermatitis (93.7%)</li>
+<li>paroxysmal nocturnal hemoglobinuria (93.7%)</li>
+<li>drug-induced autoimmune hemolytic anemia (93.7%)</li>
+<li>proteinuria (93.1%)</li>
+<li>acne keloid (93.0%)</li>
+<li>neonatal autoimmune hemolytic anemia (93.0%)</li>
+<li>primary CD59 deficiency (92.8%)</li>
+<li>amyopathic dermatomyositis (92.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/toripalimab/' | relative_url }}">View full drug report →</a></p>

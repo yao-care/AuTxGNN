@@ -3,7 +3,7 @@ layout: default
 title: "Dabrafenib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dabrafenib. Original indication: . 0 predicted indications."
+description: "Health news related to Dabrafenib. Original indication: . 10 predicted indications."
 permalink: /news/dabrafenib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dabrafenib/
 ---
 
 <p class="key-answer" data-question="What news is there about Dabrafenib?">
-<strong>Dabrafenib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Dabrafenib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Dabrafenib with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>choroideremia (98.6%)</li>
+<li>non-cutaneous melanoma (98.5%)</li>
+<li>epithelioid cell melanoma (98.4%)</li>
+<li>eyelid melanoma (98.4%)</li>
+<li>scrotum melanoma (98.3%)</li>
+<li>choroidal dystrophy, central areolar (98.3%)</li>
+<li>amyotrophic lateral sclerosis (98.3%)</li>
+<li>bilateral parasagittal parieto-occipital polymicrogyria (98.2%)</li>
+<li>amelanotic skin melanoma (98.1%)</li>
+<li>nodular malignant melanoma (98.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dabrafenib/' | relative_url }}">View full drug report →</a></p>
 </div>

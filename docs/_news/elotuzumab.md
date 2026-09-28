@@ -3,7 +3,7 @@ layout: default
 title: "Elotuzumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Elotuzumab. Original indication: . 0 predicted indications."
+description: "Health news related to Elotuzumab. Original indication: . 10 predicted indications."
 permalink: /news/elotuzumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/elotuzumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Elotuzumab?">
-<strong>Elotuzumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Elotuzumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Elotuzumab with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>indolent plasma cell myeloma (98.6%)</li>
+<li>lipoma of colon (76.3%)</li>
+<li>cecum villous adenoma (76.1%)</li>
+<li>colonic lymphangioma (75.7%)</li>
+<li>colon leiomyoma (75.3%)</li>
+<li>rectosigmoid junction neoplasm (75.3%)</li>
+<li>cecum neuroendocrine tumor G1 (75.3%)</li>
+<li>cecal disease (74.8%)</li>
+<li>benign neoplasm of cecum (74.7%)</li>
+<li>cavernous hemangioma of colon (73.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/elotuzumab/' | relative_url }}">View full drug report →</a></p>
 </div>

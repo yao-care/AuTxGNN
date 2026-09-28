@@ -3,7 +3,7 @@ layout: default
 title: "Abacavir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Abacavir. Original indication: Abacavir is indicated in antiretroviral combinatio.... 15 predicted indications."
+description: "Health news related to Abacavir. Original indication: Abacavir is indicated in antiretroviral combinatio.... 10 predicted indications."
 permalink: /news/abacavir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/abacavir/
 ---
 
 <p class="key-answer" data-question="What news is there about Abacavir?">
-<strong>Abacavir</strong> currently has <strong>0 news articles</strong>, with 15 predicted indications.
+<strong>Abacavir</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,22 +26,17 @@ This page combines the AI-predicted indications for Abacavir with the latest hea
 <ul>
 <li><strong>Original indication</strong>: Abacavir is indicated in antiretroviral combination therapy for the treatment of **Human Immunodeficiency Virus (HIV-1) infection** in adults and children aged ≥3 months.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (15)</strong>:<ul>
-<li>Simian immunodeficiency virus infection | 0.998 | L4 | S0 | **Hold** (99.0%)</li>
-<li>Feline acquired immunodeficiency syndrome | 0.998 | L3 | S0 | **Hold** (99.0%)</li>
-<li>Neurodevelopmental disorder with ataxic gait | 0.998 | L5 | S0 | **Hold** (99.0%)</li>
-<li>Obsolete familial combined hyperlipidaemia | 0.987 | L5 | S0 | **Hold** (99.0%)</li>
-<li>Congenital human immunodeficiency virus | 0.928 | L1 | S3 | **Proceed with Guardrails** (99.0%)</li>
-<li>AIDS-related complex | 0.928 | L2 | S3 | **Proceed with Guardrails** (99.0%)</li>
-<li>Chronic hepatitis C virus infection | 0.927 | L3 | S1 | **Research Question** (99.0%)</li>
-<li>Paratenonitis | 0.882 | L5 | S0 | **Hold** (99.0%)</li>
-<li>Calcific tendinitis | 0.879 | L5 | S0 | **Hold** (99.0%)</li>
-<li>Fibroma of prostate | 0.870 | L5 | S0 | **Hold** (99.0%)</li>
-<li>Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | Rare genetic disorder; no NRTI mechanism relevant to neurodevelopment. High TxGNN score likely reflects topological proximity to HIV encephalopathy in the knowledge graph. (99.0%)</li>
-<li>Obsolete familial combined hyperlipidaemia | Ontology term marked as "obsolete." NRTIs including Abacavir are associated with **worsening** dyslipidaemia as an adverse effect — a **contraindication signal**. (99.0%)</li>
-<li>Paratenonitis | Mechanical/inflammatory tendon sheath condition; no NRTI anti-inflammatory mechanism. (99.0%)</li>
-<li>Calcific tendinitis | Calcium deposition disorder; Abacavir has no calcium metabolism or tendon repair activity. (99.0%)</li>
-<li>Fibroma of prostate | Benign mesenchymal tumour; no anti-tumour or anti-fibrotic NRTI mechanism. (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>simian immunodeficiency virus infection (99.8%)</li>
+<li>feline acquired immunodeficiency syndrome (99.8%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.8%)</li>
+<li>obsolete familial combined hyperlipidemia (98.7%)</li>
+<li>congenital human immunodeficiency virus (92.8%)</li>
+<li>AIDS related complex (92.8%)</li>
+<li>chronic hepatitis C virus infection (92.7%)</li>
+<li>paratenonitis (88.2%)</li>
+<li>calcific tendinitis (87.9%)</li>
+<li>fibroma of prostate (87.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/abacavir/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Valganciclovir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Valganciclovir. Original indication: . 0 predicted indications."
+description: "Health news related to Valganciclovir. Original indication: . 10 predicted indications."
 permalink: /news/valganciclovir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/valganciclovir/
 ---
 
 <p class="key-answer" data-question="What news is there about Valganciclovir?">
-<strong>Valganciclovir</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Valganciclovir</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Valganciclovir with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>rheumatoid arthritis (99.0%)</li>
+<li>bronchitis (98.3%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (98.2%)</li>
+<li>brachydactyly-syndactyly syndrome (97.9%)</li>
+<li>laryngotracheitis (95.5%)</li>
+<li>osteoarthritis susceptibility (94.3%)</li>
+<li>trigeminal autonomic cephalalgia (93.8%)</li>
+<li>headache disorder (93.5%)</li>
+<li>tendinitis (92.9%)</li>
+<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (92.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/valganciclovir/' | relative_url }}">View full drug report →</a></p>
 </div>

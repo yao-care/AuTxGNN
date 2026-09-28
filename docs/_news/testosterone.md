@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Testosterone with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Polysomy of X chromosome | 94.88% | L4 | S1 | Research Question (99.0%)</li>
-<li>Tetragametic chimerism | 94.66% | L4 | S1 | Research Question (99.0%)</li>
-<li>Penile/testicular agenesis | 94.62% | L5 | S0 | Hold (99.0%)</li>
-<li>**Testicular regression syndrome** | 94.46% | **L3** | **S2** | **Proceed with Guardrails** (99.0%)</li>
-<li>Leydig cell hypoplasia due to LH resistance | 94.24% | L4 | S1 | Research Question (99.0%)</li>
-<li>Urethral obstruction sequence | 94.18% | L5 | S0 | Hold (99.0%)</li>
-<li>46,XX DSD–anorectal anomalies syndrome | 94.15% | L4 | S1 | Research Question (99.0%)</li>
-<li>Freemartinism | 94.03% | L5 | S0 | Hold (99.0%)</li>
-<li>Arthrogryposis–epileptic seizures–migrational brain disorder | 93.84% | L5 | S0 | Hold (99.0%)</li>
-<li>**Primary ovarian failure** | 93.73% | **L2** | **S2** | **Proceed with Guardrails** (99.0%)</li>
+<li>polysomy of X chromosome (94.9%)</li>
+<li>tetragametic chimerism (94.7%)</li>
+<li>penile/testicular agenesis (94.6%)</li>
+<li>testicular regression syndrome (94.5%)</li>
+<li>Leydig cell hypoplasia due to LH resistance (94.2%)</li>
+<li>urethral obstruction sequence (94.2%)</li>
+<li>46,XX disorder of sex development-anorectal anomalies syndrome (94.2%)</li>
+<li>freemartinism (94.0%)</li>
+<li>arthrogryposis epileptic seizures migrational brain disorder (93.8%)</li>
+<li>primary ovarian failure (93.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/testosterone/' | relative_url }}">View full drug report →</a></p>

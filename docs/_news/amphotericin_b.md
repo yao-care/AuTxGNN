@@ -3,7 +3,7 @@ layout: default
 title: "Amphotericin B News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Amphotericin B. Original indication: . 0 predicted indications."
+description: "Health news related to Amphotericin B. Original indication: . 10 predicted indications."
 permalink: /news/amphotericin_b/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/amphotericin_b/
 ---
 
 <p class="key-answer" data-question="What news is there about Amphotericin B?">
-<strong>Amphotericin B</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Amphotericin B</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Amphotericin B with the late
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>paranasal sinus neoplasm (disease) (97.5%)</li>
+<li>chronic rhinosinusitis (97.4%)</li>
+<li>chronic ethmoidal sinusitis (97.4%)</li>
+<li>bacterial pneumonia (95.6%)</li>
+<li>meningococcal infection (94.3%)</li>
+<li>endocardial fibroelastosis (93.6%)</li>
+<li>punctate epithelial keratoconjunctivitis (93.3%)</li>
+<li>bacterial arthritis (93.3%)</li>
+<li>endocarditis (92.9%)</li>
+<li>pneumocystosis (91.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/amphotericin_b/' | relative_url }}">View full drug report →</a></p>
 </div>

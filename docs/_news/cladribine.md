@@ -3,7 +3,7 @@ layout: default
 title: "Cladribine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cladribine. Original indication: . 0 predicted indications."
+description: "Health news related to Cladribine. Original indication: . 10 predicted indications."
 permalink: /news/cladribine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cladribine/
 ---
 
 <p class="key-answer" data-question="What news is there about Cladribine?">
-<strong>Cladribine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Cladribine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Cladribine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>parameningeal embryonal rhabdomyosarcoma (99.8%)</li>
+<li>botryoid-type embryonal rhabdomyosarcoma of the vagina (99.8%)</li>
+<li>embryonal extrahepatic bile duct rhabdomyosarcoma (99.8%)</li>
+<li>prostate embryonal rhabdomyosarcoma (99.8%)</li>
+<li>extrahepatic bile duct rhabdomyosarcoma (99.8%)</li>
+<li>rhabdomyosarcoma (disease) (99.7%)</li>
+<li>liver sarcoma (99.7%)</li>
+<li>skeletal muscle neoplasm (99.0%)</li>
+<li>gestational trophoblastic neoplasm (98.4%)</li>
+<li>pleural adenomatoid tumor (98.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cladribine/' | relative_url }}">View full drug report →</a></p>
 </div>

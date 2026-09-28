@@ -3,7 +3,7 @@ layout: default
 title: "Denosumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Denosumab. Original indication: . 0 predicted indications."
+description: "Health news related to Denosumab. Original indication: . 10 predicted indications."
 permalink: /news/denosumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/denosumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Denosumab?">
-<strong>Denosumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Denosumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Denosumab with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>severe nonproliferative diabetic retinopathy (99.6%)</li>
+<li>diabetic retinopathy (99.2%)</li>
+<li>dermatitis (97.2%)</li>
+<li>diabetic cataract (96.7%)</li>
+<li>acrodermatitis chronica atrophicans (96.2%)</li>
+<li>neonatal dermatomyositis (95.8%)</li>
+<li>hydroa vacciniforme, familial (95.2%)</li>
+<li>secondary interstitial lung disease specific to childhood associated with a connective tissue disease (95.0%)</li>
+<li>acne keloid (94.8%)</li>
+<li>amyopathic dermatomyositis (94.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/denosumab/' | relative_url }}">View full drug report →</a></p>
 </div>

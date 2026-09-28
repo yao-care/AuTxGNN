@@ -3,7 +3,7 @@ layout: default
 title: "Methylnaltrexone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Methylnaltrexone. Original indication: . 0 predicted indications."
+description: "Health news related to Methylnaltrexone. Original indication: . 10 predicted indications."
 permalink: /news/methylnaltrexone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/methylnaltrexone/
 ---
 
 <p class="key-answer" data-question="What news is there about Methylnaltrexone?">
-<strong>Methylnaltrexone</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Methylnaltrexone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Methylnaltrexone with the la
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>congenital hypotrichosis milia (78.3%)</li>
+<li>hypotrichosis simplex of the scalp (77.3%)</li>
+<li>exercise-induced malignant hyperthermia (76.6%)</li>
+<li>common cold (76.4%)</li>
+<li>alopecia (75.4%)</li>
+<li>diffuse alopecia areata (75.3%)</li>
+<li>respiratory failure (72.0%)</li>
+<li>familial periodic paralysis (71.3%)</li>
+<li>obsolete hyperuricemia (disease) (71.2%)</li>
+<li>trigeminal autonomic cephalalgia (67.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/methylnaltrexone/' | relative_url }}">View full drug report →</a></p>
 </div>

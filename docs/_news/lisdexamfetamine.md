@@ -3,7 +3,7 @@ layout: default
 title: "Lisdexamfetamine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lisdexamfetamine. Original indication: . 0 predicted indications."
+description: "Health news related to Lisdexamfetamine. Original indication: . 3 predicted indications."
 permalink: /news/lisdexamfetamine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lisdexamfetamine/
 ---
 
 <p class="key-answer" data-question="What news is there about Lisdexamfetamine?">
-<strong>Lisdexamfetamine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Lisdexamfetamine</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,11 @@ This page combines the AI-predicted indications for Lisdexamfetamine with the la
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>specific developmental disorder (100.0%)</li>
+<li>faciodigitogenital syndrome (100.0%)</li>
+<li>chondromyxoid fibroma (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lisdexamfetamine/' | relative_url }}">View full drug report →</a></p>
 </div>

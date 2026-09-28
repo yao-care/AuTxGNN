@@ -3,7 +3,7 @@ layout: default
 title: "Vemurafenib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Vemurafenib. Original indication: . 9 predicted indications."
+description: "Health news related to Vemurafenib. Original indication: . 10 predicted indications."
 permalink: /news/vemurafenib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/vemurafenib/
 ---
 
 <p class="key-answer" data-question="What news is there about Vemurafenib?">
-<strong>Vemurafenib</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Vemurafenib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,16 +24,17 @@ This page combines the AI-predicted indications for Vemurafenib with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>HIV infectious disease | 97.65% | L5 | Hold | No mechanistic link; no evidence (99.0%)</li>
-<li>Neurodevelopmental disorder (ataxic gait, absent speech) | 96.73% | L5 | Hold | Rare paediatric genetic disorder; safety concerns re: BRAF inhibition in developing CNS (99.0%)</li>
-<li>Feline acquired immunodeficiency syndrome | 96.56% | L5 | Hold | Animal (feline) disease, not a human indication (99.0%)</li>
-<li>Simian immunodeficiency virus infection | 96.56% | L5 | Hold | Non-human primate model virus, not a human indication (99.0%)</li>
-<li>Acute intermittent porphyria | 96.21% | L5 | Hold | No mechanistic link; CYP3A4 metabolism raises unassessed risk in porphyria (99.0%)</li>
-<li>Collagenopathy | 95.32% | L5 | Hold | No mechanistic link (99.0%)</li>
-<li>Paratenonitis | 95.25% | L5 | Hold | Vemurafenib is a known cause of arthralgia — opposite direction of effect (99.0%)</li>
-<li>Calcific tendinitis | 95.13% | L5 | Hold | No mechanistic link; arthralgia is a known adverse effect, opposite direction (99.0%)</li>
-<li>Lymphocytic hypereosinophilic syndrome | 94.996% | L5 | Hold | No mechanistic link (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>HIV infectious disease (97.7%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (96.7%)</li>
+<li>feline acquired immunodeficiency syndrome (96.6%)</li>
+<li>simian immunodeficiency virus infection (96.6%)</li>
+<li>acute intermittent porphyria (96.2%)</li>
+<li>collagenopathy (95.3%)</li>
+<li>paratenonitis (95.2%)</li>
+<li>female breast carcinoma (95.2%)</li>
+<li>calcific tendinitis (95.1%)</li>
+<li>lymphocytic hypereosinophilic syndrome (95.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/vemurafenib/' | relative_url }}">View full drug report →</a></p>

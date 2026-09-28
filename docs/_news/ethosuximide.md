@@ -3,7 +3,7 @@ layout: default
 title: "Ethosuximide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ethosuximide. Original indication: For any clinical use in Australia, access would re.... 0 predicted indications."
+description: "Health news related to Ethosuximide. Original indication: For any clinical use in Australia, access would re.... 10 predicted indications."
 permalink: /news/ethosuximide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ethosuximide/
 ---
 
 <p class="key-answer" data-question="What news is there about Ethosuximide?">
-<strong>Ethosuximide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ethosuximide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,6 +26,18 @@ This page combines the AI-predicted indications for Ethosuximide with the latest
 <ul>
 <li><strong>Original indication</strong>: For any clinical use in Australia, access would require:</li>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>nephrogenic syndrome of inappropriate antidiuresis (99.9%)</li>
+<li>nephrogenic diabetes insipidus (99.0%)</li>
+<li>insomnia (disease) (97.8%)</li>
+<li>familial mesial temporal lobe epilepsy with febrile seizures (97.1%)</li>
+<li>epilepsy, childhood absence, susceptibility to (95.7%)</li>
+<li>diabetes insipidus, nephrogenic, X-linked (95.3%)</li>
+<li>Lafora disease (94.5%)</li>
+<li>renal tubule disease (94.4%)</li>
+<li>Senior-Boichis syndrome (94.3%)</li>
+<li>psychomotor regression-oculomotor apraxia-movement disorder-nephropathy syndrome (94.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ethosuximide/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Selumetinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Selumetinib. Original indication: . 9 predicted indications."
+description: "Health news related to Selumetinib. Original indication: . 10 predicted indications."
 permalink: /news/selumetinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/selumetinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Selumetinib?">
-<strong>Selumetinib</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Selumetinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,16 +24,17 @@ This page combines the AI-predicted indications for Selumetinib with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Familial generalized lentiginosis | 99.96% | L5 | S0 | No trials/literature; score-driven only (99.0%)</li>
-<li>Gastrocutaneous syndrome | 99.96% | L5 | S0 | No trials/literature; score-driven only (99.0%)</li>
-<li>Rhabdoid tumor | 99.96% | L3 | S1 | 1 basket trial (NCI-COG MATCH, indirect); preclinical AT/RT MAPK literature (99.0%)</li>
-<li>Congenital multiple café-au-lait macules-ISCE syndrome | 99.96% | L5 | S0 | No trials/literature; score-driven only (99.0%)</li>
-<li>Acromelanosis | 99.96% | L5 | S0 | No trials/literature; score-driven only (99.0%)</li>
-<li>Moynahan syndrome | 99.96% | L5 | S0 | Strongest theoretical RAS-MAPK link of all candidates, but no studies at all (99.0%)</li>
-<li>Leukonychia totalis-acanthosis nigricans-like lesions syndrome | 99.95% | L5 | S0 | No trials/literature; score-driven only (99.0%)</li>
-<li>Osteopathia striata-pigmentary dermopathy-white forelock syndrome | 99.95% | L5 | S0 | No trials/literature; score-driven only (99.0%)</li>
-<li>Trigeminal schwannoma | 99.95% | L4 | S1 | Class-level extrapolation from peripheral nerve schwannoma only (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>familial generalized lentiginosis (100.0%)</li>
+<li>gastrocutaneous syndrome (100.0%)</li>
+<li>rhabdoid tumor (100.0%)</li>
+<li>congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome (100.0%)</li>
+<li>acromelanosis (100.0%)</li>
+<li>Moynahan syndrome (100.0%)</li>
+<li>leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome (100.0%)</li>
+<li>osteopathia striata-pigmentary dermopathy-white forelock syndrome (100.0%)</li>
+<li>peripheral nerve schwannoma (100.0%)</li>
+<li>trigeminal schwannoma (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/selumetinib/' | relative_url }}">View full drug report →</a></p>

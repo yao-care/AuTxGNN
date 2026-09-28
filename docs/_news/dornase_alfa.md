@@ -3,7 +3,7 @@ layout: default
 title: "Dornase alfa News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dornase alfa. Original indication: . 0 predicted indications."
+description: "Health news related to Dornase alfa. Original indication: . 10 predicted indications."
 permalink: /news/dornase_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dornase_alfa/
 ---
 
 <p class="key-answer" data-question="What news is there about Dornase alfa?">
-<strong>Dornase alfa</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Dornase alfa</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Dornase alfa with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>ovarian melanoma (50.0%)</li>
+<li>eumycotic mycetoma (50.0%)</li>
+<li>ethmoid sinusitis (50.0%)</li>
+<li>equine infectious anemia (50.0%)</li>
+<li>epilepsy with generalized tonic-clonic seizures (50.0%)</li>
+<li>epiglottitis (50.0%)</li>
+<li>epidural abscess (50.0%)</li>
+<li>epidemic pleurodynia (50.0%)</li>
+<li>ephemeral fever (50.0%)</li>
+<li>enzootic pneumonia of calves (50.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dornase_alfa/' | relative_url }}">View full drug report →</a></p>
 </div>

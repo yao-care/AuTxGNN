@@ -3,7 +3,7 @@ layout: default
 title: "Memantine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Memantine. Original indication: . 0 predicted indications."
+description: "Health news related to Memantine. Original indication: . 10 predicted indications."
 permalink: /news/memantine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/memantine/
 ---
 
 <p class="key-answer" data-question="What news is there about Memantine?">
-<strong>Memantine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Memantine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Memantine with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pulmonary hypertension (99.5%)</li>
+<li>migraine disorder (99.5%)</li>
+<li>kyphoscoliotic heart disease (99.4%)</li>
+<li>migraine with brainstem aura (99.4%)</li>
+<li>rheumatoid arthritis (98.7%)</li>
+<li>nephrogenic syndrome of inappropriate antidiuresis (98.7%)</li>
+<li>atrophoderma vermiculata (98.5%)</li>
+<li>migraine with or without aura, susceptibility to (98.4%)</li>
+<li>ulerythema ophryogenesis (98.2%)</li>
+<li>brachydactyly-syndactyly syndrome (98.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/memantine/' | relative_url }}">View full drug report →</a></p>
 </div>

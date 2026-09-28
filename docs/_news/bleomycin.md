@@ -3,7 +3,7 @@ layout: default
 title: "Bleomycin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bleomycin. Original indication: . 0 predicted indications."
+description: "Health news related to Bleomycin. Original indication: . 10 predicted indications."
 permalink: /news/bleomycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bleomycin/
 ---
 
 <p class="key-answer" data-question="What news is there about Bleomycin?">
-<strong>Bleomycin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Bleomycin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Bleomycin with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>cauda equina neoplasm (99.3%)</li>
+<li>adult astrocytic tumour (99.3%)</li>
+<li>reticulum cell sarcoma (99.1%)</li>
+<li>primary pulmonary lymphoma (99.1%)</li>
+<li>pulmonary blastoma (99.0%)</li>
+<li>well-differentiated fetal adenocarcinoma of the lung (99.0%)</li>
+<li>small cell lung carcinoma (98.9%)</li>
+<li>interdigitating dendritic cell sarcoma (98.6%)</li>
+<li>acute lymphoblastic/lymphocytic leukemia (98.6%)</li>
+<li>astrocytoma (excluding glioblastoma) (98.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/bleomycin/' | relative_url }}">View full drug report →</a></p>
 </div>

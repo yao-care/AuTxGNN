@@ -3,7 +3,7 @@ layout: default
 title: "Cefaclor News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cefaclor. Original indication: . 0 predicted indications."
+description: "Health news related to Cefaclor. Original indication: . 10 predicted indications."
 permalink: /news/cefaclor/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cefaclor/
 ---
 
 <p class="key-answer" data-question="What news is there about Cefaclor?">
-<strong>Cefaclor</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Cefaclor</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Cefaclor with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hyperamylasemia (97.7%)</li>
+<li>polyclonal hyperviscosity syndrome (97.7%)</li>
+<li>gonococcal urethritis (97.5%)</li>
+<li>Ureaplasma urethritis (97.5%)</li>
+<li>congenital analbuminemia (97.3%)</li>
+<li>blood group incompatibility (96.9%)</li>
+<li>uterine inflammatory disease (96.8%)</li>
+<li>xanthogranulomatous pyelonephritis (96.7%)</li>
+<li>premalignant hematological system disease (96.6%)</li>
+<li>monoclonal gammopathy (96.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cefaclor/' | relative_url }}">View full drug report →</a></p>
 </div>

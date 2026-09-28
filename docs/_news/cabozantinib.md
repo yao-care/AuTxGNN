@@ -3,7 +3,7 @@ layout: default
 title: "Cabozantinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cabozantinib. Original indication: . 0 predicted indications."
+description: "Health news related to Cabozantinib. Original indication: . 10 predicted indications."
 permalink: /news/cabozantinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cabozantinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Cabozantinib?">
-<strong>Cabozantinib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Cabozantinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Cabozantinib with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>liposarcoma (99.8%)</li>
+<li>ovarian myxoid liposarcoma (99.8%)</li>
+<li>unclassified renal cell carcinoma (99.8%)</li>
+<li>renal cell carcinoma associated with neuroblastoma (99.8%)</li>
+<li>renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions (99.8%)</li>
+<li>childhood kidney cell carcinoma (99.7%)</li>
+<li>renal carcinoma (99.7%)</li>
+<li>amyotrophic lateral sclerosis (99.7%)</li>
+<li>bilateral parasagittal parieto-occipital polymicrogyria (99.6%)</li>
+<li>angiolipoma (99.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cabozantinib/' | relative_url }}">View full drug report →</a></p>
 </div>

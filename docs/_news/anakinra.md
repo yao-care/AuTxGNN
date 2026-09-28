@@ -3,7 +3,7 @@ layout: default
 title: "Anakinra News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Anakinra. Original indication: . 9 predicted indications."
+description: "Health news related to Anakinra. Original indication: . 10 predicted indications."
 permalink: /news/anakinra/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/anakinra/
 ---
 
 <p class="key-answer" data-question="What news is there about Anakinra?">
-<strong>Anakinra</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Anakinra</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Anakinra with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Extracutaneous Mastocytoma | 99.93% | L5 | Hold (99.0%)</li>
-<li>Hepatic Infarction | 99.89% | L5 | Hold (99.0%)</li>
-<li>Autosomal Recessive Familial Mediterranean Fever | 99.89% | L3 | Research Question (99.0%)</li>
-<li>Aggressive Systemic Mastocytosis | 99.88% | L4 | Hold (99.0%)</li>
-<li>Hepatic Veno-Occlusive Disease | 99.88% | L5 | Hold (99.0%)</li>
-<li>Peliosis Hepatis | 99.85% | L5 | Hold (99.0%)</li>
-<li>Oligoarticular JIA (ANA−) | 99.85% | L4 | Research Question (99.0%)</li>
-<li>Oligoarticular JIA (ANA+) | 99.85% | L4 | Research Question (99.0%)</li>
-<li>Unclassified Autoinflammatory Syndrome | 99.81% | L3 | Research Question (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>extracutaneous mastocytoma (99.9%)</li>
+<li>hepatic infarction (99.9%)</li>
+<li>autosomal recessive familial Mediterranean fever (99.9%)</li>
+<li>aggressive systemic mastocytosis (99.9%)</li>
+<li>hepatic veno-occlusive disease (99.9%)</li>
+<li>peliosis hepatis (99.8%)</li>
+<li>oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies (99.8%)</li>
+<li>oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies (99.8%)</li>
+<li>pyogenic autoinflammatory syndrome (99.8%)</li>
+<li>unclassified autoinflammatory syndrome (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/anakinra/' | relative_url }}">View full drug report →</a></p>

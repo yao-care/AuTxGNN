@@ -3,7 +3,7 @@ layout: default
 title: "Benzydamine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Benzydamine. Original indication: . 9 predicted indications."
+description: "Health news related to Benzydamine. Original indication: . 10 predicted indications."
 permalink: /news/benzydamine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/benzydamine/
 ---
 
 <p class="key-answer" data-question="What news is there about Benzydamine?">
-<strong>Benzydamine</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Benzydamine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Benzydamine with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Benign Prostatic Hyperplasia | 99.26% | L5 | Hold (99.0%)</li>
-<li>Headache Disorder | 97.58% | L5 | Hold (99.0%)</li>
-<li>Trigeminal Autonomic Cephalalgia | 97.17% | L5 | Hold (99.0%)</li>
-<li>Peripheral Vascular Disease | 96.19% | L4 | Research Question (99.0%)</li>
-<li>Peripheral Arterial Disease | 95.56% | L5 | Hold (99.0%)</li>
-<li>Female Breast Carcinoma | 95.23% | L5 | Hold (99.0%)</li>
-<li>Toxocariasis | 95.13% | L5 | Hold (99.0%)</li>
-<li>Subarachnoid Haemorrhage | 94.86% | L5 | Hold (99.0%)</li>
-<li>Alopecia | 94.82% | L5 | Hold (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>benign prostatic hyperplasia (disease) (99.3%)</li>
+<li>headache disorder (97.6%)</li>
+<li>trigeminal autonomic cephalalgia (97.2%)</li>
+<li>peripheral vascular disease (96.2%)</li>
+<li>common cold (95.8%)</li>
+<li>peripheral arterial disease (95.6%)</li>
+<li>female breast carcinoma (95.2%)</li>
+<li>toxocariasis (95.1%)</li>
+<li>subarachnoid hemorrhage (disease) (94.9%)</li>
+<li>alopecia (94.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/benzydamine/' | relative_url }}">View full drug report →</a></p>

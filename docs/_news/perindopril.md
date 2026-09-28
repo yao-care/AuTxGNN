@@ -3,7 +3,7 @@ layout: default
 title: "Perindopril News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Perindopril. Original indication: . 0 predicted indications."
+description: "Health news related to Perindopril. Original indication: . 10 predicted indications."
 permalink: /news/perindopril/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/perindopril/
 ---
 
 <p class="key-answer" data-question="What news is there about Perindopril?">
-<strong>Perindopril</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Perindopril</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Perindopril with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>malignant hypertensive renal disease (99.8%)</li>
+<li>malignant renovascular hypertension (99.8%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (99.8%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.8%)</li>
+<li>Braddock syndrome (99.7%)</li>
+<li>chronic pulmonary heart disease (97.6%)</li>
+<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (67.5%)</li>
+<li>brain small vessel disease 1 with or without ocular anomalies (65.7%)</li>
+<li>polydipsia (62.5%)</li>
+<li>congenital temporomandibular joint ankylosis (60.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/perindopril/' | relative_url }}">View full drug report →</a></p>
 </div>

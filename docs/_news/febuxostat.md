@@ -3,7 +3,7 @@ layout: default
 title: "Febuxostat News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Febuxostat. Original indication: . 0 predicted indications."
+description: "Health news related to Febuxostat. Original indication: . 10 predicted indications."
 permalink: /news/febuxostat/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/febuxostat/
 ---
 
 <p class="key-answer" data-question="What news is there about Febuxostat?">
-<strong>Febuxostat</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Febuxostat</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Febuxostat with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hypouricemia, renal (100.0%)</li>
+<li>hypoxanthine guanine phosphoribosyltransferase partial deficiency (100.0%)</li>
+<li>Lesch-Nyhan syndrome (99.7%)</li>
+<li>early-onset familial noncirrhotic portal hypertension (91.9%)</li>
+<li>idiopathic copper-associated cirrhosis (91.9%)</li>
+<li>hepatopulmonary syndrome (91.9%)</li>
+<li>primitive portal vein thrombosis (91.9%)</li>
+<li>hepatoportal sclerosis (91.9%)</li>
+<li>hepatic porphyria (91.2%)</li>
+<li>disorder of phenylalanine metabolism (79.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/febuxostat/' | relative_url }}">View full drug report →</a></p>
 </div>

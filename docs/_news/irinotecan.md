@@ -3,7 +3,7 @@ layout: default
 title: "Irinotecan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Irinotecan. Original indication: . 0 predicted indications."
+description: "Health news related to Irinotecan. Original indication: . 10 predicted indications."
 permalink: /news/irinotecan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/irinotecan/
 ---
 
 <p class="key-answer" data-question="What news is there about Irinotecan?">
-<strong>Irinotecan</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Irinotecan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Irinotecan with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>female breast carcinoma (99.1%)</li>
+<li>pancreatic carcinoma with mixed differentiation (98.6%)</li>
+<li>solid pseudopapillary carcinoma of pancreas (98.6%)</li>
+<li>osteoclastic giant cell tumor of pancreas (98.6%)</li>
+<li>pancreatic intraductal papillary-mucinous carcinoma (98.6%)</li>
+<li>pancreatic intraductal papillary-mucinous neoplasm (98.5%)</li>
+<li>pancreatic signet ring cell adenocarcinoma (98.5%)</li>
+<li>mixed ductal-endocrine carcinoma of pancreas (98.5%)</li>
+<li>malignant exocrine pancreas neoplasm (98.5%)</li>
+<li>undifferentiated pancreatic carcinoma (98.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/irinotecan/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Fluconazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fluconazole. Original indication: . 0 predicted indications."
+description: "Health news related to Fluconazole. Original indication: . 10 predicted indications."
 permalink: /news/fluconazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fluconazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Fluconazole?">
-<strong>Fluconazole</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Fluconazole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Fluconazole with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>punctate epithelial keratoconjunctivitis (99.2%)</li>
+<li>Plasmodium falciparum malaria (98.6%)</li>
+<li>allergic urticaria (98.5%)</li>
+<li>hyperamylasemia (98.3%)</li>
+<li>polyclonal hyperviscosity syndrome (98.3%)</li>
+<li>congenital analbuminemia (98.0%)</li>
+<li>pneumocystosis (97.8%)</li>
+<li>blood group incompatibility (97.8%)</li>
+<li>premalignant hematological system disease (97.4%)</li>
+<li>papular urticaria (97.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/fluconazole/' | relative_url }}">View full drug report →</a></p>
 </div>

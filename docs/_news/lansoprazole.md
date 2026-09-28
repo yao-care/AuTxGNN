@@ -3,7 +3,7 @@ layout: default
 title: "Lansoprazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lansoprazole. Original indication: . 0 predicted indications."
+description: "Health news related to Lansoprazole. Original indication: . 10 predicted indications."
 permalink: /news/lansoprazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lansoprazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Lansoprazole?">
-<strong>Lansoprazole</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Lansoprazole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Lansoprazole with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>duodenogastric reflux (99.7%)</li>
+<li>duodenal obstruction (99.7%)</li>
+<li>peptic ulcer perforation (98.8%)</li>
+<li>gastrojejunal ulcer (98.8%)</li>
+<li>abnormality of glucagon secretion (98.6%)</li>
+<li>gastroduodenitis (97.6%)</li>
+<li>acne (disease) (97.0%)</li>
+<li>Smouldering systemic mastocytosis (95.6%)</li>
+<li>leather-bottle stomach (94.7%)</li>
+<li>duodenitis (94.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lansoprazole/' | relative_url }}">View full drug report →</a></p>
 </div>

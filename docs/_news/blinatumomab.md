@@ -3,7 +3,7 @@ layout: default
 title: "Blinatumomab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Blinatumomab. Original indication: . 0 predicted indications."
+description: "Health news related to Blinatumomab. Original indication: . 10 predicted indications."
 permalink: /news/blinatumomab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/blinatumomab/
 ---
 
 <p class="key-answer" data-question="What news is there about Blinatumomab?">
-<strong>Blinatumomab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Blinatumomab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Blinatumomab with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>primary release disorder of platelets (95.2%)</li>
+<li>Glanzmann thrombasthenia (95.0%)</li>
+<li>pseudo-von Willebrand disease (94.1%)</li>
+<li>drug-induced osteoporosis (92.7%)</li>
+<li>severe nonproliferative diabetic retinopathy (89.2%)</li>
+<li>psoriasis (88.9%)</li>
+<li>Ledderhose disease (88.4%)</li>
+<li>hemorrhagic disorder due to a constitutional thrombocytopenia (87.9%)</li>
+<li>penile fibromatosis (87.8%)</li>
+<li>bleeding diathesis due to a collagen receptor defect (87.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/blinatumomab/' | relative_url }}">View full drug report →</a></p>
 </div>

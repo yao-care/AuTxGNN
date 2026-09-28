@@ -3,7 +3,7 @@ layout: default
 title: "Bendamustine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bendamustine. Original indication: For reference, bendamustine is approved in other j.... 0 predicted indications."
+description: "Health news related to Bendamustine. Original indication: For reference, bendamustine is approved in other j.... 10 predicted indications."
 permalink: /news/bendamustine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bendamustine/
 ---
 
 <p class="key-answer" data-question="What news is there about Bendamustine?">
-<strong>Bendamustine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Bendamustine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,6 +26,18 @@ This page combines the AI-predicted indications for Bendamustine with the latest
 <ul>
 <li><strong>Original indication</strong>: For reference, bendamustine is approved in other jurisdictions under the following brand names:</li>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>mantle cell lymphoma (99.6%)</li>
+<li>chronic myelogenous leukemia, BCR-ABL1 positive (99.6%)</li>
+<li>Hodgkins lymphoma (99.5%)</li>
+<li>small intestinal Burkitt lymphoma (99.4%)</li>
+<li>small intestinal mucosa-associated lymphoid tissue lymphoma (99.3%)</li>
+<li>thyroid gland mucosa-associated lymphoid tissue lymphoma (99.3%)</li>
+<li>breast mucosa-associated lymphoid tissue lymphoma (99.3%)</li>
+<li>tonsillar lymphoma (99.3%)</li>
+<li>MALT lymphoma (99.2%)</li>
+<li>relapsing-remitting multiple sclerosis (99.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/bendamustine/' | relative_url }}">View full drug report →</a></p>
 </div>

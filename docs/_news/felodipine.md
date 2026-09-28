@@ -3,7 +3,7 @@ layout: default
 title: "Felodipine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Felodipine. Original indication: . 0 predicted indications."
+description: "Health news related to Felodipine. Original indication: . 10 predicted indications."
 permalink: /news/felodipine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/felodipine/
 ---
 
 <p class="key-answer" data-question="What news is there about Felodipine?">
-<strong>Felodipine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Felodipine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Felodipine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.9%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (99.9%)</li>
+<li>malignant renovascular hypertension (99.9%)</li>
+<li>malignant hypertensive renal disease (99.9%)</li>
+<li>Braddock syndrome (99.9%)</li>
+<li>chronic pulmonary heart disease (99.2%)</li>
+<li>Prinzmetal angina (99.1%)</li>
+<li>cerebrovascular disorder (98.5%)</li>
+<li>spinal cord ischemia (95.1%)</li>
+<li>obsolete susceptibility to ischemic stroke (93.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/felodipine/' | relative_url }}">View full drug report →</a></p>
 </div>

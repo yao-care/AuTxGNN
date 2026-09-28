@@ -3,7 +3,7 @@ layout: default
 title: "Cortisone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cortisone. Original indication: . 0 predicted indications."
+description: "Health news related to Cortisone. Original indication: . 10 predicted indications."
 permalink: /news/cortisone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cortisone/
 ---
 
 <p class="key-answer" data-question="What news is there about Cortisone?">
-<strong>Cortisone</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Cortisone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Cortisone with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>primary cutaneous T-cell lymphoma (99.7%)</li>
+<li>adrenocortical insufficiency (99.4%)</li>
+<li>myelodysplastic syndrome (99.3%)</li>
+<li>lymphosarcoma (99.2%)</li>
+<li>candidiasis (99.2%)</li>
+<li>Crohn's colitis (99.1%)</li>
+<li>refractory cytopenia of childhood (99.1%)</li>
+<li>unclassified myelodysplastic syndrome (99.0%)</li>
+<li>partial deletion of the long arm of chromosome 5 (99.0%)</li>
+<li>familial adrenal hypoplasia with absent pituitary luteinizing hormone (99.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cortisone/' | relative_url }}">View full drug report →</a></p>
 </div>
