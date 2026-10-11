@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-The `txgnn-pipeline` skill covers pipeline infrastructure work — the report generation instructions are already defined in the system prompt. Proceeding with the evaluation report now.
-
----
-
 # Guselkumab: From Plaque Psoriasis to Drug-Induced Osteoporosis
 
 ## One-Sentence Summary

@@ -29,8 +29,6 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-Using superpowers:using-superpowers checked — no listed skill matches "write a drug-repurposing evaluation report from a supplied Evidence Pack" (txgnn-pipeline covers model/pipeline ops, not report authoring), so proceeding directly per the detailed format already specified in the prompt.
-
 A few notes before the report: `original_moa` and `original_indications` are both empty/Data Gap in this pack, and `taiwan_regulatory.licenses` is empty (0 ARTG entries, market status "Not marketed"/Not Marketed) — so I'm not fabricating Australian regulatory specifics for those fields, only using well-established general pharmacology of sodium bicarbonate as a systemic alkalinising agent, flagged as such.
 
 ---

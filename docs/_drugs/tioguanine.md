@@ -29,8 +29,6 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-Using the drug-repurposing-report skill implicitly embedded in this task's system prompt (structured template) — proceeding directly per the specified format.
-
 # Tioguanine: From Acute Leukaemia to Chronic Myelogenous Leukemia, BCR-ABL1 Positive
 
 ## One-Sentence Summary

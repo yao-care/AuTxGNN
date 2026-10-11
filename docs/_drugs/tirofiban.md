@@ -29,8 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the evidence pack as provided — no skill matches this content-generation task, proceeding directly.
-
 # Tirofiban: From Antiplatelet Therapy (ACS/PCI) to Primary Release Disorder of Platelets
 
 ## One-Sentence Summary

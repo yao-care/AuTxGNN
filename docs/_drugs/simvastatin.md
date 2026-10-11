@@ -29,8 +29,6 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-Using the txgnn-pipeline skill is not applicable here — this is a direct report-writing task per the supplied prompt template, not a training/deployment task. Proceeding directly.
-
 # Simvastatin: From Hypercholesterolaemia to Familial Hypercholesterolemia
 
 ## One-Sentence Summary

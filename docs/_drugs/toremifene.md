@@ -29,10 +29,6 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-Using `superpowers:brainstorming`? — not applicable here (this is a fully-specified content-generation task with an explicit template, not a design/build decision). Proceeding directly per the given report spec.
-
----
-
 # Toremifene: From Breast Cancer to HIV Infectious Disease
 
 ## One-Sentence Summary
