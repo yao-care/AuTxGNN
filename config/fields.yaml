@@ -2,7 +2,9 @@
 
 country_code: AU
 language: en
-regulatory_agency: TGA  # Therapeutic Goods Administration
+# 本站藥品清單實際是 PBS 給付品項（data/raw/pbs_data.zip，品項碼如 2019G），不是 TGA ARTG 編號；
+# 報告引用時如實標示來源（2026-10-12 盤點 J 項）
+regulatory_agency: "PBS (Australia)"
 
 # Data source information
 data_source:
