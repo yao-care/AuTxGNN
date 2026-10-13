@@ -2,15 +2,15 @@
 layout: default
 title: Romiplostim
 parent: Moderate Evidence (L3-L4)
-nav_order: 605
-evidence_level: L3
+nav_order: 647
+evidence_level: L4
 indication_count: 3
 ---
 
 # Romiplostim
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,63 +33,74 @@ Evidence Level: **L3** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Romiplostim is a thrombopoietin receptor (MPL) agonist established for immune thrombocytopenia (ITP), where it stimulates platelet production. The TxGNN model predicts it may also be effective for **Primary Release Disorder of Platelets**, a mechanistically closely related condition, but this direction is currently supported by only **1 clinical trial** (an indirect observational registry) and **2 review-type publications**.
+Romiplostim is a thrombopoietin receptor (MPL) agonist, originally used to raise platelet counts in autoimmune thrombocytopenia (immune thrombocytopenia, ITP) and related bone marrow failure conditions.
+The TxGNN model predicts it may be effective for **primary release disorder of platelets**,
+but there are currently **0 clinical trials** and only **1 publication** (a basic laboratory study of ITP, not of the predicted condition), so the prediction rests almost entirely on the model score.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Immune thrombocytopenia (ITP) — noted in TxGNN rationale; not independently confirmed via Australian licensing data, as the drug is not marketed here |
-| Predicted New Indication | Primary Release Disorder of Platelets |
+| Original Indication | Autoimmune thrombocytopenia (ITP); the knowledge graph also lists aplastic anaemia (the ARTG entry contains no indication text) |
+| Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 99.9998% |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for romiplostim was not returned from the DrugBank extraction in this evidence pack (flagged as a data gap). However, the TxGNN repurposing rationale confirms romiplostim acts as a **thrombopoietin receptor (MPL) agonist**, stimulating megakaryocyte proliferation and maturation to increase platelet production. This is the same mechanism underlying its established use in ITP, where insufficient/impaired platelet production is a core pathological feature.
+Romiplostim is a thrombopoietin receptor (MPL) agonist. It stimulates megakaryocyte proliferation and platelet production. Detailed mechanism data were not available in the data compiled for this report, so this description is based on pharmacology reference information on the target (MPL).
 
-The predicted new indication, "primary release disorder of platelets," involves a comparable defect — impaired release of platelets from megakaryocytes into circulation. Because romiplostim's mechanism directly targets platelet production and release, the pathophysiological overlap with this indication is strong, which is consistent with the near-maximal TxGNN score (99.9998%, rank 12 of all predictions).
+The only publication retrieved (PMID 25682608) shows that antiplatelet autoantibodies in ITP inhibit proplatelet formation by megakaryocytes. This supports the general idea of stimulating megakaryopoiesis in platelet disorders. However, it concerns ITP, which is already an established use, and not platelet release (secretion) disorders.
 
-Notably, this same evidence pack also scored two other platelet-disorder predictions for romiplostim — pseudo-von Willebrand disease and Glanzmann thrombasthenia (ranks 17 and 32) — both assessed as mechanistically weak, since those are platelet *function* disorders (abnormal receptor binding or aggregation) rather than *production/release* disorders. This contrast reinforces that romiplostim's biological plausibility is specific to production-defect conditions like the rank-1 candidate, rather than a generic high score across all platelet-related diseases.
+The mechanistic fit is weak. Platelet release disorders are mainly defects of platelet function (granule secretion and signalling). Raising the platelet count would not be expected to correct a qualitative defect. The very high TxGNN score most likely reflects closeness to ITP and other platelet disorders in the knowledge graph. It is not independent clinical evidence.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | N/A | Completed | 10,039 | Observational registry study of thrombosis risk factors in immune thrombocytopenia (ITP) patients; not a direct interventional trial of romiplostim, but provides population-level context for the ITP/platelet-production-disorder population that may include romiplostim users. |
-
-No ANZCTR-registered trials were identified for this indication.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Review | British Journal of Haematology | Reviews megakaryocytopoiesis and thrombopoiesis biology, identifying thrombopoietin (TPO) as the primary growth factor driving megakaryocyte lineage development and platelet release. |
-| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Review/Mechanistic | Haematologica | Shows antiplatelet autoantibodies in immune thrombocytopenia inhibit proplatelet formation by megakaryocytes, impairing platelet production/release in vitro — supporting the mechanistic rationale for a TPO-receptor agonist in release-defect disorders. |
+| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Basic/mechanistic (in vitro) | Haematologica | In ITP, antiplatelet autoantibodies from patient serum and IgG inhibit proplatelet formation by megakaryocytes and impair platelet production in vitro. Does not address platelet release disorders. |
 
 ## Australia Market Information
 
-Romiplostim is **not currently marketed in Australia**, with **0 ARTG entries** on record. No Australian product information or approved indication text is available to summarise.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 9696H | Nplate | Powder for injection 375 micrograms | Not stated in the data compiled for this report |
+
+## Cytotoxicity
+
+Not applicable. Romiplostim is not an antineoplastic drug, so this section is omitted.
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Note that as romiplostim is not currently marketed in Australia, no local TGA PI exists; overseas regulatory labelling (e.g., FDA or EMA product information) should be consulted in the interim. This data pack also flags a **blocking data gap (DG001)** — local warnings/contraindications data has not yet been obtained — which must be resolved before any safety (S1) assessment can proceed.
+- **Drug Interactions**: Two entries were returned.
+  - **Carfilzomib**: Major interaction (DDInter).
+  - **Thrombopoietin receptor (MPL)**: This is the drug's pharmacological target, not an interaction with another drug.
+
+For warnings, contraindications and other safety information, please refer to the TGA-approved Product Information (PI).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Mechanistic plausibility is strong (TPO-receptor agonism directly addresses a platelet-production/release defect), but the supporting evidence consists only of an indirect observational registry and two mechanistic/review articles — no interventional trial has directly tested romiplostim in this indication. A blocking safety data gap (no local warnings/contraindications) also prevents proceeding to safety evaluation.
+The prediction is supported only by a knowledge-graph score and one laboratory study of ITP. A TPO-receptor agonist increases platelet number but would not be expected to correct a platelet secretion defect. Evidence is at L4 at best (model prediction plus mechanistic work in a different disease).
 
 **To proceed, the following is needed:**
-- Direct interventional clinical trial evidence for romiplostim specifically in primary release disorder of platelets
-- Resolution of the blocking safety data gap (TFDA/local PI warnings and contraindications, DG001)
-- Full DrugBank mechanism-of-action extraction (DG002)
-- Regulatory pathway assessment, since romiplostim currently has no ARTG entry or market presence in Australia
+- Clear clinical definition of "primary release disorder of platelets", and evidence that low platelet count, rather than platelet function, drives patient harm
+- Mechanistic or preclinical data showing that MPL agonism could benefit a platelet secretion defect
+- Any case series or clinical study in qualitative platelet disorders
+- Detailed mechanism of action data
+- Review of the TGA-approved PI for warnings and contraindications, including the Major interaction with carfilzomib
+- Approved indication wording for the ARTG entry, to confirm the original indication in Australia
+
+**Other predictions (not recommended at this stage):** Pseudo-von Willebrand disease (score 99.9998%) and Glanzmann thrombasthenia (score 99.9995%) have no supporting trials or literature (L5, Hold). In both, the underlying defect (platelet GPIb gain-of-function; missing integrin αIIbβ3) would not be corrected by raising platelet counts. In pseudo-von Willebrand disease, a higher platelet mass could in principle worsen depletion of von Willebrand factor.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hydromorphone
-parent: Moderate Evidence (L3-L4)
-nav_order: 330
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 355
+evidence_level: L5
 indication_count: 10
 ---
 
 # Hydromorphone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,104 +29,104 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Hydromorphone: From Pain Management to Pharyngitis
+# Hydromorphone: From Common Cold / Nasopharyngitis to Pharyngitis
 
 ## One-Sentence Summary
 
-Hydromorphone is a potent semi-synthetic opioid analgesic used for the management of moderate-to-severe pain. The TxGNN model predicts it may be effective for **Pharyngitis** — primarily post-tonsillectomy pharyngeal pain — with **6 clinical trials** (including 1 directly relevant completed RCT) and **no published literature** currently supporting this specific direction. Notably, among all 10 predicted indications in this pack, the strongest evidence base was identified for **Headache Disorder (Rank 5)**, where a completed Phase 4 RCT directly evaluating IV hydromorphone for acute migraine in the emergency setting provides Level L2 evidence.
-
----
+Hydromorphone is a mu-opioid analgesic. In the knowledge graph used by the TxGNN model, its recorded original indications are the **common cold** and **nasopharyngitis**.
+TxGNN predicts it may be useful for **pharyngitis**, but the **3 clinical trials** found are all about post-tonsillectomy pain rather than pharyngitis, and **no publications** were found for this indication.
+This prediction is best read as a symptom-relief (pain) association, not as evidence of disease-modifying benefit.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Moderate-to-severe pain management (opioid analgesic) |
-| Predicted New Indication | Pharyngitis (post-tonsillectomy pharyngeal pain) |
+|------|------|
+| Original Indication | Common cold, nasopharyngitis (from the TxGNN knowledge graph; no approved indication text is available for the Australian product) |
+| Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 99.81% |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 (indirect evidence only; see note below) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
----
+*Note: The evidence level of L4 reflects the assessment compiled for this indication. The trials found do not test hydromorphone for pharyngitis, so in practice the evidence is close to prediction-only.*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available from DrugBank for this assessment. Based on well-established clinical pharmacology, hydromorphone is a potent semi-synthetic μ-opioid receptor agonist approximately 5–10 times more potent than morphine on a weight-for-weight basis. It suppresses pain transmission by binding to μ-opioid receptors in the central nervous system and peripheral tissues, inhibiting ascending nociceptive signals and modulating the affective-emotional response to pain.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Hydromorphone is, however, a well-known mu-opioid receptor agonist used for moderate to severe pain.
 
-The mechanistic link to pharyngitis is anatomically and clinically plausible, but context-dependent. Surgical trauma to the pharyngeal mucosa during tonsillectomy or adenotonsillectomy produces a clearly defined acute nociceptive pain signal. As a high-potency opioid, hydromorphone is pharmacologically well-suited to manage this type of acute postoperative pain originating in the pharyngeal region. The TxGNN model most likely captures this **post-tonsillectomy pharyngeal pain scenario** rather than infectious pharyngitis, for which hydromorphone has no antibacterial or antiviral mechanism.
+The link to pharyngitis is most plausibly symptomatic. An opioid could reduce the pain of a sore throat, and opioids can suppress cough. Hydromorphone has no antimicrobial, antiviral or anti-inflammatory action against the cause of pharyngitis. The very high TxGNN score (99.81%) probably reflects network proximity to the original indications (common cold, nasopharyngitis) through shared pain and symptom links, and should not be taken as evidence of efficacy.
 
-It is important to contextualise the clinical novelty of this prediction. Opioid analgesics are already used in the perioperative setting as standard of care. The meaningful research question here is not whether opioids can be used, but whether hydromorphone offers a specific clinical advantage — in efficacy, safety profile, or recovery outcomes — over comparators such as fentanyl in the post-tonsillectomy paediatric population. A completed head-to-head RCT (NCT04230681) has already explored this question, and its published results would be critical to evaluate.
-
----
+Other predictions for this drug are weaker still. Allergic urticaria, cold urticaria and papillary conjunctivitis are mechanistically implausible, since opioids can trigger histamine release. Faucial diphtheria, nasal cavity disease, acute laryngopharyngitis, trigeminal autonomic cephalalgia and cervical disc degenerative disorder have no supporting trials or literature. The one exception is headache disorder, which has direct emergency department migraine studies, but these show hydromorphone as a comparator rather than a preferred therapy.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04230681](https://clinicaltrials.gov/study/NCT04230681) | Early Phase 1 | Completed | 189 | **[Grade A — Most relevant]** Direct RCT comparing hydromorphone vs fentanyl for postoperative pain control following tonsillectomy or adenotonsillectomy in children and adolescents. The anatomical site of pain (pharynx) is directly relevant to this indication. |
-| [NCT06576830](https://clinicaltrials.gov/study/NCT06576830) | Phase 4 | Recruiting | 440 | **[Grade B — Indirect]** Compares long-acting methadone vs short-acting opioids (including fentanyl/hydromorphone) for post-tonsillectomy pain management in paediatric patients. Hydromorphone used as a comparator arm; provides indirect Phase 4-level support. Estimated completion June 2029. |
-| [NCT05244226](https://clinicaltrials.gov/study/NCT05244226) | Phase 2 | Completed | 66 | **[Grade B — Indirect]** Methadone pilot study for post-tonsillectomy pain optimisation. Hydromorphone serves as the short-acting opioid comparator, reinforcing clinical feasibility of opioids in pharyngeal surgical pain. |
+| [NCT04230681](https://clinicaltrials.gov/study/NCT04230681) | Early Phase 1 | Completed | 189 | Hydromorphone vs fentanyl for pain control in children after tonsillectomy or adenotonsillectomy. Indirect, surgical pain setting. |
+| [NCT05244226](https://clinicaltrials.gov/study/NCT05244226) | Phase 2 | Completed | 66 | Short-acting opioids (fentanyl/hydromorphone) vs methadone for pain after paediatric tonsillectomy. Study drug is methadone. |
+| [NCT06576830](https://clinicaltrials.gov/study/NCT06576830) | Phase 4 | Recruiting | 440 | Intraoperative methadone vs short-acting opioids (fentanyl/hydromorphone) in paediatric tonsillectomy. Study drug is methadone. |
 
-> **Note:** Three further trials retrieved (NCT00109031, NCT00189488, NCT02996591) were assessed as not relevant — these involve palifermin for chemotherapy-related oral mucositis and anaesthesia comparisons for lower-limb surgery, respectively. They have been excluded from the table above.
-
----
+None of these trials studied pharyngitis. All three are in post-tonsillectomy analgesia, and no ANZCTR identifiers were found in the data compiled for this report.
 
 ## Literature Evidence
 
-Currently no related literature available for the pharyngitis indication.
-
-> See **Conclusion and Next Steps** for a discussion of the stronger literature evidence base identified for the secondary indication, Headache Disorder.
-
----
+Currently no related literature available for pharyngitis.
 
 ## Australia Market Information
 
-Hydromorphone is currently **not registered with the Therapeutic Goods Administration (TGA)** and has no entries in the Australian Register of Therapeutic Goods (ARTG).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 12010D | Dilaudid | Tablet containing hydromorphone hydrochloride 8 mg | Not available in the data compiled |
 
-It is not available as a marketed product through standard TGA regulatory channels in Australia. Any clinical use would require access via:
-
-- **TGA Special Access Scheme (SAS Category B or C)**, or
-- An approved clinical trial protocol with HREC oversight
-
----
+This is the only registered entry, and it is an oral single-ingredient product. The listed number is as recorded in the data and should be checked against the ARTG.
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) and relevant international prescribing information for complete safety data. At the time of this assessment, no local TGA safety data, contraindications, or drug interaction data were available for automated review.
+- **Contraindications and warnings (knowledge-graph associations, not label text):** The TxGNN knowledge graph links hydromorphone with contraindication or caution for several conditions, including:
+  - Respiratory failure
+  - Liver failure and liver disease
+  - Kidney disease
+  - Epilepsy
+  - Adrenal insufficiency (including Addison disease and congenital adrenal hyperplasia)
+  - Hypothyroidism and myxedema
+  - Inflammatory bowel disease and ulcerative colitis
+  - Constipation
+  - Benign prostatic hyperplasia
+  - Hypotension
+  - Sudden cardiac arrest and heart conduction disease
+  - Gallbladder disease
+  - Substance-related disorders and drug dependence
+- **Drug Interactions:** The interaction database returned 100 records. The Major-level interactions in the listed entries are:
+  - Alvimopan
+  - Bupropion
+  - Morphine
+  - Naltrexone
 
-> **⚠️ Important flags identified in this Evidence Pack:**
-> - **Allergic urticaria (Rank 2) and Cold urticaria (Rank 7):** TxGNN predictions for these indications carry **reverse mechanism warnings**. Opioids, including hydromorphone, are established inducers of non-immunological histamine release via mast cell degranulation — they are a known *cause* of urticaria, not a treatment. These predictions almost certainly reflect misinterpretation of drug–adverse-effect edges in the knowledge graph. These indications should be treated as **contraindicated directions**, not repurposing opportunities.
+  Moderate-level interactions include:
+  - Anticholinergics (atropine, hyoscyamine, glycopyrronium, dicyclomine, trospium)
+  - Loperamide
+  - Naloxone
+  - Cimetidine
+  - Antiemetics (dolasetron, palonosetron)
+  - Cannabinoids (dronabinol, nabilone)
+  - Eluxadoline
+  - Bowel preparations
 
----
+Product-specific warnings and contraindications from the TGA-approved Product Information (PI) were not available. Please refer to the PI for authoritative safety information. As an opioid, hydromorphone carries recognised risks of respiratory depression, dependence and misuse, which weigh heavily against use for a self-limiting condition such as pharyngitis.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top TxGNN prediction (Pharyngitis/post-tonsillectomy pain, Rank 1) is mechanistically plausible, but the available clinical trial evidence reaches only Level L3 — one completed Early Phase 1 RCT (NCT04230681) and two indirect comparator studies. This is insufficient to support a formal repurposing recommendation, and the clinical scenario (perioperative opioid use) does not represent novel drug repurposing in the traditional sense.
+The pharyngitis prediction rests on a high model score but no direct evidence. The only trials are post-tonsillectomy pain studies, there is no literature, and the mechanism is symptomatic at best. Opioid risks outweigh any plausible benefit in a usually self-limiting condition.
 
-**Across all 10 predicted indications, the following priority actions are recommended:**
-
-- **Headache Disorder (Rank 5) deserves priority review:** Evidence level L2, supported by a completed Phase 4 RCT (NCT02389829 / PMID 29046364) directly comparing IV hydromorphone vs IV prochlorperazine + diphenhydramine for acute migraine in the emergency department, plus 17 publications including a 2025/2026 AHS clinical guideline update (PMID 41321235). Clinical positioning is as a **rescue therapy** when first-line agents fail, with the caveat that trials show inferior efficacy vs standard dopamine antagonist therapy and risk of medication overuse headache. Recommended decision for this indication: **Proceed with Guardrails**.
-
-- **Discontinue evaluation for urticaria indications (Ranks 2 and 7):** Reverse mechanism confirmed — hydromorphone is a precipitant, not a treatment, for allergic and cold urticaria. These should be flagged as adverse effect associations in the knowledge graph review.
-
-- **Hold on Ranks 3, 4, 6, 8, 9, 10:** Insufficient mechanistic rationale or no evidence available. Ranks 3, 4, 6, and 8 represent either broad diagnostic categories without specificity or conditions with superior established therapies. Rank 9 (cervical disc degeneration) reflects existing opioid use rather than a novel indication.
-
-**To proceed with any indication, the following is needed:**
-
-- Retrieve and review published results from NCT04230681 (hydromorphone vs fentanyl, tonsillectomy) to assess whether a meaningful efficacy or safety advantage exists over existing agents
-- Obtain DrugBank MOA and pharmacodynamic profile data (Data Gap DG002) to complete mechanism linkage analysis
-- Review international prescribing information (US FDA label, EMA SmPC) for full contraindication and warning profile in the absence of TGA PI (Data Gap DG001)
-- For headache disorder: review the 2025/2026 AHS guideline update (PMID 41321235) to determine whether hydromorphone retains any recommended role as rescue therapy under current evidence
-- Consult TGA Special Access Scheme pathways if any indication progresses to a formal clinical use proposal in Australia
-
----
-
-> **Disclaimer:** This report is for research purposes only and does not constitute medical advice. All drug repurposing candidates require formal clinical validation before any clinical application. Refer to current TGA-approved prescribing information and clinical guidelines for patient care decisions.
+**To proceed, the following is needed:**
+- Product Information (warnings, contraindications and approved indications) for the Australian product
+- Mechanism of action data
+- Direct clinical evidence in pharyngitis, or a clear justification for symptomatic opioid use compared with standard analgesics
+- If any indication is pursued, headache disorder is the only prediction with direct trial and guideline evidence, and it should be framed as a research question given that opioids are not recommended as first-line therapy for migraine
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Upadacitinib
 parent: Model Prediction Only (L5)
-nav_order: 708
+nav_order: 761
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Upadacitinib: From Undocumented Original Indication to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+# Upadacitinib: From Rheumatoid Arthritis to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
 
 ## One-Sentence Summary
 
-> Upadacitinib's original indication and mechanism of action were not recorded in this Evidence Pack, so its established clinical use cannot be summarised from the supplied data. The TxGNN model's top prediction is **Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome**, a rare congenital developmental disorder — but this prediction is supported by **zero clinical trials and zero publications**, and the model's own rationale flags it as a likely false positive.
-
----
+Upadacitinib is an oral JAK inhibitor, originally used to treat rheumatoid arthritis.
+The TxGNN model predicts it may be effective for **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, a rare developmental disorder,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model-based signal only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in this Evidence Pack |
-| Predicted New Indication | Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome |
-| TxGNN Prediction Score | 99.61% (model rank 4,998 of full candidate set) |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Original Indication | Rheumatoid arthritis (from the TxGNN knowledge graph; no approved indication text is available in the ARTG data compiled for this report) |
+| Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| TxGNN Prediction Score | 99.61% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for upadacitinib was not provided in this Evidence Pack. What is generally known is that upadacitinib is a Janus kinase (JAK) inhibitor selective for JAK1, which mediates intracellular signalling for a range of inflammatory cytokines. Because the original indication field was also empty in this pack, no direct comparison can be drawn here between an established therapeutic use and the predicted new indication.
+Currently, detailed mechanism of action data is not available. Based on known information, upadacitinib belongs to the Janus kinase (JAK) inhibitor class (JAK1-preferential), and its efficacy in rheumatoid arthritis is established through modulation of inflammatory cytokine signalling.
 
-Critically, the model's own rationale for this top-ranked prediction is sceptical of its plausibility. Colobomatous microphthalmia-rhizomelic dysplasia syndrome is a rare congenital condition involving ocular defects (coloboma/microphthalmia) and proximal limb skeletal dysplasia, arising from embryonic developmental gene defects. There is no known biological pathway connecting this pathophysiology to JAK1-mediated immune signalling. The Evidence Pack explicitly describes this as a high-scoring prediction that "lacks biological plausibility" and "may represent a false positive from knowledge graph embedding."
+The predicted indication is a rare congenital developmental dysplasia. No plausible link between JAK-STAT signalling and this condition is evident from the data compiled for this report. The high TxGNN score reflects a graph-based association only and should be treated as a hypothesis-generating signal, possibly a graph artefact, rather than evidence of benefit.
 
-For context, other lower-ranked candidates in this same Evidence Pack — such as plasma cell myeloma and indolent plasma cell myeloma (ranks 3 and 7) — have a more coherent mechanistic rationale, since the IL-6/JAK/STAT3 pathway is a recognised driver in myeloma biology. These were scored "Research Question" rather than "Hold," suggesting the rank-1 prediction here is more likely statistical noise than a genuine signal worth pursuing.
-
----
+Other high-ranking predictions show the same pattern. These include brachydactyly-syndactyly syndrome (99.58%), several amyotrophic lateral sclerosis entries, plasma cell myeloma (92.58%) and indolent plasma cell myeloma (94.40%). Only the myeloma entries have even a theoretical rationale, via IL-6/JAK/STAT3 signalling in plasma cell survival, and none has supporting clinical data. The single publication found for plasma cell myeloma (PMID 42778764) concerns CAR-T-associated enterocolitis, not upadacitinib efficacy.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
-No ARTG entries are recorded for upadacitinib in this Evidence Pack. Market status is listed as **Not Marketed**, with 0 total licences on file. This may reflect a gap in this data collection pipeline rather than confirmed absence from the Australian market — it should be verified directly against the TGA ARTG database before being relied upon.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11979L | Rinvoq | Tablet 15 mg (oral) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No key warnings, contraindications, or drug interaction data were available in this Evidence Pack.
+**Drug Interactions** (100 interactions identified; main examples shown):
+- **Major:** systemic and inhaled corticosteroids (hydrocortisone, prednisone, prednisolone, dexamethasone, betamethasone, triamcinolone, budesonide, beclomethasone), clarithromycin, cobicistat, deferiprone, iobenguane (I-131)
+- **Moderate:** aprepitant, cimetidine, miconazole, deferasirox
+- **Minor:** zinc salts (sulfate, acetate, gluconate)
 
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications. Class-level concerns for JAK inhibitors include serious infection, malignancy and venous thromboembolism. These are relevant to the immunosuppression and thrombosis considerations raised for the myeloma and heparin cofactor 2 deficiency predictions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction sits at Evidence Level L5 — a model score with no supporting clinical trials, literature, or credible mechanistic pathway. The Evidence Pack's own rationale identifies it as a probable false positive, and there is a Blocking-severity data gap on TGA/TFDA safety labelling that would prevent any safety pre-assessment regardless of efficacy evidence.
+The prediction rests solely on a model score, with no clinical trials, no literature and no identifiable mechanistic link to JAK inhibition. Evidence is at the lowest level (L5).
 
 **To proceed, the following is needed:**
-- Upadacitinib's original indication(s) and confirmed mechanism of action (DrugBank/product literature)
-- TGA-approved Product Information (warnings, contraindications, drug interactions) — currently a Blocking gap
-- Independent biological or preclinical rationale connecting JAK1 inhibition to this syndrome, beyond the current TxGNN score
-- Confirmation of current ARTG registration status for upadacitinib in Australia
-- If pursuing repurposing research further, consider redirecting attention to the higher-plausibility candidates in this pack (e.g., plasma cell myeloma, ALS) rather than the rank-1 result
+- Detailed mechanism of action data (MOA) and a biologically plausible link to the predicted disease
+- Systematic literature and trial registry searches (including ANZCTR) for the predicted indication
+- TGA Product Information warnings and contraindications for safety screening
+- Review of the approved indication text for the ARTG entry
+- If a repurposing direction is pursued, consider the myeloma-related predictions only as hypotheses, with a dedicated assessment of infection and malignancy risk
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Maribavir
 parent: Model Prediction Only (L5)
-nav_order: 415
+nav_order: 447
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Maribavir: From Cytomegalovirus (CMV) Infection to Bronchitis
+# Maribavir: From Cytomegalovirus Infection to Bronchitis
 
 ## One-Sentence Summary
 
-Maribavir is an antiviral agent (a UL97 protein kinase inhibitor) established for cytomegalovirus (CMV) infection. The TxGNN model predicts a possible link to **Bronchitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it reflects knowledge-graph topology only, with no clinical or mechanistic corroboration.
-
----
+Maribavir is an oral antiviral that inhibits the cytomegalovirus (CMV) UL97 protein kinase. It is marketed in Australia as Livtencity, but the data compiled for this report do not include an approved indication text.
+The TxGNN model predicts it may be effective for **bronchitis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally recorded in this evidence pack (data gap — DG002). Supporting rationale text identifies Maribavir as a UL97 protein kinase inhibitor active against cytomegalovirus (CMV); this has not been independently verified against a structured indications field |
+| Original Indication | Not available in the data compiled for this report (maribavir is known as an anti-CMV agent) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 87.79% |
 | Evidence Level | L5 |
-| Australia Market Status | Not currently marketed in Australia |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack (flagged as data gap DG002, High severity). Based on the accompanying rationale text, Maribavir acts as a UL97 protein kinase inhibitor, primarily blocking CMV DNA packaging and nucleocapsid egress — a mechanism specific to cytomegalovirus replication.
+Maribavir is a benzimidazole riboside that inhibits the human CMV UL97 protein kinase. This blocks viral DNA replication, assembly and nuclear egress.
 
-Bronchitis is typically caused by other respiratory viruses or bacteria, not CMV, and there is no established pharmacological pathway connecting UL97 kinase inhibition to bronchial inflammation. The TxGNN score of 87.79% reflects graph-embedding proximity between the drug and disease nodes rather than any demonstrated biological or clinical relationship.
+No clear mechanistic link between maribavir and bronchitis has been established. Most bronchitis cases are caused by non-CMV viruses or bacteria, which maribavir is not known to act against. A possible tangential link exists only for CMV-associated respiratory infection in immunocompromised patients.
 
-The remaining nine predicted indications for Maribavir in this evidence pack (diabetic retinopathy, bronchial/colonic/cecal neoplasms, filariasis, etc.) show the same pattern — no mechanistic rationale, no trials, and no literature — suggesting this drug's overall prediction set is driven by graph topology rather than biological signal.
+The high TxGNN score is a computational prediction only. It should not be read as evidence of efficacy.
 
----
+**Other predictions (all L5, all Hold):** The model also ranked the following conditions. None has clinical trial or literature support, and none has a plausible mechanistic link to UL97 kinase inhibition.
+
+| Rank | Predicted Disease | TxGNN Score | Comment |
+|------|------|------|------|
+| 2 | Severe nonproliferative diabetic retinopathy | 79.11% | No link to VEGF, inflammatory or microvascular pathways |
+| 3 | Bronchial neoplasm | 77.78% | Unvalidated link via CMV presence in some tumours |
+| 4 | Diabetic retinopathy | 76.24% | Broader category of rank 2, same lack of rationale |
+| 5 | Filariasis | 74.26% | No known activity against filarial parasites |
+| 6 | Rectosigmoid junction neoplasm | 73.41% | Likely a graph-association artefact |
+| 7 | Colonic lymphangioma | 73.32% | Benign malformation, no plausible link |
+| 8 | Lipoma of colon | 73.23% | Benign adipose tumour, no plausible link |
+| 9 | Caecum neuroendocrine tumour G1 | 73.13% | No activity against tumour drivers |
+| 10 | Caecum villous adenoma | 73.07% | Wnt/APC-driven lesion, not targeted by maribavir |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
-No ARTG entries found. Maribavir is not currently marketed in Australia (0 licenses on file).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14856X | Livtencity | Tablet 200 mg (oral) | Not available in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Note: TFDA/TGA-equivalent warnings and contraindications could not be retrieved for this evaluation (data gap DG001, flagged as **Blocking** — this prevents progression to the S1 safety pre-assessment stage), and no drug-drug interaction data was found.
-
----
+Please refer to the TGA-approved Product Information (PI) for safety information. No drug interaction records were found in the data compiled for this report, and no knowledge-graph contraindications were listed.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by TxGNN topology (L5, Decision Stage S0) with no clinical trials, literature, or plausible mechanistic link to bronchitis. A blocking data gap in TFDA/TGA safety labelling also prevents any safety pre-assessment.
+The prediction rests on a model score alone. There are no clinical trials or publications, and no plausible mechanistic link between CMV UL97 kinase inhibition and bronchitis. Safety data are also incomplete.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications) — currently blocking (DG001)
-- Verified original indication and mechanism-of-action data (DG002)
-- Preclinical or mechanistic studies establishing biological plausibility for bronchitis
-- Any early clinical or case-level evidence before this candidate can move beyond S0
+- The approved indication text for Livtencity from the ARTG entry and TGA Product Information
+- Warnings and contraindications from the Product Information (a blocking gap for safety screening)
+- Detailed mechanism of action data from DrugBank
+- Evidence of CMV involvement in bronchitis, or a better-supported indication, through a targeted literature and trial registry search (including ANZCTR)
+- A route and formulation compatibility assessment (currently oral tablet only)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

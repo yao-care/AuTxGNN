@@ -2,7 +2,7 @@
 layout: default
 title: Clomifene
 parent: Model Prediction Only (L5)
-nav_order: 159
+nav_order: 172
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clomifene: From Anovulatory Infertility to 46,XY Disorder of Sex Development Due to Testicular Steroidogenesis Defect
-
----
+# Clomifene: From Female Infertility to 46,XY Disorder of Sex Development Due to Testicular Steroidogenesis Defect
 
 ## One-Sentence Summary
 
-Clomifene citrate is a selective oestrogen receptor modulator (SERM) with a long-established global role in inducing ovulation in women with anovulatory infertility, most commonly polycystic ovary syndrome (PCOS). The TxGNN model's top-ranked new prediction is that it may be effective for **46,XY disorder of sex development (DSD) due to testicular steroidogenesis defect**, with **no clinical trials** and **no publications** currently identified to support this specific direction. Evidence is limited to model prediction only (L5), and the mechanistic rationale is considered weak.
+Clomifene is an oral ovulation-inducing medicine, originally used to treat female infertility.
+The TxGNN model predicts it may be useful for **46,XY disorder of sex development due to testicular steroidogenesis defect**, with a very high model score.
+However, there are currently **no clinical trials and no publications** supporting this prediction, so it rests on model output alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Anovulatory infertility / ovulation induction |
+|------|------|
+| Original Indication | Female infertility |
 | Predicted New Indication | 46,XY disorder of sex development due to testicular steroidogenesis defect |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in this Evidence Pack. Based on well-established pharmacology, clomifene acts as a selective oestrogen receptor modulator (SERM): by competitively blocking oestrogen receptors in the hypothalamus, it disrupts the normal negative feedback loop on GnRH secretion. The resulting increase in GnRH pulse frequency drives elevated FSH and LH release from the anterior pituitary — this is the basis for its use in ovulation induction, which remains its globally recognised primary indication.
+Detailed mechanism of action data was not available in the data compiled for this report. Clomifene is a selective estrogen receptor modulator (SERM). It blocks estrogen receptors in the hypothalamus, which reduces negative feedback and raises GnRH, FSH and LH secretion. This is the basis of its use for ovulation induction in female infertility.
 
-The theoretical basis for repurposing clomifene in 46,XY DSD due to testicular steroidogenesis defect rests on its ability to raise serum LH. Elevated LH could, in principle, stimulate Leydig cells to produce more testosterone — a plausible-sounding hypothesis at first glance. However, this condition arises from enzyme-level failures, typically mutations in genes such as *StAR*, *CYP11A1*, or *HSD3B2*. The downstream enzymatic machinery required to convert cholesterol into androgens is intrinsically compromised, and amplifying an upstream hormonal signal does not repair a broken enzyme. This is fundamentally different from anovulatory infertility, where the target tissue (ovarian follicles) remains functionally intact and simply needs a gonadotropin stimulus.
-
-In summary, the TxGNN model appears to have identified a superficial mechanistic bridge (clomifene → ↑LH → gonadal steroidogenesis) without accounting for the enzyme-level irreversibility of this disorder. Biological plausibility is low, and this prediction should be treated as a hypothesis-generating signal only, pending preclinical validation.
+The link to the predicted indication is weak. In this condition, the primary defect is an enzymatic block in testicular steroid production, which sits downstream of the gonadotropin axis. Raising LH stimulation is unlikely to correct a block in the enzymes themselves. The high score (0.999) is therefore best read as a knowledge-graph prediction, probably driven by shared reproductive-endocrine associations, rather than as evidence of a therapeutic mechanism.
 
 ---
 
@@ -77,15 +75,21 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-Clomifene is not currently listed on the Australian Register of Therapeutic Goods (ARTG). There are no TGA-approved products available in Australia, and no ARTG entries to reference. Clinicians requiring access would need to explore pathways such as the TGA Special Access Scheme (SAS) or Authorised Prescriber arrangements.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1211R | Clomid | Tablet containing clomifene citrate 50 mg (oral) | Not listed in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+The data compiled for this report contains no label-based warnings or contraindications. Please refer to the TGA-approved Product Information (PI) for these.
 
-> **Note:** No key warnings, contraindications, or drug interaction data were available in this Evidence Pack. Given clomifene is not currently ARTG-listed, prescribers should consult international product monographs (e.g., from the FDA, EMA, or UK MHRA) as a proxy until TGA-specific documentation is obtained.
+- **Drug Interactions**: Bexarotene, rated **Major** (DDInter).
+- **Contraindication signals from the knowledge graph** (not label text, and to be verified against the PI):
+  - Hormone-related conditions: polycystic ovary syndrome, endometriosis, endometrial cancer, thyroid disorders (hypothyroidism, hyperthyroidism), adrenal insufficiency and pituitary tumours.
+  - Ovarian conditions: ovarian cyst and ovarian hyperstimulation syndrome.
+  - Other conditions: liver disease, gallbladder disease, thrombophlebitis, anxiety and mood-related disorders, and vision disorders including blindness.
 
 ---
 
@@ -94,22 +98,15 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN model assigns a high prediction score (99.90%), the mechanistic rationale is biologically implausible — increasing LH stimulation via hypothalamic oestrogen receptor blockade cannot correct an intrinsic enzyme deficiency in testicular steroidogenesis. There is no clinical trial or published literature evidence for this indication, clomifene is not currently marketed in Australia, and no safety data was retrievable for this evaluation.
+The prediction has no supporting trials or literature (L5), and the mechanism does not plausibly address a downstream testicular steroidogenesis defect. The high score alone is not enough to justify progressing this indication.
 
 **To proceed, the following is needed:**
-- Preclinical evidence (in vitro enzyme activity assays or animal models) demonstrating any meaningful improvement in steroidogenesis in the context of *StAR*, *CYP11A1*, or *HSD3B2* deficiency
-- Retrieval of full DrugBank MOA data to characterise any off-target receptor interactions that may be relevant to steroidogenesis beyond the classical hypothalamic–pituitary axis
-- Assessment of whether any subpopulation within 46,XY DSD retains partial enzyme function that could theoretically benefit from elevated gonadotropin stimulation
-- Full safety evaluation including acquisition of an applicable TGA-equivalent Product Information (PI) or regulatory monograph before any clinical consideration proceeds
-- ARTG registration or SAS pathway assessment if the hypothesis gains preclinical support
+- Any preclinical or clinical evidence that clomifene-induced gonadotropin stimulation benefits this condition.
+- Review of whether an enzymatic block could be bypassed by increased LH drive.
+- Mechanism of action data compiled from an authoritative source such as DrugBank.
+- TGA Product Information review for warnings and contraindications, particularly in male and paediatric populations, since the approved use is in women.
 
----
-
-> **Contextual note for clinicians:** While 46,XY DSD due to testicular steroidogenesis defect is the TxGNN model's highest-ranked novel prediction for clomifene, a review of all 10 predicted indications in this Evidence Pack reveals that **anovulation** (rank 10, TxGNN score 99.52%) carries an evidence level of **L1** with over 50 registered clinical trials and 20 publications — consistent with clomifene's well-established global clinical role. The model's high scores for ranks 1–9 (all L5/Hold) likely reflect learned associations in the knowledge graph rather than actionable repurposing candidates. Researchers should interpret TxGNN scores in conjunction with evidence levels and mechanistic plausibility assessments.
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require prospective clinical validation before any patient application.*
+**Note:** Among the other predictions for clomifene, *anovulation* is the only one with trial and literature support (including a randomised letrozole versus clomifene trial, NCT00478504, and the M-OVIN trial, PMID 29273245). It overlaps with the existing female infertility indication, so it confirms current use rather than representing true repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

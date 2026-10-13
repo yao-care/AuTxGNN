@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ceftriaxone
-parent: High Evidence (L1-L2)
-nav_order: 133
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 142
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ceftriaxone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,35 +33,37 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ceftriaxone is a third-generation cephalosporin antibiotic used to treat serious bacterial infections.
-The TxGNN model identifies **Infectious Otitis Media** as the highest-evidence repurposing candidate among 10 predicted indications, supported by **3 clinical trials** and **19 publications**.
-This aligns closely with Ceftriaxone's well-established antibacterial mechanism and warrants a **Proceed with Guardrails** recommendation for formalising its use in the Australian context.
+Ceftriaxone is a third-generation cephalosporin antibiotic, originally used for bacterial infections such as pneumonia, meningitis, gonorrhoea and salmonellosis.
+The TxGNN model's top-ranked prediction, polyclonal hyperviscosity syndrome, has no supporting evidence, so this report focuses on the first prediction with real evidence, **infectious otitis media** (score 99.26%). It is supported by **1 registered clinical trial (not testing ceftriaxone)** and **19 publications**, and it is best seen as an extension of an existing antibacterial use rather than true repurposing.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Serious bacterial infections (third-generation cephalosporin) |
-| Predicted New Indication | Infectious Otitis Media |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed (ARTG record shows 0 entries — data verification recommended) |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-> **Note on ARTG status:** The Evidence Pack records 0 ARTG entries for Ceftriaxone. This is likely a data extraction gap, as Ceftriaxone preparations (e.g., Rocephin®) are understood to be registered with the TGA. Clinicians should verify current status at [search.tga.gov.au](https://www.tga.gov.au/resources/artg) before prescribing.
+|------|------|
+| Original Indication | Bacterial infections (streptococcal infection, bacterial pneumonia, bacterial meningitis, gonorrhoea, salmonellosis and others, per the knowledge graph). The ARTG entry has no indication text recorded. |
+| Predicted New Indication | Top-ranked: polyclonal hyperviscosity syndrome (L5, Hold). Most evidence-supported: infectious otitis media |
+| TxGNN Prediction Score | 99.39% (polyclonal hyperviscosity syndrome); 99.26% (infectious otitis media) |
+| Evidence Level | L3 for infectious otitis media (L5 for the top-ranked prediction) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails (infectious otitis media); Hold (top-ranked prediction) |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Ceftriaxone inhibits bacterial cell wall synthesis by binding irreversibly to penicillin-binding proteins (PBPs), triggering autolytic enzymes that lyse the bacterial cell. As a third-generation cephalosporin, it combines enhanced Gram-negative coverage with a long plasma half-life (~8 hours) and high protein binding, allowing once-daily IM or IV dosing. Critically, it achieves middle ear fluid concentrations that exceed minimum inhibitory concentration (MIC) breakpoints for key otitis media pathogens.
+Detailed mechanism of action data is not available in the data compiled for this report. Ceftriaxone is a beta-lactam antibiotic that inhibits bacterial cell wall synthesis, and its efficacy in bacterial infections is established.
 
-Infectious otitis media (acute otitis media, AOM) is driven by three primary pathogens — *Streptococcus pneumoniae*, *Haemophilus influenzae*, and *Moraxella catarrhalis* — all of which fall squarely within Ceftriaxone's antibacterial spectrum. When first-line amoxicillin fails (particularly with drug-resistant *S. pneumoniae*), or when oral administration is not possible (e.g., vomiting, non-adherent children), single-dose or 3-day IM Ceftriaxone provides a practical, high-efficacy rescue option with superior middle ear penetration compared to many oral alternatives.
+**Top-ranked prediction (polyclonal hyperviscosity syndrome):** No mechanistic link was identified. This is a haematological and immunological condition with no bacterial target. The high score is a model output only, with no trials or literature.
 
-This is not a speculative repurposing scenario. IM Ceftriaxone for AOM is already recommended as second-line or rescue therapy in international guidelines (AAP, IDSA, Japanese Society of Chemotherapy). The TxGNN score of 99.26% reflects the model's detection of these well-established pharmacological links within the drug-disease knowledge graph, confirming that the prediction is scientifically grounded. In the Australian context, formal evidence consolidation and confirmation of ARTG status may nonetheless strengthen guideline alignment and support clinical adoption.
+**Infectious otitis media:** The mechanistic case is strong. Ceftriaxone is active against the main pathogens of otitis media (*Streptococcus pneumoniae*, *Haemophilus influenzae*, *Moraxella catarrhalis*). Because these are bacteria already within its known spectrum, this is better viewed as an extension of the existing indication than as true repurposing.
+
+**Other ear-related predictions:**
+- **Suppurative otitis media and middle ear disease:** plausible for acute bacterial disease, but evidence is dated or overlaps with infectious otitis media.
+- **Chronic otitis media:** weak support. It is dominated by *Pseudomonas aeruginosa*, *Staphylococcus aureus* and biofilm-forming organisms, where systemic ceftriaxone is not a standard option.
+- **Otosalpingitis:** no evidence retrieved.
 
 ---
 
@@ -69,49 +71,79 @@ This is not a speculative repurposing scenario. IM Ceftriaxone for AOM is alread
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01511107](https://clinicaltrials.gov/study/NCT01511107) | Phase 2b | Terminated | 520 | Multicenter, randomised, double-blind, placebo-controlled RCT comparing 5-day vs 10-day antibiotic courses for AOM in children aged 6–23 months. Enrolled 520 of 600 planned before termination. Provides comparative antibiotic duration data relevant to Ceftriaxone's role as a rescue agent. |
-| [NCT02567825](https://clinicaltrials.gov/study/NCT02567825) | N/A | Completed | 250 | Assessed tympanostomy tube placement versus non-surgical management for recurrent AOM in children. Establishes clinical severity thresholds and management escalation pathways where IM Ceftriaxone is typically deployed. |
-| [NCT01272999](https://clinicaltrials.gov/study/NCT01272999) | N/A | Completed | 391 | Post-marketing observational study of Prevnar 13 impact on AOM incidence in children. Quantifies the residual antibiotic-susceptible AOM burden in the post-vaccine era, which directly contextualises Ceftriaxone prescribing needs. |
+| [NCT02567825](https://clinicaltrials.gov/study/NCT02567825) | N/A | Completed | 250 | Tympanostomy tubes versus non-surgical management for recurrent acute otitis media over 2 years. It does not test ceftriaxone, so it is contextual only. |
+
+No ANZCTR trial identifiers were available in the data compiled for this report.
 
 ---
 
 ## Literature Evidence
 
+Selected publications for infectious otitis media:
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [8989332](https://pubmed.ncbi.nlm.nih.gov/8989332/) | 1997 | RCT | *Pediatrics* | Prospective, randomised, single-blind trial comparing single IM Ceftriaxone vs 10-day oral TMP-SMZ for AOM. Ceftriaxone demonstrated comparable clinical efficacy as a convenient one-dose IM regimen (Greater Boston Otitis Media Study Group). |
-| [11099083](https://pubmed.ncbi.nlm.nih.gov/11099083/) | 2000 | RCT | *Pediatric Infectious Disease Journal* | Compared 1-day vs 3-day IM Ceftriaxone for non-responsive AOM in children. The 3-day regimen showed superior bacteriological eradication and clinical outcomes, particularly against drug-resistant *S. pneumoniae*. |
-| [12237596](https://pubmed.ncbi.nlm.nih.gov/12237596/) | 2002 | RCT | *Pediatric Infectious Disease Journal* | Assessed nasopharyngeal pneumococcal carriage dynamics in non-responsive AOM treated with 1-day vs 3-day IM Ceftriaxone. The 3-day course was superior for eradicating resistant strains during and after therapy. |
-| [12750572](https://pubmed.ncbi.nlm.nih.gov/12750572/) | 1998 | RCT | *Le infezioni in medicina* | Three-arm randomised trial in 75 paediatric AOM patients comparing amoxicillin, cefuroxime axetil, and single-dose IM Ceftriaxone (50 mg/kg). No statistically significant efficacy difference across groups, supporting Ceftriaxone as a viable alternative. |
-| [9877360](https://pubmed.ncbi.nlm.nih.gov/9877360/) | 1998 | Clinical Study | *Pediatric Infectious Disease Journal* | 3-day IM Ceftriaxone for non-responsive AOM — demonstrated bacteriological eradication of *S. pneumoniae* (including drug-resistant strains) from middle ear fluid aspirates. |
-| [39361280](https://pubmed.ncbi.nlm.nih.gov/39361280/) | 2024 | Clinical Practice Guideline Review | *JAMA Network Open* | US paediatric outpatient antibiotic prescribing appropriateness review. Identifies Ceftriaxone as appropriate for specific AOM scenarios while highlighting antimicrobial stewardship concerns — directly relevant to Australian prescribing context. |
-| [35841649](https://pubmed.ncbi.nlm.nih.gov/35841649/) | 2022 | Retrospective Cohort | *Int J Pediatric Otorhinolaryngology* | Large US primary care database analysis of Ceftriaxone use for AOM. Documented increasing IM Ceftriaxone prescribing, especially for otitis-conjunctivitis syndrome, raising stewardship considerations applicable to Australian practice. |
-| [12166789](https://pubmed.ncbi.nlm.nih.gov/12166789/) | 2002 | Consensus Statement | *Clinical Pediatrics* | AOM management consensus for paediatricians. Ceftriaxone positioned as second-line rescue agent for treatment failure or when oral administration is not feasible — relevant to Australian primary care and ED settings. |
-| [20802367](https://pubmed.ncbi.nlm.nih.gov/20802367/) | 2010 | Review | *Otology & Neurotology* | Prevention and treatment of AOM and meningitis in children with cochlear implants. Ceftriaxone cited as the preferred antibiotic for complicated or severe AOM with intracranial risk in this high-risk population. |
-| [10688388](https://pubmed.ncbi.nlm.nih.gov/10688388/) | 2000 | Review | *Clinical Therapeutics* | Synthesised AOM antimicrobial treatment recommendations. Ceftriaxone identified as the most appropriate rescue therapy for multi-drug resistant *S. pneumoniae* AOM, reinforcing its second-line role. |
+|------|-----|------|------|---------|
+| [8989332](https://pubmed.ncbi.nlm.nih.gov/8989332/) | 1997 | Randomised trial | Pediatrics | Single-dose intramuscular ceftriaxone compared with 10 days of oral trimethoprim-sulfamethoxazole for acute otitis media |
+| [11099083](https://pubmed.ncbi.nlm.nih.gov/11099083/) | 2000 | Clinical trial | Pediatr Infect Dis J | One-day versus three-day intramuscular ceftriaxone for nonresponsive acute otitis media in children |
+| [9877360](https://pubmed.ncbi.nlm.nih.gov/9877360/) | 1998 | Clinical study | Pediatr Infect Dis J | Bacteriological efficacy of a three-day intramuscular ceftriaxone regimen in nonresponsive acute otitis media |
+| [8151462](https://pubmed.ncbi.nlm.nih.gov/8151462/) | 1994 | Clinical study | J Pediatr | Intramuscular ceftriaxone versus oral amoxicillin to prevent meningitis and other bacterial sequelae in febrile children at risk of occult bacteraemia |
+| [12166789](https://pubmed.ncbi.nlm.nih.gov/12166789/) | 2002 | Consensus | Clin Pediatr | Consensus recommendations for treating acute otitis media (industry-sponsored meeting) |
+| [35841649](https://pubmed.ncbi.nlm.nih.gov/35841649/) | 2022 | Cohort | Int J Pediatr Otorhinolaryngol | Factors associated with ceftriaxone use for acute otitis media in US primary care, noted as a marker of antimicrobial resistance |
+| [10688388](https://pubmed.ncbi.nlm.nih.gov/10688388/) | 2000 | Review | Clin Ther | Review of antimicrobial treatment recommendations for acute otitis media |
+| [2523493](https://pubmed.ncbi.nlm.nih.gov/2523493/) | 1989 | Clinical study | Jpn J Antibiot | Ceftriaxone 1 g daily versus cefotiam in acute suppurative otitis media. Clinical efficacy was 71% for ceftriaxone and 86% for cefotiam. |
+| [20802367](https://pubmed.ncbi.nlm.nih.gov/20802367/) | 2010 | Review | Otol Neurotol | Prevention and treatment of meningitis and acute otitis media in children with cochlear implants |
+| [39361280](https://pubmed.ncbi.nlm.nih.gov/39361280/) | 2024 | Review | JAMA Netw Open | Optimal paediatric outpatient antibiotic prescribing |
+
+The only evidence retrieved for the other predictions is as follows.
+- **Hyperamylasemia:** a 1999 prophylaxis study (PMID 10458061) after endoscopic papillosphincterotomy, which is an indirect infection-prevention link.
+- **Blood group incompatibility:** a fetal cholelithiasis paper (PMID 37761267), which is a safety signal rather than evidence of benefit.
+- **Polyclonal hyperviscosity syndrome, congenital analbuminemia, premalignant haematological system disease and otosalpingitis:** no literature.
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11169W | Ceftriaxone Viatris | Powder for injection 2 g (as sodium) | Not recorded in the data compiled for this report |
+
+Only an injectable formulation is registered. This is compatible with the intramuscular and intravenous regimens studied for otitis media.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+**Knowledge-graph contraindication signals** (from drug-disease relationships, not label text):
+- Liver disease
+- Gallbladder disease
+- Neonatal jaundice
+- *Clostridium difficile* colitis
+- Perinatal necrotising enterocolitis
+- Haemolytic anaemia
+
+**Drug interactions** (100 recorded in total; main ones listed):
+- **Major:** calcium chloride, calcium glucoheptonate and calcium gluconate. Ceftriaxone must not be mixed or co-administered with calcium-containing intravenous products.
+- **Moderate:** kanamycin, neomycin, streptomycin and picosulfuric acid.
+- Many further interactions have an unclassified severity (for example amphotericin B, acetylsalicylic acid and pantoprazole).
+
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Proceed with Guardrails (infectious otitis media); Hold (polyclonal hyperviscosity syndrome and the other low-evidence predictions)**
 
 **Rationale:**
-Multiple published RCTs, guideline consensus statements, and large observational studies support Ceftriaxone's efficacy in infectious otitis media — particularly as a second-line or rescue therapy for children with non-responsive, severe, or complicated AOM, or when oral administration is not achievable. The drug's bactericidal mechanism directly targets the three principal AOM pathogens, and its pharmacokinetic profile (favourable middle ear penetration, once-daily IM dosing) makes it well-suited to this indication.
+- The top-ranked predictions have no clinical evidence and no plausible mechanism, so they should not be pursued.
+- For infectious otitis media, ceftriaxone acts on the relevant bacteria and has randomised comparative data. Overall evidence is L3 (the available studies are older, there are no registered ceftriaxone trials, and the one registered trial does not test ceftriaxone). It is an extension of existing antibacterial use and should sit within antimicrobial stewardship.
 
 **To proceed, the following is needed:**
-
-- Verify current ARTG registration status directly via TGA (current Evidence Pack data shows 0 entries — a data extraction gap is suspected and must be confirmed before any clinical or regulatory action)
-- Review the TGA-approved Product Information (PI) for approved indications, dosing schedules, contraindications, and key warnings
-- Obtain mechanism of action (MOA) data from DrugBank (DB01212) to complete pharmacological documentation for any formal submission
-- Develop an antimicrobial stewardship framework for Ceftriaxone use in paediatric AOM, aligned with **Therapeutic Guidelines: Antibiotic** (eTG complete), to govern second-line and rescue indications
-- If the current ARTG approval does not explicitly include infectious otitis media, consider whether a formal TGA indication extension or off-label use protocol is required for institutional prescribing
+- Confirmation of the ARTG-approved indications and PI warnings and contraindications. The safety data gap is flagged as blocking for formal safety screening.
+- Mechanism of action data from DrugBank.
+- Stewardship guardrails: reserve ceftriaxone for specific scenarios such as vomiting or failure of oral therapy, consider local resistance patterns, and prefer narrower-spectrum first-line agents.
+- Review of current Australian guidelines for otitis media, since the retrieved evidence is mostly pre-2005.
+- Chronic suppurative otitis media should not be pursued with systemic ceftriaxone, given the pathogen profile (*Pseudomonas*, biofilms) and the standard role of topical therapy.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

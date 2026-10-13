@@ -2,15 +2,15 @@
 layout: default
 title: Perampanel
 parent: Moderate Evidence (L3-L4)
-nav_order: 524
-evidence_level: L3
+nav_order: 559
+evidence_level: L4
 indication_count: 10
 ---
 
 # Perampanel
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Perampanel: From Epilepsy to Visual Epilepsy
+# Perampanel: From Partial Epilepsy to Visual Epilepsy
 
 ## One-Sentence Summary
 
-Perampanel is a selective, non-competitive AMPA-receptor antagonist used for focal-onset and generalised tonic-clonic seizures in epilepsy. The TxGNN model predicts a possible role in **visual epilepsy** (a photosensitive/visually-triggered seizure subtype), but the **3 clinical trials** and **19 publications** identified all study general epilepsy populations rather than this specific reflex subtype — the evidence is indirect.
+Perampanel is an antiseizure medicine (a non-competitive AMPA receptor antagonist) originally used for partial (focal) epilepsy.
+The TxGNN model predicts it may be effective for **visual epilepsy**, but there are **no registered clinical trials** and **no publications specific to this condition**.
+The only supporting literature covers focal epilepsy in general, so the evidence is **model prediction with indirect support**.
 
 ---
 
@@ -41,66 +43,71 @@ Perampanel is a selective, non-competitive AMPA-receptor antagonist used for foc
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy — focal-onset (partial-onset) and primary generalised tonic-clonic seizures (per literature evidence; no Australian regulatory record exists — see below) |
+| Original Indication | Partial epilepsy, partial motor epilepsy (from the knowledge graph; no approved indication text is available for the Australian entry) |
 | Predicted New Indication | Visual epilepsy |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not returned by DrugBank for this evaluation (data gap). However, the literature evidence collected for this candidate independently confirms the mechanism: perampanel is a novel, orally active, non-competitive AMPA-receptor antagonist that reduces glutamate-mediated postsynaptic excitation and suppresses seizure activity across rodent seizure models (PMID 21635236). It is approved internationally as adjunctive and monotherapy treatment for focal-onset seizures and generalised tonic-clonic seizures (PMID 24559052, 36150304).
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the literature, perampanel is a selective, non-competitive AMPA-type glutamate receptor antagonist. It reduces excitatory glutamatergic transmission at postsynaptic membranes, which underlies its use as add-on therapy in focal-onset seizures.
 
-Visual (photosensitive) epilepsy involves cortical hyperexcitability triggered by visual/light stimuli, and AMPA-receptor blockade is mechanistically plausible for dampening this cortical over-excitation — EEG photic-stimulation response is a standard assessment tool in this subtype, and one identified trial (NCT02900755) specifically evaluated perampanel's effect on EEG parameters in epilepsy patients.
+Visual epilepsy (photosensitive or occipital seizures) is a focal or reflex seizure type. It plausibly involves the same AMPA-mediated glutamatergic hyperexcitability as the original indication. However, the retrieved literature addresses drug-resistant focal epilepsy in general, not visual epilepsy specifically. The link is therefore indirect and largely overlaps with the approved use rather than demonstrating a new benefit.
 
-That said, none of the three clinical trials or nineteen publications retrieved were designed around, or restricted to, visual/photosensitive epilepsy specifically — they studied general epilepsy populations (PK/safety, cognition/EEG, neurophysiology testing). The mechanistic rationale is sound, but direct efficacy evidence for this reflex subtype is currently absent.
+The model also gave similarly high scores (about 99.8-99.9%) to several other rare reflex seizure types (startle, thinking, audiogenic, micturition-induced, orgasm-induced, eating and reading seizures) and to beta-ketothiolase deficiency. Such uniform scores suggest the ranking reflects graph proximity rather than disease-specific evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
+Currently no related clinical trials registered for visual epilepsy.
+
+For context, the most clinically developed alternative prediction in the same dataset is **status epilepticus** (score 99.77%, evidence level L3), where perampanel has been studied in trials:
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03780907](https://clinicaltrials.gov/study/NCT03780907) | Phase 2 | Completed | 18 | Tolerability, safety and pharmacokinetics of perampanel (E2007) in patients with refractory partial or generalised seizures on concomitant AEDs — general epilepsy population, not visual-subtype specific. |
-| [NCT02900755](https://clinicaltrials.gov/study/NCT02900755) | Phase 4 | Completed | 30 | Effects of perampanel on cognition and EEG in epilepsy patients; EEG/photic-response assessment is relevant methodology for visual epilepsy but the study was not restricted to this subtype. |
-| [NCT03653741](https://clinicaltrials.gov/study/NCT03653741) | Phase 4 | Completed | 12 | Effects of perampanel on neurophysiology tests including visual evoked potential (VEP) in healthy volunteers; weak relevance — mechanistic/neurophysiology focus, not a treatment-efficacy trial. |
+| [NCT06401707](https://clinicaltrials.gov/study/NCT06401707) | Phase 2 | Recruiting | 52 | Randomised placebo-controlled pilot of perampanel to prevent status epilepticus after cardiac arrest; no results yet |
+| [NCT04309721](https://clinicaltrials.gov/study/NCT04309721) | Phase 3 | Terminated | 1 | Add-on enteral perampanel in focal motor status epilepticus; terminated early, no usable data |
+| [NCT05684978](https://clinicaltrials.gov/study/NCT05684978) | Phase 4 | Terminated | 1 | Perampanel in refractory status epilepticus; terminated early, no interpretable results |
+| [NCT05756621](https://clinicaltrials.gov/study/NCT05756621) | N/A | Completed | 84 | Retrospective cohort of ketamine plus perampanel in super-refractory status epilepticus after cardiac arrest; contextual data only |
 
 ---
 
 ## Literature Evidence
 
+No publications specific to visual epilepsy were retrieved. The following are the most relevant to perampanel in focal epilepsy, the closest available evidence:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Guideline | Neurology | AAN/AES practice guideline on efficacy and tolerability of newer antiepileptic drugs (including perampanel) for new-onset epilepsy. |
-| [36878742](https://pubmed.ncbi.nlm.nih.gov/36878742/) | 2023 | Systematic Review | Brain & Development | Systematic review/meta-analysis of perampanel efficacy, tolerability and safety in children and adolescents with epilepsy. |
-| [36150304](https://pubmed.ncbi.nlm.nih.gov/36150304/) | 2022 | Review | Epilepsy & Behavior | Reviews perampanel monotherapy clinical trial and real-world evidence for focal-onset and generalised tonic-clonic seizures. |
-| [31912315](https://pubmed.ncbi.nlm.nih.gov/31912315/) | 2020 | Cohort | Clinical Pharmacokinetics | Therapeutic drug monitoring of antiepileptic drugs, including perampanel, in women before/during/after pregnancy. |
-| [37775491](https://pubmed.ncbi.nlm.nih.gov/37775491/) | 2023 | Cohort | Med J Malaysia | Efficacy and safety of adjunctive perampanel in a real-world epilepsy cohort. |
-| [25878177](https://pubmed.ncbi.nlm.nih.gov/25878177/) | 2015 | Post-hoc analysis | Neurology | Impact of concomitant enzyme-inducing AEDs on perampanel efficacy/safety across the three Phase 3 trials. |
-| [36034267](https://pubmed.ncbi.nlm.nih.gov/36034267/) | 2022 | Case Series | Frontiers in Neurology | Real-life experience of perampanel as add-on/second-line monotherapy in childhood absence epilepsy. |
-| [37684052](https://pubmed.ncbi.nlm.nih.gov/37684052/) | 2023 | Review | BMJ | Review of antiseizure medication management (including perampanel) during pregnancy and lactation. |
-| [26111428](https://pubmed.ncbi.nlm.nih.gov/26111428/) | 2015 | PK/PD Review | Expert Opin Drug Metab Toxicol | Pharmacokinetic and pharmacodynamic evaluation of perampanel for partial-onset seizures. |
-| [24559052](https://pubmed.ncbi.nlm.nih.gov/24559052/) | 2014 | Review | Expert Opin Drug Discov | Discovery and development history of perampanel as an AMPA-receptor antagonist antiepileptic drug. |
-
-None of the above specifically studies visual/photosensitive epilepsy.
+| [37059702](https://pubmed.ncbi.nlm.nih.gov/37059702/) | 2023 | Review (Cochrane) | Cochrane Database Syst Rev | Perampanel add-on therapy in drug-resistant focal epilepsy |
+| [35305446](https://pubmed.ncbi.nlm.nih.gov/35305446/) | 2022 | Systematic review / meta-analysis | Epilepsy Res | Efficacy, tolerability and safety of perampanel in pharmacoresistant focal seizures |
+| [35061214](https://pubmed.ncbi.nlm.nih.gov/35061214/) | 2022 | Network meta-analysis | Drugs | Indirect comparison of third-generation antiseizure medicines, including perampanel, for focal-onset seizures |
+| [35816832](https://pubmed.ncbi.nlm.nih.gov/35816832/) | 2022 | Review | Epilepsy Behav | Scoping review of real-world perampanel effectiveness and safety in Europe |
+| [36263757](https://pubmed.ncbi.nlm.nih.gov/36263757/) | 2022 | Cohort / review | Expert Opin Drug Saf | Safety of perampanel as monotherapy or first add-on therapy |
+| [40839459](https://pubmed.ncbi.nlm.nih.gov/40839459/) | 2025 | Observational cohort | Epilepsia Open | PERPRISE: real-world effectiveness of perampanel as the only add-on therapy in Germany |
+| [24559052](https://pubmed.ncbi.nlm.nih.gov/24559052/) | 2014 | Review | Expert Opin Drug Discov | Discovery and development of perampanel as an AMPA antagonist |
 
 ---
 
 ## Australia Market Information
 
-Perampanel is **not currently registered on the Australian Register of Therapeutic Goods (ARTG)** — 0 entries found in this evidence pack.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 10151G | Fycompa | Tablet 10 mg (as hemisesquihydrate), oral | Not available in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-No key warnings, contraindications, or drug interaction data were returned for this evaluation (all marked as data gaps; DDI query status: not found). As perampanel is not TGA-registered, there is no Australian Product Information available.
+- **Drug Interactions**: 56 interactions were identified. The listed ones are mostly moderate, and chiefly involve additive central nervous system depression or sedation. Examples include morphine, codeine, hydrocodone, opium, diphenoxylate, difenoxin, dronabinol, nabilone, promethazine, chlorpheniramine, metoclopramide, dextromethorphan, ethanol, and dexamethasone. Chloroquine, hydroxychloroquine and sibutramine are also listed as moderate. Clarithromycin is listed as minor.
+- **Literature safety signals**: The retrieved publications report psychiatric adverse effects (irritability, psychosis) and food aversion. One publication notes a boxed warning for serious psychiatric and behavioural reactions. These come from case reports and a literature review, not from Australian label text.
 
-> Please refer to overseas regulatory labelling (e.g. FDA, EMA Summary of Product Characteristics) for safety information, pending TGA registration.
+Please refer to the TGA-approved Product Information (PI) for the full warnings and contraindications, which were not available in the data compiled for this report.
 
 ---
 
@@ -109,15 +116,14 @@ No key warnings, contraindications, or drug interaction data were returned for t
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale (AMPA-receptor antagonism dampening cortical hyperexcitability) is plausible for visual epilepsy, but no identified trial or publication specifically addresses this reflex seizure subtype — all evidence comes from general epilepsy populations. Combined with the drug's unregistered status in Australia, the evidence does not yet support progression beyond a research question.
+The high prediction score for visual epilepsy rests on a general anti-glutamatergic mechanism. There are no trials and no disease-specific publications. The literature largely restates the existing focal epilepsy indication, so it does not independently support a new use.
 
 **To proceed, the following is needed:**
-- TFDA/TGA product information and formal MOA data (currently data gaps)
-- A trial or case series specifically enrolling patients with visual/photosensitive-triggered seizures
-- Drug interaction and contraindication data
-- ARTG registration pathway assessment, given the drug is not currently marketed in Australia
-
-**Note on alternative candidate:** Among the 10 TxGNN-predicted indications in this evidence pack, **status epilepticus** (rank 10) has materially stronger, more direct evidence — a recruiting Phase 2 trial (NCT06401707) specifically testing perampanel for post-cardiac-arrest status epilepticus prophylaxis, a dedicated systematic review (PMID 35151187), and multiple real-world cohort studies — earning it a higher evidence tier (L2) and a "Proceed with Guardrails" recommendation. This may warrant a separate, dedicated evaluation.
+- Disease-specific evidence, such as case series, preclinical photosensitivity models, or a pilot study in visual or photosensitive epilepsy
+- Clarification of whether visual epilepsy is already covered by the approved focal-seizure indication
+- The approved indication text and safety sections (warnings, contraindications) from the Australian PI
+- Mechanism of action data confirmed from a primary source
+- For a better-supported direction, consider **status epilepticus** (evidence level L3), pending results from ongoing and future trials, since the completed trials were terminated with one participant each
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cannabidiol
-parent: High Evidence (L1-L2)
-nav_order: 119
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 128
+evidence_level: L5
 indication_count: 10
 ---
 
 # Cannabidiol
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,99 +29,89 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-Using the report template you've supplied (this is a direct content-generation task from the Evidence Pack JSON, not a coding task, so no additional skill applies), here is the evaluation report.
-
-A few data-fidelity notes before the report: `taiwan_regulatory.licenses` is empty (0 ARTG entries, market status "Not marketed"/Not Marketed), `drug.original_indications` is empty, and `original_moa` is `[Data Gap]`. Per the prohibition on outputting "[Data Gap]" literally, I've replaced these with plain-language statements rather than inventing regulatory text. I also flag a discrepancy in the source data: two of the four RLS-tagged trials (NCT02818777, NCT03582137) are titled and summarised as Parkinson's Disease tremor/motor-symptom studies, not RLS studies, despite being graded "A" for RLS relevance — I've reported them as written in `brief_summary` rather than silently correcting the mismatch, so you can judge relevance yourself.
-
----
-
-# Cannabidiol: From Refractory Epilepsy to Restless Legs Syndrome
+# Cannabidiol: From Lennox-Gastaut Syndrome to Restless Legs Syndrome
 
 ## One-Sentence Summary
 
-Cannabidiol (CBD) is internationally best known as a treatment for severe, treatment-resistant epilepsy syndromes (e.g. Dravet syndrome, Lennox-Gastaut syndrome), though it is **not currently registered on the ARTG in Australia**. The TxGNN model predicts it may be effective for **Restless Legs Syndrome (RLS)**, with **4 clinical trials** and **9 publications** currently identified as supporting evidence — though only one trial and one case series are specifically about RLS, with the remainder addressing related neurological/sleep conditions.
-
----
+Cannabidiol (CBD) was originally used to treat severe childhood-onset epilepsies such as Lennox-Gastaut syndrome and Dravet syndrome.
+The TxGNN model predicts it may be effective for **restless legs syndrome (RLS)**,
+with **1 planned clinical trial** (not yet recruiting) and **10 publications** (mostly reviews) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from Australian regulatory data (drug is not ARTG-registered); internationally associated with treatment-resistant epilepsy |
-| Predicted New Indication | Restless Legs Syndrome |
+| Original Indication | Lennox-Gastaut syndrome, Dravet syndrome, developmental and epileptic encephalopathy (the Australian ARTG entry lists no indication text) |
+| Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 96.17% |
-| Evidence Level | L2 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L2 (as assigned in the data compiled for this report; see note below) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
----
+*Note on evidence level:* The L2 grade rests on a planned Phase 2 trial that has not yet started and has no results. Under the stated criteria (a completed Phase 2/3 RCT), no completed RCT exists, so the practical strength of evidence is closer to L3 (reviews and exploratory studies). I have therefore treated this as a research question rather than a candidate ready to advance.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for this specific product is not available in the current evidence pack. Based on general pharmacological knowledge, cannabidiol interacts with the endocannabinoid system (CB1/CB2 receptors) as well as TRPV1/TRPA1 channels, and has documented muscle-relaxant, anti-inflammatory and sleep-modulating effects. These pathways plausibly intersect with RLS pathophysiology, which is thought to involve dopaminergic dysfunction and nocturnal sensorimotor disturbance, and with peripheral nerve sensitisation more broadly.
+Currently, detailed mechanism of action data is not available. Based on known information, cannabidiol is a non-psychoactive cannabinoid with proven antiseizure activity in epileptic encephalopathies, and mechanistically it may be applicable to RLS.
 
-RLS and CBD's better-established neurological uses (seizure disorders, tremor/motor symptoms in Parkinson's disease) share overlapping mechanistic territory — dopaminergic and motor-sensory circuit modulation — which gives the TxGNN prediction some biological plausibility. However, it is important to note that the strongest-graded clinical trial evidence in this evidence pack (NCT02818777, NCT03582137) was actually conducted in **Parkinson's disease tremor and motor symptoms**, not RLS itself. Only one completed case series (6 patients) and one not-yet-recruiting Phase 2 trial directly target RLS. This means the mechanistic story is reasonable, but direct clinical proof in RLS specifically remains thin.
+The literature suggests the endocannabinoid system modulates dopaminergic and sensory pathways as well as sleep-wake regulation, all of which plausibly relate to RLS symptoms. One review proposes that cannabinoids inhibit glutamate release in the striatum, which could make them an option for RLS, particularly as dopamine agonists fall out of favour because of augmentation.
 
-Because no formal original indication or MOA record exists for this drug in the current dataset, this rationale should be treated as a starting hypothesis for further pharmacological review rather than a confirmed mechanistic pathway.
-
----
+The link to the original indication is indirect: both epilepsy and RLS involve neuronal excitability and neurotransmitter regulation. Direct evidence for CBD alone remains limited, and much of the available data mixes CBD with THC combination products.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT07224932](https://clinicaltrials.gov/study/NCT07224932) | Phase 2 | Not yet recruiting | 60 | Randomised, double-blind, placebo-controlled study of high-CBD cannabis extract (BRC-002) specifically for idiopathic Restless Legs Syndrome — tolerability and efficacy; not yet started. |
-| [NCT02818777](https://clinicaltrials.gov/study/NCT02818777) | Phase 2 | Completed | 13 | Randomised, double-blind, placebo-controlled crossover trial of CBD (GWP42003) on **tremor in Parkinson's disease** — graded "A" relevance to RLS by the source pipeline, but the trial population/endpoint is Parkinson's tremor, not RLS. |
-| [NCT03582137](https://clinicaltrials.gov/study/NCT03582137) | Phase 2 | Completed | 74 | Randomised, double-blind, placebo-controlled parallel trial of CBD on **motor symptoms in Parkinson's disease** (UPDRS Part III) — again graded "A" relevance to RLS, but the described population/endpoint is Parkinson's motor symptoms, not RLS. |
-| [NCT05092191](https://clinicaltrials.gov/study/NCT05092191) | Phase 2 | Recruiting | 250 | CANSEP trial: cannabinoids vs standard treatment for symptom relief in **multiple sclerosis**; RLS is a possible secondary/co-morbid symptom rather than the primary study focus. |
+| [NCT07224932](https://clinicaltrials.gov/study/NCT07224932) | Phase 2 | Not yet recruiting (planned start Nov 2026) | 60 | Randomised, double-blind, placebo-controlled study of the tolerability and efficacy of a high-CBD cannabis extract (BRC-002) in idiopathic RLS. No results yet. |
 
-**Note:** No dedicated, completed RCT in an RLS population currently exists. The most RLS-specific trial (NCT07224932) has not yet begun recruiting.
-
----
+No ANZCTR trial identifiers were found in the data compiled for this report.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35749710](https://pubmed.ncbi.nlm.nih.gov/35749710/) | 2023 | Post hoc analysis (Phase 2/3 trial) | Cannabis and Cannabinoid Research | Post hoc exploratory analysis of CBD's effect on RLS/Willis-Ekbom Disease severity in Parkinson's disease patients with REM sleep behaviour disorder. |
-| [28655453](https://pubmed.ncbi.nlm.nih.gov/28655453/) | 2017 | Case series | Sleep Medicine | Six patients with RLS treated with cannabis, reported symptom relief (abstract not available in source). |
-| [32603954](https://pubmed.ncbi.nlm.nih.gov/32603954/) | 2020 | Systematic review (preclinical + clinical) | Sleep Medicine Reviews | Systematic review of cannabinoid therapies across sleep disorders, including limited RLS-relevant data; notes unclear efficacy and safety overall. |
-| [39114536](https://pubmed.ncbi.nlm.nih.gov/39114536/) | 2024 | RCT protocol | Frontiers in Neurology | Protocol for the CANSEP trial comparing cannabinoids to standard care for symptom relief in multiple sclerosis (RLS not the primary target population). |
-| [39612156](https://pubmed.ncbi.nlm.nih.gov/39612156/) | 2024 | Review | Current Psychiatry Reports | Updated review of cannabis/CBD use for sleep disorders generally. |
-| [35459406](https://pubmed.ncbi.nlm.nih.gov/35459406/) | 2022 | Review | Journal of Primary Care & Community Health | Review of cannabinoid effects on sleep; includes a case of insomnia and mood disturbance during cannabinoid withdrawal. |
-| [39502532](https://pubmed.ncbi.nlm.nih.gov/39502532/) | 2024 | Retrospective chart review (safety/DDI) | Frontiers in Pharmacology | Retrospective review of adverse events from interactions between cannabinoids and psychotropic drugs — relevant to safety monitoring, not efficacy. |
-| [34987023](https://pubmed.ncbi.nlm.nih.gov/34987023/) | 2022 | Narrative review | Clinical Journal of the American Society of Nephrology | Narrative review of cannabinoids for symptom management in kidney failure (tangential to RLS). |
-| [33216043](https://pubmed.ncbi.nlm.nih.gov/33216043/) | 2021 | Patient survey | Journal of Parkinson's Disease | Survey of Parkinson's disease patients' views on medical cannabis use (tangential to RLS). |
-
----
+| [35749710](https://pubmed.ncbi.nlm.nih.gov/35749710/) | 2023 | Post hoc exploratory analysis of a Phase 2/3 trial | Cannabis Cannabinoid Res | Evaluated CBD for RLS symptom severity in Parkinson's disease patients with REM sleep behaviour disorder. |
+| [42387200](https://pubmed.ncbi.nlm.nih.gov/42387200/) | 2026 | Clinical study/review | J Neurol | THC/CBD in RLS; cannabinoids may be an option because they inhibit striatal glutamate release. |
+| [42617004](https://pubmed.ncbi.nlm.nih.gov/42617004/) | 2026 | Scoping review | Ann Indian Acad Neurol | Synthesises the literature on cannabis and cannabinoids for RLS symptoms. |
+| [32603954](https://pubmed.ncbi.nlm.nih.gov/32603954/) | 2020 | Systematic review | Sleep Med Rev | Cannabinoids in sleep disorders; efficacy and safety remain unclear. |
+| [39612156](https://pubmed.ncbi.nlm.nih.gov/39612156/) | 2024 | Review | Curr Psychiatry Rep | Update on cannabis/CBD for sleep; high-quality evidence is lacking. |
+| [35459406](https://pubmed.ncbi.nlm.nih.gov/35459406/) | 2022 | Review/case report | J Prim Care Community Health | Effects of cannabinoids on sleep, including withdrawal-related insomnia. |
+| [39502532](https://pubmed.ncbi.nlm.nih.gov/39502532/) | 2024 | Retrospective chart review | Front Pharmacol | Adverse events from interactions between cannabinoids and psychotropic drugs. |
 
 ## Australia Market Information
 
-Cannabidiol currently has **no ARTG entries** (Market Status: **Not Marketed**). No approved product information, dosage form, or indication text is available for the Australian market in this evidence pack. Any clinical use in Australia would currently need to proceed via the TGA Special Access Scheme or Authorised Prescriber pathway, subject to separate verification.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12467E | Epidyolex | Oral liquid 100 mg per mL, 100 mL | Not stated in the data compiled for this report |
 
----
+## Cytotoxicity
+
+Not applicable. Cannabidiol is not an antineoplastic drug.
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. **Note:** because cannabidiol is not currently ARTG-registered, no TGA-approved Australian PI exists for this product at present — a Blocking-severity data gap (DG001) flagged in this evidence pack confirms that formal warnings, contraindications, and interaction data have not yet been retrieved. A drug interaction (DDI) database query also returned no results (`not_found`). Safety review must be sourced from the PI of the jurisdiction where any product is obtained (e.g. overseas-approved CBD products) before any clinical use is considered.
+- **Drug Interactions**: 100 interactions were identified; the first 20 retrieved are summarised here. Most are Moderate or Minor.
+  - Moderate: acarbose, pioglitazone, bupropion, morphine (including liposomal), chenodeoxycholic acid, clotrimazole, dronabinol, levofloxacin, metoclopramide, minocycline, nabilone, naltrexone, nicotinamide, opium.
+  - Minor: aprepitant, clarithromycin, esomeprazole, lansoprazole, omeprazole.
+  - Combined use with other cannabinoids (dronabinol, nabilone) and opioids warrants particular attention because of possible additive central nervous system effects.
 
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The RLS prediction has moderate literature support (L2) but is undermined by two issues: the drug is not registered in Australia (0 ARTG entries), and there is a **Blocking**-severity data gap on safety/PI information that prevents entry into even a preliminary safety assessment (S1). The strongest-graded clinical trials in the evidence pack are actually in Parkinson's disease populations rather than RLS itself, so the direct clinical evidence for RLS specifically is limited to one small case series and one not-yet-recruiting trial.
+The only direct clinical evidence is a Phase 2 trial that has not yet started, plus exploratory and review literature, much of it on THC/CBD combinations or other conditions. This is a reasonable research question, but there is no completed trial to support advancing it. The other nine predicted indications (including ALS, which has only preclinical and review-level support) are prediction-only or indirect and do not justify progression.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (or overseas PI) covering warnings, contraindications, and interactions (currently a Blocking data gap)
-- Detailed mechanism of action data specific to this product/formulation
-- Results from the RLS-specific Phase 2 trial (NCT07224932) once recruitment begins
-- Clarification on whether the Parkinson's disease trials (NCT02818777, NCT03582137) were correctly classified as RLS-relevant, or whether this reflects a knowledge-graph/relevance-tagging error upstream
-- A defined regulatory pathway assessment (Special Access Scheme vs formal ARTG submission) given current Not Marketed status
-- Note: amyotrophic lateral sclerosis (rank 4, L3/S1) also emerged as a candidate indication with somewhat stronger trial-registry activity and may warrant separate evaluation.
+- Results from NCT07224932 (expected after completion in mid-2028)
+- Detailed mechanism of action data for CBD in RLS
+- TGA PI warnings and contraindications for Epidyolex
+- Confirmation of the approved indication for the ARTG entry
+- Evidence specific to CBD alone, separate from THC/CBD combinations
+- Review of the interaction profile and dosing for the RLS population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

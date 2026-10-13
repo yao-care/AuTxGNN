@@ -2,7 +2,7 @@
 layout: default
 title: Potassium Iodide
 parent: Moderate Evidence (L3-L4)
-nav_order: 549
+nav_order: 590
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,81 +29,93 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Potassium Iodide: From Thyroid/Antimicrobial Use to Nasal Cavity Disease
+# Potassium Iodide: From Allergic and Upper Respiratory Conditions to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-> Potassium Iodide (DrugBank DB06715) has no original indication recorded in this evidence pack, and detailed mechanism-of-action data is currently unavailable — pharmacologically it is a halide salt long used for thyroid-related and antimicrobial purposes.
-> The TxGNN model predicts it may be effective for **Nasal Cavity Disease**,
-> but this is currently supported only by **0 clinical trials** and **4 case-report publications** (mostly veterinary), with no controlled human studies.
-
----
+Potassium iodide was originally used for upper respiratory conditions such as allergic rhinitis, vasomotor rhinitis, pharyngitis, the common cold and nasopharyngitis.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are currently **no registered clinical trials** and only **4 publications**, all case reports (3 veterinary, 1 human) describing fungal or fungus-like nasal infections.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the regulatory data provided (see "Why is This Prediction Reasonable?" below) |
-| Predicted New Indication | Nasal Cavity Disease |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, nasopharyngitis (from the knowledge graph; no approved indication text is available for the Australian licence) |
+| Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for potassium iodide in this evidence pack (flagged as a High-severity data gap, DG002). No original indication is registered either — the regulatory record shows 0 licenses and the drug is not currently marketed.
+Detailed mechanism of action data is not currently available for this drug. Based on known information, potassium iodide is a long-established treatment for certain fungal and fungus-like infections, such as sporotrichosis and zygomycosis (including conidiobolomycosis). It has also historically been used as an expectorant in upper respiratory conditions.
 
-Based on the literature evidence retrieved, potassium iodide (KI) has a long, informal history as an adjunct antimicrobial/antifungal agent for so-called "sporotrichoid" mycotic infections — conditions such as pythiosis, aspergillosis, pseudallescheriasis and zygomycosis that can present as nasal or facial masses. The four supporting publications describe KI used successfully (or as an adjunct) in exactly this pattern of disease, which is consistent with the predicted "nasal cavity disease" indication.
+The original indications are all upper airway and nasal conditions, so a prediction for nasal cavity disease sits close to them in the knowledge graph. The retrieved literature suggests a plausible antifungal or anti-inflammatory role, but only in infectious nasal disease (fungal rhinitis, rhinofacial pythiosis and nasofacial zygomycosis). It does not support nasal cavity disease broadly.
 
-However, three of the four publications are veterinary case reports (sheep, horse) and the fourth is a single decades-old human case report. The exact molecular mechanism behind KI's antifungal/anti-inflammatory effect in these conditions remains unclear, and no controlled human trial has tested this use. The prediction should be read as a plausible historical/anecdotal signal rather than an established mechanistic link.
-
----
+The very high TxGNN score is a model prediction only. No controlled human data corroborate it.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34902797](https://pubmed.ncbi.nlm.nih.gov/34902797/) | 2022 | Case report (veterinary) | Journal de mycologie médicale | Successful potassium iodide treatment for rhinofacial pythiosis in sheep |
-| [39576399](https://pubmed.ncbi.nlm.nih.gov/39576399/) | 2024 | Case report (veterinary) | Veterinary Research Communications | Topical clotrimazole plus oral potassium iodide used to treat Aspergillus-related mycotic rhinitis in a horse |
-| [10976304](https://pubmed.ncbi.nlm.nih.gov/10976304/) | 2000 | Case report (veterinary) | Journal of the American Veterinary Medical Association | Sodium iodide (IV) used adjunctively with intranasal miconazole for Pseudallescheria boydii nasal cavity infection in a horse |
-| [7997795](https://pubmed.ncbi.nlm.nih.gov/7997795/) | 1994 | Case report | Revista do Instituto de Medicina Tropical de São Paulo | Rapid clinical response to potassium iodide therapy in a human case of nasofacial zygomycosis |
-
----
+| [34902797](https://pubmed.ncbi.nlm.nih.gov/34902797/) | 2022 | Case report (veterinary, sheep) | Journal de mycologie medicale | Successful potassium iodide treatment of rhinofacial pythiosis (Pythium insidiosum) in sheep |
+| [39576399](https://pubmed.ncbi.nlm.nih.gov/39576399/) | 2024 | Case report (veterinary, horse) | Veterinary research communications | Mycotic rhinitis caused by Aspergillus fumigatus in a mare, treated with topical clotrimazole plus oral potassium iodide |
+| [10976304](https://pubmed.ncbi.nlm.nih.gov/10976304/) | 2000 | Case report (veterinary, horse) | Journal of the American Veterinary Medical Association | Pseudallescheria boydii infection of the nasal cavity in a horse, treated with intranasal miconazole and intravenous sodium iodide |
+| [7997795](https://pubmed.ncbi.nlm.nih.gov/7997795/) | 1994 | Case report (human) | Revista do Instituto de Medicina Tropical de Sao Paulo | Nasofacial zygomycosis in a 64-year-old woman from Brazil, with rapid response to potassium iodide |
 
 ## Australia Market Information
 
-No ARTG entries are recorded for potassium iodide in this evidence pack (total licenses: 0; market status: not marketed).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 418B | Not available | Not available | Not available |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+No label-based warnings or contraindications were available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
----
+**Contraindications flagged in the knowledge graph** (these are model-derived associations, not label text). They include:
+- Thyroid: hypothyroidism, myxedema, congenital hypothyroidism
+- Cardiovascular: hypertension, hypertensive disorder
+- Renal and hepatic: kidney disease, liver disease, liver failure
+- Respiratory: chronic obstructive pulmonary disease
+- Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, inherited porphyria
+- Gastrointestinal: peptic ulcer disease, inflammatory bowel disease, pancreatitis, gallbladder disease
+- Neurological and psychiatric: epilepsy, psychotic disorders, anxiety disorder
+- Other: thrombocytopenia, dermatitis herpetiformis
+
+**Drug interactions:** 45 interactions were identified. The main ones from the listed entries are:
+- **Major:**
+  - ACE inhibitors: benazepril, captopril, enalapril, lisinopril, moexipril, perindopril, quinapril
+  - Angiotensin receptor blockers: olmesartan, valsartan, azilsartan medoxomil, losartan, telmisartan
+  - Trimethoprim
+- **Moderate:**
+  - NSAIDs: ketorolac, ibuprofen, diclofenac, oxaprozin, naproxen
+  - Aliskiren
+  - Tolvaptan
+
+The major interactions with ACE inhibitors, ARBs and trimethoprim are most likely related to hyperkalaemia risk, since this is a potassium salt. This is an inference and should be confirmed in the PI.
+
+Iodides can also cause hypersensitivity reactions and iodism, which should be considered in any new use.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is supported only by four case reports (three veterinary, one 30-year-old human report), with no clinical trials, no defined mechanism of action, and no current market presence in this jurisdiction (0 ARTG entries). Evidence is insufficient to progress beyond a research question at this stage.
+The prediction rests on a high model score and four case reports in infectious nasal disease, with no registered trials or controlled human data. The evidence does not support nasal cavity disease broadly. It is best treated as a research question, narrowed to fungal or fungus-like nasal infections.
 
 **To proceed, the following is needed:**
-- TFDA-approved Product Information (warnings/contraindications) to complete an initial safety assessment (currently blocking, DG001)
-- Confirmed mechanism of action data from DrugBank or primary literature (DG002)
-- At minimum, a systematic review or prospective case series in humans specifically for nasal cavity disease/sporotrichoid mycoses, rather than isolated case reports
-- Clarification of dosage form and route feasibility for a nasal/sinus indication, since no ARTG-registered product currently exists
+- Mechanism of action data
+- TGA-approved Product Information, including approved indications, warnings and contraindications. The Australian licence record has no indication text, product name or dosage form.
+- A narrower, well-defined indication (for example, fungal rhinosinusitis or conidiobolomycosis) with systematic review of human case data
+- Controlled or prospective clinical data in humans
+- A safety plan covering thyroid function, hyperkalaemia and hypersensitivity, particularly for patients taking ACE inhibitors, ARBs or trimethoprim
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

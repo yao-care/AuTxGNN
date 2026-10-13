@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Risedronic Acid
-parent: High Evidence (L1-L2)
-nav_order: 598
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 640
+evidence_level: L5
 indication_count: 10
 ---
 
 # Risedronic Acid
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,110 +29,96 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Risedronic Acid: From Osteoporosis to Paget's Disease of Bone
+# Risedronic Acid: From Osteoporosis to Paget Disease of Bone
 
 ## One-Sentence Summary
 
-Risedronic acid (DrugBank DB00884) is a pyridinyl bisphosphonate; the evidence pack's own literature confirms it is originally indicated for postmenopausal and glucocorticoid-induced osteoporosis. Of the ten TxGNN-predicted indications supplied, only one — **Paget's disease of bone** — is backed by real clinical and literature evidence (**4 clinical trials, 20 publications**); the other nine (ranked higher by raw model score) are flagged in the model's own rationale as biologically implausible, non-human, or unsupported knowledge-graph noise, and are not actionable.
+Risedronic acid is a nitrogen-containing bisphosphonate, originally used to treat osteoporosis (including postmenopausal osteoporosis) and Paget disease of bone.
+The highest-scoring TxGNN predictions (pseudo-von Willebrand disease, platelet disorders, HIV) have no supporting evidence. The only prediction with literature support, **Paget disease of bone**, is already a listed original indication, so it is not true repurposing. It is backed by **3 review articles** and **no registered clinical trials** in the data compiled for this report.
 
-**Note on methodology**: This report deviates from strict rank-1 selection because the top-ranked candidate (pseudo-von Willebrand disease) and most others in the top 10 have zero supporting evidence and are explicitly described as spurious associations in the supplied rationale text. We instead report on the only indication with real evidence, consistent with our role of giving healthcare professionals an actionable assessment rather than a raw score.
-
----
+**Note on indication selection:** The top-ranked prediction (rank 1) is pseudo-von Willebrand disease, with no trials, no literature and no plausible mechanistic link. This report therefore focuses on rank 9, Paget disease of bone, the only prediction with supporting literature and a clear mechanism. The other predictions are summarised below.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not captured in structured registration data; literature evidence (PMID 11368289) states risedronate is indicated for postmenopausal and glucocorticoid-induced osteoporosis |
-| Predicted New Indication | Paget's disease of bone *(see caveat below — likely an existing approved use, not a novel signal)* |
-| TxGNN Prediction Score | 95.18% (rank 9 of candidate list, raw score 0.9518) |
-| Evidence Level | L1 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Osteoporosis, postmenopausal osteoporosis, Paget disease of bone (the Australian ARTG entry carries no indication text in the data compiled) |
+| Predicted New Indication | Paget disease of bone (rank 9; the rank 1 prediction is pseudo-von Willebrand disease, Hold) |
+| TxGNN Prediction Score | 95.18% (rank 1 pseudo-von Willebrand disease: 98.93%) |
+| Evidence Level | L4 (reviews only; no trials) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails (Paget disease of bone only) |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not directly populated for this drug (flagged as a data gap), but the supplied literature evidence fills the gap adequately: risedronate is a pyridinyl bisphosphonate that inhibits osteoclast-mediated bone resorption (PMID 9679211, PMID 32387834). This is the same mechanism responsible for its established efficacy in osteoporosis.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, risedronic acid is a nitrogen-containing bisphosphonate that inhibits farnesyl pyrophosphate synthase in osteoclasts, reducing bone resorption.
 
-Paget's disease of bone is itself a disorder of excessive, disorganised bone turnover driven by hyperactive osteoclasts. Because risedronate directly suppresses osteoclast activity, the mechanistic link to Paget's disease is strong and well precedented — bisphosphonates as a class (including zoledronic acid) are considered the standard of care for this condition (PMID 32512166, PMID 18838910).
+Paget disease of bone is driven by excessive, disorganised osteoclast-mediated bone remodelling. An antiresorptive agent that suppresses osteoclast activity is mechanistically well suited to it. Paget disease is also already among the drug's original indications, so this prediction mainly confirms existing use rather than identifying a new one. The early-onset genetic form (Paget disease of bone 2, rank 10, score 94.36%) shares osteoclast-mediated pathology and is plausible, but no subtype-specific evidence was found.
 
-Importantly, the supporting rationale in the evidence pack itself notes that this is likely **not a novel repurposing candidate**: risedronate already carries an approved indication for Paget's disease of bone in most jurisdictions, and the empty `original_indications` field in this dataset is most plausibly a data extraction gap rather than evidence that this use is new. The other nine TxGNN outputs in this candidate set (platelet disorders, HIV, rare neurodevelopmental disease, feline/simian viral infections, osteopetrosis-type conditions) have no mechanistic rationale, no clinical trials, and largely no literature — several are non-human diseases entirely — and are assessed as knowledge-graph artefacts rather than genuine signals (see Appendix).
+**Other top predictions are not supported:**
 
----
+| Rank | Predicted Disease | Score | Assessment |
+|------|------|------|------|
+| 1 | Pseudo-von Willebrand disease | 98.93% | No evidence; no plausible mechanistic link (platelet GP1BA gain-of-function) |
+| 2 | Primary release disorder of platelets | 98.90% | No evidence; likely a network-neighbour artefact |
+| 3 | HIV infectious disease | 97.95% | No evidence; bisphosphonates are used for HIV-associated bone loss, which is a complication, not the infection |
+| 4 | Neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter | 96.90% | Ultra-rare genetic disorder; no link |
+| 5 | Osteomesopyknosis | 96.81% | Sclerosing bone condition; further antiresorption may be counterproductive |
+| 6–7 | Feline AIDS; simian immunodeficiency virus infection | 96.62% | Veterinary/non-human models; not relevant |
+| 8 | Glanzmann thrombasthenia | 96.05% | No evidence; no mechanistic link |
+
+All of these are at evidence level L5 with a recommendation of Hold.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02106455](https://clinicaltrials.gov/study/NCT02106455) | N/A (post-marketing surveillance) | Completed | 315 | All-case surveillance of risedronate 17.5 mg once-daily in Japanese patients with osseous Paget's disease over 48 weeks; direct drug/indication match |
-| [NCT00051636](https://clinicaltrials.gov/study/NCT00051636) | Phase 3 | Completed | 172 | IV zoledronic acid vs. 60-day oral risedronate for Paget's disease; reduction in serum alkaline phosphatase used as efficacy marker |
-| [NCT00103740](https://clinicaltrials.gov/study/NCT00103740) | Phase 3 | Completed | 185 | Non-inferiority comparison of zoledronic acid vs. risedronate in Paget's disease therapeutic response |
-| [NCT00100620](https://clinicaltrials.gov/study/NCT00100620) | Phase 3 | Completed | 802 | Zoledronic acid (not risedronate) for corticosteroid-induced osteoporosis prevention/treatment; mechanism-related but different indication, lower relevance |
-
----
+Currently no related clinical trials registered in the data compiled for this report (no ClinicalTrials.gov or ANZCTR entries).
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [16135834](https://pubmed.ncbi.nlm.nih.gov/16135834/) | 2005 | RCT | New England Journal of Medicine | Randomised comparison: single zoledronic acid infusion vs. oral risedronate for Paget's disease — the pivotal trial underlying the two Phase 3 studies above |
-| [38197974](https://pubmed.ncbi.nlm.nih.gov/38197974/) | 2024 | Cohort | J Bone Miner Metab | All-case post-marketing surveillance (2008–2017) of risedronate safety and effectiveness in Japanese Paget's disease patients |
-| [17032148](https://pubmed.ncbi.nlm.nih.gov/17032148/) | 2007 | Cohort | J Bone Miner Res | Long-term (≥2 years) control of bone turnover in Paget's disease with zoledronic acid and risedronate |
-| [9437513](https://pubmed.ncbi.nlm.nih.gov/9437513/) | 1998 | Clinical study | Bone | Open-label study (n=20) showing reduced disease activity and normalised alkaline phosphatase with oral risedronate in severe Paget's disease |
-| [15777635](https://pubmed.ncbi.nlm.nih.gov/15777635/) | 2005 | Clinical study | Bone | IL-6/osteoprotegerin marker changes in 42 Paget's patients following oral risedronate (30 mg/day, 8 weeks) |
-| [11368289](https://pubmed.ncbi.nlm.nih.gov/11368289/) | 2001 | Review | Drugs | Confirms risedronate's approved indications include postmenopausal/glucocorticoid-induced osteoporosis and Paget's disease; summarises 4 RCTs in >4,800 osteoporosis patients |
-| [32512166](https://pubmed.ncbi.nlm.nih.gov/32512166/) | 2020 | Review | Bone | Bisphosphonates, including risedronate, remain the treatment of choice for Paget's disease |
-| [22396921](https://pubmed.ncbi.nlm.nih.gov/22396921/) | 2012 | Review | Australian Family Physician | Local (Australian) clinical update on Paget's disease affecting 2–4% of adults over 55 |
-| [9679211](https://pubmed.ncbi.nlm.nih.gov/9679211/) | 1998 | Review | Drugs & Aging | Early review confirming risedronate reduces pain and normalises alkaline phosphatase in Paget's disease |
-| [32387834](https://pubmed.ncbi.nlm.nih.gov/32387834/) | 2020 | Review | Bone | Historical review of risedronate's discovery and development as a nitrogen-containing bisphosphonate |
-
----
+| [11176760](https://pubmed.ncbi.nlm.nih.gov/11176760/) | 2001 | Review | Archives of Internal Medicine | Clinical review of risedronate; approved for prevention and treatment of postmenopausal and corticosteroid-induced osteoporosis |
+| [17385948](https://pubmed.ncbi.nlm.nih.gov/17385948/) | 2007 | Review | Drugs | Zoledronic acid in Paget disease: a single 5 mg IV dose gave a higher response rate and faster bone turnover reduction than comparator (a different bisphosphonate, so indirect support only) |
+| [15799218](https://pubmed.ncbi.nlm.nih.gov/15799218/) | 2002 | Review | Treatments in Endocrinology | Overview of the shift from symptomatic therapy to antiosteoclastic agents, with a focus on bisphosphonates in Paget disease |
 
 ## Australia Market Information
 
-Risedronic acid is currently **not marketed** in Australia per this dataset (0 ARTG entries recorded).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 13360E | Actonel | Tablet containing risedronate sodium 5 mg (oral) | Not available in the data compiled |
 
----
+The licence number is reproduced as supplied and should be verified against the ARTG.
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+**Contraindications flagged by the knowledge graph** (derived from drug-disease graph links, not product label text):
+- Renal: kidney disease, nephrolithiasis, nephrocalcinosis, acute urate nephropathy
+- Upper gastrointestinal: gastritis, duodenitis, achalasia and other oesophageal motility disorders (megaoesophagus, oesophageal dyskinesia)
+- Mineral metabolism: hypercalcaemia, hyperparathyroidism, osteitis fibrosa, phosphorus metabolism disease
+- Bone and other: osteonecrosis of the jaw, lytic metastatic bone lesions, sarcoidosis, fibromyalgia, myositis, constipation disorder, pyoureter
 
----
+**Drug Interactions** (100 interactions recorded; the 20 listed are all Moderate):
+- Polyvalent cation products, which reduce absorption: calcium salts (acetate, carbonate, citrate, gluconate, lactate, glubionate, phosphate), magnesium salts and antacids (aluminium hydroxide, magaldrate, magnesium hydroxide/oxide), iron, kaolin and attapulgite
+- Acetylsalicylic acid
+- Kanamycin
+
+Dosing separation from these products should be checked against the Product Information. Please also refer to the TGA-approved Product Information (PI) for formal warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Proceed with Guardrails (Paget disease of bone only); Hold for all other predictions**
 
 **Rationale:**
-Evidence for risedronate in Paget's disease of bone is strong (L1 — two completed Phase 3 RCTs plus long-standing post-marketing surveillance), but this most likely represents confirmation of an **existing, well-established indication** rather than a genuine repurposing discovery. As risedronic acid is not currently marketed in Australia, the practical opportunity is a market-entry/registration assessment for this indication rather than a novel repurposing pathway. All nine other TxGNN-predicted indications in this candidate set lack clinical or mechanistic support and should be held (see Appendix).
+- Paget disease of bone has a clear mechanistic basis and is already a listed original indication, supported by three reviews. However, no trial data were supplied, so the evidence level is only L4.
+- All higher-scoring predictions rest on graph scores alone with no evidence and no plausible mechanism, and should not proceed.
 
 **To proceed, the following is needed:**
-- Confirmation of risedronate's approved indications overseas (to resolve whether Paget's disease is genuinely novel for this dataset or a data-capture gap)
-- TGA/ARTG registration pathway assessment, since the drug has no current Australian market presence
-- Detailed mechanism-of-action and PI-level safety data (currently flagged as a blocking data gap)
-- DDI screening, as the current dataset returned no interaction data
-
----
-
-### Appendix: Other TxGNN Predictions Screened Out (Not Recommended)
-
-The following candidates scored higher than Paget's disease by raw TxGNN score but have no clinical or literature support and are assessed as not actionable:
-
-| Disease | TxGNN Score | Evidence | Assessment |
-|---------|------------|----------|------------|
-| Pseudo-von Willebrand disease | 98.93% | None | No mechanistic link to bone metabolism; likely embedding-space noise |
-| Primary release disorder of platelets | 98.90% | None | Same as above |
-| HIV infectious disease | 97.95% | 1 cohort study (PMID 25104272) | Study treats osteoporosis *in* HIV patients, not HIV itself — confounded by comorbidity, not a genuine antiviral signal |
-| Neurodevelopmental disorder (ataxic gait/absent speech) | 96.90% | None | Rare genetic disorder, no plausible mechanism |
-| Osteomesopyknosis | 96.81% | None | Osteoclast inhibition could theoretically worsen this sclerosing bone disorder — directionally concerning, not supportive |
-| Feline acquired immunodeficiency syndrome | 96.62% | None | Non-human (veterinary) disease |
-| Simian immunodeficiency virus infection | 96.62% | None | Non-human (primate model) disease |
-| Glanzmann thrombasthenia | 96.05% | None | No mechanistic link; part of a cluster of platelet-disorder artefacts |
-| Paget disease of bone 2, early-onset | 94.36% | None | Genetic subtype shares pathway logic with classic Paget's disease but has no direct trial/literature evidence |
+- Confirmation of the approved Australian indications, as the ARTG entry carries no indication text and the PI warnings and contraindications were not obtained
+- Primary RCT evidence for risedronate specifically in Paget disease (the current reviews are partly about other bisphosphonates)
+- Detailed mechanism of action data
+- Renal function assessment and monitoring for osteonecrosis of the jaw and atypical fracture risk
+- Subtype-specific evidence before considering early-onset Paget disease of bone 2
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

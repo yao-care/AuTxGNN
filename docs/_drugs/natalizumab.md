@@ -2,7 +2,7 @@
 layout: default
 title: Natalizumab
 parent: Model Prediction Only (L5)
-nav_order: 463
+nav_order: 496
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,58 +29,88 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Natalizumab: From an Undocumented Original Indication to Bronchitis (Data Gap)
+# Natalizumab: From Crohn's Disease and Multiple Sclerosis to Bronchitis
 
 ## One-Sentence Summary
 
-Natalizumab's original indication and mechanism of action are not yet recorded in this evidence pack (data gaps DG001/DG002). The TxGNN model's top-ranked prediction for this drug is **Bronchitis**, but this signal is currently supported by **0 clinical trials** and **0 publications** — it is a model-only prediction with no corroborating evidence.
+Natalizumab is an alpha-4 integrin–blocking monoclonal antibody originally used for multiple sclerosis and Crohn's disease (inflammatory bowel disease).
+The TxGNN model predicts it may be effective for **bronchitis**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+The score is a computational prediction only, so the recommendation is to **hold**.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no licences or indication text recorded (data gap, see DG001) |
+| Original Indication | Multiple sclerosis, Crohn's disease, inflammatory bowel disease (from the knowledge graph; no approved indication text is available for the Australian product) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.46% |
-| Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for Natalizumab (data gap DG002, pending DrugBank API lookup). Based on what the evidence pack does contain, Natalizumab is an anti‑α4‑integrin monoclonal antibody (VLA‑4 antagonist) that blocks leukocyte transendothelial migration, producing a systemic immunosuppressive effect.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, natalizumab blocks alpha-4 integrin, which inhibits leukocyte adhesion and migration into inflamed tissue. This is the basis of its use in multiple sclerosis and Crohn's disease.
 
-For the Bronchitis prediction specifically, the evidence pack's own mechanistic assessment notes that blocking leukocyte migration could theoretically alter airway immune responses, but VLA‑4 antagonists are also known to increase infection risk — a direction that works *against*, not for, a respiratory-infection indication like bronchitis. No clinical trial or literature evidence exists to resolve this in either direction.
+Bronchitis involves airway inflammation, so there is a theoretical link through reduced leukocyte trafficking. However, no trials or publications support this use. The high TxGNN score reflects a model-based association, not clinical proof.
 
-Because the original indication and MOA are both unrecorded data gaps, a proper comparison between the original and predicted indications cannot be completed at this time.
+There is also a counter-concern. Natalizumab causes immunosuppression, and respiratory infections are a recognised concern, so it could plausibly worsen rather than help infective bronchitis.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for bronchitis.
+
+For context, the other top-ranked predictions were also reviewed. The literature for them mostly describes natalizumab causing skin conditions (such as psoriasis, pustular psoriasis and cutaneous drug reactions) rather than treating them. One observational report (PMID 33589543, 2021) described improvement of comorbid psoriasis in 18 patients with MS on natalizumab, but this is a small observational series, and conflicting case reports exist.
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13820J | Tysabri | Injection 150 mg in 1 mL single dose pre-filled syringe | Not available in the compiled data |
+
+---
 
 ## Safety Considerations
 
-No TGA-approved Product Information exists for Natalizumab in Australia (the drug has 0 ARTG entries). Key warnings, contraindications, and drug interaction data are all recorded as data gaps in this evidence pack — this is a **Blocking** gap (DG001) that prevents any Stage 1 (S1) safety pre-assessment from proceeding.
+- **Contraindication (knowledge graph, not label text)**: Progressive multifocal leukoencephalopathy (PML).
+- **Drug Interactions**: 100 interactions were identified. The main Major-level interactions include:
+  - Corticosteroids: hydrocortisone, prednisolone, prednisone, dexamethasone, betamethasone, budesonide, triamcinolone
+  - Mercaptopurine, levamisole and trimetrexate
+  - Radiopharmaceuticals and related agents: iobenguane (I-131), ibritumomab tiuxetan and tositumomab
+- Moderate: naltrexone. Minor: zinc salts.
+- The published literature highlights PML (a rare, often fatal JC virus brain infection) as a key risk of natalizumab, along with hypersensitivity reactions and cutaneous adverse events.
+
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but the evidence level is L5 — a model-only prediction with zero clinical trials or literature support. The rationale text accompanying this prediction itself flags a mechanistically unfavourable direction (VLA‑4 antagonism raising infection risk rather than treating bronchitis). Natalizumab is also unregistered in Australia, and a Blocking data gap (DG001) prevents safety pre-assessment.
+The bronchitis prediction rests only on a model score, with no trials, no literature, and a plausible safety concern (infection risk under immunosuppression). The evidence level is L5.
 
 **To proceed, the following is needed:**
-- TFDA/TGA product safety data (DG001, Blocking) — required before any S1 safety pre-assessment can start
-- Detailed mechanism of action data (DG002, High) to properly assess mechanistic plausibility
-- At least one supportive clinical trial or publication directly evaluating Natalizumab in a bronchitis or related respiratory indication
-- A regulatory pathway assessment, given the drug currently has no ARTG registration
-
-**Additional context:** Nine other TxGNN-predicted indications were reviewed for this drug in the same evidence pack (parapsoriasis, psoriasis, severe nonproliferative diabetic retinopathy, acute lichenoid pityriasis, pityriasis lichenoides, penile fibromatosis, pustulosis palmaris et plantaris, dermatitis, neonatal dermatomyositis). None exceeded L4 evidence, and the literature available for the skin-related candidates (psoriasis, dermatitis, pustulosis palmaris et plantaris) predominantly describes Natalizumab-*induced* adverse skin reactions or PML risk rather than therapeutic benefit. All ten candidates carry a Hold recommendation.
+- Mechanism of action data and a mechanistic case for airway inflammation
+- Preclinical or early clinical evidence in bronchitis or related airway disease
+- Review of the PI warnings and contraindications, with a risk assessment of PML and respiratory infection
+- An assessment of whether an alternative indication is better supported (for example, the psoriasis signal is mixed and carries a paradoxical-reaction risk, so it is also not recommended at this stage)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

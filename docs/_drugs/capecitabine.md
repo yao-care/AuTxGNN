@@ -2,7 +2,7 @@
 layout: default
 title: Capecitabine
 parent: Model Prediction Only (L5)
-nav_order: 120
+nav_order: 129
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,102 +29,146 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Capecitabine: From Gastric Cancer to Gastric Adenocarcinoma and Proximal Polyposis of the Stomach (GAPPS)
-
----
+# Capecitabine: From Gastric Cancer to Gastric Tubular Adenocarcinoma
 
 ## One-Sentence Summary
 
-Capecitabine is an oral fluoropyrimidine prodrug chemotherapy, widely used internationally as a component of standard-of-care regimens for gastric, colorectal, and breast cancer — however, no TGA/ARTG registration data was retrievable in the current dataset, which warrants independent verification.
-The TxGNN model predicts it may be effective for **Gastric Adenocarcinoma and Proximal Polyposis of the Stomach (GAPPS)**, an extremely rare hereditary syndrome caused by APC promoter 1B mutations.
-Currently, **no clinical trials and no published literature** specifically address this indication — evidence level is **L5 (model prediction only)**, and the recommended decision is **Hold**.
+Capecitabine is an oral fluoropyrimidine chemotherapy, originally used for gastric cancer and metastatic colon cancer.
+The TxGNN model predicts it may be effective for **gastric adenocarcinoma and proximal polyposis of the stomach** (top-ranked), but the best-supported prediction in the data compiled for this report is **gastric tubular adenocarcinoma**, which is backed by **20 publications** (including several Phase 3 RCTs) and no registered trials.
+Note that this prediction is largely an on-label use rather than true repurposing, and the top-ranked prediction itself has no supporting evidence.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No TGA/ARTG-approved indication data available in current dataset |
-| Predicted New Indication | Gastric Adenocarcinoma and Proximal Polyposis of the Stomach (GAPPS) |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
-| Australia Market Status | Not registered (0 ARTG entries in current dataset — see note below) |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
-
-> **⚠️ Data Verification Required:** Capecitabine (brand name Xeloda, Roche) is widely known to be TGA-registered and listed on the Australian PBS for colorectal cancer, gastric cancer, and breast cancer. The absence of ARTG entries in this dataset is likely a query limitation rather than a true absence of registration. Australian healthcare professionals should verify current registration status directly via the [TGA ARTG public search](https://www.tga.gov.au/resources/artg).
+|------|------|
+| Original Indication | Gastric cancer; metastatic colon cancer (from the knowledge graph; the ARTG entry lists no indication text) |
+| Predicted New Indication | Top-ranked: gastric adenocarcinoma and proximal polyposis of the stomach (no evidence). Best-supported: gastric tubular adenocarcinoma, presented below |
+| TxGNN Prediction Score | 99.94% (both) |
+| Evidence Level | L1 for gastric tubular adenocarcinoma (L5 for the top-ranked prediction) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails (gastric tubular adenocarcinoma); Hold (top-ranked prediction) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological information, capecitabine is part of the fluoropyrimidine class of cytotoxic chemotherapy. It is an orally administered prodrug that undergoes sequential enzymatic conversion: first to 5′-deoxy-5-fluorouridine (5′-DFUR) via hepatic carboxylesterase, then to active 5-fluorouracil (5-FU) by thymidine phosphorylase (TP) — an enzyme that is preferentially expressed in tumour tissue relative to normal tissue, providing a degree of tumour-selective activation. Active 5-FU then inhibits thymidylate synthase (TS), blocking de novo dTMP synthesis and thereby halting DNA replication. Its efficacy in gastric adenocarcinoma has been established through multiple Phase 3 trials globally (e.g., CLASSIC, RESOLVE), and mechanistically this pathway is applicable wherever TP expression is sufficient to activate the prodrug.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, capecitabine is an oral prodrug converted to 5-fluorouracil (5-FU), which inhibits thymidylate synthase and disrupts DNA synthesis. Its efficacy in gastric cancer is established, and mechanistically it is applicable to histological subtypes of gastric adenocarcinoma.
 
-GAPPS is caused by germline point mutations in the APC gene's promoter 1B region, leading to fundic gland polyposis of the proximal stomach and a risk of malignant transformation to gastric adenocarcinoma. The mechanistic link between capecitabine and GAPPS-associated adenocarcinoma is indirect: GAPPS-related cancers are expected to retain the gastric adenocarcinoma phenotype — where TP expression and 5-FU sensitivity have been demonstrated — making the TP → 5-FU → TS inhibition pathway theoretically applicable to any adenocarcinoma arising within this syndrome.
+Tubular adenocarcinoma is a common histological subtype of gastric adenocarcinoma, so it is essentially the same disease as the original gastric cancer indication. Phase 3 literature includes CLASSIC (adjuvant capecitabine plus oxaliplatin after D2 gastrectomy) and several first-line trials in which a capecitabine/oxaliplatin backbone was combined with immunotherapy or targeted agents. The supplied titles are not subtype-specific, so subtype applicability should be confirmed.
 
-However, the practical applicability of capecitabine to GAPPS is highly uncertain. The syndrome is so rare that the specific molecular characteristics of GAPPS-associated adenocarcinoma — including TP/TS expression levels, Lauren classification (intestinal vs. diffuse), microsatellite instability status, and chemotherapy sensitivity patterns — have not been characterised in any published research. Without this data, it is not possible to confirm whether the TP-mediated activation pathway will function efficiently in tumours arising from this genetic background. The TxGNN model's high score most likely reflects generalised pattern recognition linking capecitabine to gastric adenocarcinoma broadly, rather than specific evidence for GAPPS as a distinct disease entity.
+**Other predictions in the list**
+
+| Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|
+| Gastric adenocarcinoma and proximal polyposis of the stomach | 99.94% | L5 | Prediction only; rare hereditary syndrome with no direct evidence |
+| Microinvasive gastric cancer | 99.94% | L5 | Usually managed by endoscopic or surgical resection; weak rationale for systemic therapy |
+| Signet ring cell gastric adenocarcinoma | 99.94% | L3 | One not-yet-recruiting Phase 2 trial; mostly case reports; histology often less chemosensitive |
+| Gastric cardia adenocarcinoma | 99.91% | L2 | Two completed Phase 2 trials of oxaliplatin plus capecitabine in oesophagogastric cancer |
+| Gastric body carcinoma | 99.90% | L1 | A completed Phase 3 trial, but not site-specific and capecitabine's role needs verification |
+| Epstein-Barr virus-associated gastric carcinoma | 99.90% | L3 | A small neoadjuvant toripalimab plus CapeOX study; capecitabine's contribution is not separable |
+| Gastric pylorus carcinoma | 99.91% | L4 | A single case report |
+| Carcinoma of stomach, salivary gland type | 99.91% | L3 | Only general Phase 1/2 solid-tumour trials |
+| Malignant gastric granular cell tumour | 99.89% | L5 | Non-epithelial tumour; rationale weak and unsupported |
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for capecitabine in GAPPS.
+No clinical trials are registered for gastric tubular adenocarcinoma. The most relevant trials from the other gastric predictions are shown below.
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00040859](https://clinicaltrials.gov/study/NCT00040859) | Phase 2 | Completed | 48 | Oxaliplatin plus capecitabine in metastatic oesophageal, GEJ and gastric cardia adenocarcinoma |
+| [NCT00938470](https://clinicaltrials.gov/study/NCT00938470) | Phase 2 | Completed | 73 | Extended neoadjuvant therapy in locally advanced oesophageal, GEJ and gastric cardia adenocarcinoma; capecitabine is likely part of the regimen (to be verified) |
+| [NCT01295086](https://clinicaltrials.gov/study/NCT01295086) | NA | Completed | 27 | Dose-finding of docetaxel, oxaliplatin and capecitabine with trastuzumab in HER2-positive advanced oesophagogastric cancer |
+| [NCT02494583](https://clinicaltrials.gov/study/NCT02494583) | Phase 3 | Completed | 763 | Pembrolizumab with or without cisplatin plus 5-FU or capecitabine in advanced gastric/GEJ adenocarcinoma (KEYNOTE-859 type design); not site-specific |
+| [NCT07091227](https://clinicaltrials.gov/study/NCT07091227) | Phase 2 | Not yet recruiting | 66 | AK112 plus chemotherapy as neoadjuvant treatment for signet ring cell-containing gastric/GEJ cancer; capecitabine's role is unconfirmed |
+| [NCT00021047](https://clinicaltrials.gov/study/NCT00021047) | Phase 1/2 | Completed | Not reported | Epirubicin, carboplatin and capecitabine in adult patients with solid tumours |
+| [NCT00010023](https://clinicaltrials.gov/study/NCT00010023) | Phase 1 | Completed | Not reported | Capecitabine plus cisplatin in advanced digestive system cancer (dose and safety) |
+
+No ANZCTR trial identifiers were available in the data compiled for this report.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for capecitabine in GAPPS.
+Gastric tubular adenocarcinoma (up to 10 shown, prioritising RCTs involving capecitabine):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [22226517](https://pubmed.ncbi.nlm.nih.gov/22226517/) | 2012 | RCT (Phase 3) | Lancet | CLASSIC: adjuvant capecitabine plus oxaliplatin after D2 gastrectomy versus surgery alone in stage II-IIIB gastric cancer |
+| [34252374](https://pubmed.ncbi.nlm.nih.gov/34252374/) | 2021 | RCT (Phase 3) | Lancet Oncol | RESOLVE: perioperative S-1 plus oxaliplatin versus postoperative capecitabine plus oxaliplatin |
+| [39952264](https://pubmed.ncbi.nlm.nih.gov/39952264/) | 2025 | RCT (Phase 3) | Lancet Oncol | RESOLVE final report with updated survival data |
+| [37524953](https://pubmed.ncbi.nlm.nih.gov/37524953/) | 2023 | RCT (Phase 3) | Nat Med | GLOW: zolbetuximab plus CAPOX in CLDN18.2-positive gastric/GEJ adenocarcinoma |
+| [37875143](https://pubmed.ncbi.nlm.nih.gov/37875143/) | 2023 | RCT (Phase 3) | Lancet Oncol | KEYNOTE-859: pembrolizumab plus chemotherapy in HER2-negative advanced gastric cancer |
+| [34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/) | 2021 | RCT (Phase 3) | Lancet | CheckMate 649: first-line nivolumab plus chemotherapy |
+| [38906161](https://pubmed.ncbi.nlm.nih.gov/38906161/) | 2024 | RCT (Phase 3) | Lancet Gastroenterol Hepatol | ATTRACTION-5: adjuvant nivolumab plus chemotherapy in stage III gastric/GEJ cancer |
+| [30982686](https://pubmed.ncbi.nlm.nih.gov/30982686/) | 2019 | RCT (Phase 2/3) | Lancet | FLOT4: perioperative FLOT versus ECF/ECX; not capecitabine-based, though capecitabine was in the comparator arm |
+| [20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/) | 2010 | RCT (Phase 3) | Lancet | ToGA: trastuzumab plus chemotherapy in HER2-positive advanced gastric cancer |
+| [38051328](https://pubmed.ncbi.nlm.nih.gov/38051328/) | 2023 | RCT (Phase 3) | JAMA | ORIENT-16: sintilimab plus chemotherapy in unresectable gastric/GEJ cancer |
+
+Most of these trials test capecitabine as part of a chemotherapy backbone. The benefit of capecitabine alone cannot be separated from the added agents, and none of the titles are specific to the tubular subtype.
 
 ---
 
 ## Australia Market Information
 
-No ARTG entries were retrieved for capecitabine in the current dataset. As noted above, this is likely a data query limitation. Based on publicly available TGA records, capecitabine-containing products (e.g., Xeloda 150 mg and 500 mg tablets) are registered in Australia for the treatment of colorectal cancer, gastric cancer, and breast cancer, and are PBS-listed. Healthcare professionals should consult the TGA ARTG directly for current registration details and the approved Product Information (PI).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 8362D | Capecitabine Sandoz | Tablet 500 mg (oral) | Not listed in the data compiled for this report |
 
 ---
 
 ## Cytotoxicity
 
-Capecitabine is a conventional cytotoxic chemotherapy agent (fluoropyrimidine class). This section applies.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Fluoropyrimidine prodrug (oral 5-FU precursor) |
-| Myelosuppression Risk | Moderate — neutropenia, thrombocytopenia, and anaemia occur; generally less myelosuppressive than infusional IV 5-FU; nadir typically at days 10–14 |
-| Emetogenicity Classification | Low (single agent); may increase to moderate in combination regimens (e.g., CAPOX with oxaliplatin) |
-| Monitoring Items | Full blood count with differential (before each cycle), liver function tests, renal function and eGFR (dose reduction required if CrCl < 50 mL/min; contraindicated if CrCl < 30 mL/min), coagulation studies (INR) if co-prescribed with warfarin |
-| Handling Protection | Oral cytotoxic — must be handled in accordance with state/territory cytotoxic safe handling guidelines (e.g., SHPA standards); tablets must not be crushed, split, or dissolved; carers/handlers should avoid direct contact with the tablets |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (fluoropyrimidine class; oral prodrug of 5-FU) |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions. The knowledge graph flags neutropenia, thrombocytopenia, agranulocytosis and anaemia as contraindicated conditions |
+| Emetogenicity Classification | Low to moderate for oral fluoropyrimidines (general class knowledge; confirm in the PI) |
+| Monitoring Items | FBC with differential, liver function (bilirubin), renal function; consider DPD deficiency status |
+| Handling Protection | Follow local cytotoxic drug handling procedures |
 
 ---
 
 ## Safety Considerations
 
-Formal TGA-approved Product Information warnings and contraindication data were not available in this evidence pack. Please refer to the TGA-approved Product Information (PI) for complete safety information.
+TGA-approved Product Information warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for authoritative safety information.
 
-**Clinically important interactions known for the fluoropyrimidine class:**
-- **Warfarin / vitamin K antagonists:** Capecitabine substantially potentiates anticoagulant effect; INR monitoring is mandatory and warfarin dose reduction is typically required
-- **Phenytoin:** Capecitabine may increase phenytoin plasma levels; monitor for toxicity and adjust phenytoin dose as needed
-- **Allopurinol:** May reduce the efficacy of fluoropyrimidines — avoid concurrent use where possible
+**Conditions flagged as contraindicated in the knowledge graph** (not label text, so verify against the PI):
+- Dihydropyrimidine dehydrogenase deficiency
+- Haematological: neutropenia, agranulocytosis, thrombocytopenia, anaemia (including macrocytic)
+- Hepatic and biliary: liver disease, gallbladder disease, hyperbilirubinaemia (including hereditary), Gilbert syndrome
+- Impaired renal function
+- Cardiac: coronary artery disease, sudden cardiac arrest, heart conduction disease
+- Stomatitis, necrotising enterocolitis, infectious disease
+
+**Drug interactions** (100 recorded; examples from the interaction screen):
+- Moderate: metronidazole, tinidazole
+- Minor: aluminium hydroxide, magaldrate, magnesium carbonate/hydroxide/oxide, levofloxacin
+- Severity unknown: pantoprazole, omeprazole, lansoprazole, glimepiride, metformin, doxycycline, morphine, atropine, prednisone, simvastatin, hydrocortisone, dolasetron
+
+A full interaction review against the PI is needed. Warfarin interactions, well known for capecitabine, were not captured in the supplied list and should be checked.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails** (gastric tubular adenocarcinoma and gastric cardia adenocarcinoma). **Hold** for the top-ranked prediction (gastric adenocarcinoma with proximal polyposis of the stomach) and for microinvasive, pyloric, salivary gland type and granular cell predictions.
 
 **Rationale:**
-GAPPS is an extremely rare hereditary syndrome with no published clinical trials, case series, or mechanistic studies evaluating capecitabine specifically in this disease entity. The evidence level is L5 — model prediction only — and the fundamental tumour biology of GAPPS-associated adenocarcinoma (including TP/TS expression and chemotherapy sensitivity) has not been characterised. There is insufficient basis to proceed with clinical planning at this stage.
+- Tubular adenocarcinoma is a subtype of the already established gastric cancer indication. Several Phase 3 RCTs support capecitabine-based regimens in gastric cancer, but the evidence is not subtype-specific and this is largely on-label use rather than true repurposing.
+- The highest-scored predictions are rare or poorly matched conditions with no trials or literature, so the score alone does not justify action.
 
 **To proceed, the following is needed:**
-- Histopathological and molecular characterisation of GAPPS-associated gastric adenocarcinoma (TP/TS expression, HER2 status, MSI status, Lauren classification) to assess whether capecitabine's activation pathway is operative in this context
-- Registry-based or case series data on systemic chemotherapy outcomes in GAPPS patients who develop gastric adenocarcinoma
-- Verification of current TGA ARTG registration status for capecitabine-containing products via the live TGA ARTG database
-- Retrieval of the full TGA-approved Product Information (PI) to complete the safety assessment (warnings, contraindications, full DDI profile)
-- Formal MOA data from DrugBank (DB01101) to complete the mechanistic analysis
-
-> **Note for context:** While GAPPS (rank 1) is the top TxGNN prediction and carries a Hold recommendation, higher-quality evidence exists for capecitabine in related gastric adenocarcinoma subtypes within this same evidence pack — including gastric tubular adenocarcinoma (rank 3, L3, Proceed with Guardrails, supported by multiple Phase 3 RCTs including CLASSIC PMID 22226517), gastric cardia adenocarcinoma (rank 5, L2), and gastric body carcinoma (rank 8, L2). These indications may warrant separate evaluation reports.
+- Mechanism of action data and the TGA Product Information (warnings, contraindications, approved indications) for Capecitabine Sandoz
+- Confirmation of subtype-specific applicability and the regimen-specific evidence (capecitabine's contribution within combination trials)
+- Verification of capecitabine's role in NCT02494583 and NCT00938470
+- DPD deficiency testing and a monitoring plan for haematological, hepatic and renal toxicity
+- A full interaction review, including warfarin
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

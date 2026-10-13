@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ibandronate
-parent: Model Prediction Only (L5)
-nav_order: 335
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 360
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ibandronate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,37 +29,36 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ibandronate: From Osteoporosis to Duodenal Ulcer
+# Ibandronate: From Osteoporosis to Duodenal Ulcer (Computational Prediction)
 
 ## One-Sentence Summary
 
-Ibandronate is a nitrogen-containing bisphosphonate used internationally for osteoporosis management and prevention of bone complications from malignancy, but is currently not registered with the TGA in Australia.
-The TxGNN model's highest-ranked prediction is **Duodenal Ulcer** (score: 97.79%), however this is supported by **no clinical trials** and only **2 publications** — both of which document gastrointestinal *adverse effects* of bisphosphonates rather than any therapeutic benefit.
-Critically, existing pharmacological evidence identifies bisphosphonates as a known cause of gastrointestinal mucosal injury, making this top-ranked prediction a likely model artefact rather than a genuine repurposing opportunity.
+Ibandronate is a nitrogen-containing bisphosphonate originally used for postmenopausal osteoporosis, osteoporosis and hypercalcaemia-related conditions.
+The TxGNN model predicts it may be effective for **duodenal ulcer**, but there are **no registered clinical trials** and only **2 publications**, both retrospective claims analyses of gastrointestinal events. These suggest the prediction reflects a safety association rather than a therapeutic one.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Osteoporosis (internationally approved; not currently registered with TGA Australia) |
-| Predicted New Indication | Duodenal Ulcer |
+|------|------|
+| Original Indication | Postmenopausal osteoporosis, osteoporosis, hypercalcaemia (knowledge graph indications; no approved indication text is available for the ARTG entry) |
+| Predicted New Indication | Duodenal ulcer |
 | TxGNN Prediction Score | 97.79% |
-| Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, formal mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, ibandronate belongs to the nitrogen-containing bisphosphonate class and acts as an inhibitor of farnesyl pyrophosphate synthase (FDPS) in the mevalonate pathway. By blocking this enzyme, ibandronate disrupts prenylation of small GTPases in osteoclasts, impairing their function and accelerating apoptosis — thereby reducing bone resorption. This mechanism underpins its established international use in postmenopausal osteoporosis, glucocorticoid-induced osteoporosis, and skeletal complications of bone metastases.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Ibandronate is a nitrogen-containing bisphosphonate, a class that inhibits osteoclast-mediated bone resorption. Its efficacy in osteoporosis is established, but this mechanism has no recognised connection to healing duodenal ulcers.
 
-The predicted link to duodenal ulcer is pharmacologically implausible. The relationship between bisphosphonates and the upper gastrointestinal tract is well established — but in the direction of *harm*, not benefit. Oral bisphosphonates are known to cause oesophageal, gastric, and duodenal mucosal irritation and ulceration, which is a primary reason intravenous formulations were developed. The two publications retrieved (see Literature section below) document gastrointestinal events occurring *during* bisphosphonate therapy, not any therapeutic role in treating peptic disease.
+The prediction is most likely a knowledge-graph artefact. Oral nitrogen-containing bisphosphonates are known to cause upper gastrointestinal irritation and mucosal injury. The model's high score probably reflects this adverse-event association rather than a therapeutic one. The two retrieved studies describe GI events in patients starting osteoporosis therapy and the link between those events and compliance. Neither shows benefit in duodenal ulcer.
 
-The high TxGNN score almost certainly reflects a confounding-by-indication artefact: the model has identified a statistical co-occurrence between bisphosphonate use and gastrointestinal diagnoses in its training data, but this association represents drug-induced harm. Notably, the three duodenum-related predictions at ranks 1, 2, and 3 (duodenal ulcer, duodenogastric reflux, duodenal obstruction — scores 97.8%, 96.9%, 96.4%) form a tightly clustered false-positive group, strongly suggesting anatomical co-location confounding in the knowledge graph. A pipeline-level review to filter this cluster is recommended.
+The same pattern appears in the other top-ranked predictions. Duodenogastric reflux (rank 2) and duodenal obstruction (rank 3) have no clinical or literature support. Of the 10 predictions, the only one with a plausible mechanistic link is **pregnancy-associated osteoporosis** (rank 7). It is a bone-loss disease, consistent with ibandronate's mechanism, and is supported by case reports. It is discussed in the conclusion as a better-grounded research question.
 
 ---
 
@@ -72,23 +71,31 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [25866298](https://pubmed.ncbi.nlm.nih.gov/25866298/) | 2015 | Retrospective Administrative Cohort | Clinical Therapeutics | Characterises occurrence of GI events — including upper GI conditions — among women initiating oral bisphosphonate therapy. Documents ibandronate as a source of GI harm rather than treatment |
-| [27112533](https://pubmed.ncbi.nlm.nih.gov/27112533/) | 2016 | Retrospective Administrative Study | Clinical Therapeutics | Estimates GI event rates in a large managed care population on oral bisphosphonates; finds GI events are a major driver of non-compliance. Reinforces GI tolerability as a class-wide concern |
-
-> **Clinical interpretation note:** Both publications provide evidence *against* ibandronate as a treatment for duodenal ulcer. Neither study was designed to investigate a therapeutic role.
+|------|-----|------|------|---------|
+| [25866298](https://pubmed.ncbi.nlm.nih.gov/25866298/) | 2015 | Retrospective cohort (claims database) | Clinical Therapeutics | Characterised gastrointestinal events among women on oral bisphosphonate therapy. Describes adverse events, not benefit. |
+| [27112533](https://pubmed.ncbi.nlm.nih.gov/27112533/) | 2016 | Retrospective cohort (claims database) | Clinical Therapeutics | Estimated GI event rates in women taking oral bisphosphonates and examined the association between GI events and compliance. Describes adverse events, not benefit. |
 
 ---
 
 ## Australia Market Information
 
-Ibandronate is currently **not registered** on the Australian Register of Therapeutic Goods (ARTG). No ARTG entries exist. Any clinical use in Australia would require special access via the TGA Special Access Scheme (SAS) or Authorised Prescriber pathway.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 9357L | Bondronat | Tablet 50 mg (as ibandronate sodium monohydrate) | Not available in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for complete safety information. Note that as a class, oral bisphosphonates carry well-documented upper gastrointestinal risks (oesophageal and gastric/duodenal mucosal injury) that are directly relevant to the top-ranked predicted indication — and represent a contraindication to, rather than a rationale for, use in duodenal ulcer.
+- **Related conditions flagged in the knowledge graph (not label text):** upper GI conditions (gastritis, duodenitis, oesophagitis, oesophageal ulcer, gastro-oesophageal reflux disease, achalasia and other oesophageal motility disorders), osteonecrosis of the jaw, and disorders of calcium and vitamin D metabolism (osteomalacia, rickets). These need confirmation against the Product Information.
+- **Drug Interactions (100 interactions identified, all listed here moderate):**
+  - Polyvalent cation products that may reduce oral absorption: calcium salts (carbonate, acetate, citrate, gluconate, lactate and others), aluminium hydroxide, iron, kaolin and attapulgite.
+  - Amphotericin B formulations.
+  - Aspirin and the mesalazine class (mesalazine, balsalazide), which may add to GI irritation.
+  - Exenatide and kanamycin.
+- **Clinical note:** ibandronate can cause hypocalcaemia, which is relevant in patients with arrhythmia risk.
+
+Please also refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ---
 
@@ -97,19 +104,14 @@ Please refer to the TGA-approved Product Information (PI) for complete safety in
 **Decision: Hold**
 
 **Rationale:**
-The top TxGNN prediction (Duodenal Ulcer, 97.79%) is mechanistically implausible — oral bisphosphonates cause upper gastrointestinal mucosal injury and would be contraindicated in active duodenal ulcer disease. The high prediction score is a model artefact from confounding-by-indication. Across all 10 ranked predictions, 9 are rated L5 evidence with a Hold recommendation, and the one exception (rank 7, Pregnancy-Associated Osteoporosis, L4) carries a major safety barrier due to bisphosphonate teratogenicity and placental transfer (FDA Pregnancy Category D).
+- The duodenal ulcer prediction has no therapeutic mechanism and no supporting trials. The only literature describes GI adverse events with oral bisphosphonates, so using ibandronate for this condition would be biologically implausible and potentially harmful.
+- Among the other predictions, pregnancy-associated osteoporosis (L4, case reports only) is the only one mechanistically coherent. It could be taken forward as a separate research question, not as a recommendation.
 
 **To proceed, the following is needed:**
-
-- **Knowledge graph audit:** Investigate anatomical co-location confounding — the cluster of three duodenal predictions (ranks 1–3) at near-identical high scores warrants a pipeline-level false-positive filter review
-- **MOA data gap:** Obtain full mechanism of action data from DrugBank API (data gap DG002) to support any future mechanistic plausibility analysis
-- **Regulatory data gap:** Download and parse the TGA Product Information document to obtain Australian-specific warnings and contraindications (data gap DG001)
-- **Research question (rank 7 only):** If pursuing pregnancy-associated osteoporosis as a research question, a focused safety review addressing placental transfer, fetal bone accumulation, and postpartum-only timing of intervention should precede any further development steps
-- **ARTG pathway clarification:** Since ibandronate has zero ARTG entries, any Australian clinical development pathway would require a full TGA registration or SAS application — this regulatory burden should factor into portfolio prioritisation decisions
-
----
-
-> ⚠️ **Disclaimer:** This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All clinical decisions should refer to TGA-approved Product Information and relevant clinical guidelines.
+- Mechanism of action data for ibandronate
+- Approved indication text and Product Information (warnings and contraindications) for the Australian product
+- Re-evaluation of the prediction as a safety signal rather than a repurposing opportunity
+- For pregnancy-associated osteoporosis: prospective or controlled evidence, with attention to skeletal retention and fetal risk in women of childbearing potential
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

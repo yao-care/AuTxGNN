@@ -2,7 +2,7 @@
 layout: default
 title: Fosaprepitant
 parent: Model Prediction Only (L5)
-nav_order: 295
+nav_order: 318
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,29 +29,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fosaprepitant: From Chemotherapy-Induced Nausea and Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Fosaprepitant: From Chemotherapy-Related Nausea and Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Fosaprepitant is the intravenous prodrug of aprepitant, an NK1/substance P receptor antagonist whose established use — evident from the antiemetic trials in this evidence pack — is prevention of chemotherapy-induced nausea and vomiting (CINV). The TxGNN model's top-ranked prediction is **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but this pack contains **zero clinical trials and zero publications** supporting that link, and the model's own rationale states there is no known mechanistic connection.
+Fosaprepitant is an intravenous prodrug of aprepitant, a substance P/NK1 receptor antagonist. It is marketed in Australia as Emend IV, although the data compiled for this report do not include its approved indication text.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. This is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chemotherapy-induced nausea and vomiting (CINV) prevention — inferred from trial evidence in this pack; no formally registered indication text is available |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis |
+| Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for fosaprepitant is not available in this evidence pack (flagged as a High-severity data gap). Based on the antiemetic trials captured under other candidate indications in this pack, fosaprepitant/aprepitant acts as an NK1 (substance P) receptor antagonist used alongside 5-HT3 antagonists and dexamethasone to control chemotherapy- and transplant-conditioning-induced nausea and vomiting.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on known information, fosaprepitant is a prodrug of aprepitant, which blocks NK1 receptors (the receptors for substance P).
 
-For the top-ranked prediction, NSIAD, the evidence pack's own rationale is explicit that **no mechanistic link exists**: NSIAD is caused by gain-of-function mutations in the AVPR2 (vasopressin V2) receptor gene, which has no known interaction with the NK1/substance P pathway that fosaprepitant targets. This prediction therefore rests entirely on the TxGNN model's statistical score, with no pharmacological rationale, clinical trial, or literature support identified.
+NSIAD is caused by gain-of-function variants of the vasopressin V2 receptor, which lead to water retention and low blood sodium. No established link connects NK1 receptor antagonism to this mechanism. Any connection, for example indirect modulation of water balance through neuropeptide signalling, is speculative.
+
+The high TxGNN score therefore reflects a statistical association in the knowledge graph and not a demonstrated biological rationale. It should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -59,28 +62,43 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for NSIAD.
 
 ## Australia Market Information
 
-Fosaprepitant is not currently marketed in Australia — there are no ARTG entries and no TGA-approved product information on file in this dataset.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11103J | Emend IV | Powder for I.V. infusion 150 mg | Not stated in the data compiled |
+
+## Cytotoxicity
+
+Fosaprepitant is a supportive-care antiemetic, not an antineoplastic agent, so no cytotoxicity assessment applies.
 
 ## Safety Considerations
 
-No TGA-approved Product Information is available for this product, as it is not currently registered in Australia, and no warnings, contraindications, or drug interaction data were located in this evidence pack. This is flagged as a **Blocking** data gap (DG001) that must be resolved before any safety evaluation can proceed — safety information should be sourced from an equivalent overseas-approved product information document (e.g. US FDA or EMA) as an interim reference only.
+- **Contraindications (knowledge-graph signal, not label text)**: The TxGNN knowledge graph records a drug-disease contraindication edge with **liver failure**. This is not derived from the product label and should be verified against the TGA-approved Product Information (PI).
+- **Drug Interactions**: 100 interactions were identified in total. The following are examples from the DDInter source.
+  - **Major**: eliglustat, naloxegol
+  - **Moderate**: corticosteroids (dexamethasone, hydrocortisone, betamethasone, budesonide, triamcinolone), clarithromycin, cimetidine, proton pump inhibitors (rabeprazole, lansoprazole), miconazole, pioglitazone, glimepiride, nateglinide, saxagliptin, alosetron, dronabinol, naldemedine
+
+Please refer to the TGA-approved Product Information (PI) for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (NSIAD) has no clinical, literature, or mechanistic support — the model's own rationale confirms the biological pathways are unrelated. Combined with the drug's unmarketed status in Australia and a blocking gap in TFDA/TGA safety labelling data, there is no basis to advance this candidate.
+The prediction rests on model output alone (L5). There are no trials or publications, and no plausible mechanistic link between NK1 antagonism and the V2 receptor gain-of-function that causes NSIAD.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action data for fosaprepitant (DG002)
-- TGA/overseas product information covering warnings, contraindications, and drug interactions (DG001)
-- Independent evaluation of lower-ranked candidates with partial evidence — rank 5 (multiple endocrine neoplasia, 3 trials) and rank 7 (retinitis, 1 preclinical mouse study) — noting the rank-5 trials describe general CINV prophylaxis rather than MEN-specific outcomes, and their disease relevance has not yet been graded
-- A repeat TxGNN/evidence pull once mechanistic and regulatory data gaps are closed
+- Mechanism of action data (for example from DrugBank) and a testable mechanistic hypothesis for NSIAD
+- The approved indication text and the TGA Product Information, including warnings and contraindications, to allow safety screening
+- Preclinical or case-level evidence of an effect on water balance or vasopressin signalling
+- Review of the liver failure contraindication signal and the CYP3A4-related interaction burden for the target population
+
+## Other Predicted Indications (Context)
+
+The other top-ranked predictions are also model-only (L5) with no supporting trials or literature, and all carry a Hold recommendation. They are pneumocystosis, leprosy, cryptococcal meningitis, multiple endocrine neoplasia, intracranial abscess, *Plasmodium falciparum* malaria, echinococcosis and hyperargininemia. The exception is **retinitis** (rank 7, score 99.68%), which has L4 preclinical support from one mouse study (PMID [32058829](https://pubmed.ncbi.nlm.nih.gov/32058829/), 2021, *Ocular Immunology and Inflammation*). That study showed fosaprepitant blocked UVR-B-induced NK1R expression in ocular tissues. It used a UV-induced injury model and not clinical retinitis, so its translational relevance is uncertain. It is classed as a research question and not a development candidate.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

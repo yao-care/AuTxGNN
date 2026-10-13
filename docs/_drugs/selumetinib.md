@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Selumetinib
-parent: High Evidence (L1-L2)
-nav_order: 624
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 667
+evidence_level: L5
 indication_count: 10
 ---
 
 # Selumetinib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,119 +29,112 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Selumetinib: From MEK Inhibitor Therapy to Peripheral Nerve Schwannoma
+# Selumetinib: From Neurofibromatosis to Familial Generalized Lentiginosis
 
 ## One-Sentence Summary
 
-Selumetinib is an oral MEK1/2 inhibitor; this evidence pack screened it against 10 TxGNN-predicted indications, and while the highest-scoring prediction (familial generalized lentiginosis, 99.96%) has zero supporting studies, **Peripheral Nerve Schwannoma** is the only candidate with a direct clinical trial and a substantial literature base. Evidence remains limited — the pivotal trial (NCT03095248) enrolled only 10 patients and was terminated — and no other candidate reaches beyond preclinical/hypothesis level.
-
-> **Note on candidate selection:** This evidence pack contains 10 TxGNN-predicted indications for selumetinib. Eight of the ten (including the numerically top-ranked "familial generalized lentiginosis") have **no** clinical trial or literature support at all (Evidence Level L5, Hold). This report focuses on Peripheral Nerve Schwannoma because it is the best-evidenced candidate (L2); a summary of the other candidates is provided below for completeness.
-
----
+Selumetinib is an oral MEK inhibitor originally used to treat neurofibromatosis.
+The TxGNN model ranks **familial generalized lentiginosis** as its top prediction, but there are currently **no clinical trials and no publications** supporting this specific indication.
+The best-supported predicted indication in the data compiled for this report is **peripheral nerve schwannoma** (3 clinical trials, 6 publications), which is discussed below.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not provided in this evidence pack (registration data gap) |
-| Predicted New Indication | Peripheral Nerve Schwannoma |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Original Indication | Neurofibromatosis (the ARTG entry has no approved indication text) |
+| Predicted New Indication | Familial generalized lentiginosis |
+| TxGNN Prediction Score | 99.96% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
----
+Of the ten predicted indications, only two have any supporting evidence: peripheral nerve schwannoma (L3, 99.95%) and rhabdoid tumour (L4, 99.96%). The other eight are model predictions only (L5).
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for selumetinib is flagged as a data gap in this evidence pack (DG002). Based on known pharmacology, selumetinib is an allosteric **MEK1/2 inhibitor** that blocks the RAS–RAF–MEK–ERK signalling cascade — this is stated consistently across the rationale fields for multiple candidates in this pack and is treated here as background context rather than pack-verified data.
+Detailed mechanism of action data is not available for selumetinib in the data compiled for this report. Based on known information, selumetinib is a MEK inhibitor, and its efficacy in neurofibromatosis (NF1 plexiform neurofibromas) has been established. Mechanistically, it may be applicable to other conditions driven by RAS/MAPK pathway dysregulation.
 
-Peripheral nerve schwannomas, particularly those arising in neurofibromatosis type 2 (NF2), are primarily driven by loss of the *NF2* tumour suppressor (merlin). Merlin loss does not directly involve RAS, but downstream ERK1/2 hyperactivation has been demonstrated in NF2-related schwannoma cells, which is the mechanistic bridge supporting MEK inhibition as a therapeutic approach. A related candidate in this pack, trigeminal schwannoma (rank 10, L4), is treated as an anatomical subtype of the same schwannoma family and can only be supported by extrapolation from this same NF2/ERK rationale — it has no trial or literature evidence of its own.
+For **familial generalized lentiginosis**, the prediction is not backed by trials or literature. Lentiginoses of this type are often linked to RAS/MAPK pathway dysregulation, which a MEK inhibitor could plausibly modulate. The similarity to the original indication has not yet been assessed. Several other top-ranked predictions (gastrocutaneous syndrome, café-au-lait macule syndromes, acromelanosis, Moynahan syndrome) appear to be driven by pigmentary phenotype overlap with neurofibromatosis in the knowledge graph.
 
-The strongest *mechanistic* (not evidentiary) case among all 10 candidates is actually Moynahan syndrome (rank 6, L5) — an older name for LEOPARD/Noonan-spectrum lentiginosis, where the causative genes (*PTPN11*, *RAF1*, *BRAF*, *MAP2K1*) sit directly on the RAS-MAPK pathway. Despite this strong theoretical link, it currently has zero clinical trials or publications and cannot be advanced beyond a research hypothesis.
-
-### Other Predicted Indications (Lower Evidence, For Reference Only)
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Note |
-|------|---------|------|------|------|------|
-| 1 | Familial generalized lentiginosis | 99.96% | L5 | S0 | No trials/literature; score-driven only |
-| 2 | Gastrocutaneous syndrome | 99.96% | L5 | S0 | No trials/literature; score-driven only |
-| 3 | Rhabdoid tumor | 99.96% | L3 | S1 | 1 basket trial (NCI-COG MATCH, indirect); preclinical AT/RT MAPK literature |
-| 4 | Congenital multiple café-au-lait macules-ISCE syndrome | 99.96% | L5 | S0 | No trials/literature; score-driven only |
-| 5 | Acromelanosis | 99.96% | L5 | S0 | No trials/literature; score-driven only |
-| 6 | Moynahan syndrome | 99.96% | L5 | S0 | Strongest theoretical RAS-MAPK link of all candidates, but no studies at all |
-| 7 | Leukonychia totalis-acanthosis nigricans-like lesions syndrome | 99.95% | L5 | S0 | No trials/literature; score-driven only |
-| 8 | Osteopathia striata-pigmentary dermopathy-white forelock syndrome | 99.95% | L5 | S0 | No trials/literature; score-driven only |
-| 10 | Trigeminal schwannoma | 99.95% | L4 | S1 | Class-level extrapolation from peripheral nerve schwannoma only |
-
----
+The two predictions with real supporting data are more informative:
+- **Peripheral nerve schwannoma:** Loss of NF2 and interactions between the NF1 and NF2 tumour suppressors drive Schwann cell tumours through RAS/MAPK signalling, making MEK inhibition plausible. Evidence is limited to early-phase trials and a case report.
+- **Rhabdoid tumour:** Preclinical work in atypical teratoid rhabdoid tumours suggests dependence on the MAPK pathway.
 
 ## Clinical Trial Evidence
 
+No clinical trials are registered for the top-ranked indication, familial generalized lentiginosis. The trials below relate to the better-supported predictions.
+
+**Peripheral nerve schwannoma**
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03095248](https://clinicaltrials.gov/study/NCT03095248) | Phase 2 | Terminated | 10 | Evaluated selumetinib in NF2-related tumours (including schwannomas) for tumour growth control and hearing outcomes; terminated early with only 10 patients enrolled. Reason for termination is not captured in this evidence pack and should be verified before further action. |
+| [NCT03095248](https://clinicaltrials.gov/study/NCT03095248) | Phase 2 | Terminated | 10 | Selumetinib in NF2-related tumours, assessing tumour growth and hearing changes. Terminated early and underpowered, but the most direct evidence. |
+| [NCT07707947](https://clinicaltrials.gov/study/NCT07707947) | Phase 2 | Not yet recruiting | 20 | Single-arm study of a MEK1/2 inhibitor (selumetinib) in NF2-related schwannomatosis, in adults and children with inoperable or progressive tumours. No results yet. |
+| [NCT07713745](https://clinicaltrials.gov/study/NCT07713745) (PRIME-NF2) | Phase 2 | Not yet recruiting | 200 | Adaptive platform-basket trial in NF2-related schwannomatosis across four tumour types. Selumetinib's inclusion as an arm is not confirmed. |
 
-No ANZCTR-registered trial was identified for this indication in this evidence pack.
+**Rhabdoid tumour**
 
----
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT03155620](https://clinicaltrials.gov/study/NCT03155620) | Phase 2 | Active, not recruiting | 1377 | NCI-COG Pediatric MATCH screening protocol assigning targeted therapy by genetic testing. Selumetinib is one arm for MAPK-pathway alterations, and no rhabdoid-specific efficacy data are shown. |
 
 ## Literature Evidence
 
+No publications are available for familial generalized lentiginosis. The publications below relate to the better-supported predictions.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37046591](https://pubmed.ncbi.nlm.nih.gov/37046591/) | 2023 | Review/Expert Recommendation | Cancers | EURACAN expert recommendations on diagnosis/treatment of peripheral and cranial nerve sheath tumours |
-| [37906356](https://pubmed.ncbi.nlm.nih.gov/37906356/) | 2023 | Review | Current Oncology Reports | Reviews management of CNS/PNS tumours in neurofibromatosis; notes MEK inhibitors show promise |
-| [19804833](https://pubmed.ncbi.nlm.nih.gov/19804833/) | 2010 | Preclinical/Mechanistic | Neurobiology of Disease | MEK1/2 inhibitor AZD6244 (selumetinib) reduces ERK1/2 activation and proliferation in primary human schwannoma cells |
-| [38216572](https://pubmed.ncbi.nlm.nih.gov/38216572/) | 2024 | Preclinical/Mechanistic | Nature Communications | Identifies functional interactions between NF1/NF2 tumour suppressors underlying Schwann cell de-differentiation and treatment resistance |
-| [38058737](https://pubmed.ncbi.nlm.nih.gov/38058737/) | 2023 | Case Report | Mol Ther Methods Clin Dev | Partial response to selumetinib in an NF2 patient with multiple tumour types including schwannoma-neurofibroma |
-| [33835000](https://pubmed.ncbi.nlm.nih.gov/33835000/) | 2020 | Case Report | Acta Dermatovenerol Croat | Case discussion of plexiform neurofibroma without NF1, noting association with NF2-related schwannomatosis |
-| [40861330](https://pubmed.ncbi.nlm.nih.gov/40861330/) | 2025 | Case Report | Surgical Case Reports | Surgical management of a giant mediastinal schwannoma in NF1; no drug therapy data |
-
----
+| [37906356](https://pubmed.ncbi.nlm.nih.gov/37906356/) | 2023 | Review | Current Oncology Reports | Management of nervous system tumours in neurofibromatosis and schwannomatosis. MEK inhibitors have shown promise. |
+| [37046591](https://pubmed.ncbi.nlm.nih.gov/37046591/) | 2023 | Review / expert recommendations | Cancers | EURACAN recommendations on peripheral and cranial nerve tumours. Evidence is low because of rarity. |
+| [38058737](https://pubmed.ncbi.nlm.nih.gov/38058737/) | 2023 | Case report | Mol Ther Methods Clin Dev | Partial response to selumetinib in a patient with an NF2-associated ependymoma. |
+| [38216572](https://pubmed.ncbi.nlm.nih.gov/38216572/) | 2024 | Preclinical | Nature Communications | NF1 and NF2 tumour suppressors interact to drive Schwann cell tumour de-differentiation and treatment resistance. |
+| [25638158](https://pubmed.ncbi.nlm.nih.gov/25638158/) | 2015 | Preclinical | Oncotarget | In atypical teratoid rhabdoid tumours, LIN28 disruption reveals the MAPK pathway as a therapeutic target. |
+| [33835000](https://pubmed.ncbi.nlm.nih.gov/33835000/) | 2020 | Case report | Acta Dermatovenerol Croat | Plexiform neurofibroma without NF1. |
+| [40861330](https://pubmed.ncbi.nlm.nih.gov/40861330/) | 2025 | Case report | Surgical Case Reports | Surgical management of a giant mediastinal schwannoma in NF1. Not related to selumetinib therapy. |
 
 ## Australia Market Information
 
-This medicine is not currently registered on the ARTG (0 entries; market status: **Not marketed**). No Australian product, dosage form, or approved indication data is available in this evidence pack.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14236G | Koselugo | Capsule 10 mg (oral) | Not available in the data compiled for this report |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (MEK1/2 inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (MEK inhibitor) |
 | Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
 | Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
 | Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
 
-No toxicity or handling data is available in this evidence pack (see DG001 below); only the pharmacological classification could be derived.
-
----
-
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. This evidence pack has no key warnings, contraindications, or drug-drug interaction data on file — the absence of TFDA-equivalent label data (DG001) is flagged as a **Blocking** severity gap that prevents any preliminary safety assessment.
+Warning and contraindication data were not available for this report. Please refer to the TGA-approved Product Information (PI) for safety information.
 
----
+**Drug Interactions:** 84 interactions were identified. Those with **Major** severity in the listed data:
+- Aprepitant
+- Dexamethasone
+- Clarithromycin
+- Cobicistat
+
+Examples with **Moderate** severity include acetylsalicylic acid, cimetidine, clotrimazole, deferasirox, and a group of anticoagulants and antiplatelets (apixaban, betrixaban, bivalirudin, cangrelor, caplacizumab, cilostazol, dipyridamole, abciximab, antithrombin III). Only 20 of the 84 interactions were available for review, so the full list should be checked.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** (for familial generalized lentiginosis)
 
 **Rationale:**
-- The drug is not registered in Australia (0 ARTG entries), and a blocking safety data gap (no product label/warnings) prevents even a preliminary safety review.
-- The best-evidenced predicted indication (peripheral nerve schwannoma) rests on a single, small, terminated Phase 2 trial (n=10) plus preclinical and case-report level literature — this supports further research, not clinical action.
-- Eight of the ten TxGNN-predicted indications, including the top-ranked one, have no clinical or literature evidence at all and are purely model-score-driven hypotheses.
+The top-ranked prediction is based on the model score alone, with no trials or literature. Selumetinib is already marketed in Australia, but the safety data needed for screening are missing. Peripheral nerve schwannoma (NF2-related) is the most promising candidate. It has L3 evidence and one directly relevant Phase 2 trial, which was terminated with only 10 patients, so it is best treated as a research question rather than a Go decision.
 
 **To proceed, the following is needed:**
-- TFDA/TGA product information (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed mechanism-of-action documentation from DrugBank or equivalent (DG002)
-- Clarification of why NCT03095248 was terminated (efficacy failure vs. accrual/funding issue)
-- If pursuing Australian registration, a formal TGA pathway assessment given current "not marketed" status
-- Continued literature/trial monitoring for Moynahan syndrome, which has the strongest theoretical (RAS-MAPK) rationale despite currently having no supporting studies
+- Product Information warnings and contraindications for Koselugo from the TGA or PBS
+- Detailed mechanism of action data
+- The approved indication text for ARTG 14236G
+- For familial generalized lentiginosis: any mechanistic, preclinical or case-level evidence
+- For NF2-related schwannoma: results from NCT03095248 and the outcomes of the not-yet-recruiting NCT07707947 and NCT07713745, including confirmation of whether selumetinib is an arm in PRIME-NF2
+- A review of the full list of 84 drug interactions, particularly with CYP3A4 inhibitors and anticoagulants
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

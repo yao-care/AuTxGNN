@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mechlorethamine
-parent: Model Prediction Only (L5)
-nav_order: 419
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 451
+evidence_level: L3
 indication_count: 10
 ---
 
 # Mechlorethamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,114 +29,96 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mechlorethamine: From Hodgkin Lymphoma to Lymph Node Cancer
+# Mechlorethamine: From Cutaneous T-Cell Lymphoma and Hodgkin Lymphoma to Lymph Node Cancer
 
 ## One-Sentence Summary
 
-> Mechlorethamine (nitrogen mustard, DrugBank DB00888) is historically the prototype alkylating chemotherapy agent, classically used as part of the MOPP regimen for Hodgkin lymphoma and as a topical gel for cutaneous T-cell lymphoma (based on general pharmacological knowledge — not confirmed against this evidence pack's Taiwan/Australia regulatory data).
-> The TxGNN model predicts continued/expanded efficacy for **lymph node cancer** (broad lymphoma category) with a **99.43%** prediction score, supported by **50 registered clinical trials** (relevance not yet graded) and **20 literature references**, several of which directly involve mechlorethamine-containing regimens (e.g., MOPP) in Hodgkin lymphoma.
-
----
+Mechlorethamine is a nitrogen mustard alkylating agent, originally used for mycosis fungoides (cutaneous T-cell lymphoma), Hodgkin lymphoma and non-Hodgkin lymphoma.
+The TxGNN model predicts it may be effective for **lymph node cancer**, but this is largely a broader label for its existing lymphoma uses rather than a new indication.
+The data compiled for this report show **no registered clinical trials** and **20 publications**, mostly historical, supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from Taiwan/Australia regulatory data (drug not marketed, 0 ARTG entries). Based on general pharmacological knowledge, mechlorethamine is classically indicated for Hodgkin lymphoma (MOPP regimen) and cutaneous T-cell lymphoma (topical gel) |
+| Original Indication | Mycosis fungoides and other primary cutaneous T-cell lymphomas; Hodgkin and non-Hodgkin lymphoma (the ARTG entry lists no indication text) |
 | Predicted New Indication | Lymph node cancer |
 | TxGNN Prediction Score | 99.43% |
-| Evidence Level | L2 (historical randomized cooperative-group trials of mechlorethamine-containing regimens exist in the literature, though not tagged with formal phase data; the 50 registered clinical trials in this pack are largely unrelated regimens and remain ungraded for relevance) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
-
----
+| Evidence Level | L3 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not returned in this evidence pack (flagged as a High-severity data gap). Based on general pharmacological knowledge, mechlorethamine is a bifunctional alkylating agent (nitrogen mustard) that cross-links DNA, triggering apoptosis preferentially in rapidly dividing lymphoid cells. It is the original component of the MOPP regimen (mechlorethamine, vincristine, procarbazine, prednisone), one of the first combination chemotherapy regimens shown to cure advanced-stage Hodgkin lymphoma.
+Detailed mechanism of action data is not available in the data compiled for this report. Mechlorethamine is a nitrogen mustard alkylating agent. Drugs of this class cross-link DNA and trigger cell death in rapidly dividing cells such as lymphoid cells. Its efficacy in Hodgkin lymphoma (as part of the MOPP regimen) and in mycosis fungoides (topical use) is long established.
 
-"Lymph node cancer" as predicted by TxGNN is essentially synonymous with nodal lymphoma — the disease category mechlorethamine was originally developed and used for. This is therefore less a novel repurposing signal and more a reflection of the drug's well-established historical role, which the literature evidence in this pack supports directly (e.g., randomized EORTC/GPMC cooperative-group trials of MOPP-based regimens in Hodgkin's disease).
+"Lymph node cancer" is a broad category that overlaps heavily with the original indications. The prediction is therefore mostly a re-labelling of existing use, not a true repurposing opportunity. The retrieved literature is mainly from the 1980s to 2000s and includes randomised MOPP comparisons and cohort studies. It also includes a recent retrospective study of mechlorethamine gel as maintenance therapy in mycosis fungoides.
 
-The mechanistic plausibility is high: cytotoxic alkylation of DNA in malignant lymphocytes is a validated approach across Hodgkin lymphoma, non-Hodgkin lymphoma, and cutaneous T-cell lymphoma (mycosis fungoides), the latter also supported by literature on topical mechlorethamine/chlormethine gel. However, most of the 50 registered trials returned for this indication concern unrelated modern regimens (rituximab-based immunochemotherapy, CAR-T, HSCT conditioning) in breast cancer, NSCLC, and various lymphomas — not mechlorethamine itself — and their relevance has not yet been graded.
-
----
+Other predicted indications were also screened:
+- **Follicular lymphoma and lymphoid neoplasm (broad):** class-level alkylator rationale only. The evidence is indirect, such as bendamustine reviews and combination regimens. Modern care has largely moved to other regimens.
+- **Subcutaneous panniculitis-like T-cell lymphoma:** adjacent to mycosis fungoides, but a topical gel is unlikely to reach deep subcutaneous disease. No data were identified.
+- **Relapsing-remitting multiple sclerosis, chronic lymphocytic leukaemia/small lymphocytic lymphoma subtypes, interdigitating dendritic cell sarcoma, chest wall lymphoma, and acute lymphoblastic leukaemia:** no direct evidence. The rationale is computational only, and the toxicity profile argues against use in several of these.
 
 ## Clinical Trial Evidence
 
-*Note: the trials below are drawn from a broad "lymph node cancer" search and mostly evaluate contemporary regimens (rituximab-based chemoimmunotherapy, targeted agents) rather than mechlorethamine directly; relevance grading is still pending in the source data.*
-
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01611090](https://clinicaltrials.gov/study/NCT01611090) | Phase 3 | Completed | 578 | Ibrutinib + bendamustine/rituximab vs. bendamustine/rituximab in relapsed/refractory CLL/SLL |
-| [NCT01732926](https://clinicaltrials.gov/study/NCT01732926) | Phase 3 | Terminated | 475 | Idelalisib + bendamustine/rituximab in previously treated indolent NHL (terminated on safety signal) |
-| [NCT03462719](https://clinicaltrials.gov/study/NCT03462719) | Phase 3 | Active, not recruiting | 211 | Ibrutinib + venetoclax vs. chlorambucil + obinutuzumab, first-line CLL/SLL |
-| [NCT00254163](https://clinicaltrials.gov/study/NCT00254163) | Phase 3 | Completed | 184 | Fludarabine/cyclophosphamide/rituximab vs. pentostatin/cyclophosphamide/rituximab in B-cell CLL |
-| [NCT02162771](https://clinicaltrials.gov/study/NCT02162771) | Phase 3 | Completed | 140 | CT-P10 (rituximab biosimilar) + CVP vs. Rituxan + CVP in advanced follicular lymphoma |
-| [NCT00301821](https://clinicaltrials.gov/study/NCT00301821) | Phase 2 | Completed | 107 | Epratuzumab + rituximab-CHOP in previously untreated diffuse large B-cell lymphoma |
-| [NCT00092222](https://clinicaltrials.gov/study/NCT00092222) | Phase 2 | Active, not recruiting | 75 | Oncolytic virotherapy/natural history study of KSHV-associated multicentric Castleman disease |
-| [NCT06854003](https://clinicaltrials.gov/study/NCT06854003) | Phase 2 | Recruiting | 60 | Bendamustine, rituximab, cytarabine + zanubrutinib induction/maintenance in treatment-naïve mantle cell lymphoma |
-| [NCT04660799](https://clinicaltrials.gov/study/NCT04660799) | Phase 2 | Completed | 50 | Subcutaneous vs. intravenous rituximab + CHOP in CD20+ diffuse large B-cell lymphoma |
-| [NCT03586999](https://clinicaltrials.gov/study/NCT03586999) | Phase 1/2 | Completed | 18 | Nivolumab + standard-of-care chemotherapy as first-line therapy for peripheral T-cell lymphoma |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7509381](https://pubmed.ncbi.nlm.nih.gov/7509381/) | 1994 | RCT | J Clin Oncol | EORTC/GPMC randomized trial comparing MOPP alone vs. MOPP/ABVD alternation in Stage IIIB/IV Hodgkin's disease |
-| [3352775](https://pubmed.ncbi.nlm.nih.gov/3352775/) | 1988 | RCT | NCI Monographs | EORTC H5 study comparing total nodal irradiation vs. mantle irradiation + mechlorethamine/vincristine/procarbazine/prednisone in Stage I-II Hodgkin's disease |
-| [7540419](https://pubmed.ncbi.nlm.nih.gov/7540419/) | 1995 | Prospective study | Annals of Oncology | Hybrid MOPP/ABVD plus radiotherapy in advanced Hodgkin's disease |
-| [24438970](https://pubmed.ncbi.nlm.nih.gov/24438970/) | 2014 | Review | J Am Acad Dermatol | Primary cutaneous T-cell lymphoma (mycosis fungoides/Sézary syndrome) — prognosis, management, future directions |
-| [31894937](https://pubmed.ncbi.nlm.nih.gov/31894937/) | 2020 | Review | American Family Physician | Lymphoma: diagnosis and treatment overview |
-| [35393251](https://pubmed.ncbi.nlm.nih.gov/35393251/) | 2022 | Retrospective cohort | Clin Lymphoma Myeloma Leuk | Chlormethine (mechlorethamine) gel maintenance regimen in mycosis fungoides — single-centre experience |
-| [6809030](https://pubmed.ncbi.nlm.nih.gov/6809030/) | 1982 | Cohort | Br J Dermatol | Cutaneous T-cell lymphoma outcomes in 92 patients treated with electron-beam irradiation, topical mechlorethamine (HN2), or PUVA |
-| [9881077](https://pubmed.ncbi.nlm.nih.gov/9881077/) | 1998 | Review | Gan To Kagaku Ryoho | Chemotherapy for non-Hodgkin's lymphoma |
-| [20564093](https://pubmed.ncbi.nlm.nih.gov/20564093/) | 2010 | Cohort | Cancer | Hodgkin lymphoma involving extranodal and nodal head and neck sites — characteristics and outcomes |
-| [5001851](https://pubmed.ncbi.nlm.nih.gov/5001851/) | 1971 | Review | CA Cancer J Clin | The management of lymphoma |
-
----
+| [7509381](https://pubmed.ncbi.nlm.nih.gov/7509381/) | 1994 | RCT | J Clin Oncol | Randomised comparison of alternating MOPP/ABVD versus standard MOPP in stage IIIB and IV Hodgkin's disease |
+| [3352775](https://pubmed.ncbi.nlm.nih.gov/3352775/) | 1988 | RCT/Comparative | NCI Monogr | EORTC H5 study comparing total nodal irradiation with mantle irradiation plus MOPP in stage I-II Hodgkin's disease |
+| [35393251](https://pubmed.ncbi.nlm.nih.gov/35393251/) | 2022 | Cohort | Clin Lymphoma Myeloma Leuk | Single-centre retrospective study of mechlorethamine 0.016% gel as maintenance in mycosis fungoides patients in remission |
+| [31894937](https://pubmed.ncbi.nlm.nih.gov/31894937/) | 2020 | Review | Am Fam Physician | Overview of lymphoma diagnosis and treatment |
+| [9923777](https://pubmed.ncbi.nlm.nih.gov/9923777/) | 1999 | Cohort | Arch Dermatol | Long-term outcomes in generalised patch/plaque (T2) mycosis fungoides |
+| [6809030](https://pubmed.ncbi.nlm.nih.gov/6809030/) | 1982 | Cohort | Br J Dermatol | Therapy and survival in 92 cutaneous T-cell lymphoma patients, including topical mechlorethamine |
+| [2462943](https://pubmed.ncbi.nlm.nih.gov/2462943/) | 1989 | Trial series | Blood | EORTC controlled trials 1964-1987 tailoring treatment to prognostic factors in stage I-II Hodgkin's disease |
+| [2354411](https://pubmed.ncbi.nlm.nih.gov/2354411/) | 1990 | Clinical series | Cancer | Radiation with or without adjuvant MOPP in lower torso stage I-II Hodgkin's disease |
+| [3392562](https://pubmed.ncbi.nlm.nih.gov/3392562/) | 1988 | Clinical series | J Clin Oncol | Total skin electron beam plus chemotherapy (mechlorethamine-based) in tumour-stage mycosis fungoides, 10-year follow-up |
+| [10473086](https://pubmed.ncbi.nlm.nih.gov/10473086/) | 1999 | Laboratory/mechanistic | Clin Cancer Res | O6-alkylguanine-DNA alkyltransferase in cutaneous T-cell lymphoma and implications for alkylating agent treatment |
 
 ## Australia Market Information
 
-Mechlorethamine currently has **no ARTG entries** and is **not marketed in Australia**. No product-specific dosage form, brand name, or approved indication text is available from Taiwan/Australia regulatory sources in this evidence pack.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14658L | Ledaga | Topical gel, 160 micrograms (as hydrochloride) per g, 60 g | Indication text not available in the data compiled |
 
 ## Cytotoxicity
 
-Mechlorethamine is a conventional cytotoxic chemotherapy agent (nitrogen mustard alkylator), so this section applies.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — nitrogen mustard alkylating agent class |
-| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions — drug-specific toxicity data was not returned in this evidence pack |
-| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
-| Handling Protection | As an alkylating cytotoxic agent, standard cytotoxic drug handling precautions would be expected to apply; confirm against the TGA-approved PI once available |
-
----
+| Cytotoxicity Classification | Conventional cytotoxic (nitrogen mustard alkylating agent) |
+| Myelosuppression Risk | Please refer to the Product Information (PI). Systemic mechlorethamine (as in MOPP) is myelosuppressive; the topical gel has far lower systemic exposure |
+| Emetogenicity Classification | Please refer to the Product Information (PI) |
+| Monitoring Items | Please refer to the PI. Haematological parameters (FBC) are relevant if systemic exposure is a concern |
+| Handling Protection | Follow local cytotoxic drug handling requirements; refer to the PI for gel-specific precautions |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No key warnings, contraindications, or drug interaction data were returned in this evidence pack (a Blocking-severity gap has been logged against TFDA label warnings/contraindications).
+- **Contraindications (knowledge graph, not label text):** The knowledge graph links mechlorethamine to thrombocytopenia, anaemia, leukopenia, neutropenia (including agranulocytosis and congenital neutropenia syndromes), blood coagulation disease, hyperuricaemia and amyloidosis. These are not confirmed label contraindications.
+- **Drug Interactions:** The data compiled for this report list 100 interactions; the first 20 reviewed include:
+  - **Major:** deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib
+  - **Moderate:** palifermin, strontium chloride Sr-89, mercaptopurine, roflumilast, chloramphenicol, zidovudine, aldesleukin, alefacept, alemtuzumab, anakinra, azathioprine, tetanus toxoid and anthrax vaccines
+  - **Minor:** levofloxacin, warfarin
+- **Literature-derived safety signals:** Mechlorethamine-containing regimens (MOPP) are associated with leukopenia and an increased risk of secondary leukaemia.
 
----
+Please refer to the TGA-approved Product Information (PI) for official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-Efficacy evidence for nitrogen-mustard-class regimens in nodal lymphoma is historically well established (randomized MOPP-based trials in Hodgkin's disease), but a **Blocking** data gap on TFDA/PI warnings and contraindications means safety pre-screening (S1) cannot even begin. The drug also has zero ARTG entries and is not currently marketed in Australia.
+The predicted "lymph node cancer" indication overlaps with mechlorethamine's established lymphoma uses and is supported by Level 3 evidence (randomised and cohort studies, mostly historical). It is not a distinct new indication. The other predicted indications lack direct evidence and are not recommended for further pursuit at this stage.
 
 **To proceed, the following is needed:**
-- TFDA/TGA-approved Product Information (PI) with full warnings and contraindications (resolves the Blocking gap)
-- Confirmed mechanism-of-action data from DrugBank or an equivalent authoritative source
-- Relevance grading of the 50 registered clinical trials currently marked "pending," to confirm which (if any) actually test mechlorethamine rather than unrelated regimens
-- Route-of-administration compatibility assessment (IV vs. topical gel) for the specific target indication
-- A TGA registration pathway assessment, given there are currently no ARTG entries for this drug
+- The TGA Product Information for Ledaga (warnings, contraindications, approved indication wording)
+- Clarification of which lymph node malignancies are in scope, as the only Australian product is a topical gel, which is not suited to nodal or systemic disease
+- Mechanism of action data
+- A systemic safety and handling plan if any non-topical use is considered (myelosuppression, secondary malignancy, tissue vesicant effects)
+- Review of current standard of care to confirm any role compared with modern regimens
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

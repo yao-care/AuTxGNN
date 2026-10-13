@@ -2,7 +2,7 @@
 layout: default
 title: Ferrous Sulfate Anhydrous
 parent: Model Prediction Only (L5)
-nav_order: 274
+nav_order: 295
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ferrous Sulfate Anhydrous: From Iron-Deficiency Anaemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
+# Ferrous Sulfate Anhydrous: From Iron Deficiency Anaemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anaemia
 
 ## One-Sentence Summary
 
-Ferrous sulfate anhydrous (DrugBank DB13257) is conventionally used to treat iron-deficiency anaemia, though this evidence pack contains no documented original indication or mechanism-of-action data. The TxGNN model's top prediction is **vitamin B12- and folate-independent constitutional megaloblastic anemia**, but this is currently supported by **zero clinical trials** and **zero publications**, and the model's own mechanistic annotation flags the score as likely reflecting semantic similarity ("anemia") rather than a genuine pharmacological link.
-
----
+Ferrous sulfate anhydrous is an oral iron supplement, originally used to treat iron deficiency anaemia and related nutritional anaemias.
+The TxGNN model predicts it may be effective for **vitamin B12- and folate-independent constitutional megaloblastic anaemia**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (`original_indications` is empty; drug is not registered in Australia). Ferrous sulfate is conventionally indicated for iron-deficiency anaemia, but this is background knowledge, not sourced from the pack. |
-| Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
+| Original Indication | Iron deficiency anaemia and related anaemias (folic acid deficiency anaemia, anaemia of prematurity, hypochromic anaemia, microcytic anaemia, deficiency anaemia) and vitamin deficiency disorder |
+| Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anaemia |
 | TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data is not available for ferrous sulfate anhydrous in this evidence pack (data gap DG002, severity: High). Based on general pharmacology, ferrous sulfate corrects iron deficiency by replenishing substrate for haemoglobin synthesis — a mechanism specific to microcytic, iron-deficient anaemias.
+Currently, detailed mechanism of action data is not available. Based on known information, ferrous sulfate is an iron salt used to replace iron stores. Iron is required for haemoglobin synthesis, erythropoiesis and DNA synthesis, and its efficacy in iron deficiency anaemia is well established.
 
-The predicted indication, however, is a **constitutional (typically genetic) megaloblastic anaemia that is explicitly independent of vitamin B12 and folate** — and by extension, unrelated to iron status. Megaloblastic anaemias of this type arise from defects in DNA synthesis (e.g., thiamine-responsive megaloblastic anaemia), not from a lack of iron. Supplementing iron would not correct this underlying defect.
+The link to the predicted indication is weak. Megaloblastic anaemia that is independent of vitamin B12 and folate is typically caused by a defect in nucleotide metabolism or a genetic cause, not by iron deficiency. The high score probably reflects the drug's association with several other anaemias in the knowledge graph rather than a demonstrated therapeutic relationship. A causal link to iron supplementation has not been established.
 
-The evidence pack's own repurposing rationale for this candidate acknowledges this mismatch directly: the high TxGNN score likely reflects the model associating the two conditions through the shared word "anemia" in the knowledge graph, rather than a real shared mechanism. Notably, a lower-ranked candidate in this same pack — **Plummer-Vinson syndrome** (rank 2, L4/S1) — has a much stronger mechanistic basis, since iron-deficiency anaemia is the textbook aetiology of that condition and iron repletion is standard treatment. That candidate currently lacks trial/literature evidence in this pack (a data gap, not a mechanistic gap) and may warrant separate follow-up.
-
----
+Other predictions in the top ten are either likely rediscoveries of existing practice or lack plausible mechanisms. For example, Plummer-Vinson syndrome (iron deficiency anaemia with dysphagia and oesophageal webs) is already managed with iron replacement and overlaps with the approved indication. It was not selected as the lead indication because it is ranked second by score. Many of the remaining predictions (such as dental and jaw dysplasias, "injury" and "perinatal disease") appear to be artefacts of graph structure.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Australia Market Information
 
-Ferrous sulfate anhydrous currently has no ARTG entries — market status is "Not marketed" with 0 recorded licences in this evidence pack.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 251F | Not available | Not available | Not available |
+| ARTG 8815Y | Ferro-Liquid | Oral liquid containing 30 mg ferrous sulfate heptahydrate per mL, 250 mL | Not available |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+The data compiled for this report did not include label-based warnings or contraindications. The knowledge graph does, however, list conditions in which iron is considered contraindicated or problematic:
 
----
+- **Knowledge-graph contraindication signals (not label text):** peptic ulcer disease, sickle cell anaemia, hereditary persistence of fetal haemoglobin, primary hyperoxaluria, hereditary haemochromatosis, haemosiderosis, iron metabolism disease, Wilson disease, ulcerative colitis, inflammatory bowel disease, haemolytic anaemia, dyskinesia of the oesophagus and gastroenteritis.
+- **Drug Interactions:** 37 interactions were identified. Those listed include:
+  - **Moderate:** rabeprazole, omeprazole, lansoprazole, pantoprazole, esomeprazole, dexlansoprazole (proton pump inhibitors); doxycycline, tetracycline, minocycline, levofloxacin (antibiotics); magnesium oxide, calcium carbonate, aluminium hydroxide, magaldrate (antacids); pancrelipase; sodium sulfate; triethylenetetramine.
+  - **Minor:** cimetidine, zinc sulfate, zinc acetate.
+  - Iron may reduce absorption of some antibiotics, and antacids and acid-suppressing drugs may reduce iron absorption. Dose separation is commonly advised.
+- **Other considerations:** Oral iron salts can irritate the oesophageal mucosa (pill oesophagitis), and excess free iron may promote oxidative injury.
+
+Please also refer to the TGA-approved Product Information (PI) for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication lacks both clinical and literature support, and the model's own mechanistic annotation identifies the prediction as a probable knowledge-graph artefact (semantic overlap on "anemia") rather than a biologically plausible mechanism. Combined with the drug's non-marketed status in Australia and missing MOA/safety data, this candidate does not meet the threshold to proceed.
+The prediction has no supporting clinical trials or literature (L5), and the proposed mechanism is not plausible: this form of megaloblastic anaemia is not caused by iron deficiency. The high TxGNN score alone is not enough to justify progressing.
 
 **To proceed, the following is needed:**
-- Confirmed original indication and mechanism-of-action data for ferrous sulfate anhydrous (DG002)
-- TGA/PI-sourced warnings and contraindications (DG001 — currently blocking safety review)
-- If pursuing an iron-related repurposing angle, targeted evidence collection for Plummer-Vinson syndrome (rank 2) instead, given its stronger mechanistic rationale
-- Independent expert review before treating any candidate in this pack as more than a preliminary signal
+- Mechanism of action data for ferrous sulfate
+- A literature review to determine whether iron has any role in constitutional megaloblastic anaemia
+- The TGA Product Information (including approved indications, warnings and contraindications) for both ARTG entries, as the data compiled for this report did not include them
+- Consideration of Plummer-Vinson syndrome as a separate research question, since iron replacement is already standard care and it is likely a rediscovery rather than a new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Tadalafil
 parent: Model Prediction Only (L5)
-nav_order: 649
+nav_order: 696
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,60 +29,91 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tadalafil: From Unspecified Original Indication to Ambras Type Hypertrichosis Universalis Congenita
+# Tadalafil: From Erectile Dysfunction and Pulmonary Hypertension to Ambras Type Hypertrichosis Universalis Congenita
 
 ## One-Sentence Summary
 
-Tadalafil is a PDE5 inhibitor referenced throughout this evidence pack, but the specific original indication and detailed mechanism of action were not captured in the source data. The TxGNN model's top-ranked prediction is **Ambras type hypertrichosis universalis congenita**, a rare congenital genetic disorder, with **0 clinical trials** and **0 publications** supporting this specific association — the prediction score alone is very high, but there is no corroborating evidence.
+Tadalafil is a PDE5 inhibitor originally used for erectile dysfunction, benign prostatic hyperplasia and pulmonary hypertension, among other indications.
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a graph-based prediction only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in evidence pack (no ARTG license or original indication data recorded) |
+| Original Indication | Benign prostatic hyperplasia, pulmonary hypertension, erectile dysfunction, psychologic dyspareunia, premature ejaculation (from the knowledge graph; the ARTG entry has no indication text) |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Tadalafil was not available in this evidence pack (flagged as a High-severity data gap). Based on the rationale fields captured across the predicted indications, Tadalafil is characterised as a **PDE5 (phosphodiesterase type 5) inhibitor**, acting via cGMP accumulation to produce vascular smooth muscle relaxation.
+Currently, detailed mechanism of action data is not available. Based on known information, tadalafil is a PDE5 inhibitor, a class that raises cGMP levels and causes vasodilation. Its efficacy in erectile dysfunction and pulmonary hypertension is established, but no mechanistic link to the predicted new indication has been shown.
 
-For the top-ranked candidate, Ambras type hypertrichosis universalis congenita, the evidence pack itself states the theoretical link explicitly: PDE5-mediated vasodilation shares a distant conceptual connection with vasodilator-class agents (e.g. minoxidil) that are known to promote hair growth. However, Ambras syndrome is a rare **congenital, genetically determined** disorder (not an acquired, pharmacologically modifiable condition), and the evidence pack confirms there is no clinical or mechanistic evidence beyond the raw model score.
+Ambras syndrome is a rare genetic disorder of hair growth. No plausible PDE5 inhibition pathway has been established, and tadalafil's vasodilatory and cGMP-related effects have no demonstrated connection to the disease mechanism. The high TxGNN score most likely reflects graph proximity to other hair-phenotype conditions rather than a validated biological rationale.
 
-**Important caveat:** because this is a structural/genetic condition rather than an acquired disease process, the biological plausibility of pharmacological reversal is low regardless of mechanism. The high TxGNN score most likely reflects knowledge-graph embedding similarity (e.g. proximity to other hair-growth-related nodes) rather than a genuine, actionable therapeutic signal. This should be treated as a low-priority, exploratory signal only.
+The other top-ranked predictions are also unsupported by evidence. Several are hair-related (hypertrichosis, isolated genetic hair shaft abnormality, familial isolated trichomegaly, hypotrichosis simplex of the scalp). Hypertrichosis is a known adverse effect of some vasodilators such as minoxidil, which suggests a possible risk rather than a benefit. The only prediction with a plausible indirect rationale is kyphoscoliotic heart disease (rank 7), given tadalafil's use in pulmonary hypertension, but this is unvalidated.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the top predicted indication.
+
+For context, the only tadalafil-specific paper found among the lower-ranked predictions is a 2006 case report ([PMID 17059442](https://pubmed.ncbi.nlm.nih.gov/17059442/), *Cephalalgia*) describing tadalafil associated with typical migraine aura without headache. This points to an adverse effect rather than a therapeutic benefit.
+
+---
 
 ## Australia Market Information
 
-No ARTG entries are currently recorded for Tadalafil in this evidence pack (0 licenses; market status: not marketed).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12150L | Tadalca | Tablet 20 mg | Not stated in the data compiled for this report |
+
+---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Note: TFDA warning/contraindication data for this drug could not be retrieved and is flagged as a **Blocking** data gap, meaning a formal safety pre-assessment (S1 stage) cannot proceed until this is resolved.
+**Contraindication signals from the knowledge graph** (drug-disease edges, not product label text):
+- Cardiovascular: aortic stenosis and other aortic valve disease, hypotensive disorder, acute coronary syndrome, myocardial infarction, coronary thrombosis, stroke and cerebrovascular disorders, cerebral infarction, hypertrophic cardiomyopathy (including familial)
+- Haematological: sickle cell anaemia, hemoglobinopathy, hereditary persistence of fetal haemoglobin, blood coagulation disease, plasma cell myeloma, leukaemia
+- Genitourinary: priapism, Peyronie disease and related penile fibromatosis
+- Other: liver failure, epilepsy, hearing loss disorders, visual loss
+
+**Drug interactions** (DDInter, 100 interactions recorded; examples):
+- Moderate: aprepitant, dexamethasone, clarithromycin, cimetidine, miconazole, clotrimazole, lorcaserin, sapropterin, troglitazone, and the SGLT2 inhibitors canagliflozin, dapagliflozin, empagliflozin and ertugliflozin
+- Minor: papaverine
+- Unknown severity: pantoprazole, glimepiride, doxycycline, morphine, metformin, omeprazole
+
+Several interacting drugs are CYP3A4 inhibitors or inducers, which is relevant to tadalafil exposure. Please also refer to the TGA-approved Product Information (PI) for warnings and contraindications, as label-based data were not available for this report.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction has Evidence Level L5 (model prediction only) with zero supporting clinical trials or literature, and targets a congenital genetic disorder that is mechanistically unlikely to respond to pharmacological intervention. Combined with a Blocking safety data gap and the drug's unmarketed status in Australia, there is insufficient basis to advance this candidate.
+The prediction rests only on a graph-based score, with no clinical trials or publications and no plausible mechanistic link between PDE5 inhibition and Ambras syndrome. The few related signals (hypertrichosis as a vasodilator class effect, migraine aura case report) suggest possible risk rather than benefit.
 
 **To proceed, the following is needed:**
-- TFDA/TGA-equivalent Product Information (warnings, contraindications) to close the Blocking data gap (DG001)
-- Confirmed mechanism of action data for Tadalafil (DG002)
-- Independent mechanistic or preclinical evidence specific to Ambras type hypertrichosis universalis congenita before any further evaluation
-- Consideration of whether lower-ranked candidates with at least some literature signal (e.g. rank 3 and rank 9, though currently non-supportive or contradictory in direction) merit review instead, given the top candidate's biological implausibility
+- Mechanism of action data (for example, from DrugBank) and a clear mechanistic rationale for the predicted indication
+- Product Information warnings and contraindications from the TGA, which are currently missing and block safety screening
+- Preclinical or clinical evidence in the predicted condition
+- ARTG approved indication text for the registered product
+- A review of whether a better-supported candidate indication (for example, kyphoscoliotic heart disease via pulmonary hypertension) merits evaluation instead
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

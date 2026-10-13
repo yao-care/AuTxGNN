@@ -2,15 +2,15 @@
 layout: default
 title: Captopril
 parent: Moderate Evidence (L3-L4)
-nav_order: 121
-evidence_level: L3
+nav_order: 130
+evidence_level: L4
 indication_count: 10
 ---
 
 # Captopril
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,89 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Captopril: From Hypertension and Heart Failure to Malignant Renovascular Hypertension
+# Captopril: From Hypertension to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Captopril is a first-generation angiotensin-converting enzyme (ACE) inhibitor, widely established globally for the management of hypertension, chronic heart failure, and diabetic nephropathy, though it currently holds no Australian TGA registration.
-The TxGNN model predicts it may be effective for **Malignant Renovascular Hypertension**, with **no registered clinical trials** but **20 publications** currently supporting this direction.
-The mechanistic alignment between Captopril and this condition is particularly compelling — Captopril stimulation renography is itself the standard diagnostic tool for renovascular hypertension.
-
----
+Captopril is an ACE inhibitor originally used for hypertensive disorders and diabetic nephropathy.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
+but **no clinical trials** are registered and the **20 publications** retrieved are mostly case reports, reviews and diagnostic (captopril renography) papers, so the evidence is largely model-driven.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension and heart failure (globally established; no current Australian TGA registration) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+|------|------|
+| Original Indication | Hypertensive disorder, hypertension, diabetic nephropathy (the ARTG entry carries no indication text) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.28% |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current Evidence Pack. Based on well-established pharmacology, Captopril directly inhibits angiotensin-converting enzyme (ACE), blocking the conversion of angiotensin I to angiotensin II. This interrupts the renin-angiotensin-aldosterone system (RAAS), reducing systemic vascular resistance, lowering blood pressure, and decreasing aldosterone-driven sodium and water retention.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, captopril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension is established, and mechanistically it may be applicable to renin-driven hypertension.
 
-The pathophysiology of malignant renovascular hypertension maps directly onto this mechanism. Renal artery stenosis triggers excessive renin secretion from the ischaemic kidney, driving angiotensin II levels to critically high levels, producing severe and rapidly progressive hypertension with end-organ damage — including hypertensive retinopathy, acute kidney injury, and hypertensive encephalopathy. Captopril cuts this cascade at its enzymatic hub, making it mechanistically well-suited to this condition.
+Renovascular hypertension is driven by activation of the renin-angiotensin system (RAS), so ACE inhibition is mechanistically coherent. The prediction is largely an extension of captopril's existing hypertension indication rather than a novel repurposing. Captopril is also widely used diagnostically (captopril renography) in renovascular disease, but that is a diagnostic use and not evidence of treatment benefit.
 
-Perhaps the strongest signal of mechanistic alignment is that the **Captopril stimulation renal scan (Captopril renography)** is itself a standard diagnostic investigation for renovascular hypertension. The scan exploits Captopril's precise mechanism to reveal renin-dependent blood pressure elevation. This dual role — therapeutic agent and diagnostic probe — underscores the exceptional fit between the drug's pharmacology and the disease's driving pathology, and provides strong biological rationale for the TxGNN model's high-confidence prediction.
-
----
+An important risk applies: in bilateral renal artery stenosis or a solitary kidney, ACE inhibitors can precipitate acute renal failure. One retrieved case report (PMID 6321850) describes reversible acute renal insufficiency after captopril and enalapril in a patient with malignant renovascular hypertension and bilateral renal artery occlusion.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Captopril in malignant renovascular hypertension.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [2040938](https://pubmed.ncbi.nlm.nih.gov/2040938/) | 1991 | Review | The Journal of Pediatrics | Review of malignant hypertension including pathophysiology and management; ACE inhibitor therapy discussed in context of paediatric cases |
-| [17008836](https://pubmed.ncbi.nlm.nih.gov/17008836/) | 2006 | Review | Minerva Medica | Clinical concepts of renovascular hypertension; treatment strategies targeting RAAS, including ACE inhibitors |
-| [232024](https://pubmed.ncbi.nlm.nih.gov/232024/) | 1979 | Clinical Study | Clinical Science | Captopril and SQ 20881 induced renin elevation >14 ng/h/mL in 43/44 patients with untreated renovascular hypertension; absent in essential hypertension — validated captopril's diagnostic and mechanistic role |
-| [6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/) | 1984 | Clinical Series | Biulleten' Vsesoiuznogo | Direct clinical assessment of captopril use in arterial hypertension with both stable and malignant courses |
-| [10955932](https://pubmed.ncbi.nlm.nih.gov/10955932/) | 2000 | Case Series | Pediatric Nephrology | 27 patients with NF1 assessed for renovascular hypertension; captopril test and Doppler ultrasonography used to characterise RAAS-mediated hypertension |
-| [11334320](https://pubmed.ncbi.nlm.nih.gov/11334320/) | 2001 | Case Report / Review | Clinical Nephrology | Two cases of renovascular hypertension with neurofibromatosis; captopril stimulation demonstrated markedly elevated renin (2.8 → 12.6 ng/mL/h), confirming renin-dependent hypertension mechanism |
-| [8070421](https://pubmed.ncbi.nlm.nih.gov/8070421/) | 1994 | Review | Endocrinology and Metabolism Clinics of North America | Analysis of renin-secreting tumours; blood pressure falls under ACE inhibitor (captopril) treatment; diagnostic criteria reviewed |
-| [1572120](https://pubmed.ncbi.nlm.nih.gov/1572120/) | 1992 | Case Report | Clinical Nuclear Medicine | False-positive captopril renal scintigraphy in malignant hypertension without renal artery stenosis; highlights diagnostic complexity and captopril's mechanistic probe function |
-| [2887673](https://pubmed.ncbi.nlm.nih.gov/2887673/) | 1987 | Basic / Clinical Research | Japanese Heart Journal | Neurohormonal characterisation of benign and malignant phases in 2K2C Goldblatt hypertension; demonstrates progressive RAAS, catecholamine, and vasopressin activation in malignant phase |
-| [3904655](https://pubmed.ncbi.nlm.nih.gov/3904655/) | 1985 | Clinical Study | Archives of Internal Medicine | Multicentre surveillance study of captopril in 975 hypertensive patients aged ≥65; BP reduced from 193/105 to 159/88 mmHg; renal function preserved in most patients |
+|------|-----|------|------|---------|
+| [6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/) | 1984 | Clinical report | Biull Vsesoiuznogo Kardiol Nauchn Tsentra AMN SSSR | Use of captopril in arterial hypertension with a stable and malignant course (no abstract available) |
+| [6321850](https://pubmed.ncbi.nlm.nih.gov/6321850/) | 1984 | Case report | Klin Wochenschr | Reversible acute renal insufficiency after captopril and enalapril in malignant renovascular hypertension with bilateral renal artery occlusion |
+| [232024](https://pubmed.ncbi.nlm.nih.gov/232024/) | 1979 | Clinical study | Clin Sci (Lond) | Captopril-induced rise in plasma renin activity identified renovascular hypertension (43 of 44 untreated patients); diagnostic use |
+| [3894732](https://pubmed.ncbi.nlm.nih.gov/3894732/) | 1985 | Review | Jpn J Med | Pathophysiology and outcome of hypertension; diagnostic tests for renovascular hypertension |
+| [7955304](https://pubmed.ncbi.nlm.nih.gov/7955304/) | 1994 | Review | Cleve Clin J Med | Noninvasive screening for renovascular disease |
+| [11334320](https://pubmed.ncbi.nlm.nih.gov/11334320/) | 2001 | Case report/Review | Clin Nephrol | Two cases of renovascular hypertension with neurofibromatosis; captopril-stimulated renin rise |
+| [10955932](https://pubmed.ncbi.nlm.nih.gov/10955932/) | 2000 | Review | Pediatr Nephrol | Renovascular disease and hypertension in children with neurofibromatosis; captopril test used |
+| [8070421](https://pubmed.ncbi.nlm.nih.gov/8070421/) | 1994 | Review | Endocrinol Metab Clin North Am | Renin-secreting tumours; blood pressure falls on converting enzyme inhibitor treatment |
+| [1572120](https://pubmed.ncbi.nlm.nih.gov/1572120/) | 1992 | Case report | Clin Nucl Med | False-positive captopril renography in malignant hypertension without renal artery stenosis |
+| [24401674](https://pubmed.ncbi.nlm.nih.gov/24401674/) | 2014 | Case report | Am J Nephrol | Reninoma: renal vein renin ratios for lateralisation and diagnosis |
 
----
+Most publications concern diagnosis, not treatment. No randomised trial of captopril for malignant renovascular hypertension was retrieved.
 
 ## Australia Market Information
 
-Captopril currently has **no active ARTG entries** in Australia. The drug is not marketed and holds no TGA product registration at the time of this report (data cutoff: 21 June 2026). Any clinical use in Australia would require a Special Access Scheme (SAS) application or Authorised Prescriber pathway.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 8760C | Capoten | Oral solution 5 mg per mL, 95 mL | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+**Contraindications and conditions of concern (from knowledge graph drug-disease edges, not label text):** kidney disease, liver disease, pancreatitis, gallbladder disease, angioedema (including hereditary, acquired and RAAS-blocker-induced forms), systemic lupus erythematosus and other connective tissue disease, diabetes mellitus and diabetic ketoacidosis, potassium deficiency, neutropenia and agranulocytosis, aortic stenosis and aortic valve disease, hypotensive disorder, hyperparathyroidism and bone disease, hepatic coma/encephalopathy.
 
-> **Note for prescribers:** Although no Australian PI exists for Captopril, the following considerations are clinically important in the context of malignant renovascular hypertension and are documented in the international literature:
->
-> - **Acute renal failure risk:** ACE inhibitors can precipitate acute renal failure in patients with bilateral renal artery stenosis or stenosis to a single functioning kidney — particularly relevant in this indication.
-> - **First-dose hypotension:** Risk is heightened in volume-depleted or high-renin states, both of which are common in malignant renovascular hypertension.
-> - **Hyperkalaemia:** Monitor serum potassium closely, especially with concurrent use of potassium-sparing agents or in the setting of impaired renal function.
+**Drug Interactions:** 100 interactions were recorded. The listed examples are mostly Moderate, including corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), antidiabetic agents (metformin, alogliptin, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, exenatide, chlorpropamide, acetohexamide), acetylsalicylic acid, morphine, bupropion and dronabinol. Antacids (aluminium hydroxide, calcium carbonate) are Minor.
 
----
+**Clinical caution from the literature:** acute renal failure can occur with ACE inhibitors in bilateral renal artery stenosis or a solitary kidney.
+
+Please also refer to the TGA-approved Product Information (PI) for full warnings, as label-based warnings were not available for this report.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic link between Captopril (an ACE inhibitor) and malignant renovascular hypertension is exceptionally strong — Captopril directly targets the RAAS over-activation that is the central driver of this condition, and its role as a standard diagnostic agent (Captopril renography) confirms this mechanistic alignment. Multiple observational studies and clinical case series from the 1979–2006 period document Captopril's use in renovascular and malignant hypertension, supporting L3-level evidence.
+The mechanism is plausible and the prediction score is high, but this is largely an extension of the existing hypertension indication. There are no registered trials, the retrieved literature is mostly diagnostic or case-level, and the renal risk in bilateral renal artery stenosis is significant. Evidence is at L4, and it is a research question rather than a candidate for clinical adoption.
 
 **To proceed, the following is needed:**
-- Obtain and review the most current international Product Information (e.g., UK MHRA or US FDA label) as a safety reference, given the absence of an Australian TGA PI
-- Conduct specialist nephrology and/or hypertension consultation prior to prescribing — particularly to assess bilateral renal artery stenosis before initiating ACE inhibitor therapy
-- Establish renal function monitoring protocol (serum creatinine, eGFR, electrolytes) at baseline and within 1–2 weeks of initiation
-- Determine the appropriate access pathway in Australia: Special Access Scheme Category B (SAS-B) or Authorised Prescriber, as no ARTG registration currently exists
-- Source Captopril supply through a TGA-licensed importer or compounding pharmacy with appropriate quality assurance
-- Document clinical justification and informed consent clearly in the medical record given off-label / unapproved status in Australia
+- Mechanism of action data (MOA) to support mechanistic-link analysis
+- TGA Product Information warnings and contraindications, since label-based safety screening could not be completed
+- Interventional or well-designed observational data on captopril treatment in malignant renovascular hypertension
+- A renal safety plan (creatinine, potassium, exclusion of bilateral renal artery stenosis or solitary kidney)
+
+**Other predicted indications reviewed (for context):**
+- Chronic renal failure syndrome (TxGNN 81.3%) reached L2, with one randomised study of captopril to mitigate chronic renal failure after haematopoietic stem cell transplantation (PMID 18029109), and was rated Proceed with Guardrails. It builds on captopril's existing diabetic nephropathy indication but is limited to a specific population.
+- Chronic pulmonary heart disease (97.1%) reached L3 on small 1980s haemodynamic studies without outcome data. The retrieved results were mixed on benefit.
+- Intracerebral haemorrhage (89.9%) is supported only by animal data and was rated Hold.
+- The remaining predictions (malignant hypertensive renal disease, the pulmonary hypertension entries, and rare syndromes) are prediction-only or off-topic and were rated Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

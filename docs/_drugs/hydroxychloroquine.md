@@ -2,7 +2,7 @@
 layout: default
 title: Hydroxychloroquine
 parent: Moderate Evidence (L3-L4)
-nav_order: 332
+nav_order: 357
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,90 +29,86 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Hydroxychloroquine: From Autoimmune & Antimalarial Therapy to Quinquaud's Folliculitis Decalvans
+# Hydroxychloroquine: From Rheumatoid Arthritis and Lupus to Folliculitis Decalvans
 
 ## One-Sentence Summary
 
-Hydroxychloroquine (HCQ) is an established antimalarial and immunomodulatory agent, internationally used for systemic lupus erythematosus (SLE), rheumatoid arthritis (RA), and related autoimmune conditions.
-The TxGNN model predicts it may be effective for **Quinquaud's Folliculitis Decalvans** — the most common form of primary neutrophilic scarring alopecia —
-with **0 clinical trials** but **4 publications** currently supporting this direction, including a 2025 EADV Task Force position statement and a 5-year retrospective cohort of 49 patients.
-
----
+Hydroxychloroquine is an antimalarial and immunomodulatory drug, originally used for rheumatoid arthritis, lupus erythematosus and malaria.
+The TxGNN model predicts it may be effective for **Folliculitis Decalvans** (a neutrophilic scarring hair loss disorder), but **no clinical trials** are registered for this indication. Support comes from **5 publications**, including a 49-patient retrospective study.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not recorded in ARTG dataset (HCQ internationally established for malaria, SLE, RA) |
-| Predicted New Indication | Quinquaud's Folliculitis Decalvans |
+|------|------|
+| Original Indication | Rheumatoid arthritis, systemic lupus erythematosus, malaria, discoid and chronic cutaneous lupus erythematosus (the ARTG entry lists no indication text; these come from the knowledge graph) |
+| Predicted New Indication | Quinquaud's folliculitis decalvans |
 | TxGNN Prediction Score | 98.66% |
 | Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
-> **Note:** HCQ (Plaquenil®) is widely registered internationally. The 0-entry ARTG result may reflect a data collection gap. Clinicians should verify current TGA registration status directly via the ARTG public search portal before clinical use.
+The recommendation is Hold because the evidence is retrospective only and the safety data are incomplete (see Conclusion).
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data for hydroxychloroquine is not currently available in the data compiled for this report. Based on known information, hydroxychloroquine is an antimalarial with established immunomodulatory activity. Its efficacy in autoimmune conditions such as lupus and rheumatoid arthritis is well documented.
 
-Currently, detailed mechanism of action data is not available in this dataset. Based on well-established pharmacological knowledge, Hydroxychloroquine is an aminoquinoline derivative that acts primarily by elevating lysosomal pH, thereby disrupting antigen processing and TLR7/TLR9-mediated innate immune signalling. This leads to downstream suppression of IFN-α/γ production, reduced pro-inflammatory cytokine release (including IL-1β, IL-6, and TNF-α), and inhibited neutrophil chemotaxis — all without the systemic immunosuppression associated with corticosteroids.
-
-Quinquaud's folliculitis decalvans (FD) is characterised by a neutrophil-dominant inflammatory infiltrate targeting hair follicles, leading to progressive, irreversible scarring alopecia primarily affecting the vertex scalp of younger patients. The role of dysregulated innate immune activation — rather than purely *Staphylococcus aureus* infection — is now increasingly recognised, particularly in "lichen planopilaris-like" or less-active forms of FD where autoimmune mechanisms are central. This pathogenic overlap places HCQ's mechanism of TLR inhibition and cytokine suppression directly in the relevant disease pathway.
-
-The clinical plausibility is reinforced by the 2025 EADV Task Force on Hair Diseases Position Statement, which formally includes HCQ among the therapeutic options for FD management. A dedicated 5-year retrospective study (PMID 39340420, n=49) specifically investigated HCQ as adjuvant therapy, supporting its use in cases where follicular inflammation is not purely infection-driven. Taken together, this mechanistic rationale and emerging clinical evidence constitute a reasonable basis for further investigation.
-
----
+Folliculitis decalvans is a chronic, relapsing neutrophilic scarring alopecia with a dysregulated inflammatory component. Hydroxychloroquine's immunomodulatory effects may plausibly help here: inhibiting Toll-like receptor signalling, reducing antigen presentation and lowering pro-inflammatory cytokine production. A 5-year retrospective study of 49 patients suggests it may be beneficial as an adjuvant therapy. The evidence is not yet controlled or prospective.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials are registered for Hydroxychloroquine in Quinquaud's folliculitis decalvans.
-
----
+Currently no related clinical trials registered for folliculitis decalvans.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [40230058](https://pubmed.ncbi.nlm.nih.gov/40230058/) | 2025 | Clinical Guideline / Task Force Statement | J Eur Acad Dermatol Venereol | EADV Task Force position statement on FD management; HCQ included as a treatment option; highlights chronic-relapsing course and need for anti-inflammatory therapy extended beyond disease resolution |
-| [39340420](https://pubmed.ncbi.nlm.nih.gov/39340420/) | 2025 | Retrospective Cohort | Clin Exp Dermatology | HCQ as adjuvant therapy in 49 FD patients over 5 years; suggests particular benefit in less-active/"LPP-like" FD phenotypes where autoimmune mechanisms predominate over *S. aureus* |
-| [39893632](https://pubmed.ncbi.nlm.nih.gov/39893632/) | 2025 | Review | Expert Opin Drug Metab Toxicol | Comprehensive systematic literature review (2015–2024) of alopecia treatments across scarring and non-scarring types; covers HCQ efficacy, safety, and tolerability profile |
-| [32030059](https://pubmed.ncbi.nlm.nih.gov/32030059/) | 2019 | Case Report | Int J Trichology | Therapy-recalcitrant FD case; HCQ cited as a standard prior treatment option alongside corticosteroids, isotretinoin, and dapsone; ultimately controlled with adalimumab, highlighting role of biologics in refractory cases |
-
----
+|------|-----|------|------|---------|
+| [39340420](https://pubmed.ncbi.nlm.nih.gov/39340420/) | 2025 | Retrospective cohort | Clin Exp Dermatol | 5-year study of 49 patients suggesting hydroxychloroquine may be beneficial as adjuvant therapy for folliculitis decalvans |
+| [40230058](https://pubmed.ncbi.nlm.nih.gov/40230058/) | 2025 | Expert consensus | J Eur Acad Dermatol Venereol | EADV task force position statement on managing folliculitis decalvans; stresses controlling inflammation and preventing further hair loss, and notes that long-term treatment may be needed |
+| [39893632](https://pubmed.ncbi.nlm.nih.gov/39893632/) | 2025 | Review | Expert Opin Drug Metab Toxicol | Comprehensive review of efficacy, safety and tolerability of drugs for scarring and non-scarring alopecia |
+| [32030059](https://pubmed.ncbi.nlm.nih.gov/32030059/) | 2019 | Case report | Int J Trichology | Therapy-recalcitrant case controlled with adalimumab; lists hydroxychloroquine among options (not a hydroxychloroquine study) |
+| [41915583](https://pubmed.ncbi.nlm.nih.gov/41915583/) | 2026 | Retrospective cohort | Acta Dermatovenerol Alp Pannonica Adriat | 15-year study of 109 patients with primary cicatricial alopecia (indirect evidence) |
 
 ## Australia Market Information
 
-No ARTG entries are currently recorded for Hydroxychloroquine in this dataset. The ARTG table cannot be populated from the available data.
-
-Clinicians are advised to consult the [TGA ARTG Public Summary](https://www.tga.gov.au/resources/artg) directly for current registration status and approved Product Information.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1512N | Hequinel | Tablet containing hydroxychloroquine sulfate 200 mg | Not stated in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+Detailed label warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
-> **Clinical Note:** Regardless of formal TGA PI availability in this dataset, prescribers should be aware that HCQ carries a well-documented risk of **irreversible retinal toxicity** with cumulative dosing. Baseline ophthalmological assessment and annual retinal screening are standard of care for long-term HCQ use (typically from Year 5 onward, or earlier in higher-risk patients). This monitoring requirement is particularly relevant when considering use in dermatological conditions where treatment duration may be prolonged.
-
----
+- **Conditions flagged in the knowledge graph as contraindications or cautions:** porphyria (including inherited forms), liver and gallbladder disease, eye disease including retinal disease, retinitis, scotoma, vision disorders and blindness, psoriasis, neutropenia, agranulocytosis, anaemia, G6PD deficiency, substance abuse or dependence, glycogen storage disease, cystinuria and galactosemia. These come from knowledge graph relationships, not label text, and need confirmation against the PI.
+- **Drug interactions:** 100 interactions were identified. The sample reviewed included:
+  - **Major:** clarithromycin, dolasetron, palonosetron.
+  - **Moderate:** famotidine, cimetidine, loperamide, aprepitant, bisacodyl, metronidazole, and the glucose-lowering agents chlorpropamide, glimepiride and several insulins (hypoglycaemia risk is a particular concern).
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The 2025 EADV position statement and a dedicated 5-year retrospective cohort study provide meaningful Level 3 evidence supporting HCQ as an adjuvant anti-inflammatory agent in folliculitis decalvans, particularly for cases with autoimmune-predominant pathology. The mechanistic rationale — TLR7/9 inhibition and lysosomal pH disruption attenuating neutrophil-driven follicular inflammation — is well-grounded in HCQ pharmacology. However, the absence of controlled clinical trials and the small number of directly relevant publications preclude a higher recommendation at this stage.
+The only direct evidence is a single retrospective study (49 patients) and an expert statement. There are no registered trials, no controlled data, and safety information (label warnings and contraindications) remains incomplete. The plausible immunomodulatory mechanism supports further research but not adoption at this stage. Progression to a research question stage is reasonable once the gaps below are addressed.
 
 **To proceed, the following is needed:**
+- Review of the TGA PI for warnings and contraindications (a blocking data gap for safety screening)
+- Detailed mechanism of action data (for example from DrugBank)
+- Prospective or controlled studies of hydroxychloroquine in folliculitis decalvans
+- Confirmation of the approved indications for the Australian product (ARTG 1512N)
+- A monitoring plan, including retinal screening, given the long-term use needed in chronic scarring alopecia
 
-- **Regulatory verification:** Confirm current TGA/ARTG registration status for HCQ in Australia; obtain TGA-approved PI for complete safety, contraindication, and dosing data
-- **MOA documentation:** Retrieve full mechanism of action data from DrugBank (DB01611) to strengthen mechanistic analysis
-- **Patient stratification strategy:** Evidence suggests HCQ is more likely effective in "LPP-like" / autoimmune-predominant FD phenotypes versus classic *S. aureus*-driven presentations; define inclusion criteria accordingly
-- **Ophthalmological monitoring protocol:** Establish baseline and ongoing retinal screening schedule consistent with international HCQ safety guidelines (e.g., Royal Australian and New Zealand College of Ophthalmologists recommendations)
-- **Prospective study design:** A prospective, multicentre open-label pilot study (e.g., n=30–50) with standardised FD outcome measures (e.g., Folliculitis Decalvans Activity Score) would be the logical next step
-- **Efficacy boundary definition:** Based on PMID 39340420, define which FD subtype (active neutrophilic vs. LPP-like) is the primary target population before trial initiation
+---
+
+### Note on Other Predicted Indications
+
+The data compiled for this report also cover other predictions. These are not the focus of this report, but are summarised for context:
+
+- **Alopecia areata (98.21%, L3):** a small open-label Phase 4 study (NCT00176982, n=16) and a retrospective paediatric series exist, but one case series (PMID 27051848) reported hydroxychloroquine as ineffective. JAK inhibitors have stronger evidence. Status: Research Question.
+- **Follicular mucinosis (98.47%, L4):** supported only by case reports. Status: Research Question.
+- **Telogen effluvium, alopecia antibody deficiency, rheumatoid nodulosis, and two rare genetic syndromes:** no supporting clinical evidence. Status: Hold.
+- **Juvenile arthritis forms:** near-label, indirect evidence only, and hydroxychloroquine is generally considered weaker than methotrexate and biologics. Status: Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

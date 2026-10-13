@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rifaximin
-parent: Model Prediction Only (L5)
-nav_order: 591
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 633
+evidence_level: L4
 indication_count: 10
 ---
 
 # Rifaximin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rifaximin: From Enteric Antibacterial Use to HIV-Associated Immune Activation (Investigational)
+# Rifaximin: From Hepatic Encephalopathy to Oral Candidiasis
 
 ## One-Sentence Summary
 
-Rifaximin is a non-absorbed, gut-restricted rifamycin-class antibiotic; the source evidence pack does not contain a confirmed original TGA-approved indication text, and the drug is **not currently marketed in Australia** (0 ARTG entries). Of TxGNN's ten predicted indications, the two highest-scoring candidates (oral candidiasis, candidiasis) are **not genuine repurposing signals** — the underlying literature describes rifaximin as *increasing* Candida infection risk via gut dysbiosis, not treating it. The only candidate with a coherent, literature-supported mechanistic rationale is **HIV infectious disease** (rank 9, TxGNN score 98.23%), evaluated at decision stage S1 ("Research Question") on the strength of **1 clinical trial** and **6 publications**, though the clinical trial data (withdrawn, 0 enrolled) and RCT literature (marginal, non-significant effects) do not currently support efficacy.
-
----
+Rifaximin is a gut-restricted, minimally absorbed oral antibiotic, originally used for hepatic encephalopathy and hepatic coma.
+The TxGNN model predicts it may be effective for **oral candidiasis**, but there are **no registered clinical trials** and only **1 publication**, and that publication suggests rifaximin use may be *associated with more* Candida infections rather than fewer.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in this evidence pack (no licence/indication text on record; general pharmacological class: enteric antibacterial) |
-| Predicted New Indication | HIV infectious disease *(selected over the nominal top-ranked "oral candidiasis" — see note below)* |
-| TxGNN Prediction Score | 98.23% |
-| Evidence Level | L3 (observational/RCT evidence exists but shows no significant clinical benefit) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Original Indication | Hepatic encephalopathy; hepatic coma (the ARTG entry does not list indication text) |
+| Predicted New Indication | Oral candidiasis |
+| TxGNN Prediction Score | 99.75% |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
-> **Note on candidate selection:** TxGNN ranked "oral candidiasis" (99.75%) and "candidiasis" (99.15%) highest by score. The evidence pack's own mechanistic annotations state these are **negative associations** — rifaximin use is described in the literature as *favouring* Candida overgrowth via gut dysbiosis, not treating it. Presenting these as "predicted new indications" would be misleading, so this report focuses on the highest-ranked candidate with a genuine treatment-direction rationale and real supporting evidence (HIV infectious disease, S1/"Research Question"). Ranks 2–5, 7, 8, 10 have no clinical trial or literature support at all (evidence level L5, TxGNN score noise) and are not discussed further.
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed, drug-pack-sourced mechanism of action is flagged as a data gap (DG002), so the following draws only on the mechanistic rationale documented against the HIV candidate in the evidence pack itself. Rifaximin is a rifamycin-class antibiotic that inhibits bacterial RNA polymerase; because it is essentially non-absorbed from the gut, its action is confined to the intestinal lumen.
+Detailed mechanism of action data is not currently available. Based on known information, rifaximin is a non-absorbed oral antibiotic that acts locally in the gut. Its efficacy in hepatic encephalopathy is established, but it has no known antifungal activity, so a mechanistic link to oral candidiasis is not evident.
 
-The proposed link to HIV infection is indirect: HIV-associated damage to the gut mucosal barrier allows bacterial products to translocate into the bloodstream, driving chronic immune activation — a recognised contributor to HIV disease progression even in patients on antiretroviral therapy. The hypothesis is that suppressing gut bacterial flora with rifaximin would reduce this microbial translocation and downstream immune activation, and/or treat HIV-associated enteric co-infections (e.g. *Cryptosporidium*, enteroaggregative *E. coli*) that are common in this population.
-
-However, the two RCTs specifically testing this hypothesis in HIV-positive immune non-responders (ACTG A5286) found only a **marginal, non-statistically-significant** effect on microbial translocation, T-cell activation and inflammation, and **no significant change** in rectal microbial diversity. The one registered trial directly addressing rifaximin in HIV-related liver disease (NCT01654939) was withdrawn with zero enrolment. This means the mechanistic story is biologically plausible but has already been tested and has not shown a clinical benefit — this is a "negative/inconclusive trial" situation rather than an untested hypothesis.
-
----
+The one publication identified (PMID 34180023) points the other way. In patients undergoing allogeneic stem cell transplantation, rifaximin use was associated with micafungin-resistant Candida infections. A plausible explanation is gut microbiome disruption that allows fungal overgrowth, although confounding by underlying disease cannot be excluded. The high TxGNN score therefore looks more like a knowledge-graph artefact than a genuine therapeutic signal.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01654939](https://clinicaltrials.gov/study/NCT01654939) | Phase 4 | Withdrawn | 0 | Intended to assess rifaximin's impact on liver fibrosis in HIV-infected patients with liver disease (hepatitis C co-infection); withdrawn before enrolment, no data generated |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25214516](https://pubmed.ncbi.nlm.nih.gov/25214516/) | 2015 | RCT | J Infect Dis | ACTG A5286: rifaximin had only a **marginal impact** on microbial translocation, T-cell activation and inflammation in HIV-positive ART immune non-responders |
-| [31583331](https://pubmed.ncbi.nlm.nih.gov/31583331/) | 2019 | RCT | Pathogens & Immunity | Follow-up analysis of ACTG A5286: 4 weeks of rifaximin **failed to significantly alter** rectal microbial diversity |
-| [21918437](https://pubmed.ncbi.nlm.nih.gov/21918437/) | 2011 | Review | Curr Opin HIV AIDS | General review of end-stage liver disease management in HIV/HCV co-infection; no rifaximin-specific trial data |
-| [36533398](https://pubmed.ncbi.nlm.nih.gov/36533398/) | 2023 | Review | Expert Rev Anti Infect Ther | Review of cryptosporidiosis treatment options; rifaximin not the primary focus |
-| [17005776](https://pubmed.ncbi.nlm.nih.gov/17005776/) | 2006 | Review | J Med Microbiol | Review of enteroaggregative *E. coli* as an enteric pathogen relevant to HIV-infected patients |
-| [10632386](https://pubmed.ncbi.nlm.nih.gov/10632386/) | 1999 | Cohort | J Chemother | Observational study of intestinal protozoa (*Cryptosporidium*, *Blastocystis*) in HIV patients; rifaximin effect noted but not the primary endpoint |
-
----
+| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Cohort | Annals of Hematology | In allogeneic stem cell transplant recipients, rifaximin use was associated with micafungin-resistant Candida infections. This is a potential harm signal, not a benefit. |
 
 ## Australia Market Information
 
-Rifaximin has **no ARTG entries** and is **not currently marketed in Australia**. There is no TGA-approved Product Information for this product in the Australian market at present.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10001J | Xifaxan | Tablet 550 mg | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-The evidence pack contains no usable safety data — key warnings, contraindications and drug interaction records are all data gaps (DG001, flagged as **Blocking**), and the DDI query returned no results.
-
-> As rifaximin is not TGA-registered, there is no Australian Product Information available. Safety assessment would need to draw on overseas-approved PI (e.g. US/EU rifaximin labelling) as a starting reference, pending confirmation of any Australian-specific data.
-
----
+- **Conditions flagged as contraindications in the knowledge graph** (not taken from label text): *Clostridium difficile* colitis and perinatal necrotizing enterocolitis.
+- **Drug Interactions**: 69 interactions were identified. Those listed below are examples from the data compiled for this report.
+  - **Major**: live oral cholera vaccine (*Vibrio cholerae* CVD 103-HgR strain).
+  - **Moderate**: warfarin, cyclosporine, tolvaptan, picosulfuric acid, apalutamide, darolutamide, cabozantinib, encorafenib, alpelisib, brigatinib, capmatinib, daclatasvir, ledipasvir, elagolix, elexacaftor, eliglustat, enasidenib, bempedoic acid and istradefylline.
+- Product Information warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only mechanistically coherent candidate (HIV infectious disease) has already been directly tested in two RCTs, both showing marginal-to-no clinical benefit, and its one registered trial was withdrawn with zero enrolment. Combined with the drug's non-marketed status in Australia and a **blocking** safety data gap (no TFDA/TGA warning or contraindication data), there is not enough support to advance this candidate.
+The prediction is supported only by a model score. The single publication suggests a possible adverse association with Candida infection, and rifaximin has no known antifungal activity. The available evidence does not justify further development for this indication.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (blocking): obtain TGA/overseas Product Information for warnings and contraindications before any S1 safety screening
-- Resolve DG002: confirm detailed mechanism of action from DrugBank or primary pharmacology sources
-- If pursuing the HIV hypothesis further, a new trial design would need to address why prior RCTs (ACTG A5286) failed to show significant effect — e.g. different dosing, duration, or patient subgroup
-- Re-run TxGNN evidence triage to exclude negative-association predictions (oral candidiasis, candidiasis) from being surfaced as "repurposing candidates" in future reports
+- Evidence of a plausible antifungal or microbiome-based mechanism, together with mechanism of action data for rifaximin.
+- Controlled data clarifying whether rifaximin increases or decreases Candida colonisation and infection.
+- The approved indication text and PI safety information for the Australian product.
+
+**Other predicted indications:** Among the other top-ranked predictions, only **HIV infectious disease** (L3) has meaningful supporting literature. Studies there show marginal effects on microbial translocation and immune activation, and the one registered trial (NCT01654939) was withdrawn with no participants enrolled. It may merit consideration as a research question, but not as a treatment indication. The remaining predictions have no supporting clinical evidence and should be held.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

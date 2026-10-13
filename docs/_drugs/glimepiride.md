@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Glimepiride
-parent: High Evidence (L1-L2)
-nav_order: 314
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 338
+evidence_level: L5
 indication_count: 10
 ---
 
 # Glimepiride
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,74 +29,93 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Glimepiride: From Type 2 Diabetes Mellitus to Type 1 Diabetes Mellitus
+# Glimepiride: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
 
 ## One-Sentence Summary
 
-Glimepiride is a third-generation sulfonylurea established for Type 2 Diabetes Mellitus, acting as a SUR1/KATP channel closer to stimulate residual β-cell insulin secretion. TxGNN's raw output ranks several unrelated conditions (e.g. stiff person syndrome, various lipodystrophies) as top candidates, but the evidence pack's own mechanistic review flags these as likely knowledge-graph artefacts with **zero supporting trials or literature**. The only prediction with substantive evidence is **Type 1 Diabetes Mellitus**, supported by **1 RCT, 2 preclinical animal studies, and 2 monogenic-diabetes case reports** among 17 retrieved publications — this report focuses on that candidate.
+Glimepiride is a sulfonylurea originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **classic stiff person syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model-only signal.
 
-> **Note on selection**: TxGNN's #1–#9 ranked predictions (stiff person syndrome, opsismodysplasia, various lipodystrophies, pancreatic agenesis) all carry Evidence Level **L5** with **zero** clinical trials or literature, and the evidence pack's own rationale explicitly labels them as graph-embedding spurious correlations ("偽相關") with no biological plausibility. Presenting one of these as the headline finding would be misleading, so this report instead evaluates rank #10, Type 1 Diabetes Mellitus, the only candidate with real supporting evidence.
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 Diabetes Mellitus (established sulfonylurea use; not captured in this evidence pack's regulatory license data, which is empty) |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
-| TxGNN Prediction Score | 98.86% |
-| Evidence Level | L2 |
-| Australia Market Status | Not Marketed (per this evidence pack) |
-| Number of ARTG Entries | 0 |
+| Original Indication | Type 2 diabetes mellitus (from the knowledge graph; the ARTG entry has no indication text) |
+| Predicted New Indication | Classic stiff person syndrome |
+| TxGNN Prediction Score | 99.75% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from the drug-level fields in this evidence pack (`original_moa` is a data gap). Based on information referenced throughout the evidence pack itself, glimepiride is a third-generation sulfonylurea that closes the SUR1 subunit of the pancreatic β-cell KATP channel, triggering insulin release — a mechanism that only works if functional β-cells remain.
+Detailed mechanism of action data is not available in the data compiled for this report. Glimepiride belongs to the sulfonylurea class. These drugs stimulate insulin release by closing K-ATP channels on pancreatic beta cells, and this is how they control blood glucose in type 2 diabetes.
 
-Classic autoimmune Type 1 Diabetes Mellitus involves near-total β-cell destruction, so a pure insulin secretagogue would seem mechanistically limited. However, the retrieved evidence points to a narrower and more defensible rationale: two case reports (PMID 21992555, PMID 38513803) describe glimepiride successfully treating diabetes caused by activating **ABCC8/SUR1** mutations (i.e. monogenic diabetes, including a MODY12 case initially labelled Type 1), which is a direct, mechanistically coherent match to glimepiride's known target. Separately, two preclinical BB-rat studies (PMID 7475982, PMID 8539908) and one small placebo-controlled RCT in adolescents with Type 1 Diabetes (PMID 12663616) suggest a possible immunomodulatory or β-cell-preserving effect beyond simple insulin secretion, particularly in newly diagnosed patients with residual C-peptide.
+On current information, the prediction is **not** well supported mechanistically. Stiff person syndrome is an autoimmune neurological disorder of GABAergic signalling, usually associated with anti-GAD antibodies. Glimepiride's pharmacology (beta-cell K-ATP channel blockade) has no known link to this pathway. The prediction most likely reflects shared neighbours in the knowledge graph, such as the GAD/diabetes association, rather than a pharmacological rationale. The same applies to the closely related "focal stiff limb syndrome" prediction. The high score (99.75%) reflects the model's output only and is not clinical evidence.
 
-Taken together, the plausible niche is **not** broad first-line Type 1 Diabetes therapy, but rather (a) SUR1/ABCC8-mediated monogenic diabetes misclassified as Type 1, and (b) adjunctive use in patients with residual β-cell function. Outside these subgroups, glimepiride carries real risk (hypoglycaemia, and no evidence of efficacy in β-cell-absent patients).
+---
 
 ## Clinical Trial Evidence
 
-No clinical trials with a confirmed classic Type 1 Diabetes Mellitus population were identified. The automated search returned 50 trials tagged to this indication, but review of their titles and summaries shows nearly all enrol Type 2 Diabetes populations, with glimepiride used only as an active comparator — this reflects a likely search/database keyword mismatch rather than genuine Type 1 Diabetes trial evidence. One Phase 2 RCT (NCT00309608, n=333) was auto-flagged as possibly relevant, but its brief summary explicitly describes a Type 2 Diabetes, metformin add-on population, so it is excluded here as unreliable evidence for this indication.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [12663616](https://pubmed.ncbi.nlm.nih.gov/12663616/) | 2003 | RCT | Diabetes Care | Prospective, randomised, double-blind, placebo-controlled trial of glimepiride in adolescents with Type 1 Diabetes, assessing IGF-I effects — the only trial directly dosing glimepiride in a classic T1DM population |
-| [21992555](https://pubmed.ncbi.nlm.nih.gov/21992555/) | 2012 | Case report | Diabetic Medicine | Diabetes caused by an activating ABCC8/SUR1 mutation effectively treated with glimepiride |
-| [38513803](https://pubmed.ncbi.nlm.nih.gov/38513803/) | 2024 | Case report | Clinical Medicine (London) | ABCC8 mutation causing MODY12, initially diagnosed as Type 1 Diabetes; good glycaemic control achieved with glimepiride |
-| [7475982](https://pubmed.ncbi.nlm.nih.gov/7475982/) | 1995 | Preclinical (animal) | Life Sciences | Glimepiride prevented onset of diabetes and autoimmune events in BB rats (T1DM model) |
-| [8539908](https://pubmed.ncbi.nlm.nih.gov/8539908/) | 1995 | Preclinical (animal) | Transplantation Proceedings | Glimepiride combined with islet allotransplantation prevented/cured T1D in BB rats |
-| [32935446](https://pubmed.ncbi.nlm.nih.gov/32935446/) | 2021 | Review/Case report | Journal of Diabetes | Spectrum of glucose dysmetabolism from KCNJ11 (KATP channel) mutations, mechanistically linking channel-mediated diabetes to SU responsiveness |
-| [11460577](https://pubmed.ncbi.nlm.nih.gov/11460577/) | 2001 | Review | Exp Clin Endocrinol Diabetes | Reviews oral hypoglycaemic agents; notes glimepiride's relative KATP-channel selectivity and lower hypoglycaemia risk versus older sulfonylureas |
-| [15955587](https://pubmed.ncbi.nlm.nih.gov/15955587/) | 2005 | Case report | Diabetes Res Clin Pract | Type 1 Diabetes developing in a Type 2 patient with severe insulin resistance, managed with insulin plus glimepiride |
-| [32268860](https://pubmed.ncbi.nlm.nih.gov/32268860/) | 2020 | Review | Current Pharmaceutical Design | Safety/efficacy comparison of sulfonylureas vs DPP-4 inhibitors as second-line therapy — background pharmacology, Type 2 Diabetes focus |
-| [15013454](https://pubmed.ncbi.nlm.nih.gov/15013454/) | 2004 | Review/Commentary | The American Journal of Medicine | General discussion of basal insulin initiation alongside sulfonylurea/metformin therapy — background context only |
+Currently no related literature available.
+
+---
 
 ## Australia Market Information
 
-No ARTG entries are recorded in this evidence pack, and market status is listed as Not Marketed. This may reflect a data-collection gap rather than confirmed absence from the Australian market — glimepiride-containing products are widely available generically in other jurisdictions. Current ARTG status should be verified directly against the TGA database before this field is relied upon.
+| ARTG Number | Product Name | Dosage Form |
+|---------|------|------|
+| ARTG 13848W | Glimepiride Sandoz | Tablet 1 mg (oral) |
+
+The approved indication text was not available for this entry. Refer to the TGA Product Information (PI).
+
+---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. This evidence pack carries a **Blocking** data gap (DG001) for TGA/TFDA label warnings and contraindications, and drug interaction data was not found — obtaining the official Product Information is a prerequisite before any safety assessment can proceed.
+- **Knowledge-graph contraindication signals** (not taken from label text): kidney disease, liver disease, congestive heart failure, gallbladder disease, hypopituitarism and other pituitary hormone deficiencies, osteoporosis, and infectious disease. Verify these against the PI.
+- **Drug interactions**: 100 interactions were identified, and the 20 reviewed are mostly rated Moderate. Examples include:
+  - ethanol
+  - hydrochlorothiazide and acetazolamide
+  - NSAIDs (ibuprofen, ketorolac)
+  - H2 blockers (famotidine, ranitidine)
+  - beta-agonists and sympathomimetics (salbutamol, formoterol, epinephrine, phenylephrine, pseudoephedrine)
+  - acebutolol
+  - albiglutide
+  - ethinylestradiol
+  - acitretin
+  - nitazoxanide
+  - systemic hydrocortisone
+
+  Topical corticosteroids are rated Minor. Check the full list before any use.
+
+Please refer to the TGA-approved Product Information (PI) for the authoritative warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- A Blocking data gap (missing PI warnings/contraindications, DG001) means safety pre-assessment cannot be completed, and ARTG status is currently unverified (0 entries on record).
-- The supporting evidence for Type 1 Diabetes Mellitus, while real, is limited to one small paediatric RCT, two preclinical animal studies, and case reports of a narrow monogenic-diabetes subgroup — not classic autoimmune Type 1 Diabetes broadly.
+The prediction is supported only by the model score. There are no trials or publications, and no plausible mechanistic link between a sulfonylurea and an autoimmune GABAergic disorder. Using glimepiride in a non-diabetic neurological condition would also expose patients to hypoglycaemia risk without any supporting benefit data.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications, drug interactions)
-- Formal mechanism of action data via DrugBank API
-- Clarification of target subpopulation — SUR1/ABCC8-mediated monogenic diabetes vs. residual-β-cell autoimmune Type 1 Diabetes — since these have very different risk/benefit profiles
-- Direct TGA/ARTG database confirmation of current Australian market status
+- Mechanistic evidence linking glimepiride or K-ATP channel modulation to stiff person syndrome pathophysiology
+- Any preclinical or clinical data in stiff person syndrome
+- Confirmation of the approved indication and safety information from the TGA PI
+- Review of other predicted indications in the same list. Type 1 diabetes mellitus (rank 10) has more activity, with 12 trials and 12 publications retrieved, but most of those trials involve type 2 diabetes. It would need its own dedicated evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

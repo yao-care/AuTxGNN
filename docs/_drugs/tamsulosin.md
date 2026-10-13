@@ -2,7 +2,7 @@
 layout: default
 title: Tamsulosin
 parent: Model Prediction Only (L5)
-nav_order: 653
+nav_order: 700
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,64 +33,71 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Tamsulosin is a selective alpha-1A adrenergic receptor antagonist used to relieve lower urinary tract symptoms associated with benign prostatic hyperplasia (BPH). The TxGNN model's top prediction for this drug is **Ambras type hypertrichosis universalis congenita**, a rare congenital hair-overgrowth syndrome — but this prediction is currently supported by **zero clinical trials and zero publications**, and the model's own rationale flags no plausible biological mechanism connecting the two.
-
----
+Tamsulosin is an alpha-1 adrenergic receptor antagonist originally used to treat benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but there are currently **0 clinical trials** and **0 supporting publications** for this indication. The prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Benign prostatic hyperplasia (BPH) / lower urinary tract symptoms (inferred from drug class and co-therapy context; not separately confirmed in this evidence pack) |
+| Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.996% (rank 140 overall) |
+| TxGNN Prediction Score | 99.996% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not returned by DrugBank in this evidence pack (flagged as a High-severity data gap, DG002). Based on information embedded in the model's own repurposing rationale, tamsulosin is a selective alpha-1A adrenergic receptor antagonist that relaxes smooth muscle in the prostate and bladder neck, and its established clinical role is managing BPH-related urinary symptoms (it is frequently co-prescribed with 5-alpha reductase inhibitors such as finasteride/dutasteride).
+Tamsulosin is an alpha-1A/1D adrenergic receptor antagonist. It relaxes smooth muscle in the prostate and bladder neck, which eases urinary symptoms in BPH. Detailed mechanism of action data was not available in the data compiled for this report, so this description draws on general pharmacological knowledge.
 
-Ambras type hypertrichosis universalis congenita is a rare congenital disorder driven by chromosomal rearrangement and gene-regulatory abnormalities affecting hair follicle development — a pathway that has no known interaction with alpha-1 adrenergic signalling. The model's own mechanistic annotation for this candidate explicitly states there is no biological link between the two, and no clinical or literature evidence exists to support it.
+Ambras syndrome is a rare genetic disorder of hair development, linked to chromosomal rearrangements that affect regulation of the *TRPS1* gene. The review found no plausible link between alpha-1 blockade and this underlying genetic pathology. BPH (a urological condition) and congenital hypertrichosis (a hair development disorder) share no clear biological pathway.
 
-Taken together, this candidate should be treated as a **low-confidence, likely spurious association** arising from graph-based pattern learning rather than a genuine pharmacological signal. It is presented here for completeness and transparency, not as a promising repurposing lead.
-
----
+The very high score (99.996%) most likely reflects proximity within the knowledge graph to hair-related disease nodes, not a pharmacological rationale. Other top-ranked predictions are also hair-related or developmental conditions (hypertrichosis, hair shaft abnormalities, hypotrichosis, alopecia) and are likewise unsupported by evidence. This clustering suggests a systematic pattern in the model rather than a real signal for tamsulosin.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available for the top-ranked indication.
 
----
+For the lower-ranked prediction of alopecia (rank 9), two publications were retrieved, but neither supports tamsulosin use:
+- [33175100](https://pubmed.ncbi.nlm.nih.gov/33175100/) (2021, JAMA Dermatology) concerns suicidality and psychological adverse events with **finasteride**, a different drug.
+- [32826647](https://pubmed.ncbi.nlm.nih.gov/32826647/) (2021, Cornea) concerns meibomian gland changes in men with BPH and is unrelated to hair loss.
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14200J | Flomaxtra | Tablet 400 micrograms (prolonged release) | Not listed in the data compiled for this report |
+
+The only registered route of administration is oral.
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+Product Information (PI) warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
----
+**Contraindications and cautions from the knowledge graph** (not label text): multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, liver disease, gallbladder disease, priapism, and intraoperative floppy iris syndrome.
+
+**Drug interactions:** 100 interactions were identified. The main ones from the entries reviewed are:
+- **Major:** clarithromycin
+- **Moderate:** bupropion, aprepitant, morphine (including liposomal), lorcaserin, cimetidine, clotrimazole, miconazole, dronabinol, nabilone, opium, eliglustat, fenfluramine, dexfenfluramine, glycerol phenylbutyrate, and the SGLT2 inhibitors canagliflozin, dapagliflozin, empagliflozin and ertugliflozin
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction has no supporting clinical trials, no supporting literature, and the model's own mechanistic annotation identifies no plausible biological link between tamsulosin's alpha-1 antagonism and this rare congenital hypertrichosis syndrome. This is an L5 (prediction-only) signal with no path to advancement as currently evidenced.
+The prediction is computational only (Evidence Level L5). No clinical trials or relevant publications exist, and no plausible mechanism links alpha-1 blockade to Ambras syndrome. The same applies to the other nine top-ranked predictions, none of which has supporting evidence.
 
 **To proceed, the following is needed:**
-- TFDA/TGA-approved product information (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism-of-action data from DrugBank — currently a High-severity data gap (DG002)
-- Independent mechanistic or preclinical rationale connecting alpha-1 adrenergic antagonism to hair follicle/keratin pathways, before any further evidence collection is warranted
-- Consideration of lower-ranked candidates in this evidence pack (e.g. rank 9, "alopecia") if a hair-related indication is of interest, though that candidate also currently lacks direct drug-disease evidence and remains at Hold
+- Mechanism of action data to allow a proper mechanistic analysis
+- A credible biological rationale linking alpha-1 adrenergic antagonism to the predicted condition (for example, preclinical or in vitro evidence)
+- TGA Product Information (PI) warnings, contraindications and approved indication text, as the current safety data is incomplete
+- Registered trials or published case reports for any predicted indication before reconsidering
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

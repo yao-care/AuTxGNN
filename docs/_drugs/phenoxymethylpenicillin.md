@@ -2,7 +2,7 @@
 layout: default
 title: Phenoxymethylpenicillin
 parent: Model Prediction Only (L5)
-nav_order: 533
+nav_order: 569
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phenoxymethylpenicillin: From [Data Gap] to Epiglottitis
+# Phenoxymethylpenicillin: From Streptococcal and Upper Respiratory Infections to Epiglottitis
 
 ## One-Sentence Summary
 
-Phenoxymethylpenicillin (Penicillin V, DB00417) is a long-established penicillin-class antibiotic; its original approved indication is not recorded in this evidence pack, and the drug is not currently marketed in Australia. The TxGNN model predicts a possible new application in **Epiglottitis** with a very high confidence score, but **no clinical trials or published literature currently support this specific prediction** — it is a model-only signal at this stage.
+Phenoxymethylpenicillin (penicillin V) is an oral penicillin antibiotic, originally used for streptococcal and staphylococcal infections, pharyngitis, otitis media, erysipelas and scarlet fever.
+The TxGNN model predicts it may be effective for **epiglottitis**, but there are **no clinical trials** and **no publications** supporting this prediction, so it rests on model output alone.
 
 ---
 
@@ -41,23 +42,23 @@ Phenoxymethylpenicillin (Penicillin V, DB00417) is a long-established penicillin
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established in this evidence pack (no ARTG-approved indication text available; original_indications field empty) |
+| Original Indication | Streptococcal infection, pharyngitis, infectious otitis media, erysipelas, scarlet fever, staphylococcal infection (the ARTG entry has no indication text; these come from the knowledge graph) |
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for phenoxymethylpenicillin in this evidence pack. Based on known information, phenoxymethylpenicillin is a member of the penicillin (beta-lactam) antibiotic class — its identity as "Penicillin V" is embedded in the INN itself — and its established efficacy is in bacterial infections generally. The specific TGA-approved indication text could not be extracted here because the drug has no active ARTG entries.
+Detailed mechanism of action data is not available for this report. Based on known information, phenoxymethylpenicillin is a penicillin-class antibiotic with proven activity against streptococci. Mechanistically it may apply to bacterial infections of the upper airway.
 
-Epiglottitis is typically an acute bacterial infection of the supraglottic larynx, historically associated with *Haemophilus influenzae* type b and other pyogenic organisms, so a beta-lactam mechanism is broadly plausible in principle. However, phenoxymethylpenicillin's antibacterial spectrum is narrow and it is not a drug conventionally used for epiglottitis (which typically requires broader-spectrum, often IV, antibiotic coverage) — this prediction currently has no supporting trial or literature evidence to confirm the mechanistic link is clinically meaningful.
+Epiglottitis is often caused by *Haemophilus influenzae* type b, *Streptococcus pneumoniae*, group A *Streptococcus* and *Staphylococcus aureus*. Penicillin V covers the streptococcal causes, which fits its original use in throat and respiratory infections.
 
-It is worth noting that the underlying evidence pack contains substantially more literature on other TxGNN-ranked candidates for this drug — laryngitis (rank 2, 19 PubMed records), urinary tract infection (rank 3, 20 records), and gonococcal urethritis (rank 4, 7 records) — though several of those studies report **negative or historical findings** (see Literature Evidence below is specific to epiglottitis; those other candidates are outside the scope of this report per the top-ranked prediction).
+The fit is weak, however. Penicillin V is an oral agent with limited activity against beta-lactamase-producing *H. influenzae* and *S. aureus*. Epiglottitis is an airway emergency usually treated with intravenous broad-spectrum agents such as third-generation cephalosporins, so oral penicillin V is not a plausible primary therapy. The high score likely reflects the drug's general antibacterial class association rather than specific evidence.
 
 ---
 
@@ -69,21 +70,35 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for epiglottitis.
 
-*(For context only — not part of the epiglottitis evidence base: TxGNN's second-ranked candidate, laryngitis, has 19 associated PubMed records, several of which — e.g. PMID [3918495](https://pubmed.ncbi.nlm.nih.gov/3918495/) "Inefficacy of penicillin V in acute laryngitis in adults" and the repeated Cochrane reviews on antibiotics for acute laryngitis — report that penicillin V/antibiotics did **not** demonstrate clinical benefit in that condition. This underscores that a high TxGNN score does not by itself indicate positive clinical evidence.)*
+For context, the second-ranked prediction (laryngitis) had one paper, a 1992 erythromycin study (PMID [1632252](https://pubmed.ncbi.nlm.nih.gov/1632252/)). It noted that phenoxymethylpenicillin had no effect on the clinical course of acute laryngitis. The third-ranked prediction (urinary tract infection) returned mostly off-topic papers. The one directly relevant item is [2497823](https://pubmed.ncbi.nlm.nih.gov/2497823/) (BMJ, 1989), on phenoxymethylpenicillin and erythromycin in asymptomatic bacteriuria in girls. None of this supports a new penicillin V indication.
 
 ---
 
 ## Australia Market Information
 
-No ARTG entries found — phenoxymethylpenicillin is not currently listed as marketed in Australia under this evidence pack.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13968E | Cilicaine VK | Capsule 250 mg phenoxymethylpenicillin (as potassium), oral | Not listed in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Key warnings, contraindications, and drug-interaction data were not found in this evidence pack (source: DrugBank/TFDA queries returned no results — see data gap DG001, classified as Blocking).
+**Contraindication-related conditions (from the knowledge graph, not label text):** kidney disease, pyoureter, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, infectious mononucleosis, and chronic Epstein-Barr virus infection syndrome.
+
+**Drug Interactions:** 32 interactions were identified. The main moderate-level ones are:
+- Tetracyclines (doxycycline, minocycline, tetracycline)
+- Warfarin and dicoumarol
+- Neomycin
+- Balsalazide
+- Picosulfuric acid
+- Radioactive iodide (I-123, I-131)
+
+Clarithromycin is rated minor. Several others (for example omeprazole, simvastatin, prednisolone, aspirin, clopidogrel, heparin and ibuprofen) have an unknown severity level.
+
+Please refer to the TGA-approved Product Information (PI) for warnings and full safety information.
 
 ---
 
@@ -92,13 +107,14 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (epiglottitis, TxGNN score 99.90%) has no supporting clinical trial or literature evidence (Evidence Level L5), the drug's original indication and mechanism of action are undocumented in this pack, and it is not currently marketed in Australia (0 ARTG entries), which blocks the standard safety pre-screen (data gap DG001).
+The epiglottitis prediction has no trials or literature behind it and conflicts with standard practice. Epiglottitis is an airway emergency treated with intravenous broad-spectrum therapy, and oral penicillin V has limited coverage of the key pathogens. The other top predictions (gonococcal urethritis, Ureaplasma urethritis, urogenital tuberculosis and several non-infectious conditions) are also unsupported or biologically implausible.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (PI) — warnings, contraindications, drug interactions (blocking gap DG001)
-- Mechanism of action data from DrugBank (gap DG002)
-- Original approved indication documentation
-- Targeted literature/clinical search specifically for phenoxymethylpenicillin in epiglottitis, since current PubMed evidence clusters around other candidate indications (laryngitis, UTI, gonococcal urethritis) rather than epiglottitis itself, and some of that adjacent evidence is negative
+- Mechanism of action data
+- Product Information warnings and contraindications for the Australian product (currently missing)
+- The approved indication text for the ARTG entry
+- Clinical or microbiological evidence for penicillin V in epiglottitis, which is unlikely to be justified given current treatment standards
+- Consideration of other predicted indications that are better aligned with the drug's known spectrum, supported by direct evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

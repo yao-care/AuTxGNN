@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Brexpiprazole
-parent: Moderate Evidence (L3-L4)
-nav_order: 99
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 106
+evidence_level: L5
 indication_count: 10
 ---
 
 # Brexpiprazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,63 +29,91 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Brexpiprazole: From Major Depressive Disorder to Dysthymic Disorder
+# Brexpiprazole: From Major Depressive Disorder and Schizophrenia to Dysthymic Disorder
 
 ## One-Sentence Summary
 
-Brexpiprazole (Rexulti) is a serotonin-dopamine activity modulator (SDAM) with FDA approval for schizophrenia and as an adjunctive treatment for major depressive disorder (MDD); it is not currently registered on the Australian Register of Therapeutic Goods (ARTG).
-The TxGNN model predicts it may be effective for **Dysthymic Disorder** (now classified as Persistent Depressive Disorder under DSM-5), supported by a plausible mechanistic rationale given its overlapping pathophysiology with MDD.
-However, there are currently **no registered clinical trials** and **no directly supporting publications** for this specific indication, placing the evidence at **L4** — a hypothesis that requires dedicated clinical investigation before further steps can be taken.
+Brexpiprazole is an atypical antipsychotic (serotonin-dopamine activity modulator) originally used for schizophrenia and as adjunctive treatment in major depressive disorder.
+The TxGNN model predicts it may be effective for **dysthymic disorder**, but **no clinical trials and no publications** specific to this condition were found.
+The prediction is supported by model score alone, and indirect evidence from the approved depression indication.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Schizophrenia (monotherapy); Major Depressive Disorder (adjunctive) — FDA-approved; not TGA-registered in Australia |
-| Predicted New Indication | Dysthymic Disorder |
+|------|------|
+| Original Indication | Major depressive disorder (adjunctive) and schizophrenia (the ARTG entry carries no indication text; indications are drawn from the knowledge graph) |
+| Predicted New Indication | Dysthymic disorder |
 | TxGNN Prediction Score | 98.53% |
-| Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Brexpiprazole is a serotonin-dopamine activity modulator (SDAM) — the second D2 partial agonist to reach the market after aripiprazole. It acts as a partial agonist at dopamine D2 and serotonin 5-HT1A receptors, and as an antagonist at serotonin 5-HT2A and adrenergic α1B receptors. Compared to aripiprazole, brexpiprazole has lower intrinsic D2 activity and substantially higher potency at 5-HT1A and α1B sites. This receptor profile is directly relevant to mood regulation, motivational drive, and anhedonia — all core features of depressive illness. Multiple Phase 3 RCTs support its efficacy as an adjunct to antidepressants in patients with MDD and inadequate response, and the drug has received FDA approval for both schizophrenia and adjunctive MDD treatment.
+Detailed mechanism of action data is not available in the data compiled for this report. From published pharmacology, brexpiprazole is a partial agonist at serotonin 5-HT1A and dopamine D2 receptors and an antagonist at 5-HT2A receptors. Its effect in major depressive disorder as an add-on to antidepressants is established.
 
-Dysthymic disorder — formally designated Persistent Depressive Disorder (PDD) in DSM-5 — shares significant pathophysiological overlap with MDD, including sustained dysregulation of dopaminergic and serotonergic circuits in the prefrontal cortex, hippocampus, and limbic system. Brexpiprazole's D2 partial agonism is thought to modulate mesolimbic dopaminergic output (relevant to chronic anhedonia), while 5-HT1A partial agonism may restore prefrontal cortical serotonin function — both mechanisms directly applicable to the persistent low mood, fatigue, and anhedonia characteristic of dysthymia. The TxGNN model's high prediction score (98.53%) is therefore biologically coherent.
+Dysthymia (persistent depressive disorder) is a chronic, milder form of depression that sits close to major depressive disorder in the disease ontology. The model prediction likely reflects this proximity. A mechanistic overlap is plausible, but it is unverified, because no trials or literature were retrieved for dysthymia specifically.
 
-That said, meaningful caveats apply. The degree and pattern of dopamine/serotonin dysregulation in chronic, low-grade depression is thought to differ from that in acute MDD episodes. All existing Phase 3 RCT populations for brexpiprazole were recruited under DSM-IV/5 MDD criteria — not dysthymia or PDD — and the response to augmentation strategies in chronic low-grade depression may differ substantially. No dedicated studies in dysthymic disorder currently exist. This remains a well-motivated but clinically untested hypothesis.
+**Other predictions reviewed (all lower priority):**
+
+| Predicted Indication | Score | Evidence Level | Comment |
+|---|---|---|---|
+| Benign paroxysmal torticollis of infancy | 98.30% | L5 | No rationale; antipsychotics can cause dystonic reactions, a safety concern in children |
+| Agoraphobia | 98.23% | L5 | 5-HT1A/5-HT2A pharmacology is relevant to anxiety, but unverified |
+| Neurotic disorder | 97.73% | L5 | Broad legacy category; likely reflects ontology proximity |
+| Neurotic depression | 97.11% | L4 | Maps to the already-approved depression indication; indirect evidence only |
+| Melancholia | 97.07% | L4 | Severe depression subtype; no subtype-specific analysis |
+| Keppen-Lubinsky syndrome | 96.05% | L5 | Speculative; no established link |
+| Ohdo syndrome and variants | 94.97% | L5 | No plausible mechanism |
+| Retinal dystrophy with or without extraocular anomalies | 94.75% | L5 | No known disease-modifying role |
+| Congenital isolated ACTH deficiency | 94.50% | L5 | No plausible mechanism |
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Brexpiprazole in dysthymic disorder.
+Currently no related clinical trials registered for dysthymic disorder.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature directly addressing Brexpiprazole in dysthymic disorder.
+Currently no related literature available for dysthymic disorder.
 
-> **Note for clinicians:** Substantial indirect evidence for brexpiprazole in the broader depressive spectrum (MDD and treatment-resistant depression) is available in the related indications within this evidence pack. Highlights include a Phase 3 RCT by Thase et al. (2015, *J Clin Psychiatry*; PMID [26301701](https://pubmed.ncbi.nlm.nih.gov/26301701/)), a dose-effect meta-analysis by Furukawa et al. (2022, *Psychiatry Clin Neurosci*; PMID [35716011](https://pubmed.ncbi.nlm.nih.gov/35716011/)), and a systematic review/NMA by Guo et al. (2024, *Psychiatry Res*; PMID [38924903](https://pubmed.ncbi.nlm.nih.gov/38924903/)). These are captured under the "Neurotic Depression" (Rank 5) and "Melancholia" (Rank 6) indications in the full evidence pack, both of which carry L3 evidence.
+The closest evidence concerns the parent indication of depression (retrieved under the related predictions "neurotic depression" and "melancholia"). It is indirect and does not demonstrate efficacy in dysthymia:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [26301701](https://pubmed.ncbi.nlm.nih.gov/26301701/) | 2015 | RCT (Phase 3) | J Clin Psychiatry | Adjunctive brexpiprazole 2 mg in MDD with inadequate response to antidepressants |
+| [42090141](https://pubmed.ncbi.nlm.nih.gov/42090141/) | 2026 | Network meta-analysis | JAMA Psychiatry | Adjunctive atypical antipsychotics in MDD |
+| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Network meta-analysis | J Affect Disord | Augmentation strategies for treatment-resistant major depression |
+| [38924903](https://pubmed.ncbi.nlm.nih.gov/38924903/) | 2024 | Network meta-analysis of RCTs | Psychiatry Res | Efficacy and safety of eight enhanced therapies for treatment-resistant depression |
+| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | Network meta-analysis | J Psychopharmacol | Antidepressant plus second-generation antipsychotic vs esketamine vs lithium |
+| [37149344](https://pubmed.ncbi.nlm.nih.gov/37149344/) | 2023 | Review | Psychiatr Clin North Am | Antidepressants and atypical antipsychotics in treatment-resistant depression |
+| [36855876](https://pubmed.ncbi.nlm.nih.gov/36855876/) | 2023 | Review | Am J Psychiatry | Role of antipsychotics in treatment-resistant depression |
+| [28331332](https://pubmed.ncbi.nlm.nih.gov/28331332/) | 2017 | Review | Ther Clin Risk Manag | Clinical role of brexpiprazole in depression and schizophrenia |
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11184P | Rexulti | Tablet 4 mg (oral) | Not stated in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Brexpiprazole is not registered on the ARTG; no TGA-approved Australian Product Information (PI) exists. Please refer to the US FDA prescribing information (Rexulti® — Otsuka America Pharmaceutical / Lundbeck) for the full safety profile.
-
-From internationally available data, the following class-level and drug-specific considerations are relevant:
-
-- **Antipsychotic class effects:** Metabolic syndrome risk (weight gain, dyslipidaemia, hyperglycaemia), extrapyramidal symptoms, tardive dyskinesia risk (lower than first-generation antipsychotics but non-negligible with long-term use), QTc prolongation, orthostatic hypotension (α1B antagonism).
-- **Brexpiprazole-specific:** Akathisia (lower frequency than aripiprazole), somnolence, weight gain (moderate), and visual disturbances including blurred vision — the latter warrants particular caution if use in ophthalmologically relevant indications is ever considered.
-- **Special populations:** The FDA added a boxed warning for increased mortality risk in elderly patients with dementia-related psychosis (class warning for all atypical antipsychotics). Brexpiprazole has also received FDA approval for agitation in Alzheimer's disease (2023), which may be relevant to future expanded indication discussions.
+- **Drug Interactions**: 100 interactions were identified in total. Those listed below are from the first 20 returned; the full list should be reviewed.
+  - **Major**: bupropion, aprepitant, morphine, lorcaserin, cimetidine, clarithromycin, clotrimazole
+  - **Moderate**: antidiabetic agents (acarbose, albiglutide, alogliptin, metformin, pioglitazone, canagliflozin, dapagliflozin, acetohexamide), epinephrine, and anticholinergics (hyoscyamine, atropine, clidinium), loperamide
+- For warnings and contraindications, please refer to the TGA-approved Product Information (PI). Antipsychotics can cause dystonic reactions, which is particularly relevant if paediatric use were ever considered.
 
 ---
 
@@ -94,19 +122,15 @@ From internationally available data, the following class-level and drug-specific
 **Decision: Hold**
 
 **Rationale:**
-There is currently no direct clinical evidence — neither registered clinical trials nor specific publications — supporting brexpiprazole for dysthymic disorder. While the SDAM mechanism provides a biologically coherent rationale grounded in shared pathophysiology with MDD, mechanistic plausibility alone is insufficient to support clinical use. Furthermore, brexpiprazole is not registered in Australia; any use would require navigation of TGA access pathways prior to any clinical application.
+The dysthymia prediction has a high model score but no trials or publications, so it remains at evidence level L5. The nearby depression evidence supports the already-approved adjunctive MDD use, not a distinct new indication.
 
 **To proceed, the following is needed:**
-
-- Dedicated clinical trial data for brexpiprazole in dysthymic disorder / Persistent Depressive Disorder (PDD); consider a Phase 2 proof-of-concept design using augmentation in antidepressant-refractory PDD patients
-- Systematic review to determine whether any existing MDD Phase 3 trial subpopulations overlap meaningfully with PDD/dysthymic criteria (e.g., chronic course subgroup analyses)
-- TGA registration pathway assessment — options include Special Access Scheme (SAS) Category B for individual patient access, Authorised Prescriber designation, or full ARTG registration via the TGA's comparable overseas regulator (COR) pathway recognising FDA approval
-- Full Australian-compliant Product Information (PI) and Risk Management Plan for any regulatory submission
-- Assessment of PBS listing feasibility and pharmacoeconomic modelling for the Australian context
-
----
-
-> ⚠️ **Disclaimer:** This report is intended for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All content should be interpreted in the context of applicable TGA regulations and individual clinical judgement.
+- Dysthymia-specific literature review and trial registry search (including ANZCTR)
+- Detailed mechanism of action data
+- TGA Product Information warnings and contraindications (a blocking gap for safety screening)
+- Review of the full interaction list (100 interactions)
+- Evaluation of whether dysthymia is distinct enough from the approved MDD indication to count as a repurposing opportunity
+- Proof-of-concept trial design, if the sponsor wishes to pursue it
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Amoxicillin
 parent: Model Prediction Only (L5)
-nav_order: 45
+nav_order: 48
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,71 +33,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Amoxicillin is a broad-spectrum penicillin-class antibiotic with well-established use in treating a wide range of bacterial infections, including respiratory tract, urinary tract, and skin infections.
-The TxGNN model predicts it may be effective for **Polyclonal Hyperviscosity Syndrome**,
-however, this prediction is currently supported by **0 clinical trials** and **0 publications**, representing a purely model-driven finding with no direct clinical evidence.
-
----
+Amoxicillin is a beta-lactam antibiotic originally used for bacterial infections such as urinary tract infection, otitis media, pharyngitis and bacterial pneumonia.
+The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but there are **0 clinical trials** and **0 publications** supporting this prediction. It rests on a knowledge-graph score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Bacterial infections (no ARTG records found) |
-| Predicted New Indication | Polyclonal Hyperviscosity Syndrome |
+|------|------|
+| Original Indication | Urinary tract infection, infectious otitis media, streptococcal infection, bacterial pneumonia, pharyngitis and other bacterial infections (the ARTG entry has no indication text, so these come from the knowledge graph) |
+| Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed (per current data) |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack. Based on established pharmacology, amoxicillin is a beta-lactam antibiotic that inhibits bacterial cell wall synthesis by irreversibly binding to penicillin-binding proteins (PBPs), blocking peptidoglycan cross-linking and triggering bacterial cell lysis. It is active against a wide range of Gram-positive and selected Gram-negative organisms.
+Currently, detailed mechanism of action data is not available. Amoxicillin is a beta-lactam antibacterial, a class that inhibits bacterial cell wall synthesis. Its efficacy in bacterial infections is well established.
 
-Polyclonal hyperviscosity syndrome is characterised by elevated plasma viscosity due to a marked rise in polyclonal immunoglobulins, most commonly arising in the context of chronic inflammatory states, autoimmune disease, or recurrent infection rather than as a primary bacterial illness. There is a narrow indirect rationale: if a sustained or recurrent bacterial infection is driving chronic immune stimulation and polyclonal hypergammaglobulinaemia, effective antibiotic treatment could theoretically reduce antigenic load, thereby dampening immunoglobulin production and lowering viscosity.
+For polyclonal hyperviscosity syndrome, no plausible mechanistic link is apparent. The condition is driven by elevated immunoglobulin levels and has no antibacterial target. The high score (99.63%) is a knowledge-graph prediction only and is likely a graph-topology artefact.
 
-However, no clinical trials or peer-reviewed publications have directly examined amoxicillin for this condition. The TxGNN score likely reflects topological proximity within the knowledge graph (e.g., shared disease nodes linking infectious aetiology to immune dysregulation) rather than a validated causal mechanism. This prediction should be treated as a hypothesis-generating signal only.
-
----
+Other predictions in the list show the same pattern. The ones with some biological plausibility are:
+- **Epiglottitis** (L4, Research Question): a bacterial upper-airway infection close to amoxicillin's existing uses. It is effectively an extension of existing indications and not a novel repurposing. Beta-lactamase-producing *H. influenzae* and standard parenteral cephalosporin management limit the role of plain amoxicillin.
+- **Septicaemic plague** (L4, Research Question): supported only by in vitro and animal work, and beta-lactams are not standard therapy.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for polyclonal hyperviscosity syndrome.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for polyclonal hyperviscosity syndrome.
 
----
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11947T | AMILOXYN | Capsule 500 mg (as trihydrate) | Not available in the data compiled for this report |
+
+The route of administration is oral.
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Conditions linked to contraindication or caution in the knowledge graph** (these are not label text and should be verified against the Product Information): long QT syndrome, torsades de pointes, ventricular tachycardia, liver failure, liver disease, cholestasis, kidney disease, porphyria, *Clostridium difficile* colitis, myasthenia gravis, osteoporosis, bone fracture, gallbladder disease, and infectious mononucleosis.
+- **Drug Interactions** (100 interactions recorded; examples):
+  - **Major**: methotrexate; live oral cholera vaccine (*Vibrio cholerae* CVD 103-HgR)
+  - **Moderate**: doxycycline, minocycline, demeclocycline, ethinylestradiol, estradiol, anisindione, dicoumarol, mycophenolate mofetil, entecavir, balsalazide, and probiotics (*Lactobacillus acidophilus*, *Bifidobacterium longum infantis*)
+  - **Minor**: allopurinol, amiloride, azithromycin, clarithromycin, erythromycin
 
----
+Please refer to the TGA-approved Product Information (PI) for the authoritative warnings and contraindications, as these were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is a model-only prediction (Evidence Level L5) with no registered clinical trials and no published literature directly supporting the use of amoxicillin for polyclonal hyperviscosity syndrome. The proposed mechanistic link is indirect, speculative, and lacks any clinical validation.
+The top prediction has no clinical trials, no literature and no plausible mechanism. Evidence is at L5 (model prediction only). Across the other predicted indications, only epiglottitis and septicaemic plague show any biological plausibility, and both remain at L4 with no trials.
 
 **To proceed, the following is needed:**
-- Retrieve confirmed mechanism of action (MOA) data from DrugBank (DB01060) to support mechanistic plausibility assessments
-- Download and parse the TGA-approved Product Information (PI) to establish approved indications, key warnings, and contraindications
-- Verify ARTG registration status directly via the TGA ARTG public portal, as the current data shows zero entries despite amoxicillin's known clinical availability
-- Commission a targeted systematic literature review focusing on amoxicillin and hyperviscosity, polyclonal hypergammaglobulinaemia, or chronic infection-associated immunoglobulin elevation
-- Consider prioritising **Monoclonal Gammopathy / IPSID (Rank 6, Evidence Level L3)** as a more actionable repurposing candidate: multiple published case series (PMIDs 9030995, 20300878, 8988128, 16253033) document regression of immunoproliferative small intestinal disease (IPSID / alpha heavy-chain disease) following *Helicobacter pylori* eradication therapy that includes amoxicillin, establishing a biologically plausible and partially evidenced mechanistic link
-
----
-
-> **Disclaimer:** This report is produced for research purposes only and does not constitute medical advice. All drug repurposing candidates require prospective clinical validation before any therapeutic application can be considered.
+- Mechanism of action data, to assess any link to hyperviscosity or immunoglobulin biology
+- TGA Product Information for warnings and contraindications (safety screening cannot proceed without it)
+- Any supporting preclinical or clinical evidence for polyclonal hyperviscosity syndrome
+- If a lower-risk direction is wanted, review epiglottitis separately, given its closeness to existing labelled respiratory and ENT uses
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Tofacitinib
 parent: Model Prediction Only (L5)
-nav_order: 683
+nav_order: 735
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tofacitinib: From Rheumatoid Arthritis to Plasma Cell Myeloma (Lead Candidate Among 10 TxGNN Predictions)
+# Tofacitinib: From Rheumatoid Arthritis to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
 
 ## One-Sentence Summary
 
-> Tofacitinib is a pan-JAK inhibitor (JAK1/JAK3, partial JAK2 activity) referenced in the literature as FDA-approved for rheumatoid arthritis — regulatory confirmation of the original indication is not available in this evidence pack (data gap DG001).
-> TxGNN screened **10 candidate indications**; only two are supported by any literature, with **Plasma Cell Myeloma** the most credible candidate (**3 publications**, no clinical trials) and **Myeloid Leukemia** carrying a conflicting safety signal (**8 publications**, including a case report of new-onset CML during tofacitinib treatment).
-> The remaining 8 candidates (rank 1–3, 6–10) have **zero supporting evidence** — the model's own rationale flags several of these as likely false positives from knowledge-graph node sparsity.
+Tofacitinib is an oral Janus kinase (JAK) inhibitor, originally used to treat rheumatoid arthritis.
+The TxGNN model ranks **colobomatous microphthalmia-rhizomelic dysplasia syndrome** as its top prediction, but this is a computational prediction only, with **no clinical trials** and **no publications** supporting it.
+The best-supported alternative signal in the data is **plasma cell myeloma**, which has preclinical evidence only (see the note below the Quick Overview).
 
 ---
 
@@ -43,93 +43,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not confirmed in this evidence pack (data gap DG001). Literature (PMID 29622655) describes tofacitinib as "FDA approved for rheumatoid arthritis." |
-| Predicted New Indication (lead candidate) | Plasma Cell Myeloma |
-| TxGNN Prediction Score (lead candidate) | 96.09% (rank 32,460) |
-| Evidence Level | L4 (best-supported candidate) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Original Indication | Rheumatoid arthritis (the ARTG entry in the data compiled for this report has no approved indication text) |
+| Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| TxGNN Prediction Score | 98.96% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
-**Note:** The single highest TxGNN score among the 10 candidates (98.96%, "colobomatous microphthalmia-rhizomelic dysplasia syndrome") has **no supporting literature or trials** and is explicitly flagged by the model rationale as a probable artefact of graph sparsity, not a genuine signal. It is not used as the headline prediction.
-
----
-
-## Full List of Predicted Indications
-
-| Rank | Disease | TxGNN Score | Evidence Level | Stage | Recommendation |
-|------|---------|-------------|-----------------|-------|-----------------|
-| 1 | Colobomatous microphthalmia–rhizomelic dysplasia syndrome | 98.96% | L5 | S0 | Hold |
-| 2 | Brachydactyly–syndactyly syndrome | 98.88% | L5 | S0 | Hold |
-| 3 | Indolent plasma cell myeloma | 96.66% | L5 | S0 | Hold |
-| 4 | **Plasma cell myeloma** | 96.09% | **L4** | **S1** | **Research Question** |
-| 5 | Myeloid leukemia | 95.43% | L4 | S0 | Hold (safety signal) |
-| 6 | Ganglioneuroblastoma | 79.55% | L5 | S0 | Hold |
-| 7 | Macrothrombocytopenia with mitral valve insufficiency | 76.17% | L5 | S0 | Hold |
-| 8 | Hereditary thrombocytopenia with normal platelets | 75.76% | L5 | S0 | Hold |
-| 9 | Vertebral anomalies with variable endocrine and T-cell dysfunction | 75.34% | L5 | S0 | Hold |
-| 10 | Retroperitoneal neoplasm | 75.26% | L5 | S0 | Hold |
-
-Only rows 4 and 5 have any literature evidence; rows 1–3 and 6–10 are model output alone.
+**Note on other predictions:** Plasma cell myeloma (TxGNN 96.09%) and myeloid leukaemia (95.43%) are rated L4 with a "Research Question" status, because they have preclinical evidence. Both remain well short of clinical-level support.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is flagged as a data gap in this evidence pack (DG002). Based on the literature captured, tofacitinib is a pan-JAK inhibitor (JAK1/JAK3, with partial JAK2 activity) originally developed for rheumatoid arthritis, working by blocking cytokine-driven JAK-STAT signalling in immune cells.
+Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known information, tofacitinib is a pan-JAK inhibitor (mainly JAK1/JAK3) that blocks JAK/STAT cytokine signalling. Its efficacy in rheumatoid arthritis is established.
 
-For **Plasma Cell Myeloma**, the mechanistic case is the strongest of the 10 candidates: myeloma cell proliferation is highly dependent on the bone marrow microenvironment's IL-6/JAK/STAT3 signalling axis. A preclinical repurposing screen (PMID 29622655) specifically identified tofacitinib as capable of reversing the growth-promoting effects of bone marrow stromal cells on myeloma cells. Two observational cohort studies (PMID 38071595, PMID 39819734) provide indirect, population-level context on JAK-inhibitor exposure and myeloma-related outcomes, but neither is a direct interventional trial.
+For the top-ranked prediction, colobomatous microphthalmia-rhizomelic dysplasia syndrome, **no plausible mechanistic link** to JAK/STAT signalling was identified. It is a rare developmental syndrome, and the high score reflects a graph-based prediction only. The second-ranked prediction (brachydactyly-syndactyly syndrome, 98.88%) is in the same position.
 
-For **Myeloid Leukemia**, the evidence is mechanistically plausible but directionally mixed. In vitro work shows JAK-STAT pathway involvement in myeloid leukemia (particularly JAK2-mutant disease) and JAK3 inhibition can enhance imatinib activity against CML cells (PMID 29458040). However, a case report (PMID 31263618) documents a patient developing chronic myeloid leukemia *while on* tofacitinib for rheumatoid arthritis — this is a potential safety signal, not supporting evidence, and must be weighed against any therapeutic hypothesis.
-
-The other 8 candidates are rare genetic/developmental syndromes or heterogeneous tumour categories with no described JAK-STAT pathogenic link and no supporting literature; per the model's own rationale, several likely reflect knowledge-graph sparsity rather than genuine biological signal.
+The more biologically plausible directions are haematological:
+- **Plasma cell myeloma:** IL-6/JAK/STAT3 signalling promotes myeloma cell survival and growth. A 2018 preclinical study reported that tofacitinib may reverse the growth-promoting effects of the bone marrow microenvironment.
+- **Myeloid leukaemia:** JAK/STAT signalling is implicated in myeloid malignancies. Preclinical work shows JAK3 inhibition enhancing imatinib activity in chronic myeloid leukaemia (CML) cells.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for any of the 10 predicted indications (including Plasma Cell Myeloma and Myeloid Leukemia).
+Currently no related clinical trials registered for the top-ranked indication, or for any of the 10 predicted indications.
 
 ---
 
 ## Literature Evidence
 
-### Plasma Cell Myeloma
+No literature is available for the top-ranked indication. The table below lists the most relevant publications for the next-best-supported predictions (plasma cell myeloma and myeloid leukaemia). Most of this evidence is preclinical, and several items are safety signals rather than efficacy evidence.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29622655](https://pubmed.ncbi.nlm.nih.gov/29622655/) | 2018 | Preclinical (in vitro/mechanistic) | Haematologica | Tofacitinib identified in a repurposing screen as reversing bone-marrow-microenvironment-driven growth promotion of myeloma cells |
-| [39819734](https://pubmed.ncbi.nlm.nih.gov/39819734/) | 2025 | Cohort (retrospective, US Veterans) | BMC Rheumatology | Examines whether b/ts-DMARD use (including JAK inhibitors) affects multiple myeloma incidence in RA patients |
-| [38071595](https://pubmed.ncbi.nlm.nih.gov/38071595/) | 2024 | Cohort/Observational (pharmacovigilance) | J Eur Acad Dermatol Venereol | FAERS study linking immunosuppressive/immunomodulatory drug exposure (incl. myeloma population) to sebaceous carcinoma reporting odds — indirect safety context, not efficacy evidence |
-
-### Myeloid Leukemia (safety signal — not purely supportive)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29458040](https://pubmed.ncbi.nlm.nih.gov/29458040/) | 2018 | Preclinical (in vitro synergy) | Eur J Pharmacol | JAK3 inhibition enhances imatinib antitumour activity against CML leukemic stem cells |
-| [26300391](https://pubmed.ncbi.nlm.nih.gov/26300391/) | 2015 | Preclinical (in vitro) | Eur J Pharmacol | JAK inhibitors alter gene expression and cell cycle in AML cell lines with JAK2 mutation |
-| [34693224](https://pubmed.ncbi.nlm.nih.gov/34693224/) | 2021 | Preclinical (mechanistic) | iScience | Tofacitinib reduces SLFN11 expression in JAK-pathway gain-of-function leukemia cells |
-| [38992456](https://pubmed.ncbi.nlm.nih.gov/38992456/) | 2024 | Preclinical (mechanistic) | Arch Biochem Biophys | Tofacitinib modulates aryl hydrocarbon receptor activity; discusses repurposing in CML context |
-| [22777068](https://pubmed.ncbi.nlm.nih.gov/22777068/) | 2012 | Review | Z Rheumatol | General review of new kinase inhibitors including tofacitinib |
-| [37352275](https://pubmed.ncbi.nlm.nih.gov/37352275/) | 2023 | Preclinical (screening methodology) | Blood Advances | Co-culture drug-screening methodology in haematological malignancies |
-| [31816725](https://pubmed.ncbi.nlm.nih.gov/31816725/) | 2020 | Methodology (analytical/PK assay) | Talanta | LC-MS/MS therapeutic drug monitoring method covering tofacitinib among TKIs |
-| **[31263618](https://pubmed.ncbi.nlm.nih.gov/31263618/)** | 2019 | **Case Report** | Case Rep Rheumatol | **Patient developed chronic myeloid leukemia while receiving tofacitinib for RA — safety signal, not efficacy evidence** |
+| [29622655](https://pubmed.ncbi.nlm.nih.gov/29622655/) | 2018 | Preclinical (in vitro) | Haematologica | Repurposing tofacitinib as an anti-myeloma agent to reverse growth-promoting effects of the bone marrow microenvironment (plasma cell myeloma) |
+| [29458040](https://pubmed.ncbi.nlm.nih.gov/29458040/) | 2018 | Preclinical (in vitro) | Eur J Pharmacol | JAK3 inhibition enhances the antitumour activity of imatinib in CML cells (myeloid leukaemia) |
+| [26300391](https://pubmed.ncbi.nlm.nih.gov/26300391/) | 2015 | Preclinical (cell line) | Eur J Pharmacol | JAK inhibitors alter gene expression and cell cycle in AML cell lines with JAK2 mutation (myeloid leukaemia) |
+| [38992456](https://pubmed.ncbi.nlm.nih.gov/38992456/) | 2024 | Preclinical (mechanistic) | Arch Biochem Biophys | Ponatinib and tofacitinib modulate aryl hydrocarbon receptor activity (myeloid leukaemia) |
+| [34693224](https://pubmed.ncbi.nlm.nih.gov/34693224/) | 2021 | Preclinical (cell line) | iScience | JAK inhibitors including tofacitinib reduced SLFN11 expression in leukaemia cells with JAK pathway mutations (myeloid leukaemia) |
+| [39819734](https://pubmed.ncbi.nlm.nih.gov/39819734/) | 2025 | Cohort (retrospective) | BMC Rheumatol | Examines DMARD use and risk of multiple myeloma in US Veterans with rheumatoid arthritis; a safety-context study (plasma cell myeloma) |
+| [38071595](https://pubmed.ncbi.nlm.nih.gov/38071595/) | 2024 | Cohort/Epidemiologic | J Eur Acad Dermatol Venereol | FDA adverse event database study linking immunosuppressants and haematologic malignancy to sebaceous carcinoma; a safety signal (plasma cell myeloma) |
+| [31263618](https://pubmed.ncbi.nlm.nih.gov/31263618/) | 2019 | Case report | Case Rep Rheumatol | CML arising in a patient receiving tofacitinib; a safety/causality concern, not efficacy evidence (myeloid leukaemia) |
+| [22777068](https://pubmed.ncbi.nlm.nih.gov/22777068/) | 2012 | Review | Z Rheumatol | Overview of new kinase inhibitors in rheumatoid arthritis; limited relevance (myeloid leukaemia) |
+| [37352275](https://pubmed.ncbi.nlm.nih.gov/37352275/) | 2023 | Preclinical (compound screening) | Blood Adv | Compares mono- vs coculture for high-throughput drug screening in haematological malignancies; limited relevance (myeloid leukaemia) |
 
 ---
 
 ## Australia Market Information
 
-Tofacitinib is currently **not marketed in Australia** under this evidence pack — 0 ARTG entries were returned. No product/dosage form/indication table can be generated.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10511F | Xeljanz | Tablet 5 mg (oral) | Not available in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-No structured PI-derived safety data (key warnings, contraindications, DDI) is available in this evidence pack (all fields marked as data gaps, DG001).
+- **Drug Interactions:** The interaction screen returned 100 interactions in total. Major-level interactions listed among the first 20 entries are mostly with corticosteroids: hydrocortisone, triamcinolone (including ophthalmic), dexamethasone, betamethasone, budesonide, prednisone and prednisolone. Clarithromycin is also rated Major. Moderate interactions include aprepitant, morphine (including liposomal), opium, aspirin, omeprazole, esomeprazole, lansoprazole and miconazole. Zinc sulfate and zinc acetate are Minor.
+- **Malignancy signals:** The literature includes reports of malignancy (CML, sebaceous carcinoma) in people exposed to tofacitinib or other immunosuppressants. Causality is not established, but this is relevant to any oncology-related repurposing.
+- **Immune deficiency:** For the T-cell dysfunction syndrome (rank 9), tofacitinib's immunosuppression could worsen the underlying immune deficiency.
 
-> Please refer to the TGA-approved Product Information (PI) for safety information.
-
-**Literature-derived safety signal (not from PI):** A published case report (PMID 31263618) describes chronic myeloid leukemia developing in a patient during tofacitinib treatment for rheumatoid arthritis. This does not establish causation but should be treated as a flag requiring clarification before any myeloid leukemia repurposing hypothesis is pursued.
+For warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
 ---
 
@@ -138,14 +115,14 @@ No structured PI-derived safety data (key warnings, contraindications, DDI) is a
 **Decision: Hold**
 
 **Rationale:**
-No candidate indication has clinical trial support. The best-evidenced candidate, Plasma Cell Myeloma, sits at L4/S1 ("Research Question") — sufficient to justify further investigation but not to proceed toward clinical development. Myeloid Leukemia carries a documented adverse safety signal that must be resolved before consideration. The remaining 8 candidates have no supporting evidence and several are flagged by the model itself as likely false positives.
+The top-ranked prediction is supported only by a graph-based score, with no clinical trials, no literature and no identifiable mechanistic link to JAK inhibition (Evidence Level L5). The more biologically plausible directions, plasma cell myeloma and myeloid leukaemia, have preclinical evidence only (L4) and are best treated as research questions, not near-term clinical options.
 
 **To proceed, the following is needed:**
-- TGA-equivalent Product Information / warnings and contraindications (DG001, Blocking)
-- Confirmed mechanism of action and original approved indication from DrugBank (DG002, High)
-- Prospective or at minimum larger retrospective data specifically on tofacitinib in plasma cell myeloma (current evidence is preclinical + indirect cohort only)
-- Pharmacovigilance review to clarify the CML case-report signal before any myeloid leukemia hypothesis is advanced
-- Re-screening or graph-density review of the L5 candidates (ranks 1–3, 6–10) before allocating further evaluation resources to them
+- Detailed mechanism of action data
+- TGA PI warnings and contraindications, and the approved indication text for the Xeljanz ARTG entry
+- A mechanistic rationale, or supporting experimental data, for the top-ranked rare syndromes
+- For plasma cell myeloma, further preclinical validation and a review of the malignancy-risk signals before considering early-phase clinical studies
+- Assessment of route compatibility (currently pending for all predicted indications)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Valsartan
 parent: Moderate Evidence (L3-L4)
-nav_order: 714
+nav_order: 768
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,66 +29,89 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-Using no additional skills — this is a direct content-generation task with an explicit, complete template already provided; no coding, debugging, or brainstorming applies.
-
----
-
-# Valsartan: From ARB Antihypertensive Therapy to Malignant Hypertensive Renal Disease
+# Valsartan: From Hypertension to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Valsartan is an angiotensin II receptor blocker (ARB); the evidence pack does not contain a confirmed original indication or detailed mechanism of action record for this drug. The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease**, but this direction is currently supported by only **0 clinical trials** and **1 publication** (which studied a different drug, not valsartan itself).
+Valsartan is an angiotensin II receptor blocker originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
+but **no clinical trials** and only **1 publication** (a preclinical study of a different drug) currently support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established in the data provided (drug classified as ARB / RAAS inhibitor based on rationale text) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
+| Original Indication | Hypertension (hypertensive disorder). The Australian licence record has no approved indication text, so this is taken from the knowledge-graph indication data |
+| Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L4 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for valsartan is not available in this evidence pack (flagged as a High-severity data gap). Based on the information that is available, valsartan is referenced as an ARB that inhibits the renin-angiotensin system (RAAS). RAAS overactivation is a recognised driver of vascular and renal injury in malignant hypertension, which provides a plausible mechanistic rationale for exploring ARB therapy in malignant hypertensive renal disease.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, valsartan is an angiotensin II type 1 (AT1) receptor blocker. Its efficacy in hypertension is established, and mechanistically it may be applicable to hypertensive kidney injury.
 
-The single literature reference supporting this specific prediction (PMID 24368192) does not study valsartan directly — it examines avosentan, an endothelin receptor antagonist, in a rat model of hypertensive nephropathy. This is a different drug class, so the evidence only supports the broader concept that antagonising vasoactive/pressor pathways can be renoprotective in malignant hypertension, rather than providing direct valsartan-specific data.
+Angiotensin II is thought to drive vascular and kidney damage in severe hypertension. A 2001 animal study found that AT1 receptor blockade prevented lethal malignant hypertension, partly through effects on kidney inflammation. That study concerns the drug class rather than valsartan itself, so it supports the mechanism only indirectly.
 
-It is worth noting that a closely related prediction in this same evidence pack (malignant renovascular hypertension, rank 2) is supported by a study showing that AT1 receptor blockade — the same pharmacological target as valsartan — prevents lethal malignant hypertension in an animal model. While this is preclinical evidence for a related but distinct indication, it strengthens the class-level plausibility of RAAS blockade in malignant hypertensive pathology generally.
+The only paper retrieved for this exact prediction (PMID 24368192) studied avosentan, an endothelin antagonist, in a rat model of hypertensive nephropathy. It offers no direct evidence for valsartan. Because valsartan is already used for hypertension, the added value of this specific indication is also limited.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for this indication.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | RCT (different drug) | Pharmacological Research | Studied avosentan (an endothelin receptor antagonist, not valsartan) in a double-transgenic rat model of hypertensive nephropathy; found a protective effect against renal injury at doses below those causing fluid retention. Supports the general concept of pressor-pathway antagonism being renoprotective, but is not direct evidence for valsartan. |
+| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Preclinical | Pharmacological Research | Avosentan (not valsartan) protected against hypertensive nephropathy in transgenic rats at doses that did not cause fluid retention |
+
+Related class-level evidence from the second-ranked prediction, malignant renovascular hypertension: [11560862](https://pubmed.ncbi.nlm.nih.gov/11560862/) (Circulation, 2001, preclinical) showed that AT1 receptor blockade prevented lethal malignant hypertension in an animal model.
 
 ## Australia Market Information
 
-Valsartan currently has no ARTG entries and is recorded as not marketed in Australia based on the available regulatory data.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13383J | Dilart | Tablet 320 mg | Not stated in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Contraindications flagged in the knowledge graph** (drug-disease links, not product label text): liver failure and liver disease, pancreatitis, gallbladder disease, angioedema (including hereditary, acquired and RAAS-blocker-induced forms), systemic lupus erythematosus, diabetes mellitus and diabetic ketoacidosis, potassium deficiency, hypotensive disorder, anuria, impaired renal function, renal artery obstruction, gout, neutropenia and agranulocytosis, hepatic encephalopathy, hypercalcaemia, hyperparathyroidism and neonatal jaundice. These should be checked against the TGA Product Information.
+- **Drug Interactions** (100 interactions recorded; main ones listed):
+  - **Major:** potassium chloride and potassium bicarbonate (risk of hyperkalaemia).
+  - **Moderate:** insulin products (many formulations), exenatide, hydrocortisone, eluxadoline and polyethylene glycol 3350 with electrolytes.
+
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but the supporting evidence is limited to a single tier-3 preclinical study of a different drug class, with no clinical trials evaluating valsartan in this indication. Combined with missing MOA and TFDA/TGA safety data, the evidence does not yet support progression beyond an early research question.
+The prediction score is high, but the evidence is only L4. There are no clinical trials, and the sole retrieved paper tests a different drug. Valsartan already covers hypertension, so a separate indication for malignant hypertensive renal disease would add little without direct evidence.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications, DDI) — currently a blocking data gap
-- Confirmed mechanism of action data for valsartan from DrugBank or another authoritative source
-- Primary literature or trials evaluating valsartan itself (not analogue drugs such as avosentan) in malignant hypertensive renal disease
-- Confirmation of valsartan's Australian registration/market status, given ARTG entries currently show zero
+- Valsartan-specific preclinical or clinical data in malignant hypertensive kidney disease
+- Mechanism of action data, which is currently missing
+- Product Information warnings and contraindications from the TGA, plus the approved indication text for the ARTG entry
+- Renal safety monitoring plan, covering potassium and renal function, for patients with severe hypertension and kidney impairment
+
+## Other Predictions Reviewed
+
+For context, the other predictions had weaker or less direct support:
+
+| Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|
+| Malignant renovascular hypertension | 99.97% | L4 | Class-level preclinical support only |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.97% | L4 | Preclinical papers, mostly on the sacubitril/valsartan combination; no trials |
+| Pulmonary hypertension with unclear multifactorial mechanism | 99.97% | L5 | Prediction only |
+| Braddock syndrome | 99.96% | L5 | Prediction only |
+| Chronic pulmonary heart disease | 99.58% | L3 | Indirect heart failure data on sacubitril/valsartan; the one registered trial ([NCT02966665](https://clinicaltrials.gov/study/NCT02966665), Phase 1, 420 participants, recruiting) is an exercise and vascular function study in hypertension, not a valsartan test |
+| Prinzmetal angina | 99.45% | L5 | Single paper is not relevant |
+| Familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 98.50% | L5 | Prediction only |
+| Brain small vessel disease 1 | 98.47% | L5 | Literature match appears spurious |
+| Obsolete susceptibility to ischemic stroke | 98.22% | L5 | Obsolete term, not actionable |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

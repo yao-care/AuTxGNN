@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Obinutuzumab
-parent: Moderate Evidence (L3-L4)
-nav_order: 482
-evidence_level: L4
+parent: High Evidence (L1-L2)
+nav_order: 516
+evidence_level: L1
 indication_count: 10
 ---
 
 # Obinutuzumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,112 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Obinutuzumab: From Chronic Lymphocytic Leukemia to Pregerminal Center Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
+# Obinutuzumab: From Acute Lymphoblastic Leukaemia / Richter Syndrome to Follicular Lymphoma
 
 ## One-Sentence Summary
 
-Obinutuzumab is a second-generation anti-CD20 monoclonal antibody already used internationally for chronic lymphocytic leukaemia (CLL), although it is **not currently registered in Australia**. The TxGNN model's top-ranked prediction is for **pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma** (a molecular subtype of CLL/SLL), but this evidence pack currently holds **0 clinical trials** and **0 publications** for that specific subtype. The strongest independently-supported candidates in this evidence pack are instead **follicular lymphoma** (Phase 3 RCT-level, L1) and **mantle cell lymphoma** (L2) — see the overview table below.
+Obinutuzumab is a glycoengineered type II anti-CD20 antibody, originally used for B-cell leukaemia indications (acute lymphoblastic leukaemia and Richter syndrome in the knowledge graph).
+The TxGNN model predicts it may be effective for **Follicular Lymphoma** (the top-ranked prediction with clinical support), with **40 clinical trials** and **19 publications** in the data compiled for this report.
+Evidence is strong for this indication, including the phase 3 GALLIUM trial and the randomised phase 2 ROSEWOOD trial.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic Lymphocytic Leukemia (CLL) — a globally recognised approved indication for obinutuzumab; not captured in the Australian regulatory data in this evidence pack, as the drug is not yet registered here |
-| Predicted New Indication | Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma |
-| TxGNN Prediction Score | 99.21% |
-| Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Research Question |
-
-## Other Predicted Indications in This Evidence Pack
-
-This evidence pack scored 10 candidate indications for obinutuzumab. Evidence quality varies sharply, so this table is included to guide which candidates merit closer attention:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
-|------|----------------------|-------------|-----------------|-----------------|-----------------|
-| 1 | Pregerminal center CLL/SLL | 99.21% | L4 | S1 | Research Question |
-| 2 | CLL/SLL with IGHV somatic hypermutation | 99.21% | L4 | S1 | Research Question |
-| 3 | **Follicular lymphoma** | 99.18% | **L1** | S3 | **Proceed with Guardrails** |
-| 4 | **Mantle cell lymphoma** | 98.75% | **L2** | S3 | **Proceed with Guardrails** |
-| 5 | Metastatic neoplasm | 98.51% | L4 | S0 | Hold |
-| 6 | Malignant spiradenoma | 98.47% | L5 | S0 | Hold |
-| 7 | Neoplasm of mature B-cells | 98.08% | L3 | S2 | Research Question |
-| 8 | Small intestinal Burkitt lymphoma | 97.84% | L5 | S0 | Hold |
-| 9 | Langerhans cell histiocytosis | 97.81% | L5 | S0 | Hold |
-| 10 | Thyroid gland MALT lymphoma | 97.76% | L5 | S0 | Hold |
-
-Ranks 1–2 and 5–6 and 8–10 either have no supporting trials/literature in this dataset or, in the case of malignant spiradenoma and Langerhans cell histiocytosis, target cell types that do not typically express CD20 — these are likely knowledge-graph embedding artefacts rather than genuine repurposing signals.
+| Original Indication | Acute lymphoblastic/lymphocytic leukaemia; Richter syndrome (from the knowledge graph; no approved indication text is available in the ARTG data) |
+| Predicted New Indication | Follicular lymphoma (the first-ranked predictions, two CLL/SLL subtypes, have no subtype-specific evidence and sit within the existing CLL indication, so follicular lymphoma is the best-supported prediction) |
+| TxGNN Prediction Score | 99.18% |
+| Evidence Level | L1 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for obinutuzumab was not returned from DrugBank in this evidence pack (flagged as a High-severity data gap). Based on the mechanistic rationale text included with the predictions, obinutuzumab is described as a second-generation anti-CD20 monoclonal antibody, and its efficacy in CLL is well established internationally (e.g. the CLL11 trial). Mechanistically, anti-CD20 activity is applicable across CD20-positive B-cell malignancies, which is why the model surfaces several lymphoma/leukaemia subtypes as high-scoring candidates.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, obinutuzumab is a humanised, glycoengineered type II anti-CD20 monoclonal antibody. Its type II binding enhances direct cell death, antibody-dependent cellular cytotoxicity (ADCC) and antibody-dependent cellular phagocytosis (ADCP) compared with rituximab.
 
-The rank-1 and rank-2 predictions — "pregerminal center CLL/SLL" and "CLL/SLL with IGHV somatic hypermutation" — are not truly novel indications; they are molecular/prognostic subclassifications of CLL/SLL, a disease obinutuzumab is already approved for in most markets. The evidence pack's own annotation for these predictions states this is likely a data-collection gap (the trial/literature pipeline was queried against the narrow subtype label rather than the parent disease) rather than a true absence of supporting evidence.
+Follicular lymphoma is a CD20-positive B-cell malignancy, as are the leukaemias and lymphomas where obinutuzumab is already used. The target is therefore shared between the original and the new indication. The literature also describes obinutuzumab as established in first-line follicular lymphoma, which makes this a well-supported extension rather than a speculative one.
 
-By contrast, follicular lymphoma (rank 3) and mantle cell lymphoma (rank 4) are supported by direct, disease-specific clinical trial and literature evidence within this dataset, including completed Phase 3 randomised trials. These represent the more actionable near-term opportunities from this prediction set.
+Other predictions in the ranking are weaker:
+- **CLL/SLL subtypes (ranks 1-2):** mechanistically plausible but without subtype-specific data, and essentially within the existing CLL use.
+- **Mantle cell lymphoma (rank 4):** mostly single-arm phase 2 combination studies, with no phase 3 evidence (evidence level L2).
+- **Neoplasm of mature B-cells (rank 7):** a heterogeneous category (L3).
+- **Burkitt lymphoma subtype and thyroid MALT lymphoma (ranks 8 and 10):** plausible mechanism but no evidence.
+- **Metastatic neoplasm, malignant spiradenoma and Langerhans cell histiocytosis (ranks 5, 6, 9):** no credible CD20 link, likely model artefacts.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for **pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma** in this evidence pack.
+The data include 40 registered trials for follicular lymphoma. The most relevant are shown below (up to 10).
 
-*(Note: substantial trial evidence exists for follicular lymphoma and mantle cell lymphoma — see the overview table above. A dedicated evaluation of either of those indications would surface that evidence directly.)*
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT05100862](https://clinicaltrials.gov/study/NCT05100862) | Phase 3 | Active, not recruiting | 799 | Zanubrutinib plus obinutuzumab vs lenalidomide plus rituximab in relapsed/refractory FL or MZL; primary endpoint progression-free survival |
+| [NCT03817853](https://clinicaltrials.gov/study/NCT03817853) | Phase 4 | Completed | 114 | Short-duration (90-minute) obinutuzumab infusion with chemotherapy in untreated advanced FL; safety focus |
+| [NCT02871219](https://clinicaltrials.gov/study/NCT02871219) | Phase 2 | Completed | 96 | Obinutuzumab plus lenalidomide in previously untreated FL |
+| [NCT00825149](https://clinicaltrials.gov/study/NCT00825149) | Phase 1b | Completed | 137 | Obinutuzumab with CHOP, FC or bendamustine in CD20+ FL; early safety and efficacy |
+| [NCT02391545](https://clinicaltrials.gov/study/NCT02391545) | Phase 1b/2 | Terminated | 55 | Duvelisib with rituximab or obinutuzumab in untreated CD20+ FL |
+| [NCT05169658](https://clinicaltrials.gov/study/NCT05169658) | Phase 2 | Completed | 42 | Subcutaneous mosunetuzumab with or without polatuzumab vedotin and obinutuzumab in untreated indolent B-cell NHL |
+| [NCT05929222](https://clinicaltrials.gov/study/NCT05929222) | Phase 3 | Recruiting | 190 | GAZEBO: radiotherapy alone vs radiotherapy plus obinutuzumab in early-stage FL |
+| [NCT01582776](https://clinicaltrials.gov/study/NCT01582776) | Phase 1b/2 | Completed | 317 | Obinutuzumab plus lenalidomide in follicular and relapsed/refractory aggressive B-cell lymphoma |
+| [NCT02257567](https://clinicaltrials.gov/study/NCT02257567) | Phase 1b/2 | Completed | 331 | Polatuzumab vedotin plus bendamustine and rituximab or obinutuzumab in relapsed/refractory FL or DLBCL |
+| [NCT04796922](https://clinicaltrials.gov/study/NCT04796922) | Phase 3 | Withdrawn | 0 | Parsaclisib plus rituximab or obinutuzumab; withdrawn with no participants, so no data |
+
+Many further registered trials are mostly single-arm phase 1/2 combination studies (with BTK inhibitors, venetoclax, lenalidomide, PI3K inhibitors and bispecific antibodies), so obinutuzumab's independent contribution is often hard to isolate. No ANZCTR identifiers were available in the data compiled for this report.
 
 ## Literature Evidence
 
-Currently no related literature available for **pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma** in this evidence pack.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [29856692](https://pubmed.ncbi.nlm.nih.gov/29856692/) | 2018 | RCT | J Clin Oncol | GALLIUM: obinutuzumab-based immunochemotherapy prolonged progression-free survival vs rituximab in untreated FL (n=1,202); impact of chemotherapy backbone analysed |
+| [37404773](https://pubmed.ncbi.nlm.nih.gov/37404773/) | 2023 | RCT | HemaSphere | GALLIUM final analysis in untreated indolent NHL (FL and MZL) |
+| [28976863](https://pubmed.ncbi.nlm.nih.gov/28976863/) | 2017 | RCT (NEJM report) | N Engl J Med | Obinutuzumab-based vs rituximab-based chemotherapy as first-line treatment of advanced FL |
+| [37506346](https://pubmed.ncbi.nlm.nih.gov/37506346/) | 2023 | RCT | J Clin Oncol | ROSEWOOD: zanubrutinib plus obinutuzumab vs obinutuzumab alone in relapsed/refractory FL |
+| [39376156](https://pubmed.ncbi.nlm.nih.gov/39376156/) | 2024 | Patient-reported outcomes | Curr Med Res Opin | Quality-of-life results from ROSEWOOD |
+| [31296423](https://pubmed.ncbi.nlm.nih.gov/31296423/) | 2019 | Phase 2 trial | Lancet Haematol | GALEN: obinutuzumab plus lenalidomide in relapsed/refractory FL, single-arm |
+| [37767550](https://pubmed.ncbi.nlm.nih.gov/37767550/) | 2024 | Phase 1b/2 trial | Haematologica | Polatuzumab vedotin plus bendamustine and rituximab or obinutuzumab in relapsed/refractory FL |
+| [38041532](https://pubmed.ncbi.nlm.nih.gov/38041532/) | 2024 | Systematic review / network meta-analysis | Cancer | Maintenance and consolidation strategies in untreated advanced FL |
+| [28324270](https://pubmed.ncbi.nlm.nih.gov/28324270/) | 2017 | Review | Target Oncol | Obinutuzumab in rituximab-refractory or relapsed FL (GADOLIN) |
+| [41681868](https://pubmed.ncbi.nlm.nih.gov/41681868/) | 2026 | Guideline | Cancers | Spanish Lymphoma Group (GELTAMO) 2025 guidelines for FL |
 
 ## Australia Market Information
 
-Obinutuzumab has **no ARTG entries** and is **not currently marketed** in Australia according to this evidence pack (0 licenses recorded).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10407R | Gazyva | Solution for I.V. infusion, 1000 mg in 40 mL | Indication text not available in the data compiled for this report |
 
 ## Cytotoxicity
 
-Obinutuzumab is an antineoplastic agent (anti-CD20 monoclonal antibody used in B-cell malignancies).
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy / Immunotherapy (anti-CD20 monoclonal antibody) |
-
-Detailed myelosuppression risk, emetogenicity classification, monitoring requirements, and handling precautions are not available in this evidence pack. Please refer to the TGA-approved Product Information (PI) for this information.
+| Cytotoxicity Classification | Targeted immunotherapy (anti-CD20 monoclonal antibody), not a conventional cytotoxic |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions (the literature suggests cytopenias should be monitored) |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | FBC with differential, infusion reactions, infections, hepatitis B status |
+| Handling Protection | Please refer to the Product Information (PI) and local institutional policy |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Key warnings, contraindications, and drug interaction data were not available in this evidence pack (flagged as a Blocking-severity data gap pending TGA/TFDA product information retrieval).
+Warnings and contraindications from the product label were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for these. The prediction notes suggest monitoring for infusion reactions, cytopenias, infections and hepatitis B reactivation.
+
+**Drug Interactions:** 81 interactions were identified. Examples include:
+- **Major:** deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib, certolizumab pegol, cladribine, clozapine
+- **Moderate:** strontium chloride Sr-89, roflumilast, chloramphenicol, zidovudine, alefacept, alemtuzumab, anakinra, azathioprine, canakinumab, and several vaccines (tetanus toxoid, anthrax, live cholera)
+
+Many of these relate to additive immunosuppression or myelosuppression. Live vaccines in particular need careful review.
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The rank-1 predicted indication has no independent clinical trial or literature evidence in this dataset, and mechanistically overlaps with obinutuzumab's already-known original indication (CLL) rather than representing a genuinely new use. It is not ready for a repurposing decision as framed. Two other candidates in this same evidence pack — follicular lymphoma and mantle cell lymphoma — are substantially better supported (L1 and L2 respectively) and warrant separate evaluation as "Proceed with Guardrails" candidates.
+Follicular lymphoma has phase 3 evidence (GALLIUM) and randomised phase 2 evidence (ROSEWOOD) supporting obinutuzumab, and the target is shared with the drug's existing uses. Other predictions (CLL/SLL subtypes, mantle cell lymphoma, mature B-cell neoplasms) are weaker and remain at Hold or Research Question level, while the solid tumour and histiocytosis predictions have no credible support.
 
 **To proceed, the following is needed:**
-- Detailed mechanism-of-action data from DrugBank (currently a High-severity gap)
-- TGA Product Information / warnings, contraindications, and interaction data (currently a Blocking-severity gap)
-- Re-run trial/literature collection against the parent CLL/SLL disease term (not just the narrow molecular-subtype label) to close the apparent data-collection gap for rank 1–2
-- Confirmation of any pathway toward Australian (TGA/ARTG) registration, since obinutuzumab is not currently marketed here
-- A separate, dedicated evaluation of the follicular lymphoma and mantle cell lymphoma predictions, which carry materially stronger evidence
+- Confirmation of the current TGA-approved indications for Gazyva, since the ARTG indication text was missing from the data compiled for this report, and whether follicular lymphoma is already covered
+- Product Information warnings and contraindications (a blocking data gap for safety screening)
+- Mechanism of action data from DrugBank
+- A monitoring plan for infusion reactions, cytopenias, infections and hepatitis B reactivation
+- Review of the major drug interactions, especially with other immunosuppressants and live vaccines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

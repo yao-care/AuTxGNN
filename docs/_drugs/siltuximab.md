@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Siltuximab
-parent: High Evidence (L1-L2)
-nav_order: 630
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 673
+evidence_level: L5
 indication_count: 10
 ---
 
 # Siltuximab
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,88 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-Using the drug-repurposing evaluation report format supplied in the prompt (a fixed template task, not one requiring brainstorming or a specialized skill) — proceeding directly to compose the report.
-
-A methodological note before the report: `predicted_indications[0]` (extracutaneous mastocytoma, score 99.64%) has **zero** clinical trial or literature evidence (L5/Hold) and would produce an essentially empty report. **TAFRO syndrome** (rank 10) is the only candidate that reaches decision stage S3 with an RCT, a consensus guideline, and 20 supporting publications — this is the clinically meaningful finding in this evidence pack, so it is used as the headline indication below.
-
----
-
-# Siltuximab: From Idiopathic Multicentric Castleman Disease to TAFRO Syndrome
+# Siltuximab: From Castleman Disease to Extracutaneous Mastocytoma
 
 ## One-Sentence Summary
 
-Siltuximab is an anti-interleukin-6 (IL-6) monoclonal antibody already approved internationally for idiopathic multicentric Castleman disease (iMCD). Evidence in this pack supports a strong, IL-6-driven mechanistic link to **TAFRO syndrome** — a fulminant clinical subtype of iMCD — with **0 dedicated clinical trials** but **20 supporting publications**, including one randomised controlled trial and an international consensus guideline for the parent disease. (Nine other TxGNN-predicted indications for Siltuximab were also screened; all remain at Hold/L5 with no supporting trial or literature evidence — see note at the end.)
+Siltuximab is an anti-interleukin-6 (IL-6) antibody, originally used to treat Castleman disease.
+The TxGNN model predicts it may be effective for **extracutaneous mastocytoma**,
+but **no clinical trials and no publications** currently support this specific prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not marketed in Australia (0 ARTG entries); internationally approved for idiopathic multicentric Castleman disease (iMCD) |
-| Predicted New Indication | TAFRO Syndrome |
-| TxGNN Prediction Score | 98.79% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Castleman disease (the ARTG entry in the data compiled for this report has no indication text) |
+| Predicted New Indication | Extracutaneous mastocytoma |
+| TxGNN Prediction Score | 99.64% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Siltuximab is a recombinant chimeric (human-murine) anti-human interleukin-6 (IL-6) monoclonal antibody, administered by intravenous infusion (per trial NCT02796859 description; detailed DrugBank MOA data is currently a documented data gap, DG002). It works by binding and neutralising IL-6, blocking a cytokine central to lymphoproliferative inflammatory disease activity.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, siltuximab is a monoclonal antibody that neutralises IL-6. Its efficacy in Castleman disease, a disorder driven by dysregulated IL-6 production, has been demonstrated.
 
-Siltuximab is already the only agent globally approved for idiopathic multicentric Castleman disease (iMCD), a rare lymphoproliferative disorder driven by dysregulated IL-6 production, on the basis of a randomised, double-blind, placebo-controlled trial (PMID 25042199) and subsequent international consensus treatment guidelines (PMID 30181172).
+IL-6 can contribute to mast cell biology, so a mechanistic link to mast cell tumours is conceivable. However, this link is speculative. No trial or literature was identified to test it, and the prediction rests only on the TxGNN score.
 
-TAFRO syndrome (Thrombocytopenia, Anasarca, Fever, Reticulin fibrosis, Organomegaly) is now recognised as a severe, often fulminant clinical subtype occurring within the iMCD spectrum, sharing the same IL-6-driven cytokine storm pathophysiology. Multiple case reports and reviews in this evidence pack directly describe siltuximab (alone or combined with rituximab) being used to treat TAFRO syndrome, making this one of the more mechanistically direct and clinically observed repurposing signals in the candidate set, rather than a purely model-derived hypothesis.
+**Other predictions worth noting.** The model also ranked other diseases for siltuximab. Two have more supporting evidence than the top-ranked prediction:
+- **TAFRO syndrome** (score 98.79%, evidence level L4): a variant of idiopathic multicentric Castleman disease with cytokine-storm features, which supports biological plausibility. Direct evidence is limited to case reports and consensus guidance. The pivotal Phase 2 RCT was in multicentric Castleman disease, not TAFRO, and TAFRO patients often respond poorly to siltuximab.
+- **Kaposi's sarcoma** (score 99.28%, evidence level L4): KSHV encodes a viral IL-6 homologue, and KSHV-associated multicentric Castleman disease is closely related. The only retrieved paper is a general Castleman review, so there is no direct clinical evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered specifically for TAFRO syndrome.
+Currently no related clinical trials registered for extracutaneous mastocytoma.
 
 ## Literature Evidence
 
+Currently no related literature available for extracutaneous mastocytoma.
+
+For context, the literature retrieved for the related Castleman disease and TAFRO syndrome predictions includes:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25042199](https://pubmed.ncbi.nlm.nih.gov/25042199/) | 2014 | RCT | The Lancet Oncology | Randomised, double-blind, placebo-controlled trial establishing efficacy and safety of siltuximab in HIV-negative, HHV-8-negative multicentric Castleman's disease |
-| [30181172](https://pubmed.ncbi.nlm.nih.gov/30181172/) | 2018 | Guideline | Blood | International, evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease, including anti-IL-6 therapy |
-| [41345785](https://pubmed.ncbi.nlm.nih.gov/41345785/) | 2025 | Comparative study | Annals of Hematology | Indirect comparison showing siltuximab monotherapy improves progression-free survival vs. rituximab-based regimens in iMCD |
-| [38927484](https://pubmed.ncbi.nlm.nih.gov/38927484/) | 2024 | Review | Biomedicines | Management guidance for TAFRO syndrome, including anti-IL-6 (siltuximab) therapy |
-| [38087716](https://pubmed.ncbi.nlm.nih.gov/38087716/) | 2024 | Review | Blood Reviews | Update on iMCD diagnosis and treatment, including siltuximab approval and role |
-| [25986720](https://pubmed.ncbi.nlm.nih.gov/25986720/) | 2015 | Review | Current Oncology Reports | Clinical development of siltuximab, first FDA-approved treatment for iMCD |
-| [26394632](https://pubmed.ncbi.nlm.nih.gov/26394632/) | 2015 | Review | BioDrugs | Review of siltuximab in idiopathic (HHV-8-negative) multicentric Castleman disease |
-| [24958337](https://pubmed.ncbi.nlm.nih.gov/24958337/) | 2014 | Review | Drugs | Siltuximab: first global approval, covering MCD development milestones |
-| [36652167](https://pubmed.ncbi.nlm.nih.gov/36652167/) | 2023 | Case Report/Review | Journal of Nephrology | Siltuximab monotherapy case report in TAFRO syndrome with renal involvement, plus literature review |
-| [32564425](https://pubmed.ncbi.nlm.nih.gov/32564425/) | 2020 | Case Report | European Journal of Haematology | Frontline siltuximab and rituximab combination used in TAFRO syndrome |
+| [25042199](https://pubmed.ncbi.nlm.nih.gov/25042199/) | 2014 | RCT | Lancet Oncol | Randomised, double-blind, placebo-controlled Phase 2 trial of siltuximab in HIV-negative multicentric Castleman disease |
+| [30181172](https://pubmed.ncbi.nlm.nih.gov/30181172/) | 2018 | Guideline/Consensus | Blood | International evidence-based consensus treatment guidelines for idiopathic multicentric Castleman disease |
+| [35793409](https://pubmed.ncbi.nlm.nih.gov/35793409/) | 2022 | Post hoc analysis of RCT | Blood Adv | Siltuximab associated with improved progression-free survival in idiopathic multicentric Castleman disease |
+| [35770616](https://pubmed.ncbi.nlm.nih.gov/35770616/) | 2022 | Systematic review | Eur J Haematol | Efficacy and safety of regimens for multicentric Castleman disease; siltuximab response rate below 50% |
+| [36652167](https://pubmed.ncbi.nlm.nih.gov/36652167/) | 2023 | Case report/Review | J Nephrol | Siltuximab monotherapy in TAFRO syndrome |
+| [32564425](https://pubmed.ncbi.nlm.nih.gov/32564425/) | 2020 | Case report | Eur J Haematol | Frontline siltuximab and rituximab in TAFRO syndrome |
+| [38927484](https://pubmed.ncbi.nlm.nih.gov/38927484/) | 2024 | Review/Guidance | Biomedicines | Guidance for managing TAFRO syndrome |
+| [38087716](https://pubmed.ncbi.nlm.nih.gov/38087716/) | 2024 | Review | Blood Rev | Update on diagnosis and treatment of idiopathic multicentric Castleman disease, including approval of siltuximab |
+| [36433996](https://pubmed.ncbi.nlm.nih.gov/36433996/) | 2022 | Biomarker study | Nat Commun | CXCL13 as a predictive biomarker; siltuximab is not effective in all iMCD patients |
+| [39970477](https://pubmed.ncbi.nlm.nih.gov/39970477/) | 2024 | Review | AIDS Rev | Castleman disease subtypes and aetiologies (relevant to the Kaposi's sarcoma link) |
 
 ## Australia Market Information
 
-Siltuximab is not currently listed on the ARTG (Australian Register of Therapeutic Goods) — 0 entries recorded, market status "not marketed" as of this report's data cut-off (2026-08-28).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12916T | Sylvant | Powder for injection 100 mg | Not specified in the data compiled for this report |
 
 ## Safety Considerations
 
-No TGA-approved Product Information currently exists for Australia, as Siltuximab is not yet registered here. Key warnings, contraindications, and drug-interaction data were not returned by any queried source (TFDA, DDI database) for this evidence pack — safety assessment should draw on overseas regulatory PI (e.g. FDA/EMA Sylvant labelling) pending Australian registration.
+**Drug Interactions** (100 interactions recorded; the main ones are listed below):
+- **Major:** deferiprone
+- **Moderate:** simvastatin, apixaban, warfarin, rivaroxaban, dicoumarol, lidocaine, hydrocodone, fentanyl, theophylline, aminophylline, oxtriphylline, roflumilast, tacrolimus, nifedipine, tetanus toxoid vaccine
+- **Minor:** zinc salts (sulfate, acetate, gluconate, chloride)
+
+Many of the moderate interactions involve drugs metabolised by cytochrome P450 enzymes, which IL-6 blockade may affect. Review each combination against the Product Information (PI).
+
+For warnings and contraindications, please refer to the TGA-approved Product Information (PI). In immunodeficient patients, IL-6 inhibition could add infection risk.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Siltuximab's efficacy in iMCD is supported by an RCT and international consensus guidelines, and TAFRO syndrome — mechanistically and clinically a fulminant iMCD subtype — has multiple published case reports/series describing successful siltuximab use, but no dedicated RCT exists for TAFRO specifically, and the drug is not yet registered in Australia.
+The extracutaneous mastocytoma prediction is supported only by a model score, with no trials or literature (evidence level L5). Mast cell disease biology is mainly driven by other pathways, so the link to IL-6 blockade is speculative.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information / safety and contraindication data (currently a Blocking data gap, DG001)
-- Confirmed mechanism-of-action and DDI profile from DrugBank (High-priority data gap, DG002)
-- Assessment of an Australian regulatory submission/ARTG registration pathway
-- A dedicated case series, registry study, or prospective trial of siltuximab specifically in TAFRO syndrome to move beyond case-report-level evidence
-
-**Note on other predicted indications:** Nine additional TxGNN-predicted indications for Siltuximab were screened (extracutaneous mastocytoma, hepatic infarction, hepatic veno-occlusive disease, peliosis hepatis, Kaposi's sarcoma, familial Mediterranean fever, aggressive systemic mastocytosis, familial periodic fever, combined immunodeficiency syndrome). All remain at Hold, evidence level L5 (or L4 for Kaposi's sarcoma, decision stage S1 "Research Question"), with no clinical trials and little to no supporting literature — these should not be pursued without substantially more mechanistic or clinical evidence.
+- Preclinical or mechanistic studies linking IL-6 signalling to mast cell tumours
+- Detailed mechanism of action data and TGA Product Information (warnings and contraindications)
+- Confirmation of the approved indication wording for the ARTG entry
+- If a repurposing target is pursued, consider TAFRO syndrome or Kaposi's sarcoma first, since both have a clearer IL-6 rationale and some supporting literature
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Inclisiran
 parent: Model Prediction Only (L5)
-nav_order: 347
+nav_order: 372
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Inclisiran: From Hypercholesterolaemia (Inferred) to Potassium Deficiency Disease
+# Inclisiran: From Lipid-Lowering Therapy to Potassium Deficiency Disease
 
 ## One-Sentence Summary
 
-Inclisiran is a PCSK9-targeting siRNA whose established pharmacology is LDL-cholesterol lowering, referenced throughout this evidence pack in the context of familial hypercholesterolaemia; the pack's own regulatory data (original indication, MOA) is not populated. The TxGNN model's top-ranked prediction for this drug is **Potassium Deficiency Disease**, but this candidate is supported by **zero clinical trials** and **zero publications** — it is a model score only, and the pack's own mechanistic assessment finds no known biological link between hepatic PCSK9 inhibition and renal/mineralocorticoid-mediated potassium regulation.
-
----
+Inclisiran (Leqvio) is a small interfering RNA (siRNA) medicine that lowers LDL cholesterol by silencing PCSK9, and it is marketed in Australia.
+The TxGNN model predicts it may be effective for **potassium deficiency disease**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally documented in this evidence pack (`original_indications` empty, `original_moa` marked as a data gap). Trial titles and rationale text elsewhere in the pack (e.g. heterozygous/homozygous familial hypercholesterolaemia trials, LDL-C clearance mechanism) indicate the drug's established use is lipid-lowering, but this is inferred, not sourced from a regulatory field |
-| Predicted New Indication | Potassium Deficiency Disease |
+| Original Indication | Not stated in the data compiled for this report (the ARTG entry carries no indication text) |
+| Predicted New Indication | Potassium deficiency disease |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Inclisiran is not available in this evidence pack. Based on information embedded elsewhere in the pack (trial titles and rationale for other candidate indications), Inclisiran is a small interfering RNA (siRNA) that suppresses hepatic PCSK9 synthesis, reducing PCSK9-mediated degradation of LDL receptors and thereby increasing hepatic clearance of LDL-cholesterol.
+Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, inclisiran is an siRNA that targets PCSK9 mRNA in hepatocytes, which raises LDL receptor recycling and lowers LDL-C.
 
-For the Potassium Deficiency Disease prediction specifically, the pack's own mechanistic review is explicit that there is **no known biological connection**: hepatic PCSK9/LDL-receptor pharmacology has no established relationship to renal potassium handling or mineralocorticoid-axis regulation, which are the pathways that actually govern potassium balance. This candidate reflects a knowledge-graph-derived statistical association only, with no supporting trial or literature evidence and no plausible mechanistic bridge identified.
+The review found no plausible mechanistic link between PCSK9 silencing and potassium homeostasis. The high TxGNN score reflects a graph-based association only and should not be read as evidence of efficacy.
 
-Given the absence of both mechanistic plausibility and empirical evidence, this prediction should be treated as exploratory model output rather than a credible repurposing signal.
-
----
+Other top-ranked predictions are similarly unsupported: esophageal disease, atypical coarctation of aorta, migraine disorder (and related subtypes), esophageal ulcer and Raynaud disease all have no trials or literature. Aortic malformation was linked to two inclisiran trials, but these appear to be a mapping artefact (see below).
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials are registered for potassium deficiency disease.
 
----
+For context, the two trials below were linked to the lower-ranked prediction "aortic malformation". Both were graded as not relevant to that condition, because they are paediatric familial hypercholesterolaemia studies and do not test efficacy in the predicted indication.
 
-## Literature Evidence
-
-Currently no related literature available.
-
----
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT06597019](https://clinicaltrials.gov/study/NCT06597019) | Phase 3 | Recruiting | 60 | Inclisiran vs placebo, then open-label, in children aged 6 to <12 years with heterozygous familial hypercholesterolaemia |
+| [NCT06597006](https://clinicaltrials.gov/study/NCT06597006) | Phase 3 | Recruiting | 9 | Inclisiran vs placebo, then open-label, in children aged 2 to <12 years with homozygous familial hypercholesterolaemia |
 
 ## Australia Market Information
 
-Inclisiran currently has no ARTG entries in this evidence pack (0 licences; market status "Not marketed"). No product/dosage form data is available to tabulate.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14087K | Leqvio | Injection 284 mg in 1.5 mL single-use pre-filled syringe | Not stated in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Note that as Inclisiran is not currently marketed in Australia per this evidence pack, no TGA-approved PI exists yet — safety review should draw on the manufacturer's overseas-approved PI (e.g. EMA/FDA) pending local registration.
-
----
+Please refer to the TGA-approved Product Information (PI) for safety information. No drug interactions were found in the data compiled for this report, and no knowledge-graph contraindications were identified.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The Potassium Deficiency Disease prediction has no clinical trial or literature support, and the evidence pack's own mechanistic analysis finds no plausible biological link to Inclisiran's known PCSK9-lowering pharmacology. This is a model-score-only (L5) signal and does not meet the bar for further development work.
+The prediction rests on a model score alone, with no supporting trials or literature and no plausible mechanistic link between PCSK9 silencing and potassium deficiency. The safety and original-indication data for the Australian product are also incomplete.
 
 **To proceed, the following is needed:**
-- Confirmed original indication and MOA data for Inclisiran (currently data gaps; DG002 flagged High severity)
-- TGA/ARTG registration status confirmation, since the drug is not currently marketed in Australia
-- Any mechanistic or preclinical rationale specifically linking PCSK9/LDL-C pathways to potassium regulation, before this candidate is reconsidered
-- TFDA/TGA-equivalent Product Information for safety review (DG001 flagged Blocking severity — currently prevents any safety pre-assessment)
-
-**Note on this evidence pack:** this pack contains 10 candidate indications for Inclisiran, and the top-ranked candidate by TxGNN score (reported above, per the required extraction rule) is not the strongest overall candidate. Rank 8, **Aortic Malformation**, has materially stronger support — Evidence Level L2, two actively recruiting Phase 3 paediatric trials (NCT06597019, NCT06597006) in heterozygous/homozygous familial hypercholesterolaemia populations, and a coherent mechanistic rationale (LDL-C-driven aortic valve/root calcification) — and carries a "Proceed with Guardrails" recommendation in the underlying data. That candidate likely warrants a separate, dedicated evaluation report.
+- Mechanism of action data (for example from DrugBank) and a defensible mechanistic hypothesis for potassium deficiency
+- The TGA-approved Product Information, to confirm the approved indication, warnings and contraindications
+- Any preclinical or clinical evidence in potassium disorders; none was found
+- Verification of the trial-to-condition mapping for aortic malformation, if that prediction is to be pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

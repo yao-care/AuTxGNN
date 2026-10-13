@@ -2,7 +2,7 @@
 layout: default
 title: Pirfenidone
 parent: Model Prediction Only (L5)
-nav_order: 539
+nav_order: 578
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,27 +33,40 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Pirfenidone is an antifibrotic agent (its documented mechanism targets TGF-β signalling and fibroblast proliferation); this evidence pack does not contain a structured original-indication record, but pirfenidone is internationally recognised for idiopathic pulmonary fibrosis. The TxGNN model's top-ranked prediction for this drug is **Extracutaneous Mastocytoma**, but this signal is currently supported by **zero clinical trials** and **zero publications** — it is a model prediction only.
+Pirfenidone is an oral antifibrotic originally used to treat idiopathic pulmonary fibrosis and related interstitial pneumonias.
+The TxGNN model predicts it may be effective for **extracutaneous mastocytoma** (score 99.71%), but **no clinical trials and no publications** currently support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in this evidence pack (no ARTG licences or `original_indications` records returned). Pirfenidone is widely known as an antifibrotic used for idiopathic pulmonary fibrosis — noted here as general background, not sourced from this pack |
-| Predicted New Indication | Extracutaneous Mastocytoma |
+| Original Indication | Idiopathic pulmonary fibrosis (also acute interstitial pneumonia and idiopathic interstitial pneumonia, per the knowledge graph) |
+| Predicted New Indication | Extracutaneous mastocytoma |
 | TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 (model prediction only — no trials, no literature) |
-| Australia Market Status | Not currently marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not populated in this evidence pack (`original_moa` is a data gap). However, the model's own rationale text describes pirfenidone's known action as inhibition of TGF-β signalling and fibroblast proliferation — consistent with its established antifibrotic use.
+Currently, detailed mechanism of action data is not available. Pirfenidone is known to be an antifibrotic and anti-inflammatory agent that modulates TGF-β signalling. Its efficacy in idiopathic pulmonary fibrosis is established, but its link to a mast cell neoplasm is not.
 
-Extracutaneous mastocytoma is pathologically driven by KIT-mutation-related mast cell proliferation, a mechanism that does not overlap with TGF-β/fibroblast pathways. The evidence pack's own mechanistic assessment for this candidate states there is "no known intersection" between pirfenidone's fibroblast-inhibitory action and mast-cell-driven pathology, and explicitly characterises the link as speculative with no supporting evidence. In other words, this is the highest-scoring candidate by TxGNN's topological similarity metric, but the model score is not corroborated by a plausible mechanism or by any external evidence.
+Mast cell tumours are generally driven by KIT signalling. No established connection between pirfenidone's pharmacology and this disease was identified, so the high TxGNN score should be treated as a computational hypothesis only.
 
-For context, one lower-ranked candidate in this pack (fibroblastic neoplasm, rank 9) has a mechanistically more coherent rationale and six supporting publications — but that literature also contains case reports of pirfenidone-associated sarcoma development and dermatofibroma aggravation, a safety signal worth carrying forward regardless of which indication is pursued (see Safety Considerations below).
+**Other top-ranked predictions** were also reviewed. All are L5 (prediction only) except fibroblastic neoplasm, which is L4:
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Dermatofibrosarcoma protuberans | 99.41% | L5 | Loose rationale via fibroblast biology; the PDGFB driver is already targeted by imatinib |
+| 3 | Aggressive systemic mastocytosis | 99.33% | L5 | KIT-driven; no documented link |
+| 4 | Heart fibrosarcoma | 99.29% | L5 | Anti-fibrotic effects are in non-malignant cardiac fibrosis only |
+| 5 | Conventional fibrosarcoma | 99.26% | L5 | Plausible but unsupported |
+| 6 | Autosomal recessive familial Mediterranean fever | 99.25% | L5 | Anti-inflammatory effects are conceptually relevant, but colchicine and IL-1 inhibitors are established |
+| 7 | Kidney fibrosarcoma | 99.24% | L5 | Renal anti-fibrotic data do not extend to malignancy |
+| 8 | Hepatic infarction | 99.24% | L5 | Ischaemic event; no clear link |
+| 9 | Fibroblastic neoplasm | 99.23% | L4 | Preclinical fibroblast data; one safety signal (see below) |
+| 10 | Low grade fibromyxoid sarcoma | 99.19% | L5 | No documented link |
 
 ## Clinical Trial Evidence
 
@@ -61,30 +74,43 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No publications were retrieved for extracutaneous mastocytoma. The only literature identified relates to the rank 9 prediction, fibroblastic neoplasm, and is shown here for context:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [12907346](https://pubmed.ncbi.nlm.nih.gov/12907346/) | 2003 | Pilot clinical study | Am J Gastroenterol | Pilot project evaluating pirfenidone for desmoid tumours in familial adenomatous polyposis; outcome details not available in the data compiled |
+| [27835939](https://pubmed.ncbi.nlm.nih.gov/27835939/) | 2016 | In vitro | BMC Musculoskelet Disord | Pirfenidone inhibited TGF-β1-mediated activity in Dupuytren's disease-derived fibroblasts |
+| [30927912](https://pubmed.ncbi.nlm.nih.gov/30927912/) | 2019 | In vitro | BMC Musculoskelet Disord | Investigated pirfenidone effects on TGF-β1-stimulated non-SMAD signalling in Dupuytren's fibroblasts |
+| [35129055](https://pubmed.ncbi.nlm.nih.gov/35129055/) | 2022 | Preclinical | Pharm Dev Technol | Explored pirfenidone as a locally injectable antifibrotic for Dupuytren's disease |
+| [29702057](https://pubmed.ncbi.nlm.nih.gov/29702057/) | 2018 | Case report | Perm J | Undifferentiated pleomorphic sarcoma reported after pirfenidone use (safety signal) |
+| [32572469](https://pubmed.ncbi.nlm.nih.gov/32572469/) | 2020 | Case report | Rheumatology (Oxford) | Multiple eruptive dermatofibromas aggravated by mycophenolate mofetil and pirfenidone in a patient with systemic sclerosis |
 
 ## Australia Market Information
 
-No ARTG entries were returned for this drug in the evidence pack (`total_licenses = 0`, market status: not currently marketed). No product/dosage-form information is available to tabulate.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11406H | Pirfenidone Sandoz | Tablet 267 mg (oral) | Not available in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information — this evidence pack's `key_warnings`, `contraindications`, and drug-interaction (DDI) fields are all unpopulated (DDI query status: not found).
+- **Drug Interactions**: 100 interactions were identified in total. The 20 listed in the data compiled are all rated Moderate. They include bupropion, omeprazole, esomeprazole, lansoprazole, cimetidine, eliglustat, obeticholic acid, oxandrolone, naltrexone, miconazole, nitisinone, glycerol phenylbutyrate, rolapitant, deferasirox, ticlopidine, lumefantrine, disulfiram, primaquine, thiabendazole and ivacaftor.
+- **Emerging signal**: Published case reports describe a sarcoma and eruptive dermatofibromas arising or worsening during pirfenidone use. These are low-level evidence, but they run counter to a therapeutic hypothesis in fibroblastic tumours.
 
-**Additional signal from literature (not PI-sourced):** publications surfaced under a different candidate indication in this same evidence pack (fibroblastic neoplasm, rank 9) include two case reports of concern — multiple eruptive dermatofibromas aggravated by pirfenidone in a systemic sclerosis patient (PMID 32572469), and undifferentiated pleomorphic sarcoma following pirfenidone use (PMID 29702057). These suggest pirfenidone's effect on fibroblastic/mesenchymal tissue may be bidirectional rather than uniformly antiproliferative, and should be flagged for any mesenchymal-lineage repurposing pathway, including mastocytoma if pursued.
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications, as these were not available in the data compiled.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is an L5, model-only signal: no clinical trials, no literature, and the model's own mechanistic rationale finds no credible link between pirfenidone's known TGF-β/fibroblast pathway and the KIT-driven pathology of extracutaneous mastocytoma. Combined with the drug's non-marketed status in Australia and a blocking gap in TFDA/PI safety data (DG001), there is no basis to advance this candidate beyond a research hypothesis.
+The prediction rests on model output alone (L5). There are no trials or publications for extracutaneous mastocytoma, and no biological link to pirfenidone's antifibrotic mechanism has been documented. Mast cell neoplasms are KIT-driven, and this prediction is not a sensible candidate for repurposing without further support.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information for pirfenidone (warnings, contraindications) — currently a blocking data gap (DG001)
-- Confirmed mechanism-of-action data from DrugBank (DG002)
-- Preclinical or mechanistic studies directly linking pirfenidone to mast cell biology or KIT-pathway modulation
-- If mesenchymal/fibroblastic-lineage indications are explored instead, dedicated review of the sarcoma-induction and dermatofibroma-aggravation case reports noted above before any further evaluation
+- Mechanism of action data (for example from DrugBank) to allow a proper mechanistic cross-check
+- The TGA Product Information, including approved indication, warnings and contraindications
+- Preclinical evidence (for example mast cell line or KIT-driven models) showing a plausible effect
+- Review of the sarcoma and dermatofibroma case reports before any fibroblastic-tumour hypothesis is pursued
+- Consideration of fibroblastic neoplasm (L4) as a research question only, given its preclinical support but conflicting safety signal
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

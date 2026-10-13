@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Melphalan
-parent: High Evidence (L1-L2)
-nav_order: 424
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 456
+evidence_level: L5
 indication_count: 10
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,100 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Melphalan: From Multiple Myeloma to Gonadal Germ Cell Tumor
+# Melphalan: From Ovarian Cancer to Gonadal Germ Cell Tumour
 
 ## One-Sentence Summary
 
-Melphalan is a nitrogen mustard alkylating agent internationally established for multiple myeloma (and, in some jurisdictions, ovarian cancer). The TxGNN model predicts it may be effective for **Gonadal Germ Cell Tumor**, with **8 clinical trials** and **4 publications** currently supporting this direction — though only one trial and no publications are disease-specific.
+Melphalan is an oral alkylating chemotherapy agent, originally used for ovarian cancer and related ovarian tumours.
+The TxGNN model predicts it may be effective for **gonadal germ cell tumour**,
+with **7 clinical trials** (most of them small, early-phase or mixed-population studies) and **1 publication** (a 1964 pharmacology study of limited relevance) currently linked to this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Multiple myeloma (established international indication; no ARTG-approved indication text is available — Melphalan is not currently marketed in Australia) |
-| Predicted New Indication | Gonadal Germ Cell Tumor |
+| Original Indication | Ovarian cancer (including ovarian adenocarcinoma and several ovarian tumour subtypes) |
+| Predicted New Indication | Gonadal germ cell tumour |
 | TxGNN Prediction Score | 99.77% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L2 (see note below) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
+
+*Note on evidence level:* The compiled data assign L2, based on one completed Phase 2 trial (NCT00936936, n=64). That trial tests a multi-drug high-dose regimen, and the data compiled for this report do not confirm how much melphalan contributes. It is a single-arm-style investigational study, not a randomised controlled trial, so the evidence is weaker than L2 would normally imply.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack (data gap DG002). Based on known pharmacology, Melphalan is a bifunctional alkylating agent (nitrogen mustard derivative) that forms DNA interstrand crosslinks, producing cytotoxicity that is most pronounced in rapidly dividing cells — a property shared by germ cell tumours, which are among the most chemosensitive solid tumours known.
+Melphalan is a bifunctional nitrogen mustard alkylating agent. It forms DNA interstrand crosslinks and induces apoptosis in dividing cells. Detailed mechanism of action data were not available in the compiled data, so this description reflects the drug's general pharmacology.
 
-Melphalan already has an established role in high-dose chemotherapy conditioning regimens combined with autologous stem cell transplantation (ASCT), including as salvage therapy for relapsed, poor-prognosis germ-cell tumours. This gives the TxGNN prediction a direct clinical precedent rather than a purely computational association: the mechanistic rationale (alkylator activity against a highly chemosensitive tumour type) aligns with real-world high-dose chemotherapy practice.
+Ovarian cancer and gonadal germ cell tumours both arise in the gonads, and germ cell tumours are generally highly sensitive to DNA-damaging chemotherapy. High-dose melphalan with autologous stem cell rescue is a rational salvage strategy for relapsed or poor-prognosis disease. The very high TxGNN score is consistent with this mechanism.
 
-The strongest supporting evidence is a Phase 2 trial (NCT00936936, n=64) studying high-dose chemotherapy — including melphalan — specifically for poor-prognosis relapsed germ-cell tumours. Most of the remaining trials are non-disease-specific ASCT-conditioning studies that include germ-cell tumour patients as part of a broader solid-tumour population, which supports feasibility and safety of the regimen but not disease-specific efficacy on its own.
+Other predictions in the same list (for example mucinous adenocarcinomas of the rectum, colon, gallbladder, cervix and endometrium) appear to be driven by shared histology rather than mechanism. They have no clinical or literature support and are not recommended for further pursuit at this stage.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00936936](https://clinicaltrials.gov/study/NCT00936936) | Phase 2 | Completed | 64 | Two cycles of high-dose chemotherapy (including melphalan) specifically for poor-prognosis relapsed germ-cell tumours — the only disease-specific trial in this set |
-| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Phase 1/2 | Completed | 25 | Escalating-dose melphalan with autologous stem cell support and amifostine cytoprotection in cancer patients (not disease-specific) |
-| [NCT00003926](https://clinicaltrials.gov/study/NCT00003926) | Phase 1 | Terminated | 13 | Amifostine cytoprotection with autologous stem cell transplant for high-risk/relapsed paediatric solid and brain tumours |
-| [NCT00638898](https://clinicaltrials.gov/study/NCT00638898) | Phase 1 | Completed | 25 | High-dose busulfan, melphalan and topotecan followed by autologous HSCT in advanced/recurrent tumours (not disease-specific) |
-| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | N/A | Completed | 174 | Pilot study of high-dose chemotherapy regimens ± total-body irradiation before autologous transplant, across haematologic malignancies and selected solid tumours |
-| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Phase 2 | Completed | 451 | Eight high-dose chemotherapy regimens ± total-body irradiation before autologous transplant, across haematologic malignancy and selected solid tumours |
-| [NCT01272817](https://clinicaltrials.gov/study/NCT01272817) | N/A | Completed | 36 | Nonmyeloablative allogeneic HSCT using melphalan and cladribine (or total lymphoid irradiation) conditioning, across various haematologic conditions |
-| [NCT00002750](https://clinicaltrials.gov/study/NCT00002750) | Phase 1 | Completed | 6 | Intrathecal melphalan for recurrent neoplastic meningitis — different route and indication to systemic use in germ-cell tumours |
+| [NCT00936936](https://clinicaltrials.gov/study/NCT00936936) | Phase 2 | Completed | 64 | Two cycles of high-dose chemotherapy (gemcitabine, docetaxel, melphalan, carboplatin, then ifosfamide, carboplatin, etoposide) in poor-prognosis relapsed germ-cell tumours; no outcome results in the compiled data |
+| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Phase 1/2 | Completed | 25 | Escalating-dose melphalan with autologous stem cell support and amifostine cytoprotection in cancer patients |
+| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Phase 2 | Completed | 451 | Eight high-dose chemotherapy regimens with autologous transplant in haematological malignancy and selected solid tumours; germ cell tumours are only a subset |
+| [NCT00638898](https://clinicaltrials.gov/study/NCT00638898) | Phase 1 | Completed | 25 | Busulfan, melphalan and topotecan with autologous transplant in advanced and recurrent tumours; melphalan's individual contribution cannot be isolated |
+| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | N/A | Completed | 174 | High-dose chemotherapy regimens with or without total-body irradiation before autologous transplant in mixed haematological and solid tumours; low specificity |
+| [NCT00002750](https://clinicaltrials.gov/study/NCT00002750) | Phase 1 | Completed | 6 | Intrathecal melphalan for neoplastic meningitis; different route and setting |
+| [NCT00003926](https://clinicaltrials.gov/study/NCT00003926) | Phase 1 | Terminated | 13 | Amifostine as a chemoprotectant with autologous transplant in paediatric solid tumours; supportive-care focus, not melphalan efficacy |
+
+No ANZCTR trial identifiers were available in the compiled data.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [13392619](https://pubmed.ncbi.nlm.nih.gov/13392619/) | 1956 | Cohort | Voprosy onkologii | Early clinical experience treating testicular seminoma and its metastases with sarcolysin (melphalan's original name) |
-| [4270380](https://pubmed.ncbi.nlm.nih.gov/4270380/) | 1973 | Review | Oncology | Review of chemotherapy approaches for testicular germinal tumours |
-| [24913](https://pubmed.ncbi.nlm.nih.gov/24913/) | 1977 | Review | The Urologic Clinics of North America | General review of seminoma management |
-| [14151951](https://pubmed.ncbi.nlm.nih.gov/14151951/) | 1964 | Cohort | Acta – Unio Internationalis Contra Cancrum | Effect of hormonal and alkylating drugs on pituitary FSH-stimulating function |
+| [14151951](https://pubmed.ncbi.nlm.nih.gov/14151951/) | 1964 | Pharmacology study | Acta Unio Int Contra Cancrum | Early work on hormonal and alkylating drug effects on pituitary follicle-stimulating function; no abstract available and little relevance to current clinical use |
+
+For the related prediction of ovarian primitive germ cell tumour, the only publication is a single case report (PMID [9251739](https://pubmed.ncbi.nlm.nih.gov/9251739/), 1997) describing successful mega-dose chemotherapy with stem cell rescue in a 13-year-old with a metastatic ovarian primitive neuroectodermal tumour.
 
 ## Australia Market Information
 
-No ARTG entries are currently registered — Melphalan is not marketed in Australia (total ARTG licences: 0).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 2547C | Alkeran | Tablet 2 mg | Approved indication text not available in the compiled data |
+
+Only an oral tablet is registered. High-dose melphalan regimens with stem cell rescue, as used in the trials above, are typically given intravenously, so route compatibility with the registered product has not been established.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (alkylating agent, nitrogen mustard class) |
-| Myelosuppression Risk | High — dose-limiting toxicity; established use in myeloablative high-dose regimens requiring autologous stem cell rescue, as seen throughout the trial evidence above |
-| Emetogenicity Classification | Moderate to high (particularly with IV high-dose regimens used in ASCT conditioning) |
-| Monitoring Items | Full blood count with differential, renal function, hepatic function, mucositis assessment |
-| Handling Protection | Standard cytotoxic drug handling precautions apply (PPE, closed-system transfer devices where available) |
-
-*Specific toxicity grading is not confirmed by product-level data in this pack — please refer to the Product Information (PI) warnings and precautions once available.*
+| Myelosuppression Risk | High (dose-limiting; the knowledge graph links melphalan to leukopenia, neutropenia, thrombocytopenia and anaemia) |
+| Emetogenicity Classification | Please refer to the Product Information (PI) |
+| Monitoring Items | Full blood count with differential, renal function, liver function |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the approved Product Information (PI) for safety information. Key warnings, contraindications and drug-drug interaction data were not available in this evidence pack (DG001, blocking severity), and Melphalan currently has no ARTG-registered PI in Australia.
+- **Disease-level contraindication signals (knowledge graph, not label text):** The knowledge graph links melphalan with kidney disease, thrombocytopenia, anaemia (including macrocytic and haemolytic anaemia), leukopenia, neutropenia (including congenital forms), agranulocytosis, interstitial lung disease, pulmonary fibrosis, drug-induced liver injury and vasculitis. These come from graph edges and should be verified against the PI.
+- **Drug Interactions (100 recorded; main examples):**
+  - Moderate: amphotericin B (conventional, lipid complex, cholesteryl sulfate and liposomal formulations)
+  - Minor: cimetidine, levofloxacin, zinc sulfate, zinc gluconate
+  - Unknown severity: lansoprazole, omeprazole, pantoprazole, famotidine, dolasetron, granisetron, aspirin, morphine, metformin, vancomycin, prednisone, simvastatin
+
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications, as label-based safety data were not available.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-One disease-specific Phase 2 trial (NCT00936936, n=64) supports high-dose melphalan-containing chemotherapy in poor-prognosis relapsed germ-cell tumours, and the mechanistic rationale (alkylator activity against a highly chemosensitive tumour) is sound. However, most remaining trials are non-disease-specific ASCT-conditioning studies, and product-level safety/MOA data is missing.
+The mechanistic rationale is plausible and the prediction score is high, but the supporting evidence is thin. The key Phase 2 trial uses a multi-drug regimen with no results available in the compiled data, the other trials are small or mixed-population, and the single publication is a 1964 pharmacology study. Melphalan carries significant myelosuppression risk, and the registered Australian product is an oral tablet whereas the supporting studies used high-dose regimens with stem cell rescue. This is best treated as a research question rather than a candidate ready for clinical adoption.
 
 **To proceed, the following is needed:**
-- Product Information / regulatory safety data (warnings, contraindications) — currently a blocking data gap (DG001)
-- Confirmed mechanism-of-action documentation (DG002)
-- Drug-drug interaction data (currently not found)
-- Clarification of the ARTG registration pathway, given Melphalan is not currently marketed in Australia
+- Published results from NCT00936936, and clarification of melphalan's specific contribution within that regimen
+- Retrospective or registry data on melphalan in relapsed germ cell tumours, with efficacy and toxicity outcomes
+- Mechanism of action data from DrugBank
+- TGA Product Information warnings and contraindications (a blocking data gap for safety screening), including the approved indication text for ARTG 2547C
+- Assessment of route and formulation compatibility (oral tablet versus intravenous high-dose use)
+- A safety monitoring plan covering myelosuppression, renal impairment and pulmonary toxicity, and confirmation of stem cell rescue capability if high-dose use is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

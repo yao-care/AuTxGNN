@@ -2,7 +2,7 @@
 layout: default
 title: Midostaurin
 parent: Model Prediction Only (L5)
-nav_order: 445
+nav_order: 477
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,63 +29,93 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Midostaurin: From FLT3-Mutated AML/Systemic Mastocytosis to Familial Thrombocytosis
-
-*Note: The evidence pack contains no Australian regulatory record for midostaurin's original indication (ARTG entries = 0, market status = Not marketed). The original indication above is well-established public pharmacological information (Rydapt®, approved overseas for FLT3-mutated AML and aggressive systemic mastocytosis) and is **not** sourced from this Evidence Pack — flagged here for transparency rather than fabricated as pack data.*
+# Midostaurin: From Acute Myeloid Leukaemia to Familial Thrombocytosis
 
 ## One-Sentence Summary
 
-Midostaurin is a multikinase inhibitor (FLT3/KIT/PDGFR/VEGFR2/PKC) originally developed for FLT3-mutated acute myeloid leukaemia and systemic mastocytosis. The TxGNN model predicts it may be effective for **Familial Thrombocytosis**, but this prediction currently has **no supporting clinical trials and no supporting literature**, and the pack's own mechanistic review states the pathway driving familial thrombocytosis (MPL/THPO germline mutations) does not overlap with midostaurin's known targets.
+Midostaurin was originally used to treat acute myeloid leukaemia (AML), including several molecular subtypes.
+The TxGNN model predicts it may be effective for **familial thrombocytosis**, but this is a model prediction only, with **no clinical trials** and **no publications** supporting this specific indication.
+Among the other top-ranked predictions, only metastatic melanoma (a negative Phase IIA study) and thrombocythemia (indirect review articles) have any literature.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in Evidence Pack (drug not ARTG-registered in Australia) |
-| Predicted New Indication | Familial Thrombocytosis |
+| Original Indication | Acute myeloid leukaemia (including FLT3-, NPM1-, CEBPA-mutated and other subtypes) |
+| Predicted New Indication | Familial thrombocytosis |
 | TxGNN Prediction Score | 98.92% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+Note: the original indication is taken from the knowledge graph indication list, because the Australian licence record contains no approved indication text.
 
 ## Why is This Prediction Reasonable?
 
-Detailed structured MOA data is not available from DrugBank in this Evidence Pack (flagged as a High-severity data gap). However, literature captured elsewhere in this pack (PMID 16969355) independently describes midostaurin (PKC412A) as a multikinase inhibitor that potently inhibits protein kinase C alpha (PKCα), VEGFR2, KIT, PDGFR and FLT3 tyrosine kinases.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the evidence summarised for this prediction, midostaurin is a multikinase inhibitor (acting on KIT, FLT3 and PKC), and its efficacy in myeloid disease is established. Mechanistically, it could affect myeloproliferative signalling relevant to familial thrombocytosis.
 
-Familial thrombocytosis is a hereditary platelet disorder driven almost exclusively by germline mutations in *MPL* (thrombopoietin receptor) or *THPO* (thrombopoietin) — pathways that constitutively activate JAK-STAT signalling. This is a distinct mechanism from the FLT3/KIT/PKC axis that midostaurin targets.
+However, this link is speculative. Familial thrombocytosis is usually driven by germline *THPO*, *MPL* or *JAK2* variants, not by the kinase targets of midostaurin. No trial or literature data were available to support the prediction.
 
-The evidence pack's own repurposing rationale for this candidate is explicit on this point: the disease's causative pathway does not involve FLT3/KIT/PKC, so there is no direct mechanistic link to midostaurin's known pharmacology. The high TxGNN score most likely reflects node proximity within the knowledge graph (e.g. shared association with platelet/myeloid biology broadly) rather than a genuine, validated biological connection. This is consistent with the L5 evidence tier (model prediction only, no supporting studies) and the "Hold" recommendation.
+**Other top-ranked predictions (for context):**
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|------|
+| 2 | Reactive thrombocytosis | 98.76% | L5 | Secondary to inflammation or iron deficiency; treatment targets the cause, so a kinase inhibitor has no clear rationale |
+| 3 | Metastatic melanoma | 97.64% | L3 | Phase IIA study reported lack of activity |
+| 5 | Thrombocythemia | 97.48% | L4 | Biologically plausible (MPN), but only indirect review evidence; flagged as a research question |
+| 4, 6–10 | Inverse Klippel-Trenaunay syndrome and melanoma subtypes (non-cutaneous, epithelioid cell, eyelid, scrotum, amelanotic skin) | 96.4–97.6% | L5 | Prediction only; no supporting data |
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered for familial thrombocytosis. No clinical trials were identified for any of the top 10 predicted indications.
 
 ## Literature Evidence
 
-Currently no related literature available
+No literature is available for familial thrombocytosis. The following publications relate to other top-ranked predictions:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [16969355](https://pubmed.ncbi.nlm.nih.gov/16969355/) | 2006 | Phase IIA trial | Br J Cancer | Midostaurin 75 mg orally three times daily in 17 patients with metastatic melanoma; the study reported a lack of activity (negative result) |
+| [29704617](https://pubmed.ncbi.nlm.nih.gov/29704617/) | 2018 | Review | Pharmacol Res | Role of small-molecule KIT inhibitors in neoplastic disorders; indirect context only |
+| [29277359](https://pubmed.ncbi.nlm.nih.gov/29277359/) | 2018 | Review | Clin Lymphoma Myeloma Leuk | State-of-the-art update on myeloproliferative neoplasms (MPN); indirect relevance to thrombocythemia |
+| [23471017](https://pubmed.ncbi.nlm.nih.gov/23471017/) | 2011 | Review | Blood Cancer J | Proceedings on epigenetic mutations and treatment progress in MPN; indirect relevance to thrombocythemia |
 
 ## Australia Market Information
 
-No ARTG entries — midostaurin is not currently marketed in Australia according to this Evidence Pack.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11505M | Rydapt | Capsule 25 mg (oral) | Not available in the data compiled for this report |
+
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (multikinase inhibitor) |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Haematological parameters (FBC), liver and renal function; please confirm against the PI |
+| Handling Protection | Please refer to the PI and local cytotoxic drug handling policy |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions**: 100 interactions were recorded in the interaction database; the first 20 reviewed include two **Major** interactions, with **clarithromycin** and **dolasetron**. Most others are Moderate, including antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, saxagliptin, canagliflozin, dapagliflozin, chlorpropamide, albiglutide, dulaglutide), famotidine, cimetidine, aprepitant, dexamethasone, loperamide, and bowel preparations or laxatives (bisacodyl, picosulfuric acid, polyethylene glycol). The full list should be reviewed before any use.
+
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications, as these were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but this candidate has zero clinical trial or literature support, and the pack's own mechanistic analysis indicates the target disease pathway (MPL/THPO-driven) does not intersect with midostaurin's known kinase targets (FLT3/KIT/PKC). Evidence is insufficient to justify further evaluation at this time.
+The prediction for familial thrombocytosis is supported by the model score alone (L5), with no trials or literature. The mechanistic link is speculative because the disease is typically driven by germline *THPO*, *MPL* or *JAK2* variants. Midostaurin also carries a substantial toxicity and interaction burden. The only clinical study among the top predictions (metastatic melanoma) was negative.
 
 **To proceed, the following is needed:**
-- Structured DrugBank MOA data (currently a Blocking/High data gap in this pack)
-- TFDA/TGA Product Information warnings and contraindications (Blocking gap — required before any S1 safety screening)
-- In vitro or preclinical validation of any interaction between midostaurin's targets and the MPL/THPO/JAK-STAT pathway, before this candidate can move beyond model prediction
-
-*For context: among the other candidates in this pack, thrombocythemia (rank 5, evidence level L4, "Research Question") has a somewhat stronger — though still preclinical/indirect — mechanistic basis via FLT3-driven myeloproliferative neoplasm models, and metastatic melanoma (rank 3, L3) already has a negative Phase IIA clinical result. Neither is in scope of this report, which follows the pack's top-ranked candidate (familial thrombocytosis) per protocol.*
+- Mechanism of action data (MOA) from DrugBank
+- TGA Product Information (warnings, contraindications and approved indications), which is a blocking gap for safety screening
+- Preclinical or mechanistic evidence linking midostaurin to familial thrombocytosis
+- A closer look at thrombocythemia (essential thrombocythemia) as a more biologically plausible research question, including a review of whether the cited MPN papers discuss midostaurin
+- Review of the full interaction list, especially the major interactions with clarithromycin and dolasetron
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

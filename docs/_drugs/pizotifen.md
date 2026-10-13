@@ -2,7 +2,7 @@
 layout: default
 title: Pizotifen
 parent: High Evidence (L1-L2)
-nav_order: 541
+nav_order: 580
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Pizotifen: From an Unregistered Status in Australia to Migraine Disorder (Prophylaxis)
+# Pizotifen: From Migraine Prophylaxis (Approved Use) to Migraine Disorder (Predicted Indication)
 
 ## One-Sentence Summary
 
-Pizotifen is a serotonin (5-HT2) receptor antagonist with antihistamine and anticholinergic activity that has never been registered on Australia's ARTG. The TxGNN model's top-ranked prediction is **Migraine Disorder** (prophylaxis), supported by **1 clinical trial** and **20 PubMed records** — but this is not a novel hypothesis: it is pizotifen's long-established traditional indication in other markets, and the model is effectively confirming known pharmacology rather than surfacing a new use.
+Pizotifen is a serotonin (5-HT2) antagonist that is already used for migraine prophylaxis in several countries, although no approved indication text is recorded for its Australian listing.
+The TxGNN model predicts it may be effective for **migraine disorder**, which is largely a confirmation of an existing use rather than a novel repurposing.
+The evidence base is **1 Phase 2 clinical trial** (status unknown) and **21 publications**, including older double-blind comparisons and reviews.
 
 ---
 
@@ -41,21 +43,21 @@ Pizotifen is a serotonin (5-HT2) receptor antagonist with antihistamine and anti
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack — Pizotifen has never held an ARTG registration in Australia, so no TGA-approved indication text exists |
-| Predicted New Indication | Migraine Disorder (prophylaxis) |
+| Original Indication | Not recorded in the data compiled for this report (the Australian listing has no indication text); published sources describe use in migraine prophylaxis |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 98.76% |
 | Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed formal mechanism-of-action data for pizotifen was not returned in this evidence pack (DrugBank query gap). However, the evidence collected for this candidate describes pizotifen as a 5-HT2 serotonin receptor antagonist with additional antihistamine (H1) and anticholinergic activity. This receptor profile maps directly onto the serotonin theory of migraine — cortical spreading depression and trigeminovascular sensitisation — which is the accepted rationale for 5-HT2 antagonists in migraine prophylaxis.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pizotifen is a 5-HT2A/2C receptor antagonist with antihistaminic and weak anticholinergic activity. Blocking serotonin signalling in the cranial blood vessels and trigeminal pathways is consistent with its long-standing use in migraine prophylaxis. A pharmacology database also records activity at the 5-HT1A receptor.
 
-Importantly, the evidence pack's own rationale for this candidate flags that migraine prophylaxis is **pizotifen's traditional, decades-old indication internationally**, not a novel repurposing signal. Several of the supporting publications date from the 1970s–1990s (e.g. comparative trials against metoprolol, cyclandelate, and flunarizine), consistent with an agent whose migraine use is long-standing rather than emerging. The practical significance for Australia is different from a typical repurposing case: the open question here is not "does this mechanism plausibly extend to a new disease," but "why is an internationally recognised migraine prophylactic absent from the ARTG," and what would be needed to bring TGA-quality documentation (PI, safety, DDI) up to a standard suitable for local use.
+The predicted indication is not a genuinely new use. Pizotifen is marketed for migraine prophylaxis in the UK and other countries (though not by the US FDA or EMA). The supporting literature includes a double-blind crossover comparison with metoprolol, and reviews describing 5-HT2 antagonists, including pizotifen, as clinically effective in migraine prophylaxis. The model's prediction therefore largely recovers an established indication. The data compiled for this report show no Phase 3 evidence.
 
 ---
 
@@ -63,9 +65,9 @@ Importantly, the evidence pack's own rationale for this candidate flags that mig
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT06158230](https://clinicaltrials.gov/study/NCT06158230) | Phase 2 | Unknown | 140 | Single-blind RCT comparing amitriptyline–propranolol combination vs pizotifen for migraine prophylaxis; asks whether pizotifen outperforms the combination. Status unconfirmed — completion/publication not verified. |
+| [NCT06158230](https://clinicaltrials.gov/study/NCT06158230) | Phase 2 | Unknown | 140 | Single-blind RCT comparing pizotifen with an amitriptyline-propranolol combination for migraine prophylaxis (March 2023 to January 2024). No results available. |
 
-No ANZCTR (Australian) trial identifiers were found for this candidate.
+No ANZCTR trial identifiers were found in the data compiled for this report.
 
 ---
 
@@ -73,30 +75,36 @@ No ANZCTR (Australian) trial identifiers were found for this candidate.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3986895](https://pubmed.ncbi.nlm.nih.gov/3986895/) | 1985 | RCT | Cephalalgia | Double-blind cross-over of pizotifen (0.5mg tid) vs metoprolol (50mg bid) in 35 patients with classical/common migraine; comparable prophylactic effect. |
-| [1573338](https://pubmed.ncbi.nlm.nih.gov/1573338/) | 1992 | RCT | Journal of Medicine | Double-blind parallel trial of cyclandelate vs pizotifen in 61 evaluable migraine patients over 12 weeks; comparable efficacy and tolerance. |
-| [23416816](https://pubmed.ncbi.nlm.nih.gov/23416816/) | 2013 | RCT | Mymensingh Med J | Compared amitriptyline, pizotifen and propranolol in 90 patients; all reduced attack duration/frequency/severity with no significant between-group difference. |
-| [327746](https://pubmed.ncbi.nlm.nih.gov/327746/) | 1977 | RCT | Acta Neurol Scand | Double-blind cross-over of placebo vs Divascan vs pizotifen (3mg/day) in 30 patients; early comparative prophylaxis data. |
-| [22683887](https://pubmed.ncbi.nlm.nih.gov/22683887/) | 2012 | Guideline | Can J Neurol Sci | Canadian Headache Society guideline for migraine prophylaxis — evidence-based medication selection framework. |
-| [35190383](https://pubmed.ncbi.nlm.nih.gov/35190383/) | 2022 | Review | Arch Dis Child | Narrative review of paediatric migraine management; notes recent large trials of propranolol, pizotifen, topiramate and amitriptyline have generally failed to show robust superiority over placebo in children. |
-| [40705288](https://pubmed.ncbi.nlm.nih.gov/40705288/) | 2025 | Cohort | Neurology India | Retrospective study of pizotifen efficacy and tolerance in children with migraine in a Brazilian Amazon cohort. |
-| [25217187](https://pubmed.ncbi.nlm.nih.gov/25217187/) | 2014 | Review | Eur J Clin Pharmacol | Review of anti-migraine drug safety in breastfeeding, including pizotifen. |
-| [2891428](https://pubmed.ncbi.nlm.nih.gov/2891428/) | 1988 | Review | CMAJ | General migraine therapy review covering beta-blockers, calcium-channel blockers and other prophylactic agents. |
-| [6398056](https://pubmed.ncbi.nlm.nih.gov/6398056/) | 1984 | Review | Aust NZ J Med | Review of serotonin antagonists across carcinoid syndrome, migraine, nociception and vascular disease. |
+| [3986895](https://pubmed.ncbi.nlm.nih.gov/3986895/) | 1985 | RCT (double-blind crossover) | Cephalalgia | Pizotifen vs metoprolol in 35 patients with classical or common migraine; 4 withdrawals due to side effects (3 on pizotifen) |
+| [1573338](https://pubmed.ncbi.nlm.nih.gov/1573338/) | 1992 | RCT | J Med | Cyclandelate vs pizotifen over 16 weeks in 84 patients with migraine |
+| [327746](https://pubmed.ncbi.nlm.nih.gov/327746/) | 1977 | RCT (double-blind crossover) | Acta Neurol Scand | Placebo vs pizotifen vs Divascan in migraine prophylaxis; 30 patients |
+| [42673559](https://pubmed.ncbi.nlm.nih.gov/42673559/) | 2026 | Systematic review/guideline | Neurology | AAN/American Headache Society review of preventive drug treatment for migraine in adults |
+| [42673583](https://pubmed.ncbi.nlm.nih.gov/42673583/) | 2026 | Systematic review/guideline | Headache | Companion publication of the same AAN/American Headache Society review |
+| [2045831](https://pubmed.ncbi.nlm.nih.gov/2045831/) | 1991 | Review | J Neurol | 5-HT2 antagonists (including pizotifen, the most widely used) are clinically effective in migraine prophylaxis |
+| [38307673](https://pubmed.ncbi.nlm.nih.gov/38307673/) | 2024 | Review | Handb Clin Neurol | Non-specific oral preventive agents for migraine |
+| [40705288](https://pubmed.ncbi.nlm.nih.gov/40705288/) | 2025 | Retrospective study | Neurology India | Efficacy and tolerance of pizotifen in children with migraine in a Brazilian Amazon city |
+| [35190383](https://pubmed.ncbi.nlm.nih.gov/35190383/) | 2022 | Narrative review | Arch Dis Child | Notes that recent large trials of propranolol, pizotifen, topiramate and amitriptyline in childhood migraine have failed |
+| [26044059](https://pubmed.ncbi.nlm.nih.gov/26044059/) | 2015 | Review | BMJ Clin Evid | Migraine headache in children |
 
-Note: several additional PubMed records were returned for this candidate but were not yet classified by study type (`pending`) in the evidence pack, so they are omitted from this table rather than guessed at.
+Several other retrieved publications cover other drugs (for example sumatriptan pharmacokinetics) and are not direct evidence for pizotifen. Broader headache categories (cluster headache, trigeminal autonomic cephalalgia) show no pizotifen efficacy data in the retrieved literature.
 
 ---
 
 ## Australia Market Information
 
-Pizotifen is **not currently registered on the ARTG** (0 entries). No Australian Product Information, brand name, or approved indication text exists for this drug at this time.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13866T | Sandomigran 0.5 | Tablet 500 micrograms (as malate), oral | Not recorded in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-No safety data (key warnings, contraindications, or drug–drug interactions) were returned for pizotifen in this evidence pack, and because it is not TGA-registered, no Australian Product Information exists to consult. Any clinical use would need to rely on reference-market documentation (e.g. UK/EU SmPC) pending formal Australian evaluation — please do not treat the absence of flagged warnings here as evidence of a clean safety profile.
+- **Drug interactions:** The interaction query completed, but it returned only a pharmacology target record (the 5-HT1A receptor), not drug-drug interactions.
+- **Anticholinergic activity:** Pizotifen's weak anticholinergic activity is a theoretical concern in susceptible eyes (for example, narrow-angle glaucoma). Two small older studies (1979 to 1980) found no worsening of intraocular pressure in treated open-angle glaucoma.
+- **Weight gain and tolerability:** Weight gain is a recognised adverse effect of migraine prophylactic therapy, and a 6-month cohort study (PMID 16362700) included pizotifen. Withdrawals due to side effects were reported in older trials.
+
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications, which were not available in the data compiled for this report.
 
 ---
 
@@ -105,14 +113,14 @@ No safety data (key warnings, contraindications, or drug–drug interactions) we
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism (5-HT2 antagonism) and a modest body of older comparative RCTs support pizotifen's efficacy in migraine prophylaxis, and this is an internationally well-established use rather than a speculative new indication. However, the complete absence of Australian registration, PI, MOA documentation, and DDI/contraindication data means this cannot proceed without substantial regulatory and safety work.
+Pizotifen is already marketed in Australia as an oral tablet and has long-standing use and older double-blind trial evidence in migraine prophylaxis. The only registered recent trial is a Phase 2 study with unknown status, and no Phase 3 evidence is present, so the evidence level is L2.
 
 **To proceed, the following is needed:**
-- Formal DrugBank/manufacturer MOA documentation (currently a data gap)
-- TGA/ARTG registration pathway assessment, since pizotifen has never been marketed in Australia
-- Reference-market Product Information (safety, contraindications, DDI) as a stopgap pending local approval
-- Confirmation of NCT06158230's completion status and any resulting publication
-- Explicit framing for stakeholders that this is a confirmatory finding of an established indication, not a novel repurposing signal
+- The TGA Product Information, to confirm the approved indication wording, warnings and contraindications
+- Results or status confirmation for NCT06158230
+- Detailed mechanism of action data
+- Review of current Australian guidance, given the mixed paediatric trial results
+- Consolidation of overlapping predictions (migraine with brainstem aura, migraine susceptibility, headache disorder) under the main migraine entry, with subtype-level evidence reviewed separately
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

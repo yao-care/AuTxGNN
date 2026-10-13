@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Acamprosate
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 16
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 ---
 
 # Acamprosate
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,109 +29,76 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Acamprosate: From Alcohol Dependence to Alcohol Withdrawal Syndrome
+# Acamprosate: From Substance Abuse/Dependence to Progressive Encephalopathy with Leukodystrophy due to DECR Deficiency
 
 ## One-Sentence Summary
 
-Acamprosate (calcium acetyl homotaurinate) is an internationally approved pharmacotherapy for alcohol dependence, used to maintain abstinence and prevent relapse following detoxification. The TxGNN model predicts it may be effective for **Alcohol Withdrawal Syndrome**, with **7 clinical trials** (including 1 Phase 3 RCT) and **20 publications** (including a 2024 clinical practice guideline and a JAMA meta-analysis) currently supporting this direction. Evidence strength is classified as **L1** — the highest available level — making this the strongest candidate across all TxGNN-predicted indications for this drug.
-
----
+Acamprosate is an oral medicine originally used for substance (alcohol) dependence.
+The TxGNN model predicts it may be effective for **progressive encephalopathy with leukodystrophy due to DECR deficiency**, but **no clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Alcohol dependence (maintenance of abstinence and relapse prevention post-detoxification) |
-| Predicted New Indication | Alcohol Withdrawal Syndrome |
-| TxGNN Prediction Score | 90.61% |
-| Evidence Level | L1 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-> **Note on indication selection:** The TxGNN model returned 10 predicted indications for Acamprosate. The top-ranked prediction by score (progressive encephalopathy with leukodystrophy due to DECR deficiency, score 98.53%) carries no supporting evidence and no credible biological rationale. Per clinical evaluation best practice, this report focuses on **Alcohol Withdrawal Syndrome (rank 9, score 90.61%)** — the single indication backed by L1 evidence, including a Phase 3 RCT and 2024 emergency medicine guidelines.
-
----
+|------|------|
+| Original Indication | Substance abuse/dependence (from the knowledge graph; the ARTG entry has no indication text) |
+| Predicted New Indication | Progressive encephalopathy with leukodystrophy due to DECR deficiency |
+| TxGNN Prediction Score | 98.53% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Acamprosate (calcium acetyl homotaurinate) is a synthetic compound structurally similar to gamma-aminobutyric acid (GABA) and taurine. It acts through two primary pathways: (1) modulation of NMDA (N-methyl-D-aspartate) receptor activity, and (2) agonism of GABA-B receptors. Together, these actions restore balance between CNS excitation and inhibition.
+Detailed mechanism of action data is not currently available. Acamprosate is generally thought to modulate glutamatergic (NMDA) and GABAergic signalling, which is disturbed by chronic alcohol exposure. This is the basis of its use in maintaining abstinence in alcohol dependence.
 
-During chronic alcohol exposure, the brain undergoes neuroadaptation: NMDA receptors are progressively upregulated and GABA-A receptor function is suppressed. When alcohol is abruptly withdrawn, this compensatory upregulation becomes unmasked — producing CNS hyperexcitability that manifests as tremor, anxiety, diaphoresis, seizures, and in severe cases, life-threatening delirium tremens. Acamprosate directly counters this neurochemical imbalance by dampening NMDA overactivity and supporting GABAergic tone, making it mechanistically well-matched to treating the acute withdrawal state.
-
-While Acamprosate has historically been positioned for *long-term* relapse prevention after detoxification has been completed, its application *during and immediately after* the acute withdrawal period represents a clinically distinct and pharmacologically logical extension. Two completed Phase 2 trials (NCT00004552, NCT00106106) were specifically designed to examine this acute withdrawal neurobiology hypothesis, and the Phase 3 trial NCT03634917 directly validated its effect on alcohol craving suppression during early abstinence. This mechanistic-clinical alignment is the strongest seen across all TxGNN predictions for this drug.
-
----
+DECR deficiency is an ultra-rare mitochondrial fatty acid oxidation disorder. No plausible link has been established between it and acamprosate's putative neurotransmitter-modulating activity. The high TxGNN score is a graph-based prediction only, and it should be treated as a hypothesis-generating signal rather than evidence of benefit.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|------|------|---------|-----------|
-| [NCT03634917](https://clinicaltrials.gov/study/NCT03634917) | Phase 3 | Completed | 82 | Three-arm randomised double-blind RCT: Acamprosate vs. calcium carbonate vs. placebo; validated reduction in motivation to work for alcohol after 14–19 days of treatment during early abstinence |
-| [NCT00004552](https://clinicaltrials.gov/study/NCT00004552) | Phase 2 | Completed | 120 | Pretreatment with two doses of Acamprosate vs. placebo for 7 days prior to abstinence; directly measured acute withdrawal intensity during 4-day inpatient monitoring; largest sample in this group |
-| [NCT00106106](https://clinicaltrials.gov/study/NCT00106106) | Phase 2 | Completed | 56 | Mechanistically-targeted study of Acamprosate for CNS hyperexcitability and neuroadaptation during alcohol withdrawal; strongest mechanistic-design alignment |
-| [NCT00466661](https://clinicaltrials.gov/study/NCT00466661) | Phase 4 | Completed | 33 | Double-blind randomised placebo-controlled post-marketing trial of Acamprosate in alcohol-dependent patients with comorbid bipolar disorder on mood stabilisers; assessed effects on both alcohol use and mood symptoms |
-| [NCT00330174](https://clinicaltrials.gov/study/NCT00330174) | Phase 4 | Completed | 90 | Randomised double-blind placebo-controlled trial in alcohol dependence with comorbid anxiety or depression (MDE, GAD, social anxiety); evaluated effects on both alcohol outcomes and psychiatric comorbidity |
-| [NCT00855699](https://clinicaltrials.gov/study/NCT00855699) | Phase 4 | Completed | 36 | Feasibility RCT of Acamprosate-based detoxification in UK primary care settings; important for real-world implementation evidence outside specialist services |
-| [NCT02771925](https://clinicaltrials.gov/study/NCT02771925) | Phase 4 | Terminated | 25 | Gabapentin as primary intervention with Acamprosate as active comparator in alcohol dependence; terminated early (limited data), provides comparative treatment context |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|-----------|
-| [38747203](https://pubmed.ncbi.nlm.nih.gov/38747203/) | 2024 | Clinical Practice Guideline | Academic Emergency Medicine | SAEM GRACE-4 guideline on ED management of alcohol withdrawal syndrome and alcohol use disorder; developed by addiction medicine experts using GRADE methodology |
-| [24825644](https://pubmed.ncbi.nlm.nih.gov/24825644/) | 2014 | Systematic Review / Meta-Analysis | JAMA | Comprehensive SR/MA of pharmacotherapy for adults with alcohol use disorders in outpatient settings; Acamprosate demonstrated significant benefit for maintaining abstinence versus placebo |
-| [29617889](https://pubmed.ncbi.nlm.nih.gov/29617889/) | 2018 | Individual Patient Data Meta-Analysis | Alcohol and Alcoholism | IPD meta-analysis from large clinical trial database; Acamprosate significantly reduces insomnia in alcohol-dependent abstinent patients, supporting secondary neuroadaptation benefit |
-| [11524307](https://pubmed.ncbi.nlm.nih.gov/11524307/) | 2001 | RCT | Alcohol and Alcoholism | 296-patient multicentre double-blind RCT; uniquely prescribed Acamprosate from *start* of alcohol withdrawal (not post-detox), demonstrating benefit of early initiation in relapse prevention |
-| [33567423](https://pubmed.ncbi.nlm.nih.gov/33567423/) | 2021 | RCT | European Addiction Research | Calcium carbonate vs. Acamprosate RCT; demonstrated calcium component may independently attenuate craving, refining understanding of Acamprosate's active pharmacology |
-| [32696076](https://pubmed.ncbi.nlm.nih.gov/32696076/) | 2021 | Narrative Review | Der Nervenarzt | Updated pharmacotherapy landscape for alcohol withdrawal; positions Acamprosate alongside naltrexone and nalmefene as approved relapse-prevention agents with distinct mechanisms |
-| [17997696](https://pubmed.ncbi.nlm.nih.gov/17997696/) | 2007 | Review / Health Economics | Expert Review of Neurotherapeutics | Comprehensive review of Acamprosate clinical trial evidence and cost-effectiveness; supports use in conjunction with psychosocial interventions |
-| [14972776](https://pubmed.ncbi.nlm.nih.gov/14972776/) | 2003 | Pharmacological Comparative Review | American Journal on Addictions | Foundational comparison of naltrexone and Acamprosate mechanisms; articulates NMDA/GABA pathway as core Acamprosate mechanism of action |
-| [9179530](https://pubmed.ncbi.nlm.nih.gov/9179530/) | 1997 | Pharmacological Review | Drugs | Comprehensive early pharmacology review; establishes NMDA antagonism and calcium flux reduction as predominant mechanisms; first drug specifically designed to maintain abstinence |
-| [7580816](https://pubmed.ncbi.nlm.nih.gov/7580816/) | 1995 | Mechanistic Review | Addiction | Original mechanistic hypothesis paper proposing Acamprosate as a novel craving-suppressing agent via pre-clinical pharmacological evidence |
-
----
+Currently no related literature available.
 
 ## Australia Market Information
 
-Acamprosate is **not currently marketed in Australia**. There are no ARTG entries for this drug.
-
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
-|------------|-------------|-------------|-------------------|
-| — | Not registered | — | No TGA registration found |
-
-Acamprosate (brand name **Campral®**) holds regulatory approval in a number of comparable markets, including the United States (FDA, since 2004), the European Union (EMA), and the United Kingdom. It is not currently listed on the Australian Register of Therapeutic Goods (ARTG) and has no TGA-approved Product Information document. Access in Australia would require either a formal TGA registration application or access via the Special Access Scheme (SAS).
-
----
+|---------|------|------|-----------|
+| ARTG 8357W | Campral | Tablet (enteric coated) containing acamprosate calcium 333 mg | Not specified in the data compiled for this report |
 
 ## Safety Considerations
 
-No TGA-approved Product Information is available as Acamprosate is not registered in Australia. No drug interaction data was identified in the evidence search. Please refer to the FDA-approved Campral® prescribing information or the EMA-approved product monograph for complete safety data. Key points to be aware of from international sources include:
+- **Contraindications (knowledge-graph derived, not label text)**: impaired renal function disease.
+- **Drug Interactions**: 15 potential interacting drugs were identified from DDInter. Severity levels were not graded, so clinical significance cannot be judged from these data. The listed drugs are:
+  - Pantoprazole, omeprazole, lansoprazole, ranitidine
+  - Doxycycline
+  - Prednisone, budesonide
+  - Simvastatin
+  - Lactulose
+  - Naltrexone
+  - Bupropion
+  - Warfarin
+  - Ibuprofen
+  - Doxepin
+  - Levothyroxine
 
-- **Renal impairment**: Acamprosate is eliminated entirely by renal excretion. Dose reduction is required in moderate renal impairment (CrCl 30–50 mL/min); contraindicated in severe renal impairment (CrCl < 30 mL/min)
-- **Pregnancy**: Classified Category C (US); use only if benefit outweighs risk
-- **Common adverse effects**: Diarrhoea, nausea, flatulence, and abdominal pain are the most frequently reported gastrointestinal effects
-- **Suicidality**: Post-marketing surveillance has reported cases of suicidal ideation; close monitoring recommended, particularly in patients with comorbid depression
-
----
+Label-based warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple completed clinical trials — including a Phase 3 RCT (NCT03634917), two Phase 2 mechanistic trials directly targeting CNS hyperexcitability in alcohol withdrawal, a 2024 SAEM emergency medicine clinical practice guideline (Tier 1), and a JAMA-published systematic review and meta-analysis — provide L1-level evidence supporting Acamprosate's efficacy across the alcohol withdrawal/dependence spectrum. The NMDA modulation and GABA-B agonism mechanism is directly aligned with the core pathophysiology of alcohol withdrawal syndrome, and the safety profile is well-characterised from decades of international clinical use.
+The prediction is supported only by a model score (L5), with no trials, no literature and no plausible mechanistic link to an ultra-rare metabolic leukodystrophy. For comparison, among the other predictions generated for acamprosate, alcohol withdrawal has the strongest support: a completed Phase 2 trial (NCT00106106, 56 participants) and a closely adjacent approved indication. It is rated L2 and is a better candidate for further investigation.
 
 **To proceed, the following is needed:**
-
-- **TGA registration or SAS pathway**: Acamprosate is not currently marketed in Australia. Before clinical use, either a formal TGA registration application or a Special Access Scheme (SAS Category B/C) application is required; existing FDA and EMA approvals may support an expedited pathway
-- **Complete MOA data**: Retrieve full mechanism of action and pharmacology data from DrugBank (DB00659) to support formal mechanistic dossier
-- **Australian-specific safety document**: Prepare a local equivalent of the Product Information based on international PI documents; ensure it reflects TGA formatting and ARTG requirements
-- **Renal function monitoring protocol**: Develop a clear dose-adjustment and monitoring protocol for Australian prescribers, given Acamprosate's exclusive renal elimination
-- **Real-world applicability assessment**: Evaluate how Acamprosate integrates into existing Australian alcohol withdrawal management pathways (e.g., alongside benzodiazepine-based CIWA-Ar protocols) in both specialist and primary care settings
-- **Health economic analysis**: Assess cost-effectiveness in the Australian PBS context, given analogous analyses have been conducted in European markets
+- A mechanistic rationale connecting acamprosate to DECR deficiency pathophysiology, supported by preclinical or disease-model data
+- Detailed mechanism of action data for acamprosate
+- Label-based warnings and contraindications from the TGA-approved PI, including renal function considerations
+- Graded severity for the identified drug interactions
+- A review of whether any real-world or case-level data exist for this condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

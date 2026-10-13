@@ -2,7 +2,7 @@
 layout: default
 title: Osilodrostat
 parent: Model Prediction Only (L5)
-nav_order: 497
+nav_order: 532
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Osilodrostat: From an Unrecorded Original Indication to Familial Generalized Lentiginosis (Predicted)
+# Osilodrostat: From Cushing Disease to Familial Generalised Lentiginosis
 
 ## One-Sentence Summary
 
-The original approved indication for osilodrostat is not recorded in this evidence pack, and its mechanism of action (MOA) is also currently unavailable. The TxGNN model predicts it may be effective for **Familial Generalized Lentiginosis**, but this is currently supported by **0 clinical trials** and **0 publications** — the prediction rests entirely on the model's knowledge-graph score.
-
----
+Osilodrostat was originally developed to treat Cushing disease and Cushing syndrome by lowering cortisol production.
+The TxGNN model predicts it may be effective for **familial generalised lentiginosis**, but there are **no clinical trials** and **no publications** supporting this prediction.
+This is a model-only prediction, and the mechanism suggests the effect could be unfavourable.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack |
-| Predicted New Indication | Familial Generalized Lentiginosis |
+| Original Indication | Cushing disease due to pituitary adenoma; ACTH-dependent Cushing syndrome; Cushing syndrome |
+| Predicted New Indication | Familial generalised lentiginosis |
 | TxGNN Prediction Score | 98.19% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for osilodrostat is not currently available in this evidence pack, and no original indication is on record either. Without either of these anchors, there is no basis in the supplied data to construct a pharmacological rationale connecting osilodrostat to familial generalized lentiginosis, an extremely rare inherited pigmentary condition.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, osilodrostat inhibits 11-beta-hydroxylase (CYP11B1), the enzyme that catalyses the final step of cortisol synthesis. This makes it useful in conditions of cortisol excess such as Cushing disease.
 
-As the source data itself notes, this disease category has no known mechanistic relationship to osilodrostat's pharmacological targets, and the TxGNN score reflects graph-embedding similarity rather than a validated biological pathway. No clinical, preclinical, or case-based evidence has been identified to support the association.
+The data compiled for this report does not show a plausible link between this mechanism and familial generalised lentiginosis, which is a pigmentation disorder. These conditions are often driven by genetic changes in melanocyte or RAS/MAPK/PRKAR1A-related pathways. The high TxGNN score appears to reflect proximity in the knowledge graph (the adrenal and pigmentation phenotype space) rather than a verified mechanism.
 
-This prediction should be treated as a hypothesis-generating signal only, not as evidence of therapeutic plausibility.
+There is also a theoretical concern. Blocking cortisol synthesis can raise ACTH and adrenal androgen precursors, which may worsen hyperpigmentation. The direction of effect is therefore uncertain or possibly unfavourable.
 
----
+Other top-ranked predictions show the same pattern: acromelanosis, congenital café-au-lait macules syndrome, gastrocutaneous syndrome, Moynahan syndrome, rhabdoid tumour, X-linked lymphoproliferative disease, osteopathia striata syndrome and peripheral nerve schwannoma. All are L5 (model prediction only), with no identified mechanistic link and a recommendation of Hold.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
-Osilodrostat currently has no ARTG entries on record (0 licences), consistent with its "not marketed" status in this jurisdiction. No product, dosage form, or approved indication information is available to summarise.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14714K | Isturisa | Tablet 1 mg (as phosphate) | Not stated in the data compiled for this report |
 
----
+The product is a single-ingredient oral tablet and its status is valid.
 
 ## Safety Considerations
 
-Please refer to the manufacturer's Product Information for safety data. Note that osilodrostat does not currently hold marketing approval in this jurisdiction, so no locally approved PI, warnings, contraindications, or drug-interaction data are available in this evidence pack.
+**Drug Interactions** (100 interactions identified; the first 20 returned are summarised here):
 
----
+- **Major:** clarithromycin and dolasetron.
+- **Moderate:** famotidine, cimetidine, omeprazole, dexamethasone, budesonide (including nasal), aprepitant, alosetron, loperamide, bisacodyl, picosulfuric acid, polyethylene glycol (3350 with electrolytes), sodium sulfate, chlorpropamide, palonosetron, levofloxacin and metreleptin.
+- **Minor:** naloxegol.
+
+The interaction list is incomplete, so check it in full before any clinical use.
+
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has no clinical trial or literature evidence (L5, model-prediction-only), no MOA data to support mechanistic plausibility, and no market presence in this jurisdiction. The predicted indication itself is an extremely rare condition with no biological link to the drug's known pharmacology in the available data. There is currently nothing to act on beyond the raw model score.
+The prediction rests only on a knowledge-graph score, with no clinical trials or literature. There is no plausible mechanistic link, and osilodrostat's effect on ACTH could theoretically worsen pigmentation.
 
 **To proceed, the following is needed:**
-- Osilodrostat's mechanism of action (from DrugBank or another authoritative source)
-- The drug's original approved indication(s)
-- TFDA/TGA-equivalent product information, including warnings and contraindications (currently a Blocking data gap)
-- Any preclinical, case-report, or mechanistic literature linking osilodrostat to familial generalized lentiginosis or related pigmentary disorders
+- Detailed mechanism of action data (MOA)
+- Preclinical or mechanistic evidence linking CYP11B1 inhibition to lentiginosis pathophysiology
+- Review of how ACTH elevation affects pigmentation
+- Warnings and contraindications from the TGA-approved PI
+- Approved indication text for the ARTG entry
+- Full review of the drug interaction list
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

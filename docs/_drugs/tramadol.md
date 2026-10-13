@@ -2,7 +2,7 @@
 layout: default
 title: Tramadol
 parent: Model Prediction Only (L5)
-nav_order: 691
+nav_order: 743
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tramadol: From Pain Management to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Tramadol: From Osteoarthritis to Acromesomelic Dysplasia (Hunter-Thompson Type)
 
 ## One-Sentence Summary
 
-> Tramadol is a centrally-acting analgesic (mu-opioid agonist with SNRI activity) used for moderate-to-severe pain.
-> The TxGNN model predicts it may be effective for **Acromesomelic Dysplasia, Hunter-Thompson Type**, a rare GDF5-related skeletal dysplasia,
-> but this prediction is currently supported by **no clinical trials** and **no published literature**, and the underlying rationale itself flags it as a likely false positive.
-
----
+Tramadol is an opioid/SNRI-type analgesic, originally associated with osteoarthritis and arthropathy pain.
+The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare genetic skeletal disorder,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model-only signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pain management (moderate-to-severe pain; opioid/SNRI mechanism per rationale data) — no ARTG-approved indication text available |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
+| Original Indication | Osteoarthritis, arthropathy (from the knowledge graph; no approved indication text is available for the Australian entry) |
+| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not directly available in this evidence pack (original_moa is flagged as a data gap, DG002). However, the repurposing rationale confirms tramadol acts as a weak mu-opioid receptor agonist combined with serotonin-noradrenaline reuptake inhibition (SNRI), a mechanism established for pain control rather than for disease-modifying effects in skeletal or connective tissue disorders.
+Currently, detailed mechanism of action data is not available. Based on known information, tramadol is a centrally acting analgesic with mu-opioid agonist and monoamine reuptake inhibition activity, and it is used for pain in joint conditions such as osteoarthritis.
 
-Acromesomelic Dysplasia, Hunter-Thompson Type is a rare genetic skeletal dysplasia caused by GDF5 gene defects, affecting cartilage and bone growth. There is no known pharmacological pathway connecting tramadol's opioid/SNRI activity to GDF5-mediated skeletal development. The evidence pack's own rationale explicitly states that this high TxGNN score is most likely a **false positive**, arising from co-occurrence of skeletal-related nodes in the knowledge graph rather than a genuine mechanistic link. At best, tramadol could theoretically be used for symptomatic pain relief in patients with this condition — but this would be off-label symptom management, not a repurposed disease-targeted indication, and no data currently supports even this narrower use.
+Acromesomelic dysplasia, Hunter-Thompson type, is a rare genetic skeletal dysplasia caused by loss-of-function variants in the CDMP1/GDF5 gene, affecting limb growth. Tramadol does not act on the GDF5/BMP pathway, so there is no credible mechanistic link. The high TxGNN score most likely reflects network proximity to skeletal and joint disorders in the knowledge graph rather than a pharmacological rationale. At most, tramadol could offer symptomatic analgesia, which is not a disease-modifying indication.
 
----
+Other top-ranked predictions show the same pattern. They include brachyolmia, myosclerosis, pseudoachondroplasia, spondyloarthropathy and several forms of juvenile arthritis. Only pseudoachondroplasia, which is associated with early-onset osteoarthritis, and the arthritis-related conditions have a weak, indirect symptomatic connection through joint pain management.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the top-ranked prediction.
 
----
+For context, the only publication identified in the wider prediction set is for juvenile idiopathic arthritis (rank 7):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [20799760](https://pubmed.ncbi.nlm.nih.gov/20799760/) | 2010 | Review | Paediatric Drugs | Review of ketoprofen (an NSAID) pharmacokinetics, efficacy and tolerability in children. It concerns ketoprofen, not tramadol, so it gives no direct evidence for this drug. |
 
 ## Australia Market Information
 
-No ARTG entries are recorded for this candidate — tramadol is listed as **Not Marketed** in this evidence pack (0 licenses).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12008B | Tramal | Capsule containing tramadol hydrochloride 50 mg (oral) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Note that a blocking data gap (DG001) has been identified: TGA/PI warnings and contraindications for tramadol have not yet been retrieved, which prevents progression to a formal safety (S1) evaluation for this candidate.
+- **Contraindications and conditions of concern (from knowledge graph drug-disease links, not label text):** hypertension, liver failure, liver disease, cirrhosis, gallbladder disease, epilepsy, anxiety disorder, neurotic disorder, dysthymic disorder, diabetes mellitus, diabetic ketoacidosis, substance abuse/dependence, substance-related disorder, hyperlipidaemia, familial hyperlipidaemia, respiratory failure, paracetamol poisoning, serotonin syndrome, pseudotumor cerebri, intracranial hypertension, alcohol withdrawal, Wernicke-Korsakoff syndrome, substance withdrawal syndrome, and central nervous system infectious disorders.
+- **Drug Interactions:** 100 interactions were recorded. The first 20 listed include the following.
+  - **Major:** alvimopan, bupropion, cisapride, dexfenfluramine, diethylpropion, dolasetron, dronabinol, ephedrine, fenfluramine.
+  - **Moderate:** atropine, bisacodyl, castor oil, cimetidine, clarithromycin, clidinium, dicyclomine, eliglustat, eluxadoline, famotidine, glycerin.
+- **Paediatric use:** Several top predictions involve juvenile arthritis. Tramadol carries paediatric safety restrictions, including respiratory depression risk and CYP2D6 ultra-rapid metabolism, which would need careful review.
 
----
+Please also refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is supported only by a model score (Evidence Level L5), with zero clinical trials and zero literature citations. The rationale accompanying this prediction explicitly identifies it as a probable knowledge-graph false positive rather than a biologically plausible repurposing candidate, so it does not meet the threshold to proceed.
+The prediction is a computational signal only (L5). There are no registered trials or supporting publications, and no plausible mechanistic link between tramadol and GDF5-related skeletal dysplasia. Any benefit would be limited to symptomatic pain relief, which is already within tramadol's existing analgesic use.
 
 **To proceed, the following is needed:**
-- TGA/PI warnings, contraindications and safety data for tramadol (DG001 — blocking)
-- Confirmed mechanism of action detail from DrugBank (DG002)
-- Independent preclinical or mechanistic evidence linking opioid/SNRI activity to GDF5-related skeletal pathology, before any further clinical evaluation is warranted
+- Mechanism of action data (MOA) to enable a proper mechanistic-link analysis
+- TGA Product Information for the ARTG entry, including approved indications, warnings and contraindications
+- Preclinical or clinical evidence showing a disease-relevant effect in the predicted condition
+- A decision on whether symptomatic analgesia in rare skeletal or arthritic conditions is a useful question, since a disease-modifying claim is not supported
+- A dedicated paediatric safety review before any use in juvenile arthritis
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

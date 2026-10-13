@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Elotuzumab
-parent: High Evidence (L1-L2)
-nav_order: 226
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 244
+evidence_level: L4
 indication_count: 10
 ---
 
 # Elotuzumab
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,109 +29,73 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Elotuzumab: From Relapsed/Refractory Multiple Myeloma to Indolent Plasma Cell Myeloma
+# Elotuzumab: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
 
 ## One-Sentence Summary
 
-Elotuzumab is a humanised anti-SLAMF7 (CS1) monoclonal antibody approved internationally for relapsed or refractory multiple myeloma (MM) in combination with immunomodulatory agents such as lenalidomide or pomalidomide plus dexamethasone.
-The TxGNN model predicts it may be effective for **Indolent Plasma Cell Myeloma**,
-with **1 clinical trial** and **2 publications** currently available to support this direction — alongside broader Phase 3 RCT evidence (ELOQUENT-2, ELOQUENT-3) for the MM disease class.
-
----
+Elotuzumab is a monoclonal antibody originally used to treat plasma cell myeloma (multiple myeloma).
+The TxGNN model predicts it may be effective for **indolent plasma cell myeloma**, but this is a closely related stage of the same disease rather than a distinct new disease.
+Currently there are **0 registered clinical trials** and **1 publication** (a general review) in the compiled data, so the evidence is indirect.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Relapsed/refractory multiple myeloma (internationally approved; not registered in Australia) |
-| Predicted New Indication | Indolent Plasma Cell Myeloma |
+|------|------|
+| Original Indication | Plasma cell myeloma (the ARTG entry in the compiled data has no indication text) |
+| Predicted New Indication | Indolent plasma cell myeloma |
 | TxGNN Prediction Score | 98.62% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Elotuzumab is a humanised IgG1 monoclonal antibody that specifically targets SLAMF7 (also known as CS1, CRACC, or CD319), a glycoprotein highly and selectively expressed on plasma cells — including both actively proliferating myeloma cells and their more quiescent, indolent counterparts. Its therapeutic activity arises from a dual mechanism: first, it directly activates NK cells by binding to SLAMF7 on their surface, significantly enhancing antibody-dependent cellular cytotoxicity (ADCC); second, it disrupts the protective interaction between SLAMF7-expressing myeloma cells and bone marrow stromal cells, removing a key survival signal for the tumour.
+Elotuzumab is an anti-SLAMF7 (CS1) monoclonal antibody. SLAMF7 is expressed on myeloma plasma cells and natural killer (NK) cells. The antibody is thought to work by activating NK cells directly and by triggering NK-cell-mediated antibody-dependent cellular cytotoxicity against myeloma cells. Detailed original mechanism-of-action data were not available in the compiled data; the description here comes from the mechanistic rationale in the prediction analysis.
 
-The biological rationale for extending Elotuzumab to indolent plasma cell myeloma (PCM) is compelling. SLAMF7 is constitutively expressed on indolent plasma cells at levels comparable to those seen in active MM — meaning the pharmacological target is present regardless of disease tempo. Indolent PCM, while characteristically slow-growing, is increasingly understood to represent an early or low-proliferation phase on the same disease continuum as symptomatic MM, sharing key immunological vulnerabilities.
+Indolent (smouldering) myeloma sits on the same disease continuum as the approved indication, which likely explains the high TxGNN score. The prediction is therefore largely a restatement of the approved disease, not a true repurposing candidate. The only supporting publication is a 2016 general review of myeloma. Any evidence specific to elotuzumab in smouldering myeloma would need to be verified from independent sources not included in the compiled data.
 
-Supporting this mechanistic reasoning, the landmark ELOQUENT-2 Phase 3 RCT (N=646, relapsed/refractory MM) and ELOQUENT-3 Phase 3 RCT (N=117) have both demonstrated that Elotuzumab-based combinations significantly improve progression-free survival in MM. Although direct prospective RCT evidence specifically targeting indolent PCM is currently lacking, the underlying biology strongly supports plausibility. The TxGNN score of 98.62% reflects the tight knowledge-graph proximity between Elotuzumab's established targets and the molecular pathology of indolent plasma cell disease.
-
----
+Other predictions in the list (benign and malignant colonic and cecal conditions, scores 73.9% to 76.3%) have no plausible mechanistic link. These conditions do not depend on SLAMF7, and they appear to be graph-based prediction artefacts. They are not recommended for further consideration.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT03019666](https://clinicaltrials.gov/study/NCT03019666) | Phase 1 | Completed | 39 | Evaluated HLA-haploidentical or mismatched related donor NAM-expanded NK cell therapy (not Elotuzumab itself) in relapsed/refractory multiple myeloma and CD20+ NHL; primary endpoint was maximum tolerated dose. Provides indirect mechanistic context: demonstrates NK cell-based immunotherapy is feasible and tolerable in MM, consistent with Elotuzumab's NK-activating mechanism of action. Not direct evidence for Elotuzumab in indolent PCM. |
-
-> **Note:** No clinical trials directly evaluating Elotuzumab in indolent plasma cell myeloma were identified. The broader ELOQUENT trial programme (ELOQUENT-2, ELOQUENT-3) established Elotuzumab efficacy in relapsed/refractory MM more broadly — these are not captured in this specific disease query but are highly relevant context.
-
----
+Currently no related clinical trials registered in the compiled data.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [27610224](https://pubmed.ncbi.nlm.nih.gov/27610224/) | 2016 | Review | F1000Research | Summarises major advances in MM diagnosis and management, including revision of diagnostic criteria (formerly ultra-high-risk smouldering MM now considered treatment-requiring MM). Discusses clonal progression and evolution relevant to the indolent-to-active disease spectrum. Relevant background for understanding where indolent PCM sits within the MM disease continuum. |
-| [31413971](https://pubmed.ncbi.nlm.nih.gov/31413971/) | 2017 | Observational | Journal of Patient-Centered Research and Reviews | Pilot study examining vaccination patterns in MM patients treated with immunomodulatory drugs. Highlights the immunocompromised state and infection risk in MM, providing indirect safety context for immunotherapy use in this population. Not directly about Elotuzumab efficacy. |
-
----
+|------|-----|------|------|---------|
+| [27610224](https://pubmed.ncbi.nlm.nih.gov/27610224/) | 2016 | Review | F1000Research | General review of advances in understanding multiple myeloma. Notes revised diagnostic criteria, with former ultra-high-risk smouldering myeloma now treated as myeloma needing therapy, and discusses clonal evolution and modern combination regimens. Not specific to elotuzumab. |
 
 ## Australia Market Information
 
-Elotuzumab is **not currently registered on the Australian Register of Therapeutic Goods (ARTG)**. No ARTG entries are held for this product in Australia as of the data cutoff date (April 2026).
-
-> For reference: Elotuzumab (Empliciti®) holds regulatory approval from the US FDA and EMA for relapsed/refractory multiple myeloma. Australian clinicians seeking access would currently need to pursue the TGA Special Access Scheme (SAS) or clinical trial pathways.
-
----
-
-## Cytotoxicity
-
-Elotuzumab is an antineoplastic immunotherapy agent used in the treatment of multiple myeloma. The cytotoxicity section applies.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted immunotherapy — humanised anti-SLAMF7 IgG1 monoclonal antibody; not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low to moderate — lymphopenia may occur; significantly lower myelosuppression risk than conventional chemotherapy, though combination regimens (e.g., with lenalidomide) carry additional haematological effects |
-| Emetogenicity Classification | Low — monoclonal antibodies carry minimal intrinsic emetogenic potential; infusion-related reactions are the primary acute concern |
-| Monitoring Items | Full blood count (FBC) with differential; liver function tests; renal function; infusion reaction monitoring during and after each administration; screen for hepatitis B reactivation prior to treatment |
-| Handling Protection | Standard biological/monoclonal antibody handling precautions apply; dedicated cytotoxic drug handling regulations (e.g., closed-system transfer devices) are not typically mandated for monoclonal antibodies, but local pharmacy policy should be followed |
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12983H | Empliciti | Powder for injection 300 mg | Not available in the compiled data |
 
 ## Safety Considerations
 
-Detailed TGA-assessed safety data for Elotuzumab is not available in this Evidence Pack, as the drug is not currently registered in Australia.
+**Drug Interactions:** The interaction screen returned 100 potential interactions. Most are Moderate severity. Two Major interactions appear in the listed entries:
+- Samarium (153Sm) lexidronam (Major)
+- Adalimumab (Major)
 
-Please refer to the TGA-approved Product Information (PI) — or, in the interim, the **US FDA Prescribing Information for Empliciti®** and **EMA Summary of Product Characteristics** — for complete safety information including:
-- Infusion-related reactions (occur in approximately 10% of patients; pre-medication required)
-- Infection risk (particularly opportunistic infections)
-- Second primary malignancies
-- Hepatotoxicity
-- Embryo-foetal toxicity
+Examples of Moderate interactions include naltrexone, metronidazole, rosuvastatin, simvastatin, tinidazole, chloroquine, hydroxychloroquine, disulfiram, paclitaxel and zidovudine. Only 20 of the 100 interactions were available for review, and the clinical significance of each should be checked against the full interaction record.
 
----
+For warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Elotuzumab's mechanism of action is directly and biologically plausible for indolent plasma cell myeloma — SLAMF7 is the validated pharmacological target, expressed on indolent plasma cells at comparable levels to active MM, and the ELOQUENT Phase 3 programme has robustly validated anti-SLAMF7 immunotherapy in the broader MM setting. The TxGNN prediction score of 98.62% reflects strong knowledge-graph support. However, no direct clinical trial evidence for the indolent PCM subtype has been identified, and the drug is not currently registered in Australia, warranting a guarded but proactive approach.
+The predicted indication is a stage of the already-approved disease, with a high model score but no registered trials and only one non-specific review. Evidence is indirect (L4), and the remaining colonic predictions have no mechanistic support.
 
 **To proceed, the following is needed:**
-
-- **TGA registration pathway:** Pursue formal TGA registration (or TGA SAS Category B/C access) for compassionate or trial use in Australia; engage Bristol Myers Squibb Australia regarding regulatory strategy
-- **Indication-specific trial evidence:** Identify or initiate a prospective study (ideally Phase 2 RCT) specifically evaluating Elotuzumab in indolent/smouldering PCM; review any ongoing ELOQUENT sub-studies or smouldering myeloma-specific arms
-- **Mechanism of action (MOA) documentation:** Retrieve complete DrugBank/prescribing information MOA data to support formal submission dossier
-- **Safety dossier:** Obtain full TGA-format safety data including TFDA/EMA PI warnings, contraindications, and drug interaction profile; the absence of this data currently blocks a formal S1 safety assessment
-- **Australian patient population analysis:** Assess local MM incidence, indolent PCM prevalence, and current standard-of-care landscape to size the clinical opportunity
-- **Pharmacoeconomic evaluation:** Given Empliciti's cost as a biologic, an MSAC-style health technology assessment would be required for any PBS listing consideration
+- Independent verification of elotuzumab studies in high-risk smouldering (indolent) myeloma, including trial registry searches (ClinicalTrials.gov and ANZCTR)
+- Detailed mechanism of action data
+- The TGA-approved indication text and PI warnings and contraindications for Empliciti
+- Review of the full interaction list, particularly the Major interactions
+- Confirmation of PBS listing and reimbursement status for any new use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

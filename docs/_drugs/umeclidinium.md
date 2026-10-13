@@ -2,7 +2,7 @@
 layout: default
 title: Umeclidinium
 parent: Model Prediction Only (L5)
-nav_order: 707
+nav_order: 760
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,43 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Umeclidinium: From Chronic Obstructive Pulmonary Disease to Migraine Disorder
+# Umeclidinium: From COPD Maintenance Treatment to Migraine Disorder
 
 ## One-Sentence Summary
 
-Umeclidinium is a long-acting muscarinic antagonist (LAMA) inhaler, most commonly used as part of maintenance therapy for chronic obstructive pulmonary disease (COPD) — this is inferred from the supporting literature in this evidence pack, as no confirmed original indication or Australian regulatory record is currently available. The TxGNN model's top prediction is **Migraine Disorder**, but this is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale notes there is no known pharmacological mechanism linking antimuscarinic activity to migraine pathophysiology — this appears to be a pure knowledge-graph similarity signal rather than a pharmacologically grounded hypothesis.
+Umeclidinium is an inhaled long-acting muscarinic antagonist (LAMA) marketed in Australia as Incruse Ellipta. The TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. This is a model-only prediction with no clinical evidence.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Chronic Obstructive Pulmonary Disease (COPD) — inferred from supporting literature; not confirmed by regulatory data in this evidence pack |
-| Predicted New Indication | Migraine Disorder |
+|------|------|
+| Original Indication | Not stated in the data compiled for this report (the registered indication text is blank) |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 96.36% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on the supporting literature that was returned, umeclidinium is known to be a long-acting muscarinic antagonist (LAMA) delivered by inhalation, typically used within combination COPD maintenance regimens (e.g. with vilanterol, or with fluticasone furoate and vilanterol).
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, umeclidinium is a long-acting muscarinic antagonist delivered by inhalation, with poor systemic absorption. Its registered use is as a respiratory inhaler, although the approved indication text was not captured.
 
-For the top-ranked prediction, migraine disorder, the evidence pack's own mechanistic assessment is explicit: **there is no known antimuscarinic mechanism directly relevant to migraine pathophysiology**, and the signal is described as a pure knowledge-graph comorbidity/embedding similarity prediction without pharmacological support. This should be disclosed transparently rather than reverse-engineered into a plausible-sounding story — the honest interpretation is that this candidate likely reflects model noise rather than a genuine repurposing opportunity.
+A link to migraine is speculative. Muscarinic signalling has been proposed to modulate trigeminovascular and cortical pathways, but this has not been established for an inhaled, locally acting agent with minimal central nervous system exposure. The high TxGNN score reflects graph-based proximity, not supporting clinical data.
 
-It is worth noting that lower-ranked candidates in this same evidence pack — gastroduodenitis, common cold, and peptic ulcer disease — carry somewhat stronger (though still indirect) support, based on historical use of other antimuscarinic agents (pirenzepine, ipratropium) in analogous conditions. These were scored at decision stage S1 ("Research Question") rather than S0 ("Hold"), and may warrant closer follow-up ahead of the migraine signal.
+Other top-ranked predictions are also weakly supported:
+
+| Rank | Predicted Indication | Score | Assessment |
+|------|------|------|------|
+| 2 | Migraine with brainstem aura | 95.83% | Likely reflects proximity to the parent migraine node. No plausible mechanism at low systemic exposure. |
+| 3 | Open-angle glaucoma | 93.28% | Anticholinergics can raise intraocular pressure. Likely a risk signal rather than a benefit. |
+| 4 | Primary hereditary glaucoma | 92.91% | Muscarinic antagonism is expected to be neutral or harmful. |
+| 5 | Nephrogenic syndrome of inappropriate antidiuresis | 92.03% | Driven by AVPR2 variants. No known activity at this receptor. |
+| 6 | Gastroduodenitis | 91.91% | Weak class-level rationale. Systemic exposure is too low. |
+| 7 | Common cold | 91.74% | Intranasal anticholinergics reduce rhinorrhoea. Inhaled delivery is unsuitable. |
+| 8 | Atrophoderma vermiculata | 91.24% | No recognised mechanism. |
+| 9 | Peptic ulcer disease | 91.05% | Superseded by PPIs and H. pylori eradication. |
+| 10 | Allergic urticaria | 90.66% | Histamine-driven. Muscarinic blockade is not a primary mechanism. |
 
 ## Clinical Trial Evidence
 
@@ -61,28 +73,46 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature directly supports umeclidinium for migraine disorder.
+
+For the lower-ranked prediction of common cold, the only linked document is a COPD review, which does not provide evidence for umeclidinium in that condition:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [29583021](https://pubmed.ncbi.nlm.nih.gov/29583021/) | 2018 | Review | COPD | Annual review of 2017 COPD studies, including fluticasone furoate/vilanterol/umeclidinium. Not relevant to the common cold. |
 
 ## Australia Market Information
 
-No ARTG entries were found for umeclidinium in this evidence pack, and market status is recorded as **Not Marketed** in Australia. No product, dosage form, or approved indication data is currently available to report.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10187E | Incruse Ellipta | Powder for oral inhalation in breath actuated device, 62.5 micrograms (as bromide) per dose, 30 doses | Not available in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Key warnings, contraindications, and drug interaction data are not currently available in this evidence pack, and the absence of TGA/PI warning data has been flagged as a **Blocking** data gap (DG001) that prevents a full safety pre-assessment.
+- **Drug Interactions**: 100 potential interactions were identified, and 20 are shown in the data compiled. All listed are Moderate severity, mainly additive anticholinergic effects with other antimuscarinic agents. Examples include:
+  - Atropine, hyoscyamine, scopolamine
+  - Glycopyrronium, aclidinium, trospium
+  - Dicyclomine, clidinium, propantheline
+  - Promethazine, chlorpheniramine
+  - Prucalopride, eluxadoline
+  - Inhaled human insulin
+- **Glaucoma**: Anticholinergics can cause mydriasis and raise intraocular pressure. Umeclidinium labelling carries a warning for narrow-angle glaucoma, which is directly relevant to the glaucoma predictions.
+
+Please refer to the TGA-approved Product Information (PI) for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (migraine disorder) has no supporting clinical trials or literature, and the model's own mechanistic rationale explicitly states there is no known pharmacological link — this is evidence level L5 and should not proceed further as currently framed. Separately, umeclidinium is not marketed in Australia, and safety data (warnings/contraindications) is blocked pending TFDA/TGA product information retrieval.
+The prediction for migraine disorder rests only on a graph-based model score, with no clinical trials or publications and a speculative mechanism for an inhaled, minimally absorbed drug. The glaucoma predictions may reflect a safety risk rather than a benefit.
 
 **To proceed, the following is needed:**
-- Retrieve TGA-approved Product Information (warnings, contraindications) to resolve the Blocking gap (DG001)
-- Confirm mechanism of action via DrugBank to resolve the High-severity gap (DG002)
-- Confirm the drug's actual original indication and regulatory history, since `original_indications` is currently empty in the source data
-- If pursuing repurposing further, prioritise the S1 "Research Question" candidates (gastroduodenitis, common cold, peptic ulcer disease) over the migraine signal, and seek preclinical or mechanistic studies specific to umeclidinium rather than relying on same-class drug analogies alone
+- The TGA Product Information, to confirm the approved indication, warnings and contraindications
+- Mechanism of action data (for example, from DrugBank)
+- Preclinical or mechanistic evidence for muscarinic involvement in migraine at the exposure levels achieved by inhalation
+- Assessment of route compatibility, since inhaled delivery may not reach relevant sites
+- Any registered or published studies of umeclidinium or other LAMAs in migraine
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

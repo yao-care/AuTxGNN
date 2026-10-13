@@ -2,7 +2,7 @@
 layout: default
 title: Eculizumab
 parent: Model Prediction Only (L5)
-nav_order: 221
+nav_order: 238
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,90 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Eculizumab: From Paroxysmal Nocturnal Haemoglobinuria to Cyclic Hematopoiesis
-
----
+# Eculizumab: From Paroxysmal Nocturnal Haemoglobinuria to Cyclic Haematopoiesis
 
 ## One-Sentence Summary
 
-Eculizumab is a recombinant humanised monoclonal antibody that inhibits complement protein C5, clinically established for rare complement-mediated haematological conditions including paroxysmal nocturnal haemoglobinuria (PNH) and atypical haemolytic uraemic syndrome (aHUS).
-The TxGNN model predicts it may be effective for **Cyclic Hematopoiesis** (cyclic neutropenia), with a prediction confidence of **99.97%**; however, **no registered clinical trials and no directly supporting publications** are currently available for this specific indication, placing this prediction at the lowest evidence tier.
-
----
+Eculizumab is a complement C5 inhibitor, originally used to treat paroxysmal nocturnal haemoglobinuria (PNH) and neuromyelitis optica.
+The TxGNN model predicts it may be effective for **cyclic haematopoiesis**, but there are **no clinical trials** and **no disease-specific publications** supporting this prediction. It rests on a graph-based model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Paroxysmal nocturnal haemoglobinuria (PNH) / atypical haemolytic uraemic syndrome (aHUS) *(inferred from literature context; no formal ARTG indication text available)* |
-| Predicted New Indication | Cyclic Hematopoiesis (Cyclic Neutropenia) |
+|------|------|
+| Original Indication | Paroxysmal nocturnal haemoglobinuria; neuromyelitis optica (the approved indication text for the ARTG entry is not available) |
+| Predicted New Indication | Cyclic haematopoiesis |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Eculizumab is a terminal complement inhibitor that selectively binds complement protein C5 with high affinity, blocking its proteolytic cleavage into C5a (anaphylatoxin) and C5b. By preventing C5b, it halts assembly of the terminal complement complex C5b-9 (membrane attack complex, MAC). Its proven clinical efficacy in PNH and aHUS demonstrates that this mechanism can protect haematopoietic and vascular cell populations from complement-driven lysis and thromboinflammation.
+Currently, detailed mechanism of action data is not available. Based on known information, eculizumab is a humanised monoclonal antibody that targets complement protein C5 and blocks terminal complement activation. Its efficacy in PNH, where uncontrolled complement activation drives haemolysis, is established. In the publications compiled for this report, it is also described as effective in atypical haemolytic uraemic syndrome and used in myasthenia gravis.
 
-Cyclic hematopoiesis (also known as cyclic neutropenia; OMIM #162800) is a rare autosomal dominant bone marrow oscillation disorder caused predominantly by mutations in the *ELANE* gene encoding neutrophil elastase. Neutrophil counts cycle with a period of approximately 21 days, with nadir periods of severe neutropenia lasting 3–6 days. The core pathophysiology is an intrinsic haematopoietic progenitor cycling defect, not peripheral complement-mediated blood cell destruction. In this context, a mechanistic rationale for C5 inhibition is speculative: there is no established evidence that complement MAC-mediated neutrophil lysis drives the cyclical nadir, and the primary lesion resides upstream at the progenitor level.
+The link to cyclic haematopoiesis (cyclic neutropenia) is weak. Cyclic neutropenia is typically caused by ELANE mutations affecting neutrophil precursors, and no established role for terminal complement (C5) inhibition has been identified. The high TxGNN score is therefore best read as a graph-based signal and not as evidence of a biological mechanism.
 
-The high TxGNN prediction score most likely reflects graph-level connectivity between complement pathway nodes and haematological phenotype nodes in the underlying knowledge graph, rather than a validated direct biological mechanism. This finding represents a hypothesis-generating signal that warrants exploratory mechanistic investigation — particularly whether secondary complement activation contributes to accelerated neutrophil apoptosis during the nadir phase — before any clinical repurposing consideration is warranted.
-
----
+The other top-ranked predictions are mostly congenital neutropenia conditions, and they share the same problem. Eculizumab also increases susceptibility to encapsulated bacteria, particularly meningococcal infection. This would compound infection risk in neutropenic or immunodeficient patients, so the benefit-risk balance looks unfavourable.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available for cyclic hematopoiesis specifically.
-
-> **Note:** A body of literature exists linking Eculizumab to complement-mediated haematological conditions (PNH, aHUS, thrombotic microangiopathies), which informed the mechanistic background discussion above. These publications do not constitute evidence for the predicted indication of cyclic hematopoiesis and are therefore not listed here.
-
----
+No publications address cyclic haematopoiesis directly. The data compiled for this report contain no literature for this indication.
 
 ## Australia Market Information
 
-No ARTG registrations were identified for Eculizumab in the TGA database query (data cutoff: 4 April 2026).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10182X | Soliris | Solution concentrate for I.V. infusion, 300 mg in 30 mL | Not available in the data compiled for this report |
 
-> Please verify current TGA registration status directly via the [ARTG Public Summary Search](https://www.tga.gov.au/resources/artg), as registration status may have changed after data cutoff.
+## Cytotoxicity
 
----
+Not applicable. Eculizumab is not an antineoplastic drug, so this section is omitted.
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions**: Four interactions were identified, all classed as Minor. They involve human immunoglobulin G in its intravenous, subcutaneous, intramuscular and combined intravenous/subcutaneous forms.
+- **Infection risk (from the predicted-indication analysis)**: Complement C5 inhibition increases susceptibility to encapsulated bacteria, including meningococcus. This is a particular concern in neutropenic or immunodeficient populations.
 
-> **Note:** Key warnings, contraindications, and drug interaction data were not available in this Evidence Pack. Clinicians should be aware that Eculizumab, as a terminal complement inhibitor, carries a well-documented class risk of life-threatening *Neisseria meningitidis* infection; vaccination requirements and monitoring protocols are detailed in the approved PI.
-
----
+Warnings and contraindications from the product label were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model generates a statistically high prediction score, but this is unsupported by any clinical trial evidence, any direct mechanistic link between complement C5 inhibition and the pathophysiology of cyclic neutropenia, or any published case data — placing this candidate firmly at Evidence Level L5. Furthermore, Eculizumab currently has no ARTG registration in Australia, and key safety data are unavailable, making progression to any feasibility assessment premature at this stage.
+The prediction is supported only by the model score (L5). There are no clinical trials and no disease-specific literature, and no plausible mechanism links C5 inhibition to cyclic haematopoiesis. The added infection risk in neutropenic patients makes the benefit-risk balance look unfavourable.
 
 **To proceed, the following is needed:**
-
-- **Mechanistic validation:** Conduct a focused literature and preclinical review to determine whether complement activation (C5a/MAC) contributes to accelerated neutrophil apoptosis or destruction during cyclic neutropenia nadir phases
-- **Indirect evidence search:** Broaden PubMed search to include related cyclic neutropenia case reports involving complement markers or autoimmune overlap (e.g., anti-neutrophil antibodies + complement consumption)
-- **Regulatory clarification:** Confirm current TGA/ARTG registration status and obtain the approved Product Information (PI) for Eculizumab (Soliris® or equivalent biosimilar)
-- **MOA documentation:** Obtain formal DrugBank mechanism of action record to complete the mechanistic assessment
-- **Safety baseline:** Extract key warnings and contraindications from the TGA PI prior to any feasibility study design
-- **Knowledge graph audit:** Review whether the TxGNN cyclic hematopoiesis node is appropriately differentiated from PNH and other complement-linked haematological nodes to rule out graph-level conflation as the source of the high prediction score
-
----
-
-*This report is for research reference only and does not constitute medical advice. All repurposing candidates require formal clinical validation before therapeutic application. Data cutoff: 4 April 2026.*
+- Mechanistic evidence that terminal complement activation contributes to cyclic neutropenia
+- Preclinical or early-phase clinical data in cyclic haematopoiesis
+- The mechanism of action data for eculizumab (currently missing)
+- The TGA Product Information, including warnings and contraindications, for safety screening
+- A risk assessment of meningococcal and other encapsulated-bacteria infection in neutropenic patients, including vaccination and prophylaxis requirements
+- The approved indication text for the Australian ARTG entry
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

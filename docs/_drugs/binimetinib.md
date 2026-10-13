@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Binimetinib
-parent: High Evidence (L1-L2)
-nav_order: 89
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 96
+evidence_level: L5
 indication_count: 10
 ---
 
 # Binimetinib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,114 +29,107 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Binimetinib: From BRAF-Mutant Melanoma to Non-Cutaneous Melanoma
+# Binimetinib: From Metastatic Melanoma to Non-Cutaneous Melanoma
 
 ## One-Sentence Summary
 
-Binimetinib (MEK162) is a selective MEK1/MEK2 kinase inhibitor established internationally for BRAF V600E/K mutation-positive unresectable or metastatic melanoma in combination with encorafenib, though it holds no current TGA registration in Australia.
-The TxGNN model's highest-ranked prediction (Rank 1: choroideremia, score 98.63%) lacks mechanistic rationale and any clinical support; the most clinically actionable prediction is **Non-Cutaneous Melanoma** (Rank 2, score 98.60%), backed by **multiple Phase 2–3 clinical trials** across melanoma subtypes including two completed Phase 3 programmes.
-Evidence is rated **L2**, with the pivotal COLUMBUS and NEMO Phase 3 trials as anchors, and an active 815-patient adjuvant study reinforcing this direction.
+Binimetinib is a MEK inhibitor, originally used to treat BRAF V600-mutant metastatic melanoma.
+The TxGNN model predicts it may be effective for **non-cutaneous melanoma** (a subtype group that includes mucosal, uveal and acral disease),
+with **5 clinical trials** and **1 publication** currently linked to this direction. None of these trials has reported results, and the publication is a single case report on cutaneous melanoma.
 
----
+*Note on indication selection:* The top-ranked TxGNN prediction is choroideremia (score 98.63%), but it has no supporting evidence and no plausible biological link to MEK inhibition. This report therefore focuses on the highest-ranked prediction with trial evidence, non-cutaneous melanoma (rank 2). Mucosal melanoma (rank 7) has the strongest single trial and is discussed where relevant.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | BRAF V600E/K mutation-positive unresectable or metastatic melanoma (FDA-approved as Mektovi®; no TGA registration in Australia) |
-| Predicted New Indication | Non-Cutaneous Melanoma |
+|------|------|
+| Original Indication | Metastatic melanoma (approved indication text not available in the ARTG data compiled) |
+| Predicted New Indication | Non-cutaneous melanoma |
 | TxGNN Prediction Score | 98.60% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L3 (as assigned in the compiled data; see the note under Clinical Trial Evidence) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the provided Evidence Pack. Based on established pharmacology and contextual information within the evidence package, binimetinib is a potent and selective inhibitor of MEK1 and MEK2 — the kinases immediately downstream of BRAF and RAS in the MAPK (BRAF–MEK–ERK) signalling cascade. By blocking MEK1/2 phosphorylation, binimetinib suppresses ERK activation and downstream pro-proliferative and pro-survival signals in tumour cells harbouring activating mutations in BRAF, NRAS, or other upstream MAPK pathway components.
+Detailed mechanism of action data is not available in the data compiled for this report. Binimetinib is known to be a MEK1/2 inhibitor acting downstream of BRAF and RAS in the MAPK pathway. Its efficacy in BRAF V600-mutant cutaneous melanoma is established, and it is used in combination with encorafenib.
 
-Cutaneous and non-cutaneous melanoma subtypes (uveal, mucosal, acral, and other anatomically distinct forms) share dysregulated MAPK signalling as a central oncogenic mechanism, though the specific driver mutations differ in frequency. BRAF V600 mutations are present in approximately 40–60% of cutaneous melanomas but only ~5–20% of non-cutaneous subtypes; however, non-cutaneous variants carry higher rates of NRAS and KIT mutations — both of which feed into the MEK–ERK axis. Critically, MEK functions as a convergence node downstream of both BRAF and NRAS, making MEK inhibition mechanistically applicable across these molecular subtypes. The NEMO Phase 3 trial (NCT01763164) specifically evaluated binimetinib in NRAS Q61 mutation-positive melanoma — a population disproportionately enriched with non-cutaneous cases — lending direct clinical relevance to this prediction.
+Non-cutaneous melanomas (mucosal, uveal, acral) often show MAPK pathway activation, so MEK inhibition is mechanistically reasonable. However, dependence on this pathway varies by subtype:
 
-For transparency, the TxGNN Rank 1 prediction (choroideremia, score 98.63%) is noted but not the focus of this report. Choroideremia is an X-linked retinal degenerative condition caused by loss-of-function mutations in the CHM gene (encoding REP-1), with no established link to MEK signalling. The high model score likely reflects indirect topological connections within the knowledge graph rather than biological plausibility. No clinical trials or literature support this prediction, and the recommendation for choroideremia is **Hold**.
+- **Mucosal melanoma** is less often BRAF-mutant than cutaneous melanoma (KIT, NRAS and NF1 alterations are more common), but MEK inhibition is plausible, especially in BRAF-mutant cases.
+- **Uveal melanoma** is driven mainly by GNAQ/GNA11 mutations, so the rationale is weaker.
+- **Acral melanoma** has a published case report of a durable response to encorafenib plus binimetinib (see Literature Evidence), but this is anecdotal.
 
----
+The high TxGNN score reflects a computational prediction based on proximity to the original melanoma indication. It does not by itself demonstrate efficacy in these subtypes.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT01909453](https://clinicaltrials.gov/study/NCT01909453) | Phase 3 | Completed | 921 | COLUMBUS trial: Encorafenib + binimetinib vs vemurafenib and encorafenib monotherapy in BRAF V600-mutant unresectable/metastatic melanoma; pivotal registration-enabling study demonstrating superior PFS and OS benefit for the combination |
-| [NCT01763164](https://clinicaltrials.gov/study/NCT01763164) | Phase 3 | Completed | 402 | NEMO trial: Binimetinib (MEK162) vs dacarbazine in NRAS Q61 mutation-positive advanced unresectable or metastatic cutaneous/unknown-primary melanoma; demonstrated significant improvement in progression-free survival with binimetinib |
-| [NCT05270044](https://clinicaltrials.gov/study/NCT05270044) | Phase 3 | Active, not recruiting | 815 | COLUMBUS-AD: Encorafenib + binimetinib vs surveillance as adjuvant therapy in resected Stage IIB/C BRAF V600E/K mutant melanoma; primary endpoint is relapse-free survival; results anticipated to reshape adjuvant practice |
-| [NCT04657991](https://clinicaltrials.gov/study/NCT04657991) | Phase 3 | Active, not recruiting | 257 | Encorafenib + binimetinib + pembrolizumab vs pembrolizumab + placebo in previously untreated BRAF V600E/K mutation-positive metastatic or unresectable melanoma; triple combination strategy |
-| [NCT03898908](https://clinicaltrials.gov/study/NCT03898908) | Phase 2 | Completed | 48 | Encorafenib + binimetinib before local treatment in BRAF-mutant melanoma brain metastases; two parallel cohorts (asymptomatic and symptomatic); multicentre, directly evaluates an underserved non-cutaneous-extension scenario |
-| [NCT03235245](https://clinicaltrials.gov/study/NCT03235245) | Phase 2 | Active, not recruiting | 271 | EBIN study (EORTC): Sequential encorafenib + binimetinib (12 weeks) followed by ipilimumab + nivolumab vs immediate immunotherapy in BRAF V600-mutant unresectable/metastatic melanoma; evaluates optimal treatment sequencing |
-| [NCT01781572](https://clinicaltrials.gov/study/NCT01781572) | Phase 1/2 | Completed | 102 | LEE011 (ribociclib) + binimetinib in NRAS-mutant melanoma; Phase 1b established the MTD/RP2D; Phase 2 assessed anti-tumour activity — provides key data on binimetinib in NRAS-driven non-cutaneous-relevant subtype |
-| [NCT01320085](https://clinicaltrials.gov/study/NCT01320085) | Phase 2 | Completed | 183 | Single-agent MEK162 (binimetinib) in locally advanced/unresectable or metastatic cutaneous melanoma with BRAF V600 or NRAS mutations; characterised single-agent safety profile and efficacy signals across mutation subtypes |
-| [NCT06887088](https://clinicaltrials.gov/study/NCT06887088) | Phase 2 | Recruiting | 33 | ENCEFALO: Encorafenib + binimetinib followed by cemiplimab + fianlimab in BRAF-mutant melanoma with symptomatic brain metastases; evaluates a novel sequential targeted-then-immunotherapy approach for a high-need population |
-| [NCT02910700](https://clinicaltrials.gov/study/NCT02910700) | Phase 2 | Active, not recruiting | 52 | TRIBECA arm: Encorafenib + binimetinib + nivolumab triplet in BRAF-mutated Stage III–IV unresectable/metastatic melanoma; ongoing with completion anticipated December 2027 |
+|---------|------|------|------|---------|
+| [NCT04511013](https://clinicaltrials.gov/study/NCT04511013) | Phase 2 | Recruiting | 112 | Randomised trial of encorafenib + binimetinib + nivolumab vs ipilimumab + nivolumab in BRAF V600-mutant melanoma with brain metastases. Listed under mucosal melanoma (rank 7); mucosal-specific enrolment is not confirmed. No results yet. |
+| [NCT03235245](https://clinicaltrials.gov/study/NCT03235245) | Phase 2 | Active, not recruiting | 271 | EORTC randomised study (EBIN): encorafenib + binimetinib induction followed by ipilimumab + nivolumab vs immunotherapy alone in BRAF V600-mutant unresectable or metastatic melanoma. Likely cutaneous population. |
+| [NCT04045691](https://clinicaltrials.gov/study/NCT04045691) | N/A (non-interventional) | Recruiting | 750 | BERING-MELANOMA: real-world effectiveness, quality of life and safety of encorafenib + binimetinib in BRAF V600-mutant melanoma (Germany, Austria, Switzerland). |
+| [NCT04543188](https://clinicaltrials.gov/study/NCT04543188) | Phase 1a/b | Terminated | 65 | First-in-human study of PF-07284890 alone and with binimetinib in BRAF V600-mutant solid tumours, with and without brain involvement. Reason for termination not provided. |
+| [NCT05355701](https://clinicaltrials.gov/study/NCT05355701) | Phase 1 | Active, not recruiting | 103 | Safety, tolerability and PK of PF-07799933 alone and in combination in advanced BRAF-altered solid tumours. Whether binimetinib is part of the regimen cannot be confirmed. |
+| [NCT04913285](https://clinicaltrials.gov/study/NCT04913285) | Phase 1/1b | Recruiting | 400 | Safety, PK and preliminary efficacy of KIN-2787 in BRAF/NRAS-mutated solid tumours. Combination partners not verifiable. |
 
----
+**Interpretation:** No completed Phase 3 trials are identified. Most trials are early phase, ongoing, or concentrated on BRAF-mutant cutaneous melanoma (the original indication), and none confirms a non-cutaneous melanoma population or reports results. The L3 grade assigned in the compiled data is therefore generous. A conservative reading is closer to L4/L5 for the non-cutaneous subtype specifically.
+
+No ANZCTR trial identifiers were found in the data compiled.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [41774417](https://pubmed.ncbi.nlm.nih.gov/41774417/) | 2025 | Case Report | Pigment Cell & Melanoma Research | Molecular profiling used to diagnose epidermotropic metastatic melanoma (EMM) mimicking eruptive primary superficial spreading melanomas in a Stage IIIB nodular melanoma patient; highlights diagnostic complexity of non-standard melanoma presentations and the importance of molecular testing to guide therapy selection in atypical cases |
+|------|-----|------|------|---------|
+| [33877099](https://pubmed.ncbi.nlm.nih.gov/33877099/) | 2021 | Case report | Recenti Prog Med | Amelanotic acral melanoma of the foot treated first-line with encorafenib + binimetinib: complete response lasting 37 months, then a partial response on second-line anti-PD-1 therapy. (Listed under amelanotic skin melanoma, rank 9.) |
+| [41774417](https://pubmed.ncbi.nlm.nih.gov/41774417/) | 2025 | Case report | Pigment Cell Melanoma Res | Epidermotropic metastatic melanoma presenting as eruptive primary melanomas, diagnosed by molecular profiling. Cutaneous melanoma; no binimetinib efficacy data. |
 
----
+Both items are single-patient case reports. They do not provide efficacy evidence for binimetinib in non-cutaneous melanoma.
 
 ## Australia Market Information
 
-Binimetinib is **not currently registered with the Therapeutic Goods Administration (TGA)** and has no ARTG entries.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11948W | Mektovi | Tablet 15 mg (oral) | Not available in the data compiled |
 
-| Status Item | Detail |
-|-------------|--------|
-| ARTG Entries | None — Binimetinib has no current TGA registration |
-| Market Status | Not marketed in Australia |
-| Alternative Access Pathway | May be accessible for eligible patients via the **TGA Special Access Scheme (SAS Category B)** or the **Authorised Prescriber** pathway, subject to clinical justification |
-| Combination Partner | Encorafenib (Braftovi®) TGA/SAS registration status should be independently confirmed, as binimetinib is typically prescribed in combination |
-
----
+One valid single-ingredient licence is listed, with no cancelled entries.
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — selective MEK1/MEK2 kinase inhibitor (small molecule, non-cytotoxic mechanism of action) |
-| Myelosuppression Risk | Low to Moderate (anaemia and thrombocytopenia reported; markedly less myelosuppressive than conventional cytotoxic chemotherapy) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Full blood count (FBC with differential), liver function tests (LFTs), renal function, ophthalmological assessment (retinal pigment epithelial detachment and retinal vein occlusion), ECG (QTc interval), blood pressure, and creatine kinase (CK/CPK) |
-| Handling Protection | Classified as a hazardous oral antineoplastic drug — handle in accordance with institutional cytotoxic handling guidelines; avoid crushing or splitting tablets without appropriate PPE |
-
----
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (MEK inhibitor); not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the PI (liver function, creatine phosphokinase and cardiac function monitoring are generally considered for MEK inhibitors) |
+| Handling Protection | Please refer to the PI and local institutional policy |
 
 ## Safety Considerations
 
-Safety data including key warnings, contraindications, and drug–drug interactions are not available in the current Evidence Pack for the Australian regulatory context.
+Warnings and contraindications from the product label are not available in the data compiled. Please refer to the TGA-approved Product Information (PI) for safety information.
 
-> Please refer to the **FDA-approved Prescribing Information for Mektovi® (binimetinib)** for complete safety information. Priority areas for clinical review include: cardiomyopathy and decreased left ventricular ejection fraction (LVEF), ocular toxicity (retinal pigment epithelial detachment, retinal vein occlusion — particularly relevant when considering use in uveal melanoma patients), venous thromboembolism, haemorrhage, colitis and gastrointestinal perforation, interstitial lung disease/pneumonitis, hepatotoxicity, dermatological reactions (rash, photosensitivity), and embryo-fetal toxicity. When TGA registration is formally pursued, the Australian Product Information (PI) must be reviewed.
+**Drug Interactions:** The interaction screen returned 100 potential interactions. The main examples are:
 
----
+- **Major:** deferasirox, ibritumomab tiuxetan, tositumomab (including I-131 tositumomab), drotrecogin alfa
+- **Moderate (selected):** omeprazole, dexamethasone, clarithromycin, simvastatin, ticagrelor, eltrombopag, naloxone, naltrexone, cobicistat, rolapitant, tolbutamide, fostamatinib, albendazole, eliglustat, fidaxomicin
+
+These come from the DDInter database. Only a subset of the 100 interactions is shown, and the clinical significance of each should be checked against the PI and an interaction reference.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Binimetinib has a robust international evidence base in BRAF/NRAS-mutant melanoma, anchored by two completed Phase 3 trials (COLUMBUS and NEMO) and supported by numerous Phase 2 studies directly evaluating its role across melanoma subtypes that overlap with non-cutaneous disease; the mechanistic rationale via MEK pathway convergence is scientifically sound. However, the drug carries no TGA registration in Australia, subtype-specific data for uveal and mucosal melanoma remain limited, and access requires navigation of alternative regulatory pathways before use can be considered.
+The MEK-inhibition rationale is plausible for non-cutaneous melanoma, but the evidence consists of early-phase or ongoing trials without results, most in BRAF-mutant cutaneous melanoma, plus single case reports. The 98.60% TxGNN score is a computational prediction only. Other top-ranked predictions (for example choroideremia, rank 1) have no supporting evidence.
 
 **To proceed, the following is needed:**
-
-- **Regulatory access**: Initiate a TGA Special Access Scheme (SAS Category B) application or Authorised Prescriber process; consider longer-term formal TGA registration submission
-- **Molecular profiling**: Confirm BRAF V600E/K or NRAS Q61 mutation status prior to initiation — mutation-negative cases have substantially lower expected benefit
-- **Combination partner**: Verify TGA/SAS availability of encorafenib (Braftovi®), as binimetinib is not used as monotherapy in BRAF-mutant disease under standard-of-care protocols
-- **Safety monitoring plan**: Establish baseline and scheduled LVEF assessment, ophthalmological review (slit-lamp and fundoscopy), LFTs, FBC, blood pressure, and QTc monitoring prior to and during treatment
-- **Full safety review**: Obtain and review FDA Prescribing Information for Mektovi® until an Australian TGA PI becomes available
-- **Clinical trial consideration**: Explore patient eligibility for ongoing Phase 3 trials (NCT05270044 adjuvant study; NCT04657991 triple combination) as a preferred access route where clinically appropriate
-- **Evidence monitoring**: Track results from COLUMBUS-AD and the TRIBECA triplet arm — outcomes will materially affect the strength of the repurposing case for non-cutaneous subtypes
+- Results or subgroup data from NCT04511013 and other trials, confirming mucosal, acral or uveal enrolment and the contribution of binimetinib within combinations
+- Molecular stratification (BRAF, NRAS, KIT, NF1, GNAQ/GNA11) to define which non-cutaneous subtypes could benefit
+- Mechanism of action data for binimetinib (currently a data gap)
+- Product Information warnings, contraindications and approved indication text (safety screening cannot be completed without them)
+- Review of the clinical significance of the major interactions
+- Confirmation of ANZCTR-registered Australian trials, if any
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Cabotegravir
 parent: Model Prediction Only (L5)
-nav_order: 114
+nav_order: 121
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,73 +33,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Cabotegravir is an HIV integrase strand transfer inhibitor (INSTI) approved internationally for HIV-1 treatment and pre-exposure prophylaxis (PrEP), but currently not registered with the TGA for use in Australia.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, however **no clinical trials** and **no publications** currently support this repurposing direction.
-
----
+Cabotegravir is an HIV-1 integrase strand transfer inhibitor, marketed in Australia as an oral tablet (Vocabria) and as a long-acting injectable co-pack with rilpivirine (Cabenuva).
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+This is a computational prediction only, and the recommended decision is **Hold**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (approved internationally; not currently registered in Australia) |
-| Predicted New Indication | Rheumatoid Arthritis |
+| Original Indication | Not stated in the data compiled for this report (the ARTG indication text is empty). Cabotegravir is known as an HIV-1 integrase inhibitor. |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.45% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Cabotegravir belongs to the integrase strand transfer inhibitor (INSTI) class of antiretrovirals. Its primary mechanism is to block the HIV-1 integrase enzyme, preventing viral DNA from being incorporated into the host cell genome. It is approved in the US, UK, Canada, and other jurisdictions — available as both an oral tablet (Vocabria) and a long-acting injectable formulation (Cabenuva, combined with rilpivirine) — for HIV-1 treatment and PrEP.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Cabotegravir is known to be an HIV-1 integrase strand transfer inhibitor, which blocks viral DNA integration into the host genome.
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on published pharmacology, some INSTI class drugs have been observed to exert indirect anti-inflammatory effects via NF-κB pathway modulation, which theoretically could have relevance to autoimmune conditions such as rheumatoid arthritis. However, this link is speculative and has not been validated in any RA preclinical or clinical model for Cabotegravir specifically.
+No established mechanism links integrase inhibition to the pathophysiology of rheumatoid arthritis, which is driven by TNF, IL-6, JAK/STAT signalling and B- and T-cell activity. The high TxGNN score (0.995; model rank 6338) reflects a knowledge-graph prediction only. It is not backed by any clinical trial or publication, and it should be treated as a hypothesis-generating signal rather than a reasoned mechanistic proposal.
 
-The high TxGNN prediction score (99.45%) for rheumatoid arthritis most likely reflects distant comorbidity node associations within the knowledge graph — HIV-infected patients carry elevated rates of systemic autoimmune conditions — rather than a direct, biologically plausible mechanism. No preclinical or clinical evidence currently supports Cabotegravir as a candidate therapy for RA.
-
----
+Other predicted indications, such as sclerosing cholangitis, bronchitis, diabetic retinopathy and several rare congenital syndromes, likewise have no supporting evidence or plausible mechanism. Several of these may reflect knowledge-graph topology artefacts.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
-Cabotegravir is not currently registered on the Australian Register of Therapeutic Goods (ARTG). There are no ARTG entries available. Healthcare professionals should refer to international prescribing information (e.g., FDA prescribing information for Vocabria/Cabenuva) for safety and formulation guidance in the interim.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12939B | Vocabria | Tablet 30 mg | Not available in the compiled data |
+| ARTG 12937X | Cabenuva | Pack containing 1 vial cabotegravir 600 mg in 3 mL and 1 vial rilpivirine 900 mg in 3 mL | Not available in the compiled data |
 
 ## Safety Considerations
 
-Please refer to international Product Information (PI) for safety information, as Cabotegravir does not currently hold TGA registration in Australia. FDA-approved labelling for Vocabria and Cabenuva is available via the FDA website and should be consulted for known warnings, contraindications, and drug interactions.
+- **Drug Interactions**: Seven moderate-level interactions were identified, all with polyvalent cation-containing antacids and supplements: calcium carbonate, aluminium hydroxide, magnesium carbonate, magnesium hydroxide, magnesium oxide, sodium bicarbonate and sodium citrate. These interactions are relevant mainly to the oral formulation and should be checked against the Product Information for dosing separation.
 
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications, as these were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score, this is an L5 evidence level — model prediction only, with no supporting clinical trials, observational data, or preclinical research for any of the top 10 predicted indications. The proposed mechanistic link between an HIV integrase inhibitor and rheumatoid arthritis pathophysiology is highly speculative, and Cabotegravir is not registered in Australia, adding a significant regulatory barrier before any repurposing pathway can proceed.
+The prediction is supported only by a knowledge-graph score, with no clinical trials, no publications and no plausible mechanistic link between HIV integrase inhibition and rheumatoid arthritis. Evidence is at the lowest level (L5), and safety screening cannot proceed because label warnings and contraindications are missing.
 
 **To proceed, the following is needed:**
-
-- Preclinical studies demonstrating anti-inflammatory or immunomodulatory activity of Cabotegravir in validated RA models (e.g., collagen-induced arthritis)
-- Mechanistic clarification: confirmation of whether NF-κB inhibition or other inflammatory pathways are meaningfully engaged at therapeutic drug concentrations
-- Full safety baseline via TGA registration or detailed review of international Product Information (PI/SmPC) — including hypersensitivity, hepatotoxicity, and injection site reaction profiles relevant to long-term RA use
-- Epidemiological analysis of HIV patient cohorts to distinguish whether the RA signal reflects comorbidity association or a potential therapeutic effect
-- At minimum a Phase 2 proof-of-concept trial before committing further resources to this repurposing direction
+- Mechanism of action data (for example from DrugBank) and a documented mechanistic hypothesis for rheumatoid arthritis
+- Preclinical evidence (in vitro or animal models of inflammatory arthritis) to move beyond L5
+- Approved indication text, warnings and contraindications from the TGA Product Information
+- Route compatibility assessment (oral tablet versus long-acting intramuscular injection) for the proposed use
+- A systematic literature and trial registry search (including ANZCTR) to confirm that no relevant studies exist
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

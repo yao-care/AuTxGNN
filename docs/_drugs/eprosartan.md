@@ -2,7 +2,7 @@
 layout: default
 title: Eprosartan
 parent: Model Prediction Only (L5)
-nav_order: 242
+nav_order: 262
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,93 +31,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 # Eprosartan: From Hypertension to Malignant Renovascular Hypertension
 
----
-
 ## One-Sentence Summary
 
-Eprosartan is an angiotensin receptor blocker (ARB) belonging to the AT1 antagonist class, used clinically for the management of hypertension.
-The TxGNN model predicts it may be effective for **Malignant Renovascular Hypertension**, with a mechanistic fit rated **Grade A** due to direct RAS pathway alignment — however, **no Eprosartan-specific clinical trials or direct literature** for this indication have been identified to date, keeping the evidence at Level L4.
-
-> **Note for clinicians:** Although malignant renovascular hypertension is the top-ranked TxGNN prediction, a lower-ranked prediction — **ischemic stroke susceptibility (Rank 7)** — carries an independently assessed **L2 evidence level** and a "Proceed with Guardrails" recommendation. Clinicians should consider reviewing that indication in parallel.
-
----
+Eprosartan is an angiotensin II type 1 receptor blocker, originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are currently **no clinical trials** and **no publications** supporting this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension (ARB class; not formally registered in Australia) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+|------|------|
+| Original Indication | Hypertension (hypertensive disorder); the approved indication text is not recorded for the ARTG entry |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 93.69% |
-| Evidence Level | L4 (Mechanistic / class-level evidence only) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Eprosartan is a selective angiotensin II receptor antagonist (AT1 blocker) that prevents angiotensin II from binding to its target receptor, thereby blocking the downstream cascade of vasoconstriction and aldosterone secretion. Notably, Eprosartan may also inhibit presynaptic AT1 receptors on sympathetic nerve terminals — a dual mechanism (AT1 blockade + sympathetic inhibition) that may distinguish it from some other ARBs and could be particularly relevant in settings of high sympathetic drive.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, eprosartan belongs to the angiotensin II type 1 receptor blocker class. Its efficacy in hypertension is established, and renovascular hypertension is driven largely by activation of the renin-angiotensin system, so the link is biologically plausible.
 
-The core pathophysiology of malignant renovascular hypertension is a textbook example of RAS over-activation: renal artery stenosis triggers sustained renin release → angiotensin II overproduction → severe, accelerated hypertension with end-organ damage. Eprosartan's mechanism directly targets the angiotensin II effector step in this cascade, representing a Grade A mechanistic fit as assessed in the TxGNN analysis. The drug essentially addresses the effector arm of the very pathway that drives this condition.
+However, this is a hypertensive-spectrum condition very close to the approved indication, so it is closer to a near-label extension than a true repurposing candidate. Angiotensin receptor blockers also carry a known risk in bilateral renal artery stenosis, which is a central concern in renovascular disease. The high TxGNN score (0.937) is a prediction only.
 
-The biological rationale is further supported by established class-level evidence: other ARBs — specifically losartan (RENAAL trial) and irbesartan (IDNT trial) — have demonstrated renal-protective benefits in hypertensive renal disease in large randomised trials, and ARB use in renovascular hypertension is already embedded in specialist practice. What is missing is Eprosartan-specific trial data for this precise indication. The TxGNN model has identified a mechanistically sound target, but direct clinical evidence has yet to be generated.
-
----
+Other predictions in the list include malignant hypertensive renal disease (0.937), pulmonary hypertension with unclear multifactorial mechanism (0.930), pulmonary hypertension owing to lung disease and/or hypoxia (0.930), Braddock syndrome (0.917), and chronic pulmonary heart disease (0.685). Several lower-ranked predictions, such as ocular tuberculosis and congenital temporomandibular joint ankylosis, have no apparent mechanistic basis and look like model artefacts. All are L5 with a Hold recommendation.
 
 ## Clinical Trial Evidence
 
-No clinical trials are currently registered for Eprosartan in malignant renovascular hypertension (search conducted 10 March 2026 across ClinicalTrials.gov and ICTRP, including ANZCTR).
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No directly relevant literature was identified for Eprosartan in malignant renovascular hypertension (PubMed search conducted 10 March 2026).
+No literature is available for the lead prediction. The only publication linked to any predicted indication relates to rank 4 (pulmonary hypertension owing to lung disease and/or hypoxia) and is preclinical:
 
-> **Context for the broader prediction set:** 20 PubMed records were retrieved for indication Rank 4 (pulmonary hypertension owing to lung disease/hypoxia), but review indicated these publications address hypoxia biology generally and do not study Eprosartan specifically in pulmonary hypertension. They are not included here as they do not constitute supporting evidence for the primary predicted indication.
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [33942446](https://pubmed.ncbi.nlm.nih.gov/33942446/) | 2021 | Preclinical animal study | J Biochem Mol Toxicol | Eprosartan showed neuroprotective activity in rats with focal cerebral ischaemia-reperfusion injury; not relevant to pulmonary hypertension |
 
 ## Australia Market Information
 
-Eprosartan (DrugBank ID: DB00876) is **not currently registered with the Therapeutic Goods Administration (TGA)** and has no ARTG entries. It is not available as a marketed product in Australia.
-
-Clinicians requiring prescribing information should refer to international product labelling (e.g., FDA-approved prescribing information for Teveten®, or EMA assessment reports) as no TGA-approved Product Information (PI) exists.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13861M | Teveten | Tablet 600 mg (as mesilate) | Not recorded in the data compiled for this report |
 
 ## Safety Considerations
 
-No TGA-approved Product Information is available for Eprosartan in Australia. No drug interaction data was retrieved in the evidence search.
+- **Contraindications (from knowledge-graph drug-disease edges, not label text):** pancreatitis, systemic lupus erythematosus (including paediatric), potassium deficiency, diabetes mellitus, diabetic ketoacidosis, hyperuricaemia, hypotensive disorder, hyperparathyroidism, osteitis fibrosa, hepatic coma and encephalopathy, neonatal jaundice, anuria, gout, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, and renal artery obstruction. These come from a model knowledge graph and should be verified against the Product Information. Renal artery obstruction is particularly relevant to the predicted renovascular indication.
+- **Drug Interactions:** 84 interactions were identified in total. Major interactions include **potassium citrate** and **potassium bicarbonate** (hyperkalaemia risk). Moderate interactions include corticosteroids (hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide), acetylsalicylic acid, SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), insulins (aspart, degludec, detemir), bupropion, morphine, dronabinol, and bowel-preparation agents (picosulfuric acid, sodium sulfate, polyethylene glycol with electrolytes).
 
-Please refer to international prescribing information (FDA/EMA-approved Teveten® PI) for comprehensive safety guidance, including:
-- Foetal/neonatal toxicity (class effect of all ARBs — contraindicated in pregnancy)
-- Hyperkalaemia risk, particularly in renal impairment or with concurrent potassium-sparing agents
-- First-dose hypotension in volume-depleted patients
-- Renal function monitoring in bilateral renal artery stenosis (the very population targeted by this prediction — ARBs can precipitate acute kidney injury in this setting and require careful risk-benefit assessment)
-
----
+Label warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic case for Eprosartan in malignant renovascular hypertension is strong (Grade A alignment), and ARB class agents already have recognised clinical utility in RAS-mediated hypertensive conditions. However, no Eprosartan-specific clinical trial data exists for this indication (L4 evidence), the drug is not registered in Australia, and critically — ARB use in bilateral renal artery stenosis (a common cause of renovascular hypertension) carries a documented risk of precipitating acute kidney injury, requiring careful patient selection before any clinical exploration.
+The prediction has no supporting clinical trials or publications (L5), and the indication is either very close to the existing hypertension use or carries a class-specific risk in renal artery stenosis. The high model score alone is not sufficient to justify moving forward.
 
 **To proceed, the following is needed:**
-
-- **Mechanism of action confirmation:** Obtain full DrugBank MOA data to characterise Eprosartan's sympathetic inhibition component and whether it offers differentiated benefit over other ARBs already used in this setting
-- **Safety review:** Formal risk-benefit analysis of ARB use specifically in bilateral renovascular disease; engage a renal/hypertension specialist to assess patient selection criteria
-- **Class-level evidence mapping:** Systematic review of losartan and irbesartan data in malignant renovascular hypertension to establish whether class-level evidence is sufficient to support a pilot study
-- **TGA registration pathway:** Assess SAS (Special Access Scheme) or clinical trial authorisation requirements given there is no current Australian registration
-- **Parallel review of Rank 7 (Ischemic Stroke Susceptibility):** This lower-ranked TxGNN prediction carries an independently assessed L2 evidence level and "Proceed with Guardrails" recommendation — likely informed by the MOSES trial (Eprosartan vs. nitrendipine in secondary stroke prevention) — and may represent a more immediately actionable repurposing opportunity
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application. Report generated: 4 April 2026.*
+- Mechanism of action data (currently missing)
+- TGA Product Information, including approved indication, warnings and contraindications (a blocking gap for safety screening)
+- Clinical or observational evidence for angiotensin receptor blockers in renovascular hypertension, with specific attention to renal artery stenosis risk
+- Clarification of whether this prediction offers any benefit beyond the current hypertension indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

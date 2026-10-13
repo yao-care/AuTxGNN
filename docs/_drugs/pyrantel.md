@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pyrantel
-parent: Moderate Evidence (L3-L4)
-nav_order: 570
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 612
+evidence_level: L5
 indication_count: 10
 ---
 
 # Pyrantel
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,88 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Pyrantel: From Intestinal Nematode Infections to Capillariasis
+# Pyrantel: From Enterobiasis and Ascaridiasis to Toxocariasis
 
 ## One-Sentence Summary
 
-Pyrantel is an anthelmintic historically used against common intestinal nematode infections (ascariasis, enterobiasis, hookworm), acting as a depolarising neuromuscular blocker on worm muscle. Of the 10 new indications flagged by the TxGNN model, most (7/10) have no supporting literature and are judged internally as prediction noise; the one candidate with meaningful supporting evidence is **capillariasis**, backed by **2 randomised controlled trials and several comparative clinical studies** in related intestinal nematode infections, though none testing *Capillaria philippinensis* directly. Overall evidence is indirect (L3) and a blocking safety data gap remains, so this is a research lead rather than a ready-to-use indication.
+Pyrantel is an anthelmintic originally used to treat enterobiasis (pinworm) and ascaridiasis (roundworm).
+The TxGNN model predicts it may be effective for **toxocariasis** (score 95.5%), but **no clinical trials** and no human studies are available.
+The 20 publications retrieved are almost entirely veterinary or laboratory studies, so the evidence is **model prediction plus indirect animal data**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Intestinal nematode infections (ascariasis, enterobiasis/pinworm, hookworm) — inferred from the evidence pack's own literature and mechanistic notes; not formally recorded in the drug record (`original_indications` is empty) |
-| Predicted New Indication | Capillariasis (intestinal *Capillaria philippinensis* infection) |
-| TxGNN Prediction Score | 89.08% (rank 9 of 10 by raw score, but highest-quality evidence of the set) |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Enterobiasis, ascaridiasis (from the TxGNN knowledge graph; no approved indication text is recorded for the Australian listing) |
+| Predicted New Indication | Toxocariasis (the highest-scoring prediction, papillary conjunctivitis, has no mechanistic support, so toxocariasis is the most credible candidate and is reported here) |
+| TxGNN Prediction Score | 95.5% (papillary conjunctivitis, the top-ranked prediction: 98.0%) |
+| Evidence Level | L4 (toxocariasis); L5 for papillary conjunctivitis |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold (as a research question only) |
 
-**Note on candidate selection:** The single highest raw TxGNN score (papillary conjunctivitis, 97.99%) has zero supporting trials or literature and is explicitly flagged in the evidence pack as prediction noise unrelated to pyrantel's pharmacology. We report capillariasis instead because it has the strongest evidence base (L3, decision stage S2) among all 10 candidates — see the portfolio table below.
+**Note:** The top-ranked TxGNN prediction by score is papillary conjunctivitis (98.0%). It has no clinical, literature or mechanistic support and is likely a graph artefact. This report therefore focuses on toxocariasis (rank 2), which has a plausible mechanism and some indirect evidence.
 
 ## Why is This Prediction Reasonable?
 
-*Mechanism note: the structured `original_moa` field is flagged as a data gap (DG002). However, the evidence pack's own mechanistic analysis describes pyrantel pamoate as a depolarising neuromuscular blocker that acts as an agonist at nicotinic acetylcholine receptors on nematode muscle, causing spastic paralysis and expulsion of the worm. This is consistent with pyrantel's established pharmacology as an anthelmintic.*
+Detailed mechanism of action data is not available in the data compiled for this report. Pyrantel is generally understood to be a nicotinic acetylcholine receptor agonist that acts as a depolarising neuromuscular blocker in nematodes, causing spastic paralysis so the worms are expelled from the gut.
 
-*Capillaria philippinensis*, the causative organism of capillariasis, is an intestinal nematode — the same broad parasite class (soil-transmitted/intestinal nematodes) as *Ascaris lumbricoides*, *Trichuris trichiura* and hookworm, against which pyrantel already has demonstrated clinical activity in multiple human trials. Mechanistically, the same neuromuscular target should be present in *C. philippinensis* adult worms, so the biological rationale for activity is sound.
+Its established uses, enterobiasis and ascaridiasis, involve intestinal roundworms. *Toxocara* species (*T. canis*, *T. cati*) are also ascarid nematodes, so the mechanism is biologically plausible. Veterinary studies show pyrantel-containing products clear adult intestinal *Toxocara* in dogs and cats.
 
-However, the supporting literature identified for this candidate is entirely **indirect**: the RCTs and comparative studies below evaluate pyrantel against *Ascaris* and *Trichuris* infections, not capillariasis itself. No trial in the evidence pack tests pyrantel against *C. philippinensis* directly, and clinical practice for capillariasis (chronic diarrhoea, protein-losing enteropathy) currently relies on prolonged albendazole or mebendazole courses. The prediction is therefore a plausible research question, not an established efficacy signal.
-
-### Predicted Indication Portfolio (all 10 TxGNN candidates)
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
-|------|---------|------|------|------|------|
-| 1 | Papillary conjunctivitis | 97.99% | L5 | S0 | Hold |
-| 2 | Toxocariasis | 95.51% | L4 | S1 | Research Question |
-| 3 | Toxascariasis | 94.86% | L4 | S0 | Hold |
-| 4 | Anisakiasis | 94.79% | L5 | S0 | Hold |
-| 5 | Allergic urticaria | 94.54% | L5 | S0 | Hold |
-| 6 | Atopic conjunctivitis | 91.37% | L5 | S0 | Hold |
-| 7 | Cutaneous larva migrans | 90.41% | L4 | S1 | Research Question |
-| 8 | Sorsby's fundus dystrophy | 90.41% | L5 | S0 | Hold |
-| 9 | **Capillariasis** | 89.08% | **L3** | **S2** | **Research Question** |
-| 10 | Rosacea conjunctivitis | 88.32% | L5 | S0 | Hold |
-
-Only candidates that fall within pyrantel's known anthelmintic mechanism (toxocariasis, cutaneous larva migrans, capillariasis) have any literature support; the remaining seven (mostly ocular/dermatological/allergic conditions with no mechanistic link and zero trials or publications) are held.
+There is an important limitation. Human toxocariasis is mainly visceral or ocular larva migrans, caused by larvae migrating through tissues. Pyrantel is poorly absorbed from the gut and is unlikely to reach these larvae. The veterinary data therefore speak to adult intestinal worms, not the human disease. No human trials were found.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for capillariasis.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+Of the 20 publications retrieved for toxocariasis, none is a human clinical study of pyrantel in toxocariasis. A selection of the most relevant is shown below.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38563751](https://pubmed.ncbi.nlm.nih.gov/38563751/) | 2024 | RCT | Antimicrobial Agents and Chemotherapy | Assessor-blind RCT in school-aged children comparing albendazole alone vs combined with mebendazole or pyrantel for *Trichuris trichiura* infection |
-| [9798586](https://pubmed.ncbi.nlm.nih.gov/9798586/) | 1998 | RCT | Lancet | Randomised trial of albendazole vs pyrantel in symptomless childhood trichuriasis, assessing growth outcomes |
-| [657997](https://pubmed.ncbi.nlm.nih.gov/657997/) | 1978 | Comparative Clinical Study | Drugs | Oxantel-pyrantel suspension vs mebendazole in mixed *Ascaris*/*Trichuris* infections; both achieved 100% cure for *Ascaris* |
-| [6287829](https://pubmed.ncbi.nlm.nih.gov/6287829/) | 1981 | Comparative Clinical Study | African Journal of Medicine and Medical Sciences | Pyrantel pamoate ~95% cure vs *Ascaris*, superior to piperazine/bephenium; neither regimen effective against *Trichuris* |
-| [8893536](https://pubmed.ncbi.nlm.nih.gov/8893536/) | 1996 | Cohort | Parasitology | Single-dose pyrantel pamoate improved appetite and growth in *Ascaris*-infected schoolboys; little effect on concurrent *Trichuris* |
-| [6466265](https://pubmed.ncbi.nlm.nih.gov/6466265/) | 1984 | Comparative Clinical Study | Bangladesh Medical Research Council Bulletin | Compared efficacy of pyrantel pamoate, levamisole and mebendazole in hospitalised patients with helminth infections |
-| [7305501](https://pubmed.ncbi.nlm.nih.gov/7305501/) | 1981 | Comparative Clinical Study | Annals of Tropical Medicine and Parasitology | Anthelmintic effects of pyrantel, oxantel-pyrantel, levamisole and mebendazole on intestinal nematodes |
-| [3895141](https://pubmed.ncbi.nlm.nih.gov/3895141/) | 1985 | Review | Pediatric Clinics of North America | Overview of intestinal nematode infections, including treatment approaches |
-| [168337](https://pubmed.ncbi.nlm.nih.gov/168337/) | 1975 | Review | The Journal of Pediatrics | Overview of parasitic infections in children |
-| [4809618](https://pubmed.ncbi.nlm.nih.gov/4809618/) | 1974 | Review | Clinical Pediatrics | Early clinical review of Antiminth (pyrantel pamoate) |
-
-None of the above studies evaluate *Capillaria philippinensis* specifically; all evidence is extrapolated from pyrantel's activity against related intestinal nematodes.
+| [955553](https://pubmed.ncbi.nlm.nih.gov/955553/) | 1976 | Review | Fortschritte der Medizin | Overview of worm diseases; pyrantel noted as a useful drug for ascaridiasis and enterobiasis |
+| [2048286](https://pubmed.ncbi.nlm.nih.gov/2048286/) | 1991 | Veterinary efficacy study (cats) | Vet Res Commun | Pyrantel pamoate 20 mg/kg tested against *Toxocara cati* and hookworm in cats (paste vs granule) |
+| [2368952](https://pubmed.ncbi.nlm.nih.gov/2368952/) | 1990 | Veterinary controlled trial (cats) | Am J Vet Res | Paste formulation reduced *T. cati* egg counts by 96.4% |
+| [1057855](https://pubmed.ncbi.nlm.nih.gov/1057855/) | 1975 | Veterinary evaluation (dogs) | Am J Vet Res | About 96% efficacy against *Toxocara* and 93% against *Toxascaris* in dogs |
+| [1763481](https://pubmed.ncbi.nlm.nih.gov/1763481/) | 1991 | Veterinary study (dogs) | Vet Parasitol | Beef-based chewable pyrantel tested against *T. canis* and other ascarids and hookworms in dogs |
+| [1586021](https://pubmed.ncbi.nlm.nih.gov/1586021/) | 1992 | Veterinary study (combination) | Am J Vet Res | Ivermectin plus pyrantel chewable effective against heartworm, hookworm and ascarids in dogs |
+| [10384907](https://pubmed.ncbi.nlm.nih.gov/10384907/) | 1999 | Veterinary efficacy study (greyhounds) | Vet Parasitol | Fenbendazole and pyrantel pamoate compared against *T. canis* in contaminated runs |
+| [12684883](https://pubmed.ncbi.nlm.nih.gov/12684883/) | 2003 | In vitro study | Parasitol Res | Pyrantel plus fenbendazole acted synergistically on adult *T. canis* (morphological damage) |
+| [40836259](https://pubmed.ncbi.nlm.nih.gov/40836259/) | 2025 | Veterinary study (combination) | Parasit Vectors | Four-drug chewable containing pyrantel effective against *T. canis* and *T. leonina* in dogs; efficacy cannot be attributed to pyrantel alone |
 
 ## Australia Market Information
 
-Pyrantel currently has no ARTG entries and is not marketed in Australia (0 licenses on record).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 3047J | Anthel 125 | Tablet 125 mg (as embonate), oral | Not recorded in the data compiled for this report |
+
+## Cytotoxicity
+
+Not applicable. Pyrantel is not an antineoplastic drug.
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No PI currently exists in this dataset because pyrantel is not marketed in Australia, and the TFDA-equivalent warnings/contraindications and DDI query returned no data (`DG001`, blocking severity). A drug-interaction search also returned no results (`not_found`).
+- **Knowledge-graph contraindication signals:** liver disease and gallbladder disease (derived from drug-disease graph edges, not from label text; verify against the Product Information).
+- **Drug Interactions (2 moderate, from DDInter):**
+  - Iodide I-131 (Moderate)
+  - Iodide I-123 (Moderate)
+
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale and indirect clinical trial evidence (2 RCTs, several comparative studies) in related intestinal nematode infections make capillariasis a legitimate research question, but there is no direct evidence of efficacy against *Capillaria philippinensis*, and a blocking data gap (missing PI warnings/contraindications, DG001) prevents even an initial safety assessment. Pyrantel is also not currently registered in Australia.
+Toxocariasis is mechanistically plausible but supported only by veterinary and in vitro data on adult intestinal worms. Human disease is largely tissue-dwelling larval infection that poorly absorbed pyrantel is unlikely to reach. The top-scoring prediction (papillary conjunctivitis) and several others (allergic urticaria, atopic conjunctivitis, Sorsby's fundus dystrophy, rosacea conjunctivitis) have no mechanistic or literature support. Other parasitic predictions (toxascariasis, anisakiasis, cutaneous larva migrans, capillariasis) have only indirect evidence, and established drugs such as albendazole or ivermectin are preferred for them. This should be treated as a research question, not a basis for clinical use.
 
 **To proceed, the following is needed:**
-- Resolve the blocking safety data gap: obtain TGA/PI warnings and contraindications for pyrantel
-- Formal mechanism-of-action documentation (DG002)
-- Dedicated efficacy data for pyrantel against *Capillaria philippinensis* specifically, rather than extrapolation from *Ascaris*/*Trichuris* studies
-- Drug interaction (DDI) profile, currently unavailable
-- Assessment of the ARTG registration pathway if repurposing is to be pursued in the Australian market
+- Detailed mechanism of action data and tissue-penetration data to test whether pyrantel can reach migrating larvae
+- Human clinical data on pyrantel in toxocariasis (none currently exist)
+- Comparison against current standard therapy (e.g. albendazole)
+- Approved indication text, warnings and contraindications from the TGA Product Information for Anthel 125, as these are missing from the data compiled for this report and block formal safety screening
+- Review of the liver and gallbladder disease signals and the iodine radioisotope interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Aprepitant
 parent: Model Prediction Only (L5)
-nav_order: 54
+nav_order: 57
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,85 +29,84 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aprepitant: From Chemotherapy-Induced Nausea and Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
-
----
+# Aprepitant: From Its Approved Use to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Aprepitant (brand name Emend) is a selective neurokinin 1 (NK1) receptor antagonist globally approved for the prevention of chemotherapy-induced nausea and vomiting (CINV) and post-operative nausea and vomiting (PONV), although it is not currently registered on the Australian Register of Therapeutic Goods (ARTG).
-The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, an ultra-rare X-linked condition involving constitutive V2 vasopressin receptor activation and dilutional hyponatraemia.
-Currently, **no clinical trials** and **no publications** specifically support this repurposing direction, placing this prediction at Evidence Level 5 — model inference only.
-
----
+Aprepitant is a substance P/neurokinin-1 (NK1) receptor antagonist marketed in Australia as a 165 mg oral capsule. The approved indication text was not available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are currently **0 clinical trials** and **0 relevant publications** supporting this direction. This is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Prevention of chemotherapy-induced and post-operative nausea and vomiting (CINV/PONV) — globally approved, not registered in Australia |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
+|------|------|
+| Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 — Model prediction only, no supporting clinical studies |
-| Australia Market Status | Not marketed (no ARTG registration) |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack (Data Gap DG002). Based on established pharmacology, Aprepitant is a selective, high-affinity antagonist of the human substance P/neurokinin 1 (NK1) receptor. It prevents substance P (SP) — a neuropeptide involved in the vomiting reflex — from binding to NK1 receptors in the central nervous system. This antiemetic mechanism is well validated in clinical use for CINV/PONV. Notably, Aprepitant also demonstrates meaningful central nervous system penetration, with a cerebrospinal fluid to plasma ratio of approximately 26%, which is relevant to any CNS or neurogenic repurposing application.
+Aprepitant is an NK1 receptor antagonist. Detailed mechanism of action data was not available in the data compiled for this report, so this description reflects general pharmacological knowledge of the drug class.
 
-Nephrogenic Syndrome of Inappropriate Antidiuresis is a rare condition caused by gain-of-function mutations in the *AVPR2* gene (encoding the vasopressin V2 receptor), leading to constitutive receptor activation and water retention despite low or undetectable plasma arginine vasopressin (AVP) levels. Preclinical literature suggests that substance P and NK1 receptors are expressed in the renal collecting duct and in hypothalamic nuclei regulating vasopressin release; NK1 receptor signalling has been proposed to modulate aquaporin-2 (AQP2) trafficking and water reabsorption. This provides a theoretical basis for NK1 antagonism influencing water homeostasis, although no studies have specifically tested this hypothesis.
+NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor, which lead to water retention and low blood sodium. There is no established mechanistic link between NK1 antagonism and this pathway. Substance P/NK1 signalling has been loosely discussed in relation to water balance, but this is speculative. The very high TxGNN score is a graph-based model output and is not backed by any clinical or literature data.
 
-Importantly, the mechanistic link for this indication remains unvalidated and was flagged as "pending" in the current Evidence Pack. The high TxGNN score (99.97%) reflects graph-based model inference derived from known molecular interactions rather than direct experimental evidence. Until pharmacological studies confirm NK1R involvement in AVPR2-constitutive signalling pathways, this prediction should be treated as a hypothesis-generating signal requiring preclinical confirmation before any clinical development consideration.
+**Other predicted indications (all L5, all Hold):**
 
----
+| Rank | Predicted Indication | Score | Comment |
+|------|------|------|------|
+| 2 | Hypertrichosis | 99.91% | No plausible mechanistic link to NK1 antagonism |
+| 3 | Pulmonary hypertension | 99.90% | Indirect preclinical association only; the one linked paper is not relevant (see below) |
+| 4 | Leprosy | 99.90% | Theoretical neuroimmune role of substance P only |
+| 5 | Ambras-type hypertrichosis universalis congenita | 99.87% | Rare genetic disorder; likely a graph-proximity artefact |
+| 6 | Malformation syndrome with odontal/periodontal component | 99.86% | Genetic developmental condition; no rationale |
+| 7 | Kyphoscoliotic heart disease | 99.86% | No mechanistic link |
+| 8 | Syndrome with Dandy-Walker malformation | 99.86% | Structural congenital defect; no rationale |
+| 9 | Subarachnoid haemorrhage | 99.85% | Weak, indirect preclinical hypothesis (substance P in blood-brain barrier disruption and cerebral oedema); the most biologically plausible of the list, but still hypothesis-level |
+| 10 | Isolated genetic hair shaft abnormality | 99.85% | No recognised connection |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the top-ranked indication.
 
----
+For the third-ranked prediction (pulmonary hypertension), one publication was linked (PMID [28261651](https://pubmed.ncbi.nlm.nih.gov/28261651/)). It is a Phase I dose-escalation study of pazopanib plus cisplatin in advanced solid tumours. It does not involve aprepitant or pulmonary hypertension and is **not valid supporting evidence**.
 
 ## Australia Market Information
 
-Aprepitant is not currently registered on the Australian Register of Therapeutic Goods (ARTG) and has no approved product entries. Healthcare professionals in Australia wishing to access Aprepitant would need to do so via the TGA Special Access Scheme (SAS Category B or C) or through the Authorised Prescriber pathway. Clinicians should consult the approved Product Information from a comparable regulatory jurisdiction (FDA or EMA) for prescribing guidance and safety information.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 2518M | Aprepitant APOTEX | Capsule 165 mg (oral) | Not stated in available data |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. As Aprepitant is not registered in Australia, clinicians should consult the FDA or EMA Product Information and apply to the TGA Special Access Scheme if use is being considered. Full safety data including warnings, contraindications, and drug interaction data were not available in the current Evidence Pack.
+- **Knowledge-graph contraindication signal**: liver failure (from the TxGNN knowledge graph, not from product label text).
+- **Drug interactions**: 100 interactions were found in the DDInter database. Examples by severity:
+  - **Major**: fentanyl, alfentanil, acalabrutinib
+  - **Moderate**: paclitaxel, abemaciclib, lidocaine, dihydrocodeine, rabeprazole, nifedipine, ibuprofen, levonorgestrel, hydrocortisone, albendazole, fluvoxamine, fosamprenavir, fosphenytoin, fostamatinib, gefitinib, abametapir (topical)
+  - **Minor**: dolutegravir
 
----
+Warnings and contraindications from the label were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction is based solely on TxGNN model inference (Evidence Level L5) with no supporting clinical trials, observational studies, or published literature specifically linking Aprepitant to nephrogenic syndrome of inappropriate antidiuresis. Aprepitant is not registered in Australia, and both the mechanistic rationale and safety profile require substantial further evaluation before this candidate can progress.
+The prediction rests solely on a model score. There are no clinical trials or relevant publications, and no plausible mechanistic link between NK1 antagonism and the V2 receptor gain-of-function that underlies NSIAD. Label safety data was also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-
-- **Mechanistic validation:** Conduct targeted preclinical studies to determine whether NK1R/substance P signalling interacts with constitutively active AVPR2 or AQP2 trafficking in renal collecting duct models; confirm whether Aprepitant produces measurable effects on vasopressin-independent water reabsorption in animal models of NSIAD
-- **Literature review:** Perform a systematic search (PubMed, EMBASE) combining NK1 antagonist terms with vasopressin, AVPR2, aquaporin-2, and hyponatraemia to characterise any existing mechanistic evidence
-- **Safety data completion:** Obtain the FDA/EMA-approved Product Information to address the blocking Data Gap (DG001) — particularly regarding use in paediatric male patients, who are the predominant NSIAD-affected population
-- **MOA data completion:** Complete DrugBank API query (DG002) to formally document Aprepitant's mechanism of action and receptor binding profile for the repurposing dossier
-- **Regulatory pathway scoping:** If preclinical evidence is supportive, assess whether a TGA Special Access Scheme Category B application or an orphan drug designation pathway is appropriate given the ultra-rare nature of NSIAD (estimated prevalence <1:1,000,000)
-- **Other high-priority candidates:** Note that the TxGNN run also flagged **subarachnoid haemorrhage** (Rank 9, score 99.85%) as having the strongest mechanistic rationale among all 10 predicted indications, given SP-mediated neurogenic inflammation and cerebral vasospasm post-SAH, combined with Aprepitant's demonstrated CNS penetration. This candidate may warrant parallel investigation.
-
----
-
-> **Disclaimer:** This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates identified by TxGNN require clinical validation before therapeutic application. All information should be interpreted in accordance with TGA regulatory requirements and applicable clinical guidelines.
+- Obtain the TGA Product Information (approved indications, warnings and contraindications) to complete safety screening
+- Obtain mechanism of action data (for example, from DrugBank)
+- Conduct a targeted literature search for aprepitant/NK1 antagonism in NSIAD and water-balance disorders
+- Establish a mechanistic rationale, with preclinical evidence, before any clinical consideration
+- Consider re-prioritising subarachnoid haemorrhage, which has the most plausible (though still hypothetical) biology among the predicted indications, for a focused evidence review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

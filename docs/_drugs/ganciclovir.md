@@ -2,15 +2,15 @@
 layout: default
 title: Ganciclovir
 parent: High Evidence (L1-L2)
-nav_order: 305
-evidence_level: L1
+nav_order: 328
+evidence_level: L2
 indication_count: 10
 ---
 
 # Ganciclovir
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,85 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Ganciclovir: From Cytomegalovirus Infection to Cytomegalovirus Pneumonia
+# Ganciclovir: From Cytomegalovirus Retinitis to Cytomegalovirus Pneumonia
 
 ## One-Sentence Summary
 
-> Ganciclovir is an established antiviral used to treat cytomegalovirus (CMV) disease in immunocompromised patients. The TxGNN model predicts it may be effective for **Cytomegalovirus Pneumonia**, with **9 clinical trials** and **20 publications** currently supporting this direction — noting this is less a novel "repurposing" than an extension within ganciclovir's core CMV-disease indication spectrum.
-
----
+Ganciclovir is an antiviral originally used for herpes simplex virus keratitis and cytomegalovirus (CMV) retinitis.
+The TxGNN model predicts it may be effective for **cytomegalovirus pneumonia**,
+with **1 clinical trial** (Phase 4, completed) and **20 publications** (mostly reviews and older case series) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Cytomegalovirus (CMV) disease/infection (established antiviral use; no ARTG-registered indication text is available in this evidence pack — see Australia Market Information) |
-| Predicted New Indication | Cytomegalovirus Pneumonia |
+| Original Indication | Cytomegalovirus retinitis; herpes simplex virus keratitis (the approved indication text for the Australian product is not available) |
+| Predicted New Indication | Cytomegalovirus pneumonia |
 | TxGNN Prediction Score | 97.56% |
-| Evidence Level | L1 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L2 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-A formal DrugBank mechanism-of-action record was not returned in this evidence pack (flagged as data gap DG002). Based on the pharmacology referenced in the prediction rationale, ganciclovir is a synthetic 2′-deoxyguanosine analogue. After intracellular phosphorylation to its triphosphate form, it competitively inhibits viral DNA polymerase and causes premature termination of viral DNA chain elongation. Cytomegalovirus is one of ganciclovir's original and core pharmacological targets.
+Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known pharmacology, ganciclovir is a guanosine analogue. It is phosphorylated by the viral UL97 kinase and inhibits CMV DNA polymerase.
 
-CMV pneumonia is a clinical manifestation of CMV disease — the same disease category ganciclovir was developed for and is already used to treat (e.g., CMV retinitis, disseminated CMV disease in transplant recipients). This means the predicted indication does not represent a cross-disease repurposing in the usual sense, but rather an extension within ganciclovir's existing core indication spectrum.
-
-Because CMV pneumonia is caused by the exact pathogen ganciclovir's antiviral activity is directed against, the mechanistic plausibility here is about as strong as a TxGNN prediction can be. This is reflected in the L1 evidence level and the substantial body of completed trials in transplant and immunocompromised populations (bone marrow/stem cell transplant, ICU, paediatric HIV) supporting the drug-disease pairing.
-
----
+This is the same mechanism that underlies its use in CMV retinitis. CMV pneumonia is caused by the same pathogen, so this is a biologically direct extension rather than a true change of mechanism. Historical reports, such as ganciclovir combined with CMV immunoglobulin in bone marrow transplant recipients (1988), and review literature support its use in transplant and immunocompromised patients. This is closer to established off-label or guideline-supported use than to novel repurposing.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02152358](https://clinicaltrials.gov/study/NCT02152358) | Phase 4 | Completed | 317 | Randomised, double-blind trial of preemptive ganciclovir (CMV) vs aciclovir (HSV) in ICU patients on prolonged mechanical ventilation with viral replication; endpoint was ventilator-free days at Day 60. |
-| [NCT04690933](https://clinicaltrials.gov/study/NCT04690933) | N/A | Completed | 400 | Real-world observational study of efficacy and resistance to anti-CMV agents in haematopoietic stem cell transplant recipients; CMV interstitial pneumonia noted as the most severe manifestation. |
-| [NCT03915366](https://clinicaltrials.gov/study/NCT03915366) | Phase 2/3 | Completed | 563 | Multicentre RCT of empirical anti-CMV/anti-tuberculosis treatment in HIV-infected infants with severe pneumonia; survival endpoint. |
-| [NCT01199562](https://clinicaltrials.gov/study/NCT01199562) | N/A | Active, not recruiting | 153 | Modified preemptive CMV management strategy after allogeneic HCT, correlated with innate immune function — validates the ganciclovir-based preemptive treatment pathway. |
-| [NCT05708755](https://clinicaltrials.gov/study/NCT05708755) | Phase 2 | Recruiting | 50 | CMV-specific T-cell immunity assay to guide duration/minimisation of valganciclovir prophylaxis in lung transplant recipients. |
-| [NCT00078533](https://clinicaltrials.gov/study/NCT00078533) | Phase 1 | Completed | 26 | Dose-finding trial of virus-specific cytotoxic T-lymphocytes as an adjunct/alternative for CMV after allogeneic stem cell transplant. |
-| [NCT02109887](https://clinicaltrials.gov/study/NCT02109887) | N/A | Completed | 76 | CMV-specific ELISPOT assay to predict CMV co-infection in Pneumocystis pneumonia patients — diagnostic rather than treatment trial. |
-| [NCT00000726](https://clinicaltrials.gov/study/NCT00000726) | Phase 1 | Completed | 53 | Foscarnet (not ganciclovir) for CMV retinitis in AIDS patients — different drug/site; low direct relevance. |
-| [NCT00141037](https://clinicaltrials.gov/study/NCT00141037) | Phase 1/2 | Completed | 130 | Tacrolimus/steroid vs daclizumab induction in paediatric renal transplant — immunosuppression trial, not a ganciclovir efficacy study. |
-
----
+| [NCT02152358](https://clinicaltrials.gov/study/NCT02152358) | Phase 4 | Completed | 317 | Randomised, double-blind multicentre trial of pre-emptive ganciclovir (for CMV viraemia) or aciclovir (for HSV) in ICU patients on prolonged mechanical ventilation. The primary aim was to increase ventilator-free days at Day 60. The population had viral reactivation, not confirmed CMV pneumonia, and results are not reported in the data compiled. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8380243](https://pubmed.ncbi.nlm.nih.gov/8380243/) | 1993 | RCT (placebo-controlled, double-blind) | Annals of Internal Medicine | Ganciclovir prophylaxis for prevention of CMV infection/disease in allogeneic bone marrow transplant recipients. |
-| [39774866](https://pubmed.ncbi.nlm.nih.gov/39774866/) | 2025 | Review | Intensive Care Medicine | What intensivists need to know about CMV infection/disease, including pneumonia, in immunocompromised ICU patients. |
-| [8274605](https://pubmed.ncbi.nlm.nih.gov/8274605/) | 1993 | Review | Clinical Infectious Diseases | Prevention and treatment of CMV pneumonia in transplant recipients; positions ganciclovir as increasingly central to early prevention. |
-| [2161731](https://pubmed.ncbi.nlm.nih.gov/2161731/) | 1990 | Review | Drugs | Review of ganciclovir's antiviral activity, pharmacokinetics and therapeutic efficacy in CMV infections; recommends it as first-line therapy for life/sight-threatening CMV disease. |
-| [8668848](https://pubmed.ncbi.nlm.nih.gov/8668848/) | 1995 | Review | Seminars in Respiratory Infections | CMV pneumonia presentation, diagnosis and treatment, particularly in allogeneic bone marrow transplant recipients. |
-| [8786764](https://pubmed.ncbi.nlm.nih.gov/8786764/) | 1996 | Review | New England Journal of Medicine | Classic NEJM review of ganciclovir pharmacology and clinical use. |
-| [37225488](https://pubmed.ncbi.nlm.nih.gov/37225488/) | 2024 | Case Report | Internal Medicine (Tokyo) | Primary CMV pneumonia in an immunocompetent patient successfully treated with corticosteroid therapy and valganciclovir. |
-| [2847609](https://pubmed.ncbi.nlm.nih.gov/2847609/) | 1988 | Case Series | Annals of Internal Medicine | CMV interstitial pneumonia after allogeneic BMT successfully treated with ganciclovir plus high-dose IV immune globulin. |
-| [2847610](https://pubmed.ncbi.nlm.nih.gov/2847610/) | 1988 | Case Series | Annals of Internal Medicine | Treatment of CMV pneumonia with ganciclovir and IV CMV immunoglobulin in bone marrow transplant patients. |
-| [2161510](https://pubmed.ncbi.nlm.nih.gov/2161510/) | 1990 | Case Series (pilot study) | Nouvelle Revue Française d'Hématologie | Ganciclovir plus high-dose IV immunoglobulin for severe CMV infection in allogeneic BMT recipients. |
-
----
+| [39774866](https://pubmed.ncbi.nlm.nih.gov/39774866/) | 2025 | Review | Intensive Care Med | Clinical presentation, risk factors and management of CMV disease in immunocompromised ICU patients |
+| [32134483](https://pubmed.ncbi.nlm.nih.gov/32134483/) | 2020 | Review | J Infect Dis | Advances in CMV therapeutics, including ganciclovir and valganciclovir for prevention and treatment in transplant recipients |
+| [8668848](https://pubmed.ncbi.nlm.nih.gov/8668848/) | 1995 | Review | Semin Respir Infect | CMV pneumonia presentation, diagnosis and treatment; near-100% mortality in untreated allogeneic BMT recipients, with earlier diagnosis enabling earlier therapy |
+| [8274605](https://pubmed.ncbi.nlm.nih.gov/8274605/) | 1993 | Review | Clin Infect Dis | Prevention and treatment of CMV pneumonia in transplant recipients; growing role of ganciclovir as early prophylaxis |
+| [2161731](https://pubmed.ncbi.nlm.nih.gov/2161731/) | 1990 | Review | Drugs | Ganciclovir considered first-line for life- or sight-threatening CMV infection in immunocompromised patients |
+| [2847610](https://pubmed.ncbi.nlm.nih.gov/2847610/) | 1988 | Cohort | Ann Intern Med | Ganciclovir plus intravenous CMV immunoglobulin for CMV pneumonia after bone marrow transplant |
+| [2847609](https://pubmed.ncbi.nlm.nih.gov/2847609/) | 1988 | Case report | Ann Intern Med | CMV interstitial pneumonitis after allogeneic BMT successfully treated with ganciclovir and high-dose immune globulin |
+| [3035246](https://pubmed.ncbi.nlm.nih.gov/3035246/) | 1987 | Case series | JAMA | 31 immunocompromised patients with severe CMV disease, including pneumonia, treated with intravenous ganciclovir |
+| [8390734](https://pubmed.ncbi.nlm.nih.gov/8390734/) | 1993 | Cohort | Transplantation | CMV pneumonia after BMT: risk factors and response to therapy (8.8% incidence) |
+| [11477447](https://pubmed.ncbi.nlm.nih.gov/11477447/) | 2001 | Cohort | Bone Marrow Transplant | CMV pneumonia in 795 autologous transplant recipients; 2% incidence, higher in seropositive patients |
 
 ## Australia Market Information
 
-No ARTG entries are currently registered for Ganciclovir in this evidence pack (0 of 0 licenses; market status: **Not marketed**). Local product availability, dosage forms, and TGA-approved indication wording could not be confirmed and would need direct verification against the TGA/ARTG database.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10328N | Cymevene | Powder for I.V. infusion 500 mg (as sodium) | Approved indication text not available |
 
----
+## Cytotoxicity
+
+Ganciclovir is an antiviral, not a conventional anticancer drug, but it is a nucleoside analogue with significant haematological toxicity. The data compiled for this report did not include a formal cytotoxicity classification, so please refer to the Product Information (PI) warnings and precautions, including requirements for handling and disposal.
 
 ## Safety Considerations
 
-No warnings, contraindications, or drug-interaction data were returned in this evidence pack — this is flagged as a **blocking data gap (DG001)**: TFDA/TGA-equivalent Product Information has not yet been obtained. A DDI query also returned "not found." Because Ganciclovir is not currently marketed in Australia (0 ARTG entries), no local PI exists to reference; prescribers should consult overseas-approved Product Information (e.g. FDA/EMA labelling) and institutional protocols until Australian regulatory safety data is confirmed.
+- **Knowledge-graph contraindication signals** (these come from a knowledge graph, not from label text, and should be checked against the PI): thrombocytopenia, neutropenia, agranulocytosis, anaemia, cyclic haematopoiesis, kidney disease, and several cardiovascular, respiratory and ocular conditions (for example aortic stenosis, hypotensive disorder, acute coronary syndrome, asthma, COPD, uveitis).
+- **Drug interactions** (100 recorded; main examples):
+  - *Moderate:* amphotericin B (including lipid complex, cholesteryl sulfate and liposomal forms), trospium, nitisinone.
+  - *Unknown severity:* calcitriol, doxycycline, vancomycin, morphine, prednisone, proton pump inhibitors (omeprazole, pantoprazole, lansoprazole), famotidine, aspirin, and others.
 
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications, as label-based safety data was not available.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Evidence level L1 is supported by multiple completed trials (including a Phase 4 RCT, n=317, and a Phase 2/3 RCT, n=563) plus a substantial literature base, and the mechanistic link is exceptionally strong since CMV pneumonia sits within ganciclovir's core, already-established CMV disease indication. However, safety data is a blocking gap and the drug has no current Australian market presence.
+Ganciclovir acts on CMV through a well-established mechanism, and decades of clinical reports and reviews support its use in CMV pneumonia in transplant and immunocompromised patients. However, the only trial identified is a Phase 4 pre-emptive study in a broader ICU population, so direct high-quality evidence in confirmed CMV pneumonia is limited.
 
 **To proceed, the following is needed:**
-- TGA-equivalent Product Information covering warnings, contraindications and monitoring (DG001, blocking)
-- Formal DrugBank/pharmacology confirmation of mechanism of action (DG002)
-- Confirmation of Australian registration pathway, dosage forms and market entry (currently 0 ARTG entries)
-- Completion of the drug interaction (DDI) dataset query, currently returning "not found"
+- Review of the TGA-approved PI (warnings, contraindications, approved indications), as label data was not available
+- Confirmation of the approved indication text for ARTG 10328N
+- Detailed mechanism of action data from DrugBank
+- Use restricted to virologically confirmed CMV disease, with haematological and renal monitoring
+- Results from NCT02152358 and, where available, ANZCTR-registered trials
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

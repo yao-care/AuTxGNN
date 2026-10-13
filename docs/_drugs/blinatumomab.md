@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Blinatumomab
-parent: Moderate Evidence (L3-L4)
-nav_order: 94
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 101
+evidence_level: L5
 indication_count: 10
 ---
 
 # Blinatumomab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,81 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Blinatumomab: From B-cell Precursor Acute Lymphoblastic Leukaemia to Primary Release Disorder of Platelets
+# Blinatumomab: From Its Registered Use to Primary Release Disorder of Platelets
 
 ## One-Sentence Summary
 
-Blinatumomab (Blincyto) is a bispecific T-cell engager (BiTE) antibody originally developed for relapsed or refractory B-cell precursor acute lymphoblastic leukaemia (ALL), redirecting cytotoxic T cells to destroy CD19-positive malignant B cells.
-The TxGNN model predicts it may have activity in **Primary Release Disorder of Platelets**, with **2 clinical trials** identified but **no publications** directly supporting this repurposing direction.
-Critically, both retrieved trials are for B-ALL rather than the predicted platelet indication, and current mechanistic analysis places the theoretical relevance below 5%.
+Blinatumomab is a CD19/CD3 bispecific T-cell engager marketed in Australia as Blincyto. The data compiled for this report do not state an approved indication.
+The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but there are **0 clinical trials** and **0 publications** supporting this prediction. It is a model-only signal.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Relapsed or refractory B-cell precursor acute lymphoblastic leukaemia (ALL) — based on clinical trial context; no TGA-approved indication on file |
-| Predicted New Indication | Primary Release Disorder of Platelets |
+|------|------|
+| Original Indication | Not stated in the data compiled for this report |
+| Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 95.20% |
-| Evidence Level | L4 |
-| Australia Market Status | Not marketed (no TGA registration) |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current Evidence Pack. Based on known information, blinatumomab is a bispecific T-cell engager (BiTE) that simultaneously binds CD19 on B lymphocytes and CD3 on T lymphocytes, forming an immunological synapse that activates cytotoxic T cells to kill CD19-positive B cells. This mechanism has established efficacy in B-cell precursor ALL, where malignant B-cell clones are selectively eliminated without conventional cytotoxic chemotherapy.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, blinatumomab is a CD19/CD3 bispecific T-cell engager. It links T cells to CD19-positive B cells and depletes them.
 
-Primary release disorder of platelets — encompassing conditions such as δ-storage pool disease and α-granule deficiency — arises from intrinsic congenital defects in platelet granule biogenesis or content. These are non-immune disorders with no established B-cell–mediated pathogenesis. Blinatumomab's CD19-targeting mechanism has no known pathway to correct granule structural deficiencies, restore granule content, or improve platelet release function.
+On current information, the prediction is **not mechanistically convincing**. Primary release disorder of platelets is a functional platelet defect that is not driven by B cells, so the CD19 target has no evident pathogenic relevance. The high score (0.952) appears to be a knowledge-graph association only.
 
-The only plausible indirect connection is that patients with ALL frequently develop secondary thrombocytopenia and platelet dysfunction due to bone marrow suppression. Treating the underlying ALL with blinatumomab may incidentally restore normal platelet production as haematopoietic recovery occurs — but this represents treatment of the primary oncological disease, not a genuine repurposing for a congenital platelet granule disorder as a distinct indication. The high TxGNN prediction score most likely reflects statistical co-occurrence of nodes in the knowledge graph (e.g., B-cell malignancy → thrombocytopenia → platelet release pathway) rather than a true mechanistic relationship.
+There is also a safety concern. Giving a B-cell-depleting agent that can cause cytokine release to patients with a bleeding disorder is difficult to justify without supporting evidence.
+
+The other top-ranked predictions are similarly unsupported. They include Glanzmann thrombasthenia (95.02%), pseudo-von Willebrand disease (94.13%), drug-induced osteoporosis (92.70%) and psoriasis (88.92%). None has trials or literature in the compiled data, and each was assessed as having no plausible mechanistic link.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT04524455](https://clinicaltrials.gov/study/NCT04524455) | Phase 1b | Completed | 17 | Safety and tolerability of blinatumomab combined with AMG 404 (anti-PD-1) in adults with relapsed/refractory B-ALL; evaluated MTD and recommended Phase 2 dose of AMG 404. Platelet-related findings, if any, reflect haematological safety monitoring rather than therapeutic intent for platelet disorders. |
-| [NCT03476239](https://clinicaltrials.gov/study/NCT03476239) | Phase 3 | Completed | 121 | Efficacy and safety of blinatumomab in Chinese adults with relapsed/refractory B-precursor ALL; primary endpoint was haematological response (CR/CRh). Any platelet parameters reported are safety endpoints, not therapeutic targets for primary platelet release disorders. |
-
-> **Important caveat:** Both trials carry Grade C relevance to the predicted indication. They were designed and powered for B-cell precursor ALL, not for primary release disorder of platelets. Neither trial addresses platelet granule function as an efficacy endpoint.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature is available for blinatumomab in primary release disorder of platelets.
+Currently no related literature available.
 
 ---
 
 ## Australia Market Information
 
-Blinatumomab is not currently registered with the Therapeutic Goods Administration (TGA) and has no ARTG entries as of the data cut-off (5 April 2026).
-
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
-|-------------|--------------|-------------|---------------------|
-| — | No ARTG entries | — | Not TGA-registered |
-
-Healthcare professionals seeking access may wish to consider:
-- **Special Access Scheme (SAS) Category B** — for individual patients with serious conditions
-- **Clinical trial enrolment** — blinatumomab trials are active in Australia through global multicentre studies
-- **International reference**: Blinatumomab is approved by the FDA (USA) and EMA (EU/UK) under the brand name **Blincyto** (Amgen) for B-cell precursor ALL, including relapsed/refractory disease and MRD-positive disease
+|---------|------|------|-----------|
+| ARTG 11115B | Blincyto | Powder for I.V. infusion 38.5 micrograms | Not stated in the compiled data |
 
 ---
 
 ## Cytotoxicity
 
-Blinatumomab is an antineoplastic immunotherapy used in the treatment of leukaemia. The following applies to its established oncological use.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted immunotherapy — BiTE (bispecific T-cell engager) antibody; **not** a conventional cytotoxic agent |
-| Myelosuppression Risk | Low to moderate (indirect); does not directly suppress haematopoiesis, but febrile neutropenia and infection are common adverse events; in ALL patients, underlying bone marrow disease contributes significantly |
-| Emetogenicity Classification | Low (biologic/immunotherapy; not classified as emetogenic by standard chemotherapy emetogenicity scales) |
-| Monitoring Items | Full blood count with differential (FBC), liver function tests (LFTs), renal function, neurological assessment at each cycle, vital signs and oxygen saturation during infusion (CRS monitoring), serum electrolytes |
-| Handling Protection | Standard biologic/monoclonal antibody preparation and handling; conventional cytotoxic chemotherapy safe-handling protocols (closed-system transfer devices, cytotoxic PPE) are **not** mandated for this agent |
+|------|------|
+| Cytotoxicity Classification | Immunotherapy (bispecific T-cell engager) |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the PI. Haematological parameters (FBC), liver function and neurological status are generally relevant. |
+| Handling Protection | Please refer to the PI and local institutional requirements for handling |
 
 ---
 
 ## Safety Considerations
 
-Detailed safety data (TGA-approved warnings and contraindications) are not available in the current Evidence Pack. As blinatumomab is not TGA-registered, please refer to the **FDA Prescribing Information or EMA Summary of Product Characteristics (SmPC) for Blincyto** for full safety information.
+- **Drug Interactions**: The interaction screen returned 100 interactions, and the 20 reviewed for this report are listed below.
+  - **Major**: bupropion, deferiprone, iohexol, iopamidol, samarium (153Sm) lexidronam
+  - **Moderate**: naltrexone, polyethylene glycol (3350 with electrolytes), picosulfuric acid, sodium sulfate, strontium chloride Sr-89, dicoumarol, warfarin, lindane, aminophylline, dyphylline, hydrocodone, oxtriphylline, roflumilast, theophylline, chloramphenicol
+- **Theoretical concerns for this prediction**: Cytokine release syndrome and neurotoxicity are recognised risks of T-cell engagers. The compiled analysis also notes that blinatumomab can cause cytopenias, which is relevant in bleeding disorders.
 
-The following key safety signals are documented in international prescribing information and are relevant to clinical consideration:
-
-- **Cytokine Release Syndrome (CRS)**: Potentially life-threatening; requires standardised monitoring protocols, treatment algorithms (antipyretics, corticosteroids, tocilizumab for severe cases), and a minimum 9-day hospitalisation at treatment initiation
-- **Neurotoxicity**: Encephalopathy, speech disorders, seizures, and confusion have been reported; may require temporary or permanent discontinuation; prophylactic dexamethasone is recommended
-- **Infections**: Serious and opportunistic infections (including bacterial sepsis, fungal infections, viral reactivation); patients should be screened for active infections before treatment
-- **Administration complexity**: Requires continuous intravenous infusion (cIV) via programmable infusion pump over 28-day cycles; medication preparation errors have caused patient harm and carry a specific FDA/EMA safety communication
+Please refer to the TGA-approved Product Information (PI) for the full warnings and contraindications, as these were not available in the compiled data.
 
 ---
 
@@ -127,19 +112,13 @@ The following key safety signals are documented in international prescribing inf
 **Decision: Hold**
 
 **Rationale:**
-Despite a TxGNN prediction score of 95.20%, mechanistic analysis demonstrates a very low theoretical basis (<5%) for blinatumomab activity in primary release disorder of platelets. The two retrieved clinical trials are Grade C (indirect) relevance — designed for B-cell precursor ALL — and no supporting literature exists for the predicted indication. The predicted disease involves congenital platelet granule defects that are mechanistically unrelated to CD19-targeted B-cell depletion.
+The prediction has no supporting trials or literature (evidence level L5) and no plausible mechanistic link. The target disease is not B-cell driven, and the drug carries significant systemic toxicity. A Hold is recommended.
 
 **To proceed, the following is needed:**
-
-- **MOA documentation**: Formally retrieve and document blinatumomab's mechanism of action from DrugBank or FDA/EMA product information to enable full mechanistic plausibility assessment
-- **Knowledge graph pathway audit**: Investigate why the TxGNN model generated a 95.20% score for this drug-disease pair; determine whether the prediction reflects a genuine biological hypothesis or a statistical artefact from the ALL-thrombocytopenia co-occurrence pattern in the graph
-- **TGA registration pathway assessment**: Evaluate whether blinatumomab is under active TGA consideration; note that FDA and EMA approvals exist for B-ALL and may support a TGA application under the established clinical framework
-- **Redirect to higher-plausibility prediction**: Among all 10 predictions in this pack, **Glanzmann thrombasthenia (acquired autoimmune form, Rank #2, score 95.02%)** represents the most mechanistically credible repurposing candidate. Acquired Glanzmann thrombasthenia is driven by B-cell–produced anti-GPIIb/IIIa autoantibodies — directly within blinatumomab's therapeutic rationale. This direction is recommended for priority feasibility review, with a full separate Evidence Pack generated for that indication
-- **Full safety data acquisition**: Obtain complete warnings, contraindications, and DDI profile from the Blincyto FDA label or EMA SmPC before any clinical access pathway is initiated
-
----
-
-*This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. Data cut-off: 5 April 2026.*
+- The approved indication and the PI warnings and contraindications from the TGA/ARTG record
+- Mechanistic data (MOA) and a credible biological rationale linking CD19/CD3 engagement to platelet release disorders
+- Preclinical or clinical evidence in the predicted disease
+- A benefit-risk assessment against existing therapies, given the toxicity profile
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clopidogrel
-parent: Model Prediction Only (L5)
-nav_order: 163
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 176
+evidence_level: L2
 indication_count: 10
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,124 +29,120 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clopidogrel: From Cardiovascular Disease Prevention to Migraine with Brainstem Aura
+# Clopidogrel: From Acute Coronary Syndrome to Migraine Disorder
 
 ## One-Sentence Summary
 
-Clopidogrel is a thienopyridine-class P2Y12 receptor antagonist antiplatelet drug established for the prevention of atherothrombotic events, including myocardial infarction and ischaemic stroke.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura** (formerly basilar-type migraine) as its top-ranked repurposing candidate (score: 99.44%), with the closely related broader indication of **migraine disorder** (Rank 2) supported by **8 clinical trials** (including 2 completed Phase 4 studies) and **20 publications**.
-Current evidence for the brainstem aura-specific subtype is at Level L3, consisting primarily of observational studies and literature from the broader PFO-associated migraine with aura population.
+Clopidogrel is an antiplatelet drug originally used for acute coronary syndrome, intracranial embolism and ST-elevation myocardial infarction.
+The TxGNN model's top-ranked prediction is migraine with brainstem aura. The better-supported prediction is **migraine disorder** (rank 2), particularly migraine in patients with a patent foramen ovale (PFO), with **6 registered clinical trials** (3 directly testing clopidogrel or related antithrombotic therapy) and **20 publications** supporting this direction.
+
+The report evaluates **migraine disorder** as the lead indication. The rank 1 entry, migraine with brainstem aura, has no registered trials and relies on extrapolation from PFO-associated migraine with aura. The remaining predictions (osteoarthritis, tendinitis, myositis fibrosa, idiopathic granulomatous myositis, rheumatoid arthritis, osteoarthritis susceptibility, pseudoachondroplasia, fibromyalgia) have no meaningful supporting evidence and are summarised at the end.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Cardiovascular disease prevention (atherothrombotic events: myocardial infarction, ischaemic stroke, peripheral arterial disease) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L3 (observational studies and systematic review; no clinical trials specific to this subtype) |
-| Australia Market Status | Not marketed (no ARTG entries found in current dataset — see data note below) |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold (Research Question) |
+|------|------|
+| Original Indication | Acute coronary syndrome, intracranial embolism, ST-elevation myocardial infarction (from the knowledge graph; the ARTG entry has no indication text recorded) |
+| Predicted New Indication | Migraine disorder (lead candidate; rank 1 was migraine with brainstem aura) |
+| TxGNN Prediction Score | 99.44% (migraine disorder); 99.44% (migraine with brainstem aura) |
+| Evidence Level | L2 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current dataset. Based on well-established pharmacology, Clopidogrel is a thienopyridine prodrug that irreversibly binds to the P2Y12 ADP receptor on platelets, blocking ADP-mediated platelet activation and aggregation. It is metabolised to its active form via CYP2C19 and is the most widely used P2Y12 inhibitor in cardiovascular medicine.
+Detailed mechanism of action data are not available in the data compiled for this report. Clopidogrel is an oral antiplatelet agent that is well known to act through P2Y12 receptor antagonism. Its efficacy in acute coronary syndrome and thrombotic events is established.
 
-**Migraine with brainstem aura** is characterised by brainstem-origin neurological aura symptoms — including vertigo, tinnitus, diplopia, dysarthria, bilateral paraesthesiae, bilateral visual disturbance, and reduced consciousness — preceding or accompanying typical migraine headache. This subtype has a particularly close association with patent foramen ovale (PFO): the posterior cerebral circulation (brainstem, cerebellum, occipital cortex) is supplied by the vertebrobasilar system, and platelet microemboli passing through a PFO can directly enter this territory, triggering posterior circulation transient ischaemic events or initiating cortical spreading depression (CSD) in brainstem structures.
+The proposed link to migraine runs through platelet activation. Migraine with aura is associated with PFO and other right-to-left shunts. Platelet activation and paradoxical microembolism, or release of vasoactive mediators such as serotonin across the shunt, are proposed triggers. Blocking platelet P2Y12 may therefore reduce attacks in this subgroup. Clinical reports also describe new-onset migraine after transcatheter closure of atrial septal defects, and clopidogrel has been associated with improvement in these patients.
 
-Three mechanistic pathways support the biological plausibility of Clopidogrel in this indication: **(1) Central neuroinflammation suppression** — P2Y12 receptors are expressed on microglial cells in the trigeminal nucleus caudalis (TNC); Clopidogrel can inhibit ADP-induced RhoA/ROCK pathway activation in these cells, reducing neurogenic inflammation relevant to migraine chronification (PMID 31722730); **(2) Serotonin regulation** — platelet activation triggers mass 5-HT release followed by a sharp drop in plasma serotonin, a well-established migraine trigger; antiplatelet therapy attenuates this mechanism; **(3) PFO/ASD-mediated embolism blockade** — in structurally mediated migraine, Clopidogrel disrupts the passage of platelet aggregates and vasoactive substances (serotonin, thromboxane A2) that bypass pulmonary filtration and enter cerebral arteries. The brainstem aura subtype is mechanistically most compelling given its posterior circulation distribution and stronger epidemiological PFO association compared to cortical aura subtypes. However, no Phase 2/3 clinical trials have specifically enrolled patients with this diagnostic subtype, and the existing evidence is derived from aggregate "migraine with aura" populations.
+The applicability appears limited to a PFO or aura subpopulation. For migraine with brainstem aura specifically, the evidence is extrapolated from migraine with aura generally. P2Y12 receptors have also been implicated in animal models of migraine (microglial activation, nitroglycerin-induced model), but these are preclinical findings only.
 
 ---
 
 ## Clinical Trial Evidence
 
-No clinical trials specifically targeting **migraine with brainstem aura** are currently registered on ClinicalTrials.gov or ICTRP.
-
-The following trials for the closely related indication of **migraine disorder** (TxGNN Rank 2) provide supporting evidence for the antiplatelet–PFO–migraine pathway directly relevant to brainstem aura:
+Trials for migraine disorder (the rank 1 prediction has no registered trials):
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT00799045](https://clinicaltrials.gov/study/NCT00799045) | Phase 4 | Completed | 220 | **CANOA Trial**: Clopidogrel + Aspirin vs Aspirin alone after transcatheter ASD closure — directly evaluates Clopidogrel combination in preventing new-onset migraine post-procedure |
-| [NCT05546320](https://clinicaltrials.gov/study/NCT05546320) | Phase 4 | Unknown | 1,000 | **COMPETE Trial**: Three-arm comparison of anticoagulation vs antiplatelet (including Clopidogrel) vs migraine-specific therapy in PFO-associated migraine — highest direct clinical relevance |
-| [NCT02938182](https://clinicaltrials.gov/study/NCT02938182) | Phase 4 | Unknown | 50 | Prospective trial directly evaluating Clopidogrel monotherapy for migraine relief in right-to-left shunt patients |
-| [NCT04946734](https://clinicaltrials.gov/study/NCT04946734) | Phase 3 | Active, not recruiting | 440 | **SPRING Trial**: Multicentre RCT comparing PFO closure vs medical therapy (drug arm includes Clopidogrel) for migraine alleviation |
-| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Phase 3 | Completed | 664 | PFO closure vs anticoagulation vs antiplatelet therapy (Clopidogrel arm) for stroke prevention — migraine as secondary endpoint, extractable data |
-| [NCT02777359](https://clinicaltrials.gov/study/NCT02777359) | Phase 2 | Unknown | 100 | High-risk PFO closure vs medical therapy (standard Clopidogrel protocol) — drug arm provides migraine improvement data |
-| [NCT04100135](https://clinicaltrials.gov/study/NCT04100135) | Device study | Terminated | 7 | GORE CARDIOFORM device trial for migraine — terminated due to insufficient enrolment; minimal relevance |
-| [NCT02670161](https://clinicaltrials.gov/study/NCT02670161) | Phase 4 | Enrolling by invitation | 3,300 | Pragmatic neurology EMR quality improvement study covering multiple neurological disorders including migraine; not Clopidogrel-specific |
+|---------|------|------|------|---------|
+| [NCT05546320](https://clinicaltrials.gov/study/NCT05546320) (COMPETE) | Phase 2 | Completed | 1000 | Anticoagulation vs antiplatelet therapy (including clopidogrel) vs migraine therapy in migraine with PFO; results published in 2026 (PMID 42526943) |
+| [NCT00799045](https://clinicaltrials.gov/study/NCT00799045) (CANOA) | Phase 4 | Completed | 220 | Clopidogrel added to aspirin to prevent new-onset migraine after transcatheter ASD closure |
+| [NCT02938182](https://clinicaltrials.gov/study/NCT02938182) | Phase 4 | Unknown | 50 | Prophylactic effectiveness of clopidogrel in migraine with right-to-left shunt; small, status unverified |
+| [NCT04946734](https://clinicaltrials.gov/study/NCT04946734) (SPRING) | Phase 3 | Active, not recruiting | 440 | PFO closure vs medicine for migraine; device trial, medicine is the comparator (context only) |
+| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) (CLOSE) | Phase 3 | Completed | 664 | PFO closure vs anticoagulants vs antiplatelets for stroke recurrence; migraine not the primary outcome |
+| [NCT04100135](https://clinicaltrials.gov/study/NCT04100135) | Not applicable | Terminated | 7 | GORE septal occluder device study; not drug evidence |
+
+No ANZCTR identifiers were included in the data compiled for this report.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT | *European Heart Journal* | **PRIMA Trial**: Multicentre RCT of percutaneous PFO closure vs antiplatelet therapy (including Clopidogrel) in medically refractory migraine with aura — provides comparator-arm antiplatelet data |
-| [24836213](https://pubmed.ncbi.nlm.nih.gov/24836213/) | 2014 | Pilot RCT | *Cephalalgia* | First pilot RCT directly testing Clopidogrel as prophylactic treatment for migraine (general migraine population including aura subgroup) |
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematic Review | *Headache* | Comprehensive review of antithrombotic drugs as migraine preventives — specifically covers Clopidogrel across aura subtypes including brainstem aura |
-| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Observational | *Heart* | Key early clinical observation: Clopidogrel reduces frequency of migraine with aura after transcatheter PFO/ASD closure |
-| [32848048](https://pubmed.ncbi.nlm.nih.gov/32848048/) | 2020 | Cohort/Case Series | *J Investig Med* | Clopidogrel 75 mg/day as add-on prophylaxis for drug-refractory PFO-migraine (including aura subgroup; 56.8% of patients had confirmed PFO) — positive outcomes at 3 and 6 months |
-| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | Open-label Pilot | *Neurology* | **TRACTOR Study**: Ticagrelor (P2Y12 class; same target as Clopidogrel) for refractory PFO-migraine — provides class-level mechanistic validation |
-| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Retrospective Review | *Neurology* | Retrospective review of thienopyridine therapy (Clopidogrel and prasugrel) in PFO migraineurs — reports clinical outcomes across the drug class |
-| [24770421](https://pubmed.ncbi.nlm.nih.gov/24770421/) | 2014 | Retrospective Review | *Cephalalgia* | Clopidogrel as primary therapy for migraineurs with right-to-left shunt lesions — demonstrates reduction in migraine with aura frequency |
-| [15966922](https://pubmed.ncbi.nlm.nih.gov/15966922/) | 2005 | Case Series | *J Interv Cardiol* | Intense migraine developed after ASD closure in 5/13 patients — dramatic pain relief achieved almost immediately after 300 mg Clopidogrel loading dose |
-| [22992406](https://pubmed.ncbi.nlm.nih.gov/22992406/) | 2012 | Case Report/Review | *Cephalalgia* | De novo migraine after ASD closure — antiplatelet drugs including Clopidogrel associated with migraine amelioration; documents thienopyridine class effect |
+|------|-----|------|------|---------|
+| [42526943](https://pubmed.ncbi.nlm.nih.gov/42526943/) | 2026 | RCT (multicentre, open label) | BMJ | Efficacy and safety of antithrombotic treatment for migraine prevention in patients with PFO (COMPETE) |
+| [26551304](https://pubmed.ncbi.nlm.nih.gov/26551304/) | 2015 | RCT | JAMA | CANOA: clopidogrel plus aspirin vs aspirin alone for migraine after ASD closure |
+| [32965476](https://pubmed.ncbi.nlm.nih.gov/32965476/) | 2021 | RCT (1-year follow-up) | JAMA Cardiol | CANOA one-year results after clopidogrel cessation at 3 months |
+| [24836213](https://pubmed.ncbi.nlm.nih.gov/24836213/) | 2014 | RCT (pilot) | Cephalalgia | Pilot randomised study of clopidogrel as migraine prophylaxis |
+| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematic review | Headache | Role of antithrombotic drugs in migraine prevention |
+| [40144614](https://pubmed.ncbi.nlm.nih.gov/40144614/) | 2025 | Systematic review | Indian J Thorac Cardiovasc Surg | Incidence and management of new-onset headache after transcatheter ASD closure |
+| [32848048](https://pubmed.ncbi.nlm.nih.gov/32848048/) | 2020 | Cohort/case series | J Investig Med | Clopidogrel 75 mg/day as add-on prophylaxis in drug-refractory migraine with PFO |
+| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Retrospective review | Neurology | Off-label thienopyridine therapy in migraineurs with PFO |
+| [24770421](https://pubmed.ncbi.nlm.nih.gov/24770421/) | 2014 | Retrospective review | Cephalalgia | Clopidogrel as primary therapy for migraineurs with right-to-left shunt |
+| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Cohort | Heart | Clopidogrel reduced migraine with aura after closure of PFO and ASD |
+
+Related but non-clopidogrel evidence includes a ticagrelor open-label pilot (PMID 30478067) and the PRIMA trial of PFO closure (PMID 26908949), which tested a device rather than a drug.
 
 ---
 
 ## Australia Market Information
 
-No ARTG entries for Clopidogrel were identified in the current dataset.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13365K | Clovix 75 | Tablet 75 mg (as besilate) | Not recorded in the data compiled for this report |
 
-> **⚠️ Data Quality Note**: Clopidogrel is a well-established antiplatelet agent with longstanding global clinical use. The absence of ARTG entries in this dataset is highly likely to reflect a data extraction gap rather than genuine absence from the Australian market. Prescribers should verify current registration status directly via the [TGA ARTG Public Summary](https://www.tga.gov.au/resources/artg) and consult the TGA-approved Product Information (PI) before any clinical use.
+Only one oral single-ingredient product is listed. Migraine is not an approved indication.
 
 ---
 
 ## Safety Considerations
 
-No safety data was retrieved for Clopidogrel in the current dataset.
+- **Contraindications suggested by the knowledge graph** (these are not label text): acute liver failure, hepatitis, blood coagulation disease, injury, thrombocytopenic purpura, active peptic ulcer disease and intracranial haemorrhage.
+- **Drug interactions:** 100 interactions were identified. Major interactions include:
+  - Proton pump inhibitors: rabeprazole, omeprazole, esomeprazole
+  - Pioglitazone
+  - Loperamide
+  - Repaglinide
+  - Moderate interactions include acetylsalicylic acid, morphine, bupropion, cimetidine, clarithromycin, lansoprazole and pantoprazole.
+- **Bleeding risk:** the literature includes reports of intracerebral haemorrhage with celecoxib co-administration and spontaneous haemarthrosis with clopidogrel plus aspirin. This is relevant to a migraine population, which commonly uses NSAIDs.
 
-> Please refer to the TGA-approved Product Information (PI) for complete safety information. Key areas to review include:
->
-> - **Bleeding risk**: Major, life-threatening bleeding including intracranial haemorrhage and GI bleeding — particularly relevant when considering use in migraine patients who may also be taking NSAIDs or triptans
-> - **Pharmacogenomics**: CYP2C19 poor metabolisers have significantly reduced antiplatelet response ("Clopidogrel resistance"); genotyping relevant for any repurposing protocol
-> - **Contraindications**: Active pathological bleeding; hypersensitivity to Clopidogrel or any excipient
-> - **Drug interactions**: Proton pump inhibitors (especially omeprazole — CYP2C19 inhibition), aspirin (combined bleeding risk), NSAIDs, anticoagulants, and CYP2C19 inhibitors/inducers
-> - **Population-specific risks**: Migraine patients are typically younger adults with a different cardiovascular risk baseline than standard Clopidogrel users — bleeding risk-benefit assessment must be recalibrated for this population
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (Research Question) — for migraine with brainstem aura specifically**
-
-> *Note: For the closely related indication of **migraine disorder** (TxGNN Rank 2, Evidence Level L2), two completed Phase 4 trials (CANOA, n=220; NCT02938182, n=50) and the ongoing Phase 3 SPRING trial (n=440) support a recommendation of **Proceed with Guardrails**, particularly for PFO-associated migraine with aura.*
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-Migraine with brainstem aura is the most mechanistically compelling subtype for Clopidogrel repurposing given its strong association with PFO, posterior circulation embolism, and brainstem CSD. However, no clinical trials have enrolled patients specifically diagnosed with brainstem aura, and the published evidence pool reports aggregate "migraine with aura" outcomes without subgroup analyses sufficient to isolate this subtype. The current evidence base supports a research question requiring subtype-specific prospective investigation before clinical application.
+Migraine disorder has the strongest support among the predictions (L2). A completed Phase 4 RCT (CANOA), a pilot RCT and a large Phase 2 randomised trial (COMPETE, published in BMJ in 2026) provide clinical signals. However, no Phase 3 RCT directly tests clopidogrel for migraine, the benefit appears confined to PFO or aura subpopulations, and bleeding and drug interaction burdens are significant.
 
 **To proceed, the following is needed:**
+- Detailed review of the COMPETE and CANOA results, including bleeding outcomes and effect size in patients with and without PFO
+- Phase 3 evidence or a confirmatory trial in a PFO-associated migraine population
+- Patient selection criteria (PFO or right-to-left shunt confirmation, refractory migraine) and a bleeding-risk and DDI management plan, especially for PPIs and NSAIDs
+- Mechanism of action data and TGA Product Information warnings and contraindications
+- Evidence specific to migraine with brainstem aura before any subtype-specific use
 
-- **For brainstem aura-specific advancement:**
-  - Retrospective subgroup analysis of existing PFO-migraine trial datasets (CANOA, SPRING) to extract brainstem aura outcomes using ICHD-3 diagnostic classification
-  - Prospective registry or cohort study specifically enrolling patients with ICHD-3-confirmed migraine with brainstem aura and TCD/echocardiography-confirmed PFO
-  - Neuroimaging protocol (DWI/FLAIR MRI) to characterise posterior circulation involvement at baseline
-
-- **For the broader migraine indication (Rank 2 — Proceed with Guardrails):**
-  - Full clinical review of CANOA trial results (PMID 26551304; PMID 32965476) and COMPETE trial design (PMID 38109984)
-  - CYP2C19 genotyping protocol for patient stratification to identify likely non-responders
-  - Bleeding risk stratification framework adapted for the migraine patient demographic (typically younger, lower baseline cardiovascular risk)
-  - Patient selection criteria defining the PFO-confirmed vs non-PFO migraine subpopulations
-
-- **Dataset gaps to address before any clinical use:**
-  - Retrieve TGA-approved Product Information and confirm ARTG registration status
-  - Obtain mechanism of action data from DrugBank (DB00758)
-  - Retrieve current drug interaction database entries
+**Other predictions (all Hold):**
+- **Rheumatoid arthritis and osteoarthritis:** the literature suggests possible harm (clopidogrel-associated inflammatory arthritis) or lower osteoarthritis risk with ticagrelor than with clopidogrel, not clopidogrel benefit.
+- **Tendinitis, fibromyalgia and osteoarthritis susceptibility:** the retrieved papers are irrelevant to clopidogrel efficacy.
+- **Myositis fibrosa, idiopathic granulomatous myositis and pseudoachondroplasia:** prediction only, with no trials, literature or plausible mechanism.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

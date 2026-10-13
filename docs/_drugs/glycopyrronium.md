@@ -2,7 +2,7 @@
 layout: default
 title: Glycopyrronium
 parent: Model Prediction Only (L5)
-nav_order: 317
+nav_order: 342
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,101 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Glycopyrronium: From Anticholinergic (Antimuscarinic) Therapy to Irritable Bowel Syndrome
+# Glycopyrronium: From an Inhaled Bronchodilator (Indication Not Recorded) to Irritable Bowel Syndrome
 
 ## One-Sentence Summary
 
-Glycopyrronium is a peripheral antimuscarinic (anticholinergic) agent; this evidence pack does not record its originally licensed indication(s) or detailed mechanism of action data (data gap). The TxGNN model predicts it may be effective for **Irritable Bowel Syndrome (IBS)**, but this is currently supported by **0 clinical trials** and only **1 indirectly related preclinical publication** — the evidence base is very thin.
+Glycopyrronium is a long-acting antimuscarinic (anticholinergic) agent. In Australia it is registered as an inhaled capsule (Seebri Breezhaler), but the approved indication text was not available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **irritable bowel syndrome**, with **no clinical trials** and **no publications** currently supporting this specific prediction.
+The evidence rests on a model score and class-level reasoning only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no ARTG license records available) |
-| Predicted New Indication | Irritable Bowel Syndrome |
+| Original Indication | Not available in the data compiled (the single ARTG entry has no indication text) |
+| Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 98.84% |
-| Evidence Level | L4 (preclinical / mechanistic only) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for glycopyrronium is not available in this evidence pack. Based on pharmacological information referenced within the evidence base itself, glycopyrronium is a peripheral antimuscarinic agent that antagonises M3 muscarinic receptors — the same receptor class targeted by established GI antispasmodics such as dicyclomine and hyoscyamine, and by long-acting muscarinic antagonists (e.g. tiotropium) used in respiratory disease.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, glycopyrronium is a quaternary ammonium antimuscarinic. It blocks muscarinic receptors, which reduces smooth muscle contraction and glandular secretions.
 
-Mechanistically, M3-receptor blockade can reduce intestinal smooth-muscle contraction and, in theory, visceral hypersensitivity — both relevant to IBS symptom control. Antispasmodics as a drug class are an accepted, guideline-recognised treatment option for IBS, which lends class-level plausibility to this prediction.
+In irritable bowel syndrome (IBS), other antimuscarinics such as dicyclomine and hyoscyamine are already used to relieve abdominal cramping. It is therefore biologically plausible that glycopyrronium could act similarly on gastrointestinal smooth muscle. However, no trials or publications were found for this drug and indication pair. The support is a high model score plus class-level reasoning only.
 
-However, this plausibility is at the drug-class level, not drug-specific. The single supporting publication in this evidence pack (PMID 9696463) actually studies tricyclic antidepressants' effects on rat colonic afferent nerves — it does not test glycopyrronium directly. No clinical trials, case series, or glycopyrronium-specific preclinical GI motility studies are currently available to support this indication.
+Other high-scoring predictions are listed below for context. Most have weak or doubtful rationale.
+
+| Rank | Predicted Indication | Score | Comment |
+|---|---|---|---|
+| 2 | Cauda equina syndrome | 98.51% | Indirect link via neurogenic bladder/bowel dysfunction only |
+| 3 | Neurogenic bladder (obsolete term) | 97.73% | Plausible via detrusor muscarinic blockade; the term should be mapped to a current ontology term before any evidence search |
+| 4 | Neurocirculatory asthenia | 96.91% | Speculative; anticholinergic tachycardia could worsen symptoms |
+| 5–6 | Migraine and migraine with brainstem aura | 96.08% / 95.68% | No clear rationale; minimal blood-brain barrier penetration |
+| 7, 9 | Open-angle and primary hereditary glaucoma | 95.61% / 95.30% | More likely a safety caution than an opportunity |
+| 8 | Autonomic nervous system disease | 95.55% | Only indication with any evidence (L4); see below |
+| 10 | Dysthymic disorder | 93.68% | No credible mechanism |
+
+The autonomic nervous system disease prediction is the only one with some supporting material. It is broad, and specific conditions such as hyperhidrosis and drooling should be evaluated separately.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+No clinical trials are registered for glycopyrronium in irritable bowel syndrome. Currently no related clinical trials registered.
+
+For context, one trial exists for the rank 8 prediction (autonomic nervous system disease). It is only indirectly relevant:
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02872090](https://clinicaltrials.gov/study/NCT02872090) | Phase 4 | Completed | 42 | Randomised, double-blind, crossover study of tiotropium, glycopyrronium and indacaterol on cardiac autonomic control in mild COPD. It examines autonomic effects as a physiological or safety outcome, not efficacy in an autonomic disease. |
 
 ## Literature Evidence
 
+No publications were found for glycopyrronium in irritable bowel syndrome. Currently no related literature available.
+
+For context, one publication relates to the rank 8 prediction:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9696463](https://pubmed.ncbi.nlm.nih.gov/9696463/) | 1998 | Preclinical (animal) | Pain | Examined effects of tricyclic antidepressants (imipramine, desipramine, clomipramine) on mechanosensitive pelvic nerve afferents in the rat colon; relevant to visceral sensitivity mechanisms but does not test glycopyrronium itself |
+| [37714301](https://pubmed.ncbi.nlm.nih.gov/37714301/) | 2024 | Review | Actas Dermo-Sifiliográficas | Narrative review of topical anticholinergics in focal hyperhidrosis, an autonomic disorder. It offers indirect support only. |
 
 ## Australia Market Information
 
-No ARTG entries currently registered — glycopyrronium is not marketed in Australia according to this evidence pack.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 10059K | Seebri Breezhaler | Capsule containing powder for oral inhalation, 50 micrograms (as bromide), for use in Breezhaler | Not available in the data compiled |
+
+The only registered route is oral inhalation. Route compatibility with a gastrointestinal indication such as IBS has not been assessed. An inhaled product is unlikely to be suitable for it.
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. This evidence pack could not retrieve key warnings, contraindications, or drug interaction data for glycopyrronium (source lookup returned no result).
+Specific warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for safety information.
+
+**Drug Interactions:** An interaction query returned 100 records. Most listed are of Moderate severity, and a few are Minor. Examples include:
+- **Additive anticholinergic effects:** other antimuscarinics such as aclidinium, hyoscyamine and homatropine, and sedating antihistamines such as chlorpheniramine, acrivastine and phenyltoloxamine
+- **Opioids and central nervous system depressants:** fentanyl, alfentanil, codeine, dihydrocodeine, tramadol, loperamide and ethanol
+- **Others:** botulinum toxin type A, amantadine, amitriptyline, acebutolol, acetylcholine (Moderate); acetaminophen and hydrochlorothiazide (Minor)
+
+**Class-level cautions from the prediction analysis:**
+- Antimuscarinics may precipitate angle closure or raise intraocular pressure in glaucoma. This is relevant to two of the predicted indications.
+- Peripheral anticholinergic effects such as urinary retention and tachycardia still apply, although the quaternary structure limits CNS penetration.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The IBS prediction rests on class-level mechanistic plausibility only (L4, decision stage S1/"Research Question"), with no clinical trials and only one indirectly relevant preclinical publication (which studies a different drug class, not glycopyrronium).
-- A blocking data gap exists at the drug level: TGA/PI-level warnings and contraindications could not be retrieved, so a formal safety pre-assessment cannot be completed.
+The IBS prediction has a high model score and a plausible class-level mechanism, but there are no trials or publications for this drug and indication pair (Evidence Level L5). The only registered Australian product is an inhaled capsule, and the safety data and indication text are missing.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications, drug interactions) for glycopyrronium
-- Confirmed mechanism of action and original approved indication(s)
-- Glycopyrronium-specific preclinical or clinical data on GI motility/visceral sensitivity relevant to IBS
+- The TGA Product Information, to confirm the approved indication, warnings and contraindications
+- Detailed mechanism of action data
+- A systematic literature and trial search for glycopyrronium in IBS, and for the other predictions with stronger rationale (neurogenic bladder, using a current ontology term)
+- Separate evaluation of specific autonomic conditions (hyperhidrosis, drooling) rather than the broad "autonomic nervous system disease" term
+- An assessment of route and formulation compatibility, as only an inhaled product is currently registered in Australia
+- A safety plan covering anticholinergic burden, interactions and ocular risk
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

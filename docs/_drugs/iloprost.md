@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Iloprost
-parent: High Evidence (L1-L2)
-nav_order: 343
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 368
+evidence_level: L5
 indication_count: 10
 ---
 
 # Iloprost
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,108 +29,91 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Iloprost: From Established Pulmonary Arterial Hypertension Use to PAH Associated with Congenital Heart Disease
-
-*Note on candidate selection: This evidence pack (`TW-DB01088-multi`) scored 10 candidate indications. The two highest-scoring predictions (hypotrichosis simplex of the scalp; congenital hypotrichosis milia) are explicitly flagged in the pack's own rationale as likely knowledge-graph noise (zero trials, zero literature, no mechanistic plausibility). This report instead focuses on the highest-scoring **clinically plausible** candidate — PAH associated with congenital heart disease — and summarises four related PAH-subtype predictions below it. Diseases judged as noise are listed at the end for completeness.*
-
----
+# Iloprost: From Pulmonary Arterial Hypertension to Pulmonary Arterial Hypertension Associated with Congenital Heart Disease
 
 ## One-Sentence Summary
 
-Iloprost is a prostacyclin (PGI2) analogue; a formal record of its original approved indication is not available in this evidence pack, but its established pharmacological role — described consistently throughout the evidence — is pulmonary vasodilation in pulmonary arterial hypertension (PAH). The TxGNN model predicts efficacy in **PAH associated with congenital heart disease**, a recognised PAH subtype, with **1 clinical trial** and **20 publications** currently identified. Four related PAH-subtype predictions (connective tissue disease, HIV infection, schistosomiasis, chronic haemolytic anaemia) carry similar or lower evidence support.
-
----
+Iloprost is a stable prostacyclin analogue, originally used to treat pulmonary arterial hypertension (PAH). The TxGNN model's top-ranked prediction is **hypotrichosis simplex of the scalp**, but this has no supporting studies. The best-supported prediction is **PAH associated with congenital heart disease**, backed by **19 publications** (no registered clinical trials), most of them observational studies, reviews and case reports.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally recorded in this evidence pack (data gap); established use elsewhere is pulmonary arterial hypertension, per rationale notes across multiple predicted indications |
-| Predicted New Indication | Pulmonary arterial hypertension associated with congenital heart disease |
-| TxGNN Prediction Score | 99.32% |
-| Evidence Level | L2 |
-| Australia Market Status | Not currently marketed (Not marketed) |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Pulmonary arterial hypertension (the Australian licence text for the ARTG entry is blank, so this is taken from the knowledge-graph indication) |
+| Predicted New Indication | Top-ranked by TxGNN: hypotrichosis simplex of the scalp (99.45%, Hold). Best-supported: PAH associated with congenital heart disease (99.32%), evaluated in detail below |
+| TxGNN Prediction Score | 99.45% (top-ranked); 99.32% (PAH-CHD) |
+| Evidence Level | L5 (hypotrichosis simplex of the scalp); L3 (PAH-CHD) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold (top-ranked prediction); Proceed with Guardrails as a research question for PAH-CHD |
 
----
+**Note on the top-ranked prediction:** No clinical trials or literature support hypotrichosis simplex of the scalp. The direction of effect is also uncertain, because prostaglandin F2α analogues promote hair growth whereas PGD2 inhibits it. The report therefore focuses on the best-supported prediction, PAH-CHD, and summarises the other candidates below.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is marked as a data gap in the structured drug record. However, the evidence pack's repurposing rationale consistently describes Iloprost as a **prostacyclin (PGI2) analogue** that activates the IP receptor, producing pulmonary vasodilation and inhibiting platelet aggregation — the standard mechanistic basis for PAH (WHO Group 1) therapy.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, iloprost is a stable prostacyclin (IP receptor) agonist. It causes pulmonary vasodilation, inhibits platelet aggregation and limits smooth muscle proliferation.
 
-PAH associated with congenital heart disease (including Eisenmenger physiology) is classified as a clinical subtype within the same WHO Group 1 PAH family as idiopathic PAH. The rationale explicitly frames this as **an extension within an existing indication class rather than a novel mechanistic hypothesis** — the underlying pulmonary vascular pathology (vasoconstriction, remodelling, elevated pulmonary vascular resistance) is shared across subtypes, which is why prostacyclin analogues are used across the WHO Group 1 spectrum in practice.
+PAH associated with congenital heart disease (including Eisenmenger syndrome) shares the pulmonary vasculopathy of other PAH groups. The prediction is largely an extension within the already approved disease family, using the same mechanism. This makes it far more plausible than the hair-related predictions, which rest on knowledge-graph associations alone.
 
-This mechanistic continuity also explains why several other WHO Group 1 subtypes appear as related high-scoring predictions in this pack (connective tissue disease-associated, HIV-associated, schistosomiasis-associated, and chronic haemolytic anaemia-associated PAH) — they are pathophysiological variants of the same disease category rather than unrelated indications.
+**Summary of other predictions:**
 
----
+| Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|
+| PAH associated with connective tissue disease | 99.21% | L3 | Supported by cohort studies and reviews, including long-term intravenous iloprost data. Iloprost is also used in systemic sclerosis vasculopathy |
+| PAH associated with HIV infection | 99.21% | L4 | Mechanistically plausible, but only reviews and general prostanoid data are available |
+| PAH associated with schistosomiasis | 99.21% | L4 | Indirect evidence only (a paediatric PH study) |
+| PAH associated with chronic hemolytic anemia | 99.21% | L5 | No studies. Distinct pathophysiology makes extrapolation uncertain |
+| Pulmonary arteriovenous malformation | 99.31% | L5 | Not mechanistically sensible, because vasodilation may worsen shunting and hypoxaemia |
+| Hypotrichosis simplex of the scalp, congenital hypotrichosis milia, diffuse alopecia areata, alopecia | 98.4–99.5% | L5 | No studies. Likely reflects a hair-loss cluster in the knowledge graph |
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01383083](https://clinicaltrials.gov/study/NCT01383083) | N/A | Unknown | 42 | Assessed safety, tolerability, and haemodynamic effects of Iloprost in adults with PAH related to congenital heart disease (Eisenmenger physiology); addresses a rare, complex population with limited prior treatment evidence. |
-
-No ANZCTR-registered trials were identified for this indication.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+Selected publications for PAH associated with congenital heart disease:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28608969](https://pubmed.ncbi.nlm.nih.gov/28608969/) | 2017 | Cohort/Biomarker study | Clin Exp Pharmacol Physiol | Investigated endothelial biomarkers (NO, ET-1, ADMA, Gal-3, BNP, UA) in CHD-PAH and the effect of Iloprost on their regulation. |
-| [29426959](https://pubmed.ncbi.nlm.nih.gov/29426959/) | 2018 | Interventional acute-response study (paediatric) | Pediatr Cardiol | Evaluated safety and acute haemodynamic effects of inhaled Iloprost during cardiac catheterisation in children with PAH-CHD. |
-| [27053694](https://pubmed.ncbi.nlm.nih.gov/27053694/) | 2016 | Cohort / expert consensus | Heart | European consensus on haemodynamic assessment and acute pulmonary vasoreactivity testing in paediatric pulmonary vascular disease, including CHD-associated PAH. |
-| [19436672](https://pubmed.ncbi.nlm.nih.gov/19436672/) | 2009 | Review | Vasc Health Risk Manag | Reviews inhaled Iloprost use for pulmonary artery hypertension control in children, including CHD-associated cases. |
-| [16919006](https://pubmed.ncbi.nlm.nih.gov/16919006/) | 2006 | Review | Eur J Clin Invest | Overview of treatment options in paediatric PAH, noting congenital heart disease as a leading cause. |
-| [25316472](https://pubmed.ncbi.nlm.nih.gov/25316472/) | 2014 | Case report | Saudi Med J | Complete resolution of chronic pericardial effusion with intensive inhaled Iloprost in an adult with unrepaired VSD and severe PAH. |
-| [15929625](https://pubmed.ncbi.nlm.nih.gov/15929625/) | 2005 | Review | Rev Port Cardiol | Discusses new PAH drug classes, including prostacyclin analogues, applied to Eisenmenger syndrome and other CHD-related PAH. |
-| [30719004](https://pubmed.ncbi.nlm.nih.gov/30719004/) | 2018 | Prospective cohort (cardiac MRI) | Front Pharmacol | Acute inhaled Iloprost improved right ventricular function in PAH patients on cardiac magnetic resonance imaging. |
-| [24729548](https://pubmed.ncbi.nlm.nih.gov/24729548/) | 2015 | Retrospective study | Pediatr Pulmonol | Long-term effects of inhaled Iloprost analysed in children with pulmonary hypertension, a population overlapping with CHD-PAH. |
-| [21852894](https://pubmed.ncbi.nlm.nih.gov/21852894/) | 2009 | Review | Prog Pediatr Cardiol | Discusses paediatric PAH aetiologies beyond congenital heart disease, providing differential context for CHD-PAH management. |
+| [31371115](https://pubmed.ncbi.nlm.nih.gov/31371115/) | 2020 | Placebo-controlled, double-blind randomised cross-over pilot study | Int J Cardiol | Nebulised iloprost in Eisenmenger syndrome, addressing limited safety and efficacy data in this group |
+| [29426959](https://pubmed.ncbi.nlm.nih.gov/29426959/) | 2018 | Cohort | Pediatr Cardiol | Safety and acute haemodynamic effects of inhaled iloprost in children with PAH-CHD |
+| [28608969](https://pubmed.ncbi.nlm.nih.gov/28608969/) | 2017 | Cohort | Clin Exp Pharmacol Physiol | Effect of iloprost on endothelial-dysfunction biomarkers in CHD-PAH |
+| [27492657](https://pubmed.ncbi.nlm.nih.gov/27492657/) | 2017 | Cohort | J Cardiol | Effect of long-term inhaled iloprost on right ventricular function in Eisenmenger syndrome |
+| [24729548](https://pubmed.ncbi.nlm.nih.gov/24729548/) | 2015 | Cohort | Pediatr Pulmonol | Long-term effects of inhaled iloprost in children with pulmonary hypertension |
+| [36010107](https://pubmed.ncbi.nlm.nih.gov/36010107/) | 2022 | Case series | Children (Basel) | Add-on sildenafil, bosentan and iloprost in 5 Eisenmenger syndrome patients followed 2010–2019 |
+| [19436672](https://pubmed.ncbi.nlm.nih.gov/19436672/) | 2009 | Review | Vasc Health Risk Manag | Review of inhaled iloprost for paediatric pulmonary hypertension |
+| [22621693](https://pubmed.ncbi.nlm.nih.gov/22621693/) | 2012 | Review | Drugs | Treatment of PAH in connective tissue disease, including congenital heart disease as a related group |
 
----
+For PAH associated with connective tissue disease, the more relevant publications include [27651181](https://pubmed.ncbi.nlm.nih.gov/27651181/) (2017, Respirology, cohort: long-term outcomes of domiciliary intravenous iloprost in idiopathic and CTD-associated PAH) and [25261325](https://pubmed.ncbi.nlm.nih.gov/25261325/) (2015, Eur Respir J, preclinical: iloprost reversed established right ventricular fibrosis in rats).
 
 ## Australia Market Information
 
-Iloprost has **no ARTG-registered products in Australia** (0 entries on record; market status: not currently marketed).
-
----
-
-## Additional Related Predictions (Same PAH Family)
-
-The following WHO Group 1 PAH subtypes were also predicted with similar TxGNN scores and share the same mechanistic rationale as the lead candidate above:
-
-| Disease | TxGNN Score | Evidence Level | Recommendation | Evidence Summary |
-|---|---|---|---|---|
-| PAH associated with connective tissue disease | 99.21% | L3 | Proceed with Guardrails | 0 trials; 20 publications (mostly reviews/cohorts), including long-term IV Iloprost outcomes data |
-| PAH associated with HIV infection | 99.21% | L2 | Proceed with Guardrails | 1 completed Phase 3 trial ([NCT00709956](https://clinicaltrials.gov/study/NCT00709956), PROWESS-15, n=64; HIV-PAH was a sub-population, not the sole enrolment criterion); 4 publications |
-| Pulmonary arteriovenous malformation | 99.31% | L4 | Research Question | 0 trials; 1 publication; structural (not vasoconstrictive) pathology — mechanistic link is weak |
-| PAH associated with schistosomiasis | 99.21% | L4 | Research Question | 0 trials; 1 publication (not schistosomiasis-specific) |
-
-**Excluded as likely model noise (no supporting evidence, Hold recommendation):** hypotrichosis simplex of the scalp, congenital hypotrichosis milia, PAH associated with chronic haemolytic anaemia, diffuse alopecia areata, alopecia.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 5751Q | Ventavis | Solution for inhalation 20 micrograms (as trometamol) in 2 mL | Not recorded in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Contraindication-related conditions (knowledge-graph associations, not label text):** liver failure, chronic obstructive pulmonary disease (including severe early-onset), hypotensive disorders, pulmonary oedema and bronchial disease.
+- **Drug Interactions:** 100 interactions were identified. Those graded Moderate include epinephrine, acetylsalicylic acid (aspirin), SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin), inhaled human insulin, mannitol, ephedrine, fenfluramine, dexfenfluramine, glycerin, papaverine and sibutramine. Interactions with calcitriol, pantoprazole, morphine, metformin and omeprazole have an unknown severity grade.
 
----
+Please refer to the TGA-approved Product Information (PI) for the full warnings and contraindications, as label-based safety data were not available.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold for the top-ranked prediction (hypotrichosis simplex of the scalp); Proceed with Guardrails as a research question for PAH associated with congenital heart disease**
 
 **Rationale:**
-Iloprost's prostacyclin mechanism is well established for PAH broadly, and PAH-CHD is a recognised subtype rather than a novel indication hypothesis — but the sole disease-specific trial identified has unknown status and unspecified phase, and Iloprost is not currently registered in Australia, so clinical use here would be off-label/unregistered pending further evaluation.
+- The top-ranked hair-related predictions have no trials or literature and an uncertain direction of effect, so they should not be progressed.
+- PAH-CHD and CTD-PAH are mechanistically coherent extensions of the approved indication, supported by observational data (L3). There is no phase 3 randomised evidence, so they remain research questions rather than ready-to-adopt indications.
 
 **To proceed, the following is needed:**
-- TGA/PI-equivalent safety, warnings, and contraindication data (currently a blocking data gap)
-- Formal mechanism-of-action and original-indication documentation for the drug record
-- Confirmation of trial phase/status for NCT01383083, or identification of more definitive PAH-CHD trials
-- ARTG registration pathway assessment, given the drug is not currently marketed in Australia
+- Confirmation of the approved indication wording and PI-based warnings and contraindications from the TGA record (the ARTG indication text is blank in the compiled data)
+- Detailed mechanism of action data (for example from DrugBank)
+- Review of whether the current Australian PAH indication already covers PAH-CHD, to determine whether this is a true new indication
+- Controlled trial data for iloprost in PAH-CHD and Eisenmenger syndrome
+- A safety plan accounting for the contraindication-related conditions (hypotension, pulmonary oedema, COPD, liver failure) and for the interactions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Alemtuzumab
 parent: Model Prediction Only (L5)
-nav_order: 29
+nav_order: 31
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,99 +29,106 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alemtuzumab: From Chronic Lymphocytic Leukaemia to Hepatic Infarction
+# Alemtuzumab: From Relapsing-Remitting Multiple Sclerosis to Syndrome with Combined Immunodeficiency
 
 ## One-Sentence Summary
 
-Alemtuzumab (Campath/Lemtrada) is a humanised anti-CD52 monoclonal antibody approved internationally for B-cell chronic lymphocytic leukaemia (CLL) and relapsing-remitting multiple sclerosis, but it is not currently marketed in Australia.
-The TxGNN model assigns it the highest repurposing score for **Hepatic Infarction** (94.44%), however this indication is currently supported by **no clinical trials and no published literature** — suggesting the prediction may reflect a knowledge graph artefact rather than a genuine biological signal.
-For clinical context, the second-ranked prediction — **syndrome with combined immunodeficiency** — carries evidence level L2 with a "Proceed with Guardrails" recommendation, supported by 13 clinical trials and 12 publications.
+Alemtuzumab is an anti-CD52 monoclonal antibody, originally used to treat relapsing-remitting multiple sclerosis.
+Among the ten predictions compiled for this report, the best-supported is **syndrome with combined immunodeficiency**, where alemtuzumab is used as part of conditioning before stem cell transplantation, with **6 clinical trials** and **8 publications** currently supporting this direction.
+The top-ranked TxGNN prediction (hepatic infarction) has no supporting evidence, so this report focuses on the best-supported candidate.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | B-cell chronic lymphocytic leukaemia; relapsing-remitting multiple sclerosis (international approvals; not TGA-registered) |
-| Predicted New Indication | Hepatic Infarction |
-| TxGNN Prediction Score | 94.44% |
-| Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
+|------|------|
+| Original Indication | Relapsing-remitting multiple sclerosis (from the TxGNN knowledge graph; the ARTG indication text is not available) |
+| Predicted New Indication | Syndrome with combined immunodeficiency (rank 2 of 10; the best-supported prediction. The rank 1 prediction, hepatic infarction, has no evidence and is not pursued) |
+| TxGNN Prediction Score | 93.73% (rank 1, hepatic infarction: 94.44%) |
+| Evidence Level | L2 (Phase 2 and Phase 2/3 trials only, with no completed Phase 3 RCT; confounded by multi-drug regimens) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails (as a research question, not a clinical recommendation) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-No TGA-approved Product Information is available for Alemtuzumab in Australia due to the absence of ARTG registration. Based on published international data, Alemtuzumab is a humanised IgG1κ monoclonal antibody targeting CD52 — a glycoprotein expressed at high density on mature B and T lymphocytes, NK cells, monocytes, and macrophages. Binding to CD52 activates complement-dependent cytotoxicity (CDC) and antibody-dependent cell-mediated cytotoxicity (ADCC), resulting in rapid, profound, and prolonged lymphodepletion. This mechanism underpins its efficacy in B-cell CLL and its role as an immunosuppressive conditioning agent in haematopoietic stem cell transplantation (HSCT).
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, alemtuzumab is an anti-CD52 antibody that depletes lymphocytes. In multiple sclerosis, this lymphocyte depletion is the basis for its disease-modifying effect.
 
-The predicted indication of hepatic infarction presents a mechanistically weak link. Hepatic infarction is primarily a vascular condition caused by arterial embolism, critical hepatic hypoperfusion, or thrombosis of the hepatic artery — rather than an immune-mediated process. While Alemtuzumab's profound lymphodepletion could theoretically dampen any immune-mediated component of vascular endothelial inflammation, the drug has no direct anticoagulant, thrombolytic, or vasodilatory properties. The conditions are pathophysiologically dissimilar.
+In primary immunodeficiencies, alemtuzumab is not a disease-modifying therapy. It is used as a lymphodepleting and serotherapy component of reduced-intensity conditioning before allogeneic haematopoietic stem cell transplantation (HSCT). It promotes engraftment and reduces graft rejection and graft-versus-host disease (GVHD). The shared link with multiple sclerosis is therefore lymphocyte depletion, applied here to enable a curative transplant.
 
-The high TxGNN score for this indication most likely reflects non-specific connectivity through "liver pathology" nodes in the underlying knowledge graph, rather than a validated mechanistic relationship. This type of prediction artefact is a recognised limitation of graph neural network models when applied to rare or predominantly vascular conditions with limited linked training data. Without any supporting clinical or preclinical evidence, this prediction requires substantial mechanistic validation before any further development steps can be considered.
+The evidence is supportive but confounded. Alemtuzumab is almost always given alongside other agents (for example fludarabine, melphalan, treosulfan or busulfan), so its individual contribution cannot be isolated. Cohorts are also small and heterogeneous.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01182675](https://clinicaltrials.gov/study/NCT01182675) | Phase 2 | Terminated | 7 | HSCT in children with SCID using alemtuzumab plus plerixafor and filgrastim, avoiding toxic chemotherapy conditioning |
+| [NCT05463133](https://clinicaltrials.gov/study/NCT05463133) | Phase 1/2 | Recruiting | 50 | Allogeneic HSCT for chronic granulomatous disease with an alemtuzumab, busulfan and TBI-based conditioning regimen plus cytokine antagonists |
+| [NCT00152100](https://clinicaltrials.gov/study/NCT00152100) | Phase 1 | Completed | 4 | Haploidentical CD133+ cell transplant in children with SCID; alemtuzumab contribution unclear |
+| [NCT00579137](https://clinicaltrials.gov/study/NCT00579137) | Phase 1/2 | Terminated | 3 | CD45 antibody plus alemtuzumab conditioning for HSCT in SCID and other primary immunodeficiencies; directly relevant but very small |
+| [NCT01019876](https://clinicaltrials.gov/study/NCT01019876) | Phase 2/3 | Completed | 38 | Risk-adapted reduced-intensity transplant for mixed donor chimerism in non-malignant diseases, including immunodeficiencies |
+| [NCT01962415](https://clinicaltrials.gov/study/NCT01962415) | Phase 2 | Recruiting | 100 | Reduced-intensity conditioning for HSCT in paediatric and young adult patients with non-malignant disorders |
+| [NCT01652092](https://clinicaltrials.gov/study/NCT01652092) | N/A | Active, not recruiting | 57 | Standard-of-care allogeneic HSCT guideline for primary immune deficiencies |
+
+No ANZCTR trial identifiers are available in the data compiled for this report.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [27543157](https://pubmed.ncbi.nlm.nih.gov/27543157/) | 2016 | Cohort | Biol Blood Marrow Transplant | Alemtuzumab, fludarabine and melphalan reduced-intensity conditioning (n=4) compared with myeloablative busulfan, cyclophosphamide and antithymocyte globulin (n=14) in chronic granulomatous disease |
+| [23131490](https://pubmed.ncbi.nlm.nih.gov/23131490/) | 2013 | Cohort | Blood | International survey of HCT in XIAP deficiency (19 patients); outcomes were poor, with most reduced-intensity regimens alemtuzumab-based |
+| [26073206](https://pubmed.ncbi.nlm.nih.gov/26073206/) | 2015 | Cohort | Pediatr Transplant | Single-centre HSCT experience in five patients with hyper-IgM syndrome due to CD40L defects |
+| [29155317](https://pubmed.ncbi.nlm.nih.gov/29155317/) | 2018 | Cohort | Biol Blood Marrow Transplant | UK experience of treosulfan and fludarabine conditioning in 160 children with primary immunodeficiency |
+| [21325599](https://pubmed.ncbi.nlm.nih.gov/21325599/) | 2011 | Cohort | Blood | Treosulfan-based conditioning in 70 children with primary immunodeficiency, with alemtuzumab included in the regimen |
+| [19471859](https://pubmed.ncbi.nlm.nih.gov/19471859/) | 2009 | Case report | Immunol Res | FOXP3 expression after reduced-intensity BMT in an infant with IPEX syndrome |
+| [18502831](https://pubmed.ncbi.nlm.nih.gov/18502831/) | 2008 | Case report | Blood | EBV-positive immunodeficiency lymphoma after alemtuzumab-CHOP for peripheral T-cell lymphoma (a safety signal) |
+| [15590388](https://pubmed.ncbi.nlm.nih.gov/15590388/) | 2004 | Review | Haematologica | Infectious toxicity associated with alemtuzumab |
+
+Most of these publications are cohort studies and case reports. The data compiled for this report contain no RCTs.
 
 ---
 
 ## Australia Market Information
 
-Alemtuzumab is not currently registered on the Australian Register of Therapeutic Goods (ARTG). No active ARTG entries exist for this drug. Alemtuzumab was previously marketed in Australia as **Lemtrada** (for relapsing-remitting MS) but has since been withdrawn from the Australian market. Healthcare professionals seeking to access this drug for clinical use should consult the TGA regarding the Special Access Scheme (SAS) or Authorised Prescriber pathways.
-
----
-
-## Cytotoxicity
-
-Alemtuzumab meets cytotoxicity section criteria — it is approved internationally for B-cell CLL (a haematological malignancy) and exerts direct cytotoxic effects on lymphoid cells via CDC and ADCC.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — anti-CD52 humanised monoclonal antibody (not a conventional cytotoxic agent) |
-| Myelosuppression Risk | High — profound and prolonged lymphodepletion affecting B cells, T cells, and NK cells; neutropenia and thrombocytopenia reported in clinical studies; immune reconstitution may take months to years |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Full blood count (FBC) with differential; lymphocyte subsets (particularly CD4+ T-cell counts); renal function; liver function tests; viral reactivation surveillance (CMV, EBV); thyroid function (autoimmune thyroid disease is a known delayed adverse effect in MS use) |
-| Handling Protection | Follow institutional monoclonal antibody and biological therapy handling protocols; cytotoxic handling precautions should be applied in accordance with institutional policy and state/territory health regulations |
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10228H | Lemtrada | Solution concentrate for I.V. infusion, 12 mg in 1.2 mL | Not available in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the international Product Information (PI) — available from the EMA (Lemtrada) or FDA (Campath) — for comprehensive safety information, including black box warnings related to serious autoimmune conditions, infusion reactions, and malignancy risk. No TGA-specific safety data is available due to the absence of current Australian registration.
+- **Drug Interactions**: The interaction screen returned 100 interacting drugs. Examples include:
+  - **Major**: deferiprone and samarium (153Sm) lexidronam.
+  - **Moderate**: systemic corticosteroids (hydrocortisone, betamethasone, budesonide, dexamethasone, prednisolone, prednisone, triamcinolone), acetylsalicylic acid, anticoagulants (heparin, argatroban, lepirudin), radiopharmaceuticals (ibritumomab tiuxetan, tositumomab, iobenguane I-131, strontium-89) and palifermin.
+- **Infection and lymphoproliferative risk**: The literature compiled for this report describes infectious toxicity with alemtuzumab (PMID 15590388) and an EBV-positive lymphoproliferative disorder after alemtuzumab-containing therapy (PMID 18502831). In transplant settings, hepatic veno-occlusive disease has been reported with alemtuzumab-containing conditioning (PMIDs 22280517 and 20919852). These are reports from combination regimens, so causality cannot be attributed to alemtuzumab alone.
+
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications, as these were not available in the data compiled for this report.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails** (as a research question only)
 
 **Rationale:**
-The TxGNN model assigns the highest prediction score to hepatic infarction, but the mechanistic link is biologically implausible — hepatic infarction is a vascular condition driven by arterial occlusion or hypoperfusion, and Alemtuzumab's mechanism (CD52-directed lymphodepletion) has no established relevance to this pathophysiology. The complete absence of clinical trial or published literature evidence confirms an L5 classification, and no development pathway can be recommended at this time.
+- Alemtuzumab has a plausible, established role as a lymphodepleting conditioning agent in HSCT for primary immunodeficiencies. The evidence is limited to small Phase 1/2 trials (several terminated with 3 to 7 patients) and cohort studies, in which its effect cannot be separated from other agents. The evidence level is L2.
+- The other nine predictions are not recommended for progression: the top-ranked prediction (hepatic infarction) and the urothelial carcinoma and liver vascular predictions have no supporting evidence or plausible mechanism. Hepatic veno-occlusive disease is a transplant complication rather than a treatable indication. Infection-associated haemophagocytic syndrome (L4, case reports only) is a possible secondary research question, with safety concerns. The malignancy-associated HLH subtype (L5) is mechanistically plausible but has no retrieved evidence.
 
-**To proceed with this indication, the following would be needed:**
-- Preclinical mechanistic studies investigating whether CD52-mediated lymphodepletion influences hepatic vascular or endothelial pathology
-- Knowledge graph audit to determine whether the high TxGNN score reflects a genuine biological signal or a non-specific connectivity artefact
-- Detailed MOA documentation from DrugBank and current international PI to support any hypothesis generation
-
----
-
-> **Higher-Priority Repurposing Candidate — Separate Evaluation Recommended**
->
-> The second-ranked TxGNN prediction, **syndrome with combined immunodeficiency** (score: 93.73%, evidence level: **L2**), is supported by 13 clinical trials — including a completed Phase 2/3 study (NCT01019876) and two active Phase 2 recruiting trials (NCT01962415, NCT07284641) — and 12 published studies. Alemtuzumab's mechanism as a lymphodepleting conditioning agent for HSCT is directly relevant to this indication, and the recommendation is **"Proceed with Guardrails."** A dedicated evaluation report for this candidate is strongly advised.
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical or prescribing advice. All repurposing candidates require clinical validation before any therapeutic application.*
+**To proceed, the following is needed:**
+- Mechanism of action data to complete the mechanistic-link analysis
+- The TGA-approved Product Information (PI) warnings and contraindications, and the approved indication text for the ARTG entry. These are needed before any safety screening can proceed.
+- Review of the larger ongoing trials (NCT01962415 and NCT05463133) for alemtuzumab-specific outcomes
+- Comparative data separating the contribution of alemtuzumab from that of other conditioning agents
+- Confirmation of relevance to the Australian setting (HSCT centre capacity and regulatory pathway), noting that the ARTG-listed product is a Lemtrada formulation, which is not an HSCT-specific presentation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

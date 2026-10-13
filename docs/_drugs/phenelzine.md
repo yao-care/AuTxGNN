@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Phenelzine
-parent: High Evidence (L1-L2)
-nav_order: 530
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 565
+evidence_level: L3
 indication_count: 10
 ---
 
 # Phenelzine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,84 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Phenelzine: From Depression/Anxiety Disorders (MAOI Antidepressant) to Agoraphobia
+# Phenelzine: From Anxiety Disorder to Agoraphobia
 
 ## One-Sentence Summary
 
-Phenelzine is a classic non-selective, irreversible monoamine oxidase inhibitor (MAOI) historically used for depression and anxiety-spectrum disorders. The TxGNN model predicts it may be effective for **Agoraphobia**, with **0 registered clinical trials** but **20 supporting publications** — predominantly older double-blind trials and reviews from the 1970s–1990s.
-
----
+Phenelzine is an irreversible monoamine oxidase inhibitor (MAOI) originally used for anxiety disorder, neurotic disorder and dysthymic disorder.
+The TxGNN model predicts it may be effective for **Agoraphobia**,
+with **no registered clinical trials** but **20 publications** (mostly older clinical studies and reviews) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally documented (no ARTG-approved indication text on file); internationally used as a classic MAOI antidepressant for depression and anxiety disorders |
+| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (from the knowledge graph; no approved indication text is available for the Australian listing) |
 | Predicted New Indication | Agoraphobia |
 | TxGNN Prediction Score | 94.00% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L3 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action documentation is not formally available in this evidence pack (flagged as a data gap). However, information embedded in the supporting evidence indicates phenelzine is a classic non-selective, irreversible MAOI that blocks MAO-A/MAO-B, raising synaptic concentrations of serotonin, noradrenaline and dopamine. This monoamine-enhancing action is the long-established pharmacological basis for phenelzine's use in depression and anxiety-spectrum disorders.
+Phenelzine is an irreversible, non-selective MAO inhibitor. By blocking the breakdown of serotonin, norepinephrine and dopamine, it raises their availability at the synapse, and it also increases GABA through a metabolite. This profile fits its established anxiolytic and antiphobic effects. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description draws on the literature.
 
-Agoraphobia commonly co-occurs with panic disorder, and 1970s–1990s psychiatric literature repeatedly studied panic disorder with agoraphobia as part of the same monoamine-related anxiety spectrum that phenelzine was already being used to treat. This makes the TxGNN-predicted extension to agoraphobia mechanistically coherent rather than a novel biological hypothesis.
-
-That said, the supporting evidence is dated — no publication is newer than the mid-1990s, and no clinical trial or ICTRP registration currently exists for phenelzine in agoraphobia. The mechanistic rationale is sound, but the evidence base needs a modern update before clinical confidence can be raised further.
-
----
+Agoraphobia is closely related to phenelzine's original indications (anxiety and neurotic disorders). Several older publications describe phenelzine as an effective agent for panic disorder and agoraphobia, alongside tricyclic antidepressants and benzodiazepines. The mechanistic link is therefore strong. Note that this evidence is dated (1975–1996) and does not reflect current first-line practice, where SSRIs are generally preferred.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6112024](https://pubmed.ncbi.nlm.nih.gov/6112024/) | 1981 | RCT | Biological Psychiatry | Double-blind RCT (n=40): phenelzine ± exposure therapy vs placebo in agoraphobic/socially phobic patients; phobia ratings decreased significantly over 8 weeks |
-| [338081](https://pubmed.ncbi.nlm.nih.gov/338081/) | 1977 | RCT | Br J Psychiatry | Double-blind trial of phenelzine vs diazepam vs placebo in neurotic/phobic patients; phenelzine superior to placebo on three rating scales |
-| [3542985](https://pubmed.ncbi.nlm.nih.gov/3542985/) | 1987 | Clinical trial | J Clin Psychiatry | 6-month treatment of 35 outpatients with panic disorder/agoraphobia; evaluated therapeutic response and predictors of efficacy |
-| [2859580](https://pubmed.ncbi.nlm.nih.gov/2859580/) | 1985 | Review/Comparative | Psychiatric Clinics of North America | Reviews efficacy evidence for MAOIs and alprazolam in panic disorder and agoraphobia; provides clinical implementation guidance |
-| [241454](https://pubmed.ncbi.nlm.nih.gov/241454/) | 1975 | Follow-up cohort | Br J Psychiatry | 1-year follow-up of 26 agoraphobia/social phobia patients from a double-blind phenelzine-vs-placebo trial |
-| [6347516](https://pubmed.ncbi.nlm.nih.gov/6347516/) | 1983 | Review | Comprehensive Psychiatry | Reviews antidepressants, including phenelzine, in the treatment of agoraphobia and OCD |
-| [8575719](https://pubmed.ncbi.nlm.nih.gov/8575719/) | 1995 | Review | Fortschritte der Neurologie-Psychiatrie | Survey of controlled studies confirming efficacy of TCAs, benzodiazepines, SSRIs and the MAOI phenelzine in panic disorder/agoraphobia |
-| [3314359](https://pubmed.ncbi.nlm.nih.gov/3314359/) | 1987 | Review | Acta Psychiatrica Scandinavica Suppl | Reviews efficacy of TCAs and MAOIs in panic syndromes (panic disorder and agoraphobia) and OCD |
-| [665471](https://pubmed.ncbi.nlm.nih.gov/665471/) | 1978 | Review | American Family Physician | Reviews MAOI antidepressants; identifies phenelzine as an excellent agent for neurotic depression, agoraphobia and social phobias |
-| [702127](https://pubmed.ncbi.nlm.nih.gov/702127/) | 1978 | Review | J Nervous and Mental Disease | Reviews newer treatment approaches for agoraphobia; identifies MAOIs (phenelzine) and TCAs as pharmacologically effective |
-
----
+| [6112024](https://pubmed.ncbi.nlm.nih.gov/6112024/) | 1981 | Double-blind clinical trial | Biol Psychiatry | 40 agoraphobic and social phobic patients randomised to phenelzine or placebo, with or without exposure; phobia ratings fell significantly |
+| [338081](https://pubmed.ncbi.nlm.nih.gov/338081/) | 1977 | Double-blind clinical trial | Br J Psychiatry | Phenelzine superior to placebo on three rating scales in some groups with anxiety, depressive and phobic neuroses |
+| [3542985](https://pubmed.ncbi.nlm.nih.gov/3542985/) | 1987 | Open study | J Clin Psychiatry | 35 outpatients with panic disorder or agoraphobia with panic attacks followed for 6 months on phenelzine |
+| [241454](https://pubmed.ncbi.nlm.nih.gov/241454/) | 1975 | Cohort follow-up | Br J Psychiatry | One-year follow-up of 26 of 28 patients originally treated with phenelzine or placebo for agoraphobia and social phobia |
+| [8575719](https://pubmed.ncbi.nlm.nih.gov/8575719/) | 1995 | Review | Fortschr Neurol Psychiatr | Controlled studies show phenelzine, TCAs, benzodiazepines and SSRIs effective for panic disorder and agoraphobia |
+| [7457310](https://pubmed.ncbi.nlm.nih.gov/7457310/) | 1981 | Review | Am Fam Physician | Imipramine and phenelzine described as drugs of choice with a specific antipanic effect |
+| [702127](https://pubmed.ncbi.nlm.nih.gov/702127/) | 1978 | Review | J Nerv Ment Dis | Phenelzine and tricyclics listed among pharmacological agents of demonstrated value for agoraphobia |
+| [3314359](https://pubmed.ncbi.nlm.nih.gov/3314359/) | 1987 | Review | Acta Psychiatr Scand Suppl | Reviews TCAs and MAOIs for panic syndromes and obsessive-compulsive disorder |
+| [2399827](https://pubmed.ncbi.nlm.nih.gov/2399827/) | 1990 | Case report | Acta Psychiatr Scand | Adding phenelzine to clomipramine resolved agoraphobic avoidance after panic attacks had already been eliminated |
+| [2687338](https://pubmed.ncbi.nlm.nih.gov/2687338/) | 1989 | Open study | J Clin Psychopharmacol | In 16 panic disorder patients, phenelzine had no significant effect on vitamin B6 levels |
 
 ## Australia Market Information
 
-Phenelzine is currently **not marketed** in Australia — there are no ARTG entries on file for this evidence pack.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13148B | Nardil (Canada) | Tablet 15 mg (as sulfate) s19A | Not stated in the data compiled for this report |
 
----
+The single listing is a Section 19A (imported) product.
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. A Blocking data gap (DG001) has been identified: no TFDA/TGA label warnings, contraindications, or DDI data could be retrieved, so a formal safety pre-assessment (S1) cannot yet proceed.
+- **Contraindications flagged in the knowledge graph (not label text):** hypertension and other cardiovascular disease (including coronary artery disease, heart conduction disease and sudden cardiac arrest), orthostatic hypotension, phaeochromocytoma and paraganglioma, hyperthyroidism, epilepsy, liver disease, kidney disease, diabetes and diabetic ketoacidosis, bipolar disorder, and substance abuse/dependence. These should be checked against the Product Information.
+- **Drug interactions:** 100 interactions were identified. Examples rated **Major** include bupropion, morphine, lorcaserin, phentermine, diethylpropion, isometheptene, dolasetron and palonosetron. Examples rated **Moderate** include epinephrine, glimepiride, repaglinide, chlorpropamide, insulin aspart and dronabinol. Examples rated **Minor** include atropine, hyoscyamine and dicyclomine. Serotonin syndrome has been reported with SSRI co-administration (for example sertraline).
+- **Other reported effects (literature):** reduced plasma vitamin B6, weight gain, orgasmic inhibition, and a rare case of leukopenia.
 
----
+Please also refer to the TGA-approved Product Information (PI) for full warnings, contraindications and dietary restrictions.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple historical double-blind trials and reviews (1970s–1990s) support phenelzine's efficacy in panic disorder with agoraphobia, giving Evidence Level L2. However, the drug is not currently marketed in Australia, no modern trials exist, and safety/label data cannot yet be assessed.
+Agoraphobia is closely related to phenelzine's original indications, and double-blind studies and reviews support an antiphobic and antipanic effect. However, the evidence is old, there are no registered trials, and the interaction and dietary burden of an irreversible MAOI is substantial, so it should be considered only after first-line options.
 
 **To proceed, the following is needed:**
-- TFDA/TGA-approved Product Information — label warnings and contraindications (Blocking gap DG001)
-- Confirmed mechanism-of-action documentation from DrugBank (High-priority gap DG002)
-- A modern RCT or real-world evidence update, since current literature is over 30 years old
-- Formal DDI profile completion (query previously returned no results)
-- Route/dosage form and supply-pathway confirmation, given zero current ARTG entries
+- Product Information warnings and contraindications for the Australian Section 19A product (currently missing)
+- Detailed mechanism-of-action data
+- Confirmation of the approved indication text for the ARTG entry
+- Comparison with current guideline-recommended therapies, and a prescribing protocol covering dietary restrictions, interaction screening and specialist oversight
+- Prospective or contemporary trial data, ideally including Australian and New Zealand registry (ANZCTR) entries
+
+---
+
+*Other predictions in the data (lower priority):* Neurotic depression (score 92.5%, L2) and obsessive-compulsive disorder (86.7%, L2) have controlled-trial literature, though neurotic depression is essentially an on-label use and OCD results were mixed. Melancholia (92.3%, L3) has mainly general MAOI reviews. Benign paroxysmal torticollis of infancy, Keppen-Lubinsky syndrome, Ohdo syndrome, vitamin B12-responsive methylmalonic acidemia, autosomal dominant slowed nerve conduction velocity and congenital isolated ACTH deficiency are model predictions only (L5) with no mechanistic rationale, and are recommended as Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

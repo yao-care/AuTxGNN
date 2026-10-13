@@ -2,7 +2,7 @@
 layout: default
 title: Lapatinib
 parent: Model Prediction Only (L5)
-nav_order: 385
+nav_order: 414
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,90 +29,99 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lapatinib: A TxGNN-Predicted Signal for Dermatofibrosarcoma Protuberans
+# Lapatinib: From HER2-Positive Breast Carcinoma to Dermatofibrosarcoma Protuberans
 
 ## One-Sentence Summary
 
-Lapatinib's original approved indication is not recorded in this evidence pack (the drug currently has no ARTG entries in Australia). The TxGNN model's top-ranked prediction is **Dermatofibrosarcoma Protuberans (DFSP)**, but this signal is currently supported by **zero clinical trials** and **zero publications** — it reflects network-similarity scoring only.
-
----
+Lapatinib was originally used to treat HER2-positive breast carcinoma.
+The TxGNN model predicts it may be effective for **dermatofibrosarcoma protuberans (DFSP)**,
+but currently there are **no clinical trials** and **no publications** supporting this specific prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in this evidence pack (drug is not currently registered in Australia) |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans |
+| Original Indication | HER2-positive breast carcinoma (from the knowledge graph; the ARTG entry has no indication text) |
+| Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 99.30% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-The structured mechanism-of-action field for lapatinib is flagged as a data gap in this evidence pack. However, the rationale text attached to other candidates in this same pack (ranks 2 and 8) consistently references lapatinib's established mechanism as a **dual EGFR/HER2 tyrosine kinase inhibitor**, used clinically in HER2-positive breast cancer — this is corroborated evidence within the pack itself, even though it is not captured in the formal MOA field.
+Currently, detailed mechanism of action data is not available. Based on known information, lapatinib is a tyrosine kinase inhibitor that targets EGFR and HER2, and its efficacy in HER2-positive breast carcinoma is established. Whether this mechanism applies to DFSP is unproven.
 
-Dermatofibrosarcoma protuberans is a soft-tissue sarcoma driven almost exclusively by a **COL1A1-PDGFB gene fusion**, and its standard targeted therapy is imatinib, a PDGFR inhibitor. This is a distinct signalling pathway from EGFR/HER2. The evidence pack's own repurposing rationale for this candidate explicitly states there is **no known mechanistic relationship** between lapatinib's kinase-inhibition profile and DFSP's PDGFR-driven biology.
+DFSP is driven mainly by the COL1A1-PDGFB fusion and PDGFR signalling, which is not a canonical lapatinib target. Any link would be speculative and would rely on indirect crosstalk between receptor tyrosine kinase pathways. The high TxGNN score most likely reflects proximity in the knowledge graph, not demonstrated biology.
 
-Taken together, this candidate should be read as a TxGNN network-similarity artefact rather than a biologically grounded repurposing hypothesis at this stage. The score (99.30%) is high, but score magnitude alone does not substitute for mechanistic plausibility or empirical support — both of which are currently absent.
-
----
+Other predictions with some supporting literature were also reviewed (see "Other Predicted Indications" below), but the top-ranked prediction has no direct evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
-No ARTG entries are recorded for lapatinib in this evidence pack (total licenses: 0). The drug is not currently marketed in Australia under this dataset.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11251E | Tykerb | Tablet 250 mg (as ditosilate monohydrate) | Not stated in the data compiled for this report |
 
 ## Cytotoxicity
 
-Lapatinib is an antineoplastic agent (referenced in this evidence pack in the context of HER2-positive breast cancer treatment).
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (dual EGFR/HER2 tyrosine kinase inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (EGFR/HER2 tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Liver function, cardiac function (including QT interval), electrolytes, and respiratory symptoms; see the PI for details |
 | Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
-
----
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Knowledge-graph contraindication signals** (not label text): long QT syndrome, familial long QT syndrome, torsades de pointes, liver failure, potassium deficiency disease, interstitial lung disease, drug-induced liver injury, and heart failure.
+- **Drug Interactions**: 100 interactions were identified in total. Examples from the 20 reviewed:
+  - **Major**: loperamide, clarithromycin
+  - **Moderate**: acid-suppressing drugs (famotidine, ranitidine, cimetidine, omeprazole, rabeprazole, dexlansoprazole), corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), aprepitant, pioglitazone, saxagliptin, and several laxatives or bowel preparations (bisacodyl, picosulfuric acid, polyethylene glycol)
 
----
+Please refer to the TGA-approved Product Information (PI) for official warnings and contraindications.
+
+## Other Predicted Indications
+
+| Rank | Indication | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Fibroblastic neoplasm | 98.43% | L4 | One preclinical paper ([34239043](https://pubmed.ncbi.nlm.nih.gov/34239043/), Oncogene, 2021) describes a stromal axis driving lapatinib resistance in HER2-positive breast cancer. It does not show efficacy in fibroblastic tumours. |
+| 3, 4, 6, 7 | Conventional, kidney and heart fibrosarcoma; low grade fibromyxoid sarcoma | 98.2–98.4% | L5 | Prediction only; no data. |
+| 5, 9 | Cysticercosis; coenurosis | 97.5–98.3% | L5 | Prediction only; no biological rationale. |
+| 8 | *Plasmodium falciparum* malaria | 98.02% | L4 | Preclinical evidence only (see below). |
+| 10 | Lymphangiomyoma | 97.29% | L5 | Prediction only; no data. |
+
+**Malaria (rank 8)** is the only alternative with a plausible, distinct mechanism, and it is a research question rather than a clinical candidate:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [32235391](https://pubmed.ncbi.nlm.nih.gov/32235391/) | 2020 | Preclinical (in vitro) | Molecules | Lapatinib, nilotinib and lomitapide inhibited haemozoin (β-haematin) formation in malaria parasites. |
+| [42374402](https://pubmed.ncbi.nlm.nih.gov/42374402/) | 2026 | Systematic analysis | Malar J | Landscape analysis of the 51 most cited malaria drug repurposing studies. |
+| [29301082](https://pubmed.ncbi.nlm.nih.gov/29301082/) | 2018 | Preclinical | ACS Infect Dis | Optimisation of lapatinib-derived 4-anilinoquinolines against *P. falciparum*. |
+| [25685309](https://pubmed.ncbi.nlm.nih.gov/25685309/) | 2015 | Preclinical | MedChemComm | Kinase-inhibitor-derived thienopyrimidine scaffolds tested against trypanosomiasis, leishmaniasis and malaria parasites. |
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (DFSP) has no supporting clinical trials or literature, and the evidence pack itself identifies no plausible mechanistic link between lapatinib's EGFR/HER2 inhibition and DFSP's PDGFR-driven pathology. A high TxGNN score alone is insufficient to progress this candidate.
+The prediction for DFSP rests only on a model score (L5). There are no clinical trials or publications, and the disease driver (PDGFB/PDGFR) is not a recognised lapatinib target. Safety signals from the knowledge graph (QT prolongation, hepatotoxicity, heart failure, interstitial lung disease) and major drug interactions also call for caution.
 
 **To proceed, the following is needed:**
-- Confirmed original indication and formal MOA data for lapatinib (currently data gaps)
-- TGA/ARTG registration status verification
-- Preclinical or mechanistic studies specific to DFSP
-- Safety and drug-interaction data (currently unavailable)
-
-**Note:** Within this same evidence pack, rank 8 (*Plasmodium falciparum* malaria) carries stronger supporting evidence — L3, in-vitro data showing lapatinib inhibits haemozoin formation — and may warrant separate evaluation as a more mechanistically grounded signal.
+- Detailed mechanism of action data (MOA), for example from DrugBank
+- Preclinical data on lapatinib in DFSP models, ideally compared with PDGFR-directed agents
+- Parsed Product Information (PI) warnings and contraindications, which are required before safety screening
+- For the malaria direction, evidence that antimalarial concentrations are achievable at tolerable doses, together with a safety assessment
+- ARTG indication text to confirm the approved original indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

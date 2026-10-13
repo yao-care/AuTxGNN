@@ -2,7 +2,7 @@
 layout: default
 title: Diroximel Fumarate
 parent: Model Prediction Only (L5)
-nav_order: 202
+nav_order: 219
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,94 +29,73 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Diroximel Fumarate: From Relapsing Multiple Sclerosis to Diabetic Cataract
+# Diroximel Fumarate: From an Unspecified Original Indication to Diabetic Cataract
 
 ## One-Sentence Summary
 
-Diroximel fumarate (brand name Vumerity) is a next-generation prodrug of monomethyl fumarate (MMF), approved in the United States for relapsing forms of multiple sclerosis, though not currently registered in Australia.
-The TxGNN model predicts it may have potential for **Diabetic Cataract** through its Nrf2-activating antioxidant mechanism,
-however this prediction is currently at the earliest exploratory stage with **no clinical trials** or **published literature** identified to support this direction.
-
----
+Diroximel fumarate is an oral prodrug of monomethyl fumarate and is marketed in Australia as Vumerity, but the data compiled for this report do not record its approved indication.
+The TxGNN model predicts it may be effective for **diabetic cataract**, although there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction is therefore model-based only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Relapsing forms of multiple sclerosis (US FDA-approved; not registered in Australia) |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 99.9993% |
+|------|------|
+| Original Indication | Not recorded in the data compiled for this report |
+| Predicted New Indication | Diabetic cataract |
+| TxGNN Prediction Score | 99.999% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Diroximel fumarate is rapidly hydrolysed after oral administration to its active metabolite, monomethyl fumarate (MMF). MMF exerts its primary pharmacological effect through activation of the Nrf2 (nuclear factor erythroid 2-related factor 2) transcription pathway, which upregulates a suite of cytoprotective antioxidant enzymes — including haem oxygenase-1 (HO-1), NAD(P)H:quinone oxidoreductase 1 (NQO1), and enzymes in the glutathione biosynthesis pathway. This mechanism underpins its efficacy in reducing neuroinflammation and oxidative damage in multiple sclerosis.
+Detailed mechanism of action data is not available in the data compiled for this report. Diroximel fumarate is a prodrug of monomethyl fumarate (MMF), which is generally understood to activate the Nrf2 antioxidant pathway and to have anti-inflammatory activity. This is background knowledge rather than a sourced finding in this dataset.
 
-In diabetic cataract, chronic hyperglycaemia drives excessive flux through the lens polyol pathway, generating sorbitol accumulation, osmotic stress, and — critically — a surge in reactive oxygen species (ROS). This oxidative environment promotes glycation and oxidative cross-linking of lens crystallin proteins, leading to progressive lens opacification. The Nrf2 pathway is a well-characterised regulator of lens epithelial cell survival: Nrf2 knockout rodent models develop accelerated cataract formation, providing mechanistic plausibility for a protective role of Nrf2 activators in this setting.
+The original indication was not captured, so the relationship between it and diabetic cataract cannot be assessed directly. The proposed link is that oxidative stress and polyol-pathway damage contribute to lens opacification in diabetes, so Nrf2 activation is a plausible but unvalidated protective mechanism. Systemic drug exposure reaching the lens is unverified.
 
-That said, the extrapolation from systemic Nrf2 activation for CNS protection (as in MS) to prevention of diabetic lens opacification is a substantial one. Key unknowns include whether therapeutic MMF concentrations reach the aqueous humour and lens at clinically meaningful levels following oral dosing, and whether the benefit-to-risk profile of systemic immunomodulatory therapy is acceptable for an ophthalmological indication where surgical intervention (phacoemulsification) is safe and highly effective. The TxGNN prediction should therefore be regarded as a hypothesis-generating signal warranting dedicated preclinical investigation rather than a ready-to-pursue clinical opportunity.
-
----
+The same model also ranks several other eye conditions highly: diabetic retinopathy, severe nonproliferative diabetic retinopathy, and multiple cataract subtypes. Many of these scores are almost identical (about 99.999%), which suggests they may reflect shared connections between related disease nodes in the knowledge graph rather than independent evidence. Some predictions, such as tetanic cataract and craniostenosis cataract, have no evident mechanistic link.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
-Diroximel fumarate has **no current ARTG registration** in Australia. No Product Information (PI) or Consumer Medicine Information (CMI) documents are available via the TGA.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 13059H | Vumerity | Capsule (enteric) 231 mg | Not recorded in the data compiled for this report |
 
-> **Note for clinicians:** Diroximel fumarate (Vumerity®) is FDA-approved in the United States for relapsing forms of multiple sclerosis. For current Australian access pathways (e.g., TGA Special Access Scheme or Authorised Prescriber pathway), please consult the TGA directly.
-
----
+The route of administration is oral.
 
 ## Safety Considerations
 
-Formal safety data (TGA-approved PI warnings, contraindications, and drug interaction data) are not available for this agent in the Australian regulatory context.
+- **Drug Interactions**: The interaction screen was completed and returned 100 interactions. The 20 reviewed here were all rated Moderate. They include:
+  - Corticosteroids: hydrocortisone, triamcinolone (including ophthalmic), dexamethasone, betamethasone, budesonide, prednisolone and prednisone
+  - Naltrexone and ethanol
+  - Immunomodulating or myelosuppressive agents: mercaptopurine, levamisole, trimetrexate, dexrazoxane, roflumilast and dupilumab
+  - Radiopharmaceuticals and related agents: ibritumomab tiuxetan, iobenguane (I-131), tositumomab and tositumomab (I-131)
 
-Please refer to the US FDA-approved Prescribing Information for Vumerity® (diroximel fumarate) for currently known safety information, which includes:
-- **Lymphopenia**: MMF can cause dose-dependent reductions in lymphocyte counts; obtain a full blood count before initiating therapy and periodically thereafter.
-- **Progressive Multifocal Leukoencephalopathy (PML)**: Cases have been reported in the context of severe, prolonged lymphopenia with fumarate-class agents.
-- **Flushing and GI adverse effects**: Common but generally less severe than with dimethyl fumarate (the principal advantage of the diroximel formulation).
-- **Hepatotoxicity**: Liver function should be monitored.
-- **Anaphylaxis and angioedema**: Rare but reported.
-
-No drug–drug interaction data specific to the diabetic cataract indication context were identified in this evidence pack.
-
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high prediction score based on the mechanistic plausibility of Nrf2-mediated lens protection in a hyperglycaemic environment; however, with zero supporting clinical trials, zero published literature, and no Australian regulatory footprint, this remains a purely computational hypothesis (Evidence Level L5). The availability of safe, effective surgical treatment for established cataract further raises the bar for any pharmacological intervention to demonstrate a meaningful clinical niche (i.e., prevention or delay rather than reversal).
+The prediction is supported only by the TxGNN score, with no registered trials or publications. The high scores across closely related cataract and retinopathy entries suggest graph similarity rather than independent evidence. Warnings, contraindications and the original indication are also missing from the data compiled for this report.
 
 **To proceed, the following is needed:**
-
-- **Preclinical pharmacokinetic study**: Measure MMF concentrations in aqueous humour and lens tissue following oral diroximel fumarate dosing in rodent or rabbit models.
-- **In vitro lens epithelial cell model**: Assess whether MMF at physiologically achievable concentrations activates Nrf2 and reduces high-glucose-induced oxidative stress and crystallin aggregation.
-- **Animal efficacy model**: Evaluate cataract progression (e.g., slit-lamp grading, lens transparency assay) in streptozotocin-induced diabetic rodents treated with diroximel fumarate.
-- **Comparator class check**: Review whether the structurally related dimethyl fumarate (Tecfidera) has any published ophthalmological data, as the two agents share the same active metabolite and findings would be directly relevant.
-- **Benefit-risk framing**: Define the target patient population (e.g., high-risk diabetic patients with early lens changes but no surgical indication yet) and establish what magnitude of cataract delay would constitute a clinically meaningful outcome.
-- **Regulatory pathway assessment**: If preclinical data are supportive, consult the TGA regarding requirements for an Australian IND-equivalent application and potential ARTG registration strategy.
-
----
-
-> **Disclaimer:** This report is intended for research purposes only and does not constitute medical advice. Drug repurposing candidates identified by predictive modelling require clinical validation before any therapeutic application. All information should be interpreted in the context of current Australian clinical guidelines and TGA regulatory requirements.
+- Confirmation of the approved indication and the full safety profile (warnings and contraindications) from the TGA-approved PI
+- Mechanism of action data from DrugBank
+- Preclinical evidence that Nrf2 activation protects against diabetic lens or retinal injury, including evidence that systemic dosing reaches ocular tissue
+- A literature and trial registry search (including ANZCTR) specific to diabetic cataract and diabetic retinopathy
+- A review of the diabetic retinopathy prediction as a possible alternative lead, since the data suggest a more plausible mechanism there than for several of the cataract subtypes
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

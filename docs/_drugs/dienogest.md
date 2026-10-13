@@ -2,7 +2,7 @@
 layout: default
 title: Dienogest
 parent: Moderate Evidence (L3-L4)
-nav_order: 198
+nav_order: 215
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,102 +29,77 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Dienogest: From Endometriosis to Amenorrhoea
+# Dienogest: From Endometriosis (Presumed) to Amenorrhoea
 
 ## One-Sentence Summary
 
-Dienogest is a fourth-generation synthetic progestin, approved internationally (as Visanne®, Bayer) for the treatment of endometriosis, but currently not registered with the Therapeutic Goods Administration (TGA) in Australia.
-The TxGNN model predicts it may have clinical relevance to **Amenorrhoea**, with **4 clinical trials** and **6 publications** identified — however, the available evidence consistently frames amenorrhoea as a *pharmacological side effect* of endometriosis treatment rather than an independent therapeutic indication.
-Evidence is rated **L4** (mechanistic/indirect), and a **Hold** decision is recommended.
-
----
+Dienogest is an oral progestin marketed in Australia as a 2 mg tablet (Visanne). The data compiled for this report did not include approved indication text, and the literature points to endometriosis as its established use. The TxGNN model predicts it may be effective for **amenorrhoea**, but there are **0 registered clinical trials** and only **7 publications**, none of which directly tests dienogest as a treatment for amenorrhoea.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Endometriosis (internationally approved; not registered with TGA in Australia) |
+|------|------|
+| Original Indication | Not stated in the data compiled for this report (literature describes endometriosis as the approved use) |
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 99.71% |
 | Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this Evidence Pack. Based on information derived from clinical trial summaries and the accompanying pharmacological literature, Dienogest is a fourth-generation synthetic progestin with highly selective progesterone receptor affinity (relative binding affinity approximately 71% compared with progesterone). It inhibits ovulation, suppresses serum estradiol to near-castrate levels (<30 pg/mL), and inhibits endometrial proliferation. These combined actions are well-recognised to induce amenorrhoea or irregular spotting, with reported amenorrhoea rates of 20–30% during long-term use.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the literature, dienogest is a fourth-generation progestin with antiproliferative, anti-ovulatory and endometrial-decidualising activity. It suppresses ovarian oestradiol production.
 
-The mechanistic link to amenorrhoea is therefore pharmacologically coherent. However, a critical directional distinction must be noted: Dienogest is a **cause** of amenorrhoea (through hypothalamic-pituitary-ovarian axis suppression) rather than a treatment for amenorrhoea as a disease entity. In current clinical practice, amenorrhoea is typically regarded as a desired secondary outcome — or a manageable adverse effect — of endometriosis therapy, not the registered therapeutic target.
+Amenorrhoea is a commonly reported effect of dienogest therapy in endometriosis. That means the link to this prediction is largely an **effect or bleeding-pattern observation**, not a therapeutic target. Dienogest tends to *cause* amenorrhoea rather than treat it. The existing literature concerns endometriosis, adverse-effect profiling and case reports, so the high model score is not backed by direct clinical evidence. The prediction should be treated as a research question, not a treatment opportunity.
 
-If the repurposing question is reframed more specifically as "using Dienogest to induce amenorrhoea for the management of abnormal uterine bleeding (AUB)," there is indirect mechanistic support and some observational data. However, no independent RCT has been conducted with amenorrhoea induction as the *primary endpoint and registered indication*. This framing gap, combined with the absence of TGA registration, represents the primary barrier to clinical translation in Australia.
-
----
+Other predicted indications (primary ovarian failure, hypogonadotropic hypogonadism, isolated growth hormone deficiency, chromosomal disorders and others) have no clinical or literature support. They appear to reflect network proximity in the knowledge graph. Mechanistically, suppressing the ovarian and gonadotropin axis would be unlikely to help in several of them.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT07164183](https://clinicaltrials.gov/study/NCT07164183) | Phase 3 | Recruiting | 290 | Prospective, multicentre, open-label randomised parallel-group non-inferiority study comparing Indinol Forto® 200 mg vs Visanne® 2 mg for endometriosis; highest methodological rigour among identified trials — amenorrhoea rate likely a monitored secondary endpoint |
-| [NCT07204093](https://clinicaltrials.gov/study/NCT07204093) | N/A | Active, not recruiting | 138 | Compares transdermal estradiol + dienogest versus drospirenone combinations for endometriosis HRT management; menstrual pattern outcomes (including amenorrhoea induction and breakthrough bleeding) likely observed |
-| [NCT04495855](https://clinicaltrials.gov/study/NCT04495855) | N/A | Completed | 968 | VISANNE OS real-world observational study of dienogest for endometriosis in routine clinical practice across multiple sites; amenorrhoea documented as a secondary safety-reporting item, not a primary efficacy endpoint |
-| [NCT02425462](https://clinicaltrials.gov/study/NCT02425462) | N/A | Completed | 895 | VISION Asia prospective observational cohort assessing effectiveness and long-term safety of dienogest in Asian women with endometriosis; amenorrhoea captured as part of safety surveillance, not therapeutic outcome |
-
-> ⚠️ **Clinical note:** None of the identified trials investigated amenorrhoea as a *primary therapeutic indication*. Across all four studies, amenorrhoea appears exclusively as a secondary or safety-monitoring endpoint in the context of endometriosis treatment.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | Systematic Review + Bayesian Meta-analysis | BMC Pharmacology & Toxicology | Comprehensive Bayesian analysis of adverse effects of dienogest in endometriosis and adenomyosis; quantifies prevalence of amenorrhoea as a frequently occurring adverse event and provides population-level estimates for informed consent |
-| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | Pharmacological / In Vitro Study | Eur J Contracept Reprod Health Care | Confirms high inhibition ratio and transformation index of dienogest 2 mg; mechanistically demonstrates dienogest's capacity to induce amenorrhoea through hypoestrogenic environment — directly supports TxGNN prediction rationale |
-| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Narrative Review | Reviews in Endocrine & Metabolic Disorders | Comprehensive overview of hormonal treatments for endometriosis, including endocrine mechanisms underpinning progestin-induced amenorrhoea, estrogen dependency, and progesterone resistance |
-| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | Prospective Cohort | Reproductive Sciences | Multicentre retrospective cohort (n=514) assessing long-term efficacy and safety of dienogest in ovarian endometrioma beyond 12 months; amenorrhoea rates documented across extended treatment duration |
+| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | Systematic review / Bayesian meta-analysis | BMC Pharmacol Toxicol | Summarises adverse events and their prevalence with dienogest in endometriosis and adenomyosis |
+| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | Retrospective cohort (n=514) | Reprod Sci | Long-term (>12 months) dienogest 2 mg daily in ovarian endometrioma: efficacy, safety and recurrence |
+| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Review | Rev Endocr Metab Disord | Endocrine background of hormonal treatments for endometriosis |
+| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | Clinical/pharmacodynamic study | Eur J Contracept Reprod Health Care | Further evidence for 2 mg dienogest in endometriosis; amenorrhoea noted as a treatment objective |
+| [42438810](https://pubmed.ncbi.nlm.nih.gov/42438810/) | 2026 | Case report | JCEM Case Reports | Primary hyperparathyroidism unmasked after starting dienogest for menorrhagia |
+| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | Case report | Medicine | Ovarian granulosa cell tumour in a patient with PCOS (indirect relevance) |
+| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Review / imaging | J Pediatr Adolesc Gynecol | Advanced visualisation of Müllerian anomalies (indirect relevance) |
 
----
+No publication evaluates dienogest as a treatment for amenorrhoea.
 
 ## Australia Market Information
 
-Dienogest is **not currently registered with the TGA** and has **no entries on the Australian Register of Therapeutic Goods (ARTG)**. No TGA-approved Product Information document is available for this medicine in Australia.
-
-Clinicians seeking prescribing information should refer to international regulatory sources, such as:
-- **EMA Summary of Product Characteristics (SmPC)** for Visanne® 2 mg tablets (dienogest) — approved in the European Union for endometriosis
-- **PMDA (Japan)** or **MFDS (South Korea)** product monographs, where Dienogest has established regulatory approval
-
-Any clinical use in Australia would need to occur through the TGA's Special Access Scheme (SAS) or Authorised Prescriber pathway, both of which require documented clinical justification.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14667Y | Visanne | Tablet 2 mg (oral) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-As Dienogest is not currently registered in Australia, no TGA-approved Product Information is available. Please refer to the relevant international Product Information documents (EMA SmPC or equivalent) for full safety, contraindication, and drug interaction data prior to any clinical consideration.
+- **Drug Interactions**: 37 interactions were identified in total. Major-level interactions in the data include sugammadex, griseofulvin, bexarotene, brigatinib, dabrafenib and encorafenib. Moderate-level interactions include linaclotide, metreleptin, prucalopride, miltefosine, adalimumab, anakinra, certolizumab pegol and cladribine, among others. Ethanol is listed as minor.
+- **Knowledge-graph contraindication signals** (from a drug-disease network, not label text): hypertension, epilepsy, liver disease, gallbladder disease, kidney disease, porphyria, diabetes mellitus, diabetic ketoacidosis, hypertriglyceridaemia, hypothyroidism, systemic lupus erythematosus, asthma, hypercalcaemia, female breast carcinoma and thrombophlebitis. These need verification against the Product Information.
+- **Case-level signal**: one 2026 case report describes primary hyperparathyroidism emerging after dienogest, raising a possible calcium-homeostasis question.
 
-> International sources indicate that clinically relevant safety considerations for Dienogest typically include: effects on bone mineral density with long-term use, irregular uterine bleeding patterns, impact on mood and libido, and interactions with CYP3A4 inducers/inhibitors. Formal safety review against a TGA or EMA source is recommended before any clinical decision-making.
-
----
+Please refer to the TGA-approved Product Information (PI) for official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model has correctly identified a genuine pharmacological relationship — Dienogest does suppress the hypothalamic-pituitary-ovarian axis and reliably induces amenorrhoea through its progestogenic mechanism. However, the entire evidence base positions amenorrhoea as a *consequence* of endometriosis treatment rather than a primary therapeutic target, and the drug is not registered on the ARTG. Both the evidence framing and the regulatory gap must be resolved before progression.
+The high model score (99.71%) is not supported by direct evidence. Amenorrhoea is a recognised effect of dienogest rather than a condition it treats, and there are no registered trials. Evidence is at L4 (mechanistic and indirect literature only).
 
 **To proceed, the following is needed:**
-
-- **Regulatory pathway assessment:** Evaluate TGA registration options (full registration, SAS Category B/C, or Authorised Prescriber) for Dienogest in Australia, including identification of the most clinically appropriate indication framing
-- **Safety data retrieval:** Download and review the EMA SmPC (or equivalent national PI) to complete the safety, contraindication, and drug-drug interaction profile — currently a blocking data gap
-- **MOA documentation:** Retrieve full mechanism of action details from DrugBank (DB09123) or primary pharmacology literature to support future indication submissions
-- **Indication reframing:** If the clinical intent is amenorrhoea *induction* for abnormal uterine bleeding (AUB) management, a targeted literature search under AUB/heavy menstrual bleeding (HMB) terminology is required to identify more directly relevant evidence
-- **Primary endpoint RCT review:** Conduct a systematic review to confirm whether any completed or ongoing RCT has registered amenorrhoea induction as a *primary* efficacy endpoint for Dienogest — if not, this would confirm an evidence gap suitable for investigator-initiated trial design
-
----
-
-> **Disclaimer:** This report is intended for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All content should be reviewed in conjunction with current TGA guidelines and local institutional policies.
+- The TGA-approved Product Information, including the approved indication, warnings and contraindications
+- Detailed mechanism of action data
+- A clear clinical rationale for whether a drug that induces amenorrhoea could treat any amenorrhoea subtype
+- Reframing the question, for example towards specific bleeding disorders, before any trial design
+- Review of the knowledge-graph contraindication signals and the major drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

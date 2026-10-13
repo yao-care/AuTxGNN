@@ -2,7 +2,7 @@
 layout: default
 title: Framycetin
 parent: Model Prediction Only (L5)
-nav_order: 297
+nav_order: 320
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,60 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Framycetin: From Antibacterial Use to Sclerosing Cholangitis
+# Framycetin: From Topical Ophthalmic/Otic Infection to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Framycetin is an aminoglycoside antibacterial (a neomycin B derivative); no specific original indication is recorded in the available regulatory dataset. The TxGNN model's top-ranked prediction is **Sclerosing Cholangitis**, but this candidate is currently supported by **no clinical trials and no published literature**, and the evidence pack's own mechanistic assessment flags it as a likely score artefact rather than a biologically grounded signal.
+Framycetin is an aminoglycoside antibiotic, marketed in Australia as eye or ear drops (Soframycin).
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**,
+but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in the available dataset (drug is an aminoglycoside antibacterial) |
-| Predicted New Indication | Sclerosing Cholangitis |
+| Original Indication | Not recorded in the data compiled for this report (the Australian listing is for eye or ear drops containing framycetin sulfate 5 mg per mL) |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.66% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for framycetin is not available in this evidence pack (recorded as a High-severity data gap). Based on information embedded elsewhere in the evidence pack itself, framycetin is an aminoglycoside antibacterial (a neomycin B derivative) that acts by inhibiting bacterial 30S ribosomal protein synthesis, and has historically been used as a topical/otic and ophthalmic antibacterial agent.
+Detailed mechanism of action data is not available. Framycetin belongs to the aminoglycoside class, which is bactericidal against many Gram-negative bacteria. Its efficacy is established for topical eye and ear infections, but it has not been shown to be effective for sclerosing cholangitis.
 
-Sclerosing cholangitis, however, is primarily an autoimmune and inflammatory biliary disease rather than a condition driven by typical bacterial infection. The evidence pack's own mechanistic assessment concludes there is no clear pathophysiological link between an antibacterial mode of action and this disease, and explicitly flags the prediction as a high TxGNN-score result that is likely mechanistically unreasonable.
+The only plausible link is the gut-liver axis. Framycetin is poorly absorbed systemically, so a gut-restricted antibiotic could in theory alter the gut microbiome, which is implicated in primary sclerosing cholangitis. This is speculative. The aminoglycoside class is not an established treatment for this disease, and the high score is a computational prediction only.
 
-Because no clinical trials or literature support this specific drug–disease pairing, and the proposed mechanism does not hold up, this prediction should be treated as a low-confidence lead that would need independent biological plausibility review before any further investment.
+The Australian product is an ophthalmic/otic preparation. Whether any route of administration compatible with the predicted indication is available has not been assessed.
+
+Other top-ranked predictions are also unsupported by evidence:
+- **Plausible at class level (antibacterial):** urinary tract infection, gonococcal urethritis, uterine inflammatory disease, xanthogranulomatous pyelonephritis, Ureaplasma urethritis. Framycetin's poor systemic absorption makes it a poor fit, and established agents are preferred.
+- **Implausible:** congenital prothrombin deficiency, genital herpes (viral) and vitamin deficiency disorder show no credible mechanistic link and likely reflect knowledge-graph artefacts. Oral aminoglycosides may even worsen vitamin K status.
+- **Bronchitis:** a single 1956 report exists (see below), but current guidance generally does not support antibiotics for acute bronchitis without bacterial infection.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered for sclerosing cholangitis or any of the other nine predicted indications.
 
 ## Literature Evidence
 
-Currently no related literature available
+No literature is available for sclerosing cholangitis. The only publication found across the predictions relates to the lower-ranked bronchitis prediction:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [13316238](https://pubmed.ncbi.nlm.nih.gov/13316238/) | 1956 | Historical clinical report (design unclear) | Bruxelles Medical | "Trial therapy with new antibiotic framycetin in pneumology". No abstract available; likely an uncontrolled observation that does not meet modern evidence standards |
 
 ## Australia Market Information
 
-Framycetin currently has no marketed products in Australia (Market Status: Not marketed; ARTG entries: 0).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1440T | Soframycin | Eye or ear drops containing framycetin sulfate 5 mg per mL, 8 mL | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
 Please refer to the TGA-approved Product Information (PI) for safety information.
+
+No drug interactions were found in the data compiled for this report. As an aminoglycoside, framycetin carries class-level concerns (for example ototoxicity and nephrotoxicity with systemic exposure) that should be checked against the PI before any use outside its approved route.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Sclerosing Cholangitis) has an Evidence Level of L5 — a model score alone, with no supporting clinical trials, literature, or plausible mechanism. The evidence pack's own rationale assesses the mechanistic link as unreasonable, so this candidate does not currently justify further investigation.
+The prediction for sclerosing cholangitis is based only on a model score, with no trials, no literature and no clear mechanistic support (Evidence Level L5). The approved Australian product is an eye/ear drop, which is unlikely to be suitable for a hepatobiliary indication.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for framycetin (currently a High-severity data gap, DG002)
-- TGA-approved Product Information / warnings and contraindications (currently a Blocking data gap, DG001)
-- Independent biological plausibility review of the antibacterial-to-autoimmune-biliary-disease link before any lab or clinical follow-up
-- Consider that other candidates in this evidence pack — e.g. Bronchitis (rank 8, Evidence Level L3, historical literature support, decision stage "Research Question") and Urinary Tract Infection (rank 2, L4, one supporting case-based publication) — show stronger mechanistic and evidentiary grounding and may be more productive avenues for follow-up than the top-ranked prediction.
+- Mechanism of action data for framycetin
+- Safety information from the TGA-approved PI, including warnings and contraindications
+- Original approved indication text for the ARTG entry
+- Preclinical or mechanistic evidence for gut-microbiome modulation in sclerosing cholangitis
+- Assessment of route and formulation compatibility (an oral or gut-restricted formulation would be needed)
+- A targeted literature search, and a review of ANZCTR and other trial registries, for any relevant studies
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

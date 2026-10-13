@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Avelumab
-parent: Moderate Evidence (L3-L4)
-nav_order: 69
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 74
+evidence_level: L5
 indication_count: 10
 ---
 
 # Avelumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,96 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Avelumab: From Merkel Cell Carcinoma to HHV-8 Related Tumour
+# Avelumab: From Cutaneous Neuroendocrine Carcinoma to Human Herpesvirus 8-Related Tumour
 
 ## One-Sentence Summary
 
-Avelumab (Bavencio®) is a fully human anti-PD-L1 monoclonal antibody with antibody-dependent cellular cytotoxicity (ADCC) activity, approved internationally for Merkel cell carcinoma and urothelial carcinoma maintenance therapy, but not currently registered in Australia.
-The TxGNN model predicts it may be effective for **HHV-8 related tumours** (encompassing Kaposi sarcoma, primary effusion lymphoma, and multicentric Castleman disease), supported by a mechanistically plausible viral PD-L1 upregulation pathway and indirect evidence from other checkpoint inhibitors in Kaposi sarcoma, but with **no directly applicable clinical trials or published literature** currently available for this specific combination.
+Avelumab is an anti-PD-L1 antibody, originally used to treat cutaneous neuroendocrine carcinoma (Merkel cell carcinoma).
+The TxGNN model predicts it may be effective for **human herpesvirus 8-related tumours**, but **no clinical trials and no publications** were found in the data compiled for this report, so the prediction currently rests on model output alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Merkel cell carcinoma; urothelial carcinoma (first-line maintenance therapy post-platinum chemotherapy) — FDA/EMA approved; not registered in Australia |
-| Predicted New Indication | Human herpesvirus 8-related tumour (HHV-8 related tumour) |
+|------|------|
+| Original Indication | Cutaneous neuroendocrine carcinoma (Merkel cell carcinoma) |
+| Predicted New Indication | Human herpesvirus 8-related tumour |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Avelumab is a fully human IgG1 anti-PD-L1 monoclonal antibody that blocks the interaction between PD-L1 on tumour cells and its receptors PD-1 and B7-1 on T cells, restoring the immune system's capacity to recognise and destroy cancer cells. Crucially, avelumab is the only currently approved PD-L1 inhibitor that retains intact Fc-region functionality, enabling natural killer (NK) cells to directly kill PD-L1-expressing tumour cells through ADCC — a mechanism not shared by atezolizumab or durvalumab. Its approved indications (Merkel cell carcinoma, urothelial carcinoma) share the biological features of high PD-L1 expression, T-cell exhaustion, and an immune-responsive tumour microenvironment.
+Detailed mechanism of action data is not available in the data compiled for this report. Avelumab is known to be an anti-PD-L1 antibody, which blocks the PD-L1/PD-1 inhibitory pathway and may restore T-cell anti-tumour activity.
 
-HHV-8 related tumours — particularly Kaposi sarcoma (KS), primary effusion lymphoma (PEL), and multicentric Castleman disease (MCD) — actively exploit viral immune evasion strategies involving the PD-1/PD-L1 checkpoint. HHV-8 viral proteins can upregulate PD-L1 expression on infected tumour cells and within the surrounding immune microenvironment, creating a biologically credible target for PD-L1 blockade. The case for checkpoint inhibition in this setting is supported indirectly by the PD-1/PD-L1 inhibitor class: pembrolizumab has demonstrated an approximately 70% objective response rate in small series of HIV-associated KS, confirming that the PD-1/PD-L1 axis is functionally relevant in HHV-8-driven malignancy.
+HHV-8-related tumours (for example Kaposi sarcoma and primary effusion lymphoma) involve viral immune evasion and upregulation of the PD-L1/PD-1 axis, so checkpoint blockade is biologically plausible. Related checkpoint inhibitors have been explored in Kaposi sarcoma. Merkel cell carcinoma is also a virus-associated skin cancer in many cases, which gives a loose conceptual link between the two settings.
 
-Avelumab's dual mechanism provides a theoretical advantage in this setting: HHV-8-infected tumour cells that upregulate PD-L1 simultaneously become targets for T-cell reinvigoration (via PD-L1 blockade) and NK-cell-mediated direct killing (via ADCC). However, no clinical data for avelumab specifically in HHV-8-related tumours currently exists. The prediction is classified as mechanistic/preclinical (L4) and requires prospective clinical investigation before any clinical application can be considered.
+This is a model prediction only. The very high score does not replace clinical evidence, and no trial or literature data were supplied to confirm it.
+
+### Other Predicted Indications
+
+The model also ranked the following. None has trial or literature support in the data compiled.
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|------|
+| 2 | Middle ear neuroendocrine tumour | 99.97% | L5 | Shared neuroendocrine lineage, but extremely rare and biologically different; PD-L1 dependence unestablished |
+| 3 | Malignant cutaneous granular cell skin tumour | 99.97% | L5 | No demonstrated PD-L1 dependence |
+| 4 | Ectomesenchymoma | 99.97% | L5 | No known mechanistic basis |
+| 5-8 | Adenosine deaminase deficiency, reticular dysgenesis, immunoerythromyeloid hypoplasia, non-severe combined immunodeficiency | 99.91-99.95% | L5 | Mechanistically implausible; likely graph artefacts; immune activation could be harmful |
+| 9 | Prostatic urethra urothelial carcinoma | 99.92% | L4 | Indirect support from approved urothelial carcinoma use (JAVELIN Bladder 100, Phase 3) |
+| 10 | Kidney pelvis sarcomatoid transitional cell carcinoma | 99.91% | L4 | Indirect support from urothelial histology; site-specific data lacking |
+
+Ranks 9 and 10 (urothelial tumours) have the most biologically credible extrapolation from avelumab's established urothelial carcinoma use, and may merit a closer look as research questions.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials related to Avelumab in HHV-8 related tumour are registered.
+Currently no related clinical trials registered for human herpesvirus 8-related tumour in the data compiled for this report.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature is available for Avelumab in HHV-8 related tumour.
+Currently no related literature available.
 
 ---
 
 ## Australia Market Information
 
-Avelumab is **not currently registered on the Australian Register of Therapeutic Goods (ARTG)**. There are no ARTG entries for any avelumab-containing product. Australian clinicians wishing to access avelumab for an individual patient would need to apply through a TGA special access pathway prior to use:
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11671G | Bavencio | Solution concentrate for I.V. infusion, 200 mg in 10 mL | Not available in the data compiled |
 
-- **Special Access Scheme (SAS) Category C**: For individual patients with a serious medical condition where no alternative registered treatment is suitable
-- **Authorised Prescriber Pathway**: For clinicians seeking approval to treat a defined class of patients
-- **Clinical Trial Participation**: Via an ANZCTR-registered study
-
-Until Australian registration is obtained, the **US FDA Bavencio® Prescribing Information** and the **EMA Bavencio® Summary of Product Characteristics (SmPC)** should be used as authoritative reference documents for dosing, monitoring, and safety guidance.
+Australian approval status is based on the single entry above. Approved indication wording should be confirmed against the TGA-approved Product Information.
 
 ---
 
 ## Cytotoxicity
 
-Avelumab is an antineoplastic biologic approved for malignant indications (Merkel cell carcinoma and urothelial carcinoma); this section applies.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Immune checkpoint inhibitor (fully human anti-PD-L1 IgG1 monoclonal antibody with ADCC activity; not a conventional cytotoxic chemotherapy agent) |
-| Myelosuppression Risk | Low (direct bone marrow suppression is uncommon; rare immune-mediated haematological toxicities — including autoimmune haemolytic anaemia and immune thrombocytopenia — may occur as irAEs) |
-| Emetogenicity Classification | Low (monoclonal antibodies have minimal direct emetic potential; infusion-related reactions are the primary acute infusion concern and may require premedication with antihistamine and paracetamol) |
-| Monitoring Items | FBC with differential, LFTs (ALT/AST/bilirubin/ALP), TFTs (TSH/free T4), fasting glucose/HbA1c, serum creatinine, urinalysis, cortisol/ACTH stimulation test if adrenal insufficiency is clinically suspected |
-| Handling Protection | Standard biohazard precautions for intravenous biologics; avelumab is not typically classified as a cytotoxic hazardous drug under NIOSH or SHPA guidelines — confirm local pharmacy handling classification prior to compounding and administration |
+|------|------|
+| Cytotoxicity Classification | Immunotherapy (anti-PD-L1 monoclonal antibody) |
+| Myelosuppression Risk | Low; not a conventional cytotoxic. Please refer to the Product Information (PI) warnings and precautions |
+| Emetogenicity Classification | Low. Please refer to the PI |
+| Monitoring Items | Please refer to the PI; typically includes thyroid, liver and renal function, and signs of immune-related adverse events |
+| Handling Protection | Please refer to the PI and local institutional policy; not a conventional cytotoxic agent |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. As avelumab is not currently registered in Australia, the **US FDA Bavencio® Prescribing Information** and the **EMA Bavencio® Summary of Product Characteristics** should be consulted as interim reference documents for the full safety, contraindication, and drug interaction profile.
+- **Drug Interactions**: Three Major-level interactions were identified (source: DDInter):
+  - Lenalidomide
+  - Pomalidomide
+  - Thalidomide
+
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ---
 
@@ -111,21 +127,14 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model identifies a mechanistically plausible link between avelumab's dual PD-L1 blockade and ADCC activity and HHV-8-related tumours, supported by indirect evidence from pembrolizumab in Kaposi sarcoma. However, no direct clinical trial or published literature evidence exists for avelumab in this indication (L4 evidence only), and avelumab has no current TGA registration in Australia — creating both an evidential and a regulatory barrier to clinical use.
+The top prediction has only model-based support (L5), with no registered trials or publications. The mechanistic link is plausible but unproven, and label safety information was not available for review.
 
-**Notable finding from additional predictions:**
-The TxGNN model also identifies **prostatic urethra urothelial carcinoma** (Rank 9) as a high-evidence candidate — rated **L1** based on JAVELIN Bladder 100 (Phase 3 RCT, N=700), which established avelumab's overall survival benefit in urothelial carcinoma maintenance (HR=0.76 overall; HR=0.69 in PD-L1+ subgroup, p=0.0003). Prostatic urethral UC shares the same tumour biology as the approved urothelial carcinoma indication, and the evidence supports a **Proceed with Guardrails** recommendation for this sub-indication, pending TGA access pathway resolution. Similarly, **kidney pelvis sarcomatoid transitional cell carcinoma** (Rank 10) has an observational study (NCT05431777, N=79, completed) and merits further research attention (L3 evidence).
-
-**⚠️ Model false positives to exclude:** Ranks 5–8 (adenosine deaminase deficiency, reticular dysgenesis, immunoerythromyeloid hypoplasia, non-severe combined immunodeficiency) are assessed as knowledge graph false positives. PD-L1 inhibition has no mechanistic rationale in severe immunodeficiency and carries substantial risk of harm in these populations. These predictions should be formally excluded from further evaluation.
-
-**To proceed with the HHV-8 related tumour indication, the following steps are required:**
-
-- Design a prospective feasibility study or investigator-initiated trial (IIT) evaluating avelumab in HHV-8-related tumours, with Kaposi sarcoma (classic or HIV-associated) as the most tractable starting population
-- Characterise biomarker landscape in HHV-8-related tumour tissue: PD-L1 expression (SP142/28-8 assay), tumour mutational burden (TMB), microsatellite instability (MSI) status, and NK-cell infiltration as an ADCC surrogate
-- Assess potential pharmacokinetic and pharmacodynamic interactions with antiretroviral therapy (ART) in HIV-positive patient populations before commencing any clinical use
-- Obtain detailed mechanism of action (MOA) data from DrugBank and published pharmacology literature to strengthen the mechanistic rationale
-- Submit a TGA Special Access Scheme (SAS) Category C application or pursue the Authorised Prescriber pathway if individual patient access is required prior to formal trial activation
-- Review current FDA and EMA Bavencio® prescribing information for full safety, dosing (800 mg IV every 2 weeks), and monitoring protocols before clinical use
+**To proceed, the following is needed:**
+- A systematic literature and trial registry search (including ANZCTR) for avelumab or PD-L1 blockade in HHV-8-related tumours such as Kaposi sarcoma
+- Detailed mechanism of action data
+- Review of the TGA-approved Product Information for warnings, contraindications and approved indications
+- Evaluation of the urothelial sub-site predictions (ranks 9 and 10) using subgroup data from JAVELIN Bladder 100
+- Assessment of the immunomodulatory drug interactions (lenalidomide, pomalidomide, thalidomide), particularly given the immunocompromised populations typical of HHV-8-related disease
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

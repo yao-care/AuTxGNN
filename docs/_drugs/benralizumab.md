@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Benralizumab
-parent: High Evidence (L1-L2)
-nav_order: 78
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 83
+evidence_level: L5
 indication_count: 10
 ---
 
 # Benralizumab
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,39 +29,41 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Benralizumab: From Severe Eosinophilic Asthma to Atopic Dermatitis
-
-> ⚠️ **Disclaimer**: This report is for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application.
-
----
+# Benralizumab: From Eosinophilic Pneumonia to Dermatitis
 
 ## One-Sentence Summary
 
-Benralizumab (Fasenra®) is a monoclonal antibody targeting the interleukin-5 receptor alpha (IL-5Rα), approved internationally as add-on maintenance treatment for severe eosinophilic asthma. The TxGNN model predicts it may be effective for **Atopic Dermatitis (Dermatitis)**, with **6 clinical trials** and **20 publications** identified in this direction — however, the pivotal Phase 2 randomised controlled trial (HILLIER study, n=194) was terminated early, and published results confirmed no significant efficacy in an unselected atopic dermatitis population, indicating that patient stratification by eosinophilic phenotype is likely critical.
+Benralizumab is an anti-IL-5 receptor alpha (IL-5Rα) monoclonal antibody, originally used for eosinophilic lung conditions (eosinophilic pneumonia and pulmonary eosinophilia) and, per the data compiled for this report, for severe eosinophilic asthma.
+The TxGNN model predicts it may be effective for **dermatitis**, with **3 Phase 2 clinical trials** and **20 publications** (mostly reviews) identified.
+Direct efficacy evidence is weak: the largest placebo-controlled trial was terminated, and a published report describes a lack of effect in atopic dermatitis.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Severe eosinophilic asthma (international approvals; not registered in Australia) |
-| Predicted New Indication | Dermatitis (Atopic Dermatitis) |
+|------|------|
+| Original Indication | Eosinophilic pneumonia; pulmonary eosinophilia (from the knowledge graph; the ARTG entry lists no indication text) |
+| Predicted New Indication | Dermatitis |
 | TxGNN Prediction Score | 99.16% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L2 (as scored; see note below) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+*Note on evidence level:* The data compiled for this report assigns L2, but there is no completed Phase 2/3 randomised trial with a positive result. The only completed trial is a small mechanistic study (n=20), and the randomised trial was terminated. In practice the evidence is weaker than L2 suggests.
+
+*Note on ranking:* The top-ranked TxGNN prediction (immune thrombocytopenia, score 99.34%) has no trials or literature (L5). Dermatitis is the highest-ranked prediction with any supporting evidence, so this report focuses on it.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-The mechanistic rationale for benralizumab in atopic dermatitis (AD) is biologically coherent and well-grounded. Benralizumab binds with high affinity to IL-5Rα and, through antibody-dependent cell-mediated cytotoxicity (ADCC), achieves near-complete and rapid depletion of eosinophils and basophils. In AD, eosinophils are established central effectors of Type 2 (Th2) inflammation: IL-5 drives their differentiation and survival in bone marrow, and activated eosinophils infiltrate AD skin lesions to release potent inflammatory mediators including major basic protein (MBP), eosinophil cationic protein (ECP), IL-4, and IL-13. Basophils similarly contribute as an abundant early source of IL-4. The pharmacological logic of targeting IL-5Rα in AD is therefore mechanistically sound and clearly distinct from a purely speculative prediction.
+Detailed mechanism of action data is not available in the compiled data. Based on known information, benralizumab depletes eosinophils and basophils through antibody-dependent cellular cytotoxicity directed at IL-5Rα.
 
-The connection between benralizumab's approved indication (severe eosinophilic asthma) and atopic dermatitis is strong from an immunological standpoint: both are Th2-polarised atopic diseases sharing the same core inflammatory axis (IL-4, IL-5, IL-13, IgE), and both belong to the "atopic march" spectrum. Elevated blood and tissue eosinophilia is prominent in both conditions. TxGNN's knowledge graph appropriately identifies this mechanistic adjacency, reflected in its high prediction score of 99.16%.
+Eosinophils, basophils and innate lymphoid type 2 cells contribute to type 2 inflammation in atopic dermatitis and related eosinophilic skin disease. This gives a plausible link to the original eosinophil-driven lung indications, where the same cells are the therapeutic target.
 
-However, the clinical evidence tells a more complex story. The HILLIER Phase 2 RCT (NCT04605094, n=194) was terminated early due to lack of primary efficacy, and the published results in JEADV (PMID 37178404) confirmed that benralizumab does not significantly improve signs or symptoms of moderate-to-severe AD in an unselected patient population. Despite this, 2025 translational data (PMID 40781582) confirmed that benralizumab does deplete IL-5Rα-bearing cells within AD skin lesions, demonstrating clear pharmacodynamic proof of concept. This dissociation between target engagement and clinical response strongly suggests that the issue lies in **patient selection rather than mechanism**: eosinophil-high AD subpopulations and related eosinophil-driven skin conditions — such as Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS, NCT06734884) — may represent more appropriate and higher-probability targets for this agent.
+However, plausibility has not translated into clinical benefit. A published report of the Phase 2 HILLIER trial describes a **lack of effect** on signs and symptoms of moderate-to-severe atopic dermatitis. The mechanistic rationale should therefore be treated as unproven.
 
 ---
 
@@ -69,10 +71,9 @@ However, the clinical evidence tells a more complex story. The HILLIER Phase 2 R
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04605094](https://clinicaltrials.gov/study/NCT04605094) | Phase 2 | Terminated | 194 | **HILLIER study** — Multicentre, randomised, double-blind, placebo-controlled RCT of benralizumab in moderate-to-severe atopic dermatitis. Early termination is a decisive negative signal; published results (PMID 37178404) confirmed lack of efficacy on disease signs and symptoms in an unselected population. The most critical data point for this repurposing indication. |
-| [NCT03563066](https://clinicaltrials.gov/study/NCT03563066) | Phase 2 | Completed | 20 | Proof-of-concept study of benralizumab in atopic dermatitis, examining eosinophil, basophil, and ILC2 depletion in skin lesions. Provides mechanistic evidence of target engagement in skin tissue; underpowered to evaluate clinical outcomes. |
-| [NCT06734884](https://clinicaltrials.gov/study/NCT06734884) | Phase 2 | Not Yet Recruiting | 96 | Benralizumab in Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) — a rare, severe eosinophil-driven skin reaction with no established standard treatment. Mechanistic fit stronger than for broad AD. Planned start January 2025; completion September 2029. |
-| [NCT04126499](https://clinicaltrials.gov/study/NCT04126499) | Observational | Completed | 28 | Retrospective observational study of benralizumab in severe eosinophilic asthma (Spanish individualised access programme). Provides real-world safety context and patient characteristics; indirectly relevant to dermatology comorbidities. |
+| [NCT04605094](https://clinicaltrials.gov/study/NCT04605094) | Phase 2 | Terminated | 194 | HILLIER: randomised, double-blind, 16-week placebo-controlled study in moderate-to-severe atopic dermatitis despite topical treatment, with a 36-week extension. Terminated early; the published report describes no effect on disease signs and symptoms. |
+| [NCT03563066](https://clinicaltrials.gov/study/NCT03563066) | Phase 2 | Completed | 20 | Mechanistic study of benralizumab effects on eosinophils, basophils and innate lymphoid type 2 cells in atopic dermatitis. Supports biological plausibility only; too small to show efficacy. |
+| [NCT06734884](https://clinicaltrials.gov/study/NCT06734884) | Phase 2 | Not yet recruiting | 96 | Anti-IL-5R therapy in drug reaction with eosinophilia and systemic symptoms (DRESS). No results yet; relevant to eosinophilic skin disease, not atopic dermatitis specifically. |
 
 ---
 
@@ -80,36 +81,34 @@ However, the clinical evidence tells a more complex story. The HILLIER Phase 2 R
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37178404](https://pubmed.ncbi.nlm.nih.gov/37178404/) | 2023 | Phase 2 RCT — Negative | Journal of the European Academy of Dermatology and Venereology | **Critical**: Benralizumab showed no significant improvement in signs and symptoms of moderate-to-severe AD (HILLIER trial primary outcome). Primary negative finding for broad atopic dermatitis indication. |
-| [38695680](https://pubmed.ncbi.nlm.nih.gov/38695680/) | 2024 | Phase 2 Trial Summary | Immunotherapy | Plain-language summary of the HILLIER study confirming negative efficacy outcomes in the unselected moderate-to-severe AD population. |
-| [40781582](https://pubmed.ncbi.nlm.nih.gov/40781582/) | 2025 | Mechanistic / Translational | Clinical and Translational Allergy | Benralizumab depletes IL-5Rα-bearing cells in AD skin lesions — pharmacodynamic proof of concept confirming direct target engagement in skin tissue despite the negative HILLIER clinical outcome. Key finding for hypothesis refinement. |
-| [39234416](https://pubmed.ncbi.nlm.nih.gov/39234416/) | 2024 | Mechanistic Study | The Journal of Allergy and Clinical Immunology: Global | Effect of benralizumab on skin inflammation after intradermal allergen challenge in patients with moderate-to-severe AD; supports biological activity in the cutaneous compartment. |
-| [39600395](https://pubmed.ncbi.nlm.nih.gov/39600395/) | 2024 | Systematic Review / Clinical Update | Allergologie Select | Comprehensive update on biologics for atopic diseases, urticaria, and angioedema, including benralizumab; contextualises benralizumab within the current therapeutic landscape and emerging competing agents. |
-| [36355314](https://pubmed.ncbi.nlm.nih.gov/36355314/) | 2023 | Review | Dermatology and Therapy | Safety of combining dupilumab with other monoclonal antibodies including benralizumab; relevant for patients with overlapping atopic comorbidities requiring dual biologic therapy. |
-| [36411004](https://pubmed.ncbi.nlm.nih.gov/36411004/) | 2023 | Narrative Review | Immunology and Allergy Clinics of North America | Biologics including benralizumab in women with allergic diseases (asthma, rhinitis, AD) during pregnancy and lactation; safety overview for special populations. |
-| [35987486](https://pubmed.ncbi.nlm.nih.gov/35987486/) | 2022 | Safety Review | The Journal of Allergy and Clinical Immunology: In Practice | Safety of benralizumab (among 7 FDA-approved biologics) in atopic diseases during pregnancy; covers maternal and fetal outcomes across published case series and registry data. |
-| [31690400](https://pubmed.ncbi.nlm.nih.gov/31690400/) | 2019 | Narrative Review | Allergy and Asthma Proceedings | Anti-IL-5 biologics (mepolizumab, reslizumab, benralizumab) reviewed for severe asthma, atopic dermatitis, and chronic urticaria; provides the pre-HILLIER rationale for cross-indication use. |
-| [36270814](https://pubmed.ncbi.nlm.nih.gov/36270814/) | 2023 | Case Report (Adverse Event) | Therapie | Benralizumab-induced **interstitial granulomatous dermatitis** — a paradoxical cutaneous adverse reaction. Particularly important for clinicians considering this agent in dermatological settings; highlights a potential treatment-related cutaneous risk. |
+| [37178404](https://pubmed.ncbi.nlm.nih.gov/37178404/) | 2023 | Phase 2 RCT report (HILLIER) | J Eur Acad Dermatol Venereol | Lack of effect of benralizumab on signs and symptoms of moderate-to-severe atopic dermatitis versus placebo. |
+| [35987486](https://pubmed.ncbi.nlm.nih.gov/35987486/) | 2022 | Review | J Allergy Clin Immunol Pract | Safety of biologics, including benralizumab, for atopic diseases during pregnancy. |
+| [36411004](https://pubmed.ncbi.nlm.nih.gov/36411004/) | 2023 | Review | Immunol Allergy Clin North Am | Monoclonal antibodies for allergic rhinitis, asthma and atopic dermatitis during pregnancy and lactation. |
+| [39600395](https://pubmed.ncbi.nlm.nih.gov/39600395/) | 2024 | Review | Allergologie Select | Update on biologics for atopic diseases, urticaria and angioedema, with a focus on hypersensitivity reactions. |
+| [42383238](https://pubmed.ncbi.nlm.nih.gov/42383238/) | 2026 | Review | Curr Ther Res | Efficacy and safety of monoclonal antibodies in paediatric atopic dermatitis. |
+| [36534318](https://pubmed.ncbi.nlm.nih.gov/36534318/) | 2023 | Review | Dermatol Ther | Updated pharmacologic approach to paediatric atopic dermatitis. |
+| [34642091](https://pubmed.ncbi.nlm.nih.gov/34642091/) | 2021 | Review | Ann Allergy Asthma Immunol | Guidance on choosing among biologics for allergy and asthma, including atopic dermatitis. |
+| [31690400](https://pubmed.ncbi.nlm.nih.gov/31690400/) | 2019 | Review | Allergy Asthma Proc | Immunobiologics, including anti-IL-5 agents, for severe asthma, atopic dermatitis and chronic urticaria. |
+| [33236428](https://pubmed.ncbi.nlm.nih.gov/33236428/) | 2020 | Review | Pediatr Allergy Immunol | Anti-IL-5 therapy in paediatric allergic diseases, including atopic dermatitis. |
+| [37170653](https://pubmed.ncbi.nlm.nih.gov/37170653/) | 2023 | Review | Clin Transl Sci | Evolving immunotherapy landscape for allergic conditions including atopic dermatitis. |
+
+The remaining publications retrieved are general reviews of biologics in asthma and allergic disease and do not provide direct evidence for benralizumab in dermatitis.
 
 ---
 
 ## Australia Market Information
 
-Benralizumab is **not currently registered** on the Australian Register of Therapeutic Goods (ARTG). There are no ARTG entries for this medicine.
-
-Benralizumab is available internationally as **Fasenra®** (AstraZeneca/Kyowa Kirin) and is approved in multiple jurisdictions — including the United States (FDA, 2017), European Union (EMA, 2018), and Japan (PMDA) — for the add-on maintenance treatment of severe eosinophilic asthma in adults.
-
-Australian healthcare professionals wishing to access this medicine for approved or unapproved indications should consider:
-- **TGA Special Access Scheme (SAS) Category B** — for individual patients with unmet clinical need
-- **TGA Authorised Prescriber** pathway — for clinicians wishing to treat a class of patients on an ongoing basis
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11994G | Fasenra Pen | Injection 30 mg in 1 mL single dose pre-filled pen | Not listed in the compiled data |
 
 ---
 
 ## Safety Considerations
 
-No Australian TGA-approved Product Information (PI) is currently available, as benralizumab is not registered in Australia. Please refer to the international **Fasenra® Product Information** (available from AstraZeneca or the FDA/EMA labelling) for comprehensive prescribing information.
+No warnings or contraindications were available in the compiled data. Please refer to the TGA-approved Product Information (PI) for safety information.
 
-A safety signal of particular relevance to dermatological use: a published case report (PMID 36270814, 2023) documented **benralizumab-induced interstitial granulomatous dermatitis** — a paradoxical cutaneous adverse reaction — which clinicians should be aware of when considering use in patients with skin conditions.
+The only interaction record identified is a pharmacology entry for the drug's target (IL-5Rα), not a drug-drug interaction. Reviews retrieved discuss use of benralizumab and other biologics in pregnancy and lactation, where safety data remain limited.
 
 ---
 
@@ -118,15 +117,15 @@ A safety signal of particular relevance to dermatological use: a published case 
 **Decision: Hold**
 
 **Rationale:**
-The pivotal Phase 2 HILLIER RCT (NCT04605094, n=194) was terminated early, and published results confirmed no clinically meaningful benefit of benralizumab in an unselected moderate-to-severe atopic dermatitis population — representing a decisive negative signal for broad use in this indication. Although pharmacodynamic proof of concept (eosinophil depletion in skin lesions) has been confirmed, this has not translated into clinical efficacy in the general AD population. The drug is also not registered in Australia, and no TGA-approved Product Information is available.
+The mechanistic rationale is plausible, but the only randomised placebo-controlled trial in atopic dermatitis was terminated and has been reported as showing no effect. The remaining evidence is a small mechanistic study, a trial in a different eosinophilic condition with no results, and review articles. The high TxGNN score is a computational prediction and does not offset the negative clinical signal.
 
 **To proceed, the following is needed:**
+- Review of the HILLIER termination reason and full results (efficacy futility versus safety)
+- Reassessment of whether any dermatitis subtype, such as eosinophil-driven DRESS, merits focused investigation once NCT06734884 reports
+- Mechanism of action data and TGA PI warnings and contraindications
+- Confirmation of the approved indications for ARTG 11994G
 
-- **Patient stratification analysis**: Examination of the HILLIER trial dataset for treatment response in patients with high baseline blood eosinophil counts (≥300 cells/μL) or confirmed tissue eosinophilia — the subgroup most likely to benefit from IL-5Rα blockade
-- **DRESS indication monitoring**: Await results from NCT06734884 (benralizumab in DRESS), which represents a stronger mechanistic fit and may define a clinically viable, niche use case
-- **Biomarker-driven trial design**: Any future investigator-initiated trial should incorporate pre-specified eosinophil count thresholds and skin biopsy endpoints as response-predictive biomarkers
-- **TGA regulatory pathway**: Initiate SAS Category B application or TGA registration assessment if use in a specific Australian patient cohort is clinically justified
-- **Full safety review**: Comprehensive review of international Fasenra® PI for warnings, contraindications (including helminth infection risk), and special population considerations prior to any off-label use
+**Other predictions:** The other top-10 predictions (including immune thrombocytopenia, Evans syndrome and dermatomyositis variants) have no clinical trials or literature and weak mechanistic support. All remain at **Hold**.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

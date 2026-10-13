@@ -2,7 +2,7 @@
 layout: default
 title: Fenfluramine
 parent: Model Prediction Only (L5)
-nav_order: 268
+nav_order: 289
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,29 +29,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fenfluramine: From an Unrecorded Original Indication to Proximal 16p11.2 Microdeletion Syndrome
+# Fenfluramine: From Obesity to Proximal 16p11.2 Microdeletion Syndrome
 
-## Summary
+## One-Sentence Summary
 
-This evidence pack does not record fenfluramine's original approved indication, and the drug is not currently marketed in Australia (0 ARTG entries). The TxGNN model's top-ranked prediction links fenfluramine to **proximal 16p11.2 microdeletion syndrome** (score 99.93%), but this prediction is supported by **zero clinical trials and zero literature** — the evidence pack's own rationale states there is no pharmacological plausibility for a serotonin-releasing agent in this rare chromosomal microdeletion disorder.
+Fenfluramine was originally used to treat obesity, including monogenic obesity, and is now marketed in Australia as an oral solution (Fintepla). The TxGNN model predicts it may be effective for **proximal 16p11.2 microdeletion syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in this evidence pack (no licence or indication data recorded) |
+| Original Indication | Obesity disorder; monogenic obesity (from the knowledge graph, as no approved indication text is recorded for the ARTG entry) |
 | Predicted New Indication | Proximal 16p11.2 microdeletion syndrome |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Mechanism-of-action data for fenfluramine is not available in this evidence pack. This is the model's single highest-scoring prediction among fenfluramine's candidate indications, but the accompanying rationale explicitly states there is **no known mechanistic link** between fenfluramine and proximal 16p11.2 microdeletion syndrome, and no clinical trial or literature evidence exists for this pairing.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, fenfluramine is a serotonin-releasing agent that also modulates 5-HT2 and sigma-1 receptors. It was first used as an appetite suppressant and is now approved in many markets for seizures in Dravet syndrome and Lennox-Gastaut syndrome.
 
-Proximal 16p11.2 microdeletion syndrome is a rare genomic microdeletion disorder affecting neurodevelopment. A serotonin-releasing agent has no established pharmacological rationale for intervening in this condition — the prediction should be read as a raw embedding-space signal from the model rather than a clinically motivated hypothesis.
+The 16p11.2 deletion is associated with obesity, epilepsy and neurodevelopmental features. This gives a plausible, though indirect, link to both the original obesity indication and fenfluramine's antiseizure activity through serotonergic pathways.
+
+No trial or published study in the compiled data tests this link. The very high TxGNN score (99.93%) is a graph-based prediction only and should not be read as clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -59,28 +61,56 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for this predicted indication.
 
 ## Australia Market Information
 
-Fenfluramine has no ARTG entries and is not currently marketed in Australia.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14833Q | Fintepla | Oral solution 2.2 mg (as hydrochloride) per mL, 360 mL | Not recorded in the compiled data |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Knowledge-graph contraindication signals** (these come from drug-disease links in the TxGNN knowledge graph, not from approved label text): hypertension and hypertensive disorder, pulmonary hypertension, glaucoma, type 1 and type 2 diabetes mellitus, diabetic ketoacidosis, and substance abuse/dependence.
+- **Drug Interactions**: The interaction query returned 100 records. Those listed in the compiled data include these **Major** interactions:
+  - Fentanyl
+  - Dextromethorphan
+  - Tramadol
+  - Alfentanil
+  - Almotriptan
+
+  Several **Moderate** interactions were also listed, including:
+  - Abciximab
+  - Abiraterone
+  - Acalabrutinib
+  - Acarbose
+  - Codeine
+  - Dihydrocodeine
+  - Ibuprofen
+  - Ketorolac
+  - Salbutamol
+  - Formoterol
+  - Ethanol
+  - Pioglitazone
+  - Alogliptin
+  - Albiglutide
+  - Trastuzumab emtansine
+
+Warnings and contraindications from the label were not available. Please refer to the TGA-approved Product Information (PI) for full safety information. Fenfluramine's historical withdrawal as an anti-obesity agent because of valvular heart disease and pulmonary hypertension is well documented, and it is relevant to any new use.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction is evidence level L5 (model prediction only) with no supporting clinical trials or literature, and the evidence pack's own mechanistic assessment finds no pharmacological plausibility. Combined with a blocking data gap on Product Information warnings/contraindications and a high-severity gap on mechanism of action, this candidate does not meet the bar for further evaluation as currently scored.
+The prediction has no supporting clinical trials or literature (Evidence Level L5). The mechanistic link is plausible but unproven, and the known cardiac and pulmonary safety concerns call for caution.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications) — currently a blocking data gap (DG001)
-- Mechanism-of-action data via DrugBank — currently a high-severity data gap (DG002)
-- Documented original indication history for fenfluramine, to establish a proper baseline for comparison
-- If repurposing is still of interest, other candidates in this pack — e.g. fatty liver disease (rank 9, evidence level L4, decision stage S1, indirect weight-loss-mediated mechanism) — warrant a separate, dedicated evaluation rather than the rank-1 signal used here
+- Mechanism of action data and a direct mechanistic analysis for 16p11.2 microdeletion syndrome
+- A literature and trial search specific to fenfluramine in 16p11.2 deletion, including ANZCTR and international registries
+- The TGA Product Information (warnings, contraindications and approved indications) for Fintepla
+- A cardiac and pulmonary safety monitoring plan, such as echocardiography
+- Review of the interactions with serotonergic and opioid drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

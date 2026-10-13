@@ -2,15 +2,15 @@
 layout: default
 title: Diltiazem
 parent: Moderate Evidence (L3-L4)
-nav_order: 200
-evidence_level: L3
+nav_order: 217
+evidence_level: L4
 indication_count: 10
 ---
 
 # Diltiazem
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,106 +33,114 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Diltiazem is a non-dihydropyridine calcium channel blocker with established international use for hypertension, angina pectoris, and atrial fibrillation rate control, though it is not currently registered in Australia.
-The TxGNN model predicts it may be beneficial for **Cerebrovascular Disorder** — the highest-evidenced predicted indication (ranked #4, TxGNN score 97.63%) — supported by **6 clinical trials** and **20 publications**, the strongest evidence base across all predictions in this pack.
+Diltiazem is a calcium channel blocker originally used for hypertension, atrial fibrillation, Prinzmetal angina and ventricular tachycardia.
+The TxGNN model predicts it may be effective for **Cerebrovascular Disorder** (the highest-ranked prediction with any supporting data), but only **1 indirect clinical trial** and **20 largely non-specific publications** are available, so the evidence is weak.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension, angina pectoris, atrial fibrillation (established international use; no ARTG registration) |
-| Predicted New Indication | Cerebrovascular Disorder |
+|------|------|
+| Original Indication | Hypertension, atrial fibrillation, Prinzmetal angina, ventricular tachycardia (from the knowledge graph; no approved indication text is available for the Australian product) |
+| Predicted New Indication | Cerebrovascular disorder (see note below) |
 | TxGNN Prediction Score | 97.63% |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Research Question |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
+
+**Note on candidate selection:** The top-ranked predictions are "obsolete susceptibility to ischemic stroke" (99.08%), "brain stem infarction" (98.23%) and "obsolete bundle branch block" (97.88%). None has any trial or literature support, and two use obsolete disease terms. Cerebrovascular disorder is the highest-ranked prediction with any supporting data, so it is the focus of this report. The other predictions, all with a TxGNN score of at least 96.7%, are summarised in the conclusion.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on established pharmacology, Diltiazem is a benzothiazepine-class calcium channel blocker that blocks L-type voltage-dependent calcium channels in cardiac and vascular smooth muscle. This reduces systemic vascular resistance, decreases myocardial oxygen demand, slows atrioventricular (AV) nodal conduction, and produces coronary and peripheral vasodilation.
+Detailed mechanism of action data are not currently available. Based on known information, diltiazem is a calcium channel blocker. It blocks L-type calcium channels in vascular smooth muscle and cardiac tissue, causing vasodilation, blood pressure reduction and slowed atrioventricular nodal conduction. Its efficacy in hypertension and rate control in atrial fibrillation is established, and mechanistically it may be applicable to cerebrovascular disease.
 
-Three indirect but mechanistically coherent pathways link Diltiazem to cerebrovascular disease. First, sustained systemic blood pressure reduction decreases cumulative cerebrovascular damage — the central mechanism behind calcium channel blockers' recognised role in stroke prevention within hypertension management guidelines. Second, inhibition of calcium influx into cerebrovascular smooth muscle can relax cerebral arteries and relieve vasospasm; this was directly demonstrated in a 1985 non-human primate model of chronic cerebrovascular spasm (PMID 2416213), and a human intraoperative study confirmed that a Diltiazem bolus increases internal carotid blood flow velocity during cerebral aneurysm surgery (PMID 8204245). Third, Diltiazem's established role as an atrial fibrillation (AF) rate-control agent is clinically significant: AF is the single most important modifiable risk factor for cardioembolic stroke, and rate control with Diltiazem may translate into reduced cerebrovascular event burden.
+The link to cerebrovascular disease is plausible in two ways. First, blood pressure control is central to stroke prevention and post-stroke care. Second, atrial fibrillation, one of diltiazem's existing uses, is a major cause of stroke. Preclinical work also suggests calcium influx contributes to neuronal injury after ischaemia (PMID 7902749), and early animal studies tested diltiazem in acute stroke (PMID 4056906).
 
-The landmark NORDIL trial (Lancet, 2000) provides Level 1 RCT data showing Diltiazem is non-inferior to diuretics and beta-blockers for cardiovascular outcomes — including stroke — in hypertensive patients. The absence of a dedicated randomised trial evaluating Diltiazem specifically for cerebrovascular endpoints remains a genuine evidence gap and the primary barrier to advancing this prediction.
+However, no data compiled for this report show that diltiazem itself improves cerebrovascular outcomes in people. The prediction is best viewed as a hypothesis, not a supported new use.
 
 ---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT06783868](https://clinicaltrials.gov/study/NCT06783868) | N/A | Not yet recruiting | 100 | SAVE STROKE Phase II: AF catheter ablation vs rate-control medication in recent stroke patients with new-onset AF; Diltiazem is a likely rate-control comparator; primary endpoint is neurological outcome |
-| [NCT05838664](https://clinicaltrials.gov/study/NCT05838664) | N/A | Completed | 2,140,403 | SIFNOS: large French retrospective cohort of AF patients with/without oral anticoagulation (2016–2020); Diltiazem in the AF rate-control cohort provides real-world stroke incidence data at population scale |
-| [NCT01176565](https://clinicaltrials.gov/study/NCT01176565) | Phase 3 | Terminated | 1,000 | ATACH-II: intensive vs standard blood pressure reduction in acute intracerebral haemorrhage; calcium channel blockers assessed as an antihypertensive class; terminated early — evidence value reduced |
-| [NCT06175663](https://clinicaltrials.gov/study/NCT06175663) | N/A | Unknown | 130 | Midlife hypertension and cerebral small vessel disease MRI biomarkers; Diltiazem not the primary intervention, but the hypertension-to-cerebrovascular damage pathway is directly relevant |
-| [NCT03529149](https://clinicaltrials.gov/study/NCT03529149) | Phase 4 | Unknown | 90 | TCD-guided blood pressure management after endovascular thrombectomy; Diltiazem may be among the antihypertensive agents used; status unknown limits usability |
-| [NCT02922452](https://clinicaltrials.gov/study/NCT02922452) | Phase 1 | Completed | 16 | Pharmacokinetic DDI study: effect of Diltiazem on BMS-986141 plasma concentrations in healthy volunteers; no cerebrovascular treatment relevance |
+|---------|------|------|------|---------|
+| [NCT03529149](https://clinicaltrials.gov/study/NCT03529149) | Phase 4 | Unknown | 90 | Transcranial Doppler (TCD)-guided blood pressure control after endovascular thrombectomy. Diltiazem is not confirmed as the studied intervention, so this is indirect evidence at best (relevance grade C). |
 
-> Note: None of the above trials use Diltiazem as a primary cerebrovascular intervention. All evidence is indirect, captured through the antihypertensive and AF rate-control pathways.
+No ANZCTR trial identifiers were available.
 
 ---
 
 ## Literature Evidence
 
+The 20 publications retrieved are mostly general reviews on atrial fibrillation, drug interactions and calcium channel blockers. None provides direct evidence for cerebrovascular disease. The most relevant are listed below.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [10972367](https://pubmed.ncbi.nlm.nih.gov/10972367/) | 2000 | RCT | Lancet | NORDIL trial: Diltiazem non-inferior to diuretics/beta-blockers for cardiovascular outcomes (including fatal and non-fatal stroke) in hypertensive patients — the primary RCT basis for Diltiazem in stroke risk reduction |
-| [41152878](https://pubmed.ncbi.nlm.nih.gov/41152878/) | 2025 | Retrospective Cohort | BMC Medicine | Multinational cohort in non-valvular AF: DOAC plus interacting antiarrhythmic drugs (including Diltiazem) — stroke and bleeding outcomes assessed across multiple countries |
-| [37791408](https://pubmed.ncbi.nlm.nih.gov/37791408/) | 2023 | Retrospective Cohort | Eur Heart J Cardiovasc Pharmacother | Nationwide cohort: P-gp/CYP3A4 inhibitors (including Diltiazem) combined with NOACs in AF — stroke and major bleeding outcomes assessed |
-| [36149579](https://pubmed.ncbi.nlm.nih.gov/36149579/) | 2023 | Retrospective Cohort | J Interv Card Electrophysiol | Diltiazem co-prescribed with DOACs in AF patients: major bleeding risk quantified in a real-world population |
-| [35861836](https://pubmed.ncbi.nlm.nih.gov/35861836/) | 2022 | Retrospective Cohort | J Am Heart Assoc | Concomitant Diltiazem + DOAC use and bleeding risk stratified by kidney function in AF patients (n=4,544) |
-| [17309423](https://pubmed.ncbi.nlm.nih.gov/17309423/) | 2007 | Review | Med J Australia | Australian review of AF management: Diltiazem cited as a preferred rate-control agent over digoxin during exercise; AF-to-stroke linkage explicitly discussed |
-| [11975840](https://pubmed.ncbi.nlm.nih.gov/11975840/) | 2002 | Review | Heart Disease | AF epidemiology: associations with coronary events, stroke and mortality; Diltiazem's rate-control role reviewed |
-| [8204245](https://pubmed.ncbi.nlm.nih.gov/8204245/) | 1994 | Clinical Study | J Clin Anesthesia | Diltiazem bolus (5 mg) increases internal carotid blood flow velocity and local cerebral blood flow during aneurysm surgery — direct human-level evidence of cerebral vasodilatory effect |
-| [2416213](https://pubmed.ncbi.nlm.nih.gov/2416213/) | 1985 | Animal Study | Am J Cardiology | Non-human primate model: Diltiazem protects cerebral arteries against chronic vasospasm following subarachnoid haemorrhage — the only direct preclinical evidence for Diltiazem in cerebrovascular disease |
-| [4056906](https://pubmed.ncbi.nlm.nih.gov/4056906/) | 1985 | Animal Study | J Neurosurgery | Diltiazem and verapamil infused before middle cerebral artery occlusion in cats — direct preclinical test of calcium channel blockade in acute ischaemic stroke |
+|------|-----|------|------|---------|
+| [4056906](https://pubmed.ncbi.nlm.nih.gov/4056906/) | 1985 | Preclinical (cats) | J Neurosurg | Verapamil and diltiazem infusions tested in acute middle cerebral artery occlusion. |
+| [17309423](https://pubmed.ncbi.nlm.nih.gov/17309423/) | 2007 | Review | Med J Aust | Atrial fibrillation management. Beta-blockers, verapamil and diltiazem control heart rate better than digoxin during exercise. |
+| [11975840](https://pubmed.ncbi.nlm.nih.gov/11975840/) | 2002 | Review | Heart Dis | Atrial fibrillation is associated with a higher incidence of stroke and mortality. |
+| [41730211](https://pubmed.ncbi.nlm.nih.gov/41730211/) | 2026 | Cohort | Ann Intern Med | Bleeding risk in atrial fibrillation with apixaban or rivaroxaban plus diltiazem, compared with metoprolol. |
+| [41152878](https://pubmed.ncbi.nlm.nih.gov/41152878/) | 2025 | Cohort | BMC Med | Stroke and bleeding with DOACs plus interacting antiarrhythmic drugs in non-valvular atrial fibrillation. |
+| [35861836](https://pubmed.ncbi.nlm.nih.gov/35861836/) | 2022 | Observational | J Am Heart Assoc | Diltiazem, a moderate CYP3A4/P-glycoprotein inhibitor, may raise DOAC bleeding risk. |
+| [36149579](https://pubmed.ncbi.nlm.nih.gov/36149579/) | 2023 | Observational | J Interv Card Electrophysiol | Major bleeding risk after co-prescription of diltiazem and DOACs in atrial fibrillation. |
+| [40326046](https://pubmed.ncbi.nlm.nih.gov/40326046/) | 2026 | Meta-analysis | Ann Pharmacother | Diltiazem or verapamil with DOACs. Earlier real-world findings were contradictory. |
+| [40670662](https://pubmed.ncbi.nlm.nih.gov/40670662/) | 2025 | Systematic review | Eur J Clin Pharmacol | Observational studies of DOACs combined with antiarrhythmic drugs. |
+| [11002856](https://pubmed.ncbi.nlm.nih.gov/11002856/) | 2000 | Review | Drugs | Calcium antagonists lower blood pressure effectively. Morbidity and mortality trials are needed. |
 
 ---
 
 ## Australia Market Information
 
-Diltiazem is **not currently registered** on the Australian Register of Therapeutic Goods (ARTG). There are no approved products, dosage forms, or approved indications on record in Australia.
-
-> Diltiazem is widely available internationally — including the United States, European Union, United Kingdom, and New Zealand — in immediate-release and extended-release oral formulations and as intravenous preparations, approved for hypertension, angina, and atrial fibrillation. Any use in Australia would require either TGA registration or access under the Special Access Scheme (SAS Category B or C).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1312C | Cardizem CD | Controlled-delivery capsule containing diltiazem hydrochloride 180 mg (oral) | Not available in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-No Australian TGA Product Information (PI) is available, as Diltiazem is not ARTG-registered. The following clinically important signals were identified from the published literature in this evidence pack:
+**Contraindication signals from the knowledge graph (not label text):** these come from drug-disease contraindication links in the TxGNN knowledge graph and should be verified against the Product Information. They include:
+- **Cardiac conduction and rhythm:** atrioventricular block, sick sinus syndrome, Wolff-Parkinson-White syndrome, Lown-Ganong-Levine syndrome, ventricular tachycardia
+- **Haemodynamic and structural:** hypotensive disorder, aortic stenosis, hypertrophic cardiomyopathy, renal artery obstruction
+- **Organ disease:** kidney disease, liver disease, gallbladder disease
+- **Haematological:** neutropenia, agranulocytosis
+- **Angioedema** (several forms)
 
-**Drug Interactions:**
-- Diltiazem is a moderate inhibitor of both CYP3A4 and P-glycoprotein. Co-prescription with direct oral anticoagulants (apixaban, rivaroxaban, dabigatran, edoxaban) significantly increases DOAC plasma concentrations, potentially elevating bleeding risk. Multiple real-world retrospective cohorts (PMIDs 36149579, 35861836, 37791408, 40326046, 41152878) have examined this interaction; findings on clinical bleeding outcomes are inconsistent, but warrant careful monitoring in any AF patient receiving both agents.
-- Diltiazem + simvastatin: CYP3A4 inhibition substantially raises simvastatin exposure; linked in one case report series to fatal intracranial haemorrhage (INR >8) and myopathy following a statin switch (PMID 17304269). Atorvastatin is generally preferred when Diltiazem is co-prescribed.
-- Perioperative intravenous Diltiazem in cardiac surgery: associated with increased incidence of postoperative acute renal failure (PMID 9594859); caution advised in patients with pre-existing renal impairment.
-- Anaesthetic drug interactions: calcium channel blockers may potentiate cardiovascular depression and neuromuscular blockade with halogenated anaesthetic agents (PMID 2975926).
+Several of these (atrioventricular block, sick sinus syndrome, hypotension) are especially relevant if diltiazem were used in stroke patients, who often have labile blood pressure and arrhythmias.
 
-For complete prescribing information, refer to an approved international Product Information document (e.g., US FDA prescribing information for Diltiazem hydrochloride).
+**Drug interactions:** 100 interactions were identified. Those listed in the data include:
+- **Major:** loperamide
+- **Moderate:** corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), pioglitazone, bupropion, aprepitant, morphine, aspirin, canagliflozin, and calcium salts
+
+The literature also highlights that diltiazem inhibits CYP3A4 and P-glycoprotein, which may raise DOAC levels and bleeding risk. Statin interactions (e.g. simvastatin) have also been reported. This matters because patients with cerebrovascular disease commonly take anticoagulants and statins.
+
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications, as these were not available for this report.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question**
+**Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction for cerebrovascular disorder is mechanistically well-grounded — supported by three pharmacological pathways (BP reduction, cerebral vasodilation, AF rate control) — and anchored by the landmark NORDIL RCT and multiple real-world observational cohorts (L3 evidence). However, no clinical trial has yet evaluated Diltiazem as a primary cerebrovascular therapeutic, Diltiazem is not registered in Australia, and the majority of identified evidence is indirect or observational.
+The prediction rests on a model score and a plausible vasodilatory mechanism. There is no direct clinical evidence, only one indirect Phase 4 trial and literature that is mostly about other topics. Safety is also a concern in this population, given the conduction-related contraindication signals and bleeding-related interactions with anticoagulants.
+
+**Other predictions reviewed (all Hold, no supporting evidence):**
+- Obsolete susceptibility to ischemic stroke, brain stem infarction, pulmonary hypertension (unclear multifactorial mechanism), malignant hypertensive renal disease and malignant renovascular hypertension: plausible only through vasodilation or blood pressure lowering, with no supporting trials.
+- Obsolete bundle branch block: mechanistically questionable and carries a safety concern, since diltiazem slows AV conduction.
+- Pulmonary hypertension owing to lung disease and/or hypoxia: only preclinical evidence, and calcium channel blockers are generally not recommended because they can worsen gas exchange.
+- ABri amyloidosis and Braddock syndrome: no plausible mechanism, likely network artefacts.
 
 **To proceed, the following is needed:**
-- Define the specific research question: primary stroke prevention through BP/AF rate control, or acute/subacute cerebrovascular treatment such as post-subarachnoid haemorrhage vasospasm
-- Assess the TGA registration pathway or Special Access Scheme eligibility for any proposed Australian clinical use
-- Commission a systematic review or individual patient data meta-analysis pooling Diltiazem's stroke-related outcomes from existing antihypertensive and AF rate-control trial data
-- Obtain Diltiazem MOA data from DrugBank (DG002 remediation) to complete the mechanistic justification and address the High-severity data gap
-- Develop a pharmacovigilance protocol specifically addressing the Diltiazem–DOAC pharmacokinetic interaction, given the high overlap between the cerebrovascular disorder target population and AF patients receiving anticoagulation
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All repurposing candidates require clinical validation before therapeutic application. Data cutoff: 4 April 2026.*
+- Product Information warnings and contraindications for the Australian product, and the approved indication text for ARTG 1312C
+- Mechanism of action data (for example from DrugBank)
+- A targeted literature review for diltiazem in secondary stroke prevention or post-stroke blood pressure management
+- Confirmation of whether diltiazem is an intervention in NCT03529149
+- A safety plan covering conduction disorders, hypotension, and interactions with anticoagulants and statins
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

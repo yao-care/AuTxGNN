@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dasatinib
-parent: High Evidence (L1-L2)
-nav_order: 186
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 201
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dasatinib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,112 +29,119 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Dasatinib: From Myeloid Leukaemia to Ewing Sarcoma
+# Dasatinib: From BCR-ABL1-Positive Chronic Myeloid Leukaemia to Ewing Sarcoma
 
 ## One-Sentence Summary
 
-Dasatinib (Sprycel®) is a multi-targeted tyrosine kinase inhibitor (TKI) with well-established use in chronic myeloid leukaemia (CML) and Philadelphia chromosome-positive (Ph+) acute lymphoblastic leukaemia, functioning by blocking BCR-ABL, Src family kinases, c-KIT, and PDGFR.
-The TxGNN model predicts it may be effective for **Ewing Sarcoma**, with **3 clinical trials** and **9 publications** currently supporting this direction.
-The strongest clinical evidence comes from a completed Phase 2 trial in advanced sarcomas (NCT00464620, n=366), though Ewing sarcoma-specific subgroup data requires confirmation from the primary publication.
+Dasatinib is an oral tyrosine kinase inhibitor, originally used to treat BCR-ABL1-positive chronic myeloid leukaemia (CML), including the blast phase.
+The TxGNN model predicts it may be effective for **Ewing sarcoma**, but the evidence is thin: **2 clinical trials** (one terminated with 7 patients, one sarcoma-wide Phase 2) and **10 publications**, mostly preclinical or review articles.
+The supporting evidence is mostly mechanistic (Src inhibition), and the sarcoma-wide Phase 2 trial reportedly showed dasatinib failed as a single agent in Ewing sarcoma.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Chronic Myeloid Leukaemia (CML) and Ph+ Acute Lymphoblastic Leukaemia — inferred from clinical evidence; no Australian ARTG registration |
-| Predicted New Indication | Ewing Sarcoma |
+|------|------|
+| Original Indication | Chronic myelogenous leukaemia, BCR-ABL1 positive (including blast phase) |
+| Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 99.90% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L2 (as scored in the data compiled; see note below) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
+
+*Note: The data compiled for this report scored this prediction L2, but the only Phase 2 trial is a sarcoma-wide study with no Ewing-specific results supplied. A conservative reading is L4 (preclinical and mechanistic support). I have therefore recommended Hold.*
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from this data package. Based on published clinical and preclinical literature, dasatinib is an orally bioavailable small-molecule inhibitor of multiple tyrosine kinases — including BCR-ABL, Src family kinases (Lyn, Hck, Fyn), c-KIT, and PDGFR-α/β — and is approximately 325-fold more potent than imatinib against wild-type BCR-ABL in vitro. Its primary oncology role exploits BCR-ABL inhibition in CML, but its broad kinase profile makes it mechanistically relevant across other tumour types.
+Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known information, dasatinib is a multi-targeted kinase inhibitor acting on BCR-ABL and Src-family kinases, and also on c-KIT, PDGFR and ephrin receptor kinases. Its efficacy in BCR-ABL1-positive CML is established.
 
-The mechanistic link to Ewing sarcoma centres on Src kinase signalling. Multiple independent in vitro studies (2007–2022) consistently show that microenvironmental stresses — such as hypoxia and mechanical pressure — persistently activate Src in Ewing sarcoma cells, driving invadopodia formation, cell migration, and invasion, which are key steps in metastatic progression (PMID 27566104, PMID 31521948). Dasatinib's inhibition of the Src/FAK complex directly disrupts this pathway, demonstrating antiproliferative and antimigratory activity in Ewing sarcoma cell lines (PMID 18202781, PMID 17363602). The extracellular matrix protein tenascin-C has been specifically identified as cooperating with Src in promoting invadopodia, reinforcing the specificity of this signalling axis in Ewing sarcoma biology.
+The link to Ewing sarcoma is through Src-family kinase signalling. Preclinical studies show Src (including the FAK-Src complex) drives invasion, migration and invadopodia formation in Ewing sarcoma cells. Dasatinib reduced proliferation and migration in Ewing sarcoma and other sarcoma cell lines, and induced apoptosis in bone sarcoma cells that depend on Src.
 
-While Ewing sarcoma and CML differ substantially, both are linked through Src kinase dependency. The completed Phase 2 trial NCT00464620 (n=366, advanced sarcomas) provides the most clinically relevant evidence to date, though it enrolled a mixed sarcoma population. The TxGNN prediction is well-grounded in this mechanistic framework, and the convergence of multiple independent preclinical datasets over 15 years supports the biological plausibility of this repurposing candidate.
+The rationale is plausible but clinical benefit is not demonstrated. A review notes that dasatinib failed as a single agent in Ewing sarcoma and rhabdomyosarcoma in a Phase 2 sarcoma study. Interest has since shifted to combinations, such as the RIST regimen (rapamycin, irinotecan, dasatinib, temozolomide) in relapsed disease.
 
 ---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT00464620](https://clinicaltrials.gov/study/NCT00464620) | Phase 2 | Completed | 366 | Dasatinib in advanced sarcomas (largest dedicated sarcoma dasatinib trial); evaluated response rate and 6-month progression-free survival. Enrolled a mixed sarcoma population including Ewing sarcoma. Ewing subgroup results require primary publication (Schuetze et al.) for formal confirmation. |
-| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Phase 1/2 | Terminated | 7 | Dasatinib in combination with ifosfamide, carboplatin, and etoposide in paediatric solid tumours including Ewing sarcoma. Terminated early due to poor enrolment; provides preliminary paediatric safety signals only — no efficacy conclusions drawn. |
-| [NCT06500819](https://clinicaltrials.gov/study/NCT06500819) | Phase 1 | Recruiting | 41 | B7-H3 CAR-T cell therapy in children and young adults with relapsed or refractory solid tumours (B7-H3 positive), including Ewing sarcoma. Dasatinib's role in this context is as a CAR-T off-target toxicity management agent, not as a direct antitumour therapy. |
+|---------|------|------|------|---------|
+| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Phase 1/2 | Terminated | 7 | Paediatric trial of dasatinib with ifosfamide, carboplatin and etoposide. Terminated early, so little usable safety or efficacy information. |
+| [NCT00464620](https://clinicaltrials.gov/study/NCT00464620) | Phase 2 | Completed | 366 | Dasatinib in advanced sarcomas, measuring response rate and 6-month progression-free survival. Sarcoma-wide; Ewing-specific results were not supplied. |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [17363602](https://pubmed.ncbi.nlm.nih.gov/17363602/) | 2007 | In vitro preclinical | Cancer Research | Dasatinib inhibits migration and invasion across diverse human sarcoma cell lines; induces apoptosis in bone sarcoma cells (including Ewing) dependent on Src kinase for survival. Foundational preclinical study. |
-| [18202781](https://pubmed.ncbi.nlm.nih.gov/18202781/) | 2008 | In vitro preclinical | Oncology Reports | Dasatinib demonstrates antiproliferative and antimigratory activity in Ewing sarcoma and neuroblastoma cell lines via c-KIT and PDGFR inhibition. |
-| [27566104](https://pubmed.ncbi.nlm.nih.gov/27566104/) | 2016 | In vitro | Neoplasia | Microenvironmental stress drives Src-dependent invadopodia formation and cell migration in Ewing sarcoma; identifies Src as a key metastatic driver and therapeutic target. |
-| [31521948](https://pubmed.ncbi.nlm.nih.gov/31521948/) | 2019 | In vitro | Neoplasia | Tenascin-C and Src cooperate to promote invadopodia in Ewing sarcoma under microenvironmental stress, reinforcing the disease-specific rationale for Src-targeted therapy. |
-| [35655525](https://pubmed.ncbi.nlm.nih.gov/35655525/) | 2022 | In vitro / Translational | Sarcoma | FAK-Src complex targeting in Ewing sarcoma, DSRCT, and rhabdomyosarcoma; dasatinib single-agent activity is limited but combination strategies with FAK inhibitors show preclinical promise. |
-| [26170970](https://pubmed.ncbi.nlm.nih.gov/26170970/) | 2015 | Review | Oncology Letters | Comprehensive review of Src signalling in sarcoma biology; discusses Src's role in proliferation, apoptosis, invasion, and metastasis, and its feasibility as a drug target in sarcoma. |
-| [29776413](https://pubmed.ncbi.nlm.nih.gov/29776413/) | 2018 | In vitro | Cell Communication and Signaling | CXCR4 antagonism with plerixafor paradoxically activates receptor tyrosine kinase signalling in Ewing sarcoma, highlighting the complexity of the signalling network and potential combination targeting opportunities. |
-| [35190971](https://pubmed.ncbi.nlm.nih.gov/35190971/) | 2022 | Review | Current Treatment Options in Oncology | Systemic therapy review for chondrosarcoma; contextual reference to Src/PDGFR inhibition in the broader sarcoma treatment landscape. |
-| [32999666](https://pubmed.ncbi.nlm.nih.gov/32999666/) | 2020 | Case Report | Case Reports in Oncology | Rare chromosomal abnormality in CML blast crisis treated with dasatinib; limited direct relevance to Ewing sarcoma but provides general dasatinib pharmacological context. |
+|------|-----|------|------|---------|
+| [35655525](https://pubmed.ncbi.nlm.nih.gov/35655525/) | 2022 | Review | Sarcoma | Targeting the FAK-Src complex in DSRCT, Ewing sarcoma and rhabdomyosarcoma; single-agent dasatinib failed in the Phase 2 sarcoma study. |
+| [42804591](https://pubmed.ncbi.nlm.nih.gov/42804591/) | 2026 | Case series | J Pediatr Hematol Oncol | Single-centre descriptive experience with the RIST regimen (including dasatinib) in relapsed Ewing sarcoma. |
+| [26170970](https://pubmed.ncbi.nlm.nih.gov/26170970/) | 2015 | Review | Oncol Lett | Src signalling as a potential drug target in sarcoma. |
+| [35190971](https://pubmed.ncbi.nlm.nih.gov/35190971/) | 2022 | Review | Curr Treat Options Oncol | Systemic therapy for chondrosarcoma (limited direct relevance to Ewing sarcoma). |
+| [18202781](https://pubmed.ncbi.nlm.nih.gov/18202781/) | 2008 | In vitro | Oncol Rep | Dasatinib showed antiproliferative and antimigratory activity in neuroblastoma and Ewing sarcoma cell lines. |
+| [17363602](https://pubmed.ncbi.nlm.nih.gov/17363602/) | 2007 | In vitro | Cancer Res | Dasatinib inhibited migration and invasion in sarcoma cell lines and induced apoptosis in Src-dependent bone sarcoma cells. |
+| [27566104](https://pubmed.ncbi.nlm.nih.gov/27566104/) | 2016 | In vitro | Neoplasia | Microenvironmental stress activates Src-dependent invadopodia and migration in Ewing sarcoma. |
+| [31521948](https://pubmed.ncbi.nlm.nih.gov/31521948/) | 2019 | In vitro | Neoplasia | Tenascin C and Src cooperate to promote invadopodia formation in Ewing sarcoma. |
+| [29776413](https://pubmed.ncbi.nlm.nih.gov/29776413/) | 2018 | In vitro | Cell Commun Signal | Plerixafor promoted proliferation of Ewing sarcoma cell lines (not directly about dasatinib). |
+| [32999666](https://pubmed.ncbi.nlm.nih.gov/32999666/) | 2020 | Case report | Case Rep Oncol | Chromosome abnormality in CML blast crisis (not relevant to Ewing sarcoma). |
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12842X | DASATINIB-TEVA | Tablet 100 mg (oral) | Not stated in the data compiled |
 
 ---
 
 ## Cytotoxicity
 
-Dasatinib is a targeted anticancer agent (tyrosine kinase inhibitor) indicated for malignant haematological conditions and with investigational use in solid tumours. This section applies.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — BCR-ABL / Src family kinase inhibitor (small-molecule TKI; not conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Moderate — neutropenia, thrombocytopenia, and anaemia are commonly reported in CML clinical trials; monitor closely in sarcoma patients who may have prior myelosuppressive treatment |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Full blood count (FBC) with differential, liver function tests (LFTs), renal function, electrolytes; pulmonary function and chest imaging (pleural effusion is a well-recognised dasatinib-associated adverse event); cardiac monitoring (QT interval) |
-| Handling Protection | Standard institutional cytotoxic drug handling precautions apply; dasatinib is an oral tablet — PPE and safe handling per local cytotoxic guidelines are recommended |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (multi-targeted tyrosine kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions. The knowledge graph lists neutropenia, thrombocytopenia, anaemia and agranulocytosis among contraindication-linked conditions. |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Full blood count with differential, liver function, and cardiac assessment (QT interval, signs of heart failure and pericardial effusion), per the PI |
+| Handling Protection | Please refer to the PI and local cytotoxic or hazardous drug handling policies |
 
 ---
 
 ## Safety Considerations
 
-No TGA-approved Australian Product Information (PI) is available, as dasatinib is not currently registered on the ARTG. All formal warning and contraindication data fields are unavailable from this data package.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for definitive safety information.
 
-Please refer to the current **FDA-approved Prescribing Information** or **EMA Summary of Product Characteristics (SmPC)** for Sprycel® (dasatinib) for complete safety information, including contraindications, warnings, and drug interaction data.
-
-Clinically important safety signals identified in the supporting literature include:
-- **Pleural effusion**: A well-recognised and relatively common dasatinib-associated adverse event — reported in a substantial proportion of CML patients on long-term therapy
-- **Chylothorax**: Rare lymphatic complication (PMID 36448074)
-- **Interstitial pneumonitis**: Rare but serious pulmonary adverse event requiring monitoring and dose adjustment or cessation (PMID 36346055)
+- **Conditions linked to contraindications in a knowledge graph (not label text):** long QT syndrome (including familial), torsades de pointes, liver disease, gallbladder disease, thrombocytopenia, neutropenia, agranulocytosis, anaemia, congestive heart failure, myocardial infarction, coronary thrombosis, pericardial effusion, haemopericardium, intracerebral haemorrhage, active peptic ulcer disease and haemoglobinopathy. These should be verified against the PI.
+- **Drug interactions:** 100 interactions were recorded; the first 20 are shown here.
+  - **Major:** famotidine, ranitidine, cimetidine, omeprazole, rabeprazole (acid suppression), dexamethasone, acetylsalicylic acid, clarithromycin.
+  - **Moderate:** hydrocortisone, budesonide, loperamide, aprepitant, bisacodyl, magnesium oxide, aluminium hydroxide, calcium carbonate, castor oil, polyethylene glycol, saxagliptin.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale for dasatinib in Ewing sarcoma is coherent and supported by 15 years of convergent preclinical evidence targeting the Src/FAK axis, and the completed Phase 2 trial NCT00464620 (n=366) provides an initial clinical signal in advanced sarcomas. However, Ewing sarcoma–specific subgroup efficacy data has not been formally confirmed, and dasatinib is not registered in Australia — which introduces regulatory and access barriers for clinical use.
+The Src-based mechanism is plausible and preclinical data are supportive, but the only clinical evidence is a sarcoma-wide Phase 2 trial in which single-agent dasatinib reportedly failed in Ewing sarcoma, and a trial terminated at 7 patients. There is no evidence of benefit in the new indication.
 
 **To proceed, the following is needed:**
-
-- **Primary publication review**: Obtain and critically appraise the Ewing sarcoma subgroup data from NCT00464620 (Schuetze et al.) to confirm clinical activity in this specific histology
-- **Full safety profiling**: Access dasatinib PI from FDA or EMA to complete formal safety, contraindication, and drug interaction review
-- **MOA documentation**: Retrieve full mechanism of action data from DrugBank (DB01254) to support mechanistic linkage analysis
-- **Dedicated clinical evidence**: Consider whether a Ewing sarcoma–specific Phase 2 trial is feasible and warranted, given that existing evidence is largely from mixed-sarcoma populations
-- **Australian regulatory pathway**: If pursuing use in Australia, explore the TGA Special Access Scheme (SAS) or Clinical Trial Notification (CTN) pathway, as no ARTG entry currently exists
-- **Combination strategy evaluation**: Given that dasatinib single-agent activity in sarcomas appears limited (PMID 35655525), evaluate evidence for combination regimens (e.g., with FAK inhibitors or standard chemotherapy backbones) before proceeding to clinical use
+- Ewing-specific results from NCT00464620 and NCT00788125.
+- Evidence for combination approaches (such as RIST) from prospective trials rather than a single-centre case series.
+- Mechanism of action data and the TGA Product Information safety content (warnings and contraindications).
+- Confirmation of the approved indication text for the Australian ARTG entry.
 
 ---
 
-> **⚠️ Disclaimer:** This report is intended for research purposes only and does not constitute medical advice. Any drug repurposing candidate requires rigorous clinical validation before therapeutic application. All clinical decisions should be made in accordance with applicable regulatory requirements and professional medical judgement.
+### Other Predicted Indications (for context)
+
+- **Myeloid leukaemia (score 99.68%, evidence L1, Proceed with Guardrails):** most of the evidence (for example, DASISION and other Phase 3 CML trials) overlaps with the already approved CML indication, so it is not true repurposing. The genuinely new signal is acute myeloid leukaemia, particularly core-binding factor AML, where a 2026 Phase 3 trial of dasatinib added to chemotherapy has been published but its outcome was not stated in the data supplied.
+- **Liposarcoma, dermatofibrosarcoma protuberans:** preclinical or review evidence only (L4, Hold).
+- **Gingival fibromatosis, ovarian myxoid liposarcoma, ganglioneuroblastoma and others:** model prediction only (L5, Hold).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

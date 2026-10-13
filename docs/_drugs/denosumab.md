@@ -2,7 +2,7 @@
 layout: default
 title: Denosumab
 parent: Model Prediction Only (L5)
-nav_order: 190
+nav_order: 207
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,110 +29,112 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Denosumab: From Osteoporosis to Severe Nonproliferative Diabetic Retinopathy
+# Denosumab: From Osteoporosis to Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Denosumab is a fully human monoclonal antibody that inhibits RANKL (Receptor Activator of Nuclear factor Kappa-B Ligand), approved internationally for postmenopausal osteoporosis, cancer therapy–associated bone loss, prevention of skeletal-related events from bone metastases, and giant cell tumour of bone (marketed as Prolia and Xgeva).
-The TxGNN model predicts it may be effective for **Severe Nonproliferative Diabetic Retinopathy**,
-with **no clinical trials** and **no publications** directly supporting this specific indication at present.
-
----
+Denosumab is a monoclonal antibody originally used to treat osteoporosis, including postmenopausal and drug-induced osteoporosis.
+The TxGNN model predicts it may be useful for **severe nonproliferative diabetic retinopathy** (top-ranked prediction) and **diabetic retinopathy** (second-ranked), but **no clinical trials** and **no direct publications** currently support these indications.
+The only indirect literature concerns denosumab in type 2 diabetes generally, so this is a model-only prediction at this stage.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Osteoporosis; prevention of skeletal-related events in bone metastases; giant cell tumour of bone (international approvals) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
+|------|------|
+| Original Indication | Osteoporosis, postmenopausal osteoporosis, drug-induced osteoporosis (the Australian licence record lists no indication text) |
+| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 |
-| Australia Market Status | Not marketed (0 ARTG entries found in dataset) |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
-> **Data Quality Note:** The candidate identifier "TW-DB06643-multi" indicates this Evidence Pack was generated using a Taiwan (TFDA) regulatory dataset. Denosumab (Prolia/Xgeva) is understood to hold international approvals from the FDA, EMA, Health Canada, and TGA. Clinicians should independently verify current ARTG registration status via the TGA website before clinical use.
+**Other predicted indications (for context):**
 
----
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
+|---|---|---|---|---|
+| 2 | Diabetic retinopathy | 99.23% | L4 | Hold |
+| 3 | Dermatitis | 97.25% | L3 | Research question |
+| 4 | Diabetic cataract | 96.66% | L4 | Hold |
+| 5 | Acrodermatitis chronica atrophicans | 96.23% | L5 | Hold |
+| 6 | Neonatal dermatomyositis | 95.81% | L5 | Hold |
+| 7 | Hydroa vacciniforme, familial | 95.20% | L5 | Hold |
+| 8 | Secondary interstitial lung disease of childhood (connective tissue disease) | 94.97% | L5 | Hold |
+| 9 | Acne keloid | 94.78% | L5 | Hold |
+| 10 | Amyopathic dermatomyositis | 94.67% | L5 | Hold |
+
+Dermatitis is the only prediction with a registered clinical trial, and that trial was not in dermatitis patients (see below).
 
 ## Why is This Prediction Reasonable?
 
-Denosumab is a targeted biological agent that works by binding and neutralising RANKL, a cytokine that drives osteoclast differentiation, activation, and survival. By blocking RANKL, denosumab halts osteoclast-mediated bone resorption. Beyond skeletal tissue, the RANKL/OPG (osteoprotegerin) signalling axis has been identified in various non-osseous tissues including the retina and retinal microvasculature, providing a biological rationale for this prediction.
+Detailed mechanism of action data is not available in the data compiled for this report. Denosumab is known to be a human monoclonal antibody against RANKL (receptor activator of nuclear factor kappa-B ligand), which suppresses osteoclast-mediated bone resorption. This is the basis of its use in osteoporosis.
 
-The hypothesised mechanistic link to diabetic retinopathy rests on evidence that the RANKL/OPG pathway participates in retinal vascular inflammation and pericyte apoptosis — both central features of diabetic retinopathy. In people with diabetes, elevated circulating OPG (the endogenous RANKL decoy receptor) has been associated with retinal microvascular complications, suggesting dysregulation of this axis may contribute to disease progression. Since denosumab acts as a pharmacological mimic of OPG, it could theoretically dampen this pro-inflammatory retinal microenvironment.
+The link to diabetic retinopathy is speculative. RANKL/RANK signalling is also involved in inflammation, immune regulation and vascular biology, so a role in retinal microvascular disease is conceivable. However, no direct data show an effect on the retina. The high TxGNN scores (99.63% and 99.23%) come from knowledge-graph proximity and are not evidence of efficacy.
 
-However, for the specific subtype of **severe nonproliferative** diabetic retinopathy, this mechanism remains wholly hypothetical. The severity grading ("severe nonproliferative") does not represent a mechanistically distinct disease entity — it is a clinical staging classification. There is no direct preclinical (in vitro or animal) evidence and no clinical data targeting this subtype. The TxGNN global rank of 4,810 and the complete absence of any supporting studies firmly places this at the early exploratory hypothesis stage. Investigators interested in pursuing this hypothesis should first establish proof-of-concept in the broader diabetic retinopathy indication (TxGNN rank 2 in this pack, Evidence Level L4) before targeting the severity subtype specifically.
-
----
+The indirect literature relates to type 2 diabetes, not retinopathy. A 2024 real-world cohort study with meta-analysis reported that denosumab, compared with bisphosphonates, was associated with a lower incidence of type 2 diabetes, fewer foot ulcers and lower all-cause mortality. Whether any of this translates into retinal benefit is unknown.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for severe nonproliferative diabetic retinopathy.
+Currently no related clinical trials registered for severe nonproliferative diabetic retinopathy or diabetic retinopathy.
 
----
+For context, one trial was linked to a lower-ranked prediction (dermatitis):
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01978483](https://clinicaltrials.gov/study/NCT01978483) | Phase 1 | Completed | 31 | Effect of RANKL inhibition on UV-induced immunosuppression. It offers mechanistic insight into skin immunity but did not enrol dermatitis patients or measure dermatitis outcomes. |
 
 ## Literature Evidence
 
-Currently no related literature available for severe nonproliferative diabetic retinopathy.
+No publications directly address denosumab in severe nonproliferative diabetic retinopathy. The two papers below were retrieved for diabetic retinopathy and are only indirectly relevant.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [38899553](https://pubmed.ncbi.nlm.nih.gov/38899553/) | 2024 | Cohort / meta-analysis | Diabetes, Obesity & Metabolism | Denosumab vs bisphosphonates: lower incidence of type 2 diabetes, foot ulceration and all-cause mortality. Microvascular complications, including retinopathy, were among the outcomes examined, but the data compiled here report no retinopathy-specific result. |
+| [36960265](https://pubmed.ncbi.nlm.nih.gov/36960265/) | 2023 | Observational | Cureus | Use of the FRAX fracture risk tool in adults with type 2 diabetes. Not relevant to retinopathy. |
+
+For diabetic cataract (rank 4), a 2020 multi-database cohort study ([PMID 32026309](https://pubmed.ncbi.nlm.nih.gov/32026309/), *Drugs & Aging*) compared cataract surgery and macular degeneration risk after denosumab versus zoledronic acid. It is an ocular safety comparison and is not evidence of benefit.
+
+For dermatitis (rank 3), the literature is mostly case reports of denosumab-associated skin reactions. These are safety signals, not evidence of efficacy:
+- [39175449](https://pubmed.ncbi.nlm.nih.gov/39175449/): acute generalised exanthematous pustulosis (2024)
+- [32656848](https://pubmed.ncbi.nlm.nih.gov/32656848/): lichen planus, two cases (2021)
+- [31890758](https://pubmed.ncbi.nlm.nih.gov/31890758/): DRESS syndrome (2020)
+- [29076163](https://pubmed.ncbi.nlm.nih.gov/29076163/): cutaneous hypersensitivity reaction (2018)
 
 ## Australia Market Information
 
-No ARTG entries were found in the current dataset for Denosumab.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10061M | Wyost | Injection 120 mg in 1.7 mL | Not listed in the data compiled for this report |
 
-> As noted above, this dataset reflects Taiwan TFDA registration data. For current Australian registration and full Product Information (PI), please search the [TGA ARTG Public Summary](https://www.tga.gov.au/resources/artg) directly using the search term "Denosumab".
-
----
-
-## Cytotoxicity
-
-Denosumab (Xgeva) is approved internationally for oncological indications including prevention of skeletal-related events from solid tumour bone metastases and unresectable giant cell tumour of bone. The cytotoxicity profile below applies when used in oncological contexts.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy (RANKL monoclonal antibody inhibitor — not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Low (myelosuppression is not a primary toxicity; serious infections including cellulitis have been reported due to immune modulation) |
-| Emetogenicity Classification | Minimal (monoclonal antibody, not classified as emetogenic) |
-| Monitoring Items | Serum calcium and phosphate (hypocalcaemia is the primary metabolic risk); renal function; dental assessment prior to initiation; bone markers if monitoring response |
-| Handling Protection | Standard biohazard precautions for injectable biologics apply; cytotoxic handling regulations for antineoplastic chemotherapy agents do not apply |
-
----
+Only one licence is on record (a valid single-ingredient product). The record does not include approved indication text or manufacturer.
 
 ## Safety Considerations
 
-Detailed TGA-specific warnings and contraindications were not available in this dataset.
+**Drug Interactions:** 100 potential interactions were identified. The 20 listed in the data compiled for this report are all rated Moderate. They include:
+- **Corticosteroids:** hydrocortisone, triamcinolone (including ophthalmic), dexamethasone, betamethasone, budesonide, prednisolone, prednisone, methylprednisolone, corticotropin and tetracosactide
+- **Radiopharmaceuticals and radioimmunotherapy:** ibritumomab tiuxetan, iobenguane (I-131), tositumomab (including I-131)
+- **Immunosuppressants and antineoplastics:** tacrolimus, mercaptopurine, trimetrexate, levamisole
+- **Biologic:** dupilumab
 
-Please refer to the TGA-approved Product Information (PI) for Prolia and Xgeva for complete safety information. Key areas of known clinical importance include:
+Corticosteroid co-prescription is common in practice and should be reviewed, particularly in patients who may receive intraocular or periocular steroids.
 
-- **Hypocalcaemia:** Clinically significant hypocalcaemia has been reported, particularly in patients with renal impairment or inadequate calcium and vitamin D supplementation. Calcium levels must be corrected prior to initiating therapy.
-- **Osteonecrosis of the jaw (ONJ):** Risk is increased with longer duration of therapy, concomitant corticosteroids, and poor oral hygiene. Dental review is recommended before starting treatment.
-- **Atypical femoral fractures:** Reported with prolonged use, consistent with the broader antiresorptive drug class effect.
-- **Serious infections:** Including skin infections (cellulitis, erysipelas) and endocarditis, due to the immunomodulatory effects of RANKL inhibition.
-- **Rebound effect on discontinuation:** Rapid increase in bone turnover and risk of vertebral fractures has been documented following cessation; a transition plan to alternative antiresorptive therapy is recommended.
+**Safety signals from the literature:** Case reports describe cutaneous adverse reactions with denosumab (AGEP, DRESS, lichen planus, hypersensitivity reactions, erythema nodosum) and one report of c-ANCA vasculitis. For the neonatal and paediatric predictions (neonatal dermatomyositis, childhood interstitial lung disease), denosumab's association with hypocalcaemia and effects on bone and immune development in paediatric use raises additional concern.
 
-No drug–drug interaction data were available in this dataset. For DDI information, refer to the PI or consult an authorised drug interaction database.
-
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications. These were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high prediction score (99.63%) to denosumab for severe nonproliferative diabetic retinopathy; however, there is currently no clinical trial data and no published literature directly examining this hypothesis for either this severity subtype or the broader diabetic retinopathy indication in the context of denosumab treatment. The mechanistic rationale (RANKL/OPG modulation of retinal microvasculature) is biologically plausible but entirely unvalidated at the preclinical level.
+The top predictions for severe nonproliferative diabetic retinopathy and diabetic retinopathy rest on knowledge-graph scores alone (L5 and L4), with no trials and only indirect diabetes-related literature. The mechanistic link is plausible but unproven, and the other predicted indications either lack evidence or are supported mainly by adverse-event case reports.
 
-**To move this candidate forward, the following is needed:**
-
-- **Step 1 — Preclinical validation:** Establish in vitro and animal model evidence confirming denosumab's effect on retinal pericyte survival, RANKL/OPG expression in diabetic retinal tissue, or vascular permeability in a diabetic retinopathy model.
-- **Step 2 — Broaden the evidence search:** Conduct a systematic review on RANKL/OPG axis involvement in diabetic microvascular complications, including secondary analyses of existing real-world denosumab cohort studies (e.g., the PMID 38899553 cohort study on retinopathy outcomes in T2D patients receiving denosumab for osteoporosis).
-- **Step 3 — Severity subtype justification:** If preclinical evidence is established for diabetic retinopathy broadly, a mechanistic or biomarker rationale for specifically targeting the severe nonproliferative subtype should be defined before designing a clinical trial.
-- **Step 4 — Resolve data gaps:** Obtain full MOA details from DrugBank; retrieve TGA-approved PI for formal safety review; verify current ARTG registration status.
-- **Step 5 — Safety profile review:** Given the known risks of denosumab (hypocalcaemia, ONJ, rebound fracture risk) and the immunomodulatory concern flagged in the dermatitis indication (rank 3 in this pack), a comprehensive benefit–risk assessment in the diabetic retinopathy population (who may have concurrent renal impairment) will be essential before any clinical translation.
-
----
-
-*This report is generated for research evaluation purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application. Refer to TGA-approved Product Information for prescribing guidance.*
+**To proceed, the following is needed:**
+- The TGA Product Information, to complete the safety review (warnings, contraindications and approved indications)
+- Detailed mechanism of action data, and preclinical evidence of RANKL/RANK involvement in retinal microvascular disease
+- Retinopathy-specific outcomes from existing denosumab diabetes cohorts, or a targeted observational analysis
+- If the above are supportive, a registered early-phase trial (Phase 1/2) in diabetic retinopathy, checked against ANZCTR for any Australian studies
+- A review of corticosteroid co-prescription risk in the intended population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

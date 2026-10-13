@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chlorhexidine
-parent: Moderate Evidence (L3-L4)
-nav_order: 144
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 153
+evidence_level: L5
 indication_count: 10
 ---
 
 # Chlorhexidine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,29 +29,42 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Chlorhexidine: From Topical Antisepsis to Chronic Ethmoidal Sinusitis
+# Chlorhexidine: From Gingivitis to Chronic Ethmoidal Sinusitis
 
 ## One-Sentence Summary
 
-Chlorhexidine is a broad-spectrum topical antiseptic conventionally used for skin, oral and wound disinfection. The TxGNN model predicts it may be effective for **Chronic Ethmoidal Sinusitis**, but this direction is currently supported by only **1 publication** and **no registered clinical trials**, so the evidence base is very early-stage.
+Chlorhexidine is a broad-spectrum antiseptic, originally used to treat **gingivitis**.
+The TxGNN model predicts it may be effective for **Chronic Ethmoidal Sinusitis**,
+but **no clinical trials and no publications** currently support this specific prediction. This is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in this evidence pack — no ARTG licence text on file. Chlorhexidine is generally used as a topical antiseptic/disinfectant (skin, oral, wound) |
-| Predicted New Indication | Chronic Ethmoidal Sinusitis |
+| Original Indication | Gingivitis |
+| Predicted New Indication | Chronic ethmoidal sinusitis |
 | TxGNN Prediction Score | 95.46% |
-| Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on general pharmacological knowledge, chlorhexidine is a bis-biguanide antiseptic that disrupts bacterial and fungal cell membranes, and is widely used to reduce microbial load on skin, oral and wound surfaces. Mechanistically, this same antimicrobial action could plausibly extend to reducing bacterial burden on nasal and paranasal sinus mucosa, including the ethmoidal sinuses, in cases where chronic sinusitis has a bacterial component.
+Currently, detailed mechanism of action data is not available. Based on known information, chlorhexidine is a broad-spectrum antiseptic with antibacterial and antifungal activity. Its efficacy in gingivitis (reducing oral bacterial load and plaque) is established, and mechanistically it may be applicable to infections of the sinonasal mucosa.
 
-The repurposing rationale in the evidence pack notes that this is analogous to the general sinusitis mechanism: local antimicrobial disinfection may lower the bacterial load associated with chronic ethmoidal sinusitis. However, this is supported by only a single, small, indirectly-related cohort study, with no controlled trials — so the mechanistic plausibility is reasonable but the clinical evidence behind it is currently weak.
+Gingivitis and chronic ethmoidal sinusitis are both mucosal conditions of the upper aerodigestive tract in which bacterial burden and biofilm may play a role. A topical antimicrobial could plausibly reduce this burden. However, no data were found for this specific indication, and this link remains a hypothesis.
+
+Several other predictions from the same model help show how far the evidence extends. These are summarised below because the top-ranked prediction has no supporting literature:
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Sinusitis | 95.30% | L4 | Only indirect literature (surgical prophylaxis, case reports) |
+| 3 | Chronic rhinosinusitis | 95.22% | L4 | In vitro data on chlorhexidine-coated sinonasal stents; no clinical trials |
+| 5 | Tinea corporis | 93.37% | L4 | Mostly veterinary and in vitro data |
+| 9 | Cutaneous candidiasis | 88.01% | L4 | Indirect evidence only |
+
+Chronic rhinosinusitis (rank 3) currently has the most relevant mechanistic support: a 2021 in vitro study (PMID 34834197) found that a sinonasal stent coated with slow-release chlorhexidine varnish gave sustained protection against bacterial biofilm. This is preclinical and not a treatment trial.
 
 ## Clinical Trial Evidence
 
@@ -59,31 +72,45 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+Currently no related literature available for the top-ranked prediction (chronic ethmoidal sinusitis).
+
+For reference, the most relevant items retrieved for closely related sinus predictions are listed below. They are indirect evidence only:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [16008068](https://pubmed.ncbi.nlm.nih.gov/16008068/) | 2005 | Cohort | Rhinology | Investigated whether nasal cavity disinfection influences bacteriology results in the bulla ethmoidalis of patients with chronic sinusitis — an indirect, hypothesis-generating finding rather than a treatment trial |
+| [41140432](https://pubmed.ncbi.nlm.nih.gov/41140432/) | 2025 | RCT | J Neurol Surg B Skull Base | Three-arm randomised trial of preoperative antiseptic preparation in transnasal skull base surgery. It addresses surgical-site infection prophylaxis, not treatment of sinusitis. |
+| [34834197](https://pubmed.ncbi.nlm.nih.gov/34834197/) | 2021 | In vitro study | Pharmaceutics | Sinonasal stent coated with slow-release chlorhexidine varnish gave sustained protection against *S. aureus* and *P. aeruginosa* biofilm. |
+| [38592477](https://pubmed.ncbi.nlm.nih.gov/38592477/) | 2024 | Review | HNO | Overview of antiseptics in otorhinolaryngology. Chlorhexidine is advised only as a mouth and body wash for MRSA decolonisation; clinical efficacy evidence for many other throat antiseptics is lacking. |
 
 ## Australia Market Information
 
-Chlorhexidine is not currently marketed in Australia under this evidence pack — 0 ARTG entries are on file, and market status is recorded as "Not marketed."
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 4161B | Plaqacide | Mouth wash 2 mg per mL (0.2%), 250 mL | Not stated in the data compiled |
+| ARTG 183P | Not stated | Not stated | Not stated in the data compiled |
+
+Both entries are valid single-ingredient products. Neither is a sinonasal formulation, so route compatibility with the predicted indication has not been established.
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. This evidence pack has no on-file key warnings, contraindications, or drug interaction data for chlorhexidine, and TFDA/TGA label warnings are flagged as a Blocking data gap that must be resolved before any safety assessment can proceed.
+- **Contraindications (knowledge-graph association):** The knowledge graph lists periodontitis as a disease with a drug-disease contraindication edge. This comes from the knowledge graph, not from product label text, and should be verified against the Product Information.
+- **Drug Interactions:** The interaction screen returned 100 potential interacting drugs, but none has a severity level assigned. Examples include acetaminophen, atenolol, amlodipine, alprazolam, chloramphenicol, levothyroxine, celecoxib and cephalexin. These should be interpreted cautiously.
+
+Please refer to the TGA-approved Product Information (PI) for warnings, precautions and full contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is currently backed by only a single small, indirectly-related cohort study (L4 evidence) with no clinical trials, and a Blocking data gap exists for basic safety information (TFDA warnings/contraindications). Without safety data, the candidate cannot progress past an initial safety screen, so it should be held pending further evidence rather than advanced.
+The top-ranked prediction (chronic ethmoidal sinusitis) rests on a model score alone (L5), with no trials or literature. Related sinonasal evidence is indirect or preclinical, and the Australian products are oral mouthwashes rather than sinonasal formulations.
 
 **To proceed, the following is needed:**
-- TFDA/TGA-approved safety information (warnings, contraindications) — currently a blocking gap
-- Detailed mechanism of action (MOA) data
-- Controlled clinical trials, or at minimum larger observational studies, specifically evaluating chlorhexidine (via a nasal/sinus route) in chronic ethmoidal sinusitis
-- Route compatibility assessment — no available or required administration routes have been confirmed for this indication
-- Clarification of Australian market/registration pathway, since chlorhexidine currently has no ARTG entries
+- Mechanism of action data for chlorhexidine
+- Warnings and contraindications from the TGA-approved Product Information
+- Direct clinical evidence in sinonasal disease, for example a pilot trial in chronic rhinosinusitis (rank 3), which has the strongest mechanistic support
+- Assessment of a suitable sinonasal formulation and route, including mucosal tolerability, since current ARTG products are mouthwashes
+- Clarification of interaction severity for the listed co-medications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

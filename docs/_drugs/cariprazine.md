@@ -2,7 +2,7 @@
 layout: default
 title: Cariprazine
 parent: Model Prediction Only (L5)
-nav_order: 127
+nav_order: 136
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,94 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cariprazine: From Schizophrenia/Bipolar Disorder to Retinal Dystrophy with or without Extraocular Anomalies
+# Cariprazine: From Bipolar Disorder and Schizophrenia to Retinal Dystrophy
 
 ## One-Sentence Summary
 
-Cariprazine is an atypical antipsychotic acting as a dopamine D3/D2 receptor partial agonist, approved internationally (US, EU) for schizophrenia and bipolar disorder, but not currently registered in Australia.
-The TxGNN model predicts it may be effective for **Retinal Dystrophy with or without Extraocular Anomalies**, with **no clinical trials** and **15 background publications** identified — none of which are specific to Cariprazine in this condition.
-This prediction is currently at hypothesis-generation stage only, and all 10 top-ranked predictions share the same L5 evidence level, warranting a uniform Hold decision at this time.
-
----
+Cariprazine is an oral atypical antipsychotic originally used for schizophrenia and bipolar disorder (including manic episodes).
+The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but this is a knowledge-graph prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Australia (overseas approved use: schizophrenia, bipolar disorder) |
-| Predicted New Indication | Retinal Dystrophy with or without Extraocular Anomalies |
+|------|------|
+| Original Indication | Schizophrenia; bipolar disorder (including manic episodes) (the ARTG entry has no indication text, so these come from the knowledge graph) |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 98.70% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action (MOA) data is not available in this Evidence Pack. Based on published international literature, Cariprazine (DrugBank DB06016) is a dopamine D3-preferring D2/D3 partial agonist with additional partial agonism at serotonin 5-HT1A receptors and antagonism at 5-HT2B receptors. It is approved by the US FDA and EMA for schizophrenia and bipolar I disorder (manic/mixed episodes and bipolar depression), marketed as Vraylar (US) and Reagila (EU). It has not received TGA approval in Australia.
+Currently, detailed mechanism of action data is not available. Based on known information, cariprazine is a dopamine D3/D2 partial agonist with serotonin 5-HT1A partial agonist activity, and its efficacy in schizophrenia and bipolar disorder is established.
 
-The theoretical mechanistic link to retinal dystrophy is highly indirect. Dopaminergic signalling is present in retinal amacrine cells, which express D2 and D3 receptors and play a role in light adaptation, retinal circadian rhythmicity, and modulation of photoreceptor function. In principle, a D3/D2 partial agonist could theoretically influence retinal dopamine tone. However, retinal dystrophies such as the condition predicted here are predominantly caused by inherited mutations in photoreceptor-specific or ciliary genes (e.g. *RPGR*, *RPGRIP1*, *CEP290*), with pathology driven by photoreceptor degeneration rather than dopaminergic dysregulation.
+For retinal dystrophy, no plausible receptor-level link is supported by the data compiled for this report. Retinal dystrophies are largely monogenic, structural or degenerative disorders, and a symptomatic neuropsychiatric agent is not expected to modify them. The score of 0.987 reflects knowledge-graph topology only. The model ranks this prediction at 12,866, which should be read with caution.
 
-This prediction is most likely an artefact of knowledge graph neighbourhood effects — Cariprazine's neurological drug class node sits in proximity to retinal and ocular disease nodes via shared neurological pathway edges, rather than a direct biological mechanism. The 15 publications retrieved are general ophthalmology reviews and case reports covering orbital infections, congenital ptosis, ocular motility disorders, and related structural conditions; none specifically investigate Cariprazine or any D2/D3 agent in retinal dystrophy. Substantial preclinical mechanistic validation would be required before any clinical consideration of this indication.
+The same applies to the other nine predictions in the list (all with scores between 91.8% and 98.5%, all L5, all with no trials or literature):
 
----
+- Hydranencephaly
+- Perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis
+- Congenital disorder of glycosylation with defective fucosylation
+- Charcot-Marie-Tooth disease, demyelinating, type 1G
+- Syndromic myopia
+- X-linked myopia
+- Myopia 26, X-linked, female-limited
+- Atypical glycine encephalopathy
+- Distal 17p13.3 microdeletion syndrome
+
+The only weakly plausible theme is the myopia group. Retinal dopamine signalling has been implicated in eye-growth regulation, but this is not specific to cariprazine, and systemic antipsychotic exposure would raise safety concerns.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-> **Note:** The 15 publications retrieved are general ophthalmology background references. None are specific to Cariprazine or any dopamine receptor modulator in retinal dystrophy. They were returned based on keyword overlap with extraocular anomalies.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | Differential diagnosis and imaging features of paediatric ocular pathologies, including congenital lesions and retinal conditions |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | Congenital lens shape anomalies and associated anterior segment dysgenesis |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Research | Int J Mol Sciences | Optic nerve head and retinal abnormalities in congenital fibrosis of extraocular muscles (CFEOM) due to KIF21A/TUBB3 mutations |
-| [33447730](https://pubmed.ncbi.nlm.nih.gov/33447730/) | 2020 | Review | Therapeutic Advances in Ophthalmology | Eye involvement across inherited metabolic disorders, including retinal and optic pathway changes |
-| [30747268](https://pubmed.ncbi.nlm.nih.gov/30747268/) | 2019 | Review | Neuroradiology | Neuroradiological evaluation and differential diagnosis of ophthalmoplegia |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Review | Journal of Binocular Vision and Ocular Motility | Classification and clinical features of congenital cranial dysinnervation disorders |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Research | American Journal of Ophthalmology | Pathogenesis and proposed treatment of maculopathy associated with cavitary optic disc anomalies |
-| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case Report | Journal of Neuro-Ophthalmology | Isolated trochlear-oculomotor synkinesis in a child — rare congenital cranial dysinnervation variant |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klinische Monatsblätter für Augenheilkunde | Congenital ptosis classification, pathophysiology, and surgical management options |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Documenta Ophthalmologica | Wagner-Stickler syndrome complex: myopia, vitreoretinal degeneration, and associated systemic anomalies |
-
----
+Currently no related literature available.
 
 ## Australia Market Information
 
-Cariprazine is not registered with the Therapeutic Goods Administration (TGA) and has **no ARTG entries**. It is not commercially available in Australia through standard channels. Prescribers seeking access would need to apply via the TGA's Special Access Scheme (SAS Category B) or Authorised Prescriber pathway, referencing international product information (US FDA label or EMA Summary of Product Characteristics).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12619E | Reagila | Capsule 3 mg (oral) | Not listed in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. As Cariprazine is not registered in Australia, prescribers should consult the TGA Special Access Scheme documentation and international prescribing information for current safety data.
+Warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for these.
 
-> Based on international labelling (not Evidence Pack data), Cariprazine carries class-level antipsychotic warnings including tardive dyskinesia, neuroleptic malignant syndrome, metabolic effects, and QT interval considerations. It is metabolised primarily via CYP3A4. These details must be verified against current international product information before any clinical use.
+**Drug Interactions** (100 interactions recorded; the first 20 reviewed are shown, all from DDInter):
 
----
+- **Major:** bupropion, morphine, clarithromycin
+- **Moderate:**
+  - Antidiabetic agents: acarbose, albiglutide, alogliptin, metformin, pioglitazone, canagliflozin, dapagliflozin, acetohexamide, chlorpropamide
+  - Anticholinergics: hyoscyamine, atropine, glycopyrronium, clidinium
+  - Others: aprepitant, dexamethasone, cimetidine, clotrimazole
+
+Interactions with antidiabetic agents are notable because cariprazine may affect glucose control. The major interactions reflect CNS depression (morphine) and CYP-mediated effects (clarithromycin, bupropion). Both need to be checked against the PI.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All 10 top-ranked TxGNN predictions for Cariprazine are rated L5 (model prediction only), with no clinical trial evidence and no drug-specific literature supporting any of the predicted indications — which are predominantly rare structural, genetic, or developmental conditions with no plausible direct dopaminergic mechanistic link. Cariprazine's absence from the Australian market adds a further regulatory barrier to any repurposing pathway.
+The prediction is supported only by a knowledge-graph score, with no clinical trials, no literature, and no mechanistic link to retinal dystrophy. Evidence is at the lowest level (L5). The same conclusion applies to all ten predicted indications.
 
 **To proceed, the following is needed:**
-
-- **Regulatory baseline**: Establish a TGA registration or SAS access pathway for Cariprazine in Australia before any repurposing clinical work can be initiated
-- **MOA documentation**: Obtain full mechanism of action data from DrugBank (currently a blocking data gap — DG002) and TGA/international PI
-- **Safety profile review**: Download and parse international Product Information (FDA/EMA) to complete the blocking safety data gap (DG001) and confirm contraindications, warnings, and drug interactions
-- **Mechanistic prioritisation**: If further evaluation is warranted, syndromic myopia (rank 6) represents the most mechanistically coherent candidate — retinal dopamine's known role in axial elongation and myopia protection is at least biologically grounded — and should be the first indication assessed in a formal scoping review
-- **Preclinical evidence sweep**: Commission a targeted literature review specifically combining "cariprazine OR D3 agonist OR D2/D3 partial agonist" with retinal or ocular endpoints, to determine whether any in vitro or animal data exists before committing to clinical hypothesis testing
-- **KG bias assessment**: Investigate whether the high TxGNN scores across these rare structural and developmental conditions reflect genuine biological signal or knowledge graph neighbourhood artefacts from proximity of psychiatric drug nodes to neurodevelopmental disease nodes
+- Mechanism of action data (currently unavailable)
+- Package insert warnings and contraindications from the TGA PI (a blocking gap for safety screening)
+- A plausible biological rationale and preclinical evidence (for example, retinal models) for the predicted indication
+- Assessment of the original indication relationship and route compatibility, both still pending
+- A review of safety in the target population, including the interaction profile above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pertuzumab
-parent: High Evidence (L1-L2)
-nav_order: 529
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 564
+evidence_level: L5
 indication_count: 10
 ---
 
 # Pertuzumab
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Pertuzumab: From HER2-Positive Breast Cancer to Progesterone-Receptor Positive Breast Cancer
+# Pertuzumab: From HER2-Positive Breast Carcinoma to Progesterone-Receptor Positive Breast Cancer
 
 ## One-Sentence Summary
 
-> Pertuzumab (DrugBank DB06366) is an anti-HER2 monoclonal antibody whose established use is in HER2-positive breast cancer.
-> The TxGNN model's top-ranked prediction — **progesterone-receptor positive breast cancer** — is best understood as a receptor-status refinement within pertuzumab's existing HER2-positive breast cancer population rather than a genuinely new disease target,
-> with **10 clinical trials** (including 2 completed Phase 3 RCTs) and **20 publications** currently supporting the mechanistic link.
+Pertuzumab is a HER2-targeted monoclonal antibody, originally used to treat HER2-positive breast carcinoma.
+The TxGNN model predicts it may be effective for **progesterone-receptor positive breast cancer**, with **1 completed Phase 3 clinical trial** and **20 publications** currently supporting this direction.
+This is largely an extension within the existing HER2-positive indication rather than true new-disease repurposing, because the benefit depends on HER2 status, not progesterone receptor (PR) status.
 
 ---
 
@@ -43,23 +43,23 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2-positive breast cancer *(inferred from repurposing rationale text; not separately confirmed via ARTG licence data — see note below)* |
-| Predicted New Indication | Progesterone-Receptor Positive Breast Cancer |
+| Original Indication | HER2-positive breast carcinoma |
+| Predicted New Indication | Progesterone-receptor positive breast cancer |
 | TxGNN Prediction Score | 99.93% |
-| Evidence Level | L1 |
-| Australia Market Status | Not Marketed *(0 ARTG entries recorded in this evidence pack)* |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L1 (as assigned in the data compiled for this report; see note below) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
+
+*Note on evidence level:* The L1 rating is based on randomised Phase 3 and Phase 2 evidence. Only one completed Phase 3 trial is listed, and it is a biosimilar equivalence study. A strict reading of the rules (two or more completed Phase 3 RCTs) would be more conservative, so this rating should be read with caution.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed structured mechanism-of-action data was not returned by the DrugBank query for this evidence pack. However, the underlying repurposing analysis for this candidate explicitly documents pertuzumab's mechanism: it is a HER2-targeted monoclonal antibody that blocks heterodimerisation of HER2 with HER1/HER3/HER4, interrupting downstream HER2 signalling. This mechanism is already well established as the basis for pertuzumab's approved use in HER2-positive breast cancer.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pertuzumab binds HER2 subdomain II and blocks HER2/HER3 heterodimerisation. This inhibits PI3K/AKT and MAPK signalling in HER2-positive tumours.
 
-Progesterone-receptor (PR) status is a hormone-receptor stratification variable measured alongside HER2 status in breast cancer, not a distinct disease entity. A tumour that is "PR-positive breast cancer" and HER2-positive sits squarely within the population pertuzumab already targets — the predicted indication therefore represents an extension/refinement of an existing approved-use population rather than a mechanistically novel repurposing candidate. This explains both the very high TxGNN score and the unusually strong evidence base (multiple completed Phase 3 trials) for what is nominally a "new" indication.
-
-Because of this overlap, the clinical trial and literature evidence below should be read as supporting pertuzumab's activity in HER2-positive/PR-positive disease specifically (as a biomarker-defined subgroup), rather than as evidence for a mechanistically unrelated new use.
+Hormone receptor-positive/HER2-positive breast cancer is a molecular subset of the already approved HER2-positive breast cancer indication, so the mechanism applies directly. The effect depends on HER2 status rather than PR status. Cross-talk between the HER2 and hormone receptor pathways is described in the literature, which is why combinations with endocrine therapy are of interest.
 
 ---
 
@@ -67,16 +67,7 @@ Because of this overlap, the clinical trial and literature evidence below should
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | Phase 3 | Completed | 517 | Randomised, double-blind biosimilar (QL1209) vs pertuzumab, both with trastuzumab + docetaxel, in HER2-positive/ER/PR-negative early-stage breast cancer. |
-| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) | Phase 3 | Completed | 454 | IMpassion050 — atezolizumab vs placebo added to neoadjuvant anthracycline/taxane + trastuzumab + pertuzumab in early HER2-positive breast cancer. |
-| [NCT00545688](https://clinicaltrials.gov/study/NCT00545688) | Phase 2 | Completed | 417 | 4-arm neoadjuvant comparison of Herceptin ± docetaxel ± pertuzumab in locally advanced/inflammatory/early HER2-positive breast cancer; pathological complete response endpoint. |
-| [NCT05802225](https://clinicaltrials.gov/study/NCT05802225) | Phase 3 | Active, not recruiting | 398 | Biosimilar (BCD-178) vs Perjeta as neoadjuvant therapy for HER2-positive breast cancer without ER/PR expression. |
-| [NCT02326974](https://clinicaltrials.gov/study/NCT02326974) | Phase 2 | Active, not recruiting | 164 | T-DM1 + pertuzumab preoperative therapy, studying impact of HER2 heterogeneity on treatment response. |
-| [NCT00999804](https://clinicaltrials.gov/study/NCT00999804) | Phase 2 | Active, not recruiting | 128 | TBCRC 023 — neoadjuvant lapatinib + trastuzumab with/without endocrine therapy, 12 vs 24 weeks, in HER2-overexpressing breast cancer. |
-| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | Phase 2 | Terminated | 139 | DECRESCENDO — de-escalated neoadjuvant chemotherapy plus SC pertuzumab/trastuzumab in HER2-positive, ER-negative, node-negative early breast cancer. |
-| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | N/A | Completed | 1151 | Retrospective multicentre study of HER2-low prevalence and treatment patterns in HER2-negative metastatic breast cancer (indirect relevance). |
-| [NCT02689921](https://clinicaltrials.gov/study/NCT02689921) | Phase 2 | Unknown | 7 | NEOADAPT — chemotherapy-free neoadjuvant aromatase inhibitor + pertuzumab/trastuzumab in HR-positive (incl. PR+), HER2-positive early breast cancer. |
-| [NCT03058939](https://clinicaltrials.gov/study/NCT03058939) | Phase 2 | Withdrawn | 0 | Single-arm neoadjuvant paclitaxel response-rate study in Nigerian women with breast cancer (pertuzumab not central). |
+| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | Phase 3 | Completed | 517 | Randomised, double-blind trial of the pertuzumab biosimilar QL1209 vs reference pertuzumab, each with trastuzumab and docetaxel, in early or locally advanced HER2-positive, ER/PR-negative breast cancer. This is a biosimilar equivalence comparison, not a test of a new indication. |
 
 ---
 
@@ -84,22 +75,24 @@ Because of this overlap, the clinical trial and literature evidence below should
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37166817](https://pubmed.ncbi.nlm.nih.gov/37166817/) | 2023 | RCT | JAMA Oncology | WSG-TP-II — endocrine therapy + trastuzumab/pertuzumab vs de-escalated chemotherapy in HR-positive/HER2-positive early breast cancer. |
-| [37609714](https://pubmed.ncbi.nlm.nih.gov/37609714/) | 2023 | RCT | Future Oncology | DECRESCENDO — de-escalating chemotherapy in HER2-positive, hormone receptor-negative, node-negative early breast cancer. |
-| [30106636](https://pubmed.ncbi.nlm.nih.gov/30106636/) | 2018 | RCT (Phase 2) | J Clin Oncol | PERTAIN — trastuzumab + aromatase inhibitor ± pertuzumab in HER2-positive and hormone receptor-positive metastatic/locally advanced breast cancer. |
-| [37723497](https://pubmed.ncbi.nlm.nih.gov/37723497/) | 2023 | Cohort | World J Surg Oncol | Real-world retrospective study (China) finding PR status a more decisive factor than ER status for pertuzumab benefit in HER2-positive, node-positive breast cancer. |
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Review | J Clin Oncol | ASCO guideline update on systemic therapy for advanced HER2-positive breast cancer. |
-| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | Cohort | Lancet Oncology | NeoSphere 5-year follow-up — neoadjuvant pertuzumab + trastuzumab in HER2-positive breast cancer. |
-| [38906970](https://pubmed.ncbi.nlm.nih.gov/38906970/) | 2024 | Phase 3 equivalence trial | British J Cancer | QL1209 (pertuzumab biosimilar) vs reference pertuzumab, both + trastuzumab + docetaxel, in HER2-positive, ER/PR-negative breast cancer. |
-| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | Phase 2 trial | Annals of Oncology | WSG-ADAPT HER2+/HR- — 12-week neoadjuvant dual HER2 blockade ± paclitaxel. |
-| [40076535](https://pubmed.ncbi.nlm.nih.gov/40076535/) | 2025 | Systematic Review | Int J Mol Sciences | Pertuzumab + trastuzumab + docetaxel as adjuvant doublet therapy for HER2-positive breast cancer. |
-| [28973704](https://pubmed.ncbi.nlm.nih.gov/28973704/) | 2017 | Review | Southern Medical Journal | Overview of neoadjuvant and adjuvant therapies across breast cancer molecular subtypes, including HER2-enriched disease. |
+| [42150145](https://pubmed.ncbi.nlm.nih.gov/42150145/) | 2026 | RCT | J Clin Oncol | Survival analysis of WSG TP-II: neoadjuvant trastuzumab + pertuzumab with endocrine therapy vs weekly paclitaxel in HR-positive/HER2-positive early breast cancer |
+| [37166817](https://pubmed.ncbi.nlm.nih.gov/37166817/) | 2023 | RCT | JAMA Oncol | WSG-TP-II: endocrine therapy plus dual HER2 blockade vs de-escalated chemotherapy in HR-positive/HER2-positive early breast cancer |
+| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | RCT (Phase 2) | Lancet Oncol | NeoSphere 5-year analysis: progression-free and disease-free survival and safety of neoadjuvant pertuzumab plus trastuzumab |
+| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | RCT (Phase 2) | Ann Oncol | WSG-ADAPT HER2+/HR-: 12 weeks of dual blockade with or without weekly paclitaxel |
+| [38906970](https://pubmed.ncbi.nlm.nih.gov/38906970/) | 2024 | RCT | Br J Cancer | Phase 3 equivalence of pertuzumab biosimilar QL1209 vs reference pertuzumab in HER2-positive, ER/PR-negative disease |
+| [41401771](https://pubmed.ncbi.nlm.nih.gov/41401771/) | 2026 | RCT | ESMO Open | Phase 3 equivalence of pertuzumab biosimilar TQB2440 vs reference pertuzumab |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Guideline | J Clin Oncol | ASCO guideline update on systemic therapy for advanced HER2-positive breast cancer |
+| [27057657](https://pubmed.ncbi.nlm.nih.gov/27057657/) | 2016 | Review | Cancer Treat Rev | Review of HR-positive/HER2-positive breast cancer, including pathway cross-talk |
+| [41387082](https://pubmed.ncbi.nlm.nih.gov/41387082/) | 2026 | Cohort | Breast | Retrospective study of ovarian function suppression plus aromatase inhibitors in premenopausal HR+/HER2+ patients |
+| [40983817](https://pubmed.ncbi.nlm.nih.gov/40983817/) | 2025 | Review | Breast Cancer | Signalling pathway interactions and clinical translation in HR+/HER2+ breast cancer |
 
 ---
 
 ## Australia Market Information
 
-This evidence pack records **no ARTG entries** and a market status of **Not Marketed** for pertuzumab. No product name, dosage form, or approved-indication text was retrievable from the regulatory data source used to build this pack. This should be treated as a data gap requiring verification rather than a confirmed regulatory finding, since pertuzumab-containing products are marketed in a number of jurisdictions internationally — the current TGA/ARTG registration status should be confirmed directly against the TGA product database before any decision is finalised.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10267J | Perjeta | Solution for I.V. infusion 420 mg in 14 mL | Approved indication text not available in the data compiled for this report |
 
 ---
 
@@ -107,17 +100,21 @@ This evidence pack records **no ARTG entries** and a market status of **Not Mark
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-HER2 monoclonal antibody) |
-| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
-| Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
+| Cytotoxicity Classification | Targeted therapy (HER2-directed monoclonal antibody) |
+| Myelosuppression Risk | Low as a single agent; haematological toxicity is mainly driven by the combined chemotherapy (e.g. docetaxel) |
+| Emetogenicity Classification | Low |
+| Monitoring Items | Left ventricular ejection fraction (cardiac function) before and during treatment; FBC, liver and renal function as required by the combined chemotherapy |
+| Handling Protection | Please refer to the Product Information (PI) and local institutional policy |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No key warnings, contraindications, or drug-drug interaction data were returned for pertuzumab in this evidence pack (DDI query status: not found).
+- **Drug Interactions**: A moderate interaction with idelalisib is recorded. The other interaction entry describes pertuzumab's pharmacological target (ERBB2/HER2), not a drug-drug interaction.
+- **Cardiac safety**: Cardiac safety studies of pertuzumab, trastuzumab and chemotherapy (TRYPHAENA, BERENICE) are available in the literature. Cardiac monitoring is advised.
+- **Pregnancy**: Reports of use during pregnancy are limited, so this requires specialist advice.
+
+For key warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
 ---
 
@@ -126,13 +123,14 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Evidence level L1 is met on the strength of two completed Phase 3 RCTs (NCT04629846, NCT03726879) directly evaluating pertuzumab-based regimens in this receptor-defined population, supported by a further eight trials and ten relevant publications, including one real-world study specifically addressing PR status as a predictor of pertuzumab benefit (PMID 37723497). However, because PR-positive status sits within pertuzumab's existing HER2-positive breast cancer population rather than representing a mechanistically distinct disease, this candidate should be framed as a biomarker-defined subgroup confirmation rather than novel repurposing.
+Pertuzumab is already registered in Australia, and randomised evidence supports its use in HER2-positive breast cancer, including HR-positive subsets. The predicted indication falls within the existing HER2-positive indication, so the real question is HER2 status and treatment combination, not a new disease.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information — warnings/precautions and contraindications (flagged as a **Blocking** data gap; required before any S1 safety assessment can proceed)
-- Confirmed, structured mechanism-of-action data from DrugBank (High-priority gap; current MOA description was reconstructed from rationale text, not a primary source field)
-- Verification of actual TGA/ARTG registration status for pertuzumab in Australia, given the "Not Marketed / 0 ARTG entries" result is inconsistent with pertuzumab's known international marketing status and should be checked directly against the TGA database
-- Confirmation of drug interaction data (currently returned as not found)
+- Confirmation of HER2 positivity before treatment
+- Cardiac function monitoring plan
+- Review of endocrine therapy combinations for HR-positive/HER2-positive disease
+- Confirmation of the approved indication wording from the ARTG entry and the TGA Product Information
+- Mechanism of action data and PI-based warnings and contraindications, which are not yet available
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

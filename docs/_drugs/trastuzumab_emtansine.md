@@ -2,15 +2,15 @@
 layout: default
 title: Trastuzumab Emtansine
 parent: Moderate Evidence (L3-L4)
-nav_order: 698
-evidence_level: L3
+nav_order: 750
+evidence_level: L4
 indication_count: 10
 ---
 
 # Trastuzumab Emtansine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,74 +29,97 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Trastuzumab Emtansine: From HER2-Positive Breast Cancer to Normal Breast-Like Subtype of Breast Carcinoma
+# Trastuzumab Emtansine: From HER2-Positive Breast Carcinoma to Progesterone-Receptor Negative Breast Cancer
 
 ## One-Sentence Summary
 
-Trastuzumab emtansine (T-DM1) is an antibody-drug conjugate used internationally for HER2-positive breast cancer, though it is not currently marketed in Australia.
-The TxGNN model's top-ranked prediction is **Normal Breast-Like Subtype of Breast Carcinoma**,
-but this is currently supported by only **1 ongoing Phase 2 trial** and **no published literature**, with the mechanistic rationale still unconfirmed.
+Trastuzumab emtansine (T-DM1) is an antibody-drug conjugate originally used to treat HER2-positive breast carcinoma.
+The TxGNN model's top-ranked prediction is **normal breast-like subtype of breast carcinoma**, but it has no supporting studies. This report therefore focuses on the best-supported prediction, **progesterone-receptor negative breast cancer**, which has **1 clinical trial** and **11 publications**. This prediction largely overlaps with the approved HER2-positive indication and is not a true repurposing opportunity.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2-positive breast cancer (internationally established use; not a TGA-approved indication — drug not marketed in Australia) |
-| Predicted New Indication | Normal breast-like subtype of breast carcinoma |
+| Original Indication | HER2-positive breast carcinoma (from the TxGNN knowledge graph; the ARTG entry has no indication text) |
+| Predicted New Indication | Progesterone-receptor negative breast cancer (the top-ranked prediction, normal breast-like subtype of breast carcinoma, has no clinical evidence) |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in DrugBank for this evidence pack (Data Gap DG002). Based on the supporting literature that is available (PMID 32583565, PMID 21510863), trastuzumab emtansine is an antibody-drug conjugate (ADC) combining the anti-HER2 monoclonal antibody trastuzumab with DM1 (emtansine/mertansine), a cytotoxic microtubule inhibitor. Trastuzumab delivers the cytotoxic payload specifically to HER2-overexpressing cells, and its efficacy in HER2-positive breast cancer is well established internationally.
+Detailed mechanism of action data is not available for this report. T-DM1 is known to combine the anti-HER2 antibody trastuzumab with the microtubule inhibitor DM1 (emtansine). The antibody directs the cytotoxic payload to HER2-expressing tumour cells.
 
-The top-ranked predicted indication, "normal breast-like subtype," is a molecular subtype of breast carcinoma that is typically HER2-negative or low-expressing, rather than HER2-driven. The single supporting trial (NCT06348134) does not stratify by this subtype specifically — it evaluates anti-HER2 therapy broadly in HER2-positive Nigerian breast cancer patients — so the mechanistic link is conditional on individual tumour HER2 status rather than generally applicable to the subtype as a whole. The evidence pack's own rationale flags this as non-universal.
+HER2-positive breast cancer can be either hormone receptor-positive or hormone receptor-negative. A PR-negative tumour that is also HER2-positive is therefore already covered by the approved HER2-positive indication, because treatment depends on HER2 status rather than PR status. The prediction is mostly a re-labelling of the existing use rather than a new therapeutic area.
 
-It is worth noting for context that other candidates in this same evidence pack — particularly progesterone-receptor positive and progesterone-receptor negative breast cancer (ranks 2–3) — are supported by a substantially larger body of completed Phase 2/3 RCTs and literature, largely because they sit within the already-established HER2-positive breast cancer population where T-DM1 has a genuine, well-documented mechanistic basis. The rank-1 candidate reported here has comparatively weaker direct evidence.
+The same applies to the other breast-related predictions. These are the progesterone-receptor positive and luminal A or B subtypes. Only the HER2-positive portion is supported. HER2-negative disease, such as the normal breast-like subtype and luminal A tumours, has no clear target rationale.
+
+The remaining predictions are weaker. Synovium cancer, tenosynovial giant cell tumours (CSF1/CSF1R-driven), malignant giant cell tumour, HHV-8-related tumour and ectomesenchymoma have no established HER2 rationale and no clinical evidence. For malignant giant cell tumour, the two retrieved papers concern T-DM1 resistance in breast cancer cells, and the name match is incidental.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Phase 2 | Recruiting | 74 | Assessing optimal neoadjuvant-to-adjuvant anti-HER2-based therapy in Nigerian women with HER2+ breast cancer, evaluating efficacy and safety before/after surgery; no results yet, and not specifically stratified by normal breast-like subtype (relevance grade B — indirect) |
+| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | Phase 2 | Terminated | 139 | DECRESCENDO: single-arm de-escalation study of adjuvant chemotherapy in HER2-positive, ER-negative, node-negative early breast cancer after neoadjuvant chemotherapy with dual HER2 blockade (pertuzumab and trastuzumab). Relevance to PR-negative disease is partial. |
+
+No ANZCTR trial identifiers were found in the data compiled for this report.
 
 ## Literature Evidence
 
-Currently no related literature available for this specific predicted indication.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [28259011](https://pubmed.ncbi.nlm.nih.gov/28259011/) | 2017 | Guideline | Eur J Cancer | EGTM biomarker guideline: ER and PR should be measured in all invasive breast cancers, while anti-HER2 therapy, including ado-trastuzumab emtansine, is selected by HER2 status |
+| [34215766](https://pubmed.ncbi.nlm.nih.gov/34215766/) | 2021 | Cohort | Sci Rep | ChangeHER trial: prognostic relevance of gaining HER2 positivity in metastatic breast cancer treated with pertuzumab and/or T-DM1 |
+| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | Review | Pharmacol Res | Targeted and cytotoxic inhibitors in breast cancer, with management guided by HER2, HR, ER and PR status |
+| [24892840](https://pubmed.ncbi.nlm.nih.gov/24892840/) | 2013 | Review | Clin Adv Hematol Oncol | Metastatic breast cancer subtypes and recent treatment developments |
+| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | Case report | Front Oncol | Pyrotinib plus metronomic vinorelbine in ER-negative, PR-negative, HER2-positive breast cancer with leptomeningeal disease |
+| [35140078](https://pubmed.ncbi.nlm.nih.gov/35140078/) | 2022 | Case report | BMJ Case Rep | Receptor conversion in breast cancer, which occurs in up to 32% of patients |
+| [33482449](https://pubmed.ncbi.nlm.nih.gov/33482449/) | 2021 | Case report | Int J Surg Case Rep | Metastatic breast cancer in a patient on haemodialysis |
+| [40642740](https://pubmed.ncbi.nlm.nih.gov/40642740/) | 2025 | Case report | J Med Cases | Durable response to trastuzumab deruxtecan in HER2-mutated triple-negative metastatic breast cancer |
+| [39827242](https://pubmed.ncbi.nlm.nih.gov/39827242/) | 2025 | Preclinical | Sci Rep | Steroid hormone receptors and treatment response in patient-derived breast cancer xenografts |
+| [37445276](https://pubmed.ncbi.nlm.nih.gov/37445276/) | 2023 | Preclinical | J Clin Med | Aminosteroid RM-581 reduces proliferation across breast cancer subtypes |
+
+All of these publications are reviews, guidelines, case reports or preclinical studies. None is a randomised trial of T-DM1 in PR-negative disease.
 
 ## Australia Market Information
 
-Trastuzumab emtansine is not currently registered on the ARTG (Australian Register of Therapeutic Goods). The evidence pack records 0 licenses and a market status of "not marketed" in Australia.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10281D | Kadcyla | Powder for I.V. infusion 100 mg | Indication text not available in the data compiled for this report |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (antibody-drug conjugate; anti-HER2 antibody linked to the cytotoxic microtubule inhibitor DM1) |
+| Cytotoxicity Classification | Antibody-drug conjugate (targeted therapy delivering a cytotoxic microtubule inhibitor) |
 | Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
-| Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the PI. Haematological parameters and liver function are typically monitored for this class. |
+| Handling Protection | Handle according to local cytotoxic drug handling requirements |
 
 ## Safety Considerations
 
-Trastuzumab emtansine is not currently marketed in Australia, and no TGA-approved Product Information exists domestically. Warnings, contraindications, and drug interaction data in this evidence pack are incomplete and flagged as a **Blocking** data gap (DG001), meaning a formal safety (S1) evaluation cannot yet proceed. Overseas prescribing information (e.g. an equivalent regulator's approved PI) should be sourced and reviewed before any further assessment.
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications. No label-derived data were available for this report.
+
+**Drug Interactions:** The interaction screen returned 100 potential interactions. The main examples are listed below.
+
+- **Major:** acetylsalicylic acid, deferasirox, abciximab, apixaban, argatroban, betrixaban, bivalirudin, cangrelor, caplacizumab and cilostazol. Most are antithrombotic or antiplatelet agents, so the bleeding risk should be considered.
+- **Moderate:** clarithromycin, metronidazole, tinidazole, naltrexone, rosuvastatin, simvastatin, cobicistat, fenfluramine, dexfenfluramine and sibutramine.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication is supported by only one ongoing, indirectly relevant Phase 2 trial (evidence level L3, relevance grade B) with no completed results and no literature, and the mechanistic link depends on individual tumour HER2 status rather than being generally applicable to the subtype. A Blocking safety data gap also prevents progression past decision stage S1.
+The predictions with data are largely subsets of the already approved HER2-positive indication, so they are not true repurposing opportunities. The only trial is a terminated Phase 2 study, and the literature is indirect. The top-ranked prediction and the non-breast predictions have no clinical evidence or mechanistic basis.
 
 **To proceed, the following is needed:**
-- TGA-approved (or overseas equivalent) Product Information covering warnings and contraindications (resolves DG001)
-- Confirmed DrugBank mechanism of action data (resolves DG002)
-- HER2 status stratification data from trials enrolling the "normal breast-like" subtype specifically, to confirm or refute the mechanistic link
-- Completion results from NCT06348134 (estimated completion 2036)
+- Mechanism of action data and TGA Product Information (indications, warnings, contraindications)
+- Clarification of whether any Australian-specific need exists beyond the current HER2-positive indication
+- Evidence from HER2-negative disease or non-breast tumours, such as prospective trials, before any new-indication claim
+- A review of the interaction profile, particularly the antithrombotic agents, in a clinical context
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

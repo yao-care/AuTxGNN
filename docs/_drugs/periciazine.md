@@ -2,7 +2,7 @@
 layout: default
 title: Periciazine
 parent: Model Prediction Only (L5)
-nav_order: 526
+nav_order: 561
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,15 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Periciazine: From Antipsychotic Therapy to Anxiety Disorders
+# Periciazine: From Antipsychotic Use (Original Indication Not Recorded) to Migraine Disorder
 
 ## One-Sentence Summary
 
-> Periciazine (DrugBank DB01608) is a piperidine-class phenothiazine with dopamine D2/serotonin 5-HT2A antagonist activity, historically used as an antipsychotic; the original approved indication is not captured in this evidence pack and TxGNN's top-ranked prediction (migraine disorder, score 99.9%) is unsupported by any trial or literature evidence.
-> Among the ten candidates returned, **Anxiety** is the only indication combining a plausible class-level mechanism with actual supporting literature — **0 clinical trials** and **3 relevant publications** (including one specific to periciazine).
-> Evidence remains preclinical/observational only (L3), and periciazine is **not currently marketed in Australia**, so this is a research question rather than a near-term clinical option.
-
-*Note: This report deviates from strict rank order. TxGNN's rank-1 prediction (migraine disorder, score 99.9%) has zero supporting trials or literature and its own rationale states there is "no clinical or trial evidence whatsoever" for periciazine in this indication — it is flagged in the evidence pack as likely prediction noise. Anxiety (rank 8) is the only candidate the evidence pack itself elevates to decision stage S1 ("Research Question"), so it is used as the headline indication below for clinical relevance.*
+Periciazine (also spelled pericyazine) is a phenothiazine antipsychotic, marketed in Australia as Neulactil 2.5 mg tablets. The TxGNN model predicts it may be effective for **migraine disorder**, but **no clinical trials and no publications** currently support this prediction. The evidence is a model prediction only.
 
 ---
 
@@ -45,23 +41,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in this evidence pack (no `original_indications` or ARTG data returned) — known pharmacologically as a phenothiazine antipsychotic |
-| Predicted New Indication | Anxiety |
-| TxGNN Prediction Score | 97.65% (rank 21,369 of all candidates) |
-| Evidence Level | L3 (observational/PK cohort study) |
-| Australia Market Status | Not marketed (0 ARTG entries) |
-| Number of ARTG Entries | 0 |
+| Original Indication | Not recorded in the ARTG data compiled for this report (the approved indication text is empty). Pharmacology reference data describe use in schizophrenia and other psychoses, and as short-term adjunctive management of severe anxiety, psychomotor agitation and violent or dangerously impulsive behaviour (UK approval) |
+| Predicted New Indication | Migraine disorder |
+| TxGNN Prediction Score | 99.89% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacological class information cited in the evidence pack's own rationale, periciazine is a **piperidine-class phenothiazine** acting via dopamine D2 and serotonin 5-HT2A receptor antagonism — the same mechanism underlying sedative and anxiolytic effects seen across the phenothiazine class.
+Detailed mechanism of action data are not available for periciazine in the data compiled for this report. Pharmacology reference data list the dopamine D1 receptor (DRD1) as a target, but note that no peer-reviewed data could be sourced to map a primary molecular target. Periciazine is a phenothiazine antipsychotic. Drugs in this class generally act through dopamine D2 antagonism, with additional antihistaminic, anticholinergic and alpha-adrenergic blocking activity. These class-level properties are not confirmed for periciazine specifically.
 
-This class-level sedative/anxiolytic effect is not merely theoretical: the evidence pack notes that periciazine is already approved in France (as *Neuleptil*) for anxiety/agitation as an adjunctive indication, and several other phenothiazines (e.g. chlorpromazine, prochlorperazine) have established anxiolytic and antiemetic uses outside their primary antipsychotic indication. This gives the anxiety prediction a defensible mechanistic and real-world regulatory basis, unlike several other TxGNN outputs in this pack (e.g. migraine disorder, atrophoderma vermiculata, open-angle glaucoma) which the evidence pack's own rationale explicitly labels as mechanistically unrelated or lacking any supporting evidence.
+Other phenothiazines, such as chlorpromazine and prochlorperazine, are used in acute migraine, mainly to relieve headache and nausea. This gives the prediction a class-level rationale. However, no periciazine-specific data in migraine were identified, and the high TxGNN score is a computational prediction only.
 
-Because `original_indications` was returned empty, the relationship between periciazine's original approved use and the anxiety prediction cannot be formally established here — this should be confirmed against a primary regulatory source (TFDA/TGA-equivalent product information) before further evaluation.
+The second-ranked prediction (migraine with brainstem aura) and the fifth (migraine susceptibility) are closely related to migraine and likely reflect ontology proximity rather than separate evidence. Other predictions have weaker or no plausible rationale:
+
+| Predicted Indication | TxGNN Score | Comment |
+|------|------|------|
+| Migraine with brainstem aura | 99.84% | Same class-level rationale as migraine; no subtype-specific evidence |
+| Atrophoderma vermiculata | 99.36% | No plausible mechanism; likely a knowledge-graph artefact |
+| Dysthymic disorder | 99.25% | Theoretical relevance only; chronic phenothiazine use may worsen mood or cause sedation |
+| Migraine with or without aura, susceptibility to | 99.22% | Genetic susceptibility entry, not a distinct treatable indication |
+| Ulerythema ophryogenesis | 99.16% | No plausible mechanism |
+| Sciatic neuropathy | 97.74% | Weak, indirect rationale (adjunct use in neuropathic pain) |
+| Anxiety | 97.65% | Sedative properties; only linked paper is pharmacokinetic |
+| Anxiety disorder | 97.44% | As above |
+| Open-angle glaucoma | 97.16% | Anticholinergic activity may raise intraocular pressure, a safety concern |
 
 ---
 
@@ -73,25 +81,36 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+For the top-ranked prediction (migraine disorder), currently no related literature is available.
+
+The only publication linked to any of the predictions relates to the anxiety predictions, and it does not assess efficacy:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35361275](https://pubmed.ncbi.nlm.nih.gov/35361275/) | 2022 | Cohort/PK (Tier 2) | J Pharm Health Care Sci | Case report/cohort evaluating periciazine (with brotizolam and sulpiride) transfer into cord blood and breast milk in pregnancy/lactation, in the context of high prevalence of anxiety and mood disorders during pregnancy |
-| [12563525](https://pubmed.ncbi.nlm.nih.gov/12563525/) | 2003 | Animal (Tier 3) | Braz J Med Biol Res | Dose-related effects of propericiazine on anxiety and memory models in rats, compared against diazepam |
-| [16860706](https://pubmed.ncbi.nlm.nih.gov/16860706/) | 2006 | Review/Case (Tier 3) | Eur Psychiatry | Discusses antipsychotic-induced hypersensitivity of visual perception; general antipsychotic class context, abstract not available |
-
-*One additional PubMed hit returned for this query (PMID 20132509, a syncope/implantable loop recorder case report) was excluded as clinically unrelated to periciazine or anxiety and appears to be a search artifact.*
+| [35361275](https://pubmed.ncbi.nlm.nih.gov/35361275/) | 2022 | Case report / pharmacokinetic study | J Pharm Health Care Sci | Measured transfer of brotizolam, periciazine and sulpiride into cord blood and breast milk (and alprazolam into breast milk). This is a drug-transfer study, not evidence of efficacy in anxiety |
 
 ---
 
 ## Australia Market Information
 
-Periciazine is **not currently marketed in Australia** — no ARTG entries were returned for this drug, so no product/dosage-form table is available.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 3052P | Neulactil | Tablet 2.5 mg (oral) | Not available in the data compiled for this report |
+
+---
+
+## Cytotoxicity
+
+Periciazine is not an antineoplastic drug, so this section does not apply.
 
 ---
 
 ## Safety Considerations
 
-Periciazine is not registered on the ARTG, so no TGA-approved Product Information exists for this drug in Australia. Key warnings, contraindications, and drug interaction data were not available in this evidence pack (flagged as a **Blocking** data gap — TFDA/equivalent regulatory label data must be obtained before any safety pre-assessment can proceed). Safety evaluation should draw on an overseas regulatory source (e.g. the French or UK product label for periciazine, given its approved anxiolytic use) until local data can be sourced.
+- **Drug Interactions**: The interaction query completed, but returned only a pharmacology entry (dopamine D1 receptor, DRD1, as a target) and no drug-drug interactions with a severity level.
+- **Class-related concern**: Anticholinergic activity may raise intraocular pressure or precipitate angle-closure, which is relevant to the open-angle glaucoma prediction. Chronic phenothiazine use may also cause sedation or worsen mood.
+
+Warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ---
 
@@ -100,14 +119,14 @@ Periciazine is not registered on the ARTG, so no TGA-approved Product Informatio
 **Decision: Hold**
 
 **Rationale:**
-The strongest candidate indication (Anxiety) is supported only by preclinical/observational evidence (L3) with no clinical trials, and a Blocking-severity data gap in safety/label information means the candidate cannot yet clear an initial safety pre-assessment. Periciazine is also not currently marketed in Australia, so any repurposing pathway would first require establishing a regulatory presence.
+All predictions are supported only by the TxGNN model (Evidence Level L5). No clinical trials or efficacy literature were found, and warnings and contraindications from the product information were not available. The migraine prediction has a plausible class-level rationale through other phenothiazines, but nothing specific to periciazine.
 
 **To proceed, the following is needed:**
-- TFDA/TGA-equivalent product information (warnings, contraindications, DDI) to clear the Blocking data gap
-- Confirmed original approved indication(s) for periciazine (currently missing from this evidence pack)
-- Detailed mechanism of action data from DrugBank
-- Confirmation of ARTG/TGA registration status or a pathway assessment if unregistered
-- Prospective or controlled clinical evidence for periciazine (or class-level phenothiazines) specifically in anxiety, beyond the current animal and pharmacokinetic studies
+- The approved indication text and Product Information (warnings and contraindications) for Neulactil from the TGA, to allow safety screening
+- Mechanism of action data for periciazine (for example, from DrugBank)
+- A systematic search for periciazine data in migraine, and a comparison against established phenothiazine use in acute migraine
+- Early-phase clinical evidence (for example, a pilot study in acute migraine) before any further consideration
+- An assessment of whether the oral tablet form is suitable for acute migraine treatment (route compatibility is still pending)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

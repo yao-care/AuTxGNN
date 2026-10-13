@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Interferon Beta-1B
-parent: Moderate Evidence (L3-L4)
-nav_order: 357
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 384
+evidence_level: L5
 indication_count: 10
 ---
 
 # Interferon Beta-1B
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,114 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Interferon Beta-1b: From Multiple Sclerosis to Hairy Cell Leukaemia
+# Interferon beta-1b: From Relapsing-Remitting Multiple Sclerosis to Autoimmune Disease of the Central Nervous System
 
 ## One-Sentence Summary
 
-Interferon beta-1b (IFN-β-1b) is a recombinant Type I interferon internationally established as a disease-modifying therapy for multiple sclerosis (MS), though it is not currently registered in Australia.
-The TxGNN model predicts potential efficacy for **Hairy Cell Leukaemia (HCL)** with a prediction score of **99.16%**, supported by **0 registered clinical trials** and **5 publications** — predominantly early pilot clinical studies and case series from 1987–1990, conducted in the era before cladribine became the standard of care.
+Interferon beta-1b is an immunomodulatory protein originally used to treat relapsing-remitting multiple sclerosis (RRMS).
+The TxGNN model's top-ranked prediction is **hairy cell leukaemia**, which has no supporting studies. The best-supported prediction is **autoimmune disease of the central nervous system** (rank 2), with **6 clinical trials** and **18 publications**. This category is largely the same as the drug's existing indication (multiple sclerosis), so it is not a true repurposing finding.
+
+*Note: The first-ranked prediction (hairy cell leukaemia) has no trials or literature (Evidence Level L5, Hold). This report focuses on rank 2 because it is the only top-ranked prediction with substantial evidence. Other predictions are summarised briefly below.*
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Australia; internationally approved for Multiple Sclerosis |
-| Predicted New Indication | Hairy Cell Leukaemia |
-| TxGNN Prediction Score | 99.16% |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
+|------|------|
+| Original Indication | Relapsing-remitting multiple sclerosis (the ARTG entry does not list indication text) |
+| Predicted New Indication | Autoimmune disease of the central nervous system (rank 2; rank 1 is hairy cell leukaemia, L5, Hold) |
+| TxGNN Prediction Score | 99.02% (rank 1, hairy cell leukaemia: 99.16%) |
+| Evidence Level | L1 (rank 2); note that the evidence is mostly for MS, the original indication |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this evidence pack. Based on established scientific knowledge, IFN-β-1b shares the same Type I interferon receptor complex (IFNAR1/IFNAR2) as IFN-α, activating the JAK1/TYK2 → STAT1/STAT2 → interferon-stimulated gene (ISG) signalling cascade. This pathway confers antiproliferative and pro-apoptotic effects on tumour cells. Critically, IFN-α was the historical standard of care for HCL prior to the introduction of purine analogues (cladribine, pentostatin) in the 1990s. Since IFN-β-1b operates through the same receptor system, it carries plausible mechanistic grounds for anti-HCL activity — the TxGNN model's high prediction score almost certainly reflects this shared receptor biology.
+Detailed mechanism of action data are not available in the data compiled for this report. From the published literature, interferon beta-1b is understood to modulate the immune system. It reduces T-cell activation, lowers MHC class II expression on antigen-presenting cells, shifts cytokine balance toward an anti-inflammatory profile, and limits immune-cell trafficking across the blood-brain barrier. The exact mechanism in MS is not fully established.
 
-HCL is a B-cell malignancy characterised by the abnormal proliferation of hairy cells, and Type I interferons are well-established modulators of B-cell survival and differentiation. Early clinical series published between 1987 and 1990 demonstrated that recombinant beta-serine interferon (the same molecular form as IFN-β-1b) produced haematological responses in HCL patients, with response rates broadly comparable to IFN-α in direct comparison cohorts. Bone marrow clearance, however, was incomplete in all reported cases, foreshadowing the superiority of later purine analogue therapies.
+The predicted category, "autoimmune disease of the central nervous system", is dominated by multiple sclerosis, the drug's existing indication. The prediction is therefore reasonable, but it largely reflects the original indication rather than a new use. The data compiled for this report contain no evidence for non-MS CNS autoimmune conditions. In neuromyelitis optica spectrum disorder (NMOSD), interferon beta may in fact worsen disease.
 
-It is essential to contextualise this prediction within the current treatment landscape. Modern HCL therapy with cladribine or pentostatin achieves durable complete remissions in over 90% of patients. IFN-β-1b in HCL would now be most relevant as a salvage option in patients who have exhausted purine analogue therapy, or as a historical reference point for understanding Type I interferon biology in HCL. Regulatory and access considerations in Australia — where neither IFN-β-1b nor IFN-α is registered for HCL — add a further practical constraint.
+**Other predictions in the top 10:**
+- **Hairy cell leukaemia (rank 1) and its variant (rank 8):** Interferon alpha has established activity in hairy cell leukaemia, and interferon beta-1b acts through the same receptor (IFNAR), so a link is plausible. However, there are no trials or literature for this drug, and the variant is generally less responsive to interferons. Evidence Level L5, Hold.
+- **Progressive multiple sclerosis (rank 7):** L2. Indirect support from reviews and a 2024 network meta-analysis. The only Phase 3 trial (NCT00313976) was withdrawn with no participants enrolled. Benefit in primary progressive MS is limited.
+- **Multiple sclerosis, susceptibility to (rank 4):** L3. Literature covers pharmacogenomics and adverse reactions only. It is useful for research on response prediction, not as a separate indication.
+- **Fetal methylmercury syndrome, hepatic infarction, extramammary Paget disease, peliosis hepatis (ranks 5, 6, 9, 10):** No plausible mechanism and no evidence (L5, Hold). The drug carries hepatotoxicity warnings, which argues against use in the liver conditions.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Interferon beta-1b in Hairy Cell Leukaemia.
+Trials for autoimmune disease of the central nervous system (rank 2):
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00185211](https://clinicaltrials.gov/study/NCT00185211) | Phase 3 | Completed | 468 | Open-label extension of the placebo-controlled BENEFIT study; long-term data on early versus delayed interferon beta-1b in early MS |
+| [NCT01333501](https://clinicaltrials.gov/study/NCT01333501) | Phase 4 | Completed | 151 | Randomised, rater-blinded comparison of fingolimod with interferon beta-1b on cognitive symptoms in RRMS |
+| [NCT00893217](https://clinicaltrials.gov/study/NCT00893217) | Phase 2 | Completed | 71 | Double-blind safety and tolerability study of 500 mcg versus 250 mcg every other day in RRMS |
+| [NCT01158183](https://clinicaltrials.gov/study/NCT01158183) | N/A | Completed | 226 | Real-world observational study of 12-month outcomes in relapsing MS |
+| [NCT01111656](https://clinicaltrials.gov/study/NCT01111656) | Phase 2 | Completed | 28 | Follow-up of atorvastatin added to interferon beta-1b in RRMS (small combination study) |
+| [NCT01701856](https://clinicaltrials.gov/study/NCT01701856) | Phase 4 | Terminated | 5 | Natalizumab de-escalation to interferon beta-1b; terminated early and uninformative |
+
+Further trials for the closely related category "CNS demyelinating autoimmune disease" (rank 3) include [NCT00459667](https://clinicaltrials.gov/study/NCT00459667) (Phase 3b, 1,420 participants, dose comparison of 250 mcg and 500 mcg in relapsing MS) and [NCT03577977](https://clinicaltrials.gov/study/NCT03577977) (retrospective data in children and adolescents with MS, n=70). Most other trials listed for that category are observational adherence or device studies.
+
+No ANZCTR identifiers are present in the data compiled for this report.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Retrospective Case Series | Leukaemia | UCLA experience with 51 HCL patients across IFN types; 71% of patients on recombinant beta-serine-IFN achieved haematological improvement; early response rates broadly comparable to IFN-α, establishing proof-of-concept for Type I IFN class activity |
-| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Prospective Comparative (non-randomised) | Cancer | 10 HCL patients treated with rIFN-β-ser (90 × 10⁶ units SC, 3×/week); 63% achieved normalisation of peripheral blood counts and a further 25% showed partial haematological improvement; all patients had persistent hairy cells in bone marrow at the time of reporting |
-| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Case Series / Pilot Clinical | American Journal of Haematology | 12 HCL patients (10 heavily pre-treated) received IV beta-ser IFN 90 MU 3×/week; demonstrated activity of IFN-β in patients with 90–100% bone marrow involvement, including prior-therapy failures |
-| [1702309](https://pubmed.ncbi.nlm.nih.gov/1702309/) | 1990 | Translational / Biomarker | British Journal of Haematology | Monoclonal antibody panel used to monitor residual HCL disease in 20 patients treated with IFN-α or IFN-β; hairy cells retained characteristic immunophenotype (CD22, CD11c, CD25, CD32) despite treatment; methodology relevant to response assessment in future trials |
-| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Case Report | American Journal of Clinical Oncology | 3 HCL patients who failed alpha- or beta-IFN were rescued with 2'-deoxycoformycin (DCF); all achieved complete response; establishes the feasibility of sequential therapy after IFN-β failure and contextualises IFN-β's role as a bridging rather than definitive agent |
+|------|-----|------|------|---------|
+| [38032059](https://pubmed.ncbi.nlm.nih.gov/38032059/) | 2023 | Network meta-analysis | Cochrane Database Syst Rev | Compares the relative adverse effects of MS immunotherapies |
+| [38174776](https://pubmed.ncbi.nlm.nih.gov/38174776/) | 2024 | Network meta-analysis | Cochrane Database Syst Rev | Relative benefit of immunomodulators and immunosuppressants in RRMS (update of the 2015 review) |
+| [26384035](https://pubmed.ncbi.nlm.nih.gov/26384035/) | 2015 | Network meta-analysis | Cochrane Database Syst Rev | Original network meta-analysis of therapies for RRMS |
+| [39254048](https://pubmed.ncbi.nlm.nih.gov/39254048/) | 2024 | Network meta-analysis | Cochrane Database Syst Rev | Immunomodulators and immunosuppressants in progressive MS |
+| [21128695](https://pubmed.ncbi.nlm.nih.gov/21128695/) | 2011 | Review | CNS Drugs | Large randomised trials of 2 to 3.5 years show efficacy of 250 µg every other day in MS, including after a first clinical event |
+| [18698876](https://pubmed.ncbi.nlm.nih.gov/18698876/) | 2008 | Review | CNS Drugs | In BENEFIT, relative risk of clinically definite MS was reduced by 41% over 3 years |
+| [28440858](https://pubmed.ncbi.nlm.nih.gov/28440858/) | 2017 | Systematic review | Cochrane Database Syst Rev | Disease-modifying drugs after a first clinical attack suggestive of MS |
+| [30610426](https://pubmed.ncbi.nlm.nih.gov/30610426/) | 2020 | Long-term follow-up | J Neurol | Long-term outcomes from early treatment of clinically isolated syndrome in BENEFIT 11 |
+| [15182221](https://pubmed.ncbi.nlm.nih.gov/15182221/) | 2004 | Review | CNS Drugs | Review of use in RRMS and secondary progressive MS |
+| [25482255](https://pubmed.ncbi.nlm.nih.gov/25482255/) | 2014 | Review | Neurol Neurochir Pol | Long-term follow-up of the pivotal trial and the effect of interferon beta on survival |
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 8101J | Betaferon | Injection set including 1 vial powder for injection 8,000,000 I.U. (250 micrograms) and solvent | Not listed in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to internationally available Product Information (PI) documents for safety information — for example, the US FDA label for Betaseron®/Extavia® or the EMA Summary of Product Characteristics for Betaferon®. Interferon beta-1b is not currently registered on the Australian Register of Therapeutic Goods (ARTG) and no Australian-specific PI is available. Key considerations known from international labelling include hepatotoxicity (AST/ALT elevation), depression and suicidal ideation, injection site reactions, and flu-like symptoms. Liver function monitoring is particularly relevant when considering use in HCL patients, who may already have hepatic involvement.
+Specific warnings and contraindications are not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for safety information.
+
+**Drug interactions:** 100 interactions were identified in total. Examples include:
+- **Major:** Bupropion
+- **Moderate:** Pioglitazone, rosiglitazone, simvastatin, rosuvastatin, clarithromycin, levofloxacin, minocycline, naltrexone, orlistat, acarbose, and anabolic steroids (oxandrolone, oxymetholone, stanozolol)
+
+Published literature also notes that interferon beta-1b can cause liver enzyme elevation, injection site reactions, flu-like symptoms, and rarely severe skin reactions.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The evidence base for IFN-β-1b in HCL is entirely historical (1987–1990), derived from small uncontrolled case series conducted before modern effective therapies existed. Although biological plausibility is supported by shared IFNAR signalling with IFN-α (the former HCL standard of care), there is no registered clinical trial evidence, no Australian product registration, and no comparative data against cladribine or current second-line agents (vemurafenib, rituximab, moxetumomab pasudotox). This is appropriately classified as a research question rather than an actionable clinical recommendation.
+The evidence for rank 2 is substantial (a Phase 3 extension trial, several Cochrane network meta-analyses, and many reviews), but it concerns multiple sclerosis, which is the drug's existing indication. It does not demonstrate a new use. The top-ranked prediction, hairy cell leukaemia, has no supporting evidence and should remain on Hold.
 
 **To proceed, the following is needed:**
-
-- Retrieval of full DrugBank mechanism of action data (DrugBank DB00068) to formally document IFNAR binding affinity and downstream ISG pathway activity relative to IFN-α
-- Safety assessment via international PI review (Betaseron®/Betaferon® prescribing information), with particular attention to hepatotoxicity and haematological monitoring requirements relevant to HCL patients
-- Feasibility assessment of a defined clinical niche: for example, salvage therapy after cladribine and pentostatin failure, or use in patients with contraindications to purine analogues or BRAF-targeted therapy
-- Comparative efficacy mapping against current second- and third-line HCL options (rituximab, vemurafenib for BRAF V600E-positive HCL, moxetumomab pasudotox)
-- If clinical use is contemplated in Australia, assessment of access pathways: TGA Special Access Scheme Category B (SAS-B) or Authorised Prescriber designation, as no ARTG registration exists
-- Assessment of whether the repurposing rationale warrants a formal investigator-initiated trial or systematic review of historical IFN-β HCL data in the context of modern response assessment criteria
+- Confirm the current TGA-approved indications for Betaferon, as the indication text was not available
+- Retrieve the TGA Product Information to complete warnings and contraindications
+- Obtain detailed mechanism of action data
+- Define whether any non-MS CNS autoimmune condition is being targeted. Evidence for these is absent, and interferon beta may worsen NMOSD.
+- For hairy cell leukaemia, a literature and trial review would be needed before any further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

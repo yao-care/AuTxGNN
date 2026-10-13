@@ -2,7 +2,7 @@
 layout: default
 title: Cortisone
 parent: Moderate Evidence (L3-L4)
-nav_order: 171
+nav_order: 185
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,87 +29,73 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cortisone: From Adrenal Insufficiency to Primary Cutaneous T-Cell Lymphoma
+# Cortisone: From a Corticosteroid with No Recorded Indication to Primary Cutaneous T-Cell Lymphoma
 
 ## One-Sentence Summary
 
-Cortisone is a naturally occurring glucocorticoid hormone, historically the first steroid used in clinical medicine, most closely associated with adrenal insufficiency and inflammatory disease management.
-The TxGNN model predicts it may be effective for **Primary Cutaneous T-Cell Lymphoma (CTCL)**,
-with **1 clinical trial** (indirectly related, currently suspended) and **no published literature** directly supporting this indication.
-
----
+Cortisone is an oral corticosteroid (a prodrug converted to cortisol in the body), marketed in Australia as cortisone acetate 5 mg tablets.
+The TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma**, but support is very thin: **1 clinical trial** that is not relevant (it studies diffuse large B-cell lymphoma) and **5 publications**, all case reports or reviews from 1951 to 1964.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Australia — no TGA-approved indication available |
-| Predicted New Indication | Primary Cutaneous T-Cell Lymphoma |
+|------|------|
+| Original Indication | Not available (the ARTG entry has no approved indication text) |
+| Predicted New Indication | Primary cutaneous T-cell lymphoma |
 | TxGNN Prediction Score | 99.67% |
 | Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this evidence pack. Based on known pharmacological information, cortisone is an endogenous glucocorticoid that is metabolically converted to active cortisol (the biologically active form) primarily in the liver via 11β-hydroxysteroid dehydrogenase type 1. Cortisol, in turn, binds to intracellular glucocorticoid receptors in lymphoid cells, triggering apoptotic pathways — providing a theoretical basis for activity against T-cell malignancies.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, cortisone is a prodrug converted to cortisol, which acts on the glucocorticoid receptor. Corticosteroids have lympholytic activity: they can trigger apoptosis (programmed cell death) in lymphoid cells. This gives a plausible link to T-cell lymphoma.
 
-Primary cutaneous T-cell lymphoma is a heterogeneous group of non-Hodgkin lymphomas arising from skin-homing T lymphocytes. The mechanistic rationale for the TxGNN prediction centres on this glucocorticoid-receptor–mediated lympholytic effect. This is supported by a well-established class effect: prednisone is a standard component of CHOP and EPOCH chemotherapy regimens used for systemic T-cell lymphomas, demonstrating that glucocorticoids contribute meaningfully to lymphoma cytotoxicity.
+The supporting evidence is weak. The literature consists only of 1950s and 1960s case reports on mycosis fungoides (the most common cutaneous T-cell lymphoma). One of these describes a harmful outcome, a terminal ulceronecrotic process possibly linked to treatment. The single linked trial does not study cortisone or cutaneous T-cell lymphoma, and prednisone appears in it only as part of a chemotherapy regimen.
 
-However, it is important to note that for primary CTCL specifically, systemic glucocorticoid therapy is not standard practice. Topical corticosteroids are commonly used for localised disease, while systemic options for advanced CTCL include skin-directed therapies, retinoids, histone deacetylase inhibitors, and targeted biologics. Cortisone's indirect mechanism (requiring hepatic conversion to cortisol) and its lack of any direct CTCL clinical data mean this prediction remains theoretical at this stage.
-
----
+Other predictions for cortisone are stronger. The most established is adrenocortical insufficiency (rank 2), which is a rediscovery of a known historical use, not true repurposing. For lymphosarcoma (rank 4), steroid-containing regimens are standard in lymphoma, but they use prednisone or dexamethasone rather than cortisone.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT04799275](https://clinicaltrials.gov/study/NCT04799275) | Phase 2/3 | Suspended | 422 | R-MiniCHOP ± oral azacitidine (CC-486) in patients aged ≥75 years with newly diagnosed diffuse large B-cell lymphoma and related high-grade B-cell lymphomas. MiniCHOP contains prednisone, not cortisone. Trial is currently suspended, substantially reducing evidence value. No CTCL patients included. |
+|---------|------|------|------|---------|
+| [NCT04799275](https://clinicaltrials.gov/study/NCT04799275) | Phase 2/3 | Active, not recruiting | 422 | R-miniCHOP with or without oral azacitidine in patients aged 75 or older with diffuse large B-cell lymphoma. This is a B-cell disease, and cortisone is not tested (prednisone is only a regimen component). No direct relevance. |
 
----
+No ANZCTR trials were identified in the data compiled for this report.
 
 ## Literature Evidence
 
-Currently no related literature available for cortisone specifically in primary cutaneous T-cell lymphoma.
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [14169182](https://pubmed.ncbi.nlm.nih.gov/14169182/) | 1964 | Review | J Med Chir Prat | Overview of mycosis fungoides (no abstract available) |
+| [14884116](https://pubmed.ncbi.nlm.nih.gov/14884116/) | 1951 | Case report | Svenska Lakartidningen | Combined ACTH and cortisone therapy in impetigo herpetiformis, mycosis fungoides and erythrodermic psoriasis |
+| [14896727](https://pubmed.ncbi.nlm.nih.gov/14896727/) | 1951 | Case report | Dermatologica | Effects of cortisone in two cases of mycosis fungoides |
+| [13612293](https://pubmed.ncbi.nlm.nih.gov/13612293/) | 1958 | Case report | Lyon Medical | Two cases treated with delta-cortisone; terminal ulceronecrotic process probably linked to the medication |
+| [13536705](https://pubmed.ncbi.nlm.nih.gov/13536705/) | 1957 | Case report | Bull Soc Fr Dermatol Syphiligr | Two cases of bronchial epithelioma in patients with mycosis fungoides treated with cortisone |
 
 ## Australia Market Information
 
-Cortisone is currently **not registered** on the Australian Register of Therapeutic Goods (ARTG). There are no TGA-approved products listing cortisone as a primary active ingredient, and the drug has no approved indications in Australia.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1246N | Cortate | Tablet containing cortisone acetate 5 mg (oral) | Not stated in the data compiled |
 
 ## Safety Considerations
 
-As cortisone holds no TGA registration in Australia, no local Product Information (PI) is available. Please refer to standard glucocorticoid prescribing references and international PI documents for safety information. Key considerations known from the glucocorticoid class include:
-
-- **Immunosuppression risk**: All evidence in the candidiasis literature (rank 5 of this report) confirms cortisone functions as an immunosuppressant, predisposing patients to opportunistic infections including oral and invasive candidiasis. This is a known safety concern for the entire glucocorticoid class.
-- **Adrenal suppression**: Long-term use may suppress the hypothalamic-pituitary-adrenal (HPA) axis; abrupt withdrawal can precipitate acute adrenocortical insufficiency.
-- **Drug interactions**: No DDI data was identified for cortisone specifically in this evidence pack. Class-level interactions with CYP3A4 inducers/inhibitors and drugs affecting 11β-HSD activity (e.g., posaconazole, as documented in the myelodysplastic syndrome literature) should be considered.
-
----
+Please refer to the TGA-approved Product Information (PI) for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.67%), there is no direct clinical or preclinical evidence supporting cortisone for primary cutaneous T-cell lymphoma. The only identified clinical trial is suspended and does not study cortisone in CTCL. The mechanistic link is indirect (class effect via glucocorticoid-mediated T-cell apoptosis), and cortisone is not registered in Australia, creating additional regulatory barriers.
+Support for this indication is limited to a plausible class-level mechanism and a handful of 1950s to 1960s case reports. The single linked trial is unrelated. Modern evidence for corticosteroids in lymphoma concerns prednisone or dexamethasone within combination regimens, not cortisone alone.
 
 **To proceed, the following is needed:**
-- Preclinical data (in vitro or in vivo) demonstrating cortisone or cortisol activity specifically in CTCL models
-- Assessment of whether class-effect evidence from prednisone and dexamethasone in systemic T-cell lymphoma can be extrapolated to primary CTCL
-- Mechanism of action data (DrugBank) to confirm cortisone's glucocorticoid receptor pharmacodynamics relative to modern agents
-- Regulatory pathway assessment: TGA registration or Special Access Scheme (SAS) requirements before any clinical use in Australia
-- Clarification of whether topical cortisone formulations — more appropriate for localised CTCL — may represent a more clinically rational application than systemic administration
-
----
-
-> **⚠️ Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All predictions should be interpreted in the context of current clinical guidelines and individual patient circumstances.
+- The approved indication and Product Information for Cortate, including warnings and contraindications
+- Mechanism of action data for cortisone
+- Modern clinical evidence, such as controlled studies of corticosteroids in cutaneous T-cell lymphoma, and a clinical view on whether cortisone offers any advantage over prednisone or dexamethasone
+- A review of other predictions. Adrenocortical insufficiency has the strongest evidence (L1, Proceed with Guardrails), but its trials test hydrocortisone, not cortisone, and hydrocortisone is now preferred. The candidiasis prediction is likely a model artefact, because cortisone is used to induce candidiasis in animal models.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

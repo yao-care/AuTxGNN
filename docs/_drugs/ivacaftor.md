@@ -2,7 +2,7 @@
 layout: default
 title: Ivacaftor
 parent: Model Prediction Only (L5)
-nav_order: 371
+nav_order: 399
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,84 +33,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ivacaftor (brand name: Kalydeco) is a CFTR potentiator approved internationally for cystic fibrosis (CF) in patients with specific *CFTR* gene mutations, but is not currently registered on the Australian Register of Therapeutic Goods (ARTG).
-The TxGNN model predicts it may have potential application in **Rheumatoid Arthritis**, with **1 clinical trial** (indirectly relevant, Grade C) and **1 publication** (animal/mechanistic study, Tier 3) currently identified.
-Evidence is limited to model prediction with only tangential mechanistic support — this candidate remains at hypothesis-generation stage.
-
----
+Ivacaftor is a CFTR potentiator originally used to treat cystic fibrosis.
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the computational model alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Cystic fibrosis (patients with specific *CFTR* gating mutations, e.g. G551D) |
-| Predicted New Indication | Rheumatoid Arthritis |
+|------|------|
+| Original Indication | Cystic fibrosis (the Australian licence entry has no indication text recorded; this comes from the TxGNN knowledge graph) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 96.97% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed in Australia |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current Evidence Pack. Based on established pharmacology, Ivacaftor is a small-molecule CFTR potentiator: it binds to the CFTR chloride channel protein and increases its open-channel probability in patients carrying specific gating mutations (e.g. G551D). This restores chloride ion transport across epithelial membranes, improving mucociliary clearance and lung function in CF.
+Currently, detailed mechanism of action data is not available. Based on known information, ivacaftor is a CFTR potentiator, its use in cystic fibrosis is established, and any mechanistic applicability to rheumatoid arthritis remains speculative.
 
-The mechanistic link to rheumatoid arthritis is indirect and speculative. CFTR is expressed not only in airway epithelium but also in neutrophils — a key effector cell in RA synovial inflammation. CFTR potentiation in neutrophils may theoretically modulate reactive oxygen species (ROS) production and transepithelial migration capacity, both of which are implicated in RA pathology. One supporting data point comes from animal models of Sjögren's syndrome and autoimmune pancreatitis (PMID 28634110), where CFTR restoration reduced glandular inflammation — suggesting a broader immunomodulatory role for CFTR beyond airway epithelia.
+No mechanistic link is established in the data compiled for this report. One hypothesis is that CFTR expressed in immune or epithelial cells may modulate inflammation, but nothing in the available evidence supports it. The TxGNN score is a graph-based computational prediction only, and no similarity analysis between the original and predicted indications has been completed.
 
-However, this mechanistic chain is three or more steps removed from an RA therapeutic mechanism. There is no direct in vitro, animal, or clinical evidence validating Ivacaftor's effect in RA models. The TxGNN high prediction score most likely reflects the CFTR → immune regulation → systemic inflammation pathway as represented in the knowledge graph, rather than direct therapeutic evidence. This prediction is best treated as a hypothesis-generation signal warranting early mechanistic investigation.
-
----
+Other high-scoring predictions for this drug (HIV infection, leprosy, cytomegalovirus infection, and several rare genetic syndromes) also have no supporting trials or literature. Two entries (simian immunodeficiency virus infection and feline acquired immunodeficiency syndrome) share an identical score, which suggests a shared signal from the lentiviral disease cluster rather than independent findings.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT04970225](https://clinicaltrials.gov/study/NCT04970225) | N/A | Completed | 47 | Prospective study examining neutrophil phenotype and function in CF patients, including the impact of CFTR modulator treatment and *Pseudomonas aeruginosa* infection. No RA patients enrolled; no RA outcome measures. Indirectly relevant only through shared neutrophil biology — does not constitute clinical evidence for Ivacaftor in RA. |
-
-> **Note:** The sole identified trial (NCT04970225) was graded **C relevance** — it was conducted in CF patients, not RA patients, and did not measure RA-related outcomes. This trial does not support the RA repurposing hypothesis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [28634110](https://pubmed.ncbi.nlm.nih.gov/28634110/) | 2017 | Animal/Mechanistic Study | *Gastroenterology* | In mouse models of Sjögren's syndrome and autoimmune pancreatitis, restoring CFTR activity in ductal cells reduced glandular inflammation and rescued acinar cell function. Suggests CFTR may play a role in autoimmune inflammation beyond the lung — mechanistically relevant but not RA-specific, and not a human study. |
-
----
+Currently no related literature available.
 
 ## Australia Market Information
 
-Ivacaftor currently has **no ARTG entries** in Australia. As of the data cut-off (22 June 2026), the drug is not registered or marketed through the Therapeutic Goods Administration (TGA).
-
-> For reference, Ivacaftor (Kalydeco®) is approved by the US FDA and EMA for cystic fibrosis with specific *CFTR* gating mutations. Clinicians and researchers seeking safety and prescribing information should consult the FDA-approved Prescribing Information or the EMA Summary of Product Characteristics, noting that these do not constitute TGA approval.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10170G | Kalydeco | Tablet 150 mg (oral) | Not recorded in the compiled data |
 
 ## Safety Considerations
 
-Product Information (PI) warnings and contraindications specific to the Australian/TGA context are not available, as Ivacaftor is not registered on the ARTG.
+- **Drug Interactions**: The interaction query returned 100 records; 20 are shown in the compiled data. Major interactions include:
+  - **Aprepitant** (Major)
+  - **Clarithromycin** (Major)
 
-Please refer to the **FDA-approved Prescribing Information (Kalydeco®)** or **EMA Summary of Product Characteristics** for detailed safety data, including hepatotoxicity monitoring requirements, drug–drug interactions with CYP3A4 modulators, and use in specific populations (paediatric, renal/hepatic impairment).
+  Moderate interactions include corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), loperamide, cimetidine, cisapride, clotrimazole, eliglustat, eluxadoline, and sulfonylureas (chlorpropamide, acetohexamide, glimepiride, glipizide, glyburide). Fidaxomicin is a Minor interaction.
 
----
+  Corticosteroids and other agents commonly used in rheumatoid arthritis are relevant to this prediction, so combination use would need careful review.
+
+For warnings and contraindications, please refer to the TGA-approved Product Information (PI) for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high prediction score to Ivacaftor for rheumatoid arthritis (96.97%), but the biological connection is indirect and unvalidated — no clinical trials, no RA-specific animal models, and no human pharmacological studies support this pairing. The single identified trial and publication are tangentially related through neutrophil biology only, insufficient to advance to clinical consideration.
+The prediction for rheumatoid arthritis is supported only by a model score (L5), with no registered trials, no publications, and no established mechanistic link. Safety data from the product label could not be reviewed, and the drug has a large number of recorded interactions.
 
 **To proceed, the following is needed:**
-
-- **Mechanistic validation:** In vitro studies examining Ivacaftor's effect on neutrophil ROS production, NETosis, or transepithelial migration in RA-relevant conditions
-- **MOA gap closure:** Confirm Ivacaftor's full pharmacological profile in immune cell subtypes (neutrophils, macrophages) beyond airway epithelium
-- **Animal model data:** Ivacaftor testing in established RA animal models (e.g. collagen-induced arthritis) to determine whether CFTR potentiation reduces synovial inflammation
-- **Safety profile clarification:** Obtain full prescribing information and assess whether known drug interactions (particularly CYP3A4 pathway) present risks in a typical RA patient population who may be on DMARDs or biologics
-- **TGA pathway assessment:** If preclinical data is supportive, evaluate whether a TGA Special Access Scheme or clinical trial application would be feasible given current non-marketed status in Australia
+- Mechanism of action data (e.g. from DrugBank) and a plausible CFTR-related rationale for rheumatoid arthritis
+- Product Information warnings and contraindications for safety screening
+- A literature search and preclinical or early-phase evidence in rheumatoid arthritis
+- Review of interactions with agents used in rheumatoid arthritis, particularly corticosteroids
+- Confirmation of the approved indication text for the Australian licence entry
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

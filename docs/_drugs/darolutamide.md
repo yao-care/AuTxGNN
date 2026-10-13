@@ -2,7 +2,7 @@
 layout: default
 title: Darolutamide
 parent: Model Prediction Only (L5)
-nav_order: 184
+nav_order: 199
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,99 +29,81 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Darolutamide: From Non-Metastatic Castration-Resistant Prostate Cancer to Homozygous Familial Hypercholesterolaemia
+# Darolutamide: From Prostate Cancer to Homozygous Familial Hypercholesterolaemia
 
 ## One-Sentence Summary
 
-Darolutamide (Nubeqa) is an androgen receptor (AR) antagonist approved internationally for non-metastatic castration-resistant prostate cancer (nmCRPC), though it does not appear in the Australian ARTG database based on available data. The TxGNN model assigns a high algorithmic confidence score to **Homozygous Familial Hypercholesterolaemia (HoFH)** as its top predicted new indication, however this is supported by **no clinical trials** and **no published literature**, and faces significant biological plausibility challenges specific to HoFH genetics.
-
----
+Darolutamide is a non-steroidal androgen receptor antagonist, marketed in Australia as Nubeqa 300 mg tablets. The approved indication text was not available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolaemia**, but there are **0 clinical trials** and **0 publications** supporting this prediction. It is a model-only prediction with no supporting evidence.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Non-metastatic castration-resistant prostate cancer (nmCRPC) — based on international regulatory approvals; original indication data unavailable in this Evidence Pack |
-| Predicted New Indication | Homozygous Familial Hypercholesterolaemia |
+|------|------|
+| Original Indication | Not available in the data compiled for this report (darolutamide is an androgen receptor antagonist used in prostate cancer) |
+| Predicted New Indication | Homozygous familial hypercholesterolaemia |
 | TxGNN Prediction Score | 99.11% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on publicly available information, Darolutamide is a competitive androgen receptor (AR) antagonist that blocks androgens — testosterone and dihydrotestosterone — from binding to the AR. This prevents AR nuclear translocation and suppresses downstream transcriptional activity that drives prostate tumour growth in the castration-resistant setting.
+Detailed mechanism of action data is not available in the data compiled for this report. Darolutamide is known to be a non-steroidal androgen receptor antagonist.
 
-The theoretical pathway linking AR antagonism to homozygous familial hypercholesterolaemia (HoFH) rests on observations that androgen/AR signalling can modulate hepatic low-density lipoprotein receptor (LDLR) expression. If AR antagonism were to upregulate LDLR gene transcription, this could theoretically enhance LDL-cholesterol clearance from the circulation — a mechanistically plausible cholesterol-lowering pathway in settings where the LDLR gene retains at least partial function.
+The prediction is difficult to justify. Homozygous familial hypercholesterolaemia is caused by defects in the LDL receptor pathway (LDLR, APOB, PCSK9, LDLRAP1), which has no established link to androgen receptor blockade. The high TxGNN score appears to be a graph-based prediction without supporting clinical or literature evidence.
 
-However, this hypothesis breaks down specifically in HoFH. Unlike heterozygous FH or polygenic hypercholesterolaemia, HoFH is defined by **biallelic loss-of-function mutations in the LDLR gene** — both copies are non-functional or severely truncated. Even if AR antagonism were to successfully upregulate LDLR gene transcription, the resulting protein would remain non-functional or absent at the cell surface. AR antagonism cannot rescue a structurally defective receptor. There is no clinical trial or published literature to support this direction for Darolutamide, and the prediction is most likely a false positive arising from knowledge graph topology rather than a genuine therapeutic opportunity.
-
----
+Other top-ranked predictions are similarly unsupported. Most are viral or veterinary conditions (HIV, simian immunodeficiency virus infection, feline AIDS, cytomegalovirus infection, infectious bovine rhinotracheitis, malignant catarrhal fever), which is a pattern consistent with graph artefacts rather than real therapeutic signals. The only candidate with any trial matches is multiple endocrine neoplasia (rank 2), but those trials relate to prostate cancer, not to this condition.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Darolutamide in homozygous familial hypercholesterolaemia.
-
----
+Currently no related clinical trials registered for homozygous familial hypercholesterolaemia.
 
 ## Literature Evidence
 
-Currently no related literature available for Darolutamide in homozygous familial hypercholesterolaemia.
-
----
+Currently no related literature available.
 
 ## Australia Market Information
 
-Darolutamide is not currently listed on the Australian Register of Therapeutic Goods (ARTG) based on the data available to this system. There are no ARTG entries for this drug.
-
-Clinicians wishing to prescribe Darolutamide in Australia for any indication would need to apply through the TGA's **Special Access Scheme (SAS Category B or C)** or seek **Authorised Prescriber** status. Australian prescribers should verify the current TGA registration status directly via the [TGA website](https://www.tga.gov.au).
-
-> **Note:** Darolutamide (Nubeqa®, Bayer) has received regulatory approval from the US FDA (July 2019), European EMA, and multiple other jurisdictions for nmCRPC treatment.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12684N | Nubeqa | Tablet 300 mg (oral) | Not available in the data compiled for this report |
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — androgen receptor (AR) antagonist; **not** a conventional cytotoxic agent |
-| Myelosuppression Risk | Low — bone marrow suppression is not a primary toxicity of AR antagonists |
-| Emetogenicity Classification | Minimal to low |
-| Monitoring Items | Liver function tests (LFTs), cardiovascular status, blood pressure, fatigue/asthenia; vigilance for thromboembolic events (DVT/PE) |
-| Handling Protection | Standard oral solid dosage form handling applies; dedicated cytotoxic handling precautions (biological safety cabinet, chemotherapy gowning) are not required under standard protocols |
-
----
+|------|------|
+| Cytotoxicity Classification | Targeted/endocrine therapy (androgen receptor antagonist), not a conventional cytotoxic |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
+| Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
 
 ## Safety Considerations
 
-TGA-approved Product Information and formal safety data are not available in this Evidence Pack. Please refer to the TGA-approved Product Information (PI) or the international Summary of Product Characteristics (SmPC) for complete safety information.
+Key warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for these.
 
-> **Important signal for clinicians:** Based on international prescribing information, Darolutamide is associated with an **increased risk of venous thromboembolism**, including deep vein thrombosis (DVT) and pulmonary embolism (PE). This is particularly relevant because the TxGNN model also predicts Darolutamide as a candidate for "thrombotic disease" (rank 8 in this Evidence Pack). This signal represents a **known adverse effect**, not a therapeutic opportunity, and clinicians should be cautious not to misinterpret it as such.
+**Drug Interactions:** The interaction screen returned 100 interacting drugs, of which 20 are listed in the data compiled for this report. Selected examples:
+- **Major:** dexamethasone, eluxadoline, rosuvastatin
+- **Moderate:** clarithromycin, empagliflozin, glyburide, repaglinide, simvastatin, sulfasalazine, cobicistat, deferasirox, eltrombopag
+- **Minor:** aprepitant, cimetidine, miconazole
 
----
+The rosuvastatin (major) and simvastatin (moderate) interactions are particularly relevant, as statins are standard therapy in familial hypercholesterolaemia. Darolutamide is also known to have CYP3A4, P-gp and BCRP interaction potential, which would complicate combination use.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite the TxGNN model assigning a high algorithmic prediction score (99.11%), repurposing Darolutamide for homozygous familial hypercholesterolaemia lacks both biological plausibility and empirical support. The biallelic LDLR loss-of-function that defines HoFH cannot be meaningfully addressed by AR antagonism-mediated upregulation of a structurally non-functional receptor protein. Importantly, across all 10 top-ranked TxGNN predictions for Darolutamide in this Evidence Pack, every candidate is rated **Hold** or **Research Question** at evidence level L5 or L4 — indicating that the model is currently generating predictions outside Darolutamide's established biological domain. Several predictions refer to veterinary or non-human diseases (infectious bovine rhinotracheitis, feline acquired immunodeficiency syndrome, malignant catarrh, simian immunodeficiency virus), which further reduces confidence in the overall prediction set.
+The prediction rests only on a graph-based model score. There is no plausible mechanistic link, no clinical trials and no literature, and a notable interaction with statins would complicate its use in this population.
 
 **To proceed, the following is needed:**
-
-- Obtain full mechanism of action (MOA) data from DrugBank API or primary pharmacology literature
-- Obtain TGA-approved (or international) Product Information to complete safety and contraindication assessment
-- Commission preclinical work to determine whether AR antagonism produces any measurable cholesterol-lowering effect in LDLR-null or LDLR-deficient cell or animal models, before advancing this hypothesis
-- Conduct independent scientific review of all 10 predicted indications to identify whether any candidate has a sufficiently plausible and testable biological rationale — **HIV infectious disease (rank 3)** may warrant a focused exploratory review given preliminary literature linking AR signalling to HIV latent reservoir dynamics
-- Verify current Darolutamide ARTG registration status directly with TGA, as the drug holds international approvals and local registration may have occurred after this data cutoff
-- If progressing to any clinical exploration, ensure a comprehensive thromboembolic risk management plan is in place given Darolutamide's known DVT/PE risk profile
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require rigorous clinical validation before any therapeutic application. Please refer to the TGA-approved Product Information for prescribing guidance.*
+- Mechanistic evidence linking androgen receptor antagonism to LDL receptor pathway defects
+- Preclinical data in relevant models
+- Approved indication text and TGA Product Information (warnings and contraindications)
+- Statin and lipid-lowering drug interaction assessment
+- Consideration of other candidates only if supported by evidence. None of the other nine predictions currently show credible support.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

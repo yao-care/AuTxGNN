@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Icosapent Ethyl
-parent: High Evidence (L1-L2)
-nav_order: 339
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 364
+evidence_level: L5
 indication_count: 10
 ---
 
 # Icosapent Ethyl
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,99 +29,85 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Icosapent Ethyl: From Hypertriglyceridaemia to Myocardial Infarction
+# Icosapent Ethyl: From Hypertriglyceridemia to Myocardial Infarction
 
 ## One-Sentence Summary
 
-> Icosapent ethyl (Vascepa®) is a highly purified EPA ethyl ester established internationally for lowering triglycerides and reducing cardiovascular events in high-risk patients.
-> Among 10 TxGNN-predicted indications, **Myocardial Infarction** stands out with the strongest supporting evidence,
-> backed by **8 clinical trials** (including the pivotal REDUCE-IT programme) and **20 publications**, while the other 9 predictions currently have little to no drug-specific evidence.
-
-*Note: This evidence pack does not contain original-indication or ARTG licence data for icosapent ethyl (0 ARTG entries — the drug is not currently marketed in Australia). "Hypertriglyceridaemia" above reflects the drug's well-established overseas (e.g. US FDA) approved use, not TFDA/TGA-sourced data.*
-
----
+Icosapent ethyl is a highly purified eicosapentaenoic acid (EPA) ethyl ester, originally used to treat hypertriglyceridemia.
+The TxGNN model predicts it may be effective for **myocardial infarction**,
+with **1 registered clinical trial (withdrawn, no participants)** and **19 publications** currently supporting this direction, including several analyses of the Phase 3 REDUCE-IT trial.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in this evidence pack — the drug is not TGA-registered. Overseas regulators (US FDA) approve icosapent ethyl for severe hypertriglyceridaemia and cardiovascular risk reduction. |
-| Predicted New Indication | Myocardial Infarction |
-| TxGNN Prediction Score | 98.60% (rank 13,820 of all drug-disease pairs; selected as the leading candidate among the 10 predictions supplied due to its evidence strength, rather than the highest raw score) |
-| Evidence Level | L1 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Original Indication | Hypertriglyceridemia |
+| Predicted New Indication | Myocardial infarction (selected as the best-supported of the top 10 predictions; the top-ranked prediction was hemoglobinopathy, L5) |
+| TxGNN Prediction Score | 98.60% (myocardial infarction); 99.09% for the top-ranked prediction, hemoglobinopathy |
+| Evidence Level | L1 (REDUCE-IT-derived evidence; see note below) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
----
+Note: the top-ranked prediction (hemoglobinopathy) has model prediction only (L5, Hold). This report focuses on myocardial infarction, the prediction with the strongest supporting evidence. The L1 grading rests on the REDUCE-IT trial as reported in the supplied literature. The trial registry record itself was not among the supplied data.
 
 ## Why is This Prediction Reasonable?
 
-Detailed DrugBank mechanism-of-action text was not returned for this drug (data gap). Based on well-established pharmacology, icosapent ethyl is a highly purified eicosapentaenoic acid (EPA) ethyl ester. Its cardiovascular benefit is thought to arise from multiple complementary mechanisms: triglyceride lowering, anti-inflammatory effects, plaque stabilisation, and mild antiplatelet activity.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the supplied literature, icosapent ethyl is a purified EPA ethyl ester that lowers triglycerides and triglyceride-rich lipoproteins. It is also reported to have anti-inflammatory, plaque-stabilising and antithrombotic effects. A 2026 mouse study (PMID 42628912) suggests it activates the omega-3 receptor GPR120 and improves cardiac remodelling after myocardial infarction (MI) by suppressing inflammatory cells.
 
-Myocardial infarction sits within the same cardiovascular risk continuum that the drug's approved triglyceride-lowering use already targets — patients treated for hypertriglyceridaemia are, by definition, at elevated atherosclerotic cardiovascular risk. The TxGNN prediction is therefore mechanistically coherent rather than a novel biological leap.
+Elevated triglycerides are linked to residual cardiovascular risk even when LDL cholesterol is well controlled. The original indication (hypertriglyceridemia) and the predicted indication (MI) are therefore connected through the same lipid-driven atherosclerotic pathway.
 
-This is also the only one of the 10 predicted indications with direct, drug-specific randomised controlled trial evidence: the REDUCE-IT trial (PMID 30415628) demonstrated a significant reduction in the composite endpoint of cardiovascular death, non-fatal MI, non-fatal stroke, coronary revascularisation, or unstable angina in statin-treated patients with elevated triglycerides — and multiple REDUCE-IT post-hoc analyses specifically examine MI outcomes and subtypes.
-
----
+The literature includes multiple REDUCE-IT analyses, a large randomised trial in statin-treated patients with elevated triglycerides. These report cardiovascular event reduction, including in patients with prior MI (PMID 35483753) and across MI types and sizes (PMID 40982548). The benefit is established for the REDUCE-IT population (statin-treated, elevated triglycerides, high cardiovascular risk). This indication is also close to existing cardiovascular risk-reduction use, so it may be label-adjacent rather than a truly novel repurposing.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00231738](https://clinicaltrials.gov/study/NCT00231738) | Phase 4 | Completed | 18,000 | JELIS: highly purified EPA + statin reduced major cardiovascular events vs statin alone in hypercholesterolaemic Japanese patients |
-| [NCT04505098](https://clinicaltrials.gov/study/NCT04505098) | Phase 4 | Terminated | 39,600 | MITIGATE: pragmatic real-world RCT of IPE pre-treatment in high-CV-risk adults, targeting viral URI-related morbidity/mortality; terminated |
-| [NCT05271591](https://clinicaltrials.gov/study/NCT05271591) | N/A | Completed | 200 | REDUCE-IT Canada SA: cross-sectional analysis of South-Asian patients meeting the Health Canada-approved IPE indication |
-| [NCT04460651](https://clinicaltrials.gov/study/NCT04460651) | Phase 3 | Completed | 4,093 | PREPARE-IT: pure IPE evaluated for COVID-19 prevention/treatment — not MI-specific |
-| [NCT00069784](https://clinicaltrials.gov/study/NCT00069784) | Phase 3 | Completed | 12,537 | ORIGIN: 2×2 factorial trial; omega-3 fatty acids vs placebo for CV mortality in IFG/IGT/early T2DM — omega-3 was a secondary arm |
-| [NCT00692718](https://clinicaltrials.gov/study/NCT00692718) | Phase 4 | Unknown | 160 | N-3 fatty acids for atrial fibrillation prevention after acute MI/heart failure — AF was the primary endpoint, not MI |
-| [NCT00771914](https://clinicaltrials.gov/study/NCT00771914) | Phase 1/2 | Completed | 27 | Small pharmacodynamic study of omega-3 fatty acids on aspirin resistance |
-| [NCT06280976](https://clinicaltrials.gov/study/NCT06280976) | Phase 4 | Withdrawn | 0 | ART-CAP: coronary plaque assessment study; withdrawn before enrolment, no data available |
+| [NCT06280976](https://clinicaltrials.gov/study/NCT06280976) | Phase 4 | Withdrawn | 0 | ART-CAP: coronary CT angiography to guide plaque assessment and preventive drug therapy. Withdrawn with no enrolment, so no usable efficacy or safety data |
 
----
+No ANZCTR trial identifiers were available in the data compiled for this report.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40982548](https://pubmed.ncbi.nlm.nih.gov/40982548/) | 2025 | RCT (post-hoc) | Eur J Prev Cardiol | REDUCE-IT sub-analysis: IPE benefit consistent across different MI types and infarct sizes |
-| [35483753](https://pubmed.ncbi.nlm.nih.gov/35483753/) | 2022 | RCT (post-hoc) | J Am Coll Cardiol | REDUCE-IT sub-analysis: IPE reduced CV events/mortality specifically in patients with prior MI |
-| [30415628](https://pubmed.ncbi.nlm.nih.gov/30415628/) | 2019 | RCT | N Engl J Med | REDUCE-IT primary results: IPE reduced ischaemic events in statin-treated patients with elevated triglycerides |
-| [34710343](https://pubmed.ncbi.nlm.nih.gov/34710343/) | 2021 | RCT (post-hoc) | Circulation | REDUCE-IT CABG: IPE reduced ischaemic events in patients with prior coronary bypass surgery |
-| [38530686](https://pubmed.ncbi.nlm.nih.gov/38530686/) | 2024 | RCT (post-hoc) | J Am Coll Cardiol | Lipoprotein(a) levels and cardiovascular risk reduction with IPE |
-| [36802845](https://pubmed.ncbi.nlm.nih.gov/36802845/) | 2023 | RCT (post-hoc) | J Am Heart Assoc | REDUCE-IT sub-analysis: CV benefit of IPE with/without atrial fibrillation (increased AF hospitalisation noted) |
-| [38035037](https://pubmed.ncbi.nlm.nih.gov/38035037/) | 2023 | RCT | Eur Heart J Open | REDUCE-IT MetSyn: IPE effectiveness in patients with metabolic syndrome without diabetes |
-| [31567003](https://pubmed.ncbi.nlm.nih.gov/31567003/) | 2019 | Meta-Analysis | J Am Heart Assoc | Meta-analysis of 13 RCTs (127,477 patients): marine omega-3 supplementation and CVD/MI risk |
-| [40752806](https://pubmed.ncbi.nlm.nih.gov/40752806/) | 2025 | Cohort | Int J Cardiol | CALLINICUS-Hellas registry: IPE eligibility 1–3 months post-ACS and risk of MI re-infarction |
-| [28294373](https://pubmed.ncbi.nlm.nih.gov/28294373/) | 2017 | Trial design paper | Clin Cardiol | Rationale and design of the REDUCE-IT trial |
-
----
+| [30415628](https://pubmed.ncbi.nlm.nih.gov/30415628/) | 2019 | RCT | N Engl J Med | REDUCE-IT: icosapent ethyl and cardiovascular risk reduction in patients with elevated triglycerides |
+| [38873793](https://pubmed.ncbi.nlm.nih.gov/38873793/) | 2024 | RCT | Circulation | RESPECT-EPA: statin plus EPA for secondary prevention in coronary artery disease with a low EPA/AA ratio |
+| [31567003](https://pubmed.ncbi.nlm.nih.gov/31567003/) | 2019 | Meta-analysis | J Am Heart Assoc | Marine omega-3 and cardiovascular disease across 13 RCTs (127,477 participants) |
+| [35483753](https://pubmed.ncbi.nlm.nih.gov/35483753/) | 2022 | RCT post-hoc | J Am Coll Cardiol | REDUCE-IT: reduced cardiovascular events and mortality in patients with prior MI |
+| [40982548](https://pubmed.ncbi.nlm.nih.gov/40982548/) | 2025 | RCT post-hoc | Eur J Prev Cardiol | REDUCE-IT: benefit across MI types and sizes |
+| [38678009](https://pubmed.ncbi.nlm.nih.gov/38678009/) | 2024 | RCT post-hoc | Eur Heart J Cardiovasc Pharmacother | REDUCE-IT: effects by baseline residual risk in ASCVD |
+| [34710343](https://pubmed.ncbi.nlm.nih.gov/34710343/) | 2021 | Subgroup analysis | Circulation | REDUCE-IT CABG: reduced ischaemic events in patients with prior bypass surgery |
+| [36802845](https://pubmed.ncbi.nlm.nih.gov/36802845/) | 2023 | Post-hoc analysis | J Am Heart Assoc | Benefit with and without atrial fibrillation; AF/flutter hospitalisation was higher with icosapent ethyl (3.1% vs 2.1%) |
+| [40752806](https://pubmed.ncbi.nlm.nih.gov/40752806/) | 2025 | Cohort | Int J Cardiol | CALLINICUS-Hellas registry: eligibility for icosapent ethyl after acute coronary syndrome and re-infarction risk |
+| [42628912](https://pubmed.ncbi.nlm.nih.gov/42628912/) | 2026 | Preclinical (mouse) | J Mol Cell Cardiol | GPR120 activation improves post-MI cardiac remodelling |
 
 ## Australia Market Information
 
-Icosapent ethyl currently has no ARTG entries and is not marketed in Australia. No local product information is available at this time.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14617H | Vazkepa | Capsule 998 mg (oral) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-No key warnings, contraindications, or drug interaction data were returned for this drug (DrugBank DDI query: not found). As icosapent ethyl is not TGA-registered, there is no Australian Product Information to reference. Prescribers should consult overseas regulatory labelling (e.g. the US FDA-approved Vascepa label) for interim safety guidance until formal TGA documentation is available.
+- **Atrial fibrillation/flutter:** REDUCE-IT analyses reported higher AF/flutter hospitalisation with icosapent ethyl than placebo (3.1% vs 2.1%).
+- **Evidence caveats:** the literature notes concerns about the mineral-oil placebo, bleeding risk, and neutral results for other omega-3 products (such as mixed EPA/DHA formulations).
 
----
+No drug interactions were identified in the data compiled for this report. For contraindications and other warnings, please refer to the TGA-approved Product Information (PI).
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-- The myocardial infarction indication is supported by Phase 3/4 RCT evidence, including the pivotal REDUCE-IT trial and multiple confirmatory post-hoc analyses, giving it L1 evidence strength. However, the drug is not TGA-registered in Australia and safety documentation (warnings, contraindications, DDI) is entirely unavailable, which blocks progression past initial safety screening.
+Phase 3 RCT-level evidence (REDUCE-IT and its analyses) supports cardiovascular event reduction, including MI, in a defined population. The benefit should not be generalised beyond statin-treated, high-risk patients with elevated triglycerides. The other nine predictions have no direct evidence (hemoglobinopathy, thalassaemia, rheumatoid arthritis and others: Hold; MI subtypes: research question only).
 
 **To proceed, the following is needed:**
-- TGA/TFDA-sourced Product Information (warnings, contraindications) — currently a blocking data gap (DG001)
-- Confirmed DrugBank mechanism-of-action data (DG002)
-- A formal DDI database query (current query returned "not found")
-- An assessment of the Australian registration pathway, since there are currently 0 ARTG entries
-- The other 9 lower-ranked predictions (e.g. hemoglobinopathy, beta-thalassaemia, rheumatoid arthritis) should be treated separately — they currently have no drug-specific clinical or literature evidence and remain at Hold/L4-L5
+- Confirm the ARTG-approved indication for Vazkepa and whether MI-related risk reduction is already covered (label-adjacent)
+- Review the PI for warnings and contraindications, particularly AF and bleeding risk
+- Retrieve the mechanism of action data from DrugBank
+- Define the eligible population (statin-treated, elevated triglycerides, established cardiovascular disease or diabetes with risk factors)
+- Verify REDUCE-IT trial registry details and any ANZCTR registrations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

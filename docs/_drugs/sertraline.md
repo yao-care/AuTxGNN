@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sertraline
-parent: Moderate Evidence (L3-L4)
-nav_order: 626
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 669
+evidence_level: L5
 indication_count: 10
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Sertraline: From Major Depressive Disorder to Histrionic Personality Disorder
+# Sertraline: From Anxiety Disorder to Histrionic Personality Disorder
 
 ## One-Sentence Summary
 
-Sertraline is a selective serotonin reuptake inhibitor (SSRI), globally established for major depressive disorder and related anxiety conditions. The TxGNN model predicts it may be effective for **Histrionic Personality Disorder**, but this direction is currently supported by only **1 publication** and **no registered clinical trials** — the evidence is indirect and does not specifically address this indication.
-
-*(Note: The evidence pack contains no drug-level original indication or TGA/ARTG registration data for Sertraline in this market; "Major depressive disorder" above reflects its globally known original indication, not data extracted from this Evidence Pack.)*
+Sertraline is a selective serotonin reuptake inhibitor (SSRI) originally used for anxiety and related disorders, including obsessive-compulsive disorder, post-traumatic stress disorder and social phobia.
+The TxGNN model predicts it may be effective for **histrionic personality disorder**, but **no clinical trials and no publications** currently support this prediction.
 
 ---
 
@@ -43,43 +42,58 @@ Sertraline is a selective serotonin reuptake inhibitor (SSRI), globally establis
 
 | Item | Content |
 |------|------|
-| Original Indication | Major depressive disorder (MDD) — established indication; not confirmed via local TGA/ARTG data (see Market Status) |
-| Predicted New Indication | Histrionic Personality Disorder |
+| Original Indication | Anxiety disorder, obsessive-compulsive disorder, post-traumatic stress disorder, social phobia and related disorders (no approved indication text was available for the Australian listing, so these come from the knowledge-graph indication list) |
+| Predicted New Indication | Histrionic personality disorder |
 | TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Sertraline in this Evidence Pack. Based on known pharmacological information, sertraline is an SSRI that inhibits presynaptic reuptake of serotonin, increasing synaptic serotonin availability. Its efficacy in major depressive disorder and several anxiety-spectrum conditions (panic disorder, OCD, PTSD, social anxiety disorder) is well established internationally.
+Currently, detailed mechanism of action data is not available. Based on known information, sertraline is an SSRI, its efficacy in anxiety-spectrum disorders is established, and it could plausibly act on affective lability or impulsivity. This link is speculative, and no data support it.
 
-The TxGNN model ranks Histrionic Personality Disorder as its top predicted new indication for sertraline, with a very high similarity score (99.93%). However, the only supporting literature identified does not directly address histrionic personality disorder — it examines the relationship between MMPI-2 neurotic triad subscale scores (hypochondria, depression, hysteria) and depression severity after pharmacological treatment in patients with depressive disorders. This is an indirect, mechanistically weak association rather than direct evidence of efficacy in histrionic personality disorder.
+The prediction score is identical (99.93%) to the scores for several other personality disorders (paranoid, schizotypal and schizoid). This suggests the score reflects a shared pattern in the model's knowledge graph rather than a signal specific to histrionic personality disorder. The score alone should not be read as evidence of efficacy.
 
-Given the absence of disease-specific clinical trials or targeted literature, the mechanistic plausibility of using an SSRI for the core features of histrionic personality disorder (attention-seeking, excessive emotionality) remains speculative. This is consistent with the evidence pack's own assessment (Evidence Level L4, Decision Stage S0, Recommendation: Hold).
+For context, other predictions in the same data have much stronger support. Agoraphobia and major depressive disorder both have extensive trial and meta-analysis evidence, but they sit within or next to sertraline's existing use. They are not new repurposing opportunities.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [22075735](https://pubmed.ncbi.nlm.nih.gov/22075735/) | 2011 | Cohort | Psychiatria Danubina | Examined MMPI-2 neurotic triad (hypochondria, depression, hysteria) subscale scores in relation to depression severity after pharmacological treatment in depressive disorder patients; does not directly assess histrionic personality disorder outcomes. |
+Currently no related literature available.
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 14400X | Zoloft | Tablet 50 mg (as hydrochloride) | Not specified in the data compiled |
+
+The only listed route is oral. The listing is a valid single-ingredient product.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+**Contraindication-related conditions (from a drug-disease knowledge graph, not product label text):**
+epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, inappropriate ADH syndrome, nephrogenic syndrome of inappropriate antidiuresis and serotonin syndrome.
+
+**Drug Interactions:** The interaction query returned 100 interacting drugs.
+- **Major** interactions include bupropion, lorcaserin, diethylpropion, phentermine, dolasetron, palonosetron and eliglustat.
+- **Moderate** interactions include acetylsalicylic acid, morphine, clarithromycin, famotidine, loperamide, glimepiride, chlorpropamide, insulin aspart and dronabinol.
+
+For label warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
 ---
 
@@ -88,14 +102,13 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-- The only available literature for this indication is indirect (a cohort study on MMPI-2 subscales and depression severity, not a direct histrionic PD efficacy study), and no clinical trials have been registered. Evidence Level L4 does not support progression at this time.
-- For reference, other predicted indications for sertraline in the same evidence pack (e.g., agoraphobia and major depressive disorder, both rated L1 with multiple completed RCTs) are substantially better supported, though these largely reflect sertraline's already-established indications rather than novel repurposing candidates.
+The only support for this indication is a high model score, which is shared with other personality disorders. There are no trials and no publications. Any benefit is speculative.
 
 **To proceed, the following is needed:**
-- Direct clinical or mechanistic studies evaluating sertraline specifically in histrionic personality disorder
-- Mechanism of action (MOA) data (DrugBank query, per data gap DG002)
-- TGA-approved Product Information / TFDA label warnings and contraindications (per data gap DG001, currently Blocking for safety review)
-- Confirmation of Australian market/registration status, since no ARTG entries are currently recorded for this product
+- Mechanism of action data and a disease-specific mechanistic rationale for histrionic personality disorder
+- Published or registered studies of sertraline in this condition, ideally controlled trials
+- The approved indication text and PI safety information (warnings and contraindications) for the Australian listing
+- A review of interaction risks for likely co-prescribed medicines, particularly the major interactions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

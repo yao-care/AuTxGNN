@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Indacaterol
-parent: High Evidence (L1-L2)
-nav_order: 348
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 373
+evidence_level: L5
 indication_count: 10
 ---
 
 # Indacaterol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,117 +29,115 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Indacaterol: From COPD/Asthma Maintenance Therapy to Bronchial Disease (Broad Indication Expansion)
+# Indacaterol: From Obstructive Airway Disease to Bronchial Disease
 
-## One-line Summary
+## One-Sentence Summary
 
-Indacaterol is a long-acting beta-2 adrenergic receptor agonist (LABA) with known clinical use mechanisms for COPD/asthma maintenance therapy as a bronchodilator component; however, it is **not yet marketed in Taiwan** (no TFDA approval number). The TxGNN model identifies 10 predicted new indications for this drug, of which only **"bronchial disease"** has substantial support—**37 clinical trials** and **20 literature reports**, with multiple Phase 3 large-scale controlled trials; the remaining 9 predicted indications, while scoring high, lack clinical trial or literature evidence, and some mechanistic directions contradict known pharmacological action.
+Indacaterol is an ultra-long-acting beta-2 agonist (LABA) inhaled once daily and marketed in Australia as Onbrez Breezhaler.
+The TxGNN model's top-ranked prediction is nephrogenic syndrome of inappropriate antidiuresis, but it has no supporting evidence. The best-supported prediction is **bronchial disease** (rank 7), with **22 clinical trials** and **19 publications**, mostly in asthma.
+That bronchial disease evidence is largely label-adjacent rather than true repurposing, and it comes mainly from combination products.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Data gap (Taiwan: Not marketed, no TFDA approval record; mechanistic description within evidence package indicates international approval for COPD/asthma maintenance therapy) |
-| Predicted New Indication | Bronchial disease |
-| TxGNN Prediction Score | 99.18% |
-| Evidence Level | L1 |
-| Taiwan Market Status | Not marketed |
-| TFDA Approval Number | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-> Note: The first-ranked prediction by TxGNN score is "nephrogenic syndrome of inappropriate antidiuresis" (99.54% score), but that candidate has no clinical trials or literature support, and the model's own mechanistic reasoning explicitly indicates no relationship to β2 agonist mechanism (see "Other Predicted Indications" at end of report). This report uses **the highest evidence level indication with actual decision value—"bronchial disease"—as the primary assessment target**.
+|------|------|
+| Original Indication | Not available in the data compiled for this report (the ARTG entry carries no indication text) |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis (rank 1, TxGNN's top prediction). Evidence is assessed below for bronchial disease (rank 7), the only prediction with supporting data. |
+| TxGNN Prediction Score | 99.54% for the rank 1 prediction; 99.18% for bronchial disease |
+| Evidence Level | L5 for the rank 1 prediction (prediction only); L1 for bronchial disease |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold for the rank 1 prediction; Proceed with Guardrails for bronchial disease (asthma) |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, there is no complete mechanism of action (MOA) structured data available (DrugBank query field represents a data gap). However, based on the mechanistic description in the evidence package, indacaterol is a **long-acting beta-2 adrenergic receptor agonist (LABA)**, which promotes bronchial dilation by activating β2 receptors on airway smooth muscle. This mechanism is already the clinical application foundation for its international approval for COPD and asthma maintenance therapy.
+Detailed mechanism of action data is not available in the data compiled for this report. Indacaterol is known to be an ultra-long-acting beta-2 adrenergic agonist. It relaxes bronchial smooth muscle through cAMP signalling, which allows once-daily dosing.
 
-"Bronchial disease" is a broad respiratory indication classification that significantly overlaps with indacaterol's existing COPD/asthma indications in pathophysiology; therefore, the TxGNN prediction has direct, explicit pharmacological correspondence in mechanism, not a cross-system novel linkage. In other words, this prediction is more akin to a **classification expansion confirmation of existing approved use** rather than traditional "drug repurposing." Consequently, while evidence strength is high (L1), clinical novelty is limited, and actual benefit depends on whether this classification corresponds to specific indication subcategories not yet covered in Taiwan.
+**Rank 1 prediction (nephrogenic syndrome of inappropriate antidiuresis):** The high score is a graph-based prediction only. A link to the V2 receptor gain-of-function signalling that drives this condition is not supported. Beta-2 agonism would be expected to raise cAMP rather than counter it. The same applies to the other top-ranked predictions (headache disorder, trigeminal autonomic cephalalgia, paratenonitis, calcific tendinitis, hypertrichosis, myositis, anaphylaxis and Ambras-type hypertrichosis). None has any trial or literature support, and beta agonists may actually cause headache as an adverse effect. Anaphylaxis is managed first-line with epinephrine, and indacaterol's slow onset makes it unsuitable for an acute emergency.
+
+**Bronchial disease:** This is the only prediction with real support. Indacaterol is already used in obstructive airway disease. As part of fixed-dose combinations it has Phase 3 evidence in asthma: indacaterol/mometasone (QMF149) and indacaterol/glycopyrronium/mometasone (QVM149). This is better described as an on-label or label-adjacent use than as true repurposing. The evidence applies to combination products, not indacaterol alone. LABA monotherapy is contraindicated in asthma.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolled N | Key Findings |
-|---------------|-------|--------|------------|--------------|
-| [NCT02554786](https://clinicaltrials.gov/study/NCT02554786) | Phase 3 | Completed | 2216 | Comparison of two doses of QMF149 (indacaterol/mometasone) vs. mometasone monotherapy regarding efficacy and safety in patients with uncontrolled asthma |
-| [NCT02571777](https://clinicaltrials.gov/study/NCT02571777) | Phase 3 | Completed | 3092 | Comparison of QVM149 (indacaterol/glycopyrronium/mometasone triple combination) vs. two doses of QMF149 regarding efficacy and safety |
-| [NCT00529529](https://clinicaltrials.gov/study/NCT00529529) | Phase 3 | Completed | 805 | Salmeterol as active comparator; safety evaluation of indacaterol 300/600 µg over 26 weeks in patients with moderate-to-severe persistent asthma |
-| [NCT03158311](https://clinicaltrials.gov/study/NCT03158311) | Phase 3 | Completed | 1426 | QVM149 vs. salmeterol/fluticasone + tiotropium free combination therapy; demonstrated non-inferiority |
-| [NCT01079130](https://clinicaltrials.gov/study/NCT01079130) | Phase 3 | Completed | 511 | Randomized, double-blind trial with salmeterol as active comparator; evaluated bronchodilation efficacy of indacaterol at day 14 |
-| [NCT00941798](https://clinicaltrials.gov/study/NCT00941798) | Phase 2 | Completed | 2283 | Safety comparison of QMF149 vs. mometasone monotherapy; event-driven trial assessing severe asthma exacerbation incidence |
-| [NCT01609478](https://clinicaltrials.gov/study/NCT01609478) | Phase 2 | Completed | 335 | 12-week dose exploration trial supporting fixed-dose combination selection for QMF149 |
-| [NCT05562466](https://clinicaltrials.gov/study/NCT05562466) | Phase 3 | Recruiting | 200 | QMF149 vs. budesonide regarding efficacy and safety in children aged 6–12 years with asthma |
-| [NCT02892019](https://clinicaltrials.gov/study/NCT02892019) | Phase 2 | Completed | 79 | Evaluation of indacaterol acetate regarding lung function and systemic exposure in children aged 6–12 years with asthma |
-| [NCT02059434](https://clinicaltrials.gov/study/NCT02059434) | Phase 1 | Completed | 55 | Preliminary safety, tolerability, and pharmacodynamic evaluation of inhaled bronchodilator in asthma and COPD patients |
+The table covers the bronchial disease prediction (the other nine predictions have no registered trials). Ten of the 22 trials are shown, prioritising Phase 3 studies and larger studies.
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02554786](https://clinicaltrials.gov/study/NCT02554786) | Phase 3 | Completed | 2216 | 52-week study of indacaterol/mometasone (QMF149) vs mometasone alone in poorly controlled asthma |
+| [NCT00529529](https://clinicaltrials.gov/study/NCT00529529) | Phase 3 | Completed | 805 | 26-week safety study of indacaterol 300 and 600 µg vs salmeterol in moderate to severe persistent asthma |
+| [NCT01079130](https://clinicaltrials.gov/study/NCT01079130) | Phase 3 | Completed | 511 | 14-day bronchodilator efficacy of indacaterol vs placebo and salmeterol in persistent asthma |
+| [NCT04259164](https://clinicaltrials.gov/study/NCT04259164) | Phase 3 | Completed | 28 | Glycopyrronium added to indacaterol/mometasone, with anti-inflammatory endpoints on the allergen-induced late asthmatic response |
+| [NCT00403637](https://clinicaltrials.gov/study/NCT00403637) | Phase 2/3 | Completed | 45 | Single-dose indacaterol (150, 300, 600 µg) vs formoterol and placebo in persistent asthma |
+| [NCT00545272](https://clinicaltrials.gov/study/NCT00545272) | Phase 2 | Completed | 392 | 14-day dose-ranging of four indacaterol doses vs placebo and formoterol in persistent asthma |
+| [NCT01609478](https://clinicaltrials.gov/study/NCT01609478) | Phase 2 | Completed | 335 | 12-week efficacy, safety and PK of indacaterol acetate (75 and 150 µg) in persistent asthma |
+| [NCT01156844](https://clinicaltrials.gov/study/NCT01156844) | Phase 2 | Completed | 191 | Bronchodilator efficacy of three indacaterol maleate regimens in persistent asthma |
+| [NCT02892019](https://clinicaltrials.gov/study/NCT02892019) | Phase 2 | Completed | 79 | Two-week study of indacaterol acetate (75 and 150 µg) in children aged 6 to under 12 years with asthma |
+| [NCT04206761](https://clinicaltrials.gov/study/NCT04206761) | Phase 3 | Withdrawn | 0 | Xenon MRI study of triple therapy (QVM149); withdrawn, so it provides no evidence |
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Study Type | Journal | Key Findings |
-|------|------|-----------|---------|--------------|
-| [32653074](https://pubmed.ncbi.nlm.nih.gov/32653074/) | 2020 | RCT (Phase 3) | Lancet Respir Med | IRIDIUM trial: once-daily mometasone-indacaterol-glycopyrronium triple combination vs. dual combination or twice-daily fluticasone-salmeterol in patients with uncontrolled asthma |
-| [33711782](https://pubmed.ncbi.nlm.nih.gov/33711782/) | 2021 | Meta-analysis (Phase 3) | Respir Med | Meta-analysis of multiple Phase 3 trials assessing cardiovascular safety of mometasone/indacaterol and triple combination regimens |
-| [28768531](https://pubmed.ncbi.nlm.nih.gov/28768531/) | 2017 | RCT (crossover) | Respir Res | Three-way crossover trial evaluating effects of glycopyrronium and indacaterol monotherapy and combination on methacholine dose-response curve in patients with mild asthma |
-| [35348408](https://pubmed.ncbi.nlm.nih.gov/35348408/) | 2023 | Open-label long-term safety study | J Asthma | Two 52-week open-label studies assessing long-term safety of IND/GLY/MF high-dose in Japanese asthma patients |
-| [34329722](https://pubmed.ncbi.nlm.nih.gov/34329722/) | 2021 | Pharmacokinetic bridge study | Pulm Pharmacol Ther | Bridging data for mometasone dose between MF/IND and MF/IND/GLY fixed-dose combinations |
-| [33871819](https://pubmed.ncbi.nlm.nih.gov/33871819/) | 2021 | Review | Drugs | Comprehensive review of indacaterol/glycopyrronium/mometasone (Enerzair) in asthma treatment |
-| [19609496](https://pubmed.ncbi.nlm.nih.gov/19609496/) | 2009 | Review | Adv Ther | Review of preclinical and clinical data on indacaterol as a novel once-daily LABA in obstructive airway disease treatment |
-| [39905183](https://pubmed.ncbi.nlm.nih.gov/39905183/) | 2025 | Systematic review and meta-analysis | Sci Rep | Comparison of relative efficacy of different triple therapies in patients with uncontrolled asthma |
-| [35072888](https://pubmed.ncbi.nlm.nih.gov/35072888/) | 2022 | Review | Adv Ther | Review of development strategy for IND/GLY/MF, the first-in-class once-daily triple fixed-dose combination |
-| [31425937](https://pubmed.ncbi.nlm.nih.gov/31425937/) | 2019 | Review | Respir Med | Review of the role of ultra-LABA (including indacaterol) in asthma treatment |
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [32653074](https://pubmed.ncbi.nlm.nih.gov/32653074/) | 2020 | RCT (Phase 3) | Lancet Respir Med | IRIDIUM: once-daily single-inhaler mometasone/indacaterol/glycopyrronium vs mometasone/indacaterol or twice-daily fluticasone/salmeterol in inadequately controlled asthma |
+| [33871819](https://pubmed.ncbi.nlm.nih.gov/33871819/) | 2021 | Review | Drugs | Review of indacaterol/glycopyrronium/mometasone (Enerzair Breezhaler) in asthma, approved in the EU for adults inadequately controlled on maintenance therapy |
+| [31425937](https://pubmed.ncbi.nlm.nih.gov/31425937/) | 2019 | Review | Respir Med | Ultra-LABAs in asthma; they can be prescribed only together with an inhaled corticosteroid |
+| [34783265](https://pubmed.ncbi.nlm.nih.gov/34783265/) | 2022 | Review | Expert Rev Respir Med | Triple fixed-dose combination (LABA/LAMA/ICS) in moderate-to-severe asthma |
+| [34329722](https://pubmed.ncbi.nlm.nih.gov/34329722/) | 2021 | Dose-bridging analysis | Pulm Pharmacol Ther | Mometasone dose bridging across once-daily indacaterol-containing combinations in asthma |
+| [23348973](https://pubmed.ncbi.nlm.nih.gov/23348973/) | 2013 | Review | Am J Respir Crit Care Med | Beta-2 agonist therapy in lung disease |
+| [22611179](https://pubmed.ncbi.nlm.nih.gov/22611179/) | 2012 | Review | Pharmacol Rev | Pharmacology and therapeutics of bronchodilators |
+| [19609496](https://pubmed.ncbi.nlm.nih.gov/19609496/) | 2009 | Review | Adv Ther | Preclinical and clinical data on indacaterol, showing rapid and sustained bronchodilation in COPD and asthma |
+| [40887869](https://pubmed.ncbi.nlm.nih.gov/40887869/) | 2025 | Pharmacology study | Pharmacol Res Perspect | In vitro comparison of short, long and ultra-long-acting beta-2 agonists, including indacaterol |
+| [33446622](https://pubmed.ncbi.nlm.nih.gov/33446622/) | 2020 | Review | Med Lett Drugs Ther | Overview of drugs for asthma |
 
 ---
 
-## Taiwan Market Information
+## Australia Market Information
 
-No TFDA-approved indacaterol marketing authorization has been identified (`total_licenses = 0`); Taiwan market status is **Not marketed**. This is a data gap that requires priority completion before proceeding to the next evaluation stage (see Conclusion).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14334K | Onbrez | Capsule containing powder for oral inhalation 150 micrograms (as maleate), for use in Breezhaler | Not stated in the data compiled for this report |
+
+---
+
+## Cytotoxicity
+
+Not applicable. Indacaterol is not an antineoplastic drug, so this section is omitted.
 
 ---
 
 ## Safety Considerations
 
-Please consult the TFDA-approved product package insert (PI) for safety information. Currently, data on package insert warnings, contraindications, and drug-drug interactions (DDI) are not available; this is a blocking-level data gap that must be completed at the next stage before preliminary safety assessment can be conducted.
+Warnings and contraindications from the product label were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for these.
+
+- **Knowledge-graph contraindication signals** (not label text): hypertension, long QT syndrome (including the familial form), epilepsy, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, potassium deficiency, sudden cardiac arrest, heart conduction disease, coronary artery disease, thyrotoxicosis, hyperthyroidism and Graves disease. These are consistent with the known class effects of beta-2 agonists.
+- **Drug interactions:** 100 interactions were identified (the 20 retrieved are summarised here).
+  - Moderate: antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, saxagliptin, albiglutide, canagliflozin, dapagliflozin, chlorpropamide), epinephrine, isometheptene, famotidine and clarithromycin.
+  - Minor: corticosteroids (hydrocortisone, triamcinolone, dexamethasone, beclomethasone, betamethasone, budesonide) and aprepitant.
+- **Asthma:** LABA monotherapy is contraindicated in asthma. Use only with an inhaled corticosteroid.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold for the rank 1 prediction (nephrogenic syndrome of inappropriate antidiuresis) and the other eight unsupported predictions; Proceed with Guardrails for bronchial disease (asthma)**
 
 **Rationale:**
-The "bronchial disease" prediction has substantial support from multiple completed Phase 3 large-scale controlled trials and 20 literature reports (L1), with clear mechanistic reasonableness; however, this indication classification has high overlap with indacaterol's existing LABA-approved uses, with limited clinical novelty. Additionally, since it is currently not marketed in Taiwan with all safety package insert data missing, completion is necessary before formal safety preliminary assessment can proceed.
+- The top-ranked prediction and eight others (rank 2 to 6 and 8 to 10) are graph-based predictions only (L5), with no trials or publications and no plausible mechanism. For some, the mechanism points the wrong way.
+- Bronchial disease (asthma) has L1-level evidence, including several completed Phase 3 trials and the IRIDIUM RCT. It comes from combination products and is close to existing use, so it is not novel repurposing.
 
-**Required completion before advancement:**
-- TFDA package insert warnings and contraindications data (Blocking, DG001)
-- Complete DrugBank mechanism of action (MOA) data (High, DG002)
-- Tracking of Taiwan market application status (currently 0 approved numbers)
-- Clarification of the actual added clinical value of "bronchial disease" as a broad classification relative to current COPD/asthma indications
-
----
-
-### Note: Other TxGNN Predicted Indications (Insufficient Evidence, Hold)
-
-The following 9 candidate indications, although scoring similarly or higher to "bronchial disease" by TxGNN, lack clinical trial or literature support, evidence level L5, and are recommended to be **held**:
-
-| Rank | Predicted Indication | TxGNN Score | Mechanistic Reasonableness Summary |
-|------|--------|----------|-----------|
-| 1 | Nephrogenic syndrome of inappropriate antidiuresis | 99.54% | V2 receptor gene mutation disease; unrelated to β2 agonist mechanism |
-| 2 | Headache disorder | 99.53% | Cited trials are actually COPD tolerability studies; headache only a monitored adverse event; β-blockers (not agonists) are the mechanism for migraine prevention, opposite direction |
-| 3 | Trigeminal autonomic cephalalgia | 99.33% | No known mechanistic association |
-| 4 | Paratenonitis | 99.26% | No known mechanistic association |
-| 5 | Calcific tendinitis | 99.25% | No known mechanistic association |
-| 6 | Hypertrichosis (disease) | 99.23% | Hypertrichosis mechanism is potassium channel opener, unrelated to β2 agonism |
-| 8 | Myositis | 99.12% | No evidence-based support |
-| 9 | Anaphylaxis | 99.07% | Anaphylaxis first-line is epinephrine; indacaterol onset and pharmacokinetic properties unsuitable for acute management |
-| 10 | Ambras type hypertrichosis universalis congenita | 99.06% | Rare chromosomal rearrangement disease; unrelated to drug pathway |
-
-*This report is for research reference only and does not constitute medical advice; drug repurposing candidates require clinical verification before application.*
-
+**To proceed, the following is needed:**
+- Mechanism of action data and original indication text (neither was available in the compiled data)
+- Label warnings and contraindications from the TGA PI
+- Clarification of which asthma population and which combination product (indacaterol/mometasone or the triple combination) would be considered, with confirmation of their ARTG status
+- No further work is recommended for the unsupported predictions unless new mechanistic or clinical evidence emerges
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

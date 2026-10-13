@@ -2,7 +2,7 @@
 layout: default
 title: Gabapentin
 parent: Model Prediction Only (L5)
-nav_order: 302
+nav_order: 325
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,89 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gabapentin: From Anticonvulsant Use to Acne (disease)
+# Gabapentin: From Restless Legs Syndrome and Postherpetic Neuralgia to Myofascial Pain Syndrome
 
 ## One-Sentence Summary
 
-Gabapentin is a gabapentinoid anticonvulsant with well-established international use for partial seizures and neuropathic pain, though no ARTG-registered product was found for it in this evidence pack (Australian market status: Not Marketed). The TxGNN model's top-ranked prediction for gabapentin is **Acne (disease)**, but this is currently supported only by a single, apparently mismatched case report and **no clinical trials** — an evidence level of **L5 (model prediction only)**.
-
----
+Gabapentin is an oral anticonvulsant originally used for restless legs syndrome and postherpetic neuralgia. The TxGNN model predicts it may be effective for **myofascial pain syndrome**, the highest-ranked prediction with meaningful supporting evidence. Support currently comes from **4 clinical trials** (all in the related condition fibromyalgia) and **9 publications**, including one RCT in chronic masticatory muscle pain.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established in this evidence pack (DrugBank original indications and MOA are both data gaps). Literature returned elsewhere in this pack describes gabapentin as an anticonvulsant used for partial/tonic-clonic seizures and neuropathic pain. |
-| Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 98.46% |
-| Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Restless legs syndrome; postherpetic neuralgia (the ARTG entry in the data compiled for this report has no approved indication text) |
+| Predicted New Indication | Myofascial pain syndrome |
+| TxGNN Prediction Score | 92.97% |
+| Evidence Level | L1 as scored in the data compiled for this report. This is generous: the trials are in fibromyalgia, not myofascial pain syndrome, so the effective level for the predicted indication is closer to L2-L3 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails |
 
----
+**Note on the other predictions:** The top-ranked prediction, acne (score 98.5%), has no trials or literature and no plausible mechanism, so it is likely a knowledge-graph artefact (Hold). Other predictions (epilepsy subtypes, Meniere disease subtypes, trigeminal nerve neoplasm, osteoarthritis susceptibility) have no direct supporting evidence and are rated Hold or Research Question. Myofascial pain syndrome is the only prediction with a clinical-trial base, so this report focuses on it.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for gabapentin is not available in this evidence pack (flagged as a High-severity data gap). From literature returned elsewhere in this pack, gabapentin is known to bind the α2δ subunit of voltage-gated calcium channels, reducing glutamate/substance P release — a mechanism well established for its anticonvulsant and neuropathic-pain uses, but with no known relevance to acne pathophysiology (sebum production, comedogenesis, or *Cutibacterium acnes* activity).
+Detailed mechanism of action data is not available in the data compiled for this report. Gabapentin is generally understood to bind the alpha-2-delta subunit of voltage-gated calcium channels, which reduces excitatory neurotransmitter release and dampens central sensitisation. This is the same pharmacology that underpins its use in postherpetic neuralgia.
 
-For this specific top-ranked prediction, no mechanistic pathway linking gabapentin to acne is provided anywhere in the evidence pack, and no clinical trials were returned. The single literature record retrieved (PMID 22278969) is a case report titled "Unusual case of a swollen painful toe in a young man" — a topic unrelated to both acne and gabapentin's known pharmacology, and most plausibly a literature-search mismatch rather than genuine supporting evidence.
+Myofascial pain syndrome is a chronic regional muscle pain condition with trigger points and features of central sensitisation. Its pain biology overlaps with the neuropathic pain that gabapentin already treats, which makes symptomatic benefit mechanistically plausible.
 
-Given this, the prediction should be treated as a pure knowledge-graph association (TxGNN rank 14,906 of the model's output) rather than a clinically or mechanistically grounded hypothesis at this stage.
-
----
+The direct evidence is limited. Most trials are in fibromyalgia, a related but distinct condition. The most relevant direct study is a 12-week RCT in chronic masticatory muscle pain (PMID 17030096), plus an open-label study of stepped treatment with tricyclic antidepressants and gabapentin in myofascial pain.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00057278](https://clinicaltrials.gov/study/NCT00057278) | Phase 2/3 | Completed | 150 | Gabapentin for pain in primary fibromyalgia (GIFT); safety and effectiveness assessed |
+| [NCT01107574](https://clinicaltrials.gov/study/NCT01107574) | Phase 3 | Completed | 41 | Gabapentin and/or osteopathic manipulative medicine for fibromyalgia symptoms, tender points and quality of life |
+| [NCT05384210](https://clinicaltrials.gov/study/NCT05384210) | Not applicable | Unknown | 75 | Milnacipran vs gabapentin vs combination in fibromyalgia |
+| [NCT02052414](https://clinicaltrials.gov/study/NCT02052414) | Not applicable | Completed | 34 | Open-label, non-randomised study of Gralise (extended-release gabapentin) in fibromyalgia pain |
 
----
+None of these trials enrolled patients with myofascial pain syndrome. No ANZCTR identifiers were found in the data compiled for this report.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22278969](https://pubmed.ncbi.nlm.nih.gov/22278969/) | 2012 | Case report (unrelated topic) | Arthritis care & research | Describes a swollen, painful toe in a young man; no abstract available, and the content does not relate to acne or gabapentin — likely a literature-search mismatch rather than supporting evidence. |
+| [17030096](https://pubmed.ncbi.nlm.nih.gov/17030096/) | 2007 | RCT | Pain | 12-week RCT (n=50) of gabapentin for chronic masticatory myalgia, assessing analgesic effect |
+| [25905532](https://pubmed.ncbi.nlm.nih.gov/25905532/) | 2015 | Cohort (open study) | J Oral Facial Pain Headache | Response to stepped treatment with tricyclic antidepressants and gabapentin in persistent myofascial pain |
+| [40110636](https://pubmed.ncbi.nlm.nih.gov/40110636/) | 2025 | Review | Muscle & Nerve | Update on clinical features, pathogenesis, diagnosis and treatment of myofascial pain syndrome |
+| [9303258](https://pubmed.ncbi.nlm.nih.gov/9303258/) | 1997 | Review | Clin J Pain | Effect of gabapentin on neuropathic pain scores and opiate use |
+| [37142285](https://pubmed.ncbi.nlm.nih.gov/37142285/) | 2023 | Case report | BMJ Case Reports | Levator ani syndrome (a myofascial pain condition) presenting with vaginal pain |
+| [32627323](https://pubmed.ncbi.nlm.nih.gov/32627323/) | 2020 | Case report | Am J Med Genet A | Benefit of gabapentin in two children with Noonan syndrome and early-onset neuropathic pain |
+| [25794224](https://pubmed.ncbi.nlm.nih.gov/25794224/) | 2015 | Case report | Pain Physician | Peripheral nerve stimulation for temporomandibular joint pain |
+| [24849638](https://pubmed.ncbi.nlm.nih.gov/24849638/) | 2014 | Case report | BMJ Case Reports | Temporomandibular joint pain unresponsive to gabapentin and other drugs, treated with stellate ganglion block |
 
----
+Several of these papers are only loosely related to the predicted indication, and one case report describes gabapentin failing to help.
 
 ## Australia Market Information
 
-No ARTG entries were returned for gabapentin in this evidence pack (market status: Not Marketed, total ARTG entries: 0).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1834M | Neurontin | Capsule 300 mg (oral) | Not stated in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions:** 100 interactions were identified, with the examples below drawn from the list provided.
+  - **Major:** morphine (including liposomal morphine), most likely additive central nervous system and respiratory depression.
+  - **Moderate:** dronabinol, nabilone, metoclopramide, opium and sibutramine.
+  - **Minor:** cimetidine and antacids containing magnesium or aluminium (magnesium oxide, magnesium hydroxide, magnesium carbonate, aluminium hydroxide, magaldrate).
+- **Disease-related cautions (from the knowledge graph, not label text):** anxiety disorder, neurotic disorder, dysthymic disorder, kidney disease and pyoureter. Gabapentin is renally cleared, so kidney function needs attention.
 
----
+Please refer to the TGA-approved Product Information (PI) for key warnings and contraindications, which were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-- There are no clinical trials and no credible literature supporting gabapentin for acne — the sole literature match appears to be an indexing/retrieval error, not genuine evidence.
-- Evidence level is L5 (model prediction only, decision stage S0); the mechanistic case is unestablished.
+Myofascial pain syndrome is the only prediction with a clinical-trial base, and gabapentin is a well-established neuropathic pain drug with a plausible mechanism. However, the trials are in fibromyalgia and only one RCT, in chronic masticatory myalgia, is closer to the target condition. The evidence is supportive but indirect.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action data for gabapentin (currently a data gap)
-- TGA-approved Product Information / warnings and contraindications (currently a Blocking-severity data gap, required before any S1 safety screening)
-- A manual check of whether the acne literature match reflects a genuine record or a search/indexing error, and re-query of PubMed/ClinicalTrials.gov specifically for "gabapentin AND acne"
-- Any real preclinical or clinical rationale connecting α2δ calcium-channel modulation to acne pathophysiology before further investment
-
-**Note:** within this same evidence pack, other candidate indications for gabapentin — notably *epilepsy with generalized tonic-clonic seizures* and *myofascial pain syndrome* (both L2, with completed Phase 2/3 trials) — have substantially stronger supporting evidence and may warrant separate evaluation ahead of this acne signal.
+- Trials or systematic review evidence specifically in myofascial pain syndrome
+- Retrieval of TGA Product Information (warnings, contraindications, approved indications for ARTG 1834M)
+- Mechanism of action data (MOA)
+- Safety monitoring plan, particularly for renal impairment, concurrent opioids and other CNS depressants
+- A dosing and renal-adjustment plan appropriate for the Australian setting
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

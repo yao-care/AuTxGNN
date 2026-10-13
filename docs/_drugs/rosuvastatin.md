@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rosuvastatin
-parent: High Evidence (L1-L2)
-nav_order: 607
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 649
+evidence_level: L5
 indication_count: 10
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,103 +29,113 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Rosuvastatin: From Dyslipidaemia to Familial Hypercholesterolaemia (Ten TxGNN-Predicted Indications Assessed)
+# Rosuvastatin: From Hyperlipidaemia and Atherosclerotic Disease to Cholesterol-Ester Transfer Protein Deficiency
 
 ## One-Sentence Summary
 
-Rosuvastatin is a well-established HMG-CoA reductase inhibitor (statin) used for dyslipidaemia/hypercholesterolaemia; this evidence pack is a **multi-indication** TxGNN screen returning 10 ranked candidates for the drug. The most credible new-use signal is **Familial Hypercholesterolaemia**, backed by **23 clinical trials** and **13 publications** (Evidence Level L1), while the top-ranked candidate by raw model score (cholesterol-ester transfer protein deficiency) is flagged in the evidence itself as a likely disease-entity matching error. Several other candidates (HIV, hyperlipidaemia) carry moderate-to-strong evidence; the remainder have weak or no supporting data.
+Rosuvastatin is a statin (HMG-CoA reductase inhibitor) originally used for lipid disorders such as hypertriglyceridaemia, homozygous familial hypercholesterolaemia and atherosclerosis, and for stroke-related conditions.
+The TxGNN model's top-ranked prediction is **cholesterol-ester transfer protein (CETP) deficiency** (score 99.54%), but **no clinical trials or publications** were found for it.
+The best-supported prediction in the data is **familial hypercholesterolaemia** (99.54%), which is largely an on-label or closely related use, with **10 Phase 3 trials** and **12 publications** compiled for it.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Dyslipidaemia / hypercholesterolaemia (per literature review, PMID 12269853); no formal Australian regulatory indication text is available — see Data Gaps |
-| Predicted New Indication | Familial Hypercholesterolaemia |
-| TxGNN Prediction Score | 99.54% |
-| Evidence Level | L1 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Lipid disorders (hypertriglyceridaemia, homozygous familial hypercholesterolaemia, hyperlipoproteinaemia), atherosclerosis and cerebrovascular disease (from knowledge-graph indication data; no approved indication text available from the ARTG entry) |
+| Predicted New Indication | Cholesterol-ester transfer protein deficiency (rank 1); familial hypercholesterolaemia is the best-supported candidate (rank 2) |
+| TxGNN Prediction Score | 99.54% (rank 1); 99.54% (rank 2, familial hypercholesterolaemia) |
+| Evidence Level | L5 for rank 1 (model prediction only); L1 for familial hypercholesterolaemia |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold for rank 1; Proceed with Guardrails for familial hypercholesterolaemia |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed DrugBank mechanism-of-action data is not available in this evidence pack (flagged as Data Gap DG002). Based on the literature that is available, rosuvastatin is an HMG-CoA reductase inhibitor (statin class) — a well-established mechanism for lowering LDL cholesterol by inhibiting hepatic cholesterol synthesis (PMID 12269853).
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, rosuvastatin inhibits HMG-CoA reductase, which reduces hepatic cholesterol synthesis, upregulates hepatic LDL receptors and lowers LDL cholesterol.
 
-In familial hypercholesterolaemia (FH), a defect in LDL-receptor function reduces LDL clearance. Statins upregulate residual LDL-receptor activity and inhibit endogenous cholesterol synthesis, which is precisely the mechanism needed to counteract FH pathophysiology. This is already standard of care in international treatment guidelines, and the mechanistic link is direct and clinically proven, including in children and adolescents — this is arguably a well-validated *extension* of statin pharmacology rather than a novel repurposing hypothesis.
+**CETP deficiency (rank 1).** CETP deficiency raises HDL cholesterol and lowers LDL cholesterol. A lipid-lowering rationale is plausible, but the high score is a model prediction only. No trials or literature were retrieved, so there is no clinical support. Cardiovascular benefit in this rare condition is unestablished, and the value of lowering LDL cholesterol further in a population that already has low LDL cholesterol is unclear.
 
-By contrast, the model's single highest-scoring candidate — cholesterol-ester transfer protein (CETP) deficiency — does not hold up on inspection: CETP deficiency is characterised by markedly *elevated* HDL rather than elevated LDL, which runs counter to a statin's primary LDL-lowering direction of effect. The two supporting papers are actually case reports on Apo A-I deficiency and hepatic lipase deficiency, not CETP deficiency itself, indicating this is most likely a TxGNN disease-entity matching artefact rather than a genuine signal.
+**Familial hypercholesterolaemia (rank 2).** Lowering LDL cholesterol through LDL receptor upregulation is the core mechanism in this condition. Homozygous familial hypercholesterolaemia is already among the listed original indications, so this is closer to on-label use than true repurposing. Heterozygous disease and paediatric populations are supported by multiple completed Phase 3 trials.
 
-## Clinical Trial Evidence (Familial Hypercholesterolaemia)
+---
+
+## Clinical Trial Evidence
+
+Trials below relate to the best-evidenced prediction, familial hypercholesterolaemia (rank 2). The top-ranked prediction, CETP deficiency, has currently no related clinical trials registered.
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01078675](https://clinicaltrials.gov/study/NCT01078675) | Phase 3 | Completed | 315 | Efficacy and 2-year safety of open-label rosuvastatin in children/adolescents (6–<18y) with FH, including PK analysis |
-| [NCT00355615](https://clinicaltrials.gov/study/NCT00355615) | Phase 3 | Completed | 173 | 12-week double-blind RCT + 40-week open-label follow-up of once-daily rosuvastatin in children 10–17y with HeFH; LDL-C reduction from baseline |
-| [NCT02434497](https://clinicaltrials.gov/study/NCT02434497) | Phase 3 | Completed | 9 | Open-label long-term extension evaluating rosuvastatin safety in children/adolescents with homozygous FH (HoFH) |
-| [NCT02226198](https://clinicaltrials.gov/study/NCT02226198) | Phase 3 | Completed | 20 | Randomised, double-blind, placebo-controlled crossover study establishing efficacy, safety and tolerability of rosuvastatin in HoFH children/adolescents |
-| [NCT00654602](https://clinicaltrials.gov/study/NCT00654602) | Phase 3 | Completed | 1500 | 48-week open-label study of rosuvastatin in Fredrickson Type IIa/IIb dyslipidaemia, including heterozygous FH; assessed LDL-C goal achievement |
-| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Phase 3 | Completed | 442 | 6-week open-label RCT comparing renal effects of rosuvastatin vs simvastatin in Type IIa/IIb dyslipidaemia including HeFH |
-| [NCT06910098](https://clinicaltrials.gov/study/NCT06910098) | N/A | Completed | 195 | RCT assessing impact of rosuvastatin dose on LDL, CPK and AST levels |
-| [NCT02107898](https://clinicaltrials.gov/study/NCT02107898) | Phase 3 | Completed | 216 | RCT of alirocumab added to background statin (rosuvastatin) therapy in HeFH/high-CV-risk patients uncontrolled on lipid-modifying therapy |
-| [NCT01730040](https://clinicaltrials.gov/study/NCT01730040) | Phase 3 | Completed | 355 | RCT comparing alirocumab, ezetimibe, atorvastatin dose increase, or switch to rosuvastatin in patients (including HeFH) uncontrolled on atorvastatin |
-| [NCT06686615](https://clinicaltrials.gov/study/NCT06686615) | N/A | Recruiting | 2000 | Observational study of bempedoic acid + ezetimibe + rosuvastatin/atorvastatin in primary hypercholesterolaemia or mixed dyslipidaemia |
+| [NCT00654602](https://clinicaltrials.gov/study/NCT00654602) | Phase 3 | Completed | 1500 | 48-week open-label study of rosuvastatin in Fredrickson type IIa/IIb dyslipidaemia, including heterozygous FH |
+| [NCT01078675](https://clinicaltrials.gov/study/NCT01078675) | Phase 3 | Completed | 315 | 2-year open-label efficacy and safety study in children and adolescents (6 to <18 years) with FH |
+| [NCT00355615](https://clinicaltrials.gov/study/NCT00355615) | Phase 3 | Completed | 173 | 12-week double-blind placebo-controlled study, then 40-week open-label follow-up, in children aged 10-17 years with heterozygous FH |
+| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Phase 3 | Completed | 442 | Renal effects of rosuvastatin versus simvastatin in type IIa/IIb dyslipidaemia, including heterozygous FH |
+| [NCT02226198](https://clinicaltrials.gov/study/NCT02226198) | Phase 3 | Completed | 20 | Double-blind placebo-controlled crossover study in children and adolescents with homozygous FH |
+| [NCT02434497](https://clinicaltrials.gov/study/NCT02434497) | Phase 3 | Completed | 9 | Open-label long-term extension of the paediatric homozygous FH study (safety) |
+| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Phase 3 | Completed | 249 | Alirocumab versus placebo in heterozygous FH on background lipid-modifying therapy (rosuvastatin contribution not isolated) |
+| [NCT03510884](https://clinicaltrials.gov/study/NCT03510884) | Phase 3 | Completed | 153 | Alirocumab in children with heterozygous FH on stable statin therapy (not a rosuvastatin efficacy trial) |
+| [NCT02748057](https://clinicaltrials.gov/study/NCT02748057) | Phase 3 | Completed | 135 | Long-term safety of ezetimibe plus rosuvastatin in Japanese patients with hypercholesterolaemia |
+| [NCT06910098](https://clinicaltrials.gov/study/NCT06910098) | N/A | Completed | 195 | Effect of rosuvastatin doses on LDL cholesterol, creatine phosphokinase and AST (supportive dose-response data) |
 
-No ANZCTR identifiers were present in the source data for these trials.
+No trial registered in the Australian New Zealand Clinical Trials Registry (ANZCTR) appeared in the data compiled for this report.
 
-## Literature Evidence (Familial Hypercholesterolaemia)
+---
+
+## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocr Pract | AACE/ACE dyslipidaemia management and CVD prevention guideline, positioning statins as first-line therapy |
-| [28592434](https://pubmed.ncbi.nlm.nih.gov/28592434/) | 2017 | RCT | Circulation | CHARON study: 2-year rosuvastatin treatment slowed carotid intima-media thickness progression in children with HeFH |
-| [28838366](https://pubmed.ncbi.nlm.nih.gov/28838366/) | 2017 | Cohort | J Am Coll Cardiol | Rosuvastatin efficacy in HoFH children varies with the underlying LDLR mutation |
-| [20223367](https://pubmed.ncbi.nlm.nih.gov/20223367/) | 2010 | Cohort | J Am Coll Cardiol | Efficacy and safety of rosuvastatin therapy in children with FH |
-| [26687694](https://pubmed.ncbi.nlm.nih.gov/26687694/) | 2015 | Clinical study | J Clin Lipidol | CHARON study results: efficacy and safety of rosuvastatin in children/adolescents with FH |
-| [26387811](https://pubmed.ncbi.nlm.nih.gov/26387811/) | 2016 | PK study | Eur J Clin Pharmacol | Population pharmacokinetics of rosuvastatin in paediatric patients with HeFH |
-| [26988948](https://pubmed.ncbi.nlm.nih.gov/26988948/) | 2016 | Review | J Am Coll Cardiol | Improving monitoring and care of patients with FH |
-| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Review | Drugs | Overview of rosuvastatin pharmacology and comparative lipid-lowering efficacy |
-| [40254247](https://pubmed.ncbi.nlm.nih.gov/40254247/) | 2025 | Preclinical/mechanistic | Toxicology | iPSC-derived skeletal muscle model of statin-induced myotoxicity in FH patients |
-| [30270066](https://pubmed.ncbi.nlm.nih.gov/30270066/) | 2018 | Observational | Atherosclerosis | FH treatment patterns and LDL-C goal attainment in a real-world Slovak cohort |
+| [20223367](https://pubmed.ncbi.nlm.nih.gov/20223367/) | 2010 | RCT | J Am Coll Cardiol | Efficacy and safety of rosuvastatin in children with familial hypercholesterolaemia |
+| [28838366](https://pubmed.ncbi.nlm.nih.gov/28838366/) | 2017 | Cohort | J Am Coll Cardiol | Efficacy of rosuvastatin in children with homozygous FH, and association with underlying genetic mutations |
+| [26387811](https://pubmed.ncbi.nlm.nih.gov/26387811/) | 2016 | Cohort | Eur J Clin Pharmacol | Population pharmacokinetics of rosuvastatin in children with heterozygous FH |
+| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Review | Drugs | Rosuvastatin superior to atorvastatin, simvastatin and pravastatin for lipid improvement; low propensity for drug interactions |
+| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Review | Clin Ther | Rosuvastatin in primary hypercholesterolaemia, mixed dyslipidaemia and homozygous FH |
+| [40254247](https://pubmed.ncbi.nlm.nih.gov/40254247/) | 2025 | Preclinical | Toxicology | Differences in myotoxicity between lipophilic and hydrophilic statins in iPSC-derived muscle cells from FH patients |
+| [20531065](https://pubmed.ncbi.nlm.nih.gov/20531065/) | 2010 | Case report | South Med J | Rosuvastatin-induced severe thrombocytopenia (rare adverse event) |
+| [24849689](https://pubmed.ncbi.nlm.nih.gov/24849689/) | 2014 | Review | Consult Pharm | Statin-associated incident diabetes |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocr Pract | AACE/ACE guidelines for management of dyslipidaemia and prevention of cardiovascular disease |
+| [36928267](https://pubmed.ncbi.nlm.nih.gov/36928267/) | 2023 | Cohort | J Atheroscler Thromb | Real-world LDL-C goal achievement in high-risk patients in Japan |
+
+---
 
 ## Australia Market Information
 
-No ARTG entries were found for rosuvastatin in this evidence pack; the drug is currently recorded as **not marketed** in Australia. This should be independently verified against the TGA/ARTG database before any regulatory decision, since a "not marketed" status combined with zero licences is unusual for a globally established generic statin and may reflect a data-collection gap rather than true market absence.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13406N | Rosuvastatin Sandoz | Tablet 5 mg (as calcium), oral | Not available in the data compiled for this report |
+
+---
 
 ## Safety Considerations
 
-No safety data (key warnings, contraindications, or drug-drug interactions) was returned for this drug in the current pack — this is recorded as a **Blocking** data gap (DG001: TFDA/PI warnings and contraindications not retrieved). Please refer to the TGA-approved Product Information (PI) for safety information before any clinical or regulatory use.
+- **Contraindication-related conditions (knowledge graph, not label text):** liver disease, gallbladder disease, hypothyroidism, myxedema, congenital hypothyroidism, myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, substance abuse/dependence, rhabdomyolysis, nodular fasciitis, injury, proteinuria.
+- **Drug Interactions** (100 interactions identified; selected examples):
+  - **Major:** fenofibrate, atazanavir
+  - **Moderate:** atorvastatin, ezetimibe, bempedoic acid, amiodarone, paclitaxel, alpelisib, apalutamide, zidovudine, adalimumab, ethanol, others
+  - **Minor:** levonorgestrel, norethisterone, desogestrel
+- **Literature signals:** rare thrombocytopenia (case report), possible increased incident diabetes (review), and myotoxicity concerns.
 
-One interaction risk is worth flagging qualitatively from the repurposing rationale for the HIV candidate below: co-administration with protease-inhibitor-boosted antiretroviral regimens carries a known drug-drug interaction risk with statins generally — this should be confirmed against the PI once available.
+Please also refer to the TGA-approved Product Information (PI) for full warnings and contraindications, as label text was not available in the data compiled for this report.
 
-## Portfolio Overview: All 10 TxGNN-Predicted Indications
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation | Note |
-|------|---------|------|------|------|------|------|
-| 1 | Cholesterol-ester transfer protein deficiency | 99.54% | L4 | S0 | Hold | Likely TxGNN entity-matching error — cited literature concerns unrelated disorders (Apo A-I, hepatic lipase deficiency) |
-| 2 | **Familial hypercholesterolaemia** | 99.54% | **L1** | S3 | **Proceed with Guardrails** | Strongest candidate — direct mechanism, extensive paediatric/adult trial base |
-| 3 | Hypercholesterolaemia due to CYP7A1 deficiency | 99.51% | L4 | S1 | Hold | Mechanistic rationale only; no trials in this rare disorder |
-| 4 | Brain stem infarction | 99.44% | L4 | S1 | Hold | Only animal/mechanistic and biomarker literature; no trials in this population |
-| 5 | HIV infectious disease | 99.37% | L2 | S2 | Research Question | Adjunct anti-inflammatory/cardiovascular use, not antiviral; watch for antiretroviral DDI |
-| 6 | Hypoalphalipoproteinemia (low HDL) | 99.25% | L3 | S1 | Research Question | Weak mechanistic fit; evidence mostly indirect |
-| 7 | Neurodevelopmental disorder (ataxic gait/absent speech) | 99.22% | L5 | S0 | Hold | No mechanism, trials, or literature — score only |
-| 8 | Hyperlipidaemia due to hepatic triglyceride lipase deficiency | 99.20% | L5 | S0 | Hold | No supporting evidence beyond model score |
-| 9 | ABri amyloidosis | 99.18% | L5 | S0 | Hold | No known mechanistic link; no evidence |
-| 10 | Hyperlipidaemia | 99.09% | L1 | S3 | Proceed with Guardrails | Mechanistically sound but overlaps with already-approved statin use — not true repurposing |
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (for Familial Hypercholesterolaemia specifically; all other candidates should Hold or remain Research Questions pending further evidence)
+**Decision: Hold for CETP deficiency (rank 1); Proceed with Guardrails for familial hypercholesterolaemia (rank 2)**
 
 **Rationale:**
-- Familial hypercholesterolaemia has L1 evidence (23 trials, 13 publications, including paediatric Phase 3 RCTs) and a direct, guideline-endorsed mechanistic link, making it the only candidate in this pack ready for guarded progression.
-- The top-scoring candidate by TxGNN alone (CETP deficiency) should not be advanced — it appears to be a model matching artefact rather than a real signal.
+- CETP deficiency has a high TxGNN score but no trials, no literature and no established mechanistic benefit, so it remains a model prediction (L5).
+- Familial hypercholesterolaemia is supported by multiple completed Phase 3 trials, including paediatric studies, and a randomised controlled trial publication (L1). It overlaps with existing indications, so it is not a true new use.
 
 **To proceed, the following is needed:**
-- Resolve Data Gap DG001 (TFDA/PI warnings and contraindications) — currently a **Blocking** gap that prevents formal safety review (S1) for any candidate
-- Resolve Data Gap DG002 (formal DrugBank MOA record), even though literature-derived MOA is reasonably clear
-- Independently verify Australian ARTG/market status, since "0 licences / not marketed" is atypical for this drug and may reflect incomplete data collection rather than fact
-- For the HIV candidate: characterise drug-drug interaction risk with protease-inhibitor-based antiretroviral regimens before any further evaluation
-- Re-run TxGNN disease-entity mapping QA on the CETP deficiency candidate to confirm or rule out the suspected matching error
+- Review of the TGA-approved PI, since the data compiled for this report contain no approved indication text, warnings or contraindications for the ARTG entry
+- Detailed mechanism of action data
+- For CETP deficiency: mechanistic and clinical studies establishing whether lipid lowering gives any cardiovascular benefit
+- Guardrails for familial hypercholesterolaemia use: monitoring for myopathy and rhabdomyolysis, liver enzymes and thyroid function, plus a plan to manage interactions (especially fenofibrate and protease inhibitors) and dose adjustment in renal impairment and in Asian patients
+- Confirmation that the Australian product's approved age groups cover paediatric FH use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Testosterone Undecanoate
 parent: Model Prediction Only (L5)
-nav_order: 665
+nav_order: 713
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,68 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Testosterone Undecanoate: From Androgen Replacement Therapy to Homozygous Familial Hypercholesterolemia
+# Testosterone Undecanoate: From Hypogonadism to Homozygous Familial Hypercholesterolemia
 
 ## One-Sentence Summary
 
-Testosterone undecanoate is an androgen, generally used for testosterone/androgen replacement therapy (this evidence pack does not itself contain formal original-indication data for the drug). The TxGNN model's top-ranked prediction suggests possible relevance to **Homozygous Familial Hypercholesterolemia**, but this is currently supported by **no clinical trials** and **no published literature** — it is a model-score-only signal, and the proposed mechanism does not clearly align with known androgen pharmacology.
-
----
+Testosterone undecanoate is an androgen replacement therapy, originally used to treat hypogonadism (including primary ovarian failure and hypogonadotropic hypogonadism).
+The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia** with a very high score, but there are **0 clinical trials** and **0 publications** supporting this prediction, and no plausible mechanism has been identified.
+The prediction is model-based only, so the recommendation is **Hold**. A more credible direction is androgen insensitivity syndrome (see the note below).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (testosterone undecanoate is generally used for androgen/testosterone replacement therapy, e.g. male hypogonadism) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia |
+| Original Indication | Hypogonadism (also primary ovarian failure and hypogonadotropic hypogonadism, per the knowledge graph); the ARTG entry carries no indication text |
+| Predicted New Indication | Homozygous familial hypercholesterolemia |
 | TxGNN Prediction Score | 98.73% |
-| Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for testosterone undecanoate is not available in this evidence pack (a flagged data gap). Based on general pharmacological knowledge, testosterone undecanoate is an androgen used for testosterone replacement, acting via the androgen receptor.
+Detailed mechanism of action data is not currently available. Testosterone undecanoate is an ester prodrug of testosterone and acts through the androgen receptor. Its efficacy in hypogonadism comes from replacing deficient testosterone.
 
-There is no established biological pathway linking androgen receptor signalling to the LDL-receptor gene defect that underlies homozygous familial hypercholesterolemia (HoFH). If anything, the literature on testosterone and lipid metabolism points in the opposite direction — androgens are more often associated with lowering HDL cholesterol rather than correcting the LDL-receptor defect that drives HoFH. Combined with the complete absence of supporting clinical trials or publications, the evidence pack's own assessment is that this top-ranked score likely reflects embedding similarity noise in the knowledge graph rather than a genuine mechanistic relationship.
+For homozygous familial hypercholesterolemia, no supporting mechanism has been identified. This condition is driven by LDL receptor dysfunction. Androgens generally lower HDL cholesterol and have inconsistent effects on LDL cholesterol, so there is no plausible link to this drug. The high TxGNN score reflects graph-based proximity only and should not be read as clinical support.
 
-For context, several **lower-ranked** predictions in this dataset have a more plausible mechanistic basis and, in one case, actual clinical literature: androgen insensitivity syndrome (rank 2, L3 evidence, 2 published studies on testosterone/testosterone undecanoate use), Leydig cell hypoplasia due to LH resistance (rank 3), and 46,XY disorders of sex development due to impaired androgen production (rank 4) — all conditions where exogenous androgen replacement is mechanistically direct (compensating for absent or unresponsive endogenous androgen signalling). These may warrant separate follow-up evaluation even though they are not the top TxGNN score.
-
----
+**Other predictions in the top 10 (for context):**
+- **Androgen insensitivity syndrome (AIS, score 95.7%)** is the only prediction with published literature (L3). In partial AIS, residual receptor function may allow a high androgen dose to promote virilisation. In complete AIS the receptor is non-functional, so benefit from direct androgen action is not expected. This is a "Research Question".
+- **Leydig cell hypoplasia due to LH resistance (94.5%)** and **46,XY disorder of sex development due to impaired androgen production (93.7%)** are mechanistically plausible (L4), but androgen replacement is already standard care, so these are arguably extensions of the existing hypogonadism indication rather than true repurposing.
+- The remaining predictions (fragile X carrier symptoms, blepharophimosis-related conditions, telecanthus, ovarian hyperstimulation syndrome and partial chromosome 5p trisomy/tetrasomy) have no mechanistic or clinical support (L5, Hold). Testosterone could plausibly worsen ovarian hyperstimulation syndrome, so that indication also raises a safety concern.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for homozygous familial hypercholesterolemia. No trials were found for the other top-ranked predictions either.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for homozygous familial hypercholesterolemia.
 
----
+For context, two publications were identified for the second-ranked prediction, androgen insensitivity syndrome:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39039878](https://pubmed.ncbi.nlm.nih.gov/39039878/) | 2024 | Clinical study in children (self-controlled design reported; full design not confirmed) | Zhonghua Er Ke Za Zhi | Evaluated the efficacy and safety of oral testosterone undecanoate in children with genetically diagnosed AIS at Beijing Children's Hospital (2009–2021) |
+| [8246276](https://pubmed.ncbi.nlm.nih.gov/8246276/) | 1993 | Double-blind crossover study (4 patients) | Journal of Sex & Marital Therapy | Oral testosterone undecanoate (120 mg/day) versus placebo for 4 weeks in gonadectomised women with complete testicular feminisation; assessed hormone levels, mood, sociosexual functioning and body self-image (indirect evidence only) |
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10205D | Reandron 1000 | I.M. injection containing testosterone undecanoate 1,000 mg in 4 mL | Not stated in the data compiled for this report |
+
+Only an injectable (intramuscular) product is listed. Both AIS studies above used oral testosterone undecanoate, so route compatibility would need to be assessed before any further work.
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Note: TGA-equivalent warning/contraindication data could not be retrieved for this drug in this evidence pack (a flagged blocking data gap), so a formal safety pre-assessment could not be completed.
-
----
+Please refer to the TGA-approved Product Information (PI) for safety information. No interaction records were found in the data compiled for this report, and no disease-level contraindications were recorded.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (HoFH) rests solely on an L5 model score with no clinical trial or literature support, and its proposed mechanism is not well aligned with known androgen pharmacology. The drug is also not currently marketed in Australia, and safety/contraindication data could not be retrieved, which blocks a formal safety pre-assessment.
+- Homozygous familial hypercholesterolemia is supported only by a graph-based prediction. There are no trials or publications, and the known effects of androgens on lipids do not fit the underlying LDL receptor defect.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, precautions, contraindications) — currently unavailable and blocking safety review
-- Confirmed mechanism-of-action data for testosterone undecanoate
-- Formal original-indication/registration data for the drug
-- If repurposing is pursued, consider prioritising the mechanistically stronger, lower-ranked candidates (e.g. androgen insensitivity syndrome, L3 evidence) over the top TxGNN score alone
+- Mechanism of action data and TGA Product Information warnings and contraindications (both currently missing)
+- A decision on whether to pursue the higher-evidence candidate (androgen insensitivity syndrome) instead, including verification of study design, sample size and AIS subtype from the full text of the 2024 paediatric study
+- Assessment of route compatibility, as the registered Australian product is an injection while the AIS studies used oral dosing
+- For Leydig cell hypoplasia and 46,XY DSD, confirmation of whether these fall within the existing hypogonadism indication rather than representing a new one
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

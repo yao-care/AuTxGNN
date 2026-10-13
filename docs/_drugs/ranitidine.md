@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ranitidine
-parent: High Evidence (L1-L2)
-nav_order: 583
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 625
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ranitidine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,99 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-Using the drug-repurposing report template supplied in the prompt (no additional skill applies — this is a direct data-to-markdown authoring task). Note: the evidence pack labels the local regulatory block `taiwan_regulatory`, but per the AuTxGNN project context this field carries Australian TGA/ARTG data — mapped accordingly below.
-
-# Ranitidine: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+# Ranitidine: From Gastric and Duodenal Ulcer to Active Peptic Ulcer Disease
 
 ## One-Sentence Summary
 
-Ranitidine is a histamine H2-receptor antagonist historically used to treat peptic ulcer disease and other acid-related gastrointestinal conditions. The TxGNN model's top prediction is **Active Peptic Ulcer Disease**, supported by **1 clinical trial** and **19 publications** — but this signal largely reflects ranitidine's already-established, decades-old use rather than a genuinely novel indication, so it should be read as confirmatory rather than a new repurposing lead.
-
----
+Ranitidine is a histamine H2-receptor antagonist, originally used for gastric and duodenal ulcers, gastro-oesophageal reflux disease and related acid-hypersecretion conditions.
+The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this largely overlaps with its existing indications, so it is closer to on-label use than true repurposing.
+For this top-ranked prediction there are **no registered clinical trials** and **20 publications** (mostly reviews). The related prediction "peptic ulcer disease" has **5 clinical trials** (3 completed Phase 3).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in this evidence pack — no ARTG licence text or original-indication data was returned (data gap, see below). Ranitidine is globally established as an H2-receptor antagonist for peptic ulcer disease and related acid-related conditions. |
-| Predicted New Indication | Active Peptic Ulcer Disease |
+| Original Indication | Gastric ulcer, duodenal ulcer, gastro-oesophageal reflux disease, oesophagitis, dyspepsia, Zollinger-Ellison syndrome (the approved indication text for the ARTG entry is not available) |
+| Predicted New Indication | Active peptic ulcer disease |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L1 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
-
----
+| Evidence Level | L1 (as assigned in the data compiled for this report; see note under Clinical Trial Evidence) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data is not available in this evidence pack. Based on well-established pharmacology, ranitidine is a competitive histamine H2-receptor antagonist that reduces basal and stimulated gastric acid secretion — the same mechanism that underlies its long-standing historical use in peptic ulcer disease.
+Detailed mechanism of action data is not available in the data compiled for this report. From established pharmacology, ranitidine is a histamine H2-receptor antagonist. It reduces gastric acid secretion, and acid suppression supports ulcer healing. The literature describes it as four to ten times more potent than cimetidine in inhibiting stimulated acid secretion.
 
-Because "active peptic ulcer disease" sits within ranitidine's own original indication family, the model's top-ranked prediction is not a genuine repositioning into a new disease area — it is closer to a re-confirmation of the drug's existing pharmacological role. The evidence pack itself flags this explicitly: *"與peptic ulcer disease同一機轉家族...為ranitidine歷史核准適應症之亞型描述，非新適應症"* (same mechanistic family as peptic ulcer disease; a sub-description of ranitidine's historically approved indication, not a new indication).
+Active peptic ulcer disease is essentially the same disease family as the drug's existing gastric and duodenal ulcer indications. The high TxGNN score therefore mostly reflects a known association rather than a new discovery. The same applies to the related "peptic ulcer disease" prediction.
 
-For pharmacists evaluating this candidate, the more informative repurposing signals in this evidence pack sit further down the ranked list — e.g. gastroduodenitis (rank 6, evidence level L2) and duodenogastric reflux (rank 4, evidence level L3) — where the mechanistic link is plausible but the direct trial evidence is thinner. These may warrant separate secondary review if a genuinely new indication is the goal.
-
----
+Other predictions are weaker. These include gastrojejunal ulcer, peptic ulcer perforation, duodenogastric reflux, duodenal obstruction, gastroduodenitis, mastocytosis variants and abnormal glucagon secretion. They rest on indirect evidence or none, and are not the focus of this report.
 
 ## Clinical Trial Evidence
 
+Currently no related clinical trials are registered for "active peptic ulcer disease".
+
+For the closely related prediction "peptic ulcer disease", the following trials were found:
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | Phase 4 | Completed | 320 | Evaluated the effect of various PPIs (and statins) on clopidogrel antiplatelet activity in PCI patients on dual antiplatelet therapy. Relevance graded **C** — the study is focused on drug-interaction pharmacology, not direct treatment of peptic ulcer disease, and is only indirectly related to the ranitidine/ulcer link. |
+| [NCT00633672](https://clinicaltrials.gov/study/NCT00633672) | Phase 3 | Completed | 400 | Esomeprazole 40 mg or 20 mg daily vs ranitidine 150 mg twice daily for healing NSAID-associated gastric ulcers |
+| [NCT00633412](https://clinicaltrials.gov/study/NCT00633412) | Phase 3 | Completed | 400 | US-only parallel study of the same esomeprazole vs ranitidine comparison |
+| [NCT00401752](https://clinicaltrials.gov/study/NCT00401752) | Phase 3 | Completed | 397 | 8-week double-blind comparison of esomeprazole 20 mg daily vs ranitidine 150 mg twice daily in NSAID-associated gastric ulcer |
+| [NCT00247130](https://clinicaltrials.gov/study/NCT00247130) | Phase 4 | Withdrawn | 0 | IV omeprazole vs IV ranitidine after endoscopic treatment of bleeding ulcer; no data |
+| [NCT01538797](https://clinicaltrials.gov/study/NCT01538797) | Phase 1 | Completed | 22 | YF476 vs placebo and ranitidine on 24-hour gastric pH in healthy volunteers; pharmacodynamic only |
 
----
+**Note:** In the Phase 3 trials ranitidine appears to be the comparator, not the test drug. The L1 rating is based on the existence of these trials, so it should be read cautiously. No ANZCTR identifiers were found in the data.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3909374](https://pubmed.ncbi.nlm.nih.gov/3909374/) | 1985 | RCT | Scand J Gastroenterol | Ranitidine 300 mg/day healed 91% of duodenal, 68% of prepyloric, and 81% of gastric corporeal ulcers at 4 weeks; maintenance therapy reduced relapse vs placebo over 1 year. |
-| [6317325](https://pubmed.ncbi.nlm.nih.gov/6317325/) | 1983 | Review | Drug Intell Clin Pharm | Early review confirming ranitidine's approval for active duodenal ulcer and gastric hypersecretory conditions; 4–10× more potent than cimetidine on a molar basis. |
-| [1976583](https://pubmed.ncbi.nlm.nih.gov/1976583/) | 1990 | Review | Hepato-gastroenterology | Reviews acid suppression as central to peptic ulcer healing; positions H2-antagonists (including ranitidine) within the broader acid-suppression treatment paradigm. |
-| [2491360](https://pubmed.ncbi.nlm.nih.gov/2491360/) | 1989 | RCT | J Gastroenterol Hepatol | Randomized double-blind trial (n=270) comparing omeprazole 10/20 mg vs ranitidine 150 mg bid for duodenal ulcer healing and relapse, with weekly endoscopic assessment. |
-| [2877570](https://pubmed.ncbi.nlm.nih.gov/2877570/) | 1986 | RCT | Am J Med | Multicentre, double-blind, randomized international study (n=1,031) comparing famotidine vs ranitidine for healing active duodenal ulcer. |
-| [1863945](https://pubmed.ncbi.nlm.nih.gov/1863945/) | 1991 | RCT | Clin Ther | Compared famotidine 40 mg vs ranitidine 300 mg nightly for active duodenal ulcer healing (n=160) and 6-month maintenance, including NSAID/aspirin-related ulcers. |
-| [3104657](https://pubmed.ncbi.nlm.nih.gov/3104657/) | 1986 | RCT | Klin Wochenschr | Compared nocturnal rioprostil (prostaglandin E1 analogue) vs ranitidine for duodenal ulcer healing. |
-| [6317740](https://pubmed.ncbi.nlm.nih.gov/6317740/) | 1983 | Review | J Clin Gastroenterol | Comparative pharmacodynamics/pharmacokinetics of cimetidine and ranitidine; ranitidine 6–8× more potent at reducing gastric acid output. |
-| [7863241](https://pubmed.ncbi.nlm.nih.gov/7863241/) | 1994 | Review | Scand J Gastroenterol Suppl | Reviews treatment strategies for symptom resolution, healing and H. pylori eradication in duodenal ulcer patients. |
-| [12751338](https://pubmed.ncbi.nlm.nih.gov/12751338/) | 2003 | Study | Sao Paulo Med J | Evaluated ranitidine bismuth citrate + clarithromycin (7 days) for H. pylori eradication in Brazilian peptic ulcer patients. |
-
----
+| [9753259](https://pubmed.ncbi.nlm.nih.gov/9753259/) | 1998 | RCT | Dig Dis Sci | Double-blind study of 472 duodenal ulcer patients: omeprazole vs ranitidine 150 mg for maintenance of remission |
+| [6128216](https://pubmed.ncbi.nlm.nih.gov/6128216/) | 1982 | Review | Drugs | Ranitidine 150 mg twice daily was an effective alternative to cimetidine for healing duodenal and gastric ulcers (comparator also covered in the related ulcer predictions) |
+| [2667937](https://pubmed.ncbi.nlm.nih.gov/2667937/) | 1989 | Review | Drugs | Updated review: ranitidine 300 mg daily at least as effective as cimetidine in ulcer healing |
+| [6317325](https://pubmed.ncbi.nlm.nih.gov/6317325/) | 1983 | Review | Drug Intell Clin Pharm | Ranitidine is 4 to 10 times more potent than cimetidine, similarly effective and well tolerated |
+| [6317740](https://pubmed.ncbi.nlm.nih.gov/6317740/) | 1983 | Not classified | J Clin Gastroenterol | Comparative pharmacodynamics and pharmacokinetics of cimetidine and ranitidine |
+| [3909374](https://pubmed.ncbi.nlm.nih.gov/3909374/) | 1985 | Clinical study | Scand J Gastroenterol | Ranitidine 300 mg daily: 4-week healing 91% (duodenal), 68% (prepyloric), 81% (gastric corporeal); maintenance vs placebo studied |
+| [2905237](https://pubmed.ncbi.nlm.nih.gov/2905237/) | 1988 | Review | Drugs | Prostaglandins, H2 antagonists and peptic ulcer pathophysiology |
+| [2878343](https://pubmed.ncbi.nlm.nih.gov/2878343/) | 1986 | Not classified | Med Toxicol | Adverse reactions and interactions with H2-receptor antagonists; low toxicity |
+| [9506245](https://pubmed.ncbi.nlm.nih.gov/9506245/) | 1998 | Review | Drugs | Rabeprazole (a PPI) compared with H2 blockers in ulcer trials |
+| [3104657](https://pubmed.ncbi.nlm.nih.gov/3104657/) | 1986 | Not classified | Klin Wochenschr | Rioprostil vs ranitidine in duodenal ulcer healing |
 
 ## Australia Market Information
 
-Ranitidine currently has **0 ARTG entries** and is **not marketed** in Australia per this evidence pack — no product licence records were returned, so no ARTG table can be populated.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1977C | Zantac 300 | Tablet 300 mg (as hydrochloride) | Not available in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+**Contraindication-related disease associations** (from the TxGNN knowledge graph, not from label text): inherited porphyria and other porphyrin metabolism disorders, kidney disease, pyoureter, liver disease, gallbladder disease, and gastric cancer (including gastric neoplasm, diffuse gastric adenocarcinoma, linitis plastica and gastric carcinoma). These should be checked against the Product Information.
 
----
+**Drug Interactions:** 100 interactions were identified (DDInter). Examples from the first records:
+- **Major:** atazanavir
+- **Moderate:** acalabrutinib, acetohexamide, aminophylline, bacampicillin, bosutinib, brigatinib, cefditoren, cefpodoxime, cefuroxime, ceritinib, chlorpropamide
+- **Minor:** acetaminophen, alendronic acid, aluminium hydroxide, atracurium, axitinib, calcium carbonate, cisapride, cisatracurium
+
+Many of these reflect reduced absorption of drugs that need gastric acid. Please refer to the TGA-approved Product Information (PI) for warnings and full interaction guidance.
+
+**Supply and quality:** The data note that ranitidine was withdrawn from many markets in 2019-2020 because of NDMA contamination. The "Marketed" status should therefore be verified locally.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The top-ranked prediction (active peptic ulcer disease) overlaps with ranitidine's own historical indication rather than representing a novel therapeutic use, and the product is currently not marketed in Australia (0 ARTG entries). Combined with a blocking data gap on regulatory PI warnings/contraindications, this candidate cannot yet proceed to safety screening.
+The prediction is mainly on-label use (acid-related ulcer disease), supported by decades of literature and Phase 3 trials where ranitidine served as comparator. It is not a novel repurposing finding. Newer acid suppressants (PPIs) are generally preferred, and market availability is uncertain.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications) — currently a blocking data gap (DG001)
-- Detailed mechanism-of-action documentation (DrugBank) — currently a high-severity data gap (DG002)
-- Clarification of whether "active peptic ulcer disease" should be treated as a genuine repurposing candidate or excluded as overlapping with ranitidine's existing use
-- If pursuing repurposing rather than re-confirmation, consider prioritising lower-ranked but mechanistically distinct candidates from this pack (e.g. gastroduodenitis, L2; duodenogastric reflux, L3) for separate evaluation
-- Confirmation of current Australian market/import status, given the "not marketed" flag and zero ARTG entries
+- Verify the current ARTG status and supply of ranitidine in Australia (NDMA-related withdrawals)
+- Obtain the approved indication text and PI warnings and contraindications for ARTG 1977C
+- Confirm ranitidine's role (comparator vs test drug) in the Phase 3 trials
+- Compare against PPIs and other H2 blockers for place in therapy
+- Obtain mechanism of action data from DrugBank to complete the mechanistic analysis
+
+**Other predictions:** gastrojejunal ulcer and gastroduodenitis (L4, research questions) and peptic ulcer perforation, duodenogastric reflux, duodenal obstruction, mastocytosis variants and abnormal glucagon secretion (Hold) lack direct supporting evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

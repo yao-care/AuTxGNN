@@ -2,7 +2,7 @@
 layout: default
 title: Bimekizumab
 parent: Model Prediction Only (L5)
-nav_order: 88
+nav_order: 95
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,87 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bimekizumab: From Plaque Psoriasis to Diabetic Cataract
+# Bimekizumab: From Immune-Mediated Inflammatory Disease to Diabetic Cataract
 
 ## One-Sentence Summary
 
-Bimekizumab is a dual IL-17A and IL-17F inhibitor approved in multiple countries for inflammatory conditions including plaque psoriasis and psoriatic arthritis.
-The TxGNN model predicts it may be effective for **Diabetic Cataract**, with a prediction score of 98.23%.
-However, with **0 clinical trials** and **0 publications** supporting this direction, evidence is limited to model prediction only (Evidence Level L5).
-
----
+Bimekizumab is a monoclonal antibody that neutralises IL-17A, IL-17F and IL-17AF. The approved indication text was not available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **diabetic cataract**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction is computational only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available in regulatory data (globally approved for plaque psoriasis and related inflammatory conditions) |
-| Predicted New Indication | Diabetic Cataract |
+|------|------|
+| Original Indication | Not available in the data compiled for this report |
+| Predicted New Indication | Diabetic cataract |
 | TxGNN Prediction Score | 98.23% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed in Australia |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Bimekizumab is a humanised monoclonal antibody that uniquely inhibits both IL-17A and IL-17F — two cytokines that share the IL-17RA/IL-17RC receptor complex and act synergistically to drive chronic inflammatory cascades. By blocking both isoforms simultaneously, Bimekizumab provides broader suppression of the IL-17 signalling axis compared with IL-17A-only inhibitors (such as secukinumab or ixekizumab). Its approved indications — plaque psoriasis, psoriatic arthritis, and axial spondyloarthritis — all share a common pathological thread of dysregulated IL-17-driven tissue inflammation.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on its known drug class, bimekizumab neutralises the cytokines IL-17A, IL-17F and IL-17AF, which drive inflammatory signalling.
 
-The theoretical link to diabetic cataract is mechanistically indirect. IL-17A and IL-17F are upregulated in the diabetic inflammatory milieu, and via NF-κB activation they may theoretically contribute to oxidative stress that could influence lens transparency. However, this connection is highly speculative for several reasons: (1) diabetic cataract is primarily driven by hyperglycaemia-induced lens protein glycation and polyol pathway activation, not by IL-17-mediated inflammation; (2) no preclinical or clinical data exist exploring anti-IL-17 therapy in cataract prevention or treatment; and (3) the definitive treatment for cataract remains surgical lens extraction, leaving an extremely narrow window for pharmacological intervention.
+Chronic low-grade inflammation and oxidative stress have been proposed as contributors to diabetic lens damage, and IL-17 signalling has been implicated in some diabetic complications. However, there is no established role for IL-17A/F in cataract formation. Hyperglycaemia-driven polyol pathway activity and oxidative stress are the main recognised drivers of diabetic lens damage.
 
-Importantly, a notable pattern in this Evidence Pack warrants caution: nine of the top ten TxGNN predictions are cataract subtypes (ranks 16,888–18,469). This clustering strongly suggests the model is generalising from disease-ontology adjacency — cataract subtypes sharing a large knowledge graph node — rather than reflecting a true biological signal. The one non-cataract prediction (antithrombin deficiency type 2) is similarly without plausible mechanistic rationale. Overall mechanistic plausibility for this repurposing direction is assessed as low.
+The mechanistic link is therefore **speculative**. The high score is a graph-based prediction, and several other cataract subtypes share near-identical scores (about 98.1%), which suggests the result reflects similarity between cataract-related nodes in the knowledge graph rather than a biological rationale.
 
----
+Other top-ranked predictions are similarly weak:
+- Cataract subtypes (mature, immature, tetanic, craniostenosis, nuclear senile, cortical, senile, and type 2 diabetes-associated cataract): no plausible link between IL-17A/F inhibition and lens opacity. Established mature cataract is treated surgically.
+- Antithrombin deficiency type 2: a hereditary SERPINC1 variant disorder that IL-17A/F neutralisation would not correct.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
-No ARTG entries are currently on file for Bimekizumab.
-
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
-|-------------|--------------|-------------|---------------------|
-| — | No entries found | — | — |
-
-> **Note for clinicians:** Bimekizumab (brand name Bimzelx) has received regulatory approvals in the EU, UK, USA, Canada, and Japan for plaque psoriasis and related inflammatory conditions. Clinicians should verify the current TGA registration status directly via the ARTG online search at [www.tga.gov.au](https://www.tga.gov.au), as registration status may have changed after the data cutoff date of 5 April 2026.
-
----
+|---------|------|------|-----------|
+| ARTG 13644D | Bimzelx | Injection 160 mg in 1 mL single use pre-filled pen | Not available |
 
 ## Safety Considerations
 
 Please refer to the TGA-approved Product Information (PI) for safety information.
 
----
+No drug interaction records were found in the data compiled for this report, and no knowledge-graph contraindications were identified.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction for Bimekizumab in diabetic cataract is supported only by model output with no clinical trials, no peer-reviewed literature, and a mechanistically weak biological rationale. The clustering of nine cataract subtypes within the top ten predictions is a strong indicator of a model artefact (ontology-adjacency false positive) rather than a genuine drug repurposing signal — this prediction should not progress to clinical development planning at this stage.
+The prediction rests solely on a computational score, with no clinical trials or literature (Evidence Level L5). The mechanistic link between IL-17A/F inhibition and diabetic cataract is speculative, and safety data for this drug are incomplete.
 
 **To proceed, the following is needed:**
-- Preclinical evidence (in vitro or in vivo) demonstrating a functional role for IL-17A/F in lens protein aggregation, lens epithelial cell apoptosis, or cataractogenesis
-- Published literature linking any anti-IL-17 biologic to ocular inflammatory or degenerative endpoints
-- Verification of current TGA/ARTG registration status for Bimekizumab in Australia
-- Full safety and contraindication profile from the approved Product Information (PI), including immunosuppression risks relevant to ophthalmic use
-- A mechanistic hypothesis that moves beyond disease-ontology adjacency before any further investment in this indication is considered
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.*
+- The approved indication text and Product Information (warnings and contraindications) for Bimzelx, which are currently missing and block safety screening
+- Detailed mechanism of action data (for example, from DrugBank)
+- Preclinical or mechanistic evidence for IL-17A/F involvement in diabetic lens damage
+- A systematic literature search to confirm whether any relevant studies exist
+- Route compatibility assessment (bimekizumab is a subcutaneous injection, whereas ocular disease may need different delivery considerations)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

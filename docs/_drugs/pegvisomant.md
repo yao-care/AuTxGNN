@@ -2,7 +2,7 @@
 layout: default
 title: Pegvisomant
 parent: Model Prediction Only (L5)
-nav_order: 519
+nav_order: 554
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,29 +29,36 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pegvisomant: From GH Receptor Antagonist Therapy to Borderline Ovarian Serous Tumour
+# Pegvisomant: From Acromegaly to Borderline Ovarian Serous Tumour
 
 ## One-Sentence Summary
 
-Pegvisomant (DrugBank DB00082) is a growth hormone receptor antagonist that blocks the GH–IGF-1 axis; its specific original approved indication is not captured in this evidence pack (flagged as a data gap, see below). The TxGNN model predicts a possible signal for **Borderline Ovarian Serous Tumour**, but this is currently supported by **0 clinical trials** and **0 publications** — the prediction rests on model similarity alone.
+Pegvisomant is a growth hormone receptor antagonist, originally used to treat acromegaly and hyperpituitarism.
+The TxGNN model predicts it may be effective for **borderline ovarian serous tumour**,
+but there are currently **no clinical trials** and **no publications** supporting this prediction, so it rests on the computational model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in evidence pack (Data Gap DG002 — MOA/indication needs DrugBank verification) |
+| Original Indication | Acromegaly, hyperpituitarism (from the knowledge graph; no approved indication text is available for the Australian entry) |
 | Predicted New Indication | Borderline ovarian serous tumour |
 | TxGNN Prediction Score | 98.63% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Pegvisomant is not available in this evidence pack. Based on the information present in the model's own rationale output, Pegvisomant acts as a growth hormone (GH) receptor antagonist, blocking the GH–IGF-1 signalling axis. IGF-1 signalling has a theoretical, general link to proliferation in some ovarian epithelial tumours, which is presumably the basis for this prediction — but no direct evidence (trial or published) connects Pegvisomant to borderline serous ovarian tumours specifically.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Pegvisomant is known as a growth hormone (GH) receptor antagonist that lowers IGF-1, and its efficacy in acromegaly is established. Mechanistically, it may be relevant to other conditions in which the GH/IGF-1 axis drives tissue growth.
 
-Two features of this evidence pack warrant caution rather than support. First, 6 of the top 10 predicted indications (ranks 1, 2, 3, 5, 7, 8, 9, 10) are all ovarian neoplasms, most of them rare and benign — the model's own annotations note this repetition "may reflect a systematic scoring bias toward the 'ovarian tumour' semantic cluster rather than individually validated mechanistic links." Second, unrelated conditions also appear in the top 10 with implausible mechanisms (pyelonephritis at rank 4, aleukemic mast cell leukemia at rank 6), both explicitly annotated as having little to no biological rationale. Taken together, this indicates the current ranking reflects embedding-space proximity rather than validated pharmacology, consistent with the L5 evidence level assigned to every candidate.
+The only conceivable link to borderline ovarian serous tumour is a speculative one: GH/IGF-1 signalling has been discussed in the context of ovarian epithelial proliferation. No trials, publications or preclinical data were supplied to support this. The high score (98.63%, model rank 13,502) is a computational prediction and does not constitute clinical evidence.
+
+The other nine top-ranked predictions are similar in character and also have no supporting evidence:
+
+- Most are benign or rare ovarian neoplasms: rete ovarii cystadenoma, ovarian papillary cystadenoma, malignant ovarian Brenner tumour, ovarian mucinous cystadenofibroma, ovarian benign neoplasm, mucinous ovarian cystadenoma and ovarian surface papilloma. The rationale for these is the same speculative GH/IGF-1 link.
+- Pyelonephritis (a bacterial infection) and aleukaemic mast cell leukaemia (typically KIT-driven) show no credible mechanistic connection to GH receptor antagonism. These are likely knowledge-graph artefacts.
 
 ## Clinical Trial Evidence
 
@@ -63,24 +70,39 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-Pegvisomant is **not currently marketed in Australia** — there are no ARTG entries on record (0 licences), so no TGA-approved product information exists to reference for this drug at present.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11166Q | Somavert | Injection set containing powder for injection 20 mg, 1 and diluent, 1 | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Note that since Pegvisomant is not currently registered in Australia, no TGA PI exists yet — overseas labelling (e.g. FDA/EMA information for Somavert) would need to be sourced directly. Warnings, contraindications, and drug-interaction data are currently a **Blocking** data gap (DG001) that prevents this candidate from entering even an initial safety screen.
+- **Drug Interactions**: 74 interactions were identified, and the main ones listed are all rated Moderate. They are mostly with glucose-lowering agents, including:
+  - Insulin (human, aspart)
+  - Metformin
+  - Sulfonylureas (glimepiride, glipizide, glyburide, chlorpropamide, acetohexamide)
+  - Pioglitazone and acarbose
+  - SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin)
+  - DPP-4 inhibitor alogliptin
+  - GLP-1 agonists (albiglutide, dulaglutide, exenatide)
+
+  Other listed interactions include morphine and pegvaliase. Blood glucose monitoring is a reasonable consideration when pegvisomant is combined with antidiabetic agents.
+
+Warnings and contraindications from the label were not available. Please refer to the TGA-approved Product Information (PI) for these.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All 10 predicted indications are supported only by TxGNN model output (L5), with zero clinical trials or literature identified across systematic searches, and the top-ranked candidate's own rationale flags a possible clustering bias rather than validated mechanism. Combined with the drug being unregistered in Australia and a Blocking gap on safety/warning data, there is currently no basis to advance beyond model prediction.
+The prediction is supported only by the TxGNN score (evidence level L5), with no clinical trials, no publications and no established mechanism linking GH receptor antagonism to borderline ovarian serous tumour. A systemic GH antagonist has no established therapeutic rationale in these largely benign ovarian lesions.
 
 **To proceed, the following is needed:**
-- TFDA/TGA product information (warnings, contraindications) — Blocking gap (DG001)
-- Confirmed original indication and mechanism of action from DrugBank/product labelling — High-priority gap (DG002)
-- Preclinical or mechanistic studies specifically linking the GH–IGF-1 axis to borderline ovarian serous tumour pathophysiology
-- Any real-world evidence (case reports, registry data) given the complete absence of trials or publications at this time
+- Mechanism of action data, to allow proper mechanistic analysis
+- Preclinical evidence (for example, GH/IGF-1 receptor involvement in borderline serous tumours)
+- A literature and trial registry search (including ANZCTR) specific to this indication
+- Label warnings and contraindications from the TGA PI for safety screening
+- Confirmation of the approved indication text for ARTG 11166Q
+- Assessment of route compatibility (pegvisomant is available only as an injection)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

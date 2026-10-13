@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Gilteritinib
-parent: High Evidence (L1-L2)
-nav_order: 311
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 334
+evidence_level: L5
 indication_count: 10
 ---
 
 # Gilteritinib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Gilteritinib: From FLT3-mutated AML (not documented in this Evidence Pack) to Myelodysplastic/Myeloproliferative Disease
+# Gilteritinib: From Acute Myeloid Leukaemia to Bulbar Polio
 
 ## One-Sentence Summary
 
-Gilteritinib is an oral FLT3/AXL kinase inhibitor publicly known for treating relapsed/refractory FLT3-mutated acute myeloid leukaemia (AML) — though this original indication is not documented in the supplied Evidence Pack (a data gap). Of **10 TxGNN-predicted indications** reviewed for this drug, only **Myelodysplastic/Myeloproliferative Disease (MDS/MPN)** has any supporting clinical trial or literature evidence; the model's single highest-scoring prediction (bulbar polio) and most of the others are explicitly flagged in this Evidence Pack's own rationale as biologically implausible and are not carried forward in this report. Supporting evidence for MDS/MPN remains early-stage: **1 directly relevant, not-yet-completed Phase 1/2 trial** and **1 case report**.
+Gilteritinib is an oral kinase inhibitor originally used to treat FLT3-mutated acute myeloid leukaemia (AML).
+The TxGNN model predicts it may be effective for **bulbar polio**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ---
 
@@ -41,48 +42,45 @@ Gilteritinib is an oral FLT3/AXL kinase inhibitor publicly known for treating re
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this Evidence Pack (`original_indications` is empty; publicly known to be relapsed/refractory FLT3-mutated AML, but this is not sourced from the supplied data) |
-| Predicted New Indication | Myelodysplastic/Myeloproliferative Disease (MDS/MPN) |
-| TxGNN Prediction Score | 97.0% (0.9700) |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Original Indication | Acute myeloid leukaemia (relapsed/refractory FLT3-mutated AML) |
+| Predicted New Indication | Bulbar polio |
+| TxGNN Prediction Score | 99.10% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack (data gap DG002). Based on publicly known information, gilteritinib is a small-molecule inhibitor of FLT3 (including ITD and TKD mutations) and AXL, approved for relapsed/refractory FLT3-mutated AML — though this original-indication detail is likewise not sourced from the supplied data.
+Gilteritinib is a FLT3/AXL tyrosine kinase inhibitor. It is used in AML driven by FLT3 mutations. Detailed mechanism of action data was not available in the data compiled for this report, so this description relies on the drug's known class.
 
-MDS/MPN overlap neoplasms arise from the same haematopoietic stem-cell lineage as AML, and a subset of MDS/MPN cases carry activating FLT3 mutations. This provides a plausible mechanistic rationale for extending FLT3-targeted therapy to FLT3-mutated MDS/MPN, even though MDS/MPN is not among gilteritinib's core approved AML subtypes.
+**No mechanistic link was identified** between this mechanism and bulbar polio. Bulbar polio is a viral infection of motor neurons. Gilteritinib targets signalling pathways that drive leukaemic cell growth, and nothing in the data connects those pathways to poliovirus infection or motor neuron injury.
 
-By contrast, the other nine TxGNN-predicted indications in this Evidence Pack — including the model's own top-ranked prediction, bulbar polio, as well as unrelated congenital syndromes and neurogenic tumours — show no plausible mechanistic connection to FLT3/AXL inhibition. The Evidence Pack's own rationale explicitly describes these as likely knowledge-graph noise or spurious node co-occurrence, with zero supporting trials or literature for any of them. They are not discussed further in this report.
+The high score (0.991) most likely reflects patterns in the knowledge graph rather than a biological relationship. It should not be read as evidence of efficacy.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04140487](https://clinicaltrials.gov/study/NCT04140487) | Phase 1/2 | Recruiting | 97 | Gilteritinib + azacitidine + venetoclax in FLT3-mutated relapsed/refractory AML, CMML or high-risk MDS/MPN — the only trial directly testing gilteritinib for this indication; not yet completed |
-| [NCT05564390](https://clinicaltrials.gov/study/NCT05564390) | Phase 2 | Recruiting | 2000 | NCI MyeloMATCH master screening/reassessment protocol for AML/MDS; a biomarker-driven intake platform feeding patients into sub-studies, not a gilteritinib-specific trial |
-| [NCT03922100](https://clinicaltrials.gov/study/NCT03922100) | Phase 1/2 | Terminated | 63 | Tests NMS-03592088, a different FLT3/KIT/CSF1R inhibitor, in relapsed/refractory AML/CMML — same-class mechanistic support only, not gilteritinib itself |
-| [NCT02115295](https://clinicaltrials.gov/study/NCT02115295) | Phase 2 | Recruiting | 508 | Cladribine + idarubicin + cytarabine (± venetoclax) in AML/high-risk MDS/CML blast phase — no gilteritinib arm; population overlap only |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [33792628](https://pubmed.ncbi.nlm.nih.gov/33792628/) | 2021 | Case Report | Blood Advances | Infant with ETV6-FLT3 fusion-driven myeloid/lymphoid neoplasm with eosinophilia (a JMML-mimicking entity); ex vivo studies showed increased sensitivity to type I FLT3 inhibitors, supporting mechanistic plausibility of FLT3-targeted therapy in FLT3-fusion/mutation-driven myeloid neoplasms beyond classic AML |
+Currently no related literature available.
 
 ---
 
 ## Australia Market Information
 
-Gilteritinib is not currently marketed in Australia — the Evidence Pack records 0 ARTG entries.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13093D | Xospata | Tablet 40 mg (as fumarate) | Not stated in the data compiled for this report |
+
+The product is an oral, single-ingredient tablet and its registration status is valid.
 
 ---
 
@@ -90,7 +88,7 @@ Gilteritinib is not currently marketed in Australia — the Evidence Pack record
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (FLT3/AXL tyrosine kinase inhibitor) — based on known pharmacological class; not sourced from this Evidence Pack, as the MOA field is a data gap (DG002) |
+| Cytotoxicity Classification | Targeted therapy (FLT3/AXL tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
 | Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
@@ -100,7 +98,12 @@ Gilteritinib is not currently marketed in Australia — the Evidence Pack record
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. This Evidence Pack has a **Blocking** data gap (DG001): TFDA/TGA-equivalent warnings and contraindications could not be sourced, and no drug interaction data was found (`ddi.query_status: not_found`).
+- **Drug Interactions**: The interaction screen returned 100 interacting drugs, and 20 are shown in the data compiled for this report. Most are of moderate severity.
+  - **Major**: clarithromycin and dolasetron.
+  - **Moderate (examples)**: aprepitant, cimetidine, famotidine, dexamethasone, levofloxacin, metformin, loperamide, palonosetron, naltrexone, miconazole, bisacodyl and linagliptin.
+  - **Minor**: metronidazole.
+
+Please refer to the TGA-approved Product Information (PI) for warnings, contraindications and the full interaction list.
 
 ---
 
@@ -109,14 +112,15 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-A Blocking data gap (DG001) means no product warnings, contraindications, or interaction data are available, so this candidate cannot yet enter a safety pre-assessment. Gilteritinib is also not marketed in Australia (0 ARTG entries), and the only mechanistically credible new indication — MDS/MPN — is supported solely by one not-yet-completed Phase 1/2 combination trial and a single case report.
+The prediction rests only on a graph-based score, with no mechanistic link, trials or literature. Bulbar polio is a viral neurological disease with no biological connection to FLT3/AXL inhibition.
+
+Among the other predictions in the data, "myelodysplastic/myeloproliferative disease" (rank 10) has a more credible rationale. It has a Phase 1/2 trial of gilteritinib with azacitidine and venetoclax (NCT04140487) and a supporting case report (PMID 33792628). This is outside the primary prediction assessed here and would need its own evaluation.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications, drug interactions) to resolve DG001
-- A verified mechanism-of-action source to resolve DG002
-- Mature (completed) results from NCT04140487 (gilteritinib + azacitidine + venetoclax)
-- Confirmation of an import/access pathway for Australian patients given current non-marketed status
-- No further action on the other nine TxGNN-ranked candidates for this drug — none have mechanistic or evidentiary support and none should be pursued
+- A plausible mechanistic hypothesis linking FLT3/AXL inhibition to poliovirus infection or motor neuron pathology
+- Preclinical evidence (for example, in vitro antiviral or neuroprotection data)
+- Detailed mechanism of action data and the TGA-approved Product Information, including warnings and contraindications
+- A review of whether a better-supported prediction should be assessed instead
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

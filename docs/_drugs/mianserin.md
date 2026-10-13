@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mianserin
-parent: High Evidence (L1-L2)
-nav_order: 442
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 474
+evidence_level: L5
 indication_count: 10
 ---
 
 # Mianserin
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,84 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Mianserin: From Antidepressant Use to Melancholia (Depressive Subtype)
+# Mianserin: From Depression to Benign Paroxysmal Torticollis of Infancy
 
 ## One-Sentence Summary
 
-> Mianserin is a tetracyclic antidepressant; the drug's original registered indication and detailed mechanism of action are not captured in the source data (data gap), but literature within this evidence pack confirms it as an established α2-adrenergic antagonist antidepressant.
-> Among the TxGNN model's top-10 predictions, most (including the single highest-scoring candidate, benign paroxysmal torticollis of infancy, and four rare genetic syndromes) are flagged by the evidence pack itself as likely knowledge-graph noise with no supporting evidence.
-> The strongest-supported candidate is **Melancholia**, a depressive subtype, backed by **direct mianserin randomised controlled trials** (L2 evidence) — though this represents confirmation of mianserin's known antidepressant activity rather than a genuinely novel repurposing signal.
-
----
+Mianserin is a tetracyclic antidepressant, originally used for depressive disorders and anxiety.
+The TxGNN model predicts it may be effective for **benign paroxysmal torticollis of infancy**,
+but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in source data (data gap); literature in this evidence pack identifies mianserin as a tetracyclic antidepressant for depression |
-| Predicted New Indication | Melancholia (depressive subtype) |
-| TxGNN Prediction Score | 99.17% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-**Important caveat on ranking:** TxGNN's single highest-scoring prediction (benign paroxysmal torticollis of infancy, 99.49%) and four rare genetic-syndrome predictions (Ohdo syndrome and variants, blepharophimosis–intellectual disability syndrome, Keppen-Lubinsky syndrome, ligneous conjunctivitis) all returned **zero clinical trials and zero literature**. The evidence pack's own rationale explicitly labels these as having "no plausible mechanistic link" and likely reflecting knowledge-graph noise rather than a real pharmacological hypothesis. This report therefore leads with the best-evidenced candidate (melancholia) rather than the raw top-ranked score.
-
----
+| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (the Australian ARTG entry contains no approved indication text) |
+| Predicted New Indication | Benign paroxysmal torticollis of infancy |
+| TxGNN Prediction Score | 99.49% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for mianserin was not available from the primary drug record (data gap DG002). However, literature captured in this evidence pack consistently describes mianserin as a **tetracyclic antidepressant** that acts as a presynaptic α2-adrenergic receptor antagonist, increasing central noradrenaline and serotonin release — the same mechanistic class discussed for its close analogue, mirtazapine.
+Detailed mechanism of action data is not available in the data compiled for this report. The pharmacology data show that mianserin binds several serotonin receptors (5-HT1B, 5-HT2A, 5-HT2B, 5-HT2C, 5-HT6, 5-HT7), alpha-1 adrenoceptors (1A, 1B, 1D), the LPA1 receptor and the noradrenaline transporter (NET). Mianserin is generally described as an antagonist of alpha-2 adrenergic, 5-HT2 and H1 receptors, but the binding data above do not state the direction of action.
 
-The original indication field for this drug is also empty in the source data. Based on the literature retrieved (e.g. PMID 6346303, "Efficacy and side effects of mianserin, a tetracyclic antidepressant"; PMID 7048075, a mianserin pharmacology monograph), mianserin's established clinical use is as an antidepressant. Melancholia is a recognised subtype of depressive illness, so a prediction linking mianserin to melancholia sits squarely within its known pharmacological class rather than representing a mechanistically distant "new" indication.
+Benign paroxysmal torticollis of infancy is a paediatric, migraine-related condition associated with CACNA1A (a calcium channel gene). No plausible mechanistic link between an antidepressant and this condition has been established. The high TxGNN score is a graph-based prediction only, and it should not be read as evidence of clinical benefit.
 
-This has a direct implication for interpretation: unlike a true repurposing case (e.g. an oncology drug predicted for a cardiovascular indication), this candidate is best understood as **confirmatory evidence of an existing therapeutic domain**, not discovery of a novel use. The genuinely novel high-score predictions in this dataset (rare paediatric and genetic syndromes) carry no mechanistic or evidentiary support at all.
+**Other predictions to note:** Several lower-ranked predictions are more clinically coherent because they sit within or near mianserin's existing depression and anxiety uses:
 
----
+- **Dysthymic disorder** (score 99.45%, L4): supported only by a class-level meta-analysis of antidepressants, which is not specific to mianserin.
+- **Melancholia** (99.17%, L3) and **neurotic depression** (99.16%, L3): essentially on-label uses rather than true repurposing.
+- **Neurotic disorder** (99.02%, L3): includes mianserin-specific comparative studies from the 1980s to 1990s.
+- **Agoraphobia** (99.40%, L4): the only retrieved paper concerns a different drug class.
+- **Ohdo syndrome and variants**, **Ohdo-type blepharophimosis-intellectual disability syndrome**, **Keppen-Lubinsky syndrome** and **ligneous conjunctivitis** (L5): prediction only, with no plausible mechanistic link.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for melancholia (or for any of the other nine predicted indications in this dataset — all clinical trial and ICTRP searches returned zero results).
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+Currently no related literature available for benign paroxysmal torticollis of infancy.
+
+For reference, the nearest on-label or adjacent predictions have the following publications:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8773291](https://pubmed.ncbi.nlm.nih.gov/8773291/) | 1995 | RCT | Pharmacopsychiatry | Controlled study of 51 depressive inpatients; mianserin vs amitriptyline showed no significant difference in HAMD outcome, similar tolerability |
-| [2864794](https://pubmed.ncbi.nlm.nih.gov/2864794/) | 1985 | RCT | Acta Psychiatr Scand Suppl | Double-blind multicentre trial in 61 depressive patients; mianserin vs nomifensine, no significant differences at baseline or outcome |
-| [11294041](https://pubmed.ncbi.nlm.nih.gov/11294041/) | 2001 | RCT | L'Encéphale | Multicentre double-blind trial in geriatric patients (≥60y) with major depression; paroxetine vs mianserin, comparable efficacy and safety |
-| [6371875](https://pubmed.ncbi.nlm.nih.gov/6371875/) | 1984 | RCT | Psychopathology | Double-blind, non-crossover trial in 125 general-practice depression patients; trazodone vs mianserin, higher withdrawal rate on mianserin |
-| [8249653](https://pubmed.ncbi.nlm.nih.gov/8249653/) | 1993 | RCT | Acta Psychiatr Scand | Double-blind, placebo-controlled crossover study of mianserin in chronic pain with and without depression |
-| [27289172](https://pubmed.ncbi.nlm.nih.gov/27289172/) | 2016 | Meta-analysis | Lancet | Network meta-analysis comparing antidepressants (including mianserin's class) for major depressive disorder in children/adolescents |
-| [7048075](https://pubmed.ncbi.nlm.nih.gov/7048075/) | 1982 | Review | Mod Probl Pharmacopsychiatry | Mianserin pharmacology and clinical monograph |
-| [6346303](https://pubmed.ncbi.nlm.nih.gov/6346303/) | 1983 | Review | Postgrad Med J | Efficacy and side-effect profile of mianserin as a tetracyclic antidepressant |
-| [40616802](https://pubmed.ncbi.nlm.nih.gov/40616802/) | 2025 | Review | Prilozi | Discusses α2-autoreceptor/heteroreceptor antagonists (mianserin, trazodone, mirtazapine) in combination antidepressant therapy |
-| [3068469](https://pubmed.ncbi.nlm.nih.gov/3068469/) | 1988 | Review | Medicina (Firenze) | General review of mianserin |
-
----
+| [29530157](https://pubmed.ncbi.nlm.nih.gov/29530157/) | 2016 | Systematic review and meta-analysis | J Prim Health Care | Antidepressants versus placebo for depression in primary care (melancholia and neurotic depression) |
+| [21527126](https://pubmed.ncbi.nlm.nih.gov/21527126/) | 2011 | Meta-analysis of RCTs | J Clin Psychiatry | Antidepressants as a class are effective for dysthymia (not mianserin-specific) |
+| [7032887](https://pubmed.ncbi.nlm.nih.gov/7032887/) | 1981 | Analysis of controlled studies | L'Encephale | Mianserin versus clomipramine showed no statistically significant difference in efficacy; earlier onset of action with mianserin in endogenous depression |
+| [7710969](https://pubmed.ncbi.nlm.nih.gov/7710969/) | 1994 | Comparative clinical study | Rom J Neurol Psychiatry | Mianserin versus imipramine in minor depressive disorders (129 patients, 4 weeks) |
+| [6805758](https://pubmed.ncbi.nlm.nih.gov/6805758/) | 1982 | Case report | Br Med J | Mianserin-induced agranulocytosis (safety signal) |
 
 ## Australia Market Information
 
-Mianserin is **not currently registered on the ARTG** (Australian Register of Therapeutic Goods) — 0 entries found. No product, dosage form, or approved-indication information is available for the Australian market.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14366D | Lumin 10 | Tablet containing mianserin hydrochloride 10 mg | Not stated in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No TFDA/TGA warnings, contraindications, or drug interaction data were retrievable for this drug in the current evidence pack (flagged as a **Blocking** data gap, DG001) — this must be resolved before any S1 safety review can proceed.
+- **Drug Interactions:** The interaction query completed, but the 11 records returned are receptor-binding pharmacology entries (for example 5-HT1B, 5-HT2A, 5-HT2C, 5-HT6, 5-HT7, alpha-1 adrenoceptors, LPA1 and NET). They are not drug-drug interactions, and no interaction severity levels were provided.
+- **Literature safety signal:** A case report describes mianserin-induced agranulocytosis (PMID 6805758). Haematological monitoring is therefore a relevant consideration.
 
----
+Please refer to the TGA-approved Product Information (PI) for warnings, contraindications and full safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Direct mianserin RCT evidence (L2) supports antidepressant efficacy in melancholia-type depression, but this reflects the drug's known pharmacological class rather than a novel repurposing opportunity, and the drug has no current Australian market presence or safety documentation.
+The prediction for benign paroxysmal torticollis of infancy rests on a graph-based score alone, with no clinical trials, no literature and no plausible mechanistic link to mianserin (Evidence Level L5). Treating a paediatric channelopathy-related condition with an antidepressant would need a clear scientific rationale first.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA/TGA product information for warnings, contraindications, and interactions
-- Resolve DG002: confirm mechanism of action and original approved indication via DrugBank/regulatory source
-- Clarify regulatory strategy given 0 ARTG entries — no existing Australian registration to build on
-- Independently verify whether "melancholia" offers distinct clinical/regulatory value over mianserin's already-established antidepressant use, given the overlap noted above
-- Given the top TxGNN-scored candidates (rare paediatric/genetic syndromes) show no mechanistic or evidentiary support, deprioritise or discard these from further development pending stronger signal
+- Mechanism of action data to assess any biological link (for example, to CACNA1A-related pathways)
+- Preclinical or mechanistic studies supporting a role in paroxysmal torticollis
+- The TGA Product Information, including warnings and contraindications, and the approved indication text for the ARTG entry
+- Paediatric safety data, given the target population
+- A reconsideration of priorities: dysthymic disorder and neurotic disorder are better-supported research questions, though they overlap with existing depression and anxiety uses and would need mianserin-specific controlled evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Methylnaltrexone
 parent: Model Prediction Only (L5)
-nav_order: 436
+nav_order: 468
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,94 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methylnaltrexone: Predicted New Indication — Congenital Hypotrichosis Milia (Original Indication Not Available)
+# Methylnaltrexone: From Opioid-Induced Constipation to Congenital Hypotrichosis Milia
 
 ## One-Sentence Summary
 
-Methylnaltrexone's original indication and mechanism of action are not documented in the current evidence pack, and the drug is not currently registered for supply in Australia (0 ARTG entries). The TxGNN model's top-ranked prediction is **Congenital Hypotrichosis Milia** (score 78.35%), but this candidate has no supporting clinical trials or literature, and the evidence pack itself flags it as a low-confidence model artefact with no plausible mechanistic link.
+Methylnaltrexone is a peripherally acting mu-opioid receptor antagonist, marketed in Australia as Relistor injection and generally used for opioid-induced constipation.
+The TxGNN model predicts it may be effective for **congenital hypotrichosis milia**, but **no clinical trials and no publications** support this prediction.
+It is a model-generated signal only and should be treated as hypothesis-level.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in the evidence pack (no ARTG entries or original-indication data available) |
-| Predicted New Indication | Congenital Hypotrichosis Milia |
+| Original Indication | Not stated in the ARTG data compiled for this report (the pharmacology source describes use in opioid-induced constipation) |
+| Predicted New Indication | Congenital hypotrichosis milia |
 | TxGNN Prediction Score | 78.35% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for methylnaltrexone is not available in this evidence pack. Based on known pharmacology, methylnaltrexone is a peripherally restricted µ-opioid receptor antagonist class agent, but no original indication is recorded here to anchor a mechanistic comparison.
+Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that methylnaltrexone binds the mu (OPRM1), delta (OPRD1) and kappa (OPRK1) opioid receptors. It is described as a peripherally restricted antagonist used for opioid-induced constipation.
 
-For the top-ranked prediction, congenital hypotrichosis milia, the evidence pack's own rationale states there is no known pathophysiological connection to peripheral µ-opioid receptor antagonism — this is a congenital hereditary hair-development disorder, and the pairing is assessed as a pure model prediction with no supporting mechanistic hypothesis.
+The predicted indication is a hereditary hair follicle developmental disorder. No plausible mechanistic link was identified between peripheral opioid receptor blockade and this condition. The high TxGNN score appears to be a graph-based prediction artefact rather than a biologically grounded signal.
 
-It is worth noting that lower-ranked candidates in this pack carry more plausible biological rationale than the top-ranked one: **respiratory failure** (rank 7, evidence level L4) has a partial mechanistic argument around peripheral µ1-receptor involvement in opioid-induced cardiorespiratory depression, and **alopecia** (rank 5) references literature suggesting hair follicles express opioid receptors. Neither, however, has clinical trial or robust literature support at this time.
+Other top-ranked predictions show the same pattern. These include hypotrichosis simplex of the scalp, alopecia, diffuse alopecia areata, exercise-induced malignant hyperthermia, common cold, familial periodic paralysis, obsolete hyperuricemia and trigeminal autonomic cephalalgia. None has trials or literature, and none has a supported mechanism. Respiratory failure (rank 7) has only indirect preclinical context. Methylnaltrexone does not readily cross the blood-brain barrier, so it would not be expected to reverse central respiratory depression.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available for Congenital Hypotrichosis Milia.
+Currently no related literature available for congenital hypotrichosis milia.
 
-*Note: the pack does contain 2 literature records under the lower-ranked "respiratory failure" candidate (rank 7): [21164413](https://pubmed.ncbi.nlm.nih.gov/21164413/) (2010, general ICU review) and [41087032](https://pubmed.ncbi.nlm.nih.gov/41087032/) (2025, review on peripheral/central µ1-receptor roles in fentanyl-induced cardiorespiratory responses) — neither is a direct efficacy study.*
+---
 
 ## Australia Market Information
 
-Methylnaltrexone is not currently registered in the Australian Register of Therapeutic Goods (0 ARTG entries recorded).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 5423K | Relistor | Solution for injection containing methylnaltrexone bromide 12 mg in 0.6 mL | Not listed in the data compiled |
+
+The only available route is injectable.
+
+---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions**: 13 interaction records were found, 10 of them classed as Moderate. The Moderate interactions are with:
+  - Alvimopan
+  - Naloxone
+  - Naldemedine
+  - Nalmefene
+  - Naloxegol
+  - Naltrexone
+  - Capmatinib
+  - Pitolisant
+  - Risdiplam
+  - Gilteritinib
+
+  The other three records are pharmacology target entries (delta, kappa and mu opioid receptors) and are not interaction ratings.
+
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (congenital hypotrichosis milia) is evidence level L5 — a model-only prediction with no clinical trials, no literature, and no biologically plausible mechanism per the evidence pack's own assessment. Combined with the absence of Australian registration and unresolved blocking safety data gaps, there is no basis to progress this candidate.
+The prediction rests on a model score alone (L5). It has no registered trials, no supporting literature and no plausible mechanistic link. The prediction should not progress to clinical consideration on current data.
 
 **To proceed, the following is needed:**
-- TGA Product Information warnings/contraindications (flagged as a **Blocking** data gap — required before any S1 safety screening)
-- Confirmed mechanism of action data from DrugBank (flagged as a **High**-severity gap affecting mechanistic assessment)
-- Original indication and regulatory history for methylnaltrexone, currently absent from this pack
-- If further repurposing work continues, prioritise the more mechanistically grounded candidates already surfaced in this pack — respiratory failure (L4/S1, "Research Question") and alopecia — over the top-ranked but mechanistically unsupported prediction
+- Mechanism of action data (MOA) and a biological rationale linking opioid receptor signalling to hair follicle development
+- Preclinical evidence (for example, follicle or skin models) supporting the prediction
+- The approved indication text and PI warnings and contraindications for the ARTG entry
+- A review of whether the higher-ranked alternatives have more credible links, since the top-ranked predictions all lack supporting evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Magnesium Sulfate
-parent: High Evidence (L1-L2)
-nav_order: 411
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 443
+evidence_level: L5
 indication_count: 3
 ---
 
 # Magnesium Sulfate
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-# Magnesium Sulfate: TxGNN's "New" Indication Is Already Established Obstetric Practice — Preeclampsia/Eclampsia
+# Magnesium Sulfate: From Constipation and Pre-eclampsia to Preeclampsia/Eclampsia
 
 ## One-Sentence Summary
 
-Magnesium sulfate (DrugBank DB00653) has no original indication or mechanism-of-action data recorded in this evidence pack. The TxGNN model's top prediction — **preeclampsia/eclampsia** — is supported by **80+ clinical trials** and **20 publications**, but as the model's own rationale notes, this is not a novel repurposing signal: magnesium sulfate is already WHO/ACOG-endorsed standard-of-care anticonvulsant therapy for this condition. The evidence pack currently lacks a TGA-approved Product Information document and Australian market registration, which blocks a full safety assessment.
+Magnesium sulfate is a long-established medicine, originally used for constipation and pre-eclampsia. The TxGNN model's top prediction is **preeclampsia/eclampsia**, which is already a recognised use, so this is better read as validation of an existing indication than as true repurposing. The data compiled for this report include **29 clinical trials** and **20 publications** for this prediction.
 
 ---
 
@@ -41,39 +41,48 @@ Magnesium sulfate (DrugBank DB00653) has no original indication or mechanism-of-
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (drug-level data gap — no `original_indications` recorded) |
+| Original Indication | Constipation disorder; severe pre-eclampsia; pre-eclampsia; mild pre-eclampsia (from the TxGNN knowledge graph, as no approved indication text is available for the Australian licence) |
 | Predicted New Indication | Preeclampsia/eclampsia |
-| TxGNN Prediction Score | 99.9992% (rank 47) |
-| Evidence Level | L1 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| TxGNN Prediction Score | 99.999% |
+| Evidence Level | L1 (as assigned in the compiled data) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
+
+Two further predictions appear in the data: "toxemia of pregnancy" (99.998%) and "thrombotic disease" (99.905%). They are discussed briefly at the end of the report.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for magnesium sulfate is not available in this evidence pack (drug-level data gap, High severity — DG002). However, the model's own repurposing rationale for this candidate supplies a specific mechanistic account: magnesium sulfate acts as an **NMDA-receptor antagonist** and **calcium-channel blocker**, reducing neuronal excitability and cerebral vasospasm, while also producing peripheral vasodilation — together lowering blood pressure and seizure risk in preeclampsia/eclampsia.
+Detailed mechanism of action data is not available from the sources compiled for this report. Based on general pharmacology and the cited literature, magnesium is thought to reduce seizure risk in preeclampsia by:
 
-Importantly, the evidence pack flags that this is **not a genuinely novel hypothesis**. Magnesium sulfate for seizure prophylaxis and treatment in severe preeclampsia/eclampsia is already an internationally established standard of care (WHO, ACOG guidelines), reflected in the large trial volume and landmark systematic reviews below. The TxGNN score here should be read as a **validation of known pharmacology**, not a signal of an unstudied use.
+- Antagonising NMDA receptors (central anticonvulsant effect; see PMID 1566765)
+- Causing cerebral vasodilation and opposing calcium-dependent arterial constriction (PMID 2672428, PMID 16978425)
+- Protecting the blood-brain barrier
 
-A related note on the evidence pack itself: TxGNN's rank-2 candidate, "toxemia of pregnancy," is an older clinical synonym for the *same* condition as preeclampsia/eclampsia. The model's own annotation states the two disease nodes represent a single clinical entity and should not be scored as independent repurposing hypotheses — worth correcting in the underlying disease vocabulary, as it currently inflates the evidence count by double-listing trials and literature.
+The original indications already include pre-eclampsia, so the predicted indication is essentially the same disease spectrum (including the convulsive form, eclampsia). The prediction is therefore highly plausible. Reviews describe magnesium sulfate as the drug of choice for preventing and controlling eclamptic seizures, and it proved superior to diazepam and phenytoin in preventing recurrent seizures in eclampsia (PMID 8879973).
 
 ---
 
 ## Clinical Trial Evidence
 
-Evidence pack contains ~50 retrieved trials for this indication; most are dosing/administration-route studies of an already-approved use rather than new-indication trials. The table below lists those graded A or B relevance (directly on-target, adequately powered or purpose-built PK/monitoring studies):
+The table lists the most relevant trials (up to 10), selected by direct relevance to magnesium sulfate in preeclampsia/eclampsia.
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00004399](https://clinicaltrials.gov/study/NCT00004399) | N/A | Completed | 2000 | Nimodipine vs. magnesium sulfate for prevention of eclamptic seizures in severe preeclampsia — large comparative RCT |
-| [NCT01492608](https://clinicaltrials.gov/study/NCT01492608) | Phase 3 | Completed | 560 | Antenatal magnesium sulphate for prevention of cerebral palsy and death in preterm infants (MASP study) |
-| [NCT02317146](https://clinicaltrials.gov/study/NCT02317146) | Phase 2/3 | Completed | 280 | Postpartum magnesium sulfate duration protocol (6 vs. 24 hours) in severe preeclampsia |
-| [NCT05283473](https://clinicaltrials.gov/study/NCT05283473) | N/A | Completed | 64 | Serum magnesium concentration pharmacokinetics during standard loading/maintenance dosing in severe preeclampsia |
-| [NCT04474704](https://clinicaltrials.gov/study/NCT04474704) | N/A | Completed | 53 | Pilot RCT using non-invasive cardiac monitoring to individualise duration of postpartum magnesium sulfate |
+| [NCT02317146](https://clinicaltrials.gov/study/NCT02317146) | Phase 2/3 | Completed | 280 | 6 vs 24 hours of postpartum magnesium sulfate in severe preeclampsia after under 8 hours of pre-delivery treatment |
+| [NCT02307201](https://clinicaltrials.gov/study/NCT02307201) | Phase 2/3 | Completed | 1,114 | Postpartum magnesium sulfate vs none in severe preeclampsia treated for more than 8 hours before delivery |
+| [NCT03164304](https://clinicaltrials.gov/study/NCT03164304) | Phase 4 | Completed | 222 | 1 g vs 2 g intravenous maintenance dose in severe pre-eclampsia (efficacy and safety) |
+| [NCT00004399](https://clinicaltrials.gov/study/NCT00004399) | N/A | Completed | 2,000 | Nimodipine vs magnesium sulfate for preventing eclamptic seizures in severe preeclampsia |
+| [NCT04501289](https://clinicaltrials.gov/study/NCT04501289) | N/A | Completed | 114 | Low-dose regimen vs standard Pritchard regimen in severe preeclampsia/eclampsia |
+| [NCT02091401](https://clinicaltrials.gov/study/NCT02091401) | Phase 4 | Completed | 200 | Repeat bolus (Springfusor pump) vs continuous infusion: serum magnesium levels and clinical outcomes |
+| [NCT01408979](https://clinicaltrials.gov/study/NCT01408979) | Phase 4 | Completed | 120 | Short-course postpartum magnesium sulfate prophylaxis in severe preeclampsia |
+| [NCT00344058](https://clinicaltrials.gov/study/NCT00344058) | N/A | Completed | 200 | 12 vs 24 hour postpartum regimens in preeclampsia |
+| [NCT03318211](https://clinicaltrials.gov/study/NCT03318211) | Phase 4 | Unknown | 100 | Continuing vs stopping magnesium sulfate after delivery in severe preeclampsia |
+| [NCT07220902](https://clinicaltrials.gov/study/NCT07220902) | Phase 3 | Not yet recruiting | 1,240 | LEVMag trial: levetiracetam vs magnesium sulfate for eclamptic seizure prevention (equivalence design) |
 
-No ANZCTR-registered trials were returned for this indication in the evidence pack.
+Most of these trials address dosing and duration rather than whether the drug works at all. Further dosing trials in obese women are also listed (for example NCT06486025, NCT02835339, NCT03661775). No ANZCTR identifiers were available in the data compiled for this report.
 
 ---
 
@@ -81,27 +90,45 @@ No ANZCTR-registered trials were returned for this indication in the evidence pa
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38865319](https://pubmed.ncbi.nlm.nih.gov/38865319/) | 2024 | RCT (acceptability) | PLoS One | Springfusor pump vs. standard IM/IV administration — acceptability and safety comparison |
-| [17441885](https://pubmed.ncbi.nlm.nih.gov/17441885/) | 2007 | Cohort/Observational | J Obstet Gynaecol Res | Ionized vs. total serum magnesium concentrations during therapy in severe preeclampsia-eclampsia |
-| [31527059](https://pubmed.ncbi.nlm.nih.gov/31527059/) | 2019 | Implementation/Observational | Glob Health Sci Pract | Health-system factors needed for effective magnesium sulfate delivery in resource-limited settings |
-| [9794688](https://pubmed.ncbi.nlm.nih.gov/9794688/) | 1998 | Review | Obstet Gynecol | Foundational review of efficacy, benefits and risks of magnesium sulfate seizure prophylaxis |
-| [36413336](https://pubmed.ncbi.nlm.nih.gov/36413336/) | 2023 | Observational | Biol Trace Elem Res | Incidence and risk factors for critical hypermagnesemia during standard dosing regimens |
-| [16978425](https://pubmed.ncbi.nlm.nih.gov/16978425/) | 2006 | Review | Obstet Gynecol Surv | Cerebral haemodynamics in preeclampsia — rationale/limits of magnesium sulfate as the sole agent |
-| [25353716](https://pubmed.ncbi.nlm.nih.gov/25353716/) | 2015 | Review | Acta Obstet Gynecol Scand | Interventions, including magnesium sulfate access, to reduce preeclampsia/eclampsia mortality in low-resource countries |
+| [9794688](https://pubmed.ncbi.nlm.nih.gov/9794688/) | 1998 | Review | Obstet Gynecol | Review of efficacy, benefits and risks of magnesium sulfate seizure prophylaxis |
+| [2288560](https://pubmed.ncbi.nlm.nih.gov/2288560/) | 1990 | Review | Am J Obstet Gynecol | Magnesium sulfate described as the ideal anticonvulsant; efficacy and safety documented over about 60 years |
+| [8879973](https://pubmed.ncbi.nlm.nih.gov/8879973/) | 1996 | Review | Drug Saf | Better than diazepam or phenytoin for preventing recurrent seizures in eclampsia |
+| [38669914](https://pubmed.ncbi.nlm.nih.gov/38669914/) | 2024 | Review | Pregnancy Hypertens | Established role in eclampsia; broad indications in preeclampsia beyond neurological symptoms |
+| [32980358](https://pubmed.ncbi.nlm.nih.gov/32980358/) | 2022 | Review | Am J Obstet Gynecol | Eclampsia in the 21st century: incidence and outcomes |
+| [36822712](https://pubmed.ncbi.nlm.nih.gov/36822712/) | 2023 | Review | Obstet Gynecol Clin North Am | Regimens in high-income and low/middle-income countries |
+| [10803454](https://pubmed.ncbi.nlm.nih.gov/10803454/) | 2000 | Review | Clin Pharmacokinet | Pharmacokinetic principles of IV and IM regimens |
+| [38872116](https://pubmed.ncbi.nlm.nih.gov/38872116/) | 2024 | Population PK study | BMC Pregnancy Childbirth | Population pharmacokinetics and dose optimisation in a Chinese preeclampsia population |
+| [16978425](https://pubmed.ncbi.nlm.nih.gov/16978425/) | 2006 | Review | Obstet Gynecol Surv | Cerebral hemodynamics in preeclampsia and the rationale for an alternative to magnesium sulfate |
+| [1566765](https://pubmed.ncbi.nlm.nih.gov/1566765/) | 1992 | Preclinical | Am J Obstet Gynecol | Central anticonvulsant effects on hippocampal seizures |
 
-**Note on stronger duplicate-entity evidence:** because TxGNN's rank-2 candidate "toxemia of pregnancy" is the same clinical entity as preeclampsia/eclampsia (see above), the evidence pack's literature for that entry contains landmark trials worth citing for evidence-grading purposes: [21069663](https://pubmed.ncbi.nlm.nih.gov/21069663/) (Cochrane systematic review, tier 1) and [12057549](https://pubmed.ncbi.nlm.nih.gov/12057549/) (the Magpie Trial, tier 1 RCT, Lancet 2002) — both directly underpin the L1 evidence-level assignment.
+The data compiled for this report did not include a randomised trial publication for this indication. The literature is mainly reviews and pharmacology studies.
 
 ---
 
 ## Australia Market Information
 
-No ARTG entries were returned for magnesium sulfate in this evidence pack (`total_licenses: 0`, market status: **not marketed**). This should be verified directly against the TGA/ARTG database, as magnesium sulfate is a long-standing injectable electrolyte/anticonvulsant used in Australian obstetric and critical care practice — its absence here likely reflects a gap in the source query rather than genuine unavailability, and needs confirmation rather than being taken at face value.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Licence 307E | Not available | Not available | Not available |
+
+The licence is recorded as a valid single-ingredient product, but product name, dosage form, manufacturer and approved indication text were not available in the data compiled for this report. Check the ARTG entry directly.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No structured warnings, contraindications, or drug-interaction data were returned for magnesium sulfate in this evidence pack — this is flagged as a **Blocking** data gap (DG001), as it prevents a formal safety pre-assessment (S1 stage).
+- **Contraindications suggested by the knowledge graph** (these are model-derived associations, not label text): kidney disease, pyoureter, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, chronic diarrhoeal disease, appendicitis, atrioventricular block, hyperkalaemic periodic paralysis, periodic paralysis, hypoaldosteronism, myotonia congenita and gastroparesis.
+- **Drug interactions**: 92 interactions were recorded. Major interactions include dolutegravir, amikacin and bictegravir. Moderate interactions include nifedipine, amlodipine, doxycycline, tetracycline, ciprofloxacin, cisatracurium, bisphosphonates (alendronic acid, risedronic acid, ibandronate), vitamin D analogues and corticosteroids. The calcium channel blocker and neuromuscular blocker interactions matter in obstetric practice, and trials in the data also examine magnesium's effect on sugammadex reversal of rocuronium.
+- **Monitoring suggested by the evidence**: reflexes, respiratory rate and urine output for magnesium toxicity; serum magnesium where available; dose adjustment in renal impairment and obesity.
+
+Please refer to the TGA-approved Product Information (PI) for formal warnings and contraindications, as these were not available in the data compiled for this report.
+
+---
+
+## Other Predictions in the Data
+
+- **Toxemia of pregnancy** is an older term for preeclampsia/eclampsia. It draws on largely the same trials, so it is not independent evidence and should not be counted twice.
+- **Thrombotic disease** has weak support. The only trial is NCT03237819 (Phase 3, n=74, status unknown, no results) in thrombotic thrombocytopenic purpura, which is a specific microangiopathy rather than thrombosis in general. Supporting studies are older animal experiments, and much of the retrieved literature is off-target. The compiled data classify this as L3 and a research question, not a candidate for use.
 
 ---
 
@@ -110,13 +137,16 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Clinical evidence for magnesium sulfate in preeclampsia/eclampsia is exceptionally strong — a Cochrane systematic review, the landmark Magpie Trial, and multiple completed Phase 2/3 studies confirm established efficacy (evidence level L1). However, this is confirmation of long-standing standard practice rather than a novel repurposing signal, and two blocking/high-severity local data gaps remain unresolved: no TGA Product Information has been retrieved (Blocking), and mechanism-of-action documentation is missing (High). Local market status also shows zero ARTG entries, which needs independent verification before any regulatory or clinical-practice claim is made in the Australian context.
+- Magnesium sulfate is already an established, guideline-endorsed treatment for seizure prevention in severe preeclampsia and eclampsia. The trial base is large, although it concentrates on dosing and duration.
+- The "new" indication largely duplicates the original one, so the main questions are regimen optimisation and safe use, not whether the drug works.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications, drug interactions) — currently blocking safety pre-assessment
-- DrugBank-sourced mechanism-of-action data
-- Independent confirmation of current ARTG registration status for magnesium sulfate injection in Australia
-- Correction of the TxGNN disease vocabulary to merge "preeclampsia/eclampsia" and "toxemia of pregnancy" as a single entity, to avoid double-counting evidence across duplicate nodes
+- Confirm the ARTG entry details (product, dosage form, approved indication) and the PI warnings and contraindications
+- Confirm the mechanism of action from an authoritative source such as DrugBank
+- Establish a toxicity monitoring plan (reflexes, respiratory rate, urine output, serum magnesium)
+- Provide dosing guidance for renal impairment and obesity
+- Review the interaction list against local practice (calcium channel blockers, neuromuscular blockers, aminoglycosides)
+- Do not pursue thrombotic disease without results from NCT03237819 and a clearly defined indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

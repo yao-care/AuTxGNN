@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pregabalin
-parent: Moderate Evidence (L3-L4)
-nav_order: 560
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 602
+evidence_level: L5
 indication_count: 10
 ---
 
 # Pregabalin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,104 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Pregabalin: From Neuropathic Pain to Tendinitis
+# Pregabalin: From Postherpetic Neuralgia and Fibromyalgia to Tendinitis
 
 ## One-Sentence Summary
 
-Pregabalin is a gabapentinoid internationally established for neuropathic pain, epilepsy (adjunct therapy), fibromyalgia and generalised anxiety disorder — though this evidence pack itself does not contain the original-indication record (data gap) and the drug is currently **not TGA-registered in Australia**. The TxGNN model predicts it may be effective for **Tendinitis**, but this direction is currently supported by only **0 clinical trials** and **6 publications**, most of which are indirect (post-operative analgesia after rotator cuff repair, or unrelated case reports).
-
----
+Pregabalin is a gabapentinoid originally used for anxiety disorder, fibromyalgia, myofascial pain syndrome and postherpetic neuralgia.
+The TxGNN model's top-ranked prediction is **tendinitis**, but it has **no registered clinical trials** and only **indirect literature**. Better-supported predicted directions are **osteoarthritis** (9 relevant trials, 1 meta-analysis), **headache disorder** and **migraine disorder**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in evidence pack (Pregabalin is internationally indicated for neuropathic pain, epilepsy adjunct therapy, fibromyalgia and generalised anxiety disorder) |
-| Predicted New Indication | Tendinitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
-
----
+| Original Indication | Anxiety disorder, fibromyalgia, myofascial pain syndrome, postherpetic neuralgia (the approved indication text for the Australian product is not available) |
+| Predicted New Indication | Tendinitis (top-ranked); osteoarthritis has the strongest supporting evidence |
+| TxGNN Prediction Score | 99.71% (tendinitis) |
+| Evidence Level | L4 for tendinitis (L1 for osteoarthritis and headache disorder; L2 for migraine disorder) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold for tendinitis; Proceed with Guardrails is worth considering for osteoarthritis pain |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Pregabalin in this evidence pack (Data Gap DG002). Based on known information, Pregabalin binds the α2δ subunit of voltage-gated calcium channels, reducing excitatory neurotransmitter release and central/peripheral nerve sensitisation — its efficacy in neuropathic pain conditions is well established. Mechanistically, this pathway could plausibly reduce pain *associated with* tendon injury, but it has no known action on the actual pathology of tendinitis (inflammation or collagen repair).
+Detailed mechanism of action data are not available in the data compiled for this report. Pregabalin is generally understood to bind the alpha2-delta subunit of voltage-gated calcium channels. This reduces excitatory neurotransmitter release and dampens neuropathic and central-sensitisation pain signalling. This is consistent with its established use in postherpetic neuralgia and fibromyalgia.
 
-Consistent with this, the literature retrieved for this candidate is largely indirect: two RCTs examine perioperative pregabalin as post-operative analgesia after arthroscopic rotator cuff repair (not treatment of tendinitis itself), and the remaining items are case reports or reviews of unrelated nerve-entrapment and tendinopathy topics. No study evaluates pregabalin's effect on the inflammatory or collagen-repair processes underlying tendinitis. This is reflected in the assigned evidence level of L4 (mechanism/preclinical-level support only) and a "Hold" recommendation.
+For **tendinitis**, the link is indirect. Tendinitis is mainly inflammatory and mechanical, so pregabalin could plausibly help only with neuropathic pain components, such as nerve impingement. The very high TxGNN score is not supported by direct clinical data. The retrieved literature consists of a fluoroquinolone-associated disability report, an editorial on piriformis syndrome, a case report of nerve impingement after a marathon and two perioperative rotator cuff repair studies (one RCT, one retrospective cohort). None test pregabalin as a treatment for tendinitis itself.
 
----
+The other predictions are more plausible:
+
+- **Osteoarthritis:** Pregabalin may reduce central sensitisation and neuropathic-like pain in osteoarthritis. This would be symptom control, not disease modification.
+- **Migraine and headache disorders:** Preclinical work shows pregabalin raises the threshold for cortical spreading depression, a plausible basis for migraine prophylaxis.
+- **Myositis fibrosa, idiopathic granulomatous myositis, inclusion body myositis, osteoarthritis susceptibility and atrophoderma vermiculata:** These are prediction-only, with no supportive evidence. Any role would be limited to symptomatic pain relief at most.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+There are **no registered clinical trials** for tendinitis. The table below shows trials for the best-supported predicted indication, **osteoarthritis** (most relevant of 10 listed). Findings are summarised from registry descriptions only, and results have not been verified.
 
----
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00442546](https://clinicaltrials.gov/study/NCT00442546) | Phase 3 | Completed | 307 | Multicentre, double-blind, placebo-controlled study of pregabalin for post-operative pain after total knee arthroplasty |
+| [NCT04532684](https://clinicaltrials.gov/study/NCT04532684) | Phase 4 | Completed | 66 | Duloxetine vs pregabalin in knee osteoarthritis with mixed-type pain |
+| [NCT00581685](https://clinicaltrials.gov/study/NCT00581685) | Phase 3 | Completed | 31 | Pregabalin plus celecoxib around total hip arthroplasty; small perioperative study |
+| [NCT05447364](https://clinicaltrials.gov/study/NCT05447364) | Phase 4 | Completed | 82 | 75 mg vs 150 mg pregabalin for pain after total knee arthroplasty |
+| [NCT03604354](https://clinicaltrials.gov/study/NCT03604354) | Phase 4 | Completed | 95 | Tapentadol vs pregabalin for post-operative pain after knee arthroplasty |
+| [NCT05322681](https://clinicaltrials.gov/study/NCT05322681) | NA | Unknown | 90 | Pregabalin for neuropathic pain after knee arthroplasty in patients without central sensitisation |
+| [NCT05254652](https://clinicaltrials.gov/study/NCT05254652) | NA | Unknown | 90 | Pregabalin in centrally sensitised patients treated with duloxetine after knee arthroplasty |
+| [NCT06328062](https://clinicaltrials.gov/study/NCT06328062) | NA | Recruiting | 80 | Mirogabalin vs pregabalin after knee arthroplasty |
+| [NCT07598474](https://clinicaltrials.gov/study/NCT07598474) | NA | Recruiting | 35 | Pregabalin hydrogel phonophoresis with calf muscle technique in Grade III knee OA |
+
+Other predicted indications with trials:
+
+- **Headache disorder:**
+  - [NCT06271486](https://clinicaltrials.gov/study/NCT06271486): Phase 3, completed, n=75. Pregabalin as an alternative to epidural blood patch for postdural puncture headache.
+  - [NCT03910088](https://clinicaltrials.gov/study/NCT03910088): Phase 4, completed, n=30. Pregabalin vs hydrocortisone for postdural puncture headache.
+- **Migraine disorder:** [NCT00447369](https://clinicaltrials.gov/study/NCT00447369) (Phase 3, n=70, pregabalin vs sodium valproate) was **withdrawn**, so it yields no efficacy data.
 
 ## Literature Evidence
 
+No literature directly addresses pregabalin for tendinitis. The most relevant publications for the better-supported indications are listed below.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Perioperative oral pregabalin produced post-operative pain scores equivalent to interscalene brachial plexus block after arthroscopic rotator cuff repair — a peri-surgical analgesia study, not a tendinitis treatment trial. |
-| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | RCT | Journal of Orthopaedic Science | Retrospective cohort evaluating pregabalin's opioid-sparing analgesic effect after arthroscopic rotator cuff repair; evidence on efficacy remains conflicting. |
-| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Review | Arthroscopy | Editorial commentary on diagnosis and surgical treatment of piriformis syndrome; not pregabalin-specific. |
-| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Case Report | Praxis | Case report of fluoroquinolone (ciprofloxacin)-associated tendinopathy/disability; unrelated to pregabalin therapy. |
-| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Case Report | Pain Practice | Case report of posterior femoral cutaneous nerve injury caused by hamstring tendonitis in a marathon runner; does not evaluate pregabalin. |
-| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Preclinical | Advances in Pharmacological and Pharmaceutical Sciences | Rat study of a plant extract (Cissus quadrangularis, not pregabalin) attenuating vincristine-induced peripheral neuropathy. |
+| [42481863](https://pubmed.ncbi.nlm.nih.gov/42481863/) | 2026 | Systematic review/Meta-analysis | Inflammopharmacology | Effect of pregabalin on pain and function in knee osteoarthritis (RCT meta-analysis) |
+| [23918578](https://pubmed.ncbi.nlm.nih.gov/23918578/) | 2013 | RCT | Yonsei Med J | Meloxicam plus pregabalin for knee osteoarthritis pain |
+| [35442367](https://pubmed.ncbi.nlm.nih.gov/35442367/) | 2022 | Comparative clinical study | Rev Assoc Med Bras | Duloxetine vs pregabalin on pain and function in knee osteoarthritis |
+| [29066930](https://pubmed.ncbi.nlm.nih.gov/29066930/) | 2017 | Randomised clinical study | J Pain Res | Pregabalin or duloxetine vs placebo for hand osteoarthritis pain |
+| [39388181](https://pubmed.ncbi.nlm.nih.gov/39388181/) | 2024 | Network meta-analysis | JAMA Netw Open | Preventive medications in paediatric migraine |
+| [37637787](https://pubmed.ncbi.nlm.nih.gov/37637787/) | 2023 | RCT | Iran J Child Neurol | Pregabalin vs sodium valproate in paediatric migraine prophylaxis |
+| [26024701](https://pubmed.ncbi.nlm.nih.gov/26024701/) | 2015 | RCT | Acta Med Iran | Propranolol vs pregabalin for childhood migraine prophylaxis |
+| [28223480](https://pubmed.ncbi.nlm.nih.gov/28223480/) | 2017 | Preclinical | PNAS | Pregabalin inhibits cortical spreading depression in vivo |
+| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Perioperative pregabalin vs interscalene block after rotator cuff repair (tendon-related, postoperative pain) |
+| [39688824](https://pubmed.ncbi.nlm.nih.gov/39688824/) | 2024 | Clinical study | Pain Physician | Prednisolone vs pregabalin for post-dural puncture headache |
 
----
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 2335X | Lyzalon | Capsule 75 mg | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. (Key warnings, contraindications and drug interaction data for Pregabalin are recorded as data gaps in this evidence pack — DG001, Blocking severity — and were not available for review.)
+- **Contraindications from the knowledge graph:** The TxGNN knowledge graph lists drug-disease contraindication links, which are not drawn from label text. They include thrombocytopenia, several forms of angioedema, myopathy and other muscle diseases (including rhabdomyolysis), impaired renal function and atrioventricular block. Some of these may reflect warnings and precautions, so they should be checked against the PI.
+- **Drug interactions:** The interaction screen returned 100 records. The **Major** interactions identified are with **morphine** (including liposomal morphine), which is consistent with additive central nervous system and respiratory depression. **Moderate** interactions include diphenoxylate, difenoxin, dronabinol, nabilone, opium, metoclopramide, sibutramine and the thiazolidinediones (pioglitazone, rosiglitazone, troglitazone).
+- **Adverse effects noted in the literature:** The opioid co-prescribing and sleep-apnoea literature, and dizziness and sedation in the osteoarthritis evidence, suggest particular care in patients also taking opioids. Sexual dysfunction and abuse potential have also been described.
 
----
+For label warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (tendinitis)**
 
 **Rationale:**
-The tendinitis prediction sits at evidence level L4 with no supporting clinical trials, and the available literature is indirect (post-operative analgesia after shoulder surgery, or case reports unrelated to pregabalin). No mechanistic pathway links pregabalin to the inflammatory or collagen-repair processes underlying tendinitis, so this candidate does not currently support progression beyond a research hypothesis.
+- The tendinitis prediction has the highest TxGNN score (99.71%) but no registered trials and only indirect literature. The mechanistic link is limited to possible neuropathic pain components.
+- Osteoarthritis (Phase 3 and Phase 4 trials, plus a 2026 meta-analysis) and headache disorder (a completed Phase 3 trial in post-dural puncture headache) are better supported. Their evidence concerns symptom control in specific settings, so they would need cautious, guarded evaluation.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (PI) — warnings and contraindications (currently a Blocking data gap, DG001)
-- Detailed mechanism of action data from DrugBank (currently a High-severity data gap, DG002)
-- Direct preclinical or clinical evidence evaluating pregabalin's effect on tendon inflammation or collagen repair
-- Confirmation of a TGA registration/import pathway, as Pregabalin currently has 0 ARTG entries in Australia
-
-**Note:** Other TxGNN-predicted indications for Pregabalin in this same evidence pack carry substantially stronger evidence than tendinitis — notably **osteoarthritis** (rank 8, evidence level L2, decision stage S2, "Proceed with Guardrails," with multiple completed Phase 3/4 RCTs) and **migraine disorder** (rank 5, evidence level L2, "Research Question," including paediatric RCTs and a withdrawn adult Phase 3 trial). These may warrant separate, dedicated evaluation reports.
+- Mechanism of action data and the TGA Product Information (including approved indications, warnings and contraindications), both currently missing
+- For tendinitis, a focused literature review or a pilot trial in tendinopathy with neuropathic features
+- For osteoarthritis, a review of the actual results of NCT00442546 and the 2026 meta-analysis, weighing effect size against dizziness and sedation
+- A plan for managing opioid co-prescribing and renal impairment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

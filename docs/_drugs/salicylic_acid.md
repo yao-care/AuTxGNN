@@ -2,7 +2,7 @@
 layout: default
 title: Salicylic Acid
 parent: Model Prediction Only (L5)
-nav_order: 614
+nav_order: 657
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,34 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Salicylic Acid: From Topical Keratolytic Use to Papillary Conjunctivitis
+# Salicylic Acid: From Topical Dermatological and Inflammatory Conditions to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Salicylic acid (DrugBank DB00936) is a keratolytic agent, commonly used topically for dermatological conditions involving excess keratin (e.g. warts, acne, psoriasis). The TxGNN model predicts a possible new application in **papillary conjunctivitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a computational signal only, with no clinical or mechanistic validation to date.
+Salicylic acid is a long-established keratolytic and anti-inflammatory agent, used for skin conditions such as acne, seborrhoeic dermatitis and tinea, and for inflammatory conditions such as rheumatoid arthritis and allergic rhinitis.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but **no clinical trials and no publications** currently support this prediction, so it remains a computational hypothesis only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no `original_indications` recorded). Salicylic acid is generally classified as a keratolytic/dermatological agent. |
+| Original Indication | Not stated in the Australian registration data compiled for this report. The knowledge graph lists acne, seborrhoeic dermatitis, tinea pedis/corporis, seborrhoeic keratosis, rheumatoid arthritis, synovitis, allergic rhinitis and others |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.88% (rank 2109) |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| TxGNN Prediction Score | 99.88% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for salicylic acid is not available in this evidence pack (flagged as a High-severity data gap). Based on general pharmacological knowledge referenced in the model's own rationale, salicylic acid is a keratolytic agent with weak anti-inflammatory activity via mild COX inhibition. There is no established precedent for its use on the ocular surface at any defined concentration or formulation.
+Detailed mechanism of action data is not available for this report. Based on known information, salicylic acid is thought to act through anti-inflammatory pathways (such as COX inhibition and NF-kB modulation), although the pharmacology source compiled for this report notes that public bioactivity data confirming a primary molecular target are lacking. It is already used for allergic and inflammatory conditions such as allergic rhinitis, which gives a loose, plausible link to allergic or inflammatory conjunctival disease.
 
-Papillary conjunctivitis is predominantly an allergic or mechanically-induced inflammatory condition of the conjunctiva. The evidence pack's own rationale explicitly describes the mechanistic link to salicylic acid's keratolytic action as **weak and speculative**, noting that the two conditions do not share a clear pathophysiological pathway.
+There are important limits to this reasoning. Topical ocular use of salicylic acid is irritating and potentially unsafe, and no ocular-specific mechanism or data were available. The high TxGNN score reflects a computational prediction, not demonstrated benefit.
 
-It is also worth noting that of the 10 TxGNN-predicted indications for this drug, most (e.g. brachydactyly-syndactyly syndrome, pseudoachondroplasia, acromesomelic dysplasia) are rare genetic skeletal/developmental disorders with no plausible mechanistic connection to salicylic acid — several are explicitly flagged in the model rationale as likely knowledge-graph noise. This context reinforces caution in interpreting the top-ranked prediction as well.
+Other top-ranked predictions were also reviewed. Most (for example, genetic skeletal dysplasias such as brachyolmia, pseudoachondroplasia and acromesomelic dysplasia) have no plausible mechanistic link and likely reflect knowledge-graph proximity rather than a therapeutic rationale. Two are worth noting:
+- **Spondyloarthropathy (susceptibility)** is the most biologically coherent candidate, since NSAIDs are first-line therapy and salicylates are used in related joint conditions. This rationale is class-level only, and other NSAIDs are better established. It is flagged as a research question.
+- **Rosacea conjunctivitis** has only a weak indirect rationale, with the same ocular irritation concerns.
 
 ## Clinical Trial Evidence
 
@@ -65,24 +68,33 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-Salicylic acid currently has no ARTG entries and is not marketed in Australia (`market_status`: not marketed; `total_licenses`: 0). No approved indication text is available for reference.
+Two valid single-ingredient ARTG entries were identified. Product names, dosage forms and approved indication text were not available in the data compiled for this report.
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 117E | Not available | Not available | Not available |
+| ARTG 7928G | Not available | Not available | Not available |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. (Key warnings, contraindications, and drug interaction data are not currently available in this evidence pack — TFDA label data retrieval is flagged as a Blocking gap, DG001.)
+- **Pharmacology note**: The data list ASIC3 (an acid-sensing ion channel) as a pharmacological target of salicylic acid. This is not a drug-drug interaction in the usual clinical sense.
+- **Ocular use**: Topical ocular application of salicylic acid is irritating and potentially unsafe, a key concern for the predicted conjunctival indications.
+
+No label-based warnings or contraindications were available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is an L5, model-prediction-only signal with no supporting clinical trials or literature, and the mechanistic rationale is explicitly assessed as weak/speculative in the source data. Combined with a Blocking data gap on TFDA warnings/contraindications, there is currently no basis to proceed to safety evaluation.
+The prediction for papillary conjunctivitis rests solely on a model score, with no clinical trials, no literature and a safety concern with ocular application. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- TFDA/TGA-equivalent product label data (warnings and contraindications) — currently Blocking (DG001)
-- Confirmed mechanism of action data for salicylic acid — currently High-severity gap (DG002)
-- Preclinical or early clinical evidence specifically evaluating salicylic acid (or a defined ophthalmic formulation) in conjunctival inflammatory disease
-- Re-evaluation of the remaining 9 predicted indications, most of which currently show no credible mechanistic plausibility
+- Obtain the TGA Product Information for both ARTG entries to confirm approved indications, dosage forms, warnings and contraindications
+- Detailed mechanism of action data, including ocular-relevant pharmacology
+- Preclinical ocular tolerability and safety data for any conjunctival use
+- A systematic literature search for salicylates or NSAIDs in allergic conjunctivitis
+- Consideration of spondyloarthropathy as a better-grounded research question, using class-level NSAID evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

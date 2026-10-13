@@ -2,7 +2,7 @@
 layout: default
 title: Cefaclor
 parent: Model Prediction Only (L5)
-nav_order: 131
+nav_order: 140
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,82 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cefaclor: From Bacterial Infections to Hyperamylasemia
+# Cefaclor: From Bacterial Infections to Hyperamylasemia (Top Prediction) and Gonococcal Urethritis (Best-Supported Prediction)
 
 ## One-Sentence Summary
 
-Cefaclor is a second-generation oral cephalosporin antibiotic with established global use for treating bacterial infections including respiratory tract infections, urinary tract infections, and skin infections — though it currently holds no TGA registration in Australia.
-
-The TxGNN model ranks **Hyperamylasemia** as the top predicted new indication; however, with **no supporting clinical trials or publications**, confidence in this prediction is very low (Evidence Level L5).
-
-> **Analyst Note:** The highest-evidence predicted indication within this evaluation pack is **Gonococcal Urethritis** (Rank 3, L3, 6 published studies). Clinicians reviewing this report for research prioritisation should refer to the gonococcal urethritis rationale in the Conclusion section.
-
----
+Cefaclor is an oral second-generation cephalosporin antibiotic, originally used for respiratory, urinary tract and other bacterial infections.
+The TxGNN model's top-ranked prediction is **hyperamylasemia**, but it has **no clinical trials and no publications**, and no plausible mechanism.
+The best-supported prediction in the list is **gonococcal urethritis** (rank 3), with **6 publications** (1979-1997) but **no registered clinical trials**.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Bacterial infections (no TGA-approved indication; not registered in Australia) |
-| Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 97.70% |
-| Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
-
----
+|------|------|
+| Original Indication | Not stated in the Australian licence data. The knowledge graph lists urinary tract infection, tonsillitis, pharyngitis, pneumonia and other bacterial infections |
+| Predicted New Indication | Hyperamylasemia (top-ranked); gonococcal urethritis (best-supported) |
+| TxGNN Prediction Score | Hyperamylasemia 97.70%; gonococcal urethritis 97.48% |
+| Evidence Level | L5 for hyperamylasemia; L3 for gonococcal urethritis |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold (hyperamylasemia); Hold, historical research question only (gonococcal urethritis) |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacological knowledge, Cefaclor is a second-generation cephalosporin that inhibits bacterial cell wall synthesis by covalently binding to penicillin-binding proteins (PBPs), blocking peptidoglycan cross-linking. Its chloro-substituted side chain — modified from cephalexin — provides improved Gram-negative coverage while retaining good oral bioavailability and gastrointestinal absorption.
+Detailed mechanism of action data is not available in the data compiled for this report. Cefaclor is known to be a beta-lactam cephalosporin that inhibits bacterial cell-wall synthesis by binding penicillin-binding proteins.
 
-Hyperamylasemia is a laboratory finding (elevated serum amylase) rather than a primary bacterial disease. Its most common causes — acute pancreatitis, salivary gland disorders, and intestinal injury — are non-infectious or metabolic in nature, with bacterial pathogens playing no direct causal role in amylase physiology. Cefaclor's β-lactam mechanism has no pathway by which it could suppress amylase secretion, accelerate amylase clearance, or modify pancreatic enzyme activity.
+**Hyperamylasemia (rank 1):** No plausible mechanistic link to a cell-wall synthesis inhibitor is evident. The score appears to be a graph-based computational artefact. The same applies to the other non-infectious predictions (polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility, premalignant haematological disease, monoclonal gammopathy).
 
-The high TxGNN score (97.70%) is most plausibly explained by knowledge graph topology: acute infection is a recognised trigger of pancreatitis, placing the two concept nodes in close proximity within the knowledge graph. This graph adjacency does not constitute mechanistic or clinical rationale. Notably, the second-ranked prediction (polyclonal hyperviscosity syndrome) carries an **identical score** (0.9770268…), strongly suggesting a batch-computation artefact rather than genuine signal. This prediction should be treated as a graph false positive.
+**Gonococcal urethritis (rank 3):** This is the only prediction with strong biological plausibility. *Neisseria gonorrhoeae* is a susceptible organism class, and it is closely related to cefaclor's existing urinary and genitourinary infection indications. However, current guidelines prefer ceftriaxone-based therapy and resistance trends limit modern applicability, so the evidence is historical rather than actionable.
 
----
+**Other predictions of note:**
+- *Ureaplasma urethritis* (rank 4): Ureaplasma lacks a cell wall, so beta-lactams are expected to be ineffective. The prediction is mechanistically contradicted.
+- *Uterine inflammatory disease* (rank 7) and *xanthogranulomatous pyelonephritis* (rank 8): Some indirect plausibility for bacterial causes, but no supporting data, and cefaclor's spectrum is narrow for polymicrobial and anaerobic infections.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered, for either hyperamylasemia or gonococcal urethritis.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for hyperamylasemia. For the best-supported prediction, gonococcal urethritis:
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [6225482](https://pubmed.ncbi.nlm.nih.gov/6225482/) | 1983 | Comparative clinical study (randomised allocation) | Br J Vener Dis | 400 men randomised to four regimens. Cure rates: spectinomycin 98.9%, cefaclor 3 g + probenecid 95.8%, cefaclor 3 g alone 89.6%, cefamandole + probenecid 70.8% |
+| [116373](https://pubmed.ncbi.nlm.nih.gov/116373/) | 1979 | Randomised trial / case series | Sex Transm Dis | Cefaclor 2, 3 and 4 g daily for 3 days, with or without probenecid, in men with uncomplicated gonococcal urethritis |
+| [121455](https://pubmed.ncbi.nlm.nih.gov/121455/) | 1979 | Clinical study | Postgrad Med J | 40 men with uncomplicated gonococcal urethritis treated with a 1 g cefaclor loading dose regimen; good in vitro activity against *N. gonorrhoeae* |
+| [9582471](https://pubmed.ncbi.nlm.nih.gov/9582471/) | 1997 | Clinical study | Genitourin Med | Reassessed in vivo and in vitro efficacy of cefaclor as an alternative to third-generation cephalosporins in the developing world |
+| [6400040](https://pubmed.ncbi.nlm.nih.gov/6400040/) | 1984 | Clinical study | Med J Malaysia | Single-dose oral cefaclor in men with uncomplicated gonococcal urethritis (no abstract available) |
+| [2673664](https://pubmed.ncbi.nlm.nih.gov/2673664/) | 1989 | Clinical experience report (different drug) | Curr Med Res Opin | Primarily about cefetamet pivoxil; cefaclor used as a comparator. Indirect relevance only |
+
+Study designs were not fully verified; these are small, older studies.
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1169M | Ceclor CD | Tablet (sustained release) 375 mg (as monohydrate) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Contraindications (from knowledge graph, not label text):** Clostridium difficile colitis; perinatal necrotizing enterocolitis.
+- **Drug Interactions:** 69 interactions were identified. Moderate-level interactions include balsalazide, picosulfuric acid, magnesium hydroxide and aluminium hydroxide. Other listed interactions (severity unknown) include calcitriol, pantoprazole, mesalazine, doxycycline, morphine, metformin, omeprazole, lansoprazole, cimetidine and several corticosteroids.
 
-> Cefaclor has no current TGA registration in Australia. For class-level safety reference, clinicians should consult prescribing information from an approved jurisdiction (e.g., FDA labelling or UK SPC). Well-established cephalosporin class considerations include: hypersensitivity reactions (including possible cross-reactivity in penicillin-allergic patients), *Clostridioides difficile*-associated diarrhoea with prolonged use, and dose adjustment requirements in renal impairment.
-
----
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction for hyperamylasemia has no supporting clinical evidence and no credible pharmacological mechanism. Cefaclor's β-lactam mode of action cannot influence amylase secretion or clearance, and the identical scores across the top two predictions indicate this is a knowledge graph computation artefact rather than a genuine repurposing signal.
+The top-ranked prediction (hyperamylasemia) rests on a graph score alone, with no trials, no literature and no plausible mechanism. Gonococcal urethritis has historical clinical reports, but they are small and old, and current guidelines favour ceftriaxone, so it is not an actionable repurposing opportunity.
 
-**To proceed with any Cefaclor repurposing programme in Australia, the following is needed:**
-
-- **TGA registration pathway assessment:** Cefaclor currently has zero ARTG entries. Any clinical use in Australia would require either a full ARTG submission or access via the TGA Special Access Scheme (SAS) or Authorised Prescriber pathway.
-- **Redirect evaluation effort to Gonococcal Urethritis (Rank 3):** This is the only indication with biologically credible mechanism and actual evidence in this pack — *Neisseria gonorrhoeae* expresses PBP1/PBP2 targets, and six published studies (including controlled clinical trials, 1979–1997) documented Cefaclor efficacy. Before any clinical consideration, **current local antimicrobial resistance patterns must be assessed**: WHO and CDC guidelines now recommend ceftriaxone 500 mg IM as standard of care due to widespread oral cephalosporin resistance.
-- **Local MIC surveillance:** Current minimum inhibitory concentration (MIC) data for Australian *N. gonorrhoeae* strains is essential before any contemplation of Cefaclor for gonococcal infection.
-- **Full MOA data retrieval:** Retrieve complete mechanism of action, pharmacokinetic, and target data from DrugBank (DB00833) to support formal mechanistic analysis.
-- **Safety data:** Source TGA-equivalent warnings, contraindications, and drug interaction data from an approved jurisdiction's Product Information (PI) prior to any prescribing or research protocol development.
+**To proceed, the following is needed:**
+- Mechanism of action data (currently a data gap)
+- Approved indication text and PI warnings and contraindications for the Australian product
+- For gonococcal urethritis: contemporary Australian susceptibility data and a comparison with current guideline therapy
+- For hyperamylasemia: any clinical or mechanistic rationale; otherwise, deprioritise
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

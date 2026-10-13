@@ -2,7 +2,7 @@
 layout: default
 title: Linagliptin
 parent: Model Prediction Only (L5)
-nav_order: 397
+nav_order: 427
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Linagliptin: From Type 2 Diabetes to Opsismodysplasia
+# Linagliptin: From Type 2 Diabetes Mellitus to Opsismodysplasia
 
 ## One-Sentence Summary
 
-Linagliptin is a dipeptidyl peptidase-4 (DPP-4) inhibitor; the evidence pack's own literature references its use in type 2 diabetes combination therapy, though no confirmed original-indication record exists because the drug is not currently marketed in Australia. The TxGNN model's top-ranked prediction is **Opsismodysplasia**, a rare skeletal dysplasia, but this signal is currently supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic rationale finds no biological link between DPP-4 inhibition and this disease.
+Linagliptin is an oral DPP-4 inhibitor originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (inferred from literature in this pack; not a confirmed Australian regulatory indication) |
+| Original Indication | Type 2 diabetes mellitus (the ARTG record in the data compiled for this report has no indication text; this is taken from the knowledge graph) |
 | Predicted New Indication | Opsismodysplasia |
 | TxGNN Prediction Score | 94.90% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Linagliptin is not available in this evidence pack. Based on the literature captured elsewhere in the pack (relating to a different candidate indication), Linagliptin belongs to the DPP-4 inhibitor class and is used, often in combination, for glycaemic control in type 2 diabetes.
+Detailed mechanism of action data is not currently available. Linagliptin is a member of the DPP-4 inhibitor class. Its efficacy in type 2 diabetes is established: it prolongs incretin activity and so enhances glucose-dependent insulin secretion.
 
-Opsismodysplasia is a rare skeletal dysplasia primarily caused by *INPPL1* mutations (with *SGPL1* also implicated in some cases), affecting endochondral bone formation. There is no established biological pathway connecting DPP-4 inhibition or incretin signalling to skeletal growth-plate development.
+On current information, the prediction is difficult to justify mechanistically. Opsismodysplasia is a rare skeletal dysplasia caused by mutations in INPPL1 (SHIP2). No established pathway connects DPP-4 inhibition to SHIP2 or skeletal development. The high score of 0.949 is a graph-based prediction only.
 
-The evidence pack's own repurposing rationale is explicit on this point: the high TxGNN score for this candidate appears to be driven by embedding similarity in the knowledge graph rather than any identifiable mechanistic basis. This should be read as a hypothesis-generating signal only, not a mechanistically grounded lead.
+Other top-ranked predictions show the same pattern. They mostly reflect shared diabetes or metabolic phenotypes in the knowledge graph rather than a therapeutic rationale. Examples are thiamine-responsive dysfunction syndrome, stiff person syndrome, the localized lipodystrophies and homozygous familial hypercholesterolemia. The prediction for pancreatic agenesis is mechanistically unlikely to work, because linagliptin depends on existing beta cells.
 
 ## Clinical Trial Evidence
 
@@ -61,24 +62,38 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature was found for opsismodysplasia. Currently no related literature available for this indication.
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13954K | Trajenta | Tablet 5 mg (oral) | Not recorded in the data compiled for this report |
 
 ## Safety Considerations
 
-No safety data (warnings, contraindications, or drug interactions) were returned for Linagliptin in this evidence pack. As Linagliptin is not currently marketed in Australia, no TGA-approved Product Information exists locally — safety assessment would need to draw on overseas regulatory labelling (e.g., FDA, EMA) as an interim source pending formal TGA evaluation.
+- **Contraindications (from the knowledge graph, not label text)**: hypoglycaemia and pancreatitis are linked to linagliptin as contraindicated conditions.
+- **Drug Interactions**: 100 interactions were identified. The sample reviewed was mostly Moderate, with a few Minor. Moderate examples include:
+  - Sympathomimetics and bronchodilators: phenylephrine, pseudoephedrine, epinephrine, formoterol, salbutamol
+  - Hormonal agents: estradiol, levonorgestrel, norethisterone, desogestrel, hydrocortisone
+  - Others: hydrochlorothiazide, acetazolamide, benazepril, alpelisib, apalutamide, amobarbital, ethanol
+
+  Minor examples include topical hydrocortisone and topical alclometasone.
+
+Please refer to the TGA-approved Product Information (PI) for full warnings and precautions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction carries a high TxGNN score but is unsupported by any clinical trial or literature evidence specific to opsismodysplasia, and the model's own rationale identifies no plausible mechanistic link. Combined with the drug's unmarketed status in Australia and missing MOA/safety data, this candidate does not meet the threshold to progress beyond a research hypothesis.
+The prediction has no clinical trials or literature, and no plausible mechanistic link between DPP-4 inhibition and SHIP2-related skeletal dysplasia. Evidence is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- TFDA/TGA-equivalent product label (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism of action data from DrugBank or primary literature
-- Preclinical or case-level evidence specifically linking DPP-4 inhibition to opsismodysplasia pathophysiology, given none currently exists
-- Re-evaluation against lower-ranked candidates in this pack (e.g. pancreatic agenesis, rank 8) which at least have literature returned, though not disease-specific, and were also scored Hold
+- Mechanism of action data for linagliptin (for example, from DrugBank)
+- Product Information warnings and contraindications from the TGA record, as the safety data is incomplete
+- Preclinical or mechanistic evidence linking DPP-4 inhibition to INPPL1/SHIP2 pathways or skeletal development
+- Review of lower-ranked predictions in which the diabetes link is more direct, since the top-ranked ones appear to be graph artefacts
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

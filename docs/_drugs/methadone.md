@@ -2,7 +2,7 @@
 layout: default
 title: Methadone
 parent: Moderate Evidence (L3-L4)
-nav_order: 430
+nav_order: 462
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Methadone: From Opioid Use Disorder / Chronic Pain to Tourette Syndrome
+# Methadone: From Opioid Dependence/Pain Management to Tourette Syndrome
 
 ## One-Sentence Summary
 
-Methadone is a long-acting synthetic opioid agonist established for opioid use disorder maintenance therapy and chronic pain management. The TxGNN model predicts it may be effective for **Tourette Syndrome**, with a prediction score of **99.76%**, but this direction is currently supported by only **1 case report** specific to methadone and no registered clinical trials.
+Methadone is a synthetic mu-opioid agonist and NMDA receptor antagonist. The data compiled for this report do not include a TGA-approved indication text for the Australian product, though methadone is established in opioid substitution therapy and pain management.
+The TxGNN model predicts it may be effective for **Tourette syndrome**, but there are **no registered clinical trials**, and only **1 directly relevant publication** (a 1992 case report) supports this direction.
 
 ---
 
@@ -41,23 +42,23 @@ Methadone is a long-acting synthetic opioid agonist established for opioid use d
 
 | Item | Content |
 |------|------|
-| Original Indication | Opioid use disorder maintenance therapy / chronic pain management (general pharmacological knowledge — no approved-indication text available in the evidence pack, as the drug is not marketed in Australia) |
+| Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 99.76% |
 | Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (flagged as a High-severity data gap, DG002). Based on general pharmacological knowledge, methadone is a synthetic μ-opioid receptor full agonist with secondary NMDA-receptor antagonist and monoamine reuptake-inhibiting activity, and its efficacy in opioid dependence and chronic pain is well established.
+Detailed mechanism of action data are not available in the compiled data. Based on known pharmacology, methadone is a mu-opioid receptor agonist with NMDA receptor antagonist activity. Opioid modulation of dopaminergic and serotonergic (5-HT2A/C) pathways is a plausible link to tic and compulsive symptoms.
 
-The evidence pack's own rationale proposes that the opioid system interacts with striatal dopamine regulation, and this could theoretically influence tic expression in Tourette syndrome. However, this mechanistic link rests almost entirely on a single 1992 case report ("Methadone treatment of Tourette's disorder," PMID 1728167). The remaining supporting literature is largely tangential — a review of non-genetic causes of chorea, a cohort study on heroin addiction comorbidity in Tourette patients, and a pharmacology review on opiates in OCD/Tourette syndrome via 5-HT2A/C signalling — none of which directly evaluate methadone as a Tourette treatment.
+Preclinical and review literature notes that opioid drugs have been reported as effective in treatment-refractory obsessive-compulsive disorder and Tourette syndrome. The 5-HT2A-related head-twitch behaviour in animals has been related to tics and compulsive symptoms. A 1992 report describes methadone treatment of Tourette's disorder, but it is old, small and likely case-level.
 
-Given the absence of clinical trials and the reliance on one dated case report, the biological plausibility is not yet matched by clinical evidence strong enough to support progression beyond exploratory screening.
+This is a theoretical link only. The prediction has not been tested in controlled studies, and the original indication text was not available to assess its similarity to Tourette syndrome.
 
 ---
 
@@ -71,23 +72,63 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [17102981](https://pubmed.ncbi.nlm.nih.gov/17102981/) | 2007 | Basic/pharmacology review | Psychopharmacology | Reviews atypical opiates' role in OCD via 5-HT(2A/C)-mediated behaviour; notes opiate drugs are effective in treatment-refractory OCD and Tourette syndrome |
-| [15247538](https://pubmed.ncbi.nlm.nih.gov/15247538/) | 2004 | Review | Current opinion in neurology | Reviews non-genetic causes of chorea; discusses neuropsychiatric mechanisms related to Sydenham's chorea; not specific to methadone |
-| [1728167](https://pubmed.ncbi.nlm.nih.gov/1728167/) | 1992 | Case report | The American Journal of Psychiatry | "Methadone treatment of Tourette's disorder" — the only report directly on methadone in Tourette syndrome; abstract unavailable, single-case evidence only |
-| [30395551](https://pubmed.ncbi.nlm.nih.gov/30395551/) | 2018 | Cohort | Journal of Psychiatric Practice | Examines heroin addiction comorbidity in Tourette syndrome patients; addresses comorbidity, not treatment |
-| [39086469](https://pubmed.ncbi.nlm.nih.gov/39086469/) | 2024 | Review | Palliative Care and Social Practice | Reviews novel analgesics (haloperidol, miragabalin, PEA, clonidine) for neuropathic pain; not specific to methadone or Tourette syndrome |
+| [1728167](https://pubmed.ncbi.nlm.nih.gov/1728167/) | 1992 | Case report/series | Am J Psychiatry | Methadone treatment of Tourette's disorder (no abstract available) |
+| [17102981](https://pubmed.ncbi.nlm.nih.gov/17102981/) | 2007 | Preclinical/Review | Psychopharmacology | Opiates are effective in treatment-refractory OCD and Tourette syndrome; 5-HT2A/C-mediated behaviour linked to tics and compulsions |
+| [15247538](https://pubmed.ncbi.nlm.nih.gov/15247538/) | 2004 | Review | Curr Opin Neurol | Review of non-genetic causes of chorea; indirect relevance |
+| [39086469](https://pubmed.ncbi.nlm.nih.gov/39086469/) | 2024 | Review | Palliat Care Soc Pract | Novel analgesics for neuropathic pain in advanced cancer; indirect relevance |
 
 ---
 
 ## Australia Market Information
 
-Methadone is currently **not marketed** in Australia under this evidence pack's dataset — no ARTG entries were found (`total_licenses: 0`).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12520Y | METHADONE-AFT | Tablet containing methadone hydrochloride 10 mg | Not available in the compiled data |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Note: warning/contraindication data collection for this candidate is flagged as a **Blocking** data gap (DG001 — TFDA label warnings/contraindications not yet retrieved), which prevents formal safety pre-screening (S1) at this time.
+- **Contraindications (knowledge graph signals, not label text):** The TxGNN knowledge graph links methadone to contraindications in:
+  - Cardiac: long QT syndrome (including familial), torsades de pointes, sudden cardiac arrest, heart conduction disease
+  - Respiratory: respiratory failure, asthma
+  - Neurological: epilepsy, intracranial hypertension, pseudotumor cerebri
+  - Gastrointestinal: paralytic ileus, intestinal obstruction, inflammatory bowel disease, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, familial visceral myopathy
+  - Hepatic/renal/biliary: liver disease, kidney disease, gallbladder disease
+  - Endocrine: hypothyroidism, myxedema, congenital hypothyroidism
+  - Other: hypotensive disorder, benign prostatic hyperplasia, urethral stricture, pyoureter, substance-related disorder and substance abuse/dependence
+- **Drug Interactions:** The interaction query returned 100 interactions; 20 are shown in the compiled data. Major-level interactions include:
+  - Alvimopan
+  - Bupropion
+  - Morphine
+  - Dexamethasone
+  - Clarithromycin
+  - Cisapride
+  - Picosulfuric acid
+  - Polyethylene glycol (3350 with electrolytes)
+
+  Moderate-level interactions include famotidine, cimetidine, aprepitant, loperamide, atropine, hyoscyamine, glycopyrronium, dicyclomine, clidinium, bisacodyl, castor oil and attapulgite.
+- **Other signals from the literature:** Methadone has been associated with bradycardia (case report) and with hyperalgesia and cluster headache at high doses (case series).
+
+Label-based warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for authoritative safety information.
+
+---
+
+## Other Predicted Indications (Context)
+
+The remaining top-10 predictions are weaker or carry no supporting evidence:
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Nephrogenic syndrome of inappropriate antidiuresis | 99.73% | L5 | Prediction only; mechanistically implausible (V2 receptor mutation) |
+| 3 | Trichotillomania | 99.67% | L5 | Prediction only; an agonist would act opposite to the antagonist approach |
+| 4 | Headache disorder | 99.35% | L4 | Literature mostly on opioid use disorder; guidance discourages opioids |
+| 5 | Manic bipolar affective disorder | 99.32% | L3 | A 1982 small crossover study; otherwise comorbidity data |
+| 6 | Trigeminal autonomic cephalalgia | 99.05% | L4 | Literature reports methadone inducing cluster headache (safety signal) |
+| 7 | Common cold | 99.02% | L5 | Likely keyword artifact |
+| 8 | Migraine disorder | 98.64% | L3 | One prospective low-dose methadone cohort; opioids generally discouraged |
+| 9 | Fibromyalgia | 98.62% | L4 | Only indirect evidence |
+| 10 | Myositis fibrosa | 98.58% | L5 | Prediction only |
 
 ---
 
@@ -96,13 +137,15 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic link is biologically plausible but supported by only one 1992 single-case report specific to methadone in Tourette syndrome, with no clinical trials and no completed safety review (blocked pending label data). This does not meet the threshold to proceed further.
+The Tourette syndrome prediction has a high model score, but evidence is limited to a single 1992 case report and indirect preclinical/review literature, with no registered trials. Methadone also carries significant cardiac (QT prolongation), respiratory and dependence risks that require a strong efficacy case before any new use is pursued. It is best treated as a research question rather than a candidate for clinical development.
 
 **To proceed, the following is needed:**
-- TGA/TFDA-approved Product Information — warnings and contraindications (DG001, blocking)
-- DrugBank mechanism of action data (DG002)
-- Prospective or controlled studies evaluating methadone specifically in Tourette syndrome
-- Consider evaluating **migraine disorder** (rank 8 in this evidence pack) separately — it already carries a more advanced decision stage (S1, "Research Question") with broader literature support (19 PubMed hits including a prospective cohort and an American Headache Society guideline review), and may be a more tractable near-term candidate than Tourette syndrome.
+- Retrieval of the TGA Product Information to establish approved indications, warnings and contraindications
+- Detailed mechanism of action data (e.g., from DrugBank)
+- A systematic literature review beyond the 1992 case report, including any controlled studies in Tourette syndrome
+- Comparison with established Tourette treatments (e.g., alpha-2 agonists, antipsychotics, behavioural therapy) to assess a plausible benefit-risk case
+- A QT, respiratory depression and dependence-risk assessment in a Tourette population, which is often young
+- If pursued, a pilot or Phase 2 study design with ECG monitoring, with ethics and regulatory review (including controlled-substance requirements)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

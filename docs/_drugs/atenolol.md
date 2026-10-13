@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Atenolol
-parent: Moderate Evidence (L3-L4)
-nav_order: 60
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 65
+evidence_level: L5
 indication_count: 10
 ---
 
 # Atenolol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,156 +29,97 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Atenolol: From Hypertension to Posterolateral Myocardial Infarction
-
----
+# Atenolol: From Hypertension and Myocardial Infarction to Posterolateral Myocardial Infarction
 
 ## One-Sentence Summary
 
-Atenolol is a cardioselective β1-adrenergic receptor blocker established in the management of hypertension and angina pectoris. The TxGNN model predicts it may be effective for **Posterolateral Myocardial Infarction** — the highest-ranked prediction with a score of **99.87%** — though no dedicated clinical trials or publications yet exist for this specific anatomical MI subtype. Across all 10 predicted indications, **Chronic Pulmonary Heart Disease (rank 9)** carries the strongest clinical evidence (L3) and is the most immediately actionable direction.
-
----
+Atenolol is a cardioselective beta-blocker, originally used to treat hypertension and myocardial infarction.
+The TxGNN model predicts it may be effective for **posterolateral myocardial infarction**,
+but there are currently **no registered clinical trials** and **no publications** specific to this subtype. This is an anatomical subtype of an indication atenolol already holds, so it is not a true repurposing candidate.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension, angina pectoris |
-| Predicted New Indication | Posterolateral Myocardial Infarction |
+|------|------|
+| Original Indication | Hypertension, myocardial infarction (from the knowledge graph; no approved indication text is available in the ARTG data) |
+| Predicted New Indication | Posterolateral myocardial infarction |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| Australia Market Status | No current ARTG entries found in dataset (see note) |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
-> **⚠️ Data Note:** The Evidence Pack returns 0 ARTG entries for Atenolol. This is inconsistent with its recognised availability as a generic cardiovascular agent and most likely reflects a data collection gap. Clinicians should independently verify current ARTG registration status at [www.tga.gov.au/resources/artg](https://www.tga.gov.au/resources/artg).
+## Why is This Prediction Reasonable?
 
----
+Currently, detailed mechanism of action data is not available. Based on known information, atenolol is a beta-1 selective adrenergic blocker. Its efficacy in hypertension and myocardial infarction is established. By lowering heart rate, contractility and myocardial oxygen demand, it is mechanistically applicable to myocardial infarction.
 
-## Why Is This Prediction Reasonable?
+Posterolateral myocardial infarction is an anatomical subtype of myocardial infarction, which is already an established atenolol indication. The high TxGNN score most likely reflects closeness to the parent disease in the knowledge graph rather than a new therapeutic signal. No trials or publications specific to this subtype were identified.
 
-Atenolol is a cardioselective β1-adrenergic receptor antagonist. While detailed mechanism of action data is not available in this Evidence Pack (DrugBank query gap), the pharmacology is well established. Atenolol competitively blocks β1-receptors in cardiac tissue, producing negative chronotropy (reduced heart rate), negative inotropy (reduced contractility), and blood pressure lowering via reduced cardiac output. The net effect is a significant reduction in myocardial oxygen demand — the central therapeutic goal in both ischaemic heart disease and hypertension.
+### Other Predicted Indications
 
-Posterolateral myocardial infarction involves ischaemic necrosis of the posterior-lateral left ventricular wall, most commonly supplied by the left circumflex artery (LCx). Regardless of the specific infarct territory, β-blockers are a cornerstone of post-MI management: they limit infarct extension, attenuate adverse left ventricular remodelling, suppress ventricular arrhythmias, and reduce the risk of reinfarction. The mechanistic basis for Atenolol in this setting is therefore pharmacologically sound.
+The other top-ranked predictions are summarised below. None has strong supporting evidence.
 
-However, no randomised trials or published literature have addressed posterolateral MI as a distinct anatomical subtype. Large landmark trials — such as ISIS-1 and COMMIT/CCS-2 — validated beta-blocker therapy across general MI populations without stratifying by infarct territory. The TxGNN prediction most likely reflects this broader MI evidence base, meaning this represents a research question rather than a directly established indication at this stage.
-
----
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|------|
+| 2 | Posteroinferior myocardial infarction | 99.87% | L4 | Subtype of the approved indication. One 1985 small single-blind crossover study of anti-ischaemic activity (atenolol vs diltiazem) after infarction. Indirect and dated. |
+| 3 | Malignant hypertensive renal disease | 99.85% | L5 | Plausible via blood pressure control, but atenolol is renally cleared and needs dose adjustment. No data. |
+| 4 | Malignant renovascular hypertension | 99.85% | L4 | Beta-blockade reduces renin release. Only a single case report, which is anecdotal. |
+| 5 | Pulmonary hypertension, unclear multifactorial mechanism | 99.84% | L5 | No data. Beta-blockers are not an established treatment and may affect right ventricular function. |
+| 6 | Pulmonary hypertension owing to lung disease or hypoxia | 99.84% | L4 | Mostly off-target or animal studies with conflicting findings. Safety concerns outweigh the weak signal. |
+| 7 | Septal myocardial infarction | 99.84% | L4 | Subtype of the approved indication. One 1981 thallium-201 imaging study, not an outcome trial. |
+| 8 | Braddock syndrome | 99.80% | L5 | No data or documented mechanism. Graph-based prediction only. |
+| 9 | Chronic pulmonary heart disease | 99.04% | L4 | Literature is general beta-blocker and hypertension material, not specific to cor pulmonale. |
+| 10 | Primary hereditary glaucoma | 98.84% | L5 | Class-level plausibility (topical beta-blockers such as timolol), but oral atenolol has no documented role. |
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for posterolateral myocardial infarction.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for posterolateral myocardial infarction.
+For the top-ranked prediction (posterolateral myocardial infarction), currently no related literature is available.
 
----
+The closest supporting literature, found under related predictions, is listed below.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [3901170](https://pubmed.ncbi.nlm.nih.gov/3901170/) | 1985 | Randomised crossover study (single-blind, small) | La Revue de médecine interne | Atenolol 200 mg vs diltiazem 240 mg in 23 patients with residual ischaemia 4 weeks after a postero-inferior or anterior infarction, using computerised exercise testing. |
+| [7257500](https://pubmed.ncbi.nlm.nih.gov/7257500/) | 1981 | Small clinical imaging study | Zeitschrift für Kardiologie | Thallium-201 stress scintigraphy in 14 coronary artery disease patients after intravenous atenolol 5 mg. A physiological study, not an outcome trial. |
 
 ## Australia Market Information
 
-The current dataset contains no ARTG entries for Atenolol. This is likely a data collection gap given Atenolol's longstanding use as a generic beta-blocker globally. Clinicians should verify current registration directly via the TGA ARTG database.
-
----
-
-## All Predicted Indications — Summary Overview
-
-The following table summarises all 10 TxGNN predictions, providing a complete picture for clinical decision-making:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Trials | Publications | Decision |
-|------|---------------------|-------------|----------------|--------|-------------|----------|
-| 1 | Posterolateral myocardial infarction | 99.87% | L4 | 0 | 0 | Hold |
-| 2 | Posteroinferior myocardial infarction | 99.87% | L4 | 0 | 1 | Hold |
-| 3 | Malignant hypertensive renal disease | 99.85% | L5 | 0 | 0 | Hold |
-| 4 | Malignant renovascular hypertension | 99.85% | L4 | 0 | 1 | Hold |
-| 5 | Pulmonary hypertension — multifactorial ⚠️ | 99.84% | L5 | 0 | 0 | Hold |
-| 6 | Pulmonary hypertension — lung disease/hypoxia ⚠️ | 99.84% | L5 | 0 | 20* | Hold |
-| 7 | Septal myocardial infarction | 99.84% | L4 | 0 | 1 | Hold |
-| 8 | Braddock syndrome | 99.80% | L5 | 0 | 0 | Hold |
-| **9** | **Chronic pulmonary heart disease** | **99.04%** | **L3** | **1** | **15** | **Proceed with Guardrails** |
-| 10 | Primary hereditary glaucoma | 98.84% | L4 | 0 | 0 | Hold |
-
-> *Publications for rank 6 are general hypoxia biology reviews with no specific relevance to Atenolol use.
-
-> ⚠️ **Safety Alert — Pulmonary Hypertension (ranks 5 & 6):** β-blockers are generally considered relatively or absolutely contraindicated in pulmonary arterial hypertension. Atenolol may worsen right ventricular failure by reducing cardiac output, precipitate bronchospasm, and suppress the compensatory tachycardic response to low oxygen delivery. **These two indications should not be pursued.**
-
----
-
-## Spotlight: Chronic Pulmonary Heart Disease (Rank 9) — Strongest Evidence Across All Predictions
-
-Chronic pulmonary heart disease (cor pulmonale) frequently develops secondary to COPD and is often accompanied by systemic hypertension and ischaemic heart disease. Atenolol's β1-selectivity means it has comparatively less impact on β2-mediated bronchodilation than non-selective beta-blockers, making it relatively better tolerated in COPD patients who also carry a cardiac indication.
-
-**Clinical Trial Evidence**
-
-| Trial | Phase | Status | Enrolment | Key Findings |
-|-------|-------|--------|-----------|--------------|
-| [NCT03278509](https://clinicaltrials.gov/study/NCT03278509) | Phase 4 | Active, not recruiting | 5,000 | REDUCE-SWEDEHEART: registry-based RCT evaluating whether long-term beta-blocker therapy is necessary after MI in patients with preserved left ventricular ejection fraction; enrolls real-world populations including cardiopulmonary comorbidities. Results pending (completion December 2025). |
-
-**Literature Evidence**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [31524](https://pubmed.ncbi.nlm.nih.gov/31524/) | 1978 | Clinical Study | Lille médical | Direct study of atenolol in chronic pulmonary patients with airway obstruction |
-| [15881093](https://pubmed.ncbi.nlm.nih.gov/15881093/) | 2005 | Clinical Study | Terapevticheskii arkhiv | Long-term atenolol in ischaemic heart disease with concomitant COPD — respiratory safety assessment |
-| [14520850](https://pubmed.ncbi.nlm.nih.gov/14520850/) | 2003 | Clinical Study | Terapevticheskii arkhiv | Atenolol vs metoprolol vs bisoprolol in isolated systolic hypertension with COPD and/or diabetes — comparative safety |
-| [6673339](https://pubmed.ncbi.nlm.nih.gov/6673339/) | 1983 | Clinical Study | Vutreshni bolesti | Beta-blockers in COPD with ischaemic heart disease — 14-day comparative trial |
-| [11219471](https://pubmed.ncbi.nlm.nih.gov/11219471/) | 2001 | RCT | Clinical Therapeutics | Telmisartan vs atenolol in mild-to-moderate hypertension — 26-week efficacy and tolerability RCT |
-| [28982831](https://pubmed.ncbi.nlm.nih.gov/28982831/) | 2017 | Cohort Study | BMJ Open | ACOS (asthma-COPD overlap) associated with coronary artery disease, dysrhythmia and heart failure — population retrospective cohort |
-| [30191469](https://pubmed.ncbi.nlm.nih.gov/30191469/) | 2018 | Retrospective Cohort | Cardiology and Therapy | Cardiovascular hospitalisation risk: nebivolol vs atenolol vs metoprolol in hypertensive patients |
-| [1686421](https://pubmed.ncbi.nlm.nih.gov/1686421/) | 1991 | Clinical Study | Cardiologia | Neurohumoral changes in chronic heart failure treated with long-term atenolol 50 mg/day — improved EF and exercise capacity at 1 year |
-| [20354044](https://pubmed.ncbi.nlm.nih.gov/20354044/) | 2010 | Registry Survey | Postgraduate Medical Journal | Heart rate control in stable angina — European Heart Survey, includes cardiopulmonary comorbidities |
-| [25350545](https://pubmed.ncbi.nlm.nih.gov/25350545/) | 2014 | Experimental Study | PLoS One | β2-adrenergic receptor-dependent attenuation of hypoxic pulmonary vasoconstriction in intermittent hypoxia model — mechanistic relevance to cardiopulmonary interface |
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1081X | Atenolol GH | Tablet 50 mg (oral) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for complete safety information.
+The knowledge graph links atenolol with the following conditions as contraindications. These are graph-derived associations, not label text, and should be verified against the Product Information.
 
-The following safety signals are highlighted within the Evidence Pack clinical rationale and warrant attention:
+- **Cardiac and vascular:** atrioventricular block, Raynaud disease
+- **Respiratory and allergic:** asthma (including intrinsic and allergic asthma), anaphylaxis
+- **Metabolic and endocrine:** type 1 and type 2 diabetes mellitus, diabetic ketoacidosis, gout and hyperuricaemia, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, potassium deficiency
+- **Other:** liver failure, anuria, pancreatitis, systemic lupus erythematosus (including paediatric), psoriasis and parapsoriasis, anxiety, neurotic and dysthymic disorders
 
-- **AV Conduction in Inferior/Posterior MI:** Posteroinferior MI (rank 2) frequently involves right coronary artery occlusion, which supplies both the SA and AV nodes. Beta-blockers may worsen sinus bradycardia or precipitate AV block in this setting — conduction status must be assessed before initiation.
-- **Renal Accumulation:** Atenolol is primarily renally excreted. In conditions involving renal impairment (e.g., malignant hypertensive renal disease, rank 3), dose reduction and close monitoring are required due to accumulation risk.
-- **Pulmonary Safety in COPD:** Although Atenolol is β1-selective, residual β2-blockade at higher doses may cause clinically meaningful bronchospasm in severe obstructive airway disease.
-- **Pulmonary Hypertension — Contraindication Signal:** Beta-blockers including Atenolol are potentially harmful in pulmonary arterial hypertension; use in ranks 5 and 6 should be avoided.
+**Drug Interactions:** 100 interactions were identified. Those retrieved are mainly moderate. Examples include:
+- Moderate: epinephrine, hydrocortisone, hyoscyamine, bupropion, triamcinolone, morphine, acetohexamide, atropine, betamethasone, budesonide, and calcium salts (acetate, carbonate, citrate, gluconate, lactate, phosphate)
+- Minor: acetylsalicylic acid, aluminium hydroxide, attapulgite
 
----
+For label warnings and contraindications, please refer to the TGA-approved Product Information (PI), as these were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
-
-### Primary Indication (Rank 1 — Posterolateral MI)
 
 **Decision: Hold**
 
 **Rationale:**
-No clinical trials or literature specifically address posterolateral MI as an independent anatomical entity. While beta-blocker therapy is standard of care in post-MI management generally, the L4 evidence level reflects mechanistic reasoning only and does not meet the threshold for active clinical application of this specific indication.
+Posterolateral myocardial infarction is a subtype of an indication atenolol is already used for, so the prediction adds little new information. There are no trials or publications specific to this subtype, and the evidence level is L5. Among the other predictions, those outside the cardiovascular space (pulmonary hypertension, hereditary glaucoma, Braddock syndrome) lack supporting data or carry safety concerns.
 
 **To proceed, the following is needed:**
-- Subgroup analysis from existing large MI beta-blocker trials (ISIS-1, COMMIT/CCS-2, REDUCE-SWEDEHEART) stratified by infarct territory
-- Independent verification of current ARTG registration status via the TGA website
-- TGA-approved Product Information (PI) review for complete contraindications and warnings
-- DrugBank MOA data retrieval to complete the mechanistic profile
-
----
-
-### Highest-Priority Actionable Indication (Rank 9 — Chronic Pulmonary Heart Disease)
-
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-This indication carries L3 evidence, supported by one active large-scale Phase 4 trial (REDUCE-SWEDEHEART, n=5,000) and multiple observational and clinical studies directly investigating Atenolol in COPD-cardiac comorbidity populations. The β1-selectivity of Atenolol provides a relative safety advantage in this patient group.
-
-**To proceed, the following is needed:**
-- Await final results from NCT03278509 (REDUCE-SWEDEHEART, completion December 2025) for definitive guidance on long-term beta-blocker use in MI patients with preserved EF
-- Establish a multidisciplinary cardiopulmonary monitoring plan: serial spirometry (FEV1/FVC), right heart function assessment (echocardiogram), and oxygen saturation monitoring
-- Exclude patients with active bronchospasm, severe COPD (GOLD Stage III–IV), or significant pulmonary hypertension prior to initiation
-- Confirm ARTG status and access to Atenolol in Australia, including dosing guidance for renal-impaired patients
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application. Refer to TGA-approved Product Information for prescribing decisions.*
+- The TGA-approved Product Information (PI), including approved indications, warnings and contraindications
+- Detailed mechanism of action data (MOA)
+- Confirmation of whether the existing myocardial infarction indication already covers this subtype
+- For any genuinely new indication (such as malignant renovascular hypertension), controlled clinical evidence, with renal dosing considerations
+- A safety review against the graph-derived contraindication signals, particularly asthma, diabetes and atrioventricular block
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

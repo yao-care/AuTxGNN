@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sonidegib
-parent: High Evidence (L1-L2)
-nav_order: 639
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 684
+evidence_level: L5
 indication_count: 10
 ---
 
 # Sonidegib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,22 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-Using the drug-repurposing report template (v5) supplied in the system prompt to generate this report directly — no specialized skill applies to this documentation-formatting task.
-
-Note on indication selection: `predicted_indications[0]` (rank 1, "medulloblastoma with extensive nodularity") carries a TxGNN score but zero trials/literature and pre-assigned `Hold`/`Research Question` status — same for ranks 2–5 and 7–10. Rank 6 ("skin cancer") is the only candidate with populated trial/literature evidence and `"pending"` scoring fields awaiting evaluation, so it is the substantive candidate this report evaluates. This is flagged below rather than silently substituted.
-
----
-
-# Sonidegib: From Basal Cell Carcinoma to Skin Cancer (Confirmatory Signal)
+# Sonidegib: From Basal Cell Carcinoma to Skin Cancer
 
 ## One-Sentence Summary
 
-> Sonidegib is an oral Smoothened (SMO) / Hedgehog pathway inhibitor already approved overseas (e.g. Switzerland, USA, EU) for locally advanced basal cell carcinoma, but it is **not currently registered in Australia**.
-> The TxGNN model — without being given this prior-approval information — independently predicts **Skin Cancer** as a top likely indication,
-> supported by **10 clinical trials** and **20 publications**, including a completed Phase 2 randomised controlled trial (BOLT) with 42‑month follow‑up.
-> This is best read as a **confirmatory validation signal** for the model rather than a genuinely novel indication.
-
-*Nine other candidate indications for sonidegib were also flagged by TxGNN (e.g. medulloblastoma, xeroderma pigmentosum) but have no supporting trial or literature evidence in this dataset and remain at `Research Question`/`Hold` status — they are not covered further in this report.*
+Sonidegib is an oral Hedgehog pathway inhibitor, originally used to treat basal cell carcinoma and related skin cancers.
+The TxGNN model predicts it may be effective for **skin cancer** (broadly), with **6 clinical trials** and **20 publications** currently supporting this direction.
+Most of this evidence relates to basal cell carcinoma (BCC), which overlaps with the approved use, so this is a narrow extension rather than a true repurposing.
 
 ---
 
@@ -52,23 +43,27 @@ Note on indication selection: `predicted_indications[0]` (rank 1, "medulloblasto
 
 | Item | Content |
 |------|------|
-| Original Indication | Locally advanced basal cell carcinoma (per global literature — see [PMID 26323341](https://pubmed.ncbi.nlm.nih.gov/26323341/), "Sonidegib: First Global Approval"; not sourced from Australian regulatory data, as none exists) |
-| Predicted New Indication | Skin Cancer |
+| Original Indication | Basal cell carcinoma and related skin carcinomas (the ARTG entry carries no indication text; the original indications come from the TxGNN knowledge graph) |
+| Predicted New Indication | Skin cancer |
 | TxGNN Prediction Score | 99.76% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L2 by the strict trial-phase definition (one completed randomised Phase 2 trial, no Phase 3 RCT). The data compiled for this report labels it L1 only if regulatory approval is treated as confirmatory evidence |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails (restricted to BCC) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Sonidegib is an orally bioavailable small-molecule antagonist of the Smoothened (SMO) receptor, which blocks signalling through the Hedgehog pathway ([PMID 26323341](https://pubmed.ncbi.nlm.nih.gov/26323341/); [PMID 33538567](https://pubmed.ncbi.nlm.nih.gov/33538567/)). This is a targeted mechanism rather than conventional cytotoxic chemotherapy.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, sonidegib is a Smoothened (SMO) receptor antagonist. It blocks the Hedgehog signalling pathway, which is aberrantly activated in the majority of basal cell carcinomas.
 
-Basal cell carcinoma (BCC) — the dominant tumour type in the evidence base below — is characterised by aberrant, constitutive activation of the Hedgehog pathway, most commonly via PTCH1 or SMO mutations ([PMID 31545507](https://pubmed.ncbi.nlm.nih.gov/31545507/)). Blocking SMO directly interrupts this driver pathway, which is the pharmacological basis for sonidegib's existing international approval in locally advanced and metastatic BCC.
+The original indications (BCC and other skin carcinomas) and the predicted "skin cancer" label are closely related. BCC is the most common skin cancer, so the prediction largely restates the existing use. Evidence for non-BCC skin cancers, such as squamous cell carcinoma or melanoma, is not supported by the data compiled here.
 
-In this evidence pack, the drug's original-indication and mechanism-of-action fields were flagged as data gaps at the structured-data level — the TxGNN model therefore generated the "Skin Cancer" prediction from knowledge-graph structure alone, without being told the drug's known approval history. That the model's top literature/trial-supported prediction converges on the disease area where sonidegib is already approved is a strong internal consistency check on the model, even though it does not represent a new indication for Australian decision-makers.
+Other predictions were also generated. Only two have any supporting evidence:
+- **Xeroderma pigmentosum**: a single 2026 case report of sonidegib for multiple BCCs in an XP patient. The benefit is indirect, through treating BCC rather than the underlying DNA repair defect.
+- **Medulloblastoma with extensive nodularity**: biologically plausible, because SHH-subgroup medulloblastoma is driven by Hedgehog signalling. However, no trials or literature were found. Concerns include resistance from downstream mutations and growth-plate effects in children.
+
+The remaining predictions (for example ichthyosis, epidermolysis bullosa simplex and benign sweat gland neoplasm) have no apparent mechanistic link and likely reflect network proximity to other skin conditions.
 
 ---
 
@@ -76,16 +71,12 @@ In this evidence pack, the drug's original-indication and mechanism-of-action fi
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01327053](https://clinicaltrials.gov/study/NCT01327053) | Phase 2 | Completed | 230 | Randomised, double-blind BOLT study comparing two sonidegib dose levels in locally advanced/metastatic BCC — pivotal efficacy/safety trial |
-| [NCT00961896](https://clinicaltrials.gov/study/NCT00961896) | Phase 2 | Completed | 18 | Double-blind, randomised, vehicle-controlled proof-of-concept study of topical LDE225 in Gorlin syndrome BCC, plus open-label extended-dosing expansion |
-| [NCT03534947](https://clinicaltrials.gov/study/NCT03534947) | Phase 2 | Completed | 16 | Neoadjuvant sonidegib before surgery/imiquimod for BCC in cosmetically challenging locations, aiming to reduce surgical scarring |
-| [NCT01576666](https://clinicaltrials.gov/study/NCT01576666) | Phase 1 | Completed | 120 | Dose-escalation of LDE225 + BKM120 (buparlisib) combination in advanced solid tumours including metastatic breast, pancreatic, colorectal cancer and glioblastoma |
-| [NCT01033019](https://clinicaltrials.gov/study/NCT01033019) | Phase 2 | Terminated | 25 | Double-blind, randomised, vehicle-controlled study of topical LDE225 cream in sporadic superficial and nodular BCC |
-| [NCT02303041](https://clinicaltrials.gov/study/NCT02303041) | Phase 2 | Terminated | 10 | Open-label pilot of sonidegib + buparlisib combination in advanced BCC |
-| [NCT04007744](https://clinicaltrials.gov/study/NCT04007744) | Phase 1 | Active, not recruiting | 36 | Sonidegib + pembrolizumab combination dose-finding study in advanced solid tumours |
-| [NCT06623201](https://clinicaltrials.gov/study/NCT06623201) | Phase 1 | Recruiting | 20 | Blue-light photodynamic therapy combined with sonidegib for multiple BCC lesions |
-| [NCT05463757](https://clinicaltrials.gov/study/NCT05463757) | N/A | Recruiting | 80 | Netherlands prospective registration study comparing real-world use of vismodegib and sonidegib in advanced/multiple BCC |
-| [NCT01757327](https://clinicaltrials.gov/study/NCT01757327) | Phase 2 | Withdrawn | 0 | Effect of Hedgehog inhibitor LDE225 on disseminated tumour cells in early-stage ER-negative/HER2-negative breast cancer (not a skin-cancer trial; withdrawn, 0 enrolled) |
+| [NCT01327053](https://clinicaltrials.gov/study/NCT01327053) | Phase 2 | Completed | 230 | Randomised, double-blind comparison of two sonidegib (LDE225) doses in locally advanced or metastatic BCC; efficacy and safety |
+| [NCT05463757](https://clinicaltrials.gov/study/NCT05463757) | N/A | Recruiting | 80 | Dutch prospective registry of vismodegib and sonidegib in advanced and multiple BCC; real-world data |
+| [NCT03534947](https://clinicaltrials.gov/study/NCT03534947) | Phase 2 | Completed | 16 | Pilot of 12 weeks of neoadjuvant sonidegib before surgery or imiquimod for BCC in cosmetically sensitive sites |
+| [NCT02303041](https://clinicaltrials.gov/study/NCT02303041) | Phase 2 | Terminated | 10 | Pilot of sonidegib plus buparlisib in advanced BCC; terminated early, limited interpretability |
+| [NCT04007744](https://clinicaltrials.gov/study/NCT04007744) | Phase 1 | Active, not recruiting | 36 | Sonidegib plus pembrolizumab in advanced solid tumours; dose-finding, not skin-cancer specific |
+| [NCT01757327](https://clinicaltrials.gov/study/NCT01757327) | Phase 2 | Withdrawn | 0 | Sonidegib on disseminated tumour cells in early breast cancer; never enrolled, provides no evidence |
 
 ---
 
@@ -93,44 +84,48 @@ In this evidence pack, the drug's original-indication and mechanism-of-action fi
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31545507](https://pubmed.ncbi.nlm.nih.gov/31545507/) | 2020 | RCT (42-month follow-up) | British Journal of Dermatology | Long-term efficacy and safety of sonidegib in advanced BCC from the pivotal BOLT randomised trial |
-| [26323341](https://pubmed.ncbi.nlm.nih.gov/26323341/) | 2015 | Regulatory review | Drugs | "Sonidegib: First Global Approval" — SMO antagonist approved in Switzerland for advanced BCC |
-| [31990414](https://pubmed.ncbi.nlm.nih.gov/31990414/) | 2020 | Expert opinion | J Eur Acad Dermatol Venereol | Joint expert opinion comparing sonidegib and vismodegib in locally advanced BCC |
-| [33538567](https://pubmed.ncbi.nlm.nih.gov/33538567/) | 2021 | Review | J Drugs Dermatol | Review of Hedgehog inhibitors sonidegib and vismodegib for advanced BCC |
-| [37326221](https://pubmed.ncbi.nlm.nih.gov/37326221/) | 2023 | Drug safety review | Expert Opin Drug Saf | Efficacy and safety evaluation of sonidegib for BCC management |
-| [33888008](https://pubmed.ncbi.nlm.nih.gov/33888008/) | 2021 | Expert opinion | Expert Opin Drug Saf | Expert opinion on sonidegib efficacy, safety and tolerability |
-| [27636236](https://pubmed.ncbi.nlm.nih.gov/27636236/) | 2016 | Review | Expert Rev Anticancer Ther | Safety and efficacy of sonidegib for locally advanced BCC |
-| [35697404](https://pubmed.ncbi.nlm.nih.gov/35697404/) | 2022 | Review | Actas Dermosifiliogr | Update on Hedgehog pathway inhibitors vismodegib and sonidegib in advanced/metastatic BCC |
-| [34683853](https://pubmed.ncbi.nlm.nih.gov/34683853/) | 2021 | Preclinical/formulation | Pharmaceutics | Ethosome gel formulation developed to improve sonidegib bioavailability and antitumour efficacy |
-| [39861094](https://pubmed.ncbi.nlm.nih.gov/39861094/) | 2024 | Preclinical/formulation | Pharmaceuticals (Basel) | In situ pH-sensitive hydrogel of sonidegib-invasomes for intratumoral delivery in basal cell skin cancer |
+| [37604067](https://pubmed.ncbi.nlm.nih.gov/37604067/) | 2023 | Guideline | Eur J Cancer | Updated European consensus guideline on BCC diagnosis and treatment, classifying BCC as "easy-to-treat" or "difficult-to-treat" |
+| [31288208](https://pubmed.ncbi.nlm.nih.gov/31288208/) | 2019 | Guideline | Eur J Cancer | Earlier European interdisciplinary BCC guideline |
+| [26919418](https://pubmed.ncbi.nlm.nih.gov/26919418/) | 2016 | Review | Cell | Hedgehog pathway is aberrantly activated in most BCC; vismodegib and sonidegib are SMO inhibitors approved for locally advanced BCC |
+| [26323341](https://pubmed.ncbi.nlm.nih.gov/26323341/) | 2015 | Review | Drugs | Sonidegib (Odomzo) first global approval profile; oral SMO antagonist |
+| [33194718](https://pubmed.ncbi.nlm.nih.gov/33194718/) | 2020 | Review | Front Oncol | Sonidegib for advanced BCC |
+| [33888008](https://pubmed.ncbi.nlm.nih.gov/33888008/) | 2021 | Review | Expert Opin Drug Saf | Expert opinion on sonidegib efficacy, safety and tolerability |
+| [32759706](https://pubmed.ncbi.nlm.nih.gov/32759706/) | 2020 | Review | Int J Mol Sci | Comprehensive BCC review covering molecular features and resistance to systemic treatment |
+| [39062023](https://pubmed.ncbi.nlm.nih.gov/39062023/) | 2024 | Review | Biomedicines | Advanced and metastatic non-melanoma skin cancer: risk factors and treatment options |
+| [33725197](https://pubmed.ncbi.nlm.nih.gov/33725197/) | 2021 | Review | Curr Treat Options Oncol | Neoadjuvant approaches in non-melanoma skin cancer; Hedgehog inhibitors are very effective in locally advanced or multiple BCC |
+| [41862093](https://pubmed.ncbi.nlm.nih.gov/41862093/) | 2026 | Case report | Actas Dermosifiliogr | Sonidegib for multiple BCCs in a patient with xeroderma pigmentosum (relevant to the rank 2 prediction) |
 
 ---
 
 ## Australia Market Information
 
-Sonidegib currently has **no ARTG entries** and is **not marketed in Australia**. No product listing, dosage form, or TGA-approved indication text is available to summarise.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11304Y | Odomzo | Capsule 200 mg (oral) | Not listed in the data compiled for this report |
 
 ---
 
 ## Cytotoxicity
 
-*Sonidegib is classified as antineoplastic (Hedgehog-pathway inhibitor developed and used for BCC), so this section applies.*
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy — oral Smoothened (SMO)/Hedgehog pathway inhibitor (not conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions — no toxicity data available in this evidence pack |
-| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions — no toxicity data available in this evidence pack |
-| Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
-| Handling Protection | As an oral targeted oncology agent, follow local institutional handling policy for oral anticancer medicines and confirm requirements against the PI |
+| Cytotoxicity Classification | Targeted therapy (Hedgehog pathway / SMO inhibitor), not a conventional cytotoxic |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Creatine kinase (CK) and musculoskeletal symptoms (per the guardrails noted in the data compiled for this report); otherwise refer to the PI |
+| Handling Protection | Please refer to the PI and local institutional policy for handling of oral anticancer agents |
 
 ---
 
 ## Safety Considerations
 
-No TGA-approved Product Information exists for sonidegib, as it is not registered in Australia (0 ARTG entries). Structured safety fields (key warnings, contraindications, drug interactions) in this evidence pack are all unpopulated data gaps.
+- **Drug Interactions**: 100 interactions were identified in the DDI screen. The first 20 reviewed include:
+  - **Major**: aprepitant, dexamethasone, clarithromycin, clotrimazole, cobicistat
+  - **Moderate**: cimetidine, metreleptin, miconazole, troglitazone, deferasirox
+  - **Minor**: acid-suppressing agents (famotidine, ranitidine, nizatidine and the proton pump inhibitors omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole, rabeprazole)
+- **Guardrails noted in the data compiled for this report**: monitor for musculoskeletal toxicity (CK elevation) and avoid use in pregnancy because of embryo-fetal toxicity. Irreversible growth-plate effects are a concern in paediatric patients.
 
-Please refer to the manufacturer's overseas-approved Product Information (e.g. FDA/EMA/Swissmedic Odomzo® labelling) for safety information until Australian TGA-approved labelling is available.
+Label warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ---
 
@@ -139,15 +134,14 @@ Please refer to the manufacturer's overseas-approved Product Information (e.g. F
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-- The evidence base is solid for the disease area overall (one completed Phase 2 RCT with 42-month follow-up, several additional completed/ongoing trials, and consistent supporting literature), but it largely confirms an indication sonidegib already holds overseas rather than establishing a new one for the Australian market.
-- The absence of any Australian regulatory footprint (0 ARTG entries, no local PI) and the blocking safety data gap (DG001) mean this cannot proceed to routine clinical use without further local regulatory work.
+A randomised, double-blind Phase 2 trial (n=230) and consensus guidelines support sonidegib in advanced BCC, and the drug is already marketed in Australia. This is a confirmation of an existing use rather than a new indication. It does not support use in non-BCC skin cancers, and the other predicted indications remain at Hold or research-question level.
 
 **To proceed, the following is needed:**
-- TGA registration status and pathway assessment (including potential use of overseas-approval-based pathways, given existing approvals elsewhere)
-- Acquisition of a TGA-equivalent or overseas Product Information document to close the blocking safety data gap (DG001)
-- Formal drug–drug interaction (DDI) database query, since none was found in this evidence pack
-- Confirmation of drug-level mechanism of action (DG002) directly from DrugBank/PI rather than inferred from literature abstracts
-- Separate scoping of the nine lower-evidence predicted indications (rank 1–5, 7–10) if research-question-stage exploration is desired
+- TGA Product Information warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- The approved indication wording for ARTG 11304Y, to confirm the extent of overlap with BCC
+- A restriction to BCC, with CK and musculoskeletal monitoring and pregnancy avoidance
+- Prospective data before considering xeroderma pigmentosum or medulloblastoma. Both currently rest on a single case report or on no clinical evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Sulthiame
 parent: Model Prediction Only (L5)
-nav_order: 645
+nav_order: 692
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulthiame: From Anticonvulsant Therapy to Cauda Equina Syndrome
+# Sulthiame: From Original Indication (Not Recorded) to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Sulthiame is a carbonic anhydrase inhibitor with GABAergic activity, used as an anticonvulsant; it is not currently marketed in Australia and no approved indication text is available in this evidence pack. The TxGNN model's top prediction is **Cauda Equina Syndrome**, but this is supported by **zero clinical trials and zero publications**, and the model's own mechanistic assessment flags the result as a likely false positive.
-
----
+Sulthiame is marketed in Australia as Ospolot 50 mg tablets, but the data compiled for this report do not record an approved indication.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+The prediction is computational only and should be treated as a hypothesis.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (DrugBank record contains no listed indication; sulthiame is generally classified as an anticonvulsant) |
-| Predicted New Indication | Cauda Equina Syndrome |
+| Original Indication | Not recorded in the data compiled for this report (the ARTG entry has no indication text) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for sulthiame is not available in this evidence pack. Based on the information that is available (drawn from the model's own rationale), sulthiame is a carbonic anhydrase inhibitor with GABAergic anticonvulsant activity, used historically for seizure disorders.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Sulthiame is generally known as a carbonic anhydrase inhibitor used mainly as an antiepileptic. This background is general pharmacology and is not confirmed by the compiled data.
 
-Cauda equina syndrome, however, is an acute surgical emergency caused by mechanical compression of the lumbosacral nerve roots — it is a structural/compressive condition, not one driven by GABAergic or carbonic-anhydrase-related pathways. There is no established pharmacological or clinical rationale linking sulthiame's mechanism to this condition.
+Cauda equina syndrome is a compressive injury to the lumbosacral nerve roots. No plausible pharmacological rationale linking sulthiame to this condition is evident, and no mechanistic link is established. The high TxGNN score (99.97%) is a graph-based prediction only, with no clinical or literature support.
 
-Importantly, the evidence pack's own repurposing rationale concludes that the high TxGNN score for this indication "likely reflects a spurious association from knowledge-graph node proximity (nervous system cluster) rather than genuine mechanistic evidence." In other words, the model's own output actively cautions against treating this top-ranked score as clinically meaningful.
+**Other predictions from the model** share the same limitation. All have an L5 evidence level, no trials, no publications, and a recommendation of Hold:
 
-For context, TxGNN generated nine further candidate indications for sulthiame (ranks 2–10, scores 99.3–99.9%), including irritable bowel syndrome, neurogenic bladder, and several cardiac/allergic conditions. All carry the same L5 evidence level (no trials, no literature), and several are flagged in the source rationale as obsolete disease terms (e.g. "obsolete neurogenic bladder," "MVP1," "neurocirculatory asthenia") or mechanistically implausible (e.g. anaphylaxis, mitral valve prolapse). None currently rises above the top-ranked candidate in credibility.
+| Rank | Predicted Indication | TxGNN Score |
+|------|------|------|
+| 2 | Obsolete neurogenic bladder (disease) | 99.94% |
+| 3 | Irritable bowel syndrome | 99.86% |
+| 4 | Neurocirculatory asthenia | 99.79% |
+| 5 | Anaphylaxis | 99.72% |
+| 6 | Food-dependent exercise-induced anaphylaxis | 99.62% |
+| 7 | Familial mitral valve prolapse | 99.49% |
+| 8 | Mitral valve prolapse (disease) | 99.48% |
+| 9 | MVP1 | 99.43% |
+| 10 | Autonomic nervous system disease | 99.35% |
 
----
+Several of these cluster together (autonomic themes, and three mitral valve prolapse entries). This suggests a shared graph signal rather than independent evidence. The "obsolete neurogenic bladder" entry is an outdated ontology term, so it may be a graph artefact.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
-Sulthiame has no ARTG entries and is not currently marketed in Australia. No product information (PI) exists locally for this drug.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13916K | Ospolot | Tablet 50 mg (oral) | Not recorded |
 
 ## Safety Considerations
 
-No safety data (key warnings, contraindications, or drug interactions) were available in this evidence pack, and no DDI records were found for sulthiame. This is flagged in the evidence pack as a **Blocking data gap** (missing TFDA/regulatory PI warnings and contraindications), which by itself prevents this candidate from advancing to the S1 safety pre-screening stage.
-
----
+Please refer to the TGA-approved Product Information (PI) for safety information. No drug interactions were found in the data compiled for this report, and no knowledge-graph contraindications were identified.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (cauda equina syndrome) has no supporting clinical trials or literature and is assessed — by the model's own mechanistic rationale — as a probable knowledge-graph artefact rather than a genuine pharmacological signal. The drug is also unregistered in Australia, and a Blocking data gap in safety/PI information prevents any safety pre-screening.
+The prediction rests only on a TxGNN model score. There are no clinical trials or publications, no mechanistic link, and no recorded original indication or safety data. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action data for sulthiame (DrugBank/primary literature) — currently a data gap (DG002)
-- TFDA/TGA-equivalent product information covering warnings and contraindications — currently a Blocking data gap (DG001)
-- Independent pharmacological or preclinical evidence connecting sulthiame to cauda equina syndrome (or any of the other 9 candidate indications) before this moves beyond model-prediction-only status
-- Ongoing monitoring for any new trial registrations or publications, given none currently exist for any of the 10 predicted indications
+- The approved indication from the TGA-approved Product Information (PI), to establish the original indication
+- Mechanism of action data (for example from DrugBank)
+- Warnings and contraindications from the PI, so that safety screening can be done
+- A literature and trial search for sulthiame in cauda equina syndrome and the other predicted conditions
+- A clear pharmacological rationale for the predicted indication before any further evaluation
+- Reassessment of the lower-ranked predictions, noting that several are redundant or obsolete ontology terms
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

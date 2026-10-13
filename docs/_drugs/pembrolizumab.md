@@ -2,7 +2,7 @@
 layout: default
 title: Pembrolizumab
 parent: Model Prediction Only (L5)
-nav_order: 520
+nav_order: 555
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,68 +29,96 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pembrolizumab: From Unspecified Original Indication to Gingival Fibromatosis
+# Pembrolizumab: From Non-Small Cell Lung Cancer and Melanoma to Gingival Fibromatosis
 
 ## One-Sentence Summary
 
-Pembrolizumab (DrugBank DB09037) is an anti-PD-1 immune checkpoint inhibitor; its original approved indication is not recorded in this evidence pack, and detailed mechanism-of-action data is also missing. The TxGNN model's top-ranked candidate for repurposing is **Gingival Fibromatosis**, with a prediction score of **99.40%**, but this candidate currently has **0 clinical trials** and **0 publications** supporting it, and the evidence pack's own mechanistic review found no biological link between PD-1/PD-L1 blockade and this benign condition.
+Pembrolizumab is a PD-1 immune checkpoint inhibitor, originally used to treat non-small cell lung cancer and metastatic melanoma.
+The TxGNN model predicts it may be effective for **gingival fibromatosis** (score 99.4%), but **no clinical trials and no publications** support this prediction.
+The prediction is a computational signal only, and the other top-ranked predictions show similar gaps (see the note below the Conclusion).
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no original indication or product licence data on file |
-| Predicted New Indication | Gingival Fibromatosis (fibromatosis, gingival) |
+| Original Indication | Non-small cell lung carcinoma, lung cancer, metastatic melanoma (from the knowledge graph; the ARTG entry carries no indication text) |
+| Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 99.40% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available for pembrolizumab in this evidence pack. Based on the literature captured elsewhere in this pack, pembrolizumab is known to act as a monoclonal antibody that blocks the PD-1 receptor, restoring T-cell-mediated anti-tumour immunity in malignancies with immune evasion (e.g. non-small-cell lung cancer, melanoma).
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pembrolizumab is a monoclonal antibody that targets programmed cell death protein 1 (PD-1, CD279; gene PDCD1). It blocks PD-1 and so restores T-cell activity against tumour cells.
 
-Gingival fibromatosis, however, is a benign, non-immunogenic overgrowth of gingival fibrous connective tissue, typically driven by hereditary fibrotic pathways rather than tumour-immune evasion. The evidence pack's own mechanistic assessment explicitly states there is **no known association** between PD-1/PD-L1 checkpoint blockade and this condition.
+Its efficacy in lung cancer and melanoma is well established. However, gingival fibromatosis is a benign, fibroproliferative (often hereditary) condition. No mechanistic link between PD-1 blockade and this condition has been established. The high TxGNN score most likely reflects patterns in the knowledge graph rather than biology, and it should not be read as evidence of benefit.
 
-This candidate therefore represents a case where the TxGNN model assigned a high similarity score, but neither the underlying biology nor any external evidence currently supports the prediction. It should be treated as a model-generated hypothesis only, not as a validated repurposing signal.
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials are registered for gingival fibromatosis.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature is available for gingival fibromatosis.
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10424P | Keytruda | Solution concentrate for I.V. infusion, 100 mg in 4 mL | Not available in the compiled data |
+
+---
 
 ## Cytotoxicity
 
-Pembrolizumab is an antineoplastic agent (immune checkpoint inhibitor), as evidenced by the drug-review and oncology trial literature captured elsewhere in this evidence pack (e.g. PMID [27398650](https://pubmed.ncbi.nlm.nih.gov/27398650/), "Pembrolizumab (Keytruda)").
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-PD-1 checkpoint inhibitor) |
+| Cytotoxicity Classification | Immunotherapy (anti-PD-1 monoclonal antibody), not a conventional cytotoxic agent |
 | Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
-| Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the PI; immune-related adverse events (for example thyroid, liver, endocrine and pulmonary effects) are the usual focus |
+| Handling Protection | Please refer to the PI and local institutional policy |
+
+---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions** (13 entries, from the DDI screening):
+  - **Major:** lenalidomide, pomalidomide, thalidomide.
+  - **Moderate:** systemic and inhaled corticosteroids, including hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisolone, prednisone, methylprednisolone and deflazacort.
+  - The remaining entry is the pharmacological target record (PD-1), which is not an interaction.
+
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked candidate (Gingival Fibromatosis) has no clinical trial or literature support, and the evidence pack's own mechanistic analysis finds no biological rationale for immune checkpoint blockade in this benign, non-immunogenic condition. Pembrolizumab is also not currently marketed in this jurisdiction, and a blocking data gap on local product-label warnings/contraindications (DG001) prevents any safety-tier assessment. Note: all 10 TxGNN-ranked candidates in this evidence pack (including anatomically plausible ones such as lung hilum carcinoma and pulmonary sulcus neoplasm) were independently scored "Hold" — none currently clear an evidence threshold beyond model prediction alone.
+The prediction rests on a model score alone (L5), with no trials, no literature and no plausible mechanism for a benign fibroproliferative condition. Immune-related adverse events also add a safety concern for a non-malignant indication.
 
 **To proceed, the following is needed:**
-- Local product-label warnings and contraindications (DG001, Blocking) — required before any S1 safety review can begin
-- Verified mechanism-of-action data from DrugBank (DG002)
-- Original approved indication(s) and regulatory history for pembrolizumab
-- If pursuing repurposing further, prioritise candidates with class-level mechanistic plausibility and disease-specific evidence (e.g. lung hilum carcinoma, lung germ cell tumour) over candidates like gingival fibromatosis that lack any supporting rationale
+- Mechanistic data showing a role for PD-1 in gingival fibromatosis
+- Preclinical or case-level evidence of benefit
+- Detailed mechanism of action data (MOA)
+- Review of the TGA-approved PI for warnings and contraindications
+- A risk-benefit assessment for a benign condition
+
+**Note on other predictions:** The remaining top-ranked predictions are also weak. Most have no supporting evidence. Several are essentially the already-approved lung cancer indication (lung hilum carcinoma, lung benign neoplasm, pulmonary sulcus neoplasm), where the Phase 3 lung cancer evidence does not transfer to benign tumours. Lung germ cell tumour (L3) has only indirect trial data and is better treated as a research question than a repurposing candidate.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

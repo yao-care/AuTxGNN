@@ -2,7 +2,7 @@
 layout: default
 title: Onasemnogene Abeparvovec
 parent: Model Prediction Only (L5)
-nav_order: 493
+nav_order: 528
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Onasemnogene Abeparvovec: From Spinal Muscular Atrophy to Bronchitis
+# Onasemnogene abeparvovec: From Spinal Muscular Atrophy to Bronchitis
 
 ## One-Sentence Summary
 
-Onasemnogene abeparvovec is an AAV9-vectored gene therapy that delivers a functional *SMN1* gene, approved for spinal muscular atrophy (SMA). The TxGNN model's top prediction is possible efficacy in **Bronchitis**, but this is currently supported by **0 clinical trials** and **0 publications** — and the evidence pack itself flags the prediction as a likely false positive with no biological plausibility.
+Onasemnogene abeparvovec (Zolgensma) is an AAV9-based gene therapy that delivers a functional SMN1 gene. It is used for spinal muscular atrophy (SMA). The TxGNN model predicts it may be effective for **bronchitis**, but there are **no registered clinical trials and no publications** supporting this prediction, and no credible mechanistic link was identified.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Spinal Muscular Atrophy (SMA) — noted in evidence rationale; structured licence data not available |
+| Original Indication | Not stated in the Australian registration data compiled for this report (the product is an SMN1 gene replacement therapy for spinal muscular atrophy) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 86.13% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for onasemnogene abeparvovec (data gap). Based on known information, this product is an AAV9 vector-based gene therapy that delivers a functional copy of *SMN1* to restore survival motor neuron protein expression, and its efficacy has been established in SMA — a neuromuscular disorder.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, onasemnogene abeparvovec is a non-replicating AAV9 vector that delivers a working copy of the SMN1 gene to cells. It is given as a single intravenous infusion to replace the function of the missing or faulty gene in SMA.
 
-Unlike the SMA indication, bronchitis is an airway inflammatory/infectious condition with no known pathophysiological connection to motor neuron survival or *SMN1* gene replacement. The evidence pack's own rationale is explicit on this point: there is no known mechanism linking *SMN1* gene replacement therapy to bronchitis, and the prediction is most likely an artefact of knowledge-graph embedding proximity rather than a biologically grounded signal. No clinical trials, ICTRP trials, or literature exist to support drug-disease association for this pairing.
+On review, the predicted link to bronchitis is **not biologically convincing**. Bronchitis is an inflammatory airway condition and is not caused by SMN protein deficiency. Respiratory infections are a known complication of SMA, but that does not support using the drug to treat bronchitis itself. The high TxGNN score most likely reflects knowledge-graph artefacts rather than a true biological relationship.
 
-The same pattern holds across the other nine predictions in this evidence pack (diabetic retinopathy, bronchial and testicular neoplasms, hamartoma, ductular proliferation, etc.) — all are rated L5/Hold, and none have a stated mechanistic rationale. One entry (ductal/ductular proliferation, rank 8) returned 20 PubMed hits, but these are hepatic fibrosis/cholestasis mechanism papers that do not mention onasemnogene abeparvovec or AAV9 gene therapy at all, so they do not constitute drug-specific evidence.
+Other top-ranked predictions show the same pattern. These include severe non-proliferative diabetic retinopathy (79.9%), diabetic retinopathy (77.4%), bronchial neoplasm (77.1%) and several tumour or proliferative lesions. None has a plausible mechanism, and none has supporting trials or literature. Several share identical scores (76.78%), which points to a non-specific graph artefact.
 
 ## Clinical Trial Evidence
 
@@ -65,24 +65,31 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-Onasemnogene abeparvovec is not currently registered on the ARTG (0 entries) and has a market status of "not marketed" in Australia.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 12940C | Zolgensma | Pack containing 2 vials solution for I.V. infusion 20 trillion vector genomes per mL, 5.5 mL and 3 vials solution for I.V. infusion 20 trillion vector genomes per mL, 8.3 mL | Not available in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions:** 13 potential interactions were identified.
+  - **Major:** leflunomide and teriflunomide.
+  - **Moderate:** naltrexone, brentuximab vedotin, clofarabine, epirubicin, idelalisib, interferon beta-1a, interferon beta-1b, peginterferon beta-1a, methotrexate, tioguanine and trabectedin.
+- **Product-specific hepatic risk:** Onasemnogene abeparvovec carries a boxed warning for acute liver injury and failure. Systemic AAV9 delivery also carries immune response risks. These risks are not justified for a common or self-limiting condition such as bronchitis.
+
+Please also refer to the TGA-approved Product Information (PI) for full warnings and contraindications, as these were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is a pure model prediction (L5) with no supporting clinical trials or literature, and the evidence pack itself assesses the drug–disease link as biologically implausible and likely a knowledge-graph false positive.
+The prediction rests on a model score alone (evidence level L5). There are no clinical trials or publications, and no credible biological mechanism links SMN1 gene replacement to bronchitis. The known hepatotoxicity risk of systemic AAV9 therapy makes the risk-benefit balance unfavourable for this indication.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information — key warnings and contraindications (currently a blocking data gap)
-- Detailed mechanism of action data from DrugBank/manufacturer sources
-- Any drug-specific preclinical or case evidence for a respiratory indication, should new data emerge
-- Re-evaluation only if independent mechanistic or clinical evidence for bronchitis appears — not recommended for further pipeline advancement based on current evidence
+- A plausible mechanistic rationale linking SMN1 gene replacement to bronchitis, supported by preclinical data
+- Mechanism of action data and the approved indication wording from the TGA Product Information
+- Full warnings and contraindications from the TGA-approved Product Information, for safety screening
+- Any registered clinical or published evidence in this indication (none currently identified)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

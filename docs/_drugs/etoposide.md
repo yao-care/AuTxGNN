@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Etoposide
-parent: Moderate Evidence (L3-L4)
-nav_order: 256
-evidence_level: L4
+parent: High Evidence (L1-L2)
+nav_order: 277
+evidence_level: L1
 indication_count: 10
 ---
 
 # Etoposide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,107 +29,127 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Etoposide: From Germ Cell Tumours and Small Cell Lung Cancer to Well-Differentiated Fetal Adenocarcinoma of the Lung
+# Etoposide: From Small Cell Lung Carcinoma and Germ Cell Tumours to Ewing Sarcoma
 
 ## One-Sentence Summary
 
-Etoposide is an established cytotoxic chemotherapy agent (epipodophyllotoxin class / topoisomerase II inhibitor) used internationally for germ cell tumours, small cell lung cancer (SCLC), and lymphomas — although it holds no current TGA registration in Australia.
-The TxGNN model predicts it may be effective for **Well-Differentiated Fetal Adenocarcinoma of the Lung (WDFA)**,
-with **0 clinical trials** and **1 case report publication** currently supporting this specific direction.
+Etoposide is a topoisomerase II inhibitor chemotherapy originally used for small cell lung carcinoma and testicular germ cell tumours (including seminoma, teratoma and yolk sac tumour).
+The TxGNN model predicts it may be effective for **Ewing sarcoma**, with **34 registered clinical trials** and **20 publications** linked to this prediction, including several randomised phase 3 trials.
+Etoposide with ifosfamide is already part of standard Ewing sarcoma regimens internationally, so this prediction largely validates existing practice rather than identifying a new use.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Australia; internationally approved for germ cell tumours, small cell lung cancer, and lymphoma |
-| Predicted New Indication | Well-Differentiated Fetal Adenocarcinoma of the Lung (WDFA) |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
+|------|------|
+| Original Indication | Small cell lung carcinoma, testicular cancer and germ cell tumours (the Australian licence text is not available, so this comes from the knowledge-graph indications) |
+| Predicted New Indication | Ewing sarcoma |
+| TxGNN Prediction Score | 99.85% |
+| Evidence Level | L1 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this dataset. Based on established pharmacological knowledge, Etoposide is a topoisomerase II inhibitor belonging to the epipodophyllotoxin class. It works by stabilising the topoisomerase II–DNA cleavage complex, thereby inducing irreversible double-strand DNA breaks and triggering apoptosis in rapidly proliferating cells. This schedule-dependent mechanism is particularly effective against tumour cells with high mitotic activity.
+Detailed mechanism of action data is not available in the data compiled for this report. Etoposide is well known as a topoisomerase II inhibitor, which causes DNA strand breaks and cell death in rapidly dividing cells. This is consistent with its established activity in small cell lung carcinoma and germ cell tumours.
 
-Well-differentiated fetal adenocarcinoma of the lung (WDFA) is an exceptionally rare monophasic variant of pulmonary blastoma. Its tumour cells retain embryonic fetal lung epithelial characteristics, including active proliferative signalling pathways reminiscent of developing lung tissue. Because topoisomerase II expression is strongly upregulated in rapidly cycling cells, the theoretical basis for sensitivity to Etoposide is biologically plausible. Pulmonary blastoma as a broader entity (rank 3 in this dataset) shares the same embryonic histological features, and isolated case literature has documented etoposide-containing regimen responses in that setting.
+Ewing sarcoma is an aggressive bone and soft tissue cancer of children, adolescents and young adults. Published work notes that it is highly sensitive to genotoxic agents such as etoposide. Ifosfamide plus etoposide is a long-established part of Ewing sarcoma chemotherapy, typically alternating with vincristine, doxorubicin and cyclophosphamide (VDC/IE). A randomised trial in the *New England Journal of Medicine* (2003) showed that adding ifosfamide and etoposide to standard chemotherapy improved outcomes in newly diagnosed disease.
 
-However, this reasoning remains an indirect extrapolation. No dedicated studies of Etoposide in WDFA exist, and the high TxGNN score (99.94%) reflects algorithmic inference from biological graph similarity rather than validated clinical data. WDFA is so rare that dedicated trials are essentially infeasible without international multicentre collaboration. The current evidence does not support clinical use in WDFA outside of a research or compassionate-access framework.
+Other lower-ranked predictions in the data (for example pulmonary blastoma and various rhabdomyosarcoma subtypes) are also plausible but rest on far weaker evidence. Rhabdomyosarcoma (rank 6) also has an L1 evidence label, but etoposide's contribution cannot be separated from combination regimens. This report focuses on the top-evidence candidate, Ewing sarcoma.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials are registered for Etoposide in well-differentiated fetal adenocarcinoma of the lung.
+Many registered trials include etoposide-containing regimens. The most relevant are listed below. In nearly all of them, etoposide is one component of a multi-drug regimen, so its individual contribution cannot be isolated.
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00020566](https://clinicaltrials.gov/study/NCT00020566) | Phase 3 | Unknown | 1200 | EURO-E.W.I.N.G.99: randomised chemotherapy, radiotherapy and stem cell transplant strategies in Ewing sarcoma |
+| [NCT00006734](https://clinicaltrials.gov/study/NCT00006734) | Phase 3 | Completed | 587 | Chemotherapy intensification through interval compression in Ewing sarcoma and related tumours |
+| [NCT01231906](https://clinicaltrials.gov/study/NCT01231906) | Phase 3 | Completed | 642 | Adding vincristine-topotecan-cyclophosphamide to standard five-drug chemotherapy (including etoposide) in non-metastatic disease |
+| [NCT02306161](https://clinicaltrials.gov/study/NCT02306161) | Phase 3 | Active, not recruiting | 312 | Ganitumab added to multi-agent chemotherapy (including etoposide) in metastatic Ewing sarcoma |
+| [NCT02063022](https://clinicaltrials.gov/study/NCT02063022) | Phase 3 | Completed | 278 | Dose intensification versus standard treatment in non-metastatic Ewing sarcoma |
+| [NCT00002516](https://clinicaltrials.gov/study/NCT00002516) | Phase 3 | Unknown | Not reported | EICESS 92: randomised comparison of combination chemotherapy regimens plus surgery and radiotherapy |
+| [NCT02727387](https://clinicaltrials.gov/study/NCT02727387) | Phase 2 | Completed | 155 | High-dose chemotherapy, radiotherapy and consolidation in metastatic Ewing sarcoma |
+| [NCT01864109](https://clinicaltrials.gov/study/NCT01864109) | Phase 2 | Active, not recruiting | 83 | Irinotecan and temozolomide added to high-dose alkylator-based therapy in newly diagnosed Ewing sarcoma |
+| [NCT00002466](https://clinicaltrials.gov/study/NCT00002466) | Phase 2 | Completed | Not reported | Cyclophosphamide, doxorubicin, vincristine, etoposide and ifosfamide followed by resection and radiotherapy |
+| [NCT00014313](https://clinicaltrials.gov/study/NCT00014313) | Phase 2 | Terminated | 3 | Weekly cisplatin with oral etoposide in metastatic Ewing sarcoma/PNET; terminated early |
+
+Trial counts and details are drawn from the data compiled for this report; several additional smaller or terminated trials are not listed here.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [33107372](https://pubmed.ncbi.nlm.nih.gov/33107372/) | 2020 | Case Report + Literature Review | The Journal of International Medical Research | Classic biphasic pulmonary blastoma case; no standard treatment guidelines exist due to rarity. Patient received nedaplatin plus paclitaxel as adjuvant chemotherapy; on disease recurrence, further chemotherapy was administered. Etoposide not directly used in this case, but confirms the broader pulmonary blastoma/WDFA chemotherapy landscape |
+|------|-----|------|------|---------|
+| [12594313](https://pubmed.ncbi.nlm.nih.gov/12594313/) | 2003 | RCT | N Engl J Med | Adding ifosfamide and etoposide to standard chemotherapy in newly diagnosed Ewing sarcoma/PNET of bone |
+| [36522207](https://pubmed.ncbi.nlm.nih.gov/36522207/) | 2022 | RCT (Phase 3) | Lancet | EE2012: comparison of two chemotherapy regimens in newly diagnosed Ewing sarcoma |
+| [23091096](https://pubmed.ncbi.nlm.nih.gov/23091096/) | 2012 | RCT | J Clin Oncol | Interval-compressed chemotherapy (alternating VDC and ifosfamide-etoposide) in localised Ewing sarcoma |
+| [36669140](https://pubmed.ncbi.nlm.nih.gov/36669140/) | 2023 | RCT (Phase 3) | J Clin Oncol | Ganitumab with interval-compressed chemotherapy in metastatic Ewing sarcoma |
+| [31952545](https://pubmed.ncbi.nlm.nih.gov/31952545/) | 2020 | RCT protocol | Trials | Euro Ewing 2012 international randomised trial protocol |
+| [37403815](https://pubmed.ncbi.nlm.nih.gov/37403815/) | 2023 | Consensus guideline | Cancer | National Ewing Sarcoma Tumor Board consensus recommendations |
+| [39713774](https://pubmed.ncbi.nlm.nih.gov/39713774/) | 2024 | Retrospective analysis | Sarcoma | Oral etoposide in 33 adolescent and adult patients with relapsed or refractory Ewing sarcoma at Peter MacCallum Cancer Centre (Australia) |
+| [26304893](https://pubmed.ncbi.nlm.nih.gov/26304893/) | 2015 | Review | J Clin Oncol | Current management of Ewing sarcoma and future collaborative approaches |
+| [20152770](https://pubmed.ncbi.nlm.nih.gov/20152770/) | 2010 | Review | Lancet Oncol | Overview of Ewing sarcoma treatment and outcomes |
+| [29513652](https://pubmed.ncbi.nlm.nih.gov/29513652/) | 2018 | Preclinical | Nature | EWS-FLI1 causes R-loops and blocks BRCA1 repair, helping explain Ewing sarcoma's sensitivity to etoposide |
 
 ---
 
 ## Australia Market Information
 
-Etoposide currently has **no ARTG registration** and is not listed as a marketed product in Australia based on available data. Clinicians in Australia who require Etoposide for patients would need to access it through the TGA's **Special Access Scheme (SAS Category B or C)** or via an **Authorised Prescriber** arrangement, using international regulatory approvals (e.g., FDA, EMA) as the reference safety and efficacy basis.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1389D | Vepesid | Capsule 100 mg | Not available in the data compiled for this report |
 
-> **Note for clinicians:** ARTG status should be independently verified via the TGA's official ARTG public summary ([https://www.tga.gov.au/resources/artg](https://www.tga.gov.au/resources/artg)), as registration status may change.
+Only one ARTG entry (oral capsule) was identified. Intravenous etoposide products were not captured in the data, so availability of other formulations should be checked against the ARTG.
 
 ---
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Epipodophyllotoxin class (topoisomerase II inhibitor) |
-| Myelosuppression Risk | **High** — Neutropenia is the principal dose-limiting toxicity; thrombocytopenia and anaemia are common; febrile neutropenia risk is significant, particularly with multi-day IV regimens |
-| Emetogenicity Classification | Low to moderate (IV formulation); moderate GI toxicity (nausea, vomiting, mucositis) more frequent with oral dosing |
-| Monitoring Items | FBC with differential count (at least weekly during treatment cycles), liver function tests (ALT, AST, bilirubin), renal function (eGFR), blood pressure during IV infusion (hypotension risk), and cumulative haematological toxicity assessment |
-| Handling Protection | Must be prepared and administered in accordance with cytotoxic drug handling regulations (SHPN/State health guidelines and ISOPP standards); biological safety cabinet required; personal protective equipment mandatory |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (topoisomerase II inhibitor, epipodophyllotoxin class) |
+| Myelosuppression Risk | High. Neutropenia, leukopenia, thrombocytopenia and anaemia are listed as contraindicated or high-risk conditions in the knowledge graph |
+| Emetogenicity Classification | Low to moderate (oral and intravenous administration may differ; check the Product Information) |
+| Monitoring Items | Full blood count with differential, liver and renal function, electrolytes |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
+
+Please refer to the Product Information (PI) warnings and precautions for definitive guidance.
 
 ---
 
 ## Safety Considerations
 
-Specific TGA-approved Product Information (PI) and TFDA prescribing information warnings are not available in this dataset. Please refer to the most current **internationally recognised Product Information** (FDA prescribing information, EMA SmPC, or equivalent) for complete safety information including:
+No label-based warnings or contraindications were available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for formal safety information.
 
-- Bone marrow suppression monitoring protocols
-- Secondary malignancy risk (treatment-related myeloid leukaemia — a known long-term risk with topoisomerase II inhibitors)
-- Hypersensitivity reactions
-- Reproductive toxicity and teratogenicity
-- Drug–drug interaction profile
+- **Knowledge-graph contraindication signals** (not label text): thrombocytopenia, neutropenia, agranulocytosis, anaemia, leukopenia, interstitial lung disease, pulmonary fibrosis, impaired renal function, acidosis and metabolic acidosis, and drug-induced liver injury.
+- **Secondary malignancy**: the evidence compiled notes a risk of secondary leukaemia with epipodophyllotoxins.
+- **Drug interactions**: 100 interactions were identified. Those rated Moderate include aprepitant, rolapitant, metronidazole, tinidazole, eliglustat, rosuvastatin and simvastatin. Levofloxacin is rated Minor. Others (for example cimetidine, doxycycline, amphotericin B, morphine and pantoprazole) have no assigned severity. The full list should be reviewed for each patient.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The TxGNN model generates a high algorithmic prediction score (99.94%) for Etoposide in well-differentiated fetal adenocarcinoma of the lung; however, this is supported by a single tangentially related case report and a biologically plausible but unvalidated mechanistic hypothesis. There is insufficient clinical evidence to support use in this indication, and the extreme rarity of WDFA makes prospective trial design highly challenging.
+Multiple randomised phase 3 trials and publications support etoposide-containing regimens (with ifosfamide) in Ewing sarcoma, and this use is already recognised in consensus guidelines. It is better viewed as validation of existing practice than as a novel repurposing. Etoposide's effect cannot be isolated from the combination regimens, and it carries significant myelosuppression and secondary malignancy risks.
 
 **To proceed, the following is needed:**
-- Histopathological studies confirming topoisomerase II overexpression in WDFA tumour tissue
-- Prospective case series or international registry data on WDFA treated with etoposide-containing regimens
-- Consideration of compassionate access via TGA Special Access Scheme if a patient-level need is identified
-- Collaboration with international rare tumour networks (e.g., EORTC Rare Cancers Working Group) to accumulate sufficient case numbers
-- Formal MOA data (DrugBank) retrieval to strengthen the mechanistic rationale
+- Confirmation of the Australian approved indications, as the ARTG indication text for Vepesid was not available and the Ewing sarcoma use may be off-label
+- Review of intravenous etoposide products on the ARTG, since only an oral capsule was identified
+- Mechanism of action data and Product Information warnings and contraindications (both are data gaps)
+- A myelosuppression and secondary malignancy monitoring plan, plus interaction management
+- Review against local paediatric and adolescent/young adult sarcoma protocols and Australian practice data, such as the Peter MacCallum oral etoposide series
 
----
-
-> **Additional Note — Broader Prediction Landscape:** While WDFA ranks #1 by TxGNN score, clinicians should note that this dataset also contains **Level 1 evidence (L1 / Proceed with Guardrails)** predictions for **Ewing Sarcoma** (rank 4) and **Rhabdomyosarcoma** (rank 6), where Etoposide is already a core component of established chemotherapy regimens (VDC/IE and IRS protocols respectively). These indications may represent more actionable near-term clinical translation opportunities.
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application. Produced by AuTxGNN — Drug Repurposing Research System (data cutoff: 5 April 2026).*
+**Other predictions:** All other predicted indications in the data (pulmonary blastoma, primary pulmonary lymphoma, and rhabdomyosarcoma subtypes) should be treated as **Hold** or research questions. Evidence for them is limited to case reports, indirect literature or model scores alone. Rhabdomyosarcoma overall has trial support but is also confounded by combination regimens.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

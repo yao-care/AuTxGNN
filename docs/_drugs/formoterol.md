@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Formoterol
-parent: High Evidence (L1-L2)
-nav_order: 294
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 317
+evidence_level: L5
 indication_count: 10
 ---
 
 # Formoterol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Formoterol: From Long-Acting Bronchodilator Therapy to Obstructive Lung Disease (COPD)
+# Formoterol: From Pulmonary Emphysema and Asthma to Respiratory Malformation
 
 ## One-Sentence Summary
 
-> Formoterol is a long-acting beta2-adrenergic agonist (LABA) bronchodilator already used worldwide in asthma and COPD combination inhalers, though no formal original-indication record was returned for this jurisdiction in the evidence pack.
-> Among the ten TxGNN-predicted indications reviewed, **Obstructive Lung Disease (COPD)** carries by far the strongest supporting evidence, with **50 clinical trials** and **20 publications** identified, including multiple landmark Phase 3 mortality/exacerbation trials (ETHOS, KRONOS, FULFIL).
-> Note: TxGNN's single highest-scoring raw prediction, "respiratory malformation," was reviewed and excluded from this report — the evidence pack's own analysis flags it as a knowledge-graph node-matching artefact, since the underlying trials and literature are entirely about asthma/COPD, not structural airway malformation.
+Formoterol is a long-acting beta2-agonist bronchodilator, originally used for pulmonary emphysema and asthma.
+The TxGNN model's top-ranked prediction is **respiratory malformation**, but this has **no clinical trials** and only loosely related literature supporting it.
+Evidence is much stronger for other predicted respiratory indications (obstructive lung disease, asthma), though these are already established uses rather than novel repurposing.
 
 ---
 
@@ -43,78 +43,115 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this evidence pack (Data Gap); formoterol is a well-established LABA bronchodilator for asthma/COPD based on the trial and literature evidence contained in this pack |
-| Predicted New Indication | Obstructive Lung Disease (COPD) |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L1 |
-| Australia Market Status | Not Marketed (0 ARTG entries recorded) |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Pulmonary emphysema, intrinsic asthma, allergic asthma (the Australian licence record carries no indication text) |
+| Predicted New Indication | Respiratory malformation |
+| TxGNN Prediction Score | 99.92% |
+| Evidence Level | L5 (model prediction only) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not returned from the source query for this evidence pack (Data Gap). Based on the extensive trial and literature evidence it does contain, formoterol is a long-acting beta2-adrenergic agonist (LABA) that activates β2 receptors on airway smooth muscle, raising cAMP/PKA signalling to produce rapid-onset, long-duration (12+ hour) bronchodilation. It is a core component of numerous fixed-dose combination inhalers (e.g., budesonide/formoterol, beclometasone/formoterol, glycopyrronium/formoterol, aclidinium/formoterol) used globally in obstructive airway disease.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, formoterol is a long-acting beta2-adrenoceptor agonist that relaxes airway smooth muscle and produces bronchodilation lasting about 12 hours. Its efficacy in asthma and COPD-type disease is well established.
 
-Obstructive Lung Disease (a category that principally captures COPD) shares the same underlying pathophysiology that formoterol's LABA mechanism directly targets — airflow limitation from bronchial smooth-muscle tone and airway remodelling. This is reflected in landmark completed Phase 3 trials such as ETHOS, KRONOS and FULFIL, which evaluated formoterol-containing triple/dual therapies against hard clinical endpoints (FEV1, exacerbation rate, and — notably in ETHOS — all-cause mortality).
+For **respiratory malformation**, there is no credible mechanistic link. A bronchodilator cannot be expected to correct structural congenital malformations. The retrieved literature concerns asthma and COPD, not malformations, and the high score appears to reflect loose ontology proximity in the knowledge graph rather than biology.
 
-By contrast, the model's single top-ranked raw output, "respiratory malformation," has no mechanistic plausibility: it is a structural congenital anomaly, not a functional airway-tone disorder, and every trial/publication returned for it is actually about asthma, COPD or Symbicort — confirming this is very likely an ontology-adjacency artefact in the knowledge graph rather than a genuine signal. The other TxGNN-ranked candidates with no supporting trials or literature (Rienhoff syndrome, interstitial emphysema, hyperlucent lung, compensatory emphysema, asthma-related genetic susceptibility) are model-score-only predictions with no clinical or mechanistic basis and are not carried forward in this report.
+Other predictions in the list are more informative for context:
+- **Obstructive lung disease** and **asthma** (ranks 4 and 5) are well supported, but they overlap with the drug's original indications. They are established uses, not new repurposing.
+- **Bronchitis** (rank 2) is supported indirectly through COPD trials.
+- Remaining predictions (Rienhoff syndrome, atopic eczema, interstitial emphysema, hyperlucent lung, compensatory emphysema, asthma-related traits) have no plausible mechanism and no supporting trials.
 
 ---
 
 ## Clinical Trial Evidence
 
+Currently no related clinical trials are registered for respiratory malformation.
+
+For context, the best-supported predictions by trial evidence are shown below.
+
+**Obstructive lung disease (COPD) – selected Phase 3 trials**
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT06744374](https://clinicaltrials.gov/study/NCT06744374) | N/A (observational) | Completed | 22,369 | Real-world mortality/cardiopulmonary event comparison, single-inhaler (BGF) vs multiple-inhaler triple therapy in COPD |
-| [NCT00206154](https://clinicaltrials.gov/study/NCT00206154) | Phase 3 | Completed | 1,500 | Symbicort pMDI vs formoterol, budesonide, combination and placebo in COPD maintenance |
-| [NCT07069829](https://clinicaltrials.gov/study/NCT07069829) | N/A (observational) | Recruiting | 1,400 | Real-world clinical/patient-reported outcomes, Breztri/Trixeo triple therapy in moderate-severe COPD |
-| [NCT00793624](https://clinicaltrials.gov/study/NCT00793624) | Phase 3 | Completed | 906 | 48-week long-term efficacy/safety of once-daily BI 1744 CL vs twice-daily Foradil (formoterol) in COPD |
-| [NCT03662711](https://clinicaltrials.gov/study/NCT03662711) | Phase 4 | Terminated | 843 | 1-year LABD ± ICS effect on re-hospitalisation/death in elderly COPD patients (graded directly relevant) |
-| [NCT03963167](https://clinicaltrials.gov/study/NCT03963167) | N/A (observational) | Completed | 661 | 12-month real-world health status and adherence with Trimbow (BDP/FF/G) in COPD |
-| [NCT05311306](https://clinicaltrials.gov/study/NCT05311306) | N/A (observational) | Completed | 475 | Real-world change in clinical/patient-reported outcomes with TRIXEO (budesonide/glycopyrronium/formoterol) in COPD |
-| [NCT00421122](https://clinicaltrials.gov/study/NCT00421122) | Phase 3 | Completed | 315 | Symbicort Turbuhaler vs Pulmicort Turbuhaler + Bricasol pMDI in Chinese COPD patients |
-| [NCT00252785](https://clinicaltrials.gov/study/NCT00252785) | Phase 3 | Completed | 340 | Symbicort Turbuhaler vs Pulmicort Turbuhaler + Theolong tablet, Japanese patients (graded directly relevant) |
-| [NCT02347072](https://clinicaltrials.gov/study/NCT02347072) | Phase 3 | Completed | 80 | 24-hour lung function profile of PT003 vs Spiriva Respimat vs placebo in moderate-to-very-severe COPD |
+| [NCT04320342](https://clinicaltrials.gov/study/NCT04320342) | Phase 3 | Completed | 3406 | 52-week study of beclomethasone/formoterol/glycopyrronium triple therapy vs beclomethasone/formoterol in COPD |
+| [NCT03162055](https://clinicaltrials.gov/study/NCT03162055) | Phase 3 | Completed | 1119 | Glycopyrronium/formoterol vs umeclidinium/vilanterol over 24 weeks in COPD (AERISTO) |
+| [NCT03028701](https://clinicaltrials.gov/study/NCT03028701) | Phase 4 | Completed | 33 | Bronchodilator effect of formoterol/budesonide 12/400 mcg in COPD |
+
+**Asthma – selected Phase 3 trials**
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00381485](https://clinicaltrials.gov/study/NCT00381485) | Phase 3 | Completed | 834 | Mometasone/formoterol vs mometasone alone over 12 weeks in persistent asthma |
+| [NCT00651651](https://clinicaltrials.gov/study/NCT00651651) | Phase 3 | Completed | 450 | Budesonide/formoterol vs its components in children and adults with asthma |
+| [NCT01167010](https://clinicaltrials.gov/study/NCT01167010) | Phase 3 | Completed | 552 | Non-inferiority of a formoterol/budesonide inhalation capsule in asthma |
+| [NCT04233190](https://clinicaltrials.gov/study/NCT04233190) | Phase 3 | Completed | 472 | Non-inferiority of a formoterol/budesonide product in moderate to severe persistent asthma |
+
+**Bronchitis (indirect, COPD-based)**
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00064415](https://clinicaltrials.gov/study/NCT00064415) | Phase 3 | Completed | 799 | 12-month safety study of arformoterol (a formoterol enantiomer) in COPD |
+| [NCT00250679](https://clinicaltrials.gov/study/NCT00250679) | Phase 3 | Completed | 443 | 6-month safety study of arformoterol in COPD |
+
+No ANZCTR identifiers were available in the data compiled for this report.
 
 ---
 
 ## Literature Evidence
 
+For respiratory malformation, the retrieved publications concern COPD and asthma rather than malformations, so they do not support this prediction. Context from the better-supported predictions:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33252985](https://pubmed.ncbi.nlm.nih.gov/33252985/) | 2021 | RCT | Am J Respir Crit Care Med | ETHOS trial: budesonide/glycopyrrolate/formoterol reduced all-cause mortality vs dual therapy in COPD |
-| [30232048](https://pubmed.ncbi.nlm.nih.gov/30232048/) | 2018 | RCT | Lancet Respir Med | KRONOS trial: triple therapy (BGF) vs dual therapies in moderate-to-very-severe COPD |
-| [28375647](https://pubmed.ncbi.nlm.nih.gov/28375647/) | 2017 | RCT | Am J Respir Crit Care Med | FULFIL trial: once-daily triple therapy vs dual ICS/LABA in COPD |
-| [39213002](https://pubmed.ncbi.nlm.nih.gov/39213002/) | 2025 | Cohort | Am J Respir Crit Care Med | Post hoc ETHOS analysis: effect of triple therapy on cardiovascular/severe cardiopulmonary events |
-| [33273813](https://pubmed.ncbi.nlm.nih.gov/33273813/) | 2020 | Review | Int J Chron Obstruct Pulmon Dis | Overview of formoterol pharmacology and efficacy in COPD |
-| [35512458](https://pubmed.ncbi.nlm.nih.gov/35512458/) | 2022 | Analysis | Respir Med | ETHOS sub-analysis: prior ICS use and benefits of BGF on exacerbations, symptoms, QoL and lung function |
-| [39420338](https://pubmed.ncbi.nlm.nih.gov/39420338/) | 2024 | RCT | Respir Res | TRIFORCE trial: BDP/FF/G effects on lung hyperinflation and exercise endurance in COPD |
-| [40619503](https://pubmed.ncbi.nlm.nih.gov/40619503/) | 2025 | Comparative effectiveness | Adv Ther | FF/UMEC/VI vs BUD/GLY/FORM in COPD patients stepping up from dual therapy |
-| [31951778](https://pubmed.ncbi.nlm.nih.gov/31951778/) | 2020 | Review | Expert Rev Clin Pharmacol | Aclidinium bromide/formoterol fumarate for maintenance treatment of COPD |
-| [26049917](https://pubmed.ncbi.nlm.nih.gov/26049917/) | 2015 | Review | Eur J Intern Med | Extensive review of long-acting bronchodilators formoterol and salmeterol in COPD |
+| [32579807](https://pubmed.ncbi.nlm.nih.gov/32579807/) | 2020 | RCT | N Engl J Med | Triple inhaled therapy at two glucocorticoid doses in moderate-to-very-severe COPD |
+| [33252985](https://pubmed.ncbi.nlm.nih.gov/33252985/) | 2021 | RCT (post hoc) | Am J Respir Crit Care Med | Reduced all-cause mortality with budesonide/glycopyrrolate/formoterol in COPD (ETHOS) |
+| [30232048](https://pubmed.ncbi.nlm.nih.gov/30232048/) | 2018 | RCT | Lancet Respir Med | Triple therapy vs dual therapies in COPD (KRONOS) |
+| [29768149](https://pubmed.ncbi.nlm.nih.gov/29768149/) | 2018 | RCT | N Engl J Med | As-needed budesonide-formoterol in mild asthma |
+| [29768147](https://pubmed.ncbi.nlm.nih.gov/29768147/) | 2018 | RCT | N Engl J Med | As-needed budesonide-formoterol vs maintenance budesonide in mild asthma |
+| [31112386](https://pubmed.ncbi.nlm.nih.gov/31112386/) | 2019 | RCT | N Engl J Med | Pragmatic trial of as-needed budesonide-formoterol in mild asthma |
+| [41033330](https://pubmed.ncbi.nlm.nih.gov/41033330/) | 2025 | RCT | Lancet | Budesonide-formoterol vs salbutamol as reliever in children with mild asthma (CARE) |
+| [31015757](https://pubmed.ncbi.nlm.nih.gov/31015757/) | 2019 | Meta-analysis | Int J Chron Obstruct Pulmon Dis | Risks of budesonide/formoterol in stable COPD |
+| [35034195](https://pubmed.ncbi.nlm.nih.gov/35034195/) | 2022 | Cohort | Eur J Appl Physiol | Compensatory responses to mechanical abnormalities in COPD during sleep (top-ranked prediction; indirect) |
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14419X | Foradile | Capsule containing powder for oral inhalation, formoterol fumarate dihydrate 12 micrograms (for use in Foradile Aerolizer) | Not stated in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No key warnings, contraindications, or drug-interaction data were returned for formoterol in this evidence pack (source query status: not found), and no ARTG-registered Australian product record was located to cross-check against.
+No label warnings or contraindication text were available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
+
+**Contraindication-related signals from the knowledge graph (not label text):** hypertension, long QT syndrome, epilepsy, liver disease, gallbladder disease, and several pituitary and hypogonadotropic disorders are flagged. These should be verified against the PI.
+
+**Drug interactions (100 recorded; examples):**
+- **Moderate:** acarbose, famotidine, clarithromycin, cisapride, dolasetron (QT-related concern), ephedrine, isometheptene, diethylpropion, and several antidiabetic agents (albiglutide, alogliptin, canagliflozin, dapagliflozin, dulaglutide, empagliflozin, chlorpropamide).
+- **Minor:** corticosteroids (beclomethasone, betamethasone, budesonide, dexamethasone).
+
+**Guardrail from the asthma evidence:** long-acting beta2-agonist monotherapy in asthma carries a safety warning, so formoterol should be combined with an inhaled corticosteroid.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold** (for respiratory malformation)
 
 **Rationale:**
-Multiple completed Phase 3 RCTs (ETHOS, KRONOS, FULFIL) plus a large real-world evidence base directly support formoterol-containing regimens in obstructive lung disease/COPD, giving this candidate the highest evidence level (L1) and most mature decision stage (S3) of all ten TxGNN outputs reviewed. However, formoterol currently has no ARTG-registered product recorded in this dataset and no TFDA-equivalent safety/warning data was retrievable, so this should be treated as evidence-supported guidance pending local regulatory confirmation rather than a ready-to-implement recommendation.
+The top-ranked prediction has no clinical trials, no relevant literature, and no plausible mechanism for a bronchodilator. The score appears to be an ontology artefact. Obstructive lung disease and asthma carry strong evidence (L1, Proceed with Guardrails), but they are already approved, guideline-endorsed uses, so they do not represent new repurposing.
 
 **To proceed, the following is needed:**
-- Confirmation of current Australian ARTG registration status and product listings for formoterol (0 entries returned here appears to be a data-gap rather than a true absence of marketed product)
-- Product Information (PI) warnings, contraindications and drug-interaction data
-- Formal mechanism-of-action record from DrugBank/equivalent source
-- Clarification of why TxGNN's top-ranked output ("respiratory malformation") is a knowledge-graph artefact, to avoid this recurring in automated triage of future candidates
+- Mechanism of action data (DrugBank) and a defensible biological rationale, if any further work on respiratory malformation is planned
+- TGA Product Information warnings and contraindications (currently a blocking gap for safety screening)
+- Approved indication text for the Foradile ARTG entry
+- If a novel use is sought, a review of lower-ranked predictions or of bronchitis (chronic bronchitis specifically), where evidence is indirect but plausible
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

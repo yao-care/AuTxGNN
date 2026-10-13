@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Niraparib
-parent: High Evidence (L1-L2)
-nav_order: 471
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 504
+evidence_level: L5
 indication_count: 10
 ---
 
 # Niraparib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,116 +29,123 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Niraparib: From Ovarian Cancer Maintenance Therapy to Cystic Neoplasm
+# Niraparib: From Ovarian and Peritoneal Cancer to Cystic Neoplasm
 
 ## One-Sentence Summary
 
-Niraparib is a PARP inhibitor established as maintenance therapy for platinum-sensitive recurrent ovarian, fallopian tube, and primary peritoneal cancer. Among 10 TxGNN-predicted indications for this drug, **Cystic Neoplasm** (rank 2) is the only candidate with substantive supporting evidence — **3 clinical trials** and **9 publications** — while the remaining 9 candidates (including the top-ranked "epiglottis neoplasm") have no clinical trial or literature support at all.
-
----
+Niraparib is a PARP inhibitor originally used for epithelial ovarian and primary peritoneal cancers.
+The TxGNN model predicts it may be effective for **Cystic Neoplasm**, a broad label.
+The supporting evidence is **3 clinical trials** (1 recruiting Phase 2, 1 terminated, 1 withdrawn) and **10 publications**, most of which are preclinical or biomarker studies focused on serous gynaecological carcinomas.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from Australian regulatory data (niraparib is not TGA-registered); internationally approved as maintenance treatment for platinum-sensitive recurrent ovarian, fallopian tube, or primary peritoneal cancer (per clinical trial evidence in this pack, not TGA PI) |
-| Predicted New Indication | Cystic Neoplasm |
-| TxGNN Prediction Score | 99.99% (0.999876) |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed (0 ARTG entries) |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Peritoneal cancer, primary peritoneal carcinoma, and malignant epithelial tumour of the ovary (from the knowledge graph; no approved indication text is available for the ARTG entry) |
+| Predicted New Indication | Cystic neoplasm |
+| TxGNN Prediction Score | 99.99% |
+| Evidence Level | L2 (as scored in the data; see note below) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
----
+**Note on evidence level:** The only Phase 2/3 trial (NCT04159155) was terminated after 11 participants, and the remaining evidence consists of a recruiting Phase 2 trial without results, preclinical work and a case report. On a strict reading of the evidence rules, no completed RCT supports this indication, so the evidence is weak and closer to L4 than to a true L2.
 
 ## Why is This Prediction Reasonable?
 
-Structured mechanism-of-action data for niraparib is flagged as a data gap in this evidence pack. However, the clinical trial and literature evidence independently collected confirms niraparib is a poly(ADP-ribose) polymerase (PARP) inhibitor that exploits synthetic lethality in tumours with homologous recombination deficiency (HRD), and is already an FDA-recognised maintenance therapy for recurrent epithelial ovarian, fallopian tube, and primary peritoneal cancer.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on general knowledge, niraparib is a PARP inhibitor. PARP inhibitors exploit synthetic lethality in tumours with homologous recombination deficiency (HRD), such as BRCA-mutated or HRD-positive high-grade serous carcinomas.
 
-"Cystic Neoplasm" is a broad disease label, but the actual evidence retrieved for this candidate is concentrated on high-grade serous ovarian carcinoma and uterine/endometrial serous carcinoma — both cystic, adnexal tumour types that are molecularly closely related to niraparib's established indication (shared chromosomal instability, comparable HRD prevalence, and an overlapping treatment paradigm with HGSOC). This makes the prediction a mechanistically coherent extension of niraparib's known pharmacology rather than a speculative label match.
+Ovarian and primary peritoneal serous carcinomas are often HRD-positive, which is the basis of niraparib's established use. The trials and publications retrieved cluster on closely related serous gynaecological cancers: endometrial/uterine serous carcinoma and high-grade serous ovarian carcinoma. These share molecular features with the original indications, including chromosomal instability and frequent HRD. This makes a mechanistic extension plausible.
 
-By contrast, most of the other TxGNN-ranked candidates for this drug (see note near the end of this report) have no clinical or literature evidence at all, despite similar TxGNN scores — underscoring that TxGNN score alone should not be used to prioritise candidates without evidence triangulation.
-
----
+However, "cystic neoplasm" is a broad and heterogeneous label. The evidence applies specifically to serous gynaecological carcinomas, not to cystic neoplasms in general, so the link is indirect.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04716686](https://clinicaltrials.gov/study/NCT04716686) | Phase 2 | Recruiting | 83 | Multi-centre, open-label study of niraparib monotherapy as maintenance/recurrent treatment for endometrial serous carcinoma, based on its molecular similarity to high-grade serous ovarian carcinoma (Grade A relevance) |
-| [NCT04159155](https://clinicaltrials.gov/study/NCT04159155) | Phase 2/3 | Terminated | 11 | Canadian umbrella trial assessing front-line and maintenance treatment (including niraparib-relevant arms) in serous/p53-mutant endometrial cancer; terminated early with very small enrolment (Grade B relevance) |
-| [NCT05289648](https://clinicaltrials.gov/study/NCT05289648) | Early Phase 1 | Withdrawn | 0 | Preoperative niraparib in high-grade endometrial cancer; withdrawn before enrolment, no data generated (Grade C relevance) |
+| [NCT04716686](https://clinicaltrials.gov/study/NCT04716686) | Phase 2 | Recruiting | 83 | Niraparib monotherapy as maintenance and recurrent treatment in endometrial serous carcinoma. The most direct evidence, but no results are available. |
+| [NCT04159155](https://clinicaltrials.gov/study/NCT04159155) | Phase 2/3 | Terminated | 11 | Multi-arm randomised trial of front-line and maintenance treatment in serous or p53-mutant endometrial cancer. Terminated early; unlikely to give interpretable efficacy data. |
+| [NCT05289648](https://clinicaltrials.gov/study/NCT05289648) | Early Phase 1 | Withdrawn | 0 | Preoperative niraparib in high-grade endometrial cancer. Withdrawn before enrolment; provides no evidence. |
 
----
+No ANZCTR trial identifiers were found in the data compiled for this report.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40473279](https://pubmed.ncbi.nlm.nih.gov/40473279/) | 2025 | Cohort (protocol) | BMJ Open | Phase 2 study protocol for niraparib maintenance in stage III/IV chemo-naïve or platinum-sensitive recurrent uterine serous carcinoma, a poor-prognosis endometrial cancer subtype |
-| [34321239](https://pubmed.ncbi.nlm.nih.gov/34321239/) | 2021 | Cohort | Cancer Research | Loss of RAD51C promoter methylation drives PARP inhibitor resistance in HGSOC PDX models, informing biomarker-based patient selection for niraparib |
-| [41323499](https://pubmed.ncbi.nlm.nih.gov/41323499/) | 2025 | Review | Pathology Oncology Research | Comprehensive genomic profiling for homologous recombination deficiency to guide PARP inhibitor therapy decisions in ovarian cancer |
-| [41214101](https://pubmed.ncbi.nlm.nih.gov/41214101/) | 2025 | Review | Scientific Reports | Claudin-4 regulates genome stability and immune evasion in HGSOC, relevant to PARP inhibitor and immune-based combination strategies |
-| [41520277](https://pubmed.ncbi.nlm.nih.gov/41520277/) | 2026 | Review | Cancer Biology & Therapy | Reviews carboplatin + PARP inhibitor combinations (olaparib approved for BRCA1/2-mutated HGSC; niraparib approved for platinum-sensitive recurrent disease) using spheroid/organoid models |
-| [31851805](https://pubmed.ncbi.nlm.nih.gov/31851805/) | 2019 | Review | New England Journal of Medicine | Personalised medicine approaches for primary treatment of serous ovarian cancer |
-| [40702505](https://pubmed.ncbi.nlm.nih.gov/40702505/) | 2025 | Review | Journal of Ovarian Research | Identifies cancer stem cell-based molecular subtypes and a prognostic model in HGSOC |
-| [41465250](https://pubmed.ncbi.nlm.nih.gov/41465250/) | 2025 | Review | International Journal of Molecular Sciences | Proteomic profiling of poly-pharmacological effects of PARP inhibitors (olaparib, niraparib, rucaparib) in HGSOC cells, relevant to adverse effect mechanisms |
-| [31466953](https://pubmed.ncbi.nlm.nih.gov/31466953/) | 2019 | Case Report | BMJ Case Reports | Case of niraparib maintenance therapy in an ovarian cancer patient with brain metastases |
-
----
+| [40473279](https://pubmed.ncbi.nlm.nih.gov/40473279/) | 2025 | Clinical trial protocol | BMJ Open | Phase 2 protocol for niraparib maintenance in stage III/IV or recurrent uterine serous carcinoma. |
+| [31466953](https://pubmed.ncbi.nlm.nih.gov/31466953/) | 2019 | Case report | BMJ Case Reports | Niraparib maintenance in a patient with ovarian cancer and brain metastases. |
+| [41323499](https://pubmed.ncbi.nlm.nih.gov/41323499/) | 2025 | Cohort/biomarker | Pathol Oncol Res | Comprehensive genomic profiling for HRD to guide PARP inhibitor recommendations in ovarian cancer. |
+| [42442041](https://pubmed.ncbi.nlm.nih.gov/42442041/) | 2026 | Real-world cohort | Gynecol Oncol | Real-world HRD testing in BRCA1/2 wild-type high-grade serous carcinoma; MYC amplification explored as a surrogate marker. |
+| [42157333](https://pubmed.ncbi.nlm.nih.gov/42157333/) | 2026 | Cohort/predictive model | Clin Epigenetics | HRR gene promoter methylation nomogram to predict PARP inhibitor efficacy and progression-free survival in HGSOC. |
+| [41520277](https://pubmed.ncbi.nlm.nih.gov/41520277/) | 2026 | Preclinical | Cancer Biol Ther | Carboplatin plus PARP inhibitor combination tested in HGSC spheroids and organoids. |
+| [34321239](https://pubmed.ncbi.nlm.nih.gov/34321239/) | 2021 | Preclinical | Cancer Res | Loss of RAD51C promoter methylation causes PARP inhibitor resistance in HGSC xenograft models. |
+| [41465250](https://pubmed.ncbi.nlm.nih.gov/41465250/) | 2025 | Preclinical | Int J Mol Sci | Proteomic analysis of the poly-pharmacological effects of PARP inhibitors in HGSOC cells. |
+| [41214101](https://pubmed.ncbi.nlm.nih.gov/41214101/) | 2025 | Preclinical | Sci Rep | Claudin-4 as a regulator of genome stability and immune evasion in HGSC. |
+| [40702505](https://pubmed.ncbi.nlm.nih.gov/40702505/) | 2025 | Bioinformatic/preclinical | J Ovarian Res | Cancer stem cell-based subtypes and prognostic model in HGSOC. |
 
 ## Australia Market Information
 
-Niraparib currently has **no ARTG entries** — it is not registered or marketed in Australia based on the data available in this evidence pack.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14172X | Zejula | Tablet 100 mg (as tosilate monohydrate) | Not available in the data compiled for this report |
 
 ## Cytotoxicity
 
-Niraparib is an antineoplastic agent (PARP inhibitor), so this section applies.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (PARP inhibitor), not conventional cytotoxic chemotherapy |
-| Myelosuppression Risk | PARP inhibitors as a class are associated with haematological toxicity (anaemia, thrombocytopenia, neutropenia); drug-specific severity data was not available in this evidence pack — please refer to the Product Information (PI) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | FBC with differential; liver and renal function |
+| Cytotoxicity Classification | Targeted therapy (PARP inhibitor) |
+| Myelosuppression Risk | Medium to high. Haematological toxicity is a recognised concern for this drug class (for example anaemia, thrombocytopenia, neutropenia). |
+| Emetogenicity Classification | Low to medium |
+| Monitoring Items | FBC (with differential), blood pressure, and liver and renal function. Please refer to the Product Information (PI) for the monitoring schedule. |
 | Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
-
----
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+Key warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for safety information.
 
----
+**Drug interactions:** An interaction screen returned 100 potential interactions. The first 20 reviewed include the following.
 
-## Other TxGNN-Predicted Candidates (Same Drug)
+- **Major:**
+  - Deferiprone
+  - Samarium (153Sm) lexidronam
+- **Moderate, antithrombotic and antiplatelet agents (bleeding and haematological considerations):**
+  - Acetylsalicylic acid
+  - Abciximab
+  - Alteplase
+  - Antithrombin III human
+  - Apixaban
+  - Betrixaban
+  - Bivalirudin
+  - Cangrelor
+  - Caplacizumab
+  - Cilostazol
+  - Dipyridamole
+- **Moderate, radiopharmaceuticals and others:**
+  - Iobenguane (I-131)
+  - Ibritumomab tiuxetan
+  - Tositumomab and Tositumomab (I-131)
+  - Strontium chloride Sr-89
+  - Palifermin
+  - Rolapitant
 
-For context, this evidence pack scored 10 candidate indications for niraparib with near-identical TxGNN scores (~99.99%). Only two others returned any evidence at all:
-
-| Candidate | Evidence Level | Decision Stage | Recommendation |
-|---|---|---|---|
-| Pre-malignant neoplasm | L3 | S1 | Research Question — trials found are niraparib-specific but tested in confirmed malignancies, not pre-malignant populations |
-| Epiglottis neoplasm, benign neoplasms of tongue/hypopharynx/floor of mouth, cervical neuroblastoma, testis/paratestis tumour, inner ear neoplasm, schwannoma of jugular foramen (7 candidates) | L5 | S0 | Hold — no clinical trials or literature identified |
-
-These illustrate that TxGNN score alone does not indicate evidentiary strength; only Cystic Neoplasm cleared to S2 evidence maturity.
-
----
+The interacting drugs are largely myelosuppressive agents, radiopharmaceuticals and agents affecting haemostasis. The remaining interactions were not reviewed in detail.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-One actively recruiting Phase 2 trial (NCT04716686, n=83) directly tests niraparib monotherapy in endometrial serous carcinoma — a cystic/serous tumour mechanistically aligned with niraparib's established HRD-targeting activity — supported by 9 publications on the underlying biology. Evidence is real but not yet definitive (no completed Phase 3 data specific to this indication).
+The prediction for cystic neoplasm rests on indirect evidence from serous gynaecological carcinomas. The only directly relevant trial is a recruiting Phase 2 study without results, and the other trials were terminated or withdrawn. The broad "cystic neoplasm" label, the absence of mechanism data and the absence of label safety data mean there is not yet enough to support progression.
 
 **To proceed, the following is needed:**
-- TFDA/TGA product information and formal safety data for niraparib (currently a blocking data gap)
-- Structured mechanism-of-action documentation from DrugBank
-- Confirmation of the intended clinical population (Cystic Neoplasm as a label is broader than the serous ovarian/endometrial carcinoma population actually studied)
-- Outcome data from NCT04716686 upon completion (currently recruiting, due 2026-12-31)
-- Regulatory pathway assessment given niraparib is not currently registered in Australia
+- A clearly defined target population (for example, HRD-positive serous carcinoma) in place of the broad "cystic neoplasm" label
+- Results from NCT04716686 and other Phase 2/3 data in serous gynaecological cancers
+- Mechanism of action data (MOA) and an HRD-based mechanistic rationale
+- Warnings and contraindications from the TGA-approved PI, and the approved indication text for ARTG 14172X
+- A haematological safety and monitoring plan, including management of interactions with antithrombotic agents
+
+**Other predicted indications:** The other nine predictions (epiglottis neoplasm, benign neoplasms of the hypopharynx, tongue and floor of mouth, cervical neuroblastoma, tumour of testis and paratestis, inner ear neoplasm, pre-malignant neoplasm, and schwannoma of the jugular foramen) have no trials or literature (L5, prediction only) and are on **Hold**. For the benign lesions in particular, the risk-benefit balance of a PARP inhibitor with known haematological toxicity is unfavourable.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

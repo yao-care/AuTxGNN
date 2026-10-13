@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tranylcypromine
-parent: High Evidence (L1-L2)
-nav_order: 695
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 747
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tranylcypromine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Tranylcypromine: From Major Depressive Disorder to Neurotic Depression
+# Tranylcypromine: From Depression to Benign Paroxysmal Torticollis of Infancy
 
 ## One-Sentence Summary
 
-> Tranylcypromine is a classic irreversible monoamine oxidase inhibitor (MAOI), historically used to treat treatment-resistant and atypical depression.
-> Among 10 TxGNN-predicted indications for this drug, most top-ranked candidates by raw model score were rare genetic syndromes with no plausible mechanistic link (flagged "Hold" by the model's own rationale).
-> The most credible predicted indication is **Neurotic Depression**, supported by **20 publications** including a drug-specific double-blind RCT and a dedicated meta-analysis, though **no registered clinical trials** currently exist for this specific indication.
+Tranylcypromine is an irreversible monoamine oxidase inhibitor (MAOI), originally used to treat depression and anxiety disorders.
+The TxGNN model ranks **benign paroxysmal torticollis of infancy** as its top prediction, but **no clinical trials and no publications** support this specific link. The prediction is a graph-based output only.
+Of the other nine predictions, the best-supported are **dysthymic disorder**, **agoraphobia**, **melancholia** and **neurotic depression**. These sit close to the existing depression and anxiety indications, so they are not truly new uses.
 
 ---
 
@@ -43,75 +43,89 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Major depressive disorder / treatment-resistant depression (inferred from literature evidence; formal ARTG indication text not available — data gap) |
-| Predicted New Indication | Neurotic Depression |
-| TxGNN Prediction Score | 99.58% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed (per current data) |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; no approved indication text is available for the Australian listing) |
+| Predicted New Indication | Benign paroxysmal torticollis of infancy |
+| TxGNN Prediction Score | 99.67% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record for this drug. Based on known information drawn from the supporting literature, tranylcypromine belongs to the class of classic, irreversible, non-selective monoamine oxidase inhibitors (MAOIs), which increase synaptic concentrations of serotonin, noradrenaline and dopamine by blocking their breakdown. Its efficacy in major depressive disorder — particularly treatment-resistant and atypical presentations — is well established in the literature included in this evidence pack.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tranylcypromine is an irreversible, non-selective MAO inhibitor. It raises monoamine levels in the brain, which underlies its antidepressant and anti-anxiety effects. It also inhibits LSD1 (KDM1A), an epigenetic enzyme.
 
-"Neurotic depression" is an older diagnostic term (used prior to modern DSM/ICD classifications) that overlaps substantially with what is now understood as non-melancholic or reactive depression. Because the underlying monoaminergic pathophysiology is shared with major depressive disorder, the mechanistic rationale for tranylcypromine's activity in this indication is strong — this is reflected in the drug-specific double-blind RCT and meta-analytic review identified below, rather than being a purely model-driven (KG embedding) association.
+For the top-ranked prediction, **benign paroxysmal torticollis of infancy**, a plausible link is hard to find. It is a childhood, migraine-spectrum disorder associated with CACNA1A (a calcium channel gene). No established connection to MAO inhibition exists. MAOIs are also poorly suited to infants because of dietary (tyramine) and drug-interaction hazards. The high score (0.997) should be read as a statistical graph output rather than clinical reasoning.
 
-It is worth noting that several other TxGNN-ranked candidates for this drug — including "benign paroxysmal torticollis of infancy," "Ohdo syndrome," "ligneous conjunctivitis," and "Keppen-Lubinsky syndrome" — scored higher by raw model rank but have no biological plausibility and no supporting literature; these were assessed as embedding noise and are not carried forward in this report.
+Other predictions fall into two groups:
+
+- **Close to the existing label:** dysthymic disorder, agoraphobia, melancholia, neurotic depression and neurotic disorder. These are mechanistically coherent because MAOIs have a long history in chronic, atypical and phobic-anxiety presentations. They largely overlap with current depression and anxiety indications.
+- **Unsupported rare diseases:** Ohdo syndrome and its variants (KAT6B-related), ligneous conjunctivitis (plasminogen deficiency) and Keppen-Lubinsky syndrome (KCNJ6-related). For Ohdo syndrome, an LSD1-based epigenetic link is conceivable but speculative, and these congenital conditions are unlikely to respond to drug therapy.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for the top-ranked prediction, or for any of the other nine predicted indications.
 
 ---
 
 ## Literature Evidence
 
+No literature was found for benign paroxysmal torticollis of infancy. The table below shows the most relevant publications retrieved for the nearest-to-label predictions, prioritising tranylcypromine-specific and higher-tier evidence. Most are reviews or reports and do not directly support the top-ranked prediction.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8127928](https://pubmed.ncbi.nlm.nih.gov/8127928/) | 1993 | RCT (double-blind) | Pharmacopsychiatry | Head-to-head trial vs moclobemide in depressed patients; tranylcypromine efficacy confirmed as active comparator |
-| [28579071](https://pubmed.ncbi.nlm.nih.gov/28579071/) | 2017 | Review + Meta-analysis | Eur Neuropsychopharmacol | Two-part review of tranylcypromine pharmacology and meta-analysis of controlled depression studies |
-| [35837681](https://pubmed.ncbi.nlm.nih.gov/35837681/) | 2023 | Review | CNS Spectrums | Prescriber's guide to classic MAOIs (incl. tranylcypromine) for treatment-resistant depression; consensus practice guidance |
-| [3522559](https://pubmed.ncbi.nlm.nih.gov/3522559/) | 1986 | Cohort (controlled trials) | J Clin Psychiatry | Predictors of favourable response to tranylcypromine in 58 patients across two controlled 4-week trials |
-| [7276229](https://pubmed.ncbi.nlm.nih.gov/7276229/) | 1981 | Comparative trial | J Clin Pharmacol | Tranylcypromine vs molindone in treatment-resistant depression |
-| [34369903](https://pubmed.ncbi.nlm.nih.gov/34369903/) | 2021 | Case series | J Clin Psychopharmacol | Tranylcypromine + mirtazapine combination in difficult-to-treat depression |
-| [34283390](https://pubmed.ncbi.nlm.nih.gov/34283390/) | 2021 | Cohort (safety/PK) | CNS Drugs | Cardiovascular safety of combining tranylcypromine with esketamine in treatment-resistant depression |
-| [36482163](https://pubmed.ncbi.nlm.nih.gov/36482163/) | 2023 | PK/Delivery study | Drug Deliv Transl Res | Transdermal delivery system development to reduce hepatic/GI side effects of oral tranylcypromine |
-| [15061154](https://pubmed.ncbi.nlm.nih.gov/15061154/) | 2004 | Trial protocol | Controlled Clin Trials | STAR*D trial design — general depression treatment-sequencing context |
-| [401000](https://pubmed.ncbi.nlm.nih.gov/401000/) | 1979 | Review (historical) | Prog Neuropsychopharmacol | Early review of relationship between depression and monoamine oxidase activity |
+| [28579071](https://pubmed.ncbi.nlm.nih.gov/28579071/) | 2017 | Review and meta-analysis of controlled studies | Eur Neuropsychopharmacol | Tranylcypromine-specific review of clinical pharmacology and controlled studies in depression (neurotic depression) |
+| [21527126](https://pubmed.ncbi.nlm.nih.gov/21527126/) | 2011 | Meta-analysis of RCTs | J Clin Psychiatry | Antidepressants as a class are effective for dysthymia versus placebo; not tranylcypromine-specific |
+| [8127928](https://pubmed.ncbi.nlm.nih.gov/8127928/) | 1993 | Double-blind trial | Pharmacopsychiatry | Moclobemide compared with tranylcypromine in depressed patients (neurotic depression) |
+| [35837681](https://pubmed.ncbi.nlm.nih.gov/35837681/) | 2023 | Review / prescriber guide | CNS Spectrums | Guide to classic MAOIs, including tranylcypromine, for treatment-resistant depression (melancholia) |
+| [26917855](https://pubmed.ncbi.nlm.nih.gov/26917855/) | 2016 | Review | Australas Psychiatry | Reviews whether the evidence warrants renewed use of MAOIs (melancholia) |
+| [7612154](https://pubmed.ncbi.nlm.nih.gov/7612154/) | 1995 | Review / meta-analysis | Neuropsychopharmacology | Phenelzine, isocarboxazid and tranylcypromine show generally comparable efficacy in outpatients (melancholia) |
+| [3050061](https://pubmed.ncbi.nlm.nih.gov/3050061/) | 1988 | Review | J Psychiatr Res | MAOIs superior to placebo in agoraphobia and mixed anxiety-depressive states; no convincing evidence in pure anxiety states |
+| [20703987](https://pubmed.ncbi.nlm.nih.gov/20703987/) | 2010 | Case report | Psychiatr Prax | Tranylcypromine as part of combined therapy in one patient with therapy-resistant agoraphobia, panic disorder and depression |
+| [454092](https://pubmed.ncbi.nlm.nih.gov/454092/) | 1979 | Review | Arch Gen Psychiatry | MAOIs are effective in neurotic or atypical depression; tranylcypromine-specific controlled data are limited (neurotic disorder) |
+| [14132611](https://pubmed.ncbi.nlm.nih.gov/14132611/) | 1964 | Case report (safety) | Lancet | Death associated with tranylcypromine and cheese, documenting the hypertensive-crisis risk |
 
 ---
 
 ## Australia Market Information
 
-No ARTG entries are currently registered for this drug (market status: not marketed; total licenses = 0). This is a data gap — Australian PI/ARTG data has not yet been sourced for this candidate.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14401Y | Parnate | Tablet 10 mg (as sulfate) | Not available in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Contraindication signals (knowledge graph, not label text):** The knowledge graph links tranylcypromine to a wide range of conditions, including:
+  - Cardiovascular: hypertension, coronary artery disease, heart conduction disease, orthostatic hypotension.
+  - Neurological and psychiatric: epilepsy, bipolar disorder, substance abuse/dependence.
+  - Organ disease: liver disease, kidney disease.
+  - Endocrine and tumours: diabetes mellitus, hyperthyroidism, phaeochromocytoma.
+- **Drug interactions:** 100 interactions were identified. Examples of Major-level interactions include isometheptene, bupropion, morphine, lorcaserin, diethylpropion, dolasetron, palonosetron and phentermine. Moderate interactions include epinephrine and several antidiabetic agents (chlorpropamide, glimepiride, repaglinide, insulin aspart).
+- **Dietary and withdrawal risks:** The literature documents tyramine-related hypertensive crisis (1964 case report of death with cheese) and withdrawal or discontinuation phenomena after abrupt cessation, with a recognised risk of abuse and dependence (PMID 23359339).
 
-Note: as a classic irreversible MAOI, tranylcypromine carries well-documented class-level risks (hypertensive/tyramine reaction, serotonin syndrome with serotonergic co-medication) that are referenced in the broader literature pool for this drug but are not yet captured in this evidence pack's structured safety fields.
+Please refer to the TGA-approved Product Information (PI) for official warnings and contraindications, as these were not available for this report.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The strongest evidence in this evidence pack — a drug-specific double-blind RCT and a dedicated meta-analytic review — supports tranylcypromine's mechanistic and clinical relevance to neurotic depression as a depression-spectrum diagnosis, but no indication-specific clinical trials exist and formal Australian regulatory/safety data is missing.
+- The top-ranked prediction, benign paroxysmal torticollis of infancy, has no clinical trials or literature (L5). It has no plausible link to MAO inhibition, and MAOIs carry dietary and interaction hazards that make them unsuitable for infants.
+- The better-supported predictions (dysthymia, agoraphobia, melancholia, neurotic depression) are largely extensions of the existing depression and anxiety label. They have indirect or narrative evidence (L3–L4) and are better treated as research questions than as new repurposing candidates.
 
 **To proceed, the following is needed:**
-- TGA Product Information (PI) — key warnings, contraindications, and dietary/drug interaction data (currently a Blocking data gap)
-- Confirmed mechanism of action documentation (currently a data gap)
-- ARTG registration status verification for the Australian market
-- Clarification of current diagnostic nosology mapping "neurotic depression" to a modern DSM/ICD category for regulatory and clinical use
+- TGA Product Information, including approved indication text, warnings and contraindications, to complete safety screening.
+- Mechanism of action data (for example, from DrugBank) to support mechanistic-link analysis.
+- For the near-label indications, tranylcypromine-specific controlled trials in dysthymia and agoraphobia/panic disorder.
+- For the rare-disease predictions, any preclinical or mechanistic data (for example, LSD1 inhibition in KAT6B-related disease) before further consideration.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

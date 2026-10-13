@@ -2,7 +2,7 @@
 layout: default
 title: Ribociclib
 parent: Moderate Evidence (L3-L4)
-nav_order: 588
+nav_order: 630
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,76 +29,93 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ribociclib: From Breast Cancer to Myeloid Leukemia
+# Ribociclib: From HR+/HER2- Breast Cancer to Myeloid Leukaemia
 
 ## One-Sentence Summary
 
-Ribociclib is a CDK4/6 inhibitor established for HR+/HER2‑negative advanced or metastatic breast cancer. The TxGNN model predicts a possible link to **Myeloid Leukemia**, but the only supporting literature is preclinical and a case report describing CDK4/6‑inhibitor‑*induced* leukaemia — evidence that argues against, rather than for, therapeutic use. This candidate currently sits at evidence level **L4** with a **Hold** recommendation.
+Ribociclib (Kisqali) is an oral CDK4/6 inhibitor used for hormone receptor-positive, HER2-negative breast cancer. The TxGNN model predicts it may be effective for **myeloid leukaemia**, but the data compiled for this report contain **no registered clinical trials** and only **1 relevant preclinical publication** for this indication, so the prediction remains unvalidated.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HR+/HER2-negative advanced or metastatic breast cancer (established use; not captured in the current data set — see note below) |
-| Predicted New Indication | Myeloid Leukemia |
+| Original Indication | HR+/HER2- breast cancer (the ARTG entry in the data carries no indication text; this is taken from the trials and literature) |
+| Predicted New Indication | Myeloid leukaemia |
 | TxGNN Prediction Score | 99.35% |
 | Evidence Level | L4 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not returned in this evidence pack (flagged as a High-severity data gap). Based on the clinical trial titles and literature captured elsewhere in the pack, ribociclib is a selective, orally administered cyclin-dependent kinase 4/6 (CDK4/6) inhibitor used with endocrine therapy for hormone receptor-positive breast cancer.
+Detailed mechanism of action data are not available in the compiled data. Ribociclib belongs to the selective CDK4/6 inhibitor class. In breast cancer these drugs block Rb phosphorylation and G1-to-S cell cycle progression. Their efficacy there is well established in Phase 3 trials (MONALEESA-2, -3 and -7, and NATALEE).
 
-The TxGNN network-proximity score for myeloid leukaemia is high, but the two pieces of literature actually returned point in opposite therapeutic directions. One is an in vitro study exploring whether CDK4/6 inhibitors can overcome pharmacokinetic drug resistance in AML cells — a mechanistic, cell-line-level observation, not clinical evidence of benefit. The other is a case report of a patient who *developed* AML with eosinophilia after CDK4/6 inhibitor treatment, in the setting of pre-existing clonal haematopoiesis of indeterminate potential (CHIP) — i.e., the drug class is implicated as a possible contributor to leukaemogenesis, not a leukaemia treatment.
+Mechanistically, CDK4/6 signalling is thought to drive proliferation in acute myeloid leukaemia (AML), so the prediction is biologically plausible. A 2020 preclinical paper (PMID 32560251) reports that CDK4/6 inhibitors can target pharmacokinetic drug resistance in AML cells. This resistance is linked to ABCB1/ABCG2 transporter overexpression and anthracycline metabolism. This is indirect, in vitro evidence only. It does not show that ribociclib treats leukaemia in patients.
 
-Taken together, the mechanistic story is unresolved and arguably contradictory: cell-cycle arrest via CDK4/6 inhibition could theoretically affect leukaemic blasts, but real-world case data instead raise a safety signal for AML emergence during treatment. This is a network-prediction artefact rather than a therapeutically coherent hypothesis at this stage.
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for myeloid leukaemia.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32560251](https://pubmed.ncbi.nlm.nih.gov/32560251/) | 2020 | Preclinical/In vitro | Cancers | CDK4/6 inhibitors (including ribociclib) tested in vitro against ABCB1/ABCG2-mediated pharmacokinetic drug resistance in AML cells resistant to anthracycline-based chemotherapy. |
-| [30575100](https://pubmed.ncbi.nlm.nih.gov/30575100/) | 2019 | Case Report | American Journal of Hematology | AML with eosinophilia arising after CDK4/6 inhibitor treatment in a patient with underlying clonal haematopoiesis — a drug-induced adverse event, not evidence of therapeutic benefit. |
-| [41641105](https://pubmed.ncbi.nlm.nih.gov/41641105/) | 2026 | Case Report (appears unrelated) | Frontiers in Oncology | Describes a dual primary vulvar/breast adenocarcinoma diagnosis; the abstract does not mention ribociclib or myeloid leukaemia and appears to be a mismatched search result rather than genuine supporting evidence. |
+| [32560251](https://pubmed.ncbi.nlm.nih.gov/32560251/) | 2020 | Preclinical (in vitro) | Cancers | CDK4/6 inhibitors may target pharmacokinetic drug resistance in AML cells (ABCB1/ABCG2 transporters and anthracycline biotransformation) |
+| [41641105](https://pubmed.ncbi.nlm.nih.gov/41641105/) | 2026 | Case report | Frontiers in Oncology | Vulvar adenocarcinoma in a patient with breast cancer. **Not relevant to leukaemia** and should not be counted as supporting evidence |
+
+---
 
 ## Australia Market Information
 
-Ribociclib is not currently marketed in Australia and has no ARTG entries on record (0 of 0). No dosage form or approved-indication data is available from this data set.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 11385F | Kisqali | Tablet 200 mg (oral) | Not stated in the data compiled |
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (small-molecule CDK4/6 inhibitor) — not a conventional cytotoxic agent, but carries a dose-limiting myelosuppressive profile |
-| Myelosuppression Risk | High — neutropenia is the most common and dose-limiting toxicity of ribociclib in its established breast cancer indication; thrombocytopenia and anaemia are also reported (noted in pharmacovigilance and meta-analysis literature elsewhere in this evidence pack) |
-| Emetogenicity Classification | Low (based on known class characteristics; not directly documented in this evidence pack) |
-| Monitoring Items | FBC with differential (baseline, then periodically during treatment), liver function tests, ECG for QT-interval prolongation |
-| Handling Protection | Oral targeted-therapy agent — standard institutional handling precautions for oral oncolytics apply; confirm against local cytotoxic-drug handling policy |
+| Cytotoxicity Classification | Targeted therapy (CDK4/6 inhibitor) |
+| Myelosuppression Risk | Notable. Neutropenia is the key haematological toxicity, and thrombocytopenia and anaemia are also reported. This is especially relevant in a haematological malignancy, where marrow function is already compromised |
+| Emetogenicity Classification | Please refer to the Product Information (PI) |
+| Monitoring Items | FBC with differential, liver function tests, electrolytes and ECG (QTc) |
+| Handling Protection | Please refer to the PI and local cytotoxic or hazardous drug handling policies |
+
+---
 
 ## Safety Considerations
 
-Ribociclib is not currently TGA-registered, so no Australian Product Information exists to reference. Please refer to the overseas-approved Product Information (e.g., FDA or EMA labelling for Kisqali) for warnings, contraindications and drug interaction data until local registration status changes.
+- **Drug Interactions**: The interaction query returned 100 entries. Two are rated **Major**: clarithromycin and dolasetron. Many are rated Moderate, including corticosteroids (dexamethasone, hydrocortisone, budesonide, betamethasone, triamcinolone), metformin, pioglitazone, saxagliptin, cimetidine, famotidine, aprepitant and loperamide. The published literature describes ribociclib's metabolism via CYP3A4 as a high-risk pathway for interactions.
+- **Other signals from the literature**: QT prolongation and arrhythmia, hepatotoxicity (raised transaminases), pneumonitis, thromboembolic events, and haematological toxicity.
+
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for a myeloid leukaemia indication is limited to one in vitro mechanistic study and one case report describing drug-induced (not drug-treated) AML — the mechanistic direction is unresolved and potentially contradictory, and the drug is not currently registered in Australia. This does not meet the bar to advance past initial screening.
+- The only supporting evidence for myeloid leukaemia is a single in vitro study. There are no registered trials and no clinical data. Ribociclib's myelosuppressive profile is also a particular concern in a marrow-based malignancy.
+- Other top-ranked TxGNN predictions for ribociclib (thrombocytopenia and related platelet disorders) appear to be artefacts of the drug's adverse-event profile and are not credible treatment targets. The breast carcinoma prediction is simply the existing approved use.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action data from DrugBank (currently a data gap)
-- TFDA/TGA-equivalent Product Information, warnings and contraindications (currently blocking — no safety pre-screen possible)
-- Preclinical in vivo or clinical evidence directly testing ribociclib in myeloid leukaemia, rather than resistance-modulation or adverse-event literature
-- Clarification of AML-risk signal (clonal haematopoiesis interaction) before any further evaluation
-
-**Note on this evidence pack:** of the ten ranked candidates, most (ranks 2–6, 8–10) have no literature or trial support and appear to be TxGNN network false positives; rank 7 ("female breast carcinoma") is not a new indication but ribociclib's already-established use, surfaced here due to the missing `original_indications` field. None of the ten candidates currently support a genuine repurposing opportunity.
+- In vivo and further in vitro studies of ribociclib in AML and other myeloid models
+- Mechanism of action data (MOA) and a clear rationale for combination partners
+- A safety assessment of myelosuppression, QT prolongation and CYP3A4 interactions in patients with leukaemia
+- The full TGA Product Information (warnings, contraindications and approved indication text)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

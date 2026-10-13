@@ -2,7 +2,7 @@
 layout: default
 title: Bisacodyl
 parent: Model Prediction Only (L5)
-nav_order: 90
+nav_order: 97
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bisacodyl: From Constipation/Bowel Preparation to Exercise-Induced Malignant Hyperthermia
+# Bisacodyl: From Constipation to Exercise-Induced Malignant Hyperthermia
 
 ## One-Sentence Summary
 
-Bisacodyl is a well-established stimulant laxative used for the management of constipation and pre-procedural bowel preparation. The TxGNN model predicts it may be effective for **Exercise-Induced Malignant Hyperthermia**, with **no clinical trials** and **no publications** currently supporting this direction — this represents a model-only prediction with no supporting empirical evidence. Bisacodyl is not currently registered in Australia.
-
----
+Bisacodyl is a stimulant laxative, originally used to treat constipation.
+The TxGNN model predicts it may be effective for **exercise-induced malignant hyperthermia**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model-based prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Constipation and pre-procedural bowel preparation (not currently registered in Australia) |
-| Predicted New Indication | Exercise-Induced Malignant Hyperthermia |
+|------|------|
+| Original Indication | Constipation disorder (the approved indication text was not available in the data compiled for this report) |
+| Predicted New Indication | Exercise-induced malignant hyperthermia |
 | TxGNN Prediction Score | 97.69% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this report. Based on well-established pharmacological knowledge, Bisacodyl is a stimulant laxative that acts primarily on the large intestine — it stimulates enteric nerve endings in the colonic mucosa to increase peristaltic contractions and inhibits water and electrolyte reabsorption, resulting in accelerated colonic transit and defaecation. Its clinical utility is confined to the lower gastrointestinal tract.
+Currently, detailed mechanism of action data is not available. Based on known information, bisacodyl is a stimulant laxative. Its active metabolite (BHPM) acts locally on the colonic mucosa to stimulate peristalsis and secretion, and its efficacy in constipation is established.
 
-Exercise-induced malignant hyperthermia (EIMH) is a rare skeletal muscle disorder caused by mutations in the *RYR1* or *CACNA1S* genes, which encode the ryanodine receptor and the voltage-gated calcium channel respectively. In susceptible individuals, physical exertion triggers uncontrolled release of calcium from the sarcoplasmic reticulum, leading to sustained skeletal muscle hypermetabolism, hyperthermia, and potentially life-threatening metabolic crisis. Current management centres on dantrolene — an agent that specifically antagonises RYR1 — along with supportive care.
+No mechanistic link to the predicted indication was identified. Malignant hyperthermia involves dysregulated calcium release in skeletal muscle (for example, RYR1 variants), a pathway on which bisacodyl has no known action. The high TxGNN score is a graph-based prediction and has no supporting biological rationale in the data compiled for this report.
 
-There is no credible pharmacological link between Bisacodyl and EIMH. Bisacodyl's enteric neurostimulatory and electrolyte-transport-inhibiting actions in the colon share no known intersection with the RYR1/CACNA1S calcium channel dysregulation that underlies malignant hyperthermia. The high TxGNN prediction score most likely reflects proximity between disease nodes in the knowledge graph — specifically, shared clustering among ion channel disorders and metabolic disease groups — rather than any direct drug-target relationship.
-
----
+Other top-ranked predictions show the same pattern. Several are related malignant hyperthermia entries (susceptibility, anaesthesia-related), so their scores likely reflect graph proximity rather than independent evidence. The remaining predictions (dyspepsia, nephrogenic syndrome of inappropriate antidiuresis, common cold, pharyngitis, familial periodic paralysis, acute laryngopharyngitis, acute pulmonary heart disease) also have no trials or literature. Dyspepsia is plausible only at a symptom level, and familial periodic paralysis raises a safety concern rather than a potential benefit (see Safety Considerations).
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
-Bisacodyl is **not currently marketed in Australia** and has no ARTG entries on record. Any proposed clinical use in Australia would require assessment of an appropriate regulatory pathway (e.g., TGA Special Access Scheme or clinical trial authorisation) before proceeding.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 10578R | Dulcolax | Suppositories 10 mg, 10 | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+**Contraindications flagged in the knowledge graph** (these come from drug-disease contraindication links in the TxGNN knowledge graph, not from product label text):
+epilepsy, kidney disease, pyoureter, congestive heart failure, potassium deficiency disease, anuria, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, ileus, intestinal obstruction, toxic megacolon, appendicitis, atrioventricular block, hyperkalaemic periodic paralysis, periodic paralysis, hypoaldosteronism, myotonia congenita, *Clostridium difficile* colitis, and anal disease.
 
----
+**Drug Interactions:** The interaction query returned 100 records. The entries compiled for this report are all rated Moderate. Examples include:
+- Diuretics and related agents: furosemide, hydrochlorothiazide, amiloride, acetazolamide
+- Corticosteroids: hydrocortisone, triamcinolone
+- Salbutamol
+- QT-prolonging or arrhythmia-related agents: amiodarone, amisulpride, anagrelide, gilteritinib, gemifloxacin, foscarnet
+- Others: abiraterone, tramadol, apalutamide, apomorphine, alfuzosin, fostemsavir, propofol
+
+Many of these interactions are plausibly linked to electrolyte disturbance (for example, potassium loss with diarrhoea), which is relevant to the predicted periodic paralysis indication.
+
+Please refer to the TGA-approved Product Information (PI) for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction for exercise-induced malignant hyperthermia is entirely unsupported by clinical trials or published literature, and there is no established pharmacological mechanism connecting Bisacodyl's gastrointestinal mode of action to the skeletal muscle calcium dysregulation underlying EIMH. Furthermore, Bisacodyl is not currently registered in Australia, adding a significant regulatory barrier to any clinical translation.
+The prediction rests on a model score alone (Evidence Level L5). There are no clinical trials or publications, and no plausible mechanistic link between bisacodyl's local colonic action and the pathophysiology of malignant hyperthermia. The other top-ranked predictions are similarly unsupported.
 
 **To proceed, the following is needed:**
-- Retrieval and review of Bisacodyl's complete mechanism of action data from DrugBank to confirm or refute any off-target activity relevant to calcium channel biology
-- Independent pharmacological expert review to determine whether any plausible mechanistic hypothesis can be formulated
-- Preclinical studies (in vitro or animal models of RYR1/CACNA1S dysfunction) to establish a biological basis before any clinical investigation is considered
-- Assessment of the TGA regulatory pathway for Australian market entry or trial authorisation, should evidence emerge to warrant further investigation
-- For the highest-quality repurposing candidate from this evidence pack, consider pivoting focus to **Dyspepsia** (rank 2, L4 evidence), which has at least a weak mechanistic hypothesis via lower gastrointestinal prokinetic effects and limited supporting data
-
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any application in practice.
+- Detailed mechanism of action data (MOA), for example from DrugBank
+- The TGA-approved Product Information (PI), including approved indication, warnings and contraindications
+- A biological rationale linking bisacodyl to the predicted condition, followed by a systematic literature and trial registry search (ClinicalTrials.gov, ANZCTR)
+- Review of the knowledge-graph contraindications and electrolyte-related interactions against any proposed new use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

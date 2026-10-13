@@ -2,7 +2,7 @@
 layout: default
 title: Eflornithine
 parent: Model Prediction Only (L5)
-nav_order: 223
+nav_order: 241
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,76 +33,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Eflornithine (DFMO, difluoromethylornithine) is an irreversible inhibitor of ornithine decarboxylase (ODC), established as the treatment of choice for late-stage Gambian human African trypanosomiasis (sleeping sickness).
-The TxGNN model predicts it may be effective for **Esotropia** (inward deviation of the eye), with **no clinical trials** and **no publications** currently available to support this specific direction.
-This prediction is currently unsupported by direct clinical evidence and should be considered exploratory.
-
----
+Eflornithine was originally used to treat human African trypanosomiasis (sleeping sickness).
+The TxGNN model predicts it may be effective for **esotropia**, but the prediction rests on the model score alone, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Human African Trypanosomiasis (late-stage Gambian sleeping sickness) |
+|------|------|
+| Original Indication | Human African trypanosomiasis (the Australian licence record has no approved indication text) |
 | Predicted New Indication | Esotropia |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on published literature retrieved for related indications, eflornithine acts as an irreversible, mechanism-based inhibitor of ornithine decarboxylase (ODC) — the rate-limiting enzyme in the polyamine biosynthesis pathway. By permanently blocking ODC, eflornithine depletes intracellular polyamines (putrescine, spermidine, spermine), which are essential regulators of cell proliferation, differentiation, and gene expression. This is the same mechanism underlying its efficacy against *Trypanosoma brucei gambiense*, which is exquisitely sensitive to polyamine depletion.
+Eflornithine irreversibly inhibits ornithine decarboxylase (ODC), the first enzyme in polyamine synthesis. This is the basis of its use in human African trypanosomiasis. The data compiled for this report did not include a detailed mechanism of action, so this description relies on the pharmacology records.
 
-Esotropia is a form of strabismus characterised by inward misalignment of one or both eyes, typically arising from imbalanced extraocular muscle tone or neurodevelopmental deficits in ocular motor control. The mechanistic bridge between polyamine pathway inhibition and esotropia is not established in the current literature. TxGNN's knowledge graph may be identifying indirect network relationships — for instance, shared molecular nodes involved in neuronal development, axonal guidance, or neuromuscular junction remodelling — but no direct pharmacological evidence currently supports this link.
+No mechanistic link was identified between ODC inhibition and esotropia (a form of strabismus). No known pathway connects polyamine synthesis to ocular motor control. The high TxGNN score is a graph-based prediction and should not be read as biological evidence. Esotropia is also unrelated to the original infectious indication.
 
-It is worth noting that eflornithine's best-evidenced predicted indications in this pack involve haematological and parasitic contexts (monoclonal gammopathy: 9 publications; bovine trypanosomiasis: 2 publications), which align more naturally with its known ODC-inhibitory mechanism. The esotropia prediction, while receiving the highest TxGNN score (99.85%), lacks any supporting clinical or preclinical literature and warrants cautious interpretation.
-
----
+For context, the other top-ranked predictions were also reviewed. Most had no identifiable mechanistic link and no supporting evidence. The one biologically coherent prediction was **bovine trypanosomiasis** (rank 6, score 98.42%, L4). It is essentially an extension of the original indication to a veterinary host, and the supporting studies are indirect: one preclinical study of eflornithine and hydroxyurea against *Babesia* and *Theileria*, and one mechanistic study of trypanosomatid polyamine pathways. It is a research question rather than a new human repurposing opportunity.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for esotropia.
 
 ## Australia Market Information
 
-Eflornithine is not currently registered on the Australian Register of Therapeutic Goods (ARTG). No ARTG entries exist for this drug. Any future use in Australia would require a TGA registration pathway (e.g., full registration, or access via the Special Access Scheme or Authorised Prescriber pathway).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14880E | Ifinwil | Tablet 192 mg (as hydrochloride) | Not stated in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No safety data (warnings, contraindications, or drug interactions) was retrieved in this evidence pack.
+- **Contraindications (knowledge graph, not label text)**: Exanthem (rash) and dermatitis are recorded as contraindication associations.
+- **Drug Interactions**: The interaction query returned only a pharmacological target record (ornithine decarboxylase, ODC1), not a drug-drug interaction. No clinically graded interactions were identified.
 
----
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications. The PI safety data could not be retrieved for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Eflornithine is not registered in Australia, there is no clinical trial or published literature evidence linking it to esotropia, mechanism of action data is unavailable, and no safety information has been retrieved — the evidence base does not meet the minimum threshold required to proceed.
+The esotropia prediction has no clinical, literature or mechanistic support and is based solely on a graph model score. At L5 evidence, there is no basis to progress.
 
 **To proceed, the following is needed:**
-
-- **Mechanism of action confirmation**: Obtain full MOA data from DrugBank to determine whether any plausible pharmacological link to esotropia (e.g., neuromuscular or developmental polyamine pathway involvement) can be identified
-- **Preclinical evidence search**: Broaden literature search to include animal models or in vitro studies involving eflornithine and ocular or strabismus-related endpoints
-- **Safety data**: Download and parse the approved Product Information (PI) from any jurisdiction (e.g., US FDA label, EMA SmPC) to complete warnings, contraindications, and drug interaction profiling
-- **TGA regulatory pathway assessment**: Determine the most appropriate access pathway given Australia's current zero-registration status for this drug
-- **Consider higher-ranked evidence indications**: Monoclonal gammopathy (9 publications, ODC/DFMO mechanistic link) and bovine trypanosomiasis (2 publications, direct mechanistic link) may be more productive repurposing candidates to evaluate next, given stronger existing evidence chains
-
-> ⚠️ **Disclaimer**: This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.
+- A plausible mechanistic hypothesis linking polyamine/ODC inhibition to esotropia or ocular motor control
+- Preclinical or clinical evidence in strabismus
+- Retrieval and review of the TGA Product Information, including warnings and contraindications
+- The approved indication text for the Australian ARTG entry
+- Confirmation of the drug's mechanism of action from a primary source
+- Route and formulation assessment (the only Australian product is an oral tablet, and an ocular condition may need a different approach)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

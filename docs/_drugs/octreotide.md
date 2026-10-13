@@ -2,7 +2,7 @@
 layout: default
 title: Octreotide
 parent: Model Prediction Only (L5)
-nav_order: 484
+nav_order: 518
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,96 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Octreotide: From (Original Indication Not Specified) to Vulvar Inverted Follicular Keratosis
+# Octreotide: From Acromegaly to Vulvar Inverted Follicular Keratosis
 
 ## One-Sentence Summary
 
-Octreotide is a somatostatin analogue; this evidence pack does not contain data on its original approved indication or mechanism of action (flagged as Data Gap DG002). The TxGNN model's top-ranked prediction is **Vulvar Inverted Follicular Keratosis**, but this is supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags it as likely noise rather than a genuine signal.
-
----
+Octreotide is a somatostatin analogue originally used to treat acromegaly, hyperpituitarism and carcinoid syndrome.
+The TxGNN model predicts it may be effective for **vulvar inverted follicular keratosis**, but **no clinical trials and no publications** currently support this prediction. It is a model-only signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in this evidence pack |
-| Predicted New Indication | Vulvar Inverted Follicular Keratosis |
+| Original Indication | Acromegaly, hyperpituitarism, carcinoid syndrome (the ARTG entry has no approved indication text recorded, so these come from the knowledge graph) |
+| Predicted New Indication | Vulvar inverted follicular keratosis |
 | TxGNN Prediction Score | 99.58% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Octreotide is not available in this evidence pack (Data Gap DG002 — remediation: query DrugBank API). Octreotide is generally known as a somatostatin receptor agonist, but this evidence pack contains no data linking that receptor pathway to keratotic skin lesions.
+Currently, detailed mechanism of action data is not available. Octreotide is a somatostatin analogue, and its efficacy in acromegaly and carcinoid syndrome is established. However, nothing in the data compiled for this report links it mechanistically to the predicted new indication.
 
-Consistent with this, the model-generated rationale for this specific prediction states that there is no known biological relationship between somatostatin receptor activity and skin keratinisation pathology, and that no literature or trial evidence supports the link. The rationale explicitly characterises this as a high-score, low-plausibility output — i.e., suspected model noise rather than a genuine mechanistic signal.
+Vulvar inverted follicular keratosis is a benign skin lesion. No somatostatin-pathway involvement has been identified, and no clinical trials or literature support a role for somatostatin receptor agonism here. The high score (0.996) is a graph-based prediction only and likely reflects graph-topology artefacts rather than biological rationale.
 
-Given the very high TxGNN score paired with a complete absence of corroborating evidence and no plausible mechanistic pathway, this prediction should be treated as exploratory only and not advanced without independent mechanistic or preclinical justification.
+**Other predictions reviewed.** The other top-10 predictions are also weakly supported:
 
----
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Seborrheic keratosis | 99.55% | L5 | No evidence; benign epidermal lesion |
+| 3 | Nephrotic syndrome ocular anomalies | 98.84% | L5 | Rare genetic syndrome; no plausible link |
+| 4 | Addison disease | 98.74% | L4 | Indirect and weak; one case report and one negative physiological study |
+| 5 | Membranoproliferative glomerulonephritis, X-linked | 98.72% | L5 | No evidence |
+| 6 | Familial idiopathic steroid-resistant nephrotic syndrome with minimal changes | 98.57% | L5 | No evidence |
+| 7 | Familial idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial sclerosis | 98.57% | L5 | Same score as rank 6, likely a shared graph artefact |
+| 8 | Adrenocortical insufficiency | 98.47% | L5 | Only an incidental descriptive article |
+| 9 | Primary hypereosinophilic syndrome | 98.43% | L5 | No evidence |
+| 10 | Autosomal recessive familial Mediterranean fever | 98.31% | L5 | No evidence; standard therapy acts through different pathways |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the top-ranked prediction (vulvar inverted follicular keratosis).
 
----
+For reference, the literature retrieved for lower-ranked predictions is not supportive:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [17984930](https://pubmed.ncbi.nlm.nih.gov/17984930/) | 2007 | Case report | Neuro Endocrinol Lett | ACTH response to octreotide in a probable corticotropic adenoma in a patient with Addison's disease. This reflects pituitary receptor biology, not a treatment effect on adrenal failure (Addison disease prediction) |
+| [1973178](https://pubmed.ncbi.nlm.nih.gov/1973178/) | 1990 | Physiological/clinical study | J Endocrinol Invest | Somatostatin and octreotide did not acutely affect hypothalamic-pituitary-adrenal function in patients with corticotropin hypersecretion (negative finding) |
+| [7627336](https://pubmed.ncbi.nlm.nih.gov/7627336/) | 1995 | Diagnostic imaging study | Eur J Endocrinol | 99mTc-DMSA imaging in pituitary adenomas; not a treatment study |
+| [11194482](https://pubmed.ncbi.nlm.nih.gov/11194482/) | 2000 | Case series | Recenti Prog Med | Pituitary pathology in elderly patients; does not evaluate octreotide (adrenocortical insufficiency prediction) |
 
 ## Australia Market Information
 
-No ARTG entries found — Octreotide is recorded as not currently marketed in Australia under this evidence pack (0 licences on file).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10533J | Sandostatin LAR | Injection (modified release) 20 mg (as acetate), vial and diluent syringe | Not recorded in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. (Key warnings, contraindications, and drug interaction data were not available in this evidence pack — Data Gap DG001, blocking severity.)
+No label-based warnings or contraindications were available. Please refer to the TGA-approved Product Information (PI) for safety information.
 
----
+**Contraindication-related conditions from the knowledge graph (not label text):**
+hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, hypoglycaemia, hypothyroidism (including myxedema and congenital hypothyroidism), liver disease and cirrhosis, gallbladder disease (cholelithiasis, cholecystolithiasis, choledocholithiasis), ileus, intestinal obstruction, sudden cardiac arrest, heart conduction disease, kidney failure, uremia and vitamin B12 deficiency.
+
+**Drug Interactions:**
+The interaction query returned 100 interactions. The 20 listed are all rated Moderate, and the main group is glucose-lowering agents, where glycaemic control may be affected:
+- Insulins (aspart, degludec, detemir, glargine, glulisine, human isophane, human regular, human inhaled)
+- GLP-1 receptor agonists (albiglutide, dulaglutide, semaglutide)
+- DPP-4 inhibitors (alogliptin, linagliptin)
+- SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin)
+- Sulfonylureas (chlorpropamide, glimepiride)
+- Others (acarbose, metformin)
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication has no supporting clinical trials or literature, and the model's own rationale flags it as likely noise with no plausible mechanistic link. Separately, core drug-level data needed for any safety assessment (TFDA/TGA warnings and contraindications) is missing and blocking (DG001).
+The top prediction is supported only by a graph-based score. There are no registered trials, no relevant publications and no plausible mechanistic link, so the evidence level is L5. The same holds for the other nine predictions, and the closest candidate (Addison disease) has a negative physiological study and is not expected to respond, since primary adrenal insufficiency requires replacement therapy.
 
 **To proceed, the following is needed:**
-- Original approved indication(s) and mechanism of action for Octreotide (DG002)
-- TGA/TFDA-approved Product Information — warnings, contraindications, drug interactions (DG001, blocking)
-- Independent mechanistic or preclinical rationale linking somatostatin receptor activity to the predicted indication before further evaluation
-
-*Note for context: among the 10 candidates reviewed in this pack, only "Addison disease" (rank 4, L4, decision stage S1) and "adrenocortical insufficiency" (rank 8, L4) had any supporting literature. However, both are flagged with a mechanistically contradictory rationale — Octreotide suppresses the HPA axis, whereas these conditions require restoring adrenal function — and neither literature set is treatment-outcome evidence. All 10 candidates in this pack carry a "Hold" recommendation.*
+- Mechanism of action data for octreotide (currently unavailable), and a biological rationale connecting somatostatin receptor signalling to the predicted condition
+- Evidence of somatostatin receptor expression in the target tissue, plus preclinical or case-level data
+- The ARTG approved indication text and the TGA Product Information, to complete the safety screening
+- A review of the knowledge-graph contraindications and the diabetes-related interactions against the intended patient population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

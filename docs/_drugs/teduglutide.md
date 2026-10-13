@@ -2,7 +2,7 @@
 layout: default
 title: Teduglutide
 parent: Model Prediction Only (L5)
-nav_order: 655
+nav_order: 702
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,71 +33,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Teduglutide is a GLP-2 receptor analog whose evidence pack does not include a formally recorded original indication (regulatory license data unavailable), though supporting text elsewhere in the evidence pack identifies it as the therapy behind short bowel syndrome/intestinal failure. TxGNN predicts a possible effect on **Papillary Conjunctivitis** as its top-ranked candidate, but **0 clinical trials** and **0 publications** currently support this direction — and the model's own rationale states no known mechanistic link exists between GLP-2 receptor activity and conjunctival disease.
-
----
+Teduglutide is a GLP-2 receptor agonist peptide, originally used to treat short bowel syndrome.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but this is a model prediction only,
+with **0 clinical trials** and **0 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from formal licensing data (drug not marketed; ARTG record absent). Evidence pack rationale text (for a lower-ranked candidate) identifies the approved use as short bowel syndrome/intestinal failure. |
-| Predicted New Indication | Papillary Conjunctivitis |
+| Original Indication | Short bowel syndrome |
+| Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 98.53% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is flagged as a data gap for this drug in the evidence pack. However, the rationale text attached to other candidates in this pack identifies Teduglutide as a **GLP-2 receptor analog**, whose known pharmacology promotes intestinal mucosal growth (increased villus height and crypt depth) and slows intestinal transit — consistent with its use in short bowel syndrome.
+Teduglutide is an analogue of glucagon-like peptide-2 (GLP-2) and acts on the GLP-2 receptor (GLP2R). Detailed mechanism of action data was not available in the data compiled for this report. Its known pharmacology is to promote growth of the intestinal lining and improve absorption, which is why it is used in short bowel syndrome.
 
-For the top-ranked candidate, **papillary conjunctivitis**, the evidence pack's own mechanistic assessment is explicit: *"No mechanistic link, no clinical trials, or literature support; GLP-2 receptor pharmacology has no known relationship to conjunctival disease — this is a pure prediction signal."* There is no plausible pathway connecting intestinal GLP-2 receptor activity to conjunctival inflammation, and no supporting evidence of any kind was found.
+The link between short bowel syndrome and papillary conjunctivitis is weak. Papillary conjunctivitis is an allergic or mechanical inflammatory condition of the ocular surface, and the eye is not a recognised GLP-2 target. No credible mechanistic bridge was identified. The high TxGNN score (98.53%) reflects a graph-based prediction only and is not supported by any clinical or literature evidence. It should be treated as a likely model artefact rather than a real therapeutic signal.
 
-In short, this candidate score appears to reflect a statistical association in the knowledge graph rather than a biologically grounded repurposing hypothesis. It should be treated as exploratory only.
-
----
+For context, other top-ranked predictions include gastroduodenitis and peptic ulcer disease, which are biologically more plausible because GLP-2 has effects on gastrointestinal mucosa. These also have no trials or publications. Two further predictions, chronic intestinal vascular insufficiency and isolated mesenteric vein thrombosis, are only indirectly related, through short bowel syndrome as a downstream consequence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
-Teduglutide has no ARTG entries and is not currently marketed in Australia; no product licence records were available in the evidence pack.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11793Q | Revestive | Powder for injection 5 mg with diluent (injectable) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions**: 17 interaction records were found. One is rated **Major** (bexarotene). Fifteen are rated **Moderate** and involve benzodiazepines (alprazolam, chlordiazepoxide, clobazam, clonazepam, clorazepic acid, diazepam, estazolam, flurazepam, halazepam, lorazepam, midazolam, oxazepam, quazepam, temazepam, triazolam). The remaining record is a pharmacology entry confirming the GLP-2 receptor as the target.
+- **Class consideration**: Teduglutide's growth-promoting effects raise a caution regarding neoplasia in the gastrointestinal tract. This should be weighed before any new use.
 
----
+Warnings and contraindications from the product label were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has no clinical trial or literature support, and the mechanistic rationale itself confirms there is no known biological link between the drug's target pathway and the predicted disease. This is a model-only (L5) signal and does not meet the threshold for further evaluation at this time.
+The prediction rests solely on a graph-based score. There are no clinical trials or publications, no plausible mechanism linking GLP-2 agonism to papillary conjunctivitis, and a systemic injectable would be a disproportionate option for a mostly local ocular condition.
 
 **To proceed, the following is needed:**
-- Confirmed original indication and formal MOA data (currently data gaps)
-- TFDA/TGA product information, warnings, and contraindications (currently data gaps)
-- Any preclinical or mechanistic rationale connecting GLP-2 receptor pharmacology to ocular/conjunctival pathology, if this candidate is to be revisited
-
-**Additional note:** Within this same evidence pack, a different candidate — *chronic intestinal vascular insufficiency* (rank 8) — carries stronger support (L3 evidence, "Research Question" stage) and a plausible mechanistic tie to Teduglutide's approved use in short bowel syndrome/intestinal failure. That candidate may warrant separate evaluation as a more promising repurposing lead than the top-ranked papillary conjunctivitis signal.
+- A credible mechanistic rationale for GLP-2 signalling in ocular surface inflammation, supported by preclinical data
+- Detailed mechanism of action data
+- TGA Product Information (approved indication, warnings and contraindications)
+- Route compatibility assessment, since the available route is injectable only
+- Consider redirecting effort to the more plausible gastrointestinal predictions (gastroduodenitis, peptic ulcer disease), with a neoplasia risk review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

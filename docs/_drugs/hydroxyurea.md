@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hydroxyurea
-parent: Moderate Evidence (L3-L4)
-nav_order: 333
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 358
+evidence_level: L5
 indication_count: 10
 ---
 
 # Hydroxyurea
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,106 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Hydroxyurea: From Sickle Cell Disease to Female Breast Carcinoma
+# Hydroxyurea: From Melanoma and Sickle Cell Anaemia to Female Breast Carcinoma
 
 ## One-Sentence Summary
 
-Hydroxyurea is an established antineoplastic and disease-modifying agent, internationally approved for sickle cell disease and haematologic malignancies (including chronic myeloid leukaemia), but currently **not registered in Australia** with zero ARTG entries.
-The TxGNN model predicts it may be effective for **Female Breast Carcinoma**, with **no registered clinical trials** and **20 publications** currently supporting this direction — though evidence is predominantly preclinical and from early-phase combination regimens where Hydroxyurea was not the primary agent.
+Hydroxyurea is a ribonucleotide reductase inhibitor, originally used for melanoma, sickle cell anaemia and ovarian cancer.
+The TxGNN model predicts it may be effective for **female breast carcinoma** (score 99.97%), but **no clinical trials** are registered for this indication and the **20 publications** retrieved are almost entirely preclinical, in-silico or off-topic.
+The prediction is therefore best viewed as a hypothesis.
+
+*Note: The ranked predictions also include sickle cell-haemoglobin C disease, which has markedly stronger evidence (a Phase 2 trial and a 2025 clinical publication). It is summarised under "Other Predicted Indications" below.*
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Australia; internationally established for sickle cell disease and haematologic malignancies (CML, polycythaemia vera) |
-| Predicted New Indication | Female Breast Carcinoma |
+|------|------|
+| Original Indication | Melanoma, sickle cell anaemia, hereditary persistence of fetal haemoglobin, ovarian cancer (several subtypes). The ARTG entry lists no approved indication text. |
+| Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed (no ARTG registration) |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 (preclinical and mechanistic studies only) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data was not retrieved in this Evidence Pack. Based on established pharmacological knowledge, Hydroxyurea inhibits **ribonucleotide reductase (RNR)** — the enzyme responsible for converting ribonucleotides to deoxyribonucleotides, which is a rate-limiting step in DNA synthesis. This makes Hydroxyurea a **cell-cycle S-phase–specific cytotoxic agent** that selectively impairs rapidly dividing cells by depleting the deoxyribonucleotide pool and inducing replication fork stalling.
+Detailed mechanism of action data was not available in the data compiled for this report. Based on known pharmacology, hydroxyurea inhibits ribonucleotide reductase, which depletes deoxynucleotide (dNTP) pools and induces DNA replication stress. This mechanism underlies its use in cancers such as melanoma and ovarian cancer.
 
-Female breast carcinoma is among the most proliferative solid malignancies, and the theoretical basis for RNR inhibition as an anti-tumour strategy is plausible. Historically, Hydroxyurea has been employed as a **radiosensitiser** and as a **cell-cycle synchronisation agent** in combination chemotherapy protocols for various solid tumours, including breast cancer (Phase I combination studies, 1990–1994). More recent mechanistic research has explored its role in modulating **replication stress pathways** — including EYA4-mediated replication stress avoidance in mammary tumours — as well as novel lipid–drug conjugate (LDC) formulations targeting the PI3K/AKT/mTOR pathway to improve cellular uptake in breast cancer cells.
+Breast cancer cells are also dependent on DNA replication and repair. Preclinical papers link replication stress, ATR signalling and RPA2-mediated DNA repair to breast cancer cell sensitivity to hydroxyurea. Examples include valproic acid sensitising breast cancer cells to hydroxyurea, and BRCA1-deficient breast cancer cells being susceptible to ribonucleotide reductase inhibition.
 
-However, Hydroxyurea's precise position within modern breast cancer treatment frameworks remains undefined. Current standard-of-care regimens (CDK4/6 inhibitors, HER2-targeted agents, PARP inhibitors for BRCA-mutated disease, immunotherapy) are mechanistically distinct and clinically validated. The prediction likely reflects overlapping biological signals around DNA replication stress — a hallmark of aggressive breast cancer — rather than a direct, clinically proven therapeutic effect. The mechanistic link is scientifically credible but requires dedicated clinical evaluation.
+The mechanistic rationale is plausible, but it has not been tested in breast cancer patients in the data compiled. The very high TxGNN score is a computational output and should not be read as clinical evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Hydroxyurea specifically in female breast carcinoma.
+Currently no related clinical trials registered for female breast carcinoma.
 
 ---
 
 ## Literature Evidence
 
+None of the retrieved publications is a randomised trial of hydroxyurea in breast cancer. The most relevant items are listed below.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [7914447](https://pubmed.ncbi.nlm.nih.gov/7914447/) | 1994 | Phase I/II Trial | Bone Marrow Transplantation | High-dose cyclophosphamide + thiotepa + hydroxyurea (18 g/m²) with autologous haematopoietic stem cell rescue in 26 women with responding metastatic breast cancer; demonstrated feasibility as consolidation chemotherapy |
-| [1957839](https://pubmed.ncbi.nlm.nih.gov/1957839/) | 1991 | Phase I Trial | American Journal of Clinical Oncology | Phase I dose-escalation study of allopurinol + 5-FU + leucovorin followed by hydroxyurea (HALF regimen) in 20 patients with advanced gastrointestinal and breast cancers; evaluated sequential biochemical modulation |
-| [1733549](https://pubmed.ncbi.nlm.nih.gov/1733549/) | 1992 | Phase I Trial | Cancer Chemotherapy and Pharmacology | Phase I study combining 5-FU, leucovorin, hydroxyurea, and escalating-dose continuous-infusion cisplatin with concurrent radiotherapy in advanced solid tumours; characterised hydroxyurea as a radiosensitiser |
-| [2245491](https://pubmed.ncbi.nlm.nih.gov/2245491/) | 1990 | Phase I Trial | Cancer Chemotherapy and Pharmacology | Pilot clinical translation of in vitro model: cisplatin preceded by concurrent cytarabine + hydroxyurea as DNA repair inhibitors in 40 patients with prior or no prior chemotherapy |
-| [28837865](https://pubmed.ncbi.nlm.nih.gov/28837865/) | 2017 | Preclinical | DNA Repair | Valproic acid (0.5 mM) sensitised multiple breast cancer cell lines to hydroxyurea by inhibiting RPA2 hyperphosphorylation-mediated DNA repair, inducing DNA double-strand breaks at safe concentrations |
-| [32795962](https://pubmed.ncbi.nlm.nih.gov/32795962/) | 2020 | Preclinical | DNA Repair | 2-hexyl-4-pentynoic acid (a lower-dose valproic acid analogue) sensitised breast carcinoma cells to hydroxyurea via the RPA2 hyperphosphorylation repair pathway, aiming to reduce valproic acid toxicity |
-| [38211596](https://pubmed.ncbi.nlm.nih.gov/38211596/) | 2024 | In-silico / Preclinical | Drug Research | In-silico design and development of hydroxyurea–lipid drug conjugates targeting PI3K/AKT/mTOR pathway; conjugation aimed to improve lipophilicity and cellular uptake to overcome hydroxyurea's hydrophilic limitations in breast cancer |
-| [34661718](https://pubmed.ncbi.nlm.nih.gov/34661718/) | 2022 | Preclinical | Naunyn-Schmiedeberg's Archives of Pharmacology | Hydroxyurea-loaded Fe₃O₄/SiO₂/chitosan-g-mPEG2000 magnetic nanoparticles demonstrated pH-dependent drug release, induced cell cycle arrest, and altered p53 and lincRNA-p21 expression in cancer cells |
-| [37777742](https://pubmed.ncbi.nlm.nih.gov/37777742/) | 2023 | Basic Research | Molecular Cancer | EYA4 promotes breast cancer progression and metastasis through replication stress avoidance; mammary tumour cells with EYA4 alterations showed heightened susceptibility to replicative DNA damage (hydroxyurea-modelled) |
-| [21730979](https://pubmed.ncbi.nlm.nih.gov/21730979/) | 2011 | Preclinical / Translational | British Journal of Cancer | ATR inhibitor NU6027 potentiated cisplatin independently of CDK2 in breast and ovarian cancer cell lines; hydroxyurea used as a reference replication stress inducer to characterise ATR pathway activity |
+|------|-----|------|------|---------|
+| [38211596](https://pubmed.ncbi.nlm.nih.gov/38211596/) | 2024 | In-silico/Preclinical | Drug Research | Design of hydroxyurea–lipid conjugates to improve cellular uptake in breast cancer, targeting the PI3K/AKT/mTOR pathway |
+| [28837865](https://pubmed.ncbi.nlm.nih.gov/28837865/) | 2017 | Preclinical | DNA Repair | Valproic acid sensitises breast cancer cells to hydroxyurea by inhibiting RPA2 hyperphosphorylation-mediated DNA repair |
+| [32795962](https://pubmed.ncbi.nlm.nih.gov/32795962/) | 2020 | Preclinical | DNA Repair | A valproic acid analogue influences RPA2-mediated DNA repair, potentially sensitising breast carcinoma cells to hydroxyurea |
+| [21730979](https://pubmed.ncbi.nlm.nih.gov/21730979/) | 2011 | Preclinical | British Journal of Cancer | Novel ATR inhibitor NU6027 evaluated in breast and ovarian cancer cell lines |
+| [1957839](https://pubmed.ncbi.nlm.nih.gov/1957839/) | 1991 | Phase I | American Journal of Clinical Oncology | Allopurinol, 5-FU and leucovorin followed by hydroxyurea in 20 patients with advanced gastrointestinal and breast cancer |
+| [1733549](https://pubmed.ncbi.nlm.nih.gov/1733549/) | 1992 | Phase I/II | Cancer Chemotherapy and Pharmacology | 5-FU, leucovorin, hydroxyurea and escalating cisplatin with radiotherapy in mixed advanced solid tumours |
+| [25814515](https://pubmed.ncbi.nlm.nih.gov/25814515/) | 2015 | Preclinical | Molecular Pharmacology | Novel ribonucleotide reductase inhibitor COH29 inhibits DNA repair in BRCA1-defective breast cancer cells |
+| [30159181](https://pubmed.ncbi.nlm.nih.gov/30159181/) | 2018 | Case report | Case Reports in Hematology | Management of coexisting breast cancer and essential thrombocythaemia |
+
+The remaining retrieved papers were either not specific to hydroxyurea or off-topic.
 
 ---
 
 ## Australia Market Information
 
-Hydroxyurea (DB01005) has **no ARTG entries** and is currently **not registered in Australia** under TGA regulation. There are no TGA-approved products or indications on record.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 4281H | Egoderm Cream | Cream 10 mg per g (1%), 50 g | Not stated in the data compiled |
 
-Clinicians seeking to access Hydroxyurea for Australian patients would need to explore the **TGA Special Access Scheme (SAS)** or **Authorised Prescriber** pathways, with reference to international product information (e.g., FDA-approved labelling, EMA SmPC).
+The only registered Australian product is a **topical** hydroxyurea 1% cream. No oral dosage form appears in the data compiled, so the systemic route used for oncology and sickle cell disease is not represented in the ARTG data reviewed here.
 
 ---
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Ribonucleotide reductase (RNR) inhibitor / Hydroxamic acid class |
-| Myelosuppression Risk | **High** — dose-dependent neutropenia, thrombocytopenia, and anaemia are the primary dose-limiting toxicities; myelosuppression is reversible upon dose reduction or cessation |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | Full blood count (FBC) with differential (at baseline, then weekly during dose titration, then monthly at stable dosing), renal function (eGFR/creatinine), liver function tests (LFTs), electrolytes |
-| Handling Protection | Must be handled in accordance with cytotoxic drug handling regulations; capsules should not be opened; healthcare workers should wear appropriate PPE (gloves, gown, mask); cytotoxic waste disposal protocols apply |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (antimetabolite; ribonucleotide reductase inhibitor) |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions. The knowledge graph links hydroxyurea to leukopenia, thrombocytopenia and anaemia. |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Full blood count (with differential), renal function and liver function |
+| Handling Protection | Follow local cytotoxic drug handling requirements |
 
 ---
 
 ## Safety Considerations
 
-No safety data (key warnings, contraindications, or drug–drug interactions) were retrieved from any queried source for this Evidence Pack. Hydroxyurea is not registered in Australia and therefore has no TGA-approved Product Information (PI).
+- **Contraindications (knowledge graph associations, not label text):** kidney disease, pyoureter, thrombocytopenia, anaemia, macrocytic anaemia, leukopenia and cutaneous vasculitis.
+- **Drug Interactions:** 100 interactions were identified. Only the severity of levofloxacin (Minor) is classified; the others (for example doxycycline, amphotericin B, hydrocortisone, famotidine, acetylsalicylic acid, pantoprazole, morphine, metformin, omeprazole, vancomycin, prednisone and simvastatin) have no assigned severity level in the source. Review the full interaction list before use.
 
-Clinicians should consult:
-- The **FDA-approved prescribing information** (Droxia®, Siklos®, Hydrea®) for full warnings and precautions
-- The **EMA Summary of Product Characteristics** for European registration detail
-- Published clinical guidelines from **ASH** (American Society of Hematology) or **ESMO** for cytotoxic monitoring and toxicity management
+Please refer to the TGA-approved Product Information (PI) for formal warnings and contraindications.
+
+---
+
+## Other Predicted Indications
+
+| Rank | Indication | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Sickle cell-haemoglobin C disease | 99.67% | L2 | Phase 2 trial [NCT00532883](https://clinicaltrials.gov/study/NCT00532883) (n=44, terminated) plus a 2025 NEJM Evidence publication ([39647172](https://pubmed.ncbi.nlm.nih.gov/39647172/)) and cohort studies. No Phase 3 trial is evident. Research question. |
+| 3–5 | Sickle cell-HbE, sickle cell-HbD, HPFH-sickle cell | 99.67% | L4 | Only indirect or irrelevant literature. Hold. |
+| 6 | Sickle cell-beta-thalassaemia | 99.67% | L3 | Small 1999 clinical trial ([10326220](https://pubmed.ncbi.nlm.nih.gov/10326220/)); the listed trials are transplant studies, not hydroxyurea trials. Research question. |
+| 7–10 | Cervical adenosarcoma; colon, rectum and gallbladder mucinous adenocarcinoma | 99.28–99.40% | L5 | Model prediction only, with no trials or literature. Hold. |
 
 ---
 
@@ -121,15 +137,14 @@ Clinicians should consult:
 **Decision: Hold**
 
 **Rationale:**
-While the TxGNN model assigns a high prediction score (99.97%) for Hydroxyurea in female breast carcinoma, no dedicated clinical trials exist for this indication, and the available published evidence is limited to early-phase combination regimens (where Hydroxyurea was an adjunct) and preclinical mechanistic studies. Without a clear differentiated clinical use case relative to modern breast cancer standard-of-care, and with no Australian registration or safety data on file, this indication cannot progress beyond a research question at this stage.
+The breast carcinoma prediction rests on a plausible mechanism and preclinical work only. There are no registered trials and no clinical efficacy data, and the Australian product is a topical cream rather than a systemic formulation. Of the predictions, sickle cell-haemoglobin C disease is the strongest candidate for further investigation.
 
 **To proceed, the following is needed:**
-
-- **MOA confirmation**: Retrieve DrugBank API data to formally document the RNR inhibition mechanism and its relevance to breast cancer biology
-- **Safety package**: Obtain and review FDA/EMA Product Information for key warnings, contraindications, and clinically relevant drug–drug interactions
-- **Clinical niche identification**: Define a specific breast cancer subtype or treatment context where Hydroxyurea's RNR inhibition or radiosensitisation mechanism offers a differentiated advantage (e.g., BRCA-mutated tumours with replication stress vulnerability, HER2+ radiotherapy combinations)
-- **Dedicated literature review**: Systematic search for Hydroxyurea as a radiosensitiser specifically in breast radiotherapy protocols
-- **Prioritisation review**: Consider whether the Rank 2–6 predicted indications (HbSC, HbSE, HbSD, HPFH-SCD, HbS-β-thal) represent higher-priority repurposing opportunities, given that multiple completed Phase 2/3 clinical trials already exist in those sickle cell disease subtypes
+- Mechanism of action data to support the mechanistic-link analysis
+- TGA Product Information warnings and contraindications (a blocking gap for safety screening)
+- Clinical evidence in breast cancer, such as a well-designed Phase 2 study or a systematic review of existing combination-chemotherapy data
+- Confirmation of whether a systemic hydroxyurea formulation is available in Australia
+- For sickle cell-haemoglobin C disease, a review of the 2025 trial and the terminated Phase 2 trial to decide whether it should be prioritised
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

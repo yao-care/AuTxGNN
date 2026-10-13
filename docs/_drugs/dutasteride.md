@@ -2,7 +2,7 @@
 layout: default
 title: Dutasteride
 parent: Model Prediction Only (L5)
-nav_order: 220
+nav_order: 237
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,99 +33,81 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Dutasteride is a dual 5α-reductase inhibitor approved internationally for benign prostatic hyperplasia (BPH) and androgenetic alopecia; it is not currently listed in the Australian Register of Therapeutic Goods (ARTG) based on the data retrieved for this report.
-The TxGNN model's top prediction is **Ambras Type Hypertrichosis Universalis Congenita** (score 99.998%), however **no clinical trials or supporting publications** exist for this specific indication, and mechanistic analysis strongly suggests this is a knowledge graph propagation artefact rather than a clinically meaningful repurposing opportunity.
-Across all 10 model predictions, **Diffuse Alopecia Areata** (Rank 8, L4) represents the only candidate with any indirect mechanistic plausibility and is recommended as a research question for further exploration.
+Dutasteride is a 5-alpha reductase inhibitor originally used to treat benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**,
+but there are currently **0 clinical trials** and **0 publications** directly supporting this prediction, so the evidence rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Benign Prostatic Hyperplasia (BPH); androgenetic alopecia — international approvals; no ARTG entries retrieved in this dataset |
-| Predicted New Indication | Ambras Type Hypertrichosis Universalis Congenita |
+|------|------|
+| Original Indication | Benign prostatic hyperplasia (source: TxGNN knowledge graph; no approved indication text is recorded in the ARTG data compiled for this report) |
+| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 99.998% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed (no ARTG entries retrieved) |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in this Evidence Pack. Based on established pharmacological literature, Dutasteride inhibits both type 1 and type 2 isoforms of 5α-reductase — the enzyme that converts testosterone to dihydrotestosterone (DHT). By suppressing DHT levels by approximately 90%, it is effective in androgen-dependent conditions such as BPH and male-pattern hair loss. This DHT-dependent pathway is the core basis against which all predicted indications should be assessed.
+Detailed mechanism of action data is not available in the data compiled for this report. Dutasteride is generally known as a dual inhibitor of 5-alpha reductase types 1 and 2, which lowers dihydrotestosterone (DHT). Its efficacy in BPH is established, and its effect on hair follicles through DHT reduction is the only plausible bridge to hair-related conditions.
 
-Ambras type hypertrichosis universalis congenita is a rare genetic disorder caused by mutations in the *TRPS1* gene (and related loci), resulting in generalised excessive hair growth present from birth. Critically, this condition is **not driven by androgen excess or elevated DHT** — it is a structural developmental defect in hair follicle programming. There is therefore no established mechanistic pathway by which Dutasteride's DHT-suppressing action would be expected to benefit or modify this disorder.
+The link to the predicted indication is weak. Ambras syndrome is a rare congenital hypertrichosis caused by genomic rearrangements affecting *TRPS1* expression, and it is not clearly androgen-driven. The prediction therefore appears to rest on a very high model score and a general anti-androgen effect on hair follicles, not on direct pharmacological or clinical evidence.
 
-The high TxGNN prediction score (0.9999) most likely reflects a **knowledge graph propagation artefact**: nodes representing "hair growth" and "hair follicle" disorders cluster in close graph proximity regardless of their underlying molecular aetiology. This is a recognised limitation of graph-based prediction models when applied to heterogeneous disease categories that share phenotypic surface similarity but differ fundamentally in their biology. The mechanistic rationale analysis embedded in the Evidence Pack independently reaches the same conclusion.
+Other top-ranked predictions show a similar pattern:
+
+- **Hair-related conditions** (hypertrichosis, isolated genetic hair shaft abnormality, hypotrichosis simplex of the scalp, congenital hypotrichosis milia, familial isolated trichomegaly): mechanistically plausible only via hair-follicle biology. Most are not clearly DHT-dependent, and the direction of effect is uncertain. For generalised hypertrichosis, dutasteride could even be counterproductive.
+- **Hypotrichosis simplex of the scalp** is phenotypically similar to androgenetic alopecia, for which dutasteride has an off-label evidence base, but its genetic cause is not clearly DHT-dependent.
+- **Diffuse alopecia areata** is autoimmune (T-cell-mediated, JAK-STAT pathway) and not DHT-driven.
+- **Structural or neurological conditions** (malformation syndrome with odontal/periodontal component, Dandy-Walker malformation syndrome, migraine with brainstem aura): no plausible mechanistic link was identified, and these predictions are likely artefacts of knowledge-graph connectivity.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials related to Dutasteride and Ambras Type Hypertrichosis Universalis Congenita are registered on ClinicalTrials.gov, ANZCTR, or ICTRP.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature is available for Dutasteride in Ambras Type Hypertrichosis Universalis Congenita.
+No literature was retrieved for the top-ranked prediction (Ambras type hypertrichosis universalis congenita).
 
----
-
-## Additional Predictions — Clinician Summary
-
-The TxGNN model returned 10 predictions for Dutasteride. For completeness, the full prediction landscape is summarised below, as the top-ranked indication is assessed as a false positive and the most actionable signal sits at Rank 8.
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision | Summary Assessment |
-|------|---------------------|-------------|----------------|----------|--------------------|
-| 1 | Ambras type hypertrichosis universalis congenita | 99.998% | L5 | **Hold** | TRPS1 gene defect; non-DHT-dependent; likely KG artefact |
-| 2 | Hypertrichosis (disease) | 99.997% | L5 | **Hold** | Heterogeneous aetiology; no Dutasteride-specific evidence |
-| 3 | Malformation syndrome with odontal/periodontal component | 99.997% | L5 | **Hold** | 20 literature hits all on general periodontitis; none on Dutasteride; KG artefact |
-| 4 | Syndrome with Dandy-Walker malformation as major feature | 99.996% | L5 | **Hold** | Congenital posterior fossa brain defect; no DHT pathway link |
-| 5 | Isolated genetic hair shaft abnormality | 99.996% | L5 | **Hold** | Keratin structural protein mutations; non-DHT-dependent |
-| 6 | Hypotrichosis simplex of the scalp | 99.771% | L5 | **Hold** | Autosomal genetic hypotrichosis (CDSN/LPAR6); non-androgenic |
-| 7 | Congenital hypotrichosis milia | 99.753% | L5 | **Hold** | Rare skin barrier protein defect; no DHT intersection |
-| **8** | **Diffuse alopecia areata** | **99.675%** | **L4** | **Research Question** | **Indirect DHT–immune privilege link; 1 supporting review (2026)** |
-| 9 | Migraine with brainstem aura | 99.667% | L5 | **Hold** | Neurosteroid hypothesis present but multi-step indirect; no clinical data |
-| 10 | Familial isolated trichomegaly | 99.565% | L5 | **Hold** | Rare eyelash genetic disorder; no Dutasteride research proposed to date |
-
-### Diffuse Alopecia Areata — Rank 8 Detail
-
-Diffuse alopecia areata (DAA) is primarily an autoimmune condition mediated by CD8⁺ T-cell attack on hair follicles. However, three indirect connections support a research question:
-
-1. DAA and androgenetic alopecia (AGA) frequently **co-exist** and can be clinically difficult to distinguish in practice.
-2. DHT is known to modulate the **follicular immune privilege microenvironment** — the mechanism by which healthy follicles evade immune surveillance — providing a plausible indirect link.
-3. A 2026 narrative review (PMID 41714473) documents expanding clinical applications of Dutasteride in follicular diseases in women, suggesting the field is actively exploring its scope.
+For context, one paper was retrieved for a lower-ranked prediction (diffuse alopecia areata). It concerns a different condition and is not evidence for dutasteride in alopecia areata:
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [41714473](https://pubmed.ncbi.nlm.nih.gov/41714473/) | 2026 | Narrative Review | American Journal of Clinical Dermatology | Comprehensive review of AGA pathophysiology and treatments in women including Dutasteride; highlights hormonal, genetic, and environmental interactions in chronic hair loss |
+|------|-----|------|------|---------|
+| [41714473](https://pubmed.ncbi.nlm.nih.gov/41714473/) | 2026 | Review | American Journal of Clinical Dermatology | Narrative review of androgenetic alopecia in women, covering pathophysiology, clinical evaluation and treatments. It affects nearly 50% of women in their lifetime and is often underdiagnosed and undertreated. |
 
 ---
 
 ## Australia Market Information
 
-No ARTG entries were retrieved for Dutasteride in this data query.
-
-> **Important notice for clinicians:** The absence of ARTG entries in this dataset does not confirm that Dutasteride is unavailable in Australia. Dutasteride is internationally marketed (e.g., as **Avodart**, GSK) for BPH, and registration status should be verified directly via the [TGA ARTG Public Summary Portal](https://www.tga.gov.au/resources/artg) before any clinical or regulatory decision is made. It is likely that the data retrieval step for this drug did not capture existing ARTG entries, which should be treated as a **data gap requiring remediation**.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10095H | APO-Dutasteride | Capsule 500 micrograms | Not recorded in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Safety data including key warnings, contraindications, and drug–drug interactions were not available in this Evidence Pack.
+- **Contraindications and disease associations (knowledge-graph derived, not label text)**: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, liver disease, gallbladder disease, priapism, intraoperative floppy iris syndrome.
+- **Reproductive safety**: dutasteride is teratogenic in male fetuses, as it interferes with external genitalia development. This argues against use in congenital or paediatric settings.
+- **Drug Interactions**: 100 interactions were identified in total. The main ones rated Moderate are:
+  - Aprepitant
+  - Cimetidine
+  - Clarithromycin
+  - Clotrimazole
+  - Miconazole
 
-Please refer to the TGA-approved Product Information (PI) for complete safety information. Key areas to review include:
+  Others, such as pantoprazole, omeprazole, metformin, simvastatin and prednisone, have an unknown severity rating.
 
-- **Teratogenicity**: Dutasteride is a Category X agent in pregnancy. As it is absorbed through the skin and excreted in semen, male patients with pregnant partners must use condoms. Female healthcare workers and caregivers must avoid contact with capsule contents.
-- **PSA and prostate cancer screening**: Dutasteride suppresses PSA levels by approximately 50% after 6 months; clinicians should double the measured PSA value when assessing patients on Dutasteride using standard reference ranges.
-- **CYP3A4 interactions**: Dutasteride is metabolised by CYP3A4 and CYP3A5; potent inhibitors (e.g., ketoconazole, ritonavir, verapamil) may increase plasma concentrations.
-- **Donation restrictions**: Patients must not donate blood during treatment and for 6 months after cessation.
-
-*(Above safety profile is based on established pharmacological references, pending retrieval of TGA-approved PI.)*
+Please also refer to the TGA-approved Product Information (PI) for full warnings and precautions.
 
 ---
 
@@ -134,18 +116,14 @@ Please refer to the TGA-approved Product Information (PI) for complete safety in
 **Decision: Hold**
 
 **Rationale:**
-The top TxGNN prediction (Ambras type hypertrichosis universalis congenita) has no credible mechanistic basis, no clinical trials, and no supporting literature — consistent with a knowledge graph propagation artefact arising from shared "hair-related" node proximity in the knowledge graph. All 10 predictions are rated L5 (model prediction only) except Rank 8 (Diffuse Alopecia Areata, L4), which remains at the "Research Question" stage and is not ready for repurposing evaluation without further targeted work.
+The prediction has a very high model score but no supporting clinical trials or literature (Evidence Level L5). The mechanistic link is speculative, because Ambras syndrome is not clearly androgen-driven. The drug is also teratogenic in male fetuses, which complicates use in a congenital condition.
 
 **To proceed, the following is needed:**
-
-- **Verify ARTG status** — Conduct a direct TGA ARTG portal search to confirm current Australian registration for Dutasteride; the zero-result data retrieval is likely a data gap rather than true absence
-- **Retrieve TGA Product Information (PI)** — Download and parse the PI to formally document approved indications, contraindications, warnings, and drug interactions
-- **Retrieve MOA from DrugBank** — Query DrugBank API (DB01126) to populate the mechanistic data gap and enable structured mechanistic link analysis for all 10 predictions
-- **For Diffuse Alopecia Areata (Rank 8)** — Define a specific clinical research question (e.g., "Does Dutasteride reduce hair loss severity in patients with DAA co-occurring with AGA?"), perform a structured literature search on Dutasteride + alopecia areata, and consult a dermatologist to assess feasibility of a pilot study or case series
-
----
-
-*This report is generated for research reference only and does not constitute medical advice. Drug repurposing candidates require rigorous clinical validation before therapeutic application. Results should be interpreted by qualified healthcare professionals in the appropriate clinical context.*
+- Mechanism of action data confirming a rationale for *TRPS1*-related hypertrichosis
+- Preclinical or case-level evidence of any effect on hair growth in this condition
+- Review of the TGA Product Information for warnings and contraindications
+- A safety assessment for the relevant (likely paediatric) population
+- Consideration of better-supported hair-related targets, such as androgen-dependent conditions, before investing in this indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

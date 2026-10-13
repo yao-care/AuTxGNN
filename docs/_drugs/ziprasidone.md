@@ -2,15 +2,15 @@
 layout: default
 title: Ziprasidone
 parent: High Evidence (L1-L2)
-nav_order: 735
-evidence_level: L1
+nav_order: 793
+evidence_level: L2
 indication_count: 10
 ---
 
 # Ziprasidone
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,14 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Ziprasidone: From Bipolar Mania/Schizophrenia to Major Affective Disorder
+# Ziprasidone: From Bipolar Disorder and Schizophrenia to Major Affective Disorder
 
 ## One-Sentence Summary
 
-Ziprasidone (DrugBank DB00246) is an atypical antipsychotic historically used for schizophrenia and bipolar mania/mixed episodes, based on literature identifying it as "the fifth atypical antipsychotic approved by FDA for use in bipolar mania and mixed episodes" (PMID 19040553).
-The TxGNN model predicts it may also be effective for **Major Affective Disorder** (bipolar depression and treatment-resistant major depressive disorder, used as monotherapy or augmentation), with **29 clinical trials** and **20 publications** currently supporting this direction.
-This is the strongest-evidenced candidate among the model's top‑10 predictions for this drug — most other high-scoring predictions (e.g. trichotillomania, hydranencephaly, X-linked myopia) have no supporting trials or literature and are assessed as likely model noise.
+Ziprasidone is an atypical antipsychotic originally used for schizophrenia and manic episodes of bipolar disorder.
+The TxGNN model predicts it may be effective for **major affective disorder** (the depression-focused indication that is the strongest-supported prediction among its top candidates), with **7 clinical trials** and **20 publications** currently supporting this direction.
+
+Note: the top-ranked TxGNN prediction (trichotillomania, score 99.83%) has no supporting trials or literature. This report therefore focuses on the best-evidenced candidate, major affective disorder (rank 3).
 
 ---
 
@@ -43,25 +44,25 @@ This is the strongest-evidenced candidate among the model's top‑10 predictions
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (`original_indications` empty). Literature evidence indicates ziprasidone was originally approved for bipolar mania/mixed episodes and schizophrenia (PMID 19040553) |
-| Predicted New Indication | Major Affective Disorder (bipolar depression / major depressive disorder, monotherapy or antidepressant augmentation) |
-| TxGNN Prediction Score | 99.66% |
-| Evidence Level | L1 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Original Indication | Manic bipolar affective disorder, bipolar disorder, schizophrenia (the ARTG entry carries no indication text) |
+| Predicted New Indication | Major affective disorder (rank 3; rank 1 was trichotillomania, with no evidence) |
+| TxGNN Prediction Score | 99.66% (rank 1 trichotillomania: 99.83%) |
+| Evidence Level | L2 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
-
-Note: Of the 10 TxGNN-ranked candidates in this pack, only **major affective disorder** (rank 3, L1/S3) and **Tourette syndrome** (rank 7, L3/S2, "Research Question") have any supporting clinical trial or literature evidence. The remaining 8 candidates (trichotillomania, hydranencephaly, congenital disorder of glycosylation, X-linked myopia variants, retinal dystrophy, polymicrogyria) are scored L5/S0/Hold — the evidence pack's own annotations flag these as likely knowledge-graph noise with no biologically plausible mechanism.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed structured mechanism-of-action data is not available in this evidence pack (flagged as data gap DG002). However, based on the literature evidence collected for the major affective disorder candidate, ziprasidone is a **5-HT2A/D2 receptor antagonist**, a mechanism shared across atypical antipsychotics. This serotonin–dopamine modulating profile is well established as therapeutically relevant not only for psychosis but for mood disorders — it underlies ziprasidone's original approval for bipolar mania/mixed episodes and its subsequent use in bipolar depression and as an antidepressant augmentation agent in treatment-resistant major depressive disorder (MDD).
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ziprasidone antagonises D2 and 5-HT2A receptors, acts as a 5-HT1A agonist, and inhibits serotonin and noradrenaline reuptake. This profile gives a plausible rationale for mood effects.
 
-The relationship between the original indication (bipolar mania) and the predicted new indication (major affective disorder, encompassing bipolar depression and MDD) is a natural pharmacological extension rather than a distant repurposing leap — both fall within the same disease spectrum (bipolar disorder) or share a common downstream neurotransmitter target (serotonergic/dopaminergic dysregulation in mood disorders). This is reinforced by an established treatment-class precedent: multiple second-generation antipsychotics (quetiapine, aripiprazole, olanzapine) already carry regulatory approval for bipolar depression and/or adjunctive MDD treatment, and ziprasidone has been studied extensively in the same clinical context.
+Ziprasidone is already used for bipolar mania and mixed episodes, so mood disorders are a natural extension. Several placebo-controlled Phase 2 trials have tested it in depressive and mixed states and as an adjunct to SSRIs in major depressive disorder. Systematic reviews and network meta-analyses also examine antipsychotic augmentation in treatment-resistant depression.
 
-That said, `original_indications` and `taiwan_regulatory.licenses` are both empty in this evidence pack, meaning the drug's baseline approved indications and Australian regulatory history cannot be independently verified here. This should be cross-checked against the TGA-approved Product Information before any clinical decision is made.
+Caveats: the indication overlaps with the existing bipolar labelling, so the novel element is mainly unipolar or adjunctive depression. Results of the Phase 2 trials are not summarised in the data compiled, so efficacy conclusions remain unverified.
+
+Other predictions with some support: **Tourette syndrome** (rank 7, score 99.63%, evidence level L3) has a small paediatric pilot study (PMID 10714048) and reviews, and D2 antagonism is the established basis for tic suppression. The remaining top-10 predictions (e.g. hydranencephaly, glycosylation disorders, X-linked myopias, retinal dystrophy, polymicrogyria) have no identifiable mechanistic link or clinical evidence and are likely graph-based artefacts.
 
 ---
 
@@ -69,18 +70,15 @@ That said, `original_indications` and `taiwan_regulatory.licenses` are both empt
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00141271](https://clinicaltrials.gov/study/NCT00141271) | Phase 3 | Completed | 536 | Randomised, double-blind, placebo-controlled fixed-flexible dose trial of oral ziprasidone in outpatients with Bipolar I Depression |
-| [NCT00257166](https://clinicaltrials.gov/study/NCT00257166) | Phase 3 | Completed | 238 | 4-week double-blind, placebo-controlled trial of flexible-dose ziprasidone in children/adolescents (10–17y) with Bipolar I Disorder (manic/mixed) |
-| [NCT00483548](https://clinicaltrials.gov/study/NCT00483548) | Phase 3 | Completed | 298 | 6-week double-blind, placebo-controlled trial of ziprasidone as add-on to lithium, valproate or lamotrigine in Bipolar I Depression |
-| [NCT00312494](https://clinicaltrials.gov/study/NCT00312494) | Phase 3 | Completed | 680 | 3-week double-blind, placebo-controlled trial of add-on ziprasidone with lithium or divalproex in acute mania |
-| [NCT00282464](https://clinicaltrials.gov/study/NCT00282464) | Phase 3 | Completed | 392 | 6-week double-blind, placebo-controlled trial of flexible-dose ziprasidone in outpatients with Bipolar I Depression |
-| [NCT00340379](https://clinicaltrials.gov/study/NCT00340379) | Phase 2/3 | Completed | 72 | Head-to-head comparison of ziprasidone monotherapy vs sertraline+haloperidol for psychotic major depression |
-| [NCT00555997](https://clinicaltrials.gov/study/NCT00555997) | Phase 2 | Completed | 120 | 12-week randomised, double-blind, placebo-controlled trial of ziprasidone monotherapy for MDD (HAM-D-17 outcome) |
-| [NCT00633399](https://clinicaltrials.gov/study/NCT00633399) | Phase 2 | Completed | 458 | Three-phase trial of ziprasidone added to SSRIs for SSRI-non-responsive MDD |
-| [NCT00667745](https://clinicaltrials.gov/study/NCT00667745) | Phase 4 | Completed | 283 | LiTMUS effectiveness trial — lithium-optimised treatment for bipolar disorder, with ziprasidone as one adjunctive arm |
-| [NCT01053429](https://clinicaltrials.gov/study/NCT01053429) | N/A | Completed | 3391 | Large post-marketing surveillance study of ziprasidone (Zeldox) safety/efficacy in real-world use |
+| [NCT00633399](https://clinicaltrials.gov/study/NCT00633399) | Phase 2 | Completed | 458 | Three-phase study of ziprasidone added to an SSRI in MDD with inadequate SSRI response; no results summarised |
+| [NCT00555997](https://clinicaltrials.gov/study/NCT00555997) | Phase 2 | Completed | 120 | 12-week randomised, double-blind, placebo-controlled trial of ziprasidone in MDD, with HAM-D-17 as the outcome |
+| [NCT00490542](https://clinicaltrials.gov/study/NCT00490542) | Phase 2 | Completed | 73 | Double-blind, placebo-controlled trial in depressive mixed state |
+| [NCT00340379](https://clinicaltrials.gov/study/NCT00340379) | Phase 2/3 | Completed | 72 | Ziprasidone monotherapy vs sertraline plus haloperidol in psychotic major depression |
+| [NCT01168674](https://clinicaltrials.gov/study/NCT01168674) | Phase 4 | Completed | 49 | 13-week double-blind, placebo-controlled crossover study of predictors of response to ziprasidone augmentation in MDD |
+| [NCT00237666](https://clinicaltrials.gov/study/NCT00237666) | Phase 4 | Completed | 30 | Open-label, flexible-dose trial in bipolar II major depression |
+| [NCT00421954](https://clinicaltrials.gov/study/NCT00421954) | Phase 3 | Completed | 8 | Open-label feasibility study in adolescents with psychotic disorder; too small to support efficacy |
 
-No ANZCTR-registered trials were identified in this evidence pack.
+No ANZCTR identifiers were available in the data compiled.
 
 ---
 
@@ -88,52 +86,53 @@ No ANZCTR-registered trials were identified in this evidence pack.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27835715](https://pubmed.ncbi.nlm.nih.gov/27835715/) | 2017 | RCT | J Clin Psychiatry | Cardiac, endocrine, metabolic and motoric effects of adjunctive ziprasidone in MDD non-responders to escitalopram |
-| [26085041](https://pubmed.ncbi.nlm.nih.gov/26085041/) | 2015 | RCT | Am J Psychiatry | Efficacy of ziprasidone augmentation of escitalopram in persistent non-psychotic unipolar MDD |
-| [24815673](https://pubmed.ncbi.nlm.nih.gov/24815673/) | 2014 | RCT | Int Clin Psychopharmacol | 12-week sequential parallel comparison trial of ziprasidone monotherapy in MDD with/without psychomotor symptoms |
-| [28749091](https://pubmed.ncbi.nlm.nih.gov/28749091/) | 2018 | RCT | J Clin Psychiatry | Efficacy of adjunctive ziprasidone for cognitive symptoms of MDD |
-| [40808264](https://pubmed.ncbi.nlm.nih.gov/40808264/) | 2025 | Systematic Review | Bipolar Disorders | Pharmacological interventions for MDD/bipolar depression with mixed features |
-| [35510505](https://pubmed.ncbi.nlm.nih.gov/35510505/) | 2023 | Review (Meta-analysis) | Psychological Medicine | Efficacy and safety/tolerability of antipsychotics (incl. ziprasidone) in MDD |
-| [35993319](https://pubmed.ncbi.nlm.nih.gov/35993319/) | 2022 | Review (Network Meta-analysis) | Psychological Medicine | Efficacy/acceptability of second-generation antipsychotics with antidepressants in unipolar depression augmentation |
-| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Review (Network Meta-analysis) | J Affect Disord | Augmentation strategies for treatment-resistant major depression |
-| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | Review | J Psychopharmacol | Efficacy/tolerability of antidepressant+SGA combinations vs esketamine vs lithium in MDD |
-| [19040553](https://pubmed.ncbi.nlm.nih.gov/19040553/) | 2008 | Review | CNS Neurosci Ther | Ziprasidone in the treatment of affective disorders — drug-specific mechanistic and clinical review |
+| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Systematic review/NMA | J Affect Disord | Compares augmentation agents for treatment-resistant depression |
+| [35510505](https://pubmed.ncbi.nlm.nih.gov/35510505/) | 2023 | Systematic review/meta-analysis | Psychol Med | Efficacy and tolerability of antipsychotics as monotherapy and adjunct in adult MDD |
+| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | Systematic review/meta-analysis | J Psychopharmacol | Antidepressants plus second-generation antipsychotics vs esketamine vs lithium in major depression |
+| [40808264](https://pubmed.ncbi.nlm.nih.gov/40808264/) | 2025 | Systematic review | Bipolar Disord | Pharmacological treatments for MDD and bipolar depression with mixed features |
+| [27835715](https://pubmed.ncbi.nlm.nih.gov/27835715/) | 2017 | Randomised controlled trial (RCT) | J Clin Psychiatry | Cardiac, endocrine, metabolic and motor effects of ziprasidone added to escitalopram in MDD |
+| [27306192](https://pubmed.ncbi.nlm.nih.gov/27306192/) | 2016 | Post-hoc analysis of RCT | Int Clin Psychopharmacol | Ziprasidone augmentation showed an anxiolytic effect in anxious depression |
+| [26619770](https://pubmed.ncbi.nlm.nih.gov/26619770/) | 2015 | Review | Am J Psychiatry | Adjunctive ziprasidone in major depression and the status of adjunctive atypical antipsychotics |
+| [19040553](https://pubmed.ncbi.nlm.nih.gov/19040553/) | 2008 | Review | CNS Neurosci Ther | Ziprasidone in affective disorders; limited metabolic side effects reported |
+| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | Review | Asia Pac Psychiatry | Antipsychotics as antidepressants, effective at sub-antipsychotic doses |
+| [32512768](https://pubmed.ncbi.nlm.nih.gov/32512768/) | 2020 | Review | Pharmaceuticals (Basel) | Pharmacological options for treatment-resistant depression |
 
 ---
 
 ## Australia Market Information
 
-No ARTG entries were found for ziprasidone in this evidence pack (`total_licenses: 0`, `market_status: Not marketed / Not Marketed`). Ziprasidone does not currently appear to be registered for supply in Australia based on the data available here; this should be confirmed directly against the TGA ARTG database before any repurposing pathway is progressed.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 9070J | ZIPROX | Capsule 20 mg (as hydrochloride), oral | Not recorded in the data compiled |
 
 ---
 
 ## Safety Considerations
 
-Structured safety fields (key warnings, contraindications, drug interactions) are not populated in this evidence pack — `safety.key_warnings` and `safety.contraindications` are both marked as data gaps, and the DDI query returned no results. This is recorded in the evidence pack as **data gap DG001, severity Blocking**, with the stated impact "cannot proceed to S1 safety pre-assessment."
+Product Information warnings and contraindications were not available in the data compiled. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
-Despite the absence of structured safety data, the literature evidence collected for this candidate includes relevant cardiac safety signals worth flagging:
-- A reported case of sudden death in a patient with Tourette syndrome during a ziprasidone clinical trial (PMID 15728441)
-- A systematic review of cardiac/QTc safety of antipsychotic medications in paediatric and adolescent populations (PMID 39549076)
+The following come from a knowledge graph and drug-interaction database, not from label text:
 
-These are consistent with ziprasidone's well-recognised class-level QT-prolongation risk and support the need for cardiac monitoring (baseline and follow-up ECG) if this indication is pursued clinically.
-
-Please refer to the TGA-approved Product Information (PI) — once ziprasidone's Australian registration status is confirmed — for complete, authoritative safety information.
+- **Knowledge-graph contraindication signals** include: long QT syndrome, torsades de pointes, sudden cardiac arrest, heart conduction disease, myocardial infarction, orthostatic hypotension, neutropenia, agranulocytosis, epilepsy, liver failure, kidney disease, diabetes mellitus and diabetic ketoacidosis, hyperglycaemia, hyperlipidaemia, obesity, potassium deficiency, and breast carcinoma.
+- **Drug interactions:** 100 interactions were identified. Those rated **Major** among the first 20 listed include hydrocortisone, amphotericin B (including the lipid complex), bupropion and morphine. Many Moderate interactions were also listed, including with metformin, pioglitazone, famotidine, epinephrine, atropine and loperamide.
+- **Literature-flagged concerns:** QT prolongation (particularly in children and adolescents, PMID 39549076), somnolence and metabolic effects.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Proceed with Guardrails** (for major affective disorder). Tourette syndrome is a research question only, and all other predictions should be held.
 
 **Rationale:**
-Major affective disorder is supported by L1-level evidence — multiple completed Phase 3 RCTs (bipolar depression, acute mania) plus a substantial body of Phase 2 RCTs and meta-analyses on MDD augmentation — and a coherent, literature-supported mechanistic rationale (5-HT2A/D2 antagonism). However, two blocking-severity data gaps prevent immediate progression: ziprasidone's Australian market status is unclear (0 ARTG entries) and TFDA/TGA-level safety labelling (warnings, contraindications) is entirely absent from this evidence pack.
+- Several randomised, placebo-controlled Phase 2 trials, including a large one (n=458), and multiple systematic reviews support ziprasidone in depressive and mixed states. However, the trial results are not summarised in the data compiled, and the indication overlaps with the existing bipolar use. Cardiac (QT) risk requires careful controls.
 
 **To proceed, the following is needed:**
-- Resolve data gap DG001 (Blocking): obtain and review the TGA-approved Product Information for warnings, contraindications and monitoring requirements
-- Resolve data gap DG002 (High): obtain detailed mechanism-of-action data from DrugBank to confirm the mechanistic rationale above
-- Confirm ziprasidone's actual ARTG/TGA registration status and, if unregistered, identify the applicable market-entry or Special Access pathway
-- Verify original approved indications directly against DrugBank/TGA records, since `original_indications` was empty in this evidence pack
-- Given the QT-prolongation signal identified in the literature, build cardiac monitoring (ECG) into any proposed clinical protocol for this indication
+- Published results of NCT00633399, NCT00555997 and NCT00490542 to verify efficacy
+- Mechanism of action data and PI warnings and contraindications (both are data gaps)
+- A baseline and follow-up ECG and electrolyte monitoring plan, and screening against the contraindication signals above
+- Review of interacting medicines, particularly QT-prolonging agents and those rated Major
+- Confirmation of the ARTG-approved indication wording for ZIPROX (it is blank in the data compiled)
+- Paediatric cardiac safety assessment before considering any Tourette syndrome use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

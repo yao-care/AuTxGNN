@@ -2,7 +2,7 @@
 layout: default
 title: Norfloxacin
 parent: Model Prediction Only (L5)
-nav_order: 477
+nav_order: 511
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,54 +33,91 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Norfloxacin is a fluoroquinolone antibacterial; the specific ARTG-approved indication text is not on file for this evidence pack, and it is not currently marketed in Australia.
-The TxGNN model predicts it may be relevant to **Hyperamylasemia**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications**, with no identifiable mechanistic rationale.
+Norfloxacin is a fluoroquinolone antibiotic originally used for urinary tract infections and other bacterial infections, including gastrointestinal infections such as dysentery and diarrhoeal disease.
+The TxGNN model predicts it may be effective for **hyperamylasemia** with a very high score, but **no clinical trials and no publications** support this prediction.
+It is a model-generated signal only and should be treated as a likely graph artefact.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file (drug not marketed in Australia; no ARTG indication text available) |
+| Original Indication | Urinary tract infection, typhoid and paratyphoid fever, salmonellosis, dysentery, diarrhoeal disease, bronchitis, bacterial pneumonia and other bacterial infections (the ARTG entry in the data compiled for this report carries no indication text; these indications come from the knowledge graph) |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 99.70% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Norfloxacin in this evidence pack. Based on general pharmacological knowledge, Norfloxacin belongs to the fluoroquinolone antibacterial class, acting via inhibition of bacterial DNA gyrase and topoisomerase IV.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, norfloxacin is a fluoroquinolone antibacterial that inhibits bacterial DNA gyrase and topoisomerase IV. Its efficacy in urinary tract and gastrointestinal bacterial infections is established.
 
-Hyperamylasemia is a laboratory finding typically associated with pancreatic or salivary gland pathology, and has no established pharmacological connection to antibacterial mechanisms of action. The evidence pack's own analysis reaches the same conclusion, stating there is no identifiable mechanistic link between Norfloxacin's antibacterial activity and hyperamylasemia.
+Hyperamylasemia is a laboratory finding with varied causes (pancreatic, salivary and renal). No antibacterial mechanism plausibly treats it, and no link to norfloxacin's original indications could be identified. The high TxGNN score appears to be a graph-based prediction artefact rather than a biologically meaningful signal.
 
-No clinical trials or published literature currently link Norfloxacin to hyperamylasemia. This prediction should be treated as a knowledge-graph association arising from the TxGNN model's embedding space rather than a clinically or mechanistically supported repurposing candidate.
+For context, the other predicted indications reviewed were also weak. Most had no supporting data at all. The only biologically plausible candidate was **septicaemic plague** (rank 10), where *Yersinia pestis* is susceptible to fluoroquinolones. However, support is limited to animal and in vitro studies, and better-established agents exist.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available for hyperamylasemia.
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 3010K | APO-Norfloxacin | Tablet 400 mg (oral) | Not stated in the data compiled for this report |
+
+---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+**Contraindication-related disease associations (knowledge graph, not label text):**
+The knowledge graph links norfloxacin to contraindications or cautions in the following groups of conditions:
+- **Cardiac rhythm:** long QT syndrome, familial long QT syndrome, torsades de pointes
+- **Hepatic and renal:** liver failure, liver disease, cirrhosis, gallbladder disease, kidney disease
+- **Neurological and psychiatric:** epilepsy, peripheral neuropathy, peripheral nervous system disease, anxiety disorder, psychotic and schizoaffective disorders, mental disorder
+- **Musculoskeletal:** tendinitis, periarthritis, rhabdomyolysis
+- **Metabolic and haematological:** diabetes mellitus, diabetic ketoacidosis, potassium deficiency, thrombocytopenia, anaemia
+
+**Drug interactions:** 100 interactions were identified. Examples of **Major** interactions:
+- Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone (tendon injury risk)
+- Bupropion
+- Chlorpropamide (blood glucose disturbance)
+
+Examples of **Moderate** interactions:
+- Antidiabetic agents: metformin, pioglitazone, acarbose, alogliptin, canagliflozin, albiglutide
+- Calcium-containing products: calcium acetate, calcium phosphate
+- Others: famotidine, loperamide, acetylsalicylic acid, balsalazide, bisacodyl, potassium citrate
+
+Please refer to the TGA-approved Product Information (PI) for official warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN similarity score, there is no mechanistic rationale, no clinical trial, and no published literature connecting Norfloxacin to hyperamylasemia — this is an L5, model-prediction-only signal and does not currently justify further investment.
+The prediction has no clinical, literature or mechanistic support, and the score appears to be a model artefact. Norfloxacin also carries notable safety concerns (QT prolongation, tendon, neurological and glucose effects) that make speculative use unattractive.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for Norfloxacin
-- TGA/TFDA-sourced Product Information for safety and contraindication review
-- Any preclinical or mechanistic rationale connecting fluoroquinolone activity to amylase regulation, if it exists
-- Note: among the other 9 predictions in this evidence pack, **rank 10 (septicemic plague)** has materially stronger support (Evidence Level L4, decision stage S1, "Research Question") based on Norfloxacin's known antibacterial activity against *Yersinia pestis* and CDC/WHO fluoroquinolone-class guidance — this may be a more productive candidate for a separate evaluation
+- A plausible mechanistic hypothesis linking norfloxacin to hyperamylasemia, which currently does not exist
+- Mechanism of action data and the TGA Product Information for APO-Norfloxacin
+- If a repurposing direction is still wanted, consider re-evaluating **septicaemic plague**, where the antibacterial rationale is biologically plausible. This would need norfloxacin-specific data compared against better-established agents.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

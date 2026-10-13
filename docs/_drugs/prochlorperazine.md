@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Prochlorperazine
-parent: Moderate Evidence (L3-L4)
-nav_order: 563
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 605
+evidence_level: L5
 indication_count: 10
 ---
 
 # Prochlorperazine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,73 +29,104 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Prochlorperazine: From Nausea/Vomiting and Psychotic Symptom Control to Manic Bipolar Affective Disorder
-
-> **Note on candidate selection:** The evidence pack's top-scored prediction (rank 1, *retinal dystrophy with or without extraocular anomalies*, score 99.998%) and ranks 2–9 are all congenital/genetic disorders. The evidence pack's own analyst notes for every one of these state there is **no mechanistic link and no drug-specific literature or trial support** — they are flagged as likely knowledge-graph co-occurrence noise (`decision_stage: S0`, `recommendation: Hold`). This report therefore focuses on **rank 10, manic bipolar affective disorder**, the only prediction with a biologically plausible mechanism, a `decision_stage` of S1, and supporting literature.
+# Prochlorperazine: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies
 
 ## One-Sentence Summary
 
-Prochlorperazine is a phenothiazine-class D2-receptor antagonist, used clinically for nausea/vomiting and psychotic symptom control. The TxGNN model predicts possible efficacy in **manic bipolar affective disorder**, a mechanistically plausible extension of its antipsychotic class effect, but the evidence base is currently limited to **0 clinical trials** and **12 pieces of literature** — mostly class-level reviews and case reports rather than drug-specific trial data.
+Prochlorperazine is a phenothiazine dopamine antagonist, recorded in the knowledge graph as indicated for schizophrenia.
+The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but this is a computational prediction only, with **0 clinical trials** and **0 publications** supporting it.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in ARTG records — prochlorperazine is not currently marketed in Australia. Per evidence-pack rationale text, it is used clinically for nausea/vomiting and psychotic symptom control. |
-| Predicted New Indication | Manic Bipolar Affective Disorder |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Original Indication | Schizophrenia (from the knowledge graph; no approved indication text is available for the Australian product) |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN Prediction Score | 99.998% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed structured mechanism-of-action data is not available for prochlorperazine in this evidence pack (flagged as a High-severity data gap). Based on known information in the evidence pack's own rationale, prochlorperazine is a phenothiazine-class dopamine D2-receptor antagonist, in the same pharmacological family as first-generation antipsychotics such as chlorpromazine and haloperidol.
+Detailed mechanism of action data is not available in the data compiled for this report. Prochlorperazine is a phenothiazine that blocks dopamine D2 receptors, and this action underlies its use in schizophrenia.
 
-D2 antagonism is the established mechanism behind the antimanic efficacy of first-generation antipsychotics in acute mania — dopamine blockade reduces the excess dopaminergic transmission associated with manic states. This gives the TxGNN prediction a degree of biological plausibility that is absent from the model's higher-scored but mechanistically unrelated congenital-disease predictions.
+No mechanistic link was identified between D2 antagonism and inherited retinal dystrophies. These conditions arise from genetic defects in retinal structure and function, and prochlorperazine has no known effect on those pathways. The very high TxGNN score (99.998%, model rank 73) reflects similarity patterns in the knowledge graph rather than biological or clinical evidence.
 
-However, prochlorperazine itself is not established as a first-line (or even routinely used) antimanic agent — it is used almost exclusively for nausea/vomiting and short-term psychotic/anxiety symptom control. The supporting literature reflects this: it is largely class-level evidence (phenothiazines/antipsychotics in general) rather than trial data on prochlorperazine specifically in mania. One historical case report (1959) does describe a confusional reaction to prochlorperazine in a patient with mild manic-depressive illness, but this documents an adverse psychiatric effect during use for another indication, not therapeutic efficacy in mania.
+The prediction should therefore be treated as a hypothesis-generating signal only.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [13617778](https://pubmed.ncbi.nlm.nih.gov/13617778/) | 1959 | Case Report | Annales médico-psychologiques | Confusional dream-like episode caused by prochlorperazine in a patient with mild manic-depressive illness — direct drug-specific observation, but describes an adverse effect, not antimanic efficacy |
-| [19461391](https://pubmed.ncbi.nlm.nih.gov/19461391/) | 2009 | Review | J Psychiatric Practice | Use and safety of antipsychotic drugs (class review) during pregnancy, incl. bipolar-spectrum indications |
-| [15863814](https://pubmed.ncbi.nlm.nih.gov/15863814/) | 2005 | Review | American Journal of Psychiatry | Quetiapine discontinuation syndrome — antipsychotic class context |
-| [26819726](https://pubmed.ncbi.nlm.nih.gov/26819726/) | 2015 | Pharmacovigilance/Adverse Event Analysis | J Pharmaceutical Health Care and Sciences | FAERS analysis of hyperglycaemic adverse events across dopamine-antagonist antipsychotics used in schizophrenia and bipolar disorder |
-| [235013](https://pubmed.ncbi.nlm.nih.gov/235013/) | 1975 | Case Report | Journal of the Neurological Sciences | Tardive dyskinesia induced by phenothiazines, treated with pimozide — class-level toxicity data |
-| [6069087](https://pubmed.ncbi.nlm.nih.gov/6069087/) | 1967 | Case Series | Neurology | Spontaneous seizures and EEG changes during phenothiazine therapy |
-| [4238455](https://pubmed.ncbi.nlm.nih.gov/4238455/) | 1969 | Review | Clinical Pharmacology and Therapeutics | General review of psychotherapeutic drug use, including phenothiazines |
-| [14233737](https://pubmed.ncbi.nlm.nih.gov/14233737/) | 1964 | Review/Survey | American Journal of Psychiatry | ECT combined with phenothiazines and reserpine — historical psychiatric management survey |
-| [14242542](https://pubmed.ncbi.nlm.nih.gov/14242542/) | 1965 | Review | Obstetrics and Gynecology | Management of severe psychologic disorders of the puerperium, including phenothiazine use |
-| [14222730](https://pubmed.ncbi.nlm.nih.gov/14222730/) | 1964 | Review | L'Encéphale | Psychodysleptic manifestations occurring during treatment with psycholeptic drugs |
+Currently no related literature available.
+
+---
 
 ## Australia Market Information
 
-Prochlorperazine currently has no ARTG entries and is not marketed in Australia (0 licences on record).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 2369Q | Stemetil | Injection containing prochlorperazine mesilate 12.5 mg in 1 mL | Not stated in the data compiled |
+
+Only an injectable form is registered. Route compatibility with the predicted indication has not been assessed.
+
+---
 
 ## Safety Considerations
 
-No structured safety data (key warnings, contraindications, or drug interactions) is currently available for this candidate, and this is flagged as a **Blocking** data gap (DG001) in the evidence pack. As prochlorperazine is not currently ARTG-listed, there is no Australian TGA-approved Product Information to reference; safety review would need to draw on comparable overseas regulatory documentation (e.g. UK/US product information) as an interim source.
+Product Information warnings and contraindications were not available for this report. Please refer to the TGA-approved Product Information (PI) for label safety information.
+
+**Contraindication signals from the knowledge graph** (these are graph-derived associations, not label text):
+- **Cardiovascular:** hypertension, orthostatic hypotension, postural orthostatic tachycardia syndrome, long QT syndrome (including familial), torsades de pointes, coronary artery disease, myocardial infarction
+- **Neurological:** epilepsy, basal ganglia disease, multiple system atrophy, focal hand dystonia, blepharospasm
+- **Haematological:** thrombocytopenia, neutropenia, agranulocytosis
+- **Hepatic, renal and gastrointestinal:** liver disease, kidney disease, gallbladder disease, gastric ulcer
+- **Metabolic and other:** hyperglycaemia, obesity disorders, benign prostatic hyperplasia, female breast carcinoma, substance abuse/dependence
+
+The interaction query returned 100 interactions, and 20 are listed in the data compiled. **Major** interactions:
+- Bupropion
+- Potassium citrate
+
+**Moderate** interactions include:
+- Antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, albiglutide, canagliflozin, chlorpropamide)
+- Anticholinergics (atropine, hyoscyamine, glycopyrronium)
+- Morphine
+- Clarithromycin
+- Epinephrine
+- Famotidine
+- Loperamide
+- Lorcaserin
+- Bisacodyl
+- Picosulfuric acid
+
+For an inherited retinal dystrophy population, the neurological adverse effects of phenothiazines (such as extrapyramidal symptoms) would also need careful consideration.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Prochlorperazine is not currently marketed in Australia, and the manic bipolar affective disorder prediction — while mechanistically plausible — is supported only by class-level (phenothiazine/antipsychotic) literature rather than drug-specific trial evidence; no clinical trials exist for this indication. The model's higher-scored predictions (ranks 1–9) were assessed by the evidence pack itself as likely artifacts with no mechanistic or literature support and are not viable candidates.
+The prediction rests on a model score alone. There are no trials or publications, no plausible mechanism, and the drug has a substantial safety burden. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Confirmed original mechanism-of-action data (DG002, High severity)
-- TGA/TFDA-equivalent product warnings and contraindications (DG001, Blocking severity) — required before any S1 safety screening can occur
-- An Australian market-entry regulatory pathway assessment, since there are currently 0 ARTG entries
-- Prospective or retrospective clinical evidence evaluating prochlorperazine specifically (not the phenothiazine class generally) in mania/bipolar disorder
+- A biologically plausible mechanistic hypothesis linking D2 antagonism to retinal degeneration, supported by preclinical data
+- Mechanism of action data and the TGA Product Information safety sections (warnings and contraindications)
+- An assessment of route compatibility, since only an injectable is registered in Australia
+- A comparison with other model predictions for this drug. For example, **manic bipolar affective disorder** is more biologically plausible (D2 antagonists are an established class for mania), though the supporting literature is old and weak and no trials are registered. It may be a more productive research question than the retinal prediction.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

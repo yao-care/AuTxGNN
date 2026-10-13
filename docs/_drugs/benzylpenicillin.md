@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Benzylpenicillin
-parent: Moderate Evidence (L3-L4)
-nav_order: 83
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 89
+evidence_level: L5
 indication_count: 10
 ---
 
 # Benzylpenicillin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,94 +33,95 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Benzylpenicillin (Penicillin G) is one of the oldest and most established β-lactam antibiotics, with a long clinical history of use against susceptible Gram-positive bacteria and anaerobic organisms.
-The TxGNN model predicts it may be effective for **Pericoronitis**, with **no registered clinical trials** but **20 supporting publications** currently identified for this direction.
-
----
+Benzylpenicillin (penicillin G) is an injectable penicillin antibiotic originally used for streptococcal, meningococcal, pneumococcal and staphylococcal infections, anthrax and endocarditis.
+The TxGNN model predicts it may be effective for **pericoronitis**, but there are currently **no clinical trials and no publications** supporting this prediction. The result is a model-only signal.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Susceptible bacterial infections (TGA ARTG data not retrieved in automated analysis) |
+|------|------|
+| Original Indication | Bacterial infections, including streptococcal, meningococcal, pneumococcal and staphylococcal infections, anthrax, endocarditis and infectious otitis media (the ARTG entry in the data compiled for this report carries no indication text; these are from the knowledge graph) |
 | Predicted New Indication | Pericoronitis |
 | TxGNN Prediction Score | 99.36% |
-| Evidence Level | L3 |
-| Australia Market Status | Not retrieved (0 ARTG entries found) |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-> **Note on ARTG data**: The automated data collection returned 0 ARTG entries for Benzylpenicillin. This likely reflects a data retrieval gap rather than genuine non-availability — Benzylpenicillin is a well-established injectable antibiotic in clinical use globally. Clinical teams should verify current registration status directly via the [TGA ARTG Public Summary](https://www.tga.gov.au/resources/artg) before prescribing.
-
----
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Benzylpenicillin (Penicillin G) is a naturally occurring β-lactam antibiotic that exerts bactericidal activity by irreversibly binding to penicillin-binding proteins (PBPs) on the bacterial cell wall, thereby inhibiting peptidoglycan cross-linking and triggering cell lysis. Although the automated data pipeline did not retrieve formal MOA documentation (DrugBank query returned incomplete data for this field), benzylpenicillin's mechanism is among the most thoroughly documented in all of antimicrobial pharmacology.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, benzylpenicillin is a beta-lactam antibiotic whose efficacy against susceptible streptococci and many anaerobic organisms is well established. Mechanistically, it may be applicable to pericoronitis.
 
-Pericoronitis — acute infection of the soft tissue surrounding a partially erupted wisdom tooth — is caused by a polymicrobial oral flora dominated by aerobic viridans group streptococci alongside obligate anaerobes including *Peptostreptococcus*, *Fusobacterium nucleatum*, *Bacteroides* species, and spirochetes. Benzylpenicillin maintains strong bactericidal activity against Gram-positive streptococci and many of these anaerobic organisms, making its mechanism of action directly applicable to the pathogenic profile of pericoronitis. Contemporary dental infectious disease guidance (Cooper et al., 2022) specifically recommends β-lactam monotherapy as the first-line antibiotic class for non-periodontal dental infections, of which pericoronitis is a primary example.
+Pericoronitis is a polymicrobial infection (streptococci and anaerobes) around a partially erupted tooth. Benzylpenicillin's activity against these organisms is biologically plausible. However, the link currently rests only on a high TxGNN score. Oral penicillins (such as penicillin V or amoxicillin) are the agents used clinically, and parenteral benzylpenicillin is generally reserved for severe infection.
 
-The principal caveat is the presence of β-lactamase–producing strains in pericoronitis isolates: Sixou et al. (PMID:12789143) documented β-lactamase–producing bacteria in mandibular third molar pericoronitis, meaning benzylpenicillin monotherapy may fail in a clinically significant subset of patients. No head-to-head clinical trial comparing benzylpenicillin directly against current standard-of-care (typically amoxicillin ± metronidazole) exists for this indication. Pathogen-directed stewardship and local resistance data are therefore essential before broad clinical adoption.
+### Other Predicted Indications
 
----
+The other top-ranked predictions are weaker and all carry a Hold recommendation:
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|------|
+| 2 | Gingival recession | 99.31% | L5 | Mainly mechanical and inflammatory; no clear antibacterial rationale |
+| 3 | Canker sore | 99.27% | L5 | Immune-mediated; no defined bacterial driver |
+| 4 | Ulcerative stomatitis | 99.26% | L5 | Relevant only with secondary bacterial infection |
+| 5 | Denture stomatitis | 99.26% | L5 | Mostly Candida-associated; rationale weak or contradictory |
+| 6 | Chemotherapy-induced oral mucositis | 99.26% | L5 | Does not target the primary pathology |
+| 7 | Leukoplakia of gingiva | 99.06% | L5 | No plausible antibacterial mechanism |
+| 8 | Conjunctivitis | 97.94% | L4 | Compatible with susceptible bacteria, but literature is off-target |
+| 9 | Cat-scratch disease | 97.78% | L5 | *Bartonella* not reliably treated by penicillins |
+| 10 | Chronic ethmoidal sinusitis | 97.63% | L5 | Polymicrobial, biofilm-associated, beta-lactamase producers |
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials for Benzylpenicillin specifically in pericoronitis are registered on ClinicalTrials.gov or ANZCTR (Australian New Zealand Clinical Trials Registry).
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [35959239](https://pubmed.ncbi.nlm.nih.gov/35959239/) | 2022 | Systematic Review | JAC-Antimicrobial Resistance | β-lactam monotherapy recommended as first-line for non-periodontal dental infections (including pericoronitis); metronidazole reserved only when systemic involvement is confirmed |
-| [1873287](https://pubmed.ncbi.nlm.nih.gov/1873287/) | 1991 | Survey/Expert Opinion | Br J Oral Maxillofac Surg | British oral surgeons identify predominantly anaerobic flora in acute pericoronitis; penicillins (amoxycillin) and metronidazole identified as effective antimicrobials |
-| [12789143](https://pubmed.ncbi.nlm.nih.gov/12789143/) | 2003 | Microbiology Study | Oral Surg Oral Med Oral Pathol | Characterised predominant flora in pericoronitis; critically identified β-lactamase–producing strains — the primary mechanistic limitation of benzylpenicillin monotherapy |
-| [26067725](https://pubmed.ncbi.nlm.nih.gov/26067725/) | 2015 | Retrospective Study | J Contemp Dent Pract | One-year retrospective on odontogenic infection prevalence and management in an emergency dental service; documents antibiotic prescribing patterns |
-| [40381916](https://pubmed.ncbi.nlm.nih.gov/40381916/) | 2025 | Surveillance Study | J Infect Chemother | Second Japanese antimicrobial susceptibility surveillance of odontogenic infection isolates (2018 data), including pericoronitis subgroup; provides up-to-date resistance profiles |
-| [32591324](https://pubmed.ncbi.nlm.nih.gov/32591324/) | 2020 | Surveillance Study | J Infect Chemother | First Japanese antimicrobial susceptibility surveillance for odontogenic infections (2013 data); 6 pericoronitis samples with penicillin susceptibility data included |
-| [16388299](https://pubmed.ncbi.nlm.nih.gov/16388299/) | 2006 | Microbiology Study | Med Oral Patol Oral Cir Bucal | Antibiotic susceptibility of bacteria in odontogenic infections and lower third molar pericoronitis; key resource for spectrum-of-activity data |
-| [29693642](https://pubmed.ncbi.nlm.nih.gov/29693642/) | 2018 | Narrative Review | Antibiotics (Basel) | Review of antibiotic prescribing for oro-facial infections in paediatric outpatients; penicillins noted as first-choice class; highlights antibiotic stewardship concerns |
-| [21027620](https://pubmed.ncbi.nlm.nih.gov/21027620/) | 1946 | Case Report | Am J Orthod Oral Surg | Submaxillary abscess arising from acute pericoronitis successfully treated by aspiration and instillation of penicillin — earliest direct clinical evidence for penicillin in pericoronitis |
-| [36268928](https://pubmed.ncbi.nlm.nih.gov/36268928/) | 2022 | Narrative Review | Eur J Transl Myol | Antibiotic use in odontogenic/endodontic treatment during pregnancy; β-lactams identified as the safer first-line choice, including pericoronitis scenarios |
+Currently no related literature available for pericoronitis.
 
----
+For the lower-ranked prediction of conjunctivitis, six publications were retrieved, but none provides clinical efficacy data in human conjunctivitis:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [2936791](https://pubmed.ncbi.nlm.nih.gov/2936791/) | 1986 | Diagnostic/allergy test study | J Allergy Clin Immunol | Lymphocyte transformation test for occupational drug allergy (bacampicillin, alprenolol, quinidine) |
+| [33789741](https://pubmed.ncbi.nlm.nih.gov/33789741/) | 2021 | Case series | J Med Case Rep | Congenital syphilis in seven infants in Lusaka, Zambia |
+| [17496706](https://pubmed.ncbi.nlm.nih.gov/17496706/) | 2007 | Case report | Eye Contact Lens | Severe microbial keratitis in keratoglobus with vernal keratoconjunctivitis and atopic dermatitis |
+| [453797](https://pubmed.ncbi.nlm.nih.gov/453797/) | 1979 | Microbiology study | Antibiotiki | Antibiograms of staphylococci from patients with eye diseases |
+| [6364656](https://pubmed.ncbi.nlm.nih.gov/6364656/) | 1983 | Experimental animal study | Zh Mikrobiol Epidemiol Immunobiol | Neutrophil phagocytic activity in experimental keratoconjunctivitis |
+| [2704058](https://pubmed.ncbi.nlm.nih.gov/2704058/) | 1989 | Veterinary pharmacokinetic study | J Vet Pharmacol Ther | Penicillin concentrations in bovine conjunctival sac fluid after topical application |
 
 ## Australia Market Information
 
-No ARTG entries for Benzylpenicillin were retrieved in the automated data collection underpinning this report. Given that benzylpenicillin is a globally established injectable antibiotic, this is most likely a data retrieval gap rather than an indication that the product is unavailable in Australia.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1775K | BenPen | Powder for injection 600 mg (as sodium) | Not specified in the data compiled for this report |
 
-Clinical teams should independently verify current TGA registration status and retrieve the approved Product Information (PI) directly from the [TGA ARTG Public Summary](https://www.tga.gov.au/resources/artg) prior to any prescribing or formulary decision.
-
----
+Only an injectable formulation is registered.
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for full safety information, as automated safety data was not retrieved for this report.
+- **Contraindications (from knowledge graph, not label text):** kidney disease, pyoureter, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, infectious mononucleosis and chronic Epstein-Barr virus infection syndrome. These should be confirmed against the TGA-approved Product Information (PI).
+- **Drug Interactions:** 21 interactions were identified.
+  - **Major:** methotrexate.
+  - **Moderate:** doxycycline, minocycline, tetracycline, oxytetracycline, demeclocycline, chloramphenicol, warfarin, dicoumarol, ethinylestradiol, mycophenolic acid, picosulfuric acid, iodide I-123, iodide I-131.
+  - **Minor:** clarithromycin, erythromycin.
+  - **Unknown severity:** salbutamol, acyclovir, gentamicin, levothyroxine.
+- Penicillin sensitisation is a particular concern for any new topical or local use.
 
-> **Critical clinical reminder**: Benzylpenicillin carries a well-established risk of hypersensitivity reactions, ranging from mild rash to life-threatening anaphylaxis. A thorough allergy history — including prior penicillin reactions and cross-reactivity with cephalosporins — is mandatory before use. Emergency resuscitation facilities should be available when administering parenteral benzylpenicillin.
-
----
+Please refer to the TGA-approved Product Information (PI) for full warnings and precautions.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic basis for benzylpenicillin in pericoronitis is well-founded — the drug's β-lactam activity covers the dominant streptococcal and anaerobic pathogens driving this infection — and a systematic review alongside multiple observational and microbiology studies provide L3-level support. However, documented β-lactamase resistance in pericoronitis isolates, the absence of a dedicated RCT for benzylpenicillin in this indication, and unconfirmed TGA ARTG registration status mean that guardrails are necessary before clinical adoption.
+The prediction for pericoronitis is supported only by a model score, with no clinical trials or publications. Established oral penicillins already cover this use, and parenteral benzylpenicillin is generally reserved for severe infection. The other predicted indications have weaker or contradictory mechanistic rationale.
 
 **To proceed, the following is needed:**
-
-- **Verify ARTG registration**: Confirm Benzylpenicillin's current TGA listing and obtain the approved Australian Product Information (PI) to define approved dosing, contraindications, and warnings
-- **Retrieve formal MOA and safety data**: Complete the DrugBank API query (DG002 remediation) and obtain TFDA/TGA PI warnings (DG001 remediation)
-- **Local resistance assessment**: Review Australian oral microbiology resistance data — particularly β-lactamase prevalence in pericoronitis isolates — before recommending benzylpenicillin monotherapy over amoxicillin–clavulanate
-- **Antibiotic stewardship alignment**: Clarify pathway for injectable benzylpenicillin versus oral amoxicillin in line with current Australian Therapeutic Guidelines (Oral and Dental) to define where benzylpenicillin adds clinical value
-- **Prospective clinical audit**: A small, prospective comparative study of benzylpenicillin versus standard-of-care antibiotics in pericoronitis within an Australian dental or maxillofacial setting would upgrade the evidence level to L2 and strengthen the repurposing case
-
----
-
-> **Disclaimer**: This report is intended for research reference purposes only and does not constitute medical advice. All drug repurposing candidates identified by TxGNN require clinical validation before therapeutic application. Prescribers should consult current Australian Therapeutic Guidelines and TGA-approved Product Information.
+- Clinical or observational evidence of benzylpenicillin in pericoronitis, or comparative data against oral penicillins
+- Mechanism of action data and TGA PI warnings and contraindications to complete safety screening
+- Approved indication text for the BenPen ARTG entry
+- Route and formulation assessment, since only an injectable form is registered
+- A review of the methotrexate interaction and other relevant interactions for the intended population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

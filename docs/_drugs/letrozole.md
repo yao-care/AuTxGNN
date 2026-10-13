@@ -2,7 +2,7 @@
 layout: default
 title: Letrozole
 parent: High Evidence (L1-L2)
-nav_order: 392
+nav_order: 421
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Letrozole: From Breast Cancer to Female Breast Carcinoma
+# Letrozole: From Breast Cancer (Original Indication) to Female Breast Carcinoma
 
 ## One-Sentence Summary
 
-Letrozole is a third-generation aromatase inhibitor whose established clinical role — per the literature captured in this evidence pack — is hormone receptor-positive breast cancer in postmenopausal women. TxGNN's top-ranked signal is **Female Breast Carcinoma** (score 99.98%), backed by **50 clinical trials** and **20 publications**, but this evidence set largely reflects letrozole's already-known indication rather than a genuinely novel repurposing target — Australian regulatory (ARTG) records and the drug's original-indication field are both currently blank in this dataset.
+Letrozole is a nonsteroidal aromatase inhibitor, marketed in Australia as Femara 2.5 mg tablets, and used in hormone-receptor-positive breast cancer.
+The TxGNN model predicts it may be effective for **female breast carcinoma**, with **40 clinical trials** and **20 publications** compiled for this prediction.
+This is already an established use of letrozole, so the prediction confirms an existing indication rather than revealing a new one.
 
 ---
 
@@ -41,42 +43,50 @@ Letrozole is a third-generation aromatase inhibitor whose established clinical r
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in ARTG data in this pack; literature describes letrozole as an established hormone receptor-positive (HR+) breast cancer therapy (PMID 20095792, 36243120) |
-| Predicted New Indication | Female Breast Carcinoma |
+| Original Indication | Not available in the data compiled for this report (the Australian licence record has no indication text) |
+| Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L1 |
-| Australia Market Status | Not marketed (per current data) |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed DrugBank mechanism-of-action data is not available for this candidate. Based on the literature retrieved in this evidence pack, letrozole is a third-generation, non-steroidal **aromatase inhibitor**: it blocks conversion of adrenal androgens to oestrogens, lowering circulating oestrogen levels and thereby slowing the growth of oestrogen-dependent tumours (PMID 20095792).
+Detailed mechanism-of-action data was not available in the compiled data. Letrozole is a nonsteroidal aromatase inhibitor. It blocks the conversion of androgens to oestrogens, which deprives hormone-receptor-positive tumours of oestrogen-driven growth.
 
-The overlap between letrozole's known use and the "predicted" indication here is important to flag transparently. Female breast carcinoma is the disease area letrozole is globally best known for treating, and several trials/publications in the supporting evidence (e.g. NCT01740427/PALOMA‑2, NCT00754845/MA.17 extension) are large, long-established registration or post-marketing studies rather than exploratory repurposing trials. The evidence pack's own annotation for the closely related "estrogen-receptor positive breast cancer" candidate (rank 5) makes this explicit: *"letrozole 直接切斷腫瘤生長驅動因子，機轉高度吻合，屬其核心已驗證適應症而非新假說"* (mechanistically well matched — this is a core, already-validated indication rather than a new hypothesis).
+This is also the core mechanism behind its established use in hormone-receptor-positive breast cancer. The predicted indication therefore closely matches what the drug already does, and the model's high score is consistent with that.
 
-**Practical implication**: this candidate should be read as *confirmatory, high-confidence evidence* for letrozole in breast cancer, not as a novel repurposing signal. Because the original-indication field and Australian ARTG record are both empty in this dataset, a formal comparison against letrozole's currently approved Australian indication cannot yet be completed — this needs to be closed before any guardrailed use decision is finalised.
+Phase 3 data (MONALEESA-2, PALOMA-2, COMPLEEMENT-1) show benefit when letrozole is combined with CDK4/6 inhibitors. This is not a true repurposing finding.
+
+The other nine TxGNN predictions vary widely in quality:
+- **Established or closely related use (breast disease):** oestrogen-receptor-positive breast cancer (L1, Proceed with Guardrails).
+- **Research questions:** hormone-resistant breast carcinoma (L2), bilateral breast carcinoma (L2) and breast carcinoma by gene expression profile (L3).
+- **Hold, limited evidence:** nipple carcinoma (L4, case reports only) and oestrogen-receptor-negative breast cancer (L4).
+- **Hold, likely false positive or no clinical evidence:** oestrogen-receptor-negative breast cancer (a letrozole effect is not expected, and the matched trials are almost all in ER+/HR+ disease), Ehrlich tumour carcinoma (a mouse model with one preclinical study), breast fibrocystic disease and benign mammary dysplasia (no trials or literature, so the link rests only on the model score).
 
 ---
 
 ## Clinical Trial Evidence
 
+The table lists the most relevant of the 40 trials compiled for this prediction. The first five are rated directly relevant (A) or relevant (B) in the data.
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02600923](https://clinicaltrials.gov/study/NCT02600923) | Phase 3 | Completed | 131 | Palbociclib + letrozole in HR+/HER2- postmenopausal advanced breast cancer (Latin America access study) |
-| [NCT02338310](https://clinicaltrials.gov/study/NCT02338310) | Phase 3 | Active, not recruiting | 4,486 | Large perioperative aromatase-inhibitor trial in postmenopausal HR+ breast cancer, with Ki67 as a recurrence predictor |
-| [NCT01740427](https://clinicaltrials.gov/study/NCT01740427) | Phase 3 | Completed | 666 | PALOMA-2: palbociclib + letrozole vs placebo + letrozole as first-line therapy in ER+/HER2- advanced breast cancer |
-| [NCT00754845](https://clinicaltrials.gov/study/NCT00754845) | Phase 3 | Completed | 1,918 | Extended adjuvant letrozole vs placebo after 5 years of prior aromatase-inhibitor therapy (MA.17-related) |
-| [NCT00171340](https://clinicaltrials.gov/study/NCT00171340) | Phase 3 | Completed | 1,065 | Zoledronic acid timing for prevention of letrozole-associated bone loss in adjuvant therapy |
-| [NCT00171704](https://clinicaltrials.gov/study/NCT00171704) | Phase 3 | Completed | 263 | Letrozole vs tamoxifen — effects on bone and lipid metabolism in resected HR+ early breast cancer |
-| [NCT02278120](https://clinicaltrials.gov/study/NCT02278120) | Phase 3 | Completed | 672 | Ribociclib vs placebo with tamoxifen/NSAI + goserelin in premenopausal HR+/HER2- advanced breast cancer |
-| [NCT03056755](https://clinicaltrials.gov/study/NCT03056755) | Phase 2 | Completed | 383 | BYLieve: alpelisib + fulvestrant or letrozole in PIK3CA-mutant HR+/HER2- advanced breast cancer |
-| [NCT00310180](https://clinicaltrials.gov/study/NCT00310180) | Phase 3 | Active, not recruiting | 10,273 | TAILORx — Oncotype DX-guided hormone therapy ± chemotherapy in node-negative ER+ breast cancer |
-| [NCT06223698](https://clinicaltrials.gov/study/NCT06223698) | Phase 3 | Not yet recruiting | 3,832 | SWE-Switch: extended adjuvant endocrine therapy strategy comparison in high-risk luminal breast cancer |
+| [NCT02941926](https://clinicaltrials.gov/study/NCT02941926) | Phase 3b | Completed | 3,246 | COMPLEEMENT-1: ribociclib plus letrozole in HR+/HER2- advanced breast cancer with no prior hormonal therapy; large safety and efficacy dataset |
+| [NCT02600923](https://clinicaltrials.gov/study/NCT02600923) | Phase 3 | Completed | 131 | Palbociclib plus letrozole in postmenopausal women with HR+/HER2- advanced breast cancer (access study in Latin America) |
+| [NCT03425838](https://clinicaltrials.gov/study/NCT03425838) | Phase 3 | Active, not recruiting | 1,050 | SONIA (BOOG 2017-03): CDK4/6 inhibitor with an aromatase inhibitor in first line versus second line |
+| [NCT01740427](https://clinicaltrials.gov/study/NCT01740427) | Phase 3 | Completed | 666 | PALOMA-2: palbociclib plus letrozole versus placebo plus letrozole in ER+/HER2- advanced breast cancer |
+| [NCT00908531](https://clinicaltrials.gov/study/NCT00908531) | Phase 3 | Terminated | 123 | DBCG trial: 4 months of letrozole versus surgery first in postmenopausal HR+ tumours over 2 cm; limited power because it ended early |
+| [NCT00382070](https://clinicaltrials.gov/study/NCT00382070) | Phase 3 | Unknown | 3,966 | Five years of letrozole versus placebo after completing 5 years of hormonal therapy |
+| [NCT04272801](https://clinicaltrials.gov/study/NCT04272801) | Phase 2 | Active, not recruiting | 84 | Pre-operative endocrine window in older women to inform radiation decisions |
+| [NCT00728949](https://clinicaltrials.gov/study/NCT00728949) | Phase 2 | Completed | 93 | IMC-A12 alone or with antioestrogens after progression on antioestrogen therapy |
+| [NCT02712723](https://clinicaltrials.gov/study/NCT02712723) | Phase 2 | Active, not recruiting | 121 | Letrozole plus ribociclib or placebo as neoadjuvant therapy in ER+/HER2- early breast cancer |
+| [NCT01439711](https://clinicaltrials.gov/study/NCT01439711) | Phase 2 | Completed | 108 | Neoadjuvant letrozole in postmenopausal women with ER+ ductal carcinoma in situ |
 
-No ANZCTR-registered trial identifiers were found in the supplied evidence.
+No ANZCTR identifiers were included in the compiled data.
 
 ---
 
@@ -84,36 +94,39 @@ No ANZCTR-registered trial identifiers were found in the supplied evidence.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32683565](https://pubmed.ncbi.nlm.nih.gov/32683565/) | 2020 | RCT | Breast Cancer Res Treat | PALOMA-1 overall survival: palbociclib + letrozole vs letrozole alone in first-line ER+/HER2- advanced breast cancer |
-| [16382061](https://pubmed.ncbi.nlm.nih.gov/16382061/) | 2005 | RCT | New England Journal of Medicine | Letrozole vs tamoxifen as adjuvant therapy in postmenopausal HR+ early breast cancer |
-| [35464999](https://pubmed.ncbi.nlm.nih.gov/35464999/) | 2022 | Cohort/Comparative | Comput Math Methods Med | Efficacy/safety/prognosis of sequential tamoxifen–letrozole vs letrozole monotherapy |
-| [36243120](https://pubmed.ncbi.nlm.nih.gov/36243120/) | 2022 | Review | Life Sciences | Overview of letrozole pharmacology, toxicity, and therapeutic effects, including its aromatase-inhibitor mechanism |
-| [20095792](https://pubmed.ncbi.nlm.nih.gov/20095792/) | 2010 | Review | Expert Opin Drug Metab Toxicol | Pharmacodynamics, pharmacokinetics, clinical efficacy and safety of letrozole |
-| [15001182](https://pubmed.ncbi.nlm.nih.gov/15001182/) | 2004 | Review | Women's Health Issues | Clinical implications and remaining questions from the Letrozole Breast Cancer Trial |
-| [35378469](https://pubmed.ncbi.nlm.nih.gov/35378469/) | 2022 | Cohort | Current Problems in Cancer | Predictive response/prognostic factors for palbociclib + letrozole in HR+ advanced breast cancer |
-| [34645649](https://pubmed.ncbi.nlm.nih.gov/34645649/) | 2022 | Biomarker study | Clin Cancer Res | Biomarkers of response/resistance to palbociclib + letrozole in ER+/HER2- breast cancer |
-| [16500235](https://pubmed.ncbi.nlm.nih.gov/16500235/) | 2006 | Review | Breast (Edinburgh) | Development of letrozole and its use in advanced and neoadjuvant breast cancer |
-| [27235140](https://pubmed.ncbi.nlm.nih.gov/27235140/) | 2016 | Preclinical | Med Oncol | Letrozole-induced changes in carcinoma-associated fibroblasts affecting endocrine therapy efficacy |
+| [35263519](https://pubmed.ncbi.nlm.nih.gov/35263519/) | 2022 | RCT | N Engl J Med | Overall survival with ribociclib plus letrozole in advanced breast cancer (follow-up of a phase 3 trial that showed longer progression-free survival) |
+| [29718092](https://pubmed.ncbi.nlm.nih.gov/29718092/) | 2018 | RCT | Ann Oncol | MONALEESA-2 updated efficacy and safety of first-line ribociclib plus letrozole in HR+/HER2- advanced breast cancer |
+| [30632023](https://pubmed.ncbi.nlm.nih.gov/30632023/) | 2019 | RCT | Breast Cancer Res Treat | PALOMA-2 extended follow-up; palbociclib plus letrozole prolonged progression-free survival (HR 0.58 at initial analysis) |
+| [15001182](https://pubmed.ncbi.nlm.nih.gov/15001182/) | 2004 | RCT | Womens Health Issues | Commentary on the Letrozole Breast Cancer Trial: clinical implications and remaining questions |
+| [36243120](https://pubmed.ncbi.nlm.nih.gov/36243120/) | 2022 | Review | Life Sci | Letrozole pharmacology, toxicity and potential therapeutic effects |
+| [19250202](https://pubmed.ncbi.nlm.nih.gov/19250202/) | 2009 | Review | Ann N Y Acad Sci | Aromatase inhibitors in breast cancer; letrozole sustained growth inhibition longer than tamoxifen in a preclinical model |
+| [17544670](https://pubmed.ncbi.nlm.nih.gov/17544670/) | 2007 | Review | Breast | Prescribing extended adjuvant letrozole (MA-17 trial) |
+| [12113048](https://pubmed.ncbi.nlm.nih.gov/12113048/) | 2002 | Review | Expert Rev Anticancer Ther | Letrozole showed superiority to tamoxifen as first-line treatment of metastatic postmenopausal breast cancer |
+| [12538503](https://pubmed.ncbi.nlm.nih.gov/12538503/) | 2003 | Review | Clin Cancer Res | Clinical differences among the three third-generation aromatase inhibitors |
+| [29229198](https://pubmed.ncbi.nlm.nih.gov/29229198/) | 2017 | Clinical study | Arch Med Res | Combined raloxifene and letrozole in breast cancer cell lines, to address bone adverse effects |
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 13939P | Femara 2.5 mg | Tablet 2.5 mg (oral) | Not available in the data compiled for this report |
 
 ---
 
 ## Cytotoxicity
 
-Letrozole is an antineoplastic agent by virtue of its cancer indication, but it is a **hormonal (endocrine) therapy**, not a conventional cytotoxic chemotherapeutic.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted/hormonal therapy — non-steroidal aromatase inhibitor (not conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Low — aromatase inhibitors are not typically myelosuppressive; formal toxicity data was not available in this evidence pack |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Bone mineral density and lipid profile (per supporting trial endpoints), liver function; formal PI-based monitoring guidance is a data gap |
-| Handling Protection | Standard oral oncology medication precautions; not generally subject to injectable cytotoxic handling protocols, but confirm against institutional policy and the TGA-approved PI |
+Letrozole is an endocrine (aromatase inhibitor) therapy rather than a conventional cytotoxic agent, though it is used in cancer treatment. No cytotoxicity data was available in the compiled data. Please refer to the Product Information (PI) warnings and precautions.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No key warnings, contraindications, or drug–drug interaction data were returned for letrozole in this evidence pack (DDI query status: not found).
+- **Disease associations from the knowledge graph:** The knowledge graph links letrozole to liver failure, cirrhosis of the liver, osteoporosis, postmenopausal osteoporosis, hyperbilirubinaemia (including hereditary forms and Gilbert syndrome) and cerebrovascular disorder. These come from a model knowledge graph rather than label text, so they need confirmation against the PI.
+- **Drug interactions:** 100 interactions were identified. The one with a stated severity is aprepitant (Moderate). Others listed, mostly with unknown severity, include calcitriol, glimepiride, metformin, simvastatin, prednisone, omeprazole and pantoprazole.
+
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications, as label text was not available.
 
 ---
 
@@ -122,12 +135,14 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple large, completed Phase 3 trials and RCT-grade literature strongly support letrozole's efficacy in HR+ breast cancer, giving this candidate L1 evidence strength. However, this appears to largely confirm an already-known indication rather than reveal a new one, and two data-pack-flagged gaps remain unresolved: TFDA/ARTG product and indication data is rated a **Blocking** gap (prevents formal safety pre-assessment), and detailed mechanism-of-action data is rated **High** severity.
+Multiple completed Phase 3 trials and randomised publications support letrozole in HR+ breast cancer, which is an established use. The evidence supports the existing indication rather than a new one, and the Australian indication text and label safety data could not be confirmed.
 
 **To proceed, the following is needed:**
-- TGA/ARTG regulatory record confirmation for letrozole (current data shows 0 entries / not marketed, which should be verified against the real ARTG register)
-- Formal comparison of letrozole's currently approved Australian indication against "Female Breast Carcinoma" to confirm whether this is a genuinely new use or an evidence-pack labelling gap
-- DrugBank/PI mechanism-of-action and safety data (key warnings, contraindications, DDI) to complete the S1 safety pre-assessment referenced in the Blocking data gap (DG001)
+- The TGA-approved indication text for Femara (ARTG 13939P) and label warnings and contraindications from the PI
+- Mechanism-of-action data from DrugBank
+- Confirmation of the knowledge-graph disease associations (hepatic impairment, osteoporosis, cerebrovascular disease) against the label
+- Review of the severity of the flagged drug interactions
+- For the other predictions, a decision to treat the oestrogen-receptor-negative, Ehrlich tumour, fibrocystic and benign dysplasia predictions as Hold, and to pursue the hormone-resistant, bilateral and gene-expression-profile predictions only as research questions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

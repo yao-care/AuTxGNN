@@ -2,7 +2,7 @@
 layout: default
 title: Faricimab
 parent: High Evidence (L1-L2)
-nav_order: 265
+nav_order: 286
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,98 +29,93 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Faricimab: From Neovascular AMD/Diabetic Macular Edema to Diabetic Retinopathy
+# Faricimab: From Retinal Vascular Disease to Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Faricimab (Vabysmo) is a VEGF-A/Angiopoietin-2 bispecific antibody originally approved for neovascular age-related macular degeneration (nAMD) and diabetic macular edema (DME), administered by intravitreal injection. TxGNN generated 10 candidate indications for this drug; 8 of them (including the top-ranked "primary release disorder of platelets") are flagged in the source evidence itself as likely knowledge-graph embedding artefacts with no mechanistic plausibility or supporting studies. The only two candidates with real biological rationale and evidence are **diabetic retinopathy** and severe non-proliferative diabetic retinopathy — both mechanistically an earlier-stage extension of the already-approved DME indication, supported by **6 completed Phase 3 RCTs**, **25 registered clinical trials**, and **20 publications**.
+Faricimab (Vabysmo) is a bispecific antibody that blocks VEGF-A and angiopoietin-2, given by intravitreal injection. It is registered in Australia, and the data compiled for this report show no approved indication text. The TxGNN model's highest-ranked prediction for the drug, primary release disorder of platelets, has no supporting evidence. The best-supported prediction is **diabetic retinopathy** (score 96.7%). It has **10 clinical trials** and **20 publications** behind it, including Phase 3 RCTs in diabetic macular edema (DME).
 
----
+The rest of this report covers diabetic retinopathy, because it is the only prediction with substantial evidence. A note on the other predictions follows the Quick Overview.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Neovascular AMD and Diabetic Macular Edema (per literature; no structured `original_moa`/license data available) |
-| Predicted New Indication | Diabetic Retinopathy |
-| TxGNN Prediction Score | 96.75% |
+| Original Indication | Not available in the data compiled for this report (the ARTG entry carries no indication text). Literature describes approved use in neovascular age-related macular degeneration (nAMD) and DME. |
+| Predicted New Indication | Diabetic retinopathy (evidence-supported prediction; the top-ranked prediction by score is primary release disorder of platelets, 98.9%, with no evidence) |
+| TxGNN Prediction Score | 96.7% (diabetic retinopathy) |
 | Evidence Level | L1 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
----
+**Other predictions.** The other top-ranked predictions are not credible:
+- **No mechanistic link and no trials or literature:** primary release disorder of platelets, pseudo-von Willebrand disease, Glanzmann thrombasthenia, drug-induced osteoporosis, esotropia, HER2-positive breast carcinoma, respiratory syncytial virus infection and fetal and neonatal alloimmune thrombocytopenia. These are graph-based predictions only (Evidence Level L5, **Hold**).
+- **Severe non-proliferative diabetic retinopathy:** biologically plausible, supported by one Phase 2 design paper and the completed MAGIC trial (L3, research question). Efficacy results are not yet available.
 
 ## Why is This Prediction Reasonable?
 
-Currently, a structured mechanism-of-action field is not available for this drug (data gap). Based on the literature evidence in this pack (PMID 35474059, "Faricimab: First Approval"), Faricimab is a bispecific antibody that simultaneously binds and neutralises VEGF-A and Angiopoietin-2 (Ang-2), administered by intravitreal injection. It received its first approvals in 2022 for nAMD and DME, both retinal vascular diseases driven by pathological angiogenesis and vascular permeability.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Faricimab is a bispecific antibody that neutralises both VEGF-A and angiopoietin-2 (Ang-2).
 
-Diabetic macular edema is itself a complication of diabetic retinopathy, and both conditions share the same underlying pathophysiology — retinal ischaemia-driven VEGF overexpression and neovascularisation. The predicted indication therefore represents a plausible extension of an already-validated mechanism into an earlier disease stage (non-proliferative/proliferative DR without yet-established macular edema), rather than a novel biological hypothesis.
+In diabetic retinopathy, VEGF-A and Ang-2 drive vascular leakage, capillary non-perfusion and abnormal new vessel growth. Blocking both pathways may improve vascular stability beyond VEGF blockade alone.
 
-It's worth noting explicitly: of the 10 TxGNN candidates in this evidence pack, 8 (platelet release disorder, pseudo-von Willebrand disease, Glanzmann thrombasthenia, drug-induced osteoporosis, esotropia, HER2+ breast carcinoma, RSV infection, fetal/neonatal alloimmune thrombocytopenia) carry no clinical trials, no literature, and are explicitly annotated in the pack as having "no substantive mechanistic link" or being probable embedding-similarity false positives. Diabetic retinopathy is the only candidate with genuine supporting evidence and is the focus of this report.
-
----
+Diabetic retinopathy is closely related to DME, where faricimab has Phase 3 RCT evidence (YOSEMITE and RHINE). The prediction is therefore largely an extension of existing use. Direct evidence for retinopathy without macular oedema is still at Phase 2 or in ongoing trials.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03622580](https://clinicaltrials.gov/study/NCT03622580) | Phase 3 | Completed | 940 | YOSEMITE — faricimab vs aflibercept Q8W in DME; pivotal approval trial |
-| [NCT03622593](https://clinicaltrials.gov/study/NCT03622593) | Phase 3 | Completed | 951 | RHINE — faricimab vs aflibercept Q8W in DME; pivotal approval trial |
-| [NCT03823300](https://clinicaltrials.gov/study/NCT03823300) | Phase 3 | Completed | 658 | LUCERNE — faricimab vs aflibercept in nAMD |
-| [NCT03823287](https://clinicaltrials.gov/study/NCT03823287) | Phase 3 | Completed | 671 | TENAYA — faricimab vs aflibercept in nAMD |
-| [NCT04740931](https://clinicaltrials.gov/study/NCT04740931) | Phase 3 | Completed | 729 | Faricimab in macular edema secondary to CRVO/hemiretinal vein occlusion |
-| [NCT04740905](https://clinicaltrials.gov/study/NCT04740905) | Phase 3 | Completed | 553 | Faricimab in macular edema secondary to branch retinal vein occlusion |
-| [NCT05224102](https://clinicaltrials.gov/study/NCT05224102) | Phase 4 | Active, not recruiting | 218 | Real-world treatment response in treatment-naive, underrepresented DME populations |
-| [NCT06439576](https://clinicaltrials.gov/study/NCT06439576) | N/A | Recruiting | 1000 | Farseeing Study — China real-world effectiveness/safety in DME, RVO, nAMD |
-| [NCT05476926](https://clinicaltrials.gov/study/NCT05476926) | N/A | Active, not recruiting | 6000 | VOYAGER — multinational real-world long-term data across approved retinal indications |
-| [NCT04597918](https://clinicaltrials.gov/study/NCT04597918) | Phase 2 | Completed | 99 | ALTIMETER — aqueous humour/imaging biomarkers in treatment-naive DME |
-
-*Note: a further Phase 2 trial specifically for non-proliferative DR (MAGIC, [NCT05681884](https://clinicaltrials.gov/study/NCT05681884)) is ongoing and reported separately under the "severe non-proliferative diabetic retinopathy" candidate (rank 6, L2 evidence).*
-
----
+| [NCT06790784](https://clinicaltrials.gov/study/NCT06790784) | Phase 3 | Recruiting | 426 | Faricimab + PRP vs vitrectomy + endolaser in proliferative DR; 3-year follow-up. No results yet. |
+| [NCT05681884](https://clinicaltrials.gov/study/NCT05681884) (MAGIC) | Phase 2 | Completed | 179 | Safety and efficacy of faricimab for retinal non-perfusion in non-proliferative DR. Results not yet in the data compiled. |
+| [NCT06191094](https://clinicaltrials.gov/study/NCT06191094) | Phase 4 | Enrolling by invitation | 100 | Peri-operative faricimab vs sham in vitrectomy for diabetic vitreous haemorrhage. |
+| [NCT06572553](https://clinicaltrials.gov/study/NCT06572553) | Phase 2/3 | Unknown | 30 | Faricimab in nAMD, DME or RVO; indirect relevance to DR. |
+| [NCT07484074](https://clinicaltrials.gov/study/NCT07484074) | Phase 1 | Completed | 164 | Phase 1b safety and PK study of intravitreal OLN324 in nAMD or DME. May involve a different agent. |
+| [NCT05476926](https://clinicaltrials.gov/study/NCT05476926) (VOYAGER) | N/A | Active, not recruiting | 6000 | Real-world, long-term observational data on Roche ophthalmology products, including faricimab. |
+| [NCT06439576](https://clinicaltrials.gov/study/NCT06439576) (Farseeing) | N/A | Active, not recruiting | 1000 | Real-world effectiveness and safety of faricimab in China (DME, RVO, nAMD). |
+| [NCT07520045](https://clinicaltrials.gov/study/NCT07520045) | N/A | Recruiting | 100 | OCT/OCTA biomarker comparison of faricimab vs biosimilar ranibizumab in DR. |
+| [NCT07526857](https://clinicaltrials.gov/study/NCT07526857) | N/A | Completed | 60 | Exploratory imaging study of epivascular glia regression after faricimab in DR. |
+| [NCT07144865](https://clinicaltrials.gov/study/NCT07144865) | N/A | Completed | 8 | Mechanistic study of anti-VEGF effects on fibrovascular membranes. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35085503](https://pubmed.ncbi.nlm.nih.gov/35085503/) | 2022 | RCT | Lancet | YOSEMITE/RHINE 1-year results: faricimab durability up to Q16W dosing in DME |
-| [38158159](https://pubmed.ncbi.nlm.nih.gov/38158159/) | 2024 | RCT | Ophthalmology | YOSEMITE/RHINE 2-year treat-and-extend results |
-| [30905643](https://pubmed.ncbi.nlm.nih.gov/30905643/) | 2019 | RCT | Ophthalmology | BOULEVARD Phase 2: faricimab vs ranibizumab in DME |
-| [36246184](https://pubmed.ncbi.nlm.nih.gov/36246184/) | 2022 | RCT | Ophthalmology Science | YOSEMITE/RHINE study design and rationale |
-| [38852921](https://pubmed.ncbi.nlm.nih.gov/38852921/) | 2024 | RCT | Ophthalmology | Faricimab vs aflibercept efficacy in DME patients with worse baseline vision |
-| [35474059](https://pubmed.ncbi.nlm.nih.gov/35474059/) | 2022 | Review | Drugs | "Faricimab: First Approval" — drug profile, MOA, and approval summary |
-| [37751021](https://pubmed.ncbi.nlm.nih.gov/37751021/) | 2023 | Review | Advances in Therapy | Systematic review and network meta-analysis of faricimab in DME |
-| [39362194](https://pubmed.ncbi.nlm.nih.gov/39362194/) | 2024 | Review | Ophthalmologica | Meta-analysis: faricimab efficacy/safety in nAMD, DME, RVO |
-| [36012690](https://pubmed.ncbi.nlm.nih.gov/36012690/) | 2022 | Review | Int J Molecular Sciences | Aflibercept vs faricimab in nAMD and DME |
-| [39708087](https://pubmed.ncbi.nlm.nih.gov/39708087/) | 2025 | Review | Graefe's Archive Clin Exp Ophthalmol | Emerging evidence for dual Ang-2/VEGF-A blockade in retinal disease |
-
----
+| [35085503](https://pubmed.ncbi.nlm.nih.gov/35085503/) | 2022 | RCT (Phase 3) | Lancet | YOSEMITE and RHINE: faricimab with dosing extended up to every 16 weeks in DME. |
+| [38158159](https://pubmed.ncbi.nlm.nih.gov/38158159/) | 2024 | RCT (Phase 3) | Ophthalmology | Two-year results from YOSEMITE and RHINE: efficacy, durability and safety with treat-and-extend dosing. |
+| [30905643](https://pubmed.ncbi.nlm.nih.gov/30905643/) | 2019 | RCT (Phase 2) | Ophthalmology | BOULEVARD: dual Ang-2/VEGF-A inhibition compared with ranibizumab in DME. |
+| [41534798](https://pubmed.ncbi.nlm.nih.gov/41534798/) | 2026 | Extension trial | Ophthalmology | RHONE-X: four-year safety and efficacy outcomes in DME. |
+| [37751021](https://pubmed.ncbi.nlm.nih.gov/37751021/) | 2023 | Systematic review / NMA | Advances in Therapy | Comparative efficacy, durability and safety of faricimab in DME. |
+| [39362194](https://pubmed.ncbi.nlm.nih.gov/39362194/) | 2024 | Meta-analysis | Ophthalmologica | Faricimab in nAMD, DME and RVO compared with monospecific anti-VEGF agents. |
+| [38275741](https://pubmed.ncbi.nlm.nih.gov/38275741/) | 2023 | Network meta-analysis | Cochrane Database Syst Rev | Anti-VEGF agents for DME. |
+| [41587134](https://pubmed.ncbi.nlm.nih.gov/41587134/) | 2026 | Trial design paper | Ophthalmologica | MAGIC Phase 2 design and rationale for faricimab in NPDR (severe NPDR prediction). |
+| [40668667](https://pubmed.ncbi.nlm.nih.gov/40668667/) | 2025 | Post hoc RCT analysis | Retina | Faricimab vs aflibercept on epiretinal membrane formation over 2 years in DME. |
+| [38847896](https://pubmed.ncbi.nlm.nih.gov/38847896/) | 2024 | Review | Graefe's Arch Clin Exp Ophthalmol | Faricimab in nAMD and DME, from preclinical studies to Phase 3. |
 
 ## Australia Market Information
 
-No ARTG entries were found — Faricimab is currently **not marketed** in Australia per the regulatory data in this evidence pack (`total_licenses: 0`). Australian prescribers wishing to use this agent would need to source it via the TGA Special Access Scheme or await formal ARTG registration.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13177M | Vabysmo | Solution for intravitreal injection 28.8 mg in 0.24 mL (120 mg per mL) | Not listed in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No structured drug interaction, warning, or contraindication data was retrievable for this evidence pack.
+Data on faricimab's key warnings and contraindications were not available in the data compiled for this report. No drug interaction records were found. Please refer to the TGA-approved Product Information (PI) for safety information.
 
----
+The literature notes intraocular inflammation and increased intraocular pressure as areas to monitor with intravitreal anti-VEGF therapy (see guardrails below).
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Proceed with Guardrails** (diabetic retinopathy only). All other predictions, including the top-ranked primary release disorder of platelets, should be treated as **Hold**.
 
 **Rationale:**
-Six completed Phase 3 RCTs (YOSEMITE, RHINE, LUCERNE, TENAYA, and the RVO trials) plus a large real-world evidence base (VOYAGER, Farseeing) establish strong efficacy and safety of faricimab across the VEGF-driven retinal disease spectrum, of which diabetic retinopathy is the underlying condition to DME. However, this represents extension into an earlier disease stage rather than a formally studied standalone DR indication, and the drug is not yet registered in Australia.
+- Two completed Phase 3 RCTs (YOSEMITE and RHINE) support faricimab in DME, which is closely related to diabetic retinopathy. Direct evidence for retinopathy without macular oedema is limited to Phase 2 and ongoing trials.
+- The Phase 3 trial in proliferative DR (NCT06790784) is still recruiting.
 
 **To proceed, the following is needed:**
-- TGA Product Information / local regulatory filing, once ARTG registration is pursued
-- Formal mechanism-of-action and contraindication data from DrugBank/PI (currently a data gap)
-- Results from the ongoing MAGIC Phase 2 trial (NCT05681884) specifically targeting non-proliferative DR before extending use beyond DME
-- Confirmation that the other 8 TxGNN-predicted candidates in this pack (platelet disorders, HER2+ breast carcinoma, RSV, etc.) are excluded from further evaluation given their lack of mechanistic plausibility and evidence
+- MAGIC (NCT05681884) efficacy results and Phase 3 data before extending use to non-proliferative or proliferative DR without DME.
+- Confirmation of the approved indication wording on the ARTG entry and the TGA-approved PI warnings and contraindications.
+- A monitoring plan for intraocular inflammation and intraocular pressure, with recommendations restricted to the populations studied.
+- Mechanism-of-action data for the drug record.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

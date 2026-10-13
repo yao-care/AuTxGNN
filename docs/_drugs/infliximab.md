@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Infliximab
-parent: Moderate Evidence (L3-L4)
-nav_order: 350
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 376
+evidence_level: L5
 indication_count: 10
 ---
 
 # Infliximab
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Infliximab: From TNF-α–Driven Autoimmune Disease to Rheumatoid Vasculitis
+# Infliximab: From Crohn's Disease to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
 
 ## One-Sentence Summary
 
-Infliximab is a chimeric anti-TNF-α monoclonal antibody established for treating chronic TNF-α–driven inflammatory diseases. This evidence pack evaluated **10 TxGNN-predicted indications** for infliximab; the most clinically meaningful *novel* candidate is **Rheumatoid Vasculitis**, supported by **4 indirectly related clinical trials** and **20 publications**, though the literature evidence is genuinely mixed — some reports show therapeutic benefit while others describe infliximab paradoxically *inducing* vasculitis.
-
-*(Note: Several other predicted indications in this pack — inflammatory spondylopathy, polyarticular juvenile rheumatoid arthritis, perianal Crohn's disease/"anus disease", and Crohn's disease of the esophagus — are largely re-identifications of infliximab's already-established indications rather than novel repurposing candidates; these are summarised in the appendix table below.)*
+Infliximab is a TNF-alpha blocking antibody, originally used for Crohn's disease, ulcerative colitis, rheumatoid arthritis, ankylosing spondylitis and psoriatic arthritis.
+The TxGNN model's top-ranked prediction is **colobomatous microphthalmia-rhizomelic dysplasia syndrome** (score 90.2%), but there are **no clinical trials and no publications** supporting it. It is most likely a graph-based artefact.
+Among the other predictions, those with real support are mostly extensions of existing indications (for example perianal Crohn's disease, spondyloarthritis and polyarticular juvenile arthritis).
 
 ---
 
@@ -43,98 +43,106 @@ Infliximab is a chimeric anti-TNF-α monoclonal antibody established for treatin
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this evidence pack (no ARTG licence data available). Infliximab is generally established for chronic TNF-α–driven inflammatory disease (e.g. rheumatoid arthritis, Crohn's disease) |
-| Predicted New Indication | Rheumatoid Vasculitis |
-| TxGNN Prediction Score | 85.32% |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed (Not marketed) |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Research Question |
+| Original Indication | Crohn's disease, inflammatory bowel disease, ulcerative colitis, rheumatoid arthritis, ankylosing spondylitis, psoriatic arthritis (the Australian ARTG entry has no indication text) |
+| Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome (rank 1) |
+| TxGNN Prediction Score | 90.22% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack (Data Gap DG002). Based on general pharmacological knowledge, infliximab is a chimeric IgG1 monoclonal antibody that binds and neutralises both soluble and membrane-bound TNF-α, and is an established therapy for chronic inflammatory autoimmune conditions.
+Detailed mechanism of action data is not available in the data compiled for this report. Infliximab is a chimeric monoclonal antibody against TNF-alpha, a pro-inflammatory cytokine. Its efficacy in TNF-driven immune-mediated diseases is well established.
 
-Rheumatoid vasculitis (RV) is one of the most severe extra-articular manifestations of rheumatoid arthritis, driven by TNF-α–mediated endothelial injury and immune-complex deposition. Since infliximab already suppresses the same TNF-α pathway that drives joint inflammation in RA, it is mechanistically plausible that it could also suppress the vascular inflammation seen in RV — several case reports and a systematic review describe good clinical responses.
+For the top-ranked prediction, **no mechanistic link could be identified**. Colobomatous microphthalmia-rhizomelic dysplasia syndrome is an ultra-rare developmental malformation syndrome without a known TNF-driven inflammatory component. The high score is most likely an artefact of the knowledge graph rather than a true signal.
 
-However, the evidence is not one-directional: multiple case reports in this same evidence pack describe infliximab *paradoxically inducing* cutaneous, renal and CNS vasculitis in patients being treated for RA. This "paradoxical" phenomenon is a recognised but poorly understood effect of TNF inhibitors, and it means the mechanistic case for infliximab as an RV *treatment* is genuinely contested rather than one-sided — this is why the recommendation is "Research Question" rather than a stronger designation.
+Other highly ranked predictions fall into three groups:
+- **Extensions of existing indications (credible):** anus disease (perianal Crohn's disease, rank 5), inflammatory spondylopathy (spondyloarthritis including ankylosing spondylitis, rank 7), polyarticular juvenile rheumatoid arthritis (rank 8) and Crohn disease of the oesophagus (rank 10). These overlap with approved uses or closely related TNF-driven disease.
+- **Genuine research question:** rheumatoid vasculitis (rank 3). TNF-alpha is a shared driver with rheumatoid arthritis, but anti-TNF agents have also been linked to paradoxical vasculitis, so the benefit-risk balance is unclear.
+- **No rationale:** brachydactyly-syndactyly syndrome, hypermobility of coccyx, Kummell disease and bronchitis, which have no plausible TNF-driven mechanism or supporting evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-No trials specifically designed to test infliximab for rheumatoid vasculitis were identified. The following are indirectly related trials (RA/biologics context) surfaced by the search:
+For the rank 1 prediction, currently no related clinical trials are registered.
+
+For context, the highest-evidence predictions have the following trials (none are specific to the rank 1 prediction):
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Perioperative immunosuppressant (incl. anti-TNF) management in rheumatology patients undergoing shoulder arthroplasty — not an RV efficacy trial |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Large registry study of incident immune-mediated inflammatory disease risk in patients on biologics, including vasculitis-related risk |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Completed | 808 | Cross-sectional study of biologic DMARD treatment patterns in RA patients in China — not RV-specific |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Non-interventional study of tocilizumab (not infliximab) in RA — included for background only |
+| [NCT00036374](https://clinicaltrials.gov/study/NCT00036374) | Phase 3 | Completed | 123 | Infliximab plus methotrexate in polyarticular juvenile rheumatoid arthritis (randomised, double-blind) |
+| [NCT02762812](https://clinicaltrials.gov/study/NCT02762812) | Phase 3 | Completed | 199 | BCD-055 (infliximab biosimilar) vs Remicade in ankylosing spondylitis |
+| [NCT00844805](https://clinicaltrials.gov/study/NCT00844805) | Phase 3 | Completed | 158 | Infliximab plus naproxen as first-line therapy in early axial spondyloarthritis |
+| [NCT00439283](https://clinicaltrials.gov/study/NCT00439283) | Phase 3 | Completed | 240 | Infliximab every 6 weeks vs on demand in ankylosing spondylitis |
+| [NCT00202865](https://clinicaltrials.gov/study/NCT00202865) | Phase 3 | Completed | 76 | Low-dose infliximab (3 mg/kg) vs placebo in ankylosing spondylitis |
+| [NCT00051623](https://clinicaltrials.gov/study/NCT00051623) | Phase 3 | Completed | 70 | Infliximab in psoriatic arthritis (randomised, double-blind) |
+| [NCT00591201](https://clinicaltrials.gov/study/NCT00591201) | Phase 2/3 | Completed | 26 | Infliximab vs placebo in juvenile spondyloarthropathies |
+| [NCT01015547](https://clinicaltrials.gov/study/NCT01015547) | Phase 3 | Completed | 60 | Anti-TNF plus methotrexate vs DMARD combination vs methotrexate alone in very early polyarticular JIA |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients (rheumatoid vasculitis prediction; only tangentially related) |
 
 ---
 
 ## Literature Evidence
 
+For the rank 1 prediction, currently no related literature is available.
+
+Selected publications for the better-supported predictions:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematic Review | Clinical Rheumatology | Systematic review of biologic drugs (including infliximab) in rheumatoid vasculitis; supports use as part of the therapeutic armamentarium |
-| [16078342](https://pubmed.ncbi.nlm.nih.gov/16078342/) | 2005 | Case Series | The Journal of Rheumatology | Patient with RV showed good response to infliximab; suggests anti-TNF as an option for refractory systemic RV |
-| [15801041](https://pubmed.ncbi.nlm.nih.gov/15801041/) | 2005 | Case Report | The Journal of Rheumatology | Successful treatment of RV-associated foot-drop with infliximab |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohort | RMD Open | BSRBR-RA registry: compares risk of lupus-like and vasculitis-like events between TNF inhibitors and non-biologic DMARDs |
-| [40385904](https://pubmed.ncbi.nlm.nih.gov/40385904/) | 2025 | Case Report | Cureus | Infliximab-induced leukocytoclastic vasculitis in a well-controlled RA patient — paradoxical safety signal |
-| [35650123](https://pubmed.ncbi.nlm.nih.gov/35650123/) | 2023 | Case Report | Internal Medicine (Tokyo) | Endothelial damage-dominant IgA vasculitis nephritis after 11 years of infliximab use for RA — paradoxical safety signal |
-| [17712519](https://pubmed.ncbi.nlm.nih.gov/17712519/) | 2008 | Case Report | Clinical Rheumatology | C-ANCA-positive systemic vasculitis in an RA patient treated with infliximab — paradoxical safety signal |
-| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Review | Journal of Clinical Medicine | Review of RA-associated episcleritis/scleritis (an ocular vasculitic manifestation) and its treatment |
-| [16966021](https://pubmed.ncbi.nlm.nih.gov/16966021/) | 2006 | Review | Clinics in Dermatology | General review of cutaneous vasculitis diagnosis and classification (background context) |
-| [19951375](https://pubmed.ncbi.nlm.nih.gov/19951375/) | 2010 | — | Allergy | Anti-infliximab IgE and non-IgE antibodies linked to infusion-related anaphylactic reactions — relevant safety mechanism |
+| [17763439](https://pubmed.ncbi.nlm.nih.gov/17763439/) | 2007 | RCT | Arthritis Rheum | Infliximab plus methotrexate in polyarticular-course juvenile rheumatoid arthritis |
+| [20237125](https://pubmed.ncbi.nlm.nih.gov/20237125/) | 2010 | Long-term extension | Ann Rheum Dis | Long-term efficacy and safety of infliximab plus methotrexate in polyarticular JRA |
+| [25887212](https://pubmed.ncbi.nlm.nih.gov/25887212/) | 2015 | Cochrane review | Cochrane Database Syst Rev | TNF-alpha inhibitors for ankylosing spondylitis |
+| [40621455](https://pubmed.ncbi.nlm.nih.gov/40621455/) | 2025 | Network meta-analysis | Front Immunol | Risk of new-onset and recurrent uveitis with different biologics in ankylosing spondylitis |
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematic review | Clin Rheumatol | Biological therapy in rheumatoid vasculitis |
+| [40874971](https://pubmed.ncbi.nlm.nih.gov/40874971/) | 2026 | Cohort | Am J Gastroenterol | Subcutaneous infliximab for perianal Crohn's disease (BioLap-Rem) |
+| [42488031](https://pubmed.ncbi.nlm.nih.gov/42488031/) | 2026 | Review | Ther Adv Gastroenterol | Subcutaneous infliximab in perianal fistulising Crohn's disease |
+| [41622053](https://pubmed.ncbi.nlm.nih.gov/41622053/) | 2026 | Retrospective cohort | Dig Liver Dis | Oesophageal, gastric and duodenal Crohn's disease in the biologic era |
+| [11907371](https://pubmed.ncbi.nlm.nih.gov/11907371/) | 2002 | Case report | J Clin Gastroenterol | Infliximab for an oesophagobronchial fistula in oesophageal Crohn's disease |
+| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Review/Mechanistic | Scand J Immunol | Cutaneous vasculitis associated with etanercept and infliximab (safety signal) |
 
 ---
 
 ## Australia Market Information
 
-No ARTG entries are recorded for infliximab in this evidence pack (market status: not marketed, 0 licences).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10057H | Inflectra | Powder for I.V. infusion 100 mg | Not listed in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for formal safety information — key warnings, contraindications and drug-interaction data are not available in this evidence pack (Data Gap DG001, classified as **Blocking** — this must be resolved before any S1 safety assessment).
+- **Drug Interactions:** 100 interactions were identified in total. The main ones include:
+  - **Major:** corticosteroids (hydrocortisone, prednisone, prednisolone, dexamethasone, betamethasone, budesonide, triamcinolone including ophthalmic), deferiprone, and the radiopharmaceuticals iobenguane (I-131), ibritumomab tiuxetan and tositumomab (I-131).
+  - **Moderate:** metronidazole, tinidazole, naltrexone, rosuvastatin, simvastatin.
+  - **Minor:** zinc salts (sulfate, acetate, gluconate).
+- **Class considerations noted in the literature:** serious infection risk, tuberculosis reactivation, infusion-related anaphylaxis with anti-infliximab antibodies, and paradoxical vasculitis.
 
-**Evidence-derived safety signal (from literature, not official PI):** Several case reports in this evidence pack (PMID 40385904, 35650123, 17712519, 15853915, 11792895, 16207269) describe infliximab *paradoxically inducing* cutaneous, renal, or CNS vasculitis in patients being treated for RA. Given the predicted new indication is treatment *of* vasculitis itself, this paradoxical signal is a critical consideration and a central reason the evidence is rated "Research Question" rather than a stronger recommendation.
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question**
+**Decision: Hold** (for the rank 1 prediction)
 
 **Rationale:**
-Evidence for infliximab in rheumatoid vasculitis consists of a systematic review, small case series, and a cohort risk study — no dedicated RCTs exist, and the evidence direction is contested by paradoxical vasculitis-induction case reports. This does not yet support a Go/Proceed decision but is a legitimate area for structured research.
+- The top-ranked prediction has no trials, no literature and no plausible TNF-driven mechanism, so it is most likely a model artefact. Evidence level is L5.
+- Predictions that are credible (perianal Crohn's disease, spondyloarthritis, polyarticular juvenile arthritis and oesophageal Crohn's disease) are largely extensions of existing indications and could be assessed as "Proceed with Guardrails". Rheumatoid vasculitis remains a research question.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information / TFDA label data (key warnings, contraindications, DDI) — currently a Blocking data gap
-- Confirmed mechanism-of-action documentation (DG002)
-- A dedicated observational or prospective study distinguishing therapeutic response from paradoxical induction risk in RV patients specifically
-- Clarification of Australian registration/import pathway, since infliximab currently has zero ARTG entries in this dataset
-
----
-
-## Appendix: Other TxGNN-Predicted Indications (for context)
-
-| Disease | TxGNN Score | Evidence Level | Recommendation | Note |
-|---|---|---|---|---|
-| Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 90.22% | L5 | Hold | No mechanistic or clinical link; likely graph-link noise |
-| Brachydactyly-syndactyly syndrome | 89.88% | L5 | Hold | Non-inflammatory congenital disorder; no relevant link |
-| Hypermobility of coccyx | 82.49% | L5 | Hold | Structural/mechanical condition; no relevant link |
-| Kummell disease | 81.15% | L5 | Hold | Osteoporotic vertebral collapse; no relevant link |
-| Inflammatory spondylopathy | 80.92% | L1 | Proceed with Guardrails | Already an approved anti-TNF indication (ankylosing spondylitis) — not a novel finding |
-| Polyarticular juvenile rheumatoid arthritis | 80.14% | L1 | Proceed with Guardrails | Already an approved paediatric anti-TNF indication — not a novel finding |
-| Bronchitis | 77.87% | L4 | Hold | Conflicting case reports (both benefit and infliximab-induced pulmonary inflammation); no dedicated trials |
-| Anus disease (≈ perianal Crohn's) | 81.21% | L2 | Proceed with Guardrails | Represents fistulising Crohn's disease, an existing approved indication |
-| Crohn disease of the esophagus | 77.58% | L3 | Proceed with Guardrails | Rare-site extension of an already-approved indication (Crohn's disease) |
+- Re-prioritise the candidate list towards predictions with clinical evidence rather than score rank alone
+- Mechanism of action data for infliximab
+- Product Information (PI) warnings and contraindications, and the approved indication text for the Australian ARTG entry
+- For perianal Crohn's disease: confirmation of Australian approval status for the fistulising indication and subcutaneous formulation
+- For polyarticular juvenile arthritis: verification of paediatric approval status in Australia
+- For rheumatoid vasculitis: a dedicated benefit-risk review given reports of anti-TNF-associated vasculitis
+- Standard guardrails for any progression: TB and hepatitis B screening and infection monitoring
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

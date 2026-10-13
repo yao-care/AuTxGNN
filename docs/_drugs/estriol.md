@@ -2,7 +2,7 @@
 layout: default
 title: Estriol
 parent: Moderate Evidence (L3-L4)
-nav_order: 251
+nav_order: 271
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,81 +29,79 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Estriol: From an Unrecorded Original Indication to a Predicted Role in Amenorrhea
+# Estriol: From Menopausal Symptom Relief (Vaginal Use) to Functional Hypothalamic Amenorrhoea
 
 ## One-Sentence Summary
 
-Estriol's original approved indication and mechanism of action are not documented in this evidence pack (data gap), and the drug is not currently marketed in Australia. The TxGNN model predicts it may be effective for **Amenorrhea**, with **3 registered clinical trials** and **13 publications** currently associated with this direction — though the relevance screening flags most of the trial evidence as likely referring to a different drug (Estetrol) or as withdrawn, leaving one directly relevant observational study as the strongest support.
+Estriol is a weak natural oestrogen. In Australia it is marketed as a vaginal cream (Ovestin).
+The TxGNN model predicts it may be effective for **amenorrhoea** (most plausibly functional hypothalamic amenorrhoea), with **no registered clinical trials** but **6 publications** retrieved, of which only 2 are directly relevant (one small physiological study and one review).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack |
-| Predicted New Indication | Amenorrhea |
+| Original Indication | Not stated in the data compiled for this report (the ARTG entry has no indication text). Estriol is generally used for menopausal symptoms. |
+| Predicted New Indication | Amenorrhoea (disease) |
 | TxGNN Prediction Score | 99.18% |
 | Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for Estriol in this evidence pack, and no original indication is on file. Based on the supporting literature gathered against this prediction, Estriol is described as a weak estrogen receptor agonist that exerts feedback modulation on the hypothalamic-pituitary-gonadal (HPG) axis.
+Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that estriol binds both oestrogen receptor-α (ESR1) and oestrogen receptor-β (ESR2). It is a weak oestrogen receptor agonist. It has been marketed in Europe and Asia for more than 40 years for post-menopausal hot flushes.
 
-Because the original indication is unrecorded, a direct comparison between "original" and "new" indication cannot be made. However, the strongest piece of direct evidence — a cohort/pilot study (PMID 22137494) — shows that Estriol administration modulates luteinizing hormone (LH) secretion in women with functional hypothalamic amenorrhea (FHA), and a companion review (PMID 37371858) discusses low-dose estrogens, including Estriol, as neuroendocrine modulators that may help trigger restoration of the positive-feedback mechanism underlying ovulatory cycles in FHA.
+In functional hypothalamic amenorrhoea (FHA), stress, low energy availability or both disrupt pulsatile GnRH release. This leads to low LH and FSH, reduced ovarian function and a low-oestrogen state. Low-dose oestrogens may act as neuroendocrine modulators and influence LH secretion. A 2012 study reported that estriol modulated LH secretion in women with FHA. A 2023 review proposed a mechanistic rationale for low-dose oestrogens in FHA.
 
-Mechanistically this is plausible: FHA is characterised by hypoestrogenism secondary to impaired GnRH pulsatility, so exogenous low-dose estrogen exposure could theoretically support HPG axis recovery. This remains a mechanistic/observational-level hypothesis rather than confirmed clinical benefit.
+This evidence is small and physiological. It does not show that estriol restores menstruation or improves clinical outcomes. The prediction applies to "amenorrhoea" broadly, but the supporting literature concerns FHA only.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04090957](https://clinicaltrials.gov/study/NCT04090957) | Phase 3 | Completed | 1015 | E4Comfort Study II — evaluated Estetrol (E4) 15/20 mg vs placebo for vasomotor symptoms in postmenopausal women. Relevance screening flags this as a likely Estriol/Estetrol name mismatch; not amenorrhea-focused and not confirmed as Estriol data. |
-| [NCT04209543](https://clinicaltrials.gov/study/NCT04209543) | Phase 3 | Completed | 1570 | E4Comfort Study I — companion trial, same Estetrol/Drospirenone vasomotor-symptom design. Same name-mismatch caution applies. |
-| [NCT04487392](https://clinicaltrials.gov/study/NCT04487392) | Phase 2 | Withdrawn | 0 | Photobiomodulation for vulvovaginal atrophy in postmenopausal women; withdrawn with zero enrolment, no usable data, and not an amenorrhea study. |
-
-**Caution:** None of the three registered trials constitute reliable, confirmed Estriol-specific evidence for amenorrhea — two are probable database mismatches with Estetrol, and one generated no data.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22137494](https://pubmed.ncbi.nlm.nih.gov/22137494/) | 2012 | Cohort/Pilot | Fertility and Sterility | Estriol administration modulates LH secretion in women with functional hypothalamic amenorrhea — the most direct Estriol-specific evidence for this indication. |
-| [37371858](https://pubmed.ncbi.nlm.nih.gov/37371858/) | 2023 | Review | Biomedicines | Reviews low-dose estrogens (including Estriol) as neuroendocrine modulators in FHA, discussing a potential mechanism for restoring gonadotropin feedback. |
-| [16526238](https://pubmed.ncbi.nlm.nih.gov/16526238/) | 2005 | Cohort | Medicinski pregled | Effects of estro-progestagens on lipid/hormonal profiles in premature primary ovarian failure (a hypergonadotropic amenorrhea state). |
-| [7026111](https://pubmed.ncbi.nlm.nih.gov/7026111/) | 1981 | Review | Clinical Obstetrics and Gynecology | General review of hormonal contraception and neoplasia risk; not amenorrhea-specific. |
-| [4254759](https://pubmed.ncbi.nlm.nih.gov/4254759/) | 1971 | Review | British Journal of Psychiatry | Historical review of anorexia nervosa, a recognised cause of secondary/functional amenorrhea; no Estriol intervention data. |
-| [2949864](https://pubmed.ncbi.nlm.nih.gov/2949864/) | 1986 | Observational (non-English) | Zhong Xi Yi Jie He Za Zhi | Observational report on gonadal function changes in amenorrhea/oligomenorrhea patients. |
-| [5935707](https://pubmed.ncbi.nlm.nih.gov/5935707/) | 1966 | Case series | American Journal of Obstetrics and Gynecology | Prolonged gynecologic/endocrine manifestations after medroxyprogesterone acetate in pregnancy; not Estriol-specific. |
-| [4102186](https://pubmed.ncbi.nlm.nih.gov/4102186/) | 1971 | Case report | Lancet | Endocrinological findings in two patients with premature ovarian failure. |
-| [979592](https://pubmed.ncbi.nlm.nih.gov/979592/) | 1976 | Methods/Assay | Die Medizinische Welt | Radioimmunoassay methodology for LH, FSH, progesterone, estrone, estradiol and estriol; assay technique, not therapeutic evidence. |
-| [13931724](https://pubmed.ncbi.nlm.nih.gov/13931724/) | 1963 | Mechanistic Review | Journal of Clinical Endocrinology and Metabolism | Mechanistic review of anti-ovulatory compound action; background pharmacology only. |
+| [22137494](https://pubmed.ncbi.nlm.nih.gov/22137494/) | 2012 | Small interventional physiology study | Fertility and Sterility | Evaluated the effect of estriol on hypothalamic-pituitary function and gonadotropin secretion in women with FHA. Reported modulation of LH secretion. |
+| [37371858](https://pubmed.ncbi.nlm.nih.gov/37371858/) | 2023 | Review | Biomedicines | Proposes low-dose oestrogens as neuroendocrine modulators in FHA, with a possible role in triggering positive feedback mechanisms. |
+| [5935707](https://pubmed.ncbi.nlm.nih.gov/5935707/) | 1966 | Case series | Am J Obstet Gynecol | Prolonged gynaecological and endocrine effects after medroxyprogesterone in pregnancy. Not estriol-specific. |
+| [14194444](https://pubmed.ncbi.nlm.nih.gov/14194444/) | 1964 | Clinical trial | J Obstet Gynaecol Br Commonw | Gonadotrophins in idiopathic secondary amenorrhoea. Not estriol-specific. |
+| [13931724](https://pubmed.ncbi.nlm.nih.gov/13931724/) | 1963 | Review | J Clin Endocrinol Metab | Mechanism of action of anti-ovulatory compounds. Limited relevance. |
+| [979592](https://pubmed.ncbi.nlm.nih.gov/979592/) | 1976 | Methods/assay | Med Welt | Radioimmunoassay of LH, FSH and steroid hormones. Not therapeutic evidence. |
 
 ## Australia Market Information
 
-Estriol is **not currently marketed in Australia** — no ARTG entries were found (0 total). No product name, dosage form, or approved indication text is available from this evidence pack.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13926Y | Ovestin | Vaginal cream, 1 mg per g, 15 g | Not listed in the data compiled for this report |
 
 ## Safety Considerations
 
-- **Data gap:** No TFDA/TGA-sourced key warnings, contraindications, or drug-interaction data are available for Estriol in this evidence pack (flagged as a **Blocking** data gap — DG001 — meaning safety cannot yet be initially assessed).
-- **Cross-candidate safety signal:** Rationale notes attached to other TxGNN-predicted indications for this same drug (e.g. breast fibrocystic disease, benign mammary dysplasia) flag that estrogens are generally regarded as a *risk factor* for breast tissue proliferation rather than a treatment — the opposite mechanistic direction. This is relevant background context when weighing any estrogenic therapy, including the amenorrhea indication above.
+- **Drug interactions:** The interaction records compiled for this report are pharmacological target records (estriol binding oestrogen receptor-α and receptor-β), not drug-drug interactions.
+- **Route consideration:** The only Australian product is a vaginal cream. The FHA evidence used oestrogen administration that may differ in route and dose. Route compatibility has not been assessed.
+- **Theoretical concerns:** Exogenous oestrogen is associated with proliferative effects on breast tissue, which matters for the lower-ranked breast-related predictions. Oestrogens also generally suppress lactation.
 
-Please refer to the TGA-approved Product Information (PI) for definitive safety information once available; none currently exists given the drug's unmarketed status.
+Please refer to the TGA-approved Product Information (PI) for full warnings, contraindications and interaction information.
+
+## Other Predicted Indications (Brief Note)
+
+The other top-10 predictions are weaker. Migraine disorder (score 91.5%) has only a 1982 treatment report. Breast fibrocystic disease (92.3%) is supported only by biomarker studies, not therapeutic evidence, and raises a safety concern. Migraine with brainstem aura, benign mammary dysplasia, blunt duct adenosis, apocrine adenosis, conjunctivitis, lactation disease and breast abscess are prediction-only signals with no meaningful supporting evidence. All were rated Hold.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (treat as a research question)**
 
 **Rationale:**
-A blocking data gap on TFDA/TGA warnings and contraindications means safety cannot pass initial screening (S1), the drug is not marketed in Australia (0 ARTG entries), and the strongest clinical-trial evidence is compromised by a likely drug-identity mismatch (Estriol vs Estetrol). The supporting evidence base is Level L3 (observational/mechanistic), consistent with the underlying TxGNN scoring's own "Research Question" recommendation at decision stage S1.
+The prediction score is high, and there is a plausible neuroendocrine rationale and one small physiological study in FHA. However, there are no registered trials, no outcome data such as return of menses, and the only Australian product is a vaginal cream with no recorded indication in the data compiled for this report. The evidence level is L3 at best.
 
 **To proceed, the following is needed:**
-- TFDA/TGA Product Information — warnings, contraindications, DDI (DG001, blocking)
-- Confirmed mechanism of action from DrugBank (DG002)
-- Manual verification of NCT04090957 and NCT04209543 drug identity before counting them as supporting evidence
-- Original indication/regulatory history for Estriol (currently absent)
-- A dedicated Estriol-specific interventional study in FHA/amenorrhea if this direction is pursued further
+- The TGA-approved Product Information (warnings, contraindications and approved indications), as safety screening cannot proceed without it
+- Detailed mechanism of action data, for example from DrugBank
+- Clarification of which amenorrhoea subtype (for example FHA) is being targeted
+- Assessment of whether vaginal administration is suitable, or whether another route or formulation is needed
+- Controlled clinical studies with clinical outcomes such as menstrual recovery, bone health and endometrial safety
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

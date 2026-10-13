@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Triamcinolone
-parent: Moderate Evidence (L3-L4)
-nav_order: 701
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 753
+evidence_level: L5
 indication_count: 10
 ---
 
 # Triamcinolone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Triamcinolone: From Corticosteroid Anti-Inflammatory Use to Alopecia Mucinosa
+# Triamcinolone: From Autoimmune and Inflammatory Conditions to Alopecia Mucinosa
 
 ## One-Sentence Summary
 
-> Triamcinolone is a synthetic corticosteroid; specific original indication data is not available in this evidence pack, and the drug is not currently registered in Australia.
-> The TxGNN model predicts it may be effective for **Alopecia Mucinosa**,
-> with **0 clinical trials** and **4 publications** (all case reports) currently identified in relation to this indication.
+Triamcinolone is a corticosteroid, originally used for autoimmune and inflammatory conditions such as Crohn disease, adrenocortical insufficiency and eosinophilic pneumonia.
+The TxGNN model predicts it may be effective for **alopecia mucinosa** (follicular mucinosis), but there are **no registered clinical trials** and only **2 publications** (both case reports, neither testing triamcinolone) behind this prediction. Evidence is limited to model prediction and indirect reports.
 
 ---
 
@@ -43,29 +42,29 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in evidence pack (drug not currently registered in Australia) |
-| Predicted New Indication | Alopecia Mucinosa |
+| Original Indication | Autoimmune disease, Crohn disease and inflammatory bowel disease, adrenocortical insufficiency, congenital adrenal hyperplasia, eosinophilic pneumonia, acute lymphoblastic leukaemia (per the knowledge graph; no ARTG indication text is available) |
+| Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 (mechanistic rationale and case reports only; no direct triamcinolone evidence) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for triamcinolone in this evidence pack. Based on general pharmacological knowledge, triamcinolone is a synthetic corticosteroid with anti-inflammatory and immunosuppressive properties, used across a wide range of inflammatory and dermatological conditions.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, triamcinolone is a glucocorticoid. Its efficacy in inflammatory and autoimmune conditions is established, and mechanistically it may be applicable to alopecia mucinosa.
 
-Alopecia mucinosa (follicular mucinosis) is an inflammatory follicular disorder characterised by mucin deposition and lymphocytic infiltration within the hair follicle. In clinical practice, intralesional corticosteroid injection — including triamcinolone acetonide — is a commonly used treatment for inflammatory follicular disease, acting by suppressing local inflammation and lymphocytic infiltrate.
+Follicular mucinosis involves a perifollicular inflammatory infiltrate and mucin deposition. Corticosteroids, including intralesional triamcinolone, have anti-inflammatory effects that could plausibly reduce this infiltrate. This is the only link between the original and predicted indications.
 
-That said, the available literature on alopecia mucinosa consists entirely of case reports describing the disease itself; none of the identified publications report triamcinolone-specific treatment outcomes. The mechanistic rationale is therefore plausible but currently unproven by direct clinical evidence for this drug in this indication.
+The supporting literature is thin. It consists of a 1964 case description and a 2014 case report of successful treatment with topical bexarotene gel, not triamcinolone. There is therefore no direct triamcinolone evidence for this condition in the data supplied.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
@@ -73,24 +72,27 @@ Currently no related clinical trials registered
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [4136515](https://pubmed.ncbi.nlm.nih.gov/4136515/) | 1974 | Case Report | Archives of Dermatology | Describes alopecia mucinosa with neurofollicular changes; disease description only, no treatment data |
-| [14170262](https://pubmed.ncbi.nlm.nih.gov/14170262/) | 1964 | Case Report | Hifuka Kiyo (Acta Dermatologica) | Early case report of alopecia mucinosa (mucinosis follicularis Jablonska); disease description only |
-| [23968145](https://pubmed.ncbi.nlm.nih.gov/23968145/) | 2014 | Case Report | International Journal of Dermatology | Idiopathic follicular mucinosis treated with topical bexarotene gel (not triamcinolone); relevant as it demonstrates active treatment interest in this rare disease |
-| [9917176](https://pubmed.ncbi.nlm.nih.gov/9917176/) | 1998 | Case Report | European Journal of Dermatology | Clinical case discussion of follicular mucinosis; disease description only |
+| [23968145](https://pubmed.ncbi.nlm.nih.gov/23968145/) | 2014 | Case report | Int J Dermatol | First reported case of topical bexarotene 1% gel successfully treating persistent idiopathic follicular mucinosis not associated with cutaneous T-cell lymphoma. Triamcinolone was not used. |
+| [14170262](https://pubmed.ncbi.nlm.nih.gov/14170262/) | 1964 | Case report | Hifuka Kiyo (Acta Dermatologica) | Case of alopecia mucinosa (Pinkus) / follicular mucinosis (Jablonska). No abstract available. |
 
 ---
 
 ## Australia Market Information
 
-Triamcinolone is not currently registered on the Australian Register of Therapeutic Goods (ARTG) according to the available data (0 licences listed). No product entries or approved indication text are available for review.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 2117K | Tricortone | Cream containing triamcinolone acetonide 200 micrograms per g, 100 g | Not available in the compiled data |
+
+The only registered form is a topical cream. Whether it is suitable for follicular disease, where intralesional injection is the usual approach, has not been assessed.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Knowledge-graph contraindication signals** (from drug-disease links, not label text): hypertension, congestive heart failure, hyperglycaemia, liver disease, gallbladder disease, epilepsy, herpes simplex virus keratitis, measles, urea cycle disorders (carbamoyl phosphate synthetase I deficiency, hyperargininemia, citrullinemia), and pituitary hormone deficiency conditions (hypopituitarism, growth hormone deficiency, hypogonadotropic hypogonadism, Kallmann syndrome, Sheehan syndrome).
+- **Drug Interactions**: 100 interactions were identified. The most notable in the compiled sample is **adalimumab (Major)**. Many others are Moderate, including zidovudine, isotretinoin, acarbose, acebutolol, acetazolamide, ketorolac, nifedipine, ibuprofen, ethinylestradiol, butalbital, albiglutide, aldesleukin, alefacept, alemtuzumab and aliskiren, along with a tetanus toxoid vaccine. Formoterol and salbutamol are Minor.
 
-> **Note:** This evidence pack flags a **blocking data gap (DG001)** — TFDA/TGA-equivalent product warnings and contraindications have not yet been retrieved — which prevents this candidate from entering initial safety evaluation (S1). Mechanism of action data is also missing (DG002, High severity), limiting the strength of the mechanistic rationale above.
+Label warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ---
 
@@ -99,13 +101,18 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-Evidence for triamcinolone in alopecia mucinosa is limited to case-report-level literature (L4) with no triamcinolone-specific treatment data and no clinical trials. A blocking data gap in regulatory safety information (warnings/contraindications) prevents this candidate from proceeding to initial safety assessment.
+The high model score (99.99%) is supported only by a plausible anti-inflammatory rationale and two case reports that do not involve triamcinolone. There are no trials. Label safety data are also missing, so the candidate cannot proceed to safety screening.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information: key warnings and contraindications (blocking gap, DG001)
-- Detailed mechanism of action data (DG002)
-- Triamcinolone-specific clinical or observational data in alopecia mucinosa, beyond descriptive case reports
-- Route of administration compatibility assessment (currently pending — intralesional/topical use would need to be confirmed against available formulations)
+- Triamcinolone-specific clinical data in follicular mucinosis (case series or trials, with intralesional or topical use)
+- Mechanism of action data
+- TGA Product Information warnings and contraindications for the registered product
+- Confirmation of the approved indication and route suitability for the ARTG-listed topical cream
+- A review of the interaction profile, particularly with adalimumab
+
+---
+
+*Other predicted indications:* The data compiled for this report also cover nine further predictions. **Folliculitis decalvans** is the most developed (L3, two entries of a retrospective review of 23 patients, with a plausible role for intralesional or topical corticosteroids, though triamcinolone-specific efficacy is unconfirmed). **Idiopathic steroid-sensitive nephrotic syndrome** (L4) rests on class-level glucocorticoid evidence from two reviews. The remainder (telogen effluvium, alopecia antibody deficiency, hereditary hypotrichosis with recurrent skin vesicles, alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome, atrichia with papular lesions, alopecia universalis onychodystrophy vitiligo, and steroid-resistant nephrotic syndrome) are L5 and rated Hold. The steroid-resistant nephrotic syndrome prediction contradicts the definition of the condition.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

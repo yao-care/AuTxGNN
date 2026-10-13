@@ -2,7 +2,7 @@
 layout: default
 title: Trimethoprim
 parent: Model Prediction Only (L5)
-nav_order: 704
+nav_order: 756
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,68 +29,97 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the evidence pack's `predicted_indications[0]` (rank 1, highest TxGNN score) as the primary indication per the template's extraction rule. Note: this candidate has zero supporting evidence — the pack's rank 2 candidate (conjunctivitis) is materially stronger, so I've flagged that at the end.
-
----
-
-# Trimethoprim: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+# Trimethoprim: From Urinary Tract Infection to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Trimethoprim is a synthetic dihydrofolate reductase (DHFR) inhibitor historically used against susceptible bacterial infections, and it is not currently registered for sale in Australia.
-The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis** with a very high confidence score, but currently **no clinical trials and no published literature** support this specific prediction.
-Given the mechanistic mismatch (this condition is typically viral in origin, while trimethoprim is antibacterial), the evidence does not currently support progressing this candidate.
+Trimethoprim is an antibacterial originally used for urinary tract infections, as well as ear, eye and other infections.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
+but **no clinical trials or publications** currently support this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this evidence pack (trimethoprim is not registered in Australia); internationally used for susceptible bacterial infections |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
+| Original Indication | Urinary tract infection, infectious otitis media, pneumocystosis, shigellosis, conjunctivitis (indication text is not recorded in the Australian licence data) |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.57% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for trimethoprim is not available in this evidence pack. Based on established pharmacology, trimethoprim is a synthetic antibacterial agent that inhibits bacterial dihydrofolate reductase, blocking folate synthesis and bacterial replication. It is most often used in combination with sulfamethoxazole (systemic infections) or polymyxin B (topical ophthalmic infections), rather than as a standalone agent.
+Currently, detailed mechanism of action data is not available. Based on known information, trimethoprim is a dihydrofolate reductase (DHFR) inhibitor antibacterial. Its efficacy in bacterial infections, including conjunctivitis (usually as a topical combination with polymyxin B), is established.
 
-Punctate epithelial keratoconjunctivitis is most commonly caused by viral pathogens (notably adenovirus), rather than bacteria. Trimethoprim's antibacterial mechanism has no established activity against viral agents, so there is no clear mechanistic pathway from the drug's original antibacterial use to this specific predicted indication. A theoretical, indirect rationale could only apply in cases of secondary bacterial co-infection of the ocular surface — this is not supported by any direct evidence in the current pack.
+Punctate epithelial keratoconjunctivitis is often viral (for example adenoviral) or inflammatory in origin. An antibacterial would not be expected to act on those causes. The high TxGNN score likely reflects network proximity to the approved conjunctivitis indications rather than a distinct mechanism. Only a possible role against secondary bacterial infection is plausible.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered for punctate epithelial keratoconjunctivitis.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available for this predicted indication.
+
+For context, the data compiled for this report include literature on the already-established indication of conjunctivitis, which is not new evidence for the predicted indication:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [19043945](https://pubmed.ncbi.nlm.nih.gov/19043945/) | 2008 | RCT | J Pediatr Ophthalmol Strabismus | Polymyxin B/trimethoprim ophthalmic solution compared with moxifloxacin for speed of clinical efficacy in bacterial conjunctivitis |
+| [30007329](https://pubmed.ncbi.nlm.nih.gov/30007329/) | 2018 | Systematic review/Meta-analysis | J Pediatric Infect Dis Soc | Antibiotic treatments, including trimethoprim, for neonatal chlamydial conjunctivitis |
+| [6204534](https://pubmed.ncbi.nlm.nih.gov/6204534/) | 1984 | Clinical study | Am J Ophthalmol | Trimethoprim-containing ophthalmic solutions in bacterial conjunctivitis or blepharitis |
+| [8595639](https://pubmed.ncbi.nlm.nih.gov/8595639/) | 1995 | Survey | Clin Ther | Children with acute bacterial conjunctivitis treated with trimethoprim-polymyxin B ophthalmic solution |
 
 ## Australia Market Information
 
-Trimethoprim is not currently registered on the Australian Register of Therapeutic Goods (ARTG). No product licences are recorded in this evidence pack.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10785P | Alprim | Tablet 300 mg (oral) | Not recorded in the data compiled for this report |
+
+The only listed Australian product is an oral tablet. The predicted ocular indication would likely need a topical ophthalmic formulation, and no route compatibility assessment is available.
+
+## Cytotoxicity
+
+Not applicable. Trimethoprim is not an antineoplastic drug, so this section is omitted.
 
 ## Safety Considerations
 
-As trimethoprim is not currently registered in Australia, no local TGA-approved Product Information exists for this drug alone. Safety data (warnings, contraindications, drug interactions) were not available in this evidence pack — please refer to overseas regulatory Product Information for trimethoprim-containing products (e.g., combination products with sulfamethoxazole or polymyxin B) for safety guidance.
+Product Information warnings and contraindications were not available. The following come from the drug's knowledge-graph relationships and from interaction screening, and should be confirmed against the TGA-approved Product Information (PI).
+
+- **Disease-level contraindications (knowledge graph, not label text)**: porphyria (including inherited porphyria and other porphyrin metabolism disorders), kidney disease, liver disease, gallbladder disease, thrombocytopenia, neutropenia, agranulocytosis, G6PD deficiency, folic acid deficiency anaemia, *Clostridium difficile* colitis, perinatal necrotising enterocolitis, glycogen storage disease, cystinuria, galactosaemia and pyoureter.
+- **Drug Interactions** (100 interactions identified; selected examples):
+  - **Major**: potassium citrate, potassium bicarbonate, potassium chloride, potassium gluconate (hyperkalaemia risk).
+  - **Moderate**: metformin, pioglitazone, rosiglitazone, repaglinide, balsalazide, picosulfuric acid, sapropterin.
+- **Other considerations from the prediction analysis**: trimethoprim-sulfamethoxazole is a recognised cause of drug-induced vasculitis and hypersensitivity, and carries a risk of hyperkalaemia and renal effects.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial or literature evidence supporting trimethoprim for punctate epithelial keratoconjunctivitis, and the drug's antibacterial mechanism does not plausibly address the predominantly viral aetiology of this condition. The prediction score alone is insufficient to justify further evaluation.
+The prediction has no trials or literature behind it (L5). The proposed indication is often viral or inflammatory, so a DHFR-inhibiting antibacterial has no clear mechanistic role. The only Australian product is an oral tablet.
 
 **To proceed, the following is needed:**
-- TFDA/TGA product label warnings and contraindications (currently a blocking data gap — required before any S1 safety screening)
-- Confirmed mechanism of action data via DrugBank or equivalent source
-- Any preclinical or *in vitro* evidence of antiviral or immunomodulatory activity relevant to this indication
-- Re-evaluation if new clinical or mechanistic evidence emerges
+- Mechanism of action data and a clear causal link (bacterial versus viral or inflammatory aetiology) for punctate epithelial keratoconjunctivitis
+- Evidence from clinical studies in this condition, including any registered trials (ClinicalTrials.gov or ANZCTR)
+- Route and formulation assessment (a topical ophthalmic product versus the registered oral tablet)
+- TGA Product Information warnings and contraindications to complete the safety review
 
----
+## Other Predicted Indications (Brief Notes)
 
-**Note on other candidates in this evidence pack:** This drug was evaluated against 10 TxGNN-predicted indications. The rank-1 prediction above is the highest-scoring but has no supporting evidence. By contrast, **conjunctivitis (bacterial)** (rank 2, score 99.17%) is supported by 3 clinical trials — including a completed Phase 4 RCT directly comparing a trimethoprim/polymyxin B ophthalmic solution to moxifloxacin — and multiple RCT-level publications, reaching Evidence Level L2 with a **"Proceed with Guardrails"** recommendation. This is likely the more actionable candidate and may warrant its own dedicated evaluation report.
+| Rank | Predicted Indication | Score | Evidence Level | Decision | Note |
+|---|---|---|---|---|---|
+| 2 | Conjunctivitis | 99.17% | L3 | Research Question | Already an original indication, so not a true repurposing candidate |
+| 3 | Exposure keratitis | 98.95% | L4 | Hold | Indirect literature only. Primary management is lubrication and lid protection |
+| 4 | Postinfectious vasculitis | 98.42% | L5 | Hold | Immune-mediated, and trimethoprim-sulfamethoxazole can cause vasculitis |
+| 5 | Post-bacterial disorder | 98.39% | L4 | Research Question | Trials involve the trimethoprim-sulfamethoxazole combination, none meets Phase 2/3 criteria |
+| 6 | Post-infectious syndrome | 98.31% | L5 | Hold | Only trial was withdrawn with no participants |
+| 7 | Infective urethral stricture | 98.25% | L4 | Hold | Could address related urinary infection only, not the stricture |
+| 8 | Otitis externa | 98.14% | L4 | Hold | Pseudomonas is generally resistant, with no direct human clinical evidence for trimethoprim alone |
+| 9 | Chagas cardiomyopathy | 98.07% | L5 | Hold | No evidence, theoretical folate pathway rationale only |
+| 10 | Infection-related haemolytic uraemic syndrome | 98.05% | L5 | Hold | Antibiotics are generally avoided in Shiga toxin-producing *E. coli* infection, which raises a safety concern |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

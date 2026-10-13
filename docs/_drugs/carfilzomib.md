@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Carfilzomib
-parent: Model Prediction Only (L5)
-nav_order: 126
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 135
+evidence_level: L3
 indication_count: 10
 ---
 
 # Carfilzomib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,134 +29,122 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carfilzomib: From Multiple Myeloma to Myeloid Leukemia
+# Carfilzomib: From Plasma Cell Myeloma to Myeloid Leukaemia
 
 ## One-Sentence Summary
 
-Carfilzomib (Kyprolis) is a second-generation irreversible proteasome inhibitor approved internationally for relapsed/refractory multiple myeloma, though it is not currently registered in Australia.
-The TxGNN model identifies **myeloid leukemia** as the most evidence-supported repurposing candidate among 10 predicted indications, with **1 completed Phase 1 clinical trial** (NCT01137747) and **multiple preclinical and mechanistic publications** directly supporting this direction.
-While the TxGNN model's top-ranked prediction by score is CMM7 (a rare hereditary melanoma subtype, 99.37%), that indication carries no supporting evidence — myeloid leukemia (97.01%, ranked #8) is the focus of this report as the most clinically actionable candidate.
+Carfilzomib is a proteasome inhibitor originally used to treat plasma cell myeloma.
+The TxGNN model predicts it may be effective for **myeloid leukaemia** (the highest-ranked prediction with supporting evidence; the top-scoring predictions, such as CMM7 and several melanoma subtypes, have no trial or literature support).
+Currently, **3 registered trials** were retrieved (only **1** directly tests carfilzomib, a small Phase 1 study) and **20 publications** were retrieved, mostly preclinical or reviews.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Relapsed/refractory multiple myeloma (internationally approved; not registered in Australia) |
-| Predicted New Indication | Myeloid Leukemia |
-| TxGNN Prediction Score | 97.01% (ranked #8 overall; highest-evidence prediction) |
-| Evidence Level | L3 (Phase 1 trial completed + preclinical and mechanistic studies) |
-| Australia Market Status | Not registered in Australia |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Plasma cell myeloma |
+| Predicted New Indication | Myeloid leukaemia (see note below) |
+| TxGNN Prediction Score | 97.01% |
+| Evidence Level | L3 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
+
+*Note: The top-ranked TxGNN prediction is CMM7 (a melanoma susceptibility locus, score 99.37%), but it has no supporting trials or literature (L5). Myeloid leukaemia (rank 8, score 97.01%) is the best-supported candidate and is the focus of this report. The approved indication text is not available in the data compiled for this report, so the original indication is taken from the knowledge graph.*
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Carfilzomib belongs to the proteasome inhibitor class and selectively and irreversibly inhibits the chymotrypsin-like activity (β5 subunit) of the 20S proteasome. In multiple myeloma, the extraordinary volume of immunoglobulin production places an extreme burden on the ubiquitin-proteasome system (UPS), making these cells critically dependent on proteasome activity for survival. Carfilzomib overwhelms this system, triggering ER stress accumulation and downstream apoptosis.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, carfilzomib is a selective, irreversible proteasome inhibitor. Its efficacy in plasma cell myeloma has been established, and mechanistically it may be applicable to myeloid leukaemia.
 
-Myeloid leukemia cells share a closely related vulnerability. AML cells demonstrate high NF-κB pathway dependence and elevated unfolded protein response (UPR) stress — both of which are directly disrupted by proteasome inhibition. A 2016 review (PMID 27911437) specifically examined the proteasome's role in AML and noted that proteasome inhibitors including carfilzomib induce antiproliferative and proapoptotic effects in primary human AML cells. A 2017 study (PMID 28340282) went further, demonstrating that carfilzomib induces leukemia cell apoptosis via an additional non-proteasome mechanism — inhibiting ELK1/CIP2A and activating the tumour suppressor PP2A — suggesting broader activity than direct proteasomal blockade alone.
+Leukaemic cells, including acute myeloid leukaemia (AML), depend on the ubiquitin-proteasome pathway. Proteasome inhibition causes accumulation of undegraded proteins, proteotoxic stress and apoptosis. Preclinical work shows antiproliferative and proapoptotic effects of proteasome inhibitors in leukaemia cells, particularly in combination (for example with HDAC inhibitors, tyrosine kinase inhibitors in chronic myeloid leukaemia models, or HIV protease inhibitors). Preclinical work also suggests that proteasome inhibition may enhance CAR-NK cell activity against AML.
 
-Critically, a completed Phase 1 clinical trial (NCT01137747) directly tested escalating doses of Carfilzomib in relapsed AML and ALL patients and has published results (PMID 26674111). Synergistic activity with tyrosine kinase inhibitors in CML models (PMID 24590311) and a 2024 study showing that proteasome inhibition enhances CAR-NK cell efficacy against AML (PMID 39285441) collectively provide a biologically coherent and clinically tested rationale. The mechanistic link between multiple myeloma and myeloid leukemia is thus well-grounded in shared UPS dependency, with the myeloid leukaemia application having crossed from preclinical into early clinical investigation.
+A Phase 1 trial has directly tested carfilzomib in relapsed or refractory AML and acute lymphoblastic leukaemia. However, efficacy evidence is limited to early-phase work, and no Phase 2/3 data were identified.
+
+**Other predictions (all with limited evidence):**
+- **Melanoma** (score 99.03%, L4): Only preclinical data, such as enhanced apoptosis with carfilzomib plus bortezomib in murine B16-F1 cells. No clinical trials. Prior proteasome inhibitor experience in melanoma has been largely disappointing.
+- **Indolent plasma cell myeloma** (score 97.94%, L4): This is essentially an on-label disease with subtype-specific evidence gaps, not true repurposing. No direct evidence in indolent disease was retrieved.
+- **CMM7, paediatric leptomeningeal melanoma, epithelioid cell uveal melanoma, vulvar melanoma, autosomal dominant intellectual disability 55 with seizures, neutrophil immunodeficiency syndrome and CNS melanocytic neoplasm** (L5): Prediction only. For CNS-related indications, limited expected CNS penetration is a major barrier. For neutrophil immunodeficiency, carfilzomib-related neutropenia would be counterproductive.
 
 ---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT01137747](https://clinicaltrials.gov/study/NCT01137747) | Phase 1 | Completed | 18 | Direct dose-escalation trial of Carfilzomib in relapsed AML and ALL; established pharmacokinetics, safety profile, and initial efficacy signals; results published (PMID 26674111) |
-| [NCT02551718](https://clinicaltrials.gov/study/NCT02551718) | N/A | Completed | 34 | Pilot study of individualised treatment selection based on ex vivo chemosensitivity assay and genomic profiling in relapsed/refractory acute leukaemia; Carfilzomib included as one of the tested agents |
+|---------|------|------|------|---------|
+| [NCT01137747](https://clinicaltrials.gov/study/NCT01137747) | Phase 1 | Completed | 18 | Carfilzomib dose escalation in relapsed AML and ALL. Directly relevant but small and Phase 1 only |
+| [NCT01204164](https://clinicaltrials.gov/study/NCT01204164) | Phase 1 | Completed | 120 | TG02 citrate (a different drug) in advanced haematological malignancies. No direct carfilzomib evidence |
+| [NCT03530683](https://clinicaltrials.gov/study/NCT03530683) | Phase 1 | Terminated | 189 | Maplirpacept (TTI-622, a different drug) in lymphoma, myeloma and AML. Not relevant to carfilzomib |
 
-> **Note:** Two additional trials identified in the Evidence Pack (NCT03530683 — terminated TTI-622/anti-SIRPα antibody trial; NCT01204164 — TG02/CDK inhibitor Phase 1) are not Carfilzomib-specific and have low direct relevance to this repurposing hypothesis.
+No ANZCTR trial identifiers were found in the data compiled for this report.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [26674111](https://pubmed.ncbi.nlm.nih.gov/26674111/) | 2016 | Phase 1 Trial | Leukemia & Lymphoma | Phase I study of Carfilzomib in relapsed/refractory AML and ALL; clinical dosing, PK, and early safety/efficacy data established |
-| [27911437](https://pubmed.ncbi.nlm.nih.gov/27911437/) | 2016 | Review | Blood Cancer Journal | Comprehensive review of the proteasome's role in AML; supports mechanistic rationale for Carfilzomib in myeloid malignancies |
-| [28340282](https://pubmed.ncbi.nlm.nih.gov/28340282/) | 2017 | Basic Science | British Journal of Haematology | Carfilzomib induces leukaemia cell apoptosis via ELK1/CIP2A inhibition and PP2A activation, independent of proteasome inhibition — a novel secondary mechanism |
-| [39285441](https://pubmed.ncbi.nlm.nih.gov/39285441/) | 2024 | Preclinical | Journal of Hematology & Oncology | Proteasome inhibition enhances anti-leukaemic efficacy of CAR-NK cells in AML by upregulating activating ligands on tumour cell surface (2024 combination strategy data) |
-| [24590311](https://pubmed.ncbi.nlm.nih.gov/24590311/) | 2014 | In vitro | Oncogenesis | Carfilzomib synergises with TKIs in imatinib-sensitive and imatinib-resistant CML; provides rationale for combination approaches in myeloid malignancies |
-| [24735925](https://pubmed.ncbi.nlm.nih.gov/24735925/) | 2014 | Basic Science | Cancer Cell | Proteasome inhibitors including carfilzomib evoke latent tumour suppression programmes in MLL-rearranged pro-B leukaemias via MLL-AF4 accumulation |
-| [17341267](https://pubmed.ncbi.nlm.nih.gov/17341267/) | 2007 | In vitro | British Journal of Haematology | PR-171 (Carfilzomib) inhibits autocrine- and cytokine-dependent proliferation of primary human AML blasts at nanomolar concentrations |
-| [19275578](https://pubmed.ncbi.nlm.nih.gov/19275578/) | 2009 | In vitro | Cardiovascular & Hematological Disorders Drug Targets | Carfilzomib (PR-171) shows antiproliferative and proapoptotic effects on leukaemia cells; synergism with HDAC inhibitors demonstrated |
-| [40389585](https://pubmed.ncbi.nlm.nih.gov/40389585/) | 2025 | Preclinical | Scientific Reports | Selective immunoproteasome inhibitor M3258 induces proteotoxic stress and apoptosis in KMT2A::AFF1-driven ALL; supports next-generation proteasome targeting in leukaemia |
-| [24418752](https://pubmed.ncbi.nlm.nih.gov/24418752/) | 2014 | Preclinical | Leukemia Research | HIV protease inhibitors induce proteotoxic stress and sensitise AML cells to proteasome inhibitor treatment; supports rational combination strategies for refractory AML |
+|------|-----|------|------|---------|
+| [26674111](https://pubmed.ncbi.nlm.nih.gov/26674111/) | 2016 | Phase 1 study | Leuk Lymphoma | Phase 1 study of carfilzomib in relapsed or refractory AML and ALL (no abstract available) |
+| [27911437](https://pubmed.ncbi.nlm.nih.gov/27911437/) | 2016 | Review | Blood Cancer J | Role of the proteasome in AML. Proteasome inhibition is an effective strategy in several haematological malignancies |
+| [31785545](https://pubmed.ncbi.nlm.nih.gov/31785545/) | 2020 | Review | Drug Resist Updat | Targeting the ubiquitin-proteasome pathway to overcome anticancer drug resistance |
+| [25830014](https://pubmed.ncbi.nlm.nih.gov/25830014/) | 2015 | Review | Ther Adv Hematol | Novel agents for childhood acute leukaemia |
+| [39285441](https://pubmed.ncbi.nlm.nih.gov/39285441/) | 2024 | Preclinical | J Hematol Oncol | Proteasome inhibition enhances anti-leukaemic efficacy of CAR-NK cells against AML |
+| [24590311](https://pubmed.ncbi.nlm.nih.gov/24590311/) | 2014 | Preclinical | Oncogenesis | Carfilzomib synergises with tyrosine kinase inhibitors in imatinib-sensitive and -resistant CML models |
+| [28340282](https://pubmed.ncbi.nlm.nih.gov/28340282/) | 2017 | Preclinical | Br J Haematol | Carfilzomib induces leukaemia cell apoptosis via ELK1/CIP2A inhibition and PP2A activation, not related to proteasome inhibition |
+| [24735925](https://pubmed.ncbi.nlm.nih.gov/24735925/) | 2014 | Preclinical | Cancer Cell | Proteasome inhibitors evoke latent tumour suppression programs in pro-B MLL leukaemias |
+| [19275578](https://pubmed.ncbi.nlm.nih.gov/19275578/) | 2009 | In vitro | Cardiovasc Hematol Disord Drug Targets | Antiproliferative and proapoptotic effects of proteasome inhibitors, alone and with HDAC inhibitors, on leukaemia cells |
+| [24418752](https://pubmed.ncbi.nlm.nih.gov/24418752/) | 2014 | In vitro | Leuk Res | HIV protease inhibitors induce proteotoxic stress in AML cells and sensitise them to proteasome inhibitors |
+
+Several other retrieved papers were off-topic or indirect (for example, a review of peripheral artery disease and stroke, a pharmacokinetic study of isatuximab, and a bortezomib cardiac tamponade case report).
 
 ---
 
 ## Australia Market Information
 
-Carfilzomib is **not currently registered in Australia**. There are no ARTG entries. Healthcare professionals wishing to access Carfilzomib for Australian patients would need to consider the TGA Special Access Scheme (SAS) Category B pathway or participation in a clinical trial.
-
-> **International context:** Carfilzomib (brand name Kyprolis) is approved by the FDA (United States) and EMA (Europe) for relapsed/refractory multiple myeloma, including in combination with lenalidomide and dexamethasone (KRd), or daratumumab and dexamethasone (DKd). As of the data cutoff date (21 June 2026), TGA registration has not been obtained.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 11229B | Kyprolis | Powder for injection 30 mg | Not available in the data compiled for this report |
 
 ---
 
 ## Cytotoxicity
 
-Carfilzomib is classified as an antineoplastic agent (proteasome inhibitor). This section applies.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — selective, irreversible proteasome inhibitor (20S proteasome, β5 chymotrypsin-like subunit) |
-| Myelosuppression Risk | Moderate to High — thrombocytopenia and neutropenia are known class effects; particularly significant in leukaemia patients with compromised marrow reserve |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | Full blood count (FBC) with differential; renal function (eGFR, creatinine, urea); liver function tests (LFTs); cardiac assessment (ECG, echocardiogram); blood pressure monitoring at each visit — Carfilzomib carries well-documented cardiovascular toxicity risk including cardiac failure and hypertension |
-| Handling Protection | Must be handled per cytotoxic drug handling regulations; standard PPE required for preparation and administration |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (proteasome inhibitor), used as antineoplastic therapy |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions. Neutropenia and thrombocytopenia are recognised with carfilzomib |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the PI. Typically FBC, liver and renal function, and cardiac assessment |
+| Handling Protection | Follow local cytotoxic drug handling requirements; please refer to the PI |
 
 ---
 
 ## Safety Considerations
 
-Detailed safety data (warnings, contraindications, and drug-drug interactions) are not available in this Evidence Pack.
+- **Drug Interactions**: The interaction screen returned 100 potential interactions. Examples among those retrieved:
+  - **Major**: oxandrolone, oxymetholone, stanozolol, deferiprone, samarium (153Sm) lexidronam, avatrombopag, aminocaproic acid, and several coagulation or haemostatic products (recombinant antihaemophilic factor, von Willebrand factor, recombinant factor VIIa, factor X, human C1-esterase inhibitor, conestat alfa)
+  - **Moderate**: metronidazole, tinidazole, naltrexone, rosuvastatin, simvastatin, palifermin, strontium chloride Sr-89
+- **Other safety concerns raised in the evidence**: Cardiac, renal and peripheral neuropathy toxicity, and myelosuppression. The literature also reports cardiac events with proteasome inhibitors.
 
-Please refer to the FDA Prescribing Information for Carfilzomib (Kyprolis) for comprehensive safety data, given the absence of a TGA-approved Product Information document.
-
-**Clinical note for Australian prescribers:** Based on international post-marketing surveillance and Phase 3 trial data, Carfilzomib carries a well-characterised risk of serious cardiovascular adverse events — including cardiac failure, acute coronary syndrome, pulmonary hypertension, and hypertension. These risks warrant cardiac baseline assessment and ongoing monitoring, and are of particular relevance in leukaemia patients who may have prior anthracycline exposure or pre-existing cardiac risk factors.
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** *(Myeloid Leukemia indication)*
+**Decision: Hold**
 
 **Rationale:**
-A completed Phase 1 trial (NCT01137747) has directly evaluated Carfilzomib in relapsed AML/ALL with published results, and multiple preclinical studies support the mechanistic basis. However, no Phase 2/3 efficacy data exists, and Carfilzomib is not registered in Australia — early clinical proof-of-concept is present, but the evidence base remains insufficient for standard clinical adoption without additional trial data.
+The best-supported prediction, myeloid leukaemia, rests on a single small Phase 1 carfilzomib trial (n=18) plus preclinical and review literature, with no Phase 2/3 data. The highest-scoring predictions (CMM7 and melanoma subtypes) have no clinical evidence, and melanoma has only preclinical support.
 
 **To proceed, the following is needed:**
-
-- Obtain and review the full published Phase 1 results (PMID 26674111) — dose, response rate, and safety profile in the AML/ALL population
-- Retrieve complete mechanism-of-action data from DrugBank (DB08889) to formalise the MOA-to-indication rationale
-- Access FDA/EMA Prescribing Information for full safety, contraindication, and drug interaction data — this is a **blocking data gap** before any clinical recommendation can be made
-- Conduct a formal cardiac risk assessment framework: Carfilzomib's cardiovascular toxicity profile requires a pre-specified monitoring plan specific to the leukaemia patient population
-- Explore TGA Special Access Scheme (SAS) Category B eligibility for compassionate use in refractory AML patients with no remaining standard options
-- Identify and monitor international Phase 2 trials in AML/leukaemia for potential Australian site participation
-
----
-
-## Supplementary: Full TxGNN Prediction Summary
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Notes |
-|------|---------|-------------|----------------|----------------|-------|
-| 1 | CMM7 (CDKN2A/CDK4-mutated hereditary melanoma) | 99.37% | L5 | Hold | No clinical or preclinical evidence; no biological rationale linking proteasome inhibition to this genetic subtype |
-| 2 | Paediatric leptomeningeal melanoma | 99.30% | L5 | Hold | Blood-brain barrier penetration is a major obstacle; no evidence; paediatric safety concerns |
-| 3 | Epithelioid cell uveal melanoma | 99.23% | L5 | Hold | Driven by GNAQ/GNA11 mutations; no mechanistic link to proteasome inhibition |
-| 4 | Vulvar melanoma | 99.19% | L5 | Hold | Rare mucosal subtype; minimal BRAF mutations; no supporting evidence |
-| 5 | Melanoma (general) | 99.03% | L4 | Research Question | In vitro data in B16-F1 cells; computational modelling; no clinical trials; clinical translation from solid tumours historically poor for proteasome inhibitors |
-| 6 | Indolent plasma cell myeloma | 97.94% | L4 | Research Question | Mechanistically related to approved MM indication; smouldering MM biology (low proliferation rate) differs; no RCT supporting early intervention |
-| 7 | Intellectual disability, autosomal dominant 55, with seizures | 97.82% | L5 | Hold | Neurodevelopmental genetic disease; no biological rationale; Carfilzomib's known peripheral neuropathy risk is a serious concern in this population |
-| **8** | **Myeloid leukemia** | **97.01%** | **L3** | **Proceed with Guardrails** | **Primary focus of this report — strongest evidence among all predictions** |
-| 9 | Neutrophil immunodeficiency syndrome | 95.11% | L5 | Hold | No biological rationale; proteasome inhibition could worsen infection susceptibility in an already immunocompromised population |
-| 10 | CNS melanocytic neoplasm | 93.29% | L5 | Hold | Blood-brain barrier penetration barrier; no clinical or preclinical evidence |
-
-> **Interpretation note:** High TxGNN scores for ranks 1–4 (melanoma subtypes) likely reflect network proximity within the knowledge graph between melanoma biology and haematological malignancy nodes, rather than true mechanistic plausibility. Score alone should not drive prioritisation; evidence level and biological rationale are more reliable guides for clinical decision-making.
+- Published results and efficacy signals from the Phase 1 AML/ALL trial (NCT01137747)
+- Phase 2 data in myeloid leukaemia, ideally in rational combinations
+- Mechanism of action data (currently unavailable)
+- The approved indication text and warnings/contraindications from the TGA Product Information, which are needed for safety screening
+- Safety monitoring plan, particularly for cardiac, renal and haematological toxicity, and review of the major drug interactions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

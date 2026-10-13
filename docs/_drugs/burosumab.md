@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Burosumab
-parent: Moderate Evidence (L3-L4)
-nav_order: 110
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 117
+evidence_level: L5
 indication_count: 10
 ---
 
 # Burosumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,73 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Burosumab: From X-linked Hypophosphatemia to Renal Osteodystrophy
+# Burosumab: From Hereditary Hypophosphatemic Rickets to Renal Osteodystrophy
 
 ## One-Sentence Summary
 
-Burosumab (brand name: Crysvita) is a fully human anti-FGF23 monoclonal antibody approved internationally for the treatment of X-linked hypophosphatemia (XLH), a rare genetic disorder causing chronic low blood phosphate and progressive skeletal disease.
-The TxGNN model predicts it may have potential in **Renal Osteodystrophy** (prediction score 96.9%), though this specific indication is currently supported by only **1 review publication** and **no clinical trials**.
-Importantly, a closely related indication — **Bone Remodeling Disease** (Rank 4) — is backed by **2 completed Phase 3 trials** and represents the most clinically actionable opportunity in this drug's predicted profile.
-
----
+Burosumab is an anti-FGF23 monoclonal antibody, originally used to treat hereditary hypophosphatemic rickets (X-linked hypophosphatemia, XLH).
+The TxGNN model predicts it may be effective for **renal osteodystrophy**, but there are **0 registered clinical trials** and only **2 general publications** (both reviews, neither with burosumab clinical data in this condition). The prediction is currently model-based only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | X-linked Hypophosphatemia (XLH) — approved by FDA, EMA, and PMDA; not registered in Australia |
-| Predicted New Indication | Renal Osteodystrophy |
-| TxGNN Prediction Score | 96.9% |
-| Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+|------|------|
+| Original Indication | Hereditary hypophosphatemic rickets (from the knowledge graph; no approved indication text is available for the Australian entry) |
+| Predicted New Indication | Renal osteodystrophy |
+| TxGNN Prediction Score | 96.93% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Burosumab is a fully human IgG1 monoclonal antibody that targets and inhibits fibroblast growth factor 23 (FGF23). In XLH — caused by loss-of-function mutations in the *PHEX* gene — FGF23 is chronically overproduced, which suppresses renal tubular phosphate reabsorption (via downregulation of NaPi-IIa and NaPi-IIc co-transporters) and inhibits CYP27B1 (1α-hydroxylase), reducing synthesis of active vitamin D (1,25(OH)₂D₃). This combined phosphate and calcitriol deficiency severely impairs bone mineralisation, causing rickets in children and osteomalacia in adults. Burosumab reverses this process by blocking FGF23, restoring both phosphate reabsorption and calcitriol synthesis — a mechanism confirmed across two pivotal Phase 3 trials in XLH.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, burosumab neutralises FGF23, a hormone that promotes renal phosphate loss and suppresses active vitamin D production. Its efficacy in FGF23-mediated hypophosphatemia (XLH) is established, and FGF23 is also markedly elevated in chronic kidney disease–mineral and bone disorder (renal osteodystrophy), which is the likely basis of the model's prediction.
 
-Renal osteodystrophy is the umbrella term for bone disease arising in chronic kidney disease (CKD), driven partly by markedly elevated FGF23 levels. The shared FGF23 axis superficially links XLH and renal osteodystrophy, and the TxGNN knowledge graph captures this topological proximity (score 96.9%). However, the clinical situation in CKD is fundamentally different: FGF23 elevation in CKD is a *compensatory* mechanism designed to prevent the dangerous phosphate retention that accelerates CKD progression, vascular calcification, and cardiovascular mortality. Blocking FGF23 with Burosumab in this setting would be expected to worsen hyperphosphataemia — directly opposing the goals of CKD-MBD (mineral and bone disorder) management.
-
-Currently, only one broad review article addresses metabolic bone disease in the context relevant to this indication. No dedicated preclinical or clinical studies have evaluated Burosumab for renal osteodystrophy, and the mechanistic concern about inducing clinically significant hyperphosphataemia in CKD patients remains unresolved. The TxGNN prediction score reflects graph topology, not clinical safety or feasibility.
-
----
+The link is plausible but not straightforward. In CKD, raised FGF23 is largely a compensatory response to phosphate retention and reduced renal clearance, not the primary driver of disease. Blocking FGF23 could worsen hyperphosphataemia, so the mechanism does not translate directly into expected benefit. The two retrieved publications are a general review of CKD mineral and bone disease and a paediatric bone disorder overview. Neither provides burosumab clinical data in renal osteodystrophy.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for renal osteodystrophy.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [37927073](https://pubmed.ncbi.nlm.nih.gov/37927073/) | 2024 | Review | Current Pediatric Reviews | Reviews diagnosis and management of hypophosphatasia and X-linked hypophosphatemic rickets in children; highlights the challenges of rare metabolic bone disease diagnosis, overlapping phenotypes with common rickets, and emerging targeted therapies including anti-FGF23 approaches |
-
----
+|------|-----|------|------|---------|
+| [42438722](https://pubmed.ncbi.nlm.nih.gov/42438722/) | 2026 | Review | Kidney Int Rep | Reviews CKD-mineral and bone disorder, including CKD-associated osteoporosis and its fracture risk, with controversies and gaps. No burosumab data. |
+| [37927073](https://pubmed.ncbi.nlm.nih.gov/37927073/) | 2024 | Review | Curr Pediatr Rev | Overview of diagnosis and new treatments for hypophosphatasia and XLH in children. Relevant to the original indication, not to renal osteodystrophy. |
 
 ## Australia Market Information
 
-Burosumab (Crysvita) is **not registered** on the Australian Register of Therapeutic Goods (ARTG). There are currently no ARTG entries for this drug.
-
-> **Context for clinicians:** Burosumab has received regulatory approval in the United States (FDA, 2018), Europe (EMA, 2018), Japan (PMDA, 2019), and several other jurisdictions for X-linked hypophosphatemia in paediatric and adult patients. TGA registration in Australia had not been completed as of the data cutoff (21 June 2026). Access in Australia would currently require Special Access Scheme (SAS) or Authorised Prescriber pathway.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13136J | Crysvita | Solution for injection 20 mg in 1 mL | Not available in the compiled data |
 
 ## Safety Considerations
 
-No TGA-approved Product Information (PI) is available for Australia. Clinicians should consult the approved prescribing information from the FDA (US Prescribing Information), EMA (Summary of Product Characteristics), or PMDA as the applicable reference source.
+- **Contraindications (knowledge graph, not label text):** Kidney failure is listed as a contraindication-linked disease. This is directly relevant to the predicted renal indication.
+- **Drug Interactions (9 identified):**
+  - **Major:** calcium phosphate, calcifediol, calcitriol, dihydrotachysterol, doxercalciferol, paricalcitol, sodium cellulose phosphate
+  - **Moderate:** cinacalcet, etelcalcetide
 
-**Key mechanistic safety concern specific to this indication:** In patients with CKD, FGF23 suppression via Burosumab carries a theoretical risk of inducing or significantly worsening **hyperphosphataemia**. Elevated serum phosphate in CKD accelerates progression to end-stage renal disease, promotes vascular and soft-tissue calcification, and is independently associated with increased cardiovascular mortality. Any exploratory use of Burosumab in CKD-related bone disease would require rigorous phosphate monitoring at minimum, and the risk-benefit assessment is currently unfavourable without dedicated safety data in this population.
+  Many of these are standard therapies in CKD-mineral and bone disorder, so co-prescribing in the target population would be common and needs careful evaluation.
 
----
+Please refer to the TGA-approved Product Information (PI) for warnings and formal contraindications, as these were not available in the compiled data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction captures a genuine biological link between Burosumab's FGF23-blocking mechanism and renal osteodystrophy via shared phosphate metabolism pathways; however, in CKD the elevated FGF23 is a protective compensatory response, and blocking it risks clinically significant hyperphosphataemia that contradicts established CKD-MBD management principles. With only one peripheral review article and zero clinical trials, the evidence base is insufficient to justify further development for this specific indication at this time.
+The prediction rests on model output alone (L5), with no registered trials and no burosumab clinical data in renal osteodystrophy. The mechanism is uncertain and may be unfavourable, because FGF23 blockade could worsen hyperphosphataemia in patients with reduced kidney function. Kidney failure is also flagged as a contraindication-linked condition.
 
 **To proceed, the following is needed:**
-- Preclinical (animal model) studies evaluating the safety profile of FGF23 blockade in CKD models, with rigorous phosphate, phosphaturia, and renal function endpoints
-- Identification of a defined CKD subpopulation where the risk-benefit ratio may be favourable — most plausibly patients with XLH who subsequently develop CKD (as documented in PMID 38195892 under Indication Rank 2), where the primary driver of FGF23 elevation remains genetic rather than compensatory
-- Pharmacokinetic and pharmacodynamic modelling of Burosumab dosing in varying degrees of CKD (eGFR staging)
-- TGA registration of Burosumab for its primary XLH indication as a regulatory prerequisite for any expanded use in Australia
-- Review of the **Bone Remodeling Disease** indication (Rank 4 in this Evidence Pack, Evidence Level L1, "Proceed with Guardrails") as the priority repurposing pathway — two completed Phase 3 RCTs directly support Burosumab's efficacy in phosphate-mediated bone mineralisation disorders within this broader disease category
+- Review of the TGA-approved PI (warnings, contraindications, approved indication text), which was not available
+- Detailed mechanism of action data and mechanistic analysis of FGF23 blockade in CKD
+- Safety evaluation of phosphate handling, hyperphosphataemia and ectopic calcification risk at low GFR
+- Assessment of interactions with vitamin D analogues, calcimimetics and phosphate products commonly used in CKD
+- Preclinical or early-phase clinical data in a CKD-MBD population
+- Review of the case-level evidence on burosumab in XLH patients with CKD (PMID 38195892), which relates to safe use in XLH rather than treating renal osteodystrophy
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Melatonin
-parent: Moderate Evidence (L3-L4)
-nav_order: 422
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 454
+evidence_level: L5
 indication_count: 10
 ---
 
 # Melatonin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,15 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Melatonin: From Circadian Rhythm Regulation to Migraine with Brainstem Aura
+# Melatonin: From Insomnia to Migraine Disorder
 
 ## One-Sentence Summary
 
-Melatonin is an endogenous pineal hormone best known for regulating circadian rhythm and the sleep-wake cycle; it currently has no registered indication in Australia (0 ARTG entries, market status: Not Marketed). The TxGNN model predicts a possible role in **Migraine with Brainstem Aura**, with an **87.90% prediction score**, but this specific subtype currently has **no dedicated clinical trials** and only indirect support from **19 publications** (mostly reviews and observational studies on migraine and sleep/melatonin physiology generally).
+Melatonin was originally used to treat insomnia and sleep disorders.
+The TxGNN model predicts it may be effective for **migraine disorder**, the best-supported of its top 10 predictions,
+with **6 clinical trials** and **19 publications** currently supporting this direction, including a completed Phase 3 randomised controlled trial (RCT) and a meta-analysis.
+
+*Note: the highest-scoring prediction was migraine with brainstem aura (87.9%), but no trials or literature specific to that subtype were found. This report therefore focuses on the broader prediction, migraine disorder (rank 4), which has the strongest evidence.*
 
 ---
 
@@ -41,31 +45,38 @@ Melatonin is an endogenous pineal hormone best known for regulating circadian rh
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Australia (0 ARTG entries); no approved indication is on file for this molecule |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 87.90% |
-| Evidence Level | L4 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Insomnia; sleep disorder (initiating and maintaining sleep). Approved indication text is not available in the ARTG data compiled for this report. |
+| Predicted New Indication | Migraine disorder |
+| TxGNN Prediction Score | 85.5% |
+| Evidence Level | L1 (see note below) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails |
+
+*Evidence level note: the strict L1 rule requires at least two completed Phase 3 RCTs. Only one completed Phase 3 RCT (NCT01357031) was found, but it is supported by multiple completed Phase 2 RCTs and a meta-analysis of adult prophylaxis studies. The L1 grading comes from the evidence-scoring step for this candidate. A conservative reading would be L2.*
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for melatonin in this evidence pack. Based on known pharmacology, melatonin is the principal hormone secreted by the pineal gland, synchronising circadian and sleep-wake rhythms via MT1/MT2 receptor signalling, and it has documented anti-inflammatory and antioxidant activity.
+Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data show that melatonin acts on the MT1 (MTNR1A) and MT2 (MTNR1B) receptors, and also appears in the 5-HT2B receptor record. Through these receptors it regulates circadian rhythm and sleep, which is the basis of its use in insomnia.
 
-The mechanistic rationale specific to this prediction, per the repurposing analysis, is that melatonin secretion abnormalities and serotonergic pathway disturbances are shared features of migraine generally, but there is no evidence specific to the "migraine with brainstem aura" subtype. This subtype is clinically notable because triptans are contraindicated due to vasoconstriction risk — if melatonin lacks vasoconstrictive activity, it could theoretically be a safer prophylactic option for this population, but this requires subtype-specific research to confirm.
-
-It is worth noting that a closely related, broader diagnosis in the same prediction set — **migraine disorder** (unspecified aura status) — has substantially stronger evidence: an evidence level of **L1**, including a completed Phase 3 RCT (NCT01357031, melatonin 3 mg vs amitriptyline vs placebo, n=192) and a published meta-analysis (PMID 36445912). This suggests melatonin's general migraine-prophylaxis signal is comparatively mature, even though the aura-with-brainstem-symptoms subtype itself remains an open research question.
+Migraine and sleep are closely linked. Poor or disrupted sleep can trigger attacks, and several studies report reduced nocturnal melatonin excretion in people with migraine, which fell further during headache. Beyond circadian regulation, melatonin has anti-inflammatory and antioxidant effects and may modulate serotonergic and pain pathways, including in the trigeminovascular system. These features offer a biologically plausible reason for it to reduce migraine frequency. The TxGNN score is consistent with this plausibility.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Migraine with Brainstem Aura specifically.
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01357031](https://clinicaltrials.gov/study/NCT01357031) | Phase 3 | Completed | 192 | Double-blind RCT of melatonin 3 mg vs placebo vs amitriptyline 25 mg for migraine prevention in adults |
+| [NCT00849511](https://clinicaltrials.gov/study/NCT00849511) | Phase 2 | Completed | 48 | Randomised, double-blind, placebo-controlled cross-over study of melatonin for migraine prevention |
+| [NCT03597529](https://clinicaltrials.gov/study/NCT03597529) | Phase 2 | Completed | 84 | CHOCOLATE study: dose-finding of melatonin for acute migraine in children and adolescents |
+| [NCT02344316](https://clinicaltrials.gov/study/NCT02344316) | Phase 2 | Completed | 31 | Pilot remote RCT of melatonin vs placebo for migraine prevention in adolescents aged 12-17 |
+| [NCT03150797](https://clinicaltrials.gov/study/NCT03150797) | Phase 2 | Terminated | 72 | MAP study: two melatonin doses vs placebo for adolescent migraine prevention; early termination limits interpretation |
+| [NCT07743255](https://clinicaltrials.gov/study/NCT07743255) | N/A | Enrolling by invitation | 60 | Melatonin added to propranolol vs propranolol alone for prevention of migraine in children; no results yet |
 
-*(For context, general migraine prophylaxis with melatonin has been tested in a completed Phase 3 RCT — see the "Why is This Prediction Reasonable?" section above.)*
+No ANZCTR identifiers were available in the data compiled for this report.
 
 ---
 
@@ -73,43 +84,67 @@ Currently no related clinical trials registered for Migraine with Brainstem Aura
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27165014](https://pubmed.ncbi.nlm.nih.gov/27165014/) | 2016 | RCT | J Neurol Neurosurg Psychiatry | Melatonin 3 mg vs amitriptyline 25 mg vs placebo for migraine prevention; melatonin was effective and better tolerated than amitriptyline. |
-| [18810607](https://pubmed.ncbi.nlm.nih.gov/18810607/) | 2008 | RCT (open-label) | Neurol Sci | 3-month open-label trial of melatonin 3 mg in 22 children with migraine/tension-type headache; most reported improvement. |
-| [24909684](https://pubmed.ncbi.nlm.nih.gov/24909684/) | 2015 | Cohort | Curr Drug Saf | Investigated safety and efficacy of melatonin for paediatric migraine prophylaxis. |
-| [7641249](https://pubmed.ncbi.nlm.nih.gov/7641249/) | 1995 | Cohort | Cephalalgia | Nocturnal melatonin excretion significantly lower in women with menstrually-associated migraine without aura vs controls. |
-| [7954740](https://pubmed.ncbi.nlm.nih.gov/7954740/) | 1994 | Cohort | Cephalalgia | Urinary melatonin excretion decreased throughout the ovarian cycle in menstrual migraine patients, further reduced during headache episodes. |
-| [31054199](https://pubmed.ncbi.nlm.nih.gov/31054199/) | 2019 | Cohort (negative result) | Headache | Evening urinary melatonin metabolite did not reliably predict next-day migraine in children/adolescents. |
-| [9595871](https://pubmed.ncbi.nlm.nih.gov/9595871/) | 1998 | Case series | Headache | Headache (including migraine) resolved within 2 weeks of melatonin 5 mg treatment in patients with delayed sleep phase syndrome. |
-| [30906963](https://pubmed.ncbi.nlm.nih.gov/30906963/) | 2019 | Review | Neurol Sci | Reviews the bidirectional relationship between sleep disorders and migraine/headache, including melatonin's role. |
-| [24437268](https://pubmed.ncbi.nlm.nih.gov/24437268/) | 2013 | Review | Nihon Rinsho | Reviews circadian rhythm's role in primary headache disorders including migraine with aura. |
-| [28194570](https://pubmed.ncbi.nlm.nih.gov/28194570/) | 2017 | Review | J Headache Pain | Reviews genetic/biochemical serotonergic system changes in migraine pathobiology, relevant to melatonin's shared serotonin pathway. |
+| [36445912](https://pubmed.ncbi.nlm.nih.gov/36445912/) | 2022 | Meta-analysis | J Oral Facial Pain Headache | Evaluates efficacy and safety of melatonin for migraine prophylaxis in adults |
+| [27165014](https://pubmed.ncbi.nlm.nih.gov/27165014/) | 2016 | RCT | J Neurol Neurosurg Psychiatry | Compared melatonin 3 mg, amitriptyline 25 mg and placebo for migraine prevention (the published report of NCT01357031) |
+| [24909684](https://pubmed.ncbi.nlm.nih.gov/24909684/) | 2015 | Clinical study | Curr Drug Saf | Safety and efficacy of melatonin in paediatric migraine prophylaxis |
+| [18810607](https://pubmed.ncbi.nlm.nih.gov/18810607/) | 2008 | Open-label trial | Neurol Sci | 3 mg at bedtime for 3 months in 22 children with primary headache; most children with follow-up data reported improvement |
+| [33008513](https://pubmed.ncbi.nlm.nih.gov/33008513/) | 2020 | Review | Prog Brain Res | Reviews the therapeutic role of melatonin in migraine prophylaxis and the sleep-migraine link; describes melatonin as relatively safe |
+| [16548786](https://pubmed.ncbi.nlm.nih.gov/16548786/) | 2006 | Review | Expert Opin Investig Drugs | Potential therapeutic use of melatonin in migraine and other headache disorders; low melatonin levels in migraine and cluster headache |
+| [36014841](https://pubmed.ncbi.nlm.nih.gov/36014841/) | 2022 | Review | Nutrients | Pathogenetic role of melatonin in migraine and implications for pharmacotherapy |
+| [39853578](https://pubmed.ncbi.nlm.nih.gov/39853578/) | 2025 | Review | Curr Pain Headache Rep | Nutraceuticals for headache, including melatonin |
+| [36990725](https://pubmed.ncbi.nlm.nih.gov/36990725/) | 2023 | Systematic review and meta-analysis | Neurology | Circadian features of cluster headache and migraine |
+| [39358369](https://pubmed.ncbi.nlm.nih.gov/39358369/) | 2024 | Case-control | Sci Rep | Serum melatonin levels in Iranian patients with migraine |
 
 ---
 
 ## Australia Market Information
 
-Melatonin currently has no ARTG entries (0 licenses on file); it is not marketed under this evidence pack's data. No product listings are available to summarise.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14188R | Slenyto | Tablet 1 mg (modified release), oral | Not available in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Product information (PI) warnings, contraindications, and drug interaction data are not currently available for melatonin in this evidence pack — the drug is not registered on the ARTG, and the DDI query returned no results. This is flagged as a **blocking** gap for safety assessment: it prevents this candidate from entering an initial safety screen. Before considering this repurposing pathway further, TGA-approved Product Information (or equivalent overseas labelling) should be sourced and reviewed.
+- **Drug Interactions** (20 records; 17 from DDInter plus 3 receptor pharmacology records). Moderate-level interactions include:
+  - Warfarin
+  - Deferasirox
+  - Alpelisib
+  - Anagrelide
+  - Lorlatinib
+  - Olaparib
+  - Osimertinib
+  - Rucaparib
+  - Teriflunomide
+  - Vemurafenib
+  - Ifosfamide
+
+  Minor-level interactions include cimetidine, obeticholic acid, caffeine, osilodrostat, ethinylestradiol and diethylstilbestrol.
+- **Knowledge-graph contraindication signals** (not label text): the knowledge graph links melatonin with liver failure, kidney disease, autoimmune disease (including systemic lupus erythematosus and psoriasis), anxiety and depressive-type disorders, schizophrenia, substance abuse/dependence and constipation, among others. These need verification against the TGA-approved Product Information.
+
+Warnings and contraindications from the product label were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-Evidence specific to melatonin in migraine with brainstem aura is indirect (L4) — no dedicated clinical trials exist, and the literature draws mainly from general migraine, menstrual migraine, and sleep-disorder studies rather than this aura subtype. Combined with a blocking safety data gap (no warnings or contraindications available), the candidate cannot yet progress past initial screening.
+- Several completed placebo-controlled RCTs (including a Phase 3 trial against amitriptyline), a meta-analysis in adults, and a plausible link between melatonin and migraine biology support this prediction.
+- The trial evidence is mixed in quality: the adolescent studies are small, one was terminated, and the Phase 3 evidence consists of a single trial.
+- The Australian ARTG entry is a paediatric-type modified-release product, and its approved indication text was not available.
 
 **To proceed, the following is needed:**
-- TFDA/TGA product warnings and contraindications (resolves blocking data gap)
-- Detailed mechanism of action data, including confirmation of melatonin's vascular (non-vasoconstrictive) profile relevant to the triptan-contraindicated subgroup
-- Subtype-specific trial or subgroup data for migraine with brainstem aura (current evidence is extrapolated from general migraine populations)
-- Given the stronger L1 evidence base for general migraine prophylaxis (Phase 3 RCT NCT01357031, meta-analysis PMID 36445912), consider evaluating melatonin for unspecified migraine disorder as a more evidence-mature parallel pathway
+- Review of the TGA-approved PI, since label warnings and contraindications were not available (this was flagged as a blocking data gap)
+- Detailed mechanism of action data from DrugBank
+- Appraisal of the meta-analysis and RCT results for effect size, optimal dose and formulation
+- Confirmation of the approved indication and suitable dosage forms or doses for migraine in Australia
+- Review of the moderate drug interactions (particularly warfarin) and the knowledge-graph contraindication signals before clinical use
+- Confirmation of efficacy in the target population (adults or children), since the evidence differs between them
+
+**Other predictions:** obesity disorder (L2, Research Question) has only small or indirect trials. Restless legs syndrome has no trials. The other seven predictions have no supporting evidence and are on Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

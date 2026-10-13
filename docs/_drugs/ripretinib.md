@@ -2,7 +2,7 @@
 layout: default
 title: Ripretinib
 parent: Model Prediction Only (L5)
-nav_order: 595
+nav_order: 637
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,68 +29,89 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ripretinib: From Gastrointestinal Stromal Tumour (GIST) to Multiple Endocrine Neoplasia
+# Ripretinib: From Its Approved Indication to Multiple Endocrine Neoplasia
 
 ## One-Sentence Summary
 
-Ripretinib (marketed overseas as Qinlock) is a tyrosine kinase inhibitor whose approved use targets advanced gastrointestinal stromal tumour (GIST); this specific indication is not recorded in the structured regulatory data of this evidence pack. The TxGNN model's top prediction for this drug is **Multiple Endocrine Neoplasia**, but this candidate is currently supported by **zero clinical trials** and **zero relevant publications** — the prediction is a knowledge-graph signal only, and the pack's own mechanistic review argues against biological plausibility.
+Ripretinib is an oral switch-control tyrosine kinase inhibitor that targets KIT and PDGFRA. It is marketed in Australia as Qinlock, and the published literature links it to advanced gastrointestinal stromal tumour (GIST).
+The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but **no clinical trials and no publications** currently support this prediction. The prediction rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally recorded in this evidence pack (no ARTG entries, `original_indications` empty). Ripretinib's known overseas-approved use is advanced gastrointestinal stromal tumour (GIST). |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
+| Original Indication | Not stated in the ARTG data compiled for this report. The literature describes ripretinib as used in advanced GIST. |
+| Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 98.84% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Ripretinib is a data gap in this evidence pack. Based on the drug's known profile (referenced within the evidence pack's own rationale text), Ripretinib is a switch-control tyrosine kinase inhibitor targeting KIT and PDGFRA, approved overseas for advanced GIST after prior therapy failure.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on the published literature, ripretinib is a switch-control kinase inhibitor that blocks both primary and secondary activating mutations of KIT and PDGFRA. These mutations drive GIST progression.
 
-Multiple endocrine neoplasia (particularly MEN2) is driven primarily by mutations in the RET proto-oncogene — a different receptor tyrosine kinase target to KIT/PDGFRA. The evidence pack's own mechanistic assessment states explicitly that there is **no direct inhibitory evidence or clinical data supporting cross-target activity** between Ripretinib and RET-driven disease.
+No link to multiple endocrine neoplasia (MEN) has been established. MEN syndromes are mainly driven by other genes, such as RET and MEN1, and no RET-directed activity of ripretinib is documented. The high TxGNN score (0.988) reflects graph-based proximity only. The prediction should be regarded as a hypothesis, not as evidence of benefit.
 
-While KIT/PDGFRA and RET both belong to the receptor tyrosine kinase family, shared family membership alone is not pharmacological justification. This prediction should be treated as a knowledge-graph-derived association rather than a mechanistically substantiated hypothesis. Notably, none of the top 10 TxGNN predictions for this drug (including HER2-positive breast carcinoma, several other breast cancer subtypes, and two veterinary/bovine conditions) carry supporting clinical or literature evidence — one apparent "hit" (rank 10, breast tumour luminal A/B, 19 PubMed results) is a string-matching artefact, where the abbreviation "B" matched B-cell biology and hepatitis B literature rather than breast cancer.
+Other high-ranking TxGNN predictions for this drug include HER2-positive breast carcinoma, several breast cancer subtypes, cytomegalovirus infection, amenorrhoea, and two veterinary diseases (infectious bovine rhinotracheitis and malignant catarrh). None has supporting trials or a plausible mechanistic rationale, and the veterinary entries are probably knowledge-graph artefacts.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for this predicted indication.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for multiple endocrine neoplasia.
+
+The publications retrieved for ripretinib in other predicted indications (breast cancer subtypes) all concern its existing use in GIST, pharmacokinetics or general kinase inhibitor reviews. They do not support a repurposing indication. Examples:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [38182785](https://pubmed.ncbi.nlm.nih.gov/38182785/) | 2024 | Phase 3 RCT biomarker analysis | Nature Medicine | INTRIGUE trial ctDNA analysis in GIST. Ripretinib was not superior to sunitinib for progression-free survival in the primary analysis. |
+| [34313371](https://pubmed.ncbi.nlm.nih.gov/34313371/) | 2021 | Post-hoc trial analysis | The Oncologist | INVICTUS study: clinical benefit of ripretinib dose escalation after progression in advanced GIST. |
+| [38473346](https://pubmed.ncbi.nlm.nih.gov/38473346/) | 2024 | Cohort study | Cancers | UK expanded access programme: efficacy and safety of ripretinib in advanced GIST. |
+| [33513356](https://pubmed.ncbi.nlm.nih.gov/33513356/) | 2021 | Review | Pharmacological Research | Overview of FDA-approved small molecule kinase inhibitors. Contains no breast cancer efficacy data for ripretinib. |
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12764T | Qinlock | Tablet 50 mg | Not available in the data compiled for this report |
 
 ## Cytotoxicity
 
-*(Ripretinib is an antineoplastic tyrosine kinase inhibitor, approved overseas for GIST; this section is included on that basis, though the drug is a targeted agent rather than a conventional cytotoxic.)*
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (switch-control KIT/PDGFRA tyrosine kinase inhibitor) — not a conventional cytotoxic agent |
+| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
 | Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
-| Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
+| Handling Protection | Please refer to the Product Information (PI) warnings and precautions, and local cytotoxic drug handling policy |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+Label warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
+
+**Drug Interactions:** The interaction screen identified 90 potential interactions. Those flagged as **Major** among the first 20 entries reviewed are:
+- Clarithromycin
+- Cobicistat
+
+Moderate-level interactions include pioglitazone, aprepitant, dexamethasone, canagliflozin, cimetidine, eliglustat, metreleptin, miconazole, repaglinide, clotrimazole, fidaxomicin, glycerol phenylbutyrate, rolapitant, rosiglitazone, troglitazone, deferasirox, fostamatinib and selexipag. Pharmacokinetic studies in the literature (verapamil in rats, and a physiologically-based pharmacokinetic model) also indicate that CYP3A4 and P-glycoprotein modulators can alter ripretinib exposure.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The prediction score is high (98.84%) but is unsupported by any clinical trial or literature evidence, and the evidence pack's own mechanistic review indicates the biological target driving multiple endocrine neoplasia (RET) is not one Ripretinib is known to inhibit (KIT/PDGFRA). Missing PI/regulatory warning data also currently blocks entry into initial safety screening.
+The prediction for multiple endocrine neoplasia is supported by model output only (L5). There are no trials, no relevant publications and no documented mechanistic link. The same applies to the other top-ranked predictions.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications) for Ripretinib — currently missing and blocks safety pre-screening
-- Confirmed mechanism-of-action data for Ripretinib
-- Direct experimental or clinical evidence of activity against RET-driven disease, if this specific indication is to be pursued further
-- If exploring alternatives, note that all top 10 TxGNN-predicted indications for this drug are evidence level L5 (no trials, negligible or noise-only literature) — none currently warrant progression past model-prediction stage
+- Mechanism of action data (for example from DrugBank) and an analysis of any plausible link to MEN-related pathways such as RET
+- Preclinical evidence (in vitro or in vivo) in MEN-relevant models
+- The TGA-approved Product Information, to confirm the approved indication and obtain warnings and contraindications
+- Review of the full 90-item interaction list, with attention to CYP3A4 modulators
+- Expert review of whether the prediction is clinically meaningful, given the rarity and genetic basis of MEN syndromes
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

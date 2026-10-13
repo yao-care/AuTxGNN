@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ranibizumab
-parent: High Evidence (L1-L2)
-nav_order: 582
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 624
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ranibizumab
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,83 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Ranibizumab: Extending Anti-VEGF Therapy to Severe Nonproliferative Diabetic Retinopathy
+# Ranibizumab: From Diabetic Retinopathy to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-> Ranibizumab is an anti-VEGF-A antibody fragment already used intravitreally for VEGF-driven retinal disease; the original indication record for this evidence pack is incomplete (drug not marketed in Australia, no ARTG data).
-> Of ten candidate indications flagged by TxGNN, the top-ranked prediction — **Severe Nonproliferative Diabetic Retinopathy (severe NPDR)** — is supported by **6 clinical trials** and **19 identified publications**, including multiple completed Phase 3 RCTs, making it by far the strongest of the candidates reviewed (the remaining nine, mostly unrelated cataract subtypes and "haemorrhagic disease of newborn," have little or no supporting evidence and are recommended for Hold).
-
----
+Ranibizumab is an anti-VEGF antibody fragment originally used for retinal diseases such as diabetic retinopathy, diabetic macular oedema and macular degeneration.
+The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**,
+with **no registered clinical trials** but **18 publications** (including post hoc analyses of Phase 3 RCTs and a recent randomised trial of a ranibizumab port delivery system) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this evidence pack — drug is not marketed in Australia and no ARTG licence text is available |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
+| Original Indication | Diabetic retinopathy, diabetic macular oedema, macular degeneration, retinal artery occlusion, retinopathy of prematurity (from the knowledge graph; no approved indication text is available for the ARTG entry) |
+| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L1 (as graded in the data compiled for this report; see note below) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
----
+*Note on evidence level:* No clinical trials were supplied for this indication. The L1 grade rests on literature titles, namely post hoc analyses of the RIDE/RISE Phase 3 RCTs and the PAVILION randomised trial. Abstracts and full texts were not reviewed, so the grade should be treated as provisional.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not returned by DrugBank for this evidence pack (marked as a data gap). Based on the evidence assembled for this candidate, Ranibizumab is a humanised monoclonal antibody Fab fragment that binds and neutralises vascular endothelial growth factor-A (VEGF-A). Diabetic retinopathy — including its severe nonproliferative stage — is pathologically driven by VEGF-mediated retinal neovascularisation and increased vascular permeability, so intravitreal anti-VEGF therapy directly targets this pathway.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ranibizumab is a VEGF-A inhibitor. VEGF drives retinal vascular permeability and neovascularisation in diabetic retinopathy. By neutralising VEGF-A, ranibizumab reduces vascular leakage and can regress retinopathy severity.
 
-Importantly, this is not a novel repurposing hypothesis so much as an extension of an already-established clinical use: anti-VEGF therapy (including Ranibizumab specifically) is already standard of care for diabetic macular oedema and proliferative diabetic retinopathy, supported by large Phase 3 programmes such as DRCR.net Protocol I/S and RIDE/RISE. The prediction for severe NPDR reflects earlier intervention in the same disease continuum — using anti-VEGF therapy prophylactically in high-risk NPDR eyes to prevent progression to vision-threatening complications, rather than waiting until proliferative disease develops.
+Diabetic retinopathy and diabetic macular oedema are already original indications for ranibizumab, so severe nonproliferative diabetic retinopathy sits within the same disease spectrum. This makes the prediction closely related to existing use, rather than a leap into a new disease area.
 
-Because the mechanistic rationale is well established and largely already validated in related diabetic retinopathy indications, the main residual uncertainty is less about *whether* the mechanism works and more about the specific severe-NPDR population, dosing regimen (including newer delivery systems), and long-term risk–benefit balance versus observation.
-
----
+The literature supports this link. Post hoc analyses of the RIDE and RISE trials describe regression of diabetic retinopathy severity with ranibizumab. The PAVILION randomised trial tested a ranibizumab port delivery system in nonproliferative diabetic retinopathy without macular oedema.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04503551](https://clinicaltrials.gov/study/NCT04503551) | Phase 3 | Active, not recruiting | 174 | Port Delivery System with Ranibizumab vs comparator in diabetic retinopathy without centre-involved DME — efficacy, safety and pharmacokinetics |
-| [NCT03452657](https://clinicaltrials.gov/study/NCT03452657) | Phase 3 | Unknown | 118 | Multicentre study of intravitreal ranibizumab vs sham injection for prevention of high-risk diabetic retinopathy |
-| [NCT02634333](https://clinicaltrials.gov/study/NCT02634333) | Phase 3 | Completed | 399 | Intravitreal anti-VEGF for prevention of vision-threatening complications in high-risk diabetic retinopathy eyes |
-| [NCT00444600](https://clinicaltrials.gov/study/NCT00444600) | Phase 3 | Completed | 691 | DRCR.net Protocol I: ranibizumab ± laser vs triamcinolone + laser vs laser alone for diabetic macular oedema/retinopathy |
-| [NCT02834663](https://clinicaltrials.gov/study/NCT02834663) | Phase 4 | Completed | 25 | Six-month study of intravitreal ranibizumab for macular oedema with NPDR — effects on microaneurysm turnover and non-perfused retinal area |
-| [NCT05222633](https://clinicaltrials.gov/study/NCT05222633) | N/A | Unknown | 1000 | Real-world observational study of anti-VEGF therapy across exudative AMD, PDR, macular oedema and CNV (broader population, lower direct relevance) |
+Currently no related clinical trials registered for this indication in the data compiled for this report.
 
-*No ANZCTR (Australian) trial registrations were identified for this indication.*
-
----
+The RIDE/RISE trials (NCT00473382 / NCT00473330) are referenced in the literature below, but were not supplied as registered trial records.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40048178](https://pubmed.ncbi.nlm.nih.gov/40048178/) | 2025 | RCT | JAMA Ophthalmology | Pavilion RCT: Port Delivery System with ranibizumab vs monitoring in NPDR without macular oedema — evaluates less-frequent prophylactic dosing |
-| [33966556](https://pubmed.ncbi.nlm.nih.gov/33966556/) | 2021 | Review | Expert Opinion on Biological Therapy | Reviews ranibizumab's proven efficacy across the diabetic retinopathy spectrum, including DME |
-| [40347224](https://pubmed.ncbi.nlm.nih.gov/40347224/) | 2025 | Review/Meta-analysis | Health Technology Assessment | Systematic review and economic analysis of anti-VEGF vs laser photocoagulation for diabetic retinopathy |
-| [39673354](https://pubmed.ncbi.nlm.nih.gov/39673354/) | 2024 | Review/Meta-analysis | Health Technology Assessment | Systematic review/meta-analysis: anti-VEGF vs laser photocoagulation, including non-proliferative disease |
-| [31669065](https://pubmed.ncbi.nlm.nih.gov/31669065/) | 2019 | Review | Journal of Diabetes and its Complications | Overview of advances in diabetic retinopathy treatment, VEGF-A as a key therapeutic target |
-| [36774994](https://pubmed.ncbi.nlm.nih.gov/36774994/) | 2023 | Cohort (RCT post-hoc) | Ophthalmology Retina | Meta-analysis of baseline DR severity and time to DME resolution with ranibizumab across Phase 3 trials |
-| [32606578](https://pubmed.ncbi.nlm.nih.gov/32606578/) | 2020 | Cohort (RCT post-hoc) | Clinical Ophthalmology | Predictors of early diabetic retinopathy regression with ranibizumab in RIDE/RISE trials |
-| [35417296](https://pubmed.ncbi.nlm.nih.gov/35417296/) | 2022 | Cohort (RCT post-hoc) | Ophthalmic Surgery, Lasers & Imaging Retina | Post-hoc analysis of untreated fellow eyes in RIDE/RISE, characterising natural DR progression |
-| [30973596](https://pubmed.ncbi.nlm.nih.gov/30973596/) | 2019 | Cohort | JAMA Ophthalmology | Retinal non-perfusion characteristics on ultra-widefield angiography in severe NPDR and PDR |
-| [36580154](https://pubmed.ncbi.nlm.nih.gov/36580154/) | 2023 | Basic/Mechanistic | International Ophthalmology | Serum/vitreous VEGF levels across diabetic retinopathy severity and anti-VEGF agents |
-
----
+| [40048178](https://pubmed.ncbi.nlm.nih.gov/40048178/) | 2025 | RCT | JAMA Ophthalmol | PAVILION: ranibizumab port delivery system vs monitoring in nonproliferative diabetic retinopathy without macular oedema |
+| [36774994](https://pubmed.ncbi.nlm.nih.gov/36774994/) | 2023 | RCT (post hoc meta-analysis) | Ophthalmol Retina | Baseline retinopathy severity and time to macular oedema resolution with ranibizumab in Phase 3 trials |
+| [32606578](https://pubmed.ncbi.nlm.nih.gov/32606578/) | 2020 | RCT (post hoc) | Clin Ophthalmol | Predictors of early retinopathy regression with ranibizumab in RIDE/RISE |
+| [36161830](https://pubmed.ncbi.nlm.nih.gov/36161830/) | 2022 | RCT extension analysis | BMJ Open Ophthalmol | Retinopathy severity scale changes with less frequent ranibizumab after induction (RIDE/RISE extension) |
+| [42219053](https://pubmed.ncbi.nlm.nih.gov/42219053/) | 2026 | Systematic review / meta-analysis | Eur J Pharmacol | Sustained ranibizumab port delivery for disease modification and durability in diabetic retinopathy and macular oedema |
+| [40347224](https://pubmed.ncbi.nlm.nih.gov/40347224/) | 2025 | Systematic review | Health Technol Assess | Anti-VEGF drugs vs laser photocoagulation for diabetic retinopathy: economic analysis |
+| [39673354](https://pubmed.ncbi.nlm.nih.gov/39673354/) | 2025 | Systematic review / meta-analysis | Health Technol Assess | Anti-VEGF drugs vs laser photocoagulation for diabetic retinopathy: clinical effectiveness |
+| [33966556](https://pubmed.ncbi.nlm.nih.gov/33966556/) | 2021 | Review | Expert Opin Biol Ther | Overview of ranibizumab for diabetic retinopathy, including macular oedema |
+| [40969370](https://pubmed.ncbi.nlm.nih.gov/40969370/) | 2025 | Cohort | Front Endocrinol | Nomogram predicting response to anti-VEGF plus laser in severe nonproliferative diabetic retinopathy |
+| [30234859](https://pubmed.ncbi.nlm.nih.gov/30234859/) | 2018 | RCT secondary analysis | Retina | Five-year changes in retinopathy severity with ranibizumab in DRCR.net Protocol I |
 
 ## Australia Market Information
 
-Ranibizumab currently has **no ARTG entries** — the evidence pack records the drug as not marketed in Australia, with zero registered licences.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10138N | Lucentis | Solution for intravitreal injection 1.65 mg in 0.165 mL pre-filled syringe | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No key warnings, contraindications, or drug interaction data were returned for this evidence pack, and a formal drug interaction database query returned no results.
+- **Knowledge-graph contraindication signals** (not label text): eye infectious disease and conjunctivitis.
+- **Drug Interactions**: No interactions were found in the data queried.
 
----
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanistic rationale is strong and largely de-risked — anti-VEGF therapy, including ranibizumab itself, is already validated in closely related diabetic retinopathy indications (DME, PDR), supported by two completed Phase 3 RCTs (NCT00444600, NCT02634333) plus additional ongoing Phase 3 evidence specific to severe NPDR. However, the drug is not currently registered in Australia, and drug-specific safety/PI data was not available in this pack.
+Severe nonproliferative diabetic retinopathy lies within the established retinal disease spectrum for ranibizumab. The literature includes Phase 3 post hoc analyses and a randomised trial in nonproliferative disease. However, no registered trials were supplied and the evidence grade rests on titles rather than reviewed full texts.
 
 **To proceed, the following is needed:**
-- TGA/ARTG registration status confirmation, or Special Access Scheme pathway if pursuing use ahead of local registration
-- Full Product Information — warnings, precautions and contraindications (currently unavailable in this evidence pack)
-- Confirmation of DrugBank-sourced mechanism-of-action detail to formally document the mechanistic linkage
-- Clinical outcome data specific to the severe-NPDR (pre-DME) population from the ongoing Phase 3 trials (NCT04503551, NCT03452657) before considering routine use in this earlier disease stage
+- Review of abstracts and full texts to confirm the evidence grade, and registered trial records (RIDE/RISE, PAVILION)
+- Approved indication wording from the ARTG entry and the TGA Product Information, including warnings and contraindications
+- Mechanism of action data (for example from DrugBank)
+- Confirmation of the route and dosing regimen for this stage of disease (the intravitreal syringe is the only registered form; the port delivery system is not in the ARTG data supplied)
+- Assessment of whether other predicted indications warrant follow-up. The cataract-related predictions and hemorrhagic disease of newborn have no supporting mechanism or evidence and should remain on Hold. The withdrawn trial in hereditary haemorrhagic telangiectasia (NCT01406639) could be considered separately as its own indication.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

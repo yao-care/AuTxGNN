@@ -2,7 +2,7 @@
 layout: default
 title: Cocaine
 parent: Model Prediction Only (L5)
-nav_order: 167
+nav_order: 181
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,87 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cocaine: From Local Anaesthesia (Historical) to Cauda Equina Syndrome
+# Cocaine: From Local Anaesthesia to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Cocaine is a naturally derived tropane alkaloid historically deployed as the world's first clinical local anaesthetic (1880s–1930s), primarily in ENT and ophthalmic procedures; it is not currently registered for any therapeutic indication in Australia.
-The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**,
-with **0 clinical trials** and **1 publication** currently supporting this direction — none of which relate to cocaine as a treatment.
-
----
+Cocaine is a natural-product local anaesthetic and monoamine reuptake inhibitor, with a single ARTG entry in Australia, but no approved indication text is recorded in the data compiled for this report.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are **0 clinical trials** and only **1 publication** (a case report that does not describe cocaine as a treatment).
+This prediction appears to be a model artefact and is not supported by evidence.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No current TGA-approved indication; historical use as topical local anaesthetic in ENT/ophthalmic surgery |
-| Predicted New Indication | Cauda Equina Syndrome |
+|------|------|
+| Original Indication | Not recorded in the ARTG data (pharmacology data describes use as a local anaesthetic in nasal, oral and laryngeal surgery) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this candidate. Based on established pharmacology, cocaine is a naturally occurring tropane alkaloid with two principal pharmacodynamic mechanisms: (1) reversible voltage-gated Na⁺ channel blockade, which halts axonal conduction and underpins its local anaesthetic properties; and (2) inhibition of monoamine (norepinephrine, dopamine, serotonin) reuptake transporters, producing sympathomimetic and CNS stimulant effects.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on pharmacology information, cocaine acts as a local anaesthetic (sodium channel blockade) and as a monoamine reuptake inhibitor, including at the dopamine transporter (DAT). It also has recorded activity at 5-HT3 receptors.
 
-The TxGNN knowledge graph prediction most likely reflects cocaine's well-documented historical use in **spinal and epidural anaesthesia** (1884 onward), during which it was instilled intrathecally to produce lumbosacral sensory and motor blockade — anatomically overlapping with the cauda equina territory. The knowledge graph may have encoded this anatomical association without distinguishing between "anaesthetic applied near the cauda equina" and "treatment of cauda equina syndrome."
+Cauda equina syndrome is a compressive neurological emergency, typically caused by lumbosacral disc pathology, that presents with urinary retention, faecal incontinence, saddle anaesthesia and lower-limb weakness. Management is surgical decompression. No plausible mechanistic link between cocaine and treatment of this condition was identified. The single publication retrieved is a case report on disc pathology and does not involve cocaine therapy.
 
-However, this distinction is clinically critical. Cauda equina syndrome (CES) is an acute neurosurgical emergency caused by mechanical compression of the L2–S5 nerve roots, manifesting as bladder/bowel dysfunction, saddle anaesthesia, and lower limb weakness. The definitive treatment is urgent surgical decompression. Cocaine's Na⁺ channel blockade would temporarily mask sensory symptoms without addressing the underlying compression, actively endangering the patient by delaying surgery. There is no mechanistic pathway by which cocaine would decompress, reduce oedema, or otherwise reverse the structural pathology of CES. The single identified publication is an unrelated case report on lumbosacral disc pathology.
-
----
+The high TxGNN score therefore appears to be a prediction artefact rather than a reflection of a real therapeutic opportunity.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for cocaine in cauda equina syndrome.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [31528422](https://pubmed.ncbi.nlm.nih.gov/31528422/) | 2019 | Case Report | Surgical Neurology International | Case report of distal cauda equina syndrome secondary to lumbosacral disc pathology. Describes the full symptom complex of CES (urinary retention, saddle hypoanaesthesia, lower limb weakness) and reviews the diagnostic literature. No connection to cocaine as treatment. |
-
----
+|------|-----|------|------|---------|
+| [31528422](https://pubmed.ncbi.nlm.nih.gov/31528422/) | 2019 | Case report / Review | Surgical Neurology International | Case report of distal cauda equina syndrome from lumbosacral disc pathology with literature review; does not describe cocaine as a treatment |
 
 ## Australia Market Information
 
-Cocaine is not registered on the Australian Register of Therapeutic Goods (ARTG). There are no current TGA-approved products, licensed indications, or ARTG entries. In Australia, cocaine is a **Schedule 8 Controlled Drug** under the *Poisons Standard (Compendia)* and the *Therapeutic Goods Act 1989*. Any clinical or research use requires state/territory authority approval and relevant Commonwealth permits.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 189Y | Not recorded | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-All structured safety data (key warnings, contraindications, drug interactions) were not retrievable for this candidate. Please refer to the TGA-approved Product Information and Schedule 8 prescribing regulations for applicable safety guidance.
+- **Disease associations from the knowledge graph** (not label text): the TxGNN knowledge graph lists contraindication links with epilepsy, sudden cardiac arrest, heart conduction disease, thyrotoxicosis, hyperthyroidism and Graves disease.
+- **Pharmacological targets**: cocaine has recorded activity at 5-HT3AB, 5-HT3A and the dopamine transporter (DAT). These are target-level pharmacology records, not graded clinical drug interactions.
+- **Literature signals**: the retrieved literature repeatedly describes cocaine as a cause of harm, including mucosal necrosis, septal and palatal perforation, bronchospasm, vasculitis (with levamisole-contaminated supply) and upper aerodigestive tract injury. Cocaine is also reported as an allergen, and it carries abuse liability and serious cardiovascular risk.
 
-Notable safety considerations from published literature relevant to evaluating this candidate include:
-
-- **Cardiovascular toxicity**: Coronary artery vasospasm, ventricular arrhythmias, QTc prolongation, and hypertensive crisis are well-documented risks at clinical doses.
-- **CNS toxicity**: Seizure threshold lowering, sympathetic hyperactivation.
-- **Dependence and abuse liability**: Cocaine carries high addiction potential; Schedule 8 classification reflects significant misuse risk in Australia.
-- **Local tissue toxicity**: Chronic exposure causes mucosal ischaemia and necrosis (cocaine-induced midline destructive lesions), particularly relevant to intranasal/topical routes.
-
----
+Please refer to the TGA-approved Product Information (PI) for formal warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for this repurposing candidate is at the lowest possible tier (L5 — model prediction only), with zero supporting clinical trials and a single unrelated case report. More importantly, the mechanistic rationale is fundamentally incompatible with the disease biology: cauda equina syndrome is an anatomical emergency requiring surgical decompression, and any symptom-masking effect from cocaine would constitute an active clinical harm by delaying definitive treatment.
+The prediction is supported by model output only (L5), with no clinical trials and no literature showing benefit. The mechanism is implausible for a compressive neurological condition, and the safety profile, including cardiovascular risk and abuse liability, argues against pursuing this indication.
 
-**To proceed, any further consideration would require:**
-- A formal mechanistic justification demonstrating a disease-modifying (not symptom-masking) pathway for cocaine in CES — none currently exists
-- Regulatory feasibility assessment under Schedule 8 controlled substance legislation in Australia, including TGA clinical trials authorisation and state/territory permits
-- A comparative safety analysis against standard-of-care (urgent surgical decompression), acknowledging cocaine's cardiovascular and addiction risk profile
-- Review of all 10 TxGNN-predicted indications for this candidate: notably, all 10 return a **Hold** or **Research Question only** recommendation, suggesting no viable near-term repurposing pathway exists for cocaine across the predicted indication set
+The other predicted indications reviewed (obsolete neurogenic bladder, papillary conjunctivitis, rhinitis, irritable bowel syndrome, anaphylaxis, neurocirculatory asthenia, atopic conjunctivitis, food-dependent exercise-induced anaphylaxis and pharyngitis) also lack supporting clinical evidence. Rhinitis reached L4 only because of preclinical and surgical-field literature. All are recommended as Hold.
 
-> ⚠️ **YMYL Disclaimer**: This report is generated by a predictive AI model (TxGNN) and is intended for **research reference only**. It does not constitute medical advice, clinical guidance, or a recommendation to administer any substance. All drug repurposing candidates require independent clinical validation before any therapeutic application. The use of Schedule 8 substances in Australia is subject to strict regulatory controls.
+**To proceed, the following is needed:**
+- TGA Product Information with warnings, contraindications and approved indications for ARTG 189Y
+- Mechanism of action data to support any mechanistic-link analysis
+- Any credible clinical or preclinical evidence of therapeutic benefit in the predicted condition
+- A safety and controlled-substance assessment before any further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

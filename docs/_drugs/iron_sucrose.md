@@ -2,7 +2,7 @@
 layout: default
 title: Iron Sucrose
 parent: Model Prediction Only (L5)
-nav_order: 364
+nav_order: 391
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,65 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Iron Sucrose: From Iron Deficiency Anaemia to Primary Hyperoxaluria
+# Iron Sucrose: From Hyperphosphataemia to Primary Hyperoxaluria
 
 ## One-Sentence Summary
 
-Iron sucrose is an intravenous iron complex used to treat iron deficiency anaemia, particularly in patients with chronic kidney disease (CKD) on dialysis or peritoneal dialysis.
-The TxGNN model predicts it may be effective for **Primary Hyperoxaluria**, however there are currently **0 clinical trials** and **0 publications** directly supporting this repurposing direction.
-This prediction is based entirely on knowledge graph topology and should be interpreted with caution.
+Iron sucrose is an intravenous iron preparation, and the knowledge graph used by the model lists hyperphosphataemia as its original indication.
+The TxGNN model predicts it may be effective for **primary hyperoxaluria**, but there are **no clinical trials and no publications** supporting this prediction.
+The result is a computational prediction only, with no identified mechanism.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Iron deficiency anaemia in CKD/dialysis patients |
-| Predicted New Indication | Primary Hyperoxaluria |
+|------|------|
+| Original Indication | Hyperphosphataemia (per the knowledge graph; the ARTG entry has no indication text recorded) |
+| Predicted New Indication | Primary hyperoxaluria |
 | TxGNN Prediction Score | 98.82% |
 | Evidence Level | L5 |
-| Australia Market Status | Not registered in Australia |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in this evidence pack. Based on established pharmacological knowledge, iron sucrose (Venofer® and generics) is a polynuclear iron(III)-hydroxide complex stabilised with sucrose, administered intravenously. Its primary action is to replenish iron stores via uptake by the reticuloendothelial system — macrophages in the liver, spleen, and bone marrow — with subsequent controlled release to transferrin and erythropoietic precursors. Importantly, iron sucrose also transiently and markedly elevates intact serum FGF23 (fibroblast growth factor 23), which suppresses renal phosphate reabsorption and modulates the calcium–phosphate–PTH axis. This FGF23 effect is thought to underpin several of the TxGNN predictions in this candidate set.
+Detailed mechanism of action data is not available for this report. Iron sucrose is an intravenous iron (III) carbohydrate complex used to replace iron. The knowledge graph links it to hyperphosphataemia, and the model appears to have extended that link to other predicted conditions.
 
-Primary hyperoxaluria (PH) is a group of rare autosomal-recessive inborn errors of hepatic metabolism caused by mutations in *AGXT* (PH Type 1), *GRHPR* (PH Type 2), or *HOGA1* (PH Type 3). These mutations impair enzymes involved in glyoxylate detoxification, resulting in excessive hepatic oxalate production, massive urinary oxalate excretion, calcium oxalate crystal deposition in the kidneys and systemic organs, and ultimately renal failure and systemic oxalosis.
+For primary hyperoxaluria, no plausible mechanism is evident. The condition is a hepatic enzyme defect (for example in AGXT) that causes oxalate overproduction. Intravenous iron has no known role in correcting this defect. The high score (98.82%) is therefore a computational output that should not be read as clinical support.
 
-There is no established biological plausibility for iron sucrose in primary hyperoxaluria. Iron supplementation and FGF23 modulation — the known pharmacological actions of iron sucrose — have no known intersection with glyoxylate or oxalate biosynthetic pathways (AGXT, GRHPR, HOGA1 enzyme functions). The high TxGNN score (0.9882) most likely reflects a non-specific knowledge graph jump from the "chronic kidney disease – iron deficiency" node cluster to "primary hyperoxaluria" (which also causes renal failure), rather than a genuine mechanistic therapeutic link. This is a recognised limitation of graph-based repurposing models when rare renal diseases share node proximity.
+Other predictions in the top ten were also reviewed. Most have no supporting evidence. A few raise safety concerns rather than benefit:
+- **Pancreatitis (score 97.85%):** Laboratory studies suggest intravenous iron preparations at pharmacologically relevant concentrations may cause pancreatic beta cell death through oxidative stress. This is a possible harm signal, not support for treatment.
+- **Hyperparathyroidism (score 96.18%, evidence level L3):** This is the only prediction with some associative literature. The studies are in dialysis and chronic kidney disease populations, where iron sucrose served as a comparator or background therapy. They were not designed to treat hyperparathyroidism. This supports a research question about effects on mineral metabolism, not a treatment indication.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for primary hyperoxaluria.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for primary hyperoxaluria.
+
+For context, the literature retrieved for the other top predictions is summarised below. None of it concerns primary hyperoxaluria.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [35482713](https://pubmed.ncbi.nlm.nih.gov/35482713/) | 2022 | RCT / clinical study | Nephrol Dial Transplant | Ferric citrate versus intravenous iron sucrose and their effects on mineral, bone and iron markers in a rat model of CKD-MBD (hyperparathyroidism) |
+| [34629085](https://pubmed.ncbi.nlm.nih.gov/34629085/) | 2021 | RCT protocol | Trials | Oral polysaccharide iron complex versus iron sucrose in haemodialysis patients (hyperparathyroidism) |
+| [32444112](https://pubmed.ncbi.nlm.nih.gov/32444112/) | 2020 | Review | Mol Aspects Med | Overview of intravenous iron therapy and the available formulations (hyperparathyroidism) |
+| [28372549](https://pubmed.ncbi.nlm.nih.gov/28372549/) | 2017 | RCT (background and rationale) | BMC Nephrol | Ferumoxytol versus iron sucrose in haemodialysis patients with CKD anaemia; not relevant to pancreatitis |
+| [24349622](https://pubmed.ncbi.nlm.nih.gov/24349622/) | 2013 | Preclinical (in vitro) | Am J Transl Res | Intravenous iron preparations caused pancreatic beta cell death at pharmacologically relevant concentrations (pancreatitis; safety signal) |
+| [11929146](https://pubmed.ncbi.nlm.nih.gov/11929146/) | 2002 | Clinical study | Perit Dial Int | Low-dose intravenous iron sucrose regimen in peritoneal dialysis patients (hyperparathyroidism) |
+| [17543848](https://pubmed.ncbi.nlm.nih.gov/17543848/) | 2007 | Preclinical (animal) | Transl Res | Peritoneal effects of intravenous iron sucrose in rats (pancreatitis) |
 
 ---
 
 ## Australia Market Information
 
-Iron sucrose is **not currently registered** with the Therapeutic Goods Administration (TGA) and has **no entries** in the Australian Register of Therapeutic Goods (ARTG). Healthcare professionals wishing to access iron sucrose for Australian patients would need to apply via the Special Access Scheme (SAS Category B or C) or the Authorised Prescriber pathway.
-
-Internationally, iron sucrose products (e.g., Venofer®) are registered in the EU, UK, USA, and many Asia-Pacific markets for iron deficiency anaemia in CKD. Australian clinicians should refer to the relevant overseas Product Information and seek guidance from TGA's Access to Unapproved Therapeutic Goods team.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10229J | Venofer | Concentrate for solution for infusion, 2.7 g (equivalent to 100 mg iron (III)) in 5 mL | Not recorded in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions:** 42 interactions were identified in total. The only one rated Major is **dimercaprol**. Moderate interactions include:
+  - Tetracycline antibiotics (doxycycline, minocycline, tetracycline) and chloramphenicol
+  - Vitamin D analogues (cholecalciferol, calcifediol, ergocalciferol, dihydrotachysterol, doxercalciferol)
+  - Bisphosphonates (alendronic acid, risedronic acid, ibandronate)
+  - ACE inhibitors (benazepril, captopril, enalapril)
+  - Thyroid hormones (levothyroxine, liothyronine, porcine thyroid)
+  - Other iron products
+- **Potential concerns from the literature:** Iron-induced oxidative stress and pancreatic beta cell toxicity (laboratory data only). Some intravenous iron products are also known to affect FGF23.
 
-> **Clinical note for Australian practitioners:** Although no PI is currently available via TGA, iron sucrose is known internationally to carry risks of acute hypersensitivity reactions (including anaphylaxis), hypotension, and iron overload — particularly in patients with haemochromatosis or pre-existing iron excess. Intravenous iron preparations should only be administered where resuscitation facilities are immediately available. Detailed safety information can be obtained from the EMA-approved Venofer® Summary of Product Characteristics or the US FDA prescribing information.
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ---
 
@@ -96,19 +117,13 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial evidence and no published literature supporting iron sucrose as a treatment for primary hyperoxaluria. The TxGNN prediction score of 98.82% reflects knowledge graph proximity between renal failure phenotypes rather than a mechanistically justified repurposing hypothesis — the drug's known actions (iron replacement, FGF23 elevation) have no plausible downstream effect on oxalate overproduction.
+The prediction for primary hyperoxaluria rests on a model score alone (evidence level L5). There are no trials or publications, and no plausible mechanism. Among the other top predictions, only hyperparathyroidism has associative evidence (L3), and it supports a research question rather than a treatment indication.
 
 **To proceed, the following is needed:**
-
-- Preclinical mechanistic studies investigating whether iron status, FGF23 signalling, or reactive oxygen species from iron infusion affect AGXT/GRHPR/HOGA1 enzyme activity or glyoxylate flux
-- Structured literature review across oxalate metabolism and iron biology to identify any indirect pathway overlap
-- Clinical pharmacologist and rare disease specialist consultation before any compassionate use consideration
-- TGA Special Access Scheme application and ethics review if a pilot clinical assessment is deemed warranted
-- Full safety workup specific to PH patients, who are often already in advanced renal impairment and may be at elevated risk from intravenous iron
-
----
-
-> **Disclaimer:** This report is generated for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require formal clinical validation before therapeutic application. All use must comply with applicable Australian regulations and institutional ethics requirements.
+- Mechanism of action data, which was not available for this report
+- Retrieval and review of the TGA Product Information, including the approved indication, warnings and contraindications
+- A mechanistic rationale and preclinical data linking iron sucrose to oxalate metabolism before any clinical consideration
+- If the hyperparathyroidism signal is pursued, a purpose-designed study of mineral metabolism (PTH, FGF23, phosphate) in CKD, with attention to the pancreatic and oxidative stress safety signals
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Ursodeoxycholic Acid
 parent: Model Prediction Only (L5)
-nav_order: 710
+nav_order: 763
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,79 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ursodeoxycholic Acid: Original Indication Not Documented → Homozygous Familial Hypercholesterolemia (Predicted)
+# Ursodeoxycholic Acid: From Cholelithiasis and Primary Biliary Cholangitis to Homozygous Familial Hypercholesterolaemia
 
 ## One-Sentence Summary
 
-> The evidence pack does not contain documented original indication or mechanism-of-action data for ursodeoxycholic acid (DB01586), and the drug currently has no ARTG registration in Australia.
-> The TxGNN model's top-ranked prediction is **Homozygous Familial Hypercholesterolemia**, with a very high model confidence score (99.86%),
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure knowledge-graph inference with no real-world evidence behind it.
-
----
+Ursodeoxycholic acid (UDCA) was originally used to treat gallstone disease (cholelithiasis, cholecystolithiasis and choledocholithiasis), primary biliary cholangitis and Reynolds syndrome.
+The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolaemia**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no approved indication text found in the evidence pack (0 ARTG licences on file) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia |
+| Original Indication | Cholelithiasis, cholecystolithiasis, choledocholithiasis, primary biliary cholangitis, Reynolds syndrome (the Australian licence entry has no indication text) |
+| Predicted New Indication | Homozygous familial hypercholesterolaemia |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for ursodeoxycholic acid is not available in this evidence pack. Based on the model's own rationale output, ursodeoxycholic acid is a hydrophilic bile acid that influences bile acid and cholesterol metabolism, but the pathophysiology of homozygous familial hypercholesterolemia is driven primarily by LDL-receptor gene defects. The rationale explicitly notes that the mechanistic link between UDCA's known cholesterol-lowering pathways (inhibition of cholesterol synthesis/absorption) and the LDL-receptor defect underlying this disease is weak.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, UDCA is a bile acid that affects bile acid and cholesterol handling, including reduced intestinal cholesterol absorption and modulation of hepatic cholesterol secretion. These effects are the basis of its use in gallstone disease and cholestatic liver disease.
 
-This prediction is derived purely from TxGNN knowledge-graph embedding similarity, not from any documented pharmacological or clinical relationship. The high model score should be interpreted as a signal for further investigation, not as evidence of efficacy.
+This gives a loose link between the original indications and a lipid disorder. However, homozygous familial hypercholesterolaemia is defined by deficient LDL receptor function. UDCA's modest effects on cholesterol handling are unlikely to compensate for that defect, so the mechanistic link is speculative.
 
----
+The high TxGNN score reflects a computational association only. The other top-ranked predictions are mostly rare genetic conditions (for example COL4A1-related small vessel disease and platelet disorders) with the same lack of supporting evidence.
+
+For context, the highest-ranked prediction with any published literature is **diabetic nephropathy** (rank 7, score 96.7%, evidence level L4). It is covered in the Literature Evidence section as an alternative lead.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for homozygous familial hypercholesterolaemia.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for homozygous familial hypercholesterolaemia.
 
----
+**Alternative lead: diabetic nephropathy.** Literature compiled for this lower-ranked prediction:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [42857346](https://pubmed.ncbi.nlm.nih.gov/42857346/) | 2026 | Clinical study (proof-of-concept; design to be verified) | Front Endocrinol | Effect of UDCA on albuminuria in people with type 1 diabetes and diabetic kidney disease; results not available in the data compiled |
+| [27193377](https://pubmed.ncbi.nlm.nih.gov/27193377/) | 2016 | Preclinical | Biol Pharm Bull | UDCA, an ER stress inhibitor, reduced oxidative stress and improved diabetic nephropathy in db/db mice |
+| [26999661](https://pubmed.ncbi.nlm.nih.gov/26999661/) | 2016 | Preclinical | Lab Invest | UDCA and 4-phenylbutyrate prevented ER stress-induced podocyte apoptosis in db/db mice |
+| [22429686](https://pubmed.ncbi.nlm.nih.gov/22429686/) | 2012 | Preclinical | Diabetes Res Clin Pract | UDCA decreased SGLT2 expression and oxidative stress in the kidneys of diabetic rats |
+| [18648192](https://pubmed.ncbi.nlm.nih.gov/18648192/) | 2008 | Preclinical (in vitro) | Am J Nephrol | Taurine-conjugated UDCA reduced ER stress and apoptosis in cultured mouse podocytes |
+| [39384774](https://pubmed.ncbi.nlm.nih.gov/39384774/) | 2024 | Observational | Nutr Diabetes | Bile acid metabolism is altered step-wise in patients with diabetic kidney disease |
+| [23977286](https://pubmed.ncbi.nlm.nih.gov/23977286/) | 2013 | Preclinical | PLoS One | ER stress is involved in albuminuria-induced inflammasome activation in renal tubular cells (indirect evidence) |
 
 ## Australia Market Information
 
-This drug currently has no ARTG entries in Australia (Market Status: **Not Marketed**, 0 licences on file). No product, dosage form, or approved indication information is available.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 11180K | Ursofalk | Tablet 500 mg (oral) | Not available in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Key warnings, contraindications, and drug-interaction data were not available in this evidence pack.
+- **Drug Interactions**: The interaction screen returned 100 potential interactions, of which only a sample was available for this report. Minor interactions listed were with **cyclosporine**, **aluminium hydroxide** and **magaldrate**. Many others (for example pravastatin, ramipril, lorazepam, tramadol, fluconazole, erythromycin, sildenafil, pantoprazole, citalopram, moxifloxacin, nelfinavir, glimepiride and indinavir) have an unclassified severity level and need individual review.
 
----
+For warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Homozygous Familial Hypercholesterolemia) has no supporting clinical trials or literature (Evidence Level L5, Decision Stage S0), and a Blocking data gap exists for TFDA/TGA safety warnings and contraindications, which prevents even an initial safety assessment (S1). Mechanism-of-action data is also unavailable, so mechanistic plausibility cannot be independently verified.
+The prediction for homozygous familial hypercholesterolaemia rests on a model score alone (L5), with no trials or publications. The proposed mechanism is unlikely to offset the underlying LDL receptor deficiency.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (PI) — warnings, contraindications, and drug interactions (Blocking gap, DG001)
-- Confirmed mechanism of action from DrugBank or equivalent source (DG002)
-- Documented original indication(s) and ARTG registration status, if the drug is intended for the Australian market
-- Independent preclinical or clinical evidence specific to homozygous familial hypercholesterolemia before any advancement beyond hypothesis-generation
-
-**Note for consideration:** among the 10 candidates in this evidence pack, rank 7 (**diabetic nephropathy**) — despite a lower TxGNN score (96.9%) — has meaningfully stronger support: 7 preclinical studies describing a plausible mechanism (UDCA reducing endoplasmic-reticulum stress, oxidative stress, and podocyte apoptosis in diabetic kidney models), reaching Evidence Level L4 and Decision Stage S1 ("Research Question"). This may be a more productive candidate for further evidence-gathering than the top-ranked but evidence-free prediction above.
+- Any clinical or mechanistic evidence of UDCA effects on LDL cholesterol in LDL receptor-deficient patients
+- Detailed mechanism of action data
+- TGA Product Information warnings and contraindications for Ursofalk, and the approved indication text
+- For the diabetic nephropathy lead, review of the 2026 proof-of-concept study (PMID 42857346) to confirm its design and results before considering it a research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

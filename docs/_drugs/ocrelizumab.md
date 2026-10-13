@@ -2,7 +2,7 @@
 layout: default
 title: Ocrelizumab
 parent: Model Prediction Only (L5)
-nav_order: 483
+nav_order: 517
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ocrelizumab: From CD20+ B-Cell-Depleting Autoimmune Therapy to HER2 Positive Breast Carcinoma
+# Ocrelizumab: From Progressive Multiple Sclerosis to HER2-Positive Breast Carcinoma
 
 ## One-Sentence Summary
 
-Ocrelizumab is an anti-CD20 monoclonal antibody whose established pharmacological basis is B-cell depletion in autoimmune conditions (e.g. multiple sclerosis); confirmed Australian regulatory indication data is not available in this evidence pack. The TxGNN model predicts possible efficacy in **HER2 Positive Breast Carcinoma**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic review flags it as a likely model artifact rather than a genuine signal.
-
----
+Ocrelizumab is an anti-CD20 monoclonal antibody originally used to treat progressive multiple sclerosis.
+The TxGNN model predicts it may be effective for **HER2-positive breast carcinoma**,
+but there are currently **0 registered clinical trials** and **0 publications** directly supporting this indication. This is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — drug not marketed in Australia; no ARTG-listed indication text on file. (Evidence pack notes MOA basis relates to CD20+ B-cell-driven autoimmune disease, e.g. multiple sclerosis) |
-| Predicted New Indication | HER2 Positive Breast Carcinoma |
+| Original Indication | Progressive multiple sclerosis (per the knowledge graph; no approved indication text is available from the ARTG entry) |
+| Predicted New Indication | HER2-positive breast carcinoma |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in structured form (flagged as a High-severity data gap, DG002). Based on the reviewer notes accompanying this evidence pack, ocrelizumab is an anti-CD20 monoclonal antibody that depletes CD20+ B cells, with its established pharmacological application in autoimmune disease (e.g. multiple sclerosis) rather than oncology.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Ocrelizumab is known to be a humanised anti-CD20 monoclonal antibody that selectively depletes CD20-expressing B cells. Its efficacy in multiple sclerosis is well established.
 
-HER2 Positive Breast Carcinoma is driven by HER2/neu receptor overexpression and downstream PI3K/MAPK signalling — a pathway with no known mechanistic overlap with B-cell depletion. The evidence pack's own rationale for this prediction explicitly concludes that the TxGNN score (0.999) lacks an interpretable biological pathway, and that in the absence of any supporting trial or literature evidence, the score more likely reflects an embedding-space artefact than a true repurposing signal.
+No mechanistic link between CD20-directed B-cell depletion and HER2-positive breast carcinoma is supported by the data compiled. The high TxGNN score (0.999) reflects a graph-based model signal, not independent evidence. Other breast cancer subtypes (progesterone-receptor positive and negative, luminal A or B, normal breast-like) received near-identical scores. This suggests a shared graph signal across the breast cancer cluster rather than disease-specific evidence.
 
-The same pattern holds across the other nine top-ranked candidates in this batch (hormone-receptor-driven breast cancer subtypes and several rare/paediatric neoplasms such as tongue and hypopharynx benign tumours, schwannoma, and neuroblastoma) — none show a plausible mechanistic link to CD20+ B-cell depletion, and none are supported by trial or literature evidence specific to ocrelizumab. This clustering of high scores with no discriminating evidence across mechanistically unrelated diseases is a recognised signature of low model discriminability on drugs with sparse training data, rather than a genuine repurposing lead.
-
----
+Other top-ranked predictions include benign head and neck neoplasms, cervical neuroblastoma and jugular foramen schwannoma. None has a supported rationale, and for benign lesions the risk-benefit balance of an immunosuppressive biologic is unfavourable.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered for this indication.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available for HER2-positive breast carcinoma.
 
-*Note: A search for "Ocrelizumab" + "breast tumor luminal A or B" (a separate, lower-ranked candidate in this batch) returned 19 PubMed hits, but on review all were general B-cell biology/lymphoma/hepatitis-B-vaccine literature with no direct discussion of ocrelizumab in breast cancer — assessed as keyword-collision noise, not supporting evidence.*
-
----
+For context, 18 records were retrieved for the related prediction "breast tumour luminal A or B". The ten listed all concern multiple sclerosis or other autoimmune and B-cell topics, and none addresses breast cancer. Examples are the pivotal ocrelizumab trials in primary progressive MS (PMID 28002688) and relapsing MS (PMID 28002679). This match appears to be an artefact of drug-name retrieval and should not be read as support for any oncology indication.
 
 ## Australia Market Information
 
-Ocrelizumab is not currently marketed in Australia under this evidence pack (0 ARTG entries on file).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11237K | Ocrevus | Solution concentrate for I.V. infusion, 300 mg in 10 mL | Not available in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions**: Interaction screening returned 100 entries. The main ones shown are:
+  - **Moderate**: corticosteroids (hydrocortisone, prednisolone, prednisone, dexamethasone, betamethasone, budesonide, triamcinolone), radiopharmaceuticals (iobenguane I-131, ibritumomab tiuxetan, tositumomab, samarium-153 lexidronam), and albendazole, pentamidine and levamisole.
+  - **Minor**: zinc salts (sulfate, acetate, gluconate, chloride).
 
----
+For warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-No clinical trial or literature evidence supports HER2 Positive Breast Carcinoma (or any of the other top-ranked candidates) as a repurposing indication for ocrelizumab, and the mechanistic link to the drug's known CD20+ B-cell-depleting activity is absent. Combined with a blocking data gap on TGA-approved warnings/contraindications (DG001), this candidate does not meet the threshold to proceed.
+The prediction rests entirely on the TxGNN model score. There are no clinical trials, no relevant literature, and no supported mechanistic link between CD20 B-cell depletion and HER2-positive breast carcinoma. Established HER2-directed therapies already exist for this disease.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (PI) for ocrelizumab, including warnings, contraindications, and monitoring requirements (resolves DG001)
-- Structured mechanism of action data from DrugBank or equivalent source (resolves DG002)
-- Independent mechanistic or preclinical rationale connecting CD20+ B-cell depletion to HER2-driven breast carcinoma, before any trial or literature evidence can be meaningfully evaluated
-- Re-screening of this drug's full predicted-indication list against known pharmacology, given the current top-10 list shows no mechanistically coherent signal
+- Mechanism of action data (for example from DrugBank) and a defined biological hypothesis linking CD20 or B cells to HER2-positive breast cancer
+- Preclinical or translational evidence, then registered clinical studies
+- The TGA-approved PI (warnings, contraindications, approved indications) to complete safety screening
+- Review of the immunosuppression and infection risks in a cancer population, including interactions with chemotherapy and corticosteroids
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

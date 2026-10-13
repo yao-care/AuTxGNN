@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ozanimod
-parent: High Evidence (L1-L2)
-nav_order: 505
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 540
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ozanimod
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,89 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Ozanimod: From Relapsing Multiple Sclerosis to Progressive Relapsing Multiple Sclerosis
+# Ozanimod: From Multiple Sclerosis to Progressive Relapsing Multiple Sclerosis
 
 ## One-Sentence Summary
 
-Ozanimod is an oral sphingosine-1-phosphate (S1P) receptor modulator originally approved for **relapsing forms of multiple sclerosis** (clinically isolated syndrome, relapsing-remitting MS, and active secondary progressive MS). The TxGNN model predicts it may also be effective for **Progressive Relapsing Multiple Sclerosis (PRMS)**, with **8 clinical trials** and **18 publications** currently identified in the evidence pack — though none of these studies specifically enrolled or targeted the PRMS subtype.
-
----
+Ozanimod is an oral sphingosine 1-phosphate (S1P) receptor modulator, originally used to treat relapsing forms of multiple sclerosis.
+The TxGNN model predicts it may be effective for **progressive relapsing multiple sclerosis**,
+but there are currently **0 clinical trials** and no ozanimod-specific publications in progressive disease, so support rests on **model prediction plus general reviews and network meta-analyses**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Relapsing forms of multiple sclerosis (per literature evidence; no ARTG record exists for this indication in Australia) |
-| Predicted New Indication | Progressive Relapsing Multiple Sclerosis |
+| Original Indication | Multiple sclerosis (the ARTG entry carries no indication text) |
+| Predicted New Indication | Progressive relapsing multiple sclerosis |
 | TxGNN Prediction Score | 99.34% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
-
----
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
 
-A structured DrugBank mechanism-of-action record for Ozanimod was not available in this evidence pack (data gap DG002). However, the literature captured here consistently describes Ozanimod as a selective **S1P1 and S1P5 receptor modulator**. By binding these receptors, it prevents autoreactive lymphocytes from egressing lymph nodes, reducing peripheral lymphocyte counts and limiting inflammatory infiltration into the central nervous system — the core mechanism underlying its approved efficacy in relapsing MS.
+Detailed mechanism of action data is not available in the data compiled for this report. Published reviews describe ozanimod as a selective S1P1/S1P5 receptor modulator. It retains lymphocytes in lymph nodes, reducing their entry into the central nervous system (CNS), and it may also act within the CNS.
 
-Progressive Relapsing Multiple Sclerosis is a historical MS subtype (progressive disease course from onset, punctuated by relapses) that has largely been reclassified into the broader "progressive MS" category. Because it still involves a relapsing component, there is a superficial mechanistic rationale for extending an S1P modulator's anti-inflammatory effect to this population — the KG-level similarity likely reflects this shared "relapsing MS" feature space.
+Ozanimod is already approved in other jurisdictions for relapsing forms of MS, including active secondary progressive disease. Progressive relapsing MS, which combines progression with superimposed relapses, is therefore a close extension of the approved use. Preclinical work with other S1P1/S1P5 modulators also suggests possible benefit in inflammation-driven neurodegeneration.
 
-However, the evidence pack's own rationale flags an important caveat: PRMS-associated disability accumulation is thought to be driven predominantly by **neurodegeneration and chronic microglial activation**, not peripheral lymphocyte trafficking. Other S1P modulators in the same class (fingolimod, siponimod) have shown only limited benefit against the pure progressive/neurodegenerative component of MS. This is a recognised class-level limitation, and no trial identified here specifically isolated or studied the PRMS phenotype — all clinical evidence comes from broader relapsing-MS trial populations (including rank 6, "relapsing-remitting multiple sclerosis," which the evidence pack explicitly identifies as Ozanimod's **already-approved original indication**, not a repurposing candidate).
-
----
+However, no trials have tested ozanimod in progressive phenotypes. The supporting literature consists of reviews and network meta-analyses of progressive MS that are not specific to ozanimod. The prediction is plausible but unproven.
 
 ## Clinical Trial Evidence
 
+Currently no clinical trials are registered for progressive relapsing multiple sclerosis.
+
+For context, trials in the closely related relapsing-remitting MS (RRMS) are listed below. They do not directly support the predicted indication.
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03535298](https://clinicaltrials.gov/study/NCT03535298) | Phase 4 | Active, not recruiting | 800 | DELIVER-MS: compares early intensive vs. escalation DMT strategies in relapsing MS; overlaps partially with progressive/active populations but is not PRMS-specific. |
-| [NCT05828901](https://clinicaltrials.gov/study/NCT05828901) | N/A | Recruiting | 60 | Studies disease-activity and rebound-risk prediction in MS patients on S1P receptor modulators (class includes ozanimod). |
-| [NCT02576717](https://clinicaltrials.gov/study/NCT02576717) | Phase 3 | Completed | 2494 | Pivotal RCT of RPC1063 (ozanimod) vs. interferon beta-1a in relapsing MS — the key registrational efficacy/safety trial, but enrolled relapsing (not progressive) MS patients. |
-| [NCT04676204](https://clinicaltrials.gov/study/NCT04676204) | N/A | Enrolling by invitation | 323 | STATURE: observational study of oral DMT treatment burden and adherence (includes ozanimod); not an efficacy study. |
-| [NCT05605782](https://clinicaltrials.gov/study/NCT05605782) | N/A | Active, not recruiting | 9000 | ORION: large real-world, post-authorisation safety registry in relapsing-remitting MS patients on ozanimod. |
-| [NCT05688436](https://clinicaltrials.gov/study/NCT05688436) | N/A | Recruiting | 1178 | Pregnancy outcomes in women exposed to diroximel fumarate — a different DMT; low direct relevance, likely a knowledge-graph class-level link. |
-| [NCT03500328](https://clinicaltrials.gov/study/NCT03500328) | N/A | Active, not recruiting | 900 | Pragmatic trial comparing early aggressive vs. escalation therapy across MS DMTs, including high-efficacy agents; not PRMS-specific. |
-| [NCT06396039](https://clinicaltrials.gov/study/NCT06396039) | Phase 4 | Active, not recruiting | 84 | Open-label effectiveness/safety study of oral ozanimod in Chinese adults with relapsing MS. |
-
-No trial identified here specifically enrolled or reported outcomes for the Progressive Relapsing MS subtype.
-
----
+| [NCT06408259](https://clinicaltrials.gov/study/NCT06408259) | Phase 3 | Recruiting | 194 | Ozanimod vs fingolimod in children and adolescents with RRMS; double-blind, no results yet |
+| [NCT05335031](https://clinicaltrials.gov/study/NCT05335031) | N/A | Completed | 450 | 3-year German non-interventional study of ozanimod in RRMS (real-world use, effectiveness, quality of life) |
+| [NCT03535298](https://clinicaltrials.gov/study/NCT03535298) | Phase 4 | Active, not recruiting | 800 | DELIVER-MS: early intensive vs escalation therapy strategies; not ozanimod-specific |
+| [NCT03500328](https://clinicaltrials.gov/study/NCT03500328) | N/A | Completed | 900 | Pragmatic trial of early aggressive vs escalation therapy; not ozanimod-specific |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39254048](https://pubmed.ncbi.nlm.nih.gov/39254048/) | 2024 | Network meta-analysis | Cochrane Database Syst Rev | Immunomodulators/immunosuppressants for progressive MS — notes relative benefit and safety remain unclear due to lack of direct head-to-head comparisons. |
-| [31598138](https://pubmed.ncbi.nlm.nih.gov/31598138/) | 2019 | Review | Ther Adv Neurol Disord | Reviews progressive MS pathophysiology and therapeutic developments; highlights that continued compartmentalised CNS inflammation, not peripheral trafficking, drives progression. |
-| [33287177](https://pubmed.ncbi.nlm.nih.gov/33287177/) | 2020 | Comprehensive review | Neurology International | Reviews ozanimod's efficacy and safety in relapsing forms of MS. |
-| [32385738](https://pubmed.ncbi.nlm.nih.gov/32385738/) | 2020 | Regulatory approval review | Drugs | Confirms ozanimod's first approval (US/EU) for relapsing MS, including clinically isolated syndrome, RRMS, and active secondary progressive disease. |
-| [36946625](https://pubmed.ncbi.nlm.nih.gov/36946625/) | 2023 | Review | Expert Opin Pharmacother | Updates on S1P receptor modulators (fingolimod, siponimod, ozanimod, ponesimod) for relapsing MS. |
-| [33797705](https://pubmed.ncbi.nlm.nih.gov/33797705/) | 2021 | Review | CNS Drugs | Reviews the S1P receptor modulator class across MS and other autoimmune indications. |
-| [30410033](https://pubmed.ncbi.nlm.nih.gov/30410033/) | 2018 | General review | Nat Rev Dis Primers | Overview of MS pathogenesis, subtypes and heterogeneity. |
-| [35805142](https://pubmed.ncbi.nlm.nih.gov/35805142/) | 2022 | Mechanistic review | Cells | Reviews S1P/S1PR signalling pathway modulators and their pharmacology. |
-| [32059809](https://pubmed.ncbi.nlm.nih.gov/32059809/) | 2020 | Review | Lancet Neurol | Reviews oral immunomodulating therapies in relapsing MS. |
-| [38162670](https://pubmed.ncbi.nlm.nih.gov/38162670/) | 2023 | Review | Front Immunol | Reviews CNS-bioavailable DMTs, noting limited efficacy of current DMTs (including S1P modulators) once the progressive phase has begun. |
-
-No literature identified here directly studies ozanimod in a PRMS-specific population.
-
----
+| [39254048](https://pubmed.ncbi.nlm.nih.gov/39254048/) | 2024 | Network meta-analysis | Cochrane Database Syst Rev | Immunomodulators and immunosuppressants in progressive MS; relative benefit and safety remain unclear for lack of direct comparisons |
+| [38174776](https://pubmed.ncbi.nlm.nih.gov/38174776/) | 2024 | Network meta-analysis | Cochrane Database Syst Rev | Update of the RRMS treatment network meta-analysis |
+| [31598138](https://pubmed.ncbi.nlm.nih.gov/31598138/) | 2019 | Review | Ther Adv Neurol Disord | Latest therapeutic developments and future directions in progressive MS |
+| [32385738](https://pubmed.ncbi.nlm.nih.gov/32385738/) | 2020 | Review | Drugs | Ozanimod first approval: US FDA approval for relapsing MS, including active secondary progressive disease |
+| [33287177](https://pubmed.ncbi.nlm.nih.gov/33287177/) | 2020 | Review | Neurol Int | Ozanimod in relapsing MS: efficacy and side effects |
+| [33797705](https://pubmed.ncbi.nlm.nih.gov/33797705/) | 2021 | Review | CNS Drugs | S1P receptor modulators for MS |
+| [36946625](https://pubmed.ncbi.nlm.nih.gov/36946625/) | 2023 | Review | Expert Opin Pharmacother | Update on S1P receptor modulators (fingolimod, siponimod, ozanimod, ponesimod) in relapsing MS |
+| [38162670](https://pubmed.ncbi.nlm.nih.gov/38162670/) | 2023 | Review | Front Immunol | CNS-bioavailable disease-modifying therapies; limited efficacy of peripheral agents in progressive disease |
+| [37638037](https://pubmed.ncbi.nlm.nih.gov/37638037/) | 2023 | Preclinical | Front Immunol | S1PR-1/5 modulator RP-101074 showed beneficial effects in a model of CNS degeneration |
 
 ## Australia Market Information
 
-Ozanimod has no current ARTG (Australian Register of Therapeutic Goods) entries (0 licences on record) and is not marketed in Australia. Prescribing and safety information will need to be sourced from overseas regulators (e.g. US FDA label, EMA SmPC) pending any future TGA registration.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12271W | Zeposia | Capsule 920 micrograms (oral) | Not stated in the data compiled |
 
 ## Safety Considerations
 
-No structured Australian safety data (key warnings, contraindications, or drug-interaction records) is currently available for Ozanimod in this evidence pack, and this is compounded by the fact that the drug is not TGA-registered, so no Australian Product Information exists yet. Until local registration and a TGA-approved PI are available, prescribers should rely on overseas regulatory labelling (e.g. US FDA/EMA) for safety and interaction information, noting that the S1P-modulator class carries known risks including bradyarrhythmia at treatment initiation, macular oedema, liver enzyme elevation, and infection risk from lymphopenia.
+- **Contraindications flagged by the knowledge graph** (these are model-derived associations, not label text): sleep apnoea syndromes, stroke and cerebrovascular disorders, transient ischaemic attack, vertebrobasilar insufficiency, myocardial infarction, coronary thrombosis, congestive heart failure, sick sinus syndrome, atrioventricular and sinoatrial block, and haemoglobinopathy.
+- **Drug interactions**: 100 interactions were identified. Major-level examples include isometheptene, famotidine, hydrocortisone, triamcinolone, betamethasone, budesonide, bupropion, morphine, clarithromycin, lorcaserin, diethylpropion, dolasetron, palonosetron and phentermine. Moderate-level examples include ranitidine, cimetidine, epinephrine, loperamide, picosulfuric acid and polyethylene glycol with electrolytes.
+- **Monitoring suggested by the evidence** (from the approved relapsing MS use): cardiac effects including first-dose bradycardia, infections, liver enzymes and macular oedema.
 
----
+Please refer to the TGA-approved Product Information (PI) for authoritative warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (research question)**
 
 **Rationale:**
-Evidence for Ozanimod in Progressive Relapsing MS specifically is indirect — all identified trials and literature address relapsing MS broadly (which is Ozanimod's existing approved indication) or progressive MS as a general category, rather than the PRMS phenotype itself. Combined with a Blocking data gap on TFDA/TGA label and safety information (DG001), this candidate cannot yet proceed to an initial safety assessment (S1).
+The prediction is a close extension of ozanimod's approved use in relapsing MS, and the mechanism is plausible. However, there are no trials in progressive phenotypes, and the supporting literature is not ozanimod-specific. Evidence is at L4.
+
+For context, the neighbouring relapsing-remitting MS prediction has Phase 3 evidence, but it is the approved indication rather than true repurposing.
 
 **To proceed, the following is needed:**
-- TGA/overseas Product Information (warnings, contraindications, interactions) to complete an initial safety assessment
-- Structured DrugBank mechanism-of-action data (DG002)
-- Trials or registry data specifically enrolling patients with the progressive-relapsing MS phenotype, rather than relapsing MS generally
-- Clarification of Australian registration pathway/status, given there are currently 0 ARTG entries
-
-*Note: Several other TxGNN-predicted indications for Ozanimod in this evidence pack (e.g. transient neonatal thrombocytopenia, hereditary thrombocytopenia variants, dense granule disease) have no supporting clinical trials or literature and are assessed in the underlying evidence pack as likely knowledge-graph artefacts rather than genuine repurposing signals; they are not carried forward in this report.*
+- Ozanimod-specific data in progressive MS (for example, an exploratory trial, or a subgroup or registry analysis of patients with active progressive disease)
+- Detailed mechanism of action data, including CNS penetration and effects on neurodegeneration
+- The TGA Product Information with warnings, contraindications and the approved indication wording
+- Review of cardiac, infection, hepatic and ophthalmic monitoring in the progressive population, along with the major drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

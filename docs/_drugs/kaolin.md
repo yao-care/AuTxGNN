@@ -2,7 +2,7 @@
 layout: default
 title: Kaolin
 parent: Model Prediction Only (L5)
-nav_order: 375
+nav_order: 403
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,111 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Kaolin: From Topical Haemostatic/Diagnostic Reagent to Thrombotic Disease
+# Kaolin: From an Unspecified Original Indication to Thrombotic Disease
 
 ## One-Sentence Summary
 
-Kaolin (DB01575) has no confirmed therapeutic indication on record in this evidence pack; it is best known clinically as a mineral activator reagent in coagulation testing (kaolin clotting time, kaolin‑activated thromboelastography) and as the active ingredient in topical haemostatic trauma dressings (e.g. QuikClot Combat Gauze). The TxGNN model's top-ranked prediction is **Thrombotic Disease** (score **94.70%**), but on review this prediction is **not mechanistically or clinically supported** — kaolin is a procoagulant, not an anticoagulant, and nearly all of the **3 clinical trials** and **20 publications** identified describe kaolin only as a laboratory reagent used to monitor other patients' coagulation status, not as a treatment for thrombotic disease.
+Kaolin is a naturally occurring clay mineral that is listed on the Australian market, but the data compiled for this report contain no approved indication text for it.
+The TxGNN model predicts it may be effective for **thrombotic disease**, but there are **no registered clinical trials** and the **18 publications** retrieved mostly use kaolin as a laboratory assay reagent rather than as a treatment.
+Kaolin is pro-coagulant, so this prediction is mechanistically implausible and is most likely a knowledge-graph artefact.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | No confirmed original indication on record (Kaolin has no historical indication text captured in this evidence pack; its documented non-registered uses are as a coagulation-test reagent and topical haemostatic dressing) |
-| Predicted New Indication | Thrombotic Disease |
+| Original Indication | Not available in the data compiled for this report |
+| Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 94.70% |
-| Evidence Level | L4 (mechanistic/preclinical signal only; direction of effect is contradictory) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Kaolin is not available from DrugBank in this evidence pack. Based on the totality of the collected trial and literature evidence, Kaolin is a naturally occurring aluminosilicate clay mineral whose principal pharmacological property is **contact activation of Factor XII**, which triggers the intrinsic coagulation cascade. This is precisely why kaolin is used as the standard activating reagent in kaolin-activated thromboelastography (TEG) and the kaolin clotting time (KCT) assay, and why kaolin-impregnated dressings (e.g. QuikClot Combat Gauze) are used to control external traumatic haemorrhage.
+Currently, detailed mechanism of action data is not available. Kaolin is known to activate the contact (factor XII) pathway of coagulation. It is widely used in vitro as a reagent in activated partial thromboplastin time (aPTT), kaolin clotting time and kaolin-activated thromboelastography.
 
-This mechanism runs **in the opposite direction** to what would be required to treat thrombotic disease: a drug that promotes clot formation is not a rational candidate to prevent or treat pathological thrombosis. Reviewing the underlying evidence confirms this — essentially every clinical trial and article "linking" Kaolin to thrombotic disease does so because kaolin was the **background assay reagent** used to measure coagulation status in patients being investigated for unrelated conditions (ECMO anticoagulation monitoring, liver transplant haemostasis, lupus anticoagulant testing, COVID-19 coagulopathy, etc.), not because kaolin itself was administered as a therapeutic agent for thrombosis.
+This is the opposite of what a thrombosis treatment needs. A pro-coagulant agent would be expected to be unhelpful, or to worsen thrombosis. The retrieved literature uses kaolin only as a laboratory assay tool (for example in thromboelastography and lupus anticoagulant testing), and none of it tests kaolin as a therapy.
 
-Taken together, this indicates the TxGNN knowledge-graph prediction most likely arose from Kaolin's dense connectivity to coagulation-pathway nodes (through its role as a laboratory reagent) rather than from any genuine therapeutic signal. The mechanism, if anything, points toward a **safety concern** (procoagulant effect) rather than a repurposing opportunity for a prothrombotic disease.
+The high TxGNN score most likely reflects a graph association between kaolin and coagulation, not a therapeutic signal. The same applies to the other top predictions:
+
+- **Bronchitis:** the literature describes kaolin dust inhalation causing pneumoconiosis, which is a harm signal rather than a benefit.
+- **Heparin cofactor 2 deficiency:** one basic biochemistry paper where kaolin is only an assay activator.
+- **Antithrombin deficiency type 2, factor 5 excess with spontaneous thrombosis, interventricular septum aneurysm, Jeune syndrome situs inversus:** no literature or trials were found.
+- **Vein disease and heart disease:** there is limited indirect evidence for topical kaolin-based haemostatic dressings in animal vascular injury models and a small surgical experience report. This concerns bleeding control, not treatment of the disease itself.
+- **Thrombophilia:** kaolin appears as an assay activator for measuring hypercoagulability, not as a treatment.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02271126](https://clinicaltrials.gov/study/NCT02271126) | Phase 1 | Completed | 42 | Compared kaolin-activated thromboelastography (TEG) with aPTT for anticoagulation monitoring during ECMO. Kaolin used solely as the TEG activation reagent — a diagnostic tool study, not a kaolin treatment trial. |
-| [NCT04246307](https://clinicaltrials.gov/study/NCT04246307) | N/A | Unknown | 50 | Compared ClotPro® with kaolin-activated TEG for assessing haemostasis during liver transplantation. Diagnostic method comparison only. |
-| [NCT02887820](https://clinicaltrials.gov/study/NCT02887820) | N/A | Terminated | 15 | Pilot feasibility study of a kaolin-TEG-guided transfusion algorithm in ECMO patients. Trial was terminated early; no treatment-outcome data generated. |
+Currently no related clinical trials registered.
 
-**Note:** None of the identified trials test Kaolin as a therapeutic intervention for thrombotic disease. All three use kaolin exclusively as a coagulation-assay activator.
+---
 
 ## Literature Evidence
 
+The retrieved publications are listed below. None assesses kaolin as a treatment for thrombotic disease. The studies are chosen to show the type of evidence available, with reviews and cohort studies prioritised. No RCT of kaolin was identified.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9624740](https://pubmed.ncbi.nlm.nih.gov/9624740/) | 1997 | Review | British Journal of Biomedical Science | Reviews laboratory diagnosis of lupus anticoagulant, listing the kaolin clotting time (KCT) as one of several diagnostic assays — kaolin as reagent, not therapy. |
-| [26633836](https://pubmed.ncbi.nlm.nih.gov/26633836/) | 2016 | RCT/Cohort | Thrombosis and Haemostasis | Randomised, double-blind study of dabigatran's effects on coagulation in CAD patients on dual antiplatelet therapy; kaolin-activated assays used only as an outcome measurement tool. |
-| [38396728](https://pubmed.ncbi.nlm.nih.gov/38396728/) | 2024 | Cohort | International Journal of Molecular Sciences | Prospective paired-measurement study comparing kaolin-activated TEG and conventional coagulation markers between COPD exacerbation and stable phases. |
-| [32496878](https://pubmed.ncbi.nlm.nih.gov/32496878/) | 2020 | Cohort | Clinical and Applied Thrombosis/Hemostasis | Compared kaolin-activated TEG with conventional coagulation tests in patients with severe chronic liver disease — a diagnostic correlation study. |
-| [34861681](https://pubmed.ncbi.nlm.nih.gov/34861681/) | 2022 | Cohort | Blood Advances | Investigated Factor XII (the same contact pathway kaolin activates) and fibrin clot dysregulation in severe COVID-19-associated thrombosis; mechanistic study, not a kaolin intervention. |
-| [3931480](https://pubmed.ncbi.nlm.nih.gov/3931480/) | 1985 | — | American Journal of Obstetrics and Gynecology | Classic paper identifying lupus anticoagulant via aPTT/kaolin clotting time as a marker of thrombosis risk in pregnancy. |
-| [32342930](https://pubmed.ncbi.nlm.nih.gov/32342930/) | 2020 | — | Malaysian Journal of Pathology | Single-centre review of lupus anticoagulant testing practice and performance, including kaolin-based assays. |
-| [15821825](https://pubmed.ncbi.nlm.nih.gov/15821825/) | 2005 | — | Clinical and Applied Thrombosis/Hemostasis | Retrospective analysis of clinicohaematologic features in lupus anticoagulant patients, using kaolin clotting time among other assays. |
-| [39067844](https://pubmed.ncbi.nlm.nih.gov/39067844/) | 2025 | — | Annals of Vascular Surgery | Explored the association between HbA1c and coagulation parameters (including kaolin-based TEG) in peripheral artery disease patients. |
-| [41051078](https://pubmed.ncbi.nlm.nih.gov/41051078/) | 2026 | — | Journal of the American College of Surgeons | Evaluated objective coagulation assays, including kaolin-based TEG platelet mapping, for predicting thrombosis after PAD revascularisation. |
+| [9624740](https://pubmed.ncbi.nlm.nih.gov/9624740/) | 1997 | Review | Br J Biomed Sci | Reviews lupus anticoagulant pathogenesis and diagnosis, including the kaolin clotting time as a laboratory test |
+| [38142487](https://pubmed.ncbi.nlm.nih.gov/38142487/) | 2024 | Systematic review / meta-analysis | Thromb Res | Whole blood viscoelastic testing parameters and mortality in COVID-19 pneumonia (diagnostic use) |
+| [38396728](https://pubmed.ncbi.nlm.nih.gov/38396728/) | 2024 | Cohort | Int J Mol Sci | Thrombelastography and coagulation markers in COPD exacerbation versus stable phase |
+| [34861681](https://pubmed.ncbi.nlm.nih.gov/34861681/) | 2022 | Cohort | Blood Adv | Altered fibrin clot structure and fibrinolysis contribute to thrombosis risk in severe COVID-19 |
+| [32342930](https://pubmed.ncbi.nlm.nih.gov/32342930/) | 2020 | Cohort | Malays J Pathol | Performance of lupus anticoagulant tests in a single centre |
+| [3931480](https://pubmed.ncbi.nlm.nih.gov/3931480/) | 1985 | Review | Am J Obstet Gynecol | Lupus anticoagulant in pregnancy, detected by aPTT or kaolin clotting time |
+| [8578480](https://pubmed.ncbi.nlm.nih.gov/8578480/) | 1995 | Review | Thromb Haemost | Clinical presentations of antiphospholipid-protein antibodies; kaolin clotting time is one detection test |
+| [39067844](https://pubmed.ncbi.nlm.nih.gov/39067844/) | 2025 | Observational | Ann Vasc Surg | HbA1c and coagulation profiles in peripheral artery disease after revascularisation |
+| [41051078](https://pubmed.ncbi.nlm.nih.gov/41051078/) | 2026 | Observational | J Am Coll Surg | Coagulation assays for predicting thrombosis in peripheral artery disease |
+| [26633836](https://pubmed.ncbi.nlm.nih.gov/26633836/) | 2016 | RCT | Thromb Haemost | Dabigatran effects on coagulation in coronary artery disease patients on dual antiplatelet therapy (kaolin used only as an assay; not a kaolin trial) |
 
-**Note:** All ten publications use kaolin as a coagulation-assay reagent or discuss thrombosis pathophysiology in populations unrelated to kaolin exposure. None report kaolin administered as a treatment for thrombotic disease.
+---
 
 ## Australia Market Information
 
-Kaolin is not currently registered on the Australian Register of Therapeutic Goods (ARTG). No marketed products, licences, or approved indications were identified for this ingredient in the Australian regulatory dataset.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 7348R | Not available | Not available | Not available |
+
+---
 
 ## Safety Considerations
 
-No formal TGA Product Information warnings, contraindications, or drug–drug interaction data are recorded for Kaolin in the safety database queried; the DDI query returned no results.
+**Drug Interactions:** The data compiled for this report list 84 interactions. The first 20 retrieved include:
 
-**Evidence-derived safety signal (identified during this review, not from the formal safety database):** The literature review for a related TxGNN-predicted indication (bronchitis, rank 2) surfaced a consistent body of occupational-medicine literature showing that chronic inhalation of kaolin dust causes **kaolinosis** (kaolin pneumoconiosis) and chronic bronchitis. This is a toxicity signal rather than supporting evidence for any respiratory indication, and it should be factored into any future risk assessment of Kaolin, particularly for inhaled or aerosolised formulations.
+- **Major:** dolutegravir, bictegravir
+- **Moderate:** doxycycline, tetracycline, alendronic acid, risedronic acid, ibandronate, allopurinol, proguanil, atropine, baloxavir marboxil, and opioids (codeine, dihydrocodeine, morphine, benzhydrocodone, butorphanol)
+- **Minor:** beta-blockers (acebutolol, atenolol, betaxolol, bisoprolol)
+
+Kaolin is an adsorbent, which is consistent with reduced absorption of co-administered oral drugs. This is an inference, not stated in the data. Separating administration times is therefore worth considering.
+
+**Other safety signals from the retrieved literature:**
+- Inhaled kaolin dust is associated with pneumoconiosis (kaolinosis).
+- A 1971 report describes coagulation defects after intravenous kaolin.
+- Because kaolin is pro-coagulant, use in a thrombotic or hypercoagulable condition could be harmful.
+
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications, as none were available for this report.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (thrombotic disease, 94.70%) is not supported on mechanistic or clinical grounds — Kaolin is a procoagulant (Factor XII contact activator), and virtually all "supporting" evidence reflects its use as a laboratory reagent rather than a therapeutic agent, meaning the direction of the predicted effect is inconsistent with the proposed indication. Reviewing the remaining nine TxGNN-ranked candidates for Kaolin reinforces this conclusion: most (ranks 3, 4, 5, 8, 9) have no clinical trial or literature support at all (L5, Hold), rank 2 (bronchitis) reflects a **toxicity signal** (occupational lung disease from kaolin dust inhalation) rather than a therapeutic opportunity, and the two candidates with more substantive evidence (rank 6 – vein disease; rank 10 – heart disease, both L3/Research Question) actually correspond to **topical haemostatic dressing use in traumatic vascular injury or cardiac surgery**, not systemic treatment of the labelled disease — an indication-label mismatch that requires manual clarification before it can be considered a genuine repurposing hypothesis.
+- The prediction rests on a graph score alone, with no clinical trials and no literature testing kaolin as a treatment. Its pro-coagulant mechanism points away from benefit in thrombotic disease, and possibly towards harm.
 
 **To proceed, the following is needed:**
-- TFDA/TGA Product Information (PI) warnings, precautions and contraindications for Kaolin (currently a blocking data gap preventing safety screening)
-- Confirmed DrugBank mechanism-of-action and pharmacological classification data
-- Manual re-labelling and clinical review of the "vein disease" and "heart disease" candidates to determine whether the underlying application (topical/intraoperative haemostasis in trauma or cardiac surgery) should be evaluated as a distinct, narrowly-scoped device/product use case rather than as a systemic disease-treatment candidate
-- No further action is recommended on the "thrombotic disease" or "bronchitis" predictions; both should be flagged and excluded from active repurposing consideration
+- A plausible therapeutic mechanism, which currently appears absent for the thrombotic predictions
+- Mechanism of action data and the original approved indication for ARTG entry 7348R
+- TGA Product Information warnings and contraindications, which are needed before any safety screening
+- A review of the interaction profile, particularly the two major interactions with the HIV integrase inhibitors dolutegravir and bictegravir
+- Consideration of whether the topical haemostatic use of kaolin dressings (vein disease, heart disease) is a more credible line of inquiry. This would be a bleeding-control use, not treatment of the predicted diseases themselves.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

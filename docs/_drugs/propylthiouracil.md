@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Propylthiouracil
-parent: High Evidence (L1-L2)
-nav_order: 568
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 610
+evidence_level: L4
 indication_count: 10
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,74 +29,136 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Propylthiouracil: From Hyperthyroidism to Neonatal Thyrotoxicosis
+# Propylthiouracil: From Hyperthyroidism to Resistance to Thyroid Hormone (THRB Mutation)
 
 ## One-Sentence Summary
 
-Propylthiouracil (PTU) is a thionamide antithyroid drug established for treating hyperthyroidism, particularly Graves' disease, especially during pregnancy where it is preferred over methimazole in the first trimester. The TxGNN model predicts it may be effective for **Neonatal Thyrotoxicosis**, a condition caused by transplacental transfer of maternal thyroid-stimulating antibodies, with **1 clinical trial** (indirectly relevant) and **20 publications** currently supporting this direction.
+Propylthiouracil (PTU) is an antithyroid drug originally used to treat hyperthyroidism, Graves disease, thyrotoxicosis and thyroid crisis.
+The TxGNN model's top-ranked prediction is **resistance to thyroid hormone due to a THRB mutation**, but there are **no registered clinical trials** and only **4 publications** (case reports and mouse models), none showing benefit from PTU.
+The prediction is best regarded as a network artefact rather than a credible new use.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperthyroidism / Graves' disease (per published literature; drug is not currently TGA-registered in Australia) |
-| Predicted New Indication | Neonatal Thyrotoxicosis |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Hyperthyroidism, Graves disease, thyrotoxicosis, thyroid crisis (the ARTG entry carries no indication text, so these come from the knowledge graph) |
+| Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
+| TxGNN Prediction Score | 99.66% |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for this candidate is not currently available in DrugBank. Based on known information, Propylthiouracil is a thionamide-class antithyroid agent, and its efficacy in hyperthyroidism (particularly Graves' disease) is well established; mechanistically, this same action may be applicable to neonatal thyrotoxicosis.
+Detailed mechanism of action data is not currently available. Based on known information, PTU is a thionamide that inhibits thyroid peroxidase and so reduces thyroid hormone synthesis. Its efficacy in hyperthyroidism is established.
 
-Neonatal thyrotoxicosis typically arises when maternal Graves' disease TSH-receptor-stimulating antibodies cross the placenta and stimulate the fetal or neonatal thyroid gland, producing a transient but potentially serious hyperthyroid state. PTU inhibits thyroid peroxidase and thereby thyroid hormone synthesis — the identical mechanism already used to control maternal Graves' disease during pregnancy. PTU is specifically preferred over methimazole in the first trimester due to a more favourable teratogenicity profile, and antithyroid drug therapy in the mother is the accepted approach to managing both maternal and fetal/neonatal thyroid status.
+In resistance to thyroid hormone (RTH), tissues respond poorly to high circulating hormone levels. Lowering hormone output is generally not appropriate and may cause hypothyroid-like symptoms or TSH-driven goitre enlargement. The retrieved literature supports this caution. In one Thai case, the patient's goitre enlarged after 9 months of PTU given for presumed thyrotoxicosis. The high TxGNN score most likely reflects proximity to thyroid hormone pathways in the knowledge graph, not a therapeutic rationale.
 
-This gives the prediction a plausible mechanistic basis: rather than representing a novel pharmacological action, it reflects an extension of PTU's existing, well-characterised effect on thyroid hormone synthesis into a related clinical scenario (maternally-transmitted neonatal thyrotoxicosis) rather than a truly independent new indication.
+### Other Predictions Reviewed
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Neonatal thyrotoxicosis | 99.40% | L4 | Mechanistically plausible, but the evidence is indirect (PTU use in pregnancy) and hepatotoxicity limits use. It is an extension of the existing indication. |
+| 3 | Hyperthyroxinemia | 99.08% | L4 | Many forms are euthyroid or tissue-resistant, so treatment is not indicated. One MCT8 case report suggests a niche benefit. |
+| 4 | Hashimoto thyroiditis | 98.22% | L4 | Usually hypothyroid. PTU applies only to the transient thyrotoxic phase or coexisting Graves disease. |
+| 5 | Autoimmune thyroid disease | 98.02% | L1 (see note) | Overlaps with the approved Graves disease use. The L1 grade reflects Phase 3 trials for an on-label condition, not new-indication evidence. |
+| 6–7 | COL4A1-related syndromes | 96.62% / 96.49% | L5 | No trials, no literature, no plausible mechanism. |
+| 8 | Diabetic nephropathy | 94.98% | L5 | Speculative. PTU is linked to ANCA-positive vasculitis and glomerulonephritis. |
+| 9 | Prinzmetal angina | 90.41% | L4 | A single case report where angina was caused by thyrotoxicosis and resolved once PTU restored euthyroidism. This is indirect. |
+| 10 | Primary hereditary glaucoma | 90.11% | L5 | No plausible mechanism. |
+
+---
 
 ## Clinical Trial Evidence
 
+Currently no related clinical trials are registered for the top-ranked prediction.
+
+Trials found for other predictions are summarised below, because they bear on the antithyroid drug class rather than on a new indication:
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03066076](https://clinicaltrials.gov/study/NCT03066076) | Phase 3 | Unknown | 60 | Compared total thyroidectomy versus thionamide antithyroid drugs in adult patients with moderate-to-severe Graves' ophthalmopathy. Note: general adult Graves' disease population, not neonatal-specific — indirect relevance only. |
+| [NCT05118542](https://clinicaltrials.gov/study/NCT05118542) | Phase 3 | Completed | 36 | Single-blind comparison of PTU and methimazole in Graves disease, measuring atherosclerosis markers (indirect outcome) |
+| [NCT03066076](https://clinicaltrials.gov/study/NCT03066076) | Phase 3 | Unknown | 60 | Total thyroidectomy versus thionamides in Graves ophthalmopathy (PTU not confirmed as the specific comparator) |
+| [NCT01056419](https://clinicaltrials.gov/study/NCT01056419) | Phase 4 | Unknown | 40 | Early total thyroidectomy versus antithyroid drugs in Graves orbitopathy (surgical focus) |
+| [NCT03433352](https://clinicaltrials.gov/study/NCT03433352) | N/A | Unknown | 90 | Gut microbiota and methimazole response in Graves disease (does not involve PTU) |
+| [NCT03447093](https://clinicaltrials.gov/study/NCT03447093) | N/A | Unknown | 120 | Observational oral microbiota study in autoimmune thyroiditis (no PTU intervention) |
+
+No ANZCTR identifiers were found in the data compiled for this report.
+
+---
 
 ## Literature Evidence
 
+Publications for the top-ranked prediction (RTH due to THRB mutation):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33349844](https://pubmed.ncbi.nlm.nih.gov/33349844/) | 2021 | Guideline/Review | J Clin Endocrinol Metab | Reviews testing, monitoring and treatment of thyroid dysfunction in pregnancy, including antithyroid drug selection. |
-| [32199749](https://pubmed.ncbi.nlm.nih.gov/32199749/) | 2020 | Review | Best Pract Res Clin Endocrinol Metab | Reviews evaluation and antithyroid drug management of thyrotoxicosis in pregnancy to prevent maternal and fetal complications. |
-| [31345521](https://pubmed.ncbi.nlm.nih.gov/31345521/) | 2019 | Review | Endocrinol Metab Clin North Am | Notes PTU is preferred in the first trimester for high-risk Graves' disease due to teratogenicity concerns with methimazole, with transition to methimazole thereafter. |
-| [24622372](https://pubmed.ncbi.nlm.nih.gov/24622372/) | 2013 | Review | Lancet Diabetes Endocrinol | Reviews diagnosis and adverse maternal/fetal outcomes associated with hyperthyroidism in pregnancy. |
-| [25747892](https://pubmed.ncbi.nlm.nih.gov/25747892/) | 2015 | Cohort | Thyroid | Cohort study evaluating neonatal outcomes associated with antithyroid drug use for gestational thyrotoxicosis. |
-| [18558604](https://pubmed.ncbi.nlm.nih.gov/18558604/) | 2008 | Case report | Endocr Pract | Case of persistent neonatal thyrotoxicosis secondary to a rare activating TSH-receptor mutation. |
-| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case report | Clin Endocrinol | Case of neonatal thyrotoxicosis initially managed as typical hyperthyroidism, later identified as thyroid hormone resistance. |
-| [36680759](https://pubmed.ncbi.nlm.nih.gov/36680759/) | 2023 | Cohort | Thyroid | Investigates incidence and dose-related risk factors for neonatal hypothyroidism in infants of mothers treated with antithyroid drugs until delivery. |
-| [2090674](https://pubmed.ncbi.nlm.nih.gov/2090674/) | 1990 | Case report | J Endocrinol Invest | Case of transient neonatal thyrotoxicosis with acute hepatic injury following transplacental propylthiouracil exposure. |
-| [34335902](https://pubmed.ncbi.nlm.nih.gov/34335902/) | 2021 | Review | Exp Ther Med | Reviews hyperthyroidism management strategies during pregnancy and lactation and their impact on maternal/fetal outcomes. |
+| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Animal model | Endocrinology | Role of TSH in thyroid carcinoma in mice carrying a THRB mutation |
+| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case report | Clin Endocrinol | Neonatal thyrotoxicosis and maternal infertility in RTH (M313T mutation) |
+| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | Case report | Endocr J | Thai woman with RTH was treated with PTU for presumed thyrotoxicosis and her goitre enlarged |
+| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Animal model | Oncogene | Thyroid hormone activates tumour cell proliferation in a mouse model of follicular thyroid carcinoma |
+
+Selected supporting publications for other predictions:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [30283735](https://pubmed.ncbi.nlm.nih.gov/30283735/) | 2018 | Guideline | Eur Thyroid J | ETA guideline supports thionamides in Graves hyperthyroidism, with methimazole first-line |
+| [24622372](https://pubmed.ncbi.nlm.nih.gov/24622372/) | 2013 | Review | Lancet Diabetes Endocrinol | Hyperthyroidism in pregnancy |
+| [31345521](https://pubmed.ncbi.nlm.nih.gov/31345521/) | 2019 | Review | Endocrinol Metab Clin North Am | High-risk patients receive PTU in the first trimester, then may transition to methimazole |
+| [18334584](https://pubmed.ncbi.nlm.nih.gov/18334584/) | 2008 | Case report | J Clin Endocrinol Metab | PTU plus L-thyroxine was beneficial in a patient with an MCT8 mutation |
+| [16450313](https://pubmed.ncbi.nlm.nih.gov/16450313/) | 2006 | Case report | Exp Clin Endocrinol Diabetes | Thyrotoxicosis-induced Prinzmetal angina resolved after PTU restored euthyroidism |
+| [26321810](https://pubmed.ncbi.nlm.nih.gov/26321810/) | 2015 | Case report | Indian J Crit Care Med | PTU-induced autoimmune disease (safety signal) |
+| [19196368](https://pubmed.ncbi.nlm.nih.gov/19196368/) | 2009 | Clinical study | Int J Clin Pract | ANCA positivity in Graves patients treated with PTU |
+| [2090674](https://pubmed.ncbi.nlm.nih.gov/2090674/) | 1990 | Case report | J Endocrinol Invest | Neonatal hepatitis after placental transfer of PTU |
+
+---
 
 ## Australia Market Information
 
-Propylthiouracil is currently **not marketed** in Australia — no ARTG entries were found for this drug.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13836F | PTU | Tablet 50 mg (oral) | Not recorded in the data compiled for this report |
+
+The single entry is a valid, single-ingredient product.
+
+---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+**Contraindications and risk conditions (from the knowledge graph, not label text):**
+- Haematological: thrombocytopenia, leukopenia, pancytopenia, agranulocytosis, neutropenia (including congenital and idiopathic forms)
+- Thyroid: hypothyroidism, myxedema, congenital hypothyroidism
+- Hepatic: drug-induced liver injury, hyperbilirubinaemia, Gilbert syndrome
+- Respiratory: interstitial lung disease
+
+**Drug interactions:** 83 interactions were identified. The main ones are:
+- **Major:** deferiprone
+- **Moderate:** warfarin, dicoumarol, theophylline, aminophylline, oxtriphylline, naltrexone, iodide I-131, iodide I-123, macimorelin
+- Other listed interactions have an unclassified severity (for example omeprazole, pantoprazole, rosuvastatin, clopidogrel and several corticosteroids)
+
+**Safety signals from the literature:** hepatotoxicity, ANCA-associated vasculitis and autoimmune disease, and neonatal hepatitis after placental transfer. For these reasons PTU is generally reserved for the first trimester of pregnancy, thyroid storm or methimazole intolerance.
+
+Please refer to the TGA-approved Product Information (PI) for authoritative warnings and contraindications. Label-based safety data could not be retrieved.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-PTU's use in maternal Graves' disease during pregnancy — and the resulting management of neonatal thyrotoxicosis — is supported by a substantial and consistent body of review, cohort and case-report literature, giving a plausible mechanistic and clinical basis. However, no dedicated neonatal-specific clinical trial exists, the one identified trial is only indirectly relevant, and the drug is not currently registered or marketed in Australia.
+The top-ranked prediction has no clinical trials and only case reports and mouse models, and the mechanism argues against use because suppressing hormone synthesis is inappropriate in RTH. The more credible predictions (neonatal thyrotoxicosis, autoimmune thyroid disease, Prinzmetal angina secondary to thyrotoxicosis) are extensions of the existing hyperthyroidism indication, not new uses. PTU's hepatotoxicity also limits its role.
 
 **To proceed, the following is needed:**
-- Mechanism of action data from DrugBank (currently a data gap)
-- TGA Product Information / warnings and contraindications data (currently a data gap)
-- Drug interaction data (currently not found)
-- Assessment of a supply pathway given the drug is not TGA-registered in Australia (e.g. Special Access Scheme/Authorised Prescriber)
-- Confirmation this candidate reflects an extension of PTU's established maternal Graves' disease indication rather than an independent new indication requiring separate clinical validation
+- TGA Product Information, to establish label warnings, contraindications and the approved indication text
+- Detailed mechanism of action data
+- For neonatal thyrotoxicosis, a focused review of PTU use in pregnancy and neonates, weighing hepatotoxicity against methimazole alternatives
+- Direct clinical evidence of PTU benefit for any proposed new indication, which is currently absent
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

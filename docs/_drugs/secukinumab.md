@@ -2,7 +2,7 @@
 layout: default
 title: Secukinumab
 parent: Model Prediction Only (L5)
-nav_order: 618
+nav_order: 661
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,64 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Secukinumab: From Psoriasis/Psoriatic Arthritis to Primary Release Disorder of Platelets
+# Secukinumab: From Established Immune-Mediated Inflammatory Disease to Primary Release Disorder of Platelets
 
 ## One-Sentence Summary
 
-Secukinumab is an anti-IL-17A monoclonal antibody used for inflammatory conditions such as psoriasis, psoriatic arthritis and ankylosing spondylitis. The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the accompanying mechanistic review flags it as a likely false-positive knowledge-graph association rather than a biologically plausible lead.
+Secukinumab is an anti-IL-17A monoclonal antibody marketed in Australia as Cosentyx. The original indication text was not available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but there are **0 clinical trials** and **0 publications** supporting this prediction. It is a purely computational signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Psoriasis / Psoriatic Arthritis / Ankylosing Spondylitis (as referenced in the evidence pack; not confirmed via a structured original-indication field) |
+| Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 98.16% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in structured form (flagged as a High-severity data gap). Based on the information available, Secukinumab neutralises IL-17A to suppress Th17-driven inflammatory signalling, and this mechanism underlies its established use in psoriasis, psoriatic arthritis and ankylosing spondylitis.
+Currently, detailed mechanism of action data is not available in the compiled data. From general knowledge, secukinumab is an anti-IL-17A monoclonal antibody. It is used in IL-17-driven immune-mediated conditions such as psoriasis, psoriatic arthritis, axial spondyloarthritis and hidradenitis suppurativa.
 
-Primary release disorder of platelets, however, is a platelet granule secretion defect, predominantly inherited as a storage-pool disease. It has no known relationship to IL-17A signalling — the pathology is structural/secretory, not inflammatory. The evidence pack's own mechanistic review explicitly concludes that this prediction is most likely a false positive arising from node proximity or comorbidity patterns in the knowledge graph, rather than a genuine pharmacological link.
+No plausible mechanistic link was identified for the predicted indication. Platelet release (secretion) disorders arise from intrinsic defects in platelet granules or signalling, not from IL-17A-driven inflammation. The high TxGNN score is a graph-based prediction with no supporting clinical or literature evidence, and it should be treated as a hypothesis only.
 
-No clinical trials, ICTRP registrations, or PubMed literature were found connecting Secukinumab to this indication, which is consistent with the absence of a plausible biological rationale.
+Other top-ranked predictions show the same pattern:
+- **Platelet and bleeding disorders** (pseudo-von Willebrand disease, Glanzmann thrombasthenia, fetal and neonatal alloimmune thrombocytopenia) have no mechanistic link to IL-17A inhibition.
+- **Breast cancer subtypes** (HER2-positive, progesterone-receptor positive and negative, luminal A or B, normal breast-like) have only speculative links through tumour-promoting inflammation. Several share identical scores, suggesting a graph-neighbourhood artefact.
+- **Drug-induced osteoporosis** has weak biological plausibility, since IL-17 can promote osteoclastogenesis via RANKL, but no supporting evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered for primary release disorder of platelets.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available for primary release disorder of platelets.
+
+The literature retrieved for the lower-ranked "breast tumor luminal A or B" prediction (SUNSHINE/SUNRISE phase 3 trials in hidradenitis suppurativa, psoriasis and arthritis reviews, and others) concerns other, already-established indications. It does not support any predicted new indication.
 
 ## Australia Market Information
 
-Secukinumab has no ARTG listings (0 entries; market status: Not Marketed). No Australian product information is currently available for reference.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10425Q | Cosentyx | Injection 150 mg in 1 mL pre-filled pen | Not available in the compiled data |
 
 ## Safety Considerations
 
-- **Key Warnings**: Not available — TGA-approved Product Information does not exist for this product in Australia (drug not marketed; 0 ARTG entries). This is recorded as a Blocking data gap that prevents any formal safety pre-assessment (S1 stage).
-- **Drug Interaction Data**: No interaction data found in the queried source.
+- **Drug Interactions**: 100 interactions were identified. Of the entries shown:
+  - **Major**: adalimumab (combining biologic immunomodulators).
+  - **Moderate**: simvastatin, apixaban, warfarin, rivaroxaban, dicoumarol, lidocaine, hydrocodone, fentanyl, theophylline, aminophylline, oxtriphylline, roflumilast, tacrolimus, nifedipine, and tetanus toxoid vaccine.
+  - **Minor**: zinc salts (sulfate, acetate, gluconate, chloride).
+- **Class-related signal from the literature**: IL-17 blockers have been associated with paradoxical gastrointestinal effects, including exacerbation of Crohn's disease and ulcerative colitis. Infection risk is also a recognised consideration with biologic therapy.
 
-Until local registration status changes, any safety assessment should rely on the manufacturer's overseas product information (e.g., FDA/EMA label) rather than a TGA PI.
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical or literature evidence for Secukinumab in primary release disorder of platelets, and the proposed mechanism (IL-17A neutralisation) has no established connection to this platelet secretory defect — the evidence pack itself assesses this as a likely knowledge-graph false positive. A Blocking data gap on TFDA/TGA-equivalent safety labelling also prevents this candidate from advancing to formal safety review regardless of indication-level evidence.
+The prediction rests on a model score alone (L5). There are no clinical trials or publications, and the biology of platelet release disorders is unrelated to IL-17A inhibition.
 
 **To proceed, the following is needed:**
-- Formal mechanism of action documentation (currently a data gap)
-- TGA-equivalent Product Information / safety labelling (Blocking gap — required before any S1 safety assessment)
-- If this indication is pursued further, dedicated preclinical/mechanistic studies on IL-17A's role in platelet granule secretion, since none currently exist
-
-**Note:** Among the other candidates reviewed for this drug, **drug-induced osteoporosis** (rank 5, score 95.27%) has comparatively stronger mechanistic grounding — IL-17 is known to promote RANKL expression and osteoclast differentiation — and was flagged as a "Research Question" rather than a straight Hold. This may be a more productive direction for future literature review than the top-ranked candidate above.
+- A credible mechanistic hypothesis linking IL-17A to platelet secretion defects, supported by preclinical data
+- Detailed mechanism of action data and the approved indication text from the TGA Product Information
+- Safety information from the PI (warnings and contraindications)
+- Any observational or preclinical evidence in the predicted indication before further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

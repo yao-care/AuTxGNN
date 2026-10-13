@@ -2,7 +2,7 @@
 layout: default
 title: Deferiprone
 parent: Moderate Evidence (L3-L4)
-nav_order: 188
+nav_order: 205
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,87 +29,73 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Deferiprone: From Transfusional Iron Overload to Hepatic Porphyria
+# Deferiprone: From Transfusional Iron Overload (Thalassaemia) to Hepatic Porphyria
 
 ## One-Sentence Summary
 
-Deferiprone is an oral iron chelator used internationally to treat transfusion-dependent iron overload, particularly in patients with thalassaemia major when deferoxamine is inadequate or poorly tolerated.
-The TxGNN model predicts it may be effective for **Hepatic Porphyria**, with **0 clinical trials** and **2 publications** currently supporting this direction — both at a preclinical or animal model level.
-The overall evidence base remains early-stage, making this a research hypothesis rather than a clinically actionable repurposing candidate at this time.
-
----
+Deferiprone is an oral iron chelator originally used to treat iron overload in thalassaemia and related haemoglobin disorders.
+The TxGNN model predicts it may be useful for **hepatic porphyria**, but the supporting evidence is limited to **2 preclinical or case-level publications** and **no registered clinical trials**.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Transfusion-dependent iron overload (thalassaemia major) |
-| Predicted New Indication | Hepatic Porphyria |
+|------|------|
+| Original Indication | Transfusional iron overload in thalassaemia and related conditions (haemosiderosis, beta-thalassaemia, haemoglobinopathy). The ARTG entry has no indication text, so this is taken from the knowledge-graph indications. |
+| Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 99.20% |
 | Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Deferiprone (3-hydroxy-1,2-dimethylpyridin-4(1H)-one) is a small-molecule oral iron chelator. Although detailed mechanism of action data is not available in this evidence pack, deferiprone is well recognised as an agent that reduces the labile iron pool within cells, thereby mitigating iron-mediated oxidative stress. Its low molecular weight (~139 Da) allows intracellular penetration — including entry into cardiomyocytes — an advantage over the larger parenteral chelator deferoxamine.
+Detailed mechanism of action data is not available from the data compiled for this report. Deferiprone is known to be an oral iron chelator. It binds labile iron and promotes its removal, and its efficacy in transfusional iron overload is established.
 
-In hepatic porphyria — particularly porphyria cutanea tarda (PCT) — excess hepatic iron is a central pathogenic driver. Elevated hepatic iron upregulates δ-aminolevulinic acid synthase 1 (ALAS1), leading to the accumulation of phototoxic porphyrins in the liver. Reducing hepatic iron is already an established therapeutic strategy: therapeutic phlebotomy is the standard of care for PCT, validating the iron-depletion rationale. An oral iron chelator such as deferiprone could theoretically serve as an alternative for patients with anaemia who cannot tolerate venesection.
+In some porphyrias, iron drives the disease. In porphyria cutanea tarda (PCT), for example, excess hepatic iron promotes the build-up of uroporphyrin, and lowering iron (by phlebotomy) is an effective treatment. A chelator could, in principle, achieve a similar effect. A congenital erythropoietic porphyria report suggests iron chelation improved haemolytic anaemia and skin photosensitivity. A mouse model of PCT-like uroporphyria also tested deferiprone.
 
-The biological rationale extends to congenital erythropoietic porphyria (CEP), where iron overload secondary to chronic haemolysis amplifies erythroid porphyrin accumulation and worsens photosensitivity. Preclinical evidence (see Literature Evidence below) suggests that iron chelation can rescue both haemolytic anaemia and skin photosensitivity in murine CEP models, lending translational support to the TxGNN prediction.
-
----
+This reasoning has clear limits. The evidence is preclinical or comes from a non-hepatic porphyria. Acute hepatic porphyrias are not primarily iron-driven, so any benefit may apply only to specific subtypes such as PCT. The prediction should be treated as a research hypothesis, not a treatment recommendation.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preclinical/Translational Study | *Blood* | Iron chelation rescued haemolytic anaemia and skin photosensitivity in a murine model of congenital erythropoietic porphyria (CEP), providing proof-of-concept that iron depletion can reduce porphyrin-driven pathology |
-| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Animal Model Study | *Hepatology* | Deferiprone (L1) and iron-deficient diet comparably reduced hepatic uroporphyrin accumulation in Hfe(−/−) mice modelling porphyria cutanea tarda, directly supporting the oral iron chelation hypothesis in hepatic porphyria |
-
----
+|------|-----|------|------|---------|
+| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preclinical / case-level | Blood | Iron chelation rescued haemolytic anaemia and skin photosensitivity in congenital erythropoietic porphyria (a non-hepatic form). |
+| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Animal study (mouse) | Hepatology | Compared deferiprone with iron-deficient diets for hepatic iron depletion and uroporphyrin accumulation in a mouse model of porphyria cutanea tarda. |
 
 ## Australia Market Information
 
-Deferiprone is **not currently registered with the TGA** and has no ARTG entries. It is not commercially available in Australia through standard regulatory channels. Access, if clinically indicated, would require the TGA Special Access Scheme (SAS) or Authorised Prescriber pathway.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11724C | Ferriprox | Tablet 1000 mg (oral) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-No TGA-approved Product Information (PI) is available for deferiprone in Australia. There are no ARTG-registered safety data on record. Please refer to international regulatory documents — such as the **EMA-approved Ferriprox Summary of Product Characteristics (SmPC)** or the **FDA-approved prescribing information** — for comprehensive safety and prescribing guidance.
+- **Drug Interactions:** 100 interactions were identified, and all 20 listed in the data are rated Moderate. They are mainly with polyvalent metal-containing products, which may bind the chelator in the gut. The listed examples include:
+  - Calcium salts (phosphate, acetate, carbonate, citrate, gluconate, lactate)
+  - Magnesium salts (oxide, carbonate, chloride, citrate, hydroxide, sulfate)
+  - Aluminium hydroxide, magaldrate, kaolin, attapulgite and sucralfate
+  - Iron
 
-Key safety concerns known from published literature and international labelling include:
-
-- **Agranulocytosis / Neutropenia**: The most serious known adverse effect. Agranulocytosis (ANC < 0.5 × 10⁹/L) has been reported and can be fatal. Weekly full blood count (FBC) with differential is mandatory during treatment; deferiprone must be discontinued immediately if neutropenia or agranulocytosis develops.
-- **Musculoskeletal effects**: Arthropathy has been reported, particularly at higher doses.
-- **Gastrointestinal effects**: Nausea, vomiting, and abdominal pain are among the most common adverse effects, particularly at treatment initiation.
-
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications. These were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic hypothesis is biologically plausible — hepatic iron drives porphyrin accumulation in PCT, and iron chelation is mechanistically analogous to the established phlebotomy approach — but the evidence base is limited to two preclinical/animal studies with no clinical trial data. Deferiprone is also not registered in Australia, precluding routine clinical use.
+The prediction rests on a high computational score and indirect preclinical evidence. There are no clinical trials, and benefit in hepatic porphyria is plausible only for iron-driven subtypes such as PCT. Warnings and contraindications from the PI were also not available.
 
 **To proceed, the following is needed:**
-
-- Identify or initiate a Phase 1/2 pilot clinical trial evaluating deferiprone in hepatic porphyria (particularly PCT or CEP), focusing on hepatic iron reduction and porphyrin levels as primary endpoints
-- Obtain complete MOA and safety data from DrugBank (DB08826) to enable a thorough mechanistic and risk–benefit assessment
-- Review the EMA/FDA-approved Ferriprox labelling for full safety profile, drug interactions, and contraindications before any clinical application
-- Assess the TGA Special Access Scheme (SAS Category B) or Authorised Prescriber pathway if off-label use in a specific patient is being considered
-- Consult with a haematologist or metabolic disease specialist experienced in porphyria management before progressing to any clinical application
+- Review of the TGA Product Information for warnings and contraindications (the PI is not yet reviewed)
+- Detailed mechanism of action data
+- Definition of the relevant porphyria subtype (for example PCT) and confirmation of an iron-driven mechanism
+- Further preclinical or early-phase clinical evidence in hepatic porphyria
+- Review of the interaction profile with commonly co-administered products
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

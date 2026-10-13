@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tenofovir Disoproxil
-parent: Moderate Evidence (L3-L4)
-nav_order: 659
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 707
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tenofovir Disoproxil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Tenofovir Disoproxil: From HIV-1 Infection / Chronic Hepatitis B to Simian Immunodeficiency Virus Infection
+# Tenofovir disoproxil: From Chronic Hepatitis B and HIV Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-> Tenofovir disoproxil is a nucleotide reverse transcriptase inhibitor whose established human uses are HIV-1 treatment/PrEP and chronic hepatitis B.
-> The TxGNN model's top-ranked prediction, **Simian Immunodeficiency Virus Infection**, is not a human disease — it is an animal-model ontology artefact,
-> supported only by **2 low-relevance clinical trials** and **20 macaque-model publications**, none of which demonstrate a genuine new human indication.
+Tenofovir disoproxil is an oral antiviral originally used for chronic hepatitis B virus infection and HIV infection (including AIDS).
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, which is a primate counterpart of HIV rather than a new human disease.
+Support is limited to **0 registered clinical trials** and **animal-model and review publications** (mostly macaque studies).
 
 ---
 
@@ -43,61 +43,73 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the regulatory register supplied (no ARTG-equivalent license entries). Based on established pharmacology noted elsewhere in this evidence pack, tenofovir disoproxil's approved human uses are HIV-1 infection (treatment and PrEP) and chronic hepatitis B. |
-| Predicted New Indication | Simian Immunodeficiency Virus Infection (an animal-model disease, not a human indication) |
+| Original Indication | Chronic hepatitis B virus infection; HIV infection; AIDS |
+| Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 (preclinical studies only) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this candidate (marked as a blocking/high-severity data gap in the evidence pack). Based on known pharmacology, tenofovir disoproxil is a nucleotide analogue reverse transcriptase inhibitor that suppresses HIV-1 and hepatitis B virus polymerase — this is well-established, on-label activity, not a new mechanistic hypothesis.
+Detailed mechanism of action data is not available in the data compiled for this report. Tenofovir is known to be a nucleotide reverse transcriptase inhibitor. Its efficacy in HIV and hepatitis B is established, and mechanistically it may be applicable to SIV.
 
-The top-ranked TxGNN prediction, simian immunodeficiency virus (SIV) infection, is a veterinary/laboratory disease node used to model HIV in macaques. It sits immediately adjacent to "HIV infection" in the knowledge graph's disease ontology, so the model surfaces it as a near-identical match — but the evidence pack's own rationale explicitly flags this as prediction noise rather than a translatable human repurposing target. The supporting literature (below) is exclusively pre-clinical macaque/SHIV challenge-protection research, and the two associated clinical trials are human HIV studies with only incidental relevance (one withdrawn with zero enrolment).
+SIV is the primate lentivirus counterpart of HIV-1 and also relies on reverse transcriptase. A nucleotide reverse transcriptase inhibitor is therefore expected to inhibit SIV replication. The retrieved literature is consistent with this. It consists mainly of macaque studies of pre-exposure prophylaxis (PrEP), prophylaxis in infant macaques, and antiretroviral therapy.
 
-For transparency: the two predicted indications in this pack with genuine clinical evidence (L1, hepatitis B virus infection and AIDS related complex — see the evidence pack's full prediction list) are not novel candidates either. Both are already-established uses of tenofovir disoproxil, so the model is essentially rediscovering the drug's own label rather than identifying a new opportunity. The remaining predictions (rare genetic neurodevelopmental disorder, obsolete hyperlipidemia term, prostate fibroma, Brenner tumor, benign reproductive neoplasms) have no clinical trial or literature support and no biologically plausible mechanistic link to an antiviral nucleotide analogue. Taken together, this evidence pack does not currently contain a credible, human-relevant new repurposing signal for tenofovir disoproxil.
+**Important caveat:** SIV infection in macaques is an animal model of an already-approved human indication (HIV). The evidence supports mechanism and dosing but is not a distinct human indication. The model's other high-scoring predictions are also not new human opportunities:
+- Hepatitis B virus infection is already an approved indication.
+- AIDS related complex is a historical term overlapping with the approved HIV indication.
+- Feline AIDS is a veterinary indication.
+- Several rare tumour and genetic disorder predictions have no supporting evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | Unknown | 12 | Vedolizumab combined with ART for virological remission in HIV-infected subjects (human HIV study; not an SIV trial — graded low relevance) |
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | N/A | Withdrawn | 0 | HIV RNA decay kinetics study referencing comparable SIV-macaque decay data; withdrawn before enrolment |
+Currently no related clinical trials registered for SIV infection. No ANZCTR identifiers were found.
 
 ---
 
 ## Literature Evidence
 
+All studies below are preclinical (animal) work, reviews, or one human pharmacokinetic trial. None is a human efficacy RCT for this indication.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36477356](https://pubmed.ncbi.nlm.nih.gov/36477356/) | 2022 | Animal (macaque) | JCI Insight | Hypo-osmolar rectal tenofovir douche prevents SHIV acquisition in macaques |
-| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Animal (macaque) | J Infect Dis | Oral TAF + emtricitabine protects macaques from rectal SHIV infection |
-| [22072766](https://pubmed.ncbi.nlm.nih.gov/22072766/) | 2012 | Animal (macaque) | J Virol | Vaginal 1% tenofovir gel gives durable protection against SHIV in macaques |
-| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Animal (macaque) | J Infect Dis | FTC/TDF prevents vaginal SHIV infection in macaques co-infected with STIs |
-| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Animal (macaque) | J Acquir Immune Defic Syndr | Oral TDF / topical tenofovir protects infant macaques from oral SIV challenge |
-| [16960777](https://pubmed.ncbi.nlm.nih.gov/16960777/) | 2006 | Animal (macaque) | J Infect Dis | TDF gives partial protection against SHIV in macaques with repeated challenge |
-| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Animal (macaque) | J Infect Dis | TAF/elvitegravir vaginal inserts give extended postexposure protection against SHIV in macaques |
-| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Animal (macaque) | Nature Communications | SHIV remission in macaques with early ART initiation and long-acting antivirals |
-| [20874040](https://pubmed.ncbi.nlm.nih.gov/20874040/) | 2010 | Review | Pharmacotherapy | Review of systemic PrEP for human HIV infection (human, but tangential to SIV) |
-| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Animal (macaque) | J Infect Dis | FTC/TDF prevents transmission of tenofovir-resistant (K65R) SHIV in macaques |
+| [16960777](https://pubmed.ncbi.nlm.nih.gov/16960777/) | 2006 | Animal study | J Infect Dis | Weekly tenofovir disoproxil fumarate (TDF) gave partial protection against repeated rectal SHIV challenges in macaques |
+| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Animal study | J Infect Dis | Emtricitabine/TDF prevented vaginal SHIV infection in macaques coinfected with Chlamydia and Trichomonas |
+| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Animal study | J Infect Dis | Emtricitabine/TDF PrEP was tested against a tenofovir-resistant SHIV (K65R mutation) in macaques |
+| [24043812](https://pubmed.ncbi.nlm.nih.gov/24043812/) | 2013 | Animal study | PNAS | A TDF-eluting intravaginal ring protected macaques from multiple vaginal SHIV challenges |
+| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Animal study | J Acquir Immune Defic Syndr | Oral TDF and topical tenofovir GS-7340 were evaluated against repeated oral SIV challenges in infant macaques |
+| [12404171](https://pubmed.ncbi.nlm.nih.gov/12404171/) | 2002 | Animal study | J Infect Dis | Low-dose topical (oral) TDF was tested for protecting infant macaques from repeated low-dose oral SIV exposure |
+| [24914761](https://pubmed.ncbi.nlm.nih.gov/24914761/) | 2014 | Animal study | AIDS Res Hum Retroviruses | Combining a virus-like particle HIV vaccine with partially protective oral PrEP prevented SHIV infection in macaques |
+| [22964889](https://pubmed.ncbi.nlm.nih.gov/22964889/) | 2012 | Review | Curr Opin HIV AIDS | Reviews lessons from animal models of antiretroviral PrEP and next steps in preclinical research |
+| [14557287](https://pubmed.ncbi.nlm.nih.gov/14557287/) | 2003 | Review | Clin Microbiol Rev | Reviews acyclic nucleoside phosphonates (cidofovir, adefovir, tenofovir) against DNA virus and retrovirus infections |
+| [21896911](https://pubmed.ncbi.nlm.nih.gov/21896911/) | 2011 | Human PK trial | Antimicrob Agents Chemother | Single-dose TDF and TDF-emtricitabine pharmacokinetics and safety in HIV-infected pregnant women and their infants |
 
 ---
 
 ## Australia Market Information
 
-Currently no ARTG entries are recorded for this drug in the evidence pack (0 licenses; market status: Not marketed).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10310P | Tenofovir Sandoz | Tablet containing tenofovir disoproxil fumarate 300 mg (oral) | Indication text not specified in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Knowledge-graph contraindication signals (not label text):** The TxGNN knowledge graph links tenofovir disoproxil to the following conditions. These are model-derived associations and should be verified against the approved label.
+  - Renal and hepatic: kidney disease, liver disease, liver failure, fatty liver disease and non-alcoholic steatohepatitis, lactic acidosis, Fanconi renotubular syndrome.
+  - Bone and metabolic: hypophosphatemia, osteomalacia, rickets, hypertriglyceridemia, obesity disorder.
+  - Cardiac and neuropsychiatric: long QT syndrome and torsades de pointes, epilepsy, anxiety and related disorders, delusional disorder, paranoid schizophrenia.
+  - Other: gallbladder disease, hepatitis C virus infection.
+- **Drug Interactions:** No interaction records were found in the data compiled.
+
+Please refer to the TGA-approved Product Information (PI) for authoritative warnings, contraindications and interaction information.
 
 ---
 
@@ -106,13 +118,14 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (simian immunodeficiency virus infection) is an animal-model ontology artefact with no direct human clinical applicability — its own supporting evidence is exclusively pre-clinical macaque research. No indication in this evidence pack represents a genuine, evidence-supported *new* human indication: the two candidates with strong clinical evidence (hepatitis B, AIDS-related complex) are already-established uses of tenofovir disoproxil, and the remaining candidates have no clinical or mechanistic support.
+- Evidence is preclinical only (L4). There are no registered clinical trials for SIV infection, and the indication is an animal model of the already-approved HIV indication, not a distinct human indication.
+- The model score is very high (99.95%), but it does not translate into a new clinical opportunity.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank (currently a data gap)
-- TFDA/TGA-approved Product Information for safety warnings, contraindications and DDI data (currently blocking data gap)
-- Re-run TxGNN candidate generation with animal/veterinary disease ontology nodes filtered out, to avoid noise like SIV/FIV
-- If a genuine novel human indication is later identified, complete route-of-administration and similarity-to-original-indication analysis (currently marked "pending" throughout this evidence pack)
+- Confirmation of whether any human indication is being pursued. For SIV, the practical value is as a preclinical model to support dosing and prophylaxis research, not a new patient indication.
+- Detailed mechanism of action data (MOA).
+- The approved indication text and safety information (warnings, contraindications) from the TGA Product Information for ARTG 10310P.
+- Review of the model's human-relevant predictions separately. Hepatitis B is already approved, and a Phase 3 RCT (NCT01745822, perinatal HBV transmission) supports that use. Any such review should include monitoring of renal function and bone density.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

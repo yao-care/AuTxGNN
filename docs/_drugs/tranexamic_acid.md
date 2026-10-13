@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tranexamic Acid
-parent: Moderate Evidence (L3-L4)
-nav_order: 694
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 746
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tranexamic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,94 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-Using no specific skill here — this is a direct content-generation task with a fully specified template already in the prompt, not a coding/build/debug task.
-
-A few notes before the report: `original_indications` and `original_moa` are empty/gap in this evidence pack, and `taiwan_regulatory.licenses` is empty (0 ARTG entries, market status "not marketed"). I've represented these as genuine data gaps rather than inventing values. I've also kept the evidence pack's own critical assessment intact — the pack's `repurposing_rationale` explicitly flags the top prediction as a likely knowledge-graph label mismatch, and ranks 2–4 as potential *contraindications* (thrombophilia) rather than opportunities. That's safety-relevant, so I've added a short supplementary table for ranks 2–10 rather than silently dropping it.
-
----
-
-# Tranexamic Acid: From Unspecified Original Indication to Amenorrhea
+# Tranexamic Acid: From Endometriosis to Amenorrhoea
 
 ## One-Sentence Summary
 
-> Tranexamic acid (DrugBank DB00302) is an antifibrinolytic agent, but its formally documented original indication and mechanism of action are not available in this evidence pack.
-> The TxGNN model's top prediction is **Amenorrhea (disease)**, supported by **0 clinical trials** and **2 review articles**.
-> The evidence pack's own mechanistic analysis flags this specific prediction as likely reflecting a knowledge-graph labelling mismatch rather than a genuine therapeutic signal — the supporting literature actually concerns *reducing* menstrual bleeding, not treating its absence.
+Tranexamic acid is an antifibrinolytic agent. The knowledge graph records its original indication as endometriosis, although it is best known clinically for bleeding control, including heavy menstrual bleeding.
+The TxGNN model predicts it may be effective for **amenorrhoea**, but only **2 review articles** and **no clinical trials** are available, and neither article supports it as a treatment for amenorrhoea.
+The prediction should be treated as a research question, not a therapeutic lead.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack |
-| Predicted New Indication | Amenorrhea (disease) — flagged as likely data/label mismatch (see below) |
+| Original Indication | Endometriosis (per the knowledge graph). The Australian ARTG entry has no approved indication text recorded in the data compiled for this report. |
+| Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 99.19% |
-| Evidence Level | L4 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 (review literature only, no trials; the mechanistic link is indirect) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for tranexamic acid was not returned in this evidence pack (drug-level data gap, DrugBank query pending). However, the pack's mechanistic rationale for this specific prediction describes tranexamic acid as a lysine analogue that reversibly binds the lysine-binding site of plasminogen, inhibiting plasmin generation — i.e. it is an antifibrinolytic that **reduces** bleeding. Its established clinical role (per the supporting literature) is in *heavy* menstrual bleeding (abnormal uterine bleeding) and menses suppression in patients with treatment-related cytopenias.
+Detailed mechanism of action data is not available in the data compiled for this report. Tranexamic acid is generally understood to be a lysine analogue that blocks plasminogen binding to fibrin, which reduces fibrinolysis and bleeding.
 
-This creates a directional inconsistency with the predicted indication of **amenorrhea** (absence of menstruation). Both cited papers discuss managing excessive or unwanted bleeding, not restoring absent menstruation — the opposite clinical problem. The evidence pack's own analysis concludes this is most likely a knowledge-graph node/ontology mismatch, where the TxGNN disease node labelled "amenorrhea" may actually cluster with "abnormal uterine bleeding / menorrhagia" concepts. This should be verified against the disease ontology ID before this candidate is treated as a genuine repurposing signal, rather than accepted at face value from the model score alone.
+The relationship between the original and predicted indications is weak. Tranexamic acid reduces menstrual blood loss but does not induce amenorrhoea (absence of menses). Both retrieved papers discuss it within bleeding-management strategies, not as a treatment for amenorrhoea itself. The high TxGNN score most likely reflects shared gynaecological bleeding-disorder context in the knowledge graph rather than a true therapeutic signal. Treating absent menses with an agent that reduces bleeding is mechanistically questionable.
+
+Other predictions in the list are also poorly supported. The thrombophilia-related predictions (heparin cofactor 2 deficiency, factor 5 excess with spontaneous thrombosis, antithrombin deficiency type 2) are mechanistically implausible and raise safety concerns. An antifibrinolytic would be expected to increase, not reduce, thrombotic risk. The remaining lower-scoring predictions (scores of about 0.67–0.68, e.g. hypospadias, glaucoma with elevated episcleral venous pressure) have no plausible mechanistic link and no supporting evidence.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | Menopause (New York, N.Y.) | Evidence-based review of pharmacological therapies for abnormal uterine bleeding; concerns *reducing* bleeding, not treating amenorrhea |
-| [39043214](https://pubmed.ncbi.nlm.nih.gov/39043214/) | 2024 | Review | J Oncol Pharm Pract | Systematic approach to menses prophylaxis and suppression in pre-menopausal haematologic cancer patients; again concerns bleeding *suppression* |
+| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | Menopause | Evidence-based review of pharmacological therapy for abnormal uterine bleeding. Treatment choice depends on cause, bleeding volume, contraception or fertility needs, and perimenopausal status. It does not establish a role in amenorrhoea. |
+| [39043214](https://pubmed.ncbi.nlm.nih.gov/39043214/) | 2024 | Review | J Oncol Pharm Pract | Systematic approach to menses prophylaxis and suppression in premenopausal women with haematological cancers. It notes limited comparative data on available agents. |
+
+---
 
 ## Australia Market Information
 
-Tranexamic acid has no ARTG entries recorded in this evidence pack (market status: Not Marketed, 0 licenses). No product/dosage form data is available to summarise.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 2180R | Cyklokapron | Tablet 500 mg (oral) | Not recorded in the data compiled for this report |
 
-## Other Predicted Indications (Ranks 2–10) — Supplementary Safety Context
-
-All remaining predictions also carry a **Hold** recommendation. Several are noted in the evidence pack as *directionally contraindicated* rather than therapeutic opportunities, which is important context for anyone reviewing this candidate:
-
-| Rank | Disease | Score | Evidence Level | Note |
-|------|---------|-------|-----------------|------|
-| 2 | Heparin cofactor II deficiency | 96.50% | L5 | Thrombophilia — antifibrinolytic could theoretically *increase* thrombotic risk; cited literature is a safety-signal paper, not efficacy evidence |
-| 3 | Factor V excess with spontaneous thrombosis | 95.21% | L5 | Thrombophilia; no literature; same directionality concern as above |
-| 4 | Antithrombin deficiency type 2 | 94.32% | L5 | Thrombophilia; no literature; same directionality concern as above |
-| 5 | Hypospadias 3, autosomal | 68.38% | L5 | No plausible mechanistic link; likely KG noise |
-| 6 | Sella turcica, bridged | 68.38% | L5 | No plausible mechanistic link; likely KG noise |
-| 7 | Triphalangeal thumb, nonopposable | 68.38% | L5 | No plausible mechanistic link; likely KG noise |
-| 8 | Hypercarotenemia and vitamin A deficiency (AR) | 68.35% | L5 | No plausible mechanistic link; likely KG noise |
-| 9 | Primary hyperparathyroidism (water clear cell hyperplasia) | 68.01% | L5 | No plausible mechanistic link; likely KG noise |
-| 10 | Glaucoma with elevated episcleral venous pressure | 66.78% | L5 | Weak, unverified mechanistic hypothesis; no supporting evidence |
+---
 
 ## Safety Considerations
 
-The blocking data gap for TGA/local product safety information (warnings, contraindications) has not yet been resolved for tranexamic acid in this evidence pack, and a drug interaction search returned no results. Please refer to the TGA-approved Product Information (PI) for safety information once tranexamic acid's registration status in Australia is confirmed. Note that ranks 2–4 above (thrombophilia-related conditions) should be treated as potential **safety red flags**, not efficacy leads, pending pharmacological review.
+- **Contraindications suggested by the knowledge graph** (drug-disease links in the graph, not label text; they need confirmation against the Product Information):
+  - Cardiovascular and thrombotic: hypertension, coronary artery disease, stroke and cerebrovascular disorders, thrombophlebitis
+  - Hormone-sensitive cancers: female breast carcinoma, endometrial cancer
+  - Metabolic: diabetes mellitus, diabetic ketoacidosis, hyperglycaemia, hyperlipidaemia, hypertriglyceridaemia, obesity
+  - Hepatic and biliary: liver disease, gallbladder disease
+  - Porphyria
+  - Neurological and psychiatric: migraine, brain oedema, anxiety and neurotic disorders, dysthymic disorder
+- **Drug Interactions** (35 interactions identified; the first 20 are listed in the data compiled for this report):
+  - **Major**: oestrogens and hormonal contraceptives (ethinylestradiol, estradiol, conjugated and esterified oestrogens, estrone, diethylstilbestrol, norethisterone, drospirenone, etonogestrel), estramustine, carfilzomib, anti-inhibitor coagulant complex, and Factor IX complex. The main concern is additive thrombotic risk.
+  - **Moderate**: thrombolytics (alteplase, anistreplase), which have opposing pharmacological effects.
+- **Thrombosis risk**: the 1991 case series (PMID 1782339) describes drugs, particularly oral contraceptives, triggering thrombosis in patients with congenital coagulation-inhibitor defects. This is safety context, not therapeutic evidence.
+
+Please refer to the TGA-approved Product Information (PI) for the full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- A blocking data gap (local product warnings/contraindications) currently prevents this candidate from entering safety pre-screening (S1).
-- The top-ranked prediction (amenorrhea) is mechanistically inconsistent with the supporting literature and is flagged by the pack's own analysis as a probable knowledge-graph label mismatch rather than a genuine signal.
-- Several lower-ranked predictions represent thrombophilic conditions where an antifibrinolytic is more plausibly contraindicated than therapeutic, and the remainder are low-score, biologically implausible outputs consistent with model noise.
+The TxGNN score is high, but there are no clinical trials, only two reviews that do not support use for amenorrhoea, and a mechanism that points the other way (reducing bleeding, not restoring menses). Several of the other predictions are thrombophilic conditions where an antifibrinolytic could cause harm.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (TFDA/TGA-equivalent PI warnings and contraindications) before any safety pre-screening
-- Resolve DG002 (confirmed mechanism of action and documented original indication) from DrugBank
-- Verify the disease ontology ID behind the "amenorrhea (disease)" TxGNN node against the source knowledge graph, to confirm whether the intended target is actually abnormal uterine bleeding / menorrhagia
-- Pharmacological/thrombosis-risk review before any further consideration of ranks 2–4
+- Detailed mechanism of action data
+- A clear clinical rationale for how an antifibrinolytic could benefit amenorrhoea, or a reassessment of whether the prediction reflects a graph artefact
+- The TGA Product Information, to confirm approved indications, warnings and contraindications
+- Mechanistic and clinical evidence (preclinical or clinical studies) before any further evaluation
+- A thrombosis risk assessment, particularly for patients using hormonal therapy
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

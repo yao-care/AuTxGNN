@@ -2,7 +2,7 @@
 layout: default
 title: Maraviroc
 parent: Model Prediction Only (L5)
-nav_order: 414
+nav_order: 446
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Maraviroc: From HIV-1 Infection to HER2-Positive Breast Carcinoma
+# Maraviroc: From HIV-1 Infection (CCR5-Tropic) to Multiple Endocrine Neoplasia
 
 ## One-Sentence Summary
 
-Maraviroc is a CCR5 antagonist (entry inhibitor) originally developed for HIV-1 infection. Of the 10 TxGNN-predicted repurposing candidates screened in this evidence pack, **HER2-positive breast carcinoma** stands out as the only one with a specific, testable molecular rationale — a preclinical study shows CCR5 signalling drives trastuzumab resistance in HER2+ tumours — though currently supported by **1 preclinical mechanistic paper and no clinical trials**. The other 9 candidates (including the top TxGNN-scored "multiple endocrine neoplasia") were reviewed and largely rejected for lacking any biological plausibility or supporting evidence.
-
----
+Maraviroc is an oral CCR5 antagonist marketed in Australia as a 150 mg tablet. The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but **no clinical trials** and **no publications** currently support this prediction. It is a model-only prediction, and a different candidate (HER2-positive breast carcinoma) has far more biological support.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (CCR5 antagonist/entry inhibitor) — not sourced from Australian regulatory data, as maraviroc is not ARTG-listed |
-| Predicted New Indication | HER2-positive breast carcinoma |
-| TxGNN Prediction Score | 99.22% |
-| Evidence Level | L4 (preclinical mechanistic study only) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Original Indication | Not stated in the data compiled for this report (the registered entry lists no indication text). Maraviroc is generally known as a CCR5 antagonist used in HIV-1 infection. |
+| Predicted New Indication | Multiple endocrine neoplasia |
+| TxGNN Prediction Score | 99.82% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for maraviroc is not available in this evidence pack (flagged as a High-severity data gap). Based on known information, maraviroc is a CC-chemokine receptor 5 (CCR5) antagonist used as an entry inhibitor in combination antiretroviral therapy for HIV-1 infection; it blocks the interaction between the HIV-1 envelope glycoprotein gp120 and host CCR5, preventing viral entry.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, maraviroc is a CCR5 antagonist. It blocks a chemokine receptor involved in immune-cell trafficking and signalling.
 
-The repurposing hypothesis for HER2-positive breast carcinoma is more specific than for the other 9 candidates in this pack. A preclinical mechanistic study (PMID 32404410) found that HER2-positive breast cancer cells can autocrine-secrete CCL5 (RANTES), the principal ligand of CCR5, which activates a CCR5→ERK signalling loop that drives resistance to trastuzumab (an anti-HER2 antibody). Since maraviroc directly blocks CCR5, there is a plausible — though not yet directly tested — mechanism by which it could interrupt this autocrine resistance loop and restore or enhance trastuzumab sensitivity.
+For multiple endocrine neoplasia (MEN), no established link between CCR5 signalling and the disease was identified. MEN is driven by MEN1 or RET alterations, which are not obviously related to CCR5. The prediction therefore appears to be a statistical output of the model rather than a mechanistically supported hypothesis.
 
-By contrast, the other candidates in this screening round were reviewed and found weaker: the top TxGNN-ranked prediction (multiple endocrine neoplasia) has no known biological connection to CCR5/chemokine signalling and is assessed in the pack itself as a likely embedding artefact, with zero supporting trials or literature. Two cutaneous T-cell lymphoma variants have only an indirect literature link (a review of ACKR1, a different atypical chemokine receptor, not CCR5/maraviroc specifically). No candidate in this set has advanced past early screening, and HER2-positive breast carcinoma is the only one to reach decision stage S1.
-
----
+Other predictions for this drug are better grounded. The strongest is **HER2-positive breast carcinoma** (score 99.22%). A preclinical study (PMID 32404410) reported that autocrine CCL5 drives trastuzumab resistance through ERK pathway activation. CCL5 signals via CCR5, so CCR5 blockade is a coherent hypothesis. This is preclinical and indirect, and it warrants laboratory validation before any clinical consideration. Cutaneous T-cell lymphoma also has a plausible chemokine-trafficking rationale, but only an indirect review supports it.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for multiple endocrine neoplasia. None were found for any of the other top-10 predicted indications either.
 
 ## Literature Evidence
 
+Currently no related literature available for multiple endocrine neoplasia.
+
+For context, the following publications relate to other predicted indications and are indirect:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32404410](https://pubmed.ncbi.nlm.nih.gov/32404410/) | 2020 | Preclinical mechanistic study | Molecular Cancer Therapeutics | Autocrine CCL5 secretion in HER2+ breast cancer activates CCR5→ERK signalling, mediating resistance to trastuzumab |
-
----
+| [32404410](https://pubmed.ncbi.nlm.nih.gov/32404410/) | 2020 | Preclinical | Mol Cancer Ther | Autocrine CCL5 mediates trastuzumab resistance via ERK activation in HER2-positive breast cancer (CCR5 pathway relevance) |
+| [37006247](https://pubmed.ncbi.nlm.nih.gov/37006247/) | 2023 | Review | Front Immunol | Review of targeting ACKR1 (an atypical chemokine receptor) in cancer and other diseases; indirect, relevant to cutaneous T-cell lymphoma predictions |
+| [25397464](https://pubmed.ncbi.nlm.nih.gov/25397464/) | 2014 | Cohort | J Int AIDS Soc | Innate immunity and metabolic markers in HIV+ patients on ART; indirect, linked to the cytomegalovirus prediction |
+| [21671545](https://pubmed.ncbi.nlm.nih.gov/21671545/) | 2011 | Review | Am Fam Physician | Adverse effects of antiretroviral therapy in HIV; candidiasis appears as HIV context, not a maraviroc effect |
 
 ## Australia Market Information
 
-Maraviroc is **not currently marketed in Australia** — there are no ARTG entries for this drug in the evidence pack, and no Australian Product Information exists to draw on. Overseas-approved labelling (e.g. FDA/EMA) would need to be consulted as a starting reference if this candidate progresses.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10318C | Maraviroc Waymade | Tablet 150 mg | Not stated in the compiled data |
 
 ## Safety Considerations
 
-No specific safety data (key warnings, contraindications, or drug interactions) is available in this evidence pack, and this is flagged as a **Blocking** data gap (TFDA/TGA-equivalent product information not yet obtained) — meaning safety cannot be formally assessed at this stage. Since maraviroc is not marketed in Australia, there is no local Product Information to fall back on; overseas-approved labelling should be sourced before any further evaluation.
+- **Disease-level cautions from the knowledge graph** (these are model-derived contraindication links, not label text): multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, kidney disease (including chronic and end-stage), liver disease (including drug-induced liver injury, chronic hepatitis B and hepatitis C infection), gallbladder disease, coronary artery disease, myocardial infarction and ischaemia, coronary thrombosis, hemoglobinopathy, and pyoureter.
+- **Drug Interactions**: 93 interactions were recorded. The one rated **Major** among those listed is **clarithromycin**. Many others are rated Moderate, including aprepitant, dexamethasone, cimetidine, cobicistat, clotrimazole, miconazole, eliglustat, naltrexone, rolapitant, deferasirox, promethazine and epoprostenol.
 
----
+Product Information warnings and contraindications were not available in the compiled data. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale (CCL5/CCR5/ERK-driven trastuzumab resistance) is specific and testable, but it comes from a single preclinical study that did not test maraviroc itself — no clinical trials exist, the drug is not marketed in Australia, and safety/MOA data gaps are currently blocking (DG001) or high-severity (DG002).
+The prediction for multiple endocrine neoplasia rests on a model score alone (L5), with no trials, no literature and no plausible mechanistic link to CCR5 antagonism. The data compiled also lacked label safety information and the original indication text.
 
 **To proceed, the following is needed:**
-- Resolve the blocking safety data gap: obtain TGA/overseas product information (warnings, contraindications) for maraviroc
-- Full mechanism of action profile (currently a documented data gap)
-- Direct experimental validation that maraviroc (not just CCR5 blockade generically) reverses trastuzumab resistance in HER2+ models
-- Assessment of the Australian regulatory pathway, since maraviroc has no existing ARTG registration
+- Mechanistic evidence linking CCR5 signalling to MEN pathogenesis, or preclinical studies testing maraviroc in MEN models
+- Mechanism of action data and the registered indication for the Australian product
+- Product Information warnings and contraindications, with review of the Major clarithromycin interaction and the liver, kidney and cardiovascular cautions
+- Consideration of redirecting effort to HER2-positive breast carcinoma (CCL5/CCR5 and trastuzumab resistance), which is the most biologically grounded candidate and would first need preclinical validation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

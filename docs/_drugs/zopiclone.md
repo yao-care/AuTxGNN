@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zopiclone
-parent: Moderate Evidence (L3-L4)
-nav_order: 739
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 797
+evidence_level: L5
 indication_count: 10
 ---
 
 # Zopiclone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Zopiclone: From Insomnia (International Use) to Sleep Disorder, Initiating and Maintaining Sleep
+# Zopiclone: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
 
 ## One-Sentence Summary
 
-> Zopiclone is a cyclopyrrolone-class "Z-drug" hypnotic used internationally for the short-term treatment of insomnia, though it is not currently registered on the ARTG in Australia.
-> TxGNN's top prediction for this drug is **Sleep Disorder, Initiating and Maintaining Sleep** — essentially insomnia itself —
-> supported by **1 clinical trial** and **20 publications**, most of which validate the drug's already-known pharmacology rather than reveal a genuinely novel indication.
+Zopiclone is a Z-drug hypnotic originally used to treat insomnia.
+The TxGNN model predicts it may be effective for **sleep disorder, initiating and maintaining sleep**, but this is essentially the same as its existing indication rather than a true repurposing.
+Currently there are **no registered clinical trials** but **20 publications** (including several systematic reviews, network meta-analyses and clinical guidelines) supporting this direction.
 
 ---
 
@@ -43,33 +43,29 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not captured in Australian regulatory data; zopiclone is internationally recognised for short-term treatment of insomnia |
-| Predicted New Indication | Sleep Disorder, Initiating and Maintaining Sleep (Insomnia) |
+| Original Indication | Insomnia (from the TxGNN knowledge graph; no approved indication text is available for the ARTG entry) |
+| Predicted New Indication | Sleep disorder, initiating and maintaining sleep |
 | TxGNN Prediction Score | 98.83% |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
+| Evidence Level | L1 (as assigned in the data compiled for this report; see note below) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails |
+
+*Note on evidence level:* No clinical trials are registered in the data compiled for this report. The L1 level reflects the strength of the published systematic reviews, network meta-analyses and guidelines, not completed Phase 3 trials specific to this prediction. It should be read as supportive of the existing insomnia indication only.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for zopiclone in this evidence pack (flagged as a High-severity data gap). Based on the literature captured here (e.g., Atkin et al., *Pharmacological Reviews* 2018; Vecchierini & Léger, *La Revue du praticien* 2024), zopiclone is a cyclopyrrolone-class "Z-drug" that acts as a positive allosteric modulator at the GABA-A receptor complex — the same core pharmacology shared with zolpidem and eszopiclone, promoting sleep onset and maintenance through central nervous system sedation.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, zopiclone is a cyclopyrrolone Z-drug that acts as a positive allosteric modulator of the GABA-A receptor. This enhances inhibitory neurotransmission and promotes sleep onset and maintenance.
 
-Importantly, the top-ranked predicted indication — "sleep disorder, initiating and maintaining sleep" — is clinically synonymous with insomnia, zopiclone's globally established primary use. TxGNN has effectively recovered the drug's own known indication rather than identifying a genuinely novel repurposing target. This is a useful signal that the model's embedding captures real pharmacology correctly, but it does not, on its own, constitute a new therapeutic opportunity.
-
-The remaining nine predicted indications in this evidence pack (ranks 2–10, e.g., agoraphobia, inherited prion disease, Wernicke-Korsakoff syndrome, childhood absence epilepsy) were assessed as having no meaningful mechanistic link to zopiclone's GABAergic sedative action and carry no supporting clinical or literature evidence (Evidence Level L5, "Hold"). The one partial exception is **restless legs syndrome** (rank 8), where zopiclone's sedative effect may symptomatically improve sleep continuity in RLS patients, though it does not address the underlying dopaminergic/iron-metabolism pathology (Evidence Level L4, flagged as a "Research Question" rather than a candidate for progression).
+"Sleep disorder, initiating and maintaining sleep" is effectively the same condition as insomnia, which is zopiclone's established use. The high TxGNN score therefore mostly reflects recovery of a known indication rather than a new discovery. The published literature supports zopiclone's role in insomnia, while also highlighting limits such as dependence, abuse potential and next-day impairment.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06928766](https://clinicaltrials.gov/study/NCT06928766) | Phase 2 | Not yet recruiting | 15 | Comparing eszopiclone and lemborexant in patients with obstructive sleep apnoea and low arousal threshold who have difficulty initiating/maintaining sleep (comorbid insomnia and sleep apnoea, COMISA) |
-
-No ANZCTR-registered trials were identified for this indication.
+Currently no related clinical trials registered.
 
 ---
 
@@ -77,45 +73,70 @@ No ANZCTR-registered trials were identified for this indication.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35843245](https://pubmed.ncbi.nlm.nih.gov/35843245/) | 2022 | Systematic Review/NMA | Lancet | Network meta-analysis comparing pharmacological treatments for acute and long-term insomnia management |
-| [36947394](https://pubmed.ncbi.nlm.nih.gov/36947394/) | 2023 | Systematic Review/NMA | Drugs | Comparative effectiveness and safety of insomnia drugs across 153 randomised trials |
-| [36701954](https://pubmed.ncbi.nlm.nih.gov/36701954/) | 2023 | Systematic Review/NMA | Sleep Medicine Reviews | Efficacy and tolerability of pharmacological insomnia treatments, including Z-drugs |
-| [30303519](https://pubmed.ncbi.nlm.nih.gov/30303519/) | 2018 | Cochrane Review | Cochrane Database Syst Rev | Systematic review of eszopiclone (closely related Z-drug) for insomnia |
-| [38551874](https://pubmed.ncbi.nlm.nih.gov/38551874/) | 2024 | Review | La Revue du praticien | Reviews Z-drugs including zopiclone as first-line pharmacotherapy for sleep initiation, noting reduced adverse effects versus long-acting benzodiazepines |
-| [29487083](https://pubmed.ncbi.nlm.nih.gov/29487083/) | 2018 | Review | Pharmacological Reviews | Reviews GABAergic Z-drugs (zolpidem, zopiclone, zaleplon) and their side-effect profile (cognitive impairment, tolerance, rebound insomnia, dependence) |
-| [39923608](https://pubmed.ncbi.nlm.nih.gov/39923608/) | 2025 | Guideline/Consensus | Sleep Medicine | European expert consensus on switching/deprescribing hypnotics, naming zopiclone among GABAergic Z-drugs recommended for chronic insomnia |
-| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | Clinical Practice Guideline | J Clin Sleep Med | AASM guideline on pharmacologic treatment of chronic insomnia in adults |
-| [28671376](https://pubmed.ncbi.nlm.nih.gov/28671376/) | 2017 | Review | American Family Physician | Reviews insomnia pharmacotherapy; positions Z-drugs (including zopiclone) as second-line after first-line agents |
-| [30058034](https://pubmed.ncbi.nlm.nih.gov/30058034/) | 2018 | Review | Drugs & Aging | Recommendations for pharmacological management of insomnia in elderly patients |
+| [35843245](https://pubmed.ncbi.nlm.nih.gov/35843245/) | 2022 | Systematic review / network meta-analysis | Lancet | Compares pharmacological treatments for acute and long-term management of adult insomnia disorder |
+| [36947394](https://pubmed.ncbi.nlm.nih.gov/36947394/) | 2023 | Systematic review / network meta-analysis | Drugs | Network meta-analysis of 153 randomised trials on the effectiveness, safety and tolerability of insomnia drugs |
+| [34121443](https://pubmed.ncbi.nlm.nih.gov/34121443/) | 2021 | Network meta-analysis | J Manag Care Spec Pharm | Compares lemborexant with other insomnia treatments (zopiclone is among the comparators) |
+| [34023645](https://pubmed.ncbi.nlm.nih.gov/34023645/) | 2021 | Systematic review | Eur Neuropsychopharmacol | Reviews efficacy and safety of zopiclone for insomnia in older adults |
+| [41187937](https://pubmed.ncbi.nlm.nih.gov/41187937/) | 2025 | Clinical guideline | Arq Neuropsiquiatr | Brazilian guideline on Z-drug abuse and dependence; use recommended for no longer than four weeks |
+| [39923608](https://pubmed.ncbi.nlm.nih.gov/39923608/) | 2025 | Clinical guideline | Sleep Med | European consensus on switching or deprescribing hypnotics for chronic insomnia |
+| [29487083](https://pubmed.ncbi.nlm.nih.gov/29487083/) | 2018 | Review | Pharmacol Rev | Z-drugs have a strong evidence base for insomnia but carry cognitive impairment, tolerance, rebound insomnia, falls and dependence risks |
+| [38551874](https://pubmed.ncbi.nlm.nih.gov/38551874/) | 2024 | Review | Rev Prat | Z-drugs (zolpidem, zopiclone) promote sleep initiation with fewer harmful effects than long-acting benzodiazepines when used at the right time and dose |
+| [20945020](https://pubmed.ncbi.nlm.nih.gov/20945020/) | 2010 | Review | Rev Bras Psiquiatr | Z-drugs are GABA-A modulators selective for α1 subunits |
+| [34533440](https://pubmed.ncbi.nlm.nih.gov/34533440/) | 2022 | Review | Curr Pharm Des | Pharmacology and misuse potential of benzodiazepines and Z-drugs |
 
 ---
 
 ## Australia Market Information
 
-Zopiclone has **no ARTG entries** and is **not currently marketed in Australia** (0 registered listings). No dosage forms, brand names, or TGA-approved indication text are available in this evidence pack.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13307J | Imovane | Tablet 7.5 mg (oral) | Approved indication text not available in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-No TGA-approved Product Information exists for zopiclone, as the drug is not currently registered in Australia. Key warnings, contraindications, and drug–drug interaction data in this evidence pack are all flagged as data gaps (including a **Blocking**-severity gap on TFDA-equivalent warning/contraindication data, which prevents formal safety screening).
+**Contraindication-related conditions (from drug–disease knowledge graph data, not label text):** liver failure, anxiety disorder, neurotic disorder, dysthymic disorder.
 
-Prescribers and reviewers should be aware, from general Z-drug class knowledge, of common safety concerns applicable to zopiclone: next-day residual sedation, complex sleep-related behaviours, tolerance/dependence with prolonged use, and additive CNS depression with other sedatives, alcohol, or opioids. These should be confirmed against an overseas reference Product Information (e.g., UK MHRA or EU EMA SmPC) pending Australian-specific data.
+**Drug Interactions:** 100 potential interactions were identified, but none has a severity grading (all are recorded as "Unknown"). Examples include morphine, scopolamine, metformin, glimepiride, pantoprazole, omeprazole and prednisone. Clinical significance cannot be determined from this data, particularly for additive CNS depression with opioids.
+
+**Literature-derived cautions:** dependence and abuse potential, rebound insomnia on discontinuation, next-day cognitive impairment, falls and car accidents (especially in older adults). Short-term use only (generally up to four weeks) is recommended.
+
+Please refer to the TGA-approved Product Information (PI) for authoritative warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-A Blocking-severity data gap (no TFDA/PI-equivalent warnings or contraindications) prevents the drug from entering S1 safety screening, and zopiclone currently has zero ARTG entries with no Australian market presence. Furthermore, the top prediction reproduces the drug's own well-established international indication (insomnia) rather than identifying a genuinely novel repurposing opportunity, so the primary value here is model validation rather than a new clinical hypothesis.
+The predicted indication is effectively the same as zopiclone's established use in insomnia, and is supported by systematic reviews, network meta-analyses and recent guidelines. It is not a true repurposing, and safety concerns around dependence and next-day impairment require guardrails.
 
 **To proceed, the following is needed:**
-- Obtain zopiclone Product Information/SmPC from a reference regulator (e.g., UK MHRA, EU EMA) to complete the safety and DDI profile
-- Confirm TGA registration status and pathway (import approval vs. new ARTG registration), given 0 current listings
-- Query DrugBank for confirmed mechanism of action to complete the mechanistic-relevance assessment
-- If pursuing a genuine repurposing angle, evaluate the lower-ranked restless legs syndrome candidate (rank 8, Evidence Level L4) further, while recognising it currently lacks direct clinical trial support and offers symptomatic (not disease-modifying) benefit only
+- The approved indication text and PI warnings and contraindications for the ARTG entry (Imovane)
+- Detailed mechanism of action data
+- Clarification of the severity of the 100 listed drug interactions, especially with other CNS depressants
+- A deprescribing and short-term-use plan consistent with the 2025 Z-drug guidance
+- Special-population precautions (older adults, hepatic impairment, anxiety and mood disorders)
+
+---
+
+### Other Predictions (Not Recommended for Progression)
+
+For completeness, the other nine predicted indications have no clinical trial evidence and are rated Hold, except restless legs syndrome:
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision |
+|------|------|------|------|------|
+| 2 | Acute encephalopathy with biphasic seizures and late reduced diffusion | 90.43% | L5 | Hold |
+| 3 | Benign paroxysmal torticollis of infancy | 81.96% | L5 | Hold |
+| 4 | Agoraphobia | 81.16% | L5 | Hold |
+| 5 | Inherited prion disease | 74.13% | L5 | Hold |
+| 6 | Wernicke-Korsakoff syndrome | 70.14% | L5 | Hold |
+| 7 | Childhood absence epilepsy, susceptibility to | 68.56% | L5 | Hold (GABA-A enhancement may aggravate absence seizures) |
+| 8 | Restless legs syndrome | 64.91% | L4 | Research question (indirect support only; may help secondary insomnia, not core RLS pathophysiology) |
+| 9 | Mitral valve prolapse, myxomatous | 64.74% | L5 | Hold |
+| 10 | Primary hyperparathyroidism due to water clear cell hyperplasia | 64.04% | L5 | Hold |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

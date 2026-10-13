@@ -2,7 +2,7 @@
 layout: default
 title: Avatrombopag
 parent: Model Prediction Only (L5)
-nav_order: 68
+nav_order: 73
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,90 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Avatrombopag: From Thrombocytopenia to Marcothrombocytopenia with Mitral Valve Insufficiency
+# Avatrombopag: From Thrombocytopenia to Macrothrombocytopenia with Mitral Valve Insufficiency
 
 ## One-Sentence Summary
 
-Avatrombopag (Doptelet) is an oral thrombopoietin receptor agonist (TPO-RA) approved internationally for thrombocytopenia in adults with chronic liver disease undergoing procedures, and for chronic immune thrombocytopenia (ITP).
-The TxGNN model predicts it may be effective for **Marcothrombocytopenia with Mitral Valve Insufficiency**, a rare syndrome combining giant-platelet thrombocytopenia with structural cardiac valve disease.
-Currently, **no clinical trials** and **no publications** specifically supporting this combination have been identified, meaning this prediction rests entirely on model inference.
-
----
+Avatrombopag is an oral thrombopoietin receptor agonist, originally used to treat thrombocytopenia.
+The TxGNN model predicts it may be effective for **macrothrombocytopenia with mitral valve insufficiency**,
+but there are currently **no clinical trials** and **no publications** supporting this prediction. It is a model-based prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Thrombocytopenia associated with chronic liver disease (pre-procedural) and chronic ITP |
-| Predicted New Indication | Marcothrombocytopenia with Mitral Valve Insufficiency |
-| TxGNN Prediction Score | 99.995% (global rank #147) |
-| Evidence Level | L5 — Model prediction only; no supporting clinical or preclinical studies identified |
-| Australia Market Status | Not Marketed in Australia |
-| Number of ARTG Entries | 0 |
+|------|------|
+| Original Indication | Thrombocytopenia (from the knowledge graph; no approved indication text is recorded in the Australian licence data) |
+| Predicted New Indication | Macrothrombocytopenia with mitral valve insufficiency |
+| TxGNN Prediction Score | 99.995% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Avatrombopag is a small-molecule TPO receptor agonist (TPO-RA) that binds to the transmembrane domain of the thrombopoietin receptor (c-MPL) and stimulates megakaryocyte proliferation and differentiation in the bone marrow, ultimately increasing platelet production. This mechanism is pharmacologically distinct from other TPO-RAs such as eltrombopag (which binds the extracellular domain) and romiplostim (a peptibody).
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the drug's known class, avatrombopag is a thrombopoietin receptor (TPO-R/c-Mpl) agonist. It stimulates megakaryocyte proliferation and platelet production, which is why it is used in thrombocytopenia.
 
-The core feature of Marcothrombocytopenia with Mitral Valve Insufficiency is giant-platelet thrombocytopenia (macrothrombocytopenia), which involves both reduced platelet counts and abnormally enlarged platelets — characteristics that overlap mechanistically with the conditions Avatrombopag is already approved for. Since Avatrombopag stimulates platelet production via the TPO/c-MPL axis, it is plausible that it could partially address the quantitative platelet deficit component of this syndrome. The TxGNN knowledge graph likely connects this indication through the shared thrombocytopenia node and the TPO pathway.
+The TxGNN prediction most likely reflects the shared thrombocytopenia feature between the original and predicted conditions. However, inherited macrothrombocytopenia often arises from defects in megakaryocyte maturation or cytoskeletal genes, so TPO-R agonism may only partly address the underlying cause. The mitral valve component is not plausibly affected by the drug.
 
-However, a critical limitation must be highlighted: Marcothrombocytopenia with Mitral Valve Insufficiency (as seen in MYH9-related disorders or similar genetic syndromes) involves underlying structural and functional platelet defects driven by cytoskeletal gene mutations. Increasing platelet numbers via TPO-RA stimulation may not correct the intrinsic functional abnormalities of these giant platelets. Furthermore, the concurrent mitral valve insufficiency component is unrelated to platelet biology and would require independent management. The mechanistic relevance of Avatrombopag to this syndrome is therefore assessed as **moderate** — plausible for the quantitative platelet component, uncertain for functional correction.
+The prediction rests on graph similarity alone, with no supporting clinical or literature evidence.
 
----
+### Other Predicted Indications (Context)
+
+The remaining top-ranked predictions also have no trials or literature, and all are rated L5 with a Hold recommendation.
+
+| Rank | Predicted Indication | Score | Assessment |
+|------|------|------|------|
+| 2 | Hereditary thrombocytopenia with normal platelets | 99.995% | Biologically plausible, since TPO-R agonism may raise platelet counts. Response likely depends on genotype. |
+| 3 | Transient neonatal thrombocytopenia | 99.995% | Self-limiting condition and no established neonatal safety data, so the risk-benefit balance is unfavourable. |
+| 4 | Dense granule disease | 99.995% | A platelet function defect rather than a count problem. Weak rationale, and thrombotic risk is an added concern. |
+| 5-10 | Amyotrophic lateral sclerosis (and susceptibility entry), bilateral parasagittal parieto-occipital polymicrogyria, lower motor neuron syndrome with late-adult onset, Mills syndrome, monomelic amyotrophy | 99.990-99.993% | No plausible mechanistic link. Likely graph-topology artefacts. |
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for the combination of Avatrombopag and Marcothrombocytopenia with Mitral Valve Insufficiency.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for the combination of Avatrombopag and Marcothrombocytopenia with Mitral Valve Insufficiency.
-
----
+Currently no related literature available.
 
 ## Australia Market Information
 
-Avatrombopag is **not currently listed on the Australian Register of Therapeutic Goods (ARTG)**. As of the data cut-off date (5 April 2026), no ARTG entries have been identified for this drug.
-
-> **Note for clinicians:** Avatrombopag (brand name Doptelet®) is approved by the US FDA (2018) and the EMA for CLD-related thrombocytopenia and ITP. Australian clinicians wishing to access this medicine would need to apply via the TGA Special Access Scheme (SAS) or Authorised Prescriber pathway.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13313Q | Doptelet | Tablet 20 mg (oral) | Not recorded in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA Special Access Scheme documentation and the internationally approved Product Information (PI) for comprehensive safety information, as no Australia-specific TGA Product Information is available for this unlisted medicine.
+- **Drug Interactions**: 52 interactions were identified. The first 20 are listed below.
+  - **Major**: fosphenytoin, carbamazepine, carfilzomib, dabrafenib, enzalutamide, fluconazole, imatinib
+  - **Moderate**: clarithromycin, nitisinone, cobicistat, fosamprenavir, gemfibrozil, fenofibrate, apalutamide, atazanavir, amprenavir, boceprevir, ceritinib, delavirdine, idelalisib
+- **Class concern**: Thrombotic risk is a recognised concern with TPO-R agonists, particularly relevant to conditions involving platelet function defects.
+- **Paediatric/neonatal use**: No established safety data.
 
-For reference, key safety considerations known from international approvals include:
-- **Thrombotic/thromboembolic risk**: As with all TPO-RAs, excessive platelet stimulation may increase thrombotic risk; platelet count monitoring is required.
-- **Portal vein thrombosis**: Of particular relevance in the CLD-related thrombocytopenia indication.
-- **Drug interactions**: Avatrombopag is a substrate of CYP2C9 and CYP3A; interactions with inducers/inhibitors may alter drug exposure.
-
----
+Warnings and contraindications from the product label were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction is supported by a plausible mechanistic hypothesis (TPO-RA activity addressing the quantitative platelet deficit in macrothrombocytopenia) but is currently at Evidence Level L5 — model inference only, with zero clinical trials and zero publications directly supporting this specific indication. Additionally, Avatrombopag is not registered in Australia, meaning both regulatory and clinical evidence gaps must be addressed before any repurposing pathway can be meaningfully evaluated.
+All predictions are supported only by the TxGNN model score, with no clinical trials or publications (Evidence Level L5). The leading prediction, macrothrombocytopenia with mitral valve insufficiency, combines a partly plausible platelet-count mechanism with a cardiac feature the drug is not expected to affect. The most biologically credible candidate is hereditary thrombocytopenia with normal platelets, though it still lacks supporting evidence.
 
 **To proceed, the following is needed:**
-
-- **Mechanism clarification**: Confirm whether Avatrombopag improves platelet counts in MYH9-related or other genetic macrothrombocytopenias — literature review of TPO-RA use in hereditary thrombocytopenias broadly would be a useful starting point.
-- **Genetic subtype mapping**: Identify the specific genetic aetiology of the target patient population (e.g., MYH9, FLNA, or other loci), as TPO-RA responsiveness varies significantly by subtype.
-- **Clinical case series or registry data**: Search for case reports or compassionate use data on TPO-RA (any class) use in macrothrombocytopenia with structural cardiac defects.
-- **Safety data retrieval**: Obtain the full international PI for Avatrombopag (Doptelet) to assess contraindications and warnings relevant to this population.
-- **TGA regulatory pathway assessment**: If evidence from the above steps is encouraging, evaluate whether a TGA Special Access Scheme Category B application or an Authorised Prescriber arrangement is appropriate for compassionate use in a named patient.
-- **Cardiac specialist input**: Assess whether the mitral valve insufficiency component of this syndrome introduces additional thrombotic risk that would contraindicate a TPO-RA approach.
-
----
-
-> ⚠️ **Disclaimer**: This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. Clinicians should consult current TGA-approved product information and exercise independent professional judgement.
+- Product Information warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- Literature review and case reports of TPO-R agonist use in inherited thrombocytopenias, including genotype-specific responses
+- Clarification of the approved indication text for the Australian ARTG entry
+- Consideration of hereditary thrombocytopenia as a more promising lead before further work on the top-ranked prediction
+- Thrombotic risk assessment for the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,15 +2,15 @@
 layout: default
 title: Lanadelumab
 parent: High Evidence (L1-L2)
-nav_order: 381
-evidence_level: L2
+nav_order: 410
+evidence_level: L1
 indication_count: 10
 ---
 
 # Lanadelumab
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,97 +29,87 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Lanadelumab: From Hereditary Angioedema Prophylaxis to C1 Inhibitor Deficiency
+# Lanadelumab: From Hereditary Angioedema to C1 Inhibitor Deficiency
 
 ## One-Sentence Summary
 
-Lanadelumab is a fully human monoclonal antibody that inhibits plasma kallikrein, globally established for long-term prophylaxis of hereditary angioedema (HAE) attacks, but it is **not currently registered on Australia's ARTG**. The TxGNN model's top-ranked prediction for this drug is **C1 inhibitor deficiency** — essentially its already-recognised primary indication overseas — supported by **22 clinical trials** (including a pivotal placebo-controlled Phase 3 RCT) and **20 publications** identified in this evidence pack. Because this candidate largely confirms an existing indication rather than revealing a novel mechanistic link, the key open question for Australia is market registration and safety documentation, not efficacy.
-
----
+Lanadelumab is a monoclonal antibody originally used to prevent attacks of hereditary angioedema (HAE).
+The TxGNN model predicts it may be effective for **C1 inhibitor deficiency**, with **5 clinical trials** and **20 publications** currently supporting this direction.
+Note that C1 inhibitor deficiency is the underlying cause of the approved HAE indication, so this is a confirmation of an existing use rather than a true repurposing finding.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hereditary Angioedema (HAE) prophylaxis — not ARTG-registered; established from literature evidence in this pack (see below), as structured original-indication and MOA fields were not available |
+| Original Indication | Hereditary angioedema (including HAE with C1-inhibitor deficiency) |
 | Predicted New Indication | C1 inhibitor deficiency |
-| TxGNN Prediction Score | 99.9955% (internal rank 142) |
-| Evidence Level | L2 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
-
----
+| TxGNN Prediction Score | 99.996% |
+| Evidence Level | L1 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available in the structured `original_moa` field (data gap). However, the literature evidence attached to this candidate consistently describes lanadelumab as a fully human monoclonal antibody that inhibits plasma kallikrein, thereby blocking excessive bradykinin production within the kallikrein-kinin pathway (PMID 30267321). This pathway is directly dysregulated in hereditary angioedema caused by C1-inhibitor (C1-INH) deficiency or dysfunction, where insufficient C1-INH activity leads to uncontrolled kallikrein activity and bradykinin-mediated swelling.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, lanadelumab is a fully human monoclonal antibody that inhibits plasma kallikrein (target gene KLKB1).
 
-Importantly, "C1 inhibitor deficiency" is not a mechanistically distant new indication — it corresponds closely to the disease population (HAE Type I/II, due to C1-INH deficiency) for which lanadelumab (Takhzyro®) already holds approvals in multiple jurisdictions, including the US, EU, Japan, China and South Korea, as reflected in the trial evidence below. TxGNN's high-confidence score here should therefore be read as the model correctly recovering a well-established drug-disease relationship, rather than surfacing a genuinely novel repurposing hypothesis. The practical value of this candidate for Australia is that the drug is absent from the ARTG (0 entries, "Not Marketed"), meaning the open question is one of local registration and safety documentation, not of biological plausibility.
+In C1 inhibitor deficiency, loss of C1-INH function leaves plasma kallikrein unchecked. Excess bradykinin is then generated, and this causes the swelling attacks seen in HAE. Inhibiting kallikrein directly addresses this step. The predicted indication and the original indication therefore describe the same disease process, and the prediction is mechanistically sound.
 
----
+The other predicted indications are not supported (see the note at the end of the Conclusion).
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02586805](https://clinicaltrials.gov/study/NCT02586805) | Phase 3 | Completed | 125 | Pivotal placebo-controlled RCT (HELP Study): lanadelumab significantly reduced HAE attack rate vs placebo in Type I/II HAE |
-| [NCT02741596](https://clinicaltrials.gov/study/NCT02741596) | Phase 3 | Completed | 212 | HELP Study Extension: long-term open-label data confirming sustained safety and efficacy of prophylaxis |
-| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) | Phase 3 | Completed | 21 | SPRING study: PK/PD, safety and attack-reduction efficacy in paediatric patients aged 2 to <12 years |
-| [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | Phase 3 | Completed | 12 | Confirmed efficacy and safety of lanadelumab in Japanese HAE Type I/II patients |
-| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Phase 3 | Completed | 20 | Evaluated safety, PK and efficacy of lanadelumab in Chinese HAE patients over 26 weeks |
-| [NCT04687137](https://clinicaltrials.gov/study/NCT04687137) | Phase 3 | Completed | 12 | Japan expanded access program providing compassionate pre-licensure access for HAE patients |
-| [NCT04444895](https://clinicaltrials.gov/study/NCT04444895) | Phase 3 | Completed | 73 | Long-term safety/efficacy in non-histaminergic angioedema with normal C1-INH — a related but distinct HAE subtype |
-| [NCT03845400](https://clinicaltrials.gov/study/NCT03845400) | N/A (Observational) | Completed | 168 | EMPOWER study: real-world US/Canada cohort comparing HAE attack rates before and after initiation |
-| [NCT04130191](https://clinicaltrials.gov/study/NCT04130191) | N/A (Observational) | Completed | 140 | ENABLE study: three-year real-world data confirming sustained reduction in HAE attacks |
-| [NCT02093923](https://clinicaltrials.gov/study/NCT02093923) | Phase 1b | Completed | 38 | Multiple ascending dose study establishing early safety, tolerability and PK in HAE subjects |
+| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Phase 3 | Completed | 20 | Open-label study of safety, pharmacokinetics and efficacy over 26 weeks in Chinese patients with HAE |
+| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) (SPRING) | Phase 3 | Completed | 21 | Open-label paediatric study (2 to <12 years) of safety, pharmacokinetics and pharmacodynamics, and attack prevention |
+| [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | Phase 3 | Completed | 12 | Open-label study of efficacy and safety in Japanese patients with HAE type I or II |
+| [NCT05397431](https://clinicaltrials.gov/study/NCT05397431) | N/A | Active, not recruiting | 155 | Japanese post-marketing survey of long-term safety and symptom improvement with the 300 mg syringe |
+| [NCT04583007](https://clinicaltrials.gov/study/NCT04583007) | N/A | No longer available | N/A | Expanded access program for children aged 2 to <12 years with HAE and for non-histaminergic angioedema; provides access only, little efficacy evidence |
 
-*No ANZCTR (Australian New Zealand Clinical Trials Registry) entries were identified in this evidence pack.*
-
----
+No ANZCTR identifiers were included in the data compiled for this report.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | RCT | JAMA | Pivotal HELP Study: lanadelumab significantly reduced HAE attack frequency vs placebo |
-| [30267321](https://pubmed.ncbi.nlm.nih.gov/30267321/) | 2018 | Review | Drugs | First global approval review: lanadelumab as a plasma kallikrein inhibitor for HAE prevention |
-| [32187470](https://pubmed.ncbi.nlm.nih.gov/32187470/) | 2020 | Review | New England Journal of Medicine | Comprehensive review of HAE pathophysiology, diagnosis and treatment, including lanadelumab |
-| [39508959](https://pubmed.ncbi.nlm.nih.gov/39508959/) | 2024 | Systematic Review | Clinical Reviews in Allergy & Immunology | Review of breakthrough HAE attacks occurring in patients on long-term prophylaxis, incl. lanadelumab |
-| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | Review (Network Meta-Analysis) | Drugs in R&D | Network meta-analysis comparing efficacy/safety of HAE prophylactic therapies incl. lanadelumab |
-| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | Open-label Extension Study | Allergy | HELP OLE study: long-term effectiveness and safety of lanadelumab in HAE Type I/II |
-| [39701274](https://pubmed.ncbi.nlm.nih.gov/39701274/) | 2025 | Observational Study | J Allergy Clin Immunol Pract | Multicountry INTEGRATED study confirming real-world effectiveness of lanadelumab in HAE |
-| [37328263](https://pubmed.ncbi.nlm.nih.gov/37328263/) | 2023 | Observational Study | Allergy and Asthma Proceedings | Compared healthcare resource utilisation between lanadelumab and SC C1-INH concentrate users |
-| [30539362](https://pubmed.ncbi.nlm.nih.gov/30539362/) | 2019 | Review | BioDrugs | Review of preclinical and Phase I data supporting lanadelumab's kallikrein-inhibition mechanism |
-| [39836016](https://pubmed.ncbi.nlm.nih.gov/39836016/) | 2025 | Review (Indirect Treatment Comparison) | Journal of Comparative Effectiveness Research | Indirect comparison of lanadelumab vs C1-INH concentrate in paediatric HAE patients |
-
----
+| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | RCT | JAMA | Randomised trial of lanadelumab versus placebo for prevention of HAE attacks |
+| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | Open-label extension | Allergy | HELP OLE study of long-term effectiveness and safety in patients aged 12 years and over with HAE type 1/2 |
+| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | Network meta-analysis | Drugs in R&D | Indirect comparison of long-term prophylaxis options (garadacimab, lanadelumab, SC C1-INH, berotralstat) |
+| [30539362](https://pubmed.ncbi.nlm.nih.gov/30539362/) | 2019 | RCT (post hoc/subgroup analysis) | BioDrugs | Review of preclinical and phase I studies of lanadelumab in HAE with C1-INH deficiency |
+| [40504359](https://pubmed.ncbi.nlm.nih.gov/40504359/) | 2025 | Real-world study | Advances in Therapy | EMPOWER study: sustained effectiveness and safety up to 36 months |
+| [39836016](https://pubmed.ncbi.nlm.nih.gov/39836016/) | 2025 | Indirect comparison | J Comp Eff Res | Lanadelumab versus a C1-esterase inhibitor in children under 12 years |
+| [31560114](https://pubmed.ncbi.nlm.nih.gov/31560114/) | 2019 | Review | Drugs | Review of lanadelumab in HAE, noting approval in Australia for patients aged 12 years and over |
+| [30267321](https://pubmed.ncbi.nlm.nih.gov/30267321/) | 2018 | Review | Drugs | First global approval profile |
+| [39655944](https://pubmed.ncbi.nlm.nih.gov/39655944/) | 2024 | Review | Pediatr Allergy Immunol | Practical clinical management of HAE in children |
+| [33556593](https://pubmed.ncbi.nlm.nih.gov/33556593/) | 2021 | Case report | J Allergy Clin Immunol Pract | Efficacy of lanadelumab in acquired angioedema with C1-inhibitor deficiency |
 
 ## Australia Market Information
 
-Lanadelumab is currently **not registered on the ARTG (Australian Register of Therapeutic Goods)** — 0 entries were found in this evidence pack.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12790E | Takhzyro | Injection 300 mg in 2 mL single use pre-filled syringe | Not stated in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No key warnings, contraindications, or drug-drug interaction data were available in this evidence pack — this is flagged as a **Blocking data gap (DG001)** that must be resolved before any safety-stage assessment can proceed.
+- **Drug Interactions**: The only interaction recorded is pharmacological, with the drug's own target, plasma kallikrein (KLKB1). It is not a clinical drug-drug interaction.
 
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-Efficacy evidence for the predicted indication is strong — it corresponds to lanadelumab's well-established global approval for HAE due to C1-INH deficiency, supported by a pivotal Phase 3 RCT and extensive real-world data. However, this candidate cannot progress to safety assessment because product information (warnings/contraindications) is a confirmed Blocking data gap, and the drug has zero ARTG registrations in Australia.
+Three completed Phase 3 studies, a placebo-controlled RCT, long-term extension data and real-world data support lanadelumab in HAE caused by C1 inhibitor deficiency. However, this is an existing indication rather than a new one, and the Phase 3 studies are small, open-label and single-arm.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information — key warnings and contraindications (DG001, Blocking)
-- Mechanism-of-action detail from DrugBank to complete the mechanistic-relevance analysis (DG002, High)
-- Drug-drug interaction data (current query status: not found)
-- Confirmation of ARTG registration pathway/status, since this candidate is effectively a market-access question rather than a novel repurposing hypothesis
-- Clarification of whether "C1 inhibitor deficiency" should be tracked as a distinct repurposing candidate or reclassified as a primary-indication registration gap
+- Mechanism of action data from DrugBank
+- Approved indication wording from the ARTG entry and the TGA Product Information
+- Warnings and contraindications from the Product Information, to complete safety screening
+- Confirmation of the approved age range and the evidence for younger children in Australia
+
+**Note on the other predicted indications:** Serpinopathy with toxic serpin polymerization, pancreatitis, pseudo-von Willebrand disease, primary release disorder of platelets, immune-mediated necrotizing myopathy, Glanzmann thrombasthenia, antisynthetase syndrome, focal myositis and Scott syndrome each have no trials or literature (L5, **Hold**). Their high scores likely reflect network associations rather than a plausible mechanism. For the bleeding and platelet disorders, there is also a theoretical bleeding-related concern.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Primidone
-parent: Moderate Evidence (L3-L4)
-nav_order: 561
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 603
+evidence_level: L5
 indication_count: 10
 ---
 
 # Primidone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Primidone: From Epilepsy/Essential Tremor to Reflex Epilepsy Syndromes (Audiogenic Seizures)
+# Primidone: From Epilepsy to Trigeminal Nerve Neoplasm
 
 ## One-Sentence Summary
 
-Primidone is a barbiturate-derived anticonvulsant, established for epilepsy and essential tremor. TxGNN generated **ten** candidate new indications for this drug, all clustered around reflex/stimulus-triggered seizure syndromes and two unrelated outliers; the model's single top-ranked hit (**trigeminal nerve neoplasm**) is almost certainly a name-collision artefact rather than a genuine signal. The most defensible candidate is **audiogenic (sound-triggered) seizures**, supported only by decades-old preclinical/animal pharmacology — **zero clinical trials** exist for any of the ten candidates.
+Primidone is an anticonvulsant originally used to treat epilepsy, including generalised tonic-clonic, partial and Lennox-Gastaut seizures.
+The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, but **no clinical trials and no publications** currently support this prediction. It is a model output only.
 
 ---
 
@@ -41,60 +42,58 @@ Primidone is a barbiturate-derived anticonvulsant, established for epilepsy and 
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (tonic-clonic/partial seizures) and essential tremor — formal indication text unavailable; Primidone is not currently registered in Australia |
-| Predicted New Indication | Audiogenic seizures (a reflex epilepsy subtype); trigeminal neuralgia and startle epilepsy are secondary candidates in the same cluster |
-| TxGNN Prediction Score | 99.99% (audiogenic seizures, model rank 471 of output) |
-| Evidence Level | L3 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Original Indication | Epilepsy (generalised tonic-clonic, partial and Lennox-Gastaut seizures). The Australian licence record has no indication text, so this comes from the knowledge-graph indication data. |
+| Predicted New Indication | Trigeminal nerve neoplasm |
+| TxGNN Prediction Score | 99.99% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
-**Note on the model's top hit:** TxGNN's #1-ranked prediction for this drug was *trigeminal nerve neoplasm* (score 99.99%, rank 189). The evidence pack's own mechanistic review flags this as a very likely false positive — Primidone has an anticonvulsant/GABAergic mechanism with no known link to tumour biology, and the prediction has zero supporting trials or literature. It most likely reflects the knowledge-graph embedding confusing "trigeminal nerve neoplasm" with the unrelated term "trigeminal neuralgia." This report focuses instead on the candidates with genuine mechanistic and literature support.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Primidone is a barbiturate derivative metabolised to phenobarbital and phenylethylmalonamide (PEMA). Its mechanism combines GABA-A receptor potentiation with voltage-gated sodium-channel blockade — a broad-spectrum anticonvulsant/anti-tremor profile that has kept it in use for generalised and partial epilepsy and for essential tremor.
+Currently, detailed mechanism of action data is not available. Primidone is a long-established antiseizure drug and is known to be metabolised in part to phenobarbital and phenylethylmalonamide (PEMA). Its efficacy in epilepsy is established, but this report cannot show a mechanistic route to the predicted tumour indication.
 
-Reflex epilepsies (audiogenic, startle, reading, thinking, micturition-induced, and orgasm-induced seizures) are seizure subtypes triggered by specific sensory or cognitive stimuli rather than distinct diseases with separate pathophysiology. Because broad-spectrum GABAergic/sodium-channel-blocking anticonvulsants are mechanistically applicable across seizure types, it is biologically plausible — though not clinically proven — that Primidone could be effective in these stimulus-triggered subtypes, similar to how it is already used off-label in cortical/stimulus-sensitive myoclonus.
+The predicted indication, trigeminal nerve neoplasm, is a tumour of a cranial nerve, whereas primidone acts on seizure control. No plausible link between anticonvulsant action and tumour control has been established. The very high score is likely driven by network proximity to trigeminal-related neurological conditions and epilepsy in the knowledge graph, not by evidence of antitumour activity.
 
-The strongest direct evidence is a 1964 animal study that tested pyramidone (a primidone-related compound) against audiogenic convulsions, and a 1976 mouse study examining primidone's effect on brain enzyme activity in audiogenic epilepsy. Both are direct pharmacological tests in a relevant disease model, but both are more than 45 years old, small in scale, and pre-date modern trial standards. No human clinical evidence exists for any of the reflex epilepsy candidates.
+**Other predictions are more plausible.** Several lower-ranked predictions sit close to primidone's original use:
+
+- **Reflex seizure subtypes** (thinking, orgasm-induced, startle, eating, micturition-induced, audiogenic and reading seizures) all score about 99.98–99.99%. They fall within the antiseizure domain, but the supporting literature is indirect, consisting of general reviews, old case reports and animal studies.
+- **Trigeminal neuralgia** (score 99.98%) has a class-level rationale, because sodium-channel-blocking antiseizure drugs such as carbamazepine are used for it. The linked literature is mostly about carbamazepine and contains no primidone-specific efficacy data. It is flagged as a research question.
+- **Beta-ketothiolase deficiency** has no literature and no mechanistic basis, and primidone's enzyme-inducing properties add caution in metabolic disease.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered — for any of the ten TxGNN-predicted indications for Primidone (query log confirms 0 ClinicalTrials.gov and 0 ICTRP results across all ten disease queries).
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Target Indication | Key Findings |
-|------|-----|------|------|------|---------|
-| [3925335](https://pubmed.ncbi.nlm.nih.gov/3925335/) | 1985 | RCT (general epilepsy) | New England Journal of Medicine | General/micturition-induced seizures | 10-centre RCT (n=622) comparing carbamazepine, phenobarbital, phenytoin, and primidone in partial/secondary generalised tonic-clonic seizures; establishes primidone's general anticonvulsant efficacy but not specific to any reflex subtype |
-| [14249886](https://pubmed.ncbi.nlm.nih.gov/14249886/) | 1964 | Animal Study | Biulleten' eksperimental'noi biologii i meditsiny | Audiogenic seizures | Direct preclinical test of pyramidone (primidone-related compound) against audiogenic convulsions in animals |
-| [184518](https://pubmed.ncbi.nlm.nih.gov/184518/) | 1976 | Animal Study | Neurologie et psychiatrie | Audiogenic seizures | Effect of phenobarbital, diphenylhydantoin and primidone on brain enzyme activity in mice with audiogenic epilepsy |
-| [8548670](https://pubmed.ncbi.nlm.nih.gov/8548670/) | 1995 | Case Report | Chinese Medical Journal (Free China ed) | Startle epilepsy | Case of startle epilepsy presenting as atonic drop attacks; describes clinical phenotype, not primidone-specific treatment data |
-| [8891399](https://pubmed.ncbi.nlm.nih.gov/8891399/) | 1995 | Review | Clinical Neuroscience | Audiogenic/reading seizures (stimulus-sensitive myoclonus) | Reviews primidone (500–1000 mg/day) among agents used for cortical/stimulus-sensitive myoclonus |
-| [15246950](https://pubmed.ncbi.nlm.nih.gov/15246950/) | 2004 | Review | Epileptic Disorders | Trigeminal neuralgia | Reviews antiepileptic drug use outside epilepsy; evidence for such uses generally limited to case series/small trials |
-| [9068876](https://pubmed.ncbi.nlm.nih.gov/9068876/) | 1996 | Review | Bailliere's Clinical Neurology | Micturition-induced seizures | Lists primidone among established antiepileptic drugs for partial and generalised seizures |
-| [11096777](https://pubmed.ncbi.nlm.nih.gov/11096777/) | 2000 | Review | Current Treatment Options in Neurology | Micturition-induced seizures | Primidone/phenobarbital noted as later-line options in primary generalised epilepsies |
-| [19054416](https://pubmed.ncbi.nlm.nih.gov/19054416/) | 2009 | Cohort | Epilepsia | Thinking seizures | Studies race/setting effects on initial AED choice in newly diagnosed geriatric epilepsy; general epidemiology, not disease-specific |
-| [3092407](https://pubmed.ncbi.nlm.nih.gov/3092407/) | 1986 | Review | Therapeutic Drug Monitoring | Trigeminal neuralgia | Discusses carbamazepine-primidone pharmacokinetic interactions in the context of trigeminal neuralgia treatment |
+Currently no related literature available.
 
 ---
 
 ## Australia Market Information
 
-Primidone has no ARTG entries and is not currently marketed in Australia (0 licences on file).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1939C | Mysoline | Tablet 250 mg (oral) | Not recorded in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No warnings, contraindications, or drug-interaction data were available in this evidence pack (DDI query returned no results).
+- **Contraindications flagged in the knowledge graph** (these come from drug-disease relationship data, not from the label): porphyria and other porphyrin metabolism disorders, liver disease, kidney disease, gallbladder disease, blood disorders (thrombocytopenia, neutropenia, agranulocytosis, leukopenia, pancytopenia, anaemia), sleep apnoea and related hypoventilation syndromes, substance abuse or dependence, and anxiety, neurotic and dysthymic disorders.
+- **Drug interactions:** 100 interactions were identified in total. The main ones listed include:
+  - **Major:** morphine, eliglustat.
+  - **Moderate:** doxycycline, hydrocortisone, dexamethasone, betamethasone, triamcinolone, cholecalciferol, calcifediol, calcitriol, pioglitazone, canagliflozin, saxagliptin, bupropion, aprepitant, metronidazole, difenoxin, diphenoxylate, dronabinol.
+  - **Minor:** cimetidine.
+- Primidone is an enzyme inducer, so interaction potential is broad. Please refer to the TGA-approved Product Information (PI) for label warnings and contraindications.
 
 ---
 
@@ -103,13 +102,13 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-No clinical trials exist for any of the ten TxGNN-predicted indications, the best-supported candidate (audiogenic seizures) rests on animal pharmacology from the 1960s–70s, and Primidone is not currently marketed in Australia. The model's own top-ranked hit (trigeminal nerve neoplasm) is very likely a false positive, underscoring the need for mechanistic screening before acting on TxGNN rank alone.
+The top prediction is a model output only (L5), with no registered trials, no literature and no plausible mechanistic link to tumour control. The safety profile also includes significant haematological, hepatic and interaction concerns.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information / PI warnings and contraindications (currently a blocking data gap)
-- Confirmed mechanism-of-action data from DrugBank (currently a data gap)
-- A targeted literature search specifically on primidone in reflex/stimulus-triggered epilepsy syndromes, to update the 1960s–70s preclinical evidence base
-- Consideration of whether audiogenic/startle/reading seizure phenotypes warrant a pilot case series before any trial planning
+- Detailed mechanism of action data, to test any link between primidone and tumour biology.
+- Preclinical or case-level evidence of primidone activity in trigeminal nerve neoplasm.
+- Review of the TGA-approved Product Information for warnings and contraindications.
+- Consideration of better-supported alternatives, such as trigeminal neuralgia (as a research question) or reflex seizure subtypes, which sit closer to primidone's established use.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

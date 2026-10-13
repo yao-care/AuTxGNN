@@ -2,7 +2,7 @@
 layout: default
 title: Oxycodone
 parent: Model Prediction Only (L5)
-nav_order: 503
+nav_order: 538
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Oxycodone: From Pain Management to Restless Legs Syndrome
-
-> **Note on indication selection:** Among the 10 disease signals TxGNN returned for Oxycodone, the single highest-scoring one (*methemoglobinemia*, 92.7%) is explicitly flagged in the evidence pack as having zero supporting clinical trials or literature and no plausible pharmacological mechanism (oxidative-reduction pathology vs. mu-opioid agonism) — it is judged a likely embedding-space artefact rather than a real signal ("Hold", evidence level L5). This report instead focuses on **Restless Legs Syndrome (RLS)**, the only candidate among the ten with substantive clinical trial and literature support and a real-world regulatory precedent.
+# Oxycodone: From Opioid Analgesia to Restless Legs Syndrome
 
 ## One-Sentence Summary
 
-Oxycodone is a semi-synthetic opioid analgesic used for the management of moderate to severe pain. The TxGNN model, together with corroborating clinical and literature evidence, points to **Restless Legs Syndrome** as a credible new indication, with **1 completed Phase 3 randomised controlled trial** and **20 supporting publications** — including a 2025 American Academy of Sleep Medicine guideline — and an existing European approval for the oxycodone/naloxone prolonged-release combination in this exact setting.
+Oxycodone is an opioid analgesic that is marketed in Australia as an oral capsule.
+The TxGNN model predicts it may be effective for **Restless Legs Syndrome (RLS)**,
+with **1 completed Phase 3 clinical trial** and **19 publications** currently supporting this direction. The trial and most of the literature concern the prolonged-release oxycodone-naloxone combination rather than oxycodone alone.
 
 ---
 
@@ -43,23 +43,23 @@ Oxycodone is a semi-synthetic opioid analgesic used for the management of modera
 
 | Item | Content |
 |------|------|
-| Original Indication | Moderate to severe pain (opioid analgesic) — specific regulatory-approved indication text not available in this evidence pack |
-| Predicted New Indication | Restless Legs Syndrome |
+| Original Indication | Not stated in the data compiled for this report (the ARTG entry has no approved indication text) |
+| Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 90.35% |
-| Evidence Level | L2 (1 completed Phase 2/3 RCT, supported by systematic reviews and a clinical practice guideline) |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L1 (as assigned in the data compiled for this report; see note below) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
+
+*Note:* Under the stated grading rules, L1 requires at least two completed Phase 3 RCTs. Only one completed Phase 3 RCT is listed, so a stricter reading would place this at L2. Supporting Phase 3 data in the published literature may account for the higher grade, but this should be confirmed.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Oxycodone is not available in this evidence pack (data gap). Based on established pharmacology, Oxycodone is a semi-synthetic **mu-opioid receptor agonist**, structurally and functionally related to morphine, used clinically for central analgesia across a broad range of pain conditions.
+Detailed mechanism of action data is not available for this drug. Oxycodone is a mu-opioid receptor agonist (general pharmacological knowledge, not drawn from the compiled data). Opioids act on the endogenous opioid system and modulate the dopaminergic and sensory pathways implicated in RLS. The literature itself notes that the mechanisms of opioids in RLS are still a matter of speculation.
 
-Restless Legs Syndrome (RLS) is a neurological movement disorder characterised by an urge to move the legs, worsening at rest and at night, with pathogenesis believed to involve **central dopaminergic dysfunction** and, more recently recognised, **endogenous opioid system involvement**. Opioid receptor agonists are known to relieve both the sensory and motor components of RLS, and interactions between the opioid and dopaminergic systems are part of the accepted pathophysiological model of the disease — this is the mechanistic bridge that plausibly connects Oxycodone's known pharmacology to a non-analgesic neurological indication.
-
-Critically, this is not a purely theoretical repurposing hypothesis: a prolonged-release **oxycodone/naloxone (OXN PR)** combination (marketed in Europe as Targin/Targinact) is already **approved in Europe as second-line therapy for severe-to-very-severe idiopathic RLS** in patients who have failed first-line dopamine agonist or α2δ-ligand therapy. The naloxone component is included specifically to counteract opioid-induced bowel dysfunction without compromising central analgesic/RLS efficacy. This existing regulatory precedent, combined with a completed Phase 3 RCT and multiple independent reviews (including a Cochrane systematic review and the 2025 AASM clinical practice guideline), makes this one of the more evidence-anchored repurposing signals in the TxGNN output for this drug — a genuine step up from a purely computational association.
+The link between the original use (pain relief) and RLS is mainly through the shared opioid pathways rather than through a similar disease process. Prolonged-release oxycodone-naloxone has been studied in severe, treatment-refractory RLS. It is approved in Europe as second-line treatment for severe to very severe idiopathic RLS after dopaminergic therapy has failed. Guidelines and evidence-based reviews generally position opioids as a later-line option, after dopamine agonists and alpha-2-delta ligands.
 
 ---
 
@@ -67,9 +67,9 @@ Critically, this is not a purely theoretical repurposing hypothesis: a prolonged
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01112644](https://clinicaltrials.gov/study/NCT01112644) | Phase 3 | Completed | 205 | Randomised, double-blind, placebo-controlled, multicentre trial demonstrating superior efficacy of prolonged-release oxycodone/naloxone (OXN PR) over placebo in improving RLS symptom severity in moderate-to-severe idiopathic RLS with daytime symptoms |
+| [NCT01112644](https://clinicaltrials.gov/study/NCT01112644) | Phase 3 | Completed | 205 | Randomised, double-blind, placebo-controlled, multicentre trial of prolonged-release oxycodone-naloxone (OXN PR) versus placebo in moderate to severe idiopathic RLS with daytime symptoms. The primary aim was to show superior improvement in RLS symptom severity over a 12-week period. |
 
-No ANZCTR-registered trials for this indication were identified in the evidence pack.
+The trial title is truncated in the data, so its RLS focus should be confirmed from the full record. No ANZCTR trials were identified.
 
 ---
 
@@ -77,32 +77,40 @@ No ANZCTR-registered trials for this indication were identified in the evidence 
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39324694](https://pubmed.ncbi.nlm.nih.gov/39324694/) | 2025 | Practice Guideline (AASM) | J Clin Sleep Med | American Academy of Sleep Medicine clinical practice guideline for treatment of RLS and periodic limb movement disorder |
-| [26966363](https://pubmed.ncbi.nlm.nih.gov/26966363/) | 2016 | Review | Neuropsychiatric Dis Treat | Reviews the role of prolonged-release oxycodone-naloxone specifically in intractable/refractory RLS after dopamine agonist or α2δ-ligand failure |
-| [26135898](https://pubmed.ncbi.nlm.nih.gov/26135898/) | 2015 | Review | CNS Drugs | Dedicated review of oxycodone/naloxone PR (Targin/Targiniq) as an approved second-line treatment for severe refractory RLS in Europe |
-| [27355187](https://pubmed.ncbi.nlm.nih.gov/27355187/) | 2016 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Cochrane systematic review of opioids, including oxycodone/naloxone, for RLS treatment |
-| [29756335](https://pubmed.ncbi.nlm.nih.gov/29756335/) | 2018 | Evidence-based Review | Mov Disord | Updated evidence-based review confirming oxycodone/naloxone has accrued sufficient data to be considered efficacious for RLS |
-| [35026088](https://pubmed.ncbi.nlm.nih.gov/35026088/) | 2022 | Review/Commentary | Tidsskr Nor Laegeforen | Commentary specifically addressing "Oxycodone to treat restless legs syndrome?" |
-| [33985652](https://pubmed.ncbi.nlm.nih.gov/33985652/) | 2021 | Review | Sleep Med Clin | Discusses opioids, including oxycodone/naloxone PR, as second-line RLS treatment after alpha-2-delta ligands |
-| [30244828](https://pubmed.ncbi.nlm.nih.gov/30244828/) | 2018 | Review | Lancet Neurol | Overview of RLS comorbidities, treatment, and pathophysiology, including dopaminergic and opioid pathway involvement |
-| [26215616](https://pubmed.ncbi.nlm.nih.gov/26215616/) | 2015 | Review | Nat Rev Neurol | Reviews current RLS therapies including opioids where approved, and management of augmentation with dopaminergic agents |
-| [33880737](https://pubmed.ncbi.nlm.nih.gov/33880737/) | 2021 | Review | Neurotherapeutics | Contemporary review of RLS diagnosis and treatment, situating opioid therapy within the broader dopaminergic pathophysiological model |
+| [39324694](https://pubmed.ncbi.nlm.nih.gov/39324694/) | 2025 | Guideline | J Clin Sleep Med | American Academy of Sleep Medicine clinical practice guideline on treatment of RLS and periodic limb movement disorder |
+| [27355187](https://pubmed.ncbi.nlm.nih.gov/27355187/) | 2016 | Systematic review | Cochrane Database Syst Rev | Cochrane review of opioids for RLS |
+| [29756335](https://pubmed.ncbi.nlm.nih.gov/29756335/) | 2018 | Evidence-based review | Mov Disord | Revised review of RCTs; oxycodone/naloxone, pregabalin and gabapentin enacarbil are now considered efficacious |
+| [23746768](https://pubmed.ncbi.nlm.nih.gov/23746768/) | 2014 | Meta-analysis | Sleep Med Rev | Meta-analyses of dopaminergic and non-dopaminergic RLS treatments |
+| [26135898](https://pubmed.ncbi.nlm.nih.gov/26135898/) | 2015 | Review | CNS Drugs | Oxycodone/naloxone PR is approved in Europe as second-line treatment for severe refractory RLS |
+| [26966363](https://pubmed.ncbi.nlm.nih.gov/26966363/) | 2016 | Review | Neuropsychiatr Dis Treat | Role of prolonged-release oxycodone-naloxone in intractable RLS |
+| [33985652](https://pubmed.ncbi.nlm.nih.gov/33985652/) | 2021 | Review | Sleep Med Clin | Alpha-2 ligands are first-line; opioids such as oxycodone-naloxone are second-line |
+| [27964861](https://pubmed.ncbi.nlm.nih.gov/27964861/) | 2017 | Review | Sleep Med | Opioids relieve sensory and motor RLS symptoms and improve sleep; mechanisms remain uncertain |
+| [26215616](https://pubmed.ncbi.nlm.nih.gov/26215616/) | 2015 | Review | Nat Rev Neurol | Current RLS therapies and management of augmentation |
+| [30244828](https://pubmed.ncbi.nlm.nih.gov/30244828/) | 2018 | Review | Lancet Neurol | Comorbidities, treatment and pathophysiology in RLS |
 
 ---
 
 ## Australia Market Information
 
-Oxycodone (this candidate) is currently **not marketed** in Australia under this evidence pack's search, with **0 ARTG entries** identified. No product, dosage form, or approved-indication data is available to tabulate.
-
-*(Note: Oxycodone in general is a well-established Schedule 8 opioid available in various registered Australian products for pain indications; the absence of ARTG entries here reflects a gap in this evidence pack's regulatory data collection rather than confirmation that no oxycodone product exists in Australia. This should be verified directly against the TGA/ARTG database before any decision is finalised.)*
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12031F | Oxycodone BNM | Capsule containing oxycodone hydrochloride 10 mg | Not stated in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No structured safety warnings, contraindications, or drug interaction data were available in this evidence pack (DDI query status: not found).
+- **Knowledge-graph contraindication signals** (from a drug-disease knowledge graph, not product label text): liver failure and liver disease, kidney disease, respiratory failure, epilepsy, hypothyroidism, inflammatory bowel disease, substance abuse/dependence, myocardial infarction, sudden cardiac arrest, heart conduction disease, hypotensive disorder, benign prostatic hyperplasia, gallbladder disease, and others.
+- **Drug Interactions** (100 interactions recorded; examples of Major level): alvimopan, bupropion, aprepitant, morphine, dexamethasone, cimetidine, clarithromycin and clotrimazole. Moderate-level examples include hyoscyamine, loperamide, atropine, glycopyrronium and eluxadoline.
+- **Literature-reported risks**: dependence, misuse, respiratory depression and sleep-disordered breathing, and augmentation or tolerance with long-term use.
 
-This is a **critical data gap**, not merely an absence of findings — see Conclusion and Next Steps below.
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
+
+---
+
+## Other Predicted Indications (Brief Note)
+
+The other top-ranked predictions are not supported and are on Hold. Methemoglobinemia (including the alpha type), nephrogenic syndrome of inappropriate antidiuresis, idiopathic granulomatous myositis and myositis fibrosa have no clinical trials or literature and no plausible mechanism. Common cold, headache disorder, tendinitis and myofascial pain syndrome have only indirect or irrelevant evidence, and opioids are generally discouraged for these conditions.
 
 ---
 
@@ -111,15 +119,14 @@ This is a **critical data gap**, not merely an absence of findings — see Concl
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The RLS signal is supported by a completed Phase 3 RCT, a Cochrane systematic review, and a current (2025) AASM clinical practice guideline, and the oxycodone/naloxone combination already holds regulatory approval in Europe for this exact second-line indication in refractory RLS. This is meaningfully stronger than a model-only signal, but two blocking-severity data gaps — missing local safety/label data and missing MOA data — mean the candidate cannot yet proceed past initial safety screening.
+A completed, randomised, placebo-controlled Phase 3 trial and several reviews and guidelines support prolonged-release oxycodone-naloxone in severe, refractory RLS. However, the evidence relates to the combination product, not the immediate-release oxycodone capsule registered in Australia, and the safety profile requires careful control.
 
 **To proceed, the following is needed:**
-- TFDA/TGA-equivalent Product Information warnings and contraindications (data gap **DG001**, Blocking — currently prevents entry into initial safety assessment)
-- Detailed mechanism-of-action data from DrugBank (data gap **DG002**, High — needed for mechanistic-plausibility review)
-- Confirmed drug-drug interaction dataset (current query status: not found), particularly relevant for the typically older RLS patient population
-- Verification of current Australian registration/ARTG status for oxycodone products, since 0 entries were found in this evidence pack
-- Confirmation that efficacy shown for the **oxycodone/naloxone** combination applies to any oxycodone monotherapy formulation under consideration, since the supporting trial and reviews are naloxone-combination-specific
-- Alignment check against Australian RLS treatment guidelines and PBS pathway, given opioids are recommended only as second-line therapy after dopamine agonist/α2δ-ligand failure
+- Confirmation of the full trial record (NCT01112644) and its efficacy results
+- Clarification of whether evidence for the oxycodone-naloxone prolonged-release combination can be applied to the single-ingredient capsule listed on the ARTG
+- Guardrails: reserve for severe, intractable RLS after dopamine agonists and alpha-2-delta ligands have failed; do not use as first-line therapy; use the lowest effective dose; review regularly; monitor for dependence, misuse, respiratory depression and sleep-disordered breathing
+- The ARTG approved indication and the TGA Product Information warnings and contraindications
+- Mechanism of action data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

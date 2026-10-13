@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nitrazepam
-parent: High Evidence (L1-L2)
-nav_order: 472
-evidence_level: L1
+parent: Moderate Evidence (L3-L4)
+nav_order: 505
+evidence_level: L4
 indication_count: 10
 ---
 
 # Nitrazepam
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,77 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Nitrazepam: From Insomnia to Sleep Disorder, Initiating and Maintaining Sleep
+# Nitrazepam: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
 
 ## One-Sentence Summary
 
-Nitrazepam is a long-established benzodiazepine hypnotic, marketed internationally (e.g. Mogadon in the UK) for the short-term treatment of insomnia, but it is **not currently registered in Australia** (no ARTG entry). The TxGNN model's top prediction for this drug is **Sleep Disorder, Initiating and Maintaining Sleep** — clinically synonymous with insomnia — meaning this is less a novel repurposing signal and more a confirmation of the drug's already well-documented use, supported by **20 publications** and its class-level pharmacology. No clinical trials specific to this indication were located in the evidence pack.
-
----
+Nitrazepam is a benzodiazepine hypnotic, originally used to treat insomnia and early myoclonic encephalopathy.
+The TxGNN model predicts it may be effective for **sleep disorder, initiating and maintaining sleep**, but this is essentially the same as its existing indication. There are **no registered clinical trials** and **20 publications** (mostly narrative reviews) for this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in formal regulatory data; internationally established as a hypnotic for short-term insomnia treatment (not TGA-registered) |
-| Predicted New Indication | Sleep disorder, initiating and maintaining sleep (insomnia) |
+| Original Indication | Insomnia; early myoclonic encephalopathy (from the TxGNN knowledge graph, as no approved indication text is available for the ARTG entry) |
+| Predicted New Indication | Sleep disorder, initiating and maintaining sleep |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L1 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed formal mechanism-of-action documentation is not available in this evidence pack (data gap). However, based on the evidence supplied, nitrazepam is a classical **1,4-benzodiazepine** that acts as a **positive allosteric modulator of the GABA-A receptor**, producing sedative-hypnotic effects — the core and original pharmacological action of this drug class.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, nitrazepam is a benzodiazepine that enhances GABA-A receptor signalling, producing sedative-hypnotic effects. This is consistent with treating difficulty initiating and maintaining sleep.
 
-The predicted indication (sleep disorder, initiating and maintaining sleep) is not a mechanistic extrapolation to a new disease area but a direct match to nitrazepam's long-standing clinical role as a hypnotic. Multiple decades of literature (e.g. comparative studies against triazolam, flurazepam, temazepam and loprazolam) confirm its efficacy in inducing and maintaining sleep, consistent with GABAergic sedation.
-
-Because this "new" indication overlaps with the drug's already-recognised use overseas, the prediction should be read as **validating** TxGNN against known ground truth rather than surfacing a genuinely novel therapeutic hypothesis. The practical question for Australia is one of **market entry/registration**, not of new-indication research.
-
----
+The predicted indication is effectively the drug's original indication (insomnia), so this is not a true repurposing candidate. The high score largely reflects the model recovering a known use. Other predicted indications in the data (such as anxiety, alcohol withdrawal, restless legs syndrome and several epilepsy-related conditions) rest mainly on class-level benzodiazepine plausibility, with little or no nitrazepam-specific evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for this predicted indication.
 
 ## Literature Evidence
 
+The retrieved literature is mostly narrative reviews and general hypnotic-drug articles. Items are listed in priority order (RCT > review > other).
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6135296](https://pubmed.ncbi.nlm.nih.gov/6135296/) | 1983 | RCT (double-blind cross-over) | Acta Psychiatrica Scandinavica | Nitrazepam 5mg vs triazolam 0.25mg in 26 geriatric inpatients; similar sleep quantity/quality and psychomotor performance, no significant difference between drugs |
-| [7037262](https://pubmed.ncbi.nlm.nih.gov/7037262/) | 1981 | PK study | Clinical Pharmacokinetics | Review of nitrazepam's clinical pharmacokinetic profile |
-| [4892037](https://pubmed.ncbi.nlm.nih.gov/4892037/) | 1969 | Review | British Medical Journal | In 27 patients, nitrazepam overdose (up to 80 tablets) caused only drowsiness; double-blind trial found it as effective as butobarbitone as a hypnotic — concluded safe and effective |
-| [1125532](https://pubmed.ncbi.nlm.nih.gov/1125532/) | 1975 | Case report/Review (dependence) | The British Journal of Psychiatry | Documents nitrazepam (Mogadon) dependence |
-| [4712500](https://pubmed.ncbi.nlm.nih.gov/4712500/) | 1973 | Review | British Medical Journal | Nitrazepam and effects on the subconscious/sleep architecture |
-| [238826](https://pubmed.ncbi.nlm.nih.gov/238826/) | 1975 | Review | Drugs | Overview of sleep physiology and hypnotic drug effectiveness, including benzodiazepines |
-| [19450355](https://pubmed.ncbi.nlm.nih.gov/19450355/) | 2007 | Review | BMJ Clinical Evidence | Up to 40% of adults have insomnia; reviews risk factors and treatment approaches including hypnotics |
-| [7725291](https://pubmed.ncbi.nlm.nih.gov/7725291/) | 1995 | Review | Tidsskrift for den Norske Lægeforening | Reviews classification, diagnosis and treatment of insomnia, including hypnotic therapy |
-| [20467592](https://pubmed.ncbi.nlm.nih.gov/20467592/) | 2010 | Review | Drugs of Today | Reviews benzodiazepine and non-benzodiazepine hypnotics' effects on sleep induction/maintenance vs newer serotonergic agents |
-| [2874007](https://pubmed.ncbi.nlm.nih.gov/2874007/) | 1986 | Review (comparator drug) | Drugs | Review of loprazolam, a comparator hypnotic benzodiazepine, contextualising nitrazepam's therapeutic class |
-
----
+| [4892037](https://pubmed.ncbi.nlm.nih.gov/4892037/) | 1969 | Trial (double-blind, per abstract) | Br Med J | In 27 patients, nitrazepam overdose caused little beyond drowsiness; a double-blind trial found it as effective as butobarbitone as a hypnotic |
+| [15252823](https://pubmed.ncbi.nlm.nih.gov/15252823/) | 2004 | Systematic review / meta-analysis | Hum Psychopharmacol | Compared Z-drugs with benzodiazepines (including nitrazepam) for short-term insomnia |
+| [19450355](https://pubmed.ncbi.nlm.nih.gov/19450355/) | 2007 | Review | BMJ Clin Evid | Insomnia in the elderly: prevalence, risk factors and management |
+| [15089115](https://pubmed.ncbi.nlm.nih.gov/15089115/) | 2004 | Review | CNS Drugs | Residual "hangover" effects of hypnotics and accident risk, dose-dependent |
+| [20171127](https://pubmed.ncbi.nlm.nih.gov/20171127/) | 2010 | Review | Sleep Med Rev | Hypnotics impair body balance and standing steadiness; falls and hip fractures reported |
+| [10804040](https://pubmed.ncbi.nlm.nih.gov/10804040/) | 2000 | Review | Drugs | Zolpidem efficacy is generally comparable to benzodiazepines including nitrazepam |
+| [3281819](https://pubmed.ncbi.nlm.nih.gov/3281819/) | 1988 | Review | Drugs | Brotizolam improved sleep similarly to nitrazepam 2.5 and 5 mg |
+| [7037262](https://pubmed.ncbi.nlm.nih.gov/7037262/) | 1981 | Review | Clin Pharmacokinet | Clinical pharmacokinetics of nitrazepam |
+| [1125532](https://pubmed.ncbi.nlm.nih.gov/1125532/) | 1975 | Report | Br J Psychiatry | Nitrazepam (Mogadon) dependence |
+| [20191849](https://pubmed.ncbi.nlm.nih.gov/20191849/) | 2009 | Review | Rev Med Chir Soc Med Nat Iasi | Benzodiazepine withdrawal syndrome and its management |
 
 ## Australia Market Information
 
-Nitrazepam has **no ARTG entries** and is **not currently marketed in Australia**. No product name, dosage form, or approved indication text is available from local regulatory sources.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 2723H | Alodorm | Tablet 5 mg (oral) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-No drug-specific safety data (warnings, contraindications, or drug interactions) is available in this evidence pack — nitrazepam is not TGA-registered, so no Australian Product Information exists. Prescribers considering this drug should refer to overseas regulatory documentation (e.g. UK MHRA, EU SmPC) for benzodiazepine class safety information, including known risks of dependence, tolerance, residual sedation, and withdrawal, pending formal TGA assessment.
+- **Drug Interactions**: 55 potential interactions were identified, all with an unclassified severity level. Examples include morphine, metformin, metronidazole, bupropion, metoclopramide, dexamethasone and several proton pump inhibitors. Because severity grading is unavailable, these should be checked against the Product Information. Concurrent opioids and other CNS depressants are of particular concern with benzodiazepines.
+- **Class-related concerns raised in the retrieved literature**: dependence and withdrawal, tolerance, residual daytime impairment, falls and hip fractures, and heightened sensitivity in older adults.
 
----
+Please refer to the TGA-approved Product Information (PI) for formal warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The evidence level (L1) reflects a large, mature literature base and an RCT directly comparing nitrazepam to another hypnotic, but this indication is effectively confirmatory of an already-established overseas use rather than a novel repurposing finding. Since nitrazepam has zero ARTG entries, the real decision is a market-entry evaluation, not a new-indication research question — hence guardrails rather than an unconditional "Go."
+The top prediction is the drug's existing hypnotic use, so it adds no new repurposing value. Supporting evidence is limited to reviews, with no registered trials. Of the other predicted indications, none has nitrazepam-specific efficacy evidence. Class-level plausibility exists for alcohol withdrawal and anxiety, but longer-acting benzodiazepines are preferred, and restless legs syndrome is better served by current first-line agents. Safety concerns (dependence, falls, sedation in older adults) weigh against expansion.
 
 **To proceed, the following is needed:**
-- TFDA/TGA-equivalent product label, warnings and contraindications (Blocking data gap — required before any S1 safety assessment)
-- Formal mechanism-of-action documentation from DrugBank or equivalent source
-- A drug interaction (DDI) dataset, as the current query returned no results
-- A regulatory pathway assessment for ARTG registration, since Nitrazepam is currently unavailable in Australia
+- Product Information warnings and contraindications, and the approved indication text for the ARTG entry
+- Mechanism of action data
+- Nitrazepam-specific controlled trials for any non-insomnia indication being considered (for example alcohol withdrawal, restless legs syndrome)
+- A benefit-risk assessment against established first-line treatments, with particular attention to older adults
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

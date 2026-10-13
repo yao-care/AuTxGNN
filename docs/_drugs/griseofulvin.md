@@ -2,7 +2,7 @@
 layout: default
 title: Griseofulvin
 parent: Model Prediction Only (L5)
-nav_order: 321
+nav_order: 346
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,96 +29,91 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Griseofulvin: From Dermatophytosis to Myiasis
+# Griseofulvin: From Tinea (Dermatophyte) Infections to Myiasis
 
 ## One-Sentence Summary
 
-Griseofulvin is a classic narrow-spectrum antifungal agent, established since the 1950s for treating dermatophyte infections including tinea capitis (scalp ringworm), tinea corporis, and onychomycosis.
-The TxGNN model predicts it may be effective for **Myiasis** (dipteran larval tissue infestation), with **0 clinical trials** and **1 veterinary literature reference** identified — a reference that provides no mechanistic support whatsoever.
-
-> ⚠️ **Important context for clinicians:** All 10 of Griseofulvin's top TxGNN predictions were assessed as mechanistically unsound or unsubstantiated, each receiving a **Hold** recommendation. This report documents the findings and explains why the model predictions are most likely systematic false positives arising from knowledge graph topology rather than genuine pharmacological relationships.
+Griseofulvin is an oral antifungal originally used for dermatophyte infections of the skin, hair and nails, such as tinea pedis, tinea corporis, tinea unguium and tinea barbae.
+The TxGNN model predicts it may be effective for **myiasis** (a fly larvae infestation), but **no clinical trials and no publications** currently support this prediction.
+This is a model-only signal with no demonstrated mechanistic basis, so it should be treated as a hypothesis rather than a lead.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Dermatophytosis (tinea capitis, tinea corporis, tinea pedis, onychomycosis) |
-| Predicted New Indication | Myiasis (fly larval tissue infestation) |
+|------|------|
+| Original Indication | Dermatophyte infections (tinea pedis, tinea corporis, tinea unguium, tinea barbae, and related infections of the groin, perianal area, scalp and beard), based on the knowledge graph; no approved indication text is recorded for the Australian listing |
+| Predicted New Indication | Myiasis |
 | TxGNN Prediction Score | 99.41% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed — no ARTG registration |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not retrieved from DrugBank during this analysis. Based on established pharmacological knowledge, Griseofulvin is a natural product derived from *Penicillium griseofulvum* that acts by binding to polymerised fungal tubulin, disrupting microtubule assembly and thereby blocking mitosis in fungal cells. Crucially, its activity is **selective for dermatophytes** (*Trichophyton*, *Microsporum*, and *Epidermophyton* species). It has no clinically relevant activity against *Candida* species, dimorphic fungi, bacteria, or parasites.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, griseofulvin is an oral antifungal that disrupts fungal microtubules and mitosis, and it is deposited in keratinised tissue. Its efficacy in dermatophyte infections is well established.
 
-Myiasis is a parasitic infestation caused by dipteran (fly) larvae invading living tissue — an entomological condition with no fungal component. There is no known biochemical target shared between fly larvae and the fungal tubulin pathway that Griseofulvin exploits. The single literature reference retrieved (a 1970 veterinary review on parasitic skin diseases in dogs and cats) does not describe or suggest any use of Griseofulvin for myiasis; its retrieval reflects overlapping MeSH indexing under "skin disease" and "parasitic disease" subject headings rather than any pharmacological relationship.
+For myiasis, however, no plausible mechanistic link can be established. Myiasis is an infestation of tissue by fly larvae (dipterans), not a fungal disease. Griseofulvin has no known antiparasitic or insecticidal activity. Standard management relies on removal of the larvae, not on an antifungal. The high score (99.41%) most likely reflects network-level artefacts in the knowledge graph, such as similarity to other infectious or skin-related disease nodes, rather than biological reasoning.
 
-The TxGNN score of 99.41% most likely reflects indirect connections through shared "skin disease" and "dermatology" nodes within the knowledge graph, rather than a genuine drug–disease pharmacological link. This pattern — very high model scores with no mechanistic support and no clinical evidence — is consistent across all 10 top predictions for this drug, which span insect larval diseases, tapeworm infections, a protozoan infection (toxoplasmosis), a yeast infection where Griseofulvin is known to be **ineffective** (cutaneous candidiasis), and even a gram-negative anaerobic bacterial infection (Bacteroidaceae). Together, these results indicate the model is producing systematic false positives for Griseofulvin outside its well-defined antifungal class.
+The same applies to the other top-ranked predictions (wound myiasis, creeping myiasis, furuncular myiasis, toxoplasmosis and Bacteroidaceae infection), which have no trials, no literature and no credible mechanism. Two *Echinococcus* predictions (*E. granulosus* infection and alveolar echinococcosis) carry only a weak, speculative link through shared microtubule-targeting pharmacology with benzimidazoles such as albendazole, and griseofulvin activity against helminth tubulin has not been demonstrated.
+
+Among lower-ranked predictions, **cutaneous candidiasis** (score 98.71%) and **blastomycosis** (score 97.08%) are biologically closer because they are fungal. Griseofulvin is generally not effective against *Candida*, and it is not an established therapy for systemic mycoses such as blastomycosis, where itraconazole or amphotericin B is used. The retrieved literature for these indications is indirect.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Griseofulvin in myiasis.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+Currently no related literature available for myiasis.
+
+For context, the literature retrieved for the lower-ranked prediction of cutaneous candidiasis (20 records, 10 shown) was indirect. It consists mainly of reviews of superficial fungal infections and other antifungals (terbinafine, itraconazole, ketoconazole, tolnaftate), with griseofulvin mentioned as a comparator or a treatment for tinea capitis. It does not show that griseofulvin treats candidiasis.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [4098614](https://pubmed.ncbi.nlm.nih.gov/4098614/) | 1970 | Veterinary Review | The Veterinary Record | General review of parasitic skin diseases in dogs and cats; no data on Griseofulvin for myiasis treatment — retrieved due to shared dermatological MeSH indexing |
-
-> **Note:** This single reference is not supportive evidence. Its retrieval is a search artefact, not a clinical signal.
-
----
-
-## Overview of All Predicted Indications
-
-For transparency, all 10 TxGNN predictions are summarised below with their mechanistic assessment:
-
-| Rank | Disease | TxGNN Score | Evidence Level | Mechanistic Assessment |
-|------|---------|-------------|----------------|----------------------|
-| 1 | Myiasis | 99.41% | L5 | ❌ Dipteran larvae — antifungal mechanism irrelevant |
-| 2 | Wound myiasis | 99.34% | L5 | ❌ Same as above; no literature |
-| 3 | Creeping myiasis | 99.34% | L5 | ❌ Same as above; no literature |
-| 4 | Furuncular myiasis | 99.34% | L5 | ❌ Same as above; physical removal is standard care |
-| 5 | Echinococcus granulosus infection | 99.32% | L5 | ❌ Tapeworm disease — Albendazole/surgery is standard; Griseofulvin has no anthelmintic activity |
-| 6 | Cutaneous candidiasis | 98.71% | L4 | ❌ **Reverse evidence** — Griseofulvin is pharmacologically inactive against *Candida*; 20 retrieved references use it as a negative comparator |
-| 7 | Toxoplasmosis | 98.69% | L5 | ❌ Protozoan infection — standard therapy is Pyrimethamine + Sulfadiazine; no mechanistic link |
-| 8 | Alveolar echinococcosis | 98.36% | L5 | ❌ *Echinococcus multilocularis* tapeworm — same false positive pattern as rank 5 |
-| 9 | Blastomycosis | 97.08% | L4 | ❌ Dimorphic fungus — Griseofulvin has minimal in vitro activity; IDSA 2008 guidelines recommend Itraconazole or Amphotericin B; references are 1960–70s historical reviews only |
-| 10 | Bacteroidaceae infectious disease | 95.57% | L5 | ❌ Gram-negative anaerobic bacteria — Griseofulvin has no antibacterial activity; most egregious cross-domain model error |
+|------|-----|------|------|---------|
+| [8763460](https://pubmed.ncbi.nlm.nih.gov/8763460/) | 1996 | Review | Br J Dermatol | Cutaneous mycoses in children; griseofulvin has been the main treatment in children but is only fungistatic, may cause interactions and needs prolonged dosing |
+| [15571501](https://pubmed.ncbi.nlm.nih.gov/15571501/) | 2004 | Review | Dermatol Ther | Therapy of superficial fungal infections; onychomycosis often needs systemic griseofulvin, itraconazole or terbinafine |
+| [34898894](https://pubmed.ncbi.nlm.nih.gov/34898894/) | 2021 | Review | J Obstet Gynaecol India | Risks and precautions of common antifungal drugs in pregnancy |
+| [10439936](https://pubmed.ncbi.nlm.nih.gov/10439936/) | 1999 | Review | Drugs | Terbinafine in superficial mycoses; mycological cure above 80% in dermatophyte infections |
+| [1372222](https://pubmed.ncbi.nlm.nih.gov/1372222/) | 1992 | Review | Drugs | Terbinafine pharmacology and efficacy in tinea corporis, cruris and pedis |
+| [8706596](https://pubmed.ncbi.nlm.nih.gov/8706596/) | 1996 | Review | Drugs | Itraconazole in superficial fungal infections, including dermatophytosis and vaginal candidiasis |
+| [8077517](https://pubmed.ncbi.nlm.nih.gov/8077517/) | 1994 | Review | J Am Acad Dermatol | Treatment of tropical mycoses (retrieved for the blastomycosis prediction); general, not griseofulvin-specific |
 
 ---
 
 ## Australia Market Information
 
-Griseofulvin is **not currently registered on the Australian Register of Therapeutic Goods (ARTG)**. There are no TGA-approved products available on the Australian market.
-
-Clinicians who need to prescribe Griseofulvin for its established indication (most commonly tinea capitis in children, where it remains a guideline-recommended option in some settings) would need to access it through one of the following TGA pathways:
-
-- **Special Access Scheme – Category B (SAS-B)**: For individual patients with a legitimate clinical need
-- **Authorised Prescriber**: For practitioners who regularly treat a particular condition requiring the drug
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1460W | Grisovin | Tablet 125 mg (oral) | Not recorded in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-No TGA-approved Product Information (PI) document is available for Griseofulvin in Australia. For prescribing safety information, refer to overseas-approved PI documents (FDA, EMA, or UK SMC). Key known safety considerations from the established pharmacological literature include:
+No product-label warnings or contraindications were available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
-- **Teratogenicity**: Contraindicated in pregnancy (FDA Category X / ADEC Category D); embryotoxic and teratogenic in animal studies
-- **Hepatotoxicity**: Contraindicated in hepatocellular failure and porphyria
-- **Photosensitivity**: Patients should be advised to avoid excessive sun exposure
-- **Drug interactions**: Reduces efficacy of warfarin (CYP enzyme induction); may reduce efficacy of combined oral contraceptives; potentiates effects of alcohol
-- **Haematological**: Rare agranulocytosis and leucopenia reported — monitoring of FBC may be appropriate with prolonged therapy
+**Contraindication signals from the knowledge graph** (these are not label text and need verification against the PI):
+- Liver failure
+- Porphyria (including inherited porphyria and other porphyrin metabolism disorders)
+- Systemic lupus erythematosus (including the paediatric form)
+- Substance abuse/dependence
+- Neutropenia and agranulocytosis (including congenital and idiopathic forms)
+
+**Drug interactions** (100 interactions were identified; examples are below, with the most frequent level being Moderate):
+- **Anticoagulants and antiplatelets:** warfarin, apixaban, rivaroxaban, dicoumarol, ticagrelor (Moderate); acetylsalicylic acid (Minor)
+- **Antidiabetic agents:** saxagliptin, linagliptin, repaglinide (Moderate); liraglutide (Minor)
+- **Antiemetics:** aprepitant, rolapitant (Moderate)
+- **Antimalarials and antiparasitics:** artemether, mefloquine, praziquantel (Moderate)
+- **Others:** eliglustat, naloxegol, nitisinone, macimorelin, fostamatinib (Moderate)
 
 ---
 
@@ -127,14 +122,13 @@ No TGA-approved Product Information (PI) document is available for Griseofulvin 
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN top predictions for Griseofulvin are mechanistically unsupported. The predictions span organisms (fly larvae, tapeworms, protozoa, gram-negative bacteria) and drug class boundaries that Griseofulvin cannot plausibly cross. Notably, the rank 6 prediction (cutaneous candidiasis) represents a case where existing pharmacological evidence actively contradicts the prediction — Griseofulvin's activity against *Candida* is well established as negligible. The pattern strongly suggests the model is assigning high scores based on shared knowledge graph neighbourhood (dermatological and infectious disease nodes) rather than true pharmacological relatedness.
+The myiasis prediction is a computational output only (evidence level L5). There are no registered trials, no supporting literature, and no biologically plausible mechanism linking an antifungal to fly larvae infestation. The knowledge-graph contraindication signals (hepatic, haematological and porphyria-related) and the large number of interactions add risk without any demonstrated benefit.
 
-**To proceed, the following would be needed:**
-
-- Retrieve complete DrugBank MOA, toxicity, and interaction data to fulfil identified data gaps (DG001, DG002)
-- Review lower-ranked TxGNN predictions beyond the top 10 to identify any dermatophyte-adjacent indications (e.g., specific tinea variants, Majocchi's granuloma, or onychomycosis subtypes) where a genuine mechanistic case could be made
-- If considering access for established indications (tinea capitis), initiate TGA Special Access Scheme (SAS-B) assessment and confirm current international guideline positioning against newer alternatives (Terbinafine, Itraconazole)
-- No repurposing investment is recommended on the basis of the current top 10 predictions
+**To proceed, the following is needed:**
+- A credible mechanistic or preclinical rationale for activity against dipteran larvae (none currently exists)
+- Mechanism of action data for griseofulvin from DrugBank
+- The TGA Product Information (warnings, contraindications and approved indication text), as this was not available for the Australian listing
+- If a repurposing direction is still wanted, consider a review of the fungal predictions instead (cutaneous candidiasis, blastomycosis). These have a more plausible biological basis but still need direct comparative evidence, since standard therapies (azoles, nystatin, terbinafine, itraconazole) are already established.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

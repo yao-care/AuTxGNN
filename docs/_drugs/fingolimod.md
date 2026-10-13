@@ -2,7 +2,7 @@
 layout: default
 title: Fingolimod
 parent: Model Prediction Only (L5)
-nav_order: 278
+nav_order: 299
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,33 +29,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fingolimod: From Multiple Sclerosis to Borderline Ovarian Serous Tumor
+# Fingolimod: From Relapsing-Remitting Multiple Sclerosis to Borderline Ovarian Serous Tumour
 
 ## One-Sentence Summary
 
-Fingolimod (FTY720) is a sphingosine-1-phosphate (S1P) receptor modulator approved for multiple sclerosis. The TxGNN model's top-ranked prediction for this drug is **Borderline Ovarian Serous Tumor**, but this specific candidate is currently supported by **no clinical trials and no literature** — it is a model-only prediction.
+Fingolimod was originally used to treat relapsing-remitting multiple sclerosis.
+The TxGNN model predicts it may be effective for **borderline ovarian serous tumour**,
+but **no clinical trials and no publications** directly support this prediction. This is a model-only (L5) signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Multiple Sclerosis (per literature source, not formal regulatory record — see note below) |
-| Predicted New Indication | Borderline Ovarian Serous Tumor |
+| Original Indication | Relapsing-remitting multiple sclerosis (approved indication text for the Australian entry is not available) |
+| Predicted New Indication | Borderline ovarian serous tumour |
 | TxGNN Prediction Score | 94.94% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
-*Note: `drug.original_indications` and the regulatory license list are both empty in the evidence pack. "Multiple Sclerosis" is inferred from a literature abstract in the pack (PMID 30388910: "fingolimod (FTY720), approved for the treatment of multiple sclerosis"), not from a formal regulatory filing.*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is flagged as a data gap in this evidence pack. Based on information embedded in the supporting literature, fingolimod is an S1P receptor functional antagonist and sphingosine kinase 1 (SphK1) inhibitor, used clinically as an immunomodulator in multiple sclerosis via lymphocyte sequestration.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, fingolimod (FTY720) is a sphingosine-1-phosphate (S1P) receptor modulator. It traps lymphocytes in lymph nodes, which is how it reduces relapses in multiple sclerosis.
 
-Multiple sclerosis and ovarian tumours are pathophysiologically unrelated (autoimmune/neurological vs. gynaecological oncology), so this prediction represents a substantial domain jump rather than an indication-family extension.
+S1P signalling and sphingolipid metabolism have been implicated in ovarian epithelial tumour biology, so a link to ovarian neoplasms is plausible. This link is speculative. It rests on general knowledge and not on the evidence compiled here. The predicted disease is also a borderline (low malignant potential) tumour, for which systemic immunomodulation has no established rationale.
 
-The evidence pack's own rationale for this candidate states the mechanistic extrapolation is **weak**: SphK1/S1P signalling has literature support in *malignant* ovarian cancer (see lower-ranked candidates below), but borderline (low malignant potential) serous tumours are biologically distinct, and no literature or trial evidence specific to this subtype was found. TxGNN's high similarity score here is not corroborated by independent evidence.
+Other highly ranked predictions are also ovarian neoplasms (for example ovarian papillary cystadenoma, malignant ovarian Brenner tumour and mucinous ovarian cystadenoma). This suggests the model is picking up proximity to ovarian neoplasms in its knowledge graph, and not a drug-specific mechanism.
+
+Preclinical work exists for a related prediction, "serous neoplasm". It is described in the literature section below.
 
 ## Clinical Trial Evidence
 
@@ -63,25 +65,55 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No publications were found specifically for borderline ovarian serous tumour. The following preclinical reports were found for closely related ovarian predictions (serous neoplasm and ovarian benign neoplasm). They are indirect evidence only.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [30120964](https://pubmed.ncbi.nlm.nih.gov/30120964/) | 2018 | Preclinical (patient-derived xenograft) | Cancer Letters | FTY720 enhanced the anti-tumour activity of carboplatin and tamoxifen in an ovarian cancer model, including drug-resistant cells |
+| [30388910](https://pubmed.ncbi.nlm.nih.gov/30388910/) | 2019 | Preclinical (lung cancer; ovarian cancer cells also tested) | Cancer Biology & Therapy | Fingolimod augmented pemetrexed killing of non-small cell lung cancer cells and overcame resistance to ERBB inhibition; the abstract also notes synergy in ovarian cancer cells |
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11818B | Gilenya | Capsule 250 micrograms (as hydrochloride) | Not available in the data compiled for this report |
+
+The only route of administration listed is oral.
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+The TGA-approved Product Information (PI) warnings and contraindications were not available in the data compiled for this report. Please refer to the PI for full safety information.
+
+**Contraindications suggested by the knowledge graph** (drug-disease links in the TxGNN knowledge graph, not label text):
+- Liver failure, kidney disease, pyoureter
+- Diabetes mellitus, diabetic ketoacidosis
+- Lung disease
+- Leukopenia
+- Uveitis, iris disease, ciliary body disease, panuveitis, macular oedema (retinal and cystoid)
+- Atrioventricular block, sick sinus syndrome (including the familial form)
+
+**Drug interactions** (100 interactions were recorded; the main ones are listed):
+- **Major:**
+  - Corticosteroids: hydrocortisone, prednisone, dexamethasone, betamethasone, budesonide, triamcinolone (including ophthalmic)
+  - QT-prolonging or related agents: clarithromycin, levofloxacin, ondansetron, dolasetron, palonosetron, cisapride
+- **Moderate:** famotidine, ranitidine, cimetidine, nizatidine, loperamide, naltrexone
+- **Minor:** metronidazole
+
+Fingolimod causes lymphocyte sequestration, so immunosuppression and infection risk are relevant to any oncology use.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Borderline Ovarian Serous Tumor) has a high TxGNN score but zero direct evidence — no clinical trials, no literature — and the pack itself flags the mechanistic link as weak. This does not meet the threshold to advance past model-only prediction (L5).
+The prediction is model-only (L5), with no clinical trials and no publications directly on borderline ovarian serous tumours. The only related evidence is preclinical, indirect, and concerns chemosensitisation in ovarian cancer and lung cancer models. A borderline tumour also offers little justification for the safety burden of a systemic immunomodulator.
 
 **To proceed, the following is needed:**
-- TFDA/TGA product information (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism-of-action data (DG002)
-- Preclinical or clinical evidence specific to borderline (low malignant potential) ovarian serous tumour, not just malignant ovarian cancer generally
-- Disease-ontology verification: other candidates in this same evidence pack (e.g. rank 8, "ovarian benign neoplasm") show literature that actually describes *malignant* ovarian cancer cell-line/xenograft studies, suggesting possible label/ontology mismatches worth checking before further triage of this drug's candidate list
-- Drug interaction data (DDI query returned "not_found")
+- Mechanism of action data for fingolimod, and a specific rationale for borderline serous tumours
+- Targeted literature review and preclinical studies in borderline ovarian tumour models
+- Review of the TGA Product Information for warnings and contraindications, and the approved indication text for ARTG 11818B
+- A safety assessment of immunosuppression, cardiac conduction effects and drug interactions in this population
+- Evidence of benefit in the more clinically relevant ovarian malignancies (serous neoplasm and ovarian cancer) before any further work on benign or borderline conditions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

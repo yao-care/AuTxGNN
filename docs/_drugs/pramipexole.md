@@ -2,7 +2,7 @@
 layout: default
 title: Pramipexole
 parent: Moderate Evidence (L3-L4)
-nav_order: 553
+nav_order: 594
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Pramipexole: From Parkinson's Disease/Restless Legs Syndrome to Attention-Deficit/Hyperactivity Disorder (ADHD)
+# Pramipexole: From Parkinson Disease and Restless Legs Syndrome to Attention Deficit-Hyperactivity Disorder
 
 ## One-Sentence Summary
 
-Pramipexole is an internationally established non-ergot dopamine D2/D3 receptor agonist, historically used for Parkinson's disease and restless legs syndrome. The TxGNN model predicts it may be effective for **Attention-Deficit/Hyperactivity Disorder (ADHD)**, but this direction is currently supported by only **1 loosely-related clinical trial** and **9 publications**, none of which are a direct ADHD efficacy trial.
+Pramipexole is a dopamine agonist originally used to treat **Parkinson disease** and **restless legs syndrome**.
+The TxGNN model predicts it may be effective for **attention deficit-hyperactivity disorder (ADHD)**, but the supporting evidence is thin: **no registered clinical trials** and only **7 publications**, none of which tests pramipexole in ADHD directly.
 
 ---
 
@@ -41,31 +42,31 @@ Pramipexole is an internationally established non-ergot dopamine D2/D3 receptor 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from ARTG/TGA data (drug not currently marketed in Australia); internationally used for Parkinson's disease and restless legs syndrome |
-| Predicted New Indication | Attention-Deficit/Hyperactivity Disorder (ADHD) |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Parkinson disease and restless legs syndrome (from the knowledge graph; the ARTG entry has no indication text) |
+| Predicted New Indication | Attention deficit-hyperactivity disorder |
+| TxGNN Prediction Score | 99.998% |
 | Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-A fully documented mechanism-of-action record is not available for pramipexole in this evidence pack (data gap). Elsewhere in the collected evidence, pramipexole is described as a non-ergot dopamine agonist with high selectivity for the D3 receptor subtype (D3 > D2), acting as a full post-synaptic agonist — distinct from ergot-derived dopamine agonists. Its efficacy in Parkinson's disease and restless legs syndrome, both linked to central dopaminergic deficits, is internationally well established, though no formal Australian regulatory or MOA record exists in this pack.
+Detailed mechanism of action data is not available for this report. Pramipexole is known to be a non-ergot dopamine agonist that prefers D2/D3 receptors. Its efficacy in Parkinson disease and restless legs syndrome reflects that dopaminergic activity.
 
-ADHD is hypothesised to involve prefrontal-cortical dopaminergic hypofunction, so in theory a dopamine agonist could improve attentional regulation — this is the mechanistic thread TxGNN is likely picking up on. However, the drug's own repurposing rationale flags an important caveat: standard ADHD pharmacotherapy (e.g. methylphenidate, atomoxetine) works by inhibiting dopamine/noradrenaline reuptake to raise synaptic concentrations, whereas pramipexole is a direct post-synaptic receptor agonist — a different, and not necessarily complementary, mechanism.
+ADHD is a condition in which dopamine signalling is thought to be dysregulated. The literature also links ADHD to variants of the dopamine D4 receptor gene. This gives the prediction a plausible but indirect mechanistic rationale.
 
-Consistent with this, the supporting evidence is indirect rather than disease-specific: it largely comes from populations with ADHD as a **comorbidity** alongside restless legs syndrome or Tourette's syndrome, from a single case report, and from basic receptor pharmacology studies — not from a trial enrolling primary ADHD patients to test pramipexole as a treatment.
+Direct support is very limited. It consists of one case report of ADHD with chronic pain and oral dysesthesia treated with atomoxetine plus pramipexole, and one randomised trial in Tourette's syndrome, a related neurodevelopmental condition. The remaining retrieved papers concern restless legs syndrome, a different drug (piribedil) or basic receptor biology.
+
+**Other predictions:** Among the other predicted indications, **schizophrenia** (TxGNN rank 9 in this list) has stronger evidence. It has a Phase 3 add-on trial (NCT01320982, 400 participants, status unknown, no results available) and a published 16-week randomised placebo-controlled trial of add-on pramipexole (PMID 35921506). It is outside the scope of this report, but it may merit a separate assessment.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00558766](https://clinicaltrials.gov/study/NCT00558766) | N/A | Completed | 35 | Studied motor cortex reward signalling (via TMS) in Parkinson's disease patients on dopaminergic therapy; population is PD, not ADHD — relevance graded C (low), reflects shared dopamine-reward mechanism only, not a direct ADHD trial |
+Currently no related clinical trials registered for ADHD.
 
 ---
 
@@ -73,27 +74,38 @@ Consistent with this, the supporting evidence is indirect rather than disease-sp
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22407510](https://pubmed.ncbi.nlm.nih.gov/22407510/) | 2012 | RCT | Movement Disorders | Multicenter placebo-controlled RCT of pramipexole for Tourette's syndrome (dopamine hypersensitivity hypothesis), not ADHD itself |
-| [24992083](https://pubmed.ncbi.nlm.nih.gov/24992083/) | 2014 | RCT (different drug) | Clinical Neuropharmacology | 11-week RCT comparing piribedil vs pramipexole/ropinirole on vigilance in Parkinson's disease with daytime sleepiness |
-| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue Neurologique | Review of restless legs syndrome pathophysiology and dopaminergic treatment |
-| [19412489](https://pubmed.ncbi.nlm.nih.gov/19412489/) | 2006 | Review | Neuropsychiatric Disease and Treatment | Reviews pramipexole's repurposing for restless legs syndrome, an ADHD-comorbid condition |
-| [15540638](https://pubmed.ncbi.nlm.nih.gov/15540638/) | 2004 | Cohort | Developmental Medicine & Child Neurology | Cohort of prepubertal children with sleep disturbance/periodic leg movements; some treated with pramipexole, ADHD noted as a comorbid association |
-| [37342213](https://pubmed.ncbi.nlm.nih.gov/37342213/) | 2023 | Case Report | Frontiers in Pain Research | Single case of chronic low back pain/oral dysesthesia with comorbid ADHD, remission with combined atomoxetine and pramipexole |
-| [38649244](https://pubmed.ncbi.nlm.nih.gov/38649244/) | 2024 | Case Report (unrelated) | BMJ Case Reports | Case of hypokalaemia from excessive cola consumption; patient incidentally had ADHD and was on pramipexole — not evidence of efficacy |
-| [24079375](https://pubmed.ncbi.nlm.nih.gov/24079375/) | 2013 | Animal Study | Journal of Motor Behavior | Spontaneously hypertensive rat model proposed for RLS/PLM, with clinical note that RLS/PLM and ADHD may co-occur |
-| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Basic/Receptor Pharmacology | Pharmacological Research | In vitro receptor heteromerization study (α2A-adrenoceptor/D4 receptor) relevant to ADHD pharmacology in general, not pramipexole-specific efficacy |
+| [22407510](https://pubmed.ncbi.nlm.nih.gov/22407510/) | 2012 | RCT (Tourette's syndrome, adjacent indication) | Movement Disorders | Multicentre, placebo-controlled trial of pramipexole in Tourette's syndrome, based on the idea that dopamine agonists could normalise central dopamine hypersensitivity |
+| [37342213](https://pubmed.ncbi.nlm.nih.gov/37342213/) | 2023 | Case report | Frontiers in Pain Research | Remission of chronic low back pain and oral dysesthesia in a patient with comorbid ADHD treated with atomoxetine and pramipexole |
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Preclinical | Pharmacological Research | Dopamine D4 receptor variants and α2A adrenoceptors form heteromers, with implications for ADHD and impulse-control disorders |
+| [19412489](https://pubmed.ncbi.nlm.nih.gov/19412489/) | 2006 | Review | Neuropsychiatric Disease and Treatment | Pramipexole is a D3-selective non-ergoline agonist with potential use in restless legs syndrome |
+| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue Neurologique | Review of restless legs syndrome (indirect relevance) |
+| [24992083](https://pubmed.ncbi.nlm.nih.gov/24992083/) | 2014 | Clinical study | Clinical Neuropharmacology | Piribedil compared with pramipexole and ropinirole for vigilance in Parkinson disease (different drug and condition) |
 
 ---
 
 ## Australia Market Information
 
-Pramipexole is **not currently registered on the ARTG** and has no marketed products in Australia in this evidence pack (0 licences on file). No TGA-approved Product Information is therefore available locally.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 14324X | SIMIPEX XR | Extended-release tablet containing pramipexole dihydrochloride monohydrate 375 micrograms (oral) | Not listed in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-No Australian TGA-approved Product Information is available for this drug (not marketed), and no key warnings, contraindications, or drug-interaction data were retrievable from the sources queried for this evidence pack. Prescribers should consult the manufacturer's international product information (e.g. from a jurisdiction where pramipexole is registered) for safety data until local TFDA/TGA-equivalent documentation is obtained.
+- **Contraindications flagged in the knowledge graph:** These come from drug-disease links in the TxGNN knowledge graph (PrimeKG), not from product label text. They include:
+  - multiple system atrophy
+  - orthostatic hypotension
+  - postural orthostatic tachycardia syndrome
+  - drug-induced dyskinesia
+  - kidney disease
+  - psychotic disorders (psychotic disorder, schizoaffective disorder, schizophreniform disorder, mental disorder)
+  - melanoma
+  - sleep disorders (obstructive sleep apnoea, sleep apnoea syndrome, congenital central hypoventilation syndrome, narcolepsy)
+  - other central nervous system diseases
+- **Drug Interactions:** 100 interactions were identified in total. Those graded **Moderate** include morphine (including liposomal), opium, cimetidine, dronabinol, nabilone and metoclopramide. Ranitidine is graded Minor. Several others, such as metformin, omeprazole and pantoprazole, have an unknown severity grade.
+
+Please refer to the TGA-approved Product Information (PI) for authoritative warnings and contraindications.
 
 ---
 
@@ -102,14 +114,14 @@ No Australian TGA-approved Product Information is available for this drug (not m
 **Decision: Hold**
 
 **Rationale:**
-Evidence for pramipexole in ADHD is at the mechanism/preclinical level (L4) — the single clinical trial identified enrolled Parkinson's disease patients, not ADHD patients, and the literature is dominated by comorbid-condition case reports, animal studies, and receptor pharmacology rather than a trial testing pramipexole as an ADHD treatment. The proposed mechanism (direct post-synaptic dopamine agonism) also diverges from standard ADHD pharmacology (reuptake inhibition), which further weakens the case for proceeding.
+The TxGNN score is very high, but the prediction rests on a plausible dopaminergic mechanism, one case report and an adjacent Tourette's trial. No trial has tested pramipexole in ADHD. Several knowledge-graph contraindications involve psychiatric and sleep conditions that commonly accompany ADHD, so safety needs careful attention.
 
 **To proceed, the following is needed:**
-- A clinical trial or controlled study testing pramipexole specifically in primary ADHD (not comorbid RLS/Tourette's populations)
-- Resolution of the two blocking/high-severity data gaps: TFDA/TGA-equivalent product warnings and contraindications (DG001, blocking), and a verified mechanism-of-action record (DG002)
-- Confirmation of an ARTG registration or import pathway, since the drug is currently unmarketed in Australia
-
-**Separately worth noting:** among the other candidates in this evidence pack, pramipexole as adjunct therapy for **schizophrenia** (negative symptoms) shows substantially stronger evidence — Evidence Level L2, multiple RCTs, and a systematic review/meta-analysis, with a recommendation of "Research Question with Guardrails." That candidate may warrant its own dedicated evaluation report.
+- Mechanism of action data (DrugBank) to support the mechanistic-link analysis
+- The TGA Product Information, to complete safety screening (warnings and contraindications)
+- ADHD-specific clinical evidence, such as a well-designed pilot or randomised trial
+- A safety plan for impulse-control disorders, sleepiness and psychiatric adverse effects in ADHD populations
+- Confirmation of the approved indication text for the ARTG entry
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

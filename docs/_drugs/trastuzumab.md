@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trastuzumab
-parent: High Evidence (L1-L2)
-nav_order: 696
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 748
+evidence_level: L4
 indication_count: 10
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Trastuzumab: From HER2-Positive Breast Cancer to Normal Breast-Like Subtype of Breast Carcinoma
+# Trastuzumab: From HER2-Positive Breast Carcinoma to Normal Breast-Like Subtype of Breast Carcinoma
 
 ## One-Sentence Summary
 
-> Trastuzumab is a HER2-targeted monoclonal antibody, well established for HER2-positive breast cancer.
-> The TxGNN model predicts it may also be relevant to the **normal breast-like molecular subtype of breast carcinoma**,
-> with **12 clinical trials** and **1 publication** currently associated with this direction — though the mechanistic link to this specific subtype is comparatively weak.
+Trastuzumab is a HER2-targeted monoclonal antibody, originally used to treat HER2-positive breast carcinoma.
+The TxGNN model predicts it may be effective for the **normal breast-like subtype of breast carcinoma**, but the supporting evidence is very thin: **1 clinical trial** (not yet recruiting, and testing a different molecule) and **1 publication** (a morphology study with no treatment data).
+The model's other predictions for related breast cancer subtypes (progesterone-receptor positive and negative disease) have far stronger support and are summarised below for context.
 
 ---
 
@@ -43,23 +43,21 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2-positive breast cancer (well-established indication; not captured in the TGA licence data provided in this evidence pack) |
-| Predicted New Indication | Normal Breast-Like Subtype of Breast Carcinoma |
+| Original Indication | HER2-positive breast carcinoma (the ARTG entry in the data compiled for this report has no indication text) |
+| Predicted New Indication | Normal breast-like subtype of breast carcinoma |
 | TxGNN Prediction Score | 99.90% |
-| Evidence Level | L2 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on well-established clinical knowledge, trastuzumab is a humanised monoclonal antibody targeting the HER2 (ERBB2) receptor. It binds the extracellular domain of HER2, blocking downstream proliferative signalling and mediating antibody-dependent cellular cytotoxicity (ADCC). Its established efficacy depends on HER2 overexpression/amplification in the tumour.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, trastuzumab binds the extracellular domain of HER2, inhibiting HER2 signalling and mediating antibody-dependent cellular cytotoxicity (ADCC). Its efficacy in HER2-positive breast cancer is well established.
 
-"Normal breast-like" is one of the five intrinsic molecular subtypes of breast cancer identified by gene-expression profiling (alongside Luminal A, Luminal B, HER2-enriched, and Basal-like — PMID 26253814). Unlike the HER2-enriched subtype, tumours in the normal breast-like category typically do not show consistent HER2 overexpression, which weakens the direct mechanistic rationale for trastuzumab activity here.
-
-Reviewing the supporting evidence, the associated clinical trials are largely broader HER2-positive neoadjuvant studies (e.g. NCT05900206 ARIADNE, NCT04759248 ATREZZO) that incidentally enrol or classify patients by intrinsic subtype rather than being designed specifically for the normal breast-like population. The evidence pack itself notes this limitation: *"此分子亞型通常 HER2 表現偏低，與 trastuzumab 主要作用機轉關聯較弱；現有試驗多為 HER2+ neoadjuvant 研究中附帶涵蓋此亞型，非專一設計。"* Notably, two other closely-scoring TxGNN predictions for this drug — progesterone-receptor positive and progesterone-receptor negative breast cancer — carry substantially stronger evidence (L1, multiple completed Phase 3 RCTs) because they map more directly onto the established HER2-positive population.
+The normal breast-like subtype is an intrinsic breast cancer subtype that is typically HER2-negative, with variable hormone receptor status. The direct mechanistic link to trastuzumab is therefore weak. The high TxGNN score appears to reflect a graph-based association with breast carcinoma in general rather than subtype-specific support. The prediction should be treated as a hypothesis only.
 
 ---
 
@@ -67,16 +65,9 @@ Reviewing the supporting evidence, the associated clinical trials are largely br
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT05900206](https://clinicaltrials.gov/study/NCT05900206) | Phase 2 | Recruiting | 370 | ARIADNE: T-DXd vs standard preoperative treatment with biology-driven subtype selection in HER2-positive breast cancer |
-| [NCT01796197](https://clinicaltrials.gov/study/NCT01796197) | Phase 2 | Completed | 23 | Paclitaxel + trastuzumab + pertuzumab as pre-operative therapy for inflammatory breast cancer |
-| [NCT03168880](https://clinicaltrials.gov/study/NCT03168880) | Phase 3 | Active, not recruiting | 720 | Neoadjuvant weekly paclitaxel ± carboplatin in triple-negative breast cancer (majority basal-like molecular profile) |
-| [NCT05659056](https://clinicaltrials.gov/study/NCT05659056) | Phase 2 | Recruiting | 65 | Neoadjuvant pyrotinib + trastuzumab + Abraxane in HER2-enriched early/locally advanced breast cancer, exploring intrinsic subtype response |
-| [NCT04759248](https://clinicaltrials.gov/study/NCT04759248) | Phase 2 | Active, not recruiting | 55 | ATREZZO: atezolizumab + trastuzumab + vinorelbine in ER-negative/PAM50 non-luminal HER2-positive advanced breast cancer |
-| [NCT05582499](https://clinicaltrials.gov/study/NCT05582499) | Phase 2 | Recruiting | 716 | FASCINATE-N: precision neoadjuvant platform trial stratified by clinical/molecular subtype |
-| [NCT06328387](https://clinicaltrials.gov/study/NCT06328387) | Phase 1/2 | Recruiting | 120 | Hydroxychloroquine plus antibody-drug conjugate (including T-DXd) vs ADC alone in advanced breast cancer |
-| [NCT04750122](https://clinicaltrials.gov/study/NCT04750122) | Phase 1/2 | Recruiting | 46 | Drug-screening-guided neoadjuvant therapy using patient-derived tumour cell clusters for HER2-positive early breast cancer |
-| [NCT04329065](https://clinicaltrials.gov/study/NCT04329065) | Phase 2 | Recruiting | 25 | WOKVAC vaccine combined with neoadjuvant chemotherapy and HER2-targeted monoclonal antibody therapy |
-| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Phase 2 | Recruiting | 74 | Efficacy/safety of optimal neoadjuvant-to-adjuvant anti-HER2 therapy in Nigerian women with HER2-positive breast cancer |
+| [NCT07669610](https://clinicaltrials.gov/study/NCT07669610) | Phase 3 | Not yet recruiting | 140 | Open-label randomised study of trastuzumab rezetecan (a different HER2-directed ADC) with or without bevacizumab in basal-like, immune-suppressed triple-negative breast cancer. No results, and no direct evidence for trastuzumab. |
+
+No ANZCTR identifiers were available in the data compiled for this report.
 
 ---
 
@@ -84,13 +75,15 @@ Reviewing the supporting evidence, the associated clinical trials are largely br
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [19466513](https://pubmed.ncbi.nlm.nih.gov/19466513/) | 2009 | Morphological descriptive study | Breast Cancer (Tokyo, Japan) | Describes morphological/cytopathological characteristics distinguishing basal-like from normal breast-like and other intrinsic subtypes identified by DNA microarray profiling |
+| [19466513](https://pubmed.ncbi.nlm.nih.gov/19466513/) | 2009 | Cohort | Breast Cancer (Tokyo) | Morphological and cytopathological features of basal-like breast carcinoma. Descriptive only, with no treatment evidence. |
 
 ---
 
 ## Australia Market Information
 
-Currently no ARTG entries are recorded for this drug in the evidence pack (market status: **Not Marketed**, total licences: 0).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10383L | Ogivri | Powder for I.V. infusion 150 mg | Not available in the data compiled for this report |
 
 ---
 
@@ -98,17 +91,20 @@ Currently no ARTG entries are recorded for this drug in the evidence pack (marke
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (HER2-targeted monoclonal antibody) |
-| Myelosuppression Risk | Low (as a monoclonal antibody, trastuzumab itself is not typically myelosuppressive; risk arises mainly from concurrent chemotherapy combinations) |
+| Cytotoxicity Classification | Targeted therapy (HER2-directed monoclonal antibody) |
+| Myelosuppression Risk | Low as monotherapy; may add to myelosuppression when combined with chemotherapy |
 | Emetogenicity Classification | Low |
-| Monitoring Items | Cardiac function (baseline and periodic LVEF via echocardiogram/MUGA), infusion-related reactions, FBC and organ function when combined with chemotherapy |
-| Handling Protection | Please refer to the Product Information (PI) warnings and precautions; standard biologic infusion handling precautions apply, with specific attention to cardiotoxicity monitoring protocols |
+| Monitoring Items | Cardiac function (LVEF) before and during treatment, FBC when combined with chemotherapy, infusion-related reactions |
+| Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions**: 94 interactions are recorded. Major-level examples include deferiprone, samarium (153Sm) lexidronam, adalimumab and baricitinib. Moderate-level examples include warfarin, paclitaxel, zidovudine, azathioprine, alemtuzumab and chloramphenicol.
+- **Cardiac toxicity**: The literature retrieved for the related predictions discusses trastuzumab-related cardiotoxicity. Cardiac monitoring is a standard guardrail.
+
+For other safety information, please refer to the TGA-approved Product Information (PI).
 
 ---
 
@@ -117,14 +113,18 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic link between trastuzumab and the normal breast-like subtype is weak (this subtype typically shows lower/heterogeneous HER2 expression), and no identified trial is designed specifically to test trastuzumab efficacy in this subtype — existing evidence is incidental coverage within broader HER2-positive neoadjuvant studies (Evidence Level L2, decision stage S2).
+The normal breast-like subtype is typically HER2-negative, and the only linked trial tests a different molecule and has not started recruiting. The single paper provides no treatment evidence. The high TxGNN score is not backed by subtype-specific data.
 
 **To proceed, the following is needed:**
-- Subtype-specific clinical trial or biomarker-stratified analysis confirming trastuzumab activity in normal breast-like tumours
-- Confirmed mechanism of action (MOA) data from DrugBank or product literature
-- TGA/ARTG registration status verification for trastuzumab products in Australia
-- TGA-approved Product Information (PI) for warnings, contraindications, and drug interaction data
-- Consideration of the closely-scored, better-evidenced predictions (progesterone-receptor positive/negative breast cancer, both L1/Proceed with Guardrails) as higher-priority candidates from the same prediction set
+- Evidence that normal-like tumours carry HER2 amplification or overexpression, or clinical data in this subtype
+- Mechanism of action data (MOA)
+- Package insert warnings and contraindications for the Australian product, and the approved indication text for ARTG 10383L
+
+**Context from other predictions:**
+- **Progesterone-receptor positive breast cancer** (score 99.90%, L1, Proceed with Guardrails): supported by the completed Phase 3 adjuvant trial NCT01275677 (n=3270). This is largely a subpopulation of the already approved HER2-positive indication. Guardrails: confirm HER2 status and monitor LVEF.
+- **Progesterone-receptor negative breast cancer** (score 99.90%, L1, Proceed with Guardrails): supported by NCT01275677 and the Phase 3 study NCT05985187 (status unknown). Use is limited to HER2-positive disease, and it should not be extrapolated to triple-negative or HER2-zero disease.
+- **Luminal A or B breast tumour** (score 99.90%, L2, Proceed with Guardrails): literature support only, including the NeoSphere trial and the adjuvant trastuzumab trial. Use is limited to HER2-positive luminal B disease.
+- **Rarer tumours** (for example ectomesenchymoma and HHV-8-related tumours, scores of about 99%, L5, Hold): prediction only, with no trials or literature.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

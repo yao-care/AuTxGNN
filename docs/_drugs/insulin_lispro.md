@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Lispro
 parent: Model Prediction Only (L5)
-nav_order: 356
+nav_order: 383
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,82 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Insulin lispro: From Diabetes Mellitus to Autoimmune Oophoritis
+# Insulin Lispro: From Diabetes Mellitus to Autoimmune Oophoritis
 
 ## One-Sentence Summary
 
-Insulin lispro is a rapid-acting insulin analogue originally used to manage blood glucose in patients with diabetes mellitus (type 1 and type 2).
-The TxGNN model predicts it may be effective for **Autoimmune Oophoritis**,
-however **no clinical trials** and **no published literature** currently support this direction.
-
----
+Insulin lispro is a rapid-acting insulin analogue, originally used to treat type 1 and type 2 diabetes mellitus, including diabetic ketoacidosis.
+The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Diabetes mellitus (type 1 and type 2) |
-| Predicted New Indication | Autoimmune Oophoritis |
+|------|------|
+| Original Indication | Type 2 diabetes mellitus, type 1 diabetes mellitus, diabetic ketoacidosis (the ARTG entry has no indication text, so these come from the knowledge graph) |
+| Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this dataset. Based on established pharmacology, insulin lispro is a rapid-acting insulin analogue in which lysine and proline at positions B28 and B29 are transposed, reducing self-aggregation and accelerating subcutaneous absorption relative to human insulin. It acts primarily via the insulin receptor to promote peripheral glucose uptake and suppress hepatic glucose production.
+Currently, detailed mechanism of action data is not available. Based on known information, insulin lispro is a rapid-acting human insulin analogue. Its efficacy in diabetes is well established, but it has no known immunomodulatory action relevant to ovarian autoimmunity.
 
-Autoimmune oophoritis is a rare inflammatory condition in which immune-mediated attack on ovarian tissue leads to granulosa cell destruction and premature ovarian insufficiency. The proposed biological connection lies in the fact that insulin receptors are expressed on ovarian granulosa and theca cells, and insulin signalling is known to modulate steroidogenesis and the local ovarian immune microenvironment. TxGNN likely captured this relationship through the shared comorbidity network of polycystic ovary syndrome (PCOS) → insulin resistance → ovarian inflammation, rather than through a direct therapeutic pathway.
+The most plausible explanation for the prediction is a shared autoimmune context. Autoimmune oophoritis often occurs within polyglandular autoimmune syndromes that include type 1 diabetes. This is an association between diseases, not a therapeutic mechanism, so the link is unsupported by any evidence compiled for this report.
 
-There is, however, no direct pathophysiological evidence that insulin lispro can attenuate the underlying autoimmune mechanism of oophoritis. The predicted link appears to be a network-level co-occurrence rather than a tractable clinical mechanism. This prediction should be interpreted with significant caution and is best regarded as a hypothesis-generating signal.
-
----
+Other high-scoring predictions (ranks 2 to 10) show similar patterns:
+- **Comorbidity-driven signals:** thiamine-responsive dysfunction syndrome, classic stiff person syndrome and focal stiff limb syndrome. Insulin would treat the coexisting diabetes only, not the underlying disease.
+- **Likely false positives:** drug-induced localized lipodystrophy, pressure-induced localized lipoatrophy and idiopathic localized lipodystrophy. Insulin injections are themselves a recognised cause of localised lipodystrophy.
+- **Hormone replacement:** pancreatic agenesis. Insulin replacement is standard care, but it falls under the existing diabetes indication and is not a novel repurposing.
+- **Biological hypothesis only:** opsismodysplasia (INPPL1/SHIP2, a negative regulator of insulin signalling). The direction and clinical relevance of exogenous insulin are unknown.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for autoimmune oophoritis.
 
----
+For context, the only publication retrieved across the top 10 predictions concerns pancreatic agenesis (rank 7) and is indirect:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [12150359](https://pubmed.ncbi.nlm.nih.gov/12150359/) | 2002 | Review | J Am Pharm Assoc | General review of insulin therapy in type 2 diabetes and practical aspects of starting it; does not address pancreatic agenesis directly |
 
 ## Australia Market Information
 
-Insulin lispro is not currently recorded in the Australian Register of Therapeutic Goods (ARTG) within this dataset (data cutoff: 22 June 2026). No ARTG entries were returned by the evidence collection pipeline.
-
-> **Note:** This may reflect a data gap in the pipeline rather than a genuine absence from the Australian market. Clinicians should verify current ARTG registration status directly via the [TGA website](https://www.tga.gov.au/resources/artg).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11645X | Humalog U200 Kwikpen | Injection (human analogue), pre-filled pen, 200 units per mL, 3 mL, pack of 5 | Not available in the compiled data |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions:** 100 interactions were identified in total; the 20 retrieved are mostly Moderate, with a few Minor. The main ones are:
+  - **Other glucose-lowering agents (additive hypoglycaemia risk or altered glycaemic control):** metformin, alogliptin and albiglutide.
+  - **Sympathomimetics and beta-agonists (may reduce glycaemic control):** epinephrine, salbutamol, formoterol, phenylephrine and pseudoephedrine.
+  - **Beta-blockers (may mask hypoglycaemia symptoms):** acebutolol.
+  - **Corticosteroids (may raise blood glucose):** hydrocortisone, plus the Minor topical hydrocortisone and alclometasone.
+  - **Hormonal agents:** estradiol, ethinylestradiol and levonorgestrel.
+  - **Others:** acetazolamide, hydrochlorothiazide, doxycycline, alpelisib and ethanol.
 
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.78%), the mechanistic link between insulin lispro and autoimmune oophoritis is indirect and entirely network-driven, with no supporting clinical trials or published literature (Evidence Level L5). There is no plausible direct therapeutic mechanism by which insulin lispro would modulate the autoimmune pathology underlying oophoritis.
+The prediction rests only on a model score (L5), with no trials or publications. The likely link is a shared autoimmune context with type 1 diabetes, and insulin lispro has no known mechanism against ovarian autoimmunity. Several other top predictions are comorbidity artefacts or likely false positives, such as insulin-induced lipodystrophy.
 
 **To proceed, the following is needed:**
-- Verification of ARTG registration status via the TGA website
-- Retrieval of TGA-approved Product Information (PI) for full safety, warnings, and contraindication data
-- Detailed mechanism of action data (MOA) from DrugBank or primary pharmacology literature
-- Preclinical evidence (in vitro or animal model) demonstrating that insulin receptor signalling in granulosa cells directly influences autoimmune inflammation
-- Clarification of whether TxGNN prediction score reflects a therapeutically meaningful edge or a structural artefact of the PCOS–insulin resistance comorbidity cluster in the knowledge graph
+- Mechanism of action data and a plausible mechanistic rationale for autoimmune oophoritis
+- A systematic literature search for any link between insulin therapy and autoimmune oophoritis
+- Product Information (PI) warnings and contraindications for the Australian product
+- Confirmation of the approved indication text for the ARTG entry
+- Assessment of whether any benefit would simply be management of coexisting diabetes rather than a true new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

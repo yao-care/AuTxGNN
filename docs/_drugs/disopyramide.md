@@ -2,7 +2,7 @@
 layout: default
 title: Disopyramide
 parent: Model Prediction Only (L5)
-nav_order: 203
+nav_order: 220
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,33 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Disopyramide is a Class Ia antiarrhythmic agent internationally used for the treatment and prevention of ventricular arrhythmias, though it holds no registration on the Australian Register of Therapeutic Goods (ARTG).
-The TxGNN model predicts it may be effective for **Tourette Syndrome** with a prediction score of **99.86%**, however with **0 clinical trials** and **0 publications** currently supporting this specific direction, the evidence base is extremely limited.
-This prediction currently sits at the lowest evidence tier (L5) and warrants a **Hold** recommendation pending basic preclinical investigation.
+Disopyramide is a class Ia antiarrhythmic (sodium channel blocker with anticholinergic activity). The original indication is not recorded in the data compiled for this report.
+The TxGNN model predicts it may be effective for **Tourette syndrome**, but there are **0 clinical trials** and **0 publications** supporting this prediction. It is a model-only prediction with no clinical evidence.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Australia; internationally recognised as a Class Ia antiarrhythmic for ventricular arrhythmias |
-| Predicted New Indication | Tourette Syndrome |
+|------|------|
+| Original Indication | Not recorded in the Australian licence data (the drug's known pharmacological class is antiarrhythmic) |
+| Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Disopyramide is a Class Ia antiarrhythmic that works by blocking voltage-gated sodium (Na⁺) channels in cardiac tissue — slowing conduction velocity and prolonging the refractory period. It also carries significant anticholinergic (muscarinic receptor antagonist) activity, which contributes both to its therapeutic profile and its well-known side effect burden.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on its drug class, disopyramide is a class Ia antiarrhythmic that blocks cardiac sodium channels and has anticholinergic activity. Its use in supraventricular and ventricular arrhythmias is established.
 
-Tourette syndrome is a neurodevelopmental condition characterised by involuntary motor and vocal tics. Its core pathophysiology involves dysregulation of dopaminergic and cholinergic signalling within the basal ganglia–thalamocortical circuits. The theoretical mechanistic basis for this TxGNN prediction rests on Disopyramide's anticholinergic properties: muscarinic antagonism could theoretically modulate striatal cholinergic interneurons, which play a role in tic generation. However, this reasoning is highly speculative, and the Na⁺ channel blocking mechanism has no established relevance to Tourette syndrome pathophysiology.
+No clear mechanistic link to Tourette syndrome was identified. Tourette syndrome involves dopaminergic dysfunction in cortico-striato-thalamo-cortical circuits, which are not known targets of disopyramide. The high TxGNN score most likely reflects knowledge-graph neighbourhood artefacts rather than a biologically supported relationship.
 
-It is important to put the 99.86% prediction score in context. TxGNN's score reflects graph-level relationship patterns within the biomedical knowledge graph — it does not constitute a mechanistic or clinical prediction. Given the weak biological plausibility and the complete absence of any supporting clinical or preclinical evidence, this prediction should be treated with considerable caution.
+Other top-ranked predictions show the same pattern. ADHD (99.82%), trichotillomania (99.81%), ADHD inattentive type (99.74%), faciodigitogenital syndrome (99.66%), specific developmental disorder (99.54%), chondromyxoid fibroma (99.41%) and trigeminal nerve neoplasm (99.16%) have no plausible mechanism and no clinical evidence. The only predictions within disopyramide's pharmacological domain are the cardiac ones: idiopathic neonatal atrial flutter (99.42%) and multifocal atrial tachycardia (99.21%). These are indirect, class-level plausibility only.
 
 ---
 
@@ -71,19 +70,40 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for Tourette syndrome.
+
+For context, the only publication in the data compiled for this report relates to a lower-ranked prediction (multifocal atrial tachycardia):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [7418495](https://pubmed.ncbi.nlm.nih.gov/7418495/) | 1980 | Cohort (case report) | Chest | A patient with resistant ventricular and supraventricular arrhythmias failed multiple drugs, including disopyramide, and was treated with lorcainide. It does not evaluate disopyramide as a treatment for this condition. |
 
 ---
 
 ## Australia Market Information
 
-Disopyramide is **not currently registered** on the Australian Register of Therapeutic Goods (ARTG). No product entries exist for this drug in Australia.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 13280Y | Rythmodan (Canada) | Capsule 100 mg (s19A) | Not recorded |
+
+This is a single valid product, supplied as an oral capsule under Section 19A (imported, not a standard ARTG-registered product).
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. As Disopyramide is not registered in Australia, clinicians should consult international regulatory sources (e.g., US FDA prescribing information, EMA SmPC) for comprehensive safety data. Of particular note for any proposed off-label use: Disopyramide is associated with significant negative inotropic effects, QT prolongation risk, and substantial anticholinergic burden — safety considerations that would require careful evaluation in any non-cardiac patient population.
+**Contraindications flagged in the knowledge graph (not label text):** The TxGNN knowledge graph lists the following conditions as contraindicated with disopyramide. These must be verified against the Product Information.
+
+- **Cardiac:** long QT syndrome (including familial), atrioventricular block, cardiomyopathy (including hypertrophic), myocarditis, endomyocardial fibrosis, myocardial disorder, atrial fibrillation, atrial flutter, hypotensive disorder
+- **Anticholinergic-related:** angle-closure glaucoma, benign prostatic hyperplasia, myasthenia gravis and neuromuscular junction disease
+- **Organ function and metabolic:** kidney disease, liver disease, gallbladder disease, pyoureter, potassium deficiency, hypoglycaemia
+
+**Drug Interactions:** 100 interactions were identified. Examples:
+- **Major:** clarithromycin, potassium citrate, picosulfuric acid
+- **Moderate:** corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), amphotericin B, anticholinergics (atropine, hyoscyamine, glycopyrronium, clidinium), famotidine, loperamide, aprepitant, bisacodyl, chlorpropamide
+- **Minor:** cimetidine
+
+In a paediatric or neuropsychiatric population, proarrhythmic risk and QT prolongation would be a particular concern. Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ---
 
@@ -92,14 +112,17 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-The evidence for Disopyramide in Tourette syndrome stands at L5 — model prediction only — with no clinical trials, no published literature, and weak mechanistic plausibility. Compounding this, Disopyramide carries a challenging safety profile (proarrhythmia, negative inotropic effects, anticholinergic burden) that would require strong justification before any off-label use could be considered, and the drug is not currently registered in Australia.
+The prediction is supported only by the TxGNN model score, with no clinical trials, no literature and no plausible mechanism. The cardiac risk profile (QT prolongation, proarrhythmia, negative inotropy) is unfavourable for a non-cardiac indication.
 
 **To proceed, the following is needed:**
-- Preclinical studies demonstrating pharmacological activity of Disopyramide — or of Na⁺ channel blockade and/or muscarinic antagonism more broadly — in validated animal models of Tourette syndrome or tic disorders
-- Mechanistic evidence specifically linking Disopyramide's anticholinergic or ion channel properties to striatal cholinergic interneuron modulation relevant to tic suppression
-- A comprehensive safety and tolerability assessment for the Tourette syndrome patient population, which is predominantly paediatric and young adult
-- Exploration of whether other anticholinergics (e.g., trihexyphenidyl, benztropine) with a cleaner cardiovascular safety profile have shown any signal in tic disorders — as a prerequisite reference point
-- A TGA registration pathway assessment should any Australian clinical development be contemplated
+- Original approved indication from the PI or ARTG record
+- Mechanism of action data (e.g. from DrugBank)
+- Product Information warnings and contraindications
+- Preclinical or mechanistic evidence linking disopyramide to Tourette syndrome
+- A comparison against established Tourette syndrome therapies
+- A cardiac safety assessment for the target population
+
+**Alternative research direction:** The cardiac predictions (idiopathic neonatal atrial flutter and multifocal atrial tachycardia) fit disopyramide's pharmacology better and could be explored as research questions. They would still require dedicated evidence and a neonatal safety review.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

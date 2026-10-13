@@ -2,15 +2,15 @@
 layout: default
 title: Bivalirudin
 parent: Moderate Evidence (L3-L4)
-nav_order: 92
-evidence_level: L3
+nav_order: 99
+evidence_level: L4
 indication_count: 10
 ---
 
 # Bivalirudin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,105 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Bivalirudin: From Anticoagulation in PCI/HIT to Primary Release Disorder of Platelets
+# Bivalirudin: From Anticoagulation in Procedural Settings to Primary Release Disorder of Platelets
 
 ## One-Sentence Summary
 
-Bivalirudin is a direct thrombin inhibitor established as an anticoagulant during percutaneous coronary intervention (PCI) and in patients with heparin-induced thrombocytopenia (HIT), though it currently holds no TGA registration in Australia.
-The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**,
-with **5 clinical trials** and **1 publication** currently supporting this direction.
-This prediction is mechanistically plausible given the central role of thrombin in platelet activation and the particular advantage of Bivalirudin in platelet-compromised, heparin-intolerant settings.
+Bivalirudin is a direct thrombin inhibitor given intravenously as an anticoagulant. The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but the data compiled for this report contain **0 clinical trials** and only **1 case report**, and that report concerns a different condition (heparin-induced thrombocytopenia). The prediction is not supported by clinical data.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Anticoagulation during PCI; management of HIT/HITTS (established international use; no TGA registration) |
-| Predicted New Indication | Primary Release Disorder of Platelets |
+|------|------|
+| Original Indication | Not stated in the ARTG data compiled for this report (anticoagulant, direct thrombin inhibitor) |
+| Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 97.84% |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data from DrugBank is not currently available for this analysis. Based on established pharmacological knowledge, Bivalirudin is a synthetic 20-amino acid direct thrombin inhibitor (DTI) that binds both the active catalytic site and the anion-binding exosite 1 of thrombin, thereby blocking thrombin's capacity to cleave fibrinogen and to activate platelets via PAR-1 and PAR-4 receptors. Critically, unlike heparin, Bivalirudin does not require antithrombin III (AT-III) as a cofactor, giving it predictable pharmacokinetics and activity even in AT-III–deficient states.
+Detailed mechanism of action data is not available in the data compiled for this report. Bivalirudin is known as a direct thrombin inhibitor that acts on the coagulation cascade. It is used as an anticoagulant, including as an alternative where heparin cannot be used, such as in heparin-induced thrombocytopenia (HIT).
 
-Primary release disorder of platelets refers to a failure of dense granule and/or alpha granule secretion — the release step that amplifies platelet activation and recruits additional platelets to the growing thrombus. While this condition is fundamentally a haemostatic deficiency, the clinical challenge arises when such patients also require anticoagulation (e.g., during PCI, CABG, or ECMO), or when they develop concurrent heparin-induced thrombocytopenia. Heparin-induced thrombocytopenia (HIT) is itself a condition in which platelet activation and consumptive release occur in a pathologically uncontrolled manner — directly recapitulating the "platelet activation–release" axis that defines the predicted indication.
+The predicted condition is a platelet function disorder, which is a bleeding disorder. It does not involve excess thrombin activity. Bivalirudin's anticoagulant effect would add to bleeding risk rather than correct a platelet release defect. The only linked publication is a case report on spontaneous HIT, where bivalirudin is an established anticoagulant option. That is a different disorder, so the link to this prediction is indirect.
 
-The mechanistic link is therefore twofold: (1) Bivalirudin interrupts thrombin-mediated PAR-1 signalling, the strongest physiological trigger of platelet granule release, which is directly relevant to a release-amplification disorder; and (2) when patients with release dysfunction require procedural anticoagulation, Bivalirudin's AT-III independence, short half-life, and absence of immune platelet-depleting effects make it a safer alternative to unfractionated heparin. Both the clinical trials and the case report in this Evidence Pack centre on exactly this scenario, lending strong face validity to the TxGNN prediction.
+The high TxGNN score is best read as a knowledge-graph association with the platelet pathway, not as evidence of therapeutic benefit.
+
+### Other Predictions Reviewed
+
+The other nine predictions were also assessed. None has clinical trials, and all remain at Hold.
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
+|---|---|---|---|---|
+| 2 | Glanzmann thrombasthenia | 97.79% | L5 | A GPIIb/IIIa bleeding disorder. Anticoagulation would worsen bleeding. |
+| 3 | Pseudo-von Willebrand disease | 97.34% | L5 | A GPIbα gain-of-function bleeding disorder. No corrective action; counterproductive. |
+| 4 | Rheumatoid arthritis | 94.68% | L5 | A theoretical link through thrombin (PAR-1) signalling only. A short-acting IV drug is impractical for a chronic condition. |
+| 5 | Bleeding diathesis due to a collagen receptor defect | 93.46% | L5 | Does not compensate for the receptor defect; increases bleeding risk. |
+| 6 | Hemorrhagic disorder due to a constitutional thrombocytopenia | 93.42% | L5 | Does not treat a bleeding disorder; may worsen bleeding. |
+| 7 | Fetal and neonatal alloimmune thrombocytopenia | 93.12% | L5 | An immune mechanism, managed with IVIG, corticosteroids and platelet transfusion. An anticoagulant would be hazardous. |
+| 8 | Scott syndrome | 92.69% | L5 | Reduced thrombin generation is already the problem; further suppression is mechanistically unhelpful. |
+| 9 | Inherited thrombophilia | 92.23% | L4 | Biologically plausible as an alternative anticoagulant, but supported only by one case report of HIT with thrombosis. |
+| 10 | Platelet-type bleeding disorder | 91.89% | L5 | Would not correct platelet defects; increases bleeding risk. |
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---|---|---|---|---|
-| [NCT00043940](https://clinicaltrials.gov/study/NCT00043940) | Phase 3 | Completed | 50 | Assessed safety of Bivalirudin as an alternative anticoagulant in patients with new or prior HIT/HITTS undergoing PCI. HIT is a paradigmatic platelet activation–release pathology, making this the most directly relevant trial. |
-| [NCT00073580](https://clinicaltrials.gov/study/NCT00073580) | Phase 3 | Completed | 88 | Examined safety and efficacy of Bivalirudin (Angiomax) in HIT/HITTS Type II patients undergoing off-pump CABG (OPCAB). Validates Bivalirudin in surgical settings with impaired platelet release dynamics. |
-| [NCT00250471](https://clinicaltrials.gov/study/NCT00250471) | Phase 3 | Completed | 900 | Compared Bivalirudin versus eptifibatide ± heparin in high-risk PCI patients. Evaluated post-PCI microvascular dysfunction and ischaemia, providing large-scale safety and efficacy data in platelet-active interventional settings. |
-| [NCT01519518](https://clinicaltrials.gov/study/NCT01519518) | Phase 4 | Completed | 1,829 | Large pragmatic RCT comparing UFH versus Bivalirudin in primary PCI for STEMI, predominantly via radial access. Broad platelet-relevant anticoagulation context; GP IIb/IIIa inhibitors reserved for bail-out only. |
-| [NCT01270139](https://clinicaltrials.gov/study/NCT01270139) | N/A | Completed | 180 | First-in-man trial of silica-gold nanoparticle plasmonic photothermal therapy for atherosclerotic lesions (NANOM-FIM). Bivalirudin relevance is minimal; likely a data artefact from query overlap rather than a substantive trial for this indication. |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|---|---|---|---|---|
-| [35763168](https://pubmed.ncbi.nlm.nih.gov/35763168/) | 2022 | Case Report | Journal of Thrombosis and Thrombolysis | Describes spontaneous HIT in a COVID-19 patient presenting with acute limb ischaemia. IgG antibodies against heparin–PF4 complexes activated platelets causing a profoundly prothrombotic state — a spontaneous release-activation cascade. Underscores the clinical niche for Bivalirudin when heparin is absolutely contraindicated. |
+|------|-----|------|------|---------|
+| [35763168](https://pubmed.ncbi.nlm.nih.gov/35763168/) | 2022 | Case report | J Thromb Thrombolysis | Limb ischaemia from spontaneous heparin-induced thrombocytopenia as the first presentation of acute COVID-19 infection. This concerns HIT, not a platelet release disorder. |
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 8844L | BIVALIRUDIN ARX | Powder for I.V. injection 250 mg (as trifluoroacetate) | Not available in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Bivalirudin is not registered with the TGA and has no Australian Product Information (PI). Please refer to the current approved prescribing information from the US FDA (Bivalirudin / Angiomax) or the EMA for comprehensive safety data, including:
+- **Knowledge-graph contraindication signal**: The TxGNN knowledge graph records a contraindication with **intracranial haemorrhage**. This comes from graph data, not from label text.
+- **Drug Interactions**: The interaction query returned 100 entries. The first 20 reviewed include several rated **Major**:
+  - Anticoagulants and thrombolytics: fondaparinux, alteplase
+  - Antiplatelet agent: abciximab (Moderate)
+  - Targeted anticancer agents: acalabrutinib, trastuzumab emtansine
+  - Other Major entries: deferasirox, ibritumomab tiuxetan, tositumomab (including I-131)
+  - Moderate examples: NSAIDs (ketorolac, ibuprofen, topical diclofenac), fluvoxamine, sugammadex, fenfluramine, dexfenfluramine, sibutramine, radioiodine (I-123, I-131)
 
-- Known bleeding risks (major and minor haemorrhage)
-- Contraindications in active major bleeding
-- Dose adjustment requirements in renal impairment
-- Monitoring parameters (ACT, aPTT, haemoglobin, creatinine)
+  Many of these interactions raise bleeding risk, which is directly relevant to any bleeding-disorder indication.
 
-No drug–drug interaction data was retrieved for this Evidence Pack query.
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications, as these were not available in the data compiled for this report.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Two completed Phase 3 trials directly studying Bivalirudin in HIT/HITTS — a condition mechanistically anchored in platelet activation–release pathology — provide substantive evidence supporting safety and feasibility of use in platelet-release–disordered settings. The absence of TGA registration and the lack of dedicated trials for the specific ICD entity "primary release disorder of platelets" warrant cautious, protocol-governed progression rather than immediate adoption.
+- The prediction rests on a model score alone. Bivalirudin is an anticoagulant, and the top predictions are bleeding or platelet disorders in which anticoagulation would be mechanistically unhelpful and potentially harmful. The one linked publication is a case report on a different condition.
 
 **To proceed, the following is needed:**
-
-- **TGA regulatory pathway assessment**: Bivalirudin has no ARTG listing; a Special Access Scheme (SAS) Category B or clinical trial exemption (CTX) application would be required for Australian use in this indication.
-- **DrugBank MOA data**: Retrieve complete mechanism of action, pharmacokinetics, and toxicity profile via DrugBank API (DG002).
-- **Dedicated clinical evidence**: No published trial has prospectively enrolled patients specifically diagnosed with primary release disorder of platelets. A case series or registry study in this population is needed to satisfy L2 evidence requirements.
-- **Safety profile for platelet-release disorders**: Formal bleeding risk modelling in patients with compromised platelet granule secretion — who may have additive haemorrhagic risk when anticoagulated — is required before clinical use.
-- **Renal dosing guidance**: Bivalirudin is renally cleared; dosing protocols for patients with renal impairment who also have platelet release defects must be specified.
-- **ANZCTR registration**: Any prospective Australian study should be registered with the Australian New Zealand Clinical Trials Registry (ANZCTR) to ensure local regulatory visibility.
-
----
-
-> **Disclaimer**: This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require prospective clinical validation before clinical application. Healthcare professionals should exercise independent clinical judgement and refer to current approved product information.
+- A clear mechanistic rationale for how thrombin inhibition could benefit a platelet release disorder, with preclinical support
+- Retrieval of the TGA Product Information (approved indications, warnings and contraindications)
+- Mechanism of action data from DrugBank
+- Clinical expert review of whether the top predictions should be discarded as knowledge-graph artefacts
+- If any indication is pursued, a focus on the better-aligned hypothesis (inherited thrombophilia or HIT-related thrombosis) with a systematic literature review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

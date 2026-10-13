@@ -2,7 +2,7 @@
 layout: default
 title: Amitriptyline
 parent: Model Prediction Only (L5)
-nav_order: 42
+nav_order: 45
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,82 +29,135 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amitriptyline: From Major Depressive Disorder to Benign Paroxysmal Torticollis of Infancy
+# Amitriptyline: From Anxiety and Depressive Disorders to Benign Paroxysmal Torticollis of Infancy
 
 ## One-Sentence Summary
 
-Amitriptyline is a tricyclic antidepressant (TCA) first introduced in 1961 and globally established as a treatment for major depressive disorder, neuropathic pain, and migraine prophylaxis — though it currently holds no TGA registration in Australia.
-The TxGNN model predicts it may have utility in **Benign Paroxysmal Torticollis of Infancy (BPTI)**, a rare childhood condition considered a migraine equivalent,
-with **0 clinical trials** and **0 publications** directly supporting this direction — this is a computational-only prediction at this stage.
+Amitriptyline is a long-established tricyclic antidepressant, originally used for anxiety disorder, neurotic disorder, dysthymic disorder and mixed anxiety and depressive disorder.
+The TxGNN model's top-ranked prediction is **benign paroxysmal torticollis of infancy**, but this prediction has **no clinical trials and no publications** behind it.
+The best-supported predictions in the data compiled for this report are depression-related (major depressive disorder and unipolar depression), which are effectively existing uses rather than novel repurposing.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No TGA-approved indication in Australia; globally used for major depressive disorder, neuropathic pain, and migraine prophylaxis |
-| Predicted New Indication | Benign Paroxysmal Torticollis of Infancy |
+|------|------|
+| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder, mixed anxiety and depressive disorder (from the knowledge graph; the ARTG entry has no approved indication text) |
+| Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 97.72% |
-| Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+**Other predictions in the top 10:**
+
+| Rank | Predicted Indication | Score | Evidence Level | Recommendation |
+|---|---|---|---|---|
+| 2 | Endogenous depression | 97.71% | L3 | Research Question |
+| 3 | Agoraphobia | 97.27% | L4 | Hold |
+| 4 | Major depressive disorder | 96.85% | L1 | Proceed with Guardrails |
+| 5 | Ohdo syndrome and variants | 95.95% | L5 | Hold |
+| 6 | Melancholia | 95.52% | L3 | Research Question |
+| 7 | Neurotic depression | 95.48% | L3 | Research Question |
+| 8 | Phobic disorder | 94.68% | L4 | Hold |
+| 9 | Unipolar depression | 94.61% | L1 | Proceed with Guardrails |
+| 10 | Blepharophimosis - intellectual disability syndrome, Ohdo type | 94.47% | L5 | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on widely published pharmacological literature, amitriptyline is a tricyclic antidepressant that blocks presynaptic reuptake of serotonin (5-HT) and norepinephrine (NE), with additional off-target activity at histamine H1, muscarinic M1–M4, and alpha-1 adrenergic receptors. This broad receptor profile underpins its clinical utility across depression, chronic pain syndromes, and migraine prevention.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, amitriptyline is a tricyclic antidepressant that inhibits serotonin and norepinephrine reuptake and also acts on histaminergic and muscarinic receptors (as described in the literature, PMID 33438398). Its efficacy in depression and anxiety-related disorders is established.
 
-Benign Paroxysmal Torticollis of Infancy (BPTI) is a rare early-childhood disorder characterised by recurrent, self-limiting episodes of abnormal head tilt, typically accompanied by irritability, pallor, ataxia, and vomiting. Current paediatric neurology guidelines classify BPTI as a childhood migraine equivalent — a group of episodic syndromes sharing biological features with migraine, including serotonergic dysregulation and calcitonin gene-related peptide (CGRP) involvement.
+**Top-ranked prediction (benign paroxysmal torticollis of infancy):** This is a migraine-equivalent childhood disorder, so a link to amitriptyline's use in migraine prophylaxis is plausible. However, no trial or publication data support it. Paediatric safety, particularly anticholinergic and cardiac effects, would need separate evaluation.
 
-The indirect mechanistic rationale proposed by TxGNN is that amitriptyline's proven efficacy in migraine prophylaxis (via 5-HT/NE modulation and possible mild MAO inhibition) could theoretically extend to BPTI through their shared pathophysiological overlap. However, this reasoning is speculative and entirely unvalidated in clinical or preclinical settings. The high model score (97.72%) most likely reflects indirect knowledge graph propagation through intermediate nodes — amitriptyline → migraine prophylaxis → childhood migraine equivalents → BPTI — rather than direct biological or clinical evidence.
+**Depression-related predictions (ranks 2, 4, 6, 7, 9):** These are historical or overlapping subtypes of depression. Because dysthymic disorder and mixed anxiety-depression are already original indications, these predictions are consistent with existing use and offer little novel repurposing value. They are best handled under major depressive disorder.
+
+**Anxiety and phobia predictions (ranks 3, 8):** Serotonergic and noradrenergic antidepressants are used in these conditions, but the retrieved literature mostly concerns other drugs. There is no direct controlled amitriptyline evidence.
+
+**Ohdo syndrome predictions (ranks 5, 10):** These are rare genetic syndromes with no plausible mechanistic path from amitriptyline's pharmacology. They are likely knowledge-graph artefacts.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for amitriptyline in Benign Paroxysmal Torticollis of Infancy.
+There are no registered trials for the top-ranked prediction. The table below shows the trials linked to major depressive disorder, the best-supported prediction (the same set also applies to unipolar depression).
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02014363](https://clinicaltrials.gov/study/NCT02014363) | Phase 2 | Completed | 164 | Double-blind non-inferiority study of ETS6103 vs amitriptyline in MDD after unsatisfactory SSRI response |
+| [NCT00351910](https://clinicaltrials.gov/study/NCT00351910) | Phase 3 | Completed | 494 | Quetiapine XR add-on to an antidepressant vs antidepressant alone in MDD; amitriptyline's role is not confirmed |
+| [NCT01049347](https://clinicaltrials.gov/study/NCT01049347) | Phase 3 | Completed | 127 | HPA-axis and mineralocorticoid receptor study during amitriptyline and paroxetine treatment; mechanistic focus |
+| [NCT02237937](https://clinicaltrials.gov/study/NCT02237937) | Phase 4 | Unknown | 80 | ABCB1 genotype-guided dose escalation of antidepressants |
+| [NCT05952713](https://clinicaltrials.gov/study/NCT05952713) | N/A | Completed | 73,336 | Real-world comparison of 15 antidepressants in MDD |
+| [NCT00325000](https://clinicaltrials.gov/study/NCT00325000) | N/A | Terminated | Not reported | Interpersonal psychotherapy plus pharmacotherapy in severely depressed inpatients |
+
+No ANZCTR identifiers were available in the data compiled for this report.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for amitriptyline in Benign Paroxysmal Torticollis of Infancy.
+For the top-ranked prediction (benign paroxysmal torticollis of infancy), currently no related literature is available. The table below lists key publications for major depressive disorder.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | Network meta-analysis | Lancet | Comparative efficacy and acceptability of 21 antidepressants in adult MDD |
+| [23235671](https://pubmed.ncbi.nlm.nih.gov/23235671/) | 2012 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Amitriptyline versus placebo for MDD |
+| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | Network meta-analysis | Mol Psychiatry | Antidepressants in the maintenance phase of MDD |
+| [38902199](https://pubmed.ncbi.nlm.nih.gov/38902199/) | 2025 | Dose-response meta-analysis | Chin Med J | Efficacy and dose-response of antidepressants in acute MDD |
+| [41290573](https://pubmed.ncbi.nlm.nih.gov/41290573/) | 2025 | Network meta-analysis | Transl Psychiatry | Gastrointestinal effects of antidepressants in MDD |
+| [10565798](https://pubmed.ncbi.nlm.nih.gov/10565798/) | 1999 | RCT | Int Clin Psychopharmacol | Fluoxetine vs amitriptyline in anxious depression |
+| [7862904](https://pubmed.ncbi.nlm.nih.gov/7862904/) | 1994 | RCT | Psychopharmacology | Nefazodone vs amitriptyline in 106 depressed inpatients; amitriptyline was superior |
+| [8739658](https://pubmed.ncbi.nlm.nih.gov/8739658/) | 1996 | RCT | Acta Psychiatr Scand | Paroxetine vs amitriptyline in general practice (n=144); equal efficacy |
+| [33438398](https://pubmed.ncbi.nlm.nih.gov/33438398/) | 2021 | Review | ACS Chem Neurosci | Pharmacology of amitriptyline, including its cardiotoxicity concern |
+| [38856993](https://pubmed.ncbi.nlm.nih.gov/38856993/) | 2024 | Review | JAMA | Management of depression in adults |
 
 ---
 
 ## Australia Market Information
 
-Amitriptyline is currently not listed on the Australian Register of Therapeutic Goods (ARTG). There are no ARTG entries for this drug in Australia. Use of amitriptyline in Australian clinical practice would currently require access via the TGA Special Access Scheme (SAS) Category B or the Authorised Prescriber pathway.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 2417F | ENTRIP | Tablet containing amitriptyline hydrochloride 10 mg (oral) | Not specified in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+**Contraindications recorded in the knowledge graph** (these come from drug-disease contraindication edges, not from label text):
+- Cardiac and conduction: long QT syndrome (including familial), torsades de pointes
+- Blood pressure: orthostatic hypotension, postural orthostatic tachycardia syndrome, multiple system atrophy
+- Neurological: epilepsy, basal ganglia disease, focal hand dystonia, blepharospasm
+- Psychiatric: manic bipolar affective disorder, psychotic disorders, schizophreniform and schizoaffective disorders, substance abuse/dependence
+- Metabolic and organ: porphyria (inherited), kidney disease, liver disease, gallbladder disease, hyperglycaemia, pyoureter
+- Haematological: thrombocytopenia, neutropenia, agranulocytosis
+- Other: open-angle glaucoma, benign prostatic hyperplasia, female breast carcinoma
+
+**Drug Interactions:** 100 interactions were recorded in total. Examples classed as **Major** include epinephrine, bupropion, cisapride, dexfenfluramine, dolasetron and ephedrine. Examples classed as Moderate include famotidine, cimetidine, clarithromycin, atropine, dicyclomine, activated charcoal and the sulfonylureas acetohexamide and chlorpropamide.
+
+**Other points from the literature:** cardiotoxicity, anticholinergic effects, poorer tolerability than many alternatives, overdose toxicity, and a case report of recreational abuse.
+
+Please refer to the TGA-approved Product Information (PI) for label warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** (for the top-ranked prediction, benign paroxysmal torticollis of infancy)
 
 **Rationale:**
-There is no clinical trial or published literature directly supporting amitriptyline for Benign Paroxysmal Torticollis of Infancy; the TxGNN prediction rests entirely on indirect computational inference through migraine-related knowledge graph pathways, with no clinical or preclinical validation in this paediatric population.
+- The prediction is model-only (L5), with no trials or literature. The migraine-equivalent link is plausible but unsupported by data, and paediatric safety is a concern.
+- The depression-related predictions (major depressive disorder and unipolar depression, L1) could be rated **Proceed with Guardrails**, but they are essentially existing uses rather than novel repurposing. Guardrails include anticholinergic burden, cardiac conduction/QT effects, overdose risk and the high interaction burden.
 
 **To proceed, the following is needed:**
-- Mechanism of action data confirmed from DrugBank or equivalent authoritative source
-- Safety and pharmacokinetic profile for paediatric and infant use (BPTI affects children under 5 years)
-- Any published case series or observational data on TCAs in BPTI or closely related childhood migraine equivalents
-- TGA regulatory pathway assessment for a paediatric indication in Australia
-- Paediatric neurologist consultation and independent ethics review prior to any clinical consideration
-- Systematic review of migraine-equivalent treatment literature to identify whether any TCA data is available as a proxy
-
----
-
-> ⚠️ **Disclaimer:** This report is intended for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All content should be evaluated by qualified healthcare professionals in accordance with applicable Australian regulatory standards.
+- Product Information warnings and contraindications for the Australian product (a blocking gap for safety screening)
+- Mechanism of action data
+- Approved indication text for the ARTG entry
+- For benign paroxysmal torticollis of infancy: literature or case-series evidence on amitriptyline or related migraine prophylaxis in children, plus a paediatric cardiac and anticholinergic safety assessment
+- For the depression-related indications: confirmation of amitriptyline's role in the Phase 3 trials (NCT00351910, NCT01049347), whose titles do not show the arms clearly
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

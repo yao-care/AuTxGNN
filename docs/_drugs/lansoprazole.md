@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lansoprazole
-parent: Model Prediction Only (L5)
-nav_order: 383
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 412
+evidence_level: L4
 indication_count: 10
 ---
 
 # Lansoprazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,87 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the evidence pack as provided, here is the evaluation report.
-
-# Lansoprazole: From Acid-Related Disorders to Duodenogastric Reflux
+# Lansoprazole: From Gastric Ulcer and Acid-Related Disorders to Duodenogastric Reflux
 
 ## One-Sentence Summary
 
-Lansoprazole is a proton pump inhibitor (PPI) traditionally used for acid-related gastrointestinal conditions such as peptic ulcer disease and gastro-oesophageal reflux. The TxGNN model's highest-ranked prediction for this drug is **Duodenogastric Reflux**, but this direction is currently supported by only **0 clinical trials** and **2 publications** — one of which is a preclinical signal suggesting possible harm rather than benefit. On the strength of the available evidence, this candidate should be placed on **Hold**.
-
----
+Lansoprazole is a proton pump inhibitor originally used for gastric and duodenal ulcers, reflux disease, esophagitis and Zollinger-Ellison syndrome.
+The TxGNN model predicts it may be effective for **duodenogastric reflux**, but there are **no registered clinical trials** and only **1 general review** supporting this direction, so the evidence is weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not captured in the structured data for this candidate (no ARTG license text or original-indication field populated) |
-| Predicted New Indication | Duodenogastric Reflux |
+| Original Indication | Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis, duodenal ulcer, Zollinger-Ellison syndrome (the approved indication text on the Australian licence entry is blank) |
+| Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 99.69% |
-| Evidence Level | L5 |
-| Australia Market Status | Not marketed (not currently registered) |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the structured drug record (original MOA = Data Gap). Based on the literature captured in this evidence pack, lansoprazole is a benzimidazole-derived proton pump inhibitor that irreversibly blocks the gastric H⁺/K⁺-ATPase in parietal cells, reducing gastric acid secretion regardless of the triggering stimulus. This mechanism underlies its established use in acid-related conditions.
+Detailed mechanism of action data is not available in the data compiled for this report. Lansoprazole belongs to the proton pump inhibitor class, which suppresses gastric acid by inhibiting the gastric H+/K+-ATPase. Its efficacy in acid-related upper gastrointestinal disease is well established.
 
-However, duodenogastric reflux is primarily driven by retrograde flow of alkaline duodenal contents (bile acids, pancreatic enzymes) into the stomach — a bile-mediated process, not an acid-hypersecretory one. Reducing gastric acid with a PPI does not address this underlying pathophysiology, and there is no mechanistic reason to expect lansoprazole to resolve the reflux itself.
+Duodenogastric (bile) reflux is mainly a problem of motility and pyloric function, not of acid secretion. Acid suppression may ease symptoms from associated mucosal injury, but it does not address the underlying cause. The high TxGNN score probably reflects the proximity of this condition to approved upper gastrointestinal indications in the knowledge graph. The only supporting publication is a general review of proton pump inhibitors, with no direct evidence for this condition.
 
-More concerning, the single preclinical study identified for this candidate (PMID 15052437) found that lansoprazole *promoted* gastric carcinogenesis in a rat model of duodenogastric reflux — i.e., acid suppression combined with reflux may have accelerated malignant change rather than provided benefit. This is a potential negative signal, not supportive evidence, and it is the main reason this candidate does not currently meet the bar for progression.
+The other top-ranked predictions are summarised below to give context.
 
----
+| Rank | Predicted Indication | Score | Evidence Level | Decision |
+|------|------|------|------|------|
+| 2 | Duodenal obstruction | 99.68% | L5 | Hold |
+| 3 | Peptic ulcer perforation | 98.80% | L4 | Research question |
+| 4 | Gastrojejunal ulcer | 98.80% | L4 | Research question |
+| 5 | Abnormality of glucagon secretion | 98.60% | L5 | Hold |
+| 6 | Gastroduodenitis | 97.57% | L3 | Proceed with Guardrails |
+| 7 | Acne | 97.00% | L5 | Hold |
+| 8 | Smouldering systemic mastocytosis | 95.61% | L5 | Hold |
+| 9 | Leather-bottle stomach | 94.74% | L5 | Hold |
+| 10 | Duodenitis | 94.67% | L3 | Proceed with Guardrails |
+
+Gastroduodenitis and duodenitis have the most plausible rationale, but both overlap substantially with existing ulcer and esophagitis indications. They would add little as new indications.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for duodenogastric reflux.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15052437](https://pubmed.ncbi.nlm.nih.gov/15052437/) | 2004 | Animal study (negative signal) | Gastric Cancer | In rats, combined duodenogastric reflux and acid inhibition with lansoprazole was associated with promotion of gastric carcinogenesis — a cautionary preclinical finding, not a supportive one. |
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review (general PPI pharmacology) | European Journal of Clinical Pharmacology | General review of PPI clinical use and pharmacokinetics across peptic ulcer, *H. pylori* infection, GORD, NSAID-induced GI lesions, and Zollinger-Ellison syndrome; does not address duodenogastric reflux specifically. |
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | Eur J Clin Pharmacol | Update on proton pump inhibitors as first-choice drugs for peptic ulcer, H. pylori infection, GORD, NSAID-related lesions and Zollinger-Ellison syndrome. It does not address duodenogastric reflux directly. |
 
----
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11669E | Zopral | Capsule 30 mg (oral) | Not stated in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Contraindication signals from the knowledge graph (not label text):** The graph links lansoprazole to a broad set of conditions, including long QT syndrome and torsades de pointes, liver failure and liver disease, kidney disease, porphyria, osteoporosis, cardiovascular and cerebrovascular events (myocardial infarction, stroke), anaemia, blood coagulation disease, Clostridium difficile colitis and myasthenia gravis. These are graph associations, not confirmed contraindications, and need verification against the Product Information.
+- **Drug Interactions:** 100 interactions were identified, and the entries reviewed include:
+  - **Major:** acalabrutinib, atazanavir.
+  - **Moderate:** hydrochlorothiazide, atorvastatin, fenofibrate, bromocriptine, apalutamide, aprepitant, bosutinib, brigatinib, amphetamine, amikacin, ampicillin, amphotericin B and abametapir (topical).
+  - **Minor:** acetylsalicylic acid, axitinib, brivaracetam, cyanocobalamin.
+- A published case report describes lansoprazole-associated thrombocytopenia (PMID 11978156).
 
-*(Note: key warnings, contraindications, and drug–drug interaction data were not available in this evidence pack — this is logged as a Blocking data gap, see Next Steps.)*
-
----
+Please also refer to the TGA-approved Product Information (PI) for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication (duodenogastric reflux) is not mechanistically well-matched to lansoprazole's acid-suppressive action, and the only direct preclinical evidence available raises a potential safety signal (promotion of gastric carcinogenesis in the reflux setting) rather than supporting efficacy. With no clinical trials and only one general review in the literature base, the evidence level is L5 (model prediction only).
+Acid suppression does not address the cause of duodenogastric reflux, and there are no trials and no direct literature. The prediction rests on model proximity alone (L4).
 
 **To proceed, the following is needed:**
-- TFDA/TGA-approved product label (warnings, contraindications) — currently a **Blocking** data gap preventing any S1 safety assessment
-- Confirmed mechanism of action data for this candidate record
-- Any dedicated clinical or mechanistic studies evaluating PPI therapy specifically in duodenogastric (bile) reflux, ideally clarifying whether the rat carcinogenesis signal has human relevance
-- Given the negative/weak evidence for this top-ranked prediction, consideration should be given to reviewing other candidates in the same evidence pack with comparatively stronger evidence levels (e.g., peptic ulcer perforation, duodenitis, and gastroduodenitis — all rated L3, "Research Question" stage) as potentially more promising repurposing directions for this drug.
+- Direct clinical evidence (trials or cohort studies) of lansoprazole in duodenogastric reflux
+- Mechanism of action data and a clearer rationale beyond acid suppression
+- Product Information warnings and contraindications from the TGA, plus the approved indication text for the ARTG entry
+- Route and formulation compatibility assessment
+- Consideration of lower-risk candidates such as gastroduodenitis or duodenitis, noting their overlap with existing indications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

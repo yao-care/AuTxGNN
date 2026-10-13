@@ -2,7 +2,7 @@
 layout: default
 title: Mecasermin
 parent: Model Prediction Only (L5)
-nav_order: 418
+nav_order: 450
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,34 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mecasermin: From Severe Primary IGF-1 Deficiency to Monosomy X (Turner Syndrome)
+# Mecasermin: From Growth Hormone Insensitivity Syndrome to Monosomy X
 
 ## One-Sentence Summary
 
-Mecasermin (recombinant human IGF-1, DrugBank DB01277) is used for severe primary IGF-1 deficiency / growth failure due to growth hormone insensitivity. The TxGNN model predicts it may be effective for **Monosomy X (Turner syndrome)**, but this direction is currently supported by **no clinical trials and no published literature** — it is a model-only prediction.
+Mecasermin is a recombinant form of insulin-like growth factor 1 (IGF-1), originally used for growth hormone insensitivity syndrome (including Laron syndrome).
+The TxGNN model predicts it may be effective for **monosomy X (Turner syndrome)**, but **no clinical trials and no publications** were identified to support this prediction, so it is a computational signal only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Severe primary IGF-1 deficiency (GH receptor/signalling defect) — not confirmed by a registered product label; MOA and label data are not yet available |
-| Predicted New Indication | Monosomy X (Turner syndrome) |
+| Original Indication | Growth hormone insensitivity syndrome; Laron syndrome (from the TxGNN knowledge graph, as no approved indication text was available for the ARTG entry) |
+| Predicted New Indication | Monosomy X |
 | TxGNN Prediction Score | 99.59% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this candidate. Based on known pharmacology, mecasermin is recombinant human IGF-1, approved for severe primary IGF-1 deficiency — a condition arising from growth hormone receptor or post-receptor signalling defects — where it bypasses the defective GH receptor pathway and directly stimulates growth via the IGF-1 axis.
+Currently, detailed mechanism of action data is not available. Based on known information, mecasermin is an IGF-1 replacement, its use in growth hormone insensitivity (severe primary IGF-1 deficiency) is established, and mechanistically it may be relevant to other conditions of impaired growth.
 
-Turner syndrome (monosomy X) commonly presents with short stature, and clinicians occasionally observe a suboptimal growth response to standard GH therapy in some patients, which provides a loose rationale for exploring IGF-1 pathway involvement. However, monosomy X is a chromosomal disorder, not itself an IGF-1 deficiency state, so this link is an indirect inference about the growth axis rather than a direct molecular mechanism match. By comparison, another candidate in this evidence pack — growth hormone insensitivity syndrome with immune dysregulation — sits much closer to mecasermin's approved mechanism (GH receptor/IGF-1 axis defect), though the immune-dysregulation subtype itself remains unvalidated.
+Monosomy X (Turner syndrome) is characterised by short stature, and the growth axis is connected to IGF-1 biology. However, Turner syndrome is typically not a state of GH/IGF-1 insensitivity, and it is usually managed with growth hormone. The high score (0.996) is therefore a computational prediction only, and the mechanistic link is weak.
 
-Given the absence of any clinical trial or literature evidence specific to mecasermin in monosomy X, this prediction should be treated as a hypothesis-generating signal only, not as evidence of clinical efficacy.
+Other conditions in the top 10 predictions have little or no biological rationale:
+- **Growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant** (score 99.06%) is the closest mechanistic match, being a GH-insensitivity subtype (STAT5B-related). It is likely a subtype of the existing indication rather than a true repurposing candidate, and label coverage should be verified manually.
+- Predictions such as Wolman disease, cholesteryl ester storage disease, Gaucher disease, esophageal varices (bleeding and non-bleeding, which appear to be duplicate entries), ichthyosis syndrome, varicose disease and congenital pulmonary lymphangiectasia show no identified mechanistic link and likely reflect network-level associations in the knowledge graph.
 
 ## Clinical Trial Evidence
 
@@ -65,24 +68,34 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-Mecasermin is not currently marketed in Australia and has no ARTG entries on record. No approved product information is available to reference for local labelling, indications, or dosing.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13116H | Increlex | Solution for injection 40 mg in 4 mL (10 mg per mL) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No warnings, contraindications, or drug interaction data are currently available for this candidate in the evidence pack.
+**Drug Interactions:** 24 interactions were recorded, all rated Moderate. They involve glucose-lowering agents, which is consistent with the hypoglycaemia risk of mecasermin:
+- **Sulfonylureas:** chlorpropamide, acetohexamide, glimepiride, glipizide, glyburide
+- **Meglitinide:** nateglinide
+- **Insulins:** human (regular, isophane, zinc, zinc extended, inhaled rapid-acting), aspart (including protamine), degludec, detemir, glargine, glulisine, lispro (including protamine)
+
+Only 20 of the 24 interactions were listed in the data compiled for this report.
+
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications. Known concerns for mecasermin, noted in the rationale for varicose disease, include hypoglycaemia, intracranial hypertension and tissue proliferation.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is supported only by a TxGNN model score (Evidence Level L5) with zero clinical trials, zero publications, and no Australian market presence. Core safety data (warnings/contraindications) are also missing and flagged as a blocking data gap, so this candidate cannot yet proceed to a safety pre-assessment.
+The prediction rests only on a model score, with no clinical trials or literature. The mechanistic link is weak, because Turner syndrome is not usually a GH/IGF-1 insensitivity state and is already managed with growth hormone. The safety profile (hypoglycaemia, intracranial hypertension, tissue proliferation) also calls for evidence before any new use.
 
 **To proceed, the following is needed:**
-- TGA/TFDA Product Information — warnings, contraindications, and safety data (DG001, blocking)
-- Documented mechanism of action for mecasermin (DG002)
-- Confirmed original approved indication and label text (currently absent from structured regulatory data)
-- Any preclinical or mechanistic studies linking IGF-1 signalling to Turner syndrome growth outcomes, to move evidence beyond L5
+- Mechanism of action data for mecasermin
+- The TGA Product Information, including approved indication, warnings and contraindications
+- A systematic literature and trial registry search (including ANZCTR) for mecasermin in Turner syndrome
+- Manual review of the STAT5B-related GH insensitivity subtype to check whether it already falls within the approved indication
+- Clinical input on whether IGF-1 therapy has any role alongside standard growth hormone treatment in Turner syndrome
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

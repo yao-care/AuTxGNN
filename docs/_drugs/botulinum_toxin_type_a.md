@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Botulinum Toxin Type A
-parent: High Evidence (L1-L2)
-nav_order: 97
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 104
+evidence_level: L5
 indication_count: 10
 ---
 
 # Botulinum Toxin Type A
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,118 +29,123 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Botulinum Toxin Type A: From Focal Dystonia to Parkinsonian Disorder
+# Botulinum Toxin Type A: From an Unspecified Original Indication to Parkinsonian Disorder
 
 ## One-Sentence Summary
 
-Botulinum toxin type A (BTX-A) is a locally-acting neurotoxin with established global use in focal dystonia, spasticity, and autonomic disorders; however, its current ARTG registration status in Australia could not be confirmed from the dataset and requires direct TGA verification.
-
-The TxGNN model predicts it may be effective for **Parkinsonian Disorder** — encompassing the spectrum of Parkinson's disease and related conditions — with **two completed Phase 3 multicenter RCTs** (combined n=371) and multiple Phase 2/4 completed studies across sialorrhoea, focal dystonia, overactive bladder, and tremor underpinning L1 evidence.
-
-> **Note on TxGNN Ranking:** The model's top-scored prediction (primary hereditary glaucoma, 89.37%) is mechanistically implausible — hereditary glaucoma is driven by MYOC/CYP1B1 gene defects, not cholinergic pathways — and the sole retrieved trial is an entirely unrelated study in neurogenic bladder; this prediction is rated **L5 / Hold**. The most clinically actionable prediction is **Parkinsonian Disorder (score 88.84%, L1 evidence)**, which is the focus of this report.
+Botulinum toxin type A is a neuromuscular-blocking agent marketed in Australia as Botox, but the approved indication text was not available in the data compiled for this report.
+The TxGNN model's top-ranked prediction is **primary hereditary glaucoma**, which has no supporting evidence. The best-supported prediction is **parkinsonian disorder** (rank 2), with **6 clinical trials** (one completed Phase 3) and **11 publications** retrieved.
+For Parkinson's-related use, the evidence supports symptom-specific benefit (for example, sialorrhea), not disease modification.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Focal dystonia and spasticity (established in international markets; ARTG registration not confirmed in current dataset) |
-| Predicted New Indication | Parkinsonian Disorder |
-| TxGNN Prediction Score | 88.84% |
-| Evidence Level | L1 |
-| Australia Market Status | Not confirmed (ARTG query returned 0 entries — verify with TGA directly) |
-| Number of ARTG Entries | 0 (as per automated query; brand-name search recommended) |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Not available in the data compiled for this report |
+| Predicted New Indication | Primary hereditary glaucoma (rank 1, no supporting evidence). Best-supported: parkinsonian disorder (rank 2) |
+| TxGNN Prediction Score | 89.37% (primary hereditary glaucoma); 88.84% (parkinsonian disorder) |
+| Evidence Level | L5 (primary hereditary glaucoma); L1 (parkinsonian disorder) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold for the top-ranked glaucoma prediction. Proceed with Guardrails for symptom-specific Parkinson's indications (see Conclusion) |
+
+The top-ranked prediction has only a model score behind it. The remainder of this report therefore focuses on parkinsonian disorder (rank 2), the highest-ranked prediction with substantive evidence.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-BTX-A works by irreversibly cleaving SNARE proteins at peripheral cholinergic nerve terminals, blocking the vesicular release of acetylcholine (ACh). The result is a focal, dose-dependent, and fully reversible paralysis of striated muscle or suppression of glandular secretion, lasting approximately three to four months. This mechanism is entirely peripheral — BTX-A does not cross the blood–brain barrier and does not interfere with central dopaminergic pathways, making it an ideal adjunct to standard Parkinson's disease (PD) pharmacotherapy.
+**Primary hereditary glaucoma (rank 1).** Botulinum toxin A blocks presynaptic acetylcholine release at neuromuscular and autonomic junctions. This has no established link to trabecular outflow resistance or intraocular pressure regulation. There are no trials or publications, so the prediction is a model output only. Open-angle glaucoma (ranks 3 and 5) is in the same position.
 
-Parkinsonian disorders generate multiple disabling symptoms that are driven by localised cholinergic overactivity at target organs rather than by dopamine deficiency. Sialorrhoea results from hyperactive parotid and submandibular glands; focal foot dystonia arises from abnormal ACh-mediated muscle contraction; neurogenic overactive bladder (OAB) stems from detrusor overactivity via muscarinic signalling; and rest tremor involves pathologically amplified efferent motor output. Each of these is a direct substrate for BTX-A intervention via targeted injection — without altering levodopa doses, risking drug–drug interactions, or modifying the underlying neurodegeneration.
+**Parkinsonian disorder (rank 2).** Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, botulinum toxin A causes localised chemodenervation, reducing cholinergic transmission in target tissues. It does not treat the underlying neurodegeneration. Its plausible benefit lies in specific symptoms:
 
-The mechanistic rationale is strongly supported by clinical data. A 2023 systematic review and meta-analysis (PMID 37828600) confirmed BTX efficacy and safety for sialorrhoea in PD across multiple studies. International consensus dosing guidelines (PMID 33635442) endorse BTX-A for PD-associated dystonia and spasticity. A further 2023 systematic review of motor disorder applications in PD (PMID 36828396) describes validated injection techniques for tremor and foot dystonia. Two completed Phase 3 multicenter RCTs establish the highest level of evidence for the salivary gland application, and completed Phase 2 and Phase 4 studies confirm feasibility for tremor, dystonia, and OAB. Importantly, BTX-A is already approved in the USA, EU, UK, and several Asian markets for specific PD-related indications — Australia's alignment with these jurisdictions is a reasonable regulatory pathway.
+- Sialorrhea (reduced salivary gland cholinergic drive)
+- Dystonic muscles (foot dystonia, camptocormia)
+- Tremor-generating muscles
+
+The Phase 3 trial NCT02091739 is the most relevant study. Its title describes "chronic troublesome sialorrhea in various neurological conditions", so its direct applicability to Parkinson's disease should be confirmed. The sialorrhea literature (2001 to 2015) is consistent with this direction.
+
+Other predictions are weak: bronchitis (rank 9) appears to be a spurious match, and insomnia (rank 4) rests on a comorbidity association in blepharospasm rather than treatment evidence. Restless legs syndrome (rank 6) has a plausible but speculative mechanism (reduced muscle afferent input) and limited, low-quality evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
+Trials for parkinsonian disorder:
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01994109](https://clinicaltrials.gov/study/NCT01994109) | Phase 3 | Completed | 187 | Multicenter, double-blind, placebo-controlled RCT of MYOBLOC® (rimabotulinumtoxinB) for troublesome sialorrhoea in neurological conditions including PD; direct injection into salivary glands; highest-grade evidence in this analysis |
-| [NCT02091739](https://clinicaltrials.gov/study/NCT02091739) | Phase 3 | Completed | 184 | NT 201 (incobotulinumtoxinA) 75 U vs 100 U vs placebo for chronic sialorrhoea in various neurological conditions; confirmed dose-response and class-level effect across BTX-A formulations |
-| [NCT04948684](https://clinicaltrials.gov/study/NCT04948684) | Observational | Completed | 63 | Cohort study with patient-reported outcomes evaluating BTX-A for focal dystonia in PD and atypical parkinsonism; largest real-world PD dystonia dataset in this analysis |
-| [NCT04277247](https://clinicaltrials.gov/study/NCT04277247) | Phase 2/3 | Unknown | 40 | OnabotulinumtoxinA (Botox®) for foot dystonia–associated pain in PD; randomised, double-blind, placebo-controlled design |
-| [NCT00909883](https://clinicaltrials.gov/study/NCT00909883) | Phase 3 | Unknown | 45 | BTX-A in extrinsic vs intrinsic foot flexor muscles for PD foot dystonia; addresses optimal injection site to maximise clinical response |
-| [NCT03301272](https://clinicaltrials.gov/study/NCT03301272) | Phase 2 | Completed | 16 | OnabotulinumtoxinA for medically refractory rest tremor in PD; pilot feasibility study using targeted muscle selection; n=16 who met UK Brain Bank criteria |
-| [NCT01421719](https://clinicaltrials.gov/study/NCT01421719) | Phase 4 | Completed | 20 | BTX-A intradetrusor injection for neurogenic OAB in PD; demonstrated safety and urodynamic improvement in a population where anticholinergics carry cognitive risk |
-| [NCT05997043](https://clinicaltrials.gov/study/NCT05997043) | Early Phase 1 | Recruiting | 60 | Ongoing RCT of intramuscular BTX-A for OAB in PD; builds on NCT01421719 with formal randomisation and larger cohort |
-| [NCT06094309](https://clinicaltrials.gov/study/NCT06094309) | Pilot | Unknown | 20 | Randomised pilot of BTX-A for freezing of gait in PD; explores the non-dopaminergic contribution of local muscle tone to this treatment-resistant symptom |
-| [NCT02668497](https://clinicaltrials.gov/study/NCT02668497) | Phase 2 | Unknown | 50 | Kinematic-guided BTX-A for upper-limb tremor in PD; develops objective injection-site selection methodology using multi-sensor assessment tools |
+| [NCT02091739](https://clinicaltrials.gov/study/NCT02091739) | Phase 3 | Completed | 184 | Randomised, double-blind, placebo-controlled study of NT 201 (75 U or 100 U) for chronic troublesome sialorrhea in neurological conditions. Results not provided in the data compiled |
+| [NCT04277247](https://clinicaltrials.gov/study/NCT04277247) | Phase 2/3 | Unknown | 40 | Randomised, double-blind, placebo-controlled study of foot dystonia-associated pain in Parkinson's disease |
+| [NCT02668497](https://clinicaltrials.gov/study/NCT02668497) | Phase 2 | Unknown | 50 | Kinematic-guided injection for upper-limb Parkinson's tremor |
+| [NCT06094309](https://clinicaltrials.gov/study/NCT06094309) | Not applicable | Unknown | 20 | Randomised pilot study for freezing of gait |
+| [NCT00477802](https://clinicaltrials.gov/study/NCT00477802) | Phase 4 | Terminated | 8 | Cervical injections for levodopa-induced dyskinesia; underpowered |
+| [NCT03069911](https://clinicaltrials.gov/study/NCT03069911) | Phase 1 | Terminated | 3 | Depression in Parkinson's disease; uninformative |
+
+No ANZCTR identifiers were found in the data compiled. Trials for glaucoma, insomnia, restless legs syndrome and the other predictions: currently no related clinical trials registered (the one trial linked to bronchitis concerned back muscle function and is not relevant).
 
 ---
 
 ## Literature Evidence
 
+Selected publications for Parkinson's disease and parkinsonian disorders:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37828600](https://pubmed.ncbi.nlm.nih.gov/37828600/) | 2023 | Systematic Review & Meta-analysis | BMC Pharmacology & Toxicology | Confirmed efficacy and safety of BTX injection for sialorrhoea in PD; supports use across serotypes and formulations |
-| [36828396](https://pubmed.ncbi.nlm.nih.gov/36828396/) | 2023 | Systematic Review | Toxins | Comprehensive review of BTX efficacy in PD motor disorders including tremor, foot dystonia, rigidity, and freezing of gait; describes validated Yale and Western University injection techniques |
-| [36828479](https://pubmed.ncbi.nlm.nih.gov/36828479/) | 2023 | Review | Toxins | Role of BTX-A for neurogenic OAB and voiding dysfunction in PD and post-stroke; reinforces bladder injection as a safe and effective option where anticholinergics are poorly tolerated |
-| [33635442](https://pubmed.ncbi.nlm.nih.gov/33635442/) | 2021 | Clinical Practice Guideline | Journal of Neural Transmission | International consensus dosing algorithms and injection tables for BTX in dystonia and spasticity; directly applicable to PD-associated focal presentations |
-| [29334040](https://pubmed.ncbi.nlm.nih.gov/29334040/) | 2018 | RCT | Canadian Journal of Neurological Sciences | Randomised, double-blind, crossover trial of BTX-A for limb pain in advanced PD; demonstrated analgesic benefit in dystonia-driven pain |
-| [30237473](https://pubmed.ncbi.nlm.nih.gov/30237473/) | 2018 | Review | Nature Reviews Disease Primers | Authoritative dystonia primer including PD-associated dystonia; contextualises BTX-A as standard of care for focal presentations |
-| [26327120](https://pubmed.ncbi.nlm.nih.gov/26327120/) | 2015 | Retrospective Study | Toxicon | Long-term safety and efficacy of BTX-A and BTX-B for sialorrhoea; supports sustained repeat-injection use in chronic neurological patients |
-| [16440332](https://pubmed.ncbi.nlm.nih.gov/16440332/) | 2006 | RCT | Movement Disorders | Pioneering double-blind, randomised, placebo-controlled BTX-A parotid injection for drooling in PD (n=32); established foundational efficacy evidence for salivary gland BTX-A in this population |
+| [16440332](https://pubmed.ncbi.nlm.nih.gov/16440332/) | 2006 | RCT | Movement Disorders | Double-blind, placebo-controlled study (32 patients, 50 U Botox per parotid gland); reduced drooling frequency and associated disability |
+| [29334040](https://pubmed.ncbi.nlm.nih.gov/29334040/) | 2018 | RCT (crossover) | Can J Neurol Sci | Botulinum toxin A versus placebo for limb pain in advanced Parkinson's disease |
+| [16995596](https://pubmed.ncbi.nlm.nih.gov/16995596/) | 2006 | Clinical study | Acta Neurol Taiwan | Botulinum toxin A to reduce saliva in parkinsonian patients with moderate to severe sialorrhea |
+| [21791351](https://pubmed.ncbi.nlm.nih.gov/21791351/) | 2011 | Clinical study | J Urol | 100 U intradetrusor injection in Parkinson's disease with refractory detrusor overactivity; 6-month follow-up |
+| [34017433](https://pubmed.ncbi.nlm.nih.gov/34017433/) | 2021 | Clinical study | Am J Transl Res | Effects on mood and cognition in Parkinson's disease with depression |
+| [26566459](https://pubmed.ncbi.nlm.nih.gov/26566459/) | 2015 | Open-label study | Tremor Other Hyperkinet Mov | Sensor-guided incobotulinumtoxinA injections for upper-limb Parkinson's tremor over 38 weeks |
+| [28837826](https://pubmed.ncbi.nlm.nih.gov/28837826/) | 2018 | Review | Toxicon | Review noting a high level of evidence for sialorrhea in parkinsonism |
+| [41745739](https://pubmed.ncbi.nlm.nih.gov/41745739/) | 2026 | Cohort study | Toxins | Botulinum toxin injections for drooling also improved dysphagia in 20 Parkinson's patients |
+| [34828584](https://pubmed.ncbi.nlm.nih.gov/34828584/) | 2021 | Systematic review and meta-analysis | Healthcare (Basel) | Botulinum toxin A in restless legs syndrome (a separate prediction); evidence limited and low quality |
+| [39559314](https://pubmed.ncbi.nlm.nih.gov/39559314/) | 2024 | Observational | Int J Ophthalmol | Link between blepharospasm and anxiety, depression and sleep disorder; does not show treatment of insomnia |
+
+Some retrieved Parkinson's-related results concern other conditions (cervical dystonia, head tremor, spasticity) and are indirect. Glaucoma predictions: currently no related literature available.
 
 ---
 
 ## Australia Market Information
 
-The automated TGA ARTG query for "Botulinum toxin type A" (by INN) returned **zero entries** in this dataset. This likely reflects a search-by-INN limitation rather than a true absence, as several brand-name products containing botulinum toxin type A have been registered in Australia in recent years.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10993N | Botox | Lyophilised powder for injection, 100 units | Not available in the data compiled |
 
-**Recommended action:** Search the [TGA ARTG Public Summary](https://www.artg.tga.gov.au/) directly using brand names:
-
-| Brand Name | Sponsor | Known Indications (international) |
-|------------|---------|----------------------------------|
-| Botox® (onabotulinumtoxinA) | AbbVie | Cervical dystonia, blepharospasm, chronic migraine, OAB, spasticity, sialorrhoea |
-| Dysport® (abobotulinumtoxinA) | Ipsen | Cervical dystonia, adult and paediatric spasticity |
-| Xeomin®/Bocouture® (incobotulinumtoxinA) | Merz | Cervical dystonia, blepharospasm, upper-limb spasticity |
-
-Until ARTG confirmation is obtained, compassionate access or Special Access Scheme (SAS) Category B pathways may be applicable for individual PD patients.
+The product is registered as a valid single-ingredient injectable.
 
 ---
 
 ## Safety Considerations
 
-Detailed Australian product-specific safety information was not available in the current dataset. Prescribers should note the following based on international product labelling and established clinical knowledge:
+**Drug Interactions** (41 interactions identified, mainly from DDInter):
 
-- **Boxed Warning (all BTX products):** Risk of distant spread of toxin effect beyond the injection site, potentially causing dysphagia, dysphonia, respiratory compromise, and aspiration — particularly relevant in PD patients who commonly have bulbar dysfunction. Only administer when facilities for managing respiratory emergencies are available.
-- **Contraindications:** Active infection at the proposed injection site; known hypersensitivity to any botulinum toxin formulation or its excipients; myasthenia gravis, Lambert-Eaton syndrome, or other neuromuscular junction disorders.
-- **Drug Interactions:** Aminoglycoside antibiotics, neuromuscular blocking agents, and anticholinergic drugs may potentiate BTX-A effects; dose reduction should be considered when co-prescribing. In PD patients, this is particularly relevant given common use of anticholinergics for tremor or bladder symptoms.
-- **Immunogenicity:** Repeated high-dose or short-interval injections increase risk of neutralising antibody formation, reducing clinical response over time. Maintain minimum 12-week injection intervals and use the lowest effective dose (PMID 31454941).
+- **Major:** aminoglycosides and related agents (kanamycin, neomycin, streptomycin) and polymyxin B. These may potentiate neuromuscular blockade.
+- **Moderate:** anticholinergics (atropine, clidinium, dicyclomine, glycopyrronium, hyoscyamine, mepenzolate, methscopolamine, propantheline, scopolamine, trospium) and sedating antihistamines (promethazine, acrivastine, azatadine, brompheniramine, carbinoxamine, chlorcyclizine).
 
-For complete prescribing information, refer to the international Product Information documents for Botox®, Dysport®, or Xeomin® and the TGA-approved PI when ARTG registration is confirmed.
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications, which were not available in the data compiled.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold** for the top-ranked prediction (primary hereditary glaucoma) and the other L5 predictions. **Proceed with Guardrails** only for symptom-specific Parkinson's indications, framed as a research question.
 
 **Rationale:**
-Two completed Phase 3 multicenter RCTs, multiple completed Phase 2/4 studies, and a 2023 systematic review with meta-analysis provide robust L1-level evidence that BTX-A delivers meaningful symptom relief for specific parkinsonian complications — particularly sialorrhoea, focal dystonia, and neurogenic OAB — where standard dopaminergic therapy is ineffective. The mechanism is well understood, the clinical benefit is localised and reversible, and international regulatory approvals in comparable jurisdictions validate the safety profile.
+- The top-ranked prediction has no mechanistic rationale and no trials or literature, so the score is a model output only.
+- Parkinsonian disorder has L1-level evidence (a completed Phase 3 RCT), but benefit is symptomatic and localised, not disease-modifying. The Phase 3 trial's indication needs confirmation.
+- The data gaps on package-insert warnings and mechanism of action limit safety screening.
 
 **To proceed, the following is needed:**
-
-- **Confirm ARTG status** via brand-name TGA search (Botox®, Dysport®, Xeomin®); if unregistered for target PD indications, initiate TGA registration application or SAS Category B pathway
-- **Obtain full TGA-approved or international PI** to complete safety profiling and ensure boxed warning communication to patients and carers
-- **Define the target symptom domain before implementation** — each application (sialorrhoea, foot dystonia, OAB, tremor) requires a distinct injection protocol, dose range, and monitoring plan; do not proceed with a generic "PD treatment" framing
-- **Engage movement disorder neurologists and specialist BTX injectors** to establish Australian clinical governance, credentialling requirements, and training frameworks prior to broader rollout
-- **Screen individual patients for contraindications** including bulbar dysfunction severity, current anticholinergic burden, and immunological history (prior BTX exposure) before initiating treatment
-- **Establish a local outcomes registry** to capture long-term efficacy, re-injection intervals, and immunogenicity data in the Australian PD population
+- The TGA Product Information for Botox, to establish approved indications, warnings and contraindications
+- Confirmation of the indication and results of NCT02091739
+- Focus on specific symptom indications (sialorrhea, tremor, dystonic pain, overactive bladder) rather than Parkinson's disease broadly
+- Detailed mechanism of action data
+- Review of the restless legs syndrome meta-analysis conclusions if that indication is pursued
+- Check of ANZCTR for Australian trials
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

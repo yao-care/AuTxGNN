@@ -2,7 +2,7 @@
 layout: default
 title: Anastrozole
 parent: High Evidence (L1-L2)
-nav_order: 48
+nav_order: 51
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,103 +29,89 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Anastrozole: From Postmenopausal ER-Positive Breast Cancer to Female Breast Carcinoma
+# Anastrozole: From Hormone Receptor-Positive Breast Cancer to Female Breast Carcinoma
 
 ## One-Sentence Summary
 
-Anastrozole is a third-generation aromatase inhibitor internationally established for the treatment of hormone receptor-positive breast cancer in postmenopausal women, but it is not currently registered with the Australian Therapeutic Goods Administration (TGA).
-
-The TxGNN model predicts it may be effective for **Female Breast Carcinoma** broadly — encompassing adjuvant, neoadjuvant, advanced, and chemoprevention settings — with **50+ clinical trials** and **20 publications** currently supporting this direction.
-
-The overall evidence base is among the strongest available for any cancer indication, anchored by landmark Phase 3 trials including ATAC and IBIS-II.
+Anastrozole is a non-steroidal aromatase inhibitor registered in Australia as APO-Anastrozole 1 mg tablets. The TxGNN model predicts it may be effective for **female breast carcinoma**, supported by **30 registered clinical trials** and **20 publications** in the data compiled for this report. Breast cancer is an established, marketed use of anastrozole, so this prediction confirms known use rather than representing true repurposing. The original indication field was empty in the source data, which likely explains why it appears as a prediction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available (Anastrozole is not currently registered in Australia; internationally approved for hormone receptor-positive early and advanced breast cancer in postmenopausal women) |
-| Predicted New Indication | Female Breast Carcinoma |
+|------|------|
+| Original Indication | Not available in the data compiled (the ARTG indication text is blank) |
+| Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 99.68% |
 | Evidence Level | L1 |
-| Australia Market Status | Not Registered |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Anastrozole selectively inhibits the aromatase enzyme (CYP19A1), which is responsible for the final step of oestrogen biosynthesis in peripheral tissues — including fat, muscle, liver, and breast tumour stroma. By suppressing circulating and local oestrogen levels, anastrozole deprives oestrogen receptor-positive (ER+) breast cancer cells of their primary growth signal, leading to cell cycle arrest and tumour regression. This mechanism is direct, well-characterised, and underpins its worldwide clinical adoption.
+Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, anastrozole is a third-generation non-steroidal aromatase inhibitor. It blocks the conversion of androgens to oestrogens, lowering circulating oestrogen in postmenopausal women.
 
-In postmenopausal women, where the ovaries have ceased to be the dominant oestrogen source, peripheral aromatisation becomes the principal oestrogen supply pathway. Anastrozole's targeted blockade at this point makes it especially effective in this population. The landmark ATAC trial (>9,000 postmenopausal women, 5-year adjuvant therapy) demonstrated statistically significant improvement in disease-free survival compared to tamoxifen, establishing anastrozole as a preferred adjuvant agent. The IBIS-II prevention trial further demonstrated a sustained 49% reduction in breast cancer incidence in high-risk women followed for over 10 years.
-
-The TxGNN model's prediction for "female breast carcinoma" is strongly supported: it encompasses ER+ early-stage adjuvant therapy, neoadjuvant downsizing for operable disease, first-line treatment for advanced/metastatic disease, chemoprevention of ductal carcinoma in situ (DCIS), and combination strategies with CDK4/6 inhibitors (palbociclib, abemaciclib, ribociclib) or other novel agents. For triple-negative breast cancer (TNBC), which lacks ER expression, the mechanistic rationale is weak in monotherapy but anastrozole has been explored in combination approaches targeting co-drivers such as HDAC inhibition. The TGA has not yet registered anastrozole in Australia despite robust global evidence — making this a high-priority regulatory consideration.
+Many breast cancers are hormone receptor-positive and driven by oestrogen. Reducing oestrogen therefore directly targets tumour growth. This is why aromatase inhibitors are a standard endocrine therapy in this setting. The trials and publications below reflect this, including large randomised comparisons with tamoxifen and fulvestrant.
 
 ---
 
 ## Clinical Trial Evidence
 
+The data include 30 trials. The 10 most relevant are listed below, prioritising completed Phase 3 studies that test anastrozole directly.
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT01953588](https://clinicaltrials.gov/study/NCT01953588) | Phase 3 | Active, Not Recruiting | 1,473 | ALTERNATE trial: neoadjuvant anastrozole vs fulvestrant vs combination in Stage II/III ER+/HER2- breast cancer; directly evaluates anastrozole as pre-surgical endocrine therapy |
-| [NCT00143390](https://clinicaltrials.gov/study/NCT00143390) | Phase 3 | Completed | 298 | Exemestane vs anastrozole as initial hormonal therapy in advanced/recurrent breast cancer; confirms non-inferiority and establishes anastrozole's clinical role in this setting |
-| [NCT02338310](https://clinicaltrials.gov/study/NCT02338310) | Phase 3 | Active, Not Recruiting | 4,486 | POETIC trial: perioperative aromatase inhibitor (including anastrozole) followed by standard adjuvant therapy; evaluates Ki67 as a predictor of time to recurrence |
-| [NCT00635713](https://clinicaltrials.gov/study/NCT00635713) | Phase 3 | Completed | 588 | Double-blind RCT comparing fulvestrant 125/250 mg vs anastrozole 1 mg in advanced breast cancer; key benchmark trial for anastrozole's efficacy in the advanced setting |
-| [NCT04711252](https://clinicaltrials.gov/study/NCT04711252) | Phase 3 | Active, Not Recruiting | 1,370 | SERENA-4: camizestrant + palbociclib vs anastrozole + palbociclib as first-line therapy in ER+/HER2- advanced breast cancer; uses anastrozole as the active comparator gold standard |
-| [NCT02206984](https://clinicaltrials.gov/study/NCT02206984) | Phase 2 | Completed | 201 | Endocrine response in invasive lobular carcinoma (ILC); supports anastrozole benefit in this distinct breast cancer subtype |
-| [NCT00256217](https://clinicaltrials.gov/study/NCT00256217) | Phase 2 | Completed | 42 | Anastrozole chemoprevention in DCIS and early invasive breast cancer in postmenopausal women; complementary to IBIS-II prevention data |
-| [NCT04075604](https://clinicaltrials.gov/study/NCT04075604) | Phase 2 | Completed | 23 | Neoadjuvant nivolumab + palbociclib + anastrozole in ER+/HER2- breast cancer; evaluates novel immunotherapy combination with anastrozole as the endocrine backbone |
-| [NCT01234532](https://clinicaltrials.gov/study/NCT01234532) | Phase 2 | Terminated | 5 | Entinostat + anastrozole in triple-negative breast cancer; exploratory HDAC combination strategy; early termination limits conclusions |
-| [NCT04767594](https://clinicaltrials.gov/study/NCT04767594) | N/A (Observational) | Active, Not Recruiting | 1,409 | PERFORM: real-world prospective cohort of HR+/HER2- advanced breast cancer on palbociclib + endocrine therapy (including anastrozole); provides safety and effectiveness data in routine clinical practice |
+|---------|------|------|------|---------|
+| [NCT00301457](https://clinicaltrials.gov/study/NCT00301457) | Phase 3 | Completed | 1914 | 6 vs 3 years of adjuvant anastrozole after 2–3 years of tamoxifen in postmenopausal women |
+| [NCT00300508](https://clinicaltrials.gov/study/NCT00300508) | Phase 3 | Completed | 856 | 3 further years of anastrozole vs no treatment after 5 years of adjuvant hormone therapy |
+| [NCT00784680](https://clinicaltrials.gov/study/NCT00784680) | Phase 3 | Completed | 308 | Quality of life with Arimidex, Nolvadex or both as adjuvant treatment |
+| [NCT00327769](https://clinicaltrials.gov/study/NCT00327769) | Phase 3 | Completed | 234 | Fulvestrant 250 mg vs anastrozole 1 mg as second-line therapy in advanced ER-positive breast cancer |
+| [NCT00143390](https://clinicaltrials.gov/study/NCT00143390) | Phase 3 | Completed | 298 | Exemestane vs anastrozole as initial hormonal therapy in advanced or recurrent breast cancer |
+| [NCT02246621](https://clinicaltrials.gov/study/NCT02246621) | Phase 3 | Active, not recruiting | 493 | Abemaciclib or placebo added to a non-steroidal aromatase inhibitor (anastrozole or letrozole) in first-line HR+/HER2- advanced breast cancer |
+| [NCT03425838](https://clinicaltrials.gov/study/NCT03425838) | Phase 3 | Active, not recruiting | 1050 | SONIA: sequencing of CDK4/6 inhibitor with an aromatase inhibitor backbone in advanced disease |
+| [NCT00784940](https://clinicaltrials.gov/study/NCT00784940) | Phase 3 | Completed | 308 | Effects on bone mineral density of Arimidex, Nolvadex or both |
+| [NCT00256217](https://clinicaltrials.gov/study/NCT00256217) | Phase 2 | Completed | 42 | Chemoprevention with anastrozole in DCIS and early invasive breast cancer |
+| [NCT04272801](https://clinicaltrials.gov/study/NCT04272801) | Phase 2 | Active, not recruiting | 84 | Pre-operative endocrine therapy window in women 65 and older to inform radiation decisions |
+
+Several trials are combination studies in which anastrozole is part of the endocrine backbone rather than the sole test agent. No ANZCTR identifiers were available in the data compiled.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [31839281](https://pubmed.ncbi.nlm.nih.gov/31839281/) | 2020 | Phase 3 RCT (Prevention) | *Lancet* | IBIS-II long-term follow-up: anastrozole reduces breast cancer incidence by 49% in high-risk postmenopausal women; sustained benefit beyond the 5-year treatment period |
-| [15639680](https://pubmed.ncbi.nlm.nih.gov/15639680/) | 2005 | Phase 3 RCT | *Lancet* | ATAC trial 5-year results: anastrozole significantly improves disease-free survival vs tamoxifen in postmenopausal women with localised breast cancer (HR 0.87); fewer serious adverse effects |
-| [28614542](https://pubmed.ncbi.nlm.nih.gov/28614542/) | 2017 | Systematic Review | *Rev Assoc Med Bras* | Comprehensive review of anastrozole in chemoprevention and treatment; confirms potent, selective aromatase inhibition with favourable pharmacokinetics and superior efficacy over tamoxifen across multiple settings |
-| [24716940](https://pubmed.ncbi.nlm.nih.gov/24716940/) | 2014 | Meta-analysis of RCTs | *Asian Pac J Cancer Prev* | Meta-analysis comparing fulvestrant 250 mg vs anastrozole 1 mg in advanced breast cancer; provides pooled efficacy and tolerability data supporting anastrozole's established role |
-| [20923259](https://pubmed.ncbi.nlm.nih.gov/20923259/) | 2010 | Drug Review | *Expert Opin Drug Safety* | Safety profile review of anastrozole in the adjuvant setting; multiple RCTs show greater efficacy than tamoxifen; highlights musculoskeletal and bone density considerations |
-| [16439860](https://pubmed.ncbi.nlm.nih.gov/16439860/) | 2006 | Review | *Oncology* | Reviews anastrozole across the full breast cancer continuum — from advanced disease to early cancer and prevention; outlines survival benefits and tolerability advantages |
-| [16761927](https://pubmed.ncbi.nlm.nih.gov/16761927/) | 2006 | Review | *Expert Rev Anticancer Ther* | ATAC-focused clinical update; confirms anastrozole's significant efficacy and tolerability advantages as initial adjuvant treatment in postmenopausal hormone receptor-positive breast cancer |
-| [14687437](https://pubmed.ncbi.nlm.nih.gov/14687437/) | 2003 | Review | *Curr Med Res Opin* | Overview of anastrozole's evolving role in breast cancer management; confirms superiority over megestrol acetate and medroxyprogesterone as second-line treatment, and comparability to tamoxifen as first-line |
-| [21508387](https://pubmed.ncbi.nlm.nih.gov/21508387/) | 2011 | Pharmacodynamic Study | *Anticancer Research* | Characterises anastrozole's effect on steroid sulfatase activity and serum androgen concentrations; provides mechanistic insight into the broader hormonal milieu altered by aromatase inhibition |
-| [41024216](https://pubmed.ncbi.nlm.nih.gov/41024216/) | 2025 | Case Report / Mechanism Study | *J Med Case Reports* | Documents a case where anastrozole-induced hormonal changes (decreased oestrogen, increased dihydrotestosterone) may have contributed to development of apocrine mammary carcinoma and follicular lymphoma; highlights importance of long-term monitoring |
+|------|-----|------|------|---------|
+| [15639680](https://pubmed.ncbi.nlm.nih.gov/15639680/) | 2005 | RCT | Lancet | ATAC trial (9366 women): anastrozole significantly prolonged disease-free survival vs tamoxifen after 5 years of adjuvant treatment |
+| [31839281](https://pubmed.ncbi.nlm.nih.gov/31839281/) | 2020 | RCT | Lancet | IBIS-II long-term results: anastrozole vs placebo for breast cancer prevention in high-risk women |
+| [27908454](https://pubmed.ncbi.nlm.nih.gov/27908454/) | 2016 | RCT | Lancet | FALCON: fulvestrant 500 mg vs anastrozole 1 mg in HR-positive advanced breast cancer |
+| [42384406](https://pubmed.ncbi.nlm.nih.gov/42384406/) | 2026 | RCT | JAMA Surgery | NSABP B-35: lumpectomy margins and local recurrence in DCIS treated with anastrozole or tamoxifen |
+| [41632158](https://pubmed.ncbi.nlm.nih.gov/41632158/) | 2025 | Cohort | JAMA Network Open | Comparative outcomes of anastrozole, letrozole and exemestane in postmenopausal breast cancer |
+| [31615937](https://pubmed.ncbi.nlm.nih.gov/31615937/) | 2020 | Clinical study | Clin Cancer Res | neoMONARCH: abemaciclib plus anastrozole in the neoadjuvant setting (HR+/HER2-) |
+| [20923259](https://pubmed.ncbi.nlm.nih.gov/20923259/) | 2010 | Review | Expert Opin Drug Saf | Anastrozole in adjuvant treatment; several trials report greater efficacy than tamoxifen |
+| [16439860](https://pubmed.ncbi.nlm.nih.gov/16439860/) | 2006 | Review | Oncology | Role of anastrozole across the breast cancer continuum, from prevention to advanced disease |
+| [28614542](https://pubmed.ncbi.nlm.nih.gov/28614542/) | 2017 | Review | Rev Assoc Med Bras | Anastrozole in chemoprevention and treatment of breast cancer |
+| [17033446](https://pubmed.ncbi.nlm.nih.gov/17033446/) | 2006 | Case report | Eur J Gastroenterol Hepatol | First reported case of anastrozole-induced hepatotoxicity in an elderly woman |
 
 ---
 
 ## Australia Market Information
 
-Anastrozole is currently **not registered** with the Australian TGA and has no active ARTG entries in the database queried. There are no approved product entries to display.
-
-> **Note for clinicians:** Despite the absence of TGA registration at the time of this data extract, anastrozole is widely approved by comparable international regulators including the US FDA, EMA (Europe), PMDA (Japan), and Health Canada. Generic anastrozole is available globally. The absence of ARTG entries may reflect a data collection gap rather than a clinical availability gap — TGA registration status should be verified directly via the [TGA ARTG Public Summary](https://www.tga.gov.au/resources/artg).
-
----
-
-## Cytotoxicity
-
-Anastrozole is an anticancer drug but is **not a conventional cytotoxic agent**. It acts via targeted endocrine modulation rather than direct DNA damage or cell killing.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Non-cytotoxic — Targeted endocrine therapy (Third-generation non-steroidal aromatase inhibitor) |
-| Myelosuppression Risk | Low — Aromatase inhibitors do not cause clinically significant myelosuppression; bone marrow toxicity is not a recognised class effect |
-| Emetogenicity Classification | Minimal — Oral tablet; nausea is uncommon and rarely clinically significant |
-| Monitoring Items | Bone mineral density (DEXA scan at baseline and periodically — AI-induced bone loss is a key concern); lipid profile; liver function tests (if clinically indicated); musculoskeletal symptom assessment (arthralgia, myalgia) |
-| Handling Protection | Standard oral medication precautions apply; NOT classified as a cytotoxic drug requiring specialised handling under hazardous drug regulations — standard dispensing and administration procedures are appropriate |
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13858J | APO-Anastrozole | Tablet 1 mg (oral) | Not stated in the data compiled |
 
 ---
 
 ## Safety Considerations
 
-Specific safety data (TGA-approved warnings, contraindications, and drug interaction records) were not available in this Evidence Pack.
+- **Knowledge graph contraindication signals:** Myocardial ischaemia and coronary artery disease. These come from drug-disease links in the TxGNN knowledge graph, not from product label text, and should be verified against the Product Information.
+- **Drug interactions:** 100 potential interactions were identified, all with an unclassified severity level. Examples include bupropion, pantoprazole, omeprazole, metformin, glimepiride, morphine, simvastatin, prednisone and acetylsalicylic acid. Clinical significance has not been graded.
+- **Reported adverse effects in the literature:** A case report of hepatotoxicity (PMID 17033446). Trials also examined bone mineral density, muscle density and endothelial function changes on aromatase inhibitors.
 
-> Please refer to the TGA-approved Product Information (PI) and the internationally available manufacturer's PI (e.g., Arimidex® PI) for comprehensive safety information, including known musculoskeletal effects, bone density loss, cardiovascular considerations, and interactions with oestrogen-containing products and tamoxifen.
+Please refer to the TGA-approved Product Information (PI) for formal warnings and contraindications.
 
 ---
 
@@ -134,20 +120,15 @@ Specific safety data (TGA-approved warnings, contraindications, and drug interac
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The evidence base for anastrozole in female breast carcinoma is among the most robust in oncology — multiple completed Phase 3 RCTs (ATAC, IBIS-II, and others) demonstrate superiority over tamoxifen in postmenopausal ER-positive disease, and the mechanistic rationale (CYP19A1 inhibition → oestrogen suppression → ER+ tumour regression) is well-established and directly validated. The primary barrier is the absence of current TGA registration in Australia, not a lack of efficacy evidence.
+Multiple completed Phase 3 randomised trials and large RCT publications (ATAC, IBIS-II, FALCON) support anastrozole in breast cancer, giving an L1 evidence level. Because this is an established use, the main work is confirming regulatory and safety details rather than generating new efficacy evidence. Safety data are incomplete.
 
 **To proceed, the following is needed:**
+- Confirm the approved indication text and warnings from the TGA Product Information, as the ARTG indication field and label warnings are blank in the data compiled
+- Obtain detailed mechanism of action data from DrugBank
+- Review the cardiovascular contraindication signals (myocardial ischaemia, coronary artery disease) against the PI
+- Grade the clinical significance of the listed drug interactions
 
-- **TGA Registration Verification:** Confirm whether anastrozole is registered in Australia under the ARTG (the current data showing 0 entries may reflect a data collection gap — anastrozole generics are widely marketed internationally)
-- **Formal MOA Documentation:** Obtain DrugBank API data for official mechanism of action, drug categories, and toxicity classifications to complete the evidence dossier
-- **TGA Product Information (PI) Review:** Retrieve and review the TGA-approved or internationally available PI for complete warnings, contraindications, special population data (pregnancy, renal/hepatic impairment), and drug interactions
-- **Bone Health Management Plan:** Given the well-documented risk of AI-induced bone loss, any Australian clinical programme should include a DEXA monitoring protocol and bisphosphonate co-prescription criteria (as evaluated in NCT00122356 with alendronate)
-- **Population Stratification:** Clarify the intended patient population — ER+ vs TNBC vs prevention — as the mechanistic rationale and evidence strength differ substantially across these subgroups
-- **Regulatory Pathway Assessment:** If TGA registration is confirmed absent, determine whether a TGA submission, compassionate access application, or reliance pathway (based on FDA/EMA approval) is the most efficient route to market authorisation
-
----
-
-*This report is generated for research purposes only. Drug repurposing candidates require clinical validation before therapeutic application. All treatment decisions must be made by qualified healthcare professionals in accordance with current TGA-approved guidelines. Data cutoff: 5 April 2026.*
+**Other predicted indications:** Neuroblastoma, ganglioneuroblastoma, monocytic leukaemia, rhabdomyosarcoma, myeloid leukaemia, collagenopathy, lymphocytic hypereosinophilic syndrome, retroperitoneal neoplasm and the vertebral anomalies syndrome (ranks 2–10) have no supporting clinical trials and no clinical literature. These are computational predictions only and are recommended as **Hold**.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

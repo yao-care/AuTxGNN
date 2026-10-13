@@ -2,7 +2,7 @@
 layout: default
 title: Triethylenetetramine
 parent: Model Prediction Only (L5)
-nav_order: 702
+nav_order: 754
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Triethylenetetramine: From Copper Chelation to Thyroid Gland Undifferentiated (Anaplastic) Carcinoma
+# Triethylenetetramine: From Wilson Disease to Thyroid Gland Undifferentiated (Anaplastic) Carcinoma
 
 ## One-Sentence Summary
 
-Triethylenetetramine (Trientine, DrugBank ID DB06824) is a copper-chelating agent; the evidence pack does not contain a formally recorded original indication (TGA-approved indication text is a Blocking data gap), but the drug is internationally known for copper chelation therapy. The TxGNN model's top prediction is **Thyroid Gland Undifferentiated (Anaplastic) Carcinoma**, with a prediction score of 99.87%, but this is supported by **zero clinical trials and zero publications**, and the model's own rationale flags it as possible knowledge-graph noise rather than a biologically grounded hypothesis.
-
----
+Triethylenetetramine (trientine) is a copper chelator, originally used to treat **Wilson disease**.
+The TxGNN model predicts it may be effective for **anaplastic thyroid carcinoma**,
+but **no clinical trials and no publications** were found to support this prediction, so it is a computational signal only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — TGA-approved indication text is missing from this evidence pack (Blocking Data Gap DG001). Internationally recognised as a copper chelator. |
-| Predicted New Indication | Thyroid Gland Undifferentiated (Anaplastic) Carcinoma |
+| Original Indication | Wilson disease (also listed in the knowledge graph: renal cell carcinoma subtypes, iron metabolism disease, hereditary haemochromatosis). No approved indication text is recorded for the Australian entry. |
+| Predicted New Indication | Thyroid gland undifferentiated (anaplastic) carcinoma |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is currently unavailable (Data Gap DG002). Based on the drug classification referenced throughout this evidence pack, Triethylenetetramine acts as a copper chelator, a mechanism most relevant to copper-overload conditions such as Wilson's disease.
+Detailed mechanism of action data is not available. Based on known information, triethylenetetramine is a copper chelator that is established in Wilson disease, a copper-overload disorder. Mechanistically, it may be applicable to anaplastic thyroid carcinoma.
 
-The top-ranked prediction — thyroid gland undifferentiated (anaplastic) carcinoma — has **no established mechanistic link** to copper chelation. The model's own repurposing rationale for this candidate explicitly states: *"there is no known association between anaplastic thyroid carcinoma and copper-chelating mechanisms; the high TxGNN score may reflect graph noise rather than biological plausibility, and no evidence supports it."* This should be read as a caution against over-interpreting the raw TxGNN score.
+A plausible but unvalidated link is copper depletion. Copper is a cofactor in angiogenesis and tumour signalling, and copper-depleting agents have been explored preclinically in several cancers. The high TxGNN score is a computational prediction only. Because the original mechanism data is missing, the link cannot be checked against the drug's known mechanism.
 
-Notably, among the 10 candidates in this pack, rank 5 — **idiopathic copper-associated cirrhosis** — has a substantially stronger mechanistic rationale (direct correspondence between copper chelation and copper-associated liver disease) and is flagged by the model as a "Research Question" rather than "Hold," despite a lower raw score and L4 evidence level. This suggests the top-ranked prediction by score is not necessarily the most biologically credible candidate in this set, and mechanistic plausibility should be weighted alongside raw prediction rank when prioritising follow-up.
-
----
+Other high-scoring predictions from the same model run are also unsupported by evidence:
+- **Idiopathic copper-associated cirrhosis** is the most mechanistically coherent. Copper chelation has a clear rationale in copper-overload liver disease, and this is flagged as a research question. A targeted literature search is a reasonable next step.
+- **Renal cell carcinoma subtypes** (TFE3-fusion and neuroblastoma-associated) probably score highly because renal cell carcinoma is already in the drug's knowledge-graph indication list. This is not independent validation.
+- Portal hypertension, portal vein thrombosis, hepatopulmonary syndrome, hepatic porphyria and tyrosine metabolism disorder likely reflect graph proximity to hepatic and metabolic disease. No supported mechanism was identified.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
-Triethylenetetramine currently has no ARTG entries and is **Not Marketed** in Australia (`total_licenses: 0`). No product, dosage form, or approved indication information is available in this evidence pack.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13124R | Trientine Waymade | Oral capsule containing trientine dihydrochloride 250 mg (equivalent to 166.7 mg trientine) | Not recorded in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. This evidence pack does not contain safety warnings, contraindications, or drug interaction data — the absence of TGA-equivalent warnings/contraindications is flagged as a **Blocking data gap (DG001)** that must be resolved before any safety-relevant evaluation can proceed.
+- **Drug interactions:** 27 interactions were identified, and the 20 detailed entries are all rated Moderate. They fall into three groups:
+  - **Calcium salts:** phosphate, acetate, carbonate, citrate, glubionate, gluconate and lactate.
+  - **Magnesium salts:** oxide, carbonate, chloride and citrate.
+  - **Iron and trace minerals:** iron, ferrous fumarate, ferrous gluconate, ferrous sulfate, iron protein succinylate, tetraferric tricitrate, selenium, manganese sulfate and copper gluconate.
+  These are consistent with metal-binding (chelation) interactions, so dose separation from mineral products is likely to matter.
+- **Knowledge-graph contraindication signals** (from the model's graph, not product label text, so they need confirmation against the PI): hypertension, long QT syndrome and torsades de pointes, liver failure, drug-induced liver injury, adrenocortical insufficiency, hypothyroidism, myocardial infarction, hyperbilirubinaemia, diarrhoeal disease, hereditary haemorrhagic telangiectasia, and peripheral vascular disease, among others.
 
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications, as label data was not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (thyroid gland undifferentiated carcinoma) has an L5 evidence level with no clinical trials, no literature, and a mechanistic rationale that the model itself characterises as likely noise rather than a genuine signal. Combined with a Blocking safety data gap (TGA-equivalent warnings/contraindications not available), there is insufficient basis to advance this candidate beyond S0.
+The prediction rests only on a model score (L5). No trials or publications were found, and the original mechanism data is missing. Label-based safety data is also unavailable, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- Resolve Blocking Data Gap DG001 (TGA-equivalent warnings/contraindications, via source PI)
-- Resolve High-priority Data Gap DG002 (confirmed mechanism of action, via DrugBank)
-- Obtain a formally documented original indication/regulatory history for Triethylenetetramine
-- If pursuing further evaluation, prioritise mechanistically coherent candidates (e.g. idiopathic copper-associated cirrhosis, rank 5) over the top-scored but mechanistically unsupported thyroid carcinoma prediction
-- Independent literature/clinical trial search specific to copper-chelation-relevant oncology and hepatology indications, as none currently exist in this pack for any of the 10 candidates
+- Obtain the TGA PI (warnings, contraindications, approved indication text) for ARTG 13124R.
+- Obtain mechanism of action data from DrugBank.
+- Run a targeted literature search on copper chelation in anaplastic thyroid carcinoma and other cancers.
+- Prioritise the copper-associated cirrhosis question, which has the strongest mechanistic rationale, for a separate review.
+- Define a plan for managing mineral interactions and monitoring copper status if any new use is pursued.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

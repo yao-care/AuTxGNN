@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fondaparinux
-parent: High Evidence (L1-L2)
-nav_order: 293
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 315
+evidence_level: L5
 indication_count: 10
 ---
 
 # Fondaparinux
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,94 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Fondaparinux: From Anticoagulation to Heparin-Induced Thrombocytopenia (Primary Platelet Release Disorder)
+# Fondaparinux: From Pulmonary Embolism to Primary Release Disorder of Platelets
 
 ## One-Sentence Summary
 
-Fondaparinux is a synthetic Factor Xa inhibitor anticoagulant (brand name Arixtra), typically used for prevention and treatment of venous thromboembolic events. The TxGNN model predicts it may be effective for **primary release disorder of platelets** — an ontology term that, based on the supporting evidence, corresponds clinically to **heparin-induced thrombocytopenia (HIT)** — with a **93.06%** TxGNN confidence score, currently supported by **2 clinical trials** and **2 literature references**.
-
----
+Fondaparinux is an anticoagulant originally used for pulmonary embolism (venous thromboembolism).
+The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but this prediction rests on **0 clinical trials** and **1 unrelated publication** (a palliative care case report), so the evidence is model-based only.
+The mechanism points the wrong way: this is a bleeding disorder, and an anticoagulant would be expected to worsen it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (drug-level indication and MOA fields are marked as data gaps; Fondaparinux's general clinical use is as an anticoagulant) |
-| Predicted New Indication | Primary release disorder of platelets (clinically interpreted as Heparin-Induced Thrombocytopenia, HIT) |
+| Original Indication | Pulmonary embolism (per the knowledge graph; the Australian licence record contains no indication text) |
+| Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 93.06% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed (0 local entries) |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Fondaparinux is not available in this evidence pack (flagged as data gap DG002, pending a DrugBank API query). Based on the mechanistic rationale documented for this specific prediction, Fondaparinux is a synthetic pentasaccharide that selectively inhibits Factor Xa via antithrombin III. Critically, unlike unfractionated or low-molecular-weight heparin, it does not form immunogenic complexes with platelet factor 4 (PF4).
+Detailed mechanism of action data is not available in the data compiled for this report. From established pharmacology, fondaparinux is an indirect factor Xa inhibitor that acts through antithrombin III. It is used to prevent and treat venous thromboembolism, including pulmonary embolism.
 
-This distinguishing feature is precisely why Fondaparinux is relevant to HIT: because HIT is driven by antibodies against PF4/heparin complexes that trigger pathological platelet activation and consumption (a form of platelet release disorder), a non-cross-reactive anticoagulant offers a mechanistically sound alternative once heparin must be withdrawn. This off-label use is already recognised in international guidance (e.g., ASH 2018), which lends external plausibility to the TxGNN prediction beyond the model score alone.
+The predicted condition is a platelet function disorder in which platelets fail to release their granule contents, which causes a bleeding tendency. Fondaparinux has no direct action on platelet granule release or platelet function. Because it reduces clotting, it would be expected to add to the bleeding risk rather than treat the condition.
 
-One caveat: the TxGNN disease label "primary release disorder of platelets" is a broad ontology term, and the evidence pack notes it needs confirmation that it precisely maps to HIT rather than other platelet release defects (e.g., δ-storage pool disease), where anticoagulation would not be an appropriate treatment. Of the 10 candidates TxGNN generated for this drug, this is the only one with clinical-trial and literature support (L2); the remaining nine are L5 (model-prediction only), and several carry a theoretical bleeding-risk concern given Fondaparinux's anticoagulant mechanism.
+On this evidence the prediction is **not mechanistically plausible**. The high score likely reflects a graph-based association (both conditions involve haemostasis) and not a therapeutic relationship. The same applies to the other top-ranked predictions, such as pseudo-von Willebrand disease and Glanzmann thrombasthenia, which are also bleeding disorders.
 
----
+For context, the one predicted indication with a plausible rationale is **vertebral artery occlusion** (rank 5, score 87.44%). It is a thrombotic cerebrovascular condition, so anticoagulation is mechanistically conceivable. It is rated L4 and flagged as a research question only, with no trials or literature identified. Use would also need to be weighed against haemorrhagic risk in the posterior circulation.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00911300](https://clinicaltrials.gov/study/NCT00911300) | Phase 2 | Completed | 349 | International multicentre, randomised, open-label pilot comparing Fondaparinux vs. heparin/vitamin-K antagonists for anticoagulation around electrical cardioversion; assesses thromboembolic and bleeding event prevention. |
-| [NCT01178333](https://clinicaltrials.gov/study/NCT01178333) | N/A (retrospective) | Completed | 668 | Retrospective analysis of patients with a positive heparin PF-4 antibody test (HIT-RADIO), examining incidence and outcomes (platelet counts, thrombosis, amputation, death) — supportive epidemiological context rather than an interventional efficacy trial. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28646118](https://pubmed.ncbi.nlm.nih.gov/28646118/) | 2017 | Review | Blood | Review of direct oral anticoagulants (DOACs, e.g. rivaroxaban) for treatment of serologically confirmed HIT, including the Hamilton clinical experience and literature synthesis — relevant background on non-heparin anticoagulant strategies for HIT, though focused on DOACs rather than Fondaparinux specifically. |
-| [30018843](https://pubmed.ncbi.nlm.nih.gov/30018843/) | 2017 | Case report | Journal of the Advanced Practitioner in Oncology | Abstract concerns palliative chemotherapy decision-making in a patient with metastatic adenocarcinoma of unknown origin; content does not appear related to Fondaparinux or platelet release disorders — likely a search/mapping artefact and should be treated with low confidence. |
-
----
+| [30018843](https://pubmed.ncbi.nlm.nih.gov/30018843/) | 2017 | Case report | Journal of the Advanced Practitioner in Oncology | Palliative chemotherapy and palliative care in a young patient with metastatic adenocarcinoma. Not relevant to fondaparinux or platelet release disorders. |
 
 ## Australia Market Information
 
-Fondaparinux currently has **no ARTG entries** and is **not marketed** in Australia, so no local product listing or approved-indication text is available in this evidence pack.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 8775W | Arixtra | Injection containing fondaparinux sodium 2.5 mg in 0.5 mL single dose pre-filled syringe | Not recorded in the data compiled for this report |
 
 ## Safety Considerations
 
-No key warnings, contraindications, or drug-interaction data were returned for this evidence pack (TFDA/product-label warnings and contraindications are flagged as a **Blocking** data gap — DG001 — which prevents the initial safety review stage; the DDI query also returned no results). Because Fondaparinux is not currently registered locally, there is no TGA/TFDA-approved Product Information to reference directly — safety assessment should draw on the overseas-approved label (e.g., Arixtra PI from a reference regulator) until local documentation is obtained.
+**Contraindications suggested by the knowledge graph** (these come from drug-disease relationship data, not from approved label text):
+- Heparin-induced thrombocytopenia
+- Thrombocytopenia, including immune thrombocytopenia
+- Blood coagulation disease
+- Kidney disease
+- Anaemia, including macrocytic anaemia
+- Endocarditis, including subacute bacterial endocarditis
+- Diabetic retinopathy and diabetic cataract
+- Pyoureter
 
----
+Several of these (thrombocytopenia, coagulation disorders, retinal vascular disease) overlap directly with the predicted indications and reinforce the bleeding-risk concern.
+
+**Drug Interactions:** The interaction screen returned 100 interactions in total. Examples of those rated **Major** include:
+- Acetylsalicylic acid (aspirin)
+- Ibuprofen
+- Ketorolac
+- Abciximab
+- Acalabrutinib
+- Anagrelide
+- Antithrombin alfa and antithrombin III human
+- Deferasirox
+- Trastuzumab emtansine
+- Ibritumomab tiuxetan and tositumomab
+
+Most of these combinations raise bleeding risk. Moderate-level examples include fenfluramine, dexfenfluramine, sibutramine, sugammadex and radioiodine products.
+
+Please also refer to the TGA-approved Product Information (PI) for full warnings and contraindications, because label-level safety data were not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic case and supporting Phase 2/retrospective evidence (L2) for using Fondaparinux in HIT are reasonably strong and consistent with existing international off-label guidance. However, a Blocking data gap on safety warnings/contraindications means the candidate cannot yet pass initial safety screening (S1), and the drug is not currently marketed or registered in Australia.
+The prediction has no clinical trials, no relevant literature, and a mechanism that conflicts with the condition. Fondaparinux is an anticoagulant and primary release disorder of platelets is a bleeding disorder, so use would risk harm. The model score alone is not enough to justify further investment.
 
 **To proceed, the following is needed:**
-- TFDA/overseas product-label warnings and contraindications (DG001 — blocking; source: TFDA official site, PI PDF parsing)
-- Confirmed mechanism of action from DrugBank (DG002; source: DrugBank API)
-- Confirmation that "primary release disorder of platelets" precisely corresponds to HIT rather than an unrelated platelet release defect
-- Local registration pathway assessment, since Fondaparinux currently has zero ARTG entries in Australia
+- A plausible mechanistic rationale showing how factor Xa inhibition could benefit platelet release disorders (none is currently apparent)
+- Label-level warnings and contraindications from the TGA Product Information
+- Mechanism of action data, and the approved indication text for the Australian licence
+- If the team wishes to pursue the most plausible lead, a focused literature and trial search on **vertebral artery occlusion**, with a haemorrhagic risk assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,15 +2,15 @@
 layout: default
 title: Clomipramine
 parent: High Evidence (L1-L2)
-nav_order: 160
-evidence_level: L1
+nav_order: 173
+evidence_level: L2
 indication_count: 10
 ---
 
 # Clomipramine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,109 +29,86 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Clomipramine: From OCD and Depression to Anxiety Disorder
+# Clomipramine: From Obsessive-Compulsive Disorder to Anxiety Disorder
 
 ## One-Sentence Summary
 
-Clomipramine is a potent tricyclic antidepressant (TCA) with strong serotonin reuptake inhibition, historically used internationally for obsessive-compulsive disorder (OCD) and depression, though it is not currently registered in Australia.
-The TxGNN model predicts it may be effective for **Anxiety Disorder**, with **18 clinical trials identified** and **20 publications** currently supporting this direction.
-Evidence is rated at **L1**, underpinned by multiple completed Phase 3/4 randomised controlled trials and Cochrane-level systematic reviews.
-
----
+Clomipramine is a tricyclic antidepressant, originally used to treat obsessive-compulsive disorder (OCD).
+The TxGNN model predicts it may be effective for **anxiety disorder**,
+with **8 registered clinical trials** (all indirect, mostly in OCD) and **20 publications** (including network meta-analyses and treatment guidelines) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | OCD and depressive disorders (international approvals; not registered in Australia) |
-| Predicted New Indication | Anxiety Disorder |
+|------|------|
+| Original Indication | Obsessive-compulsive disorder (per the TxGNN knowledge graph; no approved indication text is listed in the ARTG data compiled for this report) |
+| Predicted New Indication | Anxiety disorder |
 | TxGNN Prediction Score | 99.93% |
-| Evidence Level | L1 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L2 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack. Based on known clinical and pharmacological information, Clomipramine is a tricyclic antidepressant (TCA) that acts as the most potent serotonin reuptake inhibitor (SRI) in its class. By increasing synaptic serotonin concentrations, it suppresses the fear circuitry — particularly the amygdala–prefrontal cortex pathway — which underpins pathological anxiety. This is the same core mechanism shared by SSRIs in their approved anxiety and OCD indications. Notably, head-to-head comparisons have demonstrated Clomipramine's antiobsessional efficacy to be superior to some SSRIs in certain patient populations.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, clomipramine is a potent serotonin reuptake inhibitor with noradrenergic activity through its active metabolite, desmethylclomipramine.
 
-The predicted indication, "Anxiety Disorder," is a broad diagnostic category encompassing OCD, panic disorder, agoraphobia, social phobia, and generalised anxiety disorder. Clomipramine has a well-documented clinical history across these subtypes: it was historically considered the gold-standard pharmacotherapy for OCD before SSRIs became widely available, and was once the reference comparator drug in European panic disorder trials. The TxGNN model's prediction therefore aligns closely with decades of established clinical practice.
+OCD is closely related to anxiety disorders, and serotonergic modulation of fear and anxiety circuits (amygdala, prefrontal cortex) is shared across these conditions. Network meta-analyses and the WFSBP guidelines support the use of antidepressants, including clomipramine, in panic disorder and other anxiety disorders. Older controlled studies also used clomipramine as a reference drug in panic disorder with agoraphobia.
 
-While DSM-5 and ICD-11 have reclassified OCD outside the "Anxiety Disorder" umbrella, the serotonergic pharmacological pathway remains highly relevant to both categories. The breadth of anxiety-spectrum disorders for which Clomipramine has been rigorously studied — supported by Cochrane reviews, network meta-analyses, and multiple completed Phase 3/4 RCTs — provides a compelling mechanistic and clinical rationale for this prediction.
-
----
+An important caveat: the trials registered under this prediction mostly enrolled OCD patients, so they provide indirect support only. Direct, modern trials in primary anxiety disorders are limited.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00466609](https://clinicaltrials.gov/study/NCT00466609) | Phase 4 | Completed | 54 | Double-blind, double-dummy RCT comparing pharmacological augmentation strategies for OCD non-responders: fluoxetine maintenance, fluoxetine + quetiapine, and fluoxetine + Clomipramine combination — directly tests Clomipramine's clinical efficacy in anxiety-spectrum OCD |
-| [NCT00004310](https://clinicaltrials.gov/study/NCT00004310) | Phase 2 | Unknown | 76 | Randomised comparison of IV versus oral pulse-loading of Clomipramine in OCD patients, followed by 12-week maintenance — most directly evaluates Clomipramine pharmacotherapy for anxiety disorder subtype |
-| [NCT03299166](https://clinicaltrials.gov/study/NCT03299166) | Phase 2/3 | Completed | 426 | Large RCT of Troriluzole as adjunctive therapy in OCD patients with inadequate response to SSRIs, Clomipramine, or venlafaxine; Clomipramine was a key background treatment option |
-| [NCT00254735](https://clinicaltrials.gov/study/NCT00254735) | Phase 3 | Completed | 44 | Quetiapine augmentation of SSRI/Clomipramine baseline in severe OCD — reinforces Clomipramine's established role as frontline pharmacotherapy for severe OCD |
-| [NCT00564564](https://clinicaltrials.gov/study/NCT00564564) | Phase 4 | Completed | 21 | Open RCT comparing Clomipramine augmentation vs Quetiapine augmentation of SSRIs in OCD patients who did not achieve full remission — head-to-head augmentation evidence |
-| [NCT01148316](https://clinicaltrials.gov/study/NCT01148316) | N/A | Completed | 144 | Adaptive treatment strategies for children and adolescents with psychiatric disorders including OCD; Clomipramine was among pharmacotherapy options evaluated in routine clinical practice |
-| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Completed | 26 | Biomarker prediction of medication response in OCD — participants randomly assigned to Clomipramine or escitalopram, providing comparative pharmacodynamic data |
-| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | Phase 3 | Completed | 124 | RCT examining whether CBT improved outcomes in children with OCD who were partial responders to SRI treatment including Clomipramine |
-| [NCT06659094](https://clinicaltrials.gov/study/NCT06659094) | N/A | Completed | 95 | Stepped-care internet-based CBT for OCD vs group CBT — reflects active research in OCD/anxiety populations, with medication (potentially including Clomipramine) as stable background treatment |
-| [NCT02431845](https://clinicaltrials.gov/study/NCT02431845) | N/A | Recruiting | 200 | Pharmacoepigenetic, proteomic, and microbiomic study examining SSRI responsiveness in OCD — ongoing precision medicine research context |
-
----
+| [NCT00466609](https://clinicaltrials.gov/study/NCT00466609) | Phase 4 | Completed | 54 | Double-blind augmentation study in OCD non-responders: fluoxetine alone vs fluoxetine + quetiapine vs fluoxetine + clomipramine |
+| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | Phase 3 | Completed | 124 | CBT added to serotonin reuptake inhibitor treatment in children with OCD (indirect) |
+| [NCT00004310](https://clinicaltrials.gov/study/NCT00004310) | Phase 2 | Unknown | 76 | Intravenous vs oral pulse-loaded clomipramine in OCD |
+| [NCT00564564](https://clinicaltrials.gov/study/NCT00564564) | Phase 4 | Completed | 21 | Open trial of quetiapine vs clomipramine augmentation of SSRIs in OCD |
+| [NCT00254735](https://clinicaltrials.gov/study/NCT00254735) | Phase 3 | Completed | 44 | Quetiapine augmentation of SSRI/clomipramine in severe OCD; clomipramine is not the focus |
+| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Completed | 26 | Predictors of response to clomipramine or escitalopram in OCD |
+| [NCT02374567](https://clinicaltrials.gov/study/NCT02374567) | Phase 3 | Terminated | 407 | Pharmacovigilance in elderly psychiatric inpatients; not specific to anxiety |
+| [NCT05737511](https://clinicaltrials.gov/study/NCT05737511) | Phase 4 | Not yet recruiting | 80 | Hydroxyzine vs treatment as usual in panic disorder; clomipramine is not the studied intervention |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/) | 2023 | Cochrane Network Meta-Analysis | Cochrane Database of Systematic Reviews | Comprehensive network meta-analysis of pharmacological treatments for panic disorder in adults; provides high-level evidence positioning Clomipramine within the treatment landscape |
-| [27663940](https://pubmed.ncbi.nlm.nih.gov/27663940/) | 2016 | Systematic Review & Meta-Analysis | J Am Acad Child Adolesc Psychiatry | Meta-analysis of early treatment responses to SSRIs and Clomipramine in paediatric OCD; examined time course, dose-response, and comparative efficacy between agents |
-| [3887445](https://pubmed.ncbi.nlm.nih.gov/3887445/) | 1985 | RCT | Psychiatry Research | 12-week double-blind RCT comparing Clomipramine vs Imipramine in 23 OCD outpatients; demonstrated specific antiobsessional effect of Clomipramine |
-| [9786103](https://pubmed.ncbi.nlm.nih.gov/9786103/) | 1998 | Double-blind RCT | J Clin Pharm Ther | Investigated whether Clomipramine + Nortriptyline combination was superior to Clomipramine alone in OCD, exploring the noradrenergic contribution to antiobsessional therapy |
-| [10665629](https://pubmed.ncbi.nlm.nih.gov/10665629/) | 1999 | RCT | J Clin Psychiatry | 12-week placebo-controlled RCT directly comparing Paroxetine, Clomipramine, and cognitive therapy for DSM-III-R panic disorder with/without agoraphobia |
-| [2286699](https://pubmed.ncbi.nlm.nih.gov/2286699/) | 1990 | Double-blind RCT | J Clin Psychopharmacol | Double-blind, placebo-controlled 10-week study in 25 moderate-to-severe OCD patients; confirmed specific pharmacological effect and predominantly serotonergic mediation of Clomipramine's antiobsessional action |
-| [1474179](https://pubmed.ncbi.nlm.nih.gov/1474179/) | 1992 | Clinical Trial | J Clin Psychopharmacol | Comparative study of Clomipramine, Clonazepam, and Clonidine vs Diphenhydramine (control) for OCD; Clomipramine showed superior response confirming serotonergic mechanism |
-| [8263222](https://pubmed.ncbi.nlm.nih.gov/8263222/) | 1993 | Meta-Analysis | J Behav Ther Exp Psychiatry | Meta-analysis of 25 treatment studies (1975–1991) comparing Clomipramine, Fluoxetine, and behaviour therapy for OCD; all three were significantly effective across multiple outcome measures |
-| [2178909](https://pubmed.ncbi.nlm.nih.gov/2178909/) | 1990 | Comprehensive Review | Drugs | Overview of Clomipramine's pharmacological properties and 20-year clinical experience in OCD and panic disorder; documents superiority over older TCAs in anxiety-spectrum conditions |
-| [34582562](https://pubmed.ncbi.nlm.nih.gov/34582562/) | 2021 | Cochrane Systematic Review | Cochrane Database of Systematic Reviews | Updated Cochrane review on pharmacotherapy for trichotillomania (OCD-spectrum disorder); Clomipramine among systematically evaluated treatments, contributing to the broader anxiety disorder evidence base |
-
----
+| [38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/) | 2023 | Network meta-analysis | Cochrane Database Syst Rev | Pharmacological treatments for panic disorder in adults |
+| [35900217](https://pubmed.ncbi.nlm.nih.gov/35900217/) | 2023 | Guideline | World J Biol Psychiatry | WFSBP guidelines for anxiety, OCD and PTSD pharmacotherapy |
+| [40788541](https://pubmed.ncbi.nlm.nih.gov/40788541/) | 2026 | Network meta-analysis | Eur Arch Psychiatry Clin Neurosci | Comparative efficacy and acceptability of anxiolytic drugs |
+| [40946318](https://pubmed.ncbi.nlm.nih.gov/40946318/) | 2026 | Systematic review | Psychother Psychosom | Treatment options in treatment-resistant anxiety disorders |
+| [2178909](https://pubmed.ncbi.nlm.nih.gov/2178909/) | 1990 | Review | Drugs | Clomipramine pharmacology and use in OCD and panic disorder |
+| [18849910](https://pubmed.ncbi.nlm.nih.gov/18849910/) | 2008 | Review | CNS Spectrums | Medical treatment of OCD and anxiety; clomipramine effective in OCD but with more adverse events |
+| [2021107](https://pubmed.ncbi.nlm.nih.gov/2021107/) | 1991 | Review | Am Fam Physician | Clomipramine for OCD; anticholinergic effects and a 0.4% seizure incidence noted |
+| [3887336](https://pubmed.ncbi.nlm.nih.gov/3887336/) | 1985 | Review | Psychiatr Clin North Am | OCD shares features of anxiety and affective disorders; clomipramine useful |
 
 ## Australia Market Information
 
-Clomipramine is **not currently registered with the TGA** and has **no active ARTG entries** in Australia. There are no approved Australian Product Information (PI) documents available. Clinicians wishing to use Clomipramine in Australia would need to apply through the TGA Special Access Scheme (SAS) or Authorised Prescriber pathway, or consider a new ARTG registration application. For safety and dosing guidance, reference should be made to the approved PI from comparable international regulators such as the US FDA or the European Medicines Agency (EMA).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1561E | APO-Clomipramine | Tablet containing clomipramine hydrochloride 25 mg (oral) | Not listed in the data compiled for this report |
 
 ## Safety Considerations
 
-As Clomipramine is not registered in Australia, TGA-specific safety documentation is unavailable. Please refer to the approved Product Information (PI) from international regulatory authorities (US FDA or EMA) for comprehensive safety information, including warnings, contraindications, and drug interactions.
+- **Disease-level cautions (knowledge graph, not label text)**: Clomipramine is flagged as contraindicated or to be used with caution in epilepsy, manic bipolar disorder, liver disease, gallbladder disease, substance abuse/dependence, malignant hyperthermia, phaeochromocytoma and other adrenal tumours, neuroblastoma, glaucoma, and hyperthyroidism (including Graves disease and thyrotoxicosis). It is also flagged for several cancers (duodenum, small intestine, heart, adrenal gland, sympathetic paraganglioma).
+- **Drug Interactions**: The data compiled for this report list 100 interactions. Major-level examples include epinephrine, bupropion, lorcaserin, potassium citrate and cisapride. Moderate-level examples include famotidine, cimetidine, clarithromycin, morphine, acetylsalicylic acid and several anticholinergic agents (atropine, hyoscyamine, glycopyrronium).
+- **Literature signals**: Anticholinergic effects, seizure risk, sexual dysfunction, and rare haematological events such as pancytopenia are described in the retrieved publications.
 
-Prescribers should be aware that Clomipramine, as a TCA, carries well-recognised class-level risks relevant to routine clinical use:
-
-- **Cardiac toxicity**: QTc prolongation and conduction abnormalities — ECG monitoring recommended, particularly at higher doses
-- **Seizure threshold lowering**: Dose-dependent risk; caution in patients with epilepsy or predisposing conditions
-- **Anticholinergic burden**: Urinary retention, constipation, dry mouth, blurred vision, cognitive impairment — significant consideration in elderly patients
-- **Overdose lethality**: TCAs have a narrow therapeutic index; risk of fatal cardiac arrhythmia in overdose — prescribing quantity should be limited in patients at suicide risk
-- **Drug interactions**: Inhibitors of CYP2D6 and CYP1A2 may significantly elevate Clomipramine plasma levels; combination with MAOIs is contraindicated
-
----
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Clomipramine has robust, L1-level evidence across anxiety-spectrum disorders — particularly OCD, panic disorder, and agoraphobia — supported by multiple completed Phase 3/4 RCTs, Cochrane systematic reviews, and large-scale network meta-analyses. The mechanistic rationale is sound: its potent SRI action directly targets the serotonergic pathways central to anxiety disorder pathophysiology. However, the drug is not currently registered in Australia and formal safety documentation under the TGA framework is unavailable, requiring additional regulatory steps before clinical use.
+Clomipramine is already marketed in Australia, and reviews, guidelines and several older controlled studies support antidepressant therapy, including clomipramine, in panic disorder and related anxiety conditions. However, the registered trials are mostly in OCD and the direct anxiety evidence is dated and small, so use should be positioned as a later-line option with careful safety management.
 
 **To proceed, the following is needed:**
-
-- **Regulatory pathway**: Determine whether access will be pursued via TGA Special Access Scheme (SAS Category B), Authorised Prescriber pathway, or a new ARTG registration application
-- **Safety review**: Obtain and systematically review the FDA/EMA-approved Product Information to document warnings, contraindications, and key drug–drug interactions — this is currently a blocking data gap
-- **MOA documentation**: Confirm mechanism of action via DrugBank API to strengthen the mechanistic rationale in any regulatory or clinical governance submission
-- **Indication specificity**: Clarify the precise anxiety disorder subtype being targeted (OCD, panic disorder, GAD, or agoraphobia), as evidence strength and treatment guidelines vary meaningfully by subtype
-- **Comparative effectiveness analysis**: Assess Clomipramine's benefit–risk profile relative to currently TGA-registered first-line agents (SSRIs, SNRIs) in the Australian context, given Clomipramine's less favourable tolerability profile
-- **Risk management plan**: Develop a structured plan addressing TCA-class cardiovascular monitoring, seizure risk stratification, anticholinergic burden assessment, and overdose risk mitigation — particularly relevant given the Australian mental health prescribing environment
+- Review of the TGA Product Information, including the approved indications for APO-Clomipramine, warnings and contraindications
+- Detailed mechanism of action data
+- Modern, adequately powered randomised trials of clomipramine in a defined primary anxiety disorder (e.g. panic disorder)
+- A safety monitoring plan covering cardiac conduction, seizure threshold, anticholinergic effects and interaction screening, with consideration of CYP2D6/CYP2C19 pharmacogenetics
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

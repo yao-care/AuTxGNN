@@ -2,7 +2,7 @@
 layout: default
 title: Quinine
 parent: Model Prediction Only (L5)
-nav_order: 575
+nav_order: 617
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,25 +33,29 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Quinine is a long-established antimalarial agent (haemozoin/haematin polymerisation inhibitor with Na⁺/Ca²⁺ channel–modulating activity); structured original-indication and MOA fields are not on file for this evidence pack, but this pharmacology is described in the prediction rationale itself. The TxGNN model's top-ranked prediction is **Smouldering Systemic Mastocytosis** (score 96.90%), but this is supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic assessment flags it as likely model noise rather than a genuine signal — quinine's best-known interaction with the immune/haematological system (drug-dependent antibody–mediated thrombocytopenia) runs counter to, not in support of, a therapeutic role in a mast-cell proliferative disorder.
+Quinine is an antimalarial medicine, originally used to treat malaria, including *Plasmodium falciparum* malaria.
+The TxGNN model predicts it may be effective for **Smouldering Systemic Mastocytosis**, but this is a computational prediction only,
+with **0 clinical trials** and **0 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Malaria (antimalarial) — inferred from rationale text; no structured `original_indications`/TGA licence data on file |
-| Predicted New Indication | Smouldering Systemic Mastocytosis |
+| Original Indication | Malaria (including *Plasmodium falciparum* malaria) |
+| Predicted New Indication | Smouldering systemic mastocytosis |
 | TxGNN Prediction Score | 96.90% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in structured form for this pack (`original_moa`: Data Gap). Based on the rationale text supplied with the prediction, quinine's known pharmacology is antimalarial — inhibition of haem/haematin polymerisation in *Plasmodium* — together with non-specific Na⁺/Ca²⁺ channel modulation. Smouldering systemic mastocytosis, by contrast, is driven by activating **KIT** mutations causing clonal mast-cell proliferation.
+Currently, detailed mechanism of action data is not available. Based on known information, quinine is an established antimalarial, and its efficacy in malaria is proven. Mechanistically, however, no link to smouldering systemic mastocytosis has been established.
 
-There is no known overlap between quinine's mechanism and the KIT signalling pathway, and the evidence pack explicitly notes that quinine is better known clinically for **inducing** immune-mediated thrombocytopenia and other drug-dependent antibody reactions — an adverse, pro-inflammatory association rather than a therapeutic one in mast-cell disease. The assessment concludes this ranking most likely reflects embedding-space proximity noise in the knowledge graph rather than a real pharmacological signal, and this is corroborated by the complete absence of any supporting trial or literature evidence.
+Quinine is known to block potassium channels and has other ion-channel activity, but nothing in the data compiled for this report connects this to mast cell proliferation or KIT-driven disease. The high score (0.969) most likely reflects how closely related disease entries sit together in the knowledge graph.
+
+The three top predictions (smouldering systemic mastocytosis, lymphoadenopathic mastocytosis with eosinophilia, and systemic mastocytosis) are closely related disease nodes, so they should not be treated as independent evidence. Approved targeted therapies for mastocytosis (KIT inhibitors) work through a very different mechanism.
 
 ## Clinical Trial Evidence
 
@@ -61,27 +65,35 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+(One publication, PMID 11743679, was retrieved for a lower-ranked prediction, thoracic malformation. It is a 2001 case report on imported malaria and is not relevant to the predicted indication, so it is not counted as evidence.)
+
 ## Australia Market Information
 
-No ARTG entries are currently on file for quinine in this evidence pack (market status: Not marketed; 0 total licences).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1975Y | Quinate | Tablet containing quinine sulfate dihydrate 300 mg (oral) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. (Key warnings, contraindications, and drug interaction data are not currently available for this evidence pack; a DDI query returned no results.)
+- **Contraindications (from knowledge-graph associations, not label text):** long QT syndrome (including familial), torsades de pointes, atrial fibrillation and flutter, liver disease, gallbladder disease, thrombocytopenia and thrombocytopenic purpura, haemolytic-uraemic syndrome, myasthenia gravis and other neuromuscular junction disease, hypoglycaemia, chronic kidney disease and end-stage renal failure, optic neuritis, and blackwater fever.
+- **Drug Interactions:** 100 interactions were identified. Those rated **Major** include loperamide, clarithromycin, dolasetron, picosulfuric acid, sodium sulfate, and polyethylene glycol (3350 with electrolytes). Examples rated Moderate include famotidine, aprepitant, dexamethasone, bisacodyl, palonosetron, and several antidiabetic agents (chlorpropamide, glimepiride, insulins). Many of the major interactions relate to QT prolongation or electrolyte disturbance.
+- **Other considerations:** Quinine's known hyponatraemia and renal adverse-event profile argues for caution in the lower-ranked renal predictions.
+
+Please also refer to the TGA-approved Product Information (PI) for full warnings and precautions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction has no supporting clinical trial or literature evidence (Evidence Level L5), and the mechanistic rationale itself argues against biological plausibility — quinine's principal known interaction with immune/haematological pathways is adverse (drug-induced thrombocytopenia), not therapeutic. Proceeding to any safety-relevant evaluation stage (S1+) is not currently supportable.
+The prediction rests on a model score alone (L5), with no clinical trials, no supporting literature, and no established mechanistic link. Quinine also carries significant cardiac, haematological and drug-interaction risks.
 
 **To proceed, the following is needed:**
-- TFDA/TGA-approved Product Information (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Structured mechanism-of-action data from DrugBank — currently a High-severity data gap (DG002)
-- Quinine-specific (not disease-background) preclinical or clinical evidence directly addressing KIT-driven mast-cell pathology, should this candidate be pursued further
-
-**Note on other candidates in this pack:** all 10 TxGNN-ranked predictions for quinine resulted in a Hold recommendation. The strongest evidence level reached was **L4** (rank 6, polycystic kidney/liver disease), based on an indirect ion-channel mechanistic argument (quinine's non-specific blockade of polycystin-2/Ca²⁺-activated Cl⁻ currents), but the associated literature consists of general ADPKD/PLD reviews and guidelines rather than quinine-specific studies, and should not be read as direct drug evidence.
+- Mechanism of action data (for example from DrugBank) and a plausible biological link to mast cell disease
+- Preclinical studies (for example in KIT-mutant mast cell models) or a systematic literature search
+- TGA Product Information, including warnings, contraindications and approved indications for the ARTG entry
+- A risk-benefit assessment against approved targeted therapies for mastocytosis, including QT and interaction risks
+- Route and dosing compatibility assessment for the oral tablet formulation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

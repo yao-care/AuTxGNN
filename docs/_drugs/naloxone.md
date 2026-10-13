@@ -2,7 +2,7 @@
 layout: default
 title: Naloxone
 parent: Model Prediction Only (L5)
-nav_order: 459
+nav_order: 492
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Naloxone: From Opioid Overdose Reversal to Continuous Spikes and Waves During Sleep
+# Naloxone: From Opioid Dependence to Hypoglycaemia (Impaired Awareness)
 
 ## One-Sentence Summary
 
-Naloxone is a competitive opioid receptor antagonist most widely known for reversing opioid overdose and opioid-induced respiratory depression. The TxGNN model's top prediction for this drug is **continuous spikes and waves during sleep (CSWS)**, a rare paediatric epileptic encephalopathy, but this direction is currently supported by **0 clinical trials** and **0 publications**. This is a model-only signal with no corroborating clinical or mechanistic evidence.
+Naloxone is an opioid receptor antagonist, originally used for opioid dependence and substance abuse and, in practice, for reversing opioid overdose.
+The TxGNN model's top-ranked prediction is **continuous spikes and waves during sleep**, but this has no supporting evidence. The best-supported candidate is **hypoglycaemia (prevention of hypoglycaemia-associated autonomic failure)**, with **3 small, terminated clinical trials** and **20 publications**.
+Overall evidence is early and limited, so this report presents the highest-ranked prediction alongside the best-evidenced candidate.
 
 ---
 
@@ -41,62 +43,124 @@ Naloxone is a competitive opioid receptor antagonist most widely known for rever
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this evidence pack's regulatory data (no ARTG licences found); naloxone is generally used to reverse opioid overdose/respiratory depression |
-| Predicted New Indication | Continuous spikes and waves during sleep (CSWS) |
-| TxGNN Prediction Score | 88.17% |
-| Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Opiate dependence, substance abuse/dependence, morphine dependence (from the knowledge graph; no approved indication text is available for the Australian product) |
+| Predicted New Indication | Top-ranked: continuous spikes and waves during sleep. Best-evidenced: hypoglycaemia (rank 7) |
+| TxGNN Prediction Score | 88.2% (rank 1); 81.5% (hypoglycaemia, rank 7) |
+| Evidence Level | L5 (rank 1); L2 (hypoglycaemia) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold (rank 1); Proceed with Guardrails limited to further research (hypoglycaemia) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for this candidate was not available in the evidence pack (DrugBank MOA field flagged as a data gap). Based on general pharmacological knowledge, naloxone is a competitive antagonist at opioid receptors (predominantly mu-opioid), and its established clinical role is reversing the effects of opioid agonists in overdose or perioperative settings.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Naloxone is a well-known opioid receptor antagonist, which is the basis of its use in opioid dependence and overdose reversal.
 
-CSWS is a rare, structurally and electrophysiologically defined childhood epilepsy syndrome. There is no established pathophysiological link between opioid receptor blockade and the mechanisms thought to drive CSWS (abnormal cortico-thalamic synchronisation during sleep). No clinical trials or publications were retrieved connecting naloxone (or related opioid antagonists) to this condition, so the prediction currently rests entirely on TxGNN's embedding-based similarity score, with no independent evidence to support or refute a plausible mechanistic rationale.
+**Top-ranked prediction (continuous spikes and waves during sleep):** No trials or literature were found, and no plausible mechanistic link between opioid antagonism and this sleep-related epileptic encephalopathy can be established. This is a model prediction only.
+
+**Best-supported candidate (hypoglycaemia):** Opioid signalling blunts the body's counter-regulatory responses during low blood sugar. By blocking opioid receptors, naloxone may restore the hormonal and sympathoadrenal responses and so help prevent hypoglycaemia-associated autonomic failure (HAAF) and impaired awareness of hypoglycaemia. The target is prevention of HAAF, not treatment of an acute hypoglycaemic episode. Separate case reports of opioid-induced hypoglycaemia point in the same direction.
+
+**Other candidates (ranks 4-9):**
+- *Schizophreniform and psychotic disorders:* Based on the 1980s endogenous opioid hypothesis. Results were small, old and inconsistent, including a negative double-blind study in mania.
+- *Drug-induced dyskinesia:* Primate models show naloxone reduces levodopa-induced dyskinesia, but human data are small and Cochrane reviews found no reliable benefit.
+- *Nasal cavity disease, acute pulmonary heart disease:* The literature is indirect and likely reflects artefacts in the model.
+- *Lissencephaly with cerebellar hypoplasia, DECR deficiency encephalopathy, acute laryngopharyngitis:* No evidence and no apparent mechanism.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+No trials are registered for the top-ranked prediction. The table below shows trials for the best-supported candidate (hypoglycaemia).
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02700048](https://clinicaltrials.gov/study/NCT02700048) | Phase 1/2 | Terminated | 11 | Intranasal naloxone vs saline during experimental hypoglycaemia, effect on next-day responses in impaired awareness of hypoglycaemia (most directly relevant; underpowered) |
+| [NCT03608163](https://clinicaltrials.gov/study/NCT03608163) | Phase 4 | Terminated | 4 | Naloxone and diazoxide to prevent HAAF in healthy subjects; too small to draw conclusions |
+| [NCT00678145](https://clinicaltrials.gov/study/NCT00678145) | Phase 2 | Terminated | 39 | Mechanisms of HAAF in type 1 diabetes; mechanistically relevant, but the naloxone-specific design is not confirmed |
+
+For psychotic disorder, one early Phase 1 trial, [NCT01591629](https://clinicaltrials.gov/study/NCT01591629) (completed, n=6), examined opioid antagonism and the effects of THC in cannabis use disorder. It is not a trial of psychosis treatment and has low relevance.
+
+No ANZCTR trials were identified in the data compiled for this report.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Hypoglycaemia (best-supported candidate):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39026458](https://pubmed.ncbi.nlm.nih.gov/39026458/) | 2025 | Clinical trial report | J Clin Endocrinol Metab | Effects of intranasal naloxone on HAAF in susceptible individuals; opioid blockade with IV naloxone ameliorates HAAF experimentally but is not feasible therapeutically |
+| [39331519](https://pubmed.ncbi.nlm.nih.gov/39331519/) | 2025 | Review/Commentary | J Clin Endocrinol Metab | Discusses whether intranasal naloxone can prevent HAAF |
+| [20811039](https://pubmed.ncbi.nlm.nih.gov/20811039/) | 2011 | Preclinical | Diabetes | Naloxone, but not valsartan, preserved responses to hypoglycaemia after antecedent hypoglycaemia |
+| [37106491](https://pubmed.ncbi.nlm.nih.gov/37106491/) | 2023 | Case report | Adv Emerg Nurs J | Possible opioid-induced hypoglycaemia and the potential role of naloxone |
+| [23467779](https://pubmed.ncbi.nlm.nih.gov/23467779/) | 2013 | Preclinical (mouse) | Cell Mol Neurobiol | Methadone-induced hypoglycaemia in mice, antagonised by naloxone |
+
+Psychosis-related candidates (schizophreniform and psychotic disorders):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [6121545](https://pubmed.ncbi.nlm.nih.gov/6121545/) | 1982 | Double-blind clinical study | Arch Gen Psychiatry | WHO collaborative study: symptom reduction in schizophrenic patients on neuroleptics (n=19), not in medication-free patients |
+| [7435717](https://pubmed.ncbi.nlm.nih.gov/7435717/) | 1980 | Clinical study (negative) | Am J Psychiatry | Naloxone failed to reduce manic symptoms |
+| [24733134](https://pubmed.ncbi.nlm.nih.gov/24733134/) | 2014 | Case report | Am J Health Syst Pharm | Nalbuphine-induced psychosis resolved with naloxone (drug-induced scenario) |
+
+Drug-induced dyskinesia:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [12804390](https://pubmed.ncbi.nlm.nih.gov/12804390/) | 2003 | Cochrane review | Cochrane Database Syst Rev | Miscellaneous treatments for tardive dyskinesia; no reliable evidence of benefit |
+| [12373562](https://pubmed.ncbi.nlm.nih.gov/12373562/) | 2002 | Preclinical (primate) | J Neural Transm | Naloxone reduced levodopa-induced dyskinesias in marmoset models |
+| [3070611](https://pubmed.ncbi.nlm.nih.gov/3070611/) | 1988 | Clinical study | Psychiatry Res | High-dose IV naloxone in 20 patients with tardive dyskinesia |
+
+Nasal cavity disease: one observational paper ([28829521](https://pubmed.ncbi.nlm.nih.gov/28829521/), 2017) examined nasal obstruction as a barrier to intranasal naloxone delivery. It does not show that naloxone treats nasal disease.
 
 ---
 
 ## Australia Market Information
 
-No ARTG entries were identified for naloxone in this evidence pack, and market status is recorded as **not marketed**. This should be independently confirmed against the current TGA/ARTG database, as naloxone products are generally available in other markets for opioid overdose reversal — the absence of a record here may reflect a data-collection gap rather than true non-availability.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 10783M | Naloxone Hydrochloride (DBL) | Injection containing naloxone hydrochloride 400 micrograms in 1 mL ampoule | Not available in the data compiled for this report |
+
+Only an injectable form is registered in the data compiled. This may limit practical use for chronic or preventive indications, such as the intranasal route studied in HAAF.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Key warnings, contraindications, and drug interaction data were not available in this evidence pack (DDI query returned no results).
+**Contraindication-related disease associations (knowledge graph, not label text):** The knowledge graph links naloxone with caution or contraindication in the following groups, which should be verified against the Product Information:
+- Cardiovascular: long QT syndrome, torsades de pointes, sudden cardiac arrest, heart conduction disease, orthostatic hypotension, hypotensive disorder, postural orthostatic tachycardia syndrome, multiple system atrophy
+- Neurological/respiratory: epilepsy, chronic obstructive pulmonary disease, respiratory failure
+- Hepatic/renal: liver disease, kidney disease, chronic hepatitis B and C infection, gallbladder disease
+- Endocrine: adrenal insufficiency, Addison disease, hypothyroidism, myxoedema
+- Other: inflammatory bowel disease, benign prostatic hyperplasia
+
+**Drug Interactions:** 88 interactions were identified. The main ones are:
+- **Major:** droperidol
+- **Moderate:** opioid agonists, including fentanyl, morphine, codeine, tramadol, oxycodone, methadone, hydrocodone, alfentanil, remifentanil and sufentanil; and opioid-related agents such as methylnaltrexone, naldemedine, naloxegol, butorphanol and binimetinib
+- **Minor:** hydrocortisone
+
+Naloxone can precipitate withdrawal in opioid-dependent patients. Preclinical data also report naloxone-induced seizures in the context of encephalitis. Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold for the top-ranked prediction (continuous spikes and waves during sleep). Proceed with Guardrails, as a research question only, for hypoglycaemia (HAAF prevention).**
 
 **Rationale:**
-The top-ranked prediction (CSWS) has no supporting clinical trials or literature (L5 — model prediction only) and no plausible mechanistic link between opioid receptor antagonism and this rare paediatric epilepsy syndrome. In addition, a blocking data gap on TFDA/TGA warnings and contraindications currently prevents even an initial safety screen (S1) for naloxone in this evidence pack.
+- The top-ranked prediction rests on a model score alone, with no trials, no literature and no plausible mechanism.
+- Hypoglycaemia is the only candidate with directly relevant trials and recent publications, but all three trials were terminated with small enrolments (4, 11 and 39), so efficacy is unproven.
+- The remaining candidates rely on old, small or inconsistent studies, or on indirect and likely artefactual associations.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications, interactions) to clear the blocking safety gap
-- Confirmed DrugBank/mechanism-of-action detail for naloxone
-- Confirmation of current ARTG/marketing status in Australia
-- Any emerging clinical or preclinical evidence directly linking opioid antagonism to CSWS before this candidate is reconsidered
-
-*Note: Other TxGNN-ranked candidates for naloxone (e.g., psychotic disorder, schizophreniform disorder) have somewhat more evidence volume but suffer from drug-identity mismatch — most retrieved trials/literature involve naltrexone rather than naloxone itself — and were independently scored Hold. None currently clear the bar for further progression.*
+- A larger, adequately powered randomised controlled trial of intranasal naloxone for HAAF or impaired awareness of hypoglycaemia
+- Review of the full results of NCT02700048 and the 2025 clinical trial report (PMID 39026458)
+- Detailed mechanism-of-action data
+- TGA-approved Product Information, including the approved indication text, warnings and contraindications
+- Assessment of route availability, since only an injectable product is currently registered in Australia
+- A safety plan covering withdrawal precipitation in opioid-dependent patients, cardiovascular risk, and interactions with opioids and droperidol
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

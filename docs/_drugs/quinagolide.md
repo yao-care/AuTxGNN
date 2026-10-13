@@ -2,7 +2,7 @@
 layout: default
 title: Quinagolide
 parent: Model Prediction Only (L5)
-nav_order: 573
+nav_order: 615
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,55 +29,91 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Quinagolide: From Hyperprolactinaemia to Insomnia
+# Quinagolide: From an Unspecified Original Indication to Insomnia
 
 ## One-Sentence Summary
 
-Quinagolide is a dopamine D2-receptor agonist; structured registry data on its original indication and mechanism of action are currently a data gap, but pharmacological literature associates it with hyperprolactinaemia/prolactinoma. The TxGNN model's top-ranked prediction is **Insomnia**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and is mechanistically counter-intuitive since dopamine agonists more commonly cause insomnia as a side effect rather than treat it.
+Quinagolide is a selective dopamine D2 agonist marketed in Australia as an oral tablet (Norprolac). The data compiled for this report do not record an approved indication for it.
+The TxGNN model predicts it may be useful for **insomnia**, but this is a **model prediction only**, with **0 clinical trials** and **0 publications** supporting it.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperprolactinaemia / prolactinoma (per pharmacological literature referenced in the evidence review; not confirmed by structured registry data — see Data Gaps below) |
+| Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 96.12% |
-| Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the structured record (flagged as a High-severity data gap). Based on the pharmacological class referenced within the evidence review itself, quinagolide is a selective D2 dopamine receptor agonist, and its efficacy in hyperprolactinaemia/prolactinoma is pharmacologically well established — though this original indication is not confirmed in the structured dataset provided.
+Currently, detailed mechanism of action data is not available. Quinagolide is described as a selective D2 dopamine agonist. Dopaminergic signalling can influence sleep-wake regulation, which is the only basis for the prediction.
 
-The mechanistic case for insomnia is weak. Dopamine D2 agonists are clinically well known to *cause* insomnia as an adverse effect rather than treat it, so the direction of this prediction runs against established pharmacology. No clinical trial or literature evidence was found supporting the use of quinagolide for insomnia — this appears to be a model-driven association without empirical backing.
+No direct link between quinagolide and insomnia is documented, and the original indication is not recorded in the data compiled for this report. The mechanistic rationale is therefore speculative. Dopamine agonists are more often associated with somnolence or sleep disturbance as adverse effects than with insomnia treatment.
 
-Two other candidates further down the prediction list carry somewhat stronger (though still limited) mechanistic plausibility and merit separate attention: **schizophrenia** (rank 10, evidence level L3, decision stage "Research Question") is supported by a systematic review/meta-analysis of pro-dopaminergic drugs for negative symptoms of schizophrenia, which is directionally consistent with quinagolide's dopamine-agonist activity. Conversely, **manic bipolar affective disorder** (rank 4, evidence level L4) is supported only by two case reports describing mania as an *adverse effect* of quinagolide — this is a safety signal, not a treatment opportunity, and should not be mistaken for supporting evidence of efficacy.
+Other predictions for this drug (all Hold, with no supporting trials) include anxiety (81%), sleep disorder of initiating and maintaining sleep (76%), manic bipolar affective disorder (73%), primary hereditary glaucoma (69%), open-angle glaucoma (66%), common cold (66%), retinal dystrophy (65%), alcohol withdrawal delirium (64%) and schizophrenia (63%). The sleep-disorder prediction is essentially the same clinical entity as insomnia. Several others are mechanistically doubtful. A D2 agonist could worsen alcohol withdrawal delirium and could exacerbate positive symptoms of schizophrenia.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Insomnia.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available for Insomnia.
+Currently no related literature available for insomnia.
+
+For context, literature was found for other predicted indications. These are safety signals or indirect evidence, not support for repurposing:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [17888817](https://pubmed.ncbi.nlm.nih.gov/17888817/) | 2007 | Case report | General Hospital Psychiatry | Case of mania after long-term quinagolide use (predicted indication: manic bipolar disorder). This is a safety signal. |
+| [10738858](https://pubmed.ncbi.nlm.nih.gov/10738858/) | 2000 | Case series (indirect) | Eur Arch Psychiatry Clin Neurosci | Three psychotic patients with prolactin-secreting pituitary tumours. One developed paranoid psychosis after bromocriptine treatment. |
+| [31688399](https://pubmed.ncbi.nlm.nih.gov/31688399/) | 2019 | Systematic review/Meta-analysis | J Clin Psychopharmacol | Prodopaminergic drugs for negative symptoms of schizophrenia. Class-level and indirect, and it is not clear that quinagolide was studied. |
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 13982X | Norprolac | Tablet 75 micrograms (as hydrochloride) | Not available in the data compiled for this report |
+
+---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No structured warnings, contraindications, or drug-interaction data are currently available for quinagolide in this evidence pack.
+Please refer to the TGA-approved Product Information (PI) for safety information.
+
+Points from the data compiled for this report:
+- The literature contains a case report of mania after long-term quinagolide use (PMID 17888817), and dopamine agonists may cause neuropsychiatric adverse effects.
+- Dopamine agonists are more often associated with somnolence or sleep disturbance than with improved sleep.
+- No drug interaction records were found.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Insomnia) has no supporting clinical trial or literature evidence and is mechanistically counter-intuitive for a dopamine D2 agonist. Combined with a Blocking-severity data gap on TFDA/TGA-equivalent warnings and contraindications, there is insufficient basis to advance this candidate.
+The insomnia prediction rests only on a model score, with no trials or literature, and the mechanistic rationale is speculative. Dopamine agonists are more commonly linked to sleep disturbance and neuropsychiatric adverse effects than to treating insomnia.
 
 **To proceed, the following is needed:**
-- TGA-equivalent Product Information (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action and original indication from DrugBank/TGA sources — currently a High-severity data gap
-- If pursuing repurposing further, prioritise re-evaluation of the schizophrenia signal (L3, "Research Question" stage) over the unsupported insomnia prediction
+- The approved indication and Product Information for Norprolac, including warnings and contraindications
+- Detailed mechanism of action data
+- Preclinical or clinical evidence that D2 agonism by quinagolide improves sleep
+- A neuropsychiatric safety assessment, given the mania case report
+- Confirmation of the original indication, to assess how similar it is to the proposed one
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

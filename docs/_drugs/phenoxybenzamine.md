@@ -2,7 +2,7 @@
 layout: default
 title: Phenoxybenzamine
 parent: Model Prediction Only (L5)
-nav_order: 532
+nav_order: 568
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,68 +33,88 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Phenoxybenzamine is a long-established, non-selective α1/α2-adrenergic antagonist, historically used for phaeochromocytoma and related catecholamine-excess states (general pharmacological knowledge — this drug is not currently marketed in Australia, so no local regulatory indication text is available). The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma**, but this direction is currently supported by **no clinical trials and no literature**, and the proposed mechanism runs counter to established glaucoma pharmacology.
-
----
+Phenoxybenzamine is an irreversible, non-selective alpha-adrenergic blocker, originally used to manage phaeochromocytoma and related catecholamine-secreting tumours.
+The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, but there are currently **no clinical trials** and **no publications** supporting this specific prediction. It is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from Australian regulatory data (drug not marketed in Australia); historically used for phaeochromocytoma / hypertensive crises (general pharmacological reference, not sourced from this evidence pack) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
+| Original Indication | Phaeochromocytoma (adrenal gland and sympathetic paraganglioma) and related tumours (from the knowledge graph; no approved indication text is available for the Australian product) |
+| Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.55% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for this drug is not available in the structured dataset (`original_moa` is a data gap). Drawing on the repurposing rationale supplied alongside this prediction: Phenoxybenzamine is an irreversible, non-selective α1/α2-adrenergic receptor antagonist.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, phenoxybenzamine irreversibly blocks alpha-adrenergic receptors. This is the basis of its use in phaeochromocytoma, where it counters the effects of excess catecholamines.
 
-Intraocular pressure control in glaucoma is typically achieved through α2-agonists (e.g. brimonidine), which *reduce* aqueous humour production, or through β-blockers and prostaglandin analogues. Phenoxybenzamine's pharmacology — α-receptor *blockade* — points in the opposite direction to these established mechanisms. The evidence pack's own rationale flags this as a weak mechanistic link, and no clinical or literature evidence currently exists to support the connection. This prediction appears to be driven primarily by the TxGNN model's network-based score rather than by any known or plausible pharmacological pathway.
+Alpha-blockade could theoretically alter aqueous humour dynamics or ocular blood flow. However, primary hereditary glaucoma is largely driven by structural or genetic outflow defects, so the mechanistic link to the original indication is weak. The high TxGNN score is a statistical prediction and is not backed by trials or literature.
 
----
+**Other predictions.** The next-ranked predictions (all Hold unless stated) are:
+
+- **Open-angle glaucoma** (99.48%): a plausible but unsupported link through intraocular pressure and perfusion. Systemic hypotension and irreversible receptor binding raise safety concerns.
+- **Respiratory failure** (98.80%): indirect preclinical and case-report support only (L4).
+- **Subarachnoid haemorrhage** (97.81%): the most interesting secondary signal. Animal studies suggest that sympathetic or noradrenergic blockade reduces cerebral vasospasm, and one older study reported reversal of experimental spasm with phenoxybenzamine. It is rated L4 and labelled a Research Question, with no human trials.
+- Hypotrichosis simplex of the scalp, venous and arterial thoracic outlet syndrome, congenital hypotrichosis milia, visceral calciphylaxis and angiodysplasia of the stomach have no plausible supporting evidence (L5).
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for primary hereditary glaucoma or for any of the other top-ranked predicted indications.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for primary hereditary glaucoma.
 
----
+For the third-ranked prediction, respiratory failure, the data compiled for this report include only indirect, mostly old preclinical or case-report material:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [5061](https://pubmed.ncbi.nlm.nih.gov/5061/) | 1976 | Preclinical (dogs) | Annals of Surgery | Effect of alpha and beta blockade on epinephrine-induced pulmonary shunting and insufficiency |
+| [935680](https://pubmed.ncbi.nlm.nih.gov/935680/) | 1976 | Preclinical (dogs) | Respiration | Role of adrenergic mechanisms in the pulmonary vascular response to respiratory acidosis |
+| [2860882](https://pubmed.ncbi.nlm.nih.gov/2860882/) | 1985 | Preclinical (dogs) | Arch Int Pharmacodyn Ther | Amyl nitrite and phenoxybenzamine pretreatment in acute cyanide poisoning |
+| [40771558](https://pubmed.ncbi.nlm.nih.gov/40771558/) | 2025 | Case report | Clinical Case Reports | ECMO-assisted robotic surgery for phaeochromocytoma-induced acute catecholamine cardiomyopathy |
+| [10487409](https://pubmed.ncbi.nlm.nih.gov/10487409/) | 1999 | Case report | Am J Med Sci | Phaeochromocytoma in pregnancy with pulmonary oedema and respiratory failure |
+| [8664007](https://pubmed.ncbi.nlm.nih.gov/8664007/) | 1996 | Case report | Eur J Cardiothorac Surg | Phenoxybenzamine and prostacyclin used after surgery for raised pulmonary vascular resistance in an infant |
+
+For subarachnoid haemorrhage (fifth-ranked), the preclinical literature includes:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [10953871](https://pubmed.ncbi.nlm.nih.gov/10953871/) | 2000 | Preclinical (rabbits) | Wien Klin Wochenschr | Sympathetic exclusion prevented vasospasm after experimental SAH |
+| [14603737](https://pubmed.ncbi.nlm.nih.gov/14603737/) | 2003 | Preclinical (rabbits) | Wien Klin Wochenschr | Noradrenergic blockade and vasospasm after SAH |
+| [4814376](https://pubmed.ncbi.nlm.nih.gov/4814376/) | 1974 | Preclinical | J Neurosurg | Serotonin- and blood-induced cerebral arterial spasm reversed by phenoxybenzamine |
+| [11695705](https://pubmed.ncbi.nlm.nih.gov/11695705/) | 2001 | Preclinical (rabbits) | Auton Neurosci | Morphometric method for cerebral artery response with alpha-blockade and SAH |
 
 ## Australia Market Information
 
-Phenoxybenzamine has no active ARTG entries — it is not currently marketed in Australia (0 licences on record).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1166J | Amdipharm Mercury (Australia) Pty Limited | Capsules containing phenoxybenzamine hydrochloride 10 mg, 30 | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Note that this evidence pack flags two related data gaps: TFDA/local product-information warnings and contraindications (blocking severity), and detailed mechanism-of-action data (high severity) — both would need to be sourced before any safety assessment could proceed.
+- **Contraindications suggested by the knowledge graph (not label text):** kidney disease, pyoureter, hypotensive disorder and coronary artery disease. These should be verified against the Product Information.
+- **Drug Interactions:** 32 interactions were identified. All of those listed are Moderate severity, including bupropion, morphine, codeine, hydrocodone, opium, SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin), dronabinol, nabilone, promethazine, amifostine, iobenguane (I-123), and the prostacyclin-pathway drugs (epoprostenol, iloprost, selexipag, treprostinil).
+- **Clinical concern:** As an irreversible alpha-blocker, systemic hypotension is a key practical concern for any new use, particularly in glaucoma, subarachnoid haemorrhage (cerebral perfusion) and frail patients.
 
----
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications, as these were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is supported only by the TxGNN model score (L5, no trials, no literature), and the proposed mechanism (α-adrenergic blockade) is pharmacologically inconsistent with established glaucoma treatment approaches. There is no basis to advance this candidate at this time.
+The top prediction (primary hereditary glaucoma) rests on model output alone (L5), with no trials or literature and a weak mechanistic link. Systemic hypotension is an added safety concern.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action data for Phenoxybenzamine (currently a data gap)
-- TFDA/TGA product information warnings and contraindications (currently a blocking data gap)
-- Preclinical or mechanistic evidence specifically linking α-adrenergic antagonism to intraocular pressure reduction, given the current rationale points the opposite direction
-- Note: within this same evidence pack, the rank-3 candidate ("respiratory failure", TxGNN score 98.80%, evidence level L4) has 18 literature results with a more plausible mechanistic rationale (catecholamine excess states) and may warrant separate evaluation ahead of this candidate
+- Mechanism of action data (for example from DrugBank)
+- Approved indication text and warnings/contraindications from the TGA Product Information
+- Ophthalmic pharmacology evidence (intraocular pressure, ocular perfusion) before any glaucoma work
+- For subarachnoid haemorrhage, a preclinical-to-clinical bridging study that addresses cerebral perfusion and hypotension risk, as this is the most promising secondary lead (Research Question)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

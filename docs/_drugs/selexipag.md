@@ -2,7 +2,7 @@
 layout: default
 title: Selexipag
 parent: High Evidence (L1-L2)
-nav_order: 621
+nav_order: 664
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,92 +29,82 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Selexipag: From Pulmonary Arterial Hypertension to Pulmonary Arterial Hypertension Associated with Congenital Heart Disease
+# Selexipag: From Pulmonary Arterial Hypertension to PAH Associated with Congenital Heart Disease
 
 ## One-Sentence Summary
 
-Selexipag is an oral, selective prostacyclin (IP) receptor agonist already established for treating pulmonary arterial hypertension (PAH) in adults, as confirmed by the literature evidence in this pack.
-The TxGNN model predicts it may also be effective for **Pulmonary Arterial Hypertension Associated with Congenital Heart Disease (PAH‑CHD)**, a recognised WHO Group 1 PAH subtype,
-with **2 clinical trials** and **15 publications** currently supporting this direction.
-
----
+Selexipag is an oral selective prostacyclin (IP) receptor agonist, originally used to treat pulmonary arterial hypertension (PAH).
+The TxGNN model predicts it may be effective for **pulmonary arterial hypertension associated with congenital heart disease (PAH-CHD)**,
+and currently **no registered clinical trials** but **14 publications** support this direction, including a post hoc analysis of the pivotal GRIPHON randomised trial.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary Arterial Hypertension (PAH) — not recorded in the drug-level regulatory fields of this evidence pack, but confirmed by supporting literature (e.g. PMID 41429287, PMID 39076250) |
-| Predicted New Indication | Pulmonary Arterial Hypertension Associated with Congenital Heart Disease |
+| Original Indication | Pulmonary arterial hypertension (the approved indication text is not available in the data compiled for this report; the original indication is taken from the knowledge graph) |
+| Predicted New Indication | Pulmonary arterial hypertension associated with congenital heart disease |
 | TxGNN Prediction Score | 98.03% |
 | Evidence Level | L2 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Selexipag is not recorded at the drug level in this evidence pack (flagged as data gap DG002). However, the supporting evidence assembled for this prediction consistently describes Selexipag as a selective IP prostacyclin receptor agonist, whose active metabolite (MRE‑269) drives pulmonary vasodilation and inhibits vascular smooth-muscle proliferation and platelet activation — mechanisms that act on the shared pathophysiology of PAH rather than on any single underlying cause.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, selexipag is an oral, selective IP prostacyclin receptor agonist. Its active metabolite promotes pulmonary vasodilation and inhibits vascular remodelling.
 
-PAH‑CHD is classified as a WHO Group 1 PAH subtype, the same functional category as the general PAH population in which Selexipag's efficacy has already been demonstrated. Because the IP receptor pathway targeted by Selexipag operates downstream of the vascular remodelling process common to all Group 1 PAH aetiologies, the mechanism is plausible regardless of whether the underlying trigger is idiopathic disease or a congenital shunt lesion.
+PAH-CHD is a subgroup of Group 1 PAH, so it shares the same pulmonary vascular pathology as the original indication. Patients with CHD-associated PAH were included in the pivotal GRIPHON trial. Post hoc analysis of those patients (after defect correction) provides the most direct support.
 
-This is further supported by real-world and post-marketing data: a dedicated Phase 4 study assessed Selexipag's effect on right ventricular remodelling specifically in PAH-CHD, and a post-hoc analysis of the pivotal GRIPHON RCT (PMID 30632656) specifically characterised outcomes in corrected CHD-PAH patients. This suggests the "new" indication is less a mechanistic leap and more a formal extension into a subgroup already partly represented in Selexipag's foundational evidence base.
-
----
+An oral agent may also be attractive in this group, because parenteral prostacyclin therapy carries significant risks in PAH-CHD (for example, line-related infection and paradoxical embolism). The evidence is mostly observational, however, and no dedicated randomised trial in PAH-CHD is registered.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04435782](https://clinicaltrials.gov/study/NCT04435782) | Phase 4 | Terminated | 9 | Assessed the effects of Selexipag on right ventricular (RV) function in PAH participants using cardiac MRI; terminated early, limiting conclusions. |
-| [NCT05179876](https://clinicaltrials.gov/study/NCT05179876) | Phase 3 | Recruiting | 280 | Open-label, long-term extension/platform study allowing continued access to study interventions (including Selexipag) for participants from several parent PH trials; designed to assess long-term safety rather than confirm efficacy. |
-
-No ANZCTR-registered trials were identified for this indication in the current evidence pack.
-
----
+Currently no related clinical trials registered for this predicted indication.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30632656](https://pubmed.ncbi.nlm.nih.gov/30632656/) | 2019 | RCT subgroup (Cohort) | European Journal of Heart Failure | Post-hoc analysis of the pivotal GRIPHON RCT characterising corrected CHD-PAH patients treated with Selexipag; this subgroup has a poorer prognosis than other CHD-PAH patients. |
-| [33442633](https://pubmed.ncbi.nlm.nih.gov/33442633/) | 2020 | Cohort (case series) | European Heart Journal – Case Reports | Describes contemporary use of Selexipag in PAH-CHD, noting it may reduce disease progression and improve exercise capacity while avoiding risks of parenteral prostacyclin therapy. |
-| [29521655](https://pubmed.ncbi.nlm.nih.gov/29521655/) | 2018 | Cohort (case report) | American Journal of Therapeutics | First report of Selexipag use in CHD-associated PAH and Eisenmenger syndrome. |
-| [41429287](https://pubmed.ncbi.nlm.nih.gov/41429287/) | 2025 | Phase 2 (single-arm PK study) | Chest | Prospective, multicentre Phase 2 study of pharmacokinetics, safety, tolerability and exploratory efficacy of Selexipag in children with PAH. |
-| [36204579](https://pubmed.ncbi.nlm.nih.gov/36204579/) | 2022 | Cohort | Frontiers in Cardiovascular Medicine | Assessed safety and efficacy of Selexipag-based triple combination therapy (with ERAs and PDE5is) in Chinese PAH patients. |
-| [32394855](https://pubmed.ncbi.nlm.nih.gov/32394855/) | 2020 | Case series | Kardiologiia | Registry experience with Selexipag in PAH, including patients with corrected congenital heart defects, drawn from the GRIPHON/GRIPHON-OL studies. |
-| [33781364](https://pubmed.ncbi.nlm.nih.gov/33781364/) | 2021 | Case series | Cardiology in the Young | Single-centre report on Selexipag use in four paediatric PAH patients, focused on those with congenital heart disease. |
-| [38276220](https://pubmed.ncbi.nlm.nih.gov/38276220/) | 2023 | Review | Journal of Personalized Medicine | Reviews current management and future directions for PAH-CHD, noting novel agents have improved morbidity/mortality in this subgroup. |
-| [30545978](https://pubmed.ncbi.nlm.nih.gov/30545978/) | 2019 | Review | European Respiratory Journal | Paediatric PAH task force update on definition, classification, diagnostics and management, relevant background for paediatric CHD-PAH. |
-| [31738929](https://pubmed.ncbi.nlm.nih.gov/31738929/) | 2020 | Expert Consensus | Chest | Expert consensus statements on the use of oral prostacyclin pathway agents (including Selexipag) for initiation in adults with PAH. |
-
----
+| [30632656](https://pubmed.ncbi.nlm.nih.gov/30632656/) | 2019 | Post hoc analysis of RCT (GRIPHON) | Eur J Heart Fail | Characterised patients with PAH-CHD after defect correction in GRIPHON and assessed selexipag treatment effect |
+| [41429287](https://pubmed.ncbi.nlm.nih.gov/41429287/) | 2026 | Phase 2 single-arm study | Chest | Pharmacokinetics, safety, tolerability and exploratory efficacy of selexipag in children with PAH |
+| [38276220](https://pubmed.ncbi.nlm.nih.gov/38276220/) | 2023 | Review | J Pers Med | Current management and future directions for PAH-CHD; novel agents have improved morbidity and mortality |
+| [36286872](https://pubmed.ncbi.nlm.nih.gov/36286872/) | 2021 | Review | Ter Arkh | Evidence base for pulmonary vasodilators in adults with CHD; the only RCT is for bosentan (BREATHE-5), others are uncontrolled |
+| [33442633](https://pubmed.ncbi.nlm.nih.gov/33442633/) | 2020 | Case series | Eur Heart J Case Rep | Contemporary use of selexipag in PAH-CHD as an oral alternative to parenteral prostacyclin |
+| [29521655](https://pubmed.ncbi.nlm.nih.gov/29521655/) | 2018 | Case series | Am J Ther | First report of selexipag in CHD-associated PAH and Eisenmenger syndrome |
+| [33539988](https://pubmed.ncbi.nlm.nih.gov/33539988/) | 2021 | Observational | Can J Cardiol | Use of selexipag in PAH with Eisenmenger syndrome, a group largely excluded from RCTs apart from bosentan |
+| [33781364](https://pubmed.ncbi.nlm.nih.gov/33781364/) | 2021 | Case series | Cardiol Young | Single-centre experience in four paediatric patients with pulmonary hypertension, mostly CHD |
+| [41513133](https://pubmed.ncbi.nlm.nih.gov/41513133/) | 2026 | Real-world cohort | J Cardiol | Japan PH Registry: use of selexipag and parenteral prostacyclin analogues, by patient characteristics and PAH aetiology |
+| [32394855](https://pubmed.ncbi.nlm.nih.gov/32394855/) | 2020 | Experience report | Kardiologiia | Single-centre experience in 26 PAH patients, including two with corrected congenital heart defects |
 
 ## Australia Market Information
 
-Selexipag is currently **not registered on the Australian Register of Therapeutic Goods (ARTG)** and has no marketed product in Australia according to this evidence pack (0 licences on file).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12235Y | Uptravi | Tablet 400 micrograms (oral) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Key warnings, contraindications and drug interaction data are not currently available in this evidence pack (data gap DG001, flagged as **Blocking** — required before any safety pre-assessment can proceed).
+- **Drug Interactions**: The interaction query returned 100 records. The 20 examined were all rated Moderate. Examples include:
+  - Vasodilators and nitrates: amyl nitrite, phentolamine, papaverine, diazoxide
+  - Sympathomimetics: epinephrine, ephedrine, phenylephrine
+  - SGLT2 inhibitors: canagliflozin, dapagliflozin, empagliflozin, ertugliflozin
+  - Others: mannitol, glycerin, amifostine, deferasirox, abiraterone, acebutolol
 
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanistic rationale is strong and partly substantiated by a post-hoc RCT subgroup analysis (GRIPHON) and a dedicated Phase 4 study, but the Phase 4 study was terminated early with only 9 participants, and no confirmatory RCT has been conducted specifically in the PAH-CHD population. Evidence level L2 supports cautious progression rather than unconditional adoption.
+PAH-CHD is a Group 1 PAH subgroup with a direct mechanistic rationale, and it is supported by a post hoc analysis of the GRIPHON randomised trial, a paediatric Phase 2 study and several observational series. However, there is no dedicated PAH-CHD trial, and the evidence is mostly observational. Selexipag is already marketed in Australia, so use would sit close to its established PAH indication.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information / label data, including key warnings and contraindications (currently a blocking data gap, DG001)
-- Detailed mechanism of action documentation at the drug level (currently a high-priority data gap, DG002)
-- Confirmation of ARTG registration pathway, given Selexipag is not currently marketed in Australia
-- Results from the terminated NCT04435782 study and outcomes from the ongoing NCT05179876 extension study once available
+- Review of the TGA-approved Product Information to confirm the approved indication wording and obtain warnings and contraindications (not available in the data compiled for this report)
+- Detailed mechanism of action data
+- Confirmation of whether PAH-CHD (including post-repair and Eisenmenger patients) falls within the current approved indication
+- A prospective study or registry in PAH-CHD, with attention to right-to-left shunting and the paediatric population
+- Review of the clinically relevant drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

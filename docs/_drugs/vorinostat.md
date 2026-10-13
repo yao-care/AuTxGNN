@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Vorinostat
-parent: High Evidence (L1-L2)
-nav_order: 728
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 785
+evidence_level: L5
 indication_count: 10
 ---
 
 # Vorinostat
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,9 +33,9 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Vorinostat (Zolinza) is a pan-histone deacetylase (HDAC) inhibitor with an established overseas indication for cutaneous T-cell lymphoma (CTCL); it is **not currently registered with the TGA** and has no ARTG entries in Australia.
-> The TxGNN model predicts it may be effective for **Primary Cutaneous B-Cell Lymphoma**,
-> with **8 clinical trials** and **1 publication** currently supporting this direction — largely indirect evidence drawn from related T-cell and B-cell lymphoma populations rather than trials specific to this exact disease entity.
+Vorinostat is an oral histone deacetylase (HDAC) inhibitor, originally used to treat primary cutaneous T-cell lymphoma.
+The TxGNN model predicts it may be effective for **primary cutaneous B-cell lymphoma**.
+Support for this is weak: **4 early-phase clinical trials** that are not specific to this disease, and **1 preclinical publication**.
 
 ---
 
@@ -43,23 +43,23 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Cutaneous T-cell lymphoma (CTCL) — approved overseas (US FDA, brand Zolinza); not TGA-registered |
-| Predicted New Indication | Primary Cutaneous B-Cell Lymphoma |
+| Original Indication | Primary cutaneous T-cell lymphoma (including primary cutaneous T-cell non-Hodgkin lymphoma) |
+| Predicted New Indication | Primary cutaneous B-cell lymphoma |
 | TxGNN Prediction Score | 99.21% |
-| Evidence Level | L2 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L4 (preclinical and mechanistic data only; no disease-specific clinical studies) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data (structured MOA field) is not available in this evidence pack. Based on the supporting evidence collected, vorinostat is a **pan-HDAC inhibitor (Class I/II)**, and its efficacy in cutaneous T-cell lymphoma has been established overseas, forming the basis of its original approval as Zolinza.
+Detailed mechanism of action data is not available from the source database. Vorinostat is nonetheless a known HDAC inhibitor. Blocking HDAC enzymes increases acetylation of histones and other proteins, which can switch on cell-death pathways and slow the growth of cancer cells.
 
-The mechanistic rationale for repurposing centres on the fact that B-cell and T-cell lymphomas share aberrant histone deacetylation as a common epigenetic driver. HDAC inhibition can induce apoptosis and differentiation in malignant lymphocytes regardless of lineage, which supports biological plausibility for activity in B-cell lymphoma subtypes. However, the evidence pack's own reasoning is explicit that this is a **mechanistic extrapolation, not confirmation in the same disease entity** — the great majority of supporting trials and literature involve CTCL, mycosis fungoides, Sézary syndrome, mantle cell lymphoma or diffuse large B-cell lymphoma rather than primary cutaneous B-cell lymphoma specifically.
+Both the original and the predicted indications are lymphomas that arise in the skin, so a shared biology is plausible. Preclinical work in mantle cell lymphoma, an aggressive B-cell cancer, shows vorinostat can trigger apoptosis by acetylating pro-apoptotic BH3-only gene promoters. This suggests the mechanism may extend to B-cell lymphomas in general.
 
-Because Vorinostat is not TGA-registered, there is no Australian regulatory record of an original approved indication to compare against; all indication information above is drawn from the global evidence base (trial descriptions and literature) rather than local licensing data.
+However, none of this evidence is specific to primary cutaneous B-cell lymphoma. The prediction is therefore a hypothesis, not an established finding.
 
 ---
 
@@ -67,14 +67,10 @@ Because Vorinostat is not TGA-registered, there is no Australian regulatory reco
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00007345](https://clinicaltrials.gov/study/NCT00007345) | Phase 2 | Completed | 131 | Depsipeptide (same HDAC-inhibitor class) in cutaneous/peripheral T-cell lymphoma; supportive class-effect evidence, not vorinostat-specific |
-| [NCT00499811](https://clinicaltrials.gov/study/NCT00499811) | Phase 1 | Completed | 15 | Vorinostat PK study in solid tumours/lymphoma with hepatic dysfunction; direct vorinostat use in a lymphoma population |
-| [NCT02943642](https://clinicaltrials.gov/study/NCT02943642) | Phase 2 | Unknown | 162 | Resimmune fusion protein vs oral vorinostat in mycosis fungoides; vorinostat as active comparator, not the study drug |
-| [NCT00005634](https://clinicaltrials.gov/study/NCT00005634) | Phase 1 | Completed | N/A | First-in-class SAHA (vorinostat) dose-finding study in advanced solid tumours |
-| [NCT01567709](https://clinicaltrials.gov/study/NCT01567709) | Phase 1 | Completed | 34 | Alisertib + vorinostat combination in Hodgkin, B-cell NHL and peripheral T-cell lymphoma |
-| [NCT00045006](https://clinicaltrials.gov/study/NCT00045006) | Phase 1 | Completed | N/A | Oral SAHA (vorinostat) in advanced solid tumours and haematologic malignancies |
-| [NCT01500538](https://clinicaltrials.gov/study/NCT01500538) | Phase 2 | Terminated | 1 | Vorinostat + eltrombopag pilot study in lymphoma to offset vorinostat-induced thrombocytopenia; terminated early |
-| [NCT01789255](https://clinicaltrials.gov/study/NCT01789255) | Phase 2 | Completed | 12 | Vorinostat + tacrolimus/methotrexate for GVHD prevention after stem cell transplant in haematological malignancies |
+| [NCT00045006](https://clinicaltrials.gov/study/NCT00045006) | Phase 1 | Completed | Not reported | Oral vorinostat (SAHA) in advanced solid tumours and haematological malignancies. Safety and pharmacokinetic data, not specific to cutaneous B-cell lymphoma. |
+| [NCT01789255](https://clinicaltrials.gov/study/NCT01789255) | Phase 2 | Completed | 12 | Pilot of vorinostat with tacrolimus and methotrexate to prevent graft-versus-host disease after stem cell transplant. Different indication. |
+| [NCT01567709](https://clinicaltrials.gov/study/NCT01567709) | Phase 1 | Completed | 34 | Alisertib (Aurora A inhibitor) plus vorinostat in relapsed Hodgkin, B-cell non-Hodgkin and peripheral T-cell lymphoma. Combination design, indirect relevance. |
+| [NCT00499811](https://clinicaltrials.gov/study/NCT00499811) | Phase 1 | Completed | 15 | Dose and pharmacokinetics of vorinostat in solid tumours and lymphoma with liver dysfunction. Safety and pharmacokinetics only. |
 
 ---
 
@@ -82,13 +78,15 @@ Because Vorinostat is not TGA-registered, there is no Australian regulatory reco
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21652541](https://pubmed.ncbi.nlm.nih.gov/21652541/) | 2011 | Mechanistic/Preclinical | Clinical Cancer Research | Vorinostat induces apoptosis in mantle cell lymphoma (a B-cell neoplasm) via acetylation of proapoptotic BH3-only gene promoters, providing mechanistic support for HDAC-inhibitor activity in B-cell malignancies |
+| [21652541](https://pubmed.ncbi.nlm.nih.gov/21652541/) | 2011 | Preclinical | Clin Cancer Res | Vorinostat induced apoptosis in mantle cell lymphoma through acetylation of pro-apoptotic BH3-only gene promoters. |
 
 ---
 
 ## Australia Market Information
 
-Vorinostat is currently **not registered with the TGA** — there are no ARTG entries and no marketed product in Australia.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11138F | Zolinza | Capsule 100 mg (oral) | Indication text not available in the data compiled for this report |
 
 ---
 
@@ -96,33 +94,40 @@ Vorinostat is currently **not registered with the TGA** — there are no ARTG en
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (Histone deacetylase [HDAC] inhibitor) |
-| Myelosuppression Risk | Moderate — thrombocytopenia is a recognised early treatment-emergent effect (supported by NCT01500538, which paired vorinostat with eltrombopag specifically to manage this) |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | Full blood count (with platelets), electrolytes (including potassium/magnesium), renal and liver function, ECG monitoring (QT interval) |
-| Handling Protection | Cytotoxic/antineoplastic drug handling precautions should be followed pending confirmation via local Product Information once registered |
+| Cytotoxicity Classification | Targeted (epigenetic) therapy: HDAC inhibitor |
+| Myelosuppression Risk | Please refer to the Product Information (PI). Thrombocytopenia and anaemia appear among the conditions linked to vorinostat in the knowledge graph. |
+| Emetogenicity Classification | Please refer to the Product Information (PI) |
+| Monitoring Items | Full blood count (including platelets), serum glucose, electrolytes (potassium, calcium, phosphate), renal and liver function, and ECG (QT interval), consistent with the associated conditions listed below |
+| Handling Protection | Follow local cytotoxic and hazardous drug handling procedures. Please refer to the PI. |
 
 ---
 
 ## Safety Considerations
 
-Vorinostat is not currently TGA-registered, so no Australian Product Information exists. Safety data in this evidence pack (key warnings, contraindications, drug interactions) were not able to be sourced. Please refer to overseas regulatory labelling (e.g., US FDA Zolinza PI) as an interim reference, pending TGA registration and local Product Information.
+The following information comes from the TxGNN knowledge graph. It is not taken from approved label text.
+
+- **Conditions linked to contraindication or caution in the knowledge graph:** long QT syndrome (including familial), liver disease, gallbladder disease, thrombocytopenia, anaemia (including macrocytic), hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, pulmonary embolism, and diarrhoeal disease.
+- **Drug Interactions:** 61 interactions were identified. The ones listed are all rated Moderate, and most are with glucose-lowering agents. These include metformin, pioglitazone, sulfonylureas (glimepiride, glipizide, glyburide), SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), GLP-1 agonists (semaglutide, dulaglutide, exenatide), DPP-4 inhibitors (alogliptin, linagliptin), acarbose and insulins. Blood glucose should be monitored closely if vorinostat is used alongside these drugs.
+
+Please refer to the TGA-approved Product Information (PI) for official warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The TxGNN model gives a high prediction score (99.21%) and there is a biologically plausible shared HDAC-driven mechanism between T- and B-cell lymphomas, but almost all supporting clinical trial and literature evidence relates to CTCL, mycosis fungoides, Sézary syndrome or other lymphoma subtypes rather than primary cutaneous B-cell lymphoma specifically — this is class-effect and mechanistic extrapolation rather than direct proof of efficacy in the target disease.
+The prediction score is high, but there are no disease-specific clinical studies. The only supporting material is early-phase trials in other cancers and one preclinical paper in a different B-cell lymphoma. The mechanistic argument is plausible but unproven for primary cutaneous B-cell lymphoma.
+
+For context, other predicted indications for vorinostat have much stronger support. Sézary syndrome, a leukaemic variant of cutaneous T-cell lymphoma, is effectively a near-label use. It is backed by the pivotal Phase 2b trial (NCT00091559) and the Phase 3 MAVORIC trial (NCT01728805), in which vorinostat was the comparator. If the aim is to prioritise candidates, that indication is a more evidence-ready starting point.
 
 **To proceed, the following is needed:**
-- TGA Product Information / warnings and contraindications (currently a Blocking data gap — DG001)
-- Structured mechanism of action data from DrugBank (High priority gap — DG002)
-- Confirmation of any pathway to TGA registration, since Vorinostat is not currently marketed in Australia
-- Trials or case series specific to primary cutaneous B-cell lymphoma (rather than T-cell lymphoma populations) to substantiate the predicted indication
-- A defined safety monitoring plan (FBC, ECG/QT, electrolytes) suitable for local clinical use
+- Disease-specific preclinical data (for example, cell-line or patient-sample studies) in primary cutaneous B-cell lymphoma
+- Case series or a small exploratory trial in cutaneous B-cell lymphoma
+- Detailed mechanism of action data
+- The approved indication wording and the safety sections (warnings and contraindications) from the TGA Product Information for ARTG 11138F
+- A monitoring plan covering platelets, glucose, electrolytes and QT interval
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

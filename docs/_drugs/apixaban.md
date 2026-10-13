@@ -2,15 +2,15 @@
 layout: default
 title: Apixaban
 parent: Moderate Evidence (L3-L4)
-nav_order: 51
-evidence_level: L3
+nav_order: 54
+evidence_level: L4
 indication_count: 10
 ---
 
 # Apixaban
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,110 +29,80 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Apixaban: From Venous Thromboembolism to Migraine Disorder
-
-> **Disclaimer:** This report is intended for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before clinical application. All clinical decisions should reference TGA-approved Product Information and current clinical guidelines.
-
----
+# Apixaban: From Thromboembolic Disease to Migraine Disorder
 
 ## One-Sentence Summary
 
-Apixaban (Eliquis®) is a direct oral Factor Xa inhibitor established for preventing and treating venous thromboembolism (DVT/PE) and stroke in non-valvular atrial fibrillation.
-The TxGNN model predicts it may have activity in **Migraine Disorder**, supported by **1 Phase 3 clinical trial** providing indirect evidence and **4 publications** spanning case reports to a prospective pilot trial.
-Critically, the existing literature presents a mixed safety picture — while anticoagulation broadly may benefit certain migraine subtypes, case evidence specifically suggests apixaban may *worsen* migraine in some patients, distinguishing it from warfarin.
-
----
+Apixaban is an oral factor Xa inhibitor (anticoagulant) marketed in Australia as Eliquis. The TxGNN model predicts it may be effective for **migraine disorder**, but the supporting evidence is weak: **1 tangentially related Phase 3 trial** and **3 publications** (two case reports and one small, indirect retrospective study). Two of the case reports describe migraine worsening or failing to improve on apixaban.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Venous thromboembolism prevention and treatment; stroke prevention in non-valvular atrial fibrillation *(inferred from drug class — no ARTG entries identified in dataset; see note below)* |
-| Predicted New Indication | Migraine Disorder |
+|------|------|
+| Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.02% |
-| Evidence Level | L3 |
-| Australia Market Status | Not Marketed *(per dataset — verification against ARTG strongly recommended)* |
-| Number of ARTG Entries | 0 *(per dataset — verification against ARTG strongly recommended)* |
-| Recommended Decision | Proceed with Guardrails |
-
-> ⚠️ **Data Verification Required:** The dataset records Apixaban as unregistered in Australia with zero ARTG entries. Apixaban is internationally marketed as Eliquis® (Bristol-Myers Squibb/Pfizer). Australian clinicians should verify current registration status directly via the [TGA ARTG Search](https://www.tga.gov.au/resources/resource/artg). This discrepancy likely reflects a dataset limitation and does not reflect the actual TGA registration position.
-
----
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this dataset. Based on established pharmacology, Apixaban is a highly selective, direct inhibitor of activated Factor Xa (FXa) — the key prothrombinase enzyme that converts prothrombin to thrombin in the coagulation cascade. By inhibiting FXa, Apixaban reduces thrombin generation, fibrin clot formation, and platelet aggregation. This mechanism is well validated in the prevention and treatment of thromboembolic disease.
+Detailed mechanism of action data is not available in the data compiled for this report. Apixaban is known to be a direct factor Xa inhibitor used for anticoagulation. It is not a migraine therapy, and its original indication text was not captured for Australia.
 
-The proposed link to migraine disorder centres on FXa's role beyond haemostasis. FXa can activate protease-activated receptors PAR-1 and PAR-2 on platelets and neuroinflammatory cells, which may contribute to cortical spreading depression (CSD) — the neurophysiological event underlying migraine aura. In specific migraine subtypes, particularly those associated with patent foramen ovale (PFO) or antiphospholipid antibody syndrome (APS), paradoxical microembolism may trigger or perpetuate migraine attacks. In this mechanistic context, reducing thrombin generation through FXa inhibition could theoretically decrease the frequency of embolic migraine triggers.
+The possible link is a thrombotic or paradoxical-embolic mechanism. For example, microemboli passing through a patent foramen ovale (PFO), or antiphospholipid antibodies, have been hypothesised to contribute to migraine, particularly migraine with aura. Anticoagulation could in theory modify this pathway.
 
-However, the evidence presents a significant and clinically important complication: case reports document that warfarin — a vitamin K antagonist (VKA) with broad pleiotropic coagulation effects — effectively suppressed migraine with aura in patients, whereas switching to apixaban resulted in migraine recurrence within weeks, resolving again upon warfarin resumption. This suggests the anti-migraine mechanism may involve Factor Xa-independent pathways uniquely conferred by VKAs — such as Protein C/S modulation, PAR-4 effects, or other pleiotropic actions — that are absent with selective FXa inhibition. This class-specific difference is a key uncertainty that must be resolved before apixaban repurposing in migraine can be responsibly advanced.
-
----
+The clinical data do not support this link for apixaban. One case report describes migraine with aura resolving on warfarin but returning on apixaban. Another describes migraine with aura worsening after apixaban was started. The high TxGNN score is therefore not supported by clinical data.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Phase 3 | Completed | 664 | CLOSE-type trial comparing PFO transcatheter closure, oral anticoagulation, and antiplatelet therapy for secondary stroke prevention. The primary endpoint is stroke recurrence; migraine is a secondary/exploratory endpoint. Provides indirect evidence of anticoagulant effects in PFO patients — a population with substantially elevated migraine comorbidity — but does not directly test apixaban for migraine treatment. |
+|---------|------|------|------|---------|
+| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Phase 3 | Completed | 664 | PFO closure vs anticoagulants vs antiplatelet therapy to prevent stroke recurrence. Migraine was not the primary endpoint and apixaban was not the specific anticoagulant studied, so this is only tangentially relevant. |
 
----
+No ANZCTR trials were identified in the data compiled for this report.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Prospective Pilot Trial | *Lupus* | Retrospective study of 75 patients with refractory migraine and antiphospholipid antibodies: antithrombotic therapy (anticoagulants and/or antiplatelet agents) produced clinically meaningful symptomatic improvement in migraine frequency. Supports APS-related migraine as a potentially responsive subtype — the strongest evidence of biological plausibility in this dataset. |
-| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Case Report + Literature Review | *The Neurologist* | Migraine with aura **worsened** after initiating apixaban; accompanying literature review concludes the impact of DOACs on migraine is unclear and contradictory. Represents a key safety signal specific to apixaban. |
-| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Case Report | *Headache* | 55-year-old female with 12-year complete remission of migraine with aura while on warfarin; symptoms returned within 3 weeks of switching to apixaban; resolved again within days of warfarin resumption. Strongly suggests a class-specific effect (VKA superior to FXa inhibitor) rather than a general anticoagulant effect. |
-| [29611190](https://pubmed.ncbi.nlm.nih.gov/29611190/) | 2018 | Case Report | *Headache* | Vestibular migraine resolved with warfarin combined with topiramate — further supports a role for VKA-class anticoagulation in vestibular/brainstem migraine subtypes, though not specific to apixaban. |
-
----
+|------|-----|------|------|---------|
+| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Retrospective study (75 patients) | Lupus | Antithrombotic therapy in refractory migraine with antiphospholipid antibodies. Indirect and not apixaban-specific. |
+| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Case report + literature review | The Neurologist | Migraine with aura worsened after starting apixaban. The review notes that the literature on direct oral anticoagulants in migraine is scarce and controversial. |
+| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Case report | Headache | Migraine with aura in remission for 12 years on warfarin returned within 3 weeks of switching to apixaban and resolved again after warfarin was resumed. |
 
 ## Australia Market Information
 
-No ARTG entries for Apixaban were identified in this dataset. As noted in the Quick Overview, this is inconsistent with the drug's known international market status and should be verified against the TGA ARTG database before any regulatory or formulary decisions are made.
-
-> Healthcare professionals can search the ARTG at: [https://www.tga.gov.au/resources/resource/artg](https://www.tga.gov.au/resources/resource/artg)
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10414D | Eliquis | Tablet 5 mg (oral) | Not available |
 
 ## Safety Considerations
 
-No safety data (key warnings, contraindications, or drug-drug interactions) were available in this dataset.
+- **Drug Interactions:** The interaction screen returned 100 potential interactions. The entries reviewed include:
+  - **Major:** acetylsalicylic acid (aspirin), cobicistat, deferasirox, ibritumomab tiuxetan, tositumomab and tositumomab (I-131).
+  - **Moderate:** aprepitant, clarithromycin, clotrimazole, dexamethasone, miconazole, rolapitant and several others.
 
-Please refer to the TGA-approved Product Information (PI) for Apixaban for complete safety information, which is expected to cover:
-
-- **Bleeding risk:** Major bleeding, clinically relevant non-major bleeding, and fatal haemorrhage
-- **Contraindications:** Active clinically significant bleeding; severe hepatic impairment; concomitant use with other anticoagulants in most circumstances
-- **Drug interactions:** Strong dual inhibitors/inducers of CYP3A4 and P-glycoprotein (e.g., ketoconazole, rifampicin, carbamazepine)
-- **Renal dose adjustment:** Required in specific populations (refer to current PI)
-
-**Specific to this repurposing context:** Case report evidence raises an additional safety signal — Apixaban may **worsen migraine frequency or severity** in some patients. Any prospective study design must include prospective headache diary monitoring and a pre-specified stopping rule for migraine worsening.
-
----
+Other safety information (warnings and contraindications) was not captured. Please refer to the TGA-approved Product Information (PI) for these. Bleeding risk is a general concern with anticoagulants and should be weighed carefully against any uncertain benefit.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A biologically plausible mechanistic framework exists for anticoagulation in PFO-related and APS-related migraine subtypes, and preliminary pilot data in APS-positive refractory migraine supports proof-of-concept. However, apixaban-specific case evidence directly challenges whether FXa inhibition — as distinct from broader VKA-class anticoagulation — can deliver a migraine benefit; in some patients it appears to do the opposite. Advancement is warranted only within a tightly defined research framework targeting the most biologically credible subpopulations.
+The TxGNN score is high, but no direct clinical evidence supports apixaban for migraine. The only apixaban-specific reports suggest worsening or lack of benefit, and the one Phase 3 trial is tangential. Exposing patients to bleeding risk is not justified on this evidence.
 
 **To proceed, the following is needed:**
+- Mechanism of action data and the approved indication text from the PI
+- Safety information (warnings and contraindications) from the TGA-approved PI
+- Controlled data in a defined migraine population, such as migraine with aura and PFO or antiphospholipid antibodies
+- A risk-benefit assessment that accounts for bleeding risk and the major drug interactions identified above
 
-- **Subtype stratification:** Define the target population precisely — restrict to PFO-confirmed or APS-confirmed migraine patients rather than general migraine; avoid enrolment of patients with episodic migraine without a clear thrombotic/embolic mechanism
-- **Comparative mechanistic analysis:** Commission pre-clinical or translational work to clarify whether VKA-specific pleiotropic effects (Protein C/S, PAR-4, or Factor IIa activity) are responsible for the anti-migraine effect seen with warfarin but not apixaban — this is the critical scientific question before investing in a Phase 2 RCT
-- **Prospective Phase 2 RCT design:** If mechanistic work supports FXa inhibition, design a controlled, crossover or parallel-arm Phase 2 RCT (apixaban vs. warfarin vs. placebo) in a biologically stratified migraine population, with headache frequency as the primary endpoint and bleeding as the primary safety endpoint
-- **ARTG verification:** Confirm current TGA registration and approved indications for apixaban in Australia via the ARTG database before any regulatory submission or off-label use discussion
-- **Safety monitoring plan:** Mandate prospective headache diary completion in all enrolled patients; include pre-specified criteria for study withdrawal if migraine worsens by ≥50% from baseline
-- **MOA data acquisition:** Obtain complete mechanism of action documentation from DrugBank API to support a mechanistic dossier for any future regulatory or ethics submission
+### Other Predicted Indications (Brief Note)
 
-> **Note for clinical prioritisation:** Among all 10 predicted indications in this Evidence Pack, **pulmonary hypertension** (rank 8; particularly CTEPH/Group 4 and systemic sclerosis-related PAH/Group 1) carries stronger overall evidence (L3, Stage S2), with a dedicated RCT protocol (SPHInX study, PMID 27932335) already published and a well-defined mechanistic rationale. This indication may represent a higher-priority and more feasible near-term repurposing target than migraine disorder.
-
----
-
-*Report generated: 5 April 2026 | Evidence cutoff: 5 April 2026 | Candidate ID: TW-DB06605-multi v4*
-*This report is for research purposes only and does not constitute medical advice or a recommendation for clinical use.*
+Among the other top-ranked predictions, none is supported by clinical efficacy data for apixaban.
+- **Rheumatoid arthritis** and **pulmonary hypertension** are research questions only. For rheumatoid arthritis, the support is a single animal study (PMID 32141012) suggesting anti-arthritic effects via factor Xa-mediated JAK2/STAT3 and MAPK signalling. For pulmonary hypertension, a trial protocol of apixaban in systemic sclerosis-related pulmonary arterial hypertension (SPHInX, PMID 27932335) exists, but the other literature is indirect.
+- **Leprosy, Prinzmetal angina, brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome and kyphoscoliotic heart disease** have no plausible mechanistic link and are likely prediction artefacts.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

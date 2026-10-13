@@ -2,7 +2,7 @@
 layout: default
 title: Silodosin
 parent: Model Prediction Only (L5)
-nav_order: 629
+nav_order: 672
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,27 +33,28 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Silodosin is a highly selective α1A-adrenergic receptor antagonist, known pharmacologically for use in benign prostatic hyperplasia (BPH) and lower urinary tract symptoms (LUTS), though this is not confirmed in the official regulatory data available for this evaluation. The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, a rare congenital hair-overgrowth disorder, but this prediction is currently supported by **0 clinical trials** and **0 publications**.
+Silodosin is a selective alpha-1A adrenergic receptor antagonist, originally used to treat benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but this is a computational prediction only, with **0 clinical trials** and **0 publications** currently supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Benign Prostatic Hyperplasia (BPH) / LUTS — general drug-class knowledge; not present in the official regulatory record supplied (data gap) |
+| Original Indication | Benign prostatic hyperplasia (ARTG indication text not available; taken from the knowledge-graph indication data) |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Silodosin is not available in this evidence pack (flagged as a High-severity data gap). Based on general pharmacological knowledge referenced elsewhere in this evidence pack's own analysis, Silodosin is a highly selective α1A-adrenergic receptor antagonist, a drug class used to relax smooth muscle in the prostate and bladder neck for BPH/LUTS.
+Silodosin is a selective alpha-1A adrenergic receptor antagonist. It relaxes smooth muscle in the prostate and bladder neck, which eases urinary outflow in BPH. Detailed mechanism of action data is not available in the data compiled for this report, so this description reflects general knowledge of the drug class.
 
-Ambras type hypertrichosis universalis congenita is a rare, genetically determined disorder of hair follicle development causing generalised excess hair growth. There is no known biological or pharmacological pathway connecting α1A-adrenergic receptor antagonism to hair follicle morphogenesis or growth regulation.
+On current evidence, the prediction is **not mechanistically convincing**. Ambras syndrome is a rare congenital hypertrichosis linked to genomic rearrangements affecting regulation of the *TRPS1* gene. This is not an adrenergic pathway, and alpha-1 blockers are not established hair-growth agents. The very high score (99.99%) most likely reflects knowledge-graph proximity to other hair-related phenotypes rather than a real pharmacological relationship.
 
-The evidence pack's own repurposing rationale for this candidate states explicitly that no clinical trials or literature support this link, and that the prediction is likely a statistical artefact of TxGNN's knowledge-graph embedding similarity rather than a genuine mechanistic signal. This should be read as a low-confidence, exploratory model output rather than a scientifically grounded hypothesis.
+Other top-ranked predictions show the same pattern. They include hypertrichosis, hair shaft abnormalities, hypotrichosis, trichomegaly and several congenital malformation syndromes, and none has a clear mechanistic link or any supporting trials or literature. Two predictions with a vascular angle (persistent fetal circulation syndrome and chronic thromboembolic pulmonary hypertension) are speculative. Silodosin's systemic hypotensive effects could be harmful in those settings.
 
 ## Clinical Trial Evidence
 
@@ -65,27 +66,32 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-No ARTG entries — Silodosin is not currently marketed in Australia (0 licences on file).
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12077P | Urorec | Capsule 8 mg (oral) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+Safety information is limited in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
+
+- **Conditions linked to contraindication or caution (knowledge-graph data, not label text)**: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, liver failure, kidney disease, pyoureter, intraoperative floppy iris syndrome.
+- **Drug Interactions**: 99 interactions were identified. Selected examples:
+  - **Major**: clarithromycin.
+  - **Moderate**: bupropion, aprepitant, morphine, dexamethasone, cimetidine, miconazole, clotrimazole, rolapitant, eliglustat, and the SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication has no supporting clinical trial or literature evidence, no plausible mechanistic link, and the drug is not currently marketed in Australia. This is a pure model-prediction artefact (L5) and does not warrant further evaluation at this time.
+The prediction rests only on a graph-based model score. There are no clinical trials or publications, and no plausible mechanistic link between alpha-1A antagonism and the genetic basis of Ambras syndrome. Evidence level is L5.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action data for Silodosin (currently a Blocking-severity data gap for safety review)
-- TGA-approved Product Information (warnings, contraindications, DDI) — currently unavailable
-- If pursued further, independent biological/mechanistic justification beyond TxGNN embedding similarity, since none of the top 10 predicted indications in this evidence pack (all L5/Hold) show a credible pharmacological rationale
-
----
-
-Note: all 10 ranked candidates in this evidence pack are L5/Hold with no corroborating trial evidence; rank 3 (periodontal malformation syndrome) had 20 literature hits but none mention Silodosin — assessed as keyword false-positives, not genuine evidence.
+- A credible mechanistic hypothesis connecting alpha-1A blockade to hair follicle biology or *TRPS1*-related pathways, supported by preclinical data
+- Detailed mechanism of action data for silodosin
+- Review of the TGA-approved Product Information for warnings and contraindications (the safety screen cannot proceed without it)
+- Any case reports, preclinical studies or registered trials relevant to the predicted indication
+- Consideration of whether a rare congenital condition like this is a realistic repurposing target, given the small patient population and the drug's hypotension and orthostatic effects
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Selegiline
-parent: High Evidence (L1-L2)
-nav_order: 619
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 662
+evidence_level: L3
 indication_count: 10
 ---
 
 # Selegiline
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,108 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-Using the evidence pack directly (no additional skill needed — this is a fully-specified report-writing task). One judgment call worth flagging: TxGNN's numerically top-ranked prediction (rank 1, "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis") has zero supporting evidence and the pack itself labels it a likely embedding-similarity artefact, not a mechanistic signal. Rank 2 (schizophrenia) is the highest-ranked prediction with actual clinical trial and literature support (L2, S2, "Proceed with Guardrails"), so I've used it as the reportable candidate and noted the rank-1 anomaly separately.
-
----
-
-# Selegiline: From Parkinson's Disease/Depression to Schizophrenia (Negative Symptoms Augmentation)
+# Selegiline: From Parkinson's Disease to Schizophrenia
 
 ## One-Sentence Summary
 
-Selegiline is a selective monoamine oxidase-B (MAO-B) inhibitor with established use in Parkinson's disease (oral) and major depressive disorder (transdermal). The TxGNN model's highest evidence-backed prediction is that selegiline, used as an add-on to antipsychotic therapy, may help improve **negative symptoms of schizophrenia**, with **1 completed clinical trial** and **20 related publications** — including three double-blind RCTs — currently supporting this direction. Note: TxGNN's single highest-scoring candidate overall was an ultra-rare congenital brain malformation with no supporting evidence; the model's own annotation flags that hit as a probable knowledge-graph embedding artefact rather than a genuine mechanistic signal, so it is not the focus of this report.
+Selegiline is a monoamine oxidase type B (MAO-B) inhibitor, originally used to treat Parkinson's disease (and associated with depression and anxiety indications in the knowledge graph).
+The TxGNN model predicts it may be useful for **schizophrenia** (specifically as an add-on for negative symptoms), with **1 clinical trial** and **20 publications** currently supporting this direction.
+Note that the highest-scoring prediction (rank 1) has no supporting evidence, so schizophrenia, the best-supported prediction, is the one assessed here.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease (oral formulation); major depressive disorder (transdermal formulation) — per literature evidence; structured DrugBank indication field was not populated in this evidence pack |
-| Predicted New Indication | Schizophrenia (negative symptom augmentation to antipsychotic therapy) |
+| Original Indication | Parkinson's disease (the ARTG entry in the data compiled for this report has no indication text recorded) |
+| Predicted New Indication | Schizophrenia (rank 2; selected as the best-supported of the top 10 predictions) |
 | TxGNN Prediction Score | 99.14% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L3 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold (research question) |
+
+The rank 1 prediction, perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis (score 99.15%), has no trials or literature and no plausible mechanism, so it is not pursued. Ranks 3 to 10 are likewise unsupported (L4 to L5).
 
 ## Why is This Prediction Reasonable?
 
-Selegiline is an irreversible, selective MAO-B inhibitor. At the low oral doses used in Parkinson's disease, it selectively spares MAO-A and increases synaptic dopamine availability. At oral doses ≥20 mg/day (or via other formulations), selectivity is lost and it behaves as a non-selective MAOI. This dose-dependent dopaminergic-enhancing action is the pharmacological basis for the schizophrenia hypothesis: antipsychotics work primarily by blocking dopamine D2 receptors, which controls positive symptoms but is also thought to contribute to negative symptoms (apathy, blunted affect, social withdrawal) through a secondary, iatrogenic dopamine-deficient state in some brain regions. Low-dose selegiline added on top of antipsychotic treatment could theoretically counteract this without reversing the D2 blockade needed to control positive symptoms.
+Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known pharmacology, selegiline is an irreversible, selective MAO-B inhibitor. At higher oral doses (20 mg/day or more) it also inhibits MAO-A. Both actions raise dopamine availability.
 
-This is not a novel hypothesis invented by the model — it has been directly tested in humans. Three double-blind, placebo-controlled trials (Bodkin 1996, Bodkin 2005, Amiri 2008) examined selegiline augmentation specifically for negative symptoms in chronic schizophrenia, and a 2023 systematic review/meta-analysis (Rossano et al.) evaluated selegiline's efficacy and safety across psychiatric conditions including schizophrenia. Results across these studies have been mixed rather than uniformly positive, which is consistent with the "Proceed with Guardrails" rating rather than a stronger "Go."
+Parkinson's disease is a dopamine-deficiency condition. Negative symptoms of schizophrenia (such as apathy, reduced motivation and blunted affect) are thought to be linked to low dopamine activity in the prefrontal cortex. Selegiline has therefore been tested as an add-on to antipsychotics. Its antioxidant and neuroprotective properties are also discussed in the literature.
 
-A structured mechanism-of-action record from DrugBank was not available in this evidence pack (flagged as data gap DG002); the MOA description above is derived from the literature evidence supplied alongside the schizophrenia prediction.
+There is a theoretical risk that boosting dopamine could worsen positive symptoms such as hallucinations and delusions. The potential for interactions is also high (see Safety Considerations).
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00456976](https://clinicaltrials.gov/study/NCT00456976) | Early Phase 1 | Completed | 70 | Randomised, placebo-controlled trial of selegiline augmentation of antipsychotic medication for negative symptoms in inpatients with chronic schizophrenia. |
+| [NCT00456976](https://clinicaltrials.gov/study/NCT00456976) | Early Phase 1 | Completed | 70 | Randomised, placebo-controlled test of selegiline added to antipsychotics for negative symptoms in inpatients with chronic schizophrenia (2007). No results are included in the data compiled, so efficacy cannot be judged. |
 
-No ANZCTR (Australian New Zealand Clinical Trials Registry) entries were identified in this evidence pack.
+No ANZCTR trials were identified in the data compiled for this report.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8627275](https://pubmed.ncbi.nlm.nih.gov/8627275/) | 1996 | RCT | J Nerv Ment Dis | Pilot study of low-dose selegiline (5 mg BID) augmentation for negative symptoms in chronic schizophrenia/schizoaffective disorder, testing the dopamine-deficiency hypothesis. |
-| [15677608](https://pubmed.ncbi.nlm.nih.gov/15677608/) | 2005 | RCT | Am J Psychiatry | Double-blind, placebo-controlled, multicentre trial of selegiline augmentation for negative symptoms in outpatients with schizophrenia. |
-| [17972359](https://pubmed.ncbi.nlm.nih.gov/17972359/) | 2008 | RCT | Hum Psychopharmacol | 8-week double-blind, randomised, placebo-controlled trial of selegiline add-on to risperidone for negative symptoms. |
-| [8102552](https://pubmed.ncbi.nlm.nih.gov/8102552/) | 1993 | RCT | Biol Psychiatry | Placebo-controlled trial of selegiline for neuroleptic-induced tardive dyskinesia in patients on antipsychotics. |
-| [37087864](https://pubmed.ncbi.nlm.nih.gov/37087864/) | 2023 | Review/Meta-analysis | Eur Neuropsychopharmacol | Systematic review and meta-analysis of selegiline efficacy/safety (oral and transdermal) across psychiatric disorders, including schizophrenia. |
-| [17405823](https://pubmed.ncbi.nlm.nih.gov/17405823/) | 2007 | Review | Ann Pharmacother | Review of selegiline's role in treating negative symptoms associated with schizophrenia. |
-| [16930948](https://pubmed.ncbi.nlm.nih.gov/16930948/) | 2006 | Review | Schizophr Res | Systematic review of pharmacological treatments for primary negative symptoms in schizophrenia. |
-| [10080262](https://pubmed.ncbi.nlm.nih.gov/10080262/) | 1999 | Case series | Compr Psychiatry | Three schizophrenia patients showed improved negative symptoms and functioning after adding selegiline to antipsychotic regimen; no adverse effects reported. |
-| [7901857](https://pubmed.ncbi.nlm.nih.gov/7901857/) | 1993 | Other | Pharmacopsychiatry | Selegiline evaluated for neuroleptic-induced parkinsonism. |
-| [36561338](https://pubmed.ncbi.nlm.nih.gov/36561338/) | 2022 | Review | Front Pharmacol | Historical review of MAO inhibitors, including selegiline, in psychopharmacology. |
+| [37087864](https://pubmed.ncbi.nlm.nih.gov/37087864/) | 2023 | Systematic review/Meta-analysis | Eur Neuropsychopharmacol | Appraises oral and transdermal selegiline across psychiatric disorders |
+| [26848926](https://pubmed.ncbi.nlm.nih.gov/26848926/) | 2016 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Antioxidant treatments for schizophrenia, with oxidative stress proposed as a mediator of progression |
+| [17972359](https://pubmed.ncbi.nlm.nih.gov/17972359/) | 2008 | RCT | Hum Psychopharmacol | 8-week double-blind placebo-controlled study of selegiline added to risperidone for negative symptoms in chronic schizophrenia |
+| [15677608](https://pubmed.ncbi.nlm.nih.gov/15677608/) | 2005 | RCT | Am J Psychiatry | Double-blind, placebo-controlled multicentre trial of selegiline augmentation for negative symptoms in outpatients |
+| [10587287](https://pubmed.ncbi.nlm.nih.gov/10587287/) | 1999 | RCT | J Clin Psychopharmacol | Double-blind controlled study of deprenyl (selegiline) augmentation in 16 patients with predominantly negative symptoms |
+| [8102552](https://pubmed.ncbi.nlm.nih.gov/8102552/) | 1993 | RCT | Biol Psychiatry | Placebo-controlled trial of selegiline 10 mg/day for 6 weeks in 33 patients with tardive dyskinesia |
+| [8627275](https://pubmed.ncbi.nlm.nih.gov/8627275/) | 1996 | Open-label pilot | J Nerv Ment Dis | Low-dose selegiline (5 mg twice daily) added to antipsychotics in 21 patients with chronic schizophrenia or schizoaffective disorder |
+| [17405823](https://pubmed.ncbi.nlm.nih.gov/17405823/) | 2007 | Review | Ann Pharmacother | Reviews the role of selegiline in negative symptoms of schizophrenia |
+| [16930948](https://pubmed.ncbi.nlm.nih.gov/16930948/) | 2006 | Systematic review | Schizophr Res | Pharmacological treatment of primary negative symptoms |
+| [29552749](https://pubmed.ncbi.nlm.nih.gov/29552749/) | 2018 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Miscellaneous treatments for antipsychotic-induced tardive dyskinesia |
+
+The data compiled include no outcome results for these papers, so effect sizes are not reported here.
 
 ## Australia Market Information
 
-No ARTG entries were identified for Selegiline in this evidence pack — market status is recorded as "not marketed" with 0 total licences.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14430L | Eldepryl | Tablet containing selegiline hydrochloride 5 mg (oral) | Not recorded in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Note: structured warnings, contraindications, and drug interaction data for Selegiline were not available in this evidence pack — this is flagged as a **Blocking** data gap (DG001) that currently prevents a formal safety pre-assessment (S1) for this candidate.
+**Contraindication signals (knowledge graph, not product label text):** The drug-disease contraindication links in the knowledge graph include:
+- Psychiatric: psychotic disorder, schizophreniform disorder, schizoaffective disorder, bipolar disorder, major affective disorder, and mental disorder in general
+- Cardiovascular and autonomic: orthostatic hypotension, postural orthostatic tachycardia syndrome, multiple system atrophy, sudden cardiac arrest, heart conduction disease
+- Organ disease: kidney, liver and gallbladder disease
+- Tumours: phaeochromocytoma, sympathetic paraganglioma, melanoma, and several cancers
+- Movement disorders: tardive dyskinesia and lingual-facial-buccal dyskinesia
+
+The psychotic and schizoaffective disorder signals are directly relevant to the proposed use in schizophrenia and need careful review against the PI.
+
+**Drug interactions:** 100 interactions were identified. Major-level interactions include:
+- Isometheptene
+- Bupropion
+- Diethylpropion
+- Phentermine
+- Dexfenfluramine
+
+Moderate-level interactions include:
+- Epinephrine
+- Metoclopramide
+- Insulins and several sulfonylurea or glinide diabetes medicines (chlorpropamide, glimepiride, repaglinide, nateglinide, acetohexamide)
+
+Serotonergic and sympathomimetic agents are often co-prescribed in psychiatry, so interaction risk is significant.
+
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold (research question)**
 
 **Rationale:**
-Three double-blind RCTs and a 2023 systematic review directly test selegiline augmentation for schizophrenia negative symptoms, giving this candidate genuine (if mixed-result) L2 evidence — a meaningfully stronger basis than the model's raw top-ranked score, which corresponds to an implausible, evidence-free match. However, the drug-level safety data gap is severe enough (Blocking) that no guardrail-based rollout can proceed without it.
+- Schizophrenia is the only prediction with a plausible mechanism and real clinical studies. These are small add-on trials for negative symptoms, and the single registered trial is Early Phase 1, so the evidence supports L3 at most. The other nine predictions have no clinical evidence.
+- Because the knowledge graph flags psychotic disorders as a contraindication and the interaction burden is high, the benefit-risk balance is unclear.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications, drug interactions) — currently a Blocking data gap
-- Structured mechanism-of-action data from DrugBank
-- A synthesis of the three existing RCTs' effect sizes/consistency, given their mixed results, before considering guardrailed clinical use
-- Confirmation of registration pathway, since Selegiline currently has no ARTG entries in Australia
+- Extraction of outcome data from the existing RCTs (PMIDs 17972359, 15677608, 10587287) and the 2023 meta-analysis, to judge whether negative symptoms improve
+- Review of the Australian Product Information for warnings, contraindications and approved indications (including the missing indication text for ARTG 14430L)
+- Confirmation of the mechanism of action from DrugBank
+- A safety plan for monitoring positive symptoms and managing interactions with co-prescribed psychiatric drugs
+- A search of ANZCTR for local trials
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

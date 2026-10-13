@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mebendazole
-parent: Moderate Evidence (L3-L4)
-nav_order: 416
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 448
+evidence_level: L5
 indication_count: 10
 ---
 
 # Mebendazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,15 +29,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Mebendazole: From Intestinal Helminth Infections to Alveolar Echinococcosis
+# Mebendazole: From Intestinal Worm Infections to Acne
 
 ## One-Sentence Summary
 
-> Mebendazole (DrugBank DB00643) is a benzimidazole anthelmintic, not currently marketed in Australia.
-> Among 10 TxGNN-predicted indications reviewed, the model's highest-scoring hit (acne) has no credible supporting evidence and is flagged **Hold** in the evidence review itself.
-> The best-supported candidate is **Alveolar Echinococcosis**, backed by **1 completed clinical trial** and **20 publications**, reflecting mebendazole's already-established (if second-line) role in treating this disease.
-
-*Note on candidate selection: this Evidence Pack scored 10 candidate indications. Rather than defaulting to the raw top-ranked prediction (acne, 99.2% score — explicitly annotated in the pack as having "no plausible mechanistic link"), this report focuses on the indication with the strongest verifiable evidence: Alveolar Echinococcosis (rank 5). See "Screened-out candidates" note below.*
+Mebendazole is an oral anthelmintic (worm treatment) used for intestinal worm infections such as pinworm (enterobiasis), roundworm (ascariasis) and whipworm (trichuriasis).
+The TxGNN model predicts it may be effective for **acne**, but there are **no registered clinical trials** and **no relevant publications** supporting this prediction.
 
 ---
 
@@ -45,35 +42,29 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in evidence pack (data gap); drug class is benzimidazole anthelmintic per mechanistic rationale |
-| Predicted New Indication | Alveolar Echinococcosis (*Echinococcus multilocularis* infection) |
-| TxGNN Prediction Score | 94.20% (KG rank 44,695 of all drug–disease pairs) |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Enterobiasis, ascariasis, trichuriasis (from the knowledge graph; no approved indication text is listed for the Australian product) |
+| Predicted New Indication | Acne |
+| TxGNN Prediction Score | 99.20% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed DrugBank mechanism-of-action data was not returned for this query (data gap, DG002). Based on the mechanistic rationale captured in this Evidence Pack, mebendazole is a benzimidazole-class anthelmintic that binds parasitic β-tubulin, inhibiting microtubule polymerisation and blocking glucose uptake in helminths — ultimately causing parasite death.
+Currently, detailed mechanism of action data is not available. Mebendazole is a benzimidazole anthelmintic. Benzimidazoles are generally understood to act by inhibiting parasite tubulin polymerisation. Its efficacy in intestinal nematode infections is established.
 
-This mechanism acts directly on the larval (metacestode) stage of *Echinococcus multilocularis*, the causative organism of alveolar echinococcosis. Mebendazole, alongside albendazole, is already used per WHO-IWGE guidance as a chemotherapeutic option for this disease (albendazole is first-line; mebendazole is the alternative for patients who cannot tolerate it). This means the prediction is less a novel repurposing hypothesis and more a **confirmation of existing, published clinical practice** — which is reflected in the evidence pack's own note that this "is not a novel repurposing hypothesis, but confirmation of existing clinical practice."
+For acne, no credible mechanistic link has been identified. Acne is driven by sebum production, follicular blockage, *Cutibacterium acnes* and inflammation. Tubulin inhibition in helminths has no established role in these processes.
 
-A related candidate in the same pack, Cystic Echinococcosis (*Echinococcus granulosus*, rank 3, also L3/Proceed with Guardrails), reinforces this biological plausibility: mebendazole was historically the first benzimidazole used for hydatid disease, with a 70-patient cohort study (Teggi et al., 1989) reporting cyst regression in 64.3% of cases.
-
-**Screened-out candidates:** The remaining 8 predictions in this pack (acne, diffuse cutaneous leishmaniasis, hordeolum, inhalational/toxin-mediated botulism, impetigo, Sorsby's fundus dystrophy, demodicidosis) all returned zero clinical trials and zero-to-irrelevant literature, and are explicitly annotated in the pack as lacking a plausible mechanistic link. These should be treated as model noise, not credible repurposing signals.
+The only publication retrieved is a 1982 case report of proliferative sparganosis (a tapeworm larval infection) in Venezuela. The patient had acne-like skin lesions, but the paper does not address acne treatment. The high TxGNN score therefore appears to be a model artefact rather than a clinically meaningful signal.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02876146](https://clinicaltrials.gov/study/NCT02876146) | NA (observational) | Completed | 50 | Prospective study (EchinoVISTA) of parasite viability and follow-up biomarkers in hepatic alveolar echinococcosis patients treated with **albendazole**. Not a direct mebendazole efficacy trial, but confirms benzimidazole-class treatment is standard clinical background therapy for this disease. |
-
-No completed randomised controlled trial of mebendazole specifically (vs. comparator) in alveolar echinococcosis was identified in this pack.
+Currently no related clinical trials registered.
 
 ---
 
@@ -81,44 +72,43 @@ No completed randomised controlled trial of mebendazole specifically (vs. compar
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10980173](https://pubmed.ncbi.nlm.nih.gov/10980173/) | 2000 | Comparative/Observational | J Antimicrob Chemother | 35 patients treated long-term with mebendazole or albendazole; outcomes compared across regimens — direct clinical evidence for mebendazole use. |
-| [25526545](https://pubmed.ncbi.nlm.nih.gov/25526545/) | 2014 | Review | Parasite | Reviews albendazole and mebendazole as the two established chemotherapeutic options for alveolar echinococcosis and surveys emerging alternatives. |
-| [19254162](https://pubmed.ncbi.nlm.nih.gov/19254162/) | 2009 | Review | Expert Rev Anti Infect Ther | Consensus review on benzimidazole (albendazole/mebendazole) use in cystic and alveolar echinococcosis. |
-| [9875648](https://pubmed.ncbi.nlm.nih.gov/9875648/) | 1998 | Case Report | J Hepatology | 13-year continuous mebendazole therapy (~45–48 mg/kg/day) in a non-resectable hepatic AE patient; discusses evidence for parasitocidal (not just parasitostatic) effect with long-term dosing. |
-| [7197224](https://pubmed.ncbi.nlm.nih.gov/7197224/) | 1981 | Pharmacology Study | Eur J Clin Pharmacol | Compares plasma mebendazole concentrations in animal models vs. humans; establishes that drug levels above 0.25 µmol/L correlate with reduced parasite mass. |
-| [40093668](https://pubmed.ncbi.nlm.nih.gov/40093668/) | 2025 | Review | World J Gastroenterol | Current management overview of liver echinococcosis, including chemotherapy and surgical approaches. |
-| [39606163](https://pubmed.ncbi.nlm.nih.gov/39606163/) | 2024 | Review | World J Hepatol | Current status of drug therapy for alveolar echinococcosis. |
-| [39311470](https://pubmed.ncbi.nlm.nih.gov/39311470/) | 2024 | Review | Parasite | Reviews benzimidazole chemotherapy limitations (parasitostatic effect, hepatotoxicity) and unmet need for curative agents. |
-| [34808118](https://pubmed.ncbi.nlm.nih.gov/34808118/) | 2022 | Review | Acta Tropica | Status and prospects of novel treatment options for alveolar and cystic echinococcosis beyond albendazole/mebendazole. |
-| [29677189](https://pubmed.ncbi.nlm.nih.gov/29677189/) | 2018 | Review | PLoS Negl Trop Dis | 40+ years of benzimidazole chemotherapy against echinococcosis; reviews pharmacological targets and progress. |
+| [7072899](https://pubmed.ncbi.nlm.nih.gov/7072899/) | 1982 | Case report | Am J Trop Med Hyg | Proliferative sparganosis with acne-like skin lesions; not relevant to acne treatment or to mebendazole efficacy |
 
 ---
 
 ## Australia Market Information
 
-Mebendazole is **not currently marketed in Australia** — no ARTG entries were found (0 licenses, data cutoff 2026-08-13). Any clinical use would require TGA Special Access Scheme (SAS) or Authorised Prescriber pathway access to an overseas-registered product.
+| ARTG Number | Product Name | Dosage Form |
+|---------|------|------|
+| ARTG 12194T | Trust Deworm | Chewable tablet, 100 mg (oral) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Full PI warning and contraindication data could not be retrieved in this query (severity: Blocking — this must be resolved before a formal safety assessment can proceed).
+- **Disease-related cautions (knowledge graph, not label text)**: liver disease and gallbladder disease are flagged as contraindication-related conditions.
+- **Drug Interactions**: 10 interactions were identified.
+  - **Moderate**: metronidazole, iodide I-131, iodide I-123, phenobarbital, carbamazepine, ritonavir, fosphenytoin, phenytoin, primidone.
+  - **Minor**: cimetidine.
+  - Anticonvulsants (phenobarbital, carbamazepine, phenytoin, fosphenytoin, primidone) are a notable cluster.
+
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-- Multiple reviews (including two Tier-1 sources) plus mebendazole-specific case and pharmacokinetic data support its use — alongside albendazole — as an accepted, if second-line, treatment for alveolar echinococcosis. This is confirmatory of existing practice rather than a novel hypothesis, but the drug is unregistered in Australia and lacks direct mebendazole-arm RCT data for this indication.
-- The TxGNN model's raw top-ranked prediction (acne) has no clinical or mechanistic support and should not be pursued.
+The prediction rests on a model score alone. There are no trials, no relevant literature and no plausible mechanism linking mebendazole to acne. It should not progress to clinical consideration on current evidence.
 
 **To proceed, the following is needed:**
-- TGA-approved PI (warnings, contraindications, DDI) — currently a blocking data gap
-- Confirmed DrugBank mechanism-of-action record
-- Since mebendazole holds no ARTG entry, a TGA Special Access Scheme / Authorised Prescriber pathway assessment for compassionate/named-patient use
-- Consider Cystic Echinococcosis (*Echinococcus granulosus*, rank 3) as a related secondary indication given similar evidence strength (L3, 7 publications including a 70-patient cohort study)
+- A plausible mechanistic hypothesis and supporting preclinical data for acne
+- Any clinical or observational evidence of benefit in acne
+- Review of the TGA Product Information for safety, including hepatic precautions and interactions
+
+**Note on other predictions:** Predictions lower in the ranking have far stronger support. These are **alveolar echinococcosis** (score 94.2%, evidence level L3) and **cystic echinococcosis due to *Echinococcus granulosus*** (score 95.6%, evidence level L3). Both are supported by WHO guidance, reviews and observational data on benzimidazole therapy, and both are graded *Proceed with Guardrails*. Guardrails would include liver and blood count monitoring with prolonged dosing, specialist management, and consideration of surgery where feasible. These are better candidates for a dedicated evaluation than acne. Note that echinococcosis is a recognised anthelmintic use rather than a true new-indication discovery, and albendazole is generally preferred first-line.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

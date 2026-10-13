@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rilpivirine
-parent: High Evidence (L1-L2)
-nav_order: 592
-evidence_level: L1
+parent: Moderate Evidence (L3-L4)
+nav_order: 634
+evidence_level: L4
 indication_count: 10
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,80 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Rilpivirine: From HIV-1 Infection to Congenital HIV / Perinatal Transmission Prevention
-
-> **Note on candidate selection:** This Evidence Pack contains 10 TxGNN-ranked predictions. The two highest-scoring (feline AIDS, simian immunodeficiency virus) are veterinary/animal-model findings explicitly flagged in the source data as *"獸醫適應症與人類藥物再利用無直接關聯"* (not directly relevant to human drug repurposing, recommendation: Hold), and rank 3/6/8/9/10 have no supporting trials or literature (model noise, L5). This report therefore focuses on **rank 5 — congenital/perinatal HIV infection** — the highest-evidence, clinically actionable candidate (L1, "Proceed with Guardrails").
+# Rilpivirine: From HIV Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Rilpivirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) originally used to treat HIV-1 infection. The evidence in this pack points to an expanded role in **perinatal HIV management** — using rilpivirine-based regimens (notably long-acting cabotegravir/rilpivirine) in pregnant women and their infants to maintain viral suppression and reduce vertical transmission risk — supported by **28 clinical trials** (several completed Phase 3) and **5 publications**.
+Rilpivirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) originally used to treat HIV infection and AIDS.
+The TxGNN model's top-ranked prediction is feline acquired immunodeficiency syndrome. However, the best-supported prediction is **simian immunodeficiency virus (SIV) infection**, which has **no registered clinical trials** and **5 publications**, all preclinical or review articles.
+Overall, this prediction is largely an extension of the existing HIV indication rather than a new human use.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (NNRTI antiretroviral) — detailed approved indication text unavailable in source data; drug not currently marketed in Australia |
-| Predicted New Indication | Congenital human immunodeficiency virus (perinatal/vertical transmission context) |
-| TxGNN Prediction Score | 99.56% |
-| Evidence Level | L1 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | HIV infectious disease; AIDS (the ARTG entry has no indication text in the data compiled for this report) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome (top-ranked by TxGNN; veterinary). The best-evidenced prediction is simian immunodeficiency virus infection (rank 2, an animal model of HIV) |
+| TxGNN Prediction Score | 99.97% (both feline AIDS and SIV infection) |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this pack. Based on known information, rilpivirine is an NNRTI used within combination antiretroviral regimens for HIV-1 infection; its efficacy in suppressing HIV-1 replication is well established, and mechanistically it remains applicable in pregnancy and paediatric populations, since the underlying viral target (HIV-1 reverse transcriptase) is unchanged.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, rilpivirine is an NNRTI that allosterically inhibits HIV-1 reverse transcriptase. Its efficacy in HIV infection is established, and it may be mechanistically applicable to related lentiviral infections.
 
-The "new indication" here is not a different disease but a **different patient population and use-case**: preventing mother-to-child (congenital) HIV transmission via maintained maternal viral suppression, and continued use in HIV-exposed/infected children. This is supported by dedicated pharmacokinetic studies in pregnant women (rilpivirine plasma concentrations are known to drop substantially in pregnancy), paediatric roll-over studies, and an emerging literature base on long-acting cabotegravir/rilpivirine (CAB LA/RPV LA) safety and outcomes during pregnancy.
+**Feline AIDS (rank 1):** Feline immunodeficiency virus (FIV) has a reverse transcriptase related to that of HIV. A 2023 biochemical and structural study compared NNRTIs, including rilpivirine, against FIV and HIV enzymes. The evidence is in vitro and indirect, with no in vivo or clinical data in cats. This is a veterinary indication with limited relevance to human drug repurposing.
 
-Several Phase 3 trials of dolutegravir+rilpivirine and CAB LA/RPV LA switch regimens provide a strong general efficacy/safety backbone, while pregnancy-specific PK and cohort studies (and one systematic review/meta-analysis) address the population-specific translational gap.
+**SIV infection (rank 2):** SIV and SHIV (a chimeric virus containing HIV-1 reverse transcriptase) are the standard macaque models of HIV, so rilpivirine's mechanism is directly relevant. Macaque studies of long-acting rilpivirine, alone or with cabotegravir, cover resistance selection, post-exposure prophylaxis and sustained remission after early treatment. These data mainly support the existing HIV indication and long-acting formulation development.
+
+Other predictions (for example AIDS related complex and congenital HIV) overlap with the original HIV indication. Several others (a genetic neurodevelopmental disorder, obsolete familial combined hyperlipidaemia, prostate fibroma, benign reproductive system neoplasm, Brenner tumour) have no evidence or plausible mechanistic link and are graph-based predictions only.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00855335](https://clinicaltrials.gov/study/NCT00855335) | Phase 3 | Completed | 77 | Pharmacokinetics of darunavir/ritonavir, darunavir/cobicistat, etravirine and rilpivirine in HIV-1 infected pregnant women — assesses how pregnancy alters drug exposure |
-| [NCT02494986](https://clinicaltrials.gov/study/NCT02494986) | Phase 2 | Active, not recruiting | 48 | Roll-over study providing continued rilpivirine access to participants from paediatric rilpivirine trials |
-| [NCT03497676](https://clinicaltrials.gov/study/NCT03497676) | Phase 1/2 | Completed | 168 | Safety, acceptability, tolerability and PK of oral and long-acting CAB/RPV in virologically suppressed HIV-infected children and adolescents |
-| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | N/A (Phase 4-type) | Completed | 1578 | IMPAACT P1026s — PK of antiretroviral and TB medications in pregnant and postpartum women and their infants |
-| [NCT07412977](https://clinicaltrials.gov/study/NCT07412977) | N/A | Not yet recruiting | 5160 | French prospective cohort assessing mother-to-child transmission rates for HIV/HBV/HCV and impact of antiviral treatment during pregnancy |
-| [NCT02422797](https://clinicaltrials.gov/study/NCT02422797) | Phase 3 | Completed | 518 | Switch to dolutegravir + rilpivirine vs continuing current regimen in virologically suppressed HIV-1 adults — non-inferiority |
-| [NCT06694805](https://clinicaltrials.gov/study/NCT06694805) | Phase 3b | Recruiting | 332 | CAB LA + RPV LA vs standard of care in viraemic people living with HIV-1 (CROWN) |
-| [NCT02938520](https://clinicaltrials.gov/study/NCT02938520) | Phase 3 | Active, not recruiting | 631 | FLAIR study — long-acting IM cabotegravir + rilpivirine for maintenance of suppression in treatment-naive adults |
-| [NCT02429791](https://clinicaltrials.gov/study/NCT02429791) | Phase 3 | Completed | 510 | Switch to dolutegravir + rilpivirine — non-inferiority antiviral activity vs continued regimen |
-| [NCT03299049](https://clinicaltrials.gov/study/NCT03299049) | Phase 3 | Active, not recruiting | 1049 | ATLAS-2M — CAB LA + RPV LA every 8 weeks vs every 4 weeks, large non-inferiority safety/efficacy trial |
-
-*18 further HIV-1 trials involving rilpivirine (general adult switch/PK/DDI studies) are recorded in the source data but omitted here as lower priority for the specific congenital/perinatal angle.*
+Currently no related clinical trials registered for the lead predicted indications (feline AIDS and SIV infection).
 
 ## Literature Evidence
 
+The table lists the 6 publications compiled for the two lead predictions. Preclinical studies are listed first, followed by a review.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [41225339](https://pubmed.ncbi.nlm.nih.gov/41225339/) | 2025 | Systematic Review/Meta-analysis | BMC Infectious Diseases | Safety of cabotegravir (paired with rilpivirine) in pregnancy — synthesises available evidence on long-acting regimen use |
-| [36411596](https://pubmed.ncbi.nlm.nih.gov/36411596/) | 2023 | Cohort | HIV Medicine | Pregnancy outcomes and PK in women exposed to long-acting cabotegravir + rilpivirine in clinical trials, including washout data |
-| [38864586](https://pubmed.ncbi.nlm.nih.gov/38864586/) | 2024 | Cohort | AIDS (London) | First-trimester exposure to newer antiretrovirals (including rilpivirine) and congenital anomaly rates in a US cohort |
-| [38703388](https://pubmed.ncbi.nlm.nih.gov/38703388/) | 2024 | Case Report | Clinical Infectious Diseases | Bimonthly long-acting CAB/RPV throughout pregnancy — RPV concentrations 70–75% lower than non-pregnant individuals; no vertical transmission or malformation observed, but suggests LA CAB/RPV may not be suitable for pregnancy |
-| [41268510](https://pubmed.ncbi.nlm.nih.gov/41268510/) | 2025 | Case Report | Case Reports in Infectious Diseases | Sustained viral suppression on CAB/RPV every 2 months throughout a pregnancy in a perinatally-infected patient |
+| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | In vitro biochemical/structural study | J Vet Sci | Compared nevirapine, efavirenz and rilpivirine against feline and human immunodeficiency virus reverse transcriptase to assess NNRTI potential for FIV |
+| [26438501](https://pubmed.ncbi.nlm.nih.gov/26438501/) | 2015 | Preclinical (macaque) | Antimicrob Agents Chemother | Long-acting rilpivirine selected drug-resistant variants at a low frequency in macaques infected with SIV containing HIV-1 reverse transcriptase |
+| [41370971](https://pubmed.ncbi.nlm.nih.gov/41370971/) | 2026 | Preclinical (macaque) | EBioMedicine | Evaluated a single injection of long-acting cabotegravir plus rilpivirine as post-exposure prophylaxis |
+| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Preclinical (macaque) | Nat Commun | Early treatment with long-acting cabotegravir/rilpivirine plus oral emtricitabine/tenofovir alafenamide was studied for SHIV remission |
+| [42040962](https://pubmed.ncbi.nlm.nih.gov/42040962/) | 2026 | Preclinical (newborn macaque) | Research Square | Long-acting lenacapavir with cabotegravir achieved sustained virologic remission in early-life SIV infection (rilpivirine not the focus) |
+| [29746267](https://pubmed.ncbi.nlm.nih.gov/29746267/) | 2018 | Review | Curr Opin HIV AIDS | Review of cabotegravir for antiretroviral therapy and prevention (indirect for rilpivirine) |
 
 ## Australia Market Information
 
-Rilpivirine is **not currently marketed in Australia** — no ARTG entries were identified in the source data (`total_licenses: 0`). TGA-approved Product Information should be consulted directly if/when a product is registered.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 10298B | Edurant | Tablet 25 mg (as hydrochloride) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. This Evidence Pack could not source key warnings, contraindications, or a drug-drug interaction dataset for rilpivirine (DDI query status: not found).
+- **Contraindications and disease associations (knowledge graph, not label text):** The knowledge graph links rilpivirine to long QT syndrome (including familial), torsades de pointes, liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, kidney disease, chronic hepatitis B virus infection, lactic acidosis, Fanconi renotubular syndrome, hypophosphataemia, osteomalacia, rickets, gallbladder disease, obesity disorders and pyoureter. Some of these entries likely reflect class effects of other antiretrovirals, and they should be verified against the label.
+- **Drug interactions (100 recorded; main ones shown):**
+  - **Major:** famotidine, ranitidine, cimetidine, omeprazole, esomeprazole, rabeprazole, dexlansoprazole, dexamethasone, dolasetron, cisapride. Acid-suppressing drugs are the key concern because rilpivirine absorption depends on gastric acidity.
+  - **Moderate:** loperamide, aprepitant, bisacodyl, clarithromycin, magnesium oxide, aluminium hydroxide, calcium carbonate, castor oil, clotrimazole, polyethylene glycol with electrolytes.
+
+For warnings and formal contraindications, please refer to the TGA-approved Product Information (PI).
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A substantial L1 evidence base (multiple completed Phase 3 trials plus a systematic review) supports rilpivirine-containing regimens, including long-acting CAB/RPV, in the perinatal HIV context. However, pregnancy-specific data show materially reduced rilpivirine plasma concentrations, and case-level evidence explicitly questions the suitability of the long-acting formulation during pregnancy — so guardrails on dosing/monitoring are warranted rather than unrestricted use.
+The top predictions are either veterinary (feline AIDS) or animal models of the existing HIV indication (SIV/SHIV), supported only by in vitro and macaque data (Evidence Level L4). They do not represent a new human indication, and no clinical trials are registered.
 
 **To proceed, the following is needed:**
-- Mechanism of action detail (currently a data gap, High severity)
-- TGA-equivalent PI warnings and contraindications (currently a data gap, Blocking severity — required before any S1 safety assessment)
-- A resolved drug-drug interaction dataset (currently not found)
-- Confirmation of ARTG/TGA registration pathway, since the drug is not presently marketed in Australia
-- Pregnancy-specific dosing guidance addressing the reduced rilpivirine exposure observed with long-acting formulations
+- Mechanism of action data and the ARTG approved indication text
+- TGA Product Information warnings and contraindications to complete safety screening
+- If a human question is pursued, a focus on the human-relevant leads: long-acting rilpivirine in pregnancy and HIV/HCV coinfection (where one cohort suggests possible liver stiffness benefit), neither of which is anti-HCV efficacy
+- Verification of knowledge graph contraindications (QT prolongation, hepatic and renal disease) against the PI
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

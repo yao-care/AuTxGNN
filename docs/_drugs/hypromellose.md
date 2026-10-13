@@ -2,7 +2,7 @@
 layout: default
 title: Hypromellose
 parent: Model Prediction Only (L5)
-nav_order: 334
+nav_order: 359
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hypromellose: From Pharmaceutical Excipient to Hepatic Veno-Occlusive Disease-Immunodeficiency Syndrome
+# Hypromellose: From Ophthalmic Lubricant to Hepatic Veno-Occlusive Disease-Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Hypromellose (HPMC) is a semi-synthetic cellulose derivative used extensively as an inactive pharmaceutical excipient — functioning as a film-coating agent, viscosity modifier, and controlled-release matrix — rather than as a therapeutic agent in its own right.
-The TxGNN model predicts it may be effective for **Hepatic Veno-Occlusive Disease-Immunodeficiency Syndrome (VODI)**, an ultra-rare condition with fewer than 100 reported cases globally.
-There are currently **no clinical trials and no published literature** directly supporting this prediction, and the mechanistic basis is assessed as implausible given Hypromellose's established pharmacological profile.
-
----
+Hypromellose is an inert, cellulose-derived polymer used as an ophthalmic lubricant (eye drops) and as a pharmaceutical excipient.
+The TxGNN model predicts it may be effective for **hepatic veno-occlusive disease-immunodeficiency syndrome**, but there are **0 clinical trials** and **0 publications** supporting this prediction. It appears to be a knowledge-graph artefact rather than a biologically grounded finding.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No approved therapeutic indication (used as a pharmaceutical excipient) |
-| Predicted New Indication | Hepatic Veno-Occlusive Disease-Immunodeficiency Syndrome |
+|------|------|
+| Original Indication | Not stated in the data compiled for this report (the single ARTG entry is an eye drop product with no indication text) |
+| Predicted New Indication | Hepatic veno-occlusive disease-immunodeficiency syndrome |
 | TxGNN Prediction Score | 98.30% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Hypromellose. Based on known information, Hypromellose is a semi-synthetic cellulose ether (methylhydroxypropyl cellulose) classified as an inactive pharmaceutical excipient. Its primary roles are physical in nature: forming protective films on tablet coatings, increasing viscosity in liquid formulations, acting as a controlled-release matrix former, and functioning as a lubricant in ophthalmic preparations (artificial tears). Hypromellose has no established pharmacological activity at recognised therapeutic targets.
+Currently, detailed mechanism of action data is not available. Hypromellose is known to be a pharmacologically inert cellulose-derived polymer. It acts as a viscosity enhancer, film former and ophthalmic lubricant, with negligible systemic absorption.
 
-Hepatic veno-occlusive disease-immunodeficiency syndrome (VODI) is caused by loss-of-function mutations in the *SP110* gene, producing combined defects in hepatic sinusoidal endothelial integrity and B/T-cell immune function simultaneously. Any plausible therapeutic intervention would need to address hepatic fibrosis, vascular endothelial injury, or immune reconstitution — biological activities that have not been demonstrated for Hypromellose in any preclinical or clinical setting.
+The predicted disease is a rare genetic disorder (SP110 mutation) affecting the liver and immune system. Nothing in the data connects hypromellose to its pathophysiology, and a lubricant acting on the ocular surface has no plausible route to affect it. The high TxGNN score is most likely a knowledge-graph artefact and not a biologically grounded prediction.
 
-While a small number of in vitro studies have noted marginal antioxidant properties for cellulose-based polymers, no translational evidence links these observations to hepatic protection or immunomodulation in vivo. The TxGNN model's high prediction score for this indication most likely reflects a knowledge graph pattern-matching artefact rather than a genuine pharmacological signal, particularly given the ultra-rare nature of VODI (fewer than 100 cases reported globally) and the absence of any corroborating evidence across all 10 predicted indications.
+For context, the other top-ranked predictions (all with L5 evidence, no trials and no literature) are also unsupported mechanistically:
 
----
+| Rank | Predicted Disease | TxGNN Score | Mechanistic Assessment |
+|------|------|------|------|
+| 2 | Pancytopenia due to IKZF1 mutations | 98.15% | No plausible mechanism; genetic haematopoietic disorder |
+| 3 | Hepatic veno-occlusive disease | 98.08% | No endothelial-protective or antithrombotic activity; approved therapy (defibrotide) works differently |
+| 4 | Combined immunodeficiency due to CRAC channel dysfunction | 98.03% | No interaction with calcium channel signalling |
+| 5 | Absent thumb-short stature-immunodeficiency syndrome | 97.94% | No biological rationale |
+| 6 | Facial dysmorphism-immunodeficiency-livedo-short stature syndrome | 97.90% | No target engagement |
+| 7 | Immuno-osseous dysplasia | 97.88% | No relevant pharmacology |
+| 8 | Psoriasis | 97.86% | Weak, indirect rationale only (possible vehicle or film-forming role in topical products, not disease-modifying) |
+| 9 | Autoinflammatory syndrome with pyogenic bacterial infection and amylopectinosis | 97.79% | No immunomodulatory activity |
+| 10 | Human herpesvirus 8-related tumour | 97.78% | No antiviral or antineoplastic activity |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available for the top predicted indication.
-
----
+Currently no related literature available.
 
 ## Australia Market Information
 
-Hypromellose is not registered on the Australian Register of Therapeutic Goods (ARTG) as a standalone therapeutic product. It does not hold any ARTG entries as an active ingredient. It may appear as a listed excipient within the product information of other approved therapeutic goods, but no independent therapeutic registration exists with the TGA.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11625W | Revive Tears | Eye drops 3 mg per mL, 10 mL | Not stated |
 
----
+The only registered product is an ophthalmic preparation, so the available route (ophthalmic) has not been shown to be compatible with any predicted indication.
 
 ## Safety Considerations
 
 Please refer to the TGA-approved Product Information (PI) for safety information.
 
----
+No drug interactions were found in the data compiled for this report, and no knowledge-graph contraindications were identified.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Hypromellose is a pharmaceutical excipient with no established therapeutic pharmacological activity; all 10 TxGNN-predicted indications are rated L5 (model prediction only, no supporting studies), and the Evidence Pack's own mechanistic rationale analysis consistently assesses each predicted connection as implausible or non-existent.
+The prediction has no supporting trials or literature (L5, model prediction only), and no mechanistic link exists between an inert, minimally absorbed ophthalmic polymer and the predicted disease. The high TxGNN score is not supported by biological plausibility.
 
 **To proceed, the following is needed:**
-- Verification that TxGNN's knowledge graph is correctly classifying Hypromellose as an excipient rather than an active pharmaceutical ingredient, as high prediction scores across all indications suggest a possible data ingestion artefact
-- A systematic review of any peer-reviewed preclinical evidence demonstrating genuine pharmacological activity (e.g. immunomodulatory, hepatoprotective, or anti-fibrotic) for Hypromellose or its cellulose-derivative analogues
-- If any pharmacological activity is identified in the literature, a mechanistic plausibility assessment against the VODI disease pathway (SP110 mutation → combined hepatic and immune failure)
-- If evidence emerges to support further investigation, a full TGA regulatory pathway assessment and appropriate safety profiling before any clinical consideration
+- Any credible mechanistic hypothesis connecting hypromellose to the disease pathophysiology
+- Preclinical or clinical evidence for the predicted indication
+- Confirmation of the approved indication text for the ARTG entry
+- Mechanism of action data and product information warnings and contraindications
+- Evaluation of route compatibility, as the only registered product is an eye drop
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

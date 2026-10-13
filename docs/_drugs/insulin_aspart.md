@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Insulin Aspart
-parent: Moderate Evidence (L3-L4)
-nav_order: 352
-evidence_level: L3
+parent: High Evidence (L1-L2)
+nav_order: 378
+evidence_level: L1
 indication_count: 10
 ---
 
 # Insulin Aspart
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,103 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Insulin Aspart: From Diabetes Mellitus to Permanent Neonatal Diabetes Mellitus
+# Insulin Aspart: From Diabetes Mellitus to Type 1 Diabetes Mellitus
 
 ## One-Sentence Summary
 
-> Insulin aspart is a rapid-acting insulin analogue whose established use is glycaemic control in diabetes mellitus.
-> Within this evidence pack, the TxGNN model's top-ranked prediction (**Type 1 Diabetes Mellitus**, 99.95%) is **not a genuine repurposing signal** — the evidence pack's own annotations confirm this is already an original approved indication for insulin aspart, surfaced only due to a data gap in `original_indications`.
-> The strongest **genuine** repurposing candidate is **Permanent Neonatal Diabetes Mellitus (PNDM)** (99.55%), a rare monogenic disease supported by direct mechanistic reasoning and **1 review-level publication**, though currently **no clinical trials** specifically target this population.
-
----
-
-## ⚠ Data Quality Note
-
-Before reading further: this evidence pack lists "type 1 diabetes mellitus" as the #1-ranked prediction with the strongest evidence (8 Phase 3/4 trials, 20 publications). **This is not a repurposing candidate.** The pack's own `repurposing_rationale` field explicitly states T1D is one of insulin aspart's original approved indications, and its appearance as a "prediction" reflects a data gap (`original_indications: []`) rather than a real new-use signal. It is excluded from this report's primary recommendation to avoid misleading readers. Several lower-ranked candidates (autoimmune oophoritis, opsismodysplasia, stiff person syndrome variants, and both lipodystrophy entries) are similarly flagged in the pack as likely knowledge-graph co-occurrence artefacts or, in the case of lipodystrophy, reverse-causality errors (insulin injection is a known **cause** of localized lipodystrophy, not a treatment for it). These are excluded here as well.
-
-This report instead focuses on **Permanent Neonatal Diabetes Mellitus (rank 5)**, the highest-ranked candidate with an actual, coherent mechanistic and evidentiary basis.
-
----
+Insulin aspart is a rapid-acting human insulin analogue, originally used to treat diabetes mellitus and diabetic ketoacidosis.
+The TxGNN model predicts it may be effective for **type 1 diabetes mellitus**, which is effectively an on-label use rather than a true repurposing,
+with **32 clinical trials** and **20 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes Mellitus (Type 1/Type 2) — inferred from the pack's own rationale annotations; `original_indications` and `original_moa` are recorded as data gaps and not independently confirmed here |
-| Predicted New Indication | Permanent Neonatal Diabetes Mellitus (PNDM) |
-| TxGNN Prediction Score | 99.55% (rank 5556 among all predictions) |
-| Evidence Level | L3 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Original Indication | Diabetes mellitus; diabetic ketoacidosis (from the knowledge graph, as no approved indication text is available in the ARTG data) |
+| Predicted New Indication | Type 1 diabetes mellitus |
+| TxGNN Prediction Score | 99.95% |
+| Evidence Level | L1 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (`original_moa: [Data Gap]`). Based on established pharmacology, insulin aspart is a rapid-acting human insulin analogue that binds the insulin receptor to promote peripheral glucose uptake and suppress hepatic glucose output.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, insulin aspart is a rapid-acting insulin analogue. It replaces deficient endogenous insulin by binding the insulin receptor, promoting peripheral glucose uptake and suppressing hepatic glucose output.
 
-PNDM is typically caused by mutations in *KCNJ11*, *ABCC8*, or *INS*, resulting in an absolute deficiency of endogenous insulin secretion from infancy — mechanistically identical to the insulin deficiency insulin aspart already treats in Type 1 diabetes. The rapid onset/offset kinetics of insulin aspart are also practically well-suited to the frequent, small-volume dosing or pump-based delivery typically required in neonatal and paediatric care.
-
-Insulin replacement is already standard clinical practice for PNDM. What this evidence pack captures, however, is that **direct trial-level evidence specific to PNDM is absent** — the single supporting publication is a general review rather than a controlled study, so the mechanistic case is strong but the documented evidence base is thin.
-
----
+Type 1 diabetes is characterised by autoimmune destruction of pancreatic beta cells and absolute insulin deficiency. Insulin replacement is therefore a direct mechanistic match. Because the original indication is diabetes mellitus, this prediction is effectively an on-label use rather than a genuine repurposing opportunity.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+The data include 32 registered trials. The table lists the most relevant ones, prioritising those graded as directly relevant and large Phase 3 studies.
 
----
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00097071](https://clinicaltrials.gov/study/NCT00097071) | Phase 3 | Completed | 299 | Insulin aspart vs insulin lispro in insulin pumps in children and adolescents with T1D |
+| [NCT02825251](https://clinicaltrials.gov/study/NCT02825251) | Phase 3 | Completed | 472 | Faster-acting insulin aspart vs NovoRapid in CSII in adults with T1D |
+| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Phase 3 | Completed | 114 | Insulin detemir + aspart vs NPH + aspart in adults with T1D |
+| [NCT00322257](https://clinicaltrials.gov/study/NCT00322257) | Phase 3 | Terminated | 596 | Inhaled mealtime insulin vs subcutaneous insulin aspart (with detemir) in T1D over 104 weeks |
+| [NCT00725036](https://clinicaltrials.gov/study/NCT00725036) | Phase 3 | Completed | 305 | Long-term safety of inhaled human insulin vs subcutaneous aspart (both with NPH) in T1D |
+| [NCT00447382](https://clinicaltrials.gov/study/NCT00447382) | Phase 3 | Completed | 330 | Two detemir manufacturing processes, with aspart as bolus insulin, in T1D |
+| [NCT01520818](https://clinicaltrials.gov/study/NCT01520818) | Phase 3 | Completed | 666 | Biphasic insulin aspart 50/70 vs biphasic human insulin 30 in T1D or T2D |
+| [NCT01467323](https://clinicaltrials.gov/study/NCT01467323) | Phase 3 | Completed | 303 | Biphasic insulin aspart 30 vs biphasic human insulin 30/70 in T1D or T2D |
+| [NCT01848990](https://clinicaltrials.gov/study/NCT01848990) | Phase 4 | Completed | 456 | Hyaluronidase pre-administration in CSII in T1D (HbA1c and safety); supportive post-marketing evidence |
+| [NCT04055480](https://clinicaltrials.gov/study/NCT04055480) | N/A | Completed | 25 | Home closed-loop with faster aspart vs standard aspart (crossover) |
+
+No ANZCTR identifiers were included in the data compiled for this report. Note that one Phase 3 trial (NCT00725036) was conducted in Oceania.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28527303](https://pubmed.ncbi.nlm.nih.gov/28527303/) | 2017 | Review | Diabetes Research and Clinical Practice | Reviews insulin usage in neonatal diabetes mellitus, with a focus on continuous subcutaneous insulin infusion (CSII) as management for this rare disorder |
-
----
+| [27362975](https://pubmed.ncbi.nlm.nih.gov/27362975/) | 2016 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Short-acting insulin analogues vs regular human insulin in adults with T1D |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | Degludec vs detemir, both with aspart, in pregnant women with T1D (EXPECT) |
+| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | Once-weekly icodec vs once-daily degludec in a basal-bolus regimen in T1D (ONWARDS 6) |
+| [40445776](https://pubmed.ncbi.nlm.nih.gov/40445776/) | 2025 | RCT | Diabetes Technol Ther | Fully closed-loop with faster aspart in adolescents with T1D above HbA1c target |
+| [25644227](https://pubmed.ncbi.nlm.nih.gov/25644227/) | 2015 | Systematic review and meta-analysis | Pol Arch Med Wewn | Insulin aspart vs regular human insulin in T1D and T2D |
+| [21333580](https://pubmed.ncbi.nlm.nih.gov/21333580/) | 2011 | Systematic review | Diabetes Metab | Efficacy and safety of insulin aspart vs regular human insulin |
+| [12215068](https://pubmed.ncbi.nlm.nih.gov/12215068/) | 2002 | Review | Drugs | Insulin aspart gave lower HbA1c than regular human insulin in most T1D trials |
+| [15871555](https://pubmed.ncbi.nlm.nih.gov/15871555/) | 2003 | Review | Treatments in Endocrinology | Spotlight on insulin aspart in T1D and T2D |
+| [29978361](https://pubmed.ncbi.nlm.nih.gov/29978361/) | 2019 | Review | Clin Pharmacokinet | Faster insulin aspart pharmacokinetics and pharmacodynamics as a bolus option |
+| [31902063](https://pubmed.ncbi.nlm.nih.gov/31902063/) | 2020 | Narrative review | Diabetes Ther | Insulin management strategies in adults with T1D |
 
 ## Australia Market Information
 
-No ARTG entries were found for insulin aspart in this evidence pack (`total_licenses: 0`), and market status is recorded as **Not Marketed**. Confirmation of current TGA/ARTG registration status should be verified directly against the TGA database before any clinical decision-making, as this may reflect a data collection gap rather than genuine absence from the Australian market (insulin aspart products are widely marketed internationally).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12254Y | NovoRapid FlexPen | Injection (human analogue), cartridges, 100 units per mL, 3 mL | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. (Key warnings, contraindications, and drug interaction data were not available in this evidence pack.)
+No safety data were available in the data compiled for this report, and no drug interactions were found. Please refer to the TGA-approved Product Information (PI) for safety information.
 
----
+Standard clinical vigilance is expected for insulin therapy, including hypoglycaemia monitoring and dose titration. Injection-site lipodystrophy is a known effect of repeated insulin injection at the same site, so site rotation is advisable.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-- The insulin-deficiency mechanism directly supports insulin replacement in PNDM, and this is already accepted clinical practice — but the evidence pack contains only one indirect review, no PNDM-specific clinical trials, and no confirmed Australian market/ARTG registration for insulin aspart.
+Multiple completed Phase 3 trials in type 1 diabetes, supported by Cochrane and other systematic reviews, show that insulin aspart is effective in this population. As this is effectively an on-label use, the main requirements are standard insulin safety practices.
 
 **To proceed, the following is needed:**
-- Verification of current TGA/ARTG registration status for insulin aspart (the "0 ARTG entries / Not Marketed" result should be confirmed, not assumed correct)
-- TFDA/TGA Product Information for formal safety, contraindication, and interaction data (all currently data gaps)
-- Confirmed original indications and MOA documentation for insulin aspart (currently data gaps in this pack)
-- Direct clinical or observational evidence in PNDM populations, beyond the single available review article
-- Re-validation of the TxGNN pipeline's handling of already-approved indications (e.g. T1D here) so they are not presented as novel repurposing candidates in future evidence packs
+- Confirmation of the approved indication text and safety information from the TGA-approved PI
+- Mechanism of action data
+- A hypoglycaemia monitoring and dose titration plan appropriate to the regimen (basal-bolus, pump or closed-loop)
+
+## Other Predicted Indications (Lower Priority)
+
+The remaining predictions have little or no supporting evidence and are not recommended for progression.
+
+| Predicted Indication | Evidence Level | Decision | Comment |
+|------|------|------|------|
+| Permanent neonatal diabetes mellitus | L4 | Research question | Insulin replacement is mechanistically coherent and standard care, though sulfonylureas are preferred in some genetic subtypes. Evidence is one review (PMID 28527303) |
+| Pancreatic agenesis | L4 | Research question | Insulin replacement is logical, but the supplied literature is indirect only |
+| Autoimmune oophoritis | L5 | Hold | No mechanistic link, no trials or publications |
+| Opsismodysplasia | L5 | Hold | Pathway link is theoretical only |
+| Thiamine-responsive dysfunction syndrome | L5 | Hold | Thiamine is the primary treatment |
+| Classic stiff person syndrome, focal stiff limb syndrome | L5 | Hold | Reflects autoimmune comorbidity with T1D, not a treatment rationale |
+| Drug-induced localised lipodystrophy, centrifugal lipodystrophy | L5 | Hold | Localised lipodystrophy is an adverse effect of injected insulin, so this is a safety concern rather than an opportunity |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

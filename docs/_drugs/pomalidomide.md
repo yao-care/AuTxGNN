@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pomalidomide
-parent: High Evidence (L1-L2)
-nav_order: 543
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 583
+evidence_level: L4
 indication_count: 10
 ---
 
 # Pomalidomide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,89 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Pomalidomide: From Multiple Myeloma to Indolent Plasma Cell Myeloma
+# Pomalidomide: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
 
 ## One-Sentence Summary
 
-Pomalidomide is a second-generation immunomodulatory drug (IMiD) whose established use internationally is relapsed/refractory multiple myeloma; this is not captured as a structured field in the supplied dataset. The TxGNN model predicts activity in **indolent plasma cell myeloma** — a subtype within the same disease spectrum — supported by **1 completed clinical trial** and **2 review publications** currently identified.
+Pomalidomide is an oral immunomodulatory drug originally used to treat plasma cell myeloma (multiple myeloma).
+The TxGNN model predicts it may be effective for **indolent plasma cell myeloma** (also known as smouldering myeloma),
+but currently there are **no registered clinical trials** and only **2 general review articles**, neither of which contains pomalidomide-specific data for this setting.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this dataset (`original_indications`/`original_moa` = data gap); externally known as multiple myeloma, relapsed/refractory |
+| Original Indication | Plasma cell myeloma (the approved indication text is not recorded in the ARTG data compiled for this report) |
 | Predicted New Indication | Indolent plasma cell myeloma |
 | TxGNN Prediction Score | 93.96% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Structured mechanism-of-action data is not available in this dataset (`original_moa` = data gap). Based on the supporting rationale accompanying this prediction (flagged explicitly as external pharmacological knowledge, not a local database field), pomalidomide is a cereblon (CRBN) E3 ubiquitin ligase modulator that drives degradation of IKZF1/IKZF3, giving it anti-angiogenic and immune-activating (T/NK cell) effects alongside TNF-α suppression.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pomalidomide is an immunomodulatory agent that binds cereblon and promotes degradation of the transcription factors IKZF1 and IKZF3. This mechanism is well established in relapsed/refractory plasma cell myeloma.
 
-Indolent plasma cell myeloma sits within the same disease spectrum as multiple myeloma — the malignancy pomalidomide is already used to treat internationally. This means the TxGNN prediction is best read as extending an established, on-target mechanism to a related disease stage/subtype, rather than proposing a genuinely novel therapeutic hypothesis. That narrows the uncertainty around biological plausibility, but it does not substitute for disease-specific trial evidence.
+Indolent (smouldering) myeloma is an earlier stage on the same disease continuum as symptomatic myeloma. The same malignant plasma cell biology is involved, so the mechanistic rationale is reasonable.
+
+However, the two references identified are general reviews of myeloma diagnosis, risk stratification and management. They contain no pomalidomide-specific data in the indolent setting, so the prediction remains unverified.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02046915](https://clinicaltrials.gov/study/NCT02046915) | Phase 2 | Completed | 60 | Multicentre, single-arm study of pomalidomide + dexamethasone (with response-adapted cyclophosphamide) in relapsed/refractory myeloma; aimed to balance efficacy against the substantial risk of critical myelosuppression seen with alkylator-containing regimens. |
-
-No ANZCTR-registered trials were identified for this indication.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22180161](https://pubmed.ncbi.nlm.nih.gov/22180161/) | 2012 | Review | American Journal of Hematology | 2012 update on multiple myeloma diagnosis, risk-stratification and management. |
-| [21181954](https://pubmed.ncbi.nlm.nih.gov/21181954/) | 2011 | Review | American Journal of Hematology | 2011 update on multiple myeloma diagnosis, risk-stratification and management; notes myeloma accounts for ~10% of haematologic malignancies. |
+| [22180161](https://pubmed.ncbi.nlm.nih.gov/22180161/) | 2012 | Review | American Journal of Hematology | 2012 update on myeloma diagnosis, risk stratification and management; general overview, not pomalidomide-specific |
+| [21181954](https://pubmed.ncbi.nlm.nih.gov/21181954/) | 2011 | Review | American Journal of Hematology | 2011 update on myeloma diagnosis, risk stratification and management; general overview, not pomalidomide-specific |
 
 ## Australia Market Information
 
-Pomalidomide is currently **not marketed** in this dataset's jurisdiction, with **0 ARTG-equivalent entries** on file. No product listings, dosage forms, or approved indication text are available to summarise.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10386P | Pomalyst | Capsule 4 mg (oral) | Not recorded in the data compiled for this report |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted/Immunomodulatory therapy (IMiD; not conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | High — the completed Phase 2 trial (NCT02046915) explicitly flags patients as being at "substantial risk of critical myelosuppression" |
+| Cytotoxicity Classification | Immunomodulatory agent (thalidomide analogue); not a conventional cytotoxic |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | Full blood count (with differential) given documented myelosuppression risk; please refer to PI for full monitoring schedule |
-| Handling Protection | Please refer to the Product Information (PI) and applicable hazardous-drug handling guidance |
+| Monitoring Items | Please refer to the PI; haematological parameters (FBC with differential) are usually monitored for this drug class |
+| Handling Protection | Please refer to the PI. Pomalidomide is a thalidomide analogue with known teratogenic risk, so precautions to avoid exposure in pregnancy are expected |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Key warnings, contraindications, and drug interaction data are not available in this dataset (drug interaction query returned "not found").
+**Drug Interactions:** The interaction screen returned 100 potential interactions in total, of which the first 20 were reviewed. Interactions rated **Major** include:
+- Deferiprone
+- Samarium (153Sm) lexidronam
+- Human C1-esterase inhibitor
+- Conestat alfa
+- Darbepoetin alfa
+- Erythropoietin
+- Peginesatide
+
+Interactions rated **Moderate** include clarithromycin, metronidazole, tinidazole, secnidazole, rosuvastatin, simvastatin, obeticholic acid, cobicistat, palifermin, strontium chloride Sr-89, fostamatinib, chloroquine and disulfiram.
+
+For warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A single completed Phase 2 trial (n=60) plus a mechanistically plausible extension of pomalidomide's established myeloma-spectrum activity supports cautious progression, but a blocking safety-data gap and the drug's current unmarketed status in this jurisdiction preclude a full "Go".
+The prediction score is high and the mechanistic link to an already-approved myeloma drug is plausible. However, there are no clinical trials and no pomalidomide-specific literature in the indolent setting, so evidence is limited to model prediction and general disease reviews. Safety information from the PI has also not been reviewed.
 
 **To proceed, the following is needed:**
-- TFDA/PI-sourced warnings and contraindications (flagged as a **blocking** gap — required before safety-stage evaluation can proceed)
-- Confirmed mechanism-of-action and DrugBank categorisation (currently a data gap)
-- Drug interaction data (current query status: not found)
-- An Australian regulatory pathway assessment, since the drug has zero ARTG-equivalent entries at present
+- Pomalidomide-specific clinical data in smouldering myeloma (trials or published studies)
+- The approved indication text and the PI warnings and contraindications for the ARTG entry
+- Detailed mechanism of action data from DrugBank
+- A risk-benefit assessment for treating earlier-stage disease, including teratogenicity and the risk-management programme
+- Review of the Major drug interactions for the likely co-medications in this population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

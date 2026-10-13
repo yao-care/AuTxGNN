@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Povidone-Iodine
-parent: High Evidence (L1-L2)
-nav_order: 551
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 592
+evidence_level: L5
 indication_count: 10
 ---
 
 # Povidone-Iodine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,66 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Povidone-Iodine: From Topical Antiseptic to Ventilator-Associated Pneumonia Prevention
+# Povidone-iodine: From Topical Antisepsis to Plasmodium falciparum Malaria
 
 ## One-Sentence Summary
 
-Povidone-iodine (PVP-I) is a broad-spectrum topical antiseptic; it is not currently marketed or ARTG-registered in Australia and has no formally recorded "original indication" in this evidence pack.
-Of ten TxGNN-predicted new uses, the strongest evidence-backed candidate is **Pneumonia** — specifically nasal/oropharyngeal decontamination to prevent ventilator-associated pneumonia (VAP) —
-supported by **35 clinical trials** and **20 publications**, including a Cochrane systematic review and a completed Phase 2/3 RCT.
-
----
+Povidone-iodine is a broad-spectrum topical antiseptic. In Australia it is registered as an antiseptic dressing (Inadine).
+The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria**, but **no clinical trials and no publications** currently support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally recorded — PVP-I is a well-known topical/mucosal antiseptic, no systemic indication on file |
-| Predicted New Indication | Pneumonia (ventilator-associated pneumonia prevention) |
-| TxGNN Prediction Score | 80.50% |
-| Evidence Level | L2 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Not stated in the Australian licence data compiled for this report. The registered product is a topical antiseptic dressing. |
+| Predicted New Indication | Plasmodium falciparum malaria |
+| TxGNN Prediction Score | 88.33% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack (flagged as a data gap). Based on known pharmacological information, povidone-iodine is a broad-spectrum iodophor antiseptic with established bactericidal, fungicidal and virucidal activity (including against SARS-CoV-2, MRSA, influenza and other respiratory pathogens), applied topically to skin and mucous membranes.
+Currently, detailed mechanism of action data is not available. Based on known information, povidone-iodine is a complex of iodine and polyvinylpyrrolidone. It kills a wide range of bacteria, fungi and viruses by releasing iodine, which acts as an oxidising agent. Its effect on wounds and skin is well established.
 
-The predicted new use is not systemic treatment of established pneumonia, but topical decontamination of the nasal and oropharyngeal cavities in mechanically ventilated or high-aspiration-risk patients. Since the nasopharynx and oral cavity act as a reservoir seeding micro-aspiration into the lungs, reducing local microbial and viral burden with PVP-I is a mechanistically plausible strategy for lowering VAP incidence — an application consistent with its long-standing use in surgical-site and mucosal antisepsis, rather than a novel systemic pharmacology.
-
-This is a prevention/infection-control mechanism rather than treatment of active pneumonia, and the evidence base (below) supports it accordingly.
-
----
+Malaria is a blood-stage parasitic infection, and it is not obvious how a topical antiseptic would affect it. Povidone-iodine has no known systemic antiplasmodial activity. Its topical, non-systemic use makes a plausible mechanism for treating bloodstream parasites unlikely. The high TxGNN score reflects a statistical pattern in the knowledge graph (the model ranked this prediction 82,584th overall), not biological or clinical support. This prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04364802](https://clinicaltrials.gov/study/NCT04364802) | Phase 2 | Completed | 98 | Intranasal PVP-I prophylaxis in front-line healthcare personnel and inpatients during SARS-CoV-2 pandemic |
-| [NCT05895773](https://clinicaltrials.gov/study/NCT05895773) | Phase 2/3 | Completed | 78 | Nasal + oropharyngeal PVP-I with glycyrrhizin to reduce ventilator-associated respiratory infection |
-| [NCT00950027](https://clinicaltrials.gov/study/NCT00950027) | Phase 3 | Terminated | 179 | Multicentre double-blind RCT of oropharyngeal PVP-I decontamination vs placebo for VAP in head trauma/cerebral haemorrhage patients |
-| [NCT04517188](https://clinicaltrials.gov/study/NCT04517188) | Phase 4 | Unknown | 40 | Halodine nasal antiseptic (PVP-I) evaluated for nasopharyngeal SARS-CoV-2 viral shedding |
-| [NCT05214196](https://clinicaltrials.gov/study/NCT05214196) | Phase 4 | Completed | 75 | Oral antiseptics (incl. PVP-I) reduced intraoral SARS-CoV-2 viral load |
-| [NCT04721626](https://clinicaltrials.gov/study/NCT04721626) | N/A | Completed | 25 | Perioperative topical antiseptic bundle reduced surgical site infection risk in head and neck cancer surgery, with oral microbiome monitoring |
-| [NCT04449965](https://clinicaltrials.gov/study/NCT04449965) | Early Phase 1 | Terminated | 5 | Topical PVP-I rinses/gargles for mild-moderate COVID-19; terminated early, limited data |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [33538761](https://pubmed.ncbi.nlm.nih.gov/33538761/) | 2021 | RCT | JAMA Otolaryngology–Head & Neck Surgery | Nasopharyngeal PVP-I mouthwash/gargle/nasal spray reduced nasopharyngeal viral load in COVID-19 patients |
-| [39803048](https://pubmed.ncbi.nlm.nih.gov/39803048/) | 2024 | Crossover trial | Cureus | Novel toothbrushing method with PVP-I/moisturising gel mixture aimed at reducing aspiration pneumonia risk |
-| [37215234](https://pubmed.ncbi.nlm.nih.gov/37215234/) | 2023 | Systematic Review & Meta-analysis | Archives of Academic Emergency Medicine | Oral care with PVP-I in the prevention of ventilator-associated pneumonia in ICU patients |
-| [27778318](https://pubmed.ncbi.nlm.nih.gov/27778318/) | 2016 | Cochrane Systematic Review | Cochrane Database of Systematic Reviews | Oral hygiene care (including antiseptics) to prevent ventilator-associated pneumonia in critically ill patients |
-| [24346519](https://pubmed.ncbi.nlm.nih.gov/24346519/) | 2014 | Review | Critical Care Medicine | Rethinking the benefits of povidone-iodine for oropharyngeal decontamination in VAP prevention |
-| [35594333](https://pubmed.ncbi.nlm.nih.gov/35594333/) | 2022 | Narrative Review | Annals of Medicine | Repurposing PVP-I to reduce SARS-CoV-2 infection/transmission risk, including antiviral mechanisms and safety |
-| [39179488](https://pubmed.ncbi.nlm.nih.gov/39179488/) | 2025 | Network Meta-analysis | Australian Critical Care | Comparative efficacy/safety of mouthwash solutions (incl. PVP-I) on ventilator-related outcomes and mortality in ICU patients |
-| [36973223](https://pubmed.ncbi.nlm.nih.gov/36973223/) | 2023 | Cohort | Clinical Otolaryngology | Nasal lavage with PVP-I reduced nasopharyngeal SARS-CoV-2 viral load in vivo |
-| [36058840](https://pubmed.ncbi.nlm.nih.gov/36058840/) | 2023 | Cohort | Enfermedades Infecciosas y Microbiología Clínica | Mouth rinses with PVP-I and hydrogen peroxide evaluated in COVID-19 patients |
-| [32520599](https://pubmed.ncbi.nlm.nih.gov/32520599/) | 2020 | Review | Ear, Nose & Throat Journal | Safety review of PVP-I use in the sinonasal and oral cavities during the COVID-19 era |
-
----
+Currently no related literature available.
 
 ## Australia Market Information
 
-Povidone-iodine currently has **no ARTG entries** and is not marketed in Australia under this evidence pack's records, so no product-level table can be produced.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10847X | Inadine | Dressing 9.5 cm x 9.5 cm | Not specified in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Knowledge-graph contraindication signals** (derived from drug-disease links in the PrimeKG knowledge graph, not from product label text): epilepsy, liver disease, gallbladder disease, respiratory failure, atrioventricular block, atrioventricular dissociation and heart block. These signals are unverified and should be confirmed against the label.
 
----
+No drug interaction records were found.
+
+For label-based warnings, contraindications and interactions, please refer to the TGA-approved Product Information (PI).
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple completed Phase 2–4 studies plus a Cochrane systematic review support topical PVP-I nasal/oropharyngeal decontamination for reducing VAP and respiratory pathogen burden, but results are mixed (e.g. NCT00950027 terminated) and no Australian regulatory or safety data exist for this drug, so guardrails are warranted before clinical adoption.
+The prediction rests only on the model score (L5). There are no clinical trials or publications. A topical antiseptic is also mechanistically unlikely to treat a blood-stage parasitic infection.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information / warnings and contraindications (currently a blocking data gap — no ARTG entry exists)
-- Formal mechanism-of-action documentation from DrugBank or equivalent source
-- A defined clinical protocol (concentration, frequency, patient population) specific to VAP prophylaxis, since existing trials use heterogeneous regimens
-- Note: two other candidates in this evidence pack — peritonitis (L3, Research Question) and appendicitis (L2, Proceed with Guardrails) — reflect PVP-I's established role as a surgical/peritoneal lavage antiseptic and may warrant separate evaluation.
+- Laboratory (in vitro) evidence of antiplasmodial activity at clinically achievable, safe concentrations
+- Mechanism of action data and a plausible route of delivery for a systemic infection
+- Label-based safety information from the TGA-approved PI, including the approved indication text
+
+**Note for portfolio prioritisation:** Other TxGNN predictions for povidone-iodine have more evidence than malaria. These are pneumonia (L2, mainly COVID-19 viral-load and oral-care trials), appendicitis (L2, a Phase 2 paediatric irrigation pilot) and peritonitis (L3, with notable safety concerns for intraperitoneal use). If this drug is being considered for repurposing, these may be better candidates for a separate evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

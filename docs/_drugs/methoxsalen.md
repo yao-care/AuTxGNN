@@ -2,7 +2,7 @@
 layout: default
 title: Methoxsalen
 parent: Model Prediction Only (L5)
-nav_order: 432
+nav_order: 464
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,64 +29,92 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methoxsalen: From Photochemotherapy (Original Indication Not Specified) to Localized Pagetoid Reticulosis
+# Methoxsalen: From Cutaneous T-Cell Lymphoma and Vitiligo to Localized Pagetoid Reticulosis
 
 ## One-Sentence Summary
 
-Methoxsalen is a psoralen (furocoumarin) compound used in PUVA and extracorporeal photopheresis; the evidence pack does not record its originally registered indication in Australia, as the drug is not currently marketed here.
-The TxGNN model predicts it may be effective for **localized pagetoid reticulosis**, a rare, localized variant of cutaneous T-cell lymphoma (CTCL).
-This is currently a mechanism-based extrapolation only — **0 clinical trials** and **0 publications** in this evidence pack directly support this specific rare subtype.
+Methoxsalen is a photosensitising agent originally used for primary cutaneous T-cell lymphoma and vitiligo.
+The TxGNN model predicts it may be effective for **localized pagetoid reticulosis** (an indolent variant of mycosis fungoides), but there are currently **0 clinical trials** and **0 publications** specific to this disease. The prediction is supported by model scoring and biological plausibility only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in evidence pack — drug not registered in Australia; TFDA/ARTG-equivalent indication text is a documented data gap (DG001/DG002) |
-| Predicted New Indication | Localized Pagetoid Reticulosis |
+| Original Indication | Primary cutaneous T-cell lymphoma; vitiligo (the ARTG entry in the data compiled for this report has no indication text) |
+| Predicted New Indication | Localized pagetoid reticulosis |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 (mechanism-based) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for methoxsalen is not recorded in this evidence pack (flagged as a High-severity data gap, DG002). However, the evidence pack's repurposing rationale confirms that methoxsalen (8-MOP) is a psoralen that, once photoactivated by UVA light, intercalates into DNA to form photoadducts and induces apoptosis in lymphocytes — particularly T-cells. This is the pharmacological basis of both topical PUVA therapy and extracorporeal photopheresis (ECP).
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, methoxsalen is a psoralen. It is used with UVA light (PUVA) and in extracorporeal photopheresis. It intercalates into DNA and, once activated by UVA, forms crosslinks that induce apoptosis in malignant T cells.
 
-Localized pagetoid reticulosis is a rare, localized variant of mycosis fungoides (MF), which sits within the CTCL spectrum. PUVA (methoxsalen plus localized UVA irradiation) is an established treatment modality for CTCL/MF more broadly, so mechanistically it is reasonable to expect activity in this related, rarer subtype. This is reinforced by a closely related predicted indication in the same evidence pack — indolent primary cutaneous T-cell lymphoma (rank 2, evidence level L3) — where ECP using methoxsalen is already a recognised standard treatment for CTCL, supported by two publications.
+Localized pagetoid reticulosis (Woringer-Kolopp disease) is an indolent variant of mycosis fungoides, which is a primary cutaneous T-cell lymphoma. Because methoxsalen is already used in cutaneous T-cell lymphoma, the biological rationale is plausible. However, the high TxGNN score probably reflects how close this disease sits to the established CTCL indication in the knowledge graph. It is not independent evidence of efficacy.
 
-That said, the rationale for pagetoid reticulosis specifically is an indirect extrapolation from the broader CTCL/MF literature rather than direct evidence: no clinical trials or publications for this exact disease term were identified in this evidence pack.
+A related prediction, **indolent primary cutaneous T-cell lymphoma** (rank 2, score 99.91%), has a similar rationale. It is largely a subtype of the already-labelled CTCL indication, so it is closer to an extension of the existing use than to true repurposing. The remaining top-10 predictions are mostly B-cell lymphomas, deep-seated extranodal lymphomas and a benign skin lesion. They have no plausible mechanistic link to UVA photochemotherapy and are not discussed further.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered for localized pagetoid reticulosis. No trials were found for the other top-ranked predictions either.
 
 ## Literature Evidence
 
-Currently no related literature available
+No literature specific to localized pagetoid reticulosis is available. The only supporting publication relates to the rank 2 prediction, indolent primary cutaneous T-cell lymphoma, and is indirect evidence:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [23074497](https://pubmed.ncbi.nlm.nih.gov/23074497/) | 2006 | Review | Ontario Health Technology Assessment Series | Evidence-based analysis of the effectiveness, safety and cost-effectiveness of extracorporeal photopheresis for refractory erythrodermic CTCL and refractory chronic graft-versus-host disease |
 
 ## Australia Market Information
 
-Methoxsalen is not currently registered on the Australian Register of Therapeutic Goods (ARTG) — market status is "not marketed" with 0 listed entries.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12154Q | Uvadex | Solution for blood fraction, 20 microgram per mL, 10 mL | Not stated in the data compiled for this report |
+
+The only registered route is "Other" (a solution for blood fraction, consistent with extracorporeal use). It has not been assessed whether this is suitable for the predicted indication.
+
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Photosensitising agent (psoralen) activated by UVA. Not a conventional cytotoxic, but the effect on malignant T cells is DNA crosslinking and apoptosis. |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
+| Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+Label warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for safety information.
+
+- **Contraindications suggested by the knowledge graph** (these come from the knowledge graph, not from label text, and need verification against the PI):
+  - Photosensitivity conditions: photosensitivity disease, photoparoxysmal response
+  - Porphyrias: including porphyria cutanea tarda, variegate porphyria and erythropoietic protoporphyria
+  - Skin cancers: melanoma, basal cell carcinoma, squamous cell carcinoma and other carcinomas
+  - Other: liver disease, gallbladder disease, systemic lupus erythematosus, xeroderma pigmentosum, albinism, Waardenburg syndrome, piebaldism, Griscelli syndrome and peroxisome biogenesis disorder
+- **Drug Interactions**: 100 interactions were found, and the 20 retrieved are all Moderate severity. They include:
+  - Tetracyclines: doxycycline, tetracycline, minocycline
+  - Sulfonylureas: chlorpropamide, glimepiride, glipizide, glyburide, tolbutamide, tolazamide, acetohexamide
+  - Others: levofloxacin, sulfasalazine, promethazine, ibuprofen, flurbiprofen, alosetron
+
+  Many of these are photosensitising or hypoglycaemic agents. Concurrent use with a psoralen needs review.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic link to CTCL/MF is plausible and reinforced by an established treatment precedent for the broader disease spectrum, but there is no direct clinical trial or literature evidence for localized pagetoid reticulosis specifically, and the drug is not currently registered in Australia. Combined with blocking safety data gaps (TFDA/ARTG-equivalent warnings and contraindications not yet obtained), the evidence does not yet support proceeding.
+The prediction for localized pagetoid reticulosis rests on a model score and a plausible link to the existing CTCL indication. There are no trials or publications specific to this disease (Evidence Level L5). Safety data from the label are also missing. The rank 2 prediction (indolent CTCL) is better framed as a research question within the existing CTCL indication, with only indirect evidence.
 
 **To proceed, the following is needed:**
-- TFDA/ARTG-equivalent product information — warnings and contraindications (Blocking gap, DG001)
-- Confirmed original indication and mechanism-of-action documentation for methoxsalen (DG002)
-- Direct clinical evidence (case series or trials) specific to localized pagetoid reticulosis, or a formal extrapolation justification from the broader CTCL/MF evidence base
-- Regulatory pathway assessment, given the drug is not currently registered in Australia
-
-**Note:** A related predicted indication in this evidence pack — indolent primary cutaneous T-cell lymphoma (rank 2) — has stronger direct support (2 peer-reviewed publications, evidence level L3, recommendation "Proceed with Guardrails") and may warrant separate evaluation as a more actionable near-term direction.
+- Case series, registry data or literature on PUVA or photopheresis in localized pagetoid reticulosis
+- Mechanism of action data (for example from DrugBank)
+- The TGA Product Information, including indications, warnings, contraindications and the approved route and use of Uvadex
+- A check of the knowledge-graph contraindications (especially skin cancer history and photosensitivity) against the PI
+- Confirmation of whether the existing Uvadex use already covers this disease within the CTCL indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

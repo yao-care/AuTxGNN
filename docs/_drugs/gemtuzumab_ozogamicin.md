@@ -2,15 +2,15 @@
 layout: default
 title: Gemtuzumab Ozogamicin
 parent: Moderate Evidence (L3-L4)
-nav_order: 310
-evidence_level: L3
+nav_order: 333
+evidence_level: L4
 indication_count: 10
 ---
 
 # Gemtuzumab Ozogamicin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,15 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Gemtuzumab Ozogamicin: From Acute Myeloid Leukemia to Chronic Myeloid Leukemia, Blast Phase (BCR-ABL1 Positive)
+# Gemtuzumab ozogamicin: From Acute Myeloid Leukaemia to Chronic Myelogenous Leukaemia (BCR-ABL1 Positive)
 
 ## One-Sentence Summary
 
-Gemtuzumab ozogamicin (Mylotarg) is a CD33-targeted antibody-drug conjugate originally used for CD33-positive acute myeloid leukemia (AML). Among the 10 indications TxGNN predicted for this drug, **Chronic Myeloid Leukemia, Blast Phase (BCR-ABL1 Positive)** is the only candidate with a plausible biological mechanism and meaningful supporting evidence — **3 clinical trials** and **13 publications** — while the model's top-scoring predictions (e.g. Richter syndrome, bulbar polio, malignant spiradenoma) were assessed in the evidence pack itself as likely model noise with no mechanistic basis or supporting data.
+Gemtuzumab ozogamicin is a CD33-directed antibody-drug conjugate (calicheamicin payload), originally used to treat acute myeloid leukaemia (AML).
+The TxGNN model's top-ranked predictions are mostly implausible, so this report focuses on the best-supported candidate, **chronic myelogenous leukaemia, BCR-ABL1 positive (CML)**, which is the first prediction with usable evidence (the top two have none).
+It has **1 related but indirect clinical trial** and **10 publications**, mostly case reports and laboratory studies.
+
+> Note: The top-ranked prediction by score is Richter syndrome (98.06%), but it has no trials or literature and an unclear mechanistic link. CML (rank 3) was selected because it is the first prediction with biologically plausible, literature-supported evidence.
 
 ---
 
@@ -41,25 +45,23 @@ Gemtuzumab ozogamicin (Mylotarg) is a CD33-targeted antibody-drug conjugate orig
 
 | Item | Content |
 |------|------|
-| Original Indication | CD33-positive Acute Myeloid Leukemia (AML) — derived from literature within the evidence pack; no structured original-indication record was available |
-| Predicted New Indication | Chronic Myeloid Leukemia, Blast Phase (BCR-ABL1 Positive) |
+| Original Indication | Acute myeloid leukaemia (including therapy-related AML/MDS, NPM1-mutated, CEBPA-mutated and core-binding-factor subtypes) |
+| Predicted New Indication | Chronic myelogenous leukaemia, BCR-ABL1 positive (CML) |
 | TxGNN Prediction Score | 97.89% |
-| Evidence Level | L3 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
-
-**Note on candidate selection:** This evidence pack scored gemtuzumab ozogamicin against 10 predicted indications. Six of them (Richter syndrome, bulbar polio, malignant spiradenoma, 5q35 microduplication syndrome, neuralgic amyotrophy, and its duplicate "amyotrophic neuralgia") received the highest TxGNN scores but have zero supporting trials or literature, and the evidence pack's own mechanistic review flags them as implausible or as likely ontology/false-positive noise (all scored L5, Hold). CML blast phase, ranked third by score, is the only candidate with a coherent CD33-related mechanism and a real evidence base, and is therefore the focus of this report.
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold (research question only) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed structured mechanism-of-action data for gemtuzumab ozogamicin was not available in this evidence pack (flagged as a High-severity data gap). However, the literature retrieved within the pack itself is consistent and specific: gemtuzumab ozogamicin is a humanized anti-CD33 monoclonal antibody conjugated to the cytotoxic agent calicheamicin, designed to deliver a cytotoxic payload to CD33-expressing myeloid blasts (PMID 15454492, 15886328).
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, gemtuzumab ozogamicin is a humanised anti-CD33 antibody linked to the cytotoxic agent calicheamicin. The antibody binds CD33 on myeloid cells, is internalised, and delivers the toxin, and its efficacy in AML is established.
 
-The drug's approved use is in CD33-positive AML. Chronic myeloid leukemia in blast phase (CML-BP) is pathologically similar to AML at that stage — blast-phase disease is managed largely like AML because of shared histological and clinical features (PMID 35536916). Critically, CD34+/CD38- leukemic stem cells in CML have been shown to express CD33 (Siglec-3) and to respond to gemtuzumab ozogamicin in vitro (PMID 21993666), giving a direct molecular rationale for activity in this setting.
+CML and AML are both myeloid malignancies. Laboratory work shows that CD34+/CD38- leukaemic stem cells in CML express CD33 and respond to gemtuzumab ozogamicin (PMID 21993666). Other work shows that CD33 expression level and internalisation influence drug sensitivity (PMID 15454492). This gives a plausible mechanistic basis, particularly for the myeloid blast phase of CML.
 
-This mechanistic plausibility is reinforced by real-world clinical use: gemtuzumab ozogamicin has been combined with fludarabine/cytarabine in CML-BP patients (PMID 22534616) and used together with blinatumomab in refractory mixed-phenotype CML blast crisis (PMID 34764108), indicating clinicians have already explored this off-label use in difficult, CD33-expressing blast-phase disease.
+The clinical evidence is limited to a single case report of mixed-phenotype blast crisis treated with gemtuzumab ozogamicin plus blinatumomab (PMID 34764108). No trial has tested the drug in chronic-phase CML, where tyrosine kinase inhibitors are the standard of care.
 
 ---
 
@@ -67,11 +69,9 @@ This mechanistic plausibility is reinforced by real-world clinical use: gemtuzum
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00038831](https://clinicaltrials.gov/study/NCT00038831) | Phase 1/2 | Completed | 47 | Mylotarg combined with melphalan/fludarabine as reduced-intensity conditioning before allogeneic transplant in high-risk acute leukemia, CML, or MDS |
-| [NCT03589729](https://clinicaltrials.gov/study/NCT03589729) | Phase 2 | Recruiting | 100 | Dexrazoxane cardioprotection during chemotherapy regimens (including gemtuzumab ozogamicin) in AML, high-risk MDS, myeloid blast phase CML, and Ph+ AML |
-| [NCT00038805](https://clinicaltrials.gov/study/NCT00038805) | Phase 2/3 | Terminated (n=3) | 3 | Nonmyeloablative allogeneic transplant using Mylotarg-based conditioning in high-risk ALL, CML, or MDS |
+| [NCT03589729](https://clinicaltrials.gov/study/NCT03589729) | Phase 2 | Recruiting | 100 | Dexrazoxane cardioprotection during chemotherapy (including gemtuzumab ozogamicin) in AML, high-risk MDS and myeloid blast phase CML/MPN. It does not assess efficacy of gemtuzumab ozogamicin, so the link is indirect. |
 
-None of these trials is a dedicated randomised efficacy trial of gemtuzumab ozogamicin specifically for CML blast phase — all are transplant-conditioning or supportive-care studies that include CML-BP as one of several eligible diagnoses.
+No ANZCTR trial identifiers were identified in the data compiled for this report.
 
 ---
 
@@ -79,16 +79,26 @@ None of these trials is a dedicated randomised efficacy trial of gemtuzumab ozog
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35536916](https://pubmed.ncbi.nlm.nih.gov/35536916/) | 2022 | Systematic Review | Expert Review of Hematology | CML myeloid blast phase resembles AML clinically and histologically; management is drawn from AML strategies |
-| [22534616](https://pubmed.ncbi.nlm.nih.gov/22534616/) | 2012 | Cohort (n=107) | Clin Lymphoma Myeloma Leuk | Fludarabine + cytarabine ± gemtuzumab ozogamicin in relapsed/refractory AML, high-risk MDS, and CML blast phase; 26% complete remission rate overall |
-| [34764108](https://pubmed.ncbi.nlm.nih.gov/34764108/) | 2021 | Case Report | BMJ Case Reports | Gemtuzumab ozogamicin plus blinatumomab used in refractory mixed-phenotype CML blast crisis |
-| [21993666](https://pubmed.ncbi.nlm.nih.gov/21993666/) | 2012 | Mechanistic Study | Haematologica | CD34+/CD38- leukemic stem cells in CML express CD33 (Siglec-3) and respond to gemtuzumab ozogamicin in vitro |
-| [17353625](https://pubmed.ncbi.nlm.nih.gov/17353625/) | 2007 | Review | Gan to Kagaku Ryoho | Overview of hematological malignancy therapy including CD33-targeted gemtuzumab ozogamicin in AML |
-| [15454492](https://pubmed.ncbi.nlm.nih.gov/15454492/) | 2005 | Mechanistic Study | Blood | CD33 expression level and internalization kinetics determine gemtuzumab ozogamicin cytotoxicity |
-| [15487459](https://pubmed.ncbi.nlm.nih.gov/15487459/) | 2004 | Review | American Journal of Clinical Pathology | Overview of targeted cancer therapies including gemtuzumab ozogamicin and BCR-ABL–targeted imatinib in CML |
-| [15886328](https://pubmed.ncbi.nlm.nih.gov/15886328/) | 2005 | Clinical Trial | Blood | Dose-escalation safety/efficacy study of gemtuzumab ozogamicin in pediatric CD33+ AML |
-| [11895761](https://pubmed.ncbi.nlm.nih.gov/11895761/) | 2002 | Case Series (n=23) | Blood | Hepatic sinusoidal obstruction (veno-occlusive disease) following gemtuzumab ozogamicin in transplant patients |
-| [11466696](https://pubmed.ncbi.nlm.nih.gov/11466696/) | 2001 | Case Series | Cancer | Hepatic veno-occlusive disease associated with gemtuzumab ozogamicin even without prior stem cell transplant |
+| [34764108](https://pubmed.ncbi.nlm.nih.gov/34764108/) | 2021 | Case report | BMJ Case Reports | Refractory mixed-phenotype blast crisis in CML treated with gemtuzumab ozogamicin and blinatumomab |
+| [22534616](https://pubmed.ncbi.nlm.nih.gov/22534616/) | 2012 | Clinical study | Clin Lymphoma Myeloma Leuk | Twice-daily fludarabine and cytarabine, with or without gemtuzumab ozogamicin, in relapsed/refractory AML, high-risk MDS and blast-phase CML (107 patients; 21% complete remission) |
+| [21993666](https://pubmed.ncbi.nlm.nih.gov/21993666/) | 2012 | Laboratory | Haematologica | CML CD34+/CD38- stem cells express CD33 and respond to gemtuzumab ozogamicin |
+| [15454492](https://pubmed.ncbi.nlm.nih.gov/15454492/) | 2005 | Laboratory | Blood | CD33 expression level and internalisation influence gemtuzumab ozogamicin cytotoxicity |
+| [17353625](https://pubmed.ncbi.nlm.nih.gov/17353625/) | 2007 | Review | Gan To Kagaku Ryoho | Overview of haematological malignancy treatment, including gemtuzumab ozogamicin as a CD33-targeted immunoconjugate in AML |
+| [11895761](https://pubmed.ncbi.nlm.nih.gov/11895761/) | 2002 | Case series (safety) | Blood | Hepatic sinusoidal obstruction after gemtuzumab ozogamicin in 23 patients with relapsed AML after transplantation |
+| [11466696](https://pubmed.ncbi.nlm.nih.gov/11466696/) | 2001 | Case series (safety) | Cancer | Hepatic veno-occlusive disease with gemtuzumab ozogamicin in patients without prior stem cell transplantation |
+| [15886328](https://pubmed.ncbi.nlm.nih.gov/15886328/) | 2005 | Clinical study | Blood | Safety and efficacy in 29 children with advanced CD33+ AML |
+| [25721896](https://pubmed.ncbi.nlm.nih.gov/25721896/) | 2015 | Preclinical | Leukemia | CD33 CAR-T cells built on the gemtuzumab ozogamicin antibody fragment show potent anti-AML activity |
+| [20709669](https://pubmed.ncbi.nlm.nih.gov/20709669/) | 2010 | Case report | Clin Lymphoma Myeloma Leuk | FLAG-GO regimen in core-binding-factor AML and the effect of G-CSF on peripheral blasts |
+
+Several of these publications concern AML or safety rather than CML efficacy.
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12844B | Mylotarg | Powder for injection 5 mg | Not listed in the data compiled for this report |
 
 ---
 
@@ -96,32 +106,40 @@ None of these trials is a dedicated randomised efficacy trial of gemtuzumab ozog
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy — antibody-drug conjugate (anti-CD33 monoclonal antibody linked to the cytotoxic agent calicheamicin) |
-| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions — no myelosuppression-specific toxicity data available in this evidence pack |
+| Cytotoxicity Classification | Antibody-drug conjugate with a cytotoxic payload (calicheamicin, a DNA-damaging agent) |
+| Myelosuppression Risk | High (expected given the myeloid target and cytotoxic payload); please refer to the Product Information (PI) |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | Liver function tests are a priority — hepatic sinusoidal obstruction syndrome/veno-occlusive disease is a recurring toxicity signal in the literature (PMID 11466696, 11895761); full blood count given the CD33+ myeloid cell target |
-| Handling Protection | Cytotoxic drug handling precautions apply (antibody-drug conjugate with a cytotoxic payload) |
+| Monitoring Items | Full blood count, liver function (including bilirubin and transaminases), signs of hepatic veno-occlusive disease/sinusoidal obstruction syndrome |
+| Handling Protection | Follow local cytotoxic drug handling requirements |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No structured warnings, contraindications, or drug-interaction data were available in this evidence pack, and this is flagged as a **Blocking** data gap preventing formal safety pre-assessment.
+- **Hepatotoxicity**: Published case series report hepatic veno-occlusive disease/sinusoidal obstruction syndrome, including in patients who have not had a stem cell transplant. Around 20% of patients in one series had grade 3-4 hyperbilirubinaemia or raised transaminases (PMID 11466696, PMID 11895761).
+- **Drug Interactions**: 100 interactions were identified in the interaction database. Examples:
+  - **Major**: deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib
+  - **Moderate**: naltrexone, palifermin, strontium chloride Sr-89, roflumilast, chloramphenicol, zidovudine, alemtuzumab, azathioprine, asparaginase products, and some vaccines (e.g. tetanus toxoid, anthrax)
+  - **Minor**: levofloxacin
+
+  Many of the major and moderate interactions involve additive myelosuppression or immunosuppression. Review the full list before any use.
+
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (research question only)**
 
 **Rationale:**
-- Mechanistic plausibility and some real-world clinical use exist for gemtuzumab ozogamicin in CML blast phase (CD33 expression on CML leukemic stem cells, combination use in refractory blast crisis), but no trial has directly tested efficacy for this indication — all identified trials are transplant-conditioning or supportive-care studies, and no completed Phase 2/3 RCT exists.
-- A TGA-equivalent Product Information gap (warnings/contraindications) is a Blocking issue that prevents even an initial safety assessment, and the drug is not currently marketed in Australia (0 ARTG entries).
+CML is biologically plausible, as CML stem cells express CD33 and a blast-crisis case report exists. However, there are no trials of gemtuzumab ozogamicin in CML, and the only listed trial is not about efficacy. Evidence is limited to case-level and laboratory data (L4). The other top-ranked predictions (Richter syndrome, bulbar polio, malignant spiradenoma, 5q35 microduplication syndrome and the neuralgic amyotrophy entries) have no evidence and no plausible mechanism, and are likely model artefacts. "Metastatic neoplasm" is a nonspecific label whose Phase 3 evidence (NCT00052299, NCT00121303) supports AML only, not a new indication.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications, drug interactions)
-- Structured mechanism-of-action data from DrugBank to confirm the CD33/calicheamicin pathway formally
-- A dedicated efficacy study (ideally prospective) in CML blast-phase patients rather than reliance on mixed-diagnosis transplant/conditioning trials
+- Detailed mechanism of action data
+- CD33 expression profiling in blast-phase CML, and prospective data in this setting (a Phase 2 study in myeloid blast crisis would be a reasonable first step)
+- The approved indication text and safety sections from the TGA Product Information for Mylotarg (ARTG 12844B)
+- A hepatic toxicity (VOD/SOS) risk-management plan
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

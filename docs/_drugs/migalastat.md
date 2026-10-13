@@ -2,7 +2,7 @@
 layout: default
 title: Migalastat
 parent: Model Prediction Only (L5)
-nav_order: 447
+nav_order: 479
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,70 +33,65 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Migalastat is a pharmacological chaperone originally used to treat Fabry disease in patients with amenable *GLA* gene mutations. The TxGNN model predicts it may be effective for **Hepatoportal Sclerosis**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the identical prediction score shared across the top five ranked indications suggests the result may reflect a knowledge-graph clustering artefact rather than a genuine biological signal.
-
----
+Migalastat is an oral pharmacological chaperone, originally used to treat Fabry disease in patients with amenable GLA variants.
+The TxGNN model predicts it may be effective for **hepatoportal sclerosis**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on computational prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Fabry disease (patients with amenable *GLA* mutations) — sourced from the repurposing rationale text; no formal indication record was returned |
-| Predicted New Indication | Hepatoportal Sclerosis |
+| Original Indication | Fabry disease (the approved indication text is not available in the Australian registration data; the knowledge graph also lists chylomicron retention disease and lysosomal lipid storage disorder) |
+| Predicted New Indication | Hepatoportal sclerosis |
 | TxGNN Prediction Score | 98.85% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Formal mechanism-of-action data for migalastat is marked as a data gap in this evidence pack. However, the repurposing rationale indicates migalastat's known mechanism is as a pharmacological chaperone for α-galactosidase A (α-Gal A), used exclusively in Fabry disease patients with amenable *GLA* mutations, acting on the lysosomal glycosphingolipid metabolism pathway.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Migalastat is a pharmacological chaperone that stabilises amenable mutant alpha-galactosidase A, and its efficacy in Fabry disease is established. It is an alternative to enzyme replacement therapy for suitable patients.
 
-No mechanistic link between this pathway and hepatoportal sclerosis (a vascular/fibrotic liver pathology) has been identified. Notably, the top five ranked predictions for this drug (hepatoportal sclerosis, primitive portal vein thrombosis, hepatopulmonary syndrome, early-onset noncirrhotic portal hypertension, and idiopathic copper-associated cirrhosis) all share the exact same TxGNN score (0.98853...), which strongly suggests these predictions originate from a shared "rare liver disease" node cluster in the graph embedding rather than five independent biological signals. This pattern should be treated as a flag for low confidence, not as corroborating evidence.
+No mechanistic link to hepatoportal sclerosis (obliterative portal venopathy) has been established. Nothing in the available data connects alpha-galactosidase A chaperoning to the pathophysiology of this condition. The high TxGNN score most likely reflects graph proximity to liver-related nodes rather than a biological rationale, so it should be read as a hypothesis-generating signal only.
 
-Given the absence of a plausible mechanistic rationale and the artefact-like scoring pattern, this prediction should not be interpreted as pharmacologically grounded without further independent validation.
-
----
+The same score (98.85%) was given to several other hepatic vascular or liver conditions, including primitive portal vein thrombosis, hepatopulmonary syndrome, early-onset familial noncirrhotic portal hypertension and idiopathic copper-associated cirrhosis. This clustering suggests a graph-driven pattern rather than disease-specific insight. The other predictions (hepatic porphyria, mitochondrial oxidative phosphorylation disorder, disorder of tyrosine metabolism, teratogenic Pierre Robin syndrome and nodular regenerative hyperplasia of the liver) also have no supporting trials or literature, and no plausible mechanistic link.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
-Migalastat is not currently registered on the ARTG (Australian Register of Therapeutic Goods); no product entries are available.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14573B | Galafold | Capsule containing 150 mg migalastat hydrochloride (equivalent to 123 mg migalastat); oral | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions:**
+  - **Agalsidase beta** (moderate): the interaction is rated moderate in DDInter. Agalsidase beta is an enzyme replacement therapy for Fabry disease, so co-administration needs specialist review.
+  - **Alpha glucosidase (GAA)**: this is a pharmacological target association rather than a graded interaction. No severity level is available.
 
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications, as this information was not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence level is L5 (model prediction only, no clinical trials or literature), and the identical TxGNN scores across the top five predicted indications indicate a likely graph-clustering artefact rather than a genuine mechanistic signal. Mechanism-of-action and safety data are also incomplete, so this candidate does not meet the threshold to proceed.
+The prediction has no supporting clinical trials or literature (evidence level L5), and no plausible mechanistic link between migalastat's chaperone activity and hepatoportal sclerosis. The high TxGNN score alone is not sufficient to justify further investment.
 
 **To proceed, the following is needed:**
-- Confirmed original-indication and mechanism-of-action data for migalastat (from DrugBank/PI, not inferred text)
-- TFDA/TGA-approved Product Information for warnings, contraindications, and drug interactions
-- Independent mechanistic assessment of why an α-Gal A chaperone would affect hepatoportal sclerosis pathology, given the current lack of biological rationale
-- Investigation into whether the identical scores across ranks 1–5 reflect a TxGNN embedding artefact before further evidence collection is prioritised
+- Mechanism of action data (for example from DrugBank) to allow a proper mechanistic-link analysis
+- Warnings and contraindications from the TGA-approved Product Information, to allow safety screening
+- Preclinical or mechanistic evidence linking migalastat to the pathophysiology of hepatoportal sclerosis
+- A literature and trial registry search (including ANZCTR) to confirm that no relevant studies exist
+- Approved indication text for the ARTG entry, to confirm the current regulatory scope
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Venlafaxine
 parent: Model Prediction Only (L5)
-nav_order: 720
+nav_order: 775
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Venlafaxine: From Major Depressive Disorder to a Portfolio of Mood/Anxiety Spectrum Extensions
+# Venlafaxine: From Depressive and Anxiety Disorders to Dysthymic Disorder
 
 ## One-Sentence Summary
 
-> Venlafaxine (DB00285) is a serotonin–norepinephrine reuptake inhibitor (SNRI); its established core indication (referenced throughout this evidence pack's rationale fields) is **Major Depressive Disorder**. This evidence pack evaluates **10 TxGNN-predicted indications** as a portfolio: 4 candidates (dysthymic disorder, melancholia, neurotic depression, agoraphobia) are supported by **multiple RCTs and 10+ publications each** and are recommended **Proceed with Guardrails**, 1 candidate (OCD) is a **Research Question** supported by open-label/switch trials, and the remaining 5 highest-TxGNN-score candidates (Ohdo syndrome, ligneous conjunctivitis, blepharophimosis-ID Ohdo type, benign paroxysmal torticollis, childhood apraxia of speech) have **no supporting trials or literature** and are correctly flagged **Hold** as probable false positives.
-
-⚠️ **Note on ranking:** In this pack, TxGNN's raw prediction score does **not** track evidence quality — the four highest-scoring predictions (rank 1–4) are mechanistically implausible and evidence-free, while the best-supported candidates (dysthymia, melancholia, neurotic depression, OCD, agoraphobia) sit lower in TxGNN rank but have substantial clinical/literature backing. This report is organised by evidence strength, not raw TxGNN rank.
+Venlafaxine is a serotonin-noradrenaline reuptake inhibitor, originally used for depression (including major depressive disorder) and anxiety-related conditions such as social phobia.
+The TxGNN model ranks **Ohdo syndrome and variants** highest, but this prediction has no supporting evidence. The best-supported prediction is **Dysthymic Disorder**, with **4 clinical trials** and **20 publications** currently supporting this direction.
+Evidence for the top-ranked prediction is model-only (L5), so this report also reviews the better-supported candidates below it.
 
 ---
 
@@ -43,219 +43,168 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated as structured data in this pack (`original_indications` empty, `original_moa` = Data Gap). Repurposing-rationale text across all 10 candidates consistently identifies venlafaxine's established core indication as **Major Depressive Disorder** (SNRI class) |
-| Candidates Evaluated | 10 predicted indications (TxGNN rank 33,987–101,625) |
-| Best-Supported Candidate | Agoraphobia (with panic disorder) |
-| TxGNN Prediction Score (Agoraphobia) | 85.25% |
-| Evidence Level (best candidates) | L2 (dysthymia, melancholia, neurotic depression, agoraphobia); L3 (OCD) |
-| Evidence Level (worst candidates) | L5 (Ohdo syndrome, ligneous conjunctivitis, blepharophimosis-ID Ohdo type, benign paroxysmal torticollis, childhood apraxia) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | **Proceed with Guardrails** for 4 candidates · **Research Question** for 1 candidate · **Hold** for 5 candidates |
+| Original Indication | Not stated in the ARTG data compiled for this report. The knowledge graph lists unipolar depression, major depressive disorder, anxiety disorder and social phobia |
+| Predicted New Indication | Top TxGNN rank: Ohdo syndrome and variants (no evidence, Hold). Best-supported: Dysthymic disorder |
+| TxGNN Prediction Score | Ohdo syndrome and variants: 95.86%. Dysthymic disorder: 89.14% |
+| Evidence Level | Ohdo syndrome: L5. Dysthymic disorder: L2 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Ohdo syndrome: Hold. Dysthymic disorder: Proceed with Guardrails (research question) |
+
+**Overview of all ranked predictions**
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|------|
+| 1 | Ohdo syndrome and variants | 95.86% | L5 | Hold. No mechanistic link, likely a knowledge-graph artefact |
+| 2 | Ligneous conjunctivitis | 93.99% | L5 | Hold. Plasminogen deficiency, unrelated to monoamine reuptake |
+| 3 | Blepharophimosis-intellectual disability syndrome, Ohdo type | 93.79% | L5 | Hold. Same entity as rank 1 |
+| 4 | Benign paroxysmal torticollis of infancy | 89.73% | L5 | Hold. Speculative link, infant safety concerns |
+| 5 | Dysthymic disorder | 89.14% | L2 | Research question. Closest to an indication extension |
+| 6 | Melancholia | 88.81% | L2 | Research question. Subtype of an established indication |
+| 7 | Childhood apraxia of speech | 88.32% | L5 | Hold. No plausible mechanism |
+| 8 | Neurotic depression | 88.31% | L2 | Research question. Outdated term, overlaps depression and dysthymia |
+| 9 | Obsessive-compulsive disorder | 87.34% | L2 | Proceed with Guardrails |
+| 10 | Agoraphobia | 85.25% | L3 | Research question. Usually co-occurs with panic disorder |
 
 ---
 
-## Why Are These Predictions Reasonable?
+## Why is This Prediction Reasonable?
 
-Venlafaxine is described throughout this evidence pack's `repurposing_rationale` fields as an SNRI that inhibits reuptake of both serotonin and norepinephrine, producing an antidepressant/anxiolytic effect. The mechanistic logic for the 5 credible candidates below is that they all sit on the **depression/anxiety spectrum** venlafaxine already treats — these are not novel-mechanism repurposing hypotheses but **label-extension/sub-phenotype extensions** of its known pharmacology:
+Detailed mechanism of action data is not available in the data compiled for this report. Venlafaxine is generally known as a serotonin-noradrenaline reuptake inhibitor (SNRI). Its efficacy in depressive and anxiety disorders is established, and mechanistically it may be applicable to related conditions.
 
-- **Dysthymic disorder, melancholia, neurotic depression** — all are depressive-spectrum diagnoses (chronic mild depression, endogenous/melancholic MDD subtype, and an older nosological term for anxious-depressive states respectively). The rationale text explicitly states these are "同類適應症延伸" (same-class indication extensions), not cross-mechanism repurposing.
-- **Obsessive-compulsive disorder** — serotonergic reuptake inhibition is the established first-line OCD mechanism (SRIs); venlafaxine's noradrenergic component's contribution is described as "角色不明" (role unclear), so this is flagged as a plausible but unconfirmed hypothesis (Research Question, not yet Proceed).
-- **Agoraphobia (with panic disorder)** — venlafaxine ER modulates amygdala/limbic serotonergic and noradrenergic signalling to reduce panic frequency; this is described as an existing core-indication sub-type extension, consistent with venlafaxine ER's approved panic-disorder indication in several overseas markets.
+**Top-ranked predictions (ranks 1-4, 7).** There is no credible link for the highest-scoring predictions. Ohdo syndrome (KAT6B-related chromatin disorder), ligneous conjunctivitis (plasminogen deficiency) and childhood apraxia of speech (neurodevelopmental) are not addressed by monoamine reuptake inhibition. Benign paroxysmal torticollis of infancy has a weak, speculative link through migraine-spectrum biology, but paediatric use raises significant safety concerns. The high scores are most likely knowledge-graph artefacts.
 
-By contrast, the 5 highest-TxGNN-score candidates (Ohdo syndrome and variants, ligneous conjunctivitis, blepharophimosis-intellectual disability syndrome Ohdo type, benign paroxysmal torticollis of infancy, childhood apraxia of speech) are rare genetic/developmental/structural disorders with **no known relationship** to monoamine reuptake inhibition. The evidence pack's own rationale text labels these "疑似假陽性" (suspected false positives) and "無機轉合理性" (no mechanistic plausibility) — pure knowledge-graph artefacts with zero clinical trial or literature support.
+**Better-supported predictions.** The predictions with real support sit within the depression and anxiety spectrum:
+- **Dysthymic disorder** is a chronic depressive disorder on the same spectrum as the approved depression indications. This is closer to an indication extension than true repurposing.
+- **Melancholia** and **neurotic depression** are a severe subtype and an historical term, respectively, of depression. The evidence returned concerns general major depression rather than these specific labels.
+- **Obsessive-compulsive disorder** shares the serotonergic mechanism of first-line therapy (SSRIs/clomipramine). Evidence is mixed. A double-blind comparison with paroxetine found comparable efficacy, while other work is open-label or in treatment-resistant patients. Guideline-level reviews place venlafaxine as a second-line or augmentation option.
+- **Agoraphobia** usually occurs with panic disorder, for which SSRIs and SNRIs are established treatments. No agoraphobia-specific trials are registered.
 
 ---
 
-## Candidate 1: Dysthymic Disorder (Persistent Depressive Disorder)
+## Clinical Trial Evidence
 
-**TxGNN score:** 89.14% (rank 77,662) · **Evidence Level:** L2 · **Decision Stage:** S2 · **Recommendation:** Proceed with Guardrails
+The trials below are for the best-supported predictions. The four highest-ranked predictions (ranks 1 to 3, plus ranks 4 and 7) have no registered trials, nor does neurotic depression or agoraphobia.
 
-### Clinical Trial Evidence
+**Dysthymic disorder**
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00592384](https://clinicaltrials.gov/study/NCT00592384) | Phase 4 | Completed | 133 | Multi-site double-blind placebo-controlled RCT of venlafaxine XR in adults with spinal cord injury and MDD or dysthymia |
-| [NCT01852383](https://clinicaltrials.gov/study/NCT01852383) | Phase 4 | Completed | 30 | Open-label duloxetine (not venlafaxine) trial in elderly dysthymia — disease-relevant only |
-| [NCT00080158](https://clinicaltrials.gov/study/NCT00080158) | Phase 2/3 | Completed | 120 | TASA trial comparing treatments in depressed adolescent suicide attempters — low specificity to dysthymia |
-| [NCT04437485](https://clinicaltrials.gov/study/NCT04437485) | Phase 2 | Completed | 46 | Pilot RCT: collaborative depression care reducing diabetes risk in comorbid depression/prediabetes |
-| [NCT01658228](https://clinicaltrials.gov/study/NCT01658228) | Phase 4 | Completed | 86 | Pilot combination treatment trial in mild cognitive impairment with depression |
-| [NCT00584974](https://clinicaltrials.gov/study/NCT00584974) | Phase 2 | Completed | 523 | Double-blind placebo-controlled MDD trial (drug code SEP-225289, not confirmed venlafaxine) |
+| [NCT00592384](https://clinicaltrials.gov/study/NCT00592384) | Phase 4 | Completed | 133 | Placebo-controlled trial of venlafaxine XR for major depression or dysthymia after spinal cord injury. Directly tests venlafaxine but in a specific comorbid population |
+| [NCT00584974](https://clinicaltrials.gov/study/NCT00584974) | Phase 2 | Completed | 523 | Placebo-controlled study of SEP-225289 (a different compound) in major depressive disorder. Indirect relevance |
+| [NCT00080158](https://clinicaltrials.gov/study/NCT00080158) | Phase 2/3 | Completed | 120 | Treatments for depressed adolescents who attempted suicide. Not dysthymia-specific |
+| [NCT01658228](https://clinicaltrials.gov/study/NCT01658228) | Phase 4 | Completed | 86 | Pilot combination treatment in mild cognitive impairment with depression. Limited relevance |
 
-### Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [21527126](https://pubmed.ncbi.nlm.nih.gov/21527126/) | 2011 | Meta-analysis (Tier 1) | J Clin Psychiatry | Meta-analysis of placebo-controlled RCTs confirming antidepressant efficacy in dysthymia |
-| [25607727](https://pubmed.ncbi.nlm.nih.gov/25607727/) | 2015 | RCT | JAMA Psychiatry | Placebo-controlled RCT of venlafaxine XR for depression (incl. dysthymia) following spinal cord injury |
-| [10836286](https://pubmed.ncbi.nlm.nih.gov/10836286/) | 2000 | RCT (Tier 2) | Int Clin Psychopharmacol | 24-week double-blind RCT: venlafaxine vs paroxetine in depressive disorder/dysthymia |
-| [9846033](https://pubmed.ncbi.nlm.nih.gov/9846033/) | 1998 | Open-label pilot | J Psychiatry Neurosci | First efficacy/tolerability data for venlafaxine in primary dysthymia without concurrent MDD |
-| [10665631](https://pubmed.ncbi.nlm.nih.gov/10665631/) | 1999 | Open-label | J Clin Psychiatry | Open-label study supporting venlafaxine tolerability/effectiveness in dysthymia |
-| [9448655](https://pubmed.ncbi.nlm.nih.gov/9448655/) | 1997 | Open-label (Tier 2) | J Clin Psychiatry | Earliest report of venlafaxine in dysthymic disorder |
-| [15533993](https://pubmed.ncbi.nlm.nih.gov/15533993/) | 2004 | Open-label, elderly (Tier 2) | J Geriatr Psychiatry Neurol | 60.9% response, 47.8% remission in elderly dysthymia (12-week flexible dose up to 300mg/d) |
-| [12422062](https://pubmed.ncbi.nlm.nih.gov/12422062/) | 2002 | Open-label | Neuropsychobiology | SR-venlafaxine effective in GAD with comorbid MD or dysthymia |
-| [11098413](https://pubmed.ncbi.nlm.nih.gov/11098413/) | 2000 | Review | Depress Anxiety | Notes venlafaxine "may also be effective" in dysthymia and bipolar II depression, though data more limited than for MDD |
-| [10086481](https://pubmed.ncbi.nlm.nih.gov/10086481/) | 1999 | Review | J Clin Psychiatry | SSRIs/SNRIs broad-spectrum efficacy including dysthymia |
-
----
-
-## Candidate 2: Melancholia
-
-**TxGNN score:** 88.81% (rank 79,700) · **Evidence Level:** L2 · **Decision Stage:** S2 · **Recommendation:** Proceed with Guardrails
-
-### Clinical Trial Evidence
+**Melancholia**
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01916824](https://clinicaltrials.gov/study/NCT01916824) | Phase 4 | Completed | 53 | Effects of treatment (untreated MDD, incl. melancholic features) on decision-making — mechanistic, not melancholia-specific |
+| [NCT01916824](https://clinicaltrials.gov/study/NCT01916824) | Phase 4 | Completed | 53 | Treatment effects on decision-making in major depression. Cognitive rather than efficacy endpoints |
 
-### Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10757255](https://pubmed.ncbi.nlm.nih.gov/10757255/) | 2000 | Double-blind RCT (Tier 1) | J Psychopharmacol | Venlafaxine vs amitriptyline in outpatients with/without melancholia, 8-week multicentre RCT |
-| [10836283](https://pubmed.ncbi.nlm.nih.gov/10836283/) | 2000 | RCT | Int Clin Psychopharmacol | Higher remission rates with venlafaxine vs fluoxetine in hospitalized MDD with melancholia |
-| [7559370](https://pubmed.ncbi.nlm.nih.gov/7559370/) | 1995 | Comparative cohort (Tier 2) | J Clin Psychiatry | Venlafaxine effective and safe in hospitalized patients with major depression and melancholia vs placebo |
-| [39440379](https://pubmed.ncbi.nlm.nih.gov/39440379/) | 2024 | Systematic review + TSA (Tier 2) | Epidemiol Psychiatr Sci | Adverse event risks with venlafaxine in adult MDD, systematic review with meta-analysis |
-| [35947166](https://pubmed.ncbi.nlm.nih.gov/35947166/) | 2022 | Review (Tier 3) | Psychopharmacology | Psychopharmacological properties and therapeutic profile of venlafaxine |
-| [11098415](https://pubmed.ncbi.nlm.nih.gov/11098415/) | 2000 | Review | Depress Anxiety | Venlafaxine and treatment-resistant depression |
-| [38685594](https://pubmed.ncbi.nlm.nih.gov/38685594/) | 2024 | Post-hoc pooled analysis | CNS Spectrums | Venlafaxine XR effect on anhedonia/amotivation in MDD |
-| [23953038](https://pubmed.ncbi.nlm.nih.gov/23953038/) | 2014 | Meta-regression | Int J Neuropsychopharmacol | Specificity profile of venlafaxine vs sertraline in major depression |
-| [34958348](https://pubmed.ncbi.nlm.nih.gov/34958348/) | 2022 | Pharmacological study | Int J Neuropsychopharmacol | Differential potency of venlafaxine, paroxetine, atomoxetine on serotonin/norepinephrine reuptake |
-| [24964257](https://pubmed.ncbi.nlm.nih.gov/24964257/) | 2015 | Review | Drug Metab Pers Ther | Clinical drug-drug interaction profile of venlafaxine |
-
----
-
-## Candidate 3: Neurotic Depression
-
-**TxGNN score:** 88.31% (rank 82,790) · **Evidence Level:** L2 · **Decision Stage:** S2 · **Recommendation:** Proceed with Guardrails
-
-### Clinical Trial Evidence
+**Obsessive-compulsive disorder**
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04446039](https://clinicaltrials.gov/study/NCT04446039) | N/A | Completed | 370,212 | Large real-world retrospective claims-database cohort comparing antidepressants (incl. venlafaxine) for utilization patterns and adverse outcomes |
+| [NCT04539951](https://clinicaltrials.gov/study/NCT04539951) | Phase 2 | Recruiting | 1600 | Pragmatic trial of switching or augmentation strategies after unsatisfactory initial OCD treatment. May provide direct comparative evidence when complete |
+| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | Phase 3 | Completed | 124 | Cognitive behavioural therapy added to SRI treatment in paediatric OCD. Does not test venlafaxine directly |
+| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | N/A | Unknown | 8800 | Individual patient data meta-analysis of antidepressant efficacy in anxiety disorders. Indirect relevance |
 
-### Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [23953038](https://pubmed.ncbi.nlm.nih.gov/23953038/) | 2014 | Meta-regression (Tier 1) | Int J Neuropsychopharmacol | Double-blind RCTs comparing venlafaxine and sertraline in major depression |
-| [12135535](https://pubmed.ncbi.nlm.nih.gov/12135535/) | 2002 | Double-blind RCT | Int J Neuropsychopharmacol | Venlafaxine vs fluoxetine in depression with concomitant anxiety (N=146) |
-| [8071246](https://pubmed.ncbi.nlm.nih.gov/8071246/) | 1994 | RCT | J Clin Psychiatry | Venlafaxine vs imipramine in acute treatment of major depression, outpatients |
-| [9133767](https://pubmed.ncbi.nlm.nih.gov/9133767/) | 1997 | Double-blind placebo-controlled RCT | Psychopharmacol Bull | Venlafaxine in children/adolescents (age 8–17) with major depression |
-| [40801757](https://pubmed.ncbi.nlm.nih.gov/40801757/) | 2025 | Effectiveness trial | J Clin Psychiatry | ASCERTAIN-TRD: augmentation vs switching to venlafaxine XR/duloxetine in treatment-resistant depression |
-| [17272528](https://pubmed.ncbi.nlm.nih.gov/17272528/) | 2007 | Review (Tier 3) | BMJ | Editorial review: venlafaxine for major depression |
-| [12492770](https://pubmed.ncbi.nlm.nih.gov/12492770/) | 2002 | Literature review (Tier 3) | Acta Psychiatr Scand Suppl | Achieving remission with venlafaxine vs SSRIs |
-| [25257248](https://pubmed.ncbi.nlm.nih.gov/25257248/) | 2015 | PK cohort study (Tier 2) | J Neural Transm | Steady-state venlafaxine serum concentrations in late-life depression by age/sex/BMI |
-| [11983797](https://pubmed.ncbi.nlm.nih.gov/11983797/) | 2002 | Case series | J Neuropsychiatry Clin Neurosci | Venlafaxine-ECT combination in treatment-resistant depression |
-| [26005260](https://pubmed.ncbi.nlm.nih.gov/26005260/) | 2015 | Comparative study | Med Arch | Tolerance comparison of venlafaxine, paroxetine, and amitriptyline |
+No ANZCTR identifiers were found in the data compiled for this report.
 
 ---
 
-## Candidate 4: Obsessive-Compulsive Disorder (OCD)
+## Literature Evidence
 
-**TxGNN score:** 87.34% (rank 88,617) · **Evidence Level:** L3 · **Decision Stage:** S1 · **Recommendation:** Research Question
-
-### Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04539951](https://clinicaltrials.gov/study/NCT04539951) | Phase 2 | Recruiting | 1,600 | Pragmatic trial of switching/augmentation strategies after unsatisfactory initial OCD treatment |
-| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | Phase 3 | Completed | 124 | CBT + SRI augmentation in paediatric OCD partial responders |
-| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | N/A | Unknown | 8,800 | Individual patient data meta-analysis of antidepressant efficacy in anxiety disorders incl. OCD |
-| [NCT00211809](https://clinicaltrials.gov/study/NCT00211809) | Phase 4 | Terminated | 17 | CBT as adjunct to SRI pharmacotherapy in body dysmorphic disorder |
-| [NCT04708834](https://clinicaltrials.gov/study/NCT04708834) | Phase 3 | Terminated | 772 | Long-term safety of adjunctive troriluzole in OCD (not venlafaxine) |
-| [NCT03299166](https://clinicaltrials.gov/study/NCT03299166) | Phase 2/3 | Completed | 426 | Adjunctive troriluzole RCT in OCD patients with inadequate response to SSRI/clomipramine/**venlafaxine**/desvenlafaxine |
-| [NCT06659094](https://clinicaltrials.gov/study/NCT06659094) | N/A | Completed | 95 | Stepped-care internet CBT for OCD — no pharmacotherapy arm |
-| [NCT01944657](https://clinicaltrials.gov/study/NCT01944657) | N/A | Withdrawn | 0 | Withdrawn, 0 enrolled |
-
-### Literature Evidence
+**Dysthymic disorder**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [14624187](https://pubmed.ncbi.nlm.nih.gov/14624187/) | 2003 | Double-blind RCT | J Clin Psychopharmacol | First randomized double-blind SNRI comparison: venlafaxine vs paroxetine in OCD (N=150) |
-| [12444814](https://pubmed.ncbi.nlm.nih.gov/12444814/) | 2002 | Single-blind controlled study | J Clin Psychiatry | 12-week venlafaxine vs clomipramine in OCD |
-| [14744166](https://pubmed.ncbi.nlm.nih.gov/14744166/) | 2004 | Double-blind switch study | J Clin Psychiatry | First controlled switch study of paroxetine to venlafaxine in OCD |
-| [12755657](https://pubmed.ncbi.nlm.nih.gov/12755657/) | 2003 | Open-label (Tier 2) | J Clin Psychiatry | Venlafaxine effective in treatment-resistant OCD, incl. SSRI non-responders |
-| [30516575](https://pubmed.ncbi.nlm.nih.gov/30516575/) | 2019 | Real-world cohort | J Clin Psychopharmacol | Real-world effectiveness of venlafaxine in SSRI-resistant OCD (India specialty clinic) |
-| [35900217](https://pubmed.ncbi.nlm.nih.gov/35900217/) | 2023 | Clinical guideline (Tier 2) | World J Biol Psychiatry | WFSBP guideline for pharmacological treatment of OCD and PTSD |
-| [29278206](https://pubmed.ncbi.nlm.nih.gov/29278206/) | 2018 | Systematic review (Tier 2) | Curr Med Chem | Evidence-based strategies for treatment-resistant OCD |
-| [15585743](https://pubmed.ncbi.nlm.nih.gov/15585743/) | 2005 | Review (Tier 3) | Ann Pharmacother | Evaluation of published literature on venlafaxine in OCD |
-| [25093787](https://pubmed.ncbi.nlm.nih.gov/25093787/) | 2014 | Case series (Tier 3) | J Neuropsychiatry Clin Neurosci | Venlafaxine in treatment-resistant OCD |
-| [8599411](https://pubmed.ncbi.nlm.nih.gov/8599411/) | 1996 | Early case report | Am J Psychiatry | Treatment of OCD with venlafaxine |
+| [21527126](https://pubmed.ncbi.nlm.nih.gov/21527126/) | 2011 | Meta-analysis | J Clin Psychiatry | Antidepressant efficacy in dysthymia from placebo-controlled RCTs (class-level, not venlafaxine-specific) |
+| [25607727](https://pubmed.ncbi.nlm.nih.gov/25607727/) | 2015 | RCT | JAMA Psychiatry | Venlafaxine extended-release for depression after spinal cord injury |
+| [10836286](https://pubmed.ncbi.nlm.nih.gov/10836286/) | 2000 | Randomised trial | Int Clin Psychopharmacol | 24-week double-blind comparison of venlafaxine and paroxetine in major depression or dysthymia |
+| [9448655](https://pubmed.ncbi.nlm.nih.gov/9448655/) | 1997 | Clinical study | J Clin Psychiatry | Venlafaxine in dysthymic disorder |
+| [15533993](https://pubmed.ncbi.nlm.nih.gov/15533993/) | 2004 | Open-label trial | J Geriatr Psychiatry Neurol | Elderly dysthymia: 60.9% responders (intent-to-treat), 47.8% remission |
+| [11098413](https://pubmed.ncbi.nlm.nih.gov/11098413/) | 2000 | Review | Depress Anxiety | Venlafaxine may be effective in dysthymia, with more limited data than in major depression |
 
-**Caveat:** Clinical guidelines consistently position venlafaxine as a **second-line/alternative** OCD agent, not first-line. Evidence base is dominated by small open-label and treatment-resistant case series rather than large confirmatory RCTs — hence "Research Question" rather than "Proceed."
-
----
-
-## Candidate 5: Agoraphobia (with Panic Disorder)
-
-**TxGNN score:** 85.25% (rank 101,625) · **Evidence Level:** L2 · **Decision Stage:** S3 (most advanced) · **Recommendation:** Proceed with Guardrails
-
-### Clinical Trial Evidence
-
-Currently no clinical trials directly registered against this indication in the evidence pack (supporting RCT evidence is captured in literature below).
-
-### Literature Evidence
+**Neurotic depression**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/) | 2023 | Cochrane network meta-analysis (Tier 1) | Cochrane Database Syst Rev | Network meta-analysis of pharmacological treatments for panic disorder |
-| [16894619](https://pubmed.ncbi.nlm.nih.gov/16894619/) | 2007 | Double-blind RCT | Depress Anxiety | Venlafaxine ER vs paroxetine vs placebo in panic disorder with/without agoraphobia (N=664) |
-| [17589833](https://pubmed.ncbi.nlm.nih.gov/17589833/) | 2007 | RCT (Tier 1) | Psychopharmacology | Venlafaxine ER vs paroxetine in outpatients with panic disorder |
-| [40946318](https://pubmed.ncbi.nlm.nih.gov/40946318/) | 2025 | Integrative systematic review (Tier 2) | Psychother Psychosom | Pharmacological, psychotherapeutic and neurostimulatory options in treatment-resistant anxiety disorders |
-| [17696574](https://pubmed.ncbi.nlm.nih.gov/17696574/) | 2007 | Review (Tier 3) | CNS Drugs | Diagnosis and treatment of agoraphobia with panic disorder |
-| [9641002](https://pubmed.ncbi.nlm.nih.gov/9641002/) | 1998 | Open-label trial | Psychopharmacol Bull | Low-dose venlafaxine in panic disorder with/without agoraphobia |
-| [18330461](https://pubmed.ncbi.nlm.nih.gov/18330461/) | 2008 | Commentary/review | J Psychiatry Neurosci | Combined antidepressants and CBT for panic disorder with agoraphobia |
-| [15448584](https://pubmed.ncbi.nlm.nih.gov/15448584/) | 2004 | Review | CNS Spectrums | Treatment-resistant panic disorder and agoraphobia |
-| [36573969](https://pubmed.ncbi.nlm.nih.gov/36573969/) | 2022 | Review | JAMA | Anxiety disorders overview, including panic disorder/agoraphobia treatment |
-| [16765030](https://pubmed.ncbi.nlm.nih.gov/16765030/) | 2006 | Review | Eur Neuropsychopharmacol | Notes venlafaxine efficacy comparable to benzodiazepines in anxiety spectrum |
+| [19165525](https://pubmed.ncbi.nlm.nih.gov/19165525/) | 2009 | Meta-analysis | Eur Arch Psychiatry Clin Neurosci | Venlafaxine versus other antidepressants and placebo in major depression |
+| [23953038](https://pubmed.ncbi.nlm.nih.gov/23953038/) | 2014 | Meta-regression | Int J Neuropsychopharmacol | Moderators of response to venlafaxine and sertraline in major depression |
+| [40633778](https://pubmed.ncbi.nlm.nih.gov/40633778/) | 2025 | RCT | J Affect Disord | Cognitive effects of augmentation versus switching to venlafaxine XR/duloxetine in treatment-resistant depression |
 
-**Note:** Venlafaxine ER holds approved panic-disorder-with-agoraphobia indications in several overseas jurisdictions; this candidate represents the most mature (S3) and best-precedented of the portfolio, despite carrying a mid-tier TxGNN score.
+**Melancholia**
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [7559370](https://pubmed.ncbi.nlm.nih.gov/7559370/) | 1995 | Placebo-controlled study | J Clin Psychiatry | Venlafaxine versus placebo in hospitalised patients with major depression and melancholia |
 
-## Candidates Recommended for Hold (No Supporting Evidence)
+**Obsessive-compulsive disorder**
 
-The following 5 candidates have **zero clinical trials and zero literature** in this evidence pack, despite the highest raw TxGNN scores. Each is flagged internally as mechanistically implausible:
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [14624187](https://pubmed.ncbi.nlm.nih.gov/14624187/) | 2003 | RCT | J Clin Psychopharmacol | Double-blind venlafaxine versus paroxetine in OCD (150 patients) |
+| [14744166](https://pubmed.ncbi.nlm.nih.gov/14744166/) | 2004 | RCT | J Clin Psychiatry | Double-blind switch study of paroxetine and venlafaxine in OCD |
+| [35900217](https://pubmed.ncbi.nlm.nih.gov/35900217/) | 2023 | Guideline | World J Biol Psychiatry | WFSBP guidelines for OCD and PTSD |
+| [29278206](https://pubmed.ncbi.nlm.nih.gov/29278206/) | 2018 | Systematic review | Curr Med Chem | Strategies for OCD resistant to first-line pharmacotherapy |
+| [12755657](https://pubmed.ncbi.nlm.nih.gov/12755657/) | 2003 | Open-label study | J Clin Psychiatry | Venlafaxine in treatment-resistant OCD |
+| [15585743](https://pubmed.ncbi.nlm.nih.gov/15585743/) | 2005 | Review | Ann Pharmacother | Published literature on venlafaxine in OCD |
 
-| Disease | TxGNN Score | Rationale Summary |
-|---------|------|------|
-| Ohdo syndrome and variants | 95.86% | Chromatin-regulatory gene (KAT6B/BRPF1) developmental disorder — no known relation to SNRI mechanism; suspected false positive |
-| Ligneous conjunctivitis | 93.99% | Plasminogen-deficiency fibrin deposition disorder — unrelated to monoamine reuptake |
-| Blepharophimosis-intellectual disability syndrome, Ohdo type | 93.79% | Same chromatin-disorder family as above; no monoamine-system relevance |
-| Benign paroxysmal torticollis of infancy | 89.73% | Theoretical migraine-precursor link possible, but no clinical/literature support and SNRI safety in infants is unestablished — risk/evidence ratio is poor |
-| Childhood apraxia of speech | 88.32% | Neurodevelopmental motor-planning disorder — no mechanistic link; paediatric SNRI safety concerns unaddressed |
+**Agoraphobia**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/) | 2023 | Network meta-analysis | Cochrane Database Syst Rev | Pharmacological treatments in panic disorder (not venlafaxine-specific) |
+| [16894619](https://pubmed.ncbi.nlm.nih.gov/16894619/) | 2007 | Double-blind RCT | Depress Anxiety | Venlafaxine ER, paroxetine and placebo in panic disorder (664 patients) |
+| [19358784](https://pubmed.ncbi.nlm.nih.gov/19358784/) | 2009 | Double-blind RCT | J Clin Psychiatry | Venlafaxine ER in adult outpatients with panic disorder |
+| [17696574](https://pubmed.ncbi.nlm.nih.gov/17696574/) | 2007 | Review | CNS Drugs | Diagnosis and treatment of agoraphobia with panic disorder |
+
+Currently no related literature is available for ranks 1 to 4 and 7 (Ohdo syndrome and variants, ligneous conjunctivitis, benign paroxysmal torticollis of infancy, childhood apraxia of speech).
 
 ---
 
 ## Australia Market Information
 
-No ARTG entries are recorded for this product in the evidence pack (`total_licenses = 0`, `market_status = Not marketed`). No dosage-form or route data is available.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14402B | Efexor-XR | Capsule (modified release) 150 mg (as hydrochloride) | Not stated in the data compiled for this report |
+
+Only one ARTG entry (single-ingredient, valid, oral) was found.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. This evidence pack contains no structured key warnings, contraindications, or drug-drug interaction data (DDI query status: not found).
+**Contraindication-related conditions (from the knowledge graph, not label text).** The knowledge graph links venlafaxine to the following conditions as contraindications. These should be checked against the TGA-approved Product Information:
+- Cardiovascular: hypertension, long QT syndrome, cardiovascular and heart disease, cerebrovascular disorder
+- Hepatic and renal: liver failure, liver disease, cirrhosis, gallbladder disease, impaired renal function
+- Neurological and psychiatric: epilepsy, bipolar disorder and major affective disorder, substance-related disorder and drug dependence, neuroleptic malignant syndrome
+- Other: angle-closure glaucoma and ocular hypertension, blood coagulation disease, hypertriglyceridaemia, hyperthyroidism (including Graves disease), inappropriate ADH syndrome, interstitial lung disease
+
+**Drug Interactions.** 100 interactions were identified. Major-level examples in the compiled data are bupropion, lorcaserin, diethylpropion, dolasetron, palonosetron and phentermine. Moderate-level examples include aspirin, morphine, epinephrine, clarithromycin, aprepitant and famotidine.
+
+**Literature-reported safety signals.** Withdrawal and discontinuation syndrome, cardiovascular toxicity, hyponatraemia, mania, delirium, ecchymosis and bleeding events. Use in children and adolescents carries a suicidality warning.
+
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications, as label text was not available.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (for dysthymic disorder, melancholia, neurotic depression, agoraphobia) · **Research Question** (OCD) · **Hold** (Ohdo syndrome and variants, ligneous conjunctivitis, blepharophimosis-ID Ohdo type, benign paroxysmal torticollis, childhood apraxia of speech)
+**Decision: Hold for ranks 1 to 4 and 7. Proceed with Guardrails for OCD. Research Question for dysthymic disorder, melancholia, neurotic depression and agoraphobia.**
 
 **Rationale:**
-- Four candidates sit on venlafaxine's already-established depression/anxiety pharmacology and are backed by multiple RCTs, comparative trials, and 10+ publications each — reasonable to progress with standard psychiatric-drug guardrails.
-- OCD has a real but second-line evidence base (small open-label/switch trials; guidelines position it as an alternative, not first-line) — warrants a defined research question rather than immediate progression.
-- The five highest-TxGNN-score candidates are unsupported knowledge-graph artefacts with no plausible mechanism and should not consume further evaluation resources.
+- The highest-scoring predictions (Ohdo syndrome, ligneous conjunctivitis, childhood apraxia of speech) have no mechanistic link or evidence and should not be pursued.
+- Dysthymic disorder, melancholia and neurotic depression sit within the depression spectrum already served by venlafaxine, so they are indication extensions rather than novel repurposing. Dysthymia has the strongest direct evidence (L2), though it comes mainly from open-label and class-level studies.
+- OCD has double-blind comparative data, but the only Phase 3 trial listed is a paediatric trial that does not test venlafaxine, so L1 is not supported.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (PI) for formal warnings, contraindications, and DDI data (currently all Data Gap)
-- Confirmed drug-level MOA data from DrugBank (currently Data Gap; MOA description above is reconstructed from rationale text, not a primary source)
-- Australian regulatory pathway assessment given zero current ARTG entries (product is not currently marketed in Australia)
-- For OCD: a defined comparative RCT (venlafaxine vs standard SRI) before advancing beyond Research Question stage
+- Mechanism of action data and TGA Product Information warnings and contraindications (both are data gaps)
+- The approved indication text for ARTG 14402B, to confirm which conditions are already covered
+- Venlafaxine-specific placebo-controlled RCTs in dysthymia
+- Results of NCT04539951 for OCD
+- A cardiovascular, hepatic and interaction monitoring plan, given the safety signals above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

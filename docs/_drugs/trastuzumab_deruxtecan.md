@@ -2,7 +2,7 @@
 layout: default
 title: Trastuzumab Deruxtecan
 parent: Model Prediction Only (L5)
-nav_order: 697
+nav_order: 749
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,35 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using no additional skill — this is a direct content-generation task fully specified by the report template already provided in context, so I'll produce the report directly from the evidence pack.
-
----
-
-# Trastuzumab Deruxtecan: Original Indication Not Recorded → Predicted Link to Drug-Induced Osteoporosis
+# Trastuzumab deruxtecan: From Its Original Oncology Use to Drug-Induced Osteoporosis
 
 ## One-Sentence Summary
 
-The evidence pack does not record Trastuzumab deruxtecan's original approved indication (data gap), so no baseline comparison indication is available for this drug. The TxGNN model predicts a possible link to **Drug-Induced Osteoporosis**, but this is supported by **zero clinical trials** and **zero publications**, and the evidence pack's own mechanistic review explicitly finds no biological rationale for the link.
+Trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate marketed in Australia as Enhertu, and the data compiled for this report do not list an approved indication text for it.
+The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+This is a model-only prediction (Evidence Level L5) with no identified mechanistic rationale, so it should not be pursued on current evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the evidence pack (original_indications empty; MOA marked as data gap) |
-| Predicted New Indication | Drug-Induced Osteoporosis |
+| Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
+| Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for trastuzumab deruxtecan is not available in this evidence pack (data gap). However, the evidence pack's mechanistic rationale identifies it as an antibody-drug conjugate (ADC) combining a HER2-targeted antibody with a topoisomerase I inhibitor payload (DXd), consistent with its known class as an oncology ADC.
+Currently, detailed mechanism of action data is not available in the compiled data. Trastuzumab deruxtecan is generally characterised as a HER2-directed antibody-drug conjugate carrying a topoisomerase I inhibitor payload, designed to kill HER2-expressing tumour cells.
 
-The predicted indication — drug-induced osteoporosis — relates to bone remodelling pathways (RANKL/OPG signalling, osteoclast activity). The evidence pack explicitly states there is no known intersection between the HER2/topoisomerase I cytotoxic mechanism and bone metabolism regulation. No supporting clinical trials or literature were identified for this pairing, and the reviewer's own assessment describes this as "a high TxGNN score without mechanistic grounding."
+On this basis, the prediction is **not mechanistically reasonable**. The drug has no known role in bone metabolism, and osteoporosis is not a HER2-driven or oncologic condition. The high TxGNN score (99.31%) reflects graph-based similarity only and is not backed by any trial or publication.
 
-It is also worth noting that across this drug's full top-10 predicted indication list, several entries (severe nonproliferative diabetic retinopathy, diabetic retinopathy, diabetic cataract, bronchitis) are flagged in the evidence pack as running in the **opposite direction** to therapeutic benefit — i.e., these are areas where the drug is associated with known adverse effects (ocular toxicity, interstitial lung disease/pneumonitis) rather than potential efficacy. This pattern suggests the current prediction set for this drug should be treated with caution rather than as a genuine repurposing signal.
+The other top-ranked predictions show the same pattern: diabetic retinopathy (severe nonproliferative and general), bronchitis, diabetic cataract and several tumour or lesion labels. None has trial or literature support, and none has a plausible mechanistic link. For bronchitis, interstitial lung disease/pneumonitis is a known key risk of this drug, which makes a respiratory indication particularly unattractive.
 
 ## Clinical Trial Evidence
 
@@ -65,43 +63,55 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for drug-induced osteoporosis.
 
 ## Australia Market Information
 
-This drug currently has no ARTG (Australian Register of Therapeutic Goods) entries recorded in this evidence pack (`total_licenses = 0`, market status: Not marketed). No product listing information is available for extraction.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13713R | Enhertu | Powder for I.V. infusion 100 mg | Not stated in the data compiled for this report |
 
 ## Cytotoxicity
 
-Trastuzumab deruxtecan is an antineoplastic antibody-drug conjugate (ADC) with a cytotoxic payload, so this section applies.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy — HER2-directed antibody-drug conjugate incorporating a topoisomerase I inhibitor payload (DXd) |
-| Myelosuppression Risk | Not detailed in the evidence pack; please refer to the Product Information (PI) for haematological toxicity data |
-| Emetogenicity Classification | Not detailed in the evidence pack; please refer to the PI |
-| Monitoring Items | Based on class risks flagged within the evidence pack's rationale text: pulmonary function/chest imaging (interstitial lung disease is a recognised boxed-warning risk for this ADC class), ophthalmic review (ocular/corneal toxicity noted in evidence rationale), renal function (a case report within the evidence pack describes deruxtecan-induced Fanconi syndrome), FBC, LFT |
-| Handling Protection | As a cytotoxic antibody-drug conjugate, standard cytotoxic drug handling precautions apply |
+| Cytotoxicity Classification | Antibody-drug conjugate with a cytotoxic topoisomerase I inhibitor payload (targeted therapy) |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the PI. Haematological parameters (FBC), liver and renal function, and respiratory status are reasonable considerations given the drug's known risks |
+| Handling Protection | Handle as a cytotoxic agent per local cytotoxic drug handling requirements; confirm against the PI |
 
 ## Safety Considerations
 
-Formal safety data (key warnings, contraindications, drug interactions) were not available in this evidence pack — this is recorded as a Blocking data gap (DG001: TFDA/TGA Product Information not yet obtained). Please refer to the TGA-approved Product Information (PI) for complete and authoritative safety information.
+Please refer to the TGA-approved Product Information (PI) for key warnings and contraindications, as these were not available in the data compiled for this report.
 
-Note: within the mechanistic rationale text (not the formal safety fields), several known class-level risks for this ADC were referenced — interstitial lung disease/pneumonitis, ocular toxicity, and a reported case of deruxtecan-induced Fanconi syndrome. These have not been formally verified against the PI in this pack and should not be relied upon in place of the official document.
+**Drug Interactions:** 42 interactions were identified in total. Examples of those rated **Major** include:
+- Deferiprone
+- Samarium (153Sm) lexidronam
+- Adalimumab
+- Baricitinib
+- Certolizumab pegol
+- Cladribine
+- Leflunomide
+- Natalizumab
+
+Examples rated **Moderate** include palifermin, strontium chloride Sr-89, roflumilast, chloramphenicol, alefacept, alemtuzumab, anakinra, azathioprine, canakinumab, dimethyl fumarate and niraparib. Many of these are immunosuppressive or myelosuppressive agents, so additive effects are a concern.
+
+Published case reports, which are not specific to the predicted indication, describe reversible Fanconi syndrome, interstitial lung disease, and a possible association with dermatomyositis during treatment with this drug.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is a pure model-generated prediction (L5, decision stage S0) with zero supporting clinical trials or literature, and the evidence pack's own mechanistic review finds no plausible biological link between the drug's HER2/topoisomerase I ADC mechanism and drug-induced osteoporosis. Several other top-ranked predictions for this drug are flagged as running in the opposite direction to therapeutic benefit, reinforcing that this candidate set should not proceed without independent verification.
+The prediction rests only on a graph-based score, with no clinical trials, no literature and no plausible mechanistic link between a cytotoxic HER2-directed ADC and bone metabolism. Systemic cytotoxic exposure would also bring substantial safety risks in a non-oncologic condition.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications, drug interactions) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action from DrugBank — currently a High-severity data gap (DG002)
-- Confirmation of original approved indication(s) and ARTG registration status for this drug in Australia
-- Any preclinical or mechanistic literature specifically linking HER2/topoisomerase I inhibition to bone metabolism, should repurposing interest continue
-- Given the pattern across all 10 ranked predictions (all L5/Hold, several with contradictory safety signals), recommend deprioritising this candidate pending a materially stronger signal
+- A mechanistic rationale linking the drug or its payload to bone biology
+- Preclinical evidence in an osteoporosis model
+- Mechanism of action data (currently unavailable)
+- Approved indication text and safety information from the TGA Product Information
+- A risk-benefit assessment of the drug's known toxicities (interstitial lung disease, ocular and haematological effects) against any proposed non-oncologic use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

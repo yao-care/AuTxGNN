@@ -2,7 +2,7 @@
 layout: default
 title: Ponatinib
 parent: Model Prediction Only (L5)
-nav_order: 544
+nav_order: 584
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,72 +29,114 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ponatinib: From an Unspecified Original Indication to Gingival Fibromatosis
+# Ponatinib: From Chronic Myeloid Leukaemia to Gingival Fibromatosis
 
 ## One-Sentence Summary
 
-No original indication data was returned for Ponatinib in this Evidence Pack (original indications and Australian licence records are both empty). The TxGNN model's top-ranked signal for this compound is **Gingival Fibromatosis**, but this is the model's lowest evidence tier (L5), with **zero clinical trials** and **zero publications** identified, and the pack's own mechanistic analysis states there is no known pathological pathway connecting the two.
+Ponatinib is a multi-targeted tyrosine kinase inhibitor, originally used for BCR-ABL1-positive chronic myeloid leukaemia.
+The TxGNN model predicts it may be effective for **gingival fibromatosis**, but there are currently **no clinical trials** and **no publications** supporting this specific prediction.
+This is a model-only prediction (L5), and the remaining nine ranked predictions have similarly little disease-specific support.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in this Evidence Pack — no original indications or ARTG entries were returned |
-| Predicted New Indication | Gingival Fibromatosis (fibromatosis, gingival) |
+| Original Indication | Chronic myelogenous leukaemia, BCR-ABL1 positive (the Australian licence entry has no indication text) |
+| Predicted New Indication | Gingival fibromatosis |
 | TxGNN Prediction Score | 99.04% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Ponatinib is not available in this Evidence Pack (flagged as Data Gap DG002, High severity, remediation: query DrugBank directly). No original indication was returned either, so a pharmacological rationale linking Ponatinib to a prior approved use cannot be established from this dataset alone.
+Detailed mechanism of action data is not currently available in the data compiled for this report. Ponatinib is a third-generation BCR-ABL tyrosine kinase inhibitor, and its efficacy in BCR-ABL1-positive chronic myeloid leukaemia is established. It is also known to inhibit other kinases, including FGFR, PDGFR, VEGFR, SRC, KIT and RET.
 
-Literature attached to other candidates in this same pack (not this top-ranked prediction) consistently characterise Ponatinib as a third-generation, multi-target tyrosine kinase inhibitor acting on BCR-ABL, FGFR1–4, PDGFRα/β, KIT, RET and SRC-family kinases, used in the treatment of chronic myeloid leukaemia and Philadelphia-chromosome-positive acute lymphoblastic leukaemia (e.g. PMID [37399979](https://pubmed.ncbi.nlm.nih.gov/37399979/), PMID [36927623](https://pubmed.ncbi.nlm.nih.gov/36927623/)). None of this establishes a plausible pathway to gingival fibromatosis, a condition primarily driven by SOS1/CTNNB1-related fibrotic signalling — a pathway not known to involve any of Ponatinib's kinase targets.
+A link between these pathways and a fibroproliferative condition such as gingival fibromatosis is conceivable, because PDGFR and FGFR signalling are involved in fibroblast growth. However, this is speculative. No trials or publications in the compiled data connect ponatinib to this condition. The high TxGNN score is a computational prediction only.
 
-The Evidence Pack's own repurposing rationale for this specific candidate states explicitly that there is no known pathogenic pathway overlap, and that the prediction is a pure TxGNN embedding-similarity artefact with no clinical or mechanistic support. This should be treated as a hypothesis-generation signal only, not a genuine repurposing lead. (For reference, the pack's rank-2 candidate, liposarcoma, has a somewhat more plausible FGFR/PDGFR-based mechanistic rationale and in-vitro screening evidence, but remains at evidence level L4/S1.)
+### Other Ranked Predictions
+
+The table below summarises the other nine predictions in the compiled data.
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Liposarcoma | 99.00% | L4 | One 2017 preclinical kinase-profiling study; no ponatinib-specific efficacy shown |
+| 3 | Inclusion body myopathy with early-onset Paget disease (with or without frontotemporal dementia) | 98.98% | L5 | No evidence; no mechanistic link identified |
+| 4 | Ovarian myxoid liposarcoma | 98.93% | L5 | No direct evidence |
+| 5 | Hamartoma of lung | 98.93% | L5 | Benign lesion; unfavourable risk-benefit given ponatinib's cardiovascular and thrombotic safety burden |
+| 6 | Fibroma of lung | 98.87% | L5 | Benign neoplasm; no supporting evidence |
+| 7 | Junctional epidermolysis bullosa | 98.86% | L5 | No plausible kinase-inhibitor mechanism evident |
+| 8 | Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome | 98.83% | L5 | Retrieved literature is generic and not disease-specific |
+| 9 | Lung benign neoplasm | 98.83% | L5 | Literature covers pharmacology and toxicity, nothing specific to this condition |
+| 10 | Lung hilum carcinoma | 98.81% | L5 | No evidence; RET and FGFR inhibition is relevant to some lung cancers only |
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for gingival fibromatosis. No clinical trials are listed for any of the ten ranked predictions.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for gingival fibromatosis.
+
+For context, publications retrieved for other predictions (liposarcoma, lung benign neoplasm, and the rare syndrome at rank 8) are largely general ponatinib, FGFR, PDGFR and RET literature, or toxicity reviews. They do not provide disease-specific efficacy evidence.
+
+---
 
 ## Australia Market Information
 
-Ponatinib is not currently registered on the Australian Register of Therapeutic Goods (ARTG) — market status is "Not Marketed" with 0 listed entries. No product/dosage-form information is available.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10520Q | Iclusig | Tablet 15 mg (as hydrochloride) | Not stated in the compiled data |
+
+---
 
 ## Cytotoxicity
 
-Ponatinib is classified here as an antineoplastic agent based on the literature contained in this Evidence Pack, which consistently describes it as an oncology tyrosine kinase inhibitor used in leukaemia (e.g. PMID [37399979](https://pubmed.ncbi.nlm.nih.gov/37399979/)).
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-target tyrosine kinase inhibitor: BCR-ABL, FGFR1–4, PDGFRα/β, KIT, RET, SRC family) |
-| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions — not detailed in this Evidence Pack |
+| Cytotoxicity Classification | Targeted therapy (multi-targeted tyrosine kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | Literature in this pack references cardiovascular toxicity (arterial occlusive events), pulmonary toxicity, and vascular toxicity for Ponatinib and related TKIs (PMID [30629146](https://pubmed.ncbi.nlm.nih.gov/30629146/), PMID [32527740](https://pubmed.ncbi.nlm.nih.gov/32527740/), PMID [26008987](https://pubmed.ncbi.nlm.nih.gov/26008987/)) — blood pressure, cardiac and pulmonary monitoring, plus FBC and liver/renal function, are indicated pending PI confirmation |
-| Handling Protection | Standard cytotoxic/hazardous drug handling precautions should apply pending confirmation via TGA PI |
+| Monitoring Items | Please refer to the PI; the literature compiled for this report highlights cardiovascular toxicity, vascular occlusion and pulmonary complications as areas of concern |
+| Handling Protection | Please refer to the PI and local handling policies |
+
+---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions**: The interaction screen returned 100 entries. The first 20 listed include:
+  - **Major**: acetylsalicylic acid (aspirin), clarithromycin
+  - **Moderate**: loperamide, aprepitant, dexamethasone, naldemedine, naltrexone, metronidazole, miconazole
+  - **Minor**: acid-suppressing agents (famotidine, ranitidine, cimetidine, nizatidine, omeprazole, lansoprazole, dexlansoprazole, pantoprazole, rabeprazole), magnesium oxide, naloxegol
+- **Literature-Reported Concerns**: Reviews in the compiled data describe cardiotoxicity, vascular events (peripheral artery disease and stroke), pulmonary complications and cutaneous reactions with ponatinib and related tyrosine kinase inhibitors.
+
+Label warnings and contraindications were not available in the compiled data. Please refer to the TGA-approved Product Information (PI) for full safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Gingival Fibromatosis) has no supporting clinical trials or literature, and the Evidence Pack's own analysis states there is no known mechanistic link — this is a model-similarity artefact rather than a repurposing signal. Ponatinib is also unregistered in Australia, and critical safety data (TGA/PI warnings, contraindications, MOA) are marked as data gaps, one of which (TGA labelling) is classified Blocking.
+The prediction for gingival fibromatosis rests on a model score alone, with no trials, no literature and no established mechanistic link. Ponatinib also carries a significant cardiovascular and thrombotic safety burden, which makes a non-malignant indication hard to justify without supporting evidence.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action from DrugBank or another primary source
-- Original indication history, to establish any pharmacological rationale for repurposing
-- If this compound is to be pursued further, evaluation should focus on the higher-evidence candidates in this same pack (e.g. liposarcoma, L4/S1) rather than this L5 top-ranked signal
+- Mechanism of action data, to assess the plausibility of a PDGFR/FGFR-mediated fibroproliferative link
+- Preclinical evidence (for example, in gingival fibroblast models) showing ponatinib activity
+- TGA-approved PI warnings and contraindications for a formal safety screen
+- Approved indication text for the Australian ARTG entry
+- A risk-benefit framework for a non-malignant indication
+- If a different indication is preferred, liposarcoma is the only one with any supporting literature (L4), though this is a single preclinical kinase-profiling study and not ponatinib-specific
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

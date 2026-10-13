@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Erlotinib
-parent: Model Prediction Only (L5)
-nav_order: 245
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 265
+evidence_level: L4
 indication_count: 10
 ---
 
 # Erlotinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,98 +33,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Erlotinib (Tarceva®) is a first-generation EGFR tyrosine kinase inhibitor originally approved for the treatment of non-small cell lung cancer (NSCLC) and pancreatic cancer. The TxGNN model predicts it may be effective for **Ewing Sarcoma**, with **1 clinical trial** and **2 publications** currently supporting this direction. Evidence remains at the preclinical and mechanistic stage only, and the sole registered clinical trial was withdrawn before enrolling any patients.
-
----
+Erlotinib is an oral EGFR tyrosine kinase inhibitor, originally used to treat non-small cell lung cancer and pancreatic adenocarcinoma.
+The TxGNN model predicts it may be effective for **Ewing sarcoma**,
+but only **1 clinical trial** (withdrawn, with no participants enrolled) and **2 publications** (a review and a preclinical study) are linked to this prediction, so the evidence is very limited.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Non-small cell lung cancer (NSCLC) and pancreatic cancer |
-| Predicted New Indication | Ewing Sarcoma |
+|------|------|
+| Original Indication | Non-small cell lung cancer, lung cancer, pancreatic adenocarcinoma (the Australian ARTG entry has no indication text recorded) |
+| Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 95.77% |
-| Evidence Level | L4 (Preclinical / Mechanistic) |
-| Australia Market Status | Not currently listed (no ARTG registration) |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in the current evidence pack. Based on published literature included in this review, Erlotinib is a selective inhibitor of the EGFR (epidermal growth factor receptor) tyrosine kinase, blocking EGFR-mediated downstream signalling pathways — including RAS/MAPK and PI3K/AKT — that govern tumour cell proliferation, survival, angiogenesis, and resistance to apoptosis. It was the first EGFR-targeted agent approved for NSCLC in unselected patients, and remains a standard of care for EGFR-mutant NSCLC.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on known information, erlotinib is a small-molecule inhibitor of the EGFR (HER1) tyrosine kinase. Its efficacy in EGFR-driven lung cancer is established, and mechanistically it may be applicable to other tumours in which EGFR signalling is active.
 
-The mechanistic link to Ewing Sarcoma is biologically plausible: approximately 50% of Ewing Sarcoma tumours overexpress EGFR, and the disease-defining EWS-FLI1 fusion oncoprotein can indirectly activate EGFR downstream signalling (RAS/MAPK axis). A paediatric sarcoma xenograft study (PMID 29080385) specifically evaluated the combination of Erlotinib with the HER3-targeting antibody patritumab, demonstrating synergistic anti-tumour activity in Ewing Sarcoma models through simultaneous EGFR-HER3 heterodimer blockade.
-
-However, a critical distinction must be noted: activating *EGFR mutations* — which are the key predictor of TKI response in NSCLC — are exceedingly rare in bone and soft tissue sarcomas, including Ewing Sarcoma. EGFR overexpression alone without a driving mutation substantially weakens the mechanistic rationale and means that NSCLC clinical evidence cannot be directly extrapolated. This classification mismatch is the primary reason this prediction remains at the research hypothesis stage.
-
----
+EGFR signalling has been implicated in some paediatric solid tumours, which gives the Ewing sarcoma prediction a plausible rationale. However, the link is indirect. The only registered trial was withdrawn before enrolling anyone, so it generated no efficacy or safety data. The supporting literature is a general review of paediatric cancer treatment and a preclinical xenograft study. That study tested patritumab (an anti-HER3 antibody), with or without erlotinib, alongside standard cytotoxic agents in paediatric sarcoma models. This is not clinical evidence in patients with Ewing sarcoma.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT02689336](https://clinicaltrials.gov/study/NCT02689336) | Phase 2 | Withdrawn | 0 | Genomically-targeted Erlotinib + Temozolomide in relapsed/recurrent/refractory paediatric solid tumours harbouring EGFR, ERBB2, or JAK2 mutations; Ewing Sarcoma was among eligible tumour types. Trial was withdrawn before any patients were enrolled, producing no efficacy or safety data. This represents a negative feasibility signal — the underlying reason for withdrawal (recruitment difficulties, funding, or scientific concerns) requires further investigation. |
-
----
+|---------|------|------|------|---------|
+| [NCT02689336](https://clinicaltrials.gov/study/NCT02689336) | Phase 2 | Withdrawn | 0 | Erlotinib plus temozolomide in relapsed, recurrent or refractory paediatric solid tumours with EGFR, ERBB2 or JAK2 V617F mutations. No data were generated, and Ewing sarcoma-specific relevance is unclear. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [29080385](https://pubmed.ncbi.nlm.nih.gov/29080385/) | 2018 | Preclinical / Translational | *Pediatric Blood & Cancer* | Evaluated patritumab (HER3 antibody) alone or combined with Erlotinib alongside standard cytotoxics (cisplatin, vincristine, cyclophosphamide) in paediatric sarcoma xenograft models expressing EGFR/HER3. Demonstrated synergistic anti-tumour activity through dual EGFR-HER3 blockade in Ewing Sarcoma models — the most directly relevant study in this evidence pack. |
-| [26835334](https://pubmed.ncbi.nlm.nih.gov/26835334/) | 2014 | Review | *Translational Pediatrics* | Broad overview of advances in paediatric cancer treatment over 50 years, including risk-adapted therapeutic approaches and emerging targeted strategies in childhood cancers. Provides contextual background for novel agent evaluation in paediatric solid tumours. |
-
----
+|------|-----|------|------|---------|
+| [26835334](https://pubmed.ncbi.nlm.nih.gov/26835334/) | 2014 | Review | Translational Pediatrics | Overview of advances in paediatric cancer treatment, including risk-adapted therapy. General background only. |
+| [29080385](https://pubmed.ncbi.nlm.nih.gov/29080385/) | 2018 | Preclinical study | Pediatric Blood & Cancer | Patritumab with or without erlotinib was evaluated with cisplatin, vincristine and cyclophosphamide in paediatric sarcoma xenograft models. Indirect evidence. |
 
 ## Australia Market Information
 
-Erlotinib is **not currently registered** on the Australian Register of Therapeutic Goods (ARTG). There are no approved products, no listed dosage forms, and no TGA-approved Product Information available through the ARTG. Any clinical use in Australia would require access via the Special Access Scheme (SAS) or a comparable regulatory pathway.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10014C | Erlotinib Sandoz | Tablet 150 mg (as hydrochloride) | Not recorded in the data compiled for this report |
 
 ## Cytotoxicity
 
-Erlotinib is an anticancer agent (EGFR-targeted TKI) used for the treatment of malignant disease.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — First-generation EGFR tyrosine kinase inhibitor (4-anilinoquinazoline class) |
-| Myelosuppression Risk | Low (myelosuppression is uncommon with EGFR-TKIs; haematological toxicity is not a class-defining adverse effect) |
-| Emetogenicity Classification | Low to minimal |
-| Monitoring Items | Liver function tests (LFTs) at baseline and periodically; full blood count (FBC); renal function; pulmonary function / chest imaging if respiratory symptoms develop (interstitial lung disease); regular skin toxicity assessment (acneiform rash, paronychia, xerosis) |
-| Handling Protection | Standard oral cytotoxic handling precautions apply; follow institutional cytotoxic drug handling and disposal policies |
-
----
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (EGFR tyrosine kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the PI. Liver function, renal function and electrolytes are relevant given the contraindication associations listed below. |
+| Handling Protection | Please refer to the PI and local cytotoxic drug handling policies |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) — or, given the absence of Australian registration, the equivalent international PI (e.g., FDA label for Tarceva®) — for comprehensive safety information.
+- **Disease associations flagged in the knowledge graph (not label text):** The TxGNN knowledge graph links erlotinib with caution or contraindication in several conditions. These include:
+  - liver and kidney disease, hepatorenal syndrome, hyperbilirubinaemia and Gilbert syndrome
+  - interstitial lung disease and pulmonary fibrosis
+  - thrombocytopenia and other blood coagulation disorders
+  - stroke, myocardial infarction and coronary artery disease
+  - corneal ulcer
+  
+  These should be verified against the TGA-approved PI.
+- **Drug Interactions:** 100 interactions were identified. The main ones are:
+  - **Major:** proton pump inhibitors (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole, rabeprazole), which reduce erlotinib absorption by raising gastric pH.
+  - **Moderate:** H2 blockers (famotidine, ranitidine, cimetidine, nizatidine), antacids (aluminium hydroxide, calcium carbonate, magnesium oxide, magaldrate), dexamethasone, clarithromycin, miconazole, naltrexone, eliglustat and rolapitant.
 
-> **Note:** No safety data (key warnings, contraindications, or drug-drug interaction data) was retrievable in the current evidence pack. Before any clinical decision-making, safety information must be obtained from authoritative prescribing documentation. Of particular note: Erlotinib is associated with class-specific dermatological toxicity (acneiform rash, skin barrier disruption), interstitial lung disease, and hepatotoxicity. Given the proposed paediatric oncology context, age-appropriate dosing and safety data would also need to be confirmed.
-
----
+Please refer to the TGA-approved Product Information (PI) for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for Erlotinib in Ewing Sarcoma is currently limited to a single preclinical xenograft study and one Phase 2 clinical trial that was withdrawn before any patients were enrolled — producing no human efficacy or safety data. While the EGFR overexpression-based mechanistic rationale is scientifically interesting, the absence of activating EGFR mutations in this tumour type substantially undermines the biological basis for single-agent EGFR-TKI activity.
+The Ewing sarcoma prediction has a high model score but little real support. The only trial was withdrawn with no participants, and the literature is a general review plus preclinical work in which erlotinib was one of several agents. Erlotinib's known toxicity profile also calls for caution.
 
-**To proceed to the next stage, the following is needed:**
-
-- **EGFR biomarker profiling**: Determine EGFR overexpression rates and mutation status in representative Ewing Sarcoma patient cohorts to identify any potentially responsive subgroup
-- **Withdrawal investigation**: Clarify the reason for NCT02689336 withdrawal — recruitment failure would leave the scientific question open; safety signal or lack of efficacy would constitute a stronger case against progression
-- **MOA and safety data**: Obtain full Erlotinib Product Information (FDA/EMA label) to complete the safety assessment, including paediatric-specific dosing guidance
-- **Combination strategy evaluation**: Given the preclinical synergy data with patritumab (HER3 antibody), a combination hypothesis warrants formal preclinical programme development before any human studies
-- **TGA regulatory pathway**: If clinical investigation is pursued in Australia, a Named Patient Program (NPP) application or Special Access Scheme (SAS) Category B pathway would be required, given the absence of ARTG registration
-- **Paediatric ethics and trial design**: Any future clinical investigation would require paediatric-specific ethics review and trial design considerations given the primary patient population
-
----
-
-*This report is generated from the TxGNN drug repurposing research platform and is intended for research and healthcare professional review purposes only. Findings do not constitute medical advice and require clinical validation before any therapeutic application.*
+**To proceed, the following is needed:**
+- Mechanistic and preclinical data specific to EGFR dependence in Ewing sarcoma
+- Detailed mechanism of action data (MOA)
+- Safety information from the TGA Product Information (warnings and contraindications), as this is currently missing
+- Clinical data in Ewing sarcoma or paediatric sarcoma, for example a trial that actually enrols patients
+- A review of PPI and other acid-suppressant interactions for any proposed treatment regimen
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zidovudine
-parent: Moderate Evidence (L3-L4)
-nav_order: 731
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 789
+evidence_level: L5
 indication_count: 10
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,17 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-Using no additional skill — this is a direct content-generation task governed by the report-writing instructions already provided in the system prompt. Proceeding straight to the report.
-
-Note on methodology before the report: TxGNN's top-ranked predictions for this drug (rank 1–2: feline/simian immunodeficiency models — species mismatch, not human-applicable; rank 3–4: obsolete/unlinked disease terms with zero evidence; rank 5–6: AIDS-related complex and congenital HIV — these are zidovudine's **existing approved indications**, not new repurposing candidates) are not informative for a repurposing evaluation. The most credible genuine repurposing signal in this evidence pack is **rank 9, female breast carcinoma** — a human, non-obsolete, non-already-approved candidate with actual (preclinical) supporting literature and a "Research Question" scoring stage. This report is built around that candidate.
-
----
-
-# Zidovudine: From HIV/AIDS Antiretroviral Therapy to Female Breast Carcinoma
+# Zidovudine: From HIV Infection and AIDS to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-> Zidovudine (AZT) was the first antiretroviral agent approved for HIV infection, acting as a nucleoside reverse transcriptase inhibitor (NRTI). Screening out veterinary, obsolete, and already-approved TxGNN candidates, the most credible novel signal is **Female Breast Carcinoma**, currently supported only by **preclinical laboratory studies** (no registered clinical trials) exploring its antiproliferative and telomerase-inhibiting effects on breast cancer cells.
+Zidovudine is an antiretroviral medicine originally used to treat HIV infection and AIDS in people.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (FIV/FeLV-related disease in cats)**, a veterinary condition.
+This is supported by **0 registered clinical trials** and **20 publications**, all animal studies.
 
 ---
 
@@ -47,23 +43,23 @@ Note on methodology before the report: TxGNN's top-ranked predictions for this d
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infection (Human Immunodeficiency Virus) / AIDS — antiretroviral therapy |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 96.20% |
-| Evidence Level | L4 |
-| Australia Market Status | Not marketed (no active ARTG entries in this evidence pack) |
-| Number of ARTG Entries | 0 |
+| Original Indication | HIV infection and AIDS (the ARTG approved-indication text is not available in the data compiled for this report) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
+| TxGNN Prediction Score | 99.96% |
+| Evidence Level | L3 (veterinary clinical and cohort studies; the remainder is preclinical animal work) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, a detailed structured mechanism-of-action record is not available for zidovudine in this evidence pack. Based on the literature contained within the evidence itself, zidovudine (AZT, azidothymidine) is a synthetic thymidine (nucleoside) analogue — the first drug in the nucleoside reverse transcriptase inhibitor (NRTI) class. It is phosphorylated intracellularly to its active triphosphate form, which competitively inhibits HIV reverse transcriptase and causes premature viral DNA chain termination, blocking retroviral replication.
+Zidovudine is a nucleoside reverse transcriptase inhibitor (NRTI). Detailed mechanism-of-action data were not available in the data compiled for this report. Based on its drug class, it is converted inside cells to an active triphosphate form that blocks the reverse transcriptase enzyme, which retroviruses need to replicate.
 
-Beyond its antiviral action, zidovudine's underlying chemistry — a modified thymidine analogue capable of being incorporated into replicating DNA — gives it a plausible, if distinct, secondary mechanism relevant to rapidly dividing tumour cells. Multiple in vitro and animal studies in this evidence pack (e.g. PMID 9192804, 9533539, 27633795) report that AZT inhibits growth of human breast cancer cell lines and rat/mouse mammary tumours, with proposed mechanisms including **telomerase inhibition**, **incorporation into telomeric DNA causing senescence/apoptosis**, and reduced tumorigenicity and metastatic potential in xenograft models.
+Feline immunodeficiency virus (FIV) is a lentivirus closely related to HIV. It replicates through the same reverse transcriptase-dependent process, so the mechanism is directly conserved. This explains the very high model score, and zidovudine has long been used experimentally in cats.
 
-This is mechanistically distinct from — but not incompatible with — zidovudine's original antiviral use: both actions stem from its identity as a nucleoside analogue capable of interfering with nucleic acid synthesis. However, all supporting evidence to date is preclinical (cell lines and animal models); no clinical trial has evaluated zidovudine as a breast cancer therapy in humans. This corresponds to Evidence Level L4 and decision stage S1 ("Research Question") — appropriate for further translational research, not clinical deployment.
+The prediction is a veterinary indication, so it is of limited relevance to human drug repurposing. It largely reflects the drug's existing antiretroviral activity in a closely related animal model. The findings in the same-family simian immunodeficiency virus (SIV) model point the same way.
 
 ---
 
@@ -77,28 +73,42 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35584347](https://pubmed.ncbi.nlm.nih.gov/35584347/) | 2022 | Cohort | JCO Global Oncology | Assessed pathologic response and chemotherapy dose intensity in breast cancer patients with/without HIV (antiretroviral-treated); relevant clinical context but not a direct zidovudine-as-oncology-agent trial |
-| [9192804](https://pubmed.ncbi.nlm.nih.gov/9192804/) | 1997 | Preclinical (in vitro/animal) | Cancer Research | AZT shows potent growth-inhibitory activity on cultured human breast cancer cells and rat mammary tumours |
-| [9533539](https://pubmed.ncbi.nlm.nih.gov/9533539/) | 1998 | Preclinical (in vitro) | Clinical Cancer Research | AZT inhibits cell growth and telomerase activity across four breast cancer cell lines |
-| [11261835](https://pubmed.ncbi.nlm.nih.gov/11261835/) | 2001 | Preclinical (in vitro) | Breast Cancer Research and Treatment | Chronic AZT exposure induces senescence/apoptosis and reduces tumorigenicity of metastatic mouse mammary tumour cells |
-| [27633795](https://pubmed.ncbi.nlm.nih.gov/27633795/) | 2016 | Preclinical (animal model) | Oncology Reports | AZT exerts antitumoral effects via both telomeric and non-telomeric mechanisms in a mammary adenocarcinoma model |
-| [10841805](https://pubmed.ncbi.nlm.nih.gov/10841805/) | 2000 | Preclinical (synthesis/in vitro) | Journal of Medicinal Chemistry | AZT phosphoramidate monoester derivatives show anti-breast cancer activity in MCF-7 cells |
-| [21945463](https://pubmed.ncbi.nlm.nih.gov/21945463/) | 2011 | Preclinical (in vitro) | Bioorganic & Medicinal Chemistry | Novel AZT chloromethylphosphonate derivatives show cytotoxic activity in MCF-7 breast cancer cells |
-| [32199136](https://pubmed.ncbi.nlm.nih.gov/32199136/) | 2020 | Preclinical (in vitro) | European Journal of Medicinal Chemistry | AZT-based cationic derivatives regulate metastasis of breast cancer cells |
-| [32738968](https://pubmed.ncbi.nlm.nih.gov/32738968/) | 2020 | Preclinical (in vitro) | Bioorganic & Medicinal Chemistry Letters | Tellurium-containing AZT derivatives inhibit proliferation and induce apoptosis in MDA-MB-231 breast cancer cells |
-| [16797627](https://pubmed.ncbi.nlm.nih.gov/16797627/) | 2006 | Preclinical (in vitro, off-target) | Toxicology and Applied Pharmacology | AZT combined with cisplatin increases p14ARF tumour-suppressor expression in an ovarian cancer cell line; supportive of a broader antitumour signalling effect |
+| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Veterinary clinical study | Viruses | Compared zidovudine alone and combined with interferon-α, lamivudine or valproic acid in naturally FIV-infected cats over one year, assessing viral load, CD4+/CD8+ ratio and neurological signs |
+| [7495172](https://pubmed.ncbi.nlm.nih.gov/7495172/) | 1995 | Controlled veterinary study | Zentralbl Veterinarmed A | Long-term oral AZT (5 mg/kg three times daily) vs conventional symptomatic therapy in FIV-seropositive cats with clinical disease (n = 9 vs 5) |
+| [1363008](https://pubmed.ncbi.nlm.nih.gov/1363008/) | 1992 | Veterinary clinical study | Vet Immunol Immunopathol | Assessed efficacy and side effects of AZT and PMEA in cats naturally infected with FIV or FeLV who had clinical symptoms |
+| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Veterinary follow-up | J Feline Med Surg | Effects of 5-6 years of antiretroviral therapy, starting with AZT, in FIV-infected domestic cats |
+| [21723621](https://pubmed.ncbi.nlm.nih.gov/21723621/) | 2011 | Veterinary cohort | Vet Immunol Immunopathol | Immune-endocrine interactions in 20 treated and untreated naturally FIV-infected cats followed for six months |
+| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Experimental animal study | Arch Virol | In experimentally infected cats, zidovudine did not prevent infection but lowered plasma virus titres at 2 weeks |
+| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | Experimental animal study | J Acquir Immune Defic Syndr | Prophylactic zidovudine prevented early viraemia and lymphocyte decline but not primary FIV infection |
+| [7749786](https://pubmed.ncbi.nlm.nih.gov/7749786/) | 1995 | Experimental animal study | J Acquir Immune Defic Syndr | Early suppression of viraemia did not alter the spread of FIV infection; CD4 counts were higher in treated cats |
+| [2178336](https://pubmed.ncbi.nlm.nih.gov/2178336/) | 1990 | Animal study (FeLV) | Antimicrob Agents Chemother | Interferon-α plus AZT vs AZT alone in presymptomatic cats with persistent FeLV-related immunodeficiency |
+| [2164083](https://pubmed.ncbi.nlm.nih.gov/2164083/) | 1990 | Animal study (FeLV) | J Acquir Immune Defic Syndr | AZT inhibited FeLV-FAIDS replication in vitro, with added effect from interferon-α; oral dosing in cats reached measurable plasma levels |
 
 ---
 
 ## Australia Market Information
 
-No ARTG entries are recorded in this evidence pack for zidovudine, and market status is listed as **Not marketed**. Given zidovudine is a long-established, internationally marketed antiretroviral, this likely reflects a gap in the underlying regulatory dataset rather than confirmed absence from the Australian market — **TGA/ARTG should be checked directly** before relying on this status for decision-making.
+| ARTG Number | Product Name | Dosage Form |
+|---------|------|------|
+| 10266H | Retrovir | Capsule 100 mg (oral) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+Disease associations recorded for zidovudine in the knowledge graph used by the model (these are not label text) include:
+- **Haematological:** neutropenia, agranulocytosis, anaemia (including macrocytic anaemia)
+- **Hepatic and metabolic:** liver disease and failure, fatty liver disease, non-alcoholic steatohepatitis, lactic acidosis, hypertriglyceridaemia, pancreatitis, gallbladder disease
+- **Muscle:** myopathy, myositis, dermatomyositis, skeletal muscle disease
+- **Other:** kidney disease, obesity disorders
+
+Drug interactions: 100 interactions were recorded. The main ones are:
+- **Moderate:** amphotericin B (including lipid and cholesteryl sulfate formulations), corticosteroids (betamethasone, budesonide, dexamethasone, hydrocortisone, prednisolone, prednisone, triamcinolone), statins (rosuvastatin, simvastatin), naltrexone and orlistat
+- **Minor:** cimetidine and clarithromycin
+
+Trial literature also describes pharmacokinetic interactions with probenecid and acetaminophen.
+
+For full warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
 ---
 
@@ -107,14 +117,19 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-The breast carcinoma signal is supported only by preclinical in vitro and animal studies (Evidence Level L4, decision stage S1 "Research Question") — no human clinical trials have evaluated zidovudine as a breast cancer therapy. Combined with a blocking data gap on TGA warnings/contraindications and an unresolved market-status discrepancy, the evidence is insufficient to progress beyond a research hold.
+The top-ranked prediction is a veterinary indication supported only by animal studies, with no human trials. It is of limited value for human drug repurposing in Australia. The model's high score mainly reflects zidovudine's known antiretroviral mechanism.
+
+Two lower-ranked predictions have direct human evidence, but they fall within the existing HIV indication family rather than being true repurposing. They are:
+- **AIDS-related complex:** a completed Phase 3 trial (NCT00001011, 538 participants), which is historical because current practice uses combination antiretroviral therapy.
+- **Perinatal and congenital HIV:** Phase 3 trials (NCT00102960, NCT00001104) and guideline-level evidence.
+
+These two could proceed with guardrails: haematological monitoring, myopathy and lactic acidosis surveillance, DDI review, and monitoring for congenital malformations and neonatal haematological toxicity in pregnancy use.
 
 **To proceed, the following is needed:**
-- Retrieve TGA-approved Product Information (PI) — warnings and contraindications (blocking gap)
-- Confirm structured mechanism-of-action documentation via DrugBank
-- Early-phase (Phase I/II) clinical or translational studies specifically evaluating zidovudine (or its AZT-phosphonate/tellurium derivatives) in breast cancer patients
-- Verify current ARTG registration and market-availability status directly with TGA
-- Independently confirm that TxGNN's top-ranked candidates (feline/simian immunodeficiency models, obsolete disease terms, already-approved HIV indications) are correctly excluded from future repurposing pipelines for this drug
+- A clear scope decision on whether veterinary indications are in scope for this assessment
+- Detailed mechanism-of-action data
+- TGA Product Information warnings and contraindications, and the approved indication text for the ARTG entry
+- For the human-relevant predictions, comparison against current Australian antiretroviral guidelines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

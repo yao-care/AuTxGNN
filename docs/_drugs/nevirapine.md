@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nevirapine
-parent: High Evidence (L1-L2)
-nav_order: 465
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 498
+evidence_level: L5
 indication_count: 10
 ---
 
 # Nevirapine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Nevirapine: From HIV-1 Antiretroviral Therapy to Prevention of Mother-to-Child HIV Transmission
+# Nevirapine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) established for HIV-1 antiretroviral therapy, currently **not registered in the Australian ARTG**. Of the ten TxGNN-predicted indications reviewed for this drug, most top-scoring candidates (feline immunodeficiency virus, simian immunodeficiency virus, a rare neurodevelopmental disorder, and several benign tumours) have no human clinical relevance and are flagged "Hold" in the evidence pack itself. The best-supported candidate — extending nevirapine's established mechanism to **prevention of mother-to-child (perinatal) HIV transmission**, i.e. congenital HIV — is backed by **10+ completed Phase 3 trials** and **20 publications**, reflecting decades of real-world perinatal use rather than a genuinely novel repurposing hypothesis.
+Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, a veterinary condition, but this top-ranked prediction rests on **0 clinical trials** and **1 in vitro publication**, and the publication suggests the feline virus is poorly susceptible to NNRTIs.
+The more clinically relevant lower-ranked predictions (congenital HIV and AIDS-related complex) largely match the drug's established HIV use rather than representing true repurposing.
 
 ---
 
@@ -41,81 +43,120 @@ Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) establish
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (antiretroviral therapy) — not listed in an Australian ARTG entry; known internationally as an approved NNRTI |
-| Predicted New Indication | Prevention of Mother-to-Child (Perinatal) HIV Transmission — Congenital HIV |
-| TxGNN Prediction Score | 98.52% |
-| Evidence Level | L1 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | HIV infectious disease; AIDS (the Australian licence data compiled for this report contain no approved indication text) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
+| TxGNN Prediction Score | 99.85% |
+| Evidence Level | L4 (preclinical/biochemical only) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Structured mechanism-of-action data was not available from the evidence pack (`original_moa: [Data Gap]`). However, the literature evidence retrieved for this candidate repeatedly and consistently describes nevirapine as a first-generation NNRTI: it binds non-competitively at a hydrophobic pocket adjacent to the active site of HIV-1 reverse transcriptase, blocking the enzyme's RNA-dependent DNA polymerase activity and halting conversion of viral RNA into proviral DNA.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, nevirapine is an NNRTI that targets lentiviral reverse transcriptase, and its efficacy in HIV-1 infection is established. Feline immunodeficiency virus (FIV) is also a lentivirus, so a mechanistic overlap is conceivable.
 
-The predicted "new" indication — congenital HIV / mother-to-child transmission prevention (PMTCT) — is mechanistically identical to nevirapine's original antiretroviral use, not a distinct pathway. Blocking reverse transcription in the mother reduces maternal viral load, and prophylactic dosing of the neonate blocks establishment of infection during intrapartum and early postnatal exposure. Because nevirapine is orally bioavailable, inexpensive, and has a long half-life permitting single-dose or short-course prophylaxis, it became a WHO-recommended PMTCT strategy in resource-limited settings (e.g., the HIVNET 012 regimen) — this is why the supporting evidence base is unusually large and mature compared with a typical TxGNN-only prediction.
+However, the one retrieved study (a 2023 biochemical and structural comparison of NNRTIs against feline and human immunodeficiency viruses) indicates that FIV reverse transcriptase is generally poorly susceptible to NNRTIs. The high prediction score is therefore not supported by an established mechanism. This is also a veterinary indication, not a human repurposing target.
 
-By contrast, the raw top-ranked TxGNN predictions for this drug (feline AIDS, simian immunodeficiency virus infection, an ultra-rare neurodevelopmental disorder, prostate fibroma, Brenner tumour) either concern non-human disease models or benign neoplasms with no plausible link to an antiretroviral mechanism — the evidence pack's own rationale text flags these as likely graph noise, and this report does not pursue them further.
+The same pattern appears for the second-ranked prediction, simian immunodeficiency virus infection. SIVmac and HIV-2 are intrinsically resistant to NNRTIs, and only engineered SIV/HIV-1 chimeras carrying HIV-1 reverse transcriptase respond to nevirapine. This is useful for animal-model research, not clinical repurposing.
+
+Ranks 3 to 8 (a rare neurodevelopmental disorder, fibroma of prostate, Brenner tumour, benign reproductive system neoplasm, benign prostate phyllodes tumour and male reproductive organ cancer) have no plausible mechanistic link and appear to be knowledge-graph artefacts.
+
+Two further predictions are more clinically interesting, though they largely reflect established HIV uses:
+- **Congenital HIV** (score 98.52%, Evidence Level L1): nevirapine is established for preventing mother-to-child transmission.
+- **AIDS-related complex** (score 98.52%, Evidence Level L2): this is a historical term for symptomatic HIV infection, matching the original indication.
 
 ---
 
 ## Clinical Trial Evidence
 
+No clinical trials are registered for the top-ranked prediction (feline acquired immunodeficiency syndrome). Currently no related clinical trials registered.
+
+For reference, the trials below relate to the two clinically relevant lower-ranked predictions, which essentially describe established HIV use.
+
+**Congenital HIV**
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00001135](https://clinicaltrials.gov/study/NCT00001135) | Phase 3 | Completed | 2,009 | Double-blind RCT of nevirapine (NVP) given to mother and infant vs. control to reduce maternal-fetal HIV transmission |
-| [NCT00639938](https://clinicaltrials.gov/study/NCT00639938) | Phase 3 | Completed | 722 | Standard two-dose NVP regimen ± HIV immune globulin or extended infant NVP dosing for PMTCT in Uganda |
-| [NCT01061151](https://clinicaltrials.gov/study/NCT01061151) | Phase 3 | Completed | 3,747 | PROMISE study — optimal antepartum, intrapartum and breastfeeding-period PMTCT interventions |
-| [NCT02738502](https://clinicaltrials.gov/study/NCT02738502) | Phase 2 | Completed | 91 | PMTCT strategy without NRTIs; neonatal prophylaxis with nevirapine |
-| [NCT03642704](https://clinicaltrials.gov/study/NCT03642704) | Phase 4 | Completed | 56 | Early HIV diagnosis and preventive antiretroviral treatment (incl. NVP) at birth for high-risk newborns, Guinea |
-| [NCT01511237](https://clinicaltrials.gov/study/NCT01511237) | Phase 3 | Completed | 379 | PHPT-5 — perinatal antiretroviral intensification for PMTCT in women with <8 weeks antenatal HAART, Thailand |
-| [NCT00164736](https://clinicaltrials.gov/study/NCT00164736) | Phase 3 | Completed | 2,369 | ARV prophylaxis (mother or infant) plus nutritional support to prevent transmission during breastfeeding |
-| [NCT00197587](https://clinicaltrials.gov/study/NCT00197587) | N/A | Completed | 1,200 | "Mashi" study — prevention of milk-borne HIV-1C transmission, Botswana |
-| [NCT02383849](https://clinicaltrials.gov/study/NCT02383849) | N/A (Phase 4) | Completed | 124 | IMPAACT P1106 — pharmacokinetics and safety of nevirapine (and other ARVs) in low-birth-weight infants |
-| [NCT00102960](https://clinicaltrials.gov/study/NCT00102960) | Phase 3 | Completed | 377 | Strategies for antiretroviral therapy in infants shortly after primary HIV infection, resource-poor setting |
+| [NCT00102960](https://clinicaltrials.gov/study/NCT00102960) | Phase 3 | Completed | 377 | Randomised open-label trial comparing antiretroviral treatment strategies of different lengths in infants infected at birth |
+| [NCT00021671](https://clinicaltrials.gov/study/NCT00021671) | Phase 3 | Completed | 3720 | Antibiotics to reduce chorioamnionitis-related perinatal HIV transmission; nevirapine is not the tested intervention |
 
-No ANZCTR-registered trials were identified for this indication in the evidence pack.
+**AIDS-related complex**
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00000770](https://clinicaltrials.gov/study/NCT00000770) | Phase 2 | Completed | 400 | Zidovudine + didanosine + double-blind nevirapine versus zidovudine + didanosine |
+| [NCT00002324](https://clinicaltrials.gov/study/NCT00002324) | Phase 2 | Completed | 250 | Placebo-controlled trial of nevirapine alone or with zidovudine in asymptomatic HIV-1 infection, measuring CD4 counts and safety |
+| [NCT00002347](https://clinicaltrials.gov/study/NCT00002347) | Phase 2 | Completed | 225 | Master protocol of multi-drug antiretroviral combinations, including zidovudine/zalcitabine with nevirapine |
+| [NCT00000747](https://clinicaltrials.gov/study/NCT00000747) | Phase 2 | Completed | 10 | Pilot study of nevirapine resistance development in patients with CD4 counts ≥500/mm³ |
+| [NCT00000814](https://clinicaltrials.gov/study/NCT00000814) | Phase 1 | Completed | 390 | Zidovudine, didanosine and nevirapine combination in children and adolescents with advanced HIV |
+| [NCT00000808](https://clinicaltrials.gov/study/NCT00000808) | Phase 1 | Completed | 49 | Safety and pharmacokinetics of nevirapine in HIV-infected pregnant women and neonates |
+| [NCT00000962](https://clinicaltrials.gov/study/NCT00000962) | Phase 1 | Completed | 30 | Rising-dose safety, tolerance and activity study of nevirapine (BI-RG-587) |
+| [NCT00000649](https://clinicaltrials.gov/study/NCT00000649) | Phase 1 | Completed | 30 | Pharmacokinetics and safety of nevirapine with zidovudine |
 
 ---
 
 ## Literature Evidence
 
+**Feline acquired immunodeficiency syndrome (top-ranked prediction)**
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15249569](https://pubmed.ncbi.nlm.nih.gov/15249569/) | 2004 | RCT | JAMA | Nevirapine + zidovudine given at birth reduces perinatal HIV transmission in women presenting in labour with unknown HIV status |
-| [29912896](https://pubmed.ncbi.nlm.nih.gov/29912896/) | 2018 | Systematic review / NMA | PLoS ONE | Network meta-analysis of comparative safety/effectiveness of perinatal antiretroviral regimens |
-| [19236121](https://pubmed.ncbi.nlm.nih.gov/19236121/) | 2009 | Systematic review | Drug Safety | Hepatotoxicity risk with long- vs short-course prophylactic nevirapine use (RADAR project) |
-| [11825335](https://pubmed.ncbi.nlm.nih.gov/11825335/) | 2001 | Review | Expert Opin Pharmacother | Overview of nevirapine's role and efficacy in HIV-1 treatment |
-| [15794723](https://pubmed.ncbi.nlm.nih.gov/15794723/) | 2005 | Review | Expert Opin Drug Saf | Safety of antiretroviral drugs, incl. nevirapine, in pregnancy |
-| [21711178](https://pubmed.ncbi.nlm.nih.gov/21711178/) | 2011 | Cohort | AIDS Care | Maternal HIV infection and birth outcomes under enhanced antenatal PMTCT care, Pune, India |
-| [24781315](https://pubmed.ncbi.nlm.nih.gov/24781315/) | 2014 | Cohort | PLoS Medicine | French ANRS perinatal cohort — birth defect prevalence by individual ARV drug exposure |
-| [21084995](https://pubmed.ncbi.nlm.nih.gov/21084995/) | 2011 | Cohort | J Acquir Immune Defic Syndr | Pregnancy outcomes compared between efavirenz- and nevirapine-exposed women |
-| [35621877](https://pubmed.ncbi.nlm.nih.gov/35621877/) | 2022 | Cohort | J Acquir Immune Defic Syndr | Impact of antenatal ARV regimen on pregnancy/infant outcomes in HIV/HBV coinfection |
-| [17713983](https://pubmed.ncbi.nlm.nih.gov/17713983/) | 2007 | Cohort | PLoS Medicine | Two-tiered PMTCT strategy evaluation, West Africa |
+| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | In vitro / structural | J Vet Sci | Compared nevirapine, efavirenz and rilpivirine against FIV and HIV reverse transcriptase; FIV reverse transcriptase is generally poorly susceptible to NNRTIs |
+
+**Congenital HIV (established use)**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [15249569](https://pubmed.ncbi.nlm.nih.gov/15249569/) | 2004 | RCT | JAMA | Nevirapine plus zidovudine at birth to reduce perinatal HIV transmission in an African setting |
+| [19236121](https://pubmed.ncbi.nlm.nih.gov/19236121/) | 2009 | Systematic review | Drug Saf | Hepatotoxicity with long- versus short-course prophylactic nevirapine |
+| [29912896](https://pubmed.ncbi.nlm.nih.gov/29912896/) | 2018 | Systematic review / network meta-analysis | PLoS One | Comparative safety and effectiveness of perinatal antiretroviral therapies |
+| [15794723](https://pubmed.ncbi.nlm.nih.gov/15794723/) | 2005 | Review | Expert Opin Drug Saf | Safety of antiretrovirals in pregnancy, including nevirapine-associated hepatotoxicity in women |
+
+**AIDS-related complex (established use)**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [17620824](https://pubmed.ncbi.nlm.nih.gov/17620824/) | 2007 | Review | Curr Opin Allergy Clin Immunol | Drug hypersensitivity is far more common in people with HIV |
+| [21505298](https://pubmed.ncbi.nlm.nih.gov/21505298/) | 2011 | Pharmacogenomic study | AIDS | Genetic variants associated with nevirapine cutaneous and hepatic adverse events across populations |
+| [27067022](https://pubmed.ncbi.nlm.nih.gov/27067022/) | 2016 | In vitro | AIDS Res Hum Retroviruses | Novel RT mutations (L228I, Y232H) cause NNRTI resistance |
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10304H | Nevirapine Viatris | Tablet 200 mg (oral) | Not available in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Structured safety fields (key warnings, contraindications, DDI) were not available for this candidate. However, literature evidence retrieved for this indication repeatedly flags **hepatotoxicity and severe cutaneous reactions** as characteristic nevirapine risks — including a systematic review/meta-analysis specifically on short- vs. long-course prophylactic use (PMID 19236121) and a toxicogenomics study of cutaneous/hepatic adverse events across populations (PMID 21505298). As nevirapine is not currently registered in Australia, prescribers should obtain formal safety and interaction data from the TGA-approved Product Information once available, rather than relying on this evidence summary alone.
+The data compiled for this report contain no label-based warnings or contraindications. The following items come from a knowledge graph and drug interaction database, not from product label text.
+
+- **Knowledge-graph contraindication signals**: liver failure, liver disease, drug-induced liver injury, gallbladder disease, chronic hepatitis B and C virus infection, exanthem, Stevens-Johnson syndrome, toxic epidermal necrolysis (Lyell syndrome), rhabdomyolysis and nodular fasciitis.
+- **Literature-supported concerns**: hepatotoxicity and severe skin reactions (including with longer-course prophylactic use), and NNRTI resistance emergence after single-dose exposure.
+- **Drug interactions**: 100 interactions were identified; the 20 listed are all rated Moderate. They include rabeprazole, bupropion, aprepitant, triamcinolone, dexamethasone, betamethasone, budesonide, clarithromycin, saxagliptin, eliglustat, linagliptin, naldemedine, naloxegol, naltrexone, cisapride, granisetron, nitisinone, ondansetron, orlistat and prednisolone.
+
+Please refer to the TGA-approved Product Information (PI) for authoritative safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple completed Phase 3 RCTs and a large observational/systematic-review literature base (L1) support nevirapine's use in perinatal HIV transmission prevention — but this is an extension of its existing, decades-old antiretroviral mechanism rather than a novel repurposing signal, and the drug is currently unregistered in Australia (0 ARTG entries).
+- The top-ranked prediction (feline AIDS) is a veterinary indication supported only by in vitro data, and that data suggests FIV is poorly susceptible to nevirapine. There are no clinical trials, so the evidence level is L4.
+- The two clinically relevant predictions (congenital HIV and AIDS-related complex) are largely established HIV uses rather than new repurposing opportunities. They could be considered "Proceed with Guardrails" for hepatotoxicity, rash, resistance and interaction risks, but they do not represent novel indications for Australia.
 
 **To proceed, the following is needed:**
-- TFDA/TGA product information — warnings and contraindications (currently a Blocking data gap; required before any S1 safety assessment)
-- Formal DrugBank/PI-sourced mechanism-of-action confirmation (currently a High-severity data gap)
-- Australian regulatory pathway assessment for ARTG registration, given current "not marketed" status
-- A structured drug-drug interaction query (current DDI query returned "not found")
-- Australian-context perinatal/neonatal dosing guidance if pursued for a PMTCT program
+- Mechanism of action data for nevirapine, which was not available.
+- TGA Product Information warnings and contraindications, which were not available and block safety screening.
+- For any veterinary exploration, direct susceptibility testing of FIV reverse transcriptase to nevirapine and, if positive, in vivo studies.
+- For perinatal use, a review of current Australian guidelines, since newer regimens (for example dolutegravir-based) have largely replaced nevirapine-based prophylaxis.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

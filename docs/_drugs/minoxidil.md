@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Minoxidil
-parent: High Evidence (L1-L2)
-nav_order: 449
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 481
+evidence_level: L4
 indication_count: 3
 ---
 
 # Minoxidil
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,121 +29,91 @@ Evidence Level: **L2** | Predicted Indications: **3**
 
 </div>
 
-# Minoxidil: From Hypertension to Diffuse Alopecia Areata
+# Minoxidil: From Hypertension to Hypotrichosis Simplex of the Scalp
 
 ## One-Sentence Summary
 
-Minoxidil was originally developed as an oral vasodilator for severe hypertension, and its follicle-stimulating side effect later led to its well-known use in androgenetic alopecia. The TxGNN model additionally predicts efficacy for **diffuse alopecia areata** — an autoimmune, non-scarring form of hair loss — with **3 clinical trials** and **20 publications** currently available, making it the strongest-evidenced of three hair-loss-related predictions generated for this drug. Two further, much weaker-evidenced predictions (hypotrichosis simplex of the scalp; congenital hypotrichosis with milia) are also flagged and summarised below.
-
----
+Minoxidil is an oral vasodilator originally used for hypertensive disorders, and in topical form for alopecia.
+The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**, a rare hereditary hair loss disorder.
+Support is limited to **3 case reports or case series** and **no registered clinical trials**.
 
 ## Quick Overview
 
-*(Based on the strongest-evidenced prediction: diffuse alopecia areata. See "Other Predicted Indications" below for the two remaining candidates.)*
-
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (severe, oral vasodilator) — no TGA-specific Product Information is available in this evidence pack, as the drug is not currently marketed in Australia |
-| Predicted New Indication | Diffuse Alopecia Areata |
-| TxGNN Prediction Score | 99.9998% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Hypertensive disorder / hypertension (the ARTG record supplies no approved indication text; this comes from the knowledge graph) |
+| Predicted New Indication | Hypotrichosis simplex of the scalp |
+| TxGNN Prediction Score | 99.9999% |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold (research question only) |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack (data gap DG002). Based on well-established public pharmacology, minoxidil is a potassium-channel opener that causes vasodilation; independent of that effect, it also prolongs the hair follicle anagen (growth) phase and promotes local angiogenesis around the follicle. This growth-promoting action is not restricted to a specific hair-loss aetiology, which is why it is already used empirically well beyond its original vasodilator indication.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, minoxidil (through its active metabolite, minoxidil sulfate) is a potassium channel opener. It is thought to prolong the anagen (growth) phase of the hair cycle, enlarge follicles and increase blood flow to the scalp. This explains its established use in hair loss and is a plausible mechanism for a disorder involving follicular miniaturisation.
 
-Diffuse alopecia areata (AA) is an autoimmune condition, distinct in cause from androgenetic alopecia, but the shared endpoint — a follicle held out of active growth — means minoxidil's anagen-promoting mechanism can plausibly support regrowth as an adjunct even though it does not correct the underlying autoimmune attack. This is reflected in current practice: oral and topical minoxidil are already used as adjunctive therapy in AA and are referenced in the 2024 European expert consensus statement on systemic AA treatment, giving this prediction real-world clinical grounding.
-
-By contrast, the other two predicted indications are genetic/structural hair disorders (hereditary follicle malformation) rather than growth-cycle disorders, so the same mechanistic logic applies far more weakly — see below.
-
----
-
-## Other Predicted Indications (Lower Evidence)
-
-| Disease | TxGNN Score | Evidence Level | Trials / Literature | Recommendation | Note |
-|---|---|---|---|---|---|
-| Hypotrichosis simplex of the scalp | 99.9999% | L4 | 0 trials / 3 case reports | Research Question | Monogenic (CDSN) follicle-structure disorder; minoxidil may slow progressive thinning but cannot correct the underlying structural defect |
-| Congenital hypotrichosis with milia | 99.9999% | L5 | 0 trials / 0 literature | Hold | Prediction-only, no supporting evidence; mechanistic applicability to this congenital ectodermal syndrome is unclear |
-
----
+Hypotrichosis simplex of the scalp is a rare, inherited condition. It is linked to variants in the *CDSN* gene (which encodes corneodesmosin) and causes progressive hair thinning. Minoxidil's follicle-stimulating effect is plausible for this condition, but it does not address the underlying genetic defect. The very high TxGNN score is a computational prediction and is not clinical evidence.
 
 ## Clinical Trial Evidence
 
-### Diffuse Alopecia Areata
-
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01900041](https://clinicaltrials.gov/study/NCT01900041) | Phase 2 | Completed | 74 | Multicentre comparative study of Pantovigar plus 2% minoxidil vs. 2% minoxidil alone for female pattern/diffuse hair loss; minoxidil used as active comparator/combination arm (Relevance grade B) |
-| [NCT04011748](https://clinicaltrials.gov/study/NCT04011748) | Phase 2 | Unknown | 20 | Stem Cell Educator therapy for alopecia areata; does not involve minoxidil — background context only (Relevance grade C) |
-| [NCT06527729](https://clinicaltrials.gov/study/NCT06527729) | Early Phase 1 | Completed | 28 | Sildenafil lipid-nanocarrier for AA; does not involve minoxidil, small early-phase study — background context only (Relevance grade C) |
-
-### Hypotrichosis Simplex of the Scalp / Congenital Hypotrichosis with Milia
-
 Currently no related clinical trials registered.
-
----
 
 ## Literature Evidence
 
-### Diffuse Alopecia Areata
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35796224](https://pubmed.ncbi.nlm.nih.gov/35796224/) | 2022 | RCT (Comparative) | Dermatologic Therapy | Topical minoxidil 5% gel vs. methotrexate 1% gel in localized AA (n=50), compared clinically and dermoscopically |
-| [36257912](https://pubmed.ncbi.nlm.nih.gov/36257912/) | 2022 | RCT (Comparative) | Dermatologic Therapy | Blinded multi-group RCT comparing latanoprost, minoxidil 5%, betamethasone and combinations in AA |
-| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | Network Meta-analysis | Cochrane Database Syst Rev | Network meta-analysis of AA treatments including hair-growth stimulants such as minoxidil |
-| [36800063](https://pubmed.ncbi.nlm.nih.gov/36800063/) | 2023 | Systematic Review / Meta-analysis | Lasers in Medical Science | Laser/light therapy combined with topical minoxidil in AA — efficacy and safety across pooled RCTs |
-| [38169088](https://pubmed.ncbi.nlm.nih.gov/38169088/) | 2024 | Guideline/Consensus | J Eur Acad Dermatol Venereol | European expert consensus on systemic AA treatment |
-| [33940103](https://pubmed.ncbi.nlm.nih.gov/33940103/) | 2022 | Systematic Review | J Am Acad Dermatol | Systematic review of pediatric AA treatment options |
-| [31499158](https://pubmed.ncbi.nlm.nih.gov/31499158/) | 2021 | Case Series | J Am Acad Dermatol | Combination tofacitinib and oral minoxidil in severe AA |
-| [38634160](https://pubmed.ncbi.nlm.nih.gov/38634160/) | 2024 | Retrospective Case Series | Skin Res Technol | Microneedle-delivered minoxidil combined with triamcinolone acetonide in AA |
-| [35244759](https://pubmed.ncbi.nlm.nih.gov/35244759/) | 2023 | Review | Arch Dermatol Res | Multi-centre retrospective analysis of oral minoxidil in androgenetic alopecia and telogen effluvium (adjacent, not AA-specific) |
-| [38164355](https://pubmed.ncbi.nlm.nih.gov/38164355/) | 2024 | Review (Mechanistic) | Int J Med Sci | Overview of hair follicle regeneration research, referencing minoxidil among standard therapies |
+| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Case report/series | Dermatol Ther | Oral minoxidil plus growth factors in hereditary hypotrichosis simplex of the scalp |
+| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Case report | J Dermatolog Treat | A 14-year-old patient treated with platelet-rich plasma injection plus topical minoxidil 2%; reported as a successful treatment |
+| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Case report | Front Genet | An 8-year-old boy with a *CDSN* variant treated with botanical extracts plus minoxidil |
 
-### Hypotrichosis Simplex of the Scalp
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Case Report | Dermatologic Therapy | Hereditary hypotrichosis simplex treated with oral minoxidil plus growth factors |
-| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Case Report | Frontiers in Genetics | Familial CDSN-mutation HSS in an 8-year-old treated with botanic extracts plus minoxidil |
-| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Case Report | J Dermatolog Treat | Hereditary hypotrichosis simplex treated with platelet-rich plasma plus topical minoxidil 2% |
-
-### Congenital Hypotrichosis with Milia
-
-Currently no related literature available.
-
----
+All three reports describe combination treatments, so the contribution of minoxidil alone cannot be separated. No controlled studies were identified.
 
 ## Australia Market Information
 
-Minoxidil has no current ARTG entries and is **not marketed** in Australia under this evidence pack's data. No Australia-specific product, dosage form, or approved-indication text is available to tabulate.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14041B | Loniten | Tablet 10 mg (oral) | Not specified in the data compiled |
 
----
+The only registered product is an oral tablet. No topical formulation appears in the registered products.
 
 ## Safety Considerations
 
-No TFDA/TGA-sourced warnings, contraindications, or drug interaction data were available in this evidence pack (blocking data gap DG001), and no drug interaction record was found (query status: not found). Please refer to an overseas TGA-equivalent Product Information (e.g. FDA/EMA-approved PI) for minoxidil safety information, since no Australian ARTG-registered PI currently exists for this product.
+Safety information from the product label was not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
----
+- **Knowledge graph contraindication signals (not label text):** the TxGNN knowledge graph links minoxidil to contraindications in several groups:
+  - Cardiovascular: myocardial infarction, coronary thrombosis, heart disease, cardiovascular disease, pericardial effusion, pericarditis and cardiac tamponade
+  - Cerebrovascular: stroke and cerebral infarction
+  - Blood pressure regulation: orthostatic hypotension, postural orthostatic tachycardia syndrome and multiple system atrophy
+  - Other: phaeochromocytoma, kidney disease, hemoglobinopathy and scalp dermatosis
+- **Drug interactions:** 100 interactions were found. The main ones listed are of Moderate severity and include:
+  - Corticosteroids: hydrocortisone, prednisolone, prednisone, dexamethasone, betamethasone, budesonide and triamcinolone
+  - SGLT2 inhibitors: canagliflozin, dapagliflozin, empagliflozin and ertugliflozin
+  - Others: bupropion, morphine, opium, dronabinol, nabilone and sapropterin
+
+  Calcitriol, clotrimazole and metformin were listed with an unknown severity level.
+
+Because the registered product is a systemic oral vasodilator, the cardiovascular signals above matter for any use in a non-life-threatening cosmetic or dermatological condition.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (for diffuse alopecia areata; the other two predicted indications remain at **Research Question** and **Hold** respectively)
+**Decision: Hold (research question only)**
 
 **Rationale:**
-Diffuse alopecia areata is supported by completed comparative trials, RCTs, and systematic reviews/consensus guidelines that already position minoxidil as an adjunctive AA therapy, giving it evidence level L2 — well ahead of the other two candidates, which rest on case reports only or no evidence at all. However, no dedicated Phase 3 RCT of minoxidil monotherapy in AA exists, and the drug currently has no Australian regulatory footprint.
+Support for this indication rests on a high model score and three small case reports of combination treatment, with no registered trials. The only Australian product is a systemic oral antihypertensive with notable cardiovascular warnings, which makes the risk-benefit balance unfavourable for a rare, non-life-threatening condition without better evidence.
 
 **To proceed, the following is needed:**
-- TFDA/TGA-equivalent Product Information covering warnings, contraindications and interactions (blocking gap DG001)
-- Confirmed mechanism-of-action data from DrugBank (gap DG002)
-- A defined Australian regulatory pathway, since minoxidil currently has zero ARTG entries
-- A dedicated Phase 2/3 RCT of minoxidil (monotherapy or as a defined adjunct) specifically in diffuse alopecia areata
-- Continued literature/trial monitoring only (no active development) for hypotrichosis simplex of the scalp and congenital hypotrichosis with milia until stronger evidence emerges
+- Controlled or larger prospective studies of minoxidil alone in hereditary hypotrichosis simplex
+- Mechanism of action data and the full Product Information (warnings and contraindications)
+- A comparison of topical and low-dose oral approaches, with a cardiovascular safety plan
+- Confirmation of the approved indication wording for the ARTG entry
+
+---
+
+## Other Predicted Indications (for reference)
+
+- **Congenital hypotrichosis milia** (TxGNN score 99.9999%, Evidence Level L5): no trials or literature were found. Decision: **Hold**.
+- **Diffuse alopecia areata** (TxGNN score 99.9998%, Evidence Level L4): no registered trials. The supplied literature consists mostly of reviews and general hair loss papers, plus small studies of minoxidil combined with other treatments. Alopecia areata is autoimmune, and minoxidil stimulates follicles rather than modulating the immune system, so it is at most an adjunct. Guideline-level sources favour systemic immunomodulators such as JAK inhibitors. Decision: **Hold (research question only)**.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

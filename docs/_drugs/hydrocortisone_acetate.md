@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hydrocortisone Acetate
-parent: High Evidence (L1-L2)
-nav_order: 329
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 354
+evidence_level: L5
 indication_count: 10
 ---
 
 # Hydrocortisone Acetate
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,81 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Hydrocortisone Acetate: From Inflammatory Skin Conditions to Alopecia Areata
+# Hydrocortisone Acetate: From Autoimmune and Inflammatory Conditions to Alopecia Areata
 
 ## One-Sentence Summary
 
-Hydrocortisone acetate is a synthetic glucocorticoid corticosteroid with well-established anti-inflammatory properties, widely used internationally for inflammatory skin conditions, though currently not registered on the Australian Register of Therapeutic Goods (ARTG).
-The TxGNN model predicts it may be effective for **Alopecia Areata** (patchy hair loss),
-with **1 completed Phase 3 clinical trial** and **2 publications** currently supporting this direction.
-
----
+Hydrocortisone acetate is a low-potency corticosteroid, originally used for autoimmune and inflammatory conditions such as Crohn disease, inflammatory bowel disease, adrenocortical insufficiency and congenital adrenal hyperplasia.
+The TxGNN model predicts it may be effective for **alopecia areata**,
+with **1 clinical trial** (in which hydrocortisone was the comparator) and **2 older publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Anti-inflammatory corticosteroid — not currently registered in Australia (no ARTG entry) |
-| Predicted New Indication | Alopecia Areata |
+|------|------|
+| Original Indication | Autoimmune disease, Crohn disease, inflammatory bowel disease, adrenocortical insufficiency, congenital adrenal hyperplasia and others (from the knowledge graph; the Australian ARTG entry lists no indication text) |
+| Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L1 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L1 per the compiled data; however, the only trial is a single Phase 3 RCT with hydrocortisone as the comparator, so a more conservative reading is L2 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for hydrocortisone acetate in this Evidence Pack. Based on established pharmacology, hydrocortisone acetate is the acetate ester of cortisol — a naturally occurring glucocorticoid — that acts via intracellular glucocorticoid receptors (GR) to suppress immune and inflammatory signalling cascades. The acetate ester formulation creates a depot effect particularly suited to intralesional injection, providing sustained local immunosuppression with reduced systemic exposure.
+Currently, detailed mechanism of action data is not available. Based on known information, hydrocortisone acetate is a glucocorticoid with anti-inflammatory and immunosuppressive activity, its use in autoimmune and inflammatory disease is established, and mechanistically it may be applicable to alopecia areata.
 
-Alopecia areata is driven by CD8+ T-cell autoimmune attack on the hair follicle, causing loss of the follicle's "immune privilege" zone. Glucocorticoids directly address this pathology by suppressing the NF-κB pathway, reducing pro-inflammatory cytokines (IL-1β, TNF-α, IFN-γ), and dampening the aberrant immune response within the follicle unit. This mechanistic alignment is highly direct — topical and intralesional corticosteroid therapy is already recognised as a first-line clinical approach for alopecia areata in major international dermatology guidelines.
+Alopecia areata is a T-cell-mediated autoimmune disease affecting the hair follicle. Glucocorticoids are an established treatment class for it, so the link is plausible. However, hydrocortisone is a low-potency corticosteroid. Higher-potency agents (such as clobetasol or intralesional triamcinolone) are generally preferred, which limits the expected efficacy of hydrocortisone.
 
-The TxGNN prediction is therefore well-supported by mechanistic reasoning. The acetate formulation's established use in intralesional injection (e.g., as a depot suspension) provides a clinically practical route for delivering localised immunosuppression to affected scalp patches, with a more favourable systemic safety profile compared to oral corticosteroids.
-
----
+The other nine predictions in the data (for example telogen effluvium, alopecia mucinosa, folliculitis decalvans and idiopathic steroid-sensitive nephrotic syndrome) have no trial or literature support. They are not assessed further here. Several appear to reflect network proximity to other hair-loss disorders rather than a specific mechanism.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Completed | 41 | Randomised controlled trial directly comparing Hydrocortisone 1% Cream versus Clobetasol Propionate 0.05% Cream in children with alopecia areata; designed to address the evidence gap for optimal topical steroid potency selection in paediatric patients. Note: small sample size (n=41) limits statistical power; primary outcome data should be reviewed to confirm efficacy direction before clinical extrapolation. |
+| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Completed | 41 | Randomised trial in children with alopecia areata comparing clobetasol propionate 0.05% cream with hydrocortisone 1% cream. Hydrocortisone was the low-potency comparator, not the investigational arm. The trial ran 2002-2003, and the compiled data include no results. |
 
----
+No ANZCTR trials were identified in the data compiled for this report.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [4755919](https://pubmed.ncbi.nlm.nih.gov/4755919/) | 1973 | Clinical Study | Przeglad dermatologiczny | Reports on intralesional subcutaneous injection of hydrocortisone acetate suspension for severe forms of alopecia areata — directly evaluates the specific formulation (acetate salt) in the predicted indication. |
-| [153470](https://pubmed.ncbi.nlm.nih.gov/153470/) | 1979 | Review | MMW, Munchener medizinische Wochenschrift | Review of topical corticosteroid therapy advances; contextualises hydrocortisone acetate's anti-inflammatory profile and compares it with newer agents including fluocortin butyl ester. |
-
----
+|------|-----|------|------|---------|
+| [4755919](https://pubmed.ncbi.nlm.nih.gov/4755919/) | 1973 | Case series / clinical report (non-English) | Przeglad dermatologiczny | Intralesional injections of hydrocortisone acetate suspension for severe alopecia areata. No abstract was available. |
+| [153470](https://pubmed.ncbi.nlm.nih.gov/153470/) | 1979 | Review (non-English) | MMW, Munchener medizinische Wochenschrift | Review of advances in topical skin therapy. It notes that the anti-inflammatory effect of fluocortin butyl ester is approximately equal to that of hydrocortisone acetate. It is not specific to alopecia areata. |
 
 ## Australia Market Information
 
-Hydrocortisone acetate is currently **not registered** on the Australian Register of Therapeutic Goods (ARTG). No ARTG entries exist for this specific compound.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10831C | Cortic-DS 1% | Ointment containing hydrocortisone acetate 10 mg per g, 30 g | Not stated in the data compiled |
 
-> **Note for clinicians:** Related hydrocortisone products (different formulations, salts, or combination preparations) may hold separate ARTG registrations. Healthcare professionals should verify current ARTG status via the [TGA website](https://www.tga.gov.au/resources/artg) before any clinical use or regulatory planning.
-
----
+The only registered product is a topical ointment.
 
 ## Safety Considerations
 
-Detailed safety data — including TGA-approved warnings, contraindications, and drug interaction profiles — was not available in this Evidence Pack for review.
+The compiled data contain no label-based warnings, contraindications or drug interaction results. Please refer to the TGA-approved Product Information (PI) for safety information.
 
-Please refer to the **TGA-approved Product Information (PI)** for complete safety information. The following areas are particularly important to clarify before proceeding:
-
-- **HPA axis suppression**: Risk increases with potency, occlusion, surface area, and treatment duration — especially relevant in paediatric use
-- **Local adverse effects**: Skin atrophy, telangiectasia, and perilesional depigmentation with repeated intralesional injection
-- **Infection risk**: Immunosuppression at injection site; relevant for intralesional route
-- **Paediatric safety**: Growth effects and systemic absorption considerations in children
-- **Systemic absorption**: Though lower with topical/intralesional administration compared to oral, monitoring is advisable for extensive disease
-
----
+The drug-disease knowledge graph lists the following conditions as potential contraindications. These are not label text and should be verified against the PI:
+- **Cardiovascular and metabolic:** hypertension, hyperglycaemia
+- **Gastrointestinal, hepatic and renal:** gastric ulcer, kidney disease, pyoureter, liver disease, gallbladder disease
+- **Neurological:** epilepsy
+- **Infections:** measles, herpes simplex virus keratitis
+- **Pituitary and endocrine:** hypopituitarism, growth hormone deficiency and related pituitary deficiency disorders, hypogonadotropic hypogonadism (including Kallmann syndrome), and Sheehan syndrome
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-One completed Phase 3 RCT directly evaluating hydrocortisone cream in paediatric alopecia areata, supported by a 1973 clinical study on the intralesional acetate formulation and a mechanistically robust rationale (glucocorticoid-mediated restoration of hair follicle immune privilege), provides a sufficient foundation to advance — provided that key safety data gaps are closed and the regulatory pathway for unregistered status is addressed.
+The only trial used hydrocortisone as a low-potency comparator against a stronger steroid, and the two publications are decades old and not informative about efficacy. Higher-potency corticosteroids already serve as the standard approach, so hydrocortisone acetate offers little expected advantage in alopecia areata. The high TxGNN score alone does not justify progressing.
 
 **To proceed, the following is needed:**
-
-- Obtain and review TGA-approved Product Information or comparable international PI (e.g., UK MHRA, EMA SmPC) for full safety and contraindication data
-- Access primary outcome data from NCT01453686 to determine whether hydrocortisone demonstrated non-inferiority or inferiority versus high-potency clobetasol propionate
-- Confirm the target formulation and route (topical cream vs. intralesional acetate suspension), as these have distinct risk-benefit profiles
-- Define the target patient population (paediatric vs. adult; limited patch vs. extensive/totalis/universalis disease)
-- Investigate whether an ARTG registration or TGA authorisation (e.g., Special Access Scheme, clinical trial exemption) is required given the currently unregistered status in Australia
-- Source DrugBank MOA data to complete mechanistic documentation and support any regulatory submission
-- Consider a targeted literature search for post-1980 intralesional hydrocortisone acetate evidence, as the existing literature is dated (1973–1979)
+- The results of NCT01453686, to see how hydrocortisone 1% performed against clobetasol
+- Mechanism of action data, which are currently unavailable
+- Label-based warnings and contraindications from the TGA PI, because the safety data are incomplete and this blocks safety screening
+- Evidence for a hydrocortisone acetate formulation specifically, and a comparison with currently preferred treatments for alopecia areata
+- Confirmation of the approved indications for the registered Australian product (Cortic-DS 1%)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Mebeverine
 parent: Model Prediction Only (L5)
-nav_order: 417
+nav_order: 449
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mebeverine: From an Unspecified Original Indication to Cauda Equina Syndrome
+# Mebeverine: From Irritable Bowel Syndrome to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Mebeverine's original indication and mechanism of action are not specified in the current evidence pack. The TxGNN model predicts potential relevance to **Cauda Equina Syndrome**, with a prediction score of **98.01%**, but there are currently **no clinical trials and no published literature** supporting this specific prediction.
-
----
+Mebeverine is a smooth-muscle antispasmodic originally used to treat irritable bowel syndrome (IBS).
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but this is a model-based prediction only, with **no clinical trials** and **no publications** currently supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the evidence pack (no ARTG record, no `original_indications` data) |
-| Predicted New Indication | Cauda Equina Syndrome |
-| TxGNN Prediction Score | 98.01% (model rank 18,606) |
-| Evidence Level | L5 — model prediction only, no supporting studies |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Original Indication | Irritable bowel syndrome (the approved indication text for the Australian product is not available; the original indications listed are irritable bowel syndrome, Clostridium difficile colitis and neurocirculatory asthenia) |
+| Predicted New Indication | Cauda equina syndrome |
+| TxGNN Prediction Score | 98.01% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for mebeverine is not available in this evidence pack, and no original indication is recorded either — the drug is not registered in Australia (0 ARTG entries), so there is no local approved-indication text to compare against.
+Currently, detailed mechanism of action data is not available. Based on known information, mebeverine is a musculotropic antispasmodic that acts on smooth muscle, and its use in IBS is well established. Mechanistically, it may be applicable to symptoms of smooth-muscle dysfunction in other conditions.
 
-Without a documented MOA or a confirmed original indication, a mechanistic rationale linking mebeverine to Cauda Equina Syndrome cannot be constructed from the data provided. Cauda Equina Syndrome is a neurosurgical emergency caused by compression of the lumbosacral nerve roots, and it is not a condition typically addressed through pharmacotherapy alone — this makes the prediction clinically unusual on its face, and it is worth flagging that plausibility could not be assessed against known pharmacology here.
+Cauda equina syndrome is a compressive neurological emergency, and its main management is surgical decompression. Neurogenic bowel and bladder dysfunction could be a secondary symptom target for an antispasmodic, but there is no direct mechanistic rationale for treating the underlying condition. The high TxGNN score reflects a graph-based prediction only and should be interpreted with caution.
 
-This prediction should therefore be treated as a hypothesis generated purely by the TxGNN knowledge-graph model, not as one corroborated by mechanistic or clinical reasoning at this stage.
-
----
+Other predictions in the list (for example, insomnia, rhinitis and mitral valve prolapse) have no credible mechanistic link. The more plausible secondary candidates are gastroduodenitis (symptomatic relief of upper GI cramping, flagged as a research question) and neurogenic bladder (the ontology term is obsolete and should be mapped to a current term such as neurogenic detrusor overactivity before further review).
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
-*(Note: a single unrelated-topic PubMed record (PMID 19334485, on gastroesophageal reflux disease) was returned for a lower-ranked prediction, "gastroduodenitis" (rank 8, score 81.1%) — not for the top-ranked Cauda Equina Syndrome prediction above.)*
-
----
-
 ## Australia Market Information
 
-Mebeverine currently has no ARTG entries and is not marketed in Australia.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 4328T | Colofac | Tablet 135 mg | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-No safety data (key warnings, contraindications, or drug interactions) were returned by the queried sources. Mebeverine holds no ARTG registration in Australia, so no TGA-approved Product Information is available locally. Clinicians should consult overseas regulatory sources (e.g. UK MHRA SmPC, EU EMA labelling) for interim safety guidance until local data can be obtained.
-
----
+Please refer to the TGA-approved Product Information (PI) for safety information. No drug interactions were found in the data compiled for this report, and no knowledge-graph contraindications were recorded.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (Cauda Equina Syndrome) has no clinical trial or literature support (L5 — model prediction only), no MOA data to establish mechanistic plausibility, and the drug is not currently marketed in Australia. This does not meet the bar to proceed.
+The prediction rests on a model score alone (evidence level L5). There are no registered trials or publications, no clear mechanistic link, and the primary condition is managed surgically, so there is no basis to advance.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (DG002, High severity) via DrugBank API
-- TFDA/overseas PI warnings and contraindications (DG001, Blocking — currently prevents any S1 safety screening)
-- Independent literature/clinical evidence specifically linking mebeverine to Cauda Equina Syndrome, or reconsideration of a lower-ranked candidate with at least partial evidence (e.g. rank 8, gastroduodenitis, which returned one PubMed record)
-- Confirmation of mebeverine's original approved indication, since this is currently absent from the evidence pack
+- Mechanism of action data for mebeverine (for example, from DrugBank)
+- TGA Product Information, including warnings, contraindications and the approved indication text
+- A systematic literature and trial search for mebeverine in cauda equina syndrome and neurogenic bowel or bladder dysfunction
+- Mapping of the obsolete neurogenic bladder term to a current ontology term, and consideration of gastroduodenitis as a lower-priority research question
+- Route and formulation compatibility assessment (currently only an oral 135 mg tablet is registered)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

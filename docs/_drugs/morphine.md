@@ -2,15 +2,15 @@
 layout: default
 title: Morphine
 parent: Moderate Evidence (L3-L4)
-nav_order: 455
-evidence_level: L3
+nav_order: 488
+evidence_level: L4
 indication_count: 10
 ---
 
 # Morphine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Morphine: From Pain Management to Myofascial Pain Syndrome
+# Morphine: From Diarrhoeal Disease to Myofascial Pain Syndrome
 
 ## One-Sentence Summary
 
-Morphine is a mu-opioid receptor agonist long established for moderate-to-severe pain. The TxGNN model predicts it may be effective for **Myofascial Pain Syndrome (MPS)**, with **33 clinical trials** and **17 publications** identified, though the evidence is largely class-level (opioids in chronic pain generally) rather than morphine-specific trials in MPS.
+Morphine is a mu-opioid receptor agonist. The data compiled for this report list its original indication as diarrhoeal disease.
+The TxGNN model predicts it may be effective for **myofascial pain syndrome**, but **no clinical trials** and only **indirect literature** (10 publications) support this direction, so the evidence is limited.
+Of the 10 predicted indications reviewed, only **restless legs syndrome** has meaningful clinical evidence (see the note below).
 
 ---
 
@@ -41,73 +43,82 @@ Morphine is a mu-opioid receptor agonist long established for moderate-to-severe
 
 | Item | Content |
 |------|------|
-| Original Indication | Moderate to severe pain (opioid analgesic) — no matching TGA/ARTG licence text was returned by this query |
-| Predicted New Indication | Myofascial Pain Syndrome |
+| Original Indication | Diarrhoeal disease (from the TxGNN knowledge graph; no approved indication text is available for the ARTG entry) |
+| Predicted New Indication | Myofascial pain syndrome |
 | TxGNN Prediction Score | 99.75% |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+**Note on other predictions:** Restless legs syndrome (TxGNN score 99.47%) has the strongest evidence of the ten predictions (Evidence Level L3, with a recommendation of "Research Question"). It is covered in the sections below because it is clinically more informative than the top-ranked prediction.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed TGA-registered mechanism-of-action data is not available for this candidate (data gap). Based on established pharmacology, morphine is a mu-opioid receptor agonist that produces analgesia through spinal and supraspinal inhibition of nociceptive transmission — a broad-spectrum analgesic mechanism rather than a disease-specific one.
+Currently, detailed mechanism of action data is not available. Based on known information, morphine is a mu-opioid receptor agonist with established analgesic activity. Its efficacy in severe pain is well recognised, and mechanistically it may be applicable to chronic musculoskeletal pain such as myofascial pain syndrome.
 
-Myofascial Pain Syndrome is itself a chronic pain condition involving muscle trigger points and central sensitisation, so there is a plausible mechanistic extension from morphine's general analgesic action to MPS. However, the identified evidence base largely consists of studies on opioids in chronic non-cancer pain as a drug class (e.g., long-term opioid therapy registries, opioid-sparing strategies after surgery) and trigger-point-focused procedural trials, rather than trials testing morphine specifically against MPS as a primary endpoint.
+However, the link is weak. The retrieved literature is indirect: it covers perioperative analgesia, opioid use in temporomandibular joint dysfunction, and one randomised trial of dexmedetomidine plus morphine for myofascial infiltration during spinal fusion (PMID 41664327), where morphine was used as an adjuvant rather than as a stand-alone treatment. Opioids are not a standard therapy for myofascial pain, and long-term use carries risks of tolerance, hyperalgesia and dependence.
 
-Given that opioids are not recommended as first-line therapy for chronic non-cancer pain conditions such as MPS under most current clinical guidelines, this prediction should be regarded as a research hypothesis for further mechanistic and clinical investigation rather than an established therapeutic pathway.
+**Other predictions in brief:**
+- **Restless legs syndrome:** Opioids are recognised as an option for refractory cases in reviews and expert guidance. Registry data (up to 5 years) and intrathecal morphine case series support benefit, though no Phase 2/3 RCT was identified.
+- **Manic bipolar disorder, Tourette syndrome, ADHD (inattentive type), migraine, trichotillomania, methaemoglobinaemia, migraine with brainstem aura, specific developmental disorder:** Evidence is absent, preclinical or tangential. For migraine, guidelines generally discourage opioids because of medication-overuse headache and poor efficacy. For methaemoglobinaemia, the score is likely a knowledge-graph artefact. All of these are rated Hold.
 
 ---
 
 ## Clinical Trial Evidence
 
+**Myofascial pain syndrome (top prediction):** Currently no related clinical trials registered.
+
+**Restless legs syndrome (best-supported prediction):**
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT06955923](https://clinicaltrials.gov/study/NCT06955923) | Phase 2 | Completed | 11 | Trigger point injections immediately post-TKA vs sham, evaluating pain scores and opioid use; notes correlation between soft-tissue manipulation and myofascial pain |
-| [NCT04640896](https://clinicaltrials.gov/study/NCT04640896) | Phase 4 | Recruiting | 60 | Trigger point injections vs traditional therapy for postsurgical cervical myofascial pain after anterior cervical spine surgery |
-| [NCT03161795](https://clinicaltrials.gov/study/NCT03161795) | N/A | Completed | 258 | Multicentre South Korean observational study on risks of long-term opioid therapy in chronic non-cancer pain, including opioid-related chemical coping |
-| [NCT03271151](https://clinicaltrials.gov/study/NCT03271151) | Phase 4 | Completed | 160 | Double-blind RCT of duloxetine's effect on opioid consumption after total knee arthroplasty |
-| [NCT04504812](https://clinicaltrials.gov/study/NCT04504812) | Phase 3 | Completed | 1937 | Large effectiveness trial comparing treatments to reduce opioid reliance and improve pain/function in knee osteoarthritis |
-| [NCT06533345](https://clinicaltrials.gov/study/NCT06533345) | N/A | Recruiting | 120 | Chronic pain research clinic examining neuropathic, structural and nociplastic (e.g., fibromyalgia-type) pain mechanisms and treatment |
-| [NCT05069363](https://clinicaltrials.gov/study/NCT05069363) | N/A | Recruiting | 20 | Feasibility trial of whole-body photobiomodulation for chronic pain, referencing morphine as a current but often inadequate treatment option |
-| [NCT04862845](https://clinicaltrials.gov/study/NCT04862845) | Phase 1 | Completed | 90 | Multimodal analgesia (duloxetine + pregabalin) to reduce opioid reliance after liposuction surgery |
-| [NCT04090099](https://clinicaltrials.gov/study/NCT04090099) | N/A | Completed | 93 | Regional nerve blocks vs opioid-based analgesia after cardiac surgery, highlighting opioid-related adverse effects |
-| [NCT05050656](https://clinicaltrials.gov/study/NCT05050656) | Phase 4 | Completed | 70 | Duloxetine premedication and its effect on postoperative pain control after ACL repair under spinal anaesthesia |
-
-Note: Most trials returned by the underlying knowledge-graph search relate to opioids as a drug class in chronic/postoperative pain, or to non-pharmacological/procedural MPS treatments (dry needling, trigger point injection), rather than morphine tested specifically against MPS. Several additional low-relevance trials (e.g., rTMS, tDCS, cryoanalgesia device studies unrelated to opioid pharmacology) were excluded from this table.
+| [NCT01476124](https://clinicaltrials.gov/study/NCT01476124) | Phase 1 | Completed | 18 | Double-blind, 3-part crossover study of the pharmacokinetics and tolerability of gabapentin enacarbil and morphine, alone and combined, in healthy subjects. It provides PK and safety information only, with no efficacy data in RLS. |
 
 ---
 
 ## Literature Evidence
 
+**Myofascial pain syndrome (top prediction):**
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [41664327](https://pubmed.ncbi.nlm.nih.gov/41664327/) | 2026 | RCT | Asian Spine Journal | Double-blind RCT comparing dexmedetomidine + morphine vs plain ropivacaine for myofascial infiltration in thoracolumbar spinal fusion |
-| [22648287](https://pubmed.ncbi.nlm.nih.gov/22648287/) | 2012 | Cohort | Journal of Anesthesia | Cervical facet joint injections added to multimodal treatment for long-standing cervical myofascial pain syndrome |
-| [35066974](https://pubmed.ncbi.nlm.nih.gov/35066974/) | 2022 | Cohort | Pain Practice | Structured stretching exercise programme and its effect on resolving myofascial pain and reducing opioid use in "legacy pain" patients |
-| [20390305](https://pubmed.ncbi.nlm.nih.gov/20390305/) | 2010 | Cohort | Der Schmerz | Altered pain thresholds during and after opioid withdrawal in patients with chronic low back pain |
-| [21419546](https://pubmed.ncbi.nlm.nih.gov/21419546/) | 2011 | Review | J Oral Maxillofac Surg | Review of long-term opioid use in chronic temporomandibular joint dysfunction |
-| [16713811](https://pubmed.ncbi.nlm.nih.gov/16713811/) | 2006 | Review | J Oral Maxillofac Surg | Arthrocentesis with intra-articular morphine infusion for refractory TMJ pain dysfunction syndrome |
-| [17870625](https://pubmed.ncbi.nlm.nih.gov/17870625/) | 2008 | Comparative trial | European Journal of Pain | Epidural analgesia vs intercostal nerve cryoanalgesia for post-thoracotomy pain control |
-| [21691691](https://pubmed.ncbi.nlm.nih.gov/21691691/) | 2011 | Descriptive study | Rev Assoc Med Bras | Therapeutic approach in 56 patients with failed back surgery pain syndrome |
-| [39793344](https://pubmed.ncbi.nlm.nih.gov/39793344/) | 2025 | Study (type pending) | Eur J Obstet Gynecol Reprod Biol | Pudendal nerve block for perioperative pain after botulinum toxin injection for myofascial pelvic pain |
-| [16967674](https://pubmed.ncbi.nlm.nih.gov/16967674/) | 2006 | Review | J Calif Dent Assoc | Use of oral medications, infusions and injections in differential diagnosis of orofacial pain |
+| [41664327](https://pubmed.ncbi.nlm.nih.gov/41664327/) | 2026 | RCT | Asian Spine J | Double-blind trial comparing dexmedetomidine plus morphine with plain ropivacaine 0.2% for myofascial infiltration in thoracolumbar spinal fusion |
+| [35066974](https://pubmed.ncbi.nlm.nih.gov/35066974/) | 2022 | Retrospective cohort | Pain Pract | Structured stretching programme and opioid use in "legacy pain" patients |
+| [21419546](https://pubmed.ncbi.nlm.nih.gov/21419546/) | 2011 | Review/commentary | J Oral Maxillofac Surg | Long-term opioid use in TMJ dysfunction can be neither supported nor refuted on current evidence |
+| [16713811](https://pubmed.ncbi.nlm.nih.gov/16713811/) | 2006 | Clinical practice report | J Oral Maxillofac Surg | TMJ arthrocentesis followed by intra-articular morphine infusion |
+
+**Restless legs syndrome (best-supported prediction):**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [27310338](https://pubmed.ncbi.nlm.nih.gov/27310338/) | 2016 | Review | Expert Opin Drug Metab Toxicol | Pharmacological and clinical aspects of opioids in RLS |
+| [29304922](https://pubmed.ncbi.nlm.nih.gov/29304922/) | 2018 | Review | Mayo Clin Proc | Appropriate use of opioids in refractory RLS |
+| [36697248](https://pubmed.ncbi.nlm.nih.gov/36697248/) | 2023 | Cohort | Neurology | Two-year safety, dose stability and efficacy data from the National RLS Opioid Registry |
+| [41543123](https://pubmed.ncbi.nlm.nih.gov/41543123/) | 2026 | Cohort | Sleep | Five-year effectiveness and dose stability of opioids in the registry |
+| [39106456](https://pubmed.ncbi.nlm.nih.gov/39106456/) | 2024 | Case series | Pain | Long-term intrathecal low-dose morphine relieved severe RLS without inducing opioid tolerance |
+| [31133964](https://pubmed.ncbi.nlm.nih.gov/31133964/) | 2019 | Case report | Front Neurol | RLS improved during morphine and fentanyl treatment of cancer pain |
+| [36692170](https://pubmed.ncbi.nlm.nih.gov/36692170/) | 2023 | Observational | J Clin Sleep Med | RLS emerged during opioid discontinuation |
 
 ---
 
 ## Australia Market Information
 
-No ARTG entries were returned for this candidate in the current dataset (0 licences; market status: not marketed). This is a data gap in the underlying regulatory query rather than confirmation that no morphine products exist on the Australian market — morphine is a Schedule 8 (Controlled Drug) opioid with a long history of clinical use, and TGA/ARTG records should be checked directly to confirm current registered products, formulations and approved indications before any repurposing evaluation proceeds.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10858L | Morphine Juno | Injection containing morphine hydrochloride trihydrate 20 mg in 1 mL | Not available in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No structured warnings, contraindications or drug interaction data were returned in this evidence pack (DDI query: not found).
+- **Contraindication signals from the knowledge graph (not label text):** These include hypertension, orthostatic hypotension, long QT syndrome and torsades de pointes, liver failure and liver disease, kidney disease, epilepsy, COPD, gastric ulcer, pancreatitis, gallbladder disease, hypothyroidism and myxoedema, anxiety and psychotic disorders, and potassium deficiency. These should be verified against the Product Information.
+- **Drug interactions:** 100 interactions were identified. Major interactions in the listed sample include fentanyl, dihydrocodeine, codeine, tramadol, butalbital, dichloralphenazone, alprazolam and ethanol, mainly additive CNS and respiratory depression. Moderate interactions include chlorpheniramine, acebutolol, nifedipine, hydrochlorothiazide, cetirizine and metformin.
+- **Other concerns from the literature:** Dependence, respiratory depression, misuse, opioid-induced hyperalgesia and medication-overuse headache. Abuse liability is a particular concern in psychiatric and developmental indications.
 
-As general clinical context worth flagging: several of the trials and literature above indicate that opioids are associated with dependence risk, opioid-induced hyperalgesia, and are generally positioned as third-line or adjunct therapy — not first-line — in chronic non-cancer pain conditions similar to MPS. This should be weighed heavily in any Australian PI safety review.
+Warnings and contraindications from the label were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ---
 
@@ -116,13 +127,14 @@ As general clinical context worth flagging: several of the trials and literature
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction score is high, but the supporting evidence is class-level (opioids broadly in chronic/postoperative pain) rather than morphine-specific trials for MPS, and the underlying scoring itself flags this as a "Research Question" at an early evaluation stage (L3/S1). Given morphine's opioid dependence and misuse risk, and that current guidelines do not support opioids as first-line MPS therapy, clinical progression is not warranted on the present evidence.
+The top prediction (myofascial pain syndrome) has no clinical trials and only indirect literature, and opioids are not standard therapy for it. Of the ten predictions, only restless legs syndrome has substantive observational support (Level L3), but without a Phase 2/3 RCT it is best treated as a research question rather than a candidate for immediate repurposing. The safety profile of morphine requires strong guardrails in any new indication.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications, DDI) — currently a blocking data gap for safety assessment
-- Confirmed mechanism-of-action documentation (DrugBank or TGA source) — currently a data gap
-- A dedicated trial testing morphine (or opioids as a class) specifically against MPS outcomes, rather than general chronic-pain opioid-use data
-- Confirmation of current ARTG registration status and available formulations in Australia
+- The TGA Product Information, including warnings and contraindications, which was not available for this report
+- Approved indication text for the ARTG entry, and confirmation of how the original indication (diarrhoeal disease) applies in Australia
+- Detailed mechanism of action data
+- For restless legs syndrome: a controlled trial (Phase 2/3) in refractory patients, with a risk management plan covering dependence, respiratory depression and misuse, and a check of route suitability (intrathecal versus the available injectable form)
+- For myofascial pain syndrome: controlled efficacy data comparing morphine with standard non-opioid treatments
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Dostarlimab
 parent: Model Prediction Only (L5)
-nav_order: 211
+nav_order: 228
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,118 +29,91 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dostarlimab: From Oncology (dMMR Solid Tumours) to X-Linked Intellectual Disability-Epilepsy Syndrome
+# Dostarlimab: From Oncology Use (Original Indication Not Recorded) to X-linked Intellectual Disability-Epilepsy Syndrome
 
 ## One-Sentence Summary
 
-Dostarlimab (Jemperli®) is a humanised anti-PD-1 monoclonal antibody approved internationally (FDA/EMA) for mismatch repair-deficient (dMMR) endometrial cancer and dMMR solid tumours, but is currently not registered in Australia (0 ARTG entries).
-The TxGNN model's top-ranked predicted new indication is **X-linked intellectual disability-epilepsy syndrome**, with a score of **50.00%** (rank #1,228,166 out of all drug-disease pairs) — however, **no clinical trials or supporting literature** exist for this combination, and the mechanistic rationale is extremely weak.
-This prediction is rated **L5** (model prediction only) and a **Hold** decision is recommended.
-
----
-
-## ⚠️ Prediction Quality Alert
-
-All 10 TxGNN-predicted indications in this Evidence Pack share an **identical score of 50.00%** with consecutive rank numbers (#1,228,166–#1,228,175). These are very low-priority predictions in the global TxGNN ranking. None of the 10 candidates have any supporting clinical trials or published literature. The most mechanistically plausible candidate in this batch is **optic pathway glioma** (Rank #10), the only oncological indication in the set, which carries a "Research Question" rating at L4. This context is essential when interpreting the top-ranked prediction below.
-
----
+Dostarlimab (Jemperli) is a PD-1 blocking antibody used in cancer immunotherapy. The data compiled for this report did not record an approved indication for the Australian product.
+The TxGNN model's top-ranked prediction is **X-linked intellectual disability-epilepsy syndrome**, but the score is a neutral 0.5 and there are **0 clinical trials** and **0 publications** supporting it.
+This prediction is not supported by evidence, and the same applies to all ten predictions reviewed.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Australia; internationally approved for dMMR/MSI-H endometrial cancer and dMMR solid tumours |
+|------|------|
+| Original Indication | Not available in the data compiled for this report (the ARTG indication text is empty). Overseas, dostarlimab is approved for mismatch repair deficient (dMMR) endometrial cancer and other dMMR solid tumours |
 | Predicted New Indication | X-linked intellectual disability-epilepsy syndrome |
-| TxGNN Prediction Score | 50.00% (rank #1,228,166) |
-| Evidence Level | L5 — model prediction only, no clinical or preclinical studies |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| TxGNN Prediction Score | 50.00% (neutral, uninformative) |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data from DrugBank is not available in this Evidence Pack. Based on established pharmacological knowledge, Dostarlimab is a humanised IgG4 monoclonal antibody that blocks the **programmed death-1 (PD-1)** receptor on T cells, preventing its engagement with PD-L1 and PD-L2 ligands. This disinhibits T-cell-mediated cytotoxicity, restoring immune surveillance against tumour cells. It is designed as an immune activator in oncological contexts — not an immunosuppressant.
+Currently, detailed mechanism of action data is not available in the compiled drug record. From the pharmacology data, dostarlimab is an antibody that binds human PD-1 (PDCD1, CD279) with high affinity and blocks its interaction with both PD-L1 and PD-L2. This restores T-cell anti-tumour activity.
 
-**X-linked intellectual disability-epilepsy syndrome (XLIE)** is a genetic neurodevelopmental disorder driven by mutations in X-linked genes such as *ARX*, *MECP2*, and *SLC9A6*. The underlying pathology is one of neuronal circuit maldevelopment and excitatory-inhibitory imbalance — not immune dysregulation, tumour neoantigens, or checkpoint-mediated immune exhaustion. While emerging research has explored PD-1 signalling in neuroinflammation, there is no established mechanistic pathway linking PD-1 blockade to correction of the genetic neuronal deficits that characterise XLIE.
+The prediction is **not mechanistically reasonable** on current information. X-linked intellectual disability-epilepsy syndrome is a monogenic neurodevelopmental disorder with no established immune checkpoint component. A TxGNN score of 0.5 carries no information, and no trials or literature support the link.
 
-Furthermore, large-molecule biologics such as monoclonal antibodies face significant pharmacokinetic limitations at the blood-brain barrier. Dostarlimab's CNS penetration is expected to be negligible, substantially limiting any theoretical effect on central neurological targets. The mechanistic link between PD-1 inhibition and XLIE is, in summary, extremely weak — this prediction most likely reflects a statistical artefact of the knowledge graph traversal rather than a genuine biological hypothesis.
+The other nine predictions reviewed (all also scored 0.5, all L5) fare no better:
 
----
+| Rank | Predicted Disease | Assessment |
+|------|------|------|
+| 2 | Balanoposthitis | No plausible link; immune activation could worsen inflammation |
+| 3 | Acquired amyloid peripheral neuropathy | PD-1 blockade does not affect amyloid; checkpoint inhibitors can cause neuropathy |
+| 4 | Peripheral neuropathy with monoclonal gammopathy | Speculative link via plasma cell clone; limited efficacy of PD-1 blockade and risk of immune-mediated neuropathy |
+| 5 | Systemic inflammatory disease with acquired peripheral neuropathy | Immunostimulation is opposite to what is needed |
+| 6 | Polyradiculoneuropathy with monoclonal gammopathy | Checkpoint inhibitors are linked to Guillain-Barré-like events; harm likely exceeds benefit |
+| 7 | Cutis laxa | No link to elastic fibre formation |
+| 8 | Transient global amnesia | No plausible role |
+| 9 | Cryopyrin-associated periodic syndrome | Driven by NLRP3/IL-1β; effective approved therapies exist; could worsen autoinflammation |
+| 10 | Optic pathway glioma | Only loosely plausible oncology rationale, but low mutational burden, no MMR-deficiency rationale and risk of inflammatory optic pathway damage |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
-Dostarlimab is **not currently registered on the Australian Register of Therapeutic Goods (ARTG)** and has no TGA-approved product listings as at 4 April 2026.
-
-Clinicians requiring current regulatory status should consult:
-- [ARTG Public Search — Therapeutic Goods Administration](https://www.tga.gov.au/resources/artg)
-- GSK Australia for the current regulatory submission status of Jemperli®
-
-For reference, Dostarlimab holds regulatory approval in the following jurisdictions:
-
-| Jurisdiction | Approval Year | Approved Indication |
-|---|---|---|
-| FDA (USA) | 2021 / expanded 2023 | dMMR recurrent or advanced endometrial cancer; dMMR/MSI-H solid tumours (tumour-agnostic) |
-| EMA (EU/UK) | 2021 | dMMR recurrent or primary advanced endometrial cancer |
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14109N | Jemperli | Solution concentrate for I.V. infusion 500 mg in 10 mL | Not available in the compiled data |
 
 ## Cytotoxicity
 
-Dostarlimab is an oncology agent (anti-PD-1 immune checkpoint inhibitor). The following classification applies:
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Immunotherapy — immune checkpoint inhibitor (anti-PD-1 monoclonal antibody); not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low–Moderate; not a direct myelosuppressant, but immune-related haematological toxicities (immune thrombocytopenia, haemolytic anaemia) have been reported as irAEs |
-| Emetogenicity Classification | Low (monoclonal antibody; minimal direct emetogenic potential; infusion-related reactions possible) |
-| Monitoring Items | FBC with differential, LFTs, TFTs (thyroid function), fasting glucose/HbA1c, creatinine/eGFR, morning cortisol, urinalysis; regular clinical review for immune-related adverse events (irAEs) at all organ systems |
-| Handling Protection | Standard biological/monoclonal antibody handling precautions apply; cytotoxic chemotherapy handling protocols are not required |
-
----
+|------|------|
+| Cytotoxicity Classification | Immunotherapy (anti-PD-1 monoclonal antibody) |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
+| Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
 
 ## Safety Considerations
 
-No TGA-approved Australian Product Information is available (drug not registered in Australia), and safety data was not retrievable in this Evidence Pack. Please refer to the internationally approved Product Information for full prescribing guidance:
+Please refer to the TGA-approved Product Information (PI) for safety information.
 
-- **FDA Prescribing Information (Jemperli®)**: [DailyMed — NLM](https://dailymed.nlm.nih.gov/)
-- **EMA Summary of Product Characteristics**: [European Medicines Agency](https://www.ema.europa.eu/)
-
-Clinicians should be aware that, as a class, anti-PD-1 agents carry serious immune-related adverse event (irAE) risks affecting the gastrointestinal tract, liver, lungs, endocrine glands (thyroid, pituitary, adrenal), kidneys, skin, and nervous system. An irAE of particular relevance to this predicted indication: PD-1 inhibitors have been documented to cause **immune-mediated encephalitis and peripheral/central neurological irAEs**, which would be directly counterproductive in a patient population with an existing neurological disorder.
-
----
+Points from the mechanism-based review of the predictions:
+- **Immune-related adverse events**: Checkpoint inhibitors can cause immune-mediated neuropathy, including Guillain-Barré-like polyradiculoneuropathy. This is particularly relevant to several predicted neurological indications.
+- **Immune activation**: Enhanced immune activity could worsen inflammatory or autoinflammatory conditions.
+- **Drug interactions**: The only interaction record is the pharmacological target (PD-1, PDCD1). No drug-drug interactions with a graded severity level were identified.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top TxGNN prediction for Dostarlimab — X-linked intellectual disability-epilepsy syndrome — has no mechanistic plausibility, no supporting clinical trials, no literature evidence, and a borderline low TxGNN score (50.00% at global rank #1,228,166). Additionally, Dostarlimab's known irAE profile includes neurological toxicities that could directly harm patients with pre-existing epilepsy syndromes, raising a potential safety concern beyond simple lack of efficacy. This prediction does not meet the minimum threshold for further investigation.
+All ten predictions have a neutral TxGNN score of 0.5, no clinical trials, no literature and no credible mechanistic link. Several carry a plausible safety risk from immune activation.
 
-**To proceed with any Dostarlimab repurposing research, the following is needed:**
-
-- **Resolve Blocking data gap (DG001)**: Retrieve the full international Product Information (FDA/EMA) to complete safety and contraindication assessment, given the absence of TGA registration data
-- **Resolve High-severity data gap (DG002)**: Query DrugBank API for complete MOA data to enable mechanistic linkage analysis
-- **Pivot to oncological indications**: Redirect the repurposing analysis to **optic pathway glioma** (Rank #10, L4, "Research Question"), the only oncologically plausible candidate in this batch — where Dostarlimab's anti-PD-1 mechanism and the tumour-agnostic dMMR/MSI-H framework may provide a rational basis for a research hypothesis
-- **Commission a targeted TxGNN run**: Request predictions filtered to solid tumour and CNS tumour indication categories, where anti-PD-1 agents have an established mechanistic framework
-- **TGA registration pathway assessment**: If future evidence supports Australian use, evaluate the regulatory pathway for TGA registration, noting the existing FDA and EMA precedents as potential reference products
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require prospective clinical validation before clinical application. Australian healthcare professionals should consult TGA-approved product information where available.*
+**To proceed, the following is needed:**
+- Retrieval of the Jemperli Product Information (warnings and contraindications), which is currently a blocking data gap
+- Approved indication text for ARTG 14109N
+- Detailed mechanism of action data from DrugBank
+- New biological evidence for any specific candidate (optic pathway glioma is the only one with a loosely plausible oncology rationale) before further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

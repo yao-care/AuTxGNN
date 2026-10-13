@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Degarelix
-parent: Moderate Evidence (L3-L4)
-nav_order: 189
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 206
+evidence_level: L5
 indication_count: 10
 ---
 
 # Degarelix
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,35 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Degarelix (Firmagon) is a GnRH receptor antagonist approved in multiple jurisdictions for advanced hormone-sensitive prostate cancer, suppressing testosterone to castrate levels by blocking pituitary GnRH receptors.
-The TxGNN model predicts it may be effective for **Hypertrichosis (generalised excessive hair growth)**, however the mechanistic basis is weak, with **no clinical trials** and **no supporting publications** currently available for this indication.
-Evidence remains at the preclinical/mechanistic reasoning stage only.
+Degarelix is a GnRH receptor antagonist marketed in Australia as Firmagon 80 mg. The data compiled for this report did not include an approved indication text for it. The TxGNN model predicts it may be effective for **hypertrichosis**, but there are **0 clinical trials** and **0 publications** supporting this direction, and the mechanistic rationale is weak.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Advanced hormone-sensitive prostate cancer |
+|------|------|
+| Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Hypertrichosis |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Degarelix is a synthetic decapeptide GnRH receptor antagonist. By competitively blocking GnRH receptors in the anterior pituitary, it rapidly and reversibly suppresses LH and FSH secretion, resulting in a swift reduction of testosterone and oestradiol to castrate levels — critically, without the initial testosterone "flare" associated with GnRH agonists. This makes it particularly suitable for patients with prostate cancer where a testosterone surge could cause acute symptom worsening.
+Detailed mechanism of action data is not available in the data compiled for this report. Degarelix is a GnRH receptor antagonist. It suppresses LH and FSH and, as a result, testosterone and downstream androgens.
 
-The theoretical rationale connecting Degarelix to hair disorders rests on the well-established role of androgens — particularly dihydrotestosterone (DHT) — in regulating hair follicle cycling. By substantially lowering circulating androgens, a GnRH antagonist could theoretically reduce androgen-dependent excessive hair growth in conditions such as hirsutism or polycystic ovary syndrome (PCOS)-associated hyperandrogenism.
+Hypertrichosis is generally not androgen-dependent (unlike hirsutism), so the link to androgen suppression is weak. The very high TxGNN score is a graph-based prediction with no supporting trial or literature evidence. Hypertrichosis is also a recognised adverse effect of some drugs, and no data suggest degarelix would treat it.
 
-However, there is a fundamental distinction that undermines this prediction: **hypertrichosis** and **hirsutism** are not the same condition. Hypertrichosis is generalised, non-androgen-dependent excessive hair growth, with pathophysiology encompassing congenital genetic variants, drug-induced causes, and paraneoplastic mechanisms — none of which involve the GnRH–gonadal axis. The TxGNN model's high prediction score almost certainly reflects topological proximity of hair-related nodes within the knowledge graph, rather than a biologically meaningful drug–disease relationship. The mechanistic link is assessed as **weak to absent** for true hypertrichosis.
+The other top-ranked predictions are similarly poorly supported. They include Ambras-type hypertrichosis, Dandy-Walker malformation syndromes, malformation syndromes with dental involvement, isolated hair shaft abnormalities, allergic and cold urticaria, and familial isolated trichomegaly. They are mostly genetic or developmental conditions with no plausible GnRH-related mechanism, and the scores likely reflect network proximity rather than a real therapeutic link.
+
+Two lower-ranked predictions are mechanistically closer to degarelix's axis but still lack clinical evidence:
+- **Central precocious puberty:** GnRH antagonism is plausible and GnRH agonists are standard of care. Degarelix has no paediatric trials and requires depot injections with notable injection-site reactions.
+- **Familial male-limited precocious puberty:** This is driven by activating LHCGR mutations downstream of the pituitary, so GnRH blockade would not be expected to control it.
 
 ---
 
@@ -77,41 +79,28 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-Degarelix is **not currently registered with the Therapeutic Goods Administration (TGA)** and holds no ARTG entries. It is not marketed in Australia.
-
-Healthcare professionals seeking prescribing information should refer to:
-- The **FDA prescribing information** for Firmagon® (ferring Pharmaceuticals)
-- The **EMA Summary of Product Characteristics** (Firmagon, EU/1/08/504)
-- The **TGA Unapproved Medicines scheme** (Special Access Scheme or Authorised Prescriber pathway) if clinical use is being considered
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2784M | Firmagon 80mg | Powder for injection 80 mg (as acetate), injection set | Not stated in the data compiled |
 
 ---
 
 ## Cytotoxicity
 
-Degarelix is used in the treatment of prostate cancer and is therefore assessed under cytotoxicity criteria.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Hormone therapy — GnRH receptor antagonist (not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Low (hormone therapy mechanism; myelosuppression is not a primary concern) |
-| Emetogenicity Classification | Minimal |
-| Monitoring Items | Serum testosterone, PSA, liver function tests, QTc interval (ECG monitoring for prolongation risk), bone mineral density (with long-term use due to androgen deprivation) |
-| Handling Protection | Standard pharmaceutical handling procedures; cytotoxic drug handling protocols are **not** required |
+Degarelix is a hormonal agent, not a conventional cytotoxic, and the data compiled for this report did not classify it as antineoplastic. This section is therefore omitted.
 
 ---
 
 ## Safety Considerations
 
-As Degarelix holds no TGA registration and formal Australian Product Information (PI) is unavailable, complete safety data could not be retrieved.
+- **Contraindications (knowledge-graph associations, not label text):** long QT syndrome, familial long QT syndrome, torsades de pointes, liver disease, gallbladder disease, potassium deficiency disease.
+- **Drug Interactions:** 100 interactions were identified in total. The first 20 returned include:
+  - **Major:** cisapride, dolasetron.
+  - **Moderate:** famotidine, loperamide, bisacodyl, clarithromycin, picosulfuric acid, polyethylene glycol (3350 with electrolytes), castor oil, glycerin, granisetron, lactitol, lactulose, levofloxacin, magnesium citrate, magnesium hydroxide, mineral oil, ondansetron, palonosetron.
+  - **Minor:** metronidazole.
+  - Many of these are QT-prolonging or electrolyte-disturbing agents, which is consistent with the QT-related contraindication signals above.
 
-Please refer to the **FDA Firmagon® Prescribing Information** or **EMA Summary of Product Characteristics** for full safety details. Key areas of known clinical concern based on the drug class include:
-
-- **Injection site reactions** (pain, erythema, swelling) — common with the subcutaneous formulation
-- **QTc prolongation** — androgen deprivation therapy is associated with QT interval changes; ECG monitoring is advisable in patients with cardiac risk factors or on concomitant QT-prolonging agents
-- **Cardiovascular risk** — androgen deprivation therapy is associated with increased risk of metabolic syndrome, diabetes, and cardiovascular events with long-term use
-- **Bone mineral density loss** — androgen suppression accelerates osteoporosis; baseline and periodic bone density monitoring is recommended
-
-No formal Drug–Drug Interaction (DDI) data was retrieved in this evidence pack. Clinicians should exercise caution with co-administration of QT-prolonging medicines.
+Label warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ---
 
@@ -120,19 +109,13 @@ No formal Drug–Drug Interaction (DDI) data was retrieved in this evidence pack
 **Decision: Hold**
 
 **Rationale:**
-The top TxGNN prediction (hypertrichosis) lacks a plausible mechanistic basis — hypertrichosis is predominantly non-androgen-dependent, meaning Degarelix's primary mechanism of action is unlikely to be therapeutically relevant. There are no registered clinical trials and no supporting literature for this indication. The high TxGNN score is assessed as a likely knowledge graph topological false positive.
+The prediction rests only on a model score. There are no clinical trials or publications, and the mechanism does not support efficacy in hypertrichosis, which is generally not androgen-driven.
 
 **To proceed, the following is needed:**
-
-- **Disease subtype clarification**: Determine whether the clinical question is actually about *androgen-dependent* hirsutism (e.g., PCOS, congenital adrenal hyperplasia) rather than true hypertrichosis — a different patient population where the mechanistic rationale would be considerably stronger
-- **Preclinical evidence**: Mechanistic or in vitro studies demonstrating GnRH receptor involvement in hypertrichosis pathophysiology
-- **Safety profiling for new populations**: Existing safety data is derived entirely from adult male prostate cancer patients; data for women, adolescents, or paediatric populations is absent
-- **TGA regulatory pathway**: Degarelix is not registered in Australia; any clinical use would require a Special Access Scheme (SAS) application or Authorised Prescriber designation — and any repurposing use would require a separate regulatory strategy
-- **Consideration of higher-ranked mechanistic predictions**: Ranks 8–9 in this evidence pack (familial male-limited precocious puberty; central precocious puberty) carry substantially stronger mechanistic rationale for a GnRH antagonist and may represent more viable repurposing candidates for further evaluation
-
----
-
-> ⚠️ **Disclaimer**: This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates identified through computational modelling require clinical validation before any therapeutic application. All prescribing decisions must comply with current TGA regulations and approved indications.
+- Approved indication text and PI warnings and contraindications from the TGA/ARTG record
+- Detailed mechanism of action data
+- Any preclinical or clinical evidence linking GnRH antagonism to hypertrichosis
+- If a more plausible candidate is pursued (e.g. central precocious puberty), a paediatric safety and feasibility assessment first
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

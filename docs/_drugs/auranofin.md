@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Auranofin
-parent: High Evidence (L1-L2)
-nav_order: 66
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 71
+evidence_level: L5
 indication_count: 10
 ---
 
 # Auranofin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,98 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Auranofin: From Rheumatoid Arthritis to Arthropathy
+# Auranofin: From Rheumatoid Arthritis to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
 
 ## One-Sentence Summary
 
-Auranofin (Ridaura) is an oral gold(I) compound approved by the FDA in 1985 as a disease-modifying antirheumatic drug (DMARD) for rheumatoid arthritis (RA), with over 40 years of international clinical use. The TxGNN model predicts it may be effective for **Arthropathy** (inflammatory joint disease), consistent with its established pharmacological profile — currently supported by **20 publications including historical Phase 3 comparative trial data**, though no Auranofin-specific trials are registered in ClinicalTrials.gov or ICTRP at this time. Critically, Auranofin is **not currently registered in Australia**, representing a potential access gap for patients with inflammatory arthropathy who may benefit from this unique oral gold therapy.
+Auranofin is an oral gold-based anti-rheumatic drug, originally used to treat rheumatoid arthritis.
+The TxGNN model's top-ranked prediction is **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, an ultra-rare developmental disorder, but there are **0 clinical trials** and **0 publications** supporting it. The score most likely reflects knowledge-graph proximity rather than biology.
 
----
+Note: the more biologically plausible candidates in the data compiled for this report are **arthropathy** (including gouty and psoriatic arthritis) and **osteoarthritis**. They are discussed below as context, but they remain preclinical or indirect.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Rheumatoid Arthritis (FDA-approved 1985; not TGA-registered) |
-| Predicted New Indication | Arthropathy |
-| TxGNN Prediction Score | 62.81% |
-| Evidence Level | L1 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+|------|------|
+| Original Indication | Rheumatoid arthritis |
+| Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| TxGNN Prediction Score | 99.56% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Auranofin is the only FDA-approved oral gold compound and has been used in chrysotherapy for rheumatoid arthritis for more than four decades. Although the complete mechanism of action was not fully characterised at the time of its approval, substantial pharmacological research has since identified several key pathways. **(1) TXNRD1/TrxR1 inhibition:** Auranofin covalently inhibits thioredoxin reductase 1, disrupting cellular redox homeostasis and inducing apoptosis in activated T and B lymphocytes and macrophages — the central driver of its immunosuppressive effect. **(2) NF-κB pathway suppression:** Auranofin blocks NF-κB activation, reducing downstream production of pro-inflammatory mediators including TNF-α, IL-1β, IL-6, COX-2, and inducible nitric oxide synthase (iNOS). **(3) NLRP3 inflammasome inhibition:** 2025 research (PMID 41090769) demonstrates that Auranofin suppresses NLRP3 activation and neutrophil migration via the IL-33/ST2-CXCL1 axis, extending its anti-inflammatory activity to gout and other crystal-induced arthropathies.
+Detailed mechanism of action data is not formally recorded for this drug. From the published literature, auranofin is a gold(I) compound that inhibits thioredoxin reductase, increases cellular oxidative stress, and suppresses inflammatory signalling such as NF-κB and the NLRP3 inflammasome. Its exact mechanism in rheumatoid arthritis is still not fully understood.
 
-Arthropathy broadly encompasses the spectrum of inflammatory and degenerative joint diseases, with RA as the paradigm condition. Multiple Phase 2/3 comparative trials from the 1980s–1990s established Auranofin's clinical efficacy in RA, favourably comparing it to parenteral gold sodium thiomalate across joint inflammation scoring (Ritchie index), swollen joint counts, ESR, grip strength, and morning stiffness. A 1990 double-blind RCT with 145 patients (PMID 2261735) demonstrated significant improvements in all these parameters during both the blinded and open-extension phases. More recent data (PMID 36243005, 2022) revealed that Auranofin also normalises obesity-associated inflammation and metabolic dysfunction in mouse models, illustrating the breadth of its systemic anti-inflammatory reach beyond the joint.
+For the top-ranked prediction, **no plausible mechanistic link was identified**. Colobomatous microphthalmia-rhizomelic dysplasia syndrome is an ultra-rare developmental disorder, and nothing in auranofin's redox or anti-inflammatory pharmacology suggests it could correct such a condition. The high score (rank 5,468 in the model's output) likely reflects proximity in the knowledge graph rather than a real biological relationship. The next two predictions (brachydactyly-syndactyly syndrome, 99.24%; osteoarthritis susceptibility, 91.79%) share the same weakness. The first is a congenital limb malformation, and the second is a genetic susceptibility label rather than a treatable clinical entity.
 
-The TxGNN model's prediction is mechanistically well-grounded and supported by Level 1 historical evidence. However, current clinical trial registries contain no Auranofin-specific arthropathy trials; the trials identified in this evidence pack evaluate other agents (tofacitinib and rituximab) and were retrieved due to overlapping arthropathy classification tags. The primary evidentiary strength resides in the literature corpus spanning 1983–2025.
-
----
+Lower-ranked predictions are more biologically credible:
+- **Arthropathy (62.81%)**: This overlaps largely with the existing rheumatoid arthritis indication. A 2025 preclinical study reported that auranofin reduced gouty inflammation by suppressing NLRP3 activation and neutrophil migration. This is a possible new direction at the preclinical stage.
+- **Osteoarthritis (61.93%)**: A 2022 preclinical study found that inhibiting TXNRD1 (auranofin's primary target) protected cartilage matrix through Nrf2 activation. This is hypothesis-generating only, with no human efficacy data.
+- **Cholangiocarcinoma susceptibility (64.11%)**: Auranofin has general preclinical anticancer activity, but nothing specific to cholangiocarcinoma was retrieved.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03975790](https://clinicaltrials.gov/study/NCT03975790) | N/A | Completed | 479 | Retrospective cohort study comparing tofacitinib (Xeljanz) + MTX vs. tofacitinib alone in RA patients using US healthcare claims data — **evaluates tofacitinib, not Auranofin**; retrieved due to arthropathy classification overlap |
-| [NCT01557348](https://clinicaltrials.gov/study/NCT01557348) | N/A | Completed | 1,239 | Prospective observational study of rituximab vs. alternative TNF inhibitors in RA patients who failed a single TNF inhibitor — **evaluates biologics, not Auranofin**; provides background on refractory RA management context |
-
-> **Note:** Neither trial above evaluates Auranofin directly. No Auranofin-specific arthropathy trials are currently registered in ClinicalTrials.gov or ICTRP. The L1 evidence designation is derived from historical Phase 3 RCT-era data documented in the literature set below.
-
----
+Currently no related clinical trials registered for the top-ranked prediction, nor for any of the 10 predicted indications reviewed.
 
 ## Literature Evidence
 
+Currently no related literature available for the top-ranked prediction.
+
+For context, the table below lists the most relevant publications retrieved for the arthropathy and osteoarthritis predictions. They support the general pharmacology of auranofin, not the top-ranked prediction.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34731781](https://pubmed.ncbi.nlm.nih.gov/34731781/) | 2021 | Comprehensive Review | Int Immunopharmacol | Synthesis of 40+ years of Auranofin in RA; confirms TXNRD1, NF-κB, COX-2, Prdx1/Nrf2 mechanisms; documents growing repurposing portfolio across oncology, infectious disease, and metabolic conditions |
-| [6426044](https://pubmed.ncbi.nlm.nih.gov/6426044/) | 1983 | Phase 3 Era Review | Scand J Rheumatol Suppl | Comparative safety and efficacy of Auranofin vs. parenteral gold across 12 published studies; 8/12 showed equivalent efficacy, 2 favoured each agent; withdrawal rate substantially lower with Auranofin |
-| [2261735](https://pubmed.ncbi.nlm.nih.gov/2261735/) | 1990 | RCT + Open Extension | Clin Rheumatol | 6-month double-blind RCT of OM-8980 vs. Auranofin (145 RA patients), followed by 6-month open phase; significant improvements in Ritchie index, swollen joints, pain scale, morning stiffness, grip strength, and ESR |
-| [41090769](https://pubmed.ncbi.nlm.nih.gov/41090769/) | 2025 | Preclinical (In vitro + In vivo) | Cells | Auranofin suppresses NLRP3 inflammasome activation and neutrophil migration via IL-33/ST2-CXCL1 axis in MSU crystal gout models; extends anti-arthritic mechanism to crystal arthropathies |
-| [6426923](https://pubmed.ncbi.nlm.nih.gov/6426923/) | 1984 | Drug Review | Drugs | Preliminary pharmacological review of Auranofin in RA; efficacy approaches sodium aurothiomalate; mechanism involves immunological modulation and lysosomal enzyme activity reduction |
-| [6318557](https://pubmed.ncbi.nlm.nih.gov/6318557/) | 1983 | Pharmacology Study | Am J Med | Original preclinical pharmacokinetic and biological action profile; Auranofin superior to parenteral gold in suppressing inflammation and stimulating cell-mediated immunity; inhibited lysosomal enzyme release and ADCC |
-| [6239742](https://pubmed.ncbi.nlm.nih.gov/6239742/) | 1984 | Drug Profile | Clin Rheum Dis | Original documentation of Auranofin's clinical profile in progressive RA; established favourable therapeutic-to-toxicity ratio compared with other chrysotherapeutic agents |
-| [3110942](https://pubmed.ncbi.nlm.nih.gov/3110942/) | 1986 | Pharmacology Review | Scand J Rheumatol Suppl | Updated pharmacology overview; confirmed oral vs. injectable gold differ in side-effect profile; withdrawal rate for adverse reactions several-fold lower with Auranofin |
-| [36243005](https://pubmed.ncbi.nlm.nih.gov/36243005/) | 2022 | Mechanistic Study | Cell Metabolism | Computational screen identified Auranofin as improving insulin sensitivity and normalising obesity-associated inflammation (hepatic steatosis, hyperinsulinemia) in mouse models; reduces leptin via adipose tissue pathway |
-| [40089079](https://pubmed.ncbi.nlm.nih.gov/40089079/) | 2025 | Molecular Pharmacology | Free Radic Biol Med | Auranofin targets peroxiredoxin 1 and 2 → ROS-ER stress axis → apoptosis and cytoprotective autophagy; mechanistically links anti-inflammatory and cytotoxic activities via shared TXNRD1/Prdx pathway |
+| [10796461](https://pubmed.ncbi.nlm.nih.gov/10796461/) | 2000 | Systematic Review | Cochrane Database Syst Rev | Auranofin versus placebo in rheumatoid arthritis; use has declined, partly because of conflicting study results |
+| [10796328](https://pubmed.ncbi.nlm.nih.gov/10796328/) | 2000 | Systematic Review | Cochrane Database Syst Rev | Interventions for psoriatic arthritis, including auranofin |
+| [1977391](https://pubmed.ncbi.nlm.nih.gov/1977391/) | 1990 | Meta-analysis | Arthritis Rheum | Comparative efficacy and toxicity of second-line drugs in rheumatoid arthritis, including auranofin |
+| [41090769](https://pubmed.ncbi.nlm.nih.gov/41090769/) | 2025 | Preclinical | Cells | Auranofin reduced gouty inflammation by suppressing NLRP3 activation and neutrophil migration via the IL-33/ST2-CXCL1 axis |
+| [36308906](https://pubmed.ncbi.nlm.nih.gov/36308906/) | 2022 | Preclinical | Biochem Biophys Res Commun | TXNRD1 inhibition prevented cartilage matrix degeneration via Nrf2 in osteoarthritis |
+| [34731781](https://pubmed.ncbi.nlm.nih.gov/34731781/) | 2021 | Review | Int Immunopharmacol | Auranofin past and present; anti-inflammatory effects and repurposing |
+| [37071737](https://pubmed.ncbi.nlm.nih.gov/37071737/) | 2023 | Review | Chem Rev | Gold drugs and repurposing of auranofin in cancer, parasitic and microbial infections |
+| [33642497](https://pubmed.ncbi.nlm.nih.gov/33642497/) | 2021 | Review | Yakugaku Zasshi | Potential anticancer activity of auranofin |
+| [34630379](https://pubmed.ncbi.nlm.nih.gov/34630379/) | 2021 | Review | Front Immunol | Auranofin's anti-inflammatory, redox and antiviral properties in the context of COVID-19 |
+| [6426923](https://pubmed.ncbi.nlm.nih.gov/6426923/) | 1984 | Review | Drugs | Pharmacology and use of auranofin in rheumatoid arthritis; efficacy appears to approach sodium aurothiomalate |
 
----
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1095P | Ridaura | Tablet 3 mg (oral) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-As Auranofin is not registered with the TGA and no Australian Product Information exists, prescribers should consult the **FDA-approved US Prescribing Information (Ridaura®)** for comprehensive safety data. The following information is drawn from the published literature:
+**Contraindications flagged in the knowledge graph** (these come from drug-disease graph links, not from product label text, and should be checked against the Product Information):
+- Blood disorders: haematologic disease, thrombocytopenia, neutropenia, agranulocytosis, leukopenia
+- Kidney and liver disease, hepatitis, gallbladder disease
+- Skin conditions: exanthem, exfoliative dermatitis, urticaria, angioedema, atopic eczema, dermatitis
+- Lung conditions: pulmonary fibrosis, post-inflammatory pulmonary fibrosis
+- Gastrointestinal conditions: colitis, necrotizing enterocolitis
+- Autoimmune and other conditions: systemic lupus erythematosus (including paediatric), Sjögren syndrome, dry eye syndrome
+- Metabolic and vascular conditions: diabetes mellitus, diabetic ketoacidosis, hypertension and hypertensive disorder, pyoureter
 
-- **Gastrointestinal adverse effects:** Diarrhoea, loose stools, nausea, and abdominal discomfort are the most common adverse effects and the primary cause of discontinuation; incidence substantially higher than with injectable gold
-- **Gold-induced colitis:** Rare but serious; documented cases include ulcerative-colitis-like presentations with mucosal erosions and gold deposits on rectal biopsy (PMID 3318725); gold-associated colitis with eosinophilia has also been reported (PMID 3807438)
-- **Nephropathy / proteinuria:** Risk of gold nephropathy with cumulative dosing; however, Auranofin's renal safety profile appears more favourable than parenteral gold compounds — urinalysis monitoring is recommended
-- **Haematological effects:** Thrombocytopenia and other blood dyscrasias reported with gold therapy; baseline and periodic full blood count (FBC) monitoring recommended
+**Drug Interactions**: 86 interactions were identified. The main ones with a recorded severity are:
+- **Major**: deferiprone, proguanil, chloroquine
+- **Moderate**: metronidazole, tinidazole, rosuvastatin, simvastatin, benznidazole, disulfiram
+- Other listed interactions have unclassified severity, including warfarin, prednisone, prednisolone, omeprazole, pantoprazole, lansoprazole, ranitidine, misoprostol, clarithromycin, calcitriol and folic acid.
 
----
+Please refer to the TGA-approved Product Information (PI) for formal warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Auranofin has robust L1-grade historical evidence supporting its efficacy in RA/arthropathy from multiple Phase 3-era comparative trials, and its multi-target anti-inflammatory mechanism (TXNRD1/TrxR1, NF-κB, NLRP3) is well-characterised. Its absence from the Australian market represents a regulatory gap rather than an evidence gap, and access via the TGA Special Access Scheme may be appropriate for suitable patients. The 2025 NLRP3 inflammasome data further extend its clinical applicability to gout and other crystal-induced arthropathies.
+The top-ranked prediction is based on model score alone. It has no trials, no literature and no plausible mechanism linking auranofin to this ultra-rare developmental syndrome. The knowledge-graph contraindication list, notably the blood, kidney, liver and lung disorders, adds a safety concern for any new use.
 
 **To proceed, the following is needed:**
-- **TGA regulatory pathway review:** Assess eligibility for TGA Special Access Scheme (SAS Category B/C) for RA patients who have failed conventional DMARDs and biologics; evaluate requirements for full ARTG registration
-- **Current guideline positioning:** Review latest EULAR and ACR RA treatment guidelines to confirm Auranofin's contemporary place in the treatment algorithm relative to modern biologics and JAK inhibitors
-- **Australian prescribing and safety protocol:** Establish local monitoring standards covering urinalysis (proteinuria), FBC (with differential), liver function, and GI symptom surveillance prior to initiation and at regular intervals
-- **MOA and pharmacokinetics documentation:** Obtain complete DrugBank record and current US PI to supplement known mechanism data and inform dose selection for Australian clinical practice
-- **OA extension consideration:** The TXNRD1/Nrf2 preclinical evidence in osteoarthritis (PMID 36308906) warrants a dedicated preclinical programme and potential Phase 2 pilot study in OA with prominent synovitis — this represents a secondary repurposing opportunity with emerging mechanistic rationale
-- **DDI assessment:** No drug-drug interaction data were available in this evidence pack; a formal DDI review against common co-prescriptions in arthritic patients (NSAIDs, methotrexate, warfarin) is required before clinical use
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require prospective clinical validation before therapeutic application. Data cutoff: 5 April 2026.*
+- A documented mechanistic rationale linking thioredoxin reductase or inflammatory pathways to the predicted disease
+- Preclinical disease-model data for the predicted indication
+- Confirmation of the approved indication text and safety warnings from the TGA Product Information (the label data was unavailable)
+- If a repurposing direction is pursued, redirect effort to the better-supported candidates: gouty inflammation (arthropathy) and osteoarthritis, both currently at the preclinical research-question stage
+- For the cancer-related prediction (cholangiocarcinoma), disease-specific preclinical data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

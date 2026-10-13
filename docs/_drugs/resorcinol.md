@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Resorcinol
-parent: Model Prediction Only (L5)
-nav_order: 587
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 629
+evidence_level: L4
 indication_count: 10
 ---
 
 # Resorcinol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,57 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Resorcinol: From Topical Acne Treatment to Acne Keloid
+# Resorcinol: From Acne and Dermatitis to Acne Keloid
 
 ## One-Sentence Summary
 
-Resorcinol is generally known as a topical keratolytic/mild antibacterial agent used in dermatology for acne-related skin conditions, though formal original-indication data is not available in this evidence pack. The TxGNN model predicts possible effectiveness for **Acne Keloid** (acne keloidalis), but this is currently supported by **zero clinical trials** and **zero published literature** — the 99.83% prediction score reflects model output only, not an actual evidence base.
+Resorcinol is a topical agent originally used for acne and related inflammatory skin conditions (dermatitis, acneiform dermatitis).
+The TxGNN model predicts it may be useful for **acne keloid** (acne keloidalis), but **no clinical trials and no publications** were found in the data compiled for this report, so the prediction rests on the model score and plausible mechanism alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | No data available (drug not marketed in Australia; no approved-indication record on file) |
-| Predicted New Indication | Acne Keloid (acne keloidalis) |
+| Original Indication | Acne, dermatitis, acneiform dermatitis (from the TxGNN knowledge graph; no approved indication text is recorded for the Australian entry) |
+| Predicted New Indication | Acne keloid |
 | TxGNN Prediction Score | 99.83% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available (original_moa: Data Gap). Based on general pharmacological knowledge, Resorcinol is a topical keratolytic and mild antibacterial agent, historically used in dermatology for acne and follicular hyperkeratosis-related skin lesions. Acne keloidalis also involves follicular hyperkeratosis and chronic inflammation, which gives a superficial, organ-system-level rationale for the prediction.
+Detailed mechanism of action data is not available for this drug. Based on known information, resorcinol is a topical keratolytic and antiseptic agent. Its use in acne and related inflammatory skin conditions is established, and mechanistically it may be applicable to acne keloidalis.
 
-However, the evidence pack's own rationale explicitly flags this as a weak link: the high TxGNN score more likely reflects proximity of "acne"-related nodes within the knowledge graph than a genuine, mechanism-validated causal relationship. This caution applies consistently across all 10 top-ranked predictions for this drug — several (e.g. ankylosing spondylitis, rheumatoid vasculitis, hypermobility of coccyx, polyarticular juvenile rheumatoid arthritis) involve organ systems with no plausible pharmacological connection to a topical keratolytic agent. This pattern indicates the predictions are likely graph-embedding artifacts rather than validated repurposing signals, and the top-ranked "acne keloid" result should be read with the same caution.
+Acne keloidalis (folliculitis keloidalis) is a chronic inflammatory condition of the hair follicles, typically on the back of the neck and scalp. It shares follicular inflammation with acne, so a keratolytic and antiseptic action is a plausible fit.
+
+This link is a hypothesis only. No trials or literature were available to test it, and the case rests on the approved acne use and the high model score.
+
+Other predictions for this drug (for example amyopathic dermatomyositis, rheumatoid vasculitis, ankylosing spondylitis and polyarticular juvenile rheumatoid arthritis) have no plausible mechanism and no evidence. They appear to be computational artefacts and are not recommended for further evaluation. Use in neonates and children also raises systemic absorption concerns, including methaemoglobinaemia and thyroid effects.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Licence 433T (listed in the data compiled for this report; confirm the ARTG number against the register) | Not recorded | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+No label-based warnings or contraindications were available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for safety information.
 
-Note: TFDA-equivalent warning/contraindication data is marked as a **Blocking**-severity data gap in this evidence pack (DG001) — this currently prevents any formal S1 safety assessment from being conducted for this candidate.
+No drug interaction records were found.
+
+The TxGNN knowledge graph links resorcinol to the following conditions as contraindications. These come from the graph and not from label text, so they must be verified against the PI:
+- **Blood and metabolic:** G6PD deficiency, methaemoglobinaemia (including reductase deficiency), sulfhaemoglobinaemia, diabetes mellitus, diabetic ketoacidosis, glycogen storage disease, cystinuria, galactosaemia, pyruvate dehydrogenase E3 deficiency
+- **Cardiorespiratory and vascular:** sudden cardiac arrest, heart conduction disease, respiratory failure, peripheral vascular disease, intermittent claudication, peripheral arterial disease
+- **Kidney and neurological:** kidney disease, pyoureter, epilepsy
+- **Skin:** dermatitis, seborrhoeic dermatitis, folliculitis, exanthem, common wart, anogenital human papillomavirus infection
+
+Folliculitis and dermatitis appear on this list. This is directly relevant to a follicular inflammatory condition such as acne keloidalis and needs clarification.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-No clinical trial or literature evidence supports any of the 10 top-ranked predicted indications for Resorcinol, mechanism-of-action data is unavailable, safety data is blocked by an unresolved data gap, and the drug currently has zero ARTG entries in Australia. There is no actionable basis to advance this candidate at this time.
+The only support for acne keloid is a high model score (L4) and a plausible keratolytic and antiseptic rationale. There are no trials or publications, and the knowledge graph lists folliculitis and dermatitis as contraindications, which conflicts with the proposed use.
 
 **To proceed, the following is needed:**
-- Resolution of DG001 (TFDA/TGA-equivalent product warnings and contraindications) and DG002 (mechanism of action)
-- Confirmed original approved-indication history for Resorcinol
-- Preclinical or mechanistic studies specifically linking resorcinol to acne keloidalis pathophysiology
-- A targeted literature/trial search using validated disease synonyms (e.g. "acne keloidalis nuchae", "folliculitis keloidalis") to check for evidence missed by the current search terms
-- Clarification of the Australian regulatory/market pathway, given the drug is currently unregistered (0 ARTG entries)
+- The TGA-approved Product Information (PI) for warnings, contraindications and approved indications, and confirmation of the ARTG entry details (product name, dosage form, indication)
+- Mechanism of action data (for example from DrugBank)
+- A literature search for resorcinol in acne keloidalis and folliculitis keloidalis
+- Clarification of the knowledge graph contraindications for folliculitis and dermatitis
+- Assessment of systemic absorption risk on inflamed or broken skin, and a safety plan for children and neonates
+- A pilot or case-series study if the above review is favourable
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Amantadine
 parent: Model Prediction Only (L5)
-nav_order: 37
+nav_order: 39
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,65 +29,97 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amantadine: From Parkinson's Disease / Influenza A to Rasmussen Subacute Encephalitis
-
----
+# Amantadine: From Parkinson Disease to Rasmussen Subacute Encephalitis
 
 ## One-Sentence Summary
 
-Amantadine is a long-established drug used for Parkinson's disease symptom management and influenza A prophylaxis and treatment, acting via NMDA receptor antagonism and M2 channel blockade.
-The TxGNN model predicts it may be effective for **Rasmussen Subacute Encephalitis**,
-with **0 clinical trials** and **0 publications** currently supporting this direction — the prediction rests entirely on knowledge graph topology, with no empirical evidence identified.
+Amantadine is an oral agent originally used for Parkinson disease and related parkinsonian and movement disorders.
+The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis** (score 99.48%), but **no clinical trials and no publications** currently support this prediction.
+Among the other top-ranked predictions, **myelitis** (post-polio fatigue) and **Lewy body dementia** have the most literature, though it is largely indirect.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Parkinson's disease / Influenza A (established international indications; not registered in Australia) |
-| Predicted New Indication | Rasmussen Subacute Encephalitis |
+|------|------|
+| Original Indication | Parkinson disease and related parkinsonian and movement disorders (from the knowledge graph; the ARTG entry has no indication text) |
+| Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 99.48% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Amantadine acts through two principal mechanisms: (1) antiviral activity by blocking the M2 ion channel of influenza A virus, thereby inhibiting viral uncoating; and (2) neurological effects via non-competitive antagonism of NMDA (N-methyl-D-aspartate) receptors and promotion of dopamine release from presynaptic terminals. These properties form the basis of its approved uses in influenza A treatment/prophylaxis and Parkinson's disease motor symptom management.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, amantadine is an uncompetitive NMDA receptor antagonist with dopaminergic effects, and these properties underlie its use in parkinsonism and levodopa-induced dyskinesia.
 
-Rasmussen subacute encephalitis is a rare, progressive unihemispheric autoimmune inflammatory condition characterised by antibodies targeting ionotropic glutamate receptor subunits GluA3 and GluN2B. Given that Amantadine is an NMDA receptor antagonist, a theoretical mechanistic rationale exists: blocking NMDA receptors could theoretically dampen the excitotoxic neuronal injury that drives progressive cortical destruction in this condition.
+For Rasmussen encephalitis, a plausible but unverified link is NMDA receptor antagonism, because glutamate-mediated excitotoxicity has been proposed in this condition. No trials or literature were supplied to support this link, so the prediction remains purely model-based.
 
-In practice, however, this link remains entirely hypothetical. There are currently no basic science studies, animal model data, or any published clinical experience supporting Amantadine for Rasmussen encephalitis. The elevated TxGNN score (99.48%) most likely reflects topological proximity of the NMDA receptor node within the knowledge graph — a structural artefact rather than a validated biological signal. This prediction should be treated as a potential false positive at this stage.
+Other predictions in the list show varying plausibility:
+
+- **Myelitis:** The evidence relates to post-polio syndrome fatigue, which is indirect for myelitis in general.
+- **PLA2G6-associated neurodegeneration:** The only paper concerns a different subtype (PKAN).
+- **Lewy body dementia and progressive supranuclear palsy-corticobasal syndrome:** The evidence is indirect, and amantadine may worsen hallucinations and confusion in Lewy body dementia.
+- **Metabolic disorders (transaldolase deficiency, fructose-1,6-bisphosphatase deficiency) and several X-linked intellectual disability syndromes:** No plausible mechanistic link was identified.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+For the top prediction (Rasmussen subacute encephalitis), currently no related clinical trials are registered.
+
+For reference, the only trial in the top 10 predictions is listed below. It sits under the lower-ranked prediction, progressive supranuclear palsy-corticobasal syndrome, and is not an amantadine treatment trial.
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02994719](https://clinicaltrials.gov/study/NCT02994719) | N/A | Active, not recruiting | 120 | Observational gait pattern analysis in neurological disease, particularly parkinsonian disorders. It does not test amantadine, so it gives no direct treatment evidence. |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+For the top prediction (Rasmussen subacute encephalitis), currently no related literature is available.
+
+The most relevant publications found across the other top-ranked predictions are listed below. They are indirect for the lead prediction.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [7611638](https://pubmed.ncbi.nlm.nih.gov/7611638/) | 1995 | RCT | Ann N Y Acad Sci | Double-blind, placebo-controlled trial of amantadine for fatigue in post-polio syndrome; 23 patients completed six weeks of therapy (myelitis prediction, indirect). |
+| [25984923](https://pubmed.ncbi.nlm.nih.gov/25984923/) | 2015 | Review | Cochrane Database Syst Rev | Treatment for post-polio syndrome; effectiveness of pharmacological treatment not yet established. |
+| [21328301](https://pubmed.ncbi.nlm.nih.gov/21328301/) | 2011 | Review | Cochrane Database Syst Rev | Earlier version of the post-polio syndrome treatment review. |
+| [16879288](https://pubmed.ncbi.nlm.nih.gov/16879288/) | 2006 | Guideline | Eur J Neurol | EFNS guideline on diagnosis and management of post-polio syndrome. |
+| [2039376](https://pubmed.ncbi.nlm.nih.gov/2039376/) | 1991 | Case series | Arch Neurol | Post-polio fatigue treated with amantadine. |
+| [26085043](https://pubmed.ncbi.nlm.nih.gov/26085043/) | 2015 | Systematic review/meta-analysis | Am J Psychiatry | Pharmacological management of Lewy body dementia; the conclusions on amantadine cannot be confirmed from the data compiled. |
+| [18644910](https://pubmed.ncbi.nlm.nih.gov/18644910/) | 2008 | Review | Pract Neurol | Hallucinosis in Parkinson disease can be triggered by amantadine and anticholinergics. |
+| [30051337](https://pubmed.ncbi.nlm.nih.gov/30051337/) | 2018 | Review | CNS Drugs | Therapeutic management of overlapping atypical parkinsonism syndromes (PSP, CBD, MSA). |
+| [31366412](https://pubmed.ncbi.nlm.nih.gov/31366412/) | 2019 | Case report/small study | Can J Neurol Sci | Amantadine for gait dysfunction in PKAN (indirect for PLA2G6-associated neurodegeneration). |
+| [10412804](https://pubmed.ncbi.nlm.nih.gov/10412804/) | 1999 | Preclinical safety study | Acta Neuropathol | Amantadine did not cause histopathological alterations in human brain tissue. |
 
 ---
 
 ## Australia Market Information
 
-Amantadine is **not currently listed on the Australian Register of Therapeutic Goods (ARTG)**. No product licences were identified in this search. Any clinical use in Australia would require access via the Special Access Scheme (SAS) or Authorised Prescriber pathway under TGA regulations.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14486K | AMANTAMED | Capsule containing amantadine hydrochloride 100 mg (oral) | Not stated in the data compiled |
 
 ---
 
 ## Safety Considerations
 
-Please refer to published international Product Information (e.g., FDA PI or EMA SmPC) for full safety information, as no TGA-approved Australian PI exists.
+Product Information warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
-Based on established pharmacological knowledge: Amantadine carries well-recognised CNS adverse effects including confusion, hallucinations, dizziness, insomnia, and — at higher doses — agitation and seizure risk. It requires dose adjustment in renal impairment. Dopaminergic activity may exacerbate psychosis in susceptible individuals. Use with other NMDA antagonists, anticholinergics, or dopaminergic agents may increase adverse effect burden.
+- **Knowledge-graph contraindication signals (not label text):** multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, epilepsy, kidney disease, pyoureter, congestive heart failure, psychotic and related disorders (psychotic disorder, schizophreniform disorder, schizoaffective disorder, mental disorder), melanoma, angle-closure glaucoma, substance-related disorders, and atopic eczema/dermatitis. These need verification against the PI.
+- **Drug interactions:** 93 interactions were identified.
+  - **Major:** bupropion.
+  - **Moderate:** anticholinergic and antimuscarinic agents (atropine, clidinium, dicyclomine, glycopyrronium, hyoscyamine, mepenzolate, methscopolamine, propantheline, scopolamine, trospium), metoclopramide, polyethylene glycol (3350 with electrolytes), picosulfuric acid and sodium sulfate.
+  - **Unknown severity:** calcitriol, pantoprazole, glimepiride, doxycycline and metformin.
+  - Only the first 20 interactions were available for review.
+- **Clinical note:** The literature reviewed notes that amantadine can trigger hallucinosis and psychosis, which is relevant for Lewy body dementia.
 
 ---
 
@@ -96,17 +128,15 @@ Based on established pharmacological knowledge: Amantadine carries well-recognis
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial, preclinical study, or published literature directly supporting the use of Amantadine in Rasmussen subacute encephalitis. This is a pure model prediction (L5), and mechanistic plausibility via NMDA antagonism remains speculative without any supporting evidence chain.
+The lead prediction, Rasmussen subacute encephalitis, is supported only by a model score (L5), with no trials or publications. Evidence for the other top-ranked predictions is indirect: post-polio fatigue for myelitis, a different disease subtype for PLA2G6-associated neurodegeneration, and mostly case reports and reviews for Lewy body dementia. Myelitis and Lewy body dementia may be treated as research questions rather than candidates for clinical adoption.
 
 **To proceed, the following is needed:**
-- Preclinical studies (in vitro or animal models of Rasmussen encephalitis) assessing the impact of NMDA antagonism on disease progression
-- Mechanistic clarification of the role of glutamate excitotoxicity versus autoimmune-mediated injury in disease pathogenesis
-- Case reports or case series documenting any off-label clinical use in Rasmussen encephalitis or closely related autoimmune encephalitides
-- TGA Special Access Scheme eligibility assessment, given the absence of any Australian ARTG registration
-- Full safety profile review relevant to paediatric and adolescent populations (Rasmussen encephalitis predominantly affects children)
-- Review of existing immunotherapy-based treatment approaches to determine whether Amantadine could serve a complementary rather than stand-alone role
-
-> ⚠️ **Research Disclaimer:** This report is for research purposes only and does not constitute medical advice. Repurposing candidates require clinical validation before any therapeutic application.
+- Mechanism of action data to assess the NMDA/glutamate hypothesis in Rasmussen encephalitis
+- Targeted literature review of amantadine in Rasmussen encephalitis and in myelitis beyond post-polio syndrome
+- Extraction of what the post-polio syndrome Cochrane reviews and the Lewy body dementia meta-analysis concluded about amantadine
+- TGA Product Information warnings and contraindications, and the approved indication text for the ARTG entry
+- Review of the knowledge-graph contraindication signals against the PI, especially psychosis, epilepsy, renal impairment and heart failure
+- Route compatibility and disease similarity assessments, which are currently pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

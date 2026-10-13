@@ -2,7 +2,7 @@
 layout: default
 title: Patiromer
 parent: Model Prediction Only (L5)
-nav_order: 513
+nav_order: 548
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Patiromer: From Hyperkalaemia to Mitochondrial Oxidative Phosphorylation Disorder
+# Patiromer: From Hyperkalaemia (Presumed) to Mitochondrial Oxidative Phosphorylation Disorder
 
 ## One-Sentence Summary
 
-Patiromer is a potassium-binding polymer whose only established clinical use, as reflected in this evidence pack, is managing RAAS inhibitor-associated hyperkalaemia. The TxGNN model's top prediction for this drug is **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**, but this is supported by **zero clinical trials and zero publications**, and the evidence pack's own mechanistic review flags the prediction as a likely knowledge-graph artefact rather than a genuine signal.
-
----
+Patiromer is a non-absorbed, potassium-binding polymer. The indication text for its Australian listing was not available in the data compiled for this report, but the drug is understood to be used for hyperkalaemia.
+The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**, with **0 clinical trials** and **0 publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperkalaemia associated with RAAS inhibitor therapy (noted in evidence pack rationale; not a TGA-approved indication, as the product is unregistered in Australia) |
+| Original Indication | Not stated in the data compiled for this report (patiromer is generally used to treat hyperkalaemia) |
 | Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
 | TxGNN Prediction Score | 98.72% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Patiromer is not available in structured form (marked as a data gap in this evidence pack). However, the evidence pack's own rationale text describes Patiromer as an orally administered, gut-restricted calcium-based cation exchange polymer: it binds potassium in the intestinal lumen and is eliminated in faeces without entering systemic circulation.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, patiromer is a non-absorbed polymer that exchanges calcium for potassium in the colon. It acts locally in the gut and is not systemically active.
 
-This is important context for interpreting the top prediction. Mitochondrial oxidative phosphorylation disorders are systemic, cellular-energy-metabolism conditions with no known relationship to luminal cation exchange. The evidence pack's mechanistic assessment for this specific candidate states plainly that there is no recognisable pharmacological basis for the link, and attributes the prediction to knowledge-graph node proximity noise rather than a real signal.
+Mitochondrial oxidative phosphorylation disorders arise from defects in nuclear-encoded respiratory chain components. A gut-restricted polymer cannot address these defects, so **no plausible mechanistic link was identified**. The high TxGNN score most likely reflects knowledge-graph artefacts rather than biological rationale.
 
-The other nine ranked candidates in this pack follow a similar pattern: several (colonic neoplasm, cecum villous adenoma, cecal disease, lipoma of colon, colonic lymphangioma, etc.) cluster around gastrointestinal/colonic anatomy — likely reflecting Patiromer's physical transit through the colon rather than any pharmacological effect on those tissues. None of the ten candidates have any clinical trial or literature support, and all are scored L5/Hold. This pattern suggests the current prediction set for Patiromer is dominated by graph-topology artefacts rather than biologically plausible repurposing leads.
-
----
+The other top-ranked predictions show the same pattern. Most are colonic or caecal conditions (colonic neoplasm, caecal villous adenoma, colonic lipoma, colonic lymphangioma and others), which appear to reflect anatomical association with the colon. Exocrine pancreatic insufficiency and severe non-proliferative diabetic retinopathy were also predicted. The only speculative link, for retinopathy, is indirect: patiromer may allow continued RAAS inhibitor use, and any benefit would come from the RAAS inhibitor rather than from patiromer. None of these predictions has supporting trial or publication data.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
-Patiromer has no ARTG entries and is not marketed in Australia (0 licences recorded in this evidence pack).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13609G | Veltassa | Powder for oral suspension 8.4 g | Not available in the compiled data |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No warnings, contraindications, or drug interaction data for Patiromer are currently available in this evidence pack — this is itself a **Blocking**-severity data gap (DG001) that prevents any preliminary safety assessment.
+**Drug Interactions:** 48 potential interactions were identified (DDInter). The main ones are:
 
----
+- **Major:** magnesium oxide, aluminium hydroxide, calcium carbonate
+- **Moderate:** the proton pump inhibitors rabeprazole, omeprazole and dexlansoprazole; the corticosteroids hydrocortisone, dexamethasone, triamcinolone, beclomethasone and betamethasone; metformin; iron; attapulgite; and several calcium salts (phosphate, acetate, citrate, glubionate, gluconate, lactate)
+
+Only 20 of the 48 interactions were available for review. Warnings and contraindications were not available in the compiled data. Please refer to the TGA-approved Product Information (PI) for these.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical, literature, or mechanistic support for this prediction beyond the raw TxGNN score, and the evidence pack's own analysis concludes the top-ranked candidate is most likely a knowledge-graph artefact rather than a genuine repurposing signal. Combined with the missing TGA safety data, this candidate does not meet the bar to advance.
+The prediction is supported only by a model score. There are no clinical trials or publications, and the proposed mechanism is implausible for a non-absorbed, gut-restricted polymer. The same applies to all ten top-ranked predictions.
 
 **To proceed, the following is needed:**
-- TFDA/TGA-equivalent product information (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action data from DrugBank or another authoritative source (DG002)
-- Independent mechanistic or preclinical rationale connecting Patiromer's cation-exchange activity to mitochondrial oxidative phosphorylation disorders, before any further evidence-gathering is warranted
-- If pursuing repurposing signals for Patiromer at all, re-screening against candidates with plausible mechanistic links (e.g., conditions related to potassium/electrolyte handling) rather than the current top-ranked, graph-noise-flagged candidate
+- Product Information (PI) review for the approved indication, warnings and contraindications
+- Mechanism of action data
+- A biologically plausible hypothesis linking patiromer to mitochondrial OXPHOS disorders, followed by preclinical evidence
+- Evidence from any registered trial or published study in the predicted indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

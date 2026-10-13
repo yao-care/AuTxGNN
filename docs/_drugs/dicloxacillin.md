@@ -2,7 +2,7 @@
 layout: default
 title: Dicloxacillin
 parent: Model Prediction Only (L5)
-nav_order: 197
+nav_order: 214
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,94 +33,102 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Dicloxacillin is a penicillinase-resistant penicillin antibiotic, established internationally for the treatment of infections caused by penicillinase-producing *Staphylococcus aureus*, including skin, soft tissue, and bone and joint infections.
-The TxGNN model predicts it may be effective for **Bacterial Arthritis** (septic arthritis),
-with **1 completed Phase 4 clinical trial** and **14 publications** currently supporting this direction.
-Importantly, Dicloxacillin is **not currently registered in Australia** (no ARTG entries), which represents a significant regulatory barrier to local clinical use.
+Dicloxacillin is a penicillinase-resistant penicillin, originally used to treat staphylococcal infections, including *Staphylococcus aureus* infection and staphylococcal pneumonia.
+The TxGNN model predicts it may be effective for **bacterial arthritis**, with **1 clinical trial** and **9 publications** currently linked to this direction. Note that this is largely an extension of existing staphylococcal use to a specific infection site rather than true repurposing.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Staphylococcal infections (skin, soft tissue, bone and joint infections caused by penicillinase-producing *S. aureus*) |
-| Predicted New Indication | Bacterial Arthritis (Septic Arthritis) |
+|------|------|
+| Original Indication | Staphylococcus aureus infection, staphylococcal infection, staphylococcal pneumonia (the Australian licence entry has no approved indication text) |
+| Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 97.08% |
-| Evidence Level | L3 (Clinical studies and observational evidence; route-of-administration RCT with indirect relevance) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
+| Evidence Level | L2 (see note in the Conclusion) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Dicloxacillin is a narrow-spectrum, penicillinase-resistant beta-lactam antibiotic belonging to the isoxazolyl penicillin class. Although detailed mechanistic data was not available in this Evidence Pack, its well-established pharmacological profile is that it binds penicillin-binding proteins (PBPs) to inhibit bacterial cell wall synthesis, providing bactericidal activity specifically against beta-lactamase-producing staphylococci that would otherwise be resistant to standard penicillins.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, dicloxacillin is a penicillinase-resistant beta-lactam antibiotic that inhibits bacterial cell wall synthesis. It is active against methicillin-susceptible *Staphylococcus aureus* (MSSA).
 
-Bacterial arthritis (septic arthritis) is most commonly caused by *Staphylococcus aureus* — the primary target organism of dicloxacillin. The link between the drug and this indication is therefore mechanistically direct rather than a novel repurposing: dicloxacillin's existing activity against staphylococci makes it a logical candidate for joint space infections caused by the same organisms. Literature from Denmark confirms it is already the drug of choice for methicillin-susceptible *S. aureus* (MSSA) infections (PMID 12362608), and a 1978 paediatric study specifically demonstrated that oral dicloxacillin achieves adequate concentrations in septic synovial fluid to inhibit causative organisms (PMID 619055).
+*Staphylococcus aureus* is the leading cause of bacterial (septic) arthritis and of bone and joint infections. Because dicloxacillin is already used for staphylococcal infections, the prediction is mechanistically consistent. It extends an existing use to a specific infection site. Pharmacokinetic work in children has also measured synovial fluid concentrations after oral dicloxacillin, among other oral antibiotics.
 
-The TxGNN model's high prediction score for this indication likely reflects these strong mechanistic and epidemiological connections within the knowledge graph, where *S. aureus* bacteraemia, bone and joint infections, and dicloxacillin therapy are densely interlinked. This prediction is best interpreted as model confirmation of a clinically plausible use, rather than a genuinely novel repurposing discovery.
+Other predictions in the top 10 are weaker. Several (polyclonal hyperviscosity syndrome, hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant haematological disease, monoclonal gammopathy and an acquired peripheral neuropathy-associated haematological disease) have no plausible mechanism and no clinical evidence. They most likely reflect knowledge-graph proximity rather than biology. Streptococcal pneumonia is biologically plausible, but dicloxacillin's staphylococcal-focused spectrum makes it a poor choice compared with penicillin or amoxicillin. Staphylococcal toxaemia is only indirectly supported, because dicloxacillin does not neutralise preformed toxins.
 
 ---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT04563325](https://clinicaltrials.gov/study/NCT04563325) | Phase 4 | Completed | 180 | Nationwide, multicentre, randomised non-inferiority trial in Danish children with bone and joint infections (including septic arthritis). Compared oral-only antibiotics from the outset versus standard initial IV antibiotics followed by oral step-down therapy. Total treatment duration was identical in both arms. Results published in *The Lancet Child & Adolescent Health* (2024). |
+|---------|------|------|------|---------|
+| [NCT04563325](https://clinicaltrials.gov/study/NCT04563325) | Phase 4 | Completed | 180 | Nationwide randomised, non-inferiority trial in children with bone and joint infections. Oral-only antibiotics were compared with initial intravenous therapy followed by oral therapy, with identical total duration. It tests an oral versus IV strategy, not dicloxacillin specifically. |
+
+No ANZCTR trial identifiers were found in the data compiled for this report.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [39025092](https://pubmed.ncbi.nlm.nih.gov/39025092/) | 2024 | RCT | The Lancet Child & Adolescent Health | Nationwide Danish RCT demonstrating oral antibiotics are non-inferior to initial IV therapy for uncomplicated bone and joint infections (including septic arthritis) in children and adolescents; supports early oral step-down strategy |
-| [619055](https://pubmed.ncbi.nlm.nih.gov/619055/) | 1978 | Clinical Study | The Journal of Pediatrics | Oral dicloxacillin achieves therapeutic concentrations in septic synovial fluid in children; demonstrated feasibility of oral treatment for pyogenic arthritis |
-| [23599360](https://pubmed.ncbi.nlm.nih.gov/23599360/) | 2013 | Retrospective Cohort | The Journal of Antimicrobial Chemotherapy | Compared penicillin, dicloxacillin and cefuroxime as definitive treatment for penicillin-susceptible *S. aureus* bacteraemia in Denmark; assessed 30-day mortality outcomes |
-| [12362608](https://pubmed.ncbi.nlm.nih.gov/12362608/) | 2002 | Review | Ugeskrift for laeger | Comprehensive review of *S. aureus* infections in Denmark; confirms dicloxacillin is the drug of choice for penicillinase-producing staphylococcal infections due to superior penicillinase stability |
-| [8245570](https://pubmed.ncbi.nlm.nih.gov/8245570/) | 1993 | Case Series / Review | International Journal of Oral and Maxillofacial Surgery | Reviews septic arthritis of the temporomandibular joint in children following minor trauma; discusses antibiotic management strategies |
-| [7756476](https://pubmed.ncbi.nlm.nih.gov/7756476/) | 1995 | Case Series | Clinical Infectious Diseases | Describes *Helicobacter cinaedi* bacteraemia presenting with multifocal cellulitis and monoarticular arthritis; documents antibiotic management including beta-lactam agents |
-| [14632104](https://pubmed.ncbi.nlm.nih.gov/14632104/) | 2003 | Review | Paediatric Drugs | Review of bacterial skin and soft tissue infections in children; notes arthritis as a serious complication of untreated staphylococcal infections; discusses antibiotic options |
-| [7839849](https://pubmed.ncbi.nlm.nih.gov/7839849/) | 1994 | Retrospective Clinical Review | Acta Orthopaedica Scandinavica | Clinical and microbiological review of 145 soft tissue infections in IV drug users; includes cases of purulent arthritis with staphylococcal aetiology |
-| [6693557](https://pubmed.ncbi.nlm.nih.gov/6693557/) | 1984 | Case Report | Journal of Pediatric Orthopedics | Staphylococcal osteomyelitis in a child successfully treated with antibiotic therapy and surgical drainage; demonstrates dicloxacillin class efficacy in musculoskeletal staphylococcal infection |
-| [940031](https://pubmed.ncbi.nlm.nih.gov/940031/) | 1976 | Case Report | The Journal of Pediatrics | Describes subtherapeutic oral dicloxacillin levels in a neonate, exploring pharmacokinetic mechanisms including drug interactions with phenobarbital and renal tubular transport; relevant to dosing considerations |
+|------|-----|------|------|---------|
+| [39025092](https://pubmed.ncbi.nlm.nih.gov/39025092/) | 2024 | RCT | Lancet Child Adolesc Health | Danish nationwide non-inferiority trial of initial oral versus intravenous empirical antibiotics in children and adolescents with uncomplicated bone and joint infections. |
+| [12362608](https://pubmed.ncbi.nlm.nih.gov/12362608/) | 2002 | Review | Ugeskr Laeger | Review of *S. aureus* infections in Denmark. Penicillinase-stable penicillins remain the drug of choice, and dicloxacillin is usually chosen. |
+| [14632104](https://pubmed.ncbi.nlm.nih.gov/14632104/) | 2003 | Review | Paediatr Drugs | Review of acute bacterial skin infections in children, including complications such as arthritis if treatment is delayed. |
+| [23599360](https://pubmed.ncbi.nlm.nih.gov/23599360/) | 2013 | Cohort | J Antimicrob Chemother | Retrospective analysis comparing penicillin, dicloxacillin and cefuroxime for penicillin-susceptible *S. aureus* bacteraemia, using 30-day mortality. |
+| [619055](https://pubmed.ncbi.nlm.nih.gov/619055/) | 1978 | Pharmacokinetic study | J Pediatr | Measured synovial fluid and serum antibiotic levels after oral doses of several agents, including dicloxacillin, in children with pyogenic arthritis. |
+| [7356349](https://pubmed.ncbi.nlm.nih.gov/7356349/) | 1980 | Observational study | Arch Dermatol | Recurrent staphylococcal infection in families. Participants were treated with oral oxacillin or dicloxacillin. |
+| [7839849](https://pubmed.ncbi.nlm.nih.gov/7839849/) | 1994 | Case series | Acta Orthop Scand | 145 hospitalisations of intravenous drug users with soft tissue infections, including one purulent arthritis. |
+| [940031](https://pubmed.ncbi.nlm.nih.gov/940031/) | 1976 | Case report | J Pediatr | Subtherapeutic oral dicloxacillin levels in a neonate, linked to high urinary excretion. |
+| [1287818](https://pubmed.ncbi.nlm.nih.gov/1287818/) | 1992 | Case report | Scand J Infect Dis | Acquired bisalbuminaemia in a patient with staphylococcal endocarditis treated with dicloxacillin. |
+
+Only the 2024 RCT is directly relevant to bone and joint infection, and it does not isolate dicloxacillin.
 
 ---
 
 ## Australia Market Information
 
-Dicloxacillin is **not registered on the Australian Register of Therapeutic Goods (ARTG)** and has no TGA-approved products currently available in Australia. There are no ARTG entries to list.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10790X | Distaph 500 | Capsule 500 mg (as sodium) | Not stated in the data compiled for this report |
 
-> **Note for Australian Clinicians:** Dicloxacillin is registered and widely used in the United States, Denmark, and several European countries for staphylococcal infections. Flucloxacillin is the pharmacologically equivalent penicillinase-resistant penicillin that is TGA-approved and widely available in Australia (e.g., Flopen®, Staphylex®). Clinicians in Australia treating bacterial arthritis caused by MSSA would typically use flucloxacillin rather than dicloxacillin, as the two agents share the same mechanism of action and spectrum of activity.
+The only registered product is an oral capsule. Any use for bone and joint infection in children would need a suitable paediatric formulation.
 
 ---
 
 ## Safety Considerations
 
-Safety data for Dicloxacillin was not retrievable from the TGA Product Information (no Australian registration exists), and no drug interaction data was identified in the evidence sources queried.
+No label-based warnings or contraindications are available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for these.
 
-> Please refer to international prescribing information (e.g., US FDA labelling) and the TGA-approved Product Information for the closely related agent **flucloxacillin** for relevant safety guidance. Class-level considerations for isoxazolyl penicillins include hypersensitivity reactions (including anaphylaxis), hepatotoxicity (cholestatic jaundice — a known class effect), and food interactions reducing oral bioavailability (must be taken on an empty stomach).
+- **Knowledge-graph contraindication associations** (these are not label text): kidney disease, pyoureter, *Clostridium difficile* colitis, perinatal necrotising enterocolitis, infectious mononucleosis, and chronic Epstein-Barr virus infection syndrome.
+- **Drug interactions**: 41 interactions were identified in total. The most notable are rated Moderate:
+  - Tetracyclines: doxycycline, tetracycline, minocycline
+  - Balsalazide
+  - Picosulfuric acid
+  - Iodide I-131
+- **Minor**: clarithromycin.
+- **Unknown severity**: several others, including proton pump inhibitors (omeprazole, pantoprazole, lansoprazole), ranitidine, corticosteroids (prednisone, dexamethasone, triamcinolone), morphine, loperamide, ondansetron, metronidazole, misoprostol and rosuvastatin.
+- **Pharmacokinetic note**: dicloxacillin is highly albumin-bound, so conditions affecting albumin may alter free-drug levels. A published case also describes subtherapeutic levels in a neonate.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-Dicloxacillin is not registered in Australia (zero ARTG entries), making direct clinical use impossible without TGA approval or Special Access Scheme (SAS) application. Furthermore, this TxGNN prediction reflects a well-established, direct antibiotic use rather than a novel repurposing — the clinically available equivalent in Australia is flucloxacillin, which already covers bacterial arthritis caused by MSSA. Pursuing dicloxacillin registration specifically for this indication would offer minimal clinical advantage over flucloxacillin.
+- Bacterial arthritis is a plausible, largely on-label-adjacent extension of dicloxacillin's staphylococcal use. The evidence is indirect, however: the one completed randomised trial is Phase 4 and tests an oral-versus-IV strategy rather than dicloxacillin itself. The L2 grade is therefore generous, and the supporting evidence is closer to L3. The other nine predictions in the top 10 should stay on Hold or be treated as research questions.
 
 **To proceed, the following is needed:**
-
-- **Clarify the clinical question:** If the goal is treating bacterial arthritis in Australia, evaluate whether flucloxacillin (TGA-registered) already fulfils this need before pursuing a dicloxacillin-specific pathway
-- **TGA regulatory pathway assessment:** If dicloxacillin is preferred (e.g., for specific pharmacokinetic reasons), a full TGA registration dossier or SAS Category B application would be required
-- **Detailed safety data:** Obtain and review full prescribing information from an internationally approved source (US, EU) including contraindications, hepatotoxicity monitoring requirements, and drug interactions
-- **Mechanism of action documentation:** Confirm MOA data via DrugBank API (identified as a data gap in this pack) to strengthen the mechanistic rationale section
-- **Comparative effectiveness vs. flucloxacillin:** Review any head-to-head data or pharmacokinetic comparisons between dicloxacillin and flucloxacillin relevant to joint penetration
-
-> ⚠️ **Disclaimer:** This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All prescribing decisions should follow TGA-approved Product Information and current Australian clinical guidelines.
+- The TGA Product Information, to confirm approved indications, warnings and contraindications. The product has no indication text on record, and the lack of label safety data is a blocking gap.
+- Mechanism of action data from DrugBank.
+- Drug-specific evidence on dicloxacillin for bone and joint infection, including the antibiotics used in the trial arms.
+- Dosing and formulation guidance for paediatric and adult bone and joint infection, given the single capsule product and the reported variable absorption.
+- Review of the moderate interactions (particularly tetracyclines) and renal function considerations before use.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

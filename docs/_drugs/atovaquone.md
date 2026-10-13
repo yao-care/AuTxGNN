@@ -2,7 +2,7 @@
 layout: default
 title: Atovaquone
 parent: High Evidence (L1-L2)
-nav_order: 64
+nav_order: 69
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,151 +29,107 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Atovaquone: From Malaria/PCP Prophylaxis to Toxoplasmosis
+# Atovaquone: From Malaria and Pneumocystosis to Toxoplasmosis
 
 ## One-Sentence Summary
 
-Atovaquone is an antiprotozoal agent with established international use in treating and preventing malaria (as Malarone, with proguanil) and *Pneumocystis jirovecii* pneumonia (PCP) — though it is not currently registered in Australia.
-The TxGNN model generated **10 new predicted indications**; of these, **Toxoplasmosis** carries the strongest evidence base, supported by **3 clinical trials** (including a completed Phase 2 RCT) and **20 publications**.
-This report focuses on toxoplasmosis as the primary actionable repurposing candidate (Evidence Level L2), with a full summary of all 10 predictions provided below.
-
----
-
-## All Predicted Indications — Summary Table
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation |
-|------|---------|-------------|----------------|----------------|
-| 1 | Leprosy | 94.24% | L5 | Hold |
-| 2 | Nocardiosis | 90.90% | L5 | Hold |
-| 3 | Facial nerve palsy (herpes zoster) | 89.16% | L5 | Hold |
-| 4 | Acne | 88.00% | L5 | Hold |
-| **5** | **Toxoplasmosis** | **86.67%** | **L2** | **Proceed with Guardrails** |
-| **6** | **Ocular toxoplasmosis** | **85.27%** | **L3** | **Research Question** |
-| 7 | Creeping myiasis | 85.07% | L5 | Hold |
-| 8 | Wound myiasis | 85.07% | L5 | Hold |
-| 9 | Furuncular myiasis | 85.07% | L5 | Hold |
-| 10 | Myiasis | 82.88% | L5 | Hold |
-
-> **Note on Ranks 1–4 and 7–10:** These predictions received a **Hold** recommendation. Leprosy is caused by *Mycobacterium leprae* (a bacterium), and nocardiosis by *Nocardia* spp. — neither is susceptible to Atovaquone's antiprotozoal mechanism. Evidence for herpes zoster and acne is absent. The myiasis variants (insect larvae) are similarly outside Atovaquone's mechanistic scope. These indications are not explored further in this report.
+Atovaquone is an antiprotozoal drug originally used to treat malaria (including *Plasmodium falciparum*) and pneumocystosis.
+The TxGNN model's top-ranked prediction is leprosy, but the best-supported candidate in the data compiled for this report is **Toxoplasmosis** (TxGNN score 86.67%), supported by **3 clinical trials** (one completed Phase 2 randomised open-label trial) and **19 publications**.
+The leprosy prediction has no supporting trials and only one unrelated publication, so this report focuses on toxoplasmosis and covers the other predictions briefly.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Malaria prevention/treatment; Pneumocystis jirovecii pneumonia (PCP) prevention/treatment |
-| Predicted New Indication (Primary) | Toxoplasmosis |
-| TxGNN Prediction Score | 86.67% (Rank 5; highest evidence level among all predictions) |
+|------|------|
+| Original Indication | Malaria (including *Plasmodium falciparum* malaria) and pneumocystosis (from the knowledge graph; the ARTG entry carries no indication text) |
+| Predicted New Indication | Toxoplasmosis (best-supported candidate; the top-ranked TxGNN prediction is leprosy, score 94.24%, evidence level L5) |
+| TxGNN Prediction Score | 86.67% (toxoplasmosis) |
 | Evidence Level | L2 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Atovaquone is a hydroxynaphthoquinone compound that works by selectively inhibiting the **mitochondrial cytochrome bc1 complex (Complex III)** in susceptible protozoan parasites. Blocking this key step in the electron transport chain collapses mitochondrial membrane potential, starving the parasite of energy and driving cell death. Crucially, this selectivity is preferential for apicomplexan parasites, which are heavily dependent on mitochondrial respiration — making Atovaquone's therapeutic window considerably safer than many conventional antiprotozoals.
+Atovaquone is a hydroxynaphthoquinone that inhibits the parasite mitochondrial cytochrome bc1 complex, disrupting electron transport and pyrimidine synthesis. Detailed mechanism of action data was not available in the structured drug record, so this description comes from the literature reviewed for this report.
 
-*Toxoplasma gondii* is an apicomplexan parasite — the same taxonomic class as *Plasmodium* (the malaria parasite). The cytochrome bc1 complex target is phylogenetically conserved across apicomplexans, meaning Atovaquone's mechanism of action against malaria translates directly and predictably to *Toxoplasma*. This is one of the most mechanistically coherent repurposing predictions in this dataset. Atovaquone also demonstrates activity against both **tachyzoites** (the acute replicating form) and **bradyzoites** (the chronic cyst form) — a distinct advantage over pyrimethamine and sulfadiazine, which are largely inactive against bradyzoites.
+Malaria (*Plasmodium*), pneumocystosis and toxoplasmosis are all caused by organisms that depend on this mitochondrial pathway. *Toxoplasma gondii* is an apicomplexan parasite, closely related to *Plasmodium*. The reviews retrieved describe atovaquone as an alternative regimen for toxoplasmic encephalitis, with activity against cyst forms in animal models. This is important because the standard pyrimethamine-sulfadiazine combination does not eradicate tissue cysts.
 
-Clinically, this repurposing is not entirely novel: Atovaquone has been used internationally as a **second-line salvage therapy** for toxoplasmosis in patients intolerant to or failing standard treatment (pyrimethamine + sulfadiazine). A completed Phase 2 RCT (NCT00000794, n=100) provides the strongest direct evidence, and multiple retrospective studies and case series — including use in HIV-positive patients and immunosuppressed transplant recipients — have reported clinical response. The TxGNN prediction is therefore mechanistically grounded and supported by real-world clinical experience.
+Caveats: the Phase 2 trial is open-label with a modest sample, the other studies are a non-randomised pilot and a Phase 1 pharmacokinetic study, and primary outcome data were not available. Atovaquone also has variable intestinal absorption, which may limit its use.
+
+**Other predictions (brief):**
+- **Ocular toxoplasmosis (score 85.27%, evidence level L3):** Small clinical studies and case reports support atovaquone for retinochoroiditis (for example, a Phase 1 trial in immunocompetent patients, PMID 9917796). There are also reports of reactivation during therapy (PMID 16766403). No registered trials were found. This is best treated as a research question.
+- **Leprosy (94.24%, L5):** Model prediction only. The only publication retrieved concerns clofazimine for *Babesia*, not atovaquone for leprosy.
+- **Nocardiosis (90.90%, L4):** No evidence of benefit. One cohort report (PMID 29555315) links atovaquone prophylaxis with more nocardial infections, because it replaces TMP-SMX, which is active against *Nocardia*. This points away from repurposing.
+- **Facial nerve palsy due to herpes zoster, acne, and myiasis (creeping, wound, furuncular and unspecified):** Predictions only, with no trials or literature and no supported mechanism.
 
 ---
 
 ## Clinical Trial Evidence
 
-### Toxoplasmosis (Primary)
-
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00000794](https://clinicaltrials.gov/study/NCT00000794) | Phase 2 | Completed | 100 | **Core evidence:** Phase 2 RCT directly comparing Atovaquone + pyrimethamine vs Atovaquone + sulfadiazine for acute toxoplasmic encephalitis in AIDS patients. Established efficacy and tolerability of Atovaquone-based regimens as alternatives to standard therapy. |
-| [NCT00001994](https://clinicaltrials.gov/study/NCT00001994) | Pilot | Completed | N/A | Early pilot study evaluating Atovaquone (then coded 566C80) as salvage therapy for HIV patients with CNS toxoplasmosis who had failed or were intolerant of pyrimethamine-sulfadiazine. Established clinical feasibility. |
-| [NCT01479361](https://clinicaltrials.gov/study/NCT01479361) | Phase 1 | Completed | 36 | Pharmacokinetic study assessing the impact of atazanavir/ritonavir and efavirenz on Atovaquone drug exposure. Directly relevant to dose optimisation in HIV-positive patients receiving toxoplasmosis prophylaxis or treatment. |
+| [NCT00000794](https://clinicaltrials.gov/study/NCT00000794) | Phase 2 | Completed | 100 | Randomised open-label comparison of atovaquone plus pyrimethamine vs atovaquone plus sulfadiazine for acute toxoplasmic encephalitis in AIDS patients, aiming to avoid the severe toxicity of standard therapy |
+| [NCT00001994](https://clinicaltrials.gov/study/NCT00001994) | N/A (pilot) | Completed | Not reported | Salvage treatment with atovaquone (566C80) for CNS toxoplasmosis in HIV patients who failed or could not tolerate pyrimethamine-sulfadiazine |
+| [NCT01479361](https://clinicaltrials.gov/study/NCT01479361) | Phase 1 | Completed | 36 | Pharmacokinetic study of atazanavir-ritonavir and efavirenz effects on atovaquone exposure in HIV-infected volunteers (informs dosing and interactions, not efficacy) |
 
-### Ocular Toxoplasmosis (Secondary Priority — L3)
-
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01479361](https://clinicaltrials.gov/study/NCT01479361) | Phase 1 | Completed | 36 | PK data from this study informs Atovaquone dosing in HIV-infected patients, including those with ocular manifestations of toxoplasmosis. Not an ocular-specific trial, but provides relevant drug-level guidance. |
+No ANZCTR trials were identified in the data compiled for this report.
 
 ---
 
 ## Literature Evidence
 
-### Toxoplasmosis (Primary)
-
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [30209035](https://pubmed.ncbi.nlm.nih.gov/30209035/) | 2018 | Comprehensive Review | *Clinical Microbiology Reviews* | Landmark review of toxoplasmosis treatment across decades; Atovaquone identified as a key alternative for patients failing or intolerant to pyrimethamine-sulfadiazine. Covers animal models, clinical practice, and emerging therapies. |
-| [7588086](https://pubmed.ncbi.nlm.nih.gov/7588086/) | 1995 | Review | *Drugs* | Comprehensive pharmacology review confirming clinical efficacy of Atovaquone in both PCP and toxoplasmosis; evaluates tolerability relative to conventional regimens. |
-| [8305784](https://pubmed.ncbi.nlm.nih.gov/8305784/) | 1993 | Review | *Annals of Pharmacotherapy* | Foundational review covering Atovaquone chemistry, pharmacokinetics, and clinical efficacy across opportunistic infections including toxoplasmosis. |
-| [10471572](https://pubmed.ncbi.nlm.nih.gov/10471572/) | 1999 | Animal Study | *Antimicrobial Agents and Chemotherapy* | Demonstrated significant synergistic anti-*Toxoplasma* activity of clindamycin + Atovaquone in a murine acute toxoplasmosis model — supports combination therapy strategies. |
-| [34595988](https://pubmed.ncbi.nlm.nih.gov/34595988/) | 2021 | Animal Study | *Ultrastructural Pathology* | Atovaquone-proguanil combination showed histological and ultrastructural efficacy in chronic murine toxoplasmosis — relevant to the challenge of treating tissue cyst forms. |
-| [25309522](https://pubmed.ncbi.nlm.nih.gov/25309522/) | 2014 | Animal Study | *Frontiers in Microbiology* | Novel synergistic anti-*Toxoplasma* effect of diclazuril + Atovaquone in animal model; explored potential for prevention of congenital and chronic toxoplasmosis syndromes. |
-| [29452213](https://pubmed.ncbi.nlm.nih.gov/29452213/) | 2018 | Formulation/Animal Study | *European Journal of Pharmaceutical Sciences* | Atovaquone nanoemulsion markedly improved bioavailability and *in vivo* efficacy in acute and chronic toxoplasmosis — addresses the known challenge of Atovaquone's poor aqueous solubility. |
-| [37683834](https://pubmed.ncbi.nlm.nih.gov/37683834/) | 2023 | Animal Study | *Microbial Pathogenesis* | Investigated miR-146a, BAG-1, IL-6, and IL-10 tissue levels in cerebral toxoplasmosis following Atovaquone + clindamycin treatment; provides mechanistic insight into treatment response monitoring. |
-| [40788706](https://pubmed.ncbi.nlm.nih.gov/40788706/) | 2025 | Retrospective Cohort | *Gut Microbes* | Large retrospective cohort (n >100,000) found Atovaquone-proguanil associated with reduced digestive cancer risk, hypothesised to occur via *T. gondii* suppression — novel signal with potential broader implications. |
-| [27384853](https://pubmed.ncbi.nlm.nih.gov/27384853/) | 2016 | Case Report | *Japanese Journal of Clinical Hematology* | Successful early diagnosis and Atovaquone-based treatment of disseminated toxoplasmosis following cord blood transplantation in a severely immunocompromised patient. |
+|------|-----|------|------|---------|
+| [30209035](https://pubmed.ncbi.nlm.nih.gov/30209035/) | 2018 | Review | Clin Microbiol Rev | Treatment of toxoplasmosis; pyrimethamine-sulfadiazine remains the gold standard, with alternatives needed when it fails |
+| [7588086](https://pubmed.ncbi.nlm.nih.gov/7588086/) | 1995 | Review | Drugs | Atovaquone as an alternative agent in opportunistic infections (PCP and toxoplasmosis) |
+| [11890349](https://pubmed.ncbi.nlm.nih.gov/11890349/) | 2001 | Review | Curr Opin Investig Drugs | Atovaquone is promising against cysts but limited by variable intestinal absorption |
+| [9917796](https://pubmed.ncbi.nlm.nih.gov/9917796/) | 1999 | Clinical study (Phase 1) | Ophthalmology | Safety and efficacy of atovaquone for toxoplasma retinochoroiditis in immunocompetent patients |
+| [20437247](https://pubmed.ncbi.nlm.nih.gov/20437247/) | 2010 | Clinical study | Graefes Arch Clin Exp Ophthalmol | Whether atovaquone prolongs the disease-free interval of toxoplasmic retinochoroiditis |
+| [16766403](https://pubmed.ncbi.nlm.nih.gov/16766403/) | 2006 | Case report | Ocul Immunol Inflamm | Reactivation of retinochoroiditis during atovaquone therapy |
+| [25309522](https://pubmed.ncbi.nlm.nih.gov/25309522/) | 2014 | Preclinical (animal) | Front Microbiol | Synergy of diclazuril plus atovaquone in toxoplasmosis |
+| [34595988](https://pubmed.ncbi.nlm.nih.gov/34595988/) | 2021 | Preclinical (mouse) | Ultrastruct Pathol | Atovaquone-proguanil in chronic murine toxoplasmosis |
+| [29452213](https://pubmed.ncbi.nlm.nih.gov/29452213/) | 2018 | Preclinical | Eur J Pharm Sci | Atovaquone nanoemulsion to improve bioavailability and efficacy in toxoplasmosis |
+| [40788706](https://pubmed.ncbi.nlm.nih.gov/40788706/) | 2025 | Retrospective cohort | Gut Microbes | Atovaquone-proguanil associated with reduced colorectal cancer risk, with a proposed *Toxoplasma* link |
 
-### Ocular Toxoplasmosis (Secondary Priority — L3)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [9917796](https://pubmed.ncbi.nlm.nih.gov/9917796/) | 1999 | Retrospective Clinical Study | *Ophthalmology* | Phase I trial evaluating Atovaquone safety and efficacy specifically for ocular toxoplasmosis (retinochoroiditis) in immunocompetent patients — direct evidence for this sub-indication. |
-| [19108794](https://pubmed.ncbi.nlm.nih.gov/19108794/) | 2008 | Retrospective Chart Review | *Clinical Therapeutics* | Evaluated adverse drug reactions across treatments for active toxoplasmic chorioretinitis; Atovaquone data included as an alternative agent. |
-| [7616727](https://pubmed.ncbi.nlm.nih.gov/7616727/) | 1995 | Case Report | *Klinische Monatsblätter für Augenheilkunde* | Early case report of Atovaquone successfully treating toxoplasma retinochoroiditis in an HIV-infected patient intolerant to standard drugs. |
-| [9044964](https://pubmed.ncbi.nlm.nih.gov/9044964/) | 1996 | Case Report | *Klinische Monatsblätter für Augenheilkunde* | First report describing Atovaquone treatment of ocular toxoplasmosis in an immunocompetent patient, noting its activity against both tachyzoites and bradyzoites. |
-| [20437247](https://pubmed.ncbi.nlm.nih.gov/20437247/) | 2010 | Retrospective Clinical Study | *Graefe's Archive for Clinical and Experimental Ophthalmology* | Evaluated whether Atovaquone prolongs disease-free intervals in toxoplasmic retinochoroiditis — addresses the key clinical question of secondary prevention. |
+No randomised controlled trial publications were retrieved.
 
 ---
 
 ## Australia Market Information
 
-Atovaquone is **not currently registered with the Therapeutic Goods Administration (TGA)** and holds **no ARTG entries** as a standalone product.
-
-> **Important clarification:** Malarone® (atovaquone 250 mg + proguanil 100 mg) is TGA-registered and marketed in Australia for malaria prevention and treatment. However, atovaquone as a monotherapy (e.g., Mepron® 750 mg/5 mL suspension, as used in PCP and toxoplasmosis) is **not ARTG-listed**.
-
-Clinical use in Australia would require access through one of the following TGA pathways:
-
-| Access Pathway | Details |
-|----------------|---------|
-| **Special Access Scheme (SAS) — Category B** | For individual patients with serious or life-threatening conditions; requires clinician application and TGA approval |
-| **Authorised Prescriber** | For eligible specialists treating a defined class of patients (e.g., infectious disease specialists managing immunocompromised patients) |
-| **Clinical Trial** | If a formal Australian trial is initiated for this indication |
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 8300W | Wellvone | Oral suspension 750 mg per 5 mL, 210 mL | Not available in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Specific TGA-approved Product Information for atovaquone monotherapy is unavailable, as the product is not registered in Australia. Based on the published literature and international regulatory data (FDA/EMA):
-
-- **Bioavailability is highly food-dependent:** Atovaquone must be taken with a fatty meal; administration without food can reduce bioavailability by up to 50%
-- **Drug interactions of clinical concern:** Rifampicin and rifabutin markedly reduce Atovaquone plasma levels (contraindicated in some guidelines); metoclopramide also reduces absorption; antiretrovirals (particularly efavirenz and atazanavir/ritonavir) alter drug exposure (see NCT01479361)
-- **Common adverse effects:** Rash, nausea, diarrhoea, headache, and elevated liver enzymes — generally mild to moderate in severity
-- **No myelosuppression** reported — an important advantage over pyrimethamine-based regimens in immunocompromised patients
-
-> For comprehensive safety information, please refer to the FDA-approved Prescribing Information for Mepron® (atovaquone) and the relevant Product Information from EMA-approved jurisdictions.
+- **Contraindications suggested by the knowledge graph (not label text):** liver failure, liver disease, gallbladder disease, hyperglycaemia, chronic diarrhoeal disease. These should be verified against the Product Information.
+- **Drug interactions (100 recorded; main moderate-level examples):** metoclopramide, naltrexone, tetracycline and picosulfuric acid. Other recorded interactions have unknown severity (for example metformin, omeprazole, morphine, prednisone and vancomycin). A Phase 1 study (NCT01479361) examined how atazanavir-ritonavir and efavirenz affect atovaquone exposure.
+- Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** *(for Toxoplasmosis)*
+**Decision: Proceed with Guardrails** (toxoplasmosis only; Hold for all other predicted indications)
 
 **Rationale:**
-Toxoplasmosis is the only predicted indication in this dataset with a mechanistically sound basis and clinically meaningful evidence — a completed Phase 2 RCT, pilot trial data, and extensive observational/case series experience collectively support Atovaquone's role as a second-line treatment. The convergence of phylogenetic relatedness, conserved drug target, and real-world clinical usage makes this repurposing application credible and actionable, particularly for patients intolerant to pyrimethamine-sulfadiazine.
+- A completed Phase 2 randomised trial and a pilot study directly support atovaquone for toxoplasmic encephalitis, backed by a plausible shared mechanism with its approved antiprotozoal uses. The evidence is limited by open-label design, small size and the absence of Phase 3 data.
+- Higher-scoring predictions, such as leprosy and nocardiosis, have no supporting evidence, and the nocardiosis data point the other way.
 
 **To proceed, the following is needed:**
-
-- **Regulatory access:** Submit a TGA SAS Category B application for atovaquone monotherapy for clinically indicated toxoplasmosis cases (e.g., immunocompromised patients intolerant to standard treatment)
-- **Procurement:** Identify a suitable international supplier for Mepron® (atovaquone 750 mg/5 mL oral suspension), given no Australian supplier exists
-- **Drug interaction management:** Establish a monitoring protocol for patients co-prescribed rifampicin, rifabutin, or antiretrovirals — therapeutic drug monitoring of atovaquone plasma levels should be considered
-- **MOA documentation:** Source formal drug product information from FDA/EMA for inclusion in clinical governance documentation (DrugBank MOA data was unavailable in this Evidence Pack)
-- **Secondary priority — Ocular toxoplasmosis (L3):** Commission a systematic review or prospective case series of Atovaquone for toxoplasmic retinochoroiditis in Australian centres managing immunocompromised patients; existing retrospective data (PMID 9917796, PMID 20437247) provides sufficient preliminary support to justify structured evidence collection
-
-> **Disclaimer:** This report is for research purposes only and does not constitute medical advice. Any clinical repurposing application requires prospective clinical validation and appropriate regulatory approval.
+- Primary outcome data from NCT00000794 and NCT00001994
+- Review of the TGA Product Information for warnings, contraindications and approved indications (the current ARTG record lacks this text)
+- Confirmed mechanism of action data from DrugBank
+- Assessment of absorption variability and dosing for toxoplasmosis, and a monitoring plan for patients with liver disease
+- Pharmacokinetic and efficacy data for ocular toxoplasmosis if that indication is pursued as a research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Metoprolol
-parent: Moderate Evidence (L3-L4)
-nav_order: 440
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 472
+evidence_level: L5
 indication_count: 10
 ---
 
 # Metoprolol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Metoprolol: From Hypertension/Angina to Malignant Renovascular Hypertension
+# Metoprolol: From Hypertension and Myocardial Infarction to Chronic Pulmonary Heart Disease
 
 ## One-Sentence Summary
 
-Metoprolol is a selective beta-1 adrenergic blocker generally used to manage hypertension, angina and related cardiovascular conditions. The TxGNN model's top-ranked prediction is that it may be effective for **Malignant Renovascular Hypertension**, but this direction is currently supported by **0 clinical trials** and only **2 tangentially related publications** (neither of which studies metoprolol directly in this condition).
+Metoprolol is a beta-1 selective blocker originally used for hypertension, acute coronary syndrome and myocardial infarction.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension** (top-ranked), but this is a subtype of its existing indication and has no direct supporting evidence.
+The most evidence-rich prediction in the data compiled for this report is **chronic pulmonary heart disease** (4 clinical trials, 20 publications), although that evidence is indirect and largely concerns beta-blocker safety in COPD.
 
 ---
 
@@ -41,44 +43,96 @@ Metoprolol is a selective beta-1 adrenergic blocker generally used to manage hyp
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in the evidence pack (data gap — original indication text and TFDA label not yet retrieved) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+| Original Indication | Hypertension, acute coronary syndrome, myocardial infarction (the ARTG entries carry no indication text, so these come from the knowledge graph) |
+| Predicted New Indication | Malignant renovascular hypertension (top-ranked prediction) |
 | TxGNN Prediction Score | 99.91% |
-| Evidence Level | L4 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 (top-ranked prediction); best-supported alternative, chronic pulmonary heart disease, is L2 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacology, metoprolol is a cardioselective beta-1 adrenergic receptor antagonist. Beta-1 blockade reduces renin release, heart rate, and cardiac output — mechanisms that are theoretically applicable to controlling severe/malignant forms of hypertension, including malignant renovascular hypertension, which is driven substantially by renin-angiotensin system activation.
+Detailed mechanism of action data is not currently available. Based on known information, metoprolol is a beta-1 selective adrenergic blocker. It lowers heart rate, myocardial oxygen demand and renin release, and its efficacy in hypertension and myocardial infarction is established.
 
-However, the theoretical mechanistic link is not currently backed by direct evidence. Malignant renovascular hypertension is a renin-driven, often surgically- or ACE-inhibitor/ARB-managed condition, and beta-blockers are typically adjunctive rather than first-line in this specific presentation. The TxGNN score is high, but this reflects a knowledge-graph relationship prediction rather than confirmed clinical benefit.
+**Top prediction (malignant renovascular hypertension):** Reduced renin release and blood pressure lowering make this mechanistically plausible. However, it is a subtype of hypertension, already an approved indication, so this is not true repurposing. The only linked paper (PMID 1988765) concerns chromogranin A in diagnosing pheochromocytoma and does not address this condition. The related prediction, malignant hypertensive renal disease (score 99.91%), has no trials or literature at all.
 
-The two retrieved publications are only topically adjacent — one is a case report on hypertensive optic neuropathy from Takayasu's arteritis-related renal artery stenosis, and the other evaluates a diagnostic biomarker (chromogranin A) for pheochromocytoma. Neither studies metoprolol's efficacy or safety in this indication, so the mechanistic rationale should be regarded as plausible but essentially unproven.
+**Other predictions:**
+- **Myocardial infarction subtypes** (posteroinferior, posterolateral, septal; scores 99.80–99.84%): These fall within the approved MI indication. Support is limited to small physiological and comparative studies, mostly from the 1980s–2000s.
+- **Chronic pulmonary heart disease** (score 99.40%): This is the best-supported prediction, but the evidence is indirect. The relevant question is whether beta-blockers are safe and beneficial in patients with cardiac disease and coexisting COPD, not treatment of cor pulmonale itself. Beta-1 selective blockade appears generally tolerated in COPD, but results are mixed (see below).
+- **Pulmonary hypertension (two forms)**: There is no established mechanistic rationale. Beta-blockers are generally avoided or used cautiously in pulmonary arterial hypertension because of possible right ventricular depression.
+- **Braddock syndrome and trichotillomania**: No mechanistic link and no evidence. These are purely computational predictions.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Evidence for the top-ranked prediction: currently no related clinical trials registered. The table below covers the best-supported prediction, chronic pulmonary heart disease.
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT06825728](https://clinicaltrials.gov/study/NCT06825728) | Phase 4 | Not yet recruiting | 311 | Metoprolol in heart failure with reduced ejection fraction and COPD; primary outcomes are all-cause death and re-hospitalisation, comparing doses. No results. |
+| [NCT02587351](https://clinicaltrials.gov/study/NCT02587351) | Phase 3 | Terminated | 532 | Randomised, double-blind, placebo-controlled trial of beta-blocker (metoprolol) to prevent COPD exacerbations. Early termination limits conclusions. |
+| [NCT00384566](https://clinicaltrials.gov/study/NCT00384566) | Phase 4 | Withdrawn | 0 | Carvedilol vs metoprolol respiratory assessment in chronic heart failure. No participants enrolled, so no data. |
+| [NCT05096884](https://clinicaltrials.gov/study/NCT05096884) | Early Phase 1 | Terminated | 14 | Treatment study in post-COVID exertional dyspnoea and tachycardia. Only tangentially related. |
+
+No ANZCTR trial identifiers were available in the data compiled for this report.
 
 ---
 
 ## Literature Evidence
 
+The table below covers chronic pulmonary heart disease (the best-supported prediction). Priority is given to RCTs, then reviews and cohorts.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15231398](https://pubmed.ncbi.nlm.nih.gov/15231398/) | 2004 | Case report | Survey of Ophthalmology | Case of hypertensive optic neuropathy from renal artery stenosis (Takayasu's arteritis); does not evaluate metoprolol treatment |
-| [1988765](https://pubmed.ncbi.nlm.nih.gov/1988765/) | 1991 | Diagnostic study | Medicine | Evaluates chromogranin A vs. plasma catecholamines for diagnosing pheochromocytoma in hypertension work-up; not a metoprolol efficacy study |
+| [38762800](https://pubmed.ncbi.nlm.nih.gov/38762800/) | 2024 | RCT | JAMA | BICS trial of bisoprolol in COPD at high risk of exacerbation. Notes that an earlier trial found metoprolol did not reduce exacerbations and increased those requiring hospital admission. |
+| [38587241](https://pubmed.ncbi.nlm.nih.gov/38587241/) | 2024 | RCT | N Engl J Med | Beta-blockers after myocardial infarction with preserved ejection fraction (relevant to the approved MI indication). |
+| [20413026](https://pubmed.ncbi.nlm.nih.gov/20413026/) | 2010 | Crossover trial | J Am Coll Cardiol | Beta1-selective vs nonselective beta-blockers in chronic heart failure with COPD: respiratory, haemodynamic and clinical effects. |
+| [33784233](https://pubmed.ncbi.nlm.nih.gov/33784233/) | 2021 | Secondary analysis of RCT | Ann Am Thorac Soc | BLOCK COPD analysis: chronotropic index and COPD exacerbations, including susceptibility to metoprolol adverse effects. |
+| [32000982](https://pubmed.ncbi.nlm.nih.gov/32000982/) | 2020 | Cohort | Am J Cardiol | Metoprolol vs carvedilol in older patients with heart failure, COPD, diabetes and renal failure (Danish registers). |
+| [26844454](https://pubmed.ncbi.nlm.nih.gov/26844454/) | 2016 | Cohort | Medicine | Survival effects of carvedilol, bisoprolol and metoprolol in coexistent heart failure and COPD (Taiwan database). |
+| [32250198](https://pubmed.ncbi.nlm.nih.gov/32250198/) | 2020 | Review | Expert Rev Respir Med | Practical recommendations for beta-blocker use in COPD. |
+| [14520486](https://pubmed.ncbi.nlm.nih.gov/14520486/) | 2003 | Clinical study | Heart Vessels | Metoprolol appeared safe in 50 patients with coronary artery disease and COPD. |
+| [6851273](https://pubmed.ncbi.nlm.nih.gov/6851273/) | 1983 | Clinical physiological study | Clin Cardiol | Effects of oral metoprolol on cardiac and pulmonary function in 6 patients with reversible airways obstruction. |
+| [3568727](https://pubmed.ncbi.nlm.nih.gov/3568727/) | 1987 | Clinical study | Crit Care Med | Metoprolol for multifocal atrial tachycardia in 11 patients with serious pulmonary disease. |
+
+None of these studies tests metoprolol in pulmonary heart disease itself.
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13420H | Metrol-XL 190 | Tablet 190 mg (controlled release) | Not stated in the data compiled |
+| ARTG 1324Q | Metoprolol Sandoz | Tablet containing metoprolol tartrate 50 mg | Not stated in the data compiled |
+
+Both entries are valid single-ingredient oral products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+**Contraindications flagged in the knowledge graph** (these are model-derived associations, not label text) include:
+- Cardiometabolic and metabolic: diabetes mellitus, diabetic ketoacidosis, hypotensive disorder, gout and hyperuricaemia, potassium deficiency
+- Hepatic and pancreatic: liver disease, hepatic coma/encephalopathy, pancreatitis, gallbladder disease
+- Neuromuscular and endocrine: myasthenia gravis and neuromuscular junction disease, phaeochromocytoma, hyperparathyroidism
+- Other: systemic lupus erythematosus, psoriasis, anxiety and related disorders, anuria, neonatal jaundice
+
+**Drug interactions:** 100 interactions were identified (DDInter); the 20 reviewed were mostly moderate. Notable moderate interactions include:
+- Corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone)
+- Epinephrine
+- Anticholinergics (atropine, hyoscyamine, glycopyrronium)
+- Bupropion, morphine, lorcaserin, cimetidine
+- Antidiabetic agents (canagliflozin, dapagliflozin, chlorpropamide)
+- Calcium salts
+
+Minor interactions include acetylsalicylic acid and magnesium oxide.
+
+**Indication-specific concern:** beta-blockade may reduce cardiac output and tissue oxygenation under hypoxia (rat study, PMID 19809291). In the BLOCK COPD trial, metoprolol was linked to more COPD exacerbations requiring hospital admission (as cited in PMID 38762800). Please refer to the TGA-approved Product Information (PI) for label warnings and contraindications.
 
 ---
 
@@ -87,15 +141,16 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but there are no clinical trials and no literature directly evaluating metoprolol in malignant renovascular hypertension — the two retrieved papers are only topically related. Combined with the outstanding blocking data gap on TFDA warnings/contraindications, there is insufficient evidence to progress this candidate.
+- The top-ranked predictions (malignant renovascular hypertension and malignant hypertensive renal disease) are subtypes of an already approved indication, with no supporting trials or relevant literature (L5), so they do not represent genuine repurposing.
+- The best-supported prediction, chronic pulmonary heart disease (L2), has only indirect evidence, a terminated Phase 3 trial with a signal of harm in COPD, and an unstarted Phase 4 trial.
 
 **To proceed, the following is needed:**
-- TFDA product label (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism of action data from DrugBank
-- Original indication/regulatory history for metoprolol in this market
-- Dedicated clinical or preclinical studies of metoprolol specifically in malignant renovascular hypertension
-
-**Note:** A lower-ranked candidate in this evidence pack, **chronic pulmonary heart disease** (rank 9, score 99.05%), has substantially stronger support — 15 clinical trials (including several Phase 4 RCTs with n>1,700) and 20 publications — with a scoring of L2/Proceed with Guardrails. This may warrant a separate, dedicated evaluation report.
+- Mechanism of action data
+- Approved indication text for the ARTG entries, and the PI warnings and contraindications
+- Results from NCT06825728 (metoprolol in HFrEF with COPD) and a full analysis of NCT02587351
+- Direct studies of metoprolol in pulmonary heart disease
+- Clarification of whether MI and hypertension subtype predictions add value beyond the current indications
+- A safety monitoring plan for patients with COPD, diabetes or hypotension
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

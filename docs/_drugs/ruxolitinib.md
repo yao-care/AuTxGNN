@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ruxolitinib
-parent: High Evidence (L1-L2)
-nav_order: 610
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 652
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ruxolitinib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,109 +29,84 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Ruxolitinib: From JAK1/2-Driven Myeloproliferative Disease to Infection-Associated Hemophagocytic Syndrome
+# Ruxolitinib: From Myelofibrosis and Polycythaemia Vera to Uterine Corpus Perivascular Epithelioid Cell Tumour (PEComa)
 
 ## One-Sentence Summary
 
-Ruxolitinib is a JAK1/2 inhibitor; the specific TGA-approved original indication is not recorded in this evidence pack, but the drug class is best known for myelofibrosis and related myeloproliferative disorders. Across ten TxGNN-predicted indications for this drug, the model's single highest-scoring hits (rare mTOR-driven tumours such as PEComa, LAM, and rhabdoid tumour) carry **no clinical or mechanistic support**, while **hemophagocytic syndrome associated with an infection** — a lower-ranked but mechanistically coherent candidate — is backed by **2 clinical trials** and **20 publications**, including consensus critical-care guidelines. This report focuses on that best-evidenced candidate.
-
----
+Ruxolitinib is an oral JAK1/2 inhibitor, originally used for myeloproliferative neoplasms such as myelofibrosis and polycythaemia vera.
+The TxGNN model predicts it may be effective for **uterine corpus PEComa**, but this is a **model prediction only**, with **no clinical trials** and **no publications** currently supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in evidence pack (data gap). Ruxolitinib is a JAK1/2 inhibitor generally associated with myelofibrosis and polycythaemia vera in other jurisdictions. |
-| Predicted New Indication | Hemophagocytic syndrome associated with an infection |
-| TxGNN Prediction Score | 99.32% |
-| Evidence Level | L2 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-**Note on other candidates:** Nine other TxGNN-predicted indications for ruxolitinib were screened (see "Other Screened Candidates" below). All scored higher on raw TxGNN rank but lack clinical trial or literature support, and several are explicitly flagged in the evidence pack as mechanistically implausible (driven by mTOR or SWI/SNF pathways rather than JAK-STAT). They remain at **Hold**.
-
----
+| Original Indication | Myelofibrosis, polycythaemia vera and other myeloproliferative neoplasms (from the knowledge graph; the Australian entry lists no indication text) |
+| Predicted New Indication | Uterine corpus perivascular epithelioid cell tumour (PEComa) |
+| TxGNN Prediction Score | 99.73% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for ruxolitinib is not available in this evidence pack. Based on known pharmacology, ruxolitinib is a JAK1/2 inhibitor whose established efficacy in myeloproliferative disease relies on blocking cytokine-receptor signalling through the JAK-STAT pathway.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Ruxolitinib is known as a JAK1/2 inhibitor, and its efficacy in myeloproliferative neoplasms is established through dysregulated JAK/STAT signalling.
 
-Hemophagocytic lymphohistiocytosis (HLH), including forms triggered by infection, is a hyperinflammatory cytokine-storm syndrome driven substantially by interferon-gamma (IFN-γ) signalling through the same JAK-STAT axis that ruxolitinib inhibits. This is a much closer mechanistic fit than most of the other TxGNN hits for this drug: the model's top-ranked predictions (PEComa family tumours, lymphangioleiomyomatosis, familial rhabdoid tumour) are driven by TSC1/TSC2-mTOR or SMARCB1/SWI-SNF pathways with no known connection to JAK-STAT signalling, and the evidence pack itself flags these as likely reflecting knowledge-graph topological proximity rather than true biology.
-
-By contrast, the JAK-STAT/IFN-γ link to infection-associated HLH is supported by published murine mechanistic work and has already led to real-world and guideline-level use of ruxolitinib as salvage or first-line adjunct therapy in HLH, making this a substantially stronger repurposing hypothesis than the drug's highest raw TxGNN score would suggest on its own.
-
----
+The mechanistic case for uterine PEComa is weak. PEComa is driven mainly by mTOR pathway activation (loss of TSC1/TSC2), and no link to JAK/STAT inhibition is established in the available data. The high TxGNN score reflects a pattern in the knowledge graph rather than a demonstrated biological rationale. Related predictions (benign PEComa, lymphangiomyoma, lymphangioleiomyomatosis, lung PEComa) share the same limitation. Lymphangioleiomyomatosis, for example, is treated mainly by mTOR inhibition.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04424056](https://clinicaltrials.gov/study/NCT04424056) | Phase 3 | Unknown | 216 | Open randomised trial of anakinra/tocilizumab ± ruxolitinib in severe stage 2b–3 COVID-19–associated disease with severe inflammatory syndrome; completion status unclear. |
-| [NCT07424222](https://clinicaltrials.gov/study/NCT07424222) | Phase 1 | Not yet recruiting | 16 | Pilot study of ruxolitinib for immune effector cell-associated HLH-like syndrome (IEC-HS) after CAR-T therapy; assessing safety, optimal duration, and immunological biomarkers of response. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [34605776](https://pubmed.ncbi.nlm.nih.gov/34605776/) | 2022 | Review/Consensus Guideline | Critical Care Medicine | Consensus guidelines for recognition, diagnosis, and management of HLH in critically ill children and adults. |
-| [37702780](https://pubmed.ncbi.nlm.nih.gov/37702780/) | 2023 | Review | Innere Medizin | Overview of HLH treatment in ICU patients; distinguishes hereditary vs. acquired/secondary forms including infection- and malignancy-triggered disease. |
-| [31943120](https://pubmed.ncbi.nlm.nih.gov/31943120/) | 2020 | Review | QJM | Review of adult HLH, a life-threatening hyperimmune disorder with high mortality despite diagnostic and treatment progress. |
-| [35344583](https://pubmed.ncbi.nlm.nih.gov/35344583/) | 2022 | Cohort | Blood | Ruxolitinib response-based stratified treatment as first-line agent in 50+ paediatric HLH patients (ChiCTR2000031702). |
-| [40665481](https://pubmed.ncbi.nlm.nih.gov/40665481/) | 2025 | Cohort | British Journal of Haematology | Retrospective comparison of ruxolitinib-based regimen (n=53) vs. adjusted HLH-94 chemotherapy (n=42) in paediatric EBV-associated HLH. |
-| [32732367](https://pubmed.ncbi.nlm.nih.gov/32732367/) | 2021 | Cohort (pilot) | Haematologica | Pilot study of ruxolitinib as front-line therapy in 12 children with secondary HLH. |
-| [37787838](https://pubmed.ncbi.nlm.nih.gov/37787838/) | 2023 | Cohort (compassionate use, n=12) | Annals of Hematology | Sintilimab combined with ruxolitinib as compassionate therapy for adults with EBV-associated HLH. |
-| [31015190](https://pubmed.ncbi.nlm.nih.gov/31015190/) | 2019 | Preclinical/Mechanistic | Blood | Mechanistic study showing ruxolitinib dampens IFN-γ signalling and T-cell activation in a murine HLH model. |
-| [37228616](https://pubmed.ncbi.nlm.nih.gov/37228616/) | 2023 | Preclinical/Mechanistic | Frontiers in Immunology | Cellular/transcriptional effects of JAK and/or IFN-γ inhibition in a mouse model of primary HLH. |
-| [34353999](https://pubmed.ncbi.nlm.nih.gov/34353999/) | 2021 | Review | Current Opinion in Critical Care | Review of JAK inhibitors, including their established HLH use, repurposed for hospitalised COVID-19 patients. |
-
----
-
-## Other Screened Candidates (Lower Priority — Hold)
-
-For completeness, nine other TxGNN-predicted indications were evaluated for ruxolitinib but do not currently support progression:
-
-| Disease | TxGNN Score | Evidence Level | Status |
-|---|---|---|---|
-| Uterine corpus PEComa | 99.73% | L5 | Hold — no trials/literature; mTOR-driven, not JAK-STAT |
-| Benign PEComa | 99.73% | L5 | Hold — same as above |
-| Lymphangiomyoma | 99.72% | L5 | Hold — same as above |
-| Lymphangioleiomyomatosis | 99.64% | L5 | Hold — standard therapy is mTOR inhibitor (sirolimus), not JAK-STAT-linked |
-| Liposarcoma (myxoid) | 99.52% | L4 | Research Question — preclinical JAK-STAT link only (PMIDs 35186752, 30650179), no clinical data |
-| Familial rhabdoid tumour | 99.49% | L5 | Hold — SMARCB1/SWI-SNF driven, no JAK-STAT link |
-| Lung PEComa | 99.44% | L5 | Hold — same mTOR-family rationale |
-| Ovarian myxoid liposarcoma | 99.39% | L5 | Hold — extrapolated from general liposarcoma hypothesis, no direct data |
-| Acquired HLH associated with malignant disease | 99.32% | L3 | Research Question — supported by general HLH guidelines, no malignancy-specific trials |
-
----
+Currently no related literature available.
 
 ## Australia Market Information
 
-Ruxolitinib currently has **no ARTG entries** and is **not marketed** in Australia according to this evidence pack. No product, dosage form, or approved indication information is available.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10614P | Jakavi | Tablet 5 mg (oral) | Not listed in the data compiled |
 
----
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (kinase inhibitor), not a conventional cytotoxic |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
+| Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. Key warnings, contraindications, and drug interaction data are not available in this evidence pack (flagged as a Blocking data gap — DG001).
+Label-based warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for these.
 
----
+**Drug Interactions:** The interaction screen returned 100 interacting drugs. Only the first 20 were available for review. Of these, the following are rated **Major**:
+- Clarithromycin
+- Cobicistat
+- Deferasirox
+- Deferiprone
+- Ibritumomab tiuxetan
+- Tositumomab and Tositumomab (I-131)
+- Samarium (153Sm) lexidronam
+
+**Moderate** interactions include dexamethasone, rosuvastatin, fenfluramine, dexfenfluramine, sibutramine, troglitazone, palifermin and strontium chloride Sr-89. The remaining reviewed interactions (aprepitant, cimetidine, miconazole, clotrimazole) are rated Minor.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Infection-associated HLH has a clear mechanistic rationale (JAK-STAT/IFN-γ blockade) that is already reflected in critical-care consensus guidelines and multiple cohort studies, but the two directly relevant trials are either of unknown completion status (NCT04424056) or not yet recruiting (NCT07424222), so no completed controlled trial confirms efficacy in this specific infection-triggered subgroup.
+The prediction rests on the model score alone (L5), with no trials, no publications and no established mechanistic link to JAK/STAT inhibition. The disease is driven mainly by mTOR signalling.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (TGA/PI warnings and contraindications) before any safety assessment can proceed — currently blocking.
-- Obtain confirmed mechanism-of-action and original-indication documentation (DG002) to properly ground the repurposing rationale.
-- Monitor completion of NCT04424056 and recruitment status of NCT07424222.
-- Confirm drug-drug interaction profile (DDI query currently returned "not found").
-- If pursuing the malignancy-associated HLH subgroup (L3, Research Question) or myxoid liposarcoma (L4, Research Question), commission subgroup-specific trial data before advancing beyond exploratory status.
+- Preclinical or clinical evidence linking JAK/STAT signalling to PEComa
+- Detailed mechanism of action data
+- Product Information warnings and contraindications for the Australian product
+- Review of the other predicted indications in the same output, which have more supporting data:
+  - Hemophagocytic lymphohistiocytosis (HLH), with L3 evidence (mostly non-randomised clinical reports; no registered trials were identified)
+  - Myxoid liposarcoma (preclinical JAK-STAT data only)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

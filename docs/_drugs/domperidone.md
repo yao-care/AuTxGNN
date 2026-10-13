@@ -2,15 +2,15 @@
 layout: default
 title: Domperidone
 parent: Moderate Evidence (L3-L4)
-nav_order: 207
-evidence_level: L3
+nav_order: 224
+evidence_level: L4
 indication_count: 10
 ---
 
 # Domperidone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,99 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Domperidone: From Nausea and Vomiting to Headache Disorder
+# Domperidone: From Upper Gastrointestinal Symptoms to Headache Disorder (Migraine)
 
 ## One-Sentence Summary
 
-Domperidone is a peripheral dopamine D2 receptor antagonist and prokinetic agent, widely used in clinical practice for nausea, vomiting, and gastroparesis management.
-The TxGNN model predicts it may be effective for **Headache Disorder** (migraine and related conditions), with **0 registered clinical trials** but **20 published literature references** currently supporting this direction.
-Of the 10 predicted indications evaluated, headache disorder carries the strongest evidence base and the only actionable clinical recommendation.
+Domperidone is a peripheral dopamine D2/D3 receptor antagonist used to manage dyspepsia, nausea and vomiting. The TxGNN model predicts it may be useful for **headache disorder** (mainly migraine-associated nausea and absorption problems), with **no registered clinical trials** and **19 publications**, mostly narrative reviews and guidelines, currently supporting this direction.
+
+The headache disorder prediction was chosen because it is the only one among the top 10 predictions with a plausible mechanism and a meaningful body of literature. The top-ranked TxGNN prediction (nephrogenic syndrome of inappropriate antidiuresis) has no supporting evidence.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Antiemetic and upper gastrointestinal prokinetic agent (nausea and vomiting) — no TGA-registered products identified |
-| Predicted New Indication | Headache Disorder (Migraine) |
-| TxGNN Prediction Score | 96.72% |
-| Evidence Level | L3 |
-| Australia Market Status | Not listed on ARTG |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Not stated in the ARTG data compiled for this report (general use: dyspepsia, heartburn, nausea and vomiting) |
+| Predicted New Indication | Headache disorder (migraine-associated symptoms) |
+| TxGNN Prediction Score | 96.72% (the top-ranked prediction, nephrogenic SIAD, scores 99.08% but has no supporting evidence) |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Proceed with Guardrails (research question stage) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Domperidone is a selective peripheral dopamine D2 receptor antagonist. Unlike metoclopramide, it does not readily cross the blood–brain barrier and exerts its primary effects at the chemoreceptor trigger zone (area postrema) and peripheral gastrointestinal dopamine receptors. This peripheral selectivity is clinically important: it provides antiemetic and prokinetic benefit with a reduced risk of extrapyramidal side effects. Detailed mechanism of action data from DrugBank was not available for this assessment; however, the drug's pharmacological profile is well-characterised in the published literature cited below.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, domperidone is a peripheral D2/D3 dopamine receptor antagonist that does not readily cross the blood-brain barrier. It acts as an antiemetic and an upper gastrointestinal prokinetic.
 
-The link between domperidone and headache disorders is mechanistically plausible. Migraine pathophysiology involves dopaminergic dysregulation, particularly during the premonitory (prodromal) phase — the period before headache onset characterised by yawning, nausea, photophobia, and fatigue. D2 receptor hypersensitivity is thought to drive these premonitory symptoms, and domperidone's peripheral D2 blockade may interrupt this early dopaminergic cascade. Importantly, some evidence suggests that treating the premonitory phase — rather than waiting for headache onset — may prevent or attenuate the full attack. Domperidone has also been studied specifically as an adjunct antiemetic during dihydroergotamine (DHE) infusion protocols for intractable migraine.
+Migraine attacks commonly involve nausea, vomiting and gastric stasis, which can delay absorption of oral analgesics and triptans. Several reviews and guidelines describe domperidone (alongside metoclopramide) as an add-on to improve nausea and potentially enhance drug absorption. This means domperidone treats the **associated symptoms** of migraine rather than the headache itself. It is therefore best viewed as adjunctive therapy, not as a primary headache treatment.
 
-A further mechanistic rationale relates to pharmacokinetics during attacks: migraine induces gastroparesis, slowing gastric emptying and impairing oral drug absorption. Domperidone's prokinetic action restores gastric motility, enhancing the bioavailability of co-administered analgesics and triptans. This prokinetic-antiemetic synergy is recognised in multiple international guidelines, including the Canadian Headache Society guidelines, and has been directly tested in a randomised comparison of a domperidone–paracetamol fixed combination (Domperamol) versus sumatriptan 50 mg. While domperidone is not currently TGA-registered in Australia, this evidence base provides solid biological and clinical justification for repurposing evaluation.
+Other predictions (for example nephrogenic SIAD, Plasmodium falciparum malaria, common cold, collagenopathy) have no identified mechanistic link and no supporting clinical data. They are not recommended for further work at this stage.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials are registered for Domperidone in headache disorder on ClinicalTrials.gov or the ICTRP.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+Nineteen publications were retrieved for headache disorder. The most relevant are shown below. Most are narrative reviews or guidelines, and none is a large randomised placebo-controlled trial of domperidone alone.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [11191009](https://pubmed.ncbi.nlm.nih.gov/11191009/) | 2000 | RCT | Current Medical Research and Opinion | Randomised UK primary care study (n=120) comparing Domperamol (domperidone + paracetamol) with sumatriptan 50 mg in moderate-to-severe migraine; assessed effectiveness, tolerability and cost |
-| [27837002](https://pubmed.ncbi.nlm.nih.gov/27837002/) | 2016 | Prospective Safety Study | Neurology | Evaluated domperidone safety for nausea associated with dihydroergotamine (DHE) infusion for refractory headache; defined cardiac monitoring requirements |
-| [33409110](https://pubmed.ncbi.nlm.nih.gov/33409110/) | 2020 | Prospective Observational | Cureus | Real-life tertiary care study of headache clinical profiles and management patterns; domperidone included in treatment regimens; MIDAS and HIT-6 disability assessments used |
-| [23968886](https://pubmed.ncbi.nlm.nih.gov/23968886/) | 2013 | Clinical Guideline | Canadian Journal of Neurological Sciences | Canadian Headache Society acute migraine guideline; prokinetic antiemetics including domperidone included in evidence-based management algorithms for episodic migraine |
-| [25877672](https://pubmed.ncbi.nlm.nih.gov/25877672/) | 2015 | Clinical Review | Headache | Systematic review of acute migraine treatment options in adults; covers role of prokinetics including domperidone for nausea control and absorption enhancement of NSAIDs and triptans |
-| [38822165](https://pubmed.ncbi.nlm.nih.gov/38822165/) | 2024 | Review | CNS Drugs | Reviews pharmacotherapy targeting the migraine premonitory phase; discusses dopaminergic interventions including domperidone as candidates for attack prevention before headache onset |
-| [12463273](https://pubmed.ncbi.nlm.nih.gov/12463273/) | 2001 | Review | Current Medical Research and Opinion | Antiemetics in migraine: metoclopramide and domperidone highlighted for prokinetic effect overcoming gastric stasis and improving analgesic absorption |
-| [10494007](https://pubmed.ncbi.nlm.nih.gov/10494007/) | 1999 | Review | Canadian Journal of Clinical Pharmacology | Domperidone and metoclopramide shown to improve gastrointestinal absorption of analgesics and triptans during migraine; role in managing nausea-dominant presentations |
-| [9876882](https://pubmed.ncbi.nlm.nih.gov/9876882/) | 1998 | Review | Cephalalgia | Reviews pathophysiology and pharmacology of emesis in migraine; dopamine D2 receptor antagonism by domperidone contextualised within acute and future migraine treatment strategies |
-| [8749241](https://pubmed.ncbi.nlm.nih.gov/8749241/) | 1995 | Review | Cephalalgia | Domperidone 20 mg orally recommended as antiemetic in combination with analgesics or ergot alkaloids for migraine; early introduction advised; mechanism of improving drug resorption discussed |
+|------|-----|------|------|---------|
+| [11191009](https://pubmed.ncbi.nlm.nih.gov/11191009/) | 2000 | Randomised primary care study | Curr Med Res Opin | Fixed combination of domperidone and paracetamol compared with sumatriptan 50 mg in 120 patients with moderate to severe migraine |
+| [27837002](https://pubmed.ncbi.nlm.nih.gov/27837002/) | 2016 | Observational safety study | Neurology | Safety of domperidone for nausea associated with dihydroergotamine infusion and headache |
+| [23968886](https://pubmed.ncbi.nlm.nih.gov/23968886/) | 2013 | Guideline | Can J Neurol Sci | Canadian Headache Society guideline on acute drug therapy for migraine |
+| [19708964](https://pubmed.ncbi.nlm.nih.gov/19708964/) | 2009 | Guideline | Eur J Neurol | EFNS guideline on drug treatment of migraine (revised) |
+| [25877672](https://pubmed.ncbi.nlm.nih.gov/25877672/) | 2015 | Review | Headache | Overview of office-based acute migraine therapy in adults |
+| [28360580](https://pubmed.ncbi.nlm.nih.gov/28360580/) | 2013 | Review | Noro Psikiyatri Arsivi | Review of acute migraine pharmacological management |
+| [10494007](https://pubmed.ncbi.nlm.nih.gov/10494007/) | 1999 | Review | Can J Clin Pharmacol | Prokinetic antiemetics (metoclopramide, domperidone) may improve absorption of analgesics and triptans |
+| [12463273](https://pubmed.ncbi.nlm.nih.gov/12463273/) | 2001 | Review | Curr Med Res Opin | Anti-emetics for migraine; domperidone and metoclopramide have an additional prokinetic effect |
+| [8749241](https://pubmed.ncbi.nlm.nih.gov/8749241/) | 1995 | Review | Cephalalgia | Antiemetic plus analgesic widely recommended; domperidone 20 mg orally commonly used |
+| [9876882](https://pubmed.ncbi.nlm.nih.gov/9876882/) | 1998 | Review | Cephalalgia | Place of antiemetic and prokinetic agents in acute migraine treatment strategies |
+
+Other retrieved items (for example a case report of anaphylaxis to levodropropizine for common cold, and incidental papers for allergic urticaria) are unrelated to domperidone efficacy and were disregarded.
 
 ---
 
 ## Australia Market Information
 
-Domperidone is **not currently registered on the Australian Register of Therapeutic Goods (ARTG)**. No TGA-approved products were identified. Clinicians wishing to use domperidone in Australia would need to access it via the **TGA Special Access Scheme (SAS)** (Category B or C) or apply for **Authorised Prescriber** status through the TGA.
-
-Domperidone is registered and available in comparable markets including the United Kingdom (MHRA), Canada (Health Canada), and the European Union (EMA), where it is approved for nausea and vomiting. The EMA conducted a benefit–risk review in 2014 and issued restrictions on dose and duration due to cardiac safety concerns.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 1347X | APO-DOMPERIDONE | Tablet 10 mg (oral) | Not available in the data compiled |
 
 ---
 
 ## Safety Considerations
 
-Domperidone does not have a TGA-approved Product Information document as it is not registered in Australia. Based on international regulatory assessments and evidence identified in this pack, clinicians should be aware of the following key safety issues:
+- **Cardiac risk (knowledge graph signal):** The TxGNN knowledge graph lists contraindication links with long QT syndrome, familial long QT syndrome and torsades de pointes. Cardiac safety (QT prolongation, arrhythmia) is the main guardrail concern.
+- **Hepatic and biliary disease:** The knowledge graph also links domperidone with liver disease and gallbladder disease as contraindications. These come from graph edges, not from product label text.
+- **Pharmacology:** Domperidone acts on the D2 and D3 dopamine receptors (DRD2, DRD3). The compiled data did not return specific drug-drug interactions; QT-prolonging and CYP3A4-inhibiting co-medications should be checked against the Product Information.
+- **Migraine context:** One cited report (PMID 27837002) examined domperidone safety alongside dihydroergotamine infusion.
 
-- **QT Prolongation and Cardiac Risk**: Domperidone is associated with dose-dependent QT interval prolongation and an increased risk of serious ventricular arrhythmia, including Torsades de Pointes and sudden cardiac death. The EMA (2014) restricted use to the lowest effective dose (10 mg up to three times daily orally) for the shortest possible duration. A case report in this evidence pack (PMID 34530950) describes a young patient who developed concurrent Kounis syndrome (allergic acute coronary syndrome) and prolonged QTc associated with domperidone exposure — an important adverse signal.
-- **Drug Interactions**: Concomitant use with other QT-prolonging drugs (e.g., antifungal azoles such as ketoconazole, macrolide antibiotics, antipsychotics, antiarrhythmics) is contraindicated. Domperidone is a CYP3A4 substrate; inhibitors of CYP3A4 significantly increase plasma domperidone concentrations and QT risk.
-- **Cardiac Risk Factors**: Use requires caution or avoidance in patients with pre-existing cardiac disease, electrolyte disturbances (hypokalaemia, hypomagnesaemia), or those on other QT-prolonging medications. Baseline ECG is recommended before initiation.
-- **Prolactin Elevation**: Long-term use may cause hyperprolactinaemia, which can lead to galactorrhoea, gynaecomastia, and menstrual irregularities.
-
-Please refer to the MHRA/EMA Product Information and TGA's SAS prescribing guidance for comprehensive safety and contraindication details.
+Please refer to the TGA-approved Product Information (PI) for formal warnings and contraindications, as these were not available in the data compiled for this report.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Proceed with Guardrails** (research question stage only)
 
 **Rationale:**
-Multiple published literature references — including a direct randomised comparison of domperidone+paracetamol versus sumatriptan, prospective safety data with DHE, and endorsement in international clinical guidelines — establish a clinically plausible and practically relevant role for domperidone in headache disorder management. The evidence reaches Level L3 (observational studies, systematic reviews, and guidelines), which is insufficient for formal indication approval but sufficient to justify structured clinical evaluation.
+- The headache disorder prediction is biologically plausible. Domperidone helps with migraine-associated nausea and gastric stasis, and multiple guidelines and reviews mention it as an adjunct. However, there are no registered trials, the evidence is mostly narrative, and QT-related cardiac risk requires caution. All other predicted indications should remain on **Hold** (L5, no supporting evidence).
 
 **To proceed, the following is needed:**
-
-- **Regulatory pathway**: TGA Special Access Scheme (SAS Category B/C) or Authorised Prescriber application, as domperidone has no current ARTG registration
-- **Cardiac safety protocol**: Mandatory baseline ECG, electrolyte screening, and a structured cardiac monitoring plan prior to use; contraindication checklist for QT-prolonging comedications
-- **MOA documentation**: Retrieve full DrugBank mechanism of action data (DB01184) to formalise the dopamine–migraine mechanistic rationale for any regulatory or ethics submission
-- **Dose and duration governance**: Adhere to EMA-recommended restrictions (≤10 mg three times daily orally, shortest effective duration) given cardiac risk profile
-- **Clinical evidence gap**: No registered clinical trials exist for this indication; a prospective observational registry or Phase 2 pilot RCT in Australian migraine patients would substantially strengthen the evidence base to reach L2
-- **Special populations assessment**: Evaluate safety in elderly patients and those with pre-existing cardiac conditions, who are at disproportionately higher risk of QT-related events
-
-> **Disclaimer**: This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All information should be interpreted in conjunction with current TGA guidelines and the prescribing clinician's professional judgement.
+- Retrieve the TGA Product Information (warnings, contraindications, approved indications) for APO-DOMPERIDONE, as this data gap blocks safety screening
+- Mechanism of action data from DrugBank
+- Systematic review of randomised trials of domperidone as an adjunct in acute migraine
+- Cardiac safety plan (baseline ECG/QT assessment, review of interacting medicines, limits on dose and duration)
+- Clarification of the intended positioning (adjunct for nausea and absorption versus any direct headache claim)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

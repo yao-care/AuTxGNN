@@ -2,15 +2,15 @@
 layout: default
 title: Ciprofloxacin
 parent: Moderate Evidence (L3-L4)
-nav_order: 150
-evidence_level: L3
+nav_order: 162
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ciprofloxacin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,31 +33,36 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ciprofloxacin is a broad-spectrum fluoroquinolone antibiotic, widely used in clinical practice to treat a range of serious bacterial infections. The TxGNN model predicts it may be effective for **Diffuse Scleroderma**, with **0 clinical trials** and **2 publications** currently supporting this direction. The overall evidence base is limited, placing this candidate at an early exploratory research stage.
+Ciprofloxacin is a fluoroquinolone antibiotic, originally used for infections such as typhoid fever, bacterial pneumonia, anthrax and shigellosis.
+The TxGNN model predicts it may be effective for **diffuse scleroderma**, but there are **no registered clinical trials** and only **2 publications**, so the evidence is weak.
+One 2010 paper suggests a possible skin antifibrotic effect, but its design and results could not be confirmed from the data compiled for this report.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Broad-spectrum bacterial infections (fluoroquinolone antibiotic) |
-| Predicted New Indication | Diffuse Scleroderma |
+|------|------|
+| Original Indication | Bacterial infections (e.g. typhoid fever, salmonellosis, bacterial pneumonia, Pseudomonas aeruginosa infection, anthrax, shigellosis) |
+| Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold (Research Question) |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this evidence pack. Based on established pharmacology, Ciprofloxacin is a fluoroquinolone antibiotic that inhibits bacterial DNA gyrase and Topoisomerase IV, thereby disrupting bacterial DNA replication and cell division. Beyond its antibacterial properties, in vitro research has demonstrated that Ciprofloxacin can suppress dermal fibroblast proliferation and collagen synthesis — an antifibrotic effect that is mechanistically relevant to scleroderma pathophysiology.
+Detailed mechanism of action data is not available in the data compiled for this report. Ciprofloxacin is a fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV. Its efficacy in bacterial infections is well established. Nothing in that mechanism directly explains an effect on scleroderma.
 
-Diffuse scleroderma (systemic sclerosis) is an autoimmune connective tissue disorder characterised by microvascular injury, excessive fibrosis of the skin and viscera, and immune dysregulation. The TxGNN repurposing hypothesis operates via two biologically plausible pathways: (1) **direct antifibrotic action** — suppression of fibroblast activity and collagen deposition in the skin; and (2) **treatment of small intestinal bacterial overgrowth (SIBO)** — a frequent complication of scleroderma-related gastrointestinal dysmotility that contributes significantly to malabsorption and disease burden.
+Any link to scleroderma is indirect and has two possible routes:
 
-The TxGNN knowledge graph assigns a high prediction score (99.87%) to this association, likely capturing the established molecular connections between fluoroquinolone targets and fibrosis-related pathways. Importantly, a 2010 pilot randomised controlled trial (PMID 20507401) specifically investigated oral Ciprofloxacin as an antifibrotic agent in scleroderma patients, providing the only direct — albeit preliminary — clinical evidence for this repurposing hypothesis.
+1. **Treating small bowel bacterial overgrowth.** This is common in systemic sclerosis and causes diarrhoea, weight loss and malabsorption. A 1995 study examined this complication. Treating it would relieve a complication, not modify the underlying disease.
+2. **A proposed antifibrotic effect in the skin.** A 2010 paper investigated oral ciprofloxacin as an antifibrotic in scleroderma skin. No direct disease-modifying mechanism has been established.
+
+The very high TxGNN score is not backed by clinical data. It likely reflects proximity in the knowledge graph, not demonstrated biology.
 
 ---
 
@@ -70,34 +75,46 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Pilot RCT | The Journal of Dermatology | Controlled, double-blind randomised clinical trial evaluating whether oral Ciprofloxacin reduces scleroderma severity via its antifibrotic properties (suppression of fibroblast proliferation and collagen synthesis) |
-| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Observational | British Journal of Rheumatology | 24 systemic sclerosis patients investigated for SIBO using jejunal aspiration; characterises the relationship between SIBO and scleroderma gastrointestinal disease, supporting antibiotic treatment rationale including use of Ciprofloxacin |
+|------|-----|------|------|---------|
+| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Exploratory (antifibrotic effect in scleroderma skin) | The Journal of Dermatology | Examines whether oral ciprofloxacin reduces scleroderma severity. The abstract describes a controlled, double-blind randomised trial, but the available text is truncated and the results could not be confirmed. |
+| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Cohort/Diagnostic | British Journal of Rheumatology | 24 systemic sclerosis patients with diarrhoea and weight loss were assessed for small bowel bacterial overgrowth and treatment outcome. This concerns a complication, not the underlying disease. |
+
+---
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1208N | C-Flox 250 | Tablet 250 mg (as hydrochloride) | Not stated in the data compiled for this report |
+
+Only an oral tablet formulation is listed.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+Label-based warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for these.
+
+- **Contraindication-related conditions (from a knowledge graph, not label text):** long QT syndrome, torsades de pointes, epilepsy, kidney disease, potassium deficiency, tendinitis and other tendon disorders, peripheral neuropathy, myasthenia gravis, and *Clostridium difficile* colitis.
+- **Drug interactions:** 100 interactions were recorded. Those rated **Major** include the corticosteroids hydrocortisone, triamcinolone, dexamethasone and betamethasone, and bupropion. Interactions rated **Moderate** include metformin, pioglitazone, alogliptin, albiglutide, acarbose, famotidine, loperamide, alosetron, aprepitant, aspirin, balsalazide, bisacodyl, budesonide and calcium phosphate. Corticosteroid co-use is relevant because tendon disorders appear among the flagged conditions, and corticosteroids are commonly used in scleroderma care.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (Research Question)**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic hypothesis is biologically plausible, supported by in vitro antifibrotic data and a single small pilot RCT from 2010; however, the evidence base is insufficient to advance without further validation. Ciprofloxacin is currently not marketed in Australia (0 ARTG entries), adding a regulatory pathway consideration alongside the clinical evidence gap.
+The prediction rests on a very high model score, but there are no registered trials. The two publications are exploratory or concern a complication of the disease. No direct disease-modifying mechanism is established. The knowledge-graph safety signals (tendon, neuropathy, QT) also argue for caution in a chronic condition like scleroderma.
 
 **To proceed, the following is needed:**
+- Full text of the 2010 study (design, sample size, outcomes) to judge whether the antifibrotic signal is credible
+- Mechanistic data supporting an antifibrotic effect
+- A well-designed controlled trial in diffuse scleroderma, ideally registered (ClinicalTrials.gov or ANZCTR)
+- Label safety information from the TGA PI, including tendon, neuropathy and QT warnings
+- A risk-benefit assessment for long-term use, including antimicrobial resistance and corticosteroid co-prescribing
 
-- Full review of the 2010 pilot RCT (PMID 20507401) results, including effect size, sample size adequacy, and safety outcomes
-- Retrieval of detailed MOA data from DrugBank (DB00537) to formally characterise the antifibrotic mechanism
-- Safety review via the TGA Product Information for key warnings, contraindications, and relevant drug interactions
-- Assessment of Ciprofloxacin's regulatory pathway for Australian market authorisation, given there are currently 0 ARTG entries
-- Consultation with Australian rheumatology and gastroenterology specialists to determine clinical feasibility of a Phase 2 proof-of-concept study in diffuse scleroderma
-
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.
+**Note on other predictions:** The strongest-supported prediction for this drug in the data compiled is **septicaemic plague** (TxGNN score 99.64%, Evidence Level L1, Proceed with Guardrails). It is supported by randomised trial publications, mainly in bubonic plague. It is an extension of ciprofloxacin's existing antibacterial spectrum, not a new mechanism, and it merits separate evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,15 +2,15 @@
 layout: default
 title: Pyridostigmine
 parent: Moderate Evidence (L3-L4)
-nav_order: 571
-evidence_level: L3
+nav_order: 613
+evidence_level: L4
 indication_count: 10
 ---
 
 # Pyridostigmine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,31 +29,33 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Pyridostigmine: From Generalised Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
+# Pyridostigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
 
 ## One-Sentence Summary
 
-Pyridostigmine is a cholinesterase inhibitor whose established use, as referenced in the evidence pack, is symptomatic treatment of generalised myasthenia gravis (MG). The TxGNN model predicts a strong association with **myasthenia gravis with thymus hyperplasia**, a clinical subtype of the same disease, supported by **3 publications** and **no dedicated clinical trials** identified for this specific subtype. This is best understood as a label-extension signal within an already-established indication rather than a genuinely novel repurposing.
+Pyridostigmine is a reversible acetylcholinesterase inhibitor, originally used for symptomatic treatment of myasthenia gravis and other neuromuscular junction disorders.
+The TxGNN model predicts it may be effective for **myasthenia gravis with thymus hyperplasia**, which is essentially an on-label subtype of the original indication rather than true repurposing.
+There are currently **no registered clinical trials** and **3 publications** (none testing pyridostigmine in this subgroup) supporting this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Generalised myasthenia gravis (symptomatic treatment)¹ |
+| Original Indication | Myasthenia gravis, adult-onset myasthenia gravis, neuromuscular junction disease (the ARTG entry does not state an indication text) |
 | Predicted New Indication | Myasthenia gravis with thymus hyperplasia |
 | TxGNN Prediction Score | 99.76% |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-¹ Not captured in the ARTG licence data (0 entries — drug is not marketed in Australia). This is drawn from the evidence pack's own mechanistic rationale, since the `original_moa` field is a recorded data gap (DG002).
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed, independently-sourced mechanism-of-action data is not currently available (data gap DG002). However, the evidence pack's own repurposing rationale identifies pyridostigmine as an acetylcholinesterase (AChE) inhibitor that raises acetylcholine concentration at the neuromuscular junction — the standard symptomatic mechanism by which it treats generalised myasthenia gravis, a mechanism confirmed clinically over many years.
+Detailed mechanism of action data is not available in the data compiled for this report. Pyridostigmine is known to be a reversible acetylcholinesterase inhibitor. It increases acetylcholine at the neuromuscular junction, which is the basis of its standard use as symptomatic therapy for acetylcholine receptor antibody-positive myasthenia gravis.
 
-Myasthenia gravis with thymus hyperplasia is not a distinct disease but a well-recognised clinical subtype of generalised MG, in which thymic hyperplasia commonly accompanies acetylcholine-receptor-antibody-positive disease. Because pyridostigmine's mechanism acts downstream of the autoimmune/thymic process — directly at the neuromuscular junction — its applicability to this subtype follows logically from its already-established use in generalised MG. The prediction therefore reflects strong mechanistic continuity, but it should be read as an indication-extension/subtype confirmation rather than a novel therapeutic application, as flagged directly in the evidence pack's rationale.
+Thymic hyperplasia is a common pathological feature of that disease, so the predicted indication largely overlaps with the original one. The mechanism applies directly: any form of myasthenia gravis with impaired neuromuscular transmission may benefit from symptomatic cholinesterase inhibition.
+
+The supporting literature does not test pyridostigmine in this subgroup. It consists of a genomic/epigenetic review, a case report on MuSK-positive disease, and a retrospective study of thymectomy outcomes.
 
 ## Clinical Trial Evidence
 
@@ -63,25 +65,38 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25683765](https://pubmed.ncbi.nlm.nih.gov/25683765/) | 2015 | Cohort | Journal of Neurology | Retrospective analysis of 39 patients with non-thymomatous, AChR-antibody-positive, late-onset generalised MG; evaluated 2-year outcomes of thymectomy, providing subtype-specific clinical context relevant to thymic-hyperplasia MG management. |
-| [34225443](https://pubmed.ncbi.nlm.nih.gov/34225443/) | 2021 | Review | Molecular Medicine Reports | Reviews MG pathology, genomics and autoimmunity; describes MG as a heterogeneous disorder with neonatal, ocular and generalised subtypes and autoantibodies against the acetylcholine receptor, supporting the mechanistic basis for AChE-inhibitor therapy. |
-| [18053719](https://pubmed.ncbi.nlm.nih.gov/18053719/) | 2008 | Case Report | Neuromuscular Disorders (NMD) | Case of MuSK-positive MG with thymus hyperplasia presenting as dropped head syndrome; illustrates clinical heterogeneity within the thymus-hyperplasia MG subtype. |
+| [25683765](https://pubmed.ncbi.nlm.nih.gov/25683765/) | 2015 | Cohort | Journal of Neurology | Two-year outcomes of thymectomy in 39 patients with non-thymomatous, late-onset, AChR antibody-positive generalised MG; no pyridostigmine data |
+| [34225443](https://pubmed.ncbi.nlm.nih.gov/34225443/) | 2021 | Review | Molecular Medicine Reports | Genomic, phenotypic and epigenetic insights into MG pathology and autoimmunity |
+| [18053719](https://pubmed.ncbi.nlm.nih.gov/18053719/) | 2008 | Case report | Neuromuscular Disorders | Dropped head syndrome in a MuSK-positive MG patient with thymic hyperplasia |
+
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 14392L | Mestinon | Tablet containing pyridostigmine bromide 10 mg | Not stated in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Conditions flagged as contraindications in the knowledge graph** (not label text): kidney disease, pyoureter, asthma (including intrinsic and allergic asthma), and urinary tract obstruction.
+- **Drug Interactions**: 78 interactions were identified, and the 20 listed in the data are all rated Moderate. They include:
+  - Corticosteroids: hydrocortisone, prednisone, prednisolone, dexamethasone, betamethasone, budesonide, triamcinolone
+  - Anticholinergics/antimuscarinics: atropine, scopolamine, hyoscyamine, glycopyrronium, methscopolamine, propantheline, trospium, dicyclomine, clidinium, mepenzolate
+  - Aminoglycosides: neomycin, kanamycin, paromomycin
+
+Product Information warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic basis for pyridostigmine's efficacy in this MG subtype is well established (it is already a standard-of-care agent in generalised MG), but evidence specific to the thymus-hyperplasia subtype consists only of one cohort study, one review and one case report (Evidence Level L3), with no dedicated clinical trials. The drug is also not currently marketed in Australia (0 ARTG entries), and a Blocking data gap on TGA-equivalent warnings/contraindications (DG001) means the safety pre-screen (S1) cannot yet be completed.
+The predicted indication is essentially a subtype of an established use, so it offers little true repurposing value. There are no trials, and the literature does not test pyridostigmine in this subgroup. Evidence is limited to model prediction and general background literature (L4).
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information covering warnings, precautions and contraindications (Blocking gap, DG001)
-- Verified mechanism-of-action documentation from DrugBank or an equivalent source (High-priority gap, DG002)
-- Confirmation of whether this candidate should be framed as a subtype-level label clarification of an existing indication rather than a new repurposing opportunity, before further resourcing is allocated
+- The TGA-approved PI, including approved indications, warnings and contraindications
+- Detailed mechanism of action data
+- Subgroup data on pyridostigmine response in thymic hyperplasia-associated MG (for example, from existing MG cohorts)
+- Review of the knowledge-graph contraindication flags (asthma, urinary obstruction, kidney disease) against the PI
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

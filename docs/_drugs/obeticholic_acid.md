@@ -2,7 +2,7 @@
 layout: default
 title: Obeticholic Acid
 parent: Model Prediction Only (L5)
-nav_order: 481
+nav_order: 515
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,74 +33,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Obeticholic acid (OCA) is a farnesoid X receptor (FXR) agonist reported in the literature for the treatment of primary biliary cholangitis (PBC). The TxGNN model predicts a possible new indication in **rheumatoid arthritis**, but **no clinical trials** support this link and the **3 supporting publications** do not actually address rheumatoid arthritis — the evidence pack's own analysis flags this as likely model noise.
-
----
+Obeticholic acid is a farnesoid X receptor (FXR) agonist, registered in Australia as Ocaliva 5 mg tablets. The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **no registered clinical trials** and only **one directly relevant preclinical study** (in rats). The evidence is therefore very early-stage.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Primary biliary cholangitis (PBC) — sourced from literature only; not TGA/ARTG-registered |
+| Original Indication | Not stated in the data compiled for this report (the literature describes obeticholic acid as a treatment for primary biliary cholangitis) |
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.67% |
-| Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 (preclinical only) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this candidate (flagged as a Blocking/High-severity data gap). Based on literature references within this evidence pack, OCA is an FXR agonist used in primary biliary cholangitis, where it modulates bile acid metabolism and has downstream anti-inflammatory and anti-fibrotic effects in the liver.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on the published literature, obeticholic acid is a potent FXR agonist, and it is used as second-line therapy for primary biliary cholangitis (PBC).
 
-However, the evidence pack's own mechanistic assessment for this specific prediction is **negative**: none of the three supporting publications discuss rheumatoid arthritis or joint/synovial inflammation. They instead cover PBC diagnosis, autoimmune hepatitis animal models, and FXR-mediated hepatoprotection against herbal-induced liver injury (a drug used to treat RA, not evidence that OCA treats RA). The reviewers assess this as likely embedding-similarity noise, possibly driven by the shared "autoimmune disease" semantic neighbourhood in the model's knowledge graph, rather than a genuine mechanistic link between FXR agonism and rheumatoid joint disease.
+FXR activation has anti-inflammatory effects, including suppression of NF-κB signalling and pro-inflammatory cytokines. This provides a plausible link to autoimmune arthritis. A single 2026 rat study reports that obeticholic acid attenuated Complete Freund's Adjuvant-induced arthritis through FXR-mediated modulation of TGF-β/TAK1/MKK3/p38 MAPK signalling, inflammation and oxidative stress.
 
-**Note for reviewers:** a separate candidate in this pack — OCA repurposed for **heart disease** (rank 7, evidence level L3, decision stage S1, "Research Question") — has substantially stronger and more mechanistically coherent literature support (FXR activation improving NASH-related cardiac dysfunction, cardiovascular risk associated with NAFLD/NASH). That candidate may warrant separate evaluation and is not covered further in this report, which follows the top-ranked candidate as specified.
-
----
+This link is hypothesis-generating only. The other retrieved papers concern PBC, autoimmune hepatitis models and FXR protection against liver injury from *Tripterygium wilfordii*. They are indirect and do not demonstrate efficacy in rheumatoid arthritis.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32299307](https://pubmed.ncbi.nlm.nih.gov/32299307/) | 2020 | Review | United European Gastroenterology Journal | Overview of PBC diagnosis and treatment; does not address rheumatoid arthritis |
-| [35903109](https://pubmed.ncbi.nlm.nih.gov/35903109/) | 2022 | Review | Frontiers in Immunology | Animal models for autoimmune liver disease (autoimmune hepatitis, PBC); not RA-related |
-| [33704005](https://pubmed.ncbi.nlm.nih.gov/33704005/) | 2021 | Preclinical/Animal | Xenobiotica | FXR activation prevents liver injury from *Tripterygium wilfordii* preparations (a herbal RA treatment); does not test OCA in RA |
-
----
+| [42758264](https://pubmed.ncbi.nlm.nih.gov/42758264/) | 2026 | Preclinical (rat model) | Inflammopharmacology | Obeticholic acid attenuated adjuvant-induced arthritis via FXR-mediated modulation of TGF-β/TAK1/MKK3/p38 MAPK signalling, inflammation and oxidative stress |
+| [32299307](https://pubmed.ncbi.nlm.nih.gov/32299307/) | 2020 | Review | United European Gastroenterol J | Diagnosis and treatment of PBC (indirect; background on the original disease area) |
+| [35903109](https://pubmed.ncbi.nlm.nih.gov/35903109/) | 2022 | Review | Front Immunol | Animal models of autoimmune hepatitis (indirect) |
+| [33704005](https://pubmed.ncbi.nlm.nih.gov/33704005/) | 2021 | Preclinical (mouse) | Xenobiotica | FXR activation prevented liver injury from *Tripterygium wilfordii* preparations used for RA (indirect; relates to liver safety of RA therapy) |
 
 ## Australia Market Information
 
-No ARTG entries were found — obeticholic acid is not currently marketed in Australia (0 registered products).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 12623J | Ocaliva | Tablet 5 mg (oral) | Not listed in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions**: 50 potential interactions were identified. Among those listed, one is classed as **Major** (grazoprevir). Most others are **Moderate**, including:
+  - Bile acid sequestrants: cholestyramine, colesevelam, colestipol
+  - Methylxanthines: theophylline, aminophylline, caffeine
+  - Anticoagulants: anisindione, dicoumarol
+  - Psychotropics: clozapine, clomipramine, duloxetine, asenapine
+  - Others: lidocaine, alosetron, anagrelide, bendamustine, cyclobenzaprine, flutamide
 
----
+  Esomeprazole is classed as Minor.
+- **Literature-based considerations**: The pooled safety analysis (PMID 36757421, 1,878 individuals with chronic liver disease) and related papers describe the safety profile in liver disease. Pruritus and hepatotoxicity in advanced cirrhosis are recognised concerns. Obeticholic acid can also raise LDL-C and lower HDL-C. These would need weighing in an RA population that is often exposed to hepatotoxic DMARDs.
+
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications, as these were not available in the compiled data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The rheumatoid arthritis prediction has no clinical trial support and the cited literature does not establish a plausible mechanistic link — the pack's own analysis attributes the high TxGNN score to embedding-similarity noise rather than genuine biological rationale. Combined with the absence of MOA data and the drug's current unmarketed status in Australia, this candidate does not meet the bar for further development at this time.
+The prediction score is high, but the only direct support is a single animal study, and no human trials exist. Obeticholic acid also carries liver-related and lipid safety concerns that matter in RA patients.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for obeticholic acid
-- Preclinical or mechanistic studies specifically linking FXR agonism to rheumatoid joint inflammation, if such a rationale is to be pursued
-- TGA/ARTG regulatory status confirmation, since the drug is not currently marketed in Australia
-- Consider evaluating the heart disease candidate (rank 7) separately, as it currently has stronger supporting evidence
+- The TGA-approved PI, to obtain the approved indication, warnings and contraindications
+- Mechanism of action data (for example from DrugBank)
+- Replication of the rat arthritis findings in additional preclinical models, with safety and dose assessment
+- A defined RA population and a safety plan covering hepatic monitoring, lipid effects and interactions with concurrent DMARDs
+- A phase 1/2 proof-of-concept study design if preclinical results are confirmed
+
+### Note on other predicted indications
+
+Other top-ranked predictions are not recommended for progression at this stage:
+- **Heart disease** (score 98.99%, L4): The evidence is preclinical or indirect (cardiac dysfunction in NASH mice, cisplatin cardiotoxicity and diabetic cardiomyopathy models). The label is too broad, and the LDL-C/HDL-C effects are a potential concern. A specific cardiac phenotype should be defined first.
+- **Conjunctivitis** and the remaining rare congenital or genetic syndromes (L5): These are model predictions only, with no supporting trials or relevant literature, and no plausible FXR-mediated mechanism.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

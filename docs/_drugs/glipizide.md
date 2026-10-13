@@ -2,7 +2,7 @@
 layout: default
 title: Glipizide
 parent: Model Prediction Only (L5)
-nav_order: 315
+nav_order: 339
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Glipizide: From Type 2 Diabetes to Opsismodysplasia
+# Glipizide: From Type 2 Diabetes Mellitus to Opsismodysplasia
 
 ## One-Sentence Summary
 
-> Glipizide is a second-generation sulfonylurea used to manage type 2 diabetes mellitus by stimulating pancreatic β-cell insulin secretion.
-> The TxGNN model predicts a possible association with **Opsismodysplasia**, a rare skeletal dysplasia,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic review flags it as a likely embedding-space artefact rather than a genuine signal.
-
----
+Glipizide is a sulfonylurea originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia, but there are **no clinical trials** and **no relevant publications** supporting this prediction. It is a model-based signal only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (inferred from mechanism-of-action references within the evidence pack; not provided as a structured field) |
+| Original Indication | Type 2 diabetes mellitus |
 | Predicted New Indication | Opsismodysplasia |
 | TxGNN Prediction Score | 98.77% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for glipizide was not returned as a structured field in this evidence pack (flagged as a High-severity data gap). However, the evidence pack's own rationale text for related candidates consistently describes glipizide's known pharmacology as a sulfonylurea that acts on pancreatic β-cell KATP channels to stimulate insulin secretion — the standard mechanism for glucose control in type 2 diabetes.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Glipizide is a sulfonylurea, a class known to stimulate insulin release by closing pancreatic K-ATP channels. Its efficacy in type 2 diabetes is established.
 
-Opsismodysplasia is a rare skeletal dysplasia caused by mutations in the *INO80D* gene, affecting chromatin remodelling during bone development. Based on the evidence pack's mechanistic assessment, there is **no identifiable biological pathway connecting glipizide's insulin-secretagogue action to INO80D-mediated skeletal development** — the two conditions do not share any known receptor, enzyme, or signalling pathway.
+Opsismodysplasia is a rare skeletal dysplasia caused by INPPL1 mutations (SHIP2 deficiency), which affect PI3K/insulin signalling and bone growth. The only plausible connection is a shared insulin-signalling network. **No direct mechanistic link is established.** The high score (0.988) is a graph-based prediction and should not be read as evidence of benefit.
 
-The evidence pack's own reviewer explicitly assesses this candidate as likely **high-score noise in the TxGNN embedding space** rather than a genuine repurposing signal. This assessment is consistent with the complete absence of clinical or literature evidence below, and is reinforced by the fact that several other top-ranked predictions for this drug (e.g. stiff person syndrome variants, lipodystrophy subtypes) were independently flagged with the same "no mechanistic pathway" conclusion — suggesting this cluster of high TxGNN scores may reflect a systematic embedding artefact rather than a disease-specific signal.
-
----
+Other candidates were also reviewed (for example, classic stiff person syndrome, focal stiff limb syndrome, thiamine-responsive dysfunction syndrome, several localised lipodystrophies, pancreatic agenesis and autoimmune oophoritis). All are at evidence level L5 with a recommendation of Hold. Most appear to reflect shared diabetes or metabolic network proximity rather than a therapeutic effect. For pancreatic agenesis, a sulfonylurea is mechanistically implausible because it requires functional beta cells.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for opsismodysplasia.
 
----
+(For pancreatic agenesis, the fifth-ranked-by-volume candidate with retrieved publications, the five results concerned animal diabetes, a danazol/lovastatin adverse event and incretin effects in mice. None assessed glipizide and none are relevant evidence.)
 
 ## Australia Market Information
 
-No ARTG entries were found — glipizide is not currently marketed in Australia under this evidence pack (0 licences on record).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14019W | Melizide | Tablet 5 mg (oral) | Not available in the compiled data |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No key warnings, contraindications, or drug interaction data were available in this evidence pack (TFDA/PI warning data is flagged as a Blocking data gap).
+- **Contraindications suggested by the knowledge graph** (these are graph associations, not label text): kidney disease, liver disease, gallbladder disease, pituitary hormone deficiencies (including hypopituitarism and Sheehan syndrome), adrenocortical insufficiency/Addison disease, thymus gland disease, infectious disease, and substance abuse/dependence.
+- **Drug Interactions:** 100 interactions were identified. Examples at moderate level include:
+  - Beta-agonists and sympathomimetics: salbutamol, formoterol, epinephrine, phenylephrine, pseudoephedrine
+  - Beta-blocker: acebutolol
+  - Corticosteroids: hydrocortisone
+  - NSAIDs: ibuprofen, ketorolac
+  - H2 blockers: famotidine, ranitidine
+  - Others: acetazolamide, acitretin, ethinylestradiol, hydrochlorothiazide, albiglutide, nitazoxanide, ethanol
 
----
+  Minor-level examples include topical hydrocortisone and topical alclometasone.
+
+Please refer to the TGA-approved Product Information (PI) for official warnings and contraindications, as label-based safety data were not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical, literature, or plausible mechanistic evidence linking glipizide to opsismodysplasia — the drug's evidence pack itself assesses this top-ranked prediction as likely embedding-space noise rather than a genuine repurposing candidate. Combined with the drug's current non-marketed status in Australia, this candidate does not warrant progression at this time.
+The prediction rests on model score alone, with no clinical trials or relevant literature, and there is no plausible mechanism linking a sulfonylurea to opsismodysplasia. Evidence is at level L5.
 
 **To proceed, the following is needed:**
-- TFDA/TGA-equivalent Product Information (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism-of-action documentation from DrugBank — currently a High-severity data gap
-- Independent biological rationale (e.g. genetic, cellular, or animal model data) connecting sulfonylurea pharmacology to *INO80D*-related skeletal development, before any further evidence collection is justified
-- Given the pattern of similarly unsupported high-scoring predictions for this drug, consider a broader review of whether this TxGNN embedding cluster is reliable before investing further review effort
+- Mechanism of action data for glipizide
+- Product Information warnings and contraindications from the TGA or PBS source
+- Preclinical or mechanistic evidence linking K-ATP channel or insulin-secretion effects to SHIP2/INPPL1-related bone disease
+- A targeted literature search for glipizide in opsismodysplasia and in the other predicted conditions
+- Approved indication text for the ARTG entry
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

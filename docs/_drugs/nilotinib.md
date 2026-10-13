@@ -2,7 +2,7 @@
 layout: default
 title: Nilotinib
 parent: Moderate Evidence (L3-L4)
-nav_order: 469
+nav_order: 502
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,89 +29,92 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Nilotinib: From Chronic Myeloid Leukaemia to Dermatofibrosarcoma Protuberans
+# Nilotinib: From Chronic Myelogenous Leukaemia (BCR-ABL1 Positive) to Dermatofibrosarcoma Protuberans
 
 ## One-Sentence Summary
 
-Nilotinib (DrugBank DB04868) is a second-generation BCR-ABL tyrosine kinase inhibitor originally developed for chronic myeloid leukaemia (CML). The TxGNN model predicts it may be effective for **dermatofibrosarcoma protuberans (DFSP)**, but this direction is currently supported by **0 clinical trials** and only **1 mechanistic review article** — the evidence base is thin and largely theoretical at this stage.
-
----
+Nilotinib is a kinase inhibitor originally used to treat BCR-ABL1-positive chronic myelogenous leukaemia.
+The TxGNN model predicts it may be effective for **dermatofibrosarcoma protuberans (DFSP)**,
+but currently only **1 review article** supports this direction, with **no registered clinical trials** for this specific disease.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic myeloid leukaemia (CML) — based on well-established public information; the evidence pack itself has no structured original-indication data (data gap) |
+| Original Indication | Chronic myelogenous leukaemia, BCR-ABL1 positive |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L4 |
-| Australia Market Status | Not marketed (Not marketed) |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for nilotinib is not available in this evidence pack (data gap, DG002). Based on known public information, nilotinib is a second-generation BCR-ABL tyrosine kinase inhibitor used for chronic myeloid leukaemia, and it also inhibits PDGFR (both PDGFRA and PDGFRB) and KIT kinases as off-target activity within the same structural class as imatinib.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the known pharmacology of nilotinib, it inhibits BCR-ABL and also inhibits platelet-derived growth factor receptors (PDGFR).
 
-Dermatofibrosarcoma protuberans is typically driven by a COL1A1-PDGFB fusion gene, which causes constitutive activation of PDGFRB signalling. Imatinib — a drug with a very similar kinase-inhibition profile to nilotinib — is already approved for this indication. This provides a plausible mechanistic rationale for nilotinib: since it shares PDGFR-inhibitory activity with imatinib, it is reasonable to hypothesise similar activity in PDGFR-driven tumours such as DFSP.
+DFSP is driven by the COL1A1-PDGFB gene fusion, which causes autocrine activation of PDGFRB. Because nilotinib inhibits PDGFR in addition to BCR-ABL, there is a plausible mechanistic link between its action in leukaemia and in DFSP.
 
-However, this rationale is currently extrapolated from imatinib's class effect and general PDGFR pharmacology rather than from any nilotinib-specific study in DFSP. No dedicated nilotinib clinical trial or case series in DFSP was identified.
-
----
+However, the only supporting item is a 2018 review of small-molecule PDGFR inhibitors. Clinical evidence in DFSP relates mainly to imatinib, and no nilotinib-specific trial is listed. The prediction is therefore mechanistically reasonable but clinically unproven.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for dermatofibrosarcoma protuberans.
 
----
+For context, the second-ranked prediction (liposarcoma) has one related trial:
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02587169](https://clinicaltrials.gov/study/NCT02587169) | Phase 1/2 | Unknown | 40 | Nilotinib plus doxorubicin as neoadjuvant treatment in retroperitoneal liposarcoma and leiomyosarcoma (GEIS-27); not specific to DFSP |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews the role of small-molecule PDGFR inhibitors (as a class) in neoplastic disease; provides mechanistic background for PDGFR blockade in PDGFR-driven tumours but does not report nilotinib-specific efficacy data in DFSP |
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews small-molecule PDGFR inhibitors in neoplastic disorders, supporting the PDGFR-targeting rationale |
 
----
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 12858R | Tasigna | Capsule 200 mg (as hydrochloride monohydrate) | Not available in the compiled data |
+
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor) |
+| Myelosuppression Risk | Medium (neutropenia, thrombocytopenia and anaemia are listed as contraindication-related conditions in the knowledge graph) |
+| Emetogenicity Classification | Low |
+| Monitoring Items | FBC, liver function, electrolytes (potassium, magnesium, calcium, phosphate), blood glucose, ECG (QT interval) |
+| Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
 
 ## Safety Considerations
 
-No local safety data is available for nilotinib in this evidence pack. Key warnings, contraindications, and drug interaction data are all flagged as a **blocking data gap (DG001)** — TFDA label warnings/contraindications could not be retrieved, which means a formal safety pre-assessment (S1) cannot currently be completed. Please refer to the officially approved Product Information (PI) from a jurisdiction where nilotinib is marketed (e.g. FDA, EMA) for interim safety guidance until local label data is obtained.
+- **Conditions flagged in the knowledge graph (not label text):** hypertension, long QT syndrome and torsades de pointes, liver disease, gallbladder disease, pancreatitis, thrombocytopenia, neutropenia, anaemia, hyperglycaemia and diabetes, hypokalaemia, hypercalcaemia, hypophosphataemia, and hyperbilirubinaemia (including Gilbert syndrome).
+- **Drug Interactions:** 100 interactions were identified. Major interactions include:
+  - Dexamethasone
+  - Clarithromycin
+  - Picosulfuric acid
+  - Polyethylene glycol (3350 with electrolytes)
 
----
+  Moderate interactions include acid-suppressing drugs (famotidine, ranitidine, cimetidine, omeprazole, rabeprazole), other corticosteroids (hydrocortisone, betamethasone, budesonide, triamcinolone), pioglitazone, loperamide, bupropion, aprepitant, bisacodyl and saxagliptin.
+- **Literature safety signal:** A case report describes pancreatic carcinoma developing after nilotinib therapy for CML. This is a single case and does not establish causation.
+
+Please refer to the TGA-approved Product Information (PI) for authoritative warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (DFSP) has no clinical trial evidence and only one non-disease-specific mechanistic review (evidence level L4). Combined with the drug's current unmarketed status locally (0 ARTG/license entries) and a blocking safety data gap, there is not yet enough evidence to proceed past the research-question stage.
+The mechanistic rationale (PDGFRB activation in DFSP) is strong, but the evidence consists only of a general review, with no nilotinib-specific trials in DFSP. Clinical support for PDGFR inhibition in DFSP comes from imatinib, so nilotinib's role remains a research question.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (blocking): obtain TFDA/PI warnings and contraindications before any safety pre-assessment
-- Resolve DG002: confirm nilotinib's MOA via DrugBank API to firm up the mechanistic rationale
-- Nilotinib-specific preclinical or case-report data in DFSP, since current support is inferred from the imatinib class effect
-- Consider that **liposarcoma (rank 2)** is a more evidence-mature candidate — it has an actual Phase I/II trial (GEIS-27, [NCT02587169](https://clinicaltrials.gov/study/NCT02587169)) and a related Phase I publication (evidence level L3, decision stage S2) — and may warrant parallel or prioritised review over DFSP
-
----
-
-## Other TxGNN-Predicted Indications (Overview)
-
-For context, this evidence pack contains 10 candidate indications for nilotinib. Only the top-ranked one is detailed above per report scope; the remainder are summarised here for awareness:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
-|------|----------------------|-------------|-----------------|-----------------|-----------------|
-| 1 | Dermatofibrosarcoma protuberans | 99.31% | L4 | S1 | Research Question |
-| 2 | Liposarcoma | 98.85% | L3 | S2 | Research Question |
-| 3 | Ovarian myxoid liposarcoma | 98.74% | L5 | S0 | Hold |
-| 4 | Ewing sarcoma | 98.45% | L5 | S0 | Hold |
-| 5 | Ganglioneuroblastoma (disease) | 97.02% | L5 | S0 | Hold |
-| 6 | Heart fibrosarcoma | 97.01% | L5 | S0 | Hold |
-| 7 | Vertebral anomalies and variable endocrine and T-cell dysfunction | 96.94% | L5 | S0 | Hold (likely a KG entity-mapping artefact — recommend verifying entity validity before any further review) |
-| 8 | Kidney fibrosarcoma | 96.90% | L5 | S0 | Hold |
-| 9 | Fibroblastic neoplasm | 96.90% | L4 | S1 | Research Question |
-| 10 | Conventional fibrosarcoma | 96.79% | L5 | S0 | Hold |
+- Nilotinib-specific clinical data in DFSP (case series or trials), and comparison with imatinib
+- Detailed mechanism of action data
+- TGA Product Information warnings and contraindications, including the approved indication text for ARTG 12858R
+- A cardiac safety plan (QT monitoring and interaction management) for any oncology use outside CML
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

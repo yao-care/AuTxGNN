@@ -2,7 +2,7 @@
 layout: default
 title: Raltitrexed
 parent: Model Prediction Only (L5)
-nav_order: 580
+nav_order: 622
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,78 +33,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Raltitrexed is a thymidylate synthase inhibitor historically used in colorectal cancer chemotherapy. The TxGNN model predicts it may be effective for **Sclerosing Cholangitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only hypothesis with no corroborating evidence.
-
----
+Raltitrexed is a thymidylate synthase inhibitor (antifolate) used as a cytotoxic chemotherapy, with the available pharmacology data describing its use in colorectal cancer and malignant mesothelioma.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**, with a very high model score.
+There are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Colorectal cancer (established clinical use; no ARTG-registered indication text available in this Evidence Pack) |
-| Predicted New Indication | Sclerosing Cholangitis |
+| Original Indication | Colorectal cancer and malignant mesothelioma (from pharmacology data; the Australian registration entry has no indication text) |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack (flagged as a High-severity data gap). Based on the information present, Raltitrexed is a thymidylate synthase inhibitor that blocks DNA synthesis, and its efficacy in colorectal cancer chemotherapy is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, raltitrexed is a thymidylate synthase (TYMS) inhibitor. It blocks DNA synthesis in rapidly dividing cells, which underpins its use in colorectal cancer and malignant mesothelioma.
 
-Sclerosing cholangitis, however, is an autoimmune/inflammatory biliary disease driven by bile duct fibrosis and immune dysregulation — a pathology with no known direct link to nucleotide synthesis inhibition. The evidence pack's own mechanistic rationale for this candidate describes it as a "weak mechanistic hypothesis" likely arising from indirect knowledge-graph connections (e.g., shared comorbidity or drug-metabolism nodes) rather than genuine pharmacological plausibility, and notes it has no supporting literature or trial evidence.
+The link to sclerosing cholangitis is weak. This is an immune-mediated, fibroinflammatory biliary disease, and no plausible connection to thymidylate synthase inhibition has been established. The high TxGNN score (99.97%, model rank 823) is a model-based prediction only.
 
-It is also worth noting that the other nine TxGNN-predicted indications in this pack (myelodysplastic syndrome and several sickle-cell/thalassemia syndromes) are flagged in their own rationale text as mechanistically **conflicting** rather than supportive — Raltitrexed's myelosuppressive antimetabolite action runs counter to the therapeutic goals for these blood disorders. This pattern across the full candidate list reinforces that the current prediction set should be treated as hypothesis-generating only.
+Cytotoxic antimetabolites can cause hepatotoxicity and transaminase elevation, which is a concern in a cholestatic liver disease.
 
----
+### Other Predicted Indications (all L5, all Hold)
+
+| Rank | Predicted Indication | TxGNN Score | Comment |
+|------|------|------|------|
+| 2 | Myelodysplastic syndrome | 99.97% | Conceptual rationale exists, as antimetabolites such as azacitidine and decitabine are used in MDS. However, marked myelosuppression is a major liability in patients with existing cytopenias. |
+| 3–7 | Sickle cell disease variants (Hb D, Hb E, beta-thalassaemia, Hb C, HPFH) | 99.96% | Identical scores suggest a shared disease-class signal in the knowledge graph rather than indication-specific biology. Raltitrexed has no demonstrated fetal haemoglobin-inducing activity, and myelosuppression could worsen anaemia. |
+| 8 | Unclassified myelodysplastic syndrome | 99.96% | Likely inherited from the parent MDS node. Same myelosuppression concern. |
+| 9 | Refractory cytopenia of childhood | 99.96% | A cytotoxic antifolate would be expected to worsen marrow suppression. Paediatric safety data are lacking. |
+| 10 | Partial deletion of the long arm of chromosome 5 | 99.95% | Related to del(5q) MDS, where lenalidomide acts via a distinct mechanism. No link to thymidylate synthase inhibition is established. |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Australia Market Information
+
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 4610P | Tomudex | Powder for I.V. infusion, 2 mg in single use vial | Not stated in the data compiled for this report |
 
 ## Cytotoxicity
 
-Raltitrexed is a thymidylate synthase inhibitor (antimetabolite), a conventional cytotoxic chemotherapy class, consistent with its established use in colorectal cancer.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (antifolate / thymidylate synthase inhibitor) |
-| Myelosuppression Risk | High — the Evidence Pack's own mechanistic notes identify myelosuppression as a known effect of thymidylate synthase inhibition; specific severity/nadir data not available — please refer to the Product Information (PI) |
+| Cytotoxicity Classification | Conventional cytotoxic (antifolate, thymidylate synthase inhibitor) |
+| Myelosuppression Risk | High. Myelosuppression is a dose-limiting toxicity. |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | FBC with differential recommended given known myelosuppressive potential; liver and renal function per PI |
-| Handling Protection | Standard cytotoxic drug handling precautions apply |
-
----
+| Monitoring Items | FBC (with differential), liver function and renal function. Please also refer to the PI. |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Hepatotoxicity**: Cytotoxic antimetabolite toxicity, including transaminase elevation, is a concern in cholestatic liver disease such as sclerosing cholangitis.
+- **Myelosuppression**: This is a major liability in patients with pre-existing cytopenias (MDS, refractory cytopenia of childhood) and in haemoglobinopathies, where antifolate-induced cytopenias could worsen anaemia.
+- **Paediatric use**: Paediatric safety data for raltitrexed are lacking.
+- **Drug Interactions**: The interaction query found only the pharmacological target, thymidylate synthase (TYMS). No drug-drug interactions were identified.
 
----
+Warnings and contraindications from the label were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Every predicted indication in this pack — including the top-ranked Sclerosing Cholangitis — is Evidence Level L5, backed only by a TxGNN model score with zero clinical trials or literature. Several lower-ranked candidates are explicitly flagged as mechanistically conflicting (myelosuppression risk vs. treatment goals for MDS and sickle-cell syndromes). The drug is also not currently marketed in Australia (0 ARTG entries), and safety/PI data required for even a preliminary risk assessment is missing (Blocking data gap).
+All predicted indications are supported by model output only (L5), with no registered trials or publications. There is no plausible mechanistic link for the top prediction, sclerosing cholangitis. The known toxicity profile (hepatotoxicity, marked myelosuppression) is a significant concern in the predicted conditions.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications) — currently blocking
-- Confirmed mechanism of action detail via DrugBank
-- Primary literature or trial evidence specific to sclerosing cholangitis (or any candidate indication) before advancing past model-only status
-- Confirmation of Australian regulatory/import pathway, given the drug is not currently marketed here
+- Product Information (PI) warnings and contraindications for the Australian-registered product (ARTG 4610P), which are required before any safety screening
+- Detailed mechanism of action data, to assess any mechanistic link
+- Preclinical or mechanistic studies to establish a biological rationale for the top-ranked indications
+- A review of why the model produced identical scores across the sickle cell variants, to check whether the signal is a graph artefact
+- A safety assessment specific to hepatic impairment, pre-existing cytopenias and paediatric populations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

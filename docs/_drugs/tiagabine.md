@@ -2,7 +2,7 @@
 layout: default
 title: Tiagabine
 parent: Moderate Evidence (L3-L4)
-nav_order: 673
+nav_order: 723
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,78 +29,95 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-Using no additional skill — this is a direct document-generation task fully specified by the prompt template; proceeding directly.
-
-# Tiagabine: From Partial Seizures to Visual Epilepsy
+# Tiagabine: From Partial Epilepsy to Visual Epilepsy
 
 ## One-Sentence Summary
 
-> Tiagabine is a GABA reuptake inhibitor (GAT-1) that has been used as an add-on antiepileptic drug for partial (focal) seizures.
-> The TxGNN model predicts it may be effective for **Visual Epilepsy**,
-> with **1 clinical trial** and **20 publications** currently associated with this prediction — though several of these describe tiagabine-induced visual field defects rather than treatment efficacy, and the drug is not currently marketed in Australia.
+Tiagabine is a GABA reuptake inhibitor, originally used as add-on treatment for partial (focal) epilepsy.
+The TxGNN model predicts it may be effective for **visual epilepsy**, but there are **0 registered clinical trials** and the retrieved publications are general reviews, guidelines and mechanism papers, none of which test this indication directly.
+The prediction is therefore supported by model output and mechanistic plausibility only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Partial (focal) seizures — adjunctive antiepileptic therapy (derived from published literature; no Australian regulatory record exists) |
-| Predicted New Indication | Visual Epilepsy |
+| Original Indication | Partial epilepsy (the ARTG entry in the data compiled for this report has no indication text; the original indication comes from the TxGNN knowledge graph) |
+| Predicted New Indication | Visual epilepsy |
 | TxGNN Prediction Score | 99.25% |
 | Evidence Level | L4 |
-| Australia Market Status | Not Marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed structured mechanism-of-action data is not available in DrugBank for this evidence pack. Based on the supporting literature, tiagabine is a nipecotic-acid derivative that selectively inhibits the GAT-1 GABA transporter, blocking presynaptic and glial reuptake of GABA and thereby increasing extracellular GABA concentrations in the brain (PMID 9097364, 15094857, 8595791). This GABAergic-enhancing mechanism underlies its established efficacy as add-on therapy for partial/complex partial seizures (PMID 9443711).
+Detailed mechanism of action data is not available in the data compiled for this report. From the retrieved literature, tiagabine selectively inhibits the GAT-1 GABA transporter. This raises synaptic GABA and reduces neuronal hyperexcitability. It is an established add-on treatment for partial seizures.
 
-Visual epilepsy is a form of reflex epilepsy in which seizures are triggered by visual stimuli. Mechanistically, broad-spectrum GABAergic potentiation could theoretically raise cortical seizure threshold in reflex epilepsy subtypes, which is the basis for the TxGNN association. However, a critical caveat must be flagged: the most directly "visual"-related citation in this evidence pack, PMID 12588906 ("Vigabatrin, tiagabine, and visual fields"), actually reports **visual field constriction as an adverse effect** of GABAergic antiepileptic drugs (a class effect well documented for vigabatrin, with tiagabine less clearly implicated) — it is *not* evidence that tiagabine treats visually-induced seizures. This represents a directionality mismatch that must be resolved before this indication is taken seriously as a treatment hypothesis, rather than a drug-induced visual toxicity signal being mistaken for therapeutic relevance.
+Visual epilepsy is a reflex seizure syndrome in which seizures are triggered by visual stimuli. Enhancing GABAergic inhibition is a plausible way to dampen the cortical hyperexcitability involved. This is the basis for the model's prediction.
+
+However, none of the retrieved papers test tiagabine in photosensitive or visually triggered seizures. Some papers (e.g. PMID 12588906) discuss visual field defects with GABAergic agents, which is a safety topic rather than evidence of efficacy.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Phase 4 | Completed | 111 | Observational study of tiagabine and other newer AEDs (gabapentin, lamotrigine, levetiracetam, oxcarbazepine, pregabalin, topiramate) as first-choice bitherapy for focal epilepsy in routine clinical practice; not designed to evaluate visually-triggered (reflex) epilepsy specifically — relevance graded C. |
+Currently no related clinical trials registered.
 
-No Australian (ANZCTR) trials were identified for this indication.
+---
 
 ## Literature Evidence
 
+None of the retrieved papers addresses visual epilepsy directly. The most relevant items are shown below.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Guideline | Neurology | AAN/AES practice guideline on efficacy/tolerability of newer AEDs (including tiagabine) for new-onset epilepsy; general, not reflex-epilepsy specific. |
-| [22592677](https://pubmed.ncbi.nlm.nih.gov/22592677/) | 2012 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Assesses tiagabine as add-on therapy for drug-resistant partial epilepsy; supports general anticonvulsant efficacy, not visual-triggered seizures specifically. |
-| [17560495](https://pubmed.ncbi.nlm.nih.gov/17560495/) | 2007 | Review | Pediatric Neurology | Reviews visual adverse effects of AEDs (visual field and colour vision deficits); relevant to safety of GABAergic drugs on vision, not to treating visual epilepsy. |
-| [12588906](https://pubmed.ncbi.nlm.nih.gov/12588906/) | 2003 | Cohort/Safety | J Neurol Neurosurg Psychiatry | Reports vigabatrin/tiagabine-associated visual field defects — an **adverse effect**, directly contradicting a simple "treats visual epilepsy" interpretation. |
-| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Review | Neuropharmacology | Comprehensive review of mechanisms of currently used antiseizure drugs, including GABA transporter inhibition by tiagabine. |
-| [11520315](https://pubmed.ncbi.nlm.nih.gov/11520315/) | 2001 | Review | Epilepsia | Reviews GABAergic mechanisms underlying seizure generation and control, supporting the theoretical basis for GABA-enhancing drugs in epilepsy broadly. |
-| [9097364](https://pubmed.ncbi.nlm.nih.gov/9097364/) | 1997 | Review | Seminars Pediatr Neurol | Reviews tiagabine pharmacokinetics, efficacy (partial seizures) and safety in adults, adolescents and preliminary paediatric data. |
-| [15094857](https://pubmed.ncbi.nlm.nih.gov/15094857/) | 1998 | Review | Drugs of Today | Reviews tiagabine's unique GABA-uptake-inhibition mechanism and efficacy in animal seizure models. |
-| [19445769](https://pubmed.ncbi.nlm.nih.gov/19445769/) | 2009 | Clinical Evidence Review | BMJ Clin Evid | General epilepsy treatment evidence overview; not specific to reflex or visual epilepsy. |
-| [25825412](https://pubmed.ncbi.nlm.nih.gov/25825412/) | 2016 | Retrospective/Toxicology Review | Hum Exp Toxicol | Reviews tiagabine toxicity/overdose trends reported to US poison centres 2000–2012, including FDA warnings on seizure risk in non-epileptic patients. |
+| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Guideline | Neurology | AAN/AES guideline update on newer antiepileptic drugs in new-onset epilepsy |
+| [29784458](https://pubmed.ncbi.nlm.nih.gov/29784458/) | 2018 | Meta-analysis | Epilepsy Research | Relative efficacy and tolerability of adjunctive AEDs in refractory partial-onset seizures |
+| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Review | Neuropharmacology | Mechanisms of action of currently used antiseizure drugs |
+| [10530690](https://pubmed.ncbi.nlm.nih.gov/10530690/) | 1999 | Review | Epilepsia | Tiagabine inhibits GABA reuptake; effective add-on therapy for partial seizures |
+| [9097364](https://pubmed.ncbi.nlm.nih.gov/9097364/) | 1997 | Review | Seminars in Pediatric Neurology | Pharmacokinetics, efficacy and safety of tiagabine; effective against partial seizures in adults and adolescents |
+| [12588906](https://pubmed.ncbi.nlm.nih.gov/12588906/) | 2003 | Review | J Neurol Neurosurg Psychiatry | Vigabatrin, tiagabine and visual fields (safety topic) |
+| [17560495](https://pubmed.ncbi.nlm.nih.gov/17560495/) | 2007 | Review | Pediatric Neurology | Visual adverse effects of antiepileptic drugs |
+| [26210064](https://pubmed.ncbi.nlm.nih.gov/26210064/) | 2015 | Review | Epilepsy & Behavior | Drug-induced status epilepticus, including with GABAergic agents |
+
+---
 
 ## Australia Market Information
 
-Tiagabine is **not currently marketed in Australia** and has **no ARTG entries** in this evidence pack (`market_status: Not marketed`, `total_licenses: 0`). No product listing table can be generated.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 13892E | Gabitril | Tablet 5 mg (as hydrochloride) | Not stated in the data compiled for this report |
+
+---
 
 ## Safety Considerations
 
-No structured safety data (key warnings, contraindications, or drug interactions) is available in this evidence pack — this is flagged as a **blocking data gap (DG001)** that prevents progression to a formal S1 safety pre-assessment. Because tiagabine is not marketed in Australia, there is no TGA-approved Product Information to reference. Overseas approved labelling (e.g. US Gabitril PI) and the safety literature identified above — which documents a known risk of tiagabine-induced non-convulsive status epilepticus and visual field defects — should be used as interim safety references until local regulatory data can be obtained.
+- **Knowledge-graph contraindication signals** (from the TxGNN knowledge graph, not product label text): anxiety disorder, neurotic disorder, dysthymic disorder, liver disease, gallbladder disease.
+- **Drug interactions**: 97 interactions were identified. Moderate-level interactions include aprepitant, morphine (including liposomal), opium, dronabinol, nabilone and metoclopramide. Other interactions (e.g. pantoprazole, omeprazole, metformin, simvastatin) are of unknown severity.
+- **Seizure-related safety signal**: the literature reports tiagabine-associated non-convulsive status epilepticus, particularly at higher or rapidly increased doses. This is relevant to any use in reflex epilepsy syndromes.
+- **Visual effects**: antiepileptic drugs can cause visual disturbances, and visual field effects are discussed for GABAergic agents. This warrants attention when considering a visual-trigger indication.
+
+Warnings and contraindications from the TGA-approved Product Information (PI) were not available. Please refer to the PI for full safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The lead prediction (visual epilepsy) rests on L4 (mechanistic/preclinical-level) evidence with no trial or literature directly evaluating tiagabine's efficacy in visually-triggered seizures, and the single most topically relevant citation (PMID 12588906) actually documents a tiagabine-related adverse visual effect rather than therapeutic benefit — a directionality conflict that must be resolved. Combined with the blocking absence of safety/warning data (DG001) and the drug's non-marketed status in Australia (0 ARTG entries), the evidence does not support proceeding at this time.
+The high TxGNN score (99.25%) rests on mechanistic plausibility alone. No trials or direct literature exist for visual epilepsy, and the evidence is capped at L4. Related literature also flags a risk of non-convulsive status epilepticus with tiagabine.
 
 **To proceed, the following is needed:**
-- Resolve DG001: obtain TFDA/overseas approved Product Information (warnings, contraindications, DDI) to complete S1 safety pre-assessment
-- Resolve DG002: confirm mechanism of action via DrugBank API query
-- Clarify and correct the evidence-direction issue around PMID 12588906 (adverse effect vs. treatment) before this indication advances further
-- Seek specialist neurology input on the feasibility and safety of trialling tiagabine in reflex (visual) epilepsy, given the documented risk of tiagabine-induced non-convulsive status epilepticus in related indications (see rank 9, status epilepticus, in the source evidence pack)
-- Assess pathway/rationale for potential Australian market entry, given current absence of ARTG registration
+- Direct evidence in photosensitive or visually triggered seizures (case series, controlled studies, or ANZCTR/ClinicalTrials.gov registrations)
+- Detailed mechanism of action data
+- TGA Product Information review for warnings, contraindications and the approved indication text
+- A risk assessment of seizure aggravation and status epilepticus, and of visual adverse effects
+- Specialist neurology input on whether the unmet need justifies further investigation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

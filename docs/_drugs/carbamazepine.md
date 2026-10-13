@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Carbamazepine
-parent: Model Prediction Only (L5)
-nav_order: 122
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 131
+evidence_level: L4
 indication_count: 10
 ---
 
 # Carbamazepine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,112 +29,93 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carbamazepine: From Epilepsy / Trigeminal Neuralgia to Trigeminal Nerve Neoplasm
+# Carbamazepine: From Epilepsy to Trigeminal Nerve Neoplasm
 
 ## One-Sentence Summary
 
-Carbamazepine (CBZ) is a well-established antiepileptic and first-line treatment for trigeminal neuralgia, widely used internationally to suppress abnormal neuronal firing through voltage-gated sodium channel blockade; it is not currently registered on the Australian Register of Therapeutic Goods (ARTG).
-The TxGNN model predicts it may be effective for **Trigeminal Nerve Neoplasm** — specifically for managing neuropathic pain arising from tumour compression or infiltration of the trigeminal nerve — with **1 clinical trial** and **20 publications** identified in this direction.
-Evidence is predominantly observational and case-based, supporting an **L3 evidence level**, and the mechanistic rationale is coherent but confined to symptomatic pain management rather than antitumour activity.
-
----
+Carbamazepine is an established antiseizure medicine, originally used for epilepsy, bipolar disorder and trigeminal neuralgia.
+The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, but there are **no registered clinical trials** and the **20 publications** retrieved are mostly case reports and reviews. Carbamazepine appears in them as symptomatic pain treatment, not as an antitumour therapy.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Epilepsy; Trigeminal neuralgia (internationally established; no current ARTG registration — original indication data not available for Australia) |
-| Predicted New Indication | Trigeminal Nerve Neoplasm |
-| TxGNN Prediction Score | 99.9976% |
-| Evidence Level | L3 — Observational studies and case series |
-| Australia Market Status | Not registered (no ARTG entries) |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+|------|------|
+| Original Indication | Epilepsy (including partial and generalised tonic-clonic seizures), bipolar disorder, trigeminal neuralgia (from the knowledge graph; no approved indication text is available for the Australian product) |
+| Predicted New Indication | Trigeminal nerve neoplasm |
+| TxGNN Prediction Score | 99.998% |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current dataset. However, based on the extensive published literature linked to this Evidence Pack, Carbamazepine is a classic voltage-gated sodium channel blocker. By stabilising the inactivated state of Nav1.7 and Nav1.8 channels in trigeminal ganglion neurons, CBZ reduces the capacity of these cells to sustain the high-frequency burst firing that underlies trigeminal neuralgia (TN) pain. This mechanism is well-accepted and forms the basis of CBZ's international first-line status for TN.
+Currently, detailed mechanism of action data is not available. Carbamazepine is generally known as a voltage-gated sodium channel blocker. It is an established treatment for trigeminal neuralgia, which is one of its listed original indications.
 
-The predicted indication — **trigeminal nerve neoplasm** — encompasses tumours that compress, displace, or directly infiltrate the trigeminal nerve and its branches (e.g., schwannomas, meningiomas, lymphomas, epidermoid cysts, and primary melanomas in Meckel's cave). When a mass lesion mechanically distorts the trigeminal nerve root, it induces focal demyelination and ectopic discharges at the affected segment — the same pathophysiological cascade as idiopathic TN. Multiple case reports in this dataset (PMIDs 30741017, 15235745, 25433061, 33989821, 26768887) document CBZ being prescribed as the first-line analgesic in patients who were subsequently found to have underlying neoplastic lesions. In one notable case (PMID 3181365), intravenous carbamazepine directly inhibited spontaneous ectopic discharges from experimental neuromas in an animal model, providing direct preclinical support for this mechanistic link.
-
-It is critical to emphasise that **CBZ is a symptomatic agent in this context, not an antitumour therapy**. Its predicted utility in trigeminal nerve neoplasm is to control severe neuropathic pain while definitive oncological management (surgery, radiotherapy, or systemic therapy) is planned and executed. Clinicians should also note that failure of CBZ to control TN-like pain in a patient with negative initial imaging is an important red flag warranting repeat or gadolinium-enhanced MRI to exclude secondary neoplastic causes — as illustrated by the melanoma case in this dataset.
-
----
+Trigeminal neuralgia can be secondary to a tumour compressing the nerve. In that setting carbamazepine may relieve the neuropathic pain. This is symptomatic relief only. Nothing retrieved shows antitumour activity, and no evidence supports treating the neoplasm itself. The very high TxGNN score likely reflects how close this disease is to the trigeminal neuralgia indication in the knowledge graph, rather than a true tumour-directed effect.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT06853119](https://clinicaltrials.gov/study/NCT06853119) | N/A | Not Yet Recruiting | 120 | Observational MRI study examining brain network dynamics and microstructural changes in trigeminal neuralgia patients; evaluates blood-brain barrier integrity and neural plasticity. No CBZ intervention. Provides neuroimaging background context only — not a treatment trial. |
-
-Currently, **no interventional clinical trials specifically evaluating Carbamazepine for trigeminal nerve neoplasm** have been registered in ClinicalTrials.gov or ICTRP.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [36824641](https://pubmed.ncbi.nlm.nih.gov/36824641/) | 2022 | Review | Acta Clinica Croatica | Comprehensive treatment review for TN; confirms CBZ as first-line medical therapy and explicitly states TN can be caused by vascular compression **or a tumour process** — directly relevant to this prediction |
-| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Review | Expert Review of Neurotherapeutics | Detailed review of TN pathophysiology; discusses focal demyelination, ectopic discharge, and MRI for neurovascular contact — key mechanistic underpinning for CBZ use in neoplasm-related TN |
-| [11286444](https://pubmed.ncbi.nlm.nih.gov/11286444/) | 2001 | Cohort | British Journal of Oral & Maxillofacial Surgery | UK oral surgeon survey on TN management and CBZ monitoring practices; highlights that screening for **secondary (neoplastic) TN** remains a management consideration |
-| [3181365](https://pubmed.ncbi.nlm.nih.gov/3181365/) | 1988 | Experimental | Experimental Neurology | IV carbamazepine directly inhibited spontaneous ectopic discharges from saphenous neuromas in rats — preclinical evidence supporting CBZ suppression of neuroma/neoplasm-related aberrant firing |
-| [30741017](https://pubmed.ncbi.nlm.nih.gov/30741017/) | 2023 | Case Report | British Journal of Neurosurgery | Primary malignant lymphoma of trigeminal nerve presenting as facial pain; CBZ prescribed initially but did not improve symptoms — illustrates that neoplastic TN may be refractory to CBZ, underscoring the need for MRI |
-| [9109911](https://pubmed.ncbi.nlm.nih.gov/9109911/) | 1997 | Case Report | Neurology | Post-irradiation neuromyotonia in bilateral facial and trigeminal nerve distribution; **responded to carbamazepine** — radiation-induced nerve injury provides an analogy to neoplasm-related nerve dysfunction |
-| [15235745](https://pubmed.ncbi.nlm.nih.gov/15235745/) | 2004 | Case Report | Arquivos de Neuro-Psiquiatria | Primary melanoma of Meckel's cave presenting as TN; pain was **not relieved by CBZ or microvascular decompression** — CBZ failure should prompt urgent MRI for neoplastic aetiology |
-| [22647513](https://pubmed.ncbi.nlm.nih.gov/22647513/) | 2012 | Case Report | No Shinkei Geka | Combined glossopharyngeal and trigeminal neuralgia; CBZ documented as standard first-line medical therapy before surgical microvascular decompression |
-| [25433061](https://pubmed.ncbi.nlm.nih.gov/25433061/) | 2014 | Case Report | No Shinkei Geka | TN caused by cerebellopontine angle lipoma; CBZ used but inadequately controlled due to side effects — surgical resection ultimately required |
-| [33989821](https://pubmed.ncbi.nlm.nih.gov/33989821/) | 2021 | Case Report | World Neurosurgery | Petroclival meningioma causing TN (<5% of cases); confirms that neoplasm-related TN is managed with initial medical therapy (CBZ context) before surgical intervention |
+The 20 retrieved publications comprise two reviews, many case reports and one animal study. None is a randomised trial. The table lists the most relevant ones.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [36824641](https://pubmed.ncbi.nlm.nih.gov/36824641/) | 2022 | Review | Acta Clin Croat | Treatment options for trigeminal neuralgia, which may be caused by vascular compression or a tumour |
+| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Review | Expert Rev Neurother | Medical and surgical treatments for trigeminal neuralgia |
+| [30741017](https://pubmed.ncbi.nlm.nih.gov/30741017/) | 2023 | Case report | Br J Neurosurg | Primary lymphoma of the trigeminal nerve; carbamazepine did not improve symptoms |
+| [25433061](https://pubmed.ncbi.nlm.nih.gov/25433061/) | 2014 | Case report | No Shinkei Geka | Trigeminal neuralgia from a cerebellopontine angle lipoma; pain poorly controlled on carbamazepine because of side effects |
+| [25142539](https://pubmed.ncbi.nlm.nih.gov/25142539/) | 2014 | Case report | Rinsho Shinkeigaku | Lymphoma spreading along the trigeminal nerve; carbamazepine helped initially, then became ineffective |
+| [15235745](https://pubmed.ncbi.nlm.nih.gov/15235745/) | 2004 | Case report | Arq Neuropsiquiatr | Primary melanoma of Meckel's cave; pain not relieved by carbamazepine |
+| [33989821](https://pubmed.ncbi.nlm.nih.gov/33989821/) | 2021 | Case report | World Neurosurg | Petroclival meningioma presenting as trigeminal neuralgia, treated surgically |
+| [26768887](https://pubmed.ncbi.nlm.nih.gov/26768887/) | 2016 | Case report / review | Turk Neurosurg | Trigeminal neuralgia as the isolated symptom of a pituitary adenoma |
+| [3181365](https://pubmed.ncbi.nlm.nih.gov/3181365/) | 1988 | Animal study | Exp Neurol | Carbamazepine inhibited spontaneous activity in experimental rat neuromas |
 
 ## Australia Market Information
 
-Carbamazepine is **not currently registered on the Australian Register of Therapeutic Goods (ARTG)**. No ARTG entries exist for this medicine under any brand name, dosage form, or route of administration in the current dataset.
-
-Clinicians wishing to prescribe Carbamazepine in Australia would need to access it through one of the following TGA pathways:
-
-- **Special Access Scheme (SAS) Category B** — for individual patients with a serious or life-threatening condition
-- **Authorised Prescriber pathway** — if prescribing for a class of patients with a specific condition
-
-Note: This finding is based on the data held in the current Evidence Pack (data cutoff: 21 June 2026). Given that Carbamazepine (e.g., Tegretol) is a well-established medicine internationally, prescribers should verify current ARTG status directly via the [TGA Public Summary Search](https://www.tga.gov.au/resources/artg) before assuming non-availability.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14051M | Tegretol Liquid | Oral suspension 100 mg per 5 mL, 300 mL | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-As Carbamazepine has no current TGA registration and no Australian Product Information (PI) is available, clinicians should consult an approved international prescribing reference (e.g., FDA prescribing information, UK Summary of Product Characteristics, or EMA SmPC). Safety data was not retrieved in this Evidence Pack (Data Gap DG001).
+**Contraindications and conditions of concern (from knowledge-graph drug-disease links, not product label text):** hypertension, anxiety and neurotic disorders, dysthymic disorder, kidney disease and impaired renal function, liver disease, gallbladder disease, haematological conditions (thrombocytopenia, neutropenia, agranulocytosis, pancytopenia, anaemia, severe congenital neutropenia and related syndromes), absence epilepsy, coronary artery disease, sudden cardiac arrest, heart conduction disease and atrioventricular block, glaucoma and ocular hypertension, and syndrome of inappropriate ADH secretion.
 
-Key safety considerations known from established international evidence:
+**Drug Interactions:** The interaction screen returned 100 interacting drugs. Examples:
+- **Major:** clarithromycin, eliglustat
+- **Moderate:** cimetidine, dexamethasone, hydrocortisone, betamethasone, triamcinolone, doxycycline, metronidazole, bupropion, morphine, aprepitant, pioglitazone, canagliflozin, calcitriol, cholecalciferol, activated charcoal
 
-- **Black box / serious warnings**: Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN) — risk is substantially elevated in patients carrying the **HLA-B\*15:01 allele**, which is prevalent in East Asian and some South-East Asian populations represented in Australia's multicultural community. Genetic screening is strongly recommended prior to initiation.
-- **Haematological**: Aplastic anaemia; agranulocytosis — baseline and periodic full blood count (FBC with differential) required
-- **Electrolyte**: Hyponatraemia and SIADH — monitor serum sodium, particularly in elderly patients
-- **Hepatic**: Elevations in liver enzymes — baseline and periodic liver function testing required
-- **Endocrine / bone**: Long-term CBZ induces CYP enzymes, accelerating vitamin D and hormone metabolism; bone mineral density monitoring warranted in chronic use
-- **Teratogenicity**: Known Category D teratogen (neural tube defects, cardiac malformations) — requires specialist counselling, high-dose folic acid, and contraception discussion in women of childbearing age
-- **Drug interactions**: CBZ is a potent inducer of CYP3A4, CYP2C9, and P-glycoprotein — extensive drug-drug interaction potential with oncological agents, anticoagulants, antiretrovirals, and many other commonly prescribed medicines. Formal DDI review was not completed in this dataset.
+Please refer to the TGA-approved Product Information (PI) for the authoritative warnings and contraindications.
 
----
+## Other Predicted Indications (Context)
+
+The model also ranked several reflex-seizure conditions highly. These are mechanistically more plausible than the tumour prediction because carbamazepine is already used for focal seizures.
+
+| Predicted Indication | Evidence Level | Comment |
+|------|------|------|
+| Startle epilepsy | L4 | A clinical study (1984) reported favourable responses to carbamazepine in some patients; evidence is otherwise indirect |
+| Audiogenic seizures | L4 | Animal-model data only |
+| Reading seizures | L4 | Indirect evidence only |
+| Thinking seizures | L4 | General antiseizure literature only |
+| Eating seizures, micturition-induced seizures | L5 | No condition-specific evidence |
+| Orgasm-induced seizures, beta-ketothiolase deficiency, congenital Rett syndrome | L5 | No trials or literature; the beta-ketothiolase link is mechanistically implausible |
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction is mechanistically coherent — CBZ's established ability to suppress trigeminal ectopic discharge maps directly to the pain pathophysiology of trigeminal nerve neoplasm. Multiple case series and reviews confirm that CBZ is routinely used as initial symptomatic analgesia in this setting pending oncological management, and preclinical data directly support suppression of neuroma-generated firing. However, the evidence is L3 (case reports and observational data), no dedicated RCT exists, the drug has no current ARTG registration, and its role is purely symptomatic rather than disease-modifying.
+There are no clinical trials and no antitumour evidence. The literature shows carbamazepine only as symptomatic pain treatment, and in several tumour case reports it failed or was poorly tolerated. The high TxGNN score appears to reflect the existing trigeminal neuralgia indication. If carbamazepine is considered for tumour-related facial pain, that is a symptom-management use of an established drug rather than a new antitumour indication.
 
 **To proceed, the following is needed:**
-
-- **TGA access pathway clarification**: Confirm SAS Category B or Authorised Prescriber eligibility for the specific patient and indication prior to prescribing
-- **HLA-B\*15:01 genetic screening**: Particularly important for patients of East Asian, South-East Asian, or South Asian descent — screen before first dose to mitigate SJS/TEN risk
-- **Safety data retrieval**: Download and parse the current international PI (DG001) to complete formal safety and contraindication assessment
-- **MOA documentation**: Retrieve full DrugBank API data for Carbamazepine (DG002) to formalise the mechanistic rationale in the clinical dossier
-- **Oncology and neurosurgery consultation**: Ensure CBZ is prescribed as adjunctive pain management, not a substitute for tumour-directed therapy; coordinate with the treating oncology and neurosurgery teams
-- **Baseline and monitoring plan**: Establish FBC with differential, LFTs, renal function, serum sodium, and body weight at baseline; schedule monitoring at 2–4 weeks, then 3-monthly during stable treatment
-- **Pain reassessment trigger**: Pre-specify a clear clinical threshold — if CBZ fails to control pain adequately within 4–6 weeks, or if any new neurological symptoms emerge, urgent gadolinium-enhanced MRI should be performed to reassess tumour status
+- Mechanism of action data
+- The TGA-approved Product Information, including warnings, contraindications and approved indications
+- Clinical evidence on pain control in tumour-related trigeminal neuralgia, for example a systematic review
+- Evidence of any antitumour effect, which is currently absent
+- A screen of the reflex-seizure predictions (especially startle epilepsy) as better-supported candidates for future evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

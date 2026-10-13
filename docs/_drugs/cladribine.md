@@ -2,7 +2,7 @@
 layout: default
 title: Cladribine
 parent: Model Prediction Only (L5)
-nav_order: 155
+nav_order: 167
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,100 +29,93 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cladribine: From Hairy Cell Leukaemia to Parameningeal Embryonal Rhabdomyosarcoma
+# Cladribine: From Hairy Cell Leukaemia and Multiple Sclerosis to Parameningeal Embryonal Rhabdomyosarcoma
 
 ## One-Sentence Summary
 
-Cladribine is a purine nucleoside analogue with established efficacy in hairy cell leukaemia and, more recently, relapsing-remitting multiple sclerosis (approved overseas as Leustatin® and Mavenclad® respectively). The TxGNN model predicts it may be effective for **Parameningeal Embryonal Rhabdomyosarcoma** — a rare, high-risk paediatric tumour invading adjacent meningeal structures — however, there are currently **0 clinical trials** and **0 publications** directly supporting this specific indication. This prediction is supported by computational modelling only (Evidence Level L5), and further preclinical and clinical investigation is required before any translational steps can be considered.
-
----
+Cladribine is a purine nucleoside analogue originally used for hairy cell leukaemia and relapsing-remitting multiple sclerosis.
+The TxGNN model predicts it may be effective for **parameningeal embryonal rhabdomyosarcoma**,
+but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hairy cell leukaemia; relapsing-remitting multiple sclerosis (from established overseas approvals — no Australian ARTG registration exists) |
-| Predicted New Indication | Parameningeal Embryonal Rhabdomyosarcoma |
+|------|------|
+| Original Indication | Hairy cell leukaemia, hairy cell leukaemia variant, relapsing-remitting multiple sclerosis (from the knowledge graph; the ARTG entry has no indication text) |
+| Predicted New Indication | Parameningeal embryonal rhabdomyosarcoma |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in the submitted Evidence Pack. Based on published pharmacology, Cladribine is a synthetic chlorinated purine nucleoside analogue. It is phosphorylated intracellularly by deoxycytidine kinase (dCK) to an active triphosphate form, which accumulates in lymphocytes and monocytes and disrupts both DNA synthesis and repair — ultimately triggering apoptosis in dividing and resting cells alike. This selectivity for haematopoietic cells explains its strong efficacy in lymphoid malignancies such as hairy cell leukaemia.
+Detailed mechanism of action data is not available in the data compiled for this report. Cladribine is generally understood to be a purine nucleoside analogue that resists breakdown by adenosine deaminase and is toxic to lymphocytes and monocytes. Its activity depends on activation by deoxycytidine kinase (dCK).
 
-Parameningeal embryonal rhabdomyosarcoma (RMS) is among the poorest-prognosis subtypes of RMS, characterised by anatomical proximity to meningeal structures and a high risk of CNS dissemination. The TxGNN knowledge graph connects Cladribine to RMS through the purine metabolism pathway: rhabdomyosarcoma cells express dCK to varying degrees, providing a theoretical basis for intracellular drug activation. A relevant pharmacokinetic advantage is Cladribine's CNS penetration — cerebrospinal fluid concentrations reach approximately 25% of plasma levels — which could theoretically benefit parameningeal disease where local drug exposure is clinically meaningful.
+Its established uses are in lymphoid disease (hairy cell leukaemia) and immune-mediated disease (multiple sclerosis), both linked to lymphocyte sensitivity. Solid tumours such as rhabdomyosarcoma are not generally reported to be sensitive to it, and no disease-specific mechanism has been established.
 
-However, this prediction is entirely computational. The high TxGNN scores observed across multiple RMS subtypes in this Evidence Pack (ranks 1–5 and 8 are all RMS-related) strongly suggest a **knowledge graph cluster effect**: Cladribine's node in the graph connects to the parent RMS ontological node and propagates high scores across all child nodes, rather than producing independently validated signals for each subtype. The relative paucity of direct mechanistic evidence — particularly the lower dCK expression in mesenchymal tumours compared to lymphoid malignancies — introduces significant uncertainty about drug activation efficiency in this tumour type.
+The top six predictions are all rhabdomyosarcoma subtypes with near-identical scores (0.997-0.998). This likely reflects a single signal from disease-ontology clustering in the knowledge graph rather than independent lines of evidence. A sensible first step would be laboratory data on dCK-dependent sensitivity in rhabdomyosarcoma cell lines.
 
----
+Other predictions reviewed (none with clinical support):
+- **Liver sarcoma** (score 99.70%, L4): the only publication is a 2004 case report of cladribine in smouldering systemic mastocytosis, which is a different disease and only indirect evidence.
+- **Skeletal muscle neoplasm** (98.96%): a broad parent category overlapping with the rhabdomyosarcoma predictions.
+- **Gestational trophoblastic neoplasm** (98.37%): antimetabolite chemotherapy is established in this disease class, but there is no cladribine-specific evidence.
+- **Pleural adenomatoid tumour** (98.07%): a rare benign tumour usually managed surgically, with no plausible mechanistic basis identified.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Cladribine in parameningeal embryonal rhabdomyosarcoma.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Cladribine in parameningeal embryonal rhabdomyosarcoma.
+For the lead prediction, currently no related literature available.
 
----
+The only publication found across the top predictions relates to liver sarcoma and is indirect evidence:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [15241520](https://pubmed.ncbi.nlm.nih.gov/15241520/) | 2004 | Case report | Der Hautarzt | Successful cladribine therapy in smouldering systemic mastocytosis, a mast-cell neoplasm rather than liver sarcoma |
 
 ## Australia Market Information
 
-Cladribine is not currently registered with the Therapeutic Goods Administration (TGA) and holds no ARTG entries. There are no TGA-approved Product Information documents available through standard Australian channels.
-
-Prescribers wishing to access Cladribine in Australia would need to do so via:
-- **TGA Special Access Scheme (SAS)** — Category B or C depending on clinical urgency
-- **Authorised Prescriber** pathway for ongoing access in defined patient populations
-
-For safety and dosing reference, the following overseas-approved documents are the most relevant interim resources:
-- **FDA**: Leustatin® (cladribine injection) Prescribing Information — hairy cell leukaemia
-- **EMA**: Mavenclad® (cladribine tablets) SmPC — relapsing-remitting multiple sclerosis
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 11603Q | Mavenclad | Tablet 10 mg | Not stated in the data compiled for this report |
 
 ## Cytotoxicity
 
-Cladribine is an antineoplastic purine nucleoside analogue (conventional cytotoxic chemotherapy). This section applies.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Purine nucleoside analogue (2-chlorodeoxyadenosine) |
-| Myelosuppression Risk | **High** — severe and prolonged lymphopenia and neutropenia are dose-limiting class effects; CD4+ T-cell depletion may persist for months to years |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Full blood count with differential (FBC), CD4+ and CD8+ lymphocyte subsets, serum creatinine and LFTs, signs and symptoms of opportunistic infection |
-| Handling Protection | Must be prepared and administered following cytotoxic drug handling regulations; avoid skin or mucous membrane contact |
-
----
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (purine nucleoside analogue) |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions. Knowledge-graph contraindication links to neutropenia, thrombocytopenia, anaemia and agranulocytosis point to haematological toxicity as a concern |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the PI; full blood count (with differential), and liver and renal function are generally relevant |
+| Handling Protection | Please refer to the PI and local cytotoxic drug handling requirements |
 
 ## Safety Considerations
 
-As Cladribine is not registered in Australia, no TGA-approved Product Information is available. Please refer to the FDA Leustatin® prescribing information or the EMA Mavenclad® SmPC for full safety information including warnings regarding severe myelosuppression, immunosuppression, opportunistic infections, and use in pregnancy.
+- **Contraindications (knowledge-graph links, not label text)**: kidney disease, pyoureter, thrombocytopenia, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), peripheral nervous system disease, peripheral neuropathy, and hyperuricaemia.
+- **Drug Interactions** (100 interactions recorded; the main ones are listed):
+  - **Major**: systemic and other corticosteroids (hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisolone, prednisone), deferiprone, and radiopharmaceuticals and radioimmunotherapies (ibritumomab tiuxetan, iobenguane I-131, tositumomab, samarium-153 lexidronam, strontium-89 chloride).
+  - **Moderate**: palifermin, dipyridamole, cilostazol, eltrombopag.
+  - **Unknown severity**: acetylsalicylic acid.
 
----
+Please also refer to the TGA-approved Product Information (PI) for full safety information. Label warnings and contraindications were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model generates high prediction scores for Cladribine across multiple rhabdomyosarcoma subtypes; however, these likely reflect a knowledge graph cluster effect rather than independently validated signals. There is no clinical or preclinical evidence specifically supporting Cladribine use in parameningeal embryonal rhabdomyosarcoma, the drug is not registered in Australia, and comprehensive safety data is unavailable through local regulatory channels.
+The prediction rests solely on a high model score with no clinical trials or supporting literature (L5). The clustered rhabdomyosarcoma scores likely reflect ontology structure rather than independent evidence, and there is no established mechanistic rationale for cladribine in solid tumours.
 
 **To proceed, the following is needed:**
-
-- **Preclinical validation**: dCK expression profiling in parameningeal RMS cell lines and patient-derived xenograft (PDX) models to confirm drug activation potential
-- **Broader RMS literature review**: Systematic search for Cladribine (or structurally related purine analogues such as clofarabine, nelarabine) in paediatric solid tumours, to characterise the class effect and identify any indirect supporting evidence
-- **Safety data remediation**: Download and review of overseas PI documents (FDA Leustatin® / EMA Mavenclad® SmPC) for complete warnings, contraindications, and drug interactions — this gap is rated **Blocking** in the Evidence Pack
-- **Standard-of-care assessment**: Review current COG ARST protocols and SIOP/CWS RMS guidelines to define where Cladribine could fit (salvage setting, combination partner, CNS-penetrant alternative) and identify the target patient population
-- **TGA access pathway planning**: If a compassionate use or investigator-initiated trial is being considered, initiate a TGA Special Access Scheme or Authorised Prescriber application early in the planning process
-
-> **Disclaimer:** This report is for research reference only and does not constitute medical advice. Any drug repurposing candidate requires clinical validation before therapeutic application.
+- Preclinical data, such as dCK expression and in vitro sensitivity in rhabdomyosarcoma cell lines
+- Mechanism of action data to support a mechanistic link
+- TGA Product Information warnings and contraindications to allow safety screening
+- Review of the haematological toxicity profile against the tolerability expected in a paediatric and young-adult sarcoma population
+- Evaluation of route compatibility (only an oral tablet is registered in Australia)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

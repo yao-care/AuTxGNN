@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Valganciclovir
-parent: Model Prediction Only (L5)
-nav_order: 713
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 766
+evidence_level: L4
 indication_count: 10
 ---
 
 # Valganciclovir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Valganciclovir: From Cytomegalovirus (CMV) Infection to Rheumatoid Arthritis
+# Valganciclovir: From Cytomegalovirus Infection to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Valganciclovir is an antiviral prodrug (hydrolysed to ganciclovir) established for cytomegalovirus (CMV) infection/retinitis, most notably in immunocompromised patients. The TxGNN model assigns a high score for **Rheumatoid Arthritis**, but on review the supporting literature describes CMV infection occurring **in** RA patients who are immunosuppressed by other drugs (methotrexate, anti-TNF, tofacitinib, JAK inhibitors) — not valganciclovir treating RA itself. No clinical trials support this indication, and the evidence assessment flags this as a likely knowledge-graph co-occurrence artefact.
-
----
+Valganciclovir is an oral prodrug of ganciclovir, an antiviral used against cytomegalovirus (CMV). The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but the data compiled for this report show **no registered clinical trials** and **14 publications**, mostly case reports and reviews of CMV infection in people with rheumatoid arthritis, not evidence of benefit for the arthritis itself.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established in Australian regulatory data (drug not marketed). Literature confirms valganciclovir's established use is cytomegalovirus (CMV) retinitis/infection in immunocompromised patients. |
-| Predicted New Indication | Rheumatoid Arthritis |
+| Original Indication | Not stated in the Australian licence data compiled for this report (valganciclovir is generally used for CMV disease) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 98.97% |
-| Evidence Level | L5 (model prediction only, no supportive studies) |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is currently unavailable from DrugBank (data gap). Based on the literature retrieved, valganciclovir's known mechanism is inhibition of CMV DNA polymerase, blocking viral replication — it has no known immunomodulatory or anti-inflammatory activity relevant to rheumatoid arthritis pathophysiology (synovial inflammation, cytokine-driven joint destruction).
+Detailed mechanism of action data are not available in the data compiled for this report. Valganciclovir is known to be a prodrug of ganciclovir, which inhibits CMV DNA polymerase. Its efficacy in CMV disease is established, but this mechanism has no recognised direct role in rheumatoid arthritis.
 
-The literature evidence pack consistently shows the opposite causal direction to what would be needed to support this indication: RA patients treated with immunosuppressive therapies (methotrexate, anti-TNF agents, tofacitinib, upadacitinib) are at increased risk of CMV reactivation (colitis, retinitis, gastritis, pericardial effusion), and valganciclovir is used to **treat that CMV complication**, not the underlying RA. This is a well-recognised "guilt by association" pattern in knowledge-graph-based prediction: high textual co-occurrence between "valganciclovir" and "rheumatoid arthritis" in case reports, without any genuine mechanistic or therapeutic link.
+The retrieved literature does not show that valganciclovir treats rheumatoid arthritis. The papers describe CMV disease (retinitis, ileocolitis and others) in patients with rheumatoid arthritis who are taking immunosuppressants such as tofacitinib, upadacitinib or methotrexate. The link is therefore indirect: the drug treats an opportunistic infection in this population and does not modify the arthritis. The high TxGNN score probably reflects the co-occurrence of rheumatoid arthritis and CMV in the knowledge graph.
 
-On this basis, the high TxGNN score for this indication should be treated as a probable false positive rather than a genuine repurposing signal.
-
----
+One 2026 study (PMID 42820990) used docking, in vitro and in vivo work to explore valganciclovir hydrochloride as a possible modulator of IL-6 receptor signalling. This is preliminary preclinical work and is the only item that hints at a direct anti-arthritic mechanism.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18068874](https://pubmed.ncbi.nlm.nih.gov/18068874/) | 2008 | Review | La Revue de médecine interne | No consensus guidelines exist for antiviral use in CMV infection complicating immunosuppressive therapy for RA/SLE |
-| [26150269](https://pubmed.ncbi.nlm.nih.gov/26150269/) | 2015 | Case Report | Reumatismo | CMV ileocolitis in an RA patient on immunosuppressive therapy |
-| [28389165](https://pubmed.ncbi.nlm.nih.gov/28389165/) | 2017 | Case Report | J Infect Chemother | CMV retinitis followed by immune recovery uveitis in an RA patient on methotrexate + tofacitinib |
-| [25697299](https://pubmed.ncbi.nlm.nih.gov/25697299/) | 2015 | Case Report | BMJ Case Reports | CMV bowel perforation in a frail RA patient, complicated by Enterobacter pericardial effusion |
-| [41779881](https://pubmed.ncbi.nlm.nih.gov/41779881/) | 2025 | Case Report | Retinal Cases & Brief Reports | CMV retinitis in non-HIV RA patients on tofacitinib |
-| [15494900](https://pubmed.ncbi.nlm.nih.gov/15494900/) | 2004 | Case Report | Clin Infect Dis | CMV retinitis in an RA patient treated with anti-TNF-α antibody therapy |
-| [23904414](https://pubmed.ncbi.nlm.nih.gov/23904414/) | 2013 | Case Report | BMJ Case Reports | RA patient on methotrexate with concurrent CMV gastritis and H. pylori infection |
-| [20711100](https://pubmed.ncbi.nlm.nih.gov/20711100/) | 2010 | Case Report | Acta Reumatologica Portuguesa | CMV hepatitis in an inflammatory arthritis patient, treated with valganciclovir |
-| [23247975](https://pubmed.ncbi.nlm.nih.gov/23247975/) | 2013 | Case Report | Jpn J Ophthalmol | CMV/HHV-6 corneal endotheliitis (RA mentioned as comorbid context) |
-| [15155152](https://pubmed.ncbi.nlm.nih.gov/15155152/) | 2004 | Review | Expert Opin Drug Saf | General review of drug-related retinal toxicity, mentions hydroxychloroquine use in RA (limited relevance) |
+| [42820990](https://pubmed.ncbi.nlm.nih.gov/42820990/) | 2026 | Preclinical (in silico/in vitro/in vivo) | Naunyn-Schmiedeberg's Arch Pharmacol | Docking and experimental work identified valganciclovir as a possible modulator of IL-6 receptor signalling in RA models |
+| [41792858](https://pubmed.ncbi.nlm.nih.gov/41792858/) | 2026 | Review | Int J Retina Vitreous | Commentary: 6 cases of CMV retinitis associated with JAK inhibitors reported |
+| [18068874](https://pubmed.ncbi.nlm.nih.gov/18068874/) | 2008 | Review | Rev Med Interne | No guidelines exist for antiviral use in symptomatic CMV infection in patients on immunosuppressants for chronic inflammatory disease |
+| [15155152](https://pubmed.ncbi.nlm.nih.gov/15155152/) | 2004 | Review | Expert Opin Drug Saf | Overview of drug-associated retinal toxicity |
+| [41526852](https://pubmed.ncbi.nlm.nih.gov/41526852/) | 2026 | Case report | BMC Ophthalmol | CMV retinitis with retinal ischaemia and vitreous haemorrhage in a patient on upadacitinib for RA |
+| [41779881](https://pubmed.ncbi.nlm.nih.gov/41779881/) | 2025 | Case report | Retin Cases Brief Rep | Two RA patients developed CMV retinitis on tofacitinib |
+| [26150269](https://pubmed.ncbi.nlm.nih.gov/26150269/) | 2015 | Case report/Review | Reumatismo | CMV ileocolitis in an RA patient on immunosuppressants |
+| [28389165](https://pubmed.ncbi.nlm.nih.gov/28389165/) | 2017 | Case report | J Infect Chemother | CMV retinitis then immune recovery uveitis in an elderly RA patient on methotrexate plus tofacitinib |
+| [15494900](https://pubmed.ncbi.nlm.nih.gov/15495900/) | 2004 | Case report | Clin Infect Dis | CMV retinitis in an RA patient treated with anti-TNF-alpha antibody |
+| [32613063](https://pubmed.ncbi.nlm.nih.gov/32613063/) | 2020 | Case report | JAAD Case Rep | Refractory rheumatoid vasculitis with CMV reactivation as immune reconstitution inflammatory syndrome |
 
----
+*Note: all of the above except PMID 42820990 describe CMV disease as a complication in RA patients and do not evaluate valganciclovir as a treatment for RA.*
 
 ## Australia Market Information
 
-No ARTG entries found. Valganciclovir is not currently marketed in Australia based on the data available in this evidence pack.
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10277X | Valcyte | Powder for oral solution 50 mg (as hydrochloride) per mL, 100 mL | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions**: The data compiled for this report list 100 potential interactions. The moderate-level ones are amphotericin B (including lipid complex, cholesteryl sulfate and liposomal formulations) and trospium. Other interactions are of unknown severity, including pantoprazole, omeprazole, lansoprazole, metformin, morphine, simvastatin, prednisone, hydrocortisone, vancomycin and calcitriol.
 
----
+Warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for these.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence level for this candidate is L5 — no clinical trials, no reviews or observational studies directly supporting valganciclovir as a treatment for rheumatoid arthritis. The available literature indicates a reverse relationship (CMV infection as a *complication* of RA immunosuppressive therapy, treated with valganciclovir), consistent with a knowledge-graph co-occurrence false positive rather than a genuine mechanistic signal. The drug is also not currently marketed in Australia (0 ARTG entries), and key regulatory safety data (TFDA/PI warnings, contraindications) remain an unresolved **Blocking** data gap (DG001) that must be closed before any S1 safety evaluation can proceed.
+- The high model score is not backed by any trial, and the literature shows valganciclovir treating CMV complications in RA patients rather than treating RA. Evidence is limited to indirect case reports, reviews and one early preclinical study, so this is not a true disease-modifying signal.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications, DDI) — currently a Blocking data gap
-- Confirmed mechanism of action from DrugBank (currently a High-severity data gap)
-- Re-classification/reclassification of the "pending" literature entries to confirm none represent stronger evidence than currently assessed
+- Confirmation of the approved indications and safety information from the TGA Product Information (PI)
+- Detailed mechanism of action data, including follow-up of the IL-6 signalling finding
+- Replication of the preclinical IL-6 findings in established RA models
+- Clinical studies, if the preclinical work holds up, that assess RA disease activity as the outcome
+- Clear separation of any use for CMV prophylaxis or treatment in immunosuppressed RA patients, which is a different question from treating RA
 
-**Note for reviewers:** Rank 2 in this evidence pack (bronchitis, L3, decision stage S1, "Research Question") has materially stronger evidence — multiple cohort studies show valganciclovir prophylaxis reduces CMV-related bronchiolitis obliterans syndrome (BOS) after lung transplantation. However, the indication label "bronchitis" is a mismatch for the actual patient population (lung transplant recipients) and disease entity (BOS, not acute bronchitis) and would need separate, corrected evaluation rather than being taken at face value.
+**Other predictions reviewed:** Bronchitis (L3) was supported only by retrospective cohort studies of CMV prophylaxis in lung transplant recipients, which is an indirect, transplant-specific signal. The remaining eight predictions had no supporting trials or relevant literature, or only indirect herpesvirus encephalitis reports (headache disorder, L4), and were not pursued.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

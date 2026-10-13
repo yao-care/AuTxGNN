@@ -2,7 +2,7 @@
 layout: default
 title: Evolocumab
 parent: Model Prediction Only (L5)
-nav_order: 260
+nav_order: 281
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,87 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Evolocumab: From Hypercholesterolaemia to Symptomatic Form of Haemophilia in Female Carriers
+# Evolocumab: From Homozygous Familial Hypercholesterolaemia to Symptomatic Haemophilia in Female Carriers
 
 ## One-Sentence Summary
 
-Evolocumab (DrugBank: DB09303) is a PCSK9 inhibitor, well established internationally for the treatment of hypercholesterolaemia and cardiovascular risk reduction, though no TGA-registered products were identified in the current dataset.
-The TxGNN model predicts it may be effective for **Symptomatic Form of Haemophilia in Female Carriers** (Rank 1 prediction),
-however there are currently **0 clinical trials** and **0 publications** directly supporting this repurposing direction.
-
----
+Evolocumab is a PCSK9-inhibiting monoclonal antibody, originally used to lower LDL cholesterol in homozygous familial hypercholesterolaemia and related dyslipidaemias.
+The TxGNN model predicts it may be effective for **symptomatic haemophilia in female carriers**, but **no clinical trials and no publications** currently support this direction.
+This is a graph-based prediction only and is not backed by a plausible biological rationale.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available in current regulatory dataset (PCSK9 inhibitor; internationally indicated for hypercholesterolaemia and cardiovascular risk reduction) |
+|------|------|
+| Original Indication | Homozygous familial hypercholesterolaemia; syndromic dyslipidaemia (from the TxGNN knowledge graph; the ARTG entry has no indication text) |
 | Predicted New Indication | Symptomatic form of haemophilia in female carriers |
 | TxGNN Prediction Score | 99.82% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed (0 ARTG entries found) |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, evolocumab is a monoclonal antibody that binds PCSK9. This increases LDL receptor availability on liver cells and lowers circulating LDL cholesterol.
 
-Currently, detailed mechanism of action data is not available in this dataset. Based on known pharmacological information, Evolocumab is a fully human monoclonal antibody (IgG2) that inhibits PCSK9 (proprotein convertase subtilisin/kexin type 9), a serine protease secreted by the liver. By binding and neutralising PCSK9, Evolocumab prevents the degradation of LDL receptors on hepatocytes, resulting in upregulation of LDL receptor expression and a substantial reduction in circulating LDL-cholesterol. This mechanism is entirely within the lipid metabolism pathway.
+The predicted new indication is not closely related to the original indications. Haemophilia in female carriers arises from deficient factor VIII or factor IX due to X-linked variants. It is unrelated to the PCSK9/LDL receptor pathway. No plausible mechanistic link has been identified.
 
-Symptomatic haemophilia in female carriers involves partial deficiency of coagulation Factor VIII (in X-linked carriers with skewed X-inactivation), leading to abnormal bleeding. This condition sits firmly within the coagulation cascade — a pathway biochemically independent from PCSK9-mediated LDL receptor cycling. The repurposing rationale in the Evidence Pack notes no known molecular intersection between PCSK9 inhibition and Factor VIII biology, and suggests the high TxGNN prediction score may arise from missing PCSK9 MOA node data in the knowledge graph, leading the model to assign similarity via non-specific topological proximity rather than true mechanistic overlap.
+The high TxGNN score (0.998) most likely reflects proximity within the knowledge graph rather than biological rationale. It should be treated as a hypothesis-generating signal only.
 
-In summary, the biological plausibility for this specific repurposing prediction is **very low**. The prediction is not supported by any clinical trial data or published literature, and the mechanistic justification is absent. This is a case where a high model score does not translate into a clinically actionable hypothesis.
-
----
+Other top-ranked predictions show the same pattern. These include familial apolipoprotein C-II deficiency, thrombocytopenic purpura, factor XI deficiency, haemophilia A with vascular abnormality, haemorrhagic disease of the newborn, and inherited thrombophilia. All are L5 with no supporting studies. Several are non-specific ontology categories (for example "disease of catalytic activity"), and no actionable hypothesis can be formed for them. Familial apolipoprotein C-II deficiency has only indirect plausibility, because it is a lipid disorder, but it is driven by a defect upstream of the LDL receptor pathway.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Evolocumab in symptomatic haemophilia in female carriers.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Evolocumab in symptomatic haemophilia in female carriers.
-
----
+Currently no related literature available.
 
 ## Australia Market Information
 
-No ARTG entries were identified for Evolocumab in the current dataset. The regulatory query returned 0 results.
-
-> **Note for clinicians:** Evolocumab (brand name Repatha®) is approved by multiple major regulatory agencies internationally (FDA, EMA) for hypercholesterolaemia and established cardiovascular disease. Clinicians should independently verify current TGA registration status at the ARTG public portal (https://www.tga.gov.au/resources/artg).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10958R | Repatha | Injection 140 mg in 1 mL single use pre-filled pen | Not stated in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No safety data (key warnings, contraindications, or drug interaction data) was available in the current dataset for this evaluation.
+- **Drug Interactions**: The only interaction record is a pharmacological target entry, not a drug-drug interaction. It lists evolocumab binding to its target, proprotein convertase subtilisin/kexin type 9 (PCSK9). No clinically significant drug-drug interactions were identified in the data compiled.
 
----
+Please refer to the TGA-approved Product Information (PI) for warnings, contraindications and other safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigned a high prediction score (99.82%), but this appears to reflect a knowledge graph artefact rather than genuine mechanistic plausibility — PCSK9 inhibition (lipid metabolism) and haemophilia in female carriers (coagulation Factor VIII deficiency) operate through entirely separate biological pathways with no documented molecular intersection. There is no supporting clinical trial or published literature evidence whatsoever (Evidence Level L5).
+The prediction rests only on a knowledge-graph score. There are no clinical trials or publications, and evolocumab's PCSK9 mechanism has no plausible link to a clotting factor deficiency in female carriers. Evidence is at the lowest level (L5).
 
-**To consider progressing beyond Hold, the following would be required:**
-
-- Identification of a credible mechanistic hypothesis linking PCSK9 biology to Factor VIII expression, function, or clearance (currently absent in the literature)
-- At least one published preclinical study (in vitro or animal model) demonstrating relevant biological activity in haemophilia or coagulation physiology
-- Review of whether the TxGNN knowledge graph has been updated with complete PCSK9 MOA nodes, as the rationale notes this gap may be artificially inflating the prediction score
-- TGA/ARTG registration confirmation for Evolocumab to establish baseline regulatory standing in Australia
-- Complete MOA documentation (DrugBank query recommended to close DG002)
-- TGA Product Information retrieval to complete safety profiling (DG001)
-
----
-
-> ⚠️ **Disclaimer:** This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require rigorous clinical validation before therapeutic application. All predictions should be interpreted in the context of their evidence level.
->
-> *Report generated: 5 April 2026 | Candidate ID: TW-DB09303-multi | Version: v4*
+**To proceed, the following is needed:**
+- A defensible mechanistic hypothesis linking PCSK9 inhibition to the coagulation pathway, supported by preclinical data
+- Published clinical or preclinical evidence in haemophilia carriers
+- Detailed mechanism of action data
+- Safety information from the TGA-approved Product Information (warnings and contraindications), which was not available for this report
+- Confirmation of the approved indication wording for the ARTG entry
+- Route-compatibility assessment (current product is an injectable pre-filled pen)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

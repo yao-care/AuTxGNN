@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Methoxyflurane
-parent: Model Prediction Only (L5)
-nav_order: 434
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 466
+evidence_level: L4
 indication_count: 10
 ---
 
 # Methoxyflurane
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,102 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methoxyflurane: From General Anesthesia/Procedural Sedation to Insomnia
+# Methoxyflurane: From Acute Pain Relief to Anxiety
 
-## One-sentence Summary
+## One-Sentence Summary
 
-Methoxyflurane is a halogenated ether volatile general anesthetic, currently used clinically mainly as a procedural sedation/analgesia agent (such as Penthrox®). Taiwan has not obtained marketing approval. The TxGNN model predicts it may have therapeutic effects on **insomnia** with a prediction score as high as **98.01%**, but currently there is **no clinical trial or literature** supporting this direction.
+Methoxyflurane is an inhaled analgesic anaesthetic, marketed in Australia as Penthrox, and used for short-term pain relief.
+The TxGNN model's top-ranked predictions (insomnia and migraine) have no supporting studies, so this report focuses on **anxiety** (the highest-ranked prediction with published literature). Anxiety is supported by **18 publications** (mostly periprocedural, with two RCTs among them), and **no registered clinical trials**.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original indication | General anesthesia/procedural sedation (volatile anesthetic; Taiwan not marketed, no approved indication records) |
-| Predicted new indication | Insomnia |
-| TxGNN prediction score | 98.01% (model ranking #18,563) |
-| Evidence level | L5 (model prediction only, no actual research) |
-| Taiwan market status | Not marketed |
-| ARTG/license count | 0 |
-| Recommended decision | Hold |
+|------|------|
+| Original Indication | Not stated in the data compiled for this report (the ARTG entry carries no indication text) |
+| Predicted New Indication | Anxiety (the top-ranked prediction, insomnia, has no supporting evidence; see note below) |
+| TxGNN Prediction Score | 94.40% for anxiety (insomnia, rank 1: 98.01%) |
+| Evidence Level | L4 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold (anxiety is flagged as a research question; the other predictions are Hold) |
+
+**Note on prediction selection:** The nine higher-scoring predictions (insomnia, migraine disorder, migraine with brainstem aura, dysthymic disorder, migraine susceptibility, atrophoderma vermiculata, neurotic disorder, ulerythema ophryogenesis, anxiety disorder) are all prediction-only or have only preclinical support. Anxiety is the first with clinical literature, so it is the focus here.
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently there are no detailed mechanism of action (MOA) data. Based on existing information, methoxyflurane is a halogenated ether volatile general anesthetic, whose efficacy in general anesthesia/procedural sedation has been clinically established. The mechanism may induce sedation/somnolence effects through GABA-A receptor enhancement.
+Detailed mechanism of action data is not available. Based on known information, methoxyflurane is a volatile halogenated anaesthetic with central nervous system depressant effects. Its analgesic efficacy for acute pain is established, and mechanistically it may be applicable to anxiety through sedative and anxiolytic effects.
 
-General anesthesia/sedation and insomnia belong to the same category of central nervous system depression in terms of pharmacology, which is also the theoretical basis for the TxGNN model generating this association prediction. However, the sedative effects of general anesthesia are short-acting and single-dose in nature, which differs fundamentally from the chronic, repetitive treatment model required for insomnia in terms of dosing methods and safety considerations.
+Preclinical mouse studies of inhaled solvents and anaesthetic vapours suggest benzodiazepine-like behavioural effects. In one study, methoxyflurane fully substituted for diazepam in trained mice. This points to GABA-A-related anxiolytic-like activity, but it is not specific evidence for treating an anxiety disorder.
 
-More critically, methoxyflurane is known to carry nephrotoxicity risk, a characteristic that makes it unsuitable as a treatment option for insomnia requiring long-term/chronic administration. This prediction is currently purely based on TxGNN score inference, lacking any clinical trial or literature support.
+In clinical practice, anxiety appears as a secondary outcome in procedural settings (burn dressings, brachytherapy applicator removal, interventional radiology, dental extraction, scrotal surgery). The anxiolytic signal is probably coupled to analgesia and sedation rather than being a standalone effect. The evidence concerns periprocedural anxiety, not anxiety disorders, and abuse potential is a concern.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no relevant clinical trials are registered (searches for "methoxyflurane + insomnia" on ClinicalTrials.gov and ICTRP both yield 0 results).
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no relevant literature data (PubMed search for "methoxyflurane + insomnia" yields 0 results).
+Selected publications for anxiety (RCTs first, then reviews and observational studies, then preclinical):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [38923825](https://pubmed.ncbi.nlm.nih.gov/38923825/) | 2024 | RCT | J Med Imaging Radiat Oncol | MONITOR trial: methoxyflurane for procedural sedation and pain in interventional radiology |
+| [40769179](https://pubmed.ncbi.nlm.nih.gov/40769179/) | 2025 | RCT | Can Urol Assoc J | Methoxyflurane as an adjunct to local anaesthesia for pain and anxiety in scrotal surgery |
+| [24644183](https://pubmed.ncbi.nlm.nih.gov/24644183/) | 2014 | RCT (double-blind, placebo-controlled) | BMJ Support Palliat Care | Safety and efficacy of methoxyflurane for bone marrow biopsy pain |
+| [23810328](https://pubmed.ncbi.nlm.nih.gov/23810328/) | 2013 | RCT (multicentre) | Gastrointest Endosc | Patient-controlled methoxyflurane versus conventional sedation for colonoscopy |
+| [40170612](https://pubmed.ncbi.nlm.nih.gov/40170612/) | 2025 | Review | Curr Opin Support Palliat Care | Inhaled methoxyflurane in cancer patients for procedure-related anxiety, discomfort and pain |
+| [39269255](https://pubmed.ncbi.nlm.nih.gov/39269255/) | 2024 | Review | Curr Opin Support Palliat Care | Inhaled methoxyflurane for acute pain in non-cancer patients |
+| [22925206](https://pubmed.ncbi.nlm.nih.gov/22925206/) | 2014 | Case series | Int Wound J | Australian case series: pain and anxiety relief during burn wound care |
+| [36970443](https://pubmed.ncbi.nlm.nih.gov/36970443/) | 2023 | Observational | J Contemp Brachytherapy | Pain and symptom relief for gynaecologic brachytherapy applicator removal |
+| [21884146](https://pubmed.ncbi.nlm.nih.gov/21884146/) | 2011 | Comparative study | Aust Dent J | Dental anxiety reduction during third molar extraction versus nitrous oxide |
+| [8894586](https://pubmed.ncbi.nlm.nih.gov/8894586/) | 1996 | Preclinical | Eur J Pharmacol | Abused inhalants including methoxyflurane in the mouse elevated plus-maze |
 
 ---
 
-## Taiwan Market Information
+## Australia Market Information
 
-This drug has not obtained marketing approval in Taiwan (market status: not marketed), with no ARTG/license registration records.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 3489P | Penthrox (Combination Pack) | Liquid for inhalation 999 mg per g, 3 mL (with inhaler) | Not stated in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the product information sheet (PI) approved by TGA (or TFDA) for safety information. Currently no formal warnings or contraindication data can be found; drug-drug interaction (DDI) search results are not_found.
+- **Drug Interactions:** 51 interactions were identified. Major interactions include:
+  - Doxycycline
+  - Tetracycline
+  - Minocycline
+  - Epinephrine
+  - Iothalamic acid
+
+  Moderate interactions include morphine, opium, ethanol, amphotericin B (several formulations), aminoglycosides (neomycin, streptomycin), vancomycin, exenatide, and aminosalicylates (mesalazine, balsalazide, olsalazine, sulfasalazine).
+
+For warnings and contraindications, please refer to the TGA-approved Product Information (PI) for safety information.
 
 ---
 
-## Conclusion and Further Recommendations
+## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN prediction score is high, it completely lacks clinical trial and literature support, with evidence level reaching only L5 (pure model prediction). Moreover, the drug's known nephrotoxicity risk makes it unsuitable as a chronic treatment option for insomnia; progression is not recommended at this time.
+The evidence level is L4. The anxiety signal comes from periprocedural pain studies and preclinical work, with no trials in anxiety disorders. The higher-ranked predictions have no supporting evidence. Anxiety is a reasonable research question, but not a basis for a clinical change.
 
-**If further advancement is considered, the following should be supplemented:**
-- Complete mechanism of action (MOA) data for methoxyflurane
-- At least 1 mechanism-related preclinical or clinical study to support insomnia indication
-- Nephrotoxicity risk assessment with chronic/repeated dosing
-- Taiwan/Australian market approval and product information safety data (warnings, contraindications, DDI)
-
+**To proceed, the following is needed:**
+- A dedicated study with procedural anxiety as the primary endpoint, separating the anxiolytic effect from analgesia
+- Detailed mechanism of action data
+- Warnings and contraindications from the TGA-approved PI, and the approved indication text for ARTG 3489P
+- A review of the Major interactions (tetracyclines, epinephrine, iothalamic acid) for the target population
+- An assessment of abuse potential and repeated-use safety for any non-procedural use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

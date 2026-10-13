@@ -2,15 +2,15 @@
 layout: default
 title: Armodafinil
 parent: High Evidence (L1-L2)
-nav_order: 56
-evidence_level: L1
+nav_order: 60
+evidence_level: L2
 indication_count: 10
 ---
 
 # Armodafinil
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,115 +29,103 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Armodafinil: From Excessive Sleepiness to Insomnia
+# Armodafinil: From Narcolepsy to Insomnia
 
 ## One-Sentence Summary
 
-Armodafinil (Nuvigil®) is a non-amphetamine wakefulness-promoting agent — the R-enantiomer of modafinil — approved internationally for excessive sleepiness associated with narcolepsy, obstructive sleep apnoea (OSA), and shift work disorder, though it is not currently registered in Australia.
-The TxGNN model predicts it may be effective for **Insomnia**, with **12 clinical trials** and **19 publications** currently supporting this direction.
-Evidence strength is rated **L1**, with multiple completed randomised controlled trials directly investigating armodafinil in insomnia-specific populations.
+Armodafinil is a wake-promoting agent (the R-enantiomer of modafinil), originally used to treat narcolepsy and related excessive sleepiness.
+The TxGNN model predicts it may be effective for **insomnia**, with **3 clinical trials** and **2 publications** listed directly under this prediction (plus further armodafinil and insomnia publications listed under the related indication "sleep disorder, initiating and maintaining sleep").
+The evidence suggests armodafinil is more useful for the daytime sleepiness that accompanies insomnia treatment than for insomnia itself.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Excessive sleepiness (narcolepsy, OSA, shift work disorder) — not registered in Australia |
-| Predicted New Indication | Insomnia |
+|------|------|
+| Original Indication | Narcolepsy (excessive sleepiness); the approved indication text for the Australian entry is not available |
+| Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L1 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L2 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold (research question) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on published pharmacology, armodafinil is a selective dopamine transporter (DAT) inhibitor that elevates synaptic dopamine concentrations in the prefrontal cortex and striatum. It also activates the noradrenaline, histamine, and orexin (hypocretin) pathways to promote sustained, natural-feeling wakefulness. This mechanism is distinct from traditional amphetamine-class stimulants, which act via broad monoamine release rather than selective reuptake inhibition.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Armodafinil is a wake-promoting agent that is understood to act mainly through dopamine transporter inhibition. Its efficacy in excessive sleepiness from narcolepsy has been established.
 
-The link between a wakefulness-promoting drug and insomnia treatment is counterintuitive but mechanistically grounded in the two-process model of sleep regulation. A recognised subtype of insomnia involves chronic cortical hyperarousal combined with a weakened homeostatic sleep drive (Process S). By robustly consolidating daytime wakefulness and alertness, armodafinil may help rebuild nocturnal sleep pressure by evening, indirectly improving sleep initiation and maintenance. This rationale has been specifically tested as an adjunct to cognitive behavioural therapy for insomnia (CBT-I), where daytime sleepiness — a common side effect of sleep restriction therapy — can undermine patient adherence and outcomes.
+The link to insomnia is indirect. Armodafinil does not treat the disturbance of sleep initiation or maintenance itself. In the trials, it was used to counter the daytime sleepiness and fatigue that accompany insomnia and sleep restriction therapy, usually together with cognitive behavioural therapy for insomnia (CBT-I). The prediction is therefore best read as symptom relief for daytime consequences, not a direct treatment of insomnia.
 
-Clinical evidence supports this hypothesis most strongly in oncology settings. Patients recovering from chemotherapy frequently experience a syndrome of co-occurring insomnia and cancer-related fatigue, where the disrupted wake–sleep cycle responds poorly to CBT-I alone. Armodafinil has been directly investigated in this population across multiple trials (NCT01019187, NCT01011218, NCT01091974). Separately, the treatment of insomnia comorbid with sleep-disordered breathing (NCT02552303) has also been studied, targeting patients with residual insomnia despite CPAP use.
+The largest trial's associated literature reports that CBT-I, not armodafinil, improved fatigue in cancer survivors with insomnia. The armodafinil-specific benefit is therefore weak or unproven.
 
 ---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT01019187](https://clinicaltrials.gov/study/NCT01019187) | Phase 2 | Completed | 226 | Randomised Phase II trial of CBT-I ± armodafinil for insomnia and fatigue in cancer survivors post-chemotherapy; primary insomnia-targeted armodafinil study |
-| [NCT01091974](https://clinicaltrials.gov/study/NCT01091974) | Phase 2 | Completed | 138 | Four-arm RCT of CBT-I and armodafinil in breast cancer patients with post-chemotherapy sleep disturbances; evaluates insomnia outcomes across behavioural and pharmacological arms |
-| [NCT02552303](https://clinicaltrials.gov/study/NCT02552303) | N/A | Completed | 39 | Direct study of armodafinil, CBT-I, or combination for sleep continuity in insomnia comorbid with obstructive sleep apnoea; also evaluated CPAP adherence |
-| [NCT01011218](https://clinicaltrials.gov/study/NCT01011218) | Phase 2 | Completed | 70 | Pilot study of BBT-I or CBT-I ± armodafinil 150 mg/day in breast cancer patients with insomnia; four-arm design providing preliminary dose-response data |
-| [NCT01080807](https://clinicaltrials.gov/study/NCT01080807) | Phase 4 | Completed | 385 | Post-marketing RCT of armodafinil 150 mg in shift work disorder; assessed clinical condition late in shift including commute safety, with functional outcomes |
-| [NCT01072630](https://clinicaltrials.gov/study/NCT01072630) | Phase 3 | Completed | 492 | Largest completed Phase 3 double-blind RCT of armodafinil (150 and 200 mg/day) as adjunctive therapy in bipolar I major depression; provides robust safety and tolerability dataset |
-| [NCT01072929](https://clinicaltrials.gov/study/NCT01072929) | Phase 3 | Completed | 433 | Double-blind, placebo-controlled Phase 3 study of armodafinil adjunctive therapy in bipolar I depression; parallel-group fixed-dosage design |
-| [NCT01305408](https://clinicaltrials.gov/study/NCT01305408) | Phase 3 | Completed | 399 | Third independent Phase 3 RCT of armodafinil 150 mg/day in bipolar I depression; combined with the two sibling trials, total n >1,300 |
-| [NCT01121536](https://clinicaltrials.gov/study/NCT01121536) | Phase 3 | Terminated | 867 | 6-month open-label safety extension in bipolar I disorder; largest enrolment of any armodafinil trial, providing the most extensive long-term safety data despite early termination |
-| [NCT00678691](https://clinicaltrials.gov/study/NCT00678691) | Phase 4 | Completed | 55 | 8-week double-blind RCT of armodafinil augmentation for fibromyalgia fatigue; indirect evidence supporting armodafinil's utility across fatigue- and sleep-adjacent conditions |
+|---------|------|------|------|---------|
+| [NCT01091974](https://clinicaltrials.gov/study/NCT01091974) | Phase 2 | Completed | 138 | Four-arm randomised trial of CBT-I with or without armodafinil for insomnia and fatigue after chemotherapy in breast cancer patients. Associated literature suggests CBT-I, not armodafinil, improved fatigue. |
+| [NCT01011218](https://clinicaltrials.gov/study/NCT01011218) | Phase 2 | Completed | 70 | Pilot study of brief behavioural therapy for insomnia (BBT-I) or CBT-I, with or without armodafinil 150 mg/day, in breast cancer patients. Preliminary, specific population. |
+| [NCT02552303](https://clinicaltrials.gov/study/NCT02552303) | Not applicable | Completed | 39 | Armodafinil and/or CBT-I for insomnia comorbid with sleep disordered breathing (obstructive sleep apnoea). Small sample. |
 
 ---
 
 ## Literature Evidence
 
+Publications listed under the insomnia prediction and the related "sleep disorder, initiating and maintaining sleep" prediction:
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [18729534](https://pubmed.ncbi.nlm.nih.gov/18729534/) | 2008 | Evidence-Based Review | Drugs | Comprehensive review of modafinil (armodafinil's parent compound) across approved and investigational uses based on double-blind RCTs; covers sleep disorders, fatigue, and cognition |
-| [24312590](https://pubmed.ncbi.nlm.nih.gov/24312590/) | 2013 | Systematic Review & Meta-analysis | PLoS ONE | Meta-analysis of modafinil for fatigue and excessive daytime sleepiness in neurological disorders; methodology directly applicable to armodafinil as its longer-acting R-enantiomer |
-| [22021174](https://pubmed.ncbi.nlm.nih.gov/22021174/) | 2011 | Systematic Review (MDS Task Force) | Movement Disorders | Movement Disorder Society EBM update on non-motor PD treatments, including wake-promoting agents for sleep and arousal disorders |
-| [27010071](https://pubmed.ncbi.nlm.nih.gov/27010071/) | 2016 | Systematic Review | Parkinsonism & Related Disorders | SR of pharmacological interventions for daytime sleepiness and sleep disorders in Parkinson's disease; includes evidence on modafinil/armodafinil |
-| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Narrative Review | Drugs | Shift work sleep disorder: burden of illness, co-morbidities, and pharmacological management options including armodafinil/modafinil |
-| [24138359](https://pubmed.ncbi.nlm.nih.gov/24138359/) | 2013 | Narrative Review | Medical Journal of Australia | Australian-specific review: approximately 1.5 million Australian shift workers affected; discusses insomnia, circadian disruption, sleep apnoea, and shift work disorder management |
-| [21904092](https://pubmed.ncbi.nlm.nih.gov/21904092/) | 2011 | Narrative Review | Postgraduate Medicine | Emerging theories and therapies for shift work disorder; covers pharmacological management of sleep/wake dysregulation in shift workers |
-| [39535843](https://pubmed.ncbi.nlm.nih.gov/39535843/) | 2024 | Narrative Review | Expert Opinion on Pharmacotherapy | Pharmacological and non-pharmacological management of sleep disturbances in Parkinson's disease; covers wake-promoting agents and their role in sleep disorder subtypes |
-| [24272458](https://pubmed.ncbi.nlm.nih.gov/24272458/) | 2014 | Narrative Review | Neurotherapeutics | Treatment of sleep disorders in Parkinson's disease, including insomnia; preliminary evidence for CBT, light therapy, and wake-promoting agents |
-| [20166851](https://pubmed.ncbi.nlm.nih.gov/20166851/) | 2010 | Narrative Review | Expert Opinion on Emerging Drugs | Emerging treatments for narcolepsy and related disorders; reviews armodafinil's pharmacological profile and positioning relative to modafinil |
+|------|-----|------|------|---------|
+| [25452447](https://pubmed.ncbi.nlm.nih.gov/25452447/) | 2015 | RCT | J Clin Oncol | Placebo-controlled trial of CBT-I and armodafinil for insomnia in cancer survivors. |
+| [27318221](https://pubmed.ncbi.nlm.nih.gov/27318221/) | 2016 | RCT | Sleep Med | Effects of armodafinil and CBT-I on sleep continuity, daytime sleepiness and CBT-I adherence in cancer survivors. |
+| [26542272](https://pubmed.ncbi.nlm.nih.gov/26542272/) | 2016 | RCT (secondary analysis) | Support Care Cancer | CBT-I, but not armodafinil, improved fatigue in cancer survivors with insomnia. |
+| [28105576](https://pubmed.ncbi.nlm.nih.gov/28105576/) | 2017 | RCT (secondary analysis) | J Cancer Surviv | Effects of CBT-I with and without armodafinil on quality of life in cancer survivors. |
+| [36003019](https://pubmed.ncbi.nlm.nih.gov/36003019/) | 2023 | Open-label pilot | J Sleep Res | Armodafinil 150 mg/day added to sleep restriction therapy to reduce daytime sleepiness, compared with historical controls (33 patients). |
+| [20957846](https://pubmed.ncbi.nlm.nih.gov/20957846/) | 2010 | Open-label extension | J Clin Sleep Med | Long-term (12 months or more) tolerability and efficacy of armodafinil in sleepiness associated with sleep apnoea, shift work disorder or narcolepsy. |
+| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Review | Drugs | Burden of illness and management of shift work sleep disorder. |
+| [21904092](https://pubmed.ncbi.nlm.nih.gov/21904092/) | 2011 | Review | Postgrad Med | Emerging theories and therapies for shift work disorder. |
+| [29734973](https://pubmed.ncbi.nlm.nih.gov/29734973/) | 2018 | Case report (safety) | J Clin Sleep Med | Stevens-Johnson syndrome after armodafinil use in a 21-year-old woman. |
 
 ---
 
 ## Australia Market Information
 
-Armodafinil is **not registered on the Australian Register of Therapeutic Goods (ARTG)** and holds no current TGA marketing authorisation. There are **0 ARTG entries** for this drug.
-
-Australian clinicians wishing to use armodafinil would need to explore access through one of the following TGA pathways:
-
-- **Special Access Scheme Category B (SAS-B)**: Approval required from TGA for individual patients on a case-by-case basis
-- **Authorised Prescriber (AP) pathway**: For clinicians regularly treating a defined patient population who wish to prescribe an unapproved product on an ongoing basis
-
-Note: Modafinil (the racemic parent compound of armodafinil) is registered in Australia under multiple ARTG entries and may serve as a practical alternative pending any armodafinil registration application.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 10912H | Nuvigil | Tablet 150 mg (oral) | Not available in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-A clinically important safety signal has been identified in the published literature:
+- **Contraindications suggested by the knowledge graph (not label text):** hypertension and hypertensive disorders, liver failure, anxiety and neurotic disorders, dysthymic disorder, psychotic disorders (including schizophreniform and schizoaffective disorders), mental disorder, mitral valve prolapse (including familial and congenital forms), and postural orthostatic tachycardia syndrome. These should be verified against the TGA-approved Product Information.
+- **Serious skin reactions:** A published case report describes Stevens-Johnson syndrome after armodafinil use, and this reaction is listed on the drug's label.
+- **Seizure risk:** Psychostimulants carry a small seizure risk, and guidance on armodafinil in patients at risk of seizures is limited.
+- **Drug interactions:** The interaction screen returned 100 interactions. Those listed include moderate interactions with rabeprazole, esomeprazole, cisapride, dexamethasone, eliglustat and linagliptin. Minor interactions include hydrocortisone, pioglitazone, aprepitant, cimetidine and clarithromycin, among others.
 
-- **Serious Skin Reactions — Stevens-Johnson Syndrome (SJS)**: A case of SJS following armodafinil initiation has been reported in the literature (PMID [29734973](https://pubmed.ncbi.nlm.nih.gov/29734973/), 2018), in a 21-year-old woman. Although SJS/toxic epidermal necrolysis (TEN) is listed as a risk on armodafinil's international product label, this was the first published case report. Clinicians should counsel patients to seek immediate medical attention for any new rash, blistering, or mucosal involvement, particularly within the first few weeks of therapy.
-
-For comprehensive safety information — including full prescribing warnings, contraindications, and drug interactions — please refer to the **FDA-approved Nuvigil® Prescribing Information**, as no TGA-approved Product Information (PI) currently exists for Australia. Particular attention should be paid to known modafinil class interactions, including:
-- CYP3A4/5 induction (may reduce efficacy of hormonal contraceptives and cyclosporin)
-- CYP2C19 inhibition (may increase plasma levels of phenytoin, diazepam, propranolol)
+Warnings and contraindications from the approved label were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold (research question)**
 
 **Rationale:**
-Multiple completed Phase 2 RCTs directly investigate armodafinil for insomnia in specific populations (cancer survivors, insomnia comorbid with sleep-disordered breathing), and a high-quality meta-analysis of the closely related modafinil provides mechanistic and pharmacological support. The biological rationale — strengthening daytime wakefulness to rebuild homeostatic sleep drive overnight — is plausible and has been tested in clinical settings. However, armodafinil is not registered in Australia, detailed local MOA and safety data are absent, and existing RCTs target specific insomnia subgroups rather than primary insomnia in the general population.
+Phase 2 trials exist, but the armodafinil-specific benefit for insomnia is weak or negative, and the mechanism targets daytime sleepiness rather than the sleep disturbance itself. Evidence supports at most a narrow adjunct role alongside CBT-I or sleep restriction therapy.
 
 **To proceed, the following is needed:**
-- **Regulatory pathway**: Determine appropriate TGA access route (SAS-B or Authorised Prescriber); consider whether modafinil (ARTG-registered) is a practical near-term alternative
-- **MOA documentation**: Retrieve full mechanism of action data from DrugBank (DB06413) to formally support the mechanistic rationale for insomnia
-- **Safety profile review**: Obtain and review FDA Nuvigil® PI in full, paying particular attention to SJS/TEN risk, psychiatric adverse events (anxiety, agitation), cardiovascular effects, and pregnancy category
-- **Drug interaction assessment**: Formal DDI review, particularly for CYP3A4 induction and CYP2C19 inhibition — relevant to patients on hormonal contraceptives, anticoagulants, or antiepileptics
-- **Target population definition**: Clarify the clinical indication scope — primary insomnia vs. insomnia comorbid with cancer fatigue, hypersomnolence, or sleep-disordered breathing — as efficacy evidence differs substantially across subgroups
-- **Prospective evidence**: Consider initiating a Phase 2 RCT or prospective observational study specifically in primary insomnia (non-oncology) to close the evidence gap for the broader indication
+- Mechanism of action data, which is currently missing
+- Approved indication text and label warnings and contraindications from the TGA Product Information, which are required for safety screening
+- A trial focused on armodafinil as an adjunct to sleep restriction therapy, in a broader population than cancer survivors, with a clear primary outcome such as daytime sleepiness
+- A risk assessment for the knowledge-graph contraindications (cardiovascular, psychiatric and hepatic conditions) and for serious skin reactions
 
-> **Disclaimer**: This report is intended for research and clinical planning purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application.
+---
+
+*Other predictions with no supporting evidence (L5, Hold): faciodigitogenital syndrome, Wernicke-Korsakoff syndrome, disorders of peroxisomal oxidation, ACBD5 deficiency, Creutzfeldt-Jakob disease and megaconial congenital muscular dystrophy. Attention deficit-hyperactivity disorder (L3) has only reviews and mechanistic reports, with no registered trials, and remains a research question. The "narcolepsy, susceptibility to" prediction duplicates the existing approved use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

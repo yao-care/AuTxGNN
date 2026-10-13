@@ -2,7 +2,7 @@
 layout: default
 title: Panitumumab
 parent: Model Prediction Only (L5)
-nav_order: 510
+nav_order: 545
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Panitumumab: From Metastatic Colorectal Cancer to Drug-induced Osteoporosis
+# Panitumumab: From Metastatic Colorectal Cancer to Drug-Induced Osteoporosis
 
 ## One-Sentence Summary
 
-Panitumumab is a fully human anti-EGFR monoclonal antibody, established in oncology for metastatic colorectal cancer. The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but this direction is currently supported by **zero clinical trials** and **zero publications** — it is a model prediction only.
+Panitumumab is an anti-EGFR monoclonal antibody, originally used to treat metastatic malignant neoplasm of the colon.
+The TxGNN model predicts it may be effective for **drug-induced osteoporosis**,
+but **no clinical trials and no publications** currently support this direction, so this is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Metastatic colorectal cancer (based on general drug knowledge; no Australian PI data available — drug not currently marketed in Australia) |
-| Predicted New Indication | Drug-induced Osteoporosis |
+| Original Indication | Metastatic malignant neoplasm in the colon (from the knowledge graph; the ARTG indication text was not available) |
+| Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 99.13% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known information, panitumumab is a fully human IgG2 monoclonal antibody directed against the epidermal growth factor receptor (EGFR), used in oncology to block EGFR-driven tumour cell proliferation.
+Currently, detailed mechanism of action data is not available. Based on known information, panitumumab is an anti-EGFR monoclonal antibody, its use in metastatic colon cancer is established, and EGFR signalling has a theoretical link to bone metabolism.
 
-The link between anti-EGFR blockade and bone metabolism is theoretical rather than established. There is limited preclinical literature suggesting EGFR signalling plays a role in osteoblast/osteoclast regulation, but no direct evidence connects panitumumab specifically to bone density effects or osteoporosis protection. The TxGNN score reflects a knowledge-graph pattern match rather than a validated pharmacological mechanism, and no clinical or preclinical study for this specific drug-disease pair currently exists.
+EGFR signalling influences osteoblast differentiation and osteoclast regulation (for example, via RANKL). This gives a theoretical connection between panitumumab and bone biology. However, EGFR blockade would be expected to impair rather than protect bone formation, which runs against the direction of the predicted benefit.
 
-Given the complete absence of supporting trials or publications, this candidate should be treated as an early-stage hypothesis requiring mechanistic validation before further investment.
+The high TxGNN score (0.991) is a computational output only. Without supporting clinical or literature evidence, and without curated mechanism data to cross-check it, the prediction should be regarded as a hypothesis with low mechanistic credibility.
+
+Other top-ranked predictions are also all L5 (model prediction only). They include severe nonproliferative diabetic retinopathy, diabetic retinopathy, and several cataract subtypes (diabetic, cortical, nuclear senile, type 2 diabetes-associated, craniostenosis, tetanic and immature). Several of these scores appear to reflect shared graph neighbours rather than independent evidence. For tetanic cataract, panitumumab's tendency to cause low magnesium and calcium could worsen the condition.
 
 ## Clinical Trial Evidence
 
@@ -63,34 +67,45 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
-## Cytotoxicity
+## Australia Market Information
 
-Panitumumab is an antineoplastic biologic (anti-EGFR monoclonal antibody), so this section applies.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10069Y | Vectibix | Solution concentrate for I.V. infusion, 100 mg in 5 mL | Not available in the data compiled for this report |
+
+## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-EGFR monoclonal antibody, not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Low — monoclonal antibodies typically carry lower myelosuppressive potential than conventional cytotoxics; please refer to the Product Information (PI) warnings and precautions for specific haematological data |
-| Emetogenicity Classification | Minimal, consistent with monoclonal antibody class |
-| Monitoring Items | Electrolytes (magnesium, calcium, potassium — EGFR inhibitors are associated with hypomagnesaemia), skin/dermatological reactions, infusion-related reactions |
-| Handling Protection | Standard biologic infusion handling; cytotoxic drug handling regulations for conventional chemotherapy do not apply |
+| Cytotoxicity Classification | Targeted therapy (anti-EGFR monoclonal antibody) |
+| Myelosuppression Risk | Low; not a conventional myelosuppressive cytotoxic. Please refer to the Product Information (PI) |
+| Emetogenicity Classification | Low |
+| Monitoring Items | Electrolytes (particularly magnesium, also calcium), skin and ocular assessment, FBC and liver and renal function as clinically indicated |
+| Handling Protection | Please refer to the Product Information (PI) warnings and precautions and local institutional policy for handling of antineoplastic agents |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. No warnings, contraindications, or drug interaction data are currently available in this evidence pack, and panitumumab is not currently marketed in Australia.
+Product Information warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
+
+**Drug Interactions** (27 interactions recorded; selected examples shown):
+- **Major:** amiodarone, arsenic trioxide, bevacizumab, dofetilide, dronedarone, droperidol, irinotecan (including liposomal), levacetylmethadol, aminolevulinic acid
+- **Moderate:** proton pump inhibitors (rabeprazole, omeprazole, dexlansoprazole, esomeprazole, lansoprazole, pantoprazole), methoxsalen, topical aminolevulinic acid, disopyramide, idelalisib
+
+**Other considerations from the rationale review:** known toxicities include dermatological effects, ocular surface effects such as keratitis, and hypomagnesaemia. These weigh against use in chronic, non-oncology conditions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is an L5, model-prediction-only candidate with no clinical trials, no literature, no confirmed mechanism of action, and no current Australian market presence — there is nothing yet to build a safety or efficacy case on.
+The prediction is supported only by a model score. There are no trials or publications, and the biology suggests EGFR blockade would more likely harm than help bone. The systemic safety profile is also unfavourable for a chronic non-cancer indication.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature
-- Preclinical evidence for an EGFR–bone metabolism pathway specific to panitumumab
-- TGA-approved Product Information (PI) or equivalent overseas label for safety baseline
-- Any post-marketing pharmacovigilance signal (e.g., bone density changes) in existing mCRC patient populations on panitumumab
+- Parsed TGA Product Information (warnings and contraindications), which is currently a blocking gap
+- Curated mechanism of action data (for example, from DrugBank)
+- Preclinical or observational evidence that EGFR inhibition benefits bone, rather than impairing it
+- Route and dose compatibility assessment for the proposed indication
+- A benefit-risk assessment of anti-EGFR toxicity in a non-oncology population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

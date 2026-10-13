@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Finasteride
-parent: Moderate Evidence (L3-L4)
-nav_order: 277
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 298
+evidence_level: L5
 indication_count: 10
 ---
 
 # Finasteride
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,91 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Finasteride: From Benign Prostatic Hyperplasia to Prostate Calculus
+# Finasteride: From Benign Prostatic Hyperplasia to Hypertrichosis
 
 ## One-Sentence Summary
 
-Finasteride is a 5α-reductase type 2 inhibitor whose established use (per the mechanistic notes in this evidence pack) is benign prostatic hyperplasia (BPH) and androgenetic alopecia. Of the 10 TxGNN-predicted indications supplied, 9 — including the top-ranked "Ambras type hypertrichosis" — have **no supporting evidence and mechanistically implausible or opposite-direction rationale**, and are excluded from further evaluation here. The one candidate worth documenting is **Prostate Calculus**, supported by **0 clinical trials** and **10 publications** (mostly observational/cohort studies, no direct RCTs), giving weak but plausible indirect evidence via the drug's known effect on prostate volume and urinary flow.
-
----
+Finasteride was originally used to treat benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita** (top-ranked), but there are **no clinical trials** and **no publications** supporting this prediction. The most literature-supported prediction is **hypertrichosis** (4 narrative reviews or methods papers, none showing efficacy), so this report details the top-ranked prediction and notes the others.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not present in structured licence data (no ARTG entries on file). Per the evidence pack's mechanistic notes, finasteride's existing indications are BPH and androgenetic alopecia. |
-| Predicted New Indication | Prostate Calculus |
-| TxGNN Prediction Score | 98.60% (rank 13,782 of all candidates — a lower-confidence tier than the top-ranked but implausible predictions) |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
+| Original Indication | Benign prostatic hyperplasia (per the knowledge graph; no approved indication text is available for the ARTG entry) |
+| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
+| TxGNN Prediction Score | 99.99% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-A formal, DrugBank-verified mechanism of action record is not currently available for this drug (data gap — high severity). Based on the mechanistic notes captured in this evidence pack, finasteride is a type II 5α-reductase inhibitor that blocks conversion of testosterone to dihydrotestosterone (DHT), and this pathway underlies its established use in reducing prostate volume and improving lower urinary tract symptoms in BPH.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Finasteride is generally known as a 5-alpha-reductase inhibitor that lowers dihydrotestosterone (DHT). Its efficacy in BPH is established, and BPH is a DHT-driven condition.
 
-Prostate calculi frequently co-occur with BPH, chronic prostatic inflammation and urinary retention/stasis, which are recognised risk factors for stone formation. The proposed link is therefore indirect: by shrinking prostate volume and improving urinary flow, finasteride could theoretically reduce the conditions that favour calculus formation or progression — not that it dissolves or directly treats existing stones.
+For Ambras syndrome, the mechanistic link is weak. It is a congenital genetic condition (chromosome 8q22 rearrangements affecting TRPS1 regulation) and is not known to be androgen-driven. The high TxGNN score appears to reflect network proximity in the knowledge graph (finasteride's links to hair-related conditions) rather than a plausible biological rationale.
 
-Importantly, none of the 10 supporting publications directly studied finasteride as a treatment for prostate calculus; they address BPH management, bladder-stone/BPH surgical outcomes, and lower urinary tract symptoms more broadly. The mechanistic link is plausible but unproven, which is reflected in the L3 evidence level (observational/review evidence only, no direct trial).
+**Other predictions reviewed (all rated Hold unless noted):**
 
-The other 9 TxGNN-ranked candidates in this evidence pack (including the highest-scoring "Ambras type hypertrichosis," at 99.99%) were reviewed and found to have no clinical trials, no literature, and/or mechanistically opposite or unrelated rationale — most likely knowledge-graph embedding noise rather than genuine repurposing signal. They are not carried forward in this report.
-
----
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Hypertrichosis | 99.99% | L4 | Hypertrichosis is androgen-independent, so the fit is weak. The retrieved papers are narrative reviews and a methods paper, and none shows finasteride treats it. Any signal likely reflects overlap with hirsutism. |
+| 3 | Malformation syndrome with odontal/periodontal component | 99.99% | L5 | No identified mechanistic link |
+| 4 | Syndrome with Dandy-Walker malformation | 99.99% | L5 | No plausible mechanism. Fetal exposure risk. |
+| 5 | Isolated genetic hair shaft abnormality | 99.99% | L5 | Inherited structural defects are not DHT-mediated |
+| 6 | Familial isolated trichomegaly | 99.15% | L5 | Speculative follicle link |
+| 7 | Prostate calculus | 98.60% | L4 | Classed as a Research Question. Any benefit would be a secondary effect of BPH treatment, not a distinct indication. |
+| 8 | Persistent fetal circulation syndrome | 90.49% | L5 | No link. Not indicated in neonates. |
+| 9 | Chronic thromboembolic pulmonary hypertension | 89.87% | L5 | No established mechanism |
+| 10 | Migraine with brainstem aura | 88.84% | L5 | Speculative neurosteroid link only |
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for the top-ranked prediction, or for any of the other nine predictions.
 
 ## Literature Evidence
 
+Currently no related literature available for Ambras type hypertrichosis universalis congenita.
+
+For the next-ranked prediction, **hypertrichosis**, the following publications were retrieved. None demonstrates that finasteride treats hypertrichosis:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40658396](https://pubmed.ncbi.nlm.nih.gov/40658396/) | 2025 | Review | JAMA | Lower urinary tract symptoms in men, including BPH, can progress to complications such as bladder calculi if untreated. |
-| [34807286](https://pubmed.ncbi.nlm.nih.gov/34807286/) | 2022 | Cohort (RCT-style comparative) | World J Urol | Combined TURP + cystolitholapaxy gave better outcomes than stone removal plus medical BPH therapy in patients with concurrent bladder stones and BPH. |
-| [12137828](https://pubmed.ncbi.nlm.nih.gov/12137828/) | 2002 | Cohort/Retrospective | Urology | Men with bladder calculi and BPH who skipped TURP after endoscopic stone removal were followed to assess non-surgical (medical) BPH management outcomes. |
-| [21296391](https://pubmed.ncbi.nlm.nih.gov/21296391/) | 2011 | Cohort | Urology | Compared endoscopic stone removal alone vs. with TURP, questioning whether prostate surgery is a necessary adjunct to stone treatment. |
-| [7541333](https://pubmed.ncbi.nlm.nih.gov/7541333/) | 1995 | Review | Disease-a-Month | Overview of BPH pathophysiology (DHT-driven) and evaluation, foundational context for finasteride's mechanism. |
-| [11074197](https://pubmed.ncbi.nlm.nih.gov/11074197/) | 2000 | Review | Urology | Discusses preventive care paradigms in urology, including risk-reduction strategies for BPH-related complications. |
-| [8545348](https://pubmed.ncbi.nlm.nih.gov/8545348/) | 1995 | Review | Presse Médicale | Medical management of BPH, noting bladder calculi as a historical indication for surgery rather than medical therapy. |
-| [21789983](https://pubmed.ncbi.nlm.nih.gov/21789983/) | 2011 | Review | The Practitioner | General review of BPH/LUTS management approaches in primary care. |
-| [12224431](https://pubmed.ncbi.nlm.nih.gov/12224431/) | 2002 | Review | Actas Urológicas Españolas | Review of BPH treatment options, medical and surgical, with future outlook. |
-| [20062548](https://pubmed.ncbi.nlm.nih.gov/20062548/) | 2009 | Case Report | Cases Journal | Case report on prostate changes after spinal cord injury; tangential relevance to prostate pathology generally. |
+| [12223963](https://pubmed.ncbi.nlm.nih.gov/12223963/) | 2002 | Review | Annales de Dermatologie et de Vénéréologie | Hypertrichosis (non-androgen-dependent areas) differs from hirsutism. Adult causes are often iatrogenic, metabolic, nutritional or paraneoplastic. |
+| [10330884](https://pubmed.ncbi.nlm.nih.gov/10330884/) | 1999 | Review | Therapeutische Umschau | Reviews new treatments for androgenetic alopecia and hirsutism. |
+| [12942187](https://pubmed.ncbi.nlm.nih.gov/12942187/) | 2003 | Review | Der Hautarzt | Finasteride for male pattern hair loss and laser hair removal for hypertrichosis and hirsutism. |
+| [12444520](https://pubmed.ncbi.nlm.nih.gov/12444520/) | 2002 | Methods | Der Hautarzt | TrichoScan digital hair analysis tool. Not a treatment study. |
 
----
+For the **prostate calculus** prediction, the literature was mostly BPH and bladder-stone studies (for example, [PMID 12137828](https://pubmed.ncbi.nlm.nih.gov/12137828/), nonsurgical BPH management in men with bladder calculi, and the 2025 JAMA review [PMID 40658396](https://pubmed.ncbi.nlm.nih.gov/40658396/) on lower urinary tract symptoms in men). None shows that finasteride treats prostatic calculi directly.
 
 ## Australia Market Information
 
-No ARTG entries are recorded for this product in the current evidence pack (market status: not marketed, 0 licences on file).
-
----
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 14191X | Finpro | Tablet 5 mg (oral) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information. (No structured warnings, contraindications, or drug interaction data were retrievable for this evidence pack — this is flagged as a blocking data gap that must be resolved before safety assessment can proceed.)
+- **Contraindications (knowledge graph, not label text)**: Liver disease and gallbladder disease are flagged in the TxGNN knowledge graph.
+- **Drug Interactions**: The interaction query returned 100 entries, all with an unclassified severity level. Examples include calcitriol, doxycycline, clotrimazole, famotidine, acetylsalicylic acid, bupropion, pantoprazole, metformin, omeprazole and morphine. Severity and clinical significance need to be confirmed against the Product Information.
+- **Fetal risk**: Finasteride carries a risk of male external genital abnormalities with in-utero exposure. This is relevant to the congenital and neonatal predictions.
 
----
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale (BPH → reduced prostate volume/urinary stasis → lower calculus risk) is biologically plausible but entirely indirect — no clinical trial or study has directly tested finasteride for prostate calculus, and the product currently has no ARTG registration. A blocking data gap on TGA Product Information (warnings/contraindications) also prevents any preliminary safety assessment.
+The predictions rest on model scores alone. There are no clinical trials, and the retrieved literature does not show that finasteride treats any predicted condition. The top-ranked condition is a congenital genetic disorder with no plausible androgen-driven mechanism.
 
 **To proceed, the following is needed:**
-- TGA-approved Product Information (warnings, contraindications) — currently a blocking gap
-- DrugBank-verified mechanism of action to replace the rationale-derived MOA used in this report
-- A direct observational study or trial examining finasteride's effect on prostate calculus incidence/progression (current evidence only addresses BPH/LUTS management generally)
-- Confirmation of current Australian market/ARTG status, given finasteride is a long-established molecule elsewhere
+- Mechanism of action data (for example, from DrugBank) to support a mechanistic-link analysis
+- TGA Product Information warnings and contraindications, and the approved indication text for the ARTG entry
+- Clinical review of the severity of the flagged drug interactions
+- A targeted literature search for finasteride in hypertrichosis and hirsutism to separate real signal from hirsutism overlap
+- If pursued, consider the prostate calculus prediction only as a research question tied to BPH management, and the hair-related predictions only with clear mechanistic justification
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

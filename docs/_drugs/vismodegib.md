@@ -2,7 +2,7 @@
 layout: default
 title: Vismodegib
 parent: Model Prediction Only (L5)
-nav_order: 726
+nav_order: 782
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vismodegib: From Basal Cell Carcinoma to Medulloblastoma with Extensive Nodularity
+# Vismodegib: From Basal Cell Carcinoma to Skin Cancer (Hedgehog-Pathway Extensions)
 
 ## One-Sentence Summary
 
-Vismodegib is a Hedgehog pathway (Smoothened/SMO) inhibitor, internationally recognised for treating advanced basal cell carcinoma, though it is not currently registered for marketing in Australia. The TxGNN model's top prediction suggests potential efficacy in **medulloblastoma with extensive nodularity (MB-EN)**, a rare medulloblastoma histological subtype, but this specific prediction is currently supported by **mechanistic rationale alone — no clinical trials or literature are available in this dataset**.
+Vismodegib is an oral Hedgehog pathway (Smoothened) inhibitor, originally used for basal cell carcinoma and related skin cancers.
+The TxGNN model's top-ranked prediction is **medulloblastoma with extensive nodularity**, but it has no supporting trials or literature. The best-supported prediction is **skin cancer** (rank 9), with **12 clinical trials** and **20 publications**. This largely overlaps with the existing basal cell carcinoma indication, so it is not a true repurposing opportunity.
 
 ---
 
@@ -41,41 +42,75 @@ Vismodegib is a Hedgehog pathway (Smoothened/SMO) inhibitor, internationally rec
 
 | Item | Content |
 |------|------|
-| Original Indication | Advanced/metastatic basal cell carcinoma (internationally recognised use; not confirmed by Australian regulatory data, as vismodegib is not marketed in Australia) |
-| Predicted New Indication | Medulloblastoma with extensive nodularity |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Basal cell carcinoma and other skin carcinomas (the Australian licence text is not available in the data compiled for this report) |
+| Predicted New Indication | Top-ranked: medulloblastoma with extensive nodularity (rank 1). Best-evidenced: skin cancer (rank 9), assessed below |
+| TxGNN Prediction Score | 99.93% (medulloblastoma with extensive nodularity); 99.82% (skin cancer) |
+| Evidence Level | L5 for medulloblastoma with extensive nodularity; L1 for skin cancer (to be confirmed, see below) |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Medulloblastoma with extensive nodularity: Hold. Skin cancer: Proceed with Guardrails (labelled settings only) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for vismodegib is not available in this evidence pack. Based on known information corroborated by the literature returned for other predicted indications in this pack (e.g. PMID 24756807), vismodegib is a "small molecule antagonist of the Hedgehog (Hh) pathway that binds to Smoothened (SMO)," and this dysregulated Hh signalling has been described in basal cell carcinoma, medulloblastoma, and several other tumour types.
+Detailed mechanism of action data is not available in the data compiled for this report. Vismodegib is, however, a known Smoothened (SMO) inhibitor. It blocks aberrant Hedgehog signalling, which drives basal cell carcinoma through PTCH1 loss of function.
 
-Medulloblastoma with extensive nodularity (MB-EN) is a histological variant of medulloblastoma that predominantly falls within the SHH-activated molecular subgroup, which is mechanistically the same pathway targeted by vismodegib. This provides biological plausibility for the prediction. However, this evidence pack did not retrieve any clinical trials or publications specific to MB-EN or SHH-subgroup medulloblastoma — the repurposing rationale explicitly notes this as a **data gap rather than a mechanistic failure**, and recommends a further targeted search for known SHH-subgroup medulloblastoma trials not captured in this dataset.
+**Top-ranked prediction (medulloblastoma with extensive nodularity):** This tumour is closely associated with the SHH medulloblastoma subgroup, in which Hedgehog activation (PTCH1/SUFU mutations) drives tumour growth. The mechanism is plausible, particularly for PTCH1-mutant tumours. SUFU-mutant tumours act downstream of SMO and would be expected to be resistant. No trials or literature were found for this entity, so support rests on the model prediction alone. Paediatric use also raises a concern about premature growth plate fusion.
 
-It is worth noting that the same evidence pack independently confirms Hedgehog-pathway blockade is clinically validated in another Hedgehog-driven tumour — basal cell carcinoma/skin cancer (rank 9), supported by a large body of Phase 1–2 trials and a pivotal NEJM publication (PMID 22670903). This reinforces the biological credibility of the mechanism generally, even though direct MB-EN evidence remains absent.
+**Skin cancer (rank 9):** This label is dominated by basal cell carcinoma, which is already an approved use for advanced disease. The plausible extensions are neoadjuvant or adjuvant use around surgery, combination with pembrolizumab or radiotherapy, and nevoid BCC syndrome. These are supported by small early-phase studies.
+
+**Xeroderma pigmentosum (rank 2):** Two case reports describe vismodegib clearing BCCs in patients with xeroderma pigmentosum, including an 8-year-old child. This is indirect evidence for BCC in the setting of XP, not for treating XP itself.
+
+**Other predictions (ranks 3 to 8 and 10):** These include annular epidermolytic ichthyosis, epidermolysis bullosa simplex with mottled pigmentation, prostate cancer/brain cancer susceptibility, Brenner tumour, cutaneous adenocystic carcinoma, prostate leiomyoma and benign neoplasm of sweat gland. None has trials or literature, and several have no plausible Hedgehog link. All are Hold.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for medulloblastoma with extensive nodularity.
+The table covers the skin cancer prediction, the only one with registered trials. Up to 10 of the 12 trials are shown.
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01835626](https://clinicaltrials.gov/study/NCT01835626) | Phase 2 | Completed | 24 | Safety and tolerability of radiotherapy plus vismodegib in locally advanced head and neck BCC |
+| [NCT05463757](https://clinicaltrials.gov/study/NCT05463757) | N/A (registry) | Recruiting | 80 | Dutch real-world registry of vismodegib and sonidegib in advanced and multiple BCC |
+| [NCT05651828](https://clinicaltrials.gov/study/NCT05651828) | Early Phase 1 | Recruiting | 34 | Four dosing schedules (personalised intermittent, fixed intermittent, continuous) in advanced BCC |
+| [NCT01631331](https://clinicaltrials.gov/study/NCT01631331) | Early Phase 1 | Completed | 15 | Pilot of off-label vismodegib as an adjuvant to surgery for sporadic BCC |
+| [NCT01543581](https://clinicaltrials.gov/study/NCT01543581) | Phase 2 | Completed | 3 | Placebo-controlled study before Mohs surgery; enrolment too small for conclusions |
+| [NCT02690948](https://clinicaltrials.gov/study/NCT02690948) | Phase 1/2 | Completed | 16 | Pembrolizumab with or without vismodegib in unresectable or metastatic BCC |
+| [NCT02694224](https://clinicaltrials.gov/study/NCT02694224) | Phase 2 | Unknown | 40 | Vismodegib added to neoadjuvant chemotherapy in triple-negative breast cancer (not skin cancer) |
+| [NCT06357988](https://clinicaltrials.gov/study/NCT06357988) | Phase 2 | Active, not recruiting | 34 | NCI-MATCH subprotocol T: vismodegib in non-BCC tumours with SMO or PTCH1 mutations |
+| [NCT02465060](https://clinicaltrials.gov/study/NCT02465060) | Phase 2 | Active, not recruiting | 6452 | NCI-MATCH master protocol; vismodegib is one of many arms |
+| [NCT01071564](https://clinicaltrials.gov/study/NCT01071564) | Phase 1 | Terminated | 13 | Vismodegib plus a Notch inhibitor in advanced breast cancer (not skin cancer) |
+
+No ANZCTR identifiers were found in the data compiled for this report. Two further trials (NCT03878524 and NCT05238831) are precision-oncology platform studies that were terminated or withdrawn and are uninformative.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for medulloblastoma with extensive nodularity.
+Up to 10 publications are shown; guidelines and reviews are prioritised, with the xeroderma pigmentosum case reports included. No RCTs were supplied.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [37604067](https://pubmed.ncbi.nlm.nih.gov/37604067/) | 2023 | Guideline | Eur J Cancer | Updated European interdisciplinary BCC guideline; categorises BCC as "easy-to-treat" or "difficult-to-treat" |
+| [31288208](https://pubmed.ncbi.nlm.nih.gov/31288208/) | 2019 | Guideline | Eur J Cancer | European consensus guideline on BCC diagnosis and treatment |
+| [26919418](https://pubmed.ncbi.nlm.nih.gov/26919418/) | 2016 | Review | Cell | Hedgehog inhibition; vismodegib and sonidegib approved for locally advanced BCC, vismodegib also for metastatic BCC |
+| [22679179](https://pubmed.ncbi.nlm.nih.gov/22679179/) | 2012 | Review | Clin Cancer Res | FDA approval based mainly on a non-randomised parallel-cohort Phase 2 study |
+| [22653209](https://pubmed.ncbi.nlm.nih.gov/22653209/) | 2012 | Review | Nat Rev Drug Discov | Vismodegib as an oral Hedgehog inhibitor for advanced BCC |
+| [24756807](https://pubmed.ncbi.nlm.nih.gov/24756807/) | 2014 | Review | Recent Results Cancer Res | Vismodegib binds SMO; Hedgehog dysregulation also seen in medulloblastoma and other cancers |
+| [23719880](https://pubmed.ncbi.nlm.nih.gov/23719880/) | 2013 | Review | Am J Health Syst Pharm | Pharmacology, efficacy, adverse effects, cost and place in therapy |
+| [32759706](https://pubmed.ncbi.nlm.nih.gov/32759706/) | 2020 | Review | Int J Mol Sci | Comprehensive review of BCC biology and resistance to systemic treatments |
+| [28297142](https://pubmed.ncbi.nlm.nih.gov/28297142/) | 2017 | Case report | Pediatr Dermatol | Vismodegib 150 mg/day cleared a nasal-tip BCC in an 8-year-old with xeroderma pigmentosum |
+| [30178564](https://pubmed.ncbi.nlm.nih.gov/30178564/) | 2018 | Case report | Pediatr Dermatol | Multiple BCCs in XP: 61% reduction in lesion diameter at 16.5 months; one lesion later progressed |
 
 ---
 
 ## Australia Market Information
 
-Vismodegib currently has no ARTG entries and is not marketed in Australia.
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 11070P | Erivedge | Capsule 150 mg (oral) | Not available in the data compiled for this report |
 
 ---
 
@@ -83,32 +118,37 @@ Vismodegib currently has no ARTG entries and is not marketed in Australia.
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (Hedgehog/Smoothened pathway inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (Hedgehog pathway / Smoothened inhibitor), not a conventional cytotoxic |
 | Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
-| Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the PI. Given the teratogenic risk, pregnancy status and contraception are key monitoring points |
+| Handling Protection | Please refer to the PI and local handling requirements |
 
 ---
 
 ## Safety Considerations
 
-As vismodegib is not currently registered in Australia, no TGA-approved Product Information is available. Safety information (warnings, contraindications, drug interactions) should be sourced from an overseas regulatory Product Information (e.g. US FDA or EMA labelling) pending Australian registration.
+Product Information warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
+
+- **Known concerns noted in the evidence review:** embryo-fetal toxicity (teratogenicity); common adverse events including muscle spasms, alopecia, dysgeusia and weight loss; and a possible risk of premature growth plate fusion in children.
+- **Drug interactions:** 56 interactions were identified. One is rated **Moderate**: clarithromycin. The rest are rated Minor and are mainly acid-suppressing agents and antacids, including H2 blockers (famotidine, ranitidine, cimetidine, nizatidine), proton pump inhibitors (omeprazole, esomeprazole, pantoprazole, lansoprazole, rabeprazole, dexlansoprazole) and antacids (aluminium, magnesium and calcium salts, sodium bicarbonate, sodium citrate).
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold for medulloblastoma with extensive nodularity (top-ranked); Proceed with Guardrails for skin cancer (labelled settings only)**
 
 **Rationale:**
-The MB-EN prediction is currently supported only by mechanistic plausibility (Evidence Level L5) with no clinical trials or literature identified in this dataset, and the drug is not registered for marketing in Australia.
+- The top-ranked prediction has a plausible mechanism (SHH-subgroup tumours) but no trials or literature, so it rests on model prediction alone (L5).
+- The skin cancer prediction is mostly the existing BCC indication. The L1 grade is carried by the approved indication and guidelines; no Phase 3 RCT was supplied, so it should be confirmed against the registration trial. Newer settings (neoadjuvant, combination, radiotherapy) are supported only by small early-phase studies and should be treated as investigational.
 
 **To proceed, the following is needed:**
-- Targeted search for SHH-subgroup/MB-EN medulloblastoma clinical trials known to exist but not captured in this evidence pack
-- TFDA/overseas Product Information for safety warnings and contraindications (currently blocking, per data gap DG001)
-- Confirmed mechanism of action data from DrugBank (data gap DG002)
-- Assessment of Australian regulatory pathway, given vismodegib currently has no ARTG entry
+- Australian Product Information, including approved indication text, warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- For medulloblastoma: evidence of activity in PTCH1-mutant versus SUFU-mutant tumours, plus a paediatric risk assessment (growth plate fusion)
+- Confirmation of the registration-trial evidence behind the L1 grade
+- Embryo-fetal toxicity risk management for any new-setting use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

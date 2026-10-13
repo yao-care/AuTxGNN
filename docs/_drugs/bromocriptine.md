@@ -2,7 +2,7 @@
 layout: default
 title: Bromocriptine
 parent: Model Prediction Only (L5)
-nav_order: 106
+nav_order: 113
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,91 +29,95 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bromocriptine: From Parkinson's Disease to Congenital Disorder of Glycosylation with Defective Fucosylation
+# Bromocriptine: From Parkinson Disease and Hyperprolactinaemia to Congenital Disorder of Glycosylation with Defective Fucosylation
 
 ## One-Sentence Summary
 
-Bromocriptine is an established dopamine D2/D3 receptor agonist with globally recognised indications including Parkinson's disease, hyperprolactinemia, acromegaly, and type 2 diabetes, though the Australian ARTG data in this Evidence Pack records no currently registered products.
-The TxGNN model assigns its highest prediction score to **Congenital Disorder of Glycosylation with Defective Fucosylation** (score: 99.83%), a rare inherited metabolic condition caused by defects in the GDP-fucose biosynthesis pathway.
-No clinical trials or published literature support this repurposing direction, and the mechanistic rationale is weak — placing this candidate at **Evidence Level L5 (model prediction only)** with a recommended decision of **Hold**.
-
----
+Bromocriptine is a dopamine agonist originally used for Parkinson disease, hyperprolactinaemia (including prolactin-producing pituitary tumours) and acromegaly.
+The TxGNN model predicts it may be effective for **congenital disorder of glycosylation with defective fucosylation**, but this is a model prediction only, with **no clinical trials** and **no publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not currently registered on Australian ARTG per data provided; globally established for Parkinson's disease, hyperprolactinemia, and acromegaly |
-| Predicted New Indication | Congenital Disorder of Glycosylation with Defective Fucosylation |
+|------|------|
+| Original Indication | Parkinson disease, hyperprolactinaemia and acromegaly (per the knowledge-graph indication list; the Australian licence record contains no approved indication text) |
+| Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
 | TxGNN Prediction Score | 99.83% |
 | Evidence Level | L5 |
-| Australia Market Status | Not marketed (0 ARTG entries recorded) |
-| Number of ARTG Entries | 0 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available. Bromocriptine is known as a dopamine D2 receptor agonist, and its efficacy in Parkinson disease, hyperprolactinaemia and acromegaly is established. However, the data compiled for this report identify no mechanistic link between dopamine agonism and congenital disorders of glycosylation.
 
-Bromocriptine is a well-characterised ergoline derivative with primary agonist activity at dopamine D2 and D3 receptors, and partial agonist activity at serotonin 5-HT2C receptors. Its established pharmacological actions include suppression of pituitary prolactin secretion (via the tuberoinfundibular pathway), enhancement of striatal dopaminergic tone (nigrostriatal pathway), and modulation of circadian metabolic rhythms — the last of which underpins its FDA-approved use in type 2 diabetes as the Cycloset formulation. Detailed mechanism of action data was not available in this Evidence Pack and should be confirmed via DrugBank (DB01200).
+The high TxGNN score (99.83%) is a graph-based prediction only. This is a rare inherited metabolic disorder, and no trials or literature were found to show that bromocriptine addresses its underlying defect. The prediction should be treated as a hypothesis for investigation, not as evidence of benefit.
 
-Congenital Disorder of Glycosylation with Defective Fucosylation (CDG-IIc, also known as Leukocyte Adhesion Deficiency type II, LAD-II) is caused by mutations in genes encoding enzymes of the GDP-fucose biosynthesis or transport pathway — most commonly *SLC35C1*, which encodes the GDP-fucose transporter. The resulting failure to fucosylate selectin ligands on circulating leukocytes leads to recurrent severe bacterial infections, intellectual disability, short stature, and abnormal blood group antigen expression (Bombay phenotype). This is a pure glycan metabolism disorder with no established intersection with dopaminergic neurotransmission.
+### Other Predictions Worth Noting
 
-The high TxGNN score (99.83%) is most likely an artefact of knowledge graph topology — for example, shared connectivity through rare disease intermediate nodes — rather than a genuine pharmacological signal. There is no plausible mechanistic hypothesis by which D2 receptor agonism could correct GDP-fucose pathway enzyme deficiencies or restore fucosylation of adhesion molecules. At this stage, no research investment is warranted without a primary mechanistic hypothesis.
+The top-ranked prediction has the least supporting evidence. Among the other nine predictions reviewed, two stand out:
 
----
+- **Retinal dystrophy with or without extraocular anomalies (score 99.82%, L4):** A 2024 preclinical study (PMID 39009597) tested a combination of tamsulosin, metoprolol and bromocriptine in retinopathy models, and a 1991 report (PMID 1753674) described cyclosporin A plus bromocriptine in Goldmann-Favre syndrome. This is the best-supported prediction, but the evidence is preclinical or case-level only.
+- **Schizophrenia (score 99.73%, L4):** One Phase 4 trial examines bromocriptine for metabolic problems (prediabetes) in people taking antipsychotics, not for schizophrenia itself. Bromocriptine's D2 agonism is in mechanistic tension with antipsychotic D2 antagonism, and a case report describes bromocriptine-induced schizophrenia (PMID 8120934).
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Bromocriptine in Congenital Disorder of Glycosylation with Defective Fucosylation.
+Currently no related clinical trials registered for congenital disorder of glycosylation with defective fucosylation.
 
----
+For reference, the only trial identified across the top ten predictions is in schizophrenia:
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT03575000](https://clinicaltrials.gov/study/NCT03575000) | Phase 4 | Not yet recruiting | 15 | Open-label, flexible-dose adjunctive bromocriptine for antipsychotic-associated impaired glucose tolerance/insulin resistance in schizophrenia with prediabetes; a safety and tolerability pilot with a metabolic endpoint, no control arm |
+
+No ANZCTR identifiers were found in the data compiled for this report.
 
 ## Literature Evidence
 
-Currently no related literature available for Bromocriptine in Congenital Disorder of Glycosylation with Defective Fucosylation.
+Currently no related literature available for congenital disorder of glycosylation with defective fucosylation.
 
----
+For reference, the most relevant publications for the other predictions are:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39009597](https://pubmed.ncbi.nlm.nih.gov/39009597/) | 2024 | Preclinical | Nature Communications | Drug-repurposing combination (tamsulosin, metoprolol, bromocriptine) showed mutation-agnostic efficacy in pre-clinical retinopathy models (retinal dystrophy) |
+| [1753674](https://pubmed.ncbi.nlm.nih.gov/1753674/) | 1991 | Case report | Klinische Monatsblätter für Augenheilkunde | Cyclosporin A plus bromocriptine in Goldmann-Favre syndrome (retinal dystrophy) |
+| [8120934](https://pubmed.ncbi.nlm.nih.gov/8120934/) | 1993 | Case report | Journal of the National Medical Association | Schizophrenia developed 4 days after starting low-dose bromocriptine for macroprolactinoma and resolved after discontinuation |
+| [6574535](https://pubmed.ncbi.nlm.nih.gov/6574535/) | 1983 | Small clinical study | Psychiatry Research | Ten chronic schizophrenic patients given escalating bromocriptine doses; effects on symptoms, sleep and prolactin response assessed |
+| [2573101](https://pubmed.ncbi.nlm.nih.gov/2573101/) | 1989 | Review | Psychiatric Journal of the University of Ottawa | Review of dopaminergic agonists and schizophrenia |
+| [30805732](https://pubmed.ncbi.nlm.nih.gov/30805732/) | 2019 | Review | Journal of Neural Transmission | Overview of classical dopamine agonists, including bromocriptine |
+| [39265262](https://pubmed.ncbi.nlm.nih.gov/39265262/) | 2024 | Systematic review | Schizophrenia Research | Insulin resistance as a modifiable pathway to cognitive dysfunction in schizophrenia |
+
+One publication linked to hydranencephaly (PMID 29546691, a cabergoline versus bromocriptine review in giant prolactinomas) is unrelated to that disease and is likely a spurious match.
 
 ## Australia Market Information
 
-The Evidence Pack records **no ARTG registrations** for Bromocriptine in Australia. Clinicians should verify this directly against the TGA ARTG, as Bromocriptine products may be listed under brand names (e.g., Parlodel) not captured in this data extraction. Access may be available through the Special Access Scheme (SAS) if no registered product is found.
-
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
-|-------------|--------------|-------------|---------------------|
-| — | No registered products found in this data extract | — | Please verify directly at tga.gov.au/artg |
-
----
+|---------|------|------|-----------|
+| ARTG 13979R | Parlodel | Tablet 2.5 mg (as mesilate), oral | Not recorded in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for complete safety information. If no TGA PI is available, consult the Australian Medicines Handbook or the regulatory PI from a jurisdiction where Bromocriptine is approved (e.g., FDA, EMA).
+- **Disease-level cautions (knowledge graph, not label text):** The knowledge graph links bromocriptine to contraindication or caution with hypertensive disorders, liver disease, gallbladder disease, coronary artery disease, stroke and cerebrovascular disorders, cerebral infarction, and hypertensive disorders of pregnancy (pre-eclampsia, severe and mild, and HELLP syndrome). These should be verified against the Product Information.
+- **Drug Interactions:** 87 interactions were identified. Major interactions include **isometheptene** and **lorcaserin**. Moderate interactions include morphine, clarithromycin, metoclopramide, lansoprazole, promethazine, dronabinol, nabilone, ethanol, diphenoxylate and deferasirox, among others.
+- **Psychiatric risk:** A case report describes psychosis emerging after bromocriptine, so careful psychiatric monitoring is needed in any use in people with psychotic illness.
 
-> **Note for clinicians:** Regardless of formal PI data, published literature (PMID [8120934](https://pubmed.ncbi.nlm.nih.gov/8120934/)) documents a case of Bromocriptine-induced psychosis consistent with dopamine hypothesis, and its D2 agonist mechanism contraindicates use in patients with active psychotic disorders. This is a clinically important safety consideration independent of the Australian PI status.
-
----
+Please refer to the TGA-approved Product Information (PI) for the full warnings and contraindications, which were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN rank-1 prediction for Bromocriptine in CDG with defective fucosylation achieves a high algorithmic score (99.83%) but lacks both mechanistic plausibility and any supporting clinical or preclinical evidence. The dopamine D2/D3 receptor agonist mechanism has no known relationship to the GDP-fucose pathway defects underlying this condition, and the prediction is most likely a knowledge graph artefact.
+The prediction for congenital disorder of glycosylation with defective fucosylation rests solely on a graph-based score, with no trials, no literature and no identified mechanistic link (Evidence Level L5). Across the top ten predictions, only retinal dystrophy has any supporting evidence, and it is preclinical or case-level (L4).
 
 **To proceed, the following is needed:**
-- A credible mechanistic hypothesis linking D2 receptor signalling to glycosylation biology or fucose metabolism (none currently exists in the published literature)
-- Preclinical evidence from CDG animal models or relevant cell-based assays
-- Verification of current ARTG registration status directly via the TGA ARTG search portal
-- Complete MOA data from DrugBank (DB01200)
-- TGA PI or equivalent for contraindications, warnings, and drug interactions
-
----
-
-> **Note on Broader Prediction Landscape:** Among all 10 TxGNN predictions in this Evidence Pack, **schizophrenia** (Rank 9, TxGNN score: 99.73%) is the indication with the most accumulated evidence — 3 registered clinical trials and 20 publications, classified at Evidence Level **L3**. However, this prediction carries a critical mechanistic safety concern: Bromocriptine's D2 agonism is mechanistically opposed to standard antipsychotic therapy (D2 antagonism), and a published case report (PMID [8120934](https://pubmed.ncbi.nlm.nih.gov/8120934/)) documents Bromocriptine-induced *de novo* psychosis. The schizophrenia evidence is primarily in two narrow contexts — management of antipsychotic-induced hyperprolactinemia, and adjunctive treatment of negative symptoms under neuroleptic cover — neither of which constitutes a clear repurposing opportunity without significant safety evaluation. A separate detailed report for the schizophrenia indication is recommended if this question warrants further investigation.
-
----
-
-*This report is generated for research reference only. All repurposing candidates require clinical validation before any therapeutic application. Australian clinicians should consult the TGA for current registration and access pathway information. Data cutoff: 10 April 2026.*
+- Mechanism of action data for bromocriptine, and a plausible biological link to fucosylation or glycosylation pathways
+- Preclinical studies (for example, patient-derived cells or animal models) testing bromocriptine in this disorder
+- Consideration of retinal dystrophy as a more evidence-supported research question, including confirming bromocriptine's role in the 2024 combination study
+- The TGA-approved Product Information (warnings, contraindications and approved indications) to complete safety screening
+- A route and dosage compatibility assessment for the proposed use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

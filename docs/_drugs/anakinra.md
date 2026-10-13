@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Anakinra
-parent: Moderate Evidence (L3-L4)
-nav_order: 47
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 50
+evidence_level: L5
 indication_count: 10
 ---
 
 # Anakinra
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,133 +29,144 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Anakinra: From Rheumatoid Arthritis to Pyogenic Autoinflammatory Syndrome
+# Anakinra: From Rheumatoid Arthritis to Extracutaneous Mastocytoma
 
 ## One-Sentence Summary
 
-Anakinra is a recombinant human interleukin-1 receptor antagonist (IL-1Ra) approved internationally for rheumatoid arthritis and autoinflammatory conditions, but not currently registered on the Australian Register of Therapeutic Goods (ARTG).
-Among 10 TxGNN-predicted indications, **Pyogenic Autoinflammatory Syndrome** (PAPA/PAPASH spectrum) emerges as the most clinically actionable candidate, supported by **19 publications** including a systematic scoping review — the strongest evidence level (L3) and the only "Proceed with Guardrails" recommendation in this analysis.
-
-> **Note on TxGNN ranking:** The highest TxGNN score belongs to extracutaneous mastocytoma (rank #1, 99.93%), however that indication is purely computational with no supporting literature or trials (L5, Hold). This report focuses on the highest-evidence, most actionable predicted indication — Pyogenic Autoinflammatory Syndrome (rank #9, L3).
+Anakinra is an interleukin-1 (IL-1) receptor antagonist, originally used for rheumatoid arthritis and cryopyrin-associated periodic syndromes (including CINCA syndrome).
+The TxGNN model's top-ranked prediction is **extracutaneous mastocytoma**, but **no clinical trials and no publications** support this specific prediction.
+Other lower-ranked predictions have more evidence, particularly **familial Mediterranean fever** and **pyogenic autoinflammatory syndromes (PAPA/PASH/PAPASH)**, which are supported by case-level and review literature.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered on ARTG; approved internationally for Rheumatoid Arthritis and Systemic JIA (USA/EU) |
-| Predicted New Indication (Best Evidence) | Pyogenic Autoinflammatory Syndrome (PAPA/PAPASH spectrum) |
-| TxGNN Prediction Score | 99.83% (rank #9 within this pack; top TxGNN score is extracutaneous mastocytoma at 99.93%) |
-| Evidence Level | L3 |
-| Australia Market Status | Not marketed |
-| Number of ARTG Entries | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Rheumatoid arthritis; cryopyrin-associated periodic syndrome; CINCA syndrome (the approved indication text for the Australian ARTG entry is not available) |
+| Predicted New Indication | Extracutaneous mastocytoma |
+| TxGNN Prediction Score | 99.93% |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed |
+| Number of ARTG Entries | 1 |
+| Recommended Decision | Hold |
+
+For context, the other predicted indications in this evaluation were graded as follows:
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
+|------|------|------|------|------|
+| 1 | Extracutaneous mastocytoma | 99.93% | L5 | Hold |
+| 2 | Hepatic infarction | 99.89% | L5 | Hold |
+| 3 | Autosomal recessive familial Mediterranean fever | 99.89% | L3 | Research Question |
+| 4 | Aggressive systemic mastocytosis | 99.88% | L4 | Hold |
+| 5 | Hepatic veno-occlusive disease | 99.88% | L5 | Hold |
+| 6 | Peliosis hepatis | 99.85% | L5 | Hold |
+| 7 | Oligoarticular JIA without anti-nuclear antibodies | 99.85% | L4 | Hold |
+| 8 | Oligoarticular JIA with anti-nuclear antibodies | 99.85% | L4 | Hold |
+| 9 | Pyogenic autoinflammatory syndrome | 99.83% | L3 | Research Question |
+| 10 | Unclassified autoinflammatory syndrome | 99.81% | L3 | Research Question |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current evidence pack. Based on established scientific literature, Anakinra is a recombinant form of the naturally occurring human IL-1 receptor antagonist (IL-1Ra). It competitively blocks binding of both IL-1α and IL-1β to the IL-1 type I receptor (IL-1RI), suppressing downstream pro-inflammatory cascades — including NF-κB activation, prostaglandin synthesis, and cytokine amplification — that drive tissue damage in IL-1-mediated diseases.
+Detailed mechanism of action data for anakinra is not available in the data compiled for this report. Anakinra is, however, a recombinant IL-1 receptor antagonist, and its efficacy in rheumatoid arthritis and cryopyrin-associated periodic syndromes is established. Mechanistically, it may be applicable to conditions in which IL-1 drives inflammation.
 
-Pyogenic Autoinflammatory Syndrome, most prominently PAPA syndrome (Pyogenic Arthritis, Pyoderma Gangrenosum, and Acne) and related entities such as PAPASH and PASH, arises from heterozygous mutations in the PSTPIP1 gene. These mutations produce a hyperphosphorylated PSTPIP1 protein that constitutively activates the NLRP3 inflammasome, driving caspase-1 activation and excessive IL-1β secretion. The mechanistic alignment with Anakinra's target is direct: blocking the IL-1 receptor addresses the terminal effector of this pathological cascade. Published systematic case series (PMID 38259483) and individual case reports confirm clinical responses in patients refractory to conventional therapy.
+For the top-ranked prediction, **extracutaneous mastocytoma**, the link is plausible but unverified: IL-1 may be involved in mast cell-driven inflammation. The 99.93% score is a graph-based prediction only, with no supporting trials or publications.
 
-The broader scientific framework further supports this link. IL-1 has been described as a "master cytokine" of innate immune dysregulation across a wide range of conditions (PMID 24275598), and overproduction of IL-1β is a consistent molecular signature across the PSTPIP1-spectrum diseases. This makes Anakinra a biologically rational and clinically meaningful candidate, even in the absence of formal registered clinical trials for these rare conditions.
+The better-supported predictions are those that are autoinflammatory and IL-1-driven:
+
+- **Familial Mediterranean fever (FMF):** This disease involves pyrin inflammasome dysregulation and excess IL-1β, so IL-1 blockade is mechanistically coherent. Evidence is at case series and review level.
+- **PAPA/PASH/PAPASH syndromes:** These involve PSTPIP1-related inflammasome activation and IL-1-driven inflammation, so IL-1 blockade is mechanistically well founded.
+- **Unclassified autoinflammatory syndromes:** These often show IL-1-mediated inflammation, supporting an empirical approach, although the evidence is heterogeneous.
+
+Some predictions are poorly supported. Hepatic infarction is an ischaemic/vascular event for which IL-1 blockade is not an established treatment. For oligoarticular juvenile idiopathic arthritis (JIA), anakinra is established in systemic JIA, but oligoarticular disease has a different, largely adaptive, T-cell-driven pathophysiology.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no registered clinical trials have been identified for Anakinra in Pyogenic Autoinflammatory Syndrome or the broader PAPA/PAPASH spectrum.
-
-This reflects the rarity of these conditions rather than a negative clinical signal. Rare autoinflammatory syndromes typically progress from case reports and case series directly to compassionate access and registry data, bypassing formal Phase 2/3 trials. Regulatory pathways via the TGA Special Access Scheme (SAS) or Authorised Prescriber programme may be applicable.
+Currently no related clinical trials registered for the top-ranked prediction (extracutaneous mastocytoma), or for any of the other nine predicted indications.
 
 ---
 
 ## Literature Evidence
 
-*Showing top 10 publications for Pyogenic Autoinflammatory Syndrome (19 total retrieved):*
+No literature is available for the top-ranked prediction (extracutaneous mastocytoma). The most relevant publications below relate to the best-supported predictions.
+
+**Familial Mediterranean fever (rank 3)**
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [38259483](https://pubmed.ncbi.nlm.nih.gov/38259483/) | 2024 | Systematic Scoping Review | Frontiers in Immunology | Comprehensive review of anakinra and canakinumab in PSTPIP1-associated inflammatory diseases (PAPA/PAPASH); confirms IL-1 pathway inhibitors are effective in this spectrum |
-| [39006661](https://pubmed.ncbi.nlm.nih.gov/39006661/) | 2024 | Case Report | Cureus | Anakinra in PAPASH spectrum disorder; documents clinical response, noting IL-1β overproduction via PSTPIP1 dysregulation as the core mechanism |
-| [24275598](https://pubmed.ncbi.nlm.nih.gov/24275598/) | 2013 | Review | Seminars in Immunology | IL-1 as a master cytokine of systemic and local inflammation; catalogues the broadening list of IL-1-driven diseases responsive to targeted therapy |
-| [21532836](https://pubmed.ncbi.nlm.nih.gov/21532836/) | 2010 | Review | Current Genomics | PAPA syndrome: PSTPIP1 mutations → inflammasome activation → IL-1β overproduction; establishes the molecular rationale for IL-1 receptor antagonism |
-| [22161697](https://pubmed.ncbi.nlm.nih.gov/22161697/) | 2012 | Case Series | Arthritis and Rheumatism | Five PAPA syndrome patients: genotype-phenotype correlations, immunophenotyping, and treatment responses documented in detail |
-| [38006373](https://pubmed.ncbi.nlm.nih.gov/38006373/) | 2023 | Case Report | Acta Dermatovenerologica Croatica | PAPA syndrome: challenges achieving long-term remission; anakinra discussed as a treatment option in PSTPIP1-mutant disease with sustained IL-1β overproduction |
-| [27448064](https://pubmed.ncbi.nlm.nih.gov/27448064/) | 2016 | Review | Der Hautarzt | Severe acne as a symptom of autoinflammatory diseases (PASH/PAPASH); IL-1β involvement and use of anakinra in selected autoinflammatory syndromes |
-| [29742056](https://pubmed.ncbi.nlm.nih.gov/29742056/) | 2018 | Review | Clinical and Experimental Rheumatology | Autoinflammatory diseases: innate immunity dysregulation, IL-1β as a key effector, dermatologic manifestations, and treatment approaches |
-| [34778321](https://pubmed.ncbi.nlm.nih.gov/34778321/) | 2021 | Case Report | Frontiers in Medicine | PSTPIP1-associated inflammatory disease (PAID): renal involvement; IL-1 blockers form the cornerstone of treatment for this spectrum |
-| [28251506](https://pubmed.ncbi.nlm.nih.gov/28251506/) | 2017 | Case Report | Infection | PAPA syndrome: differential diagnosis from septic arthritis via synovial cell counts; clinical presentation and workup described |
+|------|-----|------|------|---------|
+| [21277619](https://pubmed.ncbi.nlm.nih.gov/21277619/) | 2011 | Case series / Review | Semin Arthritis Rheum | Evaluates IL-1-targeting drugs in FMF, given pyrin's role in IL-1 maturation and secretion |
+| [23322405](https://pubmed.ncbi.nlm.nih.gov/23322405/) | 2013 | Review | Clin Rev Allergy Immunol | Reviews IL-1β biological treatment of FMF in patients not controlled by colchicine |
+| [26572612](https://pubmed.ncbi.nlm.nih.gov/26572612/) | 2016 | Review | Curr Med Chem | Reviews colchicine and biologic agents for FMF |
+| [34550430](https://pubmed.ncbi.nlm.nih.gov/34550430/) | 2022 | Cohort | Rheumatol Int | Canakinumab effective in FMF resistant or intolerant to colchicine and/or anakinra (IL-1 class evidence) |
+| [19033248](https://pubmed.ncbi.nlm.nih.gov/19033248/) | 2009 | Case report | Nephrol Dial Transplant | Successful anakinra treatment of FMF and outcome after renal transplantation |
+| [21931121](https://pubmed.ncbi.nlm.nih.gov/21931121/) | 2012 | Case report | Nephrol Dial Transplant | Beneficial effect of IL-1 inhibitors in FMF complicated by amyloidosis and renal failure |
+| [20386914](https://pubmed.ncbi.nlm.nih.gov/20386914/) | 2012 | Case report | Rheumatol Int | Anakinra efficacy in a patient with colchicine-resistant FMF |
+
+**Pyogenic autoinflammatory syndromes (rank 9)**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [38259483](https://pubmed.ncbi.nlm.nih.gov/38259483/) | 2023 | Scoping review | Front Immunol | Efficacy and safety of anakinra and canakinumab in PSTPIP1-associated inflammatory diseases |
+| [24275598](https://pubmed.ncbi.nlm.nih.gov/24275598/) | 2013 | Review | Semin Immunol | Reviews the broad role of IL-1 blockade across inflammatory diseases |
+| [39006661](https://pubmed.ncbi.nlm.nih.gov/39006661/) | 2024 | Case report and review | Cureus | Anakinra in PAPASH spectrum disorder |
+| [38006373](https://pubmed.ncbi.nlm.nih.gov/38006373/) | 2023 | Case report / Review | Acta Dermatovenerol Croat | PAPA syndrome: challenges in achieving long-term remission |
+
+**Unclassified autoinflammatory syndrome (rank 10)**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [36589607](https://pubmed.ncbi.nlm.nih.gov/36589607/) | 2022 | Retrospective cohort | Arch Rheumatol | Single-centre experience with anakinra in paediatric rheumatic diseases |
+| [41904303](https://pubmed.ncbi.nlm.nih.gov/41904303/) | 2026 | Case report | Eur Arch Otorhinolaryngol | TRAPS-like unclassified syndrome treated successfully with canakinumab |
+| [37747561](https://pubmed.ncbi.nlm.nih.gov/37747561/) | 2024 | Registry cohort | Rheumatol Int | Clinical and genetic characteristics of patients in the German anti-IL-1 registry (GARROD) |
+
+**Other predictions**
+
+- *Aggressive systemic mastocytosis (rank 4):* The retrieved papers ([40718535](https://pubmed.ncbi.nlm.nih.gov/40718535/), [25840575](https://pubmed.ncbi.nlm.nih.gov/25840575/)) are case reports on Schnitzler syndrome, not mastocytosis. They are mismatched and do not support this prediction.
+- *Oligoarticular JIA (ranks 7 and 8):* The only item is a general JIA review ([28418334](https://pubmed.ncbi.nlm.nih.gov/28418334/)), with no subtype-specific anakinra data.
 
 ---
 
 ## Australia Market Information
 
-Anakinra is **not currently listed on the Australian Register of Therapeutic Goods (ARTG)**. There are **0 ARTG entries**.
-
-For Australian patients, the following access pathways may apply:
-
-| Pathway | Description |
-|---------|-------------|
-| TGA Special Access Scheme (SAS) Category B | Individual patient application for unapproved therapeutic goods; requires documented unmet need |
-| TGA Authorised Prescriber | Suitable for specialists managing multiple rare autoinflammatory disease patients |
-| Clinical Trial | Participation in an ANZCTR- or ClinicalTrials.gov-registered study |
-
-**Overseas registrations for reference:**
-- **USA (FDA):** Kineret® approved for Rheumatoid Arthritis; also indicated for Neonatal-Onset Multisystem Inflammatory Disease (NOMID)
-- **EU (EMA):** Approved for Rheumatoid Arthritis, Systemic JIA, NOMID/CAPS, and Still's disease
-- Typical formulation: subcutaneous injection, 100 mg/day for adults (brand: Kineret®, Swedish Orphan Biovitrum)
+| ARTG Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTG 10263E | Kineret | Injection 100 mg in 0.67 mL single use pre-filled syringe | Not available in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the overseas Product Information (PI) for Kineret® (Swedish Orphan Biovitrum AB) for full safety information, as Anakinra is not currently ARTG-registered and Australian PI data is not available in this evidence pack.
+**Drug Interactions** (100 interactions were identified in the interaction database; the main ones are listed below):
 
-Key safety considerations for IL-1 receptor blockade in clinical practice include:
-- **Serious infections:** IL-1 contributes to innate immunity; blockade may impair defence against bacterial and fungal pathogens
-- **Neutropenia:** Monitor full blood count (FBC) including neutrophil count before and during therapy
-- **Injection-site reactions:** Common with subcutaneous administration; typically manageable
-- **Tuberculosis reactivation risk:** Screening recommended prior to initiation (consistent with other biologics)
+- **Major:** Deferiprone
+- **Moderate:**
+  - Corticosteroids: hydrocortisone, betamethasone, budesonide, dexamethasone, prednisolone, prednisone, triamcinolone (including ophthalmic)
+  - Simvastatin
+  - Anticoagulants: apixaban, rivaroxaban, dicoumarol
+  - Radiopharmaceuticals and related agents: ibritumomab tiuxetan, iobenguane (I-131), tositumomab and tositumomab (I-131)
+- **Minor:** Zinc salts (acetate, gluconate, sulfate)
+
+For warnings and contraindications, please refer to the TGA-approved Product Information (PI) for safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (for Pyogenic Autoinflammatory Syndrome — PAPA/PAPASH spectrum)
+**Decision: Hold**
 
 **Rationale:**
-PSTPIP1 mutations directly drive constitutive IL-1β overproduction via inflammasome hyperactivation, placing Anakinra's mechanism in direct alignment with the core pathology; a systematic scoping review (2024) and multiple case series provide L3-level evidence of clinical efficacy in colchicine-refractory patients with no alternative biological options.
+The top-ranked prediction, extracutaneous mastocytoma, rests on a graph-based score alone, with no registered trials or publications (L5). The better-supported predictions (familial Mediterranean fever, PSTPIP1-associated syndromes and unclassified autoinflammatory syndromes) reach only L3 on case series and review evidence, with no anakinra-specific randomised trials. These are best treated as research questions rather than candidates for immediate clinical use.
 
 **To proceed, the following is needed:**
-- Genetic testing to confirm PSTPIP1 mutation in candidate patients (prerequisite for diagnosis)
-- TGA Special Access Scheme (SAS) Category B application with documented unmet clinical need
-- MOA data retrieval from DrugBank API (currently not available in this evidence pack)
-- Safety monitoring plan: FBC with neutrophil differential at baseline and regularly during treatment; infection surveillance; injection-site monitoring
-- Multidisciplinary team engagement: rheumatology, dermatology, and clinical genetics
-- Baseline tuberculosis screening and infection risk assessment
-- Review of the full Kineret® Product Information (PI) for dosing, contraindications, and special populations
-
----
-
-### Summary of All 10 Predicted Indications
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation |
-|------|---------|------------|---------------|---------------|
-| 1 | Extracutaneous Mastocytoma | 99.93% | L5 | Hold |
-| 2 | Hepatic Infarction | 99.89% | L5 | Hold |
-| 3 | Autosomal Recessive Familial Mediterranean Fever | 99.89% | L3 | Research Question |
-| 4 | Aggressive Systemic Mastocytosis | 99.88% | L4 | Hold |
-| 5 | Hepatic Veno-Occlusive Disease | 99.88% | L5 | Hold |
-| 6 | Peliosis Hepatis | 99.85% | L5 | Hold |
-| 7 | Oligoarticular JIA (ANA−) | 99.85% | L4 | Research Question |
-| 8 | Oligoarticular JIA (ANA+) | 99.85% | L4 | Research Question |
-| **9** | **Pyogenic Autoinflammatory Syndrome** | **99.83%** | **L3** | **Proceed with Guardrails** |
-| 10 | Unclassified Autoinflammatory Syndrome | 99.81% | L3 | Research Question |
-
-> *This report is generated for research purposes only and does not constitute medical advice. All repurposing candidates require clinical validation before any therapeutic application. Australian prescribers should consult current TGA guidance for access to non-registered therapeutics.*
+- Detailed mechanism of action data for anakinra
+- The TGA-approved Product Information (warnings, contraindications and approved indication text for ARTG 10263E)
+- For extracutaneous mastocytoma: any preclinical or clinical evidence of IL-1 involvement, before further consideration
+- For familial Mediterranean fever and PSTPIP1-associated syndromes: a systematic review of anakinra-specific data and, where feasible, a prospective study or registry in colchicine-resistant patients
+- Review of the interaction profile, particularly the major interaction with deferiprone and combined use with corticosteroids
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
