@@ -3,7 +3,7 @@ layout: default
 title: "Iloprost News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Iloprost. Original indication: . 14 predicted indications."
+description: "Health news related to Iloprost. Original indication: . 15 predicted indications."
 permalink: /news/iloprost/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/iloprost/
 ---
 
 <p class="key-answer" data-question="What news is there about Iloprost?">
-<strong>Iloprost</strong> currently has <strong>0 news articles</strong>, with 14 predicted indications.
+<strong>Iloprost</strong> currently has <strong>0 news articles</strong>, with 15 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,11 +24,12 @@ This page combines the AI-predicted indications for Iloprost with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (14)</strong>:<ul>
+<li><strong>Predicted indications (15)</strong>:<ul>
 <li>PAH associated with connective tissue disease (99.2%)</li>
 <li>PAH associated with HIV infection (99.2%)</li>
-<li>Pulmonary arteriovenous malformation (99.3%)</li>
 <li>PAH associated with schistosomiasis (99.2%)</li>
+<li>PAH associated with chronic hemolytic anemia (99.2%)</li>
+<li>Pulmonary arteriovenous malformation (99.3%)</li>
 <li>hypotrichosis simplex of the scalp (99.5%)</li>
 <li>congenital hypotrichosis milia (99.3%)</li>
 <li>pulmonary arterial hypertension associated with congenital heart disease (99.3%)</li>

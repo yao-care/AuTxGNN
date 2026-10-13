@@ -25,13 +25,13 @@ This page combines the AI-predicted indications for Somatotropin with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Mixed gonadal dysgenesis (95.6%)</li>
+<li>Mosaic monosomy X (95.1%)</li>
+<li>Turner syndrome due to structural X chromosome anomalies (95.0%)</li>
 <li>middle ear neuroendocrine tumor (96.8%)</li>
 <li>malignant cutaneous granular cell skin tumor (96.6%)</li>
 <li>ectomesenchymoma (96.5%)</li>
 <li>human herpesvirus 8-related tumor (96.4%)</li>
-<li>mixed gonadal dysgenesis (95.6%)</li>
-<li>mosaic monosomy X (95.1%)</li>
-<li>Turner syndrome due to structural X chromosome anomalies (95.0%)</li>
 <li>familial generalized lentiginosis (94.8%)</li>
 <li>rhabdoid tumor (94.5%)</li>
 <li>gastrocutaneous syndrome (94.2%)</li>

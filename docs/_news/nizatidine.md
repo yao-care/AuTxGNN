@@ -25,15 +25,15 @@ This page combines the AI-predicted indications for Nizatidine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Duodenitis (97.8%)</li>
+<li>Gastroduodenitis (99.6%)</li>
+<li>Gastrojejunal ulcer (99.9%)</li>
 <li>active peptic ulcer disease (100.0%)</li>
-<li>gastrojejunal ulcer (99.9%)</li>
 <li>peptic ulcer perforation (99.9%)</li>
 <li>duodenal obstruction (99.9%)</li>
 <li>duodenogastric reflux (99.8%)</li>
-<li>gastroduodenitis (99.6%)</li>
 <li>multiple endocrine neoplasia (99.3%)</li>
 <li>leather-bottle stomach (98.2%)</li>
-<li>duodenitis (97.8%)</li>
 <li>gastrin secretion abnormality (97.7%)</li>
 </ul></li>
 </ul>

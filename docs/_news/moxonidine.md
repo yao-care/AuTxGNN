@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Moxonidine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Malignant hypertensive renal disease (99.7%)</li>
+<li>Malignant renovascular hypertension (99.7%)</li>
+<li>Primary hereditary glaucoma (99.5%)</li>
 <li>hypotrichosis simplex of the scalp (100.0%)</li>
 <li>congenital hypotrichosis milia (99.9%)</li>
 <li>diffuse alopecia areata (99.9%)</li>
 <li>alopecia (99.9%)</li>
-<li>malignant hypertensive renal disease (99.7%)</li>
-<li>malignant renovascular hypertension (99.7%)</li>
 <li>pulmonary hypertension with unclear multifactorial mechanism (99.7%)</li>
 <li>pulmonary hypertension owing to lung disease and/or hypoxia (99.7%)</li>
 <li>Braddock syndrome (99.6%)</li>
-<li>primary hereditary glaucoma (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/moxonidine/' | relative_url }}">View full drug report →</a></p>

@@ -25,15 +25,15 @@ This page combines the AI-predicted indications for Zonisamide with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Absence epilepsy (99.2%)</li>
+<li>Manic bipolar affective disorder (99.3%)</li>
+<li>Fibromyalgia (99.2%)</li>
 <li>Tourette syndrome (99.8%)</li>
 <li>trichotillomania (99.8%)</li>
 <li>methemoglobinemia, alpha type (99.6%)</li>
 <li>methemoglobinemia (99.6%)</li>
 <li>Prinzmetal angina (99.5%)</li>
 <li>methemoglobin reductase deficiency (99.5%)</li>
-<li>manic bipolar affective disorder (99.3%)</li>
-<li>absence epilepsy (99.2%)</li>
-<li>fibromyalgia (99.2%)</li>
 <li>conjunctivitis (99.2%)</li>
 </ul></li>
 </ul>

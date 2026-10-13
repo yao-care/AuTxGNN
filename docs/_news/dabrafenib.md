@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Dabrafenib with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>choroideremia (98.6%)</li>
+<li>Choroideremia (98.6%)</li>
+<li>Epithelioid cell melanoma (98.4%)</li>
+<li>Eyelid melanoma (98.4%)</li>
+<li>Scrotum melanoma (98.3%)</li>
+<li>Choroidal dystrophy, central areolar (98.3%)</li>
+<li>Amyotrophic lateral sclerosis (98.3%)</li>
+<li>Bilateral parasagittal parieto-occipital polymicrogyria (98.2%)</li>
+<li>Amelanotic skin melanoma (98.1%)</li>
+<li>Nodular malignant melanoma (98.1%)</li>
 <li>non-cutaneous melanoma (98.5%)</li>
-<li>epithelioid cell melanoma (98.4%)</li>
-<li>eyelid melanoma (98.4%)</li>
-<li>scrotum melanoma (98.3%)</li>
-<li>choroidal dystrophy, central areolar (98.3%)</li>
-<li>amyotrophic lateral sclerosis (98.3%)</li>
-<li>bilateral parasagittal parieto-occipital polymicrogyria (98.2%)</li>
-<li>amelanotic skin melanoma (98.1%)</li>
-<li>nodular malignant melanoma (98.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dabrafenib/' | relative_url }}">View full drug report →</a></p>

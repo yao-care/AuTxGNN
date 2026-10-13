@@ -25,12 +25,12 @@ This page combines the AI-predicted indications for Methyldopa with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Malignant renovascular hypertension (96.6%)</li>
+<li>Pulmonary hypertension owing to lung disease and/or hypoxia (96.3%)</li>
+<li>Pulmonary hypertension with unclear multifactorial mechanism (96.3%)</li>
+<li>Chronic pulmonary heart disease (85.0%)</li>
 <li>malignant hypertensive renal disease (96.6%)</li>
-<li>malignant renovascular hypertension (96.6%)</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia (96.3%)</li>
-<li>pulmonary hypertension with unclear multifactorial mechanism (96.3%)</li>
 <li>Braddock syndrome (95.1%)</li>
-<li>chronic pulmonary heart disease (85.0%)</li>
 <li>congenital temporomandibular joint ankylosis (57.5%)</li>
 <li>polydipsia (57.2%)</li>
 <li>atrial flutter (disease) (56.7%)</li>

@@ -25,15 +25,15 @@ This page combines the AI-predicted indications for Oxcarbazepine with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Restless legs syndrome (99.9%)</li>
+<li>Status epilepticus (99.9%)</li>
 <li>visual epilepsy (100.0%)</li>
-<li>restless legs syndrome (99.9%)</li>
 <li>orgasm-induced seizures (99.9%)</li>
 <li>audiogenic seizures (99.9%)</li>
 <li>eating seizures (99.9%)</li>
 <li>thinking seizures (99.9%)</li>
 <li>startle epilepsy (99.9%)</li>
 <li>micturation-induced seizures (99.9%)</li>
-<li>status epilepticus (99.9%)</li>
 <li>reading seizures (99.8%)</li>
 </ul></li>
 </ul>

@@ -25,14 +25,14 @@ This page combines the AI-predicted indications for Cetirizine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Cold urticaria (100.0%)</li>
+<li>Angioedema (95.7%)</li>
+<li>Nasal cavity disease (99.8%)</li>
 <li>allergic urticaria (100.0%)</li>
-<li>cold urticaria (100.0%)</li>
-<li>nasal cavity disease (99.8%)</li>
 <li>acute laryngopharyngitis (99.7%)</li>
 <li>rosacea conjunctivitis (99.4%)</li>
 <li>recalcitrant atopic dermatitis (99.2%)</li>
 <li>IgE responsiveness, atopic (98.8%)</li>
-<li>angioedema (95.7%)</li>
 <li>punctate epithelial keratoconjunctivitis (94.7%)</li>
 <li>trigeminal autonomic cephalalgia (94.0%)</li>
 </ul></li>

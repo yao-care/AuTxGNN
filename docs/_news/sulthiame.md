@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Sulthiame with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>cauda equina syndrome (100.0%)</li>
-<li>obsolete neurogenic bladder (disease) (99.9%)</li>
-<li>irritable bowel syndrome (99.9%)</li>
-<li>neurocirculatory asthenia (99.8%)</li>
-<li>anaphylaxis (99.7%)</li>
-<li>food-dependent exercise-induced anaphylaxis (99.6%)</li>
-<li>familial mitral valve prolapse (99.5%)</li>
-<li>mitral valve prolapse (disease) (99.5%)</li>
+<li>Obsolete neurogenic bladder (disease) (99.9%)</li>
+<li>Irritable bowel syndrome (99.9%)</li>
+<li>Neurocirculatory asthenia (99.8%)</li>
+<li>Anaphylaxis (99.7%)</li>
+<li>Food-dependent exercise-induced anaphylaxis (99.6%)</li>
+<li>Familial mitral valve prolapse (99.5%)</li>
+<li>Mitral valve prolapse (disease) (99.5%)</li>
 <li>MVP1 (99.4%)</li>
-<li>autonomic nervous system disease (99.3%)</li>
+<li>Autonomic nervous system disease (99.3%)</li>
+<li>cauda equina syndrome (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/sulthiame/' | relative_url }}">View full drug report →</a></p>

@@ -25,13 +25,13 @@ This page combines the AI-predicted indications for Pegfilgrastim with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>severe nonproliferative diabetic retinopathy (99.9%)</li>
-<li>diabetic retinopathy (99.7%)</li>
-<li>primary release disorder of platelets (98.4%)</li>
-<li>diabetic cataract (98.2%)</li>
-<li>pseudo-von Willebrand disease (98.0%)</li>
+<li>Diabetic retinopathy (99.7%)</li>
+<li>Primary release disorder of platelets (98.4%)</li>
+<li>Diabetic cataract (98.2%)</li>
+<li>Pseudo-von Willebrand disease (98.0%)</li>
 <li>Glanzmann thrombasthenia (97.7%)</li>
-<li>drug-induced osteoporosis (96.8%)</li>
+<li>Drug-induced osteoporosis (96.8%)</li>
+<li>severe nonproliferative diabetic retinopathy (99.9%)</li>
 <li>senile cataract (96.4%)</li>
 <li>cortical cataract (96.3%)</li>
 <li>nuclear senile cataract (96.3%)</li>

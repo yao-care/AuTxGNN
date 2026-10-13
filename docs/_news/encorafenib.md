@@ -3,7 +3,7 @@ layout: default
 title: "Encorafenib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Encorafenib. Original indication: . 10 predicted indications."
+description: "Health news related to Encorafenib. Original indication: . 11 predicted indications."
 permalink: /news/encorafenib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/encorafenib/
 ---
 
 <p class="key-answer" data-question="What news is there about Encorafenib?">
-<strong>Encorafenib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Encorafenib</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Encorafenib with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>choroideremia (97.1%)</li>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>Choroideremia (97.1%)</li>
+<li>Epithelioid cell melanoma (96.5%)</li>
+<li>Eyelid melanoma (96.4%)</li>
+<li>Scrotum melanoma (96.1%)</li>
+<li>Choroidal dystrophy, central areolar (96.1%)</li>
+<li>Amelanotic skin melanoma (95.6%)</li>
+<li>Superficial spreading melanoma (95.6%)</li>
+<li>Lentigo maligna melanoma (95.6%)</li>
+<li>Acral lentiginous melanoma (95.6%)</li>
 <li>non-cutaneous melanoma (96.5%)</li>
-<li>epithelioid cell melanoma (96.5%)</li>
-<li>eyelid melanoma (96.4%)</li>
-<li>scrotum melanoma (96.1%)</li>
-<li>choroidal dystrophy, central areolar (96.1%)</li>
-<li>amelanotic skin melanoma (95.6%)</li>
-<li>superficial spreading melanoma (95.6%)</li>
-<li>lentigo maligna melanoma (95.6%)</li>
 <li>acral lentiginous melanoma (disease) (95.6%)</li>
 </ul></li>
 </ul>

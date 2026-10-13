@@ -25,12 +25,12 @@ This page combines the AI-predicted indications for Reboxetine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Agoraphobia (99.9%)</li>
+<li>Dysthymic disorder (99.9%)</li>
+<li>Melancholia (99.7%)</li>
+<li>Neurotic depression (99.7%)</li>
 <li>benign paroxysmal torticollis of infancy (99.9%)</li>
-<li>agoraphobia (99.9%)</li>
-<li>dysthymic disorder (99.9%)</li>
 <li>Ohdo syndrome and variants (99.8%)</li>
-<li>melancholia (99.7%)</li>
-<li>neurotic depression (99.7%)</li>
 <li>blepharophimosis - intellectual disability syndrome, Ohdo type (99.7%)</li>
 <li>neurotic disorder (99.7%)</li>
 <li>Keppen-Lubinsky syndrome (99.5%)</li>

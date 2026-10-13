@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Clozapine with the latest he
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>manic bipolar affective disorder (100.0%)</li>
+<li>Bipolar disorder (99.6%)</li>
+<li>Psychotic disorder (99.1%)</li>
+<li>Schizophreniform disorder (99.7%)</li>
+<li>Major affective disorder (99.5%)</li>
 <li>Tourette syndrome (99.9%)</li>
-<li>trichotillomania (99.9%)</li>
-<li>schizophreniform disorder (99.7%)</li>
-<li>bipolar disorder (99.6%)</li>
-<li>major affective disorder (99.5%)</li>
+<li>Trichotillomania (99.9%)</li>
+<li>Malan overgrowth syndrome (99.0%)</li>
+<li>manic bipolar affective disorder (100.0%)</li>
 <li>attention deficit-hyperactivity disorder (99.3%)</li>
 <li>attention deficit hyperactivity disorder, inattentive type (99.2%)</li>
-<li>psychotic disorder (99.1%)</li>
-<li>Malan overgrowth syndrome (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/clozapine/' | relative_url }}">View full drug report →</a></p>

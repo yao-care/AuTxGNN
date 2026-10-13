@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Fluoxetine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Schizotypal personality disorder (99.9%)</li>
+<li>Agoraphobia (99.9%)</li>
+<li>Manic bipolar affective disorder (99.6%)</li>
+<li>Phobic disorder (99.6%)</li>
+<li>Melancholia (99.6%)</li>
 <li>schizoid personality disorder (99.9%)</li>
 <li>histrionic personality disorder (disease) (99.9%)</li>
-<li>schizotypal personality disorder (99.9%)</li>
 <li>paranoid personality disorder (99.9%)</li>
 <li>benign paroxysmal torticollis of infancy (99.9%)</li>
-<li>agoraphobia (99.9%)</li>
-<li>manic bipolar affective disorder (99.6%)</li>
-<li>phobic disorder (99.6%)</li>
 <li>Ohdo syndrome and variants (99.6%)</li>
-<li>melancholia (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fluoxetine/' | relative_url }}">View full drug report →</a></p>

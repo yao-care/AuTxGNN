@@ -26,9 +26,9 @@ This page combines the AI-predicted indications for Escitalopram with the latest
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Obsessive-compulsive disorder (98.4%)</li>
 <li>Ohdo syndrome and variants (98.6%)</li>
 <li>dysthymic disorder (98.5%)</li>
-<li>obsessive-compulsive disorder (98.4%)</li>
 <li>blepharophimosis - intellectual disability syndrome, Ohdo type (97.9%)</li>
 <li>benign paroxysmal torticollis of infancy (97.6%)</li>
 <li>histrionic personality disorder (disease) (97.4%)</li>

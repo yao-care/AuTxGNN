@@ -25,14 +25,14 @@ This page combines the AI-predicted indications for Sumatriptan with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Headache disorder (93.3%)</li>
+<li>Trigeminal autonomic cephalalgia (92.9%)</li>
+<li>Sciatic neuropathy (92.4%)</li>
+<li>Tendinitis (87.5%)</li>
+<li>Obsolete vascular headache (86.5%)</li>
 <li>migraine with brainstem aura (99.7%)</li>
 <li>atrophoderma vermiculata (98.0%)</li>
 <li>ulerythema ophryogenesis (96.8%)</li>
-<li>headache disorder (93.3%)</li>
-<li>trigeminal autonomic cephalalgia (92.9%)</li>
-<li>sciatic neuropathy (92.4%)</li>
-<li>tendinitis (87.5%)</li>
-<li>obsolete vascular headache (86.5%)</li>
 <li>myositis fibrosa (85.4%)</li>
 <li>idiopathic granulomatous myositis (85.4%)</li>
 </ul></li>

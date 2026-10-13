@@ -3,7 +3,7 @@ layout: default
 title: "Valsartan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Valsartan. Original indication: . 10 predicted indications."
+description: "Health news related to Valsartan. Original indication: . 12 predicted indications."
 permalink: /news/valsartan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/valsartan/
 ---
 
 <p class="key-answer" data-question="What news is there about Valsartan?">
-<strong>Valsartan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Valsartan</strong> currently has <strong>0 news articles</strong>, with 12 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,19 @@ This page combines the AI-predicted indications for Valsartan with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>malignant hypertensive renal disease (100.0%)</li>
-<li>malignant renovascular hypertension (100.0%)</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia (100.0%)</li>
-<li>pulmonary hypertension with unclear multifactorial mechanism (100.0%)</li>
+<li><strong>Predicted indications (12)</strong>:<ul>
+<li>Malignant renovascular hypertension (100.0%)</li>
+<li>Pulmonary hypertension owing to lung disease and/or hypoxia (100.0%)</li>
+<li>Pulmonary hypertension with unclear multifactorial mechanism (100.0%)</li>
 <li>Braddock syndrome (100.0%)</li>
-<li>chronic pulmonary heart disease (99.6%)</li>
+<li>Chronic pulmonary heart disease (99.6%)</li>
 <li>Prinzmetal angina (99.5%)</li>
+<li>Familial hematuria-retinal arteriolar tortuosity-contractures syndrome (98.5%)</li>
+<li>Brain small vessel disease 1 (98.5%)</li>
+<li>Obsolete susceptibility to ischemic stroke (98.2%)</li>
+<li>malignant hypertensive renal disease (100.0%)</li>
 <li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (98.5%)</li>
 <li>brain small vessel disease 1 with or without ocular anomalies (98.5%)</li>
-<li>obsolete susceptibility to ischemic stroke (98.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/valsartan/' | relative_url }}">View full drug report →</a></p>

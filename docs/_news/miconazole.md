@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Miconazole with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Superficial mycosis (97.0%)</li>
+<li>Dermatophytosis of scalp or beard (96.9%)</li>
+<li>Blastomycosis (95.2%)</li>
 <li>acne (disease) (99.5%)</li>
 <li>gastrin secretion abnormality (98.8%)</li>
 <li>papillary conjunctivitis (98.0%)</li>
 <li>tinea profunda (97.2%)</li>
 <li>ectothrix infectious disease (97.1%)</li>
 <li>Majocchi granuloma (97.1%)</li>
-<li>superficial mycosis (97.0%)</li>
 <li>endothrix infectious disease (97.0%)</li>
-<li>dermatophytosis of scalp or beard (96.9%)</li>
-<li>blastomycosis (95.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/miconazole/' | relative_url }}">View full drug report →</a></p>

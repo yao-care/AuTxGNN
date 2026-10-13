@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Mefenamic acid with the late
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Headache disorder (99.6%)</li>
+<li>Migraine disorder (99.2%)</li>
+<li>Osteoarthritis (98.7%)</li>
+<li>Migraine with brainstem aura (99.2%)</li>
 <li>rheumatoid arthritis (99.7%)</li>
 <li>osteoarthritis susceptibility (99.7%)</li>
-<li>headache disorder (99.6%)</li>
 <li>trigeminal autonomic cephalalgia (99.5%)</li>
 <li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.5%)</li>
 <li>brachydactyly-syndactyly syndrome (99.5%)</li>
-<li>migraine disorder (99.2%)</li>
-<li>migraine with brainstem aura (99.2%)</li>
 <li>acromesomelic dysplasia, Hunter-Thompson type (98.8%)</li>
-<li>osteoarthritis (98.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/mefenamic_acid/' | relative_url }}">View full drug report →</a></p>

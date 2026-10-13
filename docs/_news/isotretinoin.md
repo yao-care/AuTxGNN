@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Isotretinoin with the latest
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>malignant hypertensive renal disease (99.0%)</li>
-<li>malignant renovascular hypertension (99.0%)</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia (98.9%)</li>
-<li>pulmonary hypertension with unclear multifactorial mechanism (98.9%)</li>
+<li>Malignant renovascular hypertension (99.0%)</li>
+<li>Pulmonary hypertension owing to lung disease and/or hypoxia (98.9%)</li>
+<li>Pulmonary hypertension with unclear multifactorial mechanism (98.9%)</li>
 <li>Braddock syndrome (98.7%)</li>
-<li>chronic pulmonary heart disease (88.7%)</li>
-<li>cholangiocarcinoma, susceptibility to (61.9%)</li>
-<li>obsolete functional visual loss (59.2%)</li>
-<li>mitral valve prolapse, myxomatous (59.1%)</li>
-<li>ocular tuberculosis (58.7%)</li>
+<li>Chronic pulmonary heart disease (88.7%)</li>
+<li>Cholangiocarcinoma, susceptibility to (61.9%)</li>
+<li>Obsolete functional visual loss (59.2%)</li>
+<li>Mitral valve prolapse, myxomatous (59.1%)</li>
+<li>Ocular tuberculosis (58.7%)</li>
+<li>malignant hypertensive renal disease (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/isotretinoin/' | relative_url }}">View full drug report →</a></p>

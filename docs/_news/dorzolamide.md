@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Dorzolamide with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Hypotrichosis simplex of the scalp (100.0%)</li>
+<li>Congenital hypotrichosis milia (99.9%)</li>
+<li>Alopecia (99.9%)</li>
+<li>Diffuse alopecia areata (99.9%)</li>
+<li>Glaucoma 1, open angle (99.8%)</li>
+<li>Open angle glaucoma (99.7%)</li>
+<li>Congestive heart failure (99.6%)</li>
+<li>Acute pulmonary heart disease (99.5%)</li>
+<li>Respiratory failure (99.3%)</li>
 <li>primary hereditary glaucoma (100.0%)</li>
-<li>hypotrichosis simplex of the scalp (100.0%)</li>
-<li>congenital hypotrichosis milia (99.9%)</li>
-<li>alopecia (99.9%)</li>
-<li>diffuse alopecia areata (99.9%)</li>
-<li>glaucoma 1, open angle (99.8%)</li>
-<li>open angle glaucoma (99.7%)</li>
-<li>congestive heart failure (99.6%)</li>
-<li>acute pulmonary heart disease (99.5%)</li>
-<li>respiratory failure (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dorzolamide/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Brexpiprazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Brexpiprazole. Original indication: . 10 predicted indications."
+description: "Health news related to Brexpiprazole. Original indication: . 11 predicted indications."
 permalink: /news/brexpiprazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/brexpiprazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Brexpiprazole?">
-<strong>Brexpiprazole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Brexpiprazole</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Brexpiprazole with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>dysthymic disorder (98.5%)</li>
-<li>benign paroxysmal torticollis of infancy (98.3%)</li>
-<li>agoraphobia (98.2%)</li>
-<li>neurotic disorder (97.7%)</li>
-<li>neurotic depression (97.1%)</li>
-<li>melancholia (97.1%)</li>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>Benign paroxysmal torticollis of infancy (98.3%)</li>
+<li>Agoraphobia (98.2%)</li>
+<li>Neurotic disorder (97.7%)</li>
+<li>Neurotic depression (97.1%)</li>
+<li>Melancholia (97.1%)</li>
 <li>Keppen-Lubinsky syndrome (96.0%)</li>
 <li>Ohdo syndrome and variants (95.0%)</li>
-<li>retinal dystrophy with or without extraocular anomalies (94.8%)</li>
+<li>Retinal dystrophy with or without extraocular anomalies (94.8%)</li>
+<li>Congenital isolated ACTH deficiency (94.5%)</li>
+<li>dysthymic disorder (98.5%)</li>
 <li>congenital isolated adrenocorticotropic hormone deficiency (disease) (94.5%)</li>
 </ul></li>
 </ul>

@@ -3,7 +3,7 @@ layout: default
 title: "Clonazepam News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Clonazepam. Original indication: . 10 predicted indications."
+description: "Health news related to Clonazepam. Original indication: . 13 predicted indications."
 permalink: /news/clonazepam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/clonazepam/
 ---
 
 <p class="key-answer" data-question="What news is there about Clonazepam?">
-<strong>Clonazepam</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Clonazepam</strong> currently has <strong>0 news articles</strong>, with 13 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,19 @@ This page combines the AI-predicted indications for Clonazepam with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (13)</strong>:<ul>
+<li>Status epilepticus (97.0%)</li>
+<li>Trigeminal neuralgia (97.7%)</li>
+<li>Insomnia (99.3%)</li>
+<li>Sleep disorder (initiating and maintaining sleep) (98.8%)</li>
+<li>Reading seizures (96.6%)</li>
+<li>Epilepsy with generalised tonic-clonic seizures (96.5%)</li>
+<li>Trigeminal nerve neoplasm (99.3%)</li>
+<li>Acute encephalopathy with biphasic seizures and late reduced diffusion (98.6%)</li>
+<li>Adolescent/adult onset autosomal dominant epilepsy with auditory features (96.8%)</li>
 <li>restless legs syndrome (99.7%)</li>
 <li>insomnia (disease) (99.3%)</li>
-<li>trigeminal nerve neoplasm (99.3%)</li>
 <li>sleep disorder, initiating and maintaining sleep (98.8%)</li>
-<li>acute encephalopathy with biphasic seizures and late reduced diffusion (98.6%)</li>
-<li>trigeminal neuralgia (97.7%)</li>
-<li>status epilepticus (97.0%)</li>
-<li>adolescent/adult onset autosomal dominant epilepsy with auditory features (96.8%)</li>
-<li>reading seizures (96.6%)</li>
 <li>epilepsy with generalized tonic-clonic seizures (96.5%)</li>
 </ul></li>
 </ul>
