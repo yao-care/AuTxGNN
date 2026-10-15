@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "mucocutaneous-leishmaniasis",
+          "display": "mucocutaneous leishmaniasis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "mucocutaneous leishmaniasis",
       "concept": {
         "text": "mucocutaneous leishmaniasis"
       }

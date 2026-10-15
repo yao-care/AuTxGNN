@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "mitochondrial-oxidative-phosphorylation-disorder-due-to-nuclear-dna-anomalies",
+          "display": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies",
       "concept": {
         "text": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"
       }

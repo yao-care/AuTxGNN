@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cardioencephalomyopathy-fatal-infantile-due-to-cytochrome-c-oxidase-deficiency",
+          "display": "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency",
       "concept": {
         "text": "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency"
       }

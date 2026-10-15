@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "steel-syndrome",
+          "display": "Steel syndrome"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Steel syndrome",
       "concept": {
         "text": "Steel syndrome"
       }

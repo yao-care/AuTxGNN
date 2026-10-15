@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "bone-paget-disease",
+          "display": "bone Paget disease"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "bone Paget disease",
       "concept": {
         "text": "bone Paget disease"
       }

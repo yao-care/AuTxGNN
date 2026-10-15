@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "growth-hormone-insensitivity-syndrome-with-immune-dysregulation-2-autosomal-dominant",
+          "display": "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant",
       "concept": {
         "text": "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant"
       }

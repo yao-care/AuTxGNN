@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "radiation-or-chemically-induced-disorder",
+          "display": "radiation or chemically induced disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "radiation or chemically induced disorder",
       "concept": {
         "text": "radiation or chemically induced disorder"
       }

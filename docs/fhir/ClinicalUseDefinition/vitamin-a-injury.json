@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "injury",
+          "display": "injury"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "injury",
       "concept": {
         "text": "injury"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "vernal-conjunctivitis",
+          "display": "vernal conjunctivitis"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "vernal conjunctivitis",
       "concept": {
         "text": "vernal conjunctivitis"
       }

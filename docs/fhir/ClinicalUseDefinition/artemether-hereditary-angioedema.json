@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "hereditary-angioedema",
+          "display": "hereditary angioedema"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "hereditary angioedema",
       "concept": {
         "text": "hereditary angioedema"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "immunoerythromyeloid-hypoplasia",
+          "display": "Immunoerythromyeloid hypoplasia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "Immunoerythromyeloid hypoplasia",
       "concept": {
         "text": "Immunoerythromyeloid hypoplasia"
       }

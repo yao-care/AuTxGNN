@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "segmental-odontomaxillary-dysplasia",
+          "display": "segmental odontomaxillary dysplasia"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "segmental odontomaxillary dysplasia",
       "concept": {
         "text": "segmental odontomaxillary dysplasia"
       }

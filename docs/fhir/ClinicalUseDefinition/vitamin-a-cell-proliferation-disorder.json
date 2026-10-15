@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "cell-proliferation-disorder",
+          "display": "cell proliferation disorder"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "cell proliferation disorder",
       "concept": {
         "text": "cell proliferation disorder"
       }

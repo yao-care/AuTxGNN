@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "renin-angiotensin-aldosterone-system-blocker-induced-angioedema",
+          "display": "renin-angiotensin-aldosterone system-blocker-induced angioedema"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "renin-angiotensin-aldosterone system-blocker-induced angioedema",
       "concept": {
         "text": "renin-angiotensin-aldosterone system-blocker-induced angioedema"
       }

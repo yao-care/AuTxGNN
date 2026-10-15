@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "acquired-angioedema",
+          "display": "acquired angioedema"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "acquired angioedema",
       "concept": {
         "text": "acquired angioedema"
       }

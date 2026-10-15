@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "familial-apolipoprotein-c-ii-deficiency",
+          "display": "familial apolipoprotein C-II deficiency"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "familial apolipoprotein C-II deficiency",
       "concept": {
         "text": "familial apolipoprotein C-II deficiency"
       }

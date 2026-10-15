@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abducens-nerve-neoplasm",
-          "display": "abducens nerve neoplasm"
+          "code": "disease-by-subcellular-system-affected",
+          "display": "disease by subcellular system affected"
         }
       ],
-      "text": "abducens nerve neoplasm",
+      "text": "disease by subcellular system affected",
       "concept": {
         "text": "disease by subcellular system affected"
       }
