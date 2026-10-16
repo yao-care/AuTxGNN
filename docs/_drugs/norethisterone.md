@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 510
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Norethisterone: predicted new indication Amenorrhoea (evidence level L3). Approved use: Not stated in the Australian registration data. The knowledge graph l…"
 ---
 
 # Norethisterone

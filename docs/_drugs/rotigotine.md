@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 650
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Rotigotine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Restless legs syndrome and Parkinson's disease"
 ---
 
 # Rotigotine

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 91
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Bevacizumab: predicted new indication Epiglottis neoplasm (evidence level L5). Approved use: Not stated in the Australian registration data. The drug knowledge gr…"
 ---
 
 # Bevacizumab

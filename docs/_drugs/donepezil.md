@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Donepezil: predicted new indication Chronic tic disorder (evidence level L5). Approved use: Alzheimer's disease"
 ---
 
 # Donepezil

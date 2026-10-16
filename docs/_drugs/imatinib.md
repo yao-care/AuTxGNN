@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 369
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L4). Approved use: Not stated in the Australian licence data compiled for this report. T…"
 ---
 
 # Imatinib

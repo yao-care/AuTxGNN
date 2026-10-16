@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Estradiol: predicted new indication Symptomatic form of fragile X syndrome in female carrier (evidence level L5). Approved use: Primary ovarian failure, postmenopausal osteoporosis…"
 ---
 
 # Estradiol

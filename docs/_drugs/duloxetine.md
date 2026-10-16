@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 234
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Duloxetine: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Unipolar and major depressive disorder, anxiety disorder…"
 ---
 
 # Duloxetine

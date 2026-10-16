@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Indapamide: predicted new indication Chronic pulmonary heart disease (evidence level L5). Approved use: Hypertension and congestive heart failure (the approved indication te…"
 ---
 
 # Indapamide

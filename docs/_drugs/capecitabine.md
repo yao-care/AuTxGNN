@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 129
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Capecitabine: predicted new indication Top-ranked: gastric adenocarcinoma and proximal polyposis of the stom… (evidence level L5). Approved use: Gastric cancer"
 ---
 
 # Capecitabine

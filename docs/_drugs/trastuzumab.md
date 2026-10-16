@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 748
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Trastuzumab: predicted new indication Normal breast-like subtype of breast carcinoma (evidence level L4). Approved use: HER2-positive breast carcinoma"
 ---
 
 # Trastuzumab

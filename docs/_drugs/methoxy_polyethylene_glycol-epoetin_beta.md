@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Methoxy Polyethylene Glycol-Epoetin Beta: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the data compiled for this report"
 ---
 
 # Methoxy Polyethylene Glycol-Epoetin Beta

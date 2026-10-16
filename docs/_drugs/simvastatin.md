@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 675
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Simvastatin: predicted new indication Familial hypercholesterolaemia (evidence level L1). Approved use: Hyperlipidaemia, including homozygous familial hypercholesterolaemia…"
 ---
 
 # Simvastatin

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 569
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Streptococcal infection, pharyngitis, infectious otitis media…"
 ---
 
 # Phenoxymethylpenicillin

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 713
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Testosterone Undecanoate: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Hypogonadism"
 ---
 
 # Testosterone Undecanoate

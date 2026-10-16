@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 143
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Cefuroxime: predicted new indication Urinary tract infection (disease) (evidence level L3). Approved use: Not stated in the Australian licence data compiled for this report. T…"
 ---
 
 # Cefuroxime

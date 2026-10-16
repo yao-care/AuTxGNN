@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 240
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Efavirenz: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease"
 ---
 
 # Efavirenz

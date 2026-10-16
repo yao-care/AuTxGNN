@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 796
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Zonisamide: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not stated in the Australian registration data (zonisamide is general…"
 ---
 
 # Zonisamide

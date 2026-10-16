@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 161
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Cinacalcet: predicted new indication Multiple endocrine neoplasia (evidence level L3). Approved use: Not recorded in the data compiled for this report . Literature descri…"
 ---
 
 # Cinacalcet

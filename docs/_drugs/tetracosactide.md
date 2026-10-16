@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 715
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Tetracosactide: predicted new indication Top-ranked: familial adrenal hypoplasia with absent pituitary luteini… (evidence level L5). Approved use: Adrenocortical insufficiency"
 ---
 
 # Tetracosactide

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 24
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Acyclovir: predicted new indication Common wart (evidence level L5). Approved use: Herpes simplex infections, herpes zoster, chickenpox, herpes labialis…"
 ---
 
 # Acyclovir

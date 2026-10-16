@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 759
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Ublituximab: predicted new indication Diabetic cataract (evidence level L5). Approved use: Relapsing forms of multiple sclerosis"
 ---
 
 # Ublituximab

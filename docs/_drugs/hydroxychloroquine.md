@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 357
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Hydroxychloroquine: predicted new indication Quinquaud's folliculitis decalvans (evidence level L3). Approved use: Rheumatoid arthritis, systemic lupus erythematosus, malaria…"
 ---
 
 # Hydroxychloroquine

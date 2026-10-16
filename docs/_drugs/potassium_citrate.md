@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 589
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Potassium Citrate: predicted new indication Nephrolithiasis (evidence level L5). Approved use: Potassium deficiency, renal tubular acidosis, acute urate nephropathy"
 ---
 
 # Potassium Citrate

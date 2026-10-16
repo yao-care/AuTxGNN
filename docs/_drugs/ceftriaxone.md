@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 142
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Ceftriaxone: predicted new indication Top-ranked: polyclonal hyperviscosity syndrome (L5… (evidence level L5). Approved use: Bacterial infections . The ARTG entry has no indication text recorded"
 ---
 
 # Ceftriaxone

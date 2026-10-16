@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 393
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 ---
 
 # Isoniazid

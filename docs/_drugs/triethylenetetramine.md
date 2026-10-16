@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 754
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Triethylenetetramine: predicted new indication Thyroid gland undifferentiated (anaplastic) carcinoma (evidence level L5). Approved use: Wilson disease . No approved indication text is recorded for th…"
 ---
 
 # Triethylenetetramine

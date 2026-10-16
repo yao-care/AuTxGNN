@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 580
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Pizotifen: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the data compiled for this report (the Australian lis…"
 ---
 
 # Pizotifen

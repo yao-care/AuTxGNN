@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 579
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Piroxicam: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome . Most plau… (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, arthropathy"
 ---
 
 # Piroxicam

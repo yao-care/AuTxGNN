@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 108
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Brimonidine: predicted new indication Papillary conjunctivitis (evidence level L4). Approved use: Open-angle glaucoma, ocular hypertension"
 ---
 
 # Brimonidine

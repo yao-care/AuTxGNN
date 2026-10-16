@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Lercanidipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 ---
 
 # Lercanidipine

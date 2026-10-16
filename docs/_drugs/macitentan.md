@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Macitentan: predicted new indication Pulmonary arterial hypertension associated with congenital heart dise… (evidence level L5). Approved use: Pulmonary arterial hypertension"
 ---
 
 # Macitentan

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Galcanezumab: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Migraine (prevention). No approved indication text is held in the Aus…"
 ---
 
 # Galcanezumab

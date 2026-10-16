@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 60
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Armodafinil: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Narcolepsy (excessive sleepiness)"
 ---
 
 # Armodafinil

@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 38
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Aluminium: predicted new indication Peptic ulcer disease (evidence level L3). Approved use: Not specified in the data compiled for this report"
 ---
 
 # Aluminium

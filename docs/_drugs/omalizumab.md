@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 526
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Omalizumab: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Asthma, intrinsic asthma, allergic asthma, idiopathic urticaria"
 ---
 
 # Omalizumab

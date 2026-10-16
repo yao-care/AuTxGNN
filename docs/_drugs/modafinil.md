@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 485
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Modafinil: predicted new indication Hypersomnia (disease). Note: the rank 1 TxGNN prediction is insomnia… (evidence level L1). Approved use: Narcolepsy"
 ---
 
 # Modafinil

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Griseofulvin: predicted new indication Myiasis (evidence level L5). Approved use: Dermatophyte infections (tinea pedis, tinea corporis, tinea unguium…"
 ---
 
 # Griseofulvin

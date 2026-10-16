@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 436
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Loratadine: predicted new indication Allergic urticaria (evidence level L3). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 ---
 
 # Loratadine

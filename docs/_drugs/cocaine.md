@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Cocaine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the ARTG data"
 ---
 
 # Cocaine

@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 451
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Mechlorethamine: predicted new indication Lymph node cancer (evidence level L3). Approved use: Mycosis fungoides and other primary cutaneous T-cell lymphomas"
 ---
 
 # Mechlorethamine

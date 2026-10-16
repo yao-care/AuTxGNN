@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 712
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Testosterone: predicted new indication Polysomy of X chromosome (evidence level L5). Approved use: Hypogonadotropic hypogonadism and related pituitary hormone deficienc…"
 ---
 
 # Testosterone

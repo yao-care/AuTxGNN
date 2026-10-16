@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 133
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Carbimazole: predicted new indication Neonatal thyrotoxicosis (evidence level L3). Approved use: Hyperthyroidism, Graves' disease, thyrotoxicosis"
 ---
 
 # Carbimazole

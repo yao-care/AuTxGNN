@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Flutamide: predicted new indication Top-ranked: prostate cancer/brain cancer susceptibility (Hold… (evidence level L5). Approved use: Prostate cancer"
 ---
 
 # Flutamide

@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 630
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Ribociclib: predicted new indication Myeloid leukaemia (evidence level L4). Approved use: HR+/HER2- breast cancer"
 ---
 
 # Ribociclib
