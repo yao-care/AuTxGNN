@@ -38,7 +38,7 @@ This page combines the AI-predicted indications for Acetylsalicylic acid with th
 <li>Raynaud disease (98.7%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/acetylsalicylic_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/acetylsalicylic-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

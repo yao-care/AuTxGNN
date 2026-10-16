@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Risedronic acid with the lat
 <li>Paget disease of bone 2, early-onset (94.4%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/risedronic_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/risedronic-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

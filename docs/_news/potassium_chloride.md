@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Potassium chloride with the 
 <li>stomach disease (87.3%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/potassium_chloride/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/potassium-chloride/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

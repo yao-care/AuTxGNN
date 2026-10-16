@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Sodium citrate with the late
 <li>intestinal obstruction (98.9%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/sodium_citrate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/sodium-citrate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

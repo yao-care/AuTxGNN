@@ -38,7 +38,7 @@ This page combines the AI-predicted indications for Interferon beta-1b with the 
 <li>peliosis hepatis (97.7%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/interferon_beta-1b/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/interferon-beta-1b/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

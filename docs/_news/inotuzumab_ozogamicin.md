@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Inotuzumab ozogamicin with t
 <li>infectious bovine rhinotracheitis (89.7%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/inotuzumab_ozogamicin/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/inotuzumab-ozogamicin/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

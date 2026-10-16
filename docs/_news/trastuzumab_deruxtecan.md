@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Trastuzumab deruxtecan with 
 <li>tumor of testis and paratestis (95.8%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/trastuzumab_deruxtecan/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/trastuzumab-deruxtecan/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

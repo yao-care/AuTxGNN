@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Choriogonadotropin alfa with
 <li>sinoatrial node disease (95.5%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/choriogonadotropin_alfa/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/choriogonadotropin-alfa/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

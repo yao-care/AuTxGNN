@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Propylene glycol with the la
 <li>tetanic cataract (99.5%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/propylene_glycol/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/propylene-glycol/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

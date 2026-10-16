@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Lutropin alfa with the lates
 <li>duodenogastric reflux (94.6%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/lutropin_alfa/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/lutropin-alfa/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

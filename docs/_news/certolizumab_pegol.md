@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Certolizumab pegol with the 
 <li>tenosynovitis (95.7%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/certolizumab_pegol/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/certolizumab-pegol/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

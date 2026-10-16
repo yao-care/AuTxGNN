@@ -38,7 +38,7 @@ This page combines the AI-predicted indications for Citric acid with the latest 
 <li>ulcerative blepharitis (98.7%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/citric_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/citric-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

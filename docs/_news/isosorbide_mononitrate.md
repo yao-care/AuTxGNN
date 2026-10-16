@@ -38,7 +38,7 @@ This page combines the AI-predicted indications for Isosorbide mononitrate with 
 <li>pulmonary arterial hypertension (99.9%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/isosorbide_mononitrate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/isosorbide-mononitrate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

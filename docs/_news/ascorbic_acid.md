@@ -39,7 +39,7 @@ This page combines the AI-predicted indications for Ascorbic acid with the lates
 <li>disease by subcellular system affected (99.5%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/ascorbic_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/ascorbic-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

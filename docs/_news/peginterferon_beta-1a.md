@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Peginterferon beta-1a with t
 <li>pericardium disease (88.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/peginterferon_beta-1a/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/peginterferon-beta-1a/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

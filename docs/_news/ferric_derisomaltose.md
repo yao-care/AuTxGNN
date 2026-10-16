@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Ferric derisomaltose with th
 <li>hydroa vacciniforme, familial (89.2%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/ferric_derisomaltose/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/ferric-derisomaltose/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

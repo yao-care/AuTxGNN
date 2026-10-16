@@ -38,7 +38,7 @@ This page combines the AI-predicted indications for Dimethyl fumarate with the l
 <li>nasal cavity inverting papilloma (89.1%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/dimethyl_fumarate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/dimethyl-fumarate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

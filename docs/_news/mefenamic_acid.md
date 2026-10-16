@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Mefenamic acid with the late
 <li>acromesomelic dysplasia, Hunter-Thompson type (98.8%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/mefenamic_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/mefenamic-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

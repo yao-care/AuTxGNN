@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Lanthanum carbonate with the
 <li>pharyngitis (93.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/lanthanum_carbonate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/lanthanum-carbonate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

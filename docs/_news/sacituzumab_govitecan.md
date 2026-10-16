@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Sacituzumab govitecan with t
 <li>tetanic cataract (98.4%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/sacituzumab_govitecan/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/sacituzumab-govitecan/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

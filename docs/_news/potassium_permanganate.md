@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Potassium permanganate with 
 <li>diffuse alopecia areata (95.9%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/potassium_permanganate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/potassium-permanganate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

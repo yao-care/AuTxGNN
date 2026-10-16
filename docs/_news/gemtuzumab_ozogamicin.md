@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Gemtuzumab ozogamicin with t
 <li>acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent (93.9%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/gemtuzumab_ozogamicin/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/gemtuzumab-ozogamicin/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

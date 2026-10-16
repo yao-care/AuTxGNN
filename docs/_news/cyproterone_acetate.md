@@ -38,7 +38,7 @@ This page combines the AI-predicted indications for Cyproterone acetate with the
 <li>thrombophilia (99.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/cyproterone_acetate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/cyproterone-acetate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

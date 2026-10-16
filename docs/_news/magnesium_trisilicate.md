@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Magnesium trisilicate with t
 <li>hiatus hernia (disease) (88.2%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/magnesium_trisilicate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/magnesium-trisilicate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

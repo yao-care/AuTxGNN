@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Tranexamic acid with the lat
 <li>glaucoma with elevated episcleral venous pressure (66.8%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/tranexamic_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/tranexamic-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

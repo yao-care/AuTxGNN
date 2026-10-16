@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Potassium bicarbonate with t
 <li>duodenal obstruction (67.1%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/potassium_bicarbonate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/potassium-bicarbonate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

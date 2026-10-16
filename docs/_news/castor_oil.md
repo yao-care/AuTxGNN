@@ -38,7 +38,7 @@ This page combines the AI-predicted indications for Castor oil with the latest h
 <li>pulmonary hypertension, primary, autosomal recessive (89.8%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/castor_oil/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/castor-oil/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

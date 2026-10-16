@@ -38,7 +38,7 @@ This page combines the AI-predicted indications for Botulinum toxin type A with 
 <li>autosomal recessive Parkinson disease (73.3%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/botulinum_toxin_type_a/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/botulinum-toxin-type-a/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

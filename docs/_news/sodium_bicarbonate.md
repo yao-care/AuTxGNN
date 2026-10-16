@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Sodium bicarbonate with the 
 <li>esotropia (94.4%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/sodium_bicarbonate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/sodium-bicarbonate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

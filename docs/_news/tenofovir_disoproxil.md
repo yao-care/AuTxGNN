@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Tenofovir disoproxil with th
 <li>AIDS related complex (94.6%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/tenofovir_disoproxil/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/tenofovir-disoproxil/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

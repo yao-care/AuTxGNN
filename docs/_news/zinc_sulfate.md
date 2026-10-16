@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Zinc sulfate with the latest
 <li>acne (disease) (94.8%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/zinc_sulfate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/zinc-sulfate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

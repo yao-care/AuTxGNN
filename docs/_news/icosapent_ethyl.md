@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Icosapent ethyl with the lat
 <li>posteroinferior myocardial infarction (98.1%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/icosapent_ethyl/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/icosapent-ethyl/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

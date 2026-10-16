@@ -38,7 +38,7 @@ This page combines the AI-predicted indications for Interferon gamma-1b with the
 <li>interventricular septum aneurysm (100.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/interferon_gamma-1b/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/interferon-gamma-1b/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

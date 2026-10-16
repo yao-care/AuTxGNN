@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Ursodeoxycholic acid with th
 <li>hypolipoproteinemia (disease) (96.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/ursodeoxycholic_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/ursodeoxycholic-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

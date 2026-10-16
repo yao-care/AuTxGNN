@@ -38,7 +38,7 @@ This page combines the AI-predicted indications for Diroximel fumarate with the 
 <li>craniostenosis cataract (100.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/diroximel_fumarate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/diroximel-fumarate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

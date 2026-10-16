@@ -38,7 +38,7 @@ This page combines the AI-predicted indications for Carbamide peroxide with the 
 <li>infectious otitis media (91.8%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/carbamide_peroxide/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/carbamide-peroxide/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

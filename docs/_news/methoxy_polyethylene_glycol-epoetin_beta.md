@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Methoxy polyethylene glycol-
 <li>HER2 positive breast carcinoma (98.5%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/methoxy_polyethylene_glycol-epoetin_beta/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/methoxy-polyethylene-glycol-epoetin-beta/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)
