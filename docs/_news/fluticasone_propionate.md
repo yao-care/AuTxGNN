@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Fluticasone propionate with 
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/fluticasone_propionate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/fluticasone-propionate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

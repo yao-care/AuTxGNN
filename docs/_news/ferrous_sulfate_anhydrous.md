@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Ferrous sulfate anhydrous wi
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/ferrous_sulfate_anhydrous/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/ferrous-sulfate-anhydrous/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

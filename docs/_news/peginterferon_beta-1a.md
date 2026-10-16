@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Peginterferon beta-1a with t
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/peginterferon_beta-1a/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/peginterferon-beta-1a/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

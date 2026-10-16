@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Eucalyptus oil with the late
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/eucalyptus_oil/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/eucalyptus-oil/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

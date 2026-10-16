@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Potassium permanganate with 
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/potassium_permanganate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/potassium-permanganate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Onasemnogene abeparvovec wit
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/onasemnogene_abeparvovec/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/onasemnogene-abeparvovec/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Thyrotropin alfa with the la
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/thyrotropin_alfa/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/thyrotropin-alfa/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

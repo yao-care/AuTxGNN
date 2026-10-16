@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Zoledronic acid with the lat
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/zoledronic_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/zoledronic-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Iron sucrose with the latest
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/iron_sucrose/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/iron-sucrose/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

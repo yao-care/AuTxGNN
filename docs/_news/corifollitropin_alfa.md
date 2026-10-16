@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Corifollitropin alfa with th
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/corifollitropin_alfa/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/corifollitropin-alfa/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

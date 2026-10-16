@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Choriogonadotropin alfa with
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/choriogonadotropin_alfa/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/choriogonadotropin-alfa/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Icosapent ethyl with the lat
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/icosapent_ethyl/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/icosapent-ethyl/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

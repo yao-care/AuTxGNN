@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Certolizumab pegol with the 
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/certolizumab_pegol/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/certolizumab-pegol/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

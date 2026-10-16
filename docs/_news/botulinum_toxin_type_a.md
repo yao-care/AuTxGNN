@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Botulinum toxin type A with 
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/botulinum_toxin_type_a/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/botulinum-toxin-type-a/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

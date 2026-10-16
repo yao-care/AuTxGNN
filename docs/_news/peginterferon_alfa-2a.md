@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Peginterferon alfa-2a with t
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/peginterferon_alfa-2a/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/peginterferon-alfa-2a/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)
