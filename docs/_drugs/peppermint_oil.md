@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Peppermint Oil: predicted new indication Top-ranked: leprosy . Best-evidenced: cardiovascular disease (evidence level L5). Approved use: Not specified in the data compiled for this report"
+monitor_inn: "Peppermint oil"
+predicted_indications: ["leprosy", "pneumocystosis", "coronary artery disease", "myocardial ischemia", "echinococcus granulosus infectious disease", "polyp of vocal cord", "uterine polyp", "polyp of middle ear", "cardiovascular disease", "polyp of frontal sinus"]
 ---
 
 # Peppermint Oil

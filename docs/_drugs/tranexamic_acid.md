@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Tranexamic Acid: predicted new indication Amenorrhoea (evidence level L5). Approved use: Endometriosis . The Australian ARTG entry has no approved indication…"
+monitor_inn: "Tranexamic acid"
+predicted_indications: ["amenorrhea (disease)", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "hypospadias 3, autosomal", "sella turcica, bridged", "triphalangeal thumb, Nonopposable", "hypercarotenemia and vitamin A deficiency, autosomal recessive", "hyperparathyroidism, primary, caused by water clear cell hyperplasia", "glaucoma with elevated episcleral venous pressure"]
 ---
 
 # Tranexamic Acid

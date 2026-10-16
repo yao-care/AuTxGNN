@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Nusinersen: predicted new indication Fallopian tube serous adenofibroma (evidence level L5). Approved use: Spinal muscular atrophy"
+monitor_inn: "Nusinersen"
+predicted_indications: ["fallopian tube serous adenofibroma", "pancreatic vasoactive intestinal peptide producing tumor", "salpingitis", "external ear squamous cell carcinoma", "isolated mesenteric vein thrombosis", "isolated splenic vein thrombosis", "epithelioid cell synovial sarcoma", "cellular ependymoma", "biphasic synovial sarcoma", "thymus squamous cell carcinoma"]
 ---
 
 # Nusinersen

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Povidone-Iodine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Not stated in the Australian licence data compiled for this report. T…"
+monitor_inn: "Povidone-iodine"
+predicted_indications: ["Plasmodium falciparum malaria", "peptic esophagitis", "peritonitis", "Peyronie disease", "malaria", "pneumonia", "Camurati-Engelmann disease", "appendicitis", "aortic valve insufficiency", "active peptic ulcer disease"]
 ---
 
 # Povidone-Iodine

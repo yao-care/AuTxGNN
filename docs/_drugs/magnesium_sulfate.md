@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Magnesium Sulfate: predicted new indication Preeclampsia/eclampsia (evidence level L5). Approved use: Constipation disorder"
+monitor_inn: "Magnesium sulfate"
+predicted_indications: ["preeclampsia/eclampsia", "toxemia of pregnancy", "thrombotic disease"]
 ---
 
 # Magnesium Sulfate

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Benzocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not stated in the ARTG data compiled for this report. Knowledge-graph…"
+monitor_inn: "Benzocaine"
+predicted_indications: ["papillary conjunctivitis", "blepharoconjunctivitis", "rosacea conjunctivitis", "dyspepsia", "ulcerative blepharitis", "parasitic eyelid infestation", "cutaneous candidiasis", "noninfectious dermatoses of eyelid", "nasal cavity disease", "acute laryngopharyngitis"]
 ---
 
 # Benzocaine

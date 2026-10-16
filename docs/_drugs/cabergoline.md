@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Cabergoline: predicted new indication Pituitary cancer (evidence level L5). Approved use: Hyperprolactinaemia and prolactin-producing pituitary tumour"
+monitor_inn: "Cabergoline"
+predicted_indications: ["pituitary adenocarcinoma (disease)", "progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma", "progeroid syndrome, Petty type", "psychogenic movement disorders", "kleptomania", "primary orthostatic tremor", "multiple fibroadenoma of the breast"]
 ---
 
 # Cabergoline

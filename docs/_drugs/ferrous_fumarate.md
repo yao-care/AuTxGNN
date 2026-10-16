@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Iron deficiency anaemia and related anaemias (including anaemia of pr…"
+monitor_inn: "Ferrous fumarate"
+predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "esophageal ulcer", "Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "injury", "perinatal disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "disease by subcellular system affected"]
 ---
 
 # Ferrous Fumarate

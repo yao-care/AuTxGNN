@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ivosidenib: predicted new indication Bulbar polio (evidence level L5). Approved use: Acute myeloid leukaemia (including several AML subtypes and therapy-r…"
+monitor_inn: "Ivosidenib"
+predicted_indications: ["bulbar polio", "acute myeloid leukemia and myelodysplastic syndromes related to radiation", "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent", "5q35 microduplication syndrome", "neuralgic amyotrophy", "amyotrophic neuralgia", "myelodysplastic/myeloproliferative disease", "acute panmyelosis with myelofibrosis", "bilineal acute myeloid leukemia", "familial thrombocytosis"]
 ---
 
 # Ivosidenib

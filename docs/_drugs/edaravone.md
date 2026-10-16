@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Edaravone: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Ischaemic stroke and amyotrophic lateral sclerosis"
+monitor_inn: "Edaravone"
+predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "bilateral parasagittal parieto-occipital polymicrogyria", "antithrombin deficiency type 2", "axial spondylometaphyseal dysplasia", "amyotrophic lateral sclerosis, susceptibility to", "amyotrohpic lateral sclerosis type 22", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "Mills syndrome", "lower motor neuron syndrome with late-adult onset"]
 ---
 
 # Edaravone

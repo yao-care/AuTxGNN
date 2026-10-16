@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Valganciclovir: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Not stated in the Australian licence data compiled for this report (v…"
+monitor_inn: "Valganciclovir"
+predicted_indications: ["rheumatoid arthritis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "laryngotracheitis", "osteoarthritis susceptibility", "trigeminal autonomic cephalalgia", "headache disorder", "tendinitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 ---
 
 # Valganciclovir

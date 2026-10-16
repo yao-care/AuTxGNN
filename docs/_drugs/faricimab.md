@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Faricimab: predicted new indication Diabetic retinopathy (evidence level L1). Approved use: Not available in the data compiled for this report . Literature descr…"
+monitor_inn: "Faricimab"
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "drug-induced osteoporosis", "esotropia", "severe nonproliferative diabetic retinopathy", "HER2 positive breast carcinoma", "diabetic retinopathy", "respiratory syncytial virus infectious disease", "fetal and neonatal alloimmune thrombocytopenia"]
 ---
 
 # Faricimab

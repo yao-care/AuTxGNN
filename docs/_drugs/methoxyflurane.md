@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Methoxyflurane: predicted new indication Anxiety (evidence level L4). Approved use: Not stated in the data compiled for this report"
+monitor_inn: "Methoxyflurane"
+predicted_indications: ["insomnia (disease)", "migraine disorder", "migraine with brainstem aura", "dysthymic disorder", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "neurotic disorder", "ulerythema ophryogenesis", "anxiety disorder", "anxiety"]
 ---
 
 # Methoxyflurane

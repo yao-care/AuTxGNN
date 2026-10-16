@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Castor Oil: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not available"
+monitor_inn: "Castor oil"
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "open-angle glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "pulmonary arterial hypertension", "pulmonary hypertension, primary, autosomal recessive"]
 ---
 
 # Castor Oil

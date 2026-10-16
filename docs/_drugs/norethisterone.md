@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Norethisterone: predicted new indication Amenorrhoea (evidence level L3). Approved use: Not stated in the Australian registration data. The knowledge graph l…"
+monitor_inn: "Norethisterone"
+predicted_indications: ["amenorrhea (disease)", "symptomatic form of fragile X syndrome in female carrier", "zinc, elevated plasma", "ovarian remnant syndrome", "anovulation", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 12", "luteoma of pregnancy", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 5"]
 ---
 
 # Norethisterone

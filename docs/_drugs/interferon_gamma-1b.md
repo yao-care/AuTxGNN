@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Interferon Gamma-1B: predicted new indication Heart disease (evidence level L5). Approved use: Not stated in the data compiled for this report"
+monitor_inn: "Interferon gamma-1b"
+predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofacial clefting syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "Laubry-Pezzi syndrome", "partial deletion of the long arm of chromosome 22", "interventricular septum aneurysm"]
 ---
 
 # Interferon Gamma-1B

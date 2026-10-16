@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Domperidone: predicted new indication Headache disorder (migraine-associated symptoms) (evidence level L4). Approved use: Not stated in the ARTG data compiled for this report (general use: dy…"
+monitor_inn: "Domperidone"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Plasmodium falciparum malaria", "common cold", "headache disorder", "allergic urticaria", "trigeminal autonomic cephalalgia", "collagenopathy", "renin-angiotensin-aldosterone system-blocker-induced angioedema", "lymphocytic hypereosinophilic syndrome", "hypertrichosis (disease)"]
 ---
 
 # Domperidone

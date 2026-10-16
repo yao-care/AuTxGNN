@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Triethylenetetramine: predicted new indication Thyroid gland undifferentiated (anaplastic) carcinoma (evidence level L5). Approved use: Wilson disease . No approved indication text is recorded for th…"
+monitor_inn: "Triethylenetetramine"
+predicted_indications: ["thyroid gland undifferentiated (anaplastic) carcinoma", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "hepatic porphyria", "disorder of tyrosine metabolism", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma"]
 ---
 
 # Triethylenetetramine

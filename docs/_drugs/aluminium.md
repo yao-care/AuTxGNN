@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Aluminium: predicted new indication Peptic ulcer disease (evidence level L3). Approved use: Not specified in the data compiled for this report"
+monitor_inn: "Aluminium"
+predicted_indications: ["peptic ulcer disease", "gastroduodenitis", "dermatitis", "acrodermatitis chronica atrophicans", "esotropia", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial"]
 ---
 
 # Aluminium

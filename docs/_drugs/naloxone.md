@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Naloxone: predicted new indication Top-ranked: continuous spikes and waves during sleep. Best-evidenced:… (evidence level L5). Approved use: Opiate dependence, substance abuse/dependence, morphine de…"
+monitor_inn: "Naloxone"
+predicted_indications: ["continuous spikes and waves during sleep", "lissencephaly with cerebellar hypoplasia", "progressive encephalopathy with leukodystrophy due to DECR deficiency", "schizophreniform disorder", "nasal cavity disease", "psychotic disorder", "hypoglycemia", "acute pulmonary heart disease", "drug-induced dyskinesia", "acute laryngopharyngitis"]
 ---
 
 # Naloxone

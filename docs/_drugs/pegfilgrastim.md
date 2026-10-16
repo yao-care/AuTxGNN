@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Pegfilgrastim: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not stated in the data compiled for this report"
+monitor_inn: "Pegfilgrastim"
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "primary release disorder of platelets", "diabetic cataract", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "drug-induced osteoporosis", "senile cataract", "cortical cataract", "nuclear senile cataract"]
 ---
 
 # Pegfilgrastim

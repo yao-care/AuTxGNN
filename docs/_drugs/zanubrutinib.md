@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Zanubrutinib: predicted new indication Myeloid leukaemia (evidence level L5). Approved use: Mantle cell lymphoma, B-cell neoplasm, lymphosarcoma"
+monitor_inn: "Zanubrutinib"
+predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "lymphoma, non-Hodgkin, familial", "acute lymphoblastic/lymphocytic leukemia"]
 ---
 
 # Zanubrutinib

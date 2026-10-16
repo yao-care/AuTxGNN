@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Palonosetron: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the data compiled for this report (the registered Aus…"
+monitor_inn: "Palonosetron"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "headache disorder", "trigeminal autonomic cephalalgia", "open-angle glaucoma", "sciatic neuropathy", "primary hereditary glaucoma"]
 ---
 
 # Palonosetron

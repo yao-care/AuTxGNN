@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Fenofibrate: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L4). Approved use: Hypertriglyceridaemia, hyperlipidaemia, familial hyperlipidaemia…"
+monitor_inn: "Fenofibrate"
+predicted_indications: ["homozygous familial hypercholesterolemia", "hyperlipoproteinemia", "familial hypercholesterolemia", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "hypercholesterolemia, autosomal dominant", "hypolipoproteinemia (disease)", "hyperalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Fenofibrate

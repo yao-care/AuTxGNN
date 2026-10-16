@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Lincomycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Pneumococcal, staphylococcal and streptococcal infections"
+monitor_inn: "Lincomycin"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "urinary tract infection (disease)"]
 ---
 
 # Lincomycin

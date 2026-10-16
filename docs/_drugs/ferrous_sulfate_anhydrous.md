@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anae… (evidence level L5). Approved use: Iron deficiency anaemia and related anaem…"
+monitor_inn: "Ferrous sulfate anhydrous"
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "non-syndromic esophageal malformation", "esophageal disease", "injury", "perinatal disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "radiation or chemically induced disorder"]
 ---
 
 # Ferrous Sulfate Anhydrous

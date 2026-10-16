@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Baclofen: predicted new indication Attention deficit hyperactivity disorder (evidence level L5). Approved use: Not stated in the ARTG data compiled for this report (baclofen is a w…"
+monitor_inn: "Baclofen"
+predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence", "attention deficit hyperactivity disorder, inattentive type", "myofascial pain syndrome", "faciodigitogenital syndrome", "trigeminal nerve neoplasm", "methemoglobinemia", "chondromyxoid fibroma", "methemoglobinemia, alpha type", "specific developmental disorder"]
 ---
 
 # Baclofen

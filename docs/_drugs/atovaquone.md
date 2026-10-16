@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Atovaquone: predicted new indication Toxoplasmosis (evidence level L2). Approved use: Malaria (including Plasmodium falciparum malaria) and pneumocystosis"
+monitor_inn: "Atovaquone"
+predicted_indications: ["leprosy", "nocardiosis", "facial nerve palsy due to herpes zoster infection", "acne (disease)", "toxoplasmosis", "ocular toxoplasmosis", "creeping myiasis", "wound myiasis", "furuncular myiasis", "myiasis"]
 ---
 
 # Atovaquone

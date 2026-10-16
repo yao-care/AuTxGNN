@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Dornase Alfa: predicted new indication Ethmoid sinusitis (evidence level L5). Approved use: Cystic fibrosis"
+monitor_inn: "Dornase alfa"
+predicted_indications: ["ovarian melanoma", "eumycotic mycetoma", "ethmoid sinusitis", "equine infectious anemia", "epilepsy with generalized tonic-clonic seizures", "epiglottitis", "epidural abscess", "epidemic pleurodynia", "ephemeral fever", "enzootic pneumonia of calves"]
 ---
 
 # Dornase Alfa

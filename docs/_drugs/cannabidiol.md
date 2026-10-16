@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Cannabidiol: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Lennox-Gastaut syndrome, Dravet syndrome…"
+monitor_inn: "Cannabidiol"
+predicted_indications: ["restless legs syndrome", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "amyotrophic lateral sclerosis", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "episodic kinesigenic dyskinesia", "Mills syndrome", "amyotrophic lateral sclerosis, susceptibility to", "lower motor neuron syndrome with late-adult onset", "lethal arthrogryposis-anterior horn cell disease syndrome"]
 ---
 
 # Cannabidiol

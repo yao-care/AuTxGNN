@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Bictegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection, AIDS"
+monitor_inn: "bictegravir"
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Bictegravir

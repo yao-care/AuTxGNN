@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Eucalyptus Oil: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Eucalyptus oil"
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthritis susceptibility", "hepatic porphyria", "gout", "pseudoachondroplasia", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "primitive portal vein thrombosis"]
 ---
 
 # Eucalyptus Oil

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Decitabine: predicted new indication Refractory cytopenia of childhood (evidence level L5). Approved use: Myeloid leukaemia…"
+monitor_inn: "decitabine"
+predicted_indications: ["refractory cytopenia of childhood"]
 ---
 
 # Decitabine

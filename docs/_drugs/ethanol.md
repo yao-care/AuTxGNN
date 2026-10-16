@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ethanol: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
+monitor_inn: "Ethanol"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "insomnia (disease)", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "sciatic neuropathy"]
 ---
 
 # Ethanol

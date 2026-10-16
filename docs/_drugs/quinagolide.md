@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Quinagolide: predicted new indication Insomnia (evidence level L5). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Quinagolide"
+predicted_indications: ["insomnia (disease)", "anxiety", "sleep disorder, initiating and maintaining sleep", "manic bipolar affective disorder", "primary hereditary glaucoma", "open-angle glaucoma", "common cold", "retinal dystrophy with or without extraocular anomalies", "alcohol withdrawal delirium", "schizophrenia"]
 ---
 
 # Quinagolide

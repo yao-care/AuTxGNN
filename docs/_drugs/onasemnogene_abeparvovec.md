@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Onasemnogene Abeparvovec: predicted new indication Bronchitis (evidence level L5). Approved use: Not stated in the Australian registration data compiled for this repo…"
+monitor_inn: "Onasemnogene abeparvovec"
+predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "bronchial neoplasm (disease)", "non-seminomatous lesion", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "rectosigmoid junction neoplasm", "tumor of testis and paratestis"]
 ---
 
 # Onasemnogene Abeparvovec

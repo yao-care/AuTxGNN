@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Sodium Bicarbonate: predicted new indication Bronchitis (evidence level L5). Approved use: Not available"
+monitor_inn: "Sodium bicarbonate"
+predicted_indications: ["bronchitis", "irritable bowel syndrome", "open-angle glaucoma", "hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "anaphylaxis", "hyperthyroxinemia", "food-dependent exercise-induced anaphylaxis", "esotropia"]
 ---
 
 # Sodium Bicarbonate

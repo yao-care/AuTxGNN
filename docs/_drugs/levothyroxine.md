@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Levothyroxine: predicted new indication Nodular goitre (evidence level L2). Approved use: Hypothyroidism (the Australian approved indication text is not availa…"
+monitor_inn: "Levothyroxine"
+predicted_indications: ["endemic goiter", "renal hypodysplasia/aplasia", "nodular goiter (disease)", "bilateral renal agenesis", "dyshormonogenic goiter", "nontoxic goiter", "substernal goiter", "lingual goiter", "Potter sequence", "Carney complex"]
 ---
 
 # Levothyroxine

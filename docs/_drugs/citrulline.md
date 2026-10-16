@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Citrulline: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not available"
+monitor_inn: "Citrulline"
+predicted_indications: ["multiple endocrine neoplasia", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "dyspepsia", "benign mammary dysplasia", "exocrine pancreatic insufficiency", "pregnancy associated osteoporosis", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "succinyl-CoA:3-ketoacid CoA transferase deficiency"]
 ---
 
 # Citrulline

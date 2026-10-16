@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Bivalirudin: predicted new indication Primary release disorder of platelets (evidence level L4). Approved use: Not stated in the ARTG data compiled for this report (anticoagulant…"
+monitor_inn: "Bivalirudin"
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "rheumatoid arthritis", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "Scott syndrome", "inherited thrombophilia", "platelet-type bleeding disorder"]
 ---
 
 # Bivalirudin

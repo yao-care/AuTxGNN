@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Eptinezumab: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder (migraine prevention). The Australian licence recor…"
+monitor_inn: "Eptinezumab"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "amenorrhea (disease)", "sciatic neuropathy", "hemorrhagic disease of newborn"]
 ---
 
 # Eptinezumab

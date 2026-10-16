@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Captopril: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertensive disorder, hypertension, diabetic nephropathy"
+monitor_inn: "Captopril"
+predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "chronic pulmonary heart disease", "intracerebral hemorrhage", "chronic renal failure syndrome"]
 ---
 
 # Captopril

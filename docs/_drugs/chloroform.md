@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Chloroform: predicted new indication Insomnia (evidence level L5). Approved use: Not recorded in the data compiled for this report (historically a gen…"
+monitor_inn: "Chloroform"
+predicted_indications: ["insomnia (disease)", "anxiety", "sleep disorder, initiating and maintaining sleep", "irritable bowel syndrome", "enterocolitis (disease)", "Jeune syndrome situs inversus", "bronchitis", "orofacial clefting syndrome", "partial deletion of the long arm of chromosome 22", "interventricular septum aneurysm"]
 ---
 
 # Chloroform

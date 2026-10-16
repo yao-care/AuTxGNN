@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ceftriaxone: predicted new indication Top-ranked: polyclonal hyperviscosity syndrome (L5… (evidence level L5). Approved use: Bacterial infections . The ARTG entry has no indication text recorded"
+monitor_inn: "Ceftriaxone"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media", "premalignant hematological system disease", "middle ear disease", "otosalpingitis"]
 ---
 
 # Ceftriaxone

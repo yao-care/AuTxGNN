@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Hydromorphone: predicted new indication Pharyngitis (evidence level L5). Approved use: Common cold, nasopharyngitis"
+monitor_inn: "Hydromorphone"
+predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
 ---
 
 # Hydromorphone

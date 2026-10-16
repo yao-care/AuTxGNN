@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Amphotericin B: predicted new indication Paranasal sinus neoplasm (evidence level L4). Approved use: Candidiasis (cutaneous, oral, oesophageal) and other infections"
+monitor_inn: "Amphotericin B"
+predicted_indications: ["paranasal sinus neoplasm (disease)", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "bacterial pneumonia", "meningococcal infection", "endocardial fibroelastosis", "punctate epithelial keratoconjunctivitis", "bacterial arthritis", "endocarditis", "pneumocystosis"]
 ---
 
 # Amphotericin B

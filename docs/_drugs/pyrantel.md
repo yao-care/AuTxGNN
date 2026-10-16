@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Pyrantel: predicted new indication Toxocariasis (the highest-scoring prediction… (evidence level L5). Approved use: Enterobiasis, ascaridiasis"
+monitor_inn: "Pyrantel"
+predicted_indications: ["papillary conjunctivitis", "toxocariasis", "toxascariasis", "anisakiasis", "allergic urticaria", "atopic conjunctivitis", "cutaneous larva migrans", "Sorsby's fundus dystrophy", "capillariasis", "rosacea conjunctivitis"]
 ---
 
 # Pyrantel

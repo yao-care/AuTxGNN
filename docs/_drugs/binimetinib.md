@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Binimetinib: predicted new indication Non-cutaneous melanoma (evidence level L5). Approved use: Metastatic melanoma"
+monitor_inn: "Binimetinib"
+predicted_indications: ["choroideremia", "non-cutaneous melanoma", "epithelioid cell melanoma", "eyelid melanoma", "scrotum melanoma", "superficial spreading melanoma", "malignant melanoma of the mucosa", "CDK4 linked melanoma", "amelanotic skin melanoma", "lentigo maligna melanoma"]
 ---
 
 # Binimetinib

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ranitidine: predicted new indication Active peptic ulcer disease (evidence level L5). Approved use: Gastric ulcer, duodenal ulcer, gastro-oesophageal reflux disease…"
+monitor_inn: "Ranitidine"
+predicted_indications: ["active peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation", "duodenogastric reflux", "duodenal obstruction", "gastroduodenitis", "peptic ulcer disease", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 ---
 
 # Ranitidine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Phenoxybenzamine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Phaeochromocytoma (adrenal gland and sympathetic paraganglioma) and r…"
+monitor_inn: "Phenoxybenzamine"
+predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "respiratory failure", "hypotrichosis simplex of the scalp", "subarachnoid hemorrhage (disease)", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "congenital hypotrichosis milia", "visceral calciphylaxis", "angiodysplasia of stomach"]
 ---
 
 # Phenoxybenzamine

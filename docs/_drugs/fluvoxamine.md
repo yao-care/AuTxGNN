@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Fluvoxamine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Social phobia, phobic disorder, obsessive-compulsive disorder"
+monitor_inn: "Fluvoxamine"
+predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
 ---
 
 # Fluvoxamine

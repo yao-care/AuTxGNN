@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ribociclib: predicted new indication Myeloid leukaemia (evidence level L4). Approved use: HR+/HER2- breast cancer"
+monitor_inn: "Ribociclib"
+predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "female breast carcinoma", "multiple endocrine neoplasia", "HIV infectious disease", "heart neoplasm"]
 ---
 
 # Ribociclib

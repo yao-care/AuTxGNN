@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Tioguanine: predicted new indication Chronic myelogenous leukaemia, BCR-ABL1 positive (evidence level L4). Approved use: Acute myeloid leukaemia (and related myeloid leukaemia subtypes). The…"
+monitor_inn: "Tioguanine"
+predicted_indications: ["chronic myelogenous leukemia, BCR-ABL1 positive", "upper aerodigestive tract neoplasm", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "osteoclastic giant cell tumor of pancreas", "solid pseudopapillary carcinoma of pancreas"]
 ---
 
 # Tioguanine

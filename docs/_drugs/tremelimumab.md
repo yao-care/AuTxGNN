@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Tremelimumab: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not stated in the ARTG data compiled for this report. Published pharm…"
+monitor_inn: "Tremelimumab"
+predicted_indications: ["diabetic cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "immature cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetic retinopathy"]
 ---
 
 # Tremelimumab

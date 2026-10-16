@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ublituximab: predicted new indication Diabetic cataract (evidence level L5). Approved use: Relapsing forms of multiple sclerosis"
+monitor_inn: "Ublituximab"
+predicted_indications: ["diabetic cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetic retinopathy"]
 ---
 
 # Ublituximab

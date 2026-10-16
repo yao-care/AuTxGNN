@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Teduglutide: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Short bowel syndrome"
+monitor_inn: "Teduglutide"
+predicted_indications: ["papillary conjunctivitis", "gastroduodenitis", "peptic ulcer disease", "nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria", "pharyngitis", "chronic intestinal vascular insufficiency", "isolated mesenteric vein thrombosis", "atopic conjunctivitis"]
 ---
 
 # Teduglutide

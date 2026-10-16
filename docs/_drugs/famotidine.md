@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Famotidine: predicted new indication Duodenogastric reflux (evidence level L4). Approved use: Gastric ulcer, duodenal ulcer, gastroesophageal reflux disease…"
+monitor_inn: "Famotidine"
+predicted_indications: ["duodenogastric reflux", "duodenal obstruction", "active peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation", "abnormality of glucagon secretion", "gastroduodenitis", "peptic ulcer disease", "multiple endocrine neoplasia", "acne (disease)"]
 ---
 
 # Famotidine

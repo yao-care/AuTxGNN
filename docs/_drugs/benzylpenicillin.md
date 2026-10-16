@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Benzylpenicillin: predicted new indication Pericoronitis (evidence level L5). Approved use: Bacterial infections, including streptococcal, meningococcal…"
+monitor_inn: "Benzylpenicillin"
+predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "denture stomatitis", "chemotherapy-induced oral mucositis", "leukoplakia of gingiva", "conjunctivitis", "cat-scratch disease", "chronic ethmoidal sinusitis"]
 ---
 
 # Benzylpenicillin

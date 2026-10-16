@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ofatumumab: predicted new indication Follicular lymphoma (evidence level L2). Approved use: Acute lymphoblastic/lymphocytic leukaemia"
+monitor_inn: "Ofatumumab"
+predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "leukemia, lymphocytic, susceptibility to", "chronic lymphocytic leukemia/small lymphocytic lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis", "histiocytic and dendritic cell neoplasm", "childhood mediastinal neurogenic neoplasm"]
 ---
 
 # Ofatumumab

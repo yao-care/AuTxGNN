@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Bipolar disorder, major depressive disorder, anxiety disorder…"
+monitor_inn: "Olanzapine"
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder", "distal 17p13.3 microdeletion syndrome", "neurotic disorder", "neurotic depression", "melancholia", "retinal dystrophy with or without extraocular anomalies", "Ohdo syndrome and variants", "childhood apraxia of speech"]
 ---
 
 # Olanzapine

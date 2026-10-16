@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Bleomycin: predicted new indication Reticulum cell sarcoma (evidence level L1). Approved use: Hodgkin lymphoma, non-Hodgkin lymphoma, lymphoma…"
+monitor_inn: "Bleomycin"
+predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "reticulum cell sarcoma", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "interdigitating dendritic cell sarcoma", "acute lymphoblastic/lymphocytic leukemia", "astrocytoma (excluding glioblastoma)"]
 ---
 
 # Bleomycin

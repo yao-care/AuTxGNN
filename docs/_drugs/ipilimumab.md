@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ipilimumab: predicted new indication Non-cutaneous melanoma (evidence level L5). Approved use: Metastatic melanoma"
+monitor_inn: "Ipilimumab"
+predicted_indications: ["choroideremia", "non-cutaneous melanoma", "epithelioid cell melanoma", "eyelid melanoma", "scrotum melanoma", "lentigo maligna melanoma", "acral lentiginous melanoma (disease)", "balloon cell malignant melanoma", "nodular malignant melanoma", "malignant melanoma of the mucosa"]
 ---
 
 # Ipilimumab

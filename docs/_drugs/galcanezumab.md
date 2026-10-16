@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Galcanezumab: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Migraine (prevention). No approved indication text is held in the Aus…"
+monitor_inn: "Galcanezumab"
+predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "hemorrhagic disease of newborn", "prekallikrein deficiency", "thrombotic disorder due to a platelet anomaly"]
 ---
 
 # Galcanezumab

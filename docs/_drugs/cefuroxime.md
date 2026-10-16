@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Cefuroxime: predicted new indication Urinary tract infection (disease) (evidence level L3). Approved use: Not stated in the Australian licence data compiled for this report. T…"
+monitor_inn: "Cefuroxime"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "suppurative otitis media", "hematological disease associated with an acquired peripheral neuropathy"]
 ---
 
 # Cefuroxime

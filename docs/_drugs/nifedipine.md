@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Nifedipine: predicted new indication Migraine with brainstem aura (evidence level L3). Approved use: Hypertension, hypertensive disorder, Prinzmetal angina"
+monitor_inn: "Nifedipine"
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant renovascular hypertension", "malignant hypertensive renal disease", "Braddock syndrome", "tendinitis", "common cold", "idiopathic granulomatous myositis"]
 ---
 
 # Nifedipine

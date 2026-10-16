@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Guanfacine: predicted new indication Tourette syndrome (evidence level L5). Approved use: Hypertension"
+monitor_inn: "Guanfacine"
+predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome", "variably protease-sensitive prionopathy", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Guanfacine

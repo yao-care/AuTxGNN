@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Temazepam: predicted new indication Sleep disorder, initiating and maintaining sleep (evidence level L4). Approved use: Insomnia"
+monitor_inn: "Temazepam"
+predicted_indications: ["sleep disorder, initiating and maintaining sleep", "acute encephalopathy with biphasic seizures and late reduced diffusion", "benign paroxysmal torticollis of infancy", "agoraphobia", "restless legs syndrome", "alcohol withdrawal", "anxiety", "Wernicke-Korsakoff syndrome", "epilepsy, childhood absence, susceptibility to", "alcohol withdrawal delirium"]
 ---
 
 # Temazepam

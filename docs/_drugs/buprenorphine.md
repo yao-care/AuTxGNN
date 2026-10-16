@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Buprenorphine: predicted new indication Schizophrenia (evidence level L5). Approved use: Opioid dependence"
+monitor_inn: "Buprenorphine"
+predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease", "schizophreniform disorder", "schizophrenia", "benign paroxysmal tonic upgaze of childhood with ataxia", "psychogenic movement disorders"]
 ---
 
 # Buprenorphine

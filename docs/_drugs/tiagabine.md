@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Tiagabine: predicted new indication Visual epilepsy (evidence level L4). Approved use: Partial epilepsy"
+monitor_inn: "Tiagabine"
+predicted_indications: ["visual epilepsy", "restless legs syndrome", "startle epilepsy", "thinking seizures", "eating seizures", "orgasm-induced seizures", "micturation-induced seizures", "audiogenic seizures", "status epilepticus", "adolescent/adult onset autosomal dominant epilepsy with auditory features"]
 ---
 
 # Tiagabine

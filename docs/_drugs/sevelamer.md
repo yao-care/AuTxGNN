@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Sevelamer: predicted new indication Breast fibrocystic disease (evidence level L5). Approved use: Not stated in the data compiled for this report (sevelamer is a phosp…"
+monitor_inn: "Sevelamer"
+predicted_indications: ["breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia", "HIV infectious disease", "AIDS", "breast abscess", "fat necrosis of breast", "lactation disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Sevelamer

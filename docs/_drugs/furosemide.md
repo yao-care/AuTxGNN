@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Furosemide: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension and congestive heart failure (the registered indication…"
+monitor_inn: "Furosemide"
+predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "primary hereditary glaucoma", "chronic renal failure syndrome", "chronic kidney disease"]
 ---
 
 # Furosemide

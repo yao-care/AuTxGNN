@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Gemtuzumab Ozogamicin: predicted new indication Chronic myelogenous leukaemia, BCR-ABL1 positive (CML) (evidence level L4). Approved use: Acute myeloid leukaemia (including therapy-related AML/MDS…"
+monitor_inn: "Gemtuzumab ozogamicin"
+predicted_indications: ["Richter syndrome", "bulbar polio", "chronic myelogenous leukemia, BCR-ABL1 positive", "metastatic neoplasm", "malignant spiradenoma", "5q35 microduplication syndrome", "neuralgic amyotrophy", "amyotrophic neuralgia", "acute lymphoblastic/lymphocytic leukemia", "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"]
 ---
 
 # Gemtuzumab Ozogamicin

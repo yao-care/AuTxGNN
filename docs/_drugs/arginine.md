@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Arginine: predicted new indication Gastroparesis (evidence level L4). Approved use: Not available"
+monitor_inn: "arginine"
+predicted_indications: ["gastroparesis (disease)"]
 ---
 
 # Arginine

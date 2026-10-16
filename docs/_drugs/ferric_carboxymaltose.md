@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ferric Carboxymaltose: predicted new indication Bronchitis (evidence level L5). Approved use: Not available in the data compiled for this report (the approved indi…"
+monitor_inn: "Ferric carboxymaltose"
+predicted_indications: ["bronchitis", "thrombotic disease", "rheumatoid arthritis", "bronchial neoplasm (disease)", "myositis fibrosa", "idiopathic granulomatous myositis", "exostosis", "laryngotracheitis", "tendinitis", "heparin cofactor 2 deficiency"]
 ---
 
 # Ferric Carboxymaltose

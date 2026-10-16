@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Perhexiline: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the Australian licence data (historically used as an…"
+monitor_inn: "Perhexiline"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "oral candidiasis", "headache disorder", "leprosy"]
 ---
 
 # Perhexiline

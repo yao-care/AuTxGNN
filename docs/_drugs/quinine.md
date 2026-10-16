@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Quinine: predicted new indication Smouldering systemic mastocytosis (evidence level L5). Approved use: Malaria (including Plasmodium falciparum malaria)"
+monitor_inn: "Quinine"
+predicted_indications: ["Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia", "systemic mastocytosis", "nephrogenic syndrome of inappropriate antidiuresis", "thoracic malformation", "polycystic kidney disease 3 with or without polycystic liver disease", "trigeminal nerve neoplasm", "renal-hepatic-pancreatic dysplasia", "adult familial nephronophthisis-spastic quadriparesia syndrome", "karyomegalic interstitial nephritis"]
 ---
 
 # Quinine

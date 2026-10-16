@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Rabeprazole: predicted new indication Smouldering systemic mastocytosis (evidence level L5). Approved use: Peptic ulcer disease, gastro-oesophageal reflux disease…"
+monitor_inn: "Rabeprazole"
+predicted_indications: ["Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia", "active peptic ulcer disease", "duodenogastric reflux", "gastroduodenitis", "duodenal obstruction", "gastrojejunal ulcer", "peptic ulcer perforation", "gastric ulcer (disease)", "abnormality of glucagon secretion"]
 ---
 
 # Rabeprazole

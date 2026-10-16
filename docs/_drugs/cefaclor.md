@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Cefaclor: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not stated in the Australian licence data. The knowledge graph lists…"
+monitor_inn: "Cefaclor"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "gonococcal urethritis", "Ureaplasma urethritis", "congenital analbuminemia", "blood group incompatibility", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "premalignant hematological system disease", "monoclonal gammopathy"]
 ---
 
 # Cefaclor

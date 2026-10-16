@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Diroximel Fumarate: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not recorded in the data compiled for this report"
+monitor_inn: "Diroximel fumarate"
+predicted_indications: ["diabetic cataract", "diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "tetanic cataract", "mature cataract", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "immature cataract", "craniostenosis cataract"]
 ---
 
 # Diroximel Fumarate

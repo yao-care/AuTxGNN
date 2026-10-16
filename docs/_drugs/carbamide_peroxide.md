@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Carbamide Peroxide: predicted new indication Sinusitis (evidence level L5). Approved use: Ear wax removal (inferred from the product name \"Ear Clear for Ear Wa…"
+monitor_inn: "Carbamide peroxide"
+predicted_indications: ["sinusitis", "paratyphoid fever", "bacterial arthritis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)", "peritonitis", "relapsing fever", "meningococcal infection", "infectious otitis media"]
 ---
 
 # Carbamide Peroxide

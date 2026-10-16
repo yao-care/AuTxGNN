@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Flunitrazepam: predicted new indication Insomnia . Best-supported new candidate: alcohol withdrawal delirium (evidence level L5). Approved use: Not stated in the data compiled for this report . Publi…"
+monitor_inn: "Flunitrazepam"
+predicted_indications: ["insomnia (disease)", "migraine disorder", "migraine with brainstem aura", "anxiety", "anxiety disorder", "alcohol withdrawal delirium", "migraine with or without aura, susceptibility to", "agoraphobia", "benign paroxysmal torticollis of infancy", "atrophoderma vermiculata"]
 ---
 
 # Flunitrazepam

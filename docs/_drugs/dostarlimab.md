@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Dostarlimab: predicted new indication X-linked intellectual disability-epilepsy syndrome (evidence level L5). Approved use: Not available in the data compiled for this report . Overseas…"
+monitor_inn: "Dostarlimab"
+predicted_indications: ["X-linked intellectual disability-epilepsy syndrome", "balanoposthitis", "acquired amyloid peripheral neuropathy", "peripheral neuropathy associated with monoclonal gammopathy", "systemic inflammatory disease associated with an acquired peripheral neuropathy", "polyradiculoneuropathy associated with IgG/IgA/IgM monoclonal gammopathy", "cutis laxa", "transient global amnesia (disease)", "cryopyrin-associated periodic syndrome", "optic pathway glioma"]
 ---
 
 # Dostarlimab

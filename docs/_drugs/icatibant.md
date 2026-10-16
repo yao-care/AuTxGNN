@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Icatibant: predicted new indication C1 inhibitor deficiency (evidence level L1). Approved use: Hereditary angioedema (including HAE with C1 inhibitor deficiency)"
+monitor_inn: "Icatibant"
+predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia", "focal myositis", "Scott syndrome", "inflammatory myopathy with abundant macrophages"]
 ---
 
 # Icatibant

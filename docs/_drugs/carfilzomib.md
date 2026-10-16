@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Carfilzomib: predicted new indication Myeloid leukaemia (evidence level L3). Approved use: Plasma cell myeloma"
+monitor_inn: "Carfilzomib"
+predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma", "indolent plasma cell myeloma", "intellectual disability, autosomal dominant 55, with seizures", "myeloid leukemia", "neutrophil immunodeficiency syndrome", "central nervous system melanocytic neoplasm"]
 ---
 
 # Carfilzomib

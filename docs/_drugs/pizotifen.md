@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Pizotifen: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the data compiled for this report (the Australian lis…"
+monitor_inn: "Pizotifen"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "common cold", "headache disorder", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "primary hereditary glaucoma", "open-angle glaucoma", "trigeminal autonomic cephalalgia", "ulerythema ophryogenesis"]
 ---
 
 # Pizotifen

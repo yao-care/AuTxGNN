@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Lanthanum Carbonate: predicted new indication Dyspepsia (evidence level L5). Approved use: Not stated in the data compiled for this report . Published literatur…"
+monitor_inn: "Lanthanum carbonate"
+predicted_indications: ["dyspepsia", "infectious otitis media", "otosalpingitis", "middle ear cholesterol granuloma", "allergic otitis media", "chronic otitis media", "middle ear disease", "non-suppurative otitis media", "suppurative otitis media", "pharyngitis"]
 ---
 
 # Lanthanum Carbonate

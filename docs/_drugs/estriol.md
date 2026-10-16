@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Estriol: predicted new indication Amenorrhoea (disease) (evidence level L3). Approved use: Not stated in the data compiled for this report . Estriol is generall…"
+monitor_inn: "Estriol"
+predicted_indications: ["amenorrhea (disease)", "migraine with brainstem aura", "breast fibrocystic disease", "migraine disorder", "benign mammary dysplasia", "blunt duct adenosis of breast", "apocrine adenosis of breast", "conjunctivitis (disease)", "lactation disease", "breast abscess"]
 ---
 
 # Estriol

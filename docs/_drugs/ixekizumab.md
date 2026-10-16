@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ixekizumab: predicted new indication Rheumatoid vasculitis (evidence level L5). Approved use: Ankylosing spondylitis"
+monitor_inn: "Ixekizumab"
+predicted_indications: ["rheumatoid vasculitis", "acute lymphoblastic/lymphocytic leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis", "vertebral disease", "fibromatosis, gingival"]
 ---
 
 # Ixekizumab

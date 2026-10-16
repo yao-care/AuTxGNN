@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Toripalimab: predicted new indication Mixed-type autoimmune haemolytic anaemia (evidence level L5). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Toripalimab"
+predicted_indications: ["mixed-type autoimmune hemolytic anemia", "idiopathic aplastic anemia", "dermatitis", "paroxysmal nocturnal hemoglobinuria", "drug-induced autoimmune hemolytic anemia", "proteinuria", "acne keloid", "neonatal autoimmune hemolytic anemia", "primary CD59 deficiency", "amyopathic dermatomyositis"]
 ---
 
 # Toripalimab

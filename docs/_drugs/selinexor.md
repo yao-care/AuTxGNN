@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Selinexor: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Selinexor"
+predicted_indications: ["drug-induced osteoporosis", "HER2 positive breast carcinoma", "progesterone-receptor negative breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "squamous cell lung carcinoma", "gestational trophoblastic neoplasm", "cervical neuroblastoma", "schwannoma of jugular foramen"]
 ---
 
 # Selinexor

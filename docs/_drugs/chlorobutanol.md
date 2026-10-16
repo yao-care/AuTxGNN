@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Chlorobutanol: predicted new indication Erectile dysfunction (evidence level L5). Approved use: Not stated in the data compiled for this report (the product is an ea…"
+monitor_inn: "chlorobutanol"
+predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "migraine with or without aura, susceptibility to", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
 ---
 
 # Chlorobutanol

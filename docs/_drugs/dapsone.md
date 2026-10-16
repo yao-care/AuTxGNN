@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Dapsone: predicted new indication Pneumocystosis (evidence level L1). Approved use: Dermatitis herpetiformis, acne, leprosy"
+monitor_inn: "Dapsone"
+predicted_indications: ["pneumocystosis", "malaria", "familial acanthosis nigricans", "urticaria, familial localized heat", "van den Bosch syndrome", "Tietz syndrome", "aplasia cutis-myopia syndrome", "familial pityriasis rubra pilaris", "pseudoxanthoma elasticum-like skin manifestations with retinitis pigmentosa", "anhidrosis, familial generalized, with abnormal or absent sweat glands"]
 ---
 
 # Dapsone

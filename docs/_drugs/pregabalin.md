@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Anxiety disorder, fibromyalgia, myofascial pain syndrome…"
+monitor_inn: "Pregabalin"
+predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura", "osteoarthritis susceptibility", "osteoarthritis", "headache disorder", "atrophoderma vermiculata"]
 ---
 
 # Pregabalin

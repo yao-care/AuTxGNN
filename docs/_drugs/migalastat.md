@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Migalastat: predicted new indication Hepatoportal sclerosis (evidence level L5). Approved use: Fabry disease"
+monitor_inn: "Migalastat"
+predicted_indications: ["hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatic porphyria", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "nodular regenerative hyperplasia of the liver"]
 ---
 
 # Migalastat

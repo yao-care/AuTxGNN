@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ibandronate: predicted new indication Duodenal ulcer (evidence level L4). Approved use: Postmenopausal osteoporosis, osteoporosis, hypercalcaemia"
+monitor_inn: "Ibandronate"
+predicted_indications: ["duodenal ulcer (disease)", "duodenogastric reflux", "duodenal obstruction", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "digitalis poisoning", "pregnancy associated osteoporosis", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "multiple endocrine neoplasia", "calcium-alkali syndrome"]
 ---
 
 # Ibandronate

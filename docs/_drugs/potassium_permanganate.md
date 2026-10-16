@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Potassium Permanganate: predicted new indication Benign prostatic hyperplasia (evidence level L5). Approved use: Not available"
+monitor_inn: "Potassium permanganate"
+predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "congestive heart failure", "osteoarthritis", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "osteoarthritis susceptibility", "acute pulmonary heart disease", "pulmonary hypertension", "diffuse alopecia areata"]
 ---
 
 # Potassium Permanganate

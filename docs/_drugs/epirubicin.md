@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L5). Approved use: Breast carcinoma / breast neoplasm"
+monitor_inn: "Epirubicin"
+predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm", "salivary gland type cancer of the breast", "breast papillomatosis", "breast leiomyoma"]
 ---
 
 # Epirubicin

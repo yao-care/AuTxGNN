@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Inotuzumab Ozogamicin: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the Australian registration data compiled for this repo…"
+monitor_inn: "Inotuzumab ozogamicin"
+predicted_indications: ["drug-induced osteoporosis", "HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "severe nonproliferative diabetic retinopathy", "primary release disorder of platelets", "pseudo-von Willebrand disease", "infectious bovine rhinotracheitis"]
 ---
 
 # Inotuzumab Ozogamicin

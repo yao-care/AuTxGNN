@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Maribavir: predicted new indication Bronchitis (evidence level L5). Approved use: Not available in the data compiled for this report (maribavir is know…"
+monitor_inn: "Maribavir"
+predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "bronchial neoplasm (disease)", "diabetic retinopathy", "filariasis", "rectosigmoid junction neoplasm", "colonic lymphangioma", "lipoma of colon", "cecum neuroendocrine tumor G1", "cecum villous adenoma"]
 ---
 
 # Maribavir

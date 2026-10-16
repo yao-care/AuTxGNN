@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Amisulpride: predicted new indication Schizophrenia (evidence level L5). Approved use: Not stated in the Australian licence data (the approved indication te…"
+monitor_inn: "Amisulpride"
+predicted_indications: ["schizophrenia", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "hydranencephaly (disease)", "psychotic disorder", "syndromic myopia", "myopia 26, X-linked, female-limited", "dysthymic disorder", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "anxiety disorder"]
 ---
 
 # Amisulpride

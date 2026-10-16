@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Obeticholic Acid: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the data compiled for this report (the literature descr…"
+monitor_inn: "Obeticholic acid"
+predicted_indications: ["rheumatoid arthritis", "conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "heart disease", "orofacial clefting syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "Jeune syndrome situs inversus"]
 ---
 
 # Obeticholic Acid

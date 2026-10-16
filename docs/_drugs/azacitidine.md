@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Azacitidine: predicted new indication Aregenerative anaemia (likely MDS-associated refractory anaemia) (evidence level L2). Approved use: Acute myeloid leukaemia and related myeloid malignancies"
+monitor_inn: "Azacitidine"
+predicted_indications: ["bulbar polio", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "5q35 microduplication syndrome", "neuralgic amyotrophy", "amyotrophic neuralgia", "familial thrombocytosis"]
 ---
 
 # Azacitidine

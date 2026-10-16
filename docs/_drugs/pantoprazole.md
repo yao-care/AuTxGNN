@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Pantoprazole: predicted new indication Active peptic ulcer disease (evidence level L1). Approved use: Peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis…"
+monitor_inn: "Pantoprazole"
+predicted_indications: ["active peptic ulcer disease", "peptic ulcer perforation", "gastrojejunal ulcer", "duodenogastric reflux", "duodenal obstruction", "duodenal ulcer (disease)", "acne (disease)", "gastric ulcer (disease)", "Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia"]
 ---
 
 # Pantoprazole

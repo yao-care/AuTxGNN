@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Fenfluramine: predicted new indication Proximal 16p11.2 microdeletion syndrome (evidence level L5). Approved use: Obesity disorder"
+monitor_inn: "Fenfluramine"
+predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny", "pentosuria", "lethal polymalformative syndrome, Boissel type", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "fatty liver disease", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
 ---
 
 # Fenfluramine

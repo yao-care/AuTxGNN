@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Silver: predicted new indication Bone Paget disease (evidence level L5). Approved use: Not recorded in the data compiled for this report (marketed as silver…"
+monitor_inn: "silver"
+predicted_indications: ["bone Paget disease"]
 ---
 
 # Silver

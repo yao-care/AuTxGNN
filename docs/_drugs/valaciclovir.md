@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Valaciclovir: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Valaciclovir"
+predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "bronchitis", "congestive heart failure", "peripheral arterial disease"]
 ---
 
 # Valaciclovir

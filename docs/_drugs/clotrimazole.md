@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Clotrimazole: predicted new indication Acne . Vulvovaginitis is the best-supported prediction (evidence level L5). Approved use: Not stated in the Australian licence data. TxGNN lists tinea pedis…"
+monitor_inn: "Clotrimazole"
+predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis", "trichomonal vulvovaginitis", "tinea profunda", "Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease", "superficial mycosis", "dermatophytosis of scalp or beard"]
 ---
 
 # Clotrimazole
