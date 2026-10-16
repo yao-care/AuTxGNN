@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Venetoclax with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (99.5%)</li>
 <li>pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (99.5%)</li>

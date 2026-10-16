@@ -3,7 +3,7 @@ layout: default
 title: "Gliclazide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Gliclazide. Original indication: . 10 predicted indications."
+description: "Health news related to Gliclazide. Original indication: . 9 predicted indications."
 permalink: /news/gliclazide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/gliclazide/
 ---
 
 <p class="key-answer" data-question="What news is there about Gliclazide?">
-<strong>Gliclazide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Gliclazide</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,17 @@ This page combines the AI-predicted indications for Gliclazide with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>classic stiff person syndrome (98.0%)</li>
-<li>focal stiff limb syndrome (98.0%)</li>
-<li>thiamine-responsive dysfunction syndrome (97.8%)</li>
-<li>opsismodysplasia (97.7%)</li>
-<li>pancreatic agenesis (96.6%)</li>
-<li>drug-induced localized lipodystrophy (96.4%)</li>
-<li>centrifugal lipodystrophy (96.2%)</li>
-<li>pressure-induced localized lipoatrophy (96.1%)</li>
-<li>idiopathic localized lipodystrophy (95.9%)</li>
-<li>autoimmune oophoritis (88.2%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Focal stiff limb syndrome | 97.96% | Variant of the stiff person spectrum; same reasoning as above (99.0%)</li>
+<li>Thiamine-responsive dysfunction syndrome | 97.79% | Diabetes is a feature, so the link would be symptomatic glycaemic control only; thiamine is standard therapy (99.0%)</li>
+<li>Opsismodysplasia | 97.72% | INPPL1/SHIP2 involvement in insulin signalling may explain the association; no direct evidence (99.0%)</li>
+<li>Pancreatic agenesis | 96.64% | Beta cells are absent or severely deficient, so gliclazide is unlikely to work; insulin is standard (99.0%)</li>
+<li>Drug-induced localised lipodystrophy | 96.43% | Link runs only through diabetes comorbidity (99.0%)</li>
+<li>Centrifugal lipodystrophy | 96.23% | No mechanism connecting gliclazide to pathogenesis (99.0%)</li>
+<li>Pressure-induced localised lipoatrophy | 96.14% | Likely an artefact of lipodystrophy cluster similarity (99.0%)</li>
+<li>Idiopathic localised lipodystrophy | 95.94% | Localised forms are usually metabolically silent (99.0%)</li>
+<li>Autoimmune oophoritis | 88.15% | Link only through autoimmune comorbidity (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/gliclazide/' | relative_url }}">View full drug report →</a></p>

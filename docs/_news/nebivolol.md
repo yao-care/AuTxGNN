@@ -3,7 +3,7 @@ layout: default
 title: "Nebivolol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nebivolol. Original indication: . 10 predicted indications."
+description: "Health news related to Nebivolol. Original indication: . 6 predicted indications."
 permalink: /news/nebivolol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nebivolol/
 ---
 
 <p class="key-answer" data-question="What news is there about Nebivolol?">
-<strong>Nebivolol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Nebivolol</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,14 @@ This page combines the AI-predicted indications for Nebivolol with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>malignant renovascular hypertension (99.4%)</li>
-<li>malignant hypertensive renal disease (99.4%)</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.4%)</li>
-<li>pulmonary hypertension with unclear multifactorial mechanism (99.4%)</li>
-<li>Braddock syndrome (99.1%)</li>
-<li>chronic pulmonary heart disease (91.8%)</li>
-<li>Prinzmetal angina (87.5%)</li>
-<li>ocular tuberculosis (65.5%)</li>
-<li>congenital temporomandibular joint ankylosis (62.9%)</li>
-<li>polydipsia (62.7%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (6)</strong>:<ul>
+<li>Malignant hypertensive renal disease | 99.42% | L5 | Theoretical blood pressure-lowering benefit. Rodent renoprotection data come from other indications. (99.0%)</li>
+<li>Pulmonary hypertension owing to lung disease and/or hypoxia | 99.39% | L4 | Only indirect preclinical and beta-blocker safety literature. Beta-blockers are generally not recommended in pulmonary arterial hypertension, so a safety signal must be excluded first. (99.0%)</li>
+<li>Pulmonary hypertension, unclear multifactorial mechanism | 99.39% | L5 | No evidence. Risk of reduced right ventricular output. (99.0%)</li>
+<li>Braddock syndrome | 99.14% | L5 | No identifiable mechanistic link. Likely a graph artefact. (99.0%)</li>
+<li>Chronic pulmonary heart disease | 91.85% | L3 | Adjacent evidence only (heart failure with COPD). No evidence of efficacy in cor pulmonale itself. (99.0%)</li>
+<li>Prinzmetal angina | 87.48% | L4 | Plausible NO-mediated action, but vasospasm safety is unestablished. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/nebivolol/' | relative_url }}">View full drug report →</a></p>

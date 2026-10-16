@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Metformin with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>classic stiff person syndrome (99.5%)</li>
 <li>focal stiff limb syndrome (99.5%)</li>

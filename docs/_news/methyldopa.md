@@ -3,7 +3,7 @@ layout: default
 title: "Methyldopa News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Methyldopa. Original indication: . 10 predicted indications."
+description: "Health news related to Methyldopa. Original indication: . 4 predicted indications."
 permalink: /news/methyldopa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/methyldopa/
 ---
 
 <p class="key-answer" data-question="What news is there about Methyldopa?">
-<strong>Methyldopa</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Methyldopa</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,12 @@ This page combines the AI-predicted indications for Methyldopa with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (4)</strong>:<ul>
 <li>Malignant renovascular hypertension (96.6%)</li>
 <li>Pulmonary hypertension owing to lung disease and/or hypoxia (96.3%)</li>
 <li>Pulmonary hypertension with unclear multifactorial mechanism (96.3%)</li>
 <li>Chronic pulmonary heart disease (85.0%)</li>
-<li>malignant hypertensive renal disease (96.6%)</li>
-<li>Braddock syndrome (95.1%)</li>
-<li>congenital temporomandibular joint ankylosis (57.5%)</li>
-<li>polydipsia (57.2%)</li>
-<li>atrial flutter (disease) (56.7%)</li>
-<li>cholangiocarcinoma, susceptibility to (56.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/methyldopa/' | relative_url }}">View full drug report →</a></p>

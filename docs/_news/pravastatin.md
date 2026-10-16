@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Pravastatin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>homozygous familial hypercholesterolemia (100.0%)</li>
 <li>HIV infectious disease (99.7%)</li>

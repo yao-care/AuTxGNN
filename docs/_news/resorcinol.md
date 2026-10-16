@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Resorcinol with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>acne keloid (99.8%)</li>
 <li>amyopathic dermatomyositis (99.8%)</li>

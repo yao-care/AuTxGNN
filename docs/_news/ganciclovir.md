@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Ganciclovir with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L2</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>cytomegalovirus pneumonia (97.6%)</li>
 <li>epidemic keratoconjunctivitis (97.3%)</li>

@@ -3,7 +3,7 @@ layout: default
 title: "Cocaine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cocaine. Original indication: . 10 predicted indications."
+description: "Health news related to Cocaine. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/cocaine/
 ---
 
@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Cocaine with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are **0 clinical trials** and only **1 publication** (a case report that does not describe cocaine as a treatment).</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>cauda equina syndrome (100.0%)</li>

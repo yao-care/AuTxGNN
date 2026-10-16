@@ -3,7 +3,7 @@ layout: default
 title: "Abemaciclib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Abemaciclib. Original indication: Abemaciclib is TGA-approved for:. 10 predicted indications."
+description: "Health news related to Abemaciclib. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/abemaciclib/
 ---
 
@@ -24,8 +24,8 @@ This page combines the AI-predicted indications for Abemaciclib with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Original indication</strong>: Abemaciclib is TGA-approved for:</li>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **no registered clinical trials** and only **2 publications** (one observational study and one preclinical...</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>rheumatoid arthritis (97.3%)</li>
 <li>hyperthyroidism (97.2%)</li>

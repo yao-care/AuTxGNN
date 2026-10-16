@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Toremifene with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>HIV infectious disease (99.4%)</li>
 <li>simian immunodeficiency virus infection (99.0%)</li>

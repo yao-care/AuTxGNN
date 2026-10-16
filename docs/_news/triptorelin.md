@@ -3,7 +3,7 @@ layout: default
 title: "Triptorelin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Triptorelin. Original indication: . 10 predicted indications."
+description: "Health news related to Triptorelin. Original indication: he TxGNN model's top-ranked prediction is hypertri.... 10 predicted indications."
 permalink: /news/triptorelin/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Triptorelin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model's top-ranked prediction is hypertrichosis, which has no real support. This report instead evaluates the best-supported prediction, **precocious puberty** (rank 8, score 99.89%), backed...</li>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>hypertrichosis (disease) (100.0%)</li>
 <li>Ambras type hypertrichosis universalis congenita (100.0%)</li>

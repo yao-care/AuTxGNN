@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Infliximab with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (11)</strong>:<ul>
 <li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome (90.2%)</li>
 <li>Brachydactyly-syndactyly syndrome (89.9%)</li>

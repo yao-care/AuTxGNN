@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Ocrelizumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>HER2 positive breast carcinoma (99.9%)</li>
 <li>progesterone-receptor positive breast cancer (99.8%)</li>

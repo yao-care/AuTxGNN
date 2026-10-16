@@ -3,7 +3,7 @@ layout: default
 title: "Quinagolide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Quinagolide. Original indication: . 10 predicted indications."
+description: "Health news related to Quinagolide. Original indication: he TxGNN model predicts it may be useful for **ins.... 10 predicted indications."
 permalink: /news/quinagolide/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Quinagolide with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be useful for **insomnia**, but this is a **model prediction only**, with **0 clinical trials** and **0 publications** supporting it.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>insomnia (disease) (96.1%)</li>
 <li>anxiety (80.9%)</li>

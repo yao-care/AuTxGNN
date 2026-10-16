@@ -3,7 +3,7 @@ layout: default
 title: "Amisulpride News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Amisulpride. Original indication: . 10 predicted indications."
+description: "Health news related to Amisulpride. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/amisulpride/
 ---
 
@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Amisulpride with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **schizophrenia**, which is in fact its established use in many markets, so this is a validation of an existing use rather than true repurposing.</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>schizophrenia (96.0%)</li>

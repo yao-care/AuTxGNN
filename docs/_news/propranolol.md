@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Propranolol with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>distal myopathy, Tateyama type (99.4%)</li>
 <li>congenital myopathy with excess of thin filaments (99.3%)</li>

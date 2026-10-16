@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Posaconazole with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>pneumocystosis (99.8%)</li>
 <li>vulvovaginal candidiasis (98.9%)</li>

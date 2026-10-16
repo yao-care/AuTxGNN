@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Mesalazine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>congenital hypotrichosis with juvenile macular dystrophy (99.7%)</li>
 <li>osteoarthritis (99.6%)</li>

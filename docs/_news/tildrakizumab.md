@@ -3,7 +3,7 @@ layout: default
 title: "Tildrakizumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tildrakizumab. Original indication: . 10 predicted indications."
+description: "Health news related to Tildrakizumab. Original indication: . 3 predicted indications."
 permalink: /news/tildrakizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tildrakizumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Tildrakizumab?">
-<strong>Tildrakizumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Tildrakizumab</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,11 @@ This page combines the AI-predicted indications for Tildrakizumab with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>severe nonproliferative diabetic retinopathy (99.6%)</li>
-<li>diabetic retinopathy (99.5%)</li>
-<li>diabetic cataract (99.2%)</li>
-<li>drug-induced osteoporosis (99.2%)</li>
-<li>nuclear senile cataract (98.9%)</li>
-<li>cortical cataract (98.9%)</li>
-<li>senile cataract (98.9%)</li>
-<li>craniostenosis cataract (98.9%)</li>
-<li>tetanic cataract (98.9%)</li>
-<li>mature cataract (98.9%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>Diabetic retinopathy | 99.53% | Possible indirect link via inflammatory pathways; no evidence (99.0%)</li>
+<li>Diabetic cataract | 99.21% | No clear mechanistic rationale (99.0%)</li>
+<li>Drug-induced osteoporosis | 99.20% | IL-23/IL-17 axis implicated in bone remodelling; unestablished (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tildrakizumab/' | relative_url }}">View full drug report →</a></p>

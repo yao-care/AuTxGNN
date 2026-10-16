@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Mepolizumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>thrombocytopenia due to immune destruction (99.7%)</li>
 <li>primary release disorder of platelets (99.6%)</li>

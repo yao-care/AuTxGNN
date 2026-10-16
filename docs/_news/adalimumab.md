@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Adalimumab with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>rheumatoid vasculitis (99.8%)</li>
 <li>hypermobility of coccyx (99.8%)</li>

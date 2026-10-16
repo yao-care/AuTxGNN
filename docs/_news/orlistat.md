@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Orlistat with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>hypervitaminosis (99.4%)</li>
 <li>proximal 16p11.2 microdeletion syndrome (98.9%)</li>

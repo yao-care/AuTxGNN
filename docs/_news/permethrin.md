@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Permethrin with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>trombiculiasis (95.2%)</li>
 <li>lip neoplasm (93.0%)</li>

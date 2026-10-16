@@ -3,7 +3,7 @@ layout: default
 title: "Raltitrexed News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Raltitrexed. Original indication: . 10 predicted indications."
+description: "Health news related to Raltitrexed. Original indication: . 4 predicted indications."
 permalink: /news/raltitrexed/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/raltitrexed/
 ---
 
 <p class="key-answer" data-question="What news is there about Raltitrexed?">
-<strong>Raltitrexed</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Raltitrexed</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,12 @@ This page combines the AI-predicted indications for Raltitrexed with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>sclerosing cholangitis (100.0%)</li>
-<li>myelodysplastic syndrome (100.0%)</li>
-<li>sickle cell-hemoglobin d disease syndrome (100.0%)</li>
-<li>sickle cell-hemoglobin E disease syndrome (100.0%)</li>
-<li>sickle cell-beta-thalassemia disease syndrome (100.0%)</li>
-<li>sickle cell-hemoglobin c disease syndrome (100.0%)</li>
-<li>hereditary persistence of fetal hemoglobin-sickle cell disease syndrome (100.0%)</li>
-<li>unclassified myelodysplastic syndrome (100.0%)</li>
-<li>refractory cytopenia of childhood (100.0%)</li>
-<li>partial deletion of the long arm of chromosome 5 (100.0%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>Myelodysplastic syndrome | 99.97% | Conceptual rationale exists, as antimetabolites such as azacitidine and decitabine are used in MDS. However, marked myelosuppression is a major liability in patients with existing cytopenias. (99.0%)</li>
+<li>Unclassified myelodysplastic syndrome | 99.96% | Likely inherited from the parent MDS node. Same myelosuppression concern. (99.0%)</li>
+<li>Refractory cytopenia of childhood | 99.96% | A cytotoxic antifolate would be expected to worsen marrow suppression. Paediatric safety data are lacking. (99.0%)</li>
+<li>Partial deletion of the long arm of chromosome 5 | 99.95% | Related to del(5q) MDS, where lenalidomide acts via a distinct mechanism. No link to thymidylate synthase inhibition is established. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/raltitrexed/' | relative_url }}">View full drug report →</a></p>

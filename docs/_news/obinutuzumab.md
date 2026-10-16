@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Obinutuzumab with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (99.2%)</li>
 <li>chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (99.2%)</li>

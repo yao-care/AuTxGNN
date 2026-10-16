@@ -3,7 +3,7 @@ layout: default
 title: "Naltrexone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Naltrexone. Original indication: . 10 predicted indications."
+description: "Health news related to Naltrexone. Original indication: . 9 predicted indications."
 permalink: /news/naltrexone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/naltrexone/
 ---
 
 <p class="key-answer" data-question="What news is there about Naltrexone?">
-<strong>Naltrexone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Naltrexone</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,17 @@ This page combines the AI-predicted indications for Naltrexone with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>hypervitaminosis (98.7%)</li>
-<li>proximal 16p11.2 microdeletion syndrome (98.1%)</li>
-<li>obsolete hypertelorism (disease) (95.6%)</li>
-<li>frontorhiny (93.2%)</li>
-<li>restless legs syndrome (92.2%)</li>
-<li>progressive encephalopathy with leukodystrophy due to DECR deficiency (72.9%)</li>
-<li>mitral valve prolapse, myxomatous (62.6%)</li>
-<li>attention deficit hyperactivity disorder, inattentive type (62.2%)</li>
-<li>triphalangeal thumb, Nonopposable (61.8%)</li>
-<li>hypospadias 3, autosomal (61.8%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Proximal 16p11.2 microdeletion syndrome | 98.13% | L5 | Indirect hypothesis: this deletion is associated with obesity, and naltrexone is used in obesity. No direct evidence. (99.0%)</li>
+<li>Obsolete hypertelorism | 95.64% | L5 | Craniofacial anomaly; the term is obsolete, so likely an ontology artefact. (99.0%)</li>
+<li>Frontorhiny | 93.19% | L5 | Congenital malformation; no pharmacological rationale. (99.0%)</li>
+<li>Restless legs syndrome | 92.20% | L4 | Opioid system involvement is plausible, but an antagonist may act in the opposite direction. The retrieved papers are indirect. This is the only candidate framed as a research question. (99.0%)</li>
+<li>DECR deficiency encephalopathy | 72.94% | L5 | Mitochondrial metabolic disorder; no link. (99.0%)</li>
+<li>Myxomatous mitral valve prolapse | 62.59% | L5 | Structural valve condition; no link. (99.0%)</li>
+<li>ADHD, inattentive type | 62.20% | L5 | Speculative link via reward pathways and impulsivity; no evidence. (99.0%)</li>
+<li>Triphalangeal thumb, nonopposable | 61.77% | L5 | Congenital skeletal malformation; no rationale. (99.0%)</li>
+<li>Hypospadias 3, autosomal | 61.77% | L5 | Congenital genitourinary malformation; no link. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/naltrexone/' | relative_url }}">View full drug report →</a></p>

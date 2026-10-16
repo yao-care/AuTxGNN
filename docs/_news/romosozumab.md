@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Romosozumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>obsolete vitamin D deficiency (97.8%)</li>
 <li>calcium-alkali syndrome (97.4%)</li>

@@ -3,7 +3,7 @@ layout: default
 title: "Acalabrutinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Acalabrutinib. Original indication: Multiple Phase 2 trials are actively evaluating ac.... 10 predicted indications."
+description: "Health news related to Acalabrutinib. Original indication: . 10 predicted indications."
 permalink: /news/acalabrutinib/
 ---
 
@@ -24,8 +24,7 @@ This page combines the AI-predicted indications for Acalabrutinib with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Original indication</strong>: Multiple Phase 2 trials are actively evaluating acalabrutinib across broader NHL subtypes including Diffuse Large B-cell Lymphoma (DLBCL), follicular lymphoma (FL), and Richter's Syndrome, all of...</li>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L2</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>lymphoma, non-Hodgkin, familial (97.6%)</li>
 <li>colon adenocarcinoma (96.6%)</li>

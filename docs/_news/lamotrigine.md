@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Lamotrigine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (11)</strong>:<ul>
 <li>Trigeminal nerve neoplasm (100.0%)</li>
 <li>Startle epilepsy (99.4%)</li>

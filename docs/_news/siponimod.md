@@ -3,7 +3,7 @@ layout: default
 title: "Siponimod News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Siponimod. Original indication: . 10 predicted indications."
+description: "Health news related to Siponimod. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/siponimod/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Siponimod with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **pulmonary hypertension**, but there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model...</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>pulmonary hypertension (99.7%)</li>
 <li>migraine disorder (99.7%)</li>

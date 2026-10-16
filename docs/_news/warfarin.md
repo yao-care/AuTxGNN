@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Warfarin with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>heparin cofactor 2 deficiency (99.9%)</li>
 <li>factor 5 excess with spontaneous thrombosis (99.8%)</li>

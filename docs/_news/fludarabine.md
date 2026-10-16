@@ -3,7 +3,7 @@ layout: default
 title: "Fludarabine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fludarabine. Original indication: . 10 predicted indications."
+description: "Health news related to Fludarabine. Original indication: he TxGNN model predicts it may be useful for **pla.... 10 predicted indications."
 permalink: /news/fludarabine/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Fludarabine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be useful for **plasma cell myeloma**, and the evidence is mostly indirect: fludarabine appears in **transplant conditioning and CAR-T lymphodepletion regimens** (**28...</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>plasma cell myeloma (99.8%)</li>
 <li>hyperthyroidism (99.8%)</li>

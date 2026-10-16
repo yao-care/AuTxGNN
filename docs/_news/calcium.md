@@ -3,7 +3,7 @@ layout: default
 title: "Calcium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Calcium. Original indication: . 10 predicted indications."
+description: "Health news related to Calcium. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/calcium/
 ---
 
@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Calcium with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **thrombotic disease**, but **none of the 2 clinical trials** listed tests calcium, and the literature is mostly mechanistic or tangential.</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>thrombotic disease (98.2%)</li>

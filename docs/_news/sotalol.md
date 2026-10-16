@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Sotalol with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>sick sinus syndrome 2, autosomal dominant (99.8%)</li>
 <li>Wildervanck syndrome (99.7%)</li>

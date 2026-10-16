@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Ozanimod with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>progressive relapsing multiple sclerosis (99.3%)</li>
 <li>transient neonatal thrombocytopenia (97.9%)</li>

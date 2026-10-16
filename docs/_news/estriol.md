@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Estriol with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>amenorrhea (disease) (99.2%)</li>
 <li>migraine with brainstem aura (93.0%)</li>

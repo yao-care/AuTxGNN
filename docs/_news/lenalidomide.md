@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Lenalidomide with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L2</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>myeloid leukemia (99.5%)</li>
 <li>unclassified myelodysplastic syndrome (99.4%)</li>

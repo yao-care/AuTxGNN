@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Methylprednisolone with the 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>alopecia areata (100.0%)</li>
 <li>alopecia mucinosa (100.0%)</li>

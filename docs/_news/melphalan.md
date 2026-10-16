@@ -3,7 +3,7 @@ layout: default
 title: "Melphalan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Melphalan. Original indication: . 10 predicted indications."
+description: "Health news related to Melphalan. Original indication: Only an oral tablet is registered. High-dose melph.... 10 predicted indications."
 permalink: /news/melphalan/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Melphalan with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: Only an oral tablet is registered. High-dose melphalan regimens with stem cell rescue, as used in the trials above, are typically given intravenously, so route compatibility with the registered...</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>gonadal germ cell tumor (99.8%)</li>
 <li>ovarian primitive germ cell tumor (99.8%)</li>

@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Siltuximab with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>extracutaneous mastocytoma (99.6%)</li>
 <li>hepatic infarction (99.4%)</li>

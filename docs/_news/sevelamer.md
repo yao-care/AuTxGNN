@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Sevelamer with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>breast fibrocystic disease (92.5%)</li>
 <li>blunt duct adenosis of breast (89.9%)</li>

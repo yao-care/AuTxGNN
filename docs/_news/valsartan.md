@@ -3,7 +3,7 @@ layout: default
 title: "Valsartan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Valsartan. Original indication: . 12 predicted indications."
+description: "Health news related to Valsartan. Original indication: . 9 predicted indications."
 permalink: /news/valsartan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/valsartan/
 ---
 
 <p class="key-answer" data-question="What news is there about Valsartan?">
-<strong>Valsartan</strong> currently has <strong>0 news articles</strong>, with 12 predicted indications.
+<strong>Valsartan</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Valsartan with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (12)</strong>:<ul>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
 <li>Malignant renovascular hypertension (100.0%)</li>
 <li>Pulmonary hypertension owing to lung disease and/or hypoxia (100.0%)</li>
 <li>Pulmonary hypertension with unclear multifactorial mechanism (100.0%)</li>
@@ -34,9 +35,6 @@ This page combines the AI-predicted indications for Valsartan with the latest he
 <li>Familial hematuria-retinal arteriolar tortuosity-contractures syndrome (98.5%)</li>
 <li>Brain small vessel disease 1 (98.5%)</li>
 <li>Obsolete susceptibility to ischemic stroke (98.2%)</li>
-<li>malignant hypertensive renal disease (100.0%)</li>
-<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (98.5%)</li>
-<li>brain small vessel disease 1 with or without ocular anomalies (98.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/valsartan/' | relative_url }}">View full drug report →</a></p>

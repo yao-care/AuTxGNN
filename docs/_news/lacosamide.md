@@ -24,17 +24,18 @@ This page combines the AI-predicted indications for Lacosamide with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>manic bipolar affective disorder (100.0%)</li>
-<li>Tourette syndrome (100.0%)</li>
-<li>trichotillomania (99.9%)</li>
-<li>nephrogenic syndrome of inappropriate antidiuresis (99.9%)</li>
-<li>migraine disorder (99.9%)</li>
-<li>insomnia (disease) (99.8%)</li>
-<li>migraine with brainstem aura (99.8%)</li>
-<li>myofascial pain syndrome (99.8%)</li>
-<li>obsessive-compulsive disorder (99.8%)</li>
-<li>papillary conjunctivitis (99.7%)</li>
+<li>Manic bipolar affective disorder | 99.96% | L3 | Research Question (99.0%)</li>
+<li>Tourette syndrome | 99.95% | L5 | Hold (99.0%)</li>
+<li>Trichotillomania | 99.92% | L5 | Hold (99.0%)</li>
+<li>Nephrogenic syndrome of inappropriate antidiuresis | 99.91% | L5 | Hold (99.0%)</li>
+<li>**Migraine disorder** | 99.87% | L1 | Proceed with Guardrails (99.0%)</li>
+<li>Insomnia | 99.83% | L5 | Hold (99.0%)</li>
+<li>Migraine with brainstem aura | 99.82% | L4 | Research Question (99.0%)</li>
+<li>Myofascial pain syndrome | 99.81% | L2 | Research Question (99.0%)</li>
+<li>Obsessive-compulsive disorder | 99.78% | L5 | Hold (99.0%)</li>
+<li>Papillary conjunctivitis | 99.72% | L5 | Hold (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/lacosamide/' | relative_url }}">View full drug report →</a></p>

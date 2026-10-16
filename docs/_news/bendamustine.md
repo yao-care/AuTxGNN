@@ -3,7 +3,7 @@ layout: default
 title: "Bendamustine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bendamustine. Original indication: For reference, bendamustine is approved in other j.... 10 predicted indications."
+description: "Health news related to Bendamustine. Original indication: . 10 predicted indications."
 permalink: /news/bendamustine/
 ---
 
@@ -24,8 +24,7 @@ This page combines the AI-predicted indications for Bendamustine with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Original indication</strong>: For reference, bendamustine is approved in other jurisdictions under the following brand names:</li>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>mantle cell lymphoma (99.6%)</li>
 <li>chronic myelogenous leukemia, BCR-ABL1 positive (99.6%)</li>

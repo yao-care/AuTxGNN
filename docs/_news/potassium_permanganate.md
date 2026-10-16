@@ -3,7 +3,7 @@ layout: default
 title: "Potassium permanganate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Potassium permanganate. Original indication: . 10 predicted indications."
+description: "Health news related to Potassium permanganate. Original indication: . 0 predicted indications."
 permalink: /news/potassium_permanganate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/potassium_permanganate/
 ---
 
 <p class="key-answer" data-question="What news is there about Potassium permanganate?">
-<strong>Potassium permanganate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Potassium permanganate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,20 +24,8 @@ This page combines the AI-predicted indications for Potassium permanganate with 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>benign prostatic hyperplasia (disease) (97.7%)</li>
-<li>alopecia (97.2%)</li>
-<li>congestive heart failure (96.9%)</li>
-<li>osteoarthritis (96.7%)</li>
-<li>hypotrichosis simplex of the scalp (96.6%)</li>
-<li>congenital hypotrichosis milia (96.5%)</li>
-<li>osteoarthritis susceptibility (96.3%)</li>
-<li>acute pulmonary heart disease (96.1%)</li>
-<li>pulmonary hypertension (96.0%)</li>
-<li>diffuse alopecia areata (95.9%)</li>
-</ul></li>
 </ul>
-<p><a href="{{ '/drugs/potassium-permanganate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/potassium_permanganate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

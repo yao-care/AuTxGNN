@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Nitrazepam with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>sleep disorder, initiating and maintaining sleep (99.9%)</li>
 <li>acute encephalopathy with biphasic seizures and late reduced diffusion (99.6%)</li>

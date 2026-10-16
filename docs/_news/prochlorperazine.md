@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Prochlorperazine with the la
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>retinal dystrophy with or without extraocular anomalies (100.0%)</li>
 <li>hydranencephaly (disease) (100.0%)</li>

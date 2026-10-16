@@ -3,7 +3,7 @@ layout: default
 title: "Sumatriptan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sumatriptan. Original indication: . 10 predicted indications."
+description: "Health news related to Sumatriptan. Original indication: There is also a caution. Triptans have historicall.... 5 predicted indications."
 permalink: /news/sumatriptan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sumatriptan/
 ---
 
 <p class="key-answer" data-question="What news is there about Sumatriptan?">
-<strong>Sumatriptan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Sumatriptan</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,14 @@ This page combines the AI-predicted indications for Sumatriptan with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Original indication</strong>: There is also a caution. Triptans have historically been used carefully in brainstem aura because of theoretical vasoconstriction concerns, and the literature supplied contains no subtype-specific...</li>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (5)</strong>:<ul>
 <li>Headache disorder (93.3%)</li>
 <li>Trigeminal autonomic cephalalgia (92.9%)</li>
 <li>Sciatic neuropathy (92.4%)</li>
 <li>Tendinitis (87.5%)</li>
 <li>Obsolete vascular headache (86.5%)</li>
-<li>migraine with brainstem aura (99.7%)</li>
-<li>atrophoderma vermiculata (98.0%)</li>
-<li>ulerythema ophryogenesis (96.8%)</li>
-<li>myositis fibrosa (85.4%)</li>
-<li>idiopathic granulomatous myositis (85.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/sumatriptan/' | relative_url }}">View full drug report →</a></p>

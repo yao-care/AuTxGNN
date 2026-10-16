@@ -3,7 +3,7 @@ layout: default
 title: "Toripalimab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Toripalimab. Original indication: . 10 predicted indications."
+description: "Health news related to Toripalimab. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/toripalimab/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Toripalimab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **mixed-type autoimmune haemolytic anaemia**, but there are **0 clinical trials** and **0 publications** supporting this prediction.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>mixed-type autoimmune hemolytic anemia (93.8%)</li>
 <li>idiopathic aplastic anemia (93.8%)</li>

@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Axitinib with the latest hea
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>unclassified renal cell carcinoma (99.9%)</li>
-<li>renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions (99.9%)</li>
-<li>renal cell carcinoma associated with neuroblastoma (99.9%)</li>
-<li>childhood kidney cell carcinoma (99.9%)</li>
-<li>liposarcoma (99.9%)</li>
-<li>renal carcinoma (99.8%)</li>
-<li>ovarian myxoid liposarcoma (99.8%)</li>
-<li>angiolipoma (99.8%)</li>
-<li>collecting duct carcinoma (99.8%)</li>
-<li>familial spontaneous pneumothorax (99.8%)</li>
+<li>Unclassified renal cell carcinoma | 99.90% | L5 | Hold (99.0%)</li>
+<li>RCC with Xp11.2/TFE3 translocations | 99.90% | L2 | Research Question (99.0%)</li>
+<li>RCC associated with neuroblastoma | 99.90% | L5 | Hold (99.0%)</li>
+<li>Childhood kidney cell carcinoma | 99.87% | L4 | Hold (99.0%)</li>
+<li>Liposarcoma | 99.87% | L4 | Research Question (99.0%)</li>
+<li>Renal carcinoma | 99.85% | L1 | Proceed with Guardrails (99.0%)</li>
+<li>Ovarian myxoid liposarcoma | 99.84% | L5 | Hold (99.0%)</li>
+<li>Angiolipoma | 99.83% | L5 | Hold (99.0%)</li>
+<li>Collecting duct carcinoma | 99.81% | L2 | Research Question (99.0%)</li>
+<li>Familial spontaneous pneumothorax | 99.78% | L5 | Hold (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/axitinib/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Vemurafenib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Vemurafenib. Original indication: . 10 predicted indications."
+description: "Health news related to Vemurafenib. Original indication: he TxGNN model's top-ranked prediction is HIV infe.... 10 predicted indications."
 permalink: /news/vemurafenib/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Vemurafenib with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model's top-ranked prediction is HIV infectious disease, which has no supporting evidence. The only prediction with any supporting literature is **Female Breast Carcinoma** (rank 8), which...</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>HIV infectious disease (97.7%)</li>
 <li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (96.7%)</li>

@@ -3,7 +3,7 @@ layout: default
 title: "Propylthiouracil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Propylthiouracil. Original indication: . 10 predicted indications."
+description: "Health news related to Propylthiouracil. Original indication: . 7 predicted indications."
 permalink: /news/propylthiouracil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/propylthiouracil/
 ---
 
 <p class="key-answer" data-question="What news is there about Propylthiouracil?">
-<strong>Propylthiouracil</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Propylthiouracil</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,15 @@ This page combines the AI-predicted indications for Propylthiouracil with the la
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (99.7%)</li>
-<li>neonatal thyrotoxicosis (99.4%)</li>
-<li>hyperthyroxinemia (99.1%)</li>
-<li>Hashimoto thyroiditis (98.2%)</li>
-<li>autoimmune thyroid disease (98.0%)</li>
-<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (96.6%)</li>
-<li>brain small vessel disease 1 with or without ocular anomalies (96.5%)</li>
-<li>diabetic nephropathy (95.0%)</li>
-<li>Prinzmetal angina (90.4%)</li>
-<li>primary hereditary glaucoma (90.1%)</li>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (7)</strong>:<ul>
+<li>Neonatal thyrotoxicosis | 99.40% | L4 | Mechanistically plausible, but the evidence is indirect (PTU use in pregnancy) and hepatotoxicity limits use. It is an extension of the existing indication. (99.0%)</li>
+<li>Hyperthyroxinemia | 99.08% | L4 | Many forms are euthyroid or tissue-resistant, so treatment is not indicated. One MCT8 case report suggests a niche benefit. (99.0%)</li>
+<li>Hashimoto thyroiditis | 98.22% | L4 | Usually hypothyroid. PTU applies only to the transient thyrotoxic phase or coexisting Graves disease. (99.0%)</li>
+<li>Autoimmune thyroid disease | 98.02% | L1 (see note) | Overlaps with the approved Graves disease use. The L1 grade reflects Phase 3 trials for an on-label condition, not new-indication evidence. (99.0%)</li>
+<li>Diabetic nephropathy | 94.98% | L5 | Speculative. PTU is linked to ANCA-positive vasculitis and glomerulonephritis. (99.0%)</li>
+<li>Prinzmetal angina | 90.41% | L4 | A single case report where angina was caused by thyrotoxicosis and resolved once PTU restored euthyroidism. This is indirect. (99.0%)</li>
+<li>Primary hereditary glaucoma | 90.11% | L5 | No plausible mechanism. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/propylthiouracil/' | relative_url }}">View full drug report →</a></p>

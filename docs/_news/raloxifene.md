@@ -3,7 +3,7 @@ layout: default
 title: "Raloxifene News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Raloxifene. Original indication: . 10 predicted indications."
+description: "Health news related to Raloxifene. Original indication: . 9 predicted indications."
 permalink: /news/raloxifene/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/raloxifene/
 ---
 
 <p class="key-answer" data-question="What news is there about Raloxifene?">
-<strong>Raloxifene</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Raloxifene</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,17 @@ This page combines the AI-predicted indications for Raloxifene with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>duodenal ulcer (disease) (99.7%)</li>
-<li>hypoalphalipoproteinemia (99.7%)</li>
-<li>duodenal obstruction (99.6%)</li>
-<li>duodenogastric reflux (99.6%)</li>
-<li>Worth syndrome (99.0%)</li>
-<li>homozygous familial hypercholesterolemia (98.7%)</li>
-<li>autosomal dominant neovascular inflammatory vitreoretinopathy (98.6%)</li>
-<li>pregnancy associated osteoporosis (98.5%)</li>
-<li>brain stem infarction (98.0%)</li>
-<li>obsolete familial combined hyperlipidemia (98.0%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Hypoalphalipoproteinemia | 99.65% | L5 | Raloxifene modestly lowers LDL cholesterol, but no evidence of an HDL effect (99.0%)</li>
+<li>Duodenal obstruction | 99.64% | L5 | Largely mechanical; likely a model artefact (99.0%)</li>
+<li>Duodenogastric reflux | 99.59% | L5 | No supported mechanism (99.0%)</li>
+<li>Worth syndrome | 98.97% | L5 | High-bone-mass condition; an antiresorptive would act in the wrong direction (99.0%)</li>
+<li>Homozygous familial hypercholesterolemia | 98.69% | L5 | Expected effect clinically negligible (99.0%)</li>
+<li>Autosomal dominant neovascular inflammatory vitreoretinopathy | 98.56% | L5 | No supported mechanism (99.0%)</li>
+<li>Pregnancy-associated osteoporosis | 98.55% | L4 | Related bone mechanism, but pregnancy safety concerns (99.0%)</li>
+<li>Brain stem infarction | 98.03% | L5 | Stroke risk is a safety concern, not an opportunity (99.0%)</li>
+<li>Obsolete familial combined hyperlipidemia | 98.02% | L5 | Obsolete ontology term; weak indirect rationale (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/raloxifene/' | relative_url }}">View full drug report →</a></p>

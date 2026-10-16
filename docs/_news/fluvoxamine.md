@@ -24,17 +24,18 @@ This page combines the AI-predicted indications for Fluvoxamine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>paranoid personality disorder (100.0%)</li>
-<li>schizotypal personality disorder (100.0%)</li>
-<li>schizoid personality disorder (100.0%)</li>
-<li>histrionic personality disorder (disease) (100.0%)</li>
-<li>anxiety disorder (100.0%)</li>
-<li>agoraphobia (100.0%)</li>
-<li>benign paroxysmal torticollis of infancy (100.0%)</li>
-<li>dependent personality disorder (99.9%)</li>
-<li>narcissistic personality disorder (99.9%)</li>
-<li>endogenous depression (99.8%)</li>
+<li>Paranoid personality disorder | 99.997% | L5 | Hold (99.0%)</li>
+<li>Schizotypal personality disorder | 99.997% | L4 | Hold (99.0%)</li>
+<li>Schizoid personality disorder | 99.997% | L5 | Hold (99.0%)</li>
+<li>Histrionic personality disorder | 99.997% | L5 | Hold (99.0%)</li>
+<li>Anxiety disorder | 99.974% | L1 | Proceed with Guardrails (99.0%)</li>
+<li>Agoraphobia | 99.966% | L1 | Proceed with Guardrails (99.0%)</li>
+<li>Benign paroxysmal torticollis of infancy | 99.963% | L5 | Hold (99.0%)</li>
+<li>Dependent personality disorder | 99.900% | L4 | Hold (99.0%)</li>
+<li>Narcissistic personality disorder | 99.894% | L5 | Hold (99.0%)</li>
+<li>Endogenous depression | 99.852% | L2 | Proceed with Guardrails (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fluvoxamine/' | relative_url }}">View full drug report →</a></p>

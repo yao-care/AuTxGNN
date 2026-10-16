@@ -3,7 +3,7 @@ layout: default
 title: "Tobramycin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tobramycin. Original indication: . 10 predicted indications."
+description: "Health news related to Tobramycin. Original indication: . 4 predicted indications."
 permalink: /news/tobramycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tobramycin/
 ---
 
 <p class="key-answer" data-question="What news is there about Tobramycin?">
-<strong>Tobramycin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Tobramycin</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,12 @@ This page combines the AI-predicted indications for Tobramycin with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>exposure keratitis (99.9%)</li>
-<li>non-human animal disease (99.8%)</li>
-<li>otitis externa (99.8%)</li>
-<li>postinfectious vasculitis (99.8%)</li>
-<li>post-bacterial disorder (99.8%)</li>
-<li>post-infectious syndrome (99.8%)</li>
-<li>infective urethral stricture (99.8%)</li>
-<li>Chagas cardiomyopathy (99.8%)</li>
-<li>infection-related hemolytic uremic syndrome (99.8%)</li>
-<li>epidemic keratoconjunctivitis (99.4%)</li>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>Otitis externa | 99.81% | L4 | Best-supported of the other predictions: tobramycin is active against *P. aeruginosa* and *S. aureus*, with case reports in malignant otitis externa. Much of the literature is veterinary. There is an ototoxicity concern if the tympanic membrane is perforated. Suitable as a research question. (99.0%)</li>
+<li>Post-bacterial disorder | 99.79% | L4 | Two Phase 3 open-label extension trials of tobramycin inhalation powder in cystic fibrosis (NCT01069705, NCT00982930), only indirectly relevant. (99.0%)</li>
+<li>Infective urethral stricture | 99.78% | L4 | One 1976 comparison with gentamicin in complicated urinary tract infection, which does not address stricture. (99.0%)</li>
+<li>Epidemic keratoconjunctivitis | 99.38% | L4 | Mainly adenoviral. Tobramycin has no antiviral activity and the literature is weak. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tobramycin/' | relative_url }}">View full drug report →</a></p>

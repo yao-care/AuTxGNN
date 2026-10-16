@@ -3,7 +3,7 @@ layout: default
 title: "Brexpiprazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Brexpiprazole. Original indication: . 11 predicted indications."
+description: "Health news related to Brexpiprazole. Original indication: . 9 predicted indications."
 permalink: /news/brexpiprazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/brexpiprazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Brexpiprazole?">
-<strong>Brexpiprazole</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
+<strong>Brexpiprazole</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Brexpiprazole with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (11)</strong>:<ul>
+<li><strong>Predicted indications (9)</strong>:<ul>
 <li>Benign paroxysmal torticollis of infancy (98.3%)</li>
 <li>Agoraphobia (98.2%)</li>
 <li>Neurotic disorder (97.7%)</li>
@@ -35,8 +35,6 @@ This page combines the AI-predicted indications for Brexpiprazole with the lates
 <li>Ohdo syndrome and variants (95.0%)</li>
 <li>Retinal dystrophy with or without extraocular anomalies (94.8%)</li>
 <li>Congenital isolated ACTH deficiency (94.5%)</li>
-<li>dysthymic disorder (98.5%)</li>
-<li>congenital isolated adrenocorticotropic hormone deficiency (disease) (94.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/brexpiprazole/' | relative_url }}">View full drug report →</a></p>

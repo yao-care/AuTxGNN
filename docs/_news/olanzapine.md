@@ -24,17 +24,18 @@ This page combines the AI-predicted indications for Olanzapine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>benign paroxysmal torticollis of infancy (99.5%)</li>
-<li>agoraphobia (99.5%)</li>
-<li>dysthymic disorder (99.3%)</li>
-<li>distal 17p13.3 microdeletion syndrome (99.0%)</li>
-<li>neurotic disorder (98.9%)</li>
-<li>neurotic depression (98.8%)</li>
-<li>melancholia (98.8%)</li>
-<li>retinal dystrophy with or without extraocular anomalies (98.7%)</li>
-<li>Ohdo syndrome and variants (98.6%)</li>
-<li>childhood apraxia of speech (98.6%)</li>
+<li>Benign paroxysmal torticollis of infancy | 99.54% | L5 | Hold (99.0%)</li>
+<li>Agoraphobia | 99.47% | L3 | Research Question (99.0%)</li>
+<li>Dysthymic disorder | 99.28% | L3 | Research Question (99.0%)</li>
+<li>Distal 17p13.3 microdeletion syndrome | 98.97% | L5 | Hold (99.0%)</li>
+<li>Neurotic disorder | 98.93% | L4 | Hold (99.0%)</li>
+<li>Neurotic depression | 98.77% | L2 | Proceed with Guardrails (99.0%)</li>
+<li>Melancholia | 98.77% | L2 | Proceed with Guardrails (99.0%)</li>
+<li>Retinal dystrophy with or without extraocular anomalies | 98.74% | L4 | Hold (99.0%)</li>
+<li>Ohdo syndrome and variants | 98.63% | L5 | Hold (99.0%)</li>
+<li>Childhood apraxia of speech | 98.63% | L5 | Hold (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/olanzapine/' | relative_url }}">View full drug report →</a></p>

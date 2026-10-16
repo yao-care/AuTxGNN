@@ -3,7 +3,7 @@ layout: default
 title: "Tranexamic acid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tranexamic acid. Original indication: . 10 predicted indications."
+description: "Health news related to Tranexamic acid. Original indication: . 0 predicted indications."
 permalink: /news/tranexamic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tranexamic_acid/
 ---
 
 <p class="key-answer" data-question="What news is there about Tranexamic acid?">
-<strong>Tranexamic acid</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Tranexamic acid</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,20 +24,8 @@ This page combines the AI-predicted indications for Tranexamic acid with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>amenorrhea (disease) (99.2%)</li>
-<li>heparin cofactor 2 deficiency (96.5%)</li>
-<li>factor 5 excess with spontaneous thrombosis (95.2%)</li>
-<li>antithrombin deficiency type 2 (94.3%)</li>
-<li>hypospadias 3, autosomal (68.4%)</li>
-<li>sella turcica, bridged (68.4%)</li>
-<li>triphalangeal thumb, Nonopposable (68.4%)</li>
-<li>hypercarotenemia and vitamin A deficiency, autosomal recessive (68.3%)</li>
-<li>hyperparathyroidism, primary, caused by water clear cell hyperplasia (68.0%)</li>
-<li>glaucoma with elevated episcleral venous pressure (66.8%)</li>
-</ul></li>
 </ul>
-<p><a href="{{ '/drugs/tranexamic-acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/tranexamic_acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

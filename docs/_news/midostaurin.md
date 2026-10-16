@@ -3,7 +3,7 @@ layout: default
 title: "Midostaurin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Midostaurin. Original indication: . 10 predicted indications."
+description: "Health news related to Midostaurin. Original indication: . 3 predicted indications."
 permalink: /news/midostaurin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/midostaurin/
 ---
 
 <p class="key-answer" data-question="What news is there about Midostaurin?">
-<strong>Midostaurin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Midostaurin</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,11 @@ This page combines the AI-predicted indications for Midostaurin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>familial thrombocytosis (98.9%)</li>
-<li>reactive thrombocytosis (98.8%)</li>
-<li>metastatic melanoma (97.6%)</li>
-<li>inverse Klippel-Trenaunay syndrome (97.6%)</li>
-<li>thrombocythemia (97.5%)</li>
-<li>non-cutaneous melanoma (97.1%)</li>
-<li>epithelioid cell melanoma (97.0%)</li>
-<li>eyelid melanoma (96.9%)</li>
-<li>scrotum melanoma (96.7%)</li>
-<li>amelanotic skin melanoma (96.4%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>Reactive thrombocytosis | 98.76% | L5 | Secondary to inflammation or iron deficiency; treatment targets the cause, so a kinase inhibitor has no clear rationale (99.0%)</li>
+<li>Metastatic melanoma | 97.64% | L3 | Phase IIA study reported lack of activity (99.0%)</li>
+<li>Thrombocythemia | 97.48% | L4 | Biologically plausible (MPN), but only indirect review evidence; flagged as a research question (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/midostaurin/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Busulfan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Busulfan. Original indication: . 10 predicted indications."
+description: "Health news related to Busulfan. Original indication: he TxGNN model predicts it may be useful for **mye.... 10 predicted indications."
 permalink: /news/busulfan/
 ---
 
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Busulfan with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be useful for **myelodysplastic syndrome (MDS)**, where it is already used as a conditioning agent before allogeneic stem cell transplant.</li>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>myelodysplastic syndrome (99.6%)</li>
 <li>refractory cytopenia of childhood (99.5%)</li>

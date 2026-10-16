@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Apixaban with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>migraine disorder (99.0%)</li>
 <li>migraine with or without aura, susceptibility to (98.9%)</li>

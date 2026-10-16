@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Imipramine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>attention deficit-hyperactivity disorder (99.9%)</li>
 <li>attention deficit hyperactivity disorder, inattentive type (99.8%)</li>

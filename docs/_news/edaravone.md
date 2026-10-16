@@ -3,7 +3,7 @@ layout: default
 title: "Edaravone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Edaravone. Original indication: . 10 predicted indications."
+description: "Health news related to Edaravone. Original indication: . 9 predicted indications."
 permalink: /news/edaravone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/edaravone/
 ---
 
 <p class="key-answer" data-question="What news is there about Edaravone?">
-<strong>Edaravone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Edaravone</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,16 @@ This page combines the AI-predicted indications for Edaravone with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>heparin cofactor 2 deficiency (99.5%)</li>
-<li>factor 5 excess with spontaneous thrombosis (99.1%)</li>
-<li>bilateral parasagittal parieto-occipital polymicrogyria (99.0%)</li>
-<li>antithrombin deficiency type 2 (99.0%)</li>
-<li>axial spondylometaphyseal dysplasia (98.8%)</li>
-<li>amyotrophic lateral sclerosis, susceptibility to (98.8%)</li>
-<li>amyotrohpic lateral sclerosis type 22 (98.8%)</li>
-<li>trichomegaly-retina pigmentary degeneration-dwarfism syndrome (98.7%)</li>
-<li>Mills syndrome (98.7%)</li>
-<li>lower motor neuron syndrome with late-adult onset (98.5%)</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Factor 5 excess with spontaneous thrombosis | 99.06% | L5 | Hypercoagulable state; no plausible link (99.0%)</li>
+<li>Bilateral parasagittal parieto-occipital polymicrogyria | 98.99% | L5 | Established structural malformation; no plausible role (99.0%)</li>
+<li>Antithrombin deficiency type 2 | 98.97% | L5 | Edaravone does not act on coagulation (99.0%)</li>
+<li>Axial spondylometaphyseal dysplasia | 98.84% | L5 | No plausible link (99.0%)</li>
+<li>ALS, susceptibility to | 98.79% | L4 | Overlaps with the existing ALS indication; preclinical and mechanistic support only (99.0%)</li>
+<li>ALS type 22 | 98.77% | L4 | Genetic ALS subtype; indirect, class-level relevance only (99.0%)</li>
+<li>Trichomegaly-retina pigmentary degeneration-dwarfism syndrome | 98.66% | L5 | Extremely rare; prediction only (99.0%)</li>
+<li>Mills syndrome | 98.65% | L4 | Motor neuron disease variant; indirect rationale only (99.0%)</li>
+<li>Lower motor neuron syndrome with late-adult onset | 98.45% | L4 | Overlaps with the ALS spectrum; indirect rationale only (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/edaravone/' | relative_url }}">View full drug report →</a></p>

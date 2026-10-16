@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Ziprasidone with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L2</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>trichotillomania (99.8%)</li>
 <li>hydranencephaly (disease) (99.7%)</li>

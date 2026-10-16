@@ -3,7 +3,7 @@ layout: default
 title: "Eprosartan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Eprosartan. Original indication: . 10 predicted indications."
+description: "Health news related to Eprosartan. Original indication: Other predictions in the list include malignant hy.... 10 predicted indications."
 permalink: /news/eprosartan/
 ---
 
@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Eprosartan with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: Other predictions in the list include malignant hypertensive renal disease (0.937), pulmonary hypertension with unclear multifactorial mechanism (0.930), pulmonary hypertension owing to lung disease...</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>malignant renovascular hypertension (93.7%)</li>

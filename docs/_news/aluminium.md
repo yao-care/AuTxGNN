@@ -3,7 +3,7 @@ layout: default
 title: "Aluminium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Aluminium. Original indication: . 10 predicted indications."
+description: "Health news related to Aluminium. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/aluminium/
 ---
 
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Aluminium with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **peptic ulcer disease**, which is already established practice for aluminium-containing antacids and sucralfate.</li>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>peptic ulcer disease (97.3%)</li>
 <li>gastroduodenitis (97.2%)</li>

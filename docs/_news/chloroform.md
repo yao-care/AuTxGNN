@@ -3,7 +3,7 @@ layout: default
 title: "Chloroform News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Chloroform. Original indication: . 10 predicted indications."
+description: "Health news related to Chloroform. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/chloroform/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Chloroform with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **insomnia**, but there are **0 clinical trials** and no human studies of chloroform for this use.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>insomnia (disease) (98.9%)</li>
 <li>anxiety (91.1%)</li>

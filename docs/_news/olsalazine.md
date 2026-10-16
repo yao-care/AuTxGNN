@@ -3,7 +3,7 @@ layout: default
 title: "Olsalazine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Olsalazine. Original indication: . 10 predicted indications."
+description: "Health news related to Olsalazine. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/olsalazine/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Olsalazine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **myelodysplastic syndrome**, with a very high model score, but there are **0 clinical trials** and **0 publications** supporting this prediction.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>myelodysplastic syndrome (99.9%)</li>
 <li>hypotrichosis simplex of the scalp (99.9%)</li>

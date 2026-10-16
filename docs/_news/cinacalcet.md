@@ -3,7 +3,7 @@ layout: default
 title: "Cinacalcet News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cinacalcet. Original indication: . 10 predicted indications."
+description: "Health news related to Cinacalcet. Original indication: . 9 predicted indications."
 permalink: /news/cinacalcet/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cinacalcet/
 ---
 
 <p class="key-answer" data-question="What news is there about Cinacalcet?">
-<strong>Cinacalcet</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Cinacalcet</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,17 @@ This page combines the AI-predicted indications for Cinacalcet with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>nephrogenic syndrome of inappropriate antidiuresis (98.5%)</li>
-<li>common cold (95.4%)</li>
-<li>female breast carcinoma (94.2%)</li>
-<li>multiple endocrine neoplasia (93.7%)</li>
-<li>headache disorder (93.1%)</li>
-<li>trigeminal autonomic cephalalgia (92.2%)</li>
-<li>hypertrichosis (disease) (91.7%)</li>
-<li>subarachnoid hemorrhage (disease) (91.4%)</li>
-<li>pulmonary hypertension (91.2%)</li>
-<li>obsolete familial combined hyperlipidemia (90.8%)</li>
+<li><strong>Evidence level</strong>: L3</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Nephrogenic syndrome of inappropriate antidiuresis | 98.48% | L5 | Hold. A theoretical CaSR link to renal water handling exists, but the condition is caused by activating AVPR2 mutations, and no evidence supports CaSR modulation. (99.0%)</li>
+<li>Common cold | 95.39% | L5 | Hold. No plausible mechanism; likely a graph artefact. (99.0%)</li>
+<li>Female breast carcinoma | 94.23% | L4 | Hold. Only indirect biomarker data on CaSR (PMID 38780484). No trials. (99.0%)</li>
+<li>Headache disorder | 93.08% | L5 | Hold. Speculative. (99.0%)</li>
+<li>Trigeminal autonomic cephalalgia | 92.16% | L5 | Hold. No established link. (99.0%)</li>
+<li>Hypertrichosis | 91.66% | L5 | Hold. No known mechanism. (99.0%)</li>
+<li>Subarachnoid haemorrhage | 91.39% | L5 | Hold. Speculative; hypocalcaemia could pose risks in neurocritical care. (99.0%)</li>
+<li>Pulmonary hypertension | 91.21% | L4 | Hold. Indirect evidence only. (99.0%)</li>
+<li>Obsolete familial combined hyperlipidaemia | 90.80% | L5 | Hold. Obsolete ontology term; exclude or remap. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cinacalcet/' | relative_url }}">View full drug report →</a></p>

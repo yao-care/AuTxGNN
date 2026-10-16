@@ -3,7 +3,7 @@ layout: default
 title: "Reboxetine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Reboxetine. Original indication: . 10 predicted indications."
+description: "Health news related to Reboxetine. Original indication: . 4 predicted indications."
 permalink: /news/reboxetine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/reboxetine/
 ---
 
 <p class="key-answer" data-question="What news is there about Reboxetine?">
-<strong>Reboxetine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Reboxetine</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,12 @@ This page combines the AI-predicted indications for Reboxetine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (4)</strong>:<ul>
 <li>Agoraphobia (99.9%)</li>
 <li>Dysthymic disorder (99.9%)</li>
 <li>Melancholia (99.7%)</li>
 <li>Neurotic depression (99.7%)</li>
-<li>benign paroxysmal torticollis of infancy (99.9%)</li>
-<li>Ohdo syndrome and variants (99.8%)</li>
-<li>blepharophimosis - intellectual disability syndrome, Ohdo type (99.7%)</li>
-<li>neurotic disorder (99.7%)</li>
-<li>Keppen-Lubinsky syndrome (99.5%)</li>
-<li>ligneous conjunctivitis (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/reboxetine/' | relative_url }}">View full drug report →</a></p>

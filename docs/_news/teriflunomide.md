@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Teriflunomide with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>relapsing-remitting multiple sclerosis (99.2%)</li>
 <li>marcothrombocytopenia with mitral valve insufficiency (98.1%)</li>

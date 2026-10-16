@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Mechlorethamine with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>lymph node cancer (99.4%)</li>
 <li>relapsing-remitting multiple sclerosis (99.1%)</li>

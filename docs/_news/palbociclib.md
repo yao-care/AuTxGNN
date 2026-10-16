@@ -3,7 +3,7 @@ layout: default
 title: "Palbociclib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Palbociclib. Original indication: . 10 predicted indications."
+description: "Health news related to Palbociclib. Original indication: he TxGNN model's top-ranked prediction is **hypert.... 10 predicted indications."
 permalink: /news/palbociclib/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Palbociclib with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model's top-ranked prediction is **hyperthyroidism** (score 99.44%), but there are **0 clinical trials** and **0 publications** supporting it.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>hyperthyroidism (99.4%)</li>
 <li>rheumatoid arthritis (99.4%)</li>

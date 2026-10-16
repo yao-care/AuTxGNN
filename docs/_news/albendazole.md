@@ -3,7 +3,7 @@ layout: default
 title: "Albendazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Albendazole. Original indication: For clinical use in Australia, albendazole would n.... 10 predicted indications."
+description: "Health news related to Albendazole. Original indication: . 10 predicted indications."
 permalink: /news/albendazole/
 ---
 
@@ -24,8 +24,7 @@ This page combines the AI-predicted indications for Albendazole with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Original indication</strong>: For clinical use in Australia, albendazole would need to be accessed through one of the following regulatory pathways:</li>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L2</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>alveolar echinococcosis (100.0%)</li>
 <li>coenurosis (99.8%)</li>

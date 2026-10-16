@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Filgrastim with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>primary release disorder of platelets (100.0%)</li>
 <li>pseudo-von Willebrand disease (100.0%)</li>

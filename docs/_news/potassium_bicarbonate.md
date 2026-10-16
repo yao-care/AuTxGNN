@@ -3,7 +3,7 @@ layout: default
 title: "Potassium bicarbonate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Potassium bicarbonate. Original indication: . 10 predicted indications."
+description: "Health news related to Potassium bicarbonate. Original indication: . 0 predicted indications."
 permalink: /news/potassium_bicarbonate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/potassium_bicarbonate/
 ---
 
 <p class="key-answer" data-question="What news is there about Potassium bicarbonate?">
-<strong>Potassium bicarbonate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Potassium bicarbonate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,20 +24,8 @@ This page combines the AI-predicted indications for Potassium bicarbonate with t
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>gastroduodenitis (99.7%)</li>
-<li>active peptic ulcer disease (98.3%)</li>
-<li>stomach disease (97.8%)</li>
-<li>gastrojejunal ulcer (97.8%)</li>
-<li>peptic ulcer perforation (97.8%)</li>
-<li>gastroparesis (disease) (97.6%)</li>
-<li>gastric ulcer (disease) (96.4%)</li>
-<li>postgastrectomy syndrome (89.9%)</li>
-<li>acute urate nephropathy (71.2%)</li>
-<li>duodenal obstruction (67.1%)</li>
-</ul></li>
 </ul>
-<p><a href="{{ '/drugs/potassium-bicarbonate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/potassium_bicarbonate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

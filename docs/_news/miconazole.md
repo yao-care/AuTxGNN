@@ -3,7 +3,7 @@ layout: default
 title: "Miconazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Miconazole. Original indication: . 10 predicted indications."
+description: "Health news related to Miconazole. Original indication: . 3 predicted indications."
 permalink: /news/miconazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/miconazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Miconazole?">
-<strong>Miconazole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Miconazole</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,11 @@ This page combines the AI-predicted indications for Miconazole with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Evidence level</strong>: L3</li>
+<li><strong>Predicted indications (3)</strong>:<ul>
 <li>Superficial mycosis (97.0%)</li>
 <li>Dermatophytosis of scalp or beard (96.9%)</li>
 <li>Blastomycosis (95.2%)</li>
-<li>acne (disease) (99.5%)</li>
-<li>gastrin secretion abnormality (98.8%)</li>
-<li>papillary conjunctivitis (98.0%)</li>
-<li>tinea profunda (97.2%)</li>
-<li>ectothrix infectious disease (97.1%)</li>
-<li>Majocchi granuloma (97.1%)</li>
-<li>endothrix infectious disease (97.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/miconazole/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Loratadine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Loratadine. Original indication: . 10 predicted indications."
+description: "Health news related to Loratadine. Original indication: . 9 predicted indications."
 permalink: /news/loratadine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/loratadine/
 ---
 
 <p class="key-answer" data-question="What news is there about Loratadine?">
-<strong>Loratadine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Loratadine</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,17 @@ This page combines the AI-predicted indications for Loratadine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>allergic urticaria (99.0%)</li>
-<li>nasal cavity disease (99.0%)</li>
-<li>acute laryngopharyngitis (98.8%)</li>
-<li>rosacea conjunctivitis (98.5%)</li>
-<li>cold urticaria (96.2%)</li>
-<li>viral conjunctivitis (89.3%)</li>
-<li>punctate epithelial keratoconjunctivitis (84.2%)</li>
-<li>trigeminal autonomic cephalalgia (80.4%)</li>
-<li>faucial diphtheria (78.5%)</li>
-<li>cervical disc degenerative disorder (76.8%)</li>
+<li><strong>Evidence level</strong>: L3</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Nasal cavity disease | 98.98% | L2 | Proceed with Guardrails | Dominated by allergic rhinitis, which is already approved. The only RCT ([PMID 32312261](https://pubmed.ncbi.nlm.nih.gov/32312261/)) used loratadine as the comparator for ginger extract. (99.0%)</li>
+<li>Acute laryngopharyngitis | 98.84% | L5 | Hold | Model prediction only; plausible link through the pharyngitis indication. (99.0%)</li>
+<li>Rosacea conjunctivitis | 98.51% | L5 | Hold | Weak mechanistic fit; the condition is not mainly histamine-driven. (99.0%)</li>
+<li>Cold urticaria | 96.19% | L3 | Research question | Mechanistically reasonable; evidence is a small 1992 comparative study ([PMID 1364168](https://pubmed.ncbi.nlm.nih.gov/1364168/)) plus reviews. (99.0%)</li>
+<li>Viral conjunctivitis | 89.26% | L5 | Hold | At most itch relief; no antiviral activity. (99.0%)</li>
+<li>Punctate epithelial keratoconjunctivitis | 84.15% | L5 | Hold | No clinical evidence. (99.0%)</li>
+<li>Trigeminal autonomic cephalalgia | 80.36% | L4 | Hold | Single case report ([PMID 9195770](https://pubmed.ncbi.nlm.nih.gov/9195770/)); unclear whether loratadine was the agent. (99.0%)</li>
+<li>Faucial diphtheria | 78.46% | L5 | Hold | No plausible mechanism; likely an artefact of similarity to pharyngitis. (99.0%)</li>
+<li>Cervical disc degenerative disorder | 76.82% | L5 | Hold | No mechanistic rationale or evidence. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/loratadine/' | relative_url }}">View full drug report →</a></p>

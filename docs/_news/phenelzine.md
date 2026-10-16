@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Phenelzine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>agoraphobia (94.0%)</li>
 <li>benign paroxysmal torticollis of infancy (93.7%)</li>

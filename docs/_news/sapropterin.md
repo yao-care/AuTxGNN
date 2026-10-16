@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Sapropterin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>disorder of tyrosine metabolism (99.9%)</li>
 <li>teratogenic Pierre Robin syndrome (99.9%)</li>

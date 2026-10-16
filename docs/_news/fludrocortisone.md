@@ -3,7 +3,7 @@ layout: default
 title: "Fludrocortisone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fludrocortisone. Original indication: . 10 predicted indications."
+description: "Health news related to Fludrocortisone. Original indication: . 9 predicted indications."
 permalink: /news/fludrocortisone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fludrocortisone/
 ---
 
 <p class="key-answer" data-question="What news is there about Fludrocortisone?">
-<strong>Fludrocortisone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Fludrocortisone</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,17 @@ This page combines the AI-predicted indications for Fludrocortisone with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>primary cutaneous T-cell lymphoma (99.6%)</li>
-<li>cystic teratoma (99.2%)</li>
-<li>spinal cord dermoid cyst (99.2%)</li>
-<li>dermoid cyst of ovary (99.2%)</li>
-<li>disease of orbital part of eye adnexa (99.2%)</li>
-<li>eye disease (99.1%)</li>
-<li>disease of orbital region (99.1%)</li>
-<li>exostosis (99.1%)</li>
-<li>granulomatous slack skin disease (99.0%)</li>
-<li>optic papillitis (99.0%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Cystic teratoma | 99.20% | L5 | No plausible mechanism; likely graph artefact (99.0%)</li>
+<li>Spinal cord dermoid cyst | 99.18% | L5 | No evidence (99.0%)</li>
+<li>Dermoid cyst of ovary | 99.18% | L5 | No evidence (99.0%)</li>
+<li>Disease of orbital part of eye adnexa | 99.17% | L5 | No evidence (99.0%)</li>
+<li>Eye disease | 99.14% | L4 | Indirect preclinical and review literature only (99.0%)</li>
+<li>Disease of orbital region | 99.13% | L5 | No evidence (99.0%)</li>
+<li>Exostosis | 99.08% | L5 | No plausible mechanism (99.0%)</li>
+<li>Granulomatous slack skin disease | 98.98% | L5 | Likely proximity to rank 1 (99.0%)</li>
+<li>Optic papillitis | 98.95% | L5 | No evidence for fludrocortisone (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fludrocortisone/' | relative_url }}">View full drug report →</a></p>

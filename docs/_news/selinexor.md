@@ -3,7 +3,7 @@ layout: default
 title: "Selinexor News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Selinexor. Original indication: . 10 predicted indications."
+description: "Health news related to Selinexor. Original indication: he TxGNN model ranks **drug-induced osteoporosis**.... 10 predicted indications."
 permalink: /news/selinexor/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Selinexor with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model ranks **drug-induced osteoporosis** as its top prediction, but **no clinical trials and no publications** support it.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>drug-induced osteoporosis (99.2%)</li>
 <li>HER2 positive breast carcinoma (98.1%)</li>

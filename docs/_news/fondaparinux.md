@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Fondaparinux with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>primary release disorder of platelets (93.1%)</li>
 <li>pseudo-von Willebrand disease (90.9%)</li>

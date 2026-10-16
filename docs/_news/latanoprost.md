@@ -3,7 +3,7 @@ layout: default
 title: "Latanoprost News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Latanoprost. Original indication: . 10 predicted indications."
+description: "Health news related to Latanoprost. Original indication: There are caveats. Developmental defects in the ou.... 7 predicted indications."
 permalink: /news/latanoprost/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/latanoprost/
 ---
 
 <p class="key-answer" data-question="What news is there about Latanoprost?">
-<strong>Latanoprost</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Latanoprost</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,16 @@ This page combines the AI-predicted indications for Latanoprost with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>primary hereditary glaucoma (99.9%)</li>
-<li>visceral calciphylaxis (99.8%)</li>
-<li>hypotrichosis simplex of the scalp (99.8%)</li>
-<li>venous thoracic outlet syndrome (99.8%)</li>
-<li>arterial thoracic outlet syndrome (99.8%)</li>
-<li>neurogenic thoracic outlet syndrome (99.7%)</li>
-<li>congenital hypotrichosis milia (99.7%)</li>
-<li>angiodysplasia of stomach (99.7%)</li>
-<li>blue toe syndrome (99.7%)</li>
-<li>lymphangiectasis (99.7%)</li>
+<li><strong>Original indication</strong>: There are caveats. Developmental defects in the outflow pathway in congenital forms may reduce the response to treatment. Paediatric use would also need separate safety and efficacy review. No trials...</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (7)</strong>:<ul>
+<li>Primary hereditary glaucoma | 99.88% | Plausible; close to the approved use (99.0%)</li>
+<li>Visceral calciphylaxis | 99.83% | No clear mechanistic link (99.0%)</li>
+<li>Hypotrichosis simplex of the scalp | 99.81% | Biologically plausible (prostaglandin analogues stimulate hair growth; a related analogue is approved for eyelash hypotrichosis), but the genetic follicular defect may not respond. May merit a focused literature search (99.0%)</li>
+<li>Congenital hypotrichosis milia | 99.71% | Similar rationale to rank 3, but a rare congenital disorder (99.0%)</li>
+<li>Angiodysplasia of stomach | 99.70% | No credible link; vasodilation could be undesirable in a bleeding lesion (99.0%)</li>
+<li>Blue toe syndrome | 99.69% | Speculative only; topical dosing gives no relevant systemic exposure (99.0%)</li>
+<li>Lymphangiectasis | 99.67% | Too indirect to support a hypothesis (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/latanoprost/' | relative_url }}">View full drug report →</a></p>

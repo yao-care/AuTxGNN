@@ -3,7 +3,7 @@ layout: default
 title: "Perhexiline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Perhexiline. Original indication: . 10 predicted indications."
+description: "Health news related to Perhexiline. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/perhexiline/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Perhexiline with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction is based on the...</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>migraine disorder (99.0%)</li>
 <li>migraine with brainstem aura (98.8%)</li>

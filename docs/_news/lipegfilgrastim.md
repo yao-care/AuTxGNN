@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Lipegfilgrastim with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>primary release disorder of platelets (99.9%)</li>
 <li>severe nonproliferative diabetic retinopathy (99.9%)</li>

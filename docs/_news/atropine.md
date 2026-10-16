@@ -3,7 +3,7 @@ layout: default
 title: "Atropine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Atropine. Original indication: Any proposed off-label or repurposing use would re.... 10 predicted indications."
+description: "Health news related to Atropine. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/atropine/
 ---
 
@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Atropine with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Original indication</strong>: Any proposed off-label or repurposing use would require engagement with the TGA Special Access Scheme Category B or C, or relevant hospital pharmacy governance and ethics review processes, before...</li>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **migraine disorder**, but there are **0 clinical trials** and only preclinical or indirect literature supporting this direction.</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>migraine disorder (99.6%)</li>

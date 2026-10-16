@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Norethisterone with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>amenorrhea (disease) (99.6%)</li>
 <li>symptomatic form of fragile X syndrome in female carrier (97.0%)</li>

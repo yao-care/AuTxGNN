@@ -3,7 +3,7 @@ layout: default
 title: "Dupilumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dupilumab. Original indication: The mechanistic case for bronchitis is strongest i.... 10 predicted indications."
+description: "Health news related to Dupilumab. Original indication: . 10 predicted indications."
 permalink: /news/dupilumab/
 ---
 
@@ -24,8 +24,7 @@ This page combines the AI-predicted indications for Dupilumab with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Original indication</strong>: The mechanistic case for bronchitis is strongest in eosinophilic and Type 2 inflammatory subtypes. IL-4 and IL-13 are the primary drivers of airway mucus hypersecretion, eosinophilic airway...</li>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>bronchitis (99.9%)</li>
 <li>dermatitis (99.7%)</li>

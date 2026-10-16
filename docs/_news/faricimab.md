@@ -3,7 +3,7 @@ layout: default
 title: "Faricimab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Faricimab. Original indication: . 10 predicted indications."
+description: "Health news related to Faricimab. Original indication: The rest of this report covers diabetic retinopath.... 10 predicted indications."
 permalink: /news/faricimab/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Faricimab with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: The rest of this report covers diabetic retinopathy, because it is the only prediction with substantial evidence. A note on the other predictions follows the Quick Overview.</li>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>primary release disorder of platelets (98.9%)</li>
 <li>pseudo-von Willebrand disease (98.7%)</li>

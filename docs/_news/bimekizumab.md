@@ -3,7 +3,7 @@ layout: default
 title: "Bimekizumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bimekizumab. Original indication: The theoretical link to diabetic cataract is mecha.... 10 predicted indications."
+description: "Health news related to Bimekizumab. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/bimekizumab/
 ---
 
@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Bimekizumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Original indication</strong>: The theoretical link to diabetic cataract is mechanistically indirect. IL-17A and IL-17F are upregulated in the diabetic inflammatory milieu, and via NF-κB activation they may theoretically...</li>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **diabetic cataract**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction is computational...</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>diabetic cataract (98.2%)</li>

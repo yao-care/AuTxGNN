@@ -3,7 +3,7 @@ layout: default
 title: "Encorafenib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Encorafenib. Original indication: . 11 predicted indications."
+description: "Health news related to Encorafenib. Original indication: . 9 predicted indications."
 permalink: /news/encorafenib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/encorafenib/
 ---
 
 <p class="key-answer" data-question="What news is there about Encorafenib?">
-<strong>Encorafenib</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
+<strong>Encorafenib</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Encorafenib with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (11)</strong>:<ul>
+<li><strong>Predicted indications (9)</strong>:<ul>
 <li>Choroideremia (97.1%)</li>
 <li>Epithelioid cell melanoma (96.5%)</li>
 <li>Eyelid melanoma (96.4%)</li>
@@ -35,8 +35,6 @@ This page combines the AI-predicted indications for Encorafenib with the latest 
 <li>Superficial spreading melanoma (95.6%)</li>
 <li>Lentigo maligna melanoma (95.6%)</li>
 <li>Acral lentiginous melanoma (95.6%)</li>
-<li>non-cutaneous melanoma (96.5%)</li>
-<li>acral lentiginous melanoma (disease) (95.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/encorafenib/' | relative_url }}">View full drug report →</a></p>

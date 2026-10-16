@@ -3,7 +3,7 @@ layout: default
 title: "Fexofenadine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fexofenadine. Original indication: . 10 predicted indications."
+description: "Health news related to Fexofenadine. Original indication: . 9 predicted indications."
 permalink: /news/fexofenadine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fexofenadine/
 ---
 
 <p class="key-answer" data-question="What news is there about Fexofenadine?">
-<strong>Fexofenadine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Fexofenadine</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,17 @@ This page combines the AI-predicted indications for Fexofenadine with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>rosacea conjunctivitis (99.8%)</li>
-<li>punctate epithelial keratoconjunctivitis (98.6%)</li>
-<li>blepharoconjunctivitis (98.4%)</li>
-<li>viral conjunctivitis (98.2%)</li>
-<li>parasitic eyelid infestation (96.7%)</li>
-<li>ulcerative blepharitis (96.6%)</li>
-<li>infective urethral stricture (96.3%)</li>
-<li>postinfectious vasculitis (96.1%)</li>
-<li>post-bacterial disorder (96.1%)</li>
-<li>noninfectious dermatoses of eyelid (95.8%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Punctate epithelial keratoconjunctivitis | 98.63% | Symptomatic benefit at best; often viral or toxic (99.0%)</li>
+<li>Blepharoconjunctivitis | 98.40% | Plausible for the allergic subtype only (99.0%)</li>
+<li>Viral conjunctivitis | 98.17% | No antiviral activity; itch relief only (99.0%)</li>
+<li>Parasitic eyelid infestation | 96.67% | Needs an antiparasitic; antihistamine relieves pruritus only (99.0%)</li>
+<li>Ulcerative blepharitis | 96.59% | Needs antimicrobial and lid hygiene (99.0%)</li>
+<li>Infective urethral stricture | 96.33% | No plausible link; fibrotic condition managed surgically (99.0%)</li>
+<li>Postinfectious vasculitis | 96.13% | Indirect; not disease-modifying (99.0%)</li>
+<li>Post-bacterial disorder | 96.11% | Term too non-specific to assess (99.0%)</li>
+<li>Noninfectious dermatoses of eyelid | 95.84% | Most plausible after allergic conjunctival; topical therapy usually preferred (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fexofenadine/' | relative_url }}">View full drug report →</a></p>

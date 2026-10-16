@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Oxazepam with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>insomnia (disease) (99.9%)</li>
 <li>sleep disorder, initiating and maintaining sleep (96.3%)</li>

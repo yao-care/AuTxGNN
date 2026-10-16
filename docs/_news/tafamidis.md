@@ -24,17 +24,18 @@ This page combines the AI-predicted indications for Tafamidis with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>primary release disorder of platelets (89.3%)</li>
-<li>thrombocytopenic purpura (88.7%)</li>
-<li>pseudo-von Willebrand disease (87.9%)</li>
-<li>Glanzmann thrombasthenia (85.8%)</li>
-<li>primary amyloidosis (85.0%)</li>
-<li>acquired amyloid peripheral neuropathy (84.8%)</li>
-<li>primary hyperoxaluria (84.3%)</li>
-<li>dermis disease (83.4%)</li>
-<li>biotin metabolic disease (83.3%)</li>
-<li>mixed-type autoimmune hemolytic anemia (82.3%)</li>
+<li>Primary release disorder of platelets | 89.27% | L5 | Hold (99.0%)</li>
+<li>Thrombocytopenic purpura | 88.73% | L5 | Hold (99.0%)</li>
+<li>Pseudo-von Willebrand disease | 87.88% | L5 | Hold (99.0%)</li>
+<li>Glanzmann thrombasthenia | 85.79% | L5 | Hold (99.0%)</li>
+<li>Primary amyloidosis | 85.00% | L4 | Research Question (99.0%)</li>
+<li>Acquired amyloid peripheral neuropathy | 84.77% | L4 | Research Question (99.0%)</li>
+<li>Primary hyperoxaluria | 84.33% | L5 | Hold (99.0%)</li>
+<li>Dermis disease | 83.36% | L5 | Hold (99.0%)</li>
+<li>Biotin metabolic disease | 83.32% | L5 | Hold (99.0%)</li>
+<li>Mixed-type autoimmune haemolytic anaemia | 82.31% | L5 | Hold (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tafamidis/' | relative_url }}">View full drug report →</a></p>

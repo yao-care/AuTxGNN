@@ -3,7 +3,7 @@ layout: default
 title: "Acetazolamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Acetazolamide. Original indication: Clinicians wishing to prescribe Acetazolamide in A.... 10 predicted indications."
+description: "Health news related to Acetazolamide. Original indication: . 10 predicted indications."
 permalink: /news/acetazolamide/
 ---
 
@@ -24,7 +24,6 @@ This page combines the AI-predicted indications for Acetazolamide with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Original indication</strong>: Clinicians wishing to prescribe Acetazolamide in Australia would need to access it through one of the following pathways:</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>exercise-induced malignant hyperthermia (100.0%)</li>

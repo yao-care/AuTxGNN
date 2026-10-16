@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Naproxen with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>brachydactyly-syndactyly syndrome (99.3%)</li>
 <li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.2%)</li>

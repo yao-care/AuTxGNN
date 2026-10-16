@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Olaparib with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>female breast carcinoma (99.1%)</li>
 <li>gonadal germ cell tumor (99.0%)</li>

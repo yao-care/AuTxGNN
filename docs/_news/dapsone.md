@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Dapsone with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>pneumocystosis (99.7%)</li>
 <li>malaria (98.3%)</li>

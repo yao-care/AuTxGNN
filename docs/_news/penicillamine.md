@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Penicillamine with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>megaloblastic anemia (disease) (98.0%)</li>
 <li>tricarboxylic acid cycle disorder (93.5%)</li>

@@ -3,7 +3,7 @@ layout: default
 title: "Umeclidinium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Umeclidinium. Original indication: . 10 predicted indications."
+description: "Health news related to Umeclidinium. Original indication: A link to migraine is speculative. Muscarinic sign.... 9 predicted indications."
 permalink: /news/umeclidinium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/umeclidinium/
 ---
 
 <p class="key-answer" data-question="What news is there about Umeclidinium?">
-<strong>Umeclidinium</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Umeclidinium</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,18 @@ This page combines the AI-predicted indications for Umeclidinium with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>migraine disorder (96.4%)</li>
-<li>migraine with brainstem aura (95.8%)</li>
-<li>open-angle glaucoma (93.3%)</li>
-<li>primary hereditary glaucoma (92.9%)</li>
-<li>nephrogenic syndrome of inappropriate antidiuresis (92.0%)</li>
-<li>gastroduodenitis (91.9%)</li>
-<li>common cold (91.7%)</li>
-<li>atrophoderma vermiculata (91.2%)</li>
-<li>peptic ulcer disease (91.0%)</li>
-<li>allergic urticaria (90.7%)</li>
+<li><strong>Original indication</strong>: A link to migraine is speculative. Muscarinic signalling has been proposed to modulate trigeminovascular and cortical pathways, but this has not been established for an inhaled, locally acting agent...</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Migraine with brainstem aura | 95.83% | Likely reflects proximity to the parent migraine node. No plausible mechanism at low systemic exposure. (99.0%)</li>
+<li>Open-angle glaucoma | 93.28% | Anticholinergics can raise intraocular pressure. Likely a risk signal rather than a benefit. (99.0%)</li>
+<li>Primary hereditary glaucoma | 92.91% | Muscarinic antagonism is expected to be neutral or harmful. (99.0%)</li>
+<li>Nephrogenic syndrome of inappropriate antidiuresis | 92.03% | Driven by AVPR2 variants. No known activity at this receptor. (99.0%)</li>
+<li>Gastroduodenitis | 91.91% | Weak class-level rationale. Systemic exposure is too low. (99.0%)</li>
+<li>Common cold | 91.74% | Intranasal anticholinergics reduce rhinorrhoea. Inhaled delivery is unsuitable. (99.0%)</li>
+<li>Atrophoderma vermiculata | 91.24% | No recognised mechanism. (99.0%)</li>
+<li>Peptic ulcer disease | 91.05% | Superseded by PPIs and H. pylori eradication. (99.0%)</li>
+<li>Allergic urticaria | 90.66% | Histamine-driven. Muscarinic blockade is not a primary mechanism. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/umeclidinium/' | relative_url }}">View full drug report →</a></p>

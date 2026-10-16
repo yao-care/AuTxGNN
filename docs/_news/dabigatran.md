@@ -3,7 +3,7 @@ layout: default
 title: "Dabigatran News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dabigatran. Original indication: . 10 predicted indications."
+description: "Health news related to Dabigatran. Original indication: he TxGNN model predicts it may be useful for **myo.... 10 predicted indications."
 permalink: /news/dabigatran/
 ---
 
@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Dabigatran with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be useful for **myocardial infarction** (the highest-ranked prediction with meaningful supporting evidence), with **1 completed Phase 3 placebo-controlled trial** and...</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>hemoglobinopathy (98.4%)</li>

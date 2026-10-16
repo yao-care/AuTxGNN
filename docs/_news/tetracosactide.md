@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Tetracosactide with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>familial adrenal hypoplasia with absent pituitary luteinizing hormone (98.2%)</li>
 <li>adrenomyodystrophy (97.8%)</li>

@@ -3,7 +3,7 @@ layout: default
 title: "Azacitidine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Azacitidine. Original indication: . 10 predicted indications."
+description: "Health news related to Azacitidine. Original indication: . 2 predicted indications."
 permalink: /news/azacitidine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/azacitidine/
 ---
 
 <p class="key-answer" data-question="What news is there about Azacitidine?">
-<strong>Azacitidine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Azacitidine</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,10 @@ This page combines the AI-predicted indications for Azacitidine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>bulbar polio (98.6%)</li>
-<li>refractory cytopenia of childhood (98.2%)</li>
-<li>unclassified myelodysplastic syndrome (98.1%)</li>
-<li>partial deletion of the long arm of chromosome 5 (97.9%)</li>
-<li>aregenerative anemia (97.9%)</li>
-<li>severe congenital hypochromic anemia with ringed sideroblasts (97.6%)</li>
-<li>5q35 microduplication syndrome (97.5%)</li>
-<li>neuralgic amyotrophy (96.2%)</li>
-<li>amyotrophic neuralgia (95.9%)</li>
-<li>familial thrombocytosis (93.1%)</li>
+<li><strong>Evidence level</strong>: L2</li>
+<li><strong>Predicted indications (2)</strong>:<ul>
+<li>Refractory cytopenia of childhood | 98.20% | L3 | Research Question (retrospective paediatric MDS data, PMID 26766110) (99.0%)</li>
+<li>Unclassified myelodysplastic syndrome | 98.10% | L3 | Research Question (registry and Phase 2 data; largely an on-label extension) (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/azacitidine/' | relative_url }}">View full drug report →</a></p>

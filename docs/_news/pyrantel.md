@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Pyrantel with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>papillary conjunctivitis (98.0%)</li>
 <li>toxocariasis (95.5%)</li>

@@ -3,7 +3,7 @@ layout: default
 title: "Vancomycin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Vancomycin. Original indication: . 11 predicted indications."
+description: "Health news related to Vancomycin. Original indication: . 9 predicted indications."
 permalink: /news/vancomycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/vancomycin/
 ---
 
 <p class="key-answer" data-question="What news is there about Vancomycin?">
-<strong>Vancomycin</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
+<strong>Vancomycin</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Vancomycin with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (11)</strong>:<ul>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
 <li>Paratyphoid fever (99.8%)</li>
 <li>Salmonellosis (99.8%)</li>
 <li>Congenital analbuminemia (99.8%)</li>
@@ -34,8 +35,6 @@ This page combines the AI-predicted indications for Vancomycin with the latest h
 <li>Blood group incompatibility (99.6%)</li>
 <li>Streptococcal pneumonia (99.6%)</li>
 <li>Premalignant haematological system disease (99.5%)</li>
-<li>diffuse scleroderma (99.9%)</li>
-<li>premalignant hematological system disease (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/vancomycin/' | relative_url }}">View full drug report →</a></p>

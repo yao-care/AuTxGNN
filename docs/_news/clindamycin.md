@@ -3,7 +3,7 @@ layout: default
 title: "Clindamycin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Clindamycin. Original indication: . 10 predicted indications."
+description: "Health news related to Clindamycin. Original indication: . 9 predicted indications."
 permalink: /news/clindamycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/clindamycin/
 ---
 
 <p class="key-answer" data-question="What news is there about Clindamycin?">
-<strong>Clindamycin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Clindamycin</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,16 @@ This page combines the AI-predicted indications for Clindamycin with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>punctate epithelial keratoconjunctivitis (100.0%)</li>
-<li>exposure keratitis (99.8%)</li>
-<li>non-human animal disease (99.7%)</li>
-<li>neurotrophic keratopathy (99.5%)</li>
-<li>epidemic keratoconjunctivitis (99.5%)</li>
-<li>postmenopausal atrophic vaginitis (99.0%)</li>
-<li>superior limbic keratoconjunctivitis (99.0%)</li>
-<li>toxic maculopathy due to antimalarial drugs (98.3%)</li>
-<li>keratomalacia (98.3%)</li>
-<li>ophthalmia nodosa (98.3%)</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Exposure keratitis | 99.80% | L4 | Plausible only for secondary Gram-positive bacterial infection. The retrieved papers cover microbial keratitis in general, not this condition or clindamycin. (99.0%)</li>
+<li>Non-human animal disease | 99.69% | L5 | Non-specific category. The papers concern *C. difficile* epidemiology in animals, and clindamycin is a risk factor for that infection. (99.0%)</li>
+<li>Neurotrophic keratopathy | 99.49% | L5 | Caused by impaired corneal nerve supply. Antibiotic mechanism not relevant. (99.0%)</li>
+<li>Epidemic keratoconjunctivitis | 99.49% | L5 | Adenoviral. Clindamycin has no antiviral activity. Retrieved papers concern bovine disease. (99.0%)</li>
+<li>Postmenopausal atrophic vaginitis | 99.03% | L5 | Driven by oestrogen deficiency, not infection. (99.0%)</li>
+<li>Superior limbic keratoconjunctivitis | 98.97% | L5 | Chronic inflammatory and mechanical, not bacterial. (99.0%)</li>
+<li>Toxic maculopathy due to antimalarial drugs | 98.28% | L5 | Drug-induced retinal toxicity that clindamycin would not treat. (99.0%)</li>
+<li>Keratomalacia | 98.28% | L5 | Caused by vitamin A deficiency. Antibiotics address only secondary infection. (99.0%)</li>
+<li>Ophthalmia nodosa | 98.28% | L5 | Granulomatous reaction to caterpillar hairs, not bacterial. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/clindamycin/' | relative_url }}">View full drug report →</a></p>

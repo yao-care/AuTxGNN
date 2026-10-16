@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Niraparib with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>epiglottis neoplasm (100.0%)</li>
 <li>cystic neoplasm (100.0%)</li>

@@ -3,7 +3,7 @@ layout: default
 title: "Ascorbic acid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ascorbic acid. Original indication: . 11 predicted indications."
+description: "Health news related to Ascorbic acid. Original indication: . 0 predicted indications."
 permalink: /news/ascorbic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ascorbic_acid/
 ---
 
 <p class="key-answer" data-question="What news is there about Ascorbic acid?">
-<strong>Ascorbic acid</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
+<strong>Ascorbic acid</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,22 +24,8 @@ This page combines the AI-predicted indications for Ascorbic acid with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (11)</strong>:<ul>
-<li>Vitamin deficiency disorder (99.5%)</li>
-<li>Perinatal disease (99.5%)</li>
-<li>Oesophageal disease (99.9%)</li>
-<li>non-syndromic esophageal malformation (100.0%)</li>
-<li>esophageal disease (99.9%)</li>
-<li>congenital prothrombin deficiency (99.7%)</li>
-<li>injury (99.6%)</li>
-<li>biotin metabolic disease (99.5%)</li>
-<li>segmental odontomaxillary dysplasia (99.5%)</li>
-<li>florid cemento-osseous dysplasia (99.5%)</li>
-<li>disease by subcellular system affected (99.5%)</li>
-</ul></li>
 </ul>
-<p><a href="{{ '/drugs/ascorbic-acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/ascorbic_acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

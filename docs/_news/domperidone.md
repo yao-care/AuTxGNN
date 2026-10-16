@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Domperidone with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>nephrogenic syndrome of inappropriate antidiuresis (99.1%)</li>
 <li>Plasmodium falciparum malaria (98.7%)</li>

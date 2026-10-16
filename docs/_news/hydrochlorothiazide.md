@@ -3,7 +3,7 @@ layout: default
 title: "Hydrochlorothiazide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Hydrochlorothiazide. Original indication: . 10 predicted indications."
+description: "Health news related to Hydrochlorothiazide. Original indication: Chronic pulmonary heart disease (97.80%) has a mor.... 10 predicted indications."
 permalink: /news/hydrochlorothiazide/
 ---
 
@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Hydrochlorothiazide with the
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: Chronic pulmonary heart disease (97.80%) has a more plausible, but only symptomatic, rationale. Diuretics, including thiazides combined with loop diuretics, are used to manage fluid overload in right...</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>malignant hypertensive renal disease (98.4%)</li>

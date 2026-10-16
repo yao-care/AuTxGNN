@@ -3,7 +3,7 @@ layout: default
 title: "Certolizumab pegol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Certolizumab pegol. Original indication: . 10 predicted indications."
+description: "Health news related to Certolizumab pegol. Original indication: . 0 predicted indications."
 permalink: /news/certolizumab_pegol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/certolizumab_pegol/
 ---
 
 <p class="key-answer" data-question="What news is there about Certolizumab pegol?">
-<strong>Certolizumab pegol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Certolizumab pegol</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,20 +24,8 @@ This page combines the AI-predicted indications for Certolizumab pegol with the 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>rheumatoid vasculitis (99.8%)</li>
-<li>hypermobility of coccyx (99.8%)</li>
-<li>inflammatory spondylopathy (99.7%)</li>
-<li>Kummell disease (99.7%)</li>
-<li>polyarticular juvenile rheumatoid arthritis (99.7%)</li>
-<li>vertebral disease (99.3%)</li>
-<li>mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency (96.8%)</li>
-<li>brachydactyly-syndactyly syndrome (96.0%)</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (95.7%)</li>
-<li>tenosynovitis (95.7%)</li>
-</ul></li>
 </ul>
-<p><a href="{{ '/drugs/certolizumab-pegol/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/certolizumab_pegol/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

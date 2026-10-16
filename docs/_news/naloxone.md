@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Naloxone with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>continuous spikes and waves during sleep (88.2%)</li>
 <li>lissencephaly with cerebellar hypoplasia (87.4%)</li>

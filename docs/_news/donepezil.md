@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Donepezil with the latest he
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>psychogenic movement disorders (99.2%)</li>
-<li>chronic tic disorder (99.2%)</li>
-<li>primary orthostatic tremor (99.2%)</li>
-<li>extrapyramidal and movement disease (99.2%)</li>
-<li>benign shuddering attacks (99.2%)</li>
-<li>tremor-nystagmus-duodenal ulcer syndrome (99.2%)</li>
-<li>benign paroxysmal tonic upgaze of childhood with ataxia (99.1%)</li>
-<li>lingual-facial-buccal dyskinesia (99.0%)</li>
-<li>acute intermittent porphyria (98.8%)</li>
-<li>glaucoma (98.3%)</li>
+<li>Psychogenic movement disorders | 99.23% | L5 | No trials or literature (99.0%)</li>
+<li>Chronic tic disorder | 99.19% | L3 | Small open-label study, case reports, mouse data (99.0%)</li>
+<li>Primary orthostatic tremor | 99.17% | L5 | No evidence (99.0%)</li>
+<li>Extrapyramidal and movement disease | 99.16% | L3 | Small benefit study in tardive disorders, but a 2025 systematic review links cholinesterase inhibitors to movement disorders (99.0%)</li>
+<li>Benign shuddering attacks | 99.16% | L5 | No evidence; benign paediatric condition (99.0%)</li>
+<li>Tremor-nystagmus-duodenal ulcer syndrome | 99.15% | L5 | Only article is off-target; ulcer safety concern (99.0%)</li>
+<li>Benign paroxysmal tonic upgaze of childhood with ataxia | 99.12% | L5 | No evidence (99.0%)</li>
+<li>Lingual-facial-buccal dyskinesia | 99.02% | L3 | Cochrane reviews of cholinergic drugs in tardive dyskinesia; donepezil-specific efficacy unclear (99.0%)</li>
+<li>Acute intermittent porphyria | 98.75% | L5 | No evidence; porphyria safety not evaluated (99.0%)</li>
+<li>Glaucoma | 98.28% | L3 | Pilot and preclinical signals only; one angle-closure case after donepezil withdrawal (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/donepezil/' | relative_url }}">View full drug report →</a></p>

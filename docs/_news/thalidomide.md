@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Thalidomide with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>ganglioneuroblastoma (disease) (99.0%)</li>
 <li>vertebral anomalies and variable endocrine and T-cell dysfunction (99.0%)</li>

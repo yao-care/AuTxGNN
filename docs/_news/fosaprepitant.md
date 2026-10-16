@@ -3,7 +3,7 @@ layout: default
 title: "Fosaprepitant News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fosaprepitant. Original indication: . 10 predicted indications."
+description: "Health news related to Fosaprepitant. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/fosaprepitant/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Fosaprepitant with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are currently **0 clinical trials** and **0 publications** supporting this...</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>nephrogenic syndrome of inappropriate antidiuresis (99.9%)</li>
 <li>pneumocystosis (99.9%)</li>

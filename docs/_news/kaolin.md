@@ -3,7 +3,7 @@ layout: default
 title: "Kaolin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Kaolin. Original indication: . 10 predicted indications."
+description: "Health news related to Kaolin. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/kaolin/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Kaolin with the latest healt
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **thrombotic disease**, but there are **no registered clinical trials** and the **18 publications** retrieved mostly use kaolin as a laboratory assay...</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>thrombotic disease (94.7%)</li>
 <li>bronchitis (91.9%)</li>

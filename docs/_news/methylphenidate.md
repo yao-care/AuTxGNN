@@ -3,7 +3,7 @@ layout: default
 title: "Methylphenidate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Methylphenidate. Original indication: . 10 predicted indications."
+description: "Health news related to Methylphenidate. Original indication: . 9 predicted indications."
 permalink: /news/methylphenidate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/methylphenidate/
 ---
 
 <p class="key-answer" data-question="What news is there about Methylphenidate?">
-<strong>Methylphenidate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Methylphenidate</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,17 @@ This page combines the AI-predicted indications for Methylphenidate with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>faciodigitogenital syndrome (100.0%)</li>
-<li>chondromyxoid fibroma (100.0%)</li>
-<li>specific developmental disorder (100.0%)</li>
-<li>dysthymic disorder (99.1%)</li>
-<li>trichotillomania (98.8%)</li>
-<li>cerebellar ataxia (98.4%)</li>
-<li>autosomal dominant cerebellar ataxia (98.4%)</li>
-<li>spinocerebellar degeneration with slow eye movements (97.6%)</li>
-<li>benign paroxysmal torticollis of infancy (97.5%)</li>
-<li>insomnia (disease) (97.5%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Chondromyxoid fibroma | 99.99% | L5 | No plausible mechanistic link; likely a graph artefact (99.0%)</li>
+<li>Specific developmental disorder | 99.99% | L4 | Overlaps with the approved ADHD use; evidence is indirect (99.0%)</li>
+<li>Dysthymic disorder | 99.11% | L4 | Plausible dopaminergic rationale; no direct testing in dysthymia (99.0%)</li>
+<li>Trichotillomania | 98.83% | L4 | Signal is mainly safety-related (reports of onset or worsening on treatment) (99.0%)</li>
+<li>Cerebellar ataxia | 98.39% | L4 | Imaging and case-level reports; symptomatic effects on attention and fatigue only (99.0%)</li>
+<li>Autosomal dominant cerebellar ataxia | 98.38% | L4 | Single dopamine transporter PET study; no methylphenidate intervention (99.0%)</li>
+<li>Spinocerebellar degeneration with slow eye movements | 97.57% | L4 | Imaging studies only; indirect rationale (99.0%)</li>
+<li>Benign paroxysmal torticollis of infancy | 97.51% | L5 | No mechanistic rationale or evidence (99.0%)</li>
+<li>Insomnia | 97.51% | L3 | Stimulant is mechanistically opposed to treating insomnia; the trials examine sleep as an ADHD treatment outcome (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/methylphenidate/' | relative_url }}">View full drug report →</a></p>

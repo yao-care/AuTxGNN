@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Esomeprazole with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>duodenogastric reflux (99.5%)</li>
 <li>duodenal obstruction (99.5%)</li>

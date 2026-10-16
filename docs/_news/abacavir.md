@@ -3,7 +3,7 @@ layout: default
 title: "Abacavir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Abacavir. Original indication: Abacavir is indicated in antiretroviral combinatio.... 10 predicted indications."
+description: "Health news related to Abacavir. Original indication: . 10 predicted indications."
 permalink: /news/abacavir/
 ---
 
@@ -24,8 +24,7 @@ This page combines the AI-predicted indications for Abacavir with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Original indication</strong>: Abacavir is indicated in antiretroviral combination therapy for the treatment of **Human Immunodeficiency Virus (HIV-1) infection** in adults and children aged ≥3 months.</li>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>simian immunodeficiency virus infection (99.8%)</li>
 <li>feline acquired immunodeficiency syndrome (99.8%)</li>

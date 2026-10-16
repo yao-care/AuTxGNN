@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Pramipexole with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>attention deficit-hyperactivity disorder (100.0%)</li>
 <li>faciodigitogenital syndrome (100.0%)</li>

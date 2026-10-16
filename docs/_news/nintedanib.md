@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Nintedanib with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>dermatofibrosarcoma protuberans (99.2%)</li>
 <li>liposarcoma (99.1%)</li>

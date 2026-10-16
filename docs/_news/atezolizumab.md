@@ -3,7 +3,7 @@ layout: default
 title: "Atezolizumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Atezolizumab. Original indication: . 10 predicted indications."
+description: "Health news related to Atezolizumab. Original indication: The only linked trial is a Phase 1b study of caboz.... 10 predicted indications."
 permalink: /news/atezolizumab/
 ---
 
@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Atezolizumab with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: The only linked trial is a Phase 1b study of cabozantinib with atezolizumab in advanced genitourinary tumours, which includes urothelial cohorts. It supports early safety and activity signals, but it...</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>prostatic urethra urothelial carcinoma (100.0%)</li>

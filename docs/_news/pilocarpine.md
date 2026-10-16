@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Pilocarpine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>primary hereditary glaucoma (99.8%)</li>
 <li>oral candidiasis (98.9%)</li>

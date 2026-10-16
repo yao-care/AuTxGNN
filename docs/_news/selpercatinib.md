@@ -3,7 +3,7 @@ layout: default
 title: "Selpercatinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Selpercatinib. Original indication: . 10 predicted indications."
+description: "Health news related to Selpercatinib. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/selpercatinib/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Selpercatinib with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **pulmonary hypertension**, but there are **no registered clinical trials** and **no publications that directly address this prediction**. The...</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>pulmonary hypertension (99.2%)</li>
 <li>migraine disorder (99.2%)</li>

@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Omalizumab with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>bronchitis (100.0%)</li>
 <li>atopic eczema (100.0%)</li>

@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Temozolomide with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>adult astrocytic tumour (99.4%)</li>
 <li>cauda equina neoplasm (99.3%)</li>

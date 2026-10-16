@@ -24,17 +24,18 @@ This page combines the AI-predicted indications for Cetuximab with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>bronchial adenomas/carcinoids childhood (100.0%)</li>
-<li>chondroid hamartoma (100.0%)</li>
-<li>ductal or ductular proliferation (100.0%)</li>
-<li>non-seminomatous lesion (100.0%)</li>
-<li>tumor of testis and paratestis (100.0%)</li>
-<li>odontogenic cyst (100.0%)</li>
-<li>thyroglossal duct cyst (100.0%)</li>
-<li>cystic neoplasm (100.0%)</li>
-<li>epiglottis neoplasm (100.0%)</li>
-<li>pre-malignant neoplasm (100.0%)</li>
+<li>Bronchial adenomas/carcinoids, childhood | L5 | 0 | 0 | Hold (99.0%)</li>
+<li>Chondroid hamartoma | L5 | 0 | 0 | Hold (99.0%)</li>
+<li>Ductal or ductular proliferation | L4 | 0 | 20 | Hold (99.0%)</li>
+<li>Non-seminomatous lesion | L5 | 0 | 0 | Hold (99.0%)</li>
+<li>Tumour of testis and paratestis | L5 | 0 | 0 | Hold (99.0%)</li>
+<li>Odontogenic cyst | L4 | 0 | 2 | Hold (99.0%)</li>
+<li>Thyroglossal duct cyst | L5 | 0 | 0 | Hold (99.0%)</li>
+<li>Cystic neoplasm | L2 | 4 | 20 | Research question (99.0%)</li>
+<li>Epiglottis neoplasm | L5 | 0 | 0 | Hold (99.0%)</li>
+<li>Pre-malignant neoplasm | L2 | 4 | 2 | Research question (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cetuximab/' | relative_url }}">View full drug report →</a></p>

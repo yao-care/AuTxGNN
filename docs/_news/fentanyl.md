@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Fentanyl with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>nephrogenic syndrome of inappropriate antidiuresis (99.5%)</li>
 <li>Tourette syndrome (99.0%)</li>

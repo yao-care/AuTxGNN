@@ -3,7 +3,7 @@ layout: default
 title: "Darolutamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Darolutamide. Original indication: . 10 predicted indications."
+description: "Health news related to Darolutamide. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/darolutamide/
 ---
 
@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Darolutamide with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **homozygous familial hypercholesterolaemia**, but there are **0 clinical trials** and **0 publications** supporting this prediction. It is a...</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>homozygous familial hypercholesterolemia (99.1%)</li>

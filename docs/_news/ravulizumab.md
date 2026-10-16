@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Ravulizumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>autosomal recessive severe congenital neutropenia due to G6PC3 deficiency (100.0%)</li>
 <li>cyclic hematopoiesis (99.9%)</li>

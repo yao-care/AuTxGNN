@@ -3,7 +3,7 @@ layout: default
 title: "Entrectinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Entrectinib. Original indication: . 10 predicted indications."
+description: "Health news related to Entrectinib. Original indication: he TxGNN model's top-ranked prediction is **multip.... 10 predicted indications."
 permalink: /news/entrectinib/
 ---
 
@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Entrectinib with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model's top-ranked prediction is **multiple endocrine neoplasia**, supported by **1 clinical trial** (terminated, 2 patients, not informative) and **1 publication** (a mechanistic study not...</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>multiple endocrine neoplasia (98.6%)</li>

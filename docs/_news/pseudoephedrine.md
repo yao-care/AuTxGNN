@@ -3,7 +3,7 @@ layout: default
 title: "Pseudoephedrine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pseudoephedrine. Original indication: . 10 predicted indications."
+description: "Health news related to Pseudoephedrine. Original indication: . 9 predicted indications."
 permalink: /news/pseudoephedrine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pseudoephedrine/
 ---
 
 <p class="key-answer" data-question="What news is there about Pseudoephedrine?">
-<strong>Pseudoephedrine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Pseudoephedrine</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,17 @@ This page combines the AI-predicted indications for Pseudoephedrine with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>nasal cavity disease (99.8%)</li>
-<li>acute laryngopharyngitis (99.7%)</li>
-<li>allergic urticaria (99.1%)</li>
-<li>trigeminal autonomic cephalalgia (98.9%)</li>
-<li>rosacea conjunctivitis (96.8%)</li>
-<li>cold urticaria (94.9%)</li>
-<li>faucial diphtheria (94.3%)</li>
-<li>cervical disc degenerative disorder (93.7%)</li>
-<li>massive neonatal aspiration syndrome (92.6%)</li>
-<li>bronchial disease (92.3%)</li>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Acute laryngopharyngitis | 99.73% | L5 | Model prediction only; no trials or literature (99.0%)</li>
+<li>Allergic urticaria | 99.14% | L4 | Literature concerns antihistamines, not pseudoephedrine (99.0%)</li>
+<li>Trigeminal autonomic cephalalgia | 98.92% | L5 | No evidence; sympathomimetics may worsen headache (99.0%)</li>
+<li>Rosacea conjunctivitis | 96.77% | L5 | No evidence (99.0%)</li>
+<li>Cold urticaria | 94.88% | L5 | One case report of posterior reversible encephalopathy syndrome with a pseudoephedrine cold medicine (a safety signal) (99.0%)</li>
+<li>Faucial diphtheria | 94.26% | L5 | No plausible role; likely spurious (99.0%)</li>
+<li>Cervical disc degenerative disorder | 93.72% | L5 | No rationale; likely an artefact (99.0%)</li>
+<li>Massive neonatal aspiration syndrome | 92.57% | L5 | No rationale; neonatal safety concerns (99.0%)</li>
+<li>Bronchial disease | 92.34% | L3 | One Phase 4 trial (NCT00441246, n=600, completed, Mucinex D adjunct to antibiotics in acute respiratory infection) with uncertain relevance; a small 1982 crossover study (PMID 7140799) and a 2026 rat COPD study (PMID 42059030); cardiovascular safety concerns (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pseudoephedrine/' | relative_url }}">View full drug report →</a></p>

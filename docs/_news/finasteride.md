@@ -3,7 +3,7 @@ layout: default
 title: "Finasteride News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Finasteride. Original indication: . 10 predicted indications."
+description: "Health news related to Finasteride. Original indication: . 9 predicted indications."
 permalink: /news/finasteride/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/finasteride/
 ---
 
 <p class="key-answer" data-question="What news is there about Finasteride?">
-<strong>Finasteride</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Finasteride</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,17 @@ This page combines the AI-predicted indications for Finasteride with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>Ambras type hypertrichosis universalis congenita (100.0%)</li>
-<li>hypertrichosis (disease) (100.0%)</li>
-<li>malformation syndrome with odontal and/or periodontal component (100.0%)</li>
-<li>syndrome with a Dandy-Walker malformation as major feature (100.0%)</li>
-<li>isolated genetic hair shaft abnormality (100.0%)</li>
-<li>familial isolated trichomegaly (99.2%)</li>
-<li>prostate calculus (98.6%)</li>
-<li>persistent fetal circulation syndrome (90.5%)</li>
-<li>chronic thromboembolic pulmonary hypertension (89.9%)</li>
-<li>migraine with brainstem aura (88.8%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Hypertrichosis | 99.99% | L4 | Hypertrichosis is androgen-independent, so the fit is weak. The retrieved papers are narrative reviews and a methods paper, and none shows finasteride treats it. Any signal likely reflects overlap with hirsutism. (99.0%)</li>
+<li>Malformation syndrome with odontal/periodontal component | 99.99% | L5 | No identified mechanistic link (99.0%)</li>
+<li>Syndrome with Dandy-Walker malformation | 99.99% | L5 | No plausible mechanism. Fetal exposure risk. (99.0%)</li>
+<li>Isolated genetic hair shaft abnormality | 99.99% | L5 | Inherited structural defects are not DHT-mediated (99.0%)</li>
+<li>Familial isolated trichomegaly | 99.15% | L5 | Speculative follicle link (99.0%)</li>
+<li>Prostate calculus | 98.60% | L4 | Classed as a Research Question. Any benefit would be a secondary effect of BPH treatment, not a distinct indication. (99.0%)</li>
+<li>Persistent fetal circulation syndrome | 90.49% | L5 | No link. Not indicated in neonates. (99.0%)</li>
+<li>Chronic thromboembolic pulmonary hypertension | 89.87% | L5 | No established mechanism (99.0%)</li>
+<li>Migraine with brainstem aura | 88.84% | L5 | Speculative neurosteroid link only (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/finasteride/' | relative_url }}">View full drug report →</a></p>

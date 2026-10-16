@@ -3,7 +3,7 @@ layout: default
 title: "Alprazolam News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Alprazolam. Original indication: . 10 predicted indications."
+description: "Health news related to Alprazolam. Original indication: . 3 predicted indications."
 permalink: /news/alprazolam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alprazolam/
 ---
 
 <p class="key-answer" data-question="What news is there about Alprazolam?">
-<strong>Alprazolam</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Alprazolam</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,11 @@ This page combines the AI-predicted indications for Alprazolam with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (3)</strong>:<ul>
 <li>Agoraphobia (99.6%)</li>
 <li>Phobic disorder (97.5%)</li>
 <li>Obsessive-compulsive disorder (98.2%)</li>
-<li>insomnia (disease) (99.8%)</li>
-<li>benign paroxysmal torticollis of infancy (99.6%)</li>
-<li>attention deficit-hyperactivity disorder (99.0%)</li>
-<li>attention deficit hyperactivity disorder, inattentive type (98.6%)</li>
-<li>chondromyxoid fibroma (98.1%)</li>
-<li>specific developmental disorder (98.0%)</li>
-<li>faciodigitogenital syndrome (98.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/alprazolam/' | relative_url }}">View full drug report →</a></p>

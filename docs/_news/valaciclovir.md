@@ -3,7 +3,7 @@ layout: default
 title: "Valaciclovir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Valaciclovir. Original indication: . 10 predicted indications."
+description: "Health news related to Valaciclovir. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/valaciclovir/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Valaciclovir with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **0 clinical trials** and only **5 retrieved publications**, all case reports or cohort-type papers that do not...</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>rheumatoid arthritis (99.0%)</li>
 <li>sclerosing cholangitis (98.7%)</li>

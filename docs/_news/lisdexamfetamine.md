@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Lisdexamfetamine with the la
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (3)</strong>:<ul>
 <li>specific developmental disorder (100.0%)</li>
 <li>faciodigitogenital syndrome (100.0%)</li>

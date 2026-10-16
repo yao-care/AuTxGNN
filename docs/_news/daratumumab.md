@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Daratumumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>indolent plasma cell myeloma (98.1%)</li>
 <li>cholangiocarcinoma, susceptibility to (65.1%)</li>

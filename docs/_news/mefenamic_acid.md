@@ -3,7 +3,7 @@ layout: default
 title: "Mefenamic acid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mefenamic acid. Original indication: . 10 predicted indications."
+description: "Health news related to Mefenamic acid. Original indication: . 0 predicted indications."
 permalink: /news/mefenamic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mefenamic_acid/
 ---
 
 <p class="key-answer" data-question="What news is there about Mefenamic acid?">
-<strong>Mefenamic acid</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Mefenamic acid</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,20 +24,8 @@ This page combines the AI-predicted indications for Mefenamic acid with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>Headache disorder (99.6%)</li>
-<li>Migraine disorder (99.2%)</li>
-<li>Osteoarthritis (98.7%)</li>
-<li>Migraine with brainstem aura (99.2%)</li>
-<li>rheumatoid arthritis (99.7%)</li>
-<li>osteoarthritis susceptibility (99.7%)</li>
-<li>trigeminal autonomic cephalalgia (99.5%)</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.5%)</li>
-<li>brachydactyly-syndactyly syndrome (99.5%)</li>
-<li>acromesomelic dysplasia, Hunter-Thompson type (98.8%)</li>
-</ul></li>
 </ul>
-<p><a href="{{ '/drugs/mefenamic-acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/mefenamic_acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

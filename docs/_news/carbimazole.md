@@ -3,7 +3,7 @@ layout: default
 title: "Carbimazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Carbimazole. Original indication: . 10 predicted indications."
+description: "Health news related to Carbimazole. Original indication: Other top-ranked predictions are much weaker. The .... 10 predicted indications."
 permalink: /news/carbimazole/
 ---
 
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Carbimazole with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Original indication</strong>: Other top-ranked predictions are much weaker. The highest-scoring one, resistance to thyroid hormone (RTH-beta), is a disorder of reduced tissue sensitivity to hormone. Lowering hormone production...</li>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (99.7%)</li>
 <li>neonatal thyrotoxicosis (99.4%)</li>

@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Rituximab with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>follicular lymphoma (96.1%)</li>
 <li>chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (93.6%)</li>

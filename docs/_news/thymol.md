@@ -3,7 +3,7 @@ layout: default
 title: "Thymol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Thymol. Original indication: . 10 predicted indications."
+description: "Health news related to Thymol. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/thymol/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Thymol with the latest healt
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **interventricular septum aneurysm**, but there are **0 clinical trials** and **0 publications** supporting this prediction.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>interventricular septum aneurysm (99.2%)</li>
 <li>pulmonary valve disease (99.2%)</li>

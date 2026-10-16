@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Febuxostat with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>hypouricemia, renal (100.0%)</li>
 <li>hypoxanthine guanine phosphoribosyltransferase partial deficiency (100.0%)</li>

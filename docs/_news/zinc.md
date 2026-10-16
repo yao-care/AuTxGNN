@@ -3,7 +3,7 @@ layout: default
 title: "Zinc News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Zinc. Original indication: . 10 predicted indications."
+description: "Health news related to Zinc. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/zinc/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Zinc with the latest health 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **filariasis** (score 93.2%), but there are **0 clinical trials** and no literature testing zinc as a treatment for filarial infection.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>filariasis (93.2%)</li>
 <li>primary hereditary glaucoma (92.1%)</li>

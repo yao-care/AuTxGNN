@@ -3,7 +3,7 @@ layout: default
 title: "Blinatumomab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Blinatumomab. Original indication: . 10 predicted indications."
+description: "Health news related to Blinatumomab. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/blinatumomab/
 ---
 
@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Blinatumomab with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **primary release disorder of platelets**, but there are **0 clinical trials** and **0 publications** supporting this prediction. It is a model-only...</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>primary release disorder of platelets (95.2%)</li>

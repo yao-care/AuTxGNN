@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Lanadelumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>C1 inhibitor deficiency (100.0%)</li>
 <li>serpinopathy with toxic serpin polymerization (100.0%)</li>

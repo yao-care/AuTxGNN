@@ -3,7 +3,7 @@ layout: default
 title: "Patisiran News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Patisiran. Original indication: . 11 predicted indications."
+description: "Health news related to Patisiran. Original indication: he TxGNN model predicts it may be effective for **.... 9 predicted indications."
 permalink: /news/patisiran/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/patisiran/
 ---
 
 <p class="key-answer" data-question="What news is there about Patisiran?">
-<strong>Patisiran</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
+<strong>Patisiran</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,9 @@ This page combines the AI-predicted indications for Patisiran with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (11)</strong>:<ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **dermatitis**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a computational signal only.</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
 <li>Hydroa vacciniforme, familial (90.1%)</li>
 <li>Amyopathic dermatomyositis (90.1%)</li>
 <li>Acne keloid (90.0%)</li>
@@ -34,8 +36,6 @@ This page combines the AI-predicted indications for Patisiran with the latest he
 <li>Smouldering systemic mastocytosis (85.1%)</li>
 <li>Overactive bladder (84.9%)</li>
 <li>Lymphoadenopathic mastocytosis with eosinophilia (84.6%)</li>
-<li>dermatitis (90.7%)</li>
-<li>overactive bladder (disease) (84.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/patisiran/' | relative_url }}">View full drug report →</a></p>

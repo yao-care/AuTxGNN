@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Furosemide with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>malignant hypertensive renal disease (98.0%)</li>
 <li>malignant renovascular hypertension (98.0%)</li>

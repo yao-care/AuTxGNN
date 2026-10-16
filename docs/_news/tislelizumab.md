@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Tislelizumab with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>mixed-type autoimmune hemolytic anemia (93.8%)</li>
 <li>idiopathic aplastic anemia (93.8%)</li>

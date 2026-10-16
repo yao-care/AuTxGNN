@@ -3,7 +3,7 @@ layout: default
 title: "Elotuzumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Elotuzumab. Original indication: . 10 predicted indications."
+description: "Health news related to Elotuzumab. Original indication: Other predictions in the list (benign and malignan.... 10 predicted indications."
 permalink: /news/elotuzumab/
 ---
 
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Elotuzumab with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Original indication</strong>: Other predictions in the list (benign and malignant colonic and cecal conditions, scores 73.9% to 76.3%) have no plausible mechanistic link. These conditions do not depend on SLAMF7, and they appear...</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>indolent plasma cell myeloma (98.6%)</li>
 <li>lipoma of colon (76.3%)</li>

@@ -3,7 +3,7 @@ layout: default
 title: "Bivalirudin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bivalirudin. Original indication: . 10 predicted indications."
+description: "Health news related to Bivalirudin. Original indication: . 9 predicted indications."
 permalink: /news/bivalirudin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bivalirudin/
 ---
 
 <p class="key-answer" data-question="What news is there about Bivalirudin?">
-<strong>Bivalirudin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Bivalirudin</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,17 @@ This page combines the AI-predicted indications for Bivalirudin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>primary release disorder of platelets (97.8%)</li>
-<li>Glanzmann thrombasthenia (97.8%)</li>
-<li>pseudo-von Willebrand disease (97.3%)</li>
-<li>rheumatoid arthritis (94.7%)</li>
-<li>bleeding diathesis due to a collagen receptor defect (93.5%)</li>
-<li>hemorrhagic disorder due to a constitutional thrombocytopenia (93.4%)</li>
-<li>fetal and neonatal alloimmune thrombocytopenia (93.1%)</li>
-<li>Scott syndrome (92.7%)</li>
-<li>inherited thrombophilia (92.2%)</li>
-<li>platelet-type bleeding disorder (91.9%)</li>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Glanzmann thrombasthenia | 97.79% | L5 | A GPIIb/IIIa bleeding disorder. Anticoagulation would worsen bleeding. (99.0%)</li>
+<li>Pseudo-von Willebrand disease | 97.34% | L5 | A GPIbα gain-of-function bleeding disorder. No corrective action; counterproductive. (99.0%)</li>
+<li>Rheumatoid arthritis | 94.68% | L5 | A theoretical link through thrombin (PAR-1) signalling only. A short-acting IV drug is impractical for a chronic condition. (99.0%)</li>
+<li>Bleeding diathesis due to a collagen receptor defect | 93.46% | L5 | Does not compensate for the receptor defect; increases bleeding risk. (99.0%)</li>
+<li>Hemorrhagic disorder due to a constitutional thrombocytopenia | 93.42% | L5 | Does not treat a bleeding disorder; may worsen bleeding. (99.0%)</li>
+<li>Fetal and neonatal alloimmune thrombocytopenia | 93.12% | L5 | An immune mechanism, managed with IVIG, corticosteroids and platelet transfusion. An anticoagulant would be hazardous. (99.0%)</li>
+<li>Scott syndrome | 92.69% | L5 | Reduced thrombin generation is already the problem; further suppression is mechanistically unhelpful. (99.0%)</li>
+<li>Inherited thrombophilia | 92.23% | L4 | Biologically plausible as an alternative anticoagulant, but supported only by one case report of HIT with thrombosis. (99.0%)</li>
+<li>Platelet-type bleeding disorder | 91.89% | L5 | Would not correct platelet defects; increases bleeding risk. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bivalirudin/' | relative_url }}">View full drug report →</a></p>

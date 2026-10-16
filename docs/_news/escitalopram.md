@@ -3,7 +3,7 @@ layout: default
 title: "Escitalopram News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Escitalopram. Original indication: . 10 predicted indications."
+description: "Health news related to Escitalopram. Original indication: . 1 predicted indications."
 permalink: /news/escitalopram/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/escitalopram/
 ---
 
 <p class="key-answer" data-question="What news is there about Escitalopram?">
-<strong>Escitalopram</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Escitalopram</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Escitalopram with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (1)</strong>:<ul>
 <li>Obsessive-compulsive disorder (98.4%)</li>
-<li>Ohdo syndrome and variants (98.6%)</li>
-<li>dysthymic disorder (98.5%)</li>
-<li>blepharophimosis - intellectual disability syndrome, Ohdo type (97.9%)</li>
-<li>benign paroxysmal torticollis of infancy (97.6%)</li>
-<li>histrionic personality disorder (disease) (97.4%)</li>
-<li>paranoid personality disorder (97.4%)</li>
-<li>schizoid personality disorder (97.4%)</li>
-<li>schizotypal personality disorder (97.4%)</li>
-<li>agoraphobia (96.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/escitalopram/' | relative_url }}">View full drug report →</a></p>

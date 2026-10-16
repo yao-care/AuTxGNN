@@ -3,7 +3,7 @@ layout: default
 title: "Chlorhexidine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Chlorhexidine. Original indication: . 10 predicted indications."
+description: "Health news related to Chlorhexidine. Original indication: . 4 predicted indications."
 permalink: /news/chlorhexidine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/chlorhexidine/
 ---
 
 <p class="key-answer" data-question="What news is there about Chlorhexidine?">
-<strong>Chlorhexidine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Chlorhexidine</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,12 @@ This page combines the AI-predicted indications for Chlorhexidine with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>chronic ethmoidal sinusitis (95.5%)</li>
-<li>sinusitis (95.3%)</li>
-<li>chronic rhinosinusitis (95.2%)</li>
-<li>paranasal sinus neoplasm (disease) (94.9%)</li>
-<li>tinea corporis (93.4%)</li>
-<li>blastomycosis (91.8%)</li>
-<li>Campylobacter fetus infectious disease (91.3%)</li>
-<li>catatrichy (89.4%)</li>
-<li>cutaneous candidiasis (88.0%)</li>
-<li>keratosis follicularis spinulosa decalvans, autosomal dominant (87.5%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>Sinusitis | 95.30% | L4 | Only indirect literature (surgical prophylaxis, case reports) (99.0%)</li>
+<li>Chronic rhinosinusitis | 95.22% | L4 | In vitro data on chlorhexidine-coated sinonasal stents; no clinical trials (99.0%)</li>
+<li>Tinea corporis | 93.37% | L4 | Mostly veterinary and in vitro data (99.0%)</li>
+<li>Cutaneous candidiasis | 88.01% | L4 | Indirect evidence only (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/chlorhexidine/' | relative_url }}">View full drug report →</a></p>

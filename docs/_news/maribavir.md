@@ -3,7 +3,7 @@ layout: default
 title: "Maribavir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Maribavir. Original indication: . 10 predicted indications."
+description: "Health news related to Maribavir. Original indication: he TxGNN model predicts it may be effective for **.... 9 predicted indications."
 permalink: /news/maribavir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/maribavir/
 ---
 
 <p class="key-answer" data-question="What news is there about Maribavir?">
-<strong>Maribavir</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Maribavir</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,18 @@ This page combines the AI-predicted indications for Maribavir with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>bronchitis (87.8%)</li>
-<li>severe nonproliferative diabetic retinopathy (79.1%)</li>
-<li>bronchial neoplasm (disease) (77.8%)</li>
-<li>diabetic retinopathy (76.2%)</li>
-<li>filariasis (74.3%)</li>
-<li>rectosigmoid junction neoplasm (73.4%)</li>
-<li>colonic lymphangioma (73.3%)</li>
-<li>lipoma of colon (73.2%)</li>
-<li>cecum neuroendocrine tumor G1 (73.1%)</li>
-<li>cecum villous adenoma (73.1%)</li>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **bronchitis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Severe nonproliferative diabetic retinopathy | 79.11% | No link to VEGF, inflammatory or microvascular pathways (99.0%)</li>
+<li>Bronchial neoplasm | 77.78% | Unvalidated link via CMV presence in some tumours (99.0%)</li>
+<li>Diabetic retinopathy | 76.24% | Broader category of rank 2, same lack of rationale (99.0%)</li>
+<li>Filariasis | 74.26% | No known activity against filarial parasites (99.0%)</li>
+<li>Rectosigmoid junction neoplasm | 73.41% | Likely a graph-association artefact (99.0%)</li>
+<li>Colonic lymphangioma | 73.32% | Benign malformation, no plausible link (99.0%)</li>
+<li>Lipoma of colon | 73.23% | Benign adipose tumour, no plausible link (99.0%)</li>
+<li>Caecum neuroendocrine tumour G1 | 73.13% | No activity against tumour drivers (99.0%)</li>
+<li>Caecum villous adenoma | 73.07% | Wnt/APC-driven lesion, not targeted by maribavir (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/maribavir/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Dosulepin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dosulepin. Original indication: . 10 predicted indications."
+description: "Health news related to Dosulepin. Original indication: . 9 predicted indications."
 permalink: /news/dosulepin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dosulepin/
 ---
 
 <p class="key-answer" data-question="What news is there about Dosulepin?">
-<strong>Dosulepin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Dosulepin</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,16 @@ This page combines the AI-predicted indications for Dosulepin with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>benign paroxysmal torticollis of infancy (99.0%)</li>
-<li>dysthymic disorder (98.9%)</li>
-<li>agoraphobia (98.8%)</li>
-<li>melancholia (98.2%)</li>
-<li>neurotic depression (98.2%)</li>
-<li>Ohdo syndrome and variants (98.1%)</li>
-<li>neurotic disorder (98.0%)</li>
-<li>Keppen-Lubinsky syndrome (97.7%)</li>
-<li>blepharophimosis - intellectual disability syndrome, Ohdo type (97.4%)</li>
-<li>ligneous conjunctivitis (96.9%)</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Dysthymic disorder | 98.86% | L5 | Hold (99.0%)</li>
+<li>Agoraphobia | 98.83% | L5 | Hold (99.0%)</li>
+<li>Melancholia | 98.23% | L3 | Research question (99.0%)</li>
+<li>Neurotic depression | 98.22% | L3 | Research question (99.0%)</li>
+<li>Ohdo syndrome and variants | 98.10% | L5 | Hold (99.0%)</li>
+<li>Neurotic disorder | 98.01% | L5 | Hold (99.0%)</li>
+<li>Keppen-Lubinsky syndrome | 97.70% | L5 | Hold (99.0%)</li>
+<li>Blepharophimosis - intellectual disability syndrome, Ohdo type | 97.37% | L5 | Hold (99.0%)</li>
+<li>Ligneous conjunctivitis | 96.88% | L5 | Hold (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dosulepin/' | relative_url }}">View full drug report →</a></p>

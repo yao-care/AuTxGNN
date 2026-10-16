@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Rifaximin with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>oral candidiasis (99.8%)</li>
 <li>commissural lip fistula (99.6%)</li>

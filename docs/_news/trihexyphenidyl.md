@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Trihexyphenidyl with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>attention deficit-hyperactivity disorder (99.9%)</li>
 <li>faciodigitogenital syndrome (99.9%)</li>

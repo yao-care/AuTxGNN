@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Zolmitriptan with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>migraine with brainstem aura (100.0%)</li>
 <li>atrophoderma vermiculata (99.9%)</li>

@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Salmeterol with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>bronchitis (99.9%)</li>
 <li>respiratory malformation (99.9%)</li>

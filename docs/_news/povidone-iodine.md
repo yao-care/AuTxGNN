@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Povidone-iodine with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>Plasmodium falciparum malaria (88.3%)</li>
 <li>peptic esophagitis (83.0%)</li>

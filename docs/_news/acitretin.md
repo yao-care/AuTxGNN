@@ -3,7 +3,7 @@ layout: default
 title: "Acitretin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Acitretin. Original indication: . 10 predicted indications."
+description: "Health news related to Acitretin. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/acitretin/
 ---
 
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Acitretin with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **acne**, with **1 clinical trial** and **18 publications** retrieved, most of which concern hidradenitis suppurativa (acne inversa) or retinoids in...</li>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>acne (disease) (99.9%)</li>
 <li>pediatric systemic lupus erythematosus (99.3%)</li>

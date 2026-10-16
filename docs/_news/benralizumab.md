@@ -3,7 +3,7 @@ layout: default
 title: "Benralizumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Benralizumab. Original indication: However, the clinical evidence tells a more comple.... 10 predicted indications."
+description: "Health news related to Benralizumab. Original indication: . 10 predicted indications."
 permalink: /news/benralizumab/
 ---
 
@@ -24,7 +24,6 @@ This page combines the AI-predicted indications for Benralizumab with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Original indication</strong>: However, the clinical evidence tells a more complex story. The HILLIER Phase 2 RCT (NCT04605094, n=194) was terminated early due to lack of primary efficacy, and the published results in JEADV (PMID...</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>thrombocytopenia due to immune destruction (99.3%)</li>

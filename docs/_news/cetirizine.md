@@ -3,7 +3,7 @@ layout: default
 title: "Cetirizine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cetirizine. Original indication: . 10 predicted indications."
+description: "Health news related to Cetirizine. Original indication: . 3 predicted indications."
 permalink: /news/cetirizine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cetirizine/
 ---
 
 <p class="key-answer" data-question="What news is there about Cetirizine?">
-<strong>Cetirizine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Cetirizine</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,11 @@ This page combines the AI-predicted indications for Cetirizine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Evidence level</strong>: L2</li>
+<li><strong>Predicted indications (3)</strong>:<ul>
 <li>Cold urticaria (100.0%)</li>
 <li>Angioedema (95.7%)</li>
 <li>Nasal cavity disease (99.8%)</li>
-<li>allergic urticaria (100.0%)</li>
-<li>acute laryngopharyngitis (99.7%)</li>
-<li>rosacea conjunctivitis (99.4%)</li>
-<li>recalcitrant atopic dermatitis (99.2%)</li>
-<li>IgE responsiveness, atopic (98.8%)</li>
-<li>punctate epithelial keratoconjunctivitis (94.7%)</li>
-<li>trigeminal autonomic cephalalgia (94.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cetirizine/' | relative_url }}">View full drug report →</a></p>

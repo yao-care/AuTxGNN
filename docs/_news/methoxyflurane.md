@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Methoxyflurane with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>insomnia (disease) (98.0%)</li>
 <li>migraine disorder (98.0%)</li>

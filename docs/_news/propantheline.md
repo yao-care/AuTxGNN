@@ -3,7 +3,7 @@ layout: default
 title: "Propantheline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Propantheline. Original indication: . 10 predicted indications."
+description: "Health news related to Propantheline. Original indication: . 9 predicted indications."
 permalink: /news/propantheline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/propantheline/
 ---
 
 <p class="key-answer" data-question="What news is there about Propantheline?">
-<strong>Propantheline</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Propantheline</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,17 @@ This page combines the AI-predicted indications for Propantheline with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>gastroduodenitis (99.9%)</li>
-<li>irritable bowel syndrome (99.2%)</li>
-<li>acute laryngopharyngitis (98.6%)</li>
-<li>nasal cavity disease (98.5%)</li>
-<li>pharyngitis (98.0%)</li>
-<li>bronchitis (93.2%)</li>
-<li>overactive bladder (disease) (89.2%)</li>
-<li>gastroenteritis (88.3%)</li>
-<li>cauda equina syndrome (86.9%)</li>
-<li>large intestine disease (76.9%)</li>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Irritable bowel syndrome | 99.16% | L4 | Research Question (99.0%)</li>
+<li>Acute laryngopharyngitis | 98.58% | L5 | Hold (99.0%)</li>
+<li>Nasal cavity disease | 98.55% | L5 | Hold (99.0%)</li>
+<li>Pharyngitis | 97.98% | L5 | Hold (99.0%)</li>
+<li>Bronchitis | 93.15% | L5 | Hold (99.0%)</li>
+<li>Overactive bladder | 89.20% | L3 | Research Question (99.0%)</li>
+<li>Gastroenteritis | 88.28% | L4 | Hold (99.0%)</li>
+<li>Cauda equina syndrome | 86.87% | L5 | Hold (99.0%)</li>
+<li>Large intestine disease | 76.86% | L5 | Hold (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/propantheline/' | relative_url }}">View full drug report →</a></p>

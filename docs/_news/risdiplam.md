@@ -3,7 +3,7 @@ layout: default
 title: "Risdiplam News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Risdiplam. Original indication: . 10 predicted indications."
+description: "Health news related to Risdiplam. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/risdiplam/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Risdiplam with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **acne**, with a high score but **no clinical trials and no publications** currently supporting this direction.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>acne (disease) (99.5%)</li>
 <li>drug-induced osteoporosis (97.7%)</li>

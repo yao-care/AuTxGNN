@@ -3,7 +3,7 @@ layout: default
 title: "Lisinopril News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lisinopril. Original indication: . 10 predicted indications."
+description: "Health news related to Lisinopril. Original indication: here are currently **no clinical trials** and **no.... 10 predicted indications."
 permalink: /news/lisinopril/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Lisinopril with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: here are currently **no clinical trials** and **no publications** supporting this specific subtype, so the prediction rests on model output and mechanistic reasoning alone.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>posterolateral myocardial infarction (99.9%)</li>
 <li>posteroinferior myocardial infarction (99.9%)</li>

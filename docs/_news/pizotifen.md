@@ -3,7 +3,7 @@ layout: default
 title: "Pizotifen News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pizotifen. Original indication: . 10 predicted indications."
+description: "Health news related to Pizotifen. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/pizotifen/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Pizotifen with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **migraine disorder**, which is largely a confirmation of an existing use rather than a novel repurposing.</li>
+<li><strong>Evidence level</strong>: L2</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>migraine disorder (98.8%)</li>
 <li>migraine with brainstem aura (98.5%)</li>
