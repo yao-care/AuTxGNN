@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Dabigatran: predicted new indication Myocardial infarction (evidence level L5). Approved use: Not available in the data compiled for this report. Dabigatran is gen…"
 monitor_inn: "Dabigatran"
-predicted_indications: ["hemoglobinopathy", "myocardial infarction", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyruvate kinase deficiency of red cells", "posterolateral myocardial infarction", "posteroinferior myocardial infarction", "septal myocardial infarction", "coronary thrombosis"]
+predicted_indications: ["hemoglobinopathy", "myocardial infarction", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyruvate kinase deficiency of red cells", "posterolateral myocardial infarction", "posteroinferior myocardial infarction", "septal myocardial infarction"]
 ---
 
 # Dabigatran
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

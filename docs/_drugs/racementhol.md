@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Racementhol: predicted new indication Acne keloid (evidence level L5). Approved use: Seborrheic dermatitis"
 monitor_inn: "Racementhol"
-predicted_indications: ["acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "hydroa vacciniforme, familial", "postinfectious vasculitis", "post-bacterial disorder"]
+predicted_indications: ["acne keloid", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "hydroa vacciniforme, familial", "postinfectious vasculitis", "post-bacterial disorder"]
 ---
 
 # Racementhol
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

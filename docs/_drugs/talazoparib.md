@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Talazoparib: predicted new indication HER2 positive breast carcinoma (evidence level L5). Approved use: Not stated in the ARTG data compiled for this report (the indication…"
 monitor_inn: "Talazoparib"
-predicted_indications: ["HER2 positive breast carcinoma", "HIV infectious disease", "progesterone-receptor negative breast cancer", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "multiple endocrine neoplasia", "primary release disorder of platelets", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
+predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "primary release disorder of platelets", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 ---
 
 # Talazoparib
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

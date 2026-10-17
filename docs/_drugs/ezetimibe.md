@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ezetimibe: predicted new indication Hyperlipoproteinaemia (evidence level L1). Approved use: Hyperlipidaemia, familial hyperlipidaemia…"
 monitor_inn: "Ezetimibe"
-predicted_indications: ["hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "hypercholesterolemia, autosomal dominant", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 ---
 
 # Ezetimibe
@@ -27,7 +27,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

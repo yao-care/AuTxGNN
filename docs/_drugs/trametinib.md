@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Trametinib: predicted new indication Non-cutaneous melanoma (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "Trametinib"
-predicted_indications: ["choroideremia", "non-cutaneous melanoma", "epithelioid cell melanoma", "eyelid melanoma", "scrotum melanoma", "amelanotic skin melanoma", "nodular malignant melanoma", "balloon cell malignant melanoma", "acral lentiginous melanoma (disease)", "CDK4 linked melanoma"]
+predicted_indications: ["choroideremia"]
 ---
 
 # Trametinib
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

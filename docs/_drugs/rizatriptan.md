@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Rizatriptan: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Migraine disorder"
 monitor_inn: "Rizatriptan"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "amenorrhea (disease)", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "sciatic neuropathy", "alopecia", "headache disorder"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "amenorrhea (disease)", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "sciatic neuropathy", "alopecia", "headache disorder"]
 ---
 
 # Rizatriptan
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

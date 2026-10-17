@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Pilocarpine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma and ocular hypertension"
 monitor_inn: "Pilocarpine"
-predicted_indications: ["primary hereditary glaucoma", "oral candidiasis", "osteoradionecrosis of the mandible", "commissural lip fistula", "oral leukoedema", "burning mouth syndrome", "chronic tic disorder", "extrapyramidal and movement disease"]
+predicted_indications: ["oral candidiasis", "osteoradionecrosis of the mandible", "commissural lip fistula", "oral leukoedema", "burning mouth syndrome", "chronic tic disorder", "extrapyramidal and movement disease"]
 ---
 
 # Pilocarpine
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

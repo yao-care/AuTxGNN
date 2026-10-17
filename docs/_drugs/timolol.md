@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Timolol: predicted new indication Closed-angle glaucoma (evidence level L3). Approved use: Hypertensive disorder, hypertension, open-angle glaucoma…"
 monitor_inn: "Timolol"
-predicted_indications: ["primary hereditary glaucoma", "closed-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "chronic pulmonary heart disease", "angle-closure glaucoma"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "chronic pulmonary heart disease"]
 ---
 
 # Timolol
@@ -27,7 +27,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 
