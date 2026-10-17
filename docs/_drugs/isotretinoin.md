@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Isotretinoin: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertensive disorder / hypertension"
 monitor_inn: "Isotretinoin"
-predicted_indications: ["malignant hypertensive renal disease", "chronic pulmonary heart disease", "cholangiocarcinoma, susceptibility to", "obsolete functional visual loss", "mitral valve prolapse, myxomatous", "ocular tuberculosis"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "chronic pulmonary heart disease", "cholangiocarcinoma, susceptibility to", "obsolete functional visual loss", "mitral valve prolapse, myxomatous", "ocular tuberculosis"]
 ---
 
 # Isotretinoin
