@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Tetracosactide: predicted new indication Top-ranked: familial adrenal hypoplasia with absent pituitary luteini… (evidence level L5). Approved use: Adrenocortical insufficiency"
 monitor_inn: "Tetracosactide"
-predicted_indications: ["familial adrenal hypoplasia with absent pituitary luteinizing hormone", "adrenomyodystrophy", "Congenital adrenal insuffiency with 46, XY sex reversal OR 46,XY disorder of sex development-adrenal insufficiency due to CYP11A1 deficiency", "46,XY disorder of sex development", "PAGOD syndrome", "inherited isolated adrenal insufficiency due to partial CYP11A1 deficiency", "IMAGe syndrome", "adrenal cortex disease", "familial glucocorticoid deficiency", "glucocorticoid deficiency"]
+predicted_indications: ["familial adrenal hypoplasia with absent pituitary luteinizing hormone", "adrenomyodystrophy", "Congenital adrenal insuffiency with 46, XY sex reversal OR 46,XY disorder of sex development-adrenal insufficiency due to CYP11A1 deficiency", "46,XY disorder of sex development", "PAGOD syndrome", "inherited isolated adrenal insufficiency due to partial CYP11A1 deficiency", "IMAGe syndrome", "familial glucocorticoid deficiency", "glucocorticoid deficiency"]
 ---
 
 # Tetracosactide

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Sumatriptan: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder (including migraine with or without aura)…"
 monitor_inn: "Sumatriptan"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "headache disorder", "trigeminal autonomic cephalalgia", "sciatic neuropathy", "tendinitis", "obsolete vascular headache", "myositis fibrosa", "idiopathic granulomatous myositis"]
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "headache disorder", "sciatic neuropathy", "tendinitis", "obsolete vascular headache", "myositis fibrosa", "idiopathic granulomatous myositis"]
 ---
 
 # Sumatriptan

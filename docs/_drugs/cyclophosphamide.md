@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Cyclophosphamide: predicted new indication Myeloid leukaemia (evidence level L5). Approved use: Mycosis fungoides and cutaneous T-cell lymphomas, plasma cell myeloma…"
 monitor_inn: "Cyclophosphamide"
-predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer", "lymphoma, non-Hodgkin, familial", "acute lymphoblastic leukemia (disease)", "myelodysplastic syndrome", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood"]
+predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer", "acute lymphoblastic leukemia (disease)", "myelodysplastic syndrome", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood"]
 ---
 
 # Cyclophosphamide

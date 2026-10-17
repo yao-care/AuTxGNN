@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Trabectedin: predicted new indication Female breast carcinoma (evidence level L2). Approved use: Ovarian cancer"
 monitor_inn: "Trabectedin"
-predicted_indications: ["female breast carcinoma", "choriocarcinoma of ovary", "gonadal germ cell tumor", "ovarian primitive germ cell tumor", "ovarian malignant mesothelioma", "ovarian adenosarcoma", "ovarian cancer, susceptibility to, 1", "ovarian Sertoli-Leydig cell tumor", "ovarian thecoma", "bilateral breast carcinoma"]
+predicted_indications: ["female breast carcinoma", "ovarian thecoma", "bilateral breast carcinoma"]
 ---
 
 # Trabectedin

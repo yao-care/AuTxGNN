@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Armodafinil: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Narcolepsy (excessive sleepiness)"
 monitor_inn: "Armodafinil"
-predicted_indications: ["insomnia (disease)", "faciodigitogenital syndrome", "Wernicke-Korsakoff syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation", "attention deficit-hyperactivity disorder", "ACBD5 deficiency", "sleep disorder, initiating and maintaining sleep", "narcolepsy, susceptibility to", "Creutzfeldt-Jakob disease", "megaconial type congenital muscular dystrophy"]
+predicted_indications: ["insomnia (disease)", "faciodigitogenital syndrome", "Wernicke-Korsakoff syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation", "attention deficit-hyperactivity disorder", "ACBD5 deficiency", "sleep disorder, initiating and maintaining sleep", "Creutzfeldt-Jakob disease", "megaconial type congenital muscular dystrophy"]
 ---
 
 # Armodafinil

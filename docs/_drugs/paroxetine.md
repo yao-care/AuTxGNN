@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Paroxetine: predicted new indication Top-ranked: Ohdo syndrome and variants . Best-supported: Agoraphobia (evidence level L5). Approved use: Not stated in the Australian licence data. The knowledge g…"
 monitor_inn: "Paroxetine"
-predicted_indications: ["Ohdo syndrome and variants", "melancholia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic depression", "benign paroxysmal torticollis of infancy", "agoraphobia", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder"]
+predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder"]
 ---
 
 # Paroxetine

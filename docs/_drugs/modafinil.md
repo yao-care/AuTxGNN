@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Modafinil: predicted new indication Hypersomnia (disease). Note: the rank 1 TxGNN prediction is insomnia… (evidence level L1). Approved use: Narcolepsy"
 monitor_inn: "Modafinil"
-predicted_indications: ["insomnia (disease)", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "trichotillomania", "disorder of peroxisomal alpha-, beta- and omega-oxidation", "ACBD5 deficiency", "narcolepsy, susceptibility to", "hypersomnia (disease)", "circadian rhythm sleep disorder", "Tourette syndrome"]
+predicted_indications: ["insomnia (disease)", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "trichotillomania", "disorder of peroxisomal alpha-, beta- and omega-oxidation", "ACBD5 deficiency", "hypersomnia (disease)", "circadian rhythm sleep disorder", "Tourette syndrome"]
 ---
 
 # Modafinil

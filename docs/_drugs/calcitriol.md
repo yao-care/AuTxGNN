@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Calcitriol: predicted new indication Top-ranked: obsolete vitamin D deficiency . Best-supported: hypophosp… (evidence level L5). Approved use: Hypercalcaemia, nephrocalcinosis, phosphorus metabolism …"
 monitor_inn: "Calcitriol"
-predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hereditary hypophosphatemic rickets", "hypophosphatemic rickets", "osteomalacia (disease)", "vitamin D-dependent rickets"]
+predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hereditary hypophosphatemic rickets", "hypophosphatemic rickets", "osteomalacia (disease)", "vitamin D-dependent rickets"]
 ---
 
 # Calcitriol

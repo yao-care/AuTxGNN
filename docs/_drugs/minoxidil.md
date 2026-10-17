@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-13
 description: "Minoxidil: predicted new indication Hypotrichosis simplex of the scalp (evidence level L4). Approved use: Hypertensive disorder / hypertension"
 monitor_inn: "Minoxidil"
-predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata"]
+predicted_indications: ["congenital hypotrichosis milia"]
 ---
 
 # Minoxidil

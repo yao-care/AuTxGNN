@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (Aarskog-Scott syndrome) (evidence level L5). Approved use: Attention deficit hyperactivity disorder (ADHD)"
 monitor_inn: "Methylphenidate"
-predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder", "trichotillomania", "cerebellar ataxia", "autosomal dominant cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "benign paroxysmal torticollis of infancy", "insomnia (disease)"]
+predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "dysthymic disorder", "trichotillomania", "cerebellar ataxia", "autosomal dominant cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "benign paroxysmal torticollis of infancy", "insomnia (disease)"]
 ---
 
 # Methylphenidate

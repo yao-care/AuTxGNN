@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Dicloxacillin: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Staphylococcus aureus infection, staphylococcal infection…"
 monitor_inn: "Dicloxacillin"
-predicted_indications: ["bacterial arthritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "streptococcal pneumonia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "staphylococcal toxemia"]
+predicted_indications: ["bacterial arthritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "streptococcal pneumonia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 ---
 
 # Dicloxacillin

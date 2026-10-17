@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Urea: predicted new indication Dermatitis (evidence level L5). Approved use: Not stated in the ARTG data compiled for this report. The knowledge g…"
 monitor_inn: "Urea"
-predicted_indications: ["dermatitis", "acne keloid", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "hydroa vacciniforme, familial", "acne (disease)", "vulvar inverted follicular keratosis", "familial pityriasis rubra pilaris"]
+predicted_indications: ["acne keloid", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "hydroa vacciniforme, familial", "acne (disease)", "vulvar inverted follicular keratosis", "familial pityriasis rubra pilaris"]
 ---
 
 # Urea

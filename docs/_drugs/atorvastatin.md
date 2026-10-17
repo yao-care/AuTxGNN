@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Atorvastatin: predicted new indication Familial hypercholesterolaemia (evidence level L1). Approved use: Hypertriglyceridaemia, atherosclerosis, cerebrovascular disorders…"
 monitor_inn: "Atorvastatin"
-predicted_indications: ["familial hypercholesterolemia", "HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hypoalphalipoproteinemia", "hypercholesterolemia, autosomal dominant", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
+predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hypoalphalipoproteinemia", "hypercholesterolemia, autosomal dominant", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 ---
 
 # Atorvastatin

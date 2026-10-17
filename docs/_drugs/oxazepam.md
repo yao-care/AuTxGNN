@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Oxazepam: predicted new indication Insomnia (evidence level L3). Approved use: Alcohol withdrawal delirium"
 monitor_inn: "Oxazepam"
-predicted_indications: ["insomnia (disease)", "sleep disorder, initiating and maintaining sleep", "cauda equina syndrome", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "alcohol withdrawal", "myofascial pain syndrome", "acute encephalopathy with biphasic seizures and late reduced diffusion", "phencyclidine abuse"]
+predicted_indications: ["insomnia (disease)", "sleep disorder, initiating and maintaining sleep", "cauda equina syndrome", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "myofascial pain syndrome", "acute encephalopathy with biphasic seizures and late reduced diffusion", "phencyclidine abuse"]
 ---
 
 # Oxazepam

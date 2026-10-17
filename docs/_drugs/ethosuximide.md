@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ethosuximide: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Absence epilepsy"
 monitor_inn: "Ethosuximide"
-predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "nephrogenic diabetes insipidus", "insomnia (disease)", "familial mesial temporal lobe epilepsy with febrile seizures", "epilepsy, childhood absence, susceptibility to", "diabetes insipidus, nephrogenic, X-linked", "Lafora disease", "renal tubule disease", "Senior-Boichis syndrome", "psychomotor regression-oculomotor apraxia-movement disorder-nephropathy syndrome"]
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "nephrogenic diabetes insipidus", "insomnia (disease)", "familial mesial temporal lobe epilepsy with febrile seizures", "diabetes insipidus, nephrogenic, X-linked", "Lafora disease", "renal tubule disease", "Senior-Boichis syndrome", "psychomotor regression-oculomotor apraxia-movement disorder-nephropathy syndrome"]
 ---
 
 # Ethosuximide

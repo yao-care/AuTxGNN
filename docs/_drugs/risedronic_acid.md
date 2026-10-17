@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Risedronic Acid: predicted new indication Paget disease of bone (evidence level L5). Approved use: Osteoporosis, postmenopausal osteoporosis, Paget disease of bone"
 monitor_inn: "Risedronic acid"
-predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "osteomesopyknosis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "Glanzmann thrombasthenia", "Paget disease of bone", "Paget disease of bone 2, early-onset"]
+predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "osteomesopyknosis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "Glanzmann thrombasthenia"]
 ---
 
 # Risedronic Acid
