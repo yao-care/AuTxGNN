@@ -5,7 +5,7 @@ title: AuTxGNN - Australia Drug Repurposing Predictions
 
 # AuTxGNN
 
-Drug repurposing predictions for Australia using TxGNN knowledge graph.
+Drug repurposing predictions for Australia using the TxGNN graph neural network.
 
 ## Overview
 

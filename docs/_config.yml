@@ -1,6 +1,6 @@
 # AuTxGNN Jekyll Configuration
 title: AuTxGNN - Australia Drug Repurposing Predictions
-description: Drug repurposing predictions for Australia using TxGNN knowledge graph
+description: Drug repurposing predictions for Australia using the TxGNN graph neural network
 
 url: "https://autxgnn.yao.care"
 baseurl: ""
