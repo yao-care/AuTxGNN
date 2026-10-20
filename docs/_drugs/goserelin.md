@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Goserelin: predicted new indication Amenorrhoea (evidence level L5). Approved use: Endometriosis"
 monitor_inn: "Goserelin"
-predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral", "gelatinous drop-like corneal dystrophy", "duodenogastric reflux", "duodenal obstruction", "duodenal ulcer (disease)"]
+predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral", "cervix endometriosis", "gelatinous drop-like corneal dystrophy", "duodenogastric reflux", "endometriosis in cutaneous scar", "endometriosis of rectovaginal septum and vagina", "duodenal obstruction", "duodenal ulcer (disease)"]
 ---
 
 # Goserelin

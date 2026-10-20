@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Vorinostat: predicted new indication Primary cutaneous B-cell lymphoma (evidence level L5). Approved use: Primary cutaneous T-cell lymphoma (including primary cutaneous T-cell…"
 monitor_inn: "Vorinostat"
-predicted_indications: ["primary cutaneous B-cell lymphoma", "myeloid leukemia", "lymph node cancer", "seborrheic dermatitis", "lymphosarcoma", "relapsing-remitting multiple sclerosis", "granulomatous slack skin disease", "acute lymphoblastic leukemia (disease)", "parapsoriasis"]
+predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome", "myeloid leukemia", "lymph node cancer", "seborrheic dermatitis", "lymphosarcoma", "relapsing-remitting multiple sclerosis", "granulomatous slack skin disease", "acute lymphoblastic leukemia (disease)", "parapsoriasis"]
 ---
 
 # Vorinostat

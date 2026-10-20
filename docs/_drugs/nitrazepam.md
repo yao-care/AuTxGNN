@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Nitrazepam: predicted new indication Sleep disorder, initiating and maintaining sleep (evidence level L4). Approved use: Insomnia"
 monitor_inn: "Nitrazepam"
-predicted_indications: ["sleep disorder, initiating and maintaining sleep", "Wernicke-Korsakoff syndrome", "restless legs syndrome", "alcohol withdrawal", "anxiety", "benign paroxysmal torticollis of infancy", "alcohol withdrawal delirium"]
+predicted_indications: ["Wernicke-Korsakoff syndrome", "restless legs syndrome", "alcohol withdrawal", "anxiety", "benign paroxysmal torticollis of infancy", "anxiety disorder", "alcohol withdrawal delirium"]
 ---
 
 # Nitrazepam

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Carbimazole: predicted new indication Neonatal thyrotoxicosis (evidence level L3). Approved use: Hyperthyroidism, Graves' disease, thyrotoxicosis"
 monitor_inn: "Carbimazole"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia", "Prinzmetal angina", "Hashimoto thyroiditis", "Raynaud disease", "migraine with brainstem aura", "kyphoscoliotic heart disease", "migraine disorder"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia", "Prinzmetal angina", "autoimmune thyroid disease", "Hashimoto thyroiditis", "Raynaud disease", "migraine with brainstem aura", "kyphoscoliotic heart disease", "migraine disorder"]
 ---
 
 # Carbimazole

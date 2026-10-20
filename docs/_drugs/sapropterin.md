@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Sapropterin: predicted new indication Disorder of tyrosine metabolism (evidence level L4). Approved use: Phenylketonuria"
 monitor_inn: "Sapropterin"
-predicted_indications: ["disorder of tyrosine metabolism", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency", "genetic otorhinolaryngological malformation", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "neonatal epileptic encephalopathy due to glutaminase deficiency", "idiopathic bilateral vestibulopathy", "semicircular canal dehiscence syndrome", "silent sinus syndrome"]
+predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency", "genetic otorhinolaryngological malformation", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "neonatal epileptic encephalopathy due to glutaminase deficiency", "idiopathic bilateral vestibulopathy", "semicircular canal dehiscence syndrome", "silent sinus syndrome"]
 ---
 
 # Sapropterin

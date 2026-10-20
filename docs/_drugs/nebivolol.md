@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Nebivolol: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder). The ARTG entry in the data comp…"
 monitor_inn: "Nebivolol"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "chronic pulmonary heart disease", "Prinzmetal angina", "ocular tuberculosis", "congenital temporomandibular joint ankylosis", "polydipsia"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina", "ocular tuberculosis", "congenital temporomandibular joint ankylosis", "polydipsia"]
 ---
 
 # Nebivolol

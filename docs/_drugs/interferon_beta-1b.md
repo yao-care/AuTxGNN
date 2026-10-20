@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Interferon Beta-1B: predicted new indication Autoimmune disease of the central nervous system (evidence level L5). Approved use: Relapsing-remitting multiple sclerosis"
 monitor_inn: "Interferon beta-1b"
-predicted_indications: ["hairy cell leukemia", "fetal methylmercury syndrome", "hepatic infarction", "hairy cell leukemia variant", "extramammary Paget disease", "peliosis hepatis"]
+predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system", "CNS demyelinating autoimmune disease", "fetal methylmercury syndrome", "hepatic infarction", "hairy cell leukemia variant", "extramammary Paget disease", "peliosis hepatis"]
 ---
 
 # Interferon Beta-1B

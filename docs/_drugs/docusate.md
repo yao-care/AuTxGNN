@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Docusate: predicted new indication Plummer-Vinson syndrome (evidence level L5). Approved use: Constipation . The ARTG entry has no approved indication text recorded"
 monitor_inn: "Docusate"
-predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "bile duct disease", "acute urate nephropathy", "nephrolithiasis", "bile duct neoplasm", "biotin metabolic disease", "obstructive jaundice", "vitamin deficiency disorder"]
+predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "bile duct disease", "acute urate nephropathy", "nephrolithiasis", "bile duct neoplasm", "biotin metabolic disease", "obstructive jaundice", "vitamin deficiency disorder", "IRIDA syndrome"]
 ---
 
 # Docusate

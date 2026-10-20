@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Benzatropine: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease and related parkinsonian and dystonic disorders (th…"
 monitor_inn: "Benzatropine"
-predicted_indications: ["PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder", "Rasmussen subacute encephalitis", "myelitis", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "lethal infantile mitochondrial myopathy", "congenital disorder of glycosylation with defective fucosylation"]
+predicted_indications: ["PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder", "Rasmussen subacute encephalitis", "paralysis agitans, juvenile, of Hunt", "myelitis", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "lethal infantile mitochondrial myopathy", "congenital disorder of glycosylation with defective fucosylation"]
 ---
 
 # Benzatropine

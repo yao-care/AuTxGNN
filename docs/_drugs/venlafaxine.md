@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Venlafaxine: predicted new indication Top TxGNN rank: Ohdo syndrome and variants . Best-supported: Dysthymi… (evidence level L5). Approved use: Not stated in the ARTG data compiled for this report. T…"
 monitor_inn: "Venlafaxine"
-predicted_indications: ["Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy", "childhood apraxia of speech"]
+predicted_indications: ["Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy", "dysthymic disorder", "melancholia", "childhood apraxia of speech", "obsessive-compulsive disorder", "agoraphobia"]
 ---
 
 # Venlafaxine

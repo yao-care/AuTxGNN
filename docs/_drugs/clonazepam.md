@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Clonazepam: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Early myoclonic encephalopathy, absence epilepsy…"
 monitor_inn: "Clonazepam"
-predicted_indications: ["restless legs syndrome", "trigeminal nerve neoplasm", "sleep disorder, initiating and maintaining sleep", "trigeminal neuralgia"]
+predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm", "sleep disorder, initiating and maintaining sleep", "trigeminal neuralgia"]
 ---
 
 # Clonazepam

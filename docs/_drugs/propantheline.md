@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Propantheline: predicted new indication Gastroduodenitis (evidence level L4). Approved use: Peptic ulcer disease"
 monitor_inn: "Propantheline"
-predicted_indications: ["irritable bowel syndrome", "acute laryngopharyngitis", "nasal cavity disease", "pharyngitis", "bronchitis", "overactive bladder (disease)", "cauda equina syndrome", "large intestine disease"]
+predicted_indications: ["gastroduodenitis", "irritable bowel syndrome", "acute laryngopharyngitis", "nasal cavity disease", "pharyngitis", "bronchitis", "overactive bladder (disease)", "gastroenteritis", "cauda equina syndrome", "large intestine disease"]
 ---
 
 # Propantheline

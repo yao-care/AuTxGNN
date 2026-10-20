@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Diltiazem: predicted new indication Cerebrovascular disorder (evidence level L4). Approved use: Hypertension, atrial fibrillation, Prinzmetal angina…"
 monitor_inn: "Diltiazem"
-predicted_indications: ["obsolete susceptibility to ischemic stroke", "brain stem infarction", "obsolete bundle branch block", "cerebrovascular disorder", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "ABri amyloidosis"]
+predicted_indications: ["obsolete susceptibility to ischemic stroke", "brain stem infarction", "obsolete bundle branch block", "cerebrovascular disorder", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "ABri amyloidosis", "Braddock syndrome"]
 ---
 
 # Diltiazem

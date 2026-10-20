@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Phenelzine: predicted new indication Agoraphobia (evidence level L3). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "Phenelzine"
-predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy", "Keppen-Lubinsky syndrome", "Ohdo syndrome and variants", "vitamin B12-responsive methylmalonic acidemia", "autosomal dominant slowed nerve conduction velocity", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
+predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy", "neurotic depression", "melancholia", "Keppen-Lubinsky syndrome", "Ohdo syndrome and variants", "obsessive-compulsive disorder", "vitamin B12-responsive methylmalonic acidemia", "autosomal dominant slowed nerve conduction velocity", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
 ---
 
 # Phenelzine
