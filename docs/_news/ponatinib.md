@@ -3,7 +3,7 @@ layout: default
 title: "Ponatinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ponatinib. Original indication: . 9 predicted indications."
+description: "Health news related to Ponatinib. Original indication: . 10 predicted indications."
 permalink: /news/ponatinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ponatinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Ponatinib?">
-<strong>Ponatinib</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Ponatinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Ponatinib with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Liposarcoma | 99.00% | L4 | One 2017 preclinical kinase-profiling study; no ponatinib-specific efficacy shown (99.0%)</li>
-<li>Inclusion body myopathy with early-onset Paget disease (with or without frontotemporal dementia) | 98.98% | L5 | No evidence; no mechanistic link identified (99.0%)</li>
-<li>Ovarian myxoid liposarcoma | 98.93% | L5 | No direct evidence (99.0%)</li>
-<li>Hamartoma of lung | 98.93% | L5 | Benign lesion; unfavourable risk-benefit given ponatinib's cardiovascular and thrombotic safety burden (99.0%)</li>
-<li>Fibroma of lung | 98.87% | L5 | Benign neoplasm; no supporting evidence (99.0%)</li>
-<li>Junctional epidermolysis bullosa | 98.86% | L5 | No plausible kinase-inhibitor mechanism evident (99.0%)</li>
-<li>Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome | 98.83% | L5 | Retrieved literature is generic and not disease-specific (99.0%)</li>
-<li>Lung benign neoplasm | 98.83% | L5 | Literature covers pharmacology and toxicity, nothing specific to this condition (99.0%)</li>
-<li>Lung hilum carcinoma | 98.81% | L5 | No evidence; RET and FGFR inhibition is relevant to some lung cancers only (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Gingival fibromatosis (99.0%)</li>
+<li>Liposarcoma (99.0%)</li>
+<li>Inclusion body myopathy with early-onset Paget disease (with or without frontotemporal dementia) (99.0%)</li>
+<li>Ovarian myxoid liposarcoma (98.9%)</li>
+<li>Hamartoma of lung (98.9%)</li>
+<li>Fibroma of lung (98.9%)</li>
+<li>Junctional epidermolysis bullosa (98.9%)</li>
+<li>Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome (98.8%)</li>
+<li>Lung benign neoplasm (98.8%)</li>
+<li>Lung hilum carcinoma (98.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ponatinib/' | relative_url }}">View full drug report →</a></p>

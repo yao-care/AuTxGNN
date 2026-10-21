@@ -3,7 +3,7 @@ layout: default
 title: "Famotidine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Famotidine. Original indication: . 9 predicted indications."
+description: "Health news related to Famotidine. Original indication: . 1 predicted indications."
 permalink: /news/famotidine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/famotidine/
 ---
 
 <p class="key-answer" data-question="What news is there about Famotidine?">
-<strong>Famotidine</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Famotidine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,8 @@ This page combines the AI-predicted indications for Famotidine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Duodenal obstruction | L5 | Mechanical condition; no clear mechanistic link (99.0%)</li>
-<li>Active peptic ulcer disease | L4 | Essentially an existing labelled use (99.0%)</li>
-<li>Gastrojejunal ulcer | L3 | Famotidine was only a comparator in one small trial; PPIs are generally preferred (99.0%)</li>
-<li>Peptic ulcer perforation | L4 | Surgical complication; famotidine inferior to pantoprazole for recurrence prevention (99.0%)</li>
-<li>Abnormality of glucagon secretion | L5 | Model prediction only (99.0%)</li>
-<li>Gastroduodenitis | L2 | Partly indirect evidence, overlaps with labelled ulcer uses (99.0%)</li>
-<li>Peptic ulcer disease | L1 | Already a labelled indication, so little repurposing novelty (99.0%)</li>
-<li>Multiple endocrine neoplasia | L4 | Indirect, via Zollinger-Ellison syndrome (99.0%)</li>
-<li>Acne | L5 | Model prediction only (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Duodenogastric reflux (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/famotidine/' | relative_url }}">View full drug report →</a></p>

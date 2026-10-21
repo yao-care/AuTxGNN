@@ -3,7 +3,7 @@ layout: default
 title: "Baclofen News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Baclofen. Original indication: . 9 predicted indications."
+description: "Health news related to Baclofen. Original indication: . 10 predicted indications."
 permalink: /news/baclofen/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/baclofen/
 ---
 
 <p class="key-answer" data-question="What news is there about Baclofen?">
-<strong>Baclofen</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Baclofen</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Baclofen with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Nicotine dependence | 99.19% | L2 | Research question (99.0%)</li>
-<li>ADHD, inattentive type | 98.89% | L5 | Hold (99.0%)</li>
-<li>Myofascial pain syndrome | 98.87% | L4 | Research question (99.0%)</li>
-<li>Faciodigitogenital syndrome | 98.78% | L5 | Hold (99.0%)</li>
-<li>Trigeminal nerve neoplasm | 98.70% | L4 | Hold (99.0%)</li>
-<li>Methaemoglobinaemia | 98.33% | L5 | Hold (99.0%)</li>
-<li>Chondromyxoid fibroma | 98.15% | L5 | Hold (99.0%)</li>
-<li>Methaemoglobinaemia, alpha type | 97.97% | L5 | Hold (99.0%)</li>
-<li>Specific developmental disorder | 97.95% | L4 | Hold (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Attention deficit hyperactivity disorder (99.3%)</li>
+<li>Nicotine dependence (99.2%)</li>
+<li>ADHD, inattentive type (98.9%)</li>
+<li>Myofascial pain syndrome (98.9%)</li>
+<li>Faciodigitogenital syndrome (98.8%)</li>
+<li>Trigeminal nerve neoplasm (98.7%)</li>
+<li>Methaemoglobinaemia (98.3%)</li>
+<li>Chondromyxoid fibroma (98.2%)</li>
+<li>Methaemoglobinaemia, alpha type (98.0%)</li>
+<li>Specific developmental disorder (98.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/baclofen/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Tioguanine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tioguanine. Original indication: . 9 predicted indications."
+description: "Health news related to Tioguanine. Original indication: . 10 predicted indications."
 permalink: /news/tioguanine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tioguanine/
 ---
 
 <p class="key-answer" data-question="What news is there about Tioguanine?">
-<strong>Tioguanine</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Tioguanine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Tioguanine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Upper aerodigestive tract neoplasm | 98.76% | L5 | Hold. No specific rationale. (99.0%)</li>
-<li>Unclassified myelodysplastic syndrome | 98.22% | L4 | Research question. Indirect link, as MDS often progresses to AML. (99.0%)</li>
-<li>Partial deletion of the long arm of chromosome 5 | 98.15% | L5 | Hold. No drug-specific mechanism. (99.0%)</li>
-<li>Refractory cytopenia of childhood | 98.05% | L5 | Hold. Marrow suppression may worsen cytopenias. (99.0%)</li>
-<li>Aregenerative anaemia | 97.87% | L5 | Hold. Benefit is mechanistically implausible and harm is a concern. (99.0%)</li>
-<li>Severe congenital hypochromic anaemia with ringed sideroblasts | 97.80% | L5 | Hold. Likely a graph artefact. (99.0%)</li>
-<li>Blast phase CML, BCR-ABL1 positive | 97.73% | L4 | Research question. Indirect rationale via AML. (99.0%)</li>
-<li>Osteoclastic giant cell tumour of pancreas | 97.24% | L5 | Hold. No known mechanistic link. (99.0%)</li>
-<li>Solid pseudopapillary carcinoma of pancreas | 97.24% | L5 | Hold. Usually managed surgically. (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Chronic myelogenous leukaemia, BCR-ABL1 positive (98.9%)</li>
+<li>Upper aerodigestive tract neoplasm (98.8%)</li>
+<li>Unclassified myelodysplastic syndrome (98.2%)</li>
+<li>Partial deletion of the long arm of chromosome 5 (98.2%)</li>
+<li>Refractory cytopenia of childhood (98.0%)</li>
+<li>Aregenerative anaemia (97.9%)</li>
+<li>Severe congenital hypochromic anaemia with ringed sideroblasts (97.8%)</li>
+<li>Blast phase CML, BCR-ABL1 positive (97.7%)</li>
+<li>Osteoclastic giant cell tumour of pancreas (97.2%)</li>
+<li>Solid pseudopapillary carcinoma of pancreas (97.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tioguanine/' | relative_url }}">View full drug report →</a></p>

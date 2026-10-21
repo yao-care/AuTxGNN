@@ -3,7 +3,7 @@ layout: default
 title: "Isotretinoin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Isotretinoin. Original indication: . 9 predicted indications."
+description: "Health news related to Isotretinoin. Original indication: . 10 predicted indications."
 permalink: /news/isotretinoin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/isotretinoin/
 ---
 
 <p class="key-answer" data-question="What news is there about Isotretinoin?">
-<strong>Isotretinoin</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Isotretinoin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Isotretinoin with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Malignant hypertensive renal disease (99.0%)</li>
 <li>Malignant renovascular hypertension (99.0%)</li>
 <li>Pulmonary hypertension owing to lung disease and/or hypoxia (98.9%)</li>
 <li>Pulmonary hypertension with unclear multifactorial mechanism (98.9%)</li>

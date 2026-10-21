@@ -3,7 +3,7 @@ layout: default
 title: "Abiraterone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Abiraterone. Original indication: . 10 predicted indications."
+description: "Health news related to Abiraterone. Original indication: . 1 predicted indications."
 permalink: /news/abiraterone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/abiraterone/
 ---
 
 <p class="key-answer" data-question="What news is there about Abiraterone?">
-<strong>Abiraterone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Abiraterone</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Abiraterone with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>migraine disorder (98.8%)</li>
-<li>migraine with or without aura, susceptibility to (98.8%)</li>
-<li>migraine with brainstem aura (98.6%)</li>
-<li>leprosy (98.6%)</li>
-<li>pulmonary hypertension (98.4%)</li>
-<li>nephrogenic syndrome of inappropriate antidiuresis (98.2%)</li>
-<li>rheumatoid arthritis (98.1%)</li>
-<li>kyphoscoliotic heart disease (98.1%)</li>
-<li>atrophoderma vermiculata (97.7%)</li>
-<li>ulerythema ophryogenesis (97.5%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Migraine disorder (98.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/abiraterone/' | relative_url }}">View full drug report →</a></p>

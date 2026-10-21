@@ -3,7 +3,7 @@ layout: default
 title: "Meloxicam News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Meloxicam. Original indication: . 10 predicted indications."
+description: "Health news related to Meloxicam. Original indication: . 1 predicted indications."
 permalink: /news/meloxicam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/meloxicam/
 ---
 
 <p class="key-answer" data-question="What news is there about Meloxicam?">
-<strong>Meloxicam</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Meloxicam</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Meloxicam with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>acromesomelic dysplasia, Hunter-Thompson type (99.9%)</li>
-<li>brachyolmia-amelogenesis imperfecta syndrome (99.9%)</li>
-<li>myosclerosis (99.9%)</li>
-<li>brachyolmia (99.9%)</li>
-<li>pseudoachondroplasia (99.8%)</li>
-<li>spondyloarthropathy, susceptibility to (99.5%)</li>
-<li>rheumatoid nodulosis (99.5%)</li>
-<li>rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (99.4%)</li>
-<li>WHIM syndrome (99.4%)</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Acromesomelic dysplasia, Hunter-Thompson type (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/meloxicam/' | relative_url }}">View full drug report →</a></p>

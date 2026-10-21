@@ -3,7 +3,7 @@ layout: default
 title: "Esketamine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Esketamine. Original indication: . 4 predicted indications."
+description: "Health news related to Esketamine. Original indication: . 5 predicted indications."
 permalink: /news/esketamine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/esketamine/
 ---
 
 <p class="key-answer" data-question="What news is there about Esketamine?">
-<strong>Esketamine</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Esketamine</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,11 +25,12 @@ This page combines the AI-predicted indications for Esketamine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
-<li>Neurotic depression | 97.83% | L1 | Proceed with Guardrails (99.0%)</li>
-<li>Melancholia | 97.74% | L1 | Proceed with Guardrails (99.0%)</li>
-<li>Obsessive-compulsive disorder | 97.31% | L3 | Research Question (99.0%)</li>
-<li>Insomnia | 96.39% | L2 | Research Question (99.0%)</li>
+<li><strong>Predicted indications (5)</strong>:<ul>
+<li>Agoraphobia (99.6%)</li>
+<li>Neurotic depression (97.8%)</li>
+<li>Melancholia (97.7%)</li>
+<li>Obsessive-compulsive disorder (97.3%)</li>
+<li>Insomnia (96.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/esketamine/' | relative_url }}">View full drug report →</a></p>

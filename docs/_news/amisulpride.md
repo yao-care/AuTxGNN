@@ -3,7 +3,7 @@ layout: default
 title: "Amisulpride News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Amisulpride. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Amisulpride. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/amisulpride/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/amisulpride/
 ---
 
 <p class="key-answer" data-question="What news is there about Amisulpride?">
-<strong>Amisulpride</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Amisulpride</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Amisulpride with the latest 
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **schizophrenia**, which is in fact its established use in many markets, so this is a validation of an existing use rather than true repurposing.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>schizophrenia (96.0%)</li>
-<li>retinal dystrophy with or without extraocular anomalies (94.8%)</li>
-<li>myopia X-linked (94.4%)</li>
-<li>hydranencephaly (disease) (94.4%)</li>
-<li>psychotic disorder (94.3%)</li>
-<li>syndromic myopia (94.3%)</li>
-<li>myopia 26, X-linked, female-limited (93.4%)</li>
-<li>dysthymic disorder (93.4%)</li>
-<li>polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (93.2%)</li>
-<li>anxiety disorder (93.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Schizophrenia (96.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/amisulpride/' | relative_url }}">View full drug report →</a></p>

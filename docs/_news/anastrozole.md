@@ -3,7 +3,7 @@ layout: default
 title: "Anastrozole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Anastrozole. Original indication: . 10 predicted indications."
+description: "Health news related to Anastrozole. Original indication: . 1 predicted indications."
 permalink: /news/anastrozole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/anastrozole/
 ---
 
 <p class="key-answer" data-question="What news is there about Anastrozole?">
-<strong>Anastrozole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Anastrozole</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Anastrozole with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L1</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>female breast carcinoma (99.7%)</li>
-<li>neuroblastoma (99.5%)</li>
-<li>vertebral anomalies and variable endocrine and T-cell dysfunction (99.4%)</li>
-<li>ganglioneuroblastoma (disease) (99.4%)</li>
-<li>retroperitoneal neoplasm (99.3%)</li>
-<li>monocytic leukemia (99.2%)</li>
-<li>rhabdomyosarcoma (disease) (98.9%)</li>
-<li>myeloid leukemia (98.8%)</li>
-<li>collagenopathy (98.8%)</li>
-<li>lymphocytic hypereosinophilic syndrome (98.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Female breast carcinoma (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/anastrozole/' | relative_url }}">View full drug report →</a></p>

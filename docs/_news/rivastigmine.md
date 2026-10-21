@@ -3,7 +3,7 @@ layout: default
 title: "Rivastigmine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Rivastigmine. Original indication: . 10 predicted indications."
+description: "Health news related to Rivastigmine. Original indication: . 1 predicted indications."
 permalink: /news/rivastigmine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/rivastigmine/
 ---
 
 <p class="key-answer" data-question="What news is there about Rivastigmine?">
-<strong>Rivastigmine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Rivastigmine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Rivastigmine with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>glaucoma (99.3%)</li>
-<li>acute intermittent porphyria (98.2%)</li>
-<li>psychogenic movement disorders (98.2%)</li>
-<li>primary orthostatic tremor (98.0%)</li>
-<li>tremor-nystagmus-duodenal ulcer syndrome (98.0%)</li>
-<li>benign shuddering attacks (97.9%)</li>
-<li>extrapyramidal and movement disease (97.9%)</li>
-<li>benign paroxysmal tonic upgaze of childhood with ataxia (97.9%)</li>
-<li>chronic tic disorder (97.8%)</li>
-<li>primary hereditary glaucoma (96.9%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Glaucoma (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/rivastigmine/' | relative_url }}">View full drug report →</a></p>

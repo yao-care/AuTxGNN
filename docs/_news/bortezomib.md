@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Bortezomib with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Vertebral anomalies and variable endocrine and T-cell dysfunction | 96.10% | L5 | Hold (99.0%)</li>
-<li>Ganglioneuroblastoma | 96.01% | L5 | Hold (99.0%)</li>
-<li>Retroperitoneal neoplasm | 95.64% | L4 | Hold (99.0%)</li>
-<li>Neuroblastoma | 95.11% | L3 | Research Question (99.0%)</li>
-<li>Hodgkin lymphoma | 85.09% | L2 | Research Question (99.0%)</li>
-<li>Myeloid leukaemia | 83.77% | L2 | Research Question (99.0%)</li>
-<li>Lymphoma, non-Hodgkin, familial | 83.59% | L2 | Proceed with Guardrails (99.0%)</li>
-<li>Colon adenocarcinoma | 79.12% | L3 | Hold (99.0%)</li>
-<li>Lymph node cancer | 77.96% | L3 | Research Question (99.0%)</li>
-<li>Dermatofibrosarcoma protuberans | 77.01% | L5 | Hold (99.0%)</li>
+<li>Vertebral anomalies and variable endocrine and T-cell dysfunction (96.1%)</li>
+<li>Ganglioneuroblastoma (96.0%)</li>
+<li>Retroperitoneal neoplasm (95.6%)</li>
+<li>Neuroblastoma (95.1%)</li>
+<li>Hodgkin lymphoma (85.1%)</li>
+<li>Myeloid leukaemia (83.8%)</li>
+<li>Lymphoma, non-Hodgkin, familial (83.6%)</li>
+<li>Colon adenocarcinoma (79.1%)</li>
+<li>Lymph node cancer (78.0%)</li>
+<li>Dermatofibrosarcoma protuberans (77.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bortezomib/' | relative_url }}">View full drug report →</a></p>

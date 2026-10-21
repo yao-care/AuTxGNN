@@ -3,7 +3,7 @@ layout: default
 title: "Clozapine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Clozapine. Original indication: . 7 predicted indications."
+description: "Health news related to Clozapine. Original indication: . 8 predicted indications."
 permalink: /news/clozapine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/clozapine/
 ---
 
 <p class="key-answer" data-question="What news is there about Clozapine?">
-<strong>Clozapine</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
+<strong>Clozapine</strong> currently has <strong>0 news articles</strong>, with 8 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Clozapine with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (7)</strong>:<ul>
+<li><strong>Predicted indications (8)</strong>:<ul>
+<li>Manic bipolar affective disorder (100.0%)</li>
 <li>Bipolar disorder (99.6%)</li>
 <li>Psychotic disorder (99.1%)</li>
 <li>Schizophreniform disorder (99.7%)</li>

@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Semaglutide with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>classic stiff person syndrome (98.6%)</li>
-<li>focal stiff limb syndrome (98.6%)</li>
-<li>opsismodysplasia (98.6%)</li>
-<li>thiamine-responsive dysfunction syndrome (98.6%)</li>
-<li>drug-induced localized lipodystrophy (97.7%)</li>
-<li>centrifugal lipodystrophy (97.6%)</li>
-<li>pressure-induced localized lipoatrophy (97.5%)</li>
-<li>idiopathic localized lipodystrophy (97.3%)</li>
-<li>pancreatic agenesis (97.3%)</li>
-<li>autoimmune oophoritis (95.0%)</li>
+<li>Classic stiff person syndrome (98.6%)</li>
+<li>Focal stiff limb syndrome (98.6%)</li>
+<li>Opsismodysplasia (98.6%)</li>
+<li>Thiamine-responsive dysfunction syndrome (98.6%)</li>
+<li>Drug-induced localised lipodystrophy (97.7%)</li>
+<li>Centrifugal lipodystrophy (97.6%)</li>
+<li>Pressure-induced localised lipoatrophy (97.5%)</li>
+<li>Idiopathic localised lipodystrophy (97.3%)</li>
+<li>Pancreatic agenesis (97.3%)</li>
+<li>Autoimmune oophoritis (95.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/semaglutide/' | relative_url }}">View full drug report →</a></p>

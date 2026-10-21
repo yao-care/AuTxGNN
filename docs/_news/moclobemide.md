@@ -3,7 +3,7 @@ layout: default
 title: "Moclobemide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Moclobemide. Original indication: . 10 predicted indications."
+description: "Health news related to Moclobemide. Original indication: . 1 predicted indications."
 permalink: /news/moclobemide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/moclobemide/
 ---
 
 <p class="key-answer" data-question="What news is there about Moclobemide?">
-<strong>Moclobemide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Moclobemide</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Moclobemide with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>agoraphobia (99.4%)</li>
-<li>benign paroxysmal torticollis of infancy (99.3%)</li>
-<li>neurotic depression (98.3%)</li>
-<li>melancholia (98.3%)</li>
-<li>Keppen-Lubinsky syndrome (98.0%)</li>
-<li>vitamin B12-responsive methylmalonic acidemia (97.8%)</li>
-<li>migraine disorder (97.3%)</li>
-<li>migraine with brainstem aura (97.2%)</li>
-<li>obsessive-compulsive disorder (97.2%)</li>
-<li>autosomal dominant slowed nerve conduction velocity (97.1%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Agoraphobia (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/moclobemide/' | relative_url }}">View full drug report →</a></p>

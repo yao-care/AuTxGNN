@@ -3,7 +3,7 @@ layout: default
 title: "Fludarabine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fludarabine. Original indication: he TxGNN model predicts it may be useful for **pla.... 10 predicted indications."
+description: "Health news related to Fludarabine. Original indication: he TxGNN model predicts it may be useful for **pla.... 1 predicted indications."
 permalink: /news/fludarabine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fludarabine/
 ---
 
 <p class="key-answer" data-question="What news is there about Fludarabine?">
-<strong>Fludarabine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Fludarabine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Fludarabine with the latest 
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be useful for **plasma cell myeloma**, and the evidence is mostly indirect: fludarabine appears in **transplant conditioning and CAR-T lymphodepletion regimens** (**28...</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>plasma cell myeloma (99.8%)</li>
-<li>hyperthyroidism (99.8%)</li>
-<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (99.8%)</li>
-<li>indolent plasma cell myeloma (99.8%)</li>
-<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (99.8%)</li>
-<li>brain small vessel disease 1 with or without ocular anomalies (99.8%)</li>
-<li>myelodysplastic syndrome (99.8%)</li>
-<li>unclassified myelodysplastic syndrome (99.7%)</li>
-<li>partial deletion of the long arm of chromosome 5 (99.7%)</li>
-<li>diabetic nephropathy (99.7%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Plasma cell myeloma (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fludarabine/' | relative_url }}">View full drug report →</a></p>

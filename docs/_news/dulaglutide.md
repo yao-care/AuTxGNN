@@ -3,7 +3,7 @@ layout: default
 title: "Dulaglutide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dulaglutide. Original indication: . 9 predicted indications."
+description: "Health news related to Dulaglutide. Original indication: . 10 predicted indications."
 permalink: /news/dulaglutide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dulaglutide/
 ---
 
 <p class="key-answer" data-question="What news is there about Dulaglutide?">
-<strong>Dulaglutide</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Dulaglutide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Dulaglutide with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Classic stiff person syndrome | 97.05% | Shared GAD65 autoimmunity and diabetes association; no established role for GLP-1 agonists (99.0%)</li>
-<li>Focal stiff limb syndrome | 97.05% | Variant of the stiff person spectrum; no demonstrated mechanism (99.0%)</li>
-<li>Thiamine-responsive dysfunction syndrome | 96.81% | Diabetes is a core feature, but thiamine is the standard therapy (99.0%)</li>
-<li>Drug-induced localised lipodystrophy | 95.62% | No known effect on localised fat loss (99.0%)</li>
-<li>Pancreatic agenesis | 95.55% | Mechanistically implausible, as dulaglutide needs functional beta cells (99.0%)</li>
-<li>Centrifugal lipodystrophy | 95.37% | No mechanism linking GLP-1 agonism to fat loss correction (99.0%)</li>
-<li>Pressure-induced localised lipoatrophy | 95.29% | No plausible pathway (99.0%)</li>
-<li>Idiopathic localised lipodystrophy | 94.99% | No evidence of benefit (99.0%)</li>
-<li>Autoimmune oophoritis | 69.57% | Notably lower score; no evidence in autoimmune ovarian disease (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Opsismodysplasia (97.0%)</li>
+<li>Classic stiff person syndrome (97.0%)</li>
+<li>Focal stiff limb syndrome (97.0%)</li>
+<li>Thiamine-responsive dysfunction syndrome (96.8%)</li>
+<li>Drug-induced localised lipodystrophy (95.6%)</li>
+<li>Pancreatic agenesis (95.5%)</li>
+<li>Centrifugal lipodystrophy (95.4%)</li>
+<li>Pressure-induced localised lipoatrophy (95.3%)</li>
+<li>Idiopathic localised lipodystrophy (95.0%)</li>
+<li>Autoimmune oophoritis (69.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dulaglutide/' | relative_url }}">View full drug report →</a></p>

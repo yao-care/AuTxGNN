@@ -3,7 +3,7 @@ layout: default
 title: "Mometasone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mometasone. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Mometasone. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/mometasone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mometasone/
 ---
 
 <p class="key-answer" data-question="What news is there about Mometasone?">
-<strong>Mometasone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Mometasone</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Mometasone with the latest h
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma**,</li>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>primary cutaneous T-cell lymphoma (99.4%)</li>
-<li>Crohn's colitis (98.8%)</li>
-<li>myelodysplastic syndrome (98.3%)</li>
-<li>refractory cytopenia of childhood (98.1%)</li>
-<li>unclassified myelodysplastic syndrome (97.9%)</li>
-<li>partial deletion of the long arm of chromosome 5 (97.9%)</li>
-<li>cystic teratoma (97.8%)</li>
-<li>spinal cord dermoid cyst (97.8%)</li>
-<li>aregenerative anemia (97.8%)</li>
-<li>disease of orbital part of eye adnexa (97.7%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Primary cutaneous T-cell lymphoma (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/mometasone/' | relative_url }}">View full drug report →</a></p>

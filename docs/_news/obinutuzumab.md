@@ -3,7 +3,7 @@ layout: default
 title: "Obinutuzumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Obinutuzumab. Original indication: . 10 predicted indications."
+description: "Health news related to Obinutuzumab. Original indication: . 1 predicted indications."
 permalink: /news/obinutuzumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/obinutuzumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Obinutuzumab?">
-<strong>Obinutuzumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Obinutuzumab</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Obinutuzumab with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L1</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (99.2%)</li>
-<li>chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (99.2%)</li>
-<li>follicular lymphoma (99.2%)</li>
-<li>mantle cell lymphoma (98.8%)</li>
-<li>metastatic neoplasm (98.5%)</li>
-<li>malignant spiradenoma (98.5%)</li>
-<li>neoplasm of mature B-cells (98.1%)</li>
-<li>small intestinal Burkitt lymphoma (97.8%)</li>
-<li>Langerhans cell histiocytosis (97.8%)</li>
-<li>thyroid gland mucosa-associated lymphoid tissue lymphoma (97.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Follicular lymphoma (the first-ranked predictions, two CLL/SLL subtypes, have no subtype-specific evidence and sit within the existing CLL indication, so follicular lymphoma is the best-supported prediction) (99.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/obinutuzumab/' | relative_url }}">View full drug report →</a></p>

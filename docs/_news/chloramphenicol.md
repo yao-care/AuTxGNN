@@ -3,7 +3,7 @@ layout: default
 title: "Chloramphenicol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Chloramphenicol. Original indication: . 10 predicted indications."
+description: "Health news related to Chloramphenicol. Original indication: . 1 predicted indications."
 permalink: /news/chloramphenicol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/chloramphenicol/
 ---
 
 <p class="key-answer" data-question="What news is there about Chloramphenicol?">
-<strong>Chloramphenicol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Chloramphenicol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Chloramphenicol with the lat
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>conjunctivitis (99.7%)</li>
-<li>diffuse scleroderma (99.7%)</li>
-<li>postinfectious vasculitis (99.6%)</li>
-<li>post-bacterial disorder (99.6%)</li>
-<li>post-infectious syndrome (99.6%)</li>
-<li>infective urethral stricture (99.5%)</li>
-<li>Chagas cardiomyopathy (99.5%)</li>
-<li>infection-related hemolytic uremic syndrome (99.5%)</li>
-<li>punctate epithelial keratoconjunctivitis (99.2%)</li>
-<li>chronic rhinosinusitis (98.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Conjunctivitis (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/chloramphenicol/' | relative_url }}">View full drug report →</a></p>

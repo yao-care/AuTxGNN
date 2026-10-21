@@ -3,7 +3,7 @@ layout: default
 title: "Valsartan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Valsartan. Original indication: . 9 predicted indications."
+description: "Health news related to Valsartan. Original indication: . 10 predicted indications."
 permalink: /news/valsartan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/valsartan/
 ---
 
 <p class="key-answer" data-question="What news is there about Valsartan?">
-<strong>Valsartan</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Valsartan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Valsartan with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Malignant hypertensive renal disease (100.0%)</li>
 <li>Malignant renovascular hypertension (100.0%)</li>
 <li>Pulmonary hypertension owing to lung disease and/or hypoxia (100.0%)</li>
 <li>Pulmonary hypertension with unclear multifactorial mechanism (100.0%)</li>

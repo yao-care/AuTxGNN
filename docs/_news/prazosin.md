@@ -3,7 +3,7 @@ layout: default
 title: "Prazosin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Prazosin. Original indication: . 9 predicted indications."
+description: "Health news related to Prazosin. Original indication: . 10 predicted indications."
 permalink: /news/prazosin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/prazosin/
 ---
 
 <p class="key-answer" data-question="What news is there about Prazosin?">
-<strong>Prazosin</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Prazosin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Prazosin with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Malignant renovascular hypertension | 90.2% | L4 | Indirect literature only. Close to the existing hypertension use. (99.0%)</li>
-<li>Attention deficit-hyperactivity disorder | 89.7% | L4 | Plausible noradrenergic hypothesis, supported by preclinical papers only. Classed as a research question. (99.0%)</li>
-<li>ADHD, inattentive type | 89.7% | L5 | Prediction only. (99.0%)</li>
-<li>Faciodigitogenital syndrome | 89.4% | L5 | No mechanistic link identified. (99.0%)</li>
-<li>Pulmonary hypertension owing to lung disease and/or hypoxia | 89.3% | L4 | Preclinical and physiological papers only. Vasodilators may worsen ventilation-perfusion matching. (99.0%)</li>
-<li>Pulmonary hypertension, unclear multifactorial mechanism | 89.3% | L5 | Prediction only. (99.0%)</li>
-<li>Specific developmental disorder | 87.2% | L5 | Supplied papers concern alcohol use disorder, so they do not support this indication. (99.0%)</li>
-<li>Braddock syndrome | 86.2% | L5 | No mechanistic link identified. (99.0%)</li>
-<li>Chondromyxoid fibroma | 77.3% | L5 | No mechanistic link identified. (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Malignant hypertensive renal disease (90.2%)</li>
+<li>Malignant renovascular hypertension (90.2%)</li>
+<li>Attention deficit-hyperactivity disorder (89.7%)</li>
+<li>ADHD, inattentive type (89.7%)</li>
+<li>Faciodigitogenital syndrome (89.4%)</li>
+<li>Pulmonary hypertension owing to lung disease and/or hypoxia (89.3%)</li>
+<li>Pulmonary hypertension, unclear multifactorial mechanism (89.3%)</li>
+<li>Specific developmental disorder (87.2%)</li>
+<li>Braddock syndrome (86.2%)</li>
+<li>Chondromyxoid fibroma (77.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/prazosin/' | relative_url }}">View full drug report →</a></p>

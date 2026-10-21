@@ -3,7 +3,7 @@ layout: default
 title: "Rifampicin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Rifampicin. Original indication: . 4 predicted indications."
+description: "Health news related to Rifampicin. Original indication: . 5 predicted indications."
 permalink: /news/rifampicin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/rifampicin/
 ---
 
 <p class="key-answer" data-question="What news is there about Rifampicin?">
-<strong>Rifampicin</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Rifampicin</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,11 +25,12 @@ This page combines the AI-predicted indications for Rifampicin with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
-<li>Multiple endocrine neoplasia | 99.86% | L5 | Prediction only | Hold (99.0%)</li>
-<li>Acne (disease) | 99.74% | L4 | Evidence mostly concerns hidradenitis suppurativa (clindamycin + rifampicin), not acne vulgaris | Hold (99.0%)</li>
-<li>HIV infectious disease | 99.59% | L4 | Phase 2/3 trials are TB/HIV co-infection and interaction studies, not anti-HIV efficacy | Research Question (99.0%)</li>
-<li>Rheumatoid arthritis | 99.45% | L3 | Small 1980s-90s studies with limited, inconsistent benefit; one Phase 1 PK trial | Research Question (99.0%)</li>
+<li><strong>Predicted indications (5)</strong>:<ul>
+<li>Conjunctivitis (100.0%)</li>
+<li>Multiple endocrine neoplasia (99.9%)</li>
+<li>Acne (disease) (99.7%)</li>
+<li>HIV infectious disease (99.6%)</li>
+<li>Rheumatoid arthritis (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/rifampicin/' | relative_url }}">View full drug report →</a></p>

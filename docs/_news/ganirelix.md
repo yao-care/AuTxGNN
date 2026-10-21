@@ -3,7 +3,7 @@ layout: default
 title: "Ganirelix News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ganirelix. Original indication: . 10 predicted indications."
+description: "Health news related to Ganirelix. Original indication: . 1 predicted indications."
 permalink: /news/ganirelix/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ganirelix/
 ---
 
 <p class="key-answer" data-question="What news is there about Ganirelix?">
-<strong>Ganirelix</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Ganirelix</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Ganirelix with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>hypertrichosis (disease) (100.0%)</li>
-<li>Ambras type hypertrichosis universalis congenita (100.0%)</li>
-<li>malformation syndrome with odontal and/or periodontal component (100.0%)</li>
-<li>syndrome with a Dandy-Walker malformation as major feature (100.0%)</li>
-<li>isolated genetic hair shaft abnormality (100.0%)</li>
-<li>familial male-limited precocious puberty (99.8%)</li>
-<li>persistent fetal circulation syndrome (99.8%)</li>
-<li>aromatase excess syndrome (99.8%)</li>
-<li>centra precocious puberty 1 (99.8%)</li>
-<li>familial isolated trichomegaly (99.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Hypertrichosis (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ganirelix/' | relative_url }}">View full drug report →</a></p>

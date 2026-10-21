@@ -3,7 +3,7 @@ layout: default
 title: "Pioglitazone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pioglitazone. Original indication: . 9 predicted indications."
+description: "Health news related to Pioglitazone. Original indication: . 10 predicted indications."
 permalink: /news/pioglitazone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pioglitazone/
 ---
 
 <p class="key-answer" data-question="What news is there about Pioglitazone?">
-<strong>Pioglitazone</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Pioglitazone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Pioglitazone with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Classic stiff person syndrome | 99.50% | Possible immunomodulatory rationale; hypothetical (99.0%)</li>
-<li>Focal stiff limb syndrome | 99.50% | Same score as the classic form; shared graph-based prediction (99.0%)</li>
-<li>Thiamine-responsive dysfunction syndrome | 99.48% | Associated with diabetes, but pioglitazone does not address the thiamine transport defect (99.0%)</li>
-<li>Drug-induced localised lipodystrophy | 99.30% | PPAR-gamma adipogenesis is plausible; withdrawing the causative agent is usual management (99.0%)</li>
-<li>Centrifugal lipodystrophy | 99.26% | Plausible but unverified; often self-limiting (99.0%)</li>
-<li>Pressure-induced localised lipoatrophy | 99.24% | Mechanically induced and localised (99.0%)</li>
-<li>Idiopathic localised lipodystrophy | 99.19% | No clinical data supplied (99.0%)</li>
-<li>Pancreatic agenesis | 99.18% | Retrieved papers concern type 2 diabetes, not this disease; mechanistically unlikely (99.0%)</li>
-<li>Autoimmune oophoritis | 98.06% | Speculative immunomodulatory rationale (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Opsismodysplasia (99.6%)</li>
+<li>Classic stiff person syndrome (99.5%)</li>
+<li>Focal stiff limb syndrome (99.5%)</li>
+<li>Thiamine-responsive dysfunction syndrome (99.5%)</li>
+<li>Drug-induced localised lipodystrophy (99.3%)</li>
+<li>Centrifugal lipodystrophy (99.3%)</li>
+<li>Pressure-induced localised lipoatrophy (99.2%)</li>
+<li>Idiopathic localised lipodystrophy (99.2%)</li>
+<li>Pancreatic agenesis (99.2%)</li>
+<li>Autoimmune oophoritis (98.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pioglitazone/' | relative_url }}">View full drug report →</a></p>

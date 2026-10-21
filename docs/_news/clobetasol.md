@@ -3,7 +3,7 @@ layout: default
 title: "Clobetasol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Clobetasol. Original indication: he TxGNN model predicts it may be effective for **.... 4 predicted indications."
+description: "Health news related to Clobetasol. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/clobetasol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/clobetasol/
 ---
 
 <p class="key-answer" data-question="What news is there about Clobetasol?">
-<strong>Clobetasol</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Clobetasol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,11 +26,8 @@ This page combines the AI-predicted indications for Clobetasol with the latest h
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma**, mainly early-stage mycosis fungoides.</li>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
-<li>Lymphosarcoma | L4 | Research Question | Literature overlaps with cutaneous lymphoma. It does not support systemic nodal disease. (99.0%)</li>
-<li>Disease of orbital region | L4 | Research Question | Two completed Phase 3 trials ([NCT04246801](https://clinicaltrials.gov/study/NCT04246801), n=250; [NCT04249076](https://clinicaltrials.gov/study/NCT04249076), n=215) appear to study clobetasol ophthalmic nanoemulsion for post-cataract-surgery inflammation. This is indirect to the predicted term and needs record verification. (99.0%)</li>
-<li>Candidiasis | L4 | Hold | Candidiasis is an adverse effect of topical steroids, not a treatable indication. The literature does support oral lichen planus, which could be evaluated as a separate indication. (99.0%)</li>
-<li>Crohn's colitis | L4 | Hold | Literature covers only skin manifestations and steroid adverse effects. (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Primary cutaneous T-cell lymphoma (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/clobetasol/' | relative_url }}">View full drug report →</a></p>

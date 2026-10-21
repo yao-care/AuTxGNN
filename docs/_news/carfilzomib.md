@@ -3,7 +3,7 @@ layout: default
 title: "Carfilzomib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Carfilzomib. Original indication: . 10 predicted indications."
+description: "Health news related to Carfilzomib. Original indication: . 1 predicted indications."
 permalink: /news/carfilzomib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/carfilzomib/
 ---
 
 <p class="key-answer" data-question="What news is there about Carfilzomib?">
-<strong>Carfilzomib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Carfilzomib</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Carfilzomib with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>CMM7 (99.4%)</li>
-<li>pediatric leptomeningeal melanoma (99.3%)</li>
-<li>epithelioid cell uveal melanoma (99.2%)</li>
-<li>vulvar melanoma (disease) (99.2%)</li>
-<li>melanoma (99.0%)</li>
-<li>indolent plasma cell myeloma (97.9%)</li>
-<li>intellectual disability, autosomal dominant 55, with seizures (97.8%)</li>
-<li>myeloid leukemia (97.0%)</li>
-<li>neutrophil immunodeficiency syndrome (95.1%)</li>
-<li>central nervous system melanocytic neoplasm (93.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Myeloid leukaemia (see note below) (97.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/carfilzomib/' | relative_url }}">View full drug report →</a></p>

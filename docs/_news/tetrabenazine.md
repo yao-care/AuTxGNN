@@ -3,7 +3,7 @@ layout: default
 title: "Tetrabenazine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tetrabenazine. Original indication: . 10 predicted indications."
+description: "Health news related to Tetrabenazine. Original indication: . 1 predicted indications."
 permalink: /news/tetrabenazine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tetrabenazine/
 ---
 
 <p class="key-answer" data-question="What news is there about Tetrabenazine?">
-<strong>Tetrabenazine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Tetrabenazine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Tetrabenazine with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>polycystic kidney disease 3 with or without polycystic liver disease (99.9%)</li>
-<li>renal-hepatic-pancreatic dysplasia (99.9%)</li>
-<li>Joubert syndrome with renal defect (99.9%)</li>
-<li>karyomegalic interstitial nephritis (99.9%)</li>
-<li>thoracic malformation (99.8%)</li>
-<li>polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (99.8%)</li>
-<li>acute intermittent porphyria (99.8%)</li>
-<li>adult familial nephronophthisis-spastic quadriparesia syndrome (99.8%)</li>
-<li>atypical glycine encephalopathy (99.8%)</li>
-<li>congenital disorder of glycosylation with defective fucosylation (99.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Polycystic kidney disease 3 with or without polycystic liver disease (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tetrabenazine/' | relative_url }}">View full drug report →</a></p>

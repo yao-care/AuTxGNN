@@ -3,7 +3,7 @@ layout: default
 title: "Flunitrazepam News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Flunitrazepam. Original indication: . 10 predicted indications."
+description: "Health news related to Flunitrazepam. Original indication: . 1 predicted indications."
 permalink: /news/flunitrazepam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/flunitrazepam/
 ---
 
 <p class="key-answer" data-question="What news is there about Flunitrazepam?">
-<strong>Flunitrazepam</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Flunitrazepam</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Flunitrazepam with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>insomnia (disease) (99.9%)</li>
-<li>migraine disorder (99.7%)</li>
-<li>migraine with brainstem aura (99.6%)</li>
-<li>anxiety (99.6%)</li>
-<li>anxiety disorder (99.6%)</li>
-<li>alcohol withdrawal delirium (99.5%)</li>
-<li>migraine with or without aura, susceptibility to (99.5%)</li>
-<li>agoraphobia (99.4%)</li>
-<li>benign paroxysmal torticollis of infancy (99.4%)</li>
-<li>atrophoderma vermiculata (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Insomnia (top-ranked prediction; already an established use). Best-supported new candidate: alcohol withdrawal delirium (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/flunitrazepam/' | relative_url }}">View full drug report →</a></p>

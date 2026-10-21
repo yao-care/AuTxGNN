@@ -3,7 +3,7 @@ layout: default
 title: "Capecitabine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Capecitabine. Original indication: . 9 predicted indications."
+description: "Health news related to Capecitabine. Original indication: . 10 predicted indications."
 permalink: /news/capecitabine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/capecitabine/
 ---
 
 <p class="key-answer" data-question="What news is there about Capecitabine?">
-<strong>Capecitabine</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Capecitabine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Capecitabine with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Top-ranked: gastric adenocarcinoma and proximal polyposis of the stomach (no evidence). Best-supported: gastric tubular adenocarcinoma, presented below (99.9%)</li>
 <li>Gastric adenocarcinoma and proximal polyposis of the stomach (99.9%)</li>
 <li>Microinvasive gastric cancer (99.9%)</li>
 <li>Signet ring cell gastric adenocarcinoma (99.9%)</li>

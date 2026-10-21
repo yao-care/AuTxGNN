@@ -3,7 +3,7 @@ layout: default
 title: "Galcanezumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Galcanezumab. Original indication: . 10 predicted indications."
+description: "Health news related to Galcanezumab. Original indication: . 1 predicted indications."
 permalink: /news/galcanezumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/galcanezumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Galcanezumab?">
-<strong>Galcanezumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Galcanezumab</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Galcanezumab with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>heparin cofactor 2 deficiency (99.5%)</li>
-<li>antithrombin deficiency type 2 (99.4%)</li>
-<li>factor 5 excess with spontaneous thrombosis (99.4%)</li>
-<li>thrombophilia (99.0%)</li>
-<li>migraine with brainstem aura (98.3%)</li>
-<li>atrophoderma vermiculata (91.5%)</li>
-<li>ulerythema ophryogenesis (90.3%)</li>
-<li>hemorrhagic disease of newborn (81.3%)</li>
-<li>prekallikrein deficiency (72.2%)</li>
-<li>thrombotic disorder due to a platelet anomaly (70.7%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Migraine with brainstem aura (the top-ranked prediction, heparin cofactor 2 deficiency, has no plausible mechanistic link and is not recommended; see note below) (98.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/galcanezumab/' | relative_url }}">View full drug report →</a></p>

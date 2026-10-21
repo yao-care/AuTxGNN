@@ -3,7 +3,7 @@ layout: default
 title: "Fluoxetine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fluoxetine. Original indication: . 5 predicted indications."
+description: "Health news related to Fluoxetine. Original indication: . 6 predicted indications."
 permalink: /news/fluoxetine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fluoxetine/
 ---
 
 <p class="key-answer" data-question="What news is there about Fluoxetine?">
-<strong>Fluoxetine</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Fluoxetine</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Fluoxetine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
+<li><strong>Predicted indications (6)</strong>:<ul>
+<li>Schizoid personality disorder (99.9%)</li>
 <li>Schizotypal personality disorder (99.9%)</li>
 <li>Agoraphobia (99.9%)</li>
 <li>Manic bipolar affective disorder (99.6%)</li>

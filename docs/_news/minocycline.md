@@ -3,7 +3,7 @@ layout: default
 title: "Minocycline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Minocycline. Original indication: . 10 predicted indications."
+description: "Health news related to Minocycline. Original indication: . 1 predicted indications."
 permalink: /news/minocycline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/minocycline/
 ---
 
 <p class="key-answer" data-question="What news is there about Minocycline?">
-<strong>Minocycline</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Minocycline</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Minocycline with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>punctate epithelial keratoconjunctivitis (99.6%)</li>
-<li>exposure keratitis (99.2%)</li>
-<li>neurotrophic keratopathy (99.0%)</li>
-<li>postinfectious vasculitis (98.8%)</li>
-<li>post-bacterial disorder (98.7%)</li>
-<li>otitis externa (98.7%)</li>
-<li>post-infectious syndrome (98.7%)</li>
-<li>chronic ethmoidal sinusitis (98.7%)</li>
-<li>chronic rhinosinusitis (98.6%)</li>
-<li>paranasal sinus neoplasm (disease) (98.6%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Punctate epithelial keratoconjunctivitis (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/minocycline/' | relative_url }}">View full drug report →</a></p>

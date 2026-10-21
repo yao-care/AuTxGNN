@@ -3,7 +3,7 @@ layout: default
 title: "Tofacitinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tofacitinib. Original indication: . 10 predicted indications."
+description: "Health news related to Tofacitinib. Original indication: . 1 predicted indications."
 permalink: /news/tofacitinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tofacitinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Tofacitinib?">
-<strong>Tofacitinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Tofacitinib</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Tofacitinib with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.0%)</li>
-<li>brachydactyly-syndactyly syndrome (98.9%)</li>
-<li>indolent plasma cell myeloma (96.7%)</li>
-<li>plasma cell myeloma (96.1%)</li>
-<li>myeloid leukemia (95.4%)</li>
-<li>ganglioneuroblastoma (disease) (79.5%)</li>
-<li>marcothrombocytopenia with mitral valve insufficiency (76.2%)</li>
-<li>hereditary thrombocytopenia with normal platelets (75.8%)</li>
-<li>vertebral anomalies and variable endocrine and T-cell dysfunction (75.3%)</li>
-<li>retroperitoneal neoplasm (75.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tofacitinib/' | relative_url }}">View full drug report →</a></p>

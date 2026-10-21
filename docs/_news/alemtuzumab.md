@@ -3,7 +3,7 @@ layout: default
 title: "Alemtuzumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Alemtuzumab. Original indication: . 10 predicted indications."
+description: "Health news related to Alemtuzumab. Original indication: . 1 predicted indications."
 permalink: /news/alemtuzumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alemtuzumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Alemtuzumab?">
-<strong>Alemtuzumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Alemtuzumab</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Alemtuzumab with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>hepatic infarction (94.4%)</li>
-<li>syndrome with combined immunodeficiency (93.7%)</li>
-<li>hepatic veno-occlusive disease (93.1%)</li>
-<li>kidney pelvis sarcomatoid transitional cell carcinoma (93.1%)</li>
-<li>infiltrating bladder urothelial carcinoma sarcomatoid variant (92.9%)</li>
-<li>prostatic urethra urothelial carcinoma (92.8%)</li>
-<li>renal pelvis papillary urothelial carcinoma (92.8%)</li>
-<li>peliosis hepatis (92.2%)</li>
-<li>acquired hemophagocytic lymphohistiocytosis associated with malignant disease (89.9%)</li>
-<li>hemophagocytic syndrome associated with an infection (89.9%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Syndrome with combined immunodeficiency (rank 2 of 10; the best-supported prediction. The rank 1 prediction, hepatic infarction, has no evidence and is not pursued) (93.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/alemtuzumab/' | relative_url }}">View full drug report →</a></p>

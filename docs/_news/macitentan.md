@@ -3,7 +3,7 @@ layout: default
 title: "Macitentan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Macitentan. Original indication: . 4 predicted indications."
+description: "Health news related to Macitentan. Original indication: . 6 predicted indications."
 permalink: /news/macitentan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/macitentan/
 ---
 
 <p class="key-answer" data-question="What news is there about Macitentan?">
-<strong>Macitentan</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Macitentan</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,9 @@ This page combines the AI-predicted indications for Macitentan with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
+<li><strong>Predicted indications (6)</strong>:<ul>
+<li>Pulmonary arterial hypertension associated with congenital heart disease (98.8%)</li>
+<li>PAH associated with connective tissue disease (98.6%)</li>
 <li>PAH associated with HIV infection (98.6%)</li>
 <li>Pulmonary arteriovenous malformation (98.9%)</li>
 <li>PAH associated with chronic haemolytic anaemia (98.6%)</li>

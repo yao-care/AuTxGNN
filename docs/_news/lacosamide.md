@@ -3,7 +3,7 @@ layout: default
 title: "Lacosamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lacosamide. Original indication: . 10 predicted indications."
+description: "Health news related to Lacosamide. Original indication: . 11 predicted indications."
 permalink: /news/lacosamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lacosamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Lacosamide?">
-<strong>Lacosamide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Lacosamide</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,18 @@ This page combines the AI-predicted indications for Lacosamide with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>Manic bipolar affective disorder | 99.96% | L3 | Research Question (99.0%)</li>
-<li>Tourette syndrome | 99.95% | L5 | Hold (99.0%)</li>
-<li>Trichotillomania | 99.92% | L5 | Hold (99.0%)</li>
-<li>Nephrogenic syndrome of inappropriate antidiuresis | 99.91% | L5 | Hold (99.0%)</li>
-<li>**Migraine disorder** | 99.87% | L1 | Proceed with Guardrails (99.0%)</li>
-<li>Insomnia | 99.83% | L5 | Hold (99.0%)</li>
-<li>Migraine with brainstem aura | 99.82% | L4 | Research Question (99.0%)</li>
-<li>Myofascial pain syndrome | 99.81% | L2 | Research Question (99.0%)</li>
-<li>Obsessive-compulsive disorder | 99.78% | L5 | Hold (99.0%)</li>
-<li>Papillary conjunctivitis | 99.72% | L5 | Hold (99.0%)</li>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>Migraine disorder (the evidence-leading candidate; the top-ranked prediction is manic bipolar affective disorder, 99.96%) (99.9%)</li>
+<li>Manic bipolar affective disorder (100.0%)</li>
+<li>Tourette syndrome (100.0%)</li>
+<li>Trichotillomania (99.9%)</li>
+<li>Nephrogenic syndrome of inappropriate antidiuresis (99.9%)</li>
+<li>Migraine disorder (99.9%)</li>
+<li>Insomnia (99.8%)</li>
+<li>Migraine with brainstem aura (99.8%)</li>
+<li>Myofascial pain syndrome (99.8%)</li>
+<li>Obsessive-compulsive disorder (99.8%)</li>
+<li>Papillary conjunctivitis (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/lacosamide/' | relative_url }}">View full drug report →</a></p>

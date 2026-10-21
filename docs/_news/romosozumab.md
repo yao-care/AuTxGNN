@@ -3,7 +3,7 @@ layout: default
 title: "Romosozumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Romosozumab. Original indication: . 10 predicted indications."
+description: "Health news related to Romosozumab. Original indication: . 1 predicted indications."
 permalink: /news/romosozumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/romosozumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Romosozumab?">
-<strong>Romosozumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Romosozumab</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Romosozumab with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>obsolete vitamin D deficiency (97.8%)</li>
-<li>calcium-alkali syndrome (97.4%)</li>
-<li>primary bone dysplasia with defective bone mineralization (97.3%)</li>
-<li>severe nonproliferative diabetic retinopathy (95.0%)</li>
-<li>renal osteodystrophy (94.3%)</li>
-<li>osteomalacia (disease) (93.5%)</li>
-<li>pregnancy associated osteoporosis (92.9%)</li>
-<li>autosomal dominant neovascular inflammatory vitreoretinopathy (92.4%)</li>
-<li>Worth syndrome (92.4%)</li>
-<li>impaired renal function disease (91.5%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Obsolete vitamin D deficiency (97.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/romosozumab/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Pegvisomant News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pegvisomant. Original indication: . 10 predicted indications."
+description: "Health news related to Pegvisomant. Original indication: . 1 predicted indications."
 permalink: /news/pegvisomant/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pegvisomant/
 ---
 
 <p class="key-answer" data-question="What news is there about Pegvisomant?">
-<strong>Pegvisomant</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Pegvisomant</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Pegvisomant with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>borderline ovarian serous tumor (98.6%)</li>
-<li>rete ovarii cystadenoma (98.6%)</li>
-<li>ovarian papillary cystadenoma (98.6%)</li>
-<li>pyelonephritis (98.6%)</li>
-<li>malignant ovarian Brenner tumor (98.6%)</li>
-<li>aleukemic mast cell leukemia (98.6%)</li>
-<li>ovarian mucinous cystadenofibroma (98.5%)</li>
-<li>ovarian benign neoplasm (98.5%)</li>
-<li>mucinous ovarian cystadenoma (98.5%)</li>
-<li>ovarian surface papilloma (98.5%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Borderline ovarian serous tumour (98.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pegvisomant/' | relative_url }}">View full drug report →</a></p>

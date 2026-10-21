@@ -3,7 +3,7 @@ layout: default
 title: "Benzylpenicillin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Benzylpenicillin. Original indication: . 9 predicted indications."
+description: "Health news related to Benzylpenicillin. Original indication: . 10 predicted indications."
 permalink: /news/benzylpenicillin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/benzylpenicillin/
 ---
 
 <p class="key-answer" data-question="What news is there about Benzylpenicillin?">
-<strong>Benzylpenicillin</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Benzylpenicillin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Benzylpenicillin with the la
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Gingival recession | 99.31% | L5 | Mainly mechanical and inflammatory; no clear antibacterial rationale (99.0%)</li>
-<li>Canker sore | 99.27% | L5 | Immune-mediated; no defined bacterial driver (99.0%)</li>
-<li>Ulcerative stomatitis | 99.26% | L5 | Relevant only with secondary bacterial infection (99.0%)</li>
-<li>Denture stomatitis | 99.26% | L5 | Mostly Candida-associated; rationale weak or contradictory (99.0%)</li>
-<li>Chemotherapy-induced oral mucositis | 99.26% | L5 | Does not target the primary pathology (99.0%)</li>
-<li>Leukoplakia of gingiva | 99.06% | L5 | No plausible antibacterial mechanism (99.0%)</li>
-<li>Conjunctivitis | 97.94% | L4 | Compatible with susceptible bacteria, but literature is off-target (99.0%)</li>
-<li>Cat-scratch disease | 97.78% | L5 | *Bartonella* not reliably treated by penicillins (99.0%)</li>
-<li>Chronic ethmoidal sinusitis | 97.63% | L5 | Polymicrobial, biofilm-associated, beta-lactamase producers (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Pericoronitis (99.4%)</li>
+<li>Gingival recession (99.3%)</li>
+<li>Canker sore (99.3%)</li>
+<li>Ulcerative stomatitis (99.3%)</li>
+<li>Denture stomatitis (99.3%)</li>
+<li>Chemotherapy-induced oral mucositis (99.3%)</li>
+<li>Leukoplakia of gingiva (99.1%)</li>
+<li>Conjunctivitis (97.9%)</li>
+<li>Cat-scratch disease (97.8%)</li>
+<li>Chronic ethmoidal sinusitis (97.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/benzylpenicillin/' | relative_url }}">View full drug report →</a></p>

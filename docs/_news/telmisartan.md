@@ -3,7 +3,7 @@ layout: default
 title: "Telmisartan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Telmisartan. Original indication: . 10 predicted indications."
+description: "Health news related to Telmisartan. Original indication: . 11 predicted indications."
 permalink: /news/telmisartan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/telmisartan/
 ---
 
 <p class="key-answer" data-question="What news is there about Telmisartan?">
-<strong>Telmisartan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Telmisartan</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,18 @@ This page combines the AI-predicted indications for Telmisartan with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>Prinzmetal angina | 99.98% | L5 | Prediction only; no trials or literature (99.0%)</li>
-<li>Brain stem infarction | 99.98% | L5 | Within the original stroke scope, but no direct evidence (99.0%)</li>
-<li>ABri amyloidosis | 99.97% | L5 | Prediction only (99.0%)</li>
-<li>Cerebral artery occlusion | 99.95% | L3 | Preclinical data and one indirect Phase 4 trial (99.0%)</li>
-<li>Pulmonary hypertension, unclear multifactorial mechanism | 99.93% | L5 | Prediction only (99.0%)</li>
-<li>Pulmonary hypertension due to lung disease/hypoxia | 99.93% | L4 | Indirect animal, in vitro and altitude studies only (99.0%)</li>
-<li>Malignant renovascular hypertension | 99.93% | L5 | Prediction only; ARB safety concerns in renal artery stenosis (99.0%)</li>
-<li>Malignant hypertensive renal disease | 99.93% | L5 | Prediction only (99.0%)</li>
-<li>Intracerebral haemorrhage | 99.93% | L2 | Phase 3 TRIDENT (combination therapy) (99.0%)</li>
-<li>Braddock syndrome | 99.92% | L5 | Prediction only; no identifiable mechanistic basis (99.0%)</li>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>Intracerebral haemorrhage (best-evidenced); top-scored prediction is Prinzmetal angina (99.9%)</li>
+<li>Prinzmetal angina (100.0%)</li>
+<li>Brain stem infarction (100.0%)</li>
+<li>ABri amyloidosis (100.0%)</li>
+<li>Cerebral artery occlusion (100.0%)</li>
+<li>Pulmonary hypertension, unclear multifactorial mechanism (99.9%)</li>
+<li>Pulmonary hypertension due to lung disease/hypoxia (99.9%)</li>
+<li>Malignant renovascular hypertension (99.9%)</li>
+<li>Malignant hypertensive renal disease (99.9%)</li>
+<li>Intracerebral haemorrhage (99.9%)</li>
+<li>Braddock syndrome (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/telmisartan/' | relative_url }}">View full drug report →</a></p>

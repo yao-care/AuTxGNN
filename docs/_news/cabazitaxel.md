@@ -3,7 +3,7 @@ layout: default
 title: "Cabazitaxel News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cabazitaxel. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Cabazitaxel. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/cabazitaxel/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cabazitaxel/
 ---
 
 <p class="key-answer" data-question="What news is there about Cabazitaxel?">
-<strong>Cabazitaxel</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Cabazitaxel</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Cabazitaxel with the latest 
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **female breast carcinoma**.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>female breast carcinoma (99.9%)</li>
-<li>sickle cell-beta-thalassemia disease syndrome (99.9%)</li>
-<li>sickle cell-hemoglobin c disease syndrome (99.9%)</li>
-<li>hereditary persistence of fetal hemoglobin-sickle cell disease syndrome (99.9%)</li>
-<li>sickle cell-hemoglobin d disease syndrome (99.9%)</li>
-<li>sickle cell-hemoglobin E disease syndrome (99.9%)</li>
-<li>HIV infectious disease (99.8%)</li>
-<li>hyperthyroidism (99.8%)</li>
-<li>neuroblastoma (99.8%)</li>
-<li>rheumatoid arthritis (99.7%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Female breast carcinoma (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cabazitaxel/' | relative_url }}">View full drug report →</a></p>

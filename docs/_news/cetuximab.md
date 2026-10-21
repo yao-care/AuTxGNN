@@ -3,7 +3,7 @@ layout: default
 title: "Cetuximab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cetuximab. Original indication: . 10 predicted indications."
+description: "Health news related to Cetuximab. Original indication: . 1 predicted indications."
 permalink: /news/cetuximab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cetuximab/
 ---
 
 <p class="key-answer" data-question="What news is there about Cetuximab?">
-<strong>Cetuximab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Cetuximab</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Cetuximab with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>Bronchial adenomas/carcinoids, childhood | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Chondroid hamartoma | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Ductal or ductular proliferation | L4 | 0 | 20 | Hold (99.0%)</li>
-<li>Non-seminomatous lesion | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Tumour of testis and paratestis | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Odontogenic cyst | L4 | 0 | 2 | Hold (99.0%)</li>
-<li>Thyroglossal duct cyst | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Cystic neoplasm | L2 | 4 | 20 | Research question (99.0%)</li>
-<li>Epiglottis neoplasm | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Pre-malignant neoplasm | L2 | 4 | 2 | Research question (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Bronchial adenomas/carcinoids, childhood (rank 1) (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cetuximab/' | relative_url }}">View full drug report →</a></p>

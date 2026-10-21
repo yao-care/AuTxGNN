@@ -3,7 +3,7 @@ layout: default
 title: "Memantine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Memantine. Original indication: . 10 predicted indications."
+description: "Health news related to Memantine. Original indication: . 11 predicted indications."
 permalink: /news/memantine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/memantine/
 ---
 
 <p class="key-answer" data-question="What news is there about Memantine?">
-<strong>Memantine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Memantine</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,18 @@ This page combines the AI-predicted indications for Memantine with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>Pulmonary hypertension | 99.54% | L5 | Hold (99.0%)</li>
-<li>Migraine disorder | 99.52% | L1 | Proceed with Guardrails (99.0%)</li>
-<li>Kyphoscoliotic heart disease | 99.43% | L5 | Hold (99.0%)</li>
-<li>Migraine with brainstem aura | 99.41% | L2 | Research Question (99.0%)</li>
-<li>Rheumatoid arthritis | 98.73% | L4 | Hold (99.0%)</li>
-<li>Nephrogenic syndrome of inappropriate antidiuresis | 98.67% | L5 | Hold (99.0%)</li>
-<li>Atrophoderma vermiculata | 98.48% | L5 | Hold (99.0%)</li>
-<li>Migraine with or without aura, susceptibility to | 98.43% | L2 | Research Question (99.0%)</li>
-<li>Ulerythema ophryogenesis | 98.21% | L5 | Hold (99.0%)</li>
-<li>Brachydactyly-syndactyly syndrome | 98.12% | L5 | Hold (99.0%)</li>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>Migraine disorder (best-supported; TxGNN rank 2). The top-scoring prediction, pulmonary hypertension, has only L5 evidence (99.5%)</li>
+<li>Pulmonary hypertension (99.5%)</li>
+<li>Migraine disorder (99.5%)</li>
+<li>Kyphoscoliotic heart disease (99.4%)</li>
+<li>Migraine with brainstem aura (99.4%)</li>
+<li>Rheumatoid arthritis (98.7%)</li>
+<li>Nephrogenic syndrome of inappropriate antidiuresis (98.7%)</li>
+<li>Atrophoderma vermiculata (98.5%)</li>
+<li>Migraine with or without aura, susceptibility to (98.4%)</li>
+<li>Ulerythema ophryogenesis (98.2%)</li>
+<li>Brachydactyly-syndactyly syndrome (98.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/memantine/' | relative_url }}">View full drug report →</a></p>

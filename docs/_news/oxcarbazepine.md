@@ -3,7 +3,7 @@ layout: default
 title: "Oxcarbazepine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Oxcarbazepine. Original indication: . 2 predicted indications."
+description: "Health news related to Oxcarbazepine. Original indication: . 3 predicted indications."
 permalink: /news/oxcarbazepine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/oxcarbazepine/
 ---
 
 <p class="key-answer" data-question="What news is there about Oxcarbazepine?">
-<strong>Oxcarbazepine</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Oxcarbazepine</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Oxcarbazepine with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>Visual epilepsy (100.0%)</li>
 <li>Restless legs syndrome (99.9%)</li>
 <li>Status epilepticus (99.9%)</li>
 </ul></li>

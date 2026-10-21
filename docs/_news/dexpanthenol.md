@@ -3,7 +3,7 @@ layout: default
 title: "Dexpanthenol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dexpanthenol. Original indication: . 10 predicted indications."
+description: "Health news related to Dexpanthenol. Original indication: . 1 predicted indications."
 permalink: /news/dexpanthenol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dexpanthenol/
 ---
 
 <p class="key-answer" data-question="What news is there about Dexpanthenol?">
-<strong>Dexpanthenol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Dexpanthenol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Dexpanthenol with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>anorectal stricture (99.7%)</li>
-<li>imperforate anus (99.7%)</li>
-<li>anal polyp (99.6%)</li>
-<li>vulvar inverted follicular keratosis (99.6%)</li>
-<li>proctitis (99.6%)</li>
-<li>exanthem (disease) (99.6%)</li>
-<li>punctate epithelial keratoconjunctivitis (99.3%)</li>
-<li>acute urate nephropathy (99.0%)</li>
-<li>indeterminate colitis (98.9%)</li>
-<li>diversion colitis (98.9%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Anorectal stricture (top-ranked) (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dexpanthenol/' | relative_url }}">View full drug report →</a></p>

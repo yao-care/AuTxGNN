@@ -3,7 +3,7 @@ layout: default
 title: "Penicillamine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Penicillamine. Original indication: . 10 predicted indications."
+description: "Health news related to Penicillamine. Original indication: . 1 predicted indications."
 permalink: /news/penicillamine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/penicillamine/
 ---
 
 <p class="key-answer" data-question="What news is there about Penicillamine?">
-<strong>Penicillamine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Penicillamine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Penicillamine with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>megaloblastic anemia (disease) (98.0%)</li>
-<li>tricarboxylic acid cycle disorder (93.5%)</li>
-<li>disease of transporter activity (93.0%)</li>
-<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (93.0%)</li>
-<li>glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form (92.9%)</li>
-<li>glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form (92.9%)</li>
-<li>adult polyglucosan body disease (92.5%)</li>
-<li>granulomatous disease, chronic, X-linked (92.5%)</li>
-<li>pyruvate metabolism disorder (91.5%)</li>
-<li>anemia, nonspherocytic hemolytic, due to G6PD deficiency (90.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Megaloblastic anaemia (98.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/penicillamine/' | relative_url }}">View full drug report →</a></p>

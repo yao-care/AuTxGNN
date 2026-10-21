@@ -3,7 +3,7 @@ layout: default
 title: "Palbociclib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Palbociclib. Original indication: he TxGNN model's top-ranked prediction is **hypert.... 10 predicted indications."
+description: "Health news related to Palbociclib. Original indication: he TxGNN model's top-ranked prediction is **hypert.... 1 predicted indications."
 permalink: /news/palbociclib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/palbociclib/
 ---
 
 <p class="key-answer" data-question="What news is there about Palbociclib?">
-<strong>Palbociclib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Palbociclib</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Palbociclib with the latest 
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model's top-ranked prediction is **hyperthyroidism** (score 99.44%), but there are **0 clinical trials** and **0 publications** supporting it.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>hyperthyroidism (99.4%)</li>
-<li>rheumatoid arthritis (99.4%)</li>
-<li>thrombotic disease (99.3%)</li>
-<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (99.3%)</li>
-<li>brachydactyly-syndactyly syndrome (99.0%)</li>
-<li>myeloid leukemia (98.9%)</li>
-<li>multiple endocrine neoplasia (98.9%)</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (98.8%)</li>
-<li>hyperthyroxinemia (98.8%)</li>
-<li>Prinzmetal angina (98.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Hyperthyroidism (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/palbociclib/' | relative_url }}">View full drug report →</a></p>

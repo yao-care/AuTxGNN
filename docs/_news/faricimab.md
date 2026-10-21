@@ -3,7 +3,7 @@ layout: default
 title: "Faricimab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Faricimab. Original indication: The rest of this report covers diabetic retinopath.... 10 predicted indications."
+description: "Health news related to Faricimab. Original indication: The rest of this report covers diabetic retinopath.... 1 predicted indications."
 permalink: /news/faricimab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/faricimab/
 ---
 
 <p class="key-answer" data-question="What news is there about Faricimab?">
-<strong>Faricimab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Faricimab</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Faricimab with the latest he
 <ul>
 <li><strong>Original indication</strong>: The rest of this report covers diabetic retinopathy, because it is the only prediction with substantial evidence. A note on the other predictions follows the Quick Overview.</li>
 <li><strong>Evidence level</strong>: L1</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>primary release disorder of platelets (98.9%)</li>
-<li>pseudo-von Willebrand disease (98.7%)</li>
-<li>Glanzmann thrombasthenia (98.4%)</li>
-<li>drug-induced osteoporosis (97.8%)</li>
-<li>esotropia (97.7%)</li>
-<li>severe nonproliferative diabetic retinopathy (97.2%)</li>
-<li>HER2 positive breast carcinoma (96.9%)</li>
-<li>diabetic retinopathy (96.8%)</li>
-<li>respiratory syncytial virus infectious disease (96.4%)</li>
-<li>fetal and neonatal alloimmune thrombocytopenia (96.1%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Diabetic retinopathy (evidence-supported prediction; the top-ranked prediction by score is primary release disorder of platelets, 98.9%, with no evidence) (96.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/faricimab/' | relative_url }}">View full drug report →</a></p>

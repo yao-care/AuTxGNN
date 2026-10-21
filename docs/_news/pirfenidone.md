@@ -3,7 +3,7 @@ layout: default
 title: "Pirfenidone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pirfenidone. Original indication: . 9 predicted indications."
+description: "Health news related to Pirfenidone. Original indication: . 10 predicted indications."
 permalink: /news/pirfenidone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pirfenidone/
 ---
 
 <p class="key-answer" data-question="What news is there about Pirfenidone?">
-<strong>Pirfenidone</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Pirfenidone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Pirfenidone with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Dermatofibrosarcoma protuberans | 99.41% | L5 | Loose rationale via fibroblast biology; the PDGFB driver is already targeted by imatinib (99.0%)</li>
-<li>Aggressive systemic mastocytosis | 99.33% | L5 | KIT-driven; no documented link (99.0%)</li>
-<li>Heart fibrosarcoma | 99.29% | L5 | Anti-fibrotic effects are in non-malignant cardiac fibrosis only (99.0%)</li>
-<li>Conventional fibrosarcoma | 99.26% | L5 | Plausible but unsupported (99.0%)</li>
-<li>Autosomal recessive familial Mediterranean fever | 99.25% | L5 | Anti-inflammatory effects are conceptually relevant, but colchicine and IL-1 inhibitors are established (99.0%)</li>
-<li>Kidney fibrosarcoma | 99.24% | L5 | Renal anti-fibrotic data do not extend to malignancy (99.0%)</li>
-<li>Hepatic infarction | 99.24% | L5 | Ischaemic event; no clear link (99.0%)</li>
-<li>Fibroblastic neoplasm | 99.23% | L4 | Preclinical fibroblast data; one safety signal (see below) (99.0%)</li>
-<li>Low grade fibromyxoid sarcoma | 99.19% | L5 | No documented link (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Extracutaneous mastocytoma (99.7%)</li>
+<li>Dermatofibrosarcoma protuberans (99.4%)</li>
+<li>Aggressive systemic mastocytosis (99.3%)</li>
+<li>Heart fibrosarcoma (99.3%)</li>
+<li>Conventional fibrosarcoma (99.3%)</li>
+<li>Autosomal recessive familial Mediterranean fever (99.2%)</li>
+<li>Kidney fibrosarcoma (99.2%)</li>
+<li>Hepatic infarction (99.2%)</li>
+<li>Fibroblastic neoplasm (99.2%)</li>
+<li>Low grade fibromyxoid sarcoma (99.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pirfenidone/' | relative_url }}">View full drug report →</a></p>

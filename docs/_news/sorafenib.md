@@ -3,7 +3,7 @@ layout: default
 title: "Sorafenib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sorafenib. Original indication: . 10 predicted indications."
+description: "Health news related to Sorafenib. Original indication: . 1 predicted indications."
 permalink: /news/sorafenib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sorafenib/
 ---
 
 <p class="key-answer" data-question="What news is there about Sorafenib?">
-<strong>Sorafenib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Sorafenib</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Sorafenib with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>liposarcoma (99.8%)</li>
-<li>ovarian myxoid liposarcoma (99.8%)</li>
-<li>renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions (99.7%)</li>
-<li>renal cell carcinoma associated with neuroblastoma (99.7%)</li>
-<li>unclassified renal cell carcinoma (99.7%)</li>
-<li>childhood kidney cell carcinoma (99.6%)</li>
-<li>female breast carcinoma (99.5%)</li>
-<li>renal pelvis carcinoma (99.4%)</li>
-<li>vulva sarcoma (99.4%)</li>
-<li>dermatofibrosarcoma protuberans (99.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Liposarcoma (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/sorafenib/' | relative_url }}">View full drug report →</a></p>

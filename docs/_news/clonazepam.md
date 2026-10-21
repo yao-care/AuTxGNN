@@ -3,7 +3,7 @@ layout: default
 title: "Clonazepam News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Clonazepam. Original indication: . 9 predicted indications."
+description: "Health news related to Clonazepam. Original indication: . 10 predicted indications."
 permalink: /news/clonazepam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/clonazepam/
 ---
 
 <p class="key-answer" data-question="What news is there about Clonazepam?">
-<strong>Clonazepam</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Clonazepam</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Clonazepam with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Restless legs syndrome (99.7%)</li>
 <li>Status epilepticus (97.0%)</li>
 <li>Trigeminal neuralgia (97.7%)</li>
 <li>Insomnia (99.3%)</li>

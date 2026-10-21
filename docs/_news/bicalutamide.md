@@ -3,7 +3,7 @@ layout: default
 title: "Bicalutamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bicalutamide. Original indication: he TxGNN model's top-ranked prediction is **hypert.... 8 predicted indications."
+description: "Health news related to Bicalutamide. Original indication: he TxGNN model's top-ranked prediction is **hypert.... 9 predicted indications."
 permalink: /news/bicalutamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bicalutamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Bicalutamide?">
-<strong>Bicalutamide</strong> currently has <strong>0 news articles</strong>, with 8 predicted indications.
+<strong>Bicalutamide</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,15 +26,16 @@ This page combines the AI-predicted indications for Bicalutamide with the latest
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model's top-ranked prediction is **hypertrichosis**, but it is supported by only **1 comment/letter**. The best-evidenced prediction is **female breast carcinoma**, with **1 Phase 2 trial**...</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (8)</strong>:<ul>
-<li>Malformation syndrome with odontal/periodontal component | 99.59% | L5 (99.0%)</li>
-<li>Ambras type hypertrichosis universalis congenita | 99.57% | L5 (99.0%)</li>
-<li>Syndrome with Dandy-Walker malformation as major feature | 99.57% | L5 (99.0%)</li>
-<li>Isolated genetic hair shaft abnormality | 99.53% | L5 (99.0%)</li>
-<li>Leprosy | 99.41% | L5 (99.0%)</li>
-<li>Multiple endocrine neoplasia | 99.22% | L5 (99.0%)</li>
-<li>Pulmonary hypertension | 99.18% | L5 (99.0%)</li>
-<li>Nephrogenic syndrome of inappropriate antidiuresis | 99.03% | L5 (99.0%)</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Hypertrichosis (rank 1); female breast carcinoma has the most evidence (rank 9) (99.7%)</li>
+<li>Malformation syndrome with odontal/periodontal component (99.6%)</li>
+<li>Ambras type hypertrichosis universalis congenita (99.6%)</li>
+<li>Syndrome with Dandy-Walker malformation as major feature (99.6%)</li>
+<li>Isolated genetic hair shaft abnormality (99.5%)</li>
+<li>Leprosy (99.4%)</li>
+<li>Multiple endocrine neoplasia (99.2%)</li>
+<li>Pulmonary hypertension (99.2%)</li>
+<li>Nephrogenic syndrome of inappropriate antidiuresis (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bicalutamide/' | relative_url }}">View full drug report →</a></p>

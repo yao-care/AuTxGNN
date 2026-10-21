@@ -3,7 +3,7 @@ layout: default
 title: "Aprepitant News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Aprepitant. Original indication: he TxGNN model predicts it may be effective for **.... 9 predicted indications."
+description: "Health news related to Aprepitant. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/aprepitant/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/aprepitant/
 ---
 
 <p class="key-answer" data-question="What news is there about Aprepitant?">
-<strong>Aprepitant</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Aprepitant</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,16 +26,17 @@ This page combines the AI-predicted indications for Aprepitant with the latest h
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are currently **0 clinical trials** and **0 relevant publications**...</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Hypertrichosis | 99.91% | No plausible mechanistic link to NK1 antagonism (99.0%)</li>
-<li>Pulmonary hypertension | 99.90% | Indirect preclinical association only; the one linked paper is not relevant (see below) (99.0%)</li>
-<li>Leprosy | 99.90% | Theoretical neuroimmune role of substance P only (99.0%)</li>
-<li>Ambras-type hypertrichosis universalis congenita | 99.87% | Rare genetic disorder; likely a graph-proximity artefact (99.0%)</li>
-<li>Malformation syndrome with odontal/periodontal component | 99.86% | Genetic developmental condition; no rationale (99.0%)</li>
-<li>Kyphoscoliotic heart disease | 99.86% | No mechanistic link (99.0%)</li>
-<li>Syndrome with Dandy-Walker malformation | 99.86% | Structural congenital defect; no rationale (99.0%)</li>
-<li>Subarachnoid haemorrhage | 99.85% | Weak, indirect preclinical hypothesis (substance P in blood-brain barrier disruption and cerebral oedema); the most biologically plausible of the list, but still hypothesis-level (99.0%)</li>
-<li>Isolated genetic hair shaft abnormality | 99.85% | No recognised connection (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Nephrogenic syndrome of inappropriate antidiuresis (100.0%)</li>
+<li>Hypertrichosis (99.9%)</li>
+<li>Pulmonary hypertension (99.9%)</li>
+<li>Leprosy (99.9%)</li>
+<li>Ambras-type hypertrichosis universalis congenita (99.9%)</li>
+<li>Malformation syndrome with odontal/periodontal component (99.9%)</li>
+<li>Kyphoscoliotic heart disease (99.9%)</li>
+<li>Syndrome with Dandy-Walker malformation (99.9%)</li>
+<li>Subarachnoid haemorrhage (99.8%)</li>
+<li>Isolated genetic hair shaft abnormality (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/aprepitant/' | relative_url }}">View full drug report →</a></p>

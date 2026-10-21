@@ -3,7 +3,7 @@ layout: default
 title: "Citrulline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Citrulline. Original indication: he TxGNN model predicts it may be effective for **.... 3 predicted indications."
+description: "Health news related to Citrulline. Original indication: he TxGNN model predicts it may be effective for **.... 4 predicted indications."
 permalink: /news/citrulline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/citrulline/
 ---
 
 <p class="key-answer" data-question="What news is there about Citrulline?">
-<strong>Citrulline</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Citrulline</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,10 +26,11 @@ This page combines the AI-predicted indications for Citrulline with the latest h
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, with a high score of 97%.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
-<li>Mitochondrial oxidative phosphorylation disorder (nuclear DNA anomalies) | 83.88% | L5 | Plausible via nitric oxide, but no trials or literature (99.0%)</li>
-<li>Dyspepsia | 80.69% | L4 | Citrulline appears as a gut biomarker, not as a therapy (99.0%)</li>
-<li>Exocrine pancreatic insufficiency | 73.56% | L4 | One cohort study using citrulline as an enterocyte marker (99.0%)</li>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>Multiple endocrine neoplasia (97.0%)</li>
+<li>Mitochondrial oxidative phosphorylation disorder (nuclear DNA anomalies) (83.9%)</li>
+<li>Dyspepsia (80.7%)</li>
+<li>Exocrine pancreatic insufficiency (73.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/citrulline/' | relative_url }}">View full drug report →</a></p>

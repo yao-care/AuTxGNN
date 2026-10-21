@@ -3,7 +3,7 @@ layout: default
 title: "Vemurafenib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Vemurafenib. Original indication: he TxGNN model's top-ranked prediction is HIV infe.... 10 predicted indications."
+description: "Health news related to Vemurafenib. Original indication: he TxGNN model's top-ranked prediction is HIV infe.... 1 predicted indications."
 permalink: /news/vemurafenib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/vemurafenib/
 ---
 
 <p class="key-answer" data-question="What news is there about Vemurafenib?">
-<strong>Vemurafenib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Vemurafenib</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Vemurafenib with the latest 
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model's top-ranked prediction is HIV infectious disease, which has no supporting evidence. The only prediction with any supporting literature is **Female Breast Carcinoma** (rank 8), which...</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>HIV infectious disease (97.7%)</li>
-<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (96.7%)</li>
-<li>feline acquired immunodeficiency syndrome (96.6%)</li>
-<li>simian immunodeficiency virus infection (96.6%)</li>
-<li>acute intermittent porphyria (96.2%)</li>
-<li>collagenopathy (95.3%)</li>
-<li>paratenonitis (95.2%)</li>
-<li>female breast carcinoma (95.2%)</li>
-<li>calcific tendinitis (95.1%)</li>
-<li>lymphocytic hypereosinophilic syndrome (95.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>HIV infectious disease (TxGNN rank 1); Female breast carcinoma (rank 8) is the only prediction with supporting material and is discussed below (97.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/vemurafenib/' | relative_url }}">View full drug report →</a></p>

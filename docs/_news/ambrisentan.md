@@ -3,7 +3,7 @@ layout: default
 title: "Ambrisentan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ambrisentan. Original indication: . 9 predicted indications."
+description: "Health news related to Ambrisentan. Original indication: . 10 predicted indications."
 permalink: /news/ambrisentan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ambrisentan/
 ---
 
 <p class="key-answer" data-question="What news is there about Ambrisentan?">
-<strong>Ambrisentan</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Ambrisentan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Ambrisentan with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Pulmonary arterial hypertension associated with connective tissue disease (99.3%)</li>
 <li>Pulmonary arteriovenous malformation (99.4%)</li>
 <li>PAH associated with congenital heart disease (99.4%)</li>
 <li>PAH associated with HIV infection (99.3%)</li>

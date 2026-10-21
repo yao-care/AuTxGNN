@@ -3,7 +3,7 @@ layout: default
 title: "Ziprasidone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ziprasidone. Original indication: . 10 predicted indications."
+description: "Health news related to Ziprasidone. Original indication: . 1 predicted indications."
 permalink: /news/ziprasidone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ziprasidone/
 ---
 
 <p class="key-answer" data-question="What news is there about Ziprasidone?">
-<strong>Ziprasidone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Ziprasidone</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Ziprasidone with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>trichotillomania (99.8%)</li>
-<li>hydranencephaly (disease) (99.7%)</li>
-<li>major affective disorder (99.7%)</li>
-<li>congenital disorder of glycosylation with defective fucosylation (99.6%)</li>
-<li>myopia X-linked (99.6%)</li>
-<li>retinal dystrophy with or without extraocular anomalies (99.6%)</li>
-<li>Tourette syndrome (99.6%)</li>
-<li>polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (99.6%)</li>
-<li>myopia 26, X-linked, female-limited (99.6%)</li>
-<li>syndromic myopia (99.6%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Major affective disorder (rank 3; rank 1 was trichotillomania, with no evidence) (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ziprasidone/' | relative_url }}">View full drug report →</a></p>

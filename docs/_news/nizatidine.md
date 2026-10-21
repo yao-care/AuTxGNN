@@ -3,7 +3,7 @@ layout: default
 title: "Nizatidine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nizatidine. Original indication: . 3 predicted indications."
+description: "Health news related to Nizatidine. Original indication: . 4 predicted indications."
 permalink: /news/nizatidine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nizatidine/
 ---
 
 <p class="key-answer" data-question="What news is there about Nizatidine?">
-<strong>Nizatidine</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Nizatidine</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Nizatidine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L1</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>Active peptic ulcer disease (100.0%)</li>
 <li>Duodenitis (97.8%)</li>
 <li>Gastroduodenitis (99.6%)</li>
 <li>Gastrojejunal ulcer (99.9%)</li>

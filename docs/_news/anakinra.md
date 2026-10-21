@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Anakinra with the latest hea
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Extracutaneous mastocytoma | 99.93% | L5 | Hold (99.0%)</li>
-<li>Hepatic infarction | 99.89% | L5 | Hold (99.0%)</li>
-<li>Autosomal recessive familial Mediterranean fever | 99.89% | L3 | Research Question (99.0%)</li>
-<li>Aggressive systemic mastocytosis | 99.88% | L4 | Hold (99.0%)</li>
-<li>Hepatic veno-occlusive disease | 99.88% | L5 | Hold (99.0%)</li>
-<li>Peliosis hepatis | 99.85% | L5 | Hold (99.0%)</li>
-<li>Oligoarticular JIA without anti-nuclear antibodies | 99.85% | L4 | Hold (99.0%)</li>
-<li>Oligoarticular JIA with anti-nuclear antibodies | 99.85% | L4 | Hold (99.0%)</li>
-<li>Pyogenic autoinflammatory syndrome | 99.83% | L3 | Research Question (99.0%)</li>
-<li>Unclassified autoinflammatory syndrome | 99.81% | L3 | Research Question (99.0%)</li>
+<li>Extracutaneous mastocytoma (99.9%)</li>
+<li>Hepatic infarction (99.9%)</li>
+<li>Autosomal recessive familial Mediterranean fever (99.9%)</li>
+<li>Aggressive systemic mastocytosis (99.9%)</li>
+<li>Hepatic veno-occlusive disease (99.9%)</li>
+<li>Peliosis hepatis (99.8%)</li>
+<li>Oligoarticular JIA without anti-nuclear antibodies (99.8%)</li>
+<li>Oligoarticular JIA with anti-nuclear antibodies (99.8%)</li>
+<li>Pyogenic autoinflammatory syndrome (99.8%)</li>
+<li>Unclassified autoinflammatory syndrome (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/anakinra/' | relative_url }}">View full drug report →</a></p>

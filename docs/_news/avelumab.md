@@ -3,7 +3,7 @@ layout: default
 title: "Avelumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Avelumab. Original indication: . 5 predicted indications."
+description: "Health news related to Avelumab. Original indication: . 6 predicted indications."
 permalink: /news/avelumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/avelumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Avelumab?">
-<strong>Avelumab</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Avelumab</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,13 @@ This page combines the AI-predicted indications for Avelumab with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>Middle ear neuroendocrine tumour | 99.97% | L5 | Shared neuroendocrine lineage, but extremely rare and biologically different; PD-L1 dependence unestablished (99.0%)</li>
-<li>Malignant cutaneous granular cell skin tumour | 99.97% | L5 | No demonstrated PD-L1 dependence (99.0%)</li>
-<li>Ectomesenchymoma | 99.97% | L5 | No known mechanistic basis (99.0%)</li>
-<li>Prostatic urethra urothelial carcinoma | 99.92% | L4 | Indirect support from approved urothelial carcinoma use (JAVELIN Bladder 100, Phase 3) (99.0%)</li>
-<li>Kidney pelvis sarcomatoid transitional cell carcinoma | 99.91% | L4 | Indirect support from urothelial histology; site-specific data lacking (99.0%)</li>
+<li><strong>Predicted indications (6)</strong>:<ul>
+<li>Human herpesvirus 8-related tumour (100.0%)</li>
+<li>Middle ear neuroendocrine tumour (100.0%)</li>
+<li>Malignant cutaneous granular cell skin tumour (100.0%)</li>
+<li>Ectomesenchymoma (100.0%)</li>
+<li>Prostatic urethra urothelial carcinoma (99.9%)</li>
+<li>Kidney pelvis sarcomatoid transitional cell carcinoma (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/avelumab/' | relative_url }}">View full drug report →</a></p>

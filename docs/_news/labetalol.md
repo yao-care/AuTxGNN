@@ -3,7 +3,7 @@ layout: default
 title: "Labetalol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Labetalol. Original indication: . 10 predicted indications."
+description: "Health news related to Labetalol. Original indication: . 1 predicted indications."
 permalink: /news/labetalol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/labetalol/
 ---
 
 <p class="key-answer" data-question="What news is there about Labetalol?">
-<strong>Labetalol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Labetalol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Labetalol with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>malignant renovascular hypertension (99.1%)</li>
-<li>malignant hypertensive renal disease (99.1%)</li>
-<li>pulmonary hypertension with unclear multifactorial mechanism (99.1%)</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.1%)</li>
-<li>Braddock syndrome (98.8%)</li>
-<li>chronic pulmonary heart disease (94.9%)</li>
-<li>primary hereditary glaucoma (73.6%)</li>
-<li>open-angle glaucoma (63.5%)</li>
-<li>atrial flutter (disease) (59.7%)</li>
-<li>ocular tuberculosis (59.5%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Malignant renovascular hypertension (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/labetalol/' | relative_url }}">View full drug report →</a></p>

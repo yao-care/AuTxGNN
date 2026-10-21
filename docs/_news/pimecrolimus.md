@@ -3,7 +3,7 @@ layout: default
 title: "Pimecrolimus News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pimecrolimus. Original indication: . 10 predicted indications."
+description: "Health news related to Pimecrolimus. Original indication: . 1 predicted indications."
 permalink: /news/pimecrolimus/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pimecrolimus/
 ---
 
 <p class="key-answer" data-question="What news is there about Pimecrolimus?">
-<strong>Pimecrolimus</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Pimecrolimus</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Pimecrolimus with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>seborrheic dermatitis (99.7%)</li>
-<li>dermatitis (99.4%)</li>
-<li>exanthem (disease) (99.3%)</li>
-<li>acrodermatitis chronica atrophicans (99.0%)</li>
-<li>parapsoriasis (98.8%)</li>
-<li>acne keloid (98.8%)</li>
-<li>neonatal dermatomyositis (98.7%)</li>
-<li>secondary interstitial lung disease specific to childhood associated with a connective tissue disease (98.5%)</li>
-<li>hydroa vacciniforme, familial (98.4%)</li>
-<li>acute lichenoid pityriasis (98.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Seborrheic dermatitis (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pimecrolimus/' | relative_url }}">View full drug report →</a></p>

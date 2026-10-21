@@ -3,7 +3,7 @@ layout: default
 title: "Ondansetron News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ondansetron. Original indication: . 10 predicted indications."
+description: "Health news related to Ondansetron. Original indication: . 1 predicted indications."
 permalink: /news/ondansetron/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ondansetron/
 ---
 
 <p class="key-answer" data-question="What news is there about Ondansetron?">
-<strong>Ondansetron</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Ondansetron</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Ondansetron with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>nephrogenic syndrome of inappropriate antidiuresis (98.7%)</li>
-<li>Tourette syndrome (98.0%)</li>
-<li>trichotillomania (97.3%)</li>
-<li>schizotypal personality disorder (97.2%)</li>
-<li>schizoid personality disorder (97.2%)</li>
-<li>histrionic personality disorder (disease) (97.2%)</li>
-<li>paranoid personality disorder (97.2%)</li>
-<li>common cold (97.0%)</li>
-<li>allergic urticaria (96.8%)</li>
-<li>acute intermittent porphyria (96.6%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Tourette syndrome (selected as the best-supported prediction; rank 2 of 10) (98.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ondansetron/' | relative_url }}">View full drug report →</a></p>

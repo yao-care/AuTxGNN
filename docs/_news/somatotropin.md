@@ -3,7 +3,7 @@ layout: default
 title: "Somatotropin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Somatotropin. Original indication: . 3 predicted indications."
+description: "Health news related to Somatotropin. Original indication: . 4 predicted indications."
 permalink: /news/somatotropin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/somatotropin/
 ---
 
 <p class="key-answer" data-question="What news is there about Somatotropin?">
-<strong>Somatotropin</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Somatotropin</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Somatotropin with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>Middle ear neuroendocrine tumour (96.8%)</li>
 <li>Mixed gonadal dysgenesis (95.6%)</li>
 <li>Mosaic monosomy X (95.1%)</li>
 <li>Turner syndrome due to structural X chromosome anomalies (95.0%)</li>

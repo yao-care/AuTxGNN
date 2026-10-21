@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Verapamil with the latest he
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Obsolete bundle branch block | 99.62% | L5 | Hold (99.0%)</li>
-<li>Malignant hypertensive renal disease | 99.27% | L5 | Hold (99.0%)</li>
-<li>Malignant renovascular hypertension | 99.27% | L5 | Hold (99.0%)</li>
-<li>Pulmonary hypertension owing to lung disease and/or hypoxia | 99.26% | L4 | Hold (99.0%)</li>
-<li>Pulmonary hypertension with unclear multifactorial mechanism | 99.26% | L5 | Hold (99.0%)</li>
-<li>Braddock syndrome | 99.15% | L5 | Hold (99.0%)</li>
-<li>Periodic paralysis with transient compartment-like syndrome | 99.08% | L5 | Hold (99.0%)</li>
-<li>Obsolete susceptibility to ischemic stroke | 98.74% | L5 | Hold (99.0%)</li>
-<li>Arrhythmogenic right ventricular cardiomyopathy | 98.40% | L4 | Research Question (99.0%)</li>
-<li>Brain stem infarction | 97.73% | L5 | Hold (99.0%)</li>
+<li>Obsolete bundle branch block (99.6%)</li>
+<li>Malignant hypertensive renal disease (99.3%)</li>
+<li>Malignant renovascular hypertension (99.3%)</li>
+<li>Pulmonary hypertension owing to lung disease and/or hypoxia (99.3%)</li>
+<li>Pulmonary hypertension with unclear multifactorial mechanism (99.3%)</li>
+<li>Braddock syndrome (99.2%)</li>
+<li>Periodic paralysis with transient compartment-like syndrome (99.1%)</li>
+<li>Obsolete susceptibility to ischemic stroke (98.7%)</li>
+<li>Arrhythmogenic right ventricular cardiomyopathy (98.4%)</li>
+<li>Brain stem infarction (97.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/verapamil/' | relative_url }}">View full drug report →</a></p>

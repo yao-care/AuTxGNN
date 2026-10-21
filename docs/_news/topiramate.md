@@ -3,7 +3,7 @@ layout: default
 title: "Topiramate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Topiramate. Original indication: . 10 predicted indications."
+description: "Health news related to Topiramate. Original indication: . 1 predicted indications."
 permalink: /news/topiramate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/topiramate/
 ---
 
 <p class="key-answer" data-question="What news is there about Topiramate?">
-<strong>Topiramate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Topiramate</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Topiramate with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>trigeminal nerve neoplasm (99.7%)</li>
-<li>visual epilepsy (99.3%)</li>
-<li>startle epilepsy (99.2%)</li>
-<li>orgasm-induced seizures (99.2%)</li>
-<li>eating seizures (99.2%)</li>
-<li>audiogenic seizures (99.2%)</li>
-<li>thinking seizures (99.2%)</li>
-<li>micturation-induced seizures (99.2%)</li>
-<li>reading seizures (99.1%)</li>
-<li>trigeminal neuralgia (98.9%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Trigeminal neuralgia (best-supported prediction; the top-ranked prediction, trigeminal nerve neoplasm, scored 99.70% but is considered implausible) (98.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/topiramate/' | relative_url }}">View full drug report →</a></p>

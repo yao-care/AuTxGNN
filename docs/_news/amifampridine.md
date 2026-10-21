@@ -3,7 +3,7 @@ layout: default
 title: "Amifampridine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Amifampridine. Original indication: . 10 predicted indications."
+description: "Health news related to Amifampridine. Original indication: . 1 predicted indications."
 permalink: /news/amifampridine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/amifampridine/
 ---
 
 <p class="key-answer" data-question="What news is there about Amifampridine?">
-<strong>Amifampridine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Amifampridine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Amifampridine with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>glaucoma (99.7%)</li>
-<li>acute intermittent porphyria (99.3%)</li>
-<li>esophageal varices with bleeding (98.8%)</li>
-<li>esophageal varices without bleeding (98.8%)</li>
-<li>porphyria (98.5%)</li>
-<li>primary immunodeficiency syndrome due to p14 deficiency (98.4%)</li>
-<li>paraneoplastic limbic encephalitis (98.3%)</li>
-<li>paraneoplastic polyneuropathy (98.3%)</li>
-<li>varicose disease (98.1%)</li>
-<li>paraneoplastic cerebellar degeneration (98.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Glaucoma (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/amifampridine/' | relative_url }}">View full drug report →</a></p>

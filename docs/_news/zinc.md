@@ -3,7 +3,7 @@ layout: default
 title: "Zinc News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Zinc. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Zinc. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/zinc/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/zinc/
 ---
 
 <p class="key-answer" data-question="What news is there about Zinc?">
-<strong>Zinc</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Zinc</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Zinc with the latest health 
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **filariasis** (score 93.2%), but there are **0 clinical trials** and no literature testing zinc as a treatment for filarial infection.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>filariasis (93.2%)</li>
-<li>primary hereditary glaucoma (92.1%)</li>
-<li>dermatitis (91.7%)</li>
-<li>open-angle glaucoma (91.5%)</li>
-<li>acrodermatitis chronica atrophicans (90.8%)</li>
-<li>enterocolitis (disease) (90.8%)</li>
-<li>neonatal dermatomyositis (89.9%)</li>
-<li>secondary interstitial lung disease specific to childhood associated with a connective tissue disease (89.7%)</li>
-<li>hydroa vacciniforme, familial (89.5%)</li>
-<li>amyopathic dermatomyositis (89.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Filariasis (93.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/zinc/' | relative_url }}">View full drug report →</a></p>

@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Periciazine with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>migraine disorder (99.9%)</li>
-<li>migraine with brainstem aura (99.8%)</li>
-<li>atrophoderma vermiculata (99.4%)</li>
-<li>dysthymic disorder (99.2%)</li>
-<li>migraine with or without aura, susceptibility to (99.2%)</li>
-<li>ulerythema ophryogenesis (99.2%)</li>
-<li>sciatic neuropathy (97.7%)</li>
-<li>anxiety (97.7%)</li>
-<li>anxiety disorder (97.4%)</li>
-<li>open-angle glaucoma (97.2%)</li>
+<li>Migraine disorder (99.9%)</li>
+<li>Migraine with brainstem aura (99.8%)</li>
+<li>Atrophoderma vermiculata (99.4%)</li>
+<li>Dysthymic disorder (99.2%)</li>
+<li>Migraine with or without aura, susceptibility to (99.2%)</li>
+<li>Ulerythema ophryogenesis (99.2%)</li>
+<li>Sciatic neuropathy (97.7%)</li>
+<li>Anxiety (97.7%)</li>
+<li>Anxiety disorder (97.4%)</li>
+<li>Open-angle glaucoma (97.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/periciazine/' | relative_url }}">View full drug report →</a></p>

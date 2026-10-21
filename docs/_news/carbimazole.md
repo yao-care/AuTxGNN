@@ -3,7 +3,7 @@ layout: default
 title: "Carbimazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Carbimazole. Original indication: Other top-ranked predictions are much weaker. The .... 10 predicted indications."
+description: "Health news related to Carbimazole. Original indication: Other top-ranked predictions are much weaker. The .... 1 predicted indications."
 permalink: /news/carbimazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/carbimazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Carbimazole?">
-<strong>Carbimazole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Carbimazole</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Carbimazole with the latest 
 <ul>
 <li><strong>Original indication</strong>: Other top-ranked predictions are much weaker. The highest-scoring one, resistance to thyroid hormone (RTH-beta), is a disorder of reduced tissue sensitivity to hormone. Lowering hormone production...</li>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (99.7%)</li>
-<li>neonatal thyrotoxicosis (99.4%)</li>
-<li>hyperthyroxinemia (99.2%)</li>
-<li>Prinzmetal angina (98.8%)</li>
-<li>autoimmune thyroid disease (98.3%)</li>
-<li>Hashimoto thyroiditis (98.0%)</li>
-<li>Raynaud disease (97.9%)</li>
-<li>migraine with brainstem aura (95.8%)</li>
-<li>kyphoscoliotic heart disease (95.6%)</li>
-<li>migraine disorder (94.6%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Neonatal thyrotoxicosis (selected because it has the strongest supporting evidence of the top-10 candidates; the model's top-ranked prediction was resistance to thyroid hormone due to a thyroid hormone receptor beta mutation, a weak and potentially counterproductive candidate) (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/carbimazole/' | relative_url }}">View full drug report →</a></p>

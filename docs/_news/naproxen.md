@@ -3,7 +3,7 @@ layout: default
 title: "Naproxen News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Naproxen. Original indication: . 10 predicted indications."
+description: "Health news related to Naproxen. Original indication: . 1 predicted indications."
 permalink: /news/naproxen/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/naproxen/
 ---
 
 <p class="key-answer" data-question="What news is there about Naproxen?">
-<strong>Naproxen</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Naproxen</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Naproxen with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>brachydactyly-syndactyly syndrome (99.3%)</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.2%)</li>
-<li>acromesomelic dysplasia, Hunter-Thompson type (99.2%)</li>
-<li>brachyolmia-amelogenesis imperfecta syndrome (99.1%)</li>
-<li>myosclerosis (99.0%)</li>
-<li>brachyolmia (99.0%)</li>
-<li>hypermobility of coccyx (98.7%)</li>
-<li>inflammatory spondylopathy (98.6%)</li>
-<li>Kummell disease (98.6%)</li>
-<li>polyarticular juvenile rheumatoid arthritis (98.6%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Brachydactyly-syndactyly syndrome (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/naproxen/' | relative_url }}">View full drug report →</a></p>

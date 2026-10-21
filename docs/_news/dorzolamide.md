@@ -3,7 +3,7 @@ layout: default
 title: "Dorzolamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dorzolamide. Original indication: . 9 predicted indications."
+description: "Health news related to Dorzolamide. Original indication: . 10 predicted indications."
 permalink: /news/dorzolamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dorzolamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Dorzolamide?">
-<strong>Dorzolamide</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Dorzolamide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Dorzolamide with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Primary hereditary glaucoma (100.0%)</li>
 <li>Hypotrichosis simplex of the scalp (100.0%)</li>
 <li>Congenital hypotrichosis milia (99.9%)</li>
 <li>Alopecia (99.9%)</li>

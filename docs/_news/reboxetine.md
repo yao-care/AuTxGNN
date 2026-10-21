@@ -3,7 +3,7 @@ layout: default
 title: "Reboxetine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Reboxetine. Original indication: . 4 predicted indications."
+description: "Health news related to Reboxetine. Original indication: . 5 predicted indications."
 permalink: /news/reboxetine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/reboxetine/
 ---
 
 <p class="key-answer" data-question="What news is there about Reboxetine?">
-<strong>Reboxetine</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Reboxetine</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Reboxetine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
+<li><strong>Predicted indications (5)</strong>:<ul>
+<li>Benign paroxysmal torticollis of infancy (top-ranked); see the note below on other candidates (99.9%)</li>
 <li>Agoraphobia (99.9%)</li>
 <li>Dysthymic disorder (99.9%)</li>
 <li>Melancholia (99.7%)</li>

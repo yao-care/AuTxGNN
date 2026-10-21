@@ -3,7 +3,7 @@ layout: default
 title: "Prednisolone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Prednisolone. Original indication: . 5 predicted indications."
+description: "Health news related to Prednisolone. Original indication: . 6 predicted indications."
 permalink: /news/prednisolone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/prednisolone/
 ---
 
 <p class="key-answer" data-question="What news is there about Prednisolone?">
-<strong>Prednisolone</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Prednisolone</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,13 @@ This page combines the AI-predicted indications for Prednisolone with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>Alopecia mucinosa | 99.99% | L4 | Hold | Only a cyclosporine case report; no direct prednisolone evidence (99.0%)</li>
-<li>Telogen effluvium | 99.98% | L5 | Hold | No evidence; usually self-resolving (99.0%)</li>
-<li>Folliculitis decalvans | 99.98% | L4 | Hold | One case report of combination therapy; prednisolone's contribution unclear (99.0%)</li>
-<li>Alopecia antibody deficiency | 99.98% | L4 | Hold | Only an indirect case report (99.0%)</li>
-<li>Idiopathic steroid-sensitive nephrotic syndrome | 99.86% | L3 | Research Question | Already standard of care; much of the literature concerns steroid-resistant disease, so labelling and regimen optimisation is the open question (99.0%)</li>
+<li><strong>Predicted indications (6)</strong>:<ul>
+<li>Alopecia areata (100.0%)</li>
+<li>Alopecia mucinosa (100.0%)</li>
+<li>Telogen effluvium (100.0%)</li>
+<li>Folliculitis decalvans (100.0%)</li>
+<li>Alopecia antibody deficiency (100.0%)</li>
+<li>Idiopathic steroid-sensitive nephrotic syndrome (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/prednisolone/' | relative_url }}">View full drug report →</a></p>

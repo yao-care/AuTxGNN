@@ -3,7 +3,7 @@ layout: default
 title: "Chloroform News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Chloroform. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Chloroform. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/chloroform/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/chloroform/
 ---
 
 <p class="key-answer" data-question="What news is there about Chloroform?">
-<strong>Chloroform</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Chloroform</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Chloroform with the latest h
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **insomnia**, but there are **0 clinical trials** and no human studies of chloroform for this use.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>insomnia (disease) (98.9%)</li>
-<li>anxiety (91.1%)</li>
-<li>sleep disorder, initiating and maintaining sleep (90.8%)</li>
-<li>irritable bowel syndrome (90.0%)</li>
-<li>enterocolitis (disease) (86.4%)</li>
-<li>Jeune syndrome situs inversus (86.1%)</li>
-<li>bronchitis (86.0%)</li>
-<li>orofacial clefting syndrome (85.9%)</li>
-<li>partial deletion of the long arm of chromosome 22 (85.8%)</li>
-<li>interventricular septum aneurysm (85.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Insomnia (98.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/chloroform/' | relative_url }}">View full drug report →</a></p>

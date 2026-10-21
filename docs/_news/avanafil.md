@@ -3,7 +3,7 @@ layout: default
 title: "Avanafil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Avanafil. Original indication: . 5 predicted indications."
+description: "Health news related to Avanafil. Original indication: . 6 predicted indications."
 permalink: /news/avanafil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/avanafil/
 ---
 
 <p class="key-answer" data-question="What news is there about Avanafil?">
-<strong>Avanafil</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Avanafil</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,13 @@ This page combines the AI-predicted indications for Avanafil with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>Hypoalphalipoproteinaemia | 91.54% | No clear mechanistic link to HDL metabolism; speculative (99.0%)</li>
-<li>Malignant catarrh | 90.62% | Veterinary ruminant viral disease; likely a knowledge-graph artefact (99.0%)</li>
-<li>Infectious bovine rhinotracheitis | 90.62% | Veterinary disease; likely a knowledge-graph artefact (99.0%)</li>
-<li>Raynaud disease | 88.54% | Most mechanistically plausible (digital artery vasodilation). Other PDE5 inhibitors have been studied, but no avanafil-specific data are available. Flagged as a research question (99.0%)</li>
-<li>Stroke disorder | 79.21% | Theoretical relevance only; cardiovascular safety concerns (99.0%)</li>
+<li><strong>Predicted indications (6)</strong>:<ul>
+<li>Amenorrhoea (94.6%)</li>
+<li>Hypoalphalipoproteinaemia (91.5%)</li>
+<li>Malignant catarrh (90.6%)</li>
+<li>Infectious bovine rhinotracheitis (90.6%)</li>
+<li>Raynaud disease (88.5%)</li>
+<li>Stroke disorder (79.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/avanafil/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Mianserin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mianserin. Original indication: . 10 predicted indications."
+description: "Health news related to Mianserin. Original indication: . 1 predicted indications."
 permalink: /news/mianserin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mianserin/
 ---
 
 <p class="key-answer" data-question="What news is there about Mianserin?">
-<strong>Mianserin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Mianserin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Mianserin with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>benign paroxysmal torticollis of infancy (99.5%)</li>
-<li>dysthymic disorder (99.5%)</li>
-<li>agoraphobia (99.4%)</li>
-<li>Ohdo syndrome and variants (99.2%)</li>
-<li>melancholia (99.2%)</li>
-<li>neurotic depression (99.2%)</li>
-<li>neurotic disorder (99.0%)</li>
-<li>blepharophimosis - intellectual disability syndrome, Ohdo type (98.9%)</li>
-<li>Keppen-Lubinsky syndrome (98.8%)</li>
-<li>ligneous conjunctivitis (98.5%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Benign paroxysmal torticollis of infancy (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/mianserin/' | relative_url }}">View full drug report →</a></p>

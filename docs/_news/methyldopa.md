@@ -3,7 +3,7 @@ layout: default
 title: "Methyldopa News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Methyldopa. Original indication: . 4 predicted indications."
+description: "Health news related to Methyldopa. Original indication: . 5 predicted indications."
 permalink: /news/methyldopa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/methyldopa/
 ---
 
 <p class="key-answer" data-question="What news is there about Methyldopa?">
-<strong>Methyldopa</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Methyldopa</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Methyldopa with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
+<li><strong>Predicted indications (5)</strong>:<ul>
+<li>Malignant hypertensive renal disease (96.6%)</li>
 <li>Malignant renovascular hypertension (96.6%)</li>
 <li>Pulmonary hypertension owing to lung disease and/or hypoxia (96.3%)</li>
 <li>Pulmonary hypertension with unclear multifactorial mechanism (96.3%)</li>

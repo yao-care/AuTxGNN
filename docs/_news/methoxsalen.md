@@ -3,7 +3,7 @@ layout: default
 title: "Methoxsalen News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Methoxsalen. Original indication: . 10 predicted indications."
+description: "Health news related to Methoxsalen. Original indication: . 1 predicted indications."
 permalink: /news/methoxsalen/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/methoxsalen/
 ---
 
 <p class="key-answer" data-question="What news is there about Methoxsalen?">
-<strong>Methoxsalen</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Methoxsalen</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Methoxsalen with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>localized pagetoid reticulosis (100.0%)</li>
-<li>indolent primary cutaneous T-cell lymphoma (99.9%)</li>
-<li>neoplasm of mature B-cells (99.8%)</li>
-<li>small intestinal Burkitt lymphoma (99.8%)</li>
-<li>thyroid gland mucosa-associated lymphoid tissue lymphoma (99.8%)</li>
-<li>small intestinal mucosa-associated lymphoid tissue lymphoma (99.8%)</li>
-<li>follicular lymphoma, susceptibility to, 1 (99.8%)</li>
-<li>breast mucosa-associated lymphoid tissue lymphoma (99.8%)</li>
-<li>tonsillar lymphoma (99.8%)</li>
-<li>vulvar inverted follicular keratosis (99.7%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Localized pagetoid reticulosis (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/methoxsalen/' | relative_url }}">View full drug report →</a></p>

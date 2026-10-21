@@ -3,7 +3,7 @@ layout: default
 title: "Mechlorethamine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mechlorethamine. Original indication: . 10 predicted indications."
+description: "Health news related to Mechlorethamine. Original indication: . 1 predicted indications."
 permalink: /news/mechlorethamine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mechlorethamine/
 ---
 
 <p class="key-answer" data-question="What news is there about Mechlorethamine?">
-<strong>Mechlorethamine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Mechlorethamine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Mechlorethamine with the lat
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>lymph node cancer (99.4%)</li>
-<li>relapsing-remitting multiple sclerosis (99.1%)</li>
-<li>follicular lymphoma (99.0%)</li>
-<li>chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (98.6%)</li>
-<li>pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (98.6%)</li>
-<li>lymphoid neoplasm (97.7%)</li>
-<li>interdigitating dendritic cell sarcoma (97.7%)</li>
-<li>chest wall lymphoma (97.7%)</li>
-<li>subcutaneous panniculitis-like T-cell lymphoma (97.6%)</li>
-<li>acute lymphoblastic leukemia (disease) (97.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Lymph node cancer (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/mechlorethamine/' | relative_url }}">View full drug report →</a></p>

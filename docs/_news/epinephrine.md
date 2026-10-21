@@ -3,7 +3,7 @@ layout: default
 title: "Epinephrine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Epinephrine. Original indication: . 10 predicted indications."
+description: "Health news related to Epinephrine. Original indication: . 1 predicted indications."
 permalink: /news/epinephrine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/epinephrine/
 ---
 
 <p class="key-answer" data-question="What news is there about Epinephrine?">
-<strong>Epinephrine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Epinephrine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Epinephrine with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L1</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>obstructive lung disease (99.7%)</li>
-<li>food-dependent exercise-induced anaphylaxis (99.6%)</li>
-<li>Rienhoff syndrome (99.6%)</li>
-<li>respiratory malformation (99.6%)</li>
-<li>dry eye syndrome (98.5%)</li>
-<li>pseudoallergy (97.3%)</li>
-<li>laryngotracheitis (97.3%)</li>
-<li>headache disorder (97.1%)</li>
-<li>anorectal stricture (97.0%)</li>
-<li>trigeminal autonomic cephalalgia (96.9%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Obstructive lung disease (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/epinephrine/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Amitriptyline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Amitriptyline. Original indication: . 9 predicted indications."
+description: "Health news related to Amitriptyline. Original indication: . 10 predicted indications."
 permalink: /news/amitriptyline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/amitriptyline/
 ---
 
 <p class="key-answer" data-question="What news is there about Amitriptyline?">
-<strong>Amitriptyline</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Amitriptyline</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Amitriptyline with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Endogenous depression | 97.71% | L3 | Research Question (99.0%)</li>
-<li>Agoraphobia | 97.27% | L4 | Hold (99.0%)</li>
-<li>Major depressive disorder | 96.85% | L1 | Proceed with Guardrails (99.0%)</li>
-<li>Ohdo syndrome and variants | 95.95% | L5 | Hold (99.0%)</li>
-<li>Melancholia | 95.52% | L3 | Research Question (99.0%)</li>
-<li>Neurotic depression | 95.48% | L3 | Research Question (99.0%)</li>
-<li>Phobic disorder | 94.68% | L4 | Hold (99.0%)</li>
-<li>Unipolar depression | 94.61% | L1 | Proceed with Guardrails (99.0%)</li>
-<li>Blepharophimosis - intellectual disability syndrome, Ohdo type | 94.47% | L5 | Hold (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Benign paroxysmal torticollis of infancy (97.7%)</li>
+<li>Endogenous depression (97.7%)</li>
+<li>Agoraphobia (97.3%)</li>
+<li>Major depressive disorder (96.8%)</li>
+<li>Ohdo syndrome and variants (96.0%)</li>
+<li>Melancholia (95.5%)</li>
+<li>Neurotic depression (95.5%)</li>
+<li>Phobic disorder (94.7%)</li>
+<li>Unipolar depression (94.6%)</li>
+<li>Blepharophimosis - intellectual disability syndrome, Ohdo type (94.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/amitriptyline/' | relative_url }}">View full drug report →</a></p>

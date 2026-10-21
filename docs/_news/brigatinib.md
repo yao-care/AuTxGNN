@@ -3,7 +3,7 @@ layout: default
 title: "Brigatinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Brigatinib. Original indication: . 6 predicted indications."
+description: "Health news related to Brigatinib. Original indication: . 7 predicted indications."
 permalink: /news/brigatinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/brigatinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Brigatinib?">
-<strong>Brigatinib</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
+<strong>Brigatinib</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,13 +25,14 @@ This page combines the AI-predicted indications for Brigatinib with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (6)</strong>:<ul>
-<li>Fibroma of lung | 99.86% | L5 | Prediction only (99.0%)</li>
-<li>Hamartoma of lung | 99.85% | L5 | Prediction only (99.0%)</li>
-<li>Lung hilum carcinoma | 99.85% | L5 | Plausible given adjacency to the NSCLC indication, but no direct evidence. Any benefit would likely fall under the existing NSCLC label if ALK-positive (99.0%)</li>
-<li>Lung benign neoplasm | 99.85% | L5 | The literature hits are about ALK-positive NSCLC (an existing indication), so this is a term-matching artifact (99.0%)</li>
-<li>Lung germ cell tumour | 99.84% | L4 | Indirect evidence only, from ALK-driven tumours outside NSCLC (99.0%)</li>
-<li>Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome | 99.83% | L4 | Literature relates to NF2-related schwannomatosis, a different disease (99.0%)</li>
+<li><strong>Predicted indications (7)</strong>:<ul>
+<li>Fibromatosis, gingival (99.9%)</li>
+<li>Fibroma of lung (99.9%)</li>
+<li>Hamartoma of lung (99.8%)</li>
+<li>Lung hilum carcinoma (99.8%)</li>
+<li>Lung benign neoplasm (99.8%)</li>
+<li>Lung germ cell tumour (99.8%)</li>
+<li>Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/brigatinib/' | relative_url }}">View full drug report →</a></p>

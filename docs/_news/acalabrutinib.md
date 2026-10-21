@@ -3,7 +3,7 @@ layout: default
 title: "Acalabrutinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Acalabrutinib. Original indication: . 10 predicted indications."
+description: "Health news related to Acalabrutinib. Original indication: . 1 predicted indications."
 permalink: /news/acalabrutinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/acalabrutinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Acalabrutinib?">
-<strong>Acalabrutinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Acalabrutinib</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Acalabrutinib with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>lymphoma, non-Hodgkin, familial (97.6%)</li>
-<li>colon adenocarcinoma (96.6%)</li>
-<li>small intestinal Burkitt lymphoma (94.0%)</li>
-<li>small intestinal mucosa-associated lymphoid tissue lymphoma (93.8%)</li>
-<li>thyroid gland mucosa-associated lymphoid tissue lymphoma (93.8%)</li>
-<li>breast mucosa-associated lymphoid tissue lymphoma (93.7%)</li>
-<li>tonsillar lymphoma (93.7%)</li>
-<li>neoplasm of mature B-cells (93.2%)</li>
-<li>lymph node cancer (92.3%)</li>
-<li>polyclonal hypergammaglobulinemia (92.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Lymphoma, non-Hodgkin, familial (97.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/acalabrutinib/' | relative_url }}">View full drug report →</a></p>

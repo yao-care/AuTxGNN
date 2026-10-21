@@ -3,7 +3,7 @@ layout: default
 title: "Mifepristone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mifepristone. Original indication: . 10 predicted indications."
+description: "Health news related to Mifepristone. Original indication: . 1 predicted indications."
 permalink: /news/mifepristone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mifepristone/
 ---
 
 <p class="key-answer" data-question="What news is there about Mifepristone?">
-<strong>Mifepristone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Mifepristone</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Mifepristone with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>punctate epithelial keratoconjunctivitis (97.6%)</li>
-<li>rosacea (97.2%)</li>
-<li>otitis externa (96.7%)</li>
-<li>post-bacterial disorder (96.7%)</li>
-<li>postinfectious vasculitis (96.6%)</li>
-<li>infective urethral stricture (96.6%)</li>
-<li>post-infectious syndrome (96.5%)</li>
-<li>Chagas cardiomyopathy (96.5%)</li>
-<li>infection-related hemolytic uremic syndrome (96.4%)</li>
-<li>parasitic eyelid infestation (92.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Punctate epithelial keratoconjunctivitis (97.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/mifepristone/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Tapentadol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tapentadol. Original indication: . 10 predicted indications."
+description: "Health news related to Tapentadol. Original indication: . 1 predicted indications."
 permalink: /news/tapentadol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tapentadol/
 ---
 
 <p class="key-answer" data-question="What news is there about Tapentadol?">
-<strong>Tapentadol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Tapentadol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Tapentadol with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>migraine disorder (99.7%)</li>
-<li>migraine with brainstem aura (99.6%)</li>
-<li>migraine with or without aura, susceptibility to (99.1%)</li>
-<li>atrophoderma vermiculata (98.8%)</li>
-<li>ulerythema ophryogenesis (98.7%)</li>
-<li>insomnia (disease) (98.5%)</li>
-<li>headache disorder (98.3%)</li>
-<li>nephrogenic syndrome of inappropriate antidiuresis (97.9%)</li>
-<li>trigeminal autonomic cephalalgia (97.8%)</li>
-<li>anxiety (96.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Migraine disorder (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tapentadol/' | relative_url }}">View full drug report →</a></p>

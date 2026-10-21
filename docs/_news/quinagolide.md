@@ -3,7 +3,7 @@ layout: default
 title: "Quinagolide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Quinagolide. Original indication: he TxGNN model predicts it may be useful for **ins.... 10 predicted indications."
+description: "Health news related to Quinagolide. Original indication: he TxGNN model predicts it may be useful for **ins.... 1 predicted indications."
 permalink: /news/quinagolide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/quinagolide/
 ---
 
 <p class="key-answer" data-question="What news is there about Quinagolide?">
-<strong>Quinagolide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Quinagolide</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Quinagolide with the latest 
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be useful for **insomnia**, but this is a **model prediction only**, with **0 clinical trials** and **0 publications** supporting it.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>insomnia (disease) (96.1%)</li>
-<li>anxiety (80.9%)</li>
-<li>sleep disorder, initiating and maintaining sleep (75.8%)</li>
-<li>manic bipolar affective disorder (73.3%)</li>
-<li>primary hereditary glaucoma (69.4%)</li>
-<li>open-angle glaucoma (65.8%)</li>
-<li>common cold (65.5%)</li>
-<li>retinal dystrophy with or without extraocular anomalies (65.1%)</li>
-<li>alcohol withdrawal delirium (64.0%)</li>
-<li>schizophrenia (63.5%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Insomnia (96.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/quinagolide/' | relative_url }}">View full drug report →</a></p>

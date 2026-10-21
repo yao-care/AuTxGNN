@@ -3,7 +3,7 @@ layout: default
 title: "Elotuzumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Elotuzumab. Original indication: Other predictions in the list (benign and malignan.... 10 predicted indications."
+description: "Health news related to Elotuzumab. Original indication: Other predictions in the list (benign and malignan.... 1 predicted indications."
 permalink: /news/elotuzumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/elotuzumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Elotuzumab?">
-<strong>Elotuzumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Elotuzumab</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Elotuzumab with the latest h
 <ul>
 <li><strong>Original indication</strong>: Other predictions in the list (benign and malignant colonic and cecal conditions, scores 73.9% to 76.3%) have no plausible mechanistic link. These conditions do not depend on SLAMF7, and they appear...</li>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>indolent plasma cell myeloma (98.6%)</li>
-<li>lipoma of colon (76.3%)</li>
-<li>cecum villous adenoma (76.1%)</li>
-<li>colonic lymphangioma (75.7%)</li>
-<li>colon leiomyoma (75.3%)</li>
-<li>rectosigmoid junction neoplasm (75.3%)</li>
-<li>cecum neuroendocrine tumor G1 (75.3%)</li>
-<li>cecal disease (74.8%)</li>
-<li>benign neoplasm of cecum (74.7%)</li>
-<li>cavernous hemangioma of colon (73.9%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Indolent plasma cell myeloma (98.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/elotuzumab/' | relative_url }}">View full drug report →</a></p>

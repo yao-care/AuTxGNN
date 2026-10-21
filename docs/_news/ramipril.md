@@ -3,7 +3,7 @@ layout: default
 title: "Ramipril News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ramipril. Original indication: . 9 predicted indications."
+description: "Health news related to Ramipril. Original indication: . 10 predicted indications."
 permalink: /news/ramipril/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ramipril/
 ---
 
 <p class="key-answer" data-question="What news is there about Ramipril?">
-<strong>Ramipril</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Ramipril</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Ramipril with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Pulmonary hypertension, unclear multifactorial mechanism | 99.93% | L5 | Model score only (99.0%)</li>
-<li>Malignant renovascular hypertension | 99.93% | L5 | Extension of existing hypertension use; ACE inhibitors carry a risk of acute renal failure in bilateral renal artery stenosis (99.0%)</li>
-<li>Malignant hypertensive renal disease | 99.93% | L5 | Largely overlaps with the existing indication (99.0%)</li>
-<li>Braddock syndrome | 99.91% | L5 | No mechanistic link evident (99.0%)</li>
-<li>Brain stem infarction | 99.89% | L5 | Consistent with existing stroke-prevention use (99.0%)</li>
-<li>Prinzmetal angina | 99.83% | L5 | Only an unrelated genetic study retrieved (99.0%)</li>
-<li>Intracerebral haemorrhage | 99.82% | L4 | Preclinical and indirect evidence only (99.0%)</li>
-<li>ABri amyloidosis | 99.79% | L5 | No mechanistic link evident (99.0%)</li>
-<li>Cerebral artery occlusion | 99.74% | L4 | Mixed animal data and one small human cerebral blood flow study (PMID 8797135); overlaps with the approved stroke-related use; flagged as a research question (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Pulmonary hypertension owing to lung disease and/or hypoxia (99.9%)</li>
+<li>Pulmonary hypertension, unclear multifactorial mechanism (99.9%)</li>
+<li>Malignant renovascular hypertension (99.9%)</li>
+<li>Malignant hypertensive renal disease (99.9%)</li>
+<li>Braddock syndrome (99.9%)</li>
+<li>Brain stem infarction (99.9%)</li>
+<li>Prinzmetal angina (99.8%)</li>
+<li>Intracerebral haemorrhage (99.8%)</li>
+<li>ABri amyloidosis (99.8%)</li>
+<li>Cerebral artery occlusion (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ramipril/' | relative_url }}">View full drug report →</a></p>

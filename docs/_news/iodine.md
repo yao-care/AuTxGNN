@@ -3,7 +3,7 @@ layout: default
 title: "Iodine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Iodine. Original indication: he TxGNN model predicts it may be effective for **.... 8 predicted indications."
+description: "Health news related to Iodine. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/iodine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/iodine/
 ---
 
 <p class="key-answer" data-question="What news is there about Iodine?">
-<strong>Iodine</strong> currently has <strong>0 news articles</strong>, with 8 predicted indications.
+<strong>Iodine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,12 +26,14 @@ This page combines the AI-predicted indications for Iodine with the latest healt
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **Sjogren syndrome**, but there are **no registered clinical trials** and the literature is mostly about harms, diagnostic imaging, or disease...</li>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (8)</strong>:<ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Sjogren syndrome (94.1%)</li>
 <li>Prolapse of lacrimal gland (93.6%)</li>
 <li>Acne (93.1%)</li>
 <li>Seborrheic keratosis (91.4%)</li>
 <li>Fetal erythroblastosis (91.0%)</li>
 <li>Recurrent corneal erosion (90.7%)</li>
+<li>Keratitis (89.7%)</li>
 <li>Vulvar inverted follicular keratosis (89.6%)</li>
 <li>Peptic esophagitis (89.4%)</li>
 <li>Lacrimal gland neoplasm (89.3%)</li>

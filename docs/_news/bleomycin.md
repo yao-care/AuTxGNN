@@ -3,7 +3,7 @@ layout: default
 title: "Bleomycin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bleomycin. Original indication: . 10 predicted indications."
+description: "Health news related to Bleomycin. Original indication: . 11 predicted indications."
 permalink: /news/bleomycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bleomycin/
 ---
 
 <p class="key-answer" data-question="What news is there about Bleomycin?">
-<strong>Bleomycin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Bleomycin</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,18 @@ This page combines the AI-predicted indications for Bleomycin with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L1</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>Cauda equina neoplasm | 99.30% | L5 | Hold (99.0%)</li>
-<li>Adult astrocytic tumour (high-grade glioma) | 99.28% | L3 | Research Question (99.0%)</li>
-<li>Reticulum cell sarcoma | 99.14% | L1 | Proceed with Guardrails (99.0%)</li>
-<li>Primary pulmonary lymphoma | 99.10% | L4 | Research Question (99.0%)</li>
-<li>Pulmonary blastoma | 99.04% | L4 | Hold (99.0%)</li>
-<li>Well-differentiated fetal adenocarcinoma of the lung | 99.03% | L5 | Hold (99.0%)</li>
-<li>Small cell lung carcinoma | 98.90% | L4 | Hold (99.0%)</li>
-<li>Interdigitating dendritic cell sarcoma | 98.63% | L4 | Research Question (99.0%)</li>
-<li>Acute lymphoblastic leukaemia | 98.57% | L5 | Hold (99.0%)</li>
-<li>Astrocytoma (excluding glioblastoma) | 98.53% | L5 | Hold (99.0%)</li>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>Reticulum cell sarcoma (rank 3; the rank 1 prediction is cauda equina neoplasm) (99.1%)</li>
+<li>Cauda equina neoplasm (99.3%)</li>
+<li>Adult astrocytic tumour (high-grade glioma) (99.3%)</li>
+<li>Reticulum cell sarcoma (99.1%)</li>
+<li>Primary pulmonary lymphoma (99.1%)</li>
+<li>Pulmonary blastoma (99.0%)</li>
+<li>Well-differentiated fetal adenocarcinoma of the lung (99.0%)</li>
+<li>Small cell lung carcinoma (98.9%)</li>
+<li>Interdigitating dendritic cell sarcoma (98.6%)</li>
+<li>Acute lymphoblastic leukaemia (98.6%)</li>
+<li>Astrocytoma (excluding glioblastoma) (98.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bleomycin/' | relative_url }}">View full drug report →</a></p>

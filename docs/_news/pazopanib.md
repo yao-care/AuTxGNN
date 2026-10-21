@@ -3,7 +3,7 @@ layout: default
 title: "Pazopanib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pazopanib. Original indication: . 10 predicted indications."
+description: "Health news related to Pazopanib. Original indication: . 11 predicted indications."
 permalink: /news/pazopanib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pazopanib/
 ---
 
 <p class="key-answer" data-question="What news is there about Pazopanib?">
-<strong>Pazopanib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Pazopanib</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,18 @@ This page combines the AI-predicted indications for Pazopanib with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>RCC with Xp11.2/TFE3 fusions | 99.63% | 0 | 0 | L5 | Hold (99.0%)</li>
-<li>RCC associated with neuroblastoma | 99.63% | 0 | 0 | L5 | Hold (99.0%)</li>
-<li>Unclassified RCC | 99.63% | 0 | 6 | L3 | Research Question (99.0%)</li>
-<li>Liposarcoma | 99.59% | 6 | 20 | L2 | Proceed with Guardrails (99.0%)</li>
-<li>Childhood kidney cell carcinoma | 99.54% | 0 | 0 | L5 | Hold (99.0%)</li>
-<li>Ovarian myxoid liposarcoma | 99.51% | 0 | 0 | L5 | Hold (99.0%)</li>
-<li>Heart fibrosarcoma | 99.37% | 0 | 0 | L5 | Hold (99.0%)</li>
-<li>Fibroblastic neoplasm | 99.35% | 2 | 20 | L2 | Research Question (99.0%)</li>
-<li>Kidney fibrosarcoma | 99.33% | 0 | 0 | L5 | Hold (99.0%)</li>
-<li>Dermatofibrosarcoma protuberans | 99.29% | 4 | 13 | L2 | Research Question (99.0%)</li>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>Renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions (rank 1) (99.6%)</li>
+<li>RCC with Xp11.2/TFE3 fusions (99.6%)</li>
+<li>RCC associated with neuroblastoma (99.6%)</li>
+<li>Unclassified RCC (99.6%)</li>
+<li>Liposarcoma (99.6%)</li>
+<li>Childhood kidney cell carcinoma (99.5%)</li>
+<li>Ovarian myxoid liposarcoma (99.5%)</li>
+<li>Heart fibrosarcoma (99.4%)</li>
+<li>Fibroblastic neoplasm (99.3%)</li>
+<li>Kidney fibrosarcoma (99.3%)</li>
+<li>Dermatofibrosarcoma protuberans (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pazopanib/' | relative_url }}">View full drug report →</a></p>

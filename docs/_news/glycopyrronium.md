@@ -3,7 +3,7 @@ layout: default
 title: "Glycopyrronium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Glycopyrronium. Original indication: he TxGNN model predicts it may be effective for **.... 5 predicted indications."
+description: "Health news related to Glycopyrronium. Original indication: he TxGNN model predicts it may be effective for **.... 6 predicted indications."
 permalink: /news/glycopyrronium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/glycopyrronium/
 ---
 
 <p class="key-answer" data-question="What news is there about Glycopyrronium?">
-<strong>Glycopyrronium</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Glycopyrronium</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,12 +26,13 @@ This page combines the AI-predicted indications for Glycopyrronium with the late
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **irritable bowel syndrome**, with **no clinical trials** and **no publications** currently supporting this specific prediction.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>Cauda equina syndrome | 98.51% | Indirect link via neurogenic bladder/bowel dysfunction only (99.0%)</li>
-<li>Neurogenic bladder (obsolete term) | 97.73% | Plausible via detrusor muscarinic blockade; the term should be mapped to a current ontology term before any evidence search (99.0%)</li>
-<li>Neurocirculatory asthenia | 96.91% | Speculative; anticholinergic tachycardia could worsen symptoms (99.0%)</li>
-<li>Autonomic nervous system disease | 95.55% | Only indication with any evidence (L4); see below (99.0%)</li>
-<li>Dysthymic disorder | 93.68% | No credible mechanism (99.0%)</li>
+<li><strong>Predicted indications (6)</strong>:<ul>
+<li>Irritable bowel syndrome (98.8%)</li>
+<li>Cauda equina syndrome (98.5%)</li>
+<li>Neurogenic bladder (obsolete term) (97.7%)</li>
+<li>Neurocirculatory asthenia (96.9%)</li>
+<li>Autonomic nervous system disease (95.5%)</li>
+<li>Dysthymic disorder (93.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/glycopyrronium/' | relative_url }}">View full drug report →</a></p>

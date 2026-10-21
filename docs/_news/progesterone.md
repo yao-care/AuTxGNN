@@ -3,7 +3,7 @@ layout: default
 title: "Progesterone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Progesterone. Original indication: . 10 predicted indications."
+description: "Health news related to Progesterone. Original indication: . 1 predicted indications."
 permalink: /news/progesterone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/progesterone/
 ---
 
 <p class="key-answer" data-question="What news is there about Progesterone?">
-<strong>Progesterone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Progesterone</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Progesterone with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>amenorrhea (disease) (100.0%)</li>
-<li>breast fibrocystic disease (100.0%)</li>
-<li>benign mammary dysplasia (100.0%)</li>
-<li>renal hypoplasia, bilateral (100.0%)</li>
-<li>cervix endometriosis (100.0%)</li>
-<li>renal hypoplasia (disease) (100.0%)</li>
-<li>endometriosis of rectovaginal septum and vagina (100.0%)</li>
-<li>endometriosis in cutaneous scar (100.0%)</li>
-<li>blunt duct adenosis of breast (100.0%)</li>
-<li>apocrine adenosis of breast (100.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Amenorrhoea (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/progesterone/' | relative_url }}">View full drug report →</a></p>

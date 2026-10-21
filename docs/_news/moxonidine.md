@@ -3,7 +3,7 @@ layout: default
 title: "Moxonidine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Moxonidine. Original indication: . 3 predicted indications."
+description: "Health news related to Moxonidine. Original indication: . 4 predicted indications."
 permalink: /news/moxonidine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/moxonidine/
 ---
 
 <p class="key-answer" data-question="What news is there about Moxonidine?">
-<strong>Moxonidine</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Moxonidine</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Moxonidine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>Hypotrichosis simplex of the scalp (100.0%)</li>
 <li>Malignant hypertensive renal disease (99.7%)</li>
 <li>Malignant renovascular hypertension (99.7%)</li>
 <li>Primary hereditary glaucoma (99.5%)</li>

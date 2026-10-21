@@ -3,7 +3,7 @@ layout: default
 title: "Valaciclovir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Valaciclovir. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Valaciclovir. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/valaciclovir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/valaciclovir/
 ---
 
 <p class="key-answer" data-question="What news is there about Valaciclovir?">
-<strong>Valaciclovir</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Valaciclovir</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Valaciclovir with the latest
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **0 clinical trials** and only **5 retrieved publications**, all case reports or cohort-type papers that do not...</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>rheumatoid arthritis (99.0%)</li>
-<li>sclerosing cholangitis (98.7%)</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (98.3%)</li>
-<li>brachydactyly-syndactyly syndrome (97.8%)</li>
-<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (97.7%)</li>
-<li>brain small vessel disease 1 with or without ocular anomalies (97.6%)</li>
-<li>diabetic nephropathy (97.0%)</li>
-<li>bronchitis (96.2%)</li>
-<li>congestive heart failure (93.2%)</li>
-<li>peripheral arterial disease (92.5%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Rheumatoid arthritis (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/valaciclovir/' | relative_url }}">View full drug report →</a></p>

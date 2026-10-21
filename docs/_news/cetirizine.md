@@ -3,7 +3,7 @@ layout: default
 title: "Cetirizine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cetirizine. Original indication: . 3 predicted indications."
+description: "Health news related to Cetirizine. Original indication: . 4 predicted indications."
 permalink: /news/cetirizine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cetirizine/
 ---
 
 <p class="key-answer" data-question="What news is there about Cetirizine?">
-<strong>Cetirizine</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Cetirizine</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Cetirizine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>Allergic urticaria (100.0%)</li>
 <li>Cold urticaria (100.0%)</li>
 <li>Angioedema (95.7%)</li>
 <li>Nasal cavity disease (99.8%)</li>

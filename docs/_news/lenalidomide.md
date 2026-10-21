@@ -3,7 +3,7 @@ layout: default
 title: "Lenalidomide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lenalidomide. Original indication: . 10 predicted indications."
+description: "Health news related to Lenalidomide. Original indication: . 1 predicted indications."
 permalink: /news/lenalidomide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lenalidomide/
 ---
 
 <p class="key-answer" data-question="What news is there about Lenalidomide?">
-<strong>Lenalidomide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Lenalidomide</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Lenalidomide with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>myeloid leukemia (99.5%)</li>
-<li>unclassified myelodysplastic syndrome (99.4%)</li>
-<li>refractory cytopenia of childhood (99.3%)</li>
-<li>aregenerative anemia (99.3%)</li>
-<li>severe congenital hypochromic anemia with ringed sideroblasts (99.3%)</li>
-<li>partial deletion of the long arm of chromosome 5 (99.3%)</li>
-<li>lymph node cancer (97.8%)</li>
-<li>blast phase chronic myelogenous leukemia, BCR-ABL1 positive (96.7%)</li>
-<li>ganglioneuroblastoma (disease) (96.0%)</li>
-<li>acute lymphoblastic leukemia (disease) (95.9%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Myeloid leukaemia (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/lenalidomide/' | relative_url }}">View full drug report →</a></p>

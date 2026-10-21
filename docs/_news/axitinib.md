@@ -3,7 +3,7 @@ layout: default
 title: "Axitinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Axitinib. Original indication: . 10 predicted indications."
+description: "Health news related to Axitinib. Original indication: . 11 predicted indications."
 permalink: /news/axitinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/axitinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Axitinib?">
-<strong>Axitinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Axitinib</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,18 @@ This page combines the AI-predicted indications for Axitinib with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>Unclassified renal cell carcinoma | 99.90% | L5 | Hold (99.0%)</li>
-<li>RCC with Xp11.2/TFE3 translocations | 99.90% | L2 | Research Question (99.0%)</li>
-<li>RCC associated with neuroblastoma | 99.90% | L5 | Hold (99.0%)</li>
-<li>Childhood kidney cell carcinoma | 99.87% | L4 | Hold (99.0%)</li>
-<li>Liposarcoma | 99.87% | L4 | Research Question (99.0%)</li>
-<li>Renal carcinoma | 99.85% | L1 | Proceed with Guardrails (99.0%)</li>
-<li>Ovarian myxoid liposarcoma | 99.84% | L5 | Hold (99.0%)</li>
-<li>Angiolipoma | 99.83% | L5 | Hold (99.0%)</li>
-<li>Collecting duct carcinoma | 99.81% | L2 | Research Question (99.0%)</li>
-<li>Familial spontaneous pneumothorax | 99.78% | L5 | Hold (99.0%)</li>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>Unclassified renal cell carcinoma (rank 1) (99.9%)</li>
+<li>Unclassified renal cell carcinoma (99.9%)</li>
+<li>RCC with Xp11.2/TFE3 translocations (99.9%)</li>
+<li>RCC associated with neuroblastoma (99.9%)</li>
+<li>Childhood kidney cell carcinoma (99.9%)</li>
+<li>Liposarcoma (99.9%)</li>
+<li>Renal carcinoma (99.8%)</li>
+<li>Ovarian myxoid liposarcoma (99.8%)</li>
+<li>Angiolipoma (99.8%)</li>
+<li>Collecting duct carcinoma (99.8%)</li>
+<li>Familial spontaneous pneumothorax (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/axitinib/' | relative_url }}">View full drug report →</a></p>

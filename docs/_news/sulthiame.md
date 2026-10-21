@@ -3,7 +3,7 @@ layout: default
 title: "Sulthiame News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sulthiame. Original indication: he TxGNN model predicts it may be effective for **.... 9 predicted indications."
+description: "Health news related to Sulthiame. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/sulthiame/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sulthiame/
 ---
 
 <p class="key-answer" data-question="What news is there about Sulthiame?">
-<strong>Sulthiame</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Sulthiame</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,7 +26,8 @@ This page combines the AI-predicted indications for Sulthiame with the latest he
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are **0 clinical trials** and **0 publications** supporting this prediction.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Cauda equina syndrome (100.0%)</li>
 <li>Obsolete neurogenic bladder (disease) (99.9%)</li>
 <li>Irritable bowel syndrome (99.9%)</li>
 <li>Neurocirculatory asthenia (99.8%)</li>

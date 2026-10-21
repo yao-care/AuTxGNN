@@ -3,7 +3,7 @@ layout: default
 title: "Hydroxyurea News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Hydroxyurea. Original indication: . 2 predicted indications."
+description: "Health news related to Hydroxyurea. Original indication: . 3 predicted indications."
 permalink: /news/hydroxyurea/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/hydroxyurea/
 ---
 
 <p class="key-answer" data-question="What news is there about Hydroxyurea?">
-<strong>Hydroxyurea</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Hydroxyurea</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,9 +25,10 @@ This page combines the AI-predicted indications for Hydroxyurea with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>Sickle cell-haemoglobin C disease | 99.67% | L2 | Phase 2 trial [NCT00532883](https://clinicaltrials.gov/study/NCT00532883) (n=44, terminated) plus a 2025 NEJM Evidence publication ([39647172](https://pubmed.ncbi.nlm.nih.gov/39647172/)) and cohort studies. No Phase 3 trial is evident. Research question. (99.0%)</li>
-<li>Sickle cell-beta-thalassaemia | 99.67% | L3 | Small 1999 clinical trial ([10326220](https://pubmed.ncbi.nlm.nih.gov/10326220/)); the listed trials are transplant studies, not hydroxyurea trials. Research question. (99.0%)</li>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>Female breast carcinoma (100.0%)</li>
+<li>Sickle cell-haemoglobin C disease (99.7%)</li>
+<li>Sickle cell-beta-thalassaemia (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/hydroxyurea/' | relative_url }}">View full drug report →</a></p>

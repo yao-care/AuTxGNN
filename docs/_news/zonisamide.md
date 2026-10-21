@@ -3,7 +3,7 @@ layout: default
 title: "Zonisamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Zonisamide. Original indication: he TxGNN model predicts it may be effective for **.... 3 predicted indications."
+description: "Health news related to Zonisamide. Original indication: he TxGNN model predicts it may be effective for **.... 4 predicted indications."
 permalink: /news/zonisamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/zonisamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Zonisamide?">
-<strong>Zonisamide</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Zonisamide</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,7 +26,8 @@ This page combines the AI-predicted indications for Zonisamide with the latest h
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **Tourette syndrome**, but **no clinical trials and no publications** currently support this prediction.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>Tourette syndrome (99.8%)</li>
 <li>Absence epilepsy (99.2%)</li>
 <li>Manic bipolar affective disorder (99.3%)</li>
 <li>Fibromyalgia (99.2%)</li>

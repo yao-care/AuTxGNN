@@ -3,7 +3,7 @@ layout: default
 title: "Tirofiban News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tirofiban. Original indication: . 9 predicted indications."
+description: "Health news related to Tirofiban. Original indication: . 10 predicted indications."
 permalink: /news/tirofiban/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tirofiban/
 ---
 
 <p class="key-answer" data-question="What news is there about Tirofiban?">
-<strong>Tirofiban</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Tirofiban</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Tirofiban with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Glanzmann thrombasthenia | 96.25% | L5 | The disease is a deficiency of GPIIb/IIIa, the very target tirofiban inhibits. Tirofiban would mimic and aggravate the disease. Likely false positive. (99.0%)</li>
-<li>Rheumatoid arthritis | 95.26% | L5 | Speculative link only. The sole paper is a case report of myocardial infarction after adalimumab. (99.0%)</li>
-<li>Trigeminal autonomic cephalalgia | 94.67% | L5 | No mechanistic rationale, trials or literature. (99.0%)</li>
-<li>Headache disorder | 94.53% | L5 | Loose link via platelet activation in migraine. No trials or literature. (99.0%)</li>
-<li>Pseudo-von Willebrand disease | 94.34% | L5 | The defect is in GPIb-alpha, not GPIIb/IIIa. Bleeding risk would rise. (99.0%)</li>
-<li>Congenital prothrombin deficiency | 93.99% | L5 | A coagulation factor deficiency. Tirofiban would add bleeding risk. (99.0%)</li>
-<li>Thromboangiitis obliterans | 92.16% | L4 | Plausible antithrombotic rationale but no direct evidence. Could be framed as a research question. (99.0%)</li>
-<li>Female breast carcinoma | 91.40% | L5 | Hypothesised platelet-tumour interactions only. Bleeding risk is a concern. (99.0%)</li>
-<li>Cholecystolithiasis | 91.10% | L5 | No plausible mechanistic link. (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Primary release disorder of platelets (96.3%)</li>
+<li>Glanzmann thrombasthenia (96.2%)</li>
+<li>Rheumatoid arthritis (95.3%)</li>
+<li>Trigeminal autonomic cephalalgia (94.7%)</li>
+<li>Headache disorder (94.5%)</li>
+<li>Pseudo-von Willebrand disease (94.3%)</li>
+<li>Congenital prothrombin deficiency (94.0%)</li>
+<li>Thromboangiitis obliterans (92.2%)</li>
+<li>Female breast carcinoma (91.4%)</li>
+<li>Cholecystolithiasis (91.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tirofiban/' | relative_url }}">View full drug report →</a></p>

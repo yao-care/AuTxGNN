@@ -3,7 +3,7 @@ layout: default
 title: "Toripalimab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Toripalimab. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Toripalimab. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/toripalimab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/toripalimab/
 ---
 
 <p class="key-answer" data-question="What news is there about Toripalimab?">
-<strong>Toripalimab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Toripalimab</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Toripalimab with the latest 
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **mixed-type autoimmune haemolytic anaemia**, but there are **0 clinical trials** and **0 publications** supporting this prediction.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>mixed-type autoimmune hemolytic anemia (93.8%)</li>
-<li>idiopathic aplastic anemia (93.8%)</li>
-<li>dermatitis (93.7%)</li>
-<li>paroxysmal nocturnal hemoglobinuria (93.7%)</li>
-<li>drug-induced autoimmune hemolytic anemia (93.7%)</li>
-<li>proteinuria (93.1%)</li>
-<li>acne keloid (93.0%)</li>
-<li>neonatal autoimmune hemolytic anemia (93.0%)</li>
-<li>primary CD59 deficiency (92.8%)</li>
-<li>amyopathic dermatomyositis (92.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Mixed-type autoimmune haemolytic anaemia (93.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/toripalimab/' | relative_url }}">View full drug report →</a></p>

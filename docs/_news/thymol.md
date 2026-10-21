@@ -3,7 +3,7 @@ layout: default
 title: "Thymol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Thymol. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Thymol. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/thymol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/thymol/
 ---
 
 <p class="key-answer" data-question="What news is there about Thymol?">
-<strong>Thymol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Thymol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Thymol with the latest healt
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **interventricular septum aneurysm**, but there are **0 clinical trials** and **0 publications** supporting this prediction.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>interventricular septum aneurysm (99.2%)</li>
-<li>pulmonary valve disease (99.2%)</li>
-<li>Laubry-Pezzi syndrome (99.2%)</li>
-<li>genetic syndromic Pierre Robin syndrome (99.2%)</li>
-<li>orofacial clefting syndrome (99.2%)</li>
-<li>partial deletion of the long arm of chromosome 22 (99.1%)</li>
-<li>Pierre Robin syndrome associated with a chromosomal anomaly (99.1%)</li>
-<li>disorder of fucoglycosan synthesis (99.1%)</li>
-<li>partial deletion of the long arm of chromosome 7 (99.1%)</li>
-<li>Jeune syndrome situs inversus (99.1%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Interventricular septum aneurysm (99.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/thymol/' | relative_url }}">View full drug report →</a></p>

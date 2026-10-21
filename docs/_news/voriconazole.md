@@ -3,7 +3,7 @@ layout: default
 title: "Voriconazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Voriconazole. Original indication: . 10 predicted indications."
+description: "Health news related to Voriconazole. Original indication: . 1 predicted indications."
 permalink: /news/voriconazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/voriconazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Voriconazole?">
-<strong>Voriconazole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Voriconazole</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Voriconazole with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>multidrug-resistant tuberculosis (98.7%)</li>
-<li>cysticercosis (98.3%)</li>
-<li>Ambras type hypertrichosis universalis congenita (98.3%)</li>
-<li>syndrome with a Dandy-Walker malformation as major feature (98.2%)</li>
-<li>malformation syndrome with odontal and/or periodontal component (98.1%)</li>
-<li>tuberculosis, bovine (98.1%)</li>
-<li>isolated genetic hair shaft abnormality (98.1%)</li>
-<li>tuberculoma (98.0%)</li>
-<li>tuberculous ascites (98.0%)</li>
-<li>tuberculosis, avian (98.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Multidrug-resistant tuberculosis (98.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/voriconazole/' | relative_url }}">View full drug report →</a></p>

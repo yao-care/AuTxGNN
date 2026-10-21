@@ -3,7 +3,7 @@ layout: default
 title: "Patisiran News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Patisiran. Original indication: he TxGNN model predicts it may be effective for **.... 9 predicted indications."
+description: "Health news related to Patisiran. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/patisiran/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/patisiran/
 ---
 
 <p class="key-answer" data-question="What news is there about Patisiran?">
-<strong>Patisiran</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Patisiran</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,7 +26,8 @@ This page combines the AI-predicted indications for Patisiran with the latest he
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **dermatitis**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a computational signal only.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Dermatitis (90.7%)</li>
 <li>Hydroa vacciniforme, familial (90.1%)</li>
 <li>Amyopathic dermatomyositis (90.1%)</li>
 <li>Acne keloid (90.0%)</li>

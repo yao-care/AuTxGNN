@@ -3,7 +3,7 @@ layout: default
 title: "Sulfasalazine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sulfasalazine. Original indication: . 10 predicted indications."
+description: "Health news related to Sulfasalazine. Original indication: . 1 predicted indications."
 permalink: /news/sulfasalazine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sulfasalazine/
 ---
 
 <p class="key-answer" data-question="What news is there about Sulfasalazine?">
-<strong>Sulfasalazine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Sulfasalazine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Sulfasalazine with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>brachydactyly-syndactyly syndrome (99.9%)</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.9%)</li>
-<li>osteoarthritis susceptibility (99.9%)</li>
-<li>congenital hypotrichosis with juvenile macular dystrophy (99.7%)</li>
-<li>osteoarthritis (99.6%)</li>
-<li>WHIM syndrome (99.6%)</li>
-<li>acromesomelic dysplasia, Hunter-Thompson type (99.6%)</li>
-<li>spondyloarthropathy, susceptibility to (99.5%)</li>
-<li>brachyolmia-amelogenesis imperfecta syndrome (99.5%)</li>
-<li>myosclerosis (99.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Brachydactyly-syndactyly syndrome (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/sulfasalazine/' | relative_url }}">View full drug report →</a></p>

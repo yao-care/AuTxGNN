@@ -3,7 +3,7 @@ layout: default
 title: "Testosterone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Testosterone. Original indication: . 10 predicted indications."
+description: "Health news related to Testosterone. Original indication: . 1 predicted indications."
 permalink: /news/testosterone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/testosterone/
 ---
 
 <p class="key-answer" data-question="What news is there about Testosterone?">
-<strong>Testosterone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Testosterone</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Testosterone with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>polysomy of X chromosome (94.9%)</li>
-<li>tetragametic chimerism (94.7%)</li>
-<li>penile/testicular agenesis (94.6%)</li>
-<li>testicular regression syndrome (94.5%)</li>
-<li>Leydig cell hypoplasia due to LH resistance (94.2%)</li>
-<li>urethral obstruction sequence (94.2%)</li>
-<li>46,XX disorder of sex development-anorectal anomalies syndrome (94.2%)</li>
-<li>freemartinism (94.0%)</li>
-<li>arthrogryposis epileptic seizures migrational brain disorder (93.8%)</li>
-<li>primary ovarian failure (93.7%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Polysomy of X chromosome (94.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/testosterone/' | relative_url }}">View full drug report →</a></p>

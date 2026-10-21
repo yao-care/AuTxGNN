@@ -3,7 +3,7 @@ layout: default
 title: "Selpercatinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Selpercatinib. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Selpercatinib. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/selpercatinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/selpercatinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Selpercatinib?">
-<strong>Selpercatinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Selpercatinib</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Selpercatinib with the lates
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **pulmonary hypertension**, but there are **no registered clinical trials** and **no publications that directly address this prediction**. The...</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>pulmonary hypertension (99.2%)</li>
-<li>migraine disorder (99.2%)</li>
-<li>migraine with brainstem aura (99.0%)</li>
-<li>kyphoscoliotic heart disease (99.0%)</li>
-<li>migraine with or without aura, susceptibility to (98.0%)</li>
-<li>pulmonary hypertension, primary, autosomal recessive (97.7%)</li>
-<li>obsolete patella aplasia, coxa vara, and tarsal synostosis (97.3%)</li>
-<li>idiopathic pulmonary arterial hypertension (97.0%)</li>
-<li>atrophoderma vermiculata (97.0%)</li>
-<li>coxopodopatellar syndrome (96.9%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Pulmonary hypertension (99.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/selpercatinib/' | relative_url }}">View full drug report →</a></p>

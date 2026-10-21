@@ -3,7 +3,7 @@ layout: default
 title: "Denosumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Denosumab. Original indication: . 9 predicted indications."
+description: "Health news related to Denosumab. Original indication: . 10 predicted indications."
 permalink: /news/denosumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/denosumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Denosumab?">
-<strong>Denosumab</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Denosumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Denosumab with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Diabetic retinopathy | 99.23% | L4 | Hold (99.0%)</li>
-<li>Dermatitis | 97.25% | L3 | Research question (99.0%)</li>
-<li>Diabetic cataract | 96.66% | L4 | Hold (99.0%)</li>
-<li>Acrodermatitis chronica atrophicans | 96.23% | L5 | Hold (99.0%)</li>
-<li>Neonatal dermatomyositis | 95.81% | L5 | Hold (99.0%)</li>
-<li>Hydroa vacciniforme, familial | 95.20% | L5 | Hold (99.0%)</li>
-<li>Secondary interstitial lung disease of childhood (connective tissue disease) | 94.97% | L5 | Hold (99.0%)</li>
-<li>Acne keloid | 94.78% | L5 | Hold (99.0%)</li>
-<li>Amyopathic dermatomyositis | 94.67% | L5 | Hold (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Severe nonproliferative diabetic retinopathy (99.6%)</li>
+<li>Diabetic retinopathy (99.2%)</li>
+<li>Dermatitis (97.2%)</li>
+<li>Diabetic cataract (96.7%)</li>
+<li>Acrodermatitis chronica atrophicans (96.2%)</li>
+<li>Neonatal dermatomyositis (95.8%)</li>
+<li>Hydroa vacciniforme, familial (95.2%)</li>
+<li>Secondary interstitial lung disease of childhood (connective tissue disease) (95.0%)</li>
+<li>Acne keloid (94.8%)</li>
+<li>Amyopathic dermatomyositis (94.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/denosumab/' | relative_url }}">View full drug report →</a></p>

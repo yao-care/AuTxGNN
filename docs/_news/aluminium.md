@@ -3,7 +3,7 @@ layout: default
 title: "Aluminium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Aluminium. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Aluminium. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/aluminium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/aluminium/
 ---
 
 <p class="key-answer" data-question="What news is there about Aluminium?">
-<strong>Aluminium</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Aluminium</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Aluminium with the latest he
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **peptic ulcer disease**, which is already established practice for aluminium-containing antacids and sucralfate.</li>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>peptic ulcer disease (97.3%)</li>
-<li>gastroduodenitis (97.2%)</li>
-<li>dermatitis (96.7%)</li>
-<li>acrodermatitis chronica atrophicans (96.0%)</li>
-<li>esotropia (95.7%)</li>
-<li>neonatal dermatomyositis (95.7%)</li>
-<li>secondary interstitial lung disease specific to childhood associated with a connective tissue disease (95.7%)</li>
-<li>amyopathic dermatomyositis (95.5%)</li>
-<li>acne keloid (95.3%)</li>
-<li>hydroa vacciniforme, familial (95.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Peptic ulcer disease (97.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/aluminium/' | relative_url }}">View full drug report →</a></p>

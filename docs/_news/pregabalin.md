@@ -3,7 +3,7 @@ layout: default
 title: "Pregabalin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pregabalin. Original indication: . 10 predicted indications."
+description: "Health news related to Pregabalin. Original indication: . 1 predicted indications."
 permalink: /news/pregabalin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pregabalin/
 ---
 
 <p class="key-answer" data-question="What news is there about Pregabalin?">
-<strong>Pregabalin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Pregabalin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Pregabalin with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>tendinitis (99.7%)</li>
-<li>myositis fibrosa (99.7%)</li>
-<li>idiopathic granulomatous myositis (99.7%)</li>
-<li>inclusion body myositis (99.5%)</li>
-<li>migraine disorder (99.5%)</li>
-<li>migraine with brainstem aura (99.4%)</li>
-<li>osteoarthritis susceptibility (98.7%)</li>
-<li>osteoarthritis (98.6%)</li>
-<li>headache disorder (97.6%)</li>
-<li>atrophoderma vermiculata (97.6%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Tendinitis (top-ranked); osteoarthritis has the strongest supporting evidence (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pregabalin/' | relative_url }}">View full drug report →</a></p>

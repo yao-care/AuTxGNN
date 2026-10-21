@@ -3,7 +3,7 @@ layout: default
 title: "Pegfilgrastim News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pegfilgrastim. Original indication: The link to diabetic retinopathy is speculative. O.... 6 predicted indications."
+description: "Health news related to Pegfilgrastim. Original indication: The link to diabetic retinopathy is speculative. O.... 7 predicted indications."
 permalink: /news/pegfilgrastim/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pegfilgrastim/
 ---
 
 <p class="key-answer" data-question="What news is there about Pegfilgrastim?">
-<strong>Pegfilgrastim</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
+<strong>Pegfilgrastim</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,7 +26,8 @@ This page combines the AI-predicted indications for Pegfilgrastim with the lates
 <ul>
 <li><strong>Original indication</strong>: The link to diabetic retinopathy is speculative. One hypothesis is that G-CSF mobilises haematopoietic or endothelial progenitor cells, which might influence retinal microvascular repair. No data...</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (6)</strong>:<ul>
+<li><strong>Predicted indications (7)</strong>:<ul>
+<li>Severe nonproliferative diabetic retinopathy (99.9%)</li>
 <li>Diabetic retinopathy (99.7%)</li>
 <li>Primary release disorder of platelets (98.4%)</li>
 <li>Diabetic cataract (98.2%)</li>

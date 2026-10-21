@@ -3,7 +3,7 @@ layout: default
 title: "Imatinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Imatinib. Original indication: . 9 predicted indications."
+description: "Health news related to Imatinib. Original indication: . 10 predicted indications."
 permalink: /news/imatinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/imatinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Imatinib?">
-<strong>Imatinib</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Imatinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Imatinib with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Fibroblastic neoplasm | 99.94% | L3 | Proceed with Guardrails (99.0%)</li>
-<li>Conventional fibrosarcoma | 99.93% | L4 | Hold (99.0%)</li>
-<li>Kidney fibrosarcoma | 99.93% | L4 | Hold (99.0%)</li>
-<li>Low grade fibromyxoid sarcoma | 99.93% | L5 | Hold (99.0%)</li>
-<li>Liposarcoma | 99.88% | L2 | Research question (99.0%)</li>
-<li>Liver fibrosarcoma | 99.86% | L4 | Hold (99.0%)</li>
-<li>Familial Mediterranean fever (autosomal recessive) | 99.86% | L5 | Hold (99.0%)</li>
-<li>Ovarian myxoid liposarcoma | 99.85% | L5 | Hold (99.0%)</li>
-<li>Familial rhabdoid tumour | 99.83% | L5 | Hold (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Heart fibrosarcoma (99.9%)</li>
+<li>Fibroblastic neoplasm (99.9%)</li>
+<li>Conventional fibrosarcoma (99.9%)</li>
+<li>Kidney fibrosarcoma (99.9%)</li>
+<li>Low grade fibromyxoid sarcoma (99.9%)</li>
+<li>Liposarcoma (99.9%)</li>
+<li>Liver fibrosarcoma (99.9%)</li>
+<li>Familial Mediterranean fever (autosomal recessive) (99.9%)</li>
+<li>Ovarian myxoid liposarcoma (99.8%)</li>
+<li>Familial rhabdoid tumour (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/imatinib/' | relative_url }}">View full drug report →</a></p>

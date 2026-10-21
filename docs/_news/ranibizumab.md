@@ -3,7 +3,7 @@ layout: default
 title: "Ranibizumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ranibizumab. Original indication: . 10 predicted indications."
+description: "Health news related to Ranibizumab. Original indication: . 1 predicted indications."
 permalink: /news/ranibizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ranibizumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Ranibizumab?">
-<strong>Ranibizumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Ranibizumab</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Ranibizumab with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>severe nonproliferative diabetic retinopathy (100.0%)</li>
-<li>immature cataract (100.0%)</li>
-<li>craniostenosis cataract (100.0%)</li>
-<li>tetanic cataract (100.0%)</li>
-<li>diabetes mellitus type 2 associated cataract (100.0%)</li>
-<li>mature cataract (100.0%)</li>
-<li>cortical cataract (100.0%)</li>
-<li>nuclear senile cataract (100.0%)</li>
-<li>senile cataract (100.0%)</li>
-<li>hemorrhagic disease of newborn (99.9%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Severe nonproliferative diabetic retinopathy (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ranibizumab/' | relative_url }}">View full drug report →</a></p>

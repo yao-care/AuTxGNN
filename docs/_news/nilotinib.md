@@ -3,7 +3,7 @@ layout: default
 title: "Nilotinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nilotinib. Original indication: . 10 predicted indications."
+description: "Health news related to Nilotinib. Original indication: . 1 predicted indications."
 permalink: /news/nilotinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nilotinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Nilotinib?">
-<strong>Nilotinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Nilotinib</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Nilotinib with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>dermatofibrosarcoma protuberans (99.3%)</li>
-<li>liposarcoma (98.8%)</li>
-<li>ovarian myxoid liposarcoma (98.7%)</li>
-<li>Ewing sarcoma (98.5%)</li>
-<li>ganglioneuroblastoma (disease) (97.0%)</li>
-<li>heart fibrosarcoma (97.0%)</li>
-<li>vertebral anomalies and variable endocrine and T-cell dysfunction (96.9%)</li>
-<li>kidney fibrosarcoma (96.9%)</li>
-<li>fibroblastic neoplasm (96.9%)</li>
-<li>conventional fibrosarcoma (96.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Dermatofibrosarcoma protuberans (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/nilotinib/' | relative_url }}">View full drug report →</a></p>

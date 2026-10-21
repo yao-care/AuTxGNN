@@ -3,7 +3,7 @@ layout: default
 title: "Baricitinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Baricitinib. Original indication: . 5 predicted indications."
+description: "Health news related to Baricitinib. Original indication: . 6 predicted indications."
 permalink: /news/baricitinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/baricitinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Baricitinib?">
-<strong>Baricitinib</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Baricitinib</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,13 @@ This page combines the AI-predicted indications for Baricitinib with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>Brachydactyly-syndactyly syndrome | 99.94% | L5 | Congenital limb malformation; no plausible JAK link (99.0%)</li>
-<li>Indolent plasma cell myeloma | 93.31% | L5 | JAK/STAT3 (IL-6) pathway gives a theoretical rationale; no studies (99.0%)</li>
-<li>WHIM syndrome | 93.12% | L5 | CXCR4-driven; established therapies target CXCR4 directly (99.0%)</li>
-<li>Plasma cell myeloma | 91.83% | L4 | Single case report, indirect evidence only (99.0%)</li>
-<li>Myeloid leukaemia | 91.01% | L4 | One GVHD-prevention trial; supportive care, not antileukaemic (99.0%)</li>
+<li><strong>Predicted indications (6)</strong>:<ul>
+<li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.9%)</li>
+<li>Brachydactyly-syndactyly syndrome (99.9%)</li>
+<li>Indolent plasma cell myeloma (93.3%)</li>
+<li>WHIM syndrome (93.1%)</li>
+<li>Plasma cell myeloma (91.8%)</li>
+<li>Myeloid leukaemia (91.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/baricitinib/' | relative_url }}">View full drug report →</a></p>

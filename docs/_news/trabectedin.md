@@ -3,7 +3,7 @@ layout: default
 title: "Trabectedin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Trabectedin. Original indication: . 10 predicted indications."
+description: "Health news related to Trabectedin. Original indication: . 1 predicted indications."
 permalink: /news/trabectedin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/trabectedin/
 ---
 
 <p class="key-answer" data-question="What news is there about Trabectedin?">
-<strong>Trabectedin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Trabectedin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Trabectedin with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>female breast carcinoma (99.7%)</li>
-<li>choriocarcinoma of ovary (98.9%)</li>
-<li>gonadal germ cell tumor (98.9%)</li>
-<li>ovarian primitive germ cell tumor (98.9%)</li>
-<li>ovarian malignant mesothelioma (98.6%)</li>
-<li>ovarian adenosarcoma (98.5%)</li>
-<li>ovarian cancer, susceptibility to, 1 (98.5%)</li>
-<li>ovarian Sertoli-Leydig cell tumor (98.5%)</li>
-<li>ovarian thecoma (98.5%)</li>
-<li>bilateral breast carcinoma (98.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Female breast carcinoma (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/trabectedin/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Zolmitriptan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Zolmitriptan. Original indication: . 10 predicted indications."
+description: "Health news related to Zolmitriptan. Original indication: . 1 predicted indications."
 permalink: /news/zolmitriptan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/zolmitriptan/
 ---
 
 <p class="key-answer" data-question="What news is there about Zolmitriptan?">
-<strong>Zolmitriptan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Zolmitriptan</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Zolmitriptan with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>migraine with brainstem aura (100.0%)</li>
-<li>atrophoderma vermiculata (99.9%)</li>
-<li>ulerythema ophryogenesis (99.8%)</li>
-<li>sciatic neuropathy (98.3%)</li>
-<li>dysthymic disorder (96.5%)</li>
-<li>amenorrhea (disease) (95.5%)</li>
-<li>headache disorder (94.7%)</li>
-<li>trigeminal autonomic cephalalgia (93.9%)</li>
-<li>congenital hypotrichosis milia (93.7%)</li>
-<li>hypotrichosis simplex of the scalp (93.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Migraine with brainstem aura (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/zolmitriptan/' | relative_url }}">View full drug report →</a></p>
