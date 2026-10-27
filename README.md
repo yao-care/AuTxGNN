@@ -19,7 +19,7 @@ Drug repurposing predictions for Australia TGA-approved drugs using the TxGNN mo
 
 | Item | Count |
 |------|------|
-| **Drug Reports** | 729 |
+| **Drug Reports** | 788 |
 | **Total Predictions** | 12,439,638 |
 | **Unique Drugs** | 729 |
 | **Unique Indications** | 17,081 |

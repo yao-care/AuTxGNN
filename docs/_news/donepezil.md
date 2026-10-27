@@ -1,88 +1,16 @@
 ---
-layout: default
-title: "Donepezil News"
-parent: Health News
-nav_exclude: true
-description: "Health news related to Donepezil. Original indication: . 11 predicted indications."
+layout: id_redirect
 permalink: /news/donepezil/
+sitemap: false
+search_exclude: true
+nav_exclude: true
 ---
-
-# Donepezil News
-
-[← Back to News Overview]({{ '/news/' | relative_url }})
-
----
-
-<p class="key-answer" data-question="What news is there about Donepezil?">
-<strong>Donepezil</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
-</p>
-
-<div class="key-takeaway">
-This page combines the AI-predicted indications for Donepezil with the latest health news. Indications highlighted in orange have recent news coverage.
-</div>
-
-<div class="drug-info-card">
-<strong>Drug Information</strong>
-<ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (11)</strong>:<ul>
-<li>Chronic tic disorder (TxGNN rank 2; the top-ranked prediction, psychogenic movement disorders, has no supporting evidence) (99.2%)</li>
-<li>Psychogenic movement disorders (99.2%)</li>
-<li>Chronic tic disorder (99.2%)</li>
-<li>Primary orthostatic tremor (99.2%)</li>
-<li>Extrapyramidal and movement disease (99.2%)</li>
-<li>Benign shuddering attacks (99.2%)</li>
-<li>Tremor-nystagmus-duodenal ulcer syndrome (99.2%)</li>
-<li>Benign paroxysmal tonic upgaze of childhood with ataxia (99.1%)</li>
-<li>Lingual-facial-buccal dyskinesia (99.0%)</li>
-<li>Acute intermittent porphyria (98.8%)</li>
-<li>Glaucoma (98.3%)</li>
-</ul></li>
-</ul>
-<p><a href="{{ '/drugs/donepezil/' | relative_url }}">View full drug report →</a></p>
-</div>
-
-## Related News (0)
-
-*No related news yet. When news mentions this drug, it will be collected and shown here automatically.*
-
-
-<div class="disclaimer">
-<strong>Disclaimer</strong>: The news on this page is collected automatically and is for research reference only; it does not constitute medical advice.
-</div>
-
-<style>
-.indication-matched {
-  background: #fff3e0;
-  padding: 4px 8px;
-  border-radius: 4px;
-  border-left: 3px solid #ff9800;
-}
-.indication-tag {
-  display: inline-block;
-  background: #ff9800;
-  color: white;
-  padding: 2px 8px;
-  border-radius: 12px;
-  font-size: 0.8em;
-  margin-left: 8px;
-}
-.news-indication-tag {
-  display: inline-block;
-  background: #ff9800;
-  color: white;
-  padding: 2px 10px;
-  border-radius: 12px;
-  font-size: 0.85em;
-  margin-left: 4px;
-}
-.news-drug-tag {
-  display: inline-block;
-  background: #1565c0;
-  color: white;
-  padding: 2px 10px;
-  border-radius: 12px;
-  font-size: 0.85em;
-  margin-left: 4px;
-}
-</style>
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/donepezil/">
+<meta http-equiv="refresh" content="0; url=/drugs/donepezil/">
+<script>location="/drugs/donepezil/"</script>
+<a href="/drugs/donepezil/">/drugs/donepezil/</a>
+</html>
