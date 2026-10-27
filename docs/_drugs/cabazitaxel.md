@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cabazitaxel: From Its Registered Use (Indication Not Stated in the Data) to Female Breast Carcinoma
+## Cabazitaxel: From Its Registered Use (Indication Not Stated in the Data) to Female Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

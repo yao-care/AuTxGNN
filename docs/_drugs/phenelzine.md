@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Phenelzine: From Anxiety Disorder to Agoraphobia
+## Phenelzine: From Anxiety Disorder to Agoraphobia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

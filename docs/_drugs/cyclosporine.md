@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cyclosporine: From Dry Eye Disease to Bronchitis (Bronchiolitis Obliterans Syndrome)
+## Cyclosporine: From Dry Eye Disease to Bronchitis (Bronchiolitis Obliterans Syndrome)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

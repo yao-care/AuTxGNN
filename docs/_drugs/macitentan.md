@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Macitentan: From Pulmonary Arterial Hypertension to PAH Associated with Congenital Heart Disease
+## Macitentan: From Pulmonary Arterial Hypertension to PAH Associated with Congenital Heart Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

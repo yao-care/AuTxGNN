@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Patisiran: From an Unspecified Original Indication to Dermatitis
+## Patisiran: From an Unspecified Original Indication to Dermatitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

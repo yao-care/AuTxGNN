@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tranexamic Acid: From Endometriosis to Amenorrhoea
+## Tranexamic Acid: From Endometriosis to Amenorrhoea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sevelamer: From Hyperphosphataemia Management to Breast Fibrocystic Disease
+## Sevelamer: From Hyperphosphataemia Management to Breast Fibrocystic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

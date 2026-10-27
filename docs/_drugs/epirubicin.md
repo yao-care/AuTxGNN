@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Epirubicin: From Breast Cancer to Primary Pulmonary Lymphoma
+## Epirubicin: From Breast Cancer to Primary Pulmonary Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Flunitrazepam: From Insomnia to Insomnia (Existing Use), with Alcohol Withdrawal Delirium as the Best-Supported New Direction
+## Flunitrazepam: From Insomnia to Insomnia (Existing Use), with Alcohol Withdrawal Delirium as the Best-Supported New Direction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

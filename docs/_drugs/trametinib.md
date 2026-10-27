@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trametinib: From Metastatic Melanoma to Non-Cutaneous Melanoma
+## Trametinib: From Metastatic Melanoma to Non-Cutaneous Melanoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

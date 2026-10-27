@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Camphor: From an Unspecified Topical Counter-Irritant to Migraine Disorder
+## Camphor: From an Unspecified Topical Counter-Irritant to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

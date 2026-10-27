@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Paroxetine: From Major Depressive Disorder and Anxiety Disorders to Agoraphobia
+## Paroxetine: From Major Depressive Disorder and Anxiety Disorders to Agoraphobia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

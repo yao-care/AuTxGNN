@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pyrantel: From Enterobiasis and Ascaridiasis to Toxocariasis
+## Pyrantel: From Enterobiasis and Ascaridiasis to Toxocariasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

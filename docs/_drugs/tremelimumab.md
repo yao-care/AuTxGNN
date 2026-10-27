@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tremelimumab: From Hepatocellular Carcinoma (Anti-CTLA-4 Immunotherapy) to Diabetic Cataract
+## Tremelimumab: From Hepatocellular Carcinoma (Anti-CTLA-4 Immunotherapy) to Diabetic Cataract
+{: .text-alpha }
 
 ## One-Sentence Summary
 

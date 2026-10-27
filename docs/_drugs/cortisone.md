@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cortisone: From a Corticosteroid with No Recorded Indication to Primary Cutaneous T-Cell Lymphoma
+## Cortisone: From a Corticosteroid with No Recorded Indication to Primary Cutaneous T-Cell Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

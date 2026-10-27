@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ivabradine: From Heart Failure and Angina (Heart Rate Reduction) to Pulmonary Hypertension
+## Ivabradine: From Heart Failure and Angina (Heart Rate Reduction) to Pulmonary Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

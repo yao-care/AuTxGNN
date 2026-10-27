@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Mechlorethamine: From Cutaneous T-Cell Lymphoma and Hodgkin Lymphoma to Lymph Node Cancer
+## Mechlorethamine: From Cutaneous T-Cell Lymphoma and Hodgkin Lymphoma to Lymph Node Cancer
+{: .text-alpha }
 
 ## One-Sentence Summary
 

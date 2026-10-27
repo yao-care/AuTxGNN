@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Icosapent Ethyl: From Hypertriglyceridemia to Myocardial Infarction
+## Icosapent Ethyl: From Hypertriglyceridemia to Myocardial Infarction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

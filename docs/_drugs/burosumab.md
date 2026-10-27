@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Burosumab: From Hereditary Hypophosphatemic Rickets to Renal Osteodystrophy
+## Burosumab: From Hereditary Hypophosphatemic Rickets to Renal Osteodystrophy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ozanimod: From Multiple Sclerosis to Progressive Relapsing Multiple Sclerosis
+## Ozanimod: From Multiple Sclerosis to Progressive Relapsing Multiple Sclerosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

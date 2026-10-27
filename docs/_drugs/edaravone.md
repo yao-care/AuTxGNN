@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Edaravone: From Ischaemic Stroke and ALS to Heparin Cofactor 2 Deficiency
+## Edaravone: From Ischaemic Stroke and ALS to Heparin Cofactor 2 Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

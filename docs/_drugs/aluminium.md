@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Aluminium: From an Unspecified Original Indication to Peptic Ulcer Disease
+## Aluminium: From an Unspecified Original Indication to Peptic Ulcer Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

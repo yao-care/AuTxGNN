@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Olsalazine: From an Unspecified Original Indication to Myelodysplastic Syndrome
+## Olsalazine: From an Unspecified Original Indication to Myelodysplastic Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

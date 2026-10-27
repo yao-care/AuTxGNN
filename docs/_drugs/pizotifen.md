@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Pizotifen: From Migraine Prophylaxis (Approved Use) to Migraine Disorder (Predicted Indication)
+## Pizotifen: From Migraine Prophylaxis (Approved Use) to Migraine Disorder (Predicted Indication)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

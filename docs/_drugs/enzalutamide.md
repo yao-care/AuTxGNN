@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Enzalutamide: From Prostate Cancer to Prostate Neoplasm
+## Enzalutamide: From Prostate Cancer to Prostate Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

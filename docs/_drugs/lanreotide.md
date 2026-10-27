@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lanreotide: From Acromegaly to Hypertrichosis (Top-Ranked Prediction, Not Supported by Evidence)
+## Lanreotide: From Acromegaly to Hypertrichosis (Top-Ranked Prediction, Not Supported by Evidence)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

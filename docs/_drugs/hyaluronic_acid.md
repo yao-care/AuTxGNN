@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hyaluronic Acid: From Ocular Lubrication (Eye Drops) to Dry Eye Syndrome
+## Hyaluronic Acid: From Ocular Lubrication (Eye Drops) to Dry Eye Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

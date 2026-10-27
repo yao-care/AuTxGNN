@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lercanidipine: From Hypertension to Pulmonary Hypertension
+## Lercanidipine: From Hypertension to Pulmonary Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

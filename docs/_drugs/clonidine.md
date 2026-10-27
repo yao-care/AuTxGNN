@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Clonidine: From Hypertension to Tourette Syndrome
+## Clonidine: From Hypertension to Tourette Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

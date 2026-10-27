@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Zinc Sulfate: From an Unspecified Original Indication to Pharyngitis
+## Zinc Sulfate: From an Unspecified Original Indication to Pharyngitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

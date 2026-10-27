@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Perhexiline: From Cardiovascular Use (Original Indication Not Recorded) to Migraine Disorder
+## Perhexiline: From Cardiovascular Use (Original Indication Not Recorded) to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nebivolol: From Hypertension to Malignant Renovascular Hypertension
+## Nebivolol: From Hypertension to Malignant Renovascular Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

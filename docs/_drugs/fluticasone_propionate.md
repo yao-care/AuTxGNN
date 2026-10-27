@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluticasone Propionate: From Allergic and Inflammatory Conditions to Atopic Dermatitis
+## Fluticasone Propionate: From Allergic and Inflammatory Conditions to Atopic Dermatitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Fenofibrate: From Hypertriglyceridaemia and Hyperlipidaemia to Homozygous Familial Hypercholesterolaemia
+## Fenofibrate: From Hypertriglyceridaemia and Hyperlipidaemia to Homozygous Familial Hypercholesterolaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

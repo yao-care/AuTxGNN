@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Penicillamine: From Rheumatoid Arthritis and Wilson Disease to Megaloblastic Anaemia
+## Penicillamine: From Rheumatoid Arthritis and Wilson Disease to Megaloblastic Anaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dostarlimab: From Oncology Use (Original Indication Not Recorded) to X-linked Intellectual Disability-Epilepsy Syndrome
+## Dostarlimab: From Oncology Use (Original Indication Not Recorded) to X-linked Intellectual Disability-Epilepsy Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lipegfilgrastim: From Neutropenia Prophylaxis to Primary Release Disorder of Platelets
+## Lipegfilgrastim: From Neutropenia Prophylaxis to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

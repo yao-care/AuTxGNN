@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lanthanum Carbonate: From Hyperphosphataemia (Presumed) to Dyspepsia
+## Lanthanum Carbonate: From Hyperphosphataemia (Presumed) to Dyspepsia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Interferon gamma-1b: From an Unspecified Original Indication to Heart Disease
+## Interferon gamma-1b: From an Unspecified Original Indication to Heart Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

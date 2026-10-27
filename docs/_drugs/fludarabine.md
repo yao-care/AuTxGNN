@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fludarabine: From Haematological Malignancy Treatment to Plasma Cell Myeloma
+## Fludarabine: From Haematological Malignancy Treatment to Plasma Cell Myeloma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

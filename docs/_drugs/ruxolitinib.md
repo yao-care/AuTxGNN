@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ruxolitinib: From Myelofibrosis and Polycythaemia Vera to Uterine Corpus Perivascular Epithelioid Cell Tumour (PEComa)
+## Ruxolitinib: From Myelofibrosis and Polycythaemia Vera to Uterine Corpus Perivascular Epithelioid Cell Tumour (PEComa)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vemurafenib: From Its Original Indication to Female Breast Carcinoma
+## Vemurafenib: From Its Original Indication to Female Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

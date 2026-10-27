@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methotrexate: From Acute Lymphoblastic Leukaemia and Lymphoma to Pulmonary Blastoma
+## Methotrexate: From Acute Lymphoblastic Leukaemia and Lymphoma to Pulmonary Blastoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

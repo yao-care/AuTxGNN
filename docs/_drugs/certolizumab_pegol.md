@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Certolizumab Pegol: From Crohn's Disease and Inflammatory Arthritis to Rheumatoid Vasculitis
+## Certolizumab Pegol: From Crohn's Disease and Inflammatory Arthritis to Rheumatoid Vasculitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lincomycin: From Bacterial Infections to Hyperamylasemia
+## Lincomycin: From Bacterial Infections to Hyperamylasemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

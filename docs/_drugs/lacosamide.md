@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lacosamide: From Epilepsy (Presumed) to Migraine Disorder
+## Lacosamide: From Epilepsy (Presumed) to Migraine Disorder
+{: .text-alpha }
 
 *Note: the data compiled for this report contain no approved-indication text for the Australian listing. The original indication is therefore not confirmed from the registry. Lacosamide is a recognised antiseizure medicine, but this is general knowledge, not a data-supported statement.*
 

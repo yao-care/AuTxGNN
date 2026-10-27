@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Silver: From Wound Care Dressings to Paget Disease of Bone
+## Silver: From Wound Care Dressings to Paget Disease of Bone
+{: .text-alpha }
 
 ## One-Sentence Summary
 

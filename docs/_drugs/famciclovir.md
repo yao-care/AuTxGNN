@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Famciclovir: From Herpes Zoster to Chickenpox
+## Famciclovir: From Herpes Zoster to Chickenpox
+{: .text-alpha }
 
 ## One-Sentence Summary
 

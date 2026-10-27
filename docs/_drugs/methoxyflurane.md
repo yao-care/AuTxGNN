@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Methoxyflurane: From Acute Pain Relief to Anxiety
+## Methoxyflurane: From Acute Pain Relief to Anxiety
+{: .text-alpha }
 
 ## One-Sentence Summary
 

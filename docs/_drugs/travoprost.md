@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Travoprost: From Open-Angle Glaucoma and Ocular Hypertension to Visceral Calciphylaxis
+## Travoprost: From Open-Angle Glaucoma and Ocular Hypertension to Visceral Calciphylaxis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

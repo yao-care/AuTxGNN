@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Venlafaxine: From Depressive and Anxiety Disorders to Dysthymic Disorder
+## Venlafaxine: From Depressive and Anxiety Disorders to Dysthymic Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

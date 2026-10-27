@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Patiromer: From Hyperkalaemia (Presumed) to Mitochondrial Oxidative Phosphorylation Disorder
+## Patiromer: From Hyperkalaemia (Presumed) to Mitochondrial Oxidative Phosphorylation Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

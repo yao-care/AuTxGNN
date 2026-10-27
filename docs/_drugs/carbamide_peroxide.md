@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carbamide Peroxide: From Ear Wax Removal to Sinusitis
+## Carbamide Peroxide: From Ear Wax Removal to Sinusitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

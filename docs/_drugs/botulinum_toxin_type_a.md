@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Botulinum Toxin Type A: From an Unspecified Original Indication to Parkinsonian Disorder
+## Botulinum Toxin Type A: From an Unspecified Original Indication to Parkinsonian Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

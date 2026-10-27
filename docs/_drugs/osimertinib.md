@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Osimertinib: From EGFR-Mutant Non-Small Cell Lung Cancer to Thrombocytopenia (Prediction Not Supported)
+## Osimertinib: From EGFR-Mutant Non-Small Cell Lung Cancer to Thrombocytopenia (Prediction Not Supported)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Domperidone: From Upper Gastrointestinal Symptoms to Headache Disorder (Migraine)
+## Domperidone: From Upper Gastrointestinal Symptoms to Headache Disorder (Migraine)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

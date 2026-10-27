@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Norethisterone: From Endometriosis and Primary Ovarian Failure to Amenorrhoea
+## Norethisterone: From Endometriosis and Primary Ovarian Failure to Amenorrhoea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

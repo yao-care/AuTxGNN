@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Risedronic Acid: From Osteoporosis to Paget Disease of Bone
+## Risedronic Acid: From Osteoporosis to Paget Disease of Bone
+{: .text-alpha }
 
 ## One-Sentence Summary
 

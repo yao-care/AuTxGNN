@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amiodarone: From Ventricular Fibrillation to Ventricular Tachycardia
+## Amiodarone: From Ventricular Fibrillation to Ventricular Tachycardia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

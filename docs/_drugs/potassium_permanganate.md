@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Potassium Permanganate: From an Unspecified Original Indication to Benign Prostatic Hyperplasia
+## Potassium Permanganate: From an Unspecified Original Indication to Benign Prostatic Hyperplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Gemtuzumab ozogamicin: From Acute Myeloid Leukaemia to Chronic Myelogenous Leukaemia (BCR-ABL1 Positive)
+## Gemtuzumab ozogamicin: From Acute Myeloid Leukaemia to Chronic Myelogenous Leukaemia (BCR-ABL1 Positive)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

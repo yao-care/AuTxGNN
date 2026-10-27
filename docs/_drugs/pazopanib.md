@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pazopanib: From Renal Cell Carcinoma and Soft Tissue Sarcoma to Unclassified Renal Cell Carcinoma
+## Pazopanib: From Renal Cell Carcinoma and Soft Tissue Sarcoma to Unclassified Renal Cell Carcinoma
+{: .text-alpha }
 
 *Note: The report follows the first-ranked prediction (Xp11.2/TFE3 translocation RCC), which has no supporting evidence. The most evidence-supported predictions are summarised below. Unclassified renal cell carcinoma (rank 3) is the best-supported renal prediction, and liposarcoma (rank 4) and dermatofibrosarcoma protuberans (rank 10) are the best-supported sarcoma predictions.*
 

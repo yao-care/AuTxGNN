@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Venetoclax: From Acute Lymphoblastic Leukaemia and Richter Syndrome to Myeloid Leukaemia
+## Venetoclax: From Acute Lymphoblastic Leukaemia and Richter Syndrome to Myeloid Leukaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

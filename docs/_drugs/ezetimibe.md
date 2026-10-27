@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Ezetimibe: From Hyperlipidaemia to Hyperlipoproteinaemia
+## Ezetimibe: From Hyperlipidaemia to Hyperlipoproteinaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

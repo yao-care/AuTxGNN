@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Isosorbide Dinitrate: From Angina (Original Use) to Alopecia
+## Isosorbide Dinitrate: From Angina (Original Use) to Alopecia
+{: .text-alpha }
 
 > **Note on indication selection:** The top-ranked prediction by TxGNN score is alopecia, but it has no supporting evidence. The report below presents it as the primary prediction, as the template requires. Because the evidence is concentrated in other predictions, the clinical trial and literature sections draw on the best-supported candidates (vascular disease and pulmonary hypertension), clearly labelled.
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Triethylenetetramine: From Wilson Disease to Thyroid Gland Undifferentiated (Anaplastic) Carcinoma
+## Triethylenetetramine: From Wilson Disease to Thyroid Gland Undifferentiated (Anaplastic) Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

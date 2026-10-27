@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Terbinafine: From Dermatophyte Skin and Nail Infections to Creeping Myiasis
+## Terbinafine: From Dermatophyte Skin and Nail Infections to Creeping Myiasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

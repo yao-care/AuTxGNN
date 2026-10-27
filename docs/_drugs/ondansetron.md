@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ondansetron: From Nausea and Vomiting to Tourette Syndrome
+## Ondansetron: From Nausea and Vomiting to Tourette Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

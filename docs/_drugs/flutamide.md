@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Flutamide: From Prostate Cancer to Male Reproductive Organ Cancer
+## Flutamide: From Prostate Cancer to Male Reproductive Organ Cancer
+{: .text-alpha }
 
 ## One-Sentence Summary
 

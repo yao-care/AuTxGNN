@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ascorbic Acid: From Ascorbic Acid Deficiency (Scurvy) to Injury
+## Ascorbic Acid: From Ascorbic Acid Deficiency (Scurvy) to Injury
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Talazoparib: From Breast Cancer (Germline BRCA-Mutated, HER2-Negative) to HER2-Positive Breast Carcinoma
+## Talazoparib: From Breast Cancer (Germline BRCA-Mutated, HER2-Negative) to HER2-Positive Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

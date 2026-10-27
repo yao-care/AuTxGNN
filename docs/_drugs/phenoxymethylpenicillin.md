@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phenoxymethylpenicillin: From Streptococcal and Upper Respiratory Infections to Epiglottitis
+## Phenoxymethylpenicillin: From Streptococcal and Upper Respiratory Infections to Epiglottitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

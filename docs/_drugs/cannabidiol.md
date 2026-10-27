@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cannabidiol: From Lennox-Gastaut Syndrome to Restless Legs Syndrome
+## Cannabidiol: From Lennox-Gastaut Syndrome to Restless Legs Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

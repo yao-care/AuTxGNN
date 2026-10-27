@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Migalastat: From Fabry Disease to Hepatoportal Sclerosis
+## Migalastat: From Fabry Disease to Hepatoportal Sclerosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

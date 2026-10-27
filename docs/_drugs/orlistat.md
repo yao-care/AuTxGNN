@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Orlistat: From Obesity to Fatty Liver Disease
+## Orlistat: From Obesity to Fatty Liver Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

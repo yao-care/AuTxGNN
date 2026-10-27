@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dabigatran: From Thromboembolic Prophylaxis to Myocardial Infarction
+## Dabigatran: From Thromboembolic Prophylaxis to Myocardial Infarction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

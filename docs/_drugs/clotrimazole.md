@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clotrimazole: From Superficial Fungal Infections to Acne (Top TxGNN Prediction)
+## Clotrimazole: From Superficial Fungal Infections to Acne (Top TxGNN Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

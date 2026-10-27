@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Mometasone: From Inflammatory Skin Conditions to Primary Cutaneous T-Cell Lymphoma
+## Mometasone: From Inflammatory Skin Conditions to Primary Cutaneous T-Cell Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

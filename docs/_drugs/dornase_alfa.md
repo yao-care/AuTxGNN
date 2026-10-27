@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dornase alfa: From Cystic Fibrosis to Ethmoid Sinusitis
+## Dornase alfa: From Cystic Fibrosis to Ethmoid Sinusitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

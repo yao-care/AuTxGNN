@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Phenylephrine: From Allergic and Vasomotor Rhinitis to Nasal Cavity Disease
+## Phenylephrine: From Allergic and Vasomotor Rhinitis to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

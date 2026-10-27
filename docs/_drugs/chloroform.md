@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chloroform: From No Recorded Indication to Insomnia
+## Chloroform: From No Recorded Indication to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

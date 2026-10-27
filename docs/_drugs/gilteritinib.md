@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gilteritinib: From Acute Myeloid Leukaemia to Bulbar Polio
+## Gilteritinib: From Acute Myeloid Leukaemia to Bulbar Polio
+{: .text-alpha }
 
 ## One-Sentence Summary
 

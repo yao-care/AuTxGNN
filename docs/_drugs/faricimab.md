@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Faricimab: From Retinal Vascular Disease to Diabetic Retinopathy
+## Faricimab: From Retinal Vascular Disease to Diabetic Retinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

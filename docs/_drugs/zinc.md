@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Zinc: From an Unspecified Original Indication to Filariasis
+## Zinc: From an Unspecified Original Indication to Filariasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

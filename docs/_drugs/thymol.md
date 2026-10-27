@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Thymol: From an Unspecified Original Indication to Interventricular Septum Aneurysm
+## Thymol: From an Unspecified Original Indication to Interventricular Septum Aneurysm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

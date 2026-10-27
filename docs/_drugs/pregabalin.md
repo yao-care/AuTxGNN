@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pregabalin: From Postherpetic Neuralgia and Fibromyalgia to Tendinitis
+## Pregabalin: From Postherpetic Neuralgia and Fibromyalgia to Tendinitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

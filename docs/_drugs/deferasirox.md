@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Deferasirox: From Transfusional Iron Overload in Beta-Thalassaemia to HIV Infection
+## Deferasirox: From Transfusional Iron Overload in Beta-Thalassaemia to HIV Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

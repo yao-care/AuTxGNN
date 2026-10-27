@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vismodegib: From Basal Cell Carcinoma to Skin Cancer (Hedgehog-Pathway Extensions)
+## Vismodegib: From Basal Cell Carcinoma to Skin Cancer (Hedgehog-Pathway Extensions)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

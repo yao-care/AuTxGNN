@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Vigabatrin: From West Syndrome to ARX-Related X-Linked Intellectual Disability (with or without Seizures)
+## Vigabatrin: From West Syndrome to ARX-Related X-Linked Intellectual Disability (with or without Seizures)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

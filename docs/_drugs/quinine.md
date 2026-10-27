@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Quinine: From Malaria to Smouldering Systemic Mastocytosis
+## Quinine: From Malaria to Smouldering Systemic Mastocytosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

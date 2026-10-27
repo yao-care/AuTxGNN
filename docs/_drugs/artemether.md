@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Artemether: From Malaria Treatment to Plasmodium falciparum Malaria (Top TxGNN Prediction: Acquired Angioedema)
+## Artemether: From Malaria Treatment to Plasmodium falciparum Malaria (Top TxGNN Prediction: Acquired Angioedema)
+{: .text-alpha }
 
 > **Note on indication selection:** The highest-scoring TxGNN prediction (acquired angioedema, 99.90%) has no supporting evidence. The best-evidenced prediction, **Plasmodium falciparum malaria**, is an established use of artemether rather than true repurposing. This report covers both.
 

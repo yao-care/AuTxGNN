@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Urea: From Atopic and Other Dermatitis to Dermatitis (Including Chemotherapy- and Radiation-Induced Skin Reactions)
+## Urea: From Atopic and Other Dermatitis to Dermatitis (Including Chemotherapy- and Radiation-Induced Skin Reactions)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Magnesium Sulfate: From Constipation and Pre-eclampsia to Preeclampsia/Eclampsia
+## Magnesium Sulfate: From Constipation and Pre-eclampsia to Preeclampsia/Eclampsia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

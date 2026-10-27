@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ibandronate: From Osteoporosis to Duodenal Ulcer (Computational Prediction)
+## Ibandronate: From Osteoporosis to Duodenal Ulcer (Computational Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

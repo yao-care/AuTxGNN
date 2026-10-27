@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ixekizumab: From Ankylosing Spondylitis to Rheumatoid Vasculitis
+## Ixekizumab: From Ankylosing Spondylitis to Rheumatoid Vasculitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dantrolene: From Malignant Hyperthermia to Malignant Hyperthermia Susceptibility (RYR1-Related Disorders)
+## Dantrolene: From Malignant Hyperthermia to Malignant Hyperthermia Susceptibility (RYR1-Related Disorders)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

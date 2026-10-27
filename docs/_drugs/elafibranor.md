@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Elafibranor: From Primary Biliary Cholangitis to Amenorrhoea
+## Elafibranor: From Primary Biliary Cholangitis to Amenorrhoea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

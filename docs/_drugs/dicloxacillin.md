@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dicloxacillin: From Staphylococcal Infections to Bacterial Arthritis
+## Dicloxacillin: From Staphylococcal Infections to Bacterial Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mefenamic Acid: From Pain and Inflammation (Original Indication Not Recorded) to Rheumatoid Arthritis
+## Mefenamic Acid: From Pain and Inflammation (Original Indication Not Recorded) to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

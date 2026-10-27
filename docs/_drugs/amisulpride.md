@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amisulpride: From Schizophrenia to Schizophrenia (Validation of an Existing Use)
+## Amisulpride: From Schizophrenia to Schizophrenia (Validation of an Existing Use)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

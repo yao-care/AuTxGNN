@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Metoprolol: From Hypertension and Myocardial Infarction to Chronic Pulmonary Heart Disease
+## Metoprolol: From Hypertension and Myocardial Infarction to Chronic Pulmonary Heart Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

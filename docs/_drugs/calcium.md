@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Calcium: From Calcium Supplementation to Thrombotic Disease
+## Calcium: From Calcium Supplementation to Thrombotic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ublituximab: From Multiple Sclerosis (Relapsing Forms) to Diabetic Cataract
+## Ublituximab: From Multiple Sclerosis (Relapsing Forms) to Diabetic Cataract
+{: .text-alpha }
 
 ## One-Sentence Summary
 

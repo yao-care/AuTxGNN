@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cefaclor: From Bacterial Infections to Hyperamylasemia (Top Prediction) and Gonococcal Urethritis (Best-Supported Prediction)
+## Cefaclor: From Bacterial Infections to Hyperamylasemia (Top Prediction) and Gonococcal Urethritis (Best-Supported Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

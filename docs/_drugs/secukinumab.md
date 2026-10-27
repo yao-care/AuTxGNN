@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Secukinumab: From Established Immune-Mediated Inflammatory Disease to Primary Release Disorder of Platelets
+## Secukinumab: From Established Immune-Mediated Inflammatory Disease to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

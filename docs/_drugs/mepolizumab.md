@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Mepolizumab: From Eosinophilic Pneumonia to Immune Thrombocytopenia
+## Mepolizumab: From Eosinophilic Pneumonia to Immune Thrombocytopenia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

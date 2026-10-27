@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ripretinib: From Its Approved Indication to Multiple Endocrine Neoplasia
+## Ripretinib: From Its Approved Indication to Multiple Endocrine Neoplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

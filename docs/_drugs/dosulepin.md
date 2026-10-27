@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dosulepin: From Depression to Dysthymic Disorder
+## Dosulepin: From Depression to Dysthymic Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

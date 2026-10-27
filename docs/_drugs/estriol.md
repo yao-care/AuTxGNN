@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Estriol: From Menopausal Symptom Relief (Vaginal Use) to Functional Hypothalamic Amenorrhoea
+## Estriol: From Menopausal Symptom Relief (Vaginal Use) to Functional Hypothalamic Amenorrhoea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

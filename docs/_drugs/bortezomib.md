@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bortezomib: From Plasma Cell Myeloma to Non-Hodgkin Lymphoma (Familial) and Related Haematological Malignancies
+## Bortezomib: From Plasma Cell Myeloma to Non-Hodgkin Lymphoma (Familial) and Related Haematological Malignancies
+{: .text-alpha }
 
 ## One-Sentence Summary
 

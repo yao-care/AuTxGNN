@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Periciazine: From Antipsychotic Use (Original Indication Not Recorded) to Migraine Disorder
+## Periciazine: From Antipsychotic Use (Original Indication Not Recorded) to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

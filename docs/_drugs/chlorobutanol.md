@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chlorobutanol: From Ear Wax Softening (Cerumol) to Erectile Dysfunction
+## Chlorobutanol: From Ear Wax Softening (Cerumol) to Erectile Dysfunction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

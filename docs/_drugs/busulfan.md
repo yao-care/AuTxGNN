@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Busulfan: From an Unspecified Original Indication to Myelodysplastic Syndrome
+## Busulfan: From an Unspecified Original Indication to Myelodysplastic Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

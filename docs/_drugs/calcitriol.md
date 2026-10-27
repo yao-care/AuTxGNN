@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Calcitriol: From Hypercalcaemia and Mineral Metabolism Disorders to Hypophosphataemic Rickets
+## Calcitriol: From Hypercalcaemia and Mineral Metabolism Disorders to Hypophosphataemic Rickets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

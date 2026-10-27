@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Donepezil: From Alzheimer's Disease to Chronic Tic Disorder
+## Donepezil: From Alzheimer's Disease to Chronic Tic Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

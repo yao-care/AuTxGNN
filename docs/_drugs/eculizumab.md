@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Eculizumab: From Paroxysmal Nocturnal Haemoglobinuria to Cyclic Haematopoiesis
+## Eculizumab: From Paroxysmal Nocturnal Haemoglobinuria to Cyclic Haematopoiesis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

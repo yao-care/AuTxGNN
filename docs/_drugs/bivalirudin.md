@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Bivalirudin: From Anticoagulation in Procedural Settings to Primary Release Disorder of Platelets
+## Bivalirudin: From Anticoagulation in Procedural Settings to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

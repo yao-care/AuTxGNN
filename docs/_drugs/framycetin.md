@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Framycetin: From Topical Ophthalmic/Otic Infection to Sclerosing Cholangitis
+## Framycetin: From Topical Ophthalmic/Otic Infection to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

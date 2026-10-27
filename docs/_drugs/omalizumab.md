@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Omalizumab: From Allergic Asthma to Obstructive Lung Disease
+## Omalizumab: From Allergic Asthma to Obstructive Lung Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Valine: From Nutritional/Metabolic Supplementation to Sclerosing Cholangitis
+## Valine: From Nutritional/Metabolic Supplementation to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

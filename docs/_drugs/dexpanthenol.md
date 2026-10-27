@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dexpanthenol: From Gastrointestinal Motility and Skin Conditions to Anorectal Stricture
+## Dexpanthenol: From Gastrointestinal Motility and Skin Conditions to Anorectal Stricture
+{: .text-alpha }
 
 ## One-Sentence Summary
 

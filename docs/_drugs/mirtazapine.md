@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mirtazapine: From Depression to Dysthymic Disorder
+## Mirtazapine: From Depression to Dysthymic Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

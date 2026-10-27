@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Tiagabine: From Partial Epilepsy to Visual Epilepsy
+## Tiagabine: From Partial Epilepsy to Visual Epilepsy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

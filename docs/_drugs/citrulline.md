@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Citrulline: From an Unspecified Original Indication to Multiple Endocrine Neoplasia
+## Citrulline: From an Unspecified Original Indication to Multiple Endocrine Neoplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

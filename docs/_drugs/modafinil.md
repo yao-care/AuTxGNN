@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Modafinil: From Narcolepsy to Hypersomnia (Idiopathic and Related Central Disorders)
+## Modafinil: From Narcolepsy to Hypersomnia (Idiopathic and Related Central Disorders)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

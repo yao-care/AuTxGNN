@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Naloxone: From Opioid Dependence to Hypoglycaemia (Impaired Awareness)
+## Naloxone: From Opioid Dependence to Hypoglycaemia (Impaired Awareness)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

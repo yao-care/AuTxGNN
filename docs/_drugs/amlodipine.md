@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amlodipine: From Hypertension to Intracerebral Haemorrhage (Secondary Prevention)
+## Amlodipine: From Hypertension to Intracerebral Haemorrhage (Secondary Prevention)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

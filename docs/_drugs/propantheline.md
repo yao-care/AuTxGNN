@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Propantheline: From Peptic Ulcer Disease to Gastroduodenitis
+## Propantheline: From Peptic Ulcer Disease to Gastroduodenitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

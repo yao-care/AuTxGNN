@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Memantine: From Alzheimer's-Type Dementia to Migraine Disorder
+## Memantine: From Alzheimer's-Type Dementia to Migraine Disorder
+{: .text-alpha }
 
 *Note: The data compiled for this report did not include an approved indication for memantine. The original indication is therefore not stated in the Australian licence data. Memantine is widely known as an NMDA receptor antagonist used for moderate to severe Alzheimer's disease, but this should be confirmed against the TGA-approved Product Information.*
 

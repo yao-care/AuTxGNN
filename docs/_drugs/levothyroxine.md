@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Levothyroxine: From Hypothyroidism to Nodular Goitre
+## Levothyroxine: From Hypothyroidism to Nodular Goitre
+{: .text-alpha }
 
 ## One-Sentence Summary
 

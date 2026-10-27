@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Trastuzumab: From HER2-Positive Breast Carcinoma to Normal Breast-Like Subtype of Breast Carcinoma
+## Trastuzumab: From HER2-Positive Breast Carcinoma to Normal Breast-Like Subtype of Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

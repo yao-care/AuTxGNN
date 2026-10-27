@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ferrous Fumarate: From Iron Deficiency Anaemia to Esophageal Disease
+## Ferrous Fumarate: From Iron Deficiency Anaemia to Esophageal Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

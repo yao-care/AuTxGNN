@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fingolimod: From Relapsing-Remitting Multiple Sclerosis to Borderline Ovarian Serous Tumour
+## Fingolimod: From Relapsing-Remitting Multiple Sclerosis to Borderline Ovarian Serous Tumour
+{: .text-alpha }
 
 ## One-Sentence Summary
 

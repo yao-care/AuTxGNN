@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Cetirizine: From Allergic Rhinitis and Idiopathic Urticaria to Allergic Urticaria
+## Cetirizine: From Allergic Rhinitis and Idiopathic Urticaria to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

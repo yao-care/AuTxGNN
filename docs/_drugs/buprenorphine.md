@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Buprenorphine: From Opioid Dependence to Schizophrenia
+## Buprenorphine: From Opioid Dependence to Schizophrenia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

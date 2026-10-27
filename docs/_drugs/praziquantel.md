@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Praziquantel: From Schistosomiasis and Liver Fluke Infections to Uterine Corpus Epithelioid Leiomyosarcoma
+## Praziquantel: From Schistosomiasis and Liver Fluke Infections to Uterine Corpus Epithelioid Leiomyosarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

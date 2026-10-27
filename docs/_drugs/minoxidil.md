@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Minoxidil: From Hypertension to Hypotrichosis Simplex of the Scalp
+## Minoxidil: From Hypertension to Hypotrichosis Simplex of the Scalp
+{: .text-alpha }
 
 ## One-Sentence Summary
 

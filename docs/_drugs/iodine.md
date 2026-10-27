@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Iodine: From an Unspecified Original Indication to Sjogren Syndrome
+## Iodine: From an Unspecified Original Indication to Sjogren Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

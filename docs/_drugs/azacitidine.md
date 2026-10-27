@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Azacitidine: From Acute Myeloid Leukaemia to Aregenerative Anaemia (MDS-Associated Refractory Anaemia)
+## Azacitidine: From Acute Myeloid Leukaemia to Aregenerative Anaemia (MDS-Associated Refractory Anaemia)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

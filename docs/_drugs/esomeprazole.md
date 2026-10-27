@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Esomeprazole: From Peptic Ulcer Disease to Duodenogastric Reflux
+## Esomeprazole: From Peptic Ulcer Disease to Duodenogastric Reflux
+{: .text-alpha }
 
 ## One-Sentence Summary
 

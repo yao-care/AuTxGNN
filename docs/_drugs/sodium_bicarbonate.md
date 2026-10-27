@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Bicarbonate: From an Unspecified Original Indication to Bronchitis
+## Sodium Bicarbonate: From an Unspecified Original Indication to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Carfilzomib: From Plasma Cell Myeloma to Myeloid Leukaemia
+## Carfilzomib: From Plasma Cell Myeloma to Myeloid Leukaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

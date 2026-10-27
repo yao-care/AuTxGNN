@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Toripalimab: From an Unspecified Original Indication to Mixed-Type Autoimmune Haemolytic Anaemia
+## Toripalimab: From an Unspecified Original Indication to Mixed-Type Autoimmune Haemolytic Anaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

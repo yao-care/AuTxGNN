@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cabozantinib: From Renal Cell Carcinoma to Liposarcoma
+## Cabozantinib: From Renal Cell Carcinoma to Liposarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

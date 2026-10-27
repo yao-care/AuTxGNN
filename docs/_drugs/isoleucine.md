@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Isoleucine: From Maple Syrup Urine Disease Dietary Management to Gastroparesis
+## Isoleucine: From Maple Syrup Urine Disease Dietary Management to Gastroparesis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

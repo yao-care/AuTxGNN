@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Clarithromycin: From Bacterial Infections to Hyperamylasemia
+## Clarithromycin: From Bacterial Infections to Hyperamylasemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

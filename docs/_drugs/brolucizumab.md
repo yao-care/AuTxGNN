@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Brolucizumab: From Macular Degeneration to Mitochondrial Oxidative Phosphorylation Disorder (Nuclear DNA Anomalies)
+## Brolucizumab: From Macular Degeneration to Mitochondrial Oxidative Phosphorylation Disorder (Nuclear DNA Anomalies)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

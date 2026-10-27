@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tyrosine: From Unspecified Nutritional Use to Cauda Equina Syndrome
+## Tyrosine: From Unspecified Nutritional Use to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

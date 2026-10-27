@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Telmisartan: From Hypertension and Stroke Prevention to Intracerebral Haemorrhage
+## Telmisartan: From Hypertension and Stroke Prevention to Intracerebral Haemorrhage
+{: .text-alpha }
 
 ## One-Sentence Summary
 

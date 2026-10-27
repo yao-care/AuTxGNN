@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Sapropterin: From Phenylketonuria to Disorder of Tyrosine Metabolism
+## Sapropterin: From Phenylketonuria to Disorder of Tyrosine Metabolism
+{: .text-alpha }
 
 ## One-Sentence Summary
 

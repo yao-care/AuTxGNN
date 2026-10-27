@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Timolol: From Hypertension and Open-Angle Glaucoma to Closed-Angle Glaucoma
+## Timolol: From Hypertension and Open-Angle Glaucoma to Closed-Angle Glaucoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

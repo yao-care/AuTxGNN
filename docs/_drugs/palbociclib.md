@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Palbociclib: From Breast Cancer (Original Indication Not Recorded) to Hyperthyroidism
+## Palbociclib: From Breast Cancer (Original Indication Not Recorded) to Hyperthyroidism
+{: .text-alpha }
 
 **Note on selection:** The prompt specifies using the first predicted indication (rank 1, hyperthyroidism). It has no supporting evidence, so this report also summarises the better-supported candidates (rheumatoid arthritis and myeloid leukaemia) where they inform the decision.
 

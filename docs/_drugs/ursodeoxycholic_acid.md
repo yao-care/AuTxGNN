@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ursodeoxycholic Acid: From Cholelithiasis and Primary Biliary Cholangitis to Homozygous Familial Hypercholesterolaemia
+## Ursodeoxycholic Acid: From Cholelithiasis and Primary Biliary Cholangitis to Homozygous Familial Hypercholesterolaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

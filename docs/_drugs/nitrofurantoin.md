@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nitrofurantoin: From Urinary Tract Infection (Presumed) to Rheumatoid Arthritis
+## Nitrofurantoin: From Urinary Tract Infection (Presumed) to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

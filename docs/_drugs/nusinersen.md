@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nusinersen: From Spinal Muscular Atrophy to Fallopian Tube Serous Adenofibroma
+## Nusinersen: From Spinal Muscular Atrophy to Fallopian Tube Serous Adenofibroma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

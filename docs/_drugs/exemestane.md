@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Exemestane: From Breast Cancer to Amenorrhoea (Top-Ranked Prediction: Antithrombin Deficiency Type 2)
+## Exemestane: From Breast Cancer to Amenorrhoea (Top-Ranked Prediction: Antithrombin Deficiency Type 2)
+{: .text-alpha }
 
 > **Note on the selected indication:** The top-ranked prediction (rank 1) is antithrombin deficiency type 2, which has no supporting evidence. The only prediction with any retrieved literature is amenorrhoea (rank 2), and the only mechanistically coherent one is breast fibrocystic disease (rank 10). All three are reported below. The original indication is not recorded in the data compiled for this report. It is described here from general knowledge of the drug class.
 

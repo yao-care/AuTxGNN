@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lactose: From Lactose Intolerance to Esophageal Varices with Bleeding
+## Lactose: From Lactose Intolerance to Esophageal Varices with Bleeding
+{: .text-alpha }
 
 ## One-Sentence Summary
 

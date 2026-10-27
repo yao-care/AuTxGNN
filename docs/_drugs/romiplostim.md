@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Romiplostim: From Immune Thrombocytopenia to Primary Release Disorder of Platelets
+## Romiplostim: From Immune Thrombocytopenia to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Baclofen: From Spasticity (Intrathecal Use) to Attention Deficit Hyperactivity Disorder
+## Baclofen: From Spasticity (Intrathecal Use) to Attention Deficit Hyperactivity Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

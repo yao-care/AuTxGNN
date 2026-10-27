@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Benzydamine: From Local Oropharyngeal Inflammation and Pain to Benign Prostatic Hyperplasia
+## Benzydamine: From Local Oropharyngeal Inflammation and Pain to Benign Prostatic Hyperplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

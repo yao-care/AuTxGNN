@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Povidone-iodine: From Topical Antisepsis to Plasmodium falciparum Malaria
+## Povidone-iodine: From Topical Antisepsis to Plasmodium falciparum Malaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

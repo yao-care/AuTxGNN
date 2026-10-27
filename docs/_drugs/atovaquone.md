@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Atovaquone: From Malaria and Pneumocystosis to Toxoplasmosis
+## Atovaquone: From Malaria and Pneumocystosis to Toxoplasmosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

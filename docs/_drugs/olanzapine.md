@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Olanzapine: From Schizophrenia and Bipolar Disorder to Agoraphobia
+## Olanzapine: From Schizophrenia and Bipolar Disorder to Agoraphobia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

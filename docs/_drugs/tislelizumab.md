@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tislelizumab: From Oncology Use to Mixed-Type Autoimmune Hemolytic Anemia
+## Tislelizumab: From Oncology Use to Mixed-Type Autoimmune Hemolytic Anemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

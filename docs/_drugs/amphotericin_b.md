@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Amphotericin B: From Fungal and Bacterial Infections to Paranasal Sinus Neoplasm
+## Amphotericin B: From Fungal and Bacterial Infections to Paranasal Sinus Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Naproxen: From Inflammatory and Musculoskeletal Conditions (e.g. Rheumatoid Arthritis, Osteoarthritis) to Brachydactyly-Syndactyly Syndrome
+## Naproxen: From Inflammatory and Musculoskeletal Conditions (e.g. Rheumatoid Arthritis, Osteoarthritis) to Brachydactyly-Syndactyly Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

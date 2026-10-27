@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Interferon beta-1b: From Relapsing-Remitting Multiple Sclerosis to Autoimmune Disease of the Central Nervous System
+## Interferon beta-1b: From Relapsing-Remitting Multiple Sclerosis to Autoimmune Disease of the Central Nervous System
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Glucagon: From Severe Hypoglycaemia Rescue to Irritable Bowel Syndrome
+## Glucagon: From Severe Hypoglycaemia Rescue to Irritable Bowel Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

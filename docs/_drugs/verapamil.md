@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Verapamil: From Hypertension and Cardiac Arrhythmias to Arrhythmogenic Right Ventricular Cardiomyopathy
+## Verapamil: From Hypertension and Cardiac Arrhythmias to Arrhythmogenic Right Ventricular Cardiomyopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

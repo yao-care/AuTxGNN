@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Zoledronic Acid: From Osteoporosis and Paget's Disease to HIV Infectious Disease
+## Zoledronic Acid: From Osteoporosis and Paget's Disease to HIV Infectious Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

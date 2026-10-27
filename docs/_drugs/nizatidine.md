@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Nizatidine: From Gastric Ulcer and Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Nizatidine: From Gastric Ulcer and Peptic Ulcer Disease to Active Peptic Ulcer Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

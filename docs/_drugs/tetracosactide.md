@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tetracosactide: From Adrenocortical Insufficiency to Adrenal Cortex Disease
+## Tetracosactide: From Adrenocortical Insufficiency to Adrenal Cortex Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

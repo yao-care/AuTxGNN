@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Obeticholic Acid: From Primary Biliary Cholangitis to Rheumatoid Arthritis
+## Obeticholic Acid: From Primary Biliary Cholangitis to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

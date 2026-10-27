@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Entrectinib: From Its Registered Oncology Use to Multiple Endocrine Neoplasia
+## Entrectinib: From Its Registered Oncology Use to Multiple Endocrine Neoplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

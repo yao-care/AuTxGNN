@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Quinagolide: From an Unspecified Original Indication to Insomnia
+## Quinagolide: From an Unspecified Original Indication to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

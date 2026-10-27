@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lidocaine: From Dermatitis and Neuralgia to Conjunctival Disorder
+## Lidocaine: From Dermatitis and Neuralgia to Conjunctival Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

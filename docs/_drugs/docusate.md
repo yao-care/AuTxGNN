@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Docusate: From Constipation and Deficiency Anaemias to Plummer-Vinson Syndrome
+## Docusate: From Constipation and Deficiency Anaemias to Plummer-Vinson Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 
