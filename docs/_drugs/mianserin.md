@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
-description: "Mianserin: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
+last_modified_at: 2026-10-28
 monitor_inn: "Mianserin"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
+description: "Mianserin: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mianserin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Mianserin: From Depression to Benign Paroxysmal Torticollis of Infancy
+## Mianserin: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,7 +46,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (the Australian ARTG entry contains no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
@@ -62,9 +62,8 @@ Benign paroxysmal torticollis of infancy is a paediatric, migraine-related condi
 
 **Other predictions to note:** Several lower-ranked predictions are more clinically coherent because they sit within or near mianserin's existing depression and anxiety uses:
 
-- **Melancholia** (99.17%, L3) and **neurotic depression** (99.16%, L3): essentially on-label uses rather than true repurposing.
-- **Neurotic disorder** (99.02%, L3): includes mianserin-specific comparative studies from the 1980s to 1990s.
-- **Agoraphobia** (99.40%, L4): the only retrieved paper concerns a different drug class.
+- **Neurotic disorder** (0.9902, L3): includes mianserin-specific comparative studies from the 1980s to 1990s.
+- **Agoraphobia** (0.9940, L4): the only retrieved paper concerns a different drug class.
 - **Ohdo syndrome and variants**, **Ohdo-type blepharophimosis-intellectual disability syndrome**, **Keppen-Lubinsky syndrome** and **ligneous conjunctivitis** (L5): prediction only, with no plausible mechanistic link.
 
 ## Clinical Trial Evidence

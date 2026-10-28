@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Lacosamide: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the data compiled for this report (approved indicati…"
+last_modified_at: 2026-10-28
 monitor_inn: "Lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
+description: "Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lacosamide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lacosamide: From Epilepsy (Presumed) to Migraine Disorder
+## Lacosamide: Manic bipolar affective disorder
 {: .text-alpha }
 
 *Note: the data compiled for this report contain no approved-indication text for the Australian listing. The original indication is therefore not confirmed from the registry. Lacosamide is a recognised antiseizure medicine, but this is general knowledge, not a data-supported statement.*
@@ -48,9 +48,9 @@ Migraine currently has **4 registered clinical trials** (3 Phase 3, 1 Phase 2) a
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report (approved indication text is blank) |
-| Predicted New Indication | Migraine disorder (the evidence-leading candidate; the top-ranked prediction is manic bipolar affective disorder, 99.96%) |
-| TxGNN Prediction Score | 0.9987 (migraine disorder); 0.9996 (manic bipolar affective disorder) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Manic bipolar affective disorder |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (migraine disorder), by the compiled assessment. Strict application of the rules would give a lower level, since the Phase 3 trials are active-comparator or pilot designs and outcome data are unverified |
 | Australia Market Status | Marketed (valid licences: 1 of 1) |
 | Number of ARTG Entries | 1 (valid: 1) |

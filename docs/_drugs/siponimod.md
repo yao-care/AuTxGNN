@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 676
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-13
-description: "Siponimod: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not available in the data compiled for this report"
+last_modified_at: 2026-10-28
 monitor_inn: "Siponimod"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]
+description: "Siponimod: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Siponimod
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Siponimod: From an Unspecified Original Indication to Pulmonary Hypertension
+## Siponimod: Pulmonary hypertension
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,7 +45,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
@@ -64,7 +64,7 @@ This link is speculative. S1P1 modulation can also affect vascular tone and caus
 None of the other predictions has clinical trial support.
 
 - **Rheumatoid arthritis** (score 0.9916, evidence L4) has the most plausible rationale. S1P-mediated lymphocyte trafficking is a reasonable target in immune-mediated disease, and two reviews (PMID 33983615 and 29500302) discuss S1P modulation beyond multiple sclerosis. This is class-level support only, with no siponimod-specific data in rheumatoid arthritis.
-- **Migraine disorder, migraine with brainstem aura, and migraine susceptibility** (99.66%, 99.56% and 99.49%) share a single weak signal. The one relevant paper (PMID 35382764) is a case report of migraine in a patient receiving interferon β1a and siponimod for multiple sclerosis, and it does not show therapeutic benefit. The other retrieved items are general neurology updates.
+- The one relevant paper (PMID 35382764) is a case report of migraine in a patient receiving interferon β1a and siponimod for multiple sclerosis, and it does not show therapeutic benefit. The other retrieved items are general neurology updates.
 - **Kyphoscoliotic heart disease, atrophoderma vermiculata, ulerythema ophryogenesis, Prinzmetal angina and myelodysplastic syndrome** have no identifiable supporting mechanism or evidence. Siponimod's lymphopenia and cardiac conduction effects are potential concerns in myelodysplastic syndrome and Prinzmetal angina respectively.
 
 ## Clinical Trial Evidence

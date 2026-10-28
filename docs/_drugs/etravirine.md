@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 278
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-13
-description: "Etravirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
+last_modified_at: 2026-10-28
 monitor_inn: "Etravirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
+description: "Etravirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Etravirine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Etravirine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+## Etravirine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,7 +46,7 @@ It is a model-only prediction and should be treated as a low-confidence hypothes
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease; AIDS (the ARTG entry in the data compiled for this report has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
@@ -62,7 +62,6 @@ Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, which is the
 
 Other predictions from the model give similar signals:
 - **Simian immunodeficiency virus infection** (score 0.9998, L4): SIV is a standard animal model, but SIV (especially SIVmac) is naturally resistant to many NNRTIs. The single linked paper is indirect.
-- **Congenital HIV** (99.79%, L3): a subpopulation of the approved indication rather than a new disease.
 - Remaining predictions (neurodevelopmental disorder, prostate fibroma, Brenner tumour, benign reproductive neoplasms, obsolete familial combined hyperlipidaemia) have no plausible mechanism and appear to be computational artefacts.
 
 ## Clinical Trial Evidence

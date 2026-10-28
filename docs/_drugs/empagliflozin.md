@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Empagliflozin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
 description: "Empagliflozin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -61,7 +61,7 @@ For focal stiff limb syndrome, no plausible mechanistic link has been identified
 
 The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as GAD autoimmunity and diabetes, not biological evidence. It should not be read as evidence of benefit.
 
-Other predictions in the same list show a similar pattern. They include classic stiff person syndrome (99.06%), opsismodysplasia (99.03%), thiamine-responsive dysfunction syndrome (98.99%), several localised lipodystrophies, pancreatic agenesis and autoimmune oophoritis (92.37%). None has any clinical trial support.
+Other predictions in the same list show a similar pattern. None has any clinical trial support.
 
 ## Clinical Trial Evidence
 

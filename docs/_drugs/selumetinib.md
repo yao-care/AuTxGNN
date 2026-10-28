@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 667
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Selumetinib: predicted new indication Familial generalized lentiginosis (evidence level L5). Approved use: Neurofibromatosis"
+last_modified_at: 2026-10-28
 monitor_inn: "Selumetinib"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "trigeminal schwannoma"]
+description: "Selumetinib: predicted new indication Familial generalized lentiginosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Selumetinib
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Selumetinib: From Neurofibromatosis to Familial Generalized Lentiginosis
+## Selumetinib: Familial generalized lentiginosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,7 +46,7 @@ The best-supported predicted indication in the data compiled for this report is 
 
 | Item | Content |
 |------|------|
-| Original Indication | Neurofibromatosis (the ARTG entry has no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Familial generalized lentiginosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
@@ -54,7 +54,7 @@ The best-supported predicted indication in the data compiled for this report is 
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-Of the ten predicted indications, only two have any supporting evidence: peripheral nerve schwannoma (L3, 99.95%) and rhabdoid tumour (L4, 99.96%). The other eight are model predictions only (L5).
+Of the ten predicted indications, only two have any supporting evidence: peripheral nerve schwannoma (L3, 0.9995) and rhabdoid tumour (L4, 0.9996). The other eight are model predictions only (L5).
 
 ## Why is This Prediction Reasonable?
 

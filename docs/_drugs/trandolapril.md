@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 745
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
-description: "Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder). The approved indication text fo…"
+last_modified_at: 2026-10-28
 monitor_inn: "Trandolapril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trandolapril
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Trandolapril: From Hypertension to Malignant Hypertensive Renal Disease
+## Trandolapril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,7 +46,7 @@ but there are currently **no clinical trials** and **no publications** directly 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder). The approved indication text for the Australian entry is not available, so this is taken from the drug's known indication data |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
@@ -61,8 +61,8 @@ Currently, detailed mechanism of action data is not available. Based on known in
 Malignant hypertensive nephropathy is driven by severe hypertension and activation of the renin-angiotensin-aldosterone system (RAAS). Blocking this pathway with an ACE inhibitor is therefore plausible. The new indication is also closely related to the original one, as it is essentially a severe form of hypertension with kidney involvement. The high TxGNN score is likely driven largely by this proximity to the approved hypertension indication rather than by new evidence.
 
 Other predicted indications were also reviewed. Most have weak or speculative rationale:
-- **Malignant renovascular hypertension** (99.92%): RAAS-dependent, so ACE inhibition is plausible, but ACE inhibitors carry a known risk of acute renal function decline in bilateral renal artery stenosis. It is also largely a subtype of the approved indication.
-- **Pulmonary hypertension (multifactorial or lung disease/hypoxia related)** (99.92%): Systemic ACE inhibition has no established efficacy in pulmonary vascular disease, and hypotension is a concern. Only indirect animal data exist.
+- **Malignant renovascular hypertension** (0.9992): RAAS-dependent, so ACE inhibition is plausible, but ACE inhibitors carry a known risk of acute renal function decline in bilateral renal artery stenosis. It is also largely a subtype of the approved indication.
+- **Pulmonary hypertension (multifactorial or lung disease/hypoxia related)** (0.9992): Systemic ACE inhibition has no established efficacy in pulmonary vascular disease, and hypotension is a concern. Only indirect animal data exist.
 - **Other predictions** (Braddock syndrome, chronic pulmonary heart disease, Prinzmetal angina, COL4A1-related syndromes, intracerebral hemorrhage): no trandolapril-specific human evidence was found.
 
 ## Clinical Trial Evidence

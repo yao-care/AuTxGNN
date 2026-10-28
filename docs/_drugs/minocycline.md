@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 480
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Minocycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
 description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not currently available. Based on known inf
 
 The plausible link is the anti-inflammatory and matrix metalloproteinase (MMP) inhibiting activity attributed to tetracyclines, which could be relevant to ocular surface inflammation. This is a hypothesis from the prediction rationale only. No trials or literature were retrieved to confirm it, and the original indications are mainly systemic infections and acne rather than eye disease.
 
-Other top-ranked predictions include exposure keratitis (99.20%), neurotrophic keratopathy (98.98%), otitis externa (98.70%), chronic rhinosinusitis (98.63%) and several non-specific post-infectious conditions. All are at L4 or L5 evidence, and none has controlled clinical evidence.
+All are at L4 or L5 evidence, and none has controlled clinical evidence.
 
 ## Clinical Trial Evidence
 

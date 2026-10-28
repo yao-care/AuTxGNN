@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Irbesartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 description: "Irbesartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,8 +60,8 @@ Detailed mechanism of action data is not available in the data compiled for this
 Renovascular hypertension is driven largely by activation of the renin-angiotensin system, so blocking the AT1 receptor is a plausible approach. However, the predicted indication sits very close to irbesartan's existing hypertension indication, so it offers limited repurposing novelty. The score is a computational prediction only, with no supporting trials or literature.
 
 Other high-scoring predictions (ranks 2 to 10) were also reviewed:
-- **Malignant hypertensive renal disease** (99.31%): consistent with AT1 blockade lowering blood pressure and intraglomerular pressure, but no evidence was provided. Evidence level L5, Hold.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.25%): 11 publications were retrieved, but these are mostly animal or in vitro studies on cardiac or altitude-related hypoxia, and several are off-target. No human pulmonary hypertension trials. Evidence level L4, Research Question.
+- **Malignant hypertensive renal disease** (0.9931): consistent with AT1 blockade lowering blood pressure and intraglomerular pressure, but no evidence was provided. Evidence level L5, Hold.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (0.9925): 11 publications were retrieved, but these are mostly animal or in vitro studies on cardiac or altitude-related hypoxia, and several are off-target. No human pulmonary hypertension trials. Evidence level L4, Research Question.
 - **Pulmonary hypertension with unclear multifactorial mechanism, Prinzmetal angina, Braddock syndrome, two rare genetic vascular syndromes, and an obsolete stroke susceptibility term**: no trials or literature, prediction only (L5, Hold). The stroke entry is an obsolete ontology term and not clinically actionable.
 
 ## Clinical Trial Evidence

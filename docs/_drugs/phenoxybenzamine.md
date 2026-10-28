@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Phenoxybenzamine"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma"]
 description: "Phenoxybenzamine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -61,8 +61,8 @@ Alpha-blockade could theoretically alter aqueous humour dynamics or ocular blood
 
 **Other predictions.** The next-ranked predictions (all Hold unless stated) are:
 
-- **Open-angle glaucoma** (99.48%): a plausible but unsupported link through intraocular pressure and perfusion. Systemic hypotension and irreversible receptor binding raise safety concerns.
-- **Subarachnoid haemorrhage** (97.81%): the most interesting secondary signal. Animal studies suggest that sympathetic or noradrenergic blockade reduces cerebral vasospasm, and one older study reported reversal of experimental spasm with phenoxybenzamine. It is rated L4 and labelled a Research Question, with no human trials.
+- **Open-angle glaucoma** (0.9948): a plausible but unsupported link through intraocular pressure and perfusion. Systemic hypotension and irreversible receptor binding raise safety concerns.
+- Animal studies suggest that sympathetic or noradrenergic blockade reduces cerebral vasospasm, and one older study reported reversal of experimental spasm with phenoxybenzamine. It is rated L4 and labelled a Research Question, with no human trials.
 
 ## Clinical Trial Evidence
 

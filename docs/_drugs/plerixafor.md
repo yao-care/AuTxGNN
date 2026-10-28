@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 581
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Plerixafor"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 description: "Plerixafor: predicted new indication CMM7 (evidence level L5). Approved use: Not recorded in the local data"
@@ -54,7 +54,6 @@ The data compiled for this report show considerably more evidence for a related 
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-**Other predictions in the data (top 10):** Myeloid leukaemia (99.02%, L2, research question), melanoma (98.96%, L4), several melanoma subtypes (L5), bronchitis (L5), cecum villous adenoma (L5) and cecum neuroendocrine tumour G1 (L5).
 
 ---
 

@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
-description: "Lipegfilgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not stated in the compiled data"
+last_modified_at: 2026-10-28
 monitor_inn: "Lipegfilgrastim"
 predicted_indications: ["primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "diabetic retinopathy"]
+description: "Lipegfilgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lipegfilgrastim
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Lipegfilgrastim: From Neutropenia Prophylaxis to Primary Release Disorder of Platelets
+## Lipegfilgrastim: Primary release disorder of platelets
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,7 +45,7 @@ The TxGNN model predicts it may be effective for **primary release disorder of p
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the compiled data (the ARTG entry has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available for this report. Lipegfilgras
 
 Primary release disorder of platelets is a qualitative platelet function defect, not a problem of neutrophil numbers. No plausible mechanistic link between G-CSF receptor signalling and platelet secretion has been established. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not supported by clinical or literature data, so the prediction should be treated as a hypothesis, not a finding.
 
-Other top-ranked predictions show the same pattern. They include severe nonproliferative diabetic retinopathy (99.91%), pseudo-von Willebrand disease (99.91%), Glanzmann thrombasthenia (99.91%), diabetic retinopathy (99.75%), constitutional thrombocytopenia (98.99%), immune thrombocytopenia (98.96%), collagen receptor defect bleeding diathesis (98.93%), Scott syndrome (98.75%) and drug-induced osteoporosis (98.64%). All are Evidence Level L5 with no trials or publications. For several of them there are also mechanistic concerns. G-CSF mobilisation could worsen retinal neovascularisation, and G-CSF effects on bone turnover could cause bone loss, not benefit.
+Other top-ranked predictions show the same pattern. All are Evidence Level L5 with no trials or publications. For several of them there are also mechanistic concerns. G-CSF mobilisation could worsen retinal neovascularisation, and G-CSF effects on bone turnover could cause bone loss, not benefit.
 
 ## Clinical Trial Evidence
 

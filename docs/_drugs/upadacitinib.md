@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 761
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Upadacitinib"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Upadacitinib: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The predicted indication is a rare congenital developmental dysplasia. No plausible link between JAK-STAT signalling and this condition is evident from the data compiled for this report. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis-generating signal rather than evidence of benefit.
 
-Other high-ranking predictions show the same pattern. These include brachydactyly-syndactyly syndrome (99.58%), several amyotrophic lateral sclerosis entries, plasma cell myeloma (92.58%) and indolent plasma cell myeloma (94.40%). Only the myeloma entries have even a theoretical rationale, via IL-6/JAK/STAT3 signalling in plasma cell survival, and none has supporting clinical data.
+Other high-ranking predictions show the same pattern. Only the myeloma entries have even a theoretical rationale, via IL-6/JAK/STAT3 signalling in plasma cell survival, and none has supporting clinical data.
 
 ## Clinical Trial Evidence
 

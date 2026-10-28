@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 649
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Rosuvastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 Rosuvastatin is a statin (HMG-CoA reductase inhibitor) originally used for lipid disorders such as hypertriglyceridaemia, homozygous familial hypercholesterolaemia and atherosclerosis, and for stroke-related conditions.
 The TxGNN model's top-ranked prediction is **cholesterol-ester transfer protein (CETP) deficiency** (score 0.9954), but **no clinical trials or publications** were found for it.
-The best-supported prediction in the data is **familial hypercholesterolaemia** (99.54%), which is largely an on-label or closely related use, with **10 Phase 3 trials** and **12 publications** compiled for it.
+The best-supported prediction in the data is **familial hypercholesterolaemia** (0.9954), which is largely an on-label or closely related use, with **10 Phase 3 trials** and **12 publications** compiled for it.
 
 ---
 

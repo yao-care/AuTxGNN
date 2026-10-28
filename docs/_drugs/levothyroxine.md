@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-10-23
-description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Hypothyroidism…"
+last_modified_at: 2026-10-28
+description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levothyroxine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Levothyroxine: From Hypothyroidism to Renal Hypodysplasia/Aplasia
+## Levothyroxine: Renal hypodysplasia/aplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,7 +45,7 @@ The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypothyroidism, together with other thyroid conditions recorded in the knowledge graph (the Australian licence record contains no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Renal hypodysplasia/aplasia |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
@@ -53,7 +53,7 @@ The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-Other predictions were bilateral renal agenesis (99.60%), Potter sequence (99.33%) and Carney complex (99.18%). None has any supporting trial or publication.
+Other predictions were bilateral renal agenesis (0.9960), Potter sequence (0.9933) and Carney complex (0.9918). None has any supporting trial or publication.
 
 ## Why is This Prediction Reasonable?
 

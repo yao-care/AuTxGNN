@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 description: "Duloxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ This report covers OCD as the lead evidence-supported candidate. The other nine 
 
 **Note on the other predictions:**
 - The top-ranked prediction, benign paroxysmal torticollis of infancy (score 0.9985), has no clinical trials or literature (L5, Hold). It is a rare infantile disorder with no plausible link to duloxetine, and duloxetine is not appropriate for routine use in infants.
-- Agoraphobia (99.84%, L3) has only open-label and case-level evidence in panic disorder, not agoraphobia itself. It is a research question.
+- Agoraphobia (0.9984, L3) has only open-label and case-level evidence in panic disorder, not agoraphobia itself. It is a research question.
 - Schizotypal, paranoid, schizoid and histrionic personality disorders, Ohdo syndrome and variants, ligneous conjunctivitis, and Ohdo-type blepharophimosis-intellectual disability syndrome all have no trials or literature (L5, Hold). Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
