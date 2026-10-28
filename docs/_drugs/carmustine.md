@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Carmustine
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 137
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Carmustine: predicted new indication Lymph node cancer (evidence level L5). Approved use: Lymphomas (Hodgkin and non-Hodgkin, including mantle cell lymphoma)…"
-monitor_inn: "Carmustine"
-predicted_indications: ["lymph node cancer", "adult astrocytic tumour", "cauda equina neoplasm", "reticulum cell sarcoma", "childhood cerebral astrocytoma", "subependymal giant cell astrocytoma", "astrocytic tumor", "interdigitating dendritic cell sarcoma", "colon adenocarcinoma"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Carmustine: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Carmustine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,78 +32,58 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Carmustine: From Lymphoma and Brain Tumours to Lymph Node Cancer
+<!-- known-uses-page -->
+<!-- description: Carmustine: known uses and market status in Australia; currently no new candidate indication -->
+## Carmustine: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Carmustine, so there is currently no new predicted indication. The drug's recorded uses are listed below.
 
-Carmustine is a DNA-alkylating nitrosourea chemotherapy drug, used for lymphomas, glioblastoma and multiple myeloma.
-The TxGNN model predicts it may be effective for **lymph node cancer**, with a high score of 98.5%.
-Direct evidence for this label is weak: **1 clinical trial** (terminated, and mainly a breast cancer study) and **20 publications** (mostly breast cancer with nodal involvement) are linked to it.
-Carmustine is already used in lymphoma, so this is closer to a confirmation of existing use than a true repurposing candidate.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Lymphomas (Hodgkin and non-Hodgkin, including mantle cell lymphoma), brain glioblastoma, plasma cell myeloma. The Australian licence record has no indication text, so this list comes from the knowledge graph used by TxGNN |
-| Predicted New Indication | Lymph node cancer |
-| TxGNN Prediction Score | 98.49% |
-| Evidence Level | L3 (randomised and observational studies exist, but in related settings, not lymph node cancer itself) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 15 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| hodgkin disease | licence in another country |
+| non-hodgkin lymphoma | licence in another country |
 
-Detailed mechanism of action data is not available in the data compiled for this report. Carmustine is known as a DNA-alkylating nitrosourea that crosslinks DNA and crosses the blood-brain barrier. Its efficacy in lymphoma is established, mainly as part of high-dose conditioning regimens (BEAM, CBV) before autologous stem cell transplant. Mechanistically it is plausible for malignancies of the lymph nodes.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-"Lymph node cancer" is a broad label. In the evidence retrieved, it was matched mostly to breast cancer with many involved axillary nodes, where high-dose cyclophosphamide, cisplatin and carmustine with stem cell support was studied. One Hodgkin lymphoma intensification study was also retrieved. These are not studies of primary lymph node cancer, and carmustine's specific contribution is hard to separate from the combination regimens.
-
-Because lymphoma is already among carmustine's original indications, the high score likely reflects existing use. It does not point to a new therapeutic opportunity.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00002772](https://clinicaltrials.gov/study/NCT00002772) | Phase 3 | Terminated | 602 | Randomised comparison of intensive sequential chemotherapy (doxorubicin, paclitaxel, cyclophosphamide) with high-dose chemotherapy and autologous stem cell support in primary breast cancer with 4-9 involved axillary lymph nodes. Carmustine's role is not clearly established. |
-
-No ANZCTR trials were identified. This is the only trial linked to the predicted indication, and it was terminated before completion.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [7577204](https://pubmed.ncbi.nlm.nih.gov/7577204/) | 1995 | RCT | J Natl Cancer Inst Monogr | CALGB 9082: high-dose versus low-dose cyclophosphamide, cisplatin and carmustine as consolidation in breast cancer with 10 or more involved nodes |
-| [15767638](https://pubmed.ncbi.nlm.nih.gov/15767638/) | 2005 | Randomised trial report | J Clin Oncol | Prospective randomised comparison of high-dose chemotherapy with stem cell support versus intermediate-dose chemotherapy in high-risk primary breast cancer (CALGB 9082, SWOG 9114, NCIC MA-13) |
-| [16118805](https://pubmed.ncbi.nlm.nih.gov/16118805/) | 2005 | Randomised trial (quality of life) | Cancer | Quality of life after high-dose versus intermediate-dose chemotherapy in stage II/III breast carcinoma with multiple positive nodes (CALGB 9066) |
-| [18988286](https://pubmed.ncbi.nlm.nih.gov/18988286/) | 2008 | Randomised phase 2 | Cancer | Early versus late intensification in high-risk Hodgkin lymphoma, 158 patients, five-year results (GOELAMS) |
-| [15505610](https://pubmed.ncbi.nlm.nih.gov/15505610/) | 2004 | Cohort | Biol Blood Marrow Transplant | Five-year results of high-dose cyclophosphamide, carmustine and thiotepa with autologous transplant in high-risk breast cancer |
-| [12523579](https://pubmed.ncbi.nlm.nih.gov/12523579/) | 2002 | Phase 2 study | Biol Blood Marrow Transplant | High-dose chemotherapy with haematopoietic support in breast cancer with 4-9 involved nodes (61 patients) |
-| [11895898](https://pubmed.ncbi.nlm.nih.gov/11895898/) | 2002 | Cohort | Clin Cancer Res | Pharmacokinetics of high-dose cyclophosphamide, cisplatin and carmustine in relation to survival and toxicity (85 women) |
-| [8501500](https://pubmed.ncbi.nlm.nih.gov/8501500/) | 1993 | Clinical study | J Clin Oncol | High-dose cyclophosphamide, cisplatin and carmustine with autologous marrow support as consolidation in breast cancer with 10 or more nodes |
-| [2642573](https://pubmed.ncbi.nlm.nih.gov/2642573/) | 1989 | Clinical study | Leukemia | BCNU, etoposide and cyclophosphamide with autologous marrow transplant in 23 patients with advanced Hodgkin's disease |
-| [8484641](https://pubmed.ncbi.nlm.nih.gov/8484641/) | 1993 | Clinical study | Am Rev Respir Dis | Pulmonary drug toxicity in 23 of 59 patients (39%) given high-dose combination alkylator chemotherapy with marrow transplant |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| alk-positive large b-cell lymphoma |
+| anaplastic astrocytoma |
+| anaplastic ependymoma |
+| anaplastic oligoastrocytoma |
+| anaplastic oligodendroglioma |
+| angiocentric glioma |
+| astroblastoma |
+| b-cell neoplasm |
+| brain cancer |
+| brain glioblastoma |
+| chordoid glioma of the third ventricle |
+| classic hodgkin lymphoma |
+| classic hodgkin lymphoma, lymphocyte-rich type |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 8898H | Gliadel | Implants 7.7 mg, 8 | Indication text not listed in the record |
-
-Only the Gliadel implant (a local wafer for brain tumours) appears in the Australian records compiled. No intravenous carmustine product, the form used in BEAM and CBV conditioning, was identified. Route compatibility for lymphoma or lymph node cancer is therefore unconfirmed.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 8898H | Gliadel | Implants 7.7 mg, 8 | Valid |
 
 ## Cytotoxicity
 
@@ -130,20 +109,6 @@ No label-based warnings or contraindications were available in the data compiled
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-- The evidence directly tied to "lymph node cancer" is one terminated, mainly breast cancer trial and breast cancer literature, which does not support a new indication.
-- Carmustine's real value in lymphoma is already established through existing use in conditioning regimens, so the prediction adds little as a repurposing candidate.
-
-**To proceed, the following is needed:**
-- A precise disease definition for "lymph node cancer", for example the specific lymphoma subtype or nodal metastasis setting
-- Trial or real-world data in which carmustine's own contribution is isolated
-- Confirmation of the availability and registration status of intravenous carmustine in Australia
-- Detailed mechanism of action data
-- Label-based safety information (warnings, contraindications) from the TGA-approved PI, with a monitoring plan covering myelosuppression and pulmonary toxicity
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

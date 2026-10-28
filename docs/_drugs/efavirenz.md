@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Efavirenz
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 240
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Efavirenz: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Efavirenz
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Support is thin: **0 clinical trials** and **1 in vitro publication**, so this p
 |------|------|
 | Original Indication | HIV infectious disease; AIDS |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9980 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,8 +63,8 @@ Feline immunodeficiency virus (FIV) is a lentivirus related to HIV and causes an
 The evidence is in vitro biochemical/structural only, with no animal efficacy data and no clinical trials. Feline AIDS is a veterinary indication, so its relevance to human drug repurposing is limited.
 
 Two other predictions were also reviewed:
-- **Simian immunodeficiency virus infection (score 99.80%, L4, Hold):** Wild-type SIV is intrinsically resistant to NNRTIs. Efavirenz-containing regimens suppress RT-SHIV (an SIV carrying HIV-1 RT) in macaques, but this validates the known anti-HIV-1 mechanism in an animal model. It adds no new human indication, since SIV infection is not a human disease.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (score 99.77%, L5, Hold):** There is no clinical trial, no literature and no established mechanistic link. Efavirenz's effect on CYP46A1 is speculative here and not supported by the data compiled for this report.
+- **Simian immunodeficiency virus infection (score 0.9980, L4, Hold):** Wild-type SIV is intrinsically resistant to NNRTIs. Efavirenz-containing regimens suppress RT-SHIV (an SIV carrying HIV-1 RT) in macaques, but this validates the known anti-HIV-1 mechanism in an animal model. It adds no new human indication, since SIV infection is not a human disease.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (score 0.9977, L5, Hold):** There is no clinical trial, no literature and no established mechanistic link. Efavirenz's effect on CYP46A1 is speculative here and not supported by the data compiled for this report.
 
 ## Clinical Trial Evidence
 

@@ -4,17 +4,17 @@ title: Doxorubicin
 parent: High Evidence (L1-L2)
 nav_order: 230
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Doxorubicin: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma…"
 monitor_inn: "Doxorubicin"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "ganglioneuroblastoma (disease)"]
+predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
 ---
 
 # Doxorubicin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Doxorubicin is already a backbone drug in standard multi-agent Ewing sarcoma reg
 |------|------|
 | Original Indication | Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma, mantle cell lymphoma, Langerhans cell histiocytosis (the ARTG indication text is not available) |
 | Predicted New Indication | Ewing sarcoma |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 2 |
+| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -145,8 +145,8 @@ Several large completed Phase 3 randomised trials and multiple RCTs use doxorubi
 | 4 | Pulmonary blastoma | L3 | Proceed with Guardrails |
 | 5 | Chronic myelogenous leukaemia, BCR-ABL1 positive | L3 | Research Question (tyrosine kinase inhibitors are standard of care) |
 | 6 | Monocytic leukaemia | L4 | Hold |
-| 7 | Botryoid-type embryonal rhabdomyosarcoma of the vagina | L4 | Hold |
-| 8 | Parameningeal embryonal rhabdomyosarcoma | L4 | Hold |
+| 7 | Botryoid-type embryonal rhabdomyosarcoma of the vagina | L5 | Hold |
+| 8 | Parameningeal embryonal rhabdomyosarcoma | L5 | Hold |
 | 9 | Rhabdomyosarcoma | L1 | Proceed with Guardrails (many trials enrol mixed soft tissue sarcoma populations) |
 | 10 | Ganglioneuroblastoma | L4 | Hold |
 ## Disclaimer

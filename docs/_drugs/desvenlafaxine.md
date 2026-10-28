@@ -4,17 +4,17 @@ title: Desvenlafaxine
 parent: Moderate Evidence (L3-L4)
 nav_order: 209
 evidence_level: L4
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Desvenlafaxine: predicted new indication Obsessive-compulsive disorder (evidence level L4). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "Desvenlafaxine"
-predicted_indications: ["obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "melancholia"]
+predicted_indications: ["obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Desvenlafaxine: predicted new indication Obsessive-compulsive disorder (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Desvenlafaxine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Desvenlafaxine: From Major Depressive Disorder to Obsessive-Compulsive Disorder
+## Desvenlafaxine: Obsessive-compulsive disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but at present there are **no registered clinical trials** and only **3 publicat
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; no approved indication text is available for the Australian product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obsessive-compulsive disorder |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -96,7 +96,7 @@ Please also refer to the TGA-approved Product Information (PI) for full warnings
 **Decision: Hold**
 
 **Rationale:**
-The OCD prediction has a high model score but no desvenlafaxine-specific trials or direct literature, so the evidence is only L4 (mechanistic plausibility at class level). Other predicted indications are less supported by the data: dysthymic disorder (L3, two small desvenlafaxine trials, n=59 and n=30) is the most evidence-backed candidate, and melancholia largely overlaps with the existing depression indication.
+The OCD prediction has a high model score but no desvenlafaxine-specific trials or direct literature, so the evidence is only L4 (mechanistic plausibility at class level).
 
 **To proceed, the following is needed:**
 - Desvenlafaxine-specific clinical data in OCD, such as a controlled trial or well-designed observational study, and comparison with venlafaxine data in OCD

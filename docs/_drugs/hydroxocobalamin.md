@@ -4,17 +4,17 @@ title: Hydroxocobalamin
 parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Hydroxocobalamin: predicted new indication Esophageal varices without bleeding (evidence level L5). Approved use: Vitamin B12 deficiency, pernicious anaemia, cyanide poisoning"
 monitor_inn: "Hydroxocobalamin"
-predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "focal myositis", "idiopathic eosinophilic myositis", "inflammatory myopathy with abundant macrophages", "vitamin deficiency disorder", "congenital prothrombin deficiency"]
+predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
+description: "Hydroxocobalamin: predicted new indication Esophageal varices without bleeding (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Hydroxocobalamin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Hydroxocobalamin: From Vitamin B12 Deficiency to Esophageal Varices Without Bleeding
+## Hydroxocobalamin: Esophageal varices without bleeding
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,25 +45,21 @@ The TxGNN model predicts it may be effective for **esophageal varices without bl
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin B12 deficiency, pernicious anaemia, cyanide poisoning (the ARTG entry in the compiled data has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Esophageal varices without bleeding |
-| TxGNN Prediction Score | 99.23% |
+| TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, hydroxocobalamin is a vitamin B12 form that is converted in the body to the active cofactors methylcobalamin and adenosylcobalamin. It is also known to bind cyanide and scavenge nitric oxide. Its efficacy in B12 deficiency is well established.
 
-For esophageal varices, however, we could not identify a clear mechanistic link. Varices arise from portal hypertension, and their management relies on established approaches such as non-selective beta-blockers and endoscopic band ligation. The high score most likely reflects proximity in the knowledge graph rather than relevant biology. The same score was given to the bleeding variant of the disease, which supports this interpretation.
+For esophageal varices, however, we could not identify a clear mechanistic link. Varices arise from portal hypertension, and their management relies on established approaches such as non-selective beta-blockers and endoscopic band ligation. The same score was given to the bleeding variant of the disease, which supports this interpretation.
 
 Other top-ranked predictions show the same pattern:
-- **Varicose disease:** only speculative, indirect links (nitric oxide scavenging, homocysteine and vascular function).
-- **Inflammatory myopathies** (immune-mediated necrotizing myopathy, antisynthetase syndrome, focal myositis, and others): no supporting mechanism.
-- **Congenital prothrombin deficiency:** no supporting mechanism.
-- **Vitamin deficiency disorder** (rank 9): the only prediction with literature, but it largely restates the existing B12 deficiency indication rather than offering a new use.
 
 ## Clinical Trial Evidence
 
@@ -73,7 +69,7 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for esophageal varices without bleeding.
 
-For context, the literature compiled for the rank 9 prediction (vitamin deficiency disorder) consists of reviews, guidelines and case reports about B12 deficiency, not trials in the predicted varices indication. Examples include [38987879](https://pubmed.ncbi.nlm.nih.gov/38987879/) (2024, Review, overview of B12 deficiency diagnosis and treatment) and [27905001](https://pubmed.ncbi.nlm.nih.gov/27905001/) (2017, Guideline, cobalamin-related remethylation disorders). These are not evidence for the varices prediction.
+Examples include [38987879](https://pubmed.ncbi.nlm.nih.gov/38987879/) (2024, Review, overview of B12 deficiency diagnosis and treatment) and [27905001](https://pubmed.ncbi.nlm.nih.gov/27905001/) (2017, Guideline, cobalamin-related remethylation disorders). These are not evidence for the varices prediction.
 
 ## Australia Market Information
 
@@ -106,7 +102,6 @@ The prediction has a high model score but no clinical trials, no literature, no 
 - Preclinical or observational evidence in varices
 - The approved indication and warnings from the TGA Product Information for ARTG 10577Q
 - A safety review of the hypertension-related contraindication signal and the moderate-level interactions
-- If B12-related uses are of interest, consider the vitamin deficiency disorder prediction, noting it overlaps with the existing indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

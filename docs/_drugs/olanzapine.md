@@ -4,17 +4,17 @@ title: Olanzapine
 parent: Model Prediction Only (L5)
 nav_order: 521
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Bipolar disorder, major depressive disorder, anxiety disorder…"
 monitor_inn: "Olanzapine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder", "distal 17p13.3 microdeletion syndrome", "neurotic disorder", "melancholia", "retinal dystrophy with or without extraocular anomalies", "Ohdo syndrome and variants", "childhood apraxia of speech"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Olanzapine: From Schizophrenia and Bipolar Disorder to Agoraphobia
+## Olanzapine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,28 +48,20 @@ The top-ranked prediction has no supporting evidence, so the table shows it alon
 
 | Item | Content |
 |------|------|
-| Original Indication | Bipolar disorder, major depressive disorder, anxiety disorder, schizophrenia (from the knowledge graph; the ARTG entry lists no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication (rank 1) | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 (rank 1) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1) |
 
 **Summary of the top 10 predictions**
 
 | Rank | Predicted Indication | Score | Evidence Level | Recommendation |
 |---|---|---|---|---|
-| 1 | Benign paroxysmal torticollis of infancy | 99.54% | L5 | Hold |
-| 2 | Agoraphobia | 99.47% | L3 | Research Question |
-| 3 | Dysthymic disorder | 99.28% | L3 | Research Question |
-| 4 | Distal 17p13.3 microdeletion syndrome | 98.97% | L5 | Hold |
-| 5 | Neurotic disorder | 98.93% | L4 | Hold |
-| 6 | Neurotic depression | 98.77% | L2 | Proceed with Guardrails |
-| 7 | Melancholia | 98.77% | L2 | Proceed with Guardrails |
-| 8 | Retinal dystrophy with or without extraocular anomalies | 98.74% | L4 | Hold |
-| 9 | Ohdo syndrome and variants | 98.63% | L5 | Hold |
-| 10 | Childhood apraxia of speech | 98.63% | L5 | Hold |
+| 1 | Benign paroxysmal torticollis of infancy | 0.9954 | L5 | Hold |
+| 2 | Agoraphobia | 0.9947 | L5 | Research Question |
 
 ## Why is This Prediction Reasonable?
 
@@ -81,7 +73,6 @@ Detailed mechanism of action data is not available for this report. Based on kno
 
 **Neurotic depression and melancholia (ranks 6 and 7):** Both fall within the major depressive disorder spectrum, which is already an original indication for olanzapine. Several systematic reviews and network meta-analyses support antipsychotic augmentation in treatment-resistant depression, and the olanzapine-fluoxetine combination is established in this setting. No studies specific to either diagnosis were supplied.
 
-**Dysthymic disorder (rank 3):** Evidence is limited to a general review of second-generation antipsychotics and an open-label study in borderline personality disorder with comorbid dysthymia. No dysthymia-specific RCT of olanzapine was identified.
 
 **Ranks 4, 9 and 10:** These are prediction only, with no mechanistic rationale supported by the data.
 

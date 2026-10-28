@@ -4,17 +4,17 @@ title: Lapatinib
 parent: Model Prediction Only (L5)
 nav_order: 414
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Lapatinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: HER2-positive breast carcinoma"
 monitor_inn: "Lapatinib"
-predicted_indications: ["dermatofibrosarcoma protuberans", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "cysticercosis", "heart fibrosarcoma", "low grade fibromyxoid sarcoma", "Plasmodium falciparum malaria", "coenurosis", "lymphangiomyoma"]
+predicted_indications: ["dermatofibrosarcoma protuberans"]
+description: "Lapatinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lapatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lapatinib: From HER2-Positive Breast Carcinoma to Dermatofibrosarcoma Protuberans
+## Lapatinib: Dermatofibrosarcoma protuberans
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but currently there are **no clinical trials** and **no publications** supportin
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2-positive breast carcinoma (from the knowledge graph; the ARTG entry has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
-| TxGNN Prediction Score | 99.30% |
+| TxGNN Prediction Score | 0.9930 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, lapatinib is a tyrosine kinase inhibitor that targets EGFR and HER2, and its efficacy in HER2-positive breast carcinoma is established. Whether this mechanism applies to DFSP is unproven.
 
-DFSP is driven mainly by the COL1A1-PDGFB fusion and PDGFR signalling, which is not a canonical lapatinib target. Any link would be speculative and would rely on indirect crosstalk between receptor tyrosine kinase pathways. The high TxGNN score most likely reflects proximity in the knowledge graph, not demonstrated biology.
+DFSP is driven mainly by the COL1A1-PDGFB fusion and PDGFR signalling, which is not a canonical lapatinib target. Any link would be speculative and would rely on indirect crosstalk between receptor tyrosine kinase pathways. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predictions with some supporting literature were also reviewed (see "Other Predicted Indications" below), but the top-ranked prediction has no direct evidence.
 
@@ -99,11 +99,6 @@ Please refer to the TGA-approved Product Information (PI) for official warnings 
 
 | Rank | Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Fibroblastic neoplasm | 98.43% | L4 | One preclinical paper ([34239043](https://pubmed.ncbi.nlm.nih.gov/34239043/), Oncogene, 2021) describes a stromal axis driving lapatinib resistance in HER2-positive breast cancer. It does not show efficacy in fibroblastic tumours. |
-| 3, 4, 6, 7 | Conventional, kidney and heart fibrosarcoma; low grade fibromyxoid sarcoma | 98.2–98.4% | L5 | Prediction only; no data. |
-| 5, 9 | Cysticercosis; coenurosis | 97.5–98.3% | L5 | Prediction only; no biological rationale. |
-| 8 | *Plasmodium falciparum* malaria | 98.02% | L4 | Preclinical evidence only (see below). |
-| 10 | Lymphangiomyoma | 97.29% | L5 | Prediction only; no data. |
 
 **Malaria (rank 8)** is the only alternative with a plausible, distinct mechanism, and it is a research question rather than a clinical candidate:
 

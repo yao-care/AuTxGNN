@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Enzalutamide
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 256
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Enzalutamide: predicted new indication Prostate neoplasm (evidence level L1). Approved use: Prostate cancer (including familial prostate carcinoma)"
 monitor_inn: "Enzalutamide"
-predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "benign neoplasm of prostate", "prostate phyllodes tumor"]
+predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+description: "Enzalutamide: predicted new indication Prostate leiomyoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Enzalutamide
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Enzalutamide: From Prostate Cancer to Prostate Neoplasm
+## Enzalutamide: Prostate leiomyoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Enzalutamide is an androgen receptor inhibitor originally used to treat prostate cancer.
-The TxGNN model's top-ranked prediction with substantive evidence is **Prostate Neoplasm** (score 98.37%), with **36 clinical trials** and **20 publications** supporting this direction.
+The TxGNN model's top-ranked prediction with substantive evidence is **Prostate leiomyoma** (score 0.9957), with **36 clinical trials** and **20 publications** supporting this direction.
 This is effectively an on-label use rather than true repurposing, so it validates the model rather than revealing a new indication.
 
 ---
@@ -48,12 +48,12 @@ This is effectively an on-label use rather than true repurposing, so it validate
 
 | Item | Content |
 |------|------|
-| Original Indication | Prostate cancer (including familial prostate carcinoma) |
-| Predicted New Indication | Prostate neoplasm (the model's rank 1 prediction, "prostate cancer/brain cancer susceptibility", has no supporting evidence and is a genetic susceptibility label rather than a treatable disease) |
-| TxGNN Prediction Score | 98.37% (rank 1 prediction: 99.71%) |
-| Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Prostate leiomyoma |
+| TxGNN Prediction Score | 0.9957 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data was not available in the data compiled for thi
 
 "Prostate neoplasm" is the broader category that contains prostate cancer, the drug's established indication. The high prediction score therefore reflects ontology proximity to the approved use. Phase 3 trials support enzalutamide across the prostate cancer disease spectrum: metastatic hormone-sensitive disease (ARCHES), non-metastatic castration-resistant disease (PROSPER), post-chemotherapy metastatic castration-resistant disease (AFFIRM) and biochemically recurrent disease (EMBARK).
 
-Several other high-scoring predictions are rare or benign prostate tumours (prostate leiomyoma, fibroma of prostate, benign prostate phyllodes tumour) or unrelated conditions (Brenner tumour). These have no trial or literature evidence, and no androgen receptor dependency has been shown. They appear to be graph-based artefacts and should not be pursued without new evidence. "Benign neoplasm of prostate" has indirect literature only, drawn from prostate cancer studies.
+Several other high-scoring predictions are rare or benign prostate tumours (fibroma of prostate, benign prostate phyllodes tumour) or unrelated conditions (Brenner tumour). These have no trial or literature evidence, and no androgen receptor dependency has been shown. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so they should not be pursued without new evidence.
 
 ---
 
@@ -142,7 +142,7 @@ Label warnings and contraindications were not available in the data compiled for
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (for prostate neoplasm, as on-label prostate cancer use). **Hold** for all other predicted indications (susceptibility label, prostate leiomyoma, Brenner tumour, prostate fibroma, benign and malignant phyllodes tumours). Benign neoplasm of prostate is a research question only.
+**Decision: Proceed with Guardrails** (for prostate neoplasm, as on-label prostate cancer use). **Hold** for all other predicted indications (susceptibility label, prostate leiomyoma, Brenner tumour, prostate fibroma, benign and malignant phyllodes tumours).
 
 **Rationale:**
 - Multiple large Phase 3 RCTs support enzalutamide across prostate cancer disease states, and it is already marketed in Australia as Xtandi. The prediction confirms existing use rather than identifying a new indication.

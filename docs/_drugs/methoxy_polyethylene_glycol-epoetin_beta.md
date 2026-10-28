@@ -4,17 +4,17 @@ title: Methoxy Polyethylene Glycol-Epoetin Beta
 parent: Model Prediction Only (L5)
 nav_order: 465
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Methoxy Polyethylene Glycol-Epoetin Beta: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the data compiled for this report"
 monitor_inn: "Methoxy polyethylene glycol-epoetin beta"
-predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "diabetic retinopathy", "HER2 positive breast carcinoma"]
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Methoxy Polyethylene Glycol-Epoetin Beta: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methoxy Polyethylene Glycol-Epoetin Beta
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Methoxy polyethylene glycol-epoetin beta: From Anaemia (Original Indication Not Recorded) to Primary Release Disorder of Platelets
+## Methoxy Polyethylene Glycol-Epoetin Beta: Primary release disorder of platelets
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,25 +45,23 @@ The TxGNN model predicts it may be effective for **primary release disorder of p
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the data compiled for this report |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.36% |
+| TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, methoxy polyethylene glycol-epoetin beta is a long-acting ESA acting on the erythropoietin receptor. Its established role is in stimulating red cell production, and its approved indication text was not available for this report.
 
-No established link to platelet release or function defects was identified. The prediction is a graph-model output only, with no supporting trials or literature, so any mechanistic connection would be speculative.
+No established link to platelet release or function defects was identified. The prediction is a TxGNN model (deep learning) output only and may reflect similarities the model learned between related diseases, not biological evidence. There are no supporting trials or literature, so any mechanistic connection would be speculative.
 
-Other top-ranked predictions in the data were also reviewed. They include Glanzmann thrombasthenia, pseudo-von Willebrand disease, several thrombophilic conditions, diabetic retinopathy and HER2 positive breast carcinoma. None has supporting trials or literature, and all are scored L5 with a Hold recommendation. Several raise safety concerns:
+Other top-ranked predictions in the data were also reviewed. None has supporting trials or literature, and all are scored L5 with a Hold recommendation. Several raise safety concerns:
 
 - **Thrombophilic conditions** (heparin cofactor 2 deficiency, antithrombin deficiency type 2, factor 5 excess, thrombophilia): ESAs carry a warning for thromboembolic events, so these predictions are mechanistically contradictory from a safety perspective.
-- **Diabetic retinopathy**: EPO signalling has been studied in the retina, but it is double-edged because EPO is linked to retinal neovascularisation.
-- **HER2 positive breast carcinoma**: ESAs have raised concerns about tumour progression and reduced survival in some cancer trials.
 
 ## Clinical Trial Evidence
 
@@ -86,14 +84,13 @@ No warning, contraindication or drug interaction data were available in the data
 Points from the mechanistic review of the predictions that warrant caution:
 - ESAs carry a recognised thromboembolic risk, which is a concern in any thrombophilic population.
 - ESAs have raised safety concerns in some cancer settings.
-- EPO has been linked to retinal neovascularisation, which is relevant to diabetic retinopathy.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (score 99.36%) is supported only by a graph model, with no clinical trials or publications and no plausible mechanistic link to platelet release defects. Several other leading predictions are also pro-thrombotic or carry safety concerns with ESAs.
+The top prediction (score 0.9936) comes only from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications and no plausible mechanistic link to platelet release defects. Several other leading predictions are also pro-thrombotic or carry safety concerns with ESAs.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for the drug

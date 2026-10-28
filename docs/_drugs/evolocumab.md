@@ -4,17 +4,17 @@ title: Evolocumab
 parent: Model Prediction Only (L5)
 nav_order: 281
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Evolocumab: predicted new indication Symptomatic form of haemophilia in female carriers (evidence level L5). Approved use: Homozygous familial hypercholesterolaemia"
 monitor_inn: "Evolocumab"
-predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity", "hemorrhagic disease of newborn", "ichthyosis, X-linked, without steroid sulfatase deficiency", "inherited thrombophilia", "disorder of other vitamins and cofactors metabolism and transport"]
+predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
+description: "Evolocumab: predicted new indication Symptomatic form of hemophilia in female carriers (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Evolocumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Evolocumab: From Homozygous Familial Hypercholesterolaemia to Symptomatic Haemophilia in Female Carriers
+## Evolocumab: Symptomatic form of hemophilia in female carriers
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Evolocumab is a PCSK9-inhibiting monoclonal antibody, originally used to lower LDL cholesterol in homozygous familial hypercholesterolaemia and related dyslipidaemias.
 The TxGNN model predicts it may be effective for **symptomatic haemophilia in female carriers**, but **no clinical trials and no publications** currently support this direction.
-This is a graph-based prediction only and is not backed by a plausible biological rationale.
+This is a prediction from the TxGNN model (deep learning) only and is not backed by a plausible biological rationale.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Homozygous familial hypercholesterolaemia; syndromic dyslipidaemia (from the TxGNN knowledge graph; the ARTG entry has no indication text) |
-| Predicted New Indication | Symptomatic form of haemophilia in female carriers |
-| TxGNN Prediction Score | 99.82% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Symptomatic form of hemophilia in female carriers |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The predicted new indication is not closely related to the original indications. Haemophilia in female carriers arises from deficient factor VIII or factor IX due to X-linked variants. It is unrelated to the PCSK9/LDL receptor pathway. No plausible mechanistic link has been identified.
 
-The high TxGNN score (0.998) most likely reflects proximity within the knowledge graph rather than biological rationale. It should be treated as a hypothesis-generating signal only.
+The high TxGNN score (0.9982) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis-generating signal only.
 
 Other top-ranked predictions show the same pattern. These include familial apolipoprotein C-II deficiency, thrombocytopenic purpura, factor XI deficiency, haemophilia A with vascular abnormality, haemorrhagic disease of the newborn, and inherited thrombophilia. All are L5 with no supporting studies. Several are non-specific ontology categories (for example "disease of catalytic activity"), and no actionable hypothesis can be formed for them. Familial apolipoprotein C-II deficiency has only indirect plausibility, because it is a lipid disorder, but it is driven by a defect upstream of the LDL receptor pathway.
 
@@ -89,7 +89,7 @@ Please refer to the TGA-approved Product Information (PI) for warnings, contrain
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. There are no clinical trials or publications, and evolocumab's PCSK9 mechanism has no plausible link to a clotting factor deficiency in female carriers. Evidence is at the lowest level (L5).
+The prediction rests only on a TxGNN model (deep learning) score. There are no clinical trials or publications, and evolocumab's PCSK9 mechanism has no plausible link to a clotting factor deficiency in female carriers. Evidence is at the lowest level (L5).
 
 **To proceed, the following is needed:**
 - A defensible mechanistic hypothesis linking PCSK9 inhibition to the coagulation pathway, supported by preclinical data

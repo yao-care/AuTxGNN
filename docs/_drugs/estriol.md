@@ -4,17 +4,17 @@ title: Estriol
 parent: Moderate Evidence (L3-L4)
 nav_order: 271
 evidence_level: L3
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Estriol: predicted new indication Amenorrhoea (disease) (evidence level L3). Approved use: Not stated in the data compiled for this report . Estriol is generall…"
 monitor_inn: "Estriol"
-predicted_indications: ["amenorrhea (disease)", "migraine with brainstem aura", "breast fibrocystic disease", "migraine disorder", "benign mammary dysplasia", "blunt duct adenosis of breast", "apocrine adenosis of breast", "conjunctivitis (disease)", "lactation disease", "breast abscess"]
+predicted_indications: ["amenorrhea (disease)"]
+description: "Estriol: predicted new indication Amenorrhea (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Estriol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Estriol: From Menopausal Symptom Relief (Vaginal Use) to Functional Hypothalamic Amenorrhoea
+## Estriol: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **amenorrhoea** (most plausibly
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report (the ARTG entry has no indication text). Estriol is generally used for menopausal symptoms. |
-| Predicted New Indication | Amenorrhoea (disease) |
-| TxGNN Prediction Score | 99.18% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?
@@ -92,7 +92,7 @@ Please refer to the TGA-approved Product Information (PI) for full warnings, con
 
 ## Other Predicted Indications (Brief Note)
 
-The other top-10 predictions are weaker. Migraine disorder (score 91.5%) has only a 1982 treatment report. Breast fibrocystic disease (92.3%) is supported only by biomarker studies, not therapeutic evidence, and raises a safety concern. Migraine with brainstem aura, benign mammary dysplasia, blunt duct adenosis, apocrine adenosis, conjunctivitis, lactation disease and breast abscess are prediction-only signals with no meaningful supporting evidence. All were rated Hold.
+The other top-10 predictions are weaker. All were rated Hold.
 
 ## Conclusion and Next Steps
 

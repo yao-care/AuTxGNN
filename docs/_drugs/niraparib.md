@@ -6,9 +6,9 @@ nav_order: 504
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Niraparib: predicted new indication Cystic neoplasm (evidence level L5). Approved use: Peritoneal cancer, primary peritoneal carcinoma…"
 monitor_inn: "Niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
+description: "Niraparib: predicted new indication Epiglottis neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Niraparib
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Niraparib: From Ovarian and Peritoneal Cancer to Cystic Neoplasm
+## Niraparib: Epiglottis neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The supporting evidence is **3 clinical trials** (1 recruiting Phase 2, 1 termin
 
 | Item | Content |
 |------|------|
-| Original Indication | Peritoneal cancer, primary peritoneal carcinoma, and malignant epithelial tumour of the ovary (from the knowledge graph; no approved indication text is available for the ARTG entry) |
-| Predicted New Indication | Cystic neoplasm |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 (as scored in the data; see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Epiglottis neoplasm |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 (as scored in the data; see note below) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Note on evidence level:** The only Phase 2/3 trial (NCT04159155) was terminated after 11 participants, and the remaining evidence consists of a recruiting Phase 2 trial without results, preclinical work and a case report. On a strict reading of the evidence rules, no completed RCT supports this indication, so the evidence is weak and closer to L4 than to a true L2.

@@ -4,17 +4,17 @@ title: Phenobarbital
 parent: Model Prediction Only (L5)
 nav_order: 566
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenobarbital
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phenobarbital: From Epilepsy to Trigeminal Nerve Neoplasm
+## Phenobarbital: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Phenobarbital is a long-established barbiturate anticonvulsant, originally used for epilepsy (including generalised tonic-clonic and partial seizures) and some headache disorders.
 The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, but there are **no registered clinical trials** and only **1 publication** (an unrelated case series), so the top prediction is effectively unsupported.
-Several lower-ranked predictions (reflex epilepsies such as audiogenic, startle and reading seizures) are far more biologically plausible, but they are extensions of the existing epilepsy use rather than true repurposing.
 
 ---
 
@@ -48,12 +47,12 @@ Several lower-ranked predictions (reflex epilepsies such as audiogenic, startle 
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (the data compiled for this report contains no TGA-approved indication text; the original indications come from the knowledge graph and include generalised tonic-clonic epilepsy, partial epilepsy, Lennox-Gastaut syndrome and migraine/headache disorders) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +61,7 @@ Several lower-ranked predictions (reflex epilepsies such as audiogenic, startle 
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, phenobarbital enhances GABA-A receptor-mediated inhibition, and its efficacy in epilepsy is well established.
 
-**For the top-ranked prediction (trigeminal nerve neoplasm), the rationale is weak.** The only retrieved paper is a case series on Sturge-Weber syndrome, a neurocutaneous disorder with seizures, not a trigeminal nerve tumour. Phenobarbital has no known antineoplastic activity. The high score most likely reflects graph proximity to seizure and trigeminal-related nodes rather than a true therapeutic link.
+**For the top-ranked prediction (trigeminal nerve neoplasm), the rationale is weak.** The only retrieved paper is a case series on Sturge-Weber syndrome, a neurocutaneous disorder with seizures, not a trigeminal nerve tumour. Phenobarbital has no known antineoplastic activity. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **The more credible predictions are seizure-related.** Thinking, audiogenic, eating, orgasm-induced, startle, micturition-induced and reading seizures are all rare reflex epilepsies. Phenobarbital's GABAergic anticonvulsant action makes these plausible, but this is largely an extension of its existing epilepsy indication. Trigeminal neuralgia (rank 9) has a theoretical rationale through anticonvulsant therapy, but carbamazepine is the standard agent and no direct phenobarbital efficacy data were retrieved. Beta-ketothiolase deficiency (rank 10) has no credible mechanistic link.
 
@@ -129,7 +128,7 @@ Please refer to the TGA-approved Product Information (PI) for authoritative warn
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (trigeminal nerve neoplasm) has no clinical trials, a single irrelevant publication and no plausible antineoplastic mechanism, so the score is likely a graph artefact. The seizure-related predictions are mechanistically plausible but are extensions of the established epilepsy indication with only indirect or preclinical evidence (L4), and are better treated as research questions than as repurposing candidates.
+- The top-ranked prediction (trigeminal nerve neoplasm) has no clinical trials, a single irrelevant publication and no plausible antineoplastic mechanism. Its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) to support mechanistic analysis

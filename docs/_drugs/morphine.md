@@ -6,9 +6,9 @@ nav_order: 488
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L4). Approved use: Diarrhoeal disease"
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
+description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Morphine
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Morphine: From Diarrhoeal Disease to Myofascial Pain Syndrome
+## Morphine: Myofascial pain syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,15 +48,15 @@ Of the 10 predicted indications reviewed, only **restless legs syndrome** has me
 
 | Item | Content |
 |------|------|
-| Original Indication | Diarrhoeal disease (from the TxGNN knowledge graph; no approved indication text is available for the ARTG entry) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myofascial pain syndrome |
-| TxGNN Prediction Score | 99.75% |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-**Note on other predictions:** Restless legs syndrome (TxGNN score 99.47%) has the strongest evidence of the ten predictions (Evidence Level L3, with a recommendation of "Research Question"). It is covered in the sections below because it is clinically more informative than the top-ranked prediction.
+**Note on other predictions:** Restless legs syndrome (TxGNN score 0.9947) has the strongest evidence of the ten predictions (Evidence Level L3, with a recommendation of "Research Question"). It is covered in the sections below because it is clinically more informative than the top-ranked prediction.
 
 ---
 
@@ -68,7 +68,7 @@ However, the link is weak. The retrieved literature is indirect: it covers perio
 
 **Other predictions in brief:**
 - **Restless legs syndrome:** Opioids are recognised as an option for refractory cases in reviews and expert guidance. Registry data (up to 5 years) and intrathecal morphine case series support benefit, though no Phase 2/3 RCT was identified.
-- **Manic bipolar disorder, Tourette syndrome, ADHD (inattentive type), migraine, trichotillomania, methaemoglobinaemia, migraine with brainstem aura, specific developmental disorder:** Evidence is absent, preclinical or tangential. For migraine, guidelines generally discourage opioids because of medication-overuse headache and poor efficacy. For methaemoglobinaemia, the score is likely a knowledge-graph artefact. All of these are rated Hold.
+- **Manic bipolar disorder, Tourette syndrome, ADHD (inattentive type), migraine, trichotillomania, methaemoglobinaemia, migraine with brainstem aura, specific developmental disorder:** Evidence is absent, preclinical or tangential. For migraine, guidelines generally discourage opioids because of medication-overuse headache and poor efficacy. For methaemoglobinaemia, the score is likely a TxGNN model (deep learning) artefact. All of these are rated Hold.
 
 ---
 

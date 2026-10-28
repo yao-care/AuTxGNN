@@ -6,9 +6,9 @@ nav_order: 593
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Pralatrexate: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Peripheral T-cell lymphoma (including mature T-cell and NK-cell non-H…"
 monitor_inn: "Pralatrexate"
 predicted_indications: ["pleural adenomatoid tumor", "relapsing-remitting multiple sclerosis", "pleural biphasic mesothelioma", "pleural epithelioid mesothelioma", "lymphohistiocytoid mesothelioma", "pericardium cancer", "pleural sarcomatoid mesothelioma", "malignant peritoneal mesothelioma", "well differentiated papillary mesothelioma", "pleural mesothelioma"]
+description: "Pralatrexate: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pralatrexate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pralatrexate: From Peripheral T-cell Lymphoma to Pleural Adenomatoid Tumor
+## Pralatrexate: Pleural adenomatoid tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The better-supported predictions are in the mesothelioma family, where one Phase
 
 | Item | Content |
 |------|------|
-| Original Indication | Peripheral T-cell lymphoma (including mature T-cell and NK-cell non-Hodgkin lymphoma and primary cutaneous T-cell lymphoma subtypes). The ARTG entry in the data compiled for this report has no indication text. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pleural adenomatoid tumor |
-| TxGNN Prediction Score | 99.91% (model rank 1583) |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The better-supported predictions are in the mesothelioma family, where one Phase
 
 Pralatrexate is an antifolate that inhibits dihydrofolate reductase (DHFR) and enters cells efficiently through the reduced folate carrier (RFC-1). Detailed mechanism-of-action data were not available in the data compiled for this report, so this description is based on the drug's known class. Blocking folate metabolism stops tumour cells from making the building blocks for DNA, which is why antifolates work in rapidly dividing lymphoid cancers.
 
-For the lead prediction, the mechanistic case is weak. Adenomatoid tumors are benign lesions arising from mesothelial cells and rarely need systemic treatment. A cytotoxic antifolate has little clinical rationale here. The high score probably reflects proximity to mesothelioma in the knowledge graph rather than a true therapeutic signal.
+For the lead prediction, the mechanistic case is weak. Adenomatoid tumors are benign lesions arising from mesothelial cells and rarely need systemic treatment. A cytotoxic antifolate has little clinical rationale here. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The mesothelioma predictions are more credible. Pemetrexed, another antifolate, is an established treatment for pleural mesothelioma, and pralatrexate shares its DHFR inhibition and RFC-1 uptake. This is why the pleural epithelioid mesothelioma (rank 4) and pleural mesothelioma (rank 10) predictions were graded L3 rather than L5. The other mesothelioma-related predictions (biphasic, lymphohistiocytoid, sarcomatoid, peritoneal, well-differentiated papillary, and pericardial) have no supporting data.
 
@@ -104,7 +104,6 @@ Pralatrexate is available in Australia only as an intravenous injection.
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (antifolate antimetabolite) |
-| Myelosuppression Risk | Medium to high. Neutropenia, thrombocytopenia and anaemia are all flagged in the knowledge graph. |
 | Emetogenicity Classification | Low (general class knowledge; confirm in the Product Information) |
 | Monitoring Items | FBC with differential, renal and liver function, and oral mucosa assessment for stomatitis |
 | Handling Protection | Must follow cytotoxic drug handling regulations |

@@ -4,17 +4,17 @@ title: Ibuprofen
 parent: Model Prediction Only (L5)
 nav_order: 362
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis…"
 monitor_inn: "Ibuprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "hypotrichosis simplex of the scalp", "WHIM syndrome", "congenital hypotrichosis milia"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ibuprofen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ibuprofen: From Rheumatoid Arthritis and Other Inflammatory Conditions to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Ibuprofen: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ This prediction currently rests on the model score alone, with **no clinical tri
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis, headache disorder, patent ductus arteriosus and related conditions (from the knowledge graph; the ARTG entry lists no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Acromesomelic dysplasia, Hunter-Thompson type, is a rare skeletal dysplasia caused by loss-of-function mutations in the CDMP1/GDF5 gene, which disrupts BMP/GDF5 signalling in bone and cartilage development. Ibuprofen's COX inhibition has no established link to this signalling defect. At most, it could provide symptomatic pain relief, which is not disease modification.
 
-The high TxGNN score most likely reflects network proximity between the drug's musculoskeletal indications and other skeletal disease terms in the knowledge graph, rather than mechanistic or clinical evidence. The prediction should be treated as a computational hypothesis only.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between the drug's musculoskeletal indications and other related skeletal diseases, not biological evidence. The prediction should be treated as a computational hypothesis only.
 
 Other highly ranked predictions show the same pattern. These include brachyolmia-amelogenesis imperfecta syndrome, myosclerosis, brachyolmia, brachydactyly-syndactyly syndrome, pseudoachondroplasia, colobomatous microphthalmia-rhizomelic dysplasia syndrome, hypotrichosis simplex of the scalp, WHIM syndrome and congenital hypotrichosis milia. None has supporting trials or literature in the data compiled. Of these, pseudoachondroplasia is the only one where NSAIDs are already used, as standard supportive care for joint pain rather than as a repurposing finding.
 
@@ -100,7 +100,7 @@ Product-level warnings and contraindications were not available in the data comp
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a knowledge-graph score. There are no trials or publications, and no plausible mechanism links COX inhibition to the GDF5/BMP signalling defect underlying this disease. Ibuprofen has a substantial safety profile in vulnerable populations, so there is no basis to advance this indication.
+The prediction is supported only by a TxGNN model (deep learning) score. There are no trials or publications, and no plausible mechanism links COX inhibition to the GDF5/BMP signalling defect underlying this disease. Ibuprofen has a substantial safety profile in vulnerable populations, so there is no basis to advance this indication.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible mechanistic link to the GDF5/BMP pathway

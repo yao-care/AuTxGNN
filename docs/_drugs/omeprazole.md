@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omeprazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 527
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Omeprazole: predicted new indication Duodenogastric reflux (evidence level L3). Approved use: Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease…"
 monitor_inn: "Omeprazole"
-predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "gastroduodenitis", "Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia", "duodenitis"]
+predicted_indications: ["duodenal obstruction"]
+description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Omeprazole: From Gastric Ulcer and Reflux Disease to Duodenogastric Reflux
+## Omeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Omeprazole is a proton pump inhibitor originally used for gastric and duodenal ulcers, reflux disease, oesophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be useful for **duodenogastric reflux**, but the supporting evidence is thin: **1 registered trial** (an imaging study that does not test omeprazole) and **15 publications**, mostly small clinical or animal studies.
 
 ---
 
@@ -47,12 +46,12 @@ The TxGNN model predicts it may be useful for **duodenogastric reflux**, but the
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease, oesophagitis, duodenal ulcer, Zollinger-Ellison syndrome (from the knowledge graph; the Australian licence text is blank) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9964 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

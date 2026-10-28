@@ -4,7 +4,7 @@ title: Crizotinib
 parent: Model Prediction Only (L5)
 nav_order: 186
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Crizotinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer (lung cancer)"
 monitor_inn: "Crizotinib"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Crizotinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Crizotinib: From Non-Small Cell Lung Cancer to Gingival Fibromatosis
+## Crizotinib: From Non-Small Cell Lung Cancer to fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ Among the other predicted indications, only lung germ cell tumour has any trial-
 |------|------|
 | Original Indication | Non-small cell lung cancer (lung cancer) |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Among the other predicted indications, only lung germ cell tumour has any trial-
 
 Detailed mechanism of action data is not available in the data compiled for this report. From the published literature, crizotinib is an ATP-competitive inhibitor of the receptor tyrosine kinases ALK, ROS1 and c-MET. Its efficacy in ALK-rearranged and ROS1-rearranged NSCLC is well established.
 
-For gingival fibromatosis, no mechanistic link to ALK, ROS1 or MET inhibition can be identified. The high TxGNN score (0.998) reflects a network-based computational prediction only. No trials or literature were found to support it, so the prediction should be treated as a hypothesis rather than a lead.
+For gingival fibromatosis, no mechanistic link to ALK, ROS1 or MET inhibition can be identified. The high TxGNN score (0.9981) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or literature were found to support it, so the prediction should be treated as a hypothesis rather than a lead.
 
 Other predictions in the list show varying degrees of plausibility:
 - **Lung hilum carcinoma, pulmonary sulcus neoplasm and lung benign neoplasm**: these overlap with the existing lung cancer indication. The Phase 3 RCTs found (PROFILE 1014, PROFILE 1007, ALEX, ALTA-1L) concern ALK-positive NSCLC, so they do not represent new-indication evidence. For benign lung neoplasms the match appears to be a disease-label artefact.

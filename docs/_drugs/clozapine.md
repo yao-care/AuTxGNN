@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Clozapine is an atypical antipsychotic marketed in Australia as an oral tablet (Clopine 200). The TxGNN model predicts it may be effective for **manic bipolar affective disorder** (score 99.95%), with **1 directly relevant completed Phase 2 trial** and **a 2020 systematic review and meta-analysis** supporting this direction. Broader bipolar disorder evidence also includes a completed paediatric Phase 3 placebo-controlled trial.
+Clozapine is an atypical antipsychotic marketed in Australia as an oral tablet (Clopine 200). The TxGNN model predicts it may be effective for **manic bipolar affective disorder** (score 0.9995), with **1 directly relevant completed Phase 2 trial** and **a 2020 systematic review and meta-analysis** supporting this direction. Broader bipolar disorder evidence also includes a completed paediatric Phase 3 placebo-controlled trial.
 
 ## Quick Overview
 
@@ -46,10 +46,10 @@ Clozapine is an atypical antipsychotic marketed in Australia as an oral tablet (
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text). Published literature describes clozapine as established for treatment-resistant schizophrenia |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L2 (one completed Phase 2 double-blind trial, n=42). For bipolar disorder more broadly, a completed Phase 3 paediatric trial supports L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 (one completed Phase 2 double-blind trial, n=42). For bipolar disorder more broadly, a completed Phase 3 paediatric trial supports L1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -120,14 +120,14 @@ A completed Phase 2 double-blind trial in treatment-resistant mania, a completed
 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision |
 |---|---|---|---|
-| Bipolar disorder | 99.62% | L1 | Proceed with Guardrails |
-| Psychotic disorder | 99.12% | L1 | Proceed with Guardrails (on-label or established use) |
-| Schizophreniform disorder | 99.69% | L2 | Proceed with Guardrails |
-| Major affective disorder | 99.48% | L2 | Research question (unipolar depression not supported) |
-| Tourette syndrome | 99.91% | L4 | Hold (case reports only) |
-| Trichotillomania | 99.90% | L5 | Hold |
-| ADHD (and inattentive type) | 99.31% / 99.21% | L5 | Hold |
-| Malan overgrowth syndrome | 99.02% | L5 | Hold (likely a network artefact) |
+| Bipolar disorder | 0.9962 | L1 | Proceed with Guardrails |
+| Psychotic disorder | 0.9912 | L1 | Proceed with Guardrails (on-label or established use) |
+| Schizophreniform disorder | 0.9969 | L2 | Proceed with Guardrails |
+| Major affective disorder | 0.9948 | L2 | Research question (unipolar depression not supported) |
+| Tourette syndrome | 0.9991 | L4 | Hold (case reports only) |
+| Trichotillomania | 0.9990 | L5 | Hold |
+| ADHD (and inattentive type) | 0.9931 / 0.9921 | L5 | Hold |
+| Malan overgrowth syndrome | 0.9902 | L5 | Hold (likely a network artefact) |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Nevirapine
 parent: Model Prediction Only (L5)
 nav_order: 498
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Nevirapine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "Nevirapine"
-predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "male reproductive organ cancer"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Nevirapine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nevirapine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nevirapine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+## Nevirapine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The more clinically relevant lower-ranked predictions (congenital HIV and AIDS-r
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease; AIDS (the Australian licence data compiled for this report contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 (preclinical/biochemical only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9985 |
+| Evidence Level | L5 (preclinical/biochemical only) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,11 +66,10 @@ However, the one retrieved study (a 2023 biochemical and structural comparison o
 
 The same pattern appears for the second-ranked prediction, simian immunodeficiency virus infection. SIVmac and HIV-2 are intrinsically resistant to NNRTIs, and only engineered SIV/HIV-1 chimeras carrying HIV-1 reverse transcriptase respond to nevirapine. This is useful for animal-model research, not clinical repurposing.
 
-Ranks 3 to 8 (a rare neurodevelopmental disorder, fibroma of prostate, Brenner tumour, benign reproductive system neoplasm, benign prostate phyllodes tumour and male reproductive organ cancer) have no plausible mechanistic link and appear to be knowledge-graph artefacts.
 
 Two further predictions are more clinically interesting, though they largely reflect established HIV uses:
-- **Congenital HIV** (score 98.52%, Evidence Level L1): nevirapine is established for preventing mother-to-child transmission.
-- **AIDS-related complex** (score 98.52%, Evidence Level L2): this is a historical term for symptomatic HIV infection, matching the original indication.
+- **Congenital HIV** (Evidence Level L1): nevirapine is established for preventing mother-to-child transmission.
+- **AIDS-related complex** (Evidence Level L2): this is a historical term for symptomatic HIV infection, matching the original indication.
 
 ---
 

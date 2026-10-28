@@ -6,9 +6,9 @@ nav_order: 652
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Ruxolitinib: predicted new indication Uterine corpus perivascular epithelioid cell tumour (PEComa) (evidence level L5). Approved use: Myelofibrosis…"
 monitor_inn: "Ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
+description: "Ruxolitinib: predicted new indication Uterine corpus perivascular epithelioid cell tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ruxolitinib
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ruxolitinib: From Myelofibrosis and Polycythaemia Vera to Uterine Corpus Perivascular Epithelioid Cell Tumour (PEComa)
+## Ruxolitinib: Uterine corpus perivascular epithelioid cell tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **uterine corpus PEComa**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Myelofibrosis, polycythaemia vera and other myeloproliferative neoplasms (from the knowledge graph; the Australian entry lists no indication text) |
-| Predicted New Indication | Uterine corpus perivascular epithelioid cell tumour (PEComa) |
-| TxGNN Prediction Score | 99.73% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Uterine corpus perivascular epithelioid cell tumor |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Ruxolitinib is known as a JAK1/2 inhibitor, and its efficacy in myeloproliferative neoplasms is established through dysregulated JAK/STAT signalling.
 
-The mechanistic case for uterine PEComa is weak. PEComa is driven mainly by mTOR pathway activation (loss of TSC1/TSC2), and no link to JAK/STAT inhibition is established in the available data. The high TxGNN score reflects a pattern in the knowledge graph rather than a demonstrated biological rationale. Related predictions (benign PEComa, lymphangiomyoma, lymphangioleiomyomatosis, lung PEComa) share the same limitation. Lymphangioleiomyomatosis, for example, is treated mainly by mTOR inhibition.
+The mechanistic case for uterine PEComa is weak. PEComa is driven mainly by mTOR pathway activation (loss of TSC1/TSC2), and no link to JAK/STAT inhibition is established in the available data. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Related predictions (benign PEComa, lymphangiomyoma, lymphangioleiomyomatosis, lung PEComa) share the same limitation. Lymphangioleiomyomatosis, for example, is treated mainly by mTOR inhibition.
 
 ## Clinical Trial Evidence
 

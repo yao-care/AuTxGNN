@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rifaximin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 633
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L4). Approved use: Hepatic encephalopathy"
 monitor_inn: "Rifaximin"
-predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis", "closed-angle glaucoma", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "HIV infectious disease", "opiate dependence"]
+predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
 ---
 
 # Rifaximin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **oral candidiasis**, but there
 |------|------|
 | Original Indication | Hepatic encephalopathy; hepatic coma (the ARTG entry does not list indication text) |
 | Predicted New Indication | Oral candidiasis |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available. Based on known information, rifaximin is a non-absorbed oral antibiotic that acts locally in the gut. Its efficacy in hepatic encephalopathy is established, but it has no known antifungal activity, so a mechanistic link to oral candidiasis is not evident.
 
-The one publication identified (PMID 34180023) points the other way. In patients undergoing allogeneic stem cell transplantation, rifaximin use was associated with micafungin-resistant Candida infections. A plausible explanation is gut microbiome disruption that allows fungal overgrowth, although confounding by underlying disease cannot be excluded. The high TxGNN score therefore looks more like a knowledge-graph artefact than a genuine therapeutic signal.
+The one publication identified (PMID 34180023) points the other way. In patients undergoing allogeneic stem cell transplantation, rifaximin use was associated with micafungin-resistant Candida infections. A plausible explanation is gut microbiome disruption that allows fungal overgrowth, although confounding by underlying disease cannot be excluded. The high TxGNN score therefore looks more like a TxGNN model (deep learning) artefact than a genuine therapeutic signal.
 
 ## Clinical Trial Evidence
 
@@ -95,7 +95,7 @@ The prediction is supported only by a model score. The single publication sugges
 - Controlled data clarifying whether rifaximin increases or decreases Candida colonisation and infection.
 - The approved indication text and PI safety information for the Australian product.
 
-**Other predicted indications:** Among the other top-ranked predictions, only **HIV infectious disease** (L3) has meaningful supporting literature. Studies there show marginal effects on microbial translocation and immune activation, and the one registered trial (NCT01654939) was withdrawn with no participants enrolled. It may merit consideration as a research question, but not as a treatment indication. The remaining predictions have no supporting clinical evidence and should be held.
+**Other predicted indications:** The other top-ranked predictions have no supporting clinical evidence and should be held.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

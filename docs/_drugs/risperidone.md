@@ -4,17 +4,17 @@ title: Risperidone
 parent: Model Prediction Only (L5)
 nav_order: 641
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Schizophrenia, bipolar disorder (manic)…"
 monitor_inn: "Risperidone"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder", "Tourette syndrome", "intellectual disability", "autism, susceptibility to", "chromosome 15q11.2 deletion syndrome"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Risperidone: From Schizophrenia and Bipolar Disorder to Gaze Palsy, Familial Horizontal, with Progressive Scoliosis
+## Risperidone: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,24 +46,23 @@ Stronger evidence exists for other predicted indications, notably adjunctive use
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia, bipolar disorder (manic), autism spectrum disorder (irritability) |
-| Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis (top-ranked prediction) |
-| TxGNN Prediction Score | 99.76% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 (top-ranked prediction); L1 for major affective disorder and intellectual disability; L2 for Tourette syndrome |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (top-ranked prediction); Proceed with Guardrails for better-supported predictions |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, risperidone is an atypical antipsychotic that blocks dopamine D2 and serotonin 5-HT2A receptors. Its efficacy in schizophrenia and bipolar mania is established.
 
-**For the top-ranked prediction (familial horizontal gaze palsy with progressive scoliosis):** the condition is caused by ROBO3 mutations affecting axon guidance. No plausible link to D2/5-HT2A antagonism has been identified. The high score reflects network proximity in the knowledge graph rather than a biological rationale, and it should be treated as a computational artefact until proven otherwise.
+**For the top-ranked prediction (familial horizontal gaze palsy with progressive scoliosis):** the condition is caused by ROBO3 mutations affecting axon guidance. No plausible link to D2/5-HT2A antagonism has been identified.
 
 **For the better-supported predictions:**
 - **Major affective disorder (adjunctive use in treatment-resistant depression):** 5-HT2A/D2 antagonism supports augmentation of antidepressants. Bipolar use is already on-label, so the net new signal is adjunctive use in unipolar depression.
-- **Tourette syndrome:** D2 blockade reduces tics, consistent with the established dopaminergic hypothesis.
-- **Intellectual disability:** risperidone reduces aggression and disruptive behaviour via the same receptor actions. It does not treat core cognitive impairment.
+- It does not treat core cognitive impairment.
 
 ## Clinical Trial Evidence
 
@@ -111,7 +110,6 @@ There is no literature for the top-ranked prediction. The table below lists key 
 
 No label-based warnings or contraindications were available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
-**Contraindicated or cautioned conditions (from knowledge graph associations, not label text):**
 - Cardiovascular and cerebrovascular: myocardial infarction, stroke, cerebral infarction, heart conduction disease, sudden cardiac arrest, heart disease, orthostatic hypotension and other hypotensive disorders, postural orthostatic tachycardia syndrome, multiple system atrophy
 - Metabolic: diabetes mellitus, hyperglycaemia, diabetic ketoacidosis, hyperlipidaemia, obesity
 - Haematological: neutropenia, agranulocytosis, haemoglobinopathy
@@ -136,7 +134,6 @@ No label-based warnings or contraindications were available in the data compiled
 - TGA Product Information (warnings, contraindications and approved indications) for risperidone products
 - Detailed mechanism of action data
 - For adjunctive use in depression: confirmation of the regulatory position in Australia and comparison with approved augmentation options
-- For Tourette syndrome and intellectual disability: positioning against guideline-recommended first-line treatments, plus a metabolic, prolactin and extrapyramidal symptom monitoring plan for paediatric patients
 - For the top-ranked prediction: no further work is recommended unless independent mechanistic evidence emerges
 ## Disclaimer
 

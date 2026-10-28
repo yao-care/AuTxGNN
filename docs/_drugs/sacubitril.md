@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sacubitril
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 654
-evidence_level: L3
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
-description: "Sacubitril: predicted new indication Diabetic nephropathy (evidence level L3). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
+description: "Sacubitril: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sacubitril
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **5**
 
 </div>
 
-## Sacubitril: From Heart Failure to Diabetic Nephropathy
+## Sacubitril: Brain small vessel disease 1 with or without ocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,22 +47,22 @@ The TxGNN model predicts it may be effective for **diabetic nephropathy**, the m
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report |
-| Predicted New Indication | Diabetic nephropathy |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Brain small vessel disease 1 with or without ocular anomalies |
+| TxGNN Prediction Score | 0.9958 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question; see conclusion) |
 
-The top-ranked prediction by score was brain small vessel disease 1 with or without ocular anomalies (99.58%). It has no supporting mechanism or evidence (L5, Hold). Diabetic nephropathy is the only prediction with a clinical trial and a plausible mechanism, so this report focuses on it. Rankings 1, 2, 4 and 5 have little or no evidence:
+The top-ranked prediction by score was brain small vessel disease 1 with or without ocular anomalies (0.9958). It has no supporting mechanism or evidence (L5, Hold). Diabetic nephropathy is the only prediction with a clinical trial and a plausible mechanism, so this report focuses on it. Rankings 1, 2, 4 and 5 have little or no evidence:
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 1 | Brain small vessel disease 1 (COL4A1-related) | 99.58% | L5 | The only paper retrieved concerns systemic right ventricular failure, which is unrelated. No mechanistic link is evident. |
-| 2 | Autosomal dominant familial haematuria-retinal arteriolar tortuosity-contractures syndrome | 99.57% | L5 | No trials or literature. Computational prediction only. |
-| 4 | Rheumatoid arthritis | 99.35% | L5 | The only paper is a case report of golimumab-associated myocarditis. It is not evidence of efficacy. |
-| 5 | Haemoglobinopathy | 99.18% | L5 | No trials or literature. Any hypothesis is speculative. |
+| 1 | Brain small vessel disease 1 (COL4A1-related) | 0.9958 | L5 | The only paper retrieved concerns systemic right ventricular failure, which is unrelated. No mechanistic link is evident. |
+| 2 | Autosomal dominant familial haematuria-retinal arteriolar tortuosity-contractures syndrome | 0.9957 | L5 | No trials or literature. Computational prediction only. |
+| 4 | Rheumatoid arthritis | 0.9935 | L5 | The only paper is a case report of golimumab-associated myocarditis. It is not evidence of efficacy. |
+| 5 | Haemoglobinopathy | 0.9918 | L5 | No trials or literature. Any hypothesis is speculative. |
 
 ---
 

@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 26
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Adapalene: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne"
 monitor_inn: "adapalene"
 predicted_indications: ["zinc, elevated plasma"]
+last_modified_at: 2026-10-27
+description: "Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Adapalene
@@ -33,85 +33,75 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Adapalene: From Acne to Elevated Plasma Zinc
+## Adapalene: topical retinoid (RAR-beta/gamma agonist) → zinc, elevated plasma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Adapalene is a topical retinoid, originally used to treat acne.
-The TxGNN model predicts it may be effective for **elevated plasma zinc**, but there are currently **no registered clinical trials** and **no publications** supporting this direction. The prediction rests on the model alone.
-
----
+Adapalene is a topical retinoid marketed in Australia as a combination gel. The TxGNN model predicts it may be relevant to **zinc, elevated plasma**, but there are **no clinical trials** and **no publications** supporting this direction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne (the approved indication text for the Australian entry is not available; acne is taken from the TxGNN knowledge graph) |
-| Predicted New Indication | Zinc, elevated plasma |
-| TxGNN Prediction Score | 99.51% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | zinc, elevated plasma |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Adapalene is a topical retinoid that selectively binds retinoic acid receptors (RAR-beta and RAR-gamma). It modulates keratinocyte differentiation and inflammation, which is the basis for its use in acne. Detailed mechanism of action data was not available in the data compiled for this report.
+Detailed mechanism of action data is not available in the data compiled for this report. As general pharmacological background, adapalene is a topical retinoid that selectively binds retinoic acid receptors (RAR-beta and RAR-gamma) and modulates keratinocyte differentiation and inflammation.
 
-No established mechanistic link connects adapalene to plasma zinc regulation. No known pathway involves zinc transporters (ZIP/ZnT), metallothionein, or dietary or renal zinc handling. Any connection would be speculative, for example an indirect retinoid-related effect on zinc-binding proteins or transporters.
+No clinically supported mechanistic link between these actions and systemic zinc homeostasis (such as zinc transporters, metallothionein or albumin binding) was identified. The high score (0.9951) is a model output only. It may reflect network proximity through shared gene or pathway nodes rather than a true pharmacological effect.
 
-The high score (0.995) is a graph-based prediction only. Elevated plasma zinc is also more a laboratory finding than a treatable disease, so the indication itself is questionable. Similarity to the original indication and route compatibility have not yet been assessed.
-
----
+Elevated plasma zinc is also a laboratory finding more than a disease with a defined treatment target, so the clinical meaning of this prediction is unclear. Adapalene is applied topically, and a route-compatibility assessment for a systemic condition has not been completed.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 13363H | Epiduo | Gel 1 mg-25 mg per g, 30 g (topical) | Not available in the compiled data |
+| 13363H | Epiduo | Gel 1 mg-25 mg per g, 30 g | Not recorded in the local data |
 
-The data compiled for this report lists one valid single-ingredient entry and no cancelled entries. The listed dosage form is topical only.
-
----
+This is a combination product licence (listed as a single-ingredient entry in the data), so it should not be taken to describe how adapalene alone is approved. The dosage form is topical.
 
 ## Safety Considerations
 
-- **Contraindications (from the knowledge graph, not label text):** Drug-disease contraindication links were found for photoparoxysmal response, photosensitivity disease, exfoliative dermatitis and dermatitis.
-- **Drug Interactions:** The interaction query returned 58 potential interactions, with severity levels all listed as "Unknown". Examples include doxycycline, minocycline, tetracycline, metronidazole, prednisone, triamcinolone, budesonide, fluconazole, clopidogrel, bupropion and ibuprofen. Their clinical significance has not been graded.
+No label-based warnings or contraindications are available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for safety information.
 
-Label warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
+**Drug Interactions:** 58 potential interactions were identified, all with an unclassified severity level. Examples include:
+- Doxycycline, minocycline and tetracycline
+- Pantoprazole, omeprazole and rabeprazole
+- Prednisone, triamcinolone and budesonide
+- Metronidazole, fluconazole and ibuprofen
+- Clopidogrel and bupropion
 
----
+Interaction severity has not been graded, so these should be reviewed against the PI and a clinical interaction resource.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has only model support (L5), with no clinical trials or publications. No plausible mechanism links adapalene to plasma zinc, and elevated plasma zinc is a laboratory finding rather than a well-defined disease. Adapalene is also a topical product, so systemic effects on plasma zinc are unlikely.
+The prediction has no supporting clinical trials or publications (Evidence Level L5). No plausible mechanistic link to zinc handling was identified, and the target condition is a laboratory finding rather than a treatable disease. The topical-only product also raises a route question for a systemic indication.
 
 **To proceed, the following is needed:**
-- Confirmation that the indication is clinically meaningful and treatable
-- Detailed mechanism of action data and a credible mechanistic hypothesis linking retinoid signalling to zinc handling
-- Route compatibility assessment (topical product versus a systemic target)
-- Label warnings and contraindications from the TGA-approved PI, as the safety screen cannot proceed without them
-- Graded severity for the identified drug interactions
-- A targeted literature and trial registry search (including ANZCTR) to confirm there is no supporting evidence
+- Mechanism of action data and a defined mechanistic hypothesis linking adapalene to zinc homeostasis
+- Evidence that elevated plasma zinc is a clinically meaningful treatment target
+- Assessment of route compatibility (topical product versus a systemic condition)
+- TGA Product Information warnings and contraindications for safety screening
+- Any preclinical or clinical studies directly examining adapalene and plasma zinc
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

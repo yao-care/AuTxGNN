@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **bronchitis**, but the data co
 |------|------|
 | Original Indication | Dry eye syndrome / xerophthalmia (from the TxGNN knowledge graph; no approved indication text is recorded for the Australian entries) |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 2 |
+| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

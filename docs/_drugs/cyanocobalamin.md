@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **biotin metabolic disease**, b
 |------|------|
 | Original Indication | Vitamin B12 deficiency, pernicious anaemia, folic acid deficiency anaemia, iron deficiency anaemia, and other deficiency anaemias (per the TxGNN knowledge graph; no approved indication text is recorded for the ARTG entry) |
 | Predicted New Indication | Biotin metabolic disease |
-| TxGNN Prediction Score | 99.60% |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on established pharmacology, cyanocobalamin is a cobalamin cofactor for methionine synthase and methylmalonyl-CoA mutase. Its efficacy in B12 deficiency and pernicious anaemia is well established.
 
-The high graph score probably reflects biochemical proximity. B vitamins and carboxylase-related pathways sit close together in the knowledge graph. However, no direct mechanism has been shown by which cyanocobalamin corrects a primary biotin metabolic defect, such as biotinidase deficiency or holocarboxylase synthetase deficiency. The standard treatment for those disorders is biotin supplementation. The prediction should therefore be treated as a hypothesis-generating signal, not a supported therapeutic link.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No direct mechanism has been shown by which cyanocobalamin corrects a primary biotin metabolic defect, such as biotinidase deficiency or holocarboxylase synthetase deficiency. The standard treatment for those disorders is biotin supplementation. The prediction should therefore be treated as a hypothesis-generating signal, not a supported therapeutic link.
 
 ## Clinical Trial Evidence
 

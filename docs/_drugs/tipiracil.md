@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **cecum villous adenoma**, but 
 |------|------|
 | Original Indication | Malignant colon neoplasm / colorectal cancer (the approved indication text is not listed in the ARTG data compiled for this report) |
 | Predicted New Indication | Cecum villous adenoma |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available. Based on known information, tipiracil is a thymidine phosphorylase inhibitor and one component of the trifluridine/tipiracil combination. Its efficacy in metastatic colorectal cancer has been established. Tipiracil does not kill tumour cells itself. It prevents the breakdown of trifluridine, a cytotoxic nucleoside analogue, so that the trifluridine reaches effective levels in the body.
 
-A villous adenoma of the cecum is a premalignant colorectal lesion, so there is a loose anatomical and biological link to colorectal cancer. However, adenomas are normally managed by endoscopic resection rather than systemic chemotherapy. The high score probably reflects the closeness of colon-related terms in the knowledge graph rather than a true therapeutic rationale. No clinical or literature evidence supports this prediction.
+A villous adenoma of the cecum is a premalignant colorectal lesion, so there is a loose anatomical and biological link to colorectal cancer. However, adenomas are normally managed by endoscopic resection rather than systemic chemotherapy. The high score comes from the TxGNN model (deep learning) and probably reflects similarities the model learned between related colon diseases, not biological evidence or a true therapeutic rationale. No clinical or literature evidence supports this prediction.
 
 Other highly ranked predictions in this dataset include lipoma of colon, rectosigmoid junction neoplasm, cecum neuroendocrine tumour G1, colonic lymphangioma, cecal disease, colon leiomyoma, benign neoplasm of cecum, cavernous haemangioma of colon and colorectal gastrointestinal stromal tumour. All are graded L5, except cecal disease, which is graded L4 on indirect evidence only. Most are benign lesions for which a cytotoxic regimen would be inappropriate. The rectosigmoid junction neoplasm is effectively a sub-site of the already approved colorectal indication rather than a true repurposing candidate.
 

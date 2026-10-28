@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Entecavir
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 254
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Entecavir: predicted new indication Chronic hepatitis C virus infection (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Entecavir"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
+description: "Entecavir: predicted new indication Chronic hepatitis C virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Entecavir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Entecavir: From Chronic Hepatitis B to Chronic Hepatitis C Virus Infection
+## Entecavir: Chronic hepatitis C virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,21 +45,21 @@ The TxGNN model ranks **chronic hepatitis C virus infection** as its top predict
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis B virus infection (the ARTG entry carries no indication text, so this comes from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Chronic hepatitis C virus infection |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 (L5 would apply if only the model prediction is counted; no HCV efficacy studies were found) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, entecavir is a guanosine nucleoside analogue. Once phosphorylated to its triphosphate form, it competes with dGTP and inhibits all three activities of the HBV polymerase (priming, reverse transcription and DNA synthesis).
 
-The prediction is **not mechanistically convincing**. HCV is an RNA virus replicated by the NS5B RNA-dependent RNA polymerase, and entecavir has no known activity against it. The high score most likely reflects the closeness of HBV and HCV in the knowledge graph (shared hepatotropic viral hepatitis biology) and the frequent HBV/HCV co-infection seen in practice. In co-infected patients entecavir is used to manage HBV, for example to prevent HBV reactivation during direct-acting antiviral (DAA) therapy for HCV. HCV itself is treated by the DAAs.
+The prediction is **not mechanistically convincing**. HCV is an RNA virus replicated by the NS5B RNA-dependent RNA polymerase, and entecavir has no known activity against it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (HBV and HCV are both hepatotropic viral hepatitis), not biological evidence. HBV/HCV co-infection is also frequent in practice. In co-infected patients entecavir is used to manage HBV, for example to prevent HBV reactivation during direct-acting antiviral (DAA) therapy for HCV. HCV itself is treated by the DAAs.
 
-Other predictions for this drug are also weak. The only prediction with direct, on-label evidence is hepatitis B virus infection (rank 2, L1), which is the original indication rather than a new one. The remaining predictions (HIV, feline and simian immunodeficiency, hepatitis A and E, a neurodevelopmental disorder) have no supporting evidence of anti-pathogen activity.
+Other predictions for this drug are also weak. The predictions (HIV, feline and simian immunodeficiency, hepatitis A and E, a neurodevelopmental disorder) have no supporting evidence of anti-pathogen activity.
 
 ## Clinical Trial Evidence
 
@@ -105,7 +105,7 @@ Specific warnings and contraindications from the product label were not availabl
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.98%), but there is no plausible direct antiviral mechanism against HCV and no trial showing HCV efficacy. The related trials and papers address HBV reactivation in co-infected patients, which is a use within entecavir's existing HBV role. Current HCV treatment relies on DAAs.
+The TxGNN score is high (0.9998), but there is no plausible direct antiviral mechanism against HCV and no trial showing HCV efficacy. The related trials and papers address HBV reactivation in co-infected patients, which is a use within entecavir's existing HBV role. Current HCV treatment relies on DAAs.
 
 **To proceed, the following is needed:**
 - In vitro evidence of anti-HCV activity, or a mechanistic rationale beyond network proximity

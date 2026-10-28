@@ -4,17 +4,17 @@ title: Empagliflozin
 parent: Model Prediction Only (L5)
 nav_order: 247
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Empagliflozin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Empagliflozin"
-predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis", "autoimmune oophoritis"]
+predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
+description: "Empagliflozin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Empagliflozin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Empagliflozin: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+## Empagliflozin: Focal stiff limb syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (from the knowledge graph; no approved indication text is available for the Australian entry) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Focal stiff limb syndrome |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,9 +59,9 @@ Currently, detailed mechanism of action data is not available. Empagliflozin is 
 
 For focal stiff limb syndrome, no plausible mechanistic link has been identified. The condition belongs to the stiff-person spectrum, a neuro-immunological disorder involving impaired GABAergic or glycinergic inhibition, often with anti-GAD antibodies. SGLT2 inhibition has no known effect on this pathway.
 
-The high score is most likely an artefact of the knowledge graph, probably driven by the association between GAD autoimmunity and diabetes. It should not be read as evidence of benefit.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as GAD autoimmunity and diabetes, not biological evidence. It should not be read as evidence of benefit.
 
-Other predictions in the same list show a similar pattern. They include classic stiff person syndrome (99.06%), opsismodysplasia (99.03%), thiamine-responsive dysfunction syndrome (98.99%), several localised lipodystrophies, pancreatic agenesis and autoimmune oophoritis (92.37%). None has any clinical trial support. For pancreatic agenesis, the two retrieved papers concern type 2 diabetes and diabetic retinopathy, not the predicted condition. Use in insulin-deficient states such as pancreatic agenesis would also carry a risk of ketoacidosis.
+Other predictions in the same list show a similar pattern. They include classic stiff person syndrome (99.06%), opsismodysplasia (99.03%), thiamine-responsive dysfunction syndrome (98.99%), several localised lipodystrophies, pancreatic agenesis and autoimmune oophoritis (92.37%). None has any clinical trial support.
 
 ## Clinical Trial Evidence
 
@@ -93,7 +93,7 @@ For warnings and contraindications, please refer to the TGA-approved Product Inf
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or publications and no plausible mechanistic link. It is likely a knowledge-graph artefact linked to GAD autoimmunity and diabetes. The evidence level is L5 (model prediction only).
+The prediction has no supporting trials or publications and no plausible mechanistic link. It is likely a TxGNN model (deep learning) artefact linked to GAD autoimmunity and diabetes. The evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible biological rationale linking SGLT2 inhibition to the stiff-person spectrum

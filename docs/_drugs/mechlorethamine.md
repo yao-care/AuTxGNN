@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mechlorethamine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 451
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Mechlorethamine: predicted new indication Lymph node cancer (evidence level L3). Approved use: Mycosis fungoides and other primary cutaneous T-cell lymphomas"
 monitor_inn: "Mechlorethamine"
-predicted_indications: ["lymph node cancer", "relapsing-remitting multiple sclerosis", "follicular lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "lymphoid neoplasm", "interdigitating dendritic cell sarcoma", "chest wall lymphoma", "subcutaneous panniculitis-like T-cell lymphoma"]
+predicted_indications: ["lymph node cancer", "relapsing-remitting multiple sclerosis", "follicular lymphoma"]
+description: "Mechlorethamine: predicted new indication Lymph node cancer (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mechlorethamine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Mechlorethamine: From Cutaneous T-Cell Lymphoma and Hodgkin Lymphoma to Lymph Node Cancer
+## Mechlorethamine: Lymph node cancer
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The data compiled for this report show **no registered clinical trials** and **2
 
 | Item | Content |
 |------|------|
-| Original Indication | Mycosis fungoides and other primary cutaneous T-cell lymphomas; Hodgkin and non-Hodgkin lymphoma (the ARTG entry lists no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Lymph node cancer |
-| TxGNN Prediction Score | 99.43% |
-| Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9943 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Other predicted indications were also screened:
 - **Follicular lymphoma and lymphoid neoplasm (broad):** class-level alkylator rationale only. The evidence is indirect, such as bendamustine reviews and combination regimens. Modern care has largely moved to other regimens.
-- **Subcutaneous panniculitis-like T-cell lymphoma:** adjacent to mycosis fungoides, but a topical gel is unlikely to reach deep subcutaneous disease. No data were identified.
+- No data were identified.
 - **Relapsing-remitting multiple sclerosis, chronic lymphocytic leukaemia/small lymphocytic lymphoma subtypes, interdigitating dendritic cell sarcoma, chest wall lymphoma, and acute lymphoblastic leukaemia:** no direct evidence. The rationale is computational only, and the toxicity profile argues against use in several of these.
 
 ## Clinical Trial Evidence

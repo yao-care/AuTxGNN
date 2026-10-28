@@ -4,17 +4,17 @@ title: Zanubrutinib
 parent: Model Prediction Only (L5)
 nav_order: 788
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Zanubrutinib: predicted new indication Myeloid leukaemia (evidence level L5). Approved use: Mantle cell lymphoma, B-cell neoplasm, lymphosarcoma"
 monitor_inn: "Zanubrutinib"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "lymphoma, non-Hodgkin, familial", "acute lymphoblastic/lymphocytic leukemia"]
+predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
 ---
 
 # Zanubrutinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **myeloid leukaemia**, but ther
 |------|------|
 | Original Indication | Mantle cell lymphoma, B-cell neoplasm, lymphosarcoma (the ARTG record compiled for this report carries no indication text) |
 | Predicted New Indication | Myeloid leukaemia |
-| TxGNN Prediction Score | 99.65% |
-| Evidence Level | L4 (mechanistic rationale only; no direct clinical studies in myeloid leukaemia) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9965 |
+| Evidence Level | L5 (mechanistic rationale only; no direct clinical studies in myeloid leukaemia) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

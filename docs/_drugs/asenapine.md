@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Asenapine: From Bipolar Disorder and Schizophrenia to Retinal Dystrophy
+## Asenapine: From Bipolar Disorder and Schizophrenia to Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,19 +48,19 @@ However, there are **no clinical trials** and **no publications** supporting thi
 |------|------|
 | Original Indication | Manic bipolar affective disorder, bipolar disorder, schizophrenia |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Asenapine is known as an atypical antipsychotic that antagonises serotonin, dopamine, alpha-adrenergic and histamine receptors. Its efficacy in mania and schizophrenia is established.
 
-No plausible mechanistic link to retinal dystrophy has been identified. Retinal dystrophies are largely genetic conditions affecting the retina, and asenapine's receptor pharmacology has no known connection to those genetic causes. The high score (0.998) most likely reflects patterns in the underlying knowledge graph rather than biological rationale.
+No plausible mechanistic link to retinal dystrophy has been identified. Retinal dystrophies are largely genetic conditions affecting the retina, and asenapine's receptor pharmacology has no known connection to those genetic causes. The high score (0.9977) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-**Note:** Among the other predictions, "major affective disorder" (rank 10, score 99.57%) is the only one with supporting literature. It is essentially on-label or closely related to asenapine's approved uses, so it is not a true repurposing candidate. Its evidence is summarised in the conclusion below.
+**Note:** Among the other predictions, "major affective disorder" (rank 10, score 0.9957) is the only one with supporting literature. It is essentially on-label or closely related to asenapine's approved uses, so it is not a true repurposing candidate. Its evidence is summarised in the conclusion below.
 
 ## Clinical Trial Evidence
 

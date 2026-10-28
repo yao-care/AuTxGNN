@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Amiodarone
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 43
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Ventricular fibrillation (the registered indication text for the Aust…"
@@ -14,7 +14,7 @@ predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia",
 # Amiodarone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Amiodarone: From Ventricular Fibrillation to Ventricular Tachycardia
+## Amiodarone: From Ventricular Fibrillation to Catecholaminergic Polymorphic Ventricular Tachycardia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The table below covers the top-ranked prediction (CPVT) as the report's primary 
 |------|------|
 | Original Indication | Ventricular fibrillation (the registered indication text for the Australian entry is not available) |
 | Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia (rank 1); best-supported candidate: Ventricular tachycardia (rank 3) |
-| TxGNN Prediction Score | 99.78% (CPVT); 99.64% (ventricular tachycardia) |
+| TxGNN Prediction Score | 0.9978 (CPVT); 0.9964 (ventricular tachycardia) |
 | Evidence Level | L4 for CPVT; L1 for ventricular tachycardia |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold for CPVT; Proceed with Guardrails for ventricular tachycardia |
 
 ## Why is This Prediction Reasonable?
@@ -104,7 +104,7 @@ No ANZCTR identifiers are available in the data compiled for this report.
 
 **Other predictions of note:**
 - **Incessant infant ventricular tachycardia (rank 2, L2):** a randomised, double-blind trial of IV amiodarone for incessant tachyarrhythmias in children ([16316969](https://pubmed.ncbi.nlm.nih.gov/16316969/), Circulation, 2005) and an infant cohort ([14508682](https://pubmed.ncbi.nlm.nih.gov/14508682/), 2003). These populations mix supraventricular and ventricular tachycardia, so VT-specific effect is uncertain.
-- **Ranks 4 to 10** (obsolete bundle branch block, rheumatoid arthritis, brachydactyly-syndactyly syndrome, heparin cofactor 2 deficiency, trichotillomania, colobomatous microphthalmia-rhizomelic dysplasia syndrome, gout): no trials, and no literature showing therapeutic benefit. These predictions have no biological rationale and appear to be knowledge-graph artefacts.
+- **Ranks 4 to 10** (obsolete bundle branch block, rheumatoid arthritis, brachydactyly-syndactyly syndrome, heparin cofactor 2 deficiency, trichotillomania, colobomatous microphthalmia-rhizomelic dysplasia syndrome, gout): no trials, and no literature showing therapeutic benefit. These predictions have no biological rationale and appear to be TxGNN model (deep learning) artefacts.
 
 ## Australia Market Information
 

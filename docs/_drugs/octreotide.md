@@ -4,17 +4,17 @@ title: Octreotide
 parent: Model Prediction Only (L5)
 nav_order: 518
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Acromegaly, hyperpituitarism, carcinoid syndrome"
 monitor_inn: "Octreotide"
-predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis", "nephrotic syndrome ocular anomalies", "Addison disease", "membranoproliferative glomerulonephritis, X-linked", "familial idiopathic steroid-resistant nephrotic syndrome with minimal changes", "familial idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial sclerosis", "adrenocortical insufficiency", "primary hypereosinophilic syndrome", "autosomal recessive familial Mediterranean fever"]
+predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 ---
 
 # Octreotide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,31 +47,23 @@ The TxGNN model predicts it may be effective for **vulvar inverted follicular ke
 |------|------|
 | Original Indication | Acromegaly, hyperpituitarism, carcinoid syndrome (the ARTG entry has no approved indication text recorded, so these come from the knowledge graph) |
 | Predicted New Indication | Vulvar inverted follicular keratosis |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Octreotide is a somatostatin analogue, and its efficacy in acromegaly and carcinoid syndrome is established. However, nothing in the data compiled for this report links it mechanistically to the predicted new indication.
 
-Vulvar inverted follicular keratosis is a benign skin lesion. No somatostatin-pathway involvement has been identified, and no clinical trials or literature support a role for somatostatin receptor agonism here. The high score (0.996) is a graph-based prediction only and likely reflects graph-topology artefacts rather than biological rationale.
+Vulvar inverted follicular keratosis is a benign skin lesion. No somatostatin-pathway involvement has been identified, and no clinical trials or literature support a role for somatostatin receptor agonism here. The high score (0.9958) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predictions reviewed.** The other top-10 predictions are also weakly supported:
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Seborrheic keratosis | 99.55% | L5 | No evidence; benign epidermal lesion |
-| 3 | Nephrotic syndrome ocular anomalies | 98.84% | L5 | Rare genetic syndrome; no plausible link |
-| 4 | Addison disease | 98.74% | L4 | Indirect and weak; one case report and one negative physiological study |
-| 5 | Membranoproliferative glomerulonephritis, X-linked | 98.72% | L5 | No evidence |
-| 6 | Familial idiopathic steroid-resistant nephrotic syndrome with minimal changes | 98.57% | L5 | No evidence |
-| 7 | Familial idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial sclerosis | 98.57% | L5 | Same score as rank 6, likely a shared graph artefact |
-| 8 | Adrenocortical insufficiency | 98.47% | L5 | Only an incidental descriptive article |
-| 9 | Primary hypereosinophilic syndrome | 98.43% | L5 | No evidence |
-| 10 | Autosomal recessive familial Mediterranean fever | 98.31% | L5 | No evidence; standard therapy acts through different pathways |
+| 2 | Seborrheic keratosis | 0.9955 | L5 | No evidence; benign epidermal lesion |
 
 ## Clinical Trial Evidence
 
@@ -117,7 +109,7 @@ The interaction query returned 100 interactions. The 20 listed are all rated Mod
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is supported only by a graph-based score. There are no registered trials, no relevant publications and no plausible mechanistic link, so the evidence level is L5. The same holds for the other nine predictions, and the closest candidate (Addison disease) has a negative physiological study and is not expected to respond, since primary adrenal insufficiency requires replacement therapy.
+The top prediction is supported only by a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no registered trials, no relevant publications and no plausible mechanistic link, so the evidence level is L5. The same holds for the other nine predictions.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for octreotide (currently unavailable), and a biological rationale connecting somatostatin receptor signalling to the predicted condition

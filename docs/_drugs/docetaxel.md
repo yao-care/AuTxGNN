@@ -4,17 +4,17 @@ title: Docetaxel
 parent: High Evidence (L1-L2)
 nav_order: 221
 evidence_level: L1
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Docetaxel: predicted new indication Female breast carcinoma (evidence level L1). Approved use: Non-small cell lung cancer, prostate cancer, head and neck cancer…"
 monitor_inn: "Docetaxel"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
+predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
+description: "Docetaxel: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Docetaxel
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Docetaxel: From Solid Tumour Chemotherapy to Female Breast Carcinoma
+## Docetaxel: Ewing sarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Docetaxel is a taxane chemotherapy drug already used for lung, prostate, head and neck, gastric and breast cancers. The TxGNN model predicts it for **female breast carcinoma** (score 99.90%), but breast cancer is already among its established uses, so this confirms existing use rather than a true new indication. The data compiled for this report include **46 registered clinical trials (10 of them Phase 3)** and **20 publications**.
+Docetaxel is a taxane chemotherapy drug already used for lung, prostate, head and neck, gastric and breast cancers. The data compiled for this report include **46 registered clinical trials (10 of them Phase 3)** and **20 publications**.
 
 ---
 
@@ -46,12 +46,12 @@ Docetaxel is a taxane chemotherapy drug already used for lung, prostate, head an
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung cancer, prostate cancer, head and neck cancer, gastric cancer, breast cancer (from the TxGNN knowledge graph; TGA-approved indication text is not available in the data compiled) |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.90% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Ewing sarcoma |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -60,7 +60,7 @@ Docetaxel is a taxane chemotherapy drug already used for lung, prostate, head an
 
 Docetaxel is a taxane. Taxanes stabilise microtubules and block cells from completing mitosis, so rapidly dividing tumour cells stop growing or die. Detailed mechanism of action data from DrugBank is not available, but this class effect is well established.
 
-Breast carcinoma already appears among docetaxel's original indications in the knowledge graph. The prediction therefore reflects a known use, not a new one. The mechanism is the same cytotoxic action that underlies its use in other solid tumours. The model's high score is consistent with the large body of breast cancer trials and publications.
+The prediction therefore reflects a known use, not a new one. The mechanism is the same cytotoxic action that underlies its use in other solid tumours. The model's high score is consistent with the large body of breast cancer trials and publications.
 
 ---
 
@@ -115,7 +115,6 @@ There is one valid single-ingredient ARTG entry and no cancelled entries. The ap
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (taxane, antimicrotubule agent) |
-| Myelosuppression Risk | High (neutropenia is the main dose-limiting toxicity; the knowledge graph also links docetaxel to thrombocytopenia, anaemia and agranulocytosis) |
 | Emetogenicity Classification | Low to moderate |
 | Monitoring Items | FBC with differential before each cycle, liver function (bilirubin, transaminases, ALP), renal function, fluid retention, peripheral neuropathy |
 | Handling Protection | Must follow cytotoxic drug handling procedures; refer to the Product Information (PI) for details |
@@ -124,7 +123,6 @@ There is one valid single-ingredient ARTG entry and no cancelled entries. The ap
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** liver disease, gallbladder disease, thrombocytopenia, neutropenia, agranulocytosis, anaemia, hyperbilirubinaemia (including Gilbert syndrome), peripheral neuropathy and other neuritis, diarrhoeal disease, stomatitis, pulmonary oedema and cardiac tamponade.
 - **Drug Interactions:** 100 interactions were identified; the main ones are listed below.
   - **Major:** clarithromycin.
   - **Moderate:** aprepitant, rolapitant, cimetidine, metronidazole, tinidazole, miconazole, eliglustat, rosuvastatin, simvastatin, troglitazone.

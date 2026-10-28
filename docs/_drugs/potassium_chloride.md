@@ -4,17 +4,17 @@ title: Potassium Chloride
 parent: Moderate Evidence (L3-L4)
 nav_order: 588
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Potassium deficiency"
 monitor_inn: "Potassium chloride"
-predicted_indications: ["renal tubular acidosis", "HELIX syndrome", "Alstrom syndrome", "Pendred syndrome", "dyspepsia", "Senior-Loken syndrome", "congenital prothrombin deficiency", "gastroduodenitis", "NAD(P)HX dehydratase deficiency", "stomach disease"]
+predicted_indications: ["renal tubular acidosis"]
+description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Potassium Chloride
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Potassium Chloride: From Potassium Deficiency to Renal Tubular Acidosis
+## Potassium Chloride: Renal tubular acidosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Potassium chloride is an electrolyte replacement originally used to treat potassium deficiency (and, per the knowledge graph, constipation disorder).
+Potassium chloride is an electrolyte replacement originally used to treat potassium deficiency.
 The TxGNN model predicts it may be useful for **renal tubular acidosis (RTA)**, but there are **no registered clinical trials** and the **18 publications** retrieved are mostly case reports and reviews, so this is a supportive-care signal rather than evidence of disease-modifying benefit.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Potassium deficiency (approved indication text not available in the ARTG data compiled for this report) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -92,7 +92,7 @@ The only registered form is oral. No other routes (such as intravenous) appear i
 
 ## Safety Considerations
 
-**Contraindications and conditions of concern (knowledge-graph associations, not label text):** The knowledge graph links potassium chloride with caution or contraindication in the following groups:
+**Contraindications and conditions of concern (associations, not label text):** Potassium chloride is associated with caution or contraindication in the following groups:
 - Renal: kidney disease, anuria
 - Cardiovascular: congestive heart failure, heart disease, cardiovascular disease, coronary artery disease, hypertension
 - Gastrointestinal: gastric ulcer, peptic ulcer disease, pancreatitis
@@ -112,8 +112,7 @@ Moderate interactions include NSAIDs (ibuprofen, ketorolac) and aliskiren. Pleas
 ## Other Predicted Indications
 
 The other predictions have no clinical trials and no supportive evidence, and all are rated L5 / Hold:
-- **HELIX syndrome, Alström syndrome, Pendred syndrome, Senior-Løken syndrome, congenital prothrombin deficiency, NAD(P)HX dehydratase deficiency:** No trials or literature, and no plausible mechanistic link beyond possible supportive electrolyte correction. These are likely graph-based artefacts.
-- **Dyspepsia, gastroduodenitis, stomach disease:** The literature documents KCl as a **cause** of GI mucosal injury. These signals represent adverse-effect associations, not repurposing opportunities, and treatment would be potentially harmful.
+- These signals represent adverse-effect associations, not repurposing opportunities, and treatment would be potentially harmful.
 
 ## Conclusion and Next Steps
 

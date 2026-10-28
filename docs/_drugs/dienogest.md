@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Dienogest
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 215
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Dienogest: predicted new indication Amenorrhoea (evidence level L4). Approved use: Not stated in the data compiled for this report (literature describes…"
+description: "Dienogest: predicted new indication amenorrhea (disease) (evidence level L4). Approved use: Not stated in the data compiled for this report (literature describes…"
 monitor_inn: "Dienogest"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "brea
 # Dienogest
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Dienogest: From Endometriosis (Presumed) to Amenorrhoea
+## Dienogest: From Endometriosis (Presumed) to amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,10 +46,10 @@ Dienogest is an oral progestin marketed in Australia as a 2 mg tablet (Visanne).
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (literature describes endometriosis as the approved use) |
 | Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,7 +58,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Amenorrhoea is a commonly reported effect of dienogest therapy in endometriosis. That means the link to this prediction is largely an **effect or bleeding-pattern observation**, not a therapeutic target. Dienogest tends to *cause* amenorrhoea rather than treat it. The existing literature concerns endometriosis, adverse-effect profiling and case reports, so the high model score is not backed by direct clinical evidence. The prediction should be treated as a research question, not a treatment opportunity.
 
-Other predicted indications (primary ovarian failure, hypogonadotropic hypogonadism, isolated growth hormone deficiency, chromosomal disorders and others) have no clinical or literature support. They appear to reflect network proximity in the knowledge graph. Mechanistically, suppressing the ovarian and gonadotropin axis would be unlikely to help in several of them.
+Other predicted indications (primary ovarian failure, hypogonadotropic hypogonadism, isolated growth hormone deficiency, chromosomal disorders and others) have no clinical or literature support. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Mechanistically, suppressing the ovarian and gonadotropin axis would be unlikely to help in several of them.
 
 ## Clinical Trial Evidence
 
@@ -97,7 +97,7 @@ Please refer to the TGA-approved Product Information (PI) for official warnings 
 **Decision: Hold**
 
 **Rationale:**
-The high model score (99.71%) is not supported by direct evidence. Amenorrhoea is a recognised effect of dienogest rather than a condition it treats, and there are no registered trials. Evidence is at L4 (mechanistic and indirect literature only).
+The high model score (0.9971) is not supported by direct evidence. Amenorrhoea is a recognised effect of dienogest rather than a condition it treats, and there are no registered trials. Evidence is at L4 (mechanistic and indirect literature only).
 
 **To proceed, the following is needed:**
 - The TGA-approved Product Information, including the approved indication, warnings and contraindications

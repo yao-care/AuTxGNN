@@ -4,17 +4,17 @@ title: Fludrocortisone
 parent: Model Prediction Only (L5)
 nav_order: 304
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Fludrocortisone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Fludrocortisone"
-predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis", "granulomatous slack skin disease", "optic papillitis"]
+predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis"]
 ---
 
 # Fludrocortisone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,31 +46,29 @@ Fludrocortisone is a synthetic corticosteroid with predominantly mineralocortico
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available. Based on general pharmacology, fludrocortisone is a corticosteroid with strong mineralocorticoid activity and some glucocorticoid activity. Corticosteroids play a general role in symptom control in cutaneous lymphoma, so a loose conceptual link exists.
 
-However, the data compiled for this report show no specific link between fludrocortisone and this lymphoma. The high TxGNN score (0.996) is a graph-based prediction and should be treated as a hypothesis only. Related predictions in the same list, such as granulomatous slack skin disease (a rare cutaneous T-cell lymphoma variant), likely reflect graph proximity to this result rather than independent evidence.
+However, the data compiled for this report show no specific link between fludrocortisone and this lymphoma. The high TxGNN score (0.9958) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it should be treated as a hypothesis only.
 
 ### Other Predicted Indications (for context)
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Cystic teratoma | 99.20% | L5 | No plausible mechanism; likely graph artefact |
-| 3 | Spinal cord dermoid cyst | 99.18% | L5 | No evidence |
-| 4 | Dermoid cyst of ovary | 99.18% | L5 | No evidence |
-| 5 | Disease of orbital part of eye adnexa | 99.17% | L5 | No evidence |
-| 6 | Eye disease | 99.14% | L4 | Indirect preclinical and review literature only |
-| 7 | Disease of orbital region | 99.13% | L5 | No evidence |
-| 8 | Exostosis | 99.08% | L5 | No plausible mechanism |
-| 9 | Granulomatous slack skin disease | 98.98% | L5 | Likely proximity to rank 1 |
-| 10 | Optic papillitis | 98.95% | L5 | No evidence for fludrocortisone |
+| 2 | Cystic teratoma | 0.9920 | L5 | No plausible mechanism; the score may reflect similarities the model learned between related diseases |
+| 3 | Spinal cord dermoid cyst | 0.9918 | L5 | No evidence |
+| 4 | Dermoid cyst of ovary | 0.9918 | L5 | No evidence |
+| 5 | Disease of orbital part of eye adnexa | 0.9917 | L5 | No evidence |
+| 6 | Eye disease | 0.9914 | L5 | Indirect preclinical and review literature only |
+| 7 | Disease of orbital region | 0.9913 | L5 | No evidence |
+| 8 | Exostosis | 0.9908 | L5 | No plausible mechanism |
 
 The only prediction with any supporting literature is "eye disease" (see the note under Literature Evidence). The term is too broad to define a specific therapeutic target.
 
@@ -120,7 +118,7 @@ Warning and contraindication text was not available. Please refer to the TGA-app
 **Decision: Hold**
 
 **Rationale:**
-The lead prediction is supported only by a graph-based score, with no clinical trials or literature (evidence level L5). The prediction is not suitable for progression at this stage.
+The lead prediction is supported only by a score from the TxGNN model (deep learning), with no clinical trials or literature (evidence level L5). The prediction is not suitable for progression at this stage.
 
 **To proceed, the following is needed:**
 - Mechanism of action data to assess a plausible link to cutaneous T-cell lymphoma

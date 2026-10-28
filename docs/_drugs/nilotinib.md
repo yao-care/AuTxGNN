@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nilotinib
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 502
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L4). Approved use: Chronic myelogenous leukaemia, BCR-ABL1 positive"
 monitor_inn: "Nilotinib"
-predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma", "Ewing sarcoma", "ganglioneuroblastoma (disease)", "heart fibrosarcoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "kidney fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma"]
+predicted_indications: ["dermatofibrosarcoma protuberans"]
 ---
 
 # Nilotinib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but currently only **1 review article** supports this direction, with **no regis
 |------|------|
 | Original Indication | Chronic myelogenous leukaemia, BCR-ABL1 positive |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9931 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -66,7 +66,6 @@ However, the only supporting item is a 2018 review of small-molecule PDGFR inhib
 
 Currently no related clinical trials registered for dermatofibrosarcoma protuberans.
 
-For context, the second-ranked prediction (liposarcoma) has one related trial:
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|

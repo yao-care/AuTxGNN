@@ -50,26 +50,26 @@ Migraine currently has **4 registered clinical trials** (3 Phase 3, 1 Phase 2) a
 |------|------|
 | Original Indication | Not available in the data compiled for this report (approved indication text is blank) |
 | Predicted New Indication | Migraine disorder (the evidence-leading candidate; the top-ranked prediction is manic bipolar affective disorder, 99.96%) |
-| TxGNN Prediction Score | 99.87% (migraine disorder); 99.96% (manic bipolar affective disorder) |
-| Evidence Level | L1 (migraine disorder), by the compiled assessment. Strict application of the rules would give a lower level, since the Phase 3 trials are active-comparator or pilot designs and outcome data are unverified |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9987 (migraine disorder); 0.9996 (manic bipolar affective disorder) |
+| Evidence Level | L5 (migraine disorder), by the compiled assessment. Strict application of the rules would give a lower level, since the Phase 3 trials are active-comparator or pilot designs and outcome data are unverified |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (migraine disorder) |
 
 **Candidate overview.** Ten indications were predicted. Only migraine disorder has substantial clinical evidence.
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |---|---|---|---|---|
-| 1 | Manic bipolar affective disorder | 99.96% | L3 | Research Question |
-| 2 | Tourette syndrome | 99.95% | L5 | Hold |
-| 3 | Trichotillomania | 99.92% | L5 | Hold |
-| 4 | Nephrogenic syndrome of inappropriate antidiuresis | 99.91% | L5 | Hold |
-| 5 | **Migraine disorder** | 99.87% | L1 | Proceed with Guardrails |
-| 6 | Insomnia | 99.83% | L5 | Hold |
-| 7 | Migraine with brainstem aura | 99.82% | L4 | Research Question |
-| 8 | Myofascial pain syndrome | 99.81% | L2 | Research Question |
-| 9 | Obsessive-compulsive disorder | 99.78% | L5 | Hold |
-| 10 | Papillary conjunctivitis | 99.72% | L5 | Hold |
+| 1 | Manic bipolar affective disorder | 0.9996 | L5 | Research Question |
+| 2 | Tourette syndrome | 0.9995 | L5 | Hold |
+| 3 | Trichotillomania | 0.9992 | L5 | Hold |
+| 4 | Nephrogenic syndrome of inappropriate antidiuresis | 0.9991 | L5 | Hold |
+| 5 | **Migraine disorder** | 0.9987 | L1 | Proceed with Guardrails |
+| 6 | Insomnia | 0.9983 | L5 | Hold |
+| 7 | Migraine with brainstem aura | 0.9982 | L5 | Research Question |
+| 8 | Myofascial pain syndrome | 0.9981 | L5 | Research Question |
+| 9 | Obsessive-compulsive disorder | 0.9978 | L5 | Hold |
+| 10 | Papillary conjunctivitis | 0.9972 | L5 | Hold |
 
 The sections below focus on migraine disorder. Bipolar disorder is discussed briefly.
 

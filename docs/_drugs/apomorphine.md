@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Apomorphine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 55
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Apomorphine: predicted new indication Schizophrenia (evidence level L4). Approved use: Parkinson's disease (and related parkinsonian syndromes). The Austral…"
+description: "Apomorphine: predicted new indication polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L4). Approved use: Parkinson's disease (and related parkinsonian syndromes). The Austral…"
 monitor_inn: "Apomorphine"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia
 # Apomorphine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Apomorphine: From Parkinson's Disease to Schizophrenia
+## Apomorphine: From Parkinson's Disease to Polymicrogyria, Perisylvian, with Cerebellar Hypoplasia and Arthrogryposis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,11 +49,11 @@ The predicted effect runs against the usual treatment logic, so this remains a r
 | Item | Content |
 |------|------|
 | Original Indication | Parkinson's disease (and related parkinsonian syndromes). The Australian licence entry has no indication text recorded. |
-| Predicted New Indication | Schizophrenia (rank 5; the rank 1 prediction is polymicrogyria with cerebellar hypoplasia and arthrogryposis, score 99.75%, with no supporting evidence) |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Predicted New Indication | polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis |
+| TxGNN Prediction Score | 0.9969 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 ## Why is This Prediction Reasonable?

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Glucagon
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 340
-evidence_level: L5
-indication_count: 10
+evidence_level: L3
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Glucagon: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Glucagon"
-predicted_indications: ["irritable bowel syndrome", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "acute laryngopharyngitis", "nasal cavity disease", "pharyngitis", "primary hereditary glaucoma", "open-angle glaucoma", "filariasis", "large intestine disease"]
+predicted_indications: ["irritable bowel syndrome"]
 ---
 
 # Glucagon
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **irritable bowel syndrome (IBS
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Irritable bowel syndrome |
-| TxGNN Prediction Score | 99.24% |
+| TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L3 (indirect; no glucagon-specific studies in IBS) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -100,7 +100,7 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 **Decision: Hold**
 
 **Rationale:**
-The IBS prediction rests almost entirely on GLP-1 receptor agonist data, not on glucagon. No glucagon-specific trial in IBS was identified, and the mechanistic link is indirect. Other predicted indications (for example cauda equina syndrome, pharyngitis and filariasis) have no supporting evidence or only spurious associations. IBS is a reasonable research question, but not yet ready for clinical adoption.
+The IBS prediction rests almost entirely on GLP-1 receptor agonist data, not on glucagon. No glucagon-specific trial in IBS was identified, and the mechanistic link is indirect. IBS is a reasonable research question, but not yet ready for clinical adoption.
 
 **To proceed, the following is needed:**
 - Direct evidence for glucagon in IBS, such as a small mechanistic or pilot study of IBS subtypes (diarrhoea-predominant versus constipation-predominant)

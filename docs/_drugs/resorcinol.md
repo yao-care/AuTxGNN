@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Resorcinol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 629
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Resorcinol: predicted new indication Acne keloid (evidence level L4). Approved use: Acne, dermatitis, acneiform dermatitis"
 monitor_inn: "Resorcinol"
-predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "rheumatoid vasculitis", "hypermobility of coccyx", "polyarticular juvenile rheumatoid arthritis", "ankylosing spondylitis"]
+predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
 ---
 
 # Resorcinol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be useful for **acne keloid** (acne keloidalis),
 |------|------|
 | Original Indication | Acne, dermatitis, acneiform dermatitis (from the TxGNN knowledge graph; no approved indication text is recorded for the Australian entry) |
 | Predicted New Indication | Acne keloid |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,7 +83,7 @@ No label-based warnings or contraindications were available in the data compiled
 
 No drug interaction records were found.
 
-The TxGNN knowledge graph links resorcinol to the following conditions as contraindications. These come from the graph and not from label text, so they must be verified against the PI:
+The TxGNN model (deep learning) links resorcinol to the following conditions as contraindications. These come from the model and not from label text, and may reflect similarities the model learned between related diseases, not biological evidence, so they must be verified against the PI:
 - **Blood and metabolic:** G6PD deficiency, methaemoglobinaemia (including reductase deficiency), sulfhaemoglobinaemia, diabetes mellitus, diabetic ketoacidosis, glycogen storage disease, cystinuria, galactosaemia, pyruvate dehydrogenase E3 deficiency
 - **Cardiorespiratory and vascular:** sudden cardiac arrest, heart conduction disease, respiratory failure, peripheral vascular disease, intermittent claudication, peripheral arterial disease
 - **Kidney and neurological:** kidney disease, pyoureter, epilepsy

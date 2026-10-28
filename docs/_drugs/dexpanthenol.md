@@ -4,17 +4,17 @@ title: Dexpanthenol
 parent: Model Prediction Only (L5)
 nav_order: 211
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Dexpanthenol: predicted new indication Anorectal stricture (evidence level L5). Approved use: Not stated in the Australian listing. The knowledge graph lists paral…"
+indication_count: 7
 monitor_inn: "Dexpanthenol"
-predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis", "acute urate nephropathy", "indeterminate colitis", "diversion colitis"]
+predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
+last_modified_at: 2026-10-27
+description: "Dexpanthenol: predicted new indication Anorectal stricture (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dexpanthenol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,96 +33,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Dexpanthenol: From Gastrointestinal Motility and Skin Conditions to Anorectal Stricture
+## Dexpanthenol: topical pantothenic acid precursor → anorectal stricture
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Dexpanthenol is a precursor of pantothenic acid (vitamin B5), used for conditions such as paralytic ileus, gastroparesis, dermatitis and other skin diseases.
-The TxGNN model's top prediction is **anorectal stricture**, but this rests on the model alone, with **no clinical trials** and **no publications** supporting it.
-The only indication in the data compiled for this report with a clinical trial is **exanthem (rash)**, supported by **1 Phase 3 trial**, though its relevance is only partial.
-
----
+Dexpanthenol is a topical provitamin of pantothenic acid (vitamin B5), which is a precursor of coenzyme A and supports skin and mucosal repair. The TxGNN model predicts it may be useful for **anorectal stricture**, but **no clinical trials and no publications** directly study this condition, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Australian listing. The knowledge graph lists paralytic ileus, intestinal obstruction, gastroparesis, atopic eczema, dermatitis, actinic keratosis and other skin diseases |
-| Predicted New Indication | Anorectal stricture (top-ranked) |
-| TxGNN Prediction Score | 99.72% |
-| Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Anorectal stricture |
+| TxGNN Prediction Score | 0.9972 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
-**Other predicted indications (ranks 2-10):** imperforate anus (99.71%), anal polyp (99.62%), vulvar inverted follicular keratosis (99.60%), proctitis (99.60%), exanthem (99.60%), punctate epithelial keratoconjunctivitis (99.34%), acute urate nephropathy (98.99%), indeterminate colitis (98.87%) and diversion colitis (98.87%).
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, dexpanthenol is converted in the body to pantothenic acid, a precursor of coenzyme A. This supports epithelial repair and wound healing, and mechanistically it may be applicable to conditions involving mucosal or skin damage.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, dexpanthenol is converted in the body to pantothenic acid, a precursor of coenzyme A. Coenzyme A is involved in epithelial repair and wound healing, and topical dexpanthenol is used to support skin barrier function and hydration.
 
-For **anorectal stricture**, a role in mucosal healing is plausible, and dexpanthenol is also used for postoperative ileus, a related gut motility problem. However, no direct evidence supports this link.
-
-Some other predictions are more plausible than others:
-- **Proctitis, indeterminate colitis, diversion colitis:** a mucosal repair and anti-inflammatory rationale is conceivable but unproven.
-- **Punctate epithelial keratoconjunctivitis:** dexpanthenol eye preparations are used in some regions for corneal healing and dry eye.
-- **Imperforate anus, anal polyp, vulvar inverted follicular keratosis, acute urate nephropathy:** the mechanistic link is weak or absent. These scores probably reflect network proximity in the knowledge graph rather than a real biological connection.
-
----
+A role in mucosal healing could plausibly relate to anorectal stricture, where tissue repair and scarring are central. This link is hypothetical. No study in the compiled data tests dexpanthenol in strictures, and the TxGNN score reflects a model-derived association only. The score is not evidence of clinical benefit.
 
 ## Clinical Trial Evidence
 
-The only trial found relates to the exanthem prediction (rank 6). No trials were found for the other predicted indications.
+Currently no related clinical trials registered for anorectal stricture.
+
+One Phase 3 trial of dexpanthenol-containing cream relates to a different condition (a predicted skin rash indication ranked lower), so it does not support the main prediction:
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01136005](https://clinicaltrials.gov/study/NCT01136005) | Phase 3 | Completed | 160 | Randomised, double-blind comparison of Bepanthen cream (containing dexpanthenol) versus cetomacrogol cream for preventing papulopustular eruption in patients receiving EGFR inhibitors. Results are not available in the data compiled for this report |
-
-This trial concerns a drug-induced rash rather than exanthem in the strict sense, so its relevance is indirect.
-
----
+| [NCT01136005](https://clinicaltrials.gov/study/NCT01136005) | Phase 3 | Completed | 160 | Bepanthen cream vs cetomacrogol cream for prevention of papulopustular eruption in patients receiving EGFR inhibitors; results not provided |
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 4510J | SebiRinse | Cream 200 g | Not stated |
+| ARTG 4510J | SebiRinse | Cream 200 g | Not recorded in the local data |
 
-The only available form is topical (cream). Oral or other formulations would be needed for the gastrointestinal predictions, and route compatibility has not yet been assessed.
-
----
+The only listed product is a topical cream. No rectal or anal formulation appears in the local data, so route compatibility with an anorectal indication is unconfirmed.
 
 ## Safety Considerations
 
-- **Contraindications (from the knowledge graph, not label text):** haemophilia.
-- **Drug Interactions:** no interactions were found in the data compiled for this report.
-
-Please refer to the TGA-approved Product Information (PI) for full warnings and precautions, as label-based safety data were not available.
-
----
+Please refer to the TGA-approved Product Information (PI) for safety information. No drug interactions were found in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All predictions, including the top-ranked anorectal stricture, rest on model scores alone (L5) with no supporting trials or literature. The single Phase 3 trial relates to a different condition (drug-induced rash), and its relevance is only partial. Mechanistic plausibility is reasonable for mucosal and skin conditions (anorectal stricture, proctitis, exanthem) but weak or absent for others.
+The prediction has a high model score (0.9972) and a plausible but unproven tissue-repair rationale. No trial or publication directly studies anorectal stricture, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Product Information warnings and contraindications for the Australian product (currently missing)
-- Detailed mechanism of action data
-- Confirmation of the population and outcomes of NCT01136005, and a literature search for the exanthem, proctitis and anorectal stricture predictions
-- Assessment of route and formulation compatibility, since only a topical cream is registered in Australia
-- Review of the knowledge-graph haemophilia contraindication against the product label
+- Systematic literature search for dexpanthenol in anorectal or mucosal stricture and healing
+- Mechanism of action data to support the proposed link
+- Assessment of whether a suitable rectal or anal formulation exists, since the only local product is a topical cream
+- Product Information review for warnings and contraindications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

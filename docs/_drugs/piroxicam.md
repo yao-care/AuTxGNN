@@ -6,9 +6,9 @@ nav_order: 579
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Piroxicam: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome . Most plau… (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, arthropathy"
 monitor_inn: "Piroxicam"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
+description: "Piroxicam: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Piroxicam
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Piroxicam: From Rheumatoid Arthritis and Osteoarthritis to Juvenile Idiopathic Arthritis
+## Piroxicam: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model's top-ranked prediction is **colobomatous microphthalmia-rhizome
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (from the knowledge graph; no approved indication text is available for the Australian product) |
-| Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome (rank 1; no credible mechanistic link). Most plausible candidate: juvenile idiopathic arthritis (rank 10) |
-| TxGNN Prediction Score | 99.996% (rank 1); 99.927% (JIA) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (rank 1); L3 (JIA) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1); Proceed with Guardrails limited to JIA as a research question |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model's top-ranked prediction is **colobomatous microphthalmia-rhizome
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, piroxicam is a non-selective COX-1/COX-2 inhibitor. It reduces prostaglandin-mediated inflammation and pain, which underpins its use in rheumatoid arthritis and osteoarthritis.
 
-**Top-ranked predictions (ranks 1–8).** The highest-scoring predictions are mostly rare genetic skeletal, limb or developmental syndromes (for example brachydactyly-syndactyly syndrome, acromesomelic dysplasia Hunter-Thompson type, brachyolmia, pseudoachondroplasia) plus WHIM syndrome. A COX inhibitor cannot correct these developmental or genetic defects. The high scores most likely reflect knowledge-graph proximity, such as shared skeletal or connective tissue nodes, rather than a therapeutic rationale. At most, an NSAID might give symptomatic joint pain relief in some of these conditions. No trials or literature were found for any of them.
+**Top-ranked predictions (ranks 1–8).** The highest-scoring predictions are mostly rare genetic skeletal, limb or developmental syndromes (for example brachydactyly-syndactyly syndrome, acromesomelic dysplasia Hunter-Thompson type, brachyolmia, pseudoachondroplasia) plus WHIM syndrome. A COX inhibitor cannot correct these developmental or genetic defects. The high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as shared skeletal or connective tissue features, not biological evidence and not a therapeutic rationale. At most, an NSAID might give symptomatic joint pain relief in some of these conditions. No trials or literature were found for any of them.
 
 **Rheumatoid nodulosis (rank 9).** This is related to rheumatoid arthritis, so symptomatic NSAID effects are conceivable. However, it is a distinct nodule-forming condition and no efficacy evidence was found.
 
@@ -124,7 +124,7 @@ Please refer to the TGA-approved Product Information (PI) for official warnings 
 **Decision: Hold** for the top-ranked prediction (colobomatous microphthalmia-rhizomelic dysplasia syndrome) and the other predictions of ranks 2–8. **Proceed with Guardrails** (as a research question only) for juvenile idiopathic arthritis.
 
 **Rationale:**
-- The top-ranked predictions have no mechanistic link and no clinical or literature support. The high TxGNN scores likely reflect graph-topology artefacts.
+- The top-ranked predictions have no mechanistic link and no clinical or literature support. The high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - JIA has a plausible mechanism and limited, dated piroxicam-specific paediatric data (L3). Piroxicam is not first-line in current practice, and the evidence concerns symptom control only.
 
 **To proceed, the following is needed:**

@@ -4,17 +4,17 @@ title: Elafibranor
 parent: Model Prediction Only (L5)
 nav_order: 242
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Elafibranor: predicted new indication Amenorrhoea (evidence level L5). Approved use: Primary biliary cholangitis"
 monitor_inn: "Elafibranor"
-predicted_indications: ["amenorrhea (disease)", "non-syndromic esophageal malformation", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma", "deafness, autosomal dominant 39, with dentinogenesis imperfecta 1", "acantholytic variant squamous cell breast carcinoma", "adenosquamous breast carcinoma"]
+predicted_indications: ["amenorrhea (disease)"]
+description: "Elafibranor: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Elafibranor
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,23 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Elafibranor: From Primary Biliary Cholangitis to Amenorrhoea
+## Elafibranor: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Elafibranor (Iqirvo) is a dual PPAR-alpha/delta agonist, developed for non-alcoholic steatohepatitis (NASH) and later repositioned as a treatment for primary biliary cholangitis (PBC), the indication on which it was approved by the FDA and EMA in 2024. The TxGNN model predicts it may be effective for **amenorrhoea**, with a very high score of 99.86%. Currently there are **no clinical trials** and **no publications** supporting this prediction, so it rests on model output alone.
+Elafibranor (Iqirvo) is a dual PPAR-alpha/delta agonist, developed for non-alcoholic steatohepatitis (NASH) and later repositioned as a treatment for primary biliary cholangitis (PBC), the indication on which it was approved by the FDA and EMA in 2024. The TxGNN model predicts it may be effective for **amenorrhoea**, with a very high score of 0.9986. Currently there are **no clinical trials** and **no publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Primary biliary cholangitis (per international approvals; the Australian licence record compiled for this report contains no indication text) |
-| Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.86% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,7 +58,6 @@ Elafibranor is a dual agonist of PPAR-alpha and PPAR-delta (PPARA and PPARD). It
 
 No direct mechanistic link between elafibranor and amenorrhoea has been established. PPAR signalling has been studied in ovarian and metabolic function, but any link to amenorrhoea is speculative. The very high TxGNN score is a computational prediction and is not supported by trials or literature. The relationship between the original indication (a cholestatic liver disease) and amenorrhoea has not been assessed.
 
-Other top-ranked predictions (for example bone Paget disease, squamous cell carcinoma and several rare carcinomas or genetic dental disorders) are likewise unsupported by clinical or literature evidence, and several appear to be knowledge-graph artefacts.
 
 ## Clinical Trial Evidence
 

@@ -4,17 +4,17 @@ title: Famciclovir
 parent: Model Prediction Only (L5)
 nav_order: 284
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Famciclovir: predicted new indication Post-infectious neuralgia (evidence level L5). Approved use: Herpes zoster"
 monitor_inn: "Famciclovir"
-predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor", "anogenital human papillomavirus infection"]
+predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
+description: "Famciclovir: predicted new indication Post-infectious neuralgia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Famciclovir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Famciclovir: From Herpes Zoster to Chickenpox
+## Famciclovir: Post-infectious neuralgia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Chickenpox has **5 linked clinical trials** (2 completed Phase 3 studies of famc
 
 | Item | Content |
 |------|------|
-| Original Indication | Herpes zoster (from the TxGNN knowledge graph; no approved indication text is listed for the ARTG entry) |
-| Predicted New Indication | Post-infectious neuralgia (rank 1 prediction); chickenpox (rank 7) is the best-supported candidate and is evaluated in detail below |
-| TxGNN Prediction Score | 99.75% (post-infectious neuralgia); 99.11% (chickenpox) |
-| Evidence Level | L4 (post-infectious neuralgia); L1 as scored for chickenpox, though no trial confirms chickenpox efficacy (see below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Post-infectious neuralgia |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 (post-infectious neuralgia); L1 as scored for chickenpox, though no trial confirms chickenpox efficacy (see below) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold for post-infectious neuralgia; Proceed with Guardrails for chickenpox |
 
 ---

@@ -4,17 +4,17 @@ title: Memantine
 parent: Model Prediction Only (L5)
 nav_order: 457
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Memantine: predicted new indication Migraine disorder . The top-scoring prediction… (evidence level L5). Approved use: Not stated in the Australian licence data"
 monitor_inn: "Memantine"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "rheumatoid arthritis", "nephrogenic syndrome of inappropriate antidiuresis", "atrophoderma vermiculata", "migraine with or without aura, susceptibility to", "ulerythema ophryogenesis", "brachydactyly-syndactyly syndrome"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
+description: "Memantine: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Memantine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Memantine: From Alzheimer's-Type Dementia to Migraine Disorder
+## Memantine: Pulmonary hypertension
 {: .text-alpha }
 
 *Note: The data compiled for this report did not include an approved indication for memantine. The original indication is therefore not stated in the Australian licence data. Memantine is widely known as an NMDA receptor antagonist used for moderate to severe Alzheimer's disease, but this should be confirmed against the TGA-approved Product Information.*
@@ -46,28 +46,22 @@ Memantine is an oral NMDA receptor antagonist marketed in Australia. The TxGNN m
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Australian licence data |
-| Predicted New Indication | Migraine disorder (best-supported; TxGNN rank 2). The top-scoring prediction, pulmonary hypertension, has only L5 evidence |
-| TxGNN Prediction Score | 99.52% (migraine disorder); 99.54% (pulmonary hypertension) |
-| Evidence Level | L1 (migraine disorder) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pulmonary hypertension |
+| TxGNN Prediction Score | 0.9954 |
+| Evidence Level | L5 (migraine disorder) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (migraine disorder); Hold for pulmonary hypertension and the other predictions |
 
 **Overview of all 10 predictions**
 
 | Rank | Predicted Indication | Score | Evidence Level | Decision |
 |---|---|---|---|---|
-| 1 | Pulmonary hypertension | 99.54% | L5 | Hold |
-| 2 | Migraine disorder | 99.52% | L1 | Proceed with Guardrails |
-| 3 | Kyphoscoliotic heart disease | 99.43% | L5 | Hold |
-| 4 | Migraine with brainstem aura | 99.41% | L2 | Research Question |
-| 5 | Rheumatoid arthritis | 98.73% | L4 | Hold |
-| 6 | Nephrogenic syndrome of inappropriate antidiuresis | 98.67% | L5 | Hold |
-| 7 | Atrophoderma vermiculata | 98.48% | L5 | Hold |
-| 8 | Migraine with or without aura, susceptibility to | 98.43% | L2 | Research Question |
-| 9 | Ulerythema ophryogenesis | 98.21% | L5 | Hold |
-| 10 | Brachydactyly-syndactyly syndrome | 98.12% | L5 | Hold |
+| 1 | Pulmonary hypertension | 0.9954 | L5 | Hold |
+| 2 | Migraine disorder | 0.9952 | L1 | Proceed with Guardrails |
+| 3 | Kyphoscoliotic heart disease | 0.9943 | L5 | Hold |
+| 4 | Migraine with brainstem aura | 0.9941 | L5 | Research Question |
 
 The sections below focus on migraine disorder, the best-supported prediction.
 
@@ -106,7 +100,7 @@ Migraine disorder (most relevant publications):
 | [17901918](https://pubmed.ncbi.nlm.nih.gov/17901918/) | 2007 | Retrospective study | J Headache Pain | Retrospective study of memantine for migraine prevention in 60 patients |
 | [39467289](https://pubmed.ncbi.nlm.nih.gov/39467289/) | 2024 | Clinical practice guideline | Ann Intern Med | 2023 VA/DoD headache guideline covering treatment and prevention of migraine |
 
-Other predictions have little supporting literature. For rheumatoid arthritis, the evidence is preclinical only (for example PMID 22134197 in a mouse arthritis model, and PMID 16533508 in vitro). For pulmonary hypertension, there is only a preclinical NMDA receptor study (PMID 33500723). A nitrate derivative of memantine (MN-08) is in development for pulmonary arterial hypertension (PMID 41739394), but this is a different compound.
+Other predictions have little supporting literature. For pulmonary hypertension, there is only a preclinical NMDA receptor study (PMID 33500723). A nitrate derivative of memantine (MN-08) is in development for pulmonary arterial hypertension (PMID 41739394), but this is a different compound.
 
 ## Australia Market Information
 

@@ -4,17 +4,17 @@ title: Flunitrazepam
 parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Flunitrazepam: predicted new indication Insomnia . Best-supported new candidate: alcohol withdrawal delirium (evidence level L5). Approved use: Not stated in the data compiled for this report . Publi…"
 monitor_inn: "Flunitrazepam"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "anxiety", "anxiety disorder", "alcohol withdrawal delirium", "migraine with or without aura, susceptibility to", "agoraphobia", "benign paroxysmal torticollis of infancy", "atrophoderma vermiculata"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "anxiety", "anxiety disorder", "alcohol withdrawal delirium", "agoraphobia", "benign paroxysmal torticollis of infancy", "atrophoderma vermiculata"]
+description: "Flunitrazepam: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Flunitrazepam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Flunitrazepam: From Insomnia to Insomnia (Existing Use), with Alcohol Withdrawal Delirium as the Best-Supported New Direction
+## Flunitrazepam: Migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model's top prediction is **insomnia**, which is an existing use rathe
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report (the ARTG entry has no indication text). Published sources describe use as a hypnotic for severe insomnia |
-| Predicted New Indication | Insomnia (top-ranked prediction; already an established use). Best-supported new candidate: alcohol withdrawal delirium |
-| TxGNN Prediction Score | 99.89% (insomnia); 99.50% (alcohol withdrawal delirium) |
-| Evidence Level | L3 (insomnia and alcohol withdrawal delirium); L5 for most other predictions |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Migraine disorder |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 (insomnia and alcohol withdrawal delirium); L5 for most other predictions |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (for repurposing); Proceed with Guardrails only for a focused research question in alcohol withdrawal delirium |
 
 ---
@@ -65,7 +65,7 @@ Flunitrazepam is a benzodiazepine. It acts on GABA-A receptors (including the α
 
 **Alcohol withdrawal delirium:** Chronic alcohol exposure alters GABA-A and NMDA receptor function, and withdrawal produces GABAergic hypofunction. Benzodiazepines are standard therapy for this condition, so a mechanistic link is strong. However, flunitrazepam offers no clear advantage over established agents such as diazepam or lorazepam, and it carries abuse concerns.
 
-**Other predictions:** Migraine entities, benign paroxysmal torticollis of infancy and atrophoderma vermiculata are prediction-only, with no supporting literature or trials. Their scores likely reflect network proximity in the knowledge graph rather than biological rationale. Anxiety, anxiety disorder and agoraphobia have only class-level or indirect support.
+**Other predictions:** Migraine entities, benign paroxysmal torticollis of infancy and atrophoderma vermiculata are prediction-only, with no supporting literature or trials. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Anxiety, anxiety disorder and agoraphobia have only class-level or indirect support.
 
 ---
 

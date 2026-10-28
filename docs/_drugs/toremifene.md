@@ -4,17 +4,17 @@ title: Toremifene
 parent: Model Prediction Only (L5)
 nav_order: 740
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Toremifene: predicted new indication HIV infectious disease (evidence level L5). Approved use: Hormone-dependent breast cancer"
 monitor_inn: "Toremifene"
-predicted_indications: ["HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "multiple endocrine neoplasia", "AIDS", "obsolete familial combined hyperlipidemia", "nephrogenic syndrome of inappropriate antidiuresis", "gout"]
+predicted_indications: ["HIV infectious disease"]
+description: "Toremifene: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Toremifene
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Toremifene: From Breast Cancer to HIV Infectious Disease
+## Toremifene: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Hormone-dependent breast cancer (the ARTG entry in the data compiled for this report has no indication text; this is taken from the literature) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.41% |
+| TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,13 +61,12 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, but
 
 Detailed mechanism of action data are not available in the data compiled for this report. Toremifene is a SERM, a chlorinated tamoxifen analogue that blocks estrogen receptor signalling in breast tissue. Its efficacy in breast cancer is well established, but there is no direct mechanistic link to HIV.
 
-The only linked paper (PMID 24520056) is a preclinical study. It reports that estrogen receptor antagonists related to tamoxifen and toremifene have antifungal activity against *Cryptococcus* and work synergistically with fluconazole. Cryptococcosis is a common opportunistic infection in people with advanced HIV/AIDS, but this does not show any effect on HIV itself.
+The only linked paper (PMID 24520056) is a preclinical study. It reports that estrogen receptor antagonists related to tamoxifen and toremifene have antifungal activity against *Cryptococcus* and work synergistically with fluconazole.
 
-The high TxGNN score (99.41%) is therefore best read as a knowledge-graph association, not as evidence of antiviral activity.
+The high TxGNN score (0.9941) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of antiviral activity.
 
 Related predictions in the same output show a similar pattern:
-- **AIDS:** Two in vitro studies exist, one on AIDS-related Kaposi's sarcoma cells and one on cryptococcal infection. Neither shows an effect on HIV disease.
-- **Simian immunodeficiency virus infection and feline AIDS:** Prediction only, with no studies.
+- Neither shows an effect on HIV disease.
 - **Female breast carcinoma:** This is the best-supported prediction (multiple Phase 3 trials). However, it confirms existing use and is not true repurposing.
 
 ---
@@ -137,7 +136,7 @@ The HIV prediction rests on a model score alone. The only linked evidence is a p
 - Mechanism of action data linking toremifene to HIV biology
 - The approved indication text and PI safety information (warnings, contraindications) for the Australian product
 - A drug interaction and QT risk assessment against common antiretroviral regimens
-- If a repurposing programme is still wanted, consider the AIDS-associated conditions with preclinical signals (cryptococcosis and Kaposi's sarcoma). These are more plausible than HIV itself.
+- These are more plausible than HIV itself.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

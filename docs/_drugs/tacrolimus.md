@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tacrolimus
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 695
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "Tacrolimus"
-predicted_indications: ["seborrheic dermatitis", "parapsoriasis", "acute lichenoid pityriasis", "acrodermatitis chronica atrophicans", "acne keloid", "psoriasis", "neonatal dermatomyositis", "exanthem (disease)"]
+predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
+description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tacrolimus: From Atopic Eczema to Seborrheic Dermatitis
+## Tacrolimus: Seborrheic dermatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **2 directly relevant clinical trials** (one Phase 3 and one Phase 4, both 
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic eczema / atopic dermatitis (source: TxGNN knowledge graph; the ARTG entry in the data compiled has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Seborrheic dermatitis |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 (as scored in the data compiled; see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Strictly applying the grading rules, the seborrheic dermatitis evidence comprises one completed Phase 3 trial and one completed Phase 4 study, with no results summarised in the data. That is closer to L2 than to L1 (which needs at least two completed Phase 3 RCTs). The L1 grade comes from the scoring in the data compiled and should be confirmed.
@@ -96,7 +96,7 @@ The only registered product in the data compiled is an oral capsule. No topical 
 
 ## Safety Considerations
 
-- **Contraindications (knowledge graph associations, not label text):** The TxGNN knowledge graph links tacrolimus with conditions including hypertension, long QT syndrome and torsades de pointes, liver failure, kidney disease, epilepsy, hyperglycaemia and diabetes mellitus, serious infections (including herpes simplex, herpes zoster, infectious mononucleosis and progressive multifocal leukoencephalopathy), and cancers (including lymphoma). These relate mainly to systemic use and should be checked against the TGA-approved Product Information.
+- **Contraindications (model-derived associations, not label text):** The TxGNN model (deep learning) associates tacrolimus with conditions including hypertension, long QT syndrome and torsades de pointes, liver failure, kidney disease, epilepsy, hyperglycaemia and diabetes mellitus, serious infections (including herpes simplex, herpes zoster, infectious mononucleosis and progressive multifocal leukoencephalopathy), and cancers (including lymphoma). These associations may reflect similarities the model learned between related diseases, not biological evidence. They relate mainly to systemic use and should be checked against the TGA-approved Product Information.
 - **Drug Interactions:** 100 interactions were identified. Major-level interactions in the list reviewed include amphotericin B (including the lipid complex), loperamide, mesalazine, omeprazole and balsalazide. Moderate interactions include corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), famotidine, rabeprazole, metformin, pioglitazone, aprepitant and metronidazole.
 - **Cancer risk:** A 2023 systematic review and meta-analysis (PMID 36370744) examined cancer risk with topical calcineurin inhibitors in atopic dermatitis. Long-term topical use carries a boxed warning in other jurisdictions.
 - **Diagnostic caution:** Topical immunomodulators can modify the appearance of fungal skin infection (tinea incognito), so infection should be excluded before treating a suspected seborrheic dermatitis.

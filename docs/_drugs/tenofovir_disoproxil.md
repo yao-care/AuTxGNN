@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tenofovir Disoproxil
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 707
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Tenofovir Disoproxil: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Tenofovir disoproxil"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 ---
 
 # Tenofovir Disoproxil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Support is limited to **0 registered clinical trials** and **animal-model and re
 |------|------|
 | Original Indication | Chronic hepatitis B virus infection; HIV infection; AIDS |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 (preclinical studies only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -124,7 +124,7 @@ Please refer to the TGA-approved Product Information (PI) for authoritative warn
 
 **Rationale:**
 - Evidence is preclinical only (L4). There are no registered clinical trials for SIV infection, and the indication is an animal model of the already-approved HIV indication, not a distinct human indication.
-- The model score is very high (99.95%), but it does not translate into a new clinical opportunity.
+- The model score is very high (0.9995), but it does not translate into a new clinical opportunity.
 
 **To proceed, the following is needed:**
 - Confirmation of whether any human indication is being pursued. For SIV, the practical value is as a preclinical model to support dosing and prophylaxis research, not a new patient indication.

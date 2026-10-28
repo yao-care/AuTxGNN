@@ -48,10 +48,10 @@ Of the 10 predicted indications, rhabdomyosarcoma has the strongest evidence bas
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L2 (as assigned in the data compiled for this report; strictly, only Phase 1/2 trials, none randomised and completed with efficacy results) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9991 |
+| Evidence Level | L5 (as assigned in the data compiled for this report; strictly, only Phase 1/2 trials, none randomised and completed with efficacy results) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -118,7 +118,7 @@ Please refer to the TGA-approved Product Information (PI) for official warnings 
 For breast cancer, the evidence consists of small, early-phase or terminated trials and older Phase 2 studies, with no completed Phase 3 trial. Ifosfamide is not a standard-of-care agent in this setting. The high TxGNN score is supportive but not sufficient on its own.
 
 **Other predicted indications:**
-- **Rhabdomyosarcoma** (score 99.67%) has much stronger support, with Phase 3 trials of ifosfamide in soft tissue sarcoma (for example NCT00003212, n=780, and NCT00061984, n=455) and ifosfamide-based regimens in paediatric and adult rhabdomyosarcoma. The Phase 3 evidence is largely in broader soft tissue sarcoma. It is rated **Proceed with Guardrails**, and may be the better lead candidate for further evaluation.
+- **Rhabdomyosarcoma** (score 0.9967) has much stronger support, with Phase 3 trials of ifosfamide in soft tissue sarcoma (for example NCT00003212, n=780, and NCT00061984, n=455) and ifosfamide-based regimens in paediatric and adult rhabdomyosarcoma. The Phase 3 evidence is largely in broader soft tissue sarcoma. It is rated **Proceed with Guardrails**, and may be the better lead candidate for further evaluation.
 - Botryoid-type embryonal rhabdomyosarcoma of the vagina is a plausible extrapolation from rhabdomyosarcoma but has only case-level evidence.
 - The haematological predictions (myelodysplastic syndromes, cytopenias, anaemias, monocytic leukaemia and 5q deletion) have no supportive evidence. Ifosfamide is associated with causing myelosuppression and therapy-related MDS and leukaemia, so these are not credible therapeutic targets and should be held.
 

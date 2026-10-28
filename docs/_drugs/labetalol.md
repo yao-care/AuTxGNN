@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Labetalol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 404
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Labetalol: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertension / hypertensive disorder"
 monitor_inn: "Labetalol"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "primary hereditary glaucoma", "open-angle glaucoma", "atrial flutter (disease)", "ocular tuberculosis"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Labetalol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Labetalol: From Hypertension to Malignant Renovascular Hypertension
+## Labetalol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Labetalol is a combined alpha-1/beta-adrenergic blocker, originally used to treat hypertension and hypertensive disorders.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but this is largely an extension of its existing indication.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but this is largely an extension of its existing indication.
 Evidence is limited to **0 clinical trials** and **1 publication** (a 1981 case report), so support is weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension / hypertensive disorder (the ARTG entry has no indication text, so this comes from the knowledge graph) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.08% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9908 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Malignant renovascular hypertension is a severe hypertensive state, so blood pressure lowering by this mechanism is plausibly relevant. The new indication overlaps heavily with the approved use, so this is closer to an extension of the original indication than true repurposing. No disease-specific data were found.
 
-Other high-scoring predictions have a weaker rationale. Pulmonary hypertension and chronic pulmonary heart disease are unlikely to benefit, because beta-blockade may harm right-ventricular function. Their high scores probably reflect the shared "hypertension" term in the knowledge graph. Open-angle glaucoma has a class-level rationale and some early evidence (see the literature table) but is a lower-ranked prediction.
+Other high-scoring predictions have a weaker rationale. Pulmonary hypertension is unlikely to benefit, because beta-blockade may harm right-ventricular function. The high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

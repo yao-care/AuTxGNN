@@ -4,17 +4,17 @@ title: Phenoxybenzamine
 parent: Model Prediction Only (L5)
 nav_order: 568
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Phenoxybenzamine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Phaeochromocytoma (adrenal gland and sympathetic paraganglioma) and r…"
 monitor_inn: "Phenoxybenzamine"
-predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "respiratory failure", "hypotrichosis simplex of the scalp", "subarachnoid hemorrhage (disease)", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "congenital hypotrichosis milia", "visceral calciphylaxis", "angiodysplasia of stomach"]
+predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma"]
+description: "Phenoxybenzamine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenoxybenzamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phenoxybenzamine: From Phaeochromocytoma to Primary Hereditary Glaucoma
+## Phenoxybenzamine: Primary hereditary glaucoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **primary hereditary glaucoma**
 
 | Item | Content |
 |------|------|
-| Original Indication | Phaeochromocytoma (adrenal gland and sympathetic paraganglioma) and related tumours (from the knowledge graph; no approved indication text is available for the Australian product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.55% |
+| TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,9 +62,7 @@ Alpha-blockade could theoretically alter aqueous humour dynamics or ocular blood
 **Other predictions.** The next-ranked predictions (all Hold unless stated) are:
 
 - **Open-angle glaucoma** (99.48%): a plausible but unsupported link through intraocular pressure and perfusion. Systemic hypotension and irreversible receptor binding raise safety concerns.
-- **Respiratory failure** (98.80%): indirect preclinical and case-report support only (L4).
 - **Subarachnoid haemorrhage** (97.81%): the most interesting secondary signal. Animal studies suggest that sympathetic or noradrenergic blockade reduces cerebral vasospasm, and one older study reported reversal of experimental spasm with phenoxybenzamine. It is rated L4 and labelled a Research Question, with no human trials.
-- Hypotrichosis simplex of the scalp, venous and arterial thoracic outlet syndrome, congenital hypotrichosis milia, visceral calciphylaxis and angiodysplasia of the stomach have no plausible supporting evidence (L5).
 
 ## Clinical Trial Evidence
 
@@ -74,7 +72,6 @@ Currently no related clinical trials registered for primary hereditary glaucoma 
 
 Currently no related literature available for primary hereditary glaucoma.
 
-For the third-ranked prediction, respiratory failure, the data compiled for this report include only indirect, mostly old preclinical or case-report material:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

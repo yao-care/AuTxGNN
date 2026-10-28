@@ -47,31 +47,31 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Aprepitant is an NK1 receptor antagonist. Detailed mechanism of action data was not available in the data compiled for this report, so this description reflects general pharmacological knowledge of the drug class.
 
-NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor, which lead to water retention and low blood sodium. There is no established mechanistic link between NK1 antagonism and this pathway. Substance P/NK1 signalling has been loosely discussed in relation to water balance, but this is speculative. The very high TxGNN score is a graph-based model output and is not backed by any clinical or literature data.
+NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor, which lead to water retention and low blood sodium. There is no established mechanistic link between NK1 antagonism and this pathway. Substance P/NK1 signalling has been loosely discussed in relation to water balance, but this is speculative. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by any clinical or literature data.
 
 **Other predicted indications (all L5, all Hold):**
 
 | Rank | Predicted Indication | Score | Comment |
 |------|------|------|------|
-| 2 | Hypertrichosis | 99.91% | No plausible mechanistic link to NK1 antagonism |
-| 3 | Pulmonary hypertension | 99.90% | Indirect preclinical association only; the one linked paper is not relevant (see below) |
-| 4 | Leprosy | 99.90% | Theoretical neuroimmune role of substance P only |
-| 5 | Ambras-type hypertrichosis universalis congenita | 99.87% | Rare genetic disorder; likely a graph-proximity artefact |
-| 6 | Malformation syndrome with odontal/periodontal component | 99.86% | Genetic developmental condition; no rationale |
-| 7 | Kyphoscoliotic heart disease | 99.86% | No mechanistic link |
-| 8 | Syndrome with Dandy-Walker malformation | 99.86% | Structural congenital defect; no rationale |
-| 9 | Subarachnoid haemorrhage | 99.85% | Weak, indirect preclinical hypothesis (substance P in blood-brain barrier disruption and cerebral oedema); the most biologically plausible of the list, but still hypothesis-level |
-| 10 | Isolated genetic hair shaft abnormality | 99.85% | No recognised connection |
+| 2 | Hypertrichosis | 0.9991 | No plausible mechanistic link to NK1 antagonism |
+| 3 | Pulmonary hypertension | 0.9990 | Indirect preclinical association only; the one linked paper is not relevant (see below) |
+| 4 | Leprosy | 0.9990 | Theoretical neuroimmune role of substance P only |
+| 5 | Ambras-type hypertrichosis universalis congenita | 0.9987 | Rare genetic disorder; score from the TxGNN model (deep learning), may reflect similarities learned between related diseases, not biological evidence |
+| 6 | Malformation syndrome with odontal/periodontal component | 0.9986 | Genetic developmental condition; no rationale |
+| 7 | Kyphoscoliotic heart disease | 0.9986 | No mechanistic link |
+| 8 | Syndrome with Dandy-Walker malformation | 0.9986 | Structural congenital defect; no rationale |
+| 9 | Subarachnoid haemorrhage | 0.9985 | Weak, indirect preclinical hypothesis (substance P in blood-brain barrier disruption and cerebral oedema); the most biologically plausible of the list, but still hypothesis-level |
+| 10 | Isolated genetic hair shaft abnormality | 0.9985 | No recognised connection |
 
 ## Clinical Trial Evidence
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clarithromycin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 168
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Clarithromycin: predicted new indication Hyperamylasemia (evidence level L4). Approved use: Bacterial infections, including otitis media…"
 monitor_inn: "Clarithromycin"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "septicemic plague", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
 ---
 
 # Clarithromycin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,13 +50,13 @@ The high model score is not backed by clinical evidence for this indication.
 |------|------|
 | Original Indication | Bacterial infections, including otitis media, streptococcal and staphylococcal infections, bacterial pneumonia (including Mycoplasma and Chlamydia), and maxillary sinusitis |
 | Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.35% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9935 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-The original indications come from the TxGNN knowledge graph. The Australian licence record has no approved indication text.
+The original indications are not described in the Australian licence record, which has no approved indication text.
 
 ---
 
@@ -66,7 +66,7 @@ Currently, detailed mechanism of action data is not available. Clarithromycin is
 
 The only literature is a 2004 Japanese case report of a *Mycobacterium abscessus* lung infection in a patient who also had primary macroamylasemia. Clarithromycin was used there as an antimicrobial for the infection, not to treat the raised amylase. The report therefore does not show that the drug affects the amylase abnormality.
 
-The high TxGNN score most likely reflects patterns in the knowledge graph rather than a demonstrated biological effect.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -120,7 +120,6 @@ The data compiled for this report contain no label-based warnings or contraindic
 - The only evidence for hyperamylasemia is a single case report in which clarithromycin treated an infection, not the amylase abnormality. No trials are registered and no mechanism is established, so the high TxGNN score is not supported.
 
 **Other predictions worth noting:**
-- Among the other predicted indications, **monoclonal gammopathy** (rank 7) has the strongest evidence.
   - It has a completed Phase 2 trial (NCT00006219, DHEA versus clarithromycin in MGUS).
   - It also has extensive literature on clarithromycin combined with immunomodulatory drugs and dexamethasone in multiple myeloma and Waldenström's macroglobulinemia, including a Phase 3 randomised trial (PMID 34021118).
   - Most of this literature concerns related but different conditions, and the pack rates the indication L2 with a "Research Question" recommendation.

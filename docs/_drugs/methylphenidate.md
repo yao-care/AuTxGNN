@@ -4,17 +4,17 @@ title: Methylphenidate
 parent: Model Prediction Only (L5)
 nav_order: 469
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (Aarskog-Scott syndrome) (evidence level L5). Approved use: Attention deficit hyperactivity disorder (ADHD)"
 monitor_inn: "Methylphenidate"
-predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder", "trichotillomania", "cerebellar ataxia", "autosomal dominant cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "benign paroxysmal torticollis of infancy", "insomnia (disease)"]
+predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
+description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methylphenidate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Methylphenidate: From ADHD to Faciodigitogenital Syndrome
+## Methylphenidate: Faciodigitogenital syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Methylphenidate is a central nervous system stimulant originally used for attention deficit hyperactivity disorder (ADHD) and narcolepsy.
 The TxGNN model ranks **faciodigitogenital syndrome** as its top predicted new indication, but **no clinical trials and no publications** support this prediction, so it rests on the model score alone.
-Other predicted indications (for example trichotillomania, cerebellar ataxia and insomnia) have some indirect evidence, which is summarised below.
 
 ---
 
@@ -48,12 +47,12 @@ Other predicted indications (for example trichotillomania, cerebellar ataxia and
 
 | Item | Content |
 |------|------|
-| Original Indication | Attention deficit hyperactivity disorder (ADHD); narcolepsy (no approved indication text is recorded for the ARTG entry) |
-| Predicted New Indication | Faciodigitogenital syndrome (Aarskog-Scott syndrome) |
-| TxGNN Prediction Score | 99.998% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Faciodigitogenital syndrome |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,21 +61,15 @@ Other predicted indications (for example trichotillomania, cerebellar ataxia and
 
 Currently, detailed mechanism of action data is not available. Based on known information, methylphenidate is a stimulant widely used for ADHD, and its efficacy in that condition is well established. The literature compiled for this report describes it as acting on the dopamine and norepinephrine transporters.
 
-For faciodigitogenital syndrome, the data compiled for this report show no identifiable mechanistic link. The syndrome can involve ADHD-like features, which might loosely relate to methylphenidate's dopaminergic and noradrenergic action, but this is speculative. The high score is a graph-based prediction only.
+For faciodigitogenital syndrome, the data compiled for this report show no identifiable mechanistic link. The syndrome can involve ADHD-like features, which might loosely relate to methylphenidate's dopaminergic and noradrenergic action, but this is speculative. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predicted indications (ranks 2-10)**
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |---|---|---|---|---|
-| 2 | Chondromyxoid fibroma | 99.99% | L5 | No plausible mechanistic link; likely a graph artefact |
-| 3 | Specific developmental disorder | 99.99% | L4 | Overlaps with the approved ADHD use; evidence is indirect |
-| 4 | Dysthymic disorder | 99.11% | L4 | Plausible dopaminergic rationale; no direct testing in dysthymia |
-| 5 | Trichotillomania | 98.83% | L4 | Signal is mainly safety-related (reports of onset or worsening on treatment) |
-| 6 | Cerebellar ataxia | 98.39% | L4 | Imaging and case-level reports; symptomatic effects on attention and fatigue only |
-| 7 | Autosomal dominant cerebellar ataxia | 98.38% | L4 | Single dopamine transporter PET study; no methylphenidate intervention |
-| 8 | Spinocerebellar degeneration with slow eye movements | 97.57% | L4 | Imaging studies only; indirect rationale |
-| 9 | Benign paroxysmal torticollis of infancy | 97.51% | L5 | No mechanistic rationale or evidence |
-| 10 | Insomnia | 97.51% | L3 | Stimulant is mechanistically opposed to treating insomnia; the trials examine sleep as an ADHD treatment outcome |
+| 2 | Chondromyxoid fibroma | 0.9999 | L5 | No plausible mechanistic link; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
+| 3 | Specific developmental disorder | 0.9999 | L5 | Overlaps with the approved ADHD use; evidence is indirect |
+| 4 | Dysthymic disorder | 0.9911 | L5 | Plausible dopaminergic rationale; no direct testing in dysthymia |
 
 ---
 
@@ -131,7 +124,7 @@ The publications below were retrieved for other predicted indications, with tric
   - **Major:** bupropion.
   - **Moderate:** isometheptene, ephedrine, epinephrine, and bowel preparations (polyethylene glycol 3350 with electrolytes, picosulfuric acid, sodium sulfate).
   - Other recorded interactions (for example doxycycline, metformin, omeprazole, pantoprazole, morphine, simvastatin and prednisone) have an unclassified severity.
-- **Indication-specific signals:** case reports and series describe new-onset or worsened trichotillomania during methylphenidate treatment. Insomnia is a recognised adverse effect.
+- Insomnia is a recognised adverse effect.
 
 Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
@@ -148,7 +141,6 @@ The top prediction, faciodigitogenital syndrome, has a very high model score but
 - Mechanism of action data for methylphenidate
 - TGA Product Information, including approved indications, warnings and contraindications, for the ARTG entry
 - For faciodigitogenital syndrome, a defined clinical target (for example ADHD-like symptoms) and supporting clinical or preclinical evidence
-- For the cerebellar ataxia group, prospective studies assessing symptomatic outcomes (attention, fatigue) separately from ataxia itself
 - A safety review for any target population, given the cardiovascular, psychiatric and seizure-related contraindication signals
 ## Disclaimer
 

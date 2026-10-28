@@ -4,17 +4,17 @@ title: Midazolam
 parent: High Evidence (L1-L2)
 nav_order: 476
 evidence_level: L2
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Midazolam: predicted new indication Insomnia (evidence level L2). Approved use: Anxiety"
 monitor_inn: "Midazolam"
-predicted_indications: ["insomnia (disease)", "myofascial pain syndrome", "obsessive-compulsive disorder", "tendinitis", "benign paroxysmal torticollis of infancy", "anxiety disorder", "agoraphobia", "myositis fibrosa", "idiopathic granulomatous myositis", "dysthymic disorder"]
+predicted_indications: ["insomnia (disease)"]
 ---
 
 # Midazolam
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This is closer to re-confirming a known hypnotic use than to a novel repurposing
 |------|------|
 | Original Indication | Anxiety (ARTG indication text is not available in the data compiled for this report) |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

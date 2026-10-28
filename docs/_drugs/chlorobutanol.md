@@ -4,17 +4,17 @@ title: Chlorobutanol
 parent: Model Prediction Only (L5)
 nav_order: 154
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Chlorobutanol: predicted new indication Erectile dysfunction (evidence level L5). Approved use: Not stated in the data compiled for this report (the product is an ea…"
+description: "Chlorobutanol: predicted new indication erectile dysfunction (disease) (evidence level L5). Approved use: Not stated in the data compiled for this report (the product is an ea…"
 monitor_inn: "chlorobutanol"
-predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "migraine with or without aura, susceptibility to", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
+predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
 ---
 
 # Chlorobutanol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Chlorobutanol: From Ear Wax Softening (Cerumol) to Erectile Dysfunction
+## Chlorobutanol: From Ear Wax Softening (Cerumol) to Erectile Dysfunction (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,19 +47,19 @@ The TxGNN model predicts it may be effective for **erectile dysfunction**, but *
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (the product is an ear-drop formulation) |
 | Predicted New Indication | Erectile dysfunction |
-| TxGNN Prediction Score | 99.79% |
+| TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Chlorobutanol is a chloroform-derived preservative with mild sedative and local anaesthetic properties. In Australia it is present in a multi-ingredient ear-drop product, and no approved indication text was captured for that product.
 
-No mechanistic link to erectile dysfunction has been established. The high TxGNN score (0.998) is a computational prediction only and should not be read as evidence of efficacy.
+No mechanistic link to erectile dysfunction has been established. The high TxGNN score (0.9979) is a computational prediction only and should not be read as evidence of efficacy.
 
-Other top-ranked predictions include migraine disorder (99.71%), migraine with brainstem aura (99.58%), Tourette syndrome (99.54%), trichotillomania (99.50%) and attention deficit-hyperactivity disorder (99.41%). The migraine-related entries likely reflect one shared graph-based similarity signal, not independent findings. Most of the remaining predictions are rare conditions with no plausible mechanistic rationale. None has supporting trials or literature.
+Other top-ranked predictions include migraine disorder (0.9971), migraine with brainstem aura (0.9958), Tourette syndrome (0.9954), trichotillomania (0.9950) and attention deficit-hyperactivity disorder (0.9941). The migraine-related scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so they are likely not independent findings. Most of the remaining predictions are rare conditions with no plausible mechanistic rationale. None has supporting trials or literature.
 
 ## Clinical Trial Evidence
 

@@ -4,17 +4,17 @@ title: Tadalafil
 parent: Model Prediction Only (L5)
 nav_order: 696
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia, pulmonary hypertension…"
 monitor_inn: "Tadalafil"
-predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura", "migraine disorder", "hypotrichosis simplex of the scalp"]
+predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
+description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tadalafil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tadalafil: From Erectile Dysfunction and Pulmonary Hypertension to Ambras Type Hypertrichosis Universalis Congenita
+## Tadalafil: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tadalafil is a PDE5 inhibitor originally used for erectile dysfunction, benign prostatic hyperplasia and pulmonary hypertension, among other indications.
-The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a graph-based prediction only.
+The TxGNN model (deep learning) predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **Ambras type hypertrichosis un
 
 | Item | Content |
 |------|------|
-| Original Indication | Benign prostatic hyperplasia, pulmonary hypertension, erectile dysfunction, psychologic dyspareunia, premature ejaculation (from the knowledge graph; the ARTG entry has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **Ambras type hypertrichosis un
 
 Currently, detailed mechanism of action data is not available. Based on known information, tadalafil is a PDE5 inhibitor, a class that raises cGMP levels and causes vasodilation. Its efficacy in erectile dysfunction and pulmonary hypertension is established, but no mechanistic link to the predicted new indication has been shown.
 
-Ambras syndrome is a rare genetic disorder of hair growth. No plausible PDE5 inhibition pathway has been established, and tadalafil's vasodilatory and cGMP-related effects have no demonstrated connection to the disease mechanism. The high TxGNN score most likely reflects graph proximity to other hair-phenotype conditions rather than a validated biological rationale.
+Ambras syndrome is a rare genetic disorder of hair growth. No plausible PDE5 inhibition pathway has been established, and tadalafil's vasodilatory and cGMP-related effects have no demonstrated connection to the disease mechanism. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related hair-phenotype diseases, not biological evidence.
 
 The other top-ranked predictions are also unsupported by evidence. Several are hair-related (hypertrichosis, isolated genetic hair shaft abnormality, familial isolated trichomegaly, hypotrichosis simplex of the scalp). Hypertrichosis is a known adverse effect of some vasodilators such as minoxidil, which suggests a possible risk rather than a benefit. The only prediction with a plausible indirect rationale is kyphoscoliotic heart disease (rank 7), given tadalafil's use in pulmonary hypertension, but this is unvalidated.
 
@@ -111,7 +111,7 @@ Several interacting drugs are CYP3A4 inhibitors or inducers, which is relevant t
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score, with no clinical trials or publications and no plausible mechanistic link between PDE5 inhibition and Ambras syndrome. The few related signals (hypertrichosis as a vasodilator class effect, migraine aura case report) suggest possible risk rather than benefit.
+The prediction rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications and no plausible mechanistic link between PDE5 inhibition and Ambras syndrome. The few related signals (hypertrichosis as a vasodilator class effect, migraine aura case report) suggest possible risk rather than benefit.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example, from DrugBank) and a clear mechanistic rationale for the predicted indication

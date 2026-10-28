@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 379
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Insulin Degludec: predicted new indication Type 1 diabetes mellitus (evidence level L1). Approved use: Diabetes mellitus"
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
+description: "Insulin Degludec: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Degludec
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-## Insulin Degludec: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## Insulin Degludec: Autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Insulin degludec is an ultra-long-acting basal insulin analogue, originally used to treat diabetes mellitus and diabetic ketoacidosis.
-The TxGNN model predicts it may be effective for **type 1 diabetes mellitus**, which is largely a subset of its existing use, so this is not a true repurposing case.
+The TxGNN model predicts it may be effective for **autoimmune oophoritis**.
 The data compiled for this report include **more than 40 registered clinical trials** and **19 publications** supporting this use.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus; diabetic ketoacidosis (the ARTG entry has no indication text recorded) |
-| Predicted New Indication | Type 1 diabetes mellitus |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune oophoritis |
+| TxGNN Prediction Score | 0.9923 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -122,11 +122,11 @@ Five further predictions were ranked lower, all with **no clinical trials or lit
 
 | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|
-| Autoimmune oophoritis | 99.23% | No plausible direct link to basal insulin replacement |
-| Opsismodysplasia | 99.12% | Speculative link via insulin signalling (INPPL1/SHIP2); exogenous insulin is not expected to correct a genetic defect |
-| Thiamine-responsive dysfunction syndrome | 99.10% | Insulin could manage associated diabetes symptomatically only |
-| Classic stiff person syndrome | 99.08% | Likely reflects shared anti-GAD autoimmunity with type 1 diabetes; insulin does not treat the neurological disease |
-| Focal stiff limb syndrome | 99.08% | As above |
+| Autoimmune oophoritis | 0.9923 | No plausible direct link to basal insulin replacement |
+| Opsismodysplasia | 0.9912 | Speculative link via insulin signalling (INPPL1/SHIP2); exogenous insulin is not expected to correct a genetic defect |
+| Thiamine-responsive dysfunction syndrome | 0.9910 | Insulin could manage associated diabetes symptomatically only |
+| Classic stiff person syndrome | 0.9908 | Likely reflects shared anti-GAD autoimmunity with type 1 diabetes; insulin does not treat the neurological disease |
+| Focal stiff limb syndrome | 0.9908 | As above |
 
 ## Conclusion and Next Steps
 

@@ -4,17 +4,17 @@ title: Dorzolamide
 parent: Model Prediction Only (L5)
 nav_order: 227
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Dorzolamide: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma and ocular hypertension"
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
+description: "Dorzolamide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dorzolamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,46 +33,42 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Dorzolamide: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Dorzolamide: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Dorzolamide is a topical carbonic anhydrase inhibitor, originally used to lower eye pressure in open-angle glaucoma and ocular hypertension.
-The TxGNN model's top-ranked prediction is **primary hereditary glaucoma**, but **no clinical trials and no publications** specifically support it.
+The TxGNN model's top-ranked prediction is **hypotrichosis simplex of the scalp**, but **no clinical trials and no publications** specifically support it.
 Of the ten predictions reviewed, only open-angle glaucoma has strong evidence (34 registered trials), and that is the drug's existing approved use rather than a new one.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma and ocular hypertension (from the knowledge graph; the Australian licence record has no indication text) |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypotrichosis simplex of the scalp |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, dorzolamide inhibits carbonic anhydrase II in the ciliary processes. This reduces aqueous humour formation and lowers intraocular pressure. Pharmacology data also lists activity at carbonic anhydrase 1, 7, 12 and 14.
 
-Primary hereditary glaucoma is also a disease of raised eye pressure, so a pressure-lowering drug is mechanistically plausible. However, this is mostly an extension within the glaucoma category, not a distinct new opportunity. No trials or publications were found for this specific form. The high TxGNN score is a model prediction only.
 
 **Other predictions reviewed**
 
 | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Hypotrichosis simplex of the scalp | 99.96% | L5 | No plausible mechanism; likely knowledge-graph proximity. No evidence. |
-| Congenital hypotrichosis milia | 99.94% | L5 | No identifiable mechanism. No evidence. |
-| Alopecia | 99.90% | L5 | No credible mechanism. The only paper is a veterinary case report on a dog, which is not evidence of efficacy. |
-| Diffuse alopecia areata | 99.90% | L5 | Autoimmune condition with no established role for carbonic anhydrase inhibition. No evidence. |
-| Glaucoma 1, open angle | 99.75% | L1 | On-label use, not repurposing. |
-| Open angle glaucoma | 99.70% | L1 | On-label use, not repurposing. |
-| Congestive heart failure | 99.61% | L4 | Loose rationale from systemic inhibitors; topical exposure is low. Papers cover interactions and prescribing context only. |
-| Acute pulmonary heart disease | 99.53% | L5 | Speculative link only. No evidence. |
-| Respiratory failure | 99.27% | L5 | Systemic inhibitors can stimulate respiration, but ocular dosing is unlikely to reach relevant levels. No evidence. |
+| Congenital hypotrichosis milia | 0.9994 | L5 | No identifiable mechanism. No evidence. |
+| Alopecia | 0.9990 | L5 | No credible mechanism. The only paper is a veterinary case report on a dog, which is not evidence of efficacy. |
+| Diffuse alopecia areata | 0.9990 | L5 | Autoimmune condition with no established role for carbonic anhydrase inhibition. No evidence. |
+| Congestive heart failure | 0.9961 | L5 | Loose rationale from systemic inhibitors; topical exposure is low. Papers cover interactions and prescribing context only. |
+| Acute pulmonary heart disease | 0.9953 | L5 | Speculative link only. No evidence. |
+| Respiratory failure | 0.9927 | L5 | Systemic inhibitors can stimulate respiration, but ocular dosing is unlikely to reach relevant levels. No evidence. |
 
 ## Clinical Trial Evidence
 
@@ -128,7 +124,7 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, primary hereditary glaucoma, rests on a model score alone, with no trials or publications. The strongly supported predictions (open-angle glaucoma, L1 evidence) are the drug's existing use, not new repurposing. The hair and skin predictions have no plausible mechanism, and the cardiac and respiratory predictions have no efficacy evidence and little systemic exposure from eye drops.
+The top-ranked prediction, hypotrichosis simplex of the scalp, rests on a model score alone, with no trials or publications. The hair and skin predictions have no plausible mechanism, and the cardiac and respiratory predictions have no efficacy evidence and little systemic exposure from eye drops.
 
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank

@@ -48,10 +48,10 @@ The data compiled for this report include **36 clinical trials** and **20 public
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Myelodysplastic syndrome |
-| TxGNN Prediction Score | 99.62% |
+| TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

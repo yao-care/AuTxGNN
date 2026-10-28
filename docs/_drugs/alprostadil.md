@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Alprostadil
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 37
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Alprostadil: predicted new indication Aortic malformation (evidence level L4). Approved use: Erectile dysfunction, psychologic dyspareunia, premature ejaculation…"
@@ -14,7 +14,7 @@ predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", 
 # Alprostadil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ There are **no registered clinical trials** and **8 publications** (mostly case 
 |------|------|
 | Original Indication | Erectile dysfunction, psychologic dyspareunia, premature ejaculation, and ductal-dependent congenital heart lesions (tricuspid atresia, aortic coarctation, tetralogy of Fallot, double outlet right ventricle with pulmonary stenosis). The ARTG entry does not carry indication text. |
 | Predicted New Indication | Aortic malformation |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,7 +66,7 @@ Several conditions already listed among its original indications (aortic coarcta
 
 The supporting literature is indirect. It includes a 1982 evaluation in infants with congenital heart disease, case reports (interrupted aortic arch, aortopulmonary window), and perioperative anti-inflammatory use during cardiopulmonary bypass. None of it is specific to a new aortic malformation indication.
 
-The other nine predictions in the data (for example congenital tricuspid stenosis, tricuspid valve agenesis, heart septal defect) are mostly graph-proximity predictions with no trials or literature. Tricuspid valve prolapse and endemic goitre have no plausible mechanistic link, and are likely artefacts of the knowledge graph.
+The other nine predictions in the data (for example congenital tricuspid stenosis, tricuspid valve agenesis, heart septal defect) come from the TxGNN model (deep learning) and have no trials or literature. Tricuspid valve prolapse and endemic goitre have no plausible mechanistic link, and their scores may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -103,7 +103,7 @@ The only registered Australian product is an intracavernosal injection. No injec
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge graph associations, not label text)**: Priapism, Peyronie disease, urethral stricture, balanitis and balanoposthitis, urethritis, sickle cell disease and other haemoglobinopathies, polycythaemia, thrombocytosis, plasma cell myeloma, leukaemia, blood coagulation disorders, hypotensive disorders, and respiratory conditions (newborn respiratory distress syndrome, acute respiratory distress syndrome, lung disease). Pyloric stenosis is also listed.
+- **Contraindications (from TxGNN model (deep learning) predictions, not label text; these may reflect similarities the model learned between related diseases, not biological evidence)**: Priapism, Peyronie disease, urethral stricture, balanitis and balanoposthitis, urethritis, sickle cell disease and other haemoglobinopathies, polycythaemia, thrombocytosis, plasma cell myeloma, leukaemia, blood coagulation disorders, hypotensive disorders, and respiratory conditions (newborn respiratory distress syndrome, acute respiratory distress syndrome, lung disease). Pyloric stenosis is also listed.
 - **Relevant adverse event reports**: Prolonged prostaglandin E1 therapy in a neonate was linked to antral foveolar hyperplasia and hypertrophic pyloric stenosis (PMID 23521358). Pseudo-Bartter syndrome was reported during infusion (PMID 12811550). Neonatal use also carries known risks such as apnoea, fever and flushing.
 - **Drug Interactions**: 59 interactions were recorded. The moderate-level ones are SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin), lorcaserin and sapropterin. Others, such as metformin, morphine, prednisone, simvastatin, vancomycin and proton pump inhibitors, are of unknown severity.
 

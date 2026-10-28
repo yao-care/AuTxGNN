@@ -4,17 +4,17 @@ title: Mirtazapine
 parent: Model Prediction Only (L5)
 nav_order: 482
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Mirtazapine: predicted new indication Dysthymic disorder (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "Mirtazapine"
-predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy", "ligneous conjunctivitis", "childhood apraxia of speech", "dysthymic disorder", "agoraphobia", "phobic disorder", "melancholia"]
+predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
+description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mirtazapine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mirtazapine: From Depression to Dysthymic Disorder
+## Mirtazapine: Ohdo syndrome and variants
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,15 +48,15 @@ Many of the other top-ranked predictions have no supporting evidence at all, so 
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (knowledge graph indications; the ARTG indication text is not available) |
-| Predicted New Indication | Dysthymic disorder |
-| TxGNN Prediction Score | 98.64% |
-| Evidence Level | L3 (observational and open-label data plus a class-level meta-analysis; no mirtazapine-specific Phase 3 RCT. The data compiled for this report assigned L2, but that is not supported by the trial data.) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Ohdo syndrome and variants |
+| TxGNN Prediction Score | 0.9942 |
+| Evidence Level | L5 (observational and open-label data plus a class-level meta-analysis; no mirtazapine-specific Phase 3 RCT. The data compiled for this report assigned L2, but that is not supported by the trial data.) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
-**Note on the top-ranked predictions:** The highest-scoring predictions (Ohdo syndrome and variants, 99.42%; blepharophimosis-intellectual disability syndrome, Ohdo type, 99.11%; benign paroxysmal torticollis of infancy, 99.11%; ligneous conjunctivitis, 98.94%; childhood apraxia of speech, 98.70%) have no trials or publications and no identifiable mechanistic link. They are Level L5 and should be put on **Hold**. Dysthymic disorder is the best-supported prediction and is the focus of this report.
+**Note on the top-ranked predictions:** The highest-scoring predictions (Ohdo syndrome and variants, 0.9942; blepharophimosis-intellectual disability syndrome, Ohdo type, 0.9911; benign paroxysmal torticollis of infancy, 0.9911) have no trials or publications and no identifiable mechanistic link. They are Level L5 and should be put on **Hold**.
 
 ---
 
@@ -130,8 +130,8 @@ Dysthymia sits on the same spectrum as mirtazapine's established indication, and
 - Clarification of whether this use is already covered by the existing depression indication, since related predictions (melancholia, neurotic depression) are essentially on-label and are not true repurposing opportunities
 
 **Other predictions in this dataset:**
-- Phobic disorder (social anxiety): two small randomised placebo-controlled studies exist, but confirmatory Phase 3 evidence is lacking. Treat as a research question.
-- Agoraphobia: only open-label and pilot data in panic disorder. Treat as a research question.
+- Treat as a research question.
+- Treat as a research question.
 - Melancholia and neurotic depression: effectively on-label. Hold.
 - Ohdo syndrome (both entries), benign paroxysmal torticollis of infancy, ligneous conjunctivitis and childhood apraxia of speech: no evidence or mechanistic link. Hold.
 ## Disclaimer

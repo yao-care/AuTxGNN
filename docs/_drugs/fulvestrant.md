@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Fulvestrant
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 322
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not stated in the Australian registration data (fulvestrant is genera…"
@@ -14,7 +14,7 @@ predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia"
 # Fulvestrant
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Fulvestrant is an estrogen receptor antagonist and degrader, marketed in Austral
 |------|------|
 | Original Indication | Not stated in the Australian registration data (fulvestrant is generally used for hormone receptor-positive advanced breast cancer, as reflected in the trials below) |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 (preclinical only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

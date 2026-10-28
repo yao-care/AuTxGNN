@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Furosemide
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 323
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-13
-description: "Furosemide: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension and congestive heart failure (the registered indication…"
+description: "Furosemide: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Furosemide"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "primary hereditary glaucoma", "chronic renal failure syndrome", "chronic kidney disease"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Furosemide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,38 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Furosemide: From Hypertension and Congestive Heart Failure to Malignant Hypertensive Renal Disease
+## Furosemide
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Furosemide is a loop diuretic, originally used for hypertension and congestive heart failure. The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but **no clinical trials and no publications** were found for this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension and congestive heart failure (the registered indication text for the Australian product is not available) |
-| Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 98.03% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not available in the data compiled for this report. Furosemide is a loop diuretic. It blocks the NKCC2 transporter in the thick ascending limb of the loop of Henle, which reduces volume overload and lowers blood pressure.
-
-Malignant hypertensive renal disease is kidney damage caused by severely raised blood pressure, and volume expansion contributes to it. That makes a diuretic mechanistically plausible. However, the prediction largely extends furosemide's existing hypertension indication rather than describing a new mechanism. The high score of 98.03% is a model output only. It is not supported by any trial or published study.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
 ## Australia Market Information
 
@@ -89,20 +69,6 @@ The approved indication text for this entry is not available in the data compile
 
 Label-based warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has a very high model score but no supporting trials or literature. It is largely an extension of furosemide's existing hypertension use, so the evidence level is L5.
-
-**To proceed, the following is needed:**
-- Clinical or observational evidence of furosemide in malignant hypertensive renal disease.
-- Detailed mechanism of action data.
-- Approved indication text and PI warnings and contraindications for the Australian product.
-- Review of the knowledge-graph contraindications (for example hypotension, anuria and electrolyte disorders) against this patient group.
-
-**Note on other predictions:** In the same prediction set, **chronic kidney disease** has stronger support (L2, with a completed Phase 4 trial on blood pressure control in stage 3-4 CKD). It is rated "Proceed with Guardrails", limited to volume overload and blood pressure control with monitoring of electrolytes, renal function and ototoxicity. It may be a better candidate for further evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

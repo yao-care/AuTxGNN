@@ -4,17 +4,17 @@ title: Thyrotropin Alfa
 parent: Model Prediction Only (L5)
 nav_order: 722
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Thyrotropin Alfa: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Thyrotropin alfa"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
 ---
 
 # Thyrotropin Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,17 +46,17 @@ Thyrotropin alfa is recombinant human thyroid-stimulating hormone (TSH), markete
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Thyrotropin alfa is a recombinant form of human TSH that acts on TSH receptors in thyroid tissue.
 
-There is no established mechanistic link between TSH receptor stimulation and migraine. The high TxGNN score most likely reflects proximity in the knowledge graph (for example, shared gene or pathway neighbours) rather than a validated biological rationale. Any link to migraine is speculative.
+There is no established mechanistic link between TSH receptor stimulation and migraine. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any link to migraine is speculative.
 
 The other top-ranked predictions are not independent support. Migraine with brainstem aura, and migraine with or without aura (susceptibility), are closely related to the parent migraine prediction. Several others (Raynaud disease, pulmonary hypertension, postural orthostatic tachycardia syndrome) have only loose associations with thyroid status, not with TSH administration. Hyperthyroidism scored highly but is biologically contradictory, since TSH stimulation would be expected to worsen it. It should be treated as a warning signal, not a candidate.
 

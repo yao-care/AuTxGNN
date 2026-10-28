@@ -6,9 +6,9 @@ nav_order: 578
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Pirfenidone: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Idiopathic pulmonary fibrosis"
 monitor_inn: "Pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
+description: "Pirfenidone: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pirfenidone
@@ -33,24 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pirfenidone: From Idiopathic Pulmonary Fibrosis to Extracutaneous Mastocytoma
+## Pirfenidone: Extracutaneous mastocytoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pirfenidone is an oral antifibrotic originally used to treat idiopathic pulmonary fibrosis and related interstitial pneumonias.
-The TxGNN model predicts it may be effective for **extracutaneous mastocytoma** (score 99.71%), but **no clinical trials and no publications** currently support this prediction.
+The TxGNN model predicts it may be effective for **extracutaneous mastocytoma** (score 0.9971), but **no clinical trials and no publications** currently support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Idiopathic pulmonary fibrosis (also acute interstitial pneumonia and idiopathic interstitial pneumonia, per the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Extracutaneous mastocytoma |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,15 +63,15 @@ Mast cell tumours are generally driven by KIT signalling. No established connect
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Dermatofibrosarcoma protuberans | 99.41% | L5 | Loose rationale via fibroblast biology; the PDGFB driver is already targeted by imatinib |
-| 3 | Aggressive systemic mastocytosis | 99.33% | L5 | KIT-driven; no documented link |
-| 4 | Heart fibrosarcoma | 99.29% | L5 | Anti-fibrotic effects are in non-malignant cardiac fibrosis only |
-| 5 | Conventional fibrosarcoma | 99.26% | L5 | Plausible but unsupported |
-| 6 | Autosomal recessive familial Mediterranean fever | 99.25% | L5 | Anti-inflammatory effects are conceptually relevant, but colchicine and IL-1 inhibitors are established |
-| 7 | Kidney fibrosarcoma | 99.24% | L5 | Renal anti-fibrotic data do not extend to malignancy |
-| 8 | Hepatic infarction | 99.24% | L5 | Ischaemic event; no clear link |
-| 9 | Fibroblastic neoplasm | 99.23% | L4 | Preclinical fibroblast data; one safety signal (see below) |
-| 10 | Low grade fibromyxoid sarcoma | 99.19% | L5 | No documented link |
+| 2 | Dermatofibrosarcoma protuberans | 0.9941 | L5 | Loose rationale via fibroblast biology; the PDGFB driver is already targeted by imatinib |
+| 3 | Aggressive systemic mastocytosis | 0.9933 | L5 | KIT-driven; no documented link |
+| 4 | Heart fibrosarcoma | 0.9929 | L5 | Anti-fibrotic effects are in non-malignant cardiac fibrosis only |
+| 5 | Conventional fibrosarcoma | 0.9926 | L5 | Plausible but unsupported |
+| 6 | Autosomal recessive familial Mediterranean fever | 0.9925 | L5 | Anti-inflammatory effects are conceptually relevant, but colchicine and IL-1 inhibitors are established |
+| 7 | Kidney fibrosarcoma | 0.9924 | L5 | Renal anti-fibrotic data do not extend to malignancy |
+| 8 | Hepatic infarction | 0.9924 | L5 | Ischaemic event; no clear link |
+| 9 | Fibroblastic neoplasm | 0.9923 | L5 | Preclinical fibroblast data; one safety signal (see below) |
+| 10 | Low grade fibromyxoid sarcoma | 0.9919 | L5 | No documented link |
 
 ## Clinical Trial Evidence
 

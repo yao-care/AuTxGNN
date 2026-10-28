@@ -4,17 +4,17 @@ title: Phenytoin
 parent: Model Prediction Only (L5)
 nav_order: 572
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including generalised tonic-clonic seizures…"
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenytoin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phenytoin: From Epilepsy to Trigeminal Nerve Neoplasm
+## Phenytoin: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The more credible signals in the ranked list are for **trigeminal neuralgia** (s
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (including generalised tonic-clonic seizures, partial epilepsy, status epilepticus). The ARTG entry has no indication text, so this is drawn from the knowledge graph. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,13 +62,13 @@ The more credible signals in the ranked list are for **trigeminal neuralgia** (s
 
 Detailed mechanism of action data is not available in the data compiled for this report. Phenytoin is generally understood to block voltage-gated sodium channels and limit repetitive neuronal firing, which underpins its efficacy in epilepsy.
 
-For the top-ranked prediction, **trigeminal nerve neoplasm**, this mechanism offers no established antitumour rationale. The high score most likely reflects proximity in the knowledge graph to trigeminal nerve pain and seizure phenotypes, not a genuine anticancer signal. The retrieved papers (a review of trigeminal neuralgia and a case series on Sturge-Weber syndrome) do not study a neoplasm.
+For the top-ranked prediction, **trigeminal nerve neoplasm**, this mechanism offers no established antitumour rationale. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (such as trigeminal nerve pain and seizure phenotypes), not biological evidence. The retrieved papers (a review of trigeminal neuralgia and a case series on Sturge-Weber syndrome) do not study a neoplasm.
 
 Several other predictions are more plausible mechanistically:
 
 - **Trigeminal neuralgia (rank 9):** Sodium channel blockade reduces ectopic firing in trigeminal afferents, the same principle behind carbamazepine's efficacy. Phenytoin is regarded as a second-line or limited-evidence option, and carbamazepine and oxcarbazepine remain first-line.
 - **Reflex and stimulus-triggered seizures (startle, thinking, orgasm-induced, eating, audiogenic, micturition-induced and reading seizures):** These are subtypes of epilepsy, which is already an approved indication, so they are not true repurposing. Evidence is limited to case reports and animal models.
-- **Beta-ketothiolase deficiency (rank 10):** This is a metabolic disorder with no mechanistic link to phenytoin, and the score appears to be a graph artefact.
+- **Beta-ketothiolase deficiency (rank 10):** This is a metabolic disorder with no mechanistic link to phenytoin, and the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -138,7 +138,7 @@ Acetylsalicylic acid was the one minor interaction listed.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, trigeminal nerve neoplasm, has no clinical trials, no supporting literature on a neoplasm and no plausible antitumour mechanism, so it is prediction-only (L5). The score looks like a knowledge graph artefact linked to trigeminal pain and seizure phenotypes. Trigeminal neuralgia (L3, with guideline-level and retrospective support) is the most credible new direction, but phenytoin remains a second-line option behind carbamazepine and oxcarbazepine, and no Phase 3 RCT was identified. The seizure subtypes largely fall under the existing epilepsy indication.
+The top-ranked prediction, trigeminal nerve neoplasm, has no clinical trials, no supporting literature on a neoplasm and no plausible antitumour mechanism, so it is prediction-only (L5). The score looks like a TxGNN model (deep learning) artefact linked to trigeminal pain and seizure phenotypes. Trigeminal neuralgia (L3, with guideline-level and retrospective support) is the most credible new direction, but phenytoin remains a second-line option behind carbamazepine and oxcarbazepine, and no Phase 3 RCT was identified. The seizure subtypes largely fall under the existing epilepsy indication.
 
 **To proceed, the following is needed:**
 - Re-evaluate the candidate with trigeminal neuralgia as the lead indication, and check whether the original prediction is a labelling or mapping error

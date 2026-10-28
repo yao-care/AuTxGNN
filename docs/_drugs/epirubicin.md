@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epirubicin
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 259
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L5). Approved use: Breast carcinoma / breast neoplasm"
 monitor_inn: "Epirubicin"
-predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm", "salivary gland type cancer of the breast", "breast papillomatosis", "breast leiomyoma"]
+predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
+description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Epirubicin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Epirubicin: From Breast Cancer to Primary Pulmonary Lymphoma
+## Epirubicin: Primary pulmonary lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The strongest evidence in the data compiled for this report is for a lower-ranke
 
 | Item | Content |
 |------|------|
-| Original Indication | Breast carcinoma / breast neoplasm (from the knowledge graph; the ARTG entry lists no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary pulmonary lymphoma |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L4 (for the top-ranked prediction; small cell lung carcinoma reaches L1) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (primary pulmonary lymphoma); Proceed with Guardrails as a research question for small cell lung carcinoma |
 
 ---

@@ -6,9 +6,9 @@ nav_order: 614
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia, bipolar disorder, major affective disorder…"
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
+description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Quetiapine
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Quetiapine: From Schizophrenia and Bipolar Disorder to Retinal Dystrophy
+## Quetiapine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Quetiapine is an atypical antipsychotic originally used to treat schizophrenia and bipolar disorder.
-The TxGNN model's top-ranked prediction is **retinal dystrophy with or without extraocular anomalies**, but there are **0 clinical trials** and **0 publications** supporting it. This is a graph-based prediction only, so the recommendation is to hold.
+The TxGNN model's top-ranked prediction is **retinal dystrophy with or without extraocular anomalies**, but there are **0 clinical trials** and **0 publications** supporting it. This is a prediction from the TxGNN model (deep learning) only, so the recommendation is to hold.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia, bipolar disorder, major affective disorder, manic bipolar affective disorder (from the knowledge graph; no approved indication text is available for the Australian entry) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 
 Currently, detailed mechanism of action data is not available. Quetiapine is known to act as an antagonist at several receptors (5-HT2A, D2, H1 and alpha-1), and its efficacy in schizophrenia and bipolar disorder is established.
 
-For the top-ranked prediction, no plausible link was identified between this receptor pharmacology and the pathophysiology of inherited retinal dystrophy. The very high TxGNN score (99.57%) reflects the graph model's output only and is not supported by any mechanistic or clinical data compiled for this report.
+For the top-ranked prediction, no plausible link was identified between this receptor pharmacology and the pathophysiology of inherited retinal dystrophy. The very high TxGNN score (0.9957) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not supported by any mechanistic or clinical data compiled for this report.
 
 **Other predictions reviewed.** The remaining top-ten predictions are also model-only, with no trials or literature, and no mechanistic rationale was found for them:
 - Congenital disorder of glycosylation with defective fucosylation
@@ -71,7 +71,7 @@ For the top-ranked prediction, no plausible link was identified between this rec
 - X-linked myopia, syndromic myopia, and myopia 26 (X-linked, female-limited)
 - Charcot-Marie-Tooth disease, demyelinating, type 1G
 
-**Trichotillomania (rank 8)** is the only prediction with a plausible rationale and some literature. It is an obsessive-compulsive-spectrum, body-focused repetitive behaviour disorder. Quetiapine's 5-HT2A and D2 antagonism is a reasonable basis for modulating compulsive behaviours, and atypical antipsychotics are used as augmentation in OCD-spectrum conditions. It is therefore the most credible research question from this list, though the evidence is limited to case reports and reviews. Its TxGNN score is 99.38%, with evidence level L4 and a "Research Question" status.
+**Trichotillomania (rank 8)** is the only prediction with a plausible rationale and some literature. It is an obsessive-compulsive-spectrum, body-focused repetitive behaviour disorder. Quetiapine's 5-HT2A and D2 antagonism is a reasonable basis for modulating compulsive behaviours, and atypical antipsychotics are used as augmentation in OCD-spectrum conditions. It is therefore the most credible research question from this list, though the evidence is limited to case reports and reviews. Its TxGNN score is 0.9938, with evidence level L4 and a "Research Question" status.
 
 ---
 
@@ -132,7 +132,7 @@ Label-based warnings and contraindications were not available. Please refer to t
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (retinal dystrophy) rests solely on a graph-model score, with no trials, no literature and no plausible mechanistic link to quetiapine. The same applies to most other top-ten predictions. Quetiapine also carries a substantial safety profile (QT prolongation, metabolic effects, haematological risks) that argues against pursuing unsupported indications.
+The top-ranked prediction (retinal dystrophy) rests solely on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence, with no trials, no literature and no plausible mechanistic link to quetiapine. The same applies to most other top-ten predictions. Quetiapine also carries a substantial safety profile (QT prolongation, metabolic effects, haematological risks) that argues against pursuing unsupported indications.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA), which is currently missing

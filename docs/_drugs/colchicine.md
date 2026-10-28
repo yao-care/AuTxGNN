@@ -4,17 +4,17 @@ title: Colchicine
 parent: Model Prediction Only (L5)
 nav_order: 183
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Gout"
+indication_count: 2
 monitor_inn: "Colchicine"
-predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans", "primary immunodeficiency due to a genetic defect in innate immunity", "sitosterolemia", "Smouldering systemic mastocytosis", "systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia", "hemoglobin H disease", "blepharo-cheilo-odontic syndrome"]
+predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
+last_modified_at: 2026-10-27
+description: "Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Colchicine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Colchicine: From Gout to Plasmodium falciparum Malaria
+## Colchicine: Microtubule-disrupting agent (tubulin binder) → Plasmodium falciparum malaria
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Colchicine is an anti-inflammatory, microtubule-disrupting drug originally used for gout and familial Mediterranean fever (FMF).
-The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria**, but there are **0 registered clinical trials** and only **2 indirect laboratory publications** supporting this direction.
-This is a model-only prediction with no human efficacy evidence.
+Colchicine is a tubulin-binding, microtubule-disrupting agent registered in Australia as an oral tablet.
+The TxGNN model predicts it may be relevant for **Plasmodium falciparum malaria**, but there are **0 clinical trials** and **2 publications**, and neither studies colchicine against this disease. Evidence for this prediction is limited to the model output.
 
 ---
 
@@ -48,23 +47,23 @@ This is a model-only prediction with no human efficacy evidence.
 
 | Item | Content |
 |------|------|
-| Original Indication | Gout; familial Mediterranean fever (the Australian ARTG entry has no indication text recorded) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Plasmodium falciparum malaria |
-| TxGNN Prediction Score | 99.60% |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Colchicine is well known to bind tubulin and disrupt microtubules. This suppresses neutrophil activity and inflammasome-mediated inflammation, which underlies its use in gout and FMF.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, colchicine binds tubulin and disrupts microtubules.
 
-The link to malaria is plausible but indirect. Microtubules are essential for the *P. falciparum* parasite, and the retrieved literature includes a study showing that curcumin disrupts parasite microtubules. That study did not involve colchicine. A second paper shows that expression of the parasite transporter gene *pfmdr1* in mammalian cells alters drug susceptibility. That work concerned chloroquine and is likewise an in vitro study.
+Microtubules are essential to the parasite's cell division, so a link to *P. falciparum* is biologically plausible. The two retrieved papers are indirect. One is a laboratory study of curcumin (not colchicine) that disrupts microtubules in *P. falciparum*. The other examines expression of the parasite's pfmdr1 gene in mammalian cells and its effect on chloroquine susceptibility. Neither tests colchicine as an antimalarial in people.
 
-No human antimalarial efficacy data for colchicine were found. Its narrow therapeutic index and extensive drug interactions are further concerns for an anti-infective use.
+This is a plausible but unproven link. Colchicine also has a narrow therapeutic index and many drug interactions, which are a concern for any anti-infective use.
 
 ---
 
@@ -78,10 +77,8 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | In vitro study | PLoS One | Curcumin (not colchicine) disrupts microtubules in *P. falciparum*, suggesting parasite microtubules are a drug target |
-| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | In vitro / cell-based study | Mol Cell Biol | Expression of the parasite *pfmdr1* gene in mammalian cells altered drug susceptibility (chloroquine); the link to colchicine is indirect |
-
-Neither paper tests colchicine as an antimalarial in humans.
+| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | In vitro study | PloS one | Curcumin (not colchicine) disrupted microtubules in *P. falciparum* cells |
+| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | In vitro / cell-based study | Molecular and cellular biology | Expressing the parasite pfmdr1 gene in mammalian cells increased chloroquine susceptibility |
 
 ---
 
@@ -89,34 +86,15 @@ Neither paper tests colchicine as an antimalarial in humans.
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 3410L | Colcine | Tablet 500 micrograms (oral) | Not recorded in the data compiled for this report |
-
----
-
-## Cytotoxicity
-
-Colchicine is not classed as an antineoplastic drug, so this section does not apply.
+| ARTG 3410L | Colcine | Tablet 500 micrograms | Not recorded in the local data |
 
 ---
 
 ## Safety Considerations
 
-Formal label warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for these.
+- **Drug Interactions**: The interaction query found 100 interacting drugs in total. Examples rated Major include aprepitant, clarithromycin, cobicistat, deferiprone, eliglustat, rolapitant, rosuvastatin and simvastatin. Examples rated Moderate include chloroquine, cimetidine, metronidazole, miconazole, ticagrelor and disulfiram. Chloroquine is relevant here because it is a standard antimalarial.
 
-- **Conditions flagged in the knowledge graph as contraindication-related** (these come from a knowledge graph, not label text, so confirm against the PI): liver failure, impaired renal function, haematological disease (including thrombocytopenia, leukopenia, agranulocytosis, neutropenia and aplastic anaemia), peptic ulcer disease, diarrhoeal disease, and muscle disorders (myopathy, rhabdomyolysis).
-- **Drug Interactions:** The interaction screen identified 100 interacting drugs in total. Among those listed, the **Major** interactions are:
-  - Aprepitant
-  - Clarithromycin
-  - Cobicistat
-  - Deferiprone
-  - Eliglustat
-  - Rolapitant
-  - Rosuvastatin
-  - Simvastatin
-
-  **Moderate** interactions include chloroquine, cimetidine, metronidazole, miconazole, tinidazole, ticagrelor, deferasirox, disulfiram, benznidazole, eluxadoline, fostamatinib and strontium-89 chloride.
-
-  The interaction with chloroquine is relevant for any malaria context, since chloroquine is an antimalarial.
+For warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
 ---
 
@@ -125,18 +103,13 @@ Formal label warnings and contraindications were not available. Please refer to 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone (L5). The supporting papers are indirect in vitro studies, and none tests colchicine in malaria. Colchicine's narrow therapeutic index and extensive interaction profile add concern for an anti-infective use.
+The prediction rests on the model score alone. No study directly examines colchicine in *P. falciparum* malaria, and the safety margin is narrow, so there is no basis to proceed.
 
 **To proceed, the following is needed:**
-- In vitro and in vivo data on colchicine activity against *P. falciparum*, including its effect on parasite microtubules
-- Detailed mechanism of action data, and a comparison with existing antimalarials
-- The TGA Product Information (warnings, contraindications, indication text)
-- An assessment of safety at doses and durations relevant to malaria, including interactions with standard antimalarials such as chloroquine
-
-**Other predictions in this analysis:**
-- **FMF, autosomal dominant:** Colchicine is already first-line therapy for FMF and FMF is among its original indications, so this is not a true repurposing candidate. The supplied literature is review-level (L4) and does not address the autosomal dominant subtype specifically.
-- **Systemic mastocytosis:** Only a plausible indirect mechanism (microtubule-dependent mast cell degranulation) and one observational FMF paper exist (L4). No trials were found.
-- **Dermatofibrosarcoma protuberans, primary immunodeficiency (innate immunity defect), sitosterolemia, smouldering systemic mastocytosis, lymphoadenopathic mastocytosis with eosinophilia, haemoglobin H disease and blepharo-cheilo-odontic syndrome:** Prediction only (L5), with no trials or literature. All are held.
+- Laboratory data showing colchicine activity against *P. falciparum* at concentrations achievable in humans
+- Detailed mechanism of action data
+- Review of the TGA Product Information for warnings and contraindications
+- A drug interaction assessment against standard antimalarials, particularly chloroquine
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

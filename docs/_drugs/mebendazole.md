@@ -4,17 +4,17 @@ title: Mebendazole
 parent: Model Prediction Only (L5)
 nav_order: 448
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Mebendazole: predicted new indication Acne (evidence level L5). Approved use: Enterobiasis, ascariasis, trichuriasis"
 monitor_inn: "Mebendazole"
-predicted_indications: ["acne (disease)", "leishmaniasis, diffuse cutaneous", "echinococcus granulosus infectious disease", "hordeolum", "alveolar echinococcosis", "inhalational botulism", "toxin-mediated infectious botulism", "impetigo", "Sorsby's fundus dystrophy", "demodicidosis of sebaceous gland"]
+predicted_indications: ["acne (disease)"]
+description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mebendazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mebendazole: From Intestinal Worm Infections to Acne
+## Mebendazole: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **acne**, but there are **no re
 
 | Item | Content |
 |------|------|
-| Original Indication | Enterobiasis, ascariasis, trichuriasis (from the knowledge graph; no approved indication text is listed for the Australian product) |
-| Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.20% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Acne (disease) |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -113,7 +113,6 @@ The prediction rests on a model score alone. There are no trials, no relevant li
 - Any clinical or observational evidence of benefit in acne
 - Review of the TGA Product Information for safety, including hepatic precautions and interactions
 
-**Note on other predictions:** Predictions lower in the ranking have far stronger support. These are **alveolar echinococcosis** (score 94.2%, evidence level L3) and **cystic echinococcosis due to *Echinococcus granulosus*** (score 95.6%, evidence level L3). Both are supported by WHO guidance, reviews and observational data on benzimidazole therapy, and both are graded *Proceed with Guardrails*. Guardrails would include liver and blood count monitoring with prolonged dosing, specialist management, and consideration of surgery where feasible. These are better candidates for a dedicated evaluation than acne. Note that echinococcosis is a recognised anthelmintic use rather than a true new-indication discovery, and albendazole is generally preferred first-line.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Ivermectin
 parent: Model Prediction Only (L5)
 nav_order: 400
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Strongyloidiasis, onchocerciasis"
 monitor_inn: "Ivermectin"
-predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "candida glabrata", "congenital candidiasis", "neonatal candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive", "vulvitis"]
+predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "candida glabrata", "congenital candidiasis", "neonatal candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
+description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ivermectin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ivermectin: From Strongyloidiasis and Onchocerciasis to Vulvovaginal Candidiasis
+## Ivermectin: Vulvovaginal candidiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **vulvovaginal candidiasis**, b
 
 | Item | Content |
 |------|------|
-| Original Indication | Strongyloidiasis, onchocerciasis (from the TxGNN knowledge graph; no approved indication text is available for the Australian entry) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vulvovaginal candidiasis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. In general, ivermectin is an antiparasitic that acts on glutamate-gated chloride channels in invertebrates. Fungal cells have no clear equivalent target.
 
-Strongyloidiasis and onchocerciasis are parasitic infections, whereas vulvovaginal candidiasis is a fungal infection. No credible mechanistic link between the two can be established from the available data. The prediction may be a knowledge-graph artefact, for example from co-occurring immunosuppression and opportunistic infections.
+Strongyloidiasis and onchocerciasis are parasitic infections, whereas vulvovaginal candidiasis is a fungal infection. No credible mechanistic link between the two can be established from the available data. The prediction may be a TxGNN model (deep learning) artefact, for example from co-occurring immunosuppression and opportunistic infections.
 
 Other candidiasis-related predictions in the top 10 (oesophageal, congenital, neonatal and invasive candidiasis, and *Candida glabrata*) share the same weakness, as do the other vulvovaginal predictions (vulvovaginitis, vulvitis, postmenopausal atrophic vaginitis) and anogenital human papillomavirus infection. None has supporting trial evidence in the data compiled for this report.
 

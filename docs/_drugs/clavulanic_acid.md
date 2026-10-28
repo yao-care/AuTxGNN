@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Clavulanic Acid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 169
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Clavulanic Acid: predicted new indication Gonococcal urethritis (evidence level L3). Approved use: Urinary tract infection, bacterial pneumonia…"
+description: "Clavulanic Acid: predicted new indication Ureaplasma urethritis (evidence level L3). Approved use: Urinary tract infection, bacterial pneumonia…"
 monitor_inn: "clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uteri
 # Clavulanic Acid
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Clavulanic Acid: From Bacterial Infections to Gonococcal Urethritis
+## Clavulanic Acid: From Bacterial Infections to Ureaplasma urethritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,13 +50,13 @@ This is largely a historical indication, so the evidence is limited in current r
 |------|------|
 | Original Indication | Urinary tract infection, bacterial pneumonia, staphylococcal infection, Escherichia coli infection, Klebsiella pneumonia and related bacterial infections (the approved indication text for the Australian listing was not available) |
 | Predicted New Indication | Gonococcal urethritis (the top-ranked prediction, Ureaplasma urethritis, has a mechanistic mismatch; see below) |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-**Note on prediction ranking:** The rank 1 prediction, Ureaplasma urethritis (score 99.93%), is not recommended for evaluation. Ureaplasma lacks a cell wall, so beta-lactams are not expected to work. Gonococcal urethritis has the same score and the only meaningful clinical literature, so it is presented as the lead candidate.
+**Note on prediction ranking:** The rank 1 prediction, Ureaplasma urethritis (score 0.9993), is not recommended for evaluation. Ureaplasma lacks a cell wall, so beta-lactams are not expected to work. Gonococcal urethritis has the same score and the only meaningful clinical literature, so it is presented as the lead candidate.
 
 ---
 
@@ -102,7 +102,7 @@ Currently no related clinical trials registered.
 
 ## Safety Considerations
 
-The following information comes from knowledge-graph associations rather than product label text.
+The following scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; they do not come from product label text.
 
 - **Disease associations listed as contraindications or cautions:** kidney disease, liver disease, gallbladder disease, cholestasis (including benign recurrent and familial intrahepatic forms), *Clostridium difficile* colitis, perinatal necrotising enterocolitis, pyoureter, infectious mononucleosis, and chronic Epstein-Barr virus infection syndrome.
 - **Drug Interactions:** 16 interactions were identified.

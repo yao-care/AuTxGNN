@@ -4,17 +4,17 @@ title: Levetiracetam
 parent: Model Prediction Only (L5)
 nav_order: 422
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Levetiracetam: predicted new indication Visual epilepsy (evidence level L5). Approved use: Partial epilepsy"
 monitor_inn: "Levetiracetam"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Levetiracetam: From Partial Epilepsy to Visual Epilepsy
+## Levetiracetam: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Levetiracetam is an antiseizure medication originally used to treat partial (focal) epilepsy.
-The TxGNN model predicts it may be effective for **visual epilepsy** (a reflex epilepsy triggered by visual stimuli), but no clinical trials and only general seizure literature support this specific prediction.
-The strongest evidence in the data compiled for this report is for a related prediction, **status epilepticus**, which is supported by **16 registered clinical trials** and **20 publications**, including large Phase 3 RCTs.
 
 ---
 
@@ -48,12 +46,12 @@ The strongest evidence in the data compiled for this report is for a related pre
 
 | Item | Content |
 |------|------|
-| Original Indication | Partial epilepsy (the TGA licence record contains no approved indication text) |
-| Predicted New Indication | Visual epilepsy |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 (for visual epilepsy; L1 for the related prediction, status epilepticus) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Beta-ketothiolase deficiency |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 (for visual epilepsy; L1 for the related prediction, status epilepticus) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (for visual epilepsy); Proceed with Guardrails for status epilepticus |
 
 ---
@@ -62,17 +60,14 @@ The strongest evidence in the data compiled for this report is for a related pre
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, levetiracetam binds to synaptic vesicle protein 2A (SV2A) and modulates neurotransmitter release. This plausibly reduces the cortical hyperexcitability seen in photosensitive or visually triggered seizures.
 
-Visual epilepsy is a form of reflex epilepsy, and levetiracetam is already established in focal epilepsy. Mechanistically, it may be applicable. However, the retrieved literature covers general seizure populations (neonatal, post-stroke, neurocritical care, feline epilepsy) and does not address visually induced epilepsy specifically. The high TxGNN score likely reflects the drug's general antiseizure class effect rather than disease-specific evidence.
 
-Other top-ranked predictions are all seizure-related. Several are reflex epilepsies (startle, audiogenic, reading, eating, micturition-induced, thinking and orgasm-induced seizures). Status epilepticus has the strongest evidence. One prediction, beta-ketothiolase deficiency, has no evident mechanistic link and appears to be a graph-based artefact.
+The beta-ketothiolase deficiency prediction has no evident mechanistic link. Its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-No clinical trials are registered for visual epilepsy. Currently no related clinical trials registered for this prediction.
 
-For context, the related prediction **status epilepticus** (rank 9) has the following key trials:
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -105,7 +100,6 @@ For visual epilepsy, the retrieved literature is general to seizures and not dis
 | [38678766](https://pubmed.ncbi.nlm.nih.gov/38678766/) | 2024 | RCT | Seizure | Phenytoin vs levetiracetam for acute symptomatic seizures in children with encephalitis |
 | [21936590](https://pubmed.ncbi.nlm.nih.gov/21936590/) | 2011 | Review | CNS Drugs | Overview of levetiracetam in epilepsy |
 
-Key literature for the related prediction (status epilepticus):
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -113,7 +107,6 @@ Key literature for the related prediction (status epilepticus):
 | [32203691](https://pubmed.ncbi.nlm.nih.gov/32203691/) | 2020 | RCT | Lancet | ESETT by age group: levetiracetam, fosphenytoin and valproate |
 | [33190679](https://pubmed.ncbi.nlm.nih.gov/33190679/) | 2020 | RCT | Health Technol Assess | EcLiPSE: levetiracetam as an alternative to phenytoin in children |
 
-Disease-specific reports also exist for other reflex-seizure predictions, for example startle epilepsy (PMID [18486495](https://pubmed.ncbi.nlm.nih.gov/18486495/), an uncontrolled add-on study) and reading epilepsy (PMID [22386591](https://pubmed.ncbi.nlm.nih.gov/22386591/), a small case series).
 
 ---
 
@@ -146,7 +139,6 @@ Please refer to the TGA-approved Product Information (PI) for full safety inform
 **Decision: Hold** (visual epilepsy)
 
 **Rationale:**
-The visual epilepsy prediction rests on a high model score and a plausible SV2A mechanism, with no registered trials and no disease-specific literature. The evidence level is L4. By contrast, status epilepticus (L1) has Phase 3 RCT support showing levetiracetam is comparable to fosphenytoin and valproate, and could proceed with guardrails. That evidence supports equivalence rather than superiority.
 
 **To proceed, the following is needed:**
 - Disease-specific clinical data for visual or photosensitive epilepsy (for example, a photoparoxysmal response study, noting the related SV2A ligand seletracetam has a Phase 2 trial in this setting)

@@ -4,17 +4,17 @@ title: Guselkumab
 parent: Model Prediction Only (L5)
 nav_order: 348
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Guselkumab: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the Australian licence data compiled"
 monitor_inn: "Guselkumab"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
+description: "Guselkumab: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Guselkumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Guselkumab: From Plaque Psoriasis to Drug-Induced Osteoporosis
+## Guselkumab: Drug-induced osteoporosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Guselkumab (Tremfya) is an IL-23 inhibitor whose established use is in immune-mediated inflammatory disease, mainly plaque psoriasis.
-The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** currently supporting this specific direction.
+The TxGNN model (deep learning) predicts it may be effective for **drug-induced osteoporosis**, but this is a model prediction only and may reflect similarities the model learned between related diseases, not biological evidence, with **0 clinical trials** and **0 publications** currently supporting this specific direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Australian licence data compiled; plaque psoriasis is its established marketed use |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mepolizumab
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 458
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Mepolizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L4). Approved use: Eosinophilic pneumonia"
 monitor_inn: "Mepolizumab"
-predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia", "Evans syndrome", "neonatal thrombocytopenia", "autosomal thrombocytopenia with normal platelets", "filariasis", "mixed-type autoimmune hemolytic anemia"]
+predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
+description: "Mepolizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mepolizumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Mepolizumab: From Eosinophilic Pneumonia to Immune Thrombocytopenia
+## Mepolizumab: Thrombocytopenia due to immune destruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Mepolizumab is an anti-IL-5 monoclonal antibody that depletes eosinophils, and is linked to eosinophilic pneumonia and pulmonary eosinophilia in the knowledge graph.
+Mepolizumab is an anti-IL-5 monoclonal antibody that depletes eosinophils. The TxGNN model (deep learning) predicts thrombocytopenia due to immune destruction as a new indication, with a score of 0.9966; this score may reflect similarities the model learned between related diseases, not biological evidence.
 The TxGNN model predicts it may be effective for **thrombocytopenia due to immune destruction**,
 but the current support is only **1 case report** and **no registered clinical trials**, so this remains a computational prediction.
 
@@ -46,12 +46,12 @@ but the current support is only **1 case report** and **no registered clinical t
 
 | Item | Content |
 |------|------|
-| Original Indication | Eosinophilic pneumonia; pulmonary eosinophilia (from the knowledge graph; no approved indication text is available for the ARTG entry) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Thrombocytopenia due to immune destruction |
-| TxGNN Prediction Score | 99.66% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9966 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ The link to immune thrombocytopenia is weak. The only supporting publication is 
 
 There is no evidence that IL-5 blockade acts on the core mechanisms of immune thrombocytopenia (autoantibody-mediated platelet clearance and impaired platelet production). The very high TxGNN score is a computational prediction only and should not be read as clinical support.
 
-Other top-ranked predictions (primary release disorder of platelets, pseudo-von Willebrand disease, autoimmune thrombocytopenia, Glanzmann thrombasthenia, Evans syndrome, neonatal thrombocytopenia, autosomal thrombocytopenia with normal platelets, filariasis and mixed-type autoimmune haemolytic anaemia) have no clinical trials. Apart from a review of hypereosinophilic syndrome linked to the second-ranked prediction, they have no supporting literature either. Several of them (for example Glanzmann thrombasthenia and pseudo-von Willebrand disease) have no plausible link to IL-5 biology. In filariasis, depleting eosinophils could impair host defence against the parasite, which is a safety concern.
+Other top-ranked predictions (primary release disorder of platelets, pseudo-von Willebrand disease, autoimmune thrombocytopenia, Glanzmann thrombasthenia, Evans syndrome, neonatal thrombocytopenia, autosomal thrombocytopenia with normal platelets, filariasis and mixed-type autoimmune haemolytic anaemia) have no clinical trials. Apart from a review of hypereosinophilic syndrome linked to the second-ranked prediction, they have no supporting literature either. Several of them (for example Glanzmann thrombasthenia and pseudo-von Willebrand disease) have no plausible link to IL-5 biology.
 
 ## Clinical Trial Evidence
 
@@ -84,7 +84,7 @@ Currently no related clinical trials registered.
 
 Please refer to the TGA-approved Product Information (PI) for safety information.
 
-No drug interactions were identified in the data compiled for this report. Because eosinophils contribute to defence against helminth infection, the possible effect of eosinophil depletion on parasitic infections (for example filariasis) should be considered.
+No drug interactions were identified in the data compiled for this report.
 
 ## Conclusion and Next Steps
 

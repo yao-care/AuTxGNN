@@ -4,17 +4,17 @@ title: Natalizumab
 parent: Model Prediction Only (L5)
 nav_order: 496
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Natalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Multiple sclerosis, Crohn's disease, inflammatory bowel disease"
 monitor_inn: "Natalizumab"
-predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis", "pityriasis lichenoides", "penile fibromatosis", "pustulosis palmaris et plantaris", "dermatitis", "neonatal dermatomyositis"]
+predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
+description: "Natalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Natalizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Natalizumab: From Crohn's Disease and Multiple Sclerosis to Bronchitis
+## Natalizumab: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The score is a computational prediction only, so the recommendation is to **hold
 
 | Item | Content |
 |------|------|
-| Original Indication | Multiple sclerosis, Crohn's disease, inflammatory bowel disease (from the knowledge graph; no approved indication text is available for the Australian product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.46% |
+| TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

@@ -6,9 +6,9 @@ nav_order: 381
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Type 1 and type 2 diabetes mellitus"
 monitor_inn: "Insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
+description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Glargine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Glargine: From Diabetes Mellitus to Autoimmune Oophoritis
+## Insulin Glargine: Autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ This is a model-only signal and should not be treated as a therapeutic lead with
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 1 and type 2 diabetes mellitus (the ARTG entry in the data compiled for this report has no indication text; the indications come from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Autoimmune oophoritis |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, insulin glargine is a long-acting insulin analogue whose efficacy in diabetes mellitus is well established. There is no evidence that it acts on ovarian autoimmunity.
 
-The only plausible link is indirect. Autoimmune oophoritis can occur alongside polyglandular autoimmune syndromes, which may include type 1 diabetes. In that setting, insulin would treat the coexisting diabetes, not the ovarian condition. The high TxGNN score is therefore likely driven by shared autoimmune and diabetes associations in the knowledge graph, not by a therapeutic mechanism.
+The only plausible link is indirect. Autoimmune oophoritis can occur alongside polyglandular autoimmune syndromes, which may include type 1 diabetes. In that setting, insulin would treat the coexisting diabetes, not the ovarian condition. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a therapeutic mechanism.
 
 Other top-ranked predictions show similar patterns:
 - **Stiff person syndrome and focal stiff limb syndrome:** anti-GAD65 autoimmunity commonly co-occurs with type 1 diabetes.

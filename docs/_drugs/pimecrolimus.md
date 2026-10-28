@@ -4,17 +4,17 @@ title: Pimecrolimus
 parent: High Evidence (L1-L2)
 nav_order: 576
 evidence_level: L2
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Atopic dermatitis (atopic eczema). The Australian ARTG entry has no i…"
 monitor_inn: "Pimecrolimus"
-predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans", "parapsoriasis", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "acute lichenoid pityriasis"]
+predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
+description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Pimecrolimus
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Pimecrolimus: From Atopic Dermatitis to Seborrheic Dermatitis
+## Pimecrolimus: Seborrheic dermatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **seborrheic dermatitis**, supp
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic dermatitis (atopic eczema). The Australian ARTG entry has no indication text, so this comes from the knowledge-graph indication data. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Seborrheic dermatitis |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -113,7 +113,7 @@ A completed Phase 2 active-comparator trial and two systematic reviews of RCTs s
 - A defined use scope (for example facial disease, short-term or intermittent use, second-line after other options) with a monitoring plan for malignancy and infection risk
 - Ideally, an adequately powered Phase 3 trial or a review of the full results of NCT00403559
 
-*Other predictions in the dataset (for reference only):* "dermatitis" (rank 2) is dominated by atopic dermatitis, which is already the approved indication, so it is not a true repurposing finding. "Exanthem" (rank 3) is supported only by small, heterogeneous pilot trials (including oral and vulvar lichen disorders and EGFR-inhibitor rash) and should be treated as a research question. Predictions ranked 4 to 10 have no trials or literature and should be held.
+*Other predictions in the dataset (for reference only):* "Exanthem" (rank 3) is supported only by small, heterogeneous pilot trials (including oral and vulvar lichen disorders and EGFR-inhibitor rash) and should be treated as a research question. Predictions ranked 4 to 10 have no trials or literature and should be held.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

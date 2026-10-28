@@ -4,17 +4,17 @@ title: Melphalan
 parent: Model Prediction Only (L5)
 nav_order: 456
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Melphalan: predicted new indication Gonadal germ cell tumour (evidence level L5). Approved use: Ovarian cancer (including ovarian adenocarcinoma and several ovarian…"
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
+description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Melphalan: From Ovarian Cancer to Gonadal Germ Cell Tumour
+## Melphalan: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **7 clinical trials** (most of them small, early-phase or mixed-population 
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (including ovarian adenocarcinoma and several ovarian tumour subtypes) |
-| Predicted New Indication | Gonadal germ cell tumour |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L2 (see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Female breast carcinoma |
+| TxGNN Prediction Score | 0.9967 |
+| Evidence Level | L5 (see note below) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* The compiled data assign L2, based on one completed Phase 2 trial (NCT00936936, n=64). That trial tests a multi-drug high-dose regimen, and the data compiled for this report do not confirm how much melphalan contributes. It is a single-arm-style investigational study, not a randomised controlled trial, so the evidence is weaker than L2 would normally imply.
@@ -99,7 +99,6 @@ Only an oral tablet is registered. High-dose melphalan regimens with stem cell r
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (alkylating agent, nitrogen mustard class) |
-| Myelosuppression Risk | High (dose-limiting; the knowledge graph links melphalan to leukopenia, neutropenia, thrombocytopenia and anaemia) |
 | Emetogenicity Classification | Please refer to the Product Information (PI) |
 | Monitoring Items | Full blood count with differential, renal function, liver function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |

@@ -4,17 +4,17 @@ title: Imipramine
 parent: Moderate Evidence (L3-L4)
 nav_order: 370
 evidence_level: L3
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 monitor_inn: "Imipramine"
-predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder", "agoraphobia", "paranoid personality disorder", "schizoid personality disorder"]
+predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
+description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Imipramine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Imipramine: From Anxiety Disorder to Attention Deficit-Hyperactivity Disorder
+## Imipramine: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder, nocturnal enuresis (from the knowledge graph; no approved indication text is available for the Australian product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 ## Why is This Prediction Reasonable?
@@ -115,7 +115,7 @@ In children, cardiac conduction effects, anticholinergic effects and overdose to
 **Decision: Hold (research question only)**
 
 **Rationale:**
-The mechanistic link is plausible and older reports describe use in stimulant non-responders. However, there are no registered trials and no randomised controlled evidence in the data compiled, and approved alternatives are available. Paediatric cardiac and anticholinergic safety concerns further limit the benefit-risk balance. The high prediction score (99.90%) should not be read as clinical evidence.
+The mechanistic link is plausible and older reports describe use in stimulant non-responders. However, there are no registered trials and no randomised controlled evidence in the data compiled, and approved alternatives are available. Paediatric cardiac and anticholinergic safety concerns further limit the benefit-risk balance. The high prediction score (0.9990) should not be read as clinical evidence.
 
 **To proceed, the following is needed:**
 - A systematic review of controlled trials of imipramine and desipramine in ADHD, including comparison with atomoxetine and stimulants
@@ -130,7 +130,7 @@ The mechanistic link is plausible and older reports describe use in stimulant no
 
 The same analysis ranked other candidates. Most have no supporting evidence and look like model artefacts, including faciodigitogenital syndrome, chondromyxoid fibroma, benign paroxysmal torticollis of infancy, and paranoid and schizoid personality disorders (all Hold). Two stand out:
 
-- **Agoraphobia (panic disorder with agoraphobia): the strongest candidate (L2, Proceed with Guardrails).** Several randomised, controlled and long-term maintenance studies support imipramine, and a 2023 Cochrane network meta-analysis covers pharmacological treatments for panic disorder. Guardrails are ECG and anticholinergic monitoring, overdose toxicity, drug interactions, and comparison with first-line SSRIs and CBT. It partly overlaps with the existing anxiety-related uses.
+- Guardrails are ECG and anticholinergic monitoring, overdose toxicity, drug interactions, and comparison with first-line SSRIs and CBT. It partly overlaps with the existing anxiety-related uses.
 - **Obsessive-compulsive disorder (L3, Research Question).** Older comparative studies suggest imipramine is less effective than clomipramine, and approved SSRIs and clomipramine are preferred.
 ## Disclaimer
 

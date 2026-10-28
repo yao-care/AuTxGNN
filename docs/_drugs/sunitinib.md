@@ -4,17 +4,17 @@ title: Sunitinib
 parent: High Evidence (L1-L2)
 nav_order: 694
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma and gastrointestinal stromal tumour"
 monitor_inn: "Sunitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
+description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sunitinib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Sunitinib: From Renal Cell Carcinoma to Liposarcoma
+## Sunitinib: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **liposarcoma**, with **2 compl
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma and gastrointestinal stromal tumour (from the knowledge graph; no approved indication text is recorded for the Australian licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only; see Conclusion) |
 
 ## Why is This Prediction Reasonable?
@@ -93,12 +93,11 @@ No ANZCTR identifiers were available in the data compiled.
 | Cytotoxicity Classification | Targeted therapy (multitargeted tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | Full blood count (the knowledge graph links thrombocytopenia and anaemia), liver function, thyroid function, cardiac function and electrolytes; confirm against the PI |
 | Handling Protection | Follow local handling requirements for antineoplastic agents; refer to the PI |
 
 ## Safety Considerations
 
-- **Disease associations flagged in the knowledge graph (not label text):** long QT syndrome, torsades de pointes, heart failure, liver failure and drug-induced liver injury, thrombocytopenia, anaemia, hypothyroidism and hyperthyroidism, adrenocortical insufficiency, pancreatitis, epilepsy, hyperbilirubinaemia (including Gilbert syndrome), gallbladder disease, potassium deficiency, and posterior leukoencephalopathy syndrome.
+- **Disease associations flagged by the TxGNN model (deep learning), not label text:** long QT syndrome, torsades de pointes, heart failure, liver failure and drug-induced liver injury, thrombocytopenia, anaemia, hypothyroidism and hyperthyroidism, adrenocortical insufficiency, pancreatitis, epilepsy, hyperbilirubinaemia (including Gilbert syndrome), gallbladder disease, potassium deficiency, and posterior leukoencephalopathy syndrome. These associations may reflect similarities the model learned between related diseases, not biological evidence.
 - **Drug interactions:** 100 interactions were identified, of which 20 were listed. The only **Major** one in that list is **dolasetron** (QT-related concern). Moderate interactions include clarithromycin, dexamethasone, palonosetron, famotidine, loperamide, several insulins, sulfonylureas (glimepiride, chlorpropamide) and bowel-preparation or laxative agents (bisacodyl, picosulfuric acid, sodium sulfate, polyethylene glycol).
 - Sunitinib-induced thrombotic microangiopathy has been reported in the literature (PMID 27072203).
 

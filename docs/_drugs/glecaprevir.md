@@ -6,9 +6,9 @@ nav_order: 336
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Glecaprevir: predicted new indication HIV infectious disease (evidence level L3). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Glecaprevir: predicted new indication HIV infectious disease (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Glecaprevir
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Glecaprevir: From Chronic Hepatitis C to HIV Infectious Disease
+## Glecaprevir: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ The data compiled for this report include **7 clinical trials** and **20 publica
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis C virus infection (the Australian licence entry has no indication text, so this comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data are not available in the data compiled for this report. Glecaprevir is known to be an HCV NS3/4A protease inhibitor. It is used with pibrentasvir (an NS5A inhibitor) in a fixed-dose combination whose efficacy in chronic HCV is well established.
 
-There is no established direct anti-HIV activity for glecaprevir. The high TxGNN score most likely reflects network proximity between HIV and HCV in the knowledge graph: shared patient populations and drug interactions with antiretrovirals. The trials and publications retrieved concern HCV treatment in people with HIV co-infection. This is a co-infection use of the original indication, not true repurposing against HIV. The L3 label reflects mainly observational and review-level evidence; the Phase 3 trials below do not test an HIV endpoint.
+There is no established direct anti-HIV activity for glecaprevir. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases such as HIV and HCV, not biological evidence. The trials and publications retrieved concern HCV treatment in people with HIV co-infection. This is a co-infection use of the original indication, not true repurposing against HIV. The L3 label reflects mainly observational and review-level evidence; the Phase 3 trials below do not test an HIV endpoint.
 
 ## Clinical Trial Evidence
 
@@ -106,7 +106,7 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 **Decision: Hold**
 
 **Rationale:**
-- The supporting trials and publications show that glecaprevir/pibrentasvir cures HCV in people with HIV co-infection. They do not show any effect on HIV itself, and there is no plausible anti-HIV mechanism. The high prediction score appears to be a knowledge-graph association between the two viruses.
+- The supporting trials and publications show that glecaprevir/pibrentasvir cures HCV in people with HIV co-infection. They do not show any effect on HIV itself, and there is no plausible anti-HIV mechanism. The high prediction score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank

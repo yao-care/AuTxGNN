@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pyridostigmine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 613
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Pyridostigmine: predicted new indication Myasthenia gravis with thymus hyperplasia (evidence level L4). Approved use: Myasthenia gravis, adult-onset myasthenia gravis…"
 monitor_inn: "Pyridostigmine"
-predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "fetal akinesia deformation sequence", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors", "congenital myasthenic syndrome with tubular aggregates"]
+predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
+description: "Pyridostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pyridostigmine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Pyridostigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
+## Pyridostigmine: Autoimmune disease of peripheral nervous system
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pyridostigmine is a reversible acetylcholinesterase inhibitor, originally used for symptomatic treatment of myasthenia gravis and other neuromuscular junction disorders.
-The TxGNN model predicts it may be effective for **myasthenia gravis with thymus hyperplasia**, which is essentially an on-label subtype of the original indication rather than true repurposing.
 There are currently **no registered clinical trials** and **3 publications** (none testing pyridostigmine in this subgroup) supporting this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Myasthenia gravis, adult-onset myasthenia gravis, neuromuscular junction disease (the ARTG entry does not state an indication text) |
-| Predicted New Indication | Myasthenia gravis with thymus hyperplasia |
-| TxGNN Prediction Score | 99.76% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune disease of peripheral nervous system |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

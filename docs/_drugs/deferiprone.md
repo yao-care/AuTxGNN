@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Deferiprone
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 205
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Deferiprone: predicted new indication Hepatic porphyria (evidence level L4). Approved use: Transfusional iron overload in thalassaemia and related conditions (h…"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "Deferiprone"
-predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary", "partial deletion of the short arm of chromosome 16"]
+predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
+last_modified_at: 2026-10-27
+description: "Deferiprone: predicted new indication hepatic porphyria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Deferiprone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,34 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Deferiprone: From Transfusional Iron Overload (Thalassaemia) to Hepatic Porphyria
+## Deferiprone: oral iron chelator → hepatic porphyria
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Deferiprone is an oral iron chelator originally used to treat iron overload in thalassaemia and related haemoglobin disorders.
-The TxGNN model predicts it may be useful for **hepatic porphyria**, but the supporting evidence is limited to **2 preclinical or case-level publications** and **no registered clinical trials**.
+Deferiprone is an oral iron chelator supplied in Australia as a 1000 mg tablet (Ferriprox).
+The TxGNN model predicts it may be useful for **hepatic porphyria**, with a score of **0.9920**.
+Support comes from **2 publications** (one case-level preclinical report and one mouse study) and **no registered clinical trials**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Transfusional iron overload in thalassaemia and related conditions (haemosiderosis, beta-thalassaemia, haemoglobinopathy). The ARTG entry has no indication text, so this is taken from the knowledge-graph indications. |
-| Predicted New Indication | Hepatic porphyria |
-| TxGNN Prediction Score | 99.20% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | hepatic porphyria |
+| TxGNN Prediction Score | 0.9920 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from the data compiled for this report. Deferiprone is known to be an oral iron chelator. It binds labile iron and promotes its removal, and its efficacy in transfusional iron overload is established.
+Detailed mechanism of action data are not available in the data compiled for this report. Deferiprone is known as an oral iron chelator, and the proposed rationale rests on that property.
 
-In some porphyrias, iron drives the disease. In porphyria cutanea tarda (PCT), for example, excess hepatic iron promotes the build-up of uroporphyrin, and lowering iron (by phlebotomy) is an effective treatment. A chelator could, in principle, achieve a similar effect. A congenital erythropoietic porphyria report suggests iron chelation improved haemolytic anaemia and skin photosensitivity. A mouse model of PCT-like uroporphyria also tested deferiprone.
+Some porphyrias have iron-dependent pathology. In porphyria cutanea tarda, for example, excess hepatic iron promotes accumulation of uroporphyrin, and lowering labile iron could reduce this. This is the main mechanistic argument for the prediction.
 
-This reasoning has clear limits. The evidence is preclinical or comes from a non-hepatic porphyria. Acute hepatic porphyrias are not primarily iron-driven, so any benefit may apply only to specific subtypes such as PCT. The prediction should be treated as a research hypothesis, not a treatment recommendation.
+The link is not general. Acute hepatic porphyrias are not iron-driven, so any benefit would probably be limited to specific subtypes. The supporting studies are also indirect: one is in congenital erythropoietic porphyria (not a hepatic form) and one is in a mouse model. Applicability to hepatic porphyria in humans is therefore not established.
 
 ## Clinical Trial Evidence
 
@@ -69,38 +70,37 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preclinical / case-level | Blood | Iron chelation rescued haemolytic anaemia and skin photosensitivity in congenital erythropoietic porphyria (a non-hepatic form). |
-| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Animal study (mouse) | Hepatology | Compared deferiprone with iron-deficient diets for hepatic iron depletion and uroporphyrin accumulation in a mouse model of porphyria cutanea tarda. |
+| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preclinical / case-level | Blood | Iron chelation rescued haemolytic anaemia and skin photosensitivity in congenital erythropoietic porphyria |
+| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Animal study (mouse) | Hepatology | In a mouse model of porphyria cutanea tarda, deferiprone was compared with iron-deficient diets for effects on hepatic uroporphyrin accumulation |
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 11724C | Ferriprox | Tablet 1000 mg (oral) | Not available in the data compiled for this report |
+| 11724C | Ferriprox | Tablet 1000 mg | Not recorded in the local data |
 
 ## Safety Considerations
 
-- **Drug Interactions:** 100 interactions were identified, and all 20 listed in the data are rated Moderate. They are mainly with polyvalent metal-containing products, which may bind the chelator in the gut. The listed examples include:
-  - Calcium salts (phosphate, acetate, carbonate, citrate, gluconate, lactate)
-  - Magnesium salts (oxide, carbonate, chloride, citrate, hydroxide, sulfate)
-  - Aluminium hydroxide, magaldrate, kaolin, attapulgite and sucralfate
+- **Drug Interactions**: 100 interactions were identified in the interaction screen. The 19 listed here are all rated Moderate, and the likely mechanism is reduced iron-chelator absorption or binding with polyvalent metal cations. They include:
+  - Calcium salts (phosphate, acetate, carbonate, citrate, glubionate, gluconate, lactate)
+  - Magnesium salts and antacids (oxide, carbonate, chloride, citrate, gluconate, hydroxide, sulfate, magaldrate)
+  - Aluminium hydroxide, attapulgite, kaolin and sucralfate
   - Iron
 
-Please refer to the TGA-approved Product Information (PI) for warnings and contraindications. These were not available in the data compiled for this report.
+For warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a high computational score and indirect preclinical evidence. There are no clinical trials, and benefit in hepatic porphyria is plausible only for iron-driven subtypes such as PCT. Warnings and contraindications from the PI were also not available.
+The prediction is scored highly by the model, but no cited study examines hepatic porphyria directly. The available literature covers a different porphyria (congenital erythropoietic) and a mouse model, so the evidence level is L5. The iron-driven mechanism may apply only to certain subtypes, such as porphyria cutanea tarda.
 
 **To proceed, the following is needed:**
-- Review of the TGA Product Information for warnings and contraindications (the PI is not yet reviewed)
-- Detailed mechanism of action data
-- Definition of the relevant porphyria subtype (for example PCT) and confirmation of an iron-driven mechanism
-- Further preclinical or early-phase clinical evidence in hepatic porphyria
-- Review of the interaction profile with commonly co-administered products
+- Human studies in a specific iron-sensitive hepatic porphyria subtype, such as porphyria cutanea tarda
+- Mechanism of action data for deferiprone
+- Review of the TGA Product Information for warnings and contraindications
+- Assessment of safety in porphyria populations, including interaction management with metal-containing products
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

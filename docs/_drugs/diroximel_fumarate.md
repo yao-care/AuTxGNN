@@ -48,10 +48,10 @@ The prediction is therefore model-based only.
 |------|------|
 | Original Indication | Not recorded in the data compiled for this report |
 | Predicted New Indication | Diabetic cataract |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The original indication was not captured, so the relationship between it and diabetic cataract cannot be assessed directly. The proposed link is that oxidative stress and polyol-pathway damage contribute to lens opacification in diabetes, so Nrf2 activation is a plausible but unvalidated protective mechanism. Systemic drug exposure reaching the lens is unverified.
 
-The same model also ranks several other eye conditions highly: diabetic retinopathy, severe nonproliferative diabetic retinopathy, and multiple cataract subtypes. Many of these scores are almost identical (about 99.999%), which suggests they may reflect shared connections between related disease nodes in the knowledge graph rather than independent evidence. Some predictions, such as tetanic cataract and craniostenosis cataract, have no evident mechanistic link.
+The same model also ranks several other eye conditions highly: diabetic retinopathy, severe nonproliferative diabetic retinopathy, and multiple cataract subtypes. Many of these scores are identical (1.0000), which may reflect similarities the TxGNN model (deep learning) learned between related diseases, not biological evidence. Some predictions, such as tetanic cataract and craniostenosis cataract, have no evident mechanistic link.
 
 ## Clinical Trial Evidence
 
@@ -93,7 +93,7 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN score, with no registered trials or publications. The high scores across closely related cataract and retinopathy entries suggest graph similarity rather than independent evidence. Warnings, contraindications and the original indication are also missing from the data compiled for this report.
+The prediction is supported only by the TxGNN score, with no registered trials or publications. The high scores across closely related cataract and retinopathy entries come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Warnings, contraindications and the original indication are also missing from the data compiled for this report.
 
 **To proceed, the following is needed:**
 - Confirmation of the approved indication and the full safety profile (warnings and contraindications) from the TGA-approved PI

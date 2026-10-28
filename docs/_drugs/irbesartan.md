@@ -4,17 +4,17 @@ title: Irbesartan
 parent: Model Prediction Only (L5)
 nav_order: 389
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Irbesartan: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension, hypertensive disorder, diabetic nephropathy"
 monitor_inn: "Irbesartan"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "chronic pulmonary heart disease", "obsolete susceptibility to ischemic stroke"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+description: "Irbesartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Irbesartan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Irbesartan: From Hypertension to Malignant Renovascular Hypertension
+## Irbesartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Irbesartan is an angiotensin II receptor blocker (ARB), originally used to treat hypertension and diabetic nephropathy.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model output alone.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, hypertensive disorder, diabetic nephropathy (the ARTG entry has no indication text; these come from the knowledge graph used by the model) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.31% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,6 @@ Renovascular hypertension is driven largely by activation of the renin-angiotens
 Other high-scoring predictions (ranks 2 to 10) were also reviewed:
 - **Malignant hypertensive renal disease** (99.31%): consistent with AT1 blockade lowering blood pressure and intraglomerular pressure, but no evidence was provided. Evidence level L5, Hold.
 - **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.25%): 11 publications were retrieved, but these are mostly animal or in vitro studies on cardiac or altitude-related hypoxia, and several are off-target. No human pulmonary hypertension trials. Evidence level L4, Research Question.
-- **Chronic pulmonary heart disease** (96.53%): literature is indirect, mainly on heart failure with preserved ejection fraction (including the I-PRESERVE trial population) and one pilot RCT of irbesartan with exercise in COPD patients. Evidence level L4, Research Question.
 - **Pulmonary hypertension with unclear multifactorial mechanism, Prinzmetal angina, Braddock syndrome, two rare genetic vascular syndromes, and an obsolete stroke susceptibility term**: no trials or literature, prediction only (L5, Hold). The stroke entry is an obsolete ontology term and not clinically actionable.
 
 ## Clinical Trial Evidence
@@ -106,7 +105,7 @@ Please refer to the TGA-approved Product Information (PI) for warnings and forma
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.31%), but no clinical trials or publications support irbesartan for malignant renovascular hypertension (L5). The indication also overlaps heavily with irbesartan's existing hypertension use, so the added value is limited. Among the other predictions, only pulmonary hypertension due to lung disease or hypoxia and chronic pulmonary heart disease have any supporting literature, and that is preclinical or indirect (L4, Research Question).
+The prediction score is high (0.9931), but no clinical trials or publications support irbesartan for malignant hypertensive renal disease (L5). The indication also overlaps heavily with irbesartan's existing hypertension use, so the added value is limited. Among the other predictions, only pulmonary hypertension due to lung disease or hypoxia has any supporting literature, and that is preclinical or indirect (L4, Research Question).
 
 **To proceed, the following is needed:**
 - Label-based warnings and contraindications from the TGA Product Information (currently a blocking gap for safety screening)

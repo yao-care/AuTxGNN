@@ -50,10 +50,10 @@ The high score appears to reflect network proximity among viral hepatitis condit
 |------|------|
 | Original Indication | Chronic hepatitis C virus infection (from the knowledge graph; no approved indication text is recorded for the ARTG entry) |
 | Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The high score appears to reflect network proximity among viral hepatitis condit
 
 Detailed mechanism of action data are not available in the compiled data. Pibrentasvir is known to be an HCV NS5A inhibitor, and its efficacy in HCV is well established. Its role in treating HBV is not supported mechanistically.
 
-HBV has no NS5A homologue, so there is no clear shared drug target. HBV and HCV are both hepatotropic viruses and cause chronic liver disease, which is probably why they sit close together in the knowledge graph. The score of 0.998 likely reflects this network proximity, not a true mechanistic link.
+HBV has no NS5A homologue, so there is no clear shared drug target. HBV and HCV are both hepatotropic viruses and cause chronic liver disease, which is probably why the model sees them as related. The score of 0.9984 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The literature retrieved concerns HCV treatment. Some general viral hepatitis reviews mention HBV, but none shows anti-HBV activity of pibrentasvir. The prediction should therefore be treated as a hypothesis only.
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nizatidine
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 509
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Nizatidine: predicted new indication Active peptic ulcer disease (evidence level L1). Approved use: Gastric ulcer, peptic ulcer disease…"
 monitor_inn: "Nizatidine"
-predicted_indications: ["duodenal obstruction", "gastroduodenitis", "multiple endocrine neoplasia", "leather-bottle stomach", "duodenitis", "gastrin secretion abnormality"]
+predicted_indications: ["duodenal obstruction", "gastroduodenitis", "multiple endocrine neoplasia"]
+description: "Nizatidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nizatidine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Nizatidine: From Gastric Ulcer and Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Nizatidine: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Nizatidine is an H2-receptor antagonist originally used for gastric ulcer, duodenal ulcer, peptic ulcer disease and gastro-oesophageal reflux disease.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this is essentially an on-label use rather than true repurposing.
+The TxGNN model predicts it may be effective for **duodenal obstruction**.
 No clinical trials are registered in the data compiled for this report, but **20 publications** (including several randomised, placebo-controlled trials) support the indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis, dyspepsia, duodenal ulcer (from knowledge graph indication data; no approved indication text is recorded for the ARTG entry) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -66,10 +66,7 @@ The model also produced lower-ranked predictions. Their support is much weaker:
 
 | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Duodenitis | 97.85% | L3 | Mechanistically sound (acid-peptic condition near duodenal ulcer), but evidence addresses ulcer disease rather than duodenitis; Proceed with Guardrails |
-| Gastroduodenitis | 99.58% | L3 | Studies on NSAID-induced gastroduodenal lesions; study designs unclear; Research Question |
-| Gastrojejunal ulcer | 99.94% | L4 | Indirect evidence extrapolated from peptic ulcer data; PPIs generally preferred; Research Question |
-| Peptic ulcer perforation, duodenal obstruction, duodenogastric reflux, multiple endocrine neoplasia, leather-bottle stomach, gastrin secretion abnormality | 97.7–99.9% | L5 | No supporting clinical evidence, or no plausible mechanism; Hold |
+| Gastroduodenitis | 0.9958 | L3 | Studies on NSAID-induced gastroduodenal lesions; study designs unclear; Research Question |
 
 ## Clinical Trial Evidence
 
@@ -116,7 +113,7 @@ Warnings and contraindications from the approved label were not available. Pleas
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The top prediction is effectively an established, on-label use supported by several randomised, placebo-controlled trials. It is not a novel repurposing opportunity. The evidence is literature-based only; no registered trials were supplied, and most of the studies date from the 1980s and 1990s. Duodenitis is the only lower-ranked prediction with partially supportive evidence. The others are indirect or unsupported and should be held.
+The evidence is literature-based only; no registered trials were supplied, and most of the studies date from the 1980s and 1990s. The other predictions are indirect or unsupported and should be held.
 
 **To proceed, the following is needed:**
 - The TGA-approved Product Information for Tazac, including approved indications, warnings and contraindications (the label review was a blocking data gap)
@@ -124,7 +121,6 @@ The top prediction is effectively an established, on-label use supported by seve
 - Confirmation of the ARTG-approved indications against the predicted indication
 - Comparison with current guidelines, as PPIs are generally preferred for many acid-related conditions
 - A review of the interaction list, particularly for drugs that need gastric acid for absorption
-- Direct evidence for duodenitis if that indication is pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

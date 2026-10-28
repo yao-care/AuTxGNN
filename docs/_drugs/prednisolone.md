@@ -4,7 +4,7 @@ title: Prednisolone
 parent: High Evidence (L1-L2)
 nav_order: 599
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease, Crohn disease, adrenocortical insufficiency…"
 monitor_inn: "Prednisolone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Prednisolone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ There are **no registered clinical trials**, but **20 publications** support thi
 |------|------|
 | Original Indication | Autoimmune disease, Crohn disease, adrenocortical insufficiency, acute lymphoblastic leukaemia and others (the ARTG entry has no indication text recorded) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -132,12 +132,11 @@ Alopecia areata is an immune-mediated condition, and there is a placebo-controll
 
 | Rank | Predicted Indication | Score | Evidence Level | Decision | Comment |
 |---|---|---|---|---|---|
-| 2 | Alopecia mucinosa | 99.99% | L4 | Hold | Only a cyclosporine case report; no direct prednisolone evidence |
-| 3 | Telogen effluvium | 99.98% | L5 | Hold | No evidence; usually self-resolving |
-| 4 | Folliculitis decalvans | 99.98% | L4 | Hold | One case report of combination therapy; prednisolone's contribution unclear |
-| 5 | Alopecia antibody deficiency | 99.98% | L4 | Hold | Only an indirect case report |
-| 6–9 | Hereditary hypotrichosis with recurrent skin vesicles; alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome; atrichia with papular lesions; prolapse of lacrimal gland | 99.94–99.98% | L5 | Hold | No evidence; no plausible immune mechanism |
-| 10 | Idiopathic steroid-sensitive nephrotic syndrome | 99.86% | L3 | Research Question | Already standard of care; much of the literature concerns steroid-resistant disease, so labelling and regimen optimisation is the open question |
+| 2 | Alopecia mucinosa | 0.9999 | L5 | Hold | Only a cyclosporine case report; no direct prednisolone evidence |
+| 3 | Telogen effluvium | 0.9998 | L5 | Hold | No evidence; usually self-resolving |
+| 4 | Folliculitis decalvans | 0.9998 | L5 | Hold | One case report of combination therapy; prednisolone's contribution unclear |
+| 5 | Alopecia antibody deficiency | 0.9998 | L5 | Hold | Only an indirect case report |
+| 6–9 | Hereditary hypotrichosis with recurrent skin vesicles; alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome; atrichia with papular lesions; prolapse of lacrimal gland | 99.94–0.9998 | L5 | Hold | No evidence; no plausible immune mechanism |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

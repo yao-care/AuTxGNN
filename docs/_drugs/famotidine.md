@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Famotidine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 285
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Famotidine: predicted new indication Duodenogastric reflux (evidence level L4). Approved use: Gastric ulcer, duodenal ulcer, gastroesophageal reflux disease…"
 monitor_inn: "Famotidine"
-predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "gastroduodenitis", "multiple endocrine neoplasia", "acne (disease)"]
+predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
+description: "Famotidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Famotidine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Famotidine: From Gastric Ulcer to Duodenogastric Reflux
+## Famotidine: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Famotidine is an H2-receptor antagonist originally used for gastric and duodenal ulcers, gastroesophageal reflux disease, dyspepsia and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **duodenogastric reflux**, but only **2 small or indirect publications** and **no registered clinical trials** currently support this direction.
 
 ---
 
@@ -47,12 +46,12 @@ The TxGNN model predicts it may be effective for **duodenogastric reflux**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, duodenal ulcer, gastroesophageal reflux disease, esophagitis, dyspepsia, Zollinger-Ellison syndrome (from the knowledge graph; the ARTG entry has no indication text) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +60,6 @@ The TxGNN model predicts it may be effective for **duodenogastric reflux**, but 
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Famotidine is a well-established H2-receptor antagonist. By blocking H2 receptors on parietal cells, it reduces gastric acid secretion. Its efficacy in acid-related upper gastrointestinal conditions is proven.
 
-Duodenogastric reflux is closely related to these acid-related conditions, so acid suppression may plausibly relieve symptoms of mucosal irritation. However, famotidine does not correct the bile reflux itself, so any benefit would be symptomatic. The high TxGNN score likely reflects proximity to the existing ulcer and reflux indications in the knowledge graph rather than direct evidence.
 
 **Other predictions in the model's top 10**
 
@@ -74,7 +72,7 @@ Duodenogastric reflux is closely related to these acid-related conditions, so ac
 | 6 | Abnormality of glucagon secretion | L5 | Model prediction only |
 | 7 | Gastroduodenitis | L2 | Partly indirect evidence, overlaps with labelled ulcer uses |
 | 8 | Peptic ulcer disease | L1 | Already a labelled indication, so little repurposing novelty |
-| 9 | Multiple endocrine neoplasia | L4 | Indirect, via Zollinger-Ellison syndrome |
+| 9 | Multiple endocrine neoplasia | L5 | Indirect, via Zollinger-Ellison syndrome |
 | 10 | Acne | L5 | Model prediction only |
 
 Several of these (ranks 3, 7 and 8) are essentially existing indications, so they add little true repurposing value.
@@ -120,14 +118,13 @@ Please also refer to the TGA-approved Product Information (PI) for full warnings
 **Decision: Hold**
 
 **Rationale:**
-The prediction for duodenogastric reflux rests on a high model score and two small or indirect publications, with no registered trials (L4). Famotidine would act only on acid, not on bile reflux itself. Among the other predictions, the better-evidenced ones largely duplicate existing ulcer indications and show famotidine as comparable or inferior to PPIs in several settings.
+Among the predictions, the better-evidenced ones largely duplicate existing ulcer indications and show famotidine as comparable or inferior to PPIs in several settings.
 
 **To proceed, the following is needed:**
 - Controlled clinical data of famotidine in duodenogastric reflux, ideally compared with a PPI or placebo
 - Mechanism of action data
 - TGA Product Information warnings and contraindications, and the approved indication text for the ARTG entry
 - Review of the knowledge-graph contraindication signals and the key drug interactions
-- If the aim is genuine repurposing, a more novel candidate from the list (for example gastroduodenitis, at L2) could be explored, after confirming it is not already covered by the existing label
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

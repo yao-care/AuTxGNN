@@ -4,17 +4,17 @@ title: Eflornithine
 parent: Model Prediction Only (L5)
 nav_order: 241
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Eflornithine: predicted new indication Esotropia (evidence level L5). Approved use: Human African trypanosomiasis"
 monitor_inn: "Eflornithine"
-predicted_indications: ["esotropia", "neurotrophic keratopathy", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "trypanosomiasis, bovine", "blood group incompatibility", "monoclonal gammopathy", "premalignant hematological system disease", "congenital prothrombin deficiency"]
+predicted_indications: ["esotropia", "neurotrophic keratopathy"]
 ---
 
 # Eflornithine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,19 +47,19 @@ The TxGNN model predicts it may be effective for **esotropia**, but the predicti
 |------|------|
 | Original Indication | Human African trypanosomiasis (the Australian licence record has no approved indication text) |
 | Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Eflornithine irreversibly inhibits ornithine decarboxylase (ODC), the first enzyme in polyamine synthesis. This is the basis of its use in human African trypanosomiasis. The data compiled for this report did not include a detailed mechanism of action, so this description relies on the pharmacology records.
 
-No mechanistic link was identified between ODC inhibition and esotropia (a form of strabismus). No known pathway connects polyamine synthesis to ocular motor control. The high TxGNN score is a graph-based prediction and should not be read as biological evidence. Esotropia is also unrelated to the original infectious indication.
+No mechanistic link was identified between ODC inhibition and esotropia (a form of strabismus). No known pathway connects polyamine synthesis to ocular motor control. The high score (0.9985) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Esotropia is also unrelated to the original infectious indication.
 
-For context, the other top-ranked predictions were also reviewed. Most had no identifiable mechanistic link and no supporting evidence. The one biologically coherent prediction was **bovine trypanosomiasis** (rank 6, score 98.42%, L4). It is essentially an extension of the original indication to a veterinary host, and the supporting studies are indirect: one preclinical study of eflornithine and hydroxyurea against *Babesia* and *Theileria*, and one mechanistic study of trypanosomatid polyamine pathways. It is a research question rather than a new human repurposing opportunity.
+For context, the other top-ranked predictions were also reviewed. Most had no identifiable mechanistic link and no supporting evidence. The one biologically coherent prediction was **bovine trypanosomiasis** (rank 6, L4). It is essentially an extension of the original indication to a veterinary host, and the supporting studies are indirect: one preclinical study of eflornithine and hydroxyurea against *Babesia* and *Theileria*, and one mechanistic study of trypanosomatid polyamine pathways. It is a research question rather than a new human repurposing opportunity.
 
 ## Clinical Trial Evidence
 
@@ -87,7 +87,7 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 **Decision: Hold**
 
 **Rationale:**
-The esotropia prediction has no clinical, literature or mechanistic support and is based solely on a graph model score. At L5 evidence, there is no basis to progress.
+The esotropia prediction has no clinical, literature or mechanistic support and is based solely on a score from the TxGNN model (deep learning). At L5 evidence, there is no basis to progress.
 
 **To proceed, the following is needed:**
 - A plausible mechanistic hypothesis linking polyamine/ODC inhibition to esotropia or ocular motor control

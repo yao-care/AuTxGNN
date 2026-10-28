@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Romosozumab
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 648
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Romosozumab: predicted new indication Obsolete vitamin D deficiency (evidence level L5). Approved use: Postmenopausal osteoporosis"
-monitor_inn: "Romosozumab"
-predicted_indications: ["obsolete vitamin D deficiency", "calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization", "severe nonproliferative diabetic retinopathy", "renal osteodystrophy", "osteomalacia (disease)", "autosomal dominant neovascular inflammatory vitreoretinopathy", "Worth syndrome", "impaired renal function disease"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Romosozumab: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Romosozumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,57 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Romosozumab: From Postmenopausal Osteoporosis to Obsolete Vitamin D Deficiency
+<!-- known-uses-page -->
+<!-- description: Romosozumab: known uses and market status in Australia; currently no new candidate indication -->
+## Romosozumab: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model produced candidate indications for Romosozumab, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. This page records the market status in Australia and the known uses found among the model's candidates.
 
-Romosozumab is an anti-sclerostin antibody originally used to treat osteoporosis in postmenopausal women.
-The TxGNN model's top-ranked prediction is **"obsolete vitamin D deficiency"**, but there are **0 clinical trials** and **0 publications** supporting it. The signal is likely an artefact of the knowledge graph rather than a real therapeutic opportunity.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Postmenopausal osteoporosis; osteoporosis (from knowledge-graph indication data, as no approved indication text was available for the ARTG entry) |
-| Predicted New Indication | Obsolete vitamin D deficiency |
-| TxGNN Prediction Score | 97.83% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 0 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
----
+## Known uses among the model's candidates
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, romosozumab is a monoclonal antibody that inhibits sclerostin. This increases bone formation and reduces bone resorption, and its efficacy in osteoporosis is established.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The link to the predicted indication is weak. Romosozumab does not correct vitamin D status. It acts on bone-forming pathways, not on vitamin D supply or metabolism. The disease term is also flagged as obsolete in the ontology, so the high score probably reflects shared bone-and-mineral-metabolism annotations in the knowledge graph rather than a real therapeutic opportunity. The prediction should not be treated as a credible repurposing candidate on its own.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form |
-|---------|------|------|
-| ARTG 12301K | Evenity | Injection 105 mg in 1.17 mL single use pre-filled syringe |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 12301K | Evenity | Injection 105 mg in 1.17 mL single use p | Valid |
 
 ## Safety Considerations
 
@@ -98,25 +85,6 @@ Label-based warnings and contraindications were not available for this report. P
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The top-ranked prediction has no trial or literature support and no plausible mechanism. The disease term is obsolete, so this looks like a knowledge-graph artefact rather than a real opportunity.
-
-**To proceed, the following is needed:**
-- Nothing further is recommended for this prediction unless a credible mechanistic rationale emerges.
-- Label-based safety data (PI warnings and contraindications) and mechanism of action data from DrugBank, for any future evaluation.
-
-**Other predictions for this drug with more evidence:**
-- **Osteoporosis in patients with impaired renal function** (score 91.5%, Evidence Level L3, Proceed with Guardrails).
-  - Supporting evidence includes a completed Phase 1 study (NCT01833754, n=24), post hoc analyses of the FRAME and ARCH Phase 3 trials in mild-to-moderate CKD, and a meta-analysis across CKD stages.
-  - Evidence in advanced CKD (stages 4-5, dialysis) is limited. Reviews raise concerns about adynamic bone disease, hypocalcaemia and cardiovascular risk.
-  - Suggested guardrails: restrict to mild-to-moderate impairment, correct calcium and vitamin D and exclude CKD-MBD before treatment, monitor calcium, and screen for prior myocardial infarction or stroke.
-- **Pregnancy- and lactation-associated osteoporosis** (score 92.9%, Evidence Level L4, Research Question).
-  - Evidence is limited to case reports and case series, plus a 2026 international position statement.
-  - Use during pregnancy or lactation is not established. Any use would be confined to the postpartum, non-lactating setting, with cardiovascular risk screening.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

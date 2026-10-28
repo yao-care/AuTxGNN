@@ -4,17 +4,17 @@ title: Hydromorphone
 parent: Model Prediction Only (L5)
 nav_order: 355
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Hydromorphone: predicted new indication Pharyngitis (evidence level L5). Approved use: Common cold, nasopharyngitis"
 monitor_inn: "Hydromorphone"
-predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
+predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
+description: "Hydromorphone: predicted new indication Pharyngitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Hydromorphone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Hydromorphone: From Common Cold / Nasopharyngitis to Pharyngitis
+## Hydromorphone: Pharyngitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ This prediction is best read as a symptom-relief (pain) association, not as evid
 
 | Item | Content |
 |------|------|
-| Original Indication | Common cold, nasopharyngitis (from the TxGNN knowledge graph; no approved indication text is available for the Australian product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pharyngitis |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L4 (indirect evidence only; see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9981 |
+| Evidence Level | L5 (indirect evidence only; see note below) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note: The evidence level of L4 reflects the assessment compiled for this indication. The trials found do not test hydromorphone for pharyngitis, so in practice the evidence is close to prediction-only.*
@@ -60,7 +60,7 @@ This prediction is best read as a symptom-relief (pain) association, not as evid
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Hydromorphone is, however, a well-known mu-opioid receptor agonist used for moderate to severe pain.
 
-The link to pharyngitis is most plausibly symptomatic. An opioid could reduce the pain of a sore throat, and opioids can suppress cough. Hydromorphone has no antimicrobial, antiviral or anti-inflammatory action against the cause of pharyngitis. The very high TxGNN score (99.81%) probably reflects network proximity to the original indications (common cold, nasopharyngitis) through shared pain and symptom links, and should not be taken as evidence of efficacy.
+The link to pharyngitis is most plausibly symptomatic. An opioid could reduce the pain of a sore throat, and opioids can suppress cough. Hydromorphone has no antimicrobial, antiviral or anti-inflammatory action against the cause of pharyngitis. The very high TxGNN score (0.9981) probably reflects network proximity to the original indications (common cold, nasopharyngitis) through shared pain and symptom links, and should not be taken as evidence of efficacy.
 
 Other predictions for this drug are weaker still. Allergic urticaria, cold urticaria and papillary conjunctivitis are mechanistically implausible, since opioids can trigger histamine release. Faucial diphtheria, nasal cavity disease, acute laryngopharyngitis, trigeminal autonomic cephalalgia and cervical disc degenerative disorder have no supporting trials or literature. The one exception is headache disorder, which has direct emergency department migraine studies, but these show hydromorphone as a comparator rather than a preferred therapy.
 
@@ -88,7 +88,7 @@ This is the only registered entry, and it is an oral single-ingredient product. 
 
 ## Safety Considerations
 
-- **Contraindications and warnings (knowledge-graph associations, not label text):** The TxGNN knowledge graph links hydromorphone with contraindication or caution for several conditions, including:
+- **Contraindications and warnings (TxGNN model associations, not label text):** The TxGNN model (deep learning) links hydromorphone with contraindication or caution for several conditions. These associations may reflect similarities the model learned between related diseases, not biological evidence, and include:
   - Respiratory failure
   - Liver failure and liver disease
   - Kidney disease

@@ -4,17 +4,17 @@ title: Gemcitabine
 parent: Model Prediction Only (L5)
 nav_order: 331
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Gemcitabine: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Ovarian cancer"
 monitor_inn: "Gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
+description: "Gemcitabine: predicted new indication Rectum mucinous adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Gemcitabine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Gemcitabine: From Ovarian Cancer to Female Breast Carcinoma
+## Gemcitabine: Rectum mucinous adenocarcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Gemcitabine is a nucleoside analogue chemotherapy originally associated with ovarian cancer treatment.
-The TxGNN model predicts it may be effective for **female breast carcinoma**,
+The TxGNN model predicts it may be effective for **rectum mucinous adenocarcinoma**,
 with **40 clinical trials** and **20 publications** currently listed in the data compiled for this report, including a completed Phase 3 trial of gemcitabine plus paclitaxel in metastatic breast cancer.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (the ARTG entry in the compiled data has no indication text; the original indication is taken from the knowledge-graph indication edges) |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L1 (as assigned in the compiled data; see the note under Clinical Trial Evidence) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Rectum mucinous adenocarcinoma |
+| TxGNN Prediction Score | 0.9977 |
+| Evidence Level | L5 (as assigned in the compiled data; see the note under Clinical Trial Evidence) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

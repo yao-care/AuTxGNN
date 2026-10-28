@@ -50,26 +50,26 @@ Other lower-ranked predictions have more evidence, particularly **familial Medit
 |------|------|
 | Original Indication | Rheumatoid arthritis; cryopyrin-associated periodic syndrome; CINCA syndrome (the approved indication text for the Australian ARTG entry is not available) |
 | Predicted New Indication | Extracutaneous mastocytoma |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 For context, the other predicted indications in this evaluation were graded as follows:
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|------|
-| 1 | Extracutaneous mastocytoma | 99.93% | L5 | Hold |
-| 2 | Hepatic infarction | 99.89% | L5 | Hold |
-| 3 | Autosomal recessive familial Mediterranean fever | 99.89% | L3 | Research Question |
-| 4 | Aggressive systemic mastocytosis | 99.88% | L4 | Hold |
-| 5 | Hepatic veno-occlusive disease | 99.88% | L5 | Hold |
-| 6 | Peliosis hepatis | 99.85% | L5 | Hold |
-| 7 | Oligoarticular JIA without anti-nuclear antibodies | 99.85% | L4 | Hold |
-| 8 | Oligoarticular JIA with anti-nuclear antibodies | 99.85% | L4 | Hold |
-| 9 | Pyogenic autoinflammatory syndrome | 99.83% | L3 | Research Question |
-| 10 | Unclassified autoinflammatory syndrome | 99.81% | L3 | Research Question |
+| 1 | Extracutaneous mastocytoma | 0.9993 | L5 | Hold |
+| 2 | Hepatic infarction | 0.9989 | L5 | Hold |
+| 3 | Autosomal recessive familial Mediterranean fever | 0.9989 | L5 | Research Question |
+| 4 | Aggressive systemic mastocytosis | 0.9988 | L5 | Hold |
+| 5 | Hepatic veno-occlusive disease | 0.9988 | L5 | Hold |
+| 6 | Peliosis hepatis | 0.9985 | L5 | Hold |
+| 7 | Oligoarticular JIA without anti-nuclear antibodies | 0.9985 | L5 | Hold |
+| 8 | Oligoarticular JIA with anti-nuclear antibodies | 0.9985 | L5 | Hold |
+| 9 | Pyogenic autoinflammatory syndrome | 0.9983 | L3 | Research Question |
+| 10 | Unclassified autoinflammatory syndrome | 0.9981 | L3 | Research Question |
 
 ---
 
@@ -77,7 +77,7 @@ For context, the other predicted indications in this evaluation were graded as f
 
 Detailed mechanism of action data for anakinra is not available in the data compiled for this report. Anakinra is, however, a recombinant IL-1 receptor antagonist, and its efficacy in rheumatoid arthritis and cryopyrin-associated periodic syndromes is established. Mechanistically, it may be applicable to conditions in which IL-1 drives inflammation.
 
-For the top-ranked prediction, **extracutaneous mastocytoma**, the link is plausible but unverified: IL-1 may be involved in mast cell-driven inflammation. The 99.93% score is a graph-based prediction only, with no supporting trials or publications.
+For the top-ranked prediction, **extracutaneous mastocytoma**, the link is plausible but unverified: IL-1 may be involved in mast cell-driven inflammation. The 0.9993 score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There are no supporting trials or publications.
 
 The better-supported predictions are those that are autoinflammatory and IL-1-driven:
 
@@ -164,7 +164,7 @@ For warnings and contraindications, please refer to the TGA-approved Product Inf
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, extracutaneous mastocytoma, rests on a graph-based score alone, with no registered trials or publications (L5). The better-supported predictions (familial Mediterranean fever, PSTPIP1-associated syndromes and unclassified autoinflammatory syndromes) reach only L3 on case series and review evidence, with no anakinra-specific randomised trials. These are best treated as research questions rather than candidates for immediate clinical use.
+The top-ranked prediction, extracutaneous mastocytoma, rests on a score from the TxGNN model (deep learning) alone, which may reflect similarities the model learned between related diseases, not biological evidence, with no registered trials or publications (L5). The better-supported predictions (familial Mediterranean fever, PSTPIP1-associated syndromes and unclassified autoinflammatory syndromes) reach only L3 on case series and review evidence, with no anakinra-specific randomised trials. These are best treated as research questions rather than candidates for immediate clinical use.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data for anakinra

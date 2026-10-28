@@ -4,17 +4,17 @@ title: Tapentadol
 parent: Model Prediction Only (L5)
 nav_order: 701
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Tapentadol: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Tapentadol"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "insomnia (disease)", "headache disorder", "nephrogenic syndrome of inappropriate antidiuresis", "trigeminal autonomic cephalalgia", "anxiety"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
+description: "Tapentadol: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tapentadol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tapentadol: From Pain Management to Migraine Disorder
+## Tapentadol: Migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This is a model-only prediction, and the available literature points more toward
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text; tapentadol is generally used for pain) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.67% |
+| TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This is a model-only prediction, and the available literature points more toward
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacological knowledge, tapentadol is a mu-opioid receptor agonist and norepinephrine reuptake inhibitor. Its efficacy in pain conditions is established, and the model likely links it to migraine through this analgesic profile.
 
-The high TxGNN score appears to be a graph-based association rather than a mechanistically specific signal. Opioids are generally not recommended for migraine because of the risk of medication-overuse headache, poorer outcomes, and limited efficacy. Related predictions (migraine with brainstem aura, trigeminal autonomic cephalalgia, general headache disorder) appear to be propagated from the same node. Other top-ranked predictions, such as atrophoderma vermiculata and ulerythema ophryogenesis, have no plausible mechanistic link and look like knowledge-graph artefacts.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Opioids are generally not recommended for migraine because of the risk of medication-overuse headache, poorer outcomes, and limited efficacy. The related prediction for migraine with brainstem aura appears to reflect the same learned similarity.
 
 ---
 
@@ -74,7 +74,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No literature was retrieved for "migraine disorder" itself. The closest related items, retrieved for migraine susceptibility and headache disorder predictions, are indirect and do not show efficacy of tapentadol in migraine:
+No literature was retrieved for "migraine disorder" itself.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

@@ -6,7 +6,7 @@ nav_order: 24
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Acyclovir: predicted new indication Common wart (evidence level L5). Approved use: Herpes simplex infections, herpes zoster, chickenpox, herpes labialis…"
+description: "Acyclovir: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Herpes simplex infections, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Acyclovir: From Herpesvirus Infections to Common Wart
+## Acyclovir: From Herpesvirus Infections to Punctate Epithelial Keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ This report therefore evaluates the common wart prediction (rank 2) as the main 
 |------|------|
 | Original Indication | Herpes simplex infections, herpes zoster, chickenpox, herpes labialis, herpes simplex encephalitis, genital herpes (the ARTG entry has no indication text recorded) |
 | Predicted New Indication | Common wart (the top-ranked prediction, punctate epithelial keratoconjunctivitis, has no clinical support) |
-| TxGNN Prediction Score | 99.46% for common wart (99.67% for punctate epithelial keratoconjunctivitis) |
-| Evidence Level | L2 (common wart) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9946 for common wart (0.9967 for punctate epithelial keratoconjunctivitis) |
+| Evidence Level | L5 (common wart) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (as a research question, not for routine use) |
 
 ---

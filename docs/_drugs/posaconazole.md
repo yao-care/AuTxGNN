@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Posaconazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 585
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Fungal infections, including candidiasis, aspergillosis…"
 monitor_inn: "Posaconazole"
-predicted_indications: ["pneumocystosis", "vulvovaginal candidiasis", "leprosy", "multibacillary leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "syndrome with a Dandy-Walker malformation as major feature", "hypertrichosis (disease)", "paucibacillary leprosy"]
+predicted_indications: ["pneumocystosis"]
+description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Posaconazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Posaconazole: From Invasive Fungal Infections to Pneumocystosis
+## Posaconazole: Pneumocystosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction is best regarded as a model-generated hypothesis with weak mechan
 
 | Item | Content |
 |------|------|
-| Original Indication | Fungal infections, including candidiasis, aspergillosis, histoplasmosis and sporotrichosis (the ARTG entry has no indication text recorded) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9977 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The prediction is best regarded as a model-generated hypothesis with weak mechan
 
 Detailed mechanism of action data is not available in the data compiled for this report. Posaconazole is a triazole antifungal. Drugs in this class generally inhibit fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis in the fungal cell membrane.
 
-This is where the prediction becomes doubtful. *Pneumocystis jirovecii* does not rely on ergosterol and instead uses cholesterol-type sterols, so azole antifungals are not expected to work against it. The high TxGNN score most likely reflects the drug's general association with antifungal indications in the knowledge graph rather than a true mechanistic fit. The prediction should therefore be treated with caution.
+This is where the prediction becomes doubtful. *Pneumocystis jirovecii* does not rely on ergosterol and instead uses cholesterol-type sterols, so azole antifungals are not expected to work against it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should therefore be treated with caution.
 
 ---
 
@@ -122,9 +122,8 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 - A review of the drug interaction profile if any clinical use is contemplated
 
 **Other predictions in the ranked list:**
-- **Vulvovaginal candidiasis (score 98.9%):** mechanistically plausible, because *Candida* is within posaconazole's established antifungal spectrum. However, the evidence is limited to in vitro susceptibility studies, isolate typing, guidelines and one mouse vaginal model, with no clinical trial. Effective, cheaper alternatives such as fluconazole and topical azoles exist. It is best treated as a research question rather than a candidate for adoption.
-- **Leprosy, multibacillary leprosy and paucibacillary leprosy (scores 97.98–98.84%):** *Mycobacterium leprae* is a bacterium with no ergosterol target. The retrieved literature concerns fungal infections and appears to be keyword matches. No supporting evidence was found.
-- **Hair, developmental and malformation conditions** (Ambras type hypertrichosis universalis congenita, hypertrichosis, isolated genetic hair shaft abnormality, malformation syndromes with a dental or periodontal component, and Dandy-Walker malformation syndromes): no credible mechanism and no clinical or literature evidence. These appear to be knowledge-graph artefacts, and for developmental conditions a teratogenicity concern would outweigh any therapeutic promise.
+- **Vulvovaginal candidiasis:** mechanistically plausible, because *Candida* is within posaconazole's established antifungal spectrum. However, the evidence is limited to in vitro susceptibility studies, isolate typing, guidelines and one mouse vaginal model, with no clinical trial. Effective, cheaper alternatives such as fluconazole and topical azoles exist. It is best treated as a research question rather than a candidate for adoption.
+- These appear to be TxGNN model (deep learning) artefacts, and for developmental conditions a teratogenicity concern would outweigh any therapeutic promise.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

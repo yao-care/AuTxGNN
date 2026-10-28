@@ -4,17 +4,17 @@ title: Icosapent Ethyl
 parent: Model Prediction Only (L5)
 nav_order: 364
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Icosapent Ethyl: predicted new indication Myocardial infarction (evidence level L5). Approved use: Hypertriglyceridemia"
 monitor_inn: "Icosapent ethyl"
-predicted_indications: ["hemoglobinopathy", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "myocardial infarction", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary", "rheumatoid arthritis", "posterolateral myocardial infarction", "posteroinferior myocardial infarction"]
+predicted_indications: ["hemoglobinopathy"]
+description: "Icosapent Ethyl: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Icosapent Ethyl
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,36 +33,36 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Icosapent Ethyl: From Hypertriglyceridemia to Myocardial Infarction
+## Icosapent Ethyl: Hemoglobinopathy
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Icosapent ethyl is a highly purified eicosapentaenoic acid (EPA) ethyl ester, originally used to treat hypertriglyceridemia.
-The TxGNN model predicts it may be effective for **myocardial infarction**,
+The TxGNN model predicts it may be effective for **hemoglobinopathy**,
 with **1 registered clinical trial (withdrawn, no participants)** and **19 publications** currently supporting this direction, including several analyses of the Phase 3 REDUCE-IT trial.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertriglyceridemia |
-| Predicted New Indication | Myocardial infarction (selected as the best-supported of the top 10 predictions; the top-ranked prediction was hemoglobinopathy, L5) |
-| TxGNN Prediction Score | 98.60% (myocardial infarction); 99.09% for the top-ranked prediction, hemoglobinopathy |
-| Evidence Level | L1 (REDUCE-IT-derived evidence; see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hemoglobinopathy |
+| TxGNN Prediction Score | 0.9909 |
+| Evidence Level | L5 (REDUCE-IT-derived evidence; see note below) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
-Note: the top-ranked prediction (hemoglobinopathy) has model prediction only (L5, Hold). This report focuses on myocardial infarction, the prediction with the strongest supporting evidence. The L1 grading rests on the REDUCE-IT trial as reported in the supplied literature. The trial registry record itself was not among the supplied data.
+Note: the top-ranked prediction (hemoglobinopathy) has model prediction only (L5, Hold). The L1 grading rests on the REDUCE-IT trial as reported in the supplied literature. The trial registry record itself was not among the supplied data.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the supplied literature, icosapent ethyl is a purified EPA ethyl ester that lowers triglycerides and triglyceride-rich lipoproteins. It is also reported to have anti-inflammatory, plaque-stabilising and antithrombotic effects. A 2026 mouse study (PMID 42628912) suggests it activates the omega-3 receptor GPR120 and improves cardiac remodelling after myocardial infarction (MI) by suppressing inflammatory cells.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the supplied literature, icosapent ethyl is a purified EPA ethyl ester that lowers triglycerides and triglyceride-rich lipoproteins. It is also reported to have anti-inflammatory, plaque-stabilising and antithrombotic effects.
 
-Elevated triglycerides are linked to residual cardiovascular risk even when LDL cholesterol is well controlled. The original indication (hypertriglyceridemia) and the predicted indication (MI) are therefore connected through the same lipid-driven atherosclerotic pathway.
+Elevated triglycerides are linked to residual cardiovascular risk even when LDL cholesterol is well controlled.
 
-The literature includes multiple REDUCE-IT analyses, a large randomised trial in statin-treated patients with elevated triglycerides. These report cardiovascular event reduction, including in patients with prior MI (PMID 35483753) and across MI types and sizes (PMID 40982548). The benefit is established for the REDUCE-IT population (statin-treated, elevated triglycerides, high cardiovascular risk). This indication is also close to existing cardiovascular risk-reduction use, so it may be label-adjacent rather than a truly novel repurposing.
+The literature includes multiple REDUCE-IT analyses, a large randomised trial in statin-treated patients with elevated triglycerides. The benefit is established for the REDUCE-IT population (statin-treated, elevated triglycerides, high cardiovascular risk). This indication is also close to existing cardiovascular risk-reduction use, so it may be label-adjacent rather than a truly novel repurposing.
 
 ## Clinical Trial Evidence
 
@@ -105,7 +105,7 @@ No drug interactions were identified in the data compiled for this report. For c
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Phase 3 RCT-level evidence (REDUCE-IT and its analyses) supports cardiovascular event reduction, including MI, in a defined population. The benefit should not be generalised beyond statin-treated, high-risk patients with elevated triglycerides. The other nine predictions have no direct evidence (hemoglobinopathy, thalassaemia, rheumatoid arthritis and others: Hold; MI subtypes: research question only).
+The benefit should not be generalised beyond statin-treated, high-risk patients with elevated triglycerides. The other nine predictions have no direct evidence (hemoglobinopathy, thalassaemia, rheumatoid arthritis and others: Hold; MI subtypes: research question only).
 
 **To proceed, the following is needed:**
 - Confirm the ARTG-approved indication for Vazkepa and whether MI-related risk reduction is already covered (label-adjacent)

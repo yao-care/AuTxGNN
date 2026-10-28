@@ -4,17 +4,17 @@ title: Periciazine
 parent: Model Prediction Only (L5)
 nav_order: 561
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Periciazine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the ARTG data compiled for this report (the approved…"
 monitor_inn: "Periciazine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "migraine with or without aura, susceptibility to", "ulerythema ophryogenesis", "sciatic neuropathy", "anxiety", "anxiety disorder", "open-angle glaucoma"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "ulerythema ophryogenesis"]
 ---
 
 # Periciazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Periciazine (also spelled pericyazine) is a phenothiazine antipsychotic, markete
 |------|------|
 | Original Indication | Not recorded in the ARTG data compiled for this report (the approved indication text is empty). Pharmacology reference data describe use in schizophrenia and other psychoses, and as short-term adjunctive management of severe anxiety, psychomotor agitation and violent or dangerously impulsive behaviour (UK approval) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,15 +66,10 @@ The second-ranked prediction (migraine with brainstem aura) and the fifth (migra
 
 | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|
-| Migraine with brainstem aura | 99.84% | Same class-level rationale as migraine; no subtype-specific evidence |
-| Atrophoderma vermiculata | 99.36% | No plausible mechanism; likely a knowledge-graph artefact |
-| Dysthymic disorder | 99.25% | Theoretical relevance only; chronic phenothiazine use may worsen mood or cause sedation |
-| Migraine with or without aura, susceptibility to | 99.22% | Genetic susceptibility entry, not a distinct treatable indication |
-| Ulerythema ophryogenesis | 99.16% | No plausible mechanism |
-| Sciatic neuropathy | 97.74% | Weak, indirect rationale (adjunct use in neuropathic pain) |
-| Anxiety | 97.65% | Sedative properties; only linked paper is pharmacokinetic |
-| Anxiety disorder | 97.44% | As above |
-| Open-angle glaucoma | 97.16% | Anticholinergic activity may raise intraocular pressure, a safety concern |
+| Migraine with brainstem aura | 0.9984 | Same class-level rationale as migraine; no subtype-specific evidence |
+| Atrophoderma vermiculata | 0.9936 | No plausible mechanism; likely a TxGNN model (deep learning) artefact |
+| Dysthymic disorder | 0.9925 | Theoretical relevance only; chronic phenothiazine use may worsen mood or cause sedation |
+| Ulerythema ophryogenesis | 0.9916 | No plausible mechanism |
 
 ---
 
@@ -88,7 +83,6 @@ Currently no related clinical trials registered.
 
 For the top-ranked prediction (migraine disorder), currently no related literature is available.
 
-The only publication linked to any of the predictions relates to the anxiety predictions, and it does not assess efficacy:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -113,7 +107,7 @@ Periciazine is not an antineoplastic drug, so this section does not apply.
 ## Safety Considerations
 
 - **Drug Interactions**: The interaction query completed, but returned only a pharmacology entry (dopamine D1 receptor, DRD1, as a target) and no drug-drug interactions with a severity level.
-- **Class-related concern**: Anticholinergic activity may raise intraocular pressure or precipitate angle-closure, which is relevant to the open-angle glaucoma prediction. Chronic phenothiazine use may also cause sedation or worsen mood.
+- **Class-related concern**: Anticholinergic activity may raise intraocular pressure or precipitate angle-closure. Chronic phenothiazine use may also cause sedation or worsen mood.
 
 Warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
 

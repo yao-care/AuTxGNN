@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Fludarabine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 303
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Fludarabine: predicted new indication Plasma cell myeloma (evidence level L5). Approved use: Not available in the data compiled for this report"
@@ -14,7 +14,7 @@ predicted_indications: ["plasma cell myeloma", "hyperthyroidism", "autosomal dom
 # Fludarabine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be useful for **plasma cell myeloma**, and the e
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Plasma cell myeloma |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L2 (as assigned in the compiled data; supporting trials are mostly Phase 1/2 conditioning studies, not myeloma-specific Phase 3 RCTs) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -66,10 +66,10 @@ In myeloma, fludarabine is used mainly as a **lymphodepleting and conditioning a
 The TxGNN prediction is therefore best read as support for fludarabine's role within myeloma treatment regimens, not as evidence that it should be used alone.
 
 **Other predicted indications (for context):**
-- **Indolent plasma cell myeloma** (score 99.76%, L2): the same conditioning rationale applies, with supporting transplant trials including one completed Phase 3 trial (NCT00075478, n=87, mixed haematological malignancies).
-- **Myelodysplastic syndrome** (score 99.75%, L2): fludarabine is an established conditioning backbone before allogeneic transplant, including Phase 2 trials of busulfan/fludarabine and a randomised Phase 3 trial of treosulfan versus busulfan plus fludarabine.
-- **Unclassified myelodysplastic syndrome** (score 99.69%, L3): a single prospective Phase 2 report of treosulfan/fludarabine conditioning, with no dedicated trials.
-- **Hyperthyroidism, thyroid hormone resistance, brain small vessel disease, the hematuria-retinal arteriolar tortuosity syndrome, the chromosome 5q deletion and diabetic nephropathy** have no plausible supporting evidence and are likely knowledge-graph artefacts (Hold).
+- **Indolent plasma cell myeloma** (score 0.9976, L2): the same conditioning rationale applies, with supporting transplant trials including one completed Phase 3 trial (NCT00075478, n=87, mixed haematological malignancies).
+- **Myelodysplastic syndrome** (score 0.9975, L2): fludarabine is an established conditioning backbone before allogeneic transplant, including Phase 2 trials of busulfan/fludarabine and a randomised Phase 3 trial of treosulfan versus busulfan plus fludarabine.
+- **Unclassified myelodysplastic syndrome** (score 0.9969, L3): a single prospective Phase 2 report of treosulfan/fludarabine conditioning, with no dedicated trials.
+- **Hyperthyroidism, thyroid hormone resistance, brain small vessel disease, the hematuria-retinal arteriolar tortuosity syndrome, the chromosome 5q deletion and diabetic nephropathy** have no plausible supporting evidence and are likely TxGNN model (deep learning) artefacts (Hold).
 
 ---
 

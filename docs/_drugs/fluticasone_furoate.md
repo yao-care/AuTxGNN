@@ -4,17 +4,17 @@ title: Fluticasone Furoate
 parent: Model Prediction Only (L5)
 nav_order: 310
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). Approved use: Asthma (including allergic and intrinsic asthma) and allergic rhiniti…"
 monitor_inn: "Fluticasone furoate"
-predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis", "polyp of vocal cord"]
+predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
+description: "Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluticasone Furoate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fluticasone Furoate: From Asthma to Atopic Eczema
+## Fluticasone Furoate: Atopic eczema
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but this is 
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma (including allergic and intrinsic asthma) and allergic rhinitis, based on the knowledge-graph indication records; the ARTG entry carries no indication text |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Atopic eczema |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

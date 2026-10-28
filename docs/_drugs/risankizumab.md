@@ -6,9 +6,9 @@ nav_order: 638
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Risankizumab: predicted new indication Dermatitis (evidence level L2). Approved use: Psoriasis, parapsoriasis"
 monitor_inn: "Risankizumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
+description: "Risankizumab: predicted new indication Dermatitis (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Risankizumab
@@ -33,12 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Risankizumab: From Psoriasis to Dermatitis
+## Risankizumab: Dermatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Risankizumab is an IL-23 p19 monoclonal antibody, originally used to treat psoriasis (and related conditions such as parapsoriasis in the knowledge graph).
+Risankizumab is an IL-23 p19 monoclonal antibody, originally used to treat psoriasis (and related conditions such as parapsoriasis).
 The TxGNN model predicts it may be effective for **dermatitis** (in practice, mainly atopic dermatitis), with **2 clinical trials** and **20 publications** currently associated with this prediction.
 Direct evidence is limited to one completed Phase 2 RCT. Much of the literature concerns psoriasis, or eczematous reactions occurring during risankizumab treatment.
 
@@ -48,12 +48,12 @@ Direct evidence is limited to one completed Phase 2 RCT. Much of the literature 
 
 | Item | Content |
 |------|------|
-| Original Indication | Psoriasis, parapsoriasis (knowledge graph indications; no approved indication text is available for the ARTG entry) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Dermatitis |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -64,7 +64,7 @@ Risankizumab is a humanised IgG monoclonal antibody that selectively blocks the 
 
 Atopic dermatitis is mainly Th2-driven, so the mechanistic overlap with psoriasis is only partial. IL-23 and IL-22 pathways (Th22, possibly Th17) may contribute in some phenotypes, such as chronic or mixed psoriasis-eczema presentations. Case reports of combined dupilumab and risankizumab use in patients with both atopic dermatitis and psoriasis suggest a niche role rather than broad efficacy.
 
-The very high TxGNN score reflects proximity to psoriasis in the knowledge graph. It should not be read as evidence of clinical efficacy. Several reports also describe eczematous eruptions or paradoxical eczema arising during IL-23 inhibitor treatment, which cautions against assuming benefit.
+The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as evidence of clinical efficacy. Several reports also describe eczematous eruptions or paradoxical eczema arising during IL-23 inhibitor treatment, which cautions against assuming benefit.
 
 ---
 
@@ -118,7 +118,7 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 **Decision: Hold (research question only)**
 
 **Rationale:**
-A completed Phase 2 RCT exists in atopic dermatitis, but the mechanism (Th2-dominant disease) offers only partial support, and the published literature includes reports of eczematous reactions on risankizumab. The high TxGNN score reflects graph proximity to psoriasis rather than clinical efficacy. Other predicted indications (for example dermatomyositis subtypes, acrodermatitis chronica atrophicans, diabetic retinopathy) have no clinical evidence, and some carry plausible harm. Pityriasis lichenoides and acute lichenoid pityriasis are mechanistically plausible but remain prediction-only.
+A completed Phase 2 RCT exists in atopic dermatitis, but the mechanism (Th2-dominant disease) offers only partial support, and the published literature includes reports of eczematous reactions on risankizumab. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or clinical efficacy. Other predicted indications (for example dermatomyositis subtypes, acrodermatitis chronica atrophicans, diabetic retinopathy) have no clinical evidence, and some carry plausible harm. Pityriasis lichenoides and acute lichenoid pityriasis are mechanistically plausible but remain prediction-only.
 
 **To proceed, the following is needed:**
 - Full efficacy and safety results of NCT03706040 (PMID 36588137), including primary endpoints versus placebo

@@ -4,17 +4,17 @@ title: Ferric Carboxymaltose
 parent: Model Prediction Only (L5)
 nav_order: 292
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Ferric Carboxymaltose: predicted new indication Bronchitis (evidence level L5). Approved use: Not available in the data compiled for this report (the approved indi…"
 monitor_inn: "Ferric carboxymaltose"
-predicted_indications: ["bronchitis", "thrombotic disease", "rheumatoid arthritis", "bronchial neoplasm (disease)", "myositis fibrosa", "idiopathic granulomatous myositis", "exostosis", "laryngotracheitis", "tendinitis", "heparin cofactor 2 deficiency"]
+predicted_indications: ["bronchitis"]
+description: "Ferric Carboxymaltose: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ferric Carboxymaltose
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,38 +33,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ferric Carboxymaltose: From Iron Deficiency Replacement to Bronchitis
+## Ferric Carboxymaltose: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ferric carboxymaltose is an intravenous iron replacement product, marketed in Australia as Ferinject.
 The TxGNN model predicts it may be effective for **bronchitis** (the top-ranked prediction), but there are **no registered clinical trials** and **no publications** supporting this direction.
-The prediction is a graph-based signal only, so the evidence is very weak.
+The prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the evidence is very weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report (the approved indication text for the Australian entry is blank). Intravenous iron replacement is the drug's known use. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.00% |
+| TxGNN Prediction Score | 0.9900 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, ferric carboxymaltose is an intravenous iron replacement product. Its role is to correct iron deficiency and iron deficiency anaemia.
 
-No mechanistic link to bronchitis was identified. The drug has no known anti-infective or airway anti-inflammatory activity. The high TxGNN score reflects graph-based proximity only and is not supported by trials or literature.
+No mechanistic link to bronchitis was identified. The drug has no known anti-infective or airway anti-inflammatory activity. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not supported by trials or literature.
 
 Other top-ranked predictions were also reviewed. Most have no plausible therapeutic link either:
 
-- **Thrombotic disease (score 98.04%):** The link is indirect and likely adverse rather than therapeutic. Iron deficiency is associated with thrombocytosis and thrombotic tendency, and correcting it may lower platelet counts. That is correction of a deficiency, not treatment of thrombosis.
-- **Rheumatoid arthritis (score 96.88%):** Ferric carboxymaltose appears effective and safe for iron deficiency in people with inflammatory rheumatic disease. This supports treating the comorbid deficiency, not modifying the arthritis itself.
-- **Others:** Bronchial neoplasm, myositis fibrosa, idiopathic granulomatous myositis, exostosis, laryngotracheitis, tendinitis and heparin cofactor 2 deficiency have no mechanistic link or supporting clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -105,7 +102,7 @@ For warnings and contraindications, please refer to the TGA-approved Product Inf
 **Decision: Hold**
 
 **Rationale:**
-The top prediction of bronchitis has no clinical trials, no literature and no plausible mechanism, so it rests on a graph-based score alone (Evidence Level L5). Even the best-supported alternatives (thrombotic disease, rheumatoid arthritis) reflect correction of iron deficiency rather than treatment of the disease.
+The top prediction of bronchitis has no clinical trials, no literature and no plausible mechanism, so it rests on a TxGNN model (deep learning) score alone, which may reflect similarities the model learned between related diseases, not biological evidence (Evidence Level L5).
 
 **To proceed, the following is needed:**
 - Mechanism of action data

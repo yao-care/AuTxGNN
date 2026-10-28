@@ -4,17 +4,17 @@ title: Nebivolol
 parent: Model Prediction Only (L5)
 nav_order: 497
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Nebivolol: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder). The ARTG entry in the data comp…"
 monitor_inn: "Nebivolol"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina", "ocular tuberculosis", "congenital temporomandibular joint ankylosis", "polydipsia"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Nebivolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nebivolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nebivolol: From Hypertension to Malignant Renovascular Hypertension
+## Nebivolol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Nebivolol is a third-generation beta-blocker, originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but **no clinical trials** and **no publications** currently support this specific prediction.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but **no clinical trials** and **no publications** currently support this specific prediction.
 The score most likely reflects its similarity to the already-approved hypertension indication.
 
 ---
@@ -48,12 +48,12 @@ The score most likely reflects its similarity to the already-approved hypertensi
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder). The ARTG entry in the data compiled for this report has no approved indication text, so this is taken from the knowledge-graph indication data. |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.42% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,19 +62,15 @@ The score most likely reflects its similarity to the already-approved hypertensi
 
 Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, nebivolol is a highly beta-1-selective blocker that also promotes nitric oxide-mediated vasodilation. Its efficacy in hypertension is established.
 
-Malignant renovascular hypertension is driven largely by activation of the renin-angiotensin system. Beta-1 blockade reduces renin release, so a benefit is plausible in theory. However, the prediction score is probably inflated by the close similarity between this condition and nebivolol's approved indication. No trial or publication was found that tests nebivolol in this setting.
 
 **Other predicted indications (for context):**
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Malignant hypertensive renal disease | 99.42% | L5 | Theoretical blood pressure-lowering benefit. Rodent renoprotection data come from other indications. |
-| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.39% | L4 | Only indirect preclinical and beta-blocker safety literature. Beta-blockers are generally not recommended in pulmonary arterial hypertension, so a safety signal must be excluded first. |
-| 4 | Pulmonary hypertension, unclear multifactorial mechanism | 99.39% | L5 | No evidence. Risk of reduced right ventricular output. |
-| 5 | Braddock syndrome | 99.14% | L5 | No identifiable mechanistic link. Likely a graph artefact. |
-| 6 | Chronic pulmonary heart disease | 91.85% | L3 | Adjacent evidence only (heart failure with COPD). No evidence of efficacy in cor pulmonale itself. |
-| 7 | Prinzmetal angina | 87.48% | L4 | Plausible NO-mediated action, but vasospasm safety is unestablished. |
-| 8-10 | Ocular tuberculosis, congenital TMJ ankylosis, polydipsia | 62.7-65.5% | L5 | No plausible mechanistic link or evidence. |
+| 2 | Malignant hypertensive renal disease | 0.9942 | L5 | Theoretical blood pressure-lowering benefit. Rodent renoprotection data come from other indications. |
+| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9939 | L5 | Only indirect preclinical and beta-blocker safety literature. Beta-blockers are generally not recommended in pulmonary arterial hypertension, so a safety signal must be excluded first. |
+| 4 | Pulmonary hypertension, unclear multifactorial mechanism | 0.9939 | L5 | No evidence. Risk of reduced right ventricular output. |
+| 5 | Braddock syndrome | 0.9914 | L5 | No identifiable mechanistic link. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
 
 ---
 
@@ -95,7 +91,7 @@ No ANZCTR identifiers were available in the data compiled for this report.
 
 ## Literature Evidence
 
-No literature is available for malignant renovascular hypertension. The most relevant publications found for other predicted indications are below (all indirect).
+No literature is available for malignant hypertensive renal disease. The most relevant publications found for other predicted indications are below (all indirect).
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -151,14 +147,13 @@ Minor interactions include acetylsalicylic acid and magnesium oxide.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for malignant renovascular hypertension rests on model score alone (L5), with no trials or publications. The score is likely inflated by similarity to nebivolol's approved hypertension indication.
+The prediction for malignant hypertensive renal disease rests on model score alone (L5), with no trials or publications. The score is likely inflated by similarity to nebivolol's approved hypertension indication.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank)
 - TGA Product Information warnings and contraindications (a blocking gap for safety screening)
 - Targeted literature review on beta-blockers in renovascular and malignant hypertension
 - Clinical evidence (observational or trial) in the predicted indication
-- For pulmonary hypertension and Prinzmetal angina, a safety assessment before any further work
 - Clarification of the approved indication text for the ARTG entry
 ## Disclaimer
 

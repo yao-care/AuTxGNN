@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Semaglutide
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 668
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Semaglutide: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
-monitor_inn: "Semaglutide"
-predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis", "autoimmune oophoritis"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Semaglutide: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Semaglutide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,67 +32,50 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Semaglutide: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
+<!-- known-uses-page -->
+<!-- description: Semaglutide: known uses and market status in Australia; currently no new candidate indication -->
+## Semaglutide: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Semaglutide, so there is currently no new predicted indication. The drug's recorded uses are listed below.
 
-Semaglutide is a GLP-1 receptor agonist, originally used to treat type 2 diabetes mellitus.
-The TxGNN model predicts it may be effective for **classic stiff person syndrome**, but this is a model prediction only, with **0 clinical trials** and **0 publications** currently supporting this direction.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (from the knowledge graph indication data; the ARTG entry has no indication text recorded) |
-| Predicted New Indication | Classic stiff person syndrome |
-| TxGNN Prediction Score | 98.64% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 7 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Currently, detailed mechanism of action data is not available. Semaglutide is a GLP-1 receptor agonist whose efficacy in type 2 diabetes is established. No direct mechanism links GLP-1 receptor agonism to the pathophysiology of stiff person syndrome (SPS).
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| diabetes mellitus | licence in another country |
+| diabetes mellitus, type 2 | licence in another country |
+| liver cirrhosis | licence in another country |
+| non-alcoholic fatty liver disease | licence in another country |
+| obesity | licence in another country |
+| overweight | licence in another country |
 
-SPS is an autoimmune neurological disorder, often with anti-GAD65 antibodies, and is associated with type 1 diabetes and other autoimmune diseases. This comorbidity overlap may partly explain the graph-based prediction. The identical score for focal stiff limb syndrome (a variant in the same spectrum) suggests the signal comes from a shared disease-node neighbourhood rather than a drug-specific mechanism.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Other predictions in this set (all L5, all Hold) are also unsupported by clinical evidence:
-
-| Predicted Indication | Score | Comment |
-|------|------|------|
-| Focal stiff limb syndrome | 98.64% | Same signal as classic SPS; no plausible direct GLP-1 mechanism |
-| Opsismodysplasia | 98.59% | INPPL1/SHIP2 insulin-signalling link is hypothesis-level only |
-| Thiamine-responsive dysfunction syndrome | 98.58% | Diabetes is a feature; semaglutide would at most treat hyperglycaemia symptomatically |
-| Drug-induced localised lipodystrophy | 97.66% | Weight-reducing agent could plausibly worsen fat loss; injection-site lipodystrophy is a known concern with injectables |
-| Centrifugal lipodystrophy | 97.56% | Likely reflects lipodystrophy-category neighbours in the graph |
-| Pressure-induced localised lipoatrophy | 97.49% | No recognised GLP-1 pathway involvement |
-| Idiopathic localised lipodystrophy | 97.35% | Same lipodystrophy-cluster signal |
-| Pancreatic agenesis | 97.31% | Efficacy mechanistically implausible, as GLP-1 action requires functional beta cells |
-| Autoimmune oophoritis | 95.05% | Some anti-inflammatory and reproductive-endocrine effects of GLP-1 RAs, but no direct evidence |
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for classic stiff person syndrome.
-
-For context, three publications were retrieved for the lower-ranked prediction of pancreatic agenesis. They are indirect and relate to pancreatic safety only:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [24608440](https://pubmed.ncbi.nlm.nih.gov/24608440/) | 2014 | Preclinical (animal histopathology) | Diabetes | Liraglutide and semaglutide showed no histopathological effects on the pancreas in non-human primates |
-| [40805859](https://pubmed.ncbi.nlm.nih.gov/40805859/) | 2025 | Review / clinical assessment | Healthcare (Basel) | Pre-treatment assessment of semaglutide users, with concerns about thyroid and pancreatic disorders |
-| [38735240](https://pubmed.ncbi.nlm.nih.gov/38735240/) | 2024 | Preclinical | Psychiatry Research | Serotonin/GLP-1 circuitry in a rodent model of psychiatric and metabolic dysfunction |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| type 2 diabetes mellitus |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12075M | Ozempic | Solution for injection 4 mg in 3 mL pre-filled pen | Not recorded in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 12075M | Ozempic | Solution for injection 4 mg in 3 mL pre- | Valid |
 
 ## Safety Considerations
 
@@ -105,18 +87,6 @@ Warnings and contraindications were not available in the data compiled for this 
 
 Many of these (for example corticosteroids, sympathomimetics and beta-agonists) may affect glycaemic control, so a clinician should review the full list before any use.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is model-only (L5) with no clinical trials or literature, and no plausible mechanism links GLP-1 receptor agonism to stiff person syndrome. The high score likely reflects shared graph neighbours such as autoimmune and diabetes comorbidity.
-
-**To proceed, the following is needed:**
-- Mechanism of action data for semaglutide, and a mechanistic rationale for SPS
-- A systematic literature search specific to SPS and GLP-1 receptor agonists
-- The TGA Product Information for warnings, contraindications and approved indications (these are currently missing)
-- Preclinical or case-level evidence before any clinical study is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

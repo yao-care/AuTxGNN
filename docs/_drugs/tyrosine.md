@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **cauda equina syndrome**, but 
 |------|------|
 | Original Indication | Not available in the data compiled for this report (no approved indication text recorded for the ARTG entries) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 5 |
+| Australia Market Status | Marketed (valid licences: 5 of 5) |
+| Number of ARTG Entries | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, tyrosine is a proteinogenic amino acid and the starting substrate for catecholamine synthesis (L-DOPA, dopamine, noradrenaline) and for thyroid hormone synthesis.
 
-Cauda equina syndrome is a compressive injury to the lumbosacral nerve roots, usually caused by disc herniation or other structural lesions, and is managed surgically. No plausible pathway links tyrosine supplementation to this condition. The high score (0.998) appears to be a knowledge-graph association only, and this report does not find it mechanistically credible.
+Cauda equina syndrome is a compressive injury to the lumbosacral nerve roots, usually caused by disc herniation or other structural lesions, and is managed surgically. No plausible pathway links tyrosine supplementation to this condition. The high score (0.9977) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This report does not find it mechanistically credible.
 
 The other top-ranked predictions show the same pattern:
 - **Hyperthyroidism and hyperthyroxinemia:** Tyrosine is a thyroid hormone precursor, so supplementation would be expected to be neutral or unfavourable, not beneficial.
@@ -114,7 +114,7 @@ Tyrosine is a thyroid hormone precursor, so use in people with hyperthyroidism o
 **Decision: Hold**
 
 **Rationale:**
-The prediction for cauda equina syndrome is supported only by a knowledge-graph score, with no clinical trials, no literature and no plausible mechanism. No other top-ranked prediction has supporting evidence either (all L4 to L5).
+The prediction for cauda equina syndrome is supported only by a TxGNN model (deep learning) score, with no clinical trials, no literature and no plausible mechanism. No other top-ranked prediction has supporting evidence either (all L4 to L5).
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible biological rationale linking tyrosine to the proposed indication

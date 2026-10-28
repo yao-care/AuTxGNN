@@ -50,10 +50,10 @@ This is a computational prediction only and should be treated as a hypothesis, n
 |------|------|
 | Original Indication | Not available (the ARTG entry has no indication text) |
 | Predicted New Indication | Interventricular septum aneurysm |
-| TxGNN Prediction Score | 99.25% |
+| TxGNN Prediction Score | 0.9925 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This is a computational prediction only and should be treated as a hypothesis, n
 
 Currently, detailed mechanism of action data is not available. Thymol is known as a monoterpenoid phenol with antimicrobial, antioxidant and anti-inflammatory activity. Its original approved indication could not be determined from the data compiled for this report.
 
-An interventricular septum aneurysm is a structural cardiac defect. No mechanistic link was identified between thymol's known pharmacology and this condition. The score of 0.992 reflects proximity within the TxGNN knowledge graph only, and does not indicate a pharmacological rationale.
+An interventricular septum aneurysm is a structural cardiac defect. No mechanistic link was identified between thymol's known pharmacology and this condition. The score of 0.9925 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It does not indicate a pharmacological rationale.
 
 The same pattern applies to the other top-ranked predictions (for example pulmonary valve disease, Laubry-Pezzi syndrome, Pierre Robin syndrome, orofacial clefting and chromosomal deletion disorders). These are structural, congenital or genetic conditions that a small-molecule phenol is unlikely to modify, and all lack clinical or literature support.
 
@@ -101,7 +101,7 @@ No drug-drug interaction records were found, and no contraindication edges were 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a knowledge-graph score. There are no clinical trials, no relevant literature, and no plausible mechanistic link between thymol and a structural cardiac defect. Basic regulatory and safety information is also missing.
+The prediction rests solely on a TxGNN model (deep learning) score. There are no clinical trials, no relevant literature, and no plausible mechanistic link between thymol and a structural cardiac defect. Basic regulatory and safety information is also missing.
 
 **To proceed, the following is needed:**
 - The original approved indication and Product Information for the ARTG entry (including dosage form and route)

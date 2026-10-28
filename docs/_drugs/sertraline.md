@@ -4,17 +4,17 @@ title: Sertraline
 parent: Model Prediction Only (L5)
 nav_order: 669
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Sertraline: predicted new indication Histrionic personality disorder (evidence level L5). Approved use: Anxiety disorder, obsessive-compulsive disorder…"
 monitor_inn: "Sertraline"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sertraline: From Anxiety Disorder to Histrionic Personality Disorder
+## Sertraline: Histrionic personality disorder (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **histrionic personality disord
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, obsessive-compulsive disorder, post-traumatic stress disorder, social phobia and related disorders (no approved indication text was available for the Australian listing, so these come from the knowledge-graph indication list) |
-| Predicted New Indication | Histrionic personality disorder |
-| TxGNN Prediction Score | 99.93% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Histrionic personality disorder (disease) |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **histrionic personality disord
 
 Currently, detailed mechanism of action data is not available. Based on known information, sertraline is an SSRI, its efficacy in anxiety-spectrum disorders is established, and it could plausibly act on affective lability or impulsivity. This link is speculative, and no data support it.
 
-The prediction score is identical (99.93%) to the scores for several other personality disorders (paranoid, schizotypal and schizoid). This suggests the score reflects a shared pattern in the model's knowledge graph rather than a signal specific to histrionic personality disorder. The score alone should not be read as evidence of efficacy.
+The prediction score is identical (0.9993) to the scores for several other personality disorders (paranoid, schizotypal and schizoid). This suggests the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The score alone should not be read as evidence of efficacy.
 
 For context, other predictions in the same data have much stronger support. Agoraphobia and major depressive disorder both have extensive trial and meta-analysis evidence, but they sit within or next to sertraline's existing use. They are not new repurposing opportunities.
 

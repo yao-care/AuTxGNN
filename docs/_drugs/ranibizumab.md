@@ -4,17 +4,17 @@ title: Ranibizumab
 parent: Model Prediction Only (L5)
 nav_order: 624
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Ranibizumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Diabetic retinopathy, diabetic macular oedema, macular degeneration…"
 monitor_inn: "Ranibizumab"
 predicted_indications: ["immature cataract", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
+description: "Ranibizumab: predicted new indication Immature cataract (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ranibizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ranibizumab: From Diabetic Retinopathy to Severe Nonproliferative Diabetic Retinopathy
+## Ranibizumab: Immature cataract
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ranibizumab is an anti-VEGF antibody fragment originally used for retinal diseases such as diabetic retinopathy, diabetic macular oedema and macular degeneration.
-The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**,
+The TxGNN model predicts it may be effective for **immature cataract**,
 with **no registered clinical trials** but **18 publications** (including post hoc analyses of Phase 3 RCTs and a recent randomised trial of a ranibizumab port delivery system) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetic retinopathy, diabetic macular oedema, macular degeneration, retinal artery occlusion, retinopathy of prematurity (from the knowledge graph; no approved indication text is available for the ARTG entry) |
-| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 (as graded in the data compiled for this report; see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Immature cataract |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 (as graded in the data compiled for this report; see note below) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* No clinical trials were supplied for this indication. The L1 grade rests on literature titles, namely post hoc analyses of the RIDE/RISE Phase 3 RCTs and the PAVILION randomised trial. Abstracts and full texts were not reviewed, so the grade should be treated as provisional.
@@ -60,7 +60,7 @@ with **no registered clinical trials** but **18 publications** (including post h
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ranibizumab is a VEGF-A inhibitor. VEGF drives retinal vascular permeability and neovascularisation in diabetic retinopathy. By neutralising VEGF-A, ranibizumab reduces vascular leakage and can regress retinopathy severity.
 
-Diabetic retinopathy and diabetic macular oedema are already original indications for ranibizumab, so severe nonproliferative diabetic retinopathy sits within the same disease spectrum. This makes the prediction closely related to existing use, rather than a leap into a new disease area.
+Diabetic retinopathy and diabetic macular oedema are already original indications for ranibizumab.
 
 The literature supports this link. Post hoc analyses of the RIDE and RISE trials describe regression of diabetic retinopathy severity with ranibizumab. The PAVILION randomised trial tested a ranibizumab port delivery system in nonproliferative diabetic retinopathy without macular oedema.
 

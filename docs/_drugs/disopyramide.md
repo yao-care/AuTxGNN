@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **Tourette syndrome**, but ther
 |------|------|
 | Original Indication | Not recorded in the Australian licence data (the drug's known pharmacological class is antiarrhythmic) |
 | Predicted New Indication | Tourette syndrome |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **Tourette syndrome**, but ther
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on its drug class, disopyramide is a class Ia antiarrhythmic that blocks cardiac sodium channels and has anticholinergic activity. Its use in supraventricular and ventricular arrhythmias is established.
 
-No clear mechanistic link to Tourette syndrome was identified. Tourette syndrome involves dopaminergic dysfunction in cortico-striato-thalamo-cortical circuits, which are not known targets of disopyramide. The high TxGNN score most likely reflects knowledge-graph neighbourhood artefacts rather than a biologically supported relationship.
+No clear mechanistic link to Tourette syndrome was identified. Tourette syndrome involves dopaminergic dysfunction in cortico-striato-thalamo-cortical circuits, which are not known targets of disopyramide. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top-ranked predictions show the same pattern. ADHD (99.82%), trichotillomania (99.81%), ADHD inattentive type (99.74%), faciodigitogenital syndrome (99.66%), specific developmental disorder (99.54%), chondromyxoid fibroma (99.41%) and trigeminal nerve neoplasm (99.16%) have no plausible mechanism and no clinical evidence. The only predictions within disopyramide's pharmacological domain are the cardiac ones: idiopathic neonatal atrial flutter (99.42%) and multifocal atrial tachycardia (99.21%). These are indirect, class-level plausibility only.
 

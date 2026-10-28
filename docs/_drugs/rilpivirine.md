@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rilpivirine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 634
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Rilpivirine: predicted new indication Feline acquired immunodeficiency syndrome . The best-evidenced predic… (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Rilpivirine"
-predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection", "fibroma of prostate", "benign reproductive system neoplasm", "Brenner tumor"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Rilpivirine: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Rilpivirine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ Overall, this prediction is largely an extension of the existing HIV indication 
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the ARTG entry has no indication text in the data compiled for this report) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome (top-ranked by TxGNN; veterinary). The best-evidenced prediction is simian immunodeficiency virus infection (rank 2, an animal model of HIV) |
-| TxGNN Prediction Score | 99.97% (both feline AIDS and SIV infection) |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9997 (both feline AIDS and SIV infection) |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 **SIV infection (rank 2):** SIV and SHIV (a chimeric virus containing HIV-1 reverse transcriptase) are the standard macaque models of HIV, so rilpivirine's mechanism is directly relevant. Macaque studies of long-acting rilpivirine, alone or with cabotegravir, cover resistance selection, post-exposure prophylaxis and sustained remission after early treatment. These data mainly support the existing HIV indication and long-acting formulation development.
 
-Other predictions (for example AIDS related complex and congenital HIV) overlap with the original HIV indication. Several others (a genetic neurodevelopmental disorder, obsolete familial combined hyperlipidaemia, prostate fibroma, benign reproductive system neoplasm, Brenner tumour) have no evidence or plausible mechanistic link and are graph-based predictions only.
+Another prediction, a genetic neurodevelopmental disorder, has no evidence or plausible mechanistic link. Its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

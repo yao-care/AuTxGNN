@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Captopril
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 130
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Captopril: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertensive disorder, hypertension, diabetic nephropathy"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "Captopril"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "chronic pulmonary heart disease", "intracerebral hemorrhage", "chronic renal failure syndrome"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+last_modified_at: 2026-10-27
+description: "Captopril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Captopril
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,32 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Captopril: From Hypertension to Malignant Renovascular Hypertension
+## Captopril: ACE inhibitor → malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Captopril is an ACE inhibitor originally used for hypertensive disorders and diabetic nephropathy.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
-but **no clinical trials** are registered and the **20 publications** retrieved are mostly case reports, reviews and diagnostic (captopril renography) papers, so the evidence is largely model-driven.
+Captopril is an angiotensin-converting enzyme (ACE) inhibitor that is currently marketed in Australia. The TxGNN model predicts it may be useful for **malignant hypertensive renal disease**, with a score of **0.9928**. No clinical trials are registered for this prediction, and the only publication retrieved is a **single diagnostic case report**, so evidence is limited to the model prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertensive disorder, hypertension, diabetic nephropathy (the ARTG entry carries no indication text) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.28% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9928 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, captopril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension is established, and mechanistically it may be applicable to renin-driven hypertension.
+Detailed mechanism-of-action data for captopril is not available in the data compiled for this report. Captopril is, however, a member of the ACE inhibitor class. These drugs reduce production of angiotensin II, a key effector of the renin-angiotensin system (RAS).
 
-Renovascular hypertension is driven by activation of the renin-angiotensin system (RAS), so ACE inhibition is mechanistically coherent. The prediction is largely an extension of captopril's existing hypertension indication rather than a novel repurposing. Captopril is also widely used diagnostically (captopril renography) in renovascular disease, but that is a diagnostic use and not evidence of treatment benefit.
+Malignant hypertension with renal injury is a condition in which RAS activation is thought to play a role in driving blood pressure and kidney damage. That gives a plausible mechanistic link to RAS blockade.
 
-An important risk applies: in bilateral renal artery stenosis or a solitary kidney, ACE inhibitors can precipitate acute renal failure. One retrieved case report (PMID 6321850) describes reversible acute renal insufficiency after captopril and enalapril in a patient with malignant renovascular hypertension and bilateral renal artery occlusion.
+This link is theoretical. The only retrieved publication is a case report in which a positive captopril renography led to the discovery of a renal cell carcinoma. It is a diagnostic report and does not show that captopril treats malignant hypertensive renal disease.
 
 ## Clinical Trial Evidence
 
@@ -70,53 +68,38 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/) | 1984 | Clinical report | Biull Vsesoiuznogo Kardiol Nauchn Tsentra AMN SSSR | Use of captopril in arterial hypertension with a stable and malignant course (no abstract available) |
-| [6321850](https://pubmed.ncbi.nlm.nih.gov/6321850/) | 1984 | Case report | Klin Wochenschr | Reversible acute renal insufficiency after captopril and enalapril in malignant renovascular hypertension with bilateral renal artery occlusion |
-| [232024](https://pubmed.ncbi.nlm.nih.gov/232024/) | 1979 | Clinical study | Clin Sci (Lond) | Captopril-induced rise in plasma renin activity identified renovascular hypertension (43 of 44 untreated patients); diagnostic use |
-| [3894732](https://pubmed.ncbi.nlm.nih.gov/3894732/) | 1985 | Review | Jpn J Med | Pathophysiology and outcome of hypertension; diagnostic tests for renovascular hypertension |
-| [7955304](https://pubmed.ncbi.nlm.nih.gov/7955304/) | 1994 | Review | Cleve Clin J Med | Noninvasive screening for renovascular disease |
-| [11334320](https://pubmed.ncbi.nlm.nih.gov/11334320/) | 2001 | Case report/Review | Clin Nephrol | Two cases of renovascular hypertension with neurofibromatosis; captopril-stimulated renin rise |
-| [10955932](https://pubmed.ncbi.nlm.nih.gov/10955932/) | 2000 | Review | Pediatr Nephrol | Renovascular disease and hypertension in children with neurofibromatosis; captopril test used |
-| [8070421](https://pubmed.ncbi.nlm.nih.gov/8070421/) | 1994 | Review | Endocrinol Metab Clin North Am | Renin-secreting tumours; blood pressure falls on converting enzyme inhibitor treatment |
-| [1572120](https://pubmed.ncbi.nlm.nih.gov/1572120/) | 1992 | Case report | Clin Nucl Med | False-positive captopril renography in malignant hypertension without renal artery stenosis |
-| [24401674](https://pubmed.ncbi.nlm.nih.gov/24401674/) | 2014 | Case report | Am J Nephrol | Reninoma: renal vein renin ratios for lateralisation and diagnosis |
-
-Most publications concern diagnosis, not treatment. No randomised trial of captopril for malignant renovascular hypertension was retrieved.
+| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Case report | Clinical Nuclear Medicine | A positive captopril renography, which usually indicates renin-dependent hypertension from renal artery stenosis, was instead caused by a large chromophobe renal cell carcinoma. Hypertension resolved after nephrectomy. This is diagnostic, not therapeutic, evidence. |
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 8760C | Capoten | Oral solution 5 mg per mL, 95 mL | Not available in the data compiled for this report |
+| ARTG 8760C | Capoten | Oral solution 5 mg per mL, 95 mL | Not recorded in the local data |
 
 ## Safety Considerations
 
-**Contraindications and conditions of concern (from knowledge graph drug-disease edges, not label text):** kidney disease, liver disease, pancreatitis, gallbladder disease, angioedema (including hereditary, acquired and RAAS-blocker-induced forms), systemic lupus erythematosus and other connective tissue disease, diabetes mellitus and diabetic ketoacidosis, potassium deficiency, neutropenia and agranulocytosis, aortic stenosis and aortic valve disease, hypotensive disorder, hyperparathyroidism and bone disease, hepatic coma/encephalopathy.
+**Drug Interactions** (the data compiled for this report lists 100 interactions; the first 20 are summarised here):
 
-**Drug Interactions:** 100 interactions were recorded. The listed examples are mostly Moderate, including corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), antidiabetic agents (metformin, alogliptin, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, exenatide, chlorpropamide, acetohexamide), acetylsalicylic acid, morphine, bupropion and dronabinol. Antacids (aluminium hydroxide, calcium carbonate) are Minor.
+- **Moderate:**
+  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone
+  - Glucose-lowering agents: metformin, alogliptin, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, exenatide, acetohexamide, chlorpropamide
+  - Others: bupropion, morphine, acetylsalicylic acid, dronabinol
+- **Minor:** aluminium hydroxide, calcium carbonate
 
-**Clinical caution from the literature:** acute renal failure can occur with ACE inhibitors in bilateral renal artery stenosis or a solitary kidney.
-
-Please also refer to the TGA-approved Product Information (PI) for full warnings, as label-based warnings were not available for this report.
+No warning or contraindication text from the TGA-approved Product Information is available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible and the prediction score is high, but this is largely an extension of the existing hypertension indication. There are no registered trials, the retrieved literature is mostly diagnostic or case-level, and the renal risk in bilateral renal artery stenosis is significant. Evidence is at L4, and it is a research question rather than a candidate for clinical adoption.
+The prediction score is high, but there are no registered clinical trials, and the single retrieved publication is a diagnostic case report that does not test captopril as a treatment. The evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- Mechanism of action data (MOA) to support mechanistic-link analysis
-- TGA Product Information warnings and contraindications, since label-based safety screening could not be completed
-- Interventional or well-designed observational data on captopril treatment in malignant renovascular hypertension
-- A renal safety plan (creatinine, potassium, exclusion of bilateral renal artery stenosis or solitary kidney)
-
-**Other predicted indications reviewed (for context):**
-- Chronic renal failure syndrome (TxGNN 81.3%) reached L2, with one randomised study of captopril to mitigate chronic renal failure after haematopoietic stem cell transplantation (PMID 18029109), and was rated Proceed with Guardrails. It builds on captopril's existing diabetic nephropathy indication but is limited to a specific population.
-- Chronic pulmonary heart disease (97.1%) reached L3 on small 1980s haemodynamic studies without outcome data. The retrieved results were mixed on benefit.
-- Intracerebral haemorrhage (89.9%) is supported only by animal data and was rated Hold.
-- The remaining predictions (malignant hypertensive renal disease, the pulmonary hypertension entries, and rare syndromes) are prediction-only or off-topic and were rated Hold.
+- Clinical or observational studies that directly examine ACE inhibition in malignant hypertensive renal disease
+- Detailed mechanism of action data
+- Safety review based on the TGA-approved Product Information, including renal function and potassium monitoring in this population
+- Confirmation of the approved indication text for the Australian product
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

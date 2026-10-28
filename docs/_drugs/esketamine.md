@@ -4,17 +4,17 @@ title: Esketamine
 parent: Model Prediction Only (L5)
 nav_order: 268
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Esketamine: predicted new indication Agoraphobia (evidence level L5). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "Esketamine"
-predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy", "melancholia", "vitamin B12-responsive methylmalonic acidemia", "obsessive-compulsive disorder", "Keppen-Lubinsky syndrome", "insomnia (disease)", "congenital isolated adrenocorticotropic hormone deficiency (disease)", "autosomal dominant slowed nerve conduction velocity"]
+predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
+description: "Esketamine: predicted new indication Agoraphobia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Esketamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Esketamine: From Anxiety Disorder to Agoraphobia
+## Esketamine: Agoraphobia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Esketamine is the S-enantiomer of ketamine, with original indications in the knowledge graph of anxiety disorder, neurotic disorder and dysthymic disorder.
 The TxGNN model's top-ranked prediction is **Agoraphobia**, but this prediction has **no clinical trials and no publications** behind it.
 The best-supported candidate in the data compiled for this report is **Neurotic Depression** (a relabelling of depression, for which esketamine is already used in treatment-resistant depression), with **20 publications** including several RCTs.
 
@@ -48,23 +47,18 @@ The best-supported candidate in the data compiled for this report is **Neurotic 
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (from the knowledge graph; the ARTG entry lists no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Agoraphobia |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Other predicted indications reviewed:**
 
 | Rank | Predicted Indication | Score | Evidence Level | Decision |
 |------|------|------|------|------|
-| 3 | Neurotic depression | 97.83% | L1 | Proceed with Guardrails |
-| 4 | Melancholia | 97.74% | L1 | Proceed with Guardrails |
-| 6 | Obsessive-compulsive disorder | 97.31% | L3 | Research Question |
-| 8 | Insomnia | 96.39% | L2 | Research Question |
-| 2, 5, 7, 9, 10 | Benign paroxysmal torticollis of infancy, vitamin B12-responsive methylmalonic acidemia, Keppen-Lubinsky syndrome, congenital isolated ACTH deficiency, autosomal dominant slowed nerve conduction velocity | 95.5–99.5% | L5 | Hold |
 
 ---
 
@@ -72,15 +66,15 @@ The best-supported candidate in the data compiled for this report is **Neurotic 
 
 Detailed mechanism of action data is not available in the data compiled for this report. From the literature, esketamine is an NMDA receptor antagonist that acts through glutamatergic modulation, AMPA receptor activation and downstream synaptic plasticity (BDNF/mTOR pathways), producing rapid antidepressant effects.
 
-**Agoraphobia (rank 1):** It is an anxiety-related disorder, and anxiety disorder is among esketamine's original knowledge-graph indications. However, no trial or publication directly supports this use. The high score probably reflects network proximity to anxiety and depression nodes rather than specific evidence, so it should be treated as a hypothesis only.
+However, no trial or publication directly supports this use. The high score probably reflects network proximity to anxiety and depression nodes rather than specific evidence, so it should be treated as a hypothesis only.
 
 **Neurotic depression and melancholia (ranks 3-4):** These sit within the depressive disorder spectrum, where esketamine nasal spray is already approved in other jurisdictions for treatment-resistant depression (TRD) and for major depression with acute suicidal ideation. This is largely a relabelling of an existing indication rather than true repurposing. Evidence is not specific to the melancholic subtype, so subtype efficacy is an inference.
 
-**Obsessive-compulsive disorder (rank 6):** Glutamatergic dysfunction in cortico-striato-thalamo-cortical circuits is implicated in OCD, which gives a plausible mechanistic basis. Evidence so far is limited to reviews, case reports and small case series.
+Evidence so far is limited to reviews, case reports and small case series.
 
 **Insomnia (rank 8):** Esketamine may improve sleep indirectly through antidepressant, analgesic and anxiolytic effects. The trials were in perioperative settings, not primary insomnia.
 
-**Ranks 2, 5, 7, 9 and 10:** These are rare genetic or paediatric conditions (CACNA1A-related paroxysmal disorder, cobalamin metabolism disorder, KCNJ6-related syndrome, congenital endocrine deficiency, hereditary neuropathy phenotype) with no plausible link to NMDA antagonism. They are likely graph-based artefacts. Use of an NMDA antagonist in infants would also raise safety concerns.
+**Ranks 2, 5, 7, 9 and 10:** These are rare genetic or paediatric conditions (CACNA1A-related paroxysmal disorder, cobalamin metabolism disorder, KCNJ6-related syndrome, congenital endocrine deficiency, hereditary neuropathy phenotype) with no plausible link to NMDA antagonism. Use of an NMDA antagonist in infants would also raise safety concerns.
 
 ---
 
@@ -88,7 +82,6 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 There are no registered trials for agoraphobia. The trials below relate to the other predicted indications.
 
-**Obsessive-compulsive disorder**
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -127,7 +120,6 @@ No ANZCTR trial identifiers were available in the data compiled for this report.
 | [35416105](https://pubmed.ncbi.nlm.nih.gov/35416105/) | 2022 | Review | Expert Opin Drug Saf | Long-term safety of ketamine and esketamine |
 | [40319349](https://pubmed.ncbi.nlm.nih.gov/40319349/) | 2025 | Long-term extension study | Int J Neuropsychopharmacol | Long-term safety and efficacy of esketamine in TRD |
 
-**Obsessive-compulsive disorder**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -172,7 +164,7 @@ Please refer to the TGA-approved Product Information (PI) for formal warnings an
 **Decision: Hold** (for the top-ranked prediction, agoraphobia)
 
 **Rationale:**
-- Agoraphobia has no trials or literature, so the 99.57% score rests on model prediction alone.
+- Agoraphobia has no trials or literature, so the 0.9957 score rests on model prediction alone.
 - Neurotic depression and melancholia merit **Proceed with Guardrails**, but they are largely relabellings of the TRD/MDD use rather than new repurposing. OCD and insomnia are research questions pending controlled trials.
 
 **To proceed, the following is needed:**

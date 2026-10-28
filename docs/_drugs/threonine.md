@@ -6,7 +6,7 @@ nav_order: 720
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Threonine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not recorded"
+description: "Threonine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not recorded"
 monitor_inn: "threonine"
 predicted_indications: ["gastroparesis (disease)"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Threonine: From No Registered Indication to Gastroparesis
+## Threonine: From No Registered Indication to gastroparesis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be relevant to **gastroparesis**, but this rests
 |------|------|
 | Original Indication | Not recorded (the ARTG entry has no indication text) |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.32% |
+| TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Threonine is an essential amino acid, and the data compiled for this report list no original indication for it. Its only registered Australian product is a specialised oral amino acid formulation, MMA/PA Anamix Junior.
 
-The prediction is supported only by a high knowledge-graph score, which is a computational inference and not clinical evidence. One plausible but unverified link is threonine's role in gastrointestinal mucin synthesis and gut mucosal integrity. Another is amino acid-related modulation of gastric motility and gut hormone signalling. Neither is supported by the data supplied.
+The prediction is supported only by a high TxGNN model (deep learning) score, which is a computational inference and not clinical evidence. One plausible but unverified link is threonine's role in gastrointestinal mucin synthesis and gut mucosal integrity. Another is amino acid-related modulation of gastric motility and gut hormone signalling. Neither is supported by the data supplied.
 
 No direct pathway has been established between threonine and the pathophysiology of gastroparesis, which involves impaired gastric emptying from enteric neuropathy, loss of interstitial cells of Cajal, or autonomic dysfunction. The prediction should be treated as a hypothesis for investigation only.
 

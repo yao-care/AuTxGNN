@@ -48,10 +48,10 @@ The prediction is therefore best viewed as a model signal with a weak mechanisti
 |------|------|
 | Original Indication | Anaerobic bacterial infections, giardiasis, bacterial vaginosis, rosacea, peritonitis, intracranial abscess and others (approved indication text for the Australian product is not available) |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 *Pneumocystis* is now classified as a fungus, and the nitro-reduction mechanism does not give an established link to it. The retrieved literature is made up of general antiparasitic drug reviews and AIDS opportunistic infection reports. In these, metronidazole was used for coexisting infections such as amoebiasis, not for *Pneumocystis*. The standard treatment mentioned in the literature is trimethoprim-sulfamethoxazole.
 
-The high score is most likely driven by the drug's network proximity to antiprotozoal and anti-infective drugs in the knowledge graph, not by direct biological evidence.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -87,7 +87,7 @@ Note: [6282154](https://pubmed.ncbi.nlm.nih.gov/6282154/) (1982, case report) an
 
 ## Safety Considerations
 
-**Contraindications / conditions of concern (knowledge-graph associations, not label text):** liver failure and liver disease, epilepsy, kidney disease, haematological disease, neutropenia, leukopenia, agranulocytosis, blood coagulation disease, congestive heart failure, diabetes mellitus and diabetic ketoacidosis, gout, gallbladder disease, peripheral neuropathy and other peripheral nervous system disease, brain disease, optic nerve and visual pathway disease, non-infectious meningitis, dermatitis, pyoureter, and substance abuse/dependence.
+**Contraindications / conditions of concern (not label text):** liver failure and liver disease, epilepsy, kidney disease, haematological disease, neutropenia, leukopenia, agranulocytosis, blood coagulation disease, congestive heart failure, diabetes mellitus and diabetic ketoacidosis, gout, gallbladder disease, peripheral neuropathy and other peripheral nervous system disease, brain disease, optic nerve and visual pathway disease, non-infectious meningitis, dermatitis, pyoureter, and substance abuse/dependence.
 
 **Drug Interactions:** 100 interactions were identified. Among those reviewed:
 - **Major:** Ethanol (avoid concurrent use)

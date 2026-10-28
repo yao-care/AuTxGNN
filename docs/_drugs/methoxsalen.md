@@ -4,17 +4,17 @@ title: Methoxsalen
 parent: Model Prediction Only (L5)
 nav_order: 464
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Methoxsalen: predicted new indication Localized pagetoid reticulosis (evidence level L5). Approved use: Primary cutaneous T-cell lymphoma"
 monitor_inn: "Methoxsalen"
-predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "follicular lymphoma, susceptibility to, 1", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
+predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
 ---
 
 # Methoxsalen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,19 +47,19 @@ The TxGNN model predicts it may be effective for **localized pagetoid reticulosi
 |------|------|
 | Original Indication | Primary cutaneous T-cell lymphoma; vitiligo (the ARTG entry in the data compiled for this report has no indication text) |
 | Predicted New Indication | Localized pagetoid reticulosis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, methoxsalen is a psoralen. It is used with UVA light (PUVA) and in extracorporeal photopheresis. It intercalates into DNA and, once activated by UVA, forms crosslinks that induce apoptosis in malignant T cells.
 
-Localized pagetoid reticulosis (Woringer-Kolopp disease) is an indolent variant of mycosis fungoides, which is a primary cutaneous T-cell lymphoma. Because methoxsalen is already used in cutaneous T-cell lymphoma, the biological rationale is plausible. However, the high TxGNN score probably reflects how close this disease sits to the established CTCL indication in the knowledge graph. It is not independent evidence of efficacy.
+Localized pagetoid reticulosis (Woringer-Kolopp disease) is an indolent variant of mycosis fungoides, which is a primary cutaneous T-cell lymphoma. Because methoxsalen is already used in cutaneous T-cell lymphoma, the biological rationale is plausible. However, the high TxGNN score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not independent evidence of efficacy.
 
-A related prediction, **indolent primary cutaneous T-cell lymphoma** (rank 2, score 99.91%), has a similar rationale. It is largely a subtype of the already-labelled CTCL indication, so it is closer to an extension of the existing use than to true repurposing. The remaining top-10 predictions are mostly B-cell lymphomas, deep-seated extranodal lymphomas and a benign skin lesion. They have no plausible mechanistic link to UVA photochemotherapy and are not discussed further.
+The other top predictions are mostly B-cell lymphomas, deep-seated extranodal lymphomas and a benign skin lesion. They have no plausible mechanistic link to UVA photochemotherapy and are not discussed further.
 
 ## Clinical Trial Evidence
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Triamcinolone
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 753
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Autoimmune disease, Crohn disease and inflammatory bowel disease…"
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Triamcinolone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Triamcinolone: From Autoimmune and Inflammatory Conditions to Alopecia Mucinosa
+## Triamcinolone: Alopecia mucinosa
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa** (follicul
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease, Crohn disease and inflammatory bowel disease, adrenocortical insufficiency, congenital adrenal hyperplasia, eosinophilic pneumonia, acute lymphoblastic leukaemia (per the knowledge graph; no ARTG indication text is available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia mucinosa |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 (mechanistic rationale and case reports only; no direct triamcinolone evidence) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -106,7 +106,7 @@ Label warnings and contraindications were not available. Please refer to the TGA
 **Decision: Hold**
 
 **Rationale:**
-The high model score (99.99%) is supported only by a plausible anti-inflammatory rationale and two case reports that do not involve triamcinolone. There are no trials. Label safety data are also missing, so the candidate cannot proceed to safety screening.
+The high model score (0.9999) is supported only by a plausible anti-inflammatory rationale and two case reports that do not involve triamcinolone. There are no trials. Label safety data are also missing, so the candidate cannot proceed to safety screening.
 
 **To proceed, the following is needed:**
 - Triamcinolone-specific clinical data in follicular mucinosis (case series or trials, with intralesional or topical use)

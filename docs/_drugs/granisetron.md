@@ -46,10 +46,10 @@ Granisetron is a selective 5-HT3 receptor antagonist marketed in Australia as an
 |------|------|
 | Original Indication | Not recorded in the data compiled for this report |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.62% |
+| TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,21 +58,21 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 It has been hypothesised that 5-HT3 modulation may influence the dopaminergic and serotonergic signalling relevant to mood regulation. This link is speculative. The original indication was not recorded, so the relationship between the original and new indication cannot be assessed here.
 
-The high TxGNN score (0.996) is a computational prediction only. It is not backed by any trial or literature data.
+The high TxGNN score (0.9962) is a computational prediction only. It is not backed by any trial or literature data.
 
 **Other predicted indications (all L5, all Hold):**
 
 | Rank | Predicted Indication | TxGNN Score | Mechanistic Plausibility |
 |---|---|---|---|
-| 2 | Tourette syndrome | 99.52% | Speculative. 5-HT3 antagonism may indirectly modulate dopaminergic circuits, and other agents in the class (e.g. ondansetron) have been explored. |
-| 3 | Acute contagious conjunctivitis | 99.49% | No clear rationale. Likely a graph-association artefact. |
-| 4 | Angioedema | 99.36% | Weak. Granisetron does not target histamine or bradykinin pathways. |
-| 5 | Allergic urticaria | 99.32% | Weak. Serotonin may contribute to itch and mast cell responses. |
-| 6 | Nephrogenic syndrome of inappropriate antidiuresis | 99.32% | No plausible mechanism (AVPR2 gain-of-function). |
-| 7 | Trichotillomania | 99.23% | Speculative. Serotonergic dysregulation is implicated in the obsessive-compulsive spectrum. |
-| 8 | Bronchitis | 99.18% | No established mechanistic connection. |
-| 9 | Cold urticaria | 99.10% | Minor, indirect role of serotonin in mast cell-related itch. |
-| 10 | Conjunctivitis | 99.09% | No plausible mechanistic link. |
+| 2 | Tourette syndrome | 0.9952 | Speculative. 5-HT3 antagonism may indirectly modulate dopaminergic circuits, and other agents in the class (e.g. ondansetron) have been explored. |
+| 3 | Acute contagious conjunctivitis | 0.9949 | No clear rationale. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
+| 4 | Angioedema | 0.9936 | Weak. Granisetron does not target histamine or bradykinin pathways. |
+| 5 | Allergic urticaria | 0.9932 | Weak. Serotonin may contribute to itch and mast cell responses. |
+| 6 | Nephrogenic syndrome of inappropriate antidiuresis | 0.9932 | No plausible mechanism (AVPR2 gain-of-function). |
+| 7 | Trichotillomania | 0.9923 | Speculative. Serotonergic dysregulation is implicated in the obsessive-compulsive spectrum. |
+| 8 | Bronchitis | 0.9918 | No established mechanistic connection. |
+| 9 | Cold urticaria | 0.9910 | Minor, indirect role of serotonin in mast cell-related itch. |
+| 10 | Conjunctivitis | 0.9909 | No plausible mechanistic link. |
 
 ## Clinical Trial Evidence
 

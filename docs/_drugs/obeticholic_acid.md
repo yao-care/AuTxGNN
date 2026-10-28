@@ -4,17 +4,17 @@ title: Obeticholic Acid
 parent: Model Prediction Only (L5)
 nav_order: 515
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Obeticholic Acid: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the data compiled for this report (the literature descr…"
 monitor_inn: "Obeticholic acid"
-predicted_indications: ["rheumatoid arthritis", "conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "heart disease", "orofacial clefting syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "Jeune syndrome situs inversus"]
+predicted_indications: ["rheumatoid arthritis", "conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 ---
 
 # Obeticholic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Obeticholic acid is a farnesoid X receptor (FXR) agonist, registered in Australi
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (the literature describes obeticholic acid as a treatment for primary biliary cholangitis) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.67% |
-| Evidence Level | L4 (preclinical only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9967 |
+| Evidence Level | L5 (preclinical only) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -110,7 +110,6 @@ The prediction score is high, but the only direct support is a single animal stu
 ### Note on other predicted indications
 
 Other top-ranked predictions are not recommended for progression at this stage:
-- **Heart disease** (score 98.99%, L4): The evidence is preclinical or indirect (cardiac dysfunction in NASH mice, cisplatin cardiotoxicity and diabetic cardiomyopathy models). The label is too broad, and the LDL-C/HDL-C effects are a potential concern. A specific cardiac phenotype should be defined first.
 - **Conjunctivitis** and the remaining rare congenital or genetic syndromes (L5): These are model predictions only, with no supporting trials or relevant literature, and no plausible FXR-mediated mechanism.
 ## Disclaimer
 

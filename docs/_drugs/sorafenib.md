@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sorafenib
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 685
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Sorafenib: predicted new indication Liposarcoma (evidence level L5). Approved use: Hepatocellular carcinoma, renal cell carcinoma and thyroid carcinoma"
 monitor_inn: "Sorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
+description: "Sorafenib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sorafenib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sorafenib: From Hepatocellular Carcinoma to Liposarcoma
+## Sorafenib: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but direct evidence is thin: **1 clinical trial** (a Phase 2 study in mixed soft
 
 | Item | Content |
 |------|------|
-| Original Indication | Hepatocellular carcinoma, renal cell carcinoma and thyroid carcinoma (from the knowledge graph; no approved indication text is available in the ARTG data compiled for this report) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L2 (as assigned in the compiled data; see the note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* the L2 rating rests on a single completed Phase 2 trial in mixed soft tissue sarcomas. That trial cannot isolate liposarcoma-specific efficacy, so the rating should be read cautiously. The wording "Hold" reflects the weak, indirect evidence; the compiled data labels it as a "Research Question".
@@ -107,7 +107,6 @@ However, the supporting evidence concerns soft tissue sarcoma as a group. Liposa
 | Cytotoxicity Classification | Targeted therapy (multi-kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | Please refer to the PI. The knowledge graph flags thrombocytopenia, neutropenia, anaemia and hypertension, so FBC and blood pressure monitoring is reasonable. |
 | Handling Protection | Please refer to the PI and local cytotoxic drug handling policies |
 
 ---

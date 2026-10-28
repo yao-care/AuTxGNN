@@ -48,10 +48,10 @@ The best-supported predicted indication in the data compiled for this report is 
 |------|------|
 | Original Indication | Neurofibromatosis (the ARTG entry has no approved indication text) |
 | Predicted New Indication | Familial generalized lentiginosis |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 Of the ten predicted indications, only two have any supporting evidence: peripheral nerve schwannoma (L3, 99.95%) and rhabdoid tumour (L4, 99.96%). The other eight are model predictions only (L5).
@@ -60,7 +60,7 @@ Of the ten predicted indications, only two have any supporting evidence: periphe
 
 Detailed mechanism of action data is not available for selumetinib in the data compiled for this report. Based on known information, selumetinib is a MEK inhibitor, and its efficacy in neurofibromatosis (NF1 plexiform neurofibromas) has been established. Mechanistically, it may be applicable to other conditions driven by RAS/MAPK pathway dysregulation.
 
-For **familial generalized lentiginosis**, the prediction is not backed by trials or literature. Lentiginoses of this type are often linked to RAS/MAPK pathway dysregulation, which a MEK inhibitor could plausibly modulate. The similarity to the original indication has not yet been assessed. Several other top-ranked predictions (gastrocutaneous syndrome, café-au-lait macule syndromes, acromelanosis, Moynahan syndrome) appear to be driven by pigmentary phenotype overlap with neurofibromatosis in the knowledge graph.
+For **familial generalized lentiginosis**, the prediction is not backed by trials or literature. Lentiginoses of this type are often linked to RAS/MAPK pathway dysregulation, which a MEK inhibitor could plausibly modulate. The similarity to the original indication has not yet been assessed. Several other top-ranked predictions (gastrocutaneous syndrome, café-au-lait macule syndromes, acromelanosis, Moynahan syndrome) come from the TxGNN model (deep learning), and their scores may reflect similarities the model learned between related diseases, not biological evidence.
 
 The two predictions with real supporting data are more informative:
 - **Peripheral nerve schwannoma:** Loss of NF2 and interactions between the NF1 and NF2 tumour suppressors drive Schwann cell tumours through RAS/MAPK signalling, making MEK inhibition plausible. Evidence is limited to early-phase trials and a case report.

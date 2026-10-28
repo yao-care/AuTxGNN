@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Darbepoetin Alfa
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 198
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Darbepoetin Alfa: predicted new indication Amenorrhoea (evidence level L5). Approved use: Not available in the data compiled for this report"
-monitor_inn: "Darbepoetin alfa"
-predicted_indications: ["amenorrhea (disease)", "renin-angiotensin-aldosterone system-blocker-induced angioedema", "anaphylaxis", "psoriasis", "penile fibromatosis", "food-dependent exercise-induced anaphylaxis", "Peyronie disease", "Ledderhose disease", "infantile digital fibromatosis", "HER2 positive breast carcinoma"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Darbepoetin Alfa: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Darbepoetin Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,52 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Darbepoetin alfa: From Anaemia (Erythropoiesis Stimulation) to Amenorrhoea
+<!-- known-uses-page -->
+<!-- description: Darbepoetin Alfa: known uses and market status in Australia; currently no new candidate indication -->
+## Darbepoetin Alfa: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model has no candidate with a score of 0.99 or higher for Darbepoetin Alfa, so there is currently no new predicted indication. The drug's recorded uses are listed below.
 
-Darbepoetin alfa is an erythropoiesis-stimulating agent (an EPO receptor agonist) marketed in Australia as Aranesp. The TxGNN model predicts it may be relevant to **amenorrhoea**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. This is a model prediction only.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
-| Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 96.73% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 1 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Detailed mechanism of action data is not available for this report. Based on known pharmacology, darbepoetin alfa is an erythropoiesis-stimulating agent that acts on the erythropoietin receptor. It is generally used to correct anaemia in chronic disease settings.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| chronic kidney failure | licence in another country |
 
-A possible indirect link to amenorrhoea is that anaemia in chronic illness can accompany secondary amenorrhoea. Correcting the anaemia might help in that setting. This is speculative and is not supported by any trial or publication retrieved. The high TxGNN score reflects knowledge-graph associations, not demonstrated efficacy.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Other top-ranked predictions (for example RAAS-blocker-induced angioedema, anaphylaxis, psoriasis, and fibromatoses such as Peyronie and Ledderhose disease) also lack a clear mechanistic rationale. Anaphylaxis and hypersensitivity are safety concerns for protein therapeutics, which argues against a therapeutic role there.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-No literature directly related to darbepoetin alfa in amenorrhoea is available.
-
-For the lower-ranked prediction of psoriasis, one paper was retrieved, but it does not support darbepoetin:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [40519492](https://pubmed.ncbi.nlm.nih.gov/40519492/) | 2025 | Case report | Cureus | Deucravacitinib used for psoriasis in a patient with myelodysplastic syndrome. It does not involve darbepoetin, and the link is incidental co-occurrence only. |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 5637Q | Aranesp | Injection 10 micrograms in 0.4 mL pre-filled syringe | Not available in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 5637Q | Aranesp | Injection 10 micrograms in 0.4 mL pre-fi | Valid |
 
 ## Safety Considerations
 
@@ -91,19 +83,6 @@ For the lower-ranked prediction of psoriasis, one paper was retrieved, but it do
 
 Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a model score alone (L5). There are no trials or supporting publications, no established mechanism links EPO receptor signalling to amenorrhoea, and the safety profile (hypertension-related contraindication signal, major interactions with thalidomide-class agents) calls for caution.
-
-**To proceed, the following is needed:**
-- The approved indication text and the PI warnings and contraindications for Aranesp
-- Detailed mechanism of action data
-- A literature and trial search specific to darbepoetin or ESAs in amenorrhoea
-- A plausible mechanistic or clinical rationale, such as amenorrhoea secondary to anaemia of chronic disease
-- A route compatibility assessment and a safety review in the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

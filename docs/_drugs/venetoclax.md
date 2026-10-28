@@ -4,17 +4,17 @@ title: Venetoclax
 parent: Model Prediction Only (L5)
 nav_order: 774
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Venetoclax: predicted new indication Chronic lymphocytic leukaemia/small lymphocytic lymphoma with IGHV so… (evidence level L5). Approved use: Acute lymphoblastic/lymphocytic leukaemia"
 monitor_inn: "Venetoclax"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
+description: "Venetoclax: predicted new indication Hodgkins lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Venetoclax
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Venetoclax: From Acute Lymphoblastic Leukaemia and Richter Syndrome to Myeloid Leukaemia
+## Venetoclax: Hodgkins lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Venetoclax is an oral BCL-2 inhibitor, originally linked to acute lymphoblastic leukaemia and Richter syndrome in the TxGNN knowledge graph.
 The TxGNN model predicts it may be effective for **myeloid leukaemia** (the most evidence-supported prediction in the data compiled for this report), with **37 clinical trials** and **20 publications** linked to this prediction.
 Venetoclax-azacitidine in AML is already a labelled use elsewhere, so this is better described as an extension or confirmation than as novel repurposing.
 
@@ -48,12 +47,12 @@ Venetoclax-azacitidine in AML is already a labelled use elsewhere, so this is be
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic/lymphocytic leukaemia; Richter syndrome (knowledge graph indications; the ARTG indication text is not available) |
-| Predicted New Indication | Chronic lymphocytic leukaemia/small lymphocytic lymphoma with IGHV somatic hypermutation (rank 1); the best-supported prediction is **myeloid leukaemia** (rank 4) |
-| TxGNN Prediction Score | 99.55% (rank 1); 99.47% (myeloid leukaemia) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hodgkins lymphoma |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 (rank 1 prediction); L1 for myeloid leukaemia |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold for the rank 1 prediction; Proceed with Guardrails for myeloid leukaemia |
 
 **Note on the rank 1 prediction:** it has no linked trials and no relevant literature. It is a molecular subtype of CLL/SLL, which is already an approved venetoclax indication, so it is not true repurposing. Because it is rank 1 it is shown in the overview, but the detailed evidence below focuses on myeloid leukaemia, the best-supported prediction in the data.

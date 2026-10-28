@@ -4,17 +4,17 @@ title: Pravastatin
 parent: Moderate Evidence (L3-L4)
 nav_order: 596
 evidence_level: L4
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Pravastatin: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L4). Approved use: Hypertriglyceridaemia, atherosclerosis…"
 monitor_inn: "Pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Pravastatin: From Hyperlipidaemia and Atherosclerosis to Homozygous Familial Hypercholesterolaemia
+## Pravastatin: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **homozygous familial hyperchol
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertriglyceridaemia, atherosclerosis, cerebrovascular disorder/stroke, familial combined hyperlipidaemia and related lipid disorders (from the knowledge graph; no approved-indication text is available for the Australian licence) |
-| Predicted New Indication | Homozygous familial hypercholesterolaemia |
-| TxGNN Prediction Score | 99.95% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | HIV infectious disease |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

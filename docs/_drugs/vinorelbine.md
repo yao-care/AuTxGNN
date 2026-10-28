@@ -4,17 +4,17 @@ title: Vinorelbine
 parent: High Evidence (L1-L2)
 nav_order: 781
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Non-small cell lung carcinoma / lung cancer"
 monitor_inn: "Vinorelbine"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
+description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Vinorelbine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Vinorelbine: From Non-Small Cell Lung Cancer to Ewing Sarcoma
+## Vinorelbine: Ewing sarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **3 clinical trials** (two Phase 2 studies in mixed paediatric tumour popul
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung carcinoma / lung cancer (from the knowledge graph; no approved indication text is available for the Australian listing) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ewing sarcoma |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -103,7 +103,7 @@ Please also refer to the Product Information (PI) warnings and precautions.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: liver failure, infectious disease, ileus, intestinal obstruction, interstitial lung disease, lung disease and leukopenia.
+- **Contraindications (associations the TxGNN model (deep learning) learned between related diseases, not label text and not biological evidence)**: liver failure, infectious disease, ileus, intestinal obstruction, interstitial lung disease, lung disease and leukopenia.
 - **Drug Interactions**: 100 interactions were identified in total, and the main ones from the data compiled for this report are listed below.
   - **Major**: clarithromycin.
   - **Moderate**: aprepitant, dexamethasone, metronidazole, eliglustat, miconazole, rolapitant, rosuvastatin, simvastatin, tinidazole and glycerol phenylbutyrate.

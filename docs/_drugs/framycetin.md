@@ -4,17 +4,17 @@ title: Framycetin
 parent: Model Prediction Only (L5)
 nav_order: 320
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Framycetin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the data compiled for this report (the Australian lis…"
 monitor_inn: "Framycetin"
-predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "bronchitis", "genital herpes", "vitamin deficiency disorder"]
+predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
+description: "Framycetin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Framycetin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Framycetin: From Topical Ophthalmic/Otic Infection to Sclerosing Cholangitis
+## Framycetin: Sclerosing cholangitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the data compiled for this report (the Australian listing is for eye or ear drops containing framycetin sulfate 5 mg per mL) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,8 +64,7 @@ The Australian product is an ophthalmic/otic preparation. Whether any route of a
 
 Other top-ranked predictions are also unsupported by evidence:
 - **Plausible at class level (antibacterial):** urinary tract infection, gonococcal urethritis, uterine inflammatory disease, xanthogranulomatous pyelonephritis, Ureaplasma urethritis. Framycetin's poor systemic absorption makes it a poor fit, and established agents are preferred.
-- **Implausible:** congenital prothrombin deficiency, genital herpes (viral) and vitamin deficiency disorder show no credible mechanistic link and likely reflect knowledge-graph artefacts. Oral aminoglycosides may even worsen vitamin K status.
-- **Bronchitis:** a single 1956 report exists (see below), but current guidance generally does not support antibiotics for acute bronchitis without bacterial infection.
+- **Implausible:** congenital prothrombin deficiency, genital herpes (viral) and vitamin deficiency disorder show no credible mechanistic link and likely reflect TxGNN model (deep learning) artefacts. Oral aminoglycosides may even worsen vitamin K status.
 
 ## Clinical Trial Evidence
 
@@ -73,7 +72,7 @@ Currently no related clinical trials registered for sclerosing cholangitis or an
 
 ## Literature Evidence
 
-No literature is available for sclerosing cholangitis. The only publication found across the predictions relates to the lower-ranked bronchitis prediction:
+No literature is available for sclerosing cholangitis.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

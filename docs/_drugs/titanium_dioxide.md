@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Titanium dioxide is a UV-blocking agent, registered in Australia as an ingredient in a sunscreen lotion (Sunsense Comfort SPF 50+). The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but there are **0 clinical trials** and **0 publications** supporting this prediction. The score comes from a graph-based computation alone.
+Titanium dioxide is a UV-blocking agent, registered in Australia as an ingredient in a sunscreen lotion (Sunsense Comfort SPF 50+). The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but there are **0 clinical trials** and **0 publications** supporting this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -46,17 +46,17 @@ Titanium dioxide is a UV-blocking agent, registered in Australia as an ingredien
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.9998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Titanium dioxide is an inert mineral pigment and UV-blocking agent used in sunscreens. No known pharmacological action on bone remodelling has been identified.
 
-The relationship between the original use (topical sun protection) and the predicted indication (drug-induced osteoporosis) is not apparent. Titanium is used in orthopaedic implants, but that reflects osseointegration of the metal, not a therapeutic effect of titanium dioxide on osteoporosis. The very high TxGNN score (close to 100%) is a graph-based association with no supporting clinical or literature evidence, so it should be treated with caution.
+The relationship between the original use (topical sun protection) and the predicted indication (drug-induced osteoporosis) is not apparent. Titanium is used in orthopaedic implants, but that reflects osseointegration of the metal, not a therapeutic effect of titanium dioxide on osteoporosis. The very high TxGNN score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. With no supporting clinical or literature evidence, it should be treated with caution.
 
 Other predictions for this drug are also unsupported. They include diabetic retinopathy (including severe nonproliferative disease), several cataract types (diabetic, cortical, mature, immature, tetanic and craniostenosis-related) and diabetes-associated cataract. For diabetic retinopathy, five publications were retrieved, but they describe titanium dioxide as a laboratory or imaging tool (such as extracellular vesicle purification, retinal imaging and an eye phantom), not as a treatment. Titanium dioxide nanoparticles also carry known oxidative-stress and toxicity concerns.
 

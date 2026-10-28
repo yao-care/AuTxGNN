@@ -4,17 +4,17 @@ title: Norethisterone
 parent: Moderate Evidence (L3-L4)
 nav_order: 510
 evidence_level: L3
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Norethisterone: predicted new indication Amenorrhoea (evidence level L3). Approved use: Not stated in the Australian registration data. The knowledge graph l…"
 monitor_inn: "Norethisterone"
-predicted_indications: ["amenorrhea (disease)", "symptomatic form of fragile X syndrome in female carrier", "zinc, elevated plasma", "ovarian remnant syndrome", "anovulation", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 12", "luteoma of pregnancy", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 5"]
+predicted_indications: ["amenorrhea (disease)"]
+description: "Norethisterone: predicted new indication Amenorrhea (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Norethisterone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Norethisterone: From Endometriosis and Primary Ovarian Failure to Amenorrhoea
+## Norethisterone: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **amenorrhoea**, but the eviden
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Australian registration data. The knowledge graph lists acne, primary ovarian failure, endometriosis, postmenopausal osteoporosis and postmenopausal atrophic vaginitis, among others |
-| Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.60% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -98,14 +98,13 @@ Please refer to the TGA-approved Product Information (PI) for official warnings 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high and the mechanism is plausible, but there are no registered trials. The retrieved publications mostly describe amenorrhoea as an adverse effect of contraceptive formulations, not as a treatment target. The 2024 and 2026 publications are the only ones that address it directly. The Australian registration data also lack an approved indication and the label safety text. The other nine predictions have only L5 evidence, apart from anovulation, where the evidence supports managing its consequences rather than treating it.
+The prediction score is high and the mechanism is plausible, but there are no registered trials. The retrieved publications mostly describe amenorrhoea as an adverse effect of contraceptive formulations, not as a treatment target. The 2024 and 2026 publications are the only ones that address it directly. The Australian registration data also lack an approved indication and the label safety text.
 
 **To proceed, the following is needed:**
 - The approved indication text and the safety sections (warnings, contraindications) from the TGA-approved PI for Primolut N
 - Detailed mechanism of action data
 - Evidence on progestin challenge or cyclic therapy in amenorrhoea, such as a protocol-driven clinical study or guideline review
 - A review of the knowledge graph contraindications (for example, breast carcinoma, liver disease, hypertension) against the intended patient population
-- Consideration of an alternative framing: managing the consequences of anovulation, such as dysfunctional uterine bleeding with cyclical progestogens, has somewhat more supporting literature
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Spironolactone
 parent: Model Prediction Only (L5)
 nav_order: 688
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertension, congestive heart failure, primary aldosteronism"
 monitor_inn: "Spironolactone"
-predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Spironolactone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Spironolactone: From Hypertension to Hypotrichosis Simplex of the Scalp
+## Spironolactone: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **hypotrichosis simplex of the 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, congestive heart failure, primary aldosteronism (the ARTG entry lists no indication text, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -119,10 +119,8 @@ The prediction rests on a model score alone (L5). No trials or publications exis
 - Detailed mechanism of action data.
 - Safety information from the TGA Product Information, including warnings and contraindications.
 
-**Note on better-supported predictions:** Among the other predicted indications, the strongest evidence is for **alopecia**, specifically female pattern hair loss/androgenetic alopecia. It is graded L2 and recommended as Proceed with Guardrails.
 - It is supported by a completed Phase 2 trial comparing spironolactone with topical minoxidil (NCT00175617, n=40), plus several systematic reviews, including one on oral and topical spironolactone.
 - Suggested guardrails:
-  - Restrict use to women with androgenetic alopecia.
   - Monitor potassium and blood pressure.
   - Ensure contraception, given teratogenicity and feminisation risks.
   - Avoid use in men.

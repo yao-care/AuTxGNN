@@ -4,17 +4,17 @@ title: Liothyronine
 parent: Model Prediction Only (L5)
 nav_order: 429
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Liothyronine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Hypothyroidism"
 monitor_inn: "Liothyronine"
-predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "nodular goiter (disease)", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "angiomyxoma", "myxoma", "hypotrichosis simplex of the scalp"]
+predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "angiomyxoma", "myxoma", "hypotrichosis simplex of the scalp"]
+description: "Liothyronine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Liothyronine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Liothyronine: From Hypothyroidism to Renal Hypodysplasia/Aplasia
+## Liothyronine: Renal hypodysplasia/aplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypothyroidism (the Australian ARTG entry has no approved indication text; the original indications listed here come from the TxGNN knowledge graph and include myxoedema, congenital hypothyroidism, goitre and thyroid cancer) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Renal hypodysplasia/aplasia |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Liothyronine is the active form of thyroid hormone, and its efficacy in replacing thyroid hormone in hypothyroidism is well established. However, the data compiled for this report do not support a mechanistic link to renal hypodysplasia/aplasia.
 
-Renal hypodysplasia/aplasia is a congenital structural disorder of kidney development that arises during embryogenesis. Giving thyroid hormone after birth is unlikely to reverse missing or underdeveloped kidney tissue. The very high score most likely reflects proximity in the knowledge graph (for example, shared links with thyroid-related developmental syndromes) rather than true therapeutic efficacy.
+Renal hypodysplasia/aplasia is a congenital structural disorder of kidney development that arises during embryogenesis. Giving thyroid hormone after birth is unlikely to reverse missing or underdeveloped kidney tissue. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or true therapeutic efficacy.
 
 The other top-ranked predictions show the same pattern. Bilateral renal agenesis, Potter sequence, Carney complex, angiomyxoma, myxoma and peripheral dysostosis all have no clinical trials, and the ones with no publications have no supporting literature either. Nodular goitre is biologically plausible but is largely an existing use rather than true repurposing. Treat these predictions as hypotheses only.
 
@@ -99,7 +99,7 @@ Product Information warnings and contraindications for the Australian product we
 **Decision: Hold**
 
 **Rationale:**
-The prediction for renal hypodysplasia/aplasia is supported only by a knowledge-graph score (Evidence Level L5). There are no trials or publications, and a structural congenital kidney malformation is not plausibly treatable with thyroid hormone replacement.
+The prediction for renal hypodysplasia/aplasia is supported only by a TxGNN model (deep learning) score (Evidence Level L5). There are no trials or publications, and a structural congenital kidney malformation is not plausibly treatable with thyroid hormone replacement.
 
 **To proceed, the following is needed:**
 - A documented mechanism of action and a plausible biological pathway linking thyroid hormone to renal development

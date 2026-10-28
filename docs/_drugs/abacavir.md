@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Abacavir
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 11
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Abacavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Abacavir"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection", "paratenonitis", "calcific tendinitis", "fibroma of prostate"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Abacavir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ This is an animal-virus model rather than a true human repurposing opportunity, 
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the ARTG entry has no approved indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9979 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The only supporting evidence is a 2004 in vitro review of the susceptibility of HIV-2, SIV and SHIV to anti-HIV-1 compounds. SIV infection occurs in non-human primates and has no human clinical use case. It is therefore not a true repurposing indication for patients.
 
-For context, the model's other predictions with some evidence are mostly extensions of the existing HIV indication. These include congenital HIV (a Phase 3 trial of antiretroviral strategies in infants, with abacavir's role to be verified) and AIDS related complex (an early symptomatic stage of HIV disease). They are not novel repurposing targets. Predictions such as chronic hepatitis C have no mechanistic rationale, because HCV does not use reverse transcriptase. Several others (a rare neurodevelopmental disorder, paratenonitis, calcific tendinitis, fibroma of prostate) rest on the graph model alone.
+For context, the model's other predictions with some evidence are mostly extensions of the existing HIV indication. These include congenital HIV (a Phase 3 trial of antiretroviral strategies in infants, with abacavir's role to be verified) and AIDS related complex (an early symptomatic stage of HIV disease). They are not novel repurposing targets. The prediction for a rare neurodevelopmental disorder comes from the TxGNN model (deep learning) alone and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

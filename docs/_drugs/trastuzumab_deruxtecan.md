@@ -4,17 +4,17 @@ title: Trastuzumab Deruxtecan
 parent: Model Prediction Only (L5)
 nav_order: 749
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Trastuzumab Deruxtecan: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Trastuzumab deruxtecan"
-predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "bronchitis", "diabetic cataract", "non-seminomatous lesion", "bronchial adenomas/carcinoids childhood", "ductal or ductular proliferation", "chondroid hamartoma", "tumor of testis and paratestis"]
+predicted_indications: ["drug-induced osteoporosis"]
 ---
 
 # Trastuzumab Deruxtecan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,19 +48,18 @@ This is a model-only prediction (Evidence Level L5) with no identified mechanist
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.31% |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Trastuzumab deruxtecan is generally characterised as a HER2-directed antibody-drug conjugate carrying a topoisomerase I inhibitor payload, designed to kill HER2-expressing tumour cells.
 
-On this basis, the prediction is **not mechanistically reasonable**. The drug has no known role in bone metabolism, and osteoporosis is not a HER2-driven or oncologic condition. The high TxGNN score (99.31%) reflects graph-based similarity only and is not backed by any trial or publication.
+On this basis, the prediction is **not mechanistically reasonable**. The drug has no known role in bone metabolism, and osteoporosis is not a HER2-driven or oncologic condition. The high TxGNN score (0.9931) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by any trial or publication.
 
-The other top-ranked predictions show the same pattern: diabetic retinopathy (severe nonproliferative and general), bronchitis, diabetic cataract and several tumour or lesion labels. None has trial or literature support, and none has a plausible mechanistic link. For bronchitis, interstitial lung disease/pneumonitis is a known key risk of this drug, which makes a respiratory indication particularly unattractive.
 
 ## Clinical Trial Evidence
 
@@ -109,7 +108,7 @@ Published case reports, which are not specific to the predicted indication, desc
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score, with no clinical trials, no literature and no plausible mechanistic link between a cytotoxic HER2-directed ADC and bone metabolism. Systemic cytotoxic exposure would also bring substantial safety risks in a non-oncologic condition.
+The prediction rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, no literature and no plausible mechanistic link between a cytotoxic HER2-directed ADC and bone metabolism. Systemic cytotoxic exposure would also bring substantial safety risks in a non-oncologic condition.
 
 **To proceed, the following is needed:**
 - A mechanistic rationale linking the drug or its payload to bone biology

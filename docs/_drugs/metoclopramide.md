@@ -4,17 +4,17 @@ title: Metoclopramide
 parent: Model Prediction Only (L5)
 nav_order: 471
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Metoclopramide: predicted new indication Gastric ulcer (evidence level L5). Approved use: Gastro-oesophageal reflux disease, oesophagitis, peptic oesophagitis"
 monitor_inn: "Metoclopramide"
-predicted_indications: ["gastroduodenitis", "peptic ulcer perforation", "duodenal obstruction", "achlorhydria", "hiatus hernia (disease)", "Dieulafoy lesion", "pylorospasm"]
+predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
+description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metoclopramide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Metoclopramide: From Gastro-oesophageal Reflux Disease to Gastric Ulcer
+## Metoclopramide: Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be useful for **gastric ulcer**, but the support
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastro-oesophageal reflux disease, oesophagitis, peptic oesophagitis (from the TxGNN knowledge graph; the Australian licence entry has no indication text) |
-| Predicted New Indication | Gastric ulcer |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L3 (reviews and physiology studies; no completed Phase 3 RCT for this indication) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroduodenitis |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 (reviews and physiology studies; no completed Phase 3 RCT for this indication) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -108,7 +108,7 @@ Many of the moderate interactions involve additive central nervous system depres
 **Decision: Hold**
 
 **Rationale:**
-Metoclopramide has no acid-suppressive or cytoprotective action, the only registered trial tests a procedural use rather than ulcer healing, and the literature is largely generic and dated. The high TxGNN score appears to reflect overlap with the existing GORD indication. Several knowledge-graph contraindications, including active peptic ulcer disease, also conflict with the proposed use.
+Metoclopramide has no acid-suppressive or cytoprotective action, the only registered trial tests a procedural use rather than ulcer healing, and the literature is largely generic and dated. The high TxGNN score appears to reflect overlap with the existing GORD indication. Several knowledge-graph contraindications also conflict with the proposed use.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and TGA Product Information warnings and contraindications (currently missing)

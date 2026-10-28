@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Epoprostenol
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 261
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Epoprostenol: predicted new indication Trigeminal autonomic cephalalgia (evidence level L5). Approved use: Pulmonary arterial hypertension"
-monitor_inn: "Epoprostenol"
-predicted_indications: ["trigeminal autonomic cephalalgia", "headache disorder", "migraine with brainstem aura", "papillary conjunctivitis", "nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria", "migraine disorder", "respiratory failure", "obsolete rare pulmonary disease"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Epoprostenol: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Epoprostenol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,60 +32,52 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Epoprostenol: From Pulmonary Arterial Hypertension to Trigeminal Autonomic Cephalalgia
+<!-- known-uses-page -->
+<!-- description: Epoprostenol: known uses and market status in Australia; currently no new candidate indication -->
+## Epoprostenol: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Epoprostenol, so there is currently no new predicted indication. The drug's recorded uses are listed below. They are the drug's own recorded uses, not model candidates.
 
-Epoprostenol is a synthetic form of prostacyclin (PGI2), originally used to treat pulmonary arterial hypertension.
-The TxGNN model predicts it may be effective for **trigeminal autonomic cephalalgia**, but there are currently **0 clinical trials** and **0 publications** directly supporting this prediction.
-Related evidence in headache and migraine suggests epoprostenol may trigger headache rather than relieve it.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary arterial hypertension (from the TxGNN knowledge graph; the ARTG entry did not include indication text) |
-| Predicted New Indication | Trigeminal autonomic cephalalgia |
-| TxGNN Prediction Score | 98.41% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 8 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, epoprostenol is a prostacyclin, a potent vasodilator and inhibitor of platelet aggregation. Its efficacy in pulmonary arterial hypertension is established.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The knowledge graph also lists several upper airway conditions (such as rhinitis, pharyngitis and the common cold) as original indications. These look questionable for this drug, so the prediction may partly reflect graph proximity rather than real pharmacology.
-
-Vasodilatory and neurovascular mechanisms are implicated in trigeminal autonomic cephalalgias, which gives the prediction some biological plausibility. However, the direction of the effect is a concern. A human provocation study in migraine patients ([PMID 19614689](https://pubmed.ncbi.nlm.nih.gov/19614689/)) found that intravenous epoprostenol triggered migraine-like attacks. This suggests PGI2 activates headache pathways, so a therapeutic benefit is doubtful and harm is possible. That study concerned migraine, not trigeminal autonomic cephalalgia, so it is indirect evidence only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for this specific indication.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| allergic rhinitis |
+| common cold |
+| nasopharyngitis |
+| pharyngitis |
+| pulmonary arterial hypertension |
+| pulmonary hypertension |
+| rhinitis |
+| vasomotor rhinitis |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10111E | Veletri | Powder for I.V. infusion 500 micrograms (as sodium) | Not stated in the data compiled for this report |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 10111E | Veletri | Powder for I.V. infusion 500 micrograms  | Valid |
 
 ## Safety Considerations
 
@@ -107,20 +98,6 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-- The prediction rests on a model score alone (L5), with no trials or publications. The only related human data point to epoprostenol provoking headache, the opposite of a therapeutic effect.
-
-**To proceed, the following is needed:**
-- Direct preclinical or clinical evidence of benefit in trigeminal autonomic cephalalgia
-- Mechanism of action data and a clear rationale for why a PGI2 agonist would help rather than provoke headache
-- Review of the TGA PI for warnings, contraindications and approved indications
-- A route and setting assessment, since the only Australian product is an intravenous infusion
-
-**Note on other predictions:** Among the other predicted indications, **respiratory failure** (inhaled epoprostenol) has the most supporting evidence (L3). This includes one small completed Phase 4 trial ([NCT01717209](https://clinicaltrials.gov/study/NCT01717209), n=14), observational studies and reviews. It is better treated as a separate research question, and it would need controlled trials first.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

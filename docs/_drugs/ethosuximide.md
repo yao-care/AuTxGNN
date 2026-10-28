@@ -4,17 +4,17 @@ title: Ethosuximide
 parent: Model Prediction Only (L5)
 nav_order: 275
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Ethosuximide: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Absence epilepsy"
 monitor_inn: "Ethosuximide"
-predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "nephrogenic diabetes insipidus", "insomnia (disease)", "diabetes insipidus, nephrogenic, X-linked", "Lafora disease", "renal tubule disease", "Senior-Boichis syndrome", "psychomotor regression-oculomotor apraxia-movement disorder-nephropathy syndrome"]
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Ethosuximide: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ethosuximide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ethosuximide: From Absence Epilepsy to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Ethosuximide: Nephrogenic syndrome of inappropriate antidiuresis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,22 +45,21 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 
 | Item | Content |
 |------|------|
-| Original Indication | Absence epilepsy (the ARTG entry in the data compiled for this report has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Ethosuximide is generally understood to be a T-type calcium channel blocker that acts on thalamic neurons, and this underlies its efficacy in absence epilepsy.
 
-NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2), which leads to water retention and low blood sodium. No known pathway connects T-type calcium channel blockade to this receptor or to renal water handling. The prediction therefore rests on the knowledge-graph score alone and is not supported by a plausible mechanistic link.
+NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2), which leads to water retention and low blood sodium. No known pathway connects T-type calcium channel blockade to this receptor or to renal water handling. The prediction therefore rests on the TxGNN model (deep learning) score alone and is not supported by a plausible mechanistic link.
 
 Other top-ranked predictions show a similar pattern:
-- **Nephrogenic diabetes insipidus** (score 99.0%) and **X-linked nephrogenic diabetes insipidus** (95.3%): no trials or literature and no plausible mechanism. Anti-epileptic drugs are more often reported to cause renal tubular effects than to treat them.
 - **Insomnia** (97.8%): a weak rationale exists, as thalamic T-type channels are involved in sleep spindles. However, there is no clinical evidence, and ethosuximide is not an established hypnotic.
 - **Familial mesial temporal lobe epilepsy with febrile seizures** (97.1%): biologically plausible as an epilepsy, but ethosuximide is generally not effective for focal or temporal lobe seizures.
 - **Childhood absence epilepsy susceptibility** (95.7%): this matches the drug's original indication, so it is not a true repurposing case.
@@ -82,7 +81,7 @@ For context, the literature retrieved for other predicted indications is limited
 | [17947380](https://pubmed.ncbi.nlm.nih.gov/17947380/) | 2007 | Preclinical | PNAS | Mouse model of familial childhood absence epilepsy; spike-wave discharges were blocked by ethosuximide |
 | [40339636](https://pubmed.ncbi.nlm.nih.gov/40339636/) | 2025 | Preclinical | Progress in Neurobiology | Thalamocortical neuron control of absence seizures in GAERS rats, with ethosuximide-sensitive seizures |
 
-For **renal tubule disease**, the only paper retrieved ([7843203](https://pubmed.ncbi.nlm.nih.gov/7843203/), 1994, European Journal of Pediatrics) reports renal tubular dysfunction following anti-epileptic drug treatment. This is a safety signal, not evidence of benefit.
+This is a safety signal, not evidence of benefit.
 
 ## Australia Market Information
 

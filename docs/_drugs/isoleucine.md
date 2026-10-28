@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **gastroparesis**, but there ar
 |------|------|
 | Original Indication | Not stated in the registration data; the product names (MSUD amino5, MSUD Easy Tablet, MSUD Anamix Junior, MSUD Explore5) suggest use in MSUD dietary management |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.32% |
+| TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 5 |
+| Australia Market Status | Marketed (valid licences: 5 of 5) |
+| Number of ARTG Entries | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Gastroparesis involves delayed gastric emptying caused by impaired motility (for example, diabetic or idiopathic causes). The data compiled for this report do not establish a pathway from isoleucine to this condition. One speculative route is through nutrient and amino acid sensing that may influence gastric emptying, but nothing in the data supports it.
 
-The high TxGNN score (99.32%) is a computational prediction only. It should be treated as a hypothesis for investigation, not as evidence of efficacy.
+The high TxGNN score (0.9932) is a computational prediction only. It should be treated as a hypothesis for investigation, not as evidence of efficacy.
 
 ## Clinical Trial Evidence
 

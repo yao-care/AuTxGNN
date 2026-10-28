@@ -4,17 +4,17 @@ title: Tolvaptan
 parent: Model Prediction Only (L5)
 nav_order: 737
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Tolvaptan: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). Approved use: Inappropriate ADH syndrome"
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
+description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tolvaptan: From Inappropriate ADH Syndrome to Polycystic Kidney Disease 3 (With or Without Polycystic Liver Disease)
+## Tolvaptan: Renal-hepatic-pancreatic dysplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tolvaptan is a selective vasopressin V2 receptor antagonist, originally used for syndrome of inappropriate antidiuretic hormone secretion (SIADH), nephrogenic syndrome of inappropriate antidiuresis and polycystic kidney disease.
-The TxGNN model predicts it may be effective for **polycystic kidney disease 3 with or without polycystic liver disease**, supported by **20 publications** (including 2 pivotal RCTs and a Cochrane systematic review) but **no registered clinical trials** in the data compiled for this report.
+The TxGNN model predicts it may be effective for **renal-hepatic-pancreatic dysplasia**, supported by **20 publications** (including 2 pivotal RCTs and a Cochrane systematic review) but **no registered clinical trials** in the data compiled for this report.
 This prediction is best seen as a subtype-level extension of an already established indication (ADPKD), not a new repurposing opportunity.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Inappropriate ADH syndrome; nephrogenic syndrome of inappropriate antidiuresis; polycystic kidney disease (from the knowledge graph; the ARTG entry has no indication text on record) |
-| Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 (as assigned in the data compiled; see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Renal-hepatic-pancreatic dysplasia |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 (as assigned in the data compiled; see note below) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* L1 normally requires at least two completed Phase 3 RCTs. The two pivotal tolvaptan RCTs (TEMPO 3:4 and REPRISE) were conducted in ADPKD generally, not specifically in this subtype, and no trial records were available in the data compiled. The level therefore applies to ADPKD, not to the predicted subtype specifically.
@@ -114,7 +114,7 @@ The mechanism is well established and pivotal RCTs support tolvaptan in ADPKD, s
 - Patient selection criteria (rapidly progressing disease) and a liver safety monitoring plan
 - Review of the major clarithromycin interaction and other CYP3A-related interactions in prescribing guidance
 
-Other predictions in the list (ranks 2 to 10) are mostly graph-based with no clinical support. They should remain on Hold, with Joubert syndrome with renal defect flagged only as a research question requiring preclinical evaluation, since a urinary concentrating defect in nephronophthisis may make V2 antagonism unsuitable.
+Other predictions in the list (ranks 2 to 10) are mostly scores from the TxGNN model (deep learning) with no clinical support; these scores may reflect similarities the model learned between related diseases, not biological evidence. They should remain on Hold, with Joubert syndrome with renal defect flagged only as a research question requiring preclinical evaluation, since a urinary concentrating defect in nephronophthisis may make V2 antagonism unsuitable.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

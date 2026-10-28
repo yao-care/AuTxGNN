@@ -4,17 +4,17 @@ title: Tramadol
 parent: Model Prediction Only (L5)
 nav_order: 743
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Osteoarthritis, arthropathy"
 monitor_inn: "Tramadol"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tramadol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tramadol: From Osteoarthritis to Acromesomelic Dysplasia (Hunter-Thompson Type)
+## Tramadol: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Osteoarthritis, arthropathy (from the knowledge graph; no approved indication text is available for the Australian entry) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, tramadol is a centrally acting analgesic with mu-opioid agonist and monoamine reuptake inhibition activity, and it is used for pain in joint conditions such as osteoarthritis.
 
-Acromesomelic dysplasia, Hunter-Thompson type, is a rare genetic skeletal dysplasia caused by loss-of-function variants in the CDMP1/GDF5 gene, affecting limb growth. Tramadol does not act on the GDF5/BMP pathway, so there is no credible mechanistic link. The high TxGNN score most likely reflects network proximity to skeletal and joint disorders in the knowledge graph rather than a pharmacological rationale. At most, tramadol could offer symptomatic analgesia, which is not a disease-modifying indication.
+Acromesomelic dysplasia, Hunter-Thompson type, is a rare genetic skeletal dysplasia caused by loss-of-function variants in the CDMP1/GDF5 gene, affecting limb growth. Tramadol does not act on the GDF5/BMP pathway, so there is no credible mechanistic link. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At most, tramadol could offer symptomatic analgesia, which is not a disease-modifying indication.
 
 Other top-ranked predictions show the same pattern. They include brachyolmia, myosclerosis, pseudoachondroplasia, spondyloarthropathy and several forms of juvenile arthritis. Only pseudoachondroplasia, which is associated with early-onset osteoarthritis, and the arthritis-related conditions have a weak, indirect symptomatic connection through joint pain management.
 

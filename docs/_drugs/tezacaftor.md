@@ -48,10 +48,10 @@ but there are currently **no clinical trials** and **no publications** supportin
 |------|------|
 | Original Indication | Cystic fibrosis |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.24% |
+| TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 3 |
+| Australia Market Status | Marketed (valid licences: 3 of 3) |
+| Number of ARTG Entries | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,8 +61,8 @@ Currently, detailed mechanism of action data is not available in the data compil
 No mechanistic link to HIV has been established in the data compiled for this report. The TxGNN score is a network-based computational prediction only. Any hypothesis, for example CFTR-related effects on epithelial or immune function, would be speculative and is not supported by trials or literature.
 
 For context, two other predictions were also generated, both with no supporting evidence and a Hold recommendation:
-- **Leprosy** (score 99.14%): no trials, no literature, and no evidenced link between CFTR correction and *Mycobacterium leprae* infection or host response.
-- **Multiple endocrine neoplasia** (score 99.06%): these syndromes are driven by germline mutations (such as MEN1 and RET) with no known connection to CFTR folding or trafficking.
+- **Leprosy** (score 0.9914): no trials, no literature, and no evidenced link between CFTR correction and *Mycobacterium leprae* infection or host response.
+- **Multiple endocrine neoplasia** (score 0.9906): these syndromes are driven by germline mutations (such as MEN1 and RET) with no known connection to CFTR folding or trafficking.
 
 ## Clinical Trial Evidence
 

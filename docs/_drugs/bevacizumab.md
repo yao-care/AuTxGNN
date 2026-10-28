@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 91
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Bevacizumab: predicted new indication Epiglottis neoplasm (evidence level L5). Approved use: Not stated in the Australian registration data. The drug knowledge gr…"
 monitor_inn: "Bevacizumab"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
+last_modified_at: 2026-10-27
+description: "Bevacizumab: predicted new indication Epiglottis neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Bevacizumab
@@ -33,49 +33,44 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Bevacizumab: From Ovarian, Breast and Colorectal Cancer to Epiglottis Neoplasm
+## Bevacizumab: anti-VEGF-A monoclonal antibody → epiglottis neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Bevacizumab is an anti-VEGF monoclonal antibody, originally used for cancers such as ovarian, peritoneal, breast, colorectal and glioblastoma.
-The TxGNN model predicts it may be effective for **epiglottis neoplasm**, but **no clinical trials and no publications** were found for this specific indication, so the prediction rests on the model score alone.
+Bevacizumab is a monoclonal antibody that neutralises VEGF-A and is listed in Australia as a marketed product. The TxGNN model predicts it may be useful for **epiglottis neoplasm**, but no clinical trials or publications were found for this disease, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Australian registration data. The drug knowledge graph lists peritoneal, ovarian, breast, colon (metastatic) and glioblastoma-related cancers |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Epiglottis neoplasm |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Bevacizumab is generally known as a monoclonal antibody that neutralises VEGF-A, a key driver of tumour angiogenesis. Its efficacy in several vascular, angiogenesis-dependent cancers is established.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on what is generally known, bevacizumab binds and neutralises VEGF-A, which can limit the growth of new blood vessels that tumours depend on.
 
-Epiglottis neoplasms are head and neck tumours. Anti-VEGF therapy may plausibly affect tumour blood supply in such lesions. However, the prediction is based only on the TxGNN graph score (rank 1786 overall). No trials or publications specific to this indication were supplied, so the mechanistic link remains a hypothesis.
+Because many head and neck tumours rely on angiogenesis, there is a plausible biological reason to consider an anti-VEGF agent for a tumour of the epiglottis. This link is theoretical only. No trials or publications were retrieved for epiglottis neoplasm, so the prediction cannot be considered supported by clinical data.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for epiglottis neoplasm.
-
-For context, other predicted indications for bevacizumab have indirect head and neck trials (for example NCT00023959, a Phase 1 study in poor-prognosis head and neck cancer), but these were not linked to epiglottis neoplasm.
+Currently no related clinical trials registered for this disease.
 
 ## Literature Evidence
 
-Currently no related literature available for epiglottis neoplasm.
+Currently no related literature available for this disease.
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Licence 12479T | Mvasi | Solution for I.V. infusion, 100 mg in 4 mL | Not available in the data compiled |
-
-The approved indication text for this product was not available, and the licence number format should be verified against the ARTG record.
+| ARTG 12479T | Mvasi | Solution for I.V. infusion 100 mg in 4 mL | Not recorded in the local data |
 
 ## Cytotoxicity
 
@@ -84,37 +79,35 @@ The approved indication text for this product was not available, and the licence
 | Cytotoxicity Classification | Targeted therapy (anti-VEGF monoclonal antibody) |
 | Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | Please refer to the PI. Typical monitoring would include blood pressure, urinary protein, and full blood count |
-| Handling Protection | Please refer to the PI and local institutional policy for handling of antineoplastic agents |
+| Monitoring Items | Please refer to the Product Information (PI) warnings and precautions |
+| Handling Protection | Please refer to the Product Information (PI) warnings and precautions |
 
 ## Safety Considerations
 
-Label warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for these.
+Label warnings and contraindications are not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for these.
 
-**Drug Interactions**: 22 interactions were recorded in the DDI database (ddinter). Major-level interactions include:
+**Drug Interactions:** 22 interactions were recorded in the data compiled for this report. Major-level interactions include:
 - Deferiprone
 - Samarium (153Sm) lexidronam
 - Panitumumab
 - Sunitinib
 - Thalidomide
 
-Moderate-level interactions include bisphosphonates (alendronic acid, risedronic acid, etidronic acid, ibandronate, pamidronic acid, tiludronic acid), colony-stimulating factors (filgrastim, pegfilgrastim, sargramostim), palifermin, strontium-89, idelalisib, radium-223, romosozumab and sodium phosphate P-32.
+Moderate-level interactions include bisphosphonates (alendronic, risedronic, etidronic, pamidronic and tiludronic acids, ibandronate), colony-stimulating factors (filgrastim, pegfilgrastim, sargramostim), palifermin, idelalisib, strontium chloride Sr-89, radium Ra 223 dichloride, romosozumab and sodium phosphate (P32).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for epiglottis neoplasm is supported only by the TxGNN model score (Evidence Level L5). No trials or publications address this indication, and the safety data from the Australian label are missing.
+The prediction for epiglottis neoplasm has no supporting trials or publications, so the evidence level is L5 (model prediction only). The mechanistic argument is generic and does not justify moving forward on its own.
 
 **To proceed, the following is needed:**
-- Indication-specific evidence (clinical trials or published studies in epiglottis or laryngeal neoplasms)
-- Detailed mechanism of action data
-- Approved indication text and safety information (warnings and contraindications) from the TGA Product Information for Mvasi
-- A safety review of the major drug interactions listed above, particularly with other anticancer agents
-- Assessment of whether the lesion type (benign or malignant) is clinically relevant to the proposed use
-
-**Other candidates noted in the data:** Among the other predictions, "cystic neoplasm" has the strongest support (Evidence Level L1, including a Phase 3 RCT, NCT00565851, and a systematic review). However, that evidence largely reflects existing approved use in ovarian cancer rather than true repurposing.
+- A targeted literature and trial search for bevacizumab in laryngeal, supraglottic and wider head and neck tumours
+- Mechanism of action data
+- Label warnings and contraindications from the TGA Product Information
+- Clarification of the approved indication for the Australian product
+- Assessment of the risk-benefit balance in this rare tumour site
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -15,14 +15,6 @@
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "steel-syndrome",
-          "display": "Steel syndrome"
-        }
-      ],
-      "text": "Steel syndrome",
       "concept": {
         "text": "Steel syndrome"
       }
@@ -36,6 +28,10 @@
     {
       "url": "https://autxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9972
     }
   ]
 }

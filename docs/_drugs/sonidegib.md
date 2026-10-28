@@ -4,17 +4,17 @@ title: Sonidegib
 parent: Model Prediction Only (L5)
 nav_order: 684
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Sonidegib: predicted new indication Skin cancer (evidence level L5). Approved use: Basal cell carcinoma and related skin carcinomas"
 monitor_inn: "Sonidegib"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "trichothiodystrophy photosensitive", "cutaneous adenocystic carcinoma", "benign neoplasm of sweat gland", "eccrine carcinoma", "obsolete cataract, microcephaly, failure to thrive, kyphoscoliosis syndrome"]
+description: "Sonidegib: predicted new indication Medulloblastoma with extensive nodularity (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sonidegib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sonidegib: From Basal Cell Carcinoma to Skin Cancer
+## Sonidegib: Medulloblastoma with extensive nodularity
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Sonidegib is an oral Hedgehog pathway inhibitor, originally used to treat basal cell carcinoma and related skin cancers.
-The TxGNN model predicts it may be effective for **skin cancer** (broadly), with **6 clinical trials** and **20 publications** currently supporting this direction.
+The TxGNN model predicts it may be effective for **medulloblastoma with extensive nodularity**, with **6 clinical trials** and **20 publications** currently supporting this direction.
 Most of this evidence relates to basal cell carcinoma (BCC), which overlaps with the approved use, so this is a narrow extension rather than a true repurposing.
 
 ---
@@ -48,12 +48,12 @@ Most of this evidence relates to basal cell carcinoma (BCC), which overlaps with
 
 | Item | Content |
 |------|------|
-| Original Indication | Basal cell carcinoma and related skin carcinomas (the ARTG entry carries no indication text; the original indications come from the TxGNN knowledge graph) |
-| Predicted New Indication | Skin cancer |
-| TxGNN Prediction Score | 99.76% |
-| Evidence Level | L2 by the strict trial-phase definition (one completed randomised Phase 2 trial, no Phase 3 RCT). The data compiled for this report labels it L1 only if regulatory approval is treated as confirmatory evidence |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Medulloblastoma with extensive nodularity |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 by the strict trial-phase definition (one completed randomised Phase 2 trial, no Phase 3 RCT). The data compiled for this report labels it L1 only if regulatory approval is treated as confirmatory evidence |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (restricted to BCC) |
 
 ---
@@ -62,7 +62,6 @@ Most of this evidence relates to basal cell carcinoma (BCC), which overlaps with
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, sonidegib is a Smoothened (SMO) receptor antagonist. It blocks the Hedgehog signalling pathway, which is aberrantly activated in the majority of basal cell carcinomas.
 
-The original indications (BCC and other skin carcinomas) and the predicted "skin cancer" label are closely related. BCC is the most common skin cancer, so the prediction largely restates the existing use. Evidence for non-BCC skin cancers, such as squamous cell carcinoma or melanoma, is not supported by the data compiled here.
 
 Other predictions were also generated. Only two have any supporting evidence:
 - **Xeroderma pigmentosum**: a single 2026 case report of sonidegib for multiple BCCs in an XP patient. The benefit is indirect, through treating BCC rather than the underlying DNA repair defect.

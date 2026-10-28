@@ -4,17 +4,17 @@ title: Amifampridine
 parent: Model Prediction Only (L5)
 nav_order: 41
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Amifampridine: predicted new indication Glaucoma (evidence level L5). Approved use: Lambert-Eaton myasthenic syndrome"
+indication_count: 2
 monitor_inn: "Amifampridine"
-predicted_indications: ["glaucoma", "acute intermittent porphyria", "esophageal varices with bleeding", "esophageal varices without bleeding", "porphyria", "primary immunodeficiency syndrome due to p14 deficiency", "paraneoplastic limbic encephalitis", "paraneoplastic polyneuropathy", "varicose disease", "paraneoplastic cerebellar degeneration"]
+predicted_indications: ["glaucoma", "acute intermittent porphyria"]
+last_modified_at: 2026-10-27
+description: "Amifampridine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Amifampridine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,30 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Amifampridine: From Lambert-Eaton Myasthenic Syndrome to Glaucoma
+## Amifampridine: Voltage-gated potassium channel blocker → Glaucoma (glaucoma)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Amifampridine was originally used to treat Lambert-Eaton myasthenic syndrome (LEMS), a rare neuromuscular disorder.
-The TxGNN model predicts it may be effective for **glaucoma**, but this is a computational prediction only,
-with **0 clinical trials** and **0 publications** currently supporting this direction.
+Amifampridine is a potassium channel blocker that is marketed in Australia as an oral tablet. The TxGNN model predicts it may be useful for **glaucoma** with a score of 0.9971, but there are currently **no clinical trials** and **no publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Lambert-Eaton myasthenic syndrome |
-| Predicted New Indication | Glaucoma |
-| TxGNN Prediction Score | 99.71% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Glaucoma (glaucoma) |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, amifampridine is a voltage-gated potassium channel blocker. It prolongs presynaptic depolarisation and enhances neuromuscular transmission, which is why it is effective in LEMS.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on general pharmacology, amifampridine (3,4-diaminopyridine) blocks voltage-gated potassium channels. This prolongs presynaptic depolarisation and increases acetylcholine release at the neuromuscular junction.
 
-Potassium channel modulation has been discussed in relation to retinal ganglion cell excitability and aqueous humour dynamics. However, no direct link to glaucoma treatment is supported. LEMS (a neuromuscular transmission disorder) and glaucoma (an optic neuropathy, usually linked to intraocular pressure) are biologically distant conditions.
-
-The high TxGNN score reflects a graph-based computational signal only. No clinical or literature evidence was supplied to support it, so this prediction should be treated as a hypothesis rather than a finding.
+A theoretical link to glaucoma could involve potassium channel modulation in retinal ganglion cells or the trabecular meshwork, or a neuroprotective effect. However, potassium channel blockade can also raise neuronal excitability, and there is no established benefit in optic neuropathy. The high TxGNN score is a computational output only. No mechanism-specific data were supplied to support it, so the relevance remains speculative.
 
 ## Clinical Trial Evidence
 
@@ -74,38 +70,31 @@ Currently no related literature available.
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 13032X | Ruzurgi | Tablet 10 mg | Not stated in the data compiled for this report |
+| ARTG 13032X | Ruzurgi | Tablet 10 mg | Not recorded in the local data |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for warnings and contraindications. Label-based warnings and contraindications were not available in the data compiled for this report.
+**Drug Interactions:** The interaction screening returned 68 recorded interactions. Examples include:
 
-- **Drug Interactions**: 68 potential interactions were identified in total. The first 20 returned include:
-  - **Major**: Bupropion
-  - **Moderate**: corticosteroids (hydrocortisone, betamethasone, dexamethasone, prednisolone, prednisone); sympathomimetics and anorectics (ephedrine, phentermine, diethylpropion, mazindol, sibutramine, fenfluramine, dexfenfluramine); levofloxacin; metoclopramide; opioids (morphine, liposomal morphine, opium); dronabinol; polyethylene glycol 3350 with electrolytes.
-- **Seizure risk**: Amifampridine is noted to lower the seizure threshold. Several of the interacting agents above (such as bupropion and levofloxacin) may also lower it, so combined use warrants particular care.
+- **Major:** bupropion
+- **Moderate:** corticosteroids (hydrocortisone, betamethasone, dexamethasone, prednisolone, prednisone), levofloxacin, metoclopramide, opioids (morphine, opium), ephedrine, and anorectic or stimulant agents (phentermine, fenfluramine, dexfenfluramine, diethylpropion, mazindol, sibutramine), dronabinol, and polyethylene glycol with electrolytes
+
+General pharmacology also suggests that amifampridine lowers the seizure threshold, so co-administration with agents that do the same needs particular care.
+
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a model score. There are no registered trials or publications, and no plausible mechanistic link between potassium channel blockade and glaucoma has been established. Safety data from the product label were also unavailable.
+The glaucoma prediction has no supporting clinical trials or publications and no mechanism-specific data, so evidence is limited to model output (L5). The possible link to potassium channel modulation is speculative, and a potassium channel blocker may raise neuronal excitability.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (for example, from DrugBank) and an assessment of any plausible link to intraocular pressure or retinal ganglion cell protection
-- Preclinical studies (for example, in models of ocular hypertension or optic nerve injury) to establish biological plausibility
-- Retrieval and review of the TGA-approved Product Information for warnings and contraindications
-- Evaluation of route compatibility, since an oral tablet is the only formulation identified and glaucoma therapy is usually topical
-- A safety assessment of seizure risk and the major interaction with bupropion in the target population
-
-**Other predicted indications (for reference):**
-All other predictions are also at evidence level L5, with no trials or literature. Three neurological predictions are classed as research questions, with indirect plausibility through the shared paraneoplastic context of LEMS (any benefit would be symptomatic only):
-- Paraneoplastic limbic encephalitis
-- Paraneoplastic polyneuropathy
-- Paraneoplastic cerebellar degeneration
-
-The remaining predictions have no identifiable mechanistic link and remain on Hold: acute intermittent porphyria, porphyria, oesophageal varices (with and without bleeding), primary immunodeficiency due to p14 deficiency, and varicose disease.
+- Mechanism of action data for amifampridine
+- Preclinical evidence of a benefit in glaucoma models (for example, retinal ganglion cell protection or intraocular pressure effects)
+- Warnings and contraindications from the TGA-approved PI, with a seizure-risk assessment
+- An assessment of ocular route feasibility, since only an oral tablet is currently registered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

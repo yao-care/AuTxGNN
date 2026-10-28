@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Esomeprazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 269
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Esomeprazole: predicted new indication Duodenogastric reflux (evidence level L4). Approved use: Peptic ulcer disease, GORD, reflux oesophagitis…"
 monitor_inn: "Esomeprazole"
-predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "Smouldering systemic mastocytosis", "multiple endocrine neoplasia", "acne (disease)"]
+predicted_indications: ["duodenal obstruction"]
+description: "Esomeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Esomeprazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Esomeprazole: From Peptic Ulcer Disease to Duodenogastric Reflux
+## Esomeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Esomeprazole is a proton pump inhibitor (PPI) originally used for peptic ulcer disease, gastro-oesophageal reflux disease (GORD), reflux oesophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **Duodenogastric Reflux**, but the supporting evidence is thin: **no clinical trials** and **1 publication** (a general PPI review) are currently available for this indication.
+The TxGNN model predicts it may be effective for **Duodenal Obstruction**, but the supporting evidence is thin: **no clinical trials** and **1 publication** (a general PPI review) are currently available for this indication.
 
 Note: the strongest evidence in the data compiled for this report relates to **duodenal ulcer** (rank 3) and **active peptic ulcer disease** (rank 4). These fall within or very close to the existing labelled use. They are discussed in the conclusion as the better-supported findings.
 
@@ -49,12 +49,12 @@ Note: the strongest evidence in the data compiled for this report relates to **d
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, GORD, reflux oesophagitis, Zollinger-Ellison syndrome (the Australian ARTG entries carry no indication text) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9945 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -108,7 +108,7 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 **Decision: Hold**
 
 **Rationale:**
-For duodenogastric reflux, there are no trials and only one indirect review. Esomeprazole does not treat bile reflux itself, so the prediction rests on a model score and a plausible acid-related symptom benefit.
+For duodenal obstruction, there are no trials and only one indirect review. Esomeprazole does not treat bile reflux itself, so the prediction rests on a model score and a plausible acid-related symptom benefit.
 
 **Better-supported findings from the same analysis (for context):**
 - **Duodenal ulcer (L1, Proceed with Guardrails):** multiple completed Phase 3 RCTs (for example NCT00633932, NCT00633672, NCT00542789, NCT01069939, NCT01142245) and RCTs of esomeprazole-based triple therapy (PMIDs 11742194, 11121908). This is effectively on-label or a close extension of the labelled use.

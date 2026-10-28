@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Duloxetine
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 234
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Duloxetine: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Unipolar and major depressive disorder, anxiety disorder…"
 monitor_inn: "Duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
+description: "Duloxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Duloxetine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Duloxetine: From Depression and Anxiety to Obsessive-Compulsive Disorder
+## Duloxetine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,18 +49,18 @@ This report covers OCD as the lead evidence-supported candidate. The other nine 
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar and major depressive disorder, anxiety disorder, fibromyalgia, myofascial pain syndrome, female stress incontinence (the data compiled for this report does not include the approved indication text for the Australian product) |
-| Predicted New Indication | Obsessive-compulsive disorder (rank 3 of the top 10 predictions; selected as the best-supported candidate) |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Benign paroxysmal torticollis of infancy |
+| TxGNN Prediction Score | 0.9985 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (research use only) |
 
 **Note on the other predictions:**
-- The top-ranked prediction, benign paroxysmal torticollis of infancy (score 99.85%), has no clinical trials or literature (L5, Hold). It is a rare infantile disorder with no plausible link to duloxetine, and duloxetine is not appropriate for routine use in infants.
+- The top-ranked prediction, benign paroxysmal torticollis of infancy (score 0.9985), has no clinical trials or literature (L5, Hold). It is a rare infantile disorder with no plausible link to duloxetine, and duloxetine is not appropriate for routine use in infants.
 - Agoraphobia (99.84%, L3) has only open-label and case-level evidence in panic disorder, not agoraphobia itself. It is a research question.
-- Schizotypal, paranoid, schizoid and histrionic personality disorders, Ohdo syndrome and variants, ligneous conjunctivitis, and Ohdo-type blepharophimosis-intellectual disability syndrome all have no trials or literature (L5, Hold). Their scores reflect graph-based prediction only.
+- Schizotypal, paranoid, schizoid and histrionic personality disorders, Ohdo syndrome and variants, ligneous conjunctivitis, and Ohdo-type blepharophimosis-intellectual disability syndrome all have no trials or literature (L5, Hold). Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

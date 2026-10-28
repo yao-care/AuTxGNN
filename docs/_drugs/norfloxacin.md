@@ -6,9 +6,9 @@ nav_order: 511
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Norfloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Urinary tract infection, typhoid and paratyphoid fever, salmonellosis…"
 monitor_inn: "Norfloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+description: "Norfloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Norfloxacin
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Norfloxacin: From Bacterial Infections to Hyperamylasemia
+## Norfloxacin: Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Norfloxacin is a fluoroquinolone antibiotic originally used for urinary tract infections and other bacterial infections, including gastrointestinal infections such as dysentery and diarrhoeal disease.
 The TxGNN model predicts it may be effective for **hyperamylasemia** with a very high score, but **no clinical trials and no publications** support this prediction.
-It is a model-generated signal only and should be treated as a likely graph artefact.
+It is a model-generated signal only: the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -48,12 +48,12 @@ It is a model-generated signal only and should be treated as a likely graph arte
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection, typhoid and paratyphoid fever, salmonellosis, dysentery, diarrhoeal disease, bronchitis, bacterial pneumonia and other bacterial infections (the ARTG entry in the data compiled for this report carries no indication text; these indications come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.70% |
+| TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ It is a model-generated signal only and should be treated as a likely graph arte
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, norfloxacin is a fluoroquinolone antibacterial that inhibits bacterial DNA gyrase and topoisomerase IV. Its efficacy in urinary tract and gastrointestinal bacterial infections is established.
 
-Hyperamylasemia is a laboratory finding with varied causes (pancreatic, salivary and renal). No antibacterial mechanism plausibly treats it, and no link to norfloxacin's original indications could be identified. The high TxGNN score appears to be a graph-based prediction artefact rather than a biologically meaningful signal.
+Hyperamylasemia is a laboratory finding with varied causes (pancreatic, salivary and renal). No antibacterial mechanism plausibly treats it, and no link to norfloxacin's original indications could be identified. The high TxGNN score (0.9970) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 For context, the other predicted indications reviewed were also weak. Most had no supporting data at all. The only biologically plausible candidate was **septicaemic plague** (rank 10), where *Yersinia pestis* is susceptible to fluoroquinolones. However, support is limited to animal and in vitro studies, and better-established agents exist.
 

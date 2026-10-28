@@ -4,17 +4,17 @@ title: Galcanezumab
 parent: Model Prediction Only (L5)
 nav_order: 327
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Galcanezumab: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Migraine (prevention). No approved indication text is held in the Aus…"
 monitor_inn: "Galcanezumab"
-predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "atrophoderma vermiculata", "ulerythema ophryogenesis", "hemorrhagic disease of newborn", "prekallikrein deficiency", "thrombotic disorder due to a platelet anomaly"]
+predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Galcanezumab: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Galcanezumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Galcanezumab: From Migraine to Migraine with Brainstem Aura
+## Galcanezumab: Heparin cofactor 2 deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,15 +48,15 @@ with **no registered clinical trials** specific to this subtype but **20 publica
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine (prevention). No approved indication text is held in the Australian register data compiled for this report; the original indication is taken from the drug knowledge graph |
-| Predicted New Indication | Migraine with brainstem aura (the top-ranked prediction, heparin cofactor 2 deficiency, has no plausible mechanistic link and is not recommended; see note below) |
-| TxGNN Prediction Score | 98.33% |
-| Evidence Level | L1 (based on Phase 3 RCTs in broader migraine; subtype-specific evidence is limited) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Heparin cofactor 2 deficiency |
+| TxGNN Prediction Score | 0.9950 |
+| Evidence Level | L5 (based on Phase 3 RCTs in broader migraine; subtype-specific evidence is limited) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
-**Note on other predictions:** The model ranked several coagulation-related conditions highest by score (heparin cofactor 2 deficiency 99.50%, antithrombin deficiency type 2 99.41%, factor 5 excess with spontaneous thrombosis 99.41%, thrombophilia 98.99%). None has any supporting trial or publication, and none has a plausible link to CGRP blockade. These are likely graph-based artefacts and are rated **Hold**. The remaining predictions (atrophoderma vermiculata, ulerythema ophryogenesis, haemorrhagic disease of the newborn, prekallikrein deficiency, thrombotic disorder due to a platelet anomaly) are likewise unsupported and rated **Hold**. This report focuses on migraine with brainstem aura, the only prediction with supporting evidence.
+**Note on other predictions:** The model ranked several coagulation-related conditions highest by score (heparin cofactor 2 deficiency 0.9950, antithrombin deficiency type 2 0.9941, factor 5 excess with spontaneous thrombosis 0.9941). None has any supporting trial or publication, and none has a plausible link to CGRP blockade. These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They are rated **Hold**.
 
 ---
 

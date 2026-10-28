@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Eltrombopag
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 245
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L5). Approved use: Autoimmune thrombocytopenia"
 monitor_inn: "Eltrombopag"
-predicted_indications: ["HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "female breast carcinoma", "obsolete familial combined hyperlipidemia", "homozygous familial hypercholesterolemia", "AIDS", "rheumatoid arthritis", "cholecystolithiasis"]
+predicted_indications: ["HIV infectious disease"]
+description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Eltrombopag
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Eltrombopag: From Autoimmune Thrombocytopenia to HIV Infection
+## Eltrombopag: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The likely benefit is supportive, correcting HIV-related low platelet counts, an
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune thrombocytopenia (the ARTG indication text is not available in the data compiled for this report) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 as scored, but I would treat this as weaker (see below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on evidence level:** The L1 rating rests on one terminated Phase 3 trial in chronic liver disease. It does not clearly enrol people with HIV, and L1 normally requires at least two completed Phase 3 RCTs. The HIV-specific evidence is really case-level (L3 at best).
@@ -126,7 +126,6 @@ Please refer to the TGA-approved Product Information (PI) for the full warnings 
 - Detailed mechanism of action data
 - Interaction review against antiretroviral regimens, and a hepatic monitoring plan, especially with hepatitis co-infection
 
-**Other predicted indications (for context):** AIDS (same supportive rationale and same trial, so not independent evidence) is also rated Proceed with Guardrails. Breast carcinoma and rheumatoid arthritis are research questions based on preclinical work or case reports of comorbid thrombocytopenia only. The remaining predictions (simian and feline immunodeficiency, familial hyperlipidaemias, cholecystolithiasis and a neurodevelopmental disorder) have no supporting evidence and are on Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

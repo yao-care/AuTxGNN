@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (nitrofurantoin is an antibacterial generally used for UTI) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on general pharmacology, nitrofurantoin is a nitrofuran antibacterial whose metabolites damage bacterial DNA and ribosomal proteins. It has no known anti-inflammatory or immunomodulatory action relevant to rheumatoid arthritis (RA).
 
-The prediction is therefore not mechanistically supported. The high TxGNN score (99.89%) appears to reflect an association in the knowledge graph, not evidence of benefit. The retrieved literature concerns drug-induced pulmonary fibrosis, a methotrexate-nitrofurantoin interaction causing irreversible lung fibrosis in an RA patient, RA-associated interstitial lung disease, and antibiotic exposure as a possible trigger of RA flares. The safety signal points in the opposite direction to a therapeutic effect.
+The prediction is therefore not mechanistically supported. The high TxGNN score (0.9989) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of benefit. The retrieved literature concerns drug-induced pulmonary fibrosis, a methotrexate-nitrofurantoin interaction causing irreversible lung fibrosis in an RA patient, RA-associated interstitial lung disease, and antibiotic exposure as a possible trigger of RA flares. The safety signal points in the opposite direction to a therapeutic effect.
 
 ## Clinical Trial Evidence
 

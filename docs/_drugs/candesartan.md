@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Candesartan
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 127
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Candesartan: predicted new indication Migraine disorder (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Candesartan"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
 ---
 
 # Candesartan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **4 clinical trials** (3 directly relevant) and **20 publications** current
 |------|------|
 | Original Indication | Hypertension (from pharmacology data compiled for this report; the ARTG entry has no indication text recorded) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L1 (with caution: the key trials are Phase 2 or Phase 2/3, not two completed Phase 3 RCTs) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

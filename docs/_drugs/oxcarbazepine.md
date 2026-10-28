@@ -4,17 +4,17 @@ title: Oxcarbazepine
 parent: Moderate Evidence (L3-L4)
 nav_order: 536
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Oxcarbazepine: predicted new indication Visual epilepsy (evidence level L4). Approved use: Partial epilepsy"
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
+description: "Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Oxcarbazepine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Oxcarbazepine: From Partial Epilepsy to Visual Epilepsy
+## Oxcarbazepine: Restless legs syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Oxcarbazepine is an antiseizure medicine originally used to treat partial (focal) epilepsy.
-The TxGNN model predicts it may be effective for **visual epilepsy** (visually triggered reflex seizures), but there are **no registered clinical trials** and the **16 publications** retrieved are mostly general antiseizure medication reviews, so evidence specific to this indication is very limited.
+The TxGNN model predicts it may be effective for **restless legs syndrome**, but there are **no registered clinical trials** and the **16 publications** retrieved are mostly general antiseizure medication reviews, so evidence specific to this indication is very limited.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **visual epilepsy** (visually t
 
 | Item | Content |
 |------|------|
-| Original Indication | Partial epilepsy; partial motor epilepsy (from the TxGNN knowledge graph; no approved indication text is available for the Australian entry) |
-| Predicted New Indication | Visual epilepsy |
-| TxGNN Prediction Score | 99.95% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Restless legs syndrome |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -113,9 +113,7 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 
 | Predicted Indication | Score | Evidence Level | Evidence Summary | Decision |
 |------|------|------|------|------|
-| Restless legs syndrome | 99.89% | L4 | Three case reports and a narrative review (e.g. [PMID 19483488](https://pubmed.ncbi.nlm.nih.gov/19483488/), [PMID 16675374](https://pubmed.ncbi.nlm.nih.gov/16675374/)); no controlled data | Research question |
-| Status epilepticus | 99.87% | L4 | Weak uncontrolled report in refractory cases ([PMID 24295895](https://pubmed.ncbi.nlm.nih.gov/24295895/)); also a safety signal; no suitable acute formulation | Hold |
-| Orgasm-induced, audiogenic, eating, thinking, startle, micturition-induced and reading seizures | 99.84-99.89% | L5 | No indication-specific clinical evidence; literature is general or preclinical | Hold |
+| Restless legs syndrome | 0.9989 | L4 | Three case reports and a narrative review (e.g. [PMID 19483488](https://pubmed.ncbi.nlm.nih.gov/19483488/), [PMID 16675374](https://pubmed.ncbi.nlm.nih.gov/16675374/)); no controlled data | Research question |
 
 ---
 

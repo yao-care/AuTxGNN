@@ -4,17 +4,17 @@ title: Ursodeoxycholic Acid
 parent: Model Prediction Only (L5)
 nav_order: 763
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L5). Approved use: Cholelithiasis, cholecystolithiasis, choledocholithiasis…"
 monitor_inn: "Ursodeoxycholic acid"
-predicted_indications: ["homozygous familial hypercholesterolemia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "pseudo-von Willebrand disease", "primary release disorder of platelets", "primary hyperoxaluria", "diabetic nephropathy", "Glanzmann thrombasthenia", "obsolete familial combined hyperlipidemia", "hypolipoproteinemia (disease)"]
+predicted_indications: ["homozygous familial hypercholesterolemia"]
+description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ursodeoxycholic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ursodeoxycholic Acid: From Cholelithiasis and Primary Biliary Cholangitis to Homozygous Familial Hypercholesterolaemia
+## Ursodeoxycholic Acid: Homozygous familial hypercholesterolemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **homozygous familial hyperchol
 
 | Item | Content |
 |------|------|
-| Original Indication | Cholelithiasis, cholecystolithiasis, choledocholithiasis, primary biliary cholangitis, Reynolds syndrome (the Australian licence entry has no indication text) |
-| Predicted New Indication | Homozygous familial hypercholesterolaemia |
-| TxGNN Prediction Score | 99.86% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Homozygous familial hypercholesterolemia |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,7 +61,6 @@ This gives a loose link between the original indications and a lipid disorder. H
 
 The high TxGNN score reflects a computational association only. The other top-ranked predictions are mostly rare genetic conditions (for example COL4A1-related small vessel disease and platelet disorders) with the same lack of supporting evidence.
 
-For context, the highest-ranked prediction with any published literature is **diabetic nephropathy** (rank 7, score 96.7%, evidence level L4). It is covered in the Literature Evidence section as an alternative lead.
 
 ## Clinical Trial Evidence
 
@@ -71,7 +70,6 @@ Currently no related clinical trials registered for homozygous familial hypercho
 
 Currently no related literature available for homozygous familial hypercholesterolaemia.
 
-**Alternative lead: diabetic nephropathy.** Literature compiled for this lower-ranked prediction:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -106,7 +104,6 @@ The prediction for homozygous familial hypercholesterolaemia rests on a model sc
 - Any clinical or mechanistic evidence of UDCA effects on LDL cholesterol in LDL receptor-deficient patients
 - Detailed mechanism of action data
 - TGA Product Information warnings and contraindications for Ursofalk, and the approved indication text
-- For the diabetic nephropathy lead, review of the 2026 proof-of-concept study (PMID 42857346) to confirm its design and results before considering it a research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Mecasermin
 parent: Model Prediction Only (L5)
 nav_order: 450
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Mecasermin: predicted new indication Monosomy X (evidence level L5). Approved use: Growth hormone insensitivity syndrome"
 monitor_inn: "Mecasermin"
-predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding", "autosomal ichthyosis syndrome with fatal disease course", "Gaucher disease", "varicose disease", "congenital pulmonary lymphangiectasia", "cholesteryl ester storage disease"]
+predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]
+description: "Mecasermin: predicted new indication Monosomy X (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mecasermin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mecasermin: From Growth Hormone Insensitivity Syndrome to Monosomy X
+## Mecasermin: Monosomy X
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,23 +45,22 @@ The TxGNN model predicts it may be effective for **monosomy X (Turner syndrome)*
 
 | Item | Content |
 |------|------|
-| Original Indication | Growth hormone insensitivity syndrome; Laron syndrome (from the TxGNN knowledge graph, as no approved indication text was available for the ARTG entry) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Monosomy X |
-| TxGNN Prediction Score | 99.59% |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, mecasermin is an IGF-1 replacement, its use in growth hormone insensitivity (severe primary IGF-1 deficiency) is established, and mechanistically it may be relevant to other conditions of impaired growth.
 
-Monosomy X (Turner syndrome) is characterised by short stature, and the growth axis is connected to IGF-1 biology. However, Turner syndrome is typically not a state of GH/IGF-1 insensitivity, and it is usually managed with growth hormone. The high score (0.996) is therefore a computational prediction only, and the mechanistic link is weak.
+Monosomy X (Turner syndrome) is characterised by short stature, and the growth axis is connected to IGF-1 biology. However, Turner syndrome is typically not a state of GH/IGF-1 insensitivity, and it is usually managed with growth hormone. The high score (0.9959) is therefore a computational prediction only, and the mechanistic link is weak.
 
 Other conditions in the top 10 predictions have little or no biological rationale:
-- **Growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant** (score 99.06%) is the closest mechanistic match, being a GH-insensitivity subtype (STAT5B-related). It is likely a subtype of the existing indication rather than a true repurposing candidate, and label coverage should be verified manually.
-- Predictions such as Wolman disease, cholesteryl ester storage disease, Gaucher disease, esophageal varices (bleeding and non-bleeding, which appear to be duplicate entries), ichthyosis syndrome, varicose disease and congenital pulmonary lymphangiectasia show no identified mechanistic link and likely reflect network-level associations in the knowledge graph.
+- Predictions such as Wolman disease and esophageal varices (bleeding and non-bleeding, which appear to be duplicate entries) show no identified mechanistic link. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -86,7 +85,7 @@ Currently no related literature available.
 
 Only 20 of the 24 interactions were listed in the data compiled for this report.
 
-Please refer to the TGA-approved Product Information (PI) for warnings and contraindications. Known concerns for mecasermin, noted in the rationale for varicose disease, include hypoglycaemia, intracranial hypertension and tissue proliferation.
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ## Conclusion and Next Steps
 

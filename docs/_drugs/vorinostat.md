@@ -4,17 +4,17 @@ title: Vorinostat
 parent: Model Prediction Only (L5)
 nav_order: 785
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Vorinostat: predicted new indication Primary cutaneous B-cell lymphoma (evidence level L5). Approved use: Primary cutaneous T-cell lymphoma (including primary cutaneous T-cell…"
 monitor_inn: "Vorinostat"
-predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome", "myeloid leukemia", "lymph node cancer", "seborrheic dermatitis", "lymphosarcoma", "relapsing-remitting multiple sclerosis", "granulomatous slack skin disease", "acute lymphoblastic leukemia (disease)", "parapsoriasis"]
+predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome"]
+description: "Vorinostat: predicted new indication Primary cutaneous B-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vorinostat
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Vorinostat: From Cutaneous T-Cell Lymphoma to Primary Cutaneous B-Cell Lymphoma
+## Vorinostat: Primary cutaneous B-cell lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Support for this is weak: **4 early-phase clinical trials** that are not specifi
 
 | Item | Content |
 |------|------|
-| Original Indication | Primary cutaneous T-cell lymphoma (including primary cutaneous T-cell non-Hodgkin lymphoma) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary cutaneous B-cell lymphoma |
-| TxGNN Prediction Score | 99.21% |
-| Evidence Level | L4 (preclinical and mechanistic data only; no disease-specific clinical studies) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9921 |
+| Evidence Level | L5 (preclinical and mechanistic data only; no disease-specific clinical studies) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -100,7 +100,6 @@ However, none of this evidence is specific to primary cutaneous B-cell lymphoma.
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Targeted (epigenetic) therapy: HDAC inhibitor |
-| Myelosuppression Risk | Please refer to the Product Information (PI). Thrombocytopenia and anaemia appear among the conditions linked to vorinostat in the knowledge graph. |
 | Emetogenicity Classification | Please refer to the Product Information (PI) |
 | Monitoring Items | Full blood count (including platelets), serum glucose, electrolytes (potassium, calcium, phosphate), renal and liver function, and ECG (QT interval), consistent with the associated conditions listed below |
 | Handling Protection | Follow local cytotoxic and hazardous drug handling procedures. Please refer to the PI. |
@@ -109,7 +108,7 @@ However, none of this evidence is specific to primary cutaneous B-cell lymphoma.
 
 ## Safety Considerations
 
-The following information comes from the TxGNN knowledge graph. It is not taken from approved label text.
+The following information comes from the TxGNN model (deep learning). The scores may reflect similarities the model learned between related diseases, not biological evidence. It is not taken from approved label text.
 
 - **Conditions linked to contraindication or caution in the knowledge graph:** long QT syndrome (including familial), liver disease, gallbladder disease, thrombocytopenia, anaemia (including macrocytic), hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, pulmonary embolism, and diarrhoeal disease.
 - **Drug Interactions:** 61 interactions were identified. The ones listed are all rated Moderate, and most are with glucose-lowering agents. These include metformin, pioglitazone, sulfonylureas (glimepiride, glipizide, glyburide), SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), GLP-1 agonists (semaglutide, dulaglutide, exenatide), DPP-4 inhibitors (alogliptin, linagliptin), acarbose and insulins. Blood glucose should be monitored closely if vorinostat is used alongside these drugs.

@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Secukinumab
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 661
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-13
-description: "Secukinumab: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not available in the data compiled for this report"
+description: "Secukinumab: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Secukinumab"
-predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "HER2 positive breast carcinoma", "drug-induced osteoporosis", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "fetal and neonatal alloimmune thrombocytopenia"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Secukinumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,46 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Secukinumab: From Established Immune-Mediated Inflammatory Disease to Primary Release Disorder of Platelets
+## Secukinumab
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Secukinumab is an anti-IL-17A monoclonal antibody marketed in Australia as Cosentyx. The original indication text was not available in the data compiled for this report.
-The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but there are **0 clinical trials** and **0 publications** supporting this prediction. It is a purely computational signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 98.16% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the compiled data. From general knowledge, secukinumab is an anti-IL-17A monoclonal antibody. It is used in IL-17-driven immune-mediated conditions such as psoriasis, psoriatic arthritis, axial spondyloarthritis and hidradenitis suppurativa.
-
-No plausible mechanistic link was identified for the predicted indication. Platelet release (secretion) disorders arise from intrinsic defects in platelet granules or signalling, not from IL-17A-driven inflammation. The high TxGNN score is a graph-based prediction with no supporting clinical or literature evidence, and it should be treated as a hypothesis only.
-
-Other top-ranked predictions show the same pattern:
-- **Platelet and bleeding disorders** (pseudo-von Willebrand disease, Glanzmann thrombasthenia, fetal and neonatal alloimmune thrombocytopenia) have no mechanistic link to IL-17A inhibition.
-- **Breast cancer subtypes** (HER2-positive, progesterone-receptor positive and negative, luminal A or B, normal breast-like) have only speculative links through tumour-promoting inflammation. Several share identical scores, suggesting a graph-neighbourhood artefact.
-- **Drug-induced osteoporosis** has weak biological plausibility, since IL-17 can promote osteoclastogenesis via RANKL, but no supporting evidence.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for primary release disorder of platelets.
-
-## Literature Evidence
-
-Currently no related literature available for primary release disorder of platelets.
-
-The literature retrieved for the lower-ranked "breast tumor luminal A or B" prediction (SUNSHINE/SUNRISE phase 3 trials in hidradenitis suppurativa, psoriasis and arthritis reviews, and others) concerns other, already-established indications. It does not support any predicted new indication.
+| Original Indication | Not recorded in the local data |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
 ## Australia Market Information
 
@@ -90,18 +62,6 @@ The literature retrieved for the lower-ranked "breast tumor luminal A or B" pred
 
 Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a model score alone (L5). There are no clinical trials or publications, and the biology of platelet release disorders is unrelated to IL-17A inhibition.
-
-**To proceed, the following is needed:**
-- A credible mechanistic hypothesis linking IL-17A to platelet secretion defects, supported by preclinical data
-- Detailed mechanism of action data and the approved indication text from the TGA Product Information
-- Safety information from the PI (warnings and contraindications)
-- Any observational or preclinical evidence in the predicted indication before further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

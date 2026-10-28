@@ -4,17 +4,17 @@ title: Phenoxymethylpenicillin
 parent: Model Prediction Only (L5)
 nav_order: 569
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Streptococcal infection, pharyngitis, infectious otitis media…"
 monitor_inn: "Phenoxymethylpenicillin"
-predicted_indications: ["epiglottitis", "laryngitis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis", "urogenital tuberculosis", "lymph node palisaded myofibroblastoma", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy"]
+predicted_indications: ["epiglottitis", "laryngitis"]
+description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenoxymethylpenicillin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phenoxymethylpenicillin: From Streptococcal and Upper Respiratory Infections to Epiglottitis
+## Phenoxymethylpenicillin: Epiglottitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 
 | Item | Content |
 |------|------|
-| Original Indication | Streptococcal infection, pharyngitis, infectious otitis media, erysipelas, scarlet fever, staphylococcal infection (the ARTG entry has no indication text; these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Epiglottitis |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -112,7 +112,7 @@ Please refer to the TGA-approved Product Information (PI) for warnings and full 
 **Decision: Hold**
 
 **Rationale:**
-The epiglottitis prediction has no trials or literature behind it and conflicts with standard practice. Epiglottitis is an airway emergency treated with intravenous broad-spectrum therapy, and oral penicillin V has limited coverage of the key pathogens. The other top predictions (gonococcal urethritis, Ureaplasma urethritis, urogenital tuberculosis and several non-infectious conditions) are also unsupported or biologically implausible.
+The epiglottitis prediction has no trials or literature behind it and conflicts with standard practice. Epiglottitis is an airway emergency treated with intravenous broad-spectrum therapy, and oral penicillin V has limited coverage of the key pathogens.
 
 **To proceed, the following is needed:**
 - Mechanism of action data

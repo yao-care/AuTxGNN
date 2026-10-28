@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **esophageal varices with bleed
 |------|------|
 | Original Indication | Lactose intolerance |
 | Predicted New Indication | Esophageal varices with bleeding |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 2 |
+| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, lactose is a dietary disaccharide and a common pharmaceutical excipient. No mechanistic link to esophageal varices with bleeding has been identified.
 
-The high prediction score appears to be a knowledge-graph artefact rather than an independent biological signal. One possible source of confusion is lactulose, a different compound used in hepatic encephalopathy (a complication of liver disease), which may be conflated with lactose in graph embeddings. The same-score prediction for esophageal varices without bleeding supports the view that these are neighbouring-node effects.
+The high prediction score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. One possible source of confusion is lactulose, a different compound used in hepatic encephalopathy (a complication of liver disease), which the model may conflate with lactose. The same score of 0.9993 for esophageal varices without bleeding supports the view that these predictions reflect learned similarities between related diseases.
 
 Other top-ranked predictions (varicose disease, Steel syndrome, cystinosis, hypophosphatasia and others) likewise have no identified mechanism and no supporting trials or literature.
 
@@ -85,7 +85,7 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score, with no clinical trials, no literature and no plausible mechanism. It is most likely a knowledge-graph artefact, so it does not currently justify further investment.
+The prediction is supported only by a model score, with no clinical trials, no literature and no plausible mechanism. It is most likely a TxGNN model (deep learning) artefact, so it does not currently justify further investment.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for lactose and a credible biological rationale for esophageal varices

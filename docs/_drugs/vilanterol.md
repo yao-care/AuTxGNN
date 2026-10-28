@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vilanterol
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 778
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Vilanterol: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Chronic obstructive pulmonary disease (COPD), asthma, bronchitis…"
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
+description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vilanterol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Vilanterol: From Chronic Obstructive Pulmonary Disease to Obstructive Lung Disease
+## Vilanterol: Hyperlucent lung
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Vilanterol is a long-acting beta2-agonist (LABA) used in fixed-dose inhaled combinations for chronic obstructive pulmonary disease (COPD) and asthma.
-The TxGNN model predicts it may be effective for **Obstructive Lung Disease**. This is the umbrella category for its existing indications, so it is effectively an on-label use rather than true repurposing.
+The TxGNN model predicts it may be effective for **Hyperlucent Lung**.
 The data compiled for this report include **28 clinical trials** and **20 publications**, all of which test vilanterol as part of a combination product.
 
 ---
@@ -48,12 +48,12 @@ The data compiled for this report include **28 clinical trials** and **20 public
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic obstructive pulmonary disease (COPD), asthma, bronchitis, pulmonary emphysema (the registry text for the Australian entries is blank, so these come from the knowledge graph) |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hyperlucent lung |
+| TxGNN Prediction Score | 0.9972 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 3 of 3) |
+| Number of ARTG Entries | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -62,7 +62,6 @@ The data compiled for this report include **28 clinical trials** and **20 public
 
 Detailed mechanism of action data are not available in the data compiled for this report. From general pharmacology, vilanterol is a long-acting beta2-adrenoceptor agonist. It relaxes bronchial smooth muscle and produces bronchodilation, which directly addresses airflow obstruction.
 
-Obstructive lung disease is the umbrella category covering COPD, asthma, chronic bronchitis and emphysema, which are the conditions vilanterol is already used for. The high prediction score therefore reflects a close fit with existing indications.
 
 One caveat applies. The evidence comes from fixed-dose combinations (vilanterol with fluticasone furoate, umeclidinium, or both), so the contribution of vilanterol alone cannot be separated out.
 
@@ -144,7 +143,7 @@ Obstructive lung disease covers the conditions vilanterol-containing inhalers ar
 - Review of the interaction profile, particularly for QT-prolonging drugs, sympathomimetics and antidiabetic agents
 
 **Other predicted indications (not recommended for progression):**
-- Interstitial emphysema, compensatory emphysema, hyperlucent lung, tracheal stenosis, congenital lobar emphysema, respiratory malformation, tracheal calcification and laryngotracheitis: **Hold**. These have no supporting trials or relevant literature, and the high scores appear to come from graph proximity to emphysema and obstructive lung disease rather than from a plausible mechanism. For respiratory malformation, the retrieved publications do not address the condition.
+- Hyperlucent lung, tracheal stenosis, respiratory malformation, tracheal calcification and laryngotracheitis: **Hold**. These have no supporting trials or relevant literature, and the high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. For respiratory malformation, the retrieved publications do not address the condition.
 - Bronchial neoplasm: **Research Question**. The only related trial (NCT04536675, Phase 3, n=204) tests dual bronchodilators for COPD comorbidity in lung cancer surgery patients, so it does not support an effect on the tumour itself.
 ## Disclaimer
 

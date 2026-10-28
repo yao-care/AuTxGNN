@@ -6,9 +6,9 @@ nav_order: 783
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Vitamin A deficiency (vitamin deficiency disorder). This comes from t…"
 monitor_inn: "vitamin a"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
+description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vitamin A
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Vitamin A: From Vitamin A Deficiency to Congenital Prothrombin Deficiency
+## Vitamin A: Congenital prothrombin deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Vitamin A is a fat-soluble vitamin, originally used to treat and prevent vitamin A deficiency.
 The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but **no clinical trials and no publications** were found to support this prediction.
-The very high model score is a graph-based signal only, and the biological rationale is weak.
+The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -48,12 +48,12 @@ The very high model score is a graph-based signal only, and the biological ratio
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin A deficiency (vitamin deficiency disorder). This comes from the TxGNN knowledge graph, as the Australian licence records compiled for this report contain no indication text. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 2 |
+| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The very high model score is a graph-based signal only, and the biological ratio
 
 Currently, detailed mechanism of action data is not available. Based on known information, vitamin A is an essential nutrient. Its role in vitamin A deficiency is well established, and it acts through retinoid signalling to support vision, epithelial integrity and immune function.
 
-The link to congenital prothrombin deficiency is not convincing. Prothrombin (factor II) synthesis depends on vitamin K-dependent gamma-carboxylation, and vitamin A has no established role in that pathway. A congenital factor II defect is not expected to respond to vitamin A. The prediction therefore appears to reflect a graph-based association (both conditions sit near vitamin-related nodes) rather than a plausible mechanism.
+The link to congenital prothrombin deficiency is not convincing. Prothrombin (factor II) synthesis depends on vitamin K-dependent gamma-carboxylation, and vitamin A has no established role in that pathway. A congenital factor II defect is not expected to respond to vitamin A. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

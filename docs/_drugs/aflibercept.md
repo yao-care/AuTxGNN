@@ -4,17 +4,17 @@ title: Aflibercept
 parent: Model Prediction Only (L5)
 nav_order: 28
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Aflibercept: predicted new indication Esotropia (evidence level L5). Approved use: Metastatic colorectal cancer, macular degeneration…"
 monitor_inn: "Aflibercept"
-predicted_indications: ["esotropia", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease", "urethral calculus", "adenosine deaminase deficiency", "hemorrhagic disease of newborn", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "middle ear neuroendocrine tumor"]
+predicted_indications: ["esotropia"]
 ---
 
 # Aflibercept
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,19 +47,18 @@ The TxGNN model predicts it may be effective for **esotropia**, but this is a mo
 |------|------|
 | Original Indication | Metastatic colorectal cancer, macular degeneration, retinal artery occlusion, diabetic macular oedema (the Australian licence record contains no indication text) |
 | Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.38% |
+| TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, aflibercept is a trap for VEGF-A, VEGF-B and placental growth factor (PlGF). Its efficacy in neovascular and oedematous retinal disease and in metastatic colorectal cancer is established, and it acts by blocking VEGF-driven angiogenesis and vascular leakage.
 
-Esotropia is a strabismus disorder driven by oculomotor and binocular vision factors, not by VEGF-dependent neovascularisation. No direct mechanistic link between VEGF inhibition and esotropia has been established. The high score (0.994) most likely reflects the proximity of ocular tissues in the knowledge graph rather than a biological rationale, so it should be treated as a hypothesis only.
+Esotropia is a strabismus disorder driven by oculomotor and binocular vision factors, not by VEGF-dependent neovascularisation. No direct mechanistic link between VEGF inhibition and esotropia has been established. The high score (0.9938) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should be treated as a hypothesis only.
 
-Other lower-ranked predictions (for example oesophageal varices, ectomesenchymoma and middle ear neuroendocrine tumour) have, at most, a theoretical anti-angiogenic rationale. For the varices predictions, systemic VEGF inhibition carries known bleeding and gastrointestinal perforation risks. None of these predictions have supporting clinical evidence.
 
 ## Clinical Trial Evidence
 

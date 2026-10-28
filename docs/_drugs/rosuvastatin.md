@@ -4,17 +4,17 @@ title: Rosuvastatin
 parent: Model Prediction Only (L5)
 nav_order: 649
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Lipid disorders (hypertriglyceridaemia…"
 monitor_inn: "Rosuvastatin"
-predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "ABri amyloidosis"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
+description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Rosuvastatin: From Hyperlipidaemia and Atherosclerotic Disease to Cholesterol-Ester Transfer Protein Deficiency
+## Rosuvastatin: Cholesterol-ester transfer protein deficiency (rank 1); familial hypercholesterolaemia is the best-supported candidate (cholesterol-ester transfer protein deficiency)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Rosuvastatin is a statin (HMG-CoA reductase inhibitor) originally used for lipid disorders such as hypertriglyceridaemia, homozygous familial hypercholesterolaemia and atherosclerosis, and for stroke-related conditions.
-The TxGNN model's top-ranked prediction is **cholesterol-ester transfer protein (CETP) deficiency** (score 99.54%), but **no clinical trials or publications** were found for it.
+The TxGNN model's top-ranked prediction is **cholesterol-ester transfer protein (CETP) deficiency** (score 0.9954), but **no clinical trials or publications** were found for it.
 The best-supported prediction in the data is **familial hypercholesterolaemia** (99.54%), which is largely an on-label or closely related use, with **10 Phase 3 trials** and **12 publications** compiled for it.
 
 ---
@@ -48,12 +48,12 @@ The best-supported prediction in the data is **familial hypercholesterolaemia** 
 
 | Item | Content |
 |------|------|
-| Original Indication | Lipid disorders (hypertriglyceridaemia, homozygous familial hypercholesterolaemia, hyperlipoproteinaemia), atherosclerosis and cerebrovascular disease (from knowledge-graph indication data; no approved indication text available from the ARTG entry) |
-| Predicted New Indication | Cholesterol-ester transfer protein deficiency (rank 1); familial hypercholesterolaemia is the best-supported candidate (rank 2) |
-| TxGNN Prediction Score | 99.54% (rank 1); 99.54% (rank 2, familial hypercholesterolaemia) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Cholesterol-ester transfer protein deficiency (rank 1); familial hypercholesterolaemia is the best-supported candidate (cholesterol-ester transfer protein deficiency) |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 for rank 1 (model prediction only); L1 for familial hypercholesterolaemia |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold for rank 1; Proceed with Guardrails for familial hypercholesterolaemia |
 
 ---

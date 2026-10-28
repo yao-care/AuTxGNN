@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syn
 |------|------|
 | Original Indication | Typhoid fever, salmonellosis, urinary tract infection, bronchitis, bacterial pneumonia and other bacterial infections (the ARTG entry does not state an approved indication) |
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Ofloxacin is a fluoroquinolone, a class that inhibits bacterial DNA gyrase and topoisomerase IV, and its efficacy in bacterial infections is well established.
 
-Polyclonal hyperviscosity syndrome is a plasma protein/immunoglobulin disorder, and there is no plausible link between antibacterial DNA gyrase inhibition and this condition. The high TxGNN score appears to be a graph-based prediction artefact rather than a pharmacologically meaningful signal. This prediction is not considered reasonable on current evidence.
+Polyclonal hyperviscosity syndrome is a plasma protein/immunoglobulin disorder, and there is no plausible link between antibacterial DNA gyrase inhibition and this condition. The high score from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence. This prediction is not considered reasonable on current evidence.
 
 **Other predictions reviewed**
 
@@ -137,7 +137,7 @@ Please also refer to the TGA-approved Product Information (PI) for full warnings
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is supported only by a graph-based score. There are no trials or literature, and no plausible mechanism links an antibacterial DNA gyrase inhibitor to a plasma protein disorder. The only locally registered product is an eye drop, and the safety profile includes numerous flagged contraindications.
+The top prediction is supported only by a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no trials or literature, and no plausible mechanism links an antibacterial DNA gyrase inhibitor to a plasma protein disorder. The only locally registered product is an eye drop, and the safety profile includes numerous flagged contraindications.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible biological rationale for polyclonal hyperviscosity syndrome

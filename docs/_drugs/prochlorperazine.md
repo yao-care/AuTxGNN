@@ -6,9 +6,9 @@ nav_order: 605
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Prochlorperazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "Prochlorperazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+description: "Prochlorperazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Prochlorperazine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Prochlorperazine: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies
+## Prochlorperazine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia (from the knowledge graph; no approved indication text is available for the Australian product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 Detailed mechanism of action data is not available in the data compiled for this report. Prochlorperazine is a phenothiazine that blocks dopamine D2 receptors, and this action underlies its use in schizophrenia.
 
-No mechanistic link was identified between D2 antagonism and inherited retinal dystrophies. These conditions arise from genetic defects in retinal structure and function, and prochlorperazine has no known effect on those pathways. The very high TxGNN score (99.998%, model rank 73) reflects similarity patterns in the knowledge graph rather than biological or clinical evidence.
+No mechanistic link was identified between D2 antagonism and inherited retinal dystrophies. These conditions arise from genetic defects in retinal structure and function, and prochlorperazine has no known effect on those pathways. The very high TxGNN score (1.0000, model rank 73) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence.
 
 The prediction should therefore be treated as a hypothesis-generating signal only.
 

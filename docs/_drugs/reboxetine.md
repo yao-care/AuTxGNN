@@ -4,17 +4,17 @@ title: Reboxetine
 parent: Model Prediction Only (L5)
 nav_order: 628
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Reboxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "Reboxetine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder", "Ohdo syndrome and variants", "melancholia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
+description: "Reboxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Reboxetine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Reboxetine: From Unipolar Depression to Benign Paroxysmal Torticollis of Infancy
+## Reboxetine: Benign paroxysmal torticollis of infancy (top-ranked); see the note below on other candidates (benign paroxysmal torticollis of infancy)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,22 +48,19 @@ Among the other predictions, **agoraphobia** and **dysthymic disorder** have the
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; the ARTG indication text is not available) |
-| Predicted New Indication | Benign paroxysmal torticollis of infancy (top-ranked); see the note below on other candidates |
-| TxGNN Prediction Score | 99.92% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Benign paroxysmal torticollis of infancy (top-ranked); see the note below on other candidates (benign paroxysmal torticollis of infancy) |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Note on the other candidates:** The top-ranked prediction has no supporting evidence. Two lower-ranked predictions are better supported and are worth a closer look:
 
 | Candidate | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|
-| Agoraphobia | 99.91% | L3 | Research Question |
-| Dysthymic disorder | 99.87% | L3 | Research Question |
-| Melancholia | 99.74% | L4 | Research Question (largely an on-label extension) |
-| Neurotic depression | 99.74% | L4 | Research Question (legacy term) |
+| Agoraphobia | 0.9991 | L5 | Research Question |
 
 ---
 

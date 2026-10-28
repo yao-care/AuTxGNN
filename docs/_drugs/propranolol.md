@@ -4,17 +4,17 @@ title: Propranolol
 parent: Model Prediction Only (L5)
 nav_order: 608
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Hypertension, atrial fibrillation, hypertrophic cardiomyopathy…"
 monitor_inn: "Propranolol"
-predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy", "intramuscular hemangioma", "Maffucci syndrome", "breast epithelioid hemangioma", "breast capillary hemangioma"]
+predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
+description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Propranolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Propranolol: From Hypertension and Cardiac Arrhythmias to Distal Myopathy, Tateyama Type
+## Propranolol: Distal myopathy, Tateyama type
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Propranolol is a non-selective beta-blocker, originally used for hypertension, arrhythmias, hypertrophic cardiomyopathy and infantile haemangioma.
 The TxGNN model predicts it may be effective for **distal myopathy, Tateyama type** (top-ranked prediction), but there are **0 clinical trials** and **0 publications** supporting this specific prediction.
-Other lower-ranked predictions, particularly vascular tumours (haemangioma subtypes) and cardiomyopathy, have more supporting literature and are discussed below.
+Other lower-ranked predictions, particularly vascular tumours (haemangioma subtypes), have more supporting literature and are discussed below.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, atrial fibrillation, hypertrophic cardiomyopathy, haemangioma (the Australian licence record carries no indication text; indications are drawn from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Distal myopathy, Tateyama type |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -109,7 +109,7 @@ Label-based warnings and contraindications were not available in the data compil
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, distal myopathy (Tateyama type), is supported only by a model score of 99.4%, with no trials, no literature and no plausible mechanism. Knowledge graph contraindication signals for muscle disease argue against it. Predictions further down the list (haemangioma subtypes, cardiomyopathy, cirrhotic cardiomyopathy) have some indirect supporting literature, and are better framed as research questions than as repurposing candidates for the Australian market.
+The top-ranked prediction, distal myopathy (Tateyama type), is supported only by a model score of 0.9940, with no trials, no literature and no plausible mechanism. Knowledge graph contraindication signals for muscle disease argue against it. Predictions further down the list (haemangioma subtypes, cardiomyopathy, cirrhotic cardiomyopathy) have some indirect supporting literature, and are better framed as research questions than as repurposing candidates for the Australian market.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for propranolol, to assess any link to myopathy biology

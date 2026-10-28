@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trabectedin
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 742
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Trabectedin: predicted new indication Female breast carcinoma (evidence level L2). Approved use: Ovarian cancer"
 monitor_inn: "Trabectedin"
-predicted_indications: ["female breast carcinoma", "ovarian thecoma", "bilateral breast carcinoma"]
+predicted_indications: ["female breast carcinoma"]
+description: "Trabectedin: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trabectedin
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Trabectedin: From Ovarian Cancer to Female Breast Carcinoma
+## Trabectedin: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **1 clinical trial** (a QT-interval safety study, not an efficacy trial) an
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (the Australian licence entry carries no indication text; the original indication comes from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9973 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question; see the conclusion) |
 
 ## Why is This Prediction Reasonable?

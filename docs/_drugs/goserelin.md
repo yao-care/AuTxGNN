@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Goserelin
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 344
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Goserelin: predicted new indication Amenorrhoea (evidence level L5). Approved use: Endometriosis"
 monitor_inn: "Goserelin"
-predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral", "cervix endometriosis", "gelatinous drop-like corneal dystrophy", "duodenogastric reflux", "endometriosis in cutaneous scar", "endometriosis of rectovaginal septum and vagina", "duodenal obstruction", "duodenal ulcer (disease)"]
+predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
+description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Goserelin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Goserelin: From Endometriosis to Amenorrhoea
+## Goserelin: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Amenorrhoea is an expected pharmacodynamic effect of goserelin, so this is bette
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis (the ARTG entries in the data compiled for this report carry no approved indication text) |
-| Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 (as assigned in the data; the single Phase 3 trial is indirect and its status is unknown) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 2 |
+| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -108,7 +108,7 @@ Most of this literature concerns breast cancer, where amenorrhoea is a side effe
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (knowledge-graph associations, not label text):** hypertensive disorder, hypertension, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, obesity disorder, monogenic obesity, urinary tract obstruction.
+- **Contraindication-related conditions (not label text):** hypertensive disorder, hypertension, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, obesity disorder, monogenic obesity, urinary tract obstruction.
 - **Drug interactions:** 100 interactions were identified. Those listed here are examples from the 20 interactions shown.
   - **Major:** dolasetron.
   - **Moderate:** antidiabetic agents (acarbose, albiglutide, alogliptin, canagliflozin, chlorpropamide, dapagliflozin, dulaglutide, empagliflozin, glimepiride, linagliptin, metformin, saxagliptin), clarithromycin, famotidine, loperamide, palonosetron, and bowel preparations or laxatives (bisacodyl, picosulfuric acid, polyethylene glycol).
@@ -123,7 +123,7 @@ Label warnings and contraindications were not available in the compiled data. Pl
 **Decision: Hold**
 
 **Rationale:**
-Amenorrhoea is an expected pharmacological effect of goserelin, not a distinct disease indication. The only trial is an indirect, status-unknown breast cancer study, and the literature mostly addresses oncology contexts. The high TxGNN score reflects a graph-based association rather than direct evidence for a new therapeutic use.
+Amenorrhoea is an expected pharmacological effect of goserelin, not a distinct disease indication. The only trial is an indirect, status-unknown breast cancer study, and the literature mostly addresses oncology contexts. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence for a new therapeutic use.
 
 **To proceed, the following is needed:**
 - A clear definition of the intended use (for example, menstrual suppression or ovarian protection during chemotherapy) and the target population
@@ -138,7 +138,7 @@ Amenorrhoea is an expected pharmacological effect of goserelin, not a distinct d
 
 - **Cervix endometriosis, endometriosis of the rectovaginal septum and vagina:** anatomical subtypes of the approved indication (L4). The mechanistic rationale is sound, but no site-specific trials or literature were retrieved. These are research questions.
 - **Endometriosis in cutaneous scar:** a single case report (PMID 19753740) describes combined medical and surgical treatment (L4). Surgical excision remains the primary treatment.
-- **Renal hypoplasia (including bilateral), gelatinous drop-like corneal dystrophy, duodenogastric reflux, duodenal obstruction and duodenal ulcer:** no plausible mechanistic link and no clinical evidence (L5). The recommendation for these is Hold.
+- The recommendation for these is Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -6,9 +6,9 @@ nav_order: 306
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Not stated in the Australian registration data compiled for this repo…"
 monitor_inn: "Fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
+description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluorouracil
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fluorouracil: From Gastric and Colorectal Cancer to Rhabdomyosarcoma
+## Fluorouracil: Botryoid-type embryonal rhabdomyosarcoma of the vagina
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Evidence for the broader rhabdomyosarcoma group is limited to 4 older reviews, s
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Australian registration data compiled for this report. The knowledge graph lists gastric cancer, pancreatic adenocarcinoma, metastatic colon cancer, superficial basal cell carcinoma, actinic keratosis and related skin conditions |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Botryoid-type embryonal rhabdomyosarcoma of the vagina |
-| TxGNN Prediction Score | 99.75% |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -123,7 +123,7 @@ Please refer to the TGA-approved Product Information (PI) for authoritative safe
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.75%), but there are no clinical trials or publications for the top-ranked indication, so the evidence level is L5 (model prediction only). Fluorouracil is not part of standard rhabdomyosarcoma regimens, and the only Australian product is a topical cream.
+The prediction score is high (0.9975), but there are no clinical trials or publications for the top-ranked indication, so the evidence level is L5 (model prediction only). Fluorouracil is not part of standard rhabdomyosarcoma regimens, and the only Australian product is a topical cream.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data (e.g. from DrugBank)

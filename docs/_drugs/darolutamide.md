@@ -4,17 +4,17 @@ title: Darolutamide
 parent: Model Prediction Only (L5)
 nav_order: 199
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Darolutamide: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L5). Approved use: Not available in the data compiled for this report (darolutamide is a…"
+description: "Darolutamide: predicted new indication homozygous familial hypercholesterolemia (evidence level L5). Approved use: Not available in the data compiled for this report (darolutamide is a…"
 monitor_inn: "Darolutamide"
-predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "cytomegalovirus infection", "thrombotic disease", "infectious bovine rhinotracheitis", "malignant catarrh"]
+predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease"]
 ---
 
 # Darolutamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Darolutamide: From Prostate Cancer to Homozygous Familial Hypercholesterolaemia
+## Darolutamide: From Prostate Cancer to Homozygous Familial Hypercholesterolemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,19 +47,19 @@ The TxGNN model predicts it may be effective for **homozygous familial hyperchol
 |------|------|
 | Original Indication | Not available in the data compiled for this report (darolutamide is an androgen receptor antagonist used in prostate cancer) |
 | Predicted New Indication | Homozygous familial hypercholesterolaemia |
-| TxGNN Prediction Score | 99.11% |
+| TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Darolutamide is known to be a non-steroidal androgen receptor antagonist.
 
-The prediction is difficult to justify. Homozygous familial hypercholesterolaemia is caused by defects in the LDL receptor pathway (LDLR, APOB, PCSK9, LDLRAP1), which has no established link to androgen receptor blockade. The high TxGNN score appears to be a graph-based prediction without supporting clinical or literature evidence.
+The prediction is difficult to justify. Homozygous familial hypercholesterolaemia is caused by defects in the LDL receptor pathway (LDLR, APOB, PCSK9, LDLRAP1), which has no established link to androgen receptor blockade. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There is no supporting clinical or literature evidence.
 
-Other top-ranked predictions are similarly unsupported. Most are viral or veterinary conditions (HIV, simian immunodeficiency virus infection, feline AIDS, cytomegalovirus infection, infectious bovine rhinotracheitis, malignant catarrhal fever), which is a pattern consistent with graph artefacts rather than real therapeutic signals. The only candidate with any trial matches is multiple endocrine neoplasia (rank 2), but those trials relate to prostate cancer, not to this condition.
+Other top-ranked predictions are similarly unsupported. HIV infectious disease is a viral condition, and this pattern may reflect similarities the model learned between related diseases rather than real therapeutic signals. The only candidate with any trial matches is multiple endocrine neoplasia (rank 2), but those trials relate to prostate cancer, not to this condition.
 
 ## Clinical Trial Evidence
 
@@ -101,7 +101,7 @@ The rosuvastatin (major) and simvastatin (moderate) interactions are particularl
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based model score. There is no plausible mechanistic link, no clinical trials and no literature, and a notable interaction with statins would complicate its use in this population.
+The prediction rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There is no plausible mechanistic link, no clinical trials and no literature, and a notable interaction with statins would complicate its use in this population.
 
 **To proceed, the following is needed:**
 - Mechanistic evidence linking androgen receptor antagonism to LDL receptor pathway defects

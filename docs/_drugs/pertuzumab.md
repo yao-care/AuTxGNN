@@ -4,17 +4,17 @@ title: Pertuzumab
 parent: Model Prediction Only (L5)
 nav_order: 564
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Pertuzumab: predicted new indication Progesterone-receptor positive breast cancer (evidence level L5). Approved use: HER2-positive breast carcinoma"
 monitor_inn: "Pertuzumab"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+description: "Pertuzumab: predicted new indication Ectomesenchymoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pertuzumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pertuzumab: From HER2-Positive Breast Carcinoma to Progesterone-Receptor Positive Breast Cancer
+## Pertuzumab: Ectomesenchymoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pertuzumab is a HER2-targeted monoclonal antibody, originally used to treat HER2-positive breast carcinoma.
-The TxGNN model predicts it may be effective for **progesterone-receptor positive breast cancer**, with **1 completed Phase 3 clinical trial** and **20 publications** currently supporting this direction.
 This is largely an extension within the existing HER2-positive indication rather than true new-disease repurposing, because the benefit depends on HER2 status, not progesterone receptor (PR) status.
 
 ---
@@ -48,12 +47,12 @@ This is largely an extension within the existing HER2-positive indication rather
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2-positive breast carcinoma |
-| Predicted New Indication | Progesterone-receptor positive breast cancer |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L1 (as assigned in the data compiled for this report; see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Ectomesenchymoma |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 (as assigned in the data compiled for this report; see note below) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The L1 rating is based on randomised Phase 3 and Phase 2 evidence. Only one completed Phase 3 trial is listed, and it is a biosimilar equivalence study. A strict reading of the rules (two or more completed Phase 3 RCTs) would be more conservative, so this rating should be read with caution.

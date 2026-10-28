@@ -4,17 +4,17 @@ title: Naproxen
 parent: Model Prediction Only (L5)
 nav_order: 494
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, gout…"
 monitor_inn: "Naproxen"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
+description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Naproxen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Naproxen: From Inflammatory and Musculoskeletal Conditions (e.g. Rheumatoid Arthritis, Osteoarthritis) to Brachydactyly-Syndactyly Syndrome
+## Naproxen: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, gout, bursitis, tendinitis, migraine and others (taken from the knowledge-graph indication list, as no approved indication text was available for the Australian product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.35% |
+| TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, naproxen inhibits cyclooxygenase (COX-1 and COX-2), which reduces prostaglandin-mediated inflammation and pain.
 
-**No plausible mechanistic link was identified** between this action and brachydactyly-syndactyly syndrome. The syndrome is a rare congenital disorder of limb development, not an inflammatory condition, so COX inhibition would not address its cause. The high TxGNN score (99.35%) most likely reflects relationships in the knowledge graph, such as shared links with other skeletal and limb disorders, rather than a biological rationale. The prediction should be treated as a hypothesis only.
+**No plausible mechanistic link was identified** between this action and brachydactyly-syndactyly syndrome. The syndrome is a rare congenital disorder of limb development, not an inflammatory condition, so COX inhibition would not address its cause. The high TxGNN score (0.9935) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -77,7 +77,7 @@ This is a single oral product supplied under Section 19A (imported supply). Appr
 
 ## Safety Considerations
 
-- **Contraindications and warnings (knowledge-graph signals, not label text):** The knowledge graph links naproxen with a wide range of conditions, including:
+- **Contraindications and warnings (associations learned by the TxGNN model, not label text):** The TxGNN model (deep learning) associates naproxen with a wide range of conditions, which may reflect similarities the model learned between related diseases, not biological evidence, including:
   - Cardiovascular: hypertension, congestive heart failure, coronary artery disease, myocardial infarction and stroke or cerebrovascular disorders.
   - Kidney and liver: kidney disease and liver disease or failure.
   - Other: blood coagulation disorders, anaemia, diabetes mellitus, epilepsy, osteoporosis and gallbladder disease.

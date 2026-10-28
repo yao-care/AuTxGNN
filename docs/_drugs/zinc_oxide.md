@@ -4,17 +4,17 @@ title: Zinc Oxide
 parent: Moderate Evidence (L3-L4)
 nav_order: 791
 evidence_level: L4
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). Approved use: Dermatitis, tinea infections, cutaneous candidiasis…"
 monitor_inn: "Zinc oxide"
-predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "post-infectious syndrome", "otitis externa"]
+predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis"]
+description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Zinc Oxide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Zinc Oxide: From Topical Skin Conditions to Acne
+## Zinc Oxide: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This is a computational prediction at an early research stage.
 
 | Item | Content |
 |------|------|
-| Original Indication | Dermatitis, tinea infections, cutaneous candidiasis, pityriasis versicolor, haemorrhoids, burns and proctitis (from the knowledge graph; no approved indication text is available for the Australian listing) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -122,15 +122,10 @@ Nine further predictions were reviewed. Most have no supporting evidence and a w
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Anorectal stricture | 99.46% | L5 | No evidence. Existing anorectal use does not address fibrotic stricture. |
-| 3 | Anal polyp | 99.31% | L5 | No evidence. No known mechanism against polyp pathology. |
-| 4 | Papillary conjunctivitis | 99.14% | L5 | No evidence. Ocular use raises unresolved safety and formulation concerns. |
-| 5 | Postinfectious vasculitis | 99.02% | L5 | No evidence. No established mechanism against immune-mediated vasculitis. |
-| 6 | Post-bacterial disorder | 98.998% | L5 | No evidence. Non-specific category. |
-| 7 | Chagas cardiomyopathy | 98.994% | L5 | No evidence. A topical agent has no plausible route to cardiac tissue. |
-| 8 | Infection-related haemolytic uraemic syndrome | 98.98% | L5 | No evidence. Likely a graph artefact. |
-| 9 | Post-infectious syndrome | 98.96% | L5 | No evidence. Non-specific category. |
-| 10 | Otitis externa | 98.93% | L4 | One in vitro veterinary study ([PMID 41307483](https://pubmed.ncbi.nlm.nih.gov/41307483/), 2026) showed zinc oxide nanoparticles inhibit *Malassezia* isolates from dogs. Indirect, and ear canal safety (including with a perforated tympanic membrane) is unaddressed. |
+| 2 | Anorectal stricture | 0.9946 | L5 | No evidence. Existing anorectal use does not address fibrotic stricture. |
+| 3 | Anal polyp | 0.9931 | L5 | No evidence. No known mechanism against polyp pathology. |
+| 4 | Papillary conjunctivitis | 0.9914 | L5 | No evidence. Ocular use raises unresolved safety and formulation concerns. |
+| 5 | Postinfectious vasculitis | 0.9902 | L5 | No evidence. No established mechanism against immune-mediated vasculitis. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

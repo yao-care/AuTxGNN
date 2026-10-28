@@ -4,17 +4,17 @@ title: Pioglitazone
 parent: Model Prediction Only (L5)
 nav_order: 577
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Pioglitazone"
-predicted_indications: ["opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis", "autoimmune oophoritis"]
+predicted_indications: ["opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 ---
 
 # Pioglitazone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,31 +47,30 @@ The TxGNN model predicts it may be effective for **Opsismodysplasia** (a rare sk
 |------|------|
 | Original Indication | Type 2 diabetes mellitus |
 | Predicted New Indication | Opsismodysplasia |
-| TxGNN Prediction Score | 99.59% |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Pioglitazone is generally recognised as a PPAR-gamma agonist (a thiazolidinedione insulin sensitiser), and its efficacy in type 2 diabetes is well established.
 
-Opsismodysplasia is a rare skeletal dysplasia caused by mutations in INPPL1 (SHIP2), a negative regulator of PI3K/insulin signalling. A link to pioglitazone through insulin-signalling pathways is conceivable, but no mechanistic link is supported by the data compiled for this report. The high TxGNN score is a graph-based prediction only and should be read as a hypothesis, not evidence of benefit.
+Opsismodysplasia is a rare skeletal dysplasia caused by mutations in INPPL1 (SHIP2), a negative regulator of PI3K/insulin signalling. A link to pioglitazone through insulin-signalling pathways is conceivable, but no mechanistic link is supported by the data compiled for this report. The high TxGNN score (0.9959) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it should be read as a hypothesis, not evidence of benefit.
 
 Other predicted indications were also reviewed, and all remain at evidence level L5 with a "Hold" recommendation:
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|------|
-| 2 | Classic stiff person syndrome | 99.50% | Possible immunomodulatory rationale; hypothetical |
-| 3 | Focal stiff limb syndrome | 99.50% | Same score as the classic form; shared graph-based prediction |
-| 4 | Thiamine-responsive dysfunction syndrome | 99.48% | Associated with diabetes, but pioglitazone does not address the thiamine transport defect |
-| 5 | Drug-induced localised lipodystrophy | 99.30% | PPAR-gamma adipogenesis is plausible; withdrawing the causative agent is usual management |
-| 6 | Centrifugal lipodystrophy | 99.26% | Plausible but unverified; often self-limiting |
-| 7 | Pressure-induced localised lipoatrophy | 99.24% | Mechanically induced and localised |
-| 8 | Idiopathic localised lipodystrophy | 99.19% | No clinical data supplied |
-| 9 | Pancreatic agenesis | 99.18% | Retrieved papers concern type 2 diabetes, not this disease; mechanistically unlikely |
-| 10 | Autoimmune oophoritis | 98.06% | Speculative immunomodulatory rationale |
+| 2 | Classic stiff person syndrome | 0.9950 | Possible immunomodulatory rationale; hypothetical |
+| 3 | Focal stiff limb syndrome | 0.9950 | Same score as the classic form; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
+| 4 | Thiamine-responsive dysfunction syndrome | 0.9948 | Associated with diabetes, but pioglitazone does not address the thiamine transport defect |
+| 5 | Drug-induced localised lipodystrophy | 0.9930 | PPAR-gamma adipogenesis is plausible; withdrawing the causative agent is usual management |
+| 6 | Centrifugal lipodystrophy | 0.9926 | Plausible but unverified; often self-limiting |
+| 7 | Pressure-induced localised lipoatrophy | 0.9924 | Mechanically induced and localised |
+| 8 | Idiopathic localised lipodystrophy | 0.9919 | No clinical data supplied |
+| 9 | Pancreatic agenesis | 0.9918 | Retrieved papers concern type 2 diabetes, not this disease; mechanistically unlikely |
 
 ## Clinical Trial Evidence
 
@@ -99,7 +98,7 @@ Please refer to the TGA-approved Product Information (PI) for authoritative warn
 **Decision: Hold**
 
 **Rationale:**
-The prediction for opsismodysplasia is based solely on a graph-model score, with no clinical trials, no disease-specific literature and no identified mechanistic link. Evidence is at level L5.
+The prediction for opsismodysplasia is based solely on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence; there are no clinical trials, no disease-specific literature and no identified mechanistic link. Evidence is at level L5.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for pioglitazone, and a plausible biological link to INPPL1/SHIP2 signalling

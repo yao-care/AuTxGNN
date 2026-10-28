@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Daratumumab
-parent: Moderate Evidence (L3-L4)
+parent: Known Uses Only (No New Predictions)
 nav_order: 197
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Daratumumab: predicted new indication Indolent plasma cell myeloma (evidence level L4). Approved use: Plasma cell myeloma"
-monitor_inn: "Daratumumab"
-predicted_indications: ["cholangiocarcinoma, susceptibility to", "placenta disease", "minimally invasive lung adenocarcinoma", "GCGR-related hyperglucagonemia", "hemoglobin C-beta-thalassemia syndrome", "giant cell reparative granuloma", "colon inflammatory polyp", "dental caries", "epidural abscess"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Daratumumab: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Daratumumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,55 +32,45 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Daratumumab: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
+<!-- known-uses-page -->
+<!-- description: Daratumumab: known uses and market status in Australia; currently no new candidate indication -->
+## Daratumumab: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model has no candidate indication with a score of 0.99 or higher for Daratumumab, so there is currently no new predicted indication. The drug's own recorded uses are listed below. They come from licence records and are not model candidates.
 
-Daratumumab is an anti-CD38 monoclonal antibody, originally used to treat plasma cell myeloma.
-The TxGNN model predicts it may be effective for **indolent plasma cell myeloma** (smouldering myeloma), but the data compiled for this report contain only **1 clinical trial** (Phase 1, of weak relevance) and **5 publications** (reviews, case reports and one preclinical study), so direct evidence is very limited.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Plasma cell myeloma |
-| Predicted New Indication | Indolent plasma cell myeloma |
-| TxGNN Prediction Score | 98.13% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 2 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, daratumumab is an anti-CD38 monoclonal antibody. Its efficacy in plasma cell myeloma is established, and malignant plasma cells typically express high levels of CD38.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| multiple myeloma | licence in another country |
 
-Indolent (smouldering) myeloma sits on the same disease continuum as active myeloma. This is an extension within the same disease spectrum rather than a true new-disease repurposing. A preclinical study (PMID 28915615) reported CD38 expression in the myeloma bone niche, providing a rational basis for anti-CD38 immunotherapy. However, the data compiled for this report contain no direct clinical evidence for daratumumab in this specific setting.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Other predicted indications (for example cholangiocarcinoma susceptibility, placenta disease, dental caries and epidural abscess) have scores of 58–65%, no trials or literature, and no plausible CD38-related mechanism. They are not recommended for further evaluation at this stage.
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04136756](https://clinicaltrials.gov/study/NCT04136756) | Phase 1 | Completed | 30 | Dose-escalation and expansion study of NKTR-255 (an IL-15 receptor agonist) in relapsed/refractory haematological malignancies, including a combination arm with subcutaneous daratumumab. Daratumumab is not the investigational agent, so this offers little direct evidence for indolent myeloma. |
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [28915615](https://pubmed.ncbi.nlm.nih.gov/28915615/) | 2017 | Preclinical/Translational | Oncotarget | CD38 is expressed in the myeloma bone niche, supporting a rational basis for anti-CD38 therapy to inhibit osteoclast formation |
-| [42488083](https://pubmed.ncbi.nlm.nih.gov/42488083/) | 2026 | Review | Am J Blood Res | Roles of CD38 in the pathogenesis and treatment of B-cell lymphomas (indirect relevance) |
-| [34514307](https://pubmed.ncbi.nlm.nih.gov/34514307/) | 2021 | Review (case-based) | Eur Heart J Case Rep | Aortic valve papillary fibroelastoma with cardiac AL amyloidosis (limited relevance) |
-| [40257478](https://pubmed.ncbi.nlm.nih.gov/40257478/) | 2025 | Case report | Ann Hematol | Paraneoplastic leukocytoclastic vasculitis as an initial manifestation of smouldering IgG kappa myeloma |
-| [32736600](https://pubmed.ncbi.nlm.nih.gov/32736600/) | 2020 | Case report | BMC Gastroenterol | Crystal storing histiocytosis secondary to indolent multiple myeloma |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| plasma cell myeloma |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12220E | Darzalex | Solution concentrate for I.V. infusion 100 mg in 5 mL | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 12220E | Darzalex | Solution concentrate for I.V. infusion 1 | Valid |
 
 ## Cytotoxicity
 
@@ -99,19 +88,6 @@ Other predicted indications (for example cholangiocarcinoma susceptibility, plac
 
 For warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The mechanistic rationale is plausible and the TxGNN score is high, but the data compiled for this report contain no direct clinical evidence for daratumumab in indolent myeloma (evidence level L4). The only trial is a weakly relevant Phase 1 study, and product-label safety information is missing.
-
-**To proceed, the following is needed:**
-- Review of pivotal and randomised trials of daratumumab in smouldering myeloma (for example via ClinicalTrials.gov and ANZCTR searches)
-- Mechanism of action data from DrugBank
-- TGA-approved Product Information, including approved indications, warnings and contraindications, for the Darzalex ARTG entry
-- Review of the full drug interaction list and the infection and immunosuppression risk profile
-- Confirmation of route compatibility and a risk-benefit assessment for an asymptomatic population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

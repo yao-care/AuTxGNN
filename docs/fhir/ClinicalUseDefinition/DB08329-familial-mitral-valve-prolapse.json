@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB08329",
-      "display": "Xifaxan"
+      "reference": "MedicationKnowledge/DB08329"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "familial-mitral-valve-prolapse",
-          "display": "familial mitral valve prolapse"
-        }
-      ],
-      "text": "familial mitral valve prolapse"
+      "concept": {
+        "text": "familial mitral valve prolapse"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://autxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9949
     }
   ]
 }

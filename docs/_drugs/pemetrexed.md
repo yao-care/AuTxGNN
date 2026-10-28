@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pemetrexed
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 556
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Pemetrexed: predicted new indication Malignant peritoneal mesothelioma (evidence level L2). Approved use: Non-small cell lung cancer"
 monitor_inn: "Pemetrexed"
-predicted_indications: ["pleural adenomatoid tumor", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
+predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
+description: "Pemetrexed: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pemetrexed
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Pemetrexed: From Non-Small Cell Lung Cancer and Pleural Mesothelioma to Malignant Peritoneal Mesothelioma
+## Pemetrexed: Pleural adenomatoid tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pemetrexed is an antifolate chemotherapy originally used for non-small cell lung cancer and malignant pleural mesothelioma.
-The TxGNN model predicts it may be effective for **malignant peritoneal mesothelioma**,
+The TxGNN model predicts it may be effective for **pleural adenomatoid tumor**,
 with **7 registered clinical trials** and **20 publications** currently supporting this direction. Most of this evidence comes from small Phase 2 studies, retrospective series and reviews.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung cancer; malignant pleural mesothelioma (the ARTG entry lists no indication text, so these are the original indications recorded in the knowledge graph) |
-| Predicted New Indication | Malignant peritoneal mesothelioma |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pleural adenomatoid tumor |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Peritoneal and pleural mesothelioma share the same mesothelial histology and folate-dependent proliferation. Pemetrexed plus cisplatin is the established first-line chemotherapy for pleural mesothelioma, supported by a pivotal Phase 3 trial, and is commonly extrapolated to the peritoneal form. Because peritoneal mesothelioma is rare, prospective disease-specific trials are scarce, and systemic therapy recommendations are mostly extrapolated from pleural disease.
 
-Other TxGNN predictions in this list are not equally credible. Pleural mesothelioma and its epithelioid, sarcomatoid and biphasic subtypes are on-label or subtypes of an approved use, so they are not true repurposing. Iminoglycinuria and pleural adenomatoid tumour appear to be knowledge-graph artefacts. This report focuses on peritoneal mesothelioma.
+Other TxGNN predictions in this list are not equally credible. Pleural mesothelioma and its epithelioid, sarcomatoid and biphasic subtypes are on-label or subtypes of an approved use, so they are not true repurposing. Iminoglycinuria and pleural adenomatoid tumour appear to be TxGNN model (deep learning) artefacts. This report focuses on peritoneal mesothelioma.
 
 ## Clinical Trial Evidence
 
@@ -100,7 +100,6 @@ Other TxGNN predictions in this list are not equally credible. Pleural mesotheli
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (antifolate class) |
-| Myelosuppression Risk | Medium to high; the knowledge graph links pemetrexed to neutropenia, thrombocytopenia, anaemia and agranulocytosis |
 | Emetogenicity Classification | Please refer to the Product Information (PI) |
 | Monitoring Items | Full blood count with differential, renal function and liver function; renal function is particularly important because the drug is renally cleared |
 | Handling Protection | Follow local cytotoxic drug handling requirements |

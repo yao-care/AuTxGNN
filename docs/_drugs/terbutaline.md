@@ -4,17 +4,17 @@ title: Terbutaline
 parent: High Evidence (L1-L2)
 nav_order: 709
 evidence_level: L1
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Terbutaline: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Asthma, bronchitis, pulmonary emphysema"
 monitor_inn: "Terbutaline"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "laryngotracheitis", "bronchial neoplasm (disease)", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "nasolacrimal duct disease", "lacrimal passage granuloma"]
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+description: "Terbutaline: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Terbutaline
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Terbutaline: From Asthma to Obstructive Lung Disease
+## Terbutaline: Obstructive lung disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The data compiled for this report include **14 clinical trials** and **20 public
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma, bronchitis, pulmonary emphysema (the Australian ARTG entry has no indication text; indications are from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -112,7 +112,7 @@ Terbutaline also appears in several large Phase 3 trials as the as-needed reliev
 
 ## Safety Considerations
 
-**Contraindications / conditions of concern (from knowledge-graph associations, not product label text):** hypertension, epilepsy, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, potassium deficiency, sudden cardiac arrest, heart conduction disease, respiratory failure, hyperthyroidism (Graves disease, thyrotoxicosis), pulmonary oedema, myocardial ischaemia, coronary artery disease and placental abruption.
+**Contraindications / conditions of concern (not product label text):** hypertension, epilepsy, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, potassium deficiency, sudden cardiac arrest, heart conduction disease, respiratory failure, hyperthyroidism (Graves disease, thyrotoxicosis), pulmonary oedema, myocardial ischaemia, coronary artery disease and placental abruption.
 
 **Drug Interactions:** 100 interactions were identified. Examples:
 - **Moderate:** epinephrine, clarithromycin, famotidine, loperamide, isometheptene, bisacodyl, and several antidiabetic agents (acarbose, alogliptin, albiglutide, canagliflozin, chlorpropamide, pioglitazone). Antidiabetic interactions are plausibly related to terbutaline's hyperglycaemic effect.
@@ -137,7 +137,7 @@ Cardiovascular effects (tachycardia, arrhythmia) and hypokalaemia deserve partic
 
 ---
 
-*Other predictions (for context only):* COPD (score 96.8%) also reaches evidence level L1 and is a near-label use. The remaining predictions (respiratory malformation, Rienhoff syndrome, laryngotracheitis, bronchial neoplasm, anaphylaxis, food-dependent exercise-induced anaphylaxis, nasolacrimal duct disease, lacrimal passage granuloma) have little or no clinical evidence and are recommended as **Hold**.
+*Other predictions (for context only):* COPD also reaches evidence level L1 and is a near-label use. The remaining predictions (respiratory malformation, Rienhoff syndrome) have little or no clinical evidence and are recommended as **Hold**.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

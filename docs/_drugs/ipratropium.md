@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ipratropium
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 388
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Ipratropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Chronic obstructive pulmonary disease…"
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
+description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ipratropium
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,31 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Ipratropium: From Chronic Obstructive Pulmonary Disease to Obstructive Lung Disease
+## Ipratropium: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ipratropium is an inhaled anticholinergic bronchodilator, originally used for chronic obstructive pulmonary disease (COPD), bronchitis, emphysema and rhinitis.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, with **25 clinical trials** and **20 publications** retrieved for this prediction.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, with **25 clinical trials** and **20 publications** retrieved for this prediction.
 This prediction largely confirms existing on-label use rather than representing a true new indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic obstructive pulmonary disease, allergic and vasomotor rhinitis, bronchitis, common cold, pulmonary emphysema (the Australian ARTG entry carries no indication text; these indications come from the knowledge graph) |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. From the literature, ipratropium bromide is a non-selective muscarinic antagonist. It blocks acetylcholine-mediated (vagal) bronchoconstriction in airway smooth muscle, which produces bronchodilation.
 
-Obstructive lung disease is the broad category that includes COPD, emphysema and chronic bronchitis, all conditions for which ipratropium is already established. The prediction therefore overlaps substantially with existing use. It is a confirmation of known pharmacology rather than a novel repurposing, and the clinical trial and review evidence supports this reading.
 
 The other predicted indications (ranks 2 to 10) are far weaker. Nasal cavity disease is consistent with the approved rhinitis use but has no trials. Pharyngitis, tracheal disease and anaphylaxis have only indirect or preclinical evidence. Acute laryngopharyngitis, papillary conjunctivitis, Rienhoff syndrome and food-dependent exercise-induced anaphylaxis are model predictions only. Respiratory malformation rests on a very small, loosely matched study.
 
@@ -115,7 +114,7 @@ The data compiled for this report do not include label warnings or contraindicat
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 trials (including one with 1118 participants) and reviews support ipratropium in obstructive airway disease. However, this largely confirms existing on-label use rather than a new indication. The indication text for the Australian ARTG entry and the safety data are also missing. Evidence level L1 applies to the obstructive lung disease prediction only. Every other predicted indication is rated L3 to L5 and should be held or treated as a research question.
+Multiple completed Phase 3 trials (including one with 1118 participants) and reviews support ipratropium in obstructive airway disease. The indication text for the Australian ARTG entry and the safety data are also missing. The predicted indications are rated L3 to L5 and should be held or treated as a research question.
 
 **To proceed, the following is needed:**
 - The TGA-approved Product Information (PI), to confirm the approved indications, warnings and contraindications (a blocking data gap)

@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Prazosin
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 598
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Prazosin: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder). The Australian registry data co…"
-monitor_inn: "Prazosin"
-predicted_indications: ["malignant hypertensive renal disease", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "specific developmental disorder", "Braddock syndrome", "chondromyxoid fibroma"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Prazosin: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Prazosin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,80 +32,46 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Prazosin: From Hypertension to Malignant Hypertensive Renal Disease
+<!-- known-uses-page -->
+<!-- description: Prazosin: known uses and market status in Australia; currently no new candidate indication -->
+## Prazosin: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model has no candidate with a score of 0.99 or higher for Prazosin, so there is currently no new predicted indication. The drug's recorded uses are listed below. They are the drug's own known uses, not model candidates.
 
-Prazosin is an alpha-1 adrenergic blocker, originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant hypertensive renal disease** (score 90.2%), but there are currently **no registered clinical trials** and **no publications** specific to this indication.
-The prediction rests on model output alone. Of the ten predictions generated, the one with the most supporting material is malignant renovascular hypertension, and that material is only indirect.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder). The Australian registry data compiled for this report contain no approved indication text. |
-| Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 90.2% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 2 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Prazosin is generally known as an alpha-1 adrenergic receptor antagonist. It lowers blood pressure by relaxing blood vessels (vasodilation), and its efficacy in hypertension is established.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Malignant hypertensive renal disease is kidney injury driven by severe, accelerated hypertension. Blood pressure lowering is mechanistically relevant, so the prediction is biologically plausible. However, it is largely an extension of prazosin's existing hypertension use rather than a distinct new therapeutic area. No trials or publications were supplied to confirm benefit in this specific population.
-
-### Other Predictions Reviewed
-
-| Rank | Predicted Indication | Score | Evidence Level | Comment |
-|---|---|---|---|---|
-| 2 | Malignant renovascular hypertension | 90.2% | L4 | Indirect literature only. Close to the existing hypertension use. |
-| 3 | Attention deficit-hyperactivity disorder | 89.7% | L4 | Plausible noradrenergic hypothesis, supported by preclinical papers only. Classed as a research question. |
-| 4 | ADHD, inattentive type | 89.7% | L5 | Prediction only. |
-| 5 | Faciodigitogenital syndrome | 89.4% | L5 | No mechanistic link identified. |
-| 6 | Pulmonary hypertension owing to lung disease and/or hypoxia | 89.3% | L4 | Preclinical and physiological papers only. Vasodilators may worsen ventilation-perfusion matching. |
-| 7 | Pulmonary hypertension, unclear multifactorial mechanism | 89.3% | L5 | Prediction only. |
-| 8 | Specific developmental disorder | 87.2% | L5 | Supplied papers concern alcohol use disorder, so they do not support this indication. |
-| 9 | Braddock syndrome | 86.2% | L5 | No mechanistic link identified. |
-| 10 | Chondromyxoid fibroma | 77.3% | L5 | No mechanistic link identified. |
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for malignant hypertensive renal disease.
-
-For the closely related second-ranked prediction, malignant renovascular hypertension, the following indirect publications were identified:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [1055318](https://pubmed.ncbi.nlm.nih.gov/1055318/) | 1975 | Case series | N Z Med J | 24 hypertensive patients treated with prazosin. 20 reached standing BP below 140/90 mmHg at six weeks. Two cases of severe renovascular hypertension responded excellently. Side effects were trivial. |
-| [22147655](https://pubmed.ncbi.nlm.nih.gov/22147655/) | 2012 | Review | Horm Metab Res | Factors affecting the aldosterone/renin ratio. A diagnostic paper that does not test prazosin. |
-| [22294399](https://pubmed.ncbi.nlm.nih.gov/22294399/) | 2009 | Preclinical | Curr Protoc Pharmacol | Rat models of hypertension (SHR, DOCA-salt, Goldblatt). Prazosin was the most active reference compound in the SHR model. |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| hypertension |
+| hypertensive disorder |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13367M | APO-Prazosin | Tablet 5 mg (as hydrochloride) | Not stated in the data compiled for this report |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 13367M | APO-Prazosin | Tablet 5 mg (as hydrochloride) | Valid |
 
 ## Safety Considerations
 
@@ -123,19 +88,6 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The predicted indication is supported only by a model score, with no trials or specific literature. It is also essentially an extension of prazosin's established hypertension use. The ADHD prediction is the most distinct hypothesis, but it rests on preclinical data alone and is best treated as a research question.
-
-**To proceed, the following is needed:**
-- Mechanism of action data (for example, from DrugBank)
-- TGA Product Information, including approved indications, warnings and contraindications
-- Targeted literature searching and trial registry review for malignant hypertension with renal involvement
-- A renal safety assessment, given the knowledge graph kidney-disease contraindication signals
-- For ADHD, dedicated clinical studies before any further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Siltuximab
 parent: Model Prediction Only (L5)
 nav_order: 673
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Castleman disease"
 monitor_inn: "Siltuximab"
-predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever", "syndrome with combined immunodeficiency", "TAFRO syndrome"]
+predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
+description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Siltuximab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Siltuximab: From Castleman Disease to Extracutaneous Mastocytoma
+## Siltuximab: Extracutaneous mastocytoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no publications** currently support this specific p
 
 | Item | Content |
 |------|------|
-| Original Indication | Castleman disease (the ARTG entry in the data compiled for this report has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Extracutaneous mastocytoma |
-| TxGNN Prediction Score | 99.64% |
+| TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,8 +61,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 IL-6 can contribute to mast cell biology, so a mechanistic link to mast cell tumours is conceivable. However, this link is speculative. No trial or literature was identified to test it, and the prediction rests only on the TxGNN score.
 
 **Other predictions worth noting.** The model also ranked other diseases for siltuximab. Two have more supporting evidence than the top-ranked prediction:
-- **TAFRO syndrome** (score 98.79%, evidence level L4): a variant of idiopathic multicentric Castleman disease with cytokine-storm features, which supports biological plausibility. Direct evidence is limited to case reports and consensus guidance. The pivotal Phase 2 RCT was in multicentric Castleman disease, not TAFRO, and TAFRO patients often respond poorly to siltuximab.
-- **Kaposi's sarcoma** (score 99.28%, evidence level L4): KSHV encodes a viral IL-6 homologue, and KSHV-associated multicentric Castleman disease is closely related. The only retrieved paper is a general Castleman review, so there is no direct clinical evidence.
+- **Kaposi's sarcoma** (score 0.9928, evidence level L4): KSHV encodes a viral IL-6 homologue, and KSHV-associated multicentric Castleman disease is closely related. The only retrieved paper is a general Castleman review, so there is no direct clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -72,7 +71,7 @@ Currently no related clinical trials registered for extracutaneous mastocytoma.
 
 Currently no related literature available for extracutaneous mastocytoma.
 
-For context, the literature retrieved for the related Castleman disease and TAFRO syndrome predictions includes:
+For context, the literature retrieved for the related Castleman disease predictions includes:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -115,7 +114,6 @@ The extracutaneous mastocytoma prediction is supported only by a model score, wi
 - Preclinical or mechanistic studies linking IL-6 signalling to mast cell tumours
 - Detailed mechanism of action data and TGA Product Information (warnings and contraindications)
 - Confirmation of the approved indication wording for the ARTG entry
-- If a repurposing target is pursued, consider TAFRO syndrome or Kaposi's sarcoma first, since both have a clearer IL-6 rationale and some supporting literature
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

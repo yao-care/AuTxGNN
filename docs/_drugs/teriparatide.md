@@ -4,9 +4,9 @@ title: Teriparatide
 parent: Model Prediction Only (L5)
 nav_order: 711
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Teriparatide: predicted new indication Duodenal ulcer (evidence level L5). Approved use: Postmenopausal osteoporosis"
+description: "Teriparatide: predicted new indication duodenal ulcer (disease) (evidence level L5). Approved use: Postmenopausal osteoporosis"
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 # Teriparatide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Teriparatide: From Osteoporosis to Duodenal Ulcer
+## Teriparatide: From Osteoporosis to duodenal ulcer (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,17 +47,17 @@ The TxGNN model ranks **duodenal ulcer** as its top predicted new indication, bu
 |------|------|
 | Original Indication | Postmenopausal osteoporosis; osteoporosis |
 | Predicted New Indication | Duodenal ulcer |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 The data compiled for this report do not include a curated mechanism-of-action statement. Pharmacology records show that teriparatide acts on the PTH1 receptor (PTH1R) and also binds the PTH2 receptor (PTH2R). Its established clinical role is as a bone-building (anabolic) agent for patients at high risk of fracture.
 
-No plausible link between this bone-anabolic signalling and duodenal ulcer healing was found in the supplied data. The prediction comes from the knowledge-graph model alone. A high score reflects patterns in the graph, not demonstrated biology or clinical benefit. Without supporting studies, this prediction should be treated as a hypothesis only.
+No plausible link between this bone-anabolic signalling and duodenal ulcer healing was found in the supplied data. The prediction (score 0.9986) comes from the TxGNN model (deep learning) alone. A high score may reflect similarities the model learned between related diseases, not biological evidence, and does not show demonstrated biology or clinical benefit. Without supporting studies, this prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 

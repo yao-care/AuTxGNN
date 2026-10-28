@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lamotrigine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 409
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L3). Approved use: Epilepsy (partial epilepsy, Lennox-Gastaut syndrome)"
 monitor_inn: "Lamotrigine"
-predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "restless legs syndrome"]
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 ---
 
 # Lamotrigine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Lamotrigine is an anticonvulsant originally used to treat epilepsy, including partial epilepsy and Lennox-Gastaut syndrome.
-The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but this appears to be an artefact of the knowledge graph, with **0 clinical trials** and only **2 publications**, neither of which concerns neoplasm treatment.
+The TxGNN model's (deep learning) top-ranked prediction is **trigeminal nerve neoplasm**, but this score comes from the TxGNN model and may reflect similarities the model learned between related diseases, not biological evidence, with **0 clinical trials** and only **2 publications**, neither of which concerns neoplasm treatment.
 The closely related prediction, **trigeminal neuralgia**, has far stronger support (**2 completed clinical trials** and **18 publications**), so it is the more credible repurposing direction and is discussed alongside the top-ranked item below.
 
 ---
@@ -50,10 +50,10 @@ The closely related prediction, **trigeminal neuralgia**, has far stronger suppo
 |------|------|
 | Original Indication | Epilepsy (partial epilepsy, Lennox-Gastaut syndrome) |
 | Predicted New Indication | Trigeminal nerve neoplasm (rank 1); trigeminal neuralgia (rank 2) is the better-supported alternative |
-| TxGNN Prediction Score | 99.97% (trigeminal nerve neoplasm); 99.89% (trigeminal neuralgia) |
+| TxGNN Prediction Score | 0.9997 (trigeminal nerve neoplasm); 0.9989 (trigeminal neuralgia) |
 | Evidence Level | L5 (trigeminal nerve neoplasm); L2 (trigeminal neuralgia) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (trigeminal nerve neoplasm); Proceed with Guardrails (trigeminal neuralgia) |
 
 ---
@@ -62,7 +62,7 @@ The closely related prediction, **trigeminal neuralgia**, has far stronger suppo
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, lamotrigine blocks voltage-gated sodium channels and reduces glutamate release, which underlies its effect in epilepsy.
 
-**Trigeminal nerve neoplasm:** The very high score appears to reflect the disease's proximity to trigeminal neuralgia in the knowledge graph, not a true anti-tumour effect. There is no evidence that lamotrigine acts on tumour biology. The two papers retrieved concern trigeminal neuralgia (a general treatment review and a Gamma Knife case report for a cavernous malformation), not neoplasm treatment.
+**Trigeminal nerve neoplasm:** The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as trigeminal neuralgia, not biological evidence of a true anti-tumour effect. There is no evidence that lamotrigine acts on tumour biology. The two papers retrieved concern trigeminal neuralgia (a general treatment review and a Gamma Knife case report for a cavernous malformation), not neoplasm treatment.
 
 **Trigeminal neuralgia:** The rationale here is much stronger. Trigeminal neuralgia involves focal demyelination and ectopic, hyperexcitable firing of trigeminal afferents. Sodium channel blockade dampens this firing, the same mechanism as carbamazepine and oxcarbazepine, the first-line agents. The European Academy of Neurology guideline (2019) lists lamotrigine as an add-on or second-line option. A practical constraint is the slow dose titration needed to limit rash risk (including Stevens-Johnson syndrome), which is awkward in a condition with severe acute pain.
 
@@ -139,7 +139,7 @@ No ANZCTR identifiers were identified in the data compiled for this report.
 **Decision: Hold (trigeminal nerve neoplasm, the top-ranked prediction); Proceed with Guardrails (trigeminal neuralgia)**
 
 **Rationale:**
-- The top-ranked prediction, trigeminal nerve neoplasm, has no supporting trials and no evidence of anti-tumour activity; it is most likely a knowledge-graph artefact. Trigeminal neuralgia is a plausible, guideline-recognised second-line use, supported by two small completed trials, but no adequately powered Phase 3 RCT is confirmed.
+- The top-ranked prediction, trigeminal nerve neoplasm, has no supporting trials and no evidence of anti-tumour activity; it is most likely a TxGNN model (deep learning) artefact. Trigeminal neuralgia is a plausible, guideline-recognised second-line use, supported by two small completed trials, but no adequately powered Phase 3 RCT is confirmed.
 
 **To proceed, the following is needed:**
 - Confirmation of the intended indication (neoplasm versus neuralgia) before any further work

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulfamethoxazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 690
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L4). Approved use: Infectious otitis media, nocardiosis, toxoplasmosis, hirudiniasis…"
 monitor_inn: "sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
+description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sulfamethoxazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Sulfamethoxazole: From Bacterial Infections to Acute Contagious Conjunctivitis
+## Sulfamethoxazole: Acute contagious conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Sulfamethoxazole is a sulfonamide antibacterial, usually given with trimethoprim, and is originally used for infections such as otitis media, nocardiosis, toxoplasmosis, pneumocystosis, shigellosis and conjunctivitis.
 The TxGNN model predicts it may be effective for **acute contagious conjunctivitis**, with **no registered clinical trials** and **1 publication** (a retrospective cohort study) currently supporting this direction.
-Conjunctivitis is already among the drug's original indications in the knowledge graph, so this is not a true repurposing candidate.
 
 ---
 
@@ -48,12 +47,12 @@ Conjunctivitis is already among the drug's original indications in the knowledge
 
 | Item | Content |
 |------|------|
-| Original Indication | Infectious otitis media, nocardiosis, toxoplasmosis, hirudiniasis, myiasis, pneumocystosis, shigellosis, conjunctivitis, cat-scratch disease (from the TxGNN knowledge graph; no approved indication text is available for the ARTG entry) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acute contagious conjunctivitis |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9963 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +63,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 "Conjunctivitis" already appears among the drug's original indications. Acute contagious conjunctivitis is therefore best viewed as a subtype of, or a close match to, an existing use rather than a new indication.
 
-The very high TxGNN score (99.63%) is likely driven by this existing conjunctivitis association in the knowledge graph. It should not be read as independent evidence. The oral tablet formulation (160 mg/800 mg) also differs from the topical antibiotics commonly used for conjunctivitis, so route suitability has not been assessed.
+The very high TxGNN score (0.9963) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The oral tablet formulation (160 mg/800 mg) also differs from the topical antibiotics commonly used for conjunctivitis, so route suitability has not been assessed.
 
 ---
 
@@ -114,7 +113,7 @@ Warnings and contraindications from the TGA-approved Product Information (PI) we
 **Decision: Hold**
 
 **Rationale:**
-Conjunctivitis is already an original indication, so this prediction does not represent a distinct repurposing opportunity. The score probably reflects the existing knowledge graph association. The only supporting study is a retrospective susceptibility cohort with no efficacy data, and there are no registered trials.
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The only supporting study is a retrospective susceptibility cohort with no efficacy data, and there are no registered trials.
 
 **To proceed, the following is needed:**
 - Approved indication text and PI safety information for ARTG 10784N

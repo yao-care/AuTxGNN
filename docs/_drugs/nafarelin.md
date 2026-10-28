@@ -4,17 +4,17 @@ title: Nafarelin
 parent: Model Prediction Only (L5)
 nav_order: 491
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Nafarelin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Endometriosis"
 monitor_inn: "Nafarelin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "pelvic organ prolapse", "syndrome with a Dandy-Walker malformation as major feature", "physiological sexual disorder", "female genital tuberculosis", "isolated genetic hair shaft abnormality", "dysplasia of cervix"]
+description: "Nafarelin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nafarelin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nafarelin: From Endometriosis to Ambras Type Hypertrichosis Universalis Congenita
+## Nafarelin: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,33 +45,32 @@ The TxGNN model predicts it may be effective for **Ambras type hypertrichosis un
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis; precocious puberty (the Australian licence record contains no indication text, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, nafarelin is a GnRH agonist. Continuous exposure desensitises pituitary GnRH receptors, which suppresses LH and FSH and lowers sex steroids. This is the basis for its use in endometriosis and central precocious puberty.
 
-The link to the predicted indication is weak. Ambras syndrome is a congenital hypertrichosis associated with genomic rearrangements affecting regulation of the *TRPS1* gene. It is not a GnRH-driven or sex-steroid-driven process. The high score (99.87%) is a model output, not evidence of benefit. No mechanistic link has been established.
+The link to the predicted indication is weak. Ambras syndrome is a congenital hypertrichosis associated with genomic rearrangements affecting regulation of the *TRPS1* gene. It is not a GnRH-driven or sex-steroid-driven process. The high score (0.9987) is a model output, not evidence of benefit. No mechanistic link has been established.
 
 **Other predictions (all Hold unless noted):**
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Malformation syndrome with odontal/periodontal component | 99.77% | L5 | No plausible mechanism |
-| 3 | Hypertrichosis | 99.77% | L5 | Weak and indirect; hypertrichosis is androgen-independent |
-| 4 | Pelvic organ prolapse | 99.77% | L5 | Hypoestrogenism would be expected to worsen, not help |
-| 5 | Dandy-Walker malformation syndrome | 99.75% | L5 | Structural defect, no plausible mechanism |
-| 6 | Physiological sexual disorder | 99.75% | L4 | Only an endometriosis pain paper, which is already a labelled use |
-| 7 | Female genital tuberculosis | 99.75% | L5 | No antimycobacterial effect |
-| 8 | Isolated genetic hair shaft abnormality | 99.73% | L5 | No established link |
-| 9 | Central precocious puberty 1 | 99.70% | L4 | Strong mechanistic fit, but effectively on-label rather than repurposing (Research Question) |
-| 10 | Dysplasia of cervix | 99.65% | L5 | HPV-driven; no established role for GnRH agonists |
+| 2 | Malformation syndrome with odontal/periodontal component | 0.9977 | L5 | No plausible mechanism |
+| 3 | Hypertrichosis | 0.9977 | L5 | Weak and indirect; hypertrichosis is androgen-independent |
+| 4 | Pelvic organ prolapse | 0.9977 | L5 | Hypoestrogenism would be expected to worsen, not help |
+| 5 | Dandy-Walker malformation syndrome | 0.9975 | L5 | Structural defect, no plausible mechanism |
+| 6 | Physiological sexual disorder | 0.9975 | L5 | Only an endometriosis pain paper, which is already a labelled use |
+| 7 | Female genital tuberculosis | 0.9975 | L5 | No antimycobacterial effect |
+| 8 | Isolated genetic hair shaft abnormality | 0.9973 | L5 | No established link |
+| 10 | Dysplasia of cervix | 0.9965 | L5 | HPV-driven; no established role for GnRH agonists |
 
 ## Clinical Trial Evidence
 

@@ -6,7 +6,7 @@ nav_order: 238
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Eculizumab: predicted new indication Cyclic haematopoiesis (evidence level L5). Approved use: Paroxysmal nocturnal haemoglobinuria"
+description: "Eculizumab: predicted new indication cyclic hematopoiesis (evidence level L5). Approved use: Paroxysmal nocturnal haemoglobinuria"
 monitor_inn: "Eculizumab"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Eculizumab: From Paroxysmal Nocturnal Haemoglobinuria to Cyclic Haematopoiesis
+## Eculizumab: From Paroxysmal Nocturnal Haemoglobinuria to Cyclic Hematopoiesis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Eculizumab is a complement C5 inhibitor, originally used to treat paroxysmal nocturnal haemoglobinuria (PNH) and neuromyelitis optica.
-The TxGNN model predicts it may be effective for **cyclic haematopoiesis**, but there are **no clinical trials** and **no disease-specific publications** supporting this prediction. It rests on a graph-based model prediction alone.
+The TxGNN model (deep learning) predicts it may be effective for **cyclic hematopoiesis**, but there are **no clinical trials** and **no disease-specific publications** supporting this prediction. It rests on the TxGNN model prediction alone, which may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **cyclic haematopoiesis**, but 
 |------|------|
 | Original Indication | Paroxysmal nocturnal haemoglobinuria; neuromyelitis optica (the approved indication text for the ARTG entry is not available) |
 | Predicted New Indication | Cyclic haematopoiesis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, eculizumab is a humanised monoclonal antibody that targets complement protein C5 and blocks terminal complement activation. Its efficacy in PNH, where uncontrolled complement activation drives haemolysis, is established. In the publications compiled for this report, it is also described as effective in atypical haemolytic uraemic syndrome and used in myasthenia gravis.
 
-The link to cyclic haematopoiesis (cyclic neutropenia) is weak. Cyclic neutropenia is typically caused by ELANE mutations affecting neutrophil precursors, and no established role for terminal complement (C5) inhibition has been identified. The high TxGNN score is therefore best read as a graph-based signal and not as evidence of a biological mechanism.
+The link to cyclic haematopoiesis (cyclic neutropenia) is weak. Cyclic neutropenia is typically caused by ELANE mutations affecting neutrophil precursors, and no established role for terminal complement (C5) inhibition has been identified. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions are mostly congenital neutropenia conditions, and they share the same problem. Eculizumab also increases susceptibility to encapsulated bacteria, particularly meningococcal infection. This would compound infection risk in neutropenic or immunodeficient patients, so the benefit-risk balance looks unfavourable.
 

@@ -4,17 +4,17 @@ title: Tamoxifen
 parent: Model Prediction Only (L5)
 nav_order: 699
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L5). Approved use: Female breast carcinoma"
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tamoxifen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tamoxifen: From Breast Carcinoma to Mammary Paget Disease
+## Tamoxifen: Mammary Paget disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tamoxifen is an oral selective oestrogen receptor modulator, originally used to treat breast carcinoma (female breast carcinoma, invasive ductal carcinoma and ductal adenocarcinoma).
 The TxGNN model predicts it may be effective for **mammary Paget disease**, but the supporting evidence is thin: **1 clinical trial** (not testing tamoxifen for this condition) and **10 publications**, mostly case reports and surgical series.
-Other predicted breast conditions, particularly **breast carcinoma in situ** and **oestrogen-receptor positive breast cancer**, have much stronger Phase 3 support. These are largely established uses of tamoxifen rather than novel repurposing.
 
 ---
 
@@ -48,27 +47,21 @@ Other predicted breast conditions, particularly **breast carcinoma in situ** and
 
 | Item | Content |
 |------|------|
-| Original Indication | Female breast carcinoma; invasive ductal breast carcinoma; breast ductal adenocarcinoma (from the knowledge graph; no approved indication text is available for the ARTG entry) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Mammary Paget disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 (for mammary Paget disease) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9969 |
+| Evidence Level | L5 (for mammary Paget disease) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Other predicted indications in the data compiled for this report:**
 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision |
 |------|------|------|------|
-| Breast carcinoma in situ | 99.67% | L1 | Proceed with Guardrails |
-| Oestrogen-receptor positive breast cancer | 99.67% | L1 | Proceed with Guardrails |
-| Hormone-resistant breast carcinoma | 99.67% | L3 | Research question |
-| Invasive tubular breast carcinoma | 99.67% | L4 | Hold |
-| Intraductal cribriform breast adenocarcinoma | 99.69% | L5 | Hold |
-| Basal-like breast carcinoma | 99.68% | L5 | Hold |
-| Sebaceous breast carcinoma | 99.67% | L5 | Hold |
-| Ehrlich tumour carcinoma (mouse model) | 99.67% | L5 | Hold |
-| Botryoid-type embryonal rhabdomyosarcoma of the vagina | 99.67% | L5 | Hold |
+| Oestrogen-receptor positive breast cancer | 0.9967 | L1 | Proceed with Guardrails |
+| Ehrlich tumour carcinoma (mouse model) | 0.9967 | L5 | Hold |
+| Botryoid-type embryonal rhabdomyosarcoma of the vagina | 0.9967 | L5 | Hold |
 
 ---
 

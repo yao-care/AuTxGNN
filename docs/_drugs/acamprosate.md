@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Acamprosate
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 16
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Acamprosate: predicted new indication Progressive encephalopathy with leukodystrophy due to DECR deficiency (evidence level L5). Approved use: Substance abuse/dependence"
-monitor_inn: "Acamprosate"
-predicted_indications: ["progressive encephalopathy with leukodystrophy due to DECR deficiency", "trichotillomania", "Wernicke-Korsakoff syndrome", "alcohol amnestic disorder", "glaucoma", "Tourette syndrome", "attention deficit-hyperactivity disorder", "absence epilepsy", "alcohol withdrawal", "faciodigitogenital syndrome"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Acamprosate: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Acamprosate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,45 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Acamprosate: From Substance Abuse/Dependence to Progressive Encephalopathy with Leukodystrophy due to DECR Deficiency
+<!-- known-uses-page -->
+<!-- description: Acamprosate: known uses and market status in Australia; currently no new candidate indication -->
+## Acamprosate: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model has no candidate indication with a score of 0.99 or higher for Acamprosate, so there is currently no new predicted indication. The uses recorded for this drug are listed below. They are the drug's own recorded uses, not model candidates.
 
-Acamprosate is an oral medicine originally used for substance (alcohol) dependence.
-The TxGNN model predicts it may be effective for **progressive encephalopathy with leukodystrophy due to DECR deficiency**, but **no clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Substance abuse/dependence (from the knowledge graph; the ARTG entry has no indication text) |
-| Predicted New Indication | Progressive encephalopathy with leukodystrophy due to DECR deficiency |
-| TxGNN Prediction Score | 98.53% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 1 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Detailed mechanism of action data is not currently available. Acamprosate is generally thought to modulate glutamatergic (NMDA) and GABAergic signalling, which is disturbed by chronic alcohol exposure. This is the basis of its use in maintaining abstinence in alcohol dependence.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-DECR deficiency is an ultra-rare mitochondrial fatty acid oxidation disorder. No plausible link has been established between it and acamprosate's putative neurotransmitter-modulating activity. The high TxGNN score is a graph-based prediction only, and it should be treated as a hypothesis-generating signal rather than evidence of benefit.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| substance abuse/dependence |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 8357W | Campral | Tablet (enteric coated) containing acamprosate calcium 333 mg | Not specified in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 8357W | Campral | Tablet (enteric coated) containing acamp | Valid |
 
 ## Safety Considerations
 
@@ -91,19 +90,6 @@ Currently no related literature available.
 
 Label-based warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by a model score (L5), with no trials, no literature and no plausible mechanistic link to an ultra-rare metabolic leukodystrophy. For comparison, among the other predictions generated for acamprosate, alcohol withdrawal has the strongest support: a completed Phase 2 trial (NCT00106106, 56 participants) and a closely adjacent approved indication. It is rated L2 and is a better candidate for further investigation.
-
-**To proceed, the following is needed:**
-- A mechanistic rationale connecting acamprosate to DECR deficiency pathophysiology, supported by preclinical or disease-model data
-- Detailed mechanism of action data for acamprosate
-- Label-based warnings and contraindications from the TGA-approved PI, including renal function considerations
-- Graded severity for the identified drug interactions
-- A review of whether any real-world or case-level data exist for this condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

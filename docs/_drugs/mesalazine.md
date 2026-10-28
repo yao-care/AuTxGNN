@@ -4,17 +4,17 @@ title: Mesalazine
 parent: Model Prediction Only (L5)
 nav_order: 460
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "Mesalazine"
-predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "osteoarthritis susceptibility", "vulvar inverted follicular keratosis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
+predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
+description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mesalazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mesalazine: From Ulcerative Colitis to Congenital Hypotrichosis with Juvenile Macular Dystrophy
+## Mesalazine: Congenital hypotrichosis with juvenile macular dystrophy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **congenital hypotrichosis with
 
 | Item | Content |
 |------|------|
-| Original Indication | Ulcerative colitis, inflammatory bowel disease, ulcerative proctosigmoiditis (from knowledge-graph indication data; no approved indication text is available for the Australian entry) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital hypotrichosis with juvenile macular dystrophy |
-| TxGNN Prediction Score | 99.65% |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, mesalazine is an aminosalicylate anti-inflammatory agent, its efficacy in ulcerative colitis is established, but a mechanistic link to the predicted indication has not been identified.
 
-Congenital hypotrichosis with juvenile macular dystrophy is an ultra-rare hereditary disorder caused by CDH3 mutation. No inflammatory pathway that mesalazine could plausibly modulate has been identified. The high TxGNN score appears to be an artefact of the knowledge graph rather than a signal supported by clinical or published data.
+Congenital hypotrichosis with juvenile macular dystrophy is an ultra-rare hereditary disorder caused by CDH3 mutation. No inflammatory pathway that mesalazine could plausibly modulate has been identified. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predictions in the ranked list were also reviewed. Rheumatoid arthritis (indirect evidence via sulfasalazine, which is metabolised to mesalazine) and osteoarthritis (a loose anti-inflammatory rationale) have somewhat more plausible rationales. Both are still at the "Hold" stage and do not alter the decision for the lead prediction.
 

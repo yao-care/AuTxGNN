@@ -6,7 +6,7 @@ nav_order: 206
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Degarelix: predicted new indication Hypertrichosis (evidence level L5). Approved use: Not available in the data compiled for this report"
+description: "Degarelix: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Degarelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "allergic urticaria", "cold urticaria", "familial male-limited precocious puberty", "centra precocious puberty 1", "familial isolated trichomegaly"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Degarelix: From Prostate Cancer to Hypertrichosis
+## Degarelix: From Prostate Cancer to Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ Degarelix is a GnRH receptor antagonist marketed in Australia as Firmagon 80 mg.
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,7 +60,7 @@ Degarelix is a GnRH receptor antagonist marketed in Australia as Firmagon 80 mg.
 
 Detailed mechanism of action data is not available in the data compiled for this report. Degarelix is a GnRH receptor antagonist. It suppresses LH and FSH and, as a result, testosterone and downstream androgens.
 
-Hypertrichosis is generally not androgen-dependent (unlike hirsutism), so the link to androgen suppression is weak. The very high TxGNN score is a graph-based prediction with no supporting trial or literature evidence. Hypertrichosis is also a recognised adverse effect of some drugs, and no data suggest degarelix would treat it.
+Hypertrichosis is generally not androgen-dependent (unlike hirsutism), so the link to androgen suppression is weak. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and there is no supporting trial or literature evidence. Hypertrichosis is also a recognised adverse effect of some drugs, and no data suggest degarelix would treat it.
 
 The other top-ranked predictions are similarly poorly supported. They include Ambras-type hypertrichosis, Dandy-Walker malformation syndromes, malformation syndromes with dental involvement, isolated hair shaft abnormalities, allergic and cold urticaria, and familial isolated trichomegaly. They are mostly genetic or developmental conditions with no plausible GnRH-related mechanism, and the scores likely reflect network proximity rather than a real therapeutic link.
 
@@ -98,7 +98,7 @@ Degarelix is a hormonal agent, not a conventional cytotoxic, and the data compil
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** long QT syndrome, familial long QT syndrome, torsades de pointes, liver disease, gallbladder disease, potassium deficiency disease.
+- **Contraindications (associations, not label text):** long QT syndrome, familial long QT syndrome, torsades de pointes, liver disease, gallbladder disease, potassium deficiency disease.
 - **Drug Interactions:** 100 interactions were identified in total. The first 20 returned include:
   - **Major:** cisapride, dolasetron.
   - **Moderate:** famotidine, loperamide, bisacodyl, clarithromycin, picosulfuric acid, polyethylene glycol (3350 with electrolytes), castor oil, glycerin, granisetron, lactitol, lactulose, levofloxacin, magnesium citrate, magnesium hydroxide, mineral oil, ondansetron, palonosetron.

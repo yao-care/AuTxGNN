@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Selegiline
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 662
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Selegiline: predicted new indication Schizophrenia (evidence level L3). Approved use: Parkinson's disease"
 monitor_inn: "Selegiline"
-predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy", "myopia X-linked", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
+predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
+description: "Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Selegiline
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,11 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Selegiline: From Parkinson's Disease to Schizophrenia
+## Selegiline: Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Selegiline is a monoamine oxidase type B (MAO-B) inhibitor, originally used to treat Parkinson's disease (and associated with depression and anxiety indications in the knowledge graph).
 The TxGNN model predicts it may be useful for **schizophrenia** (specifically as an add-on for negative symptoms), with **1 clinical trial** and **20 publications** currently supporting this direction.
 Note that the highest-scoring prediction (rank 1) has no supporting evidence, so schizophrenia, the best-supported prediction, is the one assessed here.
 
@@ -46,15 +45,15 @@ Note that the highest-scoring prediction (rank 1) has no supporting evidence, so
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease (the ARTG entry in the data compiled for this report has no indication text recorded) |
-| Predicted New Indication | Schizophrenia (rank 2; selected as the best-supported of the top 10 predictions) |
-| TxGNN Prediction Score | 99.14% |
-| Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis |
+| TxGNN Prediction Score | 0.9915 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
-The rank 1 prediction, perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis (score 99.15%), has no trials or literature and no plausible mechanism, so it is not pursued. Ranks 3 to 10 are likewise unsupported (L4 to L5).
+The rank 1 prediction, perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis (score 0.9915), has no trials or literature and no plausible mechanism, so it is not pursued. Ranks 3 to 10 are likewise unsupported (L4 to L5).
 
 ## Why is This Prediction Reasonable?
 

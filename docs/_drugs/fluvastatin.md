@@ -4,17 +4,17 @@ title: Fluvastatin
 parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Fluvastatin: predicted new indication Hyperlipoproteinaemia (evidence level L5). Approved use: Atherosclerosis and hyperlipidaemia (familial combined hyperlipidaemi…"
+indication_count: 6
 monitor_inn: "Fluvastatin"
-predicted_indications: ["hyperlipoproteinemia", "HIV infectious disease", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "fibroma of prostate"]
+predicted_indications: ["HIV infectious disease", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "fibroma of prostate"]
+last_modified_at: 2026-10-23
+description: "Fluvastatin: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluvastatin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,106 +33,81 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fluvastatin: From Atherosclerosis and Hyperlipidaemia to Hyperlipoproteinaemia
+## Fluvastatin: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Fluvastatin is an HMG-CoA reductase inhibitor (statin) originally used for atherosclerosis and familial combined hyperlipidaemia.
-The TxGNN model predicts it may be effective for **hyperlipoproteinaemia** (score 99.99%), but this is essentially a lipid-lowering use close to its existing indications rather than a true repurposing.
-Support is solid: **1 registered trial** was retrieved for this prediction (an alirocumab study with no direct bearing on fluvastatin) and **20 publications** were retrieved, including 2 RCTs of fluvastatin.
-
----
+Fluvastatin is a statin (HMG-CoA reductase inhibitor).
+The TxGNN model predicts it may be relevant to **HIV infectious disease**, but the 13 publications compiled for this report mainly concern lipid management and drug interactions in people with HIV, not treatment of HIV itself. No clinical trials are registered in the data compiled for this report.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Atherosclerosis and hyperlipidaemia (familial combined hyperlipidaemia). The Australian ARTG entry carries no indication text, so this is based on the knowledge-graph indications. |
-| Predicted New Indication | Hyperlipoproteinaemia |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 (as assigned in the compiled data; see the note under Clinical Trial Evidence) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | HIV infectious disease |
+| TxGNN Prediction Score | 0.9988 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
+| Recommended Decision | Hold |
 
----
+**Evidence level note:** Several publications study fluvastatin in people with HIV, but they address dyslipidaemia, drug interactions or HCV co-infection. None of them studies fluvastatin as a treatment for HIV infection itself. Under the evidence rules, the level is therefore L5.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, fluvastatin inhibits HMG-CoA reductase, which lowers hepatic cholesterol synthesis and upregulates LDL receptors, reducing circulating LDL cholesterol.
+Currently, detailed mechanism of action data is not available. Fluvastatin is known as a statin that inhibits HMG-CoA reductase and lowers LDL cholesterol.
 
-Hyperlipoproteinaemia is the same underlying problem as its original indications (hyperlipidaemia and atherosclerosis). The mechanism applies directly, so the prediction is best viewed as an on-label or near-label use. Fluvastatin-specific studies cover elderly patients, Chinese patients, familial hypercholesterolaemia, combination with bezafibrate, extended-release versus immediate-release formulations, and paediatric use.
+Fluvastatin is not an antiviral. The link to HIV is indirect. Statins may reduce inflammation and immune activation in treated HIV, and fluvastatin has been studied for dyslipidaemia in people on protease inhibitors. It is metabolised mainly by CYP2C9 rather than CYP3A4, so it is less likely to interact with antiretroviral protease inhibitors than some other statins. One preclinical study reported a protective effect on podocytes in a mouse model of HIV-associated nephropathy.
 
-Other predictions in the same output, in brief:
-- **Familial hypercholesterolaemia (rank 4):** Strongest direct evidence, including a completed Phase 3 fluvastatin paediatric trial (NCT00171236, n=84). Also Proceed with Guardrails.
-- **Homozygous familial hypercholesterolaemia (rank 2):** Little or no functional LDL receptor activity is expected to limit statin response, and there is no fluvastatin-specific evidence. A research question only.
-- **HIV infection (rank 5):** Studies concern antiretroviral-associated dyslipidaemia, not antiviral activity. A research question only.
-- **Ranks 3 and 6 to 10** (including CETP deficiency, 7alpha-hydroxylase deficiency, and veterinary or animal-model viral conditions): prediction only with no supporting evidence. Hold.
-
----
+These data support lipid management and possible adjunctive benefits in people with HIV. They do not show that fluvastatin treats HIV infection.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Alirocumab (a PCSK9 inhibitor) in children and adolescents with homozygous familial hypercholesterolaemia. Does not test fluvastatin, so it gives no direct evidence. |
-
-For the closely related prediction of heterozygous **familial hypercholesterolaemia**, a directly relevant trial exists: [NCT00171236](https://clinicaltrials.gov/study/NCT00171236) (Phase 3, completed, n=84), assessing fluvastatin safety and efficacy in children with heterozygous familial hypercholesterolaemia.
-
-No ANZCTR trials were identified in the data compiled.
-
-**Note on evidence level:** The L1 grade for hyperlipoproteinaemia rests mainly on the fluvastatin RCTs in the literature below, not on the registered trial listed above.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11219479](https://pubmed.ncbi.nlm.nih.gov/11219479/) | 2001 | RCT | Clin Ther | Compared fluvastatin 80 mg extended-release with immediate-release formulations in primary hypercholesterolaemia (the formulation held on the ARTG). |
-| [17062478](https://pubmed.ncbi.nlm.nih.gov/17062478/) | 2006 | RCT | Acta Paediatr | Fluvastatin in children and adolescents with heterozygous familial hypercholesterolaemia: lipid profile and vascular effects. |
-| [10856536](https://pubmed.ncbi.nlm.nih.gov/10856536/) | 2000 | Clinical trial | Atherosclerosis | FACT study: fluvastatin plus bezafibrate in 333 patients with coronary artery disease and mixed hyperlipidaemia (double-blind). |
-| [15598476](https://pubmed.ncbi.nlm.nih.gov/15598476/) | 2004 | Randomised, double-blind trial | Clin Ther | 12-month comparison of fluvastatin plus fenofibrate versus fluvastatin alone in combined hyperlipidaemia, type 2 diabetes and coronary heart disease. |
-| [8157036](https://pubmed.ncbi.nlm.nih.gov/8157036/) | 1993 | Clinical trial | Eur J Clin Pharmacol | High-dose fluvastatin in 52 patients with familial hypercholesterolaemia (double-blind). |
-| [7517835](https://pubmed.ncbi.nlm.nih.gov/7517835/) | 1994 | Clinical trial | Drugs | Efficacy and safety of fluvastatin 40 mg in elderly women with hypercholesterolaemia (n=22). |
-| [7604789](https://pubmed.ncbi.nlm.nih.gov/7604789/) | 1995 | Clinical trial | Am J Cardiol | Effects of fluvastatin on lipids and apolipoproteins in 31 Chinese patients with hypercholesterolaemia. |
-| [10067240](https://pubmed.ncbi.nlm.nih.gov/10067240/) | 1998 | Clinical study | Ter Arkh | Variability of lipid-lowering response to simvastatin and fluvastatin in primary hyperlipoproteinaemia. |
-| [8462180](https://pubmed.ncbi.nlm.nih.gov/8462180/) | 1993 | Review | Circulation | Overview of drug treatment of dyslipoproteinaemia, focusing on fluvastatin. |
-| [11347136](https://pubmed.ncbi.nlm.nih.gov/11347136/) | 2001 | Review | Nihon Rinsho | Review of fluvastatin. |
-
----
+| [20118492](https://pubmed.ncbi.nlm.nih.gov/20118492/) | 2010 | Open-label randomised controlled study | J Antimicrob Chemother | Fluvastatin as an adjuvant to pegylated interferon and ribavirin in HIV/HCV genotype 1 co-infection |
+| [12351967](https://pubmed.ncbi.nlm.nih.gov/12351967/) | 2002 | Clinical study | AIDS | Efficacy and safety of fluvastatin in hyperlipidaemic, protease inhibitor-treated HIV patients |
+| [15293079](https://pubmed.ncbi.nlm.nih.gov/15293079/) | 2004 | Clinical study | Infection | Fluvastatin and pravastatin for lipid lowering in HIV patients on antiretroviral therapy, including interaction with indinavir |
+| [19215577](https://pubmed.ncbi.nlm.nih.gov/19215577/) | 2009 | Pilot study | J Viral Hepat | Pilot study of whether fluvastatin favours HCV replication in HIV-HCV co-infected patients |
+| [16868453](https://pubmed.ncbi.nlm.nih.gov/16868453/) | 2006 | Randomised clinical study | AIDS | In 20 HIV patients, ezetimibe lowered LDL-C by 20% and fluvastatin 80 mg/day by 24%, with no significant difference between groups |
+| [33238713](https://pubmed.ncbi.nlm.nih.gov/33238713/) | 2021 | Cohort/clinical study | AIDS Res Hum Retroviruses | Statin use and inflammation and immune activation biomarkers in HIV patients on effective antiretroviral therapy (statins in general, not fluvastatin specifically) |
+| [23703578](https://pubmed.ncbi.nlm.nih.gov/23703578/) | 2013 | Review | Clin Pharmacokinet | Drug interactions between statins and antiviral protease inhibitors |
+| [12660532](https://pubmed.ncbi.nlm.nih.gov/12660532/) | 2003 | Review | AIDS | Statins and fibrates for hyperlipidaemia in HIV-infected patients on HAART |
+| [19188342](https://pubmed.ncbi.nlm.nih.gov/19188342/) | 2009 | Preclinical (mouse) | Nephrol Dial Transplant | Fluvastatin prevented podocyte injury in a murine model of HIV-associated nephropathy |
+| [19838098](https://pubmed.ncbi.nlm.nih.gov/19838098/) | 2010 | Randomised trial | AIDS | Rosuvastatin versus pravastatin in dyslipidaemic HIV patients on protease inhibitors (not fluvastatin, so indirect evidence) |
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 13558N | Lescol XL | Tablet (prolonged release) 80 mg (as sodium) | Not stated in the data compiled |
-
----
+| ARTG 13558N | Lescol XL | Tablet (prolonged release) 80 mg (as sodium) | Not stated in the data compiled for this report |
 
 ## Safety Considerations
 
-- **Contraindications suggested by the knowledge graph (not label text):** liver disease, gallbladder disease, myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, hypotensive disorder, substance abuse/dependence, rhabdomyolysis, nodular fasciitis, injury.
-- **Drug interactions:** 100 potential interactions were identified. Moderate-level examples include aprepitant, metronidazole, oxandrolone, naltrexone, nateglinide, nitisinone, rosuvastatin, simvastatin (additive statin exposure and myopathy risk), tinidazole, glyburide and pectin. Several others (for example calcitriol, doxycycline, cimetidine, famotidine, pantoprazole and acetylsalicylic acid) have an unclassified interaction level. Fluvastatin is a CYP2C9 substrate.
+- **Conditions recorded as contraindications in the knowledge graph (not label text):** liver disease, gallbladder disease, myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, hypotensive disorder, substance abuse/dependence, rhabdomyolysis, nodular fasciitis, injury.
+- **Drug interactions:** The interaction query returned 100 records. Moderate-level interactions include other statins (rosuvastatin, simvastatin), aprepitant, metronidazole, tinidazole, oxandrolone, naltrexone, nateglinide, nitisinone, glyburide and pectin. Several others, such as cimetidine, famotidine, pantoprazole, doxycycline and aspirin, have an unknown severity level.
+- **Antiretroviral combinations:** The publications suggest fluvastatin is less affected by protease inhibitors than some other statins, but the interaction literature should be reviewed before any combined use.
 
-For label warnings and contraindications, please refer to the TGA-approved Product Information (PI).
-
----
+Please refer to the TGA-approved Product Information (PI) for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Hyperlipoproteinaemia shares its mechanism with fluvastatin's established lipid-lowering use, and several fluvastatin-specific randomised and controlled studies support efficacy. The evidence comes mainly from older literature, and no fluvastatin-specific trial was retrieved for this exact prediction. The Australian ARTG entry carries no indication text, and the safety data are incomplete.
+The high prediction score is not backed by any study of fluvastatin as a treatment for HIV infection. The existing literature concerns lipid control, drug interactions and HCV co-infection in people with HIV. The other predicted diseases (CETP deficiency, a rare neurodevelopmental disorder, feline and simian immunodeficiency viruses, and prostate fibroma) have no supporting trials or publications and appear to reflect network associations only.
 
 **To proceed, the following is needed:**
-- The TGA-approved Product Information, to confirm the registered indication, warnings and contraindications (label data were unavailable)
-- Confirmation of the mechanism of action from DrugBank
-- A medication review for interaction risk, especially CYP2C9 inhibitors and co-prescribed statins, fibrates and antivirals
-- Monitoring of liver function and muscle symptoms, with extra care in paediatric and elderly patients
-- Confirmation that the predicted use falls within, or close to, the existing registered lipid-lowering indication
+- Mechanism of action data and a defined hypothesis for any HIV-related benefit (for example, immune activation or inflammation endpoints)
+- Clinical studies of fluvastatin that directly assess an HIV-related outcome rather than lipid lowering
+- The TGA-approved PI, including approved indications, warnings and contraindications for Lescol XL
+- A review of interactions with common antiretroviral regimens, and monitoring for muscle and liver adverse effects
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

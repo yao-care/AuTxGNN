@@ -4,17 +4,17 @@ title: Etonogestrel
 parent: Model Prediction Only (L5)
 nav_order: 276
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Etonogestrel: predicted new indication Amenorrhoea (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Etonogestrel"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "acne (disease)"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
+description: "Etonogestrel: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Etonogestrel
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Etonogestrel: From Contraception to Amenorrhoea
+## Etonogestrel: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction is model-based only, and amenorrhoea is better understood as a kn
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report (the ARTG entry has no indication text; the product is a contraceptive implant) |
-| Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.84% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,8 +66,6 @@ Amenorrhoea is a well-recognised effect of etonogestrel implant use, so the link
 
 Other predicted indications were also reviewed. They are all supported by prediction only or by indirect evidence:
 - **Benign breast conditions** (fibrocystic disease, adenosis variants, benign mammary dysplasia): the rationale is hormonal modulation of breast tissue, with no trials or literature.
-- **Breast abscess and fat necrosis of breast**: no plausible progestin mechanism, so the scores likely reflect network proximity only.
-- **Lactation disease**: the linked systematic review covers progestogen-only contraceptive use in breastfeeding women, which is safety information and not evidence of treatment.
 - **Acne**: the linked paper reports acne as an adverse event of implants, so the evidence may point the opposite way.
 
 ---
@@ -120,7 +118,7 @@ The prediction is model-only (L5). There are no trials and no relevant literatur
 - Obtain mechanism of action data
 - Clarify whether amenorrhoea should be considered a therapeutic target (for example, in heavy menstrual bleeding or endometriosis-related use) or just an adverse effect
 - Search for direct clinical evidence of benefit for any proposed new indication
-- Assess how the knowledge-graph disease associations apply to any new target population
+- Assess how the similarities between related diseases learned by the TxGNN model (deep learning), which are not biological evidence, apply to any new target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

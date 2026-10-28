@@ -4,17 +4,17 @@ title: Ribociclib
 parent: Moderate Evidence (L3-L4)
 nav_order: 630
 evidence_level: L4
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Ribociclib: predicted new indication Myeloid leukaemia (evidence level L4). Approved use: HR+/HER2- breast cancer"
 monitor_inn: "Ribociclib"
-predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "multiple endocrine neoplasia", "HIV infectious disease", "heart neoplasm"]
+predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
 ---
 
 # Ribociclib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Ribociclib (Kisqali) is an oral CDK4/6 inhibitor used for hormone receptor-posit
 |------|------|
 | Original Indication | HR+/HER2- breast cancer (the ARTG entry in the data carries no indication text; this is taken from the trials and literature) |
 | Predicted New Indication | Myeloid leukaemia |
-| TxGNN Prediction Score | 99.35% |
+| TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

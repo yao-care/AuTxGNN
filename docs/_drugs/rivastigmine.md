@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rivastigmine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 645
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Rivastigmine: predicted new indication Glaucoma (evidence level L4). Approved use: Alzheimer's disease"
 monitor_inn: "Rivastigmine"
-predicted_indications: ["glaucoma", "acute intermittent porphyria", "psychogenic movement disorders", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign shuddering attacks", "extrapyramidal and movement disease", "benign paroxysmal tonic upgaze of childhood with ataxia", "chronic tic disorder", "primary hereditary glaucoma"]
+predicted_indications: ["glaucoma"]
+description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rivastigmine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Rivastigmine: From Alzheimer's Disease to Glaucoma
+## Rivastigmine: Glaucoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but the support is currently limited to **0 registered clinical trials** and **3
 
 | Item | Content |
 |------|------|
-| Original Indication | Alzheimer's disease (the ARTG entry carries no indication text; this comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Glaucoma |
-| TxGNN Prediction Score | 99.27% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9927 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

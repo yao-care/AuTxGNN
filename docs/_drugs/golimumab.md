@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Golimumab
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 343
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Golimumab: predicted new indication Rheumatoid vasculitis (evidence level L4). Approved use: Rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis…"
 monitor_inn: "Golimumab"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "congenital hypotrichosis with juvenile macular dystrophy", "polyp of vocal cord", "polyp of middle ear", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
+description: "Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Golimumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Golimumab: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+## Golimumab: Hypermobility of coccyx
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Golimumab is a TNF-alpha blocking antibody already used for inflammatory arthritis, including rheumatoid arthritis, psoriatic arthritis and ankylosing spondylitis, and for ulcerative colitis.
-The TxGNN model predicts it may be useful for **rheumatoid vasculitis**.
+The TxGNN model predicts it may be useful for **hypermobility of coccyx**.
 Support is weak: **1 tangentially related clinical trial** and **6 publications**, mostly case reports and general reviews, none directly testing golimumab in this condition.
 
 ---
@@ -48,12 +48,12 @@ Support is weak: **1 tangentially related clinical trial** and **6 publications*
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, ulcerative colitis |
-| Predicted New Indication | Rheumatoid vasculitis |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypermobility of coccyx |
+| TxGNN Prediction Score | 0.9967 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,6 @@ Support is weak: **1 tangentially related clinical trial** and **6 publications*
 
 Detailed mechanism of action data is not available in the data compiled for this report. Golimumab is a fully human monoclonal antibody that blocks TNF-alpha, as described in the published literature. TNF-alpha is a central driver of inflammation in rheumatoid arthritis and related diseases.
 
-Rheumatoid vasculitis is a serious extra-articular complication of rheumatoid arthritis, where golimumab is already an approved treatment. TNF-alpha is also thought to play a role in some forms of vasculitis. This gives the prediction some biological plausibility.
 
 There are important caveats:
 - None of the retrieved studies tests golimumab in rheumatoid vasculitis.

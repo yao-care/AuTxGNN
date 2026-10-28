@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oxymetazoline
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 539
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Pharyngitis"
 monitor_inn: "Oxymetazoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "allergic urticaria", "faucial diphtheria", "papillary conjunctivitis", "cervical disc degenerative disorder", "nasopharyngitis", "massive neonatal aspiration syndrome"]
+predicted_indications: ["nasal cavity disease", "headache disorder"]
 ---
 
 # Oxymetazoline
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 |------|------|
 | Original Indication | Pharyngitis; common cold (the ARTG entry has no indication text recorded) |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

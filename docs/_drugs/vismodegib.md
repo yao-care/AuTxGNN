@@ -4,17 +4,17 @@ title: Vismodegib
 parent: Model Prediction Only (L5)
 nav_order: 782
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Vismodegib: predicted new indication Top-ranked: medulloblastoma with extensive nodularity . Best-evidence… (evidence level L5). Approved use: Basal cell carcinoma and other skin carcinomas"
 monitor_inn: "Vismodegib"
-predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "prostate cancer/brain cancer susceptibility", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
+predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
+description: "Vismodegib: predicted new indication Top-ranked: medulloblastoma with extensive nodularity . Best-evidenced: skin cancer… (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vismodegib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Vismodegib: From Basal Cell Carcinoma to Skin Cancer (Hedgehog-Pathway Extensions)
+## Vismodegib: Top-ranked: medulloblastoma with extensive nodularity (rank 1). Best-evidenced: skin cancer (rank 9), assessed below (medulloblastoma with extensive nodularity)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model's top-ranked prediction is **medulloblastoma with extensive nodu
 
 | Item | Content |
 |------|------|
-| Original Indication | Basal cell carcinoma and other skin carcinomas (the Australian licence text is not available in the data compiled for this report) |
-| Predicted New Indication | Top-ranked: medulloblastoma with extensive nodularity (rank 1). Best-evidenced: skin cancer (rank 9), assessed below |
-| TxGNN Prediction Score | 99.93% (medulloblastoma with extensive nodularity); 99.82% (skin cancer) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Top-ranked: medulloblastoma with extensive nodularity (rank 1). Best-evidenced: skin cancer (rank 9), assessed below (medulloblastoma with extensive nodularity) |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 for medulloblastoma with extensive nodularity; L1 for skin cancer (to be confirmed, see below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Medulloblastoma with extensive nodularity: Hold. Skin cancer: Proceed with Guardrails (labelled settings only) |
 
 ---
@@ -63,7 +63,6 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 **Top-ranked prediction (medulloblastoma with extensive nodularity):** This tumour is closely associated with the SHH medulloblastoma subgroup, in which Hedgehog activation (PTCH1/SUFU mutations) drives tumour growth. The mechanism is plausible, particularly for PTCH1-mutant tumours. SUFU-mutant tumours act downstream of SMO and would be expected to be resistant. No trials or literature were found for this entity, so support rests on the model prediction alone. Paediatric use also raises a concern about premature growth plate fusion.
 
-**Skin cancer (rank 9):** This label is dominated by basal cell carcinoma, which is already an approved use for advanced disease. The plausible extensions are neoadjuvant or adjuvant use around surgery, combination with pembrolizumab or radiotherapy, and nevoid BCC syndrome. These are supported by small early-phase studies.
 
 **Xeroderma pigmentosum (rank 2):** Two case reports describe vismodegib clearing BCCs in patients with xeroderma pigmentosum, including an 8-year-old child. This is indirect evidence for BCC in the setting of XP, not for treating XP itself.
 
@@ -73,7 +72,6 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 ## Clinical Trial Evidence
 
-The table covers the skin cancer prediction, the only one with registered trials. Up to 10 of the 12 trials are shown.
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -146,7 +144,6 @@ Product Information warnings and contraindications were not available in the dat
 
 **Rationale:**
 - The top-ranked prediction has a plausible mechanism (SHH-subgroup tumours) but no trials or literature, so it rests on model prediction alone (L5).
-- The skin cancer prediction is mostly the existing BCC indication. The L1 grade is carried by the approved indication and guidelines; no Phase 3 RCT was supplied, so it should be confirmed against the registration trial. Newer settings (neoadjuvant, combination, radiotherapy) are supported only by small early-phase studies and should be treated as investigational.
 
 **To proceed, the following is needed:**
 - Australian Product Information, including approved indication text, warnings and contraindications (a blocking gap for safety screening)

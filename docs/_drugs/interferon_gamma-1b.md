@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Interferon gamma-1b (Imukin) is a recombinant immunomodulatory cytokine marketed in Australia, but the registration data compiled for this report do not state its approved indication.
-The TxGNN model predicts it may be effective for **heart disease** (score 99.99%), but **no clinical trials** and **no relevant publications** support this prediction.
+The TxGNN model predicts it may be effective for **heart disease** (score 0.9999), but **no clinical trials** and **no relevant publications** support this prediction.
 The literature retrieved concerns other conditions, so the prediction rests on the model score alone.
 
 ---
@@ -50,10 +50,10 @@ The literature retrieved concerns other conditions, so the prediction rests on t
 |------|------|
 | Original Indication | Not stated in the data compiled for this report |
 | Predicted New Indication | Heart disease |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,7 +70,7 @@ Currently, detailed mechanism of action data is not available. Interferon gamma-
 
 On current evidence, this prediction is best treated as a model-generated signal that has not been supported by independent evidence.
 
-The other nine predicted indications (for example Jeune syndrome with situs inversus, orofacial clefting syndrome, Pierre Robin syndrome, chromosomal deletion syndromes, Laubry-Pezzi syndrome and interventricular septum aneurysm) are developmental, structural or chromosomal conditions. They have no plausible interferon gamma-responsive mechanism and no retrieved evidence. They are likely graph artefacts, and all were rated L5 and Hold.
+The other nine predicted indications (for example Jeune syndrome with situs inversus, orofacial clefting syndrome, Pierre Robin syndrome, chromosomal deletion syndromes, Laubry-Pezzi syndrome and interventricular septum aneurysm) are developmental, structural or chromosomal conditions. They have no plausible interferon gamma-responsive mechanism and no retrieved evidence. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and all were rated L5 and Hold.
 
 ---
 

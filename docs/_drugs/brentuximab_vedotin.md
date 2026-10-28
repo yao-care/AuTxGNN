@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **follicular lymphoma**, but th
 |------|------|
 | Original Indication | Hodgkin lymphoma (classical Hodgkin lymphoma and related subtypes) |
 | Predicted New Indication | Follicular lymphoma |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, brentuximab vedotin is an antibody-drug conjugate that binds CD30 on tumour cells and delivers the cytotoxic agent monomethyl auristatin E (MMAE). Its efficacy in CD30-positive Hodgkin lymphoma is established.
 
-The mechanistic link to follicular lymphoma is weak. Follicular lymphoma is generally CD30-low or CD30-negative, so any benefit would likely be limited to CD30-positive subsets, transformed disease, or bystander effects of MMAE. The model's high score therefore reflects a knowledge-graph association rather than a strong biological rationale. The retrieved literature mainly addresses peripheral T-cell lymphoma, not follicular lymphoma.
+The mechanistic link to follicular lymphoma is weak. Follicular lymphoma is generally CD30-low or CD30-negative, so any benefit would likely be limited to CD30-positive subsets, transformed disease, or bystander effects of MMAE. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The retrieved literature mainly addresses peripheral T-cell lymphoma, not follicular lymphoma.
 
 ## Clinical Trial Evidence
 

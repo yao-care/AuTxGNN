@@ -4,17 +4,17 @@ title: Fosinopril
 parent: Model Prediction Only (L5)
 nav_order: 319
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Fosinopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder). The ARTG entry in the data carr…"
 monitor_inn: "Fosinopril"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "intracerebral hemorrhage", "diabetic nephropathy"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Fosinopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fosinopril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fosinopril: From Hypertension to Malignant Hypertensive Renal Disease
+## Fosinopril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Fosinopril is an ACE inhibitor originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant hypertensive renal disease** (top-ranked prediction, score 99.87%), but there are currently **no clinical trials and no publications** supporting this specific prediction.
-The only prediction with a meaningful evidence base in the data compiled for this report is **diabetic nephropathy** (1 Phase 2 trial and a number of fosinopril-specific publications), which is summarised in the evidence sections below.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease** (top-ranked prediction, score 0.9987), but there are currently **no clinical trials and no publications** supporting this specific prediction.
 
 ---
 
@@ -48,15 +47,14 @@ The only prediction with a meaningful evidence base in the data compiled for thi
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder). The ARTG entry in the data carries no indication text. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-*Note: Diabetic nephropathy (TxGNN score 80.89%) is assessed at L2 and is the strongest-supported candidate among the ten predictions. It is discussed separately below.*
 
 ---
 
@@ -66,9 +64,9 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Malignant hypertension with renal involvement is a severe extension of the approved hypertension indication, so RAAS blockade is mechanistically plausible. However, acute malignant hypertension is usually managed with intravenous agents, so oral fosinopril would be an adjunct at most. The high TxGNN score is a model prediction only, with no supporting trials or literature.
 
-The second-ranked prediction, malignant renovascular hypertension, is also driven by renin-angiotensin activation, but carries a specific safety concern: ACE inhibitors can precipitate acute renal failure in bilateral renal artery stenosis or stenosis in a solitary kidney.
+A specific safety concern applies: ACE inhibitors can precipitate acute renal failure in bilateral renal artery stenosis or stenosis in a solitary kidney.
 
-For **diabetic nephropathy**, ACE inhibition reduces angiotensin II-mediated efferent arteriolar constriction, intraglomerular pressure, proteinuria and fibrosis. This is a well-established class mechanism, and ACE inhibitors are guideline-supported in diabetic kidney disease. The question here is fosinopril-specific positioning rather than a new-drug repurposing signal.
+This is a well-established class mechanism, and ACE inhibitors are guideline-supported in diabetic kidney disease. The question here is fosinopril-specific positioning rather than a new-drug repurposing signal.
 
 Other predictions (pulmonary hypertension variants, Braddock syndrome, chronic pulmonary heart disease, rare small vessel and hereditary syndromes, intracerebral haemorrhage) have weak or non-specific mechanistic rationale and no direct supporting evidence.
 
@@ -76,7 +74,7 @@ Other predictions (pulmonary hypertension variants, Braddock syndrome, chronic p
 
 ## Clinical Trial Evidence
 
-No trials are registered for the top-ranked prediction (malignant hypertensive renal disease). The only trial in the data is for diabetic nephropathy:
+No trials are registered for the top-ranked prediction (malignant hypertensive renal disease).
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -86,7 +84,7 @@ No trials are registered for the top-ranked prediction (malignant hypertensive r
 
 ## Literature Evidence
 
-No publications were retrieved for malignant hypertensive renal disease. For diabetic nephropathy, the most relevant publications are:
+No publications were retrieved for malignant hypertensive renal disease.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -99,7 +97,7 @@ No publications were retrieved for malignant hypertensive renal disease. For dia
 | [9037329](https://pubmed.ncbi.nlm.nih.gov/9037329/) | 1997 | Preclinical (rat) | Am J Hypertens | Cicaprost and fosinopril effects on progression of rat diabetic nephropathy |
 | [31853288](https://pubmed.ncbi.nlm.nih.gov/31853288/) | 2020 | Preclinical (rat) | Exp Ther Med | Fosinopril effect on renal cortex protein expression in OLETF rats |
 
-For other predictions, the literature is indirect or unhelpful. For chronic pulmonary heart disease, [24556825](https://pubmed.ncbi.nlm.nih.gov/24556825/) (2014, *Chest*) is an RCT of ACE inhibition for skeletal muscle dysfunction in COPD, which is an indirect outcome. For pulmonary hypertension owing to lung disease, [9923037](https://pubmed.ncbi.nlm.nih.gov/9923037/) (1998) reports hypoxic eosinophilic pneumonia in two patients treated with ACE inhibitors (including fosinopril), which is an adverse-effect signal rather than a benefit.
+For other predictions, the literature is indirect or unhelpful. For pulmonary hypertension owing to lung disease, [9923037](https://pubmed.ncbi.nlm.nih.gov/9923037/) (1998) reports hypoxic eosinophilic pneumonia in two patients treated with ACE inhibitors (including fosinopril), which is an adverse-effect signal rather than a benefit.
 
 ---
 
@@ -143,12 +141,11 @@ Contraindication data from product labelling is not available in the data compil
 
 **Rationale:**
 - The top-ranked prediction (malignant hypertensive renal disease) has a very high model score but no trials or literature, so it remains at L5. Acute management usually relies on intravenous agents.
-- Diabetic nephropathy is the most promising direction (L2), but the evidence is mostly class-level. Fosinopril-specific human RCT evidence is limited, no Phase 3 data are shown, and the single trial uses fosinopril only as likely background therapy. Because ACE inhibitors are already used clinically in this setting, this is a question of fosinopril-specific positioning rather than a new repurposing signal.
+- Fosinopril-specific human RCT evidence is limited, no Phase 3 data are shown, and the single trial uses fosinopril only as likely background therapy. Because ACE inhibitors are already used clinically in this setting, this is a question of fosinopril-specific positioning rather than a new repurposing signal.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and the TGA-approved PI (warnings, contraindications and approved indication text)
 - For malignant hypertensive renal disease: any clinical or observational evidence for oral fosinopril, and a defined role alongside intravenous therapy
-- For diabetic nephropathy: a review of fosinopril-specific randomised evidence against other ACE inhibitors, and confirmation of renal and potassium monitoring requirements
 - Review of the knowledge-graph contraindication signals against the label before any new-population use
 ## Disclaimer
 

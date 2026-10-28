@@ -4,17 +4,17 @@ title: Fenfluramine
 parent: Model Prediction Only (L5)
 nav_order: 289
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Fenfluramine: predicted new indication Proximal 16p11.2 microdeletion syndrome (evidence level L5). Approved use: Obesity disorder"
 monitor_inn: "Fenfluramine"
-predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny", "pentosuria", "lethal polymalformative syndrome, Boissel type", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "fatty liver disease", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
+predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]
 ---
 
 # Fenfluramine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Fenfluramine was originally used to treat obesity, including monogenic obesity, 
 |------|------|
 | Original Indication | Obesity disorder; monogenic obesity (from the knowledge graph, as no approved indication text is recorded for the ARTG entry) |
 | Predicted New Indication | Proximal 16p11.2 microdeletion syndrome |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,7 +58,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The 16p11.2 deletion is associated with obesity, epilepsy and neurodevelopmental features. This gives a plausible, though indirect, link to both the original obesity indication and fenfluramine's antiseizure activity through serotonergic pathways.
 
-No trial or published study in the compiled data tests this link. The very high TxGNN score (99.93%) is a graph-based prediction only and should not be read as clinical evidence.
+No trial or published study in the compiled data tests this link. The very high score (0.9993) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as clinical evidence.
 
 ## Clinical Trial Evidence
 

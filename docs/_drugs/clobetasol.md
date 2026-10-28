@@ -4,17 +4,17 @@ title: Clobetasol
 parent: Moderate Evidence (L3-L4)
 nav_order: 171
 evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Clobetasol: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L3). Approved use: Not available"
+indication_count: 1
 monitor_inn: "Clobetasol"
-predicted_indications: ["primary cutaneous T-cell lymphoma", "lymphosarcoma", "cystic teratoma", "Crohn's colitis", "spinal cord dermoid cyst", "disease of orbital part of eye adnexa", "disease of orbital region", "dermoid cyst of ovary", "candidiasis", "polyp of vocal cord"]
+predicted_indications: ["primary cutaneous T-cell lymphoma"]
+last_modified_at: 2026-10-27
+description: "Clobetasol: predicted new indication primary cutaneous T-cell lymphoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Clobetasol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,73 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Clobetasol: From Topical Corticosteroid Use to Primary Cutaneous T-Cell Lymphoma
+## Clobetasol: super-potent topical corticosteroid → primary cutaneous T-cell lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Clobetasol is a super-potent topical corticosteroid. In Australia it is registered as a clobetasol propionate shampoo, but no approved indication text was available in the data compiled for this report.
-The TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma**, mainly early-stage mycosis fungoides.
-This is supported by **15 publications** (mostly observational studies and case reports) and **no registered clinical trials** for this indication.
+Clobetasol is a super-potent topical glucocorticoid. The TxGNN model predicts it may be useful for **primary cutaneous T-cell lymphoma**, in particular early-stage mycosis fungoides. This direction is currently supported by **0 registered clinical trials** and **15 publications**, mostly case reports and small observational studies.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no approved indication text in the ARTG data compiled) |
-| Predicted New Indication | Primary cutaneous T-cell lymphoma |
-| TxGNN Prediction Score | 99.51% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | primary cutaneous T-cell lymphoma |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, clobetasol is a super-potent glucocorticoid. Glucocorticoid receptor activation can induce apoptosis of malignant T cells and suppress the local inflammatory infiltrate in early-stage (patch/plaque) mycosis fungoides.
+Detailed mechanism of action data are not available in the data compiled for this report. Clobetasol is a super-potent topical glucocorticoid. Glucocorticoid receptor activation is thought to induce apoptosis of malignant T cells and to suppress the local inflammatory infiltrate in early-stage (patch/plaque) mycosis fungoides.
 
-Topical corticosteroids are already used as skin-directed therapy for early-stage disease. The prediction is therefore consistent with current clinical practice. The evidence applies to skin-limited disease only. It does not extend to advanced or systemic lymphoma.
+Topical corticosteroids are already used as skin-directed therapy for early-stage disease. A review of experience at the University of California, San Francisco, reported that topical clobetasol is first-line treatment for early-stage mycosis fungoides there. This is consistent with the TxGNN prediction.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for primary cutaneous T-cell lymphoma.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [14686970](https://pubmed.ncbi.nlm.nih.gov/14686970/) | 2003 | Cohort | Dermatol Ther | About 200 patients with patch-stage MF treated with high-potency topical steroids. Response rate over 90%, minor side effects. Topical clobetasol is first-line at UCSF. |
-| [32603400](https://pubmed.ncbi.nlm.nih.gov/32603400/) | 2020 | Cohort | Cutis | Observational study of clobetasol 0.05% cream in early-stage MF, assessing cutaneous adverse effects of prolonged use. |
-| [39741016](https://pubmed.ncbi.nlm.nih.gov/39741016/) | 2025 | Cohort | An Bras Dermatol | Compared clobetasol propionate with bexarotene in early-stage MF. |
-| [25027222](https://pubmed.ncbi.nlm.nih.gov/25027222/) | 2014 | Case report | Ned Tijdschr Geneeskd | Child with hypopigmented MF successfully treated with clobetasol 0.05% ointment. |
-| [8987063](https://pubmed.ncbi.nlm.nih.gov/8987063/) | 1996 | Case series | Pediatr Dermatol | Weekly pulse superpotent topical steroid in three children with lymphomatoid papulosis. |
-| [28031140](https://pubmed.ncbi.nlm.nih.gov/28031140/) | 2016 | Case report | Skinmed | Angioimmunoblastic T-cell lymphoma with skin presentation, initially treated as psoriasis with topical clobetasol. |
-| [23773745](https://pubmed.ncbi.nlm.nih.gov/23773745/) | 2013 | Case report | Ann Dermatol Venereol | Papular MF: case report and literature review. |
-| [36846176](https://pubmed.ncbi.nlm.nih.gov/36846176/) | 2023 | Case report | Clin Case Rep | MF with psoriasiform plaques, initially misdiagnosed as psoriasis. |
+| [14686970](https://pubmed.ncbi.nlm.nih.gov/14686970/) | 2003 | Cohort | Dermatologic Therapy | About 200 patients with patch-stage mycosis fungoides treated with mainly high-potency topical corticosteroids; response rate over 90% with minor side effects; clobetasol is first-line at UCSF |
+| [32603400](https://pubmed.ncbi.nlm.nih.gov/32603400/) | 2020 | Cohort | Cutis | Observational study of clobetasol propionate 0.05% cream and cutaneous adverse effects in early-stage mycosis fungoides |
+| [39741016](https://pubmed.ncbi.nlm.nih.gov/39741016/) | 2025 | Cohort | Anais Brasileiros de Dermatologia | Compares clobetasol propionate with bexarotene in early-stage mycosis fungoides |
+| [8987063](https://pubmed.ncbi.nlm.nih.gov/8987063/) | 1996 | Case series | Pediatric Dermatology | Weekly pulse superpotent topical corticosteroid therapy in three children with lymphomatoid papulosis |
+| [25027222](https://pubmed.ncbi.nlm.nih.gov/25027222/) | 2014 | Case report | Nederlands Tijdschrift voor Geneeskunde | Child with hypopigmented mycosis fungoides successfully treated with clobetasol 0.05% ointment 4 days a week |
+| [36846176](https://pubmed.ncbi.nlm.nih.gov/36846176/) | 2023 | Case report | Clinical Case Reports | Mycosis fungoides with psoriasiform plaques, initially misdiagnosed as psoriasis and treated with topical steroids |
+| [28031140](https://pubmed.ncbi.nlm.nih.gov/28031140/) | 2016 | Case report | Skinmed | Cutaneous presentation of angioimmunoblastic T-cell lymphoma, initially treated as psoriasis including topical clobetasol |
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 10080M | Clobex | Shampoo containing clobetasol propionate 500 micrograms per mL, 125 mL | Not available |
+| ARTG 10080M | Clobex | Shampoo containing clobetasol propionate 500 micrograms per mL, 125 mL | Not recorded in the local data |
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction screen returned 100 potential interactions, none with a graded severity. Listed examples include other corticosteroids (prednisone, prednisolone, hydrocortisone, triamcinolone), proton pump inhibitors (omeprazole, pantoprazole, lansoprazole), calcitriol, doxycycline, metronidazole and morphine.
-- **Topical steroid effects from the literature**: Prolonged use of potent topical steroids has been linked to skin adverse effects and, in case reports, systemic absorption leading to Cushing syndrome. Oral mucosal use increases the risk of local candidiasis.
+- **Drug Interactions**: The interaction screen returned 100 records, all with an unclassified severity level. Examples include other corticosteroids (triamcinolone, prednisone, prednisolone, hydrocortisone), proton pump inhibitors (omeprazole, pantoprazole, lansoprazole), calcitriol, vitamin A, doxycycline, metronidazole and morphine. Severity has not been graded, so these should be reviewed individually.
+- The literature reviewed also raises the concern of long-term cutaneous adverse effects with prolonged topical corticosteroid use in chronic disease such as mycosis fungoides; one observational study (PMID 32603400) specifically examined this.
 
 Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
-
-## Other Predicted Indications (Brief Notes)
-
-| Rank | Predicted Indication | Evidence Level | Decision | Comment |
-|------|------|------|------|------|
-| 2 | Lymphosarcoma | L4 | Research Question | Literature overlaps with cutaneous lymphoma. It does not support systemic nodal disease. |
-| 7 | Disease of orbital region | L4 | Research Question | Two completed Phase 3 trials ([NCT04246801](https://clinicaltrials.gov/study/NCT04246801), n=250; [NCT04249076](https://clinicaltrials.gov/study/NCT04249076), n=215) appear to study clobetasol ophthalmic nanoemulsion for post-cataract-surgery inflammation. This is indirect to the predicted term and needs record verification. |
-| 9 | Candidiasis | L4 | Hold | Candidiasis is an adverse effect of topical steroids, not a treatable indication. The literature does support oral lichen planus, which could be evaluated as a separate indication. |
-| 4 | Crohn's colitis | L4 | Hold | Literature covers only skin manifestations and steroid adverse effects. |
-| 3, 5, 6, 8, 10 | Cystic teratoma, spinal cord dermoid cyst, orbital adnexa disease, ovarian dermoid cyst, vocal cord polyp | L5 | Hold | No supporting evidence and no plausible mechanism. |
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Observational data, including a large cohort of about 200 patients, support topical clobetasol as first-line therapy for early-stage mycosis fungoides, and the mechanism is plausible. However, there are no registered clinical trials, and the evidence is limited to skin-limited disease.
+Several cohort studies and case reports support topical clobetasol in early-stage mycosis fungoides, and the prediction is consistent with current clinical practice. However, there are no registered clinical trials and no randomised evidence. The only Australian product identified is a shampoo, so route and formulation compatibility with skin-directed lymphoma therapy is unconfirmed.
 
 **To proceed, the following is needed:**
-- Prospective or randomised trial data in early-stage cutaneous T-cell lymphoma
-- Confirmation of the approved indications and safety information from the TGA Product Information, as the registered product is a shampoo
-- Assessment of whether a cream or ointment formulation is available in Australia for skin-directed use over larger body areas
-- A monitoring plan for skin atrophy and systemic steroid absorption (HPA axis suppression) with prolonged use
+- Confirmation of suitable topical formulations (cream or ointment) available in Australia, as the listed product is a shampoo
+- Prospective or randomised data for clobetasol in early-stage mycosis fungoides
 - Mechanism of action data
+- Warnings and contraindications from the TGA Product Information
+- A monitoring plan for local and systemic corticosteroid adverse effects with long-term use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

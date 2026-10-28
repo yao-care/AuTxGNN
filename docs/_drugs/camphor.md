@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Camphor
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 126
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Camphor: predicted new indication Migraine disorder (evidence level L4). Approved use: Not recorded"
 monitor_inn: "camphor"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "migraine with or without aura, susceptibility to", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
 ---
 
 # Camphor
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ This is a research question, not a treatment recommendation.
 |------|------|
 | Original Indication | Not recorded (no approved indication text in the ARTG data) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9985 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -102,15 +102,14 @@ The remaining top-ranked predictions have no meaningful support and are all on H
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Migraine with or without aura, susceptibility to | 99.73% | L4 | Same preclinical signal as migraine disorder (PMID 42849823); no human trials |
-| Migraine with brainstem aura | 99.79% | L5 | Prediction only |
-| Erectile dysfunction | 99.79% | L5 | Only a rat toxicity study; a possible safety signal, not efficacy |
-| Pulmonary hypertension | 99.77% | L5 | Literature hits are a name collision with the CAMPHOR questionnaire, unrelated to the drug |
-| Kyphoscoliotic heart disease | 99.70% | L5 | No literature or trials |
-| Ulerythema ophryogenesis | 99.60% | L5 | No literature or trials |
-| Raynaud disease | 99.56% | L5 | Only an unrelated outcome-measure paper |
-| Atrophoderma vermiculata | 99.54% | L5 | No literature or trials |
-| Tourette syndrome | 99.46% | L5 | No literature or trials; neurotoxicity concerns |
+| Migraine with brainstem aura | 0.9979 | L5 | Prediction only |
+| Erectile dysfunction | 0.9979 | L5 | Only a rat toxicity study; a possible safety signal, not efficacy |
+| Pulmonary hypertension | 0.9977 | L5 | Literature hits are a name collision with the CAMPHOR questionnaire, unrelated to the drug |
+| Kyphoscoliotic heart disease | 0.9970 | L5 | No literature or trials |
+| Ulerythema ophryogenesis | 0.9960 | L5 | No literature or trials |
+| Raynaud disease | 0.9956 | L5 | Only an unrelated outcome-measure paper |
+| Atrophoderma vermiculata | 0.9954 | L5 | No literature or trials |
+| Tourette syndrome | 0.9946 | L5 | No literature or trials; neurotoxicity concerns |
 
 ## Conclusion and Next Steps
 

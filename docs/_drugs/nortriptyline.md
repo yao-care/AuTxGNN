@@ -4,17 +4,17 @@ title: Nortriptyline
 parent: High Evidence (L1-L2)
 nav_order: 512
 evidence_level: L2
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "Nortriptyline"
-predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "trichotillomania", "Tourette syndrome", "major affective disorder"]
+predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 ---
 
 # Nortriptyline
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Nortriptyline: From Anxiety Disorder to Attention Deficit Hyperactivity Disorder
+## Nortriptyline: From Anxiety Disorder to Attention Deficit-Hyperactivity Disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ with **no registered clinical trials** but **15 publications** (including a Coch
 |------|------|
 | Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (the Australian ARTG entry has no approved indication text recorded) |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

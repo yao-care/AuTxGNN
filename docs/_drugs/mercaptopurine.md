@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Mercaptopurine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 459
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Mercaptopurine: predicted new indication Myeloid leukaemia (evidence level L5). Approved use: Acute lymphoblastic leukaemia (the approved indication text for the A…"
+description: "Mercaptopurine: predicted new indication myeloid leukemia (evidence level L5). Approved use: Acute lymphoblastic leukaemia (the approved indication text for the A…"
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocy
 # Mercaptopurine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mercaptopurine: From Acute Lymphoblastic Leukaemia to Myeloid Leukaemia
+## Mercaptopurine: From Acute Lymphoblastic Leukaemia to myeloid leukemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ with **15 registered clinical trials** and **20 publications** retrieved. Howeve
 |------|------|
 | Original Indication | Acute lymphoblastic leukaemia (the approved indication text for the Australian listing was not available) |
 | Predicted New Indication | Myeloid leukaemia |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L2 (as scored for this prediction; see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 **Note on the evidence level and decision:** The Phase 3 trials listed for myeloid leukaemia are multi-agent protocols, and mercaptopurine's contribution cannot be isolated from the available information. I have therefore treated this as a research question rather than a candidate ready to proceed.

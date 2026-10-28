@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, but **
 |------|------|
 | Original Indication | *Clostridium difficile* colitis, staphylococcal infections, endocarditis, bacterial arthritis, staphylococcal pneumonia (approved indication text for the ARTG entry is not available) |
 | Predicted New Indication | Diffuse scleroderma |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, vancomycin is a glycopeptide antibiotic that inhibits bacterial cell wall synthesis, and its efficacy in Gram-positive infections is well established.
 
-Diffuse scleroderma is an autoimmune, fibrotic disease. Vancomycin has no known immunomodulatory or antifibrotic action, so no plausible mechanistic link to this condition was identified. The high TxGNN score is most likely an artefact of the knowledge graph rather than a genuine repurposing signal.
+Diffuse scleroderma is an autoimmune, fibrotic disease. Vancomycin has no known immunomodulatory or antifibrotic action, so no plausible mechanistic link to this condition was identified. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The only retrieved paper is a case report of erythroderma with sepsis and eosinophilia, which does not address scleroderma.
 
@@ -65,15 +65,15 @@ The only retrieved paper is a case report of erythroderma with sepsis and eosino
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Paratyphoid fever | 99.85% | L4 | Gram-negative pathogen; vancomycin cannot cross the outer membrane. Only an antibiogram survey was found. |
-| Salmonellosis | 99.81% | L4 | Intrinsic resistance. Literature is resistance surveillance and reviews. Oral vancomycin may disrupt colonisation resistance and worsen enteric infection. |
-| Congenital analbuminemia | 99.79% | L5 | No mechanistic link, no literature. |
-| Polyclonal hyperviscosity syndrome | 99.79% | L5 | No mechanistic link, no literature. |
-| Hyperamylasemia | 99.79% | L5 | A laboratory finding, not a treatable target. |
-| Typhoid fever | 99.75% | L4 | Gram-negative; only case reports and general reviews, none showing vancomycin efficacy. |
-| Blood group incompatibility | 99.63% | L5 | Unrelated; one irrelevant microbiology paper. |
-| Streptococcal pneumonia | 99.60% | L4 | Biologically plausible (Gram-positive, reserve option for resistant pneumococci), but largely overlaps existing Gram-positive indications. Evidence is reviews and surveillance only. |
-| Premalignant haematological system disease | 99.54% | L5 | No mechanistic link, no literature. |
+| Paratyphoid fever | 0.9985 | L5 | Gram-negative pathogen; vancomycin cannot cross the outer membrane. Only an antibiogram survey was found. |
+| Salmonellosis | 0.9981 | L5 | Intrinsic resistance. Literature is resistance surveillance and reviews. Oral vancomycin may disrupt colonisation resistance and worsen enteric infection. |
+| Congenital analbuminemia | 0.9979 | L5 | No mechanistic link, no literature. |
+| Polyclonal hyperviscosity syndrome | 0.9979 | L5 | No mechanistic link, no literature. |
+| Hyperamylasemia | 0.9979 | L5 | A laboratory finding, not a treatable target. |
+| Typhoid fever | 0.9975 | L5 | Gram-negative; only case reports and general reviews, none showing vancomycin efficacy. |
+| Blood group incompatibility | 0.9963 | L5 | Unrelated; one irrelevant microbiology paper. |
+| Streptococcal pneumonia | 0.9960 | L4 | Biologically plausible (Gram-positive, reserve option for resistant pneumococci), but largely overlaps existing Gram-positive indications. Evidence is reviews and surveillance only. |
+| Premalignant haematological system disease | 0.9954 | L5 | No mechanistic link, no literature. |
 
 ## Clinical Trial Evidence
 

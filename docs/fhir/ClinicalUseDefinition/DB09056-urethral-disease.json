@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB09056",
-      "display": "Xifaxan"
+      "reference": "MedicationKnowledge/DB09056"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "urethral-disease",
-          "display": "urethral disease"
-        }
-      ],
-      "text": "urethral disease"
+      "concept": {
+        "text": "urethral disease"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://autxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 1.0
     }
   ]
 }

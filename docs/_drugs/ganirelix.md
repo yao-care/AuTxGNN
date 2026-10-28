@@ -6,9 +6,9 @@ nav_order: 329
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Ganirelix: predicted new indication Hypertrichosis (evidence level L5). Approved use: Prevention of premature ovulation during ovarian stimulation in ferti…"
 monitor_inn: "Ganirelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
+description: "Ganirelix: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ganirelix
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ganirelix: From Controlled Ovarian Stimulation to Hypertrichosis
+## Ganirelix: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ The prediction is model-based only, and no plausible mechanistic pathway has bee
 
 | Item | Content |
 |------|------|
-| Original Indication | Prevention of premature ovulation during ovarian stimulation in fertility treatment (the ARTG entry lists no indication text; this is based on the pharmacology data compiled for this report) |
-| Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypertrichosis (disease) |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data identify ganirelix as an antagonist of the GnRH receptor (GNRHR). By blocking this receptor, it suppresses LH and FSH release and, downstream, gonadal sex steroids.
 
-This mechanism does not clearly connect to hypertrichosis. Hypertrichosis is not primarily driven by gonadotropins, unlike hirsutism, which is androgen-dependent. The high TxGNN score appears to be a graph-based prediction with no identifiable biological pathway, and it should be treated as a hypothesis-generating signal only.
+This mechanism does not clearly connect to hypertrichosis. Hypertrichosis is not primarily driven by gonadotropins, unlike hirsutism, which is androgen-dependent. The high TxGNN score (0.9998) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should be treated as a hypothesis-generating signal only.
 
 The other top-ranked predictions show the same pattern. Most are developmental or structural conditions with no plausible link to GnRH antagonism (for example, Ambras syndrome, Dandy-Walker malformation syndromes and isolated hair shaft abnormalities). A few sit within the reproductive endocrine domain and are biologically more coherent, although none has clinical support here:
 
@@ -99,7 +99,7 @@ Warnings and contraindications were not available in the data compiled for this 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for hypertrichosis rests on a graph-based score alone, with no clinical trials, no literature and no plausible mechanism. Of the other top-ranked candidates, only central precocious puberty, familial male-limited precocious puberty and aromatase excess syndrome have any biological coherence. Each of these is better served by existing therapies and has no supporting clinical data.
+The prediction for hypertrichosis rests on a TxGNN model (deep learning) score alone, which may reflect similarities the model learned between related diseases, not biological evidence, with no clinical trials, no literature and no plausible mechanism. Of the other top-ranked candidates, only central precocious puberty, familial male-limited precocious puberty and aromatase excess syndrome have any biological coherence. Each of these is better served by existing therapies and has no supporting clinical data.
 
 **To proceed, the following is needed:**
 - Product Information (PI) warnings and contraindications, which are currently a blocking gap for safety screening

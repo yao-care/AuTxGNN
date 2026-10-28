@@ -4,17 +4,17 @@ title: Probenecid
 parent: Moderate Evidence (L3-L4)
 nav_order: 604
 evidence_level: L4
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Probenecid: predicted new indication Renal hypouricaemia (evidence level L4). Approved use: Gout"
 monitor_inn: "Probenecid"
-predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "cholelithiasis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatoportal sclerosis", "disorder of phenylalanine metabolism"]
+predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
+description: "Probenecid: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Probenecid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Probenecid: From Gout to Renal Hypouricaemia
+## Probenecid: Hypouricemia, renal
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The mechanistic review suggests the prediction is a pharmacological association 
 
 | Item | Content |
 |------|------|
-| Original Indication | Gout; hyperuricaemia (from the TxGNN knowledge graph, as no approved indication text is available for the Australian entry) |
-| Predicted New Indication | Renal hypouricaemia |
-| TxGNN Prediction Score | 99.73% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypouricemia, renal |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The predicted condition runs in the opposite direction. Hereditary renal hypouricaemia is caused mainly by loss-of-function mutations in URAT1 (or GLUT9), which already cause excessive urate excretion and low serum urate. Probenecid would be expected to further lower serum urate and worsen the underlying defect, not correct it.
 
-The high TxGNN score most likely reflects a shared transporter target and disease neighbourhood in the knowledge graph. The retrieved literature describes the disease and its genetics, and does not report probenecid as a treatment. Probenecid is more plausibly useful as a **diagnostic or mechanistic probe** (for example, in probenecid and pyrazinamide tests that characterise urate transport defects) than as therapy.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The retrieved literature describes the disease and its genetics, and does not report probenecid as a treatment. Probenecid is more plausibly useful as a **diagnostic or mechanistic probe** (for example, in probenecid and pyrazinamide tests that characterise urate transport defects) than as therapy.
 
 ---
 

@@ -4,7 +4,7 @@ title: Etravirine
 parent: Model Prediction Only (L5)
 nav_order: 278
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Etravirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "Etravirine"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Etravirine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,21 +48,20 @@ It is a model-only prediction and should be treated as a low-confidence hypothes
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the ARTG entry in the data compiled for this report has no indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, etravirine is an NNRTI that inhibits HIV-1 reverse transcriptase, including in some strains resistant to first-generation NNRTIs. Its efficacy in HIV infection is established.
 
-Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, which is the likely basis for the prediction. However, FIV reverse transcriptase is generally considered intrinsically less susceptible to NNRTIs, so activity is not expected. The high score most likely reflects proximity to HIV in the knowledge graph rather than direct evidence. It is also a veterinary condition, so any human-health repurposing pathway is unclear.
+Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, which is the likely basis for the prediction. However, FIV reverse transcriptase is generally considered intrinsically less susceptible to NNRTIs, so activity is not expected. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is also a veterinary condition, so any human-health repurposing pathway is unclear.
 
 Other predictions from the model give similar signals:
-- **Simian immunodeficiency virus infection** (score 99.98%, L4): SIV is a standard animal model, but SIV (especially SIVmac) is naturally resistant to many NNRTIs. The single linked paper is indirect.
-- **AIDS related complex** (99.79%, L4): a historical term for symptomatic HIV, so it falls under the existing HIV indication and is not a true repurposing candidate.
+- **Simian immunodeficiency virus infection** (score 0.9998, L4): SIV is a standard animal model, but SIV (especially SIVmac) is naturally resistant to many NNRTIs. The single linked paper is indirect.
 - **Congenital HIV** (99.79%, L3): a subpopulation of the approved indication rather than a new disease.
 - Remaining predictions (neurodevelopmental disorder, prostate fibroma, Brenner tumour, benign reproductive neoplasms, obsolete familial combined hyperlipidaemia) have no plausible mechanism and appear to be computational artefacts.
 

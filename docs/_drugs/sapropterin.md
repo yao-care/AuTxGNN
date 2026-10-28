@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sapropterin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 659
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Sapropterin: predicted new indication Disorder of tyrosine metabolism (evidence level L4). Approved use: Phenylketonuria"
 monitor_inn: "Sapropterin"
-predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency", "genetic otorhinolaryngological malformation", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "neonatal epileptic encephalopathy due to glutaminase deficiency", "idiopathic bilateral vestibulopathy", "semicircular canal dehiscence syndrome", "silent sinus syndrome"]
+predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"]
 ---
 
 # Sapropterin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **disorder of tyrosine metaboli
 |------|------|
 | Original Indication | Phenylketonuria; disorder of phenylalanine metabolism (approved indication text is not listed for the ARTG entry) |
 | Predicted New Indication | Disorder of tyrosine metabolism |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,7 +61,7 @@ The link to "disorder of tyrosine metabolism" is indirect. The retrieved literat
 
 Other predictions in the list point the same way:
 - **BH4-responsive hyperphenylalaninemia/PKU** and **hyperphenylalaninemia due to BH4 deficiency** are effectively on-label or very close to the original indication. They are clinical standard care rather than true repurposing.
-- Several lower-ranked predictions (for example Pierre Robin syndrome, vestibular and sinus conditions, and glutaminase deficiency) have no identifiable mechanistic link and are likely graph-based artefacts. The mitochondrial disorder prediction rests only on a speculative link through BH4's role in redox balance. None has trial or literature support.
+- Lower-ranked predictions such as teratogenic Pierre Robin syndrome have no identifiable mechanistic link. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction has no trial or literature support.
 
 ## Clinical Trial Evidence
 

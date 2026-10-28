@@ -4,17 +4,17 @@ title: Medroxyprogesterone Acetate
 parent: Model Prediction Only (L5)
 nav_order: 452
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Medroxyprogesterone Acetate: predicted new indication Amenorrhea (evidence level L5). Approved use: Endometriosis, endometrial carcinoma…"
 monitor_inn: "Medroxyprogesterone acetate"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "cervix endometriosis", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Medroxyprogesterone Acetate: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Medroxyprogesterone Acetate: From Endometriosis to Amenorrhea
+## Medroxyprogesterone Acetate: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but the data compiled for this report include **no registered clinical trials** 
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis, endometrial carcinoma, postmenopausal osteoporosis and postmenopausal atrophic vaginitis (from the knowledge graph; the ARTG entry carries no indication text) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.999% |
-| Evidence Level | L4 (indirect and mechanistic support only; no trials) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 1.0000 |
+| Evidence Level | L5 (indirect and mechanistic support only; no trials) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,13 +68,10 @@ Other predictions in the list are mostly extensions of the existing endometriosi
 
 | Predicted indication | TxGNN score | Evidence level | Assessment |
 |------|------|------|------|
-| Fibrocystic breast disease | 99.95% | L3 | Small, dated clinical series (1983, 1988) support MPA, but HRT studies suggest progestin-containing regimens may increase breast proliferation and density. Safety concern. |
-| Benign mammary dysplasia | 99.92% | L4 | Overlaps with fibrocystic disease. Evidence is thin and not independent. |
-| Cervix endometriosis | 99.92% | L4 | Plausible extension of the existing endometriosis use, but the literature is tangential. |
-| Endometriosis of rectovaginal septum and vagina | 99.92% | L5 | Subtype of an existing indication. Prediction only. |
-| Endometriosis in cutaneous scar | 99.92% | L5 | Usually managed surgically. Prediction only. |
-| Renal hypoplasia (bilateral and unspecified) | 99.91% / 99.91% | L5 | No plausible mechanism. Likely a knowledge-graph artefact. |
-| Apocrine adenosis and blunt duct adenosis of breast | 99.89% | L5 | Prediction only, with proliferative safety concerns. |
+| Fibrocystic breast disease | 0.9995 | L3 | Small, dated clinical series (1983, 1988) support MPA, but HRT studies suggest progestin-containing regimens may increase breast proliferation and density. Safety concern. |
+| Benign mammary dysplasia | 0.9992 | L5 | Overlaps with fibrocystic disease. Evidence is thin and not independent. |
+| Renal hypoplasia (bilateral and unspecified) | 0.9991 / 0.9991 | L5 | No plausible mechanism. Likely a TxGNN model (deep learning) artefact. |
+| Apocrine adenosis and blunt duct adenosis of breast | 0.9989 | L5 | Prediction only, with proliferative safety concerns. |
 
 ---
 

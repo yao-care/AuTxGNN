@@ -4,17 +4,17 @@ title: Darunavir
 parent: Model Prediction Only (L5)
 nav_order: 200
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Darunavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "Darunavir"
-predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 ---
 
 # Darunavir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the Australian approved-indication text is not available in the data compiled for this report) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Feline immunodeficiency virus (FIV) is a lentivirus related to HIV-1. However, FIV protease differs from HIV-1 protease in substrate specificity and inhibitor sensitivity, so darunavir activity against FIV is not assured. The TxGNN score is high, but nothing in the data compiled for this report supports the prediction. It is also a veterinary indication and falls outside the scope of human clinical development.
 
-**Other predictions reviewed.** The second-ranked prediction, simian immunodeficiency virus infection (score 99.97%), has only indirect preclinical macaque evidence (L4). The macaque studies used combination antiretroviral therapy, not darunavir alone, and the indication has no direct human repurposing value. Two human-relevant predictions, congenital HIV and AIDS related complex (both 98.97%), are essentially extensions of the approved HIV indication rather than true repurposing, and both reached L3. Predictions such as familial combined hyperlipidaemia (an obsolete term, and mechanistically counterintuitive because protease inhibitors can cause dyslipidaemia), prostate fibroma, Brenner tumour and other benign neoplasms have no supporting evidence and appear to be graph-based artefacts.
+**Other predictions reviewed.** The second-ranked prediction, simian immunodeficiency virus infection (score 0.9997), has only indirect preclinical macaque evidence (L4). The macaque studies used combination antiretroviral therapy, not darunavir alone, and the indication has no direct human repurposing value. Predictions such as familial combined hyperlipidaemia (an obsolete term, and mechanistically counterintuitive because protease inhibitors can cause dyslipidaemia) have no supporting evidence. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

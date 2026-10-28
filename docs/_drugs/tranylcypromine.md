@@ -4,17 +4,17 @@ title: Tranylcypromine
 parent: Model Prediction Only (L5)
 nav_order: 747
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Tranylcypromine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "Tranylcypromine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "dysthymic disorder", "agoraphobia", "melancholia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
+description: "Tranylcypromine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tranylcypromine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tranylcypromine: From Depression to Benign Paroxysmal Torticollis of Infancy
+## Tranylcypromine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tranylcypromine is an irreversible monoamine oxidase inhibitor (MAOI), originally used to treat depression and anxiety disorders.
-The TxGNN model ranks **benign paroxysmal torticollis of infancy** as its top prediction, but **no clinical trials and no publications** support this specific link. The prediction is a graph-based output only.
+The TxGNN model (deep learning) ranks **benign paroxysmal torticollis of infancy** as its top prediction, but **no clinical trials and no publications** support this specific link. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 Of the other nine predictions, the best-supported are **dysthymic disorder**, **agoraphobia**, **melancholia** and **neurotic depression**. These sit close to the existing depression and anxiety indications, so they are not truly new uses.
 
 ---
@@ -48,12 +48,12 @@ Of the other nine predictions, the best-supported are **dysthymic disorder**, **
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; no approved indication text is available for the Australian listing) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 99.67% |
+| TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Of the other nine predictions, the best-supported are **dysthymic disorder**, **
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tranylcypromine is an irreversible, non-selective MAO inhibitor. It raises monoamine levels in the brain, which underlies its antidepressant and anti-anxiety effects. It also inhibits LSD1 (KDM1A), an epigenetic enzyme.
 
-For the top-ranked prediction, **benign paroxysmal torticollis of infancy**, a plausible link is hard to find. It is a childhood, migraine-spectrum disorder associated with CACNA1A (a calcium channel gene). No established connection to MAO inhibition exists. MAOIs are also poorly suited to infants because of dietary (tyramine) and drug-interaction hazards. The high score (0.997) should be read as a statistical graph output rather than clinical reasoning.
+For the top-ranked prediction, **benign paroxysmal torticollis of infancy**, a plausible link is hard to find. It is a childhood, migraine-spectrum disorder associated with CACNA1A (a calcium channel gene). No established connection to MAO inhibition exists. MAOIs are also poorly suited to infants because of dietary (tyramine) and drug-interaction hazards. The high score (0.9967) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or clinical reasoning.
 
 Other predictions fall into two groups:
 

@@ -50,10 +50,10 @@ with **no registered clinical trials** but **20 publications** (including one ra
 |------|------|
 | Original Indication | Autoimmune disease, Crohn disease, adrenocortical insufficiency, acute lymphoblastic leukaemia and others (the Australian product record lists no approved indication text) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

@@ -4,17 +4,17 @@ title: Atezolizumab
 parent: Model Prediction Only (L5)
 nav_order: 66
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Atezolizumab: predicted new indication Prostatic urethra urothelial carcinoma (evidence level L5). Approved use: Transitional cell carcinoma (urothelial carcinoma)"
+indication_count: 6
 monitor_inn: "Atezolizumab"
-predicted_indications: ["prostatic urethra urothelial carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+last_modified_at: 2026-10-27
+description: "Atezolizumab: predicted new indication uterine ligament adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Atezolizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,82 +33,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Atezolizumab: From Transitional Cell Carcinoma to Prostatic Urethra Urothelial Carcinoma
+## Atezolizumab: PD-L1 inhibitor (monoclonal antibody) → uterine ligament adenocarcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Atezolizumab is a PD-L1 inhibitor originally used to treat transitional cell (urothelial) carcinoma.
-The TxGNN model predicts it may be effective for **prostatic urethra urothelial carcinoma**,
-but only **1 clinical trial** (an indirect Phase 1b study) and **no publications** currently support this direction.
+Atezolizumab is a monoclonal antibody drug that blocks PD-L1. The TxGNN model predicts it may be effective for **uterine ligament adenocarcinoma**, but **no clinical trials and no publications** directly studying this disease were found in the data compiled for this report, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Transitional cell carcinoma (urothelial carcinoma) |
-| Predicted New Indication | Prostatic urethra urothelial carcinoma |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 (the only linked trial is an indirect Phase 1b study; no direct studies of this indication) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | uterine ligament adenocarcinoma |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, atezolizumab is a PD-L1 inhibitor. Blocking the PD-1/PD-L1 axis is intended to restore T-cell-mediated antitumour immunity.
+Detailed mechanism of action data is not available in the data compiled for this report. Atezolizumab is generally understood to be an anti-PD-L1 antibody, which can release the brake that PD-L1 places on T cells and so restore immune attack on tumour cells.
 
-Prostatic urethra urothelial carcinoma is a urothelial malignancy that is histologically and anatomically related to the approved indication (transitional cell carcinoma). The same PD-L1 axis biology is therefore plausible, which is consistent with the very high TxGNN score.
-
-The only linked trial is a Phase 1b study of cabozantinib with atezolizumab in advanced genitourinary tumours, which includes urothelial cohorts. It supports early safety and activity signals, but it does not show efficacy specific to the prostatic urethra.
+Uterine ligament adenocarcinoma is a gynaecological adenocarcinoma. A plausible link is PD-L1 blockade in this tumour type, but this is speculative and is not supported by any trial or publication in the data compiled for this report. The similarity between the original and predicted indications has not yet been assessed.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Phase 1 | Active, not recruiting | 914 | Multicentre, open-label dose-escalation study of cabozantinib alone or with atezolizumab in locally advanced or metastatic solid tumours, including urothelial carcinoma (bladder, renal pelvis, ureter, urethra). Assesses safety, tolerability, preliminary efficacy and pharmacokinetics. Relevance is indirect. |
+Currently no related clinical trials registered.
 
-No ANZCTR trial identifiers were available in the data compiled for this report.
+For context only, two trials of atezolizumab in cervical cancer were found under a different, lower-ranked prediction (endocervical carcinoma). They do not study uterine ligament adenocarcinoma and are not counted as evidence for this prediction.
+
+## Literature Evidence
+
+Currently no related literature available.
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 11277M (as listed in the data) | Tecentriq | Solution concentrate for I.V. infusion, 1200 mg in 20 mL | Not available in the data compiled |
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (PD-L1 inhibitor monoclonal antibody), not a conventional cytotoxic |
-| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
-| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | Please refer to the PI warnings and precautions |
-| Handling Protection | Please refer to the PI and local institutional policy |
+| ARTG 11277M | Tecentriq | Solution concentrate for I.V. infusion 1200 mg in 20 mL | Not recorded in the local data |
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query identified 75 potential interactions. Among those listed:
-  - **Major**: adalimumab, baricitinib, and live BCG vaccine (Tice substrain).
-  - **Moderate**: corticosteroids (hydrocortisone, triamcinolone, betamethasone, budesonide, dexamethasone, prednisolone, prednisone, methylprednisolone, deflazacort), roflumilast, azathioprine, alemtuzumab, anakinra, alefacept, tetanus toxoid, anthrax vaccine and adenovirus type 4 vaccine.
-  - Many of these relate to immunosuppression or vaccine interactions. Their relevance should be confirmed against the PI.
+- **Drug Interactions**: 75 interacting drugs are recorded. Examples include:
+  - **Major**: adalimumab, baricitinib, BCG live (Tice substrain) antigen.
+  - **Moderate**: corticosteroids (hydrocortisone, prednisolone, prednisone, dexamethasone, methylprednisolone, budesonide, betamethasone, triamcinolone, deflazacort), roflumilast, azathioprine, alemtuzumab, anakinra, alefacept, and several vaccines (tetanus toxoid, anthrax, adenovirus type 4).
 
-Warnings and contraindications from the product label were not available. Please refer to the TGA-approved Product Information (PI) for safety information.
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale is reasonable and atezolizumab is already marketed for urothelial carcinoma. However, no direct clinical or literature evidence exists for prostatic urethra urothelial carcinoma. The only linked trial is an early-phase, indirect study, and label-based safety data are missing.
+The prediction score is high, but no clinical trial or publication directly studies uterine ligament adenocarcinoma, so the evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- Direct clinical evidence in prostatic urethra urothelial carcinoma, such as subgroup data from urothelial carcinoma trials
-- Verification of whether the current TGA-approved indication already covers this disease
-- Mechanism of action data
-- Warnings and contraindications from the TGA PI
-- Approved indication text for the ARTG entry
-- A review of the major interactions (adalimumab, baricitinib, live BCG vaccine) and corticosteroid co-administration
+- Literature and trial searches specific to uterine ligament adenocarcinoma, including related gynaecological adenocarcinomas
+- Detailed mechanism of action data
+- Warnings and contraindications from the TGA-approved Product Information
+- Clinical expert review of whether the tumour type is biologically comparable to cancers where PD-L1 blockade is already used
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

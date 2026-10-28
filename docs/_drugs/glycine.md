@@ -4,17 +4,17 @@ title: Glycine
 parent: Model Prediction Only (L5)
 nav_order: 341
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "glycine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Glycine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Glycine: From Allergic Rhinitis and Related Upper Airway Conditions to Nasal Cavity Disease
+## Glycine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Glycine is an amino acid product. The TxGNN knowledge graph links it to upper airway conditions such as allergic rhinitis, vasomotor rhinitis, pharyngitis and the common cold.
+Glycine is an amino acid product. The TxGNN model (deep learning) predicts nasal cavity disease as a possible new indication.
 The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are **no relevant clinical trials** and **no relevant publications** supporting this direction. The prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis (from the TxGNN knowledge graph; no approved indication text is available for the Australian listing) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Glycine is already linked in the knowledge graph to several upper airway conditions (allergic rhinitis, vasomotor rhinitis, rhinitis and nasopharyngitis). These overlap with nasal cavity disease, which may explain the high prediction score.
+Detailed mechanism of action data is not currently available. The high prediction score for nasal cavity disease comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The score may therefore reflect similarity between indication classes rather than independent evidence. The trial and literature records retrieved do not connect glycine to nasal pathology, so no mechanistic rationale can be established from the data compiled for this report.
 
-A second prediction, **acute laryngopharyngitis** (score 99.84%), has no trials or literature. It is adjacent to the existing pharyngitis and common cold indications. It sits at the same evidence level (L5) and carries the same Hold recommendation.
 
 ## Clinical Trial Evidence
 

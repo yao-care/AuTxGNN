@@ -6,9 +6,9 @@ nav_order: 308
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-13
-description: "Flupentixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "flupentixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Flupentixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Flupentixol
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Flupentixol: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies
+## Flupentixol: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia (from the knowledge graph; no approved indication text is available for the Australian licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Flupentixol is generally known as a dopamine receptor antagonist. The pharmacology data compiled lists binding to the D1, D2, D3 and D5 receptors. Its efficacy in schizophrenia is established, but there is no data showing how this would apply to the predicted indication.
 
-On the available data, no mechanistic link to retinal dystrophy is supported. Inherited retinal dystrophies are genetically driven, and there is no evident rationale for an antipsychotic to change the course of disease. The very high TxGNN score (99.99%, rank 477) is a knowledge-graph prediction only, with no clinical trial or literature behind it. It should be treated as a hypothesis-generating signal, not as evidence of benefit.
+On the available data, no mechanistic link to retinal dystrophy is supported. Inherited retinal dystrophies are genetically driven, and there is no evident rationale for an antipsychotic to change the course of disease. The very high TxGNN score (0.9999, rank 477) is a TxGNN model (deep learning) prediction only, with no clinical trial or literature behind it. It should be treated as a hypothesis-generating signal, not as evidence of benefit.
 
 Other predictions for this drug (all L5, all Hold) include Charcot-Marie-Tooth disease type 1G, a congenital disorder of glycosylation, perisylvian polymicrogyria, hydranencephaly, several forms of myopia and atypical glycine encephalopathy. None has trial or literature support. The myopia predictions have a speculative link through dopaminergic signalling in eye growth, but nothing in the data compiled for this report substantiates it.
 

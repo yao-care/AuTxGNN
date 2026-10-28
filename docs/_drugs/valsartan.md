@@ -4,17 +4,17 @@ title: Valsartan
 parent: Moderate Evidence (L3-L4)
 nav_order: 768
 evidence_level: L4
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension (hypertensive disorder). The Australian licence record h…"
 monitor_inn: "Valsartan"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "obsolete susceptibility to ischemic stroke"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
+description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Valsartan: From Hypertension to Malignant Hypertensive Renal Disease
+## Valsartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials** and only **1 publication** (a preclinical study of a 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder). The Australian licence record has no approved indication text, so this is taken from the knowledge-graph indication data |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,7 +72,7 @@ Currently no related clinical trials registered for this indication.
 |------|-----|------|------|---------|
 | [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Preclinical | Pharmacological Research | Avosentan (not valsartan) protected against hypertensive nephropathy in transgenic rats at doses that did not cause fluid retention |
 
-Related class-level evidence from the second-ranked prediction, malignant renovascular hypertension: [11560862](https://pubmed.ncbi.nlm.nih.gov/11560862/) (Circulation, 2001, preclinical) showed that AT1 receptor blockade prevented lethal malignant hypertension in an animal model.
+Related class-level evidence: [11560862](https://pubmed.ncbi.nlm.nih.gov/11560862/) (Circulation, 2001, preclinical) showed that AT1 receptor blockade prevented lethal malignant hypertension in an animal model.
 
 ## Australia Market Information
 
@@ -108,15 +108,11 @@ For context, the other predictions had weaker or less direct support:
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Malignant renovascular hypertension | 99.97% | L4 | Class-level preclinical support only |
-| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.97% | L4 | Preclinical papers, mostly on the sacubitril/valsartan combination; no trials |
-| Pulmonary hypertension with unclear multifactorial mechanism | 99.97% | L5 | Prediction only |
-| Braddock syndrome | 99.96% | L5 | Prediction only |
-| Chronic pulmonary heart disease | 99.58% | L3 | Indirect heart failure data on sacubitril/valsartan; the one registered trial ([NCT02966665](https://clinicaltrials.gov/study/NCT02966665), Phase 1, 420 participants, recruiting) is an exercise and vascular function study in hypertension, not a valsartan test |
-| Prinzmetal angina | 99.45% | L5 | Single paper is not relevant |
-| Familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 98.50% | L5 | Prediction only |
-| Brain small vessel disease 1 | 98.47% | L5 | Literature match appears spurious |
-| Obsolete susceptibility to ischemic stroke | 98.22% | L5 | Obsolete term, not actionable |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9997 | L5 | Preclinical papers, mostly on the sacubitril/valsartan combination; no trials |
+| Pulmonary hypertension with unclear multifactorial mechanism | 0.9997 | L5 | Prediction only |
+| Braddock syndrome | 0.9996 | L5 | Prediction only |
+| Chronic pulmonary heart disease | 0.9958 | L3 | Indirect heart failure data on sacubitril/valsartan; the one registered trial ([NCT02966665](https://clinicaltrials.gov/study/NCT02966665), Phase 1, 420 participants, recruiting) is an exercise and vascular function study in hypertension, not a valsartan test |
+| Prinzmetal angina | 0.9945 | L5 | Single paper is not relevant |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

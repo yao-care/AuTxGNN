@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ascorbic Acid: From Ascorbic Acid Deficiency (Scurvy) to Injury
+## Ascorbic Acid: From Ascorbic Acid Deficiency (Scurvy) to non-syndromic esophageal malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model's top-ranked prediction is **non-syndromic esophageal malformati
 |------|------|
 | Original Indication | Ascorbic acid deficiency; scurvy (the ARTG entry has no indication text recorded) |
 | Predicted New Indication | Non-syndromic esophageal malformation (rank 1, no evidence). Best-supported candidate: injury (rank 4) |
-| TxGNN Prediction Score | 99.96% (rank 1 indication); 99.60% (injury) |
+| TxGNN Prediction Score | 0.9996 (rank 1 indication); 0.9960 (injury) |
 | Evidence Level | L5 for the rank 1 indication; L2 for injury |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1 indication). Injury: Research Question. |
 
 The rank 1 prediction has no mechanistic link, trials or literature, so the sections below focus mainly on the best-supported candidate (injury). The other candidates are summarised in a short table afterwards.
@@ -63,7 +63,7 @@ The rank 1 prediction has no mechanistic link, trials or literature, so the sect
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ascorbic acid is an antioxidant and a cofactor for collagen synthesis. Its efficacy in correcting deficiency is well established.
 
-**Rank 1 (non-syndromic esophageal malformation):** No plausible link. This is a congenital structural anomaly, and ascorbic acid has no known role in oesophageal embryogenesis. The very high score is a graph-based prediction only.
+**Rank 1 (non-syndromic esophageal malformation):** No plausible link. This is a congenital structural anomaly, and ascorbic acid has no known role in oesophageal embryogenesis. The very high score (0.9996) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Injury (rank 4):** Antioxidant and collagen-supporting actions plausibly support roles in wound and tendon healing, attenuation of oxidative injury (sepsis-induced lung injury, ischaemia-reperfusion, cardiac surgery) and burn resuscitation. "Injury" is a heterogeneous category, so the evidence is scattered across distinct conditions. One in vitro study (PMID 39769123) suggests high-dose vitamin C may harm tendon cells, so dose and context matter.
 
@@ -71,10 +71,10 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Vitamin deficiency disorder | 99.47% | L3 | Closest to the original indication, so largely on-label rather than true repurposing. Supported by a Phase 1 bioavailability study, an observational latent-scurvy study, case reports and reviews. Extension to alcohol use disorder, spondylodiscitis and care home residents is reasonable if guided by measured vitamin C status. Proceed with Guardrails. |
-| Perinatal disease | 99.47% | L3 | One small completed RCT (n=60) of ascorbic acid plus ibuprofen in neonatal hypoxic ischaemic encephalopathy. The combination limits attribution and neonatal dosing and safety need evaluation. |
-| Oesophageal disease | 99.90% | L4 | Mixed preclinical and review literature, with no clinical trials. One rat study (PMID 17953708) reports **enhanced** oesophageal carcinogenesis with ascorbic acid in an acid reflux model, which is a safety signal. |
-| Congenital prothrombin deficiency, biotin metabolic disease, segmental odontomaxillary dysplasia, florid cemento-osseous dysplasia, disease by subcellular system affected | 99.4–99.7% | L5 | No plausible mechanism or clinical evidence. Prediction only. |
+| Vitamin deficiency disorder | 0.9947 | L5 | Closest to the original indication, so largely on-label rather than true repurposing. Supported by a Phase 1 bioavailability study, an observational latent-scurvy study, case reports and reviews. Extension to alcohol use disorder, spondylodiscitis and care home residents is reasonable if guided by measured vitamin C status. Proceed with Guardrails. |
+| Perinatal disease | 0.9947 | L5 | One small completed RCT (n=60) of ascorbic acid plus ibuprofen in neonatal hypoxic ischaemic encephalopathy. The combination limits attribution and neonatal dosing and safety need evaluation. |
+| Oesophageal disease | 0.9990 | L4 | Mixed preclinical and review literature, with no clinical trials. One rat study (PMID 17953708) reports **enhanced** oesophageal carcinogenesis with ascorbic acid in an acid reflux model, which is a safety signal. |
+| Congenital prothrombin deficiency, biotin metabolic disease, segmental odontomaxillary dysplasia, florid cemento-osseous dysplasia, disease by subcellular system affected | 99.4–0.9970 | L5 | No plausible mechanism or clinical evidence. Prediction only. |
 
 ---
 
@@ -136,7 +136,7 @@ One valid single-ingredient registration is recorded, with no cancelled entries.
 
 ## Safety Considerations
 
-**Contraindication-related disease associations (knowledge graph, not label text):** The TxGNN knowledge graph links ascorbic acid to caution or contraindication in several conditions, including:
+**Contraindication-related disease associations (TxGNN model output, not label text):** The TxGNN model (deep learning) associates ascorbic acid with caution or contraindication in several conditions. These associations may reflect similarities the model learned between related diseases, not biological evidence. They include:
 - Kidney disease, anuria, nephrocalcinosis and primary hyperoxaluria
 - Hypercalcaemia, hyperparathyroidism and phosphorus metabolism disease
 - Hereditary haemochromatosis, sickle cell anaemia and blood coagulation disease

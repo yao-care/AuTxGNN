@@ -51,10 +51,10 @@ SIV infection is an animal research model rather than a human disease, so this p
 |------|------|
 | Original Indication | HIV infectious disease; AIDS |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 5 |
+| Australia Market Status | Marketed (valid licences: 5 of 5) |
+| Number of ARTG Entries | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,7 +65,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 SIV and the chimeric SHIV are closely related lentiviruses that use the same reverse transcriptase target as HIV. The antiviral mechanism is therefore directly applicable, and the high TxGNN score is consistent with this similarity to the original HIV indication.
 
-However, SIV infection is a veterinary and preclinical research model, not a human disease. The macaque studies are best read as supporting evidence for HIV prevention and treatment, not as a new human therapeutic indication. The other predictions in the list (feline AIDS, and a rare neurodevelopmental disorder) have no supporting studies. The neurodevelopmental prediction has no plausible mechanistic link and is likely a knowledge-graph artefact.
+However, SIV infection is a veterinary and preclinical research model, not a human disease. The macaque studies are best read as supporting evidence for HIV prevention and treatment, not as a new human therapeutic indication. The other predictions in the list (feline AIDS, and a rare neurodevelopmental disorder) have no supporting studies. The neurodevelopmental prediction has no plausible mechanistic link and is likely a TxGNN model (deep learning) artefact.
 
 ---
 

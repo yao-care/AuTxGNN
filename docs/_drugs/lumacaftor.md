@@ -48,17 +48,17 @@ but there are currently **no registered clinical trials** and **no publications*
 |------|------|
 | Original Indication | Cystic fibrosis |
 | Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.44% |
+| TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lumacaftor is a CFTR corrector that is used with ivacaftor (a CFTR potentiator) and improves the folding and trafficking of defective CFTR protein. Its efficacy in cystic fibrosis is established.
 
-No mechanistic link to leprosy is established from the data compiled. Leprosy is a chronic infection caused by *Mycobacterium leprae*, and CFTR correction has no established relevance to the pathogen or to disease pathogenesis. The very high TxGNN score (99.44%) reflects a knowledge-graph prediction only. It may reflect indirect network associations, such as shared host-response or protein-folding pathways, but these are speculative and unverified.
+No mechanistic link to leprosy is established from the data compiled. Leprosy is a chronic infection caused by *Mycobacterium leprae*, and CFTR correction has no established relevance to the pathogen or to disease pathogenesis. The very high TxGNN score (0.9944) reflects a TxGNN model (deep learning) prediction only. It may reflect indirect network associations, such as shared host-response or protein-folding pathways, but these are speculative and unverified.
 
 ## Clinical Trial Evidence
 

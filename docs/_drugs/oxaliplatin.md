@@ -4,17 +4,17 @@ title: Oxaliplatin
 parent: High Evidence (L1-L2)
 nav_order: 534
 evidence_level: L2
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L2). Approved use: Metastasis from malignant tumour of colon"
 monitor_inn: "Oxaliplatin"
-predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor", "female breast carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
+predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 ---
 
 # Oxaliplatin
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **2 directly relevant Phase 2 clinical trials** and **several Phase 2 publi
 |------|------|
 | Original Indication | Metastasis from malignant tumour of colon (the ARTG record compiled for this report has no indication text) |
 | Predicted New Indication | Malignant pleural mesothelioma |
-| TxGNN Prediction Score | 99.68% |
+| TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

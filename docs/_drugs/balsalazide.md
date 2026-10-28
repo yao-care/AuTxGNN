@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **gout**, but **no clinical tri
 |------|------|
 | Original Indication | Ulcerative colitis, inflammatory bowel disease (from the TxGNN knowledge graph; no approved indication text is recorded in the ARTG data compiled for this report) |
 | Predicted New Indication | Gout |
-| TxGNN Prediction Score | 99.75% |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,10 +63,10 @@ For context, other top-ranked predictions for this drug were:
 
 | Rank | Predicted Disease | Score | Plausibility (from the data compiled) |
 |------|------|------|------|
-| 3 | Ankylosing spondylitis | 99.71% | Biologically reasonable (IBD–spondyloarthritis axis), unverified; literature review needed |
-| 4 | Rheumatoid arthritis | 99.64% | Uncertain; sulfasalazine's activity may depend on the sulfapyridine component, which balsalazide lacks |
-| 7 | Inflammatory spondylopathy | 99.53% | Plausible, but clinical data on 5-ASA for axial inflammation are limited |
-| 2, 6, 8 | Congenital hypotrichosis with juvenile macular dystrophy; hypermobility of coccyx; Kummell disease | 99.48–99.73% | No plausible mechanistic link; likely knowledge-graph artefacts |
+| 3 | Ankylosing spondylitis | 0.9971 | Biologically reasonable (IBD–spondyloarthritis axis), unverified; literature review needed |
+| 4 | Rheumatoid arthritis | 0.9964 | Uncertain; sulfasalazine's activity may depend on the sulfapyridine component, which balsalazide lacks |
+| 7 | Inflammatory spondylopathy | 0.9953 | Plausible, but clinical data on 5-ASA for axial inflammation are limited |
+| 2, 6, 8 | Congenital hypotrichosis with juvenile macular dystrophy; hypermobility of coccyx; Kummell disease | 99.48–0.9973 | No plausible mechanistic link; likely TxGNN model (deep learning) artefacts |
 
 ## Clinical Trial Evidence
 

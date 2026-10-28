@@ -4,17 +4,17 @@ title: Risdiplam
 parent: Model Prediction Only (L5)
 nav_order: 639
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Risdiplam: predicted new indication Acne (disease) (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Risdiplam"
-predicted_indications: ["acne (disease)", "drug-induced osteoporosis", "zinc, elevated plasma", "common wart", "metastatic melanoma", "dermatitis", "non-cutaneous melanoma", "acrodermatitis chronica atrophicans", "epithelioid cell melanoma", "eyelid melanoma"]
+predicted_indications: ["acne (disease)"]
 ---
 
 # Risdiplam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **acne**, with a high score but
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,6 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The prediction is computational only. One speculative hypothesis is an off-target effect on RNA splicing in sebaceous or epithelial tissue, but nothing in the data supports it. The relationship between the original and new indication is not yet characterised.
 
-The other top-ranked predictions are similarly unsupported. They include drug-induced osteoporosis, elevated plasma zinc, common wart, several melanoma subtypes, dermatitis, and acrodermatitis chronica atrophicans. Elevated plasma zinc is a laboratory finding rather than a treatable disease, so that score is likely a knowledge-graph artefact. Skin-related adverse events such as rash have been reported with risdiplam, which argues against a therapeutic role in dermatitis.
 
 ## Clinical Trial Evidence
 

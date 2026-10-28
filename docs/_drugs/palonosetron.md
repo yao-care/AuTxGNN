@@ -4,17 +4,17 @@ title: Palonosetron
 parent: Model Prediction Only (L5)
 nav_order: 544
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Palonosetron: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the data compiled for this report (the registered Aus…"
 monitor_inn: "Palonosetron"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "headache disorder", "trigeminal autonomic cephalalgia", "open-angle glaucoma", "sciatic neuropathy", "primary hereditary glaucoma"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Palonosetron
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,19 +48,19 @@ The evidence is model prediction only and does not currently support therapeutic
 |------|------|
 | Original Indication | Not recorded in the data compiled for this report (the registered Australian entry has no indication text). Literature identifies the established use as prevention of chemotherapy-induced nausea and vomiting (CINV) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, palonosetron is a second-generation 5-HT3 receptor antagonist. Its efficacy in preventing chemotherapy-induced nausea and vomiting has been shown in phase 3 trials, and mechanistically it may be applicable to migraine, which involves serotonin signalling and prominent nausea.
 
-The TxGNN score is very high (99.74%), but this should be read cautiously. The only linked publication reports palonosetron *inducing* migraine-type headache, which is a safety signal in the opposite direction to benefit. 5-HT3 antagonists have a plausible but unproven role in migraine and nausea pathways, and no clinical evidence supports palonosetron for migraine treatment or prevention.
+The TxGNN score is very high (0.9974), but this should be read cautiously. The only linked publication reports palonosetron *inducing* migraine-type headache, which is a safety signal in the opposite direction to benefit. 5-HT3 antagonists have a plausible but unproven role in migraine and nausea pathways, and no clinical evidence supports palonosetron for migraine treatment or prevention.
 
-Other predictions from the model (for example migraine with brainstem aura, trigeminal autonomic cephalalgia, headache disorder, glaucoma, sciatic neuropathy, and rare skin disorders) also have no supporting trials. Most appear to be knowledge-graph artefacts, likely driven by proximity to the migraine node.
+Other predictions from the model (for example migraine with brainstem aura, trigeminal autonomic cephalalgia, headache disorder, glaucoma, sciatic neuropathy, and rare skin disorders) also have no supporting trials. Most appear to be TxGNN model (deep learning) artefacts, likely driven by proximity to the migraine node.
 
 ## Clinical Trial Evidence
 

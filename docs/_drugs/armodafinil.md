@@ -4,17 +4,17 @@ title: Armodafinil
 parent: High Evidence (L1-L2)
 nav_order: 60
 evidence_level: L2
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Armodafinil: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Narcolepsy (excessive sleepiness)"
 monitor_inn: "Armodafinil"
-predicted_indications: ["insomnia (disease)", "faciodigitogenital syndrome", "Wernicke-Korsakoff syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation", "attention deficit-hyperactivity disorder", "ACBD5 deficiency", "sleep disorder, initiating and maintaining sleep", "Creutzfeldt-Jakob disease", "megaconial type congenital muscular dystrophy"]
+predicted_indications: ["insomnia (disease)"]
 ---
 
 # Armodafinil
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Armodafinil is a wake-promoting agent (the R-enantiomer of modafinil), originally used to treat narcolepsy and related excessive sleepiness.
-The TxGNN model predicts it may be effective for **insomnia**, with **3 clinical trials** and **2 publications** listed directly under this prediction (plus further armodafinil and insomnia publications listed under the related indication "sleep disorder, initiating and maintaining sleep").
+The TxGNN model predicts it may be effective for **insomnia**, with **3 clinical trials** and **2 publications** listed directly under this prediction.
 The evidence suggests armodafinil is more useful for the daytime sleepiness that accompanies insomnia treatment than for insomnia itself.
 
 ---
@@ -50,10 +50,10 @@ The evidence suggests armodafinil is more useful for the daytime sleepiness that
 |------|------|
 | Original Indication | Narcolepsy (excessive sleepiness); the approved indication text for the Australian entry is not available |
 | Predicted New Indication | Insomnia (disease) |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 ---
@@ -80,7 +80,7 @@ The largest trial's associated literature reports that CBT-I, not armodafinil, i
 
 ## Literature Evidence
 
-Publications listed under the insomnia prediction and the related "sleep disorder, initiating and maintaining sleep" prediction:
+Publications listed under the insomnia prediction:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -130,7 +130,6 @@ Phase 2 trials exist, but the armodafinil-specific benefit for insomnia is weak 
 
 ---
 
-*Other predictions with no supporting evidence (L5, Hold): faciodigitogenital syndrome, Wernicke-Korsakoff syndrome, disorders of peroxisomal oxidation, ACBD5 deficiency, Creutzfeldt-Jakob disease and megaconial congenital muscular dystrophy. Attention deficit-hyperactivity disorder (L3) has only reviews and mechanistic reports, with no registered trials, and remains a research question. The "narcolepsy, susceptibility to" prediction duplicates the existing approved use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

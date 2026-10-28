@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Indacaterol: From Obstructive Airway Disease to Bronchial Disease
+## Indacaterol: From Obstructive Airway Disease to nephrogenic syndrome of inappropriate antidiuresis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ That bronchial disease evidence is largely label-adjacent rather than true repur
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the ARTG entry carries no indication text) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis (rank 1, TxGNN's top prediction). Evidence is assessed below for bronchial disease (rank 7), the only prediction with supporting data. |
-| TxGNN Prediction Score | 99.54% for the rank 1 prediction; 99.18% for bronchial disease |
+| TxGNN Prediction Score | 0.9954 for the rank 1 prediction; 0.9918 for bronchial disease |
 | Evidence Level | L5 for the rank 1 prediction (prediction only); L1 for bronchial disease |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold for the rank 1 prediction; Proceed with Guardrails for bronchial disease (asthma) |
 
 ---
@@ -62,7 +62,7 @@ That bronchial disease evidence is largely label-adjacent rather than true repur
 
 Detailed mechanism of action data is not available in the data compiled for this report. Indacaterol is known to be an ultra-long-acting beta-2 adrenergic agonist. It relaxes bronchial smooth muscle through cAMP signalling, which allows once-daily dosing.
 
-**Rank 1 prediction (nephrogenic syndrome of inappropriate antidiuresis):** The high score is a graph-based prediction only. A link to the V2 receptor gain-of-function signalling that drives this condition is not supported. Beta-2 agonism would be expected to raise cAMP rather than counter it. The same applies to the other top-ranked predictions (headache disorder, trigeminal autonomic cephalalgia, paratenonitis, calcific tendinitis, hypertrichosis, myositis, anaphylaxis and Ambras-type hypertrichosis). None has any trial or literature support, and beta agonists may actually cause headache as an adverse effect. Anaphylaxis is managed first-line with epinephrine, and indacaterol's slow onset makes it unsuitable for an acute emergency.
+**Rank 1 prediction (nephrogenic syndrome of inappropriate antidiuresis):** The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. A link to the V2 receptor gain-of-function signalling that drives this condition is not supported. Beta-2 agonism would be expected to raise cAMP rather than counter it. The same applies to the other top-ranked predictions (headache disorder, trigeminal autonomic cephalalgia, paratenonitis, calcific tendinitis, hypertrichosis, myositis, anaphylaxis and Ambras-type hypertrichosis). None has any trial or literature support, and beta agonists may actually cause headache as an adverse effect. Anaphylaxis is managed first-line with epinephrine, and indacaterol's slow onset makes it unsuitable for an acute emergency.
 
 **Bronchial disease:** This is the only prediction with real support. Indacaterol is already used in obstructive airway disease. As part of fixed-dose combinations it has Phase 3 evidence in asthma: indacaterol/mometasone (QMF149) and indacaterol/glycopyrronium/mometasone (QVM149). This is better described as an on-label or label-adjacent use than as true repurposing. The evidence applies to combination products, not indacaterol alone. LABA monotherapy is contraindicated in asthma.
 
@@ -135,7 +135,7 @@ Warnings and contraindications from the product label were not available in the 
 **Decision: Hold for the rank 1 prediction (nephrogenic syndrome of inappropriate antidiuresis) and the other eight unsupported predictions; Proceed with Guardrails for bronchial disease (asthma)**
 
 **Rationale:**
-- The top-ranked prediction and eight others (rank 2 to 6 and 8 to 10) are graph-based predictions only (L5), with no trials or publications and no plausible mechanism. For some, the mechanism points the wrong way.
+- The top-ranked prediction and eight others (rank 2 to 6 and 8 to 10) are TxGNN model (deep learning) predictions only (L5) and may reflect similarities the model learned between related diseases, not biological evidence. They have no trials or publications and no plausible mechanism. For some, the mechanism points the wrong way.
 - Bronchial disease (asthma) has L1-level evidence, including several completed Phase 3 trials and the IRIDIUM RCT. It comes from combination products and is close to existing use, so it is not novel repurposing.
 
 **To proceed, the following is needed:**

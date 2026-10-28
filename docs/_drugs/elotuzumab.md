@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Elotuzumab
-parent: Moderate Evidence (L3-L4)
+parent: Known Uses Only (No New Predictions)
 nav_order: 244
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Elotuzumab: predicted new indication Indolent plasma cell myeloma (evidence level L4). Approved use: Plasma cell myeloma"
-monitor_inn: "Elotuzumab"
-predicted_indications: ["lipoma of colon", "cecum villous adenoma", "colonic lymphangioma", "colon leiomyoma", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "cecal disease", "benign neoplasm of cecum", "cavernous hemangioma of colon"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Elotuzumab: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Elotuzumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,50 +32,45 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Elotuzumab: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
+<!-- known-uses-page -->
+<!-- description: Elotuzumab: known uses and market status in Australia; currently no new candidate indication -->
+## Elotuzumab: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Elotuzumab, so there is currently no new predicted indication. The drug's own recorded uses are listed below.
 
-Elotuzumab is a monoclonal antibody originally used to treat plasma cell myeloma (multiple myeloma).
-The TxGNN model predicts it may be effective for **indolent plasma cell myeloma**, but this is a closely related stage of the same disease rather than a distinct new disease.
-Currently there are **0 registered clinical trials** and **1 publication** (a general review) in the compiled data, so the evidence is indirect.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Plasma cell myeloma (the ARTG entry in the compiled data has no indication text) |
-| Predicted New Indication | Indolent plasma cell myeloma |
-| TxGNN Prediction Score | 98.62% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 2 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Elotuzumab is an anti-SLAMF7 (CS1) monoclonal antibody. SLAMF7 is expressed on myeloma plasma cells and natural killer (NK) cells. The antibody is thought to work by activating NK cells directly and by triggering NK-cell-mediated antibody-dependent cellular cytotoxicity against myeloma cells. Detailed original mechanism-of-action data were not available in the compiled data; the description here comes from the mechanistic rationale in the prediction analysis.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| multiple myeloma | licence in another country |
 
-Indolent (smouldering) myeloma sits on the same disease continuum as the approved indication, which likely explains the high TxGNN score. The prediction is therefore largely a restatement of the approved disease, not a true repurposing candidate. The only supporting publication is a 2016 general review of myeloma. Any evidence specific to elotuzumab in smouldering myeloma would need to be verified from independent sources not included in the compiled data.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Other predictions in the list (benign and malignant colonic and cecal conditions, scores 73.9% to 76.3%) have no plausible mechanistic link. These conditions do not depend on SLAMF7, and they appear to be graph-based prediction artefacts. They are not recommended for further consideration.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered in the compiled data.
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [27610224](https://pubmed.ncbi.nlm.nih.gov/27610224/) | 2016 | Review | F1000Research | General review of advances in understanding multiple myeloma. Notes revised diagnostic criteria, with former ultra-high-risk smouldering myeloma now treated as myeloma needing therapy, and discusses clonal evolution and modern combination regimens. Not specific to elotuzumab. |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| plasma cell myeloma |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12983H | Empliciti | Powder for injection 300 mg | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 12983H | Empliciti | Powder for injection 300 mg | Valid |
 
 ## Safety Considerations
 
@@ -88,19 +82,6 @@ Examples of Moderate interactions include naltrexone, metronidazole, rosuvastati
 
 For warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The predicted indication is a stage of the already-approved disease, with a high model score but no registered trials and only one non-specific review. Evidence is indirect (L4), and the remaining colonic predictions have no mechanistic support.
-
-**To proceed, the following is needed:**
-- Independent verification of elotuzumab studies in high-risk smouldering (indolent) myeloma, including trial registry searches (ClinicalTrials.gov and ANZCTR)
-- Detailed mechanism of action data
-- The TGA-approved indication text and PI warnings and contraindications for Empliciti
-- Review of the full interaction list, particularly the Major interactions
-- Confirmation of PBS listing and reimbursement status for any new use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

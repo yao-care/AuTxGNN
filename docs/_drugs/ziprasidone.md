@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Ziprasidone
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 793
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Ziprasidone: predicted new indication Major affective disorder (evidence level L2). Approved use: Manic bipolar affective disorder, bipolar disorder, schizophrenia"
+description: "Ziprasidone: predicted new indication Trichotillomania (evidence level L2). Approved use: Manic bipolar affective disorder, bipolar disorder, schizophrenia"
 monitor_inn: "Ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major affective disorder", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major 
 # Ziprasidone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Ziprasidone: From Bipolar Disorder and Schizophrenia to Major Affective Disorder
+## Ziprasidone: From Bipolar Disorder and Schizophrenia to Trichotillomania
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -41,7 +41,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 Ziprasidone is an atypical antipsychotic originally used for schizophrenia and manic episodes of bipolar disorder.
 The TxGNN model predicts it may be effective for **major affective disorder** (the depression-focused indication that is the strongest-supported prediction among its top candidates), with **7 clinical trials** and **20 publications** currently supporting this direction.
 
-Note: the top-ranked TxGNN prediction (trichotillomania, score 99.83%) has no supporting trials or literature. This report therefore focuses on the best-evidenced candidate, major affective disorder (rank 3).
+Note: the top-ranked TxGNN prediction (trichotillomania, score 0.9983) has no supporting trials or literature. This report therefore focuses on the best-evidenced candidate, major affective disorder (rank 3).
 
 ---
 
@@ -51,10 +51,10 @@ Note: the top-ranked TxGNN prediction (trichotillomania, score 99.83%) has no su
 |------|------|
 | Original Indication | Manic bipolar affective disorder, bipolar disorder, schizophrenia (the ARTG entry carries no indication text) |
 | Predicted New Indication | Major affective disorder (rank 3; rank 1 was trichotillomania, with no evidence) |
-| TxGNN Prediction Score | 99.66% (rank 1 trichotillomania: 99.83%) |
-| Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9966 (rank 1 trichotillomania: 0.9983) |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -67,7 +67,7 @@ Ziprasidone is already used for bipolar mania and mixed episodes, so mood disord
 
 Caveats: the indication overlaps with the existing bipolar labelling, so the novel element is mainly unipolar or adjunctive depression. Results of the Phase 2 trials are not summarised in the data compiled, so efficacy conclusions remain unverified.
 
-Other predictions with some support: **Tourette syndrome** (rank 7, score 99.63%, evidence level L3) has a small paediatric pilot study (PMID 10714048) and reviews, and D2 antagonism is the established basis for tic suppression. The remaining top-10 predictions (e.g. hydranencephaly, glycosylation disorders, X-linked myopias, retinal dystrophy, polymicrogyria) have no identifiable mechanistic link or clinical evidence and are likely graph-based artefacts.
+Other predictions with some support: **Tourette syndrome** (rank 7, score 0.9963, evidence level L3) has a small paediatric pilot study (PMID 10714048) and reviews, and D2 antagonism is the established basis for tic suppression. The remaining top-10 predictions (e.g. hydranencephaly, glycosylation disorders, X-linked myopias, retinal dystrophy, polymicrogyria) have no identifiable mechanistic link or clinical evidence; their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

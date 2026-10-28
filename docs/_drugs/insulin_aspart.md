@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Aspart
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 378
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Insulin Aspart: predicted new indication Type 1 diabetes mellitus (evidence level L1). Approved use: Diabetes mellitus"
 monitor_inn: "Insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
+description: "Insulin Aspart: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Aspart
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Aspart: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## Insulin Aspart: Autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Insulin aspart is a rapid-acting human insulin analogue, originally used to treat diabetes mellitus and diabetic ketoacidosis.
-The TxGNN model predicts it may be effective for **type 1 diabetes mellitus**, which is effectively an on-label use rather than a true repurposing,
 with **32 clinical trials** and **20 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus; diabetic ketoacidosis (from the knowledge graph, as no approved indication text is available in the ARTG data) |
-| Predicted New Indication | Type 1 diabetes mellitus |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune oophoritis |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -125,7 +124,7 @@ The remaining predictions have little or no supporting evidence and are not reco
 | Predicted Indication | Evidence Level | Decision | Comment |
 |------|------|------|------|
 | Permanent neonatal diabetes mellitus | L4 | Research question | Insulin replacement is mechanistically coherent and standard care, though sulfonylureas are preferred in some genetic subtypes. Evidence is one review (PMID 28527303) |
-| Pancreatic agenesis | L4 | Research question | Insulin replacement is logical, but the supplied literature is indirect only |
+| Pancreatic agenesis | L5 | Research question | Insulin replacement is logical, but the supplied literature is indirect only |
 | Autoimmune oophoritis | L5 | Hold | No mechanistic link, no trials or publications |
 | Opsismodysplasia | L5 | Hold | Pathway link is theoretical only |
 | Thiamine-responsive dysfunction syndrome | L5 | Hold | Thiamine is the primary treatment |

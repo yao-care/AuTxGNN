@@ -4,17 +4,17 @@ title: Miconazole
 parent: Moderate Evidence (L3-L4)
 nav_order: 475
 evidence_level: L3
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Miconazole: predicted new indication Acne (evidence level L3). Approved use: Tinea pedis, tinea corporis, cutaneous candidiasis…"
 monitor_inn: "Miconazole"
-predicted_indications: ["acne (disease)", "gastrin secretion abnormality", "papillary conjunctivitis", "ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "blastomycosis"]
+predicted_indications: ["acne (disease)"]
+description: "Miconazole: predicted new indication Acne (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Miconazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Miconazole: From Superficial Fungal Skin Infections to Acne
+## Miconazole: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **acne**, but there are **no re
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis, tinea corporis, cutaneous candidiasis, pityriasis versicolor, vulvovaginal candidiasis and related superficial fungal infections (the ARTG entry in the data compiled for this report has no indication text; these come from the knowledge graph) |
-| Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.54% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Acne (disease) |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -126,11 +126,6 @@ These are ranked lower and shown for context only.
 
 | Predicted Indication | TxGNN Score | Evidence Level | Note |
 |------|------|------|------|
-| Superficial mycosis | 97.05% | L3 | Largely within existing approved uses. Supported by a comparative study versus clotrimazole (PMID 2632381) and multiple reviews. Candidate for Proceed with Guardrails, but it is not true repurposing. |
-| Tinea profunda / Majocchi granuloma | 97.20% / 97.08% | L4 | Case reports and preclinical analogue chemistry only. Topical penetration into follicular and dermal infection is likely inadequate. |
-| Dermatophytosis of scalp or beard | 96.92% | L4 | Literature is general. Systemic agents are standard, and topical agents are adjunctive. |
-| Blastomycosis | 95.17% | L3 | Old uncontrolled reports of IV or oral miconazole. Superseded by itraconazole and amphotericin B. |
-| Gastrin secretion abnormality, papillary conjunctivitis, ectothrix and endothrix infections | 97.0–98.7% | L5 | Model prediction only, with no supporting literature. Hold. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

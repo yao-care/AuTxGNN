@@ -46,17 +46,17 @@ Varenicline is a nicotinic receptor partial agonist, marketed in Australia as VA
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (varenicline is known as a smoking cessation aid) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, varenicline is a partial agonist of alpha4beta2 nicotinic acetylcholine receptors and a full agonist of alpha7 receptors. Its established use is smoking cessation, where it reduces cravings and withdrawal symptoms.
 
-Nicotinic and cholinergic signalling has been loosely linked to pain modulation and cortical spreading depression. However, no established mechanism connects varenicline to migraine treatment. The high TxGNN score reflects computational graph proximity only and should not be read as clinical support.
+Nicotinic and cholinergic signalling has been loosely linked to pain modulation and cortical spreading depression. However, no established mechanism connects varenicline to migraine treatment. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as clinical support.
 
 The second-ranked prediction, migraine with brainstem aura, is a subtype of migraine and has no independent evidence. Lower-ranked predictions (hair disorders such as alopecia, glaucoma, headache disorder and pulmonary hypertension) also lack supporting evidence. The retrieved literature for headache disorder and pulmonary hypertension concerns smoking cessation and adverse events, not treatment of those conditions.
 

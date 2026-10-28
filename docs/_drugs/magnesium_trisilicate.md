@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Magnesium Trisilicate
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 444
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Magnesium Trisilicate: predicted new indication Active peptic ulcer disease (evidence level L3). Approved use: Peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis…"
 monitor_inn: "Magnesium trisilicate"
-predicted_indications: ["gastroduodenitis", "stomach disease", "duodenal obstruction", "gastroparesis (disease)", "hiatus hernia (disease)"]
+predicted_indications: ["gastroduodenitis"]
+description: "Magnesium Trisilicate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Magnesium Trisilicate
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,39 +33,37 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Magnesium Trisilicate: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Magnesium Trisilicate: Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Magnesium trisilicate is a non-systemic antacid, originally used for peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis and dyspepsia.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this largely overlaps with its existing indication, so it is not a true repurposing candidate.
 The supporting evidence is **0 clinical trials** and **2 publications** (mostly historical) for the top prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis, dyspepsia (from the knowledge graph; no approved indication text is available for the Australian entry) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroduodenitis |
+| TxGNN Prediction Score | 0.9972 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, magnesium trisilicate neutralises gastric acid and forms a silica gel that may coat the ulcer surface.
 
-Active peptic ulcer disease is essentially the same condition as the drug's existing indication, so the high TxGNN score (99.86%) mostly reflects this overlap rather than a new therapeutic direction. The other top predictions follow the same pattern. Gastric ulcer, gastrojejunal (anastomotic) ulcer and stomach disease are acid-related conditions adjacent to the existing indications. Several lower-ranked predictions are not mechanistically plausible:
+The other top predictions follow the same pattern. Several lower-ranked predictions are not mechanistically plausible:
 
-- **Peptic ulcer perforation, duodenal obstruction and gastroparesis:** these are surgical or mechanical/motility problems that an antacid does not treat. In impaired transit, antacids may also carry a risk of concretions.
+- In impaired transit, antacids may also carry a risk of concretions.
 - **Duodenogastric reflux and hiatus hernia:** at best, symptomatic relief only.
 
 ## Clinical Trial Evidence
 
-No clinical trials are registered for the top prediction (active peptic ulcer disease). For the broader category "stomach disease" (rank 6), two trials were identified:
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|

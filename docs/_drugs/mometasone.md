@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mometasone
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 486
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Mometasone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L4). Approved use: Not available in the data compiled . Pharmacology data describe topic…"
 monitor_inn: "Mometasone"
-predicted_indications: ["primary cutaneous T-cell lymphoma", "Crohn's colitis", "myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "cystic teratoma", "spinal cord dermoid cyst", "aregenerative anemia", "disease of orbital part of eye adnexa"]
+predicted_indications: ["primary cutaneous T-cell lymphoma"]
 ---
 
 # Mometasone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but there are currently **0 registered clinical trials** and only **2 case repor
 |------|------|
 | Original Indication | Not available in the data compiled (the ARTG entry has no indication text). Pharmacology data describe topical use for allergic skin disorders, and intranasal use for asthma, allergic rhinitis and nasal polyposis. |
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9936 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

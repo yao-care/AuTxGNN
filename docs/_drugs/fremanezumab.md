@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fremanezumab
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 321
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Fremanezumab: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder"
 monitor_inn: "Fremanezumab"
-predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "amenorrhea (disease)", "sciatic neuropathy", "hemorrhagic disease of newborn"]
+predicted_indications: ["atrophoderma vermiculata"]
+description: "Fremanezumab: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fremanezumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Fremanezumab: From Migraine to Migraine with Brainstem Aura
+## Fremanezumab: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Fremanezumab is a humanised monoclonal antibody that targets calcitonin gene-related peptide (CGRP), originally used to prevent migraine.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**, but there are currently **no registered clinical trials** and the **19 publications** compiled are mostly observational studies, reviews and preclinical work on migraine or migraine aura in general, not this subtype specifically.
+The TxGNN model predicts it may be effective for **atrophoderma vermiculata**, but there are currently **no registered clinical trials** and the **19 publications** compiled are mostly observational studies, reviews and preclinical work on migraine or migraine aura in general, not this disease specifically.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **migraine with brainstem aura*
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder (the approved indication text for the ARTG entry is not available) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9904 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **migraine with brainstem aura*
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, fremanezumab is a humanised monoclonal antibody that binds the CGRP ligand. CGRP signalling is central to trigeminovascular activation in migraine, and its efficacy in migraine prevention has been established.
 
-Migraine with brainstem aura is a subtype of migraine with aura, so a mechanistic overlap with the approved migraine indication is plausible. The high TxGNN score mainly reflects how closely this disease sits to the approved migraine indication in the knowledge graph, not independent evidence for this subtype.
+The high TxGNN score (0.9904) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 There are also reasons for caution. A preclinical study (PMID 31127003) found that cortical spreading depression (the phenomenon thought to underlie aura)-induced arterial dilatation and plasma protein extravasation were unaffected by fremanezumab. A pilot cohort study (PMID 38091211) also highlights that the effectiveness of anti-CGRP antibodies on aura remains uncertain.
 

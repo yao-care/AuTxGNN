@@ -4,7 +4,7 @@ title: Methotrexate
 parent: Model Prediction Only (L5)
 nav_order: 463
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Acute lymphoblastic leukaemia, non-Hodgkin lymphoma…"
 monitor_inn: "Methotrexate"
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "wel
 # Methotrexate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,20 +48,19 @@ Other predictions in the list have more support, notably **Hodgkin lymphoma** an
 |------|------|
 | Original Indication | Acute lymphoblastic leukaemia, non-Hodgkin lymphoma, rheumatoid arthritis, psoriasis, mycosis fungoides (approved indication text for the Australian product is not available) |
 | Predicted New Indication | Pulmonary blastoma (top-ranked) |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-**Other predictions of note** (all scores 99.2% to 99.4%):
+**Other predictions of note** (all scores 0.9921 to 0.9945):
 
 | Rank | Predicted Indication | Score | Evidence Level | Decision |
 |------|------|------|------|------|
-| 2 | Primary pulmonary lymphoma | 99.45% | L4 | Hold |
-| 3 | Small cell lung carcinoma | 99.43% | L4 | Hold |
-| 5 | Hodgkin lymphoma | 99.32% | L3 | Research question |
-| 6 | Rhabdomyosarcoma | 99.25% | L2 | Research question |
+| 2 | Primary pulmonary lymphoma | 0.9945 | L5 | Hold |
+| 5 | Hodgkin lymphoma | 0.9932 | L3 | Research question |
+| 6 | Rhabdomyosarcoma | 0.9925 | L2 | Research question |
 
 Ranks 4 and 7 to 10 (well-differentiated fetal adenocarcinoma of the lung, two CLL/SLL subtypes, parameningeal embryonal rhabdomyosarcoma, and botryoid-type embryonal rhabdomyosarcoma of the vagina) have prediction-only support (L5, Hold).
 
@@ -135,7 +134,7 @@ Only injectable presentations are listed in the data.
 
 Label-based warnings and contraindications were not available in the data compiled. Please refer to the TGA-approved Product Information (PI).
 
-**Contraindicated conditions (knowledge graph signals, not label text):** liver failure, liver disease, kidney disease, gallbladder disease, thrombocytopenia, leukopenia, anaemia (including macrocytic), peptic and gastric ulcer disease, ulcerative colitis, inflammatory bowel disease, stomatitis, interstitial lung disease, pulmonary fibrosis, substance abuse or dependence, immune system disease, and pyoureter.
+**Contraindicated conditions (TxGNN model (deep learning) signals, not label text; they may reflect similarities the model learned between related diseases, not biological evidence):** liver failure, liver disease, kidney disease, gallbladder disease, thrombocytopenia, leukopenia, anaemia (including macrocytic), peptic and gastric ulcer disease, ulcerative colitis, inflammatory bowel disease, stomatitis, interstitial lung disease, pulmonary fibrosis, substance abuse or dependence, immune system disease, and pyoureter.
 
 **Drug interactions:** 100 interactions were identified; the 20 listed in the data include these **major** ones:
 - Rabeprazole

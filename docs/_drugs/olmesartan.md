@@ -48,10 +48,10 @@ Olmesartan is an angiotensin II receptor blocker (ARB) that is registered in Aus
 |------|------|
 | Original Indication | Not available in the data compiled for this report (olmesartan is an ARB, generally used for hypertension) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

@@ -4,17 +4,17 @@ title: Tocilizumab
 parent: Moderate Evidence (L3-L4)
 nav_order: 734
 evidence_level: L3
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Rheumatoid arthritis"
 monitor_inn: "Tocilizumab"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **ankylosing spondylitis**, but
 |------|------|
 | Original Indication | Rheumatoid arthritis (the ARTG entry in the data compiled for this report has no indication text) |
 | Predicted New Indication | Ankylosing spondylitis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -119,7 +119,7 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 | Polyarticular juvenile rheumatoid arthritis | L1 | Proceed with Guardrails | Completed Phase 3 withdrawal trial (NCT00988221, n=188). This confirms an already-listed use rather than a novel repurposing finding. |
 | RF-positive polyarticular JIA | L3 | Proceed with Guardrails | Evidence is inherited from the broader pJIA programme; no subtype-specific trials. |
 | Rheumatoid vasculitis | L4 | Research Question | Case reports only, plus a vasculitis-like reaction safety signal. |
-| Inflammatory spondylopathy | L3 | Hold | Overlaps with AS; same terminated trials. |
+| Inflammatory spondylopathy | L5 | Hold | Overlaps with AS; same terminated trials. |
 | Spondyloarthropathy, susceptibility to | L5 | Hold | Genetic susceptibility entity; only an in vitro study. |
 | Hypermobility of coccyx, Kummell disease, vertebral disease | L5 | Hold | No mechanistic rationale or relevant clinical evidence. |
 | MSMD due to complete IL12B deficiency | L5 | Hold | Potentially harmful given the infection risk of immunosuppression. |

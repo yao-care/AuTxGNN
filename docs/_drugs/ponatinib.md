@@ -4,17 +4,17 @@ title: Ponatinib
 parent: Model Prediction Only (L5)
 nav_order: 584
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Ponatinib: predicted new indication Gingival fibromatosis (evidence level L5). Approved use: Chronic myelogenous leukaemia, BCR-ABL1 positive"
 monitor_inn: "Ponatinib"
-predicted_indications: ["fibromatosis, gingival", "liposarcoma", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "ovarian myxoid liposarcoma", "hamartoma of lung", "fibroma of lung", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung benign neoplasm", "lung hilum carcinoma"]
+predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
 ---
 
 # Ponatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This is a model-only prediction (L5), and the remaining nine ranked predictions 
 |------|------|
 | Original Indication | Chronic myelogenous leukaemia, BCR-ABL1 positive (the Australian licence entry has no indication text) |
 | Predicted New Indication | Gingival fibromatosis |
-| TxGNN Prediction Score | 99.04% |
+| TxGNN Prediction Score | 0.9904 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,15 +70,7 @@ The table below summarises the other nine predictions in the compiled data.
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Liposarcoma | 99.00% | L4 | One 2017 preclinical kinase-profiling study; no ponatinib-specific efficacy shown |
-| 3 | Inclusion body myopathy with early-onset Paget disease (with or without frontotemporal dementia) | 98.98% | L5 | No evidence; no mechanistic link identified |
-| 4 | Ovarian myxoid liposarcoma | 98.93% | L5 | No direct evidence |
-| 5 | Hamartoma of lung | 98.93% | L5 | Benign lesion; unfavourable risk-benefit given ponatinib's cardiovascular and thrombotic safety burden |
-| 6 | Fibroma of lung | 98.87% | L5 | Benign neoplasm; no supporting evidence |
-| 7 | Junctional epidermolysis bullosa | 98.86% | L5 | No plausible kinase-inhibitor mechanism evident |
-| 8 | Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome | 98.83% | L5 | Retrieved literature is generic and not disease-specific |
-| 9 | Lung benign neoplasm | 98.83% | L5 | Literature covers pharmacology and toxicity, nothing specific to this condition |
-| 10 | Lung hilum carcinoma | 98.81% | L5 | No evidence; RET and FGFR inhibition is relevant to some lung cancers only |
+| 2 | Liposarcoma | 0.9900 | L5 | One 2017 preclinical kinase-profiling study; no ponatinib-specific efficacy shown |
 
 ---
 

@@ -4,17 +4,17 @@ title: Pazopanib
 parent: Model Prediction Only (L5)
 nav_order: 550
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Pazopanib: predicted new indication Renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene… (evidence level L5). Approved use: Renal cell carcinoma and soft tissue sarcoma (the approved…"
 monitor_inn: "Pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
+description: "Pazopanib: predicted new indication Liposarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pazopanib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pazopanib: From Renal Cell Carcinoma and Soft Tissue Sarcoma to Unclassified Renal Cell Carcinoma
+## Pazopanib: Liposarcoma
 {: .text-alpha }
 
 *Note: The report follows the first-ranked prediction (Xp11.2/TFE3 translocation RCC), which has no supporting evidence. The most evidence-supported predictions are summarised below. Unclassified renal cell carcinoma (rank 3) is the best-supported renal prediction, and liposarcoma (rank 4) and dermatofibrosarcoma protuberans (rank 10) are the best-supported sarcoma predictions.*
@@ -41,41 +41,37 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Pazopanib is an oral multi-target tyrosine kinase inhibitor originally used for renal cell carcinoma and soft tissue sarcoma.
-The TxGNN model ranks **renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions** first (score 99.63%), but this prediction has **no clinical trials and no publications**.
+The TxGNN model ranks **liposarcoma** first (score 0.9959), but this prediction has **no clinical trials and no publications**.
 The best-supported predictions are **liposarcoma** (6 clinical trials, 20 publications) and **unclassified renal cell carcinoma** (6 publications, no registered trials).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma and soft tissue sarcoma (the approved indication text for the Australian entry is not available) |
-| Predicted New Indication | Renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions (rank 1) |
-| TxGNN Prediction Score | 99.63% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Liposarcoma |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 (rank 1). Rank 3 (unclassified RCC): L3. Rank 4 (liposarcoma): L2. Rank 10 (DFSP): L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1). Proceed with Guardrails for liposarcoma; Research Question for unclassified RCC, fibroblastic neoplasm and DFSP |
 
 ### Summary of the Top Ten Predictions
 
 | Rank | Predicted Indication | Score | Trials | Publications | Evidence Level | Recommendation |
 |---|---|---|---|---|---|---|
-| 1 | RCC with Xp11.2/TFE3 fusions | 99.63% | 0 | 0 | L5 | Hold |
-| 2 | RCC associated with neuroblastoma | 99.63% | 0 | 0 | L5 | Hold |
-| 3 | Unclassified RCC | 99.63% | 0 | 6 | L3 | Research Question |
-| 4 | Liposarcoma | 99.59% | 6 | 20 | L2 | Proceed with Guardrails |
-| 5 | Childhood kidney cell carcinoma | 99.54% | 0 | 0 | L5 | Hold |
-| 6 | Ovarian myxoid liposarcoma | 99.51% | 0 | 0 | L5 | Hold |
-| 7 | Heart fibrosarcoma | 99.37% | 0 | 0 | L5 | Hold |
-| 8 | Fibroblastic neoplasm | 99.35% | 2 | 20 | L2 | Research Question |
-| 9 | Kidney fibrosarcoma | 99.33% | 0 | 0 | L5 | Hold |
-| 10 | Dermatofibrosarcoma protuberans | 99.29% | 4 | 13 | L2 | Research Question |
+| 4 | Liposarcoma | 0.9959 | 6 | 20 | L2 | Proceed with Guardrails |
+| 6 | Ovarian myxoid liposarcoma | 0.9951 | 0 | 0 | L5 | Hold |
+| 7 | Heart fibrosarcoma | 0.9937 | 0 | 0 | L5 | Hold |
+| 8 | Fibroblastic neoplasm | 0.9935 | 2 | 20 | L5 | Research Question |
+| 9 | Kidney fibrosarcoma | 0.9933 | 0 | 0 | L5 | Hold |
+| 10 | Dermatofibrosarcoma protuberans | 0.9929 | 4 | 13 | L2 | Research Question |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, pazopanib is a multi-target inhibitor of VEGFR1-3, PDGFR and c-KIT. It is already used in renal cell carcinoma and soft tissue sarcoma, and it may be mechanistically applicable to related tumours that depend on angiogenesis and PDGFR signalling.
 
-For the top-ranked renal predictions (Xp11.2/TFE3 translocation RCC, RCC associated with neuroblastoma, childhood kidney cell carcinoma), the high scores most likely reflect closeness to the approved RCC indication in the knowledge graph. They are not backed by trial or publication data.
+For the top-ranked predictions, the high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They are not backed by trial or publication data.
 
 Predictions with more support follow the same angiogenesis and PDGFR logic:
 - **Unclassified RCC:** non-clear-cell histologies share some VEGF-pathway dependence, though less than clear-cell disease. Retrospective series, real-world data and a single-arm Phase 2 study suggest activity.

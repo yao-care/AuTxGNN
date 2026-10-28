@@ -4,17 +4,17 @@ title: Isotretinoin
 parent: Model Prediction Only (L5)
 nav_order: 396
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Isotretinoin: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertensive disorder / hypertension"
 monitor_inn: "Isotretinoin"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "cholangiocarcinoma, susceptibility to", "obsolete functional visual loss", "mitral valve prolapse, myxomatous", "ocular tuberculosis"]
+predicted_indications: ["malignant hypertensive renal disease"]
+description: "Isotretinoin: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Isotretinoin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,44 +33,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Isotretinoin: From Hypertension to Malignant Hypertensive Renal Disease
+## Isotretinoin: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-The data compiled for this report list hypertension as the original indication for isotretinoin, but this appears to be a knowledge-graph artefact, because isotretinoin is marketed in Australia as an oral retinoid for severe recalcitrant acne. The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but there are **0 clinical trials** and **0 publications** supporting this specific prediction (**Evidence Level L5**, model prediction only).
+The data compiled for this report list hypertension as the original indication for isotretinoin, but this appears to be a TxGNN model (deep learning) artefact, because isotretinoin is marketed in Australia as an oral retinoid for severe recalcitrant acne. The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but there are **0 clinical trials** and **0 publications** supporting this specific prediction (**Evidence Level L5**, model prediction only).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertensive disorder / hypertension (from the knowledge graph; the ARTG entry has no indication text, and the label use is likely severe acne) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.01% |
+| TxGNN Prediction Score | 0.9901 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Isotretinoin is a retinoid (13-cis-retinoic acid) with no established antihypertensive mechanism. The "original indication" of hypertension in the knowledge graph is most likely a data artefact.
+Currently, detailed mechanism of action data is not available. Isotretinoin is a retinoid (13-cis-retinoic acid) with no established antihypertensive mechanism.
 
-Possible links through retinoid effects on renal inflammation or the renin-angiotensin system are speculative. The second-ranked prediction, malignant renovascular hypertension, has an identical score (99.01%), suggesting the two predictions share the same graph neighbourhood rather than representing independent signals. The overall prediction should be treated as a hypothesis only.
+Possible links through retinoid effects on renal inflammation or the renin-angiotensin system are speculative. The score of 0.9901 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The overall prediction should be treated as a hypothesis only.
 
 Other predictions follow the same pattern:
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Malignant renovascular hypertension | 99.01% | L5 | No evidence; score identical to rank 1 |
-| Pulmonary hypertension owing to lung disease and/or hypoxia | 98.89% | L4 | Only indirectly related papers (see below) |
-| Pulmonary hypertension with unclear multifactorial mechanism | 98.89% | L5 | No evidence; pregnancy risk is a major concern |
-| Braddock syndrome | 98.66% | L5 | No evidence; rare disease |
-| Chronic pulmonary heart disease | 88.70% | L5 | No evidence |
-| Cholangiocarcinoma, susceptibility to | 61.91% | L5 | No evidence; a susceptibility phenotype |
-| Obsolete functional visual loss | 59.19% | L5 | Not credible given ocular adverse effects |
-| Mitral valve prolapse, myxomatous | 59.11% | L5 | No plausible mechanism |
-| Ocular tuberculosis | 58.68% | L5 | No antimycobacterial activity |
 
 ## Clinical Trial Evidence
 
@@ -78,7 +69,7 @@ Currently no related clinical trials registered for the top-ranked prediction (m
 
 ## Literature Evidence
 
-Currently no related literature available for the top-ranked prediction. The only publications retrieved were for the third-ranked prediction (pulmonary hypertension owing to lung disease and/or hypoxia), and they are only indirectly related:
+Currently no related literature available for the top-ranked prediction.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

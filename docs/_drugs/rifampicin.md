@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 |------|------|
 | Original Indication | Pulmonary tuberculosis |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Bacterial conjunctivitis is commonly caused by *Staphylococcus*, *Streptococcus*, *Haemophilus* and *Chlamydia trachomatis*. An antibacterial with activity against these organisms could plausibly be applied. The evidence is indirect, however: older studies used **topical (eye ointment)** rifampicin, whereas the only Australian product is an **oral capsule**. A topical ocular formulation and antimicrobial resistance (tuberculosis stewardship) concerns remain unresolved.
 
-Note that the model also returned a near-duplicate entry, "conjunctivitis (disease)" (score 99.60%), which should be merged with this one. Their literature largely overlaps.
+Note that the model also returned a near-duplicate entry, "conjunctivitis (disease)" (score 0.9960), which should be merged with this one. Their literature largely overlaps.
 
 ## Clinical Trial Evidence
 
@@ -117,11 +117,10 @@ Support for conjunctivitis rests on a high model score, in vitro susceptibility 
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment | Decision |
 |---|---|---|---|---|---|
-| 2 | Multiple endocrine neoplasia | 99.86% | L5 | Prediction only | Hold |
-| 3 | Acne (disease) | 99.74% | L4 | Evidence mostly concerns hidradenitis suppurativa (clindamycin + rifampicin), not acne vulgaris | Hold |
-| 5 | HIV infectious disease | 99.59% | L4 | Phase 2/3 trials are TB/HIV co-infection and interaction studies, not anti-HIV efficacy | Research Question |
-| 7 | Rheumatoid arthritis | 99.45% | L3 | Small 1980s-90s studies with limited, inconsistent benefit; one Phase 1 PK trial | Research Question |
-| 6, 8, 9, 10 | Rare neurodevelopmental disorder, acute contagious conjunctivitis, SIV infection, feline AIDS | ~99.3-99.5% | L5 | No supporting evidence or veterinary only | Hold |
+| 2 | Multiple endocrine neoplasia | 0.9986 | L5 | Prediction only | Hold |
+| 3 | Acne (disease) | 0.9974 | L4 | Evidence mostly concerns hidradenitis suppurativa (clindamycin + rifampicin), not acne vulgaris | Hold |
+| 5 | HIV infectious disease | 0.9959 | L4 | Phase 2/3 trials are TB/HIV co-infection and interaction studies, not anti-HIV efficacy | Research Question |
+| 7 | Rheumatoid arthritis | 0.9945 | L3 | Small 1980s-90s studies with limited, inconsistent benefit; one Phase 1 PK trial | Research Question |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

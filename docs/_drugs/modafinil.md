@@ -4,17 +4,17 @@ title: Modafinil
 parent: High Evidence (L1-L2)
 nav_order: 485
 evidence_level: L1
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Modafinil: predicted new indication Hypersomnia (disease). Note: the rank 1 TxGNN prediction is insomnia… (evidence level L1). Approved use: Narcolepsy"
 monitor_inn: "Modafinil"
-predicted_indications: ["insomnia (disease)", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "trichotillomania", "disorder of peroxisomal alpha-, beta- and omega-oxidation", "ACBD5 deficiency", "hypersomnia (disease)", "circadian rhythm sleep disorder", "Tourette syndrome"]
+predicted_indications: ["insomnia (disease)"]
+description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Modafinil
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Modafinil: From Narcolepsy to Hypersomnia (Idiopathic and Related Central Disorders)
+## Modafinil: Insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Modafinil is a wake-promoting agent originally used to treat narcolepsy and excessive daytime sleepiness.
-The TxGNN model predicts it may be effective for **hypersomnia (disease)**, the highest-ranked prediction with meaningful clinical support (the top-scoring prediction, insomnia, is not mechanistically plausible; see below),
+The TxGNN model predicts it may be effective for **insomnia (disease)**,
 with **14 clinical trials** and **20 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Narcolepsy (the approved indication text was not available in the Australian ARTG data compiled for this report) |
-| Predicted New Indication | Hypersomnia (disease). Note: the rank 1 TxGNN prediction is insomnia, which is not supported (see below) |
-| TxGNN Prediction Score | 96.53% (hypersomnia); insomnia ranked first at 99.85% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Insomnia (disease) |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -61,12 +61,11 @@ Detailed mechanism of action data are not available in the data compiled for thi
 Hypersomnia (the central disorders of hypersomnolence, including idiopathic hypersomnia and narcolepsy type 2) shares excessive daytime sleepiness as its core symptom with narcolepsy. Guideline-level sources (AASM 2021 and the European narcolepsy guideline) support modafinil use in this group. Evidence is strongest for narcolepsy and weaker for idiopathic hypersomnia, where it relies on a comparative trial against amphetamine and expert opinion. Extension beyond narcolepsy should be treated as off-label use with monitoring.
 
 **Other predictions in context:**
-- **Insomnia (rank 1, 99.85%)**: Not plausible. Modafinil is a wake-promoting agent, so its action runs opposite to insomnia treatment. The high score is likely a network artefact of the sleep-disorder neighbourhood. The two registered trials are uninformative (one terminated with 2 participants, one without insomnia as its target).
-- **ADHD (rank 3, 98.27%)**: Phase 2 and 3 randomised trials and a meta-analysis (PMID 27810669) suggest some efficacy, and the mechanism overlaps with ADHD stimulants. However, it was not approved for ADHD, and reviews place it behind first-line agents. Cardiovascular and dermatological safety in children needs clarification.
-- **Circadian rhythm sleep disorder (rank 9)**: Supported mainly by reviews for symptomatic management of shift work sleepiness. Modafinil does not correct circadian misalignment.
-- **Trichotillomania (rank 4)**: Only a small acute-dose cognition study (L3).
+- **Insomnia (rank 1, 0.9985)**: Not plausible. Modafinil is a wake-promoting agent, so its action runs opposite to insomnia treatment. The high score is likely a network artefact of the sleep-disorder neighbourhood. The two registered trials are uninformative (one terminated with 2 participants, one without insomnia as its target).
+- Cardiovascular and dermatological safety in children needs clarification.
+- Modafinil does not correct circadian misalignment.
 - **Narcolepsy, susceptibility to (rank 7)**: Largely duplicates the existing indication.
-- **Faciodigitogenital syndrome, peroxisomal oxidation disorder, ACBD5 deficiency, Tourette syndrome**: No evidence (L5). Hold. For Tourette syndrome, dopamine reuptake inhibition could plausibly worsen tics.
+- Hold.
 
 ## Clinical Trial Evidence
 
@@ -121,7 +120,7 @@ No label-derived warnings or contraindications were available in the data compil
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-For hypersomnia, multiple Phase 3 trials, a randomised comparative trial and guideline-level sources (AASM 2021, European guideline) support modafinil for excessive sleepiness. Evidence is strongest for narcolepsy and weaker for idiopathic hypersomnia, so any extension should be off-label with monitoring. The top-ranked insomnia prediction should be rejected (Hold), as should the unsupported predictions with no evidence. ADHD and circadian rhythm sleep disorder remain research questions or symptomatic-use options only.
+For hypersomnia, multiple Phase 3 trials, a randomised comparative trial and guideline-level sources (AASM 2021, European guideline) support modafinil for excessive sleepiness. Evidence is strongest for narcolepsy and weaker for idiopathic hypersomnia, so any extension should be off-label with monitoring. The top-ranked insomnia prediction should be rejected (Hold), as should the unsupported predictions with no evidence.
 
 **To proceed, the following is needed:**
 - Product Information (PI) warnings and contraindications for the Australian product (the safety screen cannot be completed without them)

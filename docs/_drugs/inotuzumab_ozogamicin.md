@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Inotuzumab Ozogamicin
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 377
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Inotuzumab Ozogamicin: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the Australian registration data compiled for this repo…"
-monitor_inn: "Inotuzumab ozogamicin"
-predicted_indications: ["drug-induced osteoporosis", "HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "severe nonproliferative diabetic retinopathy", "primary release disorder of platelets", "pseudo-von Willebrand disease", "infectious bovine rhinotracheitis"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Inotuzumab Ozogamicin: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Inotuzumab Ozogamicin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,62 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Inotuzumab ozogamicin: From B-Cell Acute Lymphoblastic Leukaemia to Drug-Induced Osteoporosis
+<!-- known-uses-page -->
+<!-- description: Inotuzumab Ozogamicin: known uses and market status in Australia; currently no new candidate indication -->
+## Inotuzumab Ozogamicin: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Inotuzumab Ozogamicin, so there is currently no new predicted indication. The drug's recorded uses are listed below.
 
-Inotuzumab ozogamicin (Besponsa) is a CD22-directed antibody-drug conjugate that is marketed in Australia for B-cell malignancy treatment.
-The TxGNN model predicts it may be effective for **drug-induced osteoporosis** (score 98.2%), but there are currently **0 clinical trials** and **0 publications** that support this prediction.
-This is a model-only prediction (Evidence Level L5) and the recommendation is **Hold**.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Australian registration data compiled for this report (the drug is a CD22-directed antibody-drug conjugate used in relapsed/refractory B-cell acute lymphoblastic leukaemia, per the literature) |
-| Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 98.24% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 1 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| precursor cell lymphoblastic leukemia-lymphoma | licence in another country |
 
-Detailed mechanism-of-action data was not available in the data compiled for this report. Based on known information, inotuzumab ozogamicin is an anti-CD22 monoclonal antibody linked to calicheamicin, a DNA-damaging cytotoxic payload. After binding to CD22-expressing B-cells, the complex is internalised and the payload causes double-strand DNA breaks and cell death.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-On current evidence the prediction is **not mechanistically plausible**. CD22 is a B-cell marker, and nothing connects this mechanism to bone metabolism. The high TxGNN score reflects a pattern in the knowledge graph, not clinical or laboratory evidence. A cytotoxic drug with known myelosuppressive and hepatotoxic effects would also be an unusual choice for a chronic, non-malignant bone condition.
-
-Other predictions generated for this drug (HER2-positive and other breast cancer subtypes, severe non-proliferative diabetic retinopathy, platelet release disorder, pseudo-von Willebrand disease and infectious bovine rhinotracheitis) also lack a plausible mechanistic rationale and have no supporting trials or literature. The bovine disease is a veterinary condition and is most likely a knowledge-graph artefact.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for drug-induced osteoporosis.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for drug-induced osteoporosis.
-
-Note: Publications retrieved for the lower-ranked prediction (luminal breast tumours) all concern inotuzumab ozogamicin in B-cell acute lymphoblastic leukaemia. They support its existing use (for example, the Phase 3 INO-VATE study, [PMID 30920645](https://pubmed.ncbi.nlm.nih.gov/30920645/)) and are not repurposing evidence.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Licence 11668D | Besponsa | Powder for I.V. infusion 1 mg | Not stated in the data compiled |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 11668D | Besponsa | Powder for I.V. infusion 1 mg | Valid |
 
 ## Cytotoxicity
 
@@ -110,18 +92,6 @@ For warnings and contraindications, please refer to the TGA-approved Product Inf
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests only on a graph-model score. There are no clinical trials or publications, and no plausible link between CD22-targeted cytotoxic therapy and bone loss. The safety profile also argues against use in a chronic non-malignant condition.
-
-**To proceed, the following is needed:**
-- A credible mechanistic hypothesis connecting the drug to bone metabolism, plus supporting preclinical data
-- Mechanism-of-action data and the approved indication text from the TGA Product Information
-- Warnings and contraindications from the PI, to complete the safety screening
-- Any registered clinical studies in the proposed indication, including on ANZCTR
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

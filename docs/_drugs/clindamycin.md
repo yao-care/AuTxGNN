@@ -4,17 +4,17 @@ title: Clindamycin
 parent: Model Prediction Only (L5)
 nav_order: 170
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Clindamycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Acne, streptococcal and staphylococcal infections…"
 monitor_inn: "Clindamycin"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis", "superior limbic keratoconjunctivitis", "toxic maculopathy due to antimalarial drugs", "keratomalacia", "ophthalmia nodosa"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
 ---
 
 # Clindamycin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 |------|------|
 | Original Indication | Acne, streptococcal and staphylococcal infections, anaerobic bacterial infections, bacterial vaginosis, aspiration pneumonia (the Australian ARTG entry has no approved indication text recorded) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,15 +63,11 @@ Other lower-ranked predictions were reviewed. They were mostly eye conditions an
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Exposure keratitis | 99.80% | L4 | Plausible only for secondary Gram-positive bacterial infection. The retrieved papers cover microbial keratitis in general, not this condition or clindamycin. |
-| 3 | Non-human animal disease | 99.69% | L5 | Non-specific category. The papers concern *C. difficile* epidemiology in animals, and clindamycin is a risk factor for that infection. |
-| 4 | Neurotrophic keratopathy | 99.49% | L5 | Caused by impaired corneal nerve supply. Antibiotic mechanism not relevant. |
-| 5 | Epidemic keratoconjunctivitis | 99.49% | L5 | Adenoviral. Clindamycin has no antiviral activity. Retrieved papers concern bovine disease. |
-| 6 | Postmenopausal atrophic vaginitis | 99.03% | L5 | Driven by oestrogen deficiency, not infection. |
-| 7 | Superior limbic keratoconjunctivitis | 98.97% | L5 | Chronic inflammatory and mechanical, not bacterial. |
-| 8 | Toxic maculopathy due to antimalarial drugs | 98.28% | L5 | Drug-induced retinal toxicity that clindamycin would not treat. |
-| 9 | Keratomalacia | 98.28% | L5 | Caused by vitamin A deficiency. Antibiotics address only secondary infection. |
-| 10 | Ophthalmia nodosa | 98.28% | L5 | Granulomatous reaction to caterpillar hairs, not bacterial. |
+| 2 | Exposure keratitis | 0.9980 | L5 | Plausible only for secondary Gram-positive bacterial infection. The retrieved papers cover microbial keratitis in general, not this condition or clindamycin. |
+| 3 | Non-human animal disease | 0.9969 | L5 | Non-specific category. The papers concern *C. difficile* epidemiology in animals, and clindamycin is a risk factor for that infection. |
+| 4 | Neurotrophic keratopathy | 0.9949 | L5 | Caused by impaired corneal nerve supply. Antibiotic mechanism not relevant. |
+| 5 | Epidemic keratoconjunctivitis | 0.9949 | L5 | Adenoviral. Clindamycin has no antiviral activity. Retrieved papers concern bovine disease. |
+| 6 | Postmenopausal atrophic vaginitis | 0.9903 | L5 | Driven by oestrogen deficiency, not infection. |
 
 ## Clinical Trial Evidence
 

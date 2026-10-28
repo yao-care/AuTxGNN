@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Decitabine: predicted new indication Refractory cytopenia of childhood (evidence level L5). Approved use: Myeloid leukaemia…"
 monitor_inn: "decitabine"
 predicted_indications: ["refractory cytopenia of childhood"]
+last_modified_at: 2026-10-27
+description: "Decitabine: predicted new indication refractory cytopenia of childhood (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Decitabine
@@ -33,98 +33,80 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Decitabine: From Acute Myeloid Leukaemia to Refractory Cytopenia of Childhood
+## Decitabine: hypomethylating agent (DNA methyltransferase inhibitor) → refractory cytopenia of childhood
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Decitabine (marketed in Australia as an oral fixed-dose tablet with cedazuridine) is a hypomethylating agent originally used for myeloid leukaemias, including acute myeloid leukaemia (AML) and related myelodysplastic syndromes.
-The TxGNN model predicts it may be effective for **refractory cytopenia of childhood (RCC)**, but the current support is limited to **0 registered clinical trials** and **2 publications** (one single-centre cohort study and one case report).
-
----
+Decitabine is a hypomethylating agent (DNA methyltransferase inhibitor) used in myeloid malignancies. The TxGNN model predicts it may be effective for **refractory cytopenia of childhood**, a paediatric myelodysplastic syndrome subtype. Currently **0 clinical trials** and **2 publications** (one cohort study and one case report, both in paediatric myelodysplastic syndrome) are available, and neither directly studies refractory cytopenia of childhood as a defined cohort.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Myeloid leukaemia, including AML subtypes and therapy-related AML/myelodysplastic syndrome (from the knowledge graph; no approved indication text is available for the ARTG entry) |
-| Predicted New Indication | Refractory cytopenia of childhood |
-| TxGNN Prediction Score | 99.03% |
-| Evidence Level | L4 (see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | refractory cytopenia of childhood |
+| TxGNN Prediction Score | 0.9903 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
-*Evidence level note:* No trials are registered, and the available literature consists of one cohort study and one case report. This is weaker than L3 (observational studies or systematic review) in strength, but the data compiled for this report assigns L4, and that level is retained here. The TxGNN score is a computational prediction and is not clinical evidence.
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, decitabine is a DNA methyltransferase inhibitor (hypomethylating agent) already used in myeloid malignancies, and its efficacy in these conditions is established. Mechanistically, it may be applicable to refractory cytopenia of childhood. This link is inferred from the drug class and related approved indications, not from supplied mechanism data.
+Detailed mechanism of action data is not currently available. Based on the drug class, decitabine is a hypomethylating agent that inhibits DNA methyltransferase. This class is used in myeloid malignancies, including acute myeloid leukaemia and myelodysplastic syndromes.
 
-RCC is the most common subtype of myelodysplastic syndrome (MDS) in children. It shares features with adult myeloid disease, namely clonal myeloid dysregulation and abnormal DNA methylation. This provides a plausible biological rationale for hypomethylating therapy. However, paediatric MDS differs from adult disease in biology and management, so the rationale remains a hypothesis requiring clinical testing.
-
----
+Refractory cytopenia of childhood is the most common paediatric myelodysplastic syndrome subtype. Aberrant DNA methylation and clonal myeloid dysregulation are plausible shared biology. This link is inferred from the drug class and related myeloid disease, not from supplied mechanism data. The TxGNN score is a computational output and is not clinical evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Cohort | BMC Pediatrics | Single-centre, 10-year experience of decitabine combined with a minimally myelosuppressive regimen as a bridge to allogeneic stem cell transplantation in children with MDS. Outcome data were not available in the abstract provided. |
-| [42125547](https://pubmed.ncbi.nlm.nih.gov/42125547/) | 2026 | Case report | Experimental and Therapeutic Medicine | Decitabine monotherapy in an 8-year-old with paediatric MDS (RCC) who was ineligible for transplant or immunosuppressive therapy. Outcome details were truncated in the abstract provided. |
+| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Cohort | BMC Pediatrics | Single-centre, 10-year experience of decitabine plus a minimally myelosuppressive regimen as a bridge to allogeneic stem cell transplantation in children with myelodysplastic syndrome |
+| [42125547](https://pubmed.ncbi.nlm.nih.gov/42125547/) | 2026 | Case report | Experimental and Therapeutic Medicine | Decitabine monotherapy in an 8-year-old with paediatric myelodysplastic syndrome, most commonly presenting as refractory cytopenia of childhood, in a patient ineligible for transplantation or immunosuppressive therapy |
 
----
+The abstracts supplied are truncated, so outcomes cannot be summarised. The evidence level is set to L5 because the cohort study addresses paediatric myelodysplastic syndrome broadly, and the case report abstract excerpt does not confirm the diagnosis.
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 13081L | Inqovi 35/100 | Tablet containing decitabine 35 mg with cedazuridine 100 mg | Not available in the data compiled for this report |
+| ARTG 13081L | Inqovi 35/100 | Tablet containing decitabine 35 mg with cedazuridine 100 mg | Not recorded in the local data |
 
----
+Note: this product is a decitabine and cedazuridine combination, so it does not describe how single-ingredient decitabine is approved.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Hypomethylating agent (nucleoside analogue), antineoplastic |
-| Myelosuppression Risk | High expected. The knowledge graph lists neutropenia, thrombocytopenia and agranulocytosis as contraindication-linked conditions. |
+| Cytotoxicity Classification | Conventional cytotoxic (hypomethylating nucleoside analogue) |
+| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
-| Monitoring Items | Full blood count with differential, liver and renal function (the knowledge graph also flags kidney and liver disease) |
-| Handling Protection | Please refer to the PI and local cytotoxic drug handling policies |
-
----
+| Monitoring Items | Full blood count with differential, liver and renal function |
+| Handling Protection | Follow local cytotoxic drug handling requirements |
 
 ## Safety Considerations
 
-- **Contraindication-linked conditions (knowledge graph, not label text):** kidney disease, pyoureter, liver disease, gallbladder disease, thrombocytopenia, diabetes mellitus, diabetic ketoacidosis, neutropenia, agranulocytosis. These must be verified against the TGA-approved PI.
-- **Drug Interactions:** 120 interactions were identified. Examples of those rated **Major**: deferiprone, samarium (153Sm) lexidronam, adalimumab and baricitinib. Examples rated **Moderate** include mercaptopurine, azathioprine, gemcitabine, zidovudine, ganciclovir, chloramphenicol, alemtuzumab, aldesleukin and several vaccines. Many of these reflect additive myelosuppression or immunosuppression.
+- **Drug Interactions**: 120 interactions were identified. Major-level examples include deferiprone, samarium (153Sm) lexidronam, adalimumab and baricitinib. Moderate-level examples include mercaptopurine, zidovudine, ganciclovir, gemcitabine, azathioprine and alemtuzumab.
 
-Label-based warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
-
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is biologically plausible, but support is limited to one single-centre cohort study and one case report, with no registered trials. The product's paediatric use, the approved indication text and label safety data are also unverified. This is currently a research question rather than an actionable repurposing candidate.
+The prediction rests on a high model score and a plausible class-based rationale. No registered trials exist, and the two publications are one cohort study and one case report in paediatric myelodysplastic syndrome. Because no study directly addresses refractory cytopenia of childhood, the evidence level is L5 and this remains a research question.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (for example from DrugBank)
-- The TGA-approved PI, including approved indications, warnings, contraindications and paediatric use
-- Review of the full text of both publications, including response rates, transplant outcomes and toxicity in children
-- A systematic literature search and trial registry search (ClinicalTrials.gov and ANZCTR) for paediatric MDS and RCC
-- Confirmation of whether the oral fixed-dose tablet is suitable for children, including dosing and formulation
-- A paediatric haematology review and a specialist-led protocol with myelosuppression monitoring
+- Studies reporting outcomes specifically in refractory cytopenia of childhood
+- Mechanism of action data
+- Warnings and contraindications from the TGA Product Information
+- Paediatric dosing and safety data, including for the oral combination product
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Enoxaparin
 parent: Model Prediction Only (L5)
 nav_order: 252
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Enoxaparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Enoxaparin"
-predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "pseudo-von Willebrand disease", "neuropathy, painful", "thrombotic thrombocytopenic purpura", "retinal telangiectasia", "arteriosclerotic retinopathy", "retinal microaneurysm", "vertebral artery occlusion"]
+predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
+description: "Enoxaparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Enoxaparin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Enoxaparin: From Pulmonary Embolism to Thrombophilia due to Protein C Deficiency
+## Enoxaparin: Thrombophilia due to protein C deficiency, autosomal recessive
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but there are currently **no registered clinical trials** and **no relevant publ
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary embolism, disseminated intravascular coagulation, purpura fulminans (from the knowledge graph; the ARTG entry has no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, enoxaparin is a low-molecular-weight heparin that potentiates antithrombin and inhibits factor Xa. This is plausible for managing thrombosis risk in protein C deficiency.
 
-Purpura fulminans, one of the drug's original indications in the knowledge graph, is often linked to protein C deficiency. This supports the connection between the original and predicted indications.
+This supports the connection between the original and predicted indications.
 
 However, standard care for severe congenital protein C deficiency relies on protein C concentrate and anticoagulation. Any role for enoxaparin would need dedicated clinical review. The support at present is a model prediction only.
 
@@ -72,9 +72,8 @@ Currently no related literature available for the top predicted indication.
 
 For context, the second- to tenth-ranked predictions were also reviewed. Literature was found only for three of them, and none of it directly evaluates enoxaparin as a treatment:
 
-- **Thrombotic thrombocytopenic purpura (rank 6, L4):** Retrieved papers are indirect (case reports of thrombosis in immune thrombocytopenia, and a preclinical recombinant ADAMTS13 study). Standard TTP therapy is plasma exchange, immunosuppression and caplacizumab.
-- **Vertebral artery occlusion (rank 10, L4):** Retrieved papers are a May-Thurner syndrome case (venous) and a paediatric Bow Hunter's syndrome review (mechanical occlusion). Anticoagulation is biologically plausible here, but the evidence is indirect.
-- **Primary release disorder of platelets (rank 2):** Retrieved papers are unrelated (conference abstract, dabigatran review, traumatic brain injury cohort, palliative care case). The prediction is likely a graph-association artefact, since this is a bleeding disorder.
+- Standard TTP therapy is plasma exchange, immunosuppression and caplacizumab.
+- Anticoagulation is biologically plausible here, but the evidence is indirect.
 
 ## Australia Market Information
 

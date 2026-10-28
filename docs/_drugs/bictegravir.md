@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Bictegravir
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 93
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Bictegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection, AIDS"
 monitor_inn: "bictegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Bictegravir: predicted new indication simian immunodeficiency virus infection (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Bictegravir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,35 +33,34 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Bictegravir: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Bictegravir: HIV-1 integrase strand transfer inhibitor → simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Bictegravir is an HIV-1 integrase strand transfer inhibitor, originally used to treat HIV infection and AIDS.
-The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, but there are **0 clinical trials** and only **3 preclinical or structural publications** supporting this. SIV infection is not a human disease, so this is best read as a translational research question rather than a new human indication.
+Bictegravir is an HIV-1 integrase strand transfer inhibitor (INSTI) supplied in Australia as a fixed-dose tablet with emtricitabine and tenofovir alafenamide.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**, a non-human animal disease model.
+Support is limited to **0 clinical trials** and **3 publications** (in vitro, structural review and humanised mouse model), so this is a research question rather than a treatment proposal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infection, AIDS (the ARTG entry has no indication text; indications come from the TxGNN knowledge graph) |
-| Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | simian immunodeficiency virus infection |
+| TxGNN Prediction Score | 0.9982 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Bictegravir is known to be an HIV-1 integrase strand transfer inhibitor (INSTI). It is marketed in Australia as a fixed-dose tablet with emtricitabine and tenofovir alafenamide.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, bictegravir is an INSTI: it blocks the integrase enzyme that inserts viral DNA into the host genome.
 
-SIV is a closely related lentivirus. Its integrase shares a conserved catalytic core and INSTI binding site with HIV-1. Published laboratory work shows bictegravir activity against INSTI-resistant SIVmac239, and structural studies of HIV and SIV integrase complexes explain how INSTIs bind and how viruses escape them. The high prediction score is consistent with this biological relatedness.
+SIV and HIV-1 are closely related lentiviruses, and their integrases are structurally similar. The SIV intasome has been used as a structural model for how INSTIs bind. Bictegravir therefore plausibly acts on SIV integrase by the same mechanism. A 2017 in vitro study reported activity against INSTI-resistant SIVmac239 variants.
 
-However, SIV infection affects non-human primates, so the evidence has no direct clinical value for patients. Its realistic use is as a preclinical model for HIV research, such as cure and antiretroviral strategy studies, not as a new treatment indication.
-
-The other two predictions do not change this picture. Feline acquired immunodeficiency syndrome (a veterinary condition) has no trials or literature. A rare neurodevelopmental disorder (ataxic gait, absent speech, decreased cortical white matter) has no identifiable mechanistic link and is likely a graph-based artefact.
+An important caveat: SIV infection is an infection of non-human primates and serves as a translational research model for HIV. It is not a human therapeutic indication. The value of this prediction lies in preclinical research, not in a new clinical use.
 
 ## Clinical Trial Evidence
 
@@ -71,40 +70,34 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | In vitro antiviral study | Antimicrob Agents Chemother | Antiviral activity of bictegravir and cabotegravir against INSTI-resistant SIVmac239 and HIV-1 |
-| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Preclinical animal model | Front Immunol | Humanised mouse model for testing antiviral strategies against both SIV and HIV |
-| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | Review (structural biology) | FEBS J | HIV/SIV intasome structures clarify INSTI binding and viral escape mechanisms |
+| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | In vitro study | Antimicrob Agents Chemother | Bictegravir and cabotegravir showed antiviral activity against INSTI-resistant SIVmac239 and HIV-1 variants |
+| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | Review (structural biology) | FEBS J | HIV/SIV intasome structures explain INSTI binding and resistance; dolutegravir and bictegravir have high resistance barriers |
+| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Preclinical animal model | Front Immunol | Humanised mouse model proposed for testing antiviral strategies against both SIV and HIV |
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 11649D | Biktarvy | Tablet containing bictegravir 50 mg with emtricitabine 200 mg with tenofovir alafenamide 25 mg | Not stated in the data compiled for this report |
+| ARTG 11649D | Biktarvy | Tablet containing bictegravir 50 mg with emtricitabine 200 mg with tenofovir alafenamide 25 mg | Not recorded in the local data |
 
 ## Safety Considerations
 
-- **Drug Interactions**: 81 interactions were identified. Major interactions in the data compiled for this report involve polyvalent cation products that can reduce INSTI absorption:
-  - Antacids and minerals: aluminium hydroxide, magaldrate, magnesium carbonate, chloride and citrate
-  - Calcium products: calcium acetate, carbonate, citrate, glubionate, gluconate, lactate and phosphate
-  - Iron
-  - Adsorbents: kaolin and attapulgite
-- Moderate interactions include aprepitant, clarithromycin, dexamethasone, eliglustat and glycerol phenylbutyrate.
+- **Drug Interactions**: 81 interactions were identified in the data compiled for this report. Major-level examples include polyvalent cation products that can reduce absorption: aluminium hydroxide, magaldrate, magnesium carbonate/chloride/citrate, calcium salts (acetate, carbonate, citrate, gluconate, lactate, phosphate), iron, kaolin and attapulgite. Moderate-level examples include aprepitant, clarithromycin, dexamethasone, eliglustat and glycerol phenylbutyrate.
 
-For warnings and contraindications, please refer to the TGA-approved Product Information (PI).
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only supporting evidence is preclinical (in vitro, structural and humanised mouse data), and SIV infection is not a human disease. Bictegravir is already used for HIV infection, so the prediction does not offer a new human indication. It is better framed as a translational research question.
+The only support is preclinical and indirect, and SIV infection is an animal research model rather than a human indication. There are no clinical trials, so no repurposing action in humans is justified at present.
 
 **To proceed, the following is needed:**
-- Confirmation of a human-relevant indication, since SIV and feline immunodeficiency are not human diseases
-- Mechanism of action data for bictegravir (for example from DrugBank)
-- Warnings and contraindications from the TGA-approved Product Information
-- Approved indication text for the ARTG entry
-- If pursued as a research model, in vivo efficacy data in SIV or humanised mouse studies
+- Direct preclinical data on bictegravir in SIV animal models (for example, humanised mouse or non-human primate studies)
+- Detailed mechanism of action data
+- Warnings and contraindications from the TGA Product Information
+- A defined research purpose (for example, use as a translational model for HIV cure studies) before any further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

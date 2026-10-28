@@ -6,9 +6,9 @@ nav_order: 780
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Vinblastine: predicted new indication Rhabdomyosarcoma (evidence level L3). Approved use: Lymphomas, including Hodgkin lymphoma, non-Hodgkin lymphoma…"
 monitor_inn: "Vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
+description: "Vinblastine: predicted new indication Rhabdomyosarcoma (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Vinblastine
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Vinblastine: From Hodgkin Lymphoma and Cutaneous T-Cell Lymphoma to Rhabdomyosarcoma
+## Vinblastine: Rhabdomyosarcoma (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are **no registered clinical trials** and only **7 publications** (mos
 
 | Item | Content |
 |------|------|
-| Original Indication | Lymphomas, including Hodgkin lymphoma, non-Hodgkin lymphoma, mantle cell lymphoma, mycosis fungoides and Langerhans cell histiocytosis (from the knowledge graph; no approved indication text is available for the ARTG entry) |
-| Predicted New Indication | Rhabdomyosarcoma |
-| TxGNN Prediction Score | 99.86% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Rhabdomyosarcoma (disease) |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -103,7 +103,6 @@ Currently no related clinical trials registered.
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (vinca alkaloid, antimitotic) |
-| Myelosuppression Risk | High (neutropenia is the main dose-limiting toxicity; the knowledge graph also flags thrombocytopenia, neutropenia and agranulocytosis) |
 | Emetogenicity Classification | Low to moderate |
 | Monitoring Items | Full blood count with differential, liver function, renal function; neurological assessment for peripheral neuropathy |
 | Handling Protection | Must follow cytotoxic drug handling regulations; intravenous use only |

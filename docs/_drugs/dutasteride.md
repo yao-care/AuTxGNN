@@ -50,10 +50,10 @@ but there are currently **0 clinical trials** and **0 publications** directly su
 |------|------|
 | Original Indication | Benign prostatic hyperplasia (source: TxGNN knowledge graph; no approved indication text is recorded in the ARTG data compiled for this report) |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -69,7 +69,7 @@ Other top-ranked predictions show a similar pattern:
 - **Hair-related conditions** (hypertrichosis, isolated genetic hair shaft abnormality, hypotrichosis simplex of the scalp, congenital hypotrichosis milia, familial isolated trichomegaly): mechanistically plausible only via hair-follicle biology. Most are not clearly DHT-dependent, and the direction of effect is uncertain. For generalised hypertrichosis, dutasteride could even be counterproductive.
 - **Hypotrichosis simplex of the scalp** is phenotypically similar to androgenetic alopecia, for which dutasteride has an off-label evidence base, but its genetic cause is not clearly DHT-dependent.
 - **Diffuse alopecia areata** is autoimmune (T-cell-mediated, JAK-STAT pathway) and not DHT-driven.
-- **Structural or neurological conditions** (malformation syndrome with odontal/periodontal component, Dandy-Walker malformation syndrome, migraine with brainstem aura): no plausible mechanistic link was identified, and these predictions are likely artefacts of knowledge-graph connectivity.
+- **Structural or neurological conditions** (malformation syndrome with odontal/periodontal component, Dandy-Walker malformation syndrome, migraine with brainstem aura): no plausible mechanistic link was identified, and these scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

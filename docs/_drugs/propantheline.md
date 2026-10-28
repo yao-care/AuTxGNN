@@ -3,18 +3,18 @@ layout: default
 title: Propantheline
 parent: Moderate Evidence (L3-L4)
 nav_order: 607
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Propantheline: predicted new indication Gastroduodenitis (evidence level L4). Approved use: Peptic ulcer disease"
+evidence_level: L3
+indication_count: 1
 monitor_inn: "Propantheline"
-predicted_indications: ["gastroduodenitis", "irritable bowel syndrome", "acute laryngopharyngitis", "nasal cavity disease", "pharyngitis", "bronchitis", "overactive bladder (disease)", "gastroenteritis", "cauda equina syndrome", "large intestine disease"]
+predicted_indications: ["irritable bowel syndrome"]
+last_modified_at: 2026-10-23
+description: "Propantheline: predicted new indication Irritable bowel syndrome (evidence level L3). Approved use: Peptic ulcer disease"
 ---
 
 # Propantheline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,126 +33,84 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Propantheline: From Peptic Ulcer Disease to Gastroduodenitis
+## Propantheline: From Peptic Ulcer Disease to Irritable Bowel Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Propantheline is an antimuscarinic (anticholinergic) drug, originally used to treat peptic ulcer disease.
-The TxGNN model predicts it may be effective for **gastroduodenitis**, but there are **no registered clinical trials** and only **3 publications** (1956-1983), all indirect.
-The strongest repurposing signal in the data is actually for **overactive bladder**, which has **1 clinical trial** and several class-level systematic reviews (see the note below).
-
----
+Propantheline is an antimuscarinic medicine whose use in peptic ulcer disease is recorded in the knowledge graph. The TxGNN model predicts it may be useful for **irritable bowel syndrome (IBS)**. The data compiled for this report include **3 publications** (one randomised trial from 1989, one multicentre combination study and one animal study) and **no registered clinical trials**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease (the Australian ARTG entry has no approved indication text, so this comes from the knowledge graph) |
-| Predicted New Indication | Gastroduodenitis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Peptic ulcer disease (relation recorded in the knowledge graph; the Australian licence record contains no indication text) |
+| Predicted New Indication | Irritable bowel syndrome |
+| TxGNN Prediction Score | 0.9916 |
+| Evidence Level | L3 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
-**Other predicted indications (for context):**
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation |
-|------|------|------|------|------|
-| 2 | Irritable bowel syndrome | 99.16% | L4 | Research Question |
-| 3 | Acute laryngopharyngitis | 98.58% | L5 | Hold |
-| 4 | Nasal cavity disease | 98.55% | L5 | Hold |
-| 5 | Pharyngitis | 97.98% | L5 | Hold |
-| 6 | Bronchitis | 93.15% | L5 | Hold |
-| 7 | Overactive bladder | 89.20% | L3 | Research Question |
-| 8 | Gastroenteritis | 88.28% | L4 | Hold |
-| 9 | Cauda equina syndrome | 86.87% | L5 | Hold |
-| 10 | Large intestine disease | 76.86% | L5 | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, propantheline is a muscarinic receptor antagonist. It reduces gastric acid secretion and gastrointestinal motility, which is consistent with its original use in peptic ulcer disease.
+Detailed mechanism of action data are not available in the data compiled for this report. Propantheline is a quaternary ammonium antimuscarinic agent. Drugs of this class block muscarinic receptors (notably M3) on gastrointestinal smooth muscle and secretory cells. This is inferred from the drug class rather than from supplied MOA data.
 
-Gastroduodenitis shares much of the same pathophysiology as gastroduodenal ulcer (acid-related mucosal injury and increased motility), so the prediction is biologically plausible. However, the available literature concerns gastroduodenal ulcer rather than gastroduodenitis itself. It is also largely historical, and the one controlled trial found no added benefit from propantheline when combined with cimetidine. The evidence is therefore indirect.
+Blocking these receptors reduces gut motility, spasm and visceral cramping. That fits symptom control in IBS, particularly pain-predominant and diarrhoea-predominant presentations. Peptic ulcer disease and IBS are both gastrointestinal conditions in which reducing smooth-muscle activity and secretion may help.
 
----
+The high TxGNN score is a computational prediction. It supports prioritisation but is not clinical evidence. The benefit-risk balance is limited by anticholinergic adverse effects (dry mouth, constipation, urinary retention, tachycardia). This matters especially in constipation-predominant IBS and in older patients.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for gastroduodenitis.
-
-For reference, one trial is registered for the rank 7 prediction, overactive bladder:
-
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01640002](https://clinicaltrials.gov/study/NCT01640002) | Phase 1 | Unknown | 42 | Double-blind, placebo-controlled study of propantheline for overactive bladder in HTLV-1 infected patients. The aim was a 60% reduction in nocturia and frequency. No results are available. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6342335](https://pubmed.ncbi.nlm.nih.gov/6342335/) | 1983 | Double-blind clinical trial | Acta Med Scand | In 58 outpatients with gastroduodenal ulcer, cimetidine plus low-dose propantheline (45 mg/day) did not differ significantly from cimetidine plus placebo in ulcer healing or symptom relief at 3 or 6 weeks. |
-| [761954](https://pubmed.ncbi.nlm.nih.gov/761954/) | 1979 | Pharmacokinetic/secretion study | Int J Clin Pharmacol Biopharm | Trithiozine was compared with propantheline for suppression of gastric secretion. Propantheline reduced gastric juice volume and acid output after histamine stimulation more effectively than trithiozine. |
-| [13392433](https://pubmed.ncbi.nlm.nih.gov/13392433/) | 1956 | Clinical report | Vie Med | Report on anticholinergic treatment of gastroduodenal ulcer using propantheline (no abstract available). |
-
-**Supporting literature for the other predictions (class-level or indirect):**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [17054185](https://pubmed.ncbi.nlm.nih.gov/17054185/) | 2006 | Cochrane systematic review | Cochrane Database Syst Rev | Anticholinergics versus placebo for overactive bladder in adults (class-level, not specific to propantheline). |
-| [19160231](https://pubmed.ncbi.nlm.nih.gov/19160231/) | 2009 | Cochrane systematic review | Cochrane Database Syst Rev | Anticholinergics for urinary symptoms in multiple sclerosis (class-level). |
-| [2697886](https://pubmed.ncbi.nlm.nih.gov/2697886/) | 1989 | RCT | Q J Med | Long-term irritable bowel syndrome treatment after initial therapy with ispaghula husk and propantheline (28 patients). The contribution of propantheline alone is unclear. |
-| [2888056](https://pubmed.ncbi.nlm.nih.gov/2888056/) | 1987 | Multicentre clinical study | Minerva Dietol Gastroenterol | Bromazepam plus propantheline combination in irritable bowel syndrome (the combination confounds the effect of propantheline). |
-
----
+| [2697886](https://pubmed.ncbi.nlm.nih.gov/2697886/) | 1989 | RCT | The Quarterly Journal of Medicine | Long-term IBS management in 28 patients who had recovered after 4–6 weeks of ispaghula husk plus propantheline. Patients were randomised to placebo (Group A) or continued treatment (Group B), and relapse was assessed at six months. The abstract supplied is truncated, so the results are not available here. |
+| [2888056](https://pubmed.ncbi.nlm.nih.gov/2888056/) | 1987 | Multicentre clinical study (combination) | Minerva Dietologica e Gastroenterologica | Effectiveness and tolerance of a bromazepam plus propantheline combination in IBS patients. No abstract was supplied. |
+| [11488427](https://pubmed.ncbi.nlm.nih.gov/11488427/) | 2001 | Preclinical (animal) | Japanese Journal of Pharmacology | Studied YM905, a different M3 antagonist, in rat models of IBS-like bowel dysfunction. It reduced stress-induced fecal output and diarrhoea, which supports the mechanism but does not study propantheline itself. |
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 13927B | Pro-Banthine | Tablet containing propantheline bromide 15 mg (oral) | Not specified in the data compiled for this report |
-
----
+| ARTG 13927B | Pro-Banthine | Tablet containing propantheline bromide 15 mg | Not stated in the licence record |
 
 ## Safety Considerations
 
-Product Information warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Knowledge-graph contraindication relations (not label text):** The knowledge graph records contraindication relations with many conditions, including:
+  - Gastrointestinal: intestinal obstruction, paralytic ileus, toxic megacolon, ulcerative colitis and inflammatory bowel disease, achalasia, pyloric stenosis and hiatus hernia.
+  - Eye, nerve and muscle: angle-closure glaucoma and myasthenia gravis.
+  - Urinary and prostate: benign prostatic hyperplasia and bladder neck obstruction.
+  - Cardiovascular and endocrine: coronary artery disease, hypertension and hyperthyroidism.
+  - Organ disease: kidney, liver and gallbladder disease.
+- **Drug interactions:** 100 interactions were identified. The 20 listed in the data compiled for this report are mostly Moderate, with a few Minor. Many involve additive anticholinergic or sedative effects. Examples:
+  - Other anticholinergics: hyoscyamine, homatropine and aclidinium.
+  - Antihistamines and amantadine: chlorpheniramine, acrivastine, phenyltoloxamine and amantadine.
+  - Amitriptyline.
+  - Opioids: fentanyl, alfentanil, codeine, dihydrocodeine, tramadol and loperamide.
+  - Alcohol and botulinum toxin type A.
+  - Minor: acetaminophen and hydrochlorothiazide.
 
-**Contraindication signals from the knowledge graph (not label text):** the knowledge graph links propantheline with contraindications in the following conditions, which are consistent with the known effects of anticholinergics:
-- **Gastrointestinal:** intestinal obstruction, paralytic ileus, toxic megacolon, ulcerative colitis and inflammatory bowel disease, achalasia and megaesophagus, pyloric stenosis, hiatus hernia, familial visceral myopathy
-- **Genitourinary:** benign prostatic hyperplasia, bladder neck obstruction
-- **Eye:** angle-closure glaucoma
-- **Neuromuscular:** myasthenia gravis and neuromuscular junction disease
-- **Cardiovascular and endocrine:** hypertension, coronary artery disease, hyperthyroidism (including Graves disease)
-- **Organ impairment:** kidney disease, liver disease, gallbladder disease
-
-**Drug interactions:** 100 interactions were identified, mostly of moderate severity. Examples include:
-- **Other anticholinergic or antimuscarinic agents (additive effects):** aclidinium, hyoscyamine, homatropine, amitriptyline, amantadine
-- **Sedating antihistamines:** chlorpheniramine, acrivastine, phenyltoloxamine
-- **Opioids and CNS depressants:** fentanyl, alfentanil, codeine, dihydrocodeine, tramadol, ethanol
-- **Others:** botulinum toxin type A, acetylcholine, loperamide, acebutolol
-- **Minor interactions:** acetaminophen, hydrochlorothiazide
-
----
+Please refer to the TGA-approved Product Information (PI) for label warnings and contraindications, as these were not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The gastroduodenitis prediction scores highly (99.90%), but there are no registered trials. The few publications are old, indirect, and concern gastroduodenal ulcer. The one controlled trial showed no added benefit when propantheline was added to cimetidine. Modern acid suppression with proton pump inhibitors also makes an anticholinergic add-on of limited interest.
+- The only randomised trial is old (1989), tests propantheline together with ispaghula husk, and has no usable results in the data supplied. The other human study is a combination with bromazepam.
+- No registered trials exist, and label safety data and MOA data are missing. The anticholinergic burden and interaction load further limit the benefit-risk balance.
+- Evidence is rated L3 because the publications study IBS directly, but the evidence is weak and mostly confounded by combination therapy.
 
 **To proceed, the following is needed:**
-- Direct clinical evidence of propantheline in gastroduodenitis (for example, a well-designed controlled trial)
-- Mechanism of action data (for example, from DrugBank)
-- The TGA-approved Product Information, including approved indications, warnings and contraindications (the ARTG entry has no indication text in the compiled data)
-- A safety review of anticholinergic burden, particularly in older patients and those with the contraindicated conditions above
-- If the programme is redirected, overactive bladder (rank 7, L3) is the most advanced alternative. Next steps there would be the results and status of NCT01640002 and propantheline-specific efficacy data.
+- Full text and results of the 1989 randomised trial and the 1987 combination study.
+- The TGA Product Information (warnings, contraindications and approved indication).
+- Mechanism of action data for propantheline.
+- A review of more recent IBS trials of antimuscarinic or antispasmodic agents.
+- A risk assessment for older patients and for constipation-predominant IBS.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

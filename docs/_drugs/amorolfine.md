@@ -48,17 +48,17 @@ but there are currently **no registered clinical trials** and **no publications*
 |------|------|
 | Original Indication | Fungal nail infection (onychomycosis), based on the known clinical use of the product. The approved indication text was not available in the data compiled for this report. |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, amorolfine is a topical morpholine antifungal. It inhibits ergosterol biosynthesis in fungi (delta-14 reductase and delta-7,8 isomerase), which explains its efficacy in onychomycosis.
 
-There is no clear mechanistic link between this action and bone metabolism. Systemic exposure after topical nail application is minimal, so no plausible pathway to osteoporosis has been identified. The very high TxGNN score appears to be a graph-based prediction artefact rather than a biologically supported signal.
+There is no clear mechanistic link between this action and bone metabolism. Systemic exposure after topical nail application is minimal, so no plausible pathway to osteoporosis has been identified. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The same applies to the other nine predicted indications (for example disease of retroperitoneum, lumbar spinal stenosis, abdominal ectopic pregnancy and sacrum chordoma). All are Level L5 (model prediction only), with no mechanistic rationale, and are recommended as Hold.
 

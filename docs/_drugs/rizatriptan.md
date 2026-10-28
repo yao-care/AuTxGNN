@@ -4,17 +4,17 @@ title: Rizatriptan
 parent: Model Prediction Only (L5)
 nav_order: 646
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Rizatriptan: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Migraine disorder"
 monitor_inn: "Rizatriptan"
-predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "amenorrhea (disease)", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "sciatic neuropathy", "alopecia", "headache disorder"]
+predicted_indications: ["atrophoderma vermiculata"]
+description: "Rizatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rizatriptan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Rizatriptan: From Migraine to Migraine with Brainstem Aura
+## Rizatriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Rizatriptan is a 5-HT1B/1D receptor agonist (triptan) originally used for the acute treatment of migraine.
-The TxGNN model predicts it may be effective for **Migraine with Brainstem Aura**, a migraine subtype, with a very high score (99.94%).
+The TxGNN model (deep learning) predicts it may be effective for **Atrophoderma Vermiculata**, with a very high score (0.9919).
 However, the evidence is indirect: **no clinical trials** and **no publications** address brainstem aura specifically. The available literature covers migraine generally (19 publications).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder (the Australian ARTG entry carries no indication text in the data compiled for this report) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 (general migraine reviews only; no studies in this subtype) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9919 |
+| Evidence Level | L5 (general migraine reviews only; no studies in this subtype) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -123,7 +123,6 @@ The prediction is mechanistically plausible, but there are no trials or publicat
 
 ### Note on Other Predictions
 
-The data also contain a related prediction, **headache disorder** (TxGNN score 81.67%, evidence level L1, Proceed with Guardrails). It is supported by multiple completed Phase 3 placebo-controlled trials (for example NCT00897949, NCT00111709, NCT01001234) and a 2025 RCT in vestibular migraine (PMID 40354049). However, because migraine is already an approved indication, this is better seen as indication confirmation than true repurposing. The remaining predictions (for example alopecia and amenorrhoea) have no supporting evidence and no plausible mechanism, and are rated Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

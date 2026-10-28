@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mefenamic Acid
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 453
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Mefenamic acid"
-predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura", "acromesomelic dysplasia, Hunter-Thompson type", "osteoarthritis"]
+predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that is markete
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L2 (small, older randomised crossover trials; no Phase 3 data) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -66,11 +66,9 @@ Other predictions from the same model are summarised below for context:
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Headache disorder | 99.64% | L2 | RCTs in migraine (versus paracetamol, propranolol/placebo) |
-| Migraine disorder | 99.23% | L2 | Small, dated RCTs, including a menstrual migraine trial |
-| Osteoarthritis | 98.73% | L2 | Double-blind comparisons versus diclofenac, indomethacin and ibuprofen; symptomatic benefit only |
-| Migraine with brainstem aura | 99.21% | L4 | Indirect evidence only |
-| Osteoarthritis susceptibility, trigeminal autonomic cephalalgia, and three rare genetic syndromes | 98.8–99.7% | L5 | No supporting evidence; likely model artefacts or weak rationale |
+| Headache disorder | 0.9964 | L2 | RCTs in migraine (versus paracetamol, propranolol/placebo) |
+| Migraine disorder | 0.9923 | L2 | Small, dated RCTs, including a menstrual migraine trial |
+| Migraine with brainstem aura | 0.9921 | L5 | Indirect evidence only |
 
 ---
 

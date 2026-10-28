@@ -4,17 +4,17 @@ title: Raltegravir
 parent: Moderate Evidence (L3-L4)
 nav_order: 621
 evidence_level: L4
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Raltegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease, AIDS"
 monitor_inn: "Raltegravir"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "breast fibrocystic disease", "benign reproductive system neoplasm", "Brenner tumor"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Raltegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Raltegravir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Raltegravir: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Raltegravir: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Support comes from **0 registered clinical trials** and **15 publications**, all
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease, AIDS (from the knowledge graph; the Australian licence record contains no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -65,7 +65,7 @@ SIV infection is a non-human primate disease and an animal model for HIV. The pr
 Other predictions in the list are weaker:
 - **AIDS related complex** and **congenital HIV** are subsets of HIV disease already covered by the approved indication. The congenital HIV literature is mostly pregnancy safety surveillance rather than efficacy.
 - **Feline AIDS** is a veterinary indication with no supporting evidence.
-- The remaining predictions (for example neurodevelopmental disorder, benign neoplasms, Brenner tumour, fibrocystic breast disease) have no identified mechanistic link and look like knowledge-graph artefacts.
+- The remaining predictions (for example neurodevelopmental disorder, benign neoplasms, Brenner tumour, fibrocystic breast disease) have no identified mechanistic link and look like TxGNN model (deep learning) artefacts.
 
 ## Clinical Trial Evidence
 

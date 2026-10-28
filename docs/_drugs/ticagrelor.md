@@ -4,7 +4,7 @@ title: Ticagrelor
 parent: Model Prediction Only (L5)
 nav_order: 724
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). Approved use: Acute coronary syndrome…"
 monitor_inn: "Ticagrelor"
@@ -14,7 +14,7 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 # Ticagrelor
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Support so far is early: **2 clinical trials** (one large Phase 3 trial still in
 |------|------|
 | Original Indication | Acute coronary syndrome, peripheral arterial disease and intermittent claudication (the registered label text was not available in the data compiled for this report) |
 | Predicted New Indication | Intracranial arteriosclerosis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L3 (observational cohort data only; the one Phase 3 trial is still ongoing) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 (observational cohort data only; the one Phase 3 trial is still ongoing) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,7 +96,7 @@ The case is still limited by thin evidence and by bleeding risk. The evidence co
 
 ## Safety Considerations
 
-- **Contraindication signals** (from knowledge-graph associations, not label text): liver failure, liver disease, gallbladder disease and intracranial haemorrhage.
+- **Contraindication signals** (from the TxGNN model (deep learning), not label text; these may reflect similarities the model learned between related diseases, not biological evidence): liver failure, liver disease, gallbladder disease and intracranial haemorrhage.
 - **Drug Interactions** (100 interactions were identified; main examples below):
   - **Major:** clarithromycin.
   - **Moderate:** acetylsalicylic acid (aspirin), morphine, simvastatin, dexamethasone, budesonide, aprepitant, miconazole and saxagliptin, among others.

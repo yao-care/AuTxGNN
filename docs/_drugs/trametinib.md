@@ -4,17 +4,17 @@ title: Trametinib
 parent: Model Prediction Only (L5)
 nav_order: 744
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Trametinib: predicted new indication Non-cutaneous melanoma (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "Trametinib"
 predicted_indications: ["choroideremia"]
+description: "Trametinib: predicted new indication Choroideremia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trametinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Trametinib: From Metastatic Melanoma to Non-Cutaneous Melanoma
+## Trametinib: Choroideremia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,15 +48,15 @@ Support for non-cutaneous melanoma is currently **10 registered trials** (mostly
 
 | Item | Content |
 |------|------|
-| Original Indication | Metastatic melanoma (TGA licence text for the Australian entry is not available) |
-| Predicted New Indication | Non-cutaneous melanoma (see note below) |
-| TxGNN Prediction Score | 99.30% (non-cutaneous melanoma) |
-| Evidence Level | L2 (by the supplied scoring), though the trials are not specific to this subtype; a conservative reading is closer to L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Choroideremia |
+| TxGNN Prediction Score | 0.9931 |
+| Evidence Level | L5 (by the supplied scoring), though the trials are not specific to this subtype; a conservative reading is closer to L4 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
-**Note on indication choice:** The highest-scoring prediction, choroideremia (99.31%), has no clinical trials or literature, and choroideremia is an inherited retinal degeneration rather than a MAPK-driven disease. This report therefore focuses on non-cutaneous melanoma (rank 2), the first prediction with trial data. Other melanoma subtype predictions are summarised briefly below.
+**Note on indication choice:** The highest-scoring prediction, choroideremia (0.9931), has no clinical trials or literature, and choroideremia is an inherited retinal degeneration rather than a MAPK-driven disease. This report therefore focuses on non-cutaneous melanoma (rank 2), the first prediction with trial data. Other melanoma subtype predictions are summarised briefly below.
 
 ---
 
@@ -87,13 +87,12 @@ None of these trials is specific to non-cutaneous melanoma. They cover melanoma 
 | [NCT03340506](https://clinicaltrials.gov/study/NCT03340506) | Phase 4 | Recruiting | 100 | Roll-over study for long-term safety of dabrafenib and/or trametinib; no efficacy data |
 | [NCT05275374](https://clinicaltrials.gov/study/NCT05275374) | Phase 1/2 | Not yet recruiting | 221 | XP-102 alone and with trametinib in BRAF V600 solid tumours; no data yet |
 
-An additional access programme (NCT02416232, no longer available) provides no efficacy data.
 
 ---
 
 ## Literature Evidence
 
-No publications were found for non-cutaneous melanoma itself. Literature for closely related predicted subtypes:
+No publications were found for non-cutaneous melanoma itself. Literature for closely related melanoma subtypes:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -144,7 +143,7 @@ Warnings and contraindications for Australia were not available in the data comp
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score for non-cutaneous melanoma is high (99.30%), and trametinib is established in BRAF-mutant cutaneous melanoma. However, the supporting trials are small, early-phase, combination or tumour-agnostic studies, and no study specifically addresses non-cutaneous subtypes, where BRAF mutations are less common. The evidence supports framing this as a research question, not a treatment recommendation. Other predictions (choroideremia, scrotum, balloon cell and CDK4-linked melanoma) have no supporting evidence, and the cutaneous subtype predictions largely overlap with the existing approved indication.
+The TxGNN score for choroideremia is high (0.9931), and trametinib is established in BRAF-mutant cutaneous melanoma. However, the supporting trials are small, early-phase, combination or tumour-agnostic studies, and no study specifically addresses non-cutaneous subtypes, where BRAF mutations are less common. The evidence supports framing this as a research question, not a treatment recommendation. The choroideremia prediction has no supporting evidence.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and Australian PI warnings and contraindications (flagged as blocking for safety screening)

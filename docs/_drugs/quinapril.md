@@ -4,17 +4,17 @@ title: Quinapril
 parent: Model Prediction Only (L5)
 nav_order: 616
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder). The Australian ARTG entry has n…"
 monitor_inn: "Quinapril"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "Prinzmetal angina", "intracerebral hemorrhage"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Quinapril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Quinapril: From Hypertension to Malignant Hypertensive Renal Disease
+## Quinapril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder). The Australian ARTG entry has no indication text, so this comes from the knowledge graph used by the model |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Malignant hypertensive renal disease is a severe form of hypertension with kidney involvement. It is therefore a close extension of quinapril's original indication rather than a true repurposing candidate. The high score probably reflects this close disease relationship.
 
-Several other predictions were also generated. The most notable is **pulmonary hypertension owing to lung disease and/or hypoxia** (score 99.85%, L4). It is supported by one 1996 animal study (PMID 8873672) in which tissue ACE inhibition with quinapril reduced hypoxic pulmonary hypertension and vascular remodelling. This is preclinical evidence only. The other predictions, including malignant renovascular hypertension, Braddock syndrome, Prinzmetal angina and intracerebral haemorrhage, have no direct clinical evidence.
+Several other predictions were also generated. The most notable is **pulmonary hypertension owing to lung disease and/or hypoxia** (score 0.9985, L4). It is supported by one 1996 animal study (PMID 8873672) in which tissue ACE inhibition with quinapril reduced hypoxic pulmonary hypertension and vascular remodelling. This is preclinical evidence only. The other predictions, including malignant renovascular hypertension, Braddock syndrome, Prinzmetal angina and intracerebral haemorrhage, have no direct clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -99,7 +99,7 @@ Please also refer to the TGA-approved Product Information (PI) for full safety i
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.86%), but there are no clinical trials or publications for this indication, so the evidence level is L5. The indication is also largely an extension of quinapril's existing hypertension use rather than a distinct repurposing opportunity.
+The prediction score is very high (0.9986), but there are no clinical trials or publications for this indication, so the evidence level is L5. The indication is also largely an extension of quinapril's existing hypertension use rather than a distinct repurposing opportunity.
 
 **To proceed, the following is needed:**
 - Review of the TGA-approved Product Information, including the approved indications, warnings and contraindications (the ARTG indication text and label safety data were unavailable)

@@ -4,17 +4,17 @@ title: Interferon Beta-1B
 parent: Model Prediction Only (L5)
 nav_order: 384
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Interferon Beta-1B: predicted new indication Autoimmune disease of the central nervous system (evidence level L5). Approved use: Relapsing-remitting multiple sclerosis"
 monitor_inn: "Interferon beta-1b"
-predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system", "CNS demyelinating autoimmune disease", "fetal methylmercury syndrome", "hepatic infarction", "hairy cell leukemia variant", "extramammary Paget disease", "peliosis hepatis"]
+predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
+description: "Interferon Beta-1B: predicted new indication Hairy cell leukemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Interferon Beta-1B
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Interferon beta-1b: From Relapsing-Remitting Multiple Sclerosis to Autoimmune Disease of the Central Nervous System
+## Interferon Beta-1B: Hairy cell leukemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,12 +49,12 @@ The TxGNN model's top-ranked prediction is **hairy cell leukaemia**, which has n
 
 | Item | Content |
 |------|------|
-| Original Indication | Relapsing-remitting multiple sclerosis (the ARTG entry does not list indication text) |
-| Predicted New Indication | Autoimmune disease of the central nervous system (rank 2; rank 1 is hairy cell leukaemia, L5, Hold) |
-| TxGNN Prediction Score | 99.02% (rank 1, hairy cell leukaemia: 99.16%) |
-| Evidence Level | L1 (rank 2); note that the evidence is mostly for MS, the original indication |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hairy cell leukemia |
+| TxGNN Prediction Score | 0.9916 |
+| Evidence Level | L5 (rank 2); note that the evidence is mostly for MS, the original indication |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -69,7 +69,7 @@ The predicted category, "autoimmune disease of the central nervous system", is d
 - **Hairy cell leukaemia (rank 1) and its variant (rank 8):** Interferon alpha has established activity in hairy cell leukaemia, and interferon beta-1b acts through the same receptor (IFNAR), so a link is plausible. However, there are no trials or literature for this drug, and the variant is generally less responsive to interferons. Evidence Level L5, Hold.
 - **Progressive multiple sclerosis (rank 7):** L2. Indirect support from reviews and a 2024 network meta-analysis. The only Phase 3 trial (NCT00313976) was withdrawn with no participants enrolled. Benefit in primary progressive MS is limited.
 - **Multiple sclerosis, susceptibility to (rank 4):** L3. Literature covers pharmacogenomics and adverse reactions only. It is useful for research on response prediction, not as a separate indication.
-- **Fetal methylmercury syndrome, hepatic infarction, extramammary Paget disease, peliosis hepatis (ranks 5, 6, 9, 10):** No plausible mechanism and no evidence (L5, Hold). The drug carries hepatotoxicity warnings, which argues against use in the liver conditions.
+- The drug carries hepatotoxicity warnings, which argues against use in the liver conditions.
 
 ---
 
@@ -86,7 +86,7 @@ Trials for autoimmune disease of the central nervous system (rank 2):
 | [NCT01111656](https://clinicaltrials.gov/study/NCT01111656) | Phase 2 | Completed | 28 | Follow-up of atorvastatin added to interferon beta-1b in RRMS (small combination study) |
 | [NCT01701856](https://clinicaltrials.gov/study/NCT01701856) | Phase 4 | Terminated | 5 | Natalizumab de-escalation to interferon beta-1b; terminated early and uninformative |
 
-Further trials for the closely related category "CNS demyelinating autoimmune disease" (rank 3) include [NCT00459667](https://clinicaltrials.gov/study/NCT00459667) (Phase 3b, 1,420 participants, dose comparison of 250 mcg and 500 mcg in relapsing MS) and [NCT03577977](https://clinicaltrials.gov/study/NCT03577977) (retrospective data in children and adolescents with MS, n=70). Most other trials listed for that category are observational adherence or device studies.
+Most other trials listed for that category are observational adherence or device studies.
 
 No ANZCTR identifiers are present in the data compiled for this report.
 

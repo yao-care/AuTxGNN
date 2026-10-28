@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Rifabutin: From Mycobacterial Infection to HIV-Associated Opportunistic Infection (MAC/TB)
+## Rifabutin: From Mycobacterial Infection to HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ The evidence is best read as support for treating and preventing HIV-associated 
 |------|------|
 | Original Indication | Not stated in the data compiled for this report |
 | Predicted New Indication | HIV infectious disease (best framed as HIV-associated MAC/TB) |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

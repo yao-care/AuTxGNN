@@ -4,17 +4,17 @@ title: Pembrolizumab
 parent: Model Prediction Only (L5)
 nav_order: 555
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Pembrolizumab: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung carcinoma, lung cancer, metastatic melanoma"
 monitor_inn: "Pembrolizumab"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+description: "Pembrolizumab: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pembrolizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pembrolizumab: From Non-Small Cell Lung Cancer and Melanoma to Gingival Fibromatosis
+## Pembrolizumab: Fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pembrolizumab is a PD-1 immune checkpoint inhibitor, originally used to treat non-small cell lung cancer and metastatic melanoma.
-The TxGNN model predicts it may be effective for **gingival fibromatosis** (score 99.4%), but **no clinical trials and no publications** support this prediction.
+The TxGNN model predicts it may be effective for **gingival fibromatosis** (score 0.9940), but **no clinical trials and no publications** support this prediction.
 The prediction is a computational signal only, and the other top-ranked predictions show similar gaps (see the note below the Conclusion).
 
 ---
@@ -48,12 +48,12 @@ The prediction is a computational signal only, and the other top-ranked predicti
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung carcinoma, lung cancer, metastatic melanoma (from the knowledge graph; the ARTG entry carries no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The prediction is a computational signal only, and the other top-ranked predicti
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pembrolizumab is a monoclonal antibody that targets programmed cell death protein 1 (PD-1, CD279; gene PDCD1). It blocks PD-1 and so restores T-cell activity against tumour cells.
 
-Its efficacy in lung cancer and melanoma is well established. However, gingival fibromatosis is a benign, fibroproliferative (often hereditary) condition. No mechanistic link between PD-1 blockade and this condition has been established. The high TxGNN score most likely reflects patterns in the knowledge graph rather than biology, and it should not be read as evidence of benefit.
+Its efficacy in lung cancer and melanoma is well established. However, gingival fibromatosis is a benign, fibroproliferative (often hereditary) condition. No mechanistic link between PD-1 blockade and this condition has been established. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as evidence of benefit.
 
 ---
 

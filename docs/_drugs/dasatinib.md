@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Dasatinib
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 201
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L5). Approved use: Chronic myelogenous leukaemia…"
 monitor_inn: "Dasatinib"
@@ -14,7 +14,7 @@ predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival"
 # Dasatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The supporting evidence is mostly mechanistic (Src inhibition), and the sarcoma-
 |------|------|
 | Original Indication | Chronic myelogenous leukaemia, BCR-ABL1 positive (including blast phase) |
 | Predicted New Indication | Ewing sarcoma |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L2 (as scored in the data compiled; see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note: The data compiled for this report scored this prediction L2, but the only Phase 2 trial is a sarcoma-wide study with no Ewing-specific results supplied. A conservative reading is L4 (preclinical and mechanistic support). I have therefore recommended Hold.*
@@ -144,7 +144,6 @@ The Src-based mechanism is plausible and preclinical data are supportive, but th
 
 ### Other Predicted Indications (for context)
 
-- **Myeloid leukaemia (score 99.68%, evidence L1, Proceed with Guardrails):** most of the evidence (for example, DASISION and other Phase 3 CML trials) overlaps with the already approved CML indication, so it is not true repurposing. The genuinely new signal is acute myeloid leukaemia, particularly core-binding factor AML, where a 2026 Phase 3 trial of dasatinib added to chemotherapy has been published but its outcome was not stated in the data supplied.
 - **Liposarcoma, dermatofibrosarcoma protuberans:** preclinical or review evidence only (L4, Hold).
 - **Gingival fibromatosis, ovarian myxoid liposarcoma, ganglioneuroblastoma and others:** model prediction only (L5, Hold).
 ## Disclaimer

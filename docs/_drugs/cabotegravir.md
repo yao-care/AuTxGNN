@@ -4,17 +4,17 @@ title: Cabotegravir
 parent: Model Prediction Only (L5)
 nav_order: 121
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Cabotegravir: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the data compiled for this report . Cabotegravir is kno…"
 monitor_inn: "Cabotegravir"
-predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy", "brachydactyly-syndactyly syndrome", "diabetic retinopathy", "non-syndromic visceral malformation", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
+predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Cabotegravir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,19 +48,19 @@ This is a computational prediction only, and the recommended decision is **Hold*
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (the ARTG indication text is empty). Cabotegravir is known as an HIV-1 integrase inhibitor. |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 2 |
+| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Cabotegravir is known to be an HIV-1 integrase strand transfer inhibitor, which blocks viral DNA integration into the host genome.
 
-No established mechanism links integrase inhibition to the pathophysiology of rheumatoid arthritis, which is driven by TNF, IL-6, JAK/STAT signalling and B- and T-cell activity. The high TxGNN score (0.995; model rank 6338) reflects a knowledge-graph prediction only. It is not backed by any clinical trial or publication, and it should be treated as a hypothesis-generating signal rather than a reasoned mechanistic proposal.
+No established mechanism links integrase inhibition to the pathophysiology of rheumatoid arthritis, which is driven by TNF, IL-6, JAK/STAT signalling and B- and T-cell activity. The high TxGNN score (0.9945; model rank 6338) reflects a TxGNN model (deep learning) prediction only. It is not backed by any clinical trial or publication, and it should be treated as a hypothesis-generating signal rather than a reasoned mechanistic proposal.
 
-Other predicted indications, such as sclerosing cholangitis, bronchitis, diabetic retinopathy and several rare congenital syndromes, likewise have no supporting evidence or plausible mechanism. Several of these may reflect knowledge-graph topology artefacts.
+Other predicted indications, such as sclerosing cholangitis, bronchitis and several rare congenital syndromes, likewise have no supporting evidence or plausible mechanism. Several of these scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -88,7 +88,7 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a knowledge-graph score, with no clinical trials, no publications and no plausible mechanistic link between HIV integrase inhibition and rheumatoid arthritis. Evidence is at the lowest level (L5), and safety screening cannot proceed because label warnings and contraindications are missing.
+The prediction is supported only by a TxGNN model (deep learning) score, with no clinical trials, no publications and no plausible mechanistic link between HIV integrase inhibition and rheumatoid arthritis. Evidence is at the lowest level (L5), and safety screening cannot proceed because label warnings and contraindications are missing.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) and a documented mechanistic hypothesis for rheumatoid arthritis

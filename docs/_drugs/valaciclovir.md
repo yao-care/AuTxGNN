@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Valaciclovir
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 765
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Valaciclovir: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
-monitor_inn: "Valaciclovir"
-predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "bronchitis", "congestive heart failure", "peripheral arterial disease"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Valaciclovir: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Valaciclovir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,57 +32,48 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Valaciclovir: From Herpesvirus Infection (Original Indication Not Recorded) to Rheumatoid Arthritis
+<!-- known-uses-page -->
+<!-- description: Valaciclovir: known uses and market status in Australia; currently no new candidate indication -->
+## Valaciclovir: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model has no candidate with a score of 0.99 or higher for Valaciclovir, so there is currently no new predicted indication. The drug's own recorded uses are listed below. They are not model candidates.
 
-Valaciclovir is an oral prodrug of acyclovir, an antiviral that inhibits herpesvirus DNA polymerase. The approved indication text was not available in the data compiled for this report.
-The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **0 clinical trials** and only **5 retrieved publications**, all case reports or cohort-type papers that do not test valaciclovir as a treatment for the disease.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
-| Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 98.95% |
-| Evidence Level | L4 (as assigned in the compiled data; see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 4 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
-*Note: The retrieved literature consists of case reports and a cohort-type paper with no direct evidence for valaciclovir in rheumatoid arthritis. On the rules in this framework, the evidence is effectively model prediction only (L5). The compiled data assigns L4.*
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| herpes | licence in another country |
+| herpes simplex | licence in another country |
+| herpes zoster | licence in another country |
+| viral infection | licence in another country |
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, valaciclovir is a prodrug of acyclovir, which inhibits herpesvirus DNA polymerase. Its established use is in herpesvirus infections.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The link to rheumatoid arthritis is weak. The retrieved papers describe herpes zoster, Ramsay Hunt syndrome and herpes simplex occurring in rheumatoid arthritis patients on immunosuppressants such as tofacitinib and infliximab. In these cases, antivirals were used to treat the infectious complication, not the arthritis itself. They do not show that valaciclovir treats rheumatoid arthritis.
-
-The high TxGNN score (98.95%) is a model output only and is not backed by clinical evidence. Other predicted indications (sclerosing cholangitis, diabetic nephropathy, bronchitis, congestive heart failure and several rare genetic syndromes) also have no trials or supporting literature.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [35236687](https://pubmed.ncbi.nlm.nih.gov/35236687/) | 2022 | Case report | BMJ Case Reports | Herpes zoster meningitis in a rheumatoid arthritis patient on tofacitinib; the drug was stopped and the infection treated |
-| [24660085](https://pubmed.ncbi.nlm.nih.gov/24660085/) | 2014 | Case report | Case Reports in Rheumatology | Ramsay Hunt syndrome after infliximab in rheumatoid arthritis; treated with valaciclovir and hydrocortisone, with complete recovery at 6 months |
-| [23211260](https://pubmed.ncbi.nlm.nih.gov/23211260/) | 2012 | Cohort | British Journal of General Practice | Prescription of antivirals after herpes zoster in general practice; not specific to rheumatoid arthritis |
-| [14600805](https://pubmed.ncbi.nlm.nih.gov/14600805/) | 2003 | Case report | Intensive Care Medicine | Disseminated tuberculosis, aspergillosis and herpes simplex infection in a patient on infliximab and methotrexate |
-| [10220730](https://pubmed.ncbi.nlm.nih.gov/10220730/) | 1999 | Case report | Klinische Monatsblätter für Augenheilkunde | Bilateral neuroretinitis with zoster infection; not specific to rheumatoid arthritis |
-
-None of these papers evaluates valaciclovir as a treatment for rheumatoid arthritis.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 5480K | Valtrex | Tablet 500 mg (as hydrochloride), oral | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 5480K | Valtrex | Tablet 500 mg (as hydrochloride) | Valid |
 
 ## Safety Considerations
 
@@ -97,18 +87,6 @@ None of these papers evaluates valaciclovir as a treatment for rheumatoid arthri
 
 For warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a model score alone. There are no registered clinical trials, and the retrieved literature describes antiviral treatment of infections in rheumatoid arthritis patients, not treatment of the arthritis. No mechanistic link has been established.
-
-**To proceed, the following is needed:**
-- Mechanism of action data, and a plausible biological rationale for antiviral activity in rheumatoid arthritis (for example, a role for herpesvirus reactivation)
-- Preclinical or clinical studies directly testing valaciclovir in rheumatoid arthritis
-- The TGA Product Information, including approved indications, warnings and contraindications
-- A safety review for rheumatoid arthritis populations, including renal function and interactions with immunosuppressants and other commonly co-prescribed drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

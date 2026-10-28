@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Allopurinol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 34
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Allopurinol: predicted new indication Hepatic porphyria (evidence level L4). Approved use: Gout, hyperuricaemia, acute urate nephropathy"
@@ -14,7 +14,7 @@ predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "early-
 # Allopurinol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **hepatic porphyria**, but ther
 |------|------|
 | Original Indication | Gout, hyperuricaemia, acute urate nephropathy (the ARTG entry in the data compiled for this report has no indication text) |
 | Predicted New Indication | Hepatic porphyria |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The two publications retrieved are indirect. One is a hypothesis paper on targeting 5-aminolevulinate synthase (the rate-limiting enzyme of haem synthesis) through tryptophan and haem-utilisation pathways. The other is a rat study of carbamazepine and hepatic haem metabolism. Neither studies allopurinol as a treatment for porphyria.
 
-There is also a safety concern. Allopurinol has been reported to affect hepatic haem turnover in animal models and may be porphyrinogenic in some settings, so the direction of effect is uncertain and could be harmful. The very high TxGNN score is a model output and is not backed by clinical data. Several other predictions share near-identical scores, which suggests a shared knowledge-graph artefact rather than disease-specific signal.
+There is also a safety concern. Allopurinol has been reported to affect hepatic haem turnover in animal models and may be porphyrinogenic in some settings, so the direction of effect is uncertain and could be harmful. The very high TxGNN score is a model output and is not backed by clinical data. Several other predictions share near-identical scores, which suggests a shared TxGNN model (deep learning) artefact rather than disease-specific signal.
 
 ## Clinical Trial Evidence
 

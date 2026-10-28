@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Brexpiprazole
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 106
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Brexpiprazole: predicted new indication Dysthymic disorder (evidence level L5). Approved use: Major depressive disorder (adjunctive) and schizophrenia"
-monitor_inn: "Brexpiprazole"
-predicted_indications: ["dysthymic disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "melancholia", "Keppen-Lubinsky syndrome", "Ohdo syndrome and variants", "retinal dystrophy with or without extraocular anomalies", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Brexpiprazole: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Brexpiprazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,85 +32,48 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Brexpiprazole: From Major Depressive Disorder and Schizophrenia to Dysthymic Disorder
+<!-- known-uses-page -->
+<!-- description: Brexpiprazole: known uses and market status in Australia; currently no new candidate indication -->
+## Brexpiprazole: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Brexpiprazole, so there is currently no new predicted indication. The drug's recorded uses are listed below. They are the drug's own recorded uses, not model candidates.
 
-Brexpiprazole is an atypical antipsychotic (serotonin-dopamine activity modulator) originally used for schizophrenia and as adjunctive treatment in major depressive disorder.
-The TxGNN model predicts it may be effective for **dysthymic disorder**, but **no clinical trials and no publications** specific to this condition were found.
-The prediction is supported by model score alone, and indirect evidence from the approved depression indication.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Major depressive disorder (adjunctive) and schizophrenia (the ARTG entry carries no indication text; indications are drawn from the knowledge graph) |
-| Predicted New Indication | Dysthymic disorder |
-| TxGNN Prediction Score | 98.53% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 5 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| schizophrenia | licence in another country |
 
-Detailed mechanism of action data is not available in the data compiled for this report. From published pharmacology, brexpiprazole is a partial agonist at serotonin 5-HT1A and dopamine D2 receptors and an antagonist at 5-HT2A receptors. Its effect in major depressive disorder as an add-on to antidepressants is established.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Dysthymia (persistent depressive disorder) is a chronic, milder form of depression that sits close to major depressive disorder in the disease ontology. The model prediction likely reflects this proximity. A mechanistic overlap is plausible, but it is unverified, because no trials or literature were retrieved for dysthymia specifically.
-
-**Other predictions reviewed (all lower priority):**
-
-| Predicted Indication | Score | Evidence Level | Comment |
-|---|---|---|---|
-| Benign paroxysmal torticollis of infancy | 98.30% | L5 | No rationale; antipsychotics can cause dystonic reactions, a safety concern in children |
-| Agoraphobia | 98.23% | L5 | 5-HT1A/5-HT2A pharmacology is relevant to anxiety, but unverified |
-| Neurotic disorder | 97.73% | L5 | Broad legacy category; likely reflects ontology proximity |
-| Neurotic depression | 97.11% | L4 | Maps to the already-approved depression indication; indirect evidence only |
-| Melancholia | 97.07% | L4 | Severe depression subtype; no subtype-specific analysis |
-| Keppen-Lubinsky syndrome | 96.05% | L5 | Speculative; no established link |
-| Ohdo syndrome and variants | 94.97% | L5 | No plausible mechanism |
-| Retinal dystrophy with or without extraocular anomalies | 94.75% | L5 | No known disease-modifying role |
-| Congenital isolated ACTH deficiency | 94.50% | L5 | No plausible mechanism |
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for dysthymic disorder.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for dysthymic disorder.
-
-The closest evidence concerns the parent indication of depression (retrieved under the related predictions "neurotic depression" and "melancholia"). It is indirect and does not demonstrate efficacy in dysthymia:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26301701](https://pubmed.ncbi.nlm.nih.gov/26301701/) | 2015 | RCT (Phase 3) | J Clin Psychiatry | Adjunctive brexpiprazole 2 mg in MDD with inadequate response to antidepressants |
-| [42090141](https://pubmed.ncbi.nlm.nih.gov/42090141/) | 2026 | Network meta-analysis | JAMA Psychiatry | Adjunctive atypical antipsychotics in MDD |
-| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Network meta-analysis | J Affect Disord | Augmentation strategies for treatment-resistant major depression |
-| [38924903](https://pubmed.ncbi.nlm.nih.gov/38924903/) | 2024 | Network meta-analysis of RCTs | Psychiatry Res | Efficacy and safety of eight enhanced therapies for treatment-resistant depression |
-| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | Network meta-analysis | J Psychopharmacol | Antidepressant plus second-generation antipsychotic vs esketamine vs lithium |
-| [37149344](https://pubmed.ncbi.nlm.nih.gov/37149344/) | 2023 | Review | Psychiatr Clin North Am | Antidepressants and atypical antipsychotics in treatment-resistant depression |
-| [36855876](https://pubmed.ncbi.nlm.nih.gov/36855876/) | 2023 | Review | Am J Psychiatry | Role of antipsychotics in treatment-resistant depression |
-| [28331332](https://pubmed.ncbi.nlm.nih.gov/28331332/) | 2017 | Review | Ther Clin Risk Manag | Clinical role of brexpiprazole in depression and schizophrenia |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| anxiety disorder |
+| endogenous depression |
+| major depressive disorder |
+| unipolar depression |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11184P | Rexulti | Tablet 4 mg (oral) | Not stated in the data compiled for this report |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 11184P | Rexulti | Tablet 4 mg | Valid |
 
 ## Safety Considerations
 
@@ -122,20 +84,6 @@ The closest evidence concerns the parent indication of depression (retrieved und
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The dysthymia prediction has a high model score but no trials or publications, so it remains at evidence level L5. The nearby depression evidence supports the already-approved adjunctive MDD use, not a distinct new indication.
-
-**To proceed, the following is needed:**
-- Dysthymia-specific literature review and trial registry search (including ANZCTR)
-- Detailed mechanism of action data
-- TGA Product Information warnings and contraindications (a blocking gap for safety screening)
-- Review of the full interaction list (100 interactions)
-- Evaluation of whether dysthymia is distinct enough from the approved MDD indication to count as a repurposing opportunity
-- Proof-of-concept trial design, if the sponsor wishes to pursue it
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Everolimus
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 280
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Everolimus: predicted new indication Liposarcoma (evidence level L5). Approved use: Renal cell carcinoma, breast carcinoma…"
 monitor_inn: "Everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
+description: "Everolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Everolimus
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Everolimus: From Renal Cell Carcinoma to Liposarcoma
+## Everolimus: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **liposarcoma**, with **1 clini
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma, breast carcinoma, kidney angiomyolipoma and tuberous sclerosis (from the knowledge graph; the Australian register entry has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L2 (one Phase 2 trial, single-arm and combination, not yet completed) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 ---

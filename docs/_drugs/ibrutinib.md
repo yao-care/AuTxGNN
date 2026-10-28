@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Ibrutinib
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 361
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Ibrutinib: predicted new indication Polyclonal hypergammaglobulinemia (evidence level L5). Approved use: Mantle cell lymphoma…"
-monitor_inn: "Ibrutinib"
-predicted_indications: ["polyclonal hypergammaglobulinemia", "monoclonal paraproteinemia disease", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "small intestinal Burkitt lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "marginal zone lymphoma", "extracutaneous mastocytoma"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Ibrutinib: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Ibrutinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,58 +32,54 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ibrutinib: From B-Cell Malignancies to Polyclonal Hypergammaglobulinemia
+<!-- known-uses-page -->
+<!-- description: Ibrutinib: known uses and market status in Australia; currently no new candidate indication -->
+## Ibrutinib: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model has no candidate indication with a score of 0.99 or higher for Ibrutinib, so there is currently no new predicted indication. The uses recorded for this drug are listed below. They are the drug's own recorded uses, not model candidates.
 
-Ibrutinib is an oral Bruton's tyrosine kinase (BTK) inhibitor, originally used for B-cell cancers such as mantle cell lymphoma and Waldenström macroglobulinemia.
-The TxGNN model predicts it may be effective for **polyclonal hypergammaglobulinemia** (raised immunoglobulin levels from many B-cell clones), with a score of 91.8%.
-**No clinical trials and no publications** currently support this specific prediction, so it rests on model output alone.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Mantle cell lymphoma, Waldenström macroglobulinemia and other B-cell neoplasms (from the knowledge graph; no approved-indication text was available in the Australian licence data) |
-| Predicted New Indication | Polyclonal hypergammaglobulinemia |
-| TxGNN Prediction Score | 91.75% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 11 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| leukemia, lymphocytic, chronic, b-cell | licence in another country |
+| mantle-cell lymphoma | licence in another country |
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Ibrutinib is known as a BTK inhibitor, and its efficacy in B-cell malignancies is established. Mechanistically, it may be applicable to polyclonal hypergammaglobulinemia.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-BTK is a key signalling step in B-cell activation. Blocking it could plausibly reduce B-cell activation and immunoglobulin production, which is the biological link to this prediction. The original indications are B-cell neoplasms, some of which (such as Waldenström macroglobulinemia) involve excess immunoglobulin production. Excess immunoglobulin from many B-cell clones is a different clinical situation, however, and no study was provided to show that BTK inhibition corrects it.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| acute lymphoblastic/lymphocytic leukemia |
+| b-cell neoplasm |
+| graft versus host disease |
+| lymphoplasmacytic lymphoma |
+| lymphosarcoma |
+| macroglobulinemia |
+| mantle cell lymphoma |
+| richter syndrome |
+| waldenstrom macroglobulinemia |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11213E | Imbruvica | Capsule 140 mg (oral) | Not specified in the data compiled for this report |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 11213E | Imbruvica | Capsule 140 mg | Valid |
 
 ## Cytotoxicity
 
@@ -109,22 +104,6 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by the TxGNN score, with no trials, no literature and no confirmed mechanistic data for polyclonal hypergammaglobulinemia. This is Evidence Level L5.
-
-Other predictions for ibrutinib in the same data are better supported, and a review could look at them first:
-- **Marginal zone lymphoma**: a Phase 3 trial (SELENE, NCT01974440), several Phase 2 studies and published long-term follow-up. It could proceed with guardrails, because the Phase 3 population mixes follicular and marginal zone lymphoma.
-- **Monoclonal paraproteinemia (Waldenström macroglobulinemia)**: largely an existing indication rather than true repurposing.
-
-**To proceed, the following is needed:**
-- Mechanism of action data confirming how BTK inhibition would affect polyclonal immunoglobulin production
-- Preclinical or early clinical evidence in hypergammaglobulinemia
-- The TGA-approved PI warnings and contraindications, which were not available for this review
-- A benefit-risk assessment against known BTK-inhibitor toxicities and the major drug interactions above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

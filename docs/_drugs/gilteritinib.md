@@ -4,17 +4,17 @@ title: Gilteritinib
 parent: Model Prediction Only (L5)
 nav_order: 334
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Gilteritinib: predicted new indication Bulbar polio (evidence level L5). Approved use: Acute myeloid leukaemia (relapsed/refractory FLT3-mutated AML)"
 monitor_inn: "Gilteritinib"
-predicted_indications: ["bulbar polio", "5q35 microduplication syndrome", "neuralgic amyotrophy", "amyotrophic neuralgia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "myelodysplastic/myeloproliferative disease"]
+predicted_indications: ["bulbar polio"]
 ---
 
 # Gilteritinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Gilteritinib is an oral kinase inhibitor originally used to treat FLT3-mutated acute myeloid leukaemia (AML).
-The TxGNN model predicts it may be effective for **bulbar polio**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** supporting it.
+The TxGNN model (deep learning) predicts it may be effective for **bulbar polio**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ---
 
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **bulbar polio**, but this is a
 |------|------|
 | Original Indication | Acute myeloid leukaemia (relapsed/refractory FLT3-mutated AML) |
 | Predicted New Indication | Bulbar polio |
-| TxGNN Prediction Score | 99.10% |
+| TxGNN Prediction Score | 0.9910 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Gilteritinib is a FLT3/AXL tyrosine kinase inhibitor. It is used in AML driven b
 
 **No mechanistic link was identified** between this mechanism and bulbar polio. Bulbar polio is a viral infection of motor neurons. Gilteritinib targets signalling pathways that drive leukaemic cell growth, and nothing in the data connects those pathways to poliovirus infection or motor neuron injury.
 
-The high score (0.991) most likely reflects patterns in the knowledge graph rather than a biological relationship. It should not be read as evidence of efficacy.
+The high score (0.9910) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as evidence of efficacy.
 
 ---
 
@@ -117,9 +117,8 @@ Please refer to the TGA-approved Product Information (PI) for warnings, contrain
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score, with no mechanistic link, trials or literature. Bulbar polio is a viral neurological disease with no biological connection to FLT3/AXL inhibition.
+The prediction rests only on a TxGNN model (deep learning) score, with no mechanistic link, trials or literature. Bulbar polio is a viral neurological disease with no biological connection to FLT3/AXL inhibition.
 
-Among the other predictions in the data, "myelodysplastic/myeloproliferative disease" (rank 10) has a more credible rationale. It has a Phase 1/2 trial of gilteritinib with azacitidine and venetoclax (NCT04140487) and a supporting case report (PMID 33792628). This is outside the primary prediction assessed here and would need its own evaluation.
 
 **To proceed, the following is needed:**
 - A plausible mechanistic hypothesis linking FLT3/AXL inhibition to poliovirus infection or motor neuron pathology

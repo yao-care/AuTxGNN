@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Flucloxacillin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 301
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Flucloxacillin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not available in the data compiled for this report (flucloxacillin is…"
@@ -14,7 +14,7 @@ predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Pr
 # Flucloxacillin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Flucloxacillin is an anti-staphylococcal penicillin antibiotic, marketed in Aust
 |------|------|
 | Original Indication | Not available in the data compiled for this report (flucloxacillin is generally used for infections caused by susceptible staphylococci) |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9984 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,7 +58,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 However, the link is weak. The only retrieved publication concerns gonococcal dacryoadenitis, caused by *Neisseria gonorrhoeae*, which is not typically flucloxacillin-susceptible. Flucloxacillin is also not a standard topical ocular agent, and the marketed product is an oral capsule. The high model score should be viewed as a hypothesis rather than confirmation.
 
-Other predictions in the list (for example rheumatoid arthritis, leprosy, Prinzmetal angina and several rare genetic syndromes) have no plausible mechanistic link and are likely knowledge-graph artefacts. They are not pursued in this report.
+Other predictions in the list (for example rheumatoid arthritis, leprosy, Prinzmetal angina and several rare genetic syndromes) have no plausible mechanistic link and are likely TxGNN model (deep learning) artefacts. They are not pursued in this report.
 
 ## Clinical Trial Evidence
 

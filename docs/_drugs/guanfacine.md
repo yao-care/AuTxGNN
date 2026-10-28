@@ -4,17 +4,17 @@ title: Guanfacine
 parent: Model Prediction Only (L5)
 nav_order: 347
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Guanfacine: predicted new indication Tourette syndrome (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Guanfacine"
-predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome", "variably protease-sensitive prionopathy", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
+description: "Guanfacine: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Guanfacine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Guanfacine: From Hypertension and ADHD to Tourette Syndrome
+## Guanfacine: Faciodigitogenital syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Currently, **2 clinical trials** (one Phase 3 randomised controlled trial, one P
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension; attention deficit hyperactivity disorder (ADHD). The Australian licence record has no approved indication text, so these come from the knowledge graph. |
-| Predicted New Indication | Tourette syndrome (selected as the best-evidenced of the ten predictions; the top-scoring prediction by TxGNN is faciodigitogenital syndrome) |
-| TxGNN Prediction Score | 99.27% (Tourette syndrome); the top-ranked prediction, faciodigitogenital syndrome, scored 99.97% |
-| Evidence Level | L1 (see note under Clinical Trial Evidence) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Faciodigitogenital syndrome |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 (see note under Clinical Trial Evidence) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

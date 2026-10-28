@@ -4,17 +4,17 @@ title: Ritonavir
 parent: Moderate Evidence (L3-L4)
 nav_order: 642
 evidence_level: L4
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection / AIDS and chronic hepatitis C"
 monitor_inn: "Ritonavir"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis B virus infection", "fibroma of prostate", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Ritonavir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Ritonavir: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Ritonavir: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ Support is limited to **0 clinical trials** and **10 publications**, mostly prec
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infection / AIDS and chronic hepatitis C (from the knowledge graph; the Australian licence entry has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, ritonavir is an HIV protease inhibitor and, at low doses, a CYP3A4 inhibitor used to boost other antivirals. Its efficacy in HIV infection is established, and mechanistically it may be applicable to SIV.
 
-SIV is a lentivirus closely related to HIV, and its protease is inhibited by HIV protease inhibitors. An in vitro study found that ritonavir inhibited SIVmac239 with a 50% effective concentration of about 13 nM, compared with about 25 nM against HIV-1. This explains the high model score, which reflects the biological similarity between the two viruses.
+SIV is a lentivirus closely related to HIV, and its protease is inhibited by HIV protease inhibitors. An in vitro study found that ritonavir inhibited SIVmac239 with a half-maximal effective concentration (EC50) of about 13 nM, compared with about 25 nM against HIV-1. The high score (0.9992) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 SIV infection occurs in non-human primates and is a research model, not a human indication. The prediction therefore has little direct clinical applicability and is best read as support for ritonavir's activity against lentiviruses.
 

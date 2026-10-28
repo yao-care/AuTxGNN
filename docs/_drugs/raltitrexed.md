@@ -48,17 +48,17 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 |------|------|
 | Original Indication | Colorectal cancer and malignant mesothelioma (from pharmacology data; the Australian registration entry has no indication text) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, raltitrexed is a thymidylate synthase (TYMS) inhibitor. It blocks DNA synthesis in rapidly dividing cells, which underpins its use in colorectal cancer and malignant mesothelioma.
 
-The link to sclerosing cholangitis is weak. This is an immune-mediated, fibroinflammatory biliary disease, and no plausible connection to thymidylate synthase inhibition has been established. The high TxGNN score (99.97%, model rank 823) is a model-based prediction only.
+The link to sclerosing cholangitis is weak. This is an immune-mediated, fibroinflammatory biliary disease, and no plausible connection to thymidylate synthase inhibition has been established. The high TxGNN score (0.9997, model rank 823) is a model-based prediction only.
 
 Cytotoxic antimetabolites can cause hepatotoxicity and transaminase elevation, which is a concern in a cholestatic liver disease.
 
@@ -66,11 +66,11 @@ Cytotoxic antimetabolites can cause hepatotoxicity and transaminase elevation, w
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|------|
-| 2 | Myelodysplastic syndrome | 99.97% | Conceptual rationale exists, as antimetabolites such as azacitidine and decitabine are used in MDS. However, marked myelosuppression is a major liability in patients with existing cytopenias. |
-| 3–7 | Sickle cell disease variants (Hb D, Hb E, beta-thalassaemia, Hb C, HPFH) | 99.96% | Identical scores suggest a shared disease-class signal in the knowledge graph rather than indication-specific biology. Raltitrexed has no demonstrated fetal haemoglobin-inducing activity, and myelosuppression could worsen anaemia. |
-| 8 | Unclassified myelodysplastic syndrome | 99.96% | Likely inherited from the parent MDS node. Same myelosuppression concern. |
-| 9 | Refractory cytopenia of childhood | 99.96% | A cytotoxic antifolate would be expected to worsen marrow suppression. Paediatric safety data are lacking. |
-| 10 | Partial deletion of the long arm of chromosome 5 | 99.95% | Related to del(5q) MDS, where lenalidomide acts via a distinct mechanism. No link to thymidylate synthase inhibition is established. |
+| 2 | Myelodysplastic syndrome | 0.9997 | Conceptual rationale exists, as antimetabolites such as azacitidine and decitabine are used in MDS. However, marked myelosuppression is a major liability in patients with existing cytopenias. |
+| 3–7 | Sickle cell disease variants (Hb D, Hb E, beta-thalassaemia, Hb C, HPFH) | 0.9996 | Identical scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Raltitrexed has no demonstrated fetal haemoglobin-inducing activity, and myelosuppression could worsen anaemia. |
+| 8 | Unclassified myelodysplastic syndrome | 0.9996 | Likely inherited from the parent MDS node. Same myelosuppression concern. |
+| 9 | Refractory cytopenia of childhood | 0.9996 | A cytotoxic antifolate would be expected to worsen marrow suppression. Paediatric safety data are lacking. |
+| 10 | Partial deletion of the long arm of chromosome 5 | 0.9995 | Related to del(5q) MDS, where lenalidomide acts via a distinct mechanism. No link to thymidylate synthase inhibition is established. |
 
 ## Clinical Trial Evidence
 
@@ -116,7 +116,7 @@ All predicted indications are supported by model output only (L5), with no regis
 - Product Information (PI) warnings and contraindications for the Australian-registered product (ARTG 4610P), which are required before any safety screening
 - Detailed mechanism of action data, to assess any mechanistic link
 - Preclinical or mechanistic studies to establish a biological rationale for the top-ranked indications
-- A review of why the model produced identical scores across the sickle cell variants, to check whether the signal is a graph artefact
+- A review of why the TxGNN model (deep learning) produced identical scores across the sickle cell variants, to check whether the signal only reflects similarities the model learned between related diseases rather than biological evidence
 - A safety assessment specific to hepatic impairment, pre-existing cytopenias and paediatric populations
 ## Disclaimer
 

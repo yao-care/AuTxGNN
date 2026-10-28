@@ -46,10 +46,10 @@ Calcipotriol is a topical vitamin D3 analogue, marketed in Australia in a combin
 |------|------|
 | Original Indication | Not recorded in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Seborrheic keratosis |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

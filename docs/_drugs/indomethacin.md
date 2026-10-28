@@ -6,9 +6,9 @@ nav_order: 375
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Indomethacin: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, gout…"
 monitor_inn: "indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
+description: "Indomethacin: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Indomethacin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Indomethacin: From Inflammatory Arthritis and Musculoskeletal Conditions to Brachydactyly-Syndactyly Syndrome
+## Indomethacin: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ There are **no clinical trials and no publications** supporting this prediction,
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, gout, bursitis, tendinitis, frozen shoulder and patent ductus arteriosus (from the knowledge graph; the ARTG entry lists no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Indomethacin is generally understood to be a non-selective COX-1/COX-2 inhibitor. It reduces prostaglandin-mediated inflammation, pain and fever, and this underpins its use in inflammatory joint disease.
 
-Brachydactyly-syndactyly syndromes are developmental skeletal disorders with a genetic basis. COX inhibition has no established role in their pathophysiology, and an anti-inflammatory drug is not expected to correct a structural genetic defect. The high score (rank 350 in the model's overall ranking) is a graph-based association, most likely driven by shared skeletal and joint-related connections in the knowledge graph. It does not reflect a pharmacological rationale.
+Brachydactyly-syndactyly syndromes are developmental skeletal disorders with a genetic basis. COX inhibition has no established role in their pathophysiology, and an anti-inflammatory drug is not expected to correct a structural genetic defect. The high score (rank 350 in the model's overall ranking) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It does not reflect a pharmacological rationale.
 
 **No mechanistic link has been identified for this prediction.**
 

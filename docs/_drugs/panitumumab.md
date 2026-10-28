@@ -4,17 +4,17 @@ title: Panitumumab
 parent: Model Prediction Only (L5)
 nav_order: 545
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Panitumumab: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Metastatic malignant neoplasm in the colon"
 monitor_inn: "Panitumumab"
-predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "cortical cataract", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "tetanic cataract", "immature cataract"]
+predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
+description: "Panitumumab: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Panitumumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Panitumumab: From Metastatic Colorectal Cancer to Drug-Induced Osteoporosis
+## Panitumumab: Drug-induced osteoporosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no publications** currently support this direction,
 
 | Item | Content |
 |------|------|
-| Original Indication | Metastatic malignant neoplasm in the colon (from the knowledge graph; the ARTG indication text was not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.13% |
+| TxGNN Prediction Score | 0.9913 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 EGFR signalling influences osteoblast differentiation and osteoclast regulation (for example, via RANKL). This gives a theoretical connection between panitumumab and bone biology. However, EGFR blockade would be expected to impair rather than protect bone formation, which runs against the direction of the predicted benefit.
 
-The high TxGNN score (0.991) is a computational output only. Without supporting clinical or literature evidence, and without curated mechanism data to cross-check it, the prediction should be regarded as a hypothesis with low mechanistic credibility.
+The high TxGNN score (0.9913) is a computational output only. Without supporting clinical or literature evidence, and without curated mechanism data to cross-check it, the prediction should be regarded as a hypothesis with low mechanistic credibility.
 
-Other top-ranked predictions are also all L5 (model prediction only). They include severe nonproliferative diabetic retinopathy, diabetic retinopathy, and several cataract subtypes (diabetic, cortical, nuclear senile, type 2 diabetes-associated, craniostenosis, tetanic and immature). Several of these scores appear to reflect shared graph neighbours rather than independent evidence. For tetanic cataract, panitumumab's tendency to cause low magnesium and calcium could worsen the condition.
+The other top-ranked prediction, severe nonproliferative diabetic retinopathy (0.9905), is also L5 (model prediction only). Its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

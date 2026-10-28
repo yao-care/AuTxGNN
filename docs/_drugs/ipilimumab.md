@@ -4,17 +4,17 @@ title: Ipilimumab
 parent: Model Prediction Only (L5)
 nav_order: 387
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Ipilimumab: predicted new indication Non-cutaneous melanoma (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "Ipilimumab"
 predicted_indications: ["choroideremia"]
+description: "Ipilimumab: predicted new indication Choroideremia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ipilimumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,27 +33,26 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ipilimumab: From Metastatic Melanoma to Non-Cutaneous Melanoma
+## Ipilimumab: Choroideremia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ipilimumab is a CTLA-4 checkpoint-blocking antibody, originally used to treat metastatic melanoma.
-The TxGNN model predicts it may be effective for **non-cutaneous melanoma** (mucosal, uveal and conjunctival subtypes), with **22 registered clinical trials** and **6 publications** retrieved for this indication. Most of this evidence comes from mixed melanoma populations or combination regimens rather than ipilimumab alone, so this is better described as an extension within the melanoma family than a true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Metastatic melanoma (the ARTG indication text is not available in the data compiled for this report) |
-| Predicted New Indication | Non-cutaneous melanoma |
-| TxGNN Prediction Score | 99.02% |
-| Evidence Level | L1 as assigned by the automated scoring; a manual reading suggests L2 (see below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Choroideremia |
+| TxGNN Prediction Score | 0.9906 |
+| Evidence Level | L5 as assigned by the automated scoring; a manual reading suggests L2 (see below) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
-**Note on the top-ranked prediction:** The highest-scoring prediction is choroideremia (99.06%). It has no supporting trials or literature, and no plausible link to CTLA-4 blockade. It is a monogenic retinal degeneration, and immune activation could be harmful. It is treated here as a graph-based artefact and was not selected. The report focuses on non-cutaneous melanoma, the highest-ranked prediction with substantive supporting evidence.
+**Note on the top-ranked prediction:** The highest-scoring prediction is choroideremia (0.9906). It has no supporting trials or literature, and no plausible link to CTLA-4 blockade. It is a monogenic retinal degeneration, and immune activation could be harmful. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Why is This Prediction Reasonable?
 

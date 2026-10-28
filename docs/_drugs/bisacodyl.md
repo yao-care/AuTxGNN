@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Bisacodyl
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 97
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-13
-description: "Bisacodyl: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Constipation disorder"
+description: "Bisacodyl: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Bisacodyl"
-predicted_indications: ["exercise-induced malignant hyperthermia", "dyspepsia", "nephrogenic syndrome of inappropriate antidiuresis", "malignant hyperthermia, susceptibility to", "common cold", "pharyngitis", "familial periodic paralysis", "acute laryngopharyngitis", "malignant hyperthermia of anesthesia", "acute pulmonary heart disease"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Bisacodyl
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,41 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Bisacodyl: From Constipation to Exercise-Induced Malignant Hyperthermia
+## Bisacodyl
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Bisacodyl is a stimulant laxative, originally used to treat constipation.
-The TxGNN model predicts it may be effective for **exercise-induced malignant hyperthermia**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model-based prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Constipation disorder (the approved indication text was not available in the data compiled for this report) |
-| Predicted New Indication | Exercise-induced malignant hyperthermia |
-| TxGNN Prediction Score | 97.69% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available. Based on known information, bisacodyl is a stimulant laxative. Its active metabolite (BHPM) acts locally on the colonic mucosa to stimulate peristalsis and secretion, and its efficacy in constipation is established.
-
-No mechanistic link to the predicted indication was identified. Malignant hyperthermia involves dysregulated calcium release in skeletal muscle (for example, RYR1 variants), a pathway on which bisacodyl has no known action. The high TxGNN score is a graph-based prediction and has no supporting biological rationale in the data compiled for this report.
-
-Other top-ranked predictions show the same pattern. Several are related malignant hyperthermia entries (susceptibility, anaesthesia-related), so their scores likely reflect graph proximity rather than independent evidence. The remaining predictions (dyspepsia, nephrogenic syndrome of inappropriate antidiuresis, common cold, pharyngitis, familial periodic paralysis, acute laryngopharyngitis, acute pulmonary heart disease) also have no trials or literature. Dyspepsia is plausible only at a symptom level, and familial periodic paralysis raises a safety concern rather than a potential benefit (see Safety Considerations).
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
 ## Australia Market Information
 
@@ -91,18 +68,6 @@ Many of these interactions are plausibly linked to electrolyte disturbance (for 
 
 Please refer to the TGA-approved Product Information (PI) for label warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a model score alone (Evidence Level L5). There are no clinical trials or publications, and no plausible mechanistic link between bisacodyl's local colonic action and the pathophysiology of malignant hyperthermia. The other top-ranked predictions are similarly unsupported.
-
-**To proceed, the following is needed:**
-- Detailed mechanism of action data (MOA), for example from DrugBank
-- The TGA-approved Product Information (PI), including approved indication, warnings and contraindications
-- A biological rationale linking bisacodyl to the predicted condition, followed by a systematic literature and trial registry search (ClinicalTrials.gov, ANZCTR)
-- Review of the knowledge-graph contraindications and electrolyte-related interactions against any proposed new use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

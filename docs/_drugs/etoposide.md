@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etoposide
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 277
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Etoposide: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Small cell lung carcinoma, testicular cancer and germ cell tumours"
 monitor_inn: "Etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
+description: "Etoposide: predicted new indication Well-differentiated fetal adenocarcinoma of the lung (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Etoposide
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Etoposide: From Small Cell Lung Carcinoma and Germ Cell Tumours to Ewing Sarcoma
+## Etoposide: Well-differentiated fetal adenocarcinoma of the lung
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Etoposide with ifosfamide is already part of standard Ewing sarcoma regimens int
 
 | Item | Content |
 |------|------|
-| Original Indication | Small cell lung carcinoma, testicular cancer and germ cell tumours (the Australian licence text is not available, so this comes from the knowledge-graph indications) |
-| Predicted New Indication | Ewing sarcoma |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Well-differentiated fetal adenocarcinoma of the lung |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

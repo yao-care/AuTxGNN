@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 78
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Azithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Streptococcal infection, bacterial pneumonia…"
 monitor_inn: "Azithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
+last_modified_at: 2026-10-27
+description: "Azithromycin: predicted new indication hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Azithromycin
@@ -33,74 +33,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Azithromycin: From Bacterial Infections to Hyperamylasemia
+## Azithromycin: macrolide antibiotic (50S ribosomal inhibitor) → hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Azithromycin is a macrolide antibiotic originally used for bacterial infections such as streptococcal and staphylococcal infections, bacterial pneumonia, conjunctivitis and sexually transmitted infections.
-The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no clinical trials and no publications** currently support this prediction.
-The result looks like a graph-based artefact rather than a credible repurposing signal.
+Azithromycin is a macrolide antibiotic that is marketed in Australia as an oral tablet.
+The TxGNN model predicts it may be associated with **hyperamylasemia**, but **no clinical trials and no publications** were found for this prediction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Streptococcal infection, bacterial pneumonia, staphylococcal infection and related infections (the Australian licence text is blank; indications come from the knowledge graph) |
-| Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.81% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | hyperamylasemia |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, azithromycin is a macrolide antibiotic, its efficacy in bacterial infections is established, and it is also reported to have anti-inflammatory and immunomodulatory effects.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Azithromycin is a macrolide antibiotic, a class that generally acts by inhibiting the bacterial 50S ribosomal subunit.
 
-Hyperamylasemia is a laboratory finding (raised serum amylase) rather than a disease with a defined therapeutic target. Azithromycin's antibacterial and immunomodulatory actions do not plausibly address it, and no mechanistic link has been identified. The high TxGNN score therefore appears to reflect graph structure rather than biology.
-
-Other predictions from the same model fare slightly better, though none is strong. The most notable are:
-- **Congenital hematological disorder** (score 99.40%): the strongest clinical rationale, in sickle cell disease. Two trials of azithromycin or macrolide therapy for acute chest syndrome and lung function were withdrawn with zero enrolment.
-- **Monogonal gammopathy** (score 99.61%): preclinical data show macrolides block autophagy and sensitise myeloma cells to bortezomib. This is in vitro evidence in myeloma, not in MGUS.
-- **Septicemic plague** (score 99.52%): in vitro data show azithromycin has poor activity against *Yersinia pestis*, and established first-line agents exist.
+Hyperamylasemia is a laboratory finding with many possible causes (pancreatic, salivary and renal), not a disease with a defined drug target. No identifiable mechanistic link between a macrolide antibiotic and this finding was found. The high TxGNN score should be treated as a model-generated signal only, with no supporting trials or literature.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for hyperamylasemia.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for hyperamylasemia.
+Currently no related literature available.
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 4115N | Zithromax | Tablet 500 mg (as dihydrate) | Not available in the data compiled for this report |
+| ARTG 4115N | Zithromax | Tablet 500 mg (as dihydrate) | Not recorded in the local data |
 
 ## Safety Considerations
 
-- **Disease associations flagged in the knowledge graph (contraindication edges, not label text)**: long QT syndrome (including familial), torsades de pointes, liver disease, gallbladder disease, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, myasthenia gravis, neuromuscular junction disease, and hearing or auditory system disorders.
-- **Drug Interactions** (100 interactions recorded; examples below):
-  - **Major**: cisapride, dolasetron (QT-prolongation concern).
-  - **Moderate**: famotidine, loperamide, clarithromycin, levofloxacin, granisetron, aluminium hydroxide and magnesium-containing antacids, and several laxatives (bisacodyl, lactulose, lactitol, glycerin, castor oil).
-  - **Minor**: amoxicillin, metronidazole.
+- **Drug Interactions**: 100 interactions were recorded in total. Examples from the listed entries:
+  - **Major**: cisapride, dolasetron
+  - **Moderate**: famotidine, loperamide, clarithromycin, levofloxacin, granisetron, aluminium hydroxide, magnesium hydroxide, several laxatives
+  - **Minor**: amoxicillin, metronidazole
 
-Please refer to the TGA-approved Product Information (PI) for authoritative warnings and contraindications.
+Further safety information should be taken from the TGA-approved Product Information (PI).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score, with no trials, no literature and no plausible mechanism. Hyperamylasemia is a laboratory finding, not a treatable disease target.
+The prediction has no supporting clinical trials or publications and no plausible mechanistic link. Hyperamylasemia is a laboratory finding rather than a treatable disease, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- A credible mechanistic hypothesis linking azithromycin to the condition underlying the raised amylase
+- A clear clinical definition of the target condition (the cause of the raised amylase) and a biologically plausible mechanism
 - Mechanism of action data for azithromycin
-- Approved indication text and safety information from the TGA Product Information
-- If a repurposing programme is wanted, redirect effort to better-supported candidates, such as sickle cell disease (acute chest syndrome prophylaxis), where the withdrawn trials show clinical interest but have produced no data
+- Studies that directly examine azithromycin in this condition
+- Warnings and contraindications from the TGA-approved PI, with a review of the major interactions (cisapride, dolasetron)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

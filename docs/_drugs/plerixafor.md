@@ -4,17 +4,16 @@ title: Plerixafor
 parent: Model Prediction Only (L5)
 nav_order: 581
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Plerixafor: predicted new indication Indolent plasma cell myeloma (evidence level L5). Approved use: Plasma cell myeloma"
 monitor_inn: "Plerixafor"
-predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia", "melanoma", "cecum villous adenoma", "cecum neuroendocrine tumor G1"]
+predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
+description: "Plerixafor: predicted new indication CMM7 (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Plerixafor
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +32,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Plerixafor: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
+## Plerixafor: CMM7
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Plerixafor is a CXCR4 antagonist originally used as a stem cell mobiliser in plasma cell myeloma (multiple myeloma).
-The TxGNN model predicts it may be effective for **Indolent Plasma Cell Myeloma**, but **no clinical trials and no publications** currently support this specific prediction.
 The data compiled for this report show considerably more evidence for a related prediction, **myeloid leukaemia** (25 trials, 20 publications), which is discussed below as the best-supported alternative.
 
 ---
@@ -48,12 +46,12 @@ The data compiled for this report show considerably more evidence for a related 
 
 | Item | Content |
 |------|------|
-| Original Indication | Plasma cell myeloma (from the knowledge graph; no approved indication text is recorded in the Australian licence data) |
-| Predicted New Indication | Indolent plasma cell myeloma |
-| TxGNN Prediction Score | 99.97% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | CMM7 |
+| TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Other predictions in the data (top 10):** Myeloid leukaemia (99.02%, L2, research question), melanoma (98.96%, L4), several melanoma subtypes (L5), bronchitis (L5), cecum villous adenoma (L5) and cecum neuroendocrine tumour G1 (L5).
@@ -72,7 +70,6 @@ The strongest mechanistic case in the data is for **myeloid leukaemia**. Blockin
 
 ## Clinical Trial Evidence
 
-**Indolent plasma cell myeloma (primary prediction):** Currently no related clinical trials registered.
 
 **Myeloid leukaemia (best-supported alternative prediction; evidence level L2)**, selected from 25 trials:
 
@@ -112,7 +109,6 @@ No Australian (ANZCTR) trial identifiers were available in the data. All trials 
 | [32079173](https://pubmed.ncbi.nlm.nih.gov/32079173/) | 2020 | Review | Biology | CXCR4 antagonists as stem cell mobilisers and therapy sensitisers in AML and glioblastoma |
 | [34657533](https://pubmed.ncbi.nlm.nih.gov/34657533/) | 2021 | Review | Expert Rev Hematol | Overview of drug repositioning in haematology |
 
-**Melanoma (L4):** Only three indirect or preclinical publications were found (PMID 24942536, 33127761, 22399057), and no clinical trials.
 
 ---
 
@@ -147,7 +143,7 @@ Additional points from the data:
 **Decision: Hold**
 
 **Rationale:**
-The primary prediction (indolent plasma cell myeloma) has a very high model score but no supporting trials or publications (L5), and the mechanistic link is unsupported for a disease-modifying role. The best-supported alternative, myeloid leukaemia, has an L2 evidence level from Phase 1/2 trials only. It is better framed as a research question than a ready-to-adopt indication.
+Myeloid leukaemia has an L2 evidence level from Phase 1/2 trials only. It is better framed as a research question than a ready-to-adopt indication.
 
 **To proceed, the following is needed:**
 - Clinical or preclinical data on plerixafor in indolent myeloma or smouldering myeloma, or a decision to redirect the evaluation to myeloid leukaemia

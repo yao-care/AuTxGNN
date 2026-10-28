@@ -6,7 +6,7 @@ nav_order: 172
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Clomifene: predicted new indication 46… (evidence level L5). Approved use: Female infertility"
+description: "Clomifene: predicted new indication 46,XY disorder of sex development due to testicular steroidogenesis defect (evidence level L5). Approved use: Female infertility"
 monitor_inn: "Clomifene"
 predicted_indications: ["46,XY disorder of sex development due to testicular steroidogenesis defect", "transverse vaginal septum", "longitudinal vaginal septum", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "anovulation"]
 ---
@@ -50,10 +50,10 @@ However, there are currently **no clinical trials and no publications** supporti
 |------|------|
 | Original Indication | Female infertility |
 | Predicted New Indication | 46,XY disorder of sex development due to testicular steroidogenesis defect |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ However, there are currently **no clinical trials and no publications** supporti
 
 Detailed mechanism of action data was not available in the data compiled for this report. Clomifene is a selective estrogen receptor modulator (SERM). It blocks estrogen receptors in the hypothalamus, which reduces negative feedback and raises GnRH, FSH and LH secretion. This is the basis of its use for ovulation induction in female infertility.
 
-The link to the predicted indication is weak. In this condition, the primary defect is an enzymatic block in testicular steroid production, which sits downstream of the gonadotropin axis. Raising LH stimulation is unlikely to correct a block in the enzymes themselves. The high score (0.999) is therefore best read as a knowledge-graph prediction, probably driven by shared reproductive-endocrine associations, rather than as evidence of a therapeutic mechanism.
+The link to the predicted indication is weak. In this condition, the primary defect is an enzymatic block in testicular steroid production, which sits downstream of the gonadotropin axis. Raising LH stimulation is unlikely to correct a block in the enzymes themselves. The high score (0.999) is therefore best read as a TxGNN model (deep learning) prediction, probably driven by shared reproductive-endocrine associations, rather than as evidence of a therapeutic mechanism.
 
 ---
 

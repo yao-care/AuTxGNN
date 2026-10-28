@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Loperamide is an antimotility agent originally used to treat diarrhoeal disease and dysentery.
 The TxGNN model predicts it may be effective for **acute contagious conjunctivitis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
-The prediction appears to be a graph-based artefact rather than a pharmacologically grounded finding.
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -50,10 +50,10 @@ The prediction appears to be a graph-based artefact rather than a pharmacologica
 |------|------|
 | Original Indication | Diarrhoeal disease; dysentery |
 | Predicted New Indication | Acute contagious conjunctivitis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The prediction appears to be a graph-based artefact rather than a pharmacologica
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Loperamide is generally understood to be a peripheral mu-opioid receptor agonist acting on gut myenteric neurons, slowing intestinal motility. It is not an anti-infective or an ocular agent.
 
-The review of the prediction found **no plausible mechanistic link** between loperamide and acute contagious conjunctivitis. The high TxGNN score most likely reflects shared infectious-disease and diarrhoea associations in the knowledge graph, not real pharmacology. The same pattern appears across the other top-ranked predictions: several conjunctival terms (parasitic, follicular, serous, pseudomembranous conjunctivitis, conjunctival folliculosis) share identical or near-identical scores, which is consistent with an ontology-driven artefact.
+The review of the prediction found **no plausible mechanistic link** between loperamide and acute contagious conjunctivitis. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same pattern appears across the other top-ranked predictions: several conjunctival terms (parasitic, follicular, serous, pseudomembranous conjunctivitis, conjunctival folliculosis) share identical or near-identical scores, which is consistent with similarities the model learned between related diseases.
 
 Other predictions in the top 10 were also reviewed. Only two had any literature, and both were safety signals rather than efficacy evidence:
 - **Amoebic dysentery:** A 2007 case report described fulminant amoebic colitis following heavy loperamide use. Loperamide treats the symptom, not the *Entamoeba histolytica* infection, and slowing gut transit may worsen invasive disease. This is an overlap with the original symptomatic indication, not a true repurposing opportunity.

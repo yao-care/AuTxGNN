@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nitrazepam
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 505
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Nitrazepam: predicted new indication Sleep disorder, initiating and maintaining sleep (evidence level L4). Approved use: Insomnia"
 monitor_inn: "Nitrazepam"
-predicted_indications: ["Wernicke-Korsakoff syndrome", "restless legs syndrome", "alcohol withdrawal", "anxiety", "benign paroxysmal torticollis of infancy", "anxiety disorder", "alcohol withdrawal delirium"]
+predicted_indications: ["Wernicke-Korsakoff syndrome"]
+description: "Nitrazepam: predicted new indication Wernicke-Korsakoff syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nitrazepam
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,31 +33,30 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Nitrazepam: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
+## Nitrazepam: Wernicke-Korsakoff syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Nitrazepam is a benzodiazepine hypnotic, originally used to treat insomnia and early myoclonic encephalopathy.
-The TxGNN model predicts it may be effective for **sleep disorder, initiating and maintaining sleep**, but this is essentially the same as its existing indication. There are **no registered clinical trials** and **20 publications** (mostly narrative reviews) for this prediction.
+The TxGNN model predicts it may be effective for **Wernicke-Korsakoff syndrome**. There are **no registered clinical trials** and **20 publications** (mostly narrative reviews) for this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Insomnia; early myoclonic encephalopathy (from the TxGNN knowledge graph, as no approved indication text is available for the ARTG entry) |
-| Predicted New Indication | Sleep disorder, initiating and maintaining sleep |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Wernicke-Korsakoff syndrome |
+| TxGNN Prediction Score | 0.9931 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, nitrazepam is a benzodiazepine that enhances GABA-A receptor signalling, producing sedative-hypnotic effects. This is consistent with treating difficulty initiating and maintaining sleep.
 
-The predicted indication is effectively the drug's original indication (insomnia), so this is not a true repurposing candidate. The high score largely reflects the model recovering a known use. Other predicted indications in the data (such as anxiety, alcohol withdrawal, restless legs syndrome and several epilepsy-related conditions) rest mainly on class-level benzodiazepine plausibility, with little or no nitrazepam-specific evidence.
 
 ## Clinical Trial Evidence
 
@@ -98,12 +97,11 @@ Please refer to the TGA-approved Product Information (PI) for formal warnings an
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is the drug's existing hypnotic use, so it adds no new repurposing value. Supporting evidence is limited to reviews, with no registered trials. Of the other predicted indications, none has nitrazepam-specific efficacy evidence. Class-level plausibility exists for alcohol withdrawal and anxiety, but longer-acting benzodiazepines are preferred, and restless legs syndrome is better served by current first-line agents. Safety concerns (dependence, falls, sedation in older adults) weigh against expansion.
+Supporting evidence is limited to reviews, with no registered trials. Safety concerns (dependence, falls, sedation in older adults) weigh against expansion.
 
 **To proceed, the following is needed:**
 - Product Information warnings and contraindications, and the approved indication text for the ARTG entry
 - Mechanism of action data
-- Nitrazepam-specific controlled trials for any non-insomnia indication being considered (for example alcohol withdrawal, restless legs syndrome)
 - A benefit-risk assessment against established first-line treatments, with particular attention to older adults
 ## Disclaimer
 

@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00545",
-      "display": "Xifaxan"
+      "reference": "MedicationKnowledge/DB00545"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "atypical-hemolytic-uremic-syndrome-with-b-factor-anomaly",
-          "display": "atypical hemolytic-uremic syndrome with B factor anomaly"
-        }
-      ],
-      "text": "atypical hemolytic-uremic syndrome with B factor anomaly"
+      "concept": {
+        "text": "atypical hemolytic-uremic syndrome with B factor anomaly"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://autxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9922
     }
   ]
 }

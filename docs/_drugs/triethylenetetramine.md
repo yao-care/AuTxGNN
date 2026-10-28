@@ -4,17 +4,17 @@ title: Triethylenetetramine
 parent: Model Prediction Only (L5)
 nav_order: 754
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Triethylenetetramine: predicted new indication Thyroid gland undifferentiated (anaplastic) carcinoma (evidence level L5). Approved use: Wilson disease . No approved indication text is recorded for th…"
 monitor_inn: "Triethylenetetramine"
-predicted_indications: ["thyroid gland undifferentiated (anaplastic) carcinoma", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "hepatic porphyria", "disorder of tyrosine metabolism"]
+predicted_indications: ["thyroid gland undifferentiated (anaplastic) carcinoma", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "hepatic porphyria"]
+description: "Triethylenetetramine: predicted new indication Thyroid gland undifferentiated (anaplastic) carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Triethylenetetramine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Triethylenetetramine: From Wilson Disease to Thyroid Gland Undifferentiated (Anaplastic) Carcinoma
+## Triethylenetetramine: Thyroid gland undifferentiated (anaplastic) carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no publications** were found to support this predic
 
 | Item | Content |
 |------|------|
-| Original Indication | Wilson disease (also listed in the knowledge graph: renal cell carcinoma subtypes, iron metabolism disease, hereditary haemochromatosis). No approved indication text is recorded for the Australian entry. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Thyroid gland undifferentiated (anaplastic) carcinoma |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,8 +62,8 @@ A plausible but unvalidated link is copper depletion. Copper is a cofactor in an
 
 Other high-scoring predictions from the same model run are also unsupported by evidence:
 - **Idiopathic copper-associated cirrhosis** is the most mechanistically coherent. Copper chelation has a clear rationale in copper-overload liver disease, and this is flagged as a research question. A targeted literature search is a reasonable next step.
-- **Renal cell carcinoma subtypes** (TFE3-fusion and neuroblastoma-associated) probably score highly because renal cell carcinoma is already in the drug's knowledge-graph indication list. This is not independent validation.
-- Portal hypertension, portal vein thrombosis, hepatopulmonary syndrome, hepatic porphyria and tyrosine metabolism disorder likely reflect graph proximity to hepatic and metabolic disease. No supported mechanism was identified.
+- **Renal cell carcinoma subtypes** (TFE3-fusion and neuroblastoma-associated): the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This is not independent validation.
+- Portal hypertension, portal vein thrombosis, hepatopulmonary syndrome and hepatic porphyria: the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related hepatic and metabolic diseases, not biological evidence. No supported mechanism was identified.
 
 ## Clinical Trial Evidence
 

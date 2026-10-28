@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ethanol
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 273
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Ethanol: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
 monitor_inn: "Ethanol"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "insomnia (disease)", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "sciatic neuropathy"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Ethanol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Overall this is a model-only signal that the available evidence does not support
 |------|------|
 | Original Indication | Not available (no approved indication text in the registration data) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L4 (preclinical and mechanistic literature only, and it points to a pro-migraine effect) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 2 |
+| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available for ethanol. Known
 
 The data compiled for this report argue against the prediction. Alcohol is a recognised migraine trigger. Preclinical work shows ethanol is metabolised to acetaldehyde, which acts through CGRP receptor and TRPA1 signalling in Schwann cells to produce periorbital allodynia in mice. Genetic studies link ADH2 genotype and GABA receptor variants to migraine risk, but they do not show a treatment effect.
 
-The high score (0.993) most likely reflects network proximity to migraine-related pathways (GABA, CGRP, TRPA1, KATP channels) and not a therapeutic effect. Therapeutic repurposing is not supported.
+The high score (0.9929) most likely reflects network proximity to migraine-related pathways (GABA, CGRP, TRPA1, KATP channels) and not a therapeutic effect. Therapeutic repurposing is not supported.
 
 ## Clinical Trial Evidence
 
@@ -108,7 +108,7 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score alone. The literature indicates ethanol triggers migraine, with no clinical trials and no therapeutic evidence. Other lower-ranked predictions (insomnia, tendinitis, sciatic neuropathy and several rare skin and muscle disorders) were also reviewed and have no supportive evidence. Ethanol is a cause of sleep disruption and neuropathy in the retrieved studies.
+The prediction rests on model score alone. The literature indicates ethanol triggers migraine, with no clinical trials and no therapeutic evidence. Ethanol is a cause of sleep disruption and neuropathy in the retrieved studies.
 
 **To proceed, the following is needed:**
 - Approved indication text and product details for the two ARTG entries

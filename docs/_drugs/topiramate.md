@@ -4,17 +4,17 @@ title: Topiramate
 parent: Model Prediction Only (L5)
 nav_order: 738
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Topiramate: predicted new indication Trigeminal neuralgia (evidence level L5). Approved use: Epilepsy with generalised tonic-clonic seizures, partial epilepsy…"
 monitor_inn: "Topiramate"
-predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
+predicted_indications: ["trigeminal nerve neoplasm"]
+description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Topiramate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Topiramate: From Epilepsy to Trigeminal Neuralgia
+## Topiramate: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Topiramate is an antiseizure medication originally used for generalised tonic-clonic seizures, partial epilepsy and Lennox-Gastaut syndrome.
-The TxGNN model's top-ranked prediction, trigeminal nerve neoplasm, is most likely a graph-proximity artefact, so this report focuses on the best-supported prediction, **Trigeminal Neuralgia** (score 98.92%).
+The top-ranked prediction of the TxGNN model (deep learning) is **trigeminal nerve neoplasm** (score 0.9970). This score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 That prediction is currently supported by **0 registered clinical trials** and **20 publications**, including a small randomised crossover pilot study and a meta-analysis.
 
 ---
@@ -48,15 +48,15 @@ That prediction is currently supported by **0 registered clinical trials** and *
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy with generalised tonic-clonic seizures, partial epilepsy, Lennox-Gastaut syndrome (from knowledge graph indication data; the ARTG entry has no indication text) |
-| Predicted New Indication | Trigeminal neuralgia (best-supported prediction; the top-ranked prediction, trigeminal nerve neoplasm, scored 99.70% but is considered implausible) |
-| TxGNN Prediction Score | 98.92% (trigeminal neuralgia); 99.70% (trigeminal nerve neoplasm) |
-| Evidence Level | L2 (trigeminal neuralgia) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Trigeminal nerve neoplasm |
+| TxGNN Prediction Score | 0.9970 |
+| Evidence Level | L5 (trigeminal neuralgia) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (trigeminal neuralgia) |
 
-**Note on the ranking:** The highest-scoring prediction, trigeminal nerve neoplasm, has no trials or literature and no plausible antineoplastic mechanism, so it is rated L5 and Hold. Most other top predictions are rare reflex epilepsies (visual, startle, orgasm-induced, eating, audiogenic, thinking, micturition-induced and reading seizures), which fall within topiramate's existing antiseizure spectrum. Their evidence is indirect (L4/L5), so none is recommended for progression beyond a research question or Hold. Trigeminal neuralgia is the only prediction with direct clinical evidence.
+**Note on the ranking:** The highest-scoring prediction, trigeminal nerve neoplasm, has no trials or literature and no plausible antineoplastic mechanism, so it is rated L5 and Hold. Most other top predictions are rare reflex epilepsies (visual, startle, orgasm-induced, eating, audiogenic, thinking, micturition-induced and reading seizures), which fall within topiramate's existing antiseizure spectrum. Their evidence is indirect (L4/L5), so none is recommended for progression beyond a research question or Hold.
 
 ---
 
@@ -64,19 +64,18 @@ That prediction is currently supported by **0 registered clinical trials** and *
 
 Detailed mechanism of action data is not available in the data compiled for this report. From published pharmacology, topiramate is a broad-spectrum antiseizure drug that blocks voltage-gated sodium channels, enhances GABA-A activity, antagonises AMPA/kainate glutamate receptors and weakly inhibits carbonic anhydrase.
 
-Trigeminal neuralgia is a neuropathic pain syndrome driven by ectopic, hyperexcitable firing of trigeminal nerve fibres, often after neurovascular compression and focal demyelination. Carbamazepine, a sodium channel blocker, is first-line therapy. Topiramate's sodium channel blockade and dampening of excitatory transmission parallel carbamazepine's action, which makes the prediction mechanistically plausible. This also explains why the knowledge graph links the drug to this nerve.
+Carbamazepine, a sodium channel blocker, is first-line therapy. Topiramate's sodium channel blockade and dampening of excitatory transmission parallel carbamazepine's action. The TxGNN model (deep learning) score for this drug may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for trigeminal neuralgia. No ANZCTR identifiers were available either.
+No ANZCTR identifiers were available either.
 
 ---
 
 ## Literature Evidence
 
-Selected publications for trigeminal neuralgia:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -117,15 +116,13 @@ Please refer to the TGA-approved Product Information (PI) for official warnings 
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails (trigeminal neuralgia only)**
 
 **Rationale:**
-- Trigeminal neuralgia has a plausible mechanism and direct clinical evidence: a small placebo-controlled crossover pilot, a topiramate-versus-carbamazepine meta-analysis and case series. This supports topiramate as an alternative or add-on for patients who are intolerant of, or refractory to, carbamazepine or oxcarbazepine. The evidence base is small and no registered Phase 3 trial exists.
+- This supports topiramate as an alternative or add-on for patients who are intolerant of, or refractory to, carbamazepine or oxcarbazepine. The evidence base is small and no registered Phase 3 trial exists.
 - Trigeminal nerve neoplasm should be placed on **Hold**. It is likely a model artefact with no supporting evidence.
 - The reflex epilepsy predictions are **Hold** or **Research Question** only. Their evidence is general epilepsy or preclinical data, with nothing specific to the conditions.
 
 **To proceed, the following is needed:**
-- Adequately powered randomised controlled trials of topiramate in trigeminal neuralgia, ideally compared with carbamazepine or oxcarbazepine
 - Review of the TGA-approved PI for warnings and contraindications, which was not available in the data compiled for this report
 - Detailed mechanism of action data from DrugBank
 - Monitoring plan for cognitive and other CNS adverse effects, metabolic acidosis, renal stones, and the major interactions (notably metformin and anticholinergics)

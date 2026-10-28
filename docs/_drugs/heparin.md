@@ -4,17 +4,17 @@ title: Heparin
 parent: Model Prediction Only (L5)
 nav_order: 350
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Heparin"
-predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful", "retinal telangiectasia", "retinal microaneurysm", "arteriosclerotic retinopathy", "vertebral artery occlusion", "breast fibrocystic disease"]
+predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
+description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Heparin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Heparin: From Pulmonary Embolism and Disseminated Intravascular Coagulation to Protein C Deficiency Thrombophilia
+## Heparin: Thrombophilia due to protein C deficiency, autosomal recessive
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Heparin is an injectable anticoagulant originally used for pulmonary embolism, disseminated intravascular coagulation (DIC) and purpura fulminans.
-The TxGNN model predicts it may be useful for **thrombophilia due to protein C deficiency (autosomal recessive)**, with a very high prediction score (99.29%).
+The TxGNN model predicts it may be useful for **thrombophilia due to protein C deficiency (autosomal recessive)**, with a very high prediction score (0.9929).
 However, the data compiled for this report contain **no clinical trials and no publications** for this indication, so the prediction rests on model output and mechanistic plausibility alone.
 
 ---
@@ -48,12 +48,12 @@ However, the data compiled for this report contain **no clinical trials and no p
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary embolism, disseminated intravascular coagulation, purpura fulminans, acquired purpura fulminans (knowledge-graph indications; the ARTG entry carries no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -103,17 +103,9 @@ Nine further predicted indications were assessed. None has sufficient evidence t
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |---|---|---|---|---|
-| 2 | Primary release disorder of platelets | 99.06% | L5 | Bleeding disorder, so an anticoagulant is unlikely to help and may worsen bleeding. The 20 papers retrieved do not evaluate heparin for this disorder. |
-| 3 | Pseudo-von Willebrand disease | 98.65% | L5 | Platelet-type bleeding disorder. There is no plausible therapeutic mechanism and heparin could worsen bleeding. |
-| 4 | Atypical haemolytic-uraemic syndrome with thrombomodulin anomaly | 96.74% | L5 | Anticoagulation is theoretically plausible, but complement inhibition is the established therapy. No clinical evidence. |
-| 5 | Painful neuropathy | 96.13% | L5 | The only trial (NCT00445328) compares dalteparin with unfractionated heparin for VTE prevention and is not relevant to this indication. |
-| 6 | Retinal telangiectasia | 94.88% | L5 | No mechanistic rationale and no evidence. |
-| 7 | Retinal microaneurysm | 94.52% | L5 | No mechanistic link, and a possible increased risk of retinal haemorrhage. |
-| 8 | Arteriosclerotic retinopathy | 94.52% | L5 | Only an indirect vascular link. No evidence. |
-| 9 | Vertebral artery occlusion | 94.22% | L4 | The most plausible of the group (see below). |
-| 10 | Breast fibrocystic disease | 93.20% | L5 | Three papers did not evaluate heparin treatment. Prediction unsupported. |
+| 2 | Primary release disorder of platelets | 0.9906 | L5 | Bleeding disorder, so an anticoagulant is unlikely to help and may worsen bleeding. The 20 papers retrieved do not evaluate heparin for this disorder. |
 
-**Vertebral artery occlusion** is the only alternative with indirect support. Anticoagulation is a recognised option in cervical artery dissection, and the CADISS randomised trial (PMID [30801621](https://pubmed.ncbi.nlm.nih.gov/30801621/), JAMA Neurology, 2019) compared antiplatelet and anticoagulant therapy in general, without isolating heparin. The one registered trial, [NCT01980316](https://clinicaltrials.gov/study/NCT01980316) (Phase 4, completed, n=114), tested argatroban rather than heparin for restenosis after vertebral artery stenting. This evidence is indirect and supports a research question, not a treatment recommendation.
+Anticoagulation is a recognised option in cervical artery dissection, and the CADISS randomised trial (PMID [30801621](https://pubmed.ncbi.nlm.nih.gov/30801621/), JAMA Neurology, 2019) compared antiplatelet and anticoagulant therapy in general, without isolating heparin. The one registered trial, [NCT01980316](https://clinicaltrials.gov/study/NCT01980316) (Phase 4, completed, n=114), tested argatroban rather than heparin for restenosis after vertebral artery stenting. This evidence is indirect and supports a research question, not a treatment recommendation.
 
 ---
 
@@ -129,7 +121,6 @@ The top-ranked prediction (protein C deficiency thrombophilia) has a plausible m
 - Mechanism of action data (for example from DrugBank) to support mechanistic analysis
 - A targeted literature search on heparin in severe protein C deficiency, purpura fulminans and neonatal presentations
 - Specialist haematology input on bleeding risk and on whether protein C replacement is the established standard of care
-- Assessment of vertebral artery occlusion as a separate research question, with a focus on bleeding risk
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

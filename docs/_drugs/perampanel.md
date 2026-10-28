@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Perampanel
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 559
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Perampanel: predicted new indication Visual epilepsy (evidence level L4). Approved use: Partial epilepsy, partial motor epilepsy"
 monitor_inn: "Perampanel"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Perampanel
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Perampanel: From Partial Epilepsy to Visual Epilepsy
+## Perampanel: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Perampanel is an antiseizure medicine (a non-competitive AMPA receptor antagonist) originally used for partial (focal) epilepsy.
-The TxGNN model predicts it may be effective for **visual epilepsy**, but there are **no registered clinical trials** and **no publications specific to this condition**.
+The TxGNN model predicts it may be effective for **beta-ketothiolase deficiency**, but there are **no registered clinical trials** and **no publications specific to this condition**.
 The only supporting literature covers focal epilepsy in general, so the evidence is **model prediction with indirect support**.
 
 ---
@@ -48,12 +48,12 @@ The only supporting literature covers focal epilepsy in general, so the evidence
 
 | Item | Content |
 |------|------|
-| Original Indication | Partial epilepsy, partial motor epilepsy (from the knowledge graph; no approved indication text is available for the Australian entry) |
-| Predicted New Indication | Visual epilepsy |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Beta-ketothiolase deficiency |
+| TxGNN Prediction Score | 0.9979 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Visual epilepsy (photosensitive or occipital seizures) is a focal or reflex seizure type. It plausibly involves the same AMPA-mediated glutamatergic hyperexcitability as the original indication. However, the retrieved literature addresses drug-resistant focal epilepsy in general, not visual epilepsy specifically. The link is therefore indirect and largely overlaps with the approved use rather than demonstrating a new benefit.
 
-The model also gave similarly high scores (about 99.8-99.9%) to several other rare reflex seizure types (startle, thinking, audiogenic, micturition-induced, orgasm-induced, eating and reading seizures) and to beta-ketothiolase deficiency. Such uniform scores suggest the ranking reflects graph proximity rather than disease-specific evidence.
+The score for beta-ketothiolase deficiency (0.9979) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -72,7 +72,6 @@ The model also gave similarly high scores (about 99.8-99.9%) to several other ra
 
 Currently no related clinical trials registered for visual epilepsy.
 
-For context, the most clinically developed alternative prediction in the same dataset is **status epilepticus** (score 99.77%, evidence level L3), where perampanel has been studied in trials:
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -121,7 +120,7 @@ Please refer to the TGA-approved Product Information (PI) for the full warnings 
 **Decision: Hold**
 
 **Rationale:**
-The high prediction score for visual epilepsy rests on a general anti-glutamatergic mechanism. There are no trials and no disease-specific publications. The literature largely restates the existing focal epilepsy indication, so it does not independently support a new use.
+The high prediction score for beta-ketothiolase deficiency rests on a general anti-glutamatergic mechanism. There are no trials and no disease-specific publications. The literature largely restates the existing focal epilepsy indication, so it does not independently support a new use.
 
 **To proceed, the following is needed:**
 - Disease-specific evidence, such as case series, preclinical photosensitivity models, or a pilot study in visual or photosensitive epilepsy

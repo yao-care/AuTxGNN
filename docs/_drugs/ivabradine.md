@@ -4,17 +4,17 @@ title: Ivabradine
 parent: Model Prediction Only (L5)
 nav_order: 398
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Ivabradine: predicted new indication Hypertrichosis (evidence level L5). Approved use: Not stated in the Australian registration data compiled for this repo…"
 monitor_inn: "Ivabradine"
-predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "leprosy"]
+predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Ivabradine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ivabradine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ivabradine: From Heart Failure and Angina (Heart Rate Reduction) to Pulmonary Hypertension
+## Ivabradine: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ivabradine is a heart-rate-lowering medicine that inhibits the If (HCN) channel in the sinoatrial node. The TxGNN model's top-ranked prediction is **hypertrichosis**, but this has no biological support. The best-supported candidate in the data compiled for this report is **pulmonary hypertension**, which has **no registered clinical trials** and about **20 publications**, mostly small studies, preclinical work and reviews.
+Ivabradine is a heart-rate-lowering medicine that inhibits the If (HCN) channel in the sinoatrial node. The TxGNN model's top-ranked prediction is **hypertrichosis**, but this has no biological support.
 
-Note: the top-ranked prediction (hypertrichosis, score 99.79%) has no trials, no literature and no plausible mechanism. This report therefore covers it in the overview and evaluates pulmonary hypertension (rank 7, score 98.50%) as the most credible candidate.
+Note: the top-ranked prediction (hypertrichosis, score 0.9979) has no trials, no literature and no plausible mechanism.
 
 ---
 
@@ -48,13 +48,13 @@ Note: the top-ranked prediction (hypertrichosis, score 99.79%) has no trials, no
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Australian registration data compiled for this report (ivabradine is known clinically for heart rate reduction in heart failure and angina) |
-| Predicted New Indication (rank 1) | Hypertrichosis (no supporting evidence) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication (rank 1) | Hypertrichosis (disease) |
 | Best-Supported Candidate | Pulmonary hypertension (rank 7) |
-| TxGNN Prediction Score | Hypertrichosis 99.79%; pulmonary hypertension 98.50% |
+| TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 for hypertrichosis; L3 for pulmonary hypertension |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold for hypertrichosis; Hold (research question) for pulmonary hypertension |
 
 ---
@@ -63,11 +63,10 @@ Note: the top-ranked prediction (hypertrichosis, score 99.79%) has no trials, no
 
 Detailed mechanism of action data is not available in the compiled data. From general pharmacology, ivabradine selectively inhibits the If current in sinoatrial pacemaker cells and lowers resting and exercise heart rate without reducing contractility.
 
-**Hypertrichosis (rank 1):** No plausible link exists. HCN channel inhibition has no known role in hair follicle growth, and the high score looks like a graph-based artefact. The same applies to the other top-ranked predictions: Ambras syndrome, dental and periodontal malformation syndromes, Dandy-Walker syndromes, hair shaft abnormalities, nephrogenic syndrome of inappropriate antidiuresis, familial trichomegaly and leprosy. None has trials or literature.
+**Hypertrichosis (rank 1):** No plausible link exists. HCN channel inhibition has no known role in hair follicle growth. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to the other top-ranked predictions: Ambras syndrome, dental and periodontal malformation syndromes, Dandy-Walker syndromes, hair shaft abnormalities and nephrogenic syndrome of inappropriate antidiuresis. None has trials or literature.
 
-**Pulmonary hypertension (rank 7):** Here a plausible mechanism exists. Heart rate reduction may improve right ventricular (RV) function, RV-pulmonary arterial coupling and biventricular interaction, and may reduce RV fibrosis. Rat models of pulmonary hypertension support this (PMID 29146614, 32915674). Small human studies in pulmonary arterial hypertension (PAH) and COPD-associated pulmonary hypertension report functional or RV improvements. A caution is that in RV failure, cardiac output can depend on heart rate, so bradycardia is a real concern.
+Heart rate reduction may improve right ventricular (RV) function, RV-pulmonary arterial coupling and biventricular interaction, and may reduce RV fibrosis. A caution is that in RV failure, cardiac output can depend on heart rate, so bradycardia is a real concern.
 
-A related candidate, kyphoscoliotic heart disease (rank 9), has only a distant, indirect rationale through the same RV pathway, with no direct evidence.
 
 ---
 
@@ -79,7 +78,6 @@ Currently no related clinical trials registered for the predicted indications.
 
 ## Literature Evidence
 
-Evidence for **pulmonary hypertension** (the only predicted indication with literature). No literature is available for the other nine predictions.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -111,7 +109,6 @@ The remaining retrieved papers are tangential (heart transplant, cirrhotic cardi
 - **Drug Interactions:** 100 interactions were recorded in total. Examples of those listed in the compiled data:
   - **Major:** aprepitant, clarithromycin, cobicistat, clotrimazole, cisapride, dolasetron, granisetron, levofloxacin, ondansetron, palonosetron, papaverine.
   - **Moderate:** famotidine, ranitidine, cimetidine, nizatidine, dexamethasone, miconazole, metreleptin, troglitazone.
-- **Disease-specific concern (pulmonary hypertension):** Bradycardia, and the dependence of cardiac output on heart rate in RV failure.
 
 Please refer to the TGA-approved Product Information (PI) for warnings and contraindications, as these were not available in the compiled data.
 
@@ -123,7 +120,7 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 
 **Rationale:**
 - The top-ranked predictions, including hypertrichosis, are computational artefacts with no mechanistic, clinical or literature support.
-- Pulmonary hypertension is a credible research question (L3) with a plausible mechanism and small human studies. However, no registered trials exist, the evidence is mostly non-randomised, and bradycardia risk in RV failure is a concern.
+- However, no registered trials exist, the evidence is mostly non-randomised, and bradycardia risk in RV failure is a concern.
 
 **To proceed, the following is needed:**
 - The TGA Product Information (approved indications, warnings, contraindications) and detailed mechanism of action data

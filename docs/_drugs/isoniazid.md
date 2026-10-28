@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Isoniazid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 393
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Isoniazid"
-predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "shigellosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "leprosy", "brachydactyly-syndactyly syndrome", "vestibular neuronitis", "motor nerve neuritis", "infectious otitis media", "brachial plexus neuritis"]
+predicted_indications: ["conjunctivitis"]
+description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Isoniazid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Isoniazid: From Pulmonary Tuberculosis to Conjunctivitis
+## Isoniazid: Conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary tuberculosis (the ARTG entry has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9936 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -116,10 +116,8 @@ The prediction rests on model output and sparse, mostly historical or adverse-ef
 
 **Other predicted indications (for context):**
 Several other predictions are also on Hold with a similar lack of supporting evidence.
-- **Rheumatoid arthritis:** isoniazid appears in the literature as TB prophylaxis, not as a treatment. A small 1988 study of rifampicin with or without isoniazid exists.
-- **Leprosy:** this has the most biological plausibility, with a 1952 historical report. However, *M. leprae* has a non-functional katG gene and isoniazid is not part of standard WHO multidrug therapy. It is flagged as a research question.
-- **Motor nerve neuritis:** the literature shows isoniazid causing neuropathy, which is a safety signal rather than a therapeutic one.
-- **Others** (shigellosis, colobomatous microphthalmia-rhizomelic dysplasia syndrome, brachydactyly-syndactyly syndrome, vestibular neuronitis, infectious otitis media, brachial plexus neuritis): no evidence and no plausible mechanism, so the scores are computational predictions only.
+- A small 1988 study of rifampicin with or without isoniazid exists.
+- However, *M. leprae* has a non-functional katG gene and isoniazid is not part of standard WHO multidrug therapy. It is flagged as a research question.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

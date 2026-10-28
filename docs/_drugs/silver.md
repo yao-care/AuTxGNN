@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Silver: From Wound Care Dressings to Paget Disease of Bone
+## Silver: From Wound Care Dressings to bone Paget disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ Silver is the active antimicrobial component in several silver-impregnated wound
 |------|------|
 | Original Indication | Not recorded in the data compiled for this report (marketed as silver-containing wound dressings) |
 | Predicted New Indication | Bone Paget disease |
-| TxGNN Prediction Score | 99.67% |
+| TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 4 |
+| Australia Market Status | Marketed (valid licences: 4 of 4) |
+| Number of ARTG Entries | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,7 +60,7 @@ Silver is the active antimicrobial component in several silver-impregnated wound
 
 Currently, detailed mechanism of action data is not available. Silver is used in Australia as a component of topical wound dressings, but no approved indication text is recorded for these products in the data compiled for this report.
 
-No credible mechanistic link between silver and Paget disease of bone was identified. The high TxGNN score is a graph-based prediction only. It most likely reflects co-occurrence of "silver" with Paget disease literature through histological staining methods (for example, silver staining of nucleolar organizer regions in osteoclasts). This is a methodological artefact rather than a therapeutic signal.
+No credible mechanistic link between silver and Paget disease of bone was identified. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It most likely reflects co-occurrence of "silver" with Paget disease literature through histological staining methods (for example, silver staining of nucleolar organizer regions in osteoclasts). This is a methodological artefact rather than a therapeutic signal.
 
 There is also no pharmacological basis to infer an osteoclast-modulating effect of silver. In addition, silver dressings are applied to the skin surface, whereas Paget disease of bone is a systemic skeletal disorder. Route compatibility has not been established.
 

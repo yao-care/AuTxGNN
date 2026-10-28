@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trastuzumab
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 748
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Trastuzumab: predicted new indication Normal breast-like subtype of breast carcinoma (evidence level L4). Approved use: HER2-positive breast carcinoma"
 monitor_inn: "Trastuzumab"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
+description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Trastuzumab: From HER2-Positive Breast Carcinoma to Normal Breast-Like Subtype of Breast Carcinoma
+## Trastuzumab: Malignant cutaneous granular cell skin tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Trastuzumab is a HER2-targeted monoclonal antibody, originally used to treat HER2-positive breast carcinoma.
-The TxGNN model predicts it may be effective for the **normal breast-like subtype of breast carcinoma**, but the supporting evidence is very thin: **1 clinical trial** (not yet recruiting, and testing a different molecule) and **1 publication** (a morphology study with no treatment data).
 The model's other predictions for related breast cancer subtypes (progesterone-receptor positive and negative disease) have far stronger support and are summarised below for context.
 
 ---
@@ -48,12 +47,12 @@ The model's other predictions for related breast cancer subtypes (progesterone-r
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2-positive breast carcinoma (the ARTG entry in the data compiled for this report has no indication text) |
-| Predicted New Indication | Normal breast-like subtype of breast carcinoma |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant cutaneous granular cell skin tumor |
+| TxGNN Prediction Score | 0.9948 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +61,6 @@ The model's other predictions for related breast cancer subtypes (progesterone-r
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, trastuzumab binds the extracellular domain of HER2, inhibiting HER2 signalling and mediating antibody-dependent cellular cytotoxicity (ADCC). Its efficacy in HER2-positive breast cancer is well established.
 
-The normal breast-like subtype is an intrinsic breast cancer subtype that is typically HER2-negative, with variable hormone receptor status. The direct mechanistic link to trastuzumab is therefore weak. The high TxGNN score appears to reflect a graph-based association with breast carcinoma in general rather than subtype-specific support. The prediction should be treated as a hypothesis only.
 
 ---
 
@@ -126,10 +124,7 @@ The normal breast-like subtype is typically HER2-negative, and the only linked t
 - Package insert warnings and contraindications for the Australian product, and the approved indication text for ARTG 10383L
 
 **Context from other predictions:**
-- **Progesterone-receptor positive breast cancer** (score 99.90%, L1, Proceed with Guardrails): supported by the completed Phase 3 adjuvant trial NCT01275677 (n=3270). This is largely a subpopulation of the already approved HER2-positive indication. Guardrails: confirm HER2 status and monitor LVEF.
-- **Progesterone-receptor negative breast cancer** (score 99.90%, L1, Proceed with Guardrails): supported by NCT01275677 and the Phase 3 study NCT05985187 (status unknown). Use is limited to HER2-positive disease, and it should not be extrapolated to triple-negative or HER2-zero disease.
-- **Luminal A or B breast tumour** (score 99.90%, L2, Proceed with Guardrails): literature support only, including the NeoSphere trial and the adjuvant trastuzumab trial. Use is limited to HER2-positive luminal B disease.
-- **Rarer tumours** (for example ectomesenchymoma and HHV-8-related tumours, scores of about 99%, L5, Hold): prediction only, with no trials or literature.
+- **Rarer tumours** (for example ectomesenchymoma, score 0.9948, and HHV-8-related tumours, score 0.9946, L5, Hold): prediction only, with no trials or literature.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

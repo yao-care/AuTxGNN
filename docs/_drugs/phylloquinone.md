@@ -4,17 +4,17 @@ title: Phylloquinone
 parent: Model Prediction Only (L5)
 nav_order: 573
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Phylloquinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Osteoporosis, postmenopausal osteoporosis, hypercalcaemia…"
 monitor_inn: "Phylloquinone"
-predicted_indications: ["renal tubular acidosis", "hypophosphatemic rickets", "Pendred syndrome", "autosomal recessive nonsyndromic deafness", "NAD(P)HX dehydratase deficiency", "leukocyte adhesion deficiency", "hypermanganesemia with dystonia", "Fraser syndrome", "temtamy preaxial brachydactyly syndrome", "human HOXA1 syndromes"]
+predicted_indications: ["renal tubular acidosis", "hypophosphatemic rickets", "Pendred syndrome", "autosomal recessive nonsyndromic deafness", "NAD(P)HX dehydratase deficiency", "leukocyte adhesion deficiency", "hypermanganesemia with dystonia", "Fraser syndrome", "temtamy preaxial brachydactyly syndrome"]
+description: "Phylloquinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phylloquinone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phylloquinone: From Osteoporosis to Renal Tubular Acidosis
+## Phylloquinone: Renal tubular acidosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Osteoporosis, postmenopausal osteoporosis, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, congenital prothrombin deficiency (from the knowledge graph; no approved indication text is available for the Australian listing) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,7 +90,7 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (Evidence Level L5). There are no registered trials or publications, and there is no established mechanism by which vitamin K1 would correct the tubular transport defect in renal tubular acidosis. Several kidney- and calcium-related disease associations in the knowledge graph also call for caution.
+The prediction is supported only by the TxGNN model (deep learning) score (Evidence Level L5). There are no registered trials or publications, and there is no established mechanism by which vitamin K1 would correct the tubular transport defect in renal tubular acidosis. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it calls for caution.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a clear mechanistic rationale linking vitamin K-dependent proteins to renal tubular acidosis

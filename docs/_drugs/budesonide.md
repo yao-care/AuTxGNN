@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Budesonide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 114
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Budesonide: predicted new indication Atopic eczema (evidence level L4). Approved use: Crohn's disease, inflammatory bowel disease, Crohn's colitis, asthma…"
@@ -14,7 +14,7 @@ predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "po
 # Budesonide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **atopic eczema** (top-ranked p
 |------|------|
 | Original Indication | Crohn's disease, inflammatory bowel disease, Crohn's colitis, asthma, allergic rhinitis (the approved indication text for the Australian listing is not available) |
 | Predicted New Indication | Atopic eczema |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Topical corticosteroids are already standard care for eczema, so the biological rationale is plausible. However, the prediction is not specific to budesonide. No budesonide-specific clinical trials are registered for this indication. The only budesonide-specific therapeutic item is a preclinical formulation study of budesonide-loaded nanoparticle hydrogels for atopic dermatitis. Other retrieved literature concerns eosinophilic esophagitis, corticosteroid allergy and contact dermatitis, which are indirect or tangential.
 
-Note that the prediction list also includes "dermatitis, atopic" (a synonymous entry, score 99.81%) and several other conditions, including bronchitis (99.81%, evidence level L2) and various polyp-type conditions (mostly L4-L5, no meaningful evidence). The bronchitis entry has the strongest clinical trial support of the predictions, but it is not the top-ranked prediction.
+Note that the prediction list also includes "dermatitis, atopic" (a synonymous entry, score 0.9981) and several other conditions, including bronchitis (0.9981, evidence level L2) and various polyp-type conditions (mostly L4-L5, no meaningful evidence). The bronchitis entry has the strongest clinical trial support of the predictions, but it is not the top-ranked prediction.
 
 ## Clinical Trial Evidence
 

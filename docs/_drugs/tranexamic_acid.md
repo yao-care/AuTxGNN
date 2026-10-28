@@ -4,17 +4,17 @@ title: Tranexamic Acid
 parent: Model Prediction Only (L5)
 nav_order: 746
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Tranexamic Acid: predicted new indication Amenorrhoea (evidence level L5). Approved use: Endometriosis . The Australian ARTG entry has no approved indication…"
 monitor_inn: "Tranexamic acid"
-predicted_indications: ["amenorrhea (disease)", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "hypospadias 3, autosomal", "sella turcica, bridged", "triphalangeal thumb, Nonopposable", "hypercarotenemia and vitamin A deficiency, autosomal recessive", "hyperparathyroidism, primary, caused by water clear cell hyperplasia", "glaucoma with elevated episcleral venous pressure"]
+predicted_indications: ["amenorrhea (disease)"]
+description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tranexamic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tranexamic Acid: From Endometriosis to Amenorrhoea
+## Tranexamic Acid: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Tranexamic acid is an antifibrinolytic agent. The knowledge graph records its original indication as endometriosis, although it is best known clinically for bleeding control, including heavy menstrual bleeding.
+Tranexamic acid is an antifibrinolytic agent. Its original indication is recorded as endometriosis, although it is best known clinically for bleeding control, including heavy menstrual bleeding.
 The TxGNN model predicts it may be effective for **amenorrhoea**, but only **2 review articles** and **no clinical trials** are available, and neither article supports it as a treatment for amenorrhoea.
 The prediction should be treated as a research question, not a therapeutic lead.
 
@@ -48,12 +48,12 @@ The prediction should be treated as a research question, not a therapeutic lead.
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis (per the knowledge graph). The Australian ARTG entry has no approved indication text recorded in the data compiled for this report. |
-| Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.19% |
-| Evidence Level | L4 (review literature only, no trials; the mechanistic link is indirect) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9919 |
+| Evidence Level | L5 (review literature only, no trials; the mechanistic link is indirect) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,8 @@ The prediction should be treated as a research question, not a therapeutic lead.
 
 Detailed mechanism of action data is not available in the data compiled for this report. Tranexamic acid is generally understood to be a lysine analogue that blocks plasminogen binding to fibrin, which reduces fibrinolysis and bleeding.
 
-The relationship between the original and predicted indications is weak. Tranexamic acid reduces menstrual blood loss but does not induce amenorrhoea (absence of menses). Both retrieved papers discuss it within bleeding-management strategies, not as a treatment for amenorrhoea itself. The high TxGNN score most likely reflects shared gynaecological bleeding-disorder context in the knowledge graph rather than a true therapeutic signal. Treating absent menses with an agent that reduces bleeding is mechanistically questionable.
+The relationship between the original and predicted indications is weak. Tranexamic acid reduces menstrual blood loss but does not induce amenorrhoea (absence of menses). Both retrieved papers discuss it within bleeding-management strategies, not as a treatment for amenorrhoea itself. The high TxGNN score (0.9919) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Treating absent menses with an agent that reduces bleeding is mechanistically questionable.
 
-Other predictions in the list are also poorly supported. The thrombophilia-related predictions (heparin cofactor 2 deficiency, factor 5 excess with spontaneous thrombosis, antithrombin deficiency type 2) are mechanistically implausible and raise safety concerns. An antifibrinolytic would be expected to increase, not reduce, thrombotic risk. The remaining lower-scoring predictions (scores of about 0.67–0.68, e.g. hypospadias, glaucoma with elevated episcleral venous pressure) have no plausible mechanistic link and no supporting evidence.
 
 ---
 
@@ -118,7 +117,7 @@ The TxGNN score is high, but there are no clinical trials, only two reviews that
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data
-- A clear clinical rationale for how an antifibrinolytic could benefit amenorrhoea, or a reassessment of whether the prediction reflects a graph artefact
+- A clear clinical rationale for how an antifibrinolytic could benefit amenorrhoea, or a reassessment of whether the prediction reflects similarities the TxGNN model (deep learning) learned between related diseases rather than biological evidence
 - The TGA Product Information, to confirm approved indications, warnings and contraindications
 - Mechanistic and clinical evidence (preclinical or clinical studies) before any further evaluation
 - A thrombosis risk assessment, particularly for patients using hormonal therapy

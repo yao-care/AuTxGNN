@@ -4,7 +4,7 @@ title: Enfortumab Vedotin
 parent: Model Prediction Only (L5)
 nav_order: 251
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Enfortumab Vedotin: predicted new indication Leprosy (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Enfortumab vedotin"
@@ -14,7 +14,7 @@ predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovi
 # Enfortumab Vedotin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Enfortumab vedotin (Padcev) is a Nectin-4-directed antibody-drug conjugate (ADC)
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Leprosy (rank 1); most evidence-supported alternative: HER2-positive breast carcinoma (rank 10) |
-| TxGNN Prediction Score | 99.53% (leprosy); 98.99% (HER2-positive breast carcinoma) |
+| TxGNN Prediction Score | 0.9953 (leprosy) |
 | Evidence Level | L5 (leprosy); L3 (HER2-positive breast carcinoma) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (leprosy); the HER2-positive breast carcinoma question is a research question only |
 
 ---
@@ -60,7 +60,7 @@ Enfortumab vedotin (Padcev) is a Nectin-4-directed antibody-drug conjugate (ADC)
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, enfortumab vedotin is an antibody-drug conjugate that targets Nectin-4, a cell-surface protein, and delivers the cytotoxic payload MMAE to cells expressing it. The literature compiled here describes its use in metastatic urothelial carcinoma, including in combination with pembrolizumab.
 
-**Leprosy (rank 1):** No reasonable mechanistic link was identified. Leprosy is a bacterial infection, and a cytotoxic ADC directed at a tumour antigen is not a plausible treatment. The high score (99.53%) appears to be a graph-based artefact. Several other top-ranked predictions, such as cerebral infarction, homozygous familial hypercholesterolemia, HIV infection, and two veterinary herpesvirus diseases (malignant catarrhal fever and infectious bovine rhinotracheitis), show the same lack of plausibility. The two veterinary diseases share an identical score, which suggests an ontology-mapping artefact.
+**Leprosy (rank 1):** No reasonable mechanistic link was identified. Leprosy is a bacterial infection, and a cytotoxic ADC directed at a tumour antigen is not a plausible treatment. The high score (0.9953) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Several other top-ranked predictions, such as cerebral infarction, homozygous familial hypercholesterolemia, HIV infection, and two veterinary herpesvirus diseases (malignant catarrhal fever and infectious bovine rhinotracheitis), show the same lack of plausibility. The two veterinary diseases share an identical score, which suggests an ontology-mapping artefact.
 
 **Infection-related predictions with literature (CMV and candidiasis):** The only publications attached to these are a case report of severe ulcerative oesophagitis after enfortumab vedotin plus pembrolizumab, and a pharmacovigilance (FAERS) study of ADC risk signals in bladder cancer. Both describe adverse events, not therapeutic benefit. They are safety signals, not efficacy evidence.
 

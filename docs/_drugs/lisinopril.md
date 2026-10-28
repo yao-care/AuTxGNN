@@ -4,17 +4,17 @@ title: Lisinopril
 parent: Model Prediction Only (L5)
 nav_order: 432
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Lisinopril: predicted new indication Posterolateral myocardial infarction (evidence level L5). Approved use: Hypertension and myocardial infarction"
 monitor_inn: "Lisinopril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
+description: "Lisinopril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lisinopril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,35 +33,34 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lisinopril: From Hypertension and Myocardial Infarction to Posterolateral Myocardial Infarction
+## Lisinopril: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Lisinopril is an ACE inhibitor originally used for hypertension and myocardial infarction.
-The TxGNN model predicts it may be effective for **posterolateral myocardial infarction**, an anatomical subtype of an already-approved indication.
+The TxGNN model predicts it may be effective for **pulmonary hypertension owing to lung disease and/or hypoxia**.
 There are currently **no clinical trials** and **no publications** supporting this specific subtype, so the prediction rests on model output and mechanistic reasoning alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension and myocardial infarction (per the knowledge graph; the ARTG entry has no indication text) |
-| Predicted New Indication | Posterolateral myocardial infarction |
-| TxGNN Prediction Score | 99.90% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Lisinopril belongs to the ACE inhibitor class. These drugs reduce angiotensin II formation, lower afterload and limit adverse ventricular remodelling after a heart attack.
 
-Lisinopril is already used for myocardial infarction. Posterolateral myocardial infarction is a subtype defined by infarct location. This is therefore an extension within an existing indication rather than true repurposing. ACE inhibition is expected to reduce remodelling regardless of where the infarct sits. The very high TxGNN score probably reflects how closely the disease terms are related in the knowledge graph, not new clinical evidence.
+The very high TxGNN score (0.9989) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The same pattern appears in the other top predictions:
-- **Posteroinferior and septal myocardial infarction** are also MI subtypes. The posteroinferior prediction has an identical score to posterolateral MI, which suggests an ontology-driven result.
 - **Malignant hypertensive renal disease and malignant renovascular hypertension** are extensions of the hypertension indication. ACE inhibitors can worsen renal function in bilateral renal artery stenosis or stenosis in a solitary kidney.
 - **Pulmonary hypertension** and **chronic pulmonary heart disease** are mechanistically plausible but not guideline-supported. The evidence is mostly preclinical, apart from two small Russian-language clinical studies on chronic cor pulmonale (PMIDs 14524095 and 17047621) of uncertain design.
 - **Braddock syndrome** and a rare COL4A1-related syndrome have no supporting evidence and no clear mechanistic link.

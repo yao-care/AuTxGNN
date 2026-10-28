@@ -3,18 +3,18 @@ layout: default
 title: Abatacept
 parent: Moderate Evidence (L3-L4)
 nav_order: 12
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Abatacept: predicted new indication Rheumatoid vasculitis (evidence level L4). Approved use: Rheumatoid arthritis, juvenile idiopathic arthritis…"
+evidence_level: L3
+indication_count: 7
 monitor_inn: "Abatacept"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "spondyloarthropathy, susceptibility to", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+last_modified_at: 2026-10-27
+description: "Abatacept: predicted new indication ankylosing spondylitis (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Abatacept
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,83 +33,78 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Abatacept: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+## Abatacept: selective T-cell co-stimulation modulator → ankylosing spondylitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Abatacept is a T-cell co-stimulation blocker originally used to treat rheumatoid arthritis, juvenile idiopathic arthritis and spondyloarthropathy.
-The TxGNN model predicts it may be effective for **rheumatoid vasculitis**, but the supporting evidence is limited to **1 unrelated clinical trial** and **case reports with conflicting results**, so this prediction is best regarded as a hypothesis only.
+Abatacept is a CTLA4-Ig fusion protein that blocks T-cell co-stimulation (CD28–CD80/86), and it is marketed in Australia as an injectable biologic.
+The TxGNN model predicts it may be effective for **ankylosing spondylitis**.
+Support is limited: **1 disease-specific Phase 2 open-label pilot trial** and **1 open-label pilot publication**, alongside reviews noting that T-cell-targeted biologics have not been effective in this disease.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, juvenile idiopathic arthritis, spondyloarthropathy (the ARTG entry lists no indication text) |
-| Predicted New Indication | Rheumatoid vasculitis |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | ankylosing spondylitis |
+| TxGNN Prediction Score | 0.9991 |
+| Evidence Level | L3 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, abatacept is a CTLA4-Ig fusion protein that blocks CD28-mediated T-cell co-stimulation. Its efficacy in rheumatoid arthritis is established, and mechanistically it may be applicable to T-cell-driven vascular inflammation in rheumatoid disease.
+Abatacept blocks the CD28–CD80/86 co-stimulation pathway, reducing T-cell activation. T-cell-driven inflammation is implicated in spondyloarthritis, so the mechanism is plausible in principle. Detailed mechanism-of-action data were not available in the data compiled for this report, so this reasoning relies on the known class biology of CTLA4-Ig.
 
-Rheumatoid vasculitis is a serious extra-articular complication of rheumatoid arthritis, so the biological link to the original indication is plausible. However, the direct evidence is inconsistent. One case report describes a good response to abatacept, while another describes new-onset rheumatoid vasculitis during abatacept therapy that improved after rituximab. This conflicting signal is the main reason for caution.
-
-Other predictions in the ranked list (for example inflammatory spondylopathy and polyarticular juvenile rheumatoid arthritis) have stronger evidence, but they largely overlap with existing uses. Several lower-ranked predictions (coccyx hypermobility, Kummell disease, brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome) have no plausible immune mechanism and appear to be artefacts of the knowledge graph.
+There are important caveats. In ankylosing spondylitis, the TNF and IL-17 pathways are the dominant therapeutic targets. One review in the data (Sieper, 2016) states that non-TNF biologics targeting IL-1, IL-6 and T cells (abatacept) are not effective in axial spondyloarthritis. Another describes abatacept as an option "beyond TNF blockade" rather than a proven treatment. The prediction is therefore mechanistically plausible but contested by the available clinical commentary.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients having shoulder arthroplasty. It does not assess efficacy in rheumatoid vasculitis. |
-
-No trial directly tests abatacept in rheumatoid vasculitis.
+| [NCT00558506](https://clinicaltrials.gov/study/NCT00558506) | Phase 2 | Unknown | 30 | Open-label, single-arm pilot of intravenous abatacept in ankylosing spondylitis, up to week 30. No control arm; preliminary signal only. |
+| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | N/A | Recruiting | 10000 | Korean registry of biologics and targeted DMARDs in RA, AS and PsA. Observational, real-world safety context only. |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients having shoulder arthroplasty. Does not test abatacept efficacy in AS. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29930884](https://pubmed.ncbi.nlm.nih.gov/29930884/) | 2018 | Case report | Cureus | Abatacept used for rheumatoid vasculitis in a patient with RA and common variable immunodeficiency, where rituximab was less suitable |
-| [22124545](https://pubmed.ncbi.nlm.nih.gov/22124545/) | 2012 | Case report | Modern Rheumatology | Rapid improvement with abatacept in refractory rheumatoid vasculitis after methotrexate, TNF inhibitors and other measures |
-| [27052429](https://pubmed.ncbi.nlm.nih.gov/27052429/) | 2016 | Case report | Joint Bone Spine | New-onset rheumatoid vasculitis during abatacept therapy, improved after rituximab |
-| [30119075](https://pubmed.ncbi.nlm.nih.gov/30119075/) | 2018 | Case report | Ophthalmic Plastic and Reconstructive Surgery | Orbital vasculitis in a patient with RA taking abatacept, progressing despite cyclophosphamide |
-| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Case report | Internal Medicine | ANCA-associated nephritis arising during abatacept and adalimumab therapy, attenuated by tocilizumab |
-| [24854356](https://pubmed.ncbi.nlm.nih.gov/24854356/) | 2014 | Cohort | Annals of the Rheumatic Diseases | Routine ANA testing and biological DMARD-induced lupus and vasculitis in RA |
-| [24840285](https://pubmed.ncbi.nlm.nih.gov/24840285/) | 2014 | Systematic review | Autoimmunity Reviews | Biologics-induced autoimmune renal disorders in rheumatic diseases |
-| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Review | Journal of Clinical Medicine | Treatment of RA-associated episcleritis and scleritis |
-| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Review | BMC Medicine | Update on biologic therapy for autoimmune diseases |
+| [21415053](https://pubmed.ncbi.nlm.nih.gov/21415053/) | 2011 | Open-label pilot study | Ann Rheum Dis | 24-week pilot exploring short-term efficacy and safety of abatacept in active ankylosing spondylitis. |
+| [27856659](https://pubmed.ncbi.nlm.nih.gov/27856659/) | 2016 | Review | Rheumatology (Oxford) | TNF blockers are highly effective in axial SpA; non-TNF biologics including abatacept are described as not effective. |
+| [25488787](https://pubmed.ncbi.nlm.nih.gov/25488787/) | 2014 | Review | Best Pract Res Clin Rheumatol | Treatment of spondyloarthritis beyond TNF-alpha blockade. |
+| [31171316](https://pubmed.ncbi.nlm.nih.gov/31171316/) | 2018 | Review | Best Pract Res Clin Rheumatol | Emerging options in spondyloarthritis, including IL-17A inhibition for patients not responding to NSAIDs. |
+| [21624184](https://pubmed.ncbi.nlm.nih.gov/21624184/) | 2011 | Review | Arthritis Res Ther | New targeted therapeutics across RA, AS and PsA. |
+| [18251219](https://pubmed.ncbi.nlm.nih.gov/18251219/) | 2008 | Review | Rev Med Suisse | Highlights in rheumatology 2007, including abatacept's mode of action. |
+| [29278210](https://pubmed.ncbi.nlm.nih.gov/29278210/) | 2017 | Review | Curr Pharm Biotechnol | Biologics in inflammatory arthritis, including spondyloarthritis. |
+| [31852268](https://pubmed.ncbi.nlm.nih.gov/31852268/) | 2020 | Review | Expert Rev Clin Immunol | Infection risk with biologic versus non-biologic therapy in inflammatory arthritis. |
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 11684Y | Orencia ClickJect | Injection 125 mg in 1 mL single dose autoinjector | Not listed in the data compiled for this report |
+| ARTG 11684Y | Orencia ClickJect | Injection 125 mg in 1 mL single dose autoinjector | Not recorded in the local data |
 
 ## Safety Considerations
 
-- **Drug Interactions:** 73 interactions were identified. The main ones are:
-  - **Major:** adalimumab, baricitinib, certolizumab pegol, and BCG live vaccine
-  - **Moderate:** roflumilast, alefacept, alemtuzumab, anakinra, azathioprine, canakinumab, and several live vaccines (adenovirus type 4, anthrax, cholera, *Candida albicans*)
-  - **Minor:** zinc salts (acetate, gluconate, sulfate, chloride)
+- **Drug Interactions**: 73 interactions were recorded. Major-level interactions include adalimumab, baricitinib, certolizumab pegol and live BCG vaccine. Moderate-level interactions include other immunosuppressive or biologic agents (e.g. anakinra, alemtuzumab, azathioprine, canakinumab) and several live or attenuated vaccines. Minor-level interactions include zinc salts.
 
-For warnings and contraindications, please refer to the TGA-approved Product Information (PI).
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence consists only of a few conflicting case reports and one unrelated trial, with no controlled data in rheumatoid vasculitis. Rituximab remains the recommended treatment in the literature retrieved, and abatacept is not shown to be better.
+The only disease-specific data are two small, uncontrolled pilot studies, and published reviews describe abatacept as not effective in axial spondyloarthritis. The high TxGNN score alone does not outweigh this.
 
 **To proceed, the following is needed:**
-- Controlled or at least larger observational data on abatacept in rheumatoid vasculitis
-- Mechanism of action data and a clearer analysis of the conflicting case reports
-- The approved indication text and safety information (warnings, contraindications) from the TGA Product Information
-- Comparison against current standard treatment such as rituximab
+- Results of the open-label pilot trials (NCT00558506 has unknown status) and any controlled data in ankylosing spondylitis
+- Detailed mechanism-of-action data
+- Review of the TGA Product Information for warnings and contraindications
+- A concurrent-biologic safety plan, given the major interactions with TNF inhibitors and JAK inhibitors
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

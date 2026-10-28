@@ -6,9 +6,9 @@ nav_order: 313
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Fluvoxamine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Social phobia, phobic disorder, obsessive-compulsive disorder"
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
+description: "Fluvoxamine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluvoxamine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fluvoxamine: From Obsessive-Compulsive Disorder and Social Phobia to Paranoid Personality Disorder
+## Fluvoxamine: Paranoid personality disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,28 +46,28 @@ Better-supported predictions in the same report are **agoraphobia** (L1), **anxi
 
 | Item | Content |
 |------|------|
-| Original Indication | Social phobia, phobic disorder, obsessive-compulsive disorder (per the knowledge graph; the ARTG indication text is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Paranoid personality disorder |
-| TxGNN Prediction Score | 99.997% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Other predictions evaluated**
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision |
 |------|------|------|------|------|
-| 1 | Paranoid personality disorder | 99.997% | L5 | Hold |
-| 2 | Schizotypal personality disorder | 99.997% | L4 | Hold |
-| 3 | Schizoid personality disorder | 99.997% | L5 | Hold |
-| 4 | Histrionic personality disorder | 99.997% | L5 | Hold |
-| 5 | Anxiety disorder | 99.974% | L1 | Proceed with Guardrails |
-| 6 | Agoraphobia | 99.966% | L1 | Proceed with Guardrails |
-| 7 | Benign paroxysmal torticollis of infancy | 99.963% | L5 | Hold |
-| 8 | Dependent personality disorder | 99.900% | L4 | Hold |
-| 9 | Narcissistic personality disorder | 99.894% | L5 | Hold |
-| 10 | Endogenous depression | 99.852% | L2 | Proceed with Guardrails |
+| 1 | Paranoid personality disorder | 1.0000 | L5 | Hold |
+| 2 | Schizotypal personality disorder | 1.0000 | L5 | Hold |
+| 3 | Schizoid personality disorder | 1.0000 | L5 | Hold |
+| 4 | Histrionic personality disorder | 1.0000 | L5 | Hold |
+| 5 | Anxiety disorder | 0.9997 | L1 | Proceed with Guardrails |
+| 6 | Agoraphobia | 0.9997 | L1 | Proceed with Guardrails |
+| 7 | Benign paroxysmal torticollis of infancy | 0.9997 | L5 | Hold |
+| 8 | Dependent personality disorder | 0.9990 | L5 | Hold |
+| 9 | Narcissistic personality disorder | 0.9989 | L5 | Hold |
+| 10 | Endogenous depression | 0.9985 | L2 | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
@@ -149,7 +149,7 @@ Literature for schizoid and narcissistic personality disorders is limited to the
 
 ## Safety Considerations
 
-**Contraindications / conditions of concern (knowledge-graph associations, not label text):** epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disorders, neuroleptic malignant syndrome, syndrome of inappropriate ADH secretion (including the nephrogenic form), and serotonin syndrome.
+**Contraindications / conditions of concern (not label text):** epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disorders, neuroleptic malignant syndrome, syndrome of inappropriate ADH secretion (including the nephrogenic form), and serotonin syndrome.
 
 **Drug Interactions:** 100 interactions were identified. Examples include:
 - **Major:** alosetron, bupropion, diethylpropion, dolasetron

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epinephrine
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 258
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Anaphylaxis, asthma, bronchitis, bronchiectasis, pulmonary emphysema…"
 monitor_inn: "Epinephrine"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation", "dry eye syndrome", "pseudoallergy", "laryngotracheitis", "headache disorder", "anorectal stricture", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
+description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Epinephrine: From Anaphylaxis and Asthma to Obstructive Lung Disease
+## Epinephrine: Obstructive lung disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Much of this is an on-label or near-label extension rather than true repurposing
 
 | Item | Content |
 |------|------|
-| Original Indication | Anaphylaxis, asthma, bronchitis, bronchiectasis, pulmonary emphysema, hypotensive disorder, open-angle glaucoma (from the knowledge graph; the ARTG entry has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

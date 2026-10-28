@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Zuclopenthixol: From Schizophrenia to Retinal Dystrophy
+## Zuclopenthixol: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,17 +48,17 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Schizophrenia |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, zuclopenthixol is a thioxanthene antipsychotic that antagonises dopamine D1/D2 receptors, with additional alpha-1 adrenergic and 5-HT2 receptor affinity. Its efficacy in schizophrenia is established.
 
-No clear mechanistic link to the predicted indication has been identified. Retinal dystrophies are mostly monogenic disorders of photoreceptor or retinal pigment epithelium structure and function, and none of zuclopenthixol's receptor activities addresses that pathology. The high TxGNN score reflects a knowledge-graph prediction and should not be read as biological or clinical support.
+No clear mechanistic link to the predicted indication has been identified. Retinal dystrophies are mostly monogenic disorders of photoreceptor or retinal pigment epithelium structure and function, and none of zuclopenthixol's receptor activities addresses that pathology. The high TxGNN score reflects a TxGNN model (deep learning) prediction and should not be read as biological or clinical support.
 
 Other high-ranking predictions were also reviewed (hydranencephaly, congenital disorder of glycosylation with defective fucosylation, Charcot-Marie-Tooth disease type 1G, several myopia entities, perisylvian polymicrogyria and atypical glycine encephalopathy). All are at evidence level L5 with no plausible mechanistic link and no trials or literature. The myopia entities have a speculative connection through retinal dopamine signalling, but dopamine antagonism would be expected to be unhelpful or counterproductive.
 
@@ -87,7 +87,7 @@ Some general points from the prediction review are worth noting. Zuclopenthixol'
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score, with no clinical trials, no literature and no plausible mechanistic link between dopamine/adrenergic/5-HT2 antagonism and retinal dystrophy pathology. A systemic antipsychotic is not justified for a largely monogenic retinal disorder without supporting evidence.
+The prediction rests only on a TxGNN model (deep learning) score, with no clinical trials, no literature and no plausible mechanistic link between dopamine/adrenergic/5-HT2 antagonism and retinal dystrophy pathology. A systemic antipsychotic is not justified for a largely monogenic retinal disorder without supporting evidence.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible mechanistic rationale for retinal dystrophy

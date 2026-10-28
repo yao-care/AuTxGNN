@@ -4,17 +4,17 @@ title: Hydroxyurea
 parent: Model Prediction Only (L5)
 nav_order: 358
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Melanoma, sickle cell anaemia…"
 monitor_inn: "Hydroxyurea"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
+description: "Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Hydroxyurea
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Hydroxyurea: From Melanoma and Sickle Cell Anaemia to Female Breast Carcinoma
+## Hydroxyurea: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Hydroxyurea is a ribonucleotide reductase inhibitor, originally used for melanoma, sickle cell anaemia and ovarian cancer.
-The TxGNN model predicts it may be effective for **female breast carcinoma** (score 99.97%), but **no clinical trials** are registered for this indication and the **20 publications** retrieved are almost entirely preclinical, in-silico or off-topic.
+The TxGNN model predicts it may be effective for **female breast carcinoma** (score 0.9997), but **no clinical trials** are registered for this indication and the **20 publications** retrieved are almost entirely preclinical, in-silico or off-topic.
 The prediction is therefore best viewed as a hypothesis.
 
 *Note: The ranked predictions also include sickle cell-haemoglobin C disease, which has markedly stronger evidence (a Phase 2 trial and a 2025 clinical publication). It is summarised under "Other Predicted Indications" below.*
@@ -50,12 +50,12 @@ The prediction is therefore best viewed as a hypothesis.
 
 | Item | Content |
 |------|------|
-| Original Indication | Melanoma, sickle cell anaemia, hereditary persistence of fetal haemoglobin, ovarian cancer (several subtypes). The ARTG entry lists no approved indication text. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 (preclinical and mechanistic studies only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 (preclinical and mechanistic studies only) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -110,7 +110,6 @@ The only registered Australian product is a **topical** hydroxyurea 1% cream. No
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (antimetabolite; ribonucleotide reductase inhibitor) |
-| Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions. The knowledge graph links hydroxyurea to leukopenia, thrombocytopenia and anaemia. |
 | Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
 | Monitoring Items | Full blood count (with differential), renal function and liver function |
 | Handling Protection | Follow local cytotoxic drug handling requirements |
@@ -119,7 +118,7 @@ The only registered Australian product is a **topical** hydroxyurea 1% cream. No
 
 ## Safety Considerations
 
-- **Contraindications (knowledge graph associations, not label text):** kidney disease, pyoureter, thrombocytopenia, anaemia, macrocytic anaemia, leukopenia and cutaneous vasculitis.
+- **Contraindications (TxGNN model (deep learning) output, not label text; may reflect similarities the model learned between related diseases, not biological evidence):** kidney disease, pyoureter, thrombocytopenia, anaemia, macrocytic anaemia, leukopenia and cutaneous vasculitis.
 - **Drug Interactions:** 100 interactions were identified. Only the severity of levofloxacin (Minor) is classified; the others (for example doxycycline, amphotericin B, hydrocortisone, famotidine, acetylsalicylic acid, pantoprazole, morphine, metformin, omeprazole, vancomycin, prednisone and simvastatin) have no assigned severity level in the source. Review the full interaction list before use.
 
 Please refer to the TGA-approved Product Information (PI) for formal warnings and contraindications.
@@ -130,10 +129,10 @@ Please refer to the TGA-approved Product Information (PI) for formal warnings an
 
 | Rank | Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Sickle cell-haemoglobin C disease | 99.67% | L2 | Phase 2 trial [NCT00532883](https://clinicaltrials.gov/study/NCT00532883) (n=44, terminated) plus a 2025 NEJM Evidence publication ([39647172](https://pubmed.ncbi.nlm.nih.gov/39647172/)) and cohort studies. No Phase 3 trial is evident. Research question. |
-| 3–5 | Sickle cell-HbE, sickle cell-HbD, HPFH-sickle cell | 99.67% | L4 | Only indirect or irrelevant literature. Hold. |
-| 6 | Sickle cell-beta-thalassaemia | 99.67% | L3 | Small 1999 clinical trial ([10326220](https://pubmed.ncbi.nlm.nih.gov/10326220/)); the listed trials are transplant studies, not hydroxyurea trials. Research question. |
-| 7–10 | Cervical adenosarcoma; colon, rectum and gallbladder mucinous adenocarcinoma | 99.28–99.40% | L5 | Model prediction only, with no trials or literature. Hold. |
+| 2 | Sickle cell-haemoglobin C disease | 0.9967 | L5 | Phase 2 trial [NCT00532883](https://clinicaltrials.gov/study/NCT00532883) (n=44, terminated) plus a 2025 NEJM Evidence publication ([39647172](https://pubmed.ncbi.nlm.nih.gov/39647172/)) and cohort studies. No Phase 3 trial is evident. Research question. |
+| 3–5 | Sickle cell-HbE, sickle cell-HbD, HPFH-sickle cell | 0.9967 | L5 | Only indirect or irrelevant literature. Hold. |
+| 6 | Sickle cell-beta-thalassaemia | 0.9967 | L5 | Small 1999 clinical trial ([10326220](https://pubmed.ncbi.nlm.nih.gov/10326220/)); the listed trials are transplant studies, not hydroxyurea trials. Research question. |
+| 7–10 | Cervical adenosarcoma; colon, rectum and gallbladder mucinous adenocarcinoma | 99.28–0.9940 | L5 | Model prediction only, with no trials or literature. Hold. |
 
 ---
 

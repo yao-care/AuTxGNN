@@ -48,10 +48,10 @@ but there are currently **no registered clinical trials** and **no publications*
 |------|------|
 | Original Indication | Parkinson disease and related parkinsonian syndromes (the Australian licence entries in the data compiled for this report do not include approved indication text) |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 3 |
+| Australia Market Status | Marketed (valid licences: 3 of 3) |
+| Number of ARTG Entries | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Rasmussen encephalitis is a rare, chronic, unilateral inflammatory brain disorder. It is marked by intractable focal seizures, progressive hemispheric atrophy and neurological decline. Its proposed pathology is T-cell-mediated, with possible autoimmune and viral contributors.
 
-A plausible connection is the overlap in movement-disorder features (for example hemiparesis, dystonia or hemiparkinsonism-like presentations). Another is the shared knowledge-graph neighbourhood with hemiparkinsonism-hemiatrophy syndrome. However, dopaminergic replacement is not expected to affect the inflammatory, immune-mediated or epileptogenic mechanisms that drive the disease. The high score most likely reflects graph proximity (shared hemiatrophy and parkinsonism phenotype nodes) rather than a true therapeutic rationale.
+A plausible connection is the overlap in movement-disorder features (for example hemiparesis, dystonia or hemiparkinsonism-like presentations). Another is the similarity to hemiparkinsonism-hemiatrophy syndrome that the TxGNN model (deep learning) may have learned. However, dopaminergic replacement is not expected to affect the inflammatory, immune-mediated or epileptogenic mechanisms that drive the disease. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -96,7 +96,7 @@ Product Information warnings and contraindications were not available in the dat
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a TxGNN score of 0.99, with no clinical trials, literature or mechanistic data. Rasmussen encephalitis is immune-mediated and epileptogenic, and dopamine replacement is not expected to act on these processes. The high score likely reflects knowledge-graph proximity rather than therapeutic rationale.
+The prediction rests only on a TxGNN model (deep learning) score of 0.9906, with no clinical trials, literature or mechanistic data. Rasmussen encephalitis is immune-mediated and epileptogenic, and dopamine replacement is not expected to act on these processes. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for levodopa, and a credible mechanistic link to Rasmussen encephalitis

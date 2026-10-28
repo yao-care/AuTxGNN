@@ -6,9 +6,9 @@ nav_order: 274
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Ethinylestradiol: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne"
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
+description: "Ethinylestradiol: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ethinylestradiol
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Ethinylestradiol: From Acne and Postmenopausal Conditions to Elevated Plasma Zinc
+## Ethinylestradiol: Zinc, elevated plasma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ This is a model-only prediction.
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne; postmenopausal osteoporosis; osteoporosis; postmenopausal atrophic vaginitis (from the knowledge graph; no approved indication text is available for the Australian entries) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Zinc, elevated plasma |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 4 |
+| Australia Market Status | Marketed (valid licences: 4 of 4) |
+| Number of ARTG Entries | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 One plausible but unconfirmed link is that estrogens are known to alter circulating zinc and copper levels, as seen in oral contraceptive users. This is not supported by the data supplied here, and the direction of effect (raising or lowering zinc) is not established.
 
-Elevated plasma zinc is a laboratory finding rather than a condition that clearly calls for drug treatment. The prediction may therefore reflect a knowledge-graph association rather than a true therapeutic opportunity. The very high score (rank 2283 among predictions) should be interpreted with caution.
+Elevated plasma zinc is a laboratory finding rather than a condition that clearly calls for drug treatment. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it may not point to a true therapeutic opportunity. The very high score (rank 2283 among predictions) should be interpreted with caution.
 
 ## Clinical Trial Evidence
 

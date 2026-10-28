@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ranitidine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 625
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Ranitidine: predicted new indication Active peptic ulcer disease (evidence level L5). Approved use: Gastric ulcer, duodenal ulcer, gastro-oesophageal reflux disease…"
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
+description: "Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Ranitidine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,30 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ranitidine: From Gastric and Duodenal Ulcer to Active Peptic Ulcer Disease
+## Ranitidine: Peptic ulcer perforation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ranitidine is a histamine H2-receptor antagonist, originally used for gastric and duodenal ulcers, gastro-oesophageal reflux disease and related acid-hypersecretion conditions.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this largely overlaps with its existing indications, so it is closer to on-label use than true repurposing.
-For this top-ranked prediction there are **no registered clinical trials** and **20 publications** (mostly reviews). The related prediction "peptic ulcer disease" has **5 clinical trials** (3 completed Phase 3).
+For this top-ranked prediction there are **no registered clinical trials** and **20 publications** (mostly reviews).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, duodenal ulcer, gastro-oesophageal reflux disease, oesophagitis, dyspepsia, Zollinger-Ellison syndrome (the approved indication text for the ARTG entry is not available) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.89% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Peptic ulcer perforation |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L1 (as assigned in the data compiled for this report; see note under Clinical Trial Evidence) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. From established pharmacology, ranitidine is a histamine H2-receptor antagonist. It reduces gastric acid secretion, and acid suppression supports ulcer healing. The literature describes it as four to ten times more potent than cimetidine in inhibiting stimulated acid secretion.
 
-Active peptic ulcer disease is essentially the same disease family as the drug's existing gastric and duodenal ulcer indications. The high TxGNN score therefore mostly reflects a known association rather than a new discovery. The same applies to the related "peptic ulcer disease" prediction.
 
 Other predictions are weaker. These include gastrojejunal ulcer, peptic ulcer perforation, duodenogastric reflux, duodenal obstruction, gastroduodenitis, mastocytosis variants and abnormal glucagon secretion. They rest on indirect evidence or none, and are not the focus of this report.
 
@@ -66,7 +64,6 @@ Other predictions are weaker. These include gastrojejunal ulcer, peptic ulcer pe
 
 Currently no related clinical trials are registered for "active peptic ulcer disease".
 
-For the closely related prediction "peptic ulcer disease", the following trials were found:
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|

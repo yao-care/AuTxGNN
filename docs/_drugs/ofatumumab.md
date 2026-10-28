@@ -4,17 +4,17 @@ title: Ofatumumab
 parent: High Evidence (L1-L2)
 nav_order: 519
 evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Ofatumumab: predicted new indication Follicular lymphoma (evidence level L2). Approved use: Acute lymphoblastic/lymphocytic leukaemia"
+indication_count: 4
 monitor_inn: "Ofatumumab"
-predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "leukemia, lymphocytic, susceptibility to", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis", "histiocytic and dendritic cell neoplasm", "childhood mediastinal neurogenic neoplasm"]
+predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
+last_modified_at: 2026-10-23
+description: "Ofatumumab: predicted new indication Follicular lymphoma (evidence level L2). Approved use: Acute lymphoblastic leukaemia and Richter syndrome"
 ---
 
 # Ofatumumab
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,108 +33,89 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Ofatumumab: From Acute Lymphoblastic Leukaemia / Richter Syndrome to Follicular Lymphoma
+## Ofatumumab: From Acute Lymphoblastic Leukaemia and Richter Syndrome to Follicular Lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ofatumumab is an anti-CD20 monoclonal antibody, listed in the TxGNN knowledge graph for acute lymphoblastic leukaemia and Richter syndrome.
-The TxGNN model predicts it may be effective for **Follicular Lymphoma** (the highest-ranked prediction with clinical evidence), with **12 registered clinical trials** and **20 publications** supporting this direction.
-The evidence is mostly Phase 2, with no completed Phase 3 RCT of ofatumumab in this disease.
-
----
+Ofatumumab is a fully human anti-CD20 monoclonal antibody. Predicted uses on this page come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; they are not approvals confirmed by Australian label text.
+The TxGNN model predicts it may be effective for **follicular lymphoma**, with **11 clinical trials** and **20 publications** compiled for this report. Several of these are Phase 2 studies of ofatumumab in follicular lymphoma itself.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic/lymphocytic leukaemia; Richter syndrome (TxGNN knowledge graph; no approved indication text is available for the Australian listing) |
+| Original Indication | Acute lymphoblastic leukaemia and Richter syndrome (relations recorded in the knowledge graph; no approved indication text is available in the Australian licence record) |
 | Predicted New Indication | Follicular lymphoma |
-| TxGNN Prediction Score | 99.70% |
+| TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Proceed with Guardrails (research question stage; see Conclusion) |
-
-Note: the two top-ranked predictions (CLL/SLL molecular subtypes, 99.77%) have no trials or literature (L5, Hold). Follicular lymphoma is the highest-scoring prediction with substantive clinical evidence. CLL/SLL (rank 5) has stronger evidence but is the same disease family as the drug's original indications, so it is more a confirmation of existing use than true repurposing.
-
----
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on published literature, ofatumumab is a fully human anti-CD20 IgG1 antibody that binds a distinct, membrane-proximal epitope of CD20 and kills B cells through complement-dependent cytotoxicity (CDC) and antibody-dependent cellular cytotoxicity (ADCC).
+Detailed mechanism of action data is not available in the data compiled for this report. Ofatumumab is, however, a well-characterised fully human monoclonal antibody that binds CD20 on B cells. This binding is understood to kill cells through complement-dependent cytotoxicity and antibody-dependent cellular cytotoxicity.
 
-Follicular lymphoma cells express CD20, as do the CLL and leukaemic B-cell populations linked to the drug's original indications. The same target is therefore present in the new indication. Ofatumumab's slow dissociation from CD20 and its activity against cells with low CD20 density may also help in rituximab-refractory disease. This is supported by a multicentre study in rituximab-refractory follicular lymphoma (PMID 22389254), although response rates in that setting were modest (13% and 10% in the two dose groups).
+Follicular lymphoma is a CD20-positive B-cell malignancy, so an anti-CD20 antibody is mechanistically well suited. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
----
+Note that the supplied data contain Phase 2 evidence (including a randomised trial and a multicentre study in rituximab-refractory disease) and one terminated Phase 3 trial, but no completed Phase 3 randomised trial.
 
 ## Clinical Trial Evidence
 
-Twelve trials were identified. The table lists the 10 most relevant.
-
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01286272](https://clinicaltrials.gov/study/NCT01286272) | Phase 2 | Completed | 135 | Randomised: ofatumumab + bendamustine vs the same plus bortezomib in untreated follicular lymphoma (CALGB 50904) |
+| [NCT01286272](https://clinicaltrials.gov/study/NCT01286272) | Phase 2 | Completed | 135 | Randomised: ofatumumab + bendamustine with or without bortezomib in untreated follicular lymphoma |
 | [NCT00394836](https://clinicaltrials.gov/study/NCT00394836) | Phase 2 | Completed | 116 | Single-arm study in follicular lymphoma refractory to rituximab |
-| [NCT02710643](https://clinicaltrials.gov/study/NCT02710643) | Phase 2 | Completed | 110 | Local radiotherapy with or without ofatumumab in stage I/II follicular lymphoma (FIL MIRO); ofatumumab's contribution is hard to isolate |
-| [NCT00494780](https://clinicaltrials.gov/study/NCT00494780) | Phase 2 | Completed | 59 | Randomised two-dose ofatumumab with CHOP in untreated follicular lymphoma |
-| [NCT01190449](https://clinicaltrials.gov/study/NCT01190449) | Phase 2 | Completed | 51 | Single-agent ofatumumab in previously untreated follicular NHL (CALGB 50901) |
-| [NCT01239394](https://clinicaltrials.gov/study/NCT01239394) | Phase 2 | Completed | 43 | Ofatumumab as initial treatment of indolent B-cell lymphoma (broader than follicular lymphoma alone) |
-| [NCT00823719](https://clinicaltrials.gov/study/NCT00823719) | Phase 2 | Completed | 61 | Ofatumumab with ICE or DHAP before autologous transplant in relapsed/refractory aggressive lymphoma (DLBCL population, not confirmed follicular) |
-| [NCT00742144](https://clinicaltrials.gov/study/NCT00742144) | Phase 1 | Completed | 6 | Safety and PK in Japanese patients with CD20-positive follicular lymphoma or CLL |
-| [NCT01077518](https://clinicaltrials.gov/study/NCT01077518) | Phase 3 | Terminated | 346 | Ofatumumab + bendamustine vs bendamustine alone in rituximab-unresponsive indolent B-cell NHL; terminated, no results in the data compiled |
-| [NCT01119794](https://clinicaltrials.gov/study/NCT01119794) | Phase 2 | Terminated | 10 | Ofatumumab + bortezomib in relapsed low-grade NHL; too small to be informative |
+| [NCT02710643](https://clinicaltrials.gov/study/NCT02710643) | Phase 2 | Completed | 110 | MIRO: radiotherapy with or without ofatumumab in stage I/II follicular lymphoma |
+| [NCT00494780](https://clinicaltrials.gov/study/NCT00494780) | Phase 2 | Completed | 59 | Two-dose randomised trial of ofatumumab + CHOP in untreated follicular lymphoma |
+| [NCT01190449](https://clinicaltrials.gov/study/NCT01190449) | Phase 2 | Completed | 51 | Ofatumumab alone in previously untreated follicular non-Hodgkin lymphoma |
+| [NCT01239394](https://clinicaltrials.gov/study/NCT01239394) | Phase 2 | Completed | 43 | Initial treatment of indolent B-cell lymphoma (mixed histologies) |
+| [NCT00823719](https://clinicaltrials.gov/study/NCT00823719) | Phase 2 | Completed | 61 | Ofatumumab + ICE or DHAP chemotherapy in relapsed/refractory aggressive lymphoma (DLBCL) before stem cell transplant |
+| [NCT01077518](https://clinicaltrials.gov/study/NCT01077518) | Phase 3 | Terminated | 346 | Ofatumumab + bendamustine vs bendamustine in rituximab-unresponsive indolent B-cell NHL |
+| [NCT00742144](https://clinicaltrials.gov/study/NCT00742144) | Phase 1 | Completed | 6 | Safety and pharmacokinetics in Japanese patients with CD20+ follicular lymphoma or CLL |
+| [NCT01119794](https://clinicaltrials.gov/study/NCT01119794) | Phase 2 | Terminated | 10 | Ofatumumab + bortezomib in relapsed/refractory low-grade NHL; limited information |
 
-Two further trials (NCT01397591, terminated with 3 patients; NCT01263418, withdrawn with 0 patients) provide no usable evidence. No ANZCTR identifiers were found in the data compiled for this report.
-
----
+Two further trials (NCT01397591, terminated with 3 patients; NCT01263418, withdrawn with no enrolment) provide no useful efficacy evidence.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31174236](https://pubmed.ncbi.nlm.nih.gov/31174236/) | 2019 | Randomised Phase 2 | Cancer | Ofatumumab + bendamustine vs ofatumumab + bendamustine + bortezomib in untreated high-risk follicular lymphoma (CALGB 50904) |
-| [30723894](https://pubmed.ncbi.nlm.nih.gov/30723894/) | 2019 | Phase 2 | Br J Haematol | Single-agent ofatumumab in untreated low/intermediate-risk, advanced-stage follicular lymphoma (CALGB 50901) |
-| [22389254](https://pubmed.ncbi.nlm.nih.gov/22389254/) | 2012 | Multicentre single-arm | Blood | Ofatumumab monotherapy in rituximab-refractory follicular lymphoma (n=116); overall response rate about 10-13% |
-| [22409295](https://pubmed.ncbi.nlm.nih.gov/22409295/) | 2012 | Phase 2 | Br J Haematol | Ofatumumab (500 mg or 1000 mg) plus CHOP as first-line treatment in follicular lymphoma (n=59) |
-| [38937025](https://pubmed.ncbi.nlm.nih.gov/38937025/) | 2024 | Phase 2 | Lancet Haematol | Final results of local radiotherapy plus MRD-driven anti-CD20 immunotherapy in early-stage follicular lymphoma (FIL MIRO) |
+| [31174236](https://pubmed.ncbi.nlm.nih.gov/31174236/) | 2019 | Randomised Phase 2 | Cancer | Ofatumumab + bendamustine vs the same with bortezomib in untreated high-risk follicular lymphoma (CALGB 50904) |
+| [22389254](https://pubmed.ncbi.nlm.nih.gov/22389254/) | 2012 | Multicentre single-arm Phase 2 | Blood | Ofatumumab monotherapy in rituximab-refractory follicular lymphoma (n=116); overall response rate about 10-13% |
+| [22409295](https://pubmed.ncbi.nlm.nih.gov/22409295/) | 2012 | Phase 2 | Br J Haematol | Two doses of ofatumumab + CHOP in 59 untreated follicular lymphoma patients |
+| [30723894](https://pubmed.ncbi.nlm.nih.gov/30723894/) | 2019 | Phase 2 | Br J Haematol | Single-agent ofatumumab in untreated low/intermediate-risk advanced follicular lymphoma (CALGB 50901) |
+| [38937025](https://pubmed.ncbi.nlm.nih.gov/38937025/) | 2024 | Prospective Phase 2 | Lancet Haematol | FIL MIRO: local radiotherapy with residual-disease-driven immunotherapy in early-stage follicular lymphoma |
 | [18390837](https://pubmed.ncbi.nlm.nih.gov/18390837/) | 2008 | Phase 1/2 | Blood | First clinical use of ofatumumab in relapsed/refractory follicular lymphoma |
-| [26043777](https://pubmed.ncbi.nlm.nih.gov/26043777/) | 2015 | Review | Expert Opin Biol Ther | Activity of ofatumumab across CD20-positive B-cell lymphomas |
+| [26043777](https://pubmed.ncbi.nlm.nih.gov/26043777/) | 2015 | Review | Expert Opin Biol Ther | Ofatumumab in non-Hodgkin lymphomas |
 | [29934061](https://pubmed.ncbi.nlm.nih.gov/29934061/) | 2018 | Review | Clin Lymphoma Myeloma Leuk | Evidence-based review of anti-CD20 regimens in relapsed/refractory CLL, DLBCL and follicular lymphoma |
-| [35663281](https://pubmed.ncbi.nlm.nih.gov/35663281/) | 2022 | Review | Leuk Res Rep | Immunotherapy in indolent non-Hodgkin lymphoma |
-| [24443277](https://pubmed.ncbi.nlm.nih.gov/24443277/) | 2014 | Population PK analysis | J Clin Pharmacol | Pharmacokinetics of intravenous ofatumumab in CLL, follicular lymphoma and rheumatoid arthritis (n=477) |
-
----
+| [32933335](https://pubmed.ncbi.nlm.nih.gov/32933335/) | 2021 | Review | Expert Opin Biol Ther | Anti-CD20 treatment for B-cell malignancies |
+| [24443277](https://pubmed.ncbi.nlm.nih.gov/24443277/) | 2014 | Population PK analysis | J Clin Pharmacol | Pharmacokinetics across CLL, follicular lymphoma and rheumatoid arthritis (n=477) |
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 12641H | Kesimpta | Solution for injection, 20 mg in 0.4 mL pre-filled pen | Not available in the data compiled for this report |
+| ARTG 12641H | Kesimpta | Solution for injection 20 mg in 0.4 mL pre-filled pen | Indication text not available in the licence record |
 
-Only one Australian listing was found, and it is a subcutaneous pre-filled pen formulation. The doses and intravenous route used in the lymphoma and leukaemia trials above differ from this product, and route compatibility for the predicted indication has not been assessed. The licence number as supplied is "12641H"; please verify it against the ARTG.
-
----
+This is the only entry, and it is a pre-filled pen presentation. Its suitability for any oncology use cannot be assumed; dosing and formulation would need separate confirmation.
 
 ## Cytotoxicity
-
-Ofatumumab is a monoclonal antibody rather than a conventional cytotoxic agent, but it is used in oncology, so the key points are summarised below.
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Immunotherapy (anti-CD20 monoclonal antibody) |
 | Myelosuppression Risk | Please refer to the Product Information (PI) warnings and precautions |
-| Emetogenicity Classification | Please refer to the PI warnings and precautions |
-| Monitoring Items | Please refer to the PI; routine full blood count and infection surveillance are generally expected with B-cell depleting therapy |
+| Emetogenicity Classification | Please refer to the Product Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the PI; typically full blood count and liver function, with infection surveillance |
 | Handling Protection | Please refer to the PI and local institutional policy |
-
----
 
 ## Safety Considerations
 
-Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for safety information. No disease contraindications were recorded in the knowledge graph.
+Label warnings and contraindications were not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for safety information.
 
-**Drug Interactions:** 80 interactions were identified from the DDInter database. Examples of those rated **Major**:
+**Drug interactions:** 80 interactions were recorded. Examples of those rated Major:
 - Deferiprone
 - Samarium (153Sm) lexidronam
 - Adalimumab
@@ -143,25 +124,29 @@ Package insert warnings and contraindications were not available in the data com
 - Cladribine
 - Clozapine
 
-Examples rated **Moderate** include alemtuzumab, azathioprine, anakinra, canakinumab, zidovudine, chloramphenicol, roflumilast, and several vaccines (tetanus toxoid, anthrax, live cholera). Many of these reflect additive immunosuppression or myelosuppression, and vaccine responses may be affected by B-cell depletion. Live vaccines in particular need careful review. Only part of the full list is shown here.
-
----
+Moderate examples include alemtuzumab, azathioprine, anakinra, chloramphenicol, zidovudine, and several vaccines (anthrax, tetanus toxoid, live cholera). Many of these relate to additive immunosuppression or myelosuppression.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-- Follicular lymphoma is a CD20-positive disease, and several completed Phase 2 trials (including two randomised studies and one CALGB single-agent study) plus published reports support ofatumumab activity. The pipeline's own stage assessment is "Research Question" (L2), because no completed Phase 3 RCT of ofatumumab in follicular lymphoma exists in the data, the one Phase 3 (NCT01077518) was terminated, and single-agent response in rituximab-refractory disease was modest. Continuing should be limited to evidence-gathering rather than clinical adoption.
-- The other nine predictions are not recommended for progression: the two CLL/SLL subtypes, susceptibility entity, metastatic neoplasm and five rare tumours have no direct evidence (Hold). CLL/SLL itself (L1) is effectively an existing use and already supported by a meta-analysis and Phase 3 trials in which ofatumumab was the comparator.
+Multiple completed Phase 2 studies, including randomised trials and published results, investigate ofatumumab directly in follicular lymphoma, and the anti-CD20 mechanism fits the disease. The efficacy signal is modest in rituximab-refractory disease, the only Phase 3 trial was terminated, and the sole Australian listing is a pre-filled pen product.
 
 **To proceed, the following is needed:**
-- Mechanism of action data to be retrieved from DrugBank
-- Full TGA Product Information, including warnings and contraindications (identified as a blocking gap for safety screening)
-- Outcome data from the terminated Phase 3 trial NCT01077518 and the completed Phase 2 trials
-- Assessment of intravenous versus the registered subcutaneous formulation and dosing for lymphoma
-- Comparison with current Australian standard of care for follicular lymphoma, including other anti-CD20 antibodies (rituximab, obinutuzumab)
-- Review of the Major drug interactions and a vaccination and infection-risk plan
+- Review of the TGA-approved PI for safety, warnings and contraindications
+- Mechanism of action data confirmed from a reference source
+- Comparative evidence against current standard anti-CD20 therapy in follicular lymphoma, ideally Phase 3
+- Confirmation of an appropriate formulation, dose and supply route in Australia for lymphoma use
+- A monitoring plan for infection, hepatitis B reactivation and immunosuppression-related interactions
+
+## Other Predicted Indications (Not Recommended at This Time)
+
+| Predicted Indication | TxGNN Score | Evidence Level | Decision | Comment |
+|---|---|---|---|---|
+| Metastatic neoplasm | 0.9950 | L5 | Hold | One small pilot (n=10) in metastatic melanoma and no direct efficacy literature for the term as predicted |
+| Malignant spiradenoma | 0.9948 | L5 | Hold | No trials or literature |
+| Langerhans cell histiocytosis | 0.9934 | L5 | Hold | No trials or literature; no clear CD20-driven rationale |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

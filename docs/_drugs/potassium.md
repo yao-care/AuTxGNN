@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Potassium
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 586
-evidence_level: L5
+evidence_level: L1
 indication_count: 5
 last_modified_at: 2026-10-13
 description: "Potassium: predicted new indication Hypertensive disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
@@ -14,7 +14,7 @@ predicted_indications: ["hypertensive disorder", "pulmonary hypertension with un
 # Potassium
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L1** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 ## One-Sentence Summary
 
 Potassium is an essential electrolyte, marketed in Australia as oral powder products (Kindergen and Renastart), and the approved indication text is not available in the data compiled for this report.
-The TxGNN model predicts it may be useful for **hypertensive disorder**, with a score of 99.2%.
+The TxGNN model predicts it may be useful for **hypertensive disorder**, with a score of 0.9916.
 The evidence includes **23 registered clinical trials** and **20 publications**, but most trials involve potassium only as a salt component of other drugs. The strongest support comes from meta-analyses of potassium intake and blood pressure.
 
 ## Quick Overview
@@ -48,10 +48,10 @@ The evidence includes **23 registered clinical trials** and **20 publications**,
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Hypertensive disorder |
-| TxGNN Prediction Score | 99.16% |
+| TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L1 (see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 2 |
+| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* L1 is the level assigned in the compiled data. It rests on the Phase 3 and meta-analytic evidence for potassium intake. Most of the listed Phase 3 trials test other drugs (such as losartan potassium), so the directly relevant evidence is weaker than the label suggests.

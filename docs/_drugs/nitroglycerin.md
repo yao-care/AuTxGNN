@@ -4,7 +4,7 @@ title: Nitroglycerin
 parent: Moderate Evidence (L3-L4)
 nav_order: 507
 evidence_level: L3
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "nitroglycerin"
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 # Nitroglycerin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **5** 
+Evidence Level: **L3** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The evidence is mostly small, early-phase or older haemodynamic studies, so it s
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.61% |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

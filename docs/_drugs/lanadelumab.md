@@ -48,10 +48,10 @@ Note that C1 inhibitor deficiency is the underlying cause of the approved HAE in
 |------|------|
 | Original Indication | Hereditary angioedema (including HAE with C1-inhibitor deficiency) |
 | Predicted New Indication | C1 inhibitor deficiency |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

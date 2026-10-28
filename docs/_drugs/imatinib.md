@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Imatinib
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 369
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L4). Approved use: Not stated in the Australian licence data compiled for this report. T…"
 monitor_inn: "Imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
+description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Imatinib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Imatinib: From Chronic Myelogenous Leukaemia and GIST to Heart Fibrosarcoma
+## Imatinib: Heart fibrosarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,27 +48,27 @@ Of the ten predictions reviewed, the better-supported ones are fibroblastic neop
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Australian licence data compiled for this report. The knowledge graph lists systemic mastocytosis, GIST, BCR-ABL1-positive chronic myelogenous leukaemia, chronic eosinophilic leukaemia, dermatofibrosarcoma protuberans and hypereosinophilic syndrome |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Heart fibrosarcoma |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Other predictions reviewed**
 
 | Rank | Predicted Indication | Score | Evidence Level | Decision |
 |---|---|---|---|---|
-| 2 | Fibroblastic neoplasm | 99.94% | L3 | Proceed with Guardrails |
-| 3 | Conventional fibrosarcoma | 99.93% | L4 | Hold |
-| 4 | Kidney fibrosarcoma | 99.93% | L4 | Hold |
-| 5 | Low grade fibromyxoid sarcoma | 99.93% | L5 | Hold |
-| 6 | Liposarcoma | 99.88% | L2 | Research question |
-| 7 | Liver fibrosarcoma | 99.86% | L4 | Hold |
-| 8 | Familial Mediterranean fever (autosomal recessive) | 99.86% | L5 | Hold |
-| 9 | Ovarian myxoid liposarcoma | 99.85% | L5 | Hold |
-| 10 | Familial rhabdoid tumour | 99.83% | L5 | Hold |
+| 2 | Fibroblastic neoplasm | 0.9994 | L5 | Proceed with Guardrails |
+| 3 | Conventional fibrosarcoma | 0.9993 | L5 | Hold |
+| 4 | Kidney fibrosarcoma | 0.9993 | L5 | Hold |
+| 5 | Low grade fibromyxoid sarcoma | 0.9993 | L5 | Hold |
+| 6 | Liposarcoma | 0.9988 | L2 | Research question |
+| 7 | Liver fibrosarcoma | 0.9986 | L5 | Hold |
+| 8 | Familial Mediterranean fever (autosomal recessive) | 0.9986 | L5 | Hold |
+| 9 | Ovarian myxoid liposarcoma | 0.9985 | L5 | Hold |
+| 10 | Familial rhabdoid tumour | 0.9983 | L5 | Hold |
 
 ---
 
@@ -166,7 +166,7 @@ Please refer to the TGA-approved Product Information (PI) for the full safety in
 **Decision: Hold** (for the top-ranked prediction, heart fibrosarcoma)
 
 **Rationale:**
-- There are no trials and only one non-specific commentary for heart fibrosarcoma. The high TxGNN score (99.94%) is not backed by clinical data. Most other predictions are also on Hold, apart from fibroblastic neoplasm (Proceed with Guardrails, but largely DFSP, which is already approved) and liposarcoma (a research question).
+- There are no trials and only one non-specific commentary for heart fibrosarcoma. The high TxGNN score (0.9994) is not backed by clinical data. Most other predictions are also on Hold, apart from fibroblastic neoplasm (Proceed with Guardrails, but largely DFSP, which is already approved) and liposarcoma (a research question).
 
 **To proceed, the following is needed:**
 - Product label warnings, contraindications and approved indication text, which are missing for the Australian product

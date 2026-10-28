@@ -4,17 +4,17 @@ title: Fexofenadine
 parent: Model Prediction Only (L5)
 nav_order: 296
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis…"
 monitor_inn: "Fexofenadine"
-predicted_indications: ["rosacea conjunctivitis", "punctate epithelial keratoconjunctivitis", "blepharoconjunctivitis", "viral conjunctivitis", "parasitic eyelid infestation", "ulcerative blepharitis", "infective urethral stricture", "postinfectious vasculitis", "post-bacterial disorder", "noninfectious dermatoses of eyelid"]
+predicted_indications: ["rosacea conjunctivitis"]
 ---
 
 # Fexofenadine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,13 +48,13 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis, idiopathic urticaria |
 | Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-*Note: The original indications above come from the TxGNN knowledge graph. The ARTG entry in the data compiled for this report has no approved indication text.*
+*Note: The original indications above are the known uses listed for this drug. The ARTG entry in the data compiled for this report has no approved indication text.*
 
 ## Why is This Prediction Reasonable?
 
@@ -62,19 +62,9 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The link to rosacea conjunctivitis is weak. Ocular rosacea is driven mainly by meibomian gland dysfunction, Demodex mites, and neutrophil- and MMP-mediated inflammation, not primarily by histamine. At best, an antihistamine might ease itch or allergic-type symptoms. The prediction rests only on the TxGNN score, with no supporting trials or literature.
 
-The other nine predictions are also supported by model output only (all L5, Hold). Several are mechanistically implausible and are likely knowledge-graph proximity artefacts:
 
 | Rank | Predicted Indication | Score | Plausibility |
 |---|------|------|------|
-| 2 | Punctate epithelial keratoconjunctivitis | 98.63% | Symptomatic benefit at best; often viral or toxic |
-| 3 | Blepharoconjunctivitis | 98.40% | Plausible for the allergic subtype only |
-| 4 | Viral conjunctivitis | 98.17% | No antiviral activity; itch relief only |
-| 5 | Parasitic eyelid infestation | 96.67% | Needs an antiparasitic; antihistamine relieves pruritus only |
-| 6 | Ulcerative blepharitis | 96.59% | Needs antimicrobial and lid hygiene |
-| 7 | Infective urethral stricture | 96.33% | No plausible link; fibrotic condition managed surgically |
-| 8 | Postinfectious vasculitis | 96.13% | Indirect; not disease-modifying |
-| 9 | Post-bacterial disorder | 96.11% | Term too non-specific to assess |
-| 10 | Noninfectious dermatoses of eyelid | 95.84% | Most plausible after allergic conjunctival; topical therapy usually preferred |
 
 ## Clinical Trial Evidence
 
@@ -113,7 +103,6 @@ The prediction is supported only by a model score, with no clinical trials or li
 - A literature and trial search specific to antihistamines in ocular rosacea
 - Clarification of the approved indication text for ARTG 4237B
 - A route and formulation assessment (oral versus ocular)
-- If any prediction is pursued, the allergic blepharoconjunctivitis and eyelid dermatitis subtypes are the more mechanistically credible candidates for further review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

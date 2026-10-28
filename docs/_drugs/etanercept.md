@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etanercept
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 272
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Etanercept: predicted new indication Rheumatoid vasculitis (evidence level L4). Approved use: Psoriatic arthritis, rheumatoid arthritis, ankylosing spondylitis…"
 monitor_inn: "Etanercept"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "WHIM syndrome"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
+description: "Etanercept: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Etanercept
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,30 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Etanercept: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+## Etanercept: Hypermobility of coccyx
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Etanercept is a TNF-blocking fusion protein, originally used to treat rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis and juvenile idiopathic arthritis.
-The TxGNN model predicts it may be effective for **rheumatoid vasculitis** (top-ranked prediction), but only **1 clinical trial** (not testing etanercept for this disease) and **20 publications** (mostly case reports of etanercept-associated vasculitis) were found, so the evidence is weak and mixed.
-Of the ten predictions, only inflammatory spondylopathy and polyarticular/juvenile chronic JIA are well supported, and these are essentially on-label uses.
+The TxGNN model (deep learning) predicts it may be effective for **hypermobility of coccyx** (top-ranked prediction), but the evidence is weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Psoriatic arthritis, rheumatoid arthritis, ankylosing spondylitis, juvenile idiopathic arthritis (from the knowledge graph; ARTG indication text not available) |
-| Predicted New Indication | Rheumatoid vasculitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypermobility of coccyx |
+| TxGNN Prediction Score | 0.9963 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Etanercept is, however, a well-known soluble TNF receptor fusion protein that binds TNF and blocks its inflammatory signalling, and it is established in rheumatoid arthritis.
 
-Rheumatoid vasculitis is a severe extra-articular complication of rheumatoid arthritis, and TNF is implicated in its pathogenesis. This is the basis for the model's prediction. A systematic review of biological therapy in rheumatoid vasculitis exists, but the evidence is low-quality and mixed.
 
 The prediction is also contradicted in part. Several case reports describe etanercept-associated cutaneous vasculitis, nephropathy and accelerated nodulosis, so the drug may trigger rather than treat vasculitis in some patients.
 
@@ -66,28 +64,19 @@ The prediction is also contradicted in part. Several case reports describe etane
 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision |
 |------|------|------|------|
-| Rheumatoid vasculitis | 99.71% | L4 | Hold |
-| Hypermobility of coccyx | 99.63% | L5 | Hold |
-| Inflammatory spondylopathy | 99.57% | L1 | Proceed with Guardrails |
-| Kummell disease | 99.55% | L5 | Hold |
-| Polyarticular juvenile rheumatoid arthritis | 99.50% | L1 | Proceed with Guardrails |
-| Vertebral disease | 99.16% | L4 | Hold |
-| RF-positive polyarticular JIA | 98.26% | L3 | Proceed with Guardrails |
-| Rheumatoid nodulosis | 98.20% | L4 | Hold |
-| Juvenile chronic polyarthritis | 98.08% | L2 | Proceed with Guardrails |
-| WHIM syndrome | 97.71% | L5 | Hold |
+| Hypermobility of coccyx | 0.9963 | L5 | Hold |
+| Kummell disease | 0.9955 | L5 | Hold |
+| Vertebral disease | 0.9916 | L5 | Hold |
 
-The three strongest candidates (inflammatory spondylopathy, polyarticular JIA and juvenile chronic polyarthritis) overlap with approved indications, so they are closer to on-label use than true repurposing. Rheumatoid nodulosis is a particular concern, as the literature describes etanercept as a cause of accelerated nodulosis.
 
 ## Clinical Trial Evidence
 
-For the top prediction (rheumatoid vasculitis):
+For the top prediction (hypermobility of coccyx):
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients having shoulder arthroplasty. It does not test etanercept in rheumatoid vasculitis. |
 
-For the best-supported related prediction (inflammatory spondylopathy, overlapping ankylosing spondylitis and axial spondyloarthritis), selected trials:
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -145,7 +134,7 @@ For polyarticular JIA:
 | [27135404](https://pubmed.ncbi.nlm.nih.gov/27135404/) | 2016 | Systematic Review / HTA | Health Technol Assess | Clinical and cost-effectiveness of abatacept, adalimumab, etanercept and tocilizumab in JIA |
 | [12528122](https://pubmed.ncbi.nlm.nih.gov/12528122/) | 2003 | Open-label extension | Arthritis Rheum | Long-term efficacy and safety of etanercept in polyarticular-course JRA |
 
-For rheumatoid nodulosis, the literature (for example [17610313](https://pubmed.ncbi.nlm.nih.gov/17610313/) and [18385217](https://pubmed.ncbi.nlm.nih.gov/18385217/)) consists of case reports of etanercept-related accelerated pulmonary nodulosis. No literature was found for hypermobility of coccyx, Kummell disease or WHIM syndrome.
+No literature was found for hypermobility of coccyx, Kummell disease or WHIM syndrome.
 
 ## Australia Market Information
 
@@ -165,11 +154,10 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** (for the top-ranked prediction, rheumatoid vasculitis)
+**Decision: Hold** (for the top-ranked prediction, hypermobility of coccyx)
 
 **Rationale:**
-- No trial tests etanercept in rheumatoid vasculitis, and the literature includes reports of etanercept causing vasculitis, so the high TxGNN score is not supported by clinical evidence.
-- Predictions that overlap with approved indications (inflammatory spondylopathy, polyarticular JIA, juvenile chronic polyarthritis) can be classed as Proceed with Guardrails, though they are largely on-label rather than new repurposing opportunities.
+- The high TxGNN score (0.9963) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it is not supported by clinical evidence.
 - Rheumatoid nodulosis, hypermobility of coccyx, Kummell disease, vertebral disease and WHIM syndrome are all Hold, and WHIM syndrome carries added infection risk in an immunodeficient population.
 
 **To proceed, the following is needed:**

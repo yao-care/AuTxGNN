@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Teduglutide
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 702
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Teduglutide: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Short bowel syndrome"
-monitor_inn: "Teduglutide"
-predicted_indications: ["papillary conjunctivitis", "gastroduodenitis", "peptic ulcer disease", "nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria", "pharyngitis", "chronic intestinal vascular insufficiency", "isolated mesenteric vein thrombosis", "atopic conjunctivitis"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Teduglutide: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Teduglutide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,48 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Teduglutide: From Short Bowel Syndrome to Papillary Conjunctivitis
+<!-- known-uses-page -->
+<!-- description: Teduglutide: known uses and market status in Australia; currently no new candidate indication -->
+## Teduglutide: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Teduglutide, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. The one known use among the candidates is short bowel syndrome, supported by a licence in another country.
 
-Teduglutide is a GLP-2 receptor agonist peptide, originally used to treat short bowel syndrome.
-The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but this is a model prediction only,
-with **0 clinical trials** and **0 publications** currently supporting this direction.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Short bowel syndrome |
-| Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 98.53% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Teduglutide is an analogue of glucagon-like peptide-2 (GLP-2) and acts on the GLP-2 receptor (GLP2R). Detailed mechanism of action data was not available in the data compiled for this report. Its known pharmacology is to promote growth of the intestinal lining and improve absorption, which is why it is used in short bowel syndrome.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| short bowel syndrome | licence in another country |
 
-The link between short bowel syndrome and papillary conjunctivitis is weak. Papillary conjunctivitis is an allergic or mechanical inflammatory condition of the ocular surface, and the eye is not a recognised GLP-2 target. No credible mechanistic bridge was identified. The high TxGNN score (98.53%) reflects a graph-based prediction only and is not supported by any clinical or literature evidence. It should be treated as a likely model artefact rather than a real therapeutic signal.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-For context, other top-ranked predictions include gastroduodenitis and peptic ulcer disease, which are biologically more plausible because GLP-2 has effects on gastrointestinal mucosa. These also have no trials or publications. Two further predictions, chronic intestinal vascular insufficiency and isolated mesenteric vein thrombosis, are only indirectly related, through short bowel syndrome as a downstream consequence.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11793Q | Revestive | Powder for injection 5 mg with diluent (injectable) | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 11793Q | Revestive | Powder for injection 5 mg with diluent | Valid |
 
 ## Safety Considerations
 
@@ -83,19 +79,6 @@ Currently no related literature available.
 
 Warnings and contraindications from the product label were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests solely on a graph-based score. There are no clinical trials or publications, no plausible mechanism linking GLP-2 agonism to papillary conjunctivitis, and a systemic injectable would be a disproportionate option for a mostly local ocular condition.
-
-**To proceed, the following is needed:**
-- A credible mechanistic rationale for GLP-2 signalling in ocular surface inflammation, supported by preclinical data
-- Detailed mechanism of action data
-- TGA Product Information (approved indication, warnings and contraindications)
-- Route compatibility assessment, since the available route is injectable only
-- Consider redirecting effort to the more plausible gastrointestinal predictions (gastroduodenitis, peptic ulcer disease), with a neoplasia risk review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

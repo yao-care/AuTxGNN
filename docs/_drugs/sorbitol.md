@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **exercise-induced malignant hy
 |------|------|
 | Original Indication | Not available (no approved indication text recorded for the registered product) |
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -89,7 +89,7 @@ Currently no related literature available.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph signal, not label text)**: The TxGNN knowledge graph (PrimeKG) records a drug-disease contraindication link with **active peptic ulcer disease**.
+- **Contraindications (model signal, not label text)**: The TxGNN model (deep learning) flags a drug-disease contraindication link with **active peptic ulcer disease**; this reflects similarities the model learned between related diseases, not biological evidence.
 - **Drug Interactions** (2 recorded):
   - **Tolevamer**: Major
   - **Lamivudine**: Moderate

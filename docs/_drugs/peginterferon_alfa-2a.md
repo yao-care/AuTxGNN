@@ -4,17 +4,17 @@ title: Peginterferon Alfa-2A
 parent: High Evidence (L1-L2)
 nav_order: 552
 evidence_level: L1
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Peginterferon Alfa-2A: predicted new indication Hepatitis B virus infection (evidence level L1). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "Peginterferon alfa-2a"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
+description: "Peginterferon Alfa-2A: predicted new indication Hepatitis E virus infection (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Peginterferon Alfa-2A
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Peginterferon alfa-2a: From Chronic Hepatitis C and B to Hepatitis B Virus Infection
+## Peginterferon Alfa-2A: Hepatitis E virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Peginterferon alfa-2a is a pegylated interferon originally used to treat chronic hepatitis C and chronic hepatitis B.
-The TxGNN model predicts it may be effective for **hepatitis B virus infection**, with a score of 99.94%. However, chronic hepatitis B is already among its listed original indications, so this is a confirmation of an existing use rather than true repurposing. The prediction is supported by **20 clinical trials** and **20 publications**, including a pivotal RCT.
+The TxGNN model (deep learning) predicts it may be effective for **hepatitis E virus infection**, with a score of 0.9983. The prediction is supported by **20 clinical trials** and **20 publications**, including a pivotal RCT.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis C virus infection; chronic hepatitis B virus infection (from the knowledge graph; no approved indication text is recorded for the ARTG entry) |
-| Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.94% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hepatitis E virus infection |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -117,7 +117,7 @@ Warnings and contraindications were not available in the data compiled for this 
 **Rationale:**
 Hepatitis B virus infection is already an established use of peginterferon alfa-2a. It is supported by multiple Phase 3 and Phase 4 trials, several meta-analyses and a pivotal RCT, which is consistent with Evidence Level L1. However, many linked trials are small or uncontrolled, and the ARTG entry has no recorded indication text and no available PI warnings. Under the decision framework used for this report, this lack of safety information blocks progression to safety screening, so the recommendation is conditional rather than unqualified.
 
-The other predicted indications are not recommended (**Hold**). Hepatitis E (L4) and hepatitis A (L5) have only indirect or no relevant evidence, since the linked trials studied HBV or HCV. The animal viral hepatitis concept (L4) is not a human indication. Omsk haemorrhagic fever and Kyasanur forest disease (L5) are unvalidated predictions. The cardiac conditions (L5) appear to be knowledge-graph artefacts, and interferon's cardiovascular adverse effects are a more plausible concern than a benefit.
+The other predicted indications are not recommended (**Hold**). Hepatitis E (L4) and hepatitis A (L5) have only indirect or no relevant evidence, since the linked trials studied HBV or HCV. The animal viral hepatitis concept (L4) is not a human indication. Omsk haemorrhagic fever and Kyasanur forest disease (L5) are unvalidated predictions. The cardiac conditions (L5) appear to be TxGNN model (deep learning) artefacts, and interferon's cardiovascular adverse effects are a more plausible concern than a benefit.
 
 **To proceed, the following is needed:**
 - The TGA-approved PI, to confirm the registered indications, warnings and contraindications for ARTG 11037X

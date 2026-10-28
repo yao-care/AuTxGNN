@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Pomalidomide
-parent: Moderate Evidence (L3-L4)
+parent: Known Uses Only (No New Predictions)
 nav_order: 583
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Pomalidomide: predicted new indication Indolent plasma cell myeloma (evidence level L4). Approved use: Plasma cell myeloma"
-monitor_inn: "Pomalidomide"
-predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "vulvar melanoma (disease)", "epithelioid cell uveal melanoma", "melanoma", "cholangiocarcinoma, susceptibility to", "congenital temporomandibular joint ankylosis", "polydipsia", "ganglioneuroblastoma (disease)"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Pomalidomide: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Pomalidomide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,51 +32,45 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Pomalidomide: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
+<!-- known-uses-page -->
+<!-- description: Pomalidomide: known uses and market status in Australia; currently no new candidate indication -->
+## Pomalidomide: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Pomalidomide, so there is currently no new predicted indication. The drug's recorded uses are listed below.
 
-Pomalidomide is an oral immunomodulatory drug originally used to treat plasma cell myeloma (multiple myeloma).
-The TxGNN model predicts it may be effective for **indolent plasma cell myeloma** (also known as smouldering myeloma),
-but currently there are **no registered clinical trials** and only **2 general review articles**, neither of which contains pomalidomide-specific data for this setting.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Plasma cell myeloma (the approved indication text is not recorded in the ARTG data compiled for this report) |
-| Predicted New Indication | Indolent plasma cell myeloma |
-| TxGNN Prediction Score | 93.96% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 2 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pomalidomide is an immunomodulatory agent that binds cereblon and promotes degradation of the transcription factors IKZF1 and IKZF3. This mechanism is well established in relapsed/refractory plasma cell myeloma.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| multiple myeloma | licence in another country |
 
-Indolent (smouldering) myeloma is an earlier stage on the same disease continuum as symptomatic myeloma. The same malignant plasma cell biology is involved, so the mechanistic rationale is reasonable.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-However, the two references identified are general reviews of myeloma diagnosis, risk stratification and management. They contain no pomalidomide-specific data in the indolent setting, so the prediction remains unverified.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [22180161](https://pubmed.ncbi.nlm.nih.gov/22180161/) | 2012 | Review | American Journal of Hematology | 2012 update on myeloma diagnosis, risk stratification and management; general overview, not pomalidomide-specific |
-| [21181954](https://pubmed.ncbi.nlm.nih.gov/21181954/) | 2011 | Review | American Journal of Hematology | 2011 update on myeloma diagnosis, risk stratification and management; general overview, not pomalidomide-specific |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| plasma cell myeloma |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10386P | Pomalyst | Capsule 4 mg (oral) | Not recorded in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 10386P | Pomalyst | Capsule 4 mg | Valid |
 
 ## Cytotoxicity
 
@@ -104,19 +97,6 @@ Interactions rated **Moderate** include clarithromycin, metronidazole, tinidazol
 
 For warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction score is high and the mechanistic link to an already-approved myeloma drug is plausible. However, there are no clinical trials and no pomalidomide-specific literature in the indolent setting, so evidence is limited to model prediction and general disease reviews. Safety information from the PI has also not been reviewed.
-
-**To proceed, the following is needed:**
-- Pomalidomide-specific clinical data in smouldering myeloma (trials or published studies)
-- The approved indication text and the PI warnings and contraindications for the ARTG entry
-- Detailed mechanism of action data from DrugBank
-- A risk-benefit assessment for treating earlier-stage disease, including teratogenicity and the risk-management programme
-- Review of the Major drug interactions for the likely co-medications in this population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -48,33 +48,33 @@ The prediction is computational only and should be treated as a hypothesis.
 |------|------|
 | Original Indication | Not recorded in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Sulthiame is generally known as a carbonic anhydrase inhibitor used mainly as an antiepileptic. This background is general pharmacology and is not confirmed by the compiled data.
 
-Cauda equina syndrome is a compressive injury to the lumbosacral nerve roots. No plausible pharmacological rationale linking sulthiame to this condition is evident, and no mechanistic link is established. The high TxGNN score (99.97%) is a graph-based prediction only, with no clinical or literature support.
+Cauda equina syndrome is a compressive injury to the lumbosacral nerve roots. No plausible pharmacological rationale linking sulthiame to this condition is evident, and no mechanistic link is established. The high TxGNN score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There is no clinical or literature support.
 
 **Other predictions from the model** share the same limitation. All have an L5 evidence level, no trials, no publications, and a recommendation of Hold:
 
 | Rank | Predicted Indication | TxGNN Score |
 |------|------|------|
-| 2 | Obsolete neurogenic bladder (disease) | 99.94% |
-| 3 | Irritable bowel syndrome | 99.86% |
-| 4 | Neurocirculatory asthenia | 99.79% |
-| 5 | Anaphylaxis | 99.72% |
-| 6 | Food-dependent exercise-induced anaphylaxis | 99.62% |
-| 7 | Familial mitral valve prolapse | 99.49% |
-| 8 | Mitral valve prolapse (disease) | 99.48% |
-| 9 | MVP1 | 99.43% |
-| 10 | Autonomic nervous system disease | 99.35% |
+| 2 | Obsolete neurogenic bladder (disease) | 0.9994 |
+| 3 | Irritable bowel syndrome | 0.9986 |
+| 4 | Neurocirculatory asthenia | 0.9979 |
+| 5 | Anaphylaxis | 0.9972 |
+| 6 | Food-dependent exercise-induced anaphylaxis | 0.9962 |
+| 7 | Familial mitral valve prolapse | 0.9949 |
+| 8 | Mitral valve prolapse (disease) | 0.9948 |
+| 9 | MVP1 | 0.9943 |
+| 10 | Autonomic nervous system disease | 0.9935 |
 
-Several of these cluster together (autonomic themes, and three mitral valve prolapse entries). This suggests a shared graph signal rather than independent evidence. The "obsolete neurogenic bladder" entry is an outdated ontology term, so it may be a graph artefact.
+Several of these cluster together (autonomic themes, and three mitral valve prolapse entries). This suggests the TxGNN model (deep learning) is picking up similarities it learned between related diseases rather than independent evidence. The "obsolete neurogenic bladder" entry is an outdated ontology term, so its score may reflect these learned similarities rather than biological evidence.
 
 ## Clinical Trial Evidence
 

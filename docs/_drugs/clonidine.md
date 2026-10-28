@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Clonidine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 175
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Clonidine: predicted new indication Tourette syndrome (evidence level L3). Approved use: Hypertension, open-angle glaucoma, ADHD"
@@ -14,7 +14,7 @@ predicted_indications: ["faciodigitogenital syndrome", "specific developmental d
 # Clonidine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This report therefore focuses on Tourette syndrome, and the other predicted indi
 |------|------|
 | Original Indication | Hypertension, open-angle glaucoma, ADHD (the Australian ARTG entry lists no approved indication text) |
 | Predicted New Indication | Tourette syndrome (the highest-ranked prediction, faciodigitogenital syndrome, has no supporting evidence, so the best-supported prediction is evaluated instead) |
-| TxGNN Prediction Score | 99.98% (Tourette syndrome); 99.99% for the top-ranked faciodigitogenital syndrome |
-| Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9998 (Tourette syndrome); 0.9999 for the top-ranked faciodigitogenital syndrome |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -101,7 +101,7 @@ The data compiled for this report also cover nine other predictions. None has st
 | Predicted Indication | Evidence Level | Summary |
 |------|------|------|
 | Faciodigitogenital syndrome | L5 | Highest TxGNN rank, but no trials, no literature and no plausible mechanistic link |
-| Specific developmental disorder | L4 | Indirect support from narrative reviews and one animal study; the category is broad and no trials are listed |
+| Specific developmental disorder | L5 | Indirect support from narrative reviews and one animal study; the category is broad and no trials are listed |
 | Chondromyxoid fibroma | L5 | No evidence or mechanistic link |
 | Trichotillomania | L5 | Only a mouse study suggesting a noradrenergic link; no human evidence |
 | Obesity disorder | L3 | Two small mechanistic trials (one terminated Phase 2, one recruiting Phase 1) in obesity-related hypertension and inflammation; not weight-loss trials |

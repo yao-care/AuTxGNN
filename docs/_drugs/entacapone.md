@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Entacapone is a peripheral COMT inhibitor, originally used as an adjunct to levodopa in Parkinson disease and related parkinsonian syndromes.
-The TxGNN model predicts it may be effective for **PLA2G6-associated neurodegeneration** (score 99.76%), but **no clinical trials and no publications** currently support this prediction.
+The TxGNN model predicts it may be effective for **PLA2G6-associated neurodegeneration** (score 0.9976), but **no clinical trials and no publications** currently support this prediction.
 
 ## Quick Overview
 
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **PLA2G6-associated neurodegene
 |------|------|
 | Original Indication | Parkinson disease and related parkinsonian syndromes (per the knowledge graph; no approved indication text is recorded for the Australian entry) |
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -65,16 +65,16 @@ The TxGNN score is high, but it is a computational association. No trial or publ
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 1 | PLA2G6-associated neurodegeneration | 99.76% | L5 | Plausible only for parkinsonian features |
-| 2 | Rasmussen subacute encephalitis | 99.73% | L5 | No clear mechanistic link |
-| 3 | Myelitis | 99.63% | L5 | No established role for COMT inhibition |
-| 4 | Paralysis agitans, juvenile, of Hunt | 99.60% | L4 | Largely duplicates the existing Parkinson disease indication |
-| 5 | Transaldolase deficiency | 99.43% | L5 | No mechanistic link |
-| 6 | Lethal infantile mitochondrial myopathy | 99.28% | L5 | Theoretical mitochondrial concern, so caution is warranted |
-| 7 | Lewy body dementia | 99.25% | L4 | Shared alpha-synuclein pathology; indirect, preclinical support only |
-| 8 | Fructose-1,6-bisphosphatase deficiency | 99.22% | L5 | No mechanistic link |
-| 9 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 99.06% | L5 | Structural developmental disorder; no plausible role |
-| 10 | Progressive supranuclear palsy-corticobasal syndrome | 99.04% | L4 | Indirect rationale; often poor levodopa response |
+| 1 | PLA2G6-associated neurodegeneration | 0.9976 | L5 | Plausible only for parkinsonian features |
+| 2 | Rasmussen subacute encephalitis | 0.9973 | L5 | No clear mechanistic link |
+| 3 | Myelitis | 0.9963 | L5 | No established role for COMT inhibition |
+| 4 | Paralysis agitans, juvenile, of Hunt | 0.9960 | L5 | Largely duplicates the existing Parkinson disease indication |
+| 5 | Transaldolase deficiency | 0.9943 | L5 | No mechanistic link |
+| 6 | Lethal infantile mitochondrial myopathy | 0.9928 | L5 | Theoretical mitochondrial concern, so caution is warranted |
+| 7 | Lewy body dementia | 0.9925 | L5 | Shared alpha-synuclein pathology; indirect, preclinical support only |
+| 8 | Fructose-1,6-bisphosphatase deficiency | 0.9922 | L5 | No mechanistic link |
+| 9 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 0.9906 | L5 | Structural developmental disorder; no plausible role |
+| 10 | Progressive supranuclear palsy-corticobasal syndrome | 0.9904 | L5 | Indirect rationale; often poor levodopa response |
 
 Of these, Lewy body dementia and progressive supranuclear palsy-corticobasal syndrome are the most biologically coherent research questions. Juvenile parkinsonism is largely a duplicate of the approved use.
 

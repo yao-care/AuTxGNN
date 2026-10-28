@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Peginterferon Beta-1A
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 553
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Peginterferon Beta-1A: predicted new indication Heart neoplasm (evidence level L5). Approved use: Relapsing-remitting multiple sclerosis"
-monitor_inn: "Peginterferon beta-1a"
-predicted_indications: ["heart neoplasm", "congenital anomaly of ventricular septum", "heart conduction disease", "borderline ovarian serous tumor", "rete ovarii cystadenoma", "ovarian mucinous cystadenofibroma", "ovarian benign neoplasm", "ovarian papillary cystadenoma", "malignant ovarian Brenner tumor", "pericardium disease"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Peginterferon Beta-1A: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Peginterferon Beta-1A
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,47 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Peginterferon beta-1a: From Relapsing-Remitting Multiple Sclerosis to Heart Neoplasm
+<!-- known-uses-page -->
+<!-- description: Peginterferon Beta-1A: known uses and market status in Australia; currently no new candidate indication -->
+## Peginterferon Beta-1A: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model produced candidate indications for Peginterferon Beta-1A with a score of 0.99 or higher. Every candidate that can be traced to a source is already a known use, so there is currently no new predicted indication for this drug. The one known use is supported by a licence in another country.
 
-Peginterferon beta-1a is a long-acting interferon beta used to treat relapsing-remitting multiple sclerosis.
-The TxGNN model predicts it may be effective for **heart neoplasm**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Relapsing-remitting multiple sclerosis |
-| Predicted New Indication | Heart neoplasm |
-| TxGNN Prediction Score | 94.10% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, peginterferon beta-1a is a pegylated type I interferon that acts through type I interferon receptor signalling, with antiproliferative and immunomodulatory effects. Its efficacy in relapsing-remitting multiple sclerosis is established, and mechanistically these effects could plausibly relate to tumour biology.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| relapsing-remitting multiple sclerosis | licence in another country (approved indication: multiple sclerosis) |
 
-However, the link to heart neoplasm is weak. Cardiac tumours are rare and heterogeneous (for example myxoma, rhabdomyoma and metastatic disease), and no evidence was found that interferon beta has any role in them. The mechanistic rationale cannot be verified from the available data, so the prediction should be treated as a hypothesis only.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Other high-scoring predictions for this drug include congenital anomaly of ventricular septum (89.3%), heart conduction disease (89.3%), several ovarian tumours (88.0–88.9%) and pericardium disease (88.0%). None has supporting trials or literature. Several look like knowledge-graph proximity artefacts rather than biologically coherent signals. For the cardiac conditions, interferon-associated cardiac adverse events mean the safety direction would need review before any efficacy hypothesis is pursued.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10212L | Plegridy | Single use injection pen containing 125 micrograms in 0.5 mL | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 10212L | Plegridy | Single use injection pen containing 125  | Valid |
 
 ## Safety Considerations
 
@@ -83,19 +80,6 @@ Currently no related literature available.
 
 Warnings and contraindications were not available in the compiled data. Please refer to the TGA-approved Product Information (PI) for these.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by the model score (94.1%), with no clinical trials or publications and no verifiable mechanism for heart neoplasm. The same applies to the other top-ranked predictions. Safety data for the label are also missing.
-
-**To proceed, the following is needed:**
-- Mechanism of action data, to assess whether interferon beta signalling is relevant to cardiac tumour biology
-- Warnings and contraindications from the TGA-approved PI, and the approved indication text for the ARTG entry
-- A systematic literature and trial registry search (including ANZCTR) for interferon beta in cardiac or other tumours
-- Preclinical or mechanistic evidence in relevant tumour models before any clinical consideration
-- A cardiac safety review, given reported interferon-associated cardiac adverse events
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

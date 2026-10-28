@@ -4,17 +4,17 @@ title: Primidone
 parent: Model Prediction Only (L5)
 nav_order: 603
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (generalised tonic-clonic…"
 monitor_inn: "Primidone"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Primidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Primidone: From Epilepsy to Trigeminal Nerve Neoplasm
+## Primidone: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (generalised tonic-clonic, partial and Lennox-Gastaut seizures). The Australian licence record has no indication text, so this comes from the knowledge-graph indication data. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,12 +61,11 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 Currently, detailed mechanism of action data is not available. Primidone is a long-established antiseizure drug and is known to be metabolised in part to phenobarbital and phenylethylmalonamide (PEMA). Its efficacy in epilepsy is established, but this report cannot show a mechanistic route to the predicted tumour indication.
 
-The predicted indication, trigeminal nerve neoplasm, is a tumour of a cranial nerve, whereas primidone acts on seizure control. No plausible link between anticonvulsant action and tumour control has been established. The very high score is likely driven by network proximity to trigeminal-related neurological conditions and epilepsy in the knowledge graph, not by evidence of antitumour activity.
+The predicted indication, trigeminal nerve neoplasm, is a tumour of a cranial nerve, whereas primidone acts on seizure control. No plausible link between anticonvulsant action and tumour control has been established. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of antitumour activity.
 
 **Other predictions are more plausible.** Several lower-ranked predictions sit close to primidone's original use:
 
-- **Reflex seizure subtypes** (thinking, orgasm-induced, startle, eating, micturition-induced, audiogenic and reading seizures) all score about 99.98–99.99%. They fall within the antiseizure domain, but the supporting literature is indirect, consisting of general reviews, old case reports and animal studies.
-- **Trigeminal neuralgia** (score 99.98%) has a class-level rationale, because sodium-channel-blocking antiseizure drugs such as carbamazepine are used for it. The linked literature is mostly about carbamazepine and contains no primidone-specific efficacy data. It is flagged as a research question.
+- **Trigeminal neuralgia** (score 0.9998) has a class-level rationale, because sodium-channel-blocking antiseizure drugs such as carbamazepine are used for it. The linked literature is mostly about carbamazepine and contains no primidone-specific efficacy data. It is flagged as a research question.
 - **Beta-ketothiolase deficiency** has no literature and no mechanistic basis, and primidone's enzyme-inducing properties add caution in metabolic disease.
 
 ---

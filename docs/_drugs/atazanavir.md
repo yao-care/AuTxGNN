@@ -4,17 +4,17 @@ title: Atazanavir
 parent: Model Prediction Only (L5)
 nav_order: 64
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Atazanavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "Atazanavir"
-predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 ---
 
 # Atazanavir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Atazanavir is an HIV protease inhibitor, originally used to treat HIV infection and AIDS.
-The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome** (score 99.98%), but **no clinical trials and no publications** support this prediction.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome** (score 0.9998), but **no clinical trials and no publications** support this prediction.
 It is a model-only signal and should be treated as a hypothesis.
 
 ## Quick Overview
@@ -48,10 +48,10 @@ It is a model-only signal and should be treated as a hypothesis.
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the ARTG entry in the compiled data has no indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,10 +63,8 @@ Feline immunodeficiency virus (FIV) is a lentivirus related to HIV-1 and encodes
 This is also a veterinary condition. It is not a human indication that could be assessed for TGA registration or PBS listing.
 
 **Other predictions in the ranked list (for context):**
-- **Simian immunodeficiency virus infection** (score 99.98%, L4): Plausible mechanism, since SIV protease is broadly susceptible to HIV protease inhibitors. The only publication is a macaque study of combination antiretroviral therapy (PMID 20497048), which does not isolate atazanavir and has no direct clinical relevance.
-- **Congenital HIV** (score 99.71%, L3): Essentially the same disease as the approved indication, applied to perinatal settings. The literature covers safety and pharmacokinetics in pregnancy, not efficacy.
-- **AIDS related complex** (score 99.71%, L3): A historical term for symptomatic HIV disease, so this is a relabelling of the existing indication rather than true repurposing.
-- **Other predictions** (neurodevelopmental disorder, obsolete familial combined hyperlipidaemia, prostatic fibroma, Brenner tumour, benign reproductive neoplasms, benign prostate phyllodes tumour): No plausible mechanistic link, no trials and no literature. These are likely knowledge-graph artefacts.
+- **Simian immunodeficiency virus infection** (score 0.9998, L4): Plausible mechanism, since SIV protease is broadly susceptible to HIV protease inhibitors. The only publication is a macaque study of combination antiretroviral therapy (PMID 20497048), which does not isolate atazanavir and has no direct clinical relevance.
+- **Other predictions** (neurodevelopmental disorder, obsolete familial combined hyperlipidaemia, prostatic fibroma, Brenner tumour, benign reproductive neoplasms, benign prostate phyllodes tumour): No plausible mechanistic link, no trials and no literature. These are likely TxGNN model (deep learning) artefacts.
 
 ## Clinical Trial Evidence
 

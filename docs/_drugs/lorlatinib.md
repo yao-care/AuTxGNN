@@ -4,7 +4,7 @@ title: Lorlatinib
 parent: Model Prediction Only (L5)
 nav_order: 437
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Lorlatinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer"
 monitor_inn: "Lorlatinib"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Lorlatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lorlatinib: From ALK-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
+## Lorlatinib: From ALK-Positive Non-Small Cell Lung Cancer to fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Lorlatinib is an oral kinase inhibitor originally used to treat non-small cell lung cancer (NSCLC) and lung cancer.
-The TxGNN model ranks **gingival fibromatosis** as its top predicted new indication (score 99.81%), but **no clinical trials and no publications** support this prediction.
+The TxGNN model ranks **gingival fibromatosis** as its top predicted new indication (score 0.9981), but **no clinical trials and no publications** support this prediction.
 It is a computational signal only and should not be treated as actionable evidence.
 
 ---
@@ -50,10 +50,10 @@ It is a computational signal only and should not be treated as actionable eviden
 |------|------|
 | Original Indication | Non-small cell lung cancer; lung cancer (the ARTG indication text is not available in the data compiled for this report) |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,12 +62,11 @@ It is a computational signal only and should not be treated as actionable eviden
 
 Detailed mechanism of action data for lorlatinib is not available in the data compiled for this report. From the literature retrieved, lorlatinib is a brain-penetrant, third-generation ALK/ROS1 tyrosine kinase inhibitor. It is used in ALK-positive advanced NSCLC, where it has Phase 3 evidence (the CROWN study).
 
-The review found **no identifiable link** between ALK/ROS1 inhibition and gingival fibromatosis. The high TxGNN score appears to be a computational artefact of the knowledge graph rather than a biological rationale. Gingival fibromatosis is not known to be driven by ALK or ROS1 signalling.
+The review found **no identifiable link** between ALK/ROS1 inhibition and gingival fibromatosis. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Gingival fibromatosis is not known to be driven by ALK or ROS1 signalling.
 
 The other top-ranked predictions are similarly weak:
 
-- **Fibroma of lung, hamartoma of lung, lung benign neoplasm and pulmonary sulcus neoplasm** likely score highly because of their proximity to the approved lung cancer indication in the knowledge graph. They are not known to be ALK-driven. The publications retrieved for lung benign neoplasm concern ALK-positive NSCLC and cannot be transferred to benign tumours.
-- **Lung hilum carcinoma** is the most plausible prediction. ALK-positive disease would be expected to respond, but this is effectively within the approved NSCLC indication rather than true repurposing. The only supporting evidence is a single 2023 case report of pathological complete response after neoadjuvant lorlatinib.
+- **Fibroma of lung, hamartoma of lung, lung benign neoplasm and pulmonary sulcus neoplasm** likely score highly because the TxGNN model (deep learning) learned similarities between these diseases and the approved lung cancer indication, which may not reflect biological evidence. They are not known to be ALK-driven. The publications retrieved for lung benign neoplasm concern ALK-positive NSCLC and cannot be transferred to benign tumours.
 - **Lung germ cell tumour** has no direct evidence. The literature relates to ALK-driven neuroblastoma (including a Phase 1 trial), ALK-fusion glioma and pulmonary large-cell neuroendocrine carcinoma. This suggests activity in ALK-driven tumours generally, not in germ cell tumours.
 - **Inclusion body myopathy with Paget disease, junctional epidermolysis bullosa and the leukomelanoderma syndrome** have no mechanistic link to ALK signalling. The publications retrieved for the last of these are adverse-event reports, not therapeutic evidence.
 

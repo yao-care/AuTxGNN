@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB01255",
-      "display": "Xifaxan"
+      "reference": "MedicationKnowledge/DB01255"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "spinocerebellar-degeneration-with-slow-eye-movements",
-          "display": "spinocerebellar degeneration with slow eye movements"
-        }
-      ],
-      "text": "spinocerebellar degeneration with slow eye movements"
+      "concept": {
+        "text": "spinocerebellar degeneration with slow eye movements"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://autxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9994
     }
   ]
 }

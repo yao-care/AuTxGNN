@@ -4,17 +4,17 @@ title: Latanoprost
 parent: Model Prediction Only (L5)
 nav_order: 416
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Latanoprost: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma and ocular hypertension"
 monitor_inn: "Latanoprost"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
+description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Latanoprost: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Latanoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Latanoprost is a prostaglandin F2-alpha analogue eye drop, originally used for open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
+The TxGNN model predicts it may be effective for **visceral calciphylaxis**,
 but currently there are **0 clinical trials** and **0 publications** in the data compiled for this report, so this is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma and ocular hypertension (from the knowledge graph; no approved indication text is recorded in the ARTG data) |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.88% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Visceral calciphylaxis |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, latanoprost is a prostaglandin F2-alpha analogue that lowers intraocular pressure (IOP) by increasing uveoscleral outflow.
 
-Primary hereditary glaucoma (for example, primary congenital glaucoma) also involves raised IOP, so the prediction is a close extension of the approved indications rather than a true repurposing. The mechanism could plausibly apply.
 
 There are caveats. Developmental defects in the outflow pathway in congenital forms may reduce the response to treatment. Paediatric use would also need separate safety and efficacy review. No trials or publications support the link at this stage.
 
@@ -89,14 +88,13 @@ All of the top 10 predictions have Evidence Level L5, with no supporting trials 
 
 | Rank | Predicted Indication | TxGNN Score | Assessment |
 |---|---|---|---|
-| 1 | Primary hereditary glaucoma | 99.88% | Plausible; close to the approved use |
-| 2 | Visceral calciphylaxis | 99.83% | No clear mechanistic link |
-| 3 | Hypotrichosis simplex of the scalp | 99.81% | Biologically plausible (prostaglandin analogues stimulate hair growth; a related analogue is approved for eyelash hypotrichosis), but the genetic follicular defect may not respond. May merit a focused literature search |
-| 4–6 | Venous, arterial and neurogenic thoracic outlet syndrome | 99.72–99.78% | No credible mechanistic link (mechanical compression disorders) |
-| 7 | Congenital hypotrichosis milia | 99.71% | Similar rationale to rank 3, but a rare congenital disorder |
-| 8 | Angiodysplasia of stomach | 99.70% | No credible link; vasodilation could be undesirable in a bleeding lesion |
-| 9 | Blue toe syndrome | 99.69% | Speculative only; topical dosing gives no relevant systemic exposure |
-| 10 | Lymphangiectasis | 99.67% | Too indirect to support a hypothesis |
+| 2 | Visceral calciphylaxis | 0.9983 | No clear mechanistic link |
+| 3 | Hypotrichosis simplex of the scalp | 0.9981 | Biologically plausible (prostaglandin analogues stimulate hair growth; a related analogue is approved for eyelash hypotrichosis), but the genetic follicular defect may not respond. May merit a focused literature search |
+| 4–6 | Venous, arterial and neurogenic thoracic outlet syndrome | 99.72–0.9978 | No credible mechanistic link (mechanical compression disorders) |
+| 7 | Congenital hypotrichosis milia | 0.9971 | Similar rationale to rank 3, but a rare congenital disorder |
+| 8 | Angiodysplasia of stomach | 0.9970 | No credible link; vasodilation could be undesirable in a bleeding lesion |
+| 9 | Blue toe syndrome | 0.9969 | Speculative only; topical dosing gives no relevant systemic exposure |
+| 10 | Lymphangiectasis | 0.9967 | Too indirect to support a hypothesis |
 
 ## Conclusion and Next Steps
 

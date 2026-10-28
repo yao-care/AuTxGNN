@@ -4,17 +4,17 @@ title: Propylthiouracil
 parent: Moderate Evidence (L3-L4)
 nav_order: 610
 evidence_level: L4
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone re… (evidence level L4). Approved use: Hyperthyroidism, Graves disease, thyrotoxicosis, t…"
 monitor_inn: "Propylthiouracil"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia", "Hashimoto thyroiditis", "autoimmune thyroid disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "Prinzmetal angina", "primary hereditary glaucoma"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
+description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Propylthiouracil: From Hyperthyroidism to Resistance to Thyroid Hormone (THRB Mutation)
+## Propylthiouracil: Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction is best regarded as a network artefact rather than a credible new
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperthyroidism, Graves disease, thyrotoxicosis, thyroid crisis (the ARTG entry carries no indication text, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,20 +62,13 @@ The prediction is best regarded as a network artefact rather than a credible new
 
 Detailed mechanism of action data is not currently available. Based on known information, PTU is a thionamide that inhibits thyroid peroxidase and so reduces thyroid hormone synthesis. Its efficacy in hyperthyroidism is established.
 
-In resistance to thyroid hormone (RTH), tissues respond poorly to high circulating hormone levels. Lowering hormone output is generally not appropriate and may cause hypothyroid-like symptoms or TSH-driven goitre enlargement. The retrieved literature supports this caution. In one Thai case, the patient's goitre enlarged after 9 months of PTU given for presumed thyrotoxicosis. The high TxGNN score most likely reflects proximity to thyroid hormone pathways in the knowledge graph, not a therapeutic rationale.
+In resistance to thyroid hormone (RTH), tissues respond poorly to high circulating hormone levels. Lowering hormone output is generally not appropriate and may cause hypothyroid-like symptoms or TSH-driven goitre enlargement. The retrieved literature supports this caution. In one Thai case, the patient's goitre enlarged after 9 months of PTU given for presumed thyrotoxicosis. The high TxGNN score (0.9966) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and it is not a therapeutic rationale.
 
 ### Other Predictions Reviewed
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Neonatal thyrotoxicosis | 99.40% | L4 | Mechanistically plausible, but the evidence is indirect (PTU use in pregnancy) and hepatotoxicity limits use. It is an extension of the existing indication. |
-| 3 | Hyperthyroxinemia | 99.08% | L4 | Many forms are euthyroid or tissue-resistant, so treatment is not indicated. One MCT8 case report suggests a niche benefit. |
-| 4 | Hashimoto thyroiditis | 98.22% | L4 | Usually hypothyroid. PTU applies only to the transient thyrotoxic phase or coexisting Graves disease. |
-| 5 | Autoimmune thyroid disease | 98.02% | L1 (see note) | Overlaps with the approved Graves disease use. The L1 grade reflects Phase 3 trials for an on-label condition, not new-indication evidence. |
-| 6–7 | COL4A1-related syndromes | 96.62% / 96.49% | L5 | No trials, no literature, no plausible mechanism. |
-| 8 | Diabetic nephropathy | 94.98% | L5 | Speculative. PTU is linked to ANCA-positive vasculitis and glomerulonephritis. |
-| 9 | Prinzmetal angina | 90.41% | L4 | A single case report where angina was caused by thyrotoxicosis and resolved once PTU restored euthyroidism. This is indirect. |
-| 10 | Primary hereditary glaucoma | 90.11% | L5 | No plausible mechanism. |
+| 3 | Hyperthyroxinemia | 0.9908 | L4 | Many forms are euthyroid or tissue-resistant, so treatment is not indicated. One MCT8 case report suggests a niche benefit. |
 
 ---
 
@@ -157,7 +150,7 @@ Please refer to the TGA-approved Product Information (PI) for authoritative warn
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction has no clinical trials and only case reports and mouse models, and the mechanism argues against use because suppressing hormone synthesis is inappropriate in RTH. The more credible predictions (neonatal thyrotoxicosis, autoimmune thyroid disease, Prinzmetal angina secondary to thyrotoxicosis) are extensions of the existing hyperthyroidism indication, not new uses. PTU's hepatotoxicity also limits its role.
+The top-ranked prediction has no clinical trials and only case reports and mouse models, and the mechanism argues against use because suppressing hormone synthesis is inappropriate in RTH. PTU's hepatotoxicity also limits its role.
 
 **To proceed, the following is needed:**
 - TGA Product Information, to establish label warnings, contraindications and the approved indication text

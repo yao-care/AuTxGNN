@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data are not available in the data compiled for thi
 
 NSIAD is caused by gain-of-function variants of the vasopressin V2 receptor, which lead to water retention and low blood sodium. No established link connects NK1 receptor antagonism to this mechanism. Any connection, for example indirect modulation of water balance through neuropeptide signalling, is speculative.
 
-The high TxGNN score therefore reflects a statistical association in the knowledge graph and not a demonstrated biological rationale. It should be treated as a hypothesis only.
+The high TxGNN score therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -81,7 +81,7 @@ Fosaprepitant is a supportive-care antiemetic, not an antineoplastic agent, so n
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph signal, not label text)**: The TxGNN knowledge graph records a drug-disease contraindication edge with **liver failure**. This is not derived from the product label and should be verified against the TGA-approved Product Information (PI).
+- **Contraindications (model signal, not label text)**: The TxGNN model (deep learning) flags a possible contraindication with **liver failure**. This is not derived from the product label and may reflect similarities the model learned between related diseases, not biological evidence. It should be verified against the TGA-approved Product Information (PI).
 - **Drug Interactions**: 100 interactions were identified in total. The following are examples from the DDInter source.
   - **Major**: eliglustat, naloxegol
   - **Moderate**: corticosteroids (dexamethasone, hydrocortisone, betamethasone, budesonide, triamcinolone), clarithromycin, cimetidine, proton pump inhibitors (rabeprazole, lansoprazole), miconazole, pioglitazone, glimepiride, nateglinide, saxagliptin, alosetron, dronabinol, naldemedine
@@ -103,7 +103,7 @@ The prediction rests on model output alone (L5). There are no trials or publicat
 
 ## Other Predicted Indications (Context)
 
-The other top-ranked predictions are also model-only (L5) with no supporting trials or literature, and all carry a Hold recommendation. They are pneumocystosis, leprosy, cryptococcal meningitis, multiple endocrine neoplasia, intracranial abscess, *Plasmodium falciparum* malaria, echinococcosis and hyperargininemia. The exception is **retinitis** (rank 7, score 99.68%), which has L4 preclinical support from one mouse study (PMID [32058829](https://pubmed.ncbi.nlm.nih.gov/32058829/), 2021, *Ocular Immunology and Inflammation*). That study showed fosaprepitant blocked UVR-B-induced NK1R expression in ocular tissues. It used a UV-induced injury model and not clinical retinitis, so its translational relevance is uncertain. It is classed as a research question and not a development candidate.
+The other top-ranked predictions are also model-only (L5) with no supporting trials or literature, and all carry a Hold recommendation. They are pneumocystosis, leprosy, cryptococcal meningitis, multiple endocrine neoplasia, intracranial abscess, *Plasmodium falciparum* malaria, echinococcosis and hyperargininemia. The exception is **retinitis** (rank 7, score 0.9968), which has L4 preclinical support from one mouse study (PMID [32058829](https://pubmed.ncbi.nlm.nih.gov/32058829/), 2021, *Ocular Immunology and Inflammation*). That study showed fosaprepitant blocked UVR-B-induced NK1R expression in ocular tissues. It used a UV-induced injury model and not clinical retinitis, so its translational relevance is uncertain. It is classed as a research question and not a development candidate.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

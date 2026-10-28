@@ -4,17 +4,17 @@ title: Azathioprine
 parent: Model Prediction Only (L5)
 nav_order: 77
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Azathioprine: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
+indication_count: 7
 monitor_inn: "Azathioprine"
-predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
+last_modified_at: 2026-10-27
+description: "Azathioprine: predicted new indication colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Azathioprine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,30 +33,30 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Azathioprine: From Rheumatoid Arthritis to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+## Azathioprine: purine antimetabolite immunosuppressant → colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Azathioprine is an oral immunosuppressant, listed in the knowledge graph for **rheumatoid arthritis**. The TxGNN model ranks **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, a rare developmental disorder, as its top prediction, with a very high score. **No clinical trials and no publications** support this prediction, and no plausible mechanism has been identified, so it is most likely a knowledge-graph artefact.
+Azathioprine is an oral immunosuppressant (a purine antimetabolite) that is marketed in Australia. The TxGNN model predicts it may be relevant to **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, an ultra-rare developmental malformation syndrome. **No clinical trials and no publications** in the data compiled for this report support this prediction, so it is a computational signal only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis (from the knowledge graph; no approved indication text is available for the Australian product) |
-| Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| TxGNN Prediction Score | 1.0000 (rounded to 4 decimals) |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data were not available for this report. Azathioprine is a thiopurine prodrug. It is converted to 6-mercaptopurine and then to thioguanine nucleotides, which inhibit purine synthesis and suppress lymphocyte activity. This explains its use in immune-mediated conditions such as rheumatoid arthritis.
+Detailed mechanism-of-action data for azathioprine are not available in the data compiled for this report. Azathioprine is generally understood as a purine antimetabolite that suppresses lymphocyte proliferation and so dampens immune-mediated disease.
 
-The predicted condition is a rare developmental and skeletal syndrome, not an immune-mediated disease. Purine-synthesis inhibition and immunosuppression have no plausible role in its pathogenesis. The very high TxGNN score most likely reflects artefacts of the knowledge graph rather than a genuine biological link. The prediction should not be taken as a therapeutic hypothesis without independent supporting evidence.
+The predicted condition is a congenital developmental syndrome affecting the eye and skeleton. No immune-mediated or inflammatory driver is recognised that azathioprine's action would plausibly target, so no mechanistic link can be established. The high TxGNN score reflects a network-based computational prediction only. It is not evidence of clinical benefit.
 
 ## Clinical Trial Evidence
 
@@ -68,32 +68,28 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 2687K | APO-Azathioprine | Tablet 50 mg (oral) | Not stated in the data compiled for this report |
+Azathioprine is currently marketed in Australia. The data compiled for this report record one valid single-ingredient product, an oral 50 mg tablet.
 
 ## Safety Considerations
 
-The data compiled for this report contain no label-based warnings or contraindications. Please refer to the TGA-approved Product Information (PI) for safety information.
+- **Drug Interactions:** The interaction screen returned 100 recorded interactions. The main entries listed in the compiled data are:
+  - **Moderate:** mesalazine, balsalazide, olsalazine and sulfasalazine.
+  - **Minor:** zinc acetate, zinc gluconate and zinc sulfate.
+  - **Level not classified:** several other agents, including aspirin, omeprazole, pantoprazole, metformin, doxycycline, amphotericin B and morphine.
 
-- **Knowledge-graph contraindication signals** (not taken from label text): pancreatitis, thrombocytopenia, anaemia (including macrocytic anaemia), impaired renal function, infectious disease (including fungal infection and dermatophytosis), lymphoma (including primary CNS lymphoma, lymphosarcoma and hepatosplenic T-cell lymphoma), hepatic vein thrombosis and Budd-Chiari syndrome.
-- **Drug interactions:** 100 interactions were recorded, and the 20 listed in the data are summarised here.
-  - Moderate: mesalazine, balsalazide, olsalazine and sulfasalazine.
-  - Minor: zinc acetate, zinc gluconate and zinc sulfate.
-  - Severity not classified: epinephrine, amphotericin B, acetylsalicylic acid, calcitriol, pantoprazole, glimepiride, doxycycline, clotrimazole, morphine, metformin, omeprazole, sucralfate and rosiglitazone.
+Warnings and contraindications were not captured in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information. Azathioprine is myelosuppressive and increases infection risk, so any use in a new, unstudied population needs careful consideration.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction has no trials, no literature and no plausible mechanism, and the score likely reflects knowledge-graph artefacts. Azathioprine would also add immunosuppression and myelosuppression risk for no demonstrated benefit.
-- Two other candidates in the data are better supported. **Inflammatory bowel disease** has multiple Phase 3 and 4 trials and substantial literature. **Ulcerative colitis** has several Cochrane reviews supporting maintenance of remission. Both are established, guideline-supported uses, so they confirm known practice rather than represent novel repurposing. If a candidate is to be progressed, it should be one of these, with TPMT/NUDT15 testing, blood count and liver monitoring, and malignancy and infection surveillance.
+The prediction rests on a model score alone. There are no supporting trials or publications, and no plausible immune-mediated mechanism links azathioprine to this developmental syndrome.
 
 **To proceed, the following is needed:**
-- Any mechanistic or genetic rationale linking azathioprine to the predicted syndrome, before any further work on it.
-- The TGA Product Information (warnings, contraindications and approved indications) for the ARTG-listed product, as this was not available.
-- Detailed mechanism-of-action data for azathioprine.
+- Published or registered studies that directly address colobomatous microphthalmia-rhizomelic dysplasia syndrome
+- A mechanistic rationale, supported by detailed mechanism-of-action data for azathioprine
+- Safety information from the TGA-approved PI, including warnings and contraindications, and a risk assessment for the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

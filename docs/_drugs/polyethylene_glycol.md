@@ -6,9 +6,9 @@ nav_order: 582
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Constipation disorder"
 monitor_inn: "polyethylene glycol"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
+description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Polyethylene Glycol
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Polyethylene Glycol: From Constipation and Dry Eye to Congenital Ichthyosiform Erythroderma
+## Polyethylene Glycol: Congenital ichthyosiform erythroderma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Constipation disorder; dry eye syndrome; xerophthalmia (from the knowledge graph; no approved indication text is available in the ARTG data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital ichthyosiform erythroderma |
-| TxGNN Prediction Score | 99.03% |
+| TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,7 +80,7 @@ The only registered product is an ophthalmic preparation. No topical dermatologi
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** The knowledge graph links PEG-containing products to contraindications in several disease groups. These come from drug-disease graph edges and may reflect other PEG formulations (such as bowel preparations) rather than the eye drops:
+- **Contraindications (TxGNN model associations, not label text):** The TxGNN model (deep learning) links PEG-containing products to contraindications in several disease groups. These come from the model's learned similarities between related diseases, not biological evidence, and may reflect other PEG formulations (such as bowel preparations) rather than the eye drops:
   - Cardiovascular and renal: hypertension, congestive heart failure, cardiovascular disease, kidney disease, anuria
   - Gastrointestinal: ileus, paralytic ileus, intestinal obstruction, toxic megacolon, pyloric stenosis, familial visceral myopathy, appendicitis
   - Metabolic and endocrine: hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, hyperthyroidism, Graves disease, thyrotoxicosis

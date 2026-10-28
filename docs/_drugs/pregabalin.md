@@ -4,17 +4,17 @@ title: Pregabalin
 parent: Model Prediction Only (L5)
 nav_order: 602
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Anxiety disorder, fibromyalgia, myofascial pain syndrome…"
 monitor_inn: "Pregabalin"
-predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura", "osteoarthritis susceptibility", "osteoarthritis", "headache disorder", "atrophoderma vermiculata"]
+predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
+description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pregabalin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pregabalin: From Postherpetic Neuralgia and Fibromyalgia to Tendinitis
+## Pregabalin: Tendinitis (top-ranked); osteoarthritis has the strongest supporting evidence (tendinitis)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model's top-ranked prediction is **tendinitis**, but it has **no regis
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, fibromyalgia, myofascial pain syndrome, postherpetic neuralgia (the approved indication text for the Australian product is not available) |
-| Predicted New Indication | Tendinitis (top-ranked); osteoarthritis has the strongest supporting evidence |
-| TxGNN Prediction Score | 99.71% (tendinitis) |
-| Evidence Level | L4 for tendinitis (L1 for osteoarthritis and headache disorder; L2 for migraine disorder) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Tendinitis (top-ranked); osteoarthritis has the strongest supporting evidence (tendinitis) |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 for tendinitis (L1 for osteoarthritis and headache disorder; L2 for migraine disorder) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold for tendinitis; Proceed with Guardrails is worth considering for osteoarthritis pain |
 
 ## Why is This Prediction Reasonable?
@@ -61,13 +61,13 @@ For **tendinitis**, the link is indirect. Tendinitis is mainly inflammatory and 
 
 The other predictions are more plausible:
 
-- **Osteoarthritis:** Pregabalin may reduce central sensitisation and neuropathic-like pain in osteoarthritis. This would be symptom control, not disease modification.
+- This would be symptom control, not disease modification.
 - **Migraine and headache disorders:** Preclinical work shows pregabalin raises the threshold for cortical spreading depression, a plausible basis for migraine prophylaxis.
 - **Myositis fibrosa, idiopathic granulomatous myositis, inclusion body myositis, osteoarthritis susceptibility and atrophoderma vermiculata:** These are prediction-only, with no supportive evidence. Any role would be limited to symptomatic pain relief at most.
 
 ## Clinical Trial Evidence
 
-There are **no registered clinical trials** for tendinitis. The table below shows trials for the best-supported predicted indication, **osteoarthritis** (most relevant of 10 listed). Findings are summarised from registry descriptions only, and results have not been verified.
+There are **no registered clinical trials** for tendinitis. Findings are summarised from registry descriptions only, and results have not been verified.
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -83,7 +83,6 @@ There are **no registered clinical trials** for tendinitis. The table below show
 
 Other predicted indications with trials:
 
-- **Headache disorder:**
   - [NCT06271486](https://clinicaltrials.gov/study/NCT06271486): Phase 3, completed, n=75. Pregabalin as an alternative to epidural blood patch for postdural puncture headache.
   - [NCT03910088](https://clinicaltrials.gov/study/NCT03910088): Phase 4, completed, n=30. Pregabalin vs hydrocortisone for postdural puncture headache.
 - **Migraine disorder:** [NCT00447369](https://clinicaltrials.gov/study/NCT00447369) (Phase 3, n=70, pregabalin vs sodium valproate) was **withdrawn**, so it yields no efficacy data.
@@ -115,7 +114,7 @@ No literature directly addresses pregabalin for tendinitis. The most relevant pu
 
 - **Contraindications from the knowledge graph:** The TxGNN knowledge graph lists drug-disease contraindication links, which are not drawn from label text. They include thrombocytopenia, several forms of angioedema, myopathy and other muscle diseases (including rhabdomyolysis), impaired renal function and atrioventricular block. Some of these may reflect warnings and precautions, so they should be checked against the PI.
 - **Drug interactions:** The interaction screen returned 100 records. The **Major** interactions identified are with **morphine** (including liposomal morphine), which is consistent with additive central nervous system and respiratory depression. **Moderate** interactions include diphenoxylate, difenoxin, dronabinol, nabilone, opium, metoclopramide, sibutramine and the thiazolidinediones (pioglitazone, rosiglitazone, troglitazone).
-- **Adverse effects noted in the literature:** The opioid co-prescribing and sleep-apnoea literature, and dizziness and sedation in the osteoarthritis evidence, suggest particular care in patients also taking opioids. Sexual dysfunction and abuse potential have also been described.
+- Sexual dysfunction and abuse potential have also been described.
 
 For label warnings and contraindications, please refer to the TGA-approved Product Information (PI).
 
@@ -124,13 +123,12 @@ For label warnings and contraindications, please refer to the TGA-approved Produ
 **Decision: Hold (tendinitis)**
 
 **Rationale:**
-- The tendinitis prediction has the highest TxGNN score (99.71%) but no registered trials and only indirect literature. The mechanistic link is limited to possible neuropathic pain components.
-- Osteoarthritis (Phase 3 and Phase 4 trials, plus a 2026 meta-analysis) and headache disorder (a completed Phase 3 trial in post-dural puncture headache) are better supported. Their evidence concerns symptom control in specific settings, so they would need cautious, guarded evaluation.
+- The tendinitis prediction has the highest TxGNN score (0.9971) but no registered trials and only indirect literature. The mechanistic link is limited to possible neuropathic pain components.
+- Their evidence concerns symptom control in specific settings, so they would need cautious, guarded evaluation.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and the TGA Product Information (including approved indications, warnings and contraindications), both currently missing
 - For tendinitis, a focused literature review or a pilot trial in tendinopathy with neuropathic features
-- For osteoarthritis, a review of the actual results of NCT00442546 and the 2026 meta-analysis, weighing effect size against dizziness and sedation
 - A plan for managing opioid co-prescribing and renal impairment
 ## Disclaimer
 

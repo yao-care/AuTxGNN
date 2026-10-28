@@ -4,17 +4,17 @@ title: Brivaracetam
 parent: Model Prediction Only (L5)
 nav_order: 110
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Brivaracetam: predicted new indication Visual epilepsy (evidence level L5). Approved use: Partial epilepsy"
+indication_count: 1
 monitor_inn: "Brivaracetam"
 predicted_indications: ["beta-ketothiolase deficiency"]
+last_modified_at: 2026-10-27
+description: "Brivaracetam: predicted new indication beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Brivaracetam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,111 +33,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Brivaracetam: From Partial Epilepsy to Status Epilepticus
+## Brivaracetam: SV2A-binding antiseizure medicine → beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Brivaracetam is an antiseizure medicine originally used for partial (focal) epilepsy.
-The TxGNN model ranks **visual epilepsy** as its top prediction, but the best-supported prediction in the data compiled for this report is **status epilepticus**, with **1 completed clinical trial** and **19 publications** (including two systematic reviews of intravenous brivaracetam).
-Evidence for status epilepticus is mostly observational, so it remains at a preliminary level.
-
----
+Brivaracetam is an antiseizure medicine marketed in Australia as an oral tablet.
+The TxGNN model predicts it may be relevant to **beta-ketothiolase deficiency**, but **no clinical trials and no publications** currently support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Partial epilepsy; partial motor epilepsy (the Australian licence entry has no indication text) |
-| Predicted New Indication | Visual epilepsy (rank 1); status epilepticus (rank 2) is the best-supported candidate and is evaluated in detail below |
-| TxGNN Prediction Score | 99.51% for visual epilepsy; 99.40% for status epilepticus |
-| Evidence Level | Visual epilepsy: L4 (indirect). Status epilepticus: L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Visual epilepsy: Hold (research question only). Status epilepticus: Proceed with Guardrails |
-
----
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | beta-ketothiolase deficiency |
+| TxGNN Prediction Score | 0.9914 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the literature, brivaracetam is a high-affinity ligand of synaptic vesicle protein 2A (SV2A), a propyl analogue of levetiracetam. It binds SV2A with roughly 15 to 30 times the affinity of levetiracetam and penetrates the brain rapidly. Binding to SV2A reduces synaptic vesicle-mediated neurotransmitter release.
+Detailed mechanism of action data is not available in the data compiled for this report. Brivaracetam is generally understood to act through modulation of synaptic vesicle protein 2A (SV2A), but this is background knowledge and not drawn from the compiled data.
 
-**Visual epilepsy (top-ranked prediction).** Visual (photosensitive or occipital) epilepsy is a seizure disorder in the same therapeutic area as the approved focal seizure indication, so a shared antiseizure mechanism is plausible. However, no trial or study specific to visual epilepsy was found. The retrieved literature consists of general epilepsy and status epilepticus reviews and an adjunctive focal-onset seizure trial, all indirect.
-
-**Status epilepticus (best-supported prediction).** Intravenous brivaracetam has a rapid onset of action, which suits emergency seizure control, and it is used off-label in this setting. One paper also examines brivaracetam against levetiracetam using the photosensitivity model, which links to the visual epilepsy prediction.
-
----
+Beta-ketothiolase deficiency is an inherited metabolic disorder of ketone body and isoleucine breakdown. No clear mechanistic link to SV2A modulation was identified, apart from the possibility of seizures during metabolic decompensation. The high model score is likely an artefact of the model's pattern-matching rather than evidence of a true pharmacological relationship. The similarity to the drug's existing use has not been assessed.
 
 ## Clinical Trial Evidence
 
-Evidence below relates to status epilepticus. No clinical trials were registered for visual epilepsy.
-
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT07163572](https://clinicaltrials.gov/study/NCT07163572) | Not applicable | Completed | 152 | IV brivaracetam vs levetiracetam in paediatric status epilepticus; no results provided in the data compiled |
-
-No ANZCTR trial identifiers were found in the data compiled.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Evidence below relates to status epilepticus (priority given to systematic reviews and directly relevant studies).
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [41838218](https://pubmed.ncbi.nlm.nih.gov/41838218/) | 2026 | Systematic review | J Neurol | Brivaracetam for status epilepticus; efficacy and safety described as inadequately characterised |
-| [32278203](https://pubmed.ncbi.nlm.nih.gov/32278203/) | 2020 | Systematic review | J Neurol Sci | IV brivaracetam may be an alternative anticonvulsant; controlled studies are sparse |
-| [31342405](https://pubmed.ncbi.nlm.nih.gov/31342405/) | 2019 | Systematic review | CNS Drugs | IV brivaracetam's rapid onset and brain permeability make it potentially suited to emergencies |
-| [32822230](https://pubmed.ncbi.nlm.nih.gov/32822230/) | 2020 | Review | Epilepsy Curr | American Epilepsy Society review of parenteral antiseizure medicines in refractory convulsive status epilepticus |
-| [26891946](https://pubmed.ncbi.nlm.nih.gov/26891946/) | 2016 | Review | Expert Rev Clin Pharmacol | Brivaracetam in focal and idiopathic generalised epilepsies and status epilepticus |
-| [31260101](https://pubmed.ncbi.nlm.nih.gov/31260101/) | 2019 | Multicentre registry | Epilepsia | Use of IV brivaracetam in status epilepticus |
-| [33561784](https://pubmed.ncbi.nlm.nih.gov/33561784/) | 2021 | Retrospective study | Seizure | Italian multicentre retrospective study of IV brivaracetam in status epilepticus |
-| [41043236](https://pubmed.ncbi.nlm.nih.gov/41043236/) | 2025 | Real-world study | Epilepsy Behav | Switching from IV to oral brivaracetam after status epilepticus and cluster seizures |
-| [32480279](https://pubmed.ncbi.nlm.nih.gov/32480279/) | 2020 | Case series | Seizure | Brivaracetam in absence status epilepticus |
-| [36528008](https://pubmed.ncbi.nlm.nih.gov/36528008/) | 2023 | Review | Epilepsy Behav | Brivaracetam vs levetiracetam in status epilepticus, drawing on the photosensitivity model |
-
-For visual epilepsy, the top-ranked prediction, the retrieved literature is general (epilepsy reviews and one adjunctive focal-onset trial, [PMID 38576178](https://pubmed.ncbi.nlm.nih.gov/38576178/)) and does not address the condition directly.
-
----
+Currently no related literature available.
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Licence 11327E | Briviact | Tablet 25 mg (oral) | Not listed in the data compiled |
-
-Only the oral tablet is recorded. The intravenous formulation relevant to status epilepticus is not listed in the data compiled, so route availability needs confirming.
-
----
+| ARTG 11327E | Briviact | Tablet 25 mg | Not recorded in the local data |
 
 ## Safety Considerations
 
-- **Drug Interactions:** 69 interactions were recorded. Examples at moderate level include morphine (including liposomal), opium, dronabinol, nabilone, metoclopramide, promethazine, ethanol, diphenoxylate, difenoxin, sibutramine and clopidogrel. This pattern suggests additive central nervous system depression with opioids, cannabinoids, alcohol and sedating agents. Minor interactions include proton pump inhibitors (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole), sulfonylureas (chlorpropamide, tolbutamide) and cilostazol.
-- **Behavioural adverse events:** Published reviews describe irritability, anger and aggression with brivaracetam and related agents (see [PMID 33839453](https://pubmed.ncbi.nlm.nih.gov/33839453/)).
+- **Drug Interactions**: 69 potential interactions were recorded. Those listed as moderate include:
+  - Opioids and related agents: morphine (including liposomal), opium, diphenoxylate, difenoxin
+  - Cannabinoids: dronabinol, nabilone
+  - CNS-active or sedating agents: ethanol, promethazine, metoclopramide, sibutramine
+  - Antiplatelet: clopidogrel
+- Minor interactions include proton pump inhibitors (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole), sulfonylureas (chlorpropamide, tolbutamide) and cilostazol.
 
 Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
----
-
 ## Conclusion and Next Steps
 
-**Decision:**
-- **Status epilepticus: Proceed with Guardrails** (L3)
-- **Visual epilepsy: Hold, as a research question only** (L4, no direct evidence)
-- **Other lower-ranked predictions** (orgasm-induced seizures, thinking seizures, startle epilepsy, eating seizures, beta-ketothiolase deficiency, and the autosomal dominant epilepsy with auditory features): Hold, with no trials or literature. Audiogenic seizures and micturition-induced seizures have only indirect preclinical or general literature support. The beta-ketothiolase deficiency score is likely a graph artefact.
+**Decision: Hold**
 
 **Rationale:**
-- Status epilepticus has two systematic reviews, several registries and retrospective studies, and one completed paediatric trial without a phase designation or results. This is enough to support a guarded pathway but not to raise the evidence level above L3.
-- Visual epilepsy has the highest model score but no direct study.
+The prediction rests on model output alone. No trials or publications address beta-ketothiolase deficiency, and no plausible mechanistic link was identified.
 
 **To proceed, the following is needed:**
-- Results from NCT07163572, and ideally a randomised controlled trial of IV brivaracetam in status epilepticus
-- Confirmation of whether an IV brivaracetam product is registered in Australia, and its approved indications
-- TGA Product Information warnings and contraindications (a blocking gap for safety screening)
-- Detailed mechanism of action data
-- A direct study of brivaracetam in visual (photosensitive) epilepsy before this prediction is advanced
-- A review of interaction risk with opioids, alcohol and other sedating agents in acute care settings
+- Mechanistic evidence linking brivaracetam to the pathophysiology of beta-ketothiolase deficiency
+- Preclinical or clinical studies in this disease
+- Product Information warnings and contraindications for a safety review
+- Assessment of the clinical need, given that existing management of this condition is metabolic (dietary and acute-illness care)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

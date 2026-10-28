@@ -4,7 +4,7 @@ title: Ceritinib
 parent: Model Prediction Only (L5)
 nav_order: 146
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Ceritinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer"
 monitor_inn: "Ceritinib"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Ceritinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ceritinib: From ALK-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
+## Ceritinib: From ALK-Positive Non-Small Cell Lung Cancer to fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **hereditary gingival fibromato
 |------|------|
 | Original Indication | Non-small cell lung cancer; lung cancer (approved indication text for the ARTG entry is not available) |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Ceritinib is known from the literature to inhibit ALK, ROS1 and IGF-1R, and its efficacy in ALK-rearranged NSCLC has been established.
 
-No established role for these targets in hereditary gingival fibromatosis was found in the data compiled. Gingival fibromatosis is a benign overgrowth of gum tissue and is biologically unrelated to ALK-driven lung cancer. The high TxGNN score (99.86%) therefore reflects a knowledge-graph pattern rather than a demonstrated mechanistic link, and the prediction should be treated as speculative.
+No established role for these targets in hereditary gingival fibromatosis was found in the data compiled. Gingival fibromatosis is a benign overgrowth of gum tissue and is biologically unrelated to ALK-driven lung cancer. The high TxGNN score (0.9986) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction should be treated as speculative.
 
 ### Other Predictions Reviewed
 

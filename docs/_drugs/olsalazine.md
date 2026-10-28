@@ -48,17 +48,17 @@ This is a model-only prediction with no clinical evidence behind it.
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (the ARTG indication text is blank) |
 | Predicted New Indication | Myelodysplastic syndrome |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Olsalazine is known to be a dimer of 5-ASA that colonic bacteria cleave into two active molecules. It acts locally in the gut, and systemic exposure to the active moiety is low.
 
-No plausible link between a locally acting colonic anti-inflammatory agent and bone marrow or haematopoietic disease can be established from the data compiled. The high score is most likely a network-proximity effect within the knowledge graph, not true pharmacology. Several other top predictions are closely related conditions (myelodysplastic syndrome subtypes, del(5q), and cytopenias or anaemias). They probably reflect the same graph cluster and do not count as independent evidence.
+No plausible link between a locally acting colonic anti-inflammatory agent and bone marrow or haematopoietic disease can be established from the data compiled. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Several other top predictions are closely related conditions (myelodysplastic syndrome subtypes, del(5q), and cytopenias or anaemias). They probably reflect the same learned similarities and do not count as independent evidence.
 
 The remaining top-ranked predictions are alopecia-related conditions (alopecia, diffuse alopecia areata, hypotrichosis simplex of the scalp, congenital hypotrichosis milia). For autoimmune hair loss, a speculative anti-inflammatory rationale exists, but minimal systemic absorption limits its relevance, and established therapies have much stronger evidence.
 

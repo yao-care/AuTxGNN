@@ -4,17 +4,17 @@ title: Cytarabine
 parent: Moderate Evidence (L3-L4)
 nav_order: 191
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Cytarabine: predicted new indication Small cell lung carcinoma (evidence level L4). Approved use: Acute lymphoblastic leukaemia and acute myeloid leukaemia (including…"
 monitor_inn: "Cytarabine"
-predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
+predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
 ---
 
 # Cytarabine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,13 +47,13 @@ The TxGNN model predicts it may be effective for **small cell lung carcinoma**, 
 |------|------|
 | Original Indication | Acute lymphoblastic leukaemia and acute myeloid leukaemia (including several AML subtypes) |
 | Predicted New Indication | Small cell lung carcinoma |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-*Note: the data compiled for this report list no approved indication text for the Australian product, so the original indication above comes from the knowledge-graph indication edges used by the model.*
+*Note: the data compiled for this report list no approved indication text for the Australian product, so the original indication above comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.*
 
 ## Why is This Prediction Reasonable?
 

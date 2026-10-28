@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00445",
-      "display": "Xifaxan"
+      "reference": "MedicationKnowledge/DB00445"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "lung-mixed-small-cell-and-squamous-cell-carcinoma",
-          "display": "lung mixed small cell and squamous cell carcinoma"
-        }
-      ],
-      "text": "lung mixed small cell and squamous cell carcinoma"
+      "concept": {
+        "text": "lung mixed small cell and squamous cell carcinoma"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://autxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9917
     }
   ]
 }

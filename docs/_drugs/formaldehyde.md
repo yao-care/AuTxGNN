@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Formaldehyde is listed in the knowledge graph with an original association to influenza, most likely reflecting its historical use to inactivate viruses in vaccine manufacturing. The TxGNN model predicts it may be relevant to **diffuse cutaneous leishmaniasis**, but **no clinical trials and no supporting publications** were found for this prediction. This is a model-only signal, and the drug's toxicity profile argues strongly against therapeutic repurposing.
+Formaldehyde has an original association to influenza, most likely reflecting its historical use to inactivate viruses in vaccine manufacturing. The TxGNN model (deep learning) predicts it may be relevant to **diffuse cutaneous leishmaniasis** (score 0.9993). This score comes from the TxGNN model and may reflect similarities the model learned between related diseases, not biological evidence. **No clinical trials and no supporting publications** were found for this prediction. This is a model-only signal, and the drug's toxicity profile argues strongly against therapeutic repurposing.
 
 ## Quick Overview
 
@@ -46,17 +46,17 @@ Formaldehyde is listed in the knowledge graph with an original association to in
 |------|------|
 | Original Indication | Influenza (from the knowledge graph; no approved indication text is recorded for the Australian entry) |
 | Predicted New Indication | Leishmaniasis, diffuse cutaneous |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this drug. Formaldehyde is known as a non-selective cross-linking agent and tissue fixative. It reacts with proteins and nucleic acids, which is why it is used to inactivate viruses and toxins in vaccine production and to preserve tissue.
 
-The link between influenza and diffuse cutaneous leishmaniasis is weak. The first is a viral respiratory infection, and the second is a parasitic skin disease caused by an intracellular protozoan. The high TxGNN score appears to be a graph-based association. It does not reflect a demonstrated therapeutic mechanism.
+The link between influenza and diffuse cutaneous leishmaniasis is weak. The first is a viral respiratory infection, and the second is a parasitic skin disease caused by an intracellular protozoan. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It does not reflect a demonstrated therapeutic mechanism.
 
 Formaldehyde's cross-linking activity is not selective. It cannot be used safely in the body to target intracellular *Leishmania* parasites. It is also classified as a human carcinogen (IARC Group 1), so there is no plausible route to systemic therapeutic use for this disease.
 
@@ -95,7 +95,7 @@ The literature compiled for this report consistently identifies formaldehyde as 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph-based score alone, with no clinical trials and no relevant publications. Formaldehyde is a non-selective, carcinogenic cross-linking agent, so there is no plausible route to safe therapeutic use for diffuse cutaneous leishmaniasis or the other predicted conditions.
+The prediction rests on a TxGNN model (deep learning) score alone, which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials and no relevant publications. Formaldehyde is a non-selective, carcinogenic cross-linking agent, so there is no plausible route to safe therapeutic use for diffuse cutaneous leishmaniasis or the other predicted conditions.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data

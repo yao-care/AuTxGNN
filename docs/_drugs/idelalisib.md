@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Idelalisib
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 366
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Idelalisib: predicted new indication Mantle cell lymphoma (evidence level L5). Approved use: Follicular lymphoma, CLL/SLL and other B-cell malignancies"
 monitor_inn: "Idelalisib"
@@ -14,7 +14,7 @@ predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid le
 # Idelalisib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The evidence is early and does not yet show clear efficacy in this disease.
 |------|------|
 | Original Indication | Follicular lymphoma, CLL/SLL and other B-cell malignancies (the ARTG record compiled for this report has no indication text) |
 | Predicted New Indication | Mantle cell lymphoma |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L2 (see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* The data compiled for this report assigns L2, but the supporting trials for mantle cell lymphoma are Phase 1 studies plus one terminated Phase 2 study that enrolled mixed populations. By the stated criteria (a completed Phase 2/3 RCT) this is better read as L3–L4 for this specific indication, so L2 is likely generous. I have therefore recommended Hold rather than a more permissive decision.

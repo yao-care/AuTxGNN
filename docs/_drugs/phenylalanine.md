@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 |------|------|
 | Original Indication | Not recorded in the data compiled for this report |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 2 |
+| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -65,7 +65,7 @@ The three publications retrieved do not support a therapeutic role:
 
 Aromatic amino acid metabolism may be altered in cholestatic liver disease, but that is a disease-state observation and not a rationale for supplementation. The high score most likely reflects network proximity rather than a biological mechanism.
 
-A second prediction, congenital prothrombin deficiency (score 99.26%), has no clinical trials or literature. It is a monogenic coagulation factor II disorder treated with replacement therapy, and there is no known mechanism by which phenylalanine would correct it.
+A second prediction, congenital prothrombin deficiency (score 0.9926), has no clinical trials or literature. It is a monogenic coagulation factor II disorder treated with replacement therapy, and there is no known mechanism by which phenylalanine would correct it.
 
 ## Clinical Trial Evidence
 

@@ -48,10 +48,10 @@ This prediction appears to be a model artefact and is not supported by evidence.
 |------|------|
 | Original Indication | Not recorded in the ARTG data (pharmacology data describes use as a local anaesthetic in nasal, oral and laryngeal surgery) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

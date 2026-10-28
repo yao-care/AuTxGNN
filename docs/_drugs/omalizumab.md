@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omalizumab
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 526
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Omalizumab: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Asthma, intrinsic asthma, allergic asthma, idiopathic urticaria"
 monitor_inn: "Omalizumab"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+description: "Omalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Omalizumab: From Allergic Asthma to Obstructive Lung Disease
+## Omalizumab: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -42,7 +42,7 @@ Omalizumab is an anti-IgE monoclonal antibody, originally used for asthma (inclu
 The TxGNN model predicts it may be effective for **obstructive lung disease**, with **34 clinical trials** and **20 publications** linked to this prediction.
 Much of this signal restates its existing asthma indication, so the genuinely new evidence is limited to allergen-sensitised COPD and asthma-COPD overlap.
 
-*Note on choice of lead prediction:* The top-ranked TxGNN prediction by score is bronchitis (99.999%). However, its evidence is weak: one tiny trial of 11 participants and indirect literature. The obstructive lung disease prediction (rank 3) has the strongest supporting evidence, so this report focuses on it. Other predictions are summarised briefly in the conclusion.
+*Note on choice of lead prediction:* The top-ranked TxGNN prediction by score is bronchitis (1.0000). However, its evidence is weak: one tiny trial of 11 participants and indirect literature. The obstructive lung disease prediction (rank 3) has the strongest supporting evidence, so this report focuses on it. Other predictions are summarised briefly in the conclusion.
 
 ---
 
@@ -50,12 +50,12 @@ Much of this signal restates its existing asthma indication, so the genuinely ne
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma, intrinsic asthma, allergic asthma, idiopathic urticaria (knowledge graph indications; the ARTG entry carries no indication text) |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.97% (rank 3 of the predictions listed; score for rank 1, bronchitis, is 99.999%) |
-| Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Bronchitis |
+| TxGNN Prediction Score | 1.0000 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -129,7 +129,7 @@ The compiled data lists 34 trials for this prediction. The ten most relevant are
 **Other predictions in the data:**
 - **Bronchitis (Research Question):** Only an 11-participant trial and indirect literature; link limited to allergic or eosinophilic subsets.
 - **Atopic eczema and dermatitis (Research Question):** Plausible IgE mechanism but inconsistent clinical results, with guidelines favouring IL-4/IL-13 blockade. The dermatitis entry overlaps almost entirely with atopic eczema and is not independent evidence.
-- **Bronchial neoplasm, acne keloid, acrodermatitis chronica atrophicans, familial hydroa vacciniforme, neonatal dermatomyositis and childhood connective-tissue-associated interstitial lung disease (Hold):** No supporting evidence or plausible mechanism. These are likely knowledge-graph artefacts.
+- **Bronchial neoplasm, acne keloid, acrodermatitis chronica atrophicans, familial hydroa vacciniforme, neonatal dermatomyositis and childhood connective-tissue-associated interstitial lung disease (Hold):** No supporting evidence or plausible mechanism. These are likely TxGNN model (deep learning) artefacts.
 
 **To proceed, the following is needed:**
 - Results from the Phase 2 COPD trial (NCT07059091), with focus on allergen-sensitised or asthma-COPD overlap patients

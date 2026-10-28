@@ -48,10 +48,10 @@ Support is limited to **3 preclinical publications** in macaques and **no regist
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the ARTG entry has no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ SIV is a closely related primate lentivirus with a structurally similar protease
 
 SIV infection is an animal disease and has no human clinical indication. The high TxGNN score probably reflects the similarity to the original HIV indication rather than a genuine new therapeutic opportunity. In practice, SIV and SHIV macaque models are mainly useful as research tools for testing antiretroviral regimens.
 
-Two other predictions were also generated: feline acquired immunodeficiency syndrome (score 99.90%, no supporting studies, veterinary indication, and feline protease is less sensitive to HIV protease inhibitors) and a rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter (score 99.90%, no plausible mechanistic link, possibly a knowledge-graph artefact). Neither is recommended for further action.
+Two other predictions were also generated: feline acquired immunodeficiency syndrome (score 0.9990, no supporting studies, veterinary indication, and feline protease is less sensitive to HIV protease inhibitors) and a rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter (score 0.9990, no plausible mechanistic link, possibly a TxGNN model (deep learning) artefact). Neither is recommended for further action.
 
 ## Clinical Trial Evidence
 

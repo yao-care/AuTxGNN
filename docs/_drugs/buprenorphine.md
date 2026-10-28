@@ -4,17 +4,17 @@ title: Buprenorphine
 parent: Model Prediction Only (L5)
 nav_order: 115
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Buprenorphine: predicted new indication Schizophrenia (evidence level L5). Approved use: Opioid dependence"
+indication_count: 6
 monitor_inn: "Buprenorphine"
-predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease", "schizophreniform disorder", "schizophrenia", "benign paroxysmal tonic upgaze of childhood with ataxia", "psychogenic movement disorders"]
+predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
+last_modified_at: 2026-10-27
+description: "Buprenorphine: predicted new indication acute intermittent porphyria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Buprenorphine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,103 +33,65 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Buprenorphine: From Opioid Dependence to Schizophrenia
+## Buprenorphine: opioid partial agonist → acute intermittent porphyria
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Buprenorphine is a partial mu-opioid agonist originally used to treat opioid dependence.
-The TxGNN model predicts it may be effective for **schizophrenia** (the highest-evidence prediction among the top 10 candidates), with **1 Phase 2 clinical trial** (recruiting, no results yet) and **20 publications** currently supporting this direction. Most of that literature is indirect.
-
-> Note: The top-ranked TxGNN prediction is acute intermittent porphyria. It has only a single perioperative case report and no therapeutic evidence, so this report focuses on schizophrenia, the best-supported candidate.
+Buprenorphine is an opioid medicine marketed in Australia as a transdermal patch (Norspan). The TxGNN model predicts it may be relevant to **acute intermittent porphyria**, but the data compiled for this report contain **no clinical trials** and only **1 publication**, a case report on anaesthetic management that does not show therapeutic benefit.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Opioid dependence (also substance abuse/dependence and morphine dependence, per the knowledge graph; the ARTG entry carries no indication text) |
-| Predicted New Indication | Schizophrenia |
-| TxGNN Prediction Score | 98.98% |
-| Evidence Level | L2 (provisional: one Phase 2 trial, recruiting, no results) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold (research question only) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | acute intermittent porphyria |
+| TxGNN Prediction Score | 0.9941 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the literature retrieved, buprenorphine is a mu-opioid partial agonist with kappa-opioid receptor antagonist activity. Its efficacy in opioid dependence is well established.
+Detailed mechanism of action data are not available in the data compiled for this report. Buprenorphine is an opioid, and from its known drug class it acts as a partial agonist at the mu-opioid receptor. No established mechanistic link to acute intermittent porphyria has been identified.
 
-Dynorphin and kappa-opioid receptor dysregulation has been described in schizophrenia. Kappa antagonism and mu partial agonism may modulate mesolimbic dopamine and reward circuitry, which could plausibly affect social motivation and negative symptoms. This is a hypothesis, not a demonstrated effect.
-
-The direct clinical signal is limited. A small 1987 study (10 patients, neuroleptic-free) reported an antipsychotic effect lasting about 4 hours. A 2020 meta-analysis of placebo-controlled trials reported symptom reduction with opioid antagonists, including buprenorphine, but this is indirect evidence. Safety concerns about misuse and dependence liability in this population also remain.
+The only publication retrieved describes the anaesthetic management of a patient who already had acute intermittent porphyria. It concerns perioperative drug safety, not treatment benefit. The high TxGNN score is therefore not supported by clinical or mechanistic evidence, and it should be treated as a model-generated hypothesis only.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05778591](https://clinicaltrials.gov/study/NCT05778591) | Phase 2 | Recruiting (2024-05 to 2027-03) | 40 | Low-dose buprenorphine as a modulator of social motivation in schizophrenia. No results yet. |
-
-No ANZCTR registrations were identified in the data compiled for this report.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32516800](https://pubmed.ncbi.nlm.nih.gov/32516800/) | 2020 | Meta-analysis | Neuropsychopharmacology | Placebo-controlled trials of naloxone, naltrexone, nalmefene and buprenorphine; opioid antagonists associated with reduced schizophrenia symptoms (indirect) |
-| [3310672](https://pubmed.ncbi.nlm.nih.gov/3310672/) | 1987 | Small early clinical study | Am J Psychiatry | 10 neuroleptic-free patients; pronounced antipsychotic effect lasting about 4 hours |
-| [33459877](https://pubmed.ncbi.nlm.nih.gov/33459877/) | 2022 | Review | Handb Exp Pharmacol | Role of dynorphin and kappa-opioid receptor dysfunction in schizophrenia and depression |
-| [31101511](https://pubmed.ncbi.nlm.nih.gov/31101511/) | 2019 | Review | Schizophr Res | Methadone and buprenorphine treatment in patients with schizophrenia |
-| [34286498](https://pubmed.ncbi.nlm.nih.gov/34286498/) | 2021 | Systematic review | Eur Rev Med Pharmacol Sci | Psychosis reported after withdrawal from buprenorphine and other opioids |
-| [15982997](https://pubmed.ncbi.nlm.nih.gov/15982997/) | 2005 | Review | J Psychopharmacol | Rationale for partial agonism in psychiatric disorders |
-| [25392062](https://pubmed.ncbi.nlm.nih.gov/25392062/) | 2014 | Case report/Review | J Dual Diagn | Opiate dependence in schizophrenia |
-| [37934551](https://pubmed.ncbi.nlm.nih.gov/37934551/) | 2023 | Case report | J Addict Med | Extended-release depot buprenorphine in a patient with OUD and psychosis under a community treatment order |
-| [40600600](https://pubmed.ncbi.nlm.nih.gov/40600600/) | 2026 | Case report | J Addict Med | Olanzapine/samidorphan and buprenorphine as a contradictory combination |
-| [36873095](https://pubmed.ncbi.nlm.nih.gov/36873095/) | 2023 | Preclinical | Addiction Neuroscience | Buprenorphine, methadone and cariprazine in a monkey opioid-versus-food choice task |
+| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Case report | Masui (Japanese Journal of Anesthesiology) | Anaesthetic management of a woman with suspected acute intermittent porphyria undergoing gynaecological cancer surgery; addresses perioperative safety, not efficacy |
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 10746N | Norspan | Transdermal patch 40 mg | Not available in the data compiled for this report |
-
-## Cytotoxicity
-
-Not applicable. Buprenorphine is not an antineoplastic drug.
+| ARTG 10746N | Norspan | Transdermal patch 40 mg | Not recorded in the local data |
 
 ## Safety Considerations
 
-- **Contraindications and conditions of concern (knowledge-graph associations, not label text):**
-  - Cardiac: long QT syndrome (familial and acquired), torsades de pointes
-  - Respiratory: respiratory failure, COPD
-  - Hepatic: liver disease, chronic hepatitis B and C
-  - Neurological: raised intracranial pressure (intracranial hypertension, pseudotumor cerebri)
-  - Gastrointestinal: paralytic ileus, intestinal obstruction
-  - Endocrine: adrenocortical insufficiency, hypothyroidism
-  - Autonomic: orthostatic hypotension, multiple system atrophy
-  - Other: drug dependence and substance-related disorders, benign prostatic hyperplasia, urethral stricture, gallbladder disease
-- **Drug interactions** (DDInter; 100 recorded, 20 reviewed here):
-  - **Major:** alvimopan, bupropion, morphine, cisapride, dolasetron
-  - **Moderate:** famotidine, cimetidine, clarithromycin, aprepitant, dexamethasone, anticholinergics (atropine, hyoscyamine, glycopyrronium, dicyclomine, clidinium), loperamide, bisacodyl, castor oil, clotrimazole, dexfenfluramine
-- **Disease-specific concerns:**
-  - Misuse and dependence liability in people with schizophrenia.
-  - Psychosis has been reported after buprenorphine withdrawal.
-  - Opioid antagonists such as samidorphan can precipitate withdrawal.
+- **Drug Interactions**: The interaction screen returned 100 records. Major-level interactions in the listed entries include alvimopan, bupropion, morphine, cisapride and dolasetron. Moderate-level interactions include famotidine, hyoscyamine, loperamide, aprepitant, atropine, dexamethasone, clarithromycin and several anticholinergic or laxative agents.
 
-Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications. These were not available in the data compiled for this report.
+Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (research question only)**
+**Decision: Hold**
 
 **Rationale:**
-- Schizophrenia is the best-supported prediction, but the only direct evidence is one small, ongoing Phase 2 trial with no results and a 1987 pilot study. The other nine predictions have either no evidence or only off-topic literature. Buprenorphine's dependence liability and withdrawal-related psychosis add safety concerns.
+The prediction rests on a model score alone. No trial or study evaluates buprenorphine as a treatment for acute intermittent porphyria, and the single publication addresses anaesthetic safety only.
 
 **To proceed, the following is needed:**
-- Results from NCT05778591 and, if positive, confirmatory randomised controlled trials
-- Detailed mechanism of action data (MOA)
-- TGA Product Information warnings and contraindications for Norspan and any other relevant formulation
-- Route and formulation assessment: the only ARTG entry is a weekly transdermal pain patch, which may not suit a low-dose psychiatric use
-- A safety plan covering misuse risk, withdrawal and the QT-prolonging and CNS-depressant interactions listed above
+- Mechanism of action data and a plausible mechanistic link to porphyria pathophysiology
+- Any preclinical or clinical study directly testing buprenorphine in acute intermittent porphyria
+- Review of the safety of buprenorphine in porphyria, based on the TGA Product Information
+- Full Product Information warnings and contraindications for Norspan
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

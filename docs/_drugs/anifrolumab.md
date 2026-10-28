@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Anifrolumab
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 52
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Anifrolumab: predicted new indication Diabetic cataract (evidence level L5). Approved use: Moderate to severe systemic lupus erythematosus (SLE)…"
-monitor_inn: "Anifrolumab"
-predicted_indications: ["diabetic cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetic retinopathy"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Anifrolumab: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Anifrolumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,53 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Anifrolumab: From Systemic Lupus Erythematosus to Diabetic Cataract
+<!-- known-uses-page -->
+<!-- description: Anifrolumab: known uses and market status in Australia; currently no new candidate indication -->
+## Anifrolumab: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model produced no candidate with a score of 0.99 or higher for Anifrolumab, so there is currently no new predicted indication. The uses recorded for this drug are listed below. They are the drug's own recorded uses, not model candidates.
 
-Anifrolumab (Saphnelo) is an anti-type I interferon receptor (IFNAR1) antibody, first approved internationally for moderate to severe systemic lupus erythematosus (SLE) in patients receiving standard therapy.
-The TxGNN model predicts it may be effective for **diabetic cataract**, but this is a model prediction only, with **0 clinical trials** and **0 publications** directly supporting this indication.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Moderate to severe systemic lupus erythematosus (SLE), per international approval information. The Australian indication text was not available in the data compiled for this report. |
-| Predicted New Indication | Diabetic cataract |
-| TxGNN Prediction Score | 98.50% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 1 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, anifrolumab is a monoclonal antibody that targets the type I interferon receptor subunit 1 (IFNAR1). It blocks signalling by all type I interferons, and this underlies its use in SLE.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| systemic lupus erythematosus | licence in another country |
 
-No mechanistic link between type I interferon signalling and diabetic cataract is supported by the available data. Diabetic cataract is mainly driven by polyol-pathway activity and oxidative stress in the lens, which are not obviously related to the IFNAR pathway. The high TxGNN score most likely reflects the knowledge-graph neighbourhood shared by cataract-related conditions rather than biological evidence for anifrolumab.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The other top-ranked predictions are mostly cataract subtypes (craniostenosis, mature, tetanic, type 2 diabetes-associated, immature, cortical, nuclear senile and senile cataract), plus diabetic retinopathy. None has trial or mechanistic support in the supplied data.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for diabetic cataract.
-
-## Literature Evidence
-
-Currently no related literature available for diabetic cataract.
-
-For context, one review was linked to a lower-ranked prediction (cortical cataract). It is not evidence for the lead prediction:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [41373894](https://pubmed.ncbi.nlm.nih.gov/41373894/) | 2025 | Review | Int J Mol Sci | Ophthalmological safety considerations of emerging and conventional SLE therapies. It addresses ocular adverse effects of treatment, not efficacy against cataract. Cataract in SLE is often related to glucocorticoid exposure. |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14189T | Saphnelo | Solution concentrate for I.V. infusion, 300 mg in 2 mL | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 14189T | Saphnelo | Solution concentrate for I.V. infusion 3 | Valid |
 
 ## Safety Considerations
 
@@ -87,20 +78,6 @@ For context, one review was linked to a lower-ranked prediction (cortical catara
 
 Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction for diabetic cataract rests on a model score alone (L5). There are no registered trials, no supporting literature and no plausible mechanistic link. Warning and contraindication data are also unavailable.
-
-**To proceed, the following is needed:**
-- Detailed mechanism of action data (for example, from DrugBank)
-- A documented biological rationale linking type I interferon signalling to lens or diabetic eye pathology
-- The TGA Product Information, including the approved indication, warnings and contraindications
-- Preclinical or observational evidence in lens or diabetic eye models
-- Review of the ocular safety profile of anifrolumab in SLE
-- A route-of-administration assessment, since the only Australian product is an intravenous infusion and the route required for an ocular indication has not been assessed
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

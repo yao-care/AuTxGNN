@@ -4,17 +4,17 @@ title: Palbociclib
 parent: Model Prediction Only (L5)
 nav_order: 542
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Palbociclib: predicted new indication Hyperthyroidism (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Palbociclib"
-predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "brachydactyly-syndactyly syndrome", "myeloid leukemia", "multiple endocrine neoplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "hyperthyroxinemia", "Prinzmetal angina"]
+predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 ---
 
 # Palbociclib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -41,7 +41,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Palbociclib is a CDK4/6 inhibitor marketed in Australia as Ibrance (tablet), and the data compiled for this report do not record its approved indication text.
-The TxGNN model's top-ranked prediction is **hyperthyroidism** (score 99.44%), but there are **0 clinical trials** and **0 publications** supporting it.
+The TxGNN model's top-ranked prediction is **hyperthyroidism** (score 0.9944), but there are **0 clinical trials** and **0 publications** supporting it.
 Among lower-ranked predictions, **myeloid leukaemia** (4 early-phase trials, 20 publications) and **rheumatoid arthritis** (preclinical data, 1 case report, 1 cohort study) have more support.
 
 ## Quick Overview
@@ -50,17 +50,17 @@ Among lower-ranked predictions, **myeloid leukaemia** (4 early-phase trials, 20 
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the ARTG indication text is blank) |
 | Predicted New Indication | Hyperthyroidism |
-| TxGNN Prediction Score | 99.44% |
+| TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data are not available in the data compiled for this report. Palbociclib is a selective CDK4/6 inhibitor, a class used in hormone receptor-positive, HER2-negative breast cancer. Blocking CDK4/6 arrests the cell cycle at the G1-to-S transition.
 
-For hyperthyroidism, **no mechanistic link has been identified**. No trials or publications support CDK4/6 inhibition in thyroid overactivity. The high TxGNN score is a graph-based association only and should not be treated as evidence of benefit.
+For hyperthyroidism, **no mechanistic link has been identified**. No trials or publications support CDK4/6 inhibition in thyroid overactivity. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be treated as evidence of benefit.
 
 By contrast, two other predictions have a plausible rationale:
 - **Myeloid leukaemia (rank 6):** CDK6 is a key dependency in AML, particularly MLL- and NUP98-rearranged disease. Preclinical work shows synergy with venetoclax/azacitidine, menin inhibitors and LSD1 inhibition.

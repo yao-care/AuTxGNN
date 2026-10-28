@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Hyaluronic Acid
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 351
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Hyaluronic Acid: predicted new indication Dry eye syndrome (evidence level L5). Approved use: Not stated in the data compiled for this report (the marketed product…"
@@ -14,7 +14,7 @@ predicted_indications: ["dry eye syndrome", "Sjogren syndrome", "xerophthalmia",
 # Hyaluronic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **9 clinical trials** (including one completed Phase 3 randomised trial) an
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (the marketed product is an ophthalmic eye drop) |
 | Predicted New Indication | Dry eye syndrome |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L1 per the scoring in the data; note that only one completed Phase 3 RCT (NCT00599716) is identified, so on the strict criteria (≥2 completed Phase 3 RCTs) this would be closer to L2, supported by meta-analyses |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -96,7 +96,7 @@ Other registered trials identified (NCT04673643, NCT06544447, NCT07089511) test 
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph signal, not label text)**: The TxGNN knowledge graph links hyaluronic acid with glaucoma as a contraindication. This should be checked against the Product Information.
+- **Contraindications (model signal, not label text)**: The TxGNN model (deep learning) links hyaluronic acid with glaucoma as a contraindication, which may reflect similarities the model learned between related diseases, not biological evidence. This should be checked against the Product Information.
 - **Drug Interactions**: Two moderate-level interactions were recorded, both with topical preservative agents: cetylpyridinium (topical) and benzalkonium (topical).
 
 For full warnings and contraindications, please refer to the TGA-approved Product Information (PI).

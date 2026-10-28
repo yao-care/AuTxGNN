@@ -4,17 +4,17 @@ title: Lamivudine
 parent: Moderate Evidence (L3-L4)
 nav_order: 408
 evidence_level: L4
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Lamivudine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Lamivudine"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection", "hepatitis C virus infection", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "primitive portal vein thrombosis"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
+description: "Lamivudine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Lamivudine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Lamivudine: From Chronic Hepatitis B and HIV Infection to Simian Immunodeficiency Virus Infection
+## Lamivudine: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ This prediction largely restates lamivudine's existing anti-HIV activity in an a
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis B virus infection; HIV infection; AIDS (the ARTG entry has no indication text recorded) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -65,8 +65,8 @@ The prediction does not describe a new human use. SIV infects non-human primates
 **Other predictions in the top 10** were reviewed and are summarised here for context.
 - **Feline acquired immunodeficiency syndrome (rank 2):** the evidence is veterinary only, with no human trials.
 - **Hepatitis B virus infection (rank 6):** this is already an approved indication, so it validates the model rather than offering a new opportunity. It has the strongest evidence (L1, with multiple completed Phase 3 trials, mostly using lamivudine as a comparator), and it would be the only prediction to reach "Proceed with Guardrails". Resistance (YMDD mutations) is common with monotherapy, and entecavir or tenofovir are now preferred first-line agents.
-- **Hepatitis C virus infection (ranks 5 and 7):** there is no mechanistic basis, because lamivudine does not inhibit the HCV NS5B polymerase. The literature is general hepatitis reviews, and the trials are in HCV/HIV co-infected patients where lamivudine treats the HIV.
-- **Ranks 3, 4, 8, 9 and 10 (neurodevelopmental disorder, obsolete familial combined hyperlipidaemia, idiopathic copper-associated cirrhosis, hepatoportal sclerosis, primitive portal vein thrombosis):** model prediction only, with no trials, no literature and no identifiable mechanistic link.
+- The literature is general hepatitis reviews, and the trials are in HCV/HIV co-infected patients where lamivudine treats the HIV.
+- **Ranks 3 and 4 (neurodevelopmental disorder, obsolete familial combined hyperlipidaemia):** model prediction only, with no trials, no literature and no identifiable mechanistic link.
 
 ## Clinical Trial Evidence
 

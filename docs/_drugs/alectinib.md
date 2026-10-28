@@ -4,7 +4,7 @@ title: Alectinib
 parent: Model Prediction Only (L5)
 nav_order: 30
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Alectinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung carcinoma"
 monitor_inn: "Alectinib"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Alectinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Alectinib is an oral ALK inhibitor, originally used to treat non-small cell lung cancer (NSCLC) and lung cancer.
-The TxGNN model predicts it may be effective for **Fibromatosis, Gingival** (score 99.97%), but **no clinical trials and no publications** currently support this prediction. It is a graph-based prediction only.
+The TxGNN model (deep learning) predicts it may be effective for **Fibromatosis, Gingival** (score 0.9997), but **no clinical trials and no publications** currently support this prediction. It is a model-based prediction only.
 
 ---
 
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **Fibromatosis, Gingival** (sco
 |------|------|
 | Original Indication | Non-small cell lung carcinoma; lung cancer (approved indication text is not available in the ARTG data compiled for this report) |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **Fibromatosis, Gingival** (sco
 
 Currently, detailed mechanism of action data is not available. Based on known information, alectinib is a selective anaplastic lymphoma kinase (ALK) tyrosine kinase inhibitor. Its efficacy in ALK-positive NSCLC is well established, but no mechanism has been identified that would link it to gingival fibromatosis.
 
-Gingival fibromatosis is a benign overgrowth of gum tissue. It is not known to be driven by ALK signalling. The high TxGNN score reflects proximity in the knowledge graph rather than a demonstrated biological connection, so the prediction should be treated as a hypothesis only.
+Gingival fibromatosis is a benign overgrowth of gum tissue. It is not known to be driven by ALK signalling. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction should be treated as a hypothesis only.
 
 Other top-ranked predictions show the same pattern. Most are benign or rare conditions with no ALK link. The exceptions are lung hilum carcinoma and pulmonary sulcus neoplasm, which are anatomically related to the approved indication. Lung germ cell tumour is the only prediction with a tumour-agnostic, ALK-fusion-driven rationale, based on case reports of ALK inhibitors in rare ALK-fusion tumours. That rationale is not specific to germ cell tumours.
 
@@ -117,7 +117,7 @@ Warnings and contraindications from the TGA-approved Product Information (PI) we
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score. There are no trials or publications, and no plausible ALK-related mechanism for gingival fibromatosis. Safety screening cannot proceed because the label warnings and contraindications were not available.
+The prediction rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There are no trials or publications, and no plausible ALK-related mechanism for gingival fibromatosis. Safety screening cannot proceed because the label warnings and contraindications were not available.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) and a plausible biological link to gingival fibromatosis

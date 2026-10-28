@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Alendronic Acid
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 32
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Alendronic Acid: predicted new indication HIV infectious disease (evidence level L5). Approved use: Postmenopausal osteoporosis, osteoporosis, Paget disease of bone"
-monitor_inn: "Alendronic acid"
-predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "deficiency anemia", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "osteomesopyknosis", "obsolete familial combined hyperlipidemia", "biotin metabolic disease"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Alendronic Acid: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Alendronic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,47 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Alendronic Acid: From Postmenopausal Osteoporosis to HIV Infectious Disease
+<!-- known-uses-page -->
+<!-- description: Alendronic Acid: known uses and market status in Australia; currently no new candidate indication -->
+## Alendronic Acid: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+All of the TxGNN deep-learning model's candidates for Alendronic Acid (score ≥ 0.99) that can be traced to a source are already known uses, so there is currently no new predicted indication. The one known use among the candidates is a relation recorded in the knowledge graph, not an approval found in a licence or label. This page lists those known uses and the market status in Australia.
 
-Alendronic acid is a bisphosphonate originally used to treat osteoporosis (including postmenopausal osteoporosis) and Paget disease of bone.
-The TxGNN model predicts it may be effective for **HIV infectious disease**, but this is a computational prediction only, with **no clinical trials** and **no publications** currently supporting this direction.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Postmenopausal osteoporosis, osteoporosis, Paget disease of bone (from the knowledge graph; no approved indication text is available for the ARTG entry) |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 96.78% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, alendronic acid is a nitrogen-containing bisphosphonate that inhibits farnesyl pyrophosphate synthase and so reduces osteoclast-mediated bone resorption. Its efficacy in osteoporosis and Paget disease of bone is established.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-No direct mechanistic link to HIV infection is established. A plausible but unverified indirect link is that alendronic acid could address HIV-associated bone loss. That would be a bone-health benefit, not an antiviral effect. The high TxGNN score is a model output only and should not be read as evidence of antiviral activity.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Other top-ranked predictions (simian immunodeficiency virus infection and feline acquired immunodeficiency syndrome) share the same score pattern. They are likely artefacts of the same graph neighbourhood as HIV, not independent signals. The remaining predictions (for example, deficiency anaemia, osteomesopyknosis and biotin metabolic disease) also have no supporting mechanism, trials or literature in the compiled data.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| bone Paget disease |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13499L | APO-Alendronate | Tablet 70 mg (as alendronate sodium), oral | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 13499L | APO-Alendronate | Tablet 70 mg (as alendronate sodium) | Valid |
 
 ## Safety Considerations
 
@@ -89,18 +86,6 @@ Currently no related literature available.
 
 Many of the moderate interactions involve products that reduce oral absorption of bisphosphonates. Please refer to the TGA-approved Product Information (PI) for authoritative warnings, contraindications and dosing advice.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a model score alone (Evidence Level L5), with no registered trials, no publications and no plausible antiviral mechanism. Any benefit is more likely to be limited to HIV-associated bone loss, which is a different question.
-
-**To proceed, the following is needed:**
-- Mechanism of action data and a clear rationale for the HIV link (antiviral versus bone-protective)
-- A systematic literature search, including HIV-associated bone loss and in vitro antiviral studies
-- The TGA-approved Product Information (PI), including approved indications, warnings and contraindications for APO-Alendronate
-- If pursued, a defined target population and endpoint (for example, bone mineral density in people living with HIV), with consideration of oesophageal and renal safety
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

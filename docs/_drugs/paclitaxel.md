@@ -4,17 +4,17 @@ title: Paclitaxel
 parent: Model Prediction Only (L5)
 nav_order: 541
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Paclitaxel: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Ovarian cancer"
 monitor_inn: "Paclitaxel"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Paclitaxel: From Ovarian Cancer to Female Breast Carcinoma
+## Paclitaxel: Parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Paclitaxel is a microtubule-stabilising cytotoxic chemotherapy, originally used for ovarian cancer.
-The TxGNN model predicts it may be effective for **Female Breast Carcinoma**,
+The TxGNN model predicts it may be effective for **parameningeal embryonal rhabdomyosarcoma**,
 with **40 registered clinical trials** and **20 publications** compiled for this indication. Paclitaxel is already widely used in breast cancer in clinical practice, so this is closer to a label-adjacent indication than a novel repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (from the knowledge graph; no approved indication text is available for the Australian product) |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 (based on the supplied data; see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Parameningeal embryonal rhabdomyosarcoma |
+| TxGNN Prediction Score | 0.9973 |
+| Evidence Level | L5 (based on the supplied data; see note below) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on evidence level:** The supplied trial list contains mostly Phase 1/2 studies, although several completed Phase 3 trials with paclitaxel-containing regimens are listed (for example NCT00667251, NCT00006459, NCT00513292, NCT00431080, NCT00075270). In most of these, paclitaxel is a backbone rather than the variable being tested, so L2 reflects the supplied data rather than the full real-world evidence base.
@@ -141,7 +141,6 @@ Paclitaxel is mechanistically plausible and already widely used in breast cancer
 **Other predicted indications in the data compiled (for context):**
 - **Estrogen-receptor negative breast cancer and estrogen-receptor positive breast cancer:** Proceed with Guardrails; Phase 2 evidence, with paclitaxel mostly part of combinations
 - **Hormone-resistant breast carcinoma:** Research Question; Phase 1/2 evidence only
-- **Breast carcinoma by gene expression profile:** Research Question; evidence mostly predictive-biomarker work
 - **Ehrlich tumour carcinoma, bilateral breast carcinoma, nipple carcinoma:** Hold; preclinical or case-report evidence only
 - **Parameningeal embryonal rhabdomyosarcoma and botryoid-type embryonal rhabdomyosarcoma of the vagina:** Hold; model prediction only, with no trials or literature
 ## Disclaimer

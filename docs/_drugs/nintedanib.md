@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nintedanib
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 503
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L4). Approved use: Idiopathic pulmonary fibrosis, non-small cell lung cancer"
 monitor_inn: "Nintedanib"
-predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "axial spondylometaphyseal dysplasia", "amyotrohpic lateral sclerosis type 22", "fibroblastic neoplasm", "kidney fibrosarcoma", "conventional fibrosarcoma", "amyotrophic lateral sclerosis, susceptibility to"]
+predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
+description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nintedanib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Nintedanib: From Idiopathic Pulmonary Fibrosis and Lung Cancer to Dermatofibrosarcoma Protuberans
+## Nintedanib: Dermatofibrosarcoma protuberans
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but currently there are **no registered clinical trials** and only **1 indirect 
 
 | Item | Content |
 |------|------|
-| Original Indication | Idiopathic pulmonary fibrosis, non-small cell lung cancer (the ARTG entry carries no indication text; these are from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
-| TxGNN Prediction Score | 99.15% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9915 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -102,7 +102,7 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.15%) and the PDGFR-driven mechanism is plausible, but there are no clinical trials and only one indirect review. Imatinib is already the established targeted therapy for DFSP, so a nintedanib case would need to show added value.
+The TxGNN score is high (0.9915) and the PDGFR-driven mechanism is plausible, but there are no clinical trials and only one indirect review. Imatinib is already the established targeted therapy for DFSP, so a nintedanib case would need to show added value.
 
 **To proceed, the following is needed:**
 - Nintedanib-specific preclinical data (for example DFSP cell lines or xenograft models with the COL1A1-PDGFB fusion)

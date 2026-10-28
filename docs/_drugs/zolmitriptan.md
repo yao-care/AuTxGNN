@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zolmitriptan
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 795
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Zolmitriptan: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine (with or without aura). The ARTG indication text was not ava…"
 monitor_inn: "Zolmitriptan"
-predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy", "dysthymic disorder", "amenorrhea (disease)", "headache disorder", "trigeminal autonomic cephalalgia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Zolmitriptan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Zolmitriptan: From Migraine to Migraine with Brainstem Aura
+## Zolmitriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Zolmitriptan is a triptan (5-HT1B/1D receptor agonist) that is already marketed in Australia for acute migraine.
-The TxGNN model predicts it may be useful for **migraine with brainstem aura**, a migraine subtype.
 Evidence is limited to **0 registered clinical trials** and general migraine and triptan literature. None of the supporting literature is specific to brainstem aura.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine (with or without aura). The ARTG indication text was not available, so this comes from the knowledge-graph indication data. |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -133,7 +132,6 @@ The mechanistic argument is plausible, and zolmitriptan is already marketed in A
 - A drug interaction management plan, particularly for serotonergic co-medications
 
 **Other predictions from the same model run:**
-- Zolmitriptan has stronger supporting evidence for two other predicted indications, both rated L1: headache disorder, and trigeminal autonomic cephalalgia (cluster headache). The headache disorder evidence largely overlaps the already-approved migraine indication.
 - For cluster headache, guidelines recommend triptans, including nasal or oral zolmitriptan. However, the zolmitriptan-specific trials are small or have uncertain status.
 - These two indications may be better first candidates for further evaluation.
 ## Disclaimer

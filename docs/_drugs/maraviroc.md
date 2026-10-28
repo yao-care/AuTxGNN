@@ -46,10 +46,10 @@ Maraviroc is an oral CCR5 antagonist marketed in Australia as a 150 mg tablet. T
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (the registered entry lists no indication text). Maraviroc is generally known as a CCR5 antagonist used in HIV-1 infection. |
 | Predicted New Indication | Multiple endocrine neoplasia |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,7 +58,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 For multiple endocrine neoplasia (MEN), no established link between CCR5 signalling and the disease was identified. MEN is driven by MEN1 or RET alterations, which are not obviously related to CCR5. The prediction therefore appears to be a statistical output of the model rather than a mechanistically supported hypothesis.
 
-Other predictions for this drug are better grounded. The strongest is **HER2-positive breast carcinoma** (score 99.22%). A preclinical study (PMID 32404410) reported that autocrine CCL5 drives trastuzumab resistance through ERK pathway activation. CCL5 signals via CCR5, so CCR5 blockade is a coherent hypothesis. This is preclinical and indirect, and it warrants laboratory validation before any clinical consideration. Cutaneous T-cell lymphoma also has a plausible chemokine-trafficking rationale, but only an indirect review supports it.
+Other predictions for this drug are better grounded. The strongest is **HER2-positive breast carcinoma** (score 0.9922). A preclinical study (PMID 32404410) reported that autocrine CCL5 drives trastuzumab resistance through ERK pathway activation. CCL5 signals via CCR5, so CCR5 blockade is a coherent hypothesis. This is preclinical and indirect, and it warrants laboratory validation before any clinical consideration. Cutaneous T-cell lymphoma also has a plausible chemokine-trafficking rationale, but only an indirect review supports it.
 
 ## Clinical Trial Evidence
 

@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Zoledronic Acid
-parent: High Evidence (L1-L2)
+parent: Known Uses Only (No New Predictions)
 nav_order: 794
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Zoledronic Acid: predicted new indication HIV infectious disease (evidence level L2). Approved use: Hypercalcaemia of malignancy, osteoporosis…"
-monitor_inn: "Zoledronic acid"
-predicted_indications: ["HIV infectious disease", "obsolete familial combined hyperlipidemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "biotin metabolic disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "vitamin deficiency disorder", "Worth syndrome", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "autosomal dominant neovascular inflammatory vitreoretinopathy"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Zoledronic Acid: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Zoledronic Acid
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,71 +32,45 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Zoledronic Acid: From Osteoporosis and Paget's Disease to HIV Infectious Disease
+<!-- known-uses-page -->
+<!-- description: Zoledronic Acid: known uses and market status in Australia; currently no new candidate indication -->
+## Zoledronic Acid: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+All candidates that the TxGNN deep-learning model produced for Zoledronic Acid (score ≥ 0.99) and that can be traced to a source are already known uses. There is therefore currently no new predicted indication for this drug. The one known use is recorded as a knowledge graph relation.
 
-Zoledronic acid is an intravenous bisphosphonate originally used for hypercalcaemia of malignancy, osteoporosis (including postmenopausal osteoporosis) and Paget's disease of bone.
-The TxGNN model predicts it may be useful for **HIV infectious disease**, in practice as a treatment for HIV-associated bone loss rather than as an antiviral.
-Currently **2 clinical trials** and **9 publications** support this direction, including two randomised controlled trials.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Hypercalcaemia of malignancy, osteoporosis, postmenopausal osteoporosis, Paget's disease of bone (the approved indication text for the Australian product is not available) |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 93.95% |
-| Evidence Level | L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Proceed with Guardrails |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
----
+## Known uses among the model's candidates
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, zoledronic acid inhibits osteoclast-mediated bone resorption by inhibiting farnesyl pyrophosphate synthase in the mevalonate pathway.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-People living with HIV have a higher risk of low bone mineral density. Chronic immune activation and antiretroviral therapy (ART), especially tenofovir-containing regimens, contribute to bone loss. The anti-resorptive action of zoledronic acid directly addresses this problem, so the prediction is best read as an extension of the osteoporosis indication to a high-risk population. It is not evidence of antiviral activity.
-
-Some preclinical and small human studies also suggest zoledronic acid expands gamma-delta (Vdelta2) T cells. This is a secondary immunomodulatory effect and has not been established as a clinical benefit for HIV control.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01228318](https://clinicaltrials.gov/study/NCT01228318) | Phase 2 | Completed | 63 | BLIR-HIV: bone loss and immune reconstitution around ART initiation in HIV/AIDS, examining the RANKL/osteoprotegerin axis |
-| [NCT00795483](https://clinicaltrials.gov/study/NCT00795483) | Phase 4 | Completed | 33 | Annual vs biennial zoledronic acid for osteoporosis in an HIV-infected cohort; small study |
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29927785](https://pubmed.ncbi.nlm.nih.gov/29927785/) | 2018 | RCT | AIDS | Zoledronic acid was superior to switching tenofovir disoproxil fumarate for low bone mineral density in adults with HIV |
-| [31361922](https://pubmed.ncbi.nlm.nih.gov/31361922/) | 2019 | RCT follow-up | J Bone Miner Res | Bone density gains from zoledronic acid persisted to 36 months in HIV-infected adults on tenofovir |
-| [27193748](https://pubmed.ncbi.nlm.nih.gov/27193748/) | 2016 | RCT (Phase IIb) | Clin Infect Dis | A single infusion prevented ART-induced bone loss in treatment-naive HIV-infected patients |
-| [31621838](https://pubmed.ncbi.nlm.nih.gov/31621838/) | 2020 | RCT follow-up (Phase IIb) | Clin Infect Dis | Protection against ART-induced bone loss from a single dose was durable |
-| [33637048](https://pubmed.ncbi.nlm.nih.gov/33637048/) | 2021 | Clinical/mechanistic study | Mol Med | Zoledronic acid alleviated osteoporosis in HIV patients by suppressing osteoclastogenesis via RANKL regulation |
-| [19238075](https://pubmed.ncbi.nlm.nih.gov/19238075/) | 2009 | Clinical/mechanistic study | AIDS | Zoledronic acid plus interleukin-2 improved immunocompetence by activating Vgamma9Vdelta2 T cells |
-| [23627025](https://pubmed.ncbi.nlm.nih.gov/23627025/) | 2012 | In vitro study | Zhonghua Shi Yan He Lin Chuang Bing Du Xue Za Zhi | Compared expansion of HIV-infected patients' Vdelta2 T cells by zoledronic acid vs gammadelta TCR antibody |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| bone Paget disease |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13772W | DEZTRON | Injection concentrate for I.V. infusion 4 mg (as monohydrate) in 5 mL | Not available in the data compiled for this report |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 13772W | DEZTRON | Injection concentrate for I.V. infusion  | Valid |
 
 ## Safety Considerations
 
@@ -109,19 +82,6 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-Randomised trials, including Phase IIb studies, show zoledronic acid improves bone density and prevents ART-induced bone loss in people with HIV, with effects lasting up to 36 months. The supported use is HIV-associated low bone mass, not HIV control, and the trials are small. The T-cell immunomodulation hypothesis remains unproven.
-
-**To proceed, the following is needed:**
-- Product Information warnings and contraindications for the Australian product, and its approved indication text
-- Mechanism of action data from a curated source such as DrugBank
-- Fracture outcome data in HIV populations, as the current evidence is based on bone density
-- A safety plan covering renal function, calcium and vitamin D status, and tenofovir co-administration
-- Dental assessment because of osteonecrosis of the jaw risk
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

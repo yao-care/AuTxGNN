@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Phenol is an antiseptic and chemical agent, here in a topical gel (Egopsoryl-TA), and the knowledge graph lists dermatitis as its original indication.
+Phenol is an antiseptic and chemical agent, here in a topical gel (Egopsoryl-TA), and dermatitis is listed as its original indication.
 The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**,
 but there are currently **no clinical trials** and **no publications** supporting this prediction, so it rests on model output alone.
 
@@ -48,21 +48,21 @@ but there are currently **no clinical trials** and **no publications** supportin
 |------|------|
 | Original Indication | Dermatitis (from the knowledge graph; no approved indication text is recorded for the Australian listing) |
 | Predicted New Indication | Acrodermatitis chronica atrophicans |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, phenol is a topical antiseptic and chemical agent, its original indication is dermatitis, and no mechanism has been established that would make it applicable to the predicted condition.
 
-Acrodermatitis chronica atrophicans is a late-stage skin manifestation of Lyme borreliosis, and it is treated with antibiotics. Phenol has no known antimicrobial or anti-inflammatory mechanism relevant to this disease. The high score most likely reflects shared dermatological neighbours in the knowledge graph rather than a pharmacological rationale.
+Acrodermatitis chronica atrophicans is a late-stage skin manifestation of Lyme borreliosis, and it is treated with antibiotics. Phenol has no known antimicrobial or anti-inflammatory mechanism relevant to this disease. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions show the same pattern. Neonatal and amyopathic dermatomyositis, familial hydroa vacciniforme, paediatric connective tissue disease-associated interstitial lung disease and severe non-proliferative diabetic retinopathy all lack supporting evidence. Several of them (neonatal skin, lung, eye) also raise serious safety concerns, because phenol is toxic and absorbed through the skin.
 
-The only prediction with any related literature is **acne keloid**, ranked 5th (score 99.94%). A single observational paper (PMID 17204096) describes a modified phenol peel (Exoderm) for facial wrinkles and acne scars in Asian patients. Phenol peels cause controlled dermal injury and remodelling, which is plausibly relevant to scarring. This is indirect evidence only, and keloid-specific efficacy and safety have not been shown. It is best treated as a research question rather than a candidate for adoption.
+The only prediction with any related literature is **acne keloid**, ranked 5th (score 0.9994). A single observational paper (PMID 17204096) describes a modified phenol peel (Exoderm) for facial wrinkles and acne scars in Asian patients. Phenol peels cause controlled dermal injury and remodelling, which is plausibly relevant to scarring. This is indirect evidence only, and keloid-specific efficacy and safety have not been shown. It is best treated as a research question rather than a candidate for adoption.
 
 ## Clinical Trial Evidence
 

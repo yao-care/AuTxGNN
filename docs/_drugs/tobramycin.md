@@ -6,9 +6,9 @@ nav_order: 733
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Bacterial infections, including bacterial meningitis…"
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
+description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Tobramycin
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Tobramycin: From Bacterial Eye and Systemic Infections to Exposure Keratitis
+## Tobramycin: Exposure keratitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections, including bacterial meningitis, staphylococcal infection and conjunctivitis (from the knowledge graph; no approved indication text is listed for the ARTG entry) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Exposure keratitis |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -112,11 +112,11 @@ The prediction score is very high, but it is based on the model alone. There are
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 3 | Otitis externa | 99.81% | L4 | Best-supported of the other predictions: tobramycin is active against *P. aeruginosa* and *S. aureus*, with case reports in malignant otitis externa. Much of the literature is veterinary. There is an ototoxicity concern if the tympanic membrane is perforated. Suitable as a research question. |
-| 5 | Post-bacterial disorder | 99.79% | L4 | Two Phase 3 open-label extension trials of tobramycin inhalation powder in cystic fibrosis (NCT01069705, NCT00982930), only indirectly relevant. |
-| 7 | Infective urethral stricture | 99.78% | L4 | One 1976 comparison with gentamicin in complicated urinary tract infection, which does not address stricture. |
-| 10 | Epidemic keratoconjunctivitis | 99.38% | L4 | Mainly adenoviral. Tobramycin has no antiviral activity and the literature is weak. |
-| 2, 4, 6, 8, 9 | Non-human animal disease, postinfectious vasculitis, post-infectious syndrome, Chagas cardiomyopathy, infection-related haemolytic uraemic syndrome | 99.77–99.83% | L5 | No trials or literature and no plausible mechanism. Aminoglycoside nephrotoxicity makes haemolytic uraemic syndrome particularly unfavourable. |
+| 3 | Otitis externa | 0.9981 | L4 | Best-supported of the other predictions: tobramycin is active against *P. aeruginosa* and *S. aureus*, with case reports in malignant otitis externa. Much of the literature is veterinary. There is an ototoxicity concern if the tympanic membrane is perforated. Suitable as a research question. |
+| 5 | Post-bacterial disorder | 0.9979 | L5 | Two Phase 3 open-label extension trials of tobramycin inhalation powder in cystic fibrosis (NCT01069705, NCT00982930), only indirectly relevant. |
+| 7 | Infective urethral stricture | 0.9978 | L5 | One 1976 comparison with gentamicin in complicated urinary tract infection, which does not address stricture. |
+| 10 | Epidemic keratoconjunctivitis | 0.9938 | L4 | Mainly adenoviral. Tobramycin has no antiviral activity and the literature is weak. |
+| 2, 4, 6, 8, 9 | Non-human animal disease, postinfectious vasculitis, post-infectious syndrome, Chagas cardiomyopathy, infection-related haemolytic uraemic syndrome | 99.77–0.9983 | L5 | No trials or literature and no plausible mechanism. Aminoglycoside nephrotoxicity makes haemolytic uraemic syndrome particularly unfavourable. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

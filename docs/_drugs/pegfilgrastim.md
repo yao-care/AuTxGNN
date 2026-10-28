@@ -4,17 +4,17 @@ title: Pegfilgrastim
 parent: Model Prediction Only (L5)
 nav_order: 551
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Pegfilgrastim: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Pegfilgrastim"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "primary release disorder of platelets", "diabetic cataract", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "drug-induced osteoporosis", "senile cataract", "cortical cataract", "nuclear senile cataract"]
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 ---
 
 # Pegfilgrastim
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Pegfilgrastim is a long-acting form of granulocyte colony-stimulating factor (G-
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,13 +62,7 @@ Other predicted indications were also reviewed, and none has supporting trials o
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Diabetic retinopathy | 99.73% | L5 | Overlaps with the lead prediction; no supporting evidence |
-| Primary release disorder of platelets | 98.37% | L5 | No established role in platelet granule function |
-| Diabetic cataract | 98.25% | L5 | Lens polyol and oxidative pathways are unrelated to G-CSF signalling |
-| Pseudo-von Willebrand disease | 98.03% | L5 | Platelet GPIb defect is not addressed by G-CSF receptor agonism |
-| Glanzmann thrombasthenia | 97.69% | L5 | Integrin αIIbβ3 defect; no known pegfilgrastim effect |
-| Drug-induced osteoporosis | 96.75% | L5 | Indirect bone-marrow link conceivable; direction of effect uncertain |
-| Senile, cortical and nuclear senile cataract | 96.31–96.37% | L5 | No mechanistic rationale; the identical scores for two forms suggest an ontology-driven prediction |
+| Diabetic retinopathy | 0.9973 | L5 | Overlaps with the lead prediction; no supporting evidence |
 
 ## Clinical Trial Evidence
 

@@ -47,26 +47,26 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but there a
 |------|------|
 | Original Indication | Inhibition of premature LH surges in women undergoing controlled ovarian stimulation (the ARTG indication text was not available in the data compiled for this report; this is taken from the pharmacology record) |
 | Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Cetrorelix is a peptide antagonist of the GnRH receptor (GNRHR). By blocking this receptor it suppresses LH and FSH release, which lowers gonadal sex hormone production, including androgens. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description draws on the pharmacology record.
 
-In theory, lower androgen signalling could help androgen-dependent hirsutism. However, hypertrichosis is generally androgen-independent, so the mechanistic link is weak. The very high TxGNN score reflects proximity in a knowledge graph and is not backed by any clinical or literature data. It should be read as a hypothesis only.
+In theory, lower androgen signalling could help androgen-dependent hirsutism. However, hypertrichosis is generally androgen-independent, so the mechanistic link is weak. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by any clinical or literature data. It should be read as a hypothesis only.
 
 The other top-ranked predictions are also doubtful:
 
-- **Ambras type hypertrichosis universalis congenita, isolated genetic hair shaft abnormality and familial isolated trichomegaly:** these are gene-driven hair conditions. GnRH antagonism has no plausible direct effect on them, and the scores likely reflect shared hair-phenotype nodes in the graph.
+- **Ambras type hypertrichosis universalis congenita, isolated genetic hair shaft abnormality and familial isolated trichomegaly:** these are gene-driven hair conditions. GnRH antagonism has no plausible direct effect on them, and the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - **Malformation syndrome with odontal/periodontal component and syndrome with Dandy-Walker malformation:** these are structural developmental conditions with no identifiable mechanistic connection to GnRH blockade.
 - **Persistent fetal circulation syndrome:** this neonatal pulmonary hypertension condition has no known GnRH pathway involvement, and cetrorelix has no neonatal indication or safety data.
 - **Aromatase excess syndrome:** the problem lies downstream of the GnRH axis, and aromatase inhibitors are the mechanistically appropriate approach.
 - **Familial male-limited precocious puberty:** this is the most hormonally relevant prediction, flagged as a research question. It is caused by activating LHCGR mutations that act independently of gonadotropins, so a GnRH antagonist acting upstream is unlikely to work. Standard treatment uses antiandrogens plus aromatase inhibitors.
-- **Central precocious puberty 1:** this was not yet assessed (score 99.29%).
+- **Central precocious puberty 1:** this was not yet assessed (score 0.9929).
 
 ## Clinical Trial Evidence
 

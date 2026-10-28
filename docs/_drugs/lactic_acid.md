@@ -4,17 +4,17 @@ title: Lactic Acid
 parent: Model Prediction Only (L5)
 nav_order: 406
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Lactic Acid: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not available"
 monitor_inn: "Lactic acid"
-predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome", "esophageal disease", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "excretory apparatus of the lacrimal system anomaly", "eye disease", "cauda equina syndrome"]
+predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
 ---
 
 # Lactic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Lactic acid is registered in Australia (one ARTG entry), but the data compiled for this report contain no approved indication text for it.
-The TxGNN model predicts it may be effective for **atypical coarctation of aorta**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** supporting it.
+The TxGNN model (deep learning) predicts it may be effective for **atypical coarctation of aorta**. This prediction may reflect similarities the model learned between related diseases, not biological evidence, and **0 clinical trials** and **0 publications** support it.
 Across all ten top-ranked predictions, none has a clinical trial or a publication showing lactic acid as a treatment.
 
 ---
@@ -50,10 +50,10 @@ Across all ten top-ranked predictions, none has a clinical trial or a publicatio
 |------|------|
 | Original Indication | Not available (the registered licence has no approved indication text) |
 | Predicted New Indication | Atypical coarctation of aorta |
-| TxGNN Prediction Score | 99.59% |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,21 +62,16 @@ Across all ten top-ranked predictions, none has a clinical trial or a publicatio
 
 Currently, detailed mechanism of action data is not available. The original indication is also not recorded in the data compiled for this report, so the link between the original and predicted indications cannot be assessed.
 
-For atypical coarctation of aorta, no mechanistic link has been identified. The high TxGNN score is a graph-based prediction only. There are no linked trials or publications, and lactic acid has no known role in aortic structural development or in treating a congenital vascular malformation. Such conditions are managed surgically or by intervention, not pharmacologically.
+For atypical coarctation of aorta, no mechanistic link has been identified. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There are no linked trials or publications, and lactic acid has no known role in aortic structural development or in treating a congenital vascular malformation. Such conditions are managed surgically or by intervention, not pharmacologically.
 
 The other top-ranked predictions are similarly weak:
 
 | Rank | Predicted Indication | Score | Assessment |
 |------|------|------|------|
-| 2 | Aortic malformation | 99.35% | Literature is incidental (lactate as a perioperative biomarker, polylactic acid device materials). No therapeutic evidence. |
-| 3 | Non-syndromic oesophageal malformation | 99.23% | No data. Surgical condition. |
-| 4 | Amenorrhoea | 99.16% | One baboon vaginal microbiota study. No therapeutic link. |
-| 5 | Dry eye syndrome | 99.13% | Literature covers probiotics, biomarkers and tissue engineering. Lactic acid is a known ocular irritant at higher concentrations. |
-| 6 | Oesophageal disease | 98.94% | Lactic acid appears as a tumour metabolite, and indole-3-lactic acid is reported to suppress anti-PD-1 efficacy in oesophageal squamous cell carcinoma, suggesting possible harm. |
-| 7 | Double outlet right ventricle with AV septal defect, pulmonary stenosis, heterotaxy | 98.82% | No data. Surgical condition. |
-| 8 | Lacrimal excretory system anomaly | 98.77% | No data. Surgical condition. |
-| 9 | Eye disease | 98.68% | Lactic acid upregulates VEGF and promotes choroidal neovascularisation in preclinical work (PMID 30046816), arguing against benefit. Category too broad. |
-| 10 | Cauda equina syndrome | 98.67% | No data. Surgical emergency. |
+| 2 | Aortic malformation | 0.9935 | Literature is incidental (lactate as a perioperative biomarker, polylactic acid device materials). No therapeutic evidence. |
+| 3 | Non-syndromic oesophageal malformation | 0.9923 | No data. Surgical condition. |
+| 4 | Amenorrhoea | 0.9916 | One baboon vaginal microbiota study. No therapeutic link. |
+| 5 | Dry eye syndrome | 0.9913 | Literature covers probiotics, biomarkers and tissue engineering. Lactic acid is a known ocular irritant at higher concentrations. |
 
 ---
 

@@ -4,17 +4,17 @@ title: Potassium Citrate
 parent: Model Prediction Only (L5)
 nav_order: 589
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Potassium Citrate: predicted new indication Nephrolithiasis (evidence level L5). Approved use: Potassium deficiency, renal tubular acidosis, acute urate nephropathy"
 monitor_inn: "Potassium citrate"
-predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "hypermanganesemia with dystonia", "nephrolithiasis susceptibility caused by SLC26A1", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]
+predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "hypermanganesemia with dystonia", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]
+description: "Potassium Citrate: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Potassium Citrate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Potassium Citrate: From Potassium Deficiency, Renal Tubular Acidosis and Urate Nephropathy to Nephrolithiasis
+## Potassium Citrate: Familial visceral myopathy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,17 +48,17 @@ This is largely an established, standard-of-care use rather than a true new indi
 
 | Item | Content |
 |------|------|
-| Original Indication | Potassium deficiency, renal tubular acidosis, acute urate nephropathy (the ARTG entry has no indication text recorded) |
-| Predicted New Indication | Nephrolithiasis |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L1 per the data compiled for this report (see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Familial visceral myopathy |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 per the data compiled for this report (see note below) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The L1 grading comes from the data compiled for this report, which includes one completed Phase 3 trial (NCT00004284). Under the strict rule (at least two completed Phase 3 RCTs) the level would be lower, and most other trials are small, non-phased or surrogate-endpoint studies. Treat L1 as a generous grading.
 
-Note: The top-ranked prediction by TxGNN score was familial visceral myopathy (99.95%), but it has no supporting evidence and no plausible mechanism. Nephrolithiasis is the highest-ranked prediction with substantive evidence and is the focus of this report.
+Note: The top-ranked prediction by TxGNN score was familial visceral myopathy (0.9995), but it has no supporting evidence and no plausible mechanism. Nephrolithiasis is the highest-ranked prediction with substantive evidence and is the focus of this report.
 
 ---
 

@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **hepatitis B virus infection**
 |------|------|
 | Original Indication | Chronic hepatitis C virus infection (approved indication text not available in the data compiled) |
 | Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 2 |
+| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data for sofosbuvir are not available in the data compiled for this report. From what is known, sofosbuvir is a nucleotide analogue that inhibits the HCV NS5B RNA-dependent RNA polymerase. It is marketed in Australia as part of fixed-dose combinations with velpatasvir (Epclusa) and with velpatasvir plus voxilaprevir (Vosevi).
 
-The mechanistic link to HBV is weak. HBV is a DNA virus that replicates through a reverse-transcriptase step, so sofosbuvir has no established direct activity against it. The clinical data come from HCV/HBV co-infection, where clearing HCV can shift HBV-DNA and HBsAg levels. The main safety concern in that setting is HBV reactivation, and the evidence supports monitoring or prophylaxis (for example with tenofovir alafenamide) rather than using sofosbuvir to treat HBV. The model's score therefore likely reflects the closeness of viral hepatitis diseases in the knowledge graph rather than a proven treatment effect.
+The mechanistic link to HBV is weak. HBV is a DNA virus that replicates through a reverse-transcriptase step, so sofosbuvir has no established direct activity against it. The clinical data come from HCV/HBV co-infection, where clearing HCV can shift HBV-DNA and HBsAg levels. The main safety concern in that setting is HBV reactivation, and the evidence supports monitoring or prophylaxis (for example with tenofovir alafenamide) rather than using sofosbuvir to treat HBV. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a proven treatment effect.
 
 The single most relevant study is a Phase 2 open-label trial of ledipasvir/sofosbuvir in HBV mono-infection, which was based on a modest HBsAg reduction seen retrospectively in co-infected patients.
 

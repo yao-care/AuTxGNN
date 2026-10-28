@@ -4,17 +4,17 @@ title: Oxazepam
 parent: Moderate Evidence (L3-L4)
 nav_order: 535
 evidence_level: L3
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Oxazepam: predicted new indication Insomnia (evidence level L3). Approved use: Alcohol withdrawal delirium"
 monitor_inn: "Oxazepam"
-predicted_indications: ["insomnia (disease)", "sleep disorder, initiating and maintaining sleep", "cauda equina syndrome", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "myofascial pain syndrome", "acute encephalopathy with biphasic seizures and late reduced diffusion", "phencyclidine abuse"]
+predicted_indications: ["insomnia (disease)"]
 ---
 
 # Oxazepam
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **no registered clinical trials** and **10 publications** (including 3 smal
 |------|------|
 | Original Indication | Alcohol withdrawal delirium; anxiety (the ARTG entry carries no approved indication text) |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,7 +80,7 @@ Currently no related clinical trials registered for insomnia.
 | [29844949](https://pubmed.ncbi.nlm.nih.gov/29844949/) | 2018 | Cohort | PeerJ | Factors associated with potentially inappropriate long-term benzodiazepine and z-drug use in older people |
 | [6139491](https://pubmed.ncbi.nlm.nih.gov/6139491/) | 1983 | Cohort/case series | JAMA | Withdrawal syndrome in two patients after substituting short-acting for long-acting benzodiazepines (including oxazepam) |
 
-The closely related prediction "sleep disorder, initiating and maintaining sleep" (score 96.3%) adds several further small RCTs: oxazepam versus midazolam ([6138067](https://pubmed.ncbi.nlm.nih.gov/6138067/), [6138069](https://pubmed.ncbi.nlm.nih.gov/6138069/), [6138068](https://pubmed.ncbi.nlm.nih.gov/6138068/)), versus valerian ([10899744](https://pubmed.ncbi.nlm.nih.gov/10899744/)), and a review of benzodiazepines for insomnia in older adults ([7595266](https://pubmed.ncbi.nlm.nih.gov/7595266/)). These are all 1983 to 2000 studies with limited rigour.
+Several further small RCTs compare oxazepam versus midazolam ([6138067](https://pubmed.ncbi.nlm.nih.gov/6138067/), [6138069](https://pubmed.ncbi.nlm.nih.gov/6138069/), [6138068](https://pubmed.ncbi.nlm.nih.gov/6138068/)) and versus valerian ([10899744](https://pubmed.ncbi.nlm.nih.gov/10899744/)), and a review covers benzodiazepines for insomnia in older adults ([7595266](https://pubmed.ncbi.nlm.nih.gov/7595266/)). These are all 1983 to 2000 studies with limited rigour.
 
 ## Australia Market Information
 
@@ -110,7 +110,6 @@ The mechanism is plausible and short-term efficacy is suggested by small, old tr
 - Comparison against current guideline-recommended insomnia treatments, with a focus on older adults
 - A defined short-term, low-dose use case, and a dependence and withdrawal risk-mitigation plan, supported by modern controlled trial data
 
-**Other predictions (not recommended to progress):** alcohol withdrawal is within the original indication scope. The following should be held because evidence is absent or indirect only: cauda equina syndrome, barbiturate abuse, hallucinogen abuse, antidepressant type abuse, myofascial pain syndrome, acute encephalopathy with biphasic seizures and late reduced diffusion, and phencyclidine abuse.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

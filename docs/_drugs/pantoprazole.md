@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pantoprazole
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 546
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Pantoprazole: predicted new indication Active peptic ulcer disease (evidence level L1). Approved use: Peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis…"
 monitor_inn: "Pantoprazole"
-predicted_indications: ["duodenal obstruction", "acne (disease)", "Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia"]
+predicted_indications: ["duodenal obstruction"]
+description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,31 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Pantoprazole: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Pantoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pantoprazole is a proton pump inhibitor originally used for peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this is effectively an on-label use rather than true repurposing.
+The TxGNN model predicts it may be effective for **duodenal obstruction**.
 The data compiled for this report include **1 clinical trial** (a completed Phase 3 RCT) and **19 publications** for this indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis, Zollinger-Ellison syndrome (the Australian licence record carries no indication text) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9921 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data are not available in the compiled data. From the literature, pantoprazole irreversibly inhibits the gastric H+/K+ ATPase (proton pump) in parietal cells. This suppresses gastric acid secretion and allows ulcers to heal.
 
-Active peptic ulcer disease is closely related to pantoprazole's original indications. The prediction is therefore mechanistically sound, but it largely restates an established use.
 
 The model's other predictions fall into three groups:
 - **Established acid-related uses:** duodenal ulcer (rank 6) and gastric ulcer (rank 8) are on-label and supported by Phase 3 evidence (both L1, Proceed with Guardrails).

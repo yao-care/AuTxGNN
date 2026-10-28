@@ -4,17 +4,17 @@ title: Flutamide
 parent: Model Prediction Only (L5)
 nav_order: 309
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Flutamide: predicted new indication Top-ranked: prostate cancer/brain cancer susceptibility (Hold… (evidence level L5). Approved use: Prostate cancer"
 monitor_inn: "Flutamide"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
+description: "Flutamide: predicted new indication Fibroma of prostate (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Flutamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Flutamide: From Prostate Cancer to Male Reproductive Organ Cancer
+## Flutamide: Fibroma of prostate
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Flutamide is a nonsteroidal androgen receptor antagonist, originally used to treat prostate cancer.
-The TxGNN model's top-ranked prediction is "prostate cancer/brain cancer susceptibility", a genetic susceptibility label with no supporting evidence. The best-supported prediction in this dataset is **male reproductive organ cancer**, which includes prostate cancer and so is effectively the drug's existing use. It has **40 registered clinical trials** and **20 publications**, but the retrieved titles often do not confirm flutamide as a studied arm.
+The TxGNN model's top-ranked prediction is "fibroma of prostate", with a score of 0.9998.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Prostate cancer (the ARTG entry has no indication text; this comes from the knowledge graph) |
-| Predicted New Indication | Top-ranked: prostate cancer/brain cancer susceptibility (Hold, L5). Best-supported: male reproductive organ cancer |
-| TxGNN Prediction Score | 99.98% (top-ranked prediction); 99.98% (male reproductive organ cancer) |
-| Evidence Level | L1 (male reproductive organ cancer); L5 for the top-ranked prediction |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Fibroma of prostate |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 (male reproductive organ cancer); L5 for the top-ranked prediction |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (male reproductive organ cancer only); Hold for the top-ranked prediction |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. From the literature, flutamide is a pure nonsteroidal antiandrogen that blocks androgen receptors and is usually combined with an LHRH agonist for combined androgen blockade in prostate cancer (PMID 8252497, PMID 3071951).
 
-The top-ranked prediction, "prostate cancer/brain cancer susceptibility", is a genetic susceptibility label rather than a treatable disease. Its high score most likely reflects graph proximity to prostate cancer. The same applies to the other highly ranked rare prostate or reproductive tumours (fibroma of prostate, prostate leiomyoma, benign prostate phyllodes tumour). Brenner tumour has no known androgen-dependent biology. None of these has trials or literature.
+The high scores of the highly ranked rare prostate or reproductive tumours (fibroma of prostate, prostate leiomyoma, benign prostate phyllodes tumour) come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Brenner tumour has no known androgen-dependent biology. None of these has trials or literature.
 
-"Male reproductive organ cancer" is a broad category that contains prostate cancer, so this is confirmation of an existing use rather than true repurposing. The HIV, simian immunodeficiency virus and feline immunodeficiency predictions have no plausible antiviral mechanism and are likely graph artefacts.
+The HIV, simian immunodeficiency virus and feline immunodeficiency predictions have no plausible antiviral mechanism. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -119,7 +119,7 @@ Please refer to the TGA-approved Product Information (PI) for complete safety in
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails (male reproductive organ cancer only); Hold for all other predictions**
+**Decision: Proceed with Guardrails; Hold for all other predictions**
 
 **Rationale:**
 - Male reproductive organ cancer includes prostate cancer, flutamide's established use, and many Phase 3 trials exist in this setting. This is confirmation of an existing indication rather than new repurposing, and newer antiandrogens have largely replaced flutamide.

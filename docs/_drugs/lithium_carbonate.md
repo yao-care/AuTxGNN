@@ -6,9 +6,9 @@ nav_order: 433
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Bipolar disorder and major affective disorder"
 monitor_inn: "Lithium carbonate"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
+description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lithium Carbonate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lithium Carbonate: From Bipolar Disorder to Pseudoachondroplasia
+## Lithium Carbonate: Pseudoachondroplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ but there are currently **0 clinical trials** and **0 publications** specific to
 
 | Item | Content |
 |------|------|
-| Original Indication | Bipolar disorder and major affective disorder (the ARTG entry in the data compiled for this report has no indication text; this is taken from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pseudoachondroplasia |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this report. Lithium is widely described as inhibiting glycogen synthase kinase-3 (GSK-3), which modulates Wnt signalling and autophagy. This is general background knowledge, not data from the compiled sources.
 
-Pseudoachondroplasia is caused by COMP gene mutations, which lead to chondrocyte endoplasmic reticulum stress and defects in the extracellular matrix. Lithium's effects on Wnt signalling and autophagy could plausibly touch skeletal or chondrocyte pathways. However, this link is speculative. The prediction may also reflect graph proximity to lithium's listed arthropathy and osteoarthritis indications rather than a demonstrated mechanism.
+Pseudoachondroplasia is caused by COMP gene mutations, which lead to chondrocyte endoplasmic reticulum stress and defects in the extracellular matrix. Lithium's effects on Wnt signalling and autophagy could plausibly touch skeletal or chondrocyte pathways. However, this link is speculative. The score of 0.9998 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-The other top-ranked predictions are also rare skeletal or developmental disorders (for example acromesomelic dysplasia Hunter-Thompson type, brachyolmia and brachydactyly-syndactyly syndrome). All have scores above 99.9% and none has supporting clinical evidence, so the cluster looks like a graph-neighbourhood effect.
+The other top-ranked predictions are also rare skeletal or developmental disorders (for example acromesomelic dysplasia, Hunter-Thompson type, 0.9996; brachyolmia, 0.9996; and brachydactyly-syndactyly syndrome, 0.9995). All have TxGNN scores of 0.9995 or higher and none has supporting clinical evidence, so the cluster may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -97,7 +97,7 @@ Lithium has a narrow therapeutic index. Please refer to the TGA-approved Product
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a graph-based model score. There are no clinical trials or drug-specific publications, and the mechanistic link is speculative. Lithium also carries a notable safety burden (narrow therapeutic index, renal and thyroid effects, many interactions), and a postnatal drug is unlikely to correct a COMP-related structural defect.
+The prediction is supported only by a score from the TxGNN model (deep learning). There are no clinical trials or drug-specific publications, and the mechanistic link is speculative. Lithium also carries a notable safety burden (narrow therapeutic index, renal and thyroid effects, many interactions), and a postnatal drug is unlikely to correct a COMP-related structural defect.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, and preclinical evidence (for example in COMP-mutant chondrocyte or mouse models) showing that lithium reduces ER stress or improves cartilage matrix

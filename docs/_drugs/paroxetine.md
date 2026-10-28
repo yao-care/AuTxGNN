@@ -4,17 +4,17 @@ title: Paroxetine
 parent: Model Prediction Only (L5)
 nav_order: 547
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Paroxetine: predicted new indication Top-ranked: Ohdo syndrome and variants . Best-supported: Agoraphobia (evidence level L5). Approved use: Not stated in the Australian licence data. The knowledge g…"
 monitor_inn: "Paroxetine"
-predicted_indications: ["Ohdo syndrome and variants", "melancholia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy", "agoraphobia", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder"]
+predicted_indications: ["Ohdo syndrome and variants"]
+description: "Paroxetine: predicted new indication Top-ranked: Ohdo syndrome and variants . Best-supported: Agoraphobia (Ohdo syndrome and variants) (evidence level L5). Approved use: Not recorded in the local dat"
 ---
 
 # Paroxetine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Paroxetine: From Major Depressive Disorder and Anxiety Disorders to Agoraphobia
+## Paroxetine: Top-ranked: Ohdo syndrome and variants (rank 1). Best-supported: Agoraphobia (Ohdo syndrome and variants)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Paroxetine is a selective serotonin reuptake inhibitor (SSRI) originally used for depression and anxiety-related disorders, including major depressive disorder, obsessive-compulsive disorder, social phobia and post-traumatic stress disorder.
-The TxGNN model's top-ranked prediction is **Ohdo syndrome and variants**, which has no supporting evidence. The best-supported prediction is **Agoraphobia**, with **2 clinical trials** and **19 publications** behind it.
-This report covers the top-ranked prediction in the Quick Overview, then focuses on agoraphobia, the most clinically credible candidate. The depression-related predictions (melancholia, neurotic depression) are near-label rather than true repurposing.
+The TxGNN model's top-ranked prediction is **Ohdo syndrome and variants**, which has no supporting evidence.
+This report covers the top-ranked prediction in the Quick Overview, Ohdo syndrome and variants. The depression-related predictions (melancholia, neurotic depression) are near-label rather than true repurposing.
 
 ---
 
@@ -48,12 +48,12 @@ This report covers the top-ranked prediction in the Quick Overview, then focuses
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Australian licence data. The knowledge graph lists anxiety disorder, dysthymic disorder, major depressive disorder, PTSD, social phobia, OCD and others |
-| Predicted New Indication | Top-ranked: Ohdo syndrome and variants (rank 1). Best-supported: Agoraphobia (rank 6) |
-| TxGNN Prediction Score | Ohdo syndrome and variants: 99.11%; Agoraphobia: 97.76% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Top-ranked: Ohdo syndrome and variants (rank 1). Best-supported: Agoraphobia (Ohdo syndrome and variants) |
+| TxGNN Prediction Score | 0.9911 |
 | Evidence Level | Ohdo syndrome: L5; Agoraphobia: L1 (the grade rests largely on panic disorder evidence) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Ohdo syndrome: Hold; Agoraphobia: Proceed with Guardrails |
 
 ---
@@ -62,17 +62,16 @@ This report covers the top-ranked prediction in the Quick Overview, then focuses
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, paroxetine is a potent and selective inhibitor of presynaptic serotonin reuptake, and its efficacy in depression and anxiety disorders is well established.
 
-**Agoraphobia:** It commonly co-occurs with panic disorder, and paroxetine is already approved for panic disorder and other anxiety disorders. Serotonergic modulation of fear and anxiety circuits (amygdala, prefrontal cortex) provides a plausible mechanism. The evidence is mostly in panic disorder with or without agoraphobia rather than agoraphobia alone, so this is a near-label use rather than a true repurposing.
+Serotonergic modulation of fear and anxiety circuits (amygdala, prefrontal cortex) provides a plausible mechanism.
 
-**Ohdo syndrome and variants (rank 1 and rank 3):** No mechanistic link has been established. This is a rare genetic disorder (KAT6B-related), and the high score is a graph-based prediction only, with no trials or literature. It should not be pursued on current evidence.
+**Ohdo syndrome and variants (rank 1 and rank 3):** No mechanistic link has been established. This is a rare genetic disorder (KAT6B-related), and the high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There are no trials or literature. It should not be pursued on current evidence.
 
-**Other predictions:** Melancholia and neurotic depression are subtypes or relatives of already-approved depressive indications. The remaining predictions (benign paroxysmal torticollis of infancy and the paranoid, schizotypal, histrionic and schizoid personality disorders) have no or very weak evidence and are held.
+**Other predictions:** Melancholia and neurotic depression are subtypes or relatives of already-approved depressive indications.
 
 ---
 
 ## Clinical Trial Evidence
 
-Trials for agoraphobia (rank 6):
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -87,7 +86,6 @@ No clinical trials are registered for Ohdo syndrome, neurotic depression or the 
 
 ## Literature Evidence
 
-Selected publications for agoraphobia (rank 6), prioritising RCTs, then reviews:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -140,7 +138,7 @@ Warnings and contraindications from the product label were not available in the 
 **Decision: Proceed with Guardrails (agoraphobia); Hold (Ohdo syndrome and variants)**
 
 **Rationale:**
-- Agoraphobia is supported by one completed Phase 3 trial, one completed Phase 4 randomised trial, RCTs and a Cochrane network meta-analysis, mostly in panic disorder with or without agoraphobia. It is a near-label use. Only one Phase 3 trial is listed and its paroxetine-specific arms are unconfirmed, so L1 is a generous grade.
+- It is a near-label use. Only one Phase 3 trial is listed and its paroxetine-specific arms are unconfirmed, so L1 is a generous grade.
 - The top-ranked Ohdo syndrome prediction has a high model score but no trials, no literature and no plausible mechanism, so it is held.
 
 **To proceed, the following is needed:**

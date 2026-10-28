@@ -4,17 +4,17 @@ title: Donepezil
 parent: Model Prediction Only (L5)
 nav_order: 225
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Donepezil: predicted new indication Chronic tic disorder (evidence level L5). Approved use: Alzheimer's disease"
 monitor_inn: "Donepezil"
-predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia", "acute intermittent porphyria", "glaucoma"]
+predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
+description: "Donepezil: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Donepezil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Donepezil: From Alzheimer's Disease to Chronic Tic Disorder
+## Donepezil: Psychogenic movement disorders
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **chronic tic disorder** (the h
 
 | Item | Content |
 |------|------|
-| Original Indication | Alzheimer's disease (the Australian licence entry has no approved indication text; this indication comes from the TxGNN knowledge graph) |
-| Predicted New Indication | Chronic tic disorder (TxGNN rank 2; the top-ranked prediction, psychogenic movement disorders, has no supporting evidence) |
-| TxGNN Prediction Score | 99.19% (psychogenic movement disorders, rank 1: 99.23%) |
-| Evidence Level | L3 (L5 for the rank 1 prediction) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Psychogenic movement disorders |
+| TxGNN Prediction Score | 0.9923 |
+| Evidence Level | L5 (L5 for the rank 1 prediction) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (chronic tic disorder is a research question only) |
 
 ---
@@ -69,16 +69,14 @@ Other predictions were reviewed (see the table below). Most have no evidence, an
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 1 | Psychogenic movement disorders | 99.23% | L5 | No trials or literature |
-| 2 | Chronic tic disorder | 99.19% | L3 | Small open-label study, case reports, mouse data |
-| 3 | Primary orthostatic tremor | 99.17% | L5 | No evidence |
-| 4 | Extrapyramidal and movement disease | 99.16% | L3 | Small benefit study in tardive disorders, but a 2025 systematic review links cholinesterase inhibitors to movement disorders |
-| 5 | Benign shuddering attacks | 99.16% | L5 | No evidence; benign paediatric condition |
-| 6 | Tremor-nystagmus-duodenal ulcer syndrome | 99.15% | L5 | Only article is off-target; ulcer safety concern |
-| 7 | Benign paroxysmal tonic upgaze of childhood with ataxia | 99.12% | L5 | No evidence |
-| 8 | Lingual-facial-buccal dyskinesia | 99.02% | L3 | Cochrane reviews of cholinergic drugs in tardive dyskinesia; donepezil-specific efficacy unclear |
-| 9 | Acute intermittent porphyria | 98.75% | L5 | No evidence; porphyria safety not evaluated |
-| 10 | Glaucoma | 98.28% | L3 | Pilot and preclinical signals only; one angle-closure case after donepezil withdrawal |
+| 1 | Psychogenic movement disorders | 0.9923 | L5 | No trials or literature |
+| 2 | Chronic tic disorder | 0.9919 | L5 | Small open-label study, case reports, mouse data |
+| 3 | Primary orthostatic tremor | 0.9917 | L5 | No evidence |
+| 4 | Extrapyramidal and movement disease | 0.9916 | L5 | Small benefit study in tardive disorders, but a 2025 systematic review links cholinesterase inhibitors to movement disorders |
+| 5 | Benign shuddering attacks | 0.9916 | L5 | No evidence; benign paediatric condition |
+| 6 | Tremor-nystagmus-duodenal ulcer syndrome | 0.9915 | L5 | Only article is off-target; ulcer safety concern |
+| 7 | Benign paroxysmal tonic upgaze of childhood with ataxia | 0.9912 | L5 | No evidence |
+| 8 | Lingual-facial-buccal dyskinesia | 0.9902 | L5 | Cochrane reviews of cholinergic drugs in tardive dyskinesia; donepezil-specific efficacy unclear |
 
 ---
 

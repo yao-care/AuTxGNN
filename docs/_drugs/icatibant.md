@@ -4,17 +4,17 @@ title: Icatibant
 parent: High Evidence (L1-L2)
 nav_order: 363
 evidence_level: L1
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Icatibant: predicted new indication C1 inhibitor deficiency (evidence level L1). Approved use: Hereditary angioedema (including HAE with C1 inhibitor deficiency)"
 monitor_inn: "Icatibant"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia", "focal myositis", "Scott syndrome", "inflammatory myopathy with abundant macrophages"]
+predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
 ---
 
 # Icatibant
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **11 clinical trials** and **20 publications** currently supporting this di
 |------|------|
 | Original Indication | Hereditary angioedema (including HAE with C1 inhibitor deficiency) |
 | Predicted New Indication | C1 inhibitor deficiency |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

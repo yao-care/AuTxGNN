@@ -4,17 +4,17 @@ title: Glatiramer
 parent: Model Prediction Only (L5)
 nav_order: 335
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Glatiramer: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Not stated in the data compiled for this report (literature describes…"
 monitor_inn: "Glatiramer"
-predicted_indications: ["hemoglobinopathy", "plasma cell myeloma", "female breast carcinoma", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "indolent plasma cell myeloma", "gastric linitis plastica", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
+predicted_indications: ["hemoglobinopathy"]
 ---
 
 # Glatiramer
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Glatiramer (glatiramer acetate) is an immunomodulator marketed in Australia as C
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (literature describes use in multiple sclerosis) |
 | Predicted New Indication | Hemoglobinopathy |
-| TxGNN Prediction Score | 99.03% |
+| TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,6 @@ Hemoglobinopathies are primarily genetic disorders of hemoglobin structure or sy
 
 The single publication retrieved (PMID 28372806) is a case of multiple immune disorders after natalizumab discontinuation in a patient with MS who also had beta thalassemia. It reflects co-occurrence of conditions, not therapeutic benefit of glatiramer.
 
-Other top-ranked predictions are similarly unsupported. These include plasma cell myeloma, female breast carcinoma, beta-thalassemia, pyruvate kinase deficiency and other red-cell disorders. For breast carcinoma, the literature consists of cancer-risk studies in MS populations, which are safety and epidemiology data rather than evidence of benefit.
 
 ## Clinical Trial Evidence
 

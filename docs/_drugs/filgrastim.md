@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **primary release disorder of p
 |------|------|
 | Original Indication | Constitutional neutropenia, severe congenital neutropenia, cyclic haematopoiesis, chronic familial neutropenia (the ARTG entry carries no indication text) |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -4,17 +4,17 @@ title: Telmisartan
 parent: Model Prediction Only (L5)
 nav_order: 703
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Telmisartan: predicted new indication Intracerebral haemorrhage (evidence level L5). Approved use: Hypertension, stroke and cerebrovascular disorders…"
 monitor_inn: "Telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
+description: "Telmisartan: predicted new indication Intracerebral haemorrhage (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Telmisartan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Telmisartan: From Hypertension and Stroke Prevention to Intracerebral Haemorrhage
+## Telmisartan: Intracerebral haemorrhage (best-evidenced); top-scored prediction is Prinzmetal angina (Prinzmetal angina)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,12 +50,12 @@ The top-ranked prediction by TxGNN score, **Prinzmetal angina**, has no supporti
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, stroke and cerebrovascular disorders, cerebral infarction (from the knowledge graph; no approved indication text is available for the Australian entry) |
-| Predicted New Indication | Intracerebral haemorrhage (best-evidenced); top-scored prediction is Prinzmetal angina |
-| TxGNN Prediction Score | 99.93% (intracerebral haemorrhage); 99.98% (Prinzmetal angina) |
-| Evidence Level | L2 (intracerebral haemorrhage) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Intracerebral haemorrhage (best-evidenced); top-scored prediction is Prinzmetal angina (Prinzmetal angina) |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 (intracerebral haemorrhage) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (intracerebral haemorrhage); Hold for the other predictions without evidence |
 
 ---
@@ -114,16 +114,15 @@ For cerebral artery occlusion (L3), the literature is preclinical only, mainly r
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 1 | Prinzmetal angina | 99.98% | L5 | Prediction only; no trials or literature |
-| 2 | Brain stem infarction | 99.98% | L5 | Within the original stroke scope, but no direct evidence |
-| 3 | ABri amyloidosis | 99.97% | L5 | Prediction only |
-| 4 | Cerebral artery occlusion | 99.95% | L3 | Preclinical data and one indirect Phase 4 trial |
-| 5 | Pulmonary hypertension, unclear multifactorial mechanism | 99.93% | L5 | Prediction only |
-| 6 | Pulmonary hypertension due to lung disease/hypoxia | 99.93% | L4 | Indirect animal, in vitro and altitude studies only |
-| 7 | Malignant renovascular hypertension | 99.93% | L5 | Prediction only; ARB safety concerns in renal artery stenosis |
-| 8 | Malignant hypertensive renal disease | 99.93% | L5 | Prediction only |
-| 9 | Intracerebral haemorrhage | 99.93% | L2 | Phase 3 TRIDENT (combination therapy) |
-| 10 | Braddock syndrome | 99.92% | L5 | Prediction only; no identifiable mechanistic basis |
+| 1 | Prinzmetal angina | 0.9998 | L5 | Prediction only; no trials or literature |
+| 2 | Brain stem infarction | 0.9998 | L5 | Within the original stroke scope, but no direct evidence |
+| 3 | ABri amyloidosis | 0.9997 | L5 | Prediction only |
+| 4 | Cerebral artery occlusion | 0.9995 | L3 | Preclinical data and one indirect Phase 4 trial |
+| 5 | Pulmonary hypertension, unclear multifactorial mechanism | 0.9993 | L5 | Prediction only |
+| 6 | Pulmonary hypertension due to lung disease/hypoxia | 0.9993 | L5 | Indirect animal, in vitro and altitude studies only |
+| 8 | Malignant hypertensive renal disease | 0.9993 | L5 | Prediction only |
+| 9 | Intracerebral haemorrhage | 0.9993 | L5 | Phase 3 TRIDENT (combination therapy) |
+| 10 | Braddock syndrome | 0.9992 | L5 | Prediction only; no identifiable mechanistic basis |
 
 ---
 

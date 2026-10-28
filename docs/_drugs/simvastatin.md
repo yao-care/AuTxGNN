@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Simvastatin
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 675
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Simvastatin: predicted new indication Familial hypercholesterolaemia (evidence level L1). Approved use: Hyperlipidaemia, including homozygous familial hypercholesterolaemia…"
+description: "Simvastatin: predicted new indication brain stem infarction (evidence level L1). Approved use: Hyperlipidaemia, including homozygous familial hypercholesterolaemia…"
 monitor_inn: "Simvastatin"
-predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "simian immunodeficiency virus infection"]
+predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Simvastatin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Simvastatin: From Hyperlipidaemia and Cerebrovascular Disease to Familial Hypercholesterolaemia
+## Simvastatin: From Hyperlipidaemia and Cerebrovascular Disease to brain stem infarction
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ Note that this is effectively an on-label or near-label use rather than true rep
 |------|------|
 | Original Indication | Hyperlipidaemia, including homozygous familial hypercholesterolaemia, atherosclerosis and stroke-related disorders (the ARTG entry in the data compiled for this report has no indication text) |
 | Predicted New Indication | Familial hypercholesterolaemia |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9941 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note: the L1 rating comes from the data compiled for this report. Strictly, the completed Phase 3 trials are mostly combination or background-therapy studies (see below), so the direct evidence for simvastatin alone is weaker than L1 suggests.*
@@ -129,7 +129,7 @@ The mechanism is well established, and several completed Phase 3 trials, plus gu
 |------|------|------|------|
 | Hypercholesterolaemia, autosomal dominant | L1 | Proceed with Guardrails | Overlaps with familial hypercholesterolaemia; same trials and reviews apply |
 | HIV infection | L3 | Research Question | Trials are pharmacokinetic interaction studies only; any use would be for HIV-associated dyslipidaemia, and simvastatin is generally avoided with boosted antiretrovirals |
-| Brain stem infarction | L4 | Hold | Only preclinical literature, with simvastatin not the focus |
+| Brain stem infarction | L5 | Hold | Only preclinical literature, with simvastatin not the focus |
 | Simian immunodeficiency virus infection | L4 | Hold | Only a non-human primate study, with no human indication |
 | CETP deficiency, CYP7A1-deficiency hypercholesterolaemia, ABri amyloidosis, a rare neurodevelopmental disorder, fibroma of prostate | L5 | Hold | Model prediction only; no trials or literature |
 ## Disclaimer

@@ -4,17 +4,17 @@ title: Ocrelizumab
 parent: Model Prediction Only (L5)
 nav_order: 517
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Ocrelizumab: predicted new indication HER2-positive breast carcinoma (evidence level L5). Approved use: Progressive multiple sclerosis"
 monitor_inn: "Ocrelizumab"
-predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "benign neoplasm of tongue", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "schwannoma of jugular foramen", "benign neoplasm of buccal mucosa"]
+predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
+description: "Ocrelizumab: predicted new indication HER2 positive breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ocrelizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ocrelizumab: From Progressive Multiple Sclerosis to HER2-Positive Breast Carcinoma
+## Ocrelizumab: HER2 positive breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,20 @@ but there are currently **0 registered clinical trials** and **0 publications** 
 
 | Item | Content |
 |------|------|
-| Original Indication | Progressive multiple sclerosis (per the knowledge graph; no approved indication text is available from the ARTG entry) |
-| Predicted New Indication | HER2-positive breast carcinoma |
-| TxGNN Prediction Score | 99.89% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | HER2 positive breast carcinoma |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Ocrelizumab is known to be a humanised anti-CD20 monoclonal antibody that selectively depletes CD20-expressing B cells. Its efficacy in multiple sclerosis is well established.
 
-No mechanistic link between CD20-directed B-cell depletion and HER2-positive breast carcinoma is supported by the data compiled. The high TxGNN score (0.999) reflects a graph-based model signal, not independent evidence. Other breast cancer subtypes (progesterone-receptor positive and negative, luminal A or B, normal breast-like) received near-identical scores. This suggests a shared graph signal across the breast cancer cluster rather than disease-specific evidence.
+No mechanistic link between CD20-directed B-cell depletion and HER2 positive breast carcinoma is supported by the data compiled. The high score (0.9989) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Other breast cancer subtypes (progesterone-receptor positive and negative, luminal A or B, normal breast-like) received near-identical scores. This suggests a shared model signal across the breast cancer group rather than disease-specific evidence.
 
-Other top-ranked predictions include benign head and neck neoplasms, cervical neuroblastoma and jugular foramen schwannoma. None has a supported rationale, and for benign lesions the risk-benefit balance of an immunosuppressive biologic is unfavourable.
 
 ## Clinical Trial Evidence
 

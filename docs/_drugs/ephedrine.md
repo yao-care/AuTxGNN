@@ -4,17 +4,17 @@ title: Ephedrine
 parent: Moderate Evidence (L3-L4)
 nav_order: 257
 evidence_level: L4
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Ephedrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, bronchitis, pharyngitis…"
 monitor_inn: "Ephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "massive neonatal aspiration syndrome", "hantavirus infectious disease", "respiratory syncytial virus bronchiolitis", "meconium aspiration syndrome", "faucial diphtheria", "lung disease"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
+description: "Ephedrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Ephedrine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Ephedrine: From Allergic Rhinitis to Nasal Cavity Disease
+## Ephedrine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Support is limited to **0 clinical trials** and **2 publications**, both old and
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, bronchitis, pharyngitis, common cold (from the knowledge graph; the Australian licence record contains no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

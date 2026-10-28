@@ -4,17 +4,17 @@ title: Ramipril
 parent: Model Prediction Only (L5)
 nav_order: 623
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Ramipril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertension, stroke and cerebrovascular disorders"
 monitor_inn: "Ramipril"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
+description: "Ramipril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ramipril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ramipril: From Hypertension to Pulmonary Hypertension (Owing to Lung Disease and/or Hypoxia)
+## Ramipril: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension owing 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, stroke and cerebrovascular disorders (the ARTG entry carries no indication text; these indications come from the knowledge graph) |
-| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 (preclinical evidence only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 (preclinical evidence only) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Note on the choice of lead indication:** The top-ranked prediction (pulmonary hypertension with unclear multifactorial mechanism) has the same score but no trials or literature (L5). The second-ranked prediction, pulmonary hypertension owing to lung disease and/or hypoxia, is the highest-ranked one with any supporting evidence, so this report focuses on it. Other predictions are summarised at the end.
@@ -121,15 +121,14 @@ The prediction score is high, but the evidence is a single 1996 rat study, with 
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 1 | Pulmonary hypertension, unclear multifactorial mechanism | 99.93% | L5 | Model score only |
-| 3 | Malignant renovascular hypertension | 99.93% | L5 | Extension of existing hypertension use; ACE inhibitors carry a risk of acute renal failure in bilateral renal artery stenosis |
-| 4 | Malignant hypertensive renal disease | 99.93% | L5 | Largely overlaps with the existing indication |
-| 5 | Braddock syndrome | 99.91% | L5 | No mechanistic link evident |
-| 6 | Brain stem infarction | 99.89% | L5 | Consistent with existing stroke-prevention use |
-| 7 | Prinzmetal angina | 99.83% | L5 | Only an unrelated genetic study retrieved |
-| 8 | Intracerebral haemorrhage | 99.82% | L4 | Preclinical and indirect evidence only |
-| 9 | ABri amyloidosis | 99.79% | L5 | No mechanistic link evident |
-| 10 | Cerebral artery occlusion | 99.74% | L4 | Mixed animal data and one small human cerebral blood flow study (PMID 8797135); overlaps with the approved stroke-related use; flagged as a research question |
+| 1 | Pulmonary hypertension, unclear multifactorial mechanism | 0.9993 | L5 | Model score only |
+| 4 | Malignant hypertensive renal disease | 0.9993 | L5 | Largely overlaps with the existing indication |
+| 5 | Braddock syndrome | 0.9991 | L5 | No mechanistic link evident |
+| 6 | Brain stem infarction | 0.9989 | L5 | Consistent with existing stroke-prevention use |
+| 7 | Prinzmetal angina | 0.9983 | L5 | Only an unrelated genetic study retrieved |
+| 8 | Intracerebral haemorrhage | 0.9982 | L5 | Preclinical and indirect evidence only |
+| 9 | ABri amyloidosis | 0.9979 | L5 | No mechanistic link evident |
+| 10 | Cerebral artery occlusion | 0.9974 | L5 | Mixed animal data and one small human cerebral blood flow study (PMID 8797135); overlaps with the approved stroke-related use; flagged as a research question |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

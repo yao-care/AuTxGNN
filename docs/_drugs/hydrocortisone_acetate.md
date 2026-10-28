@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydrocortisone Acetate
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 354
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L5). Approved use: Autoimmune disease, Crohn disease, inflammatory bowel disease…"
 monitor_inn: "Hydrocortisone acetate"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
+description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Hydrocortisone Acetate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Hydrocortisone Acetate: From Autoimmune and Inflammatory Conditions to Alopecia Areata
+## Hydrocortisone Acetate: Alopecia areata
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **1 clinical trial** (in which hydrocortisone was the comparator) and **2 o
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease, Crohn disease, inflammatory bowel disease, adrenocortical insufficiency, congenital adrenal hyperplasia and others (from the knowledge graph; the Australian ARTG entry lists no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L1 per the compiled data; however, the only trial is a single Phase 3 RCT with hydrocortisone as the comparator, so a more conservative reading is L2 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

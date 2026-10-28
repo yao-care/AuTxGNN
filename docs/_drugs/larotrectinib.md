@@ -4,17 +4,17 @@ title: Larotrectinib
 parent: Model Prediction Only (L5)
 nav_order: 415
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Larotrectinib: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "Larotrectinib"
-predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma", "cytomegalovirus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "progesterone-receptor negative breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "thrombocytopenia"]
+predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
 ---
 
 # Larotrectinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia 
 |------|------|
 | Original Indication | Not available in the compiled data (the ARTG indication text is blank) |
 | Predicted New Indication | Multiple endocrine neoplasia |
-| TxGNN Prediction Score | 99.24% |
-| Evidence Level | L3 (indirect; no MEN-specific studies) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9924 |
+| Evidence Level | L5 (indirect; no MEN-specific studies) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

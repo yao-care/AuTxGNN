@@ -4,7 +4,7 @@ title: Zonisamide
 parent: Model Prediction Only (L5)
 nav_order: 796
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Zonisamide: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not stated in the Australian registration data (zonisamide is general…"
 monitor_inn: "Zonisamide"
@@ -14,7 +14,7 @@ predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobine
 # Zonisamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The prediction is model-based only and should be treated as a hypothesis.
 |------|------|
 | Original Indication | Not stated in the Australian registration data (zonisamide is generally used as an antiseizure medicine) |
 | Predicted New Indication | Tourette syndrome |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -120,11 +120,10 @@ Other predictions were also reviewed, but none is stronger than L4 evidence:
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Absence epilepsy | 99.24% | L4 | Strongest rationale (T-type calcium channel blockade). Small studies exist ([15847848](https://pubmed.ncbi.nlm.nih.gov/15847848/): 23 of 45 children seizure-free; [24907183](https://pubmed.ncbi.nlm.nih.gov/24907183/)), but this is an extension within epilepsy. |
-| Manic bipolar affective disorder | 99.35% | L4 | One open-label report in bipolar depression ([17163811](https://pubmed.ncbi.nlm.nih.gov/17163811/)) and a case report of zonisamide-induced mania ([2109869](https://pubmed.ncbi.nlm.nih.gov/2109869/)). |
-| Fibromyalgia | 99.20% | L5 | One Phase 4 trial ([NCT00259636](https://clinicaltrials.gov/study/NCT00259636)) was withdrawn with 0 enrolled. |
-| Trichotillomania, Prinzmetal angina, conjunctivitis | 99.16–99.78% | L5 | Prediction only. |
-| Methemoglobinemia (three entries) | 99.52–99.64% | L5 | No credible mechanism, likely correlated graph artefacts. Zonisamide is a sulfonamide, so safety concerns outweigh any benefit signal. |
+| Manic bipolar affective disorder | 0.9935 | L5 | One open-label report in bipolar depression ([17163811](https://pubmed.ncbi.nlm.nih.gov/17163811/)) and a case report of zonisamide-induced mania ([2109869](https://pubmed.ncbi.nlm.nih.gov/2109869/)). |
+| Fibromyalgia | 0.9920 | L5 | One Phase 4 trial ([NCT00259636](https://clinicaltrials.gov/study/NCT00259636)) was withdrawn with 0 enrolled. |
+| Trichotillomania, Prinzmetal angina, conjunctivitis | 99.16–0.9978 | L5 | Prediction only. |
+| Methemoglobinemia (three entries) | 0.9953–0.9964 | L5 | No credible mechanism. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Zonisamide is a sulfonamide, so safety concerns outweigh any benefit signal. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

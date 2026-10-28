@@ -6,9 +6,9 @@ nav_order: 349
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Psychotic disorders, including schizophrenia…"
 monitor_inn: "Haloperidol"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Haloperidol
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Haloperidol: From Psychotic Disorders to Congenital Disorder of Glycosylation with Defective Fucosylation
+## Haloperidol: Congenital disorder of glycosylation with defective fucosylation
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This prediction has **no clinical trials** and **no publications** supporting it
 
 | Item | Content |
 |------|------|
-| Original Indication | Psychotic disorders, including schizophrenia, schizophreniform disorder, schizoaffective disorder and Tourette syndrome (taken from the knowledge graph, because the Australian record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This prediction has **no clinical trials** and **no publications** supporting it
 
 Currently, detailed mechanism of action data for this drug is not available in the data compiled for this report. Haloperidol is generally understood to be a dopamine D2 receptor antagonist and a typical antipsychotic. Its efficacy in psychotic disorders is well established.
 
-No mechanistic link to this predicted indication could be identified. Nothing connects dopamine antagonism to fucosylation pathways or to the biology of this glycosylation disorder. The very high TxGNN score reflects a pattern in the knowledge graph, not biological or clinical evidence. This prediction should be treated as a computational hypothesis only.
+No mechanistic link to this predicted indication could be identified. Nothing connects dopamine antagonism to fucosylation pathways or to the biology of this glycosylation disorder. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. This prediction should be treated as a computational hypothesis only.
 
 ---
 
@@ -121,7 +121,7 @@ The prediction is model-only (L5), with no trials, no literature and no plausibl
 - Product Information warnings and contraindications for the Australian ARTG entry
 - A safety assessment for a likely paediatric or rare-disease population
 
-**Note on other predictions:** In the same output, the lower-ranked prediction **manic bipolar affective disorder** (score 99.83%) has far stronger support. It has completed Phase 3 trials, including a haloperidol-controlled olanzapine trial (NCT00129220, n=224), and network meta-analyses of acute mania treatments. That use is close to existing clinical practice for haloperidol, so it is not true repurposing. It would warrant a separate evaluation, with monitoring for extrapyramidal symptoms, QTc prolongation and drug interactions.
+**Note on other predictions:** In the same output, the lower-ranked prediction **manic bipolar affective disorder** (score 0.9983) has far stronger support. It has completed Phase 3 trials, including a haloperidol-controlled olanzapine trial (NCT00129220, n=224), and network meta-analyses of acute mania treatments. That use is close to existing clinical practice for haloperidol, so it is not true repurposing. It would warrant a separate evaluation, with monitoring for extrapyramidal symptoms, QTc prolongation and drug interactions.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

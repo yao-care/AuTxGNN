@@ -4,17 +4,17 @@ title: Phenylephrine
 parent: Moderate Evidence (L3-L4)
 nav_order: 571
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis…"
 monitor_inn: "phenylephrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
+description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Phenylephrine: From Allergic and Vasomotor Rhinitis to Nasal Cavity Disease
+## Phenylephrine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This prediction largely overlaps with existing indications rather than represent
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold and related conditions (from the knowledge graph; the Australian licence record contains no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This prediction largely overlaps with existing indications rather than represent
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, phenylephrine is an alpha-1 adrenergic agonist. It constricts blood vessels in the nasal mucosa, which reduces congestion, swelling and mucosal bleeding.
 
-The predicted indication, "nasal cavity disease", is a broad category that already includes rhinitis, nasopharyngitis and the common cold, all existing indications for this drug. The very high TxGNN score (99.97%) probably reflects this closeness to established uses rather than a new therapeutic discovery.
+The predicted indication, "nasal cavity disease", is a broad category that already includes rhinitis, nasopharyngitis and the common cold, all existing indications for this drug. The very high TxGNN score (0.9997) probably reflects this closeness to established uses rather than a new therapeutic discovery.
 
 The literature shows phenylephrine used in a combination nasal spray (Polydexa with phenylephrine) and as a vasoconstrictor in endoscopic sinus surgery. These are supportive uses, not controlled efficacy studies of phenylephrine alone.
 
@@ -98,7 +98,7 @@ The only licensed product is an ophthalmic combination (prednisolone acetate plu
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** hypertension/hypertensive disorder, liver failure and liver disease, kidney disease, epilepsy, COPD, peptic and gastric ulcer, pancreatitis, thrombocytopenia, adrenocortical insufficiency/Addison disease, hypothyroidism, inflammatory bowel disease, psychotic and other mental disorders, porphyria, and others. These likely reflect the corticosteroid component of the combination product as well as phenylephrine, and need verification against the Product Information.
+- **Contraindications (automated associations, not label text):** hypertension/hypertensive disorder, liver failure and liver disease, kidney disease, epilepsy, COPD, peptic and gastric ulcer, pancreatitis, thrombocytopenia, adrenocortical insufficiency/Addison disease, hypothyroidism, inflammatory bowel disease, psychotic and other mental disorders, porphyria, and others. These likely reflect the corticosteroid component of the combination product as well as phenylephrine, and need verification against the Product Information.
 - **Drug Interactions:** 180 interactions were identified, all of the 20 listed being Moderate. Main groups:
   - Antidiabetic agents (e.g. acarbose, glimepiride, glipizide, glyburide, insulin, dapagliflozin, empagliflozin, exenatide)
   - Anticholinergics (e.g. atropine ophthalmic, hyoscyamine, clidinium)
@@ -129,8 +129,7 @@ The predicted indication overlaps heavily with existing rhinitis and nasopharyng
 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision |
 |------|------|------|------|
-| Acute laryngopharyngitis | 99.97% | L5 | Hold (no trials or literature; oral phenylephrine has known bioavailability and efficacy questions) |
-| Trigeminal autonomic cephalalgia | 99.30% | L4 | Hold (literature uses phenylephrine only as a diagnostic pupillometry probe, not as a treatment; no therapeutic evidence) |
+| Trigeminal autonomic cephalalgia | 0.9930 | L4 | Hold (literature uses phenylephrine only as a diagnostic pupillometry probe, not as a treatment; no therapeutic evidence) |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

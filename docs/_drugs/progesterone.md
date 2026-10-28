@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Progesterone
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 606
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Progesterone: predicted new indication Amenorrhoea (evidence level L5). Approved use: Endometriosis, endometrial carcinoma…"
 monitor_inn: "Progesterone"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "cervix endometriosis", "renal hypoplasia (disease)", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+description: "Progesterone: predicted new indication Amenorrhea (disease) (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Progesterone: From Endometriosis to Amenorrhoea
+## Progesterone: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **4 clinical trials** (all indirect, with estrogen as the main tested agent
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis, endometrial carcinoma, postmenopausal osteoporosis and postmenopausal atrophic vaginitis (from the knowledge graph; no ARTG indication text is available) |
-| Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L1 per the scoring in the data compiled for this report. However, the Phase 3 trial is only indirectly relevant, so the effective strength is lower (see Conclusion). |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 2 |
+| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -97,7 +97,6 @@ The retrieved literature is almost entirely review-level or descriptive. No rand
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge-graph associations, not label text):** hypertensive disorders, liver failure and liver disease, epilepsy, anxiety and neurotic disorders, porphyria, kidney disease, gallbladder disease, hyperglycaemia and diabetes mellitus (including diabetic ketoacidosis), hypothyroidism, osteoporosis, systemic lupus erythematosus, asthma, hypertriglyceridaemia, and substance abuse or dependence.
 - **Drug interactions (100 recorded; all those shown are of Moderate level):** mainly antidiabetic agents, which may be affected by progesterone's effect on glucose, including acarbose, metformin, pioglitazone, glimepiride, repaglinide, chlorpropamide, canagliflozin, dapagliflozin, empagliflozin, alogliptin, saxagliptin, GLP-1 agonists (albiglutide, dulaglutide, liraglutide, semaglutide) and insulins (aspart, degludec, detemir). Others include aprepitant and clarithromycin.
 
 Please refer to the TGA-approved Product Information (PI) for official warnings and contraindications.

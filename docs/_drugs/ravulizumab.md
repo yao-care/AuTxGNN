@@ -6,9 +6,9 @@ nav_order: 627
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Ravulizumab: predicted new indication Autosomal recessive severe congenital neutropenia due to G6PC3 defici… (evidence level L5). Approved use: Paroxysmal nocturnal haemoglobinuria"
 monitor_inn: "Ravulizumab"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
+description: "Ravulizumab: predicted new indication Autosomal recessive severe congenital neutropenia due to G6PC3 deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ravulizumab
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ravulizumab: From Paroxysmal Nocturnal Haemoglobinuria to Autosomal Recessive Severe Congenital Neutropenia due to G6PC3 Deficiency
+## Ravulizumab: Autosomal recessive severe congenital neutropenia due to G6PC3 deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **autosomal recessive severe co
 
 | Item | Content |
 |------|------|
-| Original Indication | Paroxysmal nocturnal haemoglobinuria (from the knowledge graph; approved indication text not available in the ARTG data compiled for this report) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Autosomal recessive severe congenital neutropenia due to G6PC3 deficiency |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ravulizumab is a long-acting inhibitor of complement component C5. It blocks terminal complement activation, which is the basis of its efficacy in PNH, a complement-mediated haemolytic disease.
 
-For the predicted indication, no direct mechanistic link is established. G6PC3 deficiency causes neutropenia through impaired glucose metabolism and neutrophil apoptosis, and no role for complement C5 has been recognised. The high TxGNN score is a graph-based prediction only, and it is not supported by trials or literature.
+For the predicted indication, no direct mechanistic link is established. G6PC3 deficiency causes neutropenia through impaired glucose metabolism and neutrophil apoptosis, and no role for complement C5 has been recognised. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not supported by trials or literature.
 
 Other top-ranked predictions show the same pattern. They include cyclic haematopoiesis, severe congenital neutropenia, CXCR2 deficiency, primary hyperoxaluria, pseudo-von Willebrand disease and megaloblastic anaemia. Each has a rationale that is weak or speculative. The only tentative link is in primary hyperoxaluria, where complement inhibition could theoretically reduce secondary renal inflammation. That remains hypothetical.
 

@@ -4,17 +4,17 @@ title: Ferrous Fumarate
 parent: Model Prediction Only (L5)
 nav_order: 294
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Iron deficiency anaemia and related anaemias (including anaemia of pr…"
 monitor_inn: "Ferrous fumarate"
-predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "esophageal ulcer", "Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "injury", "perinatal disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "disease by subcellular system affected"]
+predicted_indications: ["non-syndromic esophageal malformation"]
+description: "Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ferrous Fumarate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,40 +33,37 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ferrous Fumarate: From Iron Deficiency Anaemia to Esophageal Disease
+## Ferrous Fumarate: Non-syndromic esophageal malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ferrous fumarate is an oral iron salt, originally used to treat iron deficiency anaemia and related anaemias.
 The TxGNN model predicts it may be effective for **non-syndromic esophageal malformation** (top-ranked), but there are **no registered clinical trials** and **no supporting publications** for that prediction.
-The most clinically plausible signal in the data is for **Plummer-Vinson syndrome** (iron-deficiency anaemia with dysphagia), which is essentially an extension of the existing anaemia indication, supported by only a single 1991 case-based article.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Iron deficiency anaemia and related anaemias (including anaemia of prematurity, hypochromic anaemia, microcytic anaemia, folic acid deficiency anaemia); acne is also listed in the knowledge graph |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Non-syndromic esophageal malformation |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-*Note: The approved indication text for the Australian product was not available in the data compiled for this report. The original indications above come from the TxGNN knowledge graph.*
+*Note: The approved indication text for the Australian product was not available in the data compiled for this report.
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available. Based on known information, ferrous fumarate is an oral iron salt whose efficacy in iron deficiency anaemia is well established. It replenishes iron stores so that haemoglobin can be made.
 
-For the top-ranked prediction, **non-syndromic esophageal malformation**, no plausible mechanism is evident. Esophageal malformations are structural developmental defects, and iron supplementation would not be expected to correct them. The high score appears to be a graph-based artefact rather than a real therapeutic signal.
+For the top-ranked prediction, **non-syndromic esophageal malformation**, no plausible mechanism is evident. Esophageal malformations are structural developmental defects, and iron supplementation would not be expected to correct them.
 
 Other predictions fall into three groups:
 
-- **Anaemia-adjacent conditions.** Plummer-Vinson syndrome (iron-deficiency anaemia, dysphagia and esophageal webs) is biologically plausible, and iron replacement is the accepted treatment. Esophageal disease more broadly shows an association with iron deficiency, but iron deficiency there is a consequence or comorbidity, and iron treats the anaemia rather than the esophageal condition. Perinatal disease likely reflects the existing anaemia of prematurity indication.
-- **Implausible or harmful.** Esophageal ulcer is unlikely to benefit, since oral iron salts can cause mucosal irritation and pill-induced injury. Vitamin B12- and folate-independent megaloblastic anaemia is not an iron-responsive condition. Segmental odontomaxillary dysplasia and florid cemento-osseous dysplasia have no plausible link to iron.
-- **Non-actionable.** "Injury" is supported only by iron toxicity and adverse-effect reports. "Disease by subcellular system affected" is an ontology grouping term, not a clinical indication.
+- Vitamin B12- and folate-independent megaloblastic anaemia is not an iron-responsive condition.
 
 ## Clinical Trial Evidence
 
@@ -109,7 +106,7 @@ One further retrieved paper (PMID 28716993, on soluble Fms-like tyrosine kinase-
   - *Minor:* cimetidine, zinc sulfate and zinc acetate.
   
   In practice, acid suppression and antacids can reduce iron absorption, and iron can reduce absorption of tetracyclines and quinolones.
-- **Literature-derived safety signals:** Oral iron can cause mucosal ulceration, and iron overdose can cause bezoar formation and serious systemic toxicity. This is particularly relevant to the predicted esophageal ulcer indication.
+- **Literature-derived safety signals:** Oral iron can cause mucosal ulceration, and iron overdose can cause bezoar formation and serious systemic toxicity.
 
 Please refer to the TGA-approved Product Information (PI) for official warnings and contraindications.
 
@@ -118,14 +115,12 @@ Please refer to the TGA-approved Product Information (PI) for official warnings 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (non-syndromic esophageal malformation) has no mechanistic rationale, no trials and no literature, and the high TxGNN score is not supported by any clinical data. The only credible signal, Plummer-Vinson syndrome, is an extension of the existing iron deficiency anaemia indication rather than a true repurposing opportunity, and rests on a single 1991 article. It may be worth pursuing as a research question.
+The top-ranked prediction (non-syndromic esophageal malformation) has no mechanistic rationale, no trials and no literature, and the high TxGNN score is not supported by any clinical data. It may be worth pursuing as a research question.
 
 **To proceed, the following is needed:**
 - The TGA-approved Product Information (warnings, contraindications and approved indications) for Ferro-tab, since this is currently missing and blocks safety screening
 - Mechanism of action data
-- For Plummer-Vinson syndrome, a systematic review of iron replacement outcomes, or prospective or controlled data
 - Confirmation that the predicted indications are clinically distinct from the existing anaemia indication
-- Careful assessment of mucosal injury risk with oral iron before considering any esophageal indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

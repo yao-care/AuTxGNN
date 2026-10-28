@@ -4,17 +4,17 @@ title: Folic Acid
 parent: Moderate Evidence (L3-L4)
 nav_order: 314
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L4). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Folic acid"
-predicted_indications: ["biotin metabolic disease", "non-syndromic esophageal malformation", "esophageal disease", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "inborn error of biotin metabolism", "gonococcal urethritis", "Ureaplasma urethritis", "esophageal ulcer", "urinary tract infection (disease)"]
+predicted_indications: ["biotin metabolic disease"]
 ---
 
 # Folic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The high score most likely reflects network proximity between B-vitamins rather 
 |------|------|
 | Original Indication | Vitamin deficiency disorder; folic acid deficiency anaemia; iron deficiency anaemia (the ARTG entry in the compiled data has no approved indication text) |
 | Predicted New Indication | Biotin metabolic disease |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -91,7 +91,6 @@ The retrieved literature is mainly narrative reviews of vitamins and metabolic d
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge-graph associations, not label text):** The drug-disease contraindication links in the TxGNN knowledge graph include kidney disease, nephrolithiasis, sickle cell anaemia, hereditary haemochromatosis, Wilson disease, diabetes mellitus and diabetic ketoacidosis, inflammatory bowel disease, peptic ulcer disease, bipolar disorder, sarcoidosis, hyperparathyroidism and hypercalcaemia, among others. These are model-derived associations and should be checked against the approved Product Information before any clinical interpretation.
 - **Drug Interactions:** 100 interactions were identified in total. The main graded ones are pancrelipase (Moderate) and sulfasalazine (Minor). Many others are listed with unknown severity, including metformin, omeprazole, pantoprazole, lansoprazole, glimepiride, acarbose, rosiglitazone, simvastatin, prednisone, triamcinolone, mesalazine, sucralfate, vancomycin, morphine, lactulose, nizatidine, palonosetron and calcitriol.
 
 Please refer to the TGA-approved Product Information (PI) for label warnings and contraindications.
@@ -107,7 +106,6 @@ The prediction rests on no clinical trials and only indirect review literature. 
 - Mechanism of action data and a clear biological rationale for folic acid in biotin metabolism
 - Preclinical or clinical studies that test folic acid, not biotin, in biotinidase or holocarboxylase synthetase deficiency
 - Retrieval of the TGA-approved Product Information (PI), including approved indications, warnings and contraindications
-- Review of other predicted indications that may have a stronger rationale (for example, esophageal disease and Plummer-Vinson syndrome, which are research questions with indirect support only)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

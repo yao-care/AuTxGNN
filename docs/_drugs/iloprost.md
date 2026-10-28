@@ -4,17 +4,17 @@ title: Iloprost
 parent: Model Prediction Only (L5)
 nav_order: 368
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Iloprost: predicted new indication Top-ranked by TxGNN: hypotrichosis simplex of the scalp (99.45%… (evidence level L5). Approved use: Pulmonary arterial hypertension"
 monitor_inn: "Iloprost"
-predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata", "alopecia"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
+description: "Iloprost: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Iloprost
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Iloprost: From Pulmonary Arterial Hypertension to Pulmonary Arterial Hypertension Associated with Congenital Heart Disease
+## Iloprost: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,12 +44,12 @@ Iloprost is a stable prostacyclin analogue, originally used to treat pulmonary a
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary arterial hypertension (the Australian licence text for the ARTG entry is blank, so this is taken from the knowledge-graph indication) |
-| Predicted New Indication | Top-ranked by TxGNN: hypotrichosis simplex of the scalp (99.45%, Hold). Best-supported: PAH associated with congenital heart disease (99.32%), evaluated in detail below |
-| TxGNN Prediction Score | 99.45% (top-ranked); 99.32% (PAH-CHD) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypotrichosis simplex of the scalp |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 (hypotrichosis simplex of the scalp); L3 (PAH-CHD) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (top-ranked prediction); Proceed with Guardrails as a research question for PAH-CHD |
 
 **Note on the top-ranked prediction:** No clinical trials or literature support hypotrichosis simplex of the scalp. The direction of effect is also uncertain, because prostaglandin F2α analogues promote hair growth whereas PGD2 inhibits it. The report therefore focuses on the best-supported prediction, PAH-CHD, and summarises the other candidates below.
@@ -58,18 +58,12 @@ Iloprost is a stable prostacyclin analogue, originally used to treat pulmonary a
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, iloprost is a stable prostacyclin (IP receptor) agonist. It causes pulmonary vasodilation, inhibits platelet aggregation and limits smooth muscle proliferation.
 
-PAH associated with congenital heart disease (including Eisenmenger syndrome) shares the pulmonary vasculopathy of other PAH groups. The prediction is largely an extension within the already approved disease family, using the same mechanism. This makes it far more plausible than the hair-related predictions, which rest on knowledge-graph associations alone.
 
 **Summary of other predictions:**
 
 | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|
-| PAH associated with connective tissue disease | 99.21% | L3 | Supported by cohort studies and reviews, including long-term intravenous iloprost data. Iloprost is also used in systemic sclerosis vasculopathy |
-| PAH associated with HIV infection | 99.21% | L4 | Mechanistically plausible, but only reviews and general prostanoid data are available |
-| PAH associated with schistosomiasis | 99.21% | L4 | Indirect evidence only (a paediatric PH study) |
-| PAH associated with chronic hemolytic anemia | 99.21% | L5 | No studies. Distinct pathophysiology makes extrapolation uncertain |
-| Pulmonary arteriovenous malformation | 99.31% | L5 | Not mechanistically sensible, because vasodilation may worsen shunting and hypoxaemia |
-| Hypotrichosis simplex of the scalp, congenital hypotrichosis milia, diffuse alopecia areata, alopecia | 98.4–99.5% | L5 | No studies. Likely reflects a hair-loss cluster in the knowledge graph |
+| Pulmonary arteriovenous malformation | 0.9931 | L5 | Not mechanistically sensible, because vasodilation may worsen shunting and hypoxaemia |
 
 ## Clinical Trial Evidence
 
@@ -100,7 +94,7 @@ For PAH associated with connective tissue disease, the more relevant publication
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (knowledge-graph associations, not label text):** liver failure, chronic obstructive pulmonary disease (including severe early-onset), hypotensive disorders, pulmonary oedema and bronchial disease.
+- **Contraindication-related conditions (not label text):** liver failure, chronic obstructive pulmonary disease (including severe early-onset), hypotensive disorders, pulmonary oedema and bronchial disease.
 - **Drug Interactions:** 100 interactions were identified. Those graded Moderate include epinephrine, acetylsalicylic acid (aspirin), SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin), inhaled human insulin, mannitol, ephedrine, fenfluramine, dexfenfluramine, glycerin, papaverine and sibutramine. Interactions with calcitriol, pantoprazole, morphine, metformin and omeprazole have an unknown severity grade.
 
 Please refer to the TGA-approved Product Information (PI) for the full warnings and contraindications, as label-based safety data were not available.

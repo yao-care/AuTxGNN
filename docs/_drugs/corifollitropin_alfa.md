@@ -4,17 +4,17 @@ title: Corifollitropin Alfa
 parent: Model Prediction Only (L5)
 nav_order: 184
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Corifollitropin Alfa: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Controlled ovarian stimulation"
+indication_count: 7
 monitor_inn: "Corifollitropin alfa"
-predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "peptic esophagitis"]
+predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
+last_modified_at: 2026-10-27
+description: "Corifollitropin Alfa: predicted new indication gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Corifollitropin Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,37 +33,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Corifollitropin alfa: From Controlled Ovarian Stimulation to Gastroduodenitis
+## Corifollitropin alfa: long-acting recombinant FSH agonist → gastroduodenitis (gastroduodenitis)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Corifollitropin alfa is a long-acting recombinant follicle-stimulating hormone (FSH) agonist, used in controlled ovarian stimulation for assisted reproduction.
-The TxGNN model predicts it may be effective for **gastroduodenitis**, but this is a computational prediction only.
-There are currently **0 clinical trials** and **0 publications** supporting this direction.
+Corifollitropin alfa is a long-acting recombinant follicle-stimulating hormone (FSH) agonist used for controlled ovarian stimulation.
+The TxGNN model predicts it may be relevant to **gastroduodenitis**, but **no clinical trials and no publications** currently support this direction, so the prediction rests on computation alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Controlled ovarian stimulation (the ARTG indication text was not available in the data compiled for this report; this is based on the drug's known pharmacology) |
-| Predicted New Indication | Gastroduodenitis |
-| TxGNN Prediction Score | 99.65% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | gastroduodenitis |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, corifollitropin alfa is a recombinant FSH-beta chain fused with the C-terminal peptide of hCG, which acts as an FSH receptor agonist with a prolonged duration of action.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on what is known, corifollitropin alfa is an FSH-beta chain fused with the C-terminal peptide of hCG, which gives it a long duration of action at the FSH receptor.
 
-No plausible mechanistic link between FSH receptor stimulation and gastroduodenal inflammation has been identified. The high TxGNN score is a graph-based prediction and likely reflects network artefacts rather than biology. The same applies to the other top predictions:
-
-- **Upper gastrointestinal conditions** (peptic ulcer disease, peptic oesophagitis): no known connection to FSH signalling, and likely clustering with other GI indications in the knowledge graph.
-- **Migraine-related conditions** (migraine disorder, migraine with brainstem aura, migraine susceptibility): hormonal fluctuations are known migraine modulators, but ovarian stimulation raises oestradiol and could plausibly worsen rather than treat migraine. These predictions come from one disease cluster and are not independent evidence.
-- **Vascular and cardiopulmonary conditions** (Raynaud disease, pulmonary hypertension, kyphoscoliotic heart disease): no established vascular benefit, and the thrombotic and fluid-shift risks of ovarian stimulation argue for caution.
-- **Atrophoderma vermiculata**: no mechanistic rationale.
+No plausible mechanistic link between FSH receptor stimulation and gastroduodenal inflammation has been identified. The high score (0.9965) is a model output only and probably reflects patterns in the underlying network rather than biology. This prediction should be regarded as a hypothesis with no biological support at present.
 
 ## Clinical Trial Evidence
 
@@ -77,30 +71,24 @@ Currently no related literature available.
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 5816D | Elonva | Solution for injection 100 micrograms in 0.5 mL single dose pre-filled syringe | Not available in the data compiled for this report |
+| ARTG 5816D | Elonva | Solution for injection 100 micrograms in 0.5 mL single dose pre-filled syringe | Not recorded in the local data |
 
 ## Safety Considerations
 
-Please refer to the TGA-approved Product Information (PI) for safety information.
-
-Points from the data compiled for this report:
-- No drug interaction records were found.
-- No contraindication edges were found in the knowledge graph.
-- Ovarian stimulation carries known risks (for example, ovarian hyperstimulation syndrome with fluid shifts and thromboembolic risk), which are relevant when considering any use in vascular or cardiopulmonary conditions.
+Please refer to the TGA-approved Product Information (PI) for safety information. No drug interaction records were found in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All ten predicted indications are supported only by model scores, with no clinical trials or literature, and no plausible mechanistic link. Several (migraine, Raynaud disease, pulmonary hypertension) raise potential safety concerns rather than therapeutic promise.
+The prediction has no supporting trials or literature, no identifiable mechanistic link, and sits at evidence level L5 (model prediction only). Ovarian stimulation also carries its own safety considerations that would need to be weighed in any new setting.
 
 **To proceed, the following is needed:**
-- Product Information warnings and contraindications from the TGA/PBS source (currently a blocking data gap)
-- Mechanism of action data from DrugBank
-- The approved indication text for ARTG 5816D
-- Any mechanistic, preclinical or clinical evidence linking FSH receptor agonism to the predicted conditions
-- Route and formulation compatibility assessment (the product is injectable only)
+- Mechanism of action data and a biologically plausible hypothesis linking FSH receptor agonism to gastroduodenal disease
+- Preclinical or observational evidence that directly studies gastroduodenitis
+- Warnings and contraindications from the TGA-approved Product Information for safety screening
+- Assessment of route and population suitability for the proposed use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

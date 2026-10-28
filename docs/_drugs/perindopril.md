@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Perindopril
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 562
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension (hypertensive disorder). The ARTG entry in the data comp…"
 monitor_inn: "Perindopril"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "polydipsia", "congenital temporomandibular joint ankylosis"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Perindopril
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Perindopril: From Hypertension to Malignant Hypertensive Renal Disease
+## Perindopril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder). The ARTG entry in the data compiled for this report has no indication text, so this comes from the knowledge graph. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9977 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,15 +67,9 @@ Hypertension and malignant hypertensive renal disease sit very close together in
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Malignant renovascular hypertension | 99.77% | L5 | RAAS-dependent, so plausible. ACE inhibitors carry a known risk in bilateral renal artery stenosis. No trials or literature. |
-| Pulmonary hypertension, unclear multifactorial mechanism | 99.75% | L5 | No established role for systemic RAAS blockade. No evidence. |
-| Pulmonary hypertension owing to lung disease/hypoxia | 99.75% | L4 | One rat study (PMID 11282121) with amlodipine plus perindopril. Other retrieved papers largely unrelated. |
-| Braddock syndrome | 99.66% | L5 | No evidence or clear rationale. Likely a network artefact. |
-| **Chronic pulmonary heart disease** | 97.60% | L3 | **Most promising candidate.** Small, older clinical studies (see below). Status: Research Question. |
-| COL4A1-related hematuria-retinal arteriolar tortuosity-contractures syndrome | 67.49% | L5 | Speculative. |
-| Brain small vessel disease 1 | 65.65% | L4 | One indirect physiological study in lacunar infarction (PMID 15166388). |
-| Polydipsia | 62.48% | L5 | Linked paper is off-target. ACE inhibitors may worsen volume/electrolyte disturbances. |
-| Congenital temporomandibular joint ankylosis | 60.31% | L5 | Likely a model artefact. |
+| Pulmonary hypertension, unclear multifactorial mechanism | 0.9975 | L5 | No established role for systemic RAAS blockade. No evidence. |
+| Pulmonary hypertension owing to lung disease/hypoxia | 0.9975 | L5 | One rat study (PMID 11282121) with amlodipine plus perindopril. Other retrieved papers largely unrelated. |
+| Braddock syndrome | 0.9966 | L5 | No evidence or clear rationale. Likely a network artefact. |
 
 ---
 
@@ -91,7 +85,6 @@ Currently no related clinical trials registered for malignant hypertensive renal
 |------|-----|------|------|---------|
 | [36382821](https://pubmed.ncbi.nlm.nih.gov/36382821/) | 2022 | Cohort/Observational | Urologiia | Functional state of a solitary kidney after nephrectomy for renal cancer. Off-target: perindopril in malignant hypertensive nephropathy was not tested. |
 
-For context, the most relevant literature in the wider analysis relates to **chronic pulmonary heart disease** (cor pulmonale):
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -134,13 +127,11 @@ Moderate-level examples include corticosteroids (hydrocortisone, dexamethasone, 
 
 **Rationale:**
 - The prediction for malignant hypertensive renal disease has no clinical trials and only one off-target publication. The high score likely reflects proximity to the original hypertension indication. Perindopril is already marketed in Australia, but evidence for this new indication is at the L4 level.
-- Among the other predictions, chronic pulmonary heart disease (L3, Research Question) is the strongest candidate, though its evidence is small, old and uncontrolled.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for perindopril (currently unavailable)
 - TGA Product Information warnings and contraindications to complete safety screening
 - Targeted literature review of ACE inhibitors in malignant hypertensive nephropathy
-- For chronic pulmonary heart disease, a well-designed controlled study, with confirmation of the existing studies' designs
 - Safety assessment for renal impairment, renal artery stenosis, hyperkalaemia and angioedema risk in the target population
 ## Disclaimer
 

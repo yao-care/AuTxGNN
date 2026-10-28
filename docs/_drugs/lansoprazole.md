@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lansoprazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 412
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Lansoprazole: predicted new indication Duodenogastric reflux (evidence level L4). Approved use: Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease…"
 monitor_inn: "Lansoprazole"
-predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "gastroduodenitis", "acne (disease)", "Smouldering systemic mastocytosis", "leather-bottle stomach", "duodenitis"]
+predicted_indications: ["duodenal obstruction"]
+description: "Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lansoprazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,47 +33,39 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Lansoprazole: From Gastric Ulcer and Acid-Related Disorders to Duodenogastric Reflux
+## Lansoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Lansoprazole is a proton pump inhibitor originally used for gastric and duodenal ulcers, reflux disease, esophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **duodenogastric reflux**, but there are **no registered clinical trials** and only **1 general review** supporting this direction, so the evidence is weak.
+The TxGNN model predicts it may be effective for **duodenal obstruction**, but there are **no registered clinical trials** and only **1 general review** supporting this direction, so the evidence is weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis, duodenal ulcer, Zollinger-Ellison syndrome (the approved indication text on the Australian licence entry is blank) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9968 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Lansoprazole belongs to the proton pump inhibitor class, which suppresses gastric acid by inhibiting the gastric H+/K+-ATPase. Its efficacy in acid-related upper gastrointestinal disease is well established.
 
-Duodenogastric (bile) reflux is mainly a problem of motility and pyloric function, not of acid secretion. Acid suppression may ease symptoms from associated mucosal injury, but it does not address the underlying cause. The high TxGNN score probably reflects the proximity of this condition to approved upper gastrointestinal indications in the knowledge graph. The only supporting publication is a general review of proton pump inhibitors, with no direct evidence for this condition.
+Duodenogastric (bile) reflux is mainly a problem of motility and pyloric function, not of acid secretion. Acid suppression may ease symptoms from associated mucosal injury, but it does not address the underlying cause. The high TxGNN score (0.9968) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The only supporting publication is a general review of proton pump inhibitors, with no direct evidence for this condition.
 
 The other top-ranked predictions are summarised below to give context.
 
 | Rank | Predicted Indication | Score | Evidence Level | Decision |
 |------|------|------|------|------|
-| 2 | Duodenal obstruction | 99.68% | L5 | Hold |
-| 3 | Peptic ulcer perforation | 98.80% | L4 | Research question |
-| 4 | Gastrojejunal ulcer | 98.80% | L4 | Research question |
-| 5 | Abnormality of glucagon secretion | 98.60% | L5 | Hold |
-| 6 | Gastroduodenitis | 97.57% | L3 | Proceed with Guardrails |
-| 7 | Acne | 97.00% | L5 | Hold |
-| 8 | Smouldering systemic mastocytosis | 95.61% | L5 | Hold |
-| 9 | Leather-bottle stomach | 94.74% | L5 | Hold |
-| 10 | Duodenitis | 94.67% | L3 | Proceed with Guardrails |
+| 2 | Duodenal obstruction | 0.9968 | L5 | Hold |
 
-Gastroduodenitis and duodenitis have the most plausible rationale, but both overlap substantially with existing ulcer and esophagitis indications. They would add little as new indications.
+They would add little as new indications.
 
 ## Clinical Trial Evidence
 
@@ -107,14 +99,13 @@ Please also refer to the TGA-approved Product Information (PI) for the official 
 **Decision: Hold**
 
 **Rationale:**
-Acid suppression does not address the cause of duodenogastric reflux, and there are no trials and no direct literature. The prediction rests on model proximity alone (L4).
+Acid suppression does not address the cause of duodenogastric reflux, and there are no trials and no direct literature. The prediction rests on model scores alone (L4), which may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Direct clinical evidence (trials or cohort studies) of lansoprazole in duodenogastric reflux
 - Mechanism of action data and a clearer rationale beyond acid suppression
 - Product Information warnings and contraindications from the TGA, plus the approved indication text for the ARTG entry
 - Route and formulation compatibility assessment
-- Consideration of lower-risk candidates such as gastroduodenitis or duodenitis, noting their overlap with existing indications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

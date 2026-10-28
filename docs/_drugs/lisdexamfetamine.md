@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lisdexamfetamine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 431
-evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-13
-description: "Lisdexamfetamine: predicted new indication Specific developmental disorder (evidence level L4). Approved use: Attention deficit hyperactivity disorder"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "Lisdexamfetamine"
-predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma"]
+predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "autosomal dominant cerebellar ataxia", "cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "trichotillomania", "transient tic disorder", "narcolepsy"]
+last_modified_at: 2026-10-23
+description: "Lisdexamfetamine: predicted new indication Specific developmental disorder (evidence level L5). Approved use: Attention deficit hyperactivity disorder…"
 ---
 
 # Lisdexamfetamine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Lisdexamfetamine is a prodrug of dextroamphetamine, originally used for attention deficit hyperactivity disorder (ADHD) and binge eating disorder.
-The TxGNN model predicts it may be effective for **specific developmental disorder**, but this is a broad category adjacent to the existing ADHD indication.
-There are currently **0 registered clinical trials** and **2 publications** (one Phase II/III RCT in ADHD, one case report) linked to this prediction, so the evidence is limited.
+Lisdexamfetamine is a prodrug of d-amphetamine.
+The TxGNN model predicts it may be useful for **specific developmental disorder**, but there are **no registered clinical trials** and **2 publications**, neither of which studies this condition directly.
 
 ---
 
@@ -48,27 +47,23 @@ There are currently **0 registered clinical trials** and **2 publications** (one
 
 | Item | Content |
 |------|------|
-| Original Indication | Attention deficit hyperactivity disorder; binge eating disorder (from the knowledge graph, as the ARTG entry has no indication text) |
+| Original Indication | Attention deficit hyperactivity disorder, ADHD (inattentive type) and binge eating disorder (relations recorded in the knowledge graph; the Australian licence record contains no indication text) |
 | Predicted New Indication | Specific developmental disorder |
-| TxGNN Prediction Score | 99.99999% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 1.0000 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, lisdexamfetamine is a prodrug of dextroamphetamine, which increases synaptic dopamine and norepinephrine. These pathways are implicated in attention and executive-function deficits, which overlap with several neurodevelopmental conditions.
+Detailed mechanism of action data is not available in the data compiled for this report. Lisdexamfetamine is known to be converted in the body to d-amphetamine, which increases dopamine and noradrenaline signalling in prefrontal and striatal circuits and supports attention and executive function.
 
-"Specific developmental disorder" is a broad category that sits next to the approved ADHD indication. This prediction is therefore likely a near-label or category-level association rather than true repurposing. The mechanistic link is inferred from the drug class, not from supplied data.
+ADHD is a neurodevelopmental condition that overlaps with this symptom domain. "Specific developmental disorder" is a broad, heterogeneous label, so the link to the original use is indirect. The mechanism may be relevant to attention-related symptoms, but this is a hypothesis and not a demonstrated effect.
 
-The very high TxGNN score is a model output and is not clinical evidence.
-
-Two lower-ranked predictions are not supported by the data and should not be pursued on current evidence:
-- **Faciodigitogenital syndrome** (score 99.99995%, L5): no trials or literature. A link would be symptomatic treatment of co-occurring ADHD-like features, which is speculative.
-- **Chondromyxoid fibroma** (score 99.99983%, L5): no plausible mechanistic link to a benign cartilage-derived bone tumour. This probably reflects a knowledge-graph artefact.
+The retrieved publications do not directly study this condition (see below), so the evidence level is L5.
 
 ---
 
@@ -82,8 +77,8 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31718254](https://pubmed.ncbi.nlm.nih.gov/31718254/) | 2020 | RCT (Phase II/III) | J Child Adolesc Psychopharmacol | Randomised, double-blind, placebo-controlled 4-week study of lisdexamfetamine 30, 50 or 70 mg/day in 76 Japanese patients aged 6-17 years with ADHD. Primary endpoint was change in ADHD-RS-IV total score. This supports the existing ADHD indication, not a new one. |
-| [37849578](https://pubmed.ncbi.nlm.nih.gov/37849578/) | 2023 | Case report | Cureus | Hao-Fountain syndrome (USP7 mutation) in an 18-year-old woman with intellectual disability, ADHD and dysmorphic facies, mimicking fragile X syndrome. It is a diagnostic case report and does not evaluate lisdexamfetamine efficacy. |
+| [31718254](https://pubmed.ncbi.nlm.nih.gov/31718254/) | 2020 | RCT (Phase II/III) | J Child Adolesc Psychopharmacol | Randomised, double-blind, placebo-controlled study of lisdexamfetamine 30, 50 or 70 mg/day for 4 weeks in 76 Japanese children and adolescents with ADHD. It concerns ADHD, the original use, and is not direct evidence for the predicted condition. |
+| [37849578](https://pubmed.ncbi.nlm.nih.gov/37849578/) | 2023 | Case report | Cureus | Hao-Fountain syndrome presenting like fragile X syndrome in an 18-year-old with intellectual disability and ADHD. It describes a diagnostic differential, not a treatment effect. |
 
 ---
 
@@ -91,26 +86,16 @@ Currently no related clinical trials registered.
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 10474G | Vyvanse | Capsule containing lisdexamfetamine dimesilate 50 mg (oral) | Not available in the data compiled for this report |
+| ARTG 10474G | Vyvanse | Capsule containing lisdexamfetamine dimesilate 50 mg | Not stated in the licence record |
 
 ---
 
 ## Safety Considerations
 
-**Contraindications (from the knowledge graph, not label text):** The drug-disease contraindication links include:
-- **Cardiovascular:** hypertension, coronary artery disease, myocardial infarction, stroke and cerebrovascular disorders, atherosclerosis, sudden cardiac arrest, heart conduction disease
-- **Psychiatric and neurological:** epilepsy, bipolar disorder, psychotic disorders (including schizoaffective disorder), substance-related disorders and dependence
-- **Other:** glaucoma, hyperthyroidism and thyrotoxicosis (including Graves disease), vision disorders, hemoglobinopathy
+Safety information from the product label is not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
-**Drug Interactions:** The interaction screen returned 100 interactions in total; the 20 shown are mostly moderate. Major-level interactions include:
-- Bupropion
-- Dolasetron
-- Cisapride
-- Dexfenfluramine
-
-Moderate-level examples include epinephrine, clarithromycin, levofloxacin, famotidine and several antacids and laxatives.
-
-Label-based warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for authoritative safety information.
+- **Relations recorded in the knowledge graph (not label text)**: contraindication relations are recorded for hypertension, coronary artery disease, myocardial infarction, stroke and cerebrovascular disorders, atherosclerosis, sudden cardiac arrest, heart conduction disease, epilepsy, bipolar disorder, psychotic and schizoaffective disorders, substance-related disorders, hyperthyroidism, glaucoma and vision disorders.
+- **Drug Interactions**: 100 interactions were found in total. Major-level interactions in the listed entries include bupropion, dolasetron, cisapride and dexfenfluramine. Many others are Moderate, such as epinephrine, clarithromycin, levofloxacin, famotidine, and antacids or laxatives (for example aluminium hydroxide, calcium carbonate and magnesium oxide).
 
 ---
 
@@ -119,14 +104,14 @@ Label-based warnings and contraindications were not available. Please refer to t
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is a broad category adjacent to the approved ADHD indication, with no registered trials and no literature that tests lisdexamfetamine in a new condition. The model score alone is not sufficient, and the other two predictions have no supporting evidence. The knowledge-graph contraindications (notably cardiovascular and psychiatric) also call for caution.
+The TxGNN score is very high, but no study directly addresses specific developmental disorder. The only trial is in ADHD, the original use, so the evidence level is L5. The category is also broad and the mechanistic link is indirect.
 
 **To proceed, the following is needed:**
-- Definition of which specific developmental disorder subtype is intended, and how it differs from the existing ADHD indication
-- Mechanism of action data (for example from DrugBank)
-- Product Information warnings and contraindications, and the approved indication text for the ARTG entry
-- Controlled clinical evidence in the target population
-- A cardiovascular and psychiatric safety plan, and review of the major drug interactions
+- A precise definition of which developmental disorder is meant, since the label is too broad to assess
+- Mechanism of action data from DrugBank
+- TGA Product Information warnings and contraindications to complete safety screening
+- Controlled clinical evidence in the specific target population
+- Review of the knowledge graph's cardiovascular, psychiatric and substance-related contraindication relations against the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

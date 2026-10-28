@@ -4,17 +4,17 @@ title: Ivosidenib
 parent: Model Prediction Only (L5)
 nav_order: 401
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Ivosidenib: predicted new indication Bulbar polio (evidence level L5). Approved use: Acute myeloid leukaemia (including several AML subtypes and therapy-r…"
 monitor_inn: "Ivosidenib"
-predicted_indications: ["bulbar polio", "5q35 microduplication syndrome", "neuralgic amyotrophy", "amyotrophic neuralgia", "myelodysplastic/myeloproliferative disease", "acute panmyelosis with myelofibrosis", "familial thrombocytosis"]
+predicted_indications: ["bulbar polio"]
+description: "Ivosidenib: predicted new indication Bulbar polio (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ivosidenib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ivosidenib: From Acute Myeloid Leukaemia to Bulbar Polio
+## Ivosidenib: Bulbar polio
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ivosidenib is an oral mutant IDH1 inhibitor, originally used to treat acute myeloid leukaemia (AML) and related myeloid conditions.
 The TxGNN model's top-ranked prediction is **bulbar polio**, but there are **no clinical trials** and **no publications** supporting it, and the biology does not support a link.
-The more credible prediction in this list is **myelodysplastic/myeloproliferative disease** (rank 7), supported by **3 registered clinical trials** and no publications.
 
 ---
 
@@ -48,15 +47,15 @@ The more credible prediction in this list is **myelodysplastic/myeloproliferativ
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute myeloid leukaemia (including several AML subtypes and therapy-related AML/MDS). The data compiled for this report contain no ARTG-approved indication text. |
-| Predicted New Indication | Bulbar polio (rank 1) |
-| TxGNN Prediction Score | 99.31% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Bulbar polio |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-**Note:** The top-ranked prediction is almost certainly a knowledge-graph artefact. The only prediction with any trial evidence is myelodysplastic/myeloproliferative disease (score 98.56%, evidence level L2 in the data compiled, with a "Research Question" recommendation). It is discussed below as the most relevant alternative.
+**Note:** The top-ranked prediction is almost certainly a TxGNN model (deep learning) artefact.
 
 ---
 
@@ -64,19 +63,18 @@ The more credible prediction in this list is **myelodysplastic/myeloproliferativ
 
 Detailed mechanism of action data is not available in the data compiled for this report. Ivosidenib is, however, a known inhibitor of mutant isocitrate dehydrogenase 1 (IDH1). Blocking the mutant enzyme lowers the oncometabolite 2-hydroxyglutarate (2-HG) and can relieve the block on cell differentiation seen in IDH1-mutant myeloid cancers.
 
-**Bulbar polio (rank 1):** There is no plausible mechanistic link. Poliovirus infection of motor neurons does not involve IDH1 mutation. The high score of 0.993 is most likely a graph-based artefact rather than a biological signal.
+**Bulbar polio (rank 1):** There is no plausible mechanistic link. Poliovirus infection of motor neurons does not involve IDH1 mutation. The high score of 0.9931 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predictions in the list:**
 - *Radiation-related and alkylating-agent-related AML/MDS (ranks 2–3):* Biologically plausible, because these are close relatives of the approved AML indications and IDH1 mutations occur in AML/MDS. They are likely near-duplicates of existing indications, and benefit would depend on IDH1 mutation status. No disease-specific evidence was provided.
-- *Acute panmyelosis with myelofibrosis and bilineal AML (ranks 8–9):* Plausible in IDH1-mutant cases, but prediction-only.
-- *Myelodysplastic/myeloproliferative disease (rank 7):* A rational extension of the approved AML indication to related IDH1-mutant myeloid disease. Supporting trials are early-phase and ongoing, and enrol mainly AML or MDS populations, so the evidence for this specific condition is indirect.
-- *5q35 microduplication syndrome, neuralgic amyotrophy, amyotrophic neuralgia, familial thrombocytosis (ranks 4–6, 10):* No identifiable mechanistic link, and no clinical evidence. These are likely artefacts.
+- Supporting trials are early-phase and ongoing, and enrol mainly AML or MDS populations, so the evidence for this specific condition is indirect.
+- These are likely artefacts.
 
 ---
 
 ## Clinical Trial Evidence
 
-There are no registered trials for bulbar polio. The table below shows the trials for the most relevant alternative prediction, myelodysplastic/myeloproliferative disease.
+There are no registered trials for bulbar polio.
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -154,7 +152,6 @@ The full list of 100 should be reviewed before any use in practice.
 
 **Rationale:**
 - The top prediction, bulbar polio, has no trials, no literature and no plausible mechanism, so it should not be pursued.
-- Only myelodysplastic/myeloproliferative disease has supporting trials, and those are early-phase, ongoing and indirect, so it is better treated as a research question than a repurposing candidate.
 - Predictions that are near-duplicates of existing AML indications are better handled as label extensions than as new repurposing opportunities.
 
 **To proceed, the following is needed:**

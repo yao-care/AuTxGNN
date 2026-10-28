@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lurasidone
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 439
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Lurasidone: predicted new indication Manic bipolar affective disorder (evidence level L4). Approved use: Bipolar disorder, schizophrenia"
 monitor_inn: "Lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Lurasidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lurasidone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Lurasidone: From Bipolar Disorder and Schizophrenia to Manic Bipolar Affective Disorder
+## Lurasidone: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Lurasidone is an atypical antipsychotic originally used to treat bipolar disorder and schizophrenia.
-The TxGNN model predicts it may be effective for **manic bipolar affective disorder**,
+The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**,
 but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications** (mostly reviews, guidelines and meta-analyses, none directly demonstrating efficacy in mania) are available, so evidence is limited.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bipolar disorder, schizophrenia (the ARTG entry has no indication text; indications are taken from the knowledge graph) |
-| Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

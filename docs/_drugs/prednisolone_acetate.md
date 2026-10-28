@@ -6,9 +6,9 @@ nav_order: 600
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Prednisolone Acetate: predicted new indication Conjunctival folliculosis (evidence level L5). Approved use: Uveitis, iris and ciliary body disease, panuveitis, conjunctivitis…"
 monitor_inn: "prednisolone acetate"
 predicted_indications: ["conjunctival folliculosis", "serous conjunctivitis except viral", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
+description: "Prednisolone Acetate: predicted new indication Conjunctival folliculosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Prednisolone Acetate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Prednisolone Acetate: From Uveitis and Conjunctivitis to Conjunctival Folliculosis
+## Prednisolone Acetate: Conjunctival folliculosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,15 +48,15 @@ Of the other predictions, papillary conjunctivitis and vernal conjunctivitis hav
 
 | Item | Content |
 |------|------|
-| Original Indication | Uveitis, iris and ciliary body disease, panuveitis, conjunctivitis, iridocyclitis, blepharoconjunctivitis (from the knowledge graph; no approved indication text is available in the licence record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Conjunctival folliculosis |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-**Other predictions reviewed (top 10):** The top four predictions share the same score (99.74%) and have no supporting evidence. Papillary conjunctivitis (99.72%) and vernal conjunctivitis (99.58%) are the only predictions with trial or literature material, and both are rated L4 ("Research Question").
+**Other predictions reviewed (top 10):** The top four predictions share the same score (0.9974) and have no supporting evidence. Papillary conjunctivitis (0.9972) and vernal conjunctivitis (0.9958) are the only predictions with trial or literature material, and both are rated L4 ("Research Question").
 
 ---
 

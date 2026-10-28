@@ -15,14 +15,6 @@
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "radiation-or-chemically-induced-disorder",
-          "display": "radiation or chemically induced disorder"
-        }
-      ],
-      "text": "radiation or chemically induced disorder",
       "concept": {
         "text": "radiation or chemically induced disorder"
       }
@@ -36,6 +28,10 @@
     {
       "url": "https://autxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9963
     }
   ]
 }

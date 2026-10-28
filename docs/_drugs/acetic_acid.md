@@ -4,17 +4,17 @@ title: Acetic Acid
 parent: Model Prediction Only (L5)
 nav_order: 20
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Acetic Acid: predicted new indication Post-bacterial disorder (evidence level L5). Approved use: Otitis externa"
 monitor_inn: "Acetic acid"
-predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis", "ulcerative blepharitis"]
+predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
 ---
 
 # Acetic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ The prediction rests on model output alone.
 |------|------|
 | Original Indication | Otitis externa; external ear disease |
 | Predicted New Indication | Post-bacterial disorder |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 3 |
+| Australia Market Status | Marketed (valid licences: 3 of 3) |
+| Number of ARTG Entries | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, acetic acid is a weak organic acid used topically as an antiseptic. It acidifies the local environment and has antibacterial and antifungal activity, which is the basis for its use in otitis externa.
 
-Post-bacterial disorders are generally immune-mediated or post-infectious sequelae, rather than active infections. A local antibacterial and acidifying action has no clear link to these conditions, and the category is also vague. The high model score probably reflects the drug's association with bacterial infection in the knowledge graph rather than a demonstrated therapeutic mechanism. This prediction is therefore weak.
+Post-bacterial disorders are generally immune-mediated or post-infectious sequelae, rather than active infections. A local antibacterial and acidifying action has no clear link to these conditions, and the category is also vague. The high score (0.9998) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction is therefore weak.
 
 Of the other nine predictions, **tinea corporis** has the most supporting material. Topical acetic acid has plausible antifungal activity against dermatophytes. That evidence is indirect and of low quality, as described below.
 

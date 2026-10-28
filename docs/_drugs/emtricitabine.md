@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Emtricitabine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 248
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Emtricitabine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease, AIDS"
 monitor_inn: "emtricitabine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Emtricitabine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Emtricitabine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Emtricitabine: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Emtricitabine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ This is an animal-model finding that largely mirrors the existing HIV indication
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease, AIDS (from the knowledge graph; no approved indication text is available in the ARTG data compiled for this report) |
-| Predicted New Indication | Simian immunodeficiency virus infection (top-ranked prediction: feline acquired immunodeficiency syndrome) |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 7 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 7 of 7) |
+| Number of ARTG Entries | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 *Note: The first-ranked prediction, feline immunodeficiency virus (FIV) infection, is a veterinary indication with a single supporting paper, so this report focuses on the second-ranked prediction, SIV infection, which has the stronger evidence base. A third prediction (a rare neurodevelopmental disorder) has no mechanistic link and no evidence, and is not assessed further.*

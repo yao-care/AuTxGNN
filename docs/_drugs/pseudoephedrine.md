@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pseudoephedrine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 611
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Pseudoephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria", "trigeminal autonomic cephalalgia", "rosacea conjunctivitis", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder", "massive neonatal aspiration syndrome", "bronchial disease"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria"]
+description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pseudoephedrine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Pseudoephedrine: From Allergic Rhinitis to Nasal Cavity Disease
+## Pseudoephedrine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ There are **no registered clinical trials** and **7 publications** for this pred
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, conjunctivitis (atopic, papillary, vernal), nasopharyngitis, headache disorder (TxGNN knowledge graph; no approved indication text is available for the ARTG entry) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -99,17 +99,8 @@ Please refer to the TGA-approved Product Information (PI) for official warnings 
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Acute laryngopharyngitis | 99.73% | L5 | Model prediction only; no trials or literature |
-| 3 | Allergic urticaria | 99.14% | L4 | Literature concerns antihistamines, not pseudoephedrine |
-| 4 | Trigeminal autonomic cephalalgia | 98.92% | L5 | No evidence; sympathomimetics may worsen headache |
-| 5 | Rosacea conjunctivitis | 96.77% | L5 | No evidence |
-| 6 | Cold urticaria | 94.88% | L5 | One case report of posterior reversible encephalopathy syndrome with a pseudoephedrine cold medicine (a safety signal) |
-| 7 | Faucial diphtheria | 94.26% | L5 | No plausible role; likely spurious |
-| 8 | Cervical disc degenerative disorder | 93.72% | L5 | No rationale; likely an artefact |
-| 9 | Massive neonatal aspiration syndrome | 92.57% | L5 | No rationale; neonatal safety concerns |
-| 10 | Bronchial disease | 92.34% | L3 | One Phase 4 trial (NCT00441246, n=600, completed, Mucinex D adjunct to antibiotics in acute respiratory infection) with uncertain relevance; a small 1982 crossover study (PMID 7140799) and a 2026 rat COPD study (PMID 42059030); cardiovascular safety concerns |
+| 3 | Allergic urticaria | 0.9914 | L4 | Literature concerns antihistamines, not pseudoephedrine |
 
-Bronchial disease is the only alternative prediction with some clinical-level evidence, but the bronchodilator effect is weak and indirect.
 
 ## Conclusion and Next Steps
 
@@ -120,7 +111,6 @@ The top prediction (nasal cavity disease) mostly overlaps with pseudoephedrine's
 
 **To proceed, the following is needed:**
 - Mechanism of action data and the TGA Product Information warnings and contraindications (a blocking gap for safety screening)
-- If pursuing bronchial disease, a review of NCT00441246 to confirm its relevance, and controlled studies with cardiovascular safety assessment
 - Confirmation of the approved indication text for the ARTG entry
 ## Disclaimer
 

@@ -4,17 +4,17 @@ title: Sotalol
 parent: Model Prediction Only (L5)
 nav_order: 687
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Atrial fibrillation"
 monitor_inn: "Sotalol"
-predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation", "obsolete susceptibility to ischemic stroke", "nephrogenic syndrome of inappropriate antidiuresis", "ABri amyloidosis", "periodic paralysis with transient compartment-like syndrome"]
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
+description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sotalol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sotalol: From Atrial Fibrillation to Sick Sinus Syndrome 2, Autosomal Dominant
+## Sotalol: Sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation (from the knowledge graph; the approved indication text for the Australian product is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -111,7 +111,7 @@ The prediction rests on model score alone (L5), with no trials or literature. So
 - Any preclinical or clinical evidence showing benefit in HCN4-related sinus node dysfunction, which is unlikely given current knowledge
 
 **Other predicted indications (for context):**
-Among the other nine predictions, none has therapeutic support. **Stroke disorder** (score 99.44%, L4) is the only one with a trial, and the Phase 3 trial NCT00007605 (n=706, completed) studied amiodarone and sotalol for maintaining sinus rhythm in atrial fibrillation. That is the existing indication, not stroke, so this trial gives indirect context only. It remains a research question rather than a candidate. **Manic bipolar affective disorder** has only literature on QT and torsades interaction hazards with antipsychotics, which argues against use. The remaining predictions (Wildervanck syndrome, sarcoglycanopathy, macrocephaly with dysmorphic facies, obsolete susceptibility to ischemic stroke, nephrogenic syndrome of inappropriate antidiuresis, ABri amyloidosis, periodic paralysis with transient compartment-like syndrome) have no plausible mechanistic link and no evidence.
+Among the other nine predictions, none has therapeutic support. **Stroke disorder** (score 0.9944, L4) is the only one with a trial, and the Phase 3 trial NCT00007605 (n=706, completed) studied amiodarone and sotalol for maintaining sinus rhythm in atrial fibrillation. That is the existing indication, not stroke, so this trial gives indirect context only. It remains a research question rather than a candidate. **Manic bipolar affective disorder** has only literature on QT and torsades interaction hazards with antipsychotics, which argues against use. The remaining predictions (Wildervanck syndrome, sarcoglycanopathy, macrocephaly with dysmorphic facies, obsolete susceptibility to ischemic stroke, nephrogenic syndrome of inappropriate antidiuresis, ABri amyloidosis, periodic paralysis with transient compartment-like syndrome) have no plausible mechanistic link and no evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

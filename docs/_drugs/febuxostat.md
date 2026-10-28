@@ -4,17 +4,17 @@ title: Febuxostat
 parent: Moderate Evidence (L3-L4)
 nav_order: 287
 evidence_level: L4
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Febuxostat: predicted new indication Renal hypouricaemia (evidence level L4). Approved use: Hyperuricaemia"
 monitor_inn: "Febuxostat"
-predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "hepatoportal sclerosis", "hepatic porphyria", "disorder of phenylalanine metabolism"]
+predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
+description: "Febuxostat: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Febuxostat
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Febuxostat: From Hyperuricaemia to Renal Hypouricaemia
+## Febuxostat: Hypouricemia, renal
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Evidence is thin: **1 clinical trial** of uncertain relevance and **2 publicatio
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperuricaemia (from the knowledge graph; no approved indication text is listed for the Australian entry) |
-| Predicted New Indication | Renal hypouricaemia |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypouricemia, renal |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,7 +68,6 @@ The very high TxGNN score most likely reflects network proximity to urate pathwa
 
 **Other predictions of note (lower-ranked):**
 - **Partial HPRT deficiency** and **Lesch-Nyhan syndrome** (Evidence Level L3): xanthine oxidase inhibition can control urate overproduction in these conditions, but it does not correct the enzyme defect or the neurobehavioural features. Xanthine stone and nephropathy risk need monitoring, and paediatric use is off-label. Evidence is limited to case reports and a small case series.
-- Several liver, vascular and metabolic predictions (e.g. hepatoportal sclerosis, hepatopulmonary syndrome, hepatic porphyria) have no supporting trials or literature and no clear mechanistic link (Evidence Level L5).
 
 ---
 

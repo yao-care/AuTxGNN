@@ -4,17 +4,17 @@ title: Upadacitinib
 parent: Model Prediction Only (L5)
 nav_order: 761
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Upadacitinib: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "Upadacitinib"
-predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "indolent plasma cell myeloma", "amyotrohpic lateral sclerosis type 22", "heparin cofactor 2 deficiency", "amyotrophic lateral sclerosis, susceptibility to", "plasma cell myeloma", "Mills syndrome", "amyotrophic lateral sclerosis", "axial spondylometaphyseal dysplasia"]
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
+description: "Upadacitinib: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Upadacitinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Upadacitinib: From Rheumatoid Arthritis to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+## Upadacitinib: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis (from the TxGNN knowledge graph; no approved indication text is available in the ARTG data compiled for this report) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.61% |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, upadacitinib belongs to the Janus kinase (JAK) inhibitor class (JAK1-preferential), and its efficacy in rheumatoid arthritis is established through modulation of inflammatory cytokine signalling.
 
-The predicted indication is a rare congenital developmental dysplasia. No plausible link between JAK-STAT signalling and this condition is evident from the data compiled for this report. The high TxGNN score reflects a graph-based association only and should be treated as a hypothesis-generating signal, possibly a graph artefact, rather than evidence of benefit.
+The predicted indication is a rare congenital developmental dysplasia. No plausible link between JAK-STAT signalling and this condition is evident from the data compiled for this report. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis-generating signal rather than evidence of benefit.
 
-Other high-ranking predictions show the same pattern. These include brachydactyly-syndactyly syndrome (99.58%), several amyotrophic lateral sclerosis entries, plasma cell myeloma (92.58%) and indolent plasma cell myeloma (94.40%). Only the myeloma entries have even a theoretical rationale, via IL-6/JAK/STAT3 signalling in plasma cell survival, and none has supporting clinical data. The single publication found for plasma cell myeloma (PMID 42778764) concerns CAR-T-associated enterocolitis, not upadacitinib efficacy.
+Other high-ranking predictions show the same pattern. These include brachydactyly-syndactyly syndrome (99.58%), several amyotrophic lateral sclerosis entries, plasma cell myeloma (92.58%) and indolent plasma cell myeloma (94.40%). Only the myeloma entries have even a theoretical rationale, via IL-6/JAK/STAT3 signalling in plasma cell survival, and none has supporting clinical data.
 
 ## Clinical Trial Evidence
 
@@ -83,7 +83,7 @@ Currently no related literature available.
 - **Moderate:** aprepitant, cimetidine, miconazole, deferasirox
 - **Minor:** zinc salts (sulfate, acetate, gluconate)
 
-Please refer to the TGA-approved Product Information (PI) for warnings and contraindications. Class-level concerns for JAK inhibitors include serious infection, malignancy and venous thromboembolism. These are relevant to the immunosuppression and thrombosis considerations raised for the myeloma and heparin cofactor 2 deficiency predictions.
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications. Class-level concerns for JAK inhibitors include serious infection, malignancy and venous thromboembolism.
 
 ## Conclusion and Next Steps
 

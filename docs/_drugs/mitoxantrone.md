@@ -4,7 +4,7 @@ title: Mitoxantrone
 parent: Model Prediction Only (L5)
 nav_order: 483
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Acute myeloid leukaemia and related myeloid leukaemias"
 monitor_inn: "mitoxantrone"
@@ -14,7 +14,7 @@ predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung c
 # Mitoxantrone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Mitoxantrone: From Acute Myeloid Leukaemia to Head and Neck Cancer
+## Mitoxantrone: From Acute Myeloid Leukaemia to Upper Aerodigestive Tract Neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **upper aerodigestive tract neo
 |------|------|
 | Original Indication | Acute myeloid leukaemia and related myeloid leukaemias (the ARTG entry does not list indication text) |
 | Predicted New Indication | Upper aerodigestive tract neoplasm (rank 1); head and neck cancer (rank 7) is the best-evidenced prediction and is used for the evidence sections below |
-| TxGNN Prediction Score | 99.78% (upper aerodigestive tract neoplasm); 99.31% (head and neck cancer) |
-| Evidence Level | L3 (upper aerodigestive tract neoplasm); L1 (head and neck cancer, as scored in the data compiled for this report) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9978 (upper aerodigestive tract neoplasm); 0.9931 (head and neck cancer) |
+| Evidence Level | L5 (upper aerodigestive tract neoplasm); L1 (head and neck cancer, as scored in the data compiled for this report) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (head and neck cancer); Hold for other predictions |
 
 Note: the L1 grade for head and neck cancer is generous. It rests on a completed phase Ib study and older phase II studies, not on completed phase 3 RCTs as the standard L1 definition requires. I would treat it as closer to L2-L3 in practice.
@@ -115,7 +115,7 @@ Please refer to the Product Information (PI) warnings and precautions for defini
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (knowledge-graph associations, not label text):** liver failure, liver disease, gallbladder disease, epilepsy, heart failure, thrombocytopenia, neutropenia, agranulocytosis, leukopenia, anaemia (including macrocytic anaemia), infectious disease, fungal infectious disease and dermatophytosis. Several reflect the drug's myelosuppressive effect.
+- **Contraindication-related conditions (not label text):** liver failure, liver disease, gallbladder disease, epilepsy, heart failure, thrombocytopenia, neutropenia, agranulocytosis, leukopenia, anaemia (including macrocytic anaemia), infectious disease, fungal infectious disease and dermatophytosis. Several reflect the drug's myelosuppressive effect.
 - **Drug Interactions:** 355 interactions were identified. Main ones:
   - Major: dolasetron
   - Moderate: clarithromycin, eliglustat, rolapitant

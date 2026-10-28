@@ -4,17 +4,17 @@ title: Galantamine
 parent: Model Prediction Only (L5)
 nav_order: 326
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Galantamine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Alzheimer's disease"
 monitor_inn: "Galantamine"
-predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria", "porphyria"]
+predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
 ---
 
 # Galantamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ The prediction is based on the model alone and should be treated as a hypothesis
 |------|------|
 | Original Indication | Alzheimer's disease (the TGA indication text is not available in the data compiled for this report) |
 | Predicted New Indication | Psychogenic movement disorders |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, galantamine is a cholinesterase inhibitor that also acts as an allosteric modulator of nicotinic receptors. Its efficacy in Alzheimer's disease is established, and in theory cholinergic modulation of basal ganglia circuits could influence movement control.
 
-This link is speculative. Psychogenic movement disorders are driven by functional rather than cholinergic pathology, and no study was found that tests galantamine in this condition. The high TxGNN score reflects a pattern in the knowledge graph, not clinical proof.
+This link is speculative. Psychogenic movement disorders are driven by functional rather than cholinergic pathology, and no study was found that tests galantamine in this condition. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predictions in the same set were also reviewed. Most are movement-related conditions with the same lack of evidence. The one with the most supporting literature is **lingual-facial-buccal dyskinesia (tardive dyskinesia)**, which is covered in the table below.
 

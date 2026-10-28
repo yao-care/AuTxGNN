@@ -4,17 +4,17 @@ title: Acitretin
 parent: Moderate Evidence (L3-L4)
 nav_order: 22
 evidence_level: L3
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Acitretin: predicted new indication Acne (disease) (evidence level L3). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Acitretin"
-predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome", "complement component 4a deficiency", "subacute bacterial endocarditis", "familial acanthosis nigricans", "prolapse of lacrimal gland", "urticaria, familial localized heat", "Sjogren syndrome"]
+predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
 ---
 
 # Acitretin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Evidence is indirect, so this is best treated as a research question.
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -128,7 +128,6 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 ## Other Predicted Indications (Brief Note)
 
 Lower-ranked predictions have little or no supporting evidence, and none is recommended for progression:
-- **Sjogren syndrome** (score 98.3%): the retrieved literature concerns **Sjögren-Larsson syndrome**, an inherited ichthyosis disorder, not autoimmune Sjögren syndrome. This is a disease-label mismatch. Any further work should be re-scoped to Sjögren-Larsson ichthyosis.
 - **Pediatric systemic lupus erythematosus, familial acanthosis nigricans, familial cutaneous telangiectasia and oropharyngeal cancer syndrome, complement component 4a deficiency, familial localised heat urticaria:** prediction only, with no clinical evidence.
 - **Fetal erythroblastosis, subacute bacterial endocarditis, prolapse of lacrimal gland:** no plausible mechanism. These are likely model artefacts, and use in fetal conditions would be inappropriate given acitretin's teratogenicity.
 

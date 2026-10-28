@@ -4,17 +4,17 @@ title: Trimethoprim
 parent: Model Prediction Only (L5)
 nav_order: 756
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection, infectious otitis media, pneumocystosis…"
 monitor_inn: "Trimethoprim"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 ---
 
 # Trimethoprim
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but **no clinical trials or publications** currently support this specific predi
 |------|------|
 | Original Indication | Urinary tract infection, infectious otitis media, pneumocystosis, shigellosis, conjunctivitis (indication text is not recorded in the Australian licence data) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -116,15 +116,6 @@ The prediction has no trials or literature behind it (L5). The proposed indicati
 
 | Rank | Predicted Indication | Score | Evidence Level | Decision | Note |
 |---|---|---|---|---|---|
-| 2 | Conjunctivitis | 99.17% | L3 | Research Question | Already an original indication, so not a true repurposing candidate |
-| 3 | Exposure keratitis | 98.95% | L4 | Hold | Indirect literature only. Primary management is lubrication and lid protection |
-| 4 | Postinfectious vasculitis | 98.42% | L5 | Hold | Immune-mediated, and trimethoprim-sulfamethoxazole can cause vasculitis |
-| 5 | Post-bacterial disorder | 98.39% | L4 | Research Question | Trials involve the trimethoprim-sulfamethoxazole combination, none meets Phase 2/3 criteria |
-| 6 | Post-infectious syndrome | 98.31% | L5 | Hold | Only trial was withdrawn with no participants |
-| 7 | Infective urethral stricture | 98.25% | L4 | Hold | Could address related urinary infection only, not the stricture |
-| 8 | Otitis externa | 98.14% | L4 | Hold | Pseudomonas is generally resistant, with no direct human clinical evidence for trimethoprim alone |
-| 9 | Chagas cardiomyopathy | 98.07% | L5 | Hold | No evidence, theoretical folate pathway rationale only |
-| 10 | Infection-related haemolytic uraemic syndrome | 98.05% | L5 | Hold | Antibiotics are generally avoided in Shiga toxin-producing *E. coli* infection, which raises a safety concern |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the ARTG entry has no indication text recorded) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 HIV-1 and SIV are closely related lentiviruses with a conserved integrase active site. Laboratory studies show that integrase inhibitors are active against SIVmac239 and simian-tropic HIV, and that resistance mutations behave similarly in both viruses.
 
-An important caveat: SIV infects non-human primates, so this "new indication" is relevant mainly as a translational research model for HIV, which is already the approved use. It does not represent a new human therapeutic indication. The other two TxGNN predictions (feline AIDS and a rare neurodevelopmental disorder) have no supporting studies and appear to be knowledge-graph artefacts; the feline indication is also veterinary and outside the scope of human drug repurposing.
+An important caveat: SIV infects non-human primates, so this "new indication" is relevant mainly as a translational research model for HIV, which is already the approved use. It does not represent a new human therapeutic indication. The other two TxGNN predictions (feline AIDS and a rare neurodevelopmental disorder) have no supporting studies and appear to be TxGNN model (deep learning) artefacts; the feline indication is also veterinary and outside the scope of human drug repurposing.
 
 ## Clinical Trial Evidence
 

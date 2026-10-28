@@ -4,17 +4,17 @@ title: Edaravone
 parent: Model Prediction Only (L5)
 nav_order: 239
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Edaravone: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Ischaemic stroke and amyotrophic lateral sclerosis"
 monitor_inn: "Edaravone"
-predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "bilateral parasagittal parieto-occipital polymicrogyria", "antithrombin deficiency type 2", "axial spondylometaphyseal dysplasia", "amyotrohpic lateral sclerosis type 22", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "Mills syndrome", "lower motor neuron syndrome with late-adult onset"]
+predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis"]
 ---
 
 # Edaravone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Edaravone is a free radical scavenger originally used to treat ischaemic stroke and amyotrophic lateral sclerosis (ALS).
-The TxGNN model predicts it may be effective for **heparin cofactor 2 deficiency**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** supporting this specific indication.
+The TxGNN model (deep learning) predicts it may be effective for **heparin cofactor 2 deficiency**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting this specific indication.
 
 ---
 
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **heparin cofactor 2 deficiency
 |------|------|
 | Original Indication | Ischaemic stroke and amyotrophic lateral sclerosis (the Australian licence record contains no approved indication text) |
 | Predicted New Indication | Heparin cofactor 2 deficiency |
-| TxGNN Prediction Score | 99.47% |
+| TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,21 +61,13 @@ The TxGNN model predicts it may be effective for **heparin cofactor 2 deficiency
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on published knowledge, edaravone is a free radical scavenger that quenches hydroxyl radicals and inhibits lipid peroxidation. Its benefit in ischaemic stroke and ALS is thought to come from limiting oxidative injury to neurons.
 
-Heparin cofactor 2 deficiency is a thrombophilia caused by reduced inhibition of thrombin. Edaravone does not act on the coagulation cascade, so no direct mechanistic link has been established. The high TxGNN score is probably driven by shared thrombosis- and stroke-related nodes in the knowledge graph. It should be read as a hypothesis-generating signal, not as evidence of benefit.
+Heparin cofactor 2 deficiency is a thrombophilia caused by reduced inhibition of thrombin. Edaravone does not act on the coagulation cascade, so no direct mechanistic link has been established. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be read as a hypothesis-generating signal, not as evidence of benefit.
 
 ### Other predictions in the top 10
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Factor 5 excess with spontaneous thrombosis | 99.06% | L5 | Hypercoagulable state; no plausible link |
-| 3 | Bilateral parasagittal parieto-occipital polymicrogyria | 98.99% | L5 | Established structural malformation; no plausible role |
-| 4 | Antithrombin deficiency type 2 | 98.97% | L5 | Edaravone does not act on coagulation |
-| 5 | Axial spondylometaphyseal dysplasia | 98.84% | L5 | No plausible link |
-| 6 | ALS, susceptibility to | 98.79% | L4 | Overlaps with the existing ALS indication; preclinical and mechanistic support only |
-| 7 | ALS type 22 | 98.77% | L4 | Genetic ALS subtype; indirect, class-level relevance only |
-| 8 | Trichomegaly-retina pigmentary degeneration-dwarfism syndrome | 98.66% | L5 | Extremely rare; prediction only |
-| 9 | Mills syndrome | 98.65% | L4 | Motor neuron disease variant; indirect rationale only |
-| 10 | Lower motor neuron syndrome with late-adult onset | 98.45% | L4 | Overlaps with the ALS spectrum; indirect rationale only |
+| 2 | Factor 5 excess with spontaneous thrombosis | 0.9906 | L5 | Hypercoagulable state; no plausible link |
 
 The motor neuron disease predictions (ranks 6, 7, 9 and 10) are the most biologically plausible. They sit within or next to the ALS spectrum for which edaravone is already approved, so they are extensions of an existing use rather than true repurposing.
 
@@ -122,14 +114,13 @@ No warnings, contraindications or drug interaction data were available in the da
 **Decision: Hold**
 
 **Rationale:**
-The heparin cofactor 2 deficiency prediction rests on a graph-based score alone. There are no trials or publications, and there is no plausible mechanistic link between a free radical scavenger and a thrombin-inhibitor deficiency. The ALS-spectrum predictions are better grounded but largely overlap with an existing indication, so they are research questions rather than repurposing candidates.
+The heparin cofactor 2 deficiency prediction rests on the TxGNN model (deep learning) score alone, which may reflect similarities the model learned between related diseases, not biological evidence. There are no trials or publications, and there is no plausible mechanistic link between a free radical scavenger and a thrombin-inhibitor deficiency.
 
 **To proceed, the following is needed:**
 - Product Information warnings and contraindications for the Australian product, which are currently missing and block safety screening
 - Mechanism of action data (for example from DrugBank)
 - Approved indication text for the Australian licence
 - Any preclinical or clinical evidence linking edaravone to the predicted thrombophilia
-- If pursuing the motor neuron disease predictions, a separate assessment of the established ALS evidence and subtype-specific data (for example ALS type 22 or Mills syndrome)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

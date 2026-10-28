@@ -4,17 +4,17 @@ title: Meloxicam
 parent: Model Prediction Only (L5)
 nav_order: 455
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis…"
 monitor_inn: "Meloxicam"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Meloxicam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Meloxicam: From Rheumatoid Arthritis and Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Meloxicam: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,23 +46,21 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis, spondyloarthropathy (from the knowledge graph; the ARTG record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available. Based on known information, meloxicam is a COX-2-preferential NSAID. It reduces prostaglandin-mediated inflammation and pain, and its efficacy in inflammatory and degenerative joint disease is established.
 
-Hunter-Thompson type acromesomelic dysplasia is a skeletal dysplasia caused by loss-of-function mutations in *CDMP1/GDF5*. Meloxicam has no known action on the GDF5/BMP signalling pathway. The high TxGNN score most likely reflects the drug's proximity to skeletal and joint disease nodes in the knowledge graph rather than a true mechanistic link. At most, an NSAID might offer symptomatic joint-pain relief. It would not modify the disease.
+Hunter-Thompson type acromesomelic dysplasia is a skeletal dysplasia caused by loss-of-function mutations in *CDMP1/GDF5*. Meloxicam has no known action on the GDF5/BMP signalling pathway. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At most, an NSAID might offer symptomatic joint-pain relief. It would not modify the disease.
 
 The other highly ranked predictions follow a similar pattern. Most are rare skeletal or genetic conditions (brachyolmia, pseudoachondroplasia, myosclerosis and others) with no plausible COX-inhibition mechanism. Two are of more practical interest because they sit close to meloxicam's existing uses:
-- **Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis** (rank 8, L4): a close extension of the existing JIA use. The one supporting paper is a safety registry of NSAIDs in JIA and does not show efficacy for this subtype.
-- **Spondyloarthropathy, susceptibility to** (rank 6): largely overlaps with an existing indication, so it is not a novel repurposing candidate.
 
 ## Clinical Trial Evidence
 

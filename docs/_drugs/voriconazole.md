@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Voriconazole
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 784
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Voriconazole: predicted new indication Multidrug-resistant tuberculosis (evidence level L5). Approved use: Oesophageal candidiasis, candidaemia, disseminated candidiasis…"
-monitor_inn: "Voriconazole"
-predicted_indications: ["multidrug-resistant tuberculosis", "cysticercosis", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "tuberculosis, bovine", "isolated genetic hair shaft abnormality", "tuberculoma", "tuberculous ascites", "tuberculosis, avian"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Voriconazole: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Voriconazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,60 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Voriconazole: From Invasive Fungal Infections to Multidrug-Resistant Tuberculosis
+<!-- known-uses-page -->
+<!-- description: Voriconazole: known uses and market status in Australia; currently no new candidate indication -->
+## Voriconazole: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Voriconazole, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. The one known use among the candidates is recorded only as a knowledge graph relation, not as an approved indication.
 
-Voriconazole is a triazole antifungal originally used for invasive fungal infections such as aspergillosis, candidaemia, oesophageal candidiasis and fusariosis.
-The TxGNN model predicts it may be effective for **multidrug-resistant tuberculosis**, but this is a model prediction only, with **0 clinical trials** and **3 publications** that do not show anti-tuberculosis activity.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Oesophageal candidiasis, candidaemia, disseminated candidiasis, fusariosis, aspergillosis (from the knowledge graph; no approved indication text is available for the ARTG entry) |
-| Predicted New Indication | Multidrug-resistant tuberculosis |
-| TxGNN Prediction Score | 98.67% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Detailed mechanism of action data is not available in the data compiled for this report. Voriconazole is known to be a triazole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), blocking ergosterol synthesis in fungal cell membranes.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-On current knowledge, a credible mechanistic link to tuberculosis is lacking. *Mycobacterium tuberculosis* has no ergosterol pathway. It does carry CYP51-like enzymes, but azole activity against it is limited and not clinically established. The high TxGNN score appears to reflect network proximity to infectious disease nodes in the knowledge graph, not demonstrated biology.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The three retrieved papers all concern fungal infections:
-- A case report of MDR-TB co-existing with aspergilloma and invasive aspergillosis. Voriconazole would treat the fungal co-infection, not the TB.
-- An in vitro study of photodynamic inactivation of *Fonsecaea nubica*.
-- A genetic diversity study of *Candida krusei* isolates.
-
-None of them shows anti-TB activity.
-
-Other top-ranked predictions (cysticercosis, several tuberculosis variants, and rare congenital malformation and hair disorders) also have no trials, no relevant literature and no plausible mechanism, so they are not developed further here.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [18992166](https://pubmed.ncbi.nlm.nih.gov/18992166/) | 2008 | Case report | Cases Journal | MDR-TB co-existing with aspergilloma and invasive aspergillosis in a diabetic woman; the fungal disease is the antifungal target, not the TB |
-| [37145297](https://pubmed.ncbi.nlm.nih.gov/37145297/) | 2023 | In vitro | Braz J Microbiol | Methylene blue photodynamic inactivation of multidrug-resistant *Fonsecaea nubica* (chromoblastomycosis); no link to TB |
-| [39359062](https://pubmed.ncbi.nlm.nih.gov/39359062/) | 2024 | Microbiological study | Virulence | Biology and genetic diversity of *Candida krusei* isolates from fermented vegetables and clinical samples in China; no link to TB |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| fusariosis |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10168E | Vfend | Powder for oral suspension 40 mg per mL, 70 mL | Not available in the compiled data |
-
-Only the oral formulation is represented in the compiled data.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 10168E | Vfend | Powder for oral suspension 40 mg per mL, | Valid |
 
 ## Safety Considerations
 
@@ -99,18 +83,6 @@ Only the oral formulation is represented in the compiled data.
 
 Please also refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a graph-based score alone. There are no clinical trials, the retrieved literature does not support anti-TB activity, and there is no credible mechanism, since mycobacteria lack the ergosterol target. Significant interaction problems with rifamycin-based TB regimens add to the concern.
-
-**To proceed, the following is needed:**
-- Mechanism of action data and in vitro evidence of voriconazole activity against *M. tuberculosis*, including MDR strains
-- Preclinical or early clinical data showing efficacy in TB
-- Pharmacokinetic and interaction assessment alongside TB regimens, particularly rifamycins
-- TGA-approved PI warnings and contraindications, and the approved indication text for the ARTG entry
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

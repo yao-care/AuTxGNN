@@ -4,17 +4,17 @@ title: Cyproterone Acetate
 parent: Moderate Evidence (L3-L4)
 nav_order: 190
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the Australian registration data compiled for this repo…"
 monitor_inn: "Cyproterone acetate"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "migraine with or without aura, susceptibility to", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
 ---
 
 # Cyproterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but **no
 |------|------|
 | Original Indication | Not stated in the Australian registration data compiled for this report (general clinical use: androgen-dependent conditions such as prostate cancer, acne and hirsutism) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available. Based on known pharmacology,
 
 Migraine is hormone-sensitive, with menstrual and perimenopausal triggers. This is the only plausible link to the drug. The retrieved literature shows that progestins have differential effects on the brain, including interactions with GABA-A receptors, dopaminergic responses and opioid receptor binding. It also shows that hormone supplementation affects migraine variably in postmenopausal women. These findings are indirect, and none demonstrates that cyproterone acetate prevents or treats migraine.
 
-The high TxGNN score most likely reflects knowledge-graph proximity to hormonal therapies, not clinical efficacy. One paper on long-term side effects of cyproterone acetate therapy may even point to headache as an adverse effect.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or clinical efficacy. One paper on long-term side effects of cyproterone acetate therapy may even point to headache as an adverse effect.
 
 Related predictions deserve caution. The model also ranks migraine with brainstem aura and migraine susceptibility highly. The literature for these concerns hormonal contraception and vascular or thrombotic risk. Migraine with aura is a recognised risk modifier for combined hormonal contraceptives because of ischaemic stroke risk. This is a safety signal, not a therapeutic rationale.
 

@@ -4,17 +4,17 @@ title: Oxybutynin
 parent: Model Prediction Only (L5)
 nav_order: 537
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Overactive bladder, neurogenic bladder, cauda equina syndrome"
 monitor_inn: "Oxybutynin"
-predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease", "low compliance bladder", "nephrogenic syndrome of inappropriate antidiuresis", "insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "familial episodic pain syndrome with predominantly upper body involvement", "transient tic disorder"]
+predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
+description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Oxybutynin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Oxybutynin: From Overactive Bladder to Restless Legs Syndrome
+## Oxybutynin: Restless legs syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Oxybutynin is an antimuscarinic medicine originally used for overactive bladder, neurogenic bladder and cauda equina syndrome.
 The TxGNN model predicts it may be effective for **restless legs syndrome**, but **no clinical trials and no publications** currently support this top-ranked prediction.
-The best-supported repurposing direction in the data compiled for this report is **low compliance bladder**, which is closely related to the existing indications.
 
 ---
 
@@ -48,15 +47,14 @@ The best-supported repurposing direction in the data compiled for this report is
 
 | Item | Content |
 |------|------|
-| Original Indication | Overactive bladder, neurogenic bladder, cauda equina syndrome (the Australian licence record contains no approved indication text) |
-| Predicted New Indication | Restless legs syndrome (top-ranked prediction) |
-| TxGNN Prediction Score | 99.74% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Restless legs syndrome |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-**Note:** Among the ten predictions, low compliance bladder (score 97.88%, Evidence Level L3) is the only one assessed as Proceed with Guardrails. It is discussed in detail below.
 
 ---
 
@@ -64,15 +62,12 @@ The best-supported repurposing direction in the data compiled for this report is
 
 Detailed mechanism of action data is not available for this report. Oxybutynin is known to be an antimuscarinic agent with a direct musculotropic antispasmodic action. It blocks muscarinic receptors (mainly M3) on bladder smooth muscle, reducing involuntary contractions.
 
-**Restless legs syndrome (rank 1):** The only suggested link is a speculative anticholinergic influence on the balance between dopamine and acetylcholine in the brain. Anticholinergics are also reported to worsen restless legs symptoms in some people, so even the direction of effect is uncertain. The high score is a graph-based prediction only.
+**Restless legs syndrome (rank 1):** The only suggested link is a speculative anticholinergic influence on the balance between dopamine and acetylcholine in the brain. Anticholinergics are also reported to worsen restless legs symptoms in some people, so even the direction of effect is uncertain. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-**Low compliance bladder (rank 4):** This is mechanistically the most coherent prediction. Blocking M3 receptors on the detrusor muscle reduces involuntary contractions and increases bladder capacity and compliance. This is closely related to oxybutynin's established use in overactive and neurogenic bladder.
 
 **Other predictions:**
 - **Gastroduodenitis and peptic ulcer disease:** Reduced gastric secretion and motility is a theoretical rationale only. The sole literature is historical (1964–1965) plus a 1990 case report of oxybutynin-induced reflux oesophagitis, which points to a possible harm.
 - **Insomnia:** There is no supported therapeutic rationale. Central anticholinergic effects can disturb cognition and sleep.
-- **ADHD:** The literature covers treatment of bedwetting (nocturnal enuresis) and sleep apnoea in children, not ADHD core symptoms.
-- **Nephrogenic syndrome of inappropriate antidiuresis, faciodigitogenital syndrome, familial episodic pain syndrome, transient tic disorder:** No evidence and no clear mechanistic basis.
 
 ---
 
@@ -86,7 +81,6 @@ Currently no related clinical trials are registered for any of the ten predicted
 
 **Restless legs syndrome (top prediction):** Currently no related literature available.
 
-**Low compliance bladder (best-supported prediction).** Selected publications, prioritised by study design:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -147,14 +141,13 @@ For label warnings and contraindications, please refer to the TGA-approved Produ
 **Rationale:**
 - The top prediction rests on a model score alone, with no trials or publications. The suggested mechanism is speculative, and anticholinergics may worsen restless legs symptoms.
 - Eight of the ten predictions are rated Evidence Level L4–L5 and Hold. Several have a plausible risk of harm rather than benefit (insomnia, peptic ulcer disease and reflux).
-- **Low compliance bladder** is rated **Proceed with Guardrails** (L3). It has a coherent mechanism and supportive systematic reviews, cohort studies and small clinical studies. However, it is close to oxybutynin's existing indications, and there are no Phase 3 RCTs specific to this indication.
+- It has a coherent mechanism and supportive systematic reviews, cohort studies and small clinical studies. However, it is close to oxybutynin's existing indications, and there are no Phase 3 RCTs specific to this indication.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data (MOA)
 - TGA Product Information with warnings and contraindications, and the approved indication text for ARTG 13957N
 - For restless legs syndrome: a systematic literature review, including the direction of effect of anticholinergics, before any further consideration
-- For low compliance bladder: controlled trial evidence or guideline support, and a monitoring plan covering anticholinergic burden, CNS effects and urodynamic follow-up of upper urinary tract safety
-- Confirmation of route and formulation compatibility. The only Australian product in the data compiled for this report is an oral tablet, while much of the low compliance bladder literature concerns intravesical oxybutynin.
+- Confirmation of route and formulation compatibility.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **Ambras type hypertrichosis un
 |------|------|
 | Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Tamsulosin is an alpha-1A/1D adrenergic receptor antagonist. It relaxes smooth m
 
 Ambras syndrome is a rare genetic disorder of hair development, linked to chromosomal rearrangements that affect regulation of the *TRPS1* gene. The review found no plausible link between alpha-1 blockade and this underlying genetic pathology. BPH (a urological condition) and congenital hypertrichosis (a hair development disorder) share no clear biological pathway.
 
-The very high score (99.996%) most likely reflects proximity within the knowledge graph to hair-related disease nodes, not a pharmacological rationale. Other top-ranked predictions are also hair-related or developmental conditions (hypertrichosis, hair shaft abnormalities, hypotrichosis, alopecia) and are likewise unsupported by evidence. This clustering suggests a systematic pattern in the model rather than a real signal for tamsulosin.
+The very high score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related hair-related diseases, not biological evidence or a pharmacological rationale. Other top-ranked predictions are also hair-related or developmental conditions (hypertrichosis, hair shaft abnormalities, hypotrichosis, alopecia) and are likewise unsupported by evidence. This clustering suggests a systematic pattern in the model rather than a real signal for tamsulosin.
 
 ## Clinical Trial Evidence
 

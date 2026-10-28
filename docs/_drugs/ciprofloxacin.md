@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ciprofloxacin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 162
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L4). Approved use: Bacterial infections (e.g. typhoid fever, salmonellosis…"
@@ -14,7 +14,7 @@ predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndro
 # Ciprofloxacin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ One 2010 paper suggests a possible skin antifibrotic effect, but its design and 
 |------|------|
 | Original Indication | Bacterial infections (e.g. typhoid fever, salmonellosis, bacterial pneumonia, Pseudomonas aeruginosa infection, anthrax, shigellosis) |
 | Predicted New Indication | Diffuse scleroderma |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9987 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,7 +67,7 @@ Any link to scleroderma is indirect and has two possible routes:
 1. **Treating small bowel bacterial overgrowth.** This is common in systemic sclerosis and causes diarrhoea, weight loss and malabsorption. A 1995 study examined this complication. Treating it would relieve a complication, not modify the underlying disease.
 2. **A proposed antifibrotic effect in the skin.** A 2010 paper investigated oral ciprofloxacin as an antifibrotic in scleroderma skin. No direct disease-modifying mechanism has been established.
 
-The very high TxGNN score is not backed by clinical data. It likely reflects proximity in the knowledge graph, not demonstrated biology.
+The very high TxGNN score is not backed by clinical data. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -119,7 +119,7 @@ The prediction rests on a very high model score, but there are no registered tri
 - Label safety information from the TGA PI, including tendon, neuropathy and QT warnings
 - A risk-benefit assessment for long-term use, including antimicrobial resistance and corticosteroid co-prescribing
 
-**Note on other predictions:** The strongest-supported prediction for this drug in the data compiled is **septicaemic plague** (TxGNN score 99.64%, Evidence Level L1, Proceed with Guardrails). It is supported by randomised trial publications, mainly in bubonic plague. It is an extension of ciprofloxacin's existing antibacterial spectrum, not a new mechanism, and it merits separate evaluation.
+**Note on other predictions:** The strongest-supported prediction for this drug in the data compiled is **septicaemic plague** (TxGNN score 0.9964, Evidence Level L1, Proceed with Guardrails). It is supported by randomised trial publications, mainly in bubonic plague. It is an extension of ciprofloxacin's existing antibacterial spectrum, not a new mechanism, and it merits separate evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Safinamide
 parent: Model Prediction Only (L5)
 nav_order: 655
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Safinamide: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease and related parkinsonian syndromes"
 monitor_inn: "Safinamide"
-predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "paralysis agitans, juvenile, of Hunt", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "lethal infantile mitochondrial myopathy", "X-linked intellectual disability-cerebellar hypoplasia syndrome"]
+predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
+description: "Safinamide: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Safinamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Safinamide: From Parkinson Disease to Rasmussen Subacute Encephalitis
+## Safinamide: Rasmussen subacute encephalitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,24 +46,24 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease and related parkinsonian syndromes (per the knowledge graph; no approved indication text is available for the Australian listing) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available from the compiled sources. Based on general pharmacology, safinamide is a MAO-B inhibitor that is also thought to modulate glutamate release through sodium channel blockade. This could plausibly relate to seizure control, which is a key feature of Rasmussen encephalitis.
 
-However, Rasmussen encephalitis is driven mainly by T-cell-mediated autoimmune inflammation affecting one brain hemisphere. Safinamide's dopaminergic and anti-glutamatergic actions do not address that underlying process, so the mechanistic link is weak and speculative. The high TxGNN score is a graph-based prediction and should not be read as clinical evidence.
+However, Rasmussen encephalitis is driven mainly by T-cell-mediated autoimmune inflammation affecting one brain hemisphere. Safinamide's dopaminergic and anti-glutamatergic actions do not address that underlying process, so the mechanistic link is weak and speculative. The high score (0.9963) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as clinical evidence.
 
 Other predictions in the top ten are worth noting for context:
 - **Closest to the original indication:** Paralysis agitans, juvenile, of Hunt (a juvenile parkinsonian syndrome), and PLA2G6-associated neurodegeneration (which includes parkinsonism-dystonia phenotypes). Symptomatic dopaminergic benefit is conceivable, but no supporting data were found.
-- **Only one with any literature:** Lewy body dementia (score 98.43%), a synucleinopathy sharing alpha-synuclein pathology with Parkinson disease. The only item is a 2026 systematic review on REM sleep behaviour disorder treatments in synucleinopathies, which is indirect evidence. This is the most promising lead for further research.
-- **Weak or no mechanistic rationale:** Myelitis, transaldolase deficiency, fructose-1,6-bisphosphatase deficiency, lethal infantile mitochondrial myopathy, and two X-linked intellectual disability syndromes. These appear to be graph-proximity artefacts.
+- The only item is a 2026 systematic review on REM sleep behaviour disorder treatments in synucleinopathies, which is indirect evidence. This is the most promising lead for further research.
+- **Weak or no mechanistic rationale:** Myelitis (0.9946). The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -73,7 +73,6 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for Rasmussen subacute encephalitis.
 
-For the rank 7 prediction (Lewy body dementia), one indirect item was found:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -107,7 +106,6 @@ The prediction for Rasmussen subacute encephalitis rests on a model score alone 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data (for example from DrugBank)
 - TGA Product Information review for warnings, contraindications and the approved indication
-- A systematic literature search on safinamide in Rasmussen encephalitis, and a targeted search on safinamide in Lewy body dementia, which is the more plausible research question
 - Preclinical or mechanistic evidence for any effect on neuroinflammation or seizure control
 - A full review of the interaction list, especially the Major interaction with bupropion
 ## Disclaimer

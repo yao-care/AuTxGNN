@@ -4,17 +4,17 @@ title: Exemestane
 parent: Model Prediction Only (L5)
 nav_order: 282
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Exemestane: predicted new indication Antithrombin deficiency type 2 (evidence level L5). Approved use: Not recorded in the data compiled for this report"
 monitor_inn: "Exemestane"
-predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura", "acne (disease)", "migraine with or without aura, susceptibility to", "breast fibrocystic disease"]
+predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
+description: "Exemestane: predicted new indication Antithrombin deficiency type 2 (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Exemestane
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,10 +33,10 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Exemestane: From Breast Cancer to Amenorrhoea (Top-Ranked Prediction: Antithrombin Deficiency Type 2)
+## Exemestane: Antithrombin deficiency type 2
 {: .text-alpha }
 
-> **Note on the selected indication:** The top-ranked prediction (rank 1) is antithrombin deficiency type 2, which has no supporting evidence. The only prediction with any retrieved literature is amenorrhoea (rank 2), and the only mechanistically coherent one is breast fibrocystic disease (rank 10). All three are reported below. The original indication is not recorded in the data compiled for this report. It is described here from general knowledge of the drug class.
+> **Note on the selected indication:** The top-ranked prediction (rank 1) is antithrombin deficiency type 2, which has no supporting evidence. All three are reported below. The original indication is not recorded in the data compiled for this report. It is described here from general knowledge of the drug class.
 
 ## One-Sentence Summary
 
@@ -47,23 +47,22 @@ The TxGNN model predicts it may be effective for **antithrombin deficiency type 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the data compiled for this report (the ARTG entry has no indication text) |
-| Predicted New Indication | Antithrombin deficiency type 2 (rank 1) |
-| TxGNN Prediction Score | 99.83% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Antithrombin deficiency type 2 |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Exemestane is known as a steroidal aromatase inhibitor that lowers circulating oestrogen by blocking the conversion of androgens to oestrogens.
 
-For antithrombin deficiency type 2, no established mechanism links aromatase inhibition to antithrombin function. Hormonal agents can influence coagulation, but aromatase inhibition is not known to correct a SERPINC1 defect. The high score is a graph-based prediction only. Exemestane also carries thromboembolic warnings, which argues against use in a thrombophilic state.
+For antithrombin deficiency type 2, no established mechanism links aromatase inhibition to antithrombin function. Hormonal agents can influence coagulation, but aromatase inhibition is not known to correct a SERPINC1 defect. The score of 0.9983 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Exemestane also carries thromboembolic warnings, which argues against use in a thrombophilic state.
 
-The same applies to the other coagulation-related predictions (factor 5 excess with spontaneous thrombosis, heparin cofactor 2 deficiency, thrombophilia). These scores likely reflect clustering of coagulation-disorder nodes in the knowledge graph and not a pharmacological rationale.
+The same applies to the other coagulation-related predictions (factor 5 excess with spontaneous thrombosis, heparin cofactor 2 deficiency, thrombophilia). These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a pharmacological rationale.
 
-The most coherent hypothesis is **breast fibrocystic disease** (score 95.66%, rank 10). Fibrocystic changes are oestrogen-responsive, so oestrogen suppression is biologically plausible. It remains a hypothesis without trials or literature, and any evaluation would need to weigh bone loss and menopausal-type adverse effects against a benign condition.
 
 ## Clinical Trial Evidence
 
@@ -111,12 +110,11 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction is a computational signal with no trials, no literature and no plausible mechanism, and there is a thromboembolic safety concern. The only predictions with literature (amenorrhoea) describe it as a treatment effect, not a target. All ten predictions are rated Hold, except breast fibrocystic disease, which is flagged as a research question.
+The top-ranked prediction is a computational signal with no trials, no literature and no plausible mechanism, and there is a thromboembolic safety concern. The only predictions with literature (amenorrhoea) describe it as a treatment effect, not a target. All predictions are rated Hold.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and the approved indication text from the TGA-approved PI
 - Warnings and contraindications from the PI, which are required before any safety screening
-- For breast fibrocystic disease, a focused literature review and a benefit-risk assessment covering bone loss and menopausal-type adverse effects
 - Clinical review of the interaction severity ratings
 ## Disclaimer
 

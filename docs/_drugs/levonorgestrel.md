@@ -4,17 +4,17 @@ title: Levonorgestrel
 parent: Moderate Evidence (L3-L4)
 nav_order: 424
 evidence_level: L4
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L4). Approved use: Postmenopausal osteoporosis / osteoporosis"
 monitor_inn: "Levonorgestrel"
-predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "fat necrosis of breast", "breast abscess", "lactation disease"]
+predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Levonorgestrel
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,28 +33,28 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Levonorgestrel: From Postmenopausal Osteoporosis to Acne
+## Levonorgestrel: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Levonorgestrel is a progestin. The knowledge graph lists its original indications as postmenopausal osteoporosis and osteoporosis, although it is widely used in contraception. The TxGNN model predicts it may be effective for **acne**, but **no clinical trials** are registered for this indication. The 20 publications compiled are mostly general contraception reviews, and only one randomised trial concerns an oral contraceptive that combines levonorgestrel with ethinyl estradiol.
+Levonorgestrel is a progestin that is widely used in contraception. The TxGNN model predicts it may be effective for **acne**, but **no clinical trials** are registered for this indication. The 20 publications compiled are mostly general contraception reviews, and only one randomised trial concerns an oral contraceptive that combines levonorgestrel with ethinyl estradiol.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Postmenopausal osteoporosis / osteoporosis (knowledge graph; no approved indication text in the ARTG data compiled) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Levonorgestrel is a progestin, and its original indications come from knowledge graph links rather than approved label text.
+Detailed mechanism of action data is not available. Levonorgestrel is a progestin.
 
 The mechanistic case for acne is weak. Levonorgestrel has residual androgenic activity (PMID 7825629), which is a theoretical concern for acne rather than a benefit. Dermatological benefit is documented for combined oral contraceptives containing anti-androgenic progestins, such as chlormadinone acetate (PMID 21895044), not for levonorgestrel itself. The high TxGNN score likely reflects network proximity to hormonal contraceptives as a class.
 
@@ -103,7 +103,7 @@ The prediction rests on a network score with no registered trials for acne. The 
 - Mechanism of action data for levonorgestrel
 - Approved indication text and safety sections from the TGA Product Information, which are currently missing
 - Controlled studies of levonorgestrel alone in acne, with a comparison against anti-androgenic progestin regimens
-- Clarification of the original indication, since the knowledge graph lists osteoporosis while the registered Australian product is an intrauterine system
+- Clarification of the original indication, since osteoporosis is listed as an original indication while the registered Australian product is an intrauterine system
 - A risk assessment of the knowledge graph contraindications against any intended acne population
 ## Disclaimer
 

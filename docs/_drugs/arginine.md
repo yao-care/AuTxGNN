@@ -50,10 +50,10 @@ Support is limited to **0 clinical trials** and **9 publications**, all preclini
 |------|------|
 | Original Indication | Not available (no approved indication text in the compiled data) |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 2 |
+| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

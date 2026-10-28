@@ -4,17 +4,17 @@ title: Fluconazole
 parent: Model Prediction Only (L5)
 nav_order: 302
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Oral candidiasis, oesophageal candidiasis, vulvovaginal candidiasis…"
 monitor_inn: "Fluconazole"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "Plasmodium falciparum malaria", "allergic urticaria", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "pneumocystosis", "blood group incompatibility", "premalignant hematological system disease", "papular urticaria"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 ---
 
 # Fluconazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,19 +47,18 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 |------|------|
 | Original Indication | Oral candidiasis, oesophageal candidiasis, vulvovaginal candidiasis, candidaemia, disseminated candidiasis, cryptococcal meningitis (the approved indication text for the Australian listing was not available) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.24% |
+| TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, fluconazole is a triazole antifungal. Its efficacy in candidiasis and cryptococcal infection is established, and it is generally understood to act by inhibiting fungal ergosterol synthesis.
 
-Punctate epithelial keratoconjunctivitis is most often viral (commonly adenoviral) or inflammatory. A fungal cause would be needed for an antifungal mechanism to be relevant. The high TxGNN score (99.24%) is a graph-based signal only, and no supporting clinical or literature evidence was found. The link between fluconazole and this condition is therefore currently weak and unconfirmed.
+Punctate epithelial keratoconjunctivitis is most often viral (commonly adenoviral) or inflammatory. A fungal cause would be needed for an antifungal mechanism to be relevant. The high TxGNN score (0.9924) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No supporting clinical or literature evidence was found. The link between fluconazole and this condition is therefore currently weak and unconfirmed.
 
-Other predicted indications in the data compiled for this report fared no better. Most had no evidence, and a few (such as allergic urticaria, hyperamylasaemia and congenital analbuminaemia) appear to be knowledge-graph artefacts. Plasmodium falciparum malaria had only weak in vitro evidence, and pneumocystosis had no supporting evidence for fluconazole, since standard therapy is trimethoprim-sulfamethoxazole.
 
 ## Clinical Trial Evidence
 
@@ -92,7 +91,7 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a graph-based model score. There are no clinical trials or publications, and no plausible mechanism links an antifungal to what is usually a viral or inflammatory eye condition.
+The prediction is supported only by a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications, and no plausible mechanism links an antifungal to what is usually a viral or inflammatory eye condition.
 
 **To proceed, the following is needed:**
 - Evidence of a fungal or otherwise azole-responsive aetiology in punctate epithelial keratoconjunctivitis

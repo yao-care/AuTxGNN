@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Isosorbide Mononitrate: From an Unspecified Original Indication to Hypertrichosis
+## Isosorbide Mononitrate: From an Unspecified Original Indication to hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ The only candidate with any related literature is pulmonary arterial hypertensio
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the approved indication text on the ARTG entry is blank) |
 | Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.995% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ The only candidate with any related literature is pulmonary arterial hypertensio
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, isosorbide mononitrate is an NO donor. It raises cyclic GMP (cGMP) in vascular smooth muscle and causes vasodilation.
 
-For hypertrichosis, no plausible mechanistic link has been identified. NO-mediated vasodilation has been loosely discussed in hair follicle biology, as with minoxidil, but this is speculative. The high TxGNN score is a graph-based prediction and is not backed by clinical or literature data.
+For hypertrichosis, no plausible mechanistic link has been identified. NO-mediated vasodilation has been loosely discussed in hair follicle biology, as with minoxidil, but this is speculative. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by clinical or literature data.
 
-The other top-ranked predictions (Ambras-type hypertrichosis, hair shaft abnormalities, hypotrichosis, alopecia and alopecia areata, and several malformation syndromes) show the same pattern. They appear to cluster around shared hair and ectodermal phenotypes in the knowledge graph. Most are genetic or structural conditions that a vasodilator would not be expected to correct. The only biologically plausible candidate is **pulmonary arterial hypertension (PAH)**, ranked 10th (score 99.94%). The NO-sGC-cGMP pathway is a validated PAH target (PDE5 inhibitors, riociguat). However, organic nitrates are not established in PAH, and concerns include tolerance, systemic hypotension and possible ventilation-perfusion mismatch.
+The other top-ranked predictions (Ambras-type hypertrichosis, hair shaft abnormalities, hypotrichosis, alopecia and alopecia areata, and several malformation syndromes) show the same pattern. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related hair and ectodermal diseases, not biological evidence. Most are genetic or structural conditions that a vasodilator would not be expected to correct. The only biologically plausible candidate is **pulmonary arterial hypertension (PAH)**, ranked 10th (score 0.9994). The NO-sGC-cGMP pathway is a validated PAH target (PDE5 inhibitors, riociguat). However, organic nitrates are not established in PAH, and concerns include tolerance, systemic hypotension and possible ventilation-perfusion mismatch.
 
 ---
 
@@ -110,7 +110,7 @@ Please refer to the TGA-approved Product Information (PI) for the full warnings 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph-based score alone (Evidence Level L5), with no registered trials, no relevant publications and no credible mechanism for hypertrichosis. The only plausible candidate, PAH, has just indirect, low-tier evidence and is better treated as a research question than as a repurposing recommendation.
+The prediction rests on a TxGNN model (deep learning) score alone (Evidence Level L5), with no registered trials, no relevant publications and no credible mechanism for hypertrichosis. The only plausible candidate, PAH, has just indirect, low-tier evidence and is better treated as a research question than as a repurposing recommendation.
 
 **To proceed, the following is needed:**
 - The approved indication text from the TGA PI/ARTG entry, to confirm the original indication

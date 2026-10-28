@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Ixekizumab
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 402
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Ixekizumab: predicted new indication Rheumatoid vasculitis (evidence level L5). Approved use: Ankylosing spondylitis"
-monitor_inn: "Ixekizumab"
-predicted_indications: ["rheumatoid vasculitis", "acute lymphoblastic/lymphocytic leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis", "vertebral disease", "fibromatosis, gingival"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Ixekizumab: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Ixekizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,62 +32,48 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ixekizumab: From Ankylosing Spondylitis to Rheumatoid Vasculitis
+<!-- known-uses-page -->
+<!-- description: Ixekizumab: known uses and market status in Australia; currently no new candidate indication -->
+## Ixekizumab: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Ixekizumab, so there is currently no new predicted indication. The drug's recorded uses are listed below.
 
-Ixekizumab is an anti-IL-17A monoclonal antibody, originally used for ankylosing spondylitis and related spondyloarthropathies.
-The TxGNN model predicts it may be effective for **rheumatoid vasculitis**.
-**No directly relevant clinical trials or publications** currently support this prediction, so it remains a computational signal only.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Ankylosing spondylitis; spondyloarthropathy (from the knowledge-graph indication data, as no approved indication text is listed for the Australian product) |
-| Predicted New Indication | Rheumatoid vasculitis |
-| TxGNN Prediction Score | 97.53% |
-| Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 5 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| axial spondyloarthritis | licence in another country |
+| juvenile arthritis | licence in another country |
+| psoriasis | licence in another country |
+| psoriatic arthritis | licence in another country |
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ixekizumab is known to neutralise IL-17A, a cytokine central to the IL-23/IL-17 inflammatory axis. Its efficacy in ankylosing spondylitis has been established.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-IL-17A has been implicated in autoimmune vascular inflammation, so blocking it is biologically plausible in rheumatoid vasculitis. The link is only theoretical. Ankylosing spondylitis and rheumatoid vasculitis are different diseases, with different dominant immune pathways and patient populations. The high TxGNN score (0.975) reflects patterns in a knowledge graph, not clinical evidence.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients having elective total shoulder arthroplasty. It does not test ixekizumab or vasculitis, so it is only loosely related. |
-
-No trial directly testing ixekizumab in rheumatoid vasculitis is registered in the data compiled for this report.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| ankylosing spondylitis |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11032P | Taltz | Injection 80 mg in 1 mL single dose pre-filled pen | Not listed in the data compiled; refer to the TGA Product Information |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 11032P | Taltz | Injection 80 mg in 1 mL single dose pre- | Valid |
 
 ## Safety Considerations
 
@@ -101,21 +86,6 @@ Warnings and contraindications were not available in the data compiled for this 
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a model score and a plausible but unproven IL-17A rationale. There are no ixekizumab-specific trials or publications for rheumatoid vasculitis, so the evidence level is L5.
-
-For context, the data compiled for this report include a lower-ranked prediction, inflammatory spondylopathy (rank 6). It is supported by multiple completed Phase 3 trials of ixekizumab in axial spondyloarthritis. However, it largely overlaps the existing approved use, so it is not true repurposing.
-
-**To proceed, the following is needed:**
-- Case series, registry data or mechanistic studies of IL-17A blockade in rheumatoid vasculitis
-- A targeted literature search for ixekizumab or other IL-17 inhibitors in vasculitis
-- Mechanism of action data and the TGA PI warnings and contraindications, to complete the safety screen
-- Confirmation of the approved indications for the ARTG entry
-- Clinical expert review of the risk-benefit balance in patients with systemic vasculitis, including infection and inflammatory bowel disease risks and vaccination planning
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

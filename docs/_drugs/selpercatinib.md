@@ -4,17 +4,17 @@ title: Selpercatinib
 parent: Model Prediction Only (L5)
 nav_order: 666
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Selpercatinib: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Selpercatinib"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "migraine with or without aura, susceptibility to", "pulmonary hypertension, primary, autosomal recessive", "obsolete patella aplasia, coxa vara, and tarsal synostosis", "idiopathic pulmonary arterial hypertension", "atrophoderma vermiculata", "coxopodopatellar syndrome"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Selpercatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, but
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.18% |
+| TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 No plausible RET-driven mechanism in pulmonary hypertension is established in the supplied data. The high TxGNN score reflects proximity in a knowledge network rather than demonstrated biology. Some multikinase inhibitors have been linked to pulmonary hypertension as an adverse effect, so the direction of effect is uncertain and could be harmful.
 
-Other top-ranked predictions are also unsupported. These include migraine disorder and its subtypes, idiopathic pulmonary arterial hypertension, heritable pulmonary hypertension, and several rare skeletal or dermatological entries. Several look like knowledge-graph artefacts. Kinase inhibitors such as imatinib have been explored in pulmonary arterial hypertension, but selective RET inhibitors have not.
+Other top-ranked predictions are also unsupported. These include migraine disorder and its subtypes, idiopathic pulmonary arterial hypertension, heritable pulmonary hypertension, and several rare skeletal or dermatological entries. Several look like TxGNN model (deep learning) artefacts. Kinase inhibitors such as imatinib have been explored in pulmonary arterial hypertension, but selective RET inhibitors have not.
 
 ## Clinical Trial Evidence
 

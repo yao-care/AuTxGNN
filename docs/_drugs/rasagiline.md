@@ -4,17 +4,17 @@ title: Rasagiline
 parent: Model Prediction Only (L5)
 nav_order: 626
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Rasagiline: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease"
 monitor_inn: "Rasagiline"
-predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "retinal dystrophy with or without extraocular anomalies"]
+predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
+description: "Rasagiline: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rasagiline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Rasagiline: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
+## Rasagiline: PLA2G6-associated neurodegeneration
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Rasagiline is a monoamine oxidase B (MAO-B) inhibitor originally used to treat Parkinson disease.
-The TxGNN model predicts it may be effective for **PLA2G6-associated neurodegeneration** (score 99.7%), but **no clinical trials and no publications** currently support this specific prediction.
+The TxGNN model predicts it may be effective for **PLA2G6-associated neurodegeneration** (score 0.9971), but **no clinical trials and no publications** currently support this specific prediction.
 Evidence is limited to model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease (and related parkinsonian syndromes, per the knowledge graph; no approved indication text is available for the Australian product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,9 +61,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 PLA2G6-associated neurodegeneration includes infantile neuroaxonal dystrophy and PLA2G6-related dystonia-parkinsonism (PARK14). The plausible link is phenotypic overlap with parkinsonism, the original indication. However, MAO-B inhibition is not known to address the underlying lipid-metabolism and iron-accumulation pathology. Any benefit would be inferred from shared parkinsonian symptoms and has not been demonstrated.
 
 **Other predictions in the data compiled for this report** (all lower-ranked, for context):
-- **Lewy body dementia** (score 98.8%, L4): biologically plausible given shared alpha-synuclein pathology with Parkinson disease. The available literature is mostly preclinical or concerns related compounds and Alzheimer's disease. There are no direct rasagiline trials and no registered trials.
-- **Retinal dystrophy with or without extraocular anomalies** (score 98.8%, L4): one mouse study of retinitis pigmentosa suggests rasagiline delays retinal degeneration via Bax/Bcl-2 modulation. There are no human data.
-- **Paralysis agitans, juvenile, of Hunt** (score 99.2%, L5): a historical term for juvenile-onset parkinsonism. The high score likely reflects closeness to Parkinson disease in the ontology.
+- **Paralysis agitans, juvenile, of Hunt** (score 0.9925, L5): a historical term for juvenile-onset parkinsonism. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - Other predictions (Rasmussen encephalitis, myelitis, transaldolase deficiency, and several congenital metabolic or developmental disorders) have no evident mechanistic rationale and no supporting studies.
 
 ## Clinical Trial Evidence
@@ -94,14 +92,13 @@ Product Information warnings and contraindications were not available for this r
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score alone (L5). There are no clinical trials or literature for PLA2G6-associated neurodegeneration, and the mechanistic link is only a shared parkinsonian phenotype. Of the other predictions, Lewy body dementia and retinal dystrophy are best supported (L4, preclinical only), and could be framed as research questions rather than treatment recommendations.
+The prediction rests on model score alone (L5). There are no clinical trials or literature for PLA2G6-associated neurodegeneration, and the mechanistic link is only a shared parkinsonian phenotype.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for rasagiline (for example from DrugBank)
 - TGA-approved Product Information, including warnings, contraindications and approved indication text
 - Disease-specific preclinical or clinical evidence for PLA2G6-associated neurodegeneration (for example, patient-derived cell or animal model studies)
 - A review of whether the knowledge-graph contraindications and the interaction burden are acceptable in this patient population, which is often paediatric or on multiple medicines
-- An assessment of whether the Lewy body dementia prediction merits a separate evaluation, supported by direct clinical data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

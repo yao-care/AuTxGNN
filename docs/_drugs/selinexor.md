@@ -4,17 +4,17 @@ title: Selinexor
 parent: Model Prediction Only (L5)
 nav_order: 665
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Selinexor: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Selinexor"
-predicted_indications: ["drug-induced osteoporosis", "HER2 positive breast carcinoma", "progesterone-receptor negative breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "squamous cell lung carcinoma", "gestational trophoblastic neoplasm", "cervical neuroblastoma", "schwannoma of jugular foramen"]
+predicted_indications: ["drug-induced osteoporosis"]
 ---
 
 # Selinexor
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,19 +48,18 @@ The evidence is model prediction only, so the recommendation is **Hold**.
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.22% |
+| TxGNN Prediction Score | 0.9922 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data are not available in the data compiled for this report. Selinexor is known as an XPO1 (exportin-1, also called CRM1) inhibitor. It blocks nuclear export of tumour-suppressor proteins and has been developed as an anticancer agent, mainly in haematological malignancies.
 
-No established mechanistic link between XPO1 inhibition and bone metabolism or drug-induced osteoporosis is supported by the data. The high TxGNN score (99.22%) is not corroborated by any trial or publication. It should be treated as a hypothesis only.
+No established mechanistic link between XPO1 inhibition and bone metabolism or drug-induced osteoporosis is supported by the data. The high TxGNN score (0.9922) is not corroborated by any trial or publication. It should be treated as a hypothesis only.
 
-Other lower-ranked predictions are mostly oncology indications, which are more consistent with selinexor's known biology. The most clinically developed of these is squamous cell lung carcinoma, where two selinexor trials exist but neither produced usable results. None of them is the lead prediction assessed here.
 
 ## Clinical Trial Evidence
 

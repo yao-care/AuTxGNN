@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mupirocin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 490
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Mupirocin: predicted new indication Staphylococcal scalded skin syndrome (SSSS) (evidence level L3). Approved use: Impetigo"
 monitor_inn: "Mupirocin"
-predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "cutaneous candidiasis", "vaginal discharge", "exposure keratitis", "leukoplakia of vagina", "non-human animal disease", "staphylococcal scalded skin syndrome", "bacterial vaginosis"]
+predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
+description: "Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mupirocin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,15 +33,15 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Mupirocin: From Impetigo to Staphylococcal Scalded Skin Syndrome
+## Mupirocin: Pleural empyema (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mupirocin is a topical antibiotic originally used to treat impetigo, including bullous impetigo.
-The TxGNN model predicts it may be useful for **Staphylococcal Scalded Skin Syndrome (SSSS)**, with **no registered clinical trials** and **13 publications** (mostly epidemiology and case reports, plus one retrospective cohort study) supporting this direction.
+The TxGNN model predicts it may be useful for **Pleural Empyema**, with **no registered clinical trials** and **13 publications** (mostly epidemiology and case reports, plus one retrospective cohort study) supporting this direction.
 
-> **Note on indication selection:** The top-ranked TxGNN prediction (pleural empyema, score 99.49%) has no supporting evidence and a weak biological rationale for a topical agent. This report therefore focuses on the best-supported prediction, SSSS (rank 9), and summarises the other predictions briefly.
+> **Note on indication selection:** The top-ranked TxGNN prediction (pleural empyema, score 0.9949) has no supporting evidence and a weak biological rationale for a topical agent. This report therefore focuses on the best-supported prediction, SSSS (rank 9), and summarises the other predictions briefly.
 
 ---
 
@@ -49,12 +49,12 @@ The TxGNN model predicts it may be useful for **Staphylococcal Scalded Skin Synd
 
 | Item | Content |
 |------|------|
-| Original Indication | Impetigo; bullous impetigo (from the TxGNN knowledge graph, as no approved indication text is available for the ARTG entry) |
-| Predicted New Indication | Staphylococcal scalded skin syndrome (SSSS) |
-| TxGNN Prediction Score | 95.57% |
-| Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pleural empyema (disease) |
+| TxGNN Prediction Score | 0.9949 |
+| Evidence Level | L5 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -119,15 +119,8 @@ For other warnings and contraindications, please refer to the TGA-approved Produ
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 1 | Pleural empyema | 99.49% | L5 | Prediction only; topical agent has no meaningful pleural exposure |
-| 2 | Punctate epithelial keratoconjunctivitis | 99.10% | L5 | Often viral or non-infectious; no evidence |
-| 3 | Neurotrophic keratopathy | 98.48% | L5 | Neurodegenerative, not primarily infectious |
-| 4 | Cutaneous candidiasis | 98.27% | L4 | Single 1991 report of unclear design (PMID 1678836); mechanism unclear; a research question only |
-| 5 | Vaginal discharge | 96.01% | L5 | Non-specific symptom; no evidence |
-| 6 | Exposure keratitis | 95.89% | L4 | In vitro data only, with a corneal toxicity concern |
-| 7 | Leukoplakia of vagina | 95.81% | L5 | No mechanistic link |
-| 8 | Non-human animal disease | 95.66% | L5 | Non-specific ontology category; exclude |
-| 10 | Bacterial vaginosis | 95.19% | L4 | Polymicrobial anaerobic condition; one MRSA vaginitis case report only |
+| 1 | Pleural empyema | 0.9949 | L5 | Prediction only; topical agent has no meaningful pleural exposure |
+| 2 | Punctate epithelial keratoconjunctivitis | 0.9910 | L5 | Often viral or non-infectious; no evidence |
 
 ---
 

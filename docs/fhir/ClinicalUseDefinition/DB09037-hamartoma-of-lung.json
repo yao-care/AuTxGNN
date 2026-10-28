@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB09037",
-      "display": "Xifaxan"
+      "reference": "MedicationKnowledge/DB09037"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://autxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "hamartoma-of-lung",
-          "display": "hamartoma of lung"
-        }
-      ],
-      "text": "hamartoma of lung"
+      "concept": {
+        "text": "hamartoma of lung"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://autxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://autxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9935
     }
   ]
 }

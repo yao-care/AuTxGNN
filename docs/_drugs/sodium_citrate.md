@@ -4,17 +4,17 @@ title: Sodium Citrate
 parent: Model Prediction Only (L5)
 nav_order: 681
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, dyspepsia…"
 monitor_inn: "Sodium citrate"
-predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "acute laryngopharyngitis", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria", "intestinal obstruction"]
+predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
 ---
 
 # Sodium Citrate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The prediction is a model output only and should be treated as a hypothesis.
 |------|------|
 | Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, dyspepsia, pharyngitis, common cold (the registered ARTG indication text is not available) |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,11 +62,11 @@ The prediction is a model output only and should be treated as a hypothesis.
 
 Detailed mechanism of action data are not available for this report. Based on known information, sodium citrate is a buffering agent and antacid. Its efficacy in acid-related upper gastrointestinal conditions is the basis for the original indications.
 
-For papillary conjunctivitis, no plausible mechanistic link to acid buffering is evident. Papillary conjunctivitis is an allergic or mechanically induced inflammatory eye condition. The high score (0.9995) is therefore best viewed as a model prediction that may reflect knowledge-graph proximity rather than independent evidence of benefit.
+For papillary conjunctivitis, no plausible mechanistic link to acid buffering is evident. Papillary conjunctivitis is an allergic or mechanically induced inflammatory eye condition. The high score (0.9995) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should not be taken as independent evidence of benefit.
 
 Other high-ranking predictions are closer to the original indications and are noted for context:
 - **Nasal cavity disease** and **acute laryngopharyngitis** sit close to the existing rhinitis, nasopharyngitis, pharyngitis and common cold labels. Their scores likely reflect that proximity, and neither has trial or literature support.
-- **Stomach disease** (score 99.89%) is the only prediction with a plausible mechanism (gastric acid buffering). Its evidence level is L4, but the supporting literature is mostly preclinical oncology work or incidental mentions of sodium citrate, which offer only indirect support.
+- **Stomach disease** (score 0.9989) is the only prediction with a plausible mechanism (gastric acid buffering). Its evidence level is L4, but the supporting literature is mostly preclinical oncology work or incidental mentions of sodium citrate, which offer only indirect support.
 
 ---
 

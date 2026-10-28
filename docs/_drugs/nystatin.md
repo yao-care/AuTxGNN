@@ -48,10 +48,10 @@ The data compiled for this report contain **no registered clinical trials** and 
 |------|------|
 | Original Indication | Cutaneous candidiasis, oral candidiasis, candidiasis, vulvovaginal candidiasis (no approved indication text is available for the Australian product) |
 | Predicted New Indication | Vulvovaginitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -110,7 +110,7 @@ Support comes from the strong overlap between vulvovaginitis and the approved vu
 - Mechanism of action data confirmed from a primary source
 - Confirmation of an Australian vaginal or topical formulation and route, since the registered product is oral
 - Restriction of use to confirmed candidal vulvovaginitis, with testing to exclude bacterial, trichomonal and atrophic causes
-- Clinical review of the interaction screen and the knowledge-graph disease associations
+- Clinical review of the interaction screen and the disease predictions of the TxGNN model (deep learning); the scores come from the model and may reflect similarities the model learned between related diseases, not biological evidence
 - Comparative efficacy data against current first-line azoles from randomised trials
 ## Disclaimer
 

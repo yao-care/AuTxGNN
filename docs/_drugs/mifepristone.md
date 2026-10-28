@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Mifepristone
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 478
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-13
-description: "Mifepristone: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Pregnancy disorder with abortive outcome"
+description: "Mifepristone: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Mifepristone"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "rosacea", "otitis externa", "post-bacterial disorder", "postinfectious vasculitis", "infective urethral stricture", "post-infectious syndrome", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Mifepristone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,42 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mifepristone: From Pregnancy Disorder with Abortive Outcome to Punctate Epithelial Keratoconjunctivitis
+## Mifepristone
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Mifepristone was originally used for pregnancy disorders with an abortive outcome (medical termination of pregnancy).
-The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction is based on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pregnancy disorder with abortive outcome (from the knowledge graph; the ARTG entry has no indication text) |
-| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 97.60% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Mifepristone is generally known as a progesterone receptor and glucocorticoid receptor antagonist. Its efficacy in terminating pregnancy is established, but any mechanistic link to ocular surface disease is speculative.
-
-The original indication (pregnancy disorder with abortive outcome) and the predicted indication (an inflammatory condition of the cornea and conjunctiva) are clinically unrelated. A theoretical link is modulation of glucocorticoid or hormone signalling in ocular surface inflammation. The high score (97.60%) most likely reflects proximity within the knowledge graph rather than demonstrated biology.
-
-Other predicted indications were also reviewed. All are likewise supported by model scores only, with no trials or literature. They are rosacea (97.17%), otitis externa (96.65%), post-bacterial disorder (96.65%), postinfectious vasculitis (96.61%), infective urethral stricture (96.56%), post-infectious syndrome (96.54%), Chagas cardiomyopathy (96.45%), infection-related haemolytic uraemic syndrome (96.42%) and parasitic eyelid infestation (92.82%). For postinfectious vasculitis, the direction of effect is uncertain because mifepristone may raise cortisol levels while blocking its receptor.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
 ## Australia Market Information
 
@@ -95,20 +71,6 @@ The major interactions with corticosteroids are consistent with mifepristone's g
 
 Product label warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by a model score, with no registered trials or publications. The mechanism of action is missing, the original and predicted indications are unrelated, and no suitable ocular formulation is registered in Australia. Knowledge graph contraindications (including infectious disease) and major corticosteroid interactions add further concern.
-
-**To proceed, the following is needed:**
-- Mechanism of action data (for example from DrugBank) to assess biological plausibility
-- Systematic literature and trial registry search (including ANZCTR) for mifepristone in ocular surface disease
-- Product Information warnings and contraindications from the TGA-approved PI
-- Preclinical evidence in ocular surface inflammation models
-- Assessment of a suitable route and formulation (for example topical ophthalmic), as the only registered product is an oral pack
-- Review of whether other predicted indications, such as rosacea, have stronger support
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

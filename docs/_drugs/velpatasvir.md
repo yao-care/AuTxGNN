@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **hepatitis B virus infection**
 |------|------|
 | Original Indication | Chronic hepatitis C virus infection |
 | Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 2 |
+| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, velpatasvir is part of the sofosbuvir/velpatasvir combination (and the sofosbuvir/velpatasvir/voxilaprevir combination). It acts as an HCV NS5A inhibitor, and its efficacy in chronic hepatitis C is well established.
 
-The link to HBV is weak. HBV is a DNA virus that replicates via reverse transcription, and velpatasvir has no established activity against it. The very high TxGNN score most likely reflects network proximity among viral hepatitis nodes in the knowledge graph rather than a shared drug target.
+The link to HBV is weak. HBV is a DNA virus that replicates via reverse transcription, and velpatasvir has no established activity against it. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The related trials do not support an anti-HBV effect. In the trial of SOF/VEL with prophylactic tenofovir alafenamide (TAF), the HBV protection comes from TAF. The literature on HBV in this setting concerns HBV reactivation during HCV direct-acting antiviral treatment, which is a safety concern rather than a treatment indication.
 
@@ -109,7 +109,7 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 **Decision: Hold**
 
 **Rationale:**
-Velpatasvir has no established anti-HBV activity. The high TxGNN score appears to be a graph-proximity artefact, and every linked trial and paper concerns HCV treatment or HBV reactivation safety. No study supports velpatasvir for HBV, so the evidence level is L4 at best.
+Velpatasvir has no established anti-HBV activity. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Every linked trial and paper concerns HCV treatment or HBV reactivation safety. No study supports velpatasvir for HBV, so the evidence level is L4 at best.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, and in vitro evidence of anti-HBV activity

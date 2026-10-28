@@ -4,17 +4,17 @@ title: Letrozole
 parent: High Evidence (L1-L2)
 nav_order: 421
 evidence_level: L1
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Letrozole: predicted new indication Female breast carcinoma (evidence level L1). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
+description: "Letrozole: predicted new indication Nipple carcinoma (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Letrozole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Letrozole: From Breast Cancer (Original Indication) to Female Breast Carcinoma
+## Letrozole: Nipple carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Letrozole is a nonsteroidal aromatase inhibitor, marketed in Australia as Femara 2.5 mg tablets, and used in hormone-receptor-positive breast cancer.
-The TxGNN model predicts it may be effective for **female breast carcinoma**, with **40 clinical trials** and **20 publications** compiled for this prediction.
 This is already an established use of letrozole, so the prediction confirms an existing indication rather than revealing a new one.
 
 ---
@@ -48,12 +47,12 @@ This is already an established use of letrozole, so the prediction confirms an e
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report (the Australian licence record has no indication text) |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nipple carcinoma |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -145,7 +144,6 @@ Multiple completed Phase 3 trials and randomised publications support letrozole 
 **To proceed, the following is needed:**
 - The TGA-approved indication text for Femara (ARTG 13939P) and label warnings and contraindications from the PI
 - Mechanism-of-action data from DrugBank
-- Confirmation of the knowledge-graph disease associations (hepatic impairment, osteoporosis, cerebrovascular disease) against the label
 - Review of the severity of the flagged drug interactions
 - For the other predictions, a decision to treat the oestrogen-receptor-negative, Ehrlich tumour, fibrocystic and benign dysplasia predictions as Hold, and to pursue the hormone-resistant, bilateral and gene-expression-profile predictions only as research questions
 ## Disclaimer

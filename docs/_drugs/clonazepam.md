@@ -4,17 +4,17 @@ title: Clonazepam
 parent: Moderate Evidence (L3-L4)
 nav_order: 174
 evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Clonazepam: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Early myoclonic encephalopathy, absence epilepsy…"
+indication_count: 3
 monitor_inn: "Clonazepam"
-predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm", "sleep disorder, initiating and maintaining sleep", "trigeminal neuralgia"]
+predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
+last_modified_at: 2026-10-27
+description: "Clonazepam: predicted new indication restless legs syndrome (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Clonazepam
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,138 +33,85 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Clonazepam: From Epilepsy and Anxiety Disorders to Restless Legs Syndrome
+## Clonazepam: GABA-A receptor positive allosteric modulator (benzodiazepine) → restless legs syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Clonazepam is a benzodiazepine originally used for seizure disorders (such as absence epilepsy and Lennox-Gastaut syndrome) and anxiety disorder.
-The TxGNN model predicts it may be effective for **restless legs syndrome**, with **no registered clinical trials** and **20 publications** (mostly guidelines, reviews and small older studies) currently supporting this direction.
-Of the ten predictions generated, **status epilepticus** has the strongest evidence (3 Phase 3 trials and 1 large paediatric dosing study), so it is also discussed below.
+Clonazepam is a benzodiazepine that acts on GABA-A receptors and is registered in Australia as Rivotril tablets.
+The TxGNN model predicts it may be useful for **restless legs syndrome**, but there are **no registered clinical trials** and the evidence pack contains only a small number of studies that directly examine clonazepam in this condition (one 1984 crossover trial, one 2001 sleep-laboratory study, a Cochrane review of benzodiazepines, and a 2025 comparison with dopamine agonists).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Early myoclonic encephalopathy, absence epilepsy, Lennox-Gastaut syndrome, anxiety disorder and others (the Australian indication text was not available in the data compiled for this report) |
-| Predicted New Indication | Restless legs syndrome |
-| TxGNN Prediction Score | 99.65% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | restless legs syndrome |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold (research question) |
-
-**Other predictions of note**
-
-| Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
-|------|------|------|------|
-| Status epilepticus | 97.0% | L1 | Proceed with Guardrails |
-| Trigeminal neuralgia | 97.7% | L3 | Research Question |
-| Insomnia | 99.3% | L4 | Hold |
-| Sleep disorder (initiating and maintaining sleep) | 98.8% | L4 | Hold |
-| Reading seizures | 96.6% | L4 | Research Question |
-| Epilepsy with generalised tonic-clonic seizures | 96.5% | L4 | Research Question |
-| Trigeminal nerve neoplasm | 99.3% | L5 | Hold |
-| Acute encephalopathy with biphasic seizures and late reduced diffusion | 98.6% | L5 | Hold |
-| Adolescent/adult onset autosomal dominant epilepsy with auditory features | 96.8% | L5 | Hold |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, clonazepam is a benzodiazepine that acts as a positive allosteric modulator of the GABA-A receptor. This enhances inhibitory signalling in the brain. Its efficacy in seizure disorders and anxiety is established, and mechanistically it may be applicable to conditions involving neuronal over-excitability or sensory-motor arousal.
+Clonazepam is a positive allosteric modulator of the GABA-A receptor. Enhancing inhibitory GABA signalling may reduce sensory-motor arousal and sleep fragmentation, which are prominent in restless legs syndrome (RLS) and periodic limb movements during sleep.
 
-For restless legs syndrome (RLS), enhanced GABAergic inhibition may reduce sensory-motor arousal and sleep fragmentation linked to periodic limb movements. Support comes from a small, older, double-blind crossover trial against placebo (6 patients, 1984), a placebo-controlled sleep laboratory study and a Cochrane review of benzodiazepines for RLS. However, the 2025 American Academy of Sleep Medicine guideline does not favour benzodiazepines as first-line therapy, so clonazepam is at most a second-line or adjunct option.
+Detailed mechanism-of-action data were not available in the data compiled for this report, so the mechanistic link above is a plausible rationale rather than a confirmed pathway.
 
-For status epilepticus, the link is direct: the same GABA-A mechanism that underlies its approved antiseizure use terminates prolonged seizure activity. Benzodiazepines are first-line treatment for status epilepticus worldwide, and intravenous clonazepam is widely used in parts of Europe. Its availability varies by region, and the Australian ARTG entry identified in the data is an oral tablet only.
+Clinical support is modest. A small randomised, double-blind, placebo-controlled crossover trial of six patients (1984) reported improved subjective sleep quality and leg dysaesthesia. A Cochrane systematic review of benzodiazepines for RLS (2017) is also available. However, the 2025 American Academy of Sleep Medicine guideline does not favour benzodiazepines as first-line therapy, so clonazepam is at most a second-line or adjunct option.
 
 ## Clinical Trial Evidence
 
-There are no registered clinical trials for restless legs syndrome, the top-ranked prediction. The trials below relate to **status epilepticus** (the prediction with the most trial evidence).
-
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01870024](https://clinicaltrials.gov/study/NCT01870024) | Phase 3 | Completed | 434 | Lorazepam vs clonazepam vs clonazepam plus fosphenytoin for out-of-hospital generalised convulsive status epilepticus in adults |
-| [NCT01150331](https://clinicaltrials.gov/study/NCT01150331) | Phase 3 | Completed | 203 | IV levetiracetam plus clonazepam vs clonazepam alone in prehospital generalised tonic-clonic status epilepticus |
-| [NCT04287361](https://clinicaltrials.gov/study/NCT04287361) | N/A | Completed | 310 | Efficacy of IV clonazepam by dose in children with status epilepticus |
-| [NCT02134366](https://clinicaltrials.gov/study/NCT02134366) | Phase 3 | Terminated | 7 | Clobazam vs lorazepam and/or clonazepam in epilepsia partialis continua; too small to inform efficacy |
-
-No ANZCTR trial identifiers were available in the data compiled for this report.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-**Restless legs syndrome**
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39324694](https://pubmed.ncbi.nlm.nih.gov/39324694/) | 2025 | Guideline | J Clin Sleep Med | AASM clinical practice guideline for RLS and periodic limb movement disorder; does not favour benzodiazepines as first-line |
-| [28319266](https://pubmed.ncbi.nlm.nih.gov/28319266/) | 2017 | Systematic review | Cochrane Database Syst Rev | Benzodiazepines (particularly clonazepam) for RLS |
-| [18925578](https://pubmed.ncbi.nlm.nih.gov/18925578/) | 2008 | Review | Mov Disord | Evidence-based review of RLS treatments by a Movement Disorder Society task force |
-| [6380197](https://pubmed.ncbi.nlm.nih.gov/6380197/) | 1984 | Randomised crossover trial (small) | Acta Neurol Scand | Clonazepam improved sleep quality and leg dysaesthesia vs placebo in 6 patients |
-| [11313161](https://pubmed.ncbi.nlm.nih.gov/11313161/) | 2001 | Placebo-controlled sleep laboratory study | Eur Neuropsychopharmacol | Acute effects of 1 mg clonazepam on sleep and awakening quality in RLS and periodic limb movement disorder |
-
-**Status epilepticus**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [35333156](https://pubmed.ncbi.nlm.nih.gov/35333156/) | 2022 | Systematic review | Health Technol Assess | Evidence synthesis on pre-hospital and emergency treatment of convulsive status epilepticus in adults |
-| [35971024](https://pubmed.ncbi.nlm.nih.gov/35971024/) | 2022 | Review | CNS Drugs | Benzodiazepines in seizures and status epilepticus: routes, pharmacokinetics, efficacy, tolerability |
-| [26109227](https://pubmed.ncbi.nlm.nih.gov/26109227/) | 2015 | Review | Expert Rev Neurother | Clinical application of clonazepam in status epilepticus |
-| [35791584](https://pubmed.ncbi.nlm.nih.gov/35791584/) | 2022 | Randomised double-blind study (60 patients) | Pak J Pharm Sci | Clonazepam compared with diazepam in status epilepticus |
-| [37291410](https://pubmed.ncbi.nlm.nih.gov/37291410/) | 2023 | Clinical study/commentary | CNS Drugs | Correlation between clonazepam loading dose and status epilepticus outcome |
-
-**Trigeminal neuralgia**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [1104361](https://pubmed.ncbi.nlm.nih.gov/1104361/) | 1975 | Clinical study (small, uncontrolled) | Eur Neurol | Clonazepam appeared effective in idiopathic trigeminal neuralgia; marked drowsiness early in treatment |
-| [11803299](https://pubmed.ncbi.nlm.nih.gov/11803299/) | 2002 | Review | Clin J Pain | Pharmacotherapy of trigeminal neuralgia; carbamazepine is the drug of choice |
-
-**Insomnia and sleep disorders**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [2066457](https://pubmed.ncbi.nlm.nih.gov/2066457/) | 1991 | Sleep laboratory study (6 patients) | J Clin Psychopharmacol | Clonazepam 0.5 mg reduced wake time, with rebound insomnia on withdrawal |
-| [37940498](https://pubmed.ncbi.nlm.nih.gov/37940498/) | 2024 | Prospective cohort | Clin Ther | High-dose vs low-dose clonazepam with CBT-i in older adults with insomnia |
-
-No literature or trials were retrieved for trigeminal nerve neoplasm or the autosomal dominant epilepsy with auditory features.
+| [39324694](https://pubmed.ncbi.nlm.nih.gov/39324694/) | 2025 | Guideline | J Clin Sleep Med | AASM clinical practice guideline on treatment of RLS and periodic limb movement disorder in adults and children |
+| [28319266](https://pubmed.ncbi.nlm.nih.gov/28319266/) | 2017 | Systematic review | Cochrane Database Syst Rev | Benzodiazepines, particularly clonazepam, are used for RLS symptoms because they help induce and maintain sleep |
+| [36692194](https://pubmed.ncbi.nlm.nih.gov/36692194/) | 2023 | Systematic review / meta-analysis | J Clin Sleep Med | Drug categories effective in suppressing periodic limb movements in RLS |
+| [18925578](https://pubmed.ncbi.nlm.nih.gov/18925578/) | 2008 | Review | Mov Disord | Movement Disorder Society evidence-based review of RLS treatments |
+| [6380197](https://pubmed.ncbi.nlm.nih.gov/6380197/) | 1984 | Randomised crossover trial (6 patients) | Acta Neurol Scand | Clonazepam significantly improved subjective sleep quality and leg dysaesthesia versus placebo; long-term efficacy needs confirmation |
+| [11313161](https://pubmed.ncbi.nlm.nih.gov/11313161/) | 2001 | Placebo-controlled sleep laboratory study | Eur Neuropsychopharmacol | Acute effects of 1 mg clonazepam on objective and subjective sleep in RLS and periodic limb movement disorder |
+| [20156514](https://pubmed.ncbi.nlm.nih.gov/20156514/) | 2010 | Clinical study | Prog Neuropsychopharmacol Biol Psychiatry | Proposed dose equivalence between clonazepam and pramipexole in RLS |
+| [39787099](https://pubmed.ncbi.nlm.nih.gov/39787099/) | 2025 | Clinical study | Sleep | Differential effects of dopamine agonists and clonazepam on large muscle group movements in RLS |
+| [24363103](https://pubmed.ncbi.nlm.nih.gov/24363103/) | 2014 | Review | Neurotherapeutics | Overview of changing RLS treatment options |
+| [35426627](https://pubmed.ncbi.nlm.nih.gov/35426627/) | 2022 | Review | Am Fam Physician | Diagnosis and management of common adult sleep disorders, including RLS |
 
 ## Australia Market Information
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| ARTG 11520H | Rivotril | Tablet 500 micrograms | Indication text not available in the data compiled for this report |
-
-## Cytotoxicity
-
-Not applicable. Clonazepam is not an antineoplastic drug.
+| ARTG 11520H | Rivotril | Tablet 500 micrograms | Not recorded in the local data |
 
 ## Safety Considerations
 
-The TGA-approved Product Information (PI) warnings and contraindications were not available in the data compiled for this report. Please refer to the PI for complete safety information.
+The contraindication and warning text from the TGA-approved Product Information was not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
-**Contraindications suggested by the knowledge graph** (not label text; to be verified against the PI): liver failure and liver disease, kidney disease, inherited porphyria and porphyria, open-angle and angle-closure glaucoma, obstructive sleep apnoea and sleep apnoea syndrome, congenital central hypoventilation syndrome, respiratory failure, substance-related disorder and substance abuse/dependence, gallbladder disease, anxiety disorder, neurotic disorder and dysthymic disorder.
+**Drug Interactions** (100 interactions recorded; selected examples):
+- **Major:** morphine (including liposomal morphine). Combined central nervous system and respiratory depression is the key concern.
+- **Moderate:** bupropion, aprepitant, omeprazole, cimetidine, clarithromycin, dronabinol, metoclopramide, nabilone, opium, sibutramine, teduglutide.
+- **Minor:** antacids such as magnesium oxide, aluminium hydroxide and calcium carbonate.
 
-**Drug interactions** (100 interactions recorded; selected):
-- **Major:** morphine, liposomal morphine (additive central nervous system and respiratory depression)
-- **Moderate:** bupropion, aprepitant, omeprazole, cimetidine, clarithromycin, dronabinol, nabilone, metoclopramide, opium, sibutramine, teduglutide
-- **Minor:** magnesium oxide, aluminium hydroxide, calcium carbonate, magaldrate, magnesium carbonate, magnesium hydroxide
+**Conditions flagged as problematic for this drug in the data compiled** (not taken from label text): liver failure and liver disease, kidney disease, respiratory failure, sleep apnoea syndromes, angle-closure and open-angle glaucoma, porphyria, and substance-related disorders or dependence. These should be checked against the PI before any use.
 
-**Literature-based concerns:** dependence, tolerance, withdrawal and rebound insomnia, next-day sedation, and case reports of paradoxical effects (mania, sleep-related eating behaviour).
+Clinical literature also notes dependence, tolerance and next-day sedation with benzodiazepines.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** (for the top-ranked prediction, restless legs syndrome; research question). Status epilepticus is separately rated **Proceed with Guardrails**.
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-- For restless legs syndrome, the evidence is limited to small, older studies and reviews, and the current AASM guideline does not favour benzodiazepines first-line. There are no registered trials.
-- Status epilepticus is supported by three Phase 3 trials and a large paediatric dosing study, but it is mechanistically close to the existing antiseizure use. The Australian product is an oral tablet, so any use would need an appropriate formulation and route.
-- Insomnia and sleep disorder predictions are held back because dependence, withdrawal and rebound risks outweigh unproven benefit. The trigeminal nerve neoplasm prediction has no plausible mechanism and likely reflects an association with trigeminal neuralgia.
+Clonazepam already has an Australian registration, and small controlled studies plus a Cochrane review support a modest benefit in restless legs syndrome. Current guidance places benzodiazepines behind other therapies, so any use should be as a second-line or adjunct option under clear safeguards.
 
 **To proceed, the following is needed:**
-- TGA Product Information warnings and contraindications, and the approved indication text for ARTG 11520H (Rivotril)
-- Detailed mechanism of action data
-- For restless legs syndrome: a modern controlled trial against current first-line therapy, with long-term tolerance and dependence data
-- For status epilepticus: confirmation of an intravenous formulation and route available in Australia, plus a guardrail plan covering respiratory depression monitoring, resuscitation capability and loading-dose selection
-- For trigeminal neuralgia: a modern controlled trial as an add-on to carbamazepine or oxcarbazepine
+- Review of the TGA-approved Product Information for warnings and contraindications
+- Larger, modern randomised trials of clonazepam in restless legs syndrome, including long-term efficacy
+- Comparison against current first-line therapies per the 2025 AASM guideline
+- A plan to monitor for dependence, tolerance, sedation and respiratory depression, particularly with opioids
+- Detailed mechanism-of-action data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

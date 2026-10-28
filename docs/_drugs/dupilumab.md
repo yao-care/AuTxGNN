@@ -4,17 +4,17 @@ title: Dupilumab
 parent: Moderate Evidence (L3-L4)
 nav_order: 235
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Dupilumab: predicted new indication Bronchitis (evidence level L3). Approved use: Atopic dermatitis (eczema). The ARTG entry in the data compiled for t…"
 monitor_inn: "Dupilumab"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
+description: "Dupilumab: predicted new indication Bronchitis (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Dupilumab
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Dupilumab: From Atopic Dermatitis to Bronchitis
+## Dupilumab: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **bronchitis**, but the support
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic dermatitis (eczema). The ARTG entry in the data compiled for this report has no indication text; the original indication comes from the TxGNN knowledge graph |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?

@@ -4,17 +4,17 @@ title: Lincomycin
 parent: Model Prediction Only (L5)
 nav_order: 428
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Lincomycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Pneumococcal, staphylococcal and streptococcal infections"
 monitor_inn: "Lincomycin"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "urinary tract infection (disease)"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
+description: "Lincomycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lincomycin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lincomycin: From Bacterial Infections to Hyperamylasemia
+## Lincomycin: Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Lincomycin is a lincosamide antibiotic, originally used to treat pneumococcal, staphylococcal and streptococcal infections.
 The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no clinical trials** and **no relevant publications** currently support this direction.
-The prediction is a graph-based score only and has no identified mechanistic basis.
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No mechanistic basis has been identified.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pneumococcal, staphylococcal and streptococcal infections (the ARTG entry carries no indication text, so this comes from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.14% |
+| TxGNN Prediction Score | 0.9914 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Lincomycin is known to be a lincosamide antibiotic that inhibits bacterial protein synthesis by binding the 50S ribosomal subunit. Its efficacy in Gram-positive bacterial infections is established.
 
-No plausible pathway links this antibacterial action to raised serum amylase. Hyperamylasemia is a laboratory finding that can arise from pancreatic or salivary gland disease or reduced clearance of amylase. It is not an infection that an antibacterial would treat directly. The high TxGNN score (rank 8,929) appears to reflect a pattern in the knowledge graph rather than a biological rationale, and it should be read with caution.
+No plausible pathway links this antibacterial action to raised serum amylase. Hyperamylasemia is a laboratory finding that can arise from pancreatic or salivary gland disease or reduced clearance of amylase. It is not an infection that an antibacterial would treat directly. The high TxGNN score (rank 8,929) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should be read with caution.
 
 Other top-ranked predictions for lincomycin (for example polyclonal hyperviscosity syndrome, congenital analbuminemia and blood group incompatibility) also have no mechanistic link and no supporting evidence.
 
@@ -93,7 +93,7 @@ Please refer to the TGA-approved Product Information (PI) for official warnings 
 The prediction has no clinical trials, no supporting literature and no plausible mechanism, so it is a model output only (Evidence Level L5). Lincomycin also carries a significant gastrointestinal safety signal (antibiotic-associated colitis), which would need to be justified by a clear benefit.
 
 **To proceed, the following is needed:**
-- A credible mechanistic hypothesis linking lincomycin to amylase elevation, or confirmation that the prediction is an artefact of the graph
+- A credible mechanistic hypothesis linking lincomycin to amylase elevation, or confirmation that the score reflects only similarities the TxGNN model (deep learning) learned between related diseases, not biological evidence
 - Detailed mechanism of action data
 - The TGA Product Information, including warnings, contraindications and approved indications, so that safety screening can proceed
 - Any clinical or observational data on lincomycin and serum amylase
@@ -102,8 +102,8 @@ The prediction has no clinical trials, no supporting literature and no plausible
 
 Two lower-ranked predictions have indirect evidence only and are better framed as research questions than as repurposing candidates:
 
-- **Septicemic plague (score 98.11%, L4):** Two in vitro susceptibility surveys (PMIDs [1300928](https://pubmed.ncbi.nlm.nih.gov/1300928/) and [7259143](https://pubmed.ncbi.nlm.nih.gov/7259143/)) tested plague strains against lincomycin. Lincosamides are generally ineffective against Gram-negative bacilli such as *Yersinia pestis*, and guideline-recommended agents already exist. No clinical efficacy data.
-- **Urinary tract infection (score 97.77%, L4):** The literature is mostly veterinary or microbiological. The only randomised trial ([PMID 1433889](https://pubmed.ncbi.nlm.nih.gov/1433889/), 1992, n=95) compared imipenem/cilastatin with aztreonam plus lincomycin in severe infections in patients with malignancy or haematological disease. Lincomycin was only a partner drug, so this does not show monotherapy efficacy. Most urinary tract infections are caused by Gram-negative organisms against which lincomycin is inactive.
+- Lincosamides are generally ineffective against Gram-negative bacilli such as *Yersinia pestis*, and guideline-recommended agents already exist. No clinical efficacy data.
+- The only randomised trial ([PMID 1433889](https://pubmed.ncbi.nlm.nih.gov/1433889/), 1992, n=95) compared imipenem/cilastatin with aztreonam plus lincomycin in severe infections in patients with malignancy or haematological disease. Lincomycin was only a partner drug, so this does not show monotherapy efficacy. Most urinary tract infections are caused by Gram-negative organisms against which lincomycin is inactive.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

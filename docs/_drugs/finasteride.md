@@ -4,17 +4,17 @@ title: Finasteride
 parent: Model Prediction Only (L5)
 nav_order: 298
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Finasteride"
-predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "prostate calculus", "persistent fetal circulation syndrome", "chronic thromboembolic pulmonary hypertension", "migraine with brainstem aura"]
+predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Finasteride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Finasteride: From Benign Prostatic Hyperplasia to Hypertrichosis
+## Finasteride: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,33 +45,29 @@ The TxGNN model predicts it may be effective for **Ambras type hypertrichosis un
 
 | Item | Content |
 |------|------|
-| Original Indication | Benign prostatic hyperplasia (per the knowledge graph; no approved indication text is available for the ARTG entry) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Finasteride is generally known as a 5-alpha-reductase inhibitor that lowers dihydrotestosterone (DHT). Its efficacy in BPH is established, and BPH is a DHT-driven condition.
 
-For Ambras syndrome, the mechanistic link is weak. It is a congenital genetic condition (chromosome 8q22 rearrangements affecting TRPS1 regulation) and is not known to be androgen-driven. The high TxGNN score appears to reflect network proximity in the knowledge graph (finasteride's links to hair-related conditions) rather than a plausible biological rationale.
+For Ambras syndrome, the mechanistic link is weak. It is a congenital genetic condition (chromosome 8q22 rearrangements affecting TRPS1 regulation) and is not known to be androgen-driven. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predictions reviewed (all rated Hold unless noted):**
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Hypertrichosis | 99.99% | L4 | Hypertrichosis is androgen-independent, so the fit is weak. The retrieved papers are narrative reviews and a methods paper, and none shows finasteride treats it. Any signal likely reflects overlap with hirsutism. |
-| 3 | Malformation syndrome with odontal/periodontal component | 99.99% | L5 | No identified mechanistic link |
-| 4 | Syndrome with Dandy-Walker malformation | 99.99% | L5 | No plausible mechanism. Fetal exposure risk. |
-| 5 | Isolated genetic hair shaft abnormality | 99.99% | L5 | Inherited structural defects are not DHT-mediated |
-| 6 | Familial isolated trichomegaly | 99.15% | L5 | Speculative follicle link |
-| 7 | Prostate calculus | 98.60% | L4 | Classed as a Research Question. Any benefit would be a secondary effect of BPH treatment, not a distinct indication. |
-| 8 | Persistent fetal circulation syndrome | 90.49% | L5 | No link. Not indicated in neonates. |
-| 9 | Chronic thromboembolic pulmonary hypertension | 89.87% | L5 | No established mechanism |
-| 10 | Migraine with brainstem aura | 88.84% | L5 | Speculative neurosteroid link only |
+| 2 | Hypertrichosis | 0.9999 | L5 | Hypertrichosis is androgen-independent, so the fit is weak. The retrieved papers are narrative reviews and a methods paper, and none shows finasteride treats it. Any signal likely reflects overlap with hirsutism. |
+| 3 | Malformation syndrome with odontal/periodontal component | 0.9999 | L5 | No identified mechanistic link |
+| 4 | Syndrome with Dandy-Walker malformation | 0.9999 | L5 | No plausible mechanism. Fetal exposure risk. |
+| 5 | Isolated genetic hair shaft abnormality | 0.9999 | L5 | Inherited structural defects are not DHT-mediated |
+| 6 | Familial isolated trichomegaly | 0.9915 | L5 | Speculative follicle link |
 
 ## Clinical Trial Evidence
 
@@ -90,7 +86,6 @@ For the next-ranked prediction, **hypertrichosis**, the following publications w
 | [12942187](https://pubmed.ncbi.nlm.nih.gov/12942187/) | 2003 | Review | Der Hautarzt | Finasteride for male pattern hair loss and laser hair removal for hypertrichosis and hirsutism. |
 | [12444520](https://pubmed.ncbi.nlm.nih.gov/12444520/) | 2002 | Methods | Der Hautarzt | TrichoScan digital hair analysis tool. Not a treatment study. |
 
-For the **prostate calculus** prediction, the literature was mostly BPH and bladder-stone studies (for example, [PMID 12137828](https://pubmed.ncbi.nlm.nih.gov/12137828/), nonsurgical BPH management in men with bladder calculi, and the 2025 JAMA review [PMID 40658396](https://pubmed.ncbi.nlm.nih.gov/40658396/) on lower urinary tract symptoms in men). None shows that finasteride treats prostatic calculi directly.
 
 ## Australia Market Information
 
@@ -118,7 +113,7 @@ The predictions rest on model scores alone. There are no clinical trials, and th
 - TGA Product Information warnings and contraindications, and the approved indication text for the ARTG entry
 - Clinical review of the severity of the flagged drug interactions
 - A targeted literature search for finasteride in hypertrichosis and hirsutism to separate real signal from hirsutism overlap
-- If pursued, consider the prostate calculus prediction only as a research question tied to BPH management, and the hair-related predictions only with clear mechanistic justification
+- If pursued, consider the hair-related predictions only with clear mechanistic justification
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sirolimus
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 677
-evidence_level: L5
-indication_count: 10
+evidence_level: L3
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Sirolimus: predicted new indication Liposarcoma (evidence level L5). Approved use: Renal cell carcinoma and lymphangioleiomyomatosis"
 monitor_inn: "Sirolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
+description: "Sirolimus: predicted new indication Liposarcoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sirolimus: From Renal Cell Carcinoma and Lymphangioleiomyomatosis to Liposarcoma
+## Sirolimus: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Among the 10 predicted indications, the best-supported one is **lymphangiomyoma 
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma and lymphangioleiomyomatosis (from the knowledge graph; the ARTG indication text is blank) |
-| Predicted New Indication | Liposarcoma (rank 1) |
-| TxGNN Prediction Score | 99.89% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Liposarcoma |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L3 for liposarcoma (L1 for the best-supported prediction, lymphangiomyoma) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold for liposarcoma (treat as a research question); Proceed with Guardrails for lymphangiomyoma/LAM |
 
 ## Why is This Prediction Reasonable?
@@ -63,7 +63,7 @@ For liposarcoma, the data report that PI3K/AKT/mTOR pathway activation occurs in
 The related predictions follow a clearer pattern:
 - **LAM / lymphangiomyoma:** TSC1/TSC2 mutations cause mTORC1 hyperactivation, which sirolimus inhibits directly. This is backed by randomised Phase 3 evidence.
 - **PEComa family (benign PEComa, uterine PEComa, lung PEComa):** These tumours commonly carry TSC1/TSC2 loss, giving a plausible rationale. Evidence is mostly case reports and reviews, and for the uterine and lung entries it is largely extrapolated from other sites or from LAM.
-- **Renal cell carcinoma subtypes (TFE3-translocation, unclassified, neuroblastoma-associated) and ovarian myxoid liposarcoma and vulva sarcoma:** These have no direct trials or literature and appear to reflect graph propagation from related nodes.
+- **Ovarian myxoid liposarcoma and vulva sarcoma:** These have no direct trials or literature. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

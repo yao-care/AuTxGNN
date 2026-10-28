@@ -4,17 +4,17 @@ title: Methadone
 parent: Moderate Evidence (L3-L4)
 nav_order: 462
 evidence_level: L4
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Methadone: predicted new indication Tourette syndrome (evidence level L4). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Methadone"
-predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold", "migraine disorder", "fibromyalgia", "myositis fibrosa"]
+predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
 ---
 
 # Methadone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **Tourette syndrome**, but ther
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
 | Predicted New Indication | Tourette syndrome |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -94,7 +94,7 @@ Currently no related clinical trials registered.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge graph signals, not label text):** The TxGNN knowledge graph links methadone to contraindications in:
+- **Contraindications (model-related signals, not label text):** The TxGNN model (deep learning) links methadone to contraindications in:
   - Cardiac: long QT syndrome (including familial), torsades de pointes, sudden cardiac arrest, heart conduction disease
   - Respiratory: respiratory failure, asthma
   - Neurological: epilepsy, intracranial hypertension, pseudotumor cerebri
@@ -125,15 +125,12 @@ The remaining top-10 predictions are weaker or carry no supporting evidence:
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Nephrogenic syndrome of inappropriate antidiuresis | 99.73% | L5 | Prediction only; mechanistically implausible (V2 receptor mutation) |
-| 3 | Trichotillomania | 99.67% | L5 | Prediction only; an agonist would act opposite to the antagonist approach |
-| 4 | Headache disorder | 99.35% | L4 | Literature mostly on opioid use disorder; guidance discourages opioids |
-| 5 | Manic bipolar affective disorder | 99.32% | L3 | A 1982 small crossover study; otherwise comorbidity data |
-| 6 | Trigeminal autonomic cephalalgia | 99.05% | L4 | Literature reports methadone inducing cluster headache (safety signal) |
-| 7 | Common cold | 99.02% | L5 | Likely keyword artifact |
-| 8 | Migraine disorder | 98.64% | L3 | One prospective low-dose methadone cohort; opioids generally discouraged |
-| 9 | Fibromyalgia | 98.62% | L4 | Only indirect evidence |
-| 10 | Myositis fibrosa | 98.58% | L5 | Prediction only |
+| 2 | Nephrogenic syndrome of inappropriate antidiuresis | 0.9973 | L5 | Prediction only; mechanistically implausible (V2 receptor mutation) |
+| 3 | Trichotillomania | 0.9967 | L5 | Prediction only; an agonist would act opposite to the antagonist approach |
+| 4 | Headache disorder | 0.9935 | L4 | Literature mostly on opioid use disorder; guidance discourages opioids |
+| 5 | Manic bipolar affective disorder | 0.9932 | L3 | A 1982 small crossover study; otherwise comorbidity data |
+| 6 | Trigeminal autonomic cephalalgia | 0.9905 | L4 | Literature reports methadone inducing cluster headache (safety signal) |
+| 7 | Common cold | 0.9902 | L5 | Likely keyword artifact |
 
 ---
 

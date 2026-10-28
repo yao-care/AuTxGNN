@@ -4,17 +4,17 @@ title: Docusate
 parent: Model Prediction Only (L5)
 nav_order: 222
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Docusate: predicted new indication Plummer-Vinson syndrome (evidence level L5). Approved use: Constipation . The ARTG entry has no approved indication text recorded"
 monitor_inn: "Docusate"
-predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "bile duct disease", "acute urate nephropathy", "nephrolithiasis", "bile duct neoplasm", "biotin metabolic disease", "obstructive jaundice", "vitamin deficiency disorder", "IRIDA syndrome"]
+predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
+description: "Docusate: predicted new indication Plummer-Vinson syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Docusate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,34 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Docusate: From Constipation and Deficiency Anaemias to Plummer-Vinson Syndrome
+## Docusate: Plummer-Vinson syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Docusate is a surfactant stool softener, listed in the knowledge graph for constipation and several deficiency anaemias (the anaemia links come from the graph, not from its approved use).
+Docusate is a surfactant stool softener used for constipation. Any scores on this page come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 The TxGNN model predicts it may be effective for **Plummer-Vinson syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
-The prediction is most likely an artefact of the knowledge graph.
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Constipation (the graph also lists folic acid deficiency, iron deficiency, hypochromic, microcytic and other deficiency anaemias). The ARTG entry has no approved indication text recorded. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Plummer-Vinson syndrome |
-| TxGNN Prediction Score | 99.18% |
+| TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Docusate is an anionic surfactant stool softener, and its efficacy in constipation is established. There is no known mechanism linking it to Plummer-Vinson syndrome.
 
-Plummer-Vinson syndrome is characterised by iron deficiency anaemia together with oesophageal webs. The high score most likely reflects the closeness of this disease to the iron deficiency anaemia indications in the knowledge graph. Docusate has no known effect on iron absorption or on oesophageal webs, so the link appears to be a graph artefact rather than a pharmacological rationale.
+Plummer-Vinson syndrome is characterised by iron deficiency anaemia together with oesophageal webs. The high score (0.9918) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Docusate has no known effect on iron absorption or on oesophageal webs, so the link has no pharmacological rationale.
 
-Other top-ranked predictions show the same pattern. They include B12- and folate-independent megaloblastic anaemia, vitamin deficiency disorder and IRIDA syndrome, which sit close to the anaemia indications. Others, such as bile duct disease, acute urate nephropathy, nephrolithiasis, bile duct neoplasm and obstructive jaundice, have no supported mechanism. None has any trial or publication support.
+Other top-ranked predictions show the same pattern. They include B12- and folate-independent megaloblastic anaemia (0.9915), which sits close to the anaemia indications. None has any trial or publication support.
 
 ## Clinical Trial Evidence
 
@@ -94,7 +94,7 @@ Warnings and contraindications from the TGA-approved Product Information (PI) we
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no trials, no literature and no plausible mechanism. The high score appears to reflect proximity to the anaemia indications in the knowledge graph rather than a real pharmacological link.
+The prediction rests on a model score alone (L5), with no trials, no literature and no plausible mechanism. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for docusate, and a testable hypothesis for Plummer-Vinson syndrome

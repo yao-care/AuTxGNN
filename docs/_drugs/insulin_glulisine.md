@@ -4,17 +4,17 @@ title: Insulin Glulisine
 parent: Model Prediction Only (L5)
 nav_order: 382
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Insulin Glulisine: predicted new indication Type 1 diabetes mellitus (evidence level L5). Approved use: Diabetes mellitus"
 monitor_inn: "Insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Glulisine: predicted new indication Thiamine-responsive dysfunction syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Glulisine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Glulisine: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## Insulin Glulisine: Thiamine-responsive dysfunction syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Insulin glulisine is a rapid-acting human insulin analogue, originally used to treat diabetes mellitus and diabetic ketoacidosis.
-The TxGNN model predicts it may be effective for **type 1 diabetes mellitus**, with **30 clinical trials** and **20 publications** compiled for this report.
+The TxGNN model predicts it may be effective for **thiamine-responsive dysfunction syndrome**, with **30 clinical trials** and **20 publications** compiled for this report.
 Note that type 1 diabetes is already an established use of this drug, so this is confirmation of an existing indication rather than true repurposing.
 
 ---
@@ -48,12 +48,12 @@ Note that type 1 diabetes is already an established use of this drug, so this is
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus; diabetic ketoacidosis (the Australian licence entry does not list indication text) |
-| Predicted New Indication | Type 1 diabetes mellitus |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L1 (see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Thiamine-responsive dysfunction syndrome |
+| TxGNN Prediction Score | 0.9947 |
+| Evidence Level | L5 (see note below) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note:* The trial records compiled for this report include several Phase 3 studies, such as NCT00115570, NCT00290979, NCT00467376 and NCT04974528, all completed. At least two completed Phase 3 trials supports L1. Most of the Phase 3 studies are open-label and are comparisons against insulin lispro or aspart, or against premixed insulin.

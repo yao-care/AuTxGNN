@@ -6,9 +6,9 @@ nav_order: 371
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). Approved use: Common wart, anogenital HPV infection…"
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
+description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Imiquimod
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Imiquimod: From Actinic Keratosis and HPV-Related Skin Lesions to Pre-malignant Neoplasm
+## Imiquimod: Pre-malignant neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Most of this evidence comes from labelled skin uses or small, underpowered studi
 
 | Item | Content |
 |------|------|
-| Original Indication | Common wart, anogenital HPV infection, superficial multifocal basal cell carcinoma, actinic keratosis and related skin conditions (from the knowledge graph; the ARTG entry has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pre-malignant neoplasm |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L2 (see note below) |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 (see note below) |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note:* Two Phase 3 trials are registered, but one is a small single-arm study in actinic keratosis (already a labelled use) and the other was terminated after 9 participants. Neither is a completed, adequately powered Phase 3 RCT. A strict reading of the rules therefore gives L2 or lower, rather than the L1 listed in the source scoring. The recommendation is kept at Proceed with Guardrails.

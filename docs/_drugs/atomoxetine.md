@@ -50,10 +50,10 @@ but there are currently **no registered clinical trials** and the **14 publicati
 |------|------|
 | Original Indication | Attention deficit hyperactivity disorder (ADHD), including the inattentive type (the ARTG entry in the data compiled for this report has no indication text) |
 | Predicted New Indication | Specific developmental disorder |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

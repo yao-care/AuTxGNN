@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tetrabenazine: From Huntington Disease to Polycystic Kidney Disease 3 (with or without Polycystic Liver Disease)
+## Tetrabenazine: From Huntington Disease to polycystic kidney disease 3 with or without polycystic liver disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Huntington disease and related conditions (Huntington disease-like syndromes, juvenile Huntington disease, McLeod neuroacanthocytosis syndrome). The ARTG entry in the data compiled for this report has no indication text. |
 | Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

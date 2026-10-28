@@ -4,17 +4,17 @@ title: Perhexiline
 parent: Model Prediction Only (L5)
 nav_order: 560
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Perhexiline: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the Australian licence data (historically used as an…"
 monitor_inn: "Perhexiline"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "oral candidiasis", "headache disorder", "leprosy"]
+predicted_indications: ["migraine disorder"]
 ---
 
 # Perhexiline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 |------|------|
 | Original Indication | Not recorded in the Australian licence data (historically used as an antianginal agent) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.04% |
+| TxGNN Prediction Score | 0.9904 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data are not available in the data compiled for this report. From general pharmacological knowledge, perhexiline inhibits carnitine palmitoyltransferase (CPT-1/CPT-2). This shifts myocardial energy metabolism from fatty acids towards glucose, which is why it was used for angina.
 
-A link between this mechanism and migraine is speculative. Possible angles include altered neuronal energy metabolism or calcium-channel-related effects, but the data compiled for this report do not substantiate either. The high TxGNN score reflects a model prediction, not demonstrated biology. The other top predictions (migraine with brainstem aura, headache disorder) largely overlap with migraine and share the same unverified rationale.
+A link between this mechanism and migraine is speculative. Possible angles include altered neuronal energy metabolism or calcium-channel-related effects, but the data compiled for this report do not substantiate either. The high TxGNN score (0.9904) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

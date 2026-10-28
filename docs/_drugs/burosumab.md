@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Burosumab
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 117
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Burosumab: predicted new indication Renal osteodystrophy (evidence level L5). Approved use: Hereditary hypophosphatemic rickets"
-monitor_inn: "Burosumab"
-predicted_indications: ["renal osteodystrophy", "impaired renal function disease", "non-renal secondary hyperparathyroidism", "bone remodeling disease", "hyperparathyroidism, transient neonatal", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "hypocalcemic rickets", "cortical cataract"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Burosumab: known uses and market status in Australia; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Burosumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,48 +32,47 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Burosumab: From Hereditary Hypophosphatemic Rickets to Renal Osteodystrophy
+<!-- known-uses-page -->
+<!-- description: Burosumab: known uses and market status in Australia; currently no new candidate indication -->
+## Burosumab: Known uses and market status in Australia
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Burosumab, so there is currently no new predicted indication. The drug's recorded uses are listed below.
 
-Burosumab is an anti-FGF23 monoclonal antibody, originally used to treat hereditary hypophosphatemic rickets (X-linked hypophosphatemia, XLH).
-The TxGNN model predicts it may be effective for **renal osteodystrophy**, but there are **0 registered clinical trials** and only **2 general publications** (both reviews, neither with burosumab clinical data in this condition). The prediction is currently model-based only.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Hereditary hypophosphatemic rickets (from the knowledge graph; no approved indication text is available for the Australian entry) |
-| Predicted New Indication | Renal osteodystrophy |
-| TxGNN Prediction Score | 96.93% |
-| Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 4 |
+| Evidence level | Not applicable |
+| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, burosumab neutralises FGF23, a hormone that promotes renal phosphate loss and suppresses active vitamin D production. Its efficacy in FGF23-mediated hypophosphatemia (XLH) is established, and FGF23 is also markedly elevated in chronic kidney disease–mineral and bone disorder (renal osteodystrophy), which is the likely basis of the model's prediction.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| familial hypophosphatemia | licence in another country |
+| osteomalacia | licence in another country |
+| x-linked dominant hypophosphatemic rickets | licence in another country |
 
-The link is plausible but not straightforward. In CKD, raised FGF23 is largely a compensatory response to phosphate retention and reduced renal clearance, not the primary driver of disease. Blocking FGF23 could worsen hyperphosphataemia, so the mechanism does not translate directly into expected benefit. The two retrieved publications are a general review of CKD mineral and bone disease and a paediatric bone disorder overview. Neither provides burosumab clinical data in renal osteodystrophy.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [42438722](https://pubmed.ncbi.nlm.nih.gov/42438722/) | 2026 | Review | Kidney Int Rep | Reviews CKD-mineral and bone disorder, including CKD-associated osteoporosis and its fracture risk, with controversies and gaps. No burosumab data. |
-| [37927073](https://pubmed.ncbi.nlm.nih.gov/37927073/) | 2024 | Review | Curr Pediatr Rev | Overview of diagnosis and new treatments for hypophosphatasia and XLH in children. Relevant to the original indication, not to renal osteodystrophy. |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| hereditary hypophosphatemic rickets |
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13136J | Crysvita | Solution for injection 20 mg in 1 mL | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 13136J | Crysvita | Solution for injection 20 mg in 1 mL | Valid |
 
 ## Safety Considerations
 
@@ -87,20 +85,6 @@ Currently no related clinical trials registered.
 
 Please refer to the TGA-approved Product Information (PI) for warnings and formal contraindications, as these were not available in the compiled data.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on model output alone (L5), with no registered trials and no burosumab clinical data in renal osteodystrophy. The mechanism is uncertain and may be unfavourable, because FGF23 blockade could worsen hyperphosphataemia in patients with reduced kidney function. Kidney failure is also flagged as a contraindication-linked condition.
-
-**To proceed, the following is needed:**
-- Review of the TGA-approved PI (warnings, contraindications, approved indication text), which was not available
-- Detailed mechanism of action data and mechanistic analysis of FGF23 blockade in CKD
-- Safety evaluation of phosphate handling, hyperphosphataemia and ectopic calcification risk at low GFR
-- Assessment of interactions with vitamin D analogues, calcimimetics and phosphate products commonly used in CKD
-- Preclinical or early-phase clinical data in a CKD-MBD population
-- Review of the case-level evidence on burosumab in XLH patients with CKD (PMID 38195892), which relates to safe use in XLH rather than treating renal osteodystrophy
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

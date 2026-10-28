@@ -4,17 +4,17 @@ title: Minocycline
 parent: Model Prediction Only (L5)
 nav_order: 480
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bacterial infections including urinary tract infection, bronchitis…"
 monitor_inn: "Minocycline"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "neurotrophic keratopathy", "postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
+description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Minocycline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Minocycline: From Bacterial Infections and Acne to Punctate Epithelial Keratoconjunctivitis
+## Minocycline: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no publications** were found to support this direct
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections including urinary tract infection, bronchitis, acne, gonorrhoea and periodontitis (from the knowledge graph; the ARTG entry carries no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed |
-| Number of ARTG Entries | 1 |
+| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -101,7 +101,7 @@ The prediction for punctate epithelial keratoconjunctivitis is supported only by
 - Systematic search for clinical or preclinical evidence of tetracyclines, including minocycline, in keratoconjunctivitis and related ocular surface conditions
 - Retrieval of the TGA Product Information to complete warnings and contraindications screening
 - Assessment of route feasibility, as only oral tablets are registered and an ophthalmic formulation would be needed
-- Review of the other ranked predictions with some indirect evidence (such as otitis externa) only if a specific clinical question arises
+- Review of the other ranked predictions with some indirect evidence only if a specific clinical question arises
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
