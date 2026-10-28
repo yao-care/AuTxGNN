@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Ferrous fumarate"
 predicted_indications: ["non-syndromic esophageal malformation"]
 description: "Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"

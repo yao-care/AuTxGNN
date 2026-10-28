@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Darolutamide: predicted new indication homozygous familial hypercholesterolemia (evidence level L5). Approved use: Not available in the data compiled for this report (darolutamide is a…"
 monitor_inn: "Darolutamide"
 predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease"]

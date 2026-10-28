@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 734
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Rheumatoid arthritis"
 monitor_inn: "Tocilizumab"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]

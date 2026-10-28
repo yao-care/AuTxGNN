@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
 description: "Docusate: predicted new indication Plummer-Vinson syndrome (evidence level L5). Approved use: Not recorded in the local data"

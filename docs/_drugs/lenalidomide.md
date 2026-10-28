@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 418
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Lenalidomide: predicted new indication Myeloid leukaemia (evidence level L2). Approved use: Plasma cell myeloma, mantle cell lymphoma, B-cell neoplasm…"
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]

@@ -5,7 +5,7 @@ layout: default
 title: Riociguat
 parent: Known Uses Only (No New Predictions)
 nav_order: 636
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Riociguat: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Riociguat"
 predicted_indications: []

@@ -5,7 +5,7 @@ layout: default
 title: Ferric Derisomaltose
 parent: Known Uses Only (No New Predictions)
 nav_order: 293
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Ferric Derisomaltose: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Ferric derisomaltose"
 predicted_indications: []

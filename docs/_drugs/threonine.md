@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 720
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Threonine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not recorded"
 monitor_inn: "threonine"
 predicted_indications: ["gastroparesis (disease)"]

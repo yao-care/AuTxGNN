@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 547
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
 description: "Paroxetine: predicted new indication Top-ranked: Ohdo syndrome and variants . Best-supported: Agoraphobia (Ohdo syndrome and variants) (evidence level L5). Approved use: Not recorded in the local dat"

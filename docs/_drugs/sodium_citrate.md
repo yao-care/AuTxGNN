@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 681
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, dyspepsia…"
 monitor_inn: "Sodium citrate"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]

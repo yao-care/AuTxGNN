@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 1
 monitor_inn: "Propantheline"
 predicted_indications: ["irritable bowel syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Propantheline: predicted new indication Irritable bowel syndrome (evidence level L3). Approved use: Peptic ulcer disease"
 ---
 

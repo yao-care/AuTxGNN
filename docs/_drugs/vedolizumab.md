@@ -5,7 +5,7 @@ layout: default
 title: Vedolizumab
 parent: Known Uses Only (No New Predictions)
 nav_order: 771
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Vedolizumab: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Vedolizumab"
 predicted_indications: []

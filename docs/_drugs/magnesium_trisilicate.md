@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Magnesium trisilicate"
 predicted_indications: ["gastroduodenitis"]
 description: "Magnesium Trisilicate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"

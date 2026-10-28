@@ -3,7 +3,7 @@ layout: default
 title: Ondansetron
 parent: Known Uses Only (No New Predictions)
 nav_order: 529
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ondansetron: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0

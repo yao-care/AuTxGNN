@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 793
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Ziprasidone: predicted new indication Trichotillomania (evidence level L2). Approved use: Manic bipolar affective disorder, bipolar disorder, schizophrenia"
 monitor_inn: "Ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major affective disorder", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]

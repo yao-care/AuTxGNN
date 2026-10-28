@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 28
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Aflibercept: predicted new indication Esotropia (evidence level L5). Approved use: Metastatic colorectal cancer, macular degeneration…"
 monitor_inn: "Aflibercept"
 predicted_indications: ["esotropia"]

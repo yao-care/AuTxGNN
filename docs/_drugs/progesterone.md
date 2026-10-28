@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 606
 evidence_level: L1
 indication_count: 7
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Progesterone"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Progesterone: predicted new indication Amenorrhea (disease) (evidence level L1). Approved use: Not recorded in the local data"

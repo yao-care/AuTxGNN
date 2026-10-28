@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Lincomycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
 description: "Lincomycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"

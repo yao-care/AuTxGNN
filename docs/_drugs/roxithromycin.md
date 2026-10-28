@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 651
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Roxithromycin: predicted new indication Leprosy (evidence level L3). Approved use: Not specified in the Australian registration data compiled for this r…"
 monitor_inn: "Roxithromycin"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Glatiramer: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Not stated in the data compiled for this report (literature describes…"
 monitor_inn: "Glatiramer"
 predicted_indications: ["hemoglobinopathy"]

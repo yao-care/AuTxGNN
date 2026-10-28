@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Perhexiline: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the Australian licence data (historically used as an…"
 monitor_inn: "Perhexiline"
 predicted_indications: ["migraine disorder"]

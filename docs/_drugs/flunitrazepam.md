@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Flunitrazepam"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "anxiety", "anxiety disorder", "alcohol withdrawal delirium", "agoraphobia", "benign paroxysmal torticollis of infancy", "atrophoderma vermiculata"]
 description: "Flunitrazepam: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Interferon beta-1b"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
 description: "Interferon Beta-1B: predicted new indication Hairy cell leukemia (evidence level L5). Approved use: Not recorded in the local data"

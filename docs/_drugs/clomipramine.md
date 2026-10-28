@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Clomipramine: predicted new indication anxiety disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

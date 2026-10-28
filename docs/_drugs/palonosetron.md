@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Palonosetron: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the data compiled for this report (the registered Aus…"
 monitor_inn: "Palonosetron"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]

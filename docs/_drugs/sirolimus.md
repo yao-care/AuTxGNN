@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 677
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Sirolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: predicted new indication Liposarcoma (evidence level L3). Approved use: Not recorded in the local data"

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 721
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Thymol: predicted new indication Interventricular septum aneurysm (evidence level L5). Approved use: Not available"
 monitor_inn: "Thymol"
 predicted_indications: ["interventricular septum aneurysm", "pulmonary valve disease", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "orofacial clefting syndrome", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 7", "Jeune syndrome situs inversus"]

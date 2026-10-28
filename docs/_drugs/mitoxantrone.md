@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Acute myeloid leukaemia and related myeloid leukaemias"
 monitor_inn: "mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]

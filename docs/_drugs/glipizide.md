@@ -5,7 +5,7 @@ layout: default
 title: Glipizide
 parent: Known Uses Only (No New Predictions)
 nav_order: 339
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Glipizide: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Glipizide"
 predicted_indications: []

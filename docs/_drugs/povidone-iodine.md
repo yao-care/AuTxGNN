@@ -5,7 +5,7 @@ layout: default
 title: Povidone-Iodine
 parent: Known Uses Only (No New Predictions)
 nav_order: 592
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Povidone-Iodine: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Povidone-iodine"
 predicted_indications: []

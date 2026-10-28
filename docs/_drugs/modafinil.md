@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 485
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Modafinil"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L1). Approved use: Not recorded in the local data"

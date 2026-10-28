@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 459
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Mercaptopurine: predicted new indication myeloid leukemia (evidence level L5). Approved use: Acute lymphoblastic leukaemia (the approved indication text for the A…"
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]

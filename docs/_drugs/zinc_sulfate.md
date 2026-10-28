@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 792
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Zinc Sulfate: predicted new indication Pharyngitis (evidence level L3). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Zinc sulfate"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
