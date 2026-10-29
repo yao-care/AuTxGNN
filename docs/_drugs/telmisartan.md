@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 703
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "Telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
-description: "Telmisartan: predicted new indication Intracerebral haemorrhage (evidence level L5). Approved use: Not recorded in the local data"
+description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Telmisartan
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Telmisartan: Intracerebral haemorrhage (best-evidenced); top-scored prediction is Prinzmetal angina (Prinzmetal angina)
+## Telmisartan: Prinzmetal angina
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -51,7 +51,7 @@ The top-ranked prediction by TxGNN score, **Prinzmetal angina**, has no supporti
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Intracerebral haemorrhage (best-evidenced); top-scored prediction is Prinzmetal angina (Prinzmetal angina) |
+| Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (intracerebral haemorrhage) |
 | Australia Market Status | Marketed (valid licences: 1 of 1) |

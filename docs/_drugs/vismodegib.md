@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 782
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "Vismodegib"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
-description: "Vismodegib: predicted new indication Top-ranked: medulloblastoma with extensive nodularity . Best-evidenced: skin cancer… (evidence level L5). Approved use: Not recorded in the local data"
+description: "Vismodegib: predicted new indication Medulloblastoma with extensive nodularity (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vismodegib
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Vismodegib: Top-ranked: medulloblastoma with extensive nodularity (rank 1). Best-evidenced: skin cancer (rank 9), assessed below (medulloblastoma with extensive nodularity)
+## Vismodegib: Medulloblastoma with extensive nodularity
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,7 +48,7 @@ The TxGNN model's top-ranked prediction is **medulloblastoma with extensive nodu
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Top-ranked: medulloblastoma with extensive nodularity (rank 1). Best-evidenced: skin cancer (rank 9), assessed below (medulloblastoma with extensive nodularity) |
+| Predicted New Indication | Medulloblastoma with extensive nodularity |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 for medulloblastoma with extensive nodularity; L1 for skin cancer (to be confirmed, see below) |
 | Australia Market Status | Marketed (valid licences: 1 of 1) |

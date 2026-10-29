@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 776
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,7 +51,6 @@ There are **no registered clinical trials** and only **indirect literature** for
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication (top-ranked) | Obsolete bundle branch block |
 | TxGNN Prediction Score (top-ranked) | 0.9962 |
-| Most Evidence-Supported Candidate | Arrhythmogenic right ventricular cardiomyopathy (score 98.40%) |
 | Evidence Level | L5 for the top-ranked prediction; L4 for ARVC |
 | Australia Market Status | Marketed (valid licences: 1 of 1) |
 | Number of ARTG Entries | 1 (valid: 1) |
