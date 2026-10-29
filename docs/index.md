@@ -7,6 +7,50 @@ title: AuTxGNN - Australia Drug Repurposing Predictions
 
 Drug repurposing predictions for Australia using the TxGNN graph neural network.
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+## Australia: what this site covers
+
+This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed in the registration data of [TGA](https://www.tga.gov.au/) (Australia).
+
+Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+
+### Highest evidence levels on this site
+
+| Medicine | Evidence level |
+|---|---|
+| [Bendamustine](/drugs/bendamustine/) | L1 |
+| [Busulfan](/drugs/busulfan/) | L1 |
+| [Hyaluronic Acid](/drugs/hyaluronic-acid/) | L1 |
+| [Lanadelumab](/drugs/lanadelumab/) | L1 |
+| [Rifabutin](/drugs/rifabutin/) | L1 |
+| [Triptorelin](/drugs/triptorelin/) | L1 |
+| [Candesartan](/drugs/candesartan/) | L1 |
+| [Hydrocortisone](/drugs/hydrocortisone/) | L1 |
+| [Hydrocortisone Acetate](/drugs/hydrocortisone-acetate/) | L1 |
+| [Peginterferon Alfa-2A](/drugs/peginterferon-alfa-2a/) | L1 |
+
+### Medicines covered only by this site among the 30 TxGNN sites
+
+| Medicine | Evidence level |
+|---|---|
+| [Perhexiline](/drugs/perhexiline/) | L5 |
+| [Alogliptin](/drugs/alogliptin/) | N/A |
+| [Aluminium](/drugs/aluminium/) | N/A |
+| [Bivalirudin](/drugs/bivalirudin/) | N/A |
+| [Castor Oil](/drugs/castor-oil/) | N/A |
+| [Chloroform](/drugs/chloroform/) | N/A |
+| [Citrulline](/drugs/citrulline/) | N/A |
+| [Dicloxacillin](/drugs/dicloxacillin/) | N/A |
+| [Dornase Alfa](/drugs/dornase-alfa/) | N/A |
+| [Ibandronate](/drugs/ibandronate/) | N/A |
+| [Idarubicin](/drugs/idarubicin/) | N/A |
+| [Lanthanum Carbonate](/drugs/lanthanum-carbonate/) | N/A |
+| [Lercanidipine](/drugs/lercanidipine/) | N/A |
+| [Phenelzine](/drugs/phenelzine/) | N/A |
+| [Pizotifen](/drugs/pizotifen/) | N/A |
+
+<!-- local-home:end -->
+
 ## Overview
 
 AuTxGNN uses graph neural networks to identify potential new therapeutic uses for existing drugs registered with the Australian Therapeutic Goods Administration (TGA).
