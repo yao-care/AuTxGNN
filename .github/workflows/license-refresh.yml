@@ -79,7 +79,7 @@ jobs:
           gh workflow run pages.yml --ref main
 
       - name: Publish updated data to Release
-        if: steps.refresh.outputs.code == '0' && steps.refresh.outputs.records != '0' && inputs.dry_run != 'true'
+        if: (steps.refresh.outputs.code == '0' || steps.refresh.outputs.code == '6') && steps.refresh.outputs.records != '0' && inputs.dry_run != 'true'
         run: |
           SITE=$(cat tools/txgnn/SITE)
           TAG="data-$(date -u +%Y%m%d-%H%M%S)"   # 每次新 tag，舊 tag 一律不覆蓋（pm 2026-10-30 第 3 點）
@@ -106,7 +106,7 @@ jobs:
       - name: Open issue on stop
         if: (steps.refresh.outputs.code != '0' || steps.refresh.outputs.held != '0' || steps.refresh.outputs.unsynced != '0' || steps.refresh.outputs.missing != '0') && inputs.dry_run != 'true'
         run: |
-          title="許可證排程更新需要人看（exit ${{ steps.refresh.outputs.code }}，擋下 ${{ steps.refresh.outputs.held }} 頁，未同步 ${{ steps.refresh.outputs.unsynced }} 格）"
+          title="許可證排程／來源監看需要人看（exit ${{ steps.refresh.outputs.code }}，擋下 ${{ steps.refresh.outputs.held }} 頁，未同步 ${{ steps.refresh.outputs.unsynced }} 格）"
           n=$(gh issue list --label license-refresh --state open --json number -q 'length')
           gh label create license-refresh --color B60205 --description "許可證排程更新需要人看" 2>/dev/null || true
           body="$(cat .license_refresh/summary.md)
@@ -114,4 +114,4 @@ jobs:
           Run：${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           if [ "$n" = "0" ]; then gh issue create --label license-refresh --title "$title" --body "$body"
           else gh issue comment "$(gh issue list --label license-refresh --state open --json number -q '.[0].number')" --body "$body"; fi
-          [ "${{ steps.refresh.outputs.code }}" = "0" ] || exit 1
+          [ "${{ steps.refresh.outputs.code }}" = "0" ] || [ "${{ steps.refresh.outputs.code }}" = "6" ] || exit 1  # 6＝監看來源有更新（不是錯誤）

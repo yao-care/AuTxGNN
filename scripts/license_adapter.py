@@ -16,26 +16,42 @@ import time
 import requests
 
 RAW_FILE = "raw/pbs_item_codes.json"
-URL = "https://data-api.health.gov.au/pbs/api/v3/items"
+
+
+def _get(params, key, path="items", csv_=True):
+    for attempt in range(4):
+        try:
+            r = requests.get(f"https://data-api.health.gov.au/pbs/api/v3/{path}", params=params, timeout=300,
+                             headers={"subscription-key": key, "Accept": "text/csv" if csv_ else "application/json"})
+            r.raise_for_status()
+            return r
+        except Exception:
+            if attempt == 3:
+                raise
+            time.sleep(30 * (attempt + 1))  # 共用限流 20 秒一次
 
 
 def fetch():
     key = os.environ.get("PBS_PUBLIC_KEY")
     if not key:
         raise RuntimeError("沒有設定 PBS_PUBLIC_KEY（GitHub Actions secret）")
-    for attempt in range(4):
-        try:
-            r = requests.get(URL, params={"limit": 100000}, timeout=300, headers={"subscription-key": key, "Accept": "text/csv"})
-            r.raise_for_status()
+    # 只看當期 schedule（API 保留 12 個月，全抓會把近一年已下架的也算在列）
+    sch = _get({"limit": 100}, key, "schedules", csv_=False).json().get("data") or []
+    today = time.strftime("%Y-%m-%d")
+    cur = max((s for s in sch if str(s.get("effective_date", "")) <= today), key=lambda s: str(s.get("effective_date", "")), default=None)
+    if not cur:
+        raise RuntimeError("schedules 端點沒有生效中的 schedule")
+    out, page = [], 1
+    while True:
+        time.sleep(21)
+        rows = list(csv.DictReader(io.StringIO(_get({"schedule_code": cur["schedule_code"], "limit": 100000, "page": page}, key).content.decode("utf-8-sig"))))
+        if rows and "pbs_code" not in rows[0]:
+            raise RuntimeError(f"欄位改變：{list(rows[0])[:8]}")
+        out += [{"pbs_code": (x["pbs_code"] or "").strip(), "schedule": cur["schedule_code"]} for x in rows if x.get("pbs_code")]
+        if len(rows) < 100000:
             break
-        except Exception:
-            if attempt == 3:
-                raise
-            time.sleep(30 * (attempt + 1))  # 共用限流 20 秒一次
-    rows = csv.DictReader(io.StringIO(r.content.decode("utf-8-sig")))
-    if "pbs_code" not in (rows.fieldnames or []):
-        raise RuntimeError(f"欄位改變：{(rows.fieldnames or [])[:8]}")
-    return [{"pbs_code": (x["pbs_code"] or "").strip()} for x in rows if x.get("pbs_code")]
+        page += 1
+    return out
 
 
 def validate(new, old):
