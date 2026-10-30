@@ -25,8 +25,8 @@ Evidence levels range from L1 (stronger clinical evidence) to L5 (model predicti
 
 ## Example drug reports
 
-- Anastrozole (L1): https://autxgnn.yao.care/drugs/anastrozole/
-- Aripiprazole (L1): https://autxgnn.yao.care/drugs/aripiprazole/
+- Anastrozole (L5): https://autxgnn.yao.care/drugs/anastrozole/
+- Aripiprazole (L5): https://autxgnn.yao.care/drugs/aripiprazole/
 - Atorvastatin (L1): https://autxgnn.yao.care/drugs/atorvastatin/
 
 ## Citation and limitations
