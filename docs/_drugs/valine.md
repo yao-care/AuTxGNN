@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 767
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Valine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not stated in the data compiled for this report. The ARTG entries inc…"
 monitor_inn: "valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
@@ -48,7 +48,7 @@ Valine is an essential branched-chain amino acid (BCAA) supplied in Australia as
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold (research question only) |
 

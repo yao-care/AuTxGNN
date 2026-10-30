@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 576
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Pimecrolimus"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
 description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **seborrheic dermatitis**, supp
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L2 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

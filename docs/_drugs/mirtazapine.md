@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ Many of the other top-ranked predictions have no supporting evidence at all, so 
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 (observational and open-label data plus a class-level meta-analysis; no mirtazapine-specific Phase 3 RCT. The data compiled for this report assigned L2, but that is not supported by the trial data.) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

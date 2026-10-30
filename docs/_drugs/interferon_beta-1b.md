@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Interferon beta-1b"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
 description: "Interferon Beta-1B: predicted new indication Hairy cell leukemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -53,7 +53,7 @@ The TxGNN model's top-ranked prediction is **hairy cell leukaemia**, which has n
 | Predicted New Indication | Hairy cell leukemia |
 | TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L5 (rank 2); note that the evidence is mostly for MS, the original indication |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

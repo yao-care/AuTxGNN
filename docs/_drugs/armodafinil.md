@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 60
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Armodafinil: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Narcolepsy (excessive sleepiness)"
 monitor_inn: "Armodafinil"
 predicted_indications: ["insomnia (disease)"]
@@ -52,7 +52,7 @@ The evidence suggests armodafinil is more useful for the daytime sleepiness that
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L2 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 

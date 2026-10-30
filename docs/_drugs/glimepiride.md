@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Glimepiride"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Glimepiride: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be effective for **classic stiff person syndrome
 | Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

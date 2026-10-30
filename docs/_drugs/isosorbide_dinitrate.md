@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Isosorbide dinitrate"
 predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata", "vascular disease", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "visceral calciphylaxis", "arterial thoracic outlet syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Isosorbide Dinitrate: predicted new indication Alopecia (evidence level L5)."
 ---
 
@@ -49,7 +49,7 @@ Isosorbide dinitrate is a nitric oxide (NO) donor and vasodilator, currently mar
 | Predicted New Indication | Alopecia |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Number of approvals | 1 licence record (single-ingredient product) |
 | Recommended Decision | Hold |

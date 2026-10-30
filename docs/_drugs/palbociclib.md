@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 542
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Palbociclib: predicted new indication Hyperthyroidism (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Palbociclib"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
@@ -52,7 +52,7 @@ Among lower-ranked predictions, **myeloid leukaemia** (4 early-phase trials, 20 
 | Predicted New Indication | Hyperthyroidism |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

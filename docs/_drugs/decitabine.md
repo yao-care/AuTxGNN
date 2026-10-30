@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "decitabine"
 predicted_indications: ["refractory cytopenia of childhood"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Decitabine: predicted new indication refractory cytopenia of childhood (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Decitabine is a hypomethylating agent (DNA methyltransferase inhibitor) used in 
 | Predicted New Indication | refractory cytopenia of childhood |
 | TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

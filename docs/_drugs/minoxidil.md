@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Minoxidil"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with HIV infection"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Minoxidil: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertensive disorder, hypertension and alopecia"
 ---
 
@@ -48,7 +48,7 @@ Minoxidil is a vasodilator, recorded in the knowledge graph for hypertensive dis
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (the three cited studies are case reports that include the disease itself, but they do not support a higher level under this report's rules; see below) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

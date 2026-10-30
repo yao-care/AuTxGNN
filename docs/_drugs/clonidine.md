@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clonidine: predicted new indication Tourette syndrome (evidence level L3). Approved use: Hypertension, open-angle glaucoma, ADHD"
 monitor_inn: "Clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
@@ -52,7 +52,7 @@ This report therefore focuses on Tourette syndrome, and the other predicted indi
 | Predicted New Indication | Tourette syndrome (the highest-ranked prediction, faciodigitogenital syndrome, has no supporting evidence, so the best-supported prediction is evaluated instead) |
 | TxGNN Prediction Score | 0.9998 (Tourette syndrome); 0.9999 for the top-ranked faciodigitogenital syndrome |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

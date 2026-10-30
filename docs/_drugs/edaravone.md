@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Edaravone: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Ischaemic stroke and amyotrophic lateral sclerosis"
 monitor_inn: "Edaravone"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis"]
@@ -51,7 +51,7 @@ The TxGNN model (deep learning) predicts it may be effective for **heparin cofac
 | Predicted New Indication | Heparin cofactor 2 deficiency |
 | TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

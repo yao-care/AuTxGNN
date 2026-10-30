@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 209
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Desvenlafaxine"
 predicted_indications: ["obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Desvenlafaxine: predicted new indication Obsessive-compulsive disorder (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ but at present there are **no registered clinical trials** and only **3 publicat
 | Predicted New Indication | Obsessive-compulsive disorder |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

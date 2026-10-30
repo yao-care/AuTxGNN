@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 121
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cabotegravir: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the data compiled for this report . Cabotegravir is kno…"
 monitor_inn: "Cabotegravir"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
@@ -50,7 +50,7 @@ This is a computational prediction only, and the recommended decision is **Hold*
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

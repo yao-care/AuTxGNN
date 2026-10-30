@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 547
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
 description: "Paroxetine: predicted new indication Top-ranked: Ohdo syndrome and variants . Best-supported: Agoraphobia (Ohdo syndrome and variants) (evidence level L5). Approved use: Not recorded in the local dat"
@@ -52,7 +52,7 @@ This report covers the top-ranked prediction in the Quick Overview, Ohdo syndrom
 | Predicted New Indication | Top-ranked: Ohdo syndrome and variants (rank 1). Best-supported: Agoraphobia (Ohdo syndrome and variants) |
 | TxGNN Prediction Score | 0.9911 |
 | Evidence Level | Ohdo syndrome: L5; Agoraphobia: L1 (the grade rests largely on panic disorder evidence) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Ohdo syndrome: Hold; Agoraphobia: Proceed with Guardrails |
 

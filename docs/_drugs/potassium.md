@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 586
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Potassium: predicted new indication Hypertensive disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "potassium"
 predicted_indications: ["hypertensive disorder", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant renovascular hypertension", "malignant hypertensive renal disease"]
@@ -50,7 +50,7 @@ The evidence includes **23 registered clinical trials** and **20 publications**,
 | Predicted New Indication | Hypertensive disorder |
 | TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L1 (see note below) |
-| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 

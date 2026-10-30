@@ -3,7 +3,7 @@ layout: default
 title: Tioguanine
 parent: Known Uses Only (No New Predictions)
 nav_order: 727
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tioguanine: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ All of the TxGNN model's candidates for Tioguanine (score ≥ 0.99) that can be 
 | Item | Content |
 |------|------|
 | Known uses among model candidates | 1 |
-| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Market status in Australia | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 
 ## Known uses among the model's candidates

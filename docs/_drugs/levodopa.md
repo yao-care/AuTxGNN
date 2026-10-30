@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease and related parkinsonian syndromes"
 monitor_inn: "levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -50,7 +50,7 @@ but there are currently **no registered clinical trials** and **no publications*
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 3 of 3) |
+| Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 3 (valid: 3) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 624
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Ranibizumab"
 predicted_indications: ["immature cataract", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: predicted new indication Immature cataract (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ with **no registered clinical trials** but **18 publications** (including post h
 | Predicted New Indication | Immature cataract |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (as graded in the data compiled for this report; see note below) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

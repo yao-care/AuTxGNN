@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 344
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ Amenorrhoea is an expected pharmacodynamic effect of goserelin, so this is bette
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 (as assigned in the data; the single Phase 3 trial is indirect and its status is unknown) |
-| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

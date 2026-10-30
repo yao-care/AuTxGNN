@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Chlorobutanol: predicted new indication erectile dysfunction (disease) (evidence level L5). Approved use: Not stated in the data compiled for this report (the product is an ea…"
 monitor_inn: "chlorobutanol"
 predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **erectile dysfunction**, but *
 | Predicted New Indication | Erectile dysfunction |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

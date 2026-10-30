@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 634
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Rilpivirine: predicted new indication Feline acquired immunodeficiency syndrome . The best-evidenced predic… (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Rilpivirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,7 +50,7 @@ Overall, this prediction is largely an extension of the existing HIV indication 
 | Predicted New Indication | Feline acquired immunodeficiency syndrome (top-ranked by TxGNN; veterinary). The best-evidenced prediction is simian immunodeficiency virus infection (rank 2, an animal model of HIV) |
 | TxGNN Prediction Score | 0.9997 (both feline AIDS and SIV infection) |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

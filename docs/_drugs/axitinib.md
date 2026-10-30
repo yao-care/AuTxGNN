@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "Axitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Axitinib: predicted new indication liposarcoma (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Axitinib is an oral tyrosine kinase inhibitor that blocks VEGF receptors and is 
 | Predicted New Indication | liposarcoma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

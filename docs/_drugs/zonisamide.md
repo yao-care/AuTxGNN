@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 796
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Zonisamide: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not stated in the Australian registration data (zonisamide is general…"
 monitor_inn: "Zonisamide"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobinemia, alpha type", "methemoglobinemia", "Prinzmetal angina", "methemoglobin reductase deficiency", "manic bipolar affective disorder", "fibromyalgia", "conjunctivitis"]
@@ -52,7 +52,7 @@ The prediction is model-based only and should be treated as a hypothesis.
 | Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

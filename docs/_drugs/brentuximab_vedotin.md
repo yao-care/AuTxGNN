@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 105
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Brentuximab Vedotin: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Hodgkin lymphoma (classical Hodgkin lymphoma and related subtypes)"
 monitor_inn: "Brentuximab vedotin"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **follicular lymphoma**, but th
 | Predicted New Indication | Follicular lymphoma |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (treat as a research question) |
 

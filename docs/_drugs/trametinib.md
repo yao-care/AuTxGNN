@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 744
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Trametinib"
 predicted_indications: ["choroideremia"]
 description: "Trametinib: predicted new indication Choroideremia (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ Support for non-cutaneous melanoma is currently **10 registered trials** (mostly
 | Predicted New Indication | Choroideremia |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 (by the supplied scoring), though the trials are not specific to this subtype; a conservative reading is closer to L4 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 

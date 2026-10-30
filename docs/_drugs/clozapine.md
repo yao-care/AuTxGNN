@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not available in the data compiled for this report . Published litera…"
 monitor_inn: "Clozapine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "psychotic disorder", "Malan overgrowth syndrome"]
@@ -48,7 +48,7 @@ Clozapine is an atypical antipsychotic marketed in Australia as an oral tablet (
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 (one completed Phase 2 double-blind trial, n=42). For bipolar disorder more broadly, a completed Phase 3 paediatric trial supports L1 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

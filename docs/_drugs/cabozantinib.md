@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 122
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cabozantinib: predicted new indication Liposarcoma (evidence level L5). Approved use: Renal cell carcinoma (including clear cell) and medullary thyroid car…"
 monitor_inn: "Cabozantinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
@@ -50,7 +50,7 @@ Evidence is still early: **1 clinical trial** (Phase 2, soft tissue sarcoma gene
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 (early-phase clinical data only, none specific to liposarcoma) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

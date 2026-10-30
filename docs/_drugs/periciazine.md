@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 561
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Periciazine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the ARTG data compiled for this report (the approved…"
 monitor_inn: "Periciazine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "ulerythema ophryogenesis"]
@@ -50,7 +50,7 @@ Periciazine (also spelled pericyazine) is a phenothiazine antipsychotic, markete
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

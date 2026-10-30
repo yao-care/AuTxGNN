@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 631
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Rifabutin: predicted new indication HIV infectious disease (evidence level L1). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Rifabutin"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "sclerosing cholangitis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "conjunctivitis", "leprosy", "endocarditis", "pneumocystosis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
@@ -52,7 +52,7 @@ The evidence is best read as support for treating and preventing HIV-associated 
 | Predicted New Indication | HIV infectious disease (best framed as HIV-associated MAC/TB) |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

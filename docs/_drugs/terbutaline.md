@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 709
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Terbutaline"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ The data compiled for this report include **14 clinical trials** and **20 public
 | Predicted New Indication | Obstructive lung disease |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

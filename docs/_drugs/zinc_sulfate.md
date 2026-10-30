@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 792
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Zinc Sulfate: predicted new indication Pharyngitis (evidence level L3). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Zinc sulfate"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
@@ -50,7 +50,7 @@ The evidence is indirect, because it concerns post-surgical and radiation-relate
 | Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 

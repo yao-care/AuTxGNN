@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "Cyclophosphamide"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cyclophosphamide: predicted new indication myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ Cyclophosphamide is an oral and injectable alkylating chemotherapy agent that da
 | Predicted New Indication | myeloid leukemia |
 | TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L2 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

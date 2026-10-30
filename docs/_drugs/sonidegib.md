@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 684
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Sonidegib"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "trichothiodystrophy photosensitive", "cutaneous adenocystic carcinoma", "benign neoplasm of sweat gland", "eccrine carcinoma", "obsolete cataract, microcephaly, failure to thrive, kyphoscoliosis syndrome"]
 description: "Sonidegib: predicted new indication Medulloblastoma with extensive nodularity (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ Most of this evidence relates to basal cell carcinoma (BCC), which overlaps with
 | Predicted New Indication | Medulloblastoma with extensive nodularity |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 by the strict trial-phase definition (one completed randomised Phase 2 trial, no Phase 3 RCT). The data compiled for this report labels it L1 only if regulatory approval is treated as confirmatory evidence |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (restricted to BCC) |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Inclisiran: predicted new indication Potassium deficiency disease (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Inclisiran"
 predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **potassium deficiency disease*
 | Predicted New Indication | Potassium deficiency disease |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

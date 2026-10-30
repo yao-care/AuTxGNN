@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 584
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ponatinib: predicted new indication Gingival fibromatosis (evidence level L5). Approved use: Chronic myelogenous leukaemia, BCR-ABL1 positive"
 monitor_inn: "Ponatinib"
 predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
@@ -52,7 +52,7 @@ This is a model-only prediction (L5), and the remaining nine ranked predictions 
 | Predicted New Indication | Gingival fibromatosis |
 | TxGNN Prediction Score | 0.9904 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

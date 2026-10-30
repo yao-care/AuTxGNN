@@ -3,7 +3,7 @@ layout: default
 title: Azacitidine
 parent: Known Uses Only (No New Predictions)
 nav_order: 76
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Azacitidine: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ The TxGNN deep-learning model produced no candidate with a score of 0.99 or high
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 15 |
-| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Market status in Australia | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 
 ## Known uses recorded for this drug

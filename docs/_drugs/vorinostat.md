@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 785
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Vorinostat"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome"]
 description: "Vorinostat: predicted new indication Primary cutaneous B-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ Support for this is weak: **4 early-phase clinical trials** that are not specifi
 | Predicted New Indication | Primary cutaneous B-cell lymphoma |
 | TxGNN Prediction Score | 0.9921 |
 | Evidence Level | L5 (preclinical and mechanistic data only; no disease-specific clinical studies) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

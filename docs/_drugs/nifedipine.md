@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 501
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Nifedipine: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 6 |
 | Evidence level | Not applicable |
-| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Market status in Australia | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 
 ## Known uses recorded for this drug

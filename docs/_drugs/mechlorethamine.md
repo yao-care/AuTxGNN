@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 451
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Mechlorethamine"
 predicted_indications: ["lymph node cancer", "relapsing-remitting multiple sclerosis", "follicular lymphoma"]
 description: "Mechlorethamine: predicted new indication Lymph node cancer (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ The data compiled for this report show **no registered clinical trials** and **2
 | Predicted New Indication | Lymph node cancer |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

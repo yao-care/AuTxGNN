@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "chlorthalidone"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Chlorthalidone: predicted new indication primary hereditary glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,7 +52,7 @@ There are **no clinical trials and no publications** on this disease in the data
 | Predicted New Indication | primary hereditary glaucoma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

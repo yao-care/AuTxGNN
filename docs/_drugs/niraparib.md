@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 504
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib: predicted new indication Epiglottis neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ The supporting evidence is **3 clinical trials** (1 recruiting Phase 2, 1 termin
 | Predicted New Indication | Epiglottis neoplasm |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (as scored in the data; see note below) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

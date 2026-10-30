@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 410
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lanadelumab: predicted new indication C1 inhibitor deficiency (evidence level L1). Approved use: Hereditary angioedema (including HAE with C1-inhibitor deficiency)"
 monitor_inn: "Lanadelumab"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
@@ -50,7 +50,7 @@ Note that C1 inhibitor deficiency is the underlying cause of the approved HAE in
 | Predicted New Indication | C1 inhibitor deficiency |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

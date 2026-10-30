@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ Migraine currently has **4 registered clinical trials** (3 Phase 3, 1 Phase 2) a
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (migraine disorder), by the compiled assessment. Strict application of the rules would give a lower level, since the Phase 3 trials are active-comparator or pilot designs and outcome data are unverified |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (migraine disorder) |
 

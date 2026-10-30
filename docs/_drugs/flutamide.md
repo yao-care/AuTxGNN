@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Flutamide"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 description: "Flutamide: predicted new indication Fibroma of prostate (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,7 +49,7 @@ The TxGNN model's top-ranked prediction is "fibroma of prostate", with a score o
 | Predicted New Indication | Fibroma of prostate |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (male reproductive organ cancer); L5 for the top-ranked prediction |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (male reproductive organ cancer only); Hold for the top-ranked prediction |
 

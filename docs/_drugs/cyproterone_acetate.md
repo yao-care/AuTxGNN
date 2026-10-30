@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 190
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the Australian registration data compiled for this repo…"
 monitor_inn: "Cyproterone acetate"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but **no
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

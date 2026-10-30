@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 629
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Resorcinol: predicted new indication Acne keloid (evidence level L4). Approved use: Acne, dermatitis, acneiform dermatitis"
 monitor_inn: "Resorcinol"
 predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be useful for **acne keloid** (acne keloidalis),
 | Predicted New Indication | Acne keloid |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

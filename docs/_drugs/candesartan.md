@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 127
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Candesartan: predicted new indication Migraine disorder (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
@@ -50,7 +50,7 @@ with **4 clinical trials** (3 directly relevant) and **20 publications** current
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L1 (with caution: the key trials are Phase 2 or Phase 2/3, not two completed Phase 3 RCTs) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

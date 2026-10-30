@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 219
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Diroximel Fumarate: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not recorded in the data compiled for this report"
 monitor_inn: "Diroximel fumarate"
 predicted_indications: ["diabetic cataract", "diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "tetanic cataract", "mature cataract", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "immature cataract", "craniostenosis cataract"]
@@ -50,7 +50,7 @@ The prediction is therefore model-based only.
 | Predicted New Indication | Diabetic cataract |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

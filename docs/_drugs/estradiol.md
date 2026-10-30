@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 270
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Estradiol: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN model (score ≥ 0.99) produced candidates for Estradiol, but every ca
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Market status in Australia | Marketed (valid licences: 3 of 3) |
+| Market status in Australia | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 3 (valid: 3) |
 
 ## Known uses among the model's candidates

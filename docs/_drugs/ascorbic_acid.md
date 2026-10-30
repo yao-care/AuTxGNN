@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 62
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation . Best-supported candidate: inj… (evidence level L5). Approved use: Ascorbic acid deficiency"
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "perinatal disease", "florid cemento-osseous dysplasia", "disease by subcellular system affected", "vitamin deficiency disorder"]
@@ -51,7 +51,7 @@ The TxGNN model's top-ranked prediction is **non-syndromic esophageal malformati
 | Predicted New Indication | Non-syndromic esophageal malformation (rank 1, no evidence). Best-supported candidate: injury (rank 4) |
 | TxGNN Prediction Score | 0.9996 (rank 1 indication); 0.9960 (injury) |
 | Evidence Level | L5 for the rank 1 indication; L2 for injury |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1 indication). Injury: Research Question. |
 

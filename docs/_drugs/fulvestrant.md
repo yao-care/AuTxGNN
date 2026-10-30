@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 322
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not stated in the Australian registration data (fulvestrant is genera…"
 monitor_inn: "Fulvestrant"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -48,7 +48,7 @@ Fulvestrant is an estrogen receptor antagonist and degrader, marketed in Austral
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 (preclinical only) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

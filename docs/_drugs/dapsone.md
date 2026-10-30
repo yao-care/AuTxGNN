@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 1
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dapsone: predicted new indication pneumocystosis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ Dapsone is a sulfone antibacterial and anti-inflammatory medicine. The TxGNN mod
 | Predicted New Indication | pneumocystosis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

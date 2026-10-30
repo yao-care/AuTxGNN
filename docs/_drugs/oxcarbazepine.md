@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 536
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be effective for **restless legs syndrome**, but
 | Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

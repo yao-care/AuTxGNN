@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 630
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ribociclib: predicted new indication Myeloid leukaemia (evidence level L4). Approved use: HR+/HER2- breast cancer"
 monitor_inn: "Ribociclib"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
@@ -50,7 +50,7 @@ Ribociclib (Kisqali) is an oral CDK4/6 inhibitor used for hormone receptor-posit
 | Predicted New Indication | Myeloid leukaemia |
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

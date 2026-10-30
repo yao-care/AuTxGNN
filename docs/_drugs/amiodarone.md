@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 43
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Ventricular fibrillation (the registered indication text for the Aust…"
 monitor_inn: "Amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
@@ -51,7 +51,7 @@ The table below covers the top-ranked prediction (CPVT) as the report's primary 
 | Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia (rank 1); best-supported candidate: Ventricular tachycardia (rank 3) |
 | TxGNN Prediction Score | 0.9978 (CPVT); 0.9964 (ventricular tachycardia) |
 | Evidence Level | L4 for CPVT; L1 for ventricular tachycardia |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold for CPVT; Proceed with Guardrails for ventricular tachycardia |
 

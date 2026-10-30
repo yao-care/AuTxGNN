@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Apixaban: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Apixaban is an oral direct factor Xa inhibitor (anticoagulant). The TxGNN model 
 | Predicted New Indication | migraine disorder |
 | TxGNN Prediction Score | 0.9902 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

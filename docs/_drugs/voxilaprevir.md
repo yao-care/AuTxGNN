@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 786
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "voxilaprevir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "chronic hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 description: "Voxilaprevir: predicted new indication Hepatitis B virus infection (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **hepatitis B virus infection**
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 (the data compiled for this report assigns L4, but none of the retrieved publications tests voxilaprevir in HBV, so L5 is the more accurate level) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 793
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ziprasidone: predicted new indication Trichotillomania (evidence level L2). Approved use: Manic bipolar affective disorder, bipolar disorder, schizophrenia"
 monitor_inn: "Ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major affective disorder", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
@@ -53,7 +53,7 @@ Note: the top-ranked TxGNN prediction (trichotillomania, score 0.9983) has no su
 | Predicted New Indication | Major affective disorder (rank 3; rank 1 was trichotillomania, with no evidence) |
 | TxGNN Prediction Score | 0.9966 (rank 1 trichotillomania: 0.9983) |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

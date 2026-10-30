@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Lisdexamfetamine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "autosomal dominant cerebellar ataxia", "cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "trichotillomania", "transient tic disorder", "narcolepsy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lisdexamfetamine: predicted new indication Specific developmental disorder (evidence level L5). Approved use: Attention deficit hyperactivity disorder…"
 ---
 
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be useful for **specific developmental disorder*
 | Predicted New Indication | Specific developmental disorder |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

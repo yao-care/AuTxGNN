@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 675
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Simvastatin: predicted new indication brain stem infarction (evidence level L1). Approved use: Hyperlipidaemia, including homozygous familial hypercholesterolaemia…"
 monitor_inn: "Simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,7 +50,7 @@ Note that this is effectively an on-label or near-label use rather than true rep
 | Predicted New Indication | Familial hypercholesterolaemia |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

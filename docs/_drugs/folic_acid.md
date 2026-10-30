@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 314
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L4). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
@@ -50,7 +50,7 @@ The high score most likely reflects network proximity between B-vitamins rather 
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

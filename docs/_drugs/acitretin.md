@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 22
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Acitretin: predicted new indication Acne (disease) (evidence level L3). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Acitretin"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -52,7 +52,7 @@ Evidence is indirect, so this is best treated as a research question.
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

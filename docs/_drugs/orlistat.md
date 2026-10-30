@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 531
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Orlistat"
 predicted_indications: ["hypervitaminosis"]
 description: "Orlistat: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ Orlistat is a gastrointestinal lipase inhibitor, originally used to treat obesit
 | Predicted New Indication | Hypervitaminosis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 (no completed Phase 2/3 RCT in the registered trials, but supported by a published RCT and a meta-analysis; provisional) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (research question) |
 

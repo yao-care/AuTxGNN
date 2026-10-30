@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 794
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Zoledronic Acid: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ All candidates that the TxGNN deep-learning model produced for Zoledronic Acid (
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Market status in Australia | Marketed (valid licences: 1 of 1) |
+| Market status in Australia | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 
 ## Known uses among the model's candidates

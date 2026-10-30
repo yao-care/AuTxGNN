@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 1
 monitor_inn: "Clobetasol"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clobetasol: predicted new indication primary cutaneous T-cell lymphoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Clobetasol is a super-potent topical glucocorticoid. The TxGNN model predicts it
 | Predicted New Indication | primary cutaneous T-cell lymphoma |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

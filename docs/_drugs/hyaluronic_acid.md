@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 351
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Hyaluronic Acid: predicted new indication Dry eye syndrome (evidence level L5). Approved use: Not stated in the data compiled for this report (the marketed product…"
 monitor_inn: "Hyaluronic acid"
 predicted_indications: ["dry eye syndrome", "Sjogren syndrome", "xerophthalmia", "psoriasis", "dermatitis, atopic", "prolapse of lacrimal gland", "parapsoriasis", "pityriasis lichenoides", "severe nonproliferative diabetic retinopathy", "exanthem (disease)"]
@@ -50,7 +50,7 @@ with **9 clinical trials** (including one completed Phase 3 randomised trial) an
 | Predicted New Indication | Dry eye syndrome |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L1 per the scoring in the data; note that only one completed Phase 3 RCT (NCT00599716) is identified, so on the strict criteria (≥2 completed Phase 3 RCTs) this would be closer to L2, supported by meta-analyses |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

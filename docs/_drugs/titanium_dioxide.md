@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 732
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Titanium Dioxide: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "titanium dioxide"
 predicted_indications: ["drug-induced osteoporosis", "diabetic retinopathy", "diabetic cataract", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "tetanic cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "cortical cataract"]
@@ -48,7 +48,7 @@ Titanium dioxide is a UV-blocking agent, registered in Australia as an ingredien
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

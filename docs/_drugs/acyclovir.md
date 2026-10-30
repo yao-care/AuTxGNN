@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 24
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Acyclovir: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Herpes simplex infections, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -52,7 +52,7 @@ This report therefore evaluates the common wart prediction (rank 2) as the main 
 | Predicted New Indication | Common wart (the top-ranked prediction, punctate epithelial keratoconjunctivitis, has no clinical support) |
 | TxGNN Prediction Score | 0.9946 for common wart (0.9967 for punctate epithelial keratoconjunctivitis) |
 | Evidence Level | L5 (common wart) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (as a research question, not for routine use) |
 

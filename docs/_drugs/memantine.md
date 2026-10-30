@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 457
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Memantine: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ Memantine is an oral NMDA receptor antagonist marketed in Australia. The TxGNN m
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 (migraine disorder) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (migraine disorder); Hold for pulmonary hypertension and the other predictions |
 

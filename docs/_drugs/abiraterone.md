@@ -5,7 +5,7 @@ layout: default
 title: Abiraterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 14
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Abiraterone: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Abiraterone"
 predicted_indications: []
@@ -43,7 +43,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Australia Market Status | Marketed (valid licences: 3 of 3) |
+| Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 3 (valid: 3) |
 
 ## Australia Market Information

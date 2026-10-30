@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 514
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Nystatin: predicted new indication Vulvovaginitis (evidence level L3). Approved use: Cutaneous candidiasis, oral candidiasis, candidiasis…"
 monitor_inn: "Nystatin"
 predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
@@ -50,7 +50,7 @@ The data compiled for this report contain **no registered clinical trials** and 
 | Predicted New Indication | Vulvovaginitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

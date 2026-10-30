@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 251
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Enfortumab Vedotin: predicted new indication Leprosy (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "malignant catarrh", "infectious bovine rhinotracheitis"]
@@ -50,7 +50,7 @@ Enfortumab vedotin (Padcev) is a Nectin-4-directed antibody-drug conjugate (ADC)
 | Predicted New Indication | Leprosy (rank 1); most evidence-supported alternative: HER2-positive breast carcinoma (rank 10) |
 | TxGNN Prediction Score | 0.9953 (leprosy) |
 | Evidence Level | L5 (leprosy); L3 (HER2-positive breast carcinoma) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (leprosy); the HER2-positive breast carcinoma question is a research question only |
 

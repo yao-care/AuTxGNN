@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 453
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Mefenamic acid"
 predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
@@ -50,7 +50,7 @@ Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that is markete
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L2 (small, older randomised crossover trials; no Phase 3 data) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 273
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ethanol: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
 monitor_inn: "Ethanol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -50,7 +50,7 @@ Overall this is a model-only signal that the available evidence does not support
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L4 (preclinical and mechanistic literature only, and it points to a pro-migraine effect) |
-| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 1
 monitor_inn: "Propantheline"
 predicted_indications: ["irritable bowel syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Propantheline: predicted new indication Irritable bowel syndrome (evidence level L3). Approved use: Peptic ulcer disease"
 ---
 
@@ -48,7 +48,7 @@ Propantheline is an antimuscarinic medicine whose use in peptic ulcer disease is
 | Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L3 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sapropterin: predicted new indication Disorder of tyrosine metabolism (evidence level L4). Approved use: Phenylketonuria"
 monitor_inn: "Sapropterin"
 predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **disorder of tyrosine metaboli
 | Predicted New Indication | Disorder of tyrosine metabolism |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

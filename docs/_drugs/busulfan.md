@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 118
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Busulfan: predicted new indication Myelodysplastic syndrome (evidence level L1). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Busulfan"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
@@ -50,7 +50,7 @@ The data compiled for this report include **36 clinical trials** and **20 public
 | Predicted New Indication | Myelodysplastic syndrome |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Indacaterol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis . Evidence is asse… (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Indacaterol"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
@@ -52,7 +52,7 @@ That bronchial disease evidence is largely label-adjacent rather than true repur
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis (rank 1, TxGNN's top prediction). Evidence is assessed below for bronchial disease (rank 7), the only prediction with supporting data. |
 | TxGNN Prediction Score | 0.9954 for the rank 1 prediction; 0.9918 for bronchial disease |
 | Evidence Level | L5 for the rank 1 prediction (prediction only); L1 for bronchial disease |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold for the rank 1 prediction; Proceed with Guardrails for bronchial disease (asthma) |
 

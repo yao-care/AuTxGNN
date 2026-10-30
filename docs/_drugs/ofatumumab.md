@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "Ofatumumab"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ofatumumab: predicted new indication Follicular lymphoma (evidence level L2). Approved use: Acute lymphoblastic leukaemia and Richter syndrome"
 ---
 
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **follicular lymphoma**, with *
 | Predicted New Indication | Follicular lymphoma |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L2 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

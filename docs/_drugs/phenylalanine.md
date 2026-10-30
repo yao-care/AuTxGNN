@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 570
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the data compiled for this report"
 monitor_inn: "phenylalanine"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 2 of 2) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 628
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Reboxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
 description: "Reboxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ Among the other predictions, **agoraphobia** and **dysthymic disorder** have the
 | Predicted New Indication | Benign paroxysmal torticollis of infancy (top-ranked); see the note below on other candidates (benign paroxysmal torticollis of infancy) |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

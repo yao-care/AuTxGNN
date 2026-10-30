@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 574
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pibrentasvir: predicted new indication Hepatitis B virus infection (evidence level L4). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "pibrentasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -52,7 +52,7 @@ The high score appears to reflect network proximity among viral hepatitis condit
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

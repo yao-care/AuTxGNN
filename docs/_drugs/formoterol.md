@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
 description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ The TxGNN model's top-ranked prediction is **respiratory malformation**, but thi
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 191
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cytarabine: predicted new indication Small cell lung carcinoma (evidence level L4). Approved use: Acute lymphoblastic leukaemia and acute myeloid leukaemia (including…"
 monitor_inn: "Cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **small cell lung carcinoma**, 
 | Predicted New Indication | Small cell lung carcinoma |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

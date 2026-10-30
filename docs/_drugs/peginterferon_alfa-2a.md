@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 552
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Peginterferon alfa-2a"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
 description: "Peginterferon Alfa-2A: predicted new indication Hepatitis E virus infection (evidence level L1). Approved use: Not recorded in the local data"
@@ -49,7 +49,7 @@ The TxGNN model (deep learning) predicts it may be effective for **hepatitis E v
 | Predicted New Indication | Hepatitis E virus infection |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L1 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

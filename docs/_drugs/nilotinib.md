@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 502
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L4). Approved use: Chronic myelogenous leukaemia, BCR-ABL1 positive"
 monitor_inn: "Nilotinib"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
@@ -50,7 +50,7 @@ but currently only **1 review article** supports this direction, with **no regis
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

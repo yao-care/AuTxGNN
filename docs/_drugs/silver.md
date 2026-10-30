@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 674
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Silver: predicted new indication Bone Paget disease (evidence level L5). Approved use: Not recorded in the data compiled for this report (marketed as silver…"
 monitor_inn: "silver"
 predicted_indications: ["bone Paget disease"]
@@ -50,7 +50,7 @@ Silver is the active antimicrobial component in several silver-impregnated wound
 | Predicted New Indication | Bone Paget disease |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 4 of 4) |
+| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 4 (valid: 4) |
 | Recommended Decision | Hold |
 

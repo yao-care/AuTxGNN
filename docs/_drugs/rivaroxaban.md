@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 644
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the Australian licence data (the approved indication…"
 monitor_inn: "Rivaroxaban"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -48,7 +48,7 @@ Rivaroxaban is an oral direct Factor Xa inhibitor used as an anticoagulant. The 
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

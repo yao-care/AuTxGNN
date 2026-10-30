@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 245
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Eltrombopag"
 predicted_indications: ["HIV infectious disease"]
 description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L1). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ The likely benefit is supportive, correcting HIV-related low platelet counts, an
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 as scored, but I would treat this as weaker (see below) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

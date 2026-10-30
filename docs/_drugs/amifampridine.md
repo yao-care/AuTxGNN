@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Amifampridine"
 predicted_indications: ["glaucoma", "acute intermittent porphyria"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Amifampridine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Amifampridine is a potassium channel blocker that is marketed in Australia as an
 | Predicted New Indication | Glaucoma (glaucoma) |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

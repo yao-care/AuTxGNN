@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 558
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Peppermint Oil: predicted new indication Top-ranked: leprosy . Best-evidenced: cardiovascular disease (evidence level L5). Approved use: Not specified in the data compiled for this report"
 monitor_inn: "Peppermint oil"
 predicted_indications: ["leprosy", "pneumocystosis", "coronary artery disease", "myocardial ischemia", "echinococcus granulosus infectious disease", "polyp of vocal cord", "uterine polyp", "polyp of middle ear", "cardiovascular disease", "polyp of frontal sinus"]
@@ -52,7 +52,7 @@ The top-ranked prediction (leprosy) has no supporting evidence. This report ther
 | Predicted New Indication | Top-ranked: leprosy (no evidence). Best-evidenced: cardiovascular disease |
 | TxGNN Prediction Score | Leprosy 0.9980; cardiovascular disease 0.9913 |
 | Evidence Level | Leprosy: L5. Cardiovascular disease: L3 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (leprosy and other L5 predictions). Cardiovascular disease: Hold pending trial results, treated as a research question |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Isoleucine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated in the registration data"
 monitor_inn: "isoleucine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **gastroparesis**, but there ar
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 5 of 5) |
+| Australia Market Status | Listed on the PBS Schedule (5 of 5 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 5 (valid: 5) |
 | Recommended Decision | Hold |
 

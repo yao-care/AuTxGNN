@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lactic Acid: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not available"
 monitor_inn: "Lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
@@ -52,7 +52,7 @@ Across all ten top-ranked predictions, none has a clinical trial or a publicatio
 | Predicted New Indication | Atypical coarctation of aorta |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

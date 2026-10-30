@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 625
 evidence_level: L1
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L1). Approved use: Not recorded in the local data"
@@ -49,7 +49,7 @@ For this top-ranked prediction there are **no registered clinical trials** and *
 | Predicted New Indication | Peptic ulcer perforation |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L1 (as assigned in the data compiled for this report; see note under Clinical Trial Evidence) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Avatrombopag"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "monomelic amyotrophy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Avatrombopag: predicted new indication Macrothrombocytopenia with mitral valve insufficiency (marcothrombocytopenia with mitral valve insufficiency) (evidence level L5). Approved use: Not recorded in…"
 ---
 
@@ -48,7 +48,7 @@ Avatrombopag is an oral thrombopoietin (TPO) receptor agonist. The TxGNN model p
 | Predicted New Indication | Macrothrombocytopenia with mitral valve insufficiency (marcothrombocytopenia with mitral valve insufficiency) |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

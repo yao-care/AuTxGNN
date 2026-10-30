@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 459
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mercaptopurine: predicted new indication myeloid leukemia (evidence level L5). Approved use: Acute lymphoblastic leukaemia (the approved indication text for the A…"
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
@@ -50,7 +50,7 @@ with **15 registered clinical trials** and **20 publications** retrieved. Howeve
 | Predicted New Indication | Myeloid leukaemia |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L2 (as scored for this prediction; see note below) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 

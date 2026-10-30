@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Selinexor: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Selinexor"
 predicted_indications: ["drug-induced osteoporosis"]
@@ -50,7 +50,7 @@ The evidence is model prediction only, so the recommendation is **Hold**.
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 0.9922 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

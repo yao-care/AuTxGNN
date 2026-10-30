@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 685
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Sorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
 description: "Sorafenib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ but direct evidence is thin: **1 clinical trial** (a Phase 2 study in mixed soft
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L2 (as assigned in the compiled data; see the note below) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

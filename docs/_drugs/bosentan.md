@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 8
 monitor_inn: "Bosentan"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bosentan: predicted new indication rheumatoid arthritis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Bosentan is a dual endothelin receptor antagonist (ET-A/ET-B) used in pulmonary 
 | Predicted New Indication | rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

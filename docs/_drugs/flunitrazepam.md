@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Flunitrazepam"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "anxiety", "anxiety disorder", "alcohol withdrawal delirium", "agoraphobia", "benign paroxysmal torticollis of infancy", "atrophoderma vermiculata"]
 description: "Flunitrazepam: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ The TxGNN model's top prediction is **insomnia**, which is an existing use rathe
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (insomnia and alcohol withdrawal delirium); L5 for most other predictions |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold (for repurposing); Proceed with Guardrails only for a focused research question in alcohol withdrawal delirium |
 

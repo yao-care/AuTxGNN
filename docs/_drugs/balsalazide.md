@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 80
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Balsalazide: predicted new indication Gout (evidence level L5). Approved use: Ulcerative colitis, inflammatory bowel disease"
 monitor_inn: "Balsalazide"
 predicted_indications: ["gout", "congenital hypotrichosis with juvenile macular dystrophy", "ankylosing spondylitis", "rheumatoid arthritis", "rheumatoid vasculitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis", "anus disease"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **gout**, but **no clinical tri
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

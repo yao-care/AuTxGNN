@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Maraviroc: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not stated in the data compiled for this report (the registered entry…"
 monitor_inn: "Maraviroc"
 predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous B-cell lymphoma", "candidiasis", "complement component 4a deficiency", "cytomegalovirus infection", "HER2 positive breast carcinoma"]
@@ -48,7 +48,7 @@ Maraviroc is an oral CCR5 antagonist marketed in Australia as a 150 mg tablet. T
 | Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

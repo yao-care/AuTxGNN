@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 20
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Acetic Acid: predicted new indication Post-bacterial disorder (evidence level L5). Approved use: Otitis externa"
 monitor_inn: "Acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
@@ -50,7 +50,7 @@ The prediction rests on model output alone.
 | Predicted New Indication | Post-bacterial disorder |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 3 of 3) |
+| Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 3 (valid: 3) |
 | Recommended Decision | Hold |
 

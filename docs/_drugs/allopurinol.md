@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 34
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Allopurinol: predicted new indication Hepatic porphyria (evidence level L4). Approved use: Gout, hyperuricaemia, acute urate nephropathy"
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatoportal sclerosis", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "idiopathic eosinophilic myositis"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **hepatic porphyria**, but ther
 | Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

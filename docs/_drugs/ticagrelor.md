@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 724
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). Approved use: Acute coronary syndrome…"
 monitor_inn: "Ticagrelor"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
@@ -52,7 +52,7 @@ Support so far is early: **2 clinical trials** (one large Phase 3 trial still in
 | Predicted New Indication | Intracranial arteriosclerosis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 (observational cohort data only; the one Phase 3 trial is still ongoing) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 677
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Sirolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: predicted new indication Liposarcoma (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ Among the 10 predicted indications, the best-supported one is **lymphangiomyoma 
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L3 for liposarcoma (L1 for the best-supported prediction, lymphangiomyoma) |
-| Australia Market Status | Marketed (valid licences: 1 of 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of ARTG Entries | 1 (valid: 1) |
 | Recommended Decision | Hold for liposarcoma (treat as a research question); Proceed with Guardrails for lymphangiomyoma/LAM |
 
