@@ -53,7 +53,7 @@ Migraine currently has **4 registered clinical trials** (3 Phase 3, 1 Phase 2) a
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (migraine disorder), by the compiled assessment. Strict application of the rules would give a lower level, since the Phase 3 trials are active-comparator or pilot designs and outcome data are unverified |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (migraine disorder) |
 
 **Candidate overview.** Ten indications were predicted. Only migraine disorder has substantial clinical evidence.

@@ -52,7 +52,7 @@ The TxGNN model predicts it may be useful for **plasma cell myeloma**, and the e
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L2 (as assigned in the compiled data; supporting trials are mostly Phase 1/2 conditioning studies, not myeloma-specific Phase 3 RCTs) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

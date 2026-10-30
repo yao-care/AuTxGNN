@@ -53,7 +53,7 @@ Support for non-cutaneous melanoma is currently **10 registered trials** (mostly
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 (by the supplied scoring), though the trials are not specific to this subtype; a conservative reading is closer to L4 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 **Note on indication choice:** The highest-scoring prediction, choroideremia (0.9931), has no clinical trials or literature, and choroideremia is an inherited retinal degeneration rather than a MAPK-driven disease. This report therefore focuses on non-cutaneous melanoma (rank 2), the first prediction with trial data. Other melanoma subtype predictions are summarised briefly below.

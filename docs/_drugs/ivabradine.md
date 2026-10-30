@@ -54,7 +54,7 @@ Note: the top-ranked prediction (hypertrichosis, score 0.9979) has no trials, no
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 for hypertrichosis; L3 for pulmonary hypertension |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold for hypertrichosis; Hold (research question) for pulmonary hypertension |
 
 ---

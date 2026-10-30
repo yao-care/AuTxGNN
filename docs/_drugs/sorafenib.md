@@ -53,7 +53,7 @@ but direct evidence is thin: **1 clinical trial** (a Phase 2 study in mixed soft
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L2 (as assigned in the compiled data; see the note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* the L2 rating rests on a single completed Phase 2 trial in mixed soft tissue sarcomas. That trial cannot isolate liposarcoma-specific efficacy, so the rating should be read cautiously. The wording "Hold" reflects the weak, indirect evidence; the compiled data labels it as a "Research Question".

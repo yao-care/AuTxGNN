@@ -53,7 +53,7 @@ Direct evidence is limited to one completed Phase 2 RCT. Much of the literature 
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L2 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 ---

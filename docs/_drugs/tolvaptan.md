@@ -51,7 +51,7 @@ This prediction is best seen as a subtype-level extension of an already establis
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (as assigned in the data compiled; see note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* L1 normally requires at least two completed Phase 3 RCTs. The two pivotal tolvaptan RCTs (TEMPO 3:4 and REPRISE) were conducted in ADPKD generally, not specifically in this subtype, and no trial records were available in the data compiled. The level therefore applies to ADPKD, not to the predicted subtype specifically.

@@ -52,7 +52,7 @@ The TxGNN model's top-ranked prediction is **non-syndromic esophageal malformati
 | TxGNN Prediction Score | 0.9996 (rank 1 indication); 0.9960 (injury) |
 | Evidence Level | L5 for the rank 1 indication; L2 for injury |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1 indication). Injury: Research Question. |
 
 The rank 1 prediction has no mechanistic link, trials or literature, so the sections below focus mainly on the best-supported candidate (injury). The other candidates are summarised in a short table afterwards.

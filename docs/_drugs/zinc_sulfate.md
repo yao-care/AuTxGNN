@@ -51,7 +51,7 @@ The evidence is indirect, because it concerns post-surgical and radiation-relate
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L3 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 *Note: Pharyngitis is the top-ranked prediction by TxGNN score.*

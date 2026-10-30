@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **upper aerodigestive tract neo
 | TxGNN Prediction Score | 0.9978 (upper aerodigestive tract neoplasm); 0.9931 (head and neck cancer) |
 | Evidence Level | L5 (upper aerodigestive tract neoplasm); L1 (head and neck cancer, as scored in the data compiled for this report) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (head and neck cancer); Hold for other predictions |
 
 Note: the L1 grade for head and neck cancer is generous. It rests on a completed phase Ib study and older phase II studies, not on completed phase 3 RCTs as the standard L1 definition requires. I would treat it as closer to L2-L3 in practice.

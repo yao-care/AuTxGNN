@@ -53,7 +53,7 @@ The supporting evidence is mostly mechanistic (Src inhibition), and the sarcoma-
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L2 (as scored in the data compiled; see note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note: The data compiled for this report scored this prediction L2, but the only Phase 2 trial is a sarcoma-wide study with no Ewing-specific results supplied. A conservative reading is L4 (preclinical and mechanistic support). I have therefore recommended Hold.*

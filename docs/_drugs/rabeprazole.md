@@ -46,8 +46,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Rabeprazo
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| Market status in Australia | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 1 (valid: 1) |
 
 ## Known uses among the model's candidates
 

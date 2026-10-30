@@ -51,7 +51,7 @@ Memantine is an oral NMDA receptor antagonist marketed in Australia. The TxGNN m
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 (migraine disorder) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (migraine disorder); Hold for pulmonary hypertension and the other predictions |
 
 **Overview of all 10 predictions**

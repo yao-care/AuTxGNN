@@ -53,7 +53,7 @@ The best-supported predictions are **liposarcoma** (6 clinical trials, 20 public
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 (rank 1). Rank 3 (unclassified RCC): L3. Rank 4 (liposarcoma): L2. Rank 10 (DFSP): L2 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1). Proceed with Guardrails for liposarcoma; Research Question for unclassified RCC, fibroblastic neoplasm and DFSP |
 
 ### Summary of the Top Ten Predictions

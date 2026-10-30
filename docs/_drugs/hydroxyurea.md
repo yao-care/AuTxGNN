@@ -55,7 +55,7 @@ The prediction is therefore best viewed as a hypothesis.
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 (preclinical and mechanistic studies only) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

@@ -51,7 +51,7 @@ with **1 clinical trial** (a Phase 3 RCT in which hydrocortisone was the low-pot
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L1 (see note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* The pipeline assigned L1, but the single Phase 3 trial used hydrocortisone as the comparator rather than the test drug, and it favoured clobetasol. Strictly, this is closer to L2–L3 for hydrocortisone's own efficacy, and the decision below reflects that.

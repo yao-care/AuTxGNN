@@ -49,7 +49,7 @@ Cobicistat is a CYP3A inhibitor used as a pharmacokinetic booster in HIV-1 antir
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 4 (valid: 4) |
+| Number of PBS Items | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

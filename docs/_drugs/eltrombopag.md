@@ -53,7 +53,7 @@ The likely benefit is supportive, correcting HIV-related low platelet counts, an
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 as scored, but I would treat this as weaker (see below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on evidence level:** The L1 rating rests on one terminated Phase 3 trial in chronic liver disease. It does not clearly enrol people with HIV, and L1 normally requires at least two completed Phase 3 RCTs. The HIV-specific evidence is really case-level (L3 at best).

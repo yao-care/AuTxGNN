@@ -51,7 +51,7 @@ The supporting evidence is **3 clinical trials** (1 recruiting Phase 2, 1 termin
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (as scored in the data; see note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Note on evidence level:** The only Phase 2/3 trial (NCT04159155) was terminated after 11 participants, and the remaining evidence consists of a recruiting Phase 2 trial without results, preclinical work and a case report. On a strict reading of the evidence rules, no completed RCT supports this indication, so the evidence is weak and closer to L4 than to a true L2.

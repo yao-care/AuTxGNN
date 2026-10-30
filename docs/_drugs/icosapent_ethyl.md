@@ -51,7 +51,7 @@ with **1 registered clinical trial (withdrawn, no participants)** and **19 publi
 | TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 (REDUCE-IT-derived evidence; see note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 Note: the top-ranked prediction (hemoglobinopathy) has model prediction only (L5, Hold). The L1 grading rests on the REDUCE-IT trial as reported in the supplied literature. The trial registry record itself was not among the supplied data.

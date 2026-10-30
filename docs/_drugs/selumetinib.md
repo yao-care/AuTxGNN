@@ -51,7 +51,7 @@ The best-supported predicted indication in the data compiled for this report is 
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 Of the ten predicted indications, only two have any supporting evidence: peripheral nerve schwannoma (L3, 0.9995) and rhabdoid tumour (L4, 0.9996). The other eight are model predictions only (L5).

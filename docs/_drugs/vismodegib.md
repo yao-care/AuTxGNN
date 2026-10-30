@@ -52,7 +52,7 @@ The TxGNN model's top-ranked prediction is **medulloblastoma with extensive nodu
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 for medulloblastoma with extensive nodularity; L1 for skin cancer (to be confirmed, see below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Medulloblastoma with extensive nodularity: Hold. Skin cancer: Proceed with Guardrails (labelled settings only) |
 
 ---

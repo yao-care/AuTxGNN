@@ -53,7 +53,7 @@ Support is limited to **0 clinical trials** and **9 publications**, all preclini
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
 | Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 2 (valid: 2) |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

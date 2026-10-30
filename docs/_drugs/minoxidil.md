@@ -49,7 +49,7 @@ Minoxidil is a vasodilator, recorded in the knowledge graph for hypertensive dis
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (the three cited studies are case reports that include the disease itself, but they do not support a higher level under this report's rules; see below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Note on evidence level:** The three publications do directly study hypotrichosis simplex of the scalp. However, all are single-patient or small case reports, mostly using minoxidil combined with other treatments (growth factors, botanical extracts, platelet-rich plasma). The data compiled for this report graded the evidence L4. Because the studies are case-level and confounded by co-treatment, I have taken the conservative view that they establish no more than a hypothesis. If the team accepts case reports as meeting the "directly studies the disease" threshold, the level would be L4.

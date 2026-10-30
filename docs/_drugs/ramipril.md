@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension owing 
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 (preclinical evidence only) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Note on the choice of lead indication:** The top-ranked prediction (pulmonary hypertension with unclear multifactorial mechanism) has the same score but no trials or literature (L5). The second-ranked prediction, pulmonary hypertension owing to lung disease and/or hypoxia, is the highest-ranked one with any supporting evidence, so this report focuses on it. Other predictions are summarised at the end.

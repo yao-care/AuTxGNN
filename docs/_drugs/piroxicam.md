@@ -52,7 +52,7 @@ The TxGNN model's top-ranked prediction is **colobomatous microphthalmia-rhizome
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (rank 1); L3 (JIA) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1); Proceed with Guardrails limited to JIA as a research question |
 
 ---

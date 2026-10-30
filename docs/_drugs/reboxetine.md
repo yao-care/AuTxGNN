@@ -53,7 +53,7 @@ Among the other predictions, **agoraphobia** and **dysthymic disorder** have the
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Note on the other candidates:** The top-ranked prediction has no supporting evidence. Two lower-ranked predictions are better supported and are worth a closer look:

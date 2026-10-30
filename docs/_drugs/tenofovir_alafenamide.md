@@ -54,7 +54,7 @@ SIV infection is an animal research model rather than a human disease, so this p
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 |
 | Australia Market Status | Listed on the PBS Schedule (5 of 5 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 5 (valid: 5) |
+| Number of PBS Items | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

@@ -50,7 +50,7 @@ Note that the highest-scoring prediction (rank 1) has no supporting evidence, so
 | TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 The rank 1 prediction, perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis (score 0.9915), has no trials or literature and no plausible mechanism, so it is not pursued. Ranks 3 to 10 are likewise unsupported (L4 to L5).

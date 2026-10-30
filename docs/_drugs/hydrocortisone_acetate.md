@@ -51,7 +51,7 @@ with **1 clinical trial** (in which hydrocortisone was the comparator) and **2 o
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L1 per the compiled data; however, the only trial is a single Phase 3 RCT with hydrocortisone as the comparator, so a more conservative reading is L2 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

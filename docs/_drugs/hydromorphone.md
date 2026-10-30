@@ -51,7 +51,7 @@ This prediction is best read as a symptom-relief (pain) association, not as evid
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 (indirect evidence only; see note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note: The evidence level of L4 reflects the assessment compiled for this indication. The trials found do not test hydromorphone for pharyngitis, so in practice the evidence is close to prediction-only.*

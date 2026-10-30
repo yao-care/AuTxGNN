@@ -51,7 +51,7 @@ Among the 10 predicted indications, the best-supported one is **lymphangiomyoma 
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L3 for liposarcoma (L1 for the best-supported prediction, lymphangiomyoma) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold for liposarcoma (treat as a research question); Proceed with Guardrails for lymphangiomyoma/LAM |
 
 ## Why is This Prediction Reasonable?

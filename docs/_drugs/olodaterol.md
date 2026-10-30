@@ -53,7 +53,7 @@ The prediction is best read as reflecting how closely bronchitis is related to C
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 2 (valid: 2) |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

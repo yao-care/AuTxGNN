@@ -53,7 +53,7 @@ This is largely a historical indication, so the evidence is limited in current r
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Note on prediction ranking:** The rank 1 prediction, Ureaplasma urethritis (score 0.9993), is not recommended for evaluation. Ureaplasma lacks a cell wall, so beta-lactams are not expected to work. Gonococcal urethritis has the same score and the only meaningful clinical literature, so it is presented as the lead candidate.

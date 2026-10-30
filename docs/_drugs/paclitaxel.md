@@ -51,7 +51,7 @@ with **40 registered clinical trials** and **20 publications** compiled for this
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 (based on the supplied data; see note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on evidence level:** The supplied trial list contains mostly Phase 1/2 studies, although several completed Phase 3 trials with paclitaxel-containing regimens are listed (for example NCT00667251, NCT00006459, NCT00513292, NCT00431080, NCT00075270). In most of these, paclitaxel is a backbone rather than the variable being tested, so L2 reflects the supplied data rather than the full real-world evidence base.

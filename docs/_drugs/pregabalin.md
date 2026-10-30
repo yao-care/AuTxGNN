@@ -50,7 +50,7 @@ The TxGNN model's top-ranked prediction is **tendinitis**, but it has **no regis
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 for tendinitis (L1 for osteoarthritis and headache disorder; L2 for migraine disorder) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold for tendinitis; Proceed with Guardrails is worth considering for osteoarthritis pain |
 
 ## Why is This Prediction Reasonable?

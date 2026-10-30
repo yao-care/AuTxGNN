@@ -44,7 +44,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 |------|------|
 | Original Indication | Not recorded in the local data |
 | Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 3 (valid: 3) |
+| Number of PBS Items | 3 (valid: 3) |
 
 ## Australia Market Information
 

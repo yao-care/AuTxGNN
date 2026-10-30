@@ -53,7 +53,7 @@ Orlistat is a gastrointestinal lipase inhibitor, originally used to treat obesit
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 (no completed Phase 2/3 RCT in the registered trials, but supported by a published RCT and a meta-analysis; provisional) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (research question) |
 
 ---

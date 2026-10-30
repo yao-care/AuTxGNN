@@ -51,7 +51,7 @@ This is an animal-model finding that largely mirrors the existing HIV indication
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (7 of 7 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 7 (valid: 7) |
+| Number of PBS Items | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 *Note: The first-ranked prediction, feline immunodeficiency virus (FIV) infection, is a veterinary indication with a single supporting paper, so this report focuses on the second-ranked prediction, SIV infection, which has the stronger evidence base. A third prediction (a rare neurodevelopmental disorder) has no mechanistic link and no evidence, and is not assessed further.*

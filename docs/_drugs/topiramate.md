@@ -53,7 +53,7 @@ That prediction is currently supported by **0 registered clinical trials** and *
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 (trigeminal neuralgia) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (trigeminal neuralgia) |
 
 **Note on the ranking:** The highest-scoring prediction, trigeminal nerve neoplasm, has no trials or literature and no plausible antineoplastic mechanism, so it is rated L5 and Hold. Most other top predictions are rare reflex epilepsies (visual, startle, orgasm-induced, eating, audiogenic, thinking, micturition-induced and reading seizures), which fall within topiramate's existing antiseizure spectrum. Their evidence is indirect (L4/L5), so none is recommended for progression beyond a research question or Hold.

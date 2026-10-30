@@ -53,7 +53,7 @@ Of the other predictions, papillary conjunctivitis and vernal conjunctivitis hav
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Other predictions reviewed (top 10):** The top four predictions share the same score (0.9974) and have no supporting evidence. Papillary conjunctivitis (0.9972) and vernal conjunctivitis (0.9958) are the only predictions with trial or literature material, and both are rated L4 ("Research Question").

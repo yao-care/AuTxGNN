@@ -53,7 +53,7 @@ Note that type 1 diabetes is already an established use of this drug, so this is
 | TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 (see note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note:* The trial records compiled for this report include several Phase 3 studies, such as NCT00115570, NCT00290979, NCT00467376 and NCT04974528, all completed. At least two completed Phase 3 trials supports L1. Most of the Phase 3 studies are open-label and are comparisons against insulin lispro or aspart, or against premixed insulin.

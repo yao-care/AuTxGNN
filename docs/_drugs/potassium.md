@@ -51,7 +51,7 @@ The evidence includes **23 registered clinical trials** and **20 publications**,
 | TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L1 (see note below) |
 | Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 2 (valid: 2) |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* L1 is the level assigned in the compiled data. It rests on the Phase 3 and meta-analytic evidence for potassium intake. Most of the listed Phase 3 trials test other drugs (such as losartan potassium), so the directly relevant evidence is weaker than the label suggests.

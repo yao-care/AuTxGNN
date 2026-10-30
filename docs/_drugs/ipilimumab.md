@@ -49,7 +49,7 @@ Ipilimumab is a CTLA-4 checkpoint-blocking antibody, originally used to treat me
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 as assigned by the automated scoring; a manual reading suggests L2 (see below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on the top-ranked prediction:** The highest-scoring prediction is choroideremia (0.9906). It has no supporting trials or literature, and no plausible link to CTLA-4 blockade. It is a monogenic retinal degeneration, and immune activation could be harmful. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.

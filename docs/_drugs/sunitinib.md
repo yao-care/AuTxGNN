@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **liposarcoma**, with **2 compl
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L2 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only; see Conclusion) |
 
 ## Why is This Prediction Reasonable?

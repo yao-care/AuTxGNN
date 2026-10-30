@@ -51,7 +51,7 @@ Overall this is a model-only signal that the available evidence does not support
 | TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L4 (preclinical and mechanistic literature only, and it points to a pro-migraine effect) |
 | Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 2 (valid: 2) |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

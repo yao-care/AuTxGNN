@@ -51,7 +51,7 @@ with **no registered clinical trials** but **18 publications** (including post h
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (as graded in the data compiled for this report; see note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* No clinical trials were supplied for this indication. The L1 grade rests on literature titles, namely post hoc analyses of the RIDE/RISE Phase 3 RCTs and the PAVILION randomised trial. Abstracts and full texts were not reviewed, so the grade should be treated as provisional.

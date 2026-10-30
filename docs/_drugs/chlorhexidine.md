@@ -46,8 +46,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Chlorhexidin
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 1 |
 | Evidence level | Not applicable |
-| Market status in Australia | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 2 (valid: 2) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 
 ## Known uses recorded for this drug
 

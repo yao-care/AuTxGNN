@@ -53,7 +53,7 @@ The strongest evidence in the data compiled for this report is for a lower-ranke
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L4 (for the top-ranked prediction; small cell lung carcinoma reaches L1) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (primary pulmonary lymphoma); Proceed with Guardrails as a research question for small cell lung carcinoma |
 
 ---

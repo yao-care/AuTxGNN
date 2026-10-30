@@ -53,7 +53,7 @@ with **no registered clinical trials** specific to this subtype but **20 publica
 | TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L5 (based on Phase 3 RCTs in broader migraine; subtype-specific evidence is limited) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on other predictions:** The model ranked several coagulation-related conditions highest by score (heparin cofactor 2 deficiency 0.9950, antithrombin deficiency type 2 0.9941, factor 5 excess with spontaneous thrombosis 0.9941). None has any supporting trial or publication, and none has a plausible link to CGRP blockade. These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They are rated **Hold**.

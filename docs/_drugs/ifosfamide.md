@@ -51,7 +51,7 @@ Of the 10 predicted indications, rhabdomyosarcoma has the strongest evidence bas
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 (as assigned in the data compiled for this report; strictly, only Phase 1/2 trials, none randomised and completed with efficacy results) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?

@@ -51,7 +51,7 @@ with **2 directly relevant clinical trials** (one Phase 3 and one Phase 4, both 
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 (as scored in the data compiled; see note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Strictly applying the grading rules, the seborrheic dermatitis evidence comprises one completed Phase 3 trial and one completed Phase 4 study, with no results summarised in the data. That is closer to L2 than to L1 (which needs at least two completed Phase 3 RCTs). The L1 grade comes from the scoring in the data compiled and should be confirmed.

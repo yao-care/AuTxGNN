@@ -53,7 +53,7 @@ but the data compiled for this report include **no registered clinical trials** 
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (indirect and mechanistic support only; no trials) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

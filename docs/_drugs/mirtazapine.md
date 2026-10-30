@@ -53,7 +53,7 @@ Many of the other top-ranked predictions have no supporting evidence at all, so 
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 (observational and open-label data plus a class-level meta-analysis; no mirtazapine-specific Phase 3 RCT. The data compiled for this report assigned L2, but that is not supported by the trial data.) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on the top-ranked predictions:** The highest-scoring predictions (Ohdo syndrome and variants, 0.9942; blepharophimosis-intellectual disability syndrome, Ohdo type, 0.9911; benign paroxysmal torticollis of infancy, 0.9911) have no trials or publications and no identifiable mechanistic link. They are Level L5 and should be put on **Hold**.

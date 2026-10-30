@@ -51,7 +51,7 @@ Note that this is effectively an on-label or near-label use rather than true rep
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note: the L1 rating comes from the data compiled for this report. Strictly, the completed Phase 3 trials are mostly combination or background-therapy studies (see below), so the direct evidence for simvastatin alone is weaker than L1 suggests.*

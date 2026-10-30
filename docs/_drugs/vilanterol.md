@@ -53,7 +53,7 @@ The data compiled for this report include **28 clinical trials** and **20 public
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 3 (valid: 3) |
+| Number of PBS Items | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

@@ -52,7 +52,7 @@ The TxGNN model's top prediction is **insomnia**, which is an existing use rathe
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (insomnia and alcohol withdrawal delirium); L5 for most other predictions |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (for repurposing); Proceed with Guardrails only for a focused research question in alcohol withdrawal delirium |
 
 ---

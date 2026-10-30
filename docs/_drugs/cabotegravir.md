@@ -51,7 +51,7 @@ This is a computational prediction only, and the recommended decision is **Hold*
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 2 (valid: 2) |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -52,7 +52,7 @@ The table below covers the top-ranked prediction (CPVT) as the report's primary 
 | TxGNN Prediction Score | 0.9978 (CPVT); 0.9964 (ventricular tachycardia) |
 | Evidence Level | L4 for CPVT; L1 for ventricular tachycardia |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold for CPVT; Proceed with Guardrails for ventricular tachycardia |
 
 ## Why is This Prediction Reasonable?

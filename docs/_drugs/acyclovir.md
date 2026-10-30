@@ -53,7 +53,7 @@ This report therefore evaluates the common wart prediction (rank 2) as the main 
 | TxGNN Prediction Score | 0.9946 for common wart (0.9967 for punctate epithelial keratoconjunctivitis) |
 | Evidence Level | L5 (common wart) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (as a research question, not for routine use) |
 
 ---

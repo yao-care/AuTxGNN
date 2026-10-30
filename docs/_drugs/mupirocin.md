@@ -54,7 +54,7 @@ The TxGNN model predicts it may be useful for **Pleural Empyema**, with **no reg
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

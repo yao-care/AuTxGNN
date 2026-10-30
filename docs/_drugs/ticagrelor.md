@@ -53,7 +53,7 @@ Support so far is early: **2 clinical trials** (one large Phase 3 trial still in
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 (observational cohort data only; the one Phase 3 trial is still ongoing) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

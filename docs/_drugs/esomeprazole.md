@@ -54,7 +54,7 @@ Note: the strongest evidence in the data compiled for this report relates to **d
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 2 (valid: 2) |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

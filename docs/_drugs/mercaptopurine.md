@@ -51,7 +51,7 @@ with **15 registered clinical trials** and **20 publications** retrieved. Howeve
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L2 (as scored for this prediction; see note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 **Note on the evidence level and decision:** The Phase 3 trials listed for myeloid leukaemia are multi-agent protocols, and mercaptopurine's contribution cannot be isolated from the available information. I have therefore treated this as a research question rather than a candidate ready to proceed.

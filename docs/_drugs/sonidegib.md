@@ -53,7 +53,7 @@ Most of this evidence relates to basal cell carcinoma (BCC), which overlaps with
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 by the strict trial-phase definition (one completed randomised Phase 2 trial, no Phase 3 RCT). The data compiled for this report labels it L1 only if regulatory approval is treated as confirmatory evidence |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (restricted to BCC) |
 
 ---

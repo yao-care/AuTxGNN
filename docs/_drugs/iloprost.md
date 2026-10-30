@@ -49,7 +49,7 @@ Iloprost is a stable prostacyclin analogue, originally used to treat pulmonary a
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 (hypotrichosis simplex of the scalp); L3 (PAH-CHD) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (top-ranked prediction); Proceed with Guardrails as a research question for PAH-CHD |
 
 **Note on the top-ranked prediction:** No clinical trials or literature support hypotrichosis simplex of the scalp. The direction of effect is also uncertain, because prostaglandin F2α analogues promote hair growth whereas PGD2 inhibits it. The report therefore focuses on the best-supported prediction, PAH-CHD, and summarises the other candidates below.

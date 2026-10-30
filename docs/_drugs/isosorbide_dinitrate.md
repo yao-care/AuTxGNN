@@ -50,7 +50,7 @@ Isosorbide dinitrate is a nitric oxide (NO) donor and vasodilator, currently mar
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (model prediction only) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Number of approvals | 1 licence record (single-ingredient product) |
 | Recommended Decision | Hold |
 

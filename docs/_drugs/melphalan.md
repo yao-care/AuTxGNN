@@ -51,7 +51,7 @@ with **7 clinical trials** (most of them small, early-phase or mixed-population 
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 (see note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* The compiled data assign L2, based on one completed Phase 2 trial (NCT00936936, n=64). That trial tests a multi-drug high-dose regimen, and the data compiled for this report do not confirm how much melphalan contributes. It is a single-arm-style investigational study, not a randomised controlled trial, so the evidence is weaker than L2 would normally imply.

@@ -53,7 +53,7 @@ That bronchial disease evidence is largely label-adjacent rather than true repur
 | TxGNN Prediction Score | 0.9954 for the rank 1 prediction; 0.9918 for bronchial disease |
 | Evidence Level | L5 for the rank 1 prediction (prediction only); L1 for bronchial disease |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold for the rank 1 prediction; Proceed with Guardrails for bronchial disease (asthma) |
 
 ---

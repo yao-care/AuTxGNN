@@ -51,7 +51,7 @@ Enfortumab vedotin (Padcev) is a Nectin-4-directed antibody-drug conjugate (ADC)
 | TxGNN Prediction Score | 0.9953 (leprosy) |
 | Evidence Level | L5 (leprosy); L3 (HER2-positive breast carcinoma) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (leprosy); the HER2-positive breast carcinoma question is a research question only |
 
 ---

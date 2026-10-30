@@ -51,7 +51,7 @@ with **4 clinical trials** (3 directly relevant) and **20 publications** current
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L1 (with caution: the key trials are Phase 2 or Phase 2/3, not two completed Phase 3 RCTs) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

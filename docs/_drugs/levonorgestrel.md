@@ -49,7 +49,7 @@ Levonorgestrel is a progestin that is widely used in contraception. The TxGNN mo
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

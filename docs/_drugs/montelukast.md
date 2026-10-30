@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **bronchitis** (including bronc
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L1 (one completed Phase 3 RCT for bronchiolitis; a strict reading of the L1 rule, >=2 Phase 3 RCTs, is not met for bronchitis itself, so L2 is arguably more accurate) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

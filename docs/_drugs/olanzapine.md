@@ -53,7 +53,7 @@ The top-ranked prediction has no supporting evidence, so the table shows it alon
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 (rank 1) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1) |
 
 **Summary of the top 10 predictions**

@@ -53,7 +53,7 @@ Note that this is largely a label-aligned use in other jurisdictions rather than
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L1 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on the other top-10 predictions:** Apart from precocious puberty, none has meaningful clinical support. Hypertrichosis (rank 1) is supported only by a case report of ciclosporin-induced hypertrichosis in a patient who was taking triptorelin, which does not show a treatment effect. Familial male-limited precocious puberty has case-level reports only, and the more appropriate therapies act downstream of the GnRH axis. Aromatase excess syndrome has no clinical evidence (a research question only). The remaining predictions are model artefacts with no plausible mechanism (Hold).

@@ -53,7 +53,7 @@ This is largely an established, standard-of-care use rather than a true new indi
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 per the data compiled for this report (see note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The L1 grading comes from the data compiled for this report, which includes one completed Phase 3 trial (NCT00004284). Under the strict rule (at least two completed Phase 3 RCTs) the level would be lower, and most other trials are small, non-phased or surrogate-endpoint studies. Treat L1 as a generous grading.

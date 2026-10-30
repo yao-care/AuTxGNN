@@ -51,7 +51,7 @@ Most of this evidence comes from labelled skin uses or small, underpowered studi
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (see note below) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of ARTG Entries | 1 (valid: 1) |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note:* Two Phase 3 trials are registered, but one is a small single-arm study in actinic keratosis (already a labelled use) and the other was terminated after 9 participants. Neither is a completed, adequately powered Phase 3 RCT. A strict reading of the rules therefore gives L2 or lower, rather than the L1 listed in the source scoring. The recommendation is kept at Proceed with Guardrails.
