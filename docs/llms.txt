@@ -14,6 +14,7 @@
 - AuTxGNN - Australia Drug Repurposing Predictions: https://autxgnn.yao.care/
 - All Drugs: https://autxgnn.yao.care/drugs/
 - High Evidence (L1-L2): https://autxgnn.yao.care/evidence-high/
+- Australian Drugs with Trial Evidence for a New Use: https://autxgnn.yao.care/clinical-trial-evidence/
 - Moderate Evidence (L3-L4): https://autxgnn.yao.care/evidence-medium/
 - Model Prediction Only (L5): https://autxgnn.yao.care/evidence-low/
 - Methodology: https://autxgnn.yao.care/methodology/
