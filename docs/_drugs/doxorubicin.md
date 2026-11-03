@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 230
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Doxorubicin: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma…"
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
@@ -149,6 +149,7 @@ Several large completed Phase 3 randomised trials and multiple RCTs use doxorubi
 | 8 | Parameningeal embryonal rhabdomyosarcoma | L5 | Hold |
 | 9 | Rhabdomyosarcoma | L1 | Proceed with Guardrails (many trials enrol mixed soft tissue sarcoma populations) |
 | 10 | Ganglioneuroblastoma | L4 | Hold |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

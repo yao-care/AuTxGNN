@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 796
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Zonisamide: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not stated in the Australian registration data (zonisamide is general…"
 monitor_inn: "Zonisamide"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobinemia, alpha type", "methemoglobinemia", "Prinzmetal angina", "methemoglobin reductase deficiency", "manic bipolar affective disorder", "fibromyalgia", "conjunctivitis"]
@@ -124,6 +124,7 @@ Other predictions were also reviewed, but none is stronger than L4 evidence:
 | Fibromyalgia | 0.9920 | L5 | One Phase 4 trial ([NCT00259636](https://clinicaltrials.gov/study/NCT00259636)) was withdrawn with 0 enrolled. |
 | Trichotillomania, Prinzmetal angina, conjunctivitis | 99.16–0.9978 | L5 | Prediction only. |
 | Methemoglobinemia (three entries) | 0.9953–0.9964 | L5 | No credible mechanism. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Zonisamide is a sulfonamide, so safety concerns outweigh any benefit signal. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

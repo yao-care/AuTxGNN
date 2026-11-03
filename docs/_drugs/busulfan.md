@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 118
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Busulfan: predicted new indication Myelodysplastic syndrome (evidence level L1). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Busulfan"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
@@ -152,6 +152,7 @@ Busulfan-based conditioning for MDS is supported by completed Phase 2 and Phase 
 | Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | L5 | Hold | No evidence or plausible mechanism |
 | Seborrhoeic keratosis | L5 | Hold | No evidence; a systemic myelotoxic agent is not justified for a benign lesion |
 | Simian immunodeficiency virus infection | L5 | Hold | No evidence in the compiled data |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

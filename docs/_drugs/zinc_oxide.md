@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 791
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "Zinc oxide"
 predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis"]
 description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -126,6 +126,7 @@ Nine further predictions were reviewed. Most have no supporting evidence and a w
 | 3 | Anal polyp | 0.9931 | L5 | No evidence. No known mechanism against polyp pathology. |
 | 4 | Papillary conjunctivitis | 0.9914 | L5 | No evidence. Ocular use raises unresolved safety and formulation concerns. |
 | 5 | Postinfectious vasculitis | 0.9902 | L5 | No evidence. No established mechanism against immune-mediated vasculitis. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 756
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection, infectious otitis media, pneumocystosis…"
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -116,6 +116,7 @@ The prediction has no trials or literature behind it (L5). The proposed indicati
 
 | Rank | Predicted Indication | Score | Evidence Level | Decision | Note |
 |---|---|---|---|---|---|
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

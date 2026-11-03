@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "Insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 description: "Insulin Aspart: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -130,6 +130,7 @@ The remaining predictions have little or no supporting evidence and are not reco
 | Thiamine-responsive dysfunction syndrome | L5 | Hold | Thiamine is the primary treatment |
 | Classic stiff person syndrome, focal stiff limb syndrome | L5 | Hold | Reflects autoimmune comorbidity with T1D, not a treatment rationale |
 | Drug-induced localised lipodystrophy, centrifugal lipodystrophy | L5 | Hold | Localised lipodystrophy is an adverse effect of injected insulin, so this is a safety concern rather than an opportunity |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

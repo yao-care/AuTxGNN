@@ -3,7 +3,7 @@ layout: default
 title: Temazepam
 parent: Known Uses Only (No New Predictions)
 nav_order: 704
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Temazepam: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Temazepam, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. In Australia, Temazepam is listed as "Marketed (valid licences: 1 of 1)".
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | Known uses among model candidates | 0 |
@@ -50,16 +51,19 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Temazepam
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | none |

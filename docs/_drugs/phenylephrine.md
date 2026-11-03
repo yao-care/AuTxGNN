@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 571
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -130,6 +130,7 @@ The predicted indication overlaps heavily with existing rhinitis and nasopharyng
 | Predicted Indication | TxGNN Score | Evidence Level | Decision |
 |------|------|------|------|
 | Trigeminal autonomic cephalalgia | 0.9930 | L4 | Hold (literature uses phenylephrine only as a diagnostic pupillometry probe, not as a treatment; no therapeutic evidence) |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

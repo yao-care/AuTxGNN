@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Felodipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Felodipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
@@ -114,6 +114,7 @@ Other predictions with some evidence were considered. They may be better researc
 | Prinzmetal angina | L3 | Small clinical studies (for example PMIDs [8013514](https://pubmed.ncbi.nlm.nih.gov/8013514/) and [1746458](https://pubmed.ncbi.nlm.nih.gov/1746458/)) showed activity against provoked ischaemia and comparability with nifedipine. Calcium channel blockers are already standard therapy, so the incremental novelty is limited. |
 | Cerebrovascular disorder | L1 | The FEVER trial ([16269957](https://pubmed.ncbi.nlm.nih.gov/16269957/)) showed fewer cardiovascular events including stroke, but the benefit is attributable to blood pressure lowering in hypertension, not a distinct cerebrovascular effect. |
 | Chronic pulmonary heart disease | L3 | Small 1980s haemodynamic studies in severe COPD ([2838319](https://pubmed.ncbi.nlm.nih.gov/2838319/)) showed reduced pulmonary and systemic vascular resistance, with no outcome data. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 733
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -117,6 +117,7 @@ The prediction score is very high, but it is based on the model alone. There are
 | 7 | Infective urethral stricture | 0.9978 | L5 | One 1976 comparison with gentamicin in complicated urinary tract infection, which does not address stricture. |
 | 10 | Epidemic keratoconjunctivitis | 0.9938 | L4 | Mainly adenoviral. Tobramycin has no antiviral activity and the literature is weak. |
 | 2, 4, 6, 8, 9 | Non-human animal disease, postinfectious vasculitis, post-infectious syndrome, Chagas cardiomyopathy, infection-related haemolytic uraemic syndrome | 99.77–0.9983 | L5 | No trials or literature and no plausible mechanism. Aminoglycoside nephrotoxicity makes haemolytic uraemic syndrome particularly unfavourable. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

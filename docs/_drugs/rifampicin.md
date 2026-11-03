@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 632
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -121,6 +121,7 @@ Support for conjunctivitis rests on a high model score, in vitro susceptibility 
 | 3 | Acne (disease) | 0.9974 | L4 | Evidence mostly concerns hidradenitis suppurativa (clindamycin + rifampicin), not acne vulgaris | Hold |
 | 5 | HIV infectious disease | 0.9959 | L4 | Phase 2/3 trials are TB/HIV co-infection and interaction studies, not anti-HIV efficacy | Research Question |
 | 7 | Rheumatoid arthritis | 0.9945 | L3 | Small 1980s-90s studies with limited, inconsistent benefit; one Phase 1 PK trial | Research Question |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

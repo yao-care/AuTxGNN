@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not available in the data compiled for this report . Published litera…"
 monitor_inn: "Clozapine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "psychotic disorder", "Malan overgrowth syndrome"]
@@ -128,6 +128,7 @@ A completed Phase 2 double-blind trial in treatment-resistant mania, a completed
 | Trichotillomania | 0.9990 | L5 | Hold |
 | ADHD (and inattentive type) | 0.9931 / 0.9921 | L5 | Hold |
 | Malan overgrowth syndrome | 0.9902 | L5 | Hold (likely a network artefact) |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 768
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "Valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -113,6 +113,7 @@ For context, the other predictions had weaker or less direct support:
 | Braddock syndrome | 0.9996 | L5 | Prediction only |
 | Chronic pulmonary heart disease | 0.9958 | L3 | Indirect heart failure data on sacubitril/valsartan; the one registered trial ([NCT02966665](https://clinicaltrials.gov/study/NCT02966665), Phase 1, 420 participants, recruiting) is an exercise and vascular function study in hypertension, not a valsartan test |
 | Prinzmetal angina | 0.9945 | L5 | Single paper is not relevant |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

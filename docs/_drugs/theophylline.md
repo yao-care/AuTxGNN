@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Theophylline"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Asthma, bronchitis, pulmonary emphysema and related lung disease"
 ---
 
@@ -116,6 +116,7 @@ The high TxGNN score is not supported by any registered trial or any publication
 | 4 | Tracheal disease | 0.9949 | L3 | Preclinical tracheal relaxation studies and a veterinary retrospective study in dogs (PMID 31565900); no human trial |
 | 5 | Pharyngitis | 0.9946 | L4 as supplied | No retrieved study directly addresses theophylline in pharyngitis, so by the evidence ceiling rule this should be treated as L5 |
 | 6 | Acute laryngopharyngitis | 0.9935 | L5 | No trials or literature |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

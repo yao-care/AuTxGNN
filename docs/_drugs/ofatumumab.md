@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "Ofatumumab"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Ofatumumab: predicted new indication Follicular lymphoma (evidence level L2). Approved use: Acute lymphoblastic leukaemia and Richter syndrome"
 ---
 
@@ -147,6 +147,7 @@ Multiple completed Phase 2 studies, including randomised trials and published re
 | Metastatic neoplasm | 0.9950 | L5 | Hold | One small pilot (n=10) in metastatic melanoma and no direct efficacy literature for the term as predicted |
 | Malignant spiradenoma | 0.9948 | L5 | Hold | No trials or literature |
 | Langerhans cell histiocytosis | 0.9934 | L5 | Hold | No trials or literature; no clear CD20-driven rationale |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

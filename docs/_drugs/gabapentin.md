@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 325
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Gabapentin: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN model's candidates for Gabapentin (score ≥ 0.99) are all known uses that can be traced to a source. There is therefore currently no new predicted indication for this drug. The one known use found among the candidates is recorded as a relation in the knowledge graph.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (all traceable model candidates are known uses) |
@@ -52,16 +53,19 @@ The TxGNN model's candidates for Gabapentin (score ≥ 0.99) are all known uses 
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | restless legs syndrome |

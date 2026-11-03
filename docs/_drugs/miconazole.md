@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 475
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: predicted new indication Acne (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -126,6 +126,7 @@ These are ranked lower and shown for context only.
 
 | Predicted Indication | TxGNN Score | Evidence Level | Note |
 |------|------|------|------|
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

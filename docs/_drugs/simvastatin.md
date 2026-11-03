@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 675
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Simvastatin: predicted new indication brain stem infarction (evidence level L1). Approved use: Hyperlipidaemia, including homozygous familial hypercholesterolaemia…"
 monitor_inn: "Simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -132,6 +132,7 @@ The mechanism is well established, and several completed Phase 3 trials, plus gu
 | Brain stem infarction | L5 | Hold | Only preclinical literature, with simvastatin not the focus |
 | Simian immunodeficiency virus infection | L4 | Hold | Only a non-human primate study, with no human indication |
 | CETP deficiency, CYP7A1-deficiency hypercholesterolaemia, ABri amyloidosis, a rare neurodevelopmental disorder, fibroma of prostate | L5 | Hold | Model prediction only; no trials or literature |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
