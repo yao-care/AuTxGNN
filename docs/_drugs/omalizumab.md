@@ -38,12 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Omalizumab is an anti-IgE monoclonal antibody, originally used for asthma (including allergic and intrinsic asthma) and idiopathic urticaria.
-Much of this signal restates its existing asthma indication, so the genuinely new evidence is limited to allergen-sensitised COPD and asthma-COPD overlap.
-
-*Note on choice of lead prediction:* The top-ranked TxGNN prediction by score is bronchitis (1.0000). However, its evidence is weak: one tiny trial of 11 participants and indirect literature. The obstructive lung disease prediction (rank 3) has the strongest supporting evidence, so this report focuses on it. Other predictions are summarised briefly in the conclusion.
-
----
+Omalizumab is a humanised anti-IgE monoclonal antibody that binds free IgE and dampens allergic inflammation. The TxGNN model predicts it may be relevant to **bronchitis**, but no study in the data compiled for this report directly tests it in bronchitis, so this remains a research question. The data include **2 clinical trials** and **7 publications** linked to this prediction, all of them indirect.
 
 ## Quick Overview
 
@@ -55,53 +50,36 @@ Much of this signal restates its existing asthma indication, so the genuinely ne
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From pharmacology data, omalizumab is an antibody that targets immunoglobulin E (IgE, gene IGHE). It neutralises free IgE and reduces FcεRI expression on mast cells, basophils and dendritic cells. This dampens allergen-driven airway inflammation.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Omalizumab is known as an antibody directed against immunoglobulin E (the target is listed as the IgE heavy chain, IGHE). By binding free IgE, it reduces FcεRI-mediated activation of mast cells and basophils, which is relevant to allergic airway inflammation.
 
-The potentially new part is chronic obstructive pulmonary disease (COPD). Evidence there is limited to patients who are allergen-sensitised or have asthma-COPD overlap. A Phase 2 trial in allergen-sensitised COPD (NCT07059091) is currently recruiting, and an earlier exploratory COPD study was withdrawn before enrolling anyone.
-
----
+The link to bronchitis is indirect. The available literature concerns asthma and asthma-COPD overlap, not bronchitis itself. Chronic bronchitis is a COPD phenotype, so any benefit would plausibly apply only to a subset of patients with allergic sensitisation or an eosinophilic or atopic airway phenotype. Because no cited study directly examines bronchitis as the disease studied, the evidence level is capped at L5.
 
 ## Clinical Trial Evidence
 
-The compiled data lists 34 trials for this prediction. The ten most relevant are shown below. No ANZCTR identifiers were available.
-
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT07059091](https://clinicaltrials.gov/study/NCT07059091) | Phase 2 | Recruiting | 334 | Omalizumab in allergen-sensitised and exposed COPD over 12 months; no results yet |
-| [NCT00851370](https://clinicaltrials.gov/study/NCT00851370) | Phase 2 | Withdrawn | 0 | Exploratory COPD study with elevated IgE; withdrawn, no evidence generated |
-| [NCT00314574](https://clinicaltrials.gov/study/NCT00314574) | Phase 3 | Completed | 850 | Placebo-controlled add-on trial in moderate to severe asthma uncontrolled on high-dose ICS plus LABA |
-| [NCT00046748](https://clinicaltrials.gov/study/NCT00046748) | Phase 3 | Completed | 484 | Placebo-controlled trial of exacerbation rates in severe persistent allergic asthma |
-| [NCT01202903](https://clinicaltrials.gov/study/NCT01202903) | Phase 3 | Completed | 616 | 24-week placebo-controlled study in Chinese patients with moderate to severe allergic asthma |
-| [NCT00401596](https://clinicaltrials.gov/study/NCT00401596) | Phase 3 | Completed | 1899 | Open-label safety trial in moderate to severe persistent asthma (ALTO) |
-| [NCT00232050](https://clinicaltrials.gov/study/NCT00232050) | Phase 3 | Completed | 327 | Safety and efficacy over 16 weeks in adults with moderate to severe asthma |
-| [NCT00500539](https://clinicaltrials.gov/study/NCT00500539) | Phase 3 | Completed | 155 | Open-label safety and immunogenicity of liquid formulation |
-| [NCT00482508](https://clinicaltrials.gov/study/NCT00482508) | Phase 3 | Completed | 95 | One-year open-label extension for long-term safety |
-| [NCT00373061](https://clinicaltrials.gov/study/NCT00373061) | N/A | Completed | 309 | Pregnancy registry of omalizumab exposure |
+| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Phase 2/3 | Completed | 11 | Placebo-controlled trial of whether omalizumab allows prednisone dose reduction in patients with asthma and persistent eosinophilic bronchitis. Very small, so underpowered, and results are not summarised in the data. |
+| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Phase 2 | Completed | 382 | Dose-finding study of QGE031 as add-on therapy in chronic spontaneous urticaria. Does not address bronchitis. |
 
----
+NCT02049294 is the closest signal, but its population (asthma with eosinophilic bronchitis) is a narrow subgroup and the trial is too small to support a bronchitis claim.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11496232](https://pubmed.ncbi.nlm.nih.gov/11496232/) | 2001 | RCT | J Allergy Clin Immunol | Anti-IgE antibody for severe allergic asthma |
-| [15679715](https://pubmed.ncbi.nlm.nih.gov/15679715/) | 2005 | RCT | Allergy | INNOVATE: fewer clinically significant exacerbations in severe persistent asthma despite best therapy |
-| [36581073](https://pubmed.ncbi.nlm.nih.gov/36581073/) | 2023 | Systematic review/meta-analysis | J Allergy Clin Immunol Pract | Omalizumab in allergic bronchopulmonary aspergillosis; promising but limited evidence |
-| [36740144](https://pubmed.ncbi.nlm.nih.gov/36740144/) | 2023 | Cohort (target trial emulation) | J Allergy Clin Immunol | Comparative effectiveness of omalizumab, mepolizumab and dupilumab in asthma |
-| [41033334](https://pubmed.ncbi.nlm.nih.gov/41033334/) | 2025 | Randomised head-to-head trial | Lancet Respir Med | EVEREST: dupilumab versus omalizumab in nasal polyps with coexisting asthma |
-| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Cohort | Postepy Dermatol Alergol | Omalizumab in middle-aged or older patients with severe allergic asthma-COPD overlap (listed under the bronchitis prediction) |
-| [11270941](https://pubmed.ncbi.nlm.nih.gov/11270941/) | 2001 | Review | Drugs | Drug profile: improved symptoms and fewer exacerbations in allergic asthma |
-| [25404353](https://pubmed.ncbi.nlm.nih.gov/25404353/) | 2014 | Review | Paediatr Drugs | Omalizumab in children: asthma and chronic spontaneous urticaria |
-| [19302249](https://pubmed.ncbi.nlm.nih.gov/19302249/) | 2009 | Review | Clin Exp Allergy | Safety and tolerability of omalizumab |
-| [41222850](https://pubmed.ncbi.nlm.nih.gov/41222850/) | 2026 | Review | Clin Drug Investig | CT-P39 (Omlyclo), an omalizumab biosimilar, approved across omalizumab indications |
+| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Case report | J Investig Allergol Clin Immunol | Rare case of plastic bronchitis following bronchial thermoplasty; no abstract available. |
+| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Cohort | Postepy Dermatol Alergol | Omalizumab in middle-aged or older patients with severe allergic asthma-COPD overlap. |
+| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Cohort (pooled analysis) | Curr Med Res Opin | Safety and tolerability of omalizumab in children with allergic asthma. |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review | Expert Opin Pharmacother | Management challenges in asthma with smoking-induced airway disease, including chronic bronchitis; such patients are excluded from most trials. |
+| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Review | Clin Rev Allergy Immunol | Omalizumab approval and post-approval experience in moderate-to-severe persistent asthma. |
+| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Review | Masui | Preoperative management of patients with bronchial asthma or chronic bronchitis; mentions omalizumab for severe allergic asthma. |
+| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Review | Allergol Immunopathol | Overview of monoclonal antibodies in paediatrics. |
 
----
+None of these publications reports an efficacy study of omalizumab in bronchitis.
 
 ## Australia Market Information
 
@@ -109,32 +87,30 @@ The compiled data lists 34 trials for this prediction. The ten most relevant are
 |---------|------|------|-----------|
 | ARTG 10109C | Omlyclo | Injection 150 mg in 1 mL single dose pre-filled syringe | Not available in the data compiled for this report |
 
----
+At least one valid single-ingredient licence is on record (1 valid, 0 cancelled).
 
 ## Safety Considerations
 
-- **Drug Interactions:** Eight interactions were identified. One is rated **Moderate**: omacetaxine mepesuccinate. Six are rated **Minor**: zinc sulfate, zinc acetate, zinc gluconate, zinc chloride, Echinacea and vitamin E. The eighth is a pharmacology entry confirming the target (IgE heavy chain) with no severity rating.
-- **Other data:** Product-specific warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI), particularly for anaphylaxis risk and use in pregnancy. A Xolair pregnancy registry (NCT00373061) exists.
+Warnings and contraindications are not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for safety information.
 
----
+**Drug interactions (from interaction databases):** 8 records were found.
+- **Moderate:** omacetaxine mepesuccinate.
+- **Minor:** zinc sulfate, zinc acetate, zinc gluconate, zinc chloride, echinacea, vitamin E.
+- **Pharmacological target record:** IgE heavy chain (IGHE), with no severity level assigned.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-- The obstructive lung disease signal is supported by multiple completed Phase 3 trials, but these are almost entirely in allergic asthma, which is already an original indication. Evidence for COPD, the genuinely new use, is still at Phase 2 and has no results yet.
-
-**Other predictions in the data:**
-- **Bronchitis (Research Question):** Only an 11-participant trial and indirect literature; link limited to allergic or eosinophilic subsets.
-- **Atopic eczema and dermatitis (Research Question):** Plausible IgE mechanism but inconsistent clinical results, with guidelines favouring IL-4/IL-13 blockade. The dermatitis entry overlaps almost entirely with atopic eczema and is not independent evidence.
-- **Bronchial neoplasm, acne keloid, acrodermatitis chronica atrophicans, familial hydroa vacciniforme, neonatal dermatomyositis and childhood connective-tissue-associated interstitial lung disease (Hold):** No supporting evidence or plausible mechanism. These are likely TxGNN model (deep learning) artefacts.
+The prediction has a very high model score, but no study directly evaluates omalizumab in bronchitis. The only related trial is a tiny study in asthma with eosinophilic bronchitis, and the remaining literature addresses asthma or asthma-COPD overlap. Evidence is therefore at L5.
 
 **To proceed, the following is needed:**
-- Results from the Phase 2 COPD trial (NCT07059091), with focus on allergen-sensitised or asthma-COPD overlap patients
-- Detailed mechanism of action data from DrugBank
-- TGA-approved Product Information, including approved indications for the Omlyclo ARTG entry, and safety warnings and contraindications
-- Criteria to select patients (IgE level, allergen sensitisation, eosinophilic phenotype) and a plan for monitoring anaphylaxis
+- Adequately powered, controlled studies of omalizumab in a defined bronchitis phenotype (for example, allergic or eosinophilic airway disease)
+- Published results from NCT02049294 to judge whether its steroid-sparing signal extends beyond asthma
+- Mechanism-of-action data to clarify the link to bronchitis
+- Safety information from the TGA Product Information, including warnings and contraindications for the target population
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

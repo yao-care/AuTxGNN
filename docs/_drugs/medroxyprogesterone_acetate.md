@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 452
-evidence_level: L5
+evidence_level: L3
 indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L3** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,11 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Medroxyprogesterone acetate (MPA) is a synthetic progestin, originally used for endometriosis, endometrial cancer and conditions related to menopause and osteoporosis.
-The TxGNN model predicts it may be effective for **amenorrhea**,
-but the data compiled for this report include **no registered clinical trials** and only **indirect literature** (mostly reviews about contraception), so the evidence is limited to model prediction and background pharmacology.
-
----
+Medroxyprogesterone acetate (MPA) is a synthetic progestin with an oral tablet currently marketed in Australia. The TxGNN model predicts it may be useful for **breast fibrocystic disease**. Support is limited to **no registered clinical trials** and **9 publications**, which are mostly dated, small or indirect, and include breast safety signals.
 
 ## Quick Overview
 
@@ -51,55 +47,36 @@ but the data compiled for this report include **no registered clinical trials** 
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9995 |
-| Evidence Level | L5 (indirect and mechanistic support only; no trials) |
+| Evidence Level | L3 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, MPA is a synthetic progestin that causes secretory transformation of oestrogen-primed endometrium.
+Detailed mechanism of action data are not available in the data compiled for this report. MPA is a progestin, a class that acts on progesterone receptors and opposes estrogen-driven tissue growth.
 
-A progestin withdrawal challenge is a well-established diagnostic and therapeutic approach for secondary amenorrhoea when endogenous oestrogen is adequate. That fits the TxGNN prediction. However, this may already be an established use of the drug rather than true repurposing. The supplied literature is mostly about contraception (for example, depot MPA causes amenorrhoea as an effect), so it offers only indirect support.
+The literature describes fibrocystic breast disease as reflecting relative estrogen predominance and progesterone deficiency, with hyperproliferation of breast connective tissue and epithelium. A progestin could plausibly counter this, and that was the rationale for two older MPA treatment series, in severe disease (1983) and in adolescents (1988).
 
-Other predictions in the list are mostly extensions of the existing endometriosis and breast-related rationale. They are summarised below because they bear on the overall decision.
-
-| Predicted indication | TxGNN score | Evidence level | Assessment |
-|------|------|------|------|
-| Fibrocystic breast disease | 0.9995 | L3 | Small, dated clinical series (1983, 1988) support MPA, but HRT studies suggest progestin-containing regimens may increase breast proliferation and density. Safety concern. |
-| Benign mammary dysplasia | 0.9992 | L5 | Overlaps with fibrocystic disease. Evidence is thin and not independent. |
-| Renal hypoplasia (bilateral and unspecified) | 0.9991 / 0.9991 | L5 | No plausible mechanism. Likely a TxGNN model (deep learning) artefact. |
-| Apocrine adenosis and blunt duct adenosis of breast | 0.9989 | L5 | Prediction only, with proliferative safety concerns. |
-
----
+The evidence is conflicting. Studies of hormone replacement regimens that include a progestin suggest that combined estrogen-progestin therapy can increase breast epithelial proliferation and mammographic density. Animal data also show that MPA can cause proliferative breast changes in dogs. The older MPA studies are small and of uncertain design, and the full text of their results was not available. The prediction is therefore biologically conceivable but unproven, and it carries a breast safety concern.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
-
-The compiled data contain 20 publications for amenorrhoea. Most are reviews about contraception, so they provide indirect support only. The most relevant are listed below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8178904](https://pubmed.ncbi.nlm.nih.gov/8178904/) | 1994 | Review | Am J Obstet Gynecol | Depot MPA 150 mg IM every 3 months has contraceptive efficacy above 99%. |
-| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Systematic review | Cochrane Database Syst Rev | Combination injectable contraceptives are highly effective. Bleeding pattern changes may limit acceptability. |
-| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Systematic review | Cochrane Database Syst Rev | Earlier version of the above review. |
-| [8725701](https://pubmed.ncbi.nlm.nih.gov/8725701/) | 1996 | Review | J Reprod Med | Counselling and side-effect management for depot MPA users. |
-| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | Review | Int J Fertil Menopausal Stud | Long-acting contraceptive options, including depot MPA. |
-| [6119259](https://pubmed.ncbi.nlm.nih.gov/6119259/) | 1981 | Review | Int J Gynaecol Obstet | Postpartum contraception and the return of ovulation. |
-| [6454820](https://pubmed.ncbi.nlm.nih.gov/6454820/) | 1981 | Review | Med J Aust | Injectable contraception. |
-| [6141923](https://pubmed.ncbi.nlm.nih.gov/6141923/) | 1984 | Review | Drug Intell Clin Pharm | Drug-induced infertility. |
-| [120837](https://pubmed.ncbi.nlm.nih.gov/120837/) | 1979 | Review | IARC Monogr | Carcinogenic risk evaluation of MPA. |
-
-For fibrocystic breast disease, small older clinical studies exist ([6241963](https://pubmed.ncbi.nlm.nih.gov/6241963/), 1983, and [2978834](https://pubmed.ncbi.nlm.nih.gov/2978834/), 1988, both Chilean journals). Their designs are uncertain, and no abstracts were available.
-
----
+| [6241963](https://pubmed.ncbi.nlm.nih.gov/6241963/) | 1983 | Clinical trial (small, non-registered) | Rev Chil Obstet Ginecol | Therapeutic trial of MPA in severe fibrocystic breast disease. No abstract available. |
+| [2978834](https://pubmed.ncbi.nlm.nih.gov/2978834/) | 1988 | Clinical study (adolescents) | Rev Chil Pediatr | MPA used in adolescents with fibrocystic breast disease. No abstract available. |
+| [12841885](https://pubmed.ncbi.nlm.nih.gov/12841885/) | 2003 | Clinical study | Climacteric | Compared five hormone replacement regimens in postmenopausal women with benign fibrocystic mastopathy. |
+| [11379380](https://pubmed.ncbi.nlm.nih.gov/11379380/) | 2001 | Cohort/clinical study | Climacteric | Used fine-needle-aspiration cytology to follow breast epithelial proliferation during hormone replacement therapy. |
+| [11379377](https://pubmed.ncbi.nlm.nih.gov/11379377/) | 2001 | Clinical study | Climacteric | Assessed the effect of different hormone replacement regimens on mammographic breast density. |
+| [10576236](https://pubmed.ncbi.nlm.nih.gov/10576236/) | 1999 | Clinical study (imaging) | Int J Gynaecol Obstet | Mammographic and ultrasound changes, including new solid or cystic lesions, during hormone replacement therapy. |
+| [3511705](https://pubmed.ncbi.nlm.nih.gov/3511705/) | 1986 | Review | Am J Obstet Gynecol | Fibrocystic disease is linked to estrogen predominance and progesterone deficiency. Breast cancer risk is increased two- to fourfold in these patients. |
+| [3657597](https://pubmed.ncbi.nlm.nih.gov/3657597/) | 1987 | Review | Maturitas | Aetiology remains unclear. Oral contraceptives reduce incidence, but MPA induced myoepithelial hyperplasia in beagles. |
+| [8603031](https://pubmed.ncbi.nlm.nih.gov/8603031/) | 1996 | Preclinical/mechanistic | J Steroid Biochem Mol Biol | Androgen receptor-mediated growth control in breast and endometrial cells. Indirect relevance. |
 
 ## Australia Market Information
 
@@ -107,41 +84,30 @@ For fibrocystic breast disease, small older clinical studies exist ([6241963](ht
 |---------|------|------|-----------|
 | ARTG 13849X | Ralovera | Tablet containing medroxyprogesterone acetate 10 mg (oral) | Not stated in the data compiled for this report |
 
----
-
-## Cytotoxicity
-
-MPA is a hormonal agent and is not a cytotoxic chemotherapy drug, although it has been used in endometrial cancer. This section is therefore not applicable.
-
----
+The approved indication text for this entry is not recorded in the local data. The market status is Marketed, and the single licence is valid.
 
 ## Safety Considerations
 
-Label-based warnings and contraindications were not available. Please refer to the TGA-approved Product Information (PI) for safety information.
+Label-based warnings and contraindications are not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for authoritative safety information.
 
-**Contraindications from the knowledge graph (not label text, so treat with caution):** hypertension, liver failure and liver disease, kidney disease, gallbladder disease, epilepsy, asthma, diabetes mellitus and diabetic ketoacidosis, hypothyroidism, systemic lupus erythematosus, osteoporosis, hypercalcaemia and related calcium or phosphorus disorders, hypertriglyceridaemia, anxiety and related mood disorders, substance abuse or dependence, and female breast carcinoma.
-
-**Drug interactions:** The interaction search returned 100 entries; 20 are listed in the data compiled for this report, all rated Moderate. They fall mainly into these groups:
-- **Antidiabetic agents:** acarbose, metformin, glimepiride, chlorpropamide, canagliflozin, dapagliflozin, empagliflozin, alogliptin, saxagliptin, albiglutide, dulaglutide, liraglutide, semaglutide, and insulins (aspart, degludec, detemir). Glycaemic control may be affected.
-- **Others:** aprepitant, dexamethasone, clarithromycin and pegvaliase.
-
-**Breast safety:** HRT studies suggest that oestrogen–progestin regimens including MPA may increase breast epithelial proliferation and mammographic density.
-
----
+- **Conditions flagged for caution:** The compiled data flag several conditions as potential contraindications or cautions. These come from a disease-level relationship source, not from label text, and should be checked against the PI. They include hypertension, liver disease and liver failure, kidney disease, gallbladder disease, epilepsy, asthma, diabetes mellitus, hypothyroidism, systemic lupus erythematosus, hypercalcaemia-related conditions, osteoporosis, hypertriglyceridaemia, substance abuse/dependence, anxiety and mood disorders, and female breast carcinoma.
+- **Drug interactions:** The compiled data list 100 interactions, and all of those shown are of Moderate severity. They are mainly with glucose-lowering agents, including acarbose, metformin, glimepiride, chlorpropamide, insulins, and the DPP-4, SGLT2 and GLP-1 classes. Others are dexamethasone, aprepitant and clarithromycin. Monitor glycaemic control when co-prescribing.
+- **Breast-specific concern:** The hormone replacement literature and animal data above suggest progestins may increase breast epithelial proliferation and mammographic density. This is directly relevant to a breast indication.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The amenorrhoea prediction is consistent with known progestin pharmacology, but it may already be an established use. No clinical trials were supplied, and the literature is indirect. Other predictions are either subtypes of existing indications, supported only by dated and small studies with breast safety concerns, or biologically implausible (renal hypoplasia).
+The mechanistic rationale is plausible, and two small, dated MPA studies address this disease directly. However, there are no registered trials, no controlled evidence, and conflicting breast safety signals. This is a research question rather than a candidate ready for development.
 
 **To proceed, the following is needed:**
-- Confirmation of whether amenorrhoea management is already covered by the current ARTG or PBS indications for Ralovera
-- Direct clinical evidence (trials or guideline-level sources) for MPA in amenorrhoea
-- Mechanism of action data
-- TGA Product Information warnings and contraindications (the safety screen is currently blocked without them)
-- A benefit–risk assessment for any breast-related indication, given the proliferation signals
+- Full-text review of the 1983 and 1988 MPA studies to assess design, outcomes and safety.
+- Mechanism of action data for MPA in breast tissue.
+- A structured benefit-risk assessment of breast proliferation and density effects.
+- Review of the TGA Product Information for warnings and contraindications.
+- A controlled study design, if pursued, with breast imaging and safety endpoints.
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

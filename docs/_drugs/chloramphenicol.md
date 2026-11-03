@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Chloramphenicol is a broad-spectrum antibiotic that blocks bacterial protein synthesis.
+Chloramphenicol is a broad-spectrum antibiotic. The TxGNN model predicts it may be associated with **diffuse scleroderma**, with a score of 0.9965. There are **no clinical trials** and **4 publications** in the data compiled for this report. All 4 are preclinical laboratory studies of scleroderma fibroblasts, and none tests chloramphenicol as a treatment, so the evidence is very weak.
 
 ## Quick Overview
 
@@ -50,15 +50,13 @@ Chloramphenicol is a broad-spectrum antibiotic that blocks bacterial protein syn
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Chloramphenicol is a bacteriostatic antibiotic that inhibits the 50S ribosomal subunit and so stops bacterial protein synthesis. Detailed mechanism of action data was not available in the data compiled for this report, so this description reflects general pharmacological knowledge about the drug.
+Detailed mechanism of action data is not available in the data compiled for this report. Chloramphenicol is generally known as an antibiotic that blocks protein synthesis in bacteria. This is an antibacterial action, and it has no recognised link to the fibrotic and autoimmune processes in diffuse scleroderma.
 
-Bacterial conjunctivitis is a superficial eye infection, and a broad-spectrum antibiotic given topically is mechanistically plausible. The publications describe topical chloramphenicol as widely used for conjunctivitis in the UK and some other countries, and rarely used in the US. In practice this prediction is closer to an extension of its existing anti-infective use than a true repurposing based on a new mechanism.
-
-An important caveat on the evidence level: the publications discuss conjunctivitis directly, but none provides a registered trial, and the studies are mostly older comparisons, reviews and commentaries. They do not firmly establish efficacy in a modern trial setting. The evidence level has therefore been set conservatively at L5 (model prediction with no registered trial support), although the publications are consistent with the prediction.
+The four retrieved papers describe collagen gene regulation (the alpha1(I) procollagen gene), Smad3/Sp1/p300 signalling and TGF-beta blockade in scleroderma fibroblasts. None of the titles shows chloramphenicol being tested as a treatment. The link is likely incidental, for example the use of the chloramphenicol acetyltransferase (CAT) reporter gene assay in these experiments, rather than a pharmacological effect. The high prediction score is therefore probably an artefact of the model, and no pharmacological rationale supports it.
 
 ## Clinical Trial Evidence
 
@@ -68,14 +66,12 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Comparative clinical study | Curr Ther Res Clin Exp | Compares moxifloxacin with chloramphenicol for bacterial eye infections |
-| [1448311](https://pubmed.ncbi.nlm.nih.gov/1448311/) | 1992 | Comparative clinical study | Pediatr Infect Dis J | Oral rifampin compared with topical chloramphenicol for eradicating conjunctival carriage of *Haemophilus influenzae* biogroup aegyptius; some children treated with topical chloramphenicol still developed Brazilian purpuric fever |
-| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Cochrane systematic review | Cochrane Database Syst Rev | Interventions for preventing ophthalmia neonatorum |
-| [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | Review | Drugs | Comparative review of 16 topical ophthalmic antibacterial preparations |
-| [10589371](https://pubmed.ncbi.nlm.nih.gov/10589371/) | 1999 | Review | Clin Pharmacokinet | Treatment of ocular infections with topical antibacterials |
-| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Safety review | Drug Saf | Examines the debated link between ocular chloramphenicol and aplastic anaemia |
-| [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | Commentary | Eye (Lond) | Topical chloramphenicol: use or abuse? |
-| [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | Commentary | Clin Exp Ophthalmol | Over-the-counter chloramphenicol |
+| [8702443](https://pubmed.ncbi.nlm.nih.gov/8702443/) | 1996 | In vitro mechanistic study | Arthritis and Rheumatism | Transcriptional activation of the alpha1(I) procollagen gene in dermal fibroblasts from patients with recent-onset diffuse systemic sclerosis; role of intronic sequences |
+| [16319104](https://pubmed.ncbi.nlm.nih.gov/16319104/) | 2006 | In vitro mechanistic study | Rheumatology (Oxford) | Role of TGF-beta/Smad signalling in increased collagen gene expression in scleroderma fibroblasts; Smad3 interacts with Sp1 and p300 |
+| [9811061](https://pubmed.ncbi.nlm.nih.gov/9811061/) | 1998 | In vitro mechanistic study | Arthritis and Rheumatism | Promoter elements of the alpha1(I) procollagen gene involved in its up-regulated expression in systemic sclerosis |
+| [11229480](https://pubmed.ncbi.nlm.nih.gov/11229480/) | 2001 | In vitro mechanistic study | Arthritis and Rheumatism | Blocking TGF-beta signalling prevented up-regulated collagen synthesis in scleroderma fibroblasts |
+
+None of these studies evaluates chloramphenicol as a treatment for diffuse scleroderma.
 
 ## Australia Market Information
 
@@ -83,26 +79,30 @@ Currently no related clinical trials registered.
 |---------|------|------|-----------|
 | ARTG 11112W | Chlorsig | Eye drops 5 mg per mL, 10 mL | Not recorded in the local data |
 
+The only licence in the local data is a single-ingredient ophthalmic (eye drop) product, and it is currently valid. No systemic or oral formulation is recorded.
+
 ## Safety Considerations
 
-- **Safety concerns in the literature**: A review in the data compiled for this report discusses a debated association between topical ocular chloramphenicol and aplastic anaemia. This is the main reason for recommending guardrails.
-- **Conditions flagged as cautions for chloramphenicol** (from drug-disease contraindication records, not label text): kidney disease, liver disease, gallbladder disease, thrombocytopenia, anaemia (including macrocytic anaemia and aplastic anaemia), agranulocytosis, neutropenia and related congenital neutropenia syndromes, paroxysmal nocturnal haemoglobinuria, acute intermittent porphyria, optic neuritis, peripheral neuropathy and other peripheral nervous system disease.
-- **Drug interactions**: 100 interactions were found. Examples with a Major rating are cisapride and naloxegol. Moderate-rated examples include sulfonylureas (glimepiride, glipizide, glyburide, chlorpropamide, acetohexamide), repaglinide, saxagliptin, simvastatin, rosuvastatin, metronidazole, aprepitant, eliglustat, nitisinone, iron, budesonide and balsalazide. Systemic exposure from eye drops is low, so the clinical relevance of these interactions for topical use is likely limited, but this should be confirmed.
+Detailed label warnings and contraindications are not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
-Please also refer to the TGA-approved Product Information (PI) for full safety information.
+- **Blood and bone marrow conditions:** Related records list thrombocytopenia, anaemia, aplastic anaemia, agranulocytosis and neutropenia as conditions of concern. Chloramphenicol is known for haematological toxicity, which would matter for any systemic use.
+- **Other conditions of concern in related records:** kidney disease, liver disease, gallbladder disease, peripheral neuropathy, optic neuritis, acute intermittent porphyria and paroxysmal nocturnal haemoglobinuria.
+- **Drug interactions:** Interaction records were found for 100 drugs. Two are rated Major: **cisapride** and **naloxegol**. Examples rated Moderate include sulfonylureas (glimepiride, glipizide, glyburide, chlorpropamide, acetohexamide), repaglinide, saxagliptin, simvastatin, rosuvastatin, metronidazole, aprepitant, budesonide and iron.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Topical chloramphenicol is already marketed in Australia as eye drops, and the publications consistently describe its use in bacterial conjunctivitis, but no registered trial supports it and the comparative studies are mostly dated. The haematological safety debate warrants guardrails.
+The prediction rests on a model score alone. The four publications are laboratory studies of scleroderma fibroblasts that do not test chloramphenicol, and no clinical trials exist. There is no plausible pharmacological link, and the drug's known haematological toxicity adds concern for any systemic use. The only Australian product is an eye drop.
 
 **To proceed, the following is needed:**
-- Review of the TGA-approved Product Information for the approved indication, warnings and contraindications
-- Contemporary comparative data against current topical antibiotics, including resistance patterns in Australia
-- A clear position on the aplastic anaemia concern and criteria for patient selection and treatment duration
-- Detailed mechanism of action data to complete the mechanistic assessment
+- Evidence that chloramphenicol itself has an effect on collagen synthesis or fibrosis (for example, direct preclinical testing)
+- Confirmation that the literature link is not simply use of the CAT reporter assay
+- Mechanism of action data
+- Label warnings and contraindications from the TGA-approved Product Information
+- A route and formulation assessment, since the only local product is an ophthalmic preparation and diffuse scleroderma would need systemic treatment
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

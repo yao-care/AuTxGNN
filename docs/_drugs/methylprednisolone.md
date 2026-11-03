@@ -38,7 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Methylprednisolone is a systemic glucocorticoid originally used for autoimmune and inflammatory conditions such as Crohn disease, adrenocortical insufficiency and acute lymphoblastic leukaemia.
+Methylprednisolone is a glucocorticoid with anti-inflammatory and immunosuppressive activity. The TxGNN model predicts it may be effective for **alopecia mucinosa**, but the data compiled for this report contain **no clinical trials and no publications** that directly study this disease, so the prediction rests on the model score alone.
+
+---
 
 ## Quick Overview
 
@@ -50,36 +52,29 @@ Methylprednisolone is a systemic glucocorticoid originally used for autoimmune a
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, methylprednisolone is a glucocorticoid with potent anti-inflammatory and immunosuppressive effects. It suppresses cytokine production and lymphocyte activation, and its efficacy in autoimmune disease is well established.
+Detailed mechanism of action data are not available in the data compiled for this report. Methylprednisolone belongs to the glucocorticoid class, which is generally understood to suppress inflammatory and immune pathways.
 
-Alopecia areata is a T-cell-mediated autoimmune attack on hair follicles, with collapse of the follicle's immune privilege. This overlaps closely with the autoimmune conditions in which methylprednisolone is already used, so a systemic immunosuppressive effect is mechanistically plausible.
+Alopecia mucinosa is an inflammatory disorder of the hair follicle. On that basis, an anti-inflammatory corticosteroid could plausibly be relevant. This is a general pharmacological argument only. No trial or publication in the compiled data tests it for this disease, and the model score should be read as a hypothesis-generating signal, not as evidence of benefit.
 
-In practice, pulse dosing (intravenous or oral mega-pulse) has been used to induce regrowth in severe or treatment-resistant disease. Relapse after stopping treatment and the adverse effects of systemic steroids limit long-term use.
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Phase 4 | Completed | 42 | Oral mega-pulse methylprednisolone in severe, therapy-resistant alopecia areata, using higher doses and more frequent pulses than earlier regimens. The data provided do not state whether the design was randomised or single-arm. |
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [32270396](https://pubmed.ncbi.nlm.nih.gov/32270396/) | 2020 | Systematic review | Dermatol Ther | Cyclosporine with and without systemic corticosteroids in alopecia areata |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | Efficacy, relapse rates, side effects and prognostic factors of corticosteroid pulse therapy |
-| [28378336](https://pubmed.ncbi.nlm.nih.gov/28378336/) | 2017 | Review | Int J Dermatol | Treatment options for alopecia totalis and universalis; no therapy FDA-approved |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatr Dermatol | Dosing regimens and side effects of pulse corticosteroids in children |
-| [25566921](https://pubmed.ncbi.nlm.nih.gov/25566921/) | 2015 | Clinical study | Indian J Dermatol Venereol Leprol | IV methylprednisolone pulse therapy in severe alopecia areata |
-| [9777767](https://pubmed.ncbi.nlm.nih.gov/9777767/) | 1998 | Open prospective study (45 patients) | J Am Acad Dermatol | Single IV methylprednisolone pulse in recent-onset severe disease |
-| [22426909](https://pubmed.ncbi.nlm.nih.gov/22426909/) | 2012 | Clinical study | Saudi Med J | Oral mega-pulse methylprednisolone in severe therapy-resistant disease |
-| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | Retrospective cohort (26 patients) | Dermatol Ther | Methylprednisolone alone versus combined with methotrexate in extensive disease |
-| [21592197](https://pubmed.ncbi.nlm.nih.gov/21592197/) | 2011 | Retrospective cohort (70 patients) | J Dermatol | Prognostic factors for response to methylprednisolone pulse therapy |
-| [25872976](https://pubmed.ncbi.nlm.nih.gov/25872976/) | 2015 | Clinical study | Pediatr Dermatol | High relapse rates despite early IV pulse therapy in severe childhood disease |
+Currently no related literature available for alopecia mucinosa.
+
+---
 
 ## Australia Market Information
 
@@ -87,32 +82,36 @@ In practice, pulse dosing (intravenous or oral mega-pulse) has been used to indu
 |---------|------|------|-----------|
 | ARTG 10830B | Advantan | Lotion containing methylprednisolone aceponate 1 mg per g, 20 g | Not available in the data compiled for this report |
 
-This is a topical lotion. No systemic methylprednisolone product is listed in the data compiled for this report. The pulse regimens in the evidence above use oral or intravenous formulations, so route compatibility has not been confirmed.
+The only local entry is a topical lotion containing methylprednisolone aceponate, a related ester form of the molecule. It is currently valid. No systemic methylprednisolone product appears in the local data.
+
+---
 
 ## Safety Considerations
 
-- **Contraindications suggested by the knowledge graph** (not taken from label text): hypertension, congestive heart failure, epilepsy, hyperglycaemia, herpes simplex virus keratitis, measles, certain urea cycle disorders (carbamoyl phosphate synthetase I deficiency, hyperargininemia, citrullinemia), and pituitary hormone deficiency conditions (including hypopituitarism and Sheehan syndrome).
-- **Drug interactions** (100 recorded; examples shown):
-  - Major: bupropion, clarithromycin.
-  - Moderate: antidiabetic agents (metformin, pioglitazone, acarbose, dapagliflozin, empagliflozin, canagliflozin, alogliptin, saxagliptin, dulaglutide, albiglutide, chlorpropamide), amphotericin B, aprepitant, acetylsalicylic acid, bisacodyl and picosulfuric acid.
-- **Literature signals**: relapse after discontinuation and systemic steroid adverse effects limit long-term use.
+**Drug interactions** (100 interactions recorded; the main ones from the compiled list are below):
 
-Please also refer to the TGA-approved Product Information (PI) for full warnings and contraindications, as label-based safety data were not available.
+- **Major:** bupropion, clarithromycin.
+- **Moderate, glucose-lowering agents:** acarbose, albiglutide, alogliptin, metformin, pioglitazone, canagliflozin, chlorpropamide, dapagliflozin, saxagliptin, dulaglutide, empagliflozin. Corticosteroids can raise blood glucose.
+- **Moderate, other:** amphotericin B (including the lipid complex), aprepitant, acetylsalicylic acid, bisacodyl, picosulfuric acid.
+- **Minor:** zinc sulfate.
+
+Label warnings and contraindications were not available in the compiled data. Please refer to the TGA-approved Product Information (PI) for full safety information.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-There is a plausible immunological rationale and a completed Phase 4 trial (n=42) in the exact drug and indication, alongside many pulse-therapy studies. Most of these are open-label or retrospective, relapse rates are high, and the one registered Australian product is topical, so evidence is moderate (L3).
+The prediction has a very high model score (0.9999) but no supporting trials or publications for alopecia mucinosa, so it is classed as L5 (model prediction only). The only local product is a topical lotion, so route compatibility with the systemic use that the prediction might imply is unresolved.
 
 **To proceed, the following is needed:**
-- Confirmation of the design and results of NCT01167946 (randomised or single-arm)
-- Identification of a systemic (oral or IV) methylprednisolone product on the ARTG and a route-compatibility assessment
-- Label-based warnings and contraindications from the TGA PI
-- Detailed mechanism of action data
-- A relapse-prevention and steroid-toxicity monitoring plan, with comparison against newer options such as JAK inhibitors
-- A specific plan for people with hypertension, diabetes, heart failure or epilepsy, and for patients taking the interacting drugs listed above
+- A structured literature search for case series or studies of corticosteroids in alopecia mucinosa.
+- Mechanism of action data for methylprednisolone, to assess the link to this disease.
+- Clarification of the intended route and formulation (topical vs systemic) against the products available in Australia.
+- Label warnings and contraindications from the current Product Information for the relevant product.
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

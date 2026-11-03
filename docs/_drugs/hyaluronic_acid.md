@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hyaluronic Acid
-parent: High Evidence (L1-L2)
+parent: Moderate Evidence (L3-L4)
 nav_order: 351
-evidence_level: L1
+evidence_level: L3
 indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "Hyaluronic acid"
 predicted_indications: ["Sjogren syndrome", "xerophthalmia", "psoriasis", "dermatitis, atopic", "prolapse of lacrimal gland", "parapsoriasis", "pityriasis lichenoides", "severe nonproliferative diabetic retinopathy", "exanthem (disease)"]
-description: "Hyaluronic Acid: predicted new indication Sjogren syndrome (evidence level L1). Approved use: Not recorded in the local data"
+description: "Hyaluronic Acid: predicted new indication Sjogren syndrome (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Hyaluronic Acid
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **9** 
+Evidence Level: **L3** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidence Level: **L1** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Hyaluronic acid (sodium hyaluronate) is a lubricating, water-binding glycosaminoglycan that is marketed in Australia as an eye drop.
+Hyaluronic acid is marketed in Australia as sodium hyaluronate 1 mg/mL eye drops. The TxGNN model predicts it may help with **Sjogren syndrome**, mainly as symptomatic relief of ocular surface dryness rather than treatment of the underlying autoimmune disease. Support comes from **1 loosely related Phase 3 trial** and **a small body of published studies**, including a comparative study in Sjögren patients. No Phase 3 trial of hyaluronic acid itself in Sjogren syndrome appears in the data compiled for this report.
 
 ## Quick Overview
 
@@ -47,44 +47,35 @@ Hyaluronic acid (sodium hyaluronate) is a lubricating, water-binding glycosamino
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Sjogren syndrome |
 | TxGNN Prediction Score | 0.9974 |
-| Evidence Level | L1 per the scoring in the data; note that only one completed Phase 3 RCT (NCT00599716) is identified, so on the strict criteria (≥2 completed Phase 3 RCTs) this would be closer to L2, supported by meta-analyses |
+| Evidence Level | L3 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known information, hyaluronic acid is a viscoelastic, hygroscopic glycosaminoglycan. It binds water, lubricates the ocular surface, prolongs tear film stability and supports corneal epithelial healing, partly through CD44 interaction.
+Currently, detailed mechanism of action data is not available. Based on known information, hyaluronic acid is a water-retaining glycosaminoglycan used as a topical lubricant. It is expected to hydrate and stabilise the tear film.
 
-These properties directly address the tear-film instability and ocular surface damage seen in dry eye. Because hyaluronic acid is already widely used as a marketed artificial tear (including in Australia), this is an established use rather than a speculative repurposing. The TxGNN score mainly confirms an existing therapeutic relationship.
+Sjogren syndrome is an autoimmune condition that reduces tear and saliva production, so the ocular surface and mouth become dry. Hyaluronic acid eye drops could plausibly ease these symptoms through lubrication and tear-film stabilisation. The same property underlies its use as a vehicle in other formulations, such as hyaluronate sheets for dry mouth.
+
+This is symptomatic relief only. Nothing in the data compiled suggests hyaluronic acid modifies the autoimmune process itself. Comparative studies in Sjögren patients exist, but they are small and mostly compare formulations or use hyaluronic acid as a carrier for another active drug.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00599716](https://clinicaltrials.gov/study/NCT00599716) | Phase 3 | Completed | 300 | Multicentre, double-masked RCT of Vismed (sodium hyaluronate) vs vehicle in dry eye syndrome; the most direct evidence |
-| [NCT06478134](https://clinicaltrials.gov/study/NCT06478134) | Phase 2/3 | Completed | 124 | Multi-component tear substitute (TriMix) vs an HA-based control; HA contribution confounded |
-| [NCT07722650](https://clinicaltrials.gov/study/NCT07722650) | N/A | Completed | 120 | Twice-daily Systane Complete vs four-times-daily Thealoz Duo (trehalose plus HA); non-inferiority design |
-| [NCT05823961](https://clinicaltrials.gov/study/NCT05823961) | N/A | Completed | 80 | Single-arm post-market follow-up of cross-linked HA eye drops; performance and safety data |
-| [NCT03074344](https://clinicaltrials.gov/study/NCT03074344) | N/A | Completed | 40 | Cross-linked HA plus coenzyme Q10 eye drops in mild to moderate dry eye; small, combination product |
-| [NCT06122428](https://clinicaltrials.gov/study/NCT06122428) | N/A | Completed | 16 | Retrospective study of riboflavin-enhanced HA 0.1% eye drops in dry eye; very small |
-
-Other registered trials identified (NCT04673643, NCT06544447, NCT07089511) test non-HA interventions in dry eye, with HA at most a comparator or background therapy, so they are not direct evidence. NCT01838252 (HA gel for lower lid retraction) was withdrawn with no enrolment.
+No clinical trials registered specifically for hyaluronic acid in Sjogren syndrome are listed in the data compiled for this report. The one linked Phase 3 trial (NCT02257957, completed, 30 participants, platelet-rich plasma injection for severe ocular surface disease) was graded as indirect. Hyaluronic acid appears there only as a likely comparator or background treatment, so it does not directly support this prediction.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33804439](https://pubmed.ncbi.nlm.nih.gov/33804439/) | 2021 | Meta-analysis | Int J Environ Res Public Health | Compared HA-based with non-HA eye drops (saline, conventional artificial tears) for dry eye |
-| [38895674](https://pubmed.ncbi.nlm.nih.gov/38895674/) | 2024 | Systematic review/Meta-analysis | Int J Ophthalmol | Compared high vs low concentration HA eye drops for dry eye |
-| [39260878](https://pubmed.ncbi.nlm.nih.gov/39260878/) | 2024 | RCT | BMJ | Non-inferiority trial of laughter exercise vs 0.1% sodium hyaluronate for ocular surface discomfort in dry eye |
-| [37162564](https://pubmed.ncbi.nlm.nih.gov/37162564/) | 2023 | Meta-analysis | Graefes Arch Clin Exp Ophthalmol | Topical diquafosol vs HA in randomised trials for dry eye |
-| [37682142](https://pubmed.ncbi.nlm.nih.gov/37682142/) | 2023 | RCT | Medicine | 0.15% HA vs 0.05% cyclosporine A vs 3% diquafosol in moderate to severe dry eye |
-| [35514082](https://pubmed.ncbi.nlm.nih.gov/35514082/) | 2022 | Review | Acta Ophthalmol | Critical evaluation of the safety and efficacy of HA artificial tears in dry eye |
-| [37042308](https://pubmed.ncbi.nlm.nih.gov/37042308/) | 2024 | Review | Acta Ophthalmol | Comparison of HA with other single-ingredient eye drops for dry eye |
-| [31373862](https://pubmed.ncbi.nlm.nih.gov/31373862/) | 2019 | Review | J Ocul Pharmacol Ther | Role of cross-linked HA as a tear film substitute |
-| [37117131](https://pubmed.ncbi.nlm.nih.gov/37117131/) | 2023 | Clinical study | Contact Lens & Anterior Eye | Trehalose plus HA artificial tears in women aged 42-54 vs ≥55 years with dry eye |
-| [33923222](https://pubmed.ncbi.nlm.nih.gov/33923222/) | 2021 | Review | Molecules | Applications of HA in ophthalmology and contact lenses |
+| [28557655](https://pubmed.ncbi.nlm.nih.gov/28557655/) | 2017 | Comparative clinical study | J Ocul Pharmacol Ther | Compared tear-film stability after hyaluronic acid versus cross-linked hyaluronic acid eye drops in patients with Sjögren syndrome-related ocular dryness |
+| [28375792](https://pubmed.ncbi.nlm.nih.gov/28375792/) | 2017 | Clinical trial (HA as vehicle) | J Ocul Pharmacol Ther | Evaluated 0.3% cortisol phosphate in a hyaluronic acid vehicle in Sjogren syndrome; hyaluronic acid's own effect was not isolated |
+| [30830076](https://pubmed.ncbi.nlm.nih.gov/30830076/) | 2019 | Clinical study | Vestn Oftalmol | Assessed the antioxidant effect of artificial tears in severe keratoconjunctivitis sicca in Sjögren patients |
+| [23890196](https://pubmed.ncbi.nlm.nih.gov/23890196/) | 2014 | Comparative clinical/experimental study | Acta Ophthalmol | Assessed sodium hyaluronate as a diluent for autologous serum eye drops |
+| [15110955](https://pubmed.ncbi.nlm.nih.gov/15110955/) | 2004 | Review | Rev Med Interne | Overview of treatments used for ocular dryness (xerophthalmia) in Sjögren syndrome |
+| [35370264](https://pubmed.ncbi.nlm.nih.gov/35370264/) | 2022 | Formulation study | Biol Pharm Bull | Hyaluronate sheets containing pilocarpine as a topical treatment for dry mouth, including in Sjögren syndrome |
+| [9797560](https://pubmed.ncbi.nlm.nih.gov/9797560/) | 1998 | Observational (biomarker) | Ann Rheum Dis | Measured salivary and serum hyaluronic acid concentrations in primary Sjögren syndrome |
+| [40346044](https://pubmed.ncbi.nlm.nih.gov/40346044/) | 2025 | Preclinical | Int J Oral Sci | Hydrogel platform for expanding human salivary acinar cell spheroids, relevant to dry mouth in Sjögren syndrome |
 
 ## Australia Market Information
 
@@ -92,26 +83,30 @@ Other registered trials identified (NCT04673643, NCT06544447, NCT07089511) test 
 |---------|------|------|-----------|
 | ARTG 14354L | Hylo-Fresh | Eye drops containing sodium hyaluronate 1 mg per mL, 10 mL | Not available |
 
+This is the only licence recorded, and it is valid. It is a single-ingredient ophthalmic product.
+
 ## Safety Considerations
 
-- **Contraindications (model signal, not label text)**: The TxGNN model (deep learning) links hyaluronic acid with glaucoma as a contraindication, which may reflect similarities the model learned between related diseases, not biological evidence. This should be checked against the Product Information.
-- **Drug Interactions**: Two moderate-level interactions were recorded, both with topical preservative agents: cetylpyridinium (topical) and benzalkonium (topical).
+- **Drug Interactions** (both Moderate): two interactions were identified, both with topical preservatives.
+  - Cetylpyridinium (topical)
+  - Benzalkonium (topical)
 
-For full warnings and contraindications, please refer to the TGA-approved Product Information (PI).
+No key warnings or contraindications are available in the data compiled. Please refer to the TGA-approved Product Information (PI) for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Dry eye syndrome is an established use of hyaluronic acid. It is supported by a completed Phase 3 vehicle-controlled RCT, several meta-analyses and a marketed Australian eye drop product. Other predicted indications (Sjögren syndrome, xerophthalmia, psoriasis, atopic dermatitis) have indirect or weak evidence, and the remainder (prolapse of lacrimal gland, parapsoriasis, pityriasis lichenoides, severe nonproliferative diabetic retinopathy, exanthem) are prediction-only with no supporting evidence.
+Hyaluronic acid eye drops are already marketed in Australia, and a comparative study in Sjögren patients supports a symptomatic role. However, there is no Phase 3 trial of hyaluronic acid itself in Sjogren syndrome, and any benefit would be limited to symptom relief.
 
 **To proceed, the following is needed:**
-- Product Information warnings and contraindications for the Australian product, including clarification of the glaucoma signal
-- The approved indication wording for ARTG 14354L
-- Detailed mechanism of action data
-- Review of the interaction with benzalkonium and cetylpyridinium in practice (for example, preservative-containing co-administered drops)
-- If a second Phase 3 RCT is sought for a stricter evidence grade, a search for additional HA-specific placebo-controlled trials
+- A controlled trial of hyaluronic acid eye drops in Sjögren patients, with a clear symptomatic endpoint
+- Mechanism of action data
+- Review of the PI for warnings and contraindications
+- Guidance on preservative-related interactions, including with benzalkonium and cetylpyridinium
+- Assessment of whether other routes (for example, oral or nasal) are suitable for dry mouth
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

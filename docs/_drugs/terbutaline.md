@@ -38,8 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Terbutaline is a short-acting beta-2 adrenergic agonist, originally used to treat asthma, bronchitis and pulmonary emphysema.
-The data compiled for this report include **14 clinical trials** and **20 publications** for this prediction, most of which use terbutaline as a comparator or reliever arm.
+Terbutaline is a short-acting beta-2 adrenergic agonist (bronchodilator). The TxGNN model predicts it may be relevant to **respiratory malformation**, but the evidence is thin: **1 registered clinical trial** (a broad paediatric pharmacokinetic study, not specific to this condition) and **13 publications**, none of which directly study respiratory malformation as a treatment target.
 
 ---
 
@@ -53,17 +52,15 @@ The data compiled for this report include **14 clinical trials** and **20 public
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Terbutaline is a selective beta-2 adrenergic agonist. It relaxes bronchial smooth muscle and so relieves airway narrowing. Detailed mechanism of action data are not available in the data compiled for this report, but this class effect is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Terbutaline is generally understood to be a beta-2 adrenergic agonist, which relaxes airway smooth muscle and produces bronchodilation.
 
-Obstructive lung disease (asthma and COPD) is a direct extension of terbutaline's established indications of asthma, bronchitis and emphysema. This is therefore closer to an on-label or near-label use than to true repurposing. The strong model score reflects this overlap.
-
-Terbutaline also appears in several large Phase 3 trials as the as-needed reliever arm, which supports its role in obstructive airway disease. Most of these trials were designed to test other products (such as budesonide/formoterol), so the evidence for terbutaline itself is largely indirect.
+This mechanism could, in principle, relieve secondary airway obstruction or airway hyperreactivity in a patient who has a respiratory malformation. It would not correct the structural abnormality itself. The supporting literature is mostly about asthma, differential diagnosis of airway stenosis, or unrelated topics, so the link between terbutaline and this prediction is indirect and should be read as a hypothesis only.
 
 ---
 
@@ -71,16 +68,7 @@ Terbutaline also appears in several large Phase 3 trials as the as-needed reliev
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02224157](https://clinicaltrials.gov/study/NCT02224157) | Phase 3 | Completed | 4215 | Symbicort as needed vs Pulmicort twice daily plus as-needed terbutaline in mild asthma |
-| [NCT02149199](https://clinicaltrials.gov/study/NCT02149199) | Phase 3 | Completed | 3850 | Symbicort as needed vs as-needed terbutaline vs Pulmicort plus as-needed terbutaline in asthma |
-| [NCT06626620](https://clinicaltrials.gov/study/NCT06626620) | Phase 3 | Completed | 120 | IV magnesium sulfate vs terbutaline in children with acute asthma exacerbation |
-| [NCT00849095](https://clinicaltrials.gov/study/NCT00849095) | Phase 3 | Completed | 860 | As-needed budesonide/formoterol vs regular combination plus as-needed terbutaline |
-| [NCT02322788](https://clinicaltrials.gov/study/NCT02322788) | Phase 3 | Completed | 95 | Bricanyl Turbuhaler M3 vs M2 against methacholine-induced bronchoconstriction in mild to moderate asthma |
-| [NCT00839800](https://clinicaltrials.gov/study/NCT00839800) | Phase 3 | Completed | 2091 | Symbicort SMART vs Symbicort plus as-needed terbutaline |
-| [NCT00421122](https://clinicaltrials.gov/study/NCT00421122) | Phase 3 | Completed | 315 | Symbicort vs Pulmicort (with Bricasol, a terbutaline pMDI) in Chinese COPD patients |
-| [NCT01096017](https://clinicaltrials.gov/study/NCT01096017) | Phase 3 | Completed | 24 | Terbutaline Turbuhaler 0.4 mg vs salbutamol pMDI in Japanese adults with asthma |
-| [NCT00837967](https://clinicaltrials.gov/study/NCT00837967) | Phase 3 | Completed | 25 | Tolerability of 10 inhalations of Symbicort vs terbutaline on top of regular Symbicort |
-| [NCT04973345](https://clinicaltrials.gov/study/NCT04973345) | Phase 2/3 | Withdrawn | 0 | IV vs subcutaneous terbutaline exposure-response in adults with asthma; no participants enrolled, so no data |
+| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | N/A | Recruiting | 5000 | Broad observational study of the pharmacokinetics and safety of understudied drugs given to children; not specific to respiratory malformation |
 
 ---
 
@@ -88,16 +76,18 @@ Terbutaline also appears in several large Phase 3 trials as the as-needed reliev
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29768149](https://pubmed.ncbi.nlm.nih.gov/29768149/) | 2018 | RCT | N Engl J Med | As-needed budesonide-formoterol as an alternative to conventional treatment in mild asthma |
-| [3073804](https://pubmed.ncbi.nlm.nih.gov/3073804/) | 1988 | RCT | Br J Dis Chest | Oral terbutaline increased diaphragmatic force vs placebo in COPD (10 patients) |
-| [6988343](https://pubmed.ncbi.nlm.nih.gov/6988343/) | 1980 | RCT | Int J Clin Pharmacol Ther Toxicol | Oral clenbuterol vs terbutaline over two weeks in chronic obstructive lung disease |
-| [30156361](https://pubmed.ncbi.nlm.nih.gov/30156361/) | 2019 | RCT | Acad Emerg Med | Nebulised terbutaline plus ipratropium vs terbutaline alone in acute COPD exacerbation requiring non-invasive ventilation |
-| [36227333](https://pubmed.ncbi.nlm.nih.gov/36227333/) | 2023 | Systematic review | Naunyn Schmiedebergs Arch Pharmacol | Clinical pharmacokinetics of terbutaline across routes, age, disease states and smoking |
-| [23348973](https://pubmed.ncbi.nlm.nih.gov/23348973/) | 2013 | Review | Am J Respir Crit Care Med | Beta-2 agonist therapy in lung disease; terbutaline provides rapid as-needed relief |
-| [10384064](https://pubmed.ncbi.nlm.nih.gov/10384064/) | 1999 | Randomised crossover trial | Lung | Single-dose terbutaline Turbuhaler on lung function and exercise capacity in COPD (26 patients) |
-| [1615190](https://pubmed.ncbi.nlm.nih.gov/1615190/) | 1992 | Randomised crossover trial | Respir Med | Inhaled terbutaline on FEV1, FVC, dyspnoea and walking distance in chronic obstructive lung disease |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline | Basic Clin Pharmacol Toxicol | Finnish guideline on diagnosis and pharmacotherapy of stable COPD |
-| [6107217](https://pubmed.ncbi.nlm.nih.gov/6107217/) | 1980 | Clinical study | Chest | Interaction of oral terbutaline with beta-blockers in patients with obstructive lung disease and cardiovascular disease |
+| [3281307](https://pubmed.ncbi.nlm.nih.gov/3281307/) | 1988 | RCT | Thorax | Double-blind comparison of subcutaneous adrenaline and terbutaline in 20 patients with acute severe asthma |
+| [1629507](https://pubmed.ncbi.nlm.nih.gov/1629507/) | 1992 | Clinical study (randomised) | J Allergy Clin Immunol | Inhaled budesonide vs terbutaline on airway inflammation in 14 adults with newly diagnosed asthma |
+| [12061354](https://pubmed.ncbi.nlm.nih.gov/12061354/) | 2002 | Cohort | Acta Paediatr | Central airway stenosis (including vascular ring anomalies) in 14 school-aged children, and its differentiation from asthma |
+| [11813927](https://pubmed.ncbi.nlm.nih.gov/11813927/) | 2001 | Case series | Cardiol Young | Oral terbutaline in fetal complete heart block; heart rate initially rose in 6 of 7 fetuses |
+| [1620986](https://pubmed.ncbi.nlm.nih.gov/1620986/) | 1992 | Clinical study | Respiration | Inhaled terbutaline reversed abnormal respiratory impedance in chronic bronchitis |
+| [19254906](https://pubmed.ncbi.nlm.nih.gov/19254906/) | 2009 | Clinical study | Arch Dis Child | Budesonide improved airway conductance in infants with respiratory symptoms |
+| [42303000](https://pubmed.ncbi.nlm.nih.gov/42303000/) | 2026 | Cohort | Respir Med | Multidimensional evaluation of long-term treatment in infants with post-infectious bronchiolitis obliterans |
+| [8327281](https://pubmed.ncbi.nlm.nih.gov/8327281/) | 1993 | Methodology | Pediatr Pulmonol | Flow-volume curve analysis in intubated premature infants before and after terbutaline |
+| [9628312](https://pubmed.ncbi.nlm.nih.gov/9628312/) | 1998 | Case report | Acta Paediatr | Follow-up of a patient with multiple anomalies and hypokalaemic paralysis, with partial symptom relief from terbutaline |
+| [2876923](https://pubmed.ncbi.nlm.nih.gov/2876923/) | 1986 | Comparative study | J Int Med Res | Tulobuterol vs terbutaline in childhood asthma |
+
+None of these publications tests terbutaline in respiratory malformation.
 
 ---
 
@@ -107,36 +97,33 @@ Terbutaline also appears in several large Phase 3 trials as the as-needed reliev
 |---------|------|------|-----------|
 | ARTG 1034K | Bricanyl | Injection containing terbutaline sulfate 500 micrograms in 1 mL | Not stated in the data compiled for this report |
 
+At least one valid single-ingredient licence is on record (1 valid, 0 cancelled).
+
 ---
 
 ## Safety Considerations
 
-**Contraindications / conditions of concern (not product label text):** hypertension, epilepsy, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, potassium deficiency, sudden cardiac arrest, heart conduction disease, respiratory failure, hyperthyroidism (Graves disease, thyrotoxicosis), pulmonary oedema, myocardial ischaemia, coronary artery disease and placental abruption.
+Label-based warnings and contraindications are not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for safety information.
 
-**Drug Interactions:** 100 interactions were identified. Examples:
-- **Moderate:** epinephrine, clarithromycin, famotidine, loperamide, isometheptene, bisacodyl, and several antidiabetic agents (acarbose, alogliptin, albiglutide, canagliflozin, chlorpropamide, pioglitazone). Antidiabetic interactions are plausibly related to terbutaline's hyperglycaemic effect.
-- **Minor:** corticosteroids (hydrocortisone, dexamethasone, budesonide, betamethasone, beclomethasone, triamcinolone).
+**Drug interactions:** 100 interactions were recorded. Examples at Moderate level include acarbose, epinephrine, famotidine, pioglitazone, canagliflozin, clarithromycin, alogliptin, albiglutide and chlorpropamide. Corticosteroids such as hydrocortisone, dexamethasone, budesonide and beclomethasone are recorded at Minor level.
 
-Cardiovascular effects (tachycardia, arrhythmia) and hypokalaemia deserve particular attention in older COPD patients. Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
+**Conditions flagged for caution (not label text):** hypertension, epilepsy, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, hypokalaemia (potassium deficiency), hyperthyroidism, cardiac arrest, heart conduction disease, respiratory failure, pulmonary oedema, myocardial ischaemia and coronary artery disease, and placental abruption.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-- Several large, completed Phase 3 trials include terbutaline in asthma and COPD, and the use closely overlaps with its established indications. However, terbutaline is mostly a comparator in these trials, so direct efficacy evidence is limited.
+The prediction score is high, but no study examines terbutaline in respiratory malformation, and the only registered trial is a general paediatric pharmacokinetic study. Beta-2 agonism could at most ease secondary airway symptoms, not treat the malformation. The evidence level is therefore L5.
 
 **To proceed, the following is needed:**
-- Review of the TGA Product Information for warnings and contraindications, which were not available in the data compiled for this report
-- Detailed mechanism of action data
-- Confirmation of approved indications and available routes for the Australian product (the single ARTG entry is an injection with no indication text recorded)
-- A cardiovascular, glucose and potassium monitoring plan, particularly for older patients and those with comorbidities listed above
+- Mechanism of action data and a clearer rationale for how bronchodilation would benefit this condition
+- Clinical or observational studies that directly examine terbutaline in respiratory malformation
+- Review of the TGA Product Information for warnings and contraindications, especially for the injectable form in paediatric patients
+- Confirmation of the approved indication text for the Australian licence
 
----
-
-*Other predictions (for context only):* COPD also reaches evidence level L1 and is a near-label use. The remaining predictions (respiratory malformation, Rienhoff syndrome) have little or no clinical evidence and are recommended as **Hold**.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

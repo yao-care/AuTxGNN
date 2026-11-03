@@ -38,9 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Cyclophosphamide is an oral and injectable alkylating chemotherapy agent that damages the DNA of rapidly dividing cells. The data compiled for this report include **30 listed clinical trials** and **20 publications**. Almost all of this evidence comes from cyclophosphamide used within stem cell transplant regimens, not as a standalone antileukemic treatment.
-
----
+Cyclophosphamide is an alkylating chemotherapy drug used across a range of cancers and lymphomas. The TxGNN model predicts it may be relevant to **retroperitoneal neoplasm**, but no clinical trials are registered and the supporting literature consists of case reports and small series in which cyclophosphamide was given within combination regimens.
 
 ## Quick Overview
 
@@ -52,55 +50,34 @@ Cyclophosphamide is an oral and injectable alkylating chemotherapy agent that da
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Cyclophosphamide is a prodrug. Its active metabolite, phosphoramide mustard, cross-links DNA and is cytotoxic to rapidly dividing cells, including myeloid blasts.
+Detailed mechanism of action data is not available in the data compiled for this report. Cyclophosphamide is a well-known alkylating agent that damages the DNA of rapidly dividing cells, which is the general basis for its use in many malignancies.
 
-In myeloid leukemia, cyclophosphamide is used mainly in two ways:
-- **Conditioning before stem cell transplant.** It is part of myeloablative regimens (such as busulfan/cyclophosphamide) and reduced-intensity regimens (such as cyclophosphamide/fludarabine).
-- **Post-transplant cyclophosphamide (PTCy).** This is given to prevent graft-versus-host disease (GVHD) by selectively depleting alloreactive T cells.
-
-The supporting studies test transplant strategies in which cyclophosphamide is one component. They do not show that cyclophosphamide alone is an effective antileukemic agent.
-
----
+"Retroperitoneal neoplasm" is an anatomical grouping rather than a single disease. It covers heterogeneous tumours such as paraganglioma, germ cell tumours, rhabdomyosarcoma and desmoplastic small round cell tumour. Cyclophosphamide has been used in some of these as part of multi-drug regimens (for example with vincristine and dacarbazine, or vincristine and doxorubicin). Because the reports are individual cases or small series, any benefit cannot be attributed to cyclophosphamide alone. The prediction is supported mainly by the model score and an indirect mechanistic fit.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00003187](https://clinicaltrials.gov/study/NCT00003187) | Phase 2/3 | Completed | 19 | Randomised trial of conventional vs T cell-depleted unrelated donor marrow transplant in haematological malignancies, including myeloid leukemia. Conditioning includes cyclophosphamide. |
-| [NCT00939653](https://clinicaltrials.gov/study/NCT00939653) | Phase 2 | Terminated | 6 | Clofarabine with etoposide and cyclophosphamide in relapsed/refractory AML. |
-| [NCT02441803](https://clinicaltrials.gov/study/NCT02441803) | Phase 2 | Completed | 11 | Allogeneic transplant as initial salvage therapy in primary induction-failure AML. |
-| [NCT02057770](https://clinicaltrials.gov/study/NCT02057770) | Phase 1 | Terminated | 25 | Myeloablative allogeneic or haploidentical transplant followed by high-dose post-transplant cyclophosphamide in relapsed/refractory AML. |
-| [NCT00005962](https://clinicaltrials.gov/study/NCT00005962) | Phase 2 | Completed | Not reported | Randomised immunologic and chemotherapeutic regimens in relapsed or refractory AML. |
-| [NCT04473911](https://clinicaltrials.gov/study/NCT04473911) | Phase 1 | Completed | 25 | Reduced-intensity haploidentical transplant with PTCy plus a novel GVHD prevention agent (RGI-2001) in haematological malignancies, including AML. |
-| [NCT00315705](https://clinicaltrials.gov/study/NCT00315705) | Phase 1/2 | Completed | 50 | Clofarabine, etoposide and cyclophosphamide in paediatric refractory/relapsed acute leukemias. |
-| [NCT04904588](https://clinicaltrials.gov/study/NCT04904588) | Phase 2 | Active, not recruiting | 300 | HLA-mismatched unrelated donor transplant with PTCy, tacrolimus and mycophenolate in haematological malignancies. |
-| [NCT00309842](https://clinicaltrials.gov/study/NCT00309842) | Phase 2 | Completed | 213 | Cord blood transplant after a cyclophosphamide/fludarabine/total body irradiation myeloablative regimen. |
-| [NCT05515029](https://clinicaltrials.gov/study/NCT05515029) | Phase 3 | Active, not recruiting | 56 | PTCy with abatacept, vedolizumab and a calcineurin inhibitor for GVHD prevention in children and young adults with haematological malignancies. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+None of the publications below is a controlled trial of cyclophosphamide in retroperitoneal neoplasm as a defined disease. They are case reports, case series and cohort studies of specific tumour types with retroperitoneal involvement, typically using combination chemotherapy.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40905088](https://pubmed.ncbi.nlm.nih.gov/40905088/) | 2026 | Cohort | Haematologica | 217 AML patients in remission, myeloablative transplant with PTCy: 2-year overall survival 77%, event-free survival 72%. |
-| [41046309](https://pubmed.ncbi.nlm.nih.gov/41046309/) | 2026 | Cohort | Bone Marrow Transplant | Registry comparison of cord blood transplant vs PTCy haploidentical transplant in AML in first remission. |
-| [42373850](https://pubmed.ncbi.nlm.nih.gov/42373850/) | 2026 | Cohort | Bone Marrow Transplant | Haploidentical vs mismatched unrelated transplant with PTCy in secondary AML (EBMT registry). |
-| [38758817](https://pubmed.ncbi.nlm.nih.gov/38758817/) | 2024 | Registry study | Cancer | PTCy vs anti-thymocyte globulin vs both for GVHD prevention in haploidentical transplant for AML. |
-| [38466265](https://pubmed.ncbi.nlm.nih.gov/38466265/) | 2024 | Cohort | Cytotherapy | Prognostic factors in haploidentical transplant with PTCy for AML. |
-| [36357773](https://pubmed.ncbi.nlm.nih.gov/36357773/) | 2023 | Systematic review / network meta-analysis | Bone Marrow Transplant | Comparison of myeloablative conditioning regimens (including busulfan/cyclophosphamide) in adult AML in remission. |
-| [40434956](https://pubmed.ncbi.nlm.nih.gov/40434956/) | 2025 | Cohort | Future Oncology | Busulfan/cyclophosphamide vs fludarabine/busulfan conditioning for allogeneic transplant in AML. |
-| [25345651](https://pubmed.ncbi.nlm.nih.gov/25345651/) | 2015 | Cohort | Am J Hematol | Cyclophosphamide/fludarabine non-myeloablative vs myeloablative transplant in 165 AML patients; survival outcomes did not differ significantly. |
-| [35955881](https://pubmed.ncbi.nlm.nih.gov/35955881/) | 2022 | Retrospective study | Int J Mol Sci | PTCy after matched sibling and unrelated donor transplant in paediatric AML. |
-| [14662323](https://pubmed.ncbi.nlm.nih.gov/14662323/) | 2003 | Review | Exp Hematol | Busulfan/cyclophosphamide vs total body irradiation/cyclophosphamide conditioning in AML. |
-
----
+| [10656434](https://pubmed.ncbi.nlm.nih.gov/10656434/) | 2000 | Cohort (Phase II) | Clin Cancer Res | Cyclophosphamide plus carboplatin in advanced seminoma: 32 of 46 patients (70%) reached complete remission with chemotherapy alone |
+| [9058098](https://pubmed.ncbi.nlm.nih.gov/9058098/) | 1997 | Case series | Intern Med | Cyclophosphamide, vincristine and dacarbazine in malignant paraganglioma with retroperitoneal and hepatic tumours |
+| [26813434](https://pubmed.ncbi.nlm.nih.gov/26813434/) | 2015 | Case series | Zhonghua Zhong Liu Za Zhi | Analysis of diagnosis and treatment of desmoplastic small round cell tumour |
+| [8874321](https://pubmed.ncbi.nlm.nih.gov/8874321/) | 1996 | Cohort | J Clin Oncol | High-dose ifosfamide, carboplatin and etoposide with stem-cell support in germ cell cancer (cyclophosphamide not part of the regimen) |
+| [15739629](https://pubmed.ncbi.nlm.nih.gov/15739629/) | 2004 | Case report and review | Pediatr Hematol Oncol | Malignant retroperitoneal paraganglioma in a child; chemotherapy debulking with cyclophosphamide, vincristine and dacarbazine |
+| [34689500](https://pubmed.ncbi.nlm.nih.gov/34689500/) | 2021 | Case report | J Coll Physicians Surg Pak | Testicular primitive neuroectodermal tumour with retroperitoneal nodes treated with IE and VAC chemotherapy |
+| [2191575](https://pubmed.ncbi.nlm.nih.gov/2191575/) | 1990 | Case report | Hinyokika Kiyo | Paratesticular rhabdomyosarcoma with retroperitoneal nodal spread; effective VAC therapy |
+| [2658509](https://pubmed.ncbi.nlm.nih.gov/2658509/) | 1989 | Case report | Hinyokika Kiyo | Advanced paratesticular rhabdomyosarcoma with retroperitoneal metastasis |
+| [4027886](https://pubmed.ncbi.nlm.nih.gov/4027886/) | 1985 | Case report | Cancer | Two infants with unresectable retroperitoneal fibrosarcoma achieved complete responses with doxorubicin, vincristine and cyclophosphamide |
+| [14606716](https://pubmed.ncbi.nlm.nih.gov/14606716/) | 2003 | Case report | Intern Med | Retroperitoneal fibrosis with intracranial lesions responded to corticosteroid and cyclophosphamide (a non-malignant condition) |
 
 ## Australia Market Information
 
@@ -108,52 +85,43 @@ The supporting studies test transplant strategies in which cyclophosphamide is o
 |---------|------|------|-----------|
 | ARTG 1266P | Cyclonex | Tablet 50 mg (anhydrous) | Not recorded in the local data |
 
----
+One licence is recorded and it is valid (single-ingredient product, oral route).
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (alkylating agent, nitrogen mustard class) |
-| Myelosuppression Risk | High (dose-dependent leukopenia and neutropenia; more severe in transplant conditioning doses) |
-| Emetogenicity Classification | Moderate (high at higher doses) |
-| Monitoring Items | FBC with differential, liver and renal function, electrolytes, urinalysis for haematuria (bladder toxicity) |
-| Handling Protection | Must follow cytotoxic drug handling regulations |
+| Cytotoxicity Classification | Conventional cytotoxic (alkylating agent) |
+| Myelosuppression Risk | High; neutropenia and other cytopenias are expected |
+| Emetogenicity Classification | Moderate (dose dependent) |
+| Monitoring Items | Full blood count with differential, liver and renal function, electrolytes, urinalysis for haematuria |
+| Handling Protection | Must follow cytotoxic drug handling requirements |
 
-Please also refer to the Product Information (PI) warnings and precautions.
-
----
+Please refer to the Product Information (PI) warnings and precautions for full details. Bladder toxicity (haemorrhagic cystitis) is a recognised concern with this drug class.
 
 ## Safety Considerations
 
-**Drug Interactions:** 100 interactions are recorded in the compiled data. The main ones listed are below.
-- **Moderate:**
-  - Amphotericin B (conventional, lipid complex, cholesteryl sulfate and liposomal forms)
-  - Bupropion
-  - Aprepitant
-  - Metronidazole
-  - Nitisinone
-  - Troglitazone
-  - Sulfonylurea and meglitinide antidiabetics: chlorpropamide, acetohexamide, glimepiride, glipizide, glyburide, tolazamide, tolbutamide, nateglinide, repaglinide
-- **Minor:** levofloxacin, ondansetron
+- **Drug Interactions**: The interaction screen returned 100 entries; the first 20 reviewed are mostly Moderate, with some Minor. Main ones include:
+  - Amphotericin B products (conventional, lipid complex, cholesteryl sulfate, liposomal): Moderate
+  - Sulfonylureas and related glucose-lowering agents (chlorpropamide, acetohexamide, glimepiride, glipizide, glyburide, tolazamide, tolbutamide, nateglinide, repaglinide, troglitazone): Moderate
+  - Bupropion, aprepitant, metronidazole, nitisinone: Moderate
+  - Levofloxacin, ondansetron: Minor
 
-No key warning or contraindication text is available in the compiled data. Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
-
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-- Multiple Phase 1–3 trials and several cohort studies involve cyclophosphamide in myeloid leukemia, mostly AML. The only completed Phase 2/3 randomised trial is small (n=19), and cyclophosphamide is part of the transplant backbone rather than the variable tested.
-- The evidence supports use within transplant conditioning and PTCy regimens only, not standalone use.
+There are no registered trials, and the literature consists of case reports and small series in which cyclophosphamide was part of multi-drug regimens for different tumour types. No cited study directly addresses retroperitoneal neoplasm as a single disease, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for the product.
-- Warnings and contraindications from the TGA-approved Product Information.
-- Randomised evidence in which cyclophosphamide, rather than the wider regimen, is the variable under study.
-- A defined, transplant-specific use setting and a monitoring plan for myelosuppression, bladder toxicity and drug interactions.
+- Mechanism of action data for cyclophosphamide
+- A defined tumour subtype within retroperitoneal neoplasm (for example sarcoma or germ cell tumour) with a clear clinical question
+- Evidence that separates the contribution of cyclophosphamide from the other drugs in combination regimens
+- Safety information from the TGA-approved Product Information (warnings and contraindications)
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

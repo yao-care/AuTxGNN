@@ -38,10 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Sertraline is a selective serotonin reuptake inhibitor (SSRI) originally used for anxiety and related disorders, including obsessive-compulsive disorder, post-traumatic stress disorder and social phobia.
-The TxGNN model predicts it may be effective for **histrionic personality disorder**, but **no clinical trials and no publications** currently support this prediction.
-
----
+Sertraline is an SSRI antidepressant that is registered and marketed in Australia.
+The TxGNN model predicts it may be relevant to **histrionic personality disorder (disease)**, but **no clinical trials and no publications** currently support this direction.
 
 ## Quick Overview
 
@@ -55,29 +53,19 @@ The TxGNN model predicts it may be effective for **histrionic personality disord
 | Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, sertraline is an SSRI, its efficacy in anxiety-spectrum disorders is established, and it could plausibly act on affective lability or impulsivity. This link is speculative, and no data support it.
+Detailed mechanism of action data are not available for the data compiled for this report. Sertraline is an SSRI, a class that increases serotonin signalling, and this is the only mechanistic context available.
 
-The prediction score is identical (0.9993) to the scores for several other personality disorders (paranoid, schizotypal and schizoid). This suggests the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The score alone should not be read as evidence of efficacy.
-
-For context, other predictions in the same data have much stronger support. Agoraphobia and major depressive disorder both have extensive trial and meta-analysis evidence, but they sit within or next to sertraline's existing use. They are not new repurposing opportunities.
-
----
+A possible, but speculative, link is serotonergic modulation of affective lability and impulsivity, which can feature in histrionic personality disorder. No data support this link. The same score of 0.9993 is shared by several other personality disorder predictions, which suggests the score may reflect a shared pattern in the model's neighbourhood rather than a signal specific to this disease. The prediction should be treated as hypothesis-generating only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Australia Market Information
 
@@ -85,35 +73,25 @@ Currently no related literature available.
 |---------|------|------|-----------|
 | 14400X | Zoloft | Tablet 50 mg (as hydrochloride) | Not specified in the data compiled |
 
-The only listed route is oral. The listing is a valid single-ingredient product.
-
----
-
 ## Safety Considerations
 
-**Contraindication-related conditions (from a drug-disease knowledge graph, not product label text):**
-epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, inappropriate ADH syndrome, nephrogenic syndrome of inappropriate antidiuresis and serotonin syndrome.
+- **Drug Interactions**: 100 interactions were identified in the interaction query. Major-level interactions among those listed include bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron and phentermine. Moderate-level interactions include famotidine, loperamide, morphine, acetylsalicylic acid, clarithromycin, and the sulfonylureas chlorpropamide and glimepiride, among others.
 
-**Drug Interactions:** The interaction query returned 100 interacting drugs.
-- **Major** interactions include bupropion, lorcaserin, diethylpropion, phentermine, dolasetron, palonosetron and eliglustat.
-- **Moderate** interactions include acetylsalicylic acid, morphine, clarithromycin, famotidine, loperamide, glimepiride, chlorpropamide, insulin aspart and dronabinol.
-
-For label warnings and contraindications, please refer to the TGA-approved Product Information (PI).
-
----
+Please refer to the TGA-approved Product Information (PI) for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support for this indication is a high model score, which is shared with other personality disorders. There are no trials and no publications. Any benefit is speculative.
+The prediction rests on a model score alone. There are no clinical trials or publications for histrionic personality disorder, and the mechanistic link is speculative, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Mechanism of action data and a disease-specific mechanistic rationale for histrionic personality disorder
-- Published or registered studies of sertraline in this condition, ideally controlled trials
-- The approved indication text and PI safety information (warnings and contraindications) for the Australian listing
-- A review of interaction risks for likely co-prescribed medicines, particularly the major interactions listed above
+- Any clinical or published evidence that directly studies sertraline in histrionic personality disorder
+- Detailed mechanism of action data
+- TGA Product Information warnings and contraindications for a safety review
+- A clear case for the clinical need and the target population before further evaluation
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

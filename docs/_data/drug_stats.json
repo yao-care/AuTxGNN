@@ -2,11 +2,11 @@
   "generated": "2026-11-03",
   "total_drugs": 749,
   "level_counts": {
-    "L1": 21,
+    "L1": 18,
     "L2": 24,
     "L3": 23,
-    "L4": 44,
-    "L5": 479
+    "L4": 46,
+    "L5": 480
   },
   "all_drugs": [
     {
@@ -474,7 +474,7 @@
     {
       "name": "Betamethasone",
       "slug": "betamethasone",
-      "level": "L2",
+      "level": "L4",
       "indication_count": 7
     },
     {
@@ -1974,7 +1974,7 @@
     {
       "name": "Hyaluronic Acid",
       "slug": "hyaluronic_acid",
-      "level": "L1",
+      "level": "L3",
       "indication_count": 9
     },
     {
@@ -2544,7 +2544,7 @@
     {
       "name": "Medroxyprogesterone Acetate",
       "slug": "medroxyprogesterone_acetate",
-      "level": "L5",
+      "level": "L3",
       "indication_count": 6
     },
     {
@@ -3372,7 +3372,7 @@
     {
       "name": "Prednisone",
       "slug": "prednisone",
-      "level": "L3",
+      "level": "L2",
       "indication_count": 9
     },
     {
@@ -3402,7 +3402,7 @@
     {
       "name": "Progesterone",
       "slug": "progesterone",
-      "level": "L1",
+      "level": "L4",
       "indication_count": 6
     },
     {
@@ -3810,7 +3810,7 @@
     {
       "name": "Sirolimus",
       "slug": "sirolimus",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 6
     },
     {
@@ -4266,7 +4266,7 @@
     {
       "name": "Triptorelin",
       "slug": "triptorelin",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 9
     },
     {

@@ -38,9 +38,9 @@ Evidence Level: **L2** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that is marketed in Australia as an oral capsule. This direction is supported by **no registered clinical trials** and **20 publications**, including several older double-blind crossover trials. The benefit appears to be symptomatic only, with no evidence of disease modification.
-
----
+Mefenamic acid is an oral non-steroidal anti-inflammatory drug (NSAID) that blocks prostaglandin synthesis.
+The TxGNN model predicts it may be useful for **headache disorder**.
+No clinical trials are registered for this indication, but **19 publications** were compiled, including several small, older randomised double-blind studies in migraine.
 
 ## Quick Overview
 
@@ -49,51 +49,37 @@ Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that is markete
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9964 |
-| Evidence Level | L2 (small, older randomised crossover trials; no Phase 3 data) |
+| Evidence Level | L2 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |
-| Recommended Decision | Hold (research question only) |
-
----
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Mefenamic acid is, however, a recognised NSAID that inhibits the COX-1 and COX-2 enzymes and so reduces prostaglandin synthesis. Prostaglandins mediate joint inflammation and pain in rheumatoid arthritis, so symptomatic relief is mechanistically plausible.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Mefenamic acid is an NSAID that inhibits cyclooxygenase (COX) and so reduces prostaglandin synthesis.
 
-Several older comparative trials support this. They compared mefenamic acid with ibuprofen, sulindac, flurbiprofen, indomethacin and placebo. There is no evidence that it modifies the disease course or slows joint damage. Reported adverse events include gastrointestinal toxicity and autoimmune haemolytic anaemia.
+Prostaglandins are implicated in headache and migraine pain. They are particularly implicated in menstrual migraine, where prostaglandin release is thought to be a driver. This gives a plausible mechanistic link between COX inhibition and headache relief.
 
-Other predictions from the same model are summarised below for context:
-
-| Predicted Indication | TxGNN Score | Evidence Level | Comment |
-|------|------|------|------|
-| Headache disorder | 0.9964 | L2 | RCTs in migraine (versus paracetamol, propranolol/placebo) |
-| Migraine disorder | 0.9923 | L2 | Small, dated RCTs, including a menstrual migraine trial |
-| Migraine with brainstem aura | 0.9921 | L5 | Indirect evidence only |
-
----
+The published randomised comparisons are small and mostly decades old. They cover acute migraine treatment against paracetamol, migraine prevention against propranolol and placebo, and menstrual migraine against placebo. They support the idea but do not settle it.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [373989](https://pubmed.ncbi.nlm.nih.gov/373989/) | 1979 | RCT (double-blind crossover) | Curr Med Res Opin | 24 patients; mefenamic acid 1500 mg/day, sulindac and flurbiprofen were all significantly better than placebo for pain, joint tenderness and morning stiffness |
-| [796645](https://pubmed.ncbi.nlm.nih.gov/796645/) | 1976 | RCT (vs ibuprofen) | Med J Aust | Mefenamic acid 1500 mg/day compared favourably with ibuprofen 1200 mg/day; side effects mild and mainly gastrointestinal |
-| [330287](https://pubmed.ncbi.nlm.nih.gov/330287/) | 1977 | RCT (vs ibuprofen) | J Int Med Res | 40 patients; no significant difference in analgesic or anti-inflammatory effect versus ibuprofen |
-| [326491](https://pubmed.ncbi.nlm.nih.gov/326491/) | 1977 | Double-blind crossover | Curr Med Res Opin | 18 patients; mefenamic acid and indomethacin both significantly better than placebo on most measures |
-| [4294443](https://pubmed.ncbi.nlm.nih.gov/4294443/) | 1967 | Clinical study | Ann Rheum Dis | Early clinical study of mefenamic acid in rheumatoid arthritis |
-| [5920657](https://pubmed.ncbi.nlm.nih.gov/5920657/) | 1966 | Comparative study | Br Med J | Mefenamic and flufenamic acid compared with aspirin and phenylbutazone |
-| [5333309](https://pubmed.ncbi.nlm.nih.gov/5333309/) | 1966 | Review | Br Med J | Overview of mefenamic acid |
-| [5676955](https://pubmed.ncbi.nlm.nih.gov/5676955/) | 1968 | Case report (safety) | Br Med J | Three patients developed warm-antibody autoimmune haemolytic anaemia; all recovered after withdrawal |
-| [1455792](https://pubmed.ncbi.nlm.nih.gov/1455792/) | 1992 | Clinical study | Vopr Kurortol Fizioter Lech Fiz Kult | Electrophoresis of mefenamic acid; complete or partial response in 75% of 125 patients (non-standard route, uncontrolled) |
-| [1540135](https://pubmed.ncbi.nlm.nih.gov/1540135/) | 1992 | Mechanistic | Biochem J | NSAIDs including mefenamic acid competitively inhibit folate-dependent enzymes in vitro |
-
----
+| [6347393](https://pubmed.ncbi.nlm.nih.gov/6347393/) | 1983 | RCT (double-blind crossover) | Cephalalgia | Mefenamic acid 500 mg compared with paracetamol 500 mg in 40 migraine patients over six attacks, with metoclopramide given in all attacks |
+| [3524092](https://pubmed.ncbi.nlm.nih.gov/3524092/) | 1986 | RCT (double-blind crossover) | Acta Neurol Scand | In 17 completers, mefenamic acid and propranolol both significantly reduced attack frequency and total duration versus placebo; no significant effect on average severity or duration |
+| [10799353](https://pubmed.ncbi.nlm.nih.gov/10799353/) | 2000 | RCT (double-blind, placebo) | Eur J Med Res | 24 women with menstrual migraine without aura were treated over two cycles, comparing mefenamic acid with placebo |
+| [22529203](https://pubmed.ncbi.nlm.nih.gov/22529203/) | 2012 | Guideline | Neurology | AAN/AHS evidence-based update on NSAIDs and other complementary treatments for episodic migraine prevention in adults |
+| [18427072](https://pubmed.ncbi.nlm.nih.gov/18427072/) | 2008 | Evidence-based review | Neurology | Systematic review and meta-analysis of therapy trials for acute and short-term preventive treatment of menstrually related migraine |
+| [20836574](https://pubmed.ncbi.nlm.nih.gov/20836574/) | 2010 | Review | Drugs | Prevention and treatment of menstrual migraine |
+| [8749241](https://pubmed.ncbi.nlm.nih.gov/8749241/) | 1995 | Review | Cephalalgia | Analgesics and NSAIDs for the acute migraine attack, usually with an antiemetic |
+| [1495823](https://pubmed.ncbi.nlm.nih.gov/1495823/) | 1992 | Review | Pathol Biol | Review of controlled NSAID studies in migraine attacks and prophylaxis, including mefenamic acid |
+| [40265504](https://pubmed.ncbi.nlm.nih.gov/40265504/) | 2025 | Review | Curr Opin Neurol | Update on the clinical course and management of migraine in women |
+| [29095288](https://pubmed.ncbi.nlm.nih.gov/29095288/) | 2017 | Case series and review (safety) | Medicine | Severe enteropathy with villous atrophy reported in prolonged mefenamic acid users |
 
 ## Australia Market Information
 
@@ -101,48 +87,31 @@ Currently no related clinical trials registered.
 |---------|------|------|-----------|
 | ARTG 1824B | FEMIN | Capsule 250 mg (oral) | Not available in the data compiled for this report |
 
----
-
 ## Safety Considerations
 
-**Contraindications suggested by the knowledge graph** (these come from knowledge graph relationships, not from product label text): hypertension, kidney disease, liver disease, gallbladder disease, peptic ulcer disease (including active), blood coagulation disease, myocardial infarction and coronary thrombosis, cardiovascular and heart disease, haemoglobinopathy, and pyoureter.
-
-**Safety signals reported in the literature:**
-- Gastrointestinal toxicity, including gastritis and bleeding duodenal ulcer
-- Enteropathy with villous atrophy and steatorrhoea, particularly with prolonged use
-- Nephropathy and acute tubular interstitial nephritis
-- Autoimmune haemolytic anaemia
-- Medication-overuse headache
-- Acute eosinophilic pneumonia (case report)
-
-**Drug interactions:** The interaction screen returned 100 interactions. Examples of those rated Moderate include:
-- Acetylsalicylic acid
-- Corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide)
-- Metformin and chlorpropamide
-- Mesalazine and balsalazide
-- Aprepitant
-- Potassium citrate and potassium bicarbonate
-- Bowel preparations (picosulfuric acid, polyethylene glycol with electrolytes)
-
-Minor interactions include famotidine, ranitidine, cimetidine, dapagliflozin and linaclotide.
+- **Drug Interactions**: The data compiled for this report list 100 recorded interactions. Examples:
+  - Moderate: corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), metformin, acetylsalicylic acid, mesalazine, balsalazide, aprepitant, chlorpropamide, potassium citrate and potassium bicarbonate.
+  - Minor: famotidine, ranitidine, cimetidine and dapagliflozin.
+- **Literature-based safety signals**:
+  - Severe enteropathy with villous atrophy has been reported with prolonged use.
+  - Analgesic-associated renal disease was documented in patients with chronic headache, with mefenamic acid among the commonly used agents.
+  - NSAID overuse is linked to medication-overuse headache, which is relevant to any long-term headache use.
 
 Please refer to the TGA-approved Product Information (PI) for full warnings and contraindications.
 
----
-
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-Mefenamic acid has several small, dated, double-blind crossover trials in rheumatoid arthritis showing symptomatic benefit comparable to other NSAIDs. There are no registered modern trials, no evidence of disease modification, and established NSAIDs already cover this use with a similar or better safety profile. The ARTG entry also carries no indication text, so the Australian approved use cannot be confirmed from the data available. It is best treated as a research question rather than a candidate for active repurposing.
+Several randomised double-blind studies in migraine, a major headache disorder, support a benefit. They are small and dated, however, and no registered trials or Phase 3 data exist. Safety concerns with prolonged use (enteropathy, renal effects, medication-overuse headache) call for restricted, short-term use and close monitoring.
 
 **To proceed, the following is needed:**
-- The TGA Product Information (warnings, contraindications and approved indications), because the safety data is currently blocking
-- Mechanism of action data from DrugBank
-- Confirmation of the approved indication for ARTG 1824B
-- Modern, adequately powered randomised trials against current standard NSAIDs, with gastrointestinal, renal and cardiovascular safety endpoints
-- A comparison with better-tolerated, established NSAIDs and with disease-modifying therapies, to define any role
+- Review of the TGA Product Information for warnings and contraindications
+- Confirmation of mechanism-of-action data
+- A modern, adequately powered randomised trial in a defined headache population, such as menstrual migraine
+- A plan to limit treatment duration and to monitor gastrointestinal, renal and cardiovascular risk and medication-overuse headache
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
