@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Cabazitaxel"
 predicted_indications: ["female breast carcinoma", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin E disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Cabazitaxel: predicted new indication female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -32,11 +32,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## Pharmacist Assessment Report
 
 </div>
-
-## Cabazitaxel: taxane microtubule inhibitor → 女性乳癌 (female breast carcinoma)
-{: .text-alpha }
-
-Note: the page language is English, so the main prediction is written once as "female breast carcinoma".
 
 ## Cabazitaxel: taxane microtubule inhibitor → female breast carcinoma
 {: .text-alpha }
