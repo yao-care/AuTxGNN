@@ -4,17 +4,17 @@ title: Hyaluronic Acid
 parent: High Evidence (L1-L2)
 nav_order: 351
 evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Hyaluronic Acid: predicted new indication Dry eye syndrome (evidence level L5). Approved use: Not stated in the data compiled for this report (the marketed product…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Hyaluronic acid"
-predicted_indications: ["dry eye syndrome", "Sjogren syndrome", "xerophthalmia", "psoriasis", "dermatitis, atopic", "prolapse of lacrimal gland", "parapsoriasis", "pityriasis lichenoides", "severe nonproliferative diabetic retinopathy", "exanthem (disease)"]
+predicted_indications: ["Sjogren syndrome", "xerophthalmia", "psoriasis", "dermatitis, atopic", "prolapse of lacrimal gland", "parapsoriasis", "pityriasis lichenoides", "severe nonproliferative diabetic retinopathy", "exanthem (disease)"]
+description: "Hyaluronic Acid: predicted new indication Sjogren syndrome (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Hyaluronic Acid
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,20 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Hyaluronic Acid: From Ocular Lubrication (Eye Drops) to Dry Eye Syndrome
+## Hyaluronic Acid: Sjogren syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Hyaluronic acid (sodium hyaluronate) is a lubricating, water-binding glycosaminoglycan that is marketed in Australia as an eye drop.
-The TxGNN model predicts it may be effective for **dry eye syndrome**, which is an established use rather than a new one,
-with **9 clinical trials** (including one completed Phase 3 randomised trial) and **20 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report (the marketed product is an ophthalmic eye drop) |
-| Predicted New Indication | Dry eye syndrome |
-| TxGNN Prediction Score | 0.9986 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Sjogren syndrome |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L1 per the scoring in the data; note that only one completed Phase 3 RCT (NCT00599716) is identified, so on the strict criteria (≥2 completed Phase 3 RCTs) this would be closer to L2, supported by meta-analyses |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |

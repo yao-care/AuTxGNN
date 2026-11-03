@@ -4,17 +4,17 @@ title: Vorinostat
 parent: Model Prediction Only (L5)
 nav_order: 785
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-30
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "Vorinostat"
-predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome"]
+predicted_indications: ["primary cutaneous B-cell lymphoma"]
 description: "Vorinostat: predicted new indication Primary cutaneous B-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vorinostat
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---

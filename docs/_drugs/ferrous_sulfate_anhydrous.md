@@ -4,17 +4,17 @@ title: Ferrous Sulfate Anhydrous
 parent: Model Prediction Only (L5)
 nav_order: 295
 evidence_level: L5
-indication_count: 4
-last_modified_at: 2026-10-30
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "Ferrous sulfate anhydrous"
-predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "non-syndromic esophageal malformation"]
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "biotin metabolic disease", "non-syndromic esophageal malformation"]
 description: "Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ferrous Sulfate Anhydrous
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -100,7 +100,6 @@ The prediction has no supporting clinical trials or literature (L5), and the pro
 - Mechanism of action data for ferrous sulfate
 - A literature review to determine whether iron has any role in constitutional megaloblastic anaemia
 - The TGA Product Information (including approved indications, warnings and contraindications) for both ARTG entries, as the data compiled for this report did not include them
-- Consideration of Plummer-Vinson syndrome as a separate research question, since iron replacement is already standard care and it is likely a rediscovery rather than a new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

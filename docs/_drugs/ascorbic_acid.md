@@ -4,17 +4,17 @@ title: Ascorbic Acid
 parent: Model Prediction Only (L5)
 nav_order: 62
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation . Best-supported candidate: inj… (evidence level L5). Approved use: Ascorbic acid deficiency"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Ascorbic acid"
-predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "perinatal disease", "florid cemento-osseous dysplasia", "disease by subcellular system affected", "vitamin deficiency disorder"]
+predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "perinatal disease", "florid cemento-osseous dysplasia", "disease by subcellular system affected"]
+description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ascorbic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ascorbic Acid: From Ascorbic Acid Deficiency (Scurvy) to non-syndromic esophageal malformation
+## Ascorbic Acid: Non-syndromic esophageal malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,9 +47,9 @@ The TxGNN model's top-ranked prediction is **non-syndromic esophageal malformati
 
 | Item | Content |
 |------|------|
-| Original Indication | Ascorbic acid deficiency; scurvy (the ARTG entry has no indication text recorded) |
-| Predicted New Indication | Non-syndromic esophageal malformation (rank 1, no evidence). Best-supported candidate: injury (rank 4) |
-| TxGNN Prediction Score | 0.9996 (rank 1 indication); 0.9960 (injury) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Non-syndromic esophageal malformation |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 for the rank 1 indication; L2 for injury |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |
@@ -71,7 +71,6 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Vitamin deficiency disorder | 0.9947 | L5 | Closest to the original indication, so largely on-label rather than true repurposing. Supported by a Phase 1 bioavailability study, an observational latent-scurvy study, case reports and reviews. Extension to alcohol use disorder, spondylodiscitis and care home residents is reasonable if guided by measured vitamin C status. Proceed with Guardrails. |
 | Perinatal disease | 0.9947 | L5 | One small completed RCT (n=60) of ascorbic acid plus ibuprofen in neonatal hypoxic ischaemic encephalopathy. The combination limits attribution and neonatal dosing and safety need evaluation. |
 | Oesophageal disease | 0.9990 | L4 | Mixed preclinical and review literature, with no clinical trials. One rat study (PMID 17953708) reports **enhanced** oesophageal carcinogenesis with ascorbic acid in an acid reflux model, which is a safety signal. |
 | Congenital prothrombin deficiency, biotin metabolic disease, segmental odontomaxillary dysplasia, florid cemento-osseous dysplasia, disease by subcellular system affected | 99.4–0.9970 | L5 | No plausible mechanism or clinical evidence. Prediction only. |
@@ -120,7 +119,6 @@ Publications for **injury** (up to 10 shown, prioritising higher-tier types):
 | [39769123](https://pubmed.ncbi.nlm.nih.gov/39769123/) | 2024 | In vitro | Int J Mol Sci | High-dose vitamin C and tendon cell degeneration; dose-dependent effects |
 | [26084697](https://pubmed.ncbi.nlm.nih.gov/26084697/) | 2015 | Crossover study | Am J Physiol Regul Integr Comp Physiol | Ascorbic acid (2 g daily) diminished microparticle elevations after SCUBA diving (n=14) |
 
-Related literature for **vitamin deficiency disorder** includes the cohort study [38291316](https://pubmed.ncbi.nlm.nih.gov/38291316/) (2024, ANZ J Surg) on ascorbic acid deficiency in spondylodiscitis patients, and several scurvy case reports and reviews.
 
 ---
 

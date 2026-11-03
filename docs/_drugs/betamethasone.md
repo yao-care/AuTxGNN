@@ -4,17 +4,17 @@ title: Betamethasone
 parent: High Evidence (L1-L2)
 nav_order: 90
 evidence_level: L2
-indication_count: 8
+indication_count: 7
 monitor_inn: "Betamethasone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-10-30
-description: "Betamethasone: predicted new indication alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
+last_modified_at: 2026-11-03
+description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **8** 
+Evidence Level: **L2** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,19 +33,19 @@ Evidence Level: **L2** | Predicted Indications: **8**
 
 </div>
 
-## Betamethasone: Corticosteroid (glucocorticoid) → alopecia areata
+## Betamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Betamethasone is a potent glucocorticoid with anti-inflammatory and immunosuppressive effects. The TxGNN model predicts it may be effective for **alopecia areata**, with **6 clinical trials** and **20 publications** currently supporting this direction, including several randomised trials of oral mini-pulse, topical and intralesional betamethasone in alopecia areata.
+Betamethasone is a potent glucocorticoid with anti-inflammatory and immunosuppressive effects.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | alopecia areata |
+| Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
 | Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
@@ -64,8 +64,6 @@ Alopecia areata is a T-cell-mediated autoimmune disease in which the immune priv
 |---------|------|------|------|---------|
 | [NCT06786689](https://clinicaltrials.gov/study/NCT06786689) | Phase 2 | Completed | 60 | Weekly azathioprine pulse vs oral betamethasone mini-pulse in moderate to severe alopecia areata |
 | [NCT02350023](https://clinicaltrials.gov/study/NCT02350023) | Phase 4 | Completed | 50 | Randomised comparison of topical latanoprost vs topical corticosteroid (betamethasone) in localised alopecia areata |
-| [NCT05803070](https://clinicaltrials.gov/study/NCT05803070) | N/A | Unknown | 59 | Topical cetirizine 1% vs betamethasone valerate 0.1% in localised alopecia areata |
-| [NCT06087796](https://clinicaltrials.gov/study/NCT06087796) | Phase 1 | Unknown | 60 | Topical pentoxifylline and metformin vs betamethasone valerate 0.1% in patchy alopecia areata |
 | [NCT07696585](https://clinicaltrials.gov/study/NCT07696585) | N/A | Not yet recruiting | 60 | Topical metformin, simvastatin and betamethasone valerate in patchy alopecia areata; no results yet |
 | [NCT04207931](https://clinicaltrials.gov/study/NCT04207931) | Phase 4 | Recruiting | 250 | Central centrifugal cicatricial alopecia (a different, scarring alopecia); related hair-loss condition only |
 

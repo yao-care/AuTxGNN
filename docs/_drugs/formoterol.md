@@ -4,17 +4,17 @@ title: Formoterol
 parent: Model Prediction Only (L5)
 nav_order: 317
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-30
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Formoterol"
-predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Formoterol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -64,7 +64,6 @@ Currently, detailed mechanism of action data is not available in the data compil
 For **respiratory malformation**, there is no credible mechanistic link. A bronchodilator cannot be expected to correct structural congenital malformations. The retrieved literature concerns asthma and COPD, not malformations, and the high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predictions in the list are more informative for context:
-- **Bronchitis** (rank 2) is supported indirectly through COPD trials.
 - Remaining predictions (Rienhoff syndrome, atopic eczema, interstitial emphysema, hyperlucent lung, compensatory emphysema, asthma-related traits) have no plausible mechanism and no supporting trials.
 
 ---
@@ -154,7 +153,6 @@ The top-ranked prediction has no clinical trials, no relevant literature, and no
 - Mechanism of action data (DrugBank) and a defensible biological rationale, if any further work on respiratory malformation is planned
 - TGA Product Information warnings and contraindications (currently a blocking gap for safety screening)
 - Approved indication text for the Foradile ARTG entry
-- If a novel use is sought, a review of lower-ranked predictions or of bronchitis (chronic bronchitis specifically), where evidence is indirect but plausible
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

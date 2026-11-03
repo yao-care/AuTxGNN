@@ -4,17 +4,17 @@ title: Chlorambucil
 parent: Model Prediction Only (L5)
 nav_order: 151
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 monitor_inn: "Chlorambucil"
-predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-last_modified_at: 2026-10-30
-description: "Chlorambucil: predicted new indication pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidence level L5). Approved use: Not recorded in the local data"
+predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
+last_modified_at: 2026-11-03
+description: "Chlorambucil: predicted new indication ALK-positive large B-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Chlorambucil: alkylating agent → pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma
+## Chlorambucil: ALK-positive large B-cell lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Chlorambucil is an oral alkylating agent that is marketed in Australia as a 2 mg tablet.
-The TxGNN model predicts it may be effective for **pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma**.
 There are **no registered clinical trials** and **1 publication** (a 2003 review) for this exact subtype, so support is indirect only.
 
 ## Quick Overview
@@ -47,8 +46,8 @@ There are **no registered clinical trials** and **1 publication** (a 2003 review
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma |
-| TxGNN Prediction Score | 0.9972 |
+| Predicted New Indication | ALK-positive large B-cell lymphoma |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |

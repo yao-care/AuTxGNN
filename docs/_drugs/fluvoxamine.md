@@ -4,17 +4,17 @@ title: Fluvoxamine
 parent: Model Prediction Only (L5)
 nav_order: 313
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Fluvoxamine"
-predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
+predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Fluvoxamine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluvoxamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -67,7 +67,6 @@ Better-supported predictions in the same report are **agoraphobia** (L1), **anxi
 | 7 | Benign paroxysmal torticollis of infancy | 0.9997 | L5 | Hold |
 | 8 | Dependent personality disorder | 0.9990 | L5 | Hold |
 | 9 | Narcissistic personality disorder | 0.9989 | L5 | Hold |
-| 10 | Endogenous depression | 0.9985 | L2 | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 

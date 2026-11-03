@@ -4,17 +4,17 @@ title: Omalizumab
 parent: Model Prediction Only (L5)
 nav_order: 526
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Omalizumab"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Omalizumab is an anti-IgE monoclonal antibody, originally used for asthma (including allergic and intrinsic asthma) and idiopathic urticaria.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, with **34 clinical trials** and **20 publications** linked to this prediction.
 Much of this signal restates its existing asthma indication, so the genuinely new evidence is limited to allergen-sensitised COPD and asthma-COPD overlap.
 
 *Note on choice of lead prediction:* The top-ranked TxGNN prediction by score is bronchitis (1.0000). However, its evidence is weak: one tiny trial of 11 participants and indirect literature. The obstructive lung disease prediction (rank 3) has the strongest supporting evidence, so this report focuses on it. Other predictions are summarised briefly in the conclusion.
@@ -64,7 +63,7 @@ Much of this signal restates its existing asthma indication, so the genuinely ne
 
 Detailed mechanism of action data is not available in the data compiled for this report. From pharmacology data, omalizumab is an antibody that targets immunoglobulin E (IgE, gene IGHE). It neutralises free IgE and reduces FcεRI expression on mast cells, basophils and dendritic cells. This dampens allergen-driven airway inflammation.
 
-Allergic asthma is itself an obstructive lung disease, so the prediction is largely a restatement of an established use. The potentially new part is chronic obstructive pulmonary disease (COPD). Evidence there is limited to patients who are allergen-sensitised or have asthma-COPD overlap. A Phase 2 trial in allergen-sensitised COPD (NCT07059091) is currently recruiting, and an earlier exploratory COPD study was withdrawn before enrolling anyone.
+The potentially new part is chronic obstructive pulmonary disease (COPD). Evidence there is limited to patients who are allergen-sensitised or have asthma-COPD overlap. A Phase 2 trial in allergen-sensitised COPD (NCT07059091) is currently recruiting, and an earlier exploratory COPD study was withdrawn before enrolling anyone.
 
 ---
 

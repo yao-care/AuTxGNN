@@ -4,17 +4,17 @@ title: Sapropterin
 parent: Model Prediction Only (L5)
 nav_order: 659
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-30
+indication_count: 2
+last_modified_at: 2026-11-03
 description: "Sapropterin: predicted new indication Disorder of tyrosine metabolism (evidence level L4). Approved use: Phenylketonuria"
 monitor_inn: "Sapropterin"
-predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"]
+predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome"]
 ---
 
 # Sapropterin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---

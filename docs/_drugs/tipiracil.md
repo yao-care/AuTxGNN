@@ -4,17 +4,17 @@ title: Tipiracil
 parent: Model Prediction Only (L5)
 nav_order: 729
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Tipiracil: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Malignant colon neoplasm / colorectal cancer"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "tipiracil"
-predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
+predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
+description: "Tipiracil: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tipiracil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tipiracil: From Colorectal Cancer to Cecum Villous Adenoma
+## Tipiracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,7 +45,7 @@ The TxGNN model predicts it may be effective for **cecum villous adenoma**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Malignant colon neoplasm / colorectal cancer (the approved indication text is not listed in the ARTG data compiled for this report) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cecum villous adenoma |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
@@ -114,7 +114,6 @@ The prediction for cecum villous adenoma is supported by model score alone (L5),
 - TGA Product Information, including warnings, contraindications and the approved indication text, to enable safety screening
 - Any preclinical or clinical evidence specific to adenomas or other premalignant colorectal lesions
 - A clear clinical rationale for systemic therapy over endoscopic resection
-- Consideration of whether the rectosigmoid junction neoplasm prediction should be treated as an on-label sub-site of colorectal cancer rather than a repurposing candidate
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

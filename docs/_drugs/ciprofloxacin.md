@@ -4,17 +4,17 @@ title: Ciprofloxacin
 parent: Model Prediction Only (L5)
 nav_order: 162
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L4). Approved use: Bacterial infections (e.g. typhoid fever, salmonellosis…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Ciprofloxacin"
-predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
+description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ciprofloxacin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ciprofloxacin: From Bacterial Infections to Diffuse Scleroderma
+## Ciprofloxacin: Diffuse scleroderma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,7 +48,7 @@ One 2010 paper suggests a possible skin antifibrotic effect, but its design and 
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (e.g. typhoid fever, salmonellosis, bacterial pneumonia, Pseudomonas aeruginosa infection, anthrax, shigellosis) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
@@ -119,7 +119,7 @@ The prediction rests on a very high model score, but there are no registered tri
 - Label safety information from the TGA PI, including tendon, neuropathy and QT warnings
 - A risk-benefit assessment for long-term use, including antimicrobial resistance and corticosteroid co-prescribing
 
-**Note on other predictions:** The strongest-supported prediction for this drug in the data compiled is **septicaemic plague** (TxGNN score 0.9964, Evidence Level L1, Proceed with Guardrails). It is supported by randomised trial publications, mainly in bubonic plague. It is an extension of ciprofloxacin's existing antibacterial spectrum, not a new mechanism, and it merits separate evaluation.
+**Note on other predictions:** The strongest-supported prediction for this drug in the data compiled is **septicaemic plague** (TxGNN score 0.9968, Evidence Level L1, Proceed with Guardrails). It is supported by randomised trial publications, mainly in bubonic plague. It is an extension of ciprofloxacin's existing antibacterial spectrum, not a new mechanism, and it merits separate evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

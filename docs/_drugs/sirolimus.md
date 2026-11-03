@@ -4,17 +4,17 @@ title: Sirolimus
 parent: Moderate Evidence (L3-L4)
 nav_order: 677
 evidence_level: L3
-indication_count: 7
-last_modified_at: 2026-10-30
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "Sirolimus"
-predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: predicted new indication Liposarcoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **7** 
+Evidence Level: **L3** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,7 @@ Evidence Level: **L3** | Predicted Indications: **7**
 
 Sirolimus is an mTOR inhibitor, listed among its original indications for renal cell carcinoma and lymphangioleiomyomatosis (LAM).
 The TxGNN model's top-ranked prediction is **liposarcoma**, supported by **1 Phase 2 clinical trial** and **7 publications**, mostly reviews with indirect relevance.
-Among the 10 predicted indications, the best-supported one is **lymphangiomyoma (LAM-related disease)**, with **9 clinical trials** including a completed Phase 3 trial. This is closer to confirming an existing use than true repurposing.
+This is closer to confirming an existing use than true repurposing.
 
 ## Quick Overview
 
@@ -73,7 +73,6 @@ The related predictions follow a clearer pattern:
 |---------|------|------|------|---------|
 | [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | Completed | 70 | Single-arm, multicentre trial of sirolimus plus cyclophosphamide in metastatic or unresectable myxoid liposarcoma and chondrosarcoma. No efficacy results provided. |
 
-**Lymphangiomyoma / LAM (rank 5, the best-supported prediction)**
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|

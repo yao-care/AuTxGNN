@@ -4,17 +4,17 @@ title: Haloperidol
 parent: Model Prediction Only (L5)
 nav_order: 349
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Haloperidol"
-predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Haloperidol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -121,7 +121,7 @@ The prediction is model-only (L5), with no trials, no literature and no plausibl
 - Product Information warnings and contraindications for the Australian ARTG entry
 - A safety assessment for a likely paediatric or rare-disease population
 
-**Note on other predictions:** In the same output, the lower-ranked prediction **manic bipolar affective disorder** (score 0.9983) has far stronger support. It has completed Phase 3 trials, including a haloperidol-controlled olanzapine trial (NCT00129220, n=224), and network meta-analyses of acute mania treatments. That use is close to existing clinical practice for haloperidol, so it is not true repurposing. It would warrant a separate evaluation, with monitoring for extrapyramidal symptoms, QTc prolongation and drug interactions.
+It has completed Phase 3 trials, including a haloperidol-controlled olanzapine trial (NCT00129220, n=224), and network meta-analyses of acute mania treatments. That use is close to existing clinical practice for haloperidol, so it is not true repurposing. It would warrant a separate evaluation, with monitoring for extrapyramidal symptoms, QTc prolongation and drug interactions.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

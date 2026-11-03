@@ -4,17 +4,17 @@ title: Magnesium Sulfate
 parent: Model Prediction Only (L5)
 nav_order: 443
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "Magnesium sulfate"
-predicted_indications: ["toxemia of pregnancy", "thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-10-30
-description: "Magnesium Sulfate: predicted new indication Toxemia of pregnancy (evidence level L5). Approved use: Not recorded in the local data"
+predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
+last_modified_at: 2026-11-03
+description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Magnesium Sulfate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Magnesium Sulfate: Toxemia of pregnancy
+## Magnesium Sulfate: Thrombotic disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Magnesium sulfate is a long-established drug, and the knowledge graph records constipation disorder and pre-eclampsia (mild and severe) as its known uses.
-The TxGNN model predicts it for **toxemia of pregnancy**, which is the older term for pre-eclampsia, so this is largely a confirmation of existing practice rather than a new indication.
 The prediction is supported by **30 registered clinical trials** and **20 publications**. Most of the trial evidence concerns dosing, duration and special populations rather than whether the drug works at all.
 
 ---
@@ -49,8 +48,8 @@ The prediction is supported by **30 registered clinical trials** and **20 public
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Toxemia of pregnancy |
-| TxGNN Prediction Score | 1.0000 |
+| Predicted New Indication | Thrombotic disease |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |

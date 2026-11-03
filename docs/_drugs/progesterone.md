@@ -4,17 +4,17 @@ title: Progesterone
 parent: High Evidence (L1-L2)
 nav_order: 606
 evidence_level: L1
-indication_count: 7
-last_modified_at: 2026-10-30
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "Progesterone"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-description: "Progesterone: predicted new indication Amenorrhea (disease) (evidence level L1). Approved use: Not recorded in the local data"
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **7** 
+Evidence Level: **L1** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **7**
 
 </div>
 
-## Progesterone: Amenorrhea (disease)
+## Progesterone: Breast fibrocystic disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,8 +47,8 @@ with **4 clinical trials** (all indirect, with estrogen as the main tested agent
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Amenorrhea (disease) |
-| TxGNN Prediction Score | 1.0000 |
+| Predicted New Indication | Breast fibrocystic disease |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L1 per the scoring in the data compiled for this report. However, the Phase 3 trial is only indirectly relevant, so the effective strength is lower (see Conclusion). |
 | Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 2 (valid: 2) |

@@ -4,17 +4,17 @@ title: Anakinra
 parent: Model Prediction Only (L5)
 nav_order: 50
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
+indication_count: 9
+last_modified_at: 2026-11-03
 description: "Anakinra: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "Anakinra"
-predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
+predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
 ---
 
 # Anakinra
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -62,7 +62,6 @@ For context, the other predicted indications in this evaluation were graded as f
 |------|------|------|------|------|
 | 1 | Extracutaneous mastocytoma | 0.9993 | L5 | Hold |
 | 2 | Hepatic infarction | 0.9989 | L5 | Hold |
-| 3 | Autosomal recessive familial Mediterranean fever | 0.9989 | L5 | Research Question |
 | 4 | Aggressive systemic mastocytosis | 0.9988 | L5 | Hold |
 | 5 | Hepatic veno-occlusive disease | 0.9988 | L5 | Hold |
 | 6 | Peliosis hepatis | 0.9985 | L5 | Hold |

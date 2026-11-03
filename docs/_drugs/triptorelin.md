@@ -4,17 +4,17 @@ title: Triptorelin
 parent: High Evidence (L1-L2)
 nav_order: 757
 evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-30
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Triptorelin"
-predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
+predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 description: "Triptorelin: predicted new indication Hypertrichosis (disease) (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Triptorelin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Triptorelin is a GnRH (gonadotropin-releasing hormone) agonist. The data compiled for this report do not list an approved indication for the Australian product.
-The TxGNN model's top-ranked prediction is hypertrichosis, which has no real support. This report instead evaluates the best-supported prediction, **precocious puberty** (rank 8, score 0.9989), backed by **8 clinical trials** (5 completed Phase 3 studies in central precocious puberty) and **20 publications**.
+The TxGNN model's top-ranked prediction is hypertrichosis, which has no real support.
 Note that this is largely a label-aligned use in other jurisdictions rather than a novel repurposing.
 
 ---

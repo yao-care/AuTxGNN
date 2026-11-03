@@ -1,7 +1,7 @@
 {
   "generated": "2026-03-26",
   "drug_count": 729,
-  "indication_count": 1698,
+  "indication_count": 1690,
   "drugs": [
     {
       "slug": "chlorpromazine",
@@ -8681,7 +8681,6 @@
         "balsalazide",
         "abiraterone",
         "apixaban",
-        "mefenamic_acid",
         "amiodarone",
         "mesalazine",
         "cabazitaxel",
@@ -10206,10 +10205,8 @@
         "zh": []
       },
       "related_drugs": [
-        "lanadelumab",
         "benzoic_acid",
-        "filgrastim",
-        "icatibant"
+        "filgrastim"
       ]
     },
     {
@@ -11068,7 +11065,6 @@
         "fluticasone_furoate",
         "plerixafor",
         "chloroform",
-        "salbutamol",
         "cefazolin",
         "valaciclovir",
         "propantheline",
@@ -11076,7 +11072,6 @@
         "framycetin",
         "infliximab",
         "granisetron",
-        "salmeterol",
         "kaolin",
         "valganciclovir",
         "propylene_glycol",
@@ -11086,7 +11081,6 @@
         "omalizumab",
         "botulinum_toxin_type_a",
         "ciclesonide",
-        "formoterol",
         "vedolizumab",
         "cabotegravir",
         "budesonide",
@@ -11106,7 +11100,6 @@
       "related_drugs": [
         "benzoic_acid",
         "epinephrine",
-        "hyaluronic_acid",
         "magnesium",
         "lactic_acid"
       ]
@@ -11310,7 +11303,6 @@
       },
       "related_drugs": [
         "imatinib",
-        "anakinra",
         "octreotide",
         "pirfenidone",
         "siltuximab",
@@ -13341,7 +13333,6 @@
         "zh": []
       },
       "related_drugs": [
-        "sertraline",
         "mirtazapine",
         "paroxetine",
         "reboxetine",
@@ -13349,13 +13340,11 @@
         "flunitrazepam",
         "zopiclone",
         "duloxetine",
-        "alprazolam",
         "fluvoxamine",
         "dosulepin",
         "imipramine",
         "moclobemide",
         "nortriptyline",
-        "fluoxetine",
         "olanzapine",
         "desvenlafaxine",
         "venlafaxine",
@@ -13407,7 +13396,6 @@
       },
       "related_drugs": [
         "sertraline",
-        "fluvoxamine",
         "amitriptyline",
         "clomipramine"
       ]
@@ -14848,7 +14836,6 @@
         "obinutuzumab",
         "ixekizumab",
         "mechlorethamine",
-        "chlorambucil",
         "venetoclax"
       ]
     },
@@ -15064,7 +15051,6 @@
         "zh": []
       },
       "related_drugs": [
-        "ceftriaxone",
         "cefazolin",
         "carbamide_peroxide",
         "lanthanum_carbonate",
@@ -15105,7 +15091,6 @@
         "zh": []
       },
       "related_drugs": [
-        "ceftriaxone",
         "cefazolin",
         "cefuroxime",
         "lanthanum_carbonate"
@@ -15450,7 +15435,6 @@
         "zonisamide",
         "methadone",
         "clozapine",
-        "haloperidol",
         "fentanyl",
         "prochlorperazine",
         "lurasidone",
@@ -15846,7 +15830,6 @@
         "anastrozole",
         "vorinostat",
         "palbociclib",
-        "cyclophosphamide",
         "venetoclax",
         "zanubrutinib"
       ]
@@ -17204,13 +17187,10 @@
         "rizatriptan",
         "elafibranor",
         "darbepoetin_alfa",
-        "medroxyprogesterone_acetate",
         "etonogestrel",
         "naratriptan",
-        "norethisterone",
         "lactic_acid",
         "teriparatide",
-        "progesterone",
         "zolmitriptan"
       ]
     },
@@ -17741,7 +17721,6 @@
         "cobimetinib",
         "edaravone",
         "nintedanib",
-        "riluzole",
         "upadacitinib"
       ]
     },
@@ -17907,9 +17886,7 @@
         "lenalidomide",
         "acalabrutinib",
         "carmustine",
-        "vorinostat",
-        "mechlorethamine",
-        "cyclophosphamide"
+        "vorinostat"
       ]
     },
     {
@@ -18052,15 +18029,10 @@
       "related_drugs": [
         "fluticasone_furoate",
         "salbutamol",
-        "terbutaline",
-        "salmeterol",
         "epinephrine",
-        "omalizumab",
-        "tiotropium",
         "ipratropium",
         "formoterol",
-        "theophylline",
-        "montelukast"
+        "theophylline"
       ]
     },
     {
@@ -18096,18 +18068,6 @@
         "cetrorelix",
         "ganirelix",
         "degarelix"
-      ]
-    },
-    {
-      "name": "precocious puberty",
-      "keywords": {
-        "en": [
-          "precocious puberty"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "triptorelin"
       ]
     },
     {
@@ -20822,7 +20782,6 @@
         "obinutuzumab",
         "ixekizumab",
         "mechlorethamine",
-        "chlorambucil",
         "venetoclax"
       ]
     },
@@ -21446,8 +21405,6 @@
       },
       "related_drugs": [
         "sodium_chloride",
-        "nystatin",
-        "clotrimazole",
         "ivermectin"
       ]
     },
@@ -21598,7 +21555,6 @@
         "zonisamide",
         "loperamide",
         "rifampicin",
-        "chloramphenicol",
         "flucloxacillin",
         "rifabutin",
         "isoniazid"
@@ -21664,7 +21620,6 @@
       },
       "related_drugs": [
         "ferrous_fumarate",
-        "ferrous_sulfate_anhydrous",
         "alendronic_acid",
         "folic_acid",
         "docusate"
@@ -22152,8 +22107,7 @@
         "zh": []
       },
       "related_drugs": [
-        "certolizumab_pegol",
-        "prednisone"
+        "certolizumab_pegol"
       ]
     },
     {
@@ -22471,7 +22425,6 @@
         "framycetin",
         "lincomycin",
         "phenoxymethylpenicillin",
-        "cefuroxime",
         "folic_acid"
       ]
     },
@@ -22859,12 +22812,9 @@
         "zh": []
       },
       "related_drugs": [
-        "methylprednisolone",
         "prednisolone",
-        "dexamethasone",
         "hydrocortisone_acetate",
         "hydroxychloroquine",
-        "betamethasone",
         "hydrocortisone",
         "fluticasone_propionate",
         "prednisone"
@@ -23937,7 +23887,6 @@
       },
       "related_drugs": [
         "estradiol",
-        "clomifene",
         "norethisterone"
       ]
     },
@@ -24287,18 +24236,6 @@
       ]
     },
     {
-      "name": "hyperphenylalaninemia due to tetrahydrobiopterin deficiency",
-      "keywords": {
-        "en": [
-          "hyperphenylalaninemia due to tetrahydrobiopterin deficiency"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "sapropterin"
-      ]
-    },
-    {
       "name": "genetic otorhinolaryngological malformation",
       "keywords": {
         "en": [
@@ -24583,12 +24520,8 @@
         "zh": []
       },
       "related_drugs": [
-        "risperidone",
         "nortriptyline",
-        "clozapine",
-        "ziprasidone",
-        "asenapine",
-        "aripiprazole"
+        "clozapine"
       ]
     },
     {
@@ -24814,7 +24747,6 @@
         "zh": []
       },
       "related_drugs": [
-        "cortisone",
         "octreotide"
       ]
     },
@@ -24857,7 +24789,6 @@
         "zh": []
       },
       "related_drugs": [
-        "cortisone",
         "mometasone",
         "clobetasol"
       ]
@@ -25102,7 +25033,6 @@
         "zh": []
       },
       "related_drugs": [
-        "acetylsalicylic_acid",
         "magnesium_sulfate",
         "zinc_sulfate",
         "kaolin",
@@ -25679,18 +25609,6 @@
       ]
     },
     {
-      "name": "toxemia of pregnancy",
-      "keywords": {
-        "en": [
-          "toxemia of pregnancy"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "magnesium_sulfate"
-      ]
-    },
-    {
       "name": "hematological disease associated with an acquired peripheral neuropathy",
       "keywords": {
         "en": [
@@ -25723,7 +25641,6 @@
         "lincomycin",
         "clarithromycin",
         "amoxicillin",
-        "ciprofloxacin",
         "ofloxacin",
         "norfloxacin"
       ]
@@ -25951,7 +25868,6 @@
       },
       "related_drugs": [
         "framycetin",
-        "ascorbic_acid",
         "hydroxocobalamin",
         "zoledronic_acid",
         "docusate"
@@ -26067,7 +25983,6 @@
         "zh": []
       },
       "related_drugs": [
-        "potassium_citrate",
         "docusate"
       ]
     },
@@ -26559,8 +26474,7 @@
       "related_drugs": [
         "granisetron",
         "loperamide",
-        "rifampicin",
-        "erythromycin"
+        "rifampicin"
       ]
     },
     {
@@ -26612,8 +26526,7 @@
       "related_drugs": [
         "fluorouracil",
         "cabazitaxel",
-        "raltitrexed",
-        "hydroxyurea"
+        "raltitrexed"
       ]
     },
     {
@@ -26941,18 +26854,6 @@
       "keywords": {
         "en": [
           "straddling or overriding tricuspid valve"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "alprostadil"
-      ]
-    },
-    {
-      "name": "tricuspid valve agenesis",
-      "keywords": {
-        "en": [
-          "tricuspid valve agenesis"
         ],
         "zh": []
       },
@@ -27411,18 +27312,6 @@
       ]
     },
     {
-      "name": "ventricular tachycardia",
-      "keywords": {
-        "en": [
-          "ventricular tachycardia"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "amiodarone"
-      ]
-    },
-    {
       "name": "gastric ulcer (disease)",
       "keywords": {
         "en": [
@@ -27537,8 +27426,7 @@
       },
       "related_drugs": [
         "cabazitaxel",
-        "raltitrexed",
-        "hydroxyurea"
+        "raltitrexed"
       ]
     },
     {
@@ -27551,8 +27439,7 @@
       },
       "related_drugs": [
         "cabazitaxel",
-        "raltitrexed",
-        "hydroxyurea"
+        "raltitrexed"
       ]
     },
     {
@@ -28178,7 +28065,6 @@
       },
       "related_drugs": [
         "amisulpride",
-        "clozapine",
         "naloxone"
       ]
     },
@@ -28289,8 +28175,7 @@
       },
       "related_drugs": [
         "lapatinib",
-        "ruxolitinib",
-        "sirolimus"
+        "ruxolitinib"
       ]
     },
     {
@@ -28721,8 +28606,7 @@
         "zh": []
       },
       "related_drugs": [
-        "carmustine",
-        "bleomycin"
+        "carmustine"
       ]
     },
     {
@@ -28786,21 +28670,8 @@
         "zh": []
       },
       "related_drugs": [
-        "albendazole",
         "mebendazole",
         "griseofulvin"
-      ]
-    },
-    {
-      "name": "Cestode infectious disease",
-      "keywords": {
-        "en": [
-          "Cestode infectious disease"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "albendazole"
       ]
     },
     {
@@ -29757,18 +29628,6 @@
       "keywords": {
         "en": [
           "glottis squamous cell carcinoma"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "cemiplimab"
-      ]
-    },
-    {
-      "name": "external ear basal cell carcinoma",
-      "keywords": {
-        "en": [
-          "external ear basal cell carcinoma"
         ],
         "zh": []
       },
@@ -33562,18 +33421,6 @@
       "related_drugs": [
         "vorinostat",
         "maraviroc"
-      ]
-    },
-    {
-      "name": "Sezary syndrome",
-      "keywords": {
-        "en": [
-          "Sezary syndrome"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "vorinostat"
       ]
     },
     {

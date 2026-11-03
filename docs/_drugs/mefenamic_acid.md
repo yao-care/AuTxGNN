@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: High Evidence (L1-L2)
 nav_order: 453
 evidence_level: L2
-indication_count: 7
-last_modified_at: 2026-10-30
-description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "Mefenamic acid"
-predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **7** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **7**
 
 </div>
 
-## Mefenamic Acid: From Pain and Inflammation (Original Indication Not Recorded) to Rheumatoid Arthritis
+## Mefenamic Acid: Headache disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that is marketed in Australia as an oral capsule. The TxGNN model predicts it may be effective for **rheumatoid arthritis**. This direction is supported by **no registered clinical trials** and **20 publications**, including several older double-blind crossover trials. The benefit appears to be symptomatic only, with no evidence of disease modification.
+Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that is marketed in Australia as an oral capsule. This direction is supported by **no registered clinical trials** and **20 publications**, including several older double-blind crossover trials. The benefit appears to be symptomatic only, with no evidence of disease modification.
 
 ---
 
@@ -46,9 +46,9 @@ Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that is markete
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text) |
-| Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 0.9973 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Headache disorder |
+| TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L2 (small, older randomised crossover trials; no Phase 3 data) |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |

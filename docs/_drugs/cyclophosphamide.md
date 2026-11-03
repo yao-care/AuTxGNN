@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cyclophosphamide
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 188
-evidence_level: L2
-indication_count: 4
+evidence_level: L5
+indication_count: 2
 monitor_inn: "Cyclophosphamide"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
-last_modified_at: 2026-10-30
-description: "Cyclophosphamide: predicted new indication myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+last_modified_at: 2026-11-03
+description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 </div>
 
-## Cyclophosphamide: alkylating cytotoxic agent (DNA cross-linking) → myeloid leukemia
+## Cyclophosphamide: Vertebral anomalies and variable endocrine and T-cell dysfunction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Cyclophosphamide is an oral and injectable alkylating chemotherapy agent that damages the DNA of rapidly dividing cells. The TxGNN model predicts it may be useful in **myeloid leukemia** (score 0.9947). The data compiled for this report include **30 listed clinical trials** and **20 publications**. Almost all of this evidence comes from cyclophosphamide used within stem cell transplant regimens, not as a standalone antileukemic treatment.
+Cyclophosphamide is an oral and injectable alkylating chemotherapy agent that damages the DNA of rapidly dividing cells. The data compiled for this report include **30 listed clinical trials** and **20 publications**. Almost all of this evidence comes from cyclophosphamide used within stem cell transplant regimens, not as a standalone antileukemic treatment.
 
 ---
 
@@ -47,9 +47,9 @@ Cyclophosphamide is an oral and injectable alkylating chemotherapy agent that da
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | myeloid leukemia |
-| TxGNN Prediction Score | 0.9947 |
-| Evidence Level | L2 |
+| Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
+| TxGNN Prediction Score | 0.9938 |
+| Evidence Level | L5 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |

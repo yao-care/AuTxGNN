@@ -4,17 +4,17 @@ title: Clozapine
 parent: Model Prediction Only (L5)
 nav_order: 178
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-11-03
-description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not available in the data compiled for this report . Published litera…"
 monitor_inn: "Clozapine"
-predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "psychotic disorder", "Malan overgrowth syndrome"]
+predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
+description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Clozapine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Clozapine: From Treatment-Resistant Schizophrenia to Manic Bipolar Affective Disorder
+## Clozapine: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,7 +44,7 @@ Clozapine is an atypical antipsychotic marketed in Australia as an oral tablet (
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report (the ARTG entry has no indication text). Published literature describes clozapine as established for treatment-resistant schizophrenia |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 (one completed Phase 2 double-blind trial, n=42). For bipolar disorder more broadly, a completed Phase 3 paediatric trial supports L1 |
@@ -121,7 +121,6 @@ A completed Phase 2 double-blind trial in treatment-resistant mania, a completed
 | Predicted Indication | TxGNN Score | Evidence Level | Decision |
 |---|---|---|---|
 | Bipolar disorder | 0.9962 | L1 | Proceed with Guardrails |
-| Psychotic disorder | 0.9912 | L1 | Proceed with Guardrails (on-label or established use) |
 | Schizophreniform disorder | 0.9969 | L2 | Proceed with Guardrails |
 | Major affective disorder | 0.9948 | L2 | Research question (unipolar depression not supported) |
 | Tourette syndrome | 0.9991 | L4 | Hold (case reports only) |

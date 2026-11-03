@@ -4,17 +4,17 @@ title: Prednisone
 parent: Moderate Evidence (L3-L4)
 nav_order: 601
 evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Prednisone: predicted new indication Alopecia areata (evidence level L3). Approved use: Autoimmune disease, Crohn disease, adrenocortical insufficiency…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Prednisone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
+description: "Prednisone: predicted new indication Alopecia areata (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Prednisone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Prednisone: From Autoimmune and Inflammatory Conditions to Alopecia Areata
+## Prednisone: Alopecia areata
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,7 +48,7 @@ with **no registered clinical trials** but **20 publications** (including one ra
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease, Crohn disease, adrenocortical insufficiency, acute lymphoblastic leukaemia and others (the Australian product record lists no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |

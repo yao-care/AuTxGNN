@@ -4,17 +4,17 @@ title: Cortisone
 parent: Model Prediction Only (L5)
 nav_order: 185
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-30
-description: "Cortisone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L4). Approved use: Not available"
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "Cortisone"
-predicted_indications: ["primary cutaneous T-cell lymphoma", "adrenocortical insufficiency", "myelodysplastic syndrome", "lymphosarcoma", "candidiasis", "Crohn's colitis", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5"]
+predicted_indications: ["primary cutaneous T-cell lymphoma", "myelodysplastic syndrome", "lymphosarcoma", "candidiasis", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5"]
+description: "Cortisone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cortisone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Cortisone: From a Corticosteroid with No Recorded Indication to Primary Cutaneous T-Cell Lymphoma
+## Cortisone: Primary cutaneous T-cell lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,7 +45,7 @@ The TxGNN model predicts it may be effective for **primary cutaneous T-cell lymp
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the ARTG entry has no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |

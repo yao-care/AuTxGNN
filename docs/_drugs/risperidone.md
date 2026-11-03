@@ -4,17 +4,17 @@ title: Risperidone
 parent: Model Prediction Only (L5)
 nav_order: 641
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-30
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "Risperidone"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,6 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 Risperidone is an atypical antipsychotic originally used for schizophrenia, bipolar disorder and autism-related symptoms.
 The TxGNN model's top-ranked prediction is **familial horizontal gaze palsy with progressive scoliosis**, an ultra-rare genetic disorder, but there are **0 clinical trials** and **0 publications** supporting this prediction.
-Stronger evidence exists for other predicted indications, notably adjunctive use in **major affective disorder** (treatment-resistant depression) and **Tourette syndrome**, which are covered below.
 
 ## Quick Overview
 
@@ -128,7 +127,7 @@ No label-based warnings or contraindications were available in the data compiled
 
 **Rationale:**
 - The prediction has no clinical or literature support and no plausible mechanism (ROBO3-related axon guidance disorder). The high score reflects network proximity only.
-- Other predicted indications are better supported: major affective disorder (adjunctive use in treatment-resistant depression; L1, two completed Phase 3 trials plus meta-analyses), intellectual disability (behavioural symptoms; L1) and Tourette syndrome (L2) are **Proceed with Guardrails**. Trichotillomania and Phelan-McDermid syndrome are research questions (L4, case reports and preclinical data only). Asperger syndrome, autism susceptibility, amelocerebrohypohidrotic syndrome and 15q11.2 deletion syndrome are Hold, since they either duplicate existing use or have no evidence.
+- Trichotillomania and Phelan-McDermid syndrome are research questions (L4, case reports and preclinical data only). Asperger syndrome, autism susceptibility, amelocerebrohypohidrotic syndrome and 15q11.2 deletion syndrome are Hold, since they either duplicate existing use or have no evidence.
 
 **To proceed, the following is needed:**
 - TGA Product Information (warnings, contraindications and approved indications) for risperidone products

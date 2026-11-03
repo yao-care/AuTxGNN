@@ -4,17 +4,17 @@ title: Asenapine
 parent: Model Prediction Only (L5)
 nav_order: 63
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Asenapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Manic bipolar affective disorder, bipolar disorder, schizophrenia"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Asenapine"
-predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "major affective disorder"]
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Asenapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Asenapine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Asenapine: From Bipolar Disorder and Schizophrenia to Retinal dystrophy with or without extraocular anomalies
+## Asenapine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,7 +46,7 @@ However, there are **no clinical trials** and **no publications** supporting thi
 
 | Item | Content |
 |------|------|
-| Original Indication | Manic bipolar affective disorder, bipolar disorder, schizophrenia |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 No plausible mechanistic link to retinal dystrophy has been identified. Retinal dystrophies are largely genetic conditions affecting the retina, and asenapine's receptor pharmacology has no known connection to those genetic causes. The high score (0.9977) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-**Note:** Among the other predictions, "major affective disorder" (rank 10, score 0.9957) is the only one with supporting literature. It is essentially on-label or closely related to asenapine's approved uses, so it is not a true repurposing candidate. Its evidence is summarised in the conclusion below.
+It is essentially on-label or closely related to asenapine's approved uses, so it is not a true repurposing candidate. Its evidence is summarised in the conclusion below.
 
 ## Clinical Trial Evidence
 
@@ -98,7 +98,7 @@ For full safety information, please refer to the TGA-approved Product Informatio
 
 **Rationale:**
 - The retinal dystrophy prediction is supported only by a model score. There are no trials or publications, and no plausible mechanism links asenapine's receptor antagonism to this largely genetic group of retinal diseases.
-- By contrast, the "major affective disorder" prediction is supported by a meta-analysis of randomised trials (PMID 23719049) and several reviews. It would be rated L1 and "Proceed with Guardrails", but it largely restates existing indications.
+- It would be rated L1 and "Proceed with Guardrails", but it largely restates existing indications.
 
 **To proceed, the following is needed:**
 - A biological rationale or preclinical data linking asenapine to retinal dystrophy pathways
