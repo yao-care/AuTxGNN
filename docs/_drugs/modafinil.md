@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Modafinil
-parent: High Evidence (L1-L2)
+parent: Moderate Evidence (L3-L4)
 nav_order: 485
-evidence_level: L1
+evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "Modafinil"
 predicted_indications: ["insomnia (disease)"]
-description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L1). Approved use: Not recorded in the local data"
+description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Modafinil
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **1** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,8 @@ Evidence Level: **L1** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Modafinil is a wake-promoting agent originally used to treat narcolepsy and excessive daytime sleepiness.
-The TxGNN model predicts it may be effective for **insomnia (disease)**,
-with **14 clinical trials** and **20 publications** currently supporting this direction.
+Modafinil is a wake-promoting agent that is pharmacologically different from classical stimulants.
+The TxGNN model predicts it may be relevant to **insomnia (disease) (insomnia)**, but the supporting evidence is thin: **2 registered clinical trials** (one small completed Phase 4 study in primary insomnia, one terminated Phase 4 study) and no publication that studies modafinil in insomnia directly. The evidence level is **L3**.
 
 ## Quick Overview
 
@@ -49,55 +48,41 @@ with **14 clinical trials** and **20 publications** currently supporting this di
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9985 |
-| Evidence Level | L1 |
+| Evidence Level | L3 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
 | Number of PBS Items | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on the literature reviewed, modafinil promotes wakefulness through dopamine transporter inhibition and effects on histaminergic, orexinergic and glutamatergic circuits. It is already established for excessive sleepiness in narcolepsy.
+Detailed mechanism of action data is not available for this report. Modafinil is known as a wake-promoting agent used for excessive sleepiness, and the literature compiled here describes its use for sleepiness, fatigue and sleep/wake disturbance in neurological conditions such as Parkinson's disease and motor neuron disease.
 
-Hypersomnia (the central disorders of hypersomnolence, including idiopathic hypersomnia and narcolepsy type 2) shares excessive daytime sleepiness as its core symptom with narcolepsy. Guideline-level sources (AASM 2021 and the European narcolepsy guideline) support modafinil use in this group. Evidence is strongest for narcolepsy and weaker for idiopathic hypersomnia, where it relies on a comparative trial against amphetamine and expert opinion. Extension beyond narcolepsy should be treated as off-label use with monitoring.
-
-**Other predictions in context:**
-- **Insomnia (rank 1, 0.9985)**: Not plausible. Modafinil is a wake-promoting agent, so its action runs opposite to insomnia treatment. The high score is likely a network artefact of the sleep-disorder neighbourhood. The two registered trials are uninformative (one terminated with 2 participants, one without insomnia as its target).
-- Cardiovascular and dermatological safety in children needs clarification.
-- Modafinil does not correct circadian misalignment.
-- **Narcolepsy, susceptibility to (rank 7)**: Largely duplicates the existing indication.
-- Hold.
+This creates a mechanistic tension. A drug that promotes wakefulness would be expected to work in the opposite direction to insomnia treatment. The high TxGNN score (0.9985) most likely reflects the closeness of insomnia to other sleep disorders in the model's network of relationships, rather than a plausible therapeutic rationale. The prediction should be treated as a hypothesis, not as support for treating insomnia itself. A possible exception is a narrow question about daytime functioning in people with primary insomnia, which is what the one completed trial examined.
 
 ## Clinical Trial Evidence
 
-Trials for hypersomnia (up to 10 most relevant shown):
-
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00107796](https://clinicaltrials.gov/study/NCT00107796) | Phase 3 | Completed | 140 | Randomised, double-blind, placebo-controlled study of modafinil (100, 200, 400 mg/day) in children and adolescents with narcolepsy-related sleepiness |
-| [NCT00107809](https://clinicaltrials.gov/study/NCT00107809) | Phase 3 | Completed | 140 | Placebo-controlled study of modafinil in children and adolescents with sleepiness from obstructive sleep apnoea/hypopnoea syndrome |
-| [NCT00107848](https://clinicaltrials.gov/study/NCT00107848) | Phase 3 | Completed | 280 | 1-year open-label extension assessing long-term safety and effectiveness in children and adolescents |
-| [NCT00214968](https://clinicaltrials.gov/study/NCT00214968) | Phase 3 | Completed | 92 | 6-month open-label safety and effectiveness study in children and adolescents |
-| [NCT03772314](https://clinicaltrials.gov/study/NCT03772314) | Phase 2 | Completed | 44 | Pragmatic trial of modafinil versus amphetamines in central disorders of hypersomnolence |
-| [NCT00174174](https://clinicaltrials.gov/study/NCT00174174) | Not specified | Completed | 30 | Placebo-controlled, double-blind crossover study in narcolepsy |
-| [NCT00916253](https://clinicaltrials.gov/study/NCT00916253) | Not applicable | Completed | 27 | Driving ability assessment in patients with wakefulness disorders on modafinil |
-| [NCT01080807](https://clinicaltrials.gov/study/NCT01080807) | Phase 4 | Completed | 385 | Armodafinil (R-enantiomer) versus placebo in shift work disorder sleepiness; supportive only |
-| [NCT01766323](https://clinicaltrials.gov/study/NCT01766323) | Phase 3 | Unknown | 200 | Modafinil for sleepiness in patients on oral morphine for pain palliation; indirectly related |
-| [NCT00393562](https://clinicaltrials.gov/study/NCT00393562) | Not specified | Withdrawn | 0 | Modafinil versus methylphenidate for sleepiness in Parkinson's disease; no participants enrolled |
+| [NCT00124384](https://clinicaltrials.gov/study/NCT00124384) | Phase 4 | Completed | 40 | Examined modafinil alone or combined with cognitive behavioural therapy for insomnia (CBT-I) for daytime functioning and insomnia severity in primary insomnia. Design details and results are not available in the data compiled for this report. |
+| [NCT00626210](https://clinicaltrials.gov/study/NCT00626210) | Phase 4 | Terminated | 2 | Modafinil for sleep/wake disturbances in older adults. Terminated after only 2 participants; no usable efficacy data. |
+
+No ANZCTR identifiers were found in the data compiled for this report.
 
 ## Literature Evidence
 
+None of the publications below studies modafinil in insomnia directly. They cover modafinil in related sleepiness and fatigue settings, or sleep disorders more broadly.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34743789](https://pubmed.ncbi.nlm.nih.gov/34743789/) | 2021 | Guideline | J Clin Sleep Med | AASM clinical practice guideline on treatment of central disorders of hypersomnolence |
-| [34743790](https://pubmed.ncbi.nlm.nih.gov/34743790/) | 2021 | Systematic review | J Clin Sleep Med | AASM systematic review, meta-analysis and GRADE assessment supporting the guideline |
-| [34173695](https://pubmed.ncbi.nlm.nih.gov/34173695/) | 2021 | Guideline | Eur J Neurol | European guideline on management of narcolepsy in adults and children |
-| [39306601](https://pubmed.ncbi.nlm.nih.gov/39306601/) | 2024 | Randomised trial | CNS Drugs | Blinded non-inferiority trial of modafinil versus amphetamine-dextroamphetamine in idiopathic hypersomnia and narcolepsy type 2 |
-| [36921459](https://pubmed.ncbi.nlm.nih.gov/36921459/) | 2023 | Review | Sleep Med Rev | Update on idiopathic hypersomnia treatment; management largely expert-consensus based |
-| [32901432](https://pubmed.ncbi.nlm.nih.gov/32901432/) | 2021 | Review | Neurotherapeutics | Treatment of idiopathic hypersomnia and other hypersomnia syndromes |
-| [26599679](https://pubmed.ncbi.nlm.nih.gov/26599679/) | 2016 | Review | Sleep Med Rev | Overview of idiopathic hypersomnia |
-| [27549768](https://pubmed.ncbi.nlm.nih.gov/27549768/) | 2016 | Review | Curr Treat Options Neurol | Management of narcolepsy types 1 and 2 |
-| [32386693](https://pubmed.ncbi.nlm.nih.gov/32386693/) | 2020 | Review | Sleep Med Clin | Pharmacologic management of excessive daytime sleepiness, including modafinil and armodafinil |
-| [10481909](https://pubmed.ncbi.nlm.nih.gov/10481909/) | 1999 | Preclinical | Cell | Orexin knockout mice show a narcolepsy-like phenotype |
+| [24312590](https://pubmed.ncbi.nlm.nih.gov/24312590/) | 2013 | Systematic review / meta-analysis | PLoS One | Efficacy and safety of modafinil for fatigue and excessive daytime sleepiness in neurological disorders; earlier trials gave inconsistent results. |
+| [18729534](https://pubmed.ncbi.nlm.nih.gov/18729534/) | 2008 | Review | Drugs | Evidence-based review of approved and investigational uses of modafinil, drawing on randomised placebo-controlled trials. |
+| [27010071](https://pubmed.ncbi.nlm.nih.gov/27010071/) | 2016 | Systematic review / meta-analysis | Parkinsonism & Related Disorders | Drug treatments for daytime sleepiness and sleep disorders in Parkinson's disease; few clinical trials available. |
+| [22021174](https://pubmed.ncbi.nlm.nih.gov/22021174/) | 2011 | Review | Movement Disorders | Evidence-based review of treatments for non-motor symptoms of Parkinson's disease. |
+| [39535843](https://pubmed.ncbi.nlm.nih.gov/39535843/) | 2024 | Review | Expert Opinion on Pharmacotherapy | Management of sleep disturbances in Parkinson's disease. |
+| [24272458](https://pubmed.ncbi.nlm.nih.gov/24272458/) | 2014 | Review | Neurotherapeutics | Treatment of sleep disorders in Parkinson's disease; optimal insomnia treatment in this group not yet determined. |
+| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Review | Drugs | Burden of illness and management of shift work sleep disorder. |
+| [24138359](https://pubmed.ncbi.nlm.nih.gov/24138359/) | 2013 | Review | Medical Journal of Australia | Health burden and management of sleep loss and circadian disruption in shift workers, with Australian context. |
+| [17060310](https://pubmed.ncbi.nlm.nih.gov/17060310/) | 2006 | Case series | Am J Hosp Palliat Care | Modafinil and fatigue in Charcot-Marie-Tooth disease type 1A. |
 
 ## Australia Market Information
 
@@ -107,27 +92,22 @@ Trials for hypersomnia (up to 10 most relevant shown):
 
 ## Safety Considerations
 
-No label-derived warnings or contraindications were available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI) for safety information.
-
-**Contraindication signals from the knowledge graph (not label text):** hypertension, liver failure, anxiety disorders, psychotic and other mental disorders, substance abuse/dependence, acute coronary syndrome, myocardial infarction, myocardial ischaemia, coronary artery disease, mitral valve prolapse and postural orthostatic tachycardia syndrome. These should be verified against the PI.
-
-**Drug interactions:** The interaction query returned 100 records. Those shown include:
-- **Moderate**: omeprazole, esomeprazole, rabeprazole, dexamethasone, eliglustat, linagliptin, cisapride
-- **Minor**: hydrocortisone, pioglitazone, aprepitant, triamcinolone, betamethasone, cimetidine, clarithromycin, saxagliptin, dronabinol, clotrimazole, granisetron, miconazole, naldemedine
+- **Key Warnings and Contraindications**: Label-based warnings and contraindications are not available in the data compiled for this report. Please refer to the TGA-approved Product Information (PI).
+- **Drug Interactions**: 100 interactions were found in the interaction screen. Examples rated Moderate include omeprazole, esomeprazole, rabeprazole, dexamethasone, eliglustat, linagliptin and cisapride. Many others are rated Minor (for example hydrocortisone, pioglitazone, aprepitant, cimetidine and clarithromycin). Review the full list before any new use.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-For hypersomnia, multiple Phase 3 trials, a randomised comparative trial and guideline-level sources (AASM 2021, European guideline) support modafinil for excessive sleepiness. Evidence is strongest for narcolepsy and weaker for idiopathic hypersomnia, so any extension should be off-label with monitoring. The top-ranked insomnia prediction should be rejected (Hold), as should the unsupported predictions with no evidence.
+The only direct insomnia evidence is one small completed Phase 4 study (n=40) whose design and results are not available here, plus one terminated study with 2 participants. Modafinil promotes wakefulness, so a benefit in insomnia is mechanistically doubtful, and the high model score is probably a network effect. Evidence is therefore limited (L3) and does not justify progressing.
 
 **To proceed, the following is needed:**
-- Product Information (PI) warnings and contraindications for the Australian product (the safety screen cannot be completed without them)
-- The approved indication text for ARTG 8816B
-- Detailed mechanism of action data
-- Cardiovascular and psychiatric risk assessment, given the contraindication signals above
-- Clarification of the interaction profile (CYP-related interactions) before use in patients on multiple medicines
+- Published results and design details of NCT00124384, including the outcomes on insomnia severity and daytime function
+- Mechanism of action data and a clear rationale for how a wake-promoting drug could help insomnia
+- Label-based warnings and contraindications from the TGA Product Information, and a review of the interaction list
+- Controlled trial evidence in insomnia, ideally with an Australian context
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

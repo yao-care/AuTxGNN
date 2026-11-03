@@ -2,11 +2,11 @@
   "generated": "2026-11-03",
   "total_drugs": 749,
   "level_counts": {
-    "L1": 18,
-    "L2": 24,
+    "L1": 12,
+    "L2": 26,
     "L3": 24,
     "L4": 45,
-    "L5": 480
+    "L5": 484
   },
   "all_drugs": [
     {
@@ -1230,7 +1230,7 @@
     {
       "name": "Docetaxel",
       "slug": "docetaxel",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 7
     },
     {
@@ -1362,7 +1362,7 @@
     {
       "name": "Eltrombopag",
       "slug": "eltrombopag",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 1
     },
     {
@@ -1896,7 +1896,7 @@
     {
       "name": "Glecaprevir",
       "slug": "glecaprevir",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 10
     },
     {
@@ -2382,7 +2382,7 @@
     {
       "name": "Letrozole",
       "slug": "letrozole",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 4
     },
     {
@@ -2724,7 +2724,7 @@
     {
       "name": "Modafinil",
       "slug": "modafinil",
-      "level": "L1",
+      "level": "L3",
       "indication_count": 1
     },
     {
@@ -2736,7 +2736,7 @@
     {
       "name": "Montelukast",
       "slug": "montelukast",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 2
     },
     {
@@ -3546,7 +3546,7 @@
     {
       "name": "Rifabutin",
       "slug": "rifabutin",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 10
     },
     {
