@@ -3,7 +3,7 @@ layout: default
 title: About
 nav_order: 90
 permalink: /about/
-description: "AuTxGNN is a drug repurposing prediction platform developed by 藥提醒科技有限公司 (yao.care), built on the Harvard TxGNN model, covering TGA-approved medicines in Australia."
+description: "AuTxGNN is a drug repurposing prediction platform developed by 藥提醒科技有限公司 (yao.care), built on the Harvard TxGNN model, covering medicines listed on the PBS Schedule in Australia."
 ---
 
 # About
@@ -19,7 +19,7 @@ Accelerating drug repurposing evidence validation with AI — from prediction to
 <p class="key-answer" data-question="What is AuTxGNN?">
 <strong>AuTxGNN</strong> is a research-support platform for drug repurposing, built on the TxGNN
 model published in <em>Nature Medicine</em> by the Zitnik Lab at Harvard University. It predicts
-indication expansion for medicines approved by TGA in Australia. Beyond AI prediction scores,
+indication expansion for medicines listed on the PBS Schedule in Australia. Beyond AI prediction scores,
 the platform integrates clinical evidence from ClinicalTrials.gov and PubMed so researchers can
 quickly assess how credible each prediction is.
 </p>
@@ -38,7 +38,7 @@ Product overview: <https://www.yao.care/medical/txgnn/>.
 
 The TxGNN model itself was developed by the Zitnik Lab at Harvard Medical School and published
 in *Nature Medicine*. This platform is the production system 藥提醒科技有限公司 built on top of that
-model, covering national drug-registration data integration, deep-learning prediction that excludes uses already recorded in the knowledge graph, PubMed / ClinicalTrials evidence grading, and SMART on FHIR
+model, covering local drug-list data integration, deep-learning prediction that excludes uses already recorded in the knowledge graph, PubMed / ClinicalTrials evidence grading, and SMART on FHIR
 electronic health record integration.
 
 ---
@@ -104,7 +104,7 @@ medicines list), their licences and update frequency are listed on the
 | Item | Value |
 |------|-------|
 | Drug reports | {{ site.data.drug_stats.total_drugs }} |
-| Regulatory authority | TGA |
+| Local medicines list | PBS Schedule |
 | Deployed sites | 30 countries / regions |
 
 ---
