@@ -6,7 +6,7 @@
 [![Website](https://img.shields.io/badge/Website-autxgnn.yao.care-blue)](https://autxgnn.yao.care)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Drug repurposing predictions for Australia TGA-approved drugs using the TxGNN model.
+Drug repurposing predictions for medicines on the Australian PBS Schedule using the TxGNN model.
 
 ## Disclaimer
 
@@ -73,7 +73,7 @@ uv run python scripts/run_kg_prediction.py
 
 | Metric | Value |
 |------|------|
-| TGA Total Drugs | 1,235 |
+| PBS Schedule Total Drugs | 1,235 |
 | Repurposing Candidates | 12,434,566 |
 
 ### Deep Learning Method
@@ -130,7 +130,7 @@ The TxGNN score represents the model's confidence in a drug-disease pair, rangin
 flowchart TD
     A["TxGNN Prediction Results"] --> B
     subgraph B["Step 1: DrugBundle Collector"]
-        B1["Drug-level: TGA, DDI, DrugBank"]
+        B1["Drug-level: PBS, DDI, DrugBank"]
         B2["Indication-level: ClinicalTrials, PubMed, ICTRP"]
     end
     B --> |"drug_bundle.json"| C
@@ -153,7 +153,7 @@ flowchart TD
 
 | File | Download |
 |------|------|
-| TGA Data | [Australian Register of Therapeutic Goods (ARTG)](https://www.tga.gov.au/resources/artg) |
+| PBS Data | [PBS Schedule (public API)](https://data.pbs.gov.au/api/api-public.html) |
 | node.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144482) |
 | kg.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144484) |
 | edges.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144483) |
@@ -215,7 +215,7 @@ PYTHONPATH=src python -m autxgnn.predict.txgnn_model
 
 | Category | Data | Source | Note |
 |------|------|------|------|
-| **Drug Data** | TGA | [Australian Register of Therapeutic Goods (ARTG)](https://www.tga.gov.au/resources/artg) | Australia |
+| **Drug Data** | PBS Schedule | [PBS public API](https://data.pbs.gov.au/api/api-public.html) | Australia |
 | **Knowledge Graph** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Drug Database** | DrugBank | [DrugBank](https://go.drugbank.com/) | Drug ingredient mapping |
 | **Drug Interactions** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | DDI pairs |
@@ -301,7 +301,7 @@ AuTxGNN/
 
 ```mermaid
 flowchart TD
-    FDA["TGA Data"] --> proc["process_fda_data.py"]
+    FDA["PBS Data"] --> proc["process_fda_data.py"]
     TxGNN["TxGNN Data"] --> prep["prepare_external_data.py"]
 
     proc --> json["au_fda_drugs.json"]

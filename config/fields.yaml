@@ -8,13 +8,13 @@ regulatory_agency: "PBS (Australia)"
 
 # Data source information
 data_source:
-  name: "Australian Register of Therapeutic Goods (ARTG)"
-  url: "https://www.tga.gov.au/resources/artg"
-  format: "Excel/CSV"
-  download_required: true
+  name: "Pharmaceutical Benefits Scheme (PBS) Schedule"
+  url: "https://data-api.health.gov.au/pbs/api/v3/items"
+  format: "CSV"
+  download_required: false
   notes: |
-    ARTG data must be downloaded manually from TGA website.
-    Export as CSV/Excel from the ARTG search interface.
+    PBS public API (Australian Department of Health): https://data.pbs.gov.au/api/api-public.html
+    Downloaded weekly by scripts/license_adapter.py; this is a subsidy list, not the TGA ARTG register.
 
 # Field mapping (based on ARTG export format)
 # These may need adjustment based on actual export format

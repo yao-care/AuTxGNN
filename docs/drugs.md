@@ -32,7 +32,7 @@ description: "All drug validation reports and evidence level statistics in AuTxG
 ---
 
 <!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
-This list is based on the registration data of [TGA](https://www.tga.gov.au/) (Australia).
+This list is based on the [PBS Schedule](https://data.pbs.gov.au/api/api-public.html) (Australia).
 
 <!-- local-home:end -->
 
