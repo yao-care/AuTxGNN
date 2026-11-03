@@ -3,7 +3,7 @@ layout: default
 title: Data Sources
 nav_order: 93
 permalink: /sources/
-description: "Data sources behind AuTxGNN: TGA registration data, TxGNN, ClinicalTrials.gov, PubMed and DrugBank."
+description: "Data sources behind AuTxGNN: the PBS Schedule (Australian Department of Health), TxGNN, ClinicalTrials.gov, PubMed and DrugBank."
 ---
 
 # Data Sources
@@ -21,7 +21,7 @@ Every conclusion traces back to a public data source — nothing is a black box.
 <tr><th>Type</th><th>Source</th><th>Used for</th></tr>
 </thead>
 <tbody>
-<tr><td>Registration data</td><td><a href="https://www.tga.gov.au/">TGA</a></td><td>Approved drug list and ingredients for Australia</td></tr>
+<tr><td>Local medicines list</td><td><a href="https://data.pbs.gov.au/api/api-public.html">PBS Schedule (public API)</a></td><td>Medicines and ingredients for Australia; whether each item is listed on the current PBS Schedule</td></tr>
 <tr><td>Prediction model</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Drug&ndash;disease association prediction</td></tr>
 <tr><td>Clinical trials</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Evidence grading (NCT)</td></tr>
 <tr><td>Literature</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Evidence grading (PMID)</td></tr>
@@ -32,6 +32,23 @@ Every conclusion traces back to a public data source — nothing is a black box.
 
 ---
 
+## This site's local data
+
+Australian medicines and their market status come from the Pharmaceutical Benefits Scheme (PBS)
+Schedule, published by the Australian Department of Health through the PBS public API. The PBS Schedule is
+a subsidy list, **not** the TGA's ARTG register: TGA (ARTG) registration
+status is not included in this data.
+
+| Item | Detail |
+|------|--------|
+| Dataset | PBS Schedule items (current schedule, CSV) |
+| Publisher | Australian Department of Health, PBS public API |
+| Download | <https://data-api.health.gov.au/pbs/api/v3/items> (API documentation: <https://data.pbs.gov.au/api/api-public.html>) |
+| Item identifier | PBS item code |
+| Updates | Automatic weekly download (every Monday) of the schedule currently in effect; an item that drops off the list keeps its previous status |
+
+---
+
 ## Licensing
 
 Each source has its own licence — please check before citing:
@@ -39,7 +56,7 @@ Each source has its own licence — please check before citing:
 - **TxGNN**: academic use; cite Huang et al. (2024)
 - **ClinicalTrials.gov / PubMed**: US NIH public data
 - **DrugBank**: non-commercial use subject to its licence terms
-- **TGA**: subject to the open data terms of the Australia regulator
+- **PBS Schedule**: subject to the Australian Department of Health's terms for the PBS public API
 
 ---
 
@@ -47,7 +64,7 @@ Each source has its own licence — please check before citing:
 
 | Data | Frequency |
 |------|-----------|
-| Registration data | As published by the regulator |
+| PBS Schedule | Weekly (every Monday) |
 | Trial / literature evidence | Re-collected periodically |
 | Interaction data | Reviewed quarterly |
 
@@ -62,18 +79,8 @@ Each source has its own licence — please check before citing:
 
 ## About the Developer
 
-This platform is developed and operated by **藥提醒科技有限公司** (yao.care, company registration
-number 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-AuTxGNN is the Australia site of the company's "TxGNN Drug Repurposing" product line.
-The same system is deployed across 30 countries and regions, each named `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, and so on) at `{cc}txgnn.yao.care`.
-Product overview: <https://www.yao.care/medical/txgnn/>.
-
-The TxGNN model itself was developed by the Zitnik Lab at Harvard Medical School and published
-in *Nature Medicine*. This platform is the production system 藥提醒科技有限公司 built on top of that
-model, covering national drug-registration data integration, deep-learning prediction that excludes uses already recorded in the knowledge graph, PubMed / ClinicalTrials evidence grading, and SMART on FHIR
-electronic health record integration.
+This platform is developed and operated by **藥提醒科技有限公司** (yao.care). See the
+<a href="{{ '/about/' | relative_url }}">About</a> page for the full company and methodology background.
 
 ---
 
