@@ -5,8 +5,8 @@
     "L1": 18,
     "L2": 24,
     "L3": 23,
-    "L4": 46,
-    "L5": 480
+    "L4": 45,
+    "L5": 481
   },
   "all_drugs": [
     {
@@ -198,7 +198,7 @@
     {
       "name": "Amiodarone",
       "slug": "amiodarone",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 9
     },
     {
