@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-03",
+  "generated": "2026-11-04",
   "total_drugs": 749,
   "level_counts": {
-    "L1": 12,
-    "L2": 26,
-    "L3": 24,
+    "L1": 10,
+    "L2": 32,
+    "L3": 23,
     "L4": 45,
-    "L5": 484
+    "L5": 481
   },
   "all_drugs": [
     {
@@ -156,7 +156,7 @@
     {
       "name": "Alprazolam",
       "slug": "alprazolam",
-      "level": "L5",
+      "level": "L3",
       "indication_count": 2
     },
     {
@@ -342,7 +342,7 @@
     {
       "name": "Atomoxetine",
       "slug": "atomoxetine",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 10
     },
     {
@@ -486,7 +486,7 @@
     {
       "name": "Bicalutamide",
       "slug": "bicalutamide",
-      "level": "L5",
+      "level": "L4",
       "indication_count": 10
     },
     {
@@ -678,7 +678,7 @@
     {
       "name": "Candesartan",
       "slug": "candesartan",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 9
     },
     {
@@ -888,7 +888,7 @@
     {
       "name": "Citalopram",
       "slug": "citalopram",
-      "level": "L5",
+      "level": "L2",
       "indication_count": 5
     },
     {
@@ -942,7 +942,7 @@
     {
       "name": "Clomipramine",
       "slug": "clomipramine",
-      "level": "L5",
+      "level": "L1",
       "indication_count": 8
     },
     {
@@ -1176,7 +1176,7 @@
     {
       "name": "Diazepam",
       "slug": "diazepam",
-      "level": "L5",
+      "level": "L2",
       "indication_count": 10
     },
     {
@@ -1446,7 +1446,7 @@
     {
       "name": "Epirubicin",
       "slug": "epirubicin",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 7
     },
     {
@@ -1908,7 +1908,7 @@
     {
       "name": "Glucagon",
       "slug": "glucagon",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 1
     },
     {
@@ -1986,13 +1986,13 @@
     {
       "name": "Hydrocortisone",
       "slug": "hydrocortisone",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 9
     },
     {
       "name": "Hydrocortisone Acetate",
       "slug": "hydrocortisone_acetate",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 9
     },
     {
@@ -2370,7 +2370,7 @@
     {
       "name": "Lenvatinib",
       "slug": "lenvatinib",
-      "level": "L2",
+      "level": "L3",
       "indication_count": 5
     },
     {
@@ -2400,7 +2400,7 @@
     {
       "name": "Levonorgestrel",
       "slug": "levonorgestrel",
-      "level": "L4",
+      "level": "L2",
       "indication_count": 5
     },
     {
@@ -2586,7 +2586,7 @@
     {
       "name": "Mercaptopurine",
       "slug": "mercaptopurine",
-      "level": "L2",
+      "level": "L3",
       "indication_count": 8
     },
     {
@@ -2676,7 +2676,7 @@
     {
       "name": "Miconazole",
       "slug": "miconazole",
-      "level": "L3",
+      "level": "L4",
       "indication_count": 1
     },
     {
@@ -2742,7 +2742,7 @@
     {
       "name": "Morphine",
       "slug": "morphine",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 10
     },
     {
@@ -2964,7 +2964,7 @@
     {
       "name": "Omalizumab",
       "slug": "omalizumab",
-      "level": "L5",
+      "level": "L2",
       "indication_count": 9
     },
     {
@@ -3084,7 +3084,7 @@
     {
       "name": "Pazopanib",
       "slug": "pazopanib",
-      "level": "L5",
+      "level": "L2",
       "indication_count": 6
     },
     {
@@ -3810,7 +3810,7 @@
     {
       "name": "Sirolimus",
       "slug": "sirolimus",
-      "level": "L5",
+      "level": "L3",
       "indication_count": 6
     },
     {
@@ -3852,7 +3852,7 @@
     {
       "name": "Sorafenib",
       "slug": "sorafenib",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 6
     },
     {
@@ -4392,7 +4392,7 @@
     {
       "name": "Vinblastine",
       "slug": "vinblastine",
-      "level": "L3",
+      "level": "L4",
       "indication_count": 10
     },
     {
@@ -4464,7 +4464,7 @@
     {
       "name": "Zinc Sulfate",
       "slug": "zinc_sulfate",
-      "level": "L3",
+      "level": "L2",
       "indication_count": 4
     },
     {
