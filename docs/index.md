@@ -1,6 +1,8 @@
 ---
 layout: default
 title: AuTxGNN - Australia Drug Repurposing Predictions
+description: "TxGNN drug repurposing reports for 749 medicines listed on the PBS Schedule (Australia), with evidence levels L1–L5 from clinical trials and literature."
+last_modified_at: 2026-11-04
 ---
 
 # AuTxGNN
@@ -10,9 +12,32 @@ Drug repurposing predictions for Australia using the TxGNN graph neural network.
 <!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
 ## Australia: what this site covers
 
-This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed in the registration data of [TGA](https://www.tga.gov.au/) (Australia).
+This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed on the [PBS Schedule](https://data.pbs.gov.au/api/api-public.html) (Australia).
 
-Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+### This site's local data
+
+| Item | Detail |
+|------|--------|
+| Dataset | PBS Schedule items (current schedule, CSV) |
+| Publisher | Australian Department of Health, PBS public API |
+| Download | <https://data-api.health.gov.au/pbs/api/v3/items> (API documentation: <https://data.pbs.gov.au/api/api-public.html>) |
+| Item identifier | PBS item code |
+| Updates | Automatic weekly download (every Monday) of the schedule currently in effect; an item that drops off the list keeps its previous status |
+
+Details: [Data Sources]({{ '/sources/' | relative_url }}).
+
+Reports by evidence level:
+
+| Evidence level | Reports | Share |
+|---|---|---|
+| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+
+4 predicted drug–disease pairs on this site appear on no other of the 30 TxGNN sites.
 
 ### Highest evidence levels on this site
 
@@ -20,14 +45,14 @@ Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {
 |---|---|
 | [Bendamustine](/drugs/bendamustine/) | L1 |
 | [Busulfan](/drugs/busulfan/) | L1 |
-| [Hyaluronic Acid](/drugs/hyaluronic-acid/) | L1 |
-| [Lanadelumab](/drugs/lanadelumab/) | L1 |
-| [Rifabutin](/drugs/rifabutin/) | L1 |
-| [Triptorelin](/drugs/triptorelin/) | L1 |
-| [Candesartan](/drugs/candesartan/) | L1 |
-| [Hydrocortisone](/drugs/hydrocortisone/) | L1 |
-| [Hydrocortisone Acetate](/drugs/hydrocortisone-acetate/) | L1 |
 | [Peginterferon Alfa-2A](/drugs/peginterferon-alfa-2a/) | L1 |
+| [Clomipramine](/drugs/clomipramine/) | L1 |
+| [Doxorubicin](/drugs/doxorubicin/) | L1 |
+| [Ranitidine](/drugs/ranitidine/) | L1 |
+| [Potassium](/drugs/potassium/) | L1 |
+| [Atorvastatin](/drugs/atorvastatin/) | L1 |
+| [Tacrolimus](/drugs/tacrolimus/) | L1 |
+| [Dapsone](/drugs/dapsone/) | L1 |
 
 ### Medicines covered only by this site among the 30 TxGNN sites
 
@@ -57,7 +82,7 @@ AuTxGNN uses graph neural networks to identify potential new therapeutic uses fo
 
 ## Data Sources
 
-- **Drug Data**: Australian Register of Therapeutic Goods (ARTG)
+- **Drug Data**: [PBS Schedule](https://data.pbs.gov.au/api/api-public.html) (Pharmaceutical Benefits Scheme)
 - **Knowledge Graph**: TxGNN biomedical knowledge graph
 - **Clinical Trials**: ClinicalTrials.gov, ANZCTR (Australian New Zealand Clinical Trials Registry)
 - **Literature**: PubMed, Google Scholar
@@ -75,7 +100,7 @@ Access prediction data via FHIR R4 resources:
 
 | Resource Type | Description |
 |--------------|-------------|
-| MedicationKnowledge | Drug information from ARTG |
+| MedicationKnowledge | Drug information from the PBS Schedule |
 | ClinicalUseDefinition | Predicted drug-disease indications |
 
 ## Disclaimer
@@ -91,21 +116,11 @@ This is not a TGA-approved tool. Always consult healthcare professionals for med
 
 ---
 
-*Last updated: {{ site.time | date: "%Y-%m-%d" }}*
+*Last updated: {{ page.last_modified_at | date: "%Y-%m-%d" }}*
 
 ---
 
 ## About the Developer
 
-This platform is developed and operated by **藥提醒科技有限公司** (yao.care, company registration
-number 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-AuTxGNN is the Australia site of the company's "TxGNN Drug Repurposing" product line.
-The same system is deployed across 30 countries and regions, each named `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, and so on) at `{cc}txgnn.yao.care`.
-Product overview: <https://www.yao.care/medical/txgnn/>.
-
-The TxGNN model itself was developed by the Zitnik Lab at Harvard Medical School and published
-in *Nature Medicine*. This platform is the production system 藥提醒科技有限公司 built on top of that
-model, covering national drug-registration data integration, deep-learning prediction that excludes uses already recorded in the knowledge graph, PubMed / ClinicalTrials evidence grading, and SMART on FHIR
-electronic health record integration.
+This platform is developed and operated by **藥提醒科技有限公司** (yao.care). See the
+<a href="{{ '/about/' | relative_url }}">About</a> page for the full company and methodology background.
