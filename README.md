@@ -20,21 +20,22 @@ Drug repurposing predictions for medicines on the Australian PBS Schedule using 
 | Item | Count |
 |------|------|
 | **Drug Reports** | 749 |
-| **Total Predictions** | 12,439,638 |
-| **Unique Drugs** | 729 |
+| **Total Predictions** | 12,729,263 |
+| **Unique Drugs** | 815 |
 | **Unique Indications** | 17,081 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 729 MK / 50,000 CUD |
+| **FHIR Resources** | 788 MK / 3,414 CUD |
 
 ### Evidence Level Distribution
 
 | Evidence Level | Report Count | Description |
 |---------|-------|------|
-| **L1** | 0 | Multiple Phase 3 RCTs |
-| **L2** | 0 | Single RCT or multiple Phase 2 |
-| **L3** | 0 | Observational studies |
-| **L4** | 0 | Preclinical / mechanistic studies |
-| **L5** | 729 | Computational prediction only |
+| **L1** | 10 | Multiple Phase 3 RCTs |
+| **L2** | 31 | Single RCT or multiple Phase 2 |
+| **L3** | 21 | Observational studies |
+| **L4** | 45 | Preclinical / mechanistic studies |
+| **L5** | 484 | Computational prediction only |
+| **N/A** | 158 | Known uses only (no new prediction) |
 
 ### By Source
 
@@ -42,16 +43,16 @@ Drug repurposing predictions for medicines on the Australian PBS Schedule using 
 |------|------|
 | KG | 11,035,103 |
 | KG + DL | 1,399,463 |
-| DL | 5,072 |
+| DL | 294,697 |
 
 ### By Confidence
 
 | Confidence | Predictions |
 |------|------|
 | very_high | 69,426 |
-| high | 1,333,334 |
-| medium | 11,036,129 |
-| low | 749 |
+| high | 1,349,432 |
+| medium | 11,083,462 |
+| low | 226,943 |
 
 ---
 
@@ -70,7 +71,7 @@ uv run python scripts/run_kg_prediction.py
 
 | Metric | Value |
 |------|------|
-| PBS Schedule Total Drugs | 1,235 |
+| PBS Schedule Total Drugs | 1,393 |
 | Repurposing Candidates | 12,434,566 |
 
 ### Deep Learning Method
@@ -82,8 +83,8 @@ PYTHONPATH=src python -m autxgnn.predict.txgnn_model
 
 | Metric | Value |
 |------|------|
-| Total DL Predictions | 1,404,249 |
-| Unique Drugs | 729 |
+| Total DL Predictions | 1,590,643 |
+| Unique Drugs | 815 |
 | Unique Indications | 17,081 |
 
 ### Score Interpretation
