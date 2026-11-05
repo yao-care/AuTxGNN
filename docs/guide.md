@@ -4,6 +4,7 @@ title: User Guide
 nav_order: 92
 permalink: /guide/
 description: "AuTxGNN user guide: how to look up drugs, read evidence levels and interpret recommendations."
+last_modified_at: 2026-11-05
 ---
 
 # User Guide
