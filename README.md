@@ -24,7 +24,7 @@ Drug repurposing predictions for medicines on the Australian PBS Schedule using 
 | **Unique Drugs** | 815 |
 | **Unique Indications** | 17,081 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 788 MK / 3,414 CUD |
+| **FHIR Resources** | 749 MK / 3,414 CUD |
 
 ### Evidence Level Distribution
 

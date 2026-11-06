@@ -6,7 +6,7 @@ nav_order: 633
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-30
-description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L4). Approved use: Hepatic encephalopathy"
+description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L5). Approved use: Hepatic encephalopathy"
 monitor_inn: "Rifaximin"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
 ---

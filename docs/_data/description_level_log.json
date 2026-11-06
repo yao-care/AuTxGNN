@@ -1,0 +1,277 @@
+{
+  "_note": "藥物頁 front matter description 的證據等級字樣改成頁首等級的紀錄（母目錄 .claude/sync_description_levels.py 追加；只換等級字樣，其他文字不動）。還原：把 original_description 寫回該頁 description。",
+  "entries": [
+    {
+      "page": "docs/_drugs/abacavir.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Abacavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/allopurinol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Allopurinol: predicted new indication Hepatic porphyria (evidence level L4). Approved use: Gout, hyperuricaemia, acute urate nephropathy\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/apomorphine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Apomorphine: predicted new indication polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L4). Approved use: Parkinson's disease (and related parkinsonian syndromes). The Austral…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/budesonide.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Budesonide: predicted new indication Atopic eczema (evidence level L4). Approved use: Crohn's disease, inflammatory bowel disease, Crohn's colitis, asthma…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/camphor.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Camphor: predicted new indication Migraine disorder (evidence level L4). Approved use: Not recorded\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/clarithromycin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Clarithromycin: predicted new indication Hyperamylasemia (evidence level L4). Approved use: Bacterial infections, including otitis media…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/clavulanic_acid.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Clavulanic Acid: predicted new indication Ureaplasma urethritis (evidence level L3). Approved use: Urinary tract infection, bacterial pneumonia…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/clonidine.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Clonidine: predicted new indication Tourette syndrome (evidence level L3). Approved use: Hypertension, open-angle glaucoma, ADHD\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/clopidogrel.md",
+      "date": "2026-11-06",
+      "from": "L2",
+      "to": "L5",
+      "original_description": "\"Clopidogrel: predicted new indication Migraine disorder (evidence level L2). Approved use: Acute coronary syndrome, intracranial embolism…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dasatinib.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Dasatinib: predicted new indication Ewing sarcoma (evidence level L5). Approved use: Chronic myelogenous leukaemia…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dienogest.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Dienogest: predicted new indication amenorrhea (disease) (evidence level L4). Approved use: Not stated in the data compiled for this report (literature describes…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/efavirenz.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Efavirenz: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/eplerenone.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Eplerenone: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L4). Approved use: Hypertension (hypertensive disorder)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ethanol.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Ethanol: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/felodipine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Felodipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L4). Approved use: Hypertension (hypertensive disorder)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/flucloxacillin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Flucloxacillin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not available in the data compiled for this report (flucloxacillin is…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/fludarabine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Fludarabine: predicted new indication Plasma cell myeloma (evidence level L5). Approved use: Not available in the data compiled for this report\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/fulvestrant.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Fulvestrant: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not stated in the Australian registration data (fulvestrant is genera…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/idelalisib.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Idelalisib: predicted new indication Mantle cell lymphoma (evidence level L5). Approved use: Follicular lymphoma, CLL/SLL and other B-cell malignancies\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/lamotrigine.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L3). Approved use: Epilepsy (partial epilepsy, Lennox-Gastaut syndrome)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/mometasone.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Mometasone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L4). Approved use: Not available in the data compiled . Pharmacology data describe topic…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/nilotinib.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L4). Approved use: Chronic myelogenous leukaemia, BCR-ABL1 positive\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/oxymetazoline.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Pharyngitis\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/potassium.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L1",
+      "original_description": "\"Potassium: predicted new indication Hypertensive disorder (evidence level L5). Approved use: Not available in the data compiled for this report\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/resorcinol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Resorcinol: predicted new indication Acne keloid (evidence level L4). Approved use: Acne, dermatitis, acneiform dermatitis\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/rifaximin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Rifaximin: predicted new indication Oral candidiasis (evidence level L4). Approved use: Hepatic encephalopathy\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/rilpivirine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Rilpivirine: predicted new indication Feline acquired immunodeficiency syndrome . The best-evidenced predic… (evidence level L4). Approved use: HIV infectious disease\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/rotigotine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Rotigotine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Restless legs syndrome and Parkinson's disease\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/roxithromycin.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Roxithromycin: predicted new indication Leprosy (evidence level L3). Approved use: Not specified in the Australian registration data compiled for this r…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/sapropterin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Sapropterin: predicted new indication Disorder of tyrosine metabolism (evidence level L4). Approved use: Phenylketonuria\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/simvastatin.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Simvastatin: predicted new indication brain stem infarction (evidence level L1). Approved use: Hyperlipidaemia, including homozygous familial hypercholesterolaemia…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/tenofovir_disoproxil.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Tenofovir Disoproxil: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: Chronic hepatitis B virus infection\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/trihexyphenidyl.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Trihexyphenidyl: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Parkinson disease and related parkinsonian and dystonic disorders\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/warfarin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L4). Approved use: Pulmonary embolism, thrombotic disease, intracranial embolism\"",
+      "tool": ".claude/sync_description_levels.py"
+    }
+  ]
+}

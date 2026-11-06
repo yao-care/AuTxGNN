@@ -6,7 +6,7 @@ nav_order: 629
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-30
-description: "Resorcinol: predicted new indication Acne keloid (evidence level L4). Approved use: Acne, dermatitis, acneiform dermatitis"
+description: "Resorcinol: predicted new indication Acne keloid (evidence level L5). Approved use: Acne, dermatitis, acneiform dermatitis"
 monitor_inn: "Resorcinol"
 predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
 ---

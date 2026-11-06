@@ -6,7 +6,7 @@ nav_order: 114
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-30
-description: "Budesonide: predicted new indication Atopic eczema (evidence level L4). Approved use: Crohn's disease, inflammatory bowel disease, Crohn's colitis, asthma…"
+description: "Budesonide: predicted new indication Atopic eczema (evidence level L5). Approved use: Crohn's disease, inflammatory bowel disease, Crohn's colitis, asthma…"
 monitor_inn: "Budesonide"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
 ---
