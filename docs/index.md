@@ -94,7 +94,7 @@ AuTxGNN uses graph neural networks to identify potential new therapeutic uses fo
 Access prediction data via FHIR R4 resources:
 
 - **Base URL**: `https://autxgnn.yao.care/fhir`
-- **Capability Statement**: [/fhir/metadata](/fhir/metadata.json)
+- **Capability Statement**: [/fhir/metadata](/fhir/metadata)
 
 #### Available Resources
 

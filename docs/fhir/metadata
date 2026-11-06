@@ -20,6 +20,17 @@
     }
   ],
   "description": "AuTxGNN drug repurposing prediction data exposed as FHIR resources. Contains drug repurposing predictions.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "AU",
+          "display": "Australia"
+        }
+      ]
+    }
+  ],
   "kind": "instance",
   "software": {
     "name": "AuTxGNN Static FHIR API",
