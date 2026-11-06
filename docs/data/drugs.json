@@ -389,7 +389,7 @@
       "evidence_level": "L5",
       "indication_count": 9,
       "original_indication": "",
-      "predicted_indication": "Extracutaneous mastocytoma",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/anakinra/"
     },
@@ -1109,7 +1109,7 @@
       "evidence_level": "L5",
       "indication_count": 9,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/camphor/"
     },
@@ -2079,7 +2079,7 @@
       "evidence_level": "L5",
       "indication_count": 8,
       "original_indication": "",
-      "predicted_indication": "Psychogenic movement disorders",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/donepezil/"
     },
@@ -2339,7 +2339,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "PLA2G6-associated neurodegeneration",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/entacapone/"
     },
@@ -2529,7 +2529,7 @@
       "evidence_level": "L5",
       "indication_count": 3,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/etanercept/"
     },
@@ -3549,7 +3549,7 @@
       "evidence_level": "L5",
       "indication_count": 5,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/insulin-degludec/"
     },
@@ -3799,7 +3799,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Manic bipolar affective disorder",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/lacosamide/"
     },
@@ -4279,7 +4279,7 @@
       "evidence_level": "L5",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Pulmonary hypertension",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/memantine/"
     },
@@ -4579,7 +4579,7 @@
       "evidence_level": "L5",
       "indication_count": 2,
       "original_indication": "",
-      "predicted_indication": "Pleural empyema",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/mupirocin/"
     },
@@ -4859,7 +4859,7 @@
       "evidence_level": "L2",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ofatumumab/"
     },
@@ -4879,7 +4879,7 @@
       "evidence_level": "L5",
       "indication_count": 2,
       "original_indication": "",
-      "predicted_indication": "Benign paroxysmal torticollis of infancy",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/olanzapine/"
     },
@@ -5139,7 +5139,7 @@
       "evidence_level": "L5",
       "indication_count": 2,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/pegfilgrastim/"
     },
@@ -5219,7 +5219,7 @@
       "evidence_level": "L5",
       "indication_count": 5,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/periciazine/"
     },
@@ -5229,7 +5229,7 @@
       "evidence_level": "L5",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/perindopril/"
     },
@@ -5319,7 +5319,7 @@
       "evidence_level": "L4",
       "indication_count": 2,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/phenylephrine/"
     },
@@ -5819,7 +5819,7 @@
       "evidence_level": "L5",
       "indication_count": 9,
       "original_indication": "",
-      "predicted_indication": "Pulmonary hypertension, unclear multifactorial mechanism",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ramipril/"
     },
@@ -5869,7 +5869,7 @@
       "evidence_level": "L5",
       "indication_count": 7,
       "original_indication": "",
-      "predicted_indication": "Candidate",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/reboxetine/"
     },
@@ -6119,7 +6119,7 @@
       "evidence_level": "L5",
       "indication_count": 5,
       "original_indication": "",
-      "predicted_indication": "Brain small vessel disease 1 (COL4A1-related)",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/sacubitril/"
     },
@@ -6549,7 +6549,7 @@
       "evidence_level": "L5",
       "indication_count": 3,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/tamoxifen/"
     },
@@ -6589,7 +6589,7 @@
       "evidence_level": "L5",
       "indication_count": 9,
       "original_indication": "",
-      "predicted_indication": "Prinzmetal angina",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/telmisartan/"
     },
@@ -7209,7 +7209,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/vancomycin/"
     },
@@ -7269,7 +7269,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Obsolete bundle branch block",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/verapamil/"
     },
