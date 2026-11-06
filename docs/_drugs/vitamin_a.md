@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 783
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "vitamin a"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
 description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,7 +85,7 @@ Currently no related literature available.
 | 14426G | Tearsagain | Eye spray 10 mg per mL, 10 mL |
 | 12191P | Renastep | Oral liquid 125 mL, 24 (Renastep) |
 
-Both entries are valid single-ingredient products. Approved indication text was not available in the data compiled for this report.
+Both entries are valid products. Approved indication text was not available in the data compiled for this report.
 
 ---
 

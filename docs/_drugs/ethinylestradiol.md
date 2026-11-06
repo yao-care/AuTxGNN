@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Ethinylestradiol: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,7 +72,7 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-All four entries are single-ingredient-listed products in which ethinylestradiol is combined with a progestogen. No approved indication text is available in the data compiled for this report.
+All four entries are products in which ethinylestradiol is combined with a progestogen. No approved indication text is available in the data compiled for this report.
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

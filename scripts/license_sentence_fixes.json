@@ -1,0 +1,16 @@
+{
+ "ethinylestradiol": [
+  {
+   "sentence": "All four entries are single-ingredient-listed products in which ethinylestradiol is combined with a progestogen.",
+   "cut": "single-ingredient-listed ",
+   "reason": "依 PBS 品項的成分（修正後依成分數判單方／複方）本藥有效品項 4 筆，其中單方 0 筆；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）"
+  }
+ ],
+ "vitamin_a": [
+  {
+   "sentence": "Both entries are valid single-ingredient products.",
+   "cut": "single-ingredient ",
+   "reason": "依 PBS 品項的成分（修正後依成分數判單方／複方）本藥有效品項 2 筆，其中單方 1 筆；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）"
+  }
+ ]
+}
