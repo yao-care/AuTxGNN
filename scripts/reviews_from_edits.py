@@ -24,7 +24,8 @@
   - 其他找不到的 → 不寫入，列在輸出，交人工判斷。
 
 用法（repo 根目錄）：
-  python3 scripts/reviews_from_edits.py --git [--write]            # 歷史的 12 次刪改（COMMITS）
+  python3 scripts/reviews_from_edits.py --git [--write]            # 歷史的刪改（COMMITS）
+  python3 scripts/reviews_from_edits.py --git --also-dirs 前目錄 YYYY-MM-DD 說明 [--write]   # 歷史＋還沒 commit 的刪改一起合併
   python3 scripts/reviews_from_edits.py --dirs 前目錄 後目錄 --date YYYY-MM-DD --commit 說明 [--write]
 沒有 --write 只列出結果，不寫檔。寫入後跑 python3 scripts/apply_drug_reviews.py。
 """
@@ -184,18 +185,21 @@ def removed_text(claim, repl):
     return " ".join(claim[i1:i2] for op, i1, i2, j1, j2 in sm.get_opcodes() if op in ("delete", "replace"))
 
 
-NUMW = r"(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|both|all)"
+NUMW = r"(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|several|multiple|both|all)"
 LIC = r"(?:licen[cs]es?|authori[sz]ations?|applications?|registrations?|ANDAs?|NDAs?|BLAs?|products?|approvals?|items?|listings?|DINs?|entries|records?)"
 
 
 def classify(rm):
     if re.search(r"Taiwan|TFDA", rm, re.I):
         return "tw"
+    # 有數字＋許可字（「with 20 valid single-ingredient licences」）先判張數：錯的是張數，單方字樣只是附帶（2026-11-12 Ca）
+    if re.search(rf"\b{NUMW}\b[^.;]{{0,40}}\b{LIC}|\b{LIC}\b[^.;]{{0,30}}\b{NUMW}\b", rm, re.I):
+        return "count"
     if re.search(r"single[- ]ingredient|combination|combo|multi-ingredient", rm, re.I):
         return "combo"
     if re.search(r"cancel|discontinu|withdrawn|revoked|no (?:valid|active|current)|not (?:currently )?(?:marketed|approved|valid|active)|only cancel", rm, re.I):
         return "cancel"
-    if re.search(rf"\b{NUMW}\b[^.;]{{0,40}}\b{LIC}|\b{LIC}\b[^.;]{{0,30}}\b{NUMW}\b|\bvalid\b", rm, re.I):
+    if re.search(r"\bvalid\b", rm, re.I):
         return "count"
     if re.search(r"\b(?:as an?|available as|dosage form|topical|oral|inject|tablet|capsule|marketed)\b", rm, re.I):
         return "product"
@@ -238,7 +242,8 @@ def manual_reason(fixes, stem, claim):
 def compose(recs, cands, meta):
     """同一處前後改過多次 → 合併成一筆（claim＝最早原句、replacement＝最新版）。回傳是否已併入既有紀錄。
     合併用最小的候選比對；合併後候選只剩合併結果（再往外帶句子的候選要依新頁面重算，這裡不做）"""
-    claim, repl, anchor = cands[0]
+    # 最小候選的 claim 是空的＝純新增（例 Ca 343992d0e 補回前一次連帶刪掉的簡介）：拿第一個有 claim 的候選來比
+    claim, repl, anchor = next((c for c in cands if c[0]), cands[0])
     for r in recs:
         old = r["cands"][0][1]
         if old and claim and claim in old:
@@ -282,6 +287,8 @@ def build(pairs):
         for cands in changes(before, after):
             meta = {"date": date, "commit": commit}
             if not compose(recs, cands, meta):
+                if not cands[0][0]:
+                    continue  # 純新增、又不是補在既有紀錄上：不是更正，不轉成紀錄
                 recs.append({"cands": cands, "_meta": [meta]})
     return by
 
@@ -381,6 +388,11 @@ def main(argv):
                 b, a = show(f"{h}^", f), show(h, f)
                 if b and a:
                     pairs.append((Path(f).name, b, a, d, h))
+        if "--also-dirs" in argv:  # 還沒 commit 的刪改（改寫前目錄 → 目前頁面），接在歷史提交後面一起合併（同一處前後改過時合成一筆）
+            i = argv.index("--also-dirs")
+            bd, d, lab = Path(argv[i + 1]), argv[i + 2], argv[i + 3]
+            pairs += [(f.name, f.read_text(encoding="utf-8"), (ROOT / "docs/_drugs" / f.name).read_text(encoding="utf-8"), d, lab)
+                      for f in sorted(bd.glob("*.md")) if (ROOT / "docs/_drugs" / f.name).exists()]
         by = build(pairs)
         current = lambda fn: (ROOT / "docs/_drugs" / fn).read_text(encoding="utf-8") if (ROOT / "docs/_drugs" / fn).exists() else None
         recs, lost = finalize(by, current, regen_pages(), fixes, facts, existing)
