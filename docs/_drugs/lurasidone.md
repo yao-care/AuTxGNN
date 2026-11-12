@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 439
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "Lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -40,6 +40,12 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 Lurasidone is an atypical antipsychotic originally used to treat bipolar disorder and schizophrenia.
 The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**,
+
+<!-- review:begin au-lic-20261031-lurasidone-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications** (mostly reviews, guidelines and meta-analyses, none directly demonstrating efficacy in mania) are available, so evidence is limited." Removed: it said the PBS items or ARTG entries were cancelled, discontinued, or not current, which did not match the PBS data (the PBS Schedule as of 2026-10-31). The PBS data list 1 PBS item for this drug, 1 current; the Quick Overview and the table under Australia Market Information show the current figures. Source: [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg).
+
+<!-- review:end au-lic-20261031-lurasidone-1 -->
 
 ## Quick Overview
 
@@ -111,6 +117,19 @@ The only trial for this indication was withdrawn with no participants, and the s
 - Targeted review of randomised trial data for lurasidone in acute mania, as distinct from bipolar depression
 - Safety assessment for manic presentations, given the reported lurasidone-induced mania and the metabolic, cardiovascular and drug-interaction signals above
 - If evidence supports it, a prospective trial design, possibly registered with ANZCTR
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications** (mostly reviews, guidelines and meta-analys" | Corrected | [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

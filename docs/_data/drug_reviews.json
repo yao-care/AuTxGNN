@@ -1,0 +1,81 @@
+{
+ "_doc": "藥物頁人工查核紀錄（單一真實來源；2026-11-12 建，核心流程比照 TwTxGNN docs/_data/drug_reviews.json，欄位相同）。每筆＝一次查核：drug／file／claim（頁面原句）／replacement（更正後）／note（頁面上顯示的英文說明）／finding（內部查證結論）／sources（網址＋查閱日）／checked（查核日）／action（correct 更正｜annotate 加註｜rereview 待重審｜section 附來源段落｜rereview_result 重審結果｜header_level｜description_level）。由 scripts/apply_drug_reviews.py 套到 docs/_drugs/*.md；改寫頁面的程式結尾都會重套，scripts/check_seo_docs.py 第 17 項擋未套用的紀錄。原則：基本事實照主管機關資料更正；模型預測原文不刪不改寫，只加註；證據等級與決策只在重審結果為降級、升級或撤回時更新。2026-10-31～11-06 許可證修正時直接刪掉的矛盾子句（10-31 7203dc4f4（只剩註銷許可句）、11-06 37a0310a1（單方／複方說法）），2026-11-12 由 scripts/reviews_from_edits.py 依 git 前後版本轉入（id 以 au-lic- 開頭）；報告在 11 月經 AI 重產、原句已不在頁面的標 status=resolved_by_regeneration。同 id 重發時前版存進 history（retired、reason），不覆蓋丟棄。",
+ "schema_version": 1,
+ "records": [
+  {
+   "id": "au-lic-20261106-ethinylestradiol-1",
+   "drug": "ethinylestradiol",
+   "file": "ethinylestradiol.md",
+   "action": "correct",
+   "claim": "All four entries are single-ingredient-listed products in which ethinylestradiol is combined with a progestogen.",
+   "replacement": "All four entries are products in which ethinylestradiol is combined with a progestogen.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the PBS data (the PBS Schedule as of 2026-11-06).",
+   "finding": "依 PBS 品項的成分（修正後依成分數判單方／複方）本藥有效品項 4 筆，其中單方 0 筆；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "PBS Schedule (Department of Health and Aged Care)",
+     "url": "https://www.pbs.gov.au/",
+     "accessed": "2026-11-06"
+    },
+    {
+     "title": "TGA ARTG",
+     "url": "https://www.tga.gov.au/resources/artg",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient-listed\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：37a0310a1（2026-11-06）"
+  },
+  {
+   "id": "au-lic-20261031-lurasidone-1",
+   "drug": "lurasidone",
+   "file": "lurasidone.md",
+   "action": "correct",
+   "claim": "The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**,\nbut only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications** (mostly reviews, guidelines and meta-analyses, none directly demonstrating efficacy in mania) are available, so evidence is limited.",
+   "replacement": "The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**,",
+   "note": "Removed: it said the PBS items or ARTG entries were cancelled, discontinued, or not current, which did not match the PBS data (the PBS Schedule as of 2026-10-31). The PBS data list 1 PBS item for this drug, 1 current; the Quick Overview and the table under Australia Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "PBS Schedule (Department of Health and Aged Care)",
+     "url": "https://www.pbs.gov.au/",
+     "accessed": "2026-10-31"
+    },
+    {
+     "title": "TGA ARTG",
+     "url": "https://www.tga.gov.au/resources/artg",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "checked": "2026-10-31",
+   "summary": "Removed: \"but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications** (mostly reviews, guidelines and meta-analys\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7203dc4f4（2026-10-31）"
+  },
+  {
+   "id": "au-lic-20261106-vitamin_a-1",
+   "drug": "vitamin_a",
+   "file": "vitamin_a.md",
+   "action": "correct",
+   "claim": "Both entries are valid single-ingredient products.",
+   "replacement": "Both entries are valid products.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the PBS data (the PBS Schedule as of 2026-11-06).",
+   "finding": "依 PBS 品項的成分（修正後依成分數判單方／複方）本藥有效品項 2 筆，其中單方 1 筆；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "PBS Schedule (Department of Health and Aged Care)",
+     "url": "https://www.pbs.gov.au/",
+     "accessed": "2026-11-06"
+    },
+    {
+     "title": "TGA ARTG",
+     "url": "https://www.tga.gov.au/resources/artg",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：37a0310a1（2026-11-06）"
+  }
+ ]
+}

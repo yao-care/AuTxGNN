@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 783
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "vitamin a"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
 description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -87,6 +87,12 @@ Currently no related literature available.
 
 Both entries are valid products. Approved indication text was not available in the data compiled for this report.
 
+<!-- review:begin au-lic-20261106-vitamin_a-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both entries are valid single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the PBS data (the PBS Schedule as of 2026-11-06). Source: [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg).
+
+<!-- review:end au-lic-20261106-vitamin_a-1 -->
+
 ---
 
 ## Safety Considerations
@@ -121,6 +127,19 @@ Product Information (PI) warnings and contraindications were not available in th
 - Product Information warnings and contraindications for the Australian products
 - A biologically plausible mechanism, followed by preclinical or clinical evidence, if congenital prothrombin deficiency is to be pursued
 - A separate evaluation of the neonatal bronchopulmonary dysplasia indication, including route and formulation compatibility with the Australian products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

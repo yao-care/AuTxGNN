@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Ethinylestradiol: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,6 +74,12 @@ Currently no related literature available.
 
 All four entries are products in which ethinylestradiol is combined with a progestogen. No approved indication text is available in the data compiled for this report.
 
+<!-- review:begin au-lic-20261106-ethinylestradiol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four entries are single-ingredient-listed products in which ethinylestradiol is combined with a progestogen." Removed: it described the products as single-ingredient or combination products in a way that did not match the PBS data (the PBS Schedule as of 2026-11-06). Source: [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg).
+
+<!-- review:end au-lic-20261106-ethinylestradiol-1 -->
+
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | ARTG 15074J | NuvaRing | Vaginal ring containing etonogestrel 11.7 mg with ethinylestradiol 2.7 mg | Not available |
@@ -112,6 +118,19 @@ The prediction rests only on a high model score, with no clinical trials, no lit
 - Product Information warnings and contraindications from the TGA/PBS source, to allow safety screening
 - Approved indication text for the Australian entries
 - A review of the contraindication list above, which is particularly relevant for any population with elevated zinc, such as those with kidney or liver disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient-listed" | Corrected | [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
