@@ -7,7 +7,7 @@
   "title": "AuTxGNN FHIR Server",
   "status": "active",
   "experimental": true,
-  "date": "2026-03-03",
+  "date": "2026-11-13",
   "publisher": "AuTxGNN",
   "contact": [
     {
@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "AuTxGNN drug repurposing prediction data exposed as FHIR resources. Contains drug repurposing predictions.",
+  "description": "AuTxGNN drug repurposing prediction data exposed as FHIR resources. Contains 749 drugs and 3414 predicted indications.",
   "jurisdiction": [
     {
       "coding": [
@@ -66,6 +66,25 @@
               "code": "read"
             }
           ]
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://yao.care/fhir/StructureDefinition/txgnn-resource-counts",
+      "extension": [
+        {
+          "url": "MedicationKnowledge",
+          "valueInteger": 749
+        },
+        {
+          "url": "ClinicalUseDefinition",
+          "valueInteger": 3414
+        },
+        {
+          "url": "countedAt",
+          "valueDate": "2026-11-13"
         }
       ]
     }
