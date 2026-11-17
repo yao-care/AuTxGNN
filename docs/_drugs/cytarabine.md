@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **small cell lung carcinoma**, 
 | Predicted New Indication | Small cell lung carcinoma |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (6 of 6 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 *Note: the data compiled for this report list no approved indication text for the Australian product, so the original indication above comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.*

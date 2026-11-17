@@ -50,8 +50,8 @@ The best-supported prediction in the data compiled for this report is **fibrobla
 | Predicted New Indication | Autosomal recessive familial Mediterranean fever (rank 1) |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 > **Note:** The rank 1 prediction has no supporting studies. Among the ten predictions, fibroblastic neoplasm (score 0.9936) has the strongest evidence (L2, a completed Phase 2 trial) and is the most useful direction to pursue. It is summarised in the sections below.

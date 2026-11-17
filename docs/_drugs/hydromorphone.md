@@ -50,8 +50,8 @@ This prediction is best read as a symptom-relief (pain) association, not as evid
 | Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 (indirect evidence only; see note below) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (at least 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | at least 20 |
 | Recommended Decision | Hold |
 
 *Note: The evidence level of L4 reflects the assessment compiled for this indication. The trials found do not test hydromorphone for pharyngitis, so in practice the evidence is close to prediction-only.*
@@ -84,7 +84,13 @@ Currently no related literature available for pharyngitis.
 |---------|------|------|-----------|
 | 12010D | Dilaudid | Tablet containing hydromorphone hydrochloride 8 mg | Not available in the data compiled |
 
-This is the only registered entry, and it is an oral single-ingredient product. The listed number is as recorded in the data and should be checked against the ARTG.
+The data compiled for this report contain at least 20 current PBS items, all single-ingredient: oral tablets and liquids and injections. The listed number is as recorded in the data and should be checked against the ARTG.
+
+<!-- review:begin au-lic-20261117-hydromorphone-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "This is the only registered entry, and it is an oral single-ingredient product." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-hydromorphone-1 -->
 
 ## Safety Considerations
 
@@ -132,6 +138,19 @@ The pharyngitis prediction rests on a high model score but no direct evidence. T
 - Mechanism of action data
 - Direct clinical evidence in pharyngitis, or a clear justification for symptomatic opioid use compared with standard analgesics
 - If any indication is pursued, headache disorder is the only prediction with direct trial and guideline evidence, and it should be framed as a research question given that opioids are not recommended as first-line therapy for migraine
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

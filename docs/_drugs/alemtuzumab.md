@@ -45,8 +45,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Alemtuzumab,
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 2 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 4 (valid: 4) |
 
 ## Known uses recorded for this drug
 

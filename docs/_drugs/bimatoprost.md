@@ -48,8 +48,8 @@ Bimatoprost is a prostamide/prostaglandin F2-alpha analogue marketed in Australi
 | Predicted New Indication | malformation syndrome with odontal and/or periodontal component |
 | TxGNN Prediction Score | 1.0000 (0.99997 before rounding) |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (12 of 12 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,7 +72,13 @@ Currently no related literature available.
 |---------|------|------|-----------|
 | ARTG 10046R | Lumigan PF | Eye drops 300 micrograms per mL, single dose units 0.4 mL, 30 | Not recorded in the local data |
 
-The only licence recorded is a valid single-ingredient product, and the local data show the drug as marketed. The only available route is ophthalmic. The predicted condition is systemic and developmental, so route compatibility is unassessed and would need to be established.
+Twelve current PBS items are recorded (six single-ingredient bimatoprost eye drops and six bimatoprost with timolol), and the local data show the drug as marketed. The only available route is ophthalmic. The predicted condition is systemic and developmental, so route compatibility is unassessed and would need to be established.
+
+<!-- review:begin au-lic-20261117-bimatoprost-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The only licence recorded is a valid single-ingredient product, and the local data show the drug as marketed." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-bimatoprost-1 -->
 
 ## Safety Considerations
 
@@ -92,6 +98,19 @@ The prediction rests on a model score alone. There are no clinical trials, no pu
 - Any preclinical or clinical study that directly addresses this condition
 - Mechanism of action data for bimatoprost
 - A review of whether a topical ophthalmic product can reach a relevant target site, and a safety review based on the TGA Product Information
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

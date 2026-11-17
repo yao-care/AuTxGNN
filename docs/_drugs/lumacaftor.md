@@ -50,8 +50,8 @@ but there are currently **no registered clinical trials** and **no publications*
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (20 of 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 20 (valid: 20) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

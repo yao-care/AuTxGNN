@@ -48,8 +48,8 @@ Salmeterol is a long-acting beta2-adrenergic agonist (LABA) delivered by inhalat
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (14 of 14 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

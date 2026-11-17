@@ -48,8 +48,8 @@ Codeine is an opioid medicine marketed in Australia as a single-ingredient table
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 2 (valid: 2) |
+| Australia Market Status | Listed on the PBS Schedule (12 of 12 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,7 +77,13 @@ This publication does not study codeine as a treatment for nasal cavity disease,
 | 12054K | Aspen Pharmacare Australia Pty Ltd | Tablet containing codeine phosphate hemihydrate 30 mg | Not recorded in the local data |
 | 191C | Not recorded | Not recorded | Not recorded in the local data |
 
-Both licences are single-ingredient and currently valid.
+The two items in the table are single-ingredient and currently listed. The data compiled for this report contain 12 current PBS items in all: 6 single-ingredient codeine items and 6 combinations (paracetamol with codeine, aspirin with codeine).
+
+<!-- review:begin au-lic-20261117-codeine-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "Both licences are single-ingredient and currently valid." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-codeine-1 -->
 
 ## Safety Considerations
 
@@ -97,6 +103,19 @@ For warnings, contraindications and other safety information, please refer to th
 - Studies that directly evaluate codeine for nasal cavity disease, if a clinical rationale can be identified
 - Review of the TGA Product Information for warnings and contraindications
 - Confirmation of the approved indication text for the Australian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -52,8 +52,8 @@ Of the ten predictions reviewed, the better-supported ones are fibroblastic neop
 | Predicted New Indication | Heart fibrosarcoma |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (at least 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | at least 20 |
 | Recommended Decision | Hold |
 
 **Other predictions reviewed**
@@ -131,7 +131,13 @@ The literature is dominated by DFSP, which is already an approved indication, ra
 |---------|------|------|-----------|
 | 10915L | IMATINIB-DRLA | Capsule 100 mg (as mesilate) | Not stated in the data compiled for this report |
 
-This is the only licence listed (one single-ingredient product, valid). The oral capsule is the only route available. The licence number is given as it appears in the data and is not in a standard ARTG format, so check it against the ARTG before relying on it.
+The data compiled for this report contain at least 20 current PBS items, all single-ingredient oral products. Oral administration is the only route available. The licence number is given as it appears in the data and is not in a standard ARTG format, so check it against the ARTG before relying on it.
+
+<!-- review:begin au-lic-20261117-imatinib-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "This is the only licence listed (one single-ingredient product, valid). The oral capsule is the only route available." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-imatinib-1 -->
 
 ---
 
@@ -174,6 +180,19 @@ Please refer to the TGA-approved Product Information (PI) for the full safety in
 - Molecular confirmation of PDGFB rearrangement or KIT/PDGFR activation in any target tumour before extending use beyond DFSP
 - Subtype-specific efficacy data from the soft tissue sarcoma trials, particularly for liposarcoma
 - A clinical review of cardiac safety, because heart failure and pericardial effusion appear among the contraindication associations and the top-ranked indication is a cardiac tumour
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

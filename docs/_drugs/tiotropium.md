@@ -50,8 +50,8 @@ The report lists **3 clinical trials** (all in cystic fibrosis) and **2 publicat
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (14 of 14 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

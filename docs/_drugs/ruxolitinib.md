@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **uterine corpus PEComa**, but 
 | Predicted New Indication | Uterine corpus perivascular epithelioid cell tumor |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (at least 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

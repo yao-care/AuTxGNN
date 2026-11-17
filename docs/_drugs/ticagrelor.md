@@ -52,8 +52,8 @@ Support so far is early: **2 clinical trials** (one large Phase 3 trial still in
 | Predicted New Indication | Intracranial arteriosclerosis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 (observational cohort data only; the one Phase 3 trial is still ongoing) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

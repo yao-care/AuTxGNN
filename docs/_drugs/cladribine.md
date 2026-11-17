@@ -50,8 +50,8 @@ Cladribine is a purine nucleoside analogue that is marketed in Australia as an o
 | Predicted New Indication | parameningeal embryonal rhabdomyosarcoma |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (5 of 5 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

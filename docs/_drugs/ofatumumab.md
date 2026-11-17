@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **follicular lymphoma**, with *
 | Predicted New Indication | Follicular lymphoma |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L2 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -99,7 +99,13 @@ Two further trials (NCT01397591, terminated with 3 patients; NCT01263418, withdr
 |---------|------|------|-----------|
 | ARTG 12641H | Kesimpta | Solution for injection 20 mg in 0.4 mL pre-filled pen | Indication text not available in the licence record |
 
-This is the only entry, and it is a pre-filled pen presentation. Its suitability for any oncology use cannot be assumed; dosing and formulation would need separate confirmation.
+Both current PBS items are pre-filled pen presentations (Kesimpta 20 mg). Its suitability for any oncology use cannot be assumed; dosing and formulation would need separate confirmation.
+
+<!-- review:begin au-lic-20261117-ofatumumab-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "This is the only entry, and it is a pre-filled pen presentation." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-ofatumumab-1 -->
 
 ## Cytotoxicity
 
@@ -147,6 +153,18 @@ Multiple completed Phase 2 studies, including randomised trials and published re
 | Metastatic neoplasm | 0.9950 | L5 | Hold | One small pilot (n=10) in metastatic melanoma and no direct efficacy literature for the term as predicted |
 | Malignant spiradenoma | 0.9948 | L5 | Hold | No trials or literature |
 | Langerhans cell histiocytosis | 0.9934 | L5 | Hold | No trials or literature; no clear CD20-driven rationale |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -50,8 +50,8 @@ Letrozole is an oral aromatase inhibitor (estrogen-synthesis blocker) marketed i
 | Predicted New Indication | Nipple carcinoma |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

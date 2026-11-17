@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hepatitis B virus infection**
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 (the data compiled for this report assigns L4, but none of the retrieved publications tests voxilaprevir in HBV, so L5 is the more accurate level) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

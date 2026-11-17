@@ -50,8 +50,8 @@ Ribociclib (Kisqali) is an oral CDK4/6 inhibitor used for hormone receptor-posit
 | Predicted New Indication | Myeloid leukaemia |
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L4 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (5 of 5 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

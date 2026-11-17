@@ -51,8 +51,8 @@ Venetoclax-azacitidine in AML is already a labelled use elsewhere, so this is be
 | Predicted New Indication | Hodgkins lymphoma |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 (rank 1 prediction); L1 for myeloid leukaemia |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (17 of 17 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 17 (valid: 17) |
 | Recommended Decision | Hold for the rank 1 prediction; Proceed with Guardrails for myeloid leukaemia |
 
 **Note on the rank 1 prediction:** it has no linked trials and no relevant literature. It is a molecular subtype of CLL/SLL, which is already an approved venetoclax indication, so it is not true repurposing. Because it is rank 1 it is shown in the overview, but the detailed evidence below focuses on myeloid leukaemia, the best-supported prediction in the data.

@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia 
 | Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 (indirect; no MEN-specific studies) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (12 of 12 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ---

@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **amenorrhoea** (most plausibly
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L3 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 4 (valid: 4) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?

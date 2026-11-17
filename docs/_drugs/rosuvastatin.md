@@ -52,8 +52,8 @@ The best-supported prediction in the data is **familial hypercholesterolaemia** 
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency (rank 1); familial hypercholesterolaemia is the best-supported candidate (cholesterol-ester transfer protein deficiency) |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 for rank 1 (model prediction only); L1 for familial hypercholesterolaemia |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (8 of 8 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 8 (valid: 8) |
 | Recommended Decision | Hold for rank 1; Proceed with Guardrails for familial hypercholesterolaemia |
 
 ---

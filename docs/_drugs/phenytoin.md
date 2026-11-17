@@ -52,8 +52,8 @@ The more credible signals in the ranked list are for **trigeminal neuralgia** (s
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (8 of 8 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---

@@ -53,8 +53,8 @@ The report evaluates **migraine disorder** as the lead indication. The rank 1 en
 | Predicted New Indication | Migraine disorder (lead candidate; rank 1 was migraine with brainstem aura) |
 | TxGNN Prediction Score | 0.9944 (migraine disorder); 0.9944 (migraine with brainstem aura) |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (6 of 6 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -111,7 +111,13 @@ Related but non-clopidogrel evidence includes a ticagrelor open-label pilot (PMI
 |---------|------|------|-----------|
 | ARTG 13365K | Clovix 75 | Tablet 75 mg (as besilate) | Not recorded in the data compiled for this report |
 
-Only one oral single-ingredient product is listed. Migraine is not an approved indication.
+Six current oral PBS items are listed: four single-ingredient clopidogrel tablets and two clopidogrel with aspirin tablets. Migraine is not an approved indication.
+
+<!-- review:begin au-lic-20261117-clopidogrel-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "Only one oral single-ingredient product is listed." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-clopidogrel-1 -->
 
 ---
 
@@ -148,6 +154,19 @@ Migraine disorder has the strongest support among the predictions (L2). A comple
 - **Rheumatoid arthritis and osteoarthritis:** the literature suggests possible harm (clopidogrel-associated inflammatory arthritis) or lower osteoarthritis risk with ticagrelor than with clopidogrel, not clopidogrel benefit.
 - **Tendinitis, fibromyalgia and osteoarthritis susceptibility:** the retrieved papers are irrelevant to clopidogrel efficacy.
 - **Myositis fibrosa, idiopathic granulomatous myositis and pseudoachondroplasia:** prediction only, with no trials, literature or plausible mechanism.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

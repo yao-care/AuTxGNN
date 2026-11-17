@@ -54,8 +54,8 @@ The top-ranked prediction by TxGNN score, **Prinzmetal angina**, has no supporti
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (intracerebral haemorrhage) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (18 of 18 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 18 (valid: 18) |
 | Recommended Decision | Proceed with Guardrails (intracerebral haemorrhage); Hold for the other predictions without evidence |
 
 ---

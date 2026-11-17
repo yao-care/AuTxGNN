@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **chronic tic disorder** (the h
 | Predicted New Indication | Psychogenic movement disorders |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 (L5 for the rank 1 prediction) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 4 (valid: 4) |
 | Recommended Decision | Hold (chronic tic disorder is a research question only) |
 
 ---

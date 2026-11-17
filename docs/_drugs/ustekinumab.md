@@ -50,8 +50,8 @@ with **6 clinical trials** (2 directly testing ustekinumab in atopic dermatitis)
 | Predicted New Indication | Dermatitis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (at least 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

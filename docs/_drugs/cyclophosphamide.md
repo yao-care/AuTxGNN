@@ -48,8 +48,8 @@ Cyclophosphamide is an alkylating chemotherapy drug used across a range of cance
 | Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
 | TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (9 of 9 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,7 +85,13 @@ None of the publications below is a controlled trial of cyclophosphamide in retr
 |---------|------|------|-----------|
 | ARTG 1266P | Cyclonex | Tablet 50 mg (anhydrous) | Not recorded in the local data |
 
-One licence is recorded and it is valid (single-ingredient product, oral route).
+Nine current single-ingredient PBS items are recorded: one oral tablet (Cyclonex 50 mg) and eight injections (powder for injection, several supplied under Section 19A).
+
+<!-- review:begin au-lic-20261117-cyclophosphamide-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "One licence is recorded and it is valid (single-ingredient product, oral route)." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-cyclophosphamide-1 -->
 
 ## Cytotoxicity
 
@@ -121,6 +127,18 @@ There are no registered trials, and the literature consists of case reports and 
 - A defined tumour subtype within retroperitoneal neoplasm (for example sarcoma or germ cell tumour) with a clear clinical question
 - Evidence that separates the contribution of cyclophosphamide from the other drugs in combination regimens
 - Safety information from the TGA-approved Product Information (warnings and contraindications)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

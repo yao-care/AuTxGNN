@@ -52,8 +52,8 @@ The high score appears to reflect network proximity among viral hepatitis condit
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L4 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (9 of 9 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---

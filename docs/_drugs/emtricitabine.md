@@ -50,8 +50,8 @@ This is an animal-model finding that largely mirrors the existing HIV indication
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (7 of 7 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 7 (valid: 7) |
+| Australia Market Status | Listed on the PBS Schedule (17 of 17 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
 *Note: The first-ranked prediction, feline immunodeficiency virus (FIV) infection, is a veterinary indication with a single supporting paper, so this report focuses on the second-ranked prediction, SIV infection, which has the stronger evidence base. A third prediction (a rare neurodevelopmental disorder) has no mechanistic link and no evidence, and is not assessed further.*
@@ -97,7 +97,13 @@ Emtricitabine is available in Australia only as fixed-dose combination tablets. 
 | ARTG 11732L | Tenofovir Disoproxil Emtricitabine Efavirenz Viatris 300/200/600 | Tablet: tenofovir disoproxil maleate 300 mg with emtricitabine 200 mg and efavirenz 600 mg | Not available |
 | ARTG 11104K | Odefsey | Tablet: emtricitabine 200 mg with rilpivirine 25 mg and tenofovir alafenamide 25 mg | Not available |
 
-Two further entries are registered: Genvoya (ARTG 11114Y) and Symtuza (ARTG 11955F). All 7 entries are oral tablets and currently valid.
+Two further entries are registered: Genvoya (ARTG 11114Y) and Symtuza (ARTG 11955F). The data compiled for this report contain 17 PBS items in all (the seven named above plus further generic tenofovir disoproxil with emtricitabine, Descovy and efavirenz combination items); all are oral combination tablets and currently listed.
+
+<!-- review:begin au-lic-20261117-emtricitabine-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "All 7 entries are oral tablets and currently valid." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-emtricitabine-1 -->
 
 ## Safety Considerations
 
@@ -121,6 +127,19 @@ The supporting evidence is entirely preclinical (macaque and virology studies) a
 - Mechanism of action data (MOA) for emtricitabine
 - Approved indication text and Product Information (warnings and contraindications) for the ARTG-listed products
 - Full-text review of the literature, since many study designs were inferred from titles and abstracts
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

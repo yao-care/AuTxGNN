@@ -48,8 +48,8 @@ Minoxidil is a vasodilator, recorded in the knowledge graph for hypertensive dis
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (the three cited studies are case reports that include the disease itself, but they do not support a higher level under this report's rules; see below) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 **Note on evidence level:** The three publications do directly study hypotrichosis simplex of the scalp. However, all are single-patient or small case reports, mostly using minoxidil combined with other treatments (growth factors, botanical extracts, platelet-rich plasma). The data compiled for this report graded the evidence L4. Because the studies are case-level and confounded by co-treatment, I have taken the conservative view that they establish no more than a hypothesis. If the team accepts case reports as meeting the "directly studies the disease" threshold, the level would be L4.
@@ -80,7 +80,13 @@ All three are combination-therapy reports, so the contribution of minoxidil alon
 |---------|------|------|-----------|
 | ARTG 14041B | Loniten | Tablet 10 mg (oral) | Not stated in the data compiled for this report |
 
-This is the only ARTG entry listed (single-ingredient, valid). It is an oral tablet; no topical formulation appears in the data.
+Two current single-ingredient PBS items are listed. It is an oral tablet; no topical formulation appears in the data.
+
+<!-- review:begin au-lic-20261117-minoxidil-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "This is the only ARTG entry listed (single-ingredient, valid)." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-minoxidil-1 -->
 
 ## Safety Considerations
 
@@ -109,6 +115,19 @@ The prediction score is very high, but the supporting evidence is three small co
 - Review of the Loniten PI for warnings and contraindications (currently a data gap)
 - Mechanism of action data to support the mechanistic link
 - A risk-benefit assessment of low-dose oral versus topical use, including paediatric safety
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

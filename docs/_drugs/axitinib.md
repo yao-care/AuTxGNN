@@ -48,8 +48,8 @@ Axitinib is an oral tyrosine kinase inhibitor that blocks VEGF receptors and is 
 | Predicted New Indication | liposarcoma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

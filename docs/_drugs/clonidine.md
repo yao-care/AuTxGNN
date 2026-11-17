@@ -52,8 +52,8 @@ This report therefore focuses on Tourette syndrome, and the other predicted indi
 | Predicted New Indication | Tourette syndrome (the highest-ranked prediction, faciodigitogenital syndrome, has no supporting evidence, so the best-supported prediction is evaluated instead) |
 | TxGNN Prediction Score | 0.9998 (Tourette syndrome); 0.9999 for the top-ranked faciodigitogenital syndrome |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

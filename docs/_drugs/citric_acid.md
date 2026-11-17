@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **stomach disease**, but the data
 | Predicted New Indication | stomach disease |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (10 of 10 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,7 +79,13 @@ No cited study evaluates citric acid as a treatment for stomach disease. The mos
 
 ## Australia Market Information
 
-The data compiled for this report list one valid single-ingredient licence (108Q). Product name, dosage form and approved indication text are not recorded, so no product table can be shown.
+The data compiled for this report list ten current PBS items: one single-ingredient citric acid entry (108Q, with no product name or dosage form recorded) and nine combination products (Ural and Trust Cystitis Relief oral sachets, Micolette enemas and O.R.S. oral rehydration salts). Approved indication text is not recorded.
+
+<!-- review:begin au-lic-20261117-citric_acid-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The data compiled for this report list one valid single-ingredient licence (108Q). Product name, dosage form and approved indication text are not recorded, so no product table can be shown." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-citric_acid-1 -->
 
 ## Safety Considerations
 
@@ -103,6 +109,19 @@ No clinical trial or publication directly tests citric acid for stomach disease,
 - Clinical studies of citric acid for a defined gastric condition (for example dyspepsia)
 - Product-level label details (indication, dosage form, warnings) for the Australian licence
 - A safety review covering the flagged conditions and the aluminium hydroxide and quinolone interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

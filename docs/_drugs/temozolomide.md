@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **cauda equina neoplasm**, but the
 | Predicted New Indication | Cauda equina neoplasm |
 | TxGNN Prediction Score | 0.9930 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (11 of 11 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,7 +81,13 @@ Note: The first case report concerns a spinal myxopapillary ependymoma, a tumour
 |---------|------|------|-----------|
 | ARTG 10062N | APO-Temozolomide | Capsule 180 mg | Not stated in the licence record |
 
-The listing is a single-ingredient oral product (1 valid entry).
+The table lists one of 11 valid single-ingredient oral PBS items in the data compiled for this report (APO-Temozolomide and Temizole capsules, 5 mg to 250 mg).
+
+<!-- review:begin au-lic-20261117-temozolomide-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The listing is a single-ingredient oral product (1 valid entry)." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-temozolomide-1 -->
 
 ## Cytotoxicity
 
@@ -113,6 +119,19 @@ The prediction is supported only by a computational score and a single case repo
 - Systematic literature review or case series of temozolomide in myxopapillary ependymoma and other cauda equina tumours
 - A defined plan for blood count monitoring and for cytotoxic drug handling
 - Registration of a prospective study or an expert-panel review before any clinical consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

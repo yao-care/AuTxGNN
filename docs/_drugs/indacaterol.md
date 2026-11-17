@@ -52,8 +52,8 @@ That bronchial disease evidence is largely label-adjacent rather than true repur
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis (rank 1, TxGNN's top prediction). Evidence is assessed below for bronchial disease (rank 7), the only prediction with supporting data. |
 | TxGNN Prediction Score | 0.9954 for the rank 1 prediction; 0.9918 for bronchial disease |
 | Evidence Level | L5 for the rank 1 prediction (prediction only); L1 for bronchial disease |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (16 of 16 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 16 (valid: 16) |
 | Recommended Decision | Hold for the rank 1 prediction; Proceed with Guardrails for bronchial disease (asthma) |
 
 ---

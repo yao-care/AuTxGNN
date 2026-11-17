@@ -48,8 +48,8 @@ Cabergoline is a dopamine receptor agonist that is marketed in Australia as Dost
 | Predicted New Indication | progeria-short stature-pigmented nevi syndrome |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (7 of 7 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,7 +72,13 @@ Currently no related literature available.
 |---------|------|------|-----------|
 | 13901P | Dostinex | Tablet 500 micrograms (oral) | Not recorded in the local data |
 
-The one licence on record is a valid single-ingredient product.
+Seven current single-ingredient PBS items are on record.
+
+<!-- review:begin au-lic-20261117-cabergoline-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The one licence on record is a valid single-ingredient product." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-cabergoline-1 -->
 
 ## Safety Considerations
 
@@ -95,6 +101,19 @@ The prediction rests on a model score alone (Evidence Level L5). There are no tr
 - Any preclinical or clinical studies that directly address this condition
 - Mechanism of action data for cabergoline and its safety information from the TGA Product Information
 - An assessment of the risk-benefit balance in this rare patient population, given the interaction profile and the lack of any efficacy data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

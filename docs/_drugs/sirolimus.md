@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **liposarcoma**, but the evidence 
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (16 of 16 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,7 +84,13 @@ No published study in the compiled data tests sirolimus in liposarcoma. The item
 |---------|------|------|-----------|
 | ARTG 13860L | Rapamune | Tablet 0.5 mg (oral) | Indication text not available in the data compiled for this report |
 
-One valid single-ingredient licence is recorded, and none are cancelled.
+Sixteen valid single-ingredient PBS items are recorded (Rapamune 0.5 mg, 1 mg and 2 mg tablets and 1 mg/mL oral solution), and none have been delisted.
+
+<!-- review:begin au-lic-20261117-sirolimus-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "One valid single-ingredient licence is recorded, and none are cancelled." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-sirolimus-1 -->
 
 ## Safety Considerations
 
@@ -104,6 +110,18 @@ The prediction rests on a high model score and general mTOR biology. The only li
 - Direct clinical or preclinical studies of sirolimus in liposarcoma subtypes
 - Detailed mechanism of action data
 - Review of the TGA Product Information for safety, and a monitoring plan for infection, metabolic effects and drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

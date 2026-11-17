@@ -52,8 +52,8 @@ The data compiled for this report show a more credible direction in **migraine d
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 *Note: for the alternative candidate, migraine disorder (TxGNN score 0.9988), the evidence level is L3 and the recommendation is a research question rather than a clinical decision.*

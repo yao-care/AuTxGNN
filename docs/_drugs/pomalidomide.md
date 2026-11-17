@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Pomalidomide
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 2 |
 | Evidence level | Not applicable |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (16 of 16 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 16 (valid: 16) |
 
 ## Known uses recorded for this drug
 

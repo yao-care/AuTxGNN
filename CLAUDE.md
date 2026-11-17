@@ -528,6 +528,21 @@ PBS Schedule 只列當期給付的品項——代碼消失＝「no longer listed
   `confirmed_absent()` 讓排程把這些列成「主管機關現行清單確認已不列」，不算「查不到」。本機試跑時金鑰用 PBS 官方 Postman 公開 collection 的共用 subscription-key（環境變數 PBS_PUBLIC_KEY，不寫進 repo）。
 - 頁面照 PBS 的口徑寫，不寫 TGA 註冊失效：母目錄 check_drug_page.py 加 AU 的 SCOPE_CANCELLED（全部不在當期清單的頁狀態列＝「Not on the current PBS Schedule (N of N PBS items in this data no longer listed) – TGA (ARTG) registration status is not included in this data」，14 頁）；本站 tools/txgnn 同步同一份。
 - 證據包多數藥只收 1 個 PBS 品項（753 個藥），全部不在列的 14 頁裡有 9 個藥（apixaban、brimonidine、desmopressin、edaravone、etanercept、fludarabine、naproxen、pembrolizumab、phenelzine）當期仍有同成分的其他 PBS 品項，
-  fluvastatin、patisiran、quinagolide、toremifene 當期沒有任何品項，atazanavir 只剩 cobicistat 複方。狀態列只陳述「本資料的品項」不在列；依成分補收品項沒做。
+  fluvastatin、patisiran、quinagolide、toremifene 當期沒有任何品項，atazanavir 只剩 cobicistat 複方。狀態列只陳述「本資料的品項」不在列；依成分補收品項同日另做（見下節）。
 - 16 頁狀態列／張數列、3 格許可證表狀態格照事實層同步；正文跟新事實矛盾的 2 頁以紀錄更正：desmopressin（「marketed in Australia as a nasal spray」→本資料的鼻噴劑品項 12458Q 已不在 PBS、其他鼻噴劑與錠劑仍在列，`au-lic-20261117-desmopressin-1`）、
   vitamin_a（「Both entries are valid products」→2 個品項中 14426G 已不在列，`au-lic-20261106-vitamin_a-1` 同 id 重發、前版存 history）。
+
+## 依成分補收當期 PBS 品項（2026-11-17）
+
+用戶 2026-11-17 決定「依成分補收」：證據包的 PBS 品項是 collectors/aufda.py 依 drug_mapping.csv（藥名→DrugBank ID→品項代碼）收的，但 data/loader.py 的 load_pbs_data() 依 drug_name 去重、每個 PBS 藥名只留第一個 pbs_code，
+所以多數藥只收到 1 個品項；那個品項不在當期 Schedule 時頁面寫「Not on the current PBS Schedule」，即使當期還有同成分的其他品項。
+- `scripts/add_current_pbs_items.py`：當期 PBS Schedule（PBS public data API items，金鑰同 license_adapter 的 PBS_PUBLIC_KEY；也可 `--csv` 給下載好的當期 items）每個品項的 drug_name 照 drug_mapping.csv 的「原始主成分」對 DrugBank ID
+  （含當初的複方逐成分對照；映射失敗的不收；drug_mapping 沒有的新藥名用本站同一支 map_fda_drugs_to_drugbank），跟證據包 drugbank_ids 有交集、代碼不在證據包的就補一筆（欄位照 aufda._format，
+  加 source＝schedule 代碼與生效日、added＝補收日）；records 照原收集器最多存 20 筆（單方優先），超過的只記在 `pbs_items_not_stored` 並算進 total_matches（頁面寫「at least N」）。只加不刪、可重複執行。
+- 2026-11-17 第一次跑（Schedule 4753，2026-11-01 生效）：670 個證據包補 5,969 個品項（存進 records 4,317 筆、1,652 筆超過上限只算張數）；668 頁概覽狀態列／張數列由程式同步（例：sirolimus 1→16、hydrocortisone 1→12）。
+  原本 14 頁全部不在列的藥：apixaban（7 of 8）、brimonidine（9 of 10）、desmopressin（16 of 17）、edaravone（2 of 3）、etanercept（at least 19）、fludarabine（3 of 4）、naproxen（14 of 15）、pembrolizumab（12 of 13）、phenelzine（1 of 2）改成在列；
+  atazanavir 補到 Evotaz（atazanavir＋cobicistat）、變成 1 of 2 在列（drug_mapping 本來就把複方逐成分對到 atazanavir）；fluvastatin、patisiran、quinagolide、toremifene 當期沒有任何品項，維持 Not on the current PBS Schedule。
+- 正文依舊證據包（1～2 個品項）寫的張數與「唯一劑型」說法跟新事實矛盾的 81 句以 80 筆新的 `au-lic-20261117-*` 紀錄與 1 筆同 id 重發更正（checker M3 的 19 頁＋另掃市場段落 62 頁：「one valid licence」「The only registered product is …」等；
+  只描述表上那一筆的「This is a single-ingredient product…」、只講給藥途徑且仍成立的句子、待辦條目不改）；`au-lic-20261117-desmopressin-1`、`au-lic-20261106-ethinylestradiol-1` 同 id 重發，前版存 history。
+- 照原規則一併收進來、沒有另外處理的：isoleucine、tyrosine、threonine 等證據包含「amino acid formula without …」配方（drug_mapping 的對照如此）。
+- `.github/workflows/license-refresh.yml` 在 license_refresh 前先跑這支（金鑰用既有的 secrets.PBS_PUBLIC_KEY），有補收就照常發新 Release。

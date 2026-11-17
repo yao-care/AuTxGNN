@@ -50,8 +50,8 @@ This is a model-only prediction.
 | Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 4 (valid: 4) |
+| Australia Market Status | Listed on the PBS Schedule (13 of 13 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,11 +72,11 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-All four entries are products in which ethinylestradiol is combined with a progestogen. No approved indication text is available in the data compiled for this report.
+All 13 PBS items in the data compiled for this report are products in which ethinylestradiol is combined with a progestogen (oral contraceptive tablet packs and one vaginal ring). No approved indication text is available in the data compiled for this report.
 
 <!-- review:begin au-lic-20261106-ethinylestradiol-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All four entries are single-ingredient-listed products in which ethinylestradiol is combined with a progestogen." Removed: it described the products as single-ingredient or combination products in a way that did not match the PBS data (the PBS Schedule as of 2026-11-06). Source: [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg).
+> **Review correction (2026-11-17)**: Originally stated: "All four entries are single-ingredient-listed products in which ethinylestradiol is combined with a progestogen." Corrected: the earlier wording described the products as single-ingredient and counted four entries. The data now include the 13 current PBS items for this ingredient, all combination products (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
 
 <!-- review:end au-lic-20261106-ethinylestradiol-1 -->
 
@@ -127,7 +127,7 @@ Below is the review log for this page: statements checked against official Austr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "single-ingredient-listed" | Corrected | [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg) |
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected (revised 2026-11-17; earlier version kept in the record) | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

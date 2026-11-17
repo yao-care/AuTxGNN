@@ -52,8 +52,8 @@ The top-ranked prediction (leprosy) has no supporting evidence. This report ther
 | Predicted New Indication | Top-ranked: leprosy (no evidence). Best-evidenced: cardiovascular disease |
 | TxGNN Prediction Score | Leprosy 0.9980; cardiovascular disease 0.9913 |
 | Evidence Level | Leprosy: L5. Cardiovascular disease: L3 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold (leprosy and other L5 predictions). Cardiovascular disease: Hold pending trial results, treated as a research question |
 
 ## Why is This Prediction Reasonable?

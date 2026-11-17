@@ -48,8 +48,8 @@ Bosentan is a dual endothelin receptor antagonist (ET-A/ET-B) used in pulmonary 
 | Predicted New Indication | rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (12 of 12 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

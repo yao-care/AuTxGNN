@@ -52,8 +52,8 @@ Evidence for the broader rhabdomyosarcoma group is limited to 4 older reviews, s
 | Predicted New Indication | Botryoid-type embryonal rhabdomyosarcoma of the vagina |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (6 of 6 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -93,7 +93,13 @@ For liver sarcoma (rank 7), the most relevant papers are a 2019 single-centre co
 |---------|------|------|-----------|
 | ARTG 13758D | TOLAK 4% ONCE DAILY | Cream 40 mg per g (4%), 20 g | Not stated in the data compiled |
 
-The only registered Australian product is a topical cream. No injectable formulation appears in the data compiled, so route compatibility with systemic sarcoma therapy has not been established.
+The current PBS items are topical preparations and injections, so an injectable formulation of the kind used in systemic sarcoma therapy is listed; route compatibility with the predicted indication has still not been assessed.
+
+<!-- review:begin au-lic-20261117-fluorouracil-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The only registered Australian product is a topical cream. No injectable formulation appears in the data compiled, so route compatibility with systemic sarcoma therapy has not been established." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-fluorouracil-1 -->
 
 ---
 
@@ -131,6 +137,19 @@ The prediction score is high (0.9975), but there are no clinical trials or publi
 - Preclinical or clinical evidence specific to rhabdomyosarcoma subtypes, and a comparison against standard VAC/VAI regimens
 - Assessment of route and formulation compatibility, as the registered product is topical only
 - DPD deficiency screening and a haematological monitoring plan if systemic use is ever considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

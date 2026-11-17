@@ -45,8 +45,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Temazepam
 | Item | Content |
 |------|------|
 | Known uses among model candidates | 0 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 4 (valid: 4) |
 
 ## Known uses among the model's candidates
 

@@ -48,8 +48,8 @@ Clozapine is an atypical antipsychotic with a broad receptor profile (dopamine, 
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (18 of 18 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 18 (valid: 18) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

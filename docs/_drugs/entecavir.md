@@ -49,8 +49,8 @@ The TxGNN model ranks **chronic hepatitis C virus infection** as its top predict
 | Predicted New Indication | Chronic hepatitis C virus infection |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 (L5 would apply if only the model prediction is counted; no HCV efficacy studies were found) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,7 +90,13 @@ The literature concerns HBV/HCV co-infection management. None of it shows enteca
 |---------|------|------|-----------|
 | ARTG 10279B | ENTECAVIR RBX | Tablet 0.5 mg (as monohydrate) | Not stated in the data compiled for this report |
 
-The one entry is a valid, single-ingredient, oral product.
+Both current PBS items are single-ingredient oral products.
+
+<!-- review:begin au-lic-20261117-entecavir-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The one entry is a valid, single-ingredient, oral product." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-entecavir-1 -->
 
 ## Safety Considerations
 
@@ -113,6 +119,19 @@ The TxGNN score is high (0.9998), but there is no plausible direct antiviral mec
 - TGA Product Information warnings and contraindications (the label review is currently a blocking gap)
 - Clarification of the approved indication wording on the ARTG entry
 - For HBV/HCV co-infected patients, a separate evaluation as an HBV reactivation prophylaxis use, which is better supported by the trial and literature data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

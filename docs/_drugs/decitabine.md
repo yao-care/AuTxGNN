@@ -48,8 +48,8 @@ Decitabine is a hypomethylating agent (DNA methyltransferase inhibitor) used in 
 | Predicted New Indication | refractory cytopenia of childhood |
 | TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

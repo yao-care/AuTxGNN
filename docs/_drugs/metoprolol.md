@@ -48,8 +48,8 @@ Metoprolol is a beta-blocker. The Australian licence records compiled for this r
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 2 (valid: 2) |
+| Australia Market Status | Listed on the PBS Schedule (11 of 11 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,7 +73,13 @@ Currently no related literature available.
 | ARTG 13420H | Metrol-XL 190 | Tablet 190 mg (controlled release) | Not stated in the records compiled |
 | ARTG 1324Q | Metoprolol Sandoz | Tablet containing metoprolol tartrate 50 mg | Not stated in the records compiled |
 
-Both entries are single-ingredient oral products and both are currently valid.
+All eleven current PBS items are single-ingredient oral products (metoprolol succinate and metoprolol tartrate).
+
+<!-- review:begin au-lic-20261117-metoprolol-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "Both entries are single-ingredient oral products and both are currently valid." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-metoprolol-1 -->
 
 ## Safety Considerations
 
@@ -95,6 +101,19 @@ The prediction is supported only by a model score, with no trials or publication
 - TGA Product Information warnings and contraindications, to complete the safety review
 - Confirmation of the approved indication wording for the two ARTG entries
 - An assessment of route and formulation suitability for an acute severe hypertension setting
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

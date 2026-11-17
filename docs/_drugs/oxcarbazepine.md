@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **restless legs syndrome**, but
 | Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (8 of 8 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---

@@ -52,8 +52,8 @@ Migraine currently has **4 registered clinical trials** (3 Phase 3, 1 Phase 2) a
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (migraine disorder), by the compiled assessment. Strict application of the rules would give a lower level, since the Phase 3 trials are active-comparator or pilot designs and outcome data are unverified |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (at least 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | at least 20 |
 | Recommended Decision | Proceed with Guardrails (migraine disorder) |
 
 **Candidate overview.** Ten indications were predicted. Only migraine disorder has substantial clinical evidence.
@@ -131,7 +131,13 @@ For Tourette syndrome, the only relevant literature is a review of tics induced 
 |---------|------|------|-----------|
 | ARTG 10293R | Lacosamide ARX | Tablet 50 mg (oral) | Not stated in the data compiled for this report |
 
-Only one single-ingredient, valid listing was identified. Other strengths and formulations were not found in the data compiled for this report.
+The data compiled for this report contain at least 20 current PBS items, all single-ingredient oral products, including 50 mg, 100 mg and 150 mg tablets and an oral solution.
+
+<!-- review:begin au-lic-20261117-lacosamide-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "Only one single-ingredient, valid listing was identified. Other strengths and formulations were not found in the data compiled for this report." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-lacosamide-1 -->
 
 ## Safety Considerations
 
@@ -155,6 +161,19 @@ Warnings and contraindication text from the Australian Product Information were 
 - A cardiac screening and interaction-management plan, including ECG review for patients with conduction disease or on interacting drugs
 - Mechanism of action data from DrugBank
 - A decision on whether an Australian trial registration (ANZCTR) or PBS review would be needed for a migraine indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

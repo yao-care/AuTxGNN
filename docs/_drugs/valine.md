@@ -48,8 +48,8 @@ Valine is an essential branched-chain amino acid (BCAA) supplied in Australia as
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 2 (valid: 2) |
+| Australia Market Status | Listed on the PBS Schedule (6 of 6 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 6 (valid: 6) |
 | Recommended Decision | Hold (research question only) |
 
 ## Why is This Prediction Reasonable?

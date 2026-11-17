@@ -48,8 +48,8 @@ Cyclosporine is a calcineurin inhibitor immunosuppressant. The TxGNN model predi
 | Predicted New Indication | granulomatous disease, chronic, autosomal recessive |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (at least 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,7 +70,13 @@ The single publication linked to this prediction reports survival after sibling 
 |---------|------|------|-----------|
 | ARTG 12663L | Ikervis | Eye drops 1 mg per mL, single dose units 0.3 mL, 30 | Not recorded in the local data |
 
-The only licensed product listed is an ophthalmic preparation. Its route differs from the systemic use that transplant-related immunosuppression would require.
+The listed PBS items include oral capsules and solution and an injection as well as ophthalmic preparations, so systemic formulations of the kind used for transplant-related immunosuppression are available.
+
+<!-- review:begin au-lic-20261117-cyclosporine-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The only licensed product listed is an ophthalmic preparation. Its route differs from the systemic use that transplant-related immunosuppression would require." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-cyclosporine-1 -->
 
 ## Safety Considerations
 
@@ -93,6 +99,19 @@ No clinical trial or publication tests cyclosporine in chronic granulomatous dis
 - Mechanism of action data to support a specific biological link
 - TGA Product Information safety data, including warnings and contraindications
 - Clarification of whether a systemic formulation would be needed, since the only licensed product here is an eye drop
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

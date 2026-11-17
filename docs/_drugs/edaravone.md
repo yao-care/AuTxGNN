@@ -51,8 +51,8 @@ The TxGNN model (deep learning) predicts it may be effective for **heparin cofac
 | Predicted New Indication | Heparin cofactor 2 deficiency |
 | TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
-| Australia Market Status | Not on the current PBS Schedule (1 of 1 PBS items in this data no longer listed) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 0) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 3 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 3 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

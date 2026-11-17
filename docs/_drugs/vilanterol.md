@@ -52,8 +52,8 @@ The data compiled for this report include **28 clinical trials** and **20 public
 | Predicted New Indication | Hyperlucent lung |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 3 (valid: 3) |
+| Australia Market Status | Listed on the PBS Schedule (10 of 10 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 10 (valid: 10) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -61,7 +61,6 @@ The data compiled for this report include **28 clinical trials** and **20 public
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data are not available in the data compiled for this report. From general pharmacology, vilanterol is a long-acting beta2-adrenoceptor agonist. It relaxes bronchial smooth muscle and produces bronchodilation, which directly addresses airflow obstruction.
-
 
 One caveat applies. The evidence comes from fixed-dose combinations (vilanterol with fluticasone furoate, umeclidinium, or both), so the contribution of vilanterol alone cannot be separated out.
 
@@ -109,7 +108,13 @@ The data include 20 publications for this indication. The table below lists the 
 
 ## Australia Market Information
 
-All three ARTG entries are fixed-dose combination inhalers containing vilanterol 25 micrograms per dose. The approved indication text is not recorded in the data compiled for this report.
+All ten current PBS items are fixed-dose combination inhalers containing vilanterol 25 micrograms per dose. The approved indication text is not recorded in the data compiled for this report.
+
+<!-- review:begin au-lic-20261117-vilanterol-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "All three ARTG entries are fixed-dose combination inhalers containing vilanterol 25 micrograms per dose." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-vilanterol-1 -->
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -145,6 +150,19 @@ Obstructive lung disease covers the conditions vilanterol-containing inhalers ar
 **Other predicted indications (not recommended for progression):**
 - Hyperlucent lung, tracheal stenosis, respiratory malformation, tracheal calcification and laryngotracheitis: **Hold**. These have no supporting trials or relevant literature, and the high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. For respiratory malformation, the retrieved publications do not address the condition.
 - Bronchial neoplasm: **Research Question**. The only related trial (NCT04536675, Phase 3, n=204) tests dual bronchodilators for COPD comorbidity in lung cancer surgery patients, so it does not support an effect on the tumour itself.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

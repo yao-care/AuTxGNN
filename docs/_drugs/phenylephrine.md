@@ -52,8 +52,8 @@ This prediction largely overlaps with existing indications rather than represent
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -92,7 +92,13 @@ Currently no related clinical trials registered.
 |---------|------|------|-----------|
 | 11908R | Prednefrin Forte | Eye drops containing prednisolone acetate 10 mg with phenylephrine hydrochloride 1.2 mg per mL, 10 mL | Not stated in the data compiled |
 
-The only licensed product is an ophthalmic combination (prednisolone acetate plus phenylephrine). It is not a nasal formulation, so route compatibility with a nasal indication is unconfirmed.
+All three listed PBS items are an ophthalmic combination (prednisolone acetate plus phenylephrine). It is not a nasal formulation, so route compatibility with a nasal indication is unconfirmed.
+
+<!-- review:begin au-lic-20261117-phenylephrine-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The only licensed product is an ophthalmic combination (prednisolone acetate plus phenylephrine)." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-phenylephrine-1 -->
 
 ---
 
@@ -130,6 +136,18 @@ The predicted indication overlaps heavily with existing rhinitis and nasopharyng
 | Predicted Indication | TxGNN Score | Evidence Level | Decision |
 |------|------|------|------|
 | Trigeminal autonomic cephalalgia | 0.9930 | L4 | Hold (literature uses phenylephrine only as a diagnostic pupillometry probe, not as a treatment; no therapeutic evidence) |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

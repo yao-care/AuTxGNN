@@ -52,8 +52,8 @@ This is closer to re-confirming a known hypnotic use than to a novel repurposing
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (9 of 9 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -101,7 +101,13 @@ The evidence is old and small-scale, and it was conducted before modern insomnia
 |---------|------|------|-----------|
 | ARTG 10178Q | Sponsor: Pfizer Australia Pty Ltd | Injection 5 mg (as hydrochloride) in 1 mL | Not specified in the data compiled |
 
-The only Australian listing is an injectable. The oral hypnotic studies above used an oral formulation, so route compatibility has not been established.
+The Australian listings are an injection and buccal (oromucosal) solutions (Zyamis); none is an oral tablet. The oral hypnotic studies above used an oral formulation, so route compatibility has not been established.
+
+<!-- review:begin au-lic-20261117-midazolam-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The only Australian listing is an injectable." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-midazolam-1 -->
 
 ---
 
@@ -132,6 +138,19 @@ The mechanism is plausible, and older randomised studies suggest oral midazolam 
 - Confirmation of route and formulation (oral vs injectable) and ARTG indication wording.
 - Contemporary comparative trials against current insomnia treatments, with attention to dependence and next-day impairment.
 - A plan for managing CYP3A4 and CNS-depressant interactions.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 2 (valid: 2) |
+| Australia Market Status | Listed on the PBS Schedule (8 of 8 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,7 +73,13 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-Two valid single-ingredient ARTG entries were identified. Product names, dosage forms and approved indication text were not available in the data compiled for this report.
+Eight current PBS items were identified in the data compiled for this report, including salicylic acid extemporaneous preparations and combination products (Duofilm with lactic acid; Ionil-T and Sebitar with coal tar). Product names and dosage forms are recorded only for the combination products; approved indication text is not available in the data compiled for this report.
+
+<!-- review:begin au-lic-20261117-salicylic_acid-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "Two valid single-ingredient ARTG entries were identified. Product names, dosage forms and approved indication text were not available in the data compiled for this report." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-salicylic_acid-1 -->
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -100,6 +106,19 @@ The prediction for papillary conjunctivitis rests solely on a model score, with 
 - Preclinical ocular tolerability and safety data for any conjunctival use
 - A systematic literature search for salicylates or NSAIDs in allergic conjunctivitis
 - Consideration of spondyloarthropathy as a better-grounded research question, using class-level NSAID evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -50,8 +50,8 @@ The evidence is early and does not yet show clear efficacy in this disease.
 | Predicted New Indication | Mantle cell lymphoma |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L2 (see note below) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (6 of 6 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* The data compiled for this report assigns L2, but the supporting trials for mantle cell lymphoma are Phase 1 studies plus one terminated Phase 2 study that enrolled mixed populations. By the stated criteria (a completed Phase 2/3 RCT) this is better read as L3–L4 for this specific indication, so L2 is likely generous. I have therefore recommended Hold rather than a more permissive decision.

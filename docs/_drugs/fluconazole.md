@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,7 +58,6 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 Currently, detailed mechanism of action data is not available. Based on known information, fluconazole is a triazole antifungal. Its efficacy in candidiasis and cryptococcal infection is established, and it is generally understood to act by inhibiting fungal ergosterol synthesis.
 
 Punctate epithelial keratoconjunctivitis is most often viral (commonly adenoviral) or inflammatory. A fungal cause would be needed for an antifungal mechanism to be relevant. The high TxGNN score (0.9924) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No supporting clinical or literature evidence was found. The link between fluconazole and this condition is therefore currently weak and unconfirmed.
-
 
 ## Clinical Trial Evidence
 
@@ -74,7 +73,13 @@ Currently no related literature available.
 |---------|------|------|-----------|
 | ARTG 1471K | Diflucan | Capsule 50 mg | Not available in the data compiled |
 
-Oral capsule is the only dosage form listed. Whether an ophthalmic or topical route would be needed for the predicted indication has not been assessed.
+The listed dosage forms are oral capsules (50 mg, 100 mg and 200 mg) and a powder for oral suspension. Whether an ophthalmic or topical route would be needed for the predicted indication has not been assessed.
+
+<!-- review:begin au-lic-20261117-fluconazole-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "Oral capsule is the only dosage form listed." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-fluconazole-1 -->
 
 ## Safety Considerations
 
@@ -99,6 +104,19 @@ The prediction is supported only by a score from the TxGNN model (deep learning)
 - Detailed mechanism of action data
 - Assessment of route and formulation suitability, since only an oral capsule is listed in Australia
 - Safety information from the TGA-approved Product Information, including the knowledge-graph flags for QT prolongation and kidney and liver disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

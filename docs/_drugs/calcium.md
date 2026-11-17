@@ -45,8 +45,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 2 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (13 of 13 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 13 (valid: 13) |
 
 ## Known uses recorded for this drug
 

@@ -50,10 +50,9 @@ The data compiled for this report show considerably more evidence for a related 
 | Predicted New Indication | CMM7 |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
-
 
 ---
 
@@ -68,7 +67,6 @@ The strongest mechanistic case in the data is for **myeloid leukaemia**. Blockin
 ---
 
 ## Clinical Trial Evidence
-
 
 **Myeloid leukaemia (best-supported alternative prediction; evidence level L2)**, selected from 25 trials:
 
@@ -108,7 +106,6 @@ No Australian (ANZCTR) trial identifiers were available in the data. All trials 
 | [32079173](https://pubmed.ncbi.nlm.nih.gov/32079173/) | 2020 | Review | Biology | CXCR4 antagonists as stem cell mobilisers and therapy sensitisers in AML and glioblastoma |
 | [34657533](https://pubmed.ncbi.nlm.nih.gov/34657533/) | 2021 | Review | Expert Rev Hematol | Overview of drug repositioning in haematology |
 
-
 ---
 
 ## Australia Market Information
@@ -117,7 +114,13 @@ No Australian (ANZCTR) trial identifiers were available in the data. All trials 
 |---------|------|------|-----------|
 | 10083Q | Plerixafor ARX | Injection 24 mg in 1.2 mL | Not recorded in the data compiled for this report |
 
-Only one valid single-ingredient entry is recorded, in injectable form.
+Two valid single-ingredient PBS items are recorded, both in injectable form.
+
+<!-- review:begin au-lic-20261117-plerixafor-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "Only one valid single-ingredient entry is recorded, in injectable form." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-plerixafor-1 -->
 
 ---
 
@@ -150,6 +153,19 @@ Myeloid leukaemia has an L2 evidence level from Phase 1/2 trials only. It is bet
 - The approved indication text and safety information from the TGA PI for ARTG 10083Q
 - Detailed mechanism of action data
 - Review of the renal impairment and thrombocytopenia signals before any use in a new population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

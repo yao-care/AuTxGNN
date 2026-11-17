@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **Tourette syndrome**, but ther
 | Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L4 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (10 of 10 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---

@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
-| Australia Market Status | Not on the current PBS Schedule (1 of 1 PBS items in this data no longer listed) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 0) |
+| Australia Market Status | Listed on the PBS Schedule (14 of 15 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 15 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,7 +73,13 @@ Currently no related literature available.
 |---------|------|------|
 | ARTG 14854T | Pediapharm Naproxen Suspension 25 mg/mL (Medexus Pharma, Canada) | Oral suspension 125 mg per 5 mL, 474 mL (S19A) |
 
-This is a single oral product supplied under Section 19A (imported supply). Approved indication text was not available in the data compiled for this report, so please refer to the Product Information.
+Fourteen current oral PBS items are recorded (tablets, sustained-release tablets and oral suspensions); the Section 19A oral suspension (imported supply) in this data is no longer listed. Approved indication text was not available in the data compiled for this report, so please refer to the Product Information.
+
+<!-- review:begin au-lic-20261117-naproxen-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "This is a single oral product supplied under Section 19A (imported supply)." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-naproxen-1 -->
 
 ## Safety Considerations
 
@@ -107,6 +113,19 @@ The prediction rests on model output alone (L5), with no registered trials, no l
 **Other predictions in the data:** Two lower-ranked predictions have more supporting evidence, but both are largely existing uses of naproxen rather than true repurposing. They are better assessed separately.
 - **Inflammatory spondylopathy** (axial spondyloarthritis): L1 with Proceed with Guardrails, supported by completed Phase 3 trials.
 - **Polyarticular juvenile rheumatoid arthritis**: L3 with Proceed with Guardrails, supported by older comparative studies and one randomised trial using naproxen as the comparator.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

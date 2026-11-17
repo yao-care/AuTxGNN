@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **mammary Paget disease**, but 
 | Predicted New Indication | Mammary Paget disease |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L5 (for mammary Paget disease) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (6 of 6 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 **Other predicted indications in the data compiled for this report:**

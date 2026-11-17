@@ -50,8 +50,8 @@ The score comes from the TxGNN model (deep learning) and may reflect similaritie
 | Predicted New Indication | Plummer-Vinson syndrome |
 | TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,7 +76,13 @@ Currently no related literature available.
 |---------|------|------|-----------|
 | ARTG 4199B | Waxsol | Ear drops 5 mg per mL (0.5%), 10 mL | Not recorded in the data compiled for this report |
 
-Note that the only ARTG entry is an ear-drop product (ceruminolytic use). It is not an oral laxative formulation, so no registered route matches the predicted systemic indications.
+Note that the current PBS items include an ear-drop product (Waxsol, ceruminolytic use) and oral laxative tablets (Coloxyl 50 and docusate with sennoside B).
+
+<!-- review:begin au-lic-20261117-docusate-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "Note that the only ARTG entry is an ear-drop product (ceruminolytic use). It is not an oral laxative formulation, so no registered route matches the predicted systemic indications." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-docusate-1 -->
 
 ## Safety Considerations
 
@@ -102,6 +108,19 @@ The prediction rests on a model score alone (L5), with no trials, no literature 
 - Any preclinical or clinical evidence supporting benefit in the predicted condition
 - A route and formulation assessment, since the only ARTG entry is an ear-drop product
 - Consideration of whether a more established treatment, such as iron replacement and oesophageal dilatation for Plummer-Vinson syndrome, already addresses the need
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -50,8 +50,8 @@ Evidence is still early: **1 clinical trial** (Phase 2, soft tissue sarcoma gene
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 (early-phase clinical data only, none specific to liposarcoma) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (18 of 18 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

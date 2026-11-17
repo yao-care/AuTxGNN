@@ -48,8 +48,8 @@ Atezolizumab is a monoclonal antibody drug that blocks PD-L1. The TxGNN model pr
 | Predicted New Indication | uterine ligament adenocarcinoma |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (at least 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

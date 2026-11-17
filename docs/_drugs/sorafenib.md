@@ -48,8 +48,8 @@ Sorafenib is an oral multikinase inhibitor marketed in Australia as Nexavar. The
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,7 +84,13 @@ Important caveats: the clinical data concern advanced soft tissue sarcoma as a g
 |---------|------|------|-----------|
 | Licence 10226F | Nexavar | Tablet 200 mg (as tosilate) | Not available in the data compiled |
 
-One valid single-ingredient licence is recorded in the local data.
+Three valid single-ingredient PBS items (Nexavar 200 mg tablets) are recorded in the local data.
+
+<!-- review:begin au-lic-20261117-sorafenib-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "One valid single-ingredient licence is recorded in the local data." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-sorafenib-1 -->
 
 ## Cytotoxicity
 
@@ -114,6 +120,18 @@ The TxGNN score is high (0.9982), but no study tests sorafenib in liposarcoma. T
 - Detailed mechanism of action data for sorafenib
 - Review of the TGA Product Information for warnings and contraindications
 - A clinical review of the interaction burden, particularly QT-prolonging combinations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

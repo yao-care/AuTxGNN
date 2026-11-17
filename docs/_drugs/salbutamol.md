@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (14 of 14 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---
@@ -85,7 +85,13 @@ Currently no related literature available.
 |---------|------|------|-----------|
 | ARTG 1103C | Ventolin | Oral solution 2 mg (as sulfate) per 5 mL, 150 mL | Not specified in the data compiled for this report |
 
-The only registered product is an oral formulation. No ocular or topical eye formulation is listed, so route compatibility with an eye indication is unresolved.
+The listed products are mainly inhaled formulations (nebuliser solutions and pressurised inhalers), plus an oral solution. No ocular or topical eye formulation is listed, so route compatibility with an eye indication is unresolved.
+
+<!-- review:begin au-lic-20261117-salbutamol-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The only registered product is an oral formulation." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-salbutamol-1 -->
 
 ---
 
@@ -129,6 +135,19 @@ The prediction score is very high, but the evidence is model-only (L5), with no 
 - Review of the PI warnings and contraindications, which could not be retrieved for this report
 
 **Note on other predictions for salbutamol:** Other indications predicted for this drug have stronger support, notably obstructive lung disease (L1). That prediction largely extends the existing bronchodilator use rather than representing true repurposing, so it may be worth evaluating separately.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

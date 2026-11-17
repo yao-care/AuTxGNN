@@ -50,8 +50,8 @@ but **no clinical trials or publications** currently support this specific predi
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (8 of 8 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,7 +83,13 @@ For context, the data compiled for this report include literature on the already
 |---------|------|------|-----------|
 | ARTG 10785P | Alprim | Tablet 300 mg (oral) | Not recorded in the data compiled for this report |
 
-The only listed Australian product is an oral tablet. The predicted ocular indication would likely need a topical ophthalmic formulation, and no route compatibility assessment is available.
+The listed Australian products are oral: trimethoprim tablets and trimethoprim with sulfamethoxazole tablets and paediatric suspension. The predicted ocular indication would likely need a topical ophthalmic formulation, and no route compatibility assessment is available.
+
+<!-- review:begin au-lic-20261117-trimethoprim-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The only listed Australian product is an oral tablet." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-trimethoprim-1 -->
 
 ## Cytotoxicity
 
@@ -116,6 +122,18 @@ The prediction has no trials or literature behind it (L5). The proposed indicati
 
 | Rank | Predicted Indication | Score | Evidence Level | Decision | Note |
 |---|---|---|---|---|---|
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

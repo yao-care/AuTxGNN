@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa** (follicul
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 (mechanistic rationale and case reports only; no direct triamcinolone evidence) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (6 of 6 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -88,7 +88,13 @@ Currently no related clinical trials registered.
 |---------|------|------|-----------|
 | ARTG 2117K | Tricortone | Cream containing triamcinolone acetonide 200 micrograms per g, 100 g | Not available in the compiled data |
 
-The only registered form is a topical cream. Whether it is suitable for follicular disease, where intralesional injection is the usual approach, has not been assessed.
+The listed forms are topical cream and ointment, an injection (Kenacort-A10, the kind used intralesionally) and ear preparations combined with neomycin, gramicidin and nystatin. Suitability for follicular disease has not been assessed.
+
+<!-- review:begin au-lic-20261117-triamcinolone-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The only registered form is a topical cream. Whether it is suitable for follicular disease, where intralesional injection is the usual approach, has not been assessed." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-triamcinolone-1 -->
 
 ---
 
@@ -118,6 +124,19 @@ The high model score (0.9999) is supported only by a plausible anti-inflammatory
 ---
 
 *Other predicted indications:* The data compiled for this report also cover nine further predictions. **Folliculitis decalvans** is the most developed (L3, two entries of a retrospective review of 23 patients, with a plausible role for intralesional or topical corticosteroids, though triamcinolone-specific efficacy is unconfirmed). **Idiopathic steroid-sensitive nephrotic syndrome** (L4) rests on class-level glucocorticoid evidence from two reviews. The remainder (telogen effluvium, alopecia antibody deficiency, hereditary hypotrichosis with recurrent skin vesicles, alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome, atrichia with papular lesions, alopecia universalis onychodystrophy vitiligo, and steroid-resistant nephrotic syndrome) are L5 and rated Hold. The steroid-resistant nephrotic syndrome prediction contradicts the definition of the condition.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

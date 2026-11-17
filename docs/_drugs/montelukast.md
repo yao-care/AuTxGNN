@@ -52,8 +52,8 @@ The data compiled for this report include **17 registered clinical trials** and 
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -108,7 +108,13 @@ The evidence is mixed in design. Small controlled trials address eosinophilic br
 |---------|------|------|-----------|
 | ARTG 14526M | Montelukast Sandoz 4 | Chewable tablet, 4 mg (as sodium), oral | Not stated in the data compiled |
 
-The one single-ingredient licence listed is valid, and the drug is marketed in Australia. The only dosage form recorded is oral.
+The data compiled for this report contain four valid single-ingredient PBS items (Montelukast Sandoz 4 mg and 5 mg chewable tablets), and the drug is marketed in Australia. The only dosage form recorded is oral.
+
+<!-- review:begin au-lic-20261117-montelukast-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The one single-ingredient licence listed is valid, and the drug is marketed in Australia." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-montelukast-1 -->
 
 ---
 
@@ -140,6 +146,18 @@ The evidence level is L2. Small controlled trials of montelukast exist in non-as
 - Mechanism of action data and a clear definition of the target bronchitis population (for example eosinophilic or paediatric)
 - TGA Product Information warnings and contraindications, which are not in the compiled data
 - A review of the moderate-severity interactions listed above before any use in a new population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

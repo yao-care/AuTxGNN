@@ -53,8 +53,8 @@ SIV infection is an animal research model rather than a human disease, so this p
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 |
-| Australia Market Status | Listed on the PBS Schedule (5 of 5 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 5 (valid: 5) |
+| Australia Market Status | Listed on the PBS Schedule (6 of 6 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -94,7 +94,13 @@ All eight publications are preclinical. No RCTs or human studies were identified
 
 ## Australia Market Information
 
-All five ARTG entries are fixed-dose combination tablets containing TAF. Approved indication text was not available in the data compiled for this report.
+All six current PBS items are fixed-dose combination tablets containing TAF. Approved indication text was not available in the data compiled for this report.
+
+<!-- review:begin au-lic-20261117-tenofovir_alafenamide-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "All five ARTG entries are fixed-dose combination tablets containing TAF." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-tenofovir_alafenamide-1 -->
 
 | ARTG Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -126,6 +132,19 @@ The only supporting evidence is preclinical (macaque and humanised mouse models)
 - Approved indication text and safety information (warnings, contraindications) from the TGA Product Information for each ARTG entry
 - Detailed mechanism of action data
 - A review of whether any of the macaque PrEP or PEP findings have human trial counterparts
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

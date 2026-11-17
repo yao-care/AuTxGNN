@@ -48,8 +48,8 @@ Eltrombopag is an oral thrombopoietin receptor (TPO-R) agonist marketed in Austr
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (16 of 16 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

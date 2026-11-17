@@ -52,8 +52,8 @@ The evidence is mostly small, early-phase or older haemodynamic studies, so it s
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L3 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (9 of 9 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---

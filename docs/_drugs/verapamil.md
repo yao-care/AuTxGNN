@@ -52,8 +52,8 @@ There are **no registered clinical trials** and only **indirect literature** for
 | Predicted New Indication (top-ranked) | Obsolete bundle branch block |
 | TxGNN Prediction Score (top-ranked) | 0.9962 |
 | Evidence Level | L5 for the top-ranked prediction; L4 for ARVC |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (10 of 10 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 10 (valid: 10) |
 | Recommended Decision | Hold (top-ranked prediction); Research Question (ARVC) |
 
 ### All Candidates at a Glance

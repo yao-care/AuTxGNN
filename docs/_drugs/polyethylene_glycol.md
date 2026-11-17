@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Congenital ichthyosiform erythroderma |
 | TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (9 of 9 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,7 +76,13 @@ Currently no related literature available.
 |---------|------|------|-----------|
 | ARTG 13100L | Systane | Eye drops 4 mg-3 mg per mL, single dose units 0.8 mL, 30 | Not stated in the data compiled for this report |
 
-The only registered product is an ophthalmic preparation. No topical dermatological formulation is listed, so route compatibility with the predicted skin indication has not been established.
+All nine current PBS items are ophthalmic preparations (Systane, polyethylene glycol-400 with propylene glycol). No topical dermatological formulation is listed, so route compatibility with the predicted skin indication has not been established.
+
+<!-- review:begin au-lic-20261117-polyethylene_glycol-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The only registered product is an ophthalmic preparation." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-polyethylene_glycol-1 -->
 
 ## Safety Considerations
 
@@ -105,6 +111,19 @@ The prediction rests only on a model score, with no clinical trials, no literatu
 - Assessment of route and formulation, since only an ophthalmic product is registered
 - Product Information warnings and contraindications for relevant products
 - Review of the knowledge-graph contraindications against the intended formulation and patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

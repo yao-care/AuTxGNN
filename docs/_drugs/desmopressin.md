@@ -38,12 +38,12 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Desmopressin is a synthetic analogue of vasopressin. The nasal spray item in this data (PBS item 12458Q, Apotex) is no longer listed on the PBS Schedule (absent since 1 May 2026); other desmopressin nasal sprays, tablets and wafers remain listed under other PBS item codes.
+Desmopressin is a synthetic analogue of vasopressin. In Australia, 16 desmopressin PBS items are currently listed (Minirin and Desmomed nasal sprays, Minirin tablets, and Minirin Melt and Desmopressin ADVZ sublingual wafers and tablets); one earlier nasal spray item (12458Q, Apotex) is no longer listed (absent since 1 May 2026).
 The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but there are **0 clinical trials** and only **1 publication** (a general 1993 review of congenital bleeding disorders) linked to this prediction, and that publication does not study desmopressin in this disease.
 
 <!-- review:begin au-lic-20261117-desmopressin-1 -->
 
-> **Review correction (2026-11-17)**: Originally stated: "Desmopressin is a synthetic analogue of vasopressin that is marketed in Australia as a nasal spray." Corrected: the PBS item in this data is no longer on the current PBS Schedule (PBS public data API, Schedule effective 2026-11-01). A PBS item being no longer listed does not mean its TGA (ARTG) registration has been cancelled; ARTG status is not included in this data. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) and the previous 12 monthly Schedules (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+> **Review correction (2026-11-17)**: Originally stated: "Desmopressin is a synthetic analogue of vasopressin that is marketed in Australia as a nasal spray." Corrected: the earlier wording said the drug is marketed only as a nasal spray. Current PBS items include nasal sprays, tablets and sublingual wafers (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) and the previous 12 monthly Schedules (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
 
 <!-- review:end au-lic-20261117-desmopressin-1 -->
 
@@ -55,8 +55,8 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 | Predicted New Indication | congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| Australia Market Status | Not on the current PBS Schedule (1 of 1 PBS items in this data no longer listed) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 0) |
+| Australia Market Status | Listed on the PBS Schedule (16 of 17 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 17 (valid: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -113,7 +113,7 @@ Below is the review log for this page: statements checked against official Austr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-17 | Corrected: the nasal spray PBS item in this data is no longer listed | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) and the previous 12 monthly Schedules (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-17 | Corrected: current PBS items include nasal sprays, tablets and wafers | Corrected (revised 2026-11-17; earlier version kept in the record) | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) and the previous 12 monthly Schedules (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

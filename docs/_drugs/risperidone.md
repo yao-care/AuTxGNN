@@ -50,8 +50,8 @@ There are currently **no clinical trials and no publications** supporting this p
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (at least 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,7 +74,13 @@ Currently no related literature available.
 |---------|------|------|-----------|
 | ARTG 11869Q | APO-Risperidone | Tablet 0.5 mg (oral) | Not available in the data compiled for this report |
 
-At least one valid licence is on record (1 single-ingredient entry, valid). Available route: oral.
+The data compiled for this report contain at least 20 current PBS items, all single-ingredient. Available routes: oral (tablets and oral solution) and intramuscular injection.
+
+<!-- review:begin au-lic-20261117-risperidone-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "At least one valid licence is on record (1 single-ingredient entry, valid). Available route: oral." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-risperidone-1 -->
 
 ## Safety Considerations
 
@@ -100,6 +106,18 @@ The prediction rests on a model score alone. No trials or publications address t
 - A defined mechanistic hypothesis linking risperidone's pharmacology to ROBO3-related axon guidance
 - Detailed mechanism of action data
 - Review of the TGA-approved Product Information for safety information
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

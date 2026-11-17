@@ -52,8 +52,8 @@ Chickenpox has **5 linked clinical trials** (2 completed Phase 3 studies of famc
 | Predicted New Indication | Post-infectious neuralgia |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 (post-infectious neuralgia); L1 as scored for chickenpox, though no trial confirms chickenpox efficacy (see below) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (6 of 6 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 6 (valid: 6) |
 | Recommended Decision | Hold for post-infectious neuralgia; Proceed with Guardrails for chickenpox |
 
 ---

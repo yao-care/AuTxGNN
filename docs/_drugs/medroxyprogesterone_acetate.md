@@ -48,8 +48,8 @@ Medroxyprogesterone acetate (MPA) is a synthetic progestin with an oral tablet c
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L3 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (13 of 13 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,7 +84,13 @@ Currently no related clinical trials registered.
 |---------|------|------|-----------|
 | ARTG 13849X | Ralovera | Tablet containing medroxyprogesterone acetate 10 mg (oral) | Not stated in the data compiled for this report |
 
-The approved indication text for this entry is not recorded in the local data. The market status is Marketed, and the single licence is valid.
+The approved indication text for this entry is not recorded in the local data. The market status is Marketed, with 13 current PBS items (oral tablets and a Depo-Provera injection).
+
+<!-- review:begin au-lic-20261117-medroxyprogesterone_acetate-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The market status is Marketed, and the single licence is valid." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-medroxyprogesterone_acetate-1 -->
 
 ## Safety Considerations
 
@@ -107,6 +113,18 @@ The mechanistic rationale is plausible, and two small, dated MPA studies address
 - A structured benefit-risk assessment of breast proliferation and density effects.
 - Review of the TGA Product Information for warnings and contraindications.
 - A controlled study design, if pursued, with breast imaging and safety endpoints.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

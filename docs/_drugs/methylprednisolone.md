@@ -50,8 +50,8 @@ Methylprednisolone is a glucocorticoid with anti-inflammatory and immunosuppress
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (at least 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | at least 20 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,7 +82,13 @@ Currently no related literature available for alopecia mucinosa.
 |---------|------|------|-----------|
 | ARTG 10830B | Advantan | Lotion containing methylprednisolone aceponate 1 mg per g, 20 g | Not available in the data compiled for this report |
 
-The only local entry is a topical lotion containing methylprednisolone aceponate, a related ester form of the molecule. It is currently valid. No systemic methylprednisolone product appears in the local data.
+The local entries are mainly topical lotions, creams and ointments containing methylprednisolone aceponate, a related ester form of the molecule, and all are currently listed. One injection (Depo-Medrol, methylprednisolone acetate) is also listed.
+
+<!-- review:begin au-lic-20261117-methylprednisolone-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The only local entry is a topical lotion containing methylprednisolone aceponate, a related ester form of the molecule. It is currently valid. No systemic methylprednisolone product appears in the local data." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-methylprednisolone-1 -->
 
 ---
 
@@ -111,6 +117,18 @@ The prediction has a very high model score (0.9999) but no supporting trials or 
 - Mechanism of action data for methylprednisolone, to assess the link to this disease.
 - Clarification of the intended route and formulation (topical vs systemic) against the products available in Australia.
 - Label warnings and contraindications from the current Product Information for the relevant product.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **visceral calciphylaxis**, but *
 | Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (6 of 6 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -105,7 +105,13 @@ Literature retrieved for neighbouring predictions, which does not support effica
 |---------|------|------|-----------|
 | ARTG 14549R | Travatan | Eye drops 40 micrograms per mL, 2.5 mL | Not stated in the data compiled for this report |
 
-Only one single-ingredient licence is listed, and its status is valid. The only available dosage form is ophthalmic, which differs from what a systemic condition such as visceral calciphylaxis would likely need.
+Six current PBS items are listed: three single-ingredient travoprost eye drops and three travoprost with timolol. The only available dosage form is ophthalmic, which differs from what a systemic condition such as visceral calciphylaxis would likely need.
+
+<!-- review:begin au-lic-20261117-travoprost-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "Only one single-ingredient licence is listed, and its status is valid." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-travoprost-1 -->
 
 ---
 
@@ -133,6 +139,19 @@ The prediction is supported only by the model score. No trials or publications s
 - A route and formulation assessment, since only an ophthalmic product is registered
 - The TGA Product Information, to confirm warnings, contraindications and the approved indication text
 - Review of the blood pressure signal and vascular safety concerns
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

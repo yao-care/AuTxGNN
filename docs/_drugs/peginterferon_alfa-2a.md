@@ -49,8 +49,8 @@ The TxGNN model (deep learning) predicts it may be effective for **hepatitis E v
 | Predicted New Indication | Hepatitis E virus infection |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L1 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (12 of 12 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 12 (valid: 12) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

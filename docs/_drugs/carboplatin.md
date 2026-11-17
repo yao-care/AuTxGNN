@@ -48,8 +48,8 @@ Carboplatin is a platinum-based cytotoxic chemotherapy agent. The TxGNN model pr
 | Predicted New Indication | rectum mucinous adenocarcinoma |
 | TxGNN Prediction Score | 0.9928 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,7 +72,13 @@ Currently no related literature available.
 |---------|------|------|-----------|
 | ARTG 4309T | Carboplatin Accord | Solution for I.V. injection 450 mg in 45 mL | Not recorded in the local data |
 
-One licence is recorded, and it is valid. Carboplatin is supplied as an injectable (intravenous) solution.
+Two current PBS items are recorded. Carboplatin is supplied as an injectable (intravenous) solution.
+
+<!-- review:begin au-lic-20261117-carboplatin-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "One licence is recorded, and it is valid." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-carboplatin-1 -->
 
 ## Cytotoxicity
 
@@ -114,6 +120,19 @@ The prediction score is high (0.9928), but there are no clinical trials or publi
 - Mechanism of action data to support the proposed link
 - Label-based warnings and contraindications from the TGA-approved Product Information
 - A review of current rectal cancer guidelines to judge whether a platinum agent has a role in this histology
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -52,8 +52,8 @@ Among lower-ranked predictions, **myeloid leukaemia** (4 early-phase trials, 20 
 | Predicted New Indication | Hyperthyroidism |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

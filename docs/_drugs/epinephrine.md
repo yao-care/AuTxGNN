@@ -52,8 +52,8 @@ Much of this is an on-label or near-label extension rather than true repurposing
 | Predicted New Indication | Obstructive lung disease |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (10 of 10 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 10 (valid: 10) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -112,7 +112,13 @@ Ten of the 20 publications are shown, prioritising systematic reviews and random
 |---------|------|------|-----------|
 | ARTG 1016L | Link Medical Products Pty Ltd | Injection 1 mg (as acid tartrate) in 1 mL (1 in 1,000) | Not stated in the data compiled for this report |
 
-The only registered product is an injectable. No inhaled epinephrine product appears in the data, which limits the direct applicability of the inhaled-formulation trials.
+The listed products are injections and a nasal spray (neffy). No inhaled epinephrine product appears in the data, which limits the direct applicability of the inhaled-formulation trials.
+
+<!-- review:begin au-lic-20261117-epinephrine-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The only registered product is an injectable. No inhaled epinephrine product appears in the data, which limits the direct applicability of the inhaled-formulation trials." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-epinephrine-1 -->
 
 ---
 
@@ -161,6 +167,18 @@ Please refer to the TGA-approved Product Information (PI) for the official warni
 | Trigeminal autonomic cephalalgia | L5 | Hold (observational pathophysiology only) |
 | Rienhoff syndrome | L5 | Hold (no supporting data; likely a model artefact) |
 | Anorectal stricture | L5 | Hold (no supporting data) |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -48,8 +48,8 @@ The TxGNN model (deep learning) predicts that cholecalciferol (vitamin D3) may b
 | Predicted New Indication | Acromesomelic dysplasia, Campailla Martinelli type |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (6 of 6 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,7 +72,13 @@ Currently no related literature available.
 |---------|------|------|-----------|
 | ARTG 13835E | Fosamax Plus 70 mg/140 mcg | Oral tablet, 70 mg (as alendronate sodium) with 140 micrograms colecalciferol | Not provided in the data compiled for this report |
 
-This is the only ARTG entry found, and it is a combination product (alendronate plus colecalciferol). It therefore does not show how cholecalciferol on its own is approved or marketed in Australia.
+All six current PBS items found are combination products (alendronate plus colecalciferol, Fosamax Plus tablets). It therefore does not show how cholecalciferol on its own is approved or marketed in Australia.
+
+<!-- review:begin au-lic-20261117-cholecalciferol-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "This is the only ARTG entry found, and it is a combination product (alendronate plus colecalciferol)." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-cholecalciferol-1 -->
 
 ## Safety Considerations
 
@@ -95,6 +101,19 @@ The prediction is supported only by a TxGNN model (deep learning) score. No clin
 - Confirmation of how cholecalciferol is licensed as a single ingredient in Australia, as the only entry found is a combination product
 
 For context, other TxGNN predictions for this drug, such as renal osteodystrophy, have more supporting evidence and may be better candidates for further review.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

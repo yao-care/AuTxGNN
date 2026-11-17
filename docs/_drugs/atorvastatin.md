@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **HIV infectious disease**, with 
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L1 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (at least 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | at least 20 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

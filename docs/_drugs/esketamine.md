@@ -51,8 +51,8 @@ The best-supported candidate in the data compiled for this report is **Neurotic 
 | Predicted New Indication | Agoraphobia |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (18 of 18 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 **Other predicted indications reviewed:**

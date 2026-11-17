@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 | Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (8 of 8 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,7 +84,13 @@ Currently no related clinical trials registered for exposure keratitis.
 |---------|------|------|-----------|
 | ARTG 10066T | TOBI Podhaler | Capsule containing powder for oral inhalation 28 mg (for use in Podhaler) | Not listed in the data compiled for this report |
 
-The only registered Australian product is an inhaled formulation. There is no registered ophthalmic formulation in the data compiled for this report, so route compatibility with an eye indication is unconfirmed.
+The listed Australian products are inhaled formulations and injections. There is no registered ophthalmic formulation in the data compiled for this report, so route compatibility with an eye indication is unconfirmed.
+
+<!-- review:begin au-lic-20261117-tobramycin-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The only registered Australian product is an inhaled formulation." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-tobramycin-1 -->
 
 ## Safety Considerations
 
@@ -117,6 +123,18 @@ The prediction score is very high, but it is based on the model alone. There are
 | 7 | Infective urethral stricture | 0.9978 | L5 | One 1976 comparison with gentamicin in complicated urinary tract infection, which does not address stricture. |
 | 10 | Epidemic keratoconjunctivitis | 0.9938 | L4 | Mainly adenoviral. Tobramycin has no antiviral activity and the literature is weak. |
 | 2, 4, 6, 8, 9 | Non-human animal disease, postinfectious vasculitis, post-infectious syndrome, Chagas cardiomyopathy, infection-related haemolytic uraemic syndrome | 99.77–0.9983 | L5 | No trials or literature and no plausible mechanism. Aminoglycoside nephrotoxicity makes haemolytic uraemic syndrome particularly unfavourable. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

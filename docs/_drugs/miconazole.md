@@ -48,8 +48,8 @@ Miconazole is a topical imidazole antifungal marketed in Australia as a cream. T
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L4 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

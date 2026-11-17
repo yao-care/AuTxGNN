@@ -50,8 +50,8 @@ with **2 directly relevant clinical trials** (one Phase 3 and one Phase 4, both 
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 (as scored in the data compiled; see note below) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (at least 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | at least 20 |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Strictly applying the grading rules, the seborrheic dermatitis evidence comprises one completed Phase 3 trial and one completed Phase 4 study, with no results summarised in the data. That is closer to L2 than to L1 (which needs at least two completed Phase 3 RCTs). The L1 grade comes from the scoring in the data compiled and should be confirmed.
@@ -92,7 +92,13 @@ No ANZCTR identifiers were available in the data compiled.
 |---------|------|------|-----------|
 | ARTG 10859M | Tacrolimus Sandoz | Capsule 0.75 mg (oral) | Not stated in the data compiled |
 
-The only registered product in the data compiled is an oral capsule. No topical tacrolimus product is listed, whereas the seborrheic dermatitis evidence relates to topical ointment. Availability of a suitable topical formulation in Australia should be confirmed.
+Most PBS items in the data compiled are oral capsules, but a topical tacrolimus ointment (aZematop 1 mg per g) is also listed, which matches the form used in the seborrheic dermatitis evidence.
+
+<!-- review:begin au-lic-20261117-tacrolimus-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The only registered product in the data compiled is an oral capsule. No topical tacrolimus product is listed, whereas the seborrheic dermatitis evidence relates to topical ointment. Availability of a suitable topical formulation in Australia should be confirmed." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-tacrolimus-1 -->
 
 ## Safety Considerations
 
@@ -116,6 +122,19 @@ The mechanism is plausible, and a completed Phase 3 trial and a completed Phase 
 - Mechanism of action data and package insert warnings and contraindications from the TGA Product Information
 - A long-term safety and malignancy monitoring plan, with infection excluded before treatment
 - Confirmation of the evidence level (L1 as scored versus L2 on strict application of the rules)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -52,8 +52,8 @@ Support for this is weak: **4 early-phase clinical trials** that are not specifi
 | Predicted New Indication | Primary cutaneous B-cell lymphoma |
 | TxGNN Prediction Score | 0.9921 |
 | Evidence Level | L5 (preclinical and mechanistic data only; no disease-specific clinical studies) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

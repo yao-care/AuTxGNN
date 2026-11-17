@@ -52,8 +52,8 @@ Amenorrhoea is an expected pharmacodynamic effect of goserelin, so this is bette
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 (as assigned in the data; the single Phase 3 trial is indirect and its status is unknown) |
-| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 2 (valid: 2) |
+| Australia Market Status | Listed on the PBS Schedule (5 of 5 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

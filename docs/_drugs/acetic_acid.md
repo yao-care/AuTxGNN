@@ -50,8 +50,8 @@ The prediction rests on model output alone.
 | Predicted New Indication | Post-bacterial disorder |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 3 (valid: 3) |
+| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -96,7 +96,13 @@ One further retrieved paper (PMID 30941788) is an analytical chemistry study unr
 
 ## Australia Market Information
 
-Three valid single-ingredient licence entries are recorded (102J, 710J and 101H). Product names, dosage forms and approved indication text were not available in the data compiled for this report, so a product table cannot be provided.
+Four current PBS items are recorded: three single-ingredient acetic acid entries (102J, 710J and 101H) and Aci-Jel vaginal jelly (4434J), a combination with oxyquinoline and ricinoleic acid. Product names, dosage forms and approved indication text were not available in the data compiled for this report, so a product table cannot be provided.
+
+<!-- review:begin au-lic-20261117-acetic_acid-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "Three valid single-ingredient licence entries are recorded (102J, 710J and 101H)." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-acetic_acid-1 -->
 
 ## Safety Considerations
 
@@ -120,6 +126,19 @@ The top prediction is supported by model output only (evidence level L5), with n
 - Product names, dosage forms, routes and approved indications for the three ARTG entries
 - TGA PI warnings and contraindications
 - For tinea corporis, controlled studies of defined acetic acid concentrations, with a safety assessment of skin irritation and burns
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

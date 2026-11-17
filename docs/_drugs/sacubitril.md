@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **diabetic nephropathy**, the m
 | Predicted New Indication | Brain small vessel disease 1 with or without ocular anomalies |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (6 of 6 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 6 (valid: 6) |
 | Recommended Decision | Hold (research question; see conclusion) |
 
 The top-ranked prediction by score was brain small vessel disease 1 with or without ocular anomalies (0.9958). It has no supporting mechanism or evidence (L5, Hold). Diabetic nephropathy is the only prediction with a clinical trial and a plausible mechanism, so this report focuses on it. Rankings 1, 2, 4 and 5 have little or no evidence:

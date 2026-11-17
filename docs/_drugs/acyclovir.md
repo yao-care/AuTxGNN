@@ -52,8 +52,8 @@ This report therefore evaluates the common wart prediction (rank 2) as the main 
 | Predicted New Indication | Common wart (the top-ranked prediction, punctate epithelial keratoconjunctivitis, has no clinical support) |
 | TxGNN Prediction Score | 0.9946 for common wart (0.9967 for punctate epithelial keratoconjunctivitis) |
 | Evidence Level | L5 (common wart) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (6 of 6 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails (as a research question, not for routine use) |
 
 ---
@@ -119,7 +119,13 @@ Evidence for the other predictions is weak:
 |---------|------|------|-----------|
 | 1002R | XOROX | Eye ointment 30 mg per g, 4.5 g | Not recorded in the data compiled for this report |
 
-The only registered product is an ophthalmic ointment. There is no registered intralesional or oral product in the data compiled for this report, so the route used in the wart studies (injection into the lesion) does not match the registered form. Route compatibility has not been assessed.
+The current PBS items are eye ointments (XOROX) and oral tablets (200 mg and 800 mg). There is no intralesional product in the data compiled for this report, so the route used in the wart studies (injection into the lesion) does not match the listed forms. Route compatibility has not been assessed.
+
+<!-- review:begin au-lic-20261117-acyclovir-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "The only registered product is an ophthalmic ointment. There is no registered intralesional or oral product in the data compiled for this report, so the route used in the wart studies (injection into the lesion) does not match the registered form." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-acyclovir-1 -->
 
 ---
 
@@ -145,6 +151,19 @@ For key warnings and label contraindications, please refer to the TGA-approved P
 - A formulation and route assessment, because the only ARTG-listed product is an eye ointment and no injectable or oral product was identified
 - Review of the TGA Product Information for warnings and contraindications, which were not available in the data compiled for this report
 - Verification of the knowledge-graph contraindications and the interaction list against the PI, particularly for patients with renal impairment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

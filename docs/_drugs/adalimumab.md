@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hypermobility of coccyx**, bu
 | Predicted New Indication | hypermobility of coccyx |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (at least 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,7 +73,13 @@ Currently no related literature available for hypermobility of coccyx.
 |---------|------|------|-----------|
 | ARTG 10399H | Hadlima | Injection 40 mg in 0.8 mL pre-filled syringe | Not recorded in the local data |
 
-At least the data compiled for this report show one valid single-ingredient licence and no cancelled or non-marketed licences.
+The data compiled for this report show at least 20 current PBS items (all single-ingredient injections) and none that are no longer listed.
+
+<!-- review:begin au-lic-20261117-adalimumab-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "At least the data compiled for this report show one valid single-ingredient licence and no cancelled or non-marketed licences." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-adalimumab-1 -->
 
 ## Safety Considerations
 
@@ -97,6 +103,19 @@ The prediction rests on a model score alone. No trials or publications address h
 - Detailed mechanism of action data
 - Warnings and contraindications from the TGA-approved Product Information
 - Confirmation of the approved indications for the Australian product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

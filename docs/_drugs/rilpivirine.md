@@ -50,8 +50,8 @@ Overall, this prediction is largely an extension of the existing HIV indication 
 | Predicted New Indication | Feline acquired immunodeficiency syndrome (top-ranked by TxGNN; veterinary). The best-evidenced prediction is simian immunodeficiency virus infection (rank 2, an animal model of HIV) |
 | TxGNN Prediction Score | 0.9997 (both feline AIDS and SIV infection) |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

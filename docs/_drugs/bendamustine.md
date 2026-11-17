@@ -48,8 +48,8 @@ Bendamustine is a bifunctional alkylating cytotoxic agent with activity across m
 | Predicted New Indication | mantle cell lymphoma |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L1 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

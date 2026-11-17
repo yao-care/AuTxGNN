@@ -52,8 +52,8 @@ This direction is supported by **3 clinical trials directly studying migraine** 
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (14 of 14 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 14 (valid: 14) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

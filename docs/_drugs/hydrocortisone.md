@@ -50,8 +50,8 @@ Hydrocortisone is a glucocorticoid with anti-inflammatory and immunosuppressive 
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (12 of 12 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 12 (valid: 12) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -95,7 +95,13 @@ No ANZCTR identifiers were found in the data compiled for this report.
 |---------|------|------|-----------|
 | ARTG 13863P | Hydrocortisone Viatris 4 | Tablet 4 mg (oral) | Not available in the data compiled for this report |
 
-One valid single-ingredient licence is listed; the product is an oral tablet.
+The table lists one of 12 valid single-ingredient PBS items in the data compiled for this report; these are oral tablets (4 mg and 20 mg) and hydrocortisone sodium succinate injections (Solu-Cortef 100 mg and 250 mg).
+
+<!-- review:begin au-lic-20261117-hydrocortisone-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "One valid single-ingredient licence is listed; the product is an oral tablet." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-hydrocortisone-1 -->
 
 ---
 
@@ -119,6 +125,18 @@ A completed randomised Phase 3 trial in children with alopecia areata used hydro
 - Head-to-head or placebo-controlled data on hydrocortisone itself in alopecia areata, ideally in adults as well as children
 - Confirmation of a suitable topical or intralesional formulation, as the listed Australian product is an oral tablet
 - Mechanism of action data and a safety review based on the TGA Product Information, including monitoring plans for long-term corticosteroid exposure
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

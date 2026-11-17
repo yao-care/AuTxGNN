@@ -50,8 +50,8 @@ Support is very limited: **no registered clinical trials** and **1 publication**
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 2 (valid: 2) |
+| Australia Market Status | Listed on the PBS Schedule (at least 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,7 +77,13 @@ Currently no related clinical trials registered.
 | ARTG 10794D | Betnovate 1/2 | Cream 500 micrograms (as valerate) per g, 15 g | Not recorded in the local data |
 | ARTG 10795E | Diprosone | Ointment 500 micrograms (as dipropionate) per g, 15 g | Not recorded in the local data |
 
-Both entries are single-ingredient products with a valid status. Both are topical presentations.
+The data compiled for this report contain at least 20 current PBS items (betamethasone valerate and betamethasone dipropionate), all single-ingredient topical presentations.
+
+<!-- review:begin au-lic-20261117-betamethasone-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "Both entries are single-ingredient products with a valid status. Both are topical presentations." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-betamethasone-1 -->
 
 ## Safety Considerations
 
@@ -102,6 +108,18 @@ The prediction score is high (0.9997), but the only direct evidence is a single 
 - Mechanism of action data for betamethasone
 - Product Information warnings and contraindications for the Australian products
 - A review of the suitability of the available topical cream and ointment for the affected sites, such as the scalp
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

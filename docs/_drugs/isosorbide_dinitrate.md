@@ -49,8 +49,8 @@ Isosorbide dinitrate is a nitric oxide (NO) donor and vasodilator, currently mar
 | Predicted New Indication | Alopecia |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (model prediction only) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Number of approvals | 1 licence record (single-ingredient product) |
 | Recommended Decision | Hold |
 
@@ -84,7 +84,13 @@ Currently no related literature available.
 |---------|------|------|
 | 13491C | Isordil Sublingual | Tablet 5 mg (sublingual) |
 
-Only one licence record is listed. No approved indication text is recorded for it, and only the sublingual tablet route is available. A formulation suited to scalp use has not been identified.
+Two current PBS items are listed (Isordil Sublingual 5 mg tablets). No approved indication text is recorded for it, and only the sublingual tablet route is available. A formulation suited to scalp use has not been identified.
+
+<!-- review:begin au-lic-20261117-isosorbide_dinitrate-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "Only one licence record is listed." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-isosorbide_dinitrate-1 -->
 
 ---
 
@@ -129,6 +135,19 @@ The alopecia prediction has no supporting trials or publications, and its mechan
 - Mechanism of action data to support the proposed link
 
 Other predictions in the same analysis have more supporting data and may be better candidates for follow-up. Pulmonary hypertension has a body of small haemodynamic studies, and vascular disease has one completed Phase 3 trial in diabetic foot ulcers (NCT02789033, n=68, results not available).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

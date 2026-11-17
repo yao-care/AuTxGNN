@@ -50,8 +50,8 @@ with **40 clinical trials** and **20 publications** currently listed in the data
 | Predicted New Indication | Rectum mucinous adenocarcinoma |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 (as assigned in the compiled data; see the note under Clinical Trial Evidence) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

@@ -52,8 +52,8 @@ This report covers the top-ranked prediction in the Quick Overview, Ohdo syndrom
 | Predicted New Indication | Top-ranked: Ohdo syndrome and variants (rank 1). Best-supported: Agoraphobia (Ohdo syndrome and variants) |
 | TxGNN Prediction Score | 0.9911 |
 | Evidence Level | Ohdo syndrome: L5; Agoraphobia: L1 (the grade rests largely on panic disorder evidence) |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Ohdo syndrome: Hold; Agoraphobia: Proceed with Guardrails |
 
 ---

@@ -52,8 +52,8 @@ Any benefit would most likely be symptomatic relief of tumour-related facial ner
 | Predicted New Indication | trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (15 of 15 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 15 (valid: 15) |
 | Recommended Decision | Hold |
 
 ---

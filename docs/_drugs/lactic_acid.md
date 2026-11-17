@@ -52,8 +52,8 @@ Across all ten top-ranked predictions, none has a clinical trial or a publicatio
 | Predicted New Indication | Atypical coarctation of aorta |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -103,7 +103,13 @@ The second-ranked prediction (aortic malformation) retrieved 14 publications, no
 |---------|------|------|-----------|
 | 113Y (licence number as recorded) | Not recorded | Not recorded | Not recorded |
 
-One valid single-ingredient entry is recorded. Product name, dosage form and approved indication are not available in the data compiled for this report.
+Two current PBS items are recorded: one single-ingredient lactic acid entry and Duofilm Solution (salicylic acid with lactic acid). Product name, dosage form and approved indication are not available in the data compiled for this report.
+
+<!-- review:begin au-lic-20261117-lactic_acid-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "One valid single-ingredient entry is recorded." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-lactic_acid-1 -->
 
 ---
 
@@ -131,6 +137,19 @@ The TxGNN scores are high, but none of the top ten predictions has a registered 
 - Warnings and contraindications from the TGA Product Information, which are needed before safety screening can proceed
 - A plausible biological rationale for any predicted indication, followed by preclinical evidence, before clinical investigation is considered
 - Consideration of other candidate indications, since the top-ranked predictions are largely structural or surgical conditions where a drug is unlikely to be effective
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

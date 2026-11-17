@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no publications** supportin
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (3 of 3 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 3 (valid: 3) |
+| Australia Market Status | Listed on the PBS Schedule (at least 20 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,7 +80,13 @@ Currently no related literature available.
 | ARTG 11833T | Symdeko | Pack containing 28 tablets tezacaftor 100 mg with ivacaftor 150 mg and 28 tablets ivacaftor 150 mg | Not available in the compiled data |
 | ARTG 12936W | Trikafta | Pack containing 56 tablets elexacaftor 100 mg with tezacaftor 50 mg and with ivacaftor 75 mg and 28 tablets ivacaftor 150 mg | Not available in the compiled data |
 
-All three products are oral and currently valid.
+The data compiled for this report contain at least 20 current PBS items, all oral and currently listed.
+
+<!-- review:begin au-lic-20261117-tezacaftor-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "All three products are oral and currently valid." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-tezacaftor-1 -->
 
 ## Safety Considerations
 
@@ -101,6 +107,19 @@ The prediction for HIV infectious disease is supported only by a model score (Ev
 - A plausible biological rationale linking CFTR correction to HIV, supported by preclinical or in vitro studies
 - Literature and trial registry searches (ClinicalTrials.gov, ANZCTR) for any related studies
 - Evaluation of route and formulation compatibility for the proposed indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **bronchitis**, but the data co
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 2 (valid: 2) |
+| Australia Market Status | Listed on the PBS Schedule (12 of 12 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,7 +88,13 @@ For reference, one trial is linked to the related prediction of diabetic retinop
 | 425J | Not recorded | Not recorded | Not recorded |
 | 14768G | Systane Balance | Eye drops 60 micrograms per mL, 10 mL | Not recorded |
 
-Both entries are valid single-ingredient listings. The only recorded route of the product with a stated dosage form is ophthalmic.
+The table shows two of the 12 current PBS items in the data compiled for this report: 3 are single-ingredient propylene glycol items (including the two in the table) and 9 are Systane eye drops combining polyethylene glycol-400 with propylene glycol. The only recorded route of the product with a stated dosage form is ophthalmic.
+
+<!-- review:begin au-lic-20261117-propylene_glycol-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "Both entries are valid single-ingredient listings." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-propylene_glycol-1 -->
 
 ## Safety Considerations
 
@@ -109,6 +115,19 @@ The bronchitis prediction is supported only by a model score (L5). The available
 - Safety review of inhaled exposure, given the airway irritation concerns
 - Product Information warnings and contraindications for the Australian entries
 - Route and formulation compatibility assessment (current products are ophthalmic)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
