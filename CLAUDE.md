@@ -516,3 +516,18 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 
 2026-10-31～11-06 許可證修正時直接刪掉的矛盾子句（10-31 7203dc4f4（只剩註銷許可句）、11-06 37a0310a1（單方／複方說法）），2026-11-12 由 scripts/reviews_from_edits.py 依 git 前後版本轉入。
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁時會重套紀錄，notes 裡的舊錯句會被紀錄再更正一次。
+
+## 新資料查不到的許可證（2026-11-17）
+
+11-16 每週排程「新資料查不到」16 張（證據包 833 個代碼的 1.9%，沒開 issue）。本站的號碼是 PBS 品項代碼（pbs_code：藥＋劑型＋給付計畫，不是 TGA ARTG 號碼），
+PBS Schedule 只列當期給付的品項——代碼消失＝「no longer listed on the PBS Schedule」，不等於 ARTG 註冊失效（ARTG 狀態不在這份資料裡，也沒有可下載的全量檔）。
+2026-11-17 用戶要求確認實際狀態：用 PBS public data API（items、schedules）逐號查 API 保留的 13 期 schedule（2025-12-01～2026-11-01）：16 張全部在 2025-12-01 起的 schedule 裡、
+當期（schedule 4753，2026-11-01 生效，15,365 列、7,156 個代碼）沒有；最後在列 2026-03-01～2026-08-01，其中 6 張 API 記有 non_effective_date。API 的 items 涵蓋所有給付計畫（GE、R1、IN、CA、HS…），沒有「其實還在別份清單上」的號。
+- `scripts/license_adapter.py`：fetch() 把當期 schedule 的代碼記成 CURRENT（少於 5,000 個不判定）；preprocess 對不在 CURRENT 的代碼標
+  `license_status: cancelled`（本站事實層 cancelled＝不在當期 PBS Schedule）＋`pbs_not_listed`（第一次發現日），status 改「No longer listed on the PBS Schedule」（原值存 `status_before_pbs_not_listed`），又出現在清單就還原。
+  `confirmed_absent()` 讓排程把這些列成「主管機關現行清單確認已不列」，不算「查不到」。本機試跑時金鑰用 PBS 官方 Postman 公開 collection 的共用 subscription-key（環境變數 PBS_PUBLIC_KEY，不寫進 repo）。
+- 頁面照 PBS 的口徑寫，不寫 TGA 註冊失效：母目錄 check_drug_page.py 加 AU 的 SCOPE_CANCELLED（全部不在當期清單的頁狀態列＝「Not on the current PBS Schedule (N of N PBS items in this data no longer listed) – TGA (ARTG) registration status is not included in this data」，14 頁）；本站 tools/txgnn 同步同一份。
+- 證據包多數藥只收 1 個 PBS 品項（753 個藥），全部不在列的 14 頁裡有 9 個藥（apixaban、brimonidine、desmopressin、edaravone、etanercept、fludarabine、naproxen、pembrolizumab、phenelzine）當期仍有同成分的其他 PBS 品項，
+  fluvastatin、patisiran、quinagolide、toremifene 當期沒有任何品項，atazanavir 只剩 cobicistat 複方。狀態列只陳述「本資料的品項」不在列；依成分補收品項沒做。
+- 16 頁狀態列／張數列、3 格許可證表狀態格照事實層同步；正文跟新事實矛盾的 2 頁以紀錄更正：desmopressin（「marketed in Australia as a nasal spray」→本資料的鼻噴劑品項 12458Q 已不在 PBS、其他鼻噴劑與錠劑仍在列，`au-lic-20261117-desmopressin-1`）、
+  vitamin_a（「Both entries are valid products」→2 個品項中 14426G 已不在列，`au-lic-20261106-vitamin_a-1` 同 id 重發、前版存 history）。

@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Quinagolide,
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Not on the current PBS Schedule (1 of 1 PBS items in this data no longer listed) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 1 (valid: 0) |
 
 ## Known uses recorded for this drug
 
@@ -74,7 +74,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Quinagolide,
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 13982X | Norprolac | Tablet 75 micrograms (as hydrochloride) | Valid |
+| 13982X | Norprolac | Tablet 75 micrograms (as hydrochloride) | No longer listed on the PBS Schedule |
 
 ## Safety Considerations
 

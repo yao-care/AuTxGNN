@@ -48,8 +48,8 @@ Apixaban is an oral direct factor Xa inhibitor (anticoagulant). The TxGNN model 
 | Predicted New Indication | migraine disorder |
 | TxGNN Prediction Score | 0.9902 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Not on the current PBS Schedule (1 of 1 PBS items in this data no longer listed) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **HIV infectious disease**, but t
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Not on the current PBS Schedule (1 of 1 PBS items in this data no longer listed) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 **Evidence level note:** Several publications study fluvastatin in people with HIV, but they address dyslipidaemia, drug interactions or HCV co-infection. None of them studies fluvastatin as a treatment for HIV infection itself. Under the evidence rules, the level is therefore L5.

@@ -58,24 +58,77 @@
    "file": "vitamin_a.md",
    "action": "correct",
    "claim": "Both entries are valid single-ingredient products.",
-   "replacement": "Both entries are valid products.",
-   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the PBS data (the PBS Schedule as of 2026-11-06).",
-   "finding": "依 PBS 品項的成分（修正後依成分數判單方／複方）本藥有效品項 2 筆，其中單方 1 筆；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "replacement": "One of the two entries (12191P, Renastep) is still listed on the PBS Schedule; 14426G (Tearsagain) is no longer listed (absent from the PBS Schedule since 1 June 2026).",
+   "note": "Corrected: the earlier wording described both PBS items as current. Item 14426G is no longer on the PBS Schedule (PBS public data API, current Schedule effective 2026-11-01); this concerns PBS listing only, not TGA (ARTG) registration.",
+   "finding": "PBS public API：14426G 在 2025-12-01～2026-05-01 的 schedule 都有、2026-06-01 起（含當期 4753，2026-11-01）沒有；12191P 在當期 schedule。本藥 2 個 PBS 品項中 1 個仍在列。",
    "sources": [
     {
-     "title": "PBS Schedule (Department of Health and Aged Care)",
-     "url": "https://www.pbs.gov.au/",
-     "accessed": "2026-11-06"
+     "title": "PBS public data API – items, Schedule 4753 (effective 2026-11-01) and the previous 12 monthly Schedules (Department of Health, Disability and Ageing)",
+     "url": "https://data-api.health.gov.au/pbs/api/v3/items",
+     "accessed": "2026-11-17"
     },
     {
-     "title": "TGA ARTG",
-     "url": "https://www.tga.gov.au/resources/artg",
-     "accessed": "2026-11-06"
+     "title": "PBS Schedule",
+     "url": "https://www.pbs.gov.au/",
+     "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-06",
-   "summary": "Removed: \"single-ingredient\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：37a0310a1（2026-11-06）"
+   "checked": "2026-11-17",
+   "summary": "Corrected: one of the two PBS items is no longer listed",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：37a0310a1（2026-11-06）",
+   "history": [
+    {
+     "id": "au-lic-20261106-vitamin_a-1",
+     "drug": "vitamin_a",
+     "file": "vitamin_a.md",
+     "action": "correct",
+     "claim": "Both entries are valid single-ingredient products.",
+     "replacement": "Both entries are valid products.",
+     "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the PBS data (the PBS Schedule as of 2026-11-06).",
+     "finding": "依 PBS 品項的成分（修正後依成分數判單方／複方）本藥有效品項 2 筆，其中單方 1 筆；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+     "sources": [
+      {
+       "title": "PBS Schedule (Department of Health and Aged Care)",
+       "url": "https://www.pbs.gov.au/",
+       "accessed": "2026-11-06"
+      },
+      {
+       "title": "TGA ARTG",
+       "url": "https://www.tga.gov.au/resources/artg",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Removed: \"single-ingredient\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：37a0310a1（2026-11-06）",
+     "retired": "2026-11-17",
+     "reason": "PBS 品項 14426G（tearsagain）2026-06-01 起不在 PBS Schedule（2026-11-17 當期 schedule 4753 查無，2025-12～2026-05 的 schedule 都有），前版的「Both entries are valid products」與事實不符"
+    }
+   ]
+  },
+  {
+   "id": "au-lic-20261117-desmopressin-1",
+   "drug": "desmopressin",
+   "file": "desmopressin.md",
+   "action": "correct",
+   "claim": "Desmopressin is a synthetic analogue of vasopressin that is marketed in Australia as a nasal spray.",
+   "replacement": "Desmopressin is a synthetic analogue of vasopressin. The nasal spray item in this data (PBS item 12458Q, Apotex) is no longer listed on the PBS Schedule (absent since 1 May 2026); other desmopressin nasal sprays, tablets and wafers remain listed under other PBS item codes.",
+   "note": "Corrected: the PBS item in this data is no longer on the current PBS Schedule (PBS public data API, Schedule effective 2026-11-01). A PBS item being no longer listed does not mean its TGA (ARTG) registration has been cancelled; ARTG status is not included in this data.",
+   "finding": "PBS public API：12458Q（Desmopressin Nasal Spray USP (Apotex)）在 2025-12-01～2026-04-01 的 schedule 都有，non_effective_date 2026-05-01，當期 schedule 4753（2026-11-01）沒有。當期仍有 desmopressin 單方品項 16 個（鼻噴劑 8711L、8712M、15282H、15333B；錠劑 8662X 等；Melt 錠 8975J 等），所以只寫本資料的品項不在列，不寫本藥不在 PBS。",
+   "sources": [
+    {
+     "title": "PBS public data API – items, Schedule 4753 (effective 2026-11-01) and the previous 12 monthly Schedules (Department of Health, Disability and Ageing)",
+     "url": "https://data-api.health.gov.au/pbs/api/v3/items",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "PBS Schedule",
+     "url": "https://www.pbs.gov.au/",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "Corrected: the nasal spray PBS item in this data is no longer listed"
   }
  ]
 }

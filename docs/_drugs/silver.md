@@ -50,8 +50,8 @@ Silver is the active antimicrobial component in several silver-impregnated wound
 | Predicted New Indication | Bone Paget disease |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 4 (valid: 4) |
+| Australia Market Status | Listed on the PBS Schedule (3 of 4 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 4 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---

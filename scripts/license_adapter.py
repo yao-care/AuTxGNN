@@ -7,7 +7,17 @@
 （取自官方 Postman 公開 collection 的共用金鑰；不寫進 repo）。限流：所有使用者共用每 20 秒 1 次，這裡只發 1 次請求。
 欄位 pbs_code（＝證據包 license_id，例 1195X）。只列當期 PBS 品項、沒有狀態欄：在列不改紀錄，
 新清單查不到的代碼保留原狀態、列在 summary（不推定為撤銷）。
+
+2026-11-17（用戶要求確認 11-16 排程「新資料查不到」的 16 張）：pbs_code 是 PBS 品項代碼（藥＋劑型＋給付計畫），不是 TGA ARTG 號碼；
+PBS Schedule 只列當期給付的品項，代碼消失＝「no longer listed on the PBS Schedule」，不等於 ARTG 註冊失效（ARTG 狀態不在這份資料裡）。
+API 保留 12 個月的 schedule：16 張在 2025-12～2026-08 的 schedule 都還在、2026-11-01（當期 4753）沒有，6 張有 non_effective_date。做法：
+- fetch() 把當期 schedule 的代碼記成 CURRENT（少於 MIN_CURRENT 不判定）。
+- preprocess：證據包裡不在 CURRENT 的代碼標 license_status＝cancelled（本站事實層「cancelled」＝不在當期 PBS Schedule）、
+  pbs_not_listed＝第一次發現日，status 改「No longer listed on the PBS Schedule」（原值存 status_before_pbs_not_listed）；
+  又出現在清單就還原。頁面照 PBS 的口徑寫，不寫 TGA 註冊失效。
+- confirmed_absent(lid)：CURRENT 有資料且代碼不在裡面。
 """
+import re
 import csv
 import io
 import os
@@ -16,6 +26,10 @@ import time
 import requests
 
 RAW_FILE = "raw/pbs_item_codes.json"
+CURRENT: set = set()   # fetch() 填：當期 PBS Schedule 的 pbs_code；空的就不做「不在清單」判定
+MIN_CURRENT = 5000     # 2026-11-01 版 15,365 列、7,156 個不重複代碼
+NOT_LISTED = "No longer listed on the PBS Schedule"
+CODE_RE = re.compile(r"^\d{2,5}[A-Z]$")
 
 
 def _get(params, key, path="items", csv_=True):
@@ -51,7 +65,41 @@ def fetch():
         if len(rows) < 100000:
             break
         page += 1
+    CURRENT.clear()
+    if len({r["pbs_code"] for r in out}) >= MIN_CURRENT:
+        CURRENT.update(r["pbs_code"] for r in out)
     return out
+
+
+def confirmed_absent(lid):
+    """給 license_refresh：當期 PBS Schedule 確認已不列這個品項代碼（不代表 TGA ARTG 註冊失效）"""
+    lid = str(lid).strip()
+    return bool(CURRENT) and bool(CODE_RE.match(lid)) and lid not in CURRENT
+
+
+def preprocess(bundle):
+    """不在當期 PBS Schedule 的代碼標 cancelled＋pbs_not_listed；又出現在清單就還原。有改回 True"""
+    if not CURRENT:
+        return False
+    today = time.strftime("%Y-%m-%d")
+    ch = False
+    for r in (bundle.get("tfda") or {}).get("records") or []:
+        lid = str(r.get("license_id") or "").strip()
+        if not CODE_RE.match(lid):
+            continue
+        if lid in CURRENT:
+            if r.get("pbs_not_listed"):
+                r.pop("pbs_not_listed", None)
+                r.pop("license_status", None)
+                r["status"] = r.pop("status_before_pbs_not_listed", "")
+                ch = True
+        elif not r.get("pbs_not_listed"):
+            r["status_before_pbs_not_listed"] = r.get("status") or ""
+            r["status"] = NOT_LISTED
+            r["license_status"] = "cancelled"
+            r["pbs_not_listed"] = today
+            ch = True
+    return ch
 
 
 def validate(new, old):

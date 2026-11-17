@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Desmopressin is a synthetic analogue of vasopressin that is marketed in Australia as a nasal spray.
+Desmopressin is a synthetic analogue of vasopressin. The nasal spray item in this data (PBS item 12458Q, Apotex) is no longer listed on the PBS Schedule (absent since 1 May 2026); other desmopressin nasal sprays, tablets and wafers remain listed under other PBS item codes.
 The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but there are **0 clinical trials** and only **1 publication** (a general 1993 review of congenital bleeding disorders) linked to this prediction, and that publication does not study desmopressin in this disease.
+
+<!-- review:begin au-lic-20261117-desmopressin-1 -->
+
+> **Review correction (2026-11-17)**: Originally stated: "Desmopressin is a synthetic analogue of vasopressin that is marketed in Australia as a nasal spray." Corrected: the PBS item in this data is no longer on the current PBS Schedule (PBS public data API, Schedule effective 2026-11-01). A PBS item being no longer listed does not mean its TGA (ARTG) registration has been cancelled; ARTG status is not included in this data. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) and the previous 12 monthly Schedules (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261117-desmopressin-1 -->
 
 ## Quick Overview
 
@@ -49,8 +55,8 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 | Predicted New Indication | congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Not on the current PBS Schedule (1 of 1 PBS items in this data no longer listed) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -98,6 +104,19 @@ No clinical trial or publication studies desmopressin in congenital prothrombin 
 - Any direct preclinical or clinical study of desmopressin in congenital prothrombin deficiency
 - Product Information (PI) warnings and contraindications for the Australian-registered product
 - Review of safety, including hyponatraemia and thrombotic risk, before any further assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-17 | Corrected: the nasal spray PBS item in this data is no longer listed | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) and the previous 12 monthly Schedules (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

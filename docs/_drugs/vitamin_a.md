@@ -52,8 +52,8 @@ The very high score comes from the TxGNN model (deep learning) and may reflect s
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 2 (valid: 2) |
+| Australia Market Status | Listed on the PBS Schedule (1 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -85,11 +85,11 @@ Currently no related literature available.
 | 14426G | Tearsagain | Eye spray 10 mg per mL, 10 mL |
 | 12191P | Renastep | Oral liquid 125 mL, 24 (Renastep) |
 
-Both entries are valid products. Approved indication text was not available in the data compiled for this report.
+One of the two entries (12191P, Renastep) is still listed on the PBS Schedule; 14426G (Tearsagain) is no longer listed (absent from the PBS Schedule since 1 June 2026). Approved indication text was not available in the data compiled for this report.
 
 <!-- review:begin au-lic-20261106-vitamin_a-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both entries are valid single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the PBS data (the PBS Schedule as of 2026-11-06). Source: [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg).
+> **Review correction (2026-11-17)**: Originally stated: "Both entries are valid single-ingredient products." Corrected: the earlier wording described both PBS items as current. Item 14426G is no longer on the PBS Schedule (PBS public data API, current Schedule effective 2026-11-01); this concerns PBS listing only, not TGA (ARTG) registration. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) and the previous 12 monthly Schedules (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
 
 <!-- review:end au-lic-20261106-vitamin_a-1 -->
 
@@ -136,7 +136,7 @@ Below is the review log for this page: statements checked against official Austr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "single-ingredient" | Corrected | [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg) |
+| 2026-11-17 | Corrected: one of the two PBS items is no longer listed | Corrected (revised 2026-11-17; earlier version kept in the record) | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) and the previous 12 monthly Schedules (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

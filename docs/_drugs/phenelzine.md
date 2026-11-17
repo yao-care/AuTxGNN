@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Phenelzine, 
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 1 (valid: 1) |
+| Australia Market Status | Not on the current PBS Schedule (1 of 1 PBS items in this data no longer listed) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 1 (valid: 0) |
 
 ## Known uses recorded for this drug
 
@@ -76,7 +76,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Phenelzine, 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 13148B | Nardil (Canada) | Tablet 15 mg (as sulfate) s19A | Valid |
+| 13148B | Nardil (Canada) | Tablet 15 mg (as sulfate) s19A | No longer listed on the PBS Schedule |
 
 ## Safety Considerations
 
