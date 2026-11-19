@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "Fluvastatin"
 predicted_indications: ["HIV infectious disease", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "fibroma of prostate"]
 last_modified_at: 2026-11-17
-description: "Fluvastatin: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Fluvastatin: predicted new indication HIV infectious disease (evidence level L5). In Australia: 1 PBS item (0 currently listed)"
 ---
 
 # Fluvastatin

@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-17
 monitor_inn: "Fluticasone furoate"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
-description: "Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
+description: "Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). In Australia: 12 PBS items (12 currently listed)"
 ---
 
 # Fluticasone Furoate

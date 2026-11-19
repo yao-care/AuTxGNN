@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-17
 monitor_inn: "Raltegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Raltegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
+description: "Raltegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). In Australia: 2 PBS items (2 currently listed)"
 ---
 
 # Raltegravir

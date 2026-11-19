@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "Toremifene"
 predicted_indications: ["HIV infectious disease"]
-description: "Toremifene: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Toremifene: predicted new indication HIV infectious disease (evidence level L5). In Australia: 1 PBS item (0 currently listed)"
 ---
 
 # Toremifene

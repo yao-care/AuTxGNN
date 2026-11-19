@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-17
 monitor_inn: "Atomoxetine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
-description: "Atomoxetine: predicted new indication Specific developmental disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Atomoxetine: predicted new indication Specific developmental disorder (evidence level L5). In Australia: 7 PBS items (7 currently listed)"
 ---
 
 # Atomoxetine

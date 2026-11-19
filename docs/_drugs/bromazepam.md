@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Bromazepam"
 predicted_indications: ["migraine disorder"]
 last_modified_at: 2026-11-17
-description: "Bromazepam: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Bromazepam: predicted new indication migraine disorder (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
 # Bromazepam

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-17
 monitor_inn: "Empagliflozin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
-description: "Empagliflozin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Empagliflozin: predicted new indication Focal stiff limb syndrome (evidence level L5). In Australia: at least 20 PBS items"
 ---
 
 # Empagliflozin

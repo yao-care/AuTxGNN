@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-17
 monitor_inn: "Famciclovir"
 predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
-description: "Famciclovir: predicted new indication Post-infectious neuralgia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Famciclovir: predicted new indication Post-infectious neuralgia (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
 ---
 
 # Famciclovir

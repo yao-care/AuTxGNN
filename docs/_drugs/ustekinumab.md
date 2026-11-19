@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-17
 monitor_inn: "Ustekinumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
-description: "Ustekinumab: predicted new indication Dermatitis (evidence level L2). Approved use: Not recorded in the local data"
+description: "Ustekinumab: predicted new indication Dermatitis (evidence level L2). In Australia: at least 20 PBS items"
 ---
 
 # Ustekinumab

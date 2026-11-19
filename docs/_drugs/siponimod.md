@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-17
 monitor_inn: "Siponimod"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]
-description: "Siponimod: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not recorded in the local data"
+description: "Siponimod: predicted new indication Pulmonary hypertension (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
 ---
 
 # Siponimod

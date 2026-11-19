@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-17
 monitor_inn: "Ranibizumab"
 predicted_indications: ["immature cataract", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
-description: "Ranibizumab: predicted new indication Immature cataract (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ranibizumab: predicted new indication Immature cataract (evidence level L5). In Australia: 16 PBS items (16 currently listed)"
 ---
 
 # Ranibizumab

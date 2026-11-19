@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-30
 monitor_inn: "Posaconazole"
 predicted_indications: ["pneumocystosis"]
-description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L5). In Australia: 1 PBS item (1 currently listed)"
 ---
 
 # Posaconazole

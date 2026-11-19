@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Magnesium sulfate"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
 last_modified_at: 2026-11-03
-description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L3). Approved use: Not recorded in the local data"
+description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L3). In Australia: 1 PBS item (1 currently listed)"
 ---
 
 # Magnesium Sulfate

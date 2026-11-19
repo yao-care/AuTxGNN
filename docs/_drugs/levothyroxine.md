@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
 last_modified_at: 2026-11-17
-description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). In Australia: 9 PBS items (9 currently listed)"
 ---
 
 # Levothyroxine

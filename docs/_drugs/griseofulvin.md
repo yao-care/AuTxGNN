@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-17
 monitor_inn: "Griseofulvin"
 predicted_indications: ["myiasis", "wound myiasis", "creeping myiasis", "furuncular myiasis", "echinococcus granulosus infectious disease"]
-description: "Griseofulvin: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Griseofulvin: predicted new indication Myiasis (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
 # Griseofulvin

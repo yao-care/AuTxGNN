@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Benzoic acid"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "dry eye syndrome", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "hereditary angioedema with C1Inh deficiency", "posterior leukoencephalopathy syndrome", "C1 inhibitor deficiency"]
 last_modified_at: 2026-11-17
-description: "Benzoic Acid: predicted new indication bronchitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Benzoic Acid: predicted new indication bronchitis (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
 # Benzoic Acid

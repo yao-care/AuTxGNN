@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "Potassium chloride"
 predicted_indications: ["renal tubular acidosis"]
-description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Not recorded in the local data"
+description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). In Australia: 10 PBS items (10 currently listed)"
 ---
 
 # Potassium Chloride

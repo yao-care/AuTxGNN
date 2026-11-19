@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "Adalimumab"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 last_modified_at: 2026-11-17
-description: "Adalimumab: predicted new indication hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
+description: "Adalimumab: predicted new indication hypermobility of coccyx (evidence level L5). In Australia: at least 20 PBS items"
 ---
 
 # Adalimumab

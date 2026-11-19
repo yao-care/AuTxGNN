@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "Citalopram"
 predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)"]
 last_modified_at: 2026-11-17
-description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Not recorded in the local data"
+description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). In Australia: 6 PBS items (6 currently listed)"
 ---
 
 # Citalopram

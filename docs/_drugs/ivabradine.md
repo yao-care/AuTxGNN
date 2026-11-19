@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-17
 monitor_inn: "Ivabradine"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
-description: "Ivabradine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ivabradine: predicted new indication Hypertrichosis (disease) (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 
 # Ivabradine

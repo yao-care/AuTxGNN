@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-30
 monitor_inn: "Tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
-description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). In Australia: 1 PBS item (1 currently listed)"
 ---
 
 # Tranexamic Acid

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "Phenoxymethylpenicillin"
 predicted_indications: ["epiglottitis", "laryngitis"]
-description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). In Australia: 18 PBS items (18 currently listed)"
 ---
 
 # Phenoxymethylpenicillin

@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
 last_modified_at: 2026-11-04
-description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L1). Approved use: Not recorded in the local data"
+description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L1). In Australia: 1 PBS item (1 currently listed)"
 ---
 
 # Clomipramine

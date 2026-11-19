@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
-description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). In Australia: 5 PBS items (5 currently listed)"
 ---
 
 # Sulfamethoxazole

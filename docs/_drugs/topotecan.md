@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "Topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
-description: "Topotecan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Topotecan: predicted new indication Female breast carcinoma (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
 # Topotecan

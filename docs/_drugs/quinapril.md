@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-17
 monitor_inn: "Quinapril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
 ---
 
 # Quinapril

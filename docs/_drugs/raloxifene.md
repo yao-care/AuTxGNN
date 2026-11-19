@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-17
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
-description: "Raloxifene: predicted new indication Duodenal ulcer (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Raloxifene: predicted new indication Duodenal ulcer (disease) (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
 # Raloxifene

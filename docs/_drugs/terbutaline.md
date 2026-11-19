@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "Terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-description: "Terbutaline: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
+description: "Terbutaline: predicted new indication Respiratory malformation (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
 # Terbutaline

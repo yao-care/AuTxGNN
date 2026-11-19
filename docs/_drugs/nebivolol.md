@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-17
 monitor_inn: "Nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-description: "Nebivolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Nebivolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
 ---
 
 # Nebivolol

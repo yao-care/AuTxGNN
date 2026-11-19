@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-17
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
-description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 
 # Pregabalin

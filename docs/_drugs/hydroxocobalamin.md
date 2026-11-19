@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "Hydroxocobalamin"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
-description: "Hydroxocobalamin: predicted new indication Esophageal varices without bleeding (evidence level L5). Approved use: Not recorded in the local data"
+description: "Hydroxocobalamin: predicted new indication Esophageal varices without bleeding (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 
 # Hydroxocobalamin

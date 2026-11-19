@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-17
 monitor_inn: "Lipegfilgrastim"
 predicted_indications: ["primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "diabetic retinopathy"]
-description: "Lipegfilgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
+description: "Lipegfilgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
 # Lipegfilgrastim

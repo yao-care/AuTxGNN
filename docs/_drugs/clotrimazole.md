@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
 last_modified_at: 2026-11-17
-description: "Clotrimazole: predicted new indication acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Clotrimazole: predicted new indication acne (disease) (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
 ---
 
 # Clotrimazole

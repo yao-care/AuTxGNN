@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-17
 monitor_inn: "Etonogestrel"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
-description: "Etonogestrel: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Etonogestrel: predicted new indication Amenorrhea (disease) (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
 # Etonogestrel

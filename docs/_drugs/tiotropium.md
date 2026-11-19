@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-17
 monitor_inn: "Tiotropium"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
+description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). In Australia: 14 PBS items (14 currently listed)"
 ---
 
 # Tiotropium

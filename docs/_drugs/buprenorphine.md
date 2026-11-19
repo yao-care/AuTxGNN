@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "Buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
 last_modified_at: 2026-11-17
-description: "Buprenorphine: predicted new indication acute intermittent porphyria (evidence level L5). Approved use: Not recorded in the local data"
+description: "Buprenorphine: predicted new indication acute intermittent porphyria (evidence level L5). In Australia: at least 20 PBS items"
 ---
 
 # Buprenorphine

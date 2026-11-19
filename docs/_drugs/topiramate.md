@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "Topiramate"
 predicted_indications: ["trigeminal nerve neoplasm"]
-description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
+description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In Australia: 14 PBS items (14 currently listed)"
 ---
 
 # Topiramate

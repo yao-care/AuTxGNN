@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "Calcitriol"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
 last_modified_at: 2026-11-17
-description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data"
+description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
 # Calcitriol

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "Estriol"
 predicted_indications: ["amenorrhea (disease)"]
-description: "Estriol: predicted new indication Amenorrhea (disease) (evidence level L3). Approved use: Not recorded in the local data"
+description: "Estriol: predicted new indication Amenorrhea (disease) (evidence level L3). In Australia: 4 PBS items (4 currently listed)"
 ---
 
 # Estriol

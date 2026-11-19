@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
 last_modified_at: 2026-11-17
-description: "Deferiprone: predicted new indication hepatic porphyria (evidence level L5). Approved use: Not recorded in the local data"
+description: "Deferiprone: predicted new indication hepatic porphyria (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
 ---
 
 # Deferiprone

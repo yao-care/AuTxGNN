@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Corifollitropin alfa"
 predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
 last_modified_at: 2026-11-17
-description: "Corifollitropin Alfa: predicted new indication gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Corifollitropin Alfa: predicted new indication gastroduodenitis (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
 # Corifollitropin Alfa

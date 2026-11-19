@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Domperidone"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 last_modified_at: 2026-10-30
-description: "Domperidone: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Domperidone: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In Australia: 1 PBS item (1 currently listed)"
 ---
 
 # Domperidone

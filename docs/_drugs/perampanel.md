@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "Perampanel"
 predicted_indications: ["beta-ketothiolase deficiency"]
-description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
+description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). In Australia: at least 20 PBS items"
 ---
 
 # Perampanel

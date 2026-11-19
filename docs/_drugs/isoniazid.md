@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-30
 monitor_inn: "Isoniazid"
 predicted_indications: ["conjunctivitis"]
-description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L5). In Australia: 1 PBS item (1 currently listed)"
 ---
 
 # Isoniazid

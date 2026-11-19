@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "Trabectedin"
 predicted_indications: ["female breast carcinoma"]
-description: "Trabectedin: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Trabectedin: predicted new indication Female breast carcinoma (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 
 # Trabectedin

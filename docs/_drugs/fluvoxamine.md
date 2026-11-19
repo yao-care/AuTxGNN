@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-17
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-description: "Fluvoxamine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Fluvoxamine: predicted new indication Paranoid personality disorder (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 
 # Fluvoxamine

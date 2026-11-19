@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-30
 monitor_inn: "Flunitrazepam"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "anxiety", "anxiety disorder", "alcohol withdrawal delirium", "agoraphobia", "benign paroxysmal torticollis of infancy", "atrophoderma vermiculata"]
-description: "Flunitrazepam: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Flunitrazepam: predicted new indication Migraine disorder (evidence level L5). In Australia: 1 PBS item (1 currently listed)"
 ---
 
 # Flunitrazepam

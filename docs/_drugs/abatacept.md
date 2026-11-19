@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Abatacept"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 last_modified_at: 2026-11-17
-description: "Abatacept: predicted new indication ankylosing spondylitis (evidence level L3). Approved use: Not recorded in the local data"
+description: "Abatacept: predicted new indication ankylosing spondylitis (evidence level L3). In Australia: 10 PBS items (10 currently listed)"
 ---
 
 # Abatacept

@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-17
 monitor_inn: "Cortisone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "myelodysplastic syndrome", "lymphosarcoma", "candidiasis", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5"]
-description: "Cortisone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Cortisone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 
 # Cortisone

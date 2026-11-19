@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-17
 monitor_inn: "Lincomycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
-description: "Lincomycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Lincomycin: predicted new indication Hyperamylasemia (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
 # Lincomycin

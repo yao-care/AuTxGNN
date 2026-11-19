@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
-description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
 # Itraconazole

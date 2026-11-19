@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Baclofen"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
 last_modified_at: 2026-11-17
-description: "Baclofen: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Baclofen: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). In Australia: 10 PBS items (10 currently listed)"
 ---
 
 # Baclofen

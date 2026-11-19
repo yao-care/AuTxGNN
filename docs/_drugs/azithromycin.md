@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Azithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
 last_modified_at: 2026-11-17
-description: "Azithromycin: predicted new indication hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Azithromycin: predicted new indication hyperamylasemia (evidence level L5). In Australia: 5 PBS items (5 currently listed)"
 ---
 
 # Azithromycin

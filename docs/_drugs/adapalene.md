@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "adapalene"
 predicted_indications: ["zinc, elevated plasma"]
 last_modified_at: 2026-11-17
-description: "Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
 ---
 
 # Adapalene

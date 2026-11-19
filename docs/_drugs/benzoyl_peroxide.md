@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "benzoyl peroxide"
 predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl methacrylate sensitization", "acrodermatitis chronica atrophicans", "acne keloid"]
 last_modified_at: 2026-11-17
-description: "Benzoyl Peroxide: predicted new indication vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Benzoyl Peroxide: predicted new indication vulvar inverted follicular keratosis (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
 ---
 
 # Benzoyl Peroxide

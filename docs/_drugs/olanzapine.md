@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "Olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
-description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
+description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In Australia: 15 PBS items (15 currently listed)"
 ---
 
 # Olanzapine

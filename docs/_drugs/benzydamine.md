@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Benzydamine"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
 last_modified_at: 2026-11-17
-description: "Benzydamine: predicted new indication benign prostatic hyperplasia (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Benzydamine: predicted new indication benign prostatic hyperplasia (disease) (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
 ---
 
 # Benzydamine

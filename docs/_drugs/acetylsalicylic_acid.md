@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Acetylsalicylic acid"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
 last_modified_at: 2026-11-17
-description: "Acetylsalicylic Acid: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
+description: "Acetylsalicylic Acid: predicted new indication atrophoderma vermiculata (evidence level L5). In Australia: 9 PBS items (9 currently listed)"
 ---
 
 # Acetylsalicylic Acid

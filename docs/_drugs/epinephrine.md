@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-17
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
-description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). In Australia: 10 PBS items (10 currently listed)"
 ---
 
 # Epinephrine
