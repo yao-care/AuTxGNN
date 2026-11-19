@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Cemiplimab"
 predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-17
 description: "Cemiplimab: predicted new indication gallbladder adenosquamous carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

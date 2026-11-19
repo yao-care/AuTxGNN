@@ -5,7 +5,7 @@ layout: default
 title: Osilodrostat
 parent: Known Uses Only (No New Predictions)
 nav_order: 532
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-17
 description: "Osilodrostat: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Osilodrostat"
 predicted_indications: []

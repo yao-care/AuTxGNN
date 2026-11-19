@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-17
 monitor_inn: "Empagliflozin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
 description: "Empagliflozin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Not recorded in the local data"

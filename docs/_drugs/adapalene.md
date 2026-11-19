@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "adapalene"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-17
 description: "Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
