@@ -1,0 +1,446 @@
+{
+ "_about": "本檔由 scripts/local_facts.py 產生（母目錄 .claude/local_facts_lib.py），勿手改；cross 欄位由母目錄 .claude/gen_local_pages_20261119.py 更新",
+ "drugs_total": 749,
+ "level_counts": {
+  "L1": 10,
+  "L2": 31,
+  "L3": 21,
+  "L4": 45,
+  "L5": 484
+ },
+ "level_na": 158,
+ "public_pages": 749,
+ "licence_snapshot": "au_licenses.json.gz",
+ "licence": {
+  "drugs_with_data": 682,
+  "drugs_with_current": 679,
+  "drugs_none_current": 3,
+  "drugs_without_data": 67,
+  "drugs_partial": 0,
+  "items_total": 3519,
+  "items_current": 3505
+ },
+ "reviews": {
+  "records": 84,
+  "pages": 84,
+  "public_pages_with_records": 83,
+  "by_action": {
+   "correct": 84
+  }
+ },
+ "fhir": {
+  "medication_knowledge": 749,
+  "clinical_use_definition": 3414
+ },
+ "top_licensed": [
+  {
+   "t": "Acetaminophen",
+   "u": "/drugs/acetaminophen/",
+   "l": "N/A",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": ""
+  },
+  {
+   "t": "Lamotrigine",
+   "u": "/drugs/lamotrigine/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": "trigeminal nerve neoplasm"
+  },
+  {
+   "t": "Lumacaftor",
+   "u": "/drugs/lumacaftor/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": "leprosy"
+  },
+  {
+   "t": "Obinutuzumab",
+   "u": "/drugs/obinutuzumab/",
+   "l": "N/A",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": ""
+  },
+  {
+   "t": "Selexipag",
+   "u": "/drugs/selexipag/",
+   "l": "N/A",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": ""
+  },
+  {
+   "t": "Ibrutinib",
+   "u": "/drugs/ibrutinib/",
+   "l": "N/A",
+   "lt": 19,
+   "lv": 19,
+   "r": 0,
+   "i": ""
+  },
+  {
+   "t": "Cabozantinib",
+   "u": "/drugs/cabozantinib/",
+   "l": "L5",
+   "lt": 18,
+   "lv": 18,
+   "r": 0,
+   "i": "liposarcoma"
+  },
+  {
+   "t": "Clozapine",
+   "u": "/drugs/clozapine/",
+   "l": "L2",
+   "lt": 18,
+   "lv": 18,
+   "r": 0,
+   "i": "manic bipolar affective disorder"
+  }
+ ],
+ "no_current": [
+  {
+   "t": "Fluvastatin",
+   "u": "/drugs/fluvastatin/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "HIV infectious disease"
+  },
+  {
+   "t": "Quinagolide",
+   "u": "/drugs/quinagolide/",
+   "l": "N/A",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": ""
+  },
+  {
+   "t": "Toremifene",
+   "u": "/drugs/toremifene/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "HIV infectious disease"
+  }
+ ],
+ "no_current_more": 0,
+ "most_reviewed": [
+  {
+   "t": "Acetic Acid",
+   "u": "/drugs/acetic-acid/",
+   "l": "L5",
+   "lt": 4,
+   "lv": 4,
+   "r": 1,
+   "i": "post-bacterial disorder"
+  },
+  {
+   "t": "Acetylsalicylic Acid",
+   "u": "/drugs/acetylsalicylic-acid/",
+   "l": "L5",
+   "lt": 9,
+   "lv": 9,
+   "r": 1,
+   "i": "atrophoderma vermiculata"
+  },
+  {
+   "t": "Acyclovir",
+   "u": "/drugs/acyclovir/",
+   "l": "L5",
+   "lt": 6,
+   "lv": 6,
+   "r": 1,
+   "i": "punctate epithelial keratoconjunctivitis"
+  },
+  {
+   "t": "Adalimumab",
+   "u": "/drugs/adalimumab/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 20,
+   "r": 1,
+   "i": "hypermobility of coccyx"
+  },
+  {
+   "t": "Amiodarone",
+   "u": "/drugs/amiodarone/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 2,
+   "r": 1,
+   "i": "catecholaminergic polymorphic ventricular tachycardia"
+  },
+  {
+   "t": "Amlodipine",
+   "u": "/drugs/amlodipine/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 20,
+   "r": 1,
+   "i": "brain stem infarction"
+  }
+ ],
+ "example": {
+  "t": "Peginterferon Alfa-2A",
+  "u": "/drugs/peginterferon-alfa-2a/",
+  "l": "L1",
+  "lt": 12,
+  "lv": 12,
+  "r": 0,
+  "i": "hepatitis E virus infection"
+ },
+ "recent_reviews": [
+  {
+   "t": "Vilanterol",
+   "u": "/drugs/vilanterol/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tyrosine",
+   "u": "/drugs/tyrosine/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Trimethoprim",
+   "u": "/drugs/trimethoprim/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Triamcinolone",
+   "u": "/drugs/triamcinolone/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Travoprost",
+   "u": "/drugs/travoprost/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tobramycin",
+   "u": "/drugs/tobramycin/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tipiracil",
+   "u": "/drugs/tipiracil/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tezacaftor",
+   "u": "/drugs/tezacaftor/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Terbutaline",
+   "u": "/drugs/terbutaline/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tenofovir Alafenamide",
+   "u": "/drugs/tenofovir-alafenamide/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Temozolomide",
+   "u": "/drugs/temozolomide/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tacrolimus",
+   "u": "/drugs/tacrolimus/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Spironolactone",
+   "u": "/drugs/spironolactone/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Sorafenib",
+   "u": "/drugs/sorafenib/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Sirolimus",
+   "u": "/drugs/sirolimus/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Salicylic Acid",
+   "u": "/drugs/salicylic-acid/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Salbutamol",
+   "u": "/drugs/salbutamol/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Risperidone",
+   "u": "/drugs/risperidone/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Propylthiouracil",
+   "u": "/drugs/propylthiouracil/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Propylene Glycol",
+   "u": "/drugs/propylene-glycol/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Progesterone",
+   "u": "/drugs/progesterone/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Polyethylene Glycol",
+   "u": "/drugs/polyethylene-glycol/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Plerixafor",
+   "u": "/drugs/plerixafor/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Phenylephrine",
+   "u": "/drugs/phenylephrine/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Vilanterol",
+   "u": "/drugs/vilanterol/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tyrosine",
+   "u": "/drugs/tyrosine/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Trimethoprim",
+   "u": "/drugs/trimethoprim/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Triamcinolone",
+   "u": "/drugs/triamcinolone/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Travoprost",
+   "u": "/drugs/travoprost/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tobramycin",
+   "u": "/drugs/tobramycin/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tipiracil",
+   "u": "/drugs/tipiracil/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Tezacaftor",
+   "u": "/drugs/tezacaftor/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-17"
+  }
+ ],
+ "files": {
+  "search_index": 749,
+  "drugs_json": 749
+ },
+ "by_level": {
+  "L1": {
+   "n": 10,
+   "current": 10
+  },
+  "L2": {
+   "n": 31,
+   "current": 31
+  },
+  "L3": {
+   "n": 21,
+   "current": 21
+  },
+  "L4": {
+   "n": 45,
+   "current": 45
+  },
+  "L5": {
+   "n": 484,
+   "current": 482
+  }
+ },
+ "cross": {
+  "unique_pairs": 4,
+  "unique_examples": [
+   {
+    "t": "Mannitol",
+    "u": "/drugs/mannitol/",
+    "i": "King-Denborough syndrome"
+   },
+   {
+    "t": "Perhexiline",
+    "u": "/drugs/perhexiline/",
+    "i": "migraine disorder"
+   },
+   {
+    "t": "Phylloquinone",
+    "u": "/drugs/phylloquinone/",
+    "i": "NAD(P)HX dehydratase deficiency"
+   }
+  ]
+ }
+}

@@ -47,11 +47,32 @@ patient identifiers. When you ask for clinical trials, the drug and indication n
 
 ---
 
-## Data subject rights
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## Applicable law
 
-This site has no accounts and keeps no personal records on servers of its own (it has none). Usage statistics
-are collected by Google Analytics 4; you can block or delete its cookies in your browser settings.
-For questions about this policy, contact service@yao.care.
+For visitors in Australia the relevant law is the [Privacy Act 1988 (Cth)](https://www.legislation.gov.au/C2004A03712/latest/text) and its Australian Privacy Principles (APPs), overseen by the [Office of the Australian Information Commissioner (OAIC)](https://www.oaic.gov.au/). The only personal information this site handles is the usage data collected by Google Analytics 4 through analytics cookies; it is disclosed to Google, which may store it outside Australia (APP 8 deals with such cross-border disclosure).
+
+## Your rights and how to use them
+
+- Ask what personal information is held about you and get access to it (APP 12).
+- Ask for it to be corrected (APP 13).
+- Stay anonymous: the site works without an account and without cookies if you block them (APP 2).
+- Complain to us first; if you are not satisfied with our response within 30 days, you can lodge a complaint with the OAIC.
+
+Requests: service@yao.care (there are no accounts, so tell us the date and pages of your visit). Analytics cookies can be blocked or deleted in your browser.
+
+## Copyright and data sources
+
+Site texts are protected under the [Copyright Act 1968 (Cth)](https://www.legislation.gov.au/C1968A00063/latest/text). The site's code is published under the MIT License in the [GitHub repository](https://github.com/yao-care/AuTxGNN); report texts are © 藥提醒科技有限公司 (yao.care).
+
+Data sources used on this site and their terms:
+
+- **TxGNN** data (Harvard Dataverse): CC0 1.0; cite Huang et al., *Nature Medicine* 2024.
+- **ClinicalTrials.gov**, **PubMed**: [ClinicalTrials.gov terms](https://clinicaltrials.gov/about-site/terms-conditions), [NCBI policies](https://www.ncbi.nlm.nih.gov/home/about/policies/).
+- **DrugBank**: [DrugBank](https://go.drugbank.com/) licence terms, non-commercial use.
+- **Local dataset** – [PBS Schedule](https://data.pbs.gov.au/api/api-public.html), published by Australian Government Department of Health (PBS); reuse is governed by the publisher's terms, and this site does not grant any further rights.
+
+<!-- privacy-law:end -->
 
 ---
 

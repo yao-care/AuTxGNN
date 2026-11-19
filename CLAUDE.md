@@ -546,3 +546,8 @@ PBS Schedule 只列當期給付的品項——代碼消失＝「no longer listed
   只描述表上那一筆的「This is a single-ingredient product…」、只講給藥途徑且仍成立的句子、待辦條目不改）；`au-lic-20261117-desmopressin-1`、`au-lic-20261106-ethinylestradiol-1` 同 id 重發，前版存 history。
 - 照原規則一併收進來、沒有另外處理的：isoleucine、tyrosine、threonine 等證據包含「amino acid formula without …」配方（drug_mapping 的對照如此）。
 - `.github/workflows/license-refresh.yml` 在 license_refresh 前先跑這支（金鑰用既有的 secrets.PBS_PUBLIC_KEY），有補收就照常發新 Release。
+
+## 說明頁與證據等級頁的在地資料（2026-11-19）
+
+用戶 2026-11-19 決定的第一批改版（母目錄 `.claude/gen_local_pages_20261119.py` 產生，不逐站手改）：說明頁（about／guide／sources／downloads／methodology，自有結構站只有證據等級頁與隱私頁）加本站資料區塊（`<!-- local-facts -->`）、證據等級頁的事實段與藥名表（`<!-- tier-facts -->`、`<!-- tier-table -->`）、隱私頁的適用法律／權利／著作權與資料來源段（`<!-- privacy-law -->`）；en／es／de 樣板站的共用長段落縮成一段（`<!-- local-condensed -->`）。
+資料檔 `docs/_data/local_facts.json`、`docs/_data/evidence_tier_facts.json` 由 `scripts/local_facts.py`（＝母目錄 `.claude/local_facts_lib.py`）依藥物頁、許可證快照、查核紀錄、FHIR 算；`apply_drug_reviews.py`、許可證快照程式結尾會自動 `--write`，`check_seo_docs.py` 跑 `--check` 擋過期。跨站欄位（cross：本站獨有預測、30 站中位數）與頁面區塊只由母目錄產生器更新；藥物頁改等級、noindex 或預測後要在母目錄重跑。
