@@ -56,7 +56,7 @@ but the current support is only **1 case report** and **no registered clinical t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known information, mepolizumab is an anti-IL-5 monoclonal antibody that depletes eosinophils. Its role in eosinophil-driven disease is established, and mechanistically it might be applicable to conditions in which eosinophil-driven immune dysregulation contributes to disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mepolizumab: "Mepolizumab is an IL-5 antagonist (IgG1 kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Mepolizumab binds to IL-5 with a dissociation constant of 100 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil cell surface." ([DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea), label version 2025-08-06; accessed 2026-11-19.) Based on known information, mepolizumab is an anti-IL-5 monoclonal antibody that depletes eosinophils. Its role in eosinophil-driven disease is established, and mechanistically it might be applicable to conditions in which eosinophil-driven immune dysregulation contributes to disease.
 
 The link to immune thrombocytopenia is weak. The only supporting publication is a case-level report in which mepolizumab, together with concomitant therapy, resolved a steroid-resistant hypereosinophilic immune diathesis with a mixed thrombotic microangiopathy. Any benefit on platelet counts would therefore be indirect, via control of eosinophil-driven immune dysregulation.
 
@@ -99,6 +99,19 @@ The prediction rests on a computational score and a single case report in a diff
 - Approved indication text for the ARTG entry
 - Mechanistic or preclinical evidence that IL-5 blockade affects platelet destruction in immune thrombocytopenia
 - A systematic literature search for further case series or studies in immune thrombocytopenia, particularly cases with coexisting eosinophilia
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

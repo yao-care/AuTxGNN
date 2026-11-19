@@ -54,7 +54,7 @@ Romiplostim (Nplate) is a thrombopoietin receptor agonist whose recorded uses in
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From the pharmacology record, romiplostim is a peptide agonist of the thrombopoietin receptor (MPL), which stimulates megakaryocyte maturation and platelet production.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for romiplostim: "Nplate increases platelet production through binding and activation of the TPO receptor, a mechanism analogous to endogenous TPO." ([DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037), label version 2026-06-23; accessed 2026-11-19.) From the pharmacology record, romiplostim is a peptide agonist of the thrombopoietin receptor (MPL), which stimulates megakaryocyte maturation and platelet production.
 
 Primary release disorder of platelets is a qualitative defect in platelet function. Raising the platelet count would not be expected to correct a defect in how platelets function, so the mechanistic link is weak. The only linked paper (PMID 25682608) describes autoantibodies inhibiting proplatelet formation in immune thrombocytopenia, which is a different disease mechanism. The very high model score is not backed by clinical evidence.
 
@@ -109,6 +109,19 @@ No clinical trial or publication directly studies primary release disorder of pl
 - Direct clinical or mechanistic evidence in the predicted disease
 - For the more plausible fetal and neonatal alloimmune thrombocytopenia hypothesis: disease-specific studies and a dedicated safety assessment covering placental transfer and neonatal platelet response
 - For inherited thrombocytopenias: subtype-specific evidence, since the category is too heterogeneous to assess
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

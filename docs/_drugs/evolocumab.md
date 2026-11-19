@@ -56,7 +56,7 @@ This is a prediction from the TxGNN model (deep learning) only and is not backed
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, evolocumab is a monoclonal antibody that binds PCSK9. This increases LDL receptor availability on liver cells and lowers circulating LDL cholesterol.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for evolocumab: "Evolocumab is a human monoclonal IgG2 directed against human proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein receptor (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver." ([DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e), label version 2026-10-12; accessed 2026-11-19.) Based on known information, evolocumab is a monoclonal antibody that binds PCSK9. This increases LDL receptor availability on liver cells and lowers circulating LDL cholesterol.
 
 The predicted new indication is not closely related to the original indications. Haemophilia in female carriers arises from deficient factor VIII or factor IX due to X-linked variants. It is unrelated to the PCSK9/LDL receptor pathway. No plausible mechanistic link has been identified.
 
@@ -98,6 +98,19 @@ The prediction rests only on a TxGNN model (deep learning) score. There are no c
 - Safety information from the TGA-approved Product Information (warnings and contraindications), which was not available for this report
 - Confirmation of the approved indication wording for the ARTG entry
 - Route-compatibility assessment (current product is an injectable pre-filled pen)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

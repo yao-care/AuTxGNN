@@ -56,7 +56,7 @@ The report lists **3 clinical trials** (all in cystic fibrosis) and **2 publicat
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Tiotropium belongs to the long-acting anticholinergic (muscarinic antagonist) class of inhaled bronchodilators. These drugs relax airway smooth muscle and may reduce airflow limitation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tiotropium: "Tiotropium is a long-acting, antimuscarinic agent, which is often referred to as an anticholinergic. It has similar affinity to the subtypes of muscarinic receptors, M 1 to M 5. In the airways, it exhibits pharmacological effects through inhibition of M 3 -receptors at the smooth muscle leading to bronchodilation." ([DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9), label version 2025-11-10; accessed 2026-11-19.) Tiotropium belongs to the long-acting anticholinergic (muscarinic antagonist) class of inhaled bronchodilators. These drugs relax airway smooth muscle and may reduce airflow limitation.
 
 The TxGNN score likely reflects the model's association between tiotropium and airway disease in general, not a specific mechanism for structural malformations. Bronchodilation could theoretically help secondary airflow limitation in some people with a malformed airway or lung. It would not correct the structural defect itself, and no study has tested this in a malformation population.
 
@@ -110,6 +110,18 @@ The prediction rests on a model score alone. No trial or publication directly st
 - Clinical or observational studies in people with respiratory malformation
 - A clear definition of which malformation types, if any, have a reversible airflow component
 - Review of PI warnings and contraindications for the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

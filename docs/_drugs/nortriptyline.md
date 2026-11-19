@@ -56,7 +56,7 @@ with **no registered clinical trials** but **15 publications** (including a Coch
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known class pharmacology, nortriptyline is a tricyclic antidepressant that inhibits norepinephrine reuptake and, to a lesser degree, serotonin reuptake. A PET study in patients with depression (PMID 24345533) found that nortriptyline occupies the norepinephrine transporter, consistent with this mechanism.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nortriptyline: "The mechanism of mood elevation by tricyclic antidepressants is at present unknown. Pamelor is not a monoamine oxidase inhibitor. It inhibits the activity of such diverse agents as histamine, 5-hydroxytryptamine, and acetylcholine." ([DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb), label version 2024-12-04; accessed 2026-11-19.) Based on known class pharmacology, nortriptyline is a tricyclic antidepressant that inhibits norepinephrine reuptake and, to a lesser degree, serotonin reuptake. A PET study in patients with depression (PMID 24345533) found that nortriptyline occupies the norepinephrine transporter, consistent with this mechanism.
 
 Noradrenergic augmentation in prefrontal circuits is also the mechanism exploited by non-stimulant ADHD drugs such as atomoxetine. This gives a plausible pharmacological rationale for the prediction. Secondary-amine tricyclics, including nortriptyline, are described in the literature as established second-line alternatives for ADHD. Their use has been limited by a narrow therapeutic index and cardiovascular toxicity.
 
@@ -116,6 +116,19 @@ At least one controlled paediatric trial and a Cochrane review support nortripty
 - A cardiac screening and ECG/serum level monitoring plan, especially for children and for patients with the contraindications listed above
 - Review of the newer or adult ADHD evidence, and comparison against approved ADHD therapies available in Australia
 - Interaction management guidance, particularly for the major interactions listed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

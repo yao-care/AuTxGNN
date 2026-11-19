@@ -55,7 +55,7 @@ The TxGNN model ranks **chronic hepatitis C virus infection** as its top predict
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, entecavir is a guanosine nucleoside analogue. Once phosphorylated to its triphosphate form, it competes with dGTP and inhibits all three activities of the HBV polymerase (priming, reverse transcription and DNA synthesis).
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for entecavir: "Entecavir is an antiviral drug against hepatitis B virus. […] Entecavir, a deoxyguanosine nucleoside analogue with activity against HBV reverse transcriptase (rt), is efficiently phosphorylated to the active triphosphate form, which has an intracellular half-life of 15 hours. By competing with the natural substrate deoxyguanosine triphosphate, entecavir triphosphate functionally inhibits all three activities of the HBV reverse transcriptase: base priming, reverse transcription of the negative strand from the pregenomic messenger RNA, and synthesis of the positive strand of HBV DNA." ([DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20), label version 2019-11-06; accessed 2026-11-19.) Based on known pharmacology, entecavir is a guanosine nucleoside analogue. Once phosphorylated to its triphosphate form, it competes with dGTP and inhibits all three activities of the HBV polymerase (priming, reverse transcription and DNA synthesis).
 
 The prediction is **not mechanistically convincing**. HCV is an RNA virus replicated by the NS5B RNA-dependent RNA polymerase, and entecavir has no known activity against it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (HBV and HCV are both hepatotropic viral hepatitis), not biological evidence. HBV/HCV co-infection is also frequent in practice. In co-infected patients entecavir is used to manage HBV, for example to prevent HBV reactivation during direct-acting antiviral (DAA) therapy for HCV. HCV itself is treated by the DAAs.
 
@@ -124,11 +124,12 @@ The TxGNN score is high (0.9998), but there is no plausible direct antiviral mec
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20) |
 
 <!-- review:end log -->
 

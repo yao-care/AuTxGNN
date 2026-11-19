@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, lurasidone is an atypical antipsychotic that antagonises D2, 5-HT2A and 5-HT7 receptors and is a partial agonist at 5-HT1A. This profile is inferred from general knowledge, not from the supplied data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lurasidone: "The mechanism of action of lurasidone in the treatment of schizophrenia and bipolar depression is unclear. However, its efficacy in schizophrenia and bipolar depression could be mediated through a combination of central dopamine D 2 and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8), label version 2025-01-31; accessed 2026-11-19.) Based on general pharmacology, lurasidone is an atypical antipsychotic that antagonises D2, 5-HT2A and 5-HT7 receptors and is a partial agonist at 5-HT1A. This profile is inferred from general knowledge, not from the supplied data.
 
 The original indications (bipolar disorder and schizophrenia) overlap closely with the predicted indication. Manic episodes are plausibly responsive to D2/5-HT2A blockade, as seen with other atypical antipsychotics. However, the high TxGNN score is consistent with the known bipolar indication and is not independent evidence for efficacy in mania. Much of the published bipolar literature on lurasidone concerns bipolar *depression*, which is a different clinical target. One case report describes lurasidone-induced mania.
 
@@ -122,11 +122,12 @@ The only trial for this indication was withdrawn with no participants, and the s
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications** (mostly reviews, guidelines and meta-analys" | Corrected | [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, panitumumab is an anti-EGFR monoclonal antibody, its use in metastatic colon cancer is established, and EGFR signalling has a theoretical link to bone metabolism.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for panitumumab: "The EGFR is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases, including EGFR, HER2, HER3, and HER4. EGFR is constitutively expressed in normal epithelial tissues, including the skin and hair follicle. […] Panitumumab binds specifically to EGFR on both normal and tumor cells, and competitively inhibits the binding of ligands for EGFR." ([DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2), label version 2026-06-23; accessed 2026-11-19.) Based on known information, panitumumab is an anti-EGFR monoclonal antibody, its use in metastatic colon cancer is established, and EGFR signalling has a theoretical link to bone metabolism.
 
 EGFR signalling influences osteoblast differentiation and osteoclast regulation (for example, via RANKL). This gives a theoretical connection between panitumumab and bone biology. However, EGFR blockade would be expected to impair rather than protect bone formation, which runs against the direction of the predicted benefit.
 
@@ -111,6 +111,19 @@ The prediction is supported only by a model score. There are no trials or public
 - Preclinical or observational evidence that EGFR inhibition benefits bone, rather than impairing it
 - Route and dose compatibility assessment for the proposed indication
 - A benefit-risk assessment of anti-EGFR toxicity in a non-oncology population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

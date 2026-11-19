@@ -66,7 +66,7 @@ Among the other predictions, **agoraphobia** and **dysthymic disorder** have the
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known pharmacology, reboxetine is a selective norepinephrine reuptake inhibitor (the pharmacology data show it acts on the norepinephrine transporter, NET, encoded by SLC6A2). Its efficacy in depression is the basis of its original indications, and it may be mechanistically applicable to conditions in which noradrenergic dysregulation plays a role.
+ChEMBL (EMBL-EBI) records the mechanism of action of reboxetine as: Norepinephrine transporter inhibitor ([ChEMBL CHEMBL14370 (reboxetine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL14370), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, reboxetine is a selective norepinephrine reuptake inhibitor (the pharmacology data show it acts on the norepinephrine transporter, NET, encoded by SLC6A2). Its efficacy in depression is the basis of its original indications, and it may be mechanistically applicable to conditions in which noradrenergic dysregulation plays a role.
 
 **Top-ranked prediction (benign paroxysmal torticollis of infancy):** The high score is a computational result only. No known mechanistic link exists between norepinephrine reuptake inhibition and this paediatric episodic movement disorder, which is associated with CACNA1A channelopathy and the migraine spectrum. Reboxetine is also not established for use in infants. This prediction should not be pursued without new supporting evidence.
 
@@ -152,6 +152,19 @@ The top-ranked prediction (benign paroxysmal torticollis of infancy) rests on a 
 - For agoraphobia: controlled studies reporting agoraphobia-specific outcomes
 - For dysthymic disorder: reboxetine-specific randomised evidence in dysthymia
 - Registered clinical trials (none found for any candidate) in Australia (ANZCTR) or elsewhere
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL14370 (reboxetine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL14370) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

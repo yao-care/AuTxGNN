@@ -55,7 +55,7 @@ There are **no registered clinical trials** and **1 publication** (a 2003 review
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Chlorambucil is a nitrogen mustard-type alkylating agent, a class that damages DNA in dividing cells, and this class has long been used in B-cell lymphoproliferative disorders.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for chlorambucil: "Chlorambucil, an aromatic nitrogen mustard derivative, is an alkylating agent. Chlorambucil interferes with DNA replication and induces cellular apoptosis via the accumulation of cytosolic p53 and subsequent activation of Bax, an apoptosis promoter." ([DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213), label version 2025-01-08; accessed 2026-11-19.) Chlorambucil is a nitrogen mustard-type alkylating agent, a class that damages DNA in dividing cells, and this class has long been used in B-cell lymphoproliferative disorders.
 
 The predicted disease is a molecular subtype (unmutated immunoglobulin gene, pre-germinal centre type) of chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL). Mechanistically, a drug active in CLL/SLL would be expected to act on this subtype too. The very high score probably reflects closeness to the parent disease rather than subtype-specific evidence. The prediction is therefore better viewed as a subtype of an established disease family than as a true repurposing candidate.
 
@@ -109,6 +109,19 @@ No cited study directly tests chlorambucil in this subtype, so the evidence leve
 - Comparison with current standard CLL/SLL therapies, since newer targeted agents have largely replaced chlorambucil in many settings
 - Mechanism of action data
 - Warnings and contraindications from the TGA Product Information, followed by a safety review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

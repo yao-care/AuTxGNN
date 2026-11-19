@@ -58,7 +58,7 @@ The predicted effect runs against the usual treatment logic, so this remains a r
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Apomorphine is known as a direct-acting D1/D2 dopamine receptor agonist, and its efficacy in Parkinson's disease is established. The dopamine system is also central to the dopamine hypothesis of schizophrenia, so the target system is plausibly relevant. This is likely what drives the model's prediction.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for apomorphine: "ONAPGO is a non-ergoline dopamine agonist with high in vitro binding affinity for the dopamine D4 receptor, and moderate affinity for the dopamine D2, D3, and D5, and adrenergic α1D, α2B, α2C receptors. The precise mechanism of action of ONAPGO as a treatment for Parkinson's disease is unknown, although it is believed to be due to stimulation of post-synaptic dopamine D2-type receptors within the caudate-putamen in the brain." ([DailyMed: Onapgo (apomorphine hydrochloride) prescribing information, MDD US Operations, LLC, a subsidiary of Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3552b6e-5ae7-4993-aa1a-e399c4a7080a), label version 2026-10-05; accessed 2026-11-19.) Apomorphine is known as a direct-acting D1/D2 dopamine receptor agonist, and its efficacy in Parkinson's disease is established. The dopamine system is also central to the dopamine hypothesis of schizophrenia, so the target system is plausibly relevant. This is likely what drives the model's prediction.
 
 The direction of effect is the main concern. The dopamine hypothesis implicates enhanced dopamine function in positive symptoms, and established antipsychotics block D2 receptors. A dopamine agonist would therefore be expected to worsen psychosis. A 2001 review (PMID 11394190) describes this as a "dilemma", finding little evidence that apomorphine at doses stimulating postsynaptic receptors induces psychosis. Some older work explored low-dose effects mediated through dopamine autoreceptors, which might reduce dopamine activity.
 
@@ -122,6 +122,19 @@ Product Information warnings and contraindications were not available in the dat
 - A resolution of the safety question of psychosis worsening, for example through a review of the older low-dose autoreceptor hypothesis
 - A justification for any new route or formulation, since only a subcutaneous injectable is marketed in Australia
 - Only if a credible rationale emerges: a carefully designed early-phase study with close psychiatric monitoring
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Onapgo (apomorphine hydrochloride) prescribing information, MDD US Operations, LLC, a subsidiary of Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3552b6e-5ae7-4993-aa1a-e399c4a7080a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

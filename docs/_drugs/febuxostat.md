@@ -60,7 +60,7 @@ Evidence is thin: **1 clinical trial** of uncertain relevance and **2 publicatio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data compiled for this report. Febuxostat is known to be a non-purine selective xanthine oxidase inhibitor that lowers serum uric acid, and its efficacy in hyperuricaemia is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for febuxostat: "ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations." ([DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd), label version 2025-12-24; accessed 2026-11-19.) Febuxostat is known to be a non-purine selective xanthine oxidase inhibitor that lowers serum uric acid, and its efficacy in hyperuricaemia is established.
 
 Renal hypouricaemia, however, is characterised by already low serum uric acid, typically due to loss of function in urate transporters (URAT1/GLUT9). Further urate lowering is therefore mechanistically counterproductive and could add risk. The only literature link is a 2023 report suggesting that non-purine xanthine oxidoreductase inhibitors might help prevent exercise-induced acute kidney injury in a young athlete with familial renal hypouricaemia. This is indirect and hypothetical.
 
@@ -120,6 +120,19 @@ Renal hypouricaemia involves already low uric acid, so further lowering is mecha
 - Direct clinical evidence in renal hypouricaemia, or a clear case that benefit outweighs the risk of further urate lowering
 - Cardiovascular risk assessment given the knowledge-graph contraindication signals
 - If pursuing the more plausible HPRT deficiency and Lesch-Nyhan signals: paediatric safety data, xanthine nephropathy and stone monitoring, and comparison with allopurinol
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

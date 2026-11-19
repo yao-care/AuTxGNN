@@ -58,7 +58,7 @@ Modafinil is a wake-promoting agent that is already marketed in Australia. The T
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Modafinil is known as a wake-promoting agent that is pharmacologically different from classical stimulants.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for modafinil: "The mechanism(s) through which modafinil promotes wakefulness is unknown. Modafinil has wake-promoting actions similar to sympathomimetic agents including amphetamine and methylphenidate, although the pharmacologic profile is not identical to that of the sympathomimetic amines." ([DailyMed: Provigil (modafinil) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0391f182-1958-9fef-a944-53b229ce99e7), label version 2026-09-16; accessed 2026-11-19.) Modafinil is known as a wake-promoting agent that is pharmacologically different from classical stimulants.
 
 The prediction is hard to justify mechanistically. A drug that promotes wakefulness would be expected to work against insomnia treatment, not for it. The retrieved literature describes modafinil mainly for daytime sleepiness and fatigue, including in neurological conditions such as Parkinson's disease. It does not describe use for insomnia itself.
 
@@ -129,6 +129,18 @@ The only insomnia-specific trial of modafinil (NCT00124384) has no available res
 - A clear mechanistic rationale for how a wake-promoting agent could benefit insomnia
 - Mechanism of action data
 - Review of the TGA Product Information for warnings, contraindications and interaction management
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Provigil (modafinil) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0391f182-1958-9fef-a944-53b229ce99e7) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

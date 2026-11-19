@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this specific p
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, siltuximab is a monoclonal antibody that neutralises IL-6. Its efficacy in Castleman disease, a disorder driven by dysregulated IL-6 production, has been demonstrated.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for siltuximab: "Siltuximab binds human IL-6 and prevents the binding of IL-6 to both soluble and membrane-bound IL-6 receptors. IL-6 has been shown to be involved in diverse normal physiologic processes such as induction of immunoglobulin secretion." ([DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b), label version 2024-08-27; accessed 2026-11-19.) Based on known information, siltuximab is a monoclonal antibody that neutralises IL-6. Its efficacy in Castleman disease, a disorder driven by dysregulated IL-6 production, has been demonstrated.
 
 IL-6 can contribute to mast cell biology, so a mechanistic link to mast cell tumours is conceivable. However, this link is speculative. No trial or literature was identified to test it, and the prediction rests only on the TxGNN score.
 
@@ -114,6 +114,19 @@ The extracutaneous mastocytoma prediction is supported only by a model score, wi
 - Preclinical or mechanistic studies linking IL-6 signalling to mast cell tumours
 - Detailed mechanism of action data and TGA Product Information (warnings and contraindications)
 - Confirmation of the approved indication wording for the ARTG entry
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -54,7 +54,7 @@ Icatibant is a synthetic peptide that blocks bradykinin receptors and is markete
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action text is not available for this report. The pharmacology data compiled for it show that icatibant is a peptide ligand acting at the bradykinin B1 and B2 receptors. Its established effect is to antagonise B2 receptor signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for icatibant: "Icatibant is a competitive antagonist selective for the bradykinin B2 receptor, with an affinity similar to bradykinin. Hereditary angioedema is caused by an absence or dysfunction of C1-esterase-inhibitor, a key regulator of the Factor XII/kallikrein proteolytic cascade that leads to bradykinin production." ([DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540), label version 2025-07-07; accessed 2026-11-19.) The pharmacology data compiled for it show that icatibant is a peptide ligand acting at the bradykinin B1 and B2 receptors. Its established effect is to antagonise B2 receptor signalling.
 
 Toxic serpin polymerization is a protein-misfolding, gain-of-function problem in which abnormal serpin proteins aggregate. Blocking bradykinin B2 receptors is not expected to act on that process. The high score most likely reflects a model-derived association with the serpin protein family rather than a shared mechanism. At this stage the prediction should be treated as a hypothesis without a supporting biological rationale.
 
@@ -92,6 +92,18 @@ The prediction is supported by a model score only (0.9999). There are no clinica
 - Any published clinical or observational data in this disease
 - Review of the TGA-approved Product Information for warnings, contraindications and the registered indication
 - A defined patient population and safety plan, including review of ACE inhibitor co-prescribing, before any further evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action text is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

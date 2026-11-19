@@ -56,7 +56,7 @@ but there are currently **no registered clinical trials** and **no relevant publ
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, enoxaparin is a low-molecular-weight heparin that potentiates antithrombin and inhibits factor Xa. This is plausible for managing thrombosis risk in protein C deficiency.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for enoxaparin: "Enoxaparin is a low molecular weight heparin which has antithrombotic properties." ([DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59), label version 2026-05-28; accessed 2026-11-19.) Based on general knowledge, enoxaparin is a low-molecular-weight heparin that potentiates antithrombin and inhibits factor Xa. This is plausible for managing thrombosis risk in protein C deficiency.
 
 This supports the connection between the original and predicted indications.
 
@@ -106,6 +106,19 @@ The prediction rests on model score alone (Evidence Level L5), with no clinical 
 - The approved indication text for the ARTG entry
 - Expert haematology review of whether enoxaparin has any role alongside protein C replacement
 - A bleeding-risk assessment given the contraindication profile
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -58,7 +58,7 @@ Cladribine is a purine nucleoside analogue that is marketed in Australia as an o
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, cladribine is a purine nucleoside analogue that resists breakdown by adenosine deaminase and is cytotoxic to lymphocytes and monocytes. Its activity depends on activation by deoxycytidine kinase (dCK).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cladribine: "The mechanism by which cladribine exerts its therapeutic effects in patients with multiple sclerosis has not been fully elucidated but is thought to involve cytotoxic effects on B and T lymphocytes through impairment of DNA synthesis, resulting in depletion of lymphocytes." ([DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144), label version 2026-05-27; accessed 2026-11-19.) From general pharmacology, cladribine is a purine nucleoside analogue that resists breakdown by adenosine deaminase and is cytotoxic to lymphocytes and monocytes. Its activity depends on activation by deoxycytidine kinase (dCK).
 
 The link to parameningeal embryonal rhabdomyosarcoma is weak. This is a solid tumour of muscle-lineage origin, and solid tumours of this type are generally not reported to be sensitive to cladribine. No mechanism specific to this disease has been established.
 
@@ -125,6 +125,19 @@ The prediction is supported only by a model score. No clinical trial or publicat
 - Mechanism of action data
 - Label warnings and contraindications from the TGA Product Information
 - A specific safety and myelosuppression review, given the cytotoxic nature of the drug
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

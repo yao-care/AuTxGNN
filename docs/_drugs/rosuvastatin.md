@@ -60,7 +60,7 @@ The best-supported prediction in the data is **familial hypercholesterolaemia** 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, rosuvastatin inhibits HMG-CoA reductase, which reduces hepatic cholesterol synthesis, upregulates hepatic LDL receptors and lowers LDL cholesterol.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rosuvastatin: "CRESTOR is an inhibitor of HMG‑CoA reductase, the rate-limiting enzyme that converts 3‑hydroxy‑3‑methylglutaryl coenzyme A to mevalonate, a precursor of cholesterol." ([DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee), label version 2026-09-23; accessed 2026-11-19.) Based on known pharmacology, rosuvastatin inhibits HMG-CoA reductase, which reduces hepatic cholesterol synthesis, upregulates hepatic LDL receptors and lowers LDL cholesterol.
 
 **CETP deficiency (rank 1).** CETP deficiency raises HDL cholesterol and lowers LDL cholesterol. A lipid-lowering rationale is plausible, but the high score is a model prediction only. No trials or literature were retrieved, so there is no clinical support. Cardiovascular benefit in this rare condition is unestablished, and the value of lowering LDL cholesterol further in a population that already has low LDL cholesterol is unclear.
 
@@ -141,6 +141,19 @@ Please also refer to the TGA-approved Product Information (PI) for full warnings
 - For CETP deficiency: mechanistic and clinical studies establishing whether lipid lowering gives any cardiovascular benefit
 - Guardrails for familial hypercholesterolaemia use: monitoring for myopathy and rhabdomyolysis, liver enzymes and thyroid function, plus a plan to manage interactions (especially fenofibrate and protease inhibitors) and dose adjustment in renal impairment and in Asian patients
 - Confirmation that the Australian product's approved age groups cover paediatric FH use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

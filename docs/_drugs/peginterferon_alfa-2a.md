@@ -55,7 +55,7 @@ The TxGNN model (deep learning) predicts it may be effective for **hepatitis E v
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, peginterferon alfa-2a is a type I interferon. It acts through interferon receptor signalling and induction of interferon-stimulated genes, giving both antiviral and immunomodulatory effects. This is the mechanism underlying its activity in chronic hepatitis B.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for peginterferon alfa-2a: "Pegylated recombinant human interferon alfa-2a is an inducer of the innate antiviral immune response. […] The biological activity of PEGASYS is derived from its recombinant human interferon α-2a moiety. Peginterferon α-2a binds to the human type 1 interferon receptor leading to receptor dimerization. Receptor dimerization activates multiple intracellular signal transduction pathways initially mediated by the JAK/STAT pathway." ([DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916), label version 2026-10-16; accessed 2026-11-19.) Based on known information, peginterferon alfa-2a is a type I interferon. It acts through interferon receptor signalling and induction of interferon-stimulated genes, giving both antiviral and immunomodulatory effects. This is the mechanism underlying its activity in chronic hepatitis B.
 
 Chronic hepatitis B is already listed among the drug's original indications, so the prediction confirms an existing use. It is supported by Phase 3 and Phase 4 trials and a pivotal RCT (PMID 15987917).
 
@@ -124,6 +124,19 @@ The other predicted indications are not recommended (**Hold**). Hepatitis E (L4)
 - Detailed mechanism of action data (MOA)
 - Confirmation that the Australian approved indication covers chronic hepatitis B, and review of current Australian treatment guidelines
 - A safety monitoring plan covering neuropsychiatric, cardiovascular and haematological effects, and a review of the major drug interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

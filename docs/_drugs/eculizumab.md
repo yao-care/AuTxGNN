@@ -55,7 +55,7 @@ The TxGNN model (deep learning) predicts it may be effective for **cyclic hemato
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, eculizumab is a humanised monoclonal antibody that targets complement protein C5 and blocks terminal complement activation. Its efficacy in PNH, where uncontrolled complement activation drives haemolysis, is established. In the publications compiled for this report, it is also described as effective in atypical haemolytic uraemic syndrome and used in myasthenia gravis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for eculizumab: "Eculizumab, the active ingredient in SOLIRIS, is a monoclonal antibody that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a and C5b and preventing the generation of the terminal complement complex C5b-9. SOLIRIS inhibits terminal complement-mediated intravascular hemolysis in PNH patients and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722), label version 2026-07-08; accessed 2026-11-19.) Based on known information, eculizumab is a humanised monoclonal antibody that targets complement protein C5 and blocks terminal complement activation. Its efficacy in PNH, where uncontrolled complement activation drives haemolysis, is established. In the publications compiled for this report, it is also described as effective in atypical haemolytic uraemic syndrome and used in myasthenia gravis.
 
 The link to cyclic haematopoiesis (cyclic neutropenia) is weak. Cyclic neutropenia is typically caused by ELANE mutations affecting neutrophil precursors, and no established role for terminal complement (C5) inhibition has been identified. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -100,6 +100,19 @@ The prediction is supported only by the model score (L5). There are no clinical 
 - The TGA Product Information, including warnings and contraindications, for safety screening
 - A risk assessment of meningococcal and other encapsulated-bacteria infection in neutropenic patients, including vaccination and prophylaxis requirements
 - The approved indication text for the Australian ARTG entry
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

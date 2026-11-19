@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Chlorpromazine is generally described as a dopamine D2 and multi-receptor antagonist.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for chlorpromazine: "The precise mechanism whereby the therapeutic effects of chlorpromazine are produced is not known. The principal pharmacological actions are psychotropic. It also exerts sedative and antiemetic activity. Chlorpromazine has actions at all levels of the central nervous system –primarily at subcortical levels – as well as on multiple organ systems." ([DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267), label version 2026-11-10; accessed 2026-11-19.) Chlorpromazine is generally described as a dopamine D2 and multi-receptor antagonist.
 
 The data compiled for this report do not support a therapeutic mechanism for this prediction. The only publication (1967) describes phototoxic reactions after high doses of chlorpromazine and thioridazine, which is an adverse effect, not evidence of benefit. Chlorpromazine is also known to cause pigmentary deposits in the retina and cornea at high doses, so it could worsen an existing retinal dystrophy. The high TxGNN score appears to reflect a computational association with the eye rather than a treatment rationale.
 
@@ -97,6 +97,19 @@ No clinical trials support this prediction. The only publication reports a photo
 - Detailed mechanism of action data and a plausible mechanistic link to retinal degeneration
 - A review of ocular safety, including retinal and corneal pigmentary changes and phototoxicity
 - Warnings and contraindications from the TGA-approved Product Information
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

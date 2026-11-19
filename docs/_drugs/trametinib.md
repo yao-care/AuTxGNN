@@ -62,7 +62,7 @@ Support for non-cutaneous melanoma is currently **10 registered trials** (mostly
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, trametinib is a reversible inhibitor of MEK1 and MEK2 (MAP2K1 and MAP2K2), kinases in the MAPK signalling pathway. This is consistent with the target records in the interaction data. Its established use is in BRAF V600-mutant melanoma, often combined with dabrafenib.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trametinib: "Trametinib is a reversible inhibitor of mitogen-activated extracellular signal-regulated kinase 1 (MEK1) and MEK2 activation and of MEK1 and MEK2 kinase activity. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation." ([DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1), label version 2026-05-07; accessed 2026-11-19.) Based on general pharmacology, trametinib is a reversible inhibitor of MEK1 and MEK2 (MAP2K1 and MAP2K2), kinases in the MAPK signalling pathway. This is consistent with the target records in the interaction data. Its established use is in BRAF V600-mutant melanoma, often combined with dabrafenib.
 
 Non-cutaneous melanoma (mucosal, ocular and other non-skin sites) shares the melanocytic origin of cutaneous melanoma, and some cases carry MAPK-activating mutations. The case reports compiled describe BRAF-mutated conjunctival and other mucosal or ocular melanomas treated with BRAF-pathway inhibitors, which gives a plausible but anecdotal rationale.
 
@@ -86,7 +86,6 @@ None of these trials is specific to non-cutaneous melanoma. They cover melanoma 
 | [NCT02410863](https://clinicaltrials.gov/study/NCT02410863) | Phase 2 | Terminated | 10 | Biomarker-driven targeted therapy in BRAF-mutant metastatic melanoma; terminated early |
 | [NCT03340506](https://clinicaltrials.gov/study/NCT03340506) | Phase 4 | Recruiting | 100 | Roll-over study for long-term safety of dabrafenib and/or trametinib; no efficacy data |
 | [NCT05275374](https://clinicaltrials.gov/study/NCT05275374) | Phase 1/2 | Not yet recruiting | 221 | XP-102 alone and with trametinib in BRAF V600 solid tumours; no data yet |
-
 
 ---
 
@@ -151,6 +150,19 @@ The TxGNN score for choroideremia is high (0.9931), and trametinib is establishe
 - Review of results from NCT02296112, NCT04439292 and NCT07440290 for relevant melanoma subgroups
 - Confirmation of the ARTG approved indication text and any PBS restrictions
 - A molecular selection strategy (for example, BRAF V600 testing) and a safety monitoring plan, including attention to the moderate drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,10 +56,9 @@ but there are currently **0 registered clinical trials** and **0 publications** 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Ocrelizumab is known to be a humanised anti-CD20 monoclonal antibody that selectively depletes CD20-expressing B cells. Its efficacy in multiple sclerosis is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ocrelizumab: "The precise mechanism by which ocrelizumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ocrelizumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d), label version 2026-05-14; accessed 2026-11-19.) Ocrelizumab is known to be a humanised anti-CD20 monoclonal antibody that selectively depletes CD20-expressing B cells. Its efficacy in multiple sclerosis is well established.
 
 No mechanistic link between CD20-directed B-cell depletion and HER2 positive breast carcinoma is supported by the data compiled. The high score (0.9989) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Other breast cancer subtypes (progesterone-receptor positive and negative, luminal A or B, normal breast-like) received near-identical scores. This suggests a shared model signal across the breast cancer group rather than disease-specific evidence.
-
 
 ## Clinical Trial Evidence
 
@@ -97,6 +96,19 @@ The prediction rests entirely on the TxGNN model score. There are no clinical tr
 - Preclinical or translational evidence, then registered clinical studies
 - The TGA-approved PI (warnings, contraindications, approved indications) to complete safety screening
 - Review of the immunosuppression and infection risks in a cancer population, including interactions with chemotherapy and corticosteroids
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

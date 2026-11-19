@@ -75,7 +75,7 @@ The sections below focus on migraine disorder. Bipolar disorder is discussed bri
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on the literature, lacosamide enhances slow inactivation of voltage-gated sodium channels and may modulate collapsin response mediator protein 2 (CRMP2).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lacosamide: "The precise mechanism by which Lacosamide oral solution exerts its antiepileptic effects in humans remains to be fully elucidated. In vitro electrophysiological studies have shown that lacosamide selectively enhances slow inactivation of voltage-gated sodium channels, resulting in stabilization of hyperexcitable neuronal membranes and inhibition of repetitive neuronal firing." ([DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738), label version 2026-09-09; accessed 2026-11-19.) Based on the literature, lacosamide enhances slow inactivation of voltage-gated sodium channels and may modulate collapsin response mediator protein 2 (CRMP2).
 
 Migraine involves neuronal hyperexcitability and release of calcitonin gene-related peptide (CGRP) in the trigeminal system. Sodium channel blockade is plausibly relevant. In mice, lacosamide affected cortical spreading depolarisation, a standard model of migraine aura. Preclinical work also suggests it inhibits CGRP release via CRMP2. Other antiseizure medicines (such as topiramate) are already used for migraine prevention, which supports the biological reasonableness of the prediction.
 
@@ -166,11 +166,12 @@ Warnings and contraindication text from the Australian Product Information were 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ with **3 clinical trials** (two Phase 2 studies in mixed paediatric tumour popul
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Vinorelbine is a vinca alkaloid, a class that inhibits microtubule polymerisation, causing mitotic arrest and apoptosis in rapidly dividing cells. Its efficacy in NSCLC is well established, and mechanistically it may be applicable to Ewing sarcoma, a highly proliferative bone and soft tissue tumour.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for vinorelbine: "Vinorelbine is a vinca alkaloid that interferes with microtubule assembly. The antitumor activity of vinorelbine is thought to be due primarily to inhibition of mitosis at metaphase through its interaction with tubulin. Vinorelbine may also interfere with: 1) amino acid, cyclic AMP and glutathione metabolism, 2) calmodulin-dependent Ca++-transport ATPase activity, 3) cellular respiration, and 4) nucleic acid and lipid biosynthesis." ([DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397), label version 2024-08-16; accessed 2026-11-19.) Vinorelbine is a vinca alkaloid, a class that inhibits microtubule polymerisation, causing mitotic arrest and apoptosis in rapidly dividing cells. Its efficacy in NSCLC is well established, and mechanistically it may be applicable to Ewing sarcoma, a highly proliferative bone and soft tissue tumour.
 
 Ewing sarcoma has high relapse rates, particularly in multi-metastatic disease. Low-dose (metronomic) cyclophosphamide combined with vinorelbine has shown activity in relapsed or refractory paediatric solid tumours. A 2026 review also discusses this combination as maintenance therapy and as the rationale for the international INTER-EWING-1 trial. Preclinical work shows synergy between microtubule-interfering drugs, including vinorelbine, and a PLK1 inhibitor in Ewing sarcoma cells.
 
@@ -123,6 +123,19 @@ Vinorelbine has an established role in NSCLC, a plausible antimitotic mechanism,
 - Detailed mechanism of action data (MOA) and the TGA Product Information, including approved indications, warnings and contraindications
 - A paediatric-specific safety and dosing plan, including myelosuppression monitoring and management of the major interaction with clarithromycin
 - Confirmation of route and formulation suitability, noting that the Australian listing is an intravenous solution only
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

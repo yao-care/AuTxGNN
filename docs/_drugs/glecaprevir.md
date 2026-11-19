@@ -60,7 +60,7 @@ Evidence level is **L5**: **7 clinical trials** and **21 publications** were ret
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Glecaprevir is known to inhibit the HCV NS3/4A protease, and it has no established direct anti-HIV activity.
+ChEMBL (EMBL-EBI) records the mechanism of action of glecaprevir as: Hepatitis C virus serine protease, NS3/NS4A inhibitor ([ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363), CC BY-SA 3.0; accessed 2026-11-19.) Glecaprevir is known to inhibit the HCV NS3/4A protease, and it has no established direct anti-HIV activity.
 
 The high TxGNN score most likely reflects the close relationship between HIV and HCV: the two infections share patient populations, and there are well-documented drug interactions between HCV antivirals and HIV antiretrovirals. The retrieved trials and papers involve HIV/HCV co-infection, where glecaprevir/pibrentasvir treats the hepatitis C component. This is better understood as use in a co-infected population than as true repurposing against HIV. The prediction should be treated as a research question, not a treatment signal.
 
@@ -132,6 +132,18 @@ Glecaprevir has no established anti-HIV mechanism, and every trial and publicati
 - Detailed mechanism of action data
 - Clarification of whether the intended value lies in treating HCV in co-infected people (an existing use) rather than in treating HIV
 - Review of the PI for safety and antiretroviral interaction guidance
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

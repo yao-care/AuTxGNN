@@ -58,7 +58,7 @@ Of the ten predicted indications, only two have any supporting evidence: periphe
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for selumetinib in the data compiled for this report. Based on known information, selumetinib is a MEK inhibitor, and its efficacy in neurofibromatosis (NF1 plexiform neurofibromas) has been established. Mechanistically, it may be applicable to other conditions driven by RAS/MAPK pathway dysregulation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for selumetinib: "Selumetinib is an inhibitor of mitogen-activated protein kinase kinases 1 and 2 (MEK1/2). MEK1/2 proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway. Both MEK and ERK are critical components of the RAS-regulated RAF-MEK-ERK pathway, which is often activated in different types of cancers." ([DailyMed: Koselugo (selumetinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff), label version 2026-05-26; accessed 2026-11-19.) Based on known information, selumetinib is a MEK inhibitor, and its efficacy in neurofibromatosis (NF1 plexiform neurofibromas) has been established. Mechanistically, it may be applicable to other conditions driven by RAS/MAPK pathway dysregulation.
 
 For **familial generalized lentiginosis**, the prediction is not backed by trials or literature. Lentiginoses of this type are often linked to RAS/MAPK pathway dysregulation, which a MEK inhibitor could plausibly modulate. The similarity to the original indication has not yet been assessed. Several other top-ranked predictions (gastrocutaneous syndrome, café-au-lait macule syndromes, acromelanosis, Moynahan syndrome) come from the TxGNN model (deep learning), and their scores may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -140,6 +140,19 @@ The top-ranked prediction is based on the model score alone, with no trials or l
 - For familial generalized lentiginosis: any mechanistic, preclinical or case-level evidence
 - For NF2-related schwannoma: results from NCT03095248 and the outcomes of the not-yet-recruiting NCT07707947 and NCT07713745, including confirmation of whether selumetinib is an arm in PRIME-NF2
 - A review of the full list of 84 drug interactions, particularly with CYP3A4 inhibitors and anticoagulants
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for selumetinib in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Koselugo (selumetinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

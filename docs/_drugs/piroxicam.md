@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is **colobomatous microphthalmia-rhizome
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, piroxicam is a non-selective COX-1/COX-2 inhibitor. It reduces prostaglandin-mediated inflammation and pain, which underpins its use in rheumatoid arthritis and osteoarthritis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for piroxicam: "Piroxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Piroxicam Capsules, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4), label version 2026-09-29; accessed 2026-11-19.) Based on known information, piroxicam is a non-selective COX-1/COX-2 inhibitor. It reduces prostaglandin-mediated inflammation and pain, which underpins its use in rheumatoid arthritis and osteoarthritis.
 
 **Top-ranked predictions (ranks 1–8).** The highest-scoring predictions are mostly rare genetic skeletal, limb or developmental syndromes (for example brachydactyly-syndactyly syndrome, acromesomelic dysplasia Hunter-Thompson type, brachyolmia, pseudoachondroplasia) plus WHIM syndrome. A COX inhibitor cannot correct these developmental or genetic defects. The high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as shared skeletal or connective tissue features, not biological evidence and not a therapeutic rationale. At most, an NSAID might give symptomatic joint pain relief in some of these conditions. No trials or literature were found for any of them.
 
@@ -133,6 +133,19 @@ Please refer to the TGA-approved Product Information (PI) for official warnings 
 - Review of piroxicam against current JIA guidelines and alternative NSAIDs, including paediatric dosing and safety
 - Cardiovascular, gastrointestinal and renal risk assessment for the target population
 - Any new clinical trial registration (ANZCTR or ClinicalTrials.gov) before further development
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

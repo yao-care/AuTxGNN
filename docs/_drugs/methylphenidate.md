@@ -59,7 +59,7 @@ The TxGNN model ranks **faciodigitogenital syndrome** as its top predicted new i
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, methylphenidate is a stimulant widely used for ADHD, and its efficacy in that condition is well established. The literature compiled for this report describes it as acting on the dopamine and norepinephrine transporters.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methylphenidate: "Methylphenidate hydrochloride is a central nervous system (CNS) stimulant. The mode of therapeutic action of METADATE CD in the treatment of ADHD in pediatric patients 6 years of age and older is not known. Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increases the release of these monoamines into the extraneuronal space." ([DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4), label version 2026-10-21; accessed 2026-11-19.) Based on known information, methylphenidate is a stimulant widely used for ADHD, and its efficacy in that condition is well established. The literature compiled for this report describes it as acting on the dopamine and norepinephrine transporters.
 
 For faciodigitogenital syndrome, the data compiled for this report show no identifiable mechanistic link. The syndrome can involve ADHD-like features, which might loosely relate to methylphenidate's dopaminergic and noradrenergic action, but this is speculative. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -142,6 +142,19 @@ The top prediction, faciodigitogenital syndrome, has a very high model score but
 - TGA Product Information, including approved indications, warnings and contraindications, for the ARTG entry
 - For faciodigitogenital syndrome, a defined clinical target (for example ADHD-like symptoms) and supporting clinical or preclinical evidence
 - A safety review for any target population, given the cardiovascular, psychiatric and seizure-related contraindication signals
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

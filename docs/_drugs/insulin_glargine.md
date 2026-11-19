@@ -56,7 +56,7 @@ This is a model-only signal and should not be treated as a therapeutic lead with
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, insulin glargine is a long-acting insulin analogue whose efficacy in diabetes mellitus is well established. There is no evidence that it acts on ovarian autoimmunity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin glargine: "The primary activity of insulin, including insulin glargine products, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810), label version 2026-10-15; accessed 2026-11-19.) Based on known information, insulin glargine is a long-acting insulin analogue whose efficacy in diabetes mellitus is well established. There is no evidence that it acts on ovarian autoimmunity.
 
 The only plausible link is indirect. Autoimmune oophoritis can occur alongside polyglandular autoimmune syndromes, which may include type 1 diabetes. In that setting, insulin would treat the coexisting diabetes, not the ovarian condition. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a therapeutic mechanism.
 
@@ -115,6 +115,19 @@ The prediction for autoimmune oophoritis rests solely on a model score, with no 
 - Safety information (warnings and contraindications) from the TGA-approved Product Information
 - Confirmation of the approved indication and route compatibility for the ARTG entry
 - If the aim is a clinically useful direction, re-ranking predictions to exclude those explained by diabetes comorbidity or insulin adverse effects
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

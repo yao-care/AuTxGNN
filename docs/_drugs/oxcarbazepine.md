@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **restless legs syndrome**, but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. From the retrieved literature, oxcarbazepine acts mainly through its active metabolite, a monohydroxy derivative (MHD). It is understood to block voltage-gated sodium channels and limit repetitive neuronal firing, and it is established for partial-onset seizures.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxcarbazepine: "The pharmacological activity of TRILEPTAL is primarily exerted through the 10-monohydroxy metabolite (MHD) of oxcarbazepine. The precise mechanism by which oxcarbazepine and MHD exert their anti-seizure effect is unknown; however, in vitro electrophysiological studies indicate that they produce blockade of voltage-sensitive sodium channels, resulting in stabilization of hyperexcited neural membranes, inhibition of repetitive neuronal firing, and diminution of propagation of synaptic impulses." ([DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b), label version 2026-10-28; accessed 2026-11-19.) From the retrieved literature, oxcarbazepine acts mainly through its active metabolite, a monohydroxy derivative (MHD). It is understood to block voltage-gated sodium channels and limit repetitive neuronal firing, and it is established for partial-onset seizures.
 
 Visually triggered (photosensitive) epilepsy can include focal features, so there is a plausible mechanistic overlap with the original indication. The prediction therefore appears to reflect a shared focal-seizure mechanism.
 
@@ -130,6 +130,19 @@ The prediction rests on a plausible shared focal-seizure mechanism, but there ar
 - Product Information warnings and contraindications for the registered Australian product, and its approved indication text
 - A safety plan addressing seizure aggravation risk, hyponatraemia, renal impairment and the interactions above
 - If a repurposing programme is pursued, consider restless legs syndrome as the more evidence-supported secondary candidate, although it is still limited to case reports
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

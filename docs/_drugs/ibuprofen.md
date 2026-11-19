@@ -56,7 +56,7 @@ This prediction currently rests on the model score alone, with **no clinical tri
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ibuprofen is a well-established NSAID, generally understood to act through cyclooxygenase (COX) inhibition, which reduces prostaglandin-mediated inflammation and pain. Its efficacy in arthritic and musculoskeletal conditions is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ibuprofen: "Ibuprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of CALDOLOR, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684), label version 2026-01-29; accessed 2026-11-19.) Ibuprofen is a well-established NSAID, generally understood to act through cyclooxygenase (COX) inhibition, which reduces prostaglandin-mediated inflammation and pain. Its efficacy in arthritic and musculoskeletal conditions is established.
 
 Acromesomelic dysplasia, Hunter-Thompson type, is a rare skeletal dysplasia caused by loss-of-function mutations in the CDMP1/GDF5 gene, which disrupts BMP/GDF5 signalling in bone and cartilage development. Ibuprofen's COX inhibition has no established link to this signalling defect. At most, it could provide symptomatic pain relief, which is not disease modification.
 
@@ -108,6 +108,19 @@ The prediction is supported only by a TxGNN model (deep learning) score. There a
 - The ARTG approved indication text and TGA Product Information warnings and contraindications
 - Assessment of the pending route compatibility and similarity to the original indications
 - A clear statement of whether the aim is disease modification or symptomatic pain relief, because the latter is already standard supportive care
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

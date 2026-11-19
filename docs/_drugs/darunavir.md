@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, darunavir is an HIV-1 protease inhibitor, its use in HIV infection and AIDS is established, and mechanistically it may be applicable to related lentiviral infections.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for darunavir: "Darunavir is an HIV-1 antiviral drug. […] Darunavir is an inhibitor of the HIV-1 protease. It selectively inhibits the cleavage of HIV-1 encoded Gag-Pol polyproteins in infected cells, thereby preventing the formation of mature virus particles." ([DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f), label version 2025-08-29; accessed 2026-11-19.) Based on known information, darunavir is an HIV-1 protease inhibitor, its use in HIV infection and AIDS is established, and mechanistically it may be applicable to related lentiviral infections.
 
 Feline immunodeficiency virus (FIV) is a lentivirus related to HIV-1. However, FIV protease differs from HIV-1 protease in substrate specificity and inhibitor sensitivity, so darunavir activity against FIV is not assured. The TxGNN score is high, but nothing in the data compiled for this report supports the prediction. It is also a veterinary indication and falls outside the scope of human clinical development.
 
@@ -115,6 +115,19 @@ The top prediction is a veterinary indication with no trials or literature, and 
 - Detailed mechanism of action data (MOA).
 - Product Information (PI) warnings and contraindications for Prezista, and the approved indication text for the ARTG entry.
 - If a human-relevant direction is preferred, consider the CNS-focused question under AIDS related complex (darunavir brain penetration with cobicistat vs ritonavir boosting) or pregnancy pharmacokinetics under congenital HIV. Both would need properly powered studies.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

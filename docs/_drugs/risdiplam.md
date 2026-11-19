@@ -55,10 +55,9 @@ The TxGNN model predicts it may be effective for **acne**, with a high score but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Risdiplam is generally described as an SMN2 splicing modifier, which promotes inclusion of exon 7 in SMN2 transcripts. Its efficacy has been established in its original neuromuscular indication, but no mechanistic link to acne has been demonstrated.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for risdiplam: "Risdiplam is a survival of motor neuron 2 (SMN2) splicing modifier designed to treat patients with spinal muscular atrophy (SMA) caused by mutations in chromosome 5q that lead to SMN protein deficiency. Using in vitro assays and studies in transgenic animal models of SMA, risdiplam was shown to increase exon 7 inclusion in SMN2 messenger ribonucleic acid (mRNA) transcripts and production of full-length SMN protein in the brain." ([DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e), label version 2026-11-02; accessed 2026-11-19.) Risdiplam is generally described as an SMN2 splicing modifier, which promotes inclusion of exon 7 in SMN2 transcripts. Its efficacy has been established in its original neuromuscular indication, but no mechanistic link to acne has been demonstrated.
 
 The prediction is computational only. One speculative hypothesis is an off-target effect on RNA splicing in sebaceous or epithelial tissue, but nothing in the data supports it. The relationship between the original and new indication is not yet characterised.
-
 
 ## Clinical Trial Evidence
 
@@ -95,6 +94,19 @@ The prediction rests on a model score alone (Evidence Level L5). There are no re
 - Preclinical or mechanistic studies testing splicing modulation in sebaceous or epithelial tissue
 - A review of the safety profile (including skin and ocular findings) against the acne population, which is typically younger and may be long-term treated
 - Comparison with established acne therapies to define a realistic unmet need
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

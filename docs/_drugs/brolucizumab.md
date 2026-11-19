@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant to **mitochondrial oxidative phospho
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge of the drug class, brolucizumab is an anti-VEGF-A single-chain antibody fragment that blocks VEGF-A signalling and so reduces abnormal blood vessel growth and vascular leakage.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for brolucizumab: "Brolucizumab is a human VEGF inhibitor. Brolucizumab binds to the three major isoforms of VEGF-A (e.g., VEGF 110, VEGF 121, and VEGF 165 ), thereby preventing interaction with receptors VEGFR-1 and VEGFR-2. By inhibiting VEGF-A, brolucizumab suppresses endothelial cell proliferation, neovascularization, and vascular permeability." ([DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d), label version 2026-10-26; accessed 2026-11-19.) Based on general knowledge of the drug class, brolucizumab is an anti-VEGF-A single-chain antibody fragment that blocks VEGF-A signalling and so reduces abnormal blood vessel growth and vascular leakage.
 
 No direct mechanistic link to oxidative phosphorylation disorders caused by nuclear DNA anomalies has been established. VEGF signalling may play a peripheral role in the tissue hypoxia and angiogenic responses seen in some mitochondrial diseases, but this is speculative. The high TxGNN score is a model-based prediction only. No trial or publication in the data compiled for this report supports it.
 
@@ -107,6 +107,19 @@ The prediction rests on a model score alone (evidence level L5). There are no cl
 - Preclinical or clinical studies that directly address this disease
 - Assessment of route compatibility and a feasible delivery approach
 - Warnings, contraindications and interaction data from the TGA-approved Product Information, to allow safety screening
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

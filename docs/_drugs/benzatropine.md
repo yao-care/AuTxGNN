@@ -58,7 +58,7 @@ Benzatropine is an anticholinergic medicine used for parkinsonism and related mo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, benzatropine is an anticholinergic that blocks muscarinic acetylcholine receptors and is also described as inhibiting dopamine reuptake.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for benzatropine: "Benztropine mesylate possesses both anticholinergic and antihistaminic effects, although only the former have been established as therapeutically significant in the management of parkinsonism. In the isolated guinea pig ileum, the anticholinergic activity of this drug is about equal to that of atropine; however, when administered orally to unanesthetized cats, it is only about half as active as atropine." ([DailyMed: benztropine mesylate prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01688e6f-7b22-41bf-9a85-1c88d90f99b6), label version 2026-11-11; accessed 2026-11-19.) Based on general pharmacology, benzatropine is an anticholinergic that blocks muscarinic acetylcholine receptors and is also described as inhibiting dopamine reuptake.
 
 PLA2G6-associated neurodegeneration can include dystonia-parkinsonism features (for example, juvenile-onset parkinsonism). A plausible, but unverified, link is that an anticholinergic could offer symptomatic relief of these movement features. This would not be disease modification, because the underlying defect lies in phospholipase A2 group VI function and lipid metabolism. This link is a hypothesis only and has not been tested in the data compiled here.
 
@@ -131,11 +131,12 @@ The prediction for PLA2G6-associated neurodegeneration is supported only by a co
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: benztropine mesylate prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01688e6f-7b22-41bf-9a85-1c88d90f99b6) |
 
 <!-- review:end log -->
 

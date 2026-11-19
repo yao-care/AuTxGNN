@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, oxymetazoline is a topical alpha-1/alpha-2 adrenergic agonist. It constricts the blood vessels of the nasal mucosa, which reduces congestion and improves nasal patency. This is an inference from established pharmacology, not from the provided record. Pharmacology data also show binding to several serotonin receptors (5-HT1B, 5-HT1D, 5-HT2C) and all alpha-adrenoceptor subtypes.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxymetazoline: "Oxymetazoline is an alpha 1A adrenoceptor agonist. Oxymetazoline acts as a vasoconstrictor." ([DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164), label version 2026-07-13; accessed 2026-11-19.) Based on known pharmacology, oxymetazoline is a topical alpha-1/alpha-2 adrenergic agonist. It constricts the blood vessels of the nasal mucosa, which reduces congestion and improves nasal patency. This is an inference from established pharmacology, not from the provided record. Pharmacology data also show binding to several serotonin receptors (5-HT1B, 5-HT1D, 5-HT2C) and all alpha-adrenoceptor subtypes.
 
 The original indications (common cold, pharyngitis) are upper airway conditions in which nasal mucosal swelling is a key symptom. "Nasal cavity disease" is a broad category, so decongestion could plausibly extend to related conditions such as rhinitis or sinusitis. Because the category is so broad, however, the prediction is not specific enough to guide a defined clinical use. Much of it overlaps with the drug's current labelled use rather than being truly new.
 
@@ -101,6 +101,19 @@ The prediction score is very high, but there are no registered trials. The suppo
 - Mechanism of action data confirmed from DrugBank
 - The TGA PI for the ARTG entry, covering approved indication, warnings and contraindications
 - A safety plan addressing cardiovascular and other sympathomimetic risks, including limits on duration of use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

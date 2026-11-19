@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **stroke disorder**, but the link 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, flecainide is a class IC sodium channel blocker (antiarrhythmic), its use in rhythm control for atrial fibrillation is established, and mechanistically it may be applicable to stroke only indirectly.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for flecainide: "Flecainide has local anesthetic activity and belongs to the membrane stabilizing (Class 1) group of antiarrhythmic agents; it has electrophysiologic effects characteristic of the IC class of antiarrhythmics. Electrophysiology In man, flecainide produces a dose-related decrease in intracardiac conduction in all parts of the heart with the greatest effect on the His-Purkinje system (H-V conduction)." ([DailyMed: flecainide acetate prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4), label version 2026-06-11; accessed 2026-11-19.) Based on known information, flecainide is a class IC sodium channel blocker (antiarrhythmic), its use in rhythm control for atrial fibrillation is established, and mechanistically it may be applicable to stroke only indirectly.
 
 Atrial fibrillation is a major cause of cardioembolic stroke. If flecainide maintains sinus rhythm and prevents atrial arrhythmia, it could in theory reduce the risk of some cardioembolic events. However, this is a surrogate pathway. The available trial measures arrhythmia, not stroke recurrence, and the literature is mostly atrial fibrillation management reviews and observational studies.
 
@@ -111,6 +111,19 @@ The evidence is indirect: the only Phase 3 trial targets post-PFO-closure arrhyt
 - Mechanism of action data
 - Analysis of stroke endpoints in existing class IC and EAST-AFNET 4 data
 - A defined target population (for example, AF patients without structural heart disease) and an assessment of DOAC co-prescribing interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: flecainide acetate prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

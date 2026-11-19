@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **stomach disease**, but the data
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available. Citric acid is an organic acid that acidifies its surroundings, and this property is plausibly relevant to gastric physiology, such as gastric pH.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sodium picosulfate, magnesium oxide, and anhydrous citric acid (a combination product containing citric acid): "Magnesium oxide and citric acid react to create magnesium citrate in solution, which is an osmotic agent that causes water to be retained within the gastrointestinal tract." ([DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5), label version 2026-04-15; accessed 2026-11-19.) Citric acid is an organic acid that acidifies its surroundings, and this property is plausibly relevant to gastric physiology, such as gastric pH.
 
 The literature does not test this idea as a treatment. The closest item is a diagnostic study (PMID 31505905) in which a citric acid test meal was used to improve the accuracy of the 13C-urea breath test for *Helicobacter pylori*. This is a diagnostic adjunct, not a therapy. Other retrieved papers are general reviews on ulcer diet, *H. pylori* physiology, gastric cancer metabolomics, animal studies, or unrelated topics. The high TxGNN score is a computational output and is not backed by therapeutic evidence for this disease.
 
@@ -114,11 +114,12 @@ No clinical trial or publication directly tests citric acid for stomach disease,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5) |
 
 <!-- review:end log -->
 

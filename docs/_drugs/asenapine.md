@@ -56,7 +56,7 @@ However, there are **no clinical trials** and **no publications** supporting thi
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Asenapine is known as an atypical antipsychotic that antagonises serotonin, dopamine, alpha-adrenergic and histamine receptors. Its efficacy in mania and schizophrenia is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for asenapine: "The mechanism of action of asenapine, in schizophrenia and bipolar I disorder, is unknown. It has been suggested that the efficacy of asenapine in schizophrenia could be mediated through a combination of antagonist activity at D 2 and 5-HT 2A receptors." ([DailyMed: Saphris (asenapine maleate) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8), label version 2025-01-31; accessed 2026-11-19.) Asenapine is known as an atypical antipsychotic that antagonises serotonin, dopamine, alpha-adrenergic and histamine receptors. Its efficacy in mania and schizophrenia is established.
 
 No plausible mechanistic link to retinal dystrophy has been identified. Retinal dystrophies are largely genetic conditions affecting the retina, and asenapine's receptor pharmacology has no known connection to those genetic causes. The high score (0.9977) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -105,6 +105,19 @@ For full safety information, please refer to the TGA-approved Product Informatio
 - Detailed mechanism of action data
 - Label-based warnings and contraindications from the TGA Product Information
 - If the affective disorder direction is pursued, clarification of its scope (acute mania or mixed episodes versus bipolar depression or unipolar depression), plus monitoring of metabolic and extrapyramidal effects and a review of the high interaction burden
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Saphris (asenapine maleate) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

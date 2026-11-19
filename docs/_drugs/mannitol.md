@@ -56,7 +56,7 @@ This prediction should be treated as a model output without clinical backing.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, mannitol is an osmotic agent. It is used to draw water out of tissues (for example the brain and eye) and to promote osmotic diuresis. In theory, this could affect water balance.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mannitol: "Mannitol, when administered intravenously, exerts its osmotic diuretic effect as a solute of relatively small molecular size being largely confined to the extracellular space. Mannitol hinders tubular reabsorption of water and enhances excretion of sodium and chloride by elevating the osmolarity of the glomerular filtrate." ([DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc), label version 2025-08-26; accessed 2026-11-19.) Based on known information, mannitol is an osmotic agent. It is used to draw water out of tissues (for example the brain and eye) and to promote osmotic diuresis. In theory, this could affect water balance.
 
 However, the link to the predicted indication is weak. NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2). It is managed with fluid restriction and solute loading (for example urea). Mannitol would be expected to worsen osmotic diuresis, and it has no established role in this condition. The high TxGNN score therefore appears to be a network-based prediction rather than a clinically grounded one.
 
@@ -100,6 +100,19 @@ The prediction is supported only by a high model score. There are no registered 
 - Product Information warnings and contraindications from the TGA for the registered product
 - Any direct preclinical or clinical evidence of benefit in NSIAD, which is currently absent
 - Review of the other top-ranked predictions, which show a similar pattern of excipient-driven associations without therapeutic backing
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

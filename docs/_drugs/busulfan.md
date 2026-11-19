@@ -56,7 +56,7 @@ The data compiled for this report include **36 clinical trials** and **20 public
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Busulfan is a bifunctional alkylating agent: it forms DNA crosslinks and is myeloablative, meaning it destroys the bone marrow. In MDS it is used as a backbone of conditioning (with fludarabine, cyclophosphamide, clofarabine or cladribine) before allogeneic haematopoietic stem cell transplantation (HSCT). The aim is to eradicate the malignant clone and make marrow space for donor cells to engraft.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for busulfan: "Busulfan is a bifunctional alkylating agent in which two labile methanesulfonate groups are attached to opposite ends of a four-carbon alkyl chain. In aqueous media, busulfan hydrolyzes to release the methanesulfonate groups." ([DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203), label version 2026-07-29; accessed 2026-11-19.) Busulfan is a bifunctional alkylating agent: it forms DNA crosslinks and is myeloablative, meaning it destroys the bone marrow. In MDS it is used as a backbone of conditioning (with fludarabine, cyclophosphamide, clofarabine or cladribine) before allogeneic haematopoietic stem cell transplantation (HSCT). The aim is to eradicate the malignant clone and make marrow space for donor cells to engraft.
 
 This is an established transplant-conditioning practice, not a disease-modifying monotherapy. Allogeneic HSCT remains the only potentially curative option for eligible patients with higher-risk MDS, which is why the prediction is credible. The evidence supports busulfan as a component of a conditioning regimen, not as a stand-alone treatment for MDS.
 
@@ -152,6 +152,18 @@ Busulfan-based conditioning for MDS is supported by completed Phase 2 and Phase 
 | Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | L5 | Hold | No evidence or plausible mechanism |
 | Seborrhoeic keratosis | L5 | Hold | No evidence; a systemic myelotoxic agent is not justified for a benign lesion |
 | Simian immunodeficiency virus infection | L5 | Hold | No evidence in the compiled data |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

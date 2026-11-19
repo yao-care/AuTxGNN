@@ -60,7 +60,7 @@ Etoposide with ifosfamide is already part of standard Ewing sarcoma regimens int
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Etoposide is well known as a topoisomerase II inhibitor, which causes DNA strand breaks and cell death in rapidly dividing cells. This is consistent with its established activity in small cell lung carcinoma and germ cell tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for etoposide: "Etoposide causes the induction of DNA strand breaks by an interaction with DNA-topoisomerase II or the formation of free radicals, leading to cell cycle arrest, primarily at the G2 stage of the cell cycle, and cell death." ([DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059), label version 2026-10-07; accessed 2026-11-19.) Etoposide is well known as a topoisomerase II inhibitor, which causes DNA strand breaks and cell death in rapidly dividing cells. This is consistent with its established activity in small cell lung carcinoma and germ cell tumours.
 
 Ewing sarcoma is an aggressive bone and soft tissue cancer of children, adolescents and young adults. Published work notes that it is highly sensitive to genotoxic agents such as etoposide. Ifosfamide plus etoposide is a long-established part of Ewing sarcoma chemotherapy, typically alternating with vincristine, doxorubicin and cyclophosphamide (VDC/IE). A randomised trial in the *New England Journal of Medicine* (2003) showed that adding ifosfamide and etoposide to standard chemotherapy improved outcomes in newly diagnosed disease.
 
@@ -166,11 +166,12 @@ Multiple randomised phase 3 trials and publications support etoposide-containing
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059) |
 
 <!-- review:end log -->
 

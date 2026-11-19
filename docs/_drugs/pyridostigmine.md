@@ -55,7 +55,7 @@ There are currently **no registered clinical trials** and **3 publications** (no
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pyridostigmine is known to be a reversible acetylcholinesterase inhibitor. It increases acetylcholine at the neuromuscular junction, which is the basis of its standard use as symptomatic therapy for acetylcholine receptor antibody-positive myasthenia gravis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pyridostigmine: "Pyridostigmine bromide oral solution inhibits the destruction of acetylcholine by cholinesterase and thereby permits freer transmission of nerve impulses across the neuromuscular junction. Pyridostigmine is an analog of neostigmine (Prostigmine TM ), but differs from it in certain clinically significant respects; for example, pyridostigmine is characterized by a longer duration of action and fewer gastrointestinal side effects." ([DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780), label version 2022-09-07; accessed 2026-11-19.) Pyridostigmine is known to be a reversible acetylcholinesterase inhibitor. It increases acetylcholine at the neuromuscular junction, which is the basis of its standard use as symptomatic therapy for acetylcholine receptor antibody-positive myasthenia gravis.
 
 Thymic hyperplasia is a common pathological feature of that disease, so the predicted indication largely overlaps with the original one. The mechanism applies directly: any form of myasthenia gravis with impaired neuromuscular transmission may benefit from symptomatic cholinesterase inhibition.
 
@@ -101,6 +101,19 @@ The predicted indication is essentially a subtype of an established use, so it o
 - Detailed mechanism of action data
 - Subgroup data on pyridostigmine response in thymic hyperplasia-associated MG (for example, from existing MG cohorts)
 - Review of the knowledge-graph contraindication flags (asthma, urinary obstruction, kidney disease) against the PI
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -61,7 +61,7 @@ SIV infection is an animal research model rather than a human disease, so this p
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, TAF is a prodrug of tenofovir and a nucleotide reverse transcriptase inhibitor active against HIV-1 and HIV-2. It delivers tenofovir diphosphate efficiently into lymphoid cells after oral administration.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tenofovir alafenamide: "Tenofovir alafenamide is an antiviral drug against the hepatitis B virus. […] Tenofovir alafenamide is a phosphonamidate prodrug of tenofovir (2'-deoxyadenosine monophosphate analog). Tenofovir alafenamide as a lipophilic cell-permeant compound enters primary hepatocytes by passive diffusion and by the hepatic uptake transporters OATP1B1 and OATP1B3." ([DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2), label version 2025-07-14; accessed 2026-11-19.) Based on known pharmacology, TAF is a prodrug of tenofovir and a nucleotide reverse transcriptase inhibitor active against HIV-1 and HIV-2. It delivers tenofovir diphosphate efficiently into lymphoid cells after oral administration.
 
 SIV and the chimeric SHIV are closely related lentiviruses that use the same reverse transcriptase target as HIV. The antiviral mechanism is therefore directly applicable, and the high TxGNN score is consistent with this similarity to the original HIV indication.
 
@@ -137,11 +137,12 @@ The only supporting evidence is preclinical (macaque and humanised mouse models)
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Support is limited to **0 clinical trials** and **2 publications**, both old and
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ephedrine is an alpha- and beta-adrenergic agonist with indirect sympathomimetic activity. Vasoconstriction of the nasal mucosa reduces congestion and oedema, which is plausible for nasal cavity disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ephedrine: "Ephedrine sulfate is a sympathomimetic amine that directly acts as an agonist at α- and β-adrenergic receptors and indirectly causes the release of norepinephrine from sympathetic neurons. Pressor effects by direct alpha- and beta-adrenergic receptor activation are mediated by increases in arterial pressures, cardiac output, and peripheral resistance." ([DailyMed: Emerphed Pfs (ephedrine sulfate) prescribing information, Nexus Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14601778-93ac-43ec-b66b-5a942317133f), label version 2024-09-16; accessed 2026-11-19.) Based on known pharmacology, ephedrine is an alpha- and beta-adrenergic agonist with indirect sympathomimetic activity. Vasoconstriction of the nasal mucosa reduces congestion and oedema, which is plausible for nasal cavity disease.
 
 Nasal cavity disease overlaps heavily with the rhinitis and nasopharyngitis indications ephedrine already carries. The high TxGNN score probably reflects this closeness to existing uses, so this is an extension of known use rather than a genuinely new repurposing opportunity.
 
@@ -105,6 +105,19 @@ The prediction is plausible but largely duplicates existing rhinitis indications
 - Modern controlled studies of ephedrine in nasal cavity disease, compared with current alternatives
 - A clear statement of how nasal cavity disease differs from the already-listed rhinitis indications
 - A safety assessment covering cardiovascular risk and the major drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Emerphed Pfs (ephedrine sulfate) prescribing information, Nexus Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14601778-93ac-43ec-b66b-5a942317133f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

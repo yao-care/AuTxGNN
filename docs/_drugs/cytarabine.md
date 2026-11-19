@@ -57,7 +57,7 @@ The TxGNN model predicts it may be effective for **small cell lung carcinoma**, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, cytarabine is a pyrimidine nucleoside analogue that inhibits DNA synthesis in cells in S-phase. Its efficacy in acute leukaemias is established, and mechanistically it may be applicable to rapidly proliferating tumours such as small cell lung carcinoma.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cytarabine: "Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported." ([DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd), label version 2026-10-19; accessed 2026-11-19.) Based on known pharmacology, cytarabine is a pyrimidine nucleoside analogue that inhibits DNA synthesis in cells in S-phase. Its efficacy in acute leukaemias is established, and mechanistically it may be applicable to rapidly proliferating tumours such as small cell lung carcinoma.
 
 However, the supporting evidence is weak. The retrieved literature mainly concerns non-small cell lung cancer (NSCLC), not SCLC. It includes 1990 phase II studies of cytarabine with cisplatin (one reporting a 14% overall response rate with substantial myelosuppression), leptomeningeal disease, and other antimetabolites (gemcitabine, decitabine, topotecan). One 1987 publication (PMID 3030547) is titled "High-dose cytarabine in small cell lung cancer", but no abstract or outcome data were retrieved. The very high model score is therefore not supported by clinical evidence at this stage.
 
@@ -121,6 +121,19 @@ There are no registered trials, and no SCLC-specific cytarabine outcome data wer
 - **Retroperitoneal neoplasm:** evidence is indirect (L4).
 - **Well-differentiated fetal adenocarcinoma of the lung, pulmonary blastoma, ganglioneuroblastoma, the vertebral anomalies and endocrine/T-cell dysfunction syndrome, and the CLL/SLL subtype:** prediction only, no evidence (L5).
 - **Neuroblastoma:** the strongest of the secondary candidates (L3, a research question). Preclinical cytarabine activity is reported in neuroblastoma cell lines, but the three registered early-phase trials involve other interventions and do not confirm a cytarabine role.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

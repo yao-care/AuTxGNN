@@ -60,7 +60,7 @@ Amenorrhoea is an expected pharmacodynamic effect of goserelin, so this is bette
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, goserelin is a GnRH agonist. Continuous administration desensitises pituitary GnRH receptors, suppressing LH and FSH release and lowering ovarian oestrogen production.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for goserelin: "ZOLADEX is a synthetic decapeptide analogue of GnRH. ZOLADEX acts as an inhibitor of pituitary gonadotropin secretion when administered in the biodegradable formulation. In animal and in vitro studies, administration of goserelin resulted in the regression or inhibition of growth of the hormonally sensitive dimethylbenzanthracene (DMBA)-induced rat mammary tumor and Dunning R3327 prostate tumor." ([DailyMed: Zoladex (goserelin) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3), label version 2026-03-24; accessed 2026-11-19.) Based on known pharmacology, goserelin is a GnRH agonist. Continuous administration desensitises pituitary GnRH receptors, suppressing LH and FSH release and lowering ovarian oestrogen production.
 
 This produces a reversible, medically induced amenorrhoea (ovarian suppression). The same effect underlies its use in endometriosis, where lowering oestrogen reduces the activity of oestrogen-dependent ectopic tissue. It is also used in ovarian ablation for premenopausal breast cancer.
 
@@ -139,6 +139,19 @@ Amenorrhoea is an expected pharmacological effect of goserelin, not a distinct d
 - **Cervix endometriosis, endometriosis of the rectovaginal septum and vagina:** anatomical subtypes of the approved indication (L4). The mechanistic rationale is sound, but no site-specific trials or literature were retrieved. These are research questions.
 - **Endometriosis in cutaneous scar:** a single case report (PMID 19753740) describes combined medical and surgical treatment (L4). Surgical excision remains the primary treatment.
 - The recommendation for these is Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zoladex (goserelin) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

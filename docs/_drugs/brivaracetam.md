@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **beta-ketothiolase deficiency**,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Brivaracetam is generally understood to act through modulation of synaptic vesicle protein 2A (SV2A), but this is background knowledge and not drawn from the compiled data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for brivaracetam: "The precise mechanism by which BRIVIACT exerts its anticonvulsant activity is not known. Brivaracetam displays a high and selective affinity for synaptic vesicle protein 2A (SV2A) in the brain, which may contribute to the anticonvulsant effect." ([DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c), label version 2026-11-05; accessed 2026-11-19.) Brivaracetam is generally understood to act through modulation of synaptic vesicle protein 2A (SV2A), but this is background knowledge and not drawn from the compiled data.
 
 Beta-ketothiolase deficiency is an inherited metabolic disorder of ketone body and isoleucine breakdown. No clear mechanistic link to SV2A modulation was identified, apart from the possibility of seizures during metabolic decompensation. The high model score is likely an artefact of the model's pattern-matching rather than evidence of a true pharmacological relationship. The similarity to the drug's existing use has not been assessed.
 
@@ -96,6 +96,19 @@ The prediction rests on model output alone. No trials or publications address be
 - Preclinical or clinical studies in this disease
 - Product Information warnings and contraindications for a safety review
 - Assessment of the clinical need, given that existing management of this condition is metabolic (dietary and acute-illness care)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

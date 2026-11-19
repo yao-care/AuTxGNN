@@ -61,7 +61,7 @@ This is largely an extension within the existing HER2-positive indication rather
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pertuzumab binds HER2 subdomain II and blocks HER2/HER3 heterodimerisation. This inhibits PI3K/AKT and MAPK signalling in HER2-positive tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pertuzumab: "Pertuzumab targets the extracellular dimerization domain (Subdomain II) of the human epidermal growth factor receptor 2 protein (HER2) and, thereby, blocks ligand-dependent heterodimerization of HER2 with other HER family members, including EGFR, HER3, and HER4. As a result, pertuzumab inhibits ligand-initiated intracellular signaling through two major signal pathways, mitogen-activated protein (MAP) kinase, and phosphoinositide 3-kinase (PI3K)." ([DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff), label version 2026-04-30; accessed 2026-11-19.) Based on known pharmacology, pertuzumab binds HER2 subdomain II and blocks HER2/HER3 heterodimerisation. This inhibits PI3K/AKT and MAPK signalling in HER2-positive tumours.
 
 Hormone receptor-positive/HER2-positive breast cancer is a molecular subset of the already approved HER2-positive breast cancer indication, so the mechanism applies directly. The effect depends on HER2 status rather than PR status. Cross-talk between the HER2 and hormone receptor pathways is described in the literature, which is why combinations with endocrine therapy are of interest.
 
@@ -135,6 +135,19 @@ Pertuzumab is already registered in Australia, and randomised evidence supports 
 - Review of endocrine therapy combinations for HR-positive/HER2-positive disease
 - Confirmation of the approved indication wording from the ARTG entry and the TGA Product Information
 - Mechanism of action data and PI-based warnings and contraindications, which are not yet available
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

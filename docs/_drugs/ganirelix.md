@@ -56,7 +56,7 @@ The prediction is model-based only, and no plausible mechanistic pathway has bee
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data identify ganirelix as an antagonist of the GnRH receptor (GNRHR). By blocking this receptor, it suppresses LH and FSH release and, downstream, gonadal sex steroids.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ganirelix: "The pulsatile release of GnRH stimulates the synthesis and secretion of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). The frequency of LH pulses in the mid and late follicular phase is approximately 1 pulse per hour. […] Ganirelix acetate acts by competitively blocking the GnRH receptors on the pituitary gonadotroph and subsequent transduction pathway." ([DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1), label version 2026-10-16; accessed 2026-11-19.) Pharmacology data identify ganirelix as an antagonist of the GnRH receptor (GNRHR). By blocking this receptor, it suppresses LH and FSH release and, downstream, gonadal sex steroids.
 
 This mechanism does not clearly connect to hypertrichosis. Hypertrichosis is not primarily driven by gonadotropins, unlike hirsutism, which is androgen-dependent. The high TxGNN score (0.9998) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should be treated as a hypothesis-generating signal only.
 
@@ -107,6 +107,19 @@ The prediction for hypertrichosis rests on a TxGNN model (deep learning) score a
 - Systematic literature and trial searches for hypertrichosis, and for central precocious puberty if that is pursued as a research question
 - Confirmation of the approved indication text for ARTG 9583J
 - Route and formulation compatibility assessment for any new indication, including paediatric use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

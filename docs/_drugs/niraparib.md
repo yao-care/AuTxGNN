@@ -58,7 +58,7 @@ The supporting evidence is **3 clinical trials** (1 recruiting Phase 2, 1 termin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on general knowledge, niraparib is a PARP inhibitor. PARP inhibitors exploit synthetic lethality in tumours with homologous recombination deficiency (HRD), such as BRCA-mutated or HRD-positive high-grade serous carcinomas.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for niraparib: "Niraparib is an inhibitor of PARP enzymes, including PARP-1 and PARP-2, that play a role in DNA repair. In vitro studies have shown that niraparib-induced cytotoxicity may involve inhibition of PARP enzymatic activity and increased formation of PARP-DNA complexes resulting in DNA damage, apoptosis, and cell death." ([DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d), label version 2026-07-28; accessed 2026-11-19.) Based on general knowledge, niraparib is a PARP inhibitor. PARP inhibitors exploit synthetic lethality in tumours with homologous recombination deficiency (HRD), such as BRCA-mutated or HRD-positive high-grade serous carcinomas.
 
 Ovarian and primary peritoneal serous carcinomas are often HRD-positive, which is the basis of niraparib's established use. The trials and publications retrieved cluster on closely related serous gynaecological cancers: endometrial/uterine serous carcinoma and high-grade serous ovarian carcinoma. These share molecular features with the original indications, including chromosomal instability and frequent HRD. This makes a mechanistic extension plausible.
 
@@ -151,6 +151,19 @@ The prediction for cystic neoplasm rests on indirect evidence from serous gynaec
 - A haematological safety and monitoring plan, including management of interactions with antithrombotic agents
 
 **Other predicted indications:** The other nine predictions (epiglottis neoplasm, benign neoplasms of the hypopharynx, tongue and floor of mouth, cervical neuroblastoma, tumour of testis and paratestis, inner ear neoplasm, pre-malignant neoplasm, and schwannoma of the jugular foramen) have no trials or literature (L5, prediction only) and are on **Hold**. For the benign lesions in particular, the risk-benefit balance of a PARP inhibitor with known haematological toxicity is unfavourable.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

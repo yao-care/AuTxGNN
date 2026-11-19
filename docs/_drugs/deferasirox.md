@@ -54,7 +54,7 @@ Deferasirox is an oral iron chelator. The TxGNN model predicts it may be relevan
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Deferasirox is known as an iron chelator, so its effects are expected to relate to iron availability in cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for deferasirox: "Exjade (deferasirox) is an orally active chelator that is selective for iron (as Fe 3+ ). It is a tridentate ligand that binds iron with high affinity in a 2:1 ratio. Although deferasirox has very low affinity for zinc and copper there are variable decreases in the serum concentration of these trace metals after the administration of deferasirox." ([DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85), label version 2026-01-28; accessed 2026-11-19.) Deferasirox is known as an iron chelator, so its effects are expected to relate to iron availability in cells.
 
 Iron status is known to influence HIV-1 replication. A 2021 laboratory study (PMID 34550543) reported that iron held in endolysosomes restricts Tat-mediated HIV-1 LTR transactivation by changing Tat oligomerization. This offers a plausible but indirect iron-homeostasis link. The study did not test deferasirox, and it does not show that deferasirox has antiviral activity. Iron chelation could plausibly act in either direction, helping or hindering viral replication.
 
@@ -99,6 +99,19 @@ The prediction has no clinical trials and no study of deferasirox in HIV. The on
 - Detailed mechanism of action data
 - Review of the TGA Product Information for warnings and contraindications, particularly for people with HIV who may have liver or kidney disease or take interacting medicines
 - Any registered or planned clinical studies of iron chelation in HIV
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

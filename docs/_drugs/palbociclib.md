@@ -58,7 +58,7 @@ Among lower-ranked predictions, **myeloid leukaemia** (4 early-phase trials, 20 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Palbociclib is a selective CDK4/6 inhibitor, a class used in hormone receptor-positive, HER2-negative breast cancer. Blocking CDK4/6 arrests the cell cycle at the G1-to-S transition.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for palbociclib: "Palbociclib is an inhibitor of cyclin-dependent kinases (CDK) 4 and 6. Cyclin D1 and CDK4/6 are downstream of signaling pathways which lead to cellular proliferation. In vitro, palbociclib reduced cellular proliferation of estrogen receptor (ER)-positive breast cancer cell lines by blocking progression of the cell from G1 into S phase of the cell cycle." ([DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792), label version 2026-07-06; accessed 2026-11-19.) Palbociclib is a selective CDK4/6 inhibitor, a class used in hormone receptor-positive, HER2-negative breast cancer. Blocking CDK4/6 arrests the cell cycle at the G1-to-S transition.
 
 For hyperthyroidism, **no mechanistic link has been identified**. No trials or publications support CDK4/6 inhibition in thyroid overactivity. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be treated as evidence of benefit.
 
@@ -133,6 +133,19 @@ The top-ranked prediction, hyperthyroidism, rests on a model score alone, with n
 - For hyperthyroidism: any mechanistic or experimental evidence before further consideration
 - Consider re-prioritising the evaluation toward myeloid leukaemia (await results from the Phase 1/2 trials) and rheumatoid arthritis (needs prospective clinical data)
 - Check Australian trial registrations (ANZCTR) for relevant studies
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

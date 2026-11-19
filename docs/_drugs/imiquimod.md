@@ -58,7 +58,7 @@ Most of this evidence comes from labelled skin uses or small, underpowered studi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Imiquimod is, however, a well-known Toll-like receptor 7 (TLR7) agonist. It triggers local release of type I interferon and pro-inflammatory cytokines and activates cell-mediated immunity. This is a plausible way to clear dysplastic and pre-malignant lesions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for imiquimod: "The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown." ([DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d), label version 2025-05-23; accessed 2026-11-19.) Imiquimod is, however, a well-known Toll-like receptor 7 (TLR7) agonist. It triggers local release of type I interferon and pro-inflammatory cytokines and activates cell-mediated immunity. This is a plausible way to clear dysplastic and pre-malignant lesions.
 
 Many of the original indications are HPV-driven or sun-induced skin lesions. These include warts, anogenital HPV infection and actinic keratosis. Pre-malignant lesions at other sites, such as cervical, vulval and anal intraepithelial neoplasia, share the same HPV-related biology. Actinic keratosis, itself a pre-malignant lesion, is already an established use. The prediction is therefore best read as an extension of a known mechanism to related lesions.
 
@@ -122,6 +122,19 @@ The mechanism is plausible and imiquimod is already marketed in Australia, with 
 **Other predicted indications (not recommended at this time):**
 - **Benign neoplasm of buccal mucosa (L4, Research Question):** no registered trials. Support comes from reviews, animal models and case reports, with safety concerns about off-label oral use.
 - **Odontogenic cyst, cystic neoplasm, benign neoplasm of tongue, inner ear neoplasm, cervical neuroblastoma, nasopharyngeal teratoma, major salivary gland neoplasm and jugular foramen schwannoma (Hold):** no clinical evidence, or only indirect or irrelevant publications. Several of these sites are also not accessible to a topical cream.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

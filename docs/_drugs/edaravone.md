@@ -59,7 +59,7 @@ The TxGNN model (deep learning) predicts it may be effective for **heparin cofac
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on published knowledge, edaravone is a free radical scavenger that quenches hydroxyl radicals and inhibits lipid peroxidation. Its benefit in ischaemic stroke and ALS is thought to come from limiting oxidative injury to neurons.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for edaravone: "The mechanism by which edaravone injection exert its therapeutic effect in patients with ALS is unknown." ([DailyMed: edaravone prescribing information, Piramal Critical Care Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19862ae9-d6e1-70e6-e063-6394a90ae749), label version 2025-10-07; accessed 2026-11-19.) Based on published knowledge, edaravone is a free radical scavenger that quenches hydroxyl radicals and inhibits lipid peroxidation. Its benefit in ischaemic stroke and ALS is thought to come from limiting oxidative injury to neurons.
 
 Heparin cofactor 2 deficiency is a thrombophilia caused by reduced inhibition of thrombin. Edaravone does not act on the coagulation cascade, so no direct mechanistic link has been established. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be read as a hypothesis-generating signal, not as evidence of benefit.
 
@@ -121,6 +121,19 @@ The heparin cofactor 2 deficiency prediction rests on the TxGNN model (deep lear
 - Mechanism of action data (for example from DrugBank)
 - Approved indication text for the Australian licence
 - Any preclinical or clinical evidence linking edaravone to the predicted thrombophilia
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: edaravone prescribing information, Piramal Critical Care Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19862ae9-d6e1-70e6-e063-6394a90ae749) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

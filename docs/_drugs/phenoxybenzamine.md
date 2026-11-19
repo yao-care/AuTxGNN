@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **primary hereditary glaucoma**
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, phenoxybenzamine irreversibly blocks alpha-adrenergic receptors. This is the basis of its use in phaeochromocytoma, where it counters the effects of excess catecholamines.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for phenoxybenzamine: "Phenoxybenzamine hydrochloride is a long-acting, adrenergic, alpha -receptor-blocking agent, which can produce and maintain “chemical sympathectomy” by oral administration. It increases blood flow to the skin, mucosa and abdominal viscera, and lowers both supine and erect blood pressures." ([DailyMed: phenoxybenzamine hydrochloride prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0be6a394-cd10-42fc-97cf-ad53d81d8d93), label version 2026-07-03; accessed 2026-11-19.) Based on known pharmacology, phenoxybenzamine irreversibly blocks alpha-adrenergic receptors. This is the basis of its use in phaeochromocytoma, where it counters the effects of excess catecholamines.
 
 Alpha-blockade could theoretically alter aqueous humour dynamics or ocular blood flow. However, primary hereditary glaucoma is largely driven by structural or genetic outflow defects, so the mechanistic link to the original indication is weak. The high TxGNN score is a statistical prediction and is not backed by trials or literature.
 
@@ -71,7 +71,6 @@ Currently no related clinical trials registered for primary hereditary glaucoma 
 ## Literature Evidence
 
 Currently no related literature available for primary hereditary glaucoma.
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -117,6 +116,19 @@ The top prediction (primary hereditary glaucoma) rests on model output alone (L5
 - Approved indication text and warnings/contraindications from the TGA Product Information
 - Ophthalmic pharmacology evidence (intraocular pressure, ocular perfusion) before any glaucoma work
 - For subarachnoid haemorrhage, a preclinical-to-clinical bridging study that addresses cerebral perfusion and hypotension risk, as this is the most promising secondary lead (Research Question)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: phenoxybenzamine hydrochloride prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0be6a394-cd10-42fc-97cf-ad53d81d8d93) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

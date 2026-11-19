@@ -54,7 +54,7 @@ Fludrocortisone is a synthetic corticosteroid with predominantly mineralocortico
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on general pharmacology, fludrocortisone is a corticosteroid with strong mineralocorticoid activity and some glucocorticoid activity. Corticosteroids play a general role in symptom control in cutaneous lymphoma, so a loose conceptual link exists.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for fludrocortisone: "Corticosteroids are thought to act at least in part, by controlling the rate of synthesis of proteins. Although there are a number of instances in which the synthesis of specific proteins is known to be induced by corticosteroids, the links between the initial actions of the hormones and the final metabolic effects have not been completely elucidated. […] The physiologic action of fludrocortisone acetate is similar to that of hydrocortisone." ([DailyMed: fludrocortisone acetate prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2), label version 2026-06-24; accessed 2026-11-19.) Based on general pharmacology, fludrocortisone is a corticosteroid with strong mineralocorticoid activity and some glucocorticoid activity. Corticosteroids play a general role in symptom control in cutaneous lymphoma, so a loose conceptual link exists.
 
 However, the data compiled for this report show no specific link between fludrocortisone and this lymphoma. The high TxGNN score (0.9958) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it should be treated as a hypothesis only.
 
@@ -126,6 +126,19 @@ The lead prediction is supported only by a score from the TxGNN model (deep lear
 - The approved indication from the ARTG entry, and the PI warnings and contraindications
 - Preclinical or early clinical data for fludrocortisone in this disease
 - If an alternative direction is wanted, clarification of the broad "eye disease" signal. Candidates are geographic atrophy (the Phase 1B intravitreal study) or glaucoma-related systemic hypotension. Either would be a separate research question, not a repurposing decision.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fludrocortisone acetate prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -54,7 +54,7 @@ Fentanyl is a potent mu-opioid analgesic, and the sublingual tablet is registere
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Fentanyl is known to be a mu-opioid receptor agonist used for analgesia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fentanyl: "Fentanyl Citrate Injection is an opioid agonist, whose principal actions of therapeutic value are analgesia and sedation." ([DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11), label version 2026-10-23; accessed 2026-11-19.) Fentanyl is known to be a mu-opioid receptor agonist used for analgesia.
 
 For the top prediction, **the mechanistic link is weak**. NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2) pathway. Fentanyl has no known direct action on this receptor. Opioids can modulate antidiuretic hormone release, but that would not correct a receptor-level defect. The score (0.9946) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -67,7 +67,6 @@ Other predictions fare similarly:
 ## Clinical Trial Evidence
 
 No clinical trials are registered for the top-ranked indication (NSIAD). Currently no related clinical trials registered.
-
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -113,6 +112,19 @@ The top prediction (NSIAD) has no clinical or published support and no plausible
 - Mechanism of action data for fentanyl
 - The approved indication text and Product Information (warnings and contraindications) for the Abstral ARTG entry
 - Route compatibility assessment (not yet completed)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

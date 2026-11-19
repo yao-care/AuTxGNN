@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant to **HIV infectious disease**, with 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for atorvastatin is not available in the data compiled for this report. It is a statin, and statins inhibit HMG-CoA reductase to lower LDL cholesterol. They also have anti-inflammatory and immunomodulatory effects, including reduced monocyte/macrophage activation and lower systemic inflammation markers.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for atorvastatin: "LIPITOR is a selective, competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A to mevalonate, a precursor of sterols, including cholesterol. In animal models, LIPITOR lowers plasma cholesterol and lipoprotein levels by inhibiting HMG-CoA reductase and cholesterol synthesis in the liver and by increasing the number of hepatic LDL receptors on the cell surface to enhance uptake and catabolism of LDL; LIPITOR also reduces LDL production and the number of LDL particles." ([DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65), label version 2024-04-15; accessed 2026-11-19.) It is a statin, and statins inhibit HMG-CoA reductase to lower LDL cholesterol. They also have anti-inflammatory and immunomodulatory effects, including reduced monocyte/macrophage activation and lower systemic inflammation markers.
 
 These effects are relevant in HIV. People with HIV on antiretroviral therapy often have chronic immune activation, and protease inhibitors are associated with raised cholesterol and triglycerides. This increases cardiovascular risk. The supporting trials mostly target PI-associated dyslipidaemia, immune activation and inflammation, and HIV-associated neurocognitive disorder, rather than viral suppression.
 
@@ -134,6 +134,19 @@ Completed Phase 3 and Phase 2 trials and several randomised studies in people wi
 - Larger trials with clinical endpoints, since the completed trials enrolled 24 to 53 participants.
 - Mechanism of action data and the TGA Product Information warnings and contraindications.
 - A dosing and monitoring plan for patients taking protease inhibitors or boosters.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for atorvastatin is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

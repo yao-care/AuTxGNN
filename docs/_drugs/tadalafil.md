@@ -59,7 +59,7 @@ The TxGNN model (deep learning) predicts it may be effective for **Ambras type h
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tadalafil is a PDE5 inhibitor, a class that raises cGMP levels and causes vasodilation. Its efficacy in erectile dysfunction and pulmonary hypertension is established, but no mechanistic link to the predicted new indication has been shown.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tadalafil: "Penile erection during sexual stimulation is caused by increased penile blood flow resulting from the relaxation of penile arteries and corpus cavernosal smooth muscle. This response is mediated by the release of nitric oxide (NO) from nerve terminals and endothelial cells, which stimulates the synthesis of cGMP in smooth muscle cells. […] Tadalafil inhibits PDE5." ([DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895), label version 2026-06-03; accessed 2026-11-19.) Based on known information, tadalafil is a PDE5 inhibitor, a class that raises cGMP levels and causes vasodilation. Its efficacy in erectile dysfunction and pulmonary hypertension is established, but no mechanistic link to the predicted new indication has been shown.
 
 Ambras syndrome is a rare genetic disorder of hair growth. No plausible PDE5 inhibition pathway has been established, and tadalafil's vasodilatory and cGMP-related effects have no demonstrated connection to the disease mechanism. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related hair-phenotype diseases, not biological evidence.
 
@@ -119,6 +119,19 @@ The prediction rests only on a TxGNN model (deep learning) score, which may refl
 - Preclinical or clinical evidence in the predicted condition
 - ARTG approved indication text for the registered product
 - A review of whether a better-supported candidate indication (for example, kyphoscoliotic heart disease via pulmonary hypertension) merits evaluation instead
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

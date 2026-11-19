@@ -60,7 +60,7 @@ The prediction is a computational signal only, and the other top-ranked predicti
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pembrolizumab is a monoclonal antibody that targets programmed cell death protein 1 (PD-1, CD279; gene PDCD1). It blocks PD-1 and so restores T-cell activity against tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pembrolizumab: "Binding of the PD-1 ligands, PD-L1 and PD-L2, to the PD-1 receptor found on T cells, inhibits T cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Pembrolizumab is a monoclonal antibody that binds to the PD-1 receptor and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response." ([DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287), label version 2026-10-16; accessed 2026-11-19.) Based on known pharmacology, pembrolizumab is a monoclonal antibody that targets programmed cell death protein 1 (PD-1, CD279; gene PDCD1). It blocks PD-1 and so restores T-cell activity against tumour cells.
 
 Its efficacy in lung cancer and melanoma is well established. However, gingival fibromatosis is a benign, fibroproliferative (often hereditary) condition. No mechanistic link between PD-1 blockade and this condition has been established. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as evidence of benefit.
 
@@ -124,6 +124,19 @@ The prediction rests on a model score alone (L5), with no trials, no literature 
 - A risk-benefit assessment for a benign condition
 
 **Note on other predictions:** The remaining top-ranked predictions are also weak. Most have no supporting evidence. Several are essentially the already-approved lung cancer indication (lung hilum carcinoma, lung benign neoplasm, pulmonary sulcus neoplasm), where the Phase 3 lung cancer evidence does not transfer to benign tumours. Lung germ cell tumour (L3) has only indirect trial data and is better treated as a research question than a repurposing candidate.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ Support is limited: **1 disease-specific Phase 2 open-label pilot trial** and **
 
 ## Why is This Prediction Reasonable?
 
-Abatacept blocks the CD28–CD80/86 co-stimulation pathway, reducing T-cell activation. T-cell-driven inflammation is implicated in spondyloarthritis, so the mechanism is plausible in principle. Detailed mechanism-of-action data were not available in the data compiled for this report, so this reasoning relies on the known class biology of CTLA4-Ig.
+Abatacept blocks the CD28–CD80/86 co-stimulation pathway, reducing T-cell activation. T-cell-driven inflammation is implicated in spondyloarthritis, so the mechanism is plausible in principle. According to the Mechanism of Action section of the US FDA-approved prescribing information for abatacept: "Abatacept, a selective costimulation modulator, inhibits T-cell (T lymphocyte) activation by binding to CD80 and CD86, thereby blocking interaction with CD28. This interaction provides a costimulatory signal necessary for full activation of T lymphocytes." ([DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb), label version 2025-11-13; accessed 2026-11-19.) This reasoning relies on the known class biology of CTLA4-Ig.
 
 There are important caveats. In ankylosing spondylitis, the TNF and IL-17 pathways are the dominant therapeutic targets. One review in the data (Sieper, 2016) states that non-TNF biologics targeting IL-1, IL-6 and T cells (abatacept) are not effective in axial spondyloarthritis. Another describes abatacept as an option "beyond TNF blockade" rather than a proven treatment. The prediction is therefore mechanistically plausible but contested by the available clinical commentary.
 
@@ -105,6 +105,19 @@ The only disease-specific data are two small, uncontrolled pilot studies, and pu
 - Detailed mechanism-of-action data
 - Review of the TGA Product Information for warnings and contraindications
 - A concurrent-biologic safety plan, given the major interactions with TNF inhibitors and JAK inhibitors
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

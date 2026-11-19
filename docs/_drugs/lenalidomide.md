@@ -60,7 +60,7 @@ with **44 registered clinical trials** and **19 publications** currently linked 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for the original indications is not available in the data compiled for this report. Based on the mechanistic rationale compiled for this prediction, lenalidomide binds cereblon (CRBN) and redirects the CRL4-CRBN E3 ubiquitin ligase to degrade the transcription factors IKZF1 and IKZF3, as well as CK1alpha. Degradation of CK1alpha underlies its activity in del(5q) MDS. Lenalidomide also activates T cells and natural killer (NK) cells, which may support activity in AML and MDS.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lenalidomide: "Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex." ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), label version 2023-03-24; accessed 2026-11-19.) Based on the mechanistic rationale compiled for this prediction, lenalidomide binds cereblon (CRBN) and redirects the CRL4-CRBN E3 ubiquitin ligase to degrade the transcription factors IKZF1 and IKZF3, as well as CK1alpha. Degradation of CK1alpha underlies its activity in del(5q) MDS. Lenalidomide also activates T cells and natural killer (NK) cells, which may support activity in AML and MDS.
 
 Myeloid leukaemia is closely related to MDS, which is already a listed indication. MDS frequently progresses to acute myeloid leukaemia (AML). Several trials have enrolled MDS and AML patients together, especially those with chromosome 5 abnormalities.
 
@@ -151,6 +151,19 @@ Please refer to the TGA-approved Product Information (PI) for full safety inform
 - Review of randomised results (for example NCT01358734 and NCT01522976) and a restriction to settings with cytogenetic selection, such as del(5q)
 - A monitoring plan covering myelosuppression, thromboembolism, renal function, secondary malignancy risk and pregnancy prevention
 - Review of the interaction profile with statins and other co-medications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for the original indications is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

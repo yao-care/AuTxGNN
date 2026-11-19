@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **autoimmune oophoritis**.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From the published literature, insulin detemir is a soluble, long-acting human insulin analogue. A 14-carbon fatty acid (myristic acid) is attached to lysine at B29, and threonine at B30 is removed. This allows it to bind reversibly to albumin after subcutaneous injection, giving slow absorption and a prolonged, relatively predictable effect of up to 24 hours. It acts through the insulin receptor to replace deficient endogenous insulin.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin detemir: "The primary activity of insulin, including LEVEMIR, is regulation of glucose metabolism. Insulins and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Levemir (insulin detemir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c), label version 2024-10-09; accessed 2026-11-19.) From the published literature, insulin detemir is a soluble, long-acting human insulin analogue. A 14-carbon fatty acid (myristic acid) is attached to lysine at B29, and threonine at B30 is removed. This allows it to bind reversibly to albumin after subcutaneous injection, giving slow absorption and a prolonged, relatively predictable effect of up to 24 hours. It acts through the insulin receptor to replace deficient endogenous insulin.
 
 Type 1 diabetes is defined by absolute insulin deficiency, so basal insulin replacement is the cornerstone of treatment. The original indication (diabetes mellitus) already includes type 1 diabetes. The high TxGNN score therefore reflects consistency with established clinical practice, not a new therapeutic direction.
 
@@ -124,6 +124,19 @@ Multiple completed Phase 3 RCTs and several systematic reviews support insulin d
 **Other predicted indications:** The remaining nine predictions have no supporting trials or publications and are rated Hold, except pancreatic agenesis.
 - Pancreatic agenesis (L4, research question): insulin replacement is mechanistically plausible but dosing in neonates needs separate evaluation.
 - The others (autoimmune oophoritis, opsismodysplasia, thiamine-responsive dysfunction syndrome, classic stiff person syndrome, focal stiff limb syndrome, drug-induced localized lipodystrophy, centrifugal lipodystrophy, pressure-induced localized lipoatrophy) are likely network artefacts or would treat only comorbid diabetes. For the lipodystrophy and lipoatrophy conditions, repeated insulin injection at the same site could worsen the condition.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Levemir (insulin detemir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

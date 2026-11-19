@@ -59,10 +59,9 @@ The TxGNN model's top-ranked prediction is **medulloblastoma with extensive nodu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Vismodegib is, however, a known Smoothened (SMO) inhibitor. It blocks aberrant Hedgehog signalling, which drives basal cell carcinoma through PTCH1 loss of function.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for vismodegib: "Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction." ([DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a), label version 2024-12-02; accessed 2026-11-19.) Vismodegib is, however, a known Smoothened (SMO) inhibitor. It blocks aberrant Hedgehog signalling, which drives basal cell carcinoma through PTCH1 loss of function.
 
 **Top-ranked prediction (medulloblastoma with extensive nodularity):** This tumour is closely associated with the SHH medulloblastoma subgroup, in which Hedgehog activation (PTCH1/SUFU mutations) drives tumour growth. The mechanism is plausible, particularly for PTCH1-mutant tumours. SUFU-mutant tumours act downstream of SMO and would be expected to be resistant. No trials or literature were found for this entity, so support rests on the model prediction alone. Paediatric use also raises a concern about premature growth plate fusion.
-
 
 **Xeroderma pigmentosum (rank 2):** Two case reports describe vismodegib clearing BCCs in patients with xeroderma pigmentosum, including an 8-year-old child. This is indirect evidence for BCC in the setting of XP, not for treating XP itself.
 
@@ -71,7 +70,6 @@ Detailed mechanism of action data is not available in the data compiled for this
 ---
 
 ## Clinical Trial Evidence
-
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -151,6 +149,19 @@ Product Information warnings and contraindications were not available in the dat
 - For medulloblastoma: evidence of activity in PTCH1-mutant versus SUFU-mutant tumours, plus a paediatric risk assessment (growth plate fusion)
 - Confirmation of the registration-trial evidence behind the L1 grade
 - Embryo-fetal toxicity risk management for any new-setting use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

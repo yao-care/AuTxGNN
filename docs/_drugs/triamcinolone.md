@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa** (follicul
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, triamcinolone is a glucocorticoid. Its efficacy in inflammatory and autoimmune conditions is established, and mechanistically it may be applicable to alopecia mucinosa.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for triamcinolone: "Studies indicate that following a single intramuscular dose of 60 mg to 100 mg of triamcinolone acetonide, adrenal suppression occurs within 24 to 48 hours and then gradually returns to normal, usually in 30 to 40 days. This finding correlates closely with the extended duration of therapeutic action achieved with the drug." ([DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad), label version 2026-01-05; accessed 2026-11-19.) Based on known information, triamcinolone is a glucocorticoid. Its efficacy in inflammatory and autoimmune conditions is established, and mechanistically it may be applicable to alopecia mucinosa.
 
 Follicular mucinosis involves a perifollicular inflammatory infiltrate and mucin deposition. Corticosteroids, including intralesional triamcinolone, have anti-inflammatory effects that could plausibly reduce this infiltrate. This is the only link between the original and predicted indications.
 
@@ -129,11 +129,12 @@ The high model score (0.9999) is supported only by a plausible anti-inflammatory
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad) |
 
 <!-- review:end log -->
 

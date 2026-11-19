@@ -59,7 +59,7 @@ The TxGNN model (deep learning) predicts it may be effective for **bulbar polio*
 
 ## Why is This Prediction Reasonable?
 
-Gilteritinib is a FLT3/AXL tyrosine kinase inhibitor. It is used in AML driven by FLT3 mutations. Detailed mechanism of action data was not available in the data compiled for this report, so this description relies on the drug's known class.
+Gilteritinib is a FLT3/AXL tyrosine kinase inhibitor. It is used in AML driven by FLT3 mutations. According to the Mechanism of Action section of the US FDA-approved prescribing information for gilteritinib: "Gilteritinib is a small molecule that inhibits multiple receptor tyrosine kinases, including FMS-like tyrosine kinase 3 (FLT3). Gilteritinib demonstrated the ability to inhibit FLT3 receptor signaling and proliferation in cells exogenously expressing FLT3 including FLT3-ITD, tyrosine kinase domain mutations (TKD) FLT3-D835Y and FLT3-ITD-D835Y, and it induced apoptosis in leukemic cells expressing FLT3-ITD." ([DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383), label version 2026-10-01; accessed 2026-11-19.) This description relies on the drug's known class.
 
 **No mechanistic link was identified** between this mechanism and bulbar polio. Bulbar polio is a viral infection of motor neurons. Gilteritinib targets signalling pathways that drive leukaemic cell growth, and nothing in the data connects those pathways to poliovirus infection or motor neuron injury.
 
@@ -119,12 +119,24 @@ Please refer to the TGA-approved Product Information (PI) for warnings, contrain
 **Rationale:**
 The prediction rests only on a TxGNN model (deep learning) score, with no mechanistic link, trials or literature. Bulbar polio is a viral neurological disease with no biological connection to FLT3/AXL inhibition.
 
-
 **To proceed, the following is needed:**
 - A plausible mechanistic hypothesis linking FLT3/AXL inhibition to poliovirus infection or motor neuron pathology
 - Preclinical evidence (for example, in vitro antiviral or neuroprotection data)
 - Detailed mechanism of action data and the TGA-approved Product Information, including warnings and contraindications
 - A review of whether a better-supported prediction should be assessed instead
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data was not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

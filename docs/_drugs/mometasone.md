@@ -56,7 +56,7 @@ but there are currently **0 registered clinical trials** and only **2 case repor
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the compiled data. Pharmacology records identify the glucocorticoid receptor (NR3C1) as mometasone's target. Mometasone is a medium-to-high potency topical corticosteroid with anti-inflammatory, immunosuppressive and anti-proliferative effects mediated through this receptor.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mometasone: "Mometasone furoate is a corticosteroid demonstrating potent anti-inflammatory activity. The precise mechanism of corticosteroid action on asthma is not known. Inflammation is an important component in the pathogenesis of asthma." ([DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac), label version 2026-07-07; accessed 2026-11-19.) Pharmacology records identify the glucocorticoid receptor (NR3C1) as mometasone's target. Mometasone is a medium-to-high potency topical corticosteroid with anti-inflammatory, immunosuppressive and anti-proliferative effects mediated through this receptor.
 
 Topical corticosteroids are a recognised skin-directed therapy for early-stage mycosis fungoides (the patch and plaque stages of primary cutaneous T-cell lymphoma). This gives the prediction biological plausibility at the drug-class level. However, the literature supplied does not test mometasone as a treatment for this condition. The two publications are case reports, and in one of them mometasone was an unsuccessful treatment for a different condition (pseudolymphoma). The high TxGNN score is a model prediction only and should not be read as clinical evidence.
 
@@ -95,6 +95,19 @@ The prediction is biologically plausible because topical corticosteroids are use
 - Detailed mechanism of action data (e.g. from DrugBank)
 - Mometasone-specific clinical evidence in primary cutaneous T-cell lymphoma, such as retrospective series or prospective studies of topical corticosteroids in early-stage mycosis fungoides
 - Review of route compatibility, as the only Australian product is a topical ointment and the data do not define the route required for this indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

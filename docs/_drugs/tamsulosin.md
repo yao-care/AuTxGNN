@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Ambras type hypertrichosis un
 
 ## Why is This Prediction Reasonable?
 
-Tamsulosin is an alpha-1A/1D adrenergic receptor antagonist. It relaxes smooth muscle in the prostate and bladder neck, which eases urinary symptoms in BPH. Detailed mechanism of action data was not available in the data compiled for this report, so this description draws on general pharmacological knowledge.
+Tamsulosin is an alpha-1A/1D adrenergic receptor antagonist. It relaxes smooth muscle in the prostate and bladder neck, which eases urinary symptoms in BPH. According to the Mechanism of Action section of the US FDA-approved prescribing information for tamsulosin: "The symptoms associated with benign prostatic hyperplasia (BPH) are related to bladder outlet obstruction, which is comprised of two underlying components: static and dynamic. The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Tamsulosin, an alpha 1 adrenoceptor blocking agent, exhibits selectivity for alpha 1 receptors in the human prostate." ([DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f), label version 2026-11-12; accessed 2026-11-19.) This description draws on general pharmacological knowledge.
 
 Ambras syndrome is a rare genetic disorder of hair development, linked to chromosomal rearrangements that affect regulation of the *TRPS1* gene. The review found no plausible link between alpha-1 blockade and this underlying genetic pathology. BPH (a urological condition) and congenital hypertrichosis (a hair development disorder) share no clear biological pathway.
 
@@ -103,6 +103,19 @@ The prediction is computational only (Evidence Level L5). No clinical trials or 
 - A credible biological rationale linking alpha-1 adrenergic antagonism to the predicted condition (for example, preclinical or in vitro evidence)
 - TGA Product Information (PI) warnings, contraindications and approved indication text, as the current safety data is incomplete
 - Registered trials or published case reports for any predicted indication before reconsidering
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data was not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

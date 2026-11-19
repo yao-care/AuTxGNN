@@ -55,7 +55,7 @@ The TxGNN model predicts it may be associated with **hyperamylasemia**, but **no
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Azithromycin is a macrolide antibiotic, a class that generally acts by inhibiting the bacterial 50S ribosomal subunit.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for azithromycin: "Azithromycin is a macrolide antibacterial drug. […] Azithromycin acts by binding to the 23S rRNA of the 50S ribosomal subunit of susceptible microorganisms inhibiting bacterial protein synthesis and impeding the assembly of the 50S ribosomal subunit." ([DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a), label version 2026-09-09; accessed 2026-11-19.) Azithromycin is a macrolide antibiotic, a class that generally acts by inhibiting the bacterial 50S ribosomal subunit.
 
 Hyperamylasemia is a laboratory finding with many possible causes (pancreatic, salivary and renal), not a disease with a defined drug target. No identifiable mechanistic link between a macrolide antibiotic and this finding was found. The high TxGNN score should be treated as a model-generated signal only, with no supporting trials or literature.
 
@@ -94,6 +94,19 @@ The prediction has no supporting clinical trials or publications and no plausibl
 - Mechanism of action data for azithromycin
 - Studies that directly examine azithromycin in this condition
 - Warnings and contraindications from the TGA-approved PI, with a review of the major interactions (cisapride, dolasetron)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

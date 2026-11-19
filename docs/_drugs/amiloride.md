@@ -60,7 +60,7 @@ The TxGNN model predicts it may be relevant to **malignant hypertensive renal di
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. From what is generally known, amiloride blocks ENaC in the distal nephron. This reduces sodium reabsorption and potassium loss, giving a mild diuretic and blood-pressure-lowering effect. That offers a plausible link to hypertension-related kidney disease through volume and blood pressure control.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for amiloride: "Amiloride HCl is a potassium-conserving (antikaliuretic) drug that possesses weak (compared with thiazide diuretics) natriuretic, diuretic, and antihypertensive activity. These effects have been partially additive to the effects of thiazide diuretics in some clinical studies." ([DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68), label version 2026-11-11; accessed 2026-11-19.) From what is generally known, amiloride blocks ENaC in the distal nephron. This reduces sodium reabsorption and potassium loss, giving a mild diuretic and blood-pressure-lowering effect. That offers a plausible link to hypertension-related kidney disease through volume and blood pressure control.
 
 The caveats are substantial. Malignant hypertension is an acute, organ-threatening emergency. It is not managed with a slow-acting diuretic alone. Amiloride also carries risks of hyperkalaemia and of accumulation in renal impairment, which is a particular concern in kidney disease. The high score is a computational prediction, probably driven by closeness to hypertension-related diseases, and is not independent clinical evidence.
 
@@ -109,6 +109,19 @@ No trials or publications address malignant hypertensive renal disease, so the e
 - Mechanism of action data and the PI warnings and contraindications
 - Any clinical or observational evidence in malignant hypertension or hypertensive nephropathy
 - A clear clinical role for amiloride relative to current standard care, with a renal and potassium safety assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

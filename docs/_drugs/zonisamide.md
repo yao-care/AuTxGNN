@@ -60,7 +60,7 @@ The prediction is model-based only and should be treated as a hypothesis.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, zonisamide acts on voltage-gated sodium and T-type calcium channels and may modulate dopaminergic and serotonergic transmission. These pathways could plausibly relate to the neural circuits involved in tics, but this link is speculative.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zonisamide: "The precise mechanism(s) by which zonisamide exerts its antiseizure effect is unknown. Zonisamide demonstrated anticonvulsant activity in several experimental models. In animals, zonisamide was effective against tonic extension seizures induced by maximal electroshock but ineffective against clonic seizures induced by subcutaneous pentylenetetrazol." ([DailyMed: Zonegran (zonisamide) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12de43e-3ac3-4335-bc85-70d7366a91eb), label version 2026-09-23; accessed 2026-11-19.) Based on general pharmacology, zonisamide acts on voltage-gated sodium and T-type calcium channels and may modulate dopaminergic and serotonergic transmission. These pathways could plausibly relate to the neural circuits involved in tics, but this link is speculative.
 
 Its efficacy in epilepsy is established, and mechanistically it may be applicable to other neurological and neuropsychiatric conditions. However, no direct data link zonisamide to Tourette syndrome.
 
@@ -124,6 +124,18 @@ Other predictions were also reviewed, but none is stronger than L4 evidence:
 | Fibromyalgia | 0.9920 | L5 | One Phase 4 trial ([NCT00259636](https://clinicaltrials.gov/study/NCT00259636)) was withdrawn with 0 enrolled. |
 | Trichotillomania, Prinzmetal angina, conjunctivitis | 99.16–0.9978 | L5 | Prediction only. |
 | Methemoglobinemia (three entries) | 0.9953–0.9964 | L5 | No credible mechanism. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Zonisamide is a sulfonamide, so safety concerns outweigh any benefit signal. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zonegran (zonisamide) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12de43e-3ac3-4335-bc85-70d7366a91eb) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -56,8 +56,7 @@ This prediction largely confirms existing on-label use rather than representing 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From the literature, ipratropium bromide is a non-selective muscarinic antagonist. It blocks acetylcholine-mediated (vagal) bronchoconstriction in airway smooth muscle, which produces bronchodilation.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ipratropium: "Ipratropium bromide is an anticholinergic (parasympatholytic) agent which, based on animal studies, appears to inhibit vagally-mediated reflexes by antagonizing the action of acetylcholine, the transmitter agent released at the neuromuscular junctions in the lung. Anticholinergics prevent the increases in intracellular concentration of Ca++ which is caused by interaction of acetylcholine with the muscarinic receptors on bronchial smooth muscle." ([DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884), label version 2025-11-05; accessed 2026-11-19.) From the literature, ipratropium bromide is a non-selective muscarinic antagonist. It blocks acetylcholine-mediated (vagal) bronchoconstriction in airway smooth muscle, which produces bronchodilation.
 
 The other predicted indications (ranks 2 to 10) are far weaker. Nasal cavity disease is consistent with the approved rhinitis use but has no trials. Pharyngitis, tracheal disease and anaphylaxis have only indirect or preclinical evidence. Acute laryngopharyngitis, papillary conjunctivitis, Rienhoff syndrome and food-dependent exercise-induced anaphylaxis are model predictions only. Respiratory malformation rests on a very small, loosely matched study.
 
@@ -122,6 +121,19 @@ Multiple completed Phase 3 trials (including one with 1118 participants) and rev
 - A check of whether obstructive lung disease is already covered by the existing ARTG indication, which would make a new submission unnecessary
 - A review of the knowledge graph contraindications (glaucoma, urinary retention, cardiac conditions) against the PI, along with a plan for monitoring anticholinergic interactions
 - For rhinitis-related predictions (nasal cavity disease), direct clinical evidence, as no trials were found
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ The only candidate with any related literature is pulmonary arterial hypertensio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, isosorbide mononitrate is an NO donor. It raises cyclic GMP (cGMP) in vascular smooth muscle and causes vasodilation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for isosorbide mononitrate: "Isosorbide mononitrate extended-release tablet are an oral extended-release formulation of ISMN, the major active metabolite of isosorbide dinitrate; most of the clinical activity of the dinitrate is attributable to the mononitrate. The principal pharmacological action of ISMN and all organic nitrates in general is relaxation of vascular smooth muscle, producing dilatation of peripheral arteries and veins, especially the latter." ([DailyMed: isosorbide mononitrate prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=86be0e85-5337-bee4-e053-2a91aa0a8158), label version 2026-11-10; accessed 2026-11-19.) Based on general pharmacology, isosorbide mononitrate is an NO donor. It raises cyclic GMP (cGMP) in vascular smooth muscle and causes vasodilation.
 
 For hypertrichosis, no plausible mechanistic link has been identified. NO-mediated vasodilation has been loosely discussed in hair follicle biology, as with minoxidil, but this is speculative. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by clinical or literature data.
 
@@ -118,6 +118,19 @@ The prediction rests on a TxGNN model (deep learning) score alone (Evidence Leve
 - The PI warnings and contraindications, to complete safety screening
 - For PAH, a focused literature review and, if justified, preclinical or early-phase haemodynamic studies addressing tolerance, hypotension and gas exchange
 - No further work on hypertrichosis or the other hair/malformation predictions unless a credible mechanism emerges
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: isosorbide mononitrate prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=86be0e85-5337-bee4-e053-2a91aa0a8158) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

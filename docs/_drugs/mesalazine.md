@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **congenital hypotrichosis with
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, mesalazine is an aminosalicylate anti-inflammatory agent, its efficacy in ulcerative colitis is established, but a mechanistic link to the predicted indication has not been identified.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mesalazine: "The mechanism of action of mesalamine is not fully understood, but it appears to have a topical anti-inflammatory effect on the colonic epithelial cells. Mucosal production of arachidonic acid metabolites, both through the cyclooxygenase and lipoxygenase pathways, is increased in patients with ulcerative colitis, and it is possible that mesalamine diminishes inflammation by blocking cyclooxygenase and inhibiting prostaglandin production in the colon." ([DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7), label version 2026-10-26; accessed 2026-11-19.) Based on known information, mesalazine is an aminosalicylate anti-inflammatory agent, its efficacy in ulcerative colitis is established, but a mechanistic link to the predicted indication has not been identified.
 
 Congenital hypotrichosis with juvenile macular dystrophy is an ultra-rare hereditary disorder caused by CDH3 mutation. No inflammatory pathway that mesalazine could plausibly modulate has been identified. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -98,6 +98,19 @@ The prediction is supported only by a model score. There are no clinical trials 
 - Mechanism of action data for mesalazine
 - Approved indication text and PI warnings and contraindications for the Australian product
 - Consideration of better-supported candidates from the ranked list, such as rheumatoid arthritis or osteoarthritis, which still lack direct mesalazine evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

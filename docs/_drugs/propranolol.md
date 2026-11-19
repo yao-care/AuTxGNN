@@ -56,7 +56,7 @@ Other lower-ranked predictions, particularly vascular tumours (haemangioma subty
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Propranolol is a well-known non-selective beta-adrenergic blocker. Its efficacy in cardiovascular conditions and infantile haemangioma is established, but no mechanistic rationale connects beta-blockade to this rare distal myopathy.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for propranolol: "The mechanism of the antihypertensive effect of propranolol has not been established. Among factors that contribute to the antihypertensive action are: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain." ([DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade), label version 2026-08-27; accessed 2026-11-19.) Propranolol is a well-known non-selective beta-adrenergic blocker. Its efficacy in cardiovascular conditions and infantile haemangioma is established, but no mechanistic rationale connects beta-blockade to this rare distal myopathy.
 
 The top-ranked prediction rests on the model score alone. No trials or publications were found, and no biological link between beta-blockade and Tateyama-type distal myopathy is evident. Beta-blockers are also listed in the knowledge graph as carrying contraindication signals for several muscle disorders (myopathy, skeletal muscle disease, familial periodic paralysis, myasthenia gravis), which makes this prediction more questionable.
 
@@ -117,6 +117,19 @@ The top-ranked prediction, distal myopathy (Tateyama type), is supported only by
 - A focused literature search specific to Tateyama-type distal myopathy, or a shift of focus to better-supported candidates such as haemangioma subtypes
 - Preclinical or case-based evidence before any clinical study is considered
 - For any cirrhosis-related use, a dedicated safety assessment given the conflicting literature signals
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

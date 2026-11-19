@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **gastric ulcer**, but the support
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, metoclopramide is a dopamine D2 antagonist and 5-HT4 agonist that speeds gastric emptying and upper GI motility, and it raises lower oesophageal sphincter tone.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metoclopramide: "Metoclopramide stimulates motility of the upper gastrointestinal tract without stimulating gastric, biliary, or pancreatic secretions. The exact mechanism of action of metoclopramide in the treatment of gastroesophageal reflux and acute and recurrent diabetic gastroparesis has not been fully established." ([DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397), label version 2026-02-09; accessed 2026-11-19.) From general pharmacology, metoclopramide is a dopamine D2 antagonist and 5-HT4 agonist that speeds gastric emptying and upper GI motility, and it raises lower oesophageal sphincter tone.
 
 This mechanism could plausibly reduce gastric stasis and bile (alkaline) reflux, which can aggravate mucosal injury. However, metoclopramide does not suppress acid, protect the mucosa or act against *H. pylori*, so it cannot treat the core pathology of an ulcer. The high TxGNN score most likely reflects overlap with the approved GORD and oesophagitis indications rather than ulcer-specific activity. At best it would be an adjunct for dyspeptic symptoms or delayed gastric emptying.
 
@@ -115,6 +115,19 @@ Metoclopramide has no acid-suppressive or cytoprotective action, the only regist
 - Evidence from controlled trials showing a clinical benefit in gastric ulcer, such as healing rates or symptom relief as an adjunct to standard therapy
 - Clarification of the knowledge-graph contraindication relating to active peptic ulcer disease
 - Confirmation of the approved indication text for the Australian ARTG entry
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

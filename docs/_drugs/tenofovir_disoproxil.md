@@ -60,7 +60,7 @@ Support is limited to **0 registered clinical trials** and **animal-model and re
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Tenofovir is known to be a nucleotide reverse transcriptase inhibitor. Its efficacy in HIV and hepatitis B is established, and mechanistically it may be applicable to SIV.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tenofovir disoproxil: "Tenofovir disoproxil fumarate is an antiviral drug. […] Tenofovir disoproxil fumarate is an acyclic nucleoside phosphonate diester analog of adenosine monophosphate. Tenofovir disoproxil fumarate requires initial diester hydrolysis for conversion to tenofovir and subsequent phosphorylations by cellular enzymes to form tenofovir diphosphate (TFV-DP), an obligate chain terminator." ([DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418), label version 2025-02-18; accessed 2026-11-19.) Tenofovir is known to be a nucleotide reverse transcriptase inhibitor. Its efficacy in HIV and hepatitis B is established, and mechanistically it may be applicable to SIV.
 
 SIV is the primate lentivirus counterpart of HIV-1 and also relies on reverse transcriptase. A nucleotide reverse transcriptase inhibitor is therefore expected to inhibit SIV replication. The retrieved literature is consistent with this. It consists mainly of macaque studies of pre-exposure prophylaxis (PrEP), prophylaxis in infant macaques, and antiretroviral therapy.
 
@@ -131,6 +131,19 @@ Please refer to the TGA-approved Product Information (PI) for authoritative warn
 - Detailed mechanism of action data (MOA).
 - The approved indication text and safety information (warnings, contraindications) from the TGA Product Information for ARTG 10310P.
 - Review of the model's human-relevant predictions separately. Hepatitis B is already approved, and a Phase 3 RCT (NCT01745822, perinatal HBV transmission) supports that use. Any such review should include monitoring of renal function and bone density.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

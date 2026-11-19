@@ -54,7 +54,7 @@ Thyrotropin alfa is recombinant human thyroid-stimulating hormone (TSH), markete
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Thyrotropin alfa is a recombinant form of human TSH that acts on TSH receptors in thyroid tissue.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for thyrotropin alfa: "Thyrotropin (TSH) is a pituitary hormone that stimulates the thyroid gland to produce thyroid hormone. Binding of thyrotropin alfa to TSH receptors on normal thyroid epithelial cells or on well-differentiated thyroid cancer tissue stimulates iodine uptake and organification, and synthesis and secretion of thyroglobulin (Tg), triiodothyronine (T3) and thyroxine (T4)." ([DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b), label version 2023-02-24; accessed 2026-11-19.) Thyrotropin alfa is a recombinant form of human TSH that acts on TSH receptors in thyroid tissue.
 
 There is no established mechanistic link between TSH receptor stimulation and migraine. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any link to migraine is speculative.
 
@@ -101,6 +101,19 @@ The prediction is supported only by the TxGNN model (Evidence Level L5). There a
 - A biological rationale connecting TSH signalling to migraine, supported by preclinical or observational evidence
 - Confirmation of route and dosing feasibility (the product is an injectable powder for diagnostic or adjunctive use)
 - A cardiovascular safety assessment, given transient thyroid hormone elevation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

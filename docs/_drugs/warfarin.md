@@ -56,7 +56,7 @@ Support is limited to **3 case reports** and **no registered clinical trials**, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, warfarin is a vitamin K antagonist that reduces synthesis of clotting factors II, VII, IX and X. Its efficacy in venous thromboembolism is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for warfarin: "Warfarin acts by inhibiting the synthesis of vitamin K-dependent clotting factors, which include Factors II, VII, IX, and X, and the anticoagulant proteins C and S. Vitamin K is an essential cofactor for the post ribosomal synthesis of the vitamin K-dependent clotting factors. Vitamin K promotes the biosynthesis of γ-carboxyglutamic acid residues in the proteins that are essential for biological activity." ([DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730), label version 2026-10-28; accessed 2026-11-19.) Based on known pharmacology, warfarin is a vitamin K antagonist that reduces synthesis of clotting factors II, VII, IX and X. Its efficacy in venous thromboembolism is well established.
 
 Heparin cofactor II deficiency is an inherited thrombophilia, so patients are prone to venous thrombosis. Long-term oral anticoagulation is a plausible management option, and the case reports describe patients with thrombosis treated with warfarin. This is essentially an extension of the existing thrombotic-disease indication to a specific at-risk population, not a new mechanism of action.
 
@@ -111,6 +111,19 @@ Support for heparin cofactor II deficiency is limited to a few case reports, wit
 - Controlled or cohort data on warfarin in inherited thrombophilias, including heparin cofactor II deficiency
 - Comparison with direct oral anticoagulants (DOACs), which are now first-line for secondary VTE prevention, although evidence in severe thrombophilia is limited (ISTH 2024 communication)
 - A pharmacovigilance and INR monitoring plan, including interaction management
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

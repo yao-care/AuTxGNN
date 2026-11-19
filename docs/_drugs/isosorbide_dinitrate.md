@@ -60,7 +60,7 @@ The licence record compiled for this report has no approved indication text, so 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Isosorbide dinitrate is known as an NO donor and vasodilator. A hypothetical link to alopecia is improved scalp microcirculation, similar in concept to minoxidil, which is a vasodilator and potassium channel opener.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydralazine hydrochloride and isosorbide dinitrate (a combination product containing isosorbide dinitrate): "Isosorbide dinitrate is a vasodilator affecting both arteries and veins." ([DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00), label version 2025-11-30; accessed 2026-11-19.) Isosorbide dinitrate is known as an NO donor and vasodilator. A hypothetical link to alopecia is improved scalp microcirculation, similar in concept to minoxidil, which is a vasodilator and potassium channel opener.
 
 This link is speculative. No trials or literature support it, and a high TxGNN score is not clinical evidence. The model's other hair-related predictions include hypertrichosis (excess hair growth, the opposite of alopecia) and hereditary hair disorders. This suggests the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a drug-specific mechanism.
 
@@ -140,11 +140,12 @@ Other predictions in the same analysis have more supporting data and may be bett
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00) |
 
 <!-- review:end log -->
 

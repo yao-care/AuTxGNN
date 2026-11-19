@@ -60,7 +60,7 @@ This is a model-only signal with no demonstrated mechanistic basis, so it should
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, griseofulvin is an oral antifungal that disrupts fungal microtubules and mitosis, and it is deposited in keratinised tissue. Its efficacy in dermatophyte infections is well established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for griseofulvin: "The mechanism of griseofulvin consists of binding microtubular proteins, which are required for mitosis. […] The mechanism of griseofulvin consists of binding microtubular proteins, which are required for mitosis. Activity In Vivo Griseofulvin may be active against most strains of the following dermatophytes as described in the INDICATIONS AND USAGE section: Epidermophyton floccosum, Microsporum audouinii, Microsporum canis, Microsporum gypseum, Trichophyton crateriformis, Trichophyton gallinae, Trichophyton interdigitalis, Trichophyton megnini, Trichophyton mentagrophytes, Trichophyton rubrum, Trichophyton sulphureum, Trichophyton schoenleini, Trichophyton tonsurans and Trichophyton verrucosum." ([DailyMed: griseofulvin prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98829d90-b289-4bec-a625-7af412a5cb2d), label version 2025-05-14; accessed 2026-11-19.) Based on known information, griseofulvin is an oral antifungal that disrupts fungal microtubules and mitosis, and it is deposited in keratinised tissue. Its efficacy in dermatophyte infections is well established.
 
 For myiasis, however, no plausible mechanistic link can be established. Myiasis is an infestation of tissue by fly larvae (dipterans), not a fungal disease. Griseofulvin has no known antiparasitic or insecticidal activity. Standard management relies on removal of the larvae, not on an antifungal. The high score (0.9941) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -134,6 +134,19 @@ The myiasis prediction is a computational output only (evidence level L5). There
 - Mechanism of action data for griseofulvin from DrugBank
 - The TGA Product Information (warnings, contraindications and approved indication text), as this was not available for the Australian listing
 - If a repurposing direction is still wanted, consider a review of the fungal prediction instead (cutaneous candidiasis). It has a more plausible biological basis but still needs direct comparative evidence, since standard therapies (azoles, nystatin, terbinafine, itraconazole) are already established.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: griseofulvin prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98829d90-b289-4bec-a625-7af412a5cb2d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

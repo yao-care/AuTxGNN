@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known information, fosaprepitant is a prodrug of aprepitant, which blocks NK1 receptors (the receptors for substance P).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fosaprepitant: "Fosaprepitant is a prodrug of aprepitant and accordingly, its antiemetic effects are attributable to aprepitant. Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK-1) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors, the targets of existing therapies for chemotherapy-induced nausea and vomiting (CINV)." ([DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169), label version 2026-07-29; accessed 2026-11-19.) Based on known information, fosaprepitant is a prodrug of aprepitant, which blocks NK1 receptors (the receptors for substance P).
 
 NSIAD is caused by gain-of-function variants of the vasopressin V2 receptor, which lead to water retention and low blood sodium. No established link connects NK1 receptor antagonism to this mechanism. Any connection, for example indirect modulation of water balance through neuropeptide signalling, is speculative.
 
@@ -104,6 +104,19 @@ The prediction rests on model output alone (L5). There are no trials or publicat
 ## Other Predicted Indications (Context)
 
 The other top-ranked predictions are also model-only (L5) with no supporting trials or literature, and all carry a Hold recommendation. They are pneumocystosis, leprosy, cryptococcal meningitis, multiple endocrine neoplasia, intracranial abscess, *Plasmodium falciparum* malaria, echinococcosis and hyperargininemia. The exception is **retinitis** (rank 7, score 0.9968), which has L4 preclinical support from one mouse study (PMID [32058829](https://pubmed.ncbi.nlm.nih.gov/32058829/), 2021, *Ocular Immunology and Inflammation*). That study showed fosaprepitant blocked UVR-B-induced NK1R expression in ocular tissues. It used a UV-induced injury model and not clinical retinitis, so its translational relevance is uncertain. It is classed as a research question and not a development candidate.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

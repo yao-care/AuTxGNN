@@ -60,7 +60,7 @@ Any benefit would most likely be symptomatic relief of tumour-related facial ner
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Carbamazepine is generally understood to block voltage-gated sodium channels, which reduces abnormal, repetitive firing in nerve cells. This is the basis for its use in nerve pain conditions such as trigeminal neuralgia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for carbamazepine: "Tegretol has demonstrated anticonvulsant properties in rats and mice with electrically and chemically induced seizures. It appears to act by reducing polysynaptic responses and blocking the post-tetanic potentiation. […] The principal metabolite of Tegretol, carbamazepine-10,11-epoxide, has anticonvulsant activity as demonstrated in several in vivo animal models of seizures." ([DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053), label version 2026-08-20; accessed 2026-11-19.) Carbamazepine is generally understood to block voltage-gated sodium channels, which reduces abnormal, repetitive firing in nerve cells. This is the basis for its use in nerve pain conditions such as trigeminal neuralgia.
 
 Tumours of the trigeminal nerve or nearby structures (for example schwannoma, meningioma, lymphoma or dermoid cyst) often present with trigeminal neuralgia-type facial pain. In several of the case reports retrieved, patients were first given carbamazepine for that pain, with variable results, and the tumour was found later.
 
@@ -125,6 +125,19 @@ No clinical trial or publication tests carbamazepine as a treatment for trigemin
 - Mechanism of action data
 - Controlled or cohort data on carbamazepine for pain caused by trigeminal nerve tumours
 - A drug-interaction review for the patient population concerned
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

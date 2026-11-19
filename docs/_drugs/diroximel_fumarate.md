@@ -56,7 +56,7 @@ The prediction is therefore model-based only.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Diroximel fumarate is a prodrug of monomethyl fumarate (MMF), which is generally understood to activate the Nrf2 antioxidant pathway and to have anti-inflammatory activity. This is background knowledge rather than a sourced finding in this dataset.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for diroximel fumarate: "The mechanism by which diroximel fumarate exerts its therapeutic effect in multiple sclerosis is unknown. MMF, the active metabolite of diroximel fumarate, has been shown to activate the nuclear factor (erythroid-derived 2)-like 2 (Nrf2) pathway in vitro and in vivo in animals and humans." ([DailyMed: Vumerity (diroximel fumarate) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d74414f-6b83-4ea2-9a95-3cecabbce774), label version 2025-05-29; accessed 2026-11-19.) Diroximel fumarate is a prodrug of monomethyl fumarate (MMF), which is generally understood to activate the Nrf2 antioxidant pathway and to have anti-inflammatory activity. This is background knowledge rather than a sourced finding in this dataset.
 
 The original indication was not captured, so the relationship between it and diabetic cataract cannot be assessed directly. The proposed link is that oxidative stress and polyol-pathway damage contribute to lens opacification in diabetes, so Nrf2 activation is a plausible but unvalidated protective mechanism. Systemic drug exposure reaching the lens is unverified.
 
@@ -101,6 +101,19 @@ The prediction is supported only by the TxGNN score, with no registered trials o
 - Preclinical evidence that Nrf2 activation protects against diabetic lens or retinal injury, including evidence that systemic dosing reaches ocular tissue
 - A literature and trial registry search (including ANZCTR) specific to diabetic cataract and diabetic retinopathy
 - A review of the diabetic retinopathy prediction as a possible alternative lead, since the data suggest a more plausible mechanism there than for several of the cataract subtypes
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vumerity (diroximel fumarate) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d74414f-6b83-4ea2-9a95-3cecabbce774) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

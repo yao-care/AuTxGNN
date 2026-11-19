@@ -58,7 +58,7 @@ This prediction is best read as a symptom-relief (pain) association, not as evid
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Hydromorphone is, however, a well-known mu-opioid receptor agonist used for moderate to severe pain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydromorphone: "Hydromorphone is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of hydromorphone is analgesia." ([DailyMed: Dilaudid (hydromorphone hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9eebd88a-5632-460f-b7b6-26c8a180540d), label version 2026-07-15; accessed 2026-11-19.) Hydromorphone is, however, a well-known mu-opioid receptor agonist used for moderate to severe pain.
 
 The link to pharyngitis is most plausibly symptomatic. An opioid could reduce the pain of a sore throat, and opioids can suppress cough. Hydromorphone has no antimicrobial, antiviral or anti-inflammatory action against the cause of pharyngitis. The very high TxGNN score (0.9981) probably reflects network proximity to the original indications (common cold, nasopharyngitis) through shared pain and symptom links, and should not be taken as evidence of efficacy.
 
@@ -143,11 +143,12 @@ The pharyngitis prediction rests on a high model score but no direct evidence. T
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dilaudid (hydromorphone hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9eebd88a-5632-460f-b7b6-26c8a180540d) |
 
 <!-- review:end log -->
 

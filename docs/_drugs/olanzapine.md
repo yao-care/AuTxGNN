@@ -65,14 +65,13 @@ The top-ranked prediction has no supporting evidence, so the table shows it alon
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on known information, olanzapine is a second-generation antipsychotic whose efficacy in schizophrenia and bipolar disorder is established. Its receptor profile (5-HT2A/2C, D2 and H1 antagonism) may modulate mood and fear circuits.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for olanzapine: "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c), label version 2026-10-26; accessed 2026-11-19.) Based on known information, olanzapine is a second-generation antipsychotic whose efficacy in schizophrenia and bipolar disorder is established. Its receptor profile (5-HT2A/2C, D2 and H1 antagonism) may modulate mood and fear circuits.
 
 **Rank 1 (benign paroxysmal torticollis of infancy):** Only the model score supports this. The condition is a paediatric, probably channelopathy-related migraine equivalent, and no plausible olanzapine mechanism is evident. Antipsychotic use in infants would also raise significant safety concerns.
 
 **Agoraphobia (rank 2):** Agoraphobia is closely tied to panic disorder. A 12-week open-label trial of low-dose olanzapine (5 mg/day) added to an SSRI in 31 patients with SSRI-resistant panic disorder, with or without agoraphobia, supports a possible role, along with case reports. The evidence is indirect, uncontrolled and small.
 
 **Neurotic depression and melancholia (ranks 6 and 7):** Both fall within the major depressive disorder spectrum, which is already an original indication for olanzapine. Several systematic reviews and network meta-analyses support antipsychotic augmentation in treatment-resistant depression, and the olanzapine-fluoxetine combination is established in this setting. No studies specific to either diagnosis were supplied.
-
 
 **Ranks 4, 9 and 10:** These are prediction only, with no mechanistic rationale supported by the data.
 
@@ -132,6 +131,19 @@ Metabolic risk is also documented in the literature, with a meta-analysis showin
 - Controlled trials of olanzapine in agoraphobia or panic disorder, and in dysthymia
 - A metabolic, weight and sedation monitoring plan for depression and anxiety populations, limiting use to treatment-resistant cases
 - Review of interaction risks, particularly with antidiabetic agents, bupropion and morphine
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

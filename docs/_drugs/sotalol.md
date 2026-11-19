@@ -56,7 +56,7 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the compiled data. Based on general pharmacology, sotalol combines beta-adrenergic blockade with class III antiarrhythmic activity (potassium channel blockade). It slows the sinus rate and atrioventricular conduction, and it is used for rhythm control in atrial fibrillation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sotalol: "Sotalol has both beta-adrenoreceptor blocking (Vaughan Williams Class II) and cardiac action potential duration prolongation (Vaughan Williams Class III) antiarrhythmic properties. The two isomers of sotalol have similar Class III antiarrhythmic effects, while the l-isomer is responsible for virtually all of the beta-blocking activity." ([DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee), label version 2024-12-16; accessed 2026-11-19.) Based on general pharmacology, sotalol combines beta-adrenergic blockade with class III antiarrhythmic activity (potassium channel blockade). It slows the sinus rate and atrioventricular conduction, and it is used for rhythm control in atrial fibrillation.
 
 The predicted condition is a heritable sinus node disorder linked to HCN4 channel dysfunction. There is a loose conceptual link, because both involve ion channels governing cardiac rhythm. However, sotalol would be expected to **worsen** sinus node dysfunction (bradycardia, sinus pauses) rather than treat it. The knowledge graph itself lists sick sinus syndrome, including the familial form, as a contraindication for sotalol. The prediction is therefore most likely a false positive, or best read as a safety signal rather than a therapeutic opportunity.
 
@@ -112,6 +112,19 @@ The prediction rests on model score alone (L5), with no trials or literature. So
 
 **Other predicted indications (for context):**
 Among the other nine predictions, none has therapeutic support. **Stroke disorder** (score 0.9944, L4) is the only one with a trial, and the Phase 3 trial NCT00007605 (n=706, completed) studied amiodarone and sotalol for maintaining sinus rhythm in atrial fibrillation. That is the existing indication, not stroke, so this trial gives indirect context only. It remains a research question rather than a candidate. **Manic bipolar affective disorder** has only literature on QT and torsades interaction hazards with antipsychotics, which argues against use. The remaining predictions (Wildervanck syndrome, sarcoglycanopathy, macrocephaly with dysmorphic facies, obsolete susceptibility to ischemic stroke, nephrogenic syndrome of inappropriate antidiuresis, ABri amyloidosis, periodic paralysis with transient compartment-like syndrome) have no plausible mechanistic link and no evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

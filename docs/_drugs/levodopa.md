@@ -56,7 +56,7 @@ but there are currently **no registered clinical trials** and **no publications*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, levodopa is a dopamine precursor used to replace dopamine in Parkinson disease and related parkinsonian syndromes. Its efficacy in those conditions is established, but the mechanistic link to Rasmussen encephalitis cannot be validated from the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levodopa: "Levodopa, the metabolic precursor of dopamine, crosses the blood-brain barrier and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson's disease." ([DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb), label version 2026-07-20; accessed 2026-11-19.) Based on known information, levodopa is a dopamine precursor used to replace dopamine in Parkinson disease and related parkinsonian syndromes. Its efficacy in those conditions is established, but the mechanistic link to Rasmussen encephalitis cannot be validated from the data compiled for this report.
 
 Rasmussen encephalitis is a rare, chronic, unilateral inflammatory brain disorder. It is marked by intractable focal seizures, progressive hemispheric atrophy and neurological decline. Its proposed pathology is T-cell-mediated, with possible autoimmune and viral contributors.
 
@@ -104,6 +104,19 @@ The prediction rests only on a TxGNN model (deep learning) score of 0.9906, with
 - TGA Product Information warnings and contraindications for the Australian products, since this safety screening step is currently blocked
 - Review of route compatibility, as the data for this are still pending
 - Consideration of whether established immunotherapies and seizure management make a levodopa approach clinically relevant
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

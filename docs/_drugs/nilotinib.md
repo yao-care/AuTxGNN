@@ -56,7 +56,7 @@ but currently only **1 review article** supports this direction, with **no regis
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the known pharmacology of nilotinib, it inhibits BCR-ABL and also inhibits platelet-derived growth factor receptors (PDGFR).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nilotinib: "Nilotinib is an inhibitor of the BCR-ABL kinase. Nilotinib binds to and stabilizes the inactive conformation of the kinase domain of ABL protein. In vitro, nilotinib inhibited BCR-ABL mediated proliferation of murine leukemic cell lines and human cell lines derived from patients with Ph+ CML." ([DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc), label version 2026-07-20; accessed 2026-11-19.) Based on the known pharmacology of nilotinib, it inhibits BCR-ABL and also inhibits platelet-derived growth factor receptors (PDGFR).
 
 DFSP is driven by the COL1A1-PDGFB gene fusion, which causes autocrine activation of PDGFRB. Because nilotinib inhibits PDGFR in addition to BCR-ABL, there is a plausible mechanistic link between its action in leukaemia and in DFSP.
 
@@ -65,7 +65,6 @@ However, the only supporting item is a 2018 review of small-molecule PDGFR inhib
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered for dermatofibrosarcoma protuberans.
-
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -119,6 +118,19 @@ The mechanistic rationale (PDGFRB activation in DFSP) is strong, but the evidenc
 - Detailed mechanism of action data
 - TGA Product Information warnings and contraindications, including the approved indication text for ARTG 12858R
 - A cardiac safety plan (QT monitoring and interaction management) for any oncology use outside CML
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

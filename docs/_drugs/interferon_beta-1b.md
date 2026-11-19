@@ -61,7 +61,7 @@ The TxGNN model's top-ranked prediction is **hairy cell leukaemia**, which has n
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. From the published literature, interferon beta-1b is understood to modulate the immune system. It reduces T-cell activation, lowers MHC class II expression on antigen-presenting cells, shifts cytokine balance toward an anti-inflammatory profile, and limits immune-cell trafficking across the blood-brain barrier. The exact mechanism in MS is not fully established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for interferon beta-1b: "The mechanism of action of BETASERON (interferon beta-1b) in patients with multiple sclerosis is unknown." ([DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5), label version 2026-03-03; accessed 2026-11-19.) From the published literature, interferon beta-1b is understood to modulate the immune system. It reduces T-cell activation, lowers MHC class II expression on antigen-presenting cells, shifts cytokine balance toward an anti-inflammatory profile, and limits immune-cell trafficking across the blood-brain barrier. The exact mechanism in MS is not fully established.
 
 The predicted category, "autoimmune disease of the central nervous system", is dominated by multiple sclerosis, the drug's existing indication. The prediction is therefore reasonable, but it largely reflects the original indication rather than a new use. The data compiled for this report contain no evidence for non-MS CNS autoimmune conditions. In neuromyelitis optica spectrum disorder (NMOSD), interferon beta may in fact worsen disease.
 
@@ -142,6 +142,19 @@ The evidence for rank 2 is substantial (a Phase 3 extension trial, several Cochr
 - Obtain detailed mechanism of action data
 - Define whether any non-MS CNS autoimmune condition is being targeted. Evidence for these is absent, and interferon beta may worsen NMOSD.
 - For hairy cell leukaemia, a literature and trial review would be needed before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -54,7 +54,7 @@ Daunorubicin is an anthracycline chemotherapy agent. The TxGNN model predicts it
 
 ## Why is This Prediction Reasonable?
 
-Daunorubicin is an anthracycline that intercalates into DNA and inhibits topoisomerase II. This is a plausible mechanism against lymphoid malignancies. Detailed mechanism of action data was not available in the data compiled for this report, so this description reflects general class knowledge.
+Daunorubicin is an anthracycline that intercalates into DNA and inhibits topoisomerase II. This is a plausible mechanism against lymphoid malignancies. According to the Mechanism of Action section of the US FDA-approved prescribing information for daunorubicin: "Daunorubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action. Daunorubicin forms complexes with DNA by intercalation between base pairs. It inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes." ([DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f), label version 2025-05-21; accessed 2026-11-19.) This description reflects general class knowledge.
 
 Anthracyclines are widely used in lymphoma regimens, which gives a general rationale. However, the established anthracycline in Hodgkin lymphoma is doxorubicin, given within the ABVD regimen. The publications that mention Hodgkin lymphoma do so in the context of doxorubicin-based or other regimens, so the added value of daunorubicin is unclear. The trials and cohort studies found mainly address non-Hodgkin lymphoma, a different disease. Because no cited study directly examines daunorubicin in Hodgkin lymphoma, the prediction is classed as model-based only (L5).
 
@@ -121,6 +121,19 @@ The high TxGNN score (0.9981) is not backed by any study directly testing daunor
 - Mechanism of action data
 - Product Information warnings and contraindications for safety screening
 - Clarification of which Australian daunorubicin products exist beyond the fixed-combination product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data was not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

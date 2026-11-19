@@ -55,15 +55,13 @@ The TxGNN model predicts it may be effective for **restless legs syndrome**, but
 | Number of PBS Items | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
-
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Oxybutynin is known to be an antimuscarinic agent with a direct musculotropic antispasmodic action. It blocks muscarinic receptors (mainly M3) on bladder smooth muscle, reducing involuntary contractions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxybutynin: "Oxybutynin relaxes bladder smooth muscle. Oxybutynin chloride exerts a direct antispasmodic effect on smooth muscle and inhibits the muscarinic action of acetylcholine on smooth muscle. No blocking effects occur at skeletal neuromuscular junctions or autonomic ganglia (antinicotinic effects)." ([DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67), label version 2026-11-11; accessed 2026-11-19.) Oxybutynin is known to be an antimuscarinic agent with a direct musculotropic antispasmodic action. It blocks muscarinic receptors (mainly M3) on bladder smooth muscle, reducing involuntary contractions.
 
 **Restless legs syndrome (rank 1):** The only suggested link is a speculative anticholinergic influence on the balance between dopamine and acetylcholine in the brain. Anticholinergics are also reported to worsen restless legs symptoms in some people, so even the direction of effect is uncertain. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
-
 
 **Other predictions:**
 - **Gastroduodenitis and peptic ulcer disease:** Reduced gastric secretion and motility is a theoretical rationale only. The sole literature is historical (1964–1965) plus a 1990 case report of oxybutynin-induced reflux oesophagitis, which points to a possible harm.
@@ -80,7 +78,6 @@ Currently no related clinical trials are registered for any of the ten predicted
 ## Literature Evidence
 
 **Restless legs syndrome (top prediction):** Currently no related literature available.
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -148,6 +145,19 @@ For label warnings and contraindications, please refer to the TGA-approved Produ
 - TGA Product Information with warnings and contraindications, and the approved indication text for ARTG 13957N
 - For restless legs syndrome: a systematic literature review, including the direction of effect of anticholinergics, before any further consideration
 - Confirmation of route and formulation compatibility.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

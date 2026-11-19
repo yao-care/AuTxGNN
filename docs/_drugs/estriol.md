@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **amenorrhoea** (most plausibly
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that estriol binds both oestrogen receptor-α (ESR1) and oestrogen receptor-β (ESR2). It is a weak oestrogen receptor agonist. It has been marketed in Europe and Asia for more than 40 years for post-menopausal hot flushes.
+ChEMBL (EMBL-EBI) records the mechanism of action of estriol as: Estrogen receptor modulator ([ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482), CC BY-SA 3.0; accessed 2026-11-19.) Pharmacology records show that estriol binds both oestrogen receptor-α (ESR1) and oestrogen receptor-β (ESR2). It is a weak oestrogen receptor agonist. It has been marketed in Europe and Asia for more than 40 years for post-menopausal hot flushes.
 
 In functional hypothalamic amenorrhoea (FHA), stress, low energy availability or both disrupt pulsatile GnRH release. This leads to low LH and FSH, reduced ovarian function and a low-oestrogen state. Low-dose oestrogens may act as neuroendocrine modulators and influence LH secretion. A 2012 study reported that estriol modulated LH secretion in women with FHA. A 2023 review proposed a mechanistic rationale for low-dose oestrogens in FHA.
 
@@ -107,6 +107,19 @@ The prediction score is high, and there is a plausible neuroendocrine rationale 
 - Clarification of which amenorrhoea subtype (for example FHA) is being targeted
 - Assessment of whether vaginal administration is suitable, or whether another route or formulation is needed
 - Controlled clinical studies with clinical outcomes such as menstrual recovery, bone health and endometrial safety
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

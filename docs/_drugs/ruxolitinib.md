@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **uterine corpus PEComa**, but 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Ruxolitinib is known as a JAK1/2 inhibitor, and its efficacy in myeloproliferative neoplasms is established through dysregulated JAK/STAT signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ruxolitinib: "Ruxolitinib, a kinase inhibitor, inhibits Janus Associated Kinases (JAKs), JAK1 and JAK2, which mediate the signaling of a number of cytokines and growth factors that are important for hematopoiesis and immune function. JAK signaling involves recruitment of STATs (signal transducers and activators of transcription) to cytokine receptors, activation, and subsequent localization of STATs to the nucleus leading to modulation of gene expression." ([DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b), label version 2026-07-20; accessed 2026-11-19.) Ruxolitinib is known as a JAK1/2 inhibitor, and its efficacy in myeloproliferative neoplasms is established through dysregulated JAK/STAT signalling.
 
 The mechanistic case for uterine PEComa is weak. PEComa is driven mainly by mTOR pathway activation (loss of TSC1/TSC2), and no link to JAK/STAT inhibition is established in the available data. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Related predictions (benign PEComa, lymphangiomyoma, lymphangioleiomyomatosis, lung PEComa) share the same limitation. Lymphangioleiomyomatosis, for example, is treated mainly by mTOR inhibition.
 
@@ -112,6 +112,19 @@ The prediction rests on the model score alone (L5), with no trials, no publicati
 - Review of the other predicted indications in the same output, which have more supporting data:
   - Hemophagocytic lymphohistiocytosis (HLH), with L3 evidence (mostly non-randomised clinical reports; no registered trials were identified)
   - Myxoid liposarcoma (preclinical JAK-STAT data only)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

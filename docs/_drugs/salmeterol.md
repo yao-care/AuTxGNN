@@ -54,7 +54,7 @@ Salmeterol is a long-acting beta2-adrenergic agonist (LABA) delivered by inhalat
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on general pharmacology, salmeterol is a long-acting beta2-agonist that relaxes airway smooth muscle and can increase ciliary beat frequency.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for salmeterol: "Salmeterol is a selective LABA. In vitro studies show salmeterol to be at least 50 times more selective for beta 2 -adrenoceptors than albuterol. Although beta 2 -adrenoceptors are the predominant adrenergic receptors in bronchial smooth muscle and beta 1 -adrenoceptors are the predominant receptors in the heart, there are also beta 2 -adrenoceptors in the human heart comprising 10% to 50% of the total beta-adrenoceptors." ([DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4), label version 2022-10-10; accessed 2026-11-19.) Based on general pharmacology, salmeterol is a long-acting beta2-agonist that relaxes airway smooth muscle and can increase ciliary beat frequency.
 
 The prediction is probably driven by an association with cystic fibrosis, primary ciliary dyskinesia or impaired ciliary function, rather than with structural disease. Improved ciliary beating is a symptomatic effect and does not treat congenital structural malformations of the airway or lung. No direct evidence supports using salmeterol in congenital respiratory malformation. The high model score should therefore be treated as a hypothesis only.
 
@@ -108,6 +108,18 @@ The TxGNN score is high (0.9991), but no trial or publication studies salmeterol
 - Direct preclinical or clinical evidence in respiratory malformation
 - Mechanism of action data and a clear rationale for how a symptomatic bronchodilator could apply to structural disease
 - Review of the TGA-approved Product Information for safety, contraindications and warnings
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **liposarcoma**, with **2 compl
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sunitinib inhibits VEGFR and PDGFR (and KIT), pathways involved in tumour angiogenesis and growth signalling. Its efficacy in renal cell carcinoma and imatinib-resistant GIST is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sunitinib: "Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer." ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c), label version 2026-02-20; accessed 2026-11-19.) Based on known pharmacology, sunitinib inhibits VEGFR and PDGFR (and KIT), pathways involved in tumour angiogenesis and growth signalling. Its efficacy in renal cell carcinoma and imatinib-resistant GIST is established.
 
 Angiogenesis and PDGFR/VEGFR signalling also play a role in sarcoma biology, which is the mechanistic basis for testing sunitinib in soft tissue sarcomas. Liposarcoma is, however, only one subgroup in the sarcoma studies, and the data compiled suggest activity there appears limited. Sarcoma treatment is increasingly driven by histological subtype, so extrapolation from kidney cancer or GIST should be made cautiously.
 
@@ -119,6 +119,19 @@ Two completed Phase 2 trials and one published Phase 2 study give a direct clini
 ---
 
 *Other predicted indications:* "unclassified renal cell carcinoma" and "renal carcinoma" were assessed as Proceed with Guardrails, but they largely sit within the already-approved renal cell carcinoma space rather than representing true repurposing. Dermatofibrosarcoma protuberans (imatinib-resistant) is a Research Question with a strong PDGFR rationale. The remaining predictions have little or no supporting evidence (Hold).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

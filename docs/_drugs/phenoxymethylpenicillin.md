@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on known information, phenoxymethylpenicillin is a penicillin-class antibiotic with proven activity against streptococci. Mechanistically it may apply to bacterial infections of the upper airway.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for phenoxymethylpenicillin: "Penicillin V exerts a bactericidal action against penicillin-sensitive microorganisms during the stage of active multiplication. It acts through the inhibition of biosynthesis of cell-wall mucopeptide. It is not active against the penicillinase-producing bacteria, which include many strains of staphylococci." ([DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea), label version 2026-11-12; accessed 2026-11-19.) Based on known information, phenoxymethylpenicillin is a penicillin-class antibiotic with proven activity against streptococci. Mechanistically it may apply to bacterial infections of the upper airway.
 
 Epiglottitis is often caused by *Haemophilus influenzae* type b, *Streptococcus pneumoniae*, group A *Streptococcus* and *Staphylococcus aureus*. Penicillin V covers the streptococcal causes, which fits its original use in throat and respiratory infections.
 
@@ -120,6 +120,19 @@ The epiglottitis prediction has no trials or literature behind it and conflicts 
 - The approved indication text for the ARTG entry
 - Clinical or microbiological evidence for penicillin V in epiglottitis, which is unlikely to be justified given current treatment standards
 - Consideration of other predicted indications that are better aligned with the drug's known spectrum, supported by direct evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

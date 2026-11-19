@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **monosomy X (Turner syndrome)*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, mecasermin is an IGF-1 replacement, its use in growth hormone insensitivity (severe primary IGF-1 deficiency) is established, and mechanistically it may be relevant to other conditions of impaired growth.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mecasermin: "Insulin-like growth factor-1 (IGF-1) is a key hormonal mediator on statural growth. Under normal circumstances, growth hormone (GH) binds to its receptor in the liver, and other tissues, and stimulates the synthesis/secretion of IGF-1." ([DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce), label version 2026-05-18; accessed 2026-11-19.) Based on known information, mecasermin is an IGF-1 replacement, its use in growth hormone insensitivity (severe primary IGF-1 deficiency) is established, and mechanistically it may be relevant to other conditions of impaired growth.
 
 Monosomy X (Turner syndrome) is characterised by short stature, and the growth axis is connected to IGF-1 biology. However, Turner syndrome is typically not a state of GH/IGF-1 insensitivity, and it is usually managed with growth hormone. The high score (0.9959) is therefore a computational prediction only, and the mechanistic link is weak.
 
@@ -100,6 +100,19 @@ The prediction rests only on a model score, with no clinical trials or literatur
 - A systematic literature and trial registry search (including ANZCTR) for mecasermin in Turner syndrome
 - Manual review of the STAT5B-related GH insensitivity subtype to check whether it already falls within the approved indication
 - Clinical input on whether IGF-1 therapy has any role alongside standard growth hormone treatment in Turner syndrome
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

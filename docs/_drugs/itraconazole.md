@@ -59,7 +59,7 @@ The prediction is best treated as a model signal rather than an evidence-backed 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Itraconazole is a triazole antifungal; this class inhibits CYP51 (lanosterol 14-alpha-demethylase), blocking ergosterol synthesis in fungal cell membranes. This is general class knowledge rather than data from the compiled record.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for itraconazole: "In vitro studies have demonstrated that itraconazole inhibits the cytochrome P450-dependent synthesis of ergosterol, which is a vital component of fungal cell membranes." ([DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0), label version 2026-07-13; accessed 2026-11-19.) Itraconazole is a triazole antifungal; this class inhibits CYP51 (lanosterol 14-alpha-demethylase), blocking ergosterol synthesis in fungal cell membranes. This is general class knowledge rather than data from the compiled record.
 
 For pneumocystosis, the mechanistic link is weak. *Pneumocystis jirovecii* is fungal, but its membrane contains very little ergosterol (cholesterol is the main sterol), so the azole target is poorly relevant. The retrieved literature consists of general reviews on prophylaxis in transplant, HIV and neutropenic populations and histoplasmosis papers; none shows itraconazole efficacy against Pneumocystis.
 
@@ -150,11 +150,12 @@ Itraconazole is a CYP3A4 inhibitor, so extensive interactions are expected. Acid
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0) |
 
 <!-- review:end log -->
 

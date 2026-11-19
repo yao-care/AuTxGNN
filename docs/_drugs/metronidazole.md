@@ -56,7 +56,7 @@ The prediction is therefore best viewed as a model signal with a weak mechanisti
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Metronidazole is a nitroimidazole that is active against anaerobic bacteria and protozoa. Reduction of its nitro group produces DNA-damaging radicals.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metronidazole: "Metronidazole, a nitroimidazole, exerts antibacterial effects in an anaerobic environment against most obligate anaerobes. Once metronidazole enters the organism by passive diffusion and activated in the cytoplasm of susceptible anaerobic bacteria, it is reduced; this process includes intra-cellular electron transport donors such as ferredoxin and transfer of an electron to the nitro group of the metronidazole leading to formation of a short-lived nitroso free radical." ([DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255), label version 2026-11-02; accessed 2026-11-19.) Metronidazole is a nitroimidazole that is active against anaerobic bacteria and protozoa. Reduction of its nitro group produces DNA-damaging radicals.
 
 *Pneumocystis* is now classified as a fungus, and the nitro-reduction mechanism does not give an established link to it. The retrieved literature is made up of general antiparasitic drug reviews and AIDS opportunistic infection reports. In these, metronidazole was used for coexisting infections such as amoebiasis, not for *Pneumocystis*. The standard treatment mentioned in the literature is trimethoprim-sulfamethoxazole.
 
@@ -108,6 +108,19 @@ The prediction has no clinical trials and no supporting literature, and *Pneumoc
 - Mechanism of action data for the drug
 - Review of the TGA Product Information for approved indications, warnings and contraindications
 - Comparison with the other predicted indications, as ulcerative proctosigmoiditis, cap polyposis, myiasis and vulvar ulceration have more biologically plausible, though still indirect, support (L4)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

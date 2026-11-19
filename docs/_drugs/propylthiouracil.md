@@ -60,7 +60,7 @@ The prediction is best regarded as a network artefact rather than a credible new
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, PTU is a thionamide that inhibits thyroid peroxidase and so reduces thyroid hormone synthesis. Its efficacy in hyperthyroidism is established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for propylthiouracil: "Propylthiouracil inhibits the synthesis of thyroid hormones and thus is effective in the treatment of hyperthyroidism. The drug does not inactivate existing thyroxine and triiodothyronine that are stored in the thyroid or circulating in the blood, nor does it interfere with the effectiveness of thyroid hormones given by mouth or by injection." ([DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa), label version 2026-08-27; accessed 2026-11-19.) Based on known information, PTU is a thionamide that inhibits thyroid peroxidase and so reduces thyroid hormone synthesis. Its efficacy in hyperthyroidism is established.
 
 In resistance to thyroid hormone (RTH), tissues respond poorly to high circulating hormone levels. Lowering hormone output is generally not appropriate and may cause hypothyroid-like symptoms or TSH-driven goitre enlargement. The retrieved literature supports this caution. In one Thai case, the patient's goitre enlarged after 9 months of PTU given for presumed thyrotoxicosis. The high TxGNN score (0.9966) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and it is not a therapeutic rationale.
 
@@ -168,11 +168,12 @@ The top-ranked prediction has no clinical trials and only case reports and mouse
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa) |
 
 <!-- review:end log -->
 

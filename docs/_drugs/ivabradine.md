@@ -61,12 +61,11 @@ Note: the top-ranked prediction (hypertrichosis, score 0.9979) has no trials, no
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. From general pharmacology, ivabradine selectively inhibits the If current in sinoatrial pacemaker cells and lowers resting and exercise heart rate without reducing contractility.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ivabradine: "Corlanor blocks the hyperpolarization-activated cyclic nucleotide-gated (HCN) channel responsible for the cardiac pacemaker I f current, which regulates heart rate. In clinical electrophysiology studies, the cardiac effects were most pronounced in the sinoatrial (SA) node, but prolongation of the AH interval has occurred as has PR interval prolongation." ([DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d), label version 2026-11-09; accessed 2026-11-19.) From general pharmacology, ivabradine selectively inhibits the If current in sinoatrial pacemaker cells and lowers resting and exercise heart rate without reducing contractility.
 
 **Hypertrichosis (rank 1):** No plausible link exists. HCN channel inhibition has no known role in hair follicle growth. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to the other top-ranked predictions: Ambras syndrome, dental and periodontal malformation syndromes, Dandy-Walker syndromes, hair shaft abnormalities and nephrogenic syndrome of inappropriate antidiuresis. None has trials or literature.
 
 Heart rate reduction may improve right ventricular (RV) function, RV-pulmonary arterial coupling and biventricular interaction, and may reduce RV fibrosis. A caution is that in RV failure, cardiac output can depend on heart rate, so bradycardia is a real concern.
-
 
 ---
 
@@ -77,7 +76,6 @@ Currently no related clinical trials registered for the predicted indications.
 ---
 
 ## Literature Evidence
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -126,6 +124,19 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 - The TGA Product Information (approved indications, warnings, contraindications) and detailed mechanism of action data
 - Adequately powered, randomised controlled trials in PAH or COPD-associated PH, with RV function and clinical outcomes as endpoints
 - A safety and monitoring plan covering bradycardia, RV failure and the major interacting medicines (QT-prolonging drugs and CYP3A4 inhibitors)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

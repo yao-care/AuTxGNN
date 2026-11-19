@@ -62,7 +62,7 @@ The original indications are not described in the Australian licence record, whi
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Clarithromycin is a macrolide antibiotic, and its efficacy in bacterial respiratory and ENT infections is established. No direct mechanism linking it to hyperamylasemia (raised blood amylase) has been identified.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for clarithromycin: "Clarithromycin is a macrolide antimicrobial drug. […] Clarithromycin exerts its antibacterial action by binding to the 50S ribosomal subunit of susceptible bacteria resulting in inhibition of protein synthesis." ([DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460), label version 2026-11-12; accessed 2026-11-19.) Clarithromycin is a macrolide antibiotic, and its efficacy in bacterial respiratory and ENT infections is established. No direct mechanism linking it to hyperamylasemia (raised blood amylase) has been identified.
 
 The only literature is a 2004 Japanese case report of a *Mycobacterium abscessus* lung infection in a patient who also had primary macroamylasemia. Clarithromycin was used there as an antimicrobial for the infection, not to treat the raised amylase. The report therefore does not show that the drug affects the amylase abnormality.
 
@@ -130,6 +130,19 @@ The data compiled for this report contain no label-based warnings or contraindic
 - Evidence of any effect on amylase, for example cohort data or a rationale beyond the single case report.
 - The TGA Product Information for Klacid, to confirm approved indications, warnings and contraindications.
 - A QT, hepatic and drug-interaction safety plan if any new use is pursued.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

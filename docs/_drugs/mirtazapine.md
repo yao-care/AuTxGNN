@@ -62,7 +62,7 @@ Many of the other top-ranked predictions have no supporting evidence at all, so 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, mirtazapine is a noradrenergic and specific serotonergic antidepressant (alpha-2 antagonism, 5-HT2/5-HT3 blockade, H1 antagonism). Its efficacy in major depressive disorder is established, and mechanistically it may be applicable to dysthymia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mirtazapine: "The mechanism of action of mirtazapine for the treatment of major depressive disorder, is unclear. However, its efficacy could be mediated through its activity as an antagonist at central presynaptic α 2 -adrenergic inhibitory autoreceptors and heteroreceptors and enhancing central noradrenergic and serotonergic activity." ([DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887), label version 2025-08-06; accessed 2026-11-19.) Based on known information, mirtazapine is a noradrenergic and specific serotonergic antidepressant (alpha-2 antagonism, 5-HT2/5-HT3 blockade, H1 antagonism). Its efficacy in major depressive disorder is established, and mechanistically it may be applicable to dysthymia.
 
 Dysthymic disorder is a chronic, lower-grade form of depression on the same clinical spectrum as major depression. The pharmacology that treats major depression is therefore directly relevant. The literature includes a dedicated mirtazapine-in-dysthymia study, a placebo-controlled meta-analysis of antidepressants in dysthymia, and treatment algorithms for chronic depression.
 
@@ -134,6 +134,19 @@ Dysthymia sits on the same spectrum as mirtazapine's established indication, and
 - Treat as a research question.
 - Melancholia and neurotic depression: effectively on-label. Hold.
 - Ohdo syndrome (both entries), benign paroxysmal torticollis of infancy, ligneous conjunctivitis and childhood apraxia of speech: no evidence or mechanistic link. Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

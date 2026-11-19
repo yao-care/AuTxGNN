@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, larotrectinib is a selective TRK inhibitor used on a tumour-agnostic basis for NTRK fusion-positive solid tumours. Its efficacy is confined to tumours driven by NTRK fusions, and mechanistically it may be applicable to a new indication only where such a driver is present.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for larotrectinib: "Larotrectinib is an inhibitor of the tropomyosin receptor kinases (TRK), TRKA, TRKB, and TRKC. In a broad panel of purified enzyme assays, larotrectinib inhibited TRKA, TRKB, and TRKC with IC 50 values between 5-11 nM. One other kinase TNK2 was inhibited at approximately 100-fold higher concentration." ([DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd), label version 2026-05-22; accessed 2026-11-19.) Based on known information, larotrectinib is a selective TRK inhibitor used on a tumour-agnostic basis for NTRK fusion-positive solid tumours. Its efficacy is confined to tumours driven by NTRK fusions, and mechanistically it may be applicable to a new indication only where such a driver is present.
 
 MEN is driven mainly by RET alterations (MEN2) or MEN1 alterations, not NTRK fusions, so the direct mechanistic link is weak. The only plausible connections are:
 
@@ -134,6 +134,19 @@ The prediction rests on a computational score and indirect evidence: a basket tr
 - The approved indication text and the safety sections of the PI (warnings, contraindications)
 - Detailed mechanism of action data
 - A review of the CYP3A4-related interactions, particularly with clarithromycin, if a clinical pathway is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

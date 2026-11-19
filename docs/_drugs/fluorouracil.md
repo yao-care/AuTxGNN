@@ -60,7 +60,7 @@ Evidence for the broader rhabdomyosarcoma group is limited to 4 older reviews, s
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, fluorouracil is a thymidylate synthase inhibitor and antimetabolite that disrupts DNA and RNA synthesis in rapidly dividing cells. Its efficacy in gastrointestinal adenocarcinomas is well established, and a cytotoxic effect on a proliferative embryonal sarcoma is biologically plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluorouracil: "Fluorouracil is a nucleoside metabolic inhibitor that interferes with the synthesis of deoxyribonucleic acid (DNA) and to a lesser extent inhibits the formation of ribonucleic acid (RNA); these affect rapidly growing cells and may lead to cell death. Fluorouracil is converted to three main active metabolites: 5-fluoro-2′-deoxyuridine-5′-monophosphate (FdUMP), 5-fluorouridine-5′triphosphate (FUTP) and 5-fluoro-2′-deoxyuridine-5′-triphosphate (FdUTP)." ([DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b), label version 2026-10-23; accessed 2026-11-19.) Based on known pharmacology, fluorouracil is a thymidylate synthase inhibitor and antimetabolite that disrupts DNA and RNA synthesis in rapidly dividing cells. Its efficacy in gastrointestinal adenocarcinomas is well established, and a cytotoxic effect on a proliferative embryonal sarcoma is biologically plausible.
 
 However, the prediction is supported mainly by the model's network proximity score. Standard rhabdomyosarcoma regimens (VAC/VAI: vincristine, actinomycin D, cyclophosphamide or ifosfamide) do not include fluorouracil. Related predictions (other rhabdomyosarcoma subtypes, liver sarcoma, and sickle cell-related haemoglobinopathies) share the same limitation: a plausible general cytotoxic mechanism but no direct clinical support. The haemoglobinopathy predictions rest on speculative fetal haemoglobin induction, and fluorouracil's myelosuppression makes that risk-benefit profile unfavourable in non-malignant chronic disease.
 
@@ -142,11 +142,12 @@ The prediction score is high (0.9975), but there are no clinical trials or publi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **oral candidiasis**, but there
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, rifaximin is a non-absorbed oral antibiotic that acts locally in the gut. Its efficacy in hepatic encephalopathy is established, but it has no known antifungal activity, so a mechanistic link to oral candidiasis is not evident.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for rifaximin: "Rifaximin is an antibacterial drug. […] Rifaximin is a semi-synthetic derivative of rifampin and acts by binding to the beta-subunit of bacterial DNA-dependent RNA polymerase blocking one of the steps in transcription. This results in inhibition of bacterial protein synthesis and consequently inhibits the growth of bacteria." ([DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b), label version 2025-08-27; accessed 2026-11-19.) Based on known information, rifaximin is a non-absorbed oral antibiotic that acts locally in the gut. Its efficacy in hepatic encephalopathy is established, but it has no known antifungal activity, so a mechanistic link to oral candidiasis is not evident.
 
 The one publication identified (PMID 34180023) points the other way. In patients undergoing allogeneic stem cell transplantation, rifaximin use was associated with micafungin-resistant Candida infections. A plausible explanation is gut microbiome disruption that allows fungal overgrowth, although confounding by underlying disease cannot be excluded. The high TxGNN score therefore looks more like a TxGNN model (deep learning) artefact than a genuine therapeutic signal.
 
@@ -96,6 +96,19 @@ The prediction is supported only by a model score. The single publication sugges
 - The approved indication text and PI safety information for the Australian product.
 
 **Other predicted indications:** The other top-ranked predictions have no supporting clinical evidence and should be held.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

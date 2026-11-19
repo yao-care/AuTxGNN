@@ -54,7 +54,7 @@ Benzoyl peroxide is a topical agent used on the skin, here marketed in Australia
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available for this drug. Benzoyl peroxide is generally understood to act as a topical keratolytic and comedolytic agent with antibacterial activity against *Cutibacterium acnes*, and these actions could plausibly influence follicular keratinisation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for benzoyl peroxide: "Benzoyl peroxide is an oxidizing agent with bactericidal and keratolytic effects but the precise mechanism of action in the treatment of rosacea is unknown." ([DailyMed: Epsolay (benzoyl peroxide) prescribing information, Mayne Pharma Commercial LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=641981e6-460b-44dd-8146-306c47e5367c), label version 2025-08-11; accessed 2026-11-19.) Benzoyl peroxide is generally understood to act as a topical keratolytic and comedolytic agent with antibacterial activity against *Cutibacterium acnes*, and these actions could plausibly influence follicular keratinisation.
 
 Inverted follicular keratosis is a benign follicular lesion that is closely related to seborrhoeic keratosis. The very high TxGNN score probably reflects this closeness to conditions already associated with the drug, rather than independent evidence. No mechanism specific to this lesion has been established, and the link cannot be assessed further without mechanism data.
 
@@ -93,6 +93,19 @@ The prediction is supported only by a model score (0.9992), with no trials or pu
 - Label warnings and contraindications from the TGA Product Information
 - Assessment of vulvar tolerability for a topical oxidising agent
 - Clarification of the approved indication from the licence records
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Epsolay (benzoyl peroxide) prescribing information, Mayne Pharma Commercial LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=641981e6-460b-44dd-8146-306c47e5367c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

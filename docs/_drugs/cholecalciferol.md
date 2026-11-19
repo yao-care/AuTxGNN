@@ -54,7 +54,7 @@ The TxGNN model (deep learning) predicts that cholecalciferol (vitamin D3) may b
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Cholecalciferol is a vitamin D3 precursor that is converted in the body to active vitamin D, which supports calcium and phosphate handling and bone mineralisation. The TxGNN model (deep learning) score may reflect similarities the model learned between related diseases, not biological evidence.
+ChEMBL (EMBL-EBI) records the mechanism of action of cholecalciferol as: Vitamin D receptor agonist ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; accessed 2026-11-19.) Cholecalciferol is a vitamin D3 precursor that is converted in the body to active vitamin D, which supports calcium and phosphate handling and bone mineralisation. The TxGNN model (deep learning) score may reflect similarities the model learned between related diseases, not biological evidence.
 
 Acromesomelic dysplasia is a rare inherited skeletal disorder. It is generally thought to involve bone growth signalling pathways rather than vitamin D or mineral deficiency. The data compiled for this report establish no plausible direct mechanistic link between cholecalciferol and this condition. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of a therapeutic effect.
 
@@ -106,11 +106,12 @@ For context, other TxGNN predictions for this drug, such as renal osteodystrophy
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
 
 <!-- review:end log -->
 

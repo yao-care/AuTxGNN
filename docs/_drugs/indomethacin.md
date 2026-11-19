@@ -56,7 +56,7 @@ There are **no clinical trials and no publications** supporting this prediction,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Indomethacin is generally understood to be a non-selective COX-1/COX-2 inhibitor. It reduces prostaglandin-mediated inflammation, pain and fever, and this underpins its use in inflammatory joint disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for indomethacin: "Indomethacin has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of INDOCIN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Indocin (indomethacin) prescribing information, Zyla Life Sciences US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73878376-1d24-423b-9f37-3666e83c95da), label version 2024-12-16; accessed 2026-11-19.) Indomethacin is generally understood to be a non-selective COX-1/COX-2 inhibitor. It reduces prostaglandin-mediated inflammation, pain and fever, and this underpins its use in inflammatory joint disease.
 
 Brachydactyly-syndactyly syndromes are developmental skeletal disorders with a genetic basis. COX inhibition has no established role in their pathophysiology, and an anti-inflammatory drug is not expected to correct a structural genetic defect. The high score (rank 350 in the model's overall ranking) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It does not reflect a pharmacological rationale.
 
@@ -106,6 +106,19 @@ Among the other predictions, **juvenile idiopathic arthritis** (rank 8, evidence
 - Mechanism of action data to test whether any biological link exists to this condition
 - Product Information (warnings, contraindications and approved indications) for ARTG 2454E, which is currently a blocking gap for safety screening
 - Any preclinical or clinical evidence linking indomethacin to brachydactyly-syndactyly syndrome; without it, this candidate should not advance
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Indocin (indomethacin) prescribing information, Zyla Life Sciences US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73878376-1d24-423b-9f37-3666e83c95da) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

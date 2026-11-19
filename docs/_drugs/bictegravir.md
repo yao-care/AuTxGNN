@@ -56,7 +56,7 @@ Support is limited to **0 clinical trials** and **3 publications** (in vitro, st
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, bictegravir is an INSTI: it blocks the integrase enzyme that inserts viral DNA into the host genome.
+ChEMBL (EMBL-EBI) records the mechanism of action of bictegravir as: Human immunodeficiency virus type 1 integrase inhibitor ([ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, bictegravir is an INSTI: it blocks the integrase enzyme that inserts viral DNA into the host genome.
 
 SIV and HIV-1 are closely related lentiviruses, and their integrases are structurally similar. The SIV intasome has been used as a structural model for how INSTIs bind. Bictegravir therefore plausibly acts on SIV integrase by the same mechanism. A 2017 in vitro study reported activity against INSTI-resistant SIVmac239 variants.
 
@@ -98,6 +98,19 @@ The only support is preclinical and indirect, and SIV infection is an animal res
 - Detailed mechanism of action data
 - Warnings and contraindications from the TGA Product Information
 - A defined research purpose (for example, use as a translational model for HIV cure studies) before any further evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL3989866 (bictegravir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3989866) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

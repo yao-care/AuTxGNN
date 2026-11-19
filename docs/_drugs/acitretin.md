@@ -60,7 +60,7 @@ Evidence is indirect, so this is best treated as a research question.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, acitretin is a second-generation retinoid. Retinoids modulate keratinocyte differentiation and proliferation, and they can reduce sebaceous gland activity and follicular hyperkeratinisation. These processes are relevant to acne.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for acitretin: "The mechanism of action of acitretin is unknown." ([DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910), label version 2026-10-20; accessed 2026-11-19.) Based on known information, acitretin is a second-generation retinoid. Retinoids modulate keratinocyte differentiation and proliferation, and they can reduce sebaceous gland activity and follicular hyperkeratinisation. These processes are relevant to acne.
 
 The available evidence mainly concerns **hidradenitis suppurativa (acne inversa)** and **nodulocystic acne**, not common acne vulgaris. Oral isotretinoin remains the established retinoid for acne. Acitretin's teratogenicity and the long contraception period required after treatment limit its practical use. The prediction is biologically plausible, but it is not directly supported for acne vulgaris.
 
@@ -147,6 +147,19 @@ The model score is high, but the evidence is indirect. The single trial and most
 - Results of the hidradenitis suppurativa trial (NCT07708480), if acne inversa is to be pursued as a refined indication
 - Direct comparative data for acitretin in acne vulgaris or nodulocystic acne against isotretinoin
 - A pregnancy prevention and monitoring plan consistent with retinoid risk management
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

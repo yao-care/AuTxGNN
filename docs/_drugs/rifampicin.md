@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, rifampicin is a broad-spectrum antibacterial that inhibits bacterial RNA polymerase. It has activity against Gram-positive bacteria, *Staphylococcus* and *Chlamydia*, and its efficacy in tuberculosis is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rifampicin: "Rifampin inhibits DNA-dependent RNA polymerase activity in susceptible Mycobacterium tuberculosis organisms. Specifically, it interacts with bacterial RNA polymerase but does not inhibit the mammalian enzyme." ([DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5), label version 2026-05-05; accessed 2026-11-19.) Based on known information, rifampicin is a broad-spectrum antibacterial that inhibits bacterial RNA polymerase. It has activity against Gram-positive bacteria, *Staphylococcus* and *Chlamydia*, and its efficacy in tuberculosis is established.
 
 Bacterial conjunctivitis is commonly caused by *Staphylococcus*, *Streptococcus*, *Haemophilus* and *Chlamydia trachomatis*. An antibacterial with activity against these organisms could plausibly be applied. The evidence is indirect, however: older studies used **topical (eye ointment)** rifampicin, whereas the only Australian product is an **oral capsule**. A topical ocular formulation and antimicrobial resistance (tuberculosis stewardship) concerns remain unresolved.
 
@@ -121,6 +121,18 @@ Support for conjunctivitis rests on a high model score, in vitro susceptibility 
 | 3 | Acne (disease) | 0.9974 | L4 | Evidence mostly concerns hidradenitis suppurativa (clindamycin + rifampicin), not acne vulgaris | Hold |
 | 5 | HIV infectious disease | 0.9959 | L4 | Phase 2/3 trials are TB/HIV co-infection and interaction studies, not anti-HIV efficacy | Research Question |
 | 7 | Rheumatoid arthritis | 0.9945 | L3 | Small 1980s-90s studies with limited, inconsistent benefit; one Phase 1 PK trial | Research Question |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Siponimod is known to be a selective S1P1/S1P5 receptor modulator. S1P signalling has been implicated in pulmonary vascular remodelling and endothelial barrier function, which is the only basis for a mechanistic link to pulmonary hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for siponimod: "Siponimod is an S1P receptor modulator. Siponimod binds with high affinity to S1P receptors 1 and 5. Siponimod blocks the capacity of lymphocytes to egress from lymph nodes, reducing the number of lymphocytes in peripheral blood." ([DailyMed: Mayzent (siponimod) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44492772-5aed-4627-bd85-e8e89f308bb3), label version 2026-06-30; accessed 2026-11-19.) Siponimod is known to be a selective S1P1/S1P5 receptor modulator. S1P signalling has been implicated in pulmonary vascular remodelling and endothelial barrier function, which is the only basis for a mechanistic link to pulmonary hypertension.
 
 This link is speculative. S1P1 modulation can also affect vascular tone and cause bradycardia and other cardiovascular effects, so the net effect in pulmonary hypertension could be neutral or harmful. The original indication was not captured in the data, so the relationship between the original and predicted indications cannot be assessed here.
 
@@ -112,6 +112,19 @@ The pulmonary hypertension prediction rests only on a model score, with no clini
 - Preclinical or mechanistic evidence for S1P1/S1P5 modulation in pulmonary vascular disease
 - A cardiovascular safety assessment for the target population
 - A targeted literature review of S1P modulators in pulmonary hypertension and rheumatoid arthritis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mayzent (siponimod) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44492772-5aed-4627-bd85-e8e89f308bb3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

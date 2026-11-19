@@ -61,7 +61,7 @@ Venetoclax-azacitidine in AML is already a labelled use elsewhere, so this is be
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for venetoclax are not available in the data compiled for this report. Venetoclax is, however, a selective BCL-2 inhibitor, and this is supported by the linked literature. It restores apoptosis in malignant cells that depend on BCL-2 for survival.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for venetoclax: "Venetoclax is a selective and orally bioavailable small-molecule inhibitor of BCL-2, an anti-apoptotic protein. Overexpression of BCL-2 has been demonstrated in CLL and AML cells where it mediates tumor cell survival and has been associated with resistance to chemotherapeutics." ([DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018), label version 2026-05-20; accessed 2026-11-19.) Venetoclax is, however, a selective BCL-2 inhibitor, and this is supported by the linked literature. It restores apoptosis in malignant cells that depend on BCL-2 for survival.
 
 AML cells and leukaemic stem cells depend on BCL-2 and on mitochondrial apoptotic priming. Venetoclax combined with a hypomethylating agent (azacitidine or decitabine) is an established regimen for older or unfit patients with newly diagnosed AML. This is supported by a large body of Phase 1b to Phase 3 work and by review articles. Acute lymphoblastic leukaemia and AML are both blood cancers with BCL-2 dependence, so the mechanism plausibly carries across.
 
@@ -159,6 +159,19 @@ Warnings and contraindications from the product label were not available. Please
 - Review of PBS listing and reimbursement criteria for AML.
 - Subtype-specific data before considering the t(8;21) AML prediction.
 - For Hodgkin lymphoma, Ewing sarcoma and metastatic neoplasm: no action until specific clinical evidence emerges. Metastatic neoplasm should be split into specific tumour types.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for venetoclax are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

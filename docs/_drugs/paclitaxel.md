@@ -58,7 +58,7 @@ with **40 registered clinical trials** and **20 publications** compiled for this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, paclitaxel stabilises microtubules, causing G2/M arrest and apoptosis in rapidly dividing tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for paclitaxel: "Paclitaxel protein-bound particles for injectable suspension (albumin-bound) is a microtubule inhibitor that promotes the assembly of microtubules from tubulin dimers and stabilizes microtubules by preventing depolymerization. This stability results in the inhibition of the normal dynamic reorganization of the microtubule network that is essential for vital interphase and mitotic cellular functions." ([DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c), label version 2025-09-17; accessed 2026-11-19.) Based on known pharmacology, paclitaxel stabilises microtubules, causing G2/M arrest and apoptosis in rapidly dividing tumour cells.
 
 Ovarian cancer and breast cancer are both epithelial malignancies that respond to taxane-based chemotherapy. Reviews in the supplied literature describe paclitaxel and docetaxel as evidence-based components of therapy for advanced breast, lung and ovarian carcinomas, and paclitaxel is used in adjuvant and metastatic breast cancer regimens. The cytotoxic mechanism does not depend on hormone receptor signalling, which is why it is also relevant across receptor-defined subtypes.
 
@@ -143,6 +143,19 @@ Paclitaxel is mechanistically plausible and already widely used in breast cancer
 - **Hormone-resistant breast carcinoma:** Research Question; Phase 1/2 evidence only
 - **Ehrlich tumour carcinoma, bilateral breast carcinoma, nipple carcinoma:** Hold; preclinical or case-report evidence only
 - **Parameningeal embryonal rhabdomyosarcoma and botryoid-type embryonal rhabdomyosarcoma of the vagina:** Hold; model prediction only, with no trials or literature
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

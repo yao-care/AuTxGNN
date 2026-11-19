@@ -60,7 +60,7 @@ This is a model-only prediction, and the available literature points more toward
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacological knowledge, tapentadol is a mu-opioid receptor agonist and norepinephrine reuptake inhibitor. Its efficacy in pain conditions is established, and the model likely links it to migraine through this analgesic profile.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tapentadol: "Tapentadol is a centrally-acting synthetic analgesic. The exact mechanism of action is unknown. Although the clinical relevance is unclear, preclinical studies have shown that tapentadol is a mu-opioid receptor (MOR) agonist and a norepinephrine reuptake inhibitor (NRI)." ([DailyMed: Nucynta (tapentadol hydrochloride) prescribing information, Collegium Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80938c30-9fe3-4c7d-9d9c-5476638cfb2d), label version 2025-12-30; accessed 2026-11-19.) Based on general pharmacological knowledge, tapentadol is a mu-opioid receptor agonist and norepinephrine reuptake inhibitor. Its efficacy in pain conditions is established, and the model likely links it to migraine through this analgesic profile.
 
 The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Opioids are generally not recommended for migraine because of the risk of medication-overuse headache, poorer outcomes, and limited efficacy. The related prediction for migraine with brainstem aura appears to reflect the same learned similarity.
 
@@ -116,6 +116,19 @@ The prediction rests on model score alone (L5), with no trials and no direct lit
 - Controlled clinical evidence of tapentadol in migraine, compared against current standard therapies
 - Assessment of medication-overuse headache and serotonin syndrome risk, particularly with triptans
 - Consideration of whether any other predicted indication (for example, pain-related comorbidity) is more clinically plausible
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nucynta (tapentadol hydrochloride) prescribing information, Collegium Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80938c30-9fe3-4c7d-9d9c-5476638cfb2d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

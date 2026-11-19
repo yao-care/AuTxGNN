@@ -60,7 +60,7 @@ This report therefore focuses on Tourette syndrome, and the other predicted indi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Clonidine is a well-known alpha-2 adrenergic agonist. By stimulating alpha-2 receptors in the brain, it reduces noradrenergic activity, and this is thought to dampen tics, impulsivity and hyperactivity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clonidine: "Clonidine stimulates alpha-adrenoreceptors in the brain stem. This action results in reduced sympathetic outflow from the central nervous system and in decreases in peripheral resistance, renal vascular resistance, heart rate, and blood pressure." ([DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd), label version 2026-08-12; accessed 2026-11-19.) Clonidine is a well-known alpha-2 adrenergic agonist. By stimulating alpha-2 receptors in the brain, it reduces noradrenergic activity, and this is thought to dampen tics, impulsivity and hyperactivity.
 
 Tourette syndrome is a neurodevelopmental disorder that commonly occurs together with ADHD, one of clonidine's original indications. This overlap is the main reason the prediction is plausible. Clonidine has been used for tics since the late 1970s, and European clinical guidelines and a recent network meta-analysis include it as a treatment option, particularly when tics occur with ADHD.
 
@@ -150,6 +150,19 @@ Please refer to the TGA-approved Product Information (PI) for official warnings 
 - Warnings and contraindications from the TGA Product Information, since this safety data was missing from the data compiled for this report
 - The approved indication text for the Catapres ARTG entry
 - A safety monitoring plan for paediatric use, covering low blood pressure, sedation and cardiovascular risk
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

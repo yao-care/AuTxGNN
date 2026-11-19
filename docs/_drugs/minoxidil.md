@@ -56,7 +56,7 @@ Minoxidil is a vasodilator, recorded in the knowledge graph for hypertensive dis
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, minoxidil is a potassium channel opener. Its active metabolite, minoxidil sulfate, is thought to prolong the anagen (growth) phase of the hair cycle and stimulate follicular proliferation and vascularisation.
+ChEMBL (EMBL-EBI) records the mechanism of action of minoxidil as: Sulfonylurea receptor 2, Kir6.2 opener ([ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacology, minoxidil is a potassium channel opener. Its active metabolite, minoxidil sulfate, is thought to prolong the anagen (growth) phase of the hair cycle and stimulate follicular proliferation and vascularisation.
 
 Hereditary hypotrichosis simplex involves miniaturised or poorly sustained hair follicles. A drug that prolongs growth and supports follicles is therefore a plausible symptomatic treatment. The condition is caused by genetic variants (for example *CDSN*, *APCDD1*, *RPL21*), and minoxidil does not address these causes, so any benefit would likely be symptomatic rather than curative.
 
@@ -120,11 +120,12 @@ The prediction score is very high, but the supporting evidence is three small co
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802) |
 
 <!-- review:end log -->
 

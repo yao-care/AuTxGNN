@@ -56,7 +56,7 @@ There are **no clinical trials and no publications** supporting this prediction,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. From the drug's target record, lanadelumab is an antibody directed against plasma kallikrein (gene KLKB1), so it acts on the kallikrein-bradykinin pathway.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lanadelumab: "Lanadelumab-flyo is a fully human monoclonal antibody (IgG1/κ-light chain) that binds plasma kallikrein and inhibits its proteolytic activity. Plasma kallikrein is a protease that cleaves high-molecular-weight-kininogen (HMWK) to generate cleaved HMWK (cHMWK) and bradykinin, a potent vasodilator that increases vascular permeability resulting in swelling and pain associated with HAE." ([DailyMed: Takhzyro (lanadelumab-flyo) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8), label version 2026-09-18; accessed 2026-11-19.) From the drug's target record, lanadelumab is an antibody directed against plasma kallikrein (gene KLKB1), so it acts on the kallikrein-bradykinin pathway.
 
 The high model score most likely reflects network proximity to serpin biology, since the C1 inhibitor is itself a serpin. However, serpinopathies with toxic polymerization arise from intracellular accumulation of misfolded serpin protein, not from excess kallikrein activity. Inhibiting plasma kallikrein is therefore unlikely to address the underlying pathology. The link is speculative and should be treated as a model-generated hypothesis only.
 
@@ -91,6 +91,18 @@ The prediction has no supporting clinical trials or publications (evidence level
 - Any preclinical or clinical evidence that plasma kallikrein inhibition affects this condition
 - Detailed mechanism of action data
 - Review of the TGA-approved Product Information for warnings and contraindications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Takhzyro (lanadelumab-flyo) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

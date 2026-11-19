@@ -58,7 +58,7 @@ with **no registered clinical trials** but **18 publications** (including post h
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ranibizumab is a VEGF-A inhibitor. VEGF drives retinal vascular permeability and neovascularisation in diabetic retinopathy. By neutralising VEGF-A, ranibizumab reduces vascular leakage and can regress retinopathy severity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ranibizumab: "Ranibizumab products bind to the receptor binding site of active forms of VEGF-A, including the biologically active, cleaved form of this molecule, VEGF110. VEGF-A has been shown to cause neovascularization and leakage in models of ocular angiogenesis and vascular occlusion and is thought to contribute to pathophysiology of neovascular AMD, mCNV, DR, DME and macular edema following RVO." ([DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a), label version 2026-11-05; accessed 2026-11-19.) Based on known information, ranibizumab is a VEGF-A inhibitor. VEGF drives retinal vascular permeability and neovascularisation in diabetic retinopathy. By neutralising VEGF-A, ranibizumab reduces vascular leakage and can regress retinopathy severity.
 
 Diabetic retinopathy and diabetic macular oedema are already original indications for ranibizumab.
 
@@ -111,6 +111,19 @@ Severe nonproliferative diabetic retinopathy lies within the established retinal
 - Mechanism of action data (for example from DrugBank)
 - Confirmation of the route and dosing regimen for this stage of disease (the intravitreal syringe is the only registered form; the port delivery system is not in the ARTG data supplied)
 - Assessment of whether other predicted indications warrant follow-up. The cataract-related predictions and hemorrhagic disease of newborn have no supporting mechanism or evidence and should remain on Hold. The withdrawn trial in hereditary haemorrhagic telangiectasia (NCT01406639) could be considered separately as its own indication.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

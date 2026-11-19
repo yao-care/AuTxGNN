@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **homozygous familial hyperchol
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pravastatin inhibits HMG-CoA reductase, reducing hepatic cholesterol synthesis and upregulating hepatic LDL receptors, which lowers LDL cholesterol.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pravastatin: "Pravastatin is a reversible inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d), label version 2026-10-23; accessed 2026-11-19.) Based on known pharmacology, pravastatin inhibits HMG-CoA reductase, reducing hepatic cholesterol synthesis and upregulating hepatic LDL receptors, which lowers LDL cholesterol.
 
 Homozygous familial hypercholesterolaemia is a severe lipid disorder, so the link to pravastatin's original lipid-lowering indications is understandable. However, the mechanism also explains the main limitation: in this condition LDL receptor function is absent or severely reduced, so statin efficacy depends on residual receptor activity and is limited. One review in the data notes that statins are not very effective in homozygous disease.
 
@@ -107,6 +107,19 @@ The only registered trial tests alirocumab, not pravastatin, and the literature 
 - A decision on whether this use is better framed as an extension of the existing hyperlipidaemia indication than as new repurposing
 
 *Note on other predictions:* the related predictions of heterozygous familial hypercholesterolaemia (evidence level L3, supported by paediatric pravastatin studies and Cochrane reviews) and HIV-associated dyslipidaemia (L3, small randomised studies plus interaction studies) have stronger evidence than the lead prediction. Both are closer to existing lipid-lowering use and may warrant separate evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

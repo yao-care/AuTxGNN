@@ -58,7 +58,7 @@ Lanreotide is a long-acting somatostatin analogue, originally used to treat **ac
 
 ## Why is This Prediction Reasonable?
 
-Lanreotide is a somatostatin analogue that acts mainly through somatostatin receptors SSTR2 and SSTR5. This suppresses growth hormone (GH), IGF-1 and other hormones, which is the basis of its use in acromegaly. Detailed mechanism of action data were not available in the data compiled for this report, so this description reflects general knowledge of the drug class.
+Lanreotide is a somatostatin analogue that acts mainly through somatostatin receptors SSTR2 and SSTR5. This suppresses growth hormone (GH), IGF-1 and other hormones, which is the basis of its use in acromegaly. According to the Mechanism of Action section of the US FDA-approved prescribing information for lanreotide: "Lanreotide, the active component of SOMATULINE DEPOT is an octapeptide analog of natural somatostatin. The mechanism of action of lanreotide is believed to be similar to that of natural somatostatin." ([DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d), label version 2024-10-11; accessed 2026-11-19.) This description reflects general knowledge of the drug class.
 
 For hypertrichosis, **no plausible mechanistic link has been identified**. Nothing suggests that somatostatin receptor agonism influences hair growth disorders, and hypertrichosis is not a recognised treatment target for lanreotide. The other top-five predictions show the same pattern: hair shaft abnormalities, Ambras-type hypertrichosis universalis congenita, a dental/periodontal malformation syndrome and a Dandy-Walker malformation syndrome. None has any trial or publication support.
 
@@ -128,6 +128,19 @@ Please refer to the TGA-approved Product Information (PI) for the official warni
 - Obtain detailed mechanism of action data and the TGA Product Information warnings and contraindications.
 - Define guardrails for a polycystic liver disease use: restrict to symptomatic or severe disease, monitor for gallstones, gastrointestinal adverse effects and glucose disturbance, and weigh cost and the need for long-term therapy.
 - Check the approved indication text for the ARTG entry, which was not available in the data compiled for this report.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

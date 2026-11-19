@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **disorder of tyrosine metaboli
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, sapropterin is a synthetic analogue of tetrahydrobiopterin (BH4), the natural cofactor of phenylalanine hydroxylase. This enzyme converts phenylalanine to tyrosine. Its efficacy in BH4-responsive PKU is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sapropterin: "Sapropterin dihydrochloride is a synthetic form of BH4, the cofactor for the enzyme phenylalanine hydroxylase (PAH). PAH hydroxylates Phe through an oxidative reaction to form tyrosine. In patients with PKU, PAH activity is absent or deficient." ([DailyMed: Zelvysia (sapropterin dihydrochloride) prescribing information, Aucta Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8de84882-dd24-46f2-8416-5e492d4275d1), label version 2025-04-30; accessed 2026-11-19.) Based on known information, sapropterin is a synthetic analogue of tetrahydrobiopterin (BH4), the natural cofactor of phenylalanine hydroxylase. This enzyme converts phenylalanine to tyrosine. Its efficacy in BH4-responsive PKU is established.
 
 The link to "disorder of tyrosine metabolism" is indirect. The retrieved literature is about PKU, not primary tyrosine disorders such as tyrosinemia. The ontology appears to group PKU under tyrosine and aromatic amino acid metabolism, so the high score probably reflects the existing indication rather than a genuinely new one. This prediction should be treated with caution.
 
@@ -116,6 +116,19 @@ The predicted new indication has no registered trials and no specific literature
 - TGA Product Information (warnings, contraindications and approved indication text) for the Kuvan ARTG entry
 - Reclassification of BH4-responsive PKU and BH4-deficiency hyperphenylalaninemia as on-label indications
 - Preclinical or clinical evidence specific to the predicted indication, if it is pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zelvysia (sapropterin dihydrochloride) prescribing information, Aucta Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8de84882-dd24-46f2-8416-5e492d4275d1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

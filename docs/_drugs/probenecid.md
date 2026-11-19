@@ -60,7 +60,7 @@ The mechanistic review suggests the prediction is a pharmacological association 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, probenecid inhibits URAT1 (SLC22A12) and other renal organic anion transporters. This increases urinary uric acid excretion and lowers serum urate, which is the basis of its use in gout.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for probenecid: "Probenecid is a uricosuric and renal tubular blocking agent." ([DailyMed: probenecid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65b4888c-d49a-433f-9bfd-17880ae40069), label version 2026-11-06; accessed 2026-11-19.) Based on known pharmacology, probenecid inhibits URAT1 (SLC22A12) and other renal organic anion transporters. This increases urinary uric acid excretion and lowers serum urate, which is the basis of its use in gout.
 
 The predicted condition runs in the opposite direction. Hereditary renal hypouricaemia is caused mainly by loss-of-function mutations in URAT1 (or GLUT9), which already cause excessive urate excretion and low serum urate. Probenecid would be expected to further lower serum urate and worsen the underlying defect, not correct it.
 
@@ -133,6 +133,19 @@ The prediction rests on model score alone. There are no clinical trials, and the
 - Detailed mechanism of action data (MOA)
 - Evidence of therapeutic benefit, or a clear rationale for a diagnostic-only role, which would need a different regulatory pathway
 - A safety assessment covering the risk of worsened urate loss, urolithiasis and acute kidney injury
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: probenecid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65b4888c-d49a-433f-9bfd-17880ae40069) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

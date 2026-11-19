@@ -56,7 +56,7 @@ No clinical trials are registered in the data compiled for this report, but **20
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, nizatidine is an H2-receptor antagonist. It blocks histamine-driven gastric acid secretion and reduces basal, nocturnal and stimulated acid output. Acid suppression is the core mechanism behind ulcer healing.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nizatidine: "Nizatidine is a competitive, reversible inhibitor of histamine at the histamine H 2 -receptors, particularly those in the gastric parietal cells. Antisecretory Activity Effects on Acid Secretion Nizatidine significantly inhibited nocturnal gastric acid secretion for up to 12 hours." ([DailyMed: nizatidine prescribing information, Epic Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9957997-8b85-48a0-9bb3-b878cb223236), label version 2025-01-02; accessed 2026-11-19.) Based on known pharmacology, nizatidine is an H2-receptor antagonist. It blocks histamine-driven gastric acid secretion and reduces basal, nocturnal and stimulated acid output. Acid suppression is the core mechanism behind ulcer healing.
 
 The predicted indication overlaps almost completely with nizatidine's established uses (gastric ulcer, duodenal ulcer, peptic ulcer disease). The prediction therefore reflects consistency with existing knowledge rather than a new therapeutic direction. The literature includes randomised, placebo-controlled, multicentre trials in active duodenal ulcer and benign gastric ulcer, as well as maintenance-therapy studies.
 
@@ -121,6 +121,19 @@ The evidence is literature-based only; no registered trials were supplied, and m
 - Confirmation of the ARTG-approved indications against the predicted indication
 - Comparison with current guidelines, as PPIs are generally preferred for many acid-related conditions
 - A review of the interaction list, particularly for drugs that need gastric acid for absorption
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nizatidine prescribing information, Epic Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9957997-8b85-48a0-9bb3-b878cb223236) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

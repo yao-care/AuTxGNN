@@ -55,8 +55,7 @@ The TxGNN model (deep learning) predicts it may be effective for **hypermobility
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Etanercept is, however, a well-known soluble TNF receptor fusion protein that binds TNF and blocks its inflammatory signalling, and it is established in rheumatoid arthritis.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for etanercept: "TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. It plays an important role in the inflammatory processes of RA, polyarticular JIA, PsA, and AS and the resulting joint pathology. […] Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind TNF molecules." ([DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f), label version 2026-05-11; accessed 2026-11-19.) Etanercept is, however, a well-known soluble TNF receptor fusion protein that binds TNF and blocks its inflammatory signalling, and it is established in rheumatoid arthritis.
 
 The prediction is also contradicted in part. Several case reports describe etanercept-associated cutaneous vasculitis, nephropathy and accelerated nodulosis, so the drug may trigger rather than treat vasculitis in some patients.
 
@@ -68,7 +67,6 @@ The prediction is also contradicted in part. Several case reports describe etane
 | Kummell disease | 0.9955 | L5 | Hold |
 | Vertebral disease | 0.9916 | L5 | Hold |
 
-
 ## Clinical Trial Evidence
 
 For the top prediction (hypermobility of coccyx):
@@ -76,7 +74,6 @@ For the top prediction (hypermobility of coccyx):
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients having shoulder arthroplasty. It does not test etanercept in rheumatoid vasculitis. |
-
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -165,6 +162,19 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 - TGA Product Information (warnings, contraindications and approved indications for Brenzys).
 - Controlled studies (or a prospective registry) of etanercept in rheumatoid vasculitis that address the vasculitis signal.
 - For guardrail candidates: standard TNF-inhibitor monitoring (infection and TB screening, uveitis risk), and paediatric dosing and growth monitoring for JIA.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

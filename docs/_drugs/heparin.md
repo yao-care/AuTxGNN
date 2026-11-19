@@ -60,7 +60,7 @@ However, the data compiled for this report contain **no clinical trials and no p
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Heparin is a well-established anticoagulant that works by potentiating antithrombin, which inactivates thrombin and factor Xa. This mechanism is the basis of its use in venous thromboembolism and DIC.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for heparin: "Heparin interacts with the naturally occurring plasma protein, antithrombin III, to induce a conformational change, which markedly enhances the serine protease activity of antithrombin III, thereby inhibiting the activated coagulation factors involved in the closing sequence, particularly Xa and IIa. Small amounts of heparin inhibit Factor Xa, and larger amounts inhibit thrombin (Factor IIa)." ([DailyMed: Heparin Sodium And Dextrose (heparin sodium) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eede8a0c-5ae6-4166-84b3-12081405f08e), label version 2026-05-25; accessed 2026-11-19.) Heparin is a well-established anticoagulant that works by potentiating antithrombin, which inactivates thrombin and factor Xa. This mechanism is the basis of its use in venous thromboembolism and DIC.
 
 Severe (autosomal recessive) protein C deficiency removes a key natural anticoagulant pathway and can cause purpura fulminans and DIC-like thrombosis. These are conditions for which heparin is already an original indication. Anticoagulation is therefore mechanistically plausible in this setting.
 
@@ -121,6 +121,19 @@ The top-ranked prediction (protein C deficiency thrombophilia) has a plausible m
 - Mechanism of action data (for example from DrugBank) to support mechanistic analysis
 - A targeted literature search on heparin in severe protein C deficiency, purpura fulminans and neonatal presentations
 - Specialist haematology input on bleeding risk and on whether protein C replacement is the established standard of care
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Heparin Sodium And Dextrose (heparin sodium) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eede8a0c-5ae6-4166-84b3-12081405f08e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

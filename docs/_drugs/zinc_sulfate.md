@@ -54,7 +54,7 @@ Zinc sulfate is a zinc salt used as a mineral supplement, and the approved indic
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Zinc is known to have local antiviral and mucosal-protective effects, and zinc lozenges release zinc ions directly in the oropharynx. Zinc may also support mucosal repair and taste or sensory recovery.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zinc sulfate: "Zinc is an essential trace element. Zinc functions as a cofactor of various enzymes including DNA polymerases, RNA polymerases, alcohol dehydrogenase, and alkaline phosphatases. Zinc is a coordinator of protein structural folding, such as folding of “Zinc finger” motif that interacts with a variety of proteins, lipids, and nucleic acids." ([DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757), label version 2026-03-04; accessed 2026-11-19.) Zinc is known to have local antiviral and mucosal-protective effects, and zinc lozenges release zinc ions directly in the oropharynx. Zinc may also support mucosal repair and taste or sensory recovery.
 
 These mechanisms make a role in throat conditions plausible, but the link is indirect. The available studies address postoperative sore throat after intubation and radiation-induced mucosal injury, not infectious pharyngitis. The one randomised trial that studied pharyngitis directly (in radiotherapy patients) did not show a benefit, so the high model score is not supported by clinical findings.
 
@@ -104,6 +104,18 @@ The only randomised trial in pharyngitis itself found no benefit, and the other 
 - Mechanism of action data
 - Product Information warnings and contraindications for the Australian product, to allow safety screening
 - Product, dosage form and indication details for the Australian licence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

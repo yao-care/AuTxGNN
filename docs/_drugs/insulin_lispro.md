@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, insulin lispro is a rapid-acting human insulin analogue. Its efficacy in diabetes is well established, but it has no known immunomodulatory action relevant to ovarian autoimmunity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin lispro: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin lispro products. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0), label version 2026-09-03; accessed 2026-11-19.) Based on known information, insulin lispro is a rapid-acting human insulin analogue. Its efficacy in diabetes is well established, but it has no known immunomodulatory action relevant to ovarian autoimmunity.
 
 The most plausible explanation for the prediction is a shared autoimmune context. Autoimmune oophoritis often occurs within polyglandular autoimmune syndromes that include type 1 diabetes. This is an association between diseases, not a therapeutic mechanism, so the link is unsupported by any evidence compiled for this report.
 
@@ -110,6 +110,19 @@ The prediction rests only on a model score (L5), with no trials or publications.
 - Product Information (PI) warnings and contraindications for the Australian product
 - Confirmation of the approved indication text for the ARTG entry
 - Assessment of whether any benefit would simply be management of coexisting diabetes rather than a true new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

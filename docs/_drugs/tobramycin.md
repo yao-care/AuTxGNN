@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available for this report. Based on known information, tobramycin is a broad-spectrum aminoglycoside antibiotic with established activity against gram-negative bacteria such as *Pseudomonas aeruginosa* and against *Staphylococcus aureus*. Its efficacy in bacterial eye infections has been shown, and mechanistically it may be applicable to exposure keratitis.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tobramycin: "Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death." ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a), label version 2026-04-15; accessed 2026-11-19.) Based on known information, tobramycin is a broad-spectrum aminoglycoside antibiotic with established activity against gram-negative bacteria such as *Pseudomonas aeruginosa* and against *Staphylococcus aureus*. Its efficacy in bacterial eye infections has been shown, and mechanistically it may be applicable to exposure keratitis.
 
 Exposure keratitis occurs when the cornea is not adequately covered by the eyelids, so the surface dries and is damaged. This damaged surface is vulnerable to secondary bacterial infection. A topical antibiotic could therefore plausibly help prevent or treat that infection.
 
@@ -128,11 +128,12 @@ The prediction score is very high, but it is based on the model alone. There are
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
 
 <!-- review:end log -->
 

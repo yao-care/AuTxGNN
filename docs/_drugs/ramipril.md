@@ -57,7 +57,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension owing 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ramipril is a known ACE inhibitor. It reduces angiotensin II formation, which lowers vascular tone and limits vascular remodelling. Its efficacy in hypertension and cerebrovascular risk reduction is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ramipril: "Ramipril and ramiprilat inhibit ACE in human subjects and animals. Angiotensin converting enzyme is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59), label version 2026-11-11; accessed 2026-11-19.) Ramipril is a known ACE inhibitor. It reduces angiotensin II formation, which lowers vascular tone and limits vascular remodelling. Its efficacy in hypertension and cerebrovascular risk reduction is established.
 
 Chronic hypoxia drives pulmonary vascular constriction and remodelling, and the renin-angiotensin system may contribute to this. Mechanistically, ACE inhibition could therefore plausibly attenuate hypoxia-induced pulmonary vascular changes. The one directly relevant paper (PMID 9200213, 1996) found that ramipril given to rats during three weeks of hypoxia lowered baseline pulmonary perfusion pressure and attenuated the effects of chronic hypoxia on pulmonary blood vessels.
 
@@ -129,6 +129,18 @@ The prediction score is high, but the evidence is a single 1996 rat study, with 
 | 8 | Intracerebral haemorrhage | 0.9982 | L5 | Preclinical and indirect evidence only |
 | 9 | ABri amyloidosis | 0.9979 | L5 | No mechanistic link evident |
 | 10 | Cerebral artery occlusion | 0.9974 | L5 | Mixed animal data and one small human cerebral blood flow study (PMID 8797135); overlaps with the approved stroke-related use; flagged as a research question |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

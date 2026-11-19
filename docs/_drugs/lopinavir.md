@@ -56,7 +56,7 @@ Support is limited to **3 preclinical publications** in macaques and **no regist
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Lopinavir is known to be an HIV-1 protease inhibitor. It is marketed as a fixed-dose combination with ritonavir (Kaletra, 200 mg/50 mg tablet), and its efficacy in HIV infection is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of lopinavir as: Human immunodeficiency virus type 1 protease inhibitor ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; accessed 2026-11-19.) Lopinavir is known to be an HIV-1 protease inhibitor. It is marketed as a fixed-dose combination with ritonavir (Kaletra, 200 mg/50 mg tablet), and its efficacy in HIV infection is established.
 
 SIV is a closely related primate lentivirus with a structurally similar protease, so activity against it is mechanistically plausible. The supporting literature consists of macaque studies in which lopinavir was one component of antiretroviral combinations. This is indirect, preclinical-model evidence.
 
@@ -110,6 +110,19 @@ The prediction is supported only by indirect preclinical macaque studies, and SI
 - Mechanism of action data (MOA) from DrugBank
 - The TGA Product Information (PI), including warnings, contraindications and approved indication text
 - For the neurodevelopmental disorder prediction, a gene or pathway-level mechanistic link before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -54,7 +54,7 @@ Azathioprine is an oral immunosuppressant (a purine antimetabolite) that is mark
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for azathioprine are not available in the data compiled for this report. Azathioprine is generally understood as a purine antimetabolite that suppresses lymphocyte proliferation and so dampens immune-mediated disease.
+ChEMBL (EMBL-EBI) records the mechanism of action of azathioprine as: Amidophosphoribosyltransferase inhibitor; DNA inhibitor ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0; accessed 2026-11-19.) Azathioprine is generally understood as a purine antimetabolite that suppresses lymphocyte proliferation and so dampens immune-mediated disease.
 
 The predicted condition is a congenital developmental syndrome affecting the eye and skeleton. No immune-mediated or inflammatory driver is recognised that azathioprine's action would plausibly target, so no mechanistic link can be established. The high TxGNN score reflects a network-based computational prediction only. It is not evidence of clinical benefit.
 
@@ -101,11 +101,12 @@ The prediction rests on a model score alone. There are no supporting trials or p
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for azathioprine are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
 
 <!-- review:end log -->
 

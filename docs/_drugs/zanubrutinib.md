@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **myeloid leukaemia**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Zanubrutinib is a selective, covalent BTK inhibitor. BTK is a core part of B-cell receptor signalling, and this is why the drug works in B-cell cancers such as mantle cell lymphoma, chronic lymphocytic leukaemia (CLL) and Waldenström macroglobulinaemia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zanubrutinib: "Zanubrutinib is a small-molecule inhibitor of Bruton's tyrosine kinase (BTK). Zanubrutinib forms a covalent bond with a cysteine residue in the BTK active site, leading to inhibition of BTK activity. BTK is a signaling molecule of the B-cell antigen receptor (BCR) and cytokine receptor pathways." ([DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902), label version 2026-09-04; accessed 2026-11-19.) Zanubrutinib is a selective, covalent BTK inhibitor. BTK is a core part of B-cell receptor signalling, and this is why the drug works in B-cell cancers such as mantle cell lymphoma, chronic lymphocytic leukaemia (CLL) and Waldenström macroglobulinaemia.
 
 BTK is also expressed in myeloid-lineage cells, where it contributes to B-cell receptor, Toll-like receptor and chemokine signalling. This gives a biological rationale for the model's prediction.
 
@@ -131,6 +131,19 @@ The TxGNN score is high, but no direct evidence supports zanubrutinib in myeloid
 - Results and cohort details from NCT05665530, to see whether any myeloid patients were treated with zanubrutinib
 - TGA-approved PI warnings and contraindications, to complete safety screening
 - Consideration of other predicted indications for this drug. B-cell non-Hodgkin lymphoma (rank 9) has far stronger trial and publication support, though it largely extends the existing B-cell neoplasm label.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

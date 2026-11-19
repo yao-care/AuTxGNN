@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **hepatitis B virus infection**
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for sofosbuvir are not available in the data compiled for this report. From what is known, sofosbuvir is a nucleotide analogue that inhibits the HCV NS5B RNA-dependent RNA polymerase. It is marketed in Australia as part of fixed-dose combinations with velpatasvir (Epclusa) and with velpatasvir plus voxilaprevir (Vosevi).
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for sofosbuvir: "Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator." ([DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf), label version 2024-12-26; accessed 2026-11-19.) From what is known, sofosbuvir is a nucleotide analogue that inhibits the HCV NS5B RNA-dependent RNA polymerase. It is marketed in Australia as part of fixed-dose combinations with velpatasvir (Epclusa) and with velpatasvir plus voxilaprevir (Vosevi).
 
 The mechanistic link to HBV is weak. HBV is a DNA virus that replicates through a reverse-transcriptase step, so sofosbuvir has no established direct activity against it. The clinical data come from HCV/HBV co-infection, where clearing HCV can shift HBV-DNA and HBsAg levels. The main safety concern in that setting is HBV reactivation, and the evidence supports monitoring or prophylaxis (for example with tenofovir alafenamide) rather than using sofosbuvir to treat HBV. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a proven treatment effect.
 
@@ -116,6 +116,19 @@ There is no mechanistic basis for direct anti-HBV activity, and the clinical evi
 - Controlled studies of HBV efficacy in HBV mono-infection, with virological endpoints (HBsAg, HBV DNA)
 - Approved indication text and PI safety information (warnings, contraindications) for the Australian products
 - A monitoring or prophylaxis plan for HBV reactivation in co-infected patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for sofosbuvir are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

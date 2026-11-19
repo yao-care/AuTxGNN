@@ -66,7 +66,7 @@ Ranks 4 and 7 to 10 (well-differentiated fetal adenocarcinoma of the lung, two C
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Methotrexate is generally recognised as an antifolate that inhibits dihydrofolate reductase (DHFR) and impairs nucleotide synthesis in rapidly dividing cells. Its efficacy in leukaemia and lymphoma is established, and mechanistically it may be applicable to other fast-growing tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methotrexate: "Methotrexate inhibits dihydrofolic acid reductase. Dihydrofolates must be reduced to tetrahydrofolates by this enzyme before they can be utilized as carriers of one-carbon groups in the synthesis of purine nucleotides and thymidylate." ([DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e), label version 2026-11-05; accessed 2026-11-19.) Methotrexate is generally recognised as an antifolate that inhibits dihydrofolate reductase (DHFR) and impairs nucleotide synthesis in rapidly dividing cells. Its efficacy in leukaemia and lymphoma is established, and mechanistically it may be applicable to other fast-growing tumours.
 
 For **pulmonary blastoma**, this link is plausible but unsupported. It is a rare, aggressive lung tumour, and no trials or literature were retrieved.
 
@@ -158,6 +158,19 @@ Relevant to lung indications: interstitial lung disease and pulmonary fibrosis a
 - Targeted literature review and case-series data for pulmonary blastoma
 - For Hodgkin lymphoma and rhabdomyosarcoma, a focused review of modern evidence, since the supporting studies are older and mixed
 - A pulmonary safety plan, given the lung-related contraindication signals
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

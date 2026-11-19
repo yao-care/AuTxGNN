@@ -54,7 +54,7 @@ Axitinib is an oral tyrosine kinase inhibitor that blocks VEGF receptors and is 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Axitinib is known as an inhibitor of vascular endothelial growth factor receptors (VEGFR), which drive tumour angiogenesis. Blocking this pathway is the basis for its use in other solid tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for axitinib: "Axitinib has been shown to inhibit receptor tyrosine kinases including vascular endothelial growth factor receptors (VEGFR)-1, VEGFR-2, and VEGFR-3 at therapeutic plasma concentrations. These receptors are implicated in pathologic angiogenesis, tumor growth, and cancer progression." ([DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338), label version 2026-03-12; accessed 2026-11-19.) Axitinib is known as an inhibitor of vascular endothelial growth factor receptors (VEGFR), which drive tumour angiogenesis. Blocking this pathway is the basis for its use in other solid tumours.
 
 Liposarcoma is a soft-tissue sarcoma, and some subtypes depend on new blood vessel growth. A preclinical study reported that axitinib had antiangiogenic and antitumorigenic activity in myxoid liposarcoma cell models. This is consistent with its VEGFR-inhibiting action. However, this evidence comes from laboratory work only. No human efficacy data were found, and the similarity between the drug's established use and this prediction has not been formally assessed.
 
@@ -105,6 +105,19 @@ The only supporting evidence is a single preclinical study in myxoid liposarcoma
 - Mechanism of action data to support the mechanistic link
 - Safety information from the TGA-approved Product Information, including warnings and contraindications
 - Review of the major drug interactions (clarithromycin, dexamethasone) relevant to a sarcoma treatment setting
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

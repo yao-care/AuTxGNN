@@ -54,7 +54,7 @@ Chloramphenicol is a broad-spectrum antibiotic. The TxGNN model predicts it may 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Chloramphenicol is generally known as an antibiotic that blocks protein synthesis in bacteria. This is an antibacterial action, and it has no recognised link to the fibrotic and autoimmune processes in diffuse scleroderma.
+According to the Clinical Pharmacology and Microbiology sections of the US FDA-approved prescribing information for chloramphenicol: "Chloramphenicol is a broad-spectrum antibiotic originally isolated from Streptomyces venezuelae. It inhibits bacterial protein synthesis by interfering with the transfer of activated amino acids from soluble RNA to ribosomes." ([DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3), label version 2024-10-10; accessed 2026-11-19.) Chloramphenicol is generally known as an antibiotic that blocks protein synthesis in bacteria. This is an antibacterial action, and it has no recognised link to the fibrotic and autoimmune processes in diffuse scleroderma.
 
 The four retrieved papers describe collagen gene regulation (the alpha1(I) procollagen gene), Smad3/Sp1/p300 signalling and TGF-beta blockade in scleroderma fibroblasts. None of the titles shows chloramphenicol being tested as a treatment. The link is likely incidental, for example the use of the chloramphenicol acetyltransferase (CAT) reporter gene assay in these experiments, rather than a pharmacological effect. The high prediction score is therefore probably an artefact of the model, and no pharmacological rationale supports it.
 
@@ -113,11 +113,12 @@ The prediction rests on a model score alone. The four publications are laborator
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3) |
 
 <!-- review:end log -->
 

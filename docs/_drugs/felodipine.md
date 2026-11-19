@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension owing 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, felodipine is a dihydropyridine L-type calcium channel blocker. Its efficacy in hypertension is established, and mechanistically it may be applicable to pulmonary hypertension through vascular smooth muscle relaxation, which could counter hypoxic pulmonary vasoconstriction.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for felodipine: "Felodipine is a member of the dihydropyridine class of calcium channel antagonists (calcium channel blockers). It reversibly competes with nitrendipine and/or other calcium channel blockers for dihydropyridine binding sites, blocks voltage-dependent Ca ++ currents in vascular smooth muscle and cultured rabbit atrial cells, and blocks potassium-induced contracture of the rat portal vein." ([DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115), label version 2024-08-07; accessed 2026-11-19.) Based on known information, felodipine is a dihydropyridine L-type calcium channel blocker. Its efficacy in hypertension is established, and mechanistically it may be applicable to pulmonary hypertension through vascular smooth muscle relaxation, which could counter hypoxic pulmonary vasoconstriction.
 
 The link between systemic hypertension and pulmonary hypertension is mainly the shared target of vascular tone. However, the retrieved literature covers hypoxia and anoxia models in rat kidney tubules, human atrial muscle, cerebral arteries and neutrophils. None of it examines the pulmonary circulation. Dihydropyridine calcium channel blockers may also worsen ventilation-perfusion matching and cause hypoxaemia in patients with lung disease. The high TxGNN score is therefore not supported by direct clinical evidence.
 
@@ -114,6 +114,18 @@ Other predictions with some evidence were considered. They may be better researc
 | Prinzmetal angina | L3 | Small clinical studies (for example PMIDs [8013514](https://pubmed.ncbi.nlm.nih.gov/8013514/) and [1746458](https://pubmed.ncbi.nlm.nih.gov/1746458/)) showed activity against provoked ischaemia and comparability with nifedipine. Calcium channel blockers are already standard therapy, so the incremental novelty is limited. |
 | Cerebrovascular disorder | L1 | The FEVER trial ([16269957](https://pubmed.ncbi.nlm.nih.gov/16269957/)) showed fewer cardiovascular events including stroke, but the benefit is attributable to blood pressure lowering in hypertension, not a distinct cerebrovascular effect. |
 | Chronic pulmonary heart disease | L3 | Small 1980s haemodynamic studies in severe COPD ([2838319](https://pubmed.ncbi.nlm.nih.gov/2838319/)) showed reduced pulmonary and systemic vascular resistance, with no outcome data. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -60,7 +60,7 @@ The better-supported predictions are in the mesothelioma family, where one Phase
 
 ## Why is This Prediction Reasonable?
 
-Pralatrexate is an antifolate that inhibits dihydrofolate reductase (DHFR) and enters cells efficiently through the reduced folate carrier (RFC-1). Detailed mechanism-of-action data were not available in the data compiled for this report, so this description is based on the drug's known class. Blocking folate metabolism stops tumour cells from making the building blocks for DNA, which is why antifolates work in rapidly dividing lymphoid cancers.
+Pralatrexate is an antifolate that inhibits dihydrofolate reductase (DHFR) and enters cells efficiently through the reduced folate carrier (RFC-1). According to the Mechanism of Action section of the US FDA-approved prescribing information for pralatrexate: "Pralatrexate is a folate analog metabolic inhibitor that competitively inhibits dihydrofolate reductase. It is also a competitive inhibitor for polyglutamylation by the enzyme folylpolyglutamyl synthetase. This inhibition results in the depletion of thymidine and other biological molecules the synthesis of which depends on single carbon transfer." ([DailyMed: Folotyn (pralatrexate) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f3d9c4d-9386-4451-b712-0fbdc5478d8f), label version 2026-09-16; accessed 2026-11-19.) This description is based on the drug's known class. Blocking folate metabolism stops tumour cells from making the building blocks for DNA, which is why antifolates work in rapidly dividing lymphoid cancers.
 
 For the lead prediction, the mechanistic case is weak. Adenomatoid tumors are benign lesions arising from mesothelial cells and rarely need systemic treatment. A cytotoxic antifolate has little clinical rationale here. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -134,6 +134,19 @@ The lead prediction, pleural adenomatoid tumor, rests on model output alone (L5)
 - Mechanism-of-action data for pralatrexate (for example from DrugBank).
 - The TGA Product Information, including the approved indication, warnings and contraindications.
 - A safety and monitoring plan for myelosuppression, mucositis and renal impairment, and a review of the interacting medicines.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Folotyn (pralatrexate) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f3d9c4d-9386-4451-b712-0fbdc5478d8f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

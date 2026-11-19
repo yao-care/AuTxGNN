@@ -58,7 +58,7 @@ The best-supported prediction in the data compiled for this report is **fibrobla
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, eribulin is a microtubule dynamics inhibitor and a cytotoxic oncology drug. Its efficacy in liposarcoma is established, and mechanistically it may be applicable to other soft tissue sarcomas.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for eribulin: "Eribulin inhibits the growth phase of microtubules without affecting the shortening phase and sequesters tubulin into nonproductive aggregates. Eribulin exerts its effects via a tubulin-based antimitotic mechanism leading to G 2 /M cell-cycle block, disruption of mitotic spindles, and, ultimately, apoptotic cell death after prolonged mitotic blockage." ([DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822), label version 2025-11-07; accessed 2026-11-19.) Based on known pharmacology, eribulin is a microtubule dynamics inhibitor and a cytotoxic oncology drug. Its efficacy in liposarcoma is established, and mechanistically it may be applicable to other soft tissue sarcomas.
 
 **Familial Mediterranean fever (FMF, rank 1).** No mechanistic link is supported by the data. FMF is an autoinflammatory disease driven by pyrin inflammasome dysregulation. Colchicine, another microtubule-targeting agent, is standard FMF therapy, which gives only a loose class-level rationale. Eribulin's cytotoxic toxicity profile is very different, so the high score (0.9982) should be treated as a computational signal only.
 
@@ -131,6 +131,19 @@ The top-ranked prediction (familial Mediterranean fever) has no trials or litera
 - TGA Product Information with approved indication, warnings and contraindications, which is currently missing
 - Disease-specific evidence for any other predicted indication before it is considered
 - A safety plan covering QT prolongation, myelosuppression, peripheral neuropathy and the interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

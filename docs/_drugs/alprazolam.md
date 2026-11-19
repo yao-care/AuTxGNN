@@ -54,7 +54,7 @@ Alprazolam is a benzodiazepine that enhances GABA-A receptor signalling. The TxG
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known class pharmacology, alprazolam is a benzodiazepine that enhances GABA-A receptor signalling, which produces sedative and hypnotic effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alprazolam: "Alprazolam is a 1,4 benzodiazepine. Alprazolam exerts its effect for the treatment of panic disorder through binding to the benzodiazepine site of gamma‑aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition." ([DailyMed: Alprazolam Xr (alprazolam) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1338d1c9-7c75-42ed-95f3-9eb1b6fc51d3), label version 2025-02-11; accessed 2026-11-19.) Based on known class pharmacology, alprazolam is a benzodiazepine that enhances GABA-A receptor signalling, which produces sedative and hypnotic effects.
 
 This gives a plausible mechanistic link to insomnia, particularly insomnia that co-occurs with anxiety. This link rests on general class pharmacology rather than on data supplied for this report.
 
@@ -106,6 +106,18 @@ The evidence level is L3. The only directly relevant study is a retrospective ob
 - Detailed mechanism of action data
 - Safety information from the TGA-approved Product Information, including warnings and contraindications
 - A plan for short-term use limits and monitoring in higher-risk groups (older adults, patients taking opioids)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alprazolam Xr (alprazolam) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1338d1c9-7c75-42ed-95f3-9eb1b6fc51d3) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **punctate epithelial keratoconjun
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, doxycycline is a broad-spectrum tetracycline antibiotic with proven efficacy in several bacterial infections, including *Chlamydia trachomatis*. Mechanistically it may be applicable to ocular surface disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for doxycycline: "Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria." ([DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8), label version 2026-07-09; accessed 2026-11-19.) Based on known information, doxycycline is a broad-spectrum tetracycline antibiotic with proven efficacy in several bacterial infections, including *Chlamydia trachomatis*. Mechanistically it may be applicable to ocular surface disease.
 
 The prediction rests on two plausible links:
 
@@ -124,6 +124,19 @@ The model score is very high, but the supporting evidence is a single 1992 case 
 - Ophthalmic formulation and route feasibility, since only an oral tablet is currently registered
 
 **Note:** Among the other predictions for this drug, chronic gingivitis/periodontitis has substantially stronger support (L2, with multiple clinical studies of subantimicrobial-dose and locally delivered doxycycline). It may be a better candidate to prioritise.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

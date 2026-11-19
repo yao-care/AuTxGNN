@@ -56,7 +56,7 @@ This is an animal-virus model rather than a true human repurposing opportunity, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, abacavir is a nucleoside reverse transcriptase inhibitor (NRTI) with proven activity against HIV-1. Simian immunodeficiency virus (SIV) is a closely related lentivirus with a similar reverse transcriptase, so activity is biologically plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for abacavir and lamivudine (a combination product containing abacavir): "Abacavir and lamivudine is an antiretroviral agent with activity against HIV-1." ([DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c), label version 2026-09-18; accessed 2026-11-19.) Based on known information, abacavir is a nucleoside reverse transcriptase inhibitor (NRTI) with proven activity against HIV-1. Simian immunodeficiency virus (SIV) is a closely related lentivirus with a similar reverse transcriptase, so activity is biologically plausible.
 
 The only supporting evidence is a 2004 in vitro review of the susceptibility of HIV-2, SIV and SHIV to anti-HIV-1 compounds. SIV infection occurs in non-human primates and has no human clinical use case. It is therefore not a true repurposing indication for patients.
 
@@ -107,6 +107,19 @@ The prediction rests on a single 2004 in vitro review in an animal virus model, 
 - Mechanism of action data (MOA)
 - TGA Product Information warnings and contraindications, and ARTG approved indication text
 - Verification of abacavir's role in NCT00102960
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

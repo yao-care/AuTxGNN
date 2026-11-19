@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, elvitegravir belongs to the integrase strand transfer inhibitor (INSTI) class and is used as part of a fixed-dose combination with cobicistat, emtricitabine and tenofovir alafenamide. Its efficacy in HIV-1 infection is established, and mechanistically it may be applicable to SIV.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate (a combination product containing elvitegravir): "STRIBILD is a fixed-dose combination of antiretroviral drugs elvitegravir (boosted by the CYP3A inhibitor cobicistat), emtricitabine, and TDF." ([DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee), label version 2025-02-04; accessed 2026-11-19.) Based on known information, elvitegravir belongs to the integrase strand transfer inhibitor (INSTI) class and is used as part of a fixed-dose combination with cobicistat, emtricitabine and tenofovir alafenamide. Its efficacy in HIV-1 infection is established, and mechanistically it may be applicable to SIV.
 
 HIV-1 and SIV are closely related lentiviruses with a conserved integrase active site. Laboratory studies show that integrase inhibitors are active against SIVmac239 and simian-tropic HIV, and that resistance mutations behave similarly in both viruses.
 
@@ -105,6 +105,19 @@ The evidence is limited to in vitro and animal studies (L4), with no clinical tr
 - Warnings and contraindications from the TGA Product Information
 - Approved indication text for the ARTG entry
 - Clinical data, if any human use (for example, topical HIV prevention inserts) is to be pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

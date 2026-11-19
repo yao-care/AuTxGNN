@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **duodenal ulcer**, but this is
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on known information, raloxifene is a SERM that acts as an estrogen agonist in bone and an antagonist in some other tissues. Its efficacy in postmenopausal osteoporosis is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for raloxifene: "Raloxifene is an estrogen agonist/antagonist, commonly referred to as a selective estrogen receptor modulator (SERM). The biological actions of raloxifene are largely mediated through binding to estrogen receptors. This binding results in activation of estrogenic pathways in some tissues (agonism) and blockade of estrogenic pathways in others (antagonism)." ([DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9), label version 2026-02-11; accessed 2026-11-19.) Based on known information, raloxifene is a SERM that acts as an estrogen agonist in bone and an antagonist in some other tissues. Its efficacy in postmenopausal osteoporosis is established.
 
 No mechanistic link between raloxifene and duodenal ulcer is supported by the data compiled for this report. The high TxGNN score (0.9972) is a computational output only. Duodenal ulcer is mainly driven by *Helicobacter pylori* infection, NSAID use and acid secretion, and none of these relates to raloxifene's known pharmacology. The prediction is best regarded as hypothesis-generating.
 
@@ -114,6 +114,19 @@ The duodenal ulcer prediction rests on a model score alone (L5), with no trials,
 - A systematic literature search and review of trial registries (including ANZCTR) for any relevant studies
 - Approved indication text and warnings/contraindications from the TGA Product Information, and graded interaction severity data
 - Preclinical or exploratory evidence before any clinical consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

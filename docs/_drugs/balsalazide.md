@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **gout**, but **no clinical tri
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on general pharmacology, balsalazide is a prodrug that is cleaved by gut bacteria to release mesalamine (5-ASA). Mesalamine has anti-inflammatory activity, including inhibition of prostaglandin and leukotriene synthesis and modulation of NF-kB signalling. Its efficacy in ulcerative colitis is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for balsalazide: "Balsalazide disodium is delivered intact to the colon where it is cleaved by bacterial azoreduction to release equimolar quantities of mesalamine, which is the therapeutically active portion of the molecule, and the 4-aminobenzoyl-β-alanine carrier moiety. The carrier moiety released when balsalazide disodium is cleaved is only minimally absorbed and is largely inert." ([DailyMed: balsalazide disodium prescribing information, Zydus Pharmaceuticals (USA) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed73067-e2ca-4184-a93a-5a2141bb4898), label version 2026-11-03; accessed 2026-11-19.) Based on general pharmacology, balsalazide is a prodrug that is cleaved by gut bacteria to release mesalamine (5-ASA). Mesalamine has anti-inflammatory activity, including inhibition of prostaglandin and leukotriene synthesis and modulation of NF-kB signalling. Its efficacy in ulcerative colitis is established.
 
 Gout is driven by urate crystal-induced activation of the NLRP3 inflammasome, so a link through general anti-inflammatory activity is conceivable. However, this link is speculative. It rests on general pharmacology rather than on supplied data, and 5-ASA acts mainly locally in the gut mucosa. The high TxGNN score is a model prediction and is not clinical evidence.
 
@@ -109,6 +109,19 @@ The gout prediction rests on model score alone (L5). No trials or publications w
 - A renal safety and NSAID co-prescribing assessment, given the kidney disease signal and the common use of NSAIDs in gout
 - Comparison against established gout therapies to define any unmet need
 - Alternative candidates worth a literature review first: ankylosing spondylitis and inflammatory spondylopathy (both flagged as research questions)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: balsalazide disodium prescribing information, Zydus Pharmaceuticals (USA) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed73067-e2ca-4184-a93a-5a2141bb4898) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

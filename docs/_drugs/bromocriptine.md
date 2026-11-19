@@ -54,7 +54,7 @@ Bromocriptine is an oral dopamine D2 receptor agonist marketed in Australia as a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Bromocriptine is generally known as a dopamine D2 receptor agonist, but the data supplied do not establish any mechanism that would link this action to congenital disorder of glycosylation with defective fucosylation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bromocriptine: "CYCLOSET contains bromocriptine mesylate, a sympatholytic, dopamine D2 receptor agonist. In patients with type 2 diabetes, timed morning administration of CYCLOSET is associated with increased insulin sensitivity and glucose disposal and reduced fasting and postprandial hyperglycemia throughout the meals of the day without raising plasma insulin levels." ([DailyMed: Cycloset (bromocriptine mesylate) prescribing information, Avvisto Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e42ba916-16b9-4d1c-8d09-9d2fbb1b6c20), label version 2026-01-12; accessed 2026-11-19.) Bromocriptine is generally known as a dopamine D2 receptor agonist, but the data supplied do not establish any mechanism that would link this action to congenital disorder of glycosylation with defective fucosylation.
 
 No mechanistic link was identified. The high score is a model-based prediction only. It is not supported by any trial, publication or biological rationale in the data compiled for this report. The prediction should be treated as a hypothesis for investigation, not as evidence of benefit.
 
@@ -90,6 +90,19 @@ The prediction has a high model score but no supporting trials, literature or me
 - Mechanism of action data for bromocriptine
 - Product Information warnings and contraindications for safety review
 - Any clinical or case-level evidence in this disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cycloset (bromocriptine mesylate) prescribing information, Avvisto Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e42ba916-16b9-4d1c-8d09-9d2fbb1b6c20) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

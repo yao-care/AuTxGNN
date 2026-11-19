@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Selpercatinib is known to be a selective RET kinase inhibitor, and the literature retrieved relates to RET-driven cancers (RET fusion-positive non-small-cell lung cancer and medullary thyroid carcinoma). The original indication could not be confirmed from the Australian licence record.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for selpercatinib: "Selpercatinib is a kinase inhibitor. Selpercatinib inhibited wild-type RET and multiple mutated RET isoforms as well as VEGFR1 and VEGFR3 with IC 50 values ranging from 0.92 nM to 67.8 nM. In other enzyme assays, selpercatinib also inhibited FGFR 1, 2, and 3 at higher concentrations that were still clinically achievable." ([DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828), label version 2026-09-11; accessed 2026-11-19.) Selpercatinib is known to be a selective RET kinase inhibitor, and the literature retrieved relates to RET-driven cancers (RET fusion-positive non-small-cell lung cancer and medullary thyroid carcinoma). The original indication could not be confirmed from the Australian licence record.
 
 No plausible RET-driven mechanism in pulmonary hypertension is established in the supplied data. The high TxGNN score reflects proximity in a knowledge network rather than demonstrated biology. Some multikinase inhibitors have been linked to pulmonary hypertension as an adverse effect, so the direction of effect is uncertain and could be harmful.
 
@@ -118,6 +118,19 @@ The prediction is supported only by a network-based model score. There are no tr
 - Preclinical evidence in pulmonary hypertension models, including assessment of pulmonary safety signals
 - Review of pharmacovigilance data for pulmonary hypertension events with selpercatinib
 - Product Information warnings, contraindications and interaction management plan before any clinical evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

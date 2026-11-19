@@ -60,10 +60,9 @@ The prediction should be treated as a research question, not a therapeutic lead.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Tranexamic acid is generally understood to be a lysine analogue that blocks plasminogen binding to fibrin, which reduces fibrinolysis and bleeding.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tranexamic acid: "Tranexamic acid is a synthetic lysine amino acid derivative, which diminishes the dissolution of hemostatic fibrin by plasmin. In the presence of tranexamic acid, the lysine receptor binding sites of plasmin for fibrin are occupied, preventing binding to fibrin monomers, thus preserving and stabilizing fibrin's matrix structure." ([DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5), label version 2025-09-03; accessed 2026-11-19.) Tranexamic acid is generally understood to be a lysine analogue that blocks plasminogen binding to fibrin, which reduces fibrinolysis and bleeding.
 
 The relationship between the original and predicted indications is weak. Tranexamic acid reduces menstrual blood loss but does not induce amenorrhoea (absence of menses). Both retrieved papers discuss it within bleeding-management strategies, not as a treatment for amenorrhoea itself. The high TxGNN score (0.9919) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Treating absent menses with an agent that reduces bleeding is mechanistically questionable.
-
 
 ---
 
@@ -121,6 +120,19 @@ The TxGNN score is high, but there are no clinical trials, only two reviews that
 - The TGA Product Information, to confirm approved indications, warnings and contraindications
 - Mechanistic and clinical evidence (preclinical or clinical studies) before any further evaluation
 - A thrombosis risk assessment, particularly for patients using hormonal therapy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

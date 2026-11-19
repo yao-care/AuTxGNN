@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Toremifene is a SERM, a chlorinated tamoxifen analogue that blocks estrogen receptor signalling in breast tissue. Its efficacy in breast cancer is well established, but there is no direct mechanistic link to HIV.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for toremifene: "Toremifene is a nonsteroidal triphenylethylene derivative. Toremifene binds to estrogen receptors and may exert estrogenic, antiestrogenic, or both activities, depending upon the duration of treatment, animal species, gender, target organ, or endpoint selected." ([DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5), label version 2024-11-13; accessed 2026-11-19.) Toremifene is a SERM, a chlorinated tamoxifen analogue that blocks estrogen receptor signalling in breast tissue. Its efficacy in breast cancer is well established, but there is no direct mechanistic link to HIV.
 
 The only linked paper (PMID 24520056) is a preclinical study. It reports that estrogen receptor antagonists related to tamoxifen and toremifene have antifungal activity against *Cryptococcus* and work synergistically with fluconazole.
 
@@ -137,6 +137,19 @@ The HIV prediction rests on a model score alone. The only linked evidence is a p
 - The approved indication text and PI safety information (warnings, contraindications) for the Australian product
 - A drug interaction and QT risk assessment against common antiretroviral regimens
 - These are more plausible than HIV itself.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

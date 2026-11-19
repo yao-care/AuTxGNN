@@ -56,7 +56,7 @@ Support is thin: **0 clinical trials** and **1 in vitro publication**, so this p
 
 ## Why is This Prediction Reasonable?
 
-Efavirenz inhibits HIV-1 reverse transcriptase (RT). Detailed mechanism of action data are not available in the data compiled for this report. Based on known information, efavirenz is an NNRTI with proven efficacy in HIV infection and AIDS, and it may mechanistically be applicable to related lentiviruses.
+Efavirenz inhibits HIV-1 reverse transcriptase (RT). According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for efavirenz: "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz." ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358), label version 2024-06-28; accessed 2026-11-19.) Based on known information, efavirenz is an NNRTI with proven efficacy in HIV infection and AIDS, and it may mechanistically be applicable to related lentiviruses.
 
 Feline immunodeficiency virus (FIV) is a lentivirus related to HIV and causes an AIDS-like syndrome in cats. A 2023 biochemical and structural study compared NNRTIs, including efavirenz, against FIV and HIV reverse transcriptases. However, the available data do not show efavirenz activity against FIV RT. NNRTIs are generally expected to have weak activity against FIV RT because the NNRTI binding pocket differs between the two viruses. This is an inference from the general NNRTI class and should be checked against the full paper.
 
@@ -102,6 +102,19 @@ The only supporting evidence for the lead prediction is a single in vitro study 
 - Detailed mechanism of action data
 - Label warnings and contraindications from the TGA Product Information
 - Confirmation of the approved indication text for the ARTG entry
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

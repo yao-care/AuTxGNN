@@ -58,8 +58,7 @@ Famotidine is an H2-receptor antagonist originally used for gastric and duodenal
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Famotidine is a well-established H2-receptor antagonist. By blocking H2 receptors on parietal cells, it reduces gastric acid secretion. Its efficacy in acid-related upper gastrointestinal conditions is proven.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for famotidine: "Famotidine is a competitive inhibitor of histamine-2 (H2) receptors. The primary clinically important pharmacologic activity of famotidine is inhibition of gastric secretion. Both the acid concentration and volume of gastric secretion are suppressed by famotidine, while changes in pepsin secretion are proportional to volume output." ([DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def), label version 2024-06-01; accessed 2026-11-19.) Famotidine is a well-established H2-receptor antagonist. By blocking H2 receptors on parietal cells, it reduces gastric acid secretion. Its efficacy in acid-related upper gastrointestinal conditions is proven.
 
 **Other predictions in the model's top 10**
 
@@ -125,6 +124,19 @@ Among the predictions, the better-evidenced ones largely duplicate existing ulce
 - Mechanism of action data
 - TGA Product Information warnings and contraindications, and the approved indication text for the ARTG entry
 - Review of the knowledge-graph contraindication signals and the key drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

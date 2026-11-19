@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, nitrofurantoin is a nitrofuran antibacterial whose metabolites damage bacterial DNA and ribosomal proteins. It has no known anti-inflammatory or immunomodulatory action relevant to rheumatoid arthritis (RA).
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for nitrofurantoin: "Nitrofurantoin is an antibacterial drug. […] Nitrofurantoin is reduced by a wide range of enzymes including bacterial flavoproteins to reactive intermediates which are damaging to macromolecules such as DNA and proteins." ([DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5), label version 2026-01-22; accessed 2026-11-19.) Based on general pharmacology, nitrofurantoin is a nitrofuran antibacterial whose metabolites damage bacterial DNA and ribosomal proteins. It has no known anti-inflammatory or immunomodulatory action relevant to rheumatoid arthritis (RA).
 
 The prediction is therefore not mechanistically supported. The high TxGNN score (0.9989) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of benefit. The retrieved literature concerns drug-induced pulmonary fibrosis, a methotrexate-nitrofurantoin interaction causing irreversible lung fibrosis in an RA patient, RA-associated interstitial lung disease, and antibiotic exposure as a possible trigger of RA flares. The safety signal points in the opposite direction to a therapeutic effect.
 
@@ -107,6 +107,19 @@ The prediction is supported only by a model score, with no clinical trials, no p
 - A safety assessment covering concurrent methotrexate use, lung and liver risk, and renal function in the RA population
 
 Other predicted indications (for example autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome, brain small vessel disease, diabetic nephropathy, sclerosing cholangitis, methaemoglobinaemia and gout) are likewise supported by prediction only, or by adverse-effect literature, and are also on Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

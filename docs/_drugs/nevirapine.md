@@ -60,12 +60,11 @@ The more clinically relevant lower-ranked predictions (congenital HIV and AIDS-r
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, nevirapine is an NNRTI that targets lentiviral reverse transcriptase, and its efficacy in HIV-1 infection is established. Feline immunodeficiency virus (FIV) is also a lentivirus, so a mechanistic overlap is conceivable.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for nevirapine: "Nevirapine is an antiretroviral drug. […] Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1. Nevirapine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site." ([DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15), label version 2026-10-08; accessed 2026-11-19.) Based on known information, nevirapine is an NNRTI that targets lentiviral reverse transcriptase, and its efficacy in HIV-1 infection is established. Feline immunodeficiency virus (FIV) is also a lentivirus, so a mechanistic overlap is conceivable.
 
 However, the one retrieved study (a 2023 biochemical and structural comparison of NNRTIs against feline and human immunodeficiency viruses) indicates that FIV reverse transcriptase is generally poorly susceptible to NNRTIs. The high prediction score is therefore not supported by an established mechanism. This is also a veterinary indication, not a human repurposing target.
 
 The same pattern appears for the second-ranked prediction, simian immunodeficiency virus infection. SIVmac and HIV-2 are intrinsically resistant to NNRTIs, and only engineered SIV/HIV-1 chimeras carrying HIV-1 reverse transcriptase respond to nevirapine. This is useful for animal-model research, not clinical repurposing.
-
 
 Two further predictions are more clinically interesting, though they largely reflect established HIV uses:
 - **Congenital HIV** (Evidence Level L1): nevirapine is established for preventing mother-to-child transmission.
@@ -161,6 +160,19 @@ Please refer to the TGA-approved Product Information (PI) for authoritative safe
 - TGA Product Information warnings and contraindications, which were not available and block safety screening.
 - For any veterinary exploration, direct susceptibility testing of FIV reverse transcriptase to nevirapine and, if positive, in vivo studies.
 - For perinatal use, a review of current Australian guidelines, since newer regimens (for example dolutegravir-based) have largely replaced nevirapine-based prophylaxis.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

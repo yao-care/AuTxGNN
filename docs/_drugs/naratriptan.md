@@ -56,7 +56,7 @@ but there are currently **no registered clinical trials** and **20 publications*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, naratriptan is a 5-HT1B/1D receptor agonist (triptan class). Its efficacy in acute migraine is established, and mechanistically it may be applicable to a closely related migraine subtype.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for naratriptan: "Naratriptan binds with high affinity to human cloned 5-HT 1B/1D receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (including substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system." ([DailyMed: naratriptan prescribing information, ASCLEMED USA INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63ea356f-0895-4540-b242-8e611eacd938), label version 2026-08-07; accessed 2026-11-19.) Based on known information, naratriptan is a 5-HT1B/1D receptor agonist (triptan class). Its efficacy in acute migraine is established, and mechanistically it may be applicable to a closely related migraine subtype.
 
 Migraine with brainstem aura is a form of migraine, so shared pathophysiology (trigeminovascular activation, CGRP release) is plausible. However, none of the supplied literature is specific to brainstem aura. It covers migraine in general: the American Headache Society evidence assessment, naratriptan versus sumatriptan, prodrome treatment, menstrual migraine and paediatric use.
 
@@ -113,6 +113,19 @@ The prediction is plausible because brainstem aura is a migraine subtype, but th
 - A focused safety review of triptan use in brainstem aura, hemiplegic and basilar-type migraine, including vasoconstriction and stroke risk
 - Studies or case series specific to migraine with brainstem aura
 - A review of serotonergic drug interactions for patients on concurrent therapy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: naratriptan prescribing information, ASCLEMED USA INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63ea356f-0895-4540-b242-8e611eacd938) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

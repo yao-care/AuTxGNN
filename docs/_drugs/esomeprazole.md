@@ -61,7 +61,7 @@ Note: the strongest evidence in the data compiled for this report relates to **d
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Esomeprazole is the S-isomer of omeprazole and, as a class, PPIs irreversibly block the gastric H+/K+ ATPase (the "proton pump"), suppressing gastric acid secretion.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for esomeprazole: "Esomeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H+/K+ ATPase enzyme system at the secretory surface of the gastric parietal cell. Esomeprazole is protonated and converted in the acidic compartment of the parietal cell forming the active inhibitor, the achiral sulphenamide." ([DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96), label version 2025-12-19; accessed 2026-11-19.) Esomeprazole is the S-isomer of omeprazole and, as a class, PPIs irreversibly block the gastric H+/K+ ATPase (the "proton pump"), suppressing gastric acid secretion.
 
 Duodenogastric (bile) reflux is only partly acid-driven. Esomeprazole may ease acid-related symptoms or mucosal injury in these patients, but it does not stop bile reflux itself. The only supporting publication is a general review of PPI use, so the support is indirect. The high TxGNN score therefore reflects a plausible acid-related overlap rather than demonstrated benefit.
 
@@ -119,6 +119,19 @@ For duodenal obstruction, there are no trials and only one indirect review. Esom
 - Mechanism of action data (currently missing) and the TGA Product Information warnings and contraindications (a blocking data gap for safety screening)
 - Targeted studies of esomeprazole in duodenogastric reflux with defined bile-reflux endpoints
 - For the ulcer indications: confirmation of the labelled indication scope, H. pylori testing and eradication where relevant, and a DDI management plan, including CYP2C19-related interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

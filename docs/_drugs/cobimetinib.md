@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **amyotrophic lateral sclerosis
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cobimetinib is known to be a MEK1/2 inhibitor, and its efficacy in BRAF-mutant metastatic melanoma (in combination with a BRAF inhibitor) is established. That role rests on blocking the MAPK/ERK signalling pathway.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cobimetinib: "Cobimetinib is a reversible inhibitor of mitogen-activated protein kinase (MAPK)/extracellular signal regulated kinase 1 (MEK1) and MEK2. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation." ([DailyMed: Cotellic (cobimetinib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c387579e-cee0-4334-bd1e-73f93ac1bde6), label version 2026-07-29; accessed 2026-11-19.) Cobimetinib is known to be a MEK1/2 inhibitor, and its efficacy in BRAF-mutant metastatic melanoma (in combination with a BRAF inhibitor) is established. That role rests on blocking the MAPK/ERK signalling pathway.
 
 A hypothetical link to ALS exists. In preclinical ALS models, MAPK/ERK pathway activation has been implicated in neuroinflammation and motor neuron stress. Blocking this pathway could, in theory, reduce those processes.
 
@@ -125,6 +125,19 @@ The predictions rest entirely on a computational model. There are no clinical tr
 - Preclinical evidence in ALS models, including CNS exposure data
 - A literature and trial registry search (including ANZCTR) for MEK inhibitors in motor neuron disease
 - A risk-benefit assessment given the drug's toxicity profile in the target populations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cotellic (cobimetinib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c387579e-cee0-4334-bd1e-73f93ac1bde6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

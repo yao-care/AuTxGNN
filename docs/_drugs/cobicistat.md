@@ -54,7 +54,7 @@ Cobicistat is a CYP3A inhibitor used as a pharmacokinetic booster in HIV-1 antir
 
 ## Why is This Prediction Reasonable?
 
-Cobicistat has no antiviral activity of its own. It inhibits the CYP3A enzymes, which raises blood levels of co-administered antiretrovirals such as atazanavir, darunavir and elvitegravir. Detailed mechanism-of-action data were not available in the data compiled for this report.
+Cobicistat has no antiviral activity of its own. It inhibits the CYP3A enzymes, which raises blood levels of co-administered antiretrovirals such as atazanavir, darunavir and elvitegravir. According to the Mechanism of Action section of the US FDA-approved prescribing information for cobicistat: "Cobicistat is a mechanism-based inhibitor of cytochrome P450 3A (CYP3A). Inhibition of CYP3A-mediated metabolism by cobicistat increases the systemic exposure of CYP3A substrates atazanavir and darunavir." ([DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010), label version 2026-02-10; accessed 2026-11-19.)
 
 The high score most likely reflects how closely the predicted disease sits to HIV-related conditions in the model's network. Feline immunodeficiency virus is a lentivirus related to HIV. Any benefit would depend on a partner antiretroviral that is active against that virus, and this has not been established. Veterinary use is also outside the scope of human drug repurposing.
 
@@ -101,6 +101,19 @@ The prediction rests on model output alone. No trials or publications address th
 - Mechanism-of-action data
 - Product Information safety data (warnings and contraindications)
 - A review of the 420 recorded drug interactions for any proposed new use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

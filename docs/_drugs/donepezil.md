@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **chronic tic disorder** (the h
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, donepezil is a cholinesterase inhibitor with an established role in Alzheimer's disease, and it may be mechanistically applicable to tic disorders.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for donepezil: "Current theories on the pathogenesis of the cognitive signs and symptoms of Alzheimer’s disease attribute some of them to a deficiency of cholinergic neurotransmission. Donepezil hydrochloride is postulated to exert its therapeutic effect by enhancing cholinergic function." ([DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975), label version 2021-12-30; accessed 2026-11-19.) Based on known information, donepezil is a cholinesterase inhibitor with an established role in Alzheimer's disease, and it may be mechanistically applicable to tic disorders.
 
 Striatal cholinergic dysfunction has been proposed in tics and ADHD. Cholinergic and nicotinic modulation of dopaminergic and serotonergic pathways in the striatum could reduce tics. Mouse studies support this: donepezil reduced the DOI-induced head twitch response, a model of tic-like behaviour. Small clinical reports in children and adolescents with tics and ADHD point in the same direction.
 
@@ -149,6 +149,19 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 - TGA Product Information warnings and contraindications for Aricept, and the approved indication text for ARTG 2479L
 - A safety review for the target populations (especially children and adolescents, patients with cardiac conduction disorders, asthma, epilepsy or peptic ulcer disease) and for movement-disorder worsening
 - Confirmation of Australian PBS listing and indication status, which was a flagged gap in the data compiled for this report
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

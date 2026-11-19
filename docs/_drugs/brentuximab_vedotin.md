@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **follicular lymphoma**, but th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, brentuximab vedotin is an antibody-drug conjugate that binds CD30 on tumour cells and delivers the cytotoxic agent monomethyl auristatin E (MMAE). Its efficacy in CD30-positive Hodgkin lymphoma is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for brentuximab vedotin: "CD30 is a member of the tumor necrosis factor receptor family and is expressed on the surface of sALCL cells and on Hodgkin Reed-Sternberg (HRS) cells in cHL. CD30 is variably expressed in other T-cell lymphomas. […] Brentuximab vedotin is an antibody-drug conjugate (ADC)." ([DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f), label version 2025-11-11; accessed 2026-11-19.) Based on known information, brentuximab vedotin is an antibody-drug conjugate that binds CD30 on tumour cells and delivers the cytotoxic agent monomethyl auristatin E (MMAE). Its efficacy in CD30-positive Hodgkin lymphoma is established.
 
 The mechanistic link to follicular lymphoma is weak. Follicular lymphoma is generally CD30-low or CD30-negative, so any benefit would likely be limited to CD30-positive subsets, transformed disease, or bystander effects of MMAE. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The retrieved literature mainly addresses peripheral T-cell lymphoma, not follicular lymphoma.
 
@@ -123,6 +123,19 @@ Follicular lymphoma is rarely CD30-positive, so the mechanistic link is weak. Th
 - Follicular-specific efficacy and safety data for brentuximab vedotin with or without bendamustine
 
 **Other predicted indications of note:** B-cell neoplasm (particularly CD30-positive DLBCL) has the strongest evidence in the data compiled for this report (Evidence Level L2, including a completed 176-patient Phase 2 trial and an ongoing Phase 3 trial, NCT04404283). It would be a better-supported candidate for further evaluation under "Proceed with Guardrails", although evidence there is concentrated in CD30-positive disease and no B-cell-specific Phase 3 efficacy result has been identified.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ The score comes from the TxGNN model (deep learning) and may reflect similaritie
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Docusate is an anionic surfactant stool softener, and its efficacy in constipation is established. There is no known mechanism linking it to Plummer-Vinson syndrome.
+ChEMBL (EMBL-EBI) records the mechanism of action of docusate as: Surfactant laxative ([ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036), CC BY-SA 3.0; accessed 2026-11-19.) Docusate is an anionic surfactant stool softener, and its efficacy in constipation is established. There is no known mechanism linking it to Plummer-Vinson syndrome.
 
 Plummer-Vinson syndrome is characterised by iron deficiency anaemia together with oesophageal webs. The high score (0.9918) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Docusate has no known effect on iron absorption or on oesophageal webs, so the link has no pharmacological rationale.
 
@@ -113,11 +113,12 @@ The prediction rests on a model score alone (L5), with no trials, no literature 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036) |
 
 <!-- review:end log -->
 

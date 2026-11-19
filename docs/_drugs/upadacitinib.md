@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, upadacitinib belongs to the Janus kinase (JAK) inhibitor class (JAK1-preferential), and its efficacy in rheumatoid arthritis is established through modulation of inflammatory cytokine signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for upadacitinib: "Upadacitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095), label version 2026-06-30; accessed 2026-11-19.) Based on known information, upadacitinib belongs to the Janus kinase (JAK) inhibitor class (JAK1-preferential), and its efficacy in rheumatoid arthritis is established through modulation of inflammatory cytokine signalling.
 
 The predicted indication is a rare congenital developmental dysplasia. No plausible link between JAK-STAT signalling and this condition is evident from the data compiled for this report. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis-generating signal rather than evidence of benefit.
 
@@ -98,6 +98,19 @@ The prediction rests solely on a model score, with no clinical trials, no litera
 - TGA Product Information warnings and contraindications for safety screening
 - Review of the approved indication text for the ARTG entry
 - If a repurposing direction is pursued, consider the myeloma-related predictions only as hypotheses, with a dedicated assessment of infection and malignancy risk
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

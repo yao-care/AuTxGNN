@@ -54,7 +54,7 @@ Fulvestrant is an estrogen receptor antagonist and degrader, marketed in Austral
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, fulvestrant is an estrogen receptor alpha (ERα) antagonist and degrader. Its efficacy in hormone receptor-positive breast cancer is well established, and mechanistically it may be applicable to HIV.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fulvestrant: "Many breast cancers have estrogen receptors (ER) and the growth of these tumors can be stimulated by estrogen. Fulvestrant is an estrogen receptor antagonist that binds to the estrogen receptor in a competitive manner with affinity comparable to that of estradiol and downregulates the ER protein in human breast cancer cells." ([DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a), label version 2026-10-16; accessed 2026-11-19.) Based on known information, fulvestrant is an estrogen receptor alpha (ERα) antagonist and degrader. Its efficacy in hormone receptor-positive breast cancer is well established, and mechanistically it may be applicable to HIV.
 
 The link is indirect. ERα is expressed in CD4+ T cells and appears to influence HIV transcription and latency. A 2026 preclinical study tested fulvestrant, together with estrogen and HIV latency-reversing agents, in CD4+ T cells. This suggests ERα blockade could modulate latency reversal, but the work is in vitro only. No human data exist.
 
@@ -109,6 +109,19 @@ The only supporting evidence for HIV is a single indirect preclinical study, wit
 - Further preclinical work on ERα blockade and HIV latency in relevant models
 - A rationale for a long-acting injectable in this population, and a review of interactions with antiretroviral therapy
 - Any clinical evidence before further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

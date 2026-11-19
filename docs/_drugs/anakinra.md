@@ -74,7 +74,7 @@ For context, the other predicted indications in this evaluation were graded as f
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for anakinra is not available in the data compiled for this report. Anakinra is, however, a recombinant IL-1 receptor antagonist, and its efficacy in rheumatoid arthritis and cryopyrin-associated periodic syndromes is established. Mechanistically, it may be applicable to conditions in which IL-1 drives inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for anakinra: "KINERET blocks the biologic activity of IL-1 alpha and beta by competitively inhibiting IL-1 binding to the interleukin-1 type I receptor (IL-1RI), which is expressed in a wide variety of tissues and organs. IL-1 production is induced in response to inflammatory stimuli and mediates various physiologic responses including inflammatory and immunological responses." ([DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de), label version 2026-04-03; accessed 2026-11-19.) Anakinra is, however, a recombinant IL-1 receptor antagonist, and its efficacy in rheumatoid arthritis and cryopyrin-associated periodic syndromes is established. Mechanistically, it may be applicable to conditions in which IL-1 drives inflammation.
 
 For the top-ranked prediction, **extracutaneous mastocytoma**, the link is plausible but unverified: IL-1 may be involved in mast cell-driven inflammation. The 0.9993 score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There are no supporting trials or publications.
 
@@ -171,6 +171,19 @@ The top-ranked prediction, extracutaneous mastocytoma, rests on a score from the
 - For extracutaneous mastocytoma: any preclinical or clinical evidence of IL-1 involvement, before further consideration
 - For familial Mediterranean fever and PSTPIP1-associated syndromes: a systematic review of anakinra-specific data and, where feasible, a prospective study or registry in colchicine-resistant patients
 - Review of the interaction profile, particularly the major interaction with deferiprone and combined use with corticosteroids
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for anakinra is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ No clinical trials support this prediction, and only **2 publications** were ret
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this report. Based on known information, fluvoxamine is an SSRI, a class that increases serotonin signalling in the brain. Mechanistically, serotonergic modulation might influence some traits seen in personality disorders, such as suspiciousness, anxiety and rigid thinking.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluvoxamine: "The mechanism of action of fluvoxamine maleate in obsessive compulsive disorder is presumed to be linked to its specific serotonin reuptake inhibition in brain neurons. Fluvoxamine has been shown to be a potent inhibitor of the serotonin reuptake transporter in preclinical studies, both in vitro and in vivo." ([DailyMed: fluvoxamine maleate prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9972efbb-46cd-45b7-b71c-35032311b70c), label version 2026-10-26; accessed 2026-11-19.) Based on known information, fluvoxamine is an SSRI, a class that increases serotonin signalling in the brain. Mechanistically, serotonergic modulation might influence some traits seen in personality disorders, such as suspiciousness, anxiety and rigid thinking.
 
 This link is speculative. The two retrieved papers concern body dysmorphic disorder with personality traits and the psychiatric effects of alpha-interferon. Neither tests fluvoxamine in paranoid personality disorder. The very high TxGNN score is a computational prediction and does not show that the drug works in this condition.
 
@@ -108,11 +108,12 @@ The prediction rests only on a model score. No clinical trial exists, and no ret
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fluvoxamine maleate prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9972efbb-46cd-45b7-b71c-35032311b70c) |
 
 <!-- review:end log -->
 

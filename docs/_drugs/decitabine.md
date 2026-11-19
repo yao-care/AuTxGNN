@@ -54,7 +54,7 @@ Decitabine is a hypomethylating agent (DNA methyltransferase inhibitor) used in 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on the drug class, decitabine is a hypomethylating agent that inhibits DNA methyltransferase. This class is used in myeloid malignancies, including acute myeloid leukaemia and myelodysplastic syndromes.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for decitabine: "Decitabine is believed to exert its antineoplastic effects after phosphorylation and direct incorporation into DNA and inhibition of DNA methyltransferase, causing hypomethylation of DNA and cellular differentiation or apoptosis. Decitabine inhibits DNA methylation in vitro, which is achieved at concentrations that do not cause major suppression of DNA synthesis." ([DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5), label version 2026-11-03; accessed 2026-11-19.) Based on the drug class, decitabine is a hypomethylating agent that inhibits DNA methyltransferase. This class is used in myeloid malignancies, including acute myeloid leukaemia and myelodysplastic syndromes.
 
 Refractory cytopenia of childhood is the most common paediatric myelodysplastic syndrome subtype. Aberrant DNA methylation and clonal myeloid dysregulation are plausible shared biology. This link is inferred from the drug class and related myeloid disease, not from supplied mechanism data. The TxGNN score is a computational output and is not clinical evidence.
 
@@ -107,6 +107,19 @@ The prediction rests on a high model score and a plausible class-based rationale
 - Mechanism of action data
 - Warnings and contraindications from the TGA Product Information
 - Paediatric dosing and safety data, including for the oral combination product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

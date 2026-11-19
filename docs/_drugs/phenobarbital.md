@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, phenobarbital enhances GABA-A receptor-mediated inhibition, and its efficacy in epilepsy is well established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for phenobarbital: "The precise mechanism of action for phenobarbital for the treatment of neonatal seizures is not fully understood, but it is thought to involve potentiation of synaptic inhibition through an action on the GABA A receptor." ([DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a), label version 2026-10-23; accessed 2026-11-19.) Based on established pharmacology, phenobarbital enhances GABA-A receptor-mediated inhibition, and its efficacy in epilepsy is well established.
 
 **For the top-ranked prediction (trigeminal nerve neoplasm), the rationale is weak.** The only retrieved paper is a case series on Sturge-Weber syndrome, a neurocutaneous disorder with seizures, not a trigeminal nerve tumour. Phenobarbital has no known antineoplastic activity. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -136,6 +136,19 @@ Please refer to the TGA-approved Product Information (PI) for authoritative warn
 - If pursuing a seizure-related indication, targeted evidence in the specific reflex epilepsy (case series or controlled data), with a review of how this differs from the existing epilepsy indication
 - For trigeminal neuralgia, comparative evidence against carbamazepine and a plan for managing enzyme-induction interactions
 - No further work is recommended for trigeminal nerve neoplasm, orgasm-induced seizures or beta-ketothiolase deficiency unless new supporting evidence emerges
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

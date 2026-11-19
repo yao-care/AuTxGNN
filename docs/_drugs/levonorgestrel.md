@@ -60,7 +60,7 @@ Only one publication is a randomised placebo-controlled trial, and it tested an 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not currently available for levonorgestrel. It is a progestin with some residual androgenic (male-hormone-like) activity (PMID 7825629). In theory this is a concern for acne rather than a benefit, because androgens stimulate the oil glands of the skin.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levonorgestrel: "The local mechanism by which continuously released LNG contributes to the contraceptive effectiveness of Skyla has not been conclusively demonstrated. Studies of Skyla and similar LNG IUS prototypes have suggested several mechanisms that prevent pregnancy: thickening of cervical mucus preventing passage of sperm into the uterus, inhibition of sperm capacitation or survival, and alteration of the endometrium." ([DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309), label version 2026-03-04; accessed 2026-11-19.) It is a progestin with some residual androgenic (male-hormone-like) activity (PMID 7825629). In theory this is a concern for acne rather than a benefit, because androgens stimulate the oil glands of the skin.
 
 Dermatological benefit in acne is documented mainly for combined oral contraceptives that contain progestins with anti-androgenic properties, such as chlormadinone acetate (PMIDs 21895044, 15025547). In one review, a chlormadinone-containing pill was reported to be more effective for mild-to-moderate acne than an ethinyl estradiol/levonorgestrel pill.
 
@@ -117,6 +117,18 @@ The evidence level is L2, based on one randomised placebo-controlled trial. That
 - Detailed mechanism of action data
 - Trial results separating levonorgestrel's effect from that of ethinyl estradiol, ideally for the formulations marketed in Australia
 - Safety data from the TGA-approved Product Information (PI), including warnings and contraindications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not currently available for levonorgestrel" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

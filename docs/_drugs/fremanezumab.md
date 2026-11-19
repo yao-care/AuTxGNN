@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **atrophoderma vermiculata**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, fremanezumab is a humanised monoclonal antibody that binds the CGRP ligand. CGRP signalling is central to trigeminovascular activation in migraine, and its efficacy in migraine prevention has been established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fremanezumab: "Fremanezumab-vfrm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor." ([DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b), label version 2026-06-05; accessed 2026-11-19.) Based on known information, fremanezumab is a humanised monoclonal antibody that binds the CGRP ligand. CGRP signalling is central to trigeminovascular activation in migraine, and its efficacy in migraine prevention has been established.
 
 The high TxGNN score (0.9904) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -120,6 +120,19 @@ The prediction is biologically plausible because migraine with brainstem aura is
 - The TGA-approved Product Information, including warnings, contraindications and the approved indication text
 - Prospective studies or pooled analyses of fremanezumab specifically in migraine with brainstem aura (and related rare aura subtypes such as hemiplegic migraine)
 - Review of cerebrovascular safety data, given the questions raised in observational studies, before any use in patients with aura-related neurological symptoms
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

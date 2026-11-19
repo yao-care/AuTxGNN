@@ -57,7 +57,7 @@ Note: the L1 grade for head and neck cancer is generous. It rests on a completed
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, mitoxantrone is a topoisomerase II inhibitor and DNA intercalator, structurally similar to the anthracyclines. It is established in AML and other haematological malignancies, and its cytotoxic mechanism could plausibly apply to rapidly dividing squamous and glandular tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mitoxantrone: "Mitoxantrone, a DNA-reactive agent that intercalates into deoxyribonucleic acid (DNA) through hydrogen bonding, causes crosslinks and strand breaks. Mitoxantrone also interferes with ribonucleic acid (RNA) and is a potent inhibitor of topoisomerase II, an enzyme responsible for uncoiling and repairing damaged DNA." ([DailyMed: mitoxantrone prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1634528a-30c5-4309-acc8-4c0293ae14ae), label version 2026-09-01; accessed 2026-11-19.) Based on known information, mitoxantrone is a topoisomerase II inhibitor and DNA intercalator, structurally similar to the anthracyclines. It is established in AML and other haematological malignancies, and its cytotoxic mechanism could plausibly apply to rapidly dividing squamous and glandular tumour cells.
 
 Older single-agent phase II trials in head and neck squamous cell carcinoma showed modest or minimal activity (for example, one partial response among 22 evaluable patients in a Southwest Oncology Group study). More recent work focuses on a liposomal formulation of mitoxantrone, particularly in nasopharyngeal carcinoma, where several trials are underway.
 
@@ -140,6 +140,19 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 - Label-based warnings and contraindications from the TGA Product Information
 - A cardiac and haematological monitoring plan
 - Registration of any Australian trial on ANZCTR if local studies are planned
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mitoxantrone prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1634528a-30c5-4309-acc8-4c0293ae14ae) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug. Based on known information, potassium iodide is a long-established treatment for certain fungal and fungus-like infections, such as sporotrichosis and zygomycosis (including conidiobolomycosis). It has also historically been used as an expectorant in upper respiratory conditions.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for potassium iodide: "Potassium iodide is thought to act as an expectorant by increasing respiratory tract secretions and thereby decreasing the viscosity of mucus." ([DailyMed: Potassium Iodide (Saturated) (potassium iodide) prescribing information, Emerald Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bdf305f-ed4a-49d1-8901-edaed8d67850), label version 2026-08-25; accessed 2026-11-19.) Based on known information, potassium iodide is a long-established treatment for certain fungal and fungus-like infections, such as sporotrichosis and zygomycosis (including conidiobolomycosis). It has also historically been used as an expectorant in upper respiratory conditions.
 
 The original indications are all upper airway and nasal conditions, so the prediction for nasal cavity disease comes from the TxGNN model (deep learning). The score may reflect similarities the model learned between related diseases, not biological evidence. The retrieved literature suggests a plausible antifungal or anti-inflammatory role, but only in infectious nasal disease (fungal rhinitis, rhinofacial pythiosis and nasofacial zygomycosis). It does not support nasal cavity disease broadly.
 
@@ -121,6 +121,19 @@ The prediction rests on a high model score and four case reports in infectious n
 - A narrower, well-defined indication (for example, fungal rhinosinusitis or conidiobolomycosis) with systematic review of human case data
 - Controlled or prospective clinical data in humans
 - A safety plan covering thyroid function, hyperkalaemia and hypersensitivity, particularly for patients taking ACE inhibitors, ARBs or trimethoprim
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Potassium Iodide (Saturated) (potassium iodide) prescribing information, Emerald Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bdf305f-ed4a-49d1-8901-edaed8d67850) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

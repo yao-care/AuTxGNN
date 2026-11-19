@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant for **Plasmodium falciparum malaria*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, colchicine binds tubulin and disrupts microtubules.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for colchicine: "Colchicine’s effectiveness as a treatment for gout has been postulated to be due to its ability to block neutrophil-mediated inflammatory responses induced by monosodium urate crystals in synovial fluid. Colchicine disrupts the polymerization of β-tubulin into microtubules, thereby preventing the activation, degranulation, and migration of neutrophils to sites of inflammation." ([DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2), label version 2026-10-16; accessed 2026-11-19.) Based on general pharmacology, colchicine binds tubulin and disrupts microtubules.
 
 Microtubules are essential to the parasite's cell division, so a link to *P. falciparum* is biologically plausible. The two retrieved papers are indirect. One is a laboratory study of curcumin (not colchicine) that disrupts microtubules in *P. falciparum*. The other examines expression of the parasite's pfmdr1 gene in mammalian cells and its effect on chloroquine susceptibility. Neither tests colchicine as an antimalarial in people.
 
@@ -110,6 +110,19 @@ The prediction rests on the model score alone. No study directly examines colchi
 - Detailed mechanism of action data
 - Review of the TGA Product Information for warnings and contraindications
 - A drug interaction assessment against standard antimalarials, particularly chloroquine
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

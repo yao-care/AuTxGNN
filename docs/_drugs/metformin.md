@@ -55,7 +55,7 @@ The TxGNN model (deep learning) predicts it may be effective for **classic stiff
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Metformin is a long-established oral antidiabetic, and its efficacy in type 2 diabetes is well proven. It is generally understood to act through AMPK activation and suppression of hepatic glucose production, but this was not part of the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metformin: "Metformin is an antihyperglycemic agent which improves glucose tolerance in patients with type 2 diabetes mellitus, lowering both basal and postprandial plasma glucose. Metformin decreases hepatic glucose production, decreases intestinal absorption of glucose, and improves insulin sensitivity by increasing peripheral glucose uptake and utilization." ([DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574), label version 2026-09-21; accessed 2026-11-19.) Metformin is a long-established oral antidiabetic, and its efficacy in type 2 diabetes is well proven. It is generally understood to act through AMPK activation and suppression of hepatic glucose production, but this was not part of the data compiled for this report.
 
 The mechanistic link to the predicted indication is weak. Stiff person syndrome is an autoimmune neurological disorder typically associated with GAD65 antibodies, and there is no clear connection to metformin's metabolic actions. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -99,6 +99,19 @@ The prediction rests only on a score from the TxGNN model (deep learning), which
 - Product Information warnings and contraindications from the TGA-approved PI
 - A targeted literature search for metformin in stiff person syndrome and GAD-antibody-associated disease
 - A mechanistic rationale beyond the similarities the TxGNN model (deep learning) learned between related diseases, such as GAD-antibody autoimmunity and diabetes
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

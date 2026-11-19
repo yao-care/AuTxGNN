@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Liothyronine is the active form of thyroid hormone, and its efficacy in replacing thyroid hormone in hypothyroidism is well established. However, the data compiled for this report do not support a mechanistic link to renal hypodysplasia/aplasia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for liothyronine: "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Cytomel (liothyronine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3), label version 2026-05-18; accessed 2026-11-19.) Liothyronine is the active form of thyroid hormone, and its efficacy in replacing thyroid hormone in hypothyroidism is well established. However, the data compiled for this report do not support a mechanistic link to renal hypodysplasia/aplasia.
 
 Renal hypodysplasia/aplasia is a congenital structural disorder of kidney development that arises during embryogenesis. Giving thyroid hormone after birth is unlikely to reverse missing or underdeveloped kidney tissue. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or true therapeutic efficacy.
 
@@ -106,6 +106,19 @@ The prediction for renal hypodysplasia/aplasia is supported only by a TxGNN mode
 - Preclinical or clinical evidence specific to renal hypodysplasia/aplasia
 - Review of the Australian Product Information for warnings and contraindications
 - Consideration of other predictions with a more plausible rationale (for example nodular goitre, which is largely an existing indication)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cytomel (liothyronine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

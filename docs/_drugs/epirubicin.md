@@ -54,7 +54,7 @@ Epirubicin is an anthracycline cytotoxic chemotherapy agent that damages DNA by 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Epirubicin is an anthracycline, the 4' epimer of doxorubicin. Anthracyclines intercalate into DNA and poison topoisomerase II, which is most damaging to rapidly dividing cells. Epirubicin has been used alone or in combination in a range of malignancies, and it appears in some lymphoma regimens, such as CEOP and VEBEP.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for epirubicin: "Epirubicin is an anthracycline cytotoxic agent. Although it is known that anthracyclines can interfere with a number of biochemical and biological functions within eukaryotic cells, the precise mechanisms of epirubicin's cytotoxic and/or antiproliferative properties have not been completely elucidated." ([DailyMed: Ellence (epirubicin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42), label version 2026-07-24; accessed 2026-11-19.) Epirubicin is an anthracycline, the 4' epimer of doxorubicin. Anthracyclines intercalate into DNA and poison topoisomerase II, which is most damaging to rapidly dividing cells. Epirubicin has been used alone or in combination in a range of malignancies, and it appears in some lymphoma regimens, such as CEOP and VEBEP.
 
 Lymphomas are generally chemosensitive, and anthracycline-containing regimens are the usual backbone for aggressive B-cell lymphoma. This is probably why the model links epirubicin to a lymphoma arising in the lung. However, the standard anthracycline in those regimens is doxorubicin (as in R-CHOP). The retrieved literature does not isolate epirubicin's contribution in pulmonary lymphoma. The prediction is therefore a plausible class-level extrapolation, not an evidence-based finding.
 
@@ -114,6 +114,18 @@ The prediction rests on the model score alone (evidence level L5). There are no 
 - Detailed mechanism-of-action data
 - TGA Product Information warnings and contraindications, to support a safety review
 - A cardiac and haematological monitoring plan suited to lymphoma populations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ellence (epirubicin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

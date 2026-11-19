@@ -56,7 +56,7 @@ The data compiled for this report include **6 clinical trials** (two of them ded
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. The literature describes pazopanib as a multi-target tyrosine kinase inhibitor with anti-angiogenic and antitumorigenic properties. Its action on VEGFR and PDGFR signalling is the basis for its use in sarcoma research.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pazopanib: "Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors." ([DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7), label version 2025-12-16; accessed 2026-11-19.) The literature describes pazopanib as a multi-target tyrosine kinase inhibitor with anti-angiogenic and antitumorigenic properties. Its action on VEGFR and PDGFR signalling is the basis for its use in sarcoma research.
 
 Liposarcoma is a group of adipocytic soft tissue sarcomas with limited treatment options in the advanced or metastatic setting. Pazopanib has been studied in other soft tissue sarcomas, which gives a biological reason to test it in liposarcoma. Liposarcoma was reportedly excluded from the pivotal pazopanib sarcoma trial because the adipocytic group showed no benefit. Dedicated phase 2 studies (NCT01506596, NCT01692496; PMID 31010343, 28844815) then examined activity in intermediate- and high-grade liposarcoma, with modest results.
 
@@ -129,6 +129,18 @@ The evidence level is L2. Two completed phase 2 trials of pazopanib in advanced 
 - TGA Product Information safety content (warnings, contraindications), which is currently unavailable
 - A monitoring plan for liver function, blood pressure, QT interval and other cautions, plus an interaction review for acid-suppressing agents
 - A comparison with current standard second-line options and a defined patient-selection approach
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

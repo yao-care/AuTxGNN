@@ -54,7 +54,7 @@ Amifampridine is a potassium channel blocker that is marketed in Australia as an
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on general pharmacology, amifampridine (3,4-diaminopyridine) blocks voltage-gated potassium channels. This prolongs presynaptic depolarisation and increases acetylcholine release at the neuromuscular junction.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amifampridine: "The mechanism by which amifampridine exerts its therapeutic effect in LEMS patients has not been fully elucidated. Amifampridine is a broad-spectrum potassium channel blocker." ([DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f), label version 2026-04-16; accessed 2026-11-19.) Based on general pharmacology, amifampridine (3,4-diaminopyridine) blocks voltage-gated potassium channels. This prolongs presynaptic depolarisation and increases acetylcholine release at the neuromuscular junction.
 
 A theoretical link to glaucoma could involve potassium channel modulation in retinal ganglion cells or the trabecular meshwork, or a neuroprotective effect. However, potassium channel blockade can also raise neuronal excitability, and there is no established benefit in optic neuropathy. The high TxGNN score is a computational output only. No mechanism-specific data were supplied to support it, so the relevance remains speculative.
 
@@ -95,6 +95,19 @@ The glaucoma prediction has no supporting clinical trials or publications and no
 - Preclinical evidence of a benefit in glaucoma models (for example, retinal ganglion cell protection or intraocular pressure effects)
 - Warnings and contraindications from the TGA-approved PI, with a seizure-risk assessment
 - An assessment of ocular route feasibility, since only an oral tablet is currently registered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

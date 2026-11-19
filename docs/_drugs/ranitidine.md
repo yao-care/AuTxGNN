@@ -55,15 +55,13 @@ For this top-ranked prediction there are **no registered clinical trials** and *
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From established pharmacology, ranitidine is a histamine H2-receptor antagonist. It reduces gastric acid secretion, and acid suppression supports ulcer healing. The literature describes it as four to ten times more potent than cimetidine in inhibiting stimulated acid secretion.
-
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ranitidine: "Ranitidine Tablets are a competitive, reversible inhibitor of the action of histamine at the histamine H 2 -receptors, including receptors on the gastric cells. Ranitidine Tablets do not lower serum Ca ++ in hypercalcemic states." ([DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9), label version 2026-09-24; accessed 2026-11-19.) From established pharmacology, ranitidine is a histamine H2-receptor antagonist. It reduces gastric acid secretion, and acid suppression supports ulcer healing. The literature describes it as four to ten times more potent than cimetidine in inhibiting stimulated acid secretion.
 
 Other predictions are weaker. These include gastrojejunal ulcer, peptic ulcer perforation, duodenogastric reflux, duodenal obstruction, gastroduodenitis, mastocytosis variants and abnormal glucagon secretion. They rest on indirect evidence or none, and are not the focus of this report.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials are registered for "active peptic ulcer disease".
-
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -124,6 +122,19 @@ The prediction is mainly on-label use (acid-related ulcer disease), supported by
 - Obtain mechanism of action data from DrugBank to complete the mechanistic analysis
 
 **Other predictions:** gastrojejunal ulcer and gastroduodenitis (L4, research questions) and peptic ulcer perforation, duodenogastric reflux, duodenal obstruction, mastocytosis variants and abnormal glucagon secretion (Hold) lack direct supporting evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

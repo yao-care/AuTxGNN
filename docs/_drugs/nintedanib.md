@@ -56,7 +56,7 @@ but currently there are **no registered clinical trials** and only **1 indirect 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in the data compiled for this report. Based on known pharmacology, nintedanib is a triple angiokinase inhibitor targeting PDGFR alpha/beta, FGFR 1-3 and VEGFR 1-3.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nintedanib: "Nintedanib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs) and non-receptor tyrosine kinases (nRTKs). Nintedanib inhibits the following RTKs: platelet-derived growth factor receptor (PDGFR) α and β, fibroblast growth factor receptor (FGFR) 1-3, vascular endothelial growth factor receptor (VEGFR) 1-3, colony stimulating factor 1 receptor (CSF1R), and Fms-like tyrosine kinase-3 (FLT-3)." ([DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa), label version 2026-04-21; accessed 2026-11-19.) Based on known pharmacology, nintedanib is a triple angiokinase inhibitor targeting PDGFR alpha/beta, FGFR 1-3 and VEGFR 1-3.
 
 DFSP is driven by the COL1A1-PDGFB fusion, which causes constitutive PDGFR-beta signalling. Nintedanib inhibits this receptor family, so the prediction is mechanistically plausible. Its antifibrotic and antiproliferative effects on fibroblasts in pulmonary fibrosis also fit with DFSP, a fibroblast-derived tumour.
 
@@ -110,6 +110,19 @@ The TxGNN score is high (0.9915) and the PDGFR-driven mechanism is plausible, bu
 - Detailed mechanism of action data
 - TGA Product Information warnings and contraindications for a safety review
 - Review of bleeding risk with anticoagulant and antiplatelet co-medications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

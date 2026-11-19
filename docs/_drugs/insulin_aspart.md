@@ -55,7 +55,7 @@ with **32 clinical trials** and **20 publications** currently supporting this di
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, insulin aspart is a rapid-acting insulin analogue. It replaces deficient endogenous insulin by binding the insulin receptor, promoting peripheral glucose uptake and suppressing hepatic glucose output.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin aspart: "The primary activity of insulin, including NOVOLOG MIX 70/30 is the regulation of glucose metabolism. Insulin and its analog lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85), label version 2026-05-18; accessed 2026-11-19.) Based on known pharmacology, insulin aspart is a rapid-acting insulin analogue. It replaces deficient endogenous insulin by binding the insulin receptor, promoting peripheral glucose uptake and suppressing hepatic glucose output.
 
 Type 1 diabetes is characterised by autoimmune destruction of pancreatic beta cells and absolute insulin deficiency. Insulin replacement is therefore a direct mechanistic match. Because the original indication is diabetes mellitus, this prediction is effectively an on-label use rather than a genuine repurposing opportunity.
 
@@ -130,6 +130,18 @@ The remaining predictions have little or no supporting evidence and are not reco
 | Thiamine-responsive dysfunction syndrome | L5 | Hold | Thiamine is the primary treatment |
 | Classic stiff person syndrome, focal stiff limb syndrome | L5 | Hold | Reflects autoimmune comorbidity with T1D, not a treatment rationale |
 | Drug-induced localised lipodystrophy, centrifugal lipodystrophy | L5 | Hold | Localised lipodystrophy is an adverse effect of injected insulin, so this is a safety concern rather than an opportunity |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

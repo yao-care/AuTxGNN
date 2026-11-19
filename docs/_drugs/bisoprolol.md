@@ -58,7 +58,7 @@ Bisoprolol is a beta-1 selective adrenergic blocker used to lower blood pressure
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Bisoprolol is a beta-1 selective adrenergic blocker, a class that lowers blood pressure and reduces renin release from the kidney.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for bisoprolol: "BISOPROLOL FUMARATE is a beta 1 -selective (cardioselective) adrenoceptor blocking agent without significant membrane stabilizing activity or intrinsic sympathomimetic activity in its therapeutic dosage range. Cardioselectivity is not absolute, however, and at higher doses (≥ 20 mg) bisoprolol fumarate also inhibits beta 2 -adrenoceptors, chiefly located in the bronchial and vascular musculature; to retain selectivity it is therefore important to use the lowest effective dose." ([DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e), label version 2026-11-11; accessed 2026-11-19.) Bisoprolol is a beta-1 selective adrenergic blocker, a class that lowers blood pressure and reduces renin release from the kidney.
 
 Malignant hypertensive renal disease is a severe kidney complication of very high, uncontrolled blood pressure. Because bisoprolol lowers blood pressure, a link is plausible. However, the prediction is a computational output only. Acute malignant hypertension is usually managed with intravenous agents, and beta-blockers are not first-line treatment. The score therefore should not be read as evidence of clinical benefit.
 
@@ -108,6 +108,19 @@ The prediction score is high (0.9994), but no clinical trials or publications ad
 - Mechanism of action data for bisoprolol
 - Review of the TGA Product Information for warnings and contraindications
 - Assessment of how bisoprolol would fit alongside standard intravenous management of malignant hypertension
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

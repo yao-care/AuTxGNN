@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **Tourette syndrome**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the compiled data. Based on known pharmacology, methadone is a mu-opioid receptor agonist with NMDA receptor antagonist activity. Opioid modulation of dopaminergic and serotonergic (5-HT2A/C) pathways is a plausible link to tic and compulsive symptoms.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methadone: "Methadone hydrochloride is a mu-agonist; a synthetic opioid with multiple actions qualitatively similar to those of morphine, the most prominent of which involves the central nervous system and organs composed of smooth muscle. The methadone withdrawal syndrome, although qualitatively similar to that of morphine, differs in that the onset is slower, the course is more prolonged, and the symptoms are less severe." ([DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05), label version 2026-08-04; accessed 2026-11-19.) Based on known pharmacology, methadone is a mu-opioid receptor agonist with NMDA receptor antagonist activity. Opioid modulation of dopaminergic and serotonergic (5-HT2A/C) pathways is a plausible link to tic and compulsive symptoms.
 
 Preclinical and review literature notes that opioid drugs have been reported as effective in treatment-refractory obsessive-compulsive disorder and Tourette syndrome. The 5-HT2A-related head-twitch behaviour in animals has been related to tics and compulsive symptoms. A 1992 report describes methadone treatment of Tourette's disorder, but it is old, small and likely case-level.
 
@@ -148,6 +148,19 @@ The Tourette syndrome prediction has a high model score, but evidence is limited
 - Comparison with established Tourette treatments (e.g., alpha-2 agonists, antipsychotics, behavioural therapy) to assess a plausible benefit-risk case
 - A QT, respiratory depression and dependence-risk assessment in a Tourette population, which is often young
 - If pursued, a pilot or Phase 2 study design with ECG monitoring, with ethics and regulatory review (including controlled-substance requirements)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

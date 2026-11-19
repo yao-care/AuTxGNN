@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **seborrheic dermatitis**, supp
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data were not available in the data compiled for this report. Published reviews describe pimecrolimus as a topical calcineurin inhibitor. It blocks T-cell activation, reduces production of interleukin-2 (IL-2), IL-4, interferon-gamma and tumour necrosis factor-alpha, and inhibits mast cell degranulation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pimecrolimus: "The mechanism of action of pimecrolimus in atopic dermatitis is not known. While the following have been observed, the clinical significance of these observations in atopic dermatitis is not known. It has been demonstrated that pimecrolimus binds with high affinity to macrophilin-12 (FKBP-12) and inhibits the calcium-dependent phosphatase, calcineurin." ([DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06), label version 2026-04-30; accessed 2026-11-19.) Published reviews describe pimecrolimus as a topical calcineurin inhibitor. It blocks T-cell activation, reduces production of interleukin-2 (IL-2), IL-4, interferon-gamma and tumour necrosis factor-alpha, and inhibits mast cell degranulation.
 
 Seborrheic dermatitis is a chronic, relapsing inflammatory skin condition. It involves an inflammatory response to *Malassezia* yeast in sebum-rich areas such as the face and scalp. Atopic dermatitis and seborrheic dermatitis are both inflammatory dermatoses, so a non-steroidal anti-inflammatory agent is mechanistically plausible. This also matters because long-term topical corticosteroid use on the face carries well-known adverse effects.
 
@@ -114,6 +114,19 @@ A completed Phase 2 active-comparator trial and two systematic reviews of RCTs s
 - Ideally, an adequately powered Phase 3 trial or a review of the full results of NCT00403559
 
 *Other predictions in the dataset (for reference only):* "Exanthem" (rank 3) is supported only by small, heterogeneous pilot trials (including oral and vulvar lichen disorders and EGFR-inhibitor rash) and should be treated as a research question. Predictions ranked 4 to 10 have no trials or literature and should be held.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

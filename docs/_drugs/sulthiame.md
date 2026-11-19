@@ -56,7 +56,7 @@ The prediction is computational only and should be treated as a hypothesis.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Sulthiame is generally known as a carbonic anhydrase inhibitor used mainly as an antiepileptic. This background is general pharmacology and is not confirmed by the compiled data.
+ChEMBL (EMBL-EBI) records the mechanism of action of sulthiame as: Carbonic anhydrase inhibitor ([ChEMBL CHEMBL328560 (sulthiame): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL328560), CC BY-SA 3.0; accessed 2026-11-19.) Sulthiame is generally known as a carbonic anhydrase inhibitor used mainly as an antiepileptic. This background is general pharmacology and is not confirmed by the compiled data.
 
 Cauda equina syndrome is a compressive injury to the lumbosacral nerve roots. No plausible pharmacological rationale linking sulthiame to this condition is evident, and no mechanistic link is established. The high TxGNN score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There is no clinical or literature support.
 
@@ -108,6 +108,19 @@ The prediction rests only on a TxGNN model score. There are no clinical trials o
 - A literature and trial search for sulthiame in cauda equina syndrome and the other predicted conditions
 - A clear pharmacological rationale for the predicted indication before any further evaluation
 - Reassessment of the lower-ranked predictions, noting that several are redundant or obsolete ontology terms
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL328560 (sulthiame): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL328560) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

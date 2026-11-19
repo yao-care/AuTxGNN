@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **localized pagetoid reticulosi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, methoxsalen is a psoralen. It is used with UVA light (PUVA) and in extracorporeal photopheresis. It intercalates into DNA and, once activated by UVA, forms crosslinks that induce apoptosis in malignant T cells.
+ChEMBL (EMBL-EBI) records the mechanism of action of methoxsalen as: DNA inhibitor ([ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, methoxsalen is a psoralen. It is used with UVA light (PUVA) and in extracorporeal photopheresis. It intercalates into DNA and, once activated by UVA, forms crosslinks that induce apoptosis in malignant T cells.
 
 Localized pagetoid reticulosis (Woringer-Kolopp disease) is an indolent variant of mycosis fungoides, which is a primary cutaneous T-cell lymphoma. Because methoxsalen is already used in cutaneous T-cell lymphoma, the biological rationale is plausible. However, the high TxGNN score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not independent evidence of efficacy.
 
@@ -120,6 +120,19 @@ The prediction for localized pagetoid reticulosis rests on a model score and a p
 - The TGA Product Information, including indications, warnings, contraindications and the approved route and use of Uvadex
 - A check of the knowledge-graph contraindications (especially skin cancer history and photosensitivity) against the PI
 - Confirmation of whether the existing Uvadex use already covers this disease within the CTCL indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

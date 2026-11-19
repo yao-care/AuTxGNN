@@ -56,7 +56,7 @@ This prediction has **no clinical trials** and **no publications** behind it, so
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Leflunomide's active metabolite (A771726, also called teriflunomide) is known to inhibit dihydroorotate dehydrogenase (DHODH). This depletes pyrimidine pools and dampens the proliferation of rapidly dividing immune cells. That mechanism explains its efficacy in rheumatoid and psoriatic arthritis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for leflunomide: "Leflunomide is an isoxazole immunomodulatory agent that inhibits dihydroorotate dehydrogenase (a mitochondrial enzyme involved in de novo pyrimidine synthesis) and has antiproliferative activity. Several in vivo and in vitro experimental models have demonstrated an anti-inflammatory effect." ([DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52), label version 2025-06-04; accessed 2026-11-19.) Leflunomide's active metabolite (A771726, also called teriflunomide) is known to inhibit dihydroorotate dehydrogenase (DHODH). This depletes pyrimidine pools and dampens the proliferation of rapidly dividing immune cells. That mechanism explains its efficacy in rheumatoid and psoriatic arthritis.
 
 The link to brachydactyly-syndactyly syndrome is weak. It is a developmental malformation syndrome, and an antimetabolite-type immunomodulator is unlikely to correct a congenital limb malformation. The very high TxGNN score (0.9993) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Leflunomide is also teratogenic, which raises safety concerns for any use in a developmental context.
 
@@ -99,12 +99,24 @@ Please also refer to the TGA-approved Product Information (PI) for full warnings
 **Rationale:**
 The prediction has no trials, no literature, and no plausible mechanism for a congenital malformation syndrome. Leflunomide's teratogenicity adds a safety concern.
 
-
 **To proceed, the following is needed:**
 - A credible mechanistic rationale linking DHODH inhibition to this disorder
 - Preclinical or case-level evidence of benefit
 - Mechanism of action data from DrugBank
 - TGA PI warnings and contraindications, with a pregnancy and reproductive risk assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

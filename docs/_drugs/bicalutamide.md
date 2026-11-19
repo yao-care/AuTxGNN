@@ -54,7 +54,7 @@ Bicalutamide is a nonsteroidal androgen receptor antagonist. The TxGNN model pre
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on its known drug class, bicalutamide is a nonsteroidal androgen receptor (AR) antagonist.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bicalutamide: "CASODEX is a non-steroidal androgen receptor inhibitor. It competitively inhibits the action of androgens by binding to cytosol androgen receptors in the target tissue. Prostatic carcinoma is known to be androgen sensitive and responds to treatment that counteracts the effect of androgen and/or removes the source of androgen." ([DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67), label version 2026-02-27; accessed 2026-11-19.) Based on its known drug class, bicalutamide is a nonsteroidal androgen receptor (AR) antagonist.
 
 Androgen signalling drives hair growth in androgen-sensitive follicles, so blocking the AR could plausibly reduce androgen-dependent hair growth. This is the mechanistic basis for the model's prediction.
 
@@ -111,6 +111,18 @@ The only human evidence is a comment letter on a small retrospective review, and
 - Detailed mechanism of action data
 - TGA Product Information warnings and contraindications for safety screening, especially liver function monitoring
 - Assessment of safety in the intended population, including women, given the drug's anti-androgen effects
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

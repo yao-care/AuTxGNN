@@ -60,7 +60,7 @@ However, there are currently **no clinical trials and no publications** supporti
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in the data compiled for this report. Clomifene is a selective estrogen receptor modulator (SERM). It blocks estrogen receptors in the hypothalamus, which reduces negative feedback and raises GnRH, FSH and LH secretion. This is the basis of its use for ovulation induction in female infertility.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clomifene: "Clomiphene citrate is capable of interacting with estrogen-receptor-containing tissues, including the hypothalamus, pituitary, ovary, endometrium, vagina, and cervix. It may compete with estrogen for estrogen-receptor-binding sites and may delay replenishment of intracellular estrogen receptors." ([DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e), label version 2025-10-07; accessed 2026-11-19.) Clomifene is a selective estrogen receptor modulator (SERM). It blocks estrogen receptors in the hypothalamus, which reduces negative feedback and raises GnRH, FSH and LH secretion. This is the basis of its use for ovulation induction in female infertility.
 
 The link to the predicted indication is weak. In this condition, the primary defect is an enzymatic block in testicular steroid production, which sits downstream of the gonadotropin axis. Raising LH stimulation is unlikely to correct a block in the enzymes themselves. The high score (0.999) is therefore best read as a TxGNN model (deep learning) prediction, probably driven by shared reproductive-endocrine associations, rather than as evidence of a therapeutic mechanism.
 
@@ -112,6 +112,19 @@ The prediction has no supporting trials or literature (L5), and the mechanism do
 - TGA Product Information review for warnings and contraindications, particularly in male and paediatric populations, since the approved use is in women.
 
 It overlaps with the existing female infertility indication, so it confirms current use rather than representing true repurposing.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

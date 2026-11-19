@@ -59,7 +59,7 @@ The TxGNN model (deep learning) predicts it may be effective for **Fibromatosis,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, alectinib is a selective anaplastic lymphoma kinase (ALK) tyrosine kinase inhibitor. Its efficacy in ALK-positive NSCLC is well established, but no mechanism has been identified that would link it to gingival fibromatosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alectinib: "Alectinib is a tyrosine kinase inhibitor that targets ALK and RET. In nonclinical studies, alectinib inhibited ALK phosphorylation and ALK-mediated activation of the downstream signaling proteins STAT3 and AKT, and decreased tumor cell viability in multiple cell lines harboring ALK fusions, amplifications, or activating mutations." ([DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb), label version 2026-08-21; accessed 2026-11-19.) Based on known information, alectinib is a selective anaplastic lymphoma kinase (ALK) tyrosine kinase inhibitor. Its efficacy in ALK-positive NSCLC is well established, but no mechanism has been identified that would link it to gingival fibromatosis.
 
 Gingival fibromatosis is a benign overgrowth of gum tissue. It is not known to be driven by ALK signalling. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction should be treated as a hypothesis only.
 
@@ -124,6 +124,19 @@ The prediction rests only on a TxGNN model (deep learning) score, which may refl
 - Preclinical or case-level evidence for alectinib in this condition
 - The approved indication text and the Product Information (PI) warnings and contraindications for Alecensa
 - A review of the other top-ranked predictions. The lung germ cell tumour prediction (rank 7) is a possible research question, using a biomarker-driven approach in ALK-fusion-positive tumours.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

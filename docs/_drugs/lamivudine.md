@@ -56,7 +56,7 @@ This prediction largely restates lamivudine's existing anti-HIV activity in an a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, lamivudine is a cytosine nucleoside analogue. Its active triphosphate form inhibits viral reverse transcriptase and terminates the growing DNA chain.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for lamivudine: "Lamivudine is an antiretroviral agent. […] Lamivudine is a synthetic nucleoside analogue. Intracellularly, lamivudine is phosphorylated to its active 5′-triphosphate metabolite, lamivudine triphosphate (3TC-TP). The principal mode of action of 3TC-TP is inhibition of HIV-1 reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8), label version 2024-08-15; accessed 2026-11-19.) Based on known pharmacology, lamivudine is a cytosine nucleoside analogue. Its active triphosphate form inhibits viral reverse transcriptase and terminates the growing DNA chain.
 
 SIV is a lentivirus closely related to HIV and uses a similar reverse transcriptase enzyme. Activity against SIV is therefore biologically plausible. The macaque studies in the literature use lamivudine as part of combination antiretroviral regimens, and they have also studied the M184V resistance mutation that lamivudine selects.
 
@@ -127,6 +127,19 @@ The SIV prediction is supported only by macaque and in vitro studies, with no hu
 - Detailed mechanism of action data
 - Approved indication text for the ARTG entry and the TGA Product Information safety content
 - If a human repurposing opportunity is wanted, evaluate other predictions on their merits. Hepatitis B is the only one with substantial trial evidence, and it is already an approved use.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -54,7 +54,7 @@ Amoxicillin is a beta-lactam antibiotic that acts against susceptible bacteria. 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Amoxicillin belongs to the beta-lactam class of antibiotics, which inhibit bacterial cell wall synthesis.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for amoxicillin: "Amoxicillin is an antibacterial drug. […] Amoxicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77), label version 2026-11-13; accessed 2026-11-19.) Amoxicillin belongs to the beta-lactam class of antibiotics, which inhibit bacterial cell wall synthesis.
 
 Polyclonal hyperviscosity syndrome is driven by excess immunoglobulins in the blood and has no antibacterial target. No plausible mechanistic link between amoxicillin and this condition was identified. The high score is a model prediction only and is not supported by any trial or publication. At this stage the prediction should be regarded as unsubstantiated.
 
@@ -93,6 +93,19 @@ The prediction rests on a model score alone (evidence level L5). There are no su
 - Any preclinical or clinical data directly studying this disease
 - Product Information (PI) review for warnings and contraindications
 - Detailed mechanism of action data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

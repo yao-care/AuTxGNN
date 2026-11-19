@@ -56,7 +56,7 @@ It is a purely computational result, and the most biologically plausible candida
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Sulfasalazine is known to have anti-inflammatory activity, and the compiled preclinical literature points to inhibition of NF-kB signalling and of the cystine/glutamate antiporter (xCT).
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for sulfasalazine: "The mode of action of sulfasalazine (SSZ) or its metabolites, 5-aminosalicylic acid (5-ASA) and sulfapyridine (SP), may be related to the anti-inflammatory and/or immunomodulatory properties that have been observed in animal and in vitro models, to its affinity for connective tissue, and/or to the relatively high concentration it reaches in serous fluids, the liver and intestinal walls, as demonstrated in autoradiographic studies in animals. In ulcerative colitis, clinical studies utilizing rectal administration of SSZ, SP and 5-ASA have indicated that the major therapeutic action may reside in the 5-ASA moiety." ([DailyMed: Azulfidine En-Tabs (sulfasalazine) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b9ef541a-93c8-4428-ba45-398aa0b327d1), label version 2026-10-27; accessed 2026-11-19.) Sulfasalazine is known to have anti-inflammatory activity, and the compiled preclinical literature points to inhibition of NF-kB signalling and of the cystine/glutamate antiporter (xCT).
 
 For brachydactyly-syndactyly syndrome, no mechanistic link could be identified. It is a rare congenital limb malformation of genetic origin, and sulfasalazine's anti-inflammatory actions have no evident relevance to its pathophysiology. The high score reflects a computational pattern only, and the same applies to the other rare genetic conditions in the top 10 (for example colobomatous microphthalmia-rhizomelic dysplasia syndrome, WHIM syndrome and acromesomelic dysplasia, Hunter-Thompson type).
 
@@ -126,6 +126,19 @@ The top-ranked prediction (brachydactyly-syndactyly syndrome) has no clinical tr
 - Human efficacy data for osteoarthritis, such as a pilot clinical trial, before any clinical decision
 - Approved indication text and safety information from the TGA Product Information, which were not available in the data compiled for this report
 - Confirmation of the route and formulation needed (the only Australian product is an oral enteric-coated tablet, whereas the preclinical osteoarthritis work used a sulfasalazine-hyaluronic acid formulation)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Azulfidine En-Tabs (sulfasalazine) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b9ef541a-93c8-4428-ba45-398aa0b327d1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

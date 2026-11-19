@@ -58,7 +58,7 @@ Enfortumab vedotin (Padcev) is a Nectin-4-directed antibody-drug conjugate (ADC)
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, enfortumab vedotin is an antibody-drug conjugate that targets Nectin-4, a cell-surface protein, and delivers the cytotoxic payload MMAE to cells expressing it. The literature compiled here describes its use in metastatic urothelial carcinoma, including in combination with pembrolizumab.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for enfortumab vedotin: "Enfortumab vedotin-ejfv is an ADC. The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. The small molecule, MMAE, is a microtubule-disrupting agent, attached to the antibody via a protease-cleavable linker." ([DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed), label version 2026-08-04; accessed 2026-11-19.) Based on known information, enfortumab vedotin is an antibody-drug conjugate that targets Nectin-4, a cell-surface protein, and delivers the cytotoxic payload MMAE to cells expressing it. The literature compiled here describes its use in metastatic urothelial carcinoma, including in combination with pembrolizumab.
 
 **Leprosy (rank 1):** No reasonable mechanistic link was identified. Leprosy is a bacterial infection, and a cytotoxic ADC directed at a tumour antigen is not a plausible treatment. The high score (0.9953) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Several other top-ranked predictions, such as cerebral infarction, homozygous familial hypercholesterolemia, HIV infection, and two veterinary herpesvirus diseases (malignant catarrhal fever and infectious bovine rhinotracheitis), show the same lack of plausibility. The two veterinary diseases share an identical score, which suggests an ontology-mapping artefact.
 
@@ -150,6 +150,19 @@ Label-based warnings and contraindications were not available in the data compil
 - Obtain results from EV-202 (NCT04225117), particularly the breast cancer cohort, and Nectin-4 expression data in HER2-positive breast cancer
 - Check whether any cohort-level data separate HER2-positive from triple-negative disease
 - Review the clinical significance of the interaction signals (especially clarithromycin) against the PI
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

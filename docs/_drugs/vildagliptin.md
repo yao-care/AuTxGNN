@@ -56,7 +56,7 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Vildagliptin is a DPP-4 inhibitor. The compiled pharmacology data lists DPP-4 as its main target, along with DPP-8, DPP-9 and TRPV4. Its efficacy in type 2 diabetes is established. It raises incretin levels (GLP-1 and GIP), which supports glucose-dependent insulin secretion and reduces glucagon.
+ChEMBL (EMBL-EBI) records the mechanism of action of vildagliptin as: Dipeptidyl peptidase IV inhibitor ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0; accessed 2026-11-19.) Vildagliptin is a DPP-4 inhibitor. The compiled pharmacology data lists DPP-4 as its main target, along with DPP-8, DPP-9 and TRPV4. Its efficacy in type 2 diabetes is established. It raises incretin levels (GLP-1 and GIP), which supports glucose-dependent insulin secretion and reduces glucagon.
 
 The data compiled for this report does not support a mechanistic link between this drug and classic stiff person syndrome. Stiff person syndrome is a rare autoimmune neurological disorder, often associated with anti-GAD65 antibodies. No established connection to DPP-4 inhibition was identified. The very high score from the TxGNN model (deep learning) (0.9988) may reflect similarities the model learned between related diseases, not biological evidence. It is not evidence of benefit. A closely related condition, focal stiff limb syndrome, received an identical score (0.9988) and also has no supporting evidence.
 
@@ -93,6 +93,19 @@ The prediction rests on the score from the TxGNN model (deep learning) alone (Ev
 - The approved indication text for the ARTG entry
 
 **Note:** In the data compiled, **type 1 diabetes mellitus** has substantially more support. This includes a completed Phase 2 randomised trial of rapamycin plus vildagliptin (NCT02803892, published as PMID 33124663) and several small mechanistic studies. It is rated L2, but the evidence is small and adjunctive, and vildagliptin is not approved for type 1 diabetes. If the aim is to prioritise repurposing opportunities for this drug, that indication may merit separate evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

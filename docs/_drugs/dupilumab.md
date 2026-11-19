@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **bronchitis**, but the support
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the published literature, dupilumab is an antibody against the IL-4 receptor alpha subunit (IL-4Rα). It blocks both IL-4 and IL-13 signalling, which drive type 2 inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dupilumab: "Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor." ([DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780), label version 2026-04-22; accessed 2026-11-19.) Based on the published literature, dupilumab is an antibody against the IL-4 receptor alpha subunit (IL-4Rα). It blocks both IL-4 and IL-13 signalling, which drive type 2 inflammation.
 
 Atopic dermatitis is a type 2 inflammatory disease. Type 2 inflammation also underlies eosinophilic airway disease such as asthma and a subset of COPD, so a link to airway conditions is biologically plausible.
 
@@ -112,6 +112,19 @@ The TxGNN score is high, but no trial tests dupilumab in bronchitis. The evidenc
 - Mechanism of action data to complete the mechanistic analysis
 - Controlled trial evidence in the chosen phenotype, including a check of the COPD pivotal trial data and the Australian regulatory status for that use
 - A safety monitoring plan covering immunosuppressant co-medications and known dupilumab adverse effects such as conjunctivitis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

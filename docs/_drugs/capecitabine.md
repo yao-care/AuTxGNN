@@ -54,8 +54,7 @@ Capecitabine is an oral fluoropyrimidine chemotherapy. The TxGNN model predicts 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, capecitabine is a prodrug converted to 5-fluorouracil, which inhibits thymidylate synthase and disrupts DNA and RNA synthesis. This general knowledge is not drawn from the supplied data.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for capecitabine: "Capecitabine is metabolized to fluorouracil in vivo. Both normal and tumor cells metabolize fluorouracil to 5-fluoro-2'-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP). These metabolites cause cell injury by two different mechanisms." ([DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5), label version 2026-02-05; accessed 2026-11-19.) Based on general pharmacology, capecitabine is a prodrug converted to 5-fluorouracil, which inhibits thymidylate synthase and disrupts DNA and RNA synthesis. This general knowledge is not drawn from the supplied data.
 
 GAPPS is a rare hereditary syndrome associated with APC promoter 1B mutations. No syndrome-specific evidence was supplied, so whether capecitabine's mechanism applies to this setting is unverified.
 
@@ -107,6 +106,19 @@ The prediction score is high, but it comes from the TxGNN model (deep learning) 
 - Mechanism of action data
 - TGA Product Information, including indications, warnings and contraindications
 - A review of DPD deficiency testing and other safety considerations for this hereditary population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -54,7 +54,7 @@ Aripiprazole is an atypical antipsychotic with partial agonist activity at dopam
 
 ## Why is This Prediction Reasonable?
 
-Aripiprazole acts as a partial agonist at dopamine D2 and serotonin 5-HT1A receptors and as an antagonist at 5-HT2A receptors. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the mechanistic rationale in the evaluation data. This profile allows it to modulate dopaminergic and serotonergic tone alongside an antidepressant, which is the basis for adjunctive use in major depressive disorder.
+Aripiprazole acts as a partial agonist at dopamine D2 and serotonin 5-HT1A receptors and as an antagonist at 5-HT2A receptors. According to the Mechanism of Action section of the US FDA-approved prescribing information for aripiprazole: "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be), label version 2025-04-04; accessed 2026-11-19.) This description reflects the mechanistic rationale in the evaluation data. This profile allows it to modulate dopaminergic and serotonergic tone alongside an antidepressant, which is the basis for adjunctive use in major depressive disorder.
 
 Mood disorders share disturbances in monoaminergic signalling, so a mechanism that acts on mood-related circuits is plausible across related conditions. Phase 3 randomised trials and several network meta-analyses of adjunctive antipsychotics in depression support this link (for example, a 2026 network meta-analysis in JAMA Psychiatry).
 
@@ -124,6 +124,19 @@ Several large, completed Phase 3 randomised, double-blind, placebo-controlled tr
 - Confirmation of the TGA-approved indications for the marketed product, and whether adjunctive MDD use is covered
 - A monitoring plan for akathisia, metabolic parameters, weight and impulse-control behaviours
 - Detailed mechanism-of-action data from DrugBank
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

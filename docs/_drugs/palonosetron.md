@@ -56,7 +56,7 @@ The evidence is model prediction only and does not currently support therapeutic
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, palonosetron is a second-generation 5-HT3 receptor antagonist. Its efficacy in preventing chemotherapy-induced nausea and vomiting has been shown in phase 3 trials, and mechanistically it may be applicable to migraine, which involves serotonin signalling and prominent nausea.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for palonosetron: "Palonosetron is a 5-HT 3 receptor antagonist with a strong binding affinity for this receptor and little or no affinity for other receptors. Cancer chemotherapy may be associated with a high incidence of nausea and vomiting, particularly when certain agents, such as cisplatin, are used." ([DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7), label version 2025-04-29; accessed 2026-11-19.) Based on known information, palonosetron is a second-generation 5-HT3 receptor antagonist. Its efficacy in preventing chemotherapy-induced nausea and vomiting has been shown in phase 3 trials, and mechanistically it may be applicable to migraine, which involves serotonin signalling and prominent nausea.
 
 The TxGNN score is very high (0.9974), but this should be read cautiously. The only linked publication reports palonosetron *inducing* migraine-type headache, which is a safety signal in the opposite direction to benefit. 5-HT3 antagonists have a plausible but unproven role in migraine and nausea pathways, and no clinical evidence supports palonosetron for migraine treatment or prevention.
 
@@ -103,6 +103,19 @@ The prediction rests on a model score alone (evidence level L5). The only linked
 - The TGA Product Information, to complete warnings, contraindications and the approved indication
 - Preclinical or early clinical evidence of efficacy in migraine that addresses the reported headache signal
 - A review of interaction risk with triptans and QT-prolonging drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

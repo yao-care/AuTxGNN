@@ -56,10 +56,9 @@ This is a model-only prediction (Evidence Level L5) with no identified mechanist
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Trastuzumab deruxtecan is generally characterised as a HER2-directed antibody-drug conjugate carrying a topoisomerase I inhibitor payload, designed to kill HER2-expressing tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trastuzumab deruxtecan: "Fam-trastuzumab deruxtecan-nxki is a HER2-directed antibody-drug conjugate. The antibody is a humanized anti-HER2 IgG1. The small molecule, DXd, is a topoisomerase I inhibitor attached to the antibody by a cleavable linker." ([DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6), label version 2026-05-15; accessed 2026-11-19.) Trastuzumab deruxtecan is generally characterised as a HER2-directed antibody-drug conjugate carrying a topoisomerase I inhibitor payload, designed to kill HER2-expressing tumour cells.
 
 On this basis, the prediction is **not mechanistically reasonable**. The drug has no known role in bone metabolism, and osteoporosis is not a HER2-driven or oncologic condition. The high TxGNN score (0.9931) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by any trial or publication.
-
 
 ## Clinical Trial Evidence
 
@@ -116,6 +115,19 @@ The prediction rests only on a score from the TxGNN model (deep learning), which
 - Mechanism of action data (currently unavailable)
 - Approved indication text and safety information from the TGA Product Information
 - A risk-benefit assessment of the drug's known toxicities (interstitial lung disease, ocular and haematological effects) against any proposed non-oncologic use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

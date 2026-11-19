@@ -57,7 +57,7 @@ The rank 1 prediction, perisylvian polymicrogyria with cerebellar hypoplasia and
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known pharmacology, selegiline is an irreversible, selective MAO-B inhibitor. At higher oral doses (20 mg/day or more) it also inhibits MAO-A. Both actions raise dopamine availability.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for selegiline: "Selegiline is an irreversible inhibitor of monoamine oxidase (MAO), which regulates the metabolic degradation of catecholamines and serotonin in the central nervous system and peripheral tissues. At recommended doses, selegiline is selective for MAO type B (MAO-B), the major form in the brain." ([DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0), label version 2021-06-01; accessed 2026-11-19.) Based on known pharmacology, selegiline is an irreversible, selective MAO-B inhibitor. At higher oral doses (20 mg/day or more) it also inhibits MAO-A. Both actions raise dopamine availability.
 
 Parkinson's disease is a dopamine-deficiency condition. Negative symptoms of schizophrenia (such as apathy, reduced motivation and blunted affect) are thought to be linked to low dopamine activity in the prefrontal cortex. Selegiline has therefore been tested as an add-on to antipsychotics. Its antioxidant and neuroprotective properties are also discussed in the literature.
 
@@ -135,6 +135,19 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 - Confirmation of the mechanism of action from DrugBank
 - A safety plan for monitoring positive symptoms and managing interactions with co-prescribed psychiatric drugs
 - A search of ANZCTR for local trials
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

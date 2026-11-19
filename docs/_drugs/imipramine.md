@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, imipramine is a tricyclic antidepressant that inhibits the reuptake of noradrenaline and serotonin.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for imipramine: "The mechanism of action of imipramine hydrochloride, is not definitely known. However, it does not act primarily by stimulation of the central nervous system. The clinical effect is hypothesized as being due to potentiation of adrenergic synapses by blocking uptake of norepinephrine at nerve endings." ([DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919), label version 2026-11-04; accessed 2026-11-19.) Based on known pharmacology, imipramine is a tricyclic antidepressant that inhibits the reuptake of noradrenaline and serotonin.
 
 Noradrenergic enhancement in prefrontal circuits is also the mechanism of non-stimulant ADHD drugs such as atomoxetine, so the link is plausible. Imipramine and its metabolite desipramine are described in the literature as non-selective noradrenaline reuptake inhibitors that can be effective when stimulants fail. Older clinical reports support this, including "Imipramine for attention deficit disorder" (1983) and a study of children with ADHD who did not respond to stimulants.
 
@@ -132,6 +132,19 @@ The same analysis ranked other candidates. Most have no supporting evidence and 
 
 - Guardrails are ECG and anticholinergic monitoring, overdose toxicity, drug interactions, and comparison with first-line SSRIs and CBT. It partly overlaps with the existing anxiety-related uses.
 - **Obsessive-compulsive disorder (L3, Research Question).** Older comparative studies suggest imipramine is less effective than clomipramine, and approved SSRIs and clomipramine are preferred.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

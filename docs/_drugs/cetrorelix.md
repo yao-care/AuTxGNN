@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Cetrorelix is a peptide antagonist of the GnRH receptor (GNRHR). By blocking this receptor it suppresses LH and FSH release, which lowers gonadal sex hormone production, including androgens. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description draws on the pharmacology record.
+Cetrorelix is a peptide antagonist of the GnRH receptor (GNRHR). By blocking this receptor it suppresses LH and FSH release, which lowers gonadal sex hormone production, including androgens. According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cetrorelix: "GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge." ([DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79), label version 2025-09-22; accessed 2026-11-19.) This description draws on the pharmacology record.
 
 In theory, lower androgen signalling could help androgen-dependent hirsutism. However, hypertrichosis is generally androgen-independent, so the mechanistic link is weak. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by any clinical or literature data. It should be read as a hypothesis only.
 
@@ -103,6 +103,19 @@ The prediction for hypertrichosis has a very high model score but no clinical tr
 - A literature and trial search for GnRH antagonists in hypertrichosis and hirsutism, to find any human or preclinical evidence
 - If the hormonal predictions are pursued, a focused review of central precocious puberty (the most biologically plausible target, though it has not yet been assessed) and of whether cetrorelix offers any advantage over established GnRH agonists
 - Assessment of route and formulation compatibility (cetrorelix is injectable only in Australia) and of the paediatric safety data that any of these predicted conditions would require
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

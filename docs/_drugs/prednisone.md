@@ -54,7 +54,7 @@ Prednisone is an oral systemic glucocorticoid that suppresses T-cell activation 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for prednisone are not available in the data compiled for this report. From general pharmacology, prednisone is a systemic glucocorticoid with broad immunosuppressive and anti-inflammatory effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prednisone: "Naturally occurring corticosteroids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs, such as prednisone, are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a), label version 2026-09-23; accessed 2026-11-19.) From general pharmacology, prednisone is a systemic glucocorticoid with broad immunosuppressive and anti-inflammatory effects.
 
 Alopecia areata is a T-cell-mediated autoimmune attack on the hair follicle that breaks down the follicle's immune privilege. By suppressing T-cell activation and inflammatory cytokine production, prednisone could plausibly interrupt this process. Systemic corticosteroids have been used for this condition since the 1950s to 1970s.
 
@@ -104,6 +104,18 @@ Alopecia areata has a plausible immune mechanism for glucocorticoid action and a
 - Mechanism of action data from DrugBank
 - Controlled data on prednisone as part of a regimen, with relapse after withdrawal as an outcome
 - A monitoring plan for steroid adverse effects, with attention to hypertension, hyperglycaemia and infection risk, and review of interacting medicines such as adalimumab
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for prednisone are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

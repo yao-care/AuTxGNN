@@ -58,7 +58,7 @@ Acarbose is an oral alpha-glucosidase inhibitor that acts locally in the gut to 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Acarbose is known as an alpha-glucosidase inhibitor that acts locally in the gut to delay carbohydrate absorption and blunt postprandial glucose rises.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for acarbose: "In contrast to sulfonylureas, Acarbose Tablets do not enhance insulin secretion. The antihyperglycemic action of acarbose results from a competitive, reversible inhibition of pancreatic alpha-amylase and membrane-bound intestinal alpha-glucoside hydrolase enzymes." ([DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a), label version 2026-08-11; accessed 2026-11-19.) Acarbose is known as an alpha-glucosidase inhibitor that acts locally in the gut to delay carbohydrate absorption and blunt postprandial glucose rises.
 
 Focal stiff limb syndrome is a neurological disorder within the stiff-person spectrum, linked to impaired GABAergic inhibition or autoimmune mechanisms. No mechanistic link to alpha-glucosidase inhibition has been identified. The only loose connection is that autoimmune conditions related to this spectrum can co-occur with diabetes, which does not support acarbose as a treatment.
 
@@ -105,6 +105,19 @@ The evidence level is L5. No trials or publications study focal stiff limb syndr
 - Any clinical or preclinical study directly addressing focal stiff limb syndrome
 - A plausible, documented mechanism linking alpha-glucosidase inhibition to the disease
 - Mechanism of action data and TGA Product Information warnings and contraindications for review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,8 +60,7 @@ Most of this evidence relates to basal cell carcinoma (BCC), which overlaps with
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, sonidegib is a Smoothened (SMO) receptor antagonist. It blocks the Hedgehog signalling pathway, which is aberrantly activated in the majority of basal cell carcinomas.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sonidegib: "Sonidegib is an inhibitor of the Hh pathway. Sonidegib binds to and inhibits Smoothened, a transmembrane protein involved in Hh signal transduction." ([DailyMed: Odomzo (sonidegib) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=028312dc-d155-4fd5-8abd-6bb9f011d3cc), label version 2024-12-31; accessed 2026-11-19.) Based on known information, sonidegib is a Smoothened (SMO) receptor antagonist. It blocks the Hedgehog signalling pathway, which is aberrantly activated in the majority of basal cell carcinomas.
 
 Other predictions were also generated. Only two have any supporting evidence:
 - **Xeroderma pigmentosum**: a single 2026 case report of sonidegib for multiple BCCs in an XP patient. The benefit is indirect, through treating BCC rather than the underlying DNA repair defect.
@@ -146,6 +145,19 @@ A randomised, double-blind Phase 2 trial (n=230) and consensus guidelines suppor
 - The approved indication wording for ARTG 11304Y, to confirm the extent of overlap with BCC
 - A restriction to BCC, with CK and musculoskeletal monitoring and pregnancy avoidance
 - Prospective data before considering xeroderma pigmentosum or medulloblastoma. Both currently rest on a single case report or on no clinical evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Odomzo (sonidegib) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=028312dc-d155-4fd5-8abd-6bb9f011d3cc) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

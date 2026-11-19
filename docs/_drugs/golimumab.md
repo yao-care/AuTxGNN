@@ -60,8 +60,7 @@ Support is weak: **1 tangentially related clinical trial** and **6 publications*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Golimumab is a fully human monoclonal antibody that blocks TNF-alpha, as described in the published literature. TNF-alpha is a central driver of inflammation in rheumatoid arthritis and related diseases.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for golimumab: "Golimumab is a human monoclonal antibody that binds to both the soluble and transmembrane bioactive forms of human TNFα. This interaction prevents the binding of TNFα to its receptors, thereby inhibiting the biological activity of TNFα (a cytokine protein)." ([DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00), label version 2026-11-02; accessed 2026-11-19.) Golimumab is a fully human monoclonal antibody that blocks TNF-alpha, as described in the published literature. TNF-alpha is a central driver of inflammation in rheumatoid arthritis and related diseases.
 
 There are important caveats:
 - None of the retrieved studies tests golimumab in rheumatoid vasculitis.
@@ -126,6 +125,19 @@ The high model score is not backed by direct evidence. The only registered trial
 - Detailed mechanism of action data
 - Product Information warnings and contraindications for Australia
 - Confirmation of the approved indication text for the ARTG entry
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

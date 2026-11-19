@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **primary release disorder of p
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, methoxy polyethylene glycol-epoetin beta is a long-acting ESA acting on the erythropoietin receptor. Its established role is in stimulating red cell production, and its approved indication text was not available for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methoxy polyethylene glycol-epoetin beta: "Mircera is an erythropoietin receptor activator with greater activity in vivo as well as increased half-life, in contrast to erythropoietin. A primary growth factor for erythroid development, erythropoietin is produced in the kidney and released into the bloodstream in response to hypoxia." ([DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88), label version 2026-08-14; accessed 2026-11-19.) Based on known information, methoxy polyethylene glycol-epoetin beta is a long-acting ESA acting on the erythropoietin receptor. Its established role is in stimulating red cell production, and its approved indication text was not available for this report.
 
 No established link to platelet release or function defects was identified. The prediction is a TxGNN model (deep learning) output only and may reflect similarities the model learned between related diseases, not biological evidence. There are no supporting trials or literature, so any mechanistic connection would be speculative.
 
@@ -98,6 +98,19 @@ The top prediction (score 0.9936) comes only from the TxGNN model (deep learning
 - Preclinical or clinical evidence linking erythropoietin receptor agonism to platelet release function
 - A review of the thromboembolic risk in any platelet or coagulation disorder population
 - Route compatibility and similarity-to-original-indication assessments, which are still pending
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

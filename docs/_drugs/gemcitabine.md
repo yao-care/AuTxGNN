@@ -56,7 +56,7 @@ with **40 clinical trials** and **20 publications** currently listed in the data
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known information, gemcitabine is a nucleoside (pyrimidine) analogue that inhibits DNA synthesis and ribonucleotide reductase. This cytotoxic mechanism is not specific to one tumour type.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for gemcitabine: "Gemcitabine kills cells undergoing DNA synthesis and blocks the progression of cells through the G1/S-phase boundary. Gemcitabine is metabolized by nucleoside kinases to diphosphate (dFdCDP) and triphosphate (dFdCTP) nucleosides." ([DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84), label version 2026-07-27; accessed 2026-11-19.) Based on known information, gemcitabine is a nucleoside (pyrimidine) analogue that inhibits DNA synthesis and ribonucleotide reductase. This cytotoxic mechanism is not specific to one tumour type.
 
 Its efficacy in ovarian cancer and other solid tumours is established, and mechanistically it may be applicable to breast carcinoma. The literature describes gemcitabine as an active agent in metastatic breast cancer. Single-agent response rates of 16% to 37% are reported, and higher response rates are reported in combination with platinum, taxanes, vinorelbine and anthracyclines.
 
@@ -135,6 +135,19 @@ Gemcitabine-containing regimens, including gemcitabine plus paclitaxel, have a c
 - A safety monitoring plan covering myelosuppression, renal and hepatic function, and pulmonary toxicity
 
 **Other predicted indications:** Rectum mucinous adenocarcinoma, colon mucinous adenocarcinoma, villoglandular endometrial endometrioid adenocarcinoma, rete ovarii adenocarcinoma and mucin-rich endometrial endometrioid adenocarcinoma have model prediction support only or unrelated literature (Hold). Endometrial mixed adenocarcinoma and endometrial mucinous adenocarcinoma have limited indirect supporting data (Research Question). Cervical mucinous adenocarcinoma and gallbladder mucinous adenocarcinoma have only indirect or case-report evidence (Hold).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

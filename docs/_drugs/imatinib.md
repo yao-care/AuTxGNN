@@ -74,7 +74,7 @@ Of the ten predictions reviewed, the better-supported ones are fibroblastic neop
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Imatinib is known to be a small-molecule tyrosine kinase inhibitor that blocks BCR-ABL, KIT and PDGFR kinases. Its efficacy in its original indications is established, and the literature in this report describes this inhibition as the basis for its activity in KIT/PDGFRA-driven GIST and PDGFB-driven dermatofibrosarcoma protuberans (DFSP).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for imatinib: "Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leukemia." ([DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b), label version 2026-07-13; accessed 2026-11-19.) Imatinib is known to be a small-molecule tyrosine kinase inhibitor that blocks BCR-ABL, KIT and PDGFR kinases. Its efficacy in its original indications is established, and the literature in this report describes this inhibition as the basis for its activity in KIT/PDGFRA-driven GIST and PDGFB-driven dermatofibrosarcoma protuberans (DFSP).
 
 **Heart fibrosarcoma (rank 1):** No heart-specific data were found. The only literature item is a 2008 general commentary on new imatinib indications. Any link would be indirect, through PDGFRB inhibition in COL1A1-PDGFB-driven fibroblastic tumours, and this has not been established for cardiac fibrosarcoma.
 
@@ -185,11 +185,12 @@ Please refer to the TGA-approved Product Information (PI) for the full safety in
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
 
 <!-- review:end log -->
 

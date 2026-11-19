@@ -56,7 +56,7 @@ but the support is currently limited to **0 registered clinical trials** and **3
 
 ## Why is This Prediction Reasonable?
 
-Rivastigmine inhibits the enzymes that break down acetylcholine. Detailed mechanism of action data are not available in the data compiled for this report. Based on known information, rivastigmine is a cholinesterase inhibitor whose efficacy in Alzheimer's disease is established, and mechanistically it may be applicable to glaucoma.
+Rivastigmine inhibits the enzymes that break down acetylcholine. According to the Mechanism of Action section of the US FDA-approved prescribing information for rivastigmine: "Although the precise mechanism of action of rivastigmine is unknown, it is thought to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine through reversible inhibition of its hydrolysis by cholinesterase." ([DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d), label version 2025-11-11; accessed 2026-11-19.) Based on known information, rivastigmine is a cholinesterase inhibitor whose efficacy in Alzheimer's disease is established, and mechanistically it may be applicable to glaucoma.
 
 Cholinergic stimulation at the ciliary muscle and trabecular meshwork may increase aqueous outflow and lower intraocular pressure, as seen with cholinergic agents such as pilocarpine. A 2000 rabbit study reported that topical rivastigmine lowered intraocular pressure in normotensive animals.
 
@@ -103,6 +103,19 @@ The glaucoma prediction has a high model score and a plausible cholinergic mecha
 - Preclinical safety and tolerability studies of a topical ocular formulation
 - Confirmation of the efficacy signal in additional animal models, followed by early-phase human studies
 - A review of the contraindication signals above (for example bradycardia, asthma and COPD) for systemic exposure, if relevant
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

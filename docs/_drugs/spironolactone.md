@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **hypotrichosis simplex of the 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Spironolactone is known to block aldosterone receptors, which explains its use in hypertension, heart failure and primary aldosteronism. It also has anti-androgenic activity, through androgen receptor antagonism and reduced androgen synthesis. This is the basis for its use in androgen-driven hair loss.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for spironolactone: "Spironolactone and its active metabolites are specific pharmacologic antagonists of aldosterone, acting primarily through competitive binding of receptors at the aldosterone-dependent sodium-potassium exchange site in the distal convoluted renal tubule. Spironolactone causes increased amounts of sodium and water to be excreted, while potassium is retained." ([DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc), label version 2025-11-28; accessed 2026-11-19.) Spironolactone is known to block aldosterone receptors, which explains its use in hypertension, heart failure and primary aldosteronism. It also has anti-androgenic activity, through androgen receptor antagonism and reduced androgen synthesis. This is the basis for its use in androgen-driven hair loss.
 
 The link to this prediction is weak. Hypotrichosis simplex is a rare inherited hair disorder, associated with variants in genes such as *CDSN*, *APCDD1* and *RPL21*. It is not driven by androgens. The high TxGNN score therefore appears to reflect network proximity to other hair disorders rather than a plausible pharmacological mechanism. The connection with the drug's original cardiovascular and renal indications is also indirect.
 
@@ -138,11 +138,12 @@ This is worth evaluating as a separate candidate.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
 
 <!-- review:end log -->
 

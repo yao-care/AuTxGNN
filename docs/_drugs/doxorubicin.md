@@ -56,7 +56,7 @@ Doxorubicin is already a backbone drug in standard multi-agent Ewing sarcoma reg
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Doxorubicin is generally understood to be a topoisomerase II inhibitor and DNA intercalator, which is cytotoxic to rapidly dividing tumour cells. This general description comes from standard pharmacology rather than the compiled data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for doxorubicin: "The cytotoxic effect of doxorubicin hydrochloride on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases." ([DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd), label version 2026-11-12; accessed 2026-11-19.) Doxorubicin is generally understood to be a topoisomerase II inhibitor and DNA intercalator, which is cytotoxic to rapidly dividing tumour cells. This general description comes from standard pharmacology rather than the compiled data.
 
 Its efficacy in lymphoid cancers is established. Ewing sarcoma is also a rapidly proliferating, chemotherapy-sensitive tumour. Doxorubicin is already a core component of the standard multi-agent regimens used there (vincristine, doxorubicin and cyclophosphamide, alternating with ifosfamide and etoposide).
 
@@ -149,6 +149,18 @@ Several large completed Phase 3 randomised trials and multiple RCTs use doxorubi
 | 8 | Parameningeal embryonal rhabdomyosarcoma | L5 | Hold |
 | 9 | Rhabdomyosarcoma | L1 | Proceed with Guardrails (many trials enrol mixed soft tissue sarcoma populations) |
 | 10 | Ganglioneuroblastoma | L4 | Hold |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

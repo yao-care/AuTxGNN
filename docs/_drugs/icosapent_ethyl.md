@@ -58,7 +58,7 @@ Note: the top-ranked prediction (hemoglobinopathy) has model prediction only (L5
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the supplied literature, icosapent ethyl is a purified EPA ethyl ester that lowers triglycerides and triglyceride-rich lipoproteins. It is also reported to have anti-inflammatory, plaque-stabilising and antithrombotic effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for icosapent ethyl: "Studies suggest that EPA reduces hepatic very low-density lipoprotein triglycerides (VLDL-TG) synthesis and/or secretion and enhances TG clearance from circulating VLDL particles. Potential mechanisms of action include increased β-oxidation; inhibition of acyl-CoA:1,2-diacylglycerol acyltransferase (DGAT); decreased lipogenesis in the liver; and increased plasma lipoprotein lipase activity." ([DailyMed: Icosapent (icosapent ethyl) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cc28828d-beab-45cc-a3b6-151c5fee3924), label version 2026-08-10; accessed 2026-11-19.) Based on the supplied literature, icosapent ethyl is a purified EPA ethyl ester that lowers triglycerides and triglyceride-rich lipoproteins. It is also reported to have anti-inflammatory, plaque-stabilising and antithrombotic effects.
 
 Elevated triglycerides are linked to residual cardiovascular risk even when LDL cholesterol is well controlled.
 
@@ -113,6 +113,19 @@ The benefit should not be generalised beyond statin-treated, high-risk patients 
 - Retrieve the mechanism of action data from DrugBank
 - Define the eligible population (statin-treated, elevated triglycerides, established cardiovascular disease or diabetes with risk factors)
 - Verify REDUCE-IT trial registry details and any ANZCTR registrations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Icosapent (icosapent ethyl) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cc28828d-beab-45cc-a3b6-151c5fee3924) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

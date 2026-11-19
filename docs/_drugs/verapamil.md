@@ -69,7 +69,7 @@ There are **no registered clinical trials** and only **indirect literature** for
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, verapamil is an L-type calcium channel blocker. It slows atrioventricular (AV) nodal conduction and relaxes arterial smooth muscle, which underlies its use in hypertension, supraventricular arrhythmias and angina.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for verapamil: "Angina: The precise mechanism of action of verapamil hydrochloride as an antianginal agent remains to be fully determined, but includes the following two mechanisms: 1. Relaxation and prevention of coronary artery spasm: Verapamil hydrochloride dilates the main coronary arteries and coronary arterioles, both in normal and ischemic regions, and is a potent inhibitor of coronary artery spasm, whether spontaneous or ergonovine-induced." ([DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c), label version 2026-10-30; accessed 2026-11-19.) Based on known pharmacology, verapamil is an L-type calcium channel blocker. It slows atrioventricular (AV) nodal conduction and relaxes arterial smooth muscle, which underlies its use in hypertension, supraventricular arrhythmias and angina.
 
 **Top-ranked prediction (bundle branch block):** The mechanistic link is weak. Bundle branch block is an infranodal conduction defect, and slowing conduction could make it worse. The disease term is also marked obsolete in the ontology. The high TxGNN score therefore looks like a model artefact rather than a credible new use.
 
@@ -82,7 +82,6 @@ Standard care includes beta-blockers, sotalol, amiodarone and ablation, and vera
 Currently no related clinical trials registered for any of the ten predicted indications.
 
 ## Literature Evidence
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -115,7 +114,6 @@ For authoritative warnings and precautions, refer to the TGA-approved Product In
 
 ## Conclusion and Next Steps
 
-
 **Rationale:**
 - The model's top-ranked prediction (bundle branch block) has no supporting evidence and a mechanistic rationale that suggests possible harm. No candidate has clinical trial support, and the literature is indirect, so none supports a change in practice.
 
@@ -124,6 +122,19 @@ For authoritative warnings and precautions, refer to the TGA-approved Product In
 - TGA Product Information (warnings, contraindications and approved indication text for Cordilox SR), which was not available for this report
 - A comparison against standard therapies (beta-blockers, sotalol, amiodarone, ablation)
 - Safety assessment for cardiomyopathy populations, particularly regarding negative inotropy, heart failure and AV block
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

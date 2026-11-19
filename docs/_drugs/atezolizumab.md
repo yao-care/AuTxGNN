@@ -54,7 +54,7 @@ Atezolizumab is a monoclonal antibody drug that blocks PD-L1. The TxGNN model pr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Atezolizumab is generally understood to be an anti-PD-L1 antibody, which can release the brake that PD-L1 places on T cells and so restore immune attack on tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for atezolizumab: "PD L1 may be expressed on tumor cells and/or tumor infiltrating immune cells and can contribute to the inhibition of the anti-tumor immune response in the tumor microenvironment. Binding of PD L1 to the PD 1 and B7.1 receptors found on T cells and antigen presenting cells suppresses cytotoxic T-cell activity, T-cell proliferation and cytokine production. […] Atezolizumab is a monoclonal antibody that binds to PD L1 and blocks its interactions with both PD 1 and B7.1 receptors." ([DailyMed: Tecentriq (atezolizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee), label version 2026-10-13; accessed 2026-11-19.) Atezolizumab is generally understood to be an anti-PD-L1 antibody, which can release the brake that PD-L1 places on T cells and so restore immune attack on tumour cells.
 
 Uterine ligament adenocarcinoma is a gynaecological adenocarcinoma. A plausible link is PD-L1 blockade in this tumour type, but this is speculative and is not supported by any trial or publication in the data compiled for this report. The similarity between the original and predicted indications has not yet been assessed.
 
@@ -94,6 +94,19 @@ The prediction score is high, but no clinical trial or publication directly stud
 - Detailed mechanism of action data
 - Warnings and contraindications from the TGA-approved Product Information
 - Clinical expert review of whether the tumour type is biologically comparable to cancers where PD-L1 blockade is already used
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tecentriq (atezolizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

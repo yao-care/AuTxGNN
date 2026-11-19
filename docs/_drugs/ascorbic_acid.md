@@ -54,7 +54,7 @@ Ascorbic acid (vitamin C) is an essential water-soluble vitamin with antioxidant
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug. Ascorbic acid is generally known as an antioxidant and as a cofactor for hydroxylase enzymes involved in collagen stabilisation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ascorbic acid: "The exact mechanism of action of ascorbic acid for the treatment of symptoms and signs of scurvy (a disorder caused by severe deficiency in vitamin C) is unknown; however, administration of ascorbic acid in patients with scurvy is thought to restore the body pool of ascorbic acid." ([DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6), label version 2026-09-03; accessed 2026-11-19.) Ascorbic acid is generally known as an antioxidant and as a cofactor for hydroxylase enzymes involved in collagen stabilisation.
 
 For this prediction, no mechanistic link has been identified. Non-syndromic esophageal malformation is a congenital structural condition, and there is no plausible way an antioxidant vitamin would correct a developmental anatomical defect. The very high TxGNN score is not backed by any trial or publication, and it should be read as a computational signal rather than evidence of benefit.
 
@@ -94,6 +94,18 @@ The prediction has no supporting trials or literature, no plausible mechanism fo
 - Mechanism of action data for the drug
 - Safety information from the TGA-approved Product Information, including contraindications and warnings
 - Product-level details (dosage form, indication text) for ARTG entry 674L
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

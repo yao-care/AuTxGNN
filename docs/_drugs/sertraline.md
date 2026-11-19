@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **histrionic personality disorder
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available for the data compiled for this report. Sertraline is an SSRI, a class that increases serotonin signalling, and this is the only mechanistic context available.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sertraline: "Sertraline potentiates serotonergic activity in the central nervous system through inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7), label version 2023-08-08; accessed 2026-11-19.) Sertraline is an SSRI, a class that increases serotonin signalling, and this is the only mechanistic context available.
 
 A possible, but speculative, link is serotonergic modulation of affective lability and impulsivity, which can feature in histrionic personality disorder. No data support this link. The same score of 0.9993 is shared by several other personality disorder predictions, which suggests the score may reflect a shared pattern in the model's neighbourhood rather than a signal specific to this disease. The prediction should be treated as hypothesis-generating only.
 
@@ -91,6 +91,18 @@ The prediction rests on a model score alone. There are no clinical trials or pub
 - Detailed mechanism of action data
 - TGA Product Information warnings and contraindications for a safety review
 - A clear case for the clinical need and the target population before further evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available for the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

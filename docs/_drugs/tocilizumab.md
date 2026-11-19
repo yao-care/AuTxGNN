@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **ankylosing spondylitis**, but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, tocilizumab blocks the IL-6 receptor. IL-6 contributes to systemic inflammation and bone remodelling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tocilizumab: "Tocilizumab products bind to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and have been shown to inhibit IL-6-mediated signaling through these receptors. IL-6 is a pleiotropic pro-inflammatory cytokine produced by a variety of cell types including T- and B-cells, lymphocytes, monocytes and fibroblasts." ([DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d), label version 2026-10-20; accessed 2026-11-19.) Based on known information, tocilizumab blocks the IL-6 receptor. IL-6 contributes to systemic inflammation and bone remodelling.
 
 Ankylosing spondylitis is an inflammatory spondyloarthropathy, and spondyloarthropathy is already among tocilizumab's listed original indications. This overlap supports the prediction. However, the two Phase 3 placebo-controlled trials were terminated. The literature also indicates tocilizumab has not shown the efficacy seen with TNF or IL-17 inhibitors in this disease. The mechanistic rationale is therefore plausible but not clinically confirmed.
 
@@ -123,6 +123,18 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 | Spondyloarthropathy, susceptibility to | L5 | Hold | Genetic susceptibility entity; only an in vitro study. |
 | Hypermobility of coccyx, Kummell disease, vertebral disease | L5 | Hold | No mechanistic rationale or relevant clinical evidence. |
 | MSMD due to complete IL12B deficiency | L5 | Hold | Potentially harmful given the infection risk of immunosuppression. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

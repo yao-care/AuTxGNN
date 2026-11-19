@@ -62,7 +62,7 @@ The top-ranked prediction by TxGNN score, **Prinzmetal angina**, has no supporti
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Telmisartan is known as an angiotensin II type 1 (AT1) receptor blocker, and preclinical papers also describe partial PPAR-gamma agonist activity. These are the mechanisms discussed in the retrieved literature.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for telmisartan: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the reninangiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Telmisartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10), label version 2026-11-02; accessed 2026-11-19.) Telmisartan is known as an angiotensin II type 1 (AT1) receptor blocker, and preclinical papers also describe partial PPAR-gamma agonist activity. These are the mechanisms discussed in the retrieved literature.
 
 Blood pressure lowering is the main proven way to prevent recurrent stroke. Telmisartan is already used for hypertension and stroke-related conditions, so extending it to prevent recurrent intracerebral haemorrhage is a logical step. The TRIDENT trial tested a single-pill combination of three low-dose antihypertensives, which includes telmisartan, in patients with previous intracerebral haemorrhage. Animal studies also report anti-inflammatory and antioxidant effects in intracerebral and subarachnoid haemorrhage models.
 
@@ -150,6 +150,19 @@ Label warnings and contraindications from the Product Information were not avail
 - Approved indication text for the Australian ARTG entry
 - Confirmation of the knowledge-graph contraindications (renal, hepatic, potassium-related) against the Product Information
 - A safety review before any consideration of renovascular or renal indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Primidone is a long-established antiseizure drug and is known to be metabolised in part to phenobarbital and phenylethylmalonamide (PEMA). Its efficacy in epilepsy is established, but this report cannot show a mechanistic route to the predicted tumour indication.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for primidone: "MYSOLINE raises electro- or chemoshock seizure thresholds or alters seizure patterns in experimental animals. The mechanism(s) of primidone’s antiepileptic action is not known. Primidone per se has anticonvulsant activity as do its two metabolites, phenobarbital and phenylethylmalonamide (PEMA)." ([DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46), label version 2026-09-10; accessed 2026-11-19.) Primidone is a long-established antiseizure drug and is known to be metabolised in part to phenobarbital and phenylethylmalonamide (PEMA). Its efficacy in epilepsy is established, but this report cannot show a mechanistic route to the predicted tumour indication.
 
 The predicted indication, trigeminal nerve neoplasm, is a tumour of a cranial nerve, whereas primidone acts on seizure control. No plausible link between anticonvulsant action and tumour control has been established. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of antitumour activity.
 
@@ -113,6 +113,19 @@ The top prediction is a model output only (L5), with no registered trials, no li
 - Preclinical or case-level evidence of primidone activity in trigeminal nerve neoplasm.
 - Review of the TGA-approved Product Information for warnings and contraindications.
 - Consideration of better-supported alternatives, such as trigeminal neuralgia (as a research question) or reflex seizure subtypes, which sit closer to primidone's established use.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

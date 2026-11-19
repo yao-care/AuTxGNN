@@ -60,7 +60,7 @@ The literature retrieved concerns other conditions, so the prediction rests on t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Interferon gamma-1b is a recombinant form of interferon gamma, an immunomodulatory cytokine. The data compiled for this report do not give its approved indication, so the link between its original use and the predicted indication cannot be assessed directly.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for interferon gamma-1b: "Interferons bind to specific cell surface receptors and initiate a sequence of intracellular events that lead to the transcription of interferon-stimulated genes. The three major groups of interferons (alpha, beta, gamma) have partially overlapping biological activities that include immunoregulation such as increased resistance to microbial pathogens and inhibition of cell proliferation." ([DailyMed: Actimmune (interferon gamma-1b) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d0b1256-1981-4519-94f4-a4a2f98bd8a3), label version 2026-03-30; accessed 2026-11-19.) Interferon gamma-1b is a recombinant form of interferon gamma, an immunomodulatory cytokine. The data compiled for this report do not give its approved indication, so the link between its original use and the predicted indication cannot be assessed directly.
 
 "Heart disease" is a broad, non-specific term. The TxGNN score is very high, but no clear mechanistic link is established. The three retrieved papers do not show a benefit in heart disease:
 
@@ -131,6 +131,19 @@ The prediction is supported only by the TxGNN model score. There are no clinical
 - A review of the interaction profile, particularly for patients on anticoagulants (e.g. warfarin) and other cardiac medicines
 
 **Note on other literature:** Papers were retrieved for the fifth-ranked prediction (disorder of fucoglycosan synthesis), but they concern other diseases, including idiopathic pulmonary fibrosis, Friedreich ataxia, chronic granulomatous disease, cystic fibrosis lung disease and osteopetrosis. They do not support that prediction. Any value in them lies in separate evaluations of those indications.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Actimmune (interferon gamma-1b) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d0b1256-1981-4519-94f4-a4a2f98bd8a3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

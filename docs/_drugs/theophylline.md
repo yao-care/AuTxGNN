@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **thrombotic disease**, but the
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Theophylline is generally known as a non-selective phosphodiesterase (PDE) inhibitor and adenosine receptor antagonist. PDE inhibition raises cAMP in platelets, which could in theory reduce platelet aggregation. This is the most plausible basis for the high prediction score.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for theophylline: "Theophylline has two distinct actions in the airways of patients with reversible obstruction: smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., non-bronchodilator prophylactic effects)." ([DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410), label version 2024-07-08; accessed 2026-11-19.) Theophylline is generally known as a non-selective phosphodiesterase (PDE) inhibitor and adenosine receptor antagonist. PDE inhibition raises cAMP in platelets, which could in theory reduce platelet aggregation. This is the most plausible basis for the high prediction score.
 
 The mechanism is not straightforward, however. Adenosine receptor antagonism could oppose adenosine's own antiplatelet effect. No retrieved paper shows a clinical antithrombotic benefit of theophylline. The link between its respiratory use and thrombosis is therefore a model-derived hypothesis only.
 
@@ -116,6 +116,18 @@ The high TxGNN score is not supported by any registered trial or any publication
 | 4 | Tracheal disease | 0.9949 | L3 | Preclinical tracheal relaxation studies and a veterinary retrospective study in dogs (PMID 31565900); no human trial |
 | 5 | Pharyngitis | 0.9946 | L4 as supplied | No retrieved study directly addresses theophylline in pharyngitis, so by the evidence ceiling rule this should be treated as L5 |
 | 6 | Acute laryngopharyngitis | 0.9935 | L5 | No trials or literature |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

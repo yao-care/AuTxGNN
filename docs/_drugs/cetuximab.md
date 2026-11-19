@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **bronchial adenomas/carcinoids c
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cetuximab is known to bind the epidermal growth factor receptor (EGFR), and the pharmacology data lists EGFR as its target.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cetuximab: "The epidermal growth factor receptor (EGFR, HER1, c-ErbB-1) is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases including EGFR, HER2, HER3, and HER4. The EGFR is constitutively expressed in many normal epithelial tissues, including the skin and hair follicle. […] Cetuximab binds specifically to the EGFR on both normal and tumor cells, and competitively inhibits the binding of epidermal growth factor (EGF) and other ligands, such as transforming growth factor-alpha." ([DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9), label version 2026-04-16; accessed 2026-11-19.) Cetuximab is known to bind the epidermal growth factor receptor (EGFR), and the pharmacology data lists EGFR as its target.
 
 The data compiled for this report does not support a link between EGFR blockade and childhood bronchial carcinoids. No trial or publication addresses this disease, and the mechanistic rationale is therefore unconfirmed. The prediction should be treated as a hypothesis for further investigation, not as a supported use.
 
@@ -101,6 +101,19 @@ The prediction has a high model score (0.9995) but no trials or publications dir
 - Mechanism of action data to support a biological rationale
 - The TGA Product Information, to review warnings and contraindications
 - A paediatric-specific safety and dosing assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

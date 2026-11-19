@@ -56,7 +56,7 @@ but at present there are **no registered clinical trials** and only **3 publicat
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Desvenlafaxine is known to be an SNRI, and its efficacy in depression is established. OCD responds best to potent serotonergic agents (SSRIs and clomipramine), and some SNRIs, such as venlafaxine, have supporting data. This gives a plausible class-level serotonergic link.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for desvenlafaxine: "The exact mechanism of the antidepressant action of desvenlafaxine is unknown, but is thought to be related to the potentiation of serotonin and norepinephrine in the central nervous system, through inhibition of their reuptake. Non-clinical studies have shown that desvenlafaxine is a potent and selective SNRI." ([DailyMed: Pristiq Extended-Release (desvenlafaxine succinate) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce), label version 2026-04-28; accessed 2026-11-19.) Desvenlafaxine is known to be an SNRI, and its efficacy in depression is established. OCD responds best to potent serotonergic agents (SSRIs and clomipramine), and some SNRIs, such as venlafaxine, have supporting data. This gives a plausible class-level serotonergic link.
 
 However, no desvenlafaxine-specific trial in OCD was identified. The retrieved literature consists of a review of serotonergic antidepressants in OCD, a review of postpartum depression and a small risperidone augmentation study in somatic symptom disorder. None of these provides direct evidence for this drug. The prediction should therefore be treated as a hypothesis.
 
@@ -104,6 +104,19 @@ The OCD prediction has a high model score but no desvenlafaxine-specific trials 
 - TGA Product Information warnings and contraindications, and the approved indication text for the ARTG entry
 - A safety review given the major serotonergic drug interactions and the listed comorbidity cautions (cardiovascular, hepatic, renal, bipolar and seizure disorders)
 - Consideration of dysthymic disorder as a better-supported alternative repurposing question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pristiq Extended-Release (desvenlafaxine succinate) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, quinapril is an ACE inhibitor. It lowers blood pressure by reducing angiotensin II formation, and it may also lower pressure within the kidney's filtering units (intraglomerular pressure).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for quinapril: "Quinapril is deesterified to the principal metabolite, quinaprilat, which is an inhibitor of ACE activity in human subjects and animals. ACE is apeptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor, angiotensin II." ([DailyMed: quinapril prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f33dbbb1-1a4a-42b0-a5c5-3ac905823206), label version 2021-01-01; accessed 2026-11-19.) Based on known information, quinapril is an ACE inhibitor. It lowers blood pressure by reducing angiotensin II formation, and it may also lower pressure within the kidney's filtering units (intraglomerular pressure).
 
 Malignant hypertensive renal disease is a severe form of hypertension with kidney involvement. It is therefore a close extension of quinapril's original indication rather than a true repurposing candidate. The high score probably reflects this close disease relationship.
 
@@ -107,6 +107,19 @@ The prediction score is very high (0.9986), but there are no clinical trials or 
 - Clinical studies or a systematic literature search specific to malignant hypertension with renal involvement
 - A renal safety assessment, particularly for renovascular disease and existing kidney impairment
 - If a distinct opportunity is wanted, further evaluation of pulmonary hypertension (L4), starting with clinical feasibility and safety review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: quinapril prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f33dbbb1-1a4a-42b0-a5c5-3ac905823206) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

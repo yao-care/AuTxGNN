@@ -56,7 +56,7 @@ with **1 clinical trial** (a QT-interval safety study, not an efficacy trial) an
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source database. From the published literature compiled for this report, trabectedin binds the DNA minor groove and triggers transcription-coupled nucleotide excision repair-dependent DNA double-strand breaks. It is particularly active in homologous recombination-deficient tumours, such as those with BRCA1/2 mutations.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trabectedin: "Trabectedin is an alkylating drug that binds guanine residues in the minor groove of DNA, forming adducts and resulting in a bending of the DNA helix towards the major groove. Adduct formation triggers a cascade of events that can affect the subsequent activity of DNA binding proteins, including some transcription factors, and DNA repair pathways, resulting in perturbation of the cell cycle and eventual cell death." ([DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea), label version 2026-06-29; accessed 2026-11-19.) From the published literature compiled for this report, trabectedin binds the DNA minor groove and triggers transcription-coupled nucleotide excision repair-dependent DNA double-strand breaks. It is particularly active in homologous recombination-deficient tumours, such as those with BRCA1/2 mutations.
 
 This overlaps with a subset of breast cancers, and BRCA1/2-associated disease is a shared feature of breast and ovarian cancer. Preclinical data also suggest trabectedin reduces tumour-associated macrophages and enhances the antitumour effect of IL-12 in triple-negative breast cancer. The high TxGNN score is consistent with this biology.
 
@@ -124,6 +124,19 @@ The mechanistic link to BRCA-deficient breast cancer is plausible and Phase 2 st
 - A search of ANZCTR and other registries for ongoing breast cancer trials
 
 **Other predicted indications:** The remaining predictions (ranks 2-10) are mostly L5 (model prediction only), and several overlap closely with the existing ovarian cancer indications (for example germ cell tumours and BRCA1-associated ovarian cancer susceptibility). Ovarian malignant mesothelioma has only indirect preclinical evidence from pleural mesothelioma. None is supported well enough to advance beyond Hold at this stage.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the source database" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

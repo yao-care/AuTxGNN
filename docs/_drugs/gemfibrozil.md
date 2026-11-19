@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, gemfibrozil is a PPAR-alpha agonist that lowers triglycerides. PPAR agonism also has anti-inflammatory and immunomodulatory effects, such as reduced pro-inflammatory cytokines and modulation of T-cell responses.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for gemfibrozil: "Gemfibrozil is a lipid regulating agent which decreases serum triglycerides and very low density lipoprotein (VLDL) cholesterol, and increases high density lipoprotein (HDL) cholesterol. While modest decreases in total and low density lipoprotein (LDL) cholesterol may be observed with gemfibrozil therapy, treatment of patients with elevated triglycerides due to Type IV hyperlipoproteinemia often results in a rise in LDL-cholesterol." ([DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725), label version 2026-11-10; accessed 2026-11-19.) Based on known pharmacology, gemfibrozil is a PPAR-alpha agonist that lowers triglycerides. PPAR agonism also has anti-inflammatory and immunomodulatory effects, such as reduced pro-inflammatory cytokines and modulation of T-cell responses.
 
 This offers a plausible, though indirect, link between a lipid-lowering drug and an autoimmune joint disease. Two preclinical reports support the idea: a 2019 rat adjuvant-induced arthritis study combining gemfibrozil with a reduced steroid dose, and a 2026 study of bezafibrate (a related pan-PPAR agonist) in experimental rheumatoid arthritis. Both are animal studies, and neither shows benefit in people.
 
@@ -124,6 +124,19 @@ Two other predictions have some supporting literature, though both are close to 
 - **Hypoalphalipoproteinaemia (Evidence Level L2):** Several small clinical studies from 1989 to 2000 show lipoprotein changes, but there are no hard cardiovascular outcome data.
 
 The remaining predictions (rank 2 and ranks 5 to 10) have no supporting trials or literature, or no plausible mechanistic link, and should not be pursued on current evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -66,7 +66,7 @@ This report covers OCD as the lead evidence-supported candidate. The other nine 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known pharmacology, duloxetine inhibits the reuptake of both serotonin and norepinephrine. Serotonergic reuptake inhibition is the core mechanism of drug treatment for OCD, and duloxetine has potent serotonin reuptake inhibition in addition to its noradrenergic effect.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for duloxetine: "Although the exact mechanisms of the antidepressant, central pain inhibitory and anxiolytic actions of duloxetine in humans are unknown, these actions are believed to be related to its potentiation of serotonergic and noradrenergic activity in the CNS." ([DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b), label version 2026-08-20; accessed 2026-11-19.) Based on known pharmacology, duloxetine inhibits the reuptake of both serotonin and norepinephrine. Serotonergic reuptake inhibition is the core mechanism of drug treatment for OCD, and duloxetine has potent serotonin reuptake inhibition in addition to its noradrenergic effect.
 
 Duloxetine is already used for depression and anxiety disorders, which frequently co-occur with OCD and share serotonergic treatment targets. Small studies, including a double-blind controlled augmentation trial in resistant OCD and open-label studies, suggest benefit.
 
@@ -143,6 +143,19 @@ OCD is the only prediction with direct duloxetine studies, including one small d
 - The approved indications and the label warnings and contraindications from the TGA Product Information
 - A review of the full drug interaction list, especially for serotonergic combinations
 - A safety monitoring plan, including for comorbid bipolar disorder, hepatic disease and cardiovascular risk
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

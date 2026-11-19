@@ -56,7 +56,7 @@ It is a model-only prediction and should be treated as a low-confidence hypothes
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, etravirine is an NNRTI that inhibits HIV-1 reverse transcriptase, including in some strains resistant to first-generation NNRTIs. Its efficacy in HIV infection is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for etravirine: "Etravirine is an antiretroviral drug. […] Etravirine is an NNRTI of HIV-1. Etravirine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site. Etravirine does not inhibit the human DNA polymerases α, β, and γ." ([DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d), label version 2023-08-15; accessed 2026-11-19.) Based on known information, etravirine is an NNRTI that inhibits HIV-1 reverse transcriptase, including in some strains resistant to first-generation NNRTIs. Its efficacy in HIV infection is established.
 
 Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, which is the likely basis for the prediction. However, FIV reverse transcriptase is generally considered intrinsically less susceptible to NNRTIs, so activity is not expected. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is also a veterinary condition, so any human-health repurposing pathway is unclear.
 
@@ -111,6 +111,19 @@ The prediction rests on model score alone (L5), with no trials or literature. Bi
 - Clarification of whether a veterinary indication falls within the scope of this evaluation
 - Product Information warnings and contraindications for Intelence
 - If a human-relevant direction is wanted, a focused review of the congenital HIV (perinatal) use of etravirine, including paediatric and neonatal dosing and safety
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

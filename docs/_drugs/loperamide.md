@@ -60,7 +60,7 @@ The score comes from the TxGNN model (deep learning) and may reflect similaritie
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Loperamide is generally understood to be a peripheral mu-opioid receptor agonist acting on gut myenteric neurons, slowing intestinal motility. It is not an anti-infective or an ocular agent.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for loperamide: "In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall." ([DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b), label version 2026-07-09; accessed 2026-11-19.) Loperamide is generally understood to be a peripheral mu-opioid receptor agonist acting on gut myenteric neurons, slowing intestinal motility. It is not an anti-infective or an ocular agent.
 
 The review of the prediction found **no plausible mechanistic link** between loperamide and acute contagious conjunctivitis. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same pattern appears across the other top-ranked predictions: several conjunctival terms (parasitic, follicular, serous, pseudomembranous conjunctivitis, conjunctival folliculosis) share identical or near-identical scores, which is consistent with similarities the model learned between related diseases.
 
@@ -121,6 +121,19 @@ The prediction for acute contagious conjunctivitis rests on model score alone (L
 - Route-of-administration feasibility assessment (no ocular formulation is available)
 - TGA Product Information warnings and contraindications for formal safety screening
 - Approved indication text for the ARTG entry
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

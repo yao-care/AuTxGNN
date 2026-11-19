@@ -62,7 +62,7 @@ with **no registered clinical trials** specific to this subtype but **20 publica
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, galcanezumab is a humanised monoclonal antibody that binds calcitonin gene-related peptide (CGRP) and inhibits its activity. CGRP is a key mediator of trigeminovascular activation in migraine.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for galcanezumab: "Galcanezumab-gnlm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor." ([DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0), label version 2026-06-05; accessed 2026-11-19.) Based on known information, galcanezumab is a humanised monoclonal antibody that binds calcitonin gene-related peptide (CGRP) and inhibits its activity. CGRP is a key mediator of trigeminovascular activation in migraine.
 
 Migraine with brainstem aura is a subtype of migraine, and galcanezumab is already used for migraine prevention. This is therefore an extension within the original indication rather than true repurposing. Emerging literature on anti-CGRP antibodies in migraine aura and in genetic or hemiplegic migraine (for example PMID 38091211, 40341526, 41618146) is supportive but not definitive.
 
@@ -123,6 +123,19 @@ Please refer to the TGA-approved Product Information (PI) for full warnings, con
 - Mechanism of action data and the approved indication text for the ARTG entry
 - Review of the PI for warnings and contraindications
 - A cardiovascular and cerebrovascular monitoring plan, given the theoretical ischaemic concerns
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

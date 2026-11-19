@@ -62,7 +62,7 @@ Of the other predictions, papillary conjunctivitis and vernal conjunctivitis hav
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known pharmacology, prednisolone acetate is a glucocorticoid. Topical glucocorticoids suppress ocular surface and intraocular inflammation. Its efficacy in uveitis and conjunctivitis is established, and mechanistically it may be applicable to other inflammatory conjunctival conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prednisolone acetate: "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1), label version 2025-06-03; accessed 2026-11-19.) Based on known pharmacology, prednisolone acetate is a glucocorticoid. Topical glucocorticoids suppress ocular surface and intraocular inflammation. Its efficacy in uveitis and conjunctivitis is established, and mechanistically it may be applicable to other inflammatory conjunctival conditions.
 
 For conjunctival folliculosis specifically, the link is weak. Folliculosis is typically a benign, often asymptomatic finding that rarely needs anti-inflammatory therapy, so the high model score does not translate into a clear clinical need.
 
@@ -146,6 +146,19 @@ No drug interaction records were found. Please refer to the TGA-approved Product
 - Direct comparative or randomised evidence of prednisolone acetate in vernal or papillary conjunctivitis
 - An intraocular pressure and infection monitoring plan for any extended steroid use
 - Confirmation of whether a steroid arm exists in NCT04705584
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

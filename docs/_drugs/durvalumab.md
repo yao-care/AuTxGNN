@@ -60,7 +60,7 @@ However, **no clinical trials and no publications** were found for this disease,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Durvalumab is generally understood to be an anti-PD-L1 antibody, a type of immune checkpoint inhibitor. This comes from general knowledge of the drug class, not from the compiled data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for durvalumab: "Expression of programmed cell death ligand-1 (PD-L1) can be induced by inflammatory signals (e.g., IFN-gamma) and can be expressed on both tumor cells and tumor-associated immune cells in the tumor microenvironment. PD-L1 blocks T-cell function and activation through interaction with PD-1 and CD80 (B7.1). […] Durvalumab is a human immunoglobulin G1 kappa (IgG1κ) monoclonal antibody that binds to PD-L1 and blocks the interaction of PD-L1 with PD-1 and CD80 (B7.1)." ([DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3), label version 2026-08-31; accessed 2026-11-19.) Durvalumab is generally understood to be an anti-PD-L1 antibody, a type of immune checkpoint inhibitor. This comes from general knowledge of the drug class, not from the compiled data.
 
 A possible rationale is that some gynaecological adenocarcinomas may depend on PD-L1 signalling to evade the immune system. In that case, blocking PD-L1 could be relevant. This is speculative. No study in the compiled data examines PD-L1 biology or durvalumab response in uterine ligament adenocarcinoma, and the link to the original tumour type cannot be verified.
 
@@ -132,6 +132,19 @@ The prediction has no supporting trials or publications for this specific diseas
 - Detailed mechanism of action data.
 - The TGA Product Information (PI), to confirm the approved indications, warnings and contraindications.
 - A separate review of the neighbouring prediction, **endocervical carcinoma** (score 0.9991). It has one completed Phase 1 trial (NCT03452332, n=20, radiotherapy with durvalumab and tremelimumab). This trial addresses safety and feasibility, not efficacy, but it may be a better-supported starting point.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

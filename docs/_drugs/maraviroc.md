@@ -54,7 +54,7 @@ Maraviroc is an oral CCR5 antagonist marketed in Australia as a 150 mg tablet. T
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, maraviroc is a CCR5 antagonist. It blocks a chemokine receptor involved in immune-cell trafficking and signalling.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for maraviroc: "Maraviroc is an HIV-1 antiviral drug. […] Maraviroc is a member of a therapeutic class called CCR5 co-receptor antagonists. Maraviroc selectively binds to the human chemokine receptor CCR5 present on the cell membrane, preventing the interaction of HIV-1 gp120 and CCR5 necessary for CCR5-tropic HIV-1 to enter cells." ([DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5), label version 2023-11-10; accessed 2026-11-19.) Based on general knowledge, maraviroc is a CCR5 antagonist. It blocks a chemokine receptor involved in immune-cell trafficking and signalling.
 
 For multiple endocrine neoplasia (MEN), no established link between CCR5 signalling and the disease was identified. MEN is driven by MEN1 or RET alterations, which are not obviously related to CCR5. The prediction therefore appears to be a statistical output of the model rather than a mechanistically supported hypothesis.
 
@@ -102,6 +102,19 @@ The prediction for multiple endocrine neoplasia rests on a model score alone (L5
 - Mechanism of action data and the registered indication for the Australian product
 - Product Information warnings and contraindications, with review of the Major clarithromycin interaction and the liver, kidney and cardiovascular cautions
 - Consideration of redirecting effort to HER2-positive breast carcinoma (CCL5/CCR5 and trastuzumab resistance), which is the most biologically grounded candidate and would first need preclinical validation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

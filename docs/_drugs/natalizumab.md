@@ -60,7 +60,7 @@ The score is a computational prediction only, so the recommendation is to **hold
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, natalizumab blocks alpha-4 integrin, which inhibits leukocyte adhesion and migration into inflamed tissue. This is the basis of its use in multiple sclerosis and Crohn's disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for natalizumab: "Natalizumab binds to the α4-subunit of α4β1 and α4β7 integrins expressed on the surface of all leukocytes except neutrophils, and inhibits the α4-mediated adhesion of leukocytes to their counter-receptor(s). The receptors for the α4 family of integrins include vascular cell adhesion molecule-1 (VCAM-1), which is expressed on activated vascular endothelium, and mucosal addressin cell adhesion molecule-1 (MAdCAM-1) present on vascular endothelial cells of the gastrointestinal tract." ([DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962), label version 2026-10-09; accessed 2026-11-19.) Based on known pharmacology, natalizumab blocks alpha-4 integrin, which inhibits leukocyte adhesion and migration into inflamed tissue. This is the basis of its use in multiple sclerosis and Crohn's disease.
 
 Bronchitis involves airway inflammation, so there is a theoretical link through reduced leukocyte trafficking. However, no trials or publications support this use. The high TxGNN score reflects a model-based association, not clinical proof.
 
@@ -116,6 +116,19 @@ The bronchitis prediction rests only on a model score, with no trials, no litera
 - Preclinical or early clinical evidence in bronchitis or related airway disease
 - Review of the PI warnings and contraindications, with a risk assessment of PML and respiratory infection
 - An assessment of whether an alternative indication is better supported (for example, the psoriasis signal is mixed and carries a paradoxical-reaction risk, so it is also not recommended at this stage)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

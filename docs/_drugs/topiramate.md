@@ -62,7 +62,7 @@ That prediction is currently supported by **0 registered clinical trials** and *
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From published pharmacology, topiramate is a broad-spectrum antiseizure drug that blocks voltage-gated sodium channels, enhances GABA-A activity, antagonises AMPA/kainate glutamate receptors and weakly inhibits carbonic anhydrase.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for topiramate: "The precise mechanisms by which topiramate exerts its anticonvulsant and preventive migraine effects are unknown; however, preclinical studies have revealed four properties that may contribute to topiramate's efficacy for epilepsy and the preventive treatment of migraine." ([DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e), label version 2026-10-05; accessed 2026-11-19.) From published pharmacology, topiramate is a broad-spectrum antiseizure drug that blocks voltage-gated sodium channels, enhances GABA-A activity, antagonises AMPA/kainate glutamate receptors and weakly inhibits carbonic anhydrase.
 
 Carbamazepine, a sodium channel blocker, is first-line therapy. Topiramate's sodium channel blockade and dampening of excitatory transmission parallel carbamazepine's action. The TxGNN model (deep learning) score for this drug may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -75,7 +75,6 @@ No ANZCTR identifiers were available either.
 ---
 
 ## Literature Evidence
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -116,7 +115,6 @@ Please refer to the TGA-approved Product Information (PI) for official warnings 
 
 ## Conclusion and Next Steps
 
-
 **Rationale:**
 - This supports topiramate as an alternative or add-on for patients who are intolerant of, or refractory to, carbamazepine or oxcarbazepine. The evidence base is small and no registered Phase 3 trial exists.
 - Trigeminal nerve neoplasm should be placed on **Hold**. It is likely a model artefact with no supporting evidence.
@@ -127,6 +125,19 @@ Please refer to the TGA-approved Product Information (PI) for official warnings 
 - Detailed mechanism of action data from DrugBank
 - Monitoring plan for cognitive and other CNS adverse effects, metabolic acidosis, renal stones, and the major interactions (notably metformin and anticholinergics)
 - Confirmation of the approved indications and available formulations for the ARTG entry
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

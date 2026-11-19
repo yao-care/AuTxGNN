@@ -54,7 +54,7 @@ Clotrimazole is a topical azole antifungal that is marketed in Australia. The Tx
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Clotrimazole belongs to the azole antifungal class. These drugs inhibit fungal CYP51 (lanosterol 14-alpha-demethylase), which blocks ergosterol synthesis and disrupts fungal membrane integrity. Clotrimazole is also reported to have some antibacterial and anti-inflammatory activity.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clotrimazole: "Clotrimazole is a broad-spectrum antifungal agent that inhibits the growth of pathogenic yeasts by altering the permeability of cell membranes. The action of clotrimazole is fungistatic at concentrations of drug up to 20 mcg/mL and may be fungicidal in vitro against Candida albicans and other species of the genus Candida at higher concentrations." ([DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f), label version 2025-03-27; accessed 2026-11-19.) Clotrimazole belongs to the azole antifungal class. These drugs inhibit fungal CYP51 (lanosterol 14-alpha-demethylase), which blocks ergosterol synthesis and disrupts fungal membrane integrity. Clotrimazole is also reported to have some antibacterial and anti-inflammatory activity.
 
 Malassezia yeasts and *Cutibacterium acnes* may contribute to acne-like lesions, so a topical antimicrobial effect is plausible. This link is speculative. The only trial is a fixed-dose combination of beclomethasone, gentamicin and clotrimazole. Clotrimazole's contribution cannot be separated from the corticosteroid and antibiotic components. The model score therefore reflects network-level similarity, not demonstrated efficacy in acne.
 
@@ -92,6 +92,19 @@ The only related trial is a suspended study of a three-drug combination with no 
 - Detailed mechanism of action data and a rationale for the antimicrobial or anti-inflammatory role in acne
 - Warnings and contraindications from the TGA-approved Product Information
 - A review of interaction relevance for topical use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

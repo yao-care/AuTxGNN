@@ -58,7 +58,7 @@ Terbutaline is a short-acting beta-2 adrenergic agonist (bronchodilator). The Tx
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Terbutaline is generally understood to be a beta-2 adrenergic agonist, which relaxes airway smooth muscle and produces bronchodilation.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for terbutaline: "In vitro and in vivo pharmacologic studies have demonstrated that terbutaline exerts a preferential effect on beta 2 -adrenergic receptors. While it is recognized that beta2-adrenergic receptors are the predominant receptors in bronchial smooth muscle, data indicate that there is a population of beta2-receptors in the human heart, existing in a concentration between 10% to 50%." ([DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726), label version 2025-12-10; accessed 2026-11-19.) Terbutaline is generally understood to be a beta-2 adrenergic agonist, which relaxes airway smooth muscle and produces bronchodilation.
 
 This mechanism could, in principle, relieve secondary airway obstruction or airway hyperreactivity in a patient who has a respiratory malformation. It would not correct the structural abnormality itself. The supporting literature is mostly about asthma, differential diagnosis of airway stenosis, or unrelated topics, so the link between terbutaline and this prediction is indirect and should be read as a hypothesis only.
 
@@ -134,11 +134,12 @@ The prediction score is high, but no study examines terbutaline in respiratory m
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726) |
 
 <!-- review:end log -->
 

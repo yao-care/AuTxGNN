@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Opsismodysplasia** (a rare sk
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Pioglitazone is generally recognised as a PPAR-gamma agonist (a thiazolidinedione insulin sensitiser), and its efficacy in type 2 diabetes is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pioglitazone: "ACTOS is a thiazolidinedione that depends on the presence of insulin for its mechanism of action. ACTOS decreases insulin resistance in the periphery and in the liver resulting in increased insulin-dependent glucose disposal and decreased hepatic glucose output. […] Pioglitazone is not an insulin secretagogue." ([DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c), label version 2025-03-28; accessed 2026-11-19.) Pioglitazone is generally recognised as a PPAR-gamma agonist (a thiazolidinedione insulin sensitiser), and its efficacy in type 2 diabetes is well established.
 
 Opsismodysplasia is a rare skeletal dysplasia caused by mutations in INPPL1 (SHIP2), a negative regulator of PI3K/insulin signalling. A link to pioglitazone through insulin-signalling pathways is conceivable, but no mechanistic link is supported by the data compiled for this report. The high TxGNN score (0.9959) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it should be read as a hypothesis, not evidence of benefit.
 
@@ -106,6 +106,19 @@ The prediction for opsismodysplasia is based solely on a score from the TxGNN mo
 - TGA Product Information warnings and contraindications, including the approved indication text for ARTG 13898L
 - A safety review for the paediatric population, given that opsismodysplasia is a childhood-onset skeletal disorder and the KG-derived contraindications include heart failure, liver and kidney disease
 - Consideration of better-supported candidates, such as lipodystrophy-type conditions, where a PPAR-gamma rationale is more biologically plausible
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

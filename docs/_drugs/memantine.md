@@ -67,7 +67,7 @@ The sections below focus on migraine disorder, the best-supported prediction.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Memantine is known to be an uncompetitive NMDA receptor antagonist, and this is the basis of the mechanistic rationale below.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for memantine: "Persistent activation of central nervous system N-methyl-D-aspartate (NMDA) receptors by the excitatory amino acid glutamate has been hypothesized to contribute to the symptomatology of Alzheimer’s disease. Memantine is postulated to exert its therapeutic effect through its action as a low to moderate affinity uncompetitive (open-channel) NMDA receptor antagonist which binds preferentially to the NMDA receptor-operated cation channels." ([DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e), label version 2026-11-11; accessed 2026-11-19.) Memantine is known to be an uncompetitive NMDA receptor antagonist, and this is the basis of the mechanistic rationale below.
 
 Glutamate and NMDA receptors contribute to cortical spreading depression, trigeminovascular sensitisation and central sensitisation in migraine. Higher glutamate levels have been reported in migraine patients, particularly during attacks, and genes involved in glutamate signalling have been implicated in the condition. Blocking NMDA receptors could therefore plausibly reduce attack frequency.
 
@@ -132,6 +132,19 @@ For migraine, the supporting material highlights monitoring tolerability, especi
 - Mechanism of action data confirmed from DrugBank
 - A tolerability and interaction monitoring plan, particularly for anticholinergic co-medication, and for patients with renal or hepatic impairment
 - Direct evidence for memantine before any further consideration of pulmonary hypertension
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

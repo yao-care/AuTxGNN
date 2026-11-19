@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, irbesartan is an AT1 receptor antagonist. Its efficacy in hypertension and diabetic nephropathy is established, and mechanistically it may be applicable to renovascular hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for irbesartan: "Angiotensin II is a potent vasoconstrictor formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. […] Irbesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively binding to the AT 1 angiotensin II receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98), label version 2026-08-24; accessed 2026-11-19.) Based on known pharmacology, irbesartan is an AT1 receptor antagonist. Its efficacy in hypertension and diabetic nephropathy is established, and mechanistically it may be applicable to renovascular hypertension.
 
 Renovascular hypertension is driven largely by activation of the renin-angiotensin system, so blocking the AT1 receptor is a plausible approach. However, the predicted indication sits very close to irbesartan's existing hypertension indication, so it offers limited repurposing novelty. The score is a computational prediction only, with no supporting trials or literature.
 
@@ -113,6 +113,19 @@ The prediction score is high (0.9931), but no clinical trials or publications su
 - The approved indication text for ARTG 13380F
 - A targeted literature search for ARB use in renovascular hypertension, and clinical evidence for the pulmonary hypertension and cor pulmonale predictions
 - A decision on whether the top prediction offers enough novelty beyond the existing hypertension indication to justify further work
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

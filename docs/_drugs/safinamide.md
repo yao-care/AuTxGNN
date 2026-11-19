@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from the compiled sources. Based on general pharmacology, safinamide is a MAO-B inhibitor that is also thought to modulate glutamate release through sodium channel blockade. This could plausibly relate to seizure control, which is a key feature of Rasmussen encephalitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for safinamide: "The precise mechanism by which XADAGO exerts its therapeutic effects in PD is unknown. XADAGO is an inhibitor of monoamine oxidase B (MAO-B). Inhibition of MAO-B activity, by blocking the catabolism of dopamine, is thought to result in an increase in dopamine levels and a subsequent increase in dopaminergic activity in the brain." ([DailyMed: Xadago (safinamide mesylate) prescribing information, MDD US Operations LLC, a subsidiary of Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4d65f28-983f-42b4-bb23-023ae0fe81b2), label version 2026-10-05; accessed 2026-11-19.) Based on general pharmacology, safinamide is a MAO-B inhibitor that is also thought to modulate glutamate release through sodium channel blockade. This could plausibly relate to seizure control, which is a key feature of Rasmussen encephalitis.
 
 However, Rasmussen encephalitis is driven mainly by T-cell-mediated autoimmune inflammation affecting one brain hemisphere. Safinamide's dopaminergic and anti-glutamatergic actions do not address that underlying process, so the mechanistic link is weak and speculative. The high score (0.9963) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as clinical evidence.
 
@@ -72,7 +72,6 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 Currently no related literature available for Rasmussen subacute encephalitis.
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -108,6 +107,19 @@ The prediction for Rasmussen subacute encephalitis rests on a model score alone 
 - TGA Product Information review for warnings, contraindications and the approved indication
 - Preclinical or mechanistic evidence for any effect on neuroinflammation or seizure control
 - A full review of the interaction list, especially the Major interaction with bupropion
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available from the compiled sources" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xadago (safinamide mesylate) prescribing information, MDD US Operations LLC, a subsidiary of Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4d65f28-983f-42b4-bb23-023ae0fe81b2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

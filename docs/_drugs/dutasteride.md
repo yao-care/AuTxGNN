@@ -60,7 +60,7 @@ but there are currently **0 clinical trials** and **0 publications** directly su
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Dutasteride is generally known as a dual inhibitor of 5-alpha reductase types 1 and 2, which lowers dihydrotestosterone (DHT). Its efficacy in BPH is established, and its effect on hair follicles through DHT reduction is the only plausible bridge to hair-related conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dutasteride: "Dutasteride inhibits the conversion of testosterone to DHT. DHT is the androgen primarily responsible for the initial development and subsequent enlargement of the prostate gland. Testosterone is converted to DHT by the enzyme 5 alpha-reductase, which exists as 2 isoforms, type 1 and type 2." ([DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3), label version 2026-08-27; accessed 2026-11-19.) Dutasteride is generally known as a dual inhibitor of 5-alpha reductase types 1 and 2, which lowers dihydrotestosterone (DHT). Its efficacy in BPH is established, and its effect on hair follicles through DHT reduction is the only plausible bridge to hair-related conditions.
 
 The link to the predicted indication is weak. Ambras syndrome is a rare congenital hypertrichosis caused by genomic rearrangements affecting *TRPS1* expression, and it is not clearly androgen-driven. The prediction therefore appears to rest on a very high model score and a general anti-androgen effect on hair follicles, not on direct pharmacological or clinical evidence.
 
@@ -129,6 +129,19 @@ The prediction has a very high model score but no supporting clinical trials or 
 - Review of the TGA Product Information for warnings and contraindications
 - A safety assessment for the relevant (likely paediatric) population
 - Consideration of better-supported hair-related targets, such as androgen-dependent conditions, before investing in this indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

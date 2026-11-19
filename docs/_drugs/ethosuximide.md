@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ethosuximide is generally understood to be a T-type calcium channel blocker that acts on thalamic neurons, and this underlies its efficacy in absence epilepsy.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ethosuximide: "Ethosuximide suppresses the paroxysmal three cycle per second spike and wave activity associated with lapses of consciousness which is common in absence (petit mal) seizures. The frequency of epileptiform attacks is reduced, apparently by depression of the motor cortex and elevation of the threshold of the central nervous system to convulsive stimuli." ([DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6), label version 2026-05-25; accessed 2026-11-19.) Ethosuximide is generally understood to be a T-type calcium channel blocker that acts on thalamic neurons, and this underlies its efficacy in absence epilepsy.
 
 NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2), which leads to water retention and low blood sodium. No known pathway connects T-type calcium channel blockade to this receptor or to renal water handling. The prediction therefore rests on the TxGNN model (deep learning) score alone and is not supported by a plausible mechanistic link.
 
@@ -112,6 +112,19 @@ The prediction is supported only by a model score. There are no registered trial
 - Preclinical data in an NSIAD or AVPR2 model
 - The TGA Product Information for ethosuximide warnings and contraindications
 - Independent verification of the clinical evidence for the original absence epilepsy indication from primary sources, as the retrieved literature contains no randomised trials
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

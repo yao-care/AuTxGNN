@@ -60,7 +60,7 @@ Support is limited: there are **no clinical trials** registered for this subtype
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. The published literature describes eletriptan as a selective 5-HT1B/1D receptor agonist. It is thought to act through cranial vasoconstriction and inhibition of trigeminal neuropeptide release. It is approved for the acute treatment of migraine with or without aura.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for eletriptan: "Eletriptan binds with high affinity to 5-HT 1B, 5-HT 1D and 5-HT 1F receptors, has modest affinity for 5-HT 1A, 5-HT 1E, 5-HT 2B and 5-HT 7 receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (vasoactive intestinal peptide, substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system." ([DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e), label version 2024-01-15; accessed 2026-11-19.) The published literature describes eletriptan as a selective 5-HT1B/1D receptor agonist. It is thought to act through cranial vasoconstriction and inhibition of trigeminal neuropeptide release. It is approved for the acute treatment of migraine with or without aura.
 
 Brainstem aura (formerly basilar-type migraine) is a subtype of migraine. It plausibly shares the same trigeminovascular pathophysiology, which is why the model links the two. This is better viewed as a subtype refinement of the existing migraine indication than as true repurposing.
 
@@ -142,6 +142,19 @@ The prediction is biologically plausible, but it is essentially a subtype of the
 - The TGA Product Information, including warnings, contraindications and the approved indication wording
 - Detailed mechanism of action data
 - A review of the high-risk interactions, particularly CYP3A4 inhibitors and serotonergic drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

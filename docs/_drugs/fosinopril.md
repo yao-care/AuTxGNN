@@ -55,12 +55,11 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 | Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
-
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, fosinopril belongs to the ACE inhibitor class. Its efficacy in hypertension is established, and by blocking the renin-angiotensin-aldosterone system (RAAS) it may be applicable to related hypertensive kidney conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fosinopril: "In animals and humans, fosinopril sodium is hydrolyzed by esterases to the pharmacologically active form, fosinoprilat, a specific competitive inhibitor of angiotensin-converting enzyme (ACE). ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II." ([DailyMed: Fosinopril Sodium (fosinopril) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fc38f1bb-f175-4a81-8ed9-c8701efdea35), label version 2023-11-27; accessed 2026-11-19.) Based on known information, fosinopril belongs to the ACE inhibitor class. Its efficacy in hypertension is established, and by blocking the renin-angiotensin-aldosterone system (RAAS) it may be applicable to related hypertensive kidney conditions.
 
 Malignant hypertension with renal involvement is a severe extension of the approved hypertension indication, so RAAS blockade is mechanistically plausible. However, acute malignant hypertension is usually managed with intravenous agents, so oral fosinopril would be an adjunct at most. The high TxGNN score is a model prediction only, with no supporting trials or literature.
 
@@ -147,6 +146,19 @@ Contraindication data from product labelling is not available in the data compil
 - Mechanism of action data and the TGA-approved PI (warnings, contraindications and approved indication text)
 - For malignant hypertensive renal disease: any clinical or observational evidence for oral fosinopril, and a defined role alongside intravenous therapy
 - Review of the knowledge-graph contraindication signals against the label before any new-population use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fosinopril Sodium (fosinopril) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fc38f1bb-f175-4a81-8ed9-c8701efdea35) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

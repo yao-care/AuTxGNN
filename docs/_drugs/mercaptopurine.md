@@ -58,7 +58,7 @@ Mercaptopurine is a purine antimetabolite (thiopurine) used in the treatment of 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From the literature, mercaptopurine is a purine antimetabolite. Its thioguanine nucleotide (TGN) metabolites are incorporated into DNA and RNA and inhibit de novo purine synthesis, so it acts against rapidly dividing leukaemic cells. This mechanism is not specific to lymphoid cells, which makes activity in myeloid disease biologically plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mercaptopurine: "Mercaptopurine is a purine analog that undergoes intracellular transport and activation to form metabolites including thioguanine nucleotides (TGNs). Incorporation of TGNs into DNA or RNA results in cell-cycle arrest and cell death." ([DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15), label version 2026-07-22; accessed 2026-11-19.) From the literature, mercaptopurine is a purine antimetabolite. Its thioguanine nucleotide (TGN) metabolites are incorporated into DNA and RNA and inhibit de novo purine synthesis, so it acts against rapidly dividing leukaemic cells. This mechanism is not specific to lymphoid cells, which makes activity in myeloid disease biologically plausible.
 
 In myeloid leukaemia, mercaptopurine appears mainly as a component of multi-agent regimens, such as oral 6-mercaptopurine plus methotrexate maintenance in acute myeloid leukaemia (AML) and maintenance in acute promyelocytic leukaemia (APL). Because of this, its independent contribution is difficult to separate. The cohort and pilot studies available (PMID 26425037, 27275453) are non-randomised, and no randomised trial tests mercaptopurine itself in myeloid leukaemia.
 
@@ -141,6 +141,18 @@ The evidence for myeloid leukaemia is limited to non-randomised studies (a cohor
 - Results from the ongoing mercaptopurine trials in AML (NCT06199557, NCT05506332)
 - Mechanism of action data and safety information from the TGA-approved Product Information
 - A thiopurine safety plan covering TPMT/NUDT15 testing and blood count monitoring
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

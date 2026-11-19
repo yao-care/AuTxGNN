@@ -54,7 +54,7 @@ Varenicline is a nicotinic receptor partial agonist, marketed in Australia as VA
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, varenicline is a partial agonist of alpha4beta2 nicotinic acetylcholine receptors and a full agonist of alpha7 receptors. Its established use is smoking cessation, where it reduces cravings and withdrawal symptoms.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for varenicline: "Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors." ([DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696), label version 2026-01-23; accessed 2026-11-19.) Based on known pharmacology, varenicline is a partial agonist of alpha4beta2 nicotinic acetylcholine receptors and a full agonist of alpha7 receptors. Its established use is smoking cessation, where it reduces cravings and withdrawal symptoms.
 
 Nicotinic and cholinergic signalling has been loosely linked to pain modulation and cortical spreading depression. However, no established mechanism connects varenicline to migraine treatment. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as clinical support.
 
@@ -101,6 +101,19 @@ The prediction rests on a model score alone (L5), with no trials, no efficacy li
 - The TGA PI warnings and contraindications, and the approved indication for ARTG 5469W
 - Review of the psychiatric and cardiovascular cautions in a migraine population
 - Severity grading for the unclassified drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

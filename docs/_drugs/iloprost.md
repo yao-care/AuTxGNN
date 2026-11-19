@@ -56,8 +56,7 @@ Iloprost is a stable prostacyclin analogue, originally used to treat pulmonary a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, iloprost is a stable prostacyclin (IP receptor) agonist. It causes pulmonary vasodilation, inhibits platelet aggregation and limits smooth muscle proliferation.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for iloprost: "Iloprost is a synthetic analog of prostacyclin PGI 2. Iloprost is a vasodilator and inhibits platelet aggregation." ([DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4), label version 2026-08-13; accessed 2026-11-19.) Based on known pharmacology, iloprost is a stable prostacyclin (IP receptor) agonist. It causes pulmonary vasodilation, inhibits platelet aggregation and limits smooth muscle proliferation.
 
 **Summary of other predictions:**
 
@@ -113,6 +112,19 @@ Please refer to the TGA-approved Product Information (PI) for the full warnings 
 - Review of whether the current Australian PAH indication already covers PAH-CHD, to determine whether this is a true new indication
 - Controlled trial data for iloprost in PAH-CHD and Eisenmenger syndrome
 - A safety plan accounting for the contraindication-related conditions (hypotension, pulmonary oedema, COPD, liver failure) and for the interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

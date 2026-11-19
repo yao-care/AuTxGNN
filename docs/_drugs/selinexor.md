@@ -56,10 +56,9 @@ The evidence is model prediction only, so the recommendation is **Hold**.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Selinexor is known as an XPO1 (exportin-1, also called CRM1) inhibitor. It blocks nuclear export of tumour-suppressor proteins and has been developed as an anticancer agent, mainly in haematological malignancies.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for selinexor: "In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells." ([DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8), label version 2026-05-12; accessed 2026-11-19.) Selinexor is known as an XPO1 (exportin-1, also called CRM1) inhibitor. It blocks nuclear export of tumour-suppressor proteins and has been developed as an anticancer agent, mainly in haematological malignancies.
 
 No established mechanistic link between XPO1 inhibition and bone metabolism or drug-induced osteoporosis is supported by the data. The high TxGNN score (0.9922) is not corroborated by any trial or publication. It should be treated as a hypothesis only.
-
 
 ## Clinical Trial Evidence
 
@@ -110,6 +109,19 @@ The prediction rests on model score alone. There are no trials or publications f
 - A targeted literature search for selinexor and bone effects or osteoporosis
 - A benefit-risk review given the drug's toxicity profile and the large number of interactions
 - Consideration of better-supported alternative indications (for example, further evaluation of the lung carcinoma trial data) before investing in this prediction
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

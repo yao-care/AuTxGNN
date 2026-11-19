@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **PLA2G6-associated neurodegene
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, entacapone is a peripheral COMT inhibitor. It prolongs the action of levodopa, and its efficacy as an adjunct in Parkinson disease is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for entacapone: "Entacapone is a selective and reversible inhibitor of COMT. In mammals, COMT is distributed throughout various organs with the highest activities in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells, and neuronal tissues, especially in glial cells." ([DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd), label version 2026-02-16; accessed 2026-11-19.) Based on known pharmacology, entacapone is a peripheral COMT inhibitor. It prolongs the action of levodopa, and its efficacy as an adjunct in Parkinson disease is established.
 
 PLA2G6-associated neurodegeneration includes infantile neuroaxonal dystrophy and PLA2G6-related dystonia-parkinsonism. A plausible link therefore exists only for the parkinsonian and dopaminergic features. Entacapone would not address the underlying lipid metabolism and neuroaxonal pathology of the condition.
 
@@ -127,6 +127,19 @@ The top prediction is supported only by a model score, with no trials or literat
 - Targeted literature review of COMT inhibitors in PLA2G6-related dystonia-parkinsonism
 - Preclinical or case-series evidence in Lewy body dementia or PSP-corticobasal syndrome before any trial planning
 - Confirmation of route compatibility (oral tablet) with the target populations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

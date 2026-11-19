@@ -21,11 +21,12 @@
   "items_current": 3505
  },
  "reviews": {
-  "records": 84,
-  "pages": 84,
-  "public_pages_with_records": 83,
+  "records": 602,
+  "pages": 527,
+  "public_pages_with_records": 526,
   "by_action": {
-   "correct": 84
+   "correct": 84,
+   "mechanism": 518
   }
  },
  "fhir": {
@@ -48,7 +49,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 20,
-   "r": 0,
+   "r": 1,
    "i": "trigeminal nerve neoplasm"
   },
   {
@@ -57,7 +58,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 20,
-   "r": 0,
+   "r": 1,
    "i": "leprosy"
   },
   {
@@ -93,7 +94,7 @@
    "l": "L5",
    "lt": 18,
    "lv": 18,
-   "r": 0,
+   "r": 1,
    "i": "liposarcoma"
   },
   {
@@ -113,7 +114,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "HIV infectious disease"
   },
   {
@@ -131,7 +132,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "HIV infectious disease"
   }
  ],
@@ -143,7 +144,7 @@
    "l": "L5",
    "lt": 4,
    "lv": 4,
-   "r": 1,
+   "r": 2,
    "i": "post-bacterial disorder"
   },
   {
@@ -152,7 +153,7 @@
    "l": "L5",
    "lt": 9,
    "lv": 9,
-   "r": 1,
+   "r": 2,
    "i": "atrophoderma vermiculata"
   },
   {
@@ -161,7 +162,7 @@
    "l": "L5",
    "lt": 6,
    "lv": 6,
-   "r": 1,
+   "r": 2,
    "i": "punctate epithelial keratoconjunctivitis"
   },
   {
@@ -170,7 +171,7 @@
    "l": "L5",
    "lt": 0,
    "lv": 20,
-   "r": 1,
+   "r": 2,
    "i": "hypermobility of coccyx"
   },
   {
@@ -179,7 +180,7 @@
    "l": "L5",
    "lt": 2,
    "lv": 2,
-   "r": 1,
+   "r": 2,
    "i": "catecholaminergic polymorphic ventricular tachycardia"
   },
   {
@@ -188,7 +189,7 @@
    "l": "L5",
    "lt": 0,
    "lv": 20,
-   "r": 1,
+   "r": 2,
    "i": "brain stem infarction"
   }
  ],
@@ -198,7 +199,7 @@
   "l": "L1",
   "lt": 12,
   "lv": 12,
-  "r": 0,
+  "r": 1,
   "i": "hepatitis E virus infection"
  },
  "recent_reviews": [

@@ -56,7 +56,7 @@ This is a model-only prediction with no clinical evidence behind it.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Olsalazine is known to be a dimer of 5-ASA that colonic bacteria cleave into two active molecules. It acts locally in the gut, and systemic exposure to the active moiety is low.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for olsalazine: "Upon reaching the colon, colonic bacteria convert olsalazine into 5‑aminosalicylic acid (5-ASA or mesalazine). The mechanism of action of 5-ASA (mesalamine) is not fully understood, but appears to be a topical anti-inflammatory effect on colonic epithelial cells." ([DailyMed: Dipentum (olsalazine sodium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8512d0c6-db4e-4673-b3b4-28975c18413f), label version 2026-05-15; accessed 2026-11-19.) Olsalazine is known to be a dimer of 5-ASA that colonic bacteria cleave into two active molecules. It acts locally in the gut, and systemic exposure to the active moiety is low.
 
 No plausible link between a locally acting colonic anti-inflammatory agent and bone marrow or haematopoietic disease can be established from the data compiled. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Several other top predictions are closely related conditions (myelodysplastic syndrome subtypes, del(5q), and cytopenias or anaemias). They probably reflect the same learned similarities and do not count as independent evidence.
 
@@ -99,6 +99,19 @@ The prediction rests only on a model score. There are no clinical trials or publ
 - The approved indication and the safety sections (warnings and contraindications) from the TGA-approved PI
 - Evidence of adequate systemic exposure at the target site, given the drug's local colonic action
 - Review of the haematological safety signal for 5-ASA class drugs in patients with existing cytopenias
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dipentum (olsalazine sodium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8512d0c6-db4e-4673-b3b4-28975c18413f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

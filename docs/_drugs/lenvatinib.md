@@ -54,7 +54,7 @@ Lenvatinib is an oral multi-targeted kinase inhibitor that is marketed in Austra
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, lenvatinib inhibits VEGFR1-3, FGFR1-4, PDGFRα, KIT and RET. These pathways drive tumour angiogenesis and growth signalling, which may also be relevant in sarcoma.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lenvatinib: "Lenvatinib is a kinase inhibitor that inhibits the kinase activities of vascular endothelial growth factor (VEGF) receptors VEGFR1 (FLT1), VEGFR2 (KDR), and VEGFR3 (FLT4). Lenvatinib inhibits other kinases that have been implicated in pathogenic angiogenesis, tumor growth, and cancer progression in addition to their normal cellular functions, including fibroblast growth factor (FGF) receptors FGFR1, 2, 3, and 4; platelet derived growth factor receptor alpha (PDGFRA), KIT, and RET." ([DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e), label version 2026-10-14; accessed 2026-11-19.) Based on known pharmacology, lenvatinib inhibits VEGFR1-3, FGFR1-4, PDGFRα, KIT and RET. These pathways drive tumour angiogenesis and growth signalling, which may also be relevant in sarcoma.
 
 The main clinical signal comes from combining lenvatinib with eribulin, a microtubule inhibitor. The two drugs plausibly act through complementary anti-angiogenic and cytotoxic mechanisms. CDK4 amplification is common in well-differentiated and dedifferentiated liposarcoma. This provides biomarker context, but it is not a direct lenvatinib mechanism.
 
@@ -112,6 +112,18 @@ The only direct evidence for liposarcoma is one single-arm Phase Ib/II study of 
 - Detailed mechanism of action data
 - Warnings and contraindications from the TGA-approved Product Information
 - A review of the interaction profile, particularly the major interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

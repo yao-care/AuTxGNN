@@ -58,7 +58,7 @@ Ziprasidone is an atypical antipsychotic that blocks dopamine D2 and serotonin 5
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for ziprasidone are not available in the data compiled for this report. Ziprasidone is generally described as an antagonist at dopamine D2 and serotonin 5-HT2A receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ziprasidone: "The mechanism of action of ziprasidone in the treatment of the listed indications could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Ziprasidone Mesylate 20 Mg/Ml (ziprasidone mesylate) prescribing information, Armas Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5c27f0f-4e45-4bca-bb9a-2d3f1c243348), label version 2026-09-18; accessed 2026-11-19.) Ziprasidone is generally described as an antagonist at dopamine D2 and serotonin 5-HT2A receptors.
 
 Trichotillomania is a repetitive hair-pulling (grooming) behaviour. Dopamine and serotonin dysregulation is plausibly involved in such behaviours, which gives a theoretical reason to expect a receptor-blocking antipsychotic might have an effect. This link is hypothetical. No study in the compiled data tests ziprasidone in trichotillomania, so the model score should be treated as a research signal, not as evidence of benefit.
 
@@ -120,6 +120,18 @@ The prediction is supported only by the model score (0.9983) and a hypothetical 
 - Mechanism of action data to support the hypothesised link
 - Review of the TGA Product Information for warnings and contraindications, with a cardiac (QTc) and metabolic risk assessment for the target population
 - Confirmation of the approved indication text for ARTG 9070J
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for ziprasidone are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ziprasidone Mesylate 20 Mg/Ml (ziprasidone mesylate) prescribing information, Armas Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5c27f0f-4e45-4bca-bb9a-2d3f1c243348) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

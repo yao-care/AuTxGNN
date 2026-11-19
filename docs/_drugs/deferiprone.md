@@ -56,7 +56,7 @@ Support comes from **2 publications** (one case-level preclinical report and one
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Deferiprone is known as an oral iron chelator, and the proposed rationale rests on that property.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for deferiprone: "Deferiprone is a chelating agent with an affinity for ferric ions (iron III). Deferiprone binds with ferric ions to form neutral 3:1 (deferiprone:iron) complexes that are stable at physiological pH." ([DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86), label version 2026-01-28; accessed 2026-11-19.) Deferiprone is known as an oral iron chelator, and the proposed rationale rests on that property.
 
 Some porphyrias have iron-dependent pathology. In porphyria cutanea tarda, for example, excess hepatic iron promotes accumulation of uroporphyrin, and lowering labile iron could reduce this. This is the main mechanistic argument for the prediction.
 
@@ -101,6 +101,19 @@ The prediction is scored highly by the model, but no cited study examines hepati
 - Mechanism of action data for deferiprone
 - Review of the TGA Product Information for warnings and contraindications
 - Assessment of safety in porphyria populations, including interaction management with metal-containing products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

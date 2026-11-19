@@ -54,7 +54,7 @@ Cyclophosphamide is an alkylating chemotherapy drug used across a range of cance
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cyclophosphamide is a well-known alkylating agent that damages the DNA of rapidly dividing cells, which is the general basis for its use in many malignancies.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cyclophosphamide: "The mechanism of action has not been fully characterized. However, cross-linking of tumor cell DNA may be involved. The active alkylating metabolites of cyclophosphamide interfere with the growth of susceptible rapidly proliferating malignant cells." ([DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e), label version 2026-08-26; accessed 2026-11-19.) Cyclophosphamide is a well-known alkylating agent that damages the DNA of rapidly dividing cells, which is the general basis for its use in many malignancies.
 
 "Retroperitoneal neoplasm" is an anatomical grouping rather than a single disease. It covers heterogeneous tumours such as paraganglioma, germ cell tumours, rhabdomyosarcoma and desmoplastic small round cell tumour. Cyclophosphamide has been used in some of these as part of multi-drug regimens (for example with vincristine and dacarbazine, or vincristine and doxorubicin). Because the reports are individual cases or small series, any benefit cannot be attributed to cyclophosphamide alone. The prediction is supported mainly by the model score and an indirect mechanistic fit.
 
@@ -132,11 +132,12 @@ There are no registered trials, and the literature consists of case reports and 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e) |
 
 <!-- review:end log -->
 

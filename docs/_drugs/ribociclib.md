@@ -58,7 +58,7 @@ Ribociclib (Kisqali) is an oral CDK4/6 inhibitor used for hormone receptor-posit
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the compiled data. Ribociclib belongs to the selective CDK4/6 inhibitor class. In breast cancer these drugs block Rb phosphorylation and G1-to-S cell cycle progression. Their efficacy there is well established in Phase 3 trials (MONALEESA-2, -3 and -7, and NATALEE).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ribociclib: "Ribociclib is an inhibitor of cyclin-dependent kinase (CDK) 4 and 6. These kinases are activated upon binding to D-cyclins and are downstream of signaling pathways which lead to cell cycle progression and cellular proliferation." ([DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8), label version 2026-07-01; accessed 2026-11-19.) Ribociclib belongs to the selective CDK4/6 inhibitor class. In breast cancer these drugs block Rb phosphorylation and G1-to-S cell cycle progression. Their efficacy there is well established in Phase 3 trials (MONALEESA-2, -3 and -7, and NATALEE).
 
 Mechanistically, CDK4/6 signalling is thought to drive proliferation in acute myeloid leukaemia (AML), so the prediction is biologically plausible. A 2020 preclinical paper (PMID 32560251) reports that CDK4/6 inhibitors can target pharmacokinetic drug resistance in AML cells. This resistance is linked to ABCB1/ABCG2 transporter overexpression and anthracycline metabolism. This is indirect, in vitro evidence only. It does not show that ribociclib treats leukaemia in patients.
 
@@ -121,6 +121,19 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 - Mechanism of action data (MOA) and a clear rationale for combination partners
 - A safety assessment of myelosuppression, QT prolongation and CYP3A4 interactions in patients with leukaemia
 - The full TGA Product Information (warnings, contraindications and approved indication text)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

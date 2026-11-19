@@ -56,7 +56,7 @@ with **2 directly relevant Phase 2 clinical trials** and **several Phase 2 publi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Oxaliplatin is a third-generation platinum agent. Published literature describes it as forming DNA adducts (intrastrand cross-links) that inhibit DNA replication and transcription. It has shown activity in colorectal cancer, particularly with 5-fluorouracil.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxaliplatin: "Oxaliplatin undergoes nonenzymatic conversion in physiologic solutions to active derivatives via displacement of the labile oxalate ligand. Several transient reactive species are formed, including monoaquo and diaquo DACH platinum, which covalently bind with macromolecules." ([DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5), label version 2026-08-24; accessed 2026-11-19.) Oxaliplatin is a third-generation platinum agent. Published literature describes it as forming DNA adducts (intrastrand cross-links) that inhibit DNA replication and transcription. It has shown activity in colorectal cancer, particularly with 5-fluorouracil.
 
 Platinum-based chemotherapy is the established backbone of mesothelioma treatment. It is therefore mechanistically plausible that oxaliplatin could be active in pleural mesothelioma. Several Phase 2 studies support this: combinations with gemcitabine, vinorelbine and raltitrexed all showed some activity.
 
@@ -123,6 +123,19 @@ Evidence for pleural mesothelioma is limited to small, mostly older Phase 2 stud
 - Comparative evidence against the current standard of care (cisplatin/pemetrexed, including immunotherapy-based regimens), ideally a randomised trial
 - A clinically meaningful position for oxaliplatin in a specific population, such as patients who cannot receive cisplatin or have progressed after pemetrexed
 - Safety planning for patients with renal, hepatic, neurological or lung conditions, and review of the Major interaction with dolasetron
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

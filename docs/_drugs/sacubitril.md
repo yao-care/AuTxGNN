@@ -68,7 +68,7 @@ The top-ranked prediction by score was brain small vessel disease 1 with or with
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, sacubitril is a prodrug whose active metabolite inhibits neprilysin, an enzyme that degrades natriuretic peptides. Inhibition raises natriuretic peptide levels, which promotes vasodilation and natriuresis and has anti-fibrotic effects. In the marketed tablet it is combined with valsartan, an angiotensin II receptor blocker.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sacubitril and valsartan (a combination product containing sacubitril): "Sacubitril and valsartan contains a neprilysin inhibitor, sacubitril, and an angiotensin receptor blocker, valsartan. Sacubitril and valsartan inhibits neprilysin (neutral endopeptidase; NEP) via LBQ657, the active metabolite of the prodrug sacubitril, and blocks the angiotensin II type-1 (AT 1 ) receptor via valsartan." ([DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c), label version 2026-10-30; accessed 2026-11-19.) From general pharmacology, sacubitril is a prodrug whose active metabolite inhibits neprilysin, an enzyme that degrades natriuretic peptides. Inhibition raises natriuretic peptide levels, which promotes vasodilation and natriuresis and has anti-fibrotic effects. In the marketed tablet it is combined with valsartan, an angiotensin II receptor blocker.
 
 Blocking the renin-angiotensin system is a cornerstone of diabetic kidney disease management. The neprilysin inhibitor adds a complementary pathway. Preclinical studies in rats and db/db mice report reduced oxidative stress, NF-κB-mediated inflammation, glomerular and tubular injury, and gut microbiota changes. A secondary analysis of the PARADIGM-HF trial (Lancet Diabetes Endocrinol, 2018) examined renal function in patients with type 2 diabetes and heart failure.
 
@@ -140,6 +140,19 @@ The TxGNN score is very high, but the evidence is early. There is one Phase 4 tr
 - The TGA Product Information, including approved indications, warnings and contraindications
 - Mechanism of action data confirmed from DrugBank
 - A safety plan for patients with diabetic kidney disease, covering renal function, potassium and blood pressure monitoring
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

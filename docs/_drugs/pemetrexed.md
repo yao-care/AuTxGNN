@@ -56,7 +56,7 @@ with **7 registered clinical trials** and **20 publications** currently supporti
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pemetrexed is a multi-targeted antifolate that inhibits thymidylate synthase, dihydrofolate reductase (DHFR) and glycinamide ribonucleotide formyltransferase (GARFT). This blocks purine and pyrimidine synthesis in rapidly dividing cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pemetrexed: "Pemetrexed is a folate analog metabolic inhibitor that disrupts folate-dependent metabolic processes essential for cell replication. In vitro studies show that pemetrexed inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), which are folate-dependent enzymes involved in the de novo biosynthesis of thymidine and purine nucleotides." ([DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0), label version 2026-06-18; accessed 2026-11-19.) Based on known pharmacology, pemetrexed is a multi-targeted antifolate that inhibits thymidylate synthase, dihydrofolate reductase (DHFR) and glycinamide ribonucleotide formyltransferase (GARFT). This blocks purine and pyrimidine synthesis in rapidly dividing cells.
 
 Peritoneal and pleural mesothelioma share the same mesothelial histology and folate-dependent proliferation. Pemetrexed plus cisplatin is the established first-line chemotherapy for pleural mesothelioma, supported by a pivotal Phase 3 trial, and is commonly extrapolated to the peritoneal form. Because peritoneal mesothelioma is rare, prospective disease-specific trials are scarce, and systemic therapy recommendations are mostly extrapolated from pleural disease.
 
@@ -135,6 +135,19 @@ Pemetrexed has a strong mechanistic rationale and is already the standard backbo
 - Multidisciplinary review of each patient, including the role of cytoreductive surgery with HIPEC and immunotherapy options.
 - A monitoring plan for renal function and blood counts, with a medication review for nephrotoxic or interacting drugs.
 - Standard vitamin supplementation and dosing per the PI, which should be confirmed from the label.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

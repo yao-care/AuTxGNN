@@ -60,7 +60,7 @@ The evidence is mostly small, early-phase or older haemodynamic studies, so it s
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on established pharmacology, nitroglycerin is a nitric oxide (NO) donor. NO activates soluble guanylate cyclase and raises cGMP in vascular smooth muscle, causing vasodilation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nitroglycerin: "Nitroglycerin forms free radical nitric oxide (NO), which activates guanylate cyclase, resulting in an increase of guanosine 3',5'-monophosphate (cyclic GMP) in smooth muscle and other tissues. This eventually leads to dephosphorylation of myosin light chains, which regulates the contractile state in smooth muscle and results in vasodilatation." ([DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300), label version 2025-12-17; accessed 2026-11-19.) Based on established pharmacology, nitroglycerin is a nitric oxide (NO) donor. NO activates soluble guanylate cyclase and raises cGMP in vascular smooth muscle, causing vasodilation.
 
 Pulmonary hypertension involves persistent pulmonary vasoconstriction and vascular remodelling. A vasodilator acting through the NO–cGMP pathway is therefore biologically plausible. Delivery by inhalation or nebulisation may give relatively selective pulmonary vasodilation and limit systemic hypotension. Early haemodynamic studies in pulmonary hypertension, including COPD-associated disease, point in the same direction.
 
@@ -132,6 +132,19 @@ The prediction is mechanistically plausible and the TxGNN score is high. However
 ---
 
 *Other lower-ranked predictions (kyphoscoliotic heart disease, Prinzmetal angina, primary hereditary glaucoma, congenital hypotrichosis milia) were reviewed. None has supporting trial evidence, and for Prinzmetal angina the use appears to be already established rather than new, so none is recommended for advancement at this stage.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

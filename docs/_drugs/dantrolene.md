@@ -56,7 +56,7 @@ There are currently **no clinical trials** and **no publications** in the data c
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for dantrolene is not available in the data compiled for this report. Dantrolene is generally understood to act on the skeletal muscle ryanodine receptor (RyR1), which controls calcium release from the sarcoplasmic reticulum.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dantrolene: "In isolated nerve-muscle preparation, dantrolene has been shown to produce relaxation by affecting the contractile response of the muscle at a site beyond the myoneural junction. In skeletal muscle, dantrolene dissociates the excitation-contraction coupling, probably by interfering with the release of Ca ++ from the sarcoplasmic reticulum." ([DailyMed: Ryanodex Dantrolene Sodium (dantrolene sodium) prescribing information, Eagle Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7b3ac0-604d-4c78-b545-5e0f8ea3d698), label version 2024-10-30; accessed 2026-11-19.) Dantrolene is generally understood to act on the skeletal muscle ryanodine receptor (RyR1), which controls calcium release from the sarcoplasmic reticulum.
 
 The high prediction score is likely driven by proximity to the *RYR1* gene in the TxGNN network. Multiminicore disease is a congenital myopathy, and some forms are linked to calcium-handling pathways in skeletal muscle. This makes a mechanistic connection plausible in principle.
 
@@ -101,6 +101,19 @@ The prediction is supported only by a high model score. There are no clinical tr
 - Review of the TGA-approved PI for warnings and contraindications, particularly liver and muscle-related considerations
 - Assessment of route and formulation compatibility with the proposed use
 - Evidence of clinical benefit, such as preclinical models or case series, before any trial design is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for dantrolene is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ryanodex Dantrolene Sodium (dantrolene sodium) prescribing information, Eagle Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7b3ac0-604d-4c78-b545-5e0f8ea3d698) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

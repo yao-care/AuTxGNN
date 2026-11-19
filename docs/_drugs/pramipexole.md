@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Pramipexole is known to be a non-ergot dopamine agonist that prefers D2/D3 receptors. Its efficacy in Parkinson disease and restless legs syndrome reflects that dopaminergic activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pramipexole: "Pramipexole is a non-ergot dopamine agonist with high relative in vitro specificity and full intrinsic activity at the D 2 subfamily of dopamine receptors, binding with higher affinity to D 3 than to D 2 or D 4 receptor subtypes. Parkinson’s Disease The precise mechanism of action of pramipexole as a treatment for Parkinson's disease is unknown, although it is believed to be related to its ability to stimulate dopamine receptors in the striatum." ([DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c), label version 2026-09-09; accessed 2026-11-19.) Pramipexole is known to be a non-ergot dopamine agonist that prefers D2/D3 receptors. Its efficacy in Parkinson disease and restless legs syndrome reflects that dopaminergic activity.
 
 ADHD is a condition in which dopamine signalling is thought to be dysregulated. The literature also links ADHD to variants of the dopamine D4 receptor gene. This gives the prediction a plausible but indirect mechanistic rationale.
 
@@ -127,6 +127,19 @@ The TxGNN score is very high, but the prediction rests on a plausible dopaminerg
 - ADHD-specific clinical evidence, such as a well-designed pilot or randomised trial
 - A safety plan for impulse-control disorders, sleepiness and psychiatric adverse effects in ADHD populations
 - Confirmation of the approved indication text for the ARTG entry
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

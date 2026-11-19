@@ -58,7 +58,7 @@ with **7 clinical trials** (most of them small, early-phase or mixed-population 
 
 ## Why is This Prediction Reasonable?
 
-Melphalan is a bifunctional nitrogen mustard alkylating agent. It forms DNA interstrand crosslinks and induces apoptosis in dividing cells. Detailed mechanism of action data were not available in the compiled data, so this description reflects the drug's general pharmacology.
+Melphalan is a bifunctional nitrogen mustard alkylating agent. It forms DNA interstrand crosslinks and induces apoptosis in dividing cells. According to the Mechanism of Action section of the US FDA-approved prescribing information for melphalan: "Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine." ([DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c), label version 2026-09-15; accessed 2026-11-19.) This description reflects the drug's general pharmacology.
 
 Ovarian cancer and gonadal germ cell tumours both arise in the gonads, and germ cell tumours are generally highly sensitive to DNA-damaging chemotherapy. High-dose melphalan with autologous stem cell rescue is a rational salvage strategy for relapsed or poor-prognosis disease. The very high TxGNN score is consistent with this mechanism.
 
@@ -127,6 +127,19 @@ The mechanistic rationale is plausible and the prediction score is high, but the
 - TGA Product Information warnings and contraindications (a blocking data gap for safety screening), including the approved indication text for ARTG 2547C
 - Assessment of route and formulation compatibility (oral tablet versus intravenous high-dose use)
 - A safety monitoring plan covering myelosuppression, renal impairment and pulmonary toxicity, and confirmation of stem cell rescue capability if high-dose use is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data were not available in the compiled data, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

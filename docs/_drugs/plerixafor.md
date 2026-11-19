@@ -58,7 +58,7 @@ The data compiled for this report show considerably more evidence for a related 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, plerixafor is a CXCR4 antagonist (it also interacts with ACKR3). It blocks the CXCL12/CXCR4 axis, which anchors haematopoietic and malignant cells in the protective bone marrow niche, and so mobilises them into the circulation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for plerixafor: "Plerixafor is an inhibitor of the CXCR4 chemokine receptor and blocks binding of its cognate ligand, stromal cell-derived factor-1α (SDF-1α). SDF-1α and CXCR4 are recognized to play a role in the trafficking and homing of human hematopoietic stem cells (HSCs) to the marrow compartment." ([DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003), label version 2025-09-22; accessed 2026-11-19.) Based on known pharmacology, plerixafor is a CXCR4 antagonist (it also interacts with ACKR3). It blocks the CXCL12/CXCR4 axis, which anchors haematopoietic and malignant cells in the protective bone marrow niche, and so mobilises them into the circulation.
 
 Plerixafor is already used to mobilise stem cells in multiple myeloma and non-Hodgkin lymphoma before autologous transplantation. The prediction for the indolent subtype extends this link to the disease itself. However, no trials or literature were found that support an anti-myeloma or disease-modifying role in indolent disease, so the prediction currently rests on the model score alone.
 
@@ -158,11 +158,12 @@ Myeloid leukaemia has an L2 evidence level from Phase 1/2 trials only. It is bet
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003) |
 
 <!-- review:end log -->
 

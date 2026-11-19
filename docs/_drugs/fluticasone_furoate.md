@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but this is 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Fluticasone furoate is a glucocorticoid. Topical corticosteroids are a standard treatment for eczema because of their anti-inflammatory and immunosuppressive effects, so the prediction is plausible at the drug-class level.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluticasone furoate: "Fluticasone furoate is a synthetic trifluorinated corticosteroid with anti-inflammatory activity. Fluticasone furoate has been shown in vitro to exhibit a binding affinity for the human glucocorticoid receptor that is approximately 29.9 times that of dexamethasone and 1.7 times that of fluticasone propionate." ([DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440), label version 2025-03-06; accessed 2026-11-19.) Fluticasone furoate is a glucocorticoid. Topical corticosteroids are a standard treatment for eczema because of their anti-inflammatory and immunosuppressive effects, so the prediction is plausible at the drug-class level.
 
 The original indications (asthma, allergic rhinitis) and atopic eczema are all allergic or atopic inflammatory conditions, which may explain the very high model score. However, the only available Australian product is an oral inhalation powder, not a dermal formulation. No studies were found of this drug used for atopic eczema. The score most likely reflects glucocorticoid class similarity rather than drug-specific evidence.
 
@@ -106,6 +106,19 @@ For context, the data compiled for this report show stronger evidence for obstru
 - Detailed mechanism of action data
 - Review of the PI for warnings, contraindications and interactions, including adrenal suppression and infection risk
 - Comparison against established topical corticosteroids for atopic eczema
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

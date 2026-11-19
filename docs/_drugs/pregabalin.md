@@ -55,7 +55,7 @@ The TxGNN model's top-ranked prediction is **tendinitis**, but it has **no regis
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Pregabalin is generally understood to bind the alpha2-delta subunit of voltage-gated calcium channels. This reduces excitatory neurotransmitter release and dampens neuropathic and central-sensitisation pain signalling. This is consistent with its established use in postherpetic neuralgia and fibromyalgia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pregabalin: "Pregabalin binds with high affinity to the alpha 2 ‑delta site (an auxiliary subunit of voltage‑gated calcium channels) in central nervous system tissues. Although the mechanism of action of pregabalin has not been fully elucidated, results with genetically modified mice and with compounds structurally related to pregabalin (such as gabapentin) suggest that binding to the alpha 2 ‑delta subunit may be involved in pregabalin’s anti‑nociceptive and antiseizure effects in animals." ([DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd), label version 2026-03-12; accessed 2026-11-19.) Pregabalin is generally understood to bind the alpha2-delta subunit of voltage-gated calcium channels. This reduces excitatory neurotransmitter release and dampens neuropathic and central-sensitisation pain signalling. This is consistent with its established use in postherpetic neuralgia and fibromyalgia.
 
 For **tendinitis**, the link is indirect. Tendinitis is mainly inflammatory and mechanical, so pregabalin could plausibly help only with neuropathic pain components, such as nerve impingement. The very high TxGNN score is not supported by direct clinical data. The retrieved literature consists of a fluoroquinolone-associated disability report, an editorial on piriformis syndrome, a case report of nerve impingement after a marathon and two perioperative rotator cuff repair studies (one RCT, one retrospective cohort). None test pregabalin as a treatment for tendinitis itself.
 
@@ -130,6 +130,19 @@ For label warnings and contraindications, please refer to the TGA-approved Produ
 - Mechanism of action data and the TGA Product Information (including approved indications, warnings and contraindications), both currently missing
 - For tendinitis, a focused literature review or a pilot trial in tendinopathy with neuropathic features
 - A plan for managing opioid co-prescribing and renal impairment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

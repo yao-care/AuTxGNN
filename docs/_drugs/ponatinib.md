@@ -60,7 +60,7 @@ This is a model-only prediction (L5), and the remaining nine ranked predictions 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Ponatinib is a third-generation BCR-ABL tyrosine kinase inhibitor, and its efficacy in BCR-ABL1-positive chronic myeloid leukaemia is established. It is also known to inhibit other kinases, including FGFR, PDGFR, VEGFR, SRC, KIT and RET.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ponatinib: "Ponatinib is a kinase inhibitor. Ponatinib inhibited the in vitro tyrosine kinase activity of ABL and T315I mutant ABL with IC 50 concentrations of 0.4 nM and 2.0 nM, respectively. Ponatinib inhibited the in vitro activity of additional kinases with IC 50 concentrations between 0.1 nM and 20 nM, including members of the VEGFR, PDGFR, FGFR, EPH receptors and SRC families of kinases, and KIT, RET, TIE2, and FLT3." ([DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac), label version 2026-08-14; accessed 2026-11-19.) Ponatinib is a third-generation BCR-ABL tyrosine kinase inhibitor, and its efficacy in BCR-ABL1-positive chronic myeloid leukaemia is established. It is also known to inhibit other kinases, including FGFR, PDGFR, VEGFR, SRC, KIT and RET.
 
 A link between these pathways and a fibroproliferative condition such as gingival fibromatosis is conceivable, because PDGFR and FGFR signalling are involved in fibroblast growth. However, this is speculative. No trials or publications in the compiled data connect ponatinib to this condition. The high TxGNN score is a computational prediction only.
 
@@ -134,6 +134,19 @@ The prediction for gingival fibromatosis rests on a model score alone, with no t
 - Approved indication text for the Australian ARTG entry
 - A risk-benefit framework for a non-malignant indication
 - If a different indication is preferred, liposarcoma is the only one with any supporting literature (L4), though this is a single preclinical kinase-profiling study and not ponatinib-specific
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

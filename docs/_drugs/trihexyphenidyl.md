@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, trihexyphenidyl is a central muscarinic (M1-preferring) antagonist that modulates the balance between cholinergic and dopaminergic signalling in the striatum. This is the basis of its use in Parkinson disease and dystonia.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for trihexyphenidyl: "Trihexyphenidyl Hydrochloride is the substituted piperidine salt, 3-(1-piperidyl)- 1-phenylcyclohexyl-1-propanol hydrochloride, which exerts a direct inhibitory effect upon the parasympathetic nervous system. It also has a relaxing effect on smooth musculature; exerted both directly upon the muscle tissue itself and indirectly through an inhibitory effect upon the parasympathetic nervous system." ([DailyMed: trihexyphenidyl hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60ef86c-b8b6-4530-baaf-d4671ce961af), label version 2026-07-23; accessed 2026-11-19.) Based on known information, trihexyphenidyl is a central muscarinic (M1-preferring) antagonist that modulates the balance between cholinergic and dopaminergic signalling in the striatum. This is the basis of its use in Parkinson disease and dystonia.
 
 Altered dopaminergic and cholinergic signalling has been implicated in ADHD, and in the tic and dystonia conditions that often co-occur with it. This gives a plausible but indirect link to the original indications.
 
@@ -113,6 +113,19 @@ The ADHD prediction rests on a high model score and an indirect mechanistic link
 - A systematic literature search for direct evidence of trihexyphenidyl in ADHD, tic disorders and dystonia-parkinsonism.
 - For PLA2G6-associated neurodegeneration, a targeted review or case series of symptomatic trihexyphenidyl use in dystonia-parkinsonism.
 - A safety assessment of anticholinergic cognitive effects, particularly in children and adolescents.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trihexyphenidyl hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60ef86c-b8b6-4530-baaf-d4671ce961af) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

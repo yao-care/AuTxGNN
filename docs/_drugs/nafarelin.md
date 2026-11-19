@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Ambras type hypertrichosis un
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, nafarelin is a GnRH agonist. Continuous exposure desensitises pituitary GnRH receptors, which suppresses LH and FSH and lowers sex steroids. This is the basis for its use in endometriosis and central precocious puberty.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nafarelin: "Nafarelin acetate is a potent agonistic analog of gonadotropin-releasing hormone (GnRH). At the onset of administration, nafarelin stimulates the release of the pituitary gonadotropins, LH and FSH, resulting in a temporary increase of gonadal steroidogenesis." ([DailyMed: Synarel (nafarelin acetate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d0aa57cb-d2f4-46d7-af43-7c8b06aa81a6), label version 2026-03-05; accessed 2026-11-19.) Based on known pharmacology, nafarelin is a GnRH agonist. Continuous exposure desensitises pituitary GnRH receptors, which suppresses LH and FSH and lowers sex steroids. This is the basis for its use in endometriosis and central precocious puberty.
 
 The link to the predicted indication is weak. Ambras syndrome is a congenital hypertrichosis associated with genomic rearrangements affecting regulation of the *TRPS1* gene. It is not a GnRH-driven or sex-steroid-driven process. The high score (0.9987) is a model output, not evidence of benefit. No mechanistic link has been established.
 
@@ -113,6 +113,19 @@ The prediction for Ambras type hypertrichosis universalis congenita rests only o
 - Retrieval of the TGA Product Information, including warnings and contraindications, to complete safety screening
 - Preclinical or case-level evidence in Ambras syndrome or related hypertrichosis
 - If a related direction is of interest, central precocious puberty is the best-supported prediction. It is effectively an existing use, so the question is one of label alignment rather than repurposing.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Synarel (nafarelin acetate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d0aa57cb-d2f4-46d7-af43-7c8b06aa81a6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

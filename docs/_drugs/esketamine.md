@@ -64,7 +64,7 @@ The best-supported candidate in the data compiled for this report is **Neurotic 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From the literature, esketamine is an NMDA receptor antagonist that acts through glutamatergic modulation, AMPA receptor activation and downstream synaptic plasticity (BDNF/mTOR pathways), producing rapid antidepressant effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for esketamine: "Esketamine, the S-enantiomer of racemic ketamine, is a non-selective, non-competitive antagonist of the N -methyl- D -aspartate (NMDA) receptor, an ionotropic glutamate receptor. The mechanism by which esketamine exerts its antidepressant effect is unknown." ([DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed), label version 2026-09-22; accessed 2026-11-19.) From the literature, esketamine is an NMDA receptor antagonist that acts through glutamatergic modulation, AMPA receptor activation and downstream synaptic plasticity (BDNF/mTOR pathways), producing rapid antidepressant effects.
 
 However, no trial or publication directly supports this use. The high score probably reflects network proximity to anxiety and depression nodes rather than specific evidence, so it should be treated as a hypothesis only.
 
@@ -81,7 +81,6 @@ Evidence so far is limited to reviews, case reports and small case series.
 ## Clinical Trial Evidence
 
 There are no registered trials for agoraphobia. The trials below relate to the other predicted indications.
-
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -119,7 +118,6 @@ No ANZCTR trial identifiers were available in the data compiled for this report.
 | [33726522](https://pubmed.ncbi.nlm.nih.gov/33726522/) | 2021 | Systematic review | Am J Psychiatry | International expert synthesis of evidence for ketamine and esketamine in TRD |
 | [35416105](https://pubmed.ncbi.nlm.nih.gov/35416105/) | 2022 | Review | Expert Opin Drug Saf | Long-term safety of ketamine and esketamine |
 | [40319349](https://pubmed.ncbi.nlm.nih.gov/40319349/) | 2025 | Long-term extension study | Int J Neuropsychopharmacol | Long-term safety and efficacy of esketamine in TRD |
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -174,6 +172,19 @@ Please refer to the TGA-approved Product Information (PI) for formal warnings an
 - For OCD: randomised controlled trials of esketamine
 - For insomnia: a trial in primary insomnia, not perioperative settings
 - A safety monitoring plan covering dissociation, blood pressure, abuse risk and the interactions above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

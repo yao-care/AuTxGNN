@@ -56,7 +56,7 @@ The score comes from the TxGNN model (deep learning) and may reflect similaritie
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Lincomycin is known to be a lincosamide antibiotic that inhibits bacterial protein synthesis by binding the 50S ribosomal subunit. Its efficacy in Gram-positive bacterial infections is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lincomycin: "Lincomycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the bacterial ribosome. Lincomycin is predominantly bacteriostatic in vitro." ([DailyMed: Lincocin (lincomycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c01906fa-2c73-4c13-9765-2fd06628d263), label version 2025-03-10; accessed 2026-11-19.) Lincomycin is known to be a lincosamide antibiotic that inhibits bacterial protein synthesis by binding the 50S ribosomal subunit. Its efficacy in Gram-positive bacterial infections is established.
 
 No plausible pathway links this antibacterial action to raised serum amylase. Hyperamylasemia is a laboratory finding that can arise from pancreatic or salivary gland disease or reduced clearance of amylase. It is not an infection that an antibacterial would treat directly. The high TxGNN score (rank 8,929) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should be read with caution.
 
@@ -104,6 +104,19 @@ Two lower-ranked predictions have indirect evidence only and are better framed a
 
 - Lincosamides are generally ineffective against Gram-negative bacilli such as *Yersinia pestis*, and guideline-recommended agents already exist. No clinical efficacy data.
 - The only randomised trial ([PMID 1433889](https://pubmed.ncbi.nlm.nih.gov/1433889/), 1992, n=95) compared imipenem/cilastatin with aztreonam plus lincomycin in severe infections in patients with malignancy or haematological disease. Lincomycin was only a partner drug, so this does not show monotherapy efficacy. Most urinary tract infections are caused by Gram-negative organisms against which lincomycin is inactive.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lincocin (lincomycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c01906fa-2c73-4c13-9765-2fd06628d263) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

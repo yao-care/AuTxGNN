@@ -58,7 +58,7 @@ with **2 directly relevant clinical trials** (one Phase 3 and one Phase 4, both 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled. Based on known pharmacology, tacrolimus inhibits calcineurin, which blocks NFAT-dependent T-cell activation and the release of pro-inflammatory cytokines. This is the mechanism behind its established use in atopic dermatitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tacrolimus: "Tacrolimus binds to an intracellular protein, FKBP-12. A complex of tacrolimus-FKBP-12, calcium, calmodulin, and calcineurin (an ubiquitous mammalian intracellular enzyme) is then formed and the phosphatase activity of calcineurin inhibited." ([DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7), label version 2025-02-26; accessed 2026-11-19.) Based on known pharmacology, tacrolimus inhibits calcineurin, which blocks NFAT-dependent T-cell activation and the release of pro-inflammatory cytokines. This is the mechanism behind its established use in atopic dermatitis.
 
 Seborrheic dermatitis is a chronic, relapsing inflammatory skin disease affecting the face and scalp, and it involves an inflammatory response to *Malassezia* yeast. Atopic dermatitis and seborrheic dermatitis are both inflammatory dermatoses, so topical calcineurin inhibition is plausibly relevant. Published reviews describe topical calcineurin inhibitors as a steroid-sparing option for seborrheic dermatitis, since long-term corticosteroid use on the face carries adverse effects.
 
@@ -127,11 +127,12 @@ The mechanism is plausible, and a completed Phase 3 trial and a completed Phase 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Rivaroxaban is an oral direct Factor Xa inhibitor used as an anticoagulant. The 
 
 ## Why is This Prediction Reasonable?
 
-Rivaroxaban is a direct Factor Xa inhibitor. Detailed mechanism of action data are not available in the data compiled for this report, so this description draws on general pharmacological knowledge.
+Rivaroxaban is a direct Factor Xa inhibitor. According to the Mechanism of Action section of the US FDA-approved prescribing information for rivaroxaban: "XARELTO is a selective inhibitor of FXa. It does not require a cofactor (such as Anti-thrombin III) for activity. Rivaroxaban inhibits free FXa and prothrombinase activity. Rivaroxaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610), label version 2026-09-10; accessed 2026-11-19.) This description draws on general pharmacological knowledge.
 
 Rheumatoid arthritis (RA) involves chronic inflammation with activation of coagulation and an elevated thrombotic risk. One retrieved review discusses thrombin generation in autoimmune disease. This offers only a plausible, indirect link through the coagulation-inflammation axis.
 
@@ -105,6 +105,19 @@ The prediction rests only on a high model score. There are no registered trials,
 - Detailed mechanism of action data
 - The approved indication text and PI warnings and contraindications for the Australian product
 - A safety review covering bleeding risk, hepatic and renal impairment, and major interactions, particularly with aspirin and with antirheumatic or corticosteroid co-therapy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

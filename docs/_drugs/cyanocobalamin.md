@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **biotin metabolic disease**, b
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on established pharmacology, cyanocobalamin is a cobalamin cofactor for methionine synthase and methylmalonyl-CoA mutase. Its efficacy in B12 deficiency and pernicious anaemia is well established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cyanocobalamin: "CLINICAL PHAMRACOLOGY Vitamin B12 is essential to growth, cell reproduction, hematopoiesis, and nucleoprotein and myelin synthesis." ([DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d), label version 2025-12-08; accessed 2026-11-19.) Based on established pharmacology, cyanocobalamin is a cobalamin cofactor for methionine synthase and methylmalonyl-CoA mutase. Its efficacy in B12 deficiency and pernicious anaemia is well established.
 
 The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No direct mechanism has been shown by which cyanocobalamin corrects a primary biotin metabolic defect, such as biotinidase deficiency or holocarboxylase synthetase deficiency. The standard treatment for those disorders is biotin supplementation. The prediction should therefore be treated as a hypothesis-generating signal, not a supported therapeutic link.
 
@@ -96,6 +96,19 @@ The prediction score is very high, but it is model-based only (L5). There are no
 - Case series or clinical studies in biotinidase or holocarboxylase synthetase deficiency, if the hypothesis is pursued
 - The approved indication text and the PI warnings and contraindications for the ARTG entry
 - Review of the clinical relevance of the interactions flagged above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

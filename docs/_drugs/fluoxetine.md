@@ -58,7 +58,7 @@ Fluoxetine is a serotonin-focused antidepressant. The TxGNN model (deep learning
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Fluoxetine is generally understood to act by inhibiting serotonin reuptake. In theory, serotonin modulation might influence affective blunting or social withdrawal, which are features of schizoid personality disorder.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluoxetine: "Although the exact mechanism of PROZAC is unknown, it is presumed to be linked to its inhibition of CNS neuronal uptake of serotonin." ([DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299), label version 2026-01-08; accessed 2026-11-19.) Fluoxetine is generally understood to act by inhibiting serotonin reuptake. In theory, serotonin modulation might influence affective blunting or social withdrawal, which are features of schizoid personality disorder.
 
 This reasoning is speculative. Schizoid personality disorder is a long-standing pattern of detachment and restricted emotional expression, which is quite different from the mood and anxiety conditions in which fluoxetine is used. The retrieved literature is a general review of drug treatment for Cluster A personality disorders and a study of depression outcomes. Neither shows that fluoxetine works in schizoid personality disorder. The high score therefore reflects a computational pattern, not demonstrated benefit.
 
@@ -110,6 +110,19 @@ The prediction rests on a model score alone. There are no registered trials and 
 - A safety plan for patients with the comorbid conditions listed above and for the major interacting drugs
 
 Among the other predictions generated for fluoxetine, phobic disorder had the strongest support (one completed Phase 3 trial in childhood social phobia). It may be a better candidate for further evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

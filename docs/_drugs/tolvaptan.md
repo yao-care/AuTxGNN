@@ -62,7 +62,7 @@ Tolvaptan is a selective vasopressin V2 receptor antagonist. In polycystic kidne
 
 Polycystic kidney disease is already among tolvaptan's original indications. The predicted disease is a subtype-level variant (PKD3, with or without polycystic liver disease) of the same cystic kidney biology. The prediction is therefore mechanistically coherent, but it adds little beyond the existing ADPKD indication. Any use would remain limited to patients with rapidly progressing disease.
 
-Detailed mechanism of action data was not available in the structured drug record, so the mechanism above comes from the repurposing rationale and the published literature.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tolvaptan: "Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor." ([DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4), label version 2026-09-30; accessed 2026-11-19.) The mechanism above comes from the repurposing rationale and the published literature.
 
 ## Clinical Trial Evidence
 
@@ -115,6 +115,19 @@ The mechanism is well established and pivotal RCTs support tolvaptan in ADPKD, s
 - Review of the major clarithromycin interaction and other CYP3A-related interactions in prescribing guidance
 
 Other predictions in the list (ranks 2 to 10) are mostly scores from the TxGNN model (deep learning) with no clinical support; these scores may reflect similarities the model learned between related diseases, not biological evidence. They should remain on Hold, with Joubert syndrome with renal defect flagged only as a research question requiring preclinical evaluation, since a urinary concentrating defect in nephronophthisis may make V2 antagonism unsuitable.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data was not available in the structured drug record, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

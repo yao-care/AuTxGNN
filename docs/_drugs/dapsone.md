@@ -56,7 +56,7 @@ Dapsone is a sulfone antibacterial and anti-inflammatory medicine. The TxGNN mod
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data were not available in the data compiled for this report. Based on the known pharmacology of the sulfone class, dapsone inhibits dihydropteroate synthase in the folate synthesis pathway. This is the same target as sulfonamides such as trimethoprim-sulfamethoxazole (TMP-SMX).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dapsone: "The mechanism of action in Dermatitis herpetiformis has not been established. By the kinetic method in mice, Dapsone is bactericidal as well as bacteriostatic against Mycobacterium leprae." ([DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c), label version 2026-10-01; accessed 2026-11-19.) Based on the known pharmacology of the sulfone class, dapsone inhibits dihydropteroate synthase in the folate synthesis pathway. This is the same target as sulfonamides such as trimethoprim-sulfamethoxazole (TMP-SMX).
 
 *Pneumocystis jirovecii* depends on this folate pathway, so the mechanism is plausible. Dapsone is already described in the literature as a second-line agent for PCP prophylaxis, particularly for people who cannot tolerate TMP-SMX. It is also used with trimethoprim for mild-to-moderate PCP treatment. The compiled reviews and network meta-analyses describe dapsone-based regimens as established alternatives.
 
@@ -117,6 +117,19 @@ Several completed Phase 3 trials directly compare dapsone-containing regimens fo
 - Caution in patients with sulfonamide hypersensitivity (possible cross-reactivity), and consideration of HLA-B*1301 screening where appropriate
 - Mechanism-of-action data to be formally documented
 - Review of interacting medicines in each patient's regimen
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

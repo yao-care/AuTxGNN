@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **primary release disorder of p
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, filgrastim is a granulocyte colony-stimulating factor (G-CSF) that acts on the neutrophil lineage through G-CSF receptor signalling. Its efficacy in neutrophil disorders is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for filgrastim: "Colony-stimulating factors are glycoproteins which act on hematopoietic cells by binding to specific cell surface receptors and stimulating proliferation‚ differentiation commitment‚ and some end-cell functional activation. Endogenous G-CSF is a lineage-specific colony-stimulating factor that is produced by monocytes‚ fibroblasts, and endothelial cells." ([DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7), label version 2026-11-10; accessed 2026-11-19.) Based on known information, filgrastim is a granulocyte colony-stimulating factor (G-CSF) that acts on the neutrophil lineage through G-CSF receptor signalling. Its efficacy in neutrophil disorders is established.
 
 A primary release disorder of platelets is an intrinsic defect in platelet granule release, a different cell lineage and a different pathway. No established mechanism connects G-CSF to this condition. The high TxGNN score reflects a computational association only and is not supported by trials or literature.
 
@@ -105,6 +105,19 @@ The prediction rests only on a model score (L5). No trials or publications addre
 - The TGA-approved PI, including approved indications, warnings and contraindications for Zarzio
 - Assessment of whether any role is limited to supportive use in stem cell transplantation, rather than direct treatment of the platelet disorder
 - Route compatibility assessment for the predicted indication, which has not yet been done
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

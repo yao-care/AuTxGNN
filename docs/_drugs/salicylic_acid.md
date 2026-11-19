@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on known information, salicylic acid is thought to act through anti-inflammatory pathways (such as COX inhibition and NF-kB modulation), although the pharmacology source compiled for this report notes that public bioactivity data confirming a primary molecular target are lacking. It is already used for allergic and inflammatory conditions such as allergic rhinitis, which gives a loose, plausible link to allergic or inflammatory conjunctival disease.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for salicylic acid: "Although the exact mode of action for salicylic acid in the treatment of warts is unknown, its activity appears to be associated with its keratolytic action, which results in mechanical removal of epidermal cells infected with wart viruses." ([DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b), label version 2025-10-15; accessed 2026-11-19.) Based on known information, salicylic acid is thought to act through anti-inflammatory pathways (such as COX inhibition and NF-kB modulation), although the pharmacology source compiled for this report notes that public bioactivity data confirming a primary molecular target are lacking. It is already used for allergic and inflammatory conditions such as allergic rhinitis, which gives a loose, plausible link to allergic or inflammatory conjunctival disease.
 
 There are important limits to this reasoning. Topical ocular use of salicylic acid is irritating and potentially unsafe, and no ocular-specific mechanism or data were available. The high TxGNN score reflects a computational prediction, not demonstrated benefit.
 
@@ -111,11 +111,12 @@ The prediction for papillary conjunctivitis rests solely on a model score, with 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b) |
 
 <!-- review:end log -->
 

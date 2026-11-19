@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **esophageal varices without bl
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, hydroxocobalamin is a vitamin B12 form that is converted in the body to the active cofactors methylcobalamin and adenosylcobalamin. It is also known to bind cyanide and scavenge nitric oxide. Its efficacy in B12 deficiency is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydroxocobalamin: "Cyanide is an extremely toxic poison. In the absence of rapid and adequate treatment, exposure to a high dose of cyanide can result in death within minutes due to the inhibition of cytochrome oxidase resulting in arrest of cellular respiration. […] Each hydroxocobalamin molecule can bind one cyanide ion by substituting it for the hydroxo ligand linked to the trivalent cobalt ion, to form cyanocobalamin, which is then excreted in the urine." ([DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b), label version 2023-04-27; accessed 2026-11-19.) Based on known information, hydroxocobalamin is a vitamin B12 form that is converted in the body to the active cofactors methylcobalamin and adenosylcobalamin. It is also known to bind cyanide and scavenge nitric oxide. Its efficacy in B12 deficiency is well established.
 
 For esophageal varices, however, we could not identify a clear mechanistic link. Varices arise from portal hypertension, and their management relies on established approaches such as non-selective beta-blockers and endoscopic band ligation. The same score was given to the bleeding variant of the disease, which supports this interpretation.
 
@@ -102,6 +102,19 @@ The prediction has a high model score but no clinical trials, no literature, no 
 - Preclinical or observational evidence in varices
 - The approved indication and warnings from the TGA Product Information for ARTG 10577Q
 - A safety review of the hypertension-related contraindication signal and the moderate-level interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

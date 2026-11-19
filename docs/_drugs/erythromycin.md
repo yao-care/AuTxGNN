@@ -56,7 +56,7 @@ but there are currently **no registered clinical trials** and only **1 publicati
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, erythromycin is a macrolide antibiotic with antibacterial activity (bacterial 50S ribosomal subunit inhibition) and anti-inflammatory and immunomodulatory effects. Its efficacy in bacterial eye infections such as conjunctivitis is established, and mechanistically it may be applicable to punctate epithelial keratoconjunctivitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for erythromycin: "Erythromycin acts by inhibition of protein synthesis by binding 50S ribosomal subunits of susceptible organisms. It does not affect nucleic acid synthesis." ([DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd), label version 2018-12-04; accessed 2026-11-19.) Based on known information, erythromycin is a macrolide antibiotic with antibacterial activity (bacterial 50S ribosomal subunit inhibition) and anti-inflammatory and immunomodulatory effects. Its efficacy in bacterial eye infections such as conjunctivitis is established, and mechanistically it may be applicable to punctate epithelial keratoconjunctivitis.
 
 Chronic blepharokeratoconjunctivitis with punctate epithelial keratopathy may respond to macrolide therapy by reducing bacterial load and controlling inflammation at the lid margin and meibomian glands. The link is indirect and rests on a single paediatric management review. It does not show that erythromycin works for this specific condition.
 
@@ -110,6 +110,19 @@ The prediction score is high, but evidence is limited to model prediction and on
 - Controlled clinical evidence for erythromycin in punctate epithelial keratoconjunctivitis
 - Confirmation of route compatibility, since the only Australian product is an oral capsule and ocular use would usually need a topical formulation
 - Review of other predictions: lymphogranuloma venereum is the strongest alternative candidate (review-level evidence, but close to existing anti-chlamydial use), while the other predictions have little or no support
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

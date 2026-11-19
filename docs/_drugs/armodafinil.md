@@ -60,7 +60,7 @@ The evidence suggests armodafinil is more useful for the daytime sleepiness that
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Armodafinil is a wake-promoting agent that is understood to act mainly through dopamine transporter inhibition. Its efficacy in excessive sleepiness from narcolepsy has been established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for armodafinil: "The mechanism(s) through which armodafinil promotes wakefulness is unknown. Armodafinil (R-modafinil) has pharmacological properties similar to those of modafinil (a mixture of R- and S-modafinil), to the extent tested in animal and in vitro studies." ([DailyMed: Nuvigil (armodafinil) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dd49302-f757-d945-e063-6294a90afcba), label version 2026-09-24; accessed 2026-11-19.) Armodafinil is a wake-promoting agent that is understood to act mainly through dopamine transporter inhibition. Its efficacy in excessive sleepiness from narcolepsy has been established.
 
 The link to insomnia is indirect. Armodafinil does not treat the disturbance of sleep initiation or maintenance itself. In the trials, it was used to counter the daytime sleepiness and fatigue that accompany insomnia and sleep restriction therapy, usually together with cognitive behavioural therapy for insomnia (CBT-I). The prediction is therefore best read as symptom relief for daytime consequences, not a direct treatment of insomnia.
 
@@ -129,6 +129,18 @@ Phase 2 trials exist, but the armodafinil-specific benefit for insomnia is weak 
 - A risk assessment for the knowledge-graph contraindications (cardiovascular, psychiatric and hepatic conditions) and for serious skin reactions
 
 ---
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nuvigil (armodafinil) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dd49302-f757-d945-e063-6294a90afcba) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -58,16 +58,13 @@ Levetiracetam is an antiseizure medication originally used to treat partial (foc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, levetiracetam binds to synaptic vesicle protein 2A (SV2A) and modulates neurotransmitter release. This plausibly reduces the cortical hyperexcitability seen in photosensitive or visually triggered seizures.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levetiracetam: "The precise mechanism(s) by which levetiracetam exerts its antiepileptic effect is unknown. A saturable and stereoselective neuronal binding site in rat brain tissue has been described for levetiracetam. Experimental data indicate that this binding site is the synaptic vesicle protein SV2A, thought to be involved in the regulation of vesicle exocytosis." ([DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e), label version 2026-11-11; accessed 2026-11-19.) Based on known information, levetiracetam binds to synaptic vesicle protein 2A (SV2A) and modulates neurotransmitter release. This plausibly reduces the cortical hyperexcitability seen in photosensitive or visually triggered seizures.
 
 The beta-ketothiolase deficiency prediction has no evident mechanistic link. Its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
 ## Clinical Trial Evidence
-
-
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -100,13 +97,11 @@ For visual epilepsy, the retrieved literature is general to seizures and not dis
 | [38678766](https://pubmed.ncbi.nlm.nih.gov/38678766/) | 2024 | RCT | Seizure | Phenytoin vs levetiracetam for acute symptomatic seizures in children with encephalitis |
 | [21936590](https://pubmed.ncbi.nlm.nih.gov/21936590/) | 2011 | Review | CNS Drugs | Overview of levetiracetam in epilepsy |
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [31774955](https://pubmed.ncbi.nlm.nih.gov/31774955/) | 2019 | RCT | N Engl J Med | Three anticonvulsants (including levetiracetam) in benzodiazepine-refractory status epilepticus |
 | [32203691](https://pubmed.ncbi.nlm.nih.gov/32203691/) | 2020 | RCT | Lancet | ESETT by age group: levetiracetam, fosphenytoin and valproate |
 | [33190679](https://pubmed.ncbi.nlm.nih.gov/33190679/) | 2020 | RCT | Health Technol Assess | EcLiPSE: levetiracetam as an alternative to phenytoin in children |
-
 
 ---
 
@@ -146,6 +141,19 @@ Please refer to the TGA-approved Product Information (PI) for full safety inform
 - TGA Product Information, including the approved indication text, warnings and contraindications, which were missing from the data compiled for this report
 - Clarification of whether the status epilepticus use is already covered by the current ARTG indication, and which formulations (IV) are available in Australia, since the single ARTG entry is an oral 1 g tablet
 - For any reflex-epilepsy extension, a safety monitoring plan covering behavioural and psychiatric effects, haematological effects and renal dose adjustment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ This is a computational prediction at an early research stage.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, zinc oxide is a topical agent with established use as a skin protectant and soothing agent. It also has plausible anti-inflammatory, sebum-modulating and antibacterial activity, including against *Cutibacterium acnes*.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for miconazole nitrate, zinc oxide, white petrolatum (a combination product containing zinc oxide): "The mechanism of action of white petrolatum and zinc oxide for the adjunctive treatment of diaper dermatitis is unknown." ([DailyMed: Vusion (miconazole nitrate, zinc oxide, white petrolatum) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b44b452d-3630-4cb5-8ed1-1f8edac4690c), label version 2018-08-15; accessed 2026-11-19.) Based on known information, zinc oxide is a topical agent with established use as a skin protectant and soothing agent. It also has plausible anti-inflammatory, sebum-modulating and antibacterial activity, including against *Cutibacterium acnes*.
 
 Acne is an inflammatory skin condition driven partly by bacterial colonisation. Zinc oxide's existing uses in inflammatory and infective skin conditions (dermatitis, tinea, candidiasis) make a link to acne mechanistically conceivable.
 
@@ -126,6 +126,18 @@ Nine further predictions were reviewed. Most have no supporting evidence and a w
 | 3 | Anal polyp | 0.9931 | L5 | No evidence. No known mechanism against polyp pathology. |
 | 4 | Papillary conjunctivitis | 0.9914 | L5 | No evidence. Ocular use raises unresolved safety and formulation concerns. |
 | 5 | Postinfectious vasculitis | 0.9902 | L5 | No evidence. No established mechanism against immune-mediated vasculitis. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vusion (miconazole nitrate, zinc oxide, white petrolatum) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b44b452d-3630-4cb5-8ed1-1f8edac4690c) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -54,7 +54,7 @@ Lidocaine is a local anaesthetic whose relations recorded in the knowledge graph
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Lidocaine is generally known as a sodium channel blocker that provides local anaesthesia and relieves nerve pain. This is background knowledge, not something taken from the compiled data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lidocaine: "Lidocaine hydrochloride exerts an antiarrhythmic effect by increasing the electrical stimulation threshold of the ventricle during diastole. In usual therapeutic doses, lidocaine hydrochloride produces no change in myocardial contractility, in systemic arterial pressure, or in absolute refractory period." ([DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0), label version 2026-02-20; accessed 2026-11-19.) Lidocaine is generally known as a sodium channel blocker that provides local anaesthesia and relieves nerve pain. This is background knowledge, not something taken from the compiled data.
 
 A plausible link to ocular surface discomfort or inflammation exists through blockade of sensory nerves. However, there is no supporting clinical data. Topical anaesthetics are also generally avoided for chronic use on a damaged corneal surface because of epithelial toxicity, and misuse of topical anaesthetics is itself a recognised cause of keratopathy. The high TxGNN score should therefore be treated as a hypothesis only.
 
@@ -100,6 +100,19 @@ The prediction has a very high model score but no direct clinical or literature 
 - A suitable ophthalmic formulation and route assessment, as the current ARTG entry is an injection
 - The approved indication text and the PI warnings and contraindications for the listed product
 - Review of the interaction and contraindication signals above against the PI
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

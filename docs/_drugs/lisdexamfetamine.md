@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **specific developmental disorder*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Lisdexamfetamine is known to be converted in the body to d-amphetamine, which increases dopamine and noradrenaline signalling in prefrontal and striatal circuits and supports attention and executive function.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lisdexamfetamine: "Lisdexamfetamine is a prodrug of dextroamphetamine. Amphetamines are non-catecholamine sympathomimetic amines with CNS stimulant activity. The exact mode of therapeutic action in ADHD and BED is not known." ([DailyMed: Vyvanse (lisdexamfetamine dimesylate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=704e4378-ca83-445c-8b45-3cfa51c1ecad), label version 2026-04-30; accessed 2026-11-19.) Lisdexamfetamine is known to be converted in the body to d-amphetamine, which increases dopamine and noradrenaline signalling in prefrontal and striatal circuits and supports attention and executive function.
 
 ADHD is a neurodevelopmental condition that overlaps with this symptom domain. "Specific developmental disorder" is a broad, heterogeneous label, so the link to the original use is indirect. The mechanism may be relevant to attention-related symptoms, but this is a hypothesis and not a demonstrated effect.
 
@@ -112,6 +112,19 @@ The TxGNN score is very high, but no study directly addresses specific developme
 - TGA Product Information warnings and contraindications to complete safety screening
 - Controlled clinical evidence in the specific target population
 - Review of the knowledge graph's cardiovascular, psychiatric and substance-related contraindication relations against the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vyvanse (lisdexamfetamine dimesylate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=704e4378-ca83-445c-8b45-3cfa51c1ecad) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

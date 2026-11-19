@@ -60,7 +60,7 @@ The more credible signals in the ranked list are for **trigeminal neuralgia** (s
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Phenytoin is generally understood to block voltage-gated sodium channels and limit repetitive neuronal firing, which underpins its efficacy in epilepsy.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for phenytoin: "The precise mechanism by which phenytoin exerts its therapeutic effect has not been established but is thought to involve the voltage-dependent blockade of membrane sodium channels resulting in a reduction in sustained high-frequency neuronal discharges." ([DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353), label version 2026-06-25; accessed 2026-11-19.) Phenytoin is generally understood to block voltage-gated sodium channels and limit repetitive neuronal firing, which underpins its efficacy in epilepsy.
 
 For the top-ranked prediction, **trigeminal nerve neoplasm**, this mechanism offers no established antitumour rationale. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (such as trigeminal nerve pain and seizure phenotypes), not biological evidence. The retrieved papers (a review of trigeminal neuralgia and a case series on Sturge-Weber syndrome) do not study a neoplasm.
 
@@ -146,6 +146,19 @@ The top-ranked prediction, trigeminal nerve neoplasm, has no clinical trials, no
 - TGA Product Information with warnings, contraindications and the approved indication text for ARTG 1249R
 - A prospective or controlled evidence review for phenytoin in trigeminal neuralgia, including the oral formulation (the evidence found is mainly for IV use, whereas the registered product is an oral tablet)
 - A safety plan covering the flagged cardiac, hepatic, haematological and metabolic risks and the high number of drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

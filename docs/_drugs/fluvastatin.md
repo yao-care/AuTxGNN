@@ -57,7 +57,7 @@ The TxGNN model predicts it may be relevant to **HIV infectious disease**, but t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Fluvastatin is known as a statin that inhibits HMG-CoA reductase and lowers LDL cholesterol.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluvastatin: "Fluvastatin is a competitive inhibitor of HMG-CoA reductase, the rate limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) to mevalonate, a precursor of cholesterol." ([DailyMed: Fluvastatin Sodium Er (fluvastatin sodium) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ab4296c-87c2-4c64-b218-d620eef51310), label version 2024-01-31; accessed 2026-11-19.) Fluvastatin is known as a statin that inhibits HMG-CoA reductase and lowers LDL cholesterol.
 
 Fluvastatin is not an antiviral. The link to HIV is indirect. Statins may reduce inflammation and immune activation in treated HIV, and fluvastatin has been studied for dyslipidaemia in people on protease inhibitors. It is metabolised mainly by CYP2C9 rather than CYP3A4, so it is less likely to interact with antiretroviral protease inhibitors than some other statins. One preclinical study reported a protective effect on podocytes in a mouse model of HIV-associated nephropathy.
 
@@ -108,6 +108,19 @@ The high prediction score is not backed by any study of fluvastatin as a treatme
 - Clinical studies of fluvastatin that directly assess an HIV-related outcome rather than lipid lowering
 - The TGA-approved PI, including approved indications, warnings and contraindications for Lescol XL
 - A review of interactions with common antiretroviral regimens, and monitoring for muscle and liver adverse effects
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fluvastatin Sodium Er (fluvastatin sodium) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ab4296c-87c2-4c64-b218-d620eef51310) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

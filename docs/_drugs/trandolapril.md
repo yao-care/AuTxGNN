@@ -56,7 +56,7 @@ but there are currently **no clinical trials** and **no publications** directly 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, trandolapril is an ACE inhibitor, its efficacy in hypertension has been established, and mechanistically it may be applicable to malignant hypertensive renal disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trandolapril: "Trandolapril is deesterified to the diacid metabolite, trandolaprilat, which is approximately eight times more active as an inhibitor of ACE activity. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor, angiotensin II." ([DailyMed: trandolapril prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8143a6cf-dadc-4ef7-a8db-d16d7150ad34), label version 2025-10-31; accessed 2026-11-19.) Based on known information, trandolapril is an ACE inhibitor, its efficacy in hypertension has been established, and mechanistically it may be applicable to malignant hypertensive renal disease.
 
 Malignant hypertensive nephropathy is driven by severe hypertension and activation of the renin-angiotensin-aldosterone system (RAAS). Blocking this pathway with an ACE inhibitor is therefore plausible. The new indication is also closely related to the original one, as it is essentially a severe form of hypertension with kidney involvement. The high TxGNN score is likely driven largely by this proximity to the approved hypertension indication rather than by new evidence.
 
@@ -121,6 +121,19 @@ The prediction is supported by model score and class-level mechanistic reasoning
 - Detailed mechanism of action data
 - Human clinical evidence (trials or observational studies) of trandolapril in malignant hypertensive nephropathy or renovascular hypertension
 - A renal safety assessment, given the known risk of renal function decline with ACE inhibitors in renovascular disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trandolapril prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8143a6cf-dadc-4ef7-a8db-d16d7150ad34) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

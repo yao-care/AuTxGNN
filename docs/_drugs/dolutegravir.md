@@ -56,7 +56,7 @@ This is an animal-model or research use, not a new human indication.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, dolutegravir is an HIV-1 integrase strand transfer inhibitor that blocks viral DNA integration into the host genome.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for dolutegravir: "Dolutegravir is an HIV-1 antiretroviral agent. […] Dolutegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral DNA integration which is essential for the HIV replication cycle. Strand transfer biochemical assays using purified HIV-1 integrase and pre-processed substrate DNA resulted in IC 50 values of 2.7 nM and 12.6 nM." ([DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922), label version 2026-08-25; accessed 2026-11-19.) From general knowledge, dolutegravir is an HIV-1 integrase strand transfer inhibitor that blocks viral DNA integration into the host genome.
 
 SIV is a lentivirus closely related to HIV and encodes a similar integrase. Preclinical studies show that SIVmac239 is susceptible to integrase inhibitors and that integrase resistance mutations behave similarly in both viruses. Dolutegravir monotherapy in SIV-infected macaques selected for resistance mutations with variable virological outcomes. The prediction is therefore mechanistically plausible, but it essentially restates the approved HIV mechanism in an animal model. It does not represent a new human therapeutic indication.
 
@@ -105,6 +105,19 @@ The prediction rests on preclinical macaque and in vitro data only, with no clin
 - Clarification of whether a human indication exists. If not, the finding is better treated as a research tool for non-human primate HIV models.
 - Mechanism of action data and the TGA Product Information warnings and contraindications.
 - If a nearby human indication is of interest (for example HIV in pregnancy or paediatric HIV), a separate evaluation that includes the neural tube defect safety data.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

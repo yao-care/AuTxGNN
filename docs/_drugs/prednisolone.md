@@ -60,7 +60,7 @@ There are **no registered clinical trials**, but **20 publications** support thi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, prednisolone is a glucocorticoid that suppresses T-cell activation and pro-inflammatory cytokine production. Its efficacy in autoimmune and inflammatory disease is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prednisolone: "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1), label version 2025-06-03; accessed 2026-11-19.) Based on known pharmacology, prednisolone is a glucocorticoid that suppresses T-cell activation and pro-inflammatory cytokine production. Its efficacy in autoimmune and inflammatory disease is well established.
 
 Alopecia areata is a T-cell-mediated autoimmune condition in which immune privilege of the hair follicle collapses, causing non-scarring hair loss. Because prednisolone targets the same immune-mediated pathology, the prediction is mechanistically plausible. One study also reported that oral pulse steroids altered serum and tissue TNF-α levels in alopecia areata.
 
@@ -137,6 +137,18 @@ Alopecia areata is an immune-mediated condition, and there is a placebo-controll
 | 4 | Folliculitis decalvans | 0.9998 | L5 | Hold | One case report of combination therapy; prednisolone's contribution unclear |
 | 5 | Alopecia antibody deficiency | 0.9998 | L5 | Hold | Only an indirect case report |
 | 6–9 | Hereditary hypotrichosis with recurrent skin vesicles; alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome; atrichia with papular lesions; prolapse of lacrimal gland | 99.94–0.9998 | L5 | Hold | No evidence; no plausible immune mechanism |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

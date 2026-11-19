@@ -54,7 +54,7 @@ Pegfilgrastim is a long-acting form of granulocyte colony-stimulating factor (G-
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Pegfilgrastim is a G-CSF analogue that stimulates neutrophil production. Its established use is in supporting neutrophil recovery, but the approved indication text was not included in the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pegfilgrastim: "Pegfilgrastim products are colony-stimulating factor that acts on hematopoietic cells by binding to specific cell surface receptors, thereby stimulating proliferation, differentiation, commitment, and end cell functional activation." ([DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83), label version 2026-10-29; accessed 2026-11-19.) Pegfilgrastim is a G-CSF analogue that stimulates neutrophil production. Its established use is in supporting neutrophil recovery, but the approved indication text was not included in the data compiled for this report.
 
 The link to diabetic retinopathy is speculative. One hypothesis is that G-CSF mobilises haematopoietic or endothelial progenitor cells, which might influence retinal microvascular repair. No data support this. Neutrophil-mediated inflammation could also worsen retinal damage, so the direction of any effect is uncertain. The high score (0.9989) is a model output and should not be read as evidence of efficacy.
 
@@ -103,6 +103,19 @@ The prediction rests on model output alone, with no registered trials, no public
 - The TGA Product Information, including approved indications, warnings and contraindications
 - Review of the full interaction list and of ocular safety signals
 - Preclinical evidence of benefit before any clinical trial is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

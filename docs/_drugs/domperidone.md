@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **nephrogenic syndrome of inappro
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that domperidone binds the dopamine D2 and D3 receptors (DRD2 and DRD3), acting as a peripheral antagonist.
+ChEMBL (EMBL-EBI) records the mechanism of action of domperidone as: Dopamine D2 receptor antagonist ([ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916), CC BY-SA 3.0; accessed 2026-11-19.) Pharmacology records show that domperidone binds the dopamine D2 and D3 receptors (DRD2 and DRD3), acting as a peripheral antagonist.
 
 Nephrogenic syndrome of inappropriate antidiuresis is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2), which lead to excess water retention. No mechanistic link between dopamine D2/D3 blockade and the V2 receptor pathway has been identified. The high TxGNN score of 0.9908 is a model-based output only, with no supporting trial or literature data, so the prediction should be treated as a hypothesis rather than a established opportunity.
 
@@ -92,6 +92,19 @@ The prediction has no supporting clinical trials or publications (evidence level
 - Any published case reports or studies in this condition
 - Mechanism of action data and TGA Product Information warnings and contraindications
 - A cardiac safety assessment (QT risk) for the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **atopic eczema** (top-ranked p
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, budesonide is a potent glucocorticoid, and its efficacy in inflammatory conditions of the gut and airways is established. Mechanistically, its anti-inflammatory and immunosuppressive activity (reduced Th2 cytokine signalling and eosinophil suppression) may be applicable to atopic skin inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for budesonide: "Budesonide is an anti-inflammatory corticosteroid that exhibits potent glucocorticoid activity and weak mineralocorticoid activity. In standard in vitro and animal models, budesonide has approximately a 200-fold higher affinity for the glucocorticoid receptor and a 1000-fold higher topical anti-inflammatory potency than cortisol (rat croton oil ear edema assay)." ([DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da), label version 2026-06-10; accessed 2026-11-19.) Based on known information, budesonide is a potent glucocorticoid, and its efficacy in inflammatory conditions of the gut and airways is established. Mechanistically, its anti-inflammatory and immunosuppressive activity (reduced Th2 cytokine signalling and eosinophil suppression) may be applicable to atopic skin inflammation.
 
 Topical corticosteroids are already standard care for eczema, so the biological rationale is plausible. However, the prediction is not specific to budesonide. No budesonide-specific clinical trials are registered for this indication. The only budesonide-specific therapeutic item is a preclinical formulation study of budesonide-loaded nanoparticle hydrogels for atopic dermatitis. Other retrieved literature concerns eosinophilic esophagitis, corticosteroid allergy and contact dermatitis, which are indirect or tangential.
 
@@ -123,11 +123,12 @@ The prediction score is high, and the anti-inflammatory rationale is plausible, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
 
 <!-- review:end log -->
 

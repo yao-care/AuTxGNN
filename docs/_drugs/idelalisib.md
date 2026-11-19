@@ -58,7 +58,7 @@ The evidence is early and does not yet show clear efficacy in this disease.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From known pharmacology, idelalisib selectively inhibits PI3K delta, a key enzyme in B-cell receptor signalling that supports the survival and proliferation of malignant B cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for idelalisib: "Idelalisib is an inhibitor of phosphatidylinositol 3-kinase, PI3Kδ, which is expressed in normal and malignant B-cells. Idelalisib induced apoptosis and inhibited proliferation in cell lines derived from malignant B-cells and in primary tumor cells." ([DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50), label version 2026-09-10; accessed 2026-11-19.) From known pharmacology, idelalisib selectively inhibits PI3K delta, a key enzyme in B-cell receptor signalling that supports the survival and proliferation of malignant B cells.
 
 Mantle cell lymphoma is a B-cell non-Hodgkin lymphoma that also depends on B-cell receptor and PI3K delta signalling, which is the mechanistic basis for the prediction. Preclinical work shows idelalisib suppresses mantle cell lymphoma cell growth through translation-regulatory mechanisms. Combination strategies (with a p300/CBP inhibitor or palbociclib) and resistance mechanisms (such as CBX5 loss) have also been described.
 
@@ -142,6 +142,19 @@ The data compiled for this report also covers nine further predicted indications
 - **Myeloid leukaemia:** Preclinical data and small, terminated early-phase studies (L3). Research Question.
 - **Hodgkin lymphoma, CML (BCR-ABL1 positive) and colon adenocarcinoma:** Little to no disease-specific clinical evidence (L4). Hold.
 - **Two CLL/SLL molecular subtypes and small intestinal Burkitt lymphoma:** Model prediction only (L5). Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

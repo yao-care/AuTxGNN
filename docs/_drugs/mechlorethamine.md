@@ -60,7 +60,7 @@ However, **no clinical trials and no publications** directly support this predic
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Mechlorethamine is a bifunctional alkylating agent. Drugs of this class damage DNA and suppress rapidly dividing immune cells, which causes lymphodepletion.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mechlorethamine: "Mechlorethamine, also known as nitrogen mustard, is an alkylating agent which inhibits rapidly proliferating cells." ([DailyMed: Valchlor (mechlorethamine hydrochloride) prescribing information, Helsinn Therapeutics (U.S.), Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a52e4c2-6a9f-4ebb-bc77-046b4f8bcd57), label version 2024-11-20; accessed 2026-11-19.) Mechlorethamine is a bifunctional alkylating agent. Drugs of this class damage DNA and suppress rapidly dividing immune cells, which causes lymphodepletion.
 
 Relapsing-remitting multiple sclerosis (RRMS) is an immune-mediated disease. Some alkylating or cytotoxic agents, such as cyclophosphamide and mitoxantrone, have been used to dampen the immune response in MS. This class-level link is the most plausible reason for the model's prediction.
 
@@ -131,6 +131,18 @@ The prediction rests on the model score alone (evidence level L5). No trials or 
 - A benefit-risk comparison against approved MS disease-modifying therapies
 - Route and formulation feasibility, since only a topical gel is marketed in Australia
 - Review of the TGA Product Information for warnings and contraindications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Valchlor (mechlorethamine hydrochloride) prescribing information, Helsinn Therapeutics (U.S.), Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a52e4c2-6a9f-4ebb-bc77-046b4f8bcd57) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

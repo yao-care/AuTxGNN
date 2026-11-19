@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **gallbladder adenosquamous car
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data show that cemiplimab is an antibody against human PD-1 (PDCD1) that blocks the PD-1/PD-L1 interaction (IC50 below 1 nM in an ELISA). This releases the brake on T-cell activity against tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cemiplimab: "Binding of the PD-1 ligands PD-L1 and PD-L2 to the PD-1 receptor found on T cells inhibits T-cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Cemiplimab-rwlc is a recombinant human immunoglobulin G4 (IgG4) monoclonal antibody that binds to PD-1 and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response." ([DailyMed: Libtayo (cemiplimab-rwlc) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4347ae1f-d397-4f18-8b70-03897e1c054a), label version 2026-08-31; accessed 2026-11-19.) Pharmacology data show that cemiplimab is an antibody against human PD-1 (PDCD1) that blocks the PD-1/PD-L1 interaction (IC50 below 1 nM in an ELISA). This releases the brake on T-cell activity against tumours.
 
 The predicted disease has a squamous component, and squamous-type cancers can express PD-1/PD-L1 pathway biology that cemiplimab targets. However, this link is speculative. Biliary tract tumours are generally poorly immunogenic, and no study of cemiplimab in gallbladder adenosquamous carcinoma was found. The high score most likely reflects the squamous histology association rather than validated biology.
 
@@ -102,6 +102,19 @@ The prediction has a very high model score (0.9999) but no supporting trials or 
 - Detailed mechanism of action data
 - Review of the TGA Product Information for warnings and contraindications
 - Safety review for use in this patient population, including corticosteroid interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Libtayo (cemiplimab-rwlc) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4347ae1f-d397-4f18-8b70-03897e1c054a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

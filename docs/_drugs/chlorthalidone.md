@@ -60,7 +60,7 @@ There are **no clinical trials and no publications** on this disease in the data
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Chlorthalidone is a thiazide-like diuretic that acts on ion transport and fluid balance, and it is established as an antihypertensive.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for chlorthalidone: "Chlorthalidone is a long-acting oral diuretic with antihypertensive activity. The diuretic effects of chlorthalidone and the benzothiadiazine (thiazide) diuretics appear to arise from similar mechanisms and the maximal effect of chlorthalidone and the thiazides appear to be similar." ([DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15), label version 2026-06-25; accessed 2026-11-19.) Chlorthalidone is a thiazide-like diuretic that acts on ion transport and fluid balance, and it is established as an antihypertensive.
 
 A diuretic could in theory lower intraocular pressure through effects on ion transport or fluid balance. This is speculative and is not supported by any data provided. Primary hereditary glaucoma is largely driven by genetic defects in aqueous outflow, so a systemic diuretic mechanism is not a clear fit. The high score should be treated as a model signal that needs verification, not as evidence of benefit.
 
@@ -110,6 +110,19 @@ The prediction for primary hereditary glaucoma has no supporting trials or publi
 - Mechanism of action data for chlorthalidone and a plausible link to intraocular pressure regulation
 - Preclinical or clinical studies that directly address primary hereditary glaucoma
 - Safety information from the TGA Product Information, including a review of the ocular and systemic risks of a diuretic in this population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

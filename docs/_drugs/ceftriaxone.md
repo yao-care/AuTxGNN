@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **polyclonal hyperviscosity syndr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ceftriaxone is known to be a beta-lactam antibiotic that inhibits bacterial cell wall synthesis.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ceftriaxone: "Ceftriaxone is an antibacterial drug. […] Ceftriaxone is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Ceftriaxone has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467), label version 2022-01-13; accessed 2026-11-19.) Ceftriaxone is known to be a beta-lactam antibiotic that inhibits bacterial cell wall synthesis.
 
 Polyclonal hyperviscosity syndrome is a haematological/immunological condition with no bacterial target, so no mechanistic link to ceftriaxone has been identified. The high prediction score is a model output only. It should not be read as a sign of clinical benefit, and it has no supporting trials or literature.
 
@@ -95,6 +95,19 @@ The prediction has no supporting trials or publications and no plausible mechani
 - Any study that directly examines ceftriaxone in polyclonal hyperviscosity syndrome
 - A plausible mechanistic rationale
 - Mechanism of action data and warnings and contraindications from the TGA Product Information
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

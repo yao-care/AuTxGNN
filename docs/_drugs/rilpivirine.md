@@ -56,7 +56,7 @@ Overall, this prediction is largely an extension of the existing HIV indication 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, rilpivirine is an NNRTI that allosterically inhibits HIV-1 reverse transcriptase. Its efficacy in HIV infection is established, and it may be mechanistically applicable to related lentiviral infections.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for rilpivirine: "Rilpivirine is an antiviral drug. […] Rilpivirine is a diarylpyrimidine non-nucleoside reverse transcriptase inhibitor (NNRTI) of human immunodeficiency virus type 1 (HIV-1) and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). Rilpivirine does not inhibit the human cellular DNA polymerases α, β and γ." ([DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6), label version 2025-08-28; accessed 2026-11-19.) Based on known information, rilpivirine is an NNRTI that allosterically inhibits HIV-1 reverse transcriptase. Its efficacy in HIV infection is established, and it may be mechanistically applicable to related lentiviral infections.
 
 **Feline AIDS (rank 1):** Feline immunodeficiency virus (FIV) has a reverse transcriptase related to that of HIV. A 2023 biochemical and structural study compared NNRTIs, including rilpivirine, against FIV and HIV enzymes. The evidence is in vitro and indirect, with no in vivo or clinical data in cats. This is a veterinary indication with limited relevance to human drug repurposing.
 
@@ -108,6 +108,19 @@ The top predictions are either veterinary (feline AIDS) or animal models of the 
 - TGA Product Information warnings and contraindications to complete safety screening
 - If a human question is pursued, a focus on the human-relevant leads: long-acting rilpivirine in pregnancy and HIV/HCV coinfection (where one cohort suggests possible liver stiffness benefit), neither of which is anti-HCV efficacy
 - Verification of knowledge graph contraindications (QT prolongation, hepatic and renal disease) against the PI
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

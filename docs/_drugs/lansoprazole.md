@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **duodenal obstruction**, but t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Lansoprazole belongs to the proton pump inhibitor class, which suppresses gastric acid by inhibiting the gastric H+/K+-ATPase. Its efficacy in acid-related upper gastrointestinal disease is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lansoprazole: "Lansoprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. Because this enzyme system is regarded as the acid (proton) pump within the parietal cell, lansoprazole has been characterized as a gastric acid-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Prevacid (lansoprazole) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71ba78cb-7e46-43eb-9425-fa130f537f84), label version 2025-07-08; accessed 2026-11-19.) Lansoprazole belongs to the proton pump inhibitor class, which suppresses gastric acid by inhibiting the gastric H+/K+-ATPase. Its efficacy in acid-related upper gastrointestinal disease is well established.
 
 Duodenogastric (bile) reflux is mainly a problem of motility and pyloric function, not of acid secretion. Acid suppression may ease symptoms from associated mucosal injury, but it does not address the underlying cause. The high TxGNN score (0.9968) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The only supporting publication is a general review of proton pump inhibitors, with no direct evidence for this condition.
 
@@ -106,6 +106,19 @@ Acid suppression does not address the cause of duodenogastric reflux, and there 
 - Mechanism of action data and a clearer rationale beyond acid suppression
 - Product Information warnings and contraindications from the TGA, plus the approved indication text for the ARTG entry
 - Route and formulation compatibility assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prevacid (lansoprazole) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71ba78cb-7e46-43eb-9425-fa130f537f84) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

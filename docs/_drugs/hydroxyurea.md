@@ -62,7 +62,7 @@ The prediction is therefore best viewed as a hypothesis.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in the data compiled for this report. Based on known pharmacology, hydroxyurea inhibits ribonucleotide reductase, which depletes deoxynucleotide (dNTP) pools and induces DNA replication stress. This mechanism underlies its use in cancers such as melanoma and ovarian cancer.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydroxyurea: "The precise mechanism by which hydroxyurea produces its cytotoxic and cytoreductive effects is not known. However, various studies support the hypothesis that hydroxyurea causes an immediate inhibition of DNA synthesis by acting as a ribonucleotide reductase inhibitor, without interfering with the synthesis of ribonucleic acid or of protein." ([DailyMed: Xromi (hydroxyurea) prescribing information, Nova Laboratories, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b37d336-86da-4363-aef1-34a7d3ba973b), label version 2026-02-02; accessed 2026-11-19.) Based on known pharmacology, hydroxyurea inhibits ribonucleotide reductase, which depletes deoxynucleotide (dNTP) pools and induces DNA replication stress. This mechanism underlies its use in cancers such as melanoma and ovarian cancer.
 
 Breast cancer cells are also dependent on DNA replication and repair. Preclinical papers link replication stress, ATR signalling and RPA2-mediated DNA repair to breast cancer cell sensitivity to hydroxyurea. Examples include valproic acid sensitising breast cancer cells to hydroxyurea, and BRCA1-deficient breast cancer cells being susceptible to ribonucleotide reductase inhibition.
 
@@ -149,6 +149,19 @@ The breast carcinoma prediction rests on a plausible mechanism and preclinical w
 - Clinical evidence in breast cancer, such as a well-designed Phase 2 study or a systematic review of existing combination-chemotherapy data
 - Confirmation of whether a systemic hydroxyurea formulation is available in Australia
 - For sickle cell-haemoglobin C disease, a review of the 2025 trial and the terminated Phase 2 trial to decide whether it should be prioritised
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xromi (hydroxyurea) prescribing information, Nova Laboratories, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b37d336-86da-4363-aef1-34a7d3ba973b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

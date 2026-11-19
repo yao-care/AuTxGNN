@@ -60,7 +60,7 @@ Currently, **2 clinical trials** (one Phase 3 randomised controlled trial, one P
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Guanfacine is known to be a selective alpha-2A adrenergic agonist. It strengthens prefrontal cortical network signalling and reduces noradrenergic tone. It is already used for ADHD.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for guanfacine: "Guanfacine is a central alpha 2A -adrenergic receptor agonist. Guanfacine is not a central nervous system (CNS) stimulant. The mechanism of action of guanfacine in ADHD is not known." ([DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769), label version 2026-10-15; accessed 2026-11-19.) Guanfacine is known to be a selective alpha-2A adrenergic agonist. It strengthens prefrontal cortical network signalling and reduces noradrenergic tone. It is already used for ADHD.
 
 Tics in Tourette syndrome involve prefrontal-striatal circuits and noradrenergic modulation. About half of children with Tourette syndrome also have ADHD. Stimulants, the usual ADHD treatment, can worsen tics, so an alpha-2 agonist that treats both conditions is clinically attractive. Guanfacine already appears in pharmacological management reviews and guidelines for tic disorders, including the European clinical guidelines (PMID 34757514).
 
@@ -135,6 +135,19 @@ Tourette syndrome has a completed Phase 3 placebo-controlled trial and a Phase 4
 - A monitoring plan covering blood pressure, heart rate, sedation and syncope, with a caution against abrupt discontinuation
 - Screening for cardiac conduction disorders, hypotension and mood disorder history, and review of interacting medicines (particularly CYP3A4 inhibitors such as clarithromycin)
 - Confirmation of whether any ANZCTR-registered trials exist
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

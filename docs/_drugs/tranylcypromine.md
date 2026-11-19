@@ -60,7 +60,7 @@ Of the other nine predictions, the best-supported are **dysthymic disorder**, **
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tranylcypromine is an irreversible, non-selective MAO inhibitor. It raises monoamine levels in the brain, which underlies its antidepressant and anti-anxiety effects. It also inhibits LSD1 (KDM1A), an epigenetic enzyme.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tranylcypromine: "The mechanism of action of PARNATE as an antidepressant is not fully understood, but is presumed to be linked to potentiation of monoamine neurotransmitter activity in the central nervous system (CNS) resulting from its irreversible inhibition of the enzyme monoamine oxidase (MAO)." ([DailyMed: Parnate (tranylcypromine sulfate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b72d8187-dfcc-4ea0-b5e9-c0be95b69a27), label version 2025-07-02; accessed 2026-11-19.) Based on known pharmacology, tranylcypromine is an irreversible, non-selective MAO inhibitor. It raises monoamine levels in the brain, which underlies its antidepressant and anti-anxiety effects. It also inhibits LSD1 (KDM1A), an epigenetic enzyme.
 
 For the top-ranked prediction, **benign paroxysmal torticollis of infancy**, a plausible link is hard to find. It is a childhood, migraine-spectrum disorder associated with CACNA1A (a calcium channel gene). No established connection to MAO inhibition exists. MAOIs are also poorly suited to infants because of dietary (tyramine) and drug-interaction hazards. The high score (0.9967) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or clinical reasoning.
 
@@ -131,6 +131,19 @@ Please refer to the TGA-approved Product Information (PI) for official warnings 
 - Mechanism of action data (for example, from DrugBank) to support mechanistic-link analysis.
 - For the near-label indications, tranylcypromine-specific controlled trials in dysthymia and agoraphobia/panic disorder.
 - For the rare-disease predictions, any preclinical or mechanistic data (for example, LSD1 inhibition in KAT6B-related disease) before further consideration.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Parnate (tranylcypromine sulfate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b72d8187-dfcc-4ea0-b5e9-c0be95b69a27) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
