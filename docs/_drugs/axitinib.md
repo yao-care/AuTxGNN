@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "Axitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Axitinib: predicted new indication liposarcoma (evidence level L4). In Australia: 4 PBS items (4 currently listed)"
 ---
 

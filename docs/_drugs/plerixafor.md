@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 581
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "Plerixafor"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 description: "Plerixafor: predicted new indication CMM7 (evidence level L5). In Australia: 2 PBS items (2 currently listed)"

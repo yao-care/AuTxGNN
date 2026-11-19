@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 271
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "Estriol"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Estriol: predicted new indication Amenorrhea (disease) (evidence level L3). In Australia: 4 PBS items (4 currently listed)"

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 785
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "Vorinostat"
 predicted_indications: ["primary cutaneous B-cell lymphoma"]
 description: "Vorinostat: predicted new indication Primary cutaneous B-cell lymphoma (evidence level L5). In Australia: 2 PBS items (2 currently listed)"

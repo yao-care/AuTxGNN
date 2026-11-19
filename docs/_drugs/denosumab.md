@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Denosumab"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Denosumab: predicted new indication severe nonproliferative diabetic retinopathy (evidence level L5). In Australia: 5 PBS items (5 currently listed)"
 ---
 

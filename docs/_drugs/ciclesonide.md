@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Ciclesonide"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Ciclesonide: predicted new indication atopic eczema (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 

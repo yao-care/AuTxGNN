@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Benzatropine"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Benzatropine: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 

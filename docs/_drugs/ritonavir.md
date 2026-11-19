@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 642
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "Ritonavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). In Australia: 3 PBS items (3 currently listed)"

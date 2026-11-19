@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 2
 monitor_inn: "Alprazolam"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Alprazolam: predicted new indication 失眠 (insomnia (disease)) (evidence level L3). In Australia: 3 PBS items (3 currently listed)"
 ---
 

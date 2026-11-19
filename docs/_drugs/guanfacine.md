@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "Guanfacine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
 description: "Guanfacine: predicted new indication Faciodigitogenital syndrome (evidence level L5). In Australia: 4 PBS items (4 currently listed)"

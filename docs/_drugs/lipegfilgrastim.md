@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "Lipegfilgrastim"
 predicted_indications: ["primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "diabetic retinopathy"]
 description: "Lipegfilgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). In Australia: 2 PBS items (2 currently listed)"

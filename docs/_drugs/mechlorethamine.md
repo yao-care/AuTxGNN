@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 451
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "Mechlorethamine"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "follicular lymphoma"]
 description: "Mechlorethamine: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). In Australia: 1 PBS item (1 currently listed)"

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Certolizumab pegol"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Certolizumab Pegol: predicted new indication hypermobility of coccyx (evidence level L5). In Australia: at least 20 PBS items"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Daunorubicin: predicted new indication Hodgkins lymphoma (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 

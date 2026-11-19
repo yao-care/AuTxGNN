@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "cobicistat"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Cobicistat: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 

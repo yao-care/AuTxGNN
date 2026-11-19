@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 585
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 monitor_inn: "Posaconazole"
 predicted_indications: ["pneumocystosis"]
 description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L5). In Australia: 1 PBS item (1 currently listed)"

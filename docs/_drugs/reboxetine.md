@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 628
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "Reboxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
 description: "Reboxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
