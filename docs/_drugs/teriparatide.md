@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 711
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Teriparatide: predicted new indication duodenal ulcer (disease) (evidence level L5). Approved use: Postmenopausal osteoporosis"
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
@@ -55,7 +55,7 @@ The TxGNN model ranks **duodenal ulcer** as its top predicted new indication, bu
 
 ## Why is This Prediction Reasonable?
 
-The data compiled for this report do not include a curated mechanism-of-action statement. Pharmacology records show that teriparatide acts on the PTH1 receptor (PTH1R) and also binds the PTH2 receptor (PTH2R). Its established clinical role is as a bone-building (anabolic) agent for patients at high risk of fracture.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for teriparatide: "Endogenous 84-amino acid parathyroid hormone (PTH) is the primary regulator of calcium and phosphate metabolism in bone and kidney. Physiological actions of PTH include regulation of bone metabolism, renal tubular reabsorption of calcium and phosphate, and intestinal calcium absorption. […] The biological actions of PTH and teriparatide are mediated through binding to specific high-affinity cell-surface receptors." ([DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c), label version 2026-08-31; accessed 2026-11-20.) Pharmacology records show that teriparatide acts on the PTH1 receptor (PTH1R) and also binds the PTH2 receptor (PTH2R). Its established clinical role is as a bone-building (anabolic) agent for patients at high risk of fracture.
 
 No plausible link between this bone-anabolic signalling and duodenal ulcer healing was found in the supplied data. The prediction (score 0.9986) comes from the TxGNN model (deep learning) alone. A high score may reflect similarities the model learned between related diseases, not biological evidence, and does not show demonstrated biology or clinical benefit. Without supporting studies, this prediction should be treated as a hypothesis only.
 
@@ -95,6 +95,19 @@ The prediction rests on the model score alone (L5), with no trials, no literatur
 - Any clinical or observational evidence of teriparatide in peptic or duodenal disease
 - Retrieval and review of the TGA-approved PI for warnings and contraindications
 - Review of the lower-ranked prediction **pregnancy-associated osteoporosis** (rank 8). It has L3 evidence from 20 publications, mostly reviews and observational studies, and a "Proceed with Guardrails" assessment. Study designs there were inferred from titles and need verification against the full texts. Use would need to be after lactation has ceased and pregnancy excluded.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "The data compiled for this report do not include a curated mechanism-of-action statement" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

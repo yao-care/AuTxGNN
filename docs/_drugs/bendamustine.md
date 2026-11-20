@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Bendamustine: predicted new indication mantle cell lymphoma (evidence level L1). In Australia: 2 PBS items (2 currently listed)"
 ---
 
@@ -54,7 +54,7 @@ Bendamustine is a bifunctional alkylating cytotoxic agent with activity across m
 
 ## Why is This Prediction Reasonable?
 
-Bendamustine is an alkylating agent with a purine-analogue-like structure. It produces DNA cross-links and strand breaks. Detailed mechanism of action data are not otherwise available in the data compiled for this report.
+Bendamustine is an alkylating agent with a purine-analogue-like structure. It produces DNA cross-links and strand breaks. According to the Mechanism of Action section of the US FDA-approved prescribing information for bendamustine: "Bendamustine is a bifunctional mechlorethamine derivative containing a purine-like benzimidazole ring. Mechlorethamine and its derivatives form electrophilic alkyl groups. These groups form covalent bonds with electron-rich nucleophilic moieties, resulting in interstrand DNA crosslinks." ([DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f), label version 2026-10-28; accessed 2026-11-20.)
 
 Mantle cell lymphoma is a mature B-cell neoplasm, closely related to other B-cell lymphomas in which bendamustine is used. Bendamustine plus rituximab (BR) is an established backbone in mantle cell lymphoma, and Bruton tyrosine kinase (BTK) inhibitors are now being added to it in large randomised trials. This supports the plausibility of the TxGNN prediction.
 
@@ -125,6 +125,19 @@ Several completed Phase 3 randomised trials and multiple publications directly s
 - Confirmation of the mantle cell lymphoma subgroup results in mixed-lymphoma trials (e.g. NCT00991211, NCT00877006)
 - Detailed mechanism of action data
 - A haematological and infection monitoring plan, with dose adjustment in hepatic and renal impairment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data are not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

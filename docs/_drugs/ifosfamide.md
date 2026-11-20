@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Ifosfamide: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Ifosfamide"
 predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "rhabdomyosarcoma (disease)", "myelodysplastic syndrome", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
@@ -56,7 +56,7 @@ Of the 10 predicted indications, rhabdomyosarcoma has the strongest evidence bas
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not recorded in the compiled data. From the literature, ifosfamide is a prodrug activated by hepatic cytochrome P450 enzymes to isophosphoramide mustard, which cross-links DNA and induces apoptosis in proliferating tumour cells. It is given with mesna to reduce urotoxicity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ifosfamide: "Ifosfamide is a prodrug that requires metabolic activation by hepatic cytochrome P450 isoenzymes to exert its cytotoxic activity. Activation occurs by hydroxylation at the ring carbon atom forming the unstable intermediate 4-hydroxyifosfamide and its ring-opened aldo tautomer, which decomposes to yield the cytotoxic and urotoxic compound acrolein and an alkylating isophosphoramide mustard." ([DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a), label version 2026-10-07; accessed 2026-11-20.) From the literature, ifosfamide is a prodrug activated by hepatic cytochrome P450 enzymes to isophosphoramide mustard, which cross-links DNA and induces apoptosis in proliferating tumour cells. It is given with mesna to reduce urotoxicity.
 
 Ifosfamide has long been known to have activity in breast cancer. Single-agent response rates of about 7 to 30% have been reported in pretreated patients, and combinations with docetaxel, vinorelbine, mitoxantrone, etoposide and paclitaxel have been tested in Phase 2 studies. It is not a standard-of-care agent for breast cancer. Activity appears most relevant in specific subsets, such as metaplastic breast cancer and malignant phyllodes tumours, where anthracycline and taxane responses are poor.
 
@@ -127,6 +127,19 @@ For breast cancer, the evidence consists of small, early-phase or terminated tri
 - Mechanism of action data from DrugBank
 - For breast cancer: randomised data in defined subsets (for example metaplastic breast cancer or malignant phyllodes tumours) before any further consideration
 - For rhabdomyosarcoma: a review of Australian clinical guidelines and a safety monitoring plan covering nephrotoxicity, neurotoxicity, haemorrhagic cystitis, myelosuppression and secondary malignancy risk
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data is not recorded in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

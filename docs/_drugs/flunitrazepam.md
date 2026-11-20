@@ -59,7 +59,7 @@ The TxGNN model's top prediction is **insomnia**, which is an existing use rathe
 
 ## Why is This Prediction Reasonable?
 
-Flunitrazepam is a benzodiazepine. It acts on GABA-A receptors (including the α1, α2, α3 and α5 subunits), enhancing inhibitory neurotransmission and producing sedative-hypnotic effects. ChEMBL (EMBL-EBI) records the mechanism of action of flunitrazepam as: GABA-A receptor; anion channel positive allosteric modulator ([ChEMBL CHEMBL13280 (flunitrazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL13280), CC BY-SA 3.0; accessed 2026-11-19.) This description is based on receptor-binding data and general pharmacology.
+Flunitrazepam is a benzodiazepine. It acts on GABA-A receptors (including the α1, α2, α3 and α5 subunits), enhancing inhibitory neurotransmission and producing sedative-hypnotic effects. This description is based on receptor-binding data and general pharmacology. ChEMBL (EMBL-EBI) records the mechanism of action of flunitrazepam as: GABA-A receptor; anion channel positive allosteric modulator ([ChEMBL CHEMBL13280 (flunitrazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL13280), CC BY-SA 3.0; accessed 2026-11-19.)
 
 **Insomnia:** The top prediction reflects the drug's existing use. It is marketed as a hypnotic in many countries, so this is not a new indication.
 
@@ -152,7 +152,7 @@ Below is the review log for this page. A statement that mechanism-of-action data
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL13280 (flunitrazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL13280) |
+| 2026-11-20 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description is based on receptor-binding data and general pharmacology" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [ChEMBL CHEMBL13280 (flunitrazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL13280) |
 
 <!-- review:end log -->
 

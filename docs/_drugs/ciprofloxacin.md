@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 162
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
@@ -54,7 +54,7 @@ Ciprofloxacin is a fluoroquinolone antibiotic that acts against a range of bacte
 
 ## Why is This Prediction Reasonable?
 
-Ciprofloxacin inhibits bacterial DNA gyrase and topoisomerase IV. Detailed mechanism of action data is not otherwise available in the data compiled for this report.
+Ciprofloxacin inhibits bacterial DNA gyrase and topoisomerase IV. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ciprofloxacin: "Ciprofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of ciprofloxacin results from inhibition of the enzymes topoisomerase II (DNA gyrase) and topoisomerase IV (both Type II topoisomerases), which are required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07), label version 2025-11-04; accessed 2026-11-20.)
 
 Any link to scleroderma is indirect. Two routes are plausible: treating small bowel bacterial overgrowth, which is common in systemic sclerosis, and a proposed antifibrotic effect in the skin. No direct disease-modifying mechanism has been established, and the very high model score is not backed by clinical data.
 
@@ -95,6 +95,18 @@ The prediction score is very high, but no clinical trial studies ciprofloxacin i
 - Mechanism of action data to clarify any antifibrotic effect
 - Review of the TGA Product Information for warnings and contraindications, with particular attention to tendon, neuropathy and QT-related risks in a scleroderma population
 - A safety plan for long-term use, given the many recorded drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data is not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

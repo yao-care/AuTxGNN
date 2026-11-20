@@ -9,7 +9,7 @@
   "with_current": 41,
   "none_current": 0,
   "without_data": 7,
-  "with_reviews": 38,
+  "with_reviews": 39,
   "rows": [
    {
     "t": "Atorvastatin",
@@ -29,8 +29,8 @@
     "i": "mantle cell lymphoma",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not otherwise available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -327,7 +327,7 @@
     "lt": 4,
     "lv": 4,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -426,7 +426,7 @@
     "lt": 4,
     "lv": 4,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -492,7 +492,7 @@
     "lt": 10,
     "lv": 10,
     "r": 1,
-    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this reasoning…",
     "x": 0
    },
    {
@@ -1229,7 +1229,7 @@
   "with_current": 482,
   "none_current": 2,
   "without_data": 44,
-  "with_reviews": 431,
+  "with_reviews": 438,
   "rows": [
    {
     "t": "Adalimumab",
@@ -1492,7 +1492,7 @@
     "lt": 0,
     "lv": 20,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data were not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism of action data were not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -1833,7 +1833,7 @@
     "lt": 17,
     "lv": 17,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -2317,7 +2317,7 @@
     "lt": 10,
     "lv": 10,
     "r": 1,
-    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -2327,8 +2327,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 10,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not otherwise available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -2394,7 +2394,7 @@
     "lt": 10,
     "lv": 10,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data was not available in the structured drug record, so t\" replaced with a…",
+    "rs": "\"Detailed mechanism of action data was not available in the structured drug record, so the mechanism above…",
     "x": 0
    },
    {
@@ -2559,7 +2559,7 @@
     "lt": 8,
     "lv": 8,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with…",
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report, so this description…",
     "x": 0
    },
    {
@@ -2790,7 +2790,7 @@
     "lt": 7,
     "lv": 7,
     "r": 1,
-    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -2888,8 +2888,8 @@
     "i": "thrombocytopenia due to immune destruction",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not otherwise available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -2954,8 +2954,8 @@
     "i": "diffuse scleroderma",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not otherwise available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -3197,7 +3197,7 @@
     "lt": 6,
     "lv": 6,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -3538,7 +3538,7 @@
     "lt": 4,
     "lv": 4,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -3978,7 +3978,7 @@
     "lt": 4,
     "lv": 4,
     "r": 1,
-    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -4055,7 +4055,7 @@
     "lt": 4,
     "lv": 4,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with…",
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report, so this description…",
     "x": 0
    },
    {
@@ -4109,8 +4109,8 @@
     "i": "duodenal ulcer (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"The data compiled for this report do not include a curated mechanism-of-action statement\" replaced with a…",
     "x": 0
    },
    {
@@ -4329,8 +4329,8 @@
     "i": "amenorrhea (disease)",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not otherwise available in the data compiled for this report, so the…",
     "x": 0
    },
    {
@@ -4671,7 +4671,7 @@
     "lt": 2,
     "lv": 2,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -4704,7 +4704,7 @@
     "lt": 2,
     "lv": 2,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -5067,7 +5067,7 @@
     "lt": 2,
     "lv": 2,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -5122,7 +5122,7 @@
     "lt": 2,
     "lv": 2,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -5143,8 +5143,8 @@
     "i": "female breast carcinoma",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not recorded in the compiled data\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -5947,7 +5947,7 @@
     "lt": 1,
     "lv": 1,
     "r": 1,
-    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -6101,7 +6101,7 @@
     "lt": 1,
     "lv": 1,
     "r": 1,
-    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -6266,7 +6266,7 @@
     "lt": 1,
     "lv": 1,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data were not available in the compiled data, so t\" replaced with a sourced…",
+    "rs": "\"Detailed mechanism of action data were not available in the compiled data, so this description reflects the…",
     "x": 0
    },
    {
@@ -6518,8 +6518,8 @@
     "i": "atrophoderma vermiculata",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data for zolmitriptan is not recorded in the data compiled for this…",
     "x": 0
    },
    {

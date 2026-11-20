@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 795
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 monitor_inn: "Zolmitriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In Australia: 1 PBS item (1 currently listed)"
@@ -55,7 +55,7 @@ Evidence is limited to **0 registered clinical trials** and general migraine and
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for zolmitriptan is not recorded in the data compiled for this report. The published reviews describe it as a selective 5-HT1B/1D agonist that acts on the trigeminovascular system, both peripherally and centrally. It has proven efficacy for acute migraine, with or without aura.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zolmitriptan: "Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors." ([DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4), label version 2026-01-29; accessed 2026-11-20.) The published reviews describe it as a selective 5-HT1B/1D agonist that acts on the trigeminovascular system, both peripherally and centrally. It has proven efficacy for acute migraine, with or without aura.
 
 Migraine with brainstem aura is a subtype of migraine, so the same trigeminovascular mechanism could plausibly apply. This is the likely basis for the high model score.
 
@@ -134,6 +134,19 @@ The mechanistic argument is plausible, and zolmitriptan is already marketed in A
 **Other predictions from the same model run:**
 - For cluster headache, guidelines recommend triptans, including nasal or oral zolmitriptan. However, the zolmitriptan-specific trials are small or have uncertain status.
 - These two indications may be better first candidates for further evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Currently, detailed mechanism of action data for zolmitriptan is not recorded in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

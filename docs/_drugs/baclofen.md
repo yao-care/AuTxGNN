@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Baclofen"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Baclofen: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). In Australia: 10 PBS items (10 currently listed)"
 ---
 
@@ -54,7 +54,7 @@ Baclofen is a GABA-B receptor agonist available in Australia as an intrathecal i
 
 ## Why is This Prediction Reasonable?
 
-Baclofen is a GABA-B receptor agonist. A plausible link to ADHD is through GABAergic inhibitory control over the dopaminergic and glutamatergic circuits involved in impulsivity and attention. Detailed mechanism of action data are not otherwise available in the data compiled for this report.
+Baclofen is a GABA-B receptor agonist. A plausible link to ADHD is through GABAergic inhibitory control over the dopaminergic and glutamatergic circuits involved in impulsivity and attention. According to the Mechanism of Action section of the US FDA-approved prescribing information for baclofen: "The precise mechanism of action of baclofen is not fully understood. Baclofen inhibits both monosynaptic and polysynaptic reflexes at the spinal level, possibly by decreasing excitatory neurotransmitter release from afferent terminals, although actions at supraspinal sites may also occur and contribute to its clinical effect." ([DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2), label version 2026-09-22; accessed 2026-11-20.)
 
 This link is hypothetical. The supplied publications do not test baclofen in ADHD. They are mainly reviews of Tourette syndrome treatment, studies of alpha-2 adrenergic mechanisms, and rodent studies of impulsivity, social play and decision-making. One paper describes off-label methylphenidate use in adult ADHD, and it does not involve baclofen. The very high TxGNN score is a computational output and is not backed by direct clinical or mechanistic evidence for baclofen in ADHD.
 
@@ -98,6 +98,19 @@ No clinical trial or publication in the data compiled for this report studies ba
 - Detailed mechanism of action data
 - TGA Product Information warnings and contraindications for safety screening, noting that the only listed product is an intrathecal injection and that route compatibility with this use has not been assessed
 - A safety review for the neuropsychiatric population, given the DDI signals above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data are not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
