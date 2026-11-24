@@ -21,11 +21,11 @@
   "items_current": 3505
  },
  "reviews": {
-  "records": 681,
+  "records": 680,
   "pages": 539,
   "public_pages_with_records": 538,
   "by_action": {
-   "correct": 155,
+   "correct": 154,
    "mechanism": 526
   }
  },
