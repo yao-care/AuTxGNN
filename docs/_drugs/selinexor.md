@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Selinexor: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Selinexor"
 predicted_indications: ["drug-induced osteoporosis"]
@@ -70,9 +70,20 @@ Currently no related literature available for drug-induced osteoporosis.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13085Q | Xpovio | Tablet 20 mg (oral) | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 13085Q | Xpovio | Selinexor | Tablet 20 mg | Valid |
+| 13086R | Xpovio | Selinexor | Tablet 20 mg | Valid |
+| 13099K | Xpovio | Selinexor | Tablet 20 mg | Valid |
+| 13103P | Xpovio | Selinexor | Tablet 20 mg | Valid |
+| 13104Q | Xpovio | Selinexor | Tablet 20 mg | Valid |
+| 13105R | Xpovio | Selinexor | Tablet 20 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The licence is a valid single-ingredient product. Note that the licence number was supplied in this format and could not be verified against the register.
 

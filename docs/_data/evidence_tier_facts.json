@@ -1821,8 +1821,8 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 17,
     "lv": 17,
-    "r": 2,
-    "rs": "Corrected: PBS item count updated to the current PBS Schedule",
+    "r": 3,
+    "rs": "Corrected: Genvoya and Symtuza codes are PBS item codes; wording no longer refers to the old table",
     "x": 0
    },
    {
@@ -3405,8 +3405,8 @@
     "i": "post-bacterial disorder",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Corrected: PBS item count updated to the current PBS Schedule",
+    "r": 3,
+    "rs": "Corrected: a product table is now shown; product details are missing only for the single-ingredient entries",
     "x": 0
    },
    {

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Benzocaine: predicted new indication papillary conjunctivitis (evidence level L5). In Australia: 1 PBS item (1 currently listed)"
 ---
 
@@ -80,9 +80,15 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Licence 156F | Not recorded | Not recorded | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 156F | – | Benzocaine | – | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The local data lists 1 valid single-ingredient licence for benzocaine. The data compiled for this report do not include product name, dosage form or approved indication text for this entry.
 

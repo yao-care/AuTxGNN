@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 586
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Potassium: predicted new indication Hypertensive disorder (evidence level L1). Approved use: Not available in the data compiled for this report"
 monitor_inn: "potassium"
 predicted_indications: ["hypertensive disorder", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant renovascular hypertension", "malignant hypertensive renal disease"]
@@ -100,10 +100,16 @@ Further registered trials in the compiled data are antihypertensive drug studies
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 8587Y | Kindergen | Oral powder 400 g | Not available |
-| ARTG 2870C | Renastart | Oral powder 400 g, 6 | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2870C | Renastart | whey protein formula supplemented with amino acids, long chain polyunsaturated fatty acid… | Oral powder 400 g, 6 (Renastart) | Valid |
+| 8587Y | Kindergen | whey protein formula supplemented with amino acids, vitamins and minerals, and low in pro… | Oral powder 400 g (Kindergen) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

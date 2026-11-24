@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 1
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dapsone: predicted new indication pneumocystosis (evidence level L1). In Australia: 4 PBS items (4 currently listed)"
 ---
 
@@ -92,9 +92,18 @@ According to the Mechanism of Action section of the US FDA-approved prescribing 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1272Y | DAPSOMED | Tablet 100 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1272Y | DAPSOMED | Dapsone | Tablet 100 mg | Valid |
+| 8801F | Link Medical Products Pty Ltd | Dapsone | Tablet 25 mg | Valid |
+| 15168H | DAPSOMED | Dapsone | Tablet 50 mg | Valid |
+| 15517Q | Dapsone Tablets, USP 25 mg (Rising Pharmaceuticals, USA) | Dapsone | Tablet 25 mg (s19A) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Empagliflozin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
 description: "Empagliflozin: predicted new indication Focal stiff limb syndrome (evidence level L5). In Australia: at least 20 PBS items"
@@ -73,9 +73,36 @@ Currently no related literature available for focal stiff limb syndrome.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10202Y | Jardiance | Tablet 25 mg | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10202Y | Jardiance | Empagliflozin | Tablet 25 mg | Valid |
+| 10206E | Jardiance | Empagliflozin | Tablet 10 mg | Valid |
+| 10626G | Jardiamet 5 mg/500 mg | Empagliflozin + metformin | Tablet containing 5 mg empagliflozin with 500 mg metformin hydrochloride | Valid |
+| 10627H | Jardiamet 5 mg/1000 mg | Empagliflozin + metformin | Tablet containing 5 mg empagliflozin with 1 g metformin hydrochloride | Valid |
+| 10633P | Jardiamet 12.5 mg/500 mg | Empagliflozin + metformin | Tablet containing 12.5 mg empagliflozin with 500 mg metformin hydrochloride | Valid |
+| 10677Y | Jardiamet 12.5 mg/1000 mg | Empagliflozin + metformin | Tablet containing 12.5 mg empagliflozin with 1 g metformin hydrochloride | Valid |
+| 11269D | Glyxambi | Empagliflozin + linagliptin | Tablet containing 10 mg empagliflozin with 5 mg linagliptin | Valid |
+| 11303X | Glyxambi | Empagliflozin + linagliptin | Tablet containing 25 mg empagliflozin with 5 mg linagliptin | Valid |
+| 12918X | Jardiance | Empagliflozin | Tablet 10 mg | Valid |
+| 13695T | Jardiance | Empagliflozin | Tablet 10 mg | Valid |
+| 13845Q | Jardiance | Empagliflozin | Tablet 10 mg | Valid |
+| 13852C | Jardiamet 5 mg/1000 mg | Empagliflozin + metformin | Tablet containing 5 mg empagliflozin with 1 g metformin hydrochloride | Valid |
+| 13903R | Jardiamet 12.5 mg/500 mg | Empagliflozin + metformin | Tablet containing 12.5 mg empagliflozin with 500 mg metformin hydrochloride | Valid |
+| 13904T | Glyxambi | Empagliflozin + linagliptin | Tablet containing 10 mg empagliflozin with 5 mg linagliptin | Valid |
+| 13920P | Jardiance | Empagliflozin | Tablet 25 mg | Valid |
+| 13958P | Glyxambi | Empagliflozin + linagliptin | Tablet containing 25 mg empagliflozin with 5 mg linagliptin | Valid |
+| 14018T | Jardiance | Empagliflozin | Tablet 10 mg | Valid |
+| 14092Q | Jardiance | Empagliflozin | Tablet 10 mg | Valid |
+| 15252R | Jardiance | Empagliflozin | Tablet 10 mg | Valid |
+| 15253T | Jardiance | Empagliflozin | Tablet 10 mg | Valid |
+
+The table shows 20 of 22 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

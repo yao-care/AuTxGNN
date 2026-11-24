@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyanocobalamin: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin B12 deficiency, pernicious anaemia…"
 monitor_inn: "cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
@@ -71,9 +71,15 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4493L | Accomin Adult Tonic | Oral liquid 200 mL | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4493L | Accomin Adult Tonic | lysine + thiamine + pyridoxine + cyanocobalamin + ferric pyrophosphate | Oral liquid 200 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

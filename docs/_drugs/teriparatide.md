@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 711
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Teriparatide: predicted new indication duodenal ulcer (disease) (evidence level L5). Approved use: Postmenopausal osteoporosis"
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
@@ -69,9 +69,18 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14093R | Terrosa | Injection 250 micrograms per mL, 2.4 mL in multi-dose pre-filled pen | Not listed in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 14093R | Terrosa | Teriparatide | Injection 250 micrograms per mL, 2.4 mL in multi-dose pre-filled pen | Valid |
+| 14482F | Terrosa | Teriparatide | Injection 250 micrograms per mL, 2.4 mL in multi-dose pre-filled pen | Valid |
+| 15152L | Ritosa | Teriparatide | Injection 250 micrograms per mL, 2.4 mL in multi-dose pre-filled cartridge | Valid |
+| 15188J | Ritosa | Teriparatide | Injection 250 micrograms per mL, 2.4 mL in multi-dose pre-filled cartridge | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

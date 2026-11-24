@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 2
 monitor_inn: "Alprazolam"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alprazolam: predicted new indication 失眠 (insomnia (disease)) (evidence level L3). In Australia: 3 PBS items (3 currently listed)"
 ---
 
@@ -81,9 +81,17 @@ No randomised controlled trial of alprazolam in insomnia is included. The most r
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 11186R | Alprax 1 | Tablet 1 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11186R | Alprax 1 | Alprazolam | Tablet 1 mg | Valid |
+| 11187T | Alprax 0.5 | Alprazolam | Tablet 500 micrograms | Valid |
+| 11205R | Kalma 0.25 | Alprazolam | Tablet 250 micrograms | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

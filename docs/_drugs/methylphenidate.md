@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 469
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). In Australia: 15 PBS items (15 currently listed)"
@@ -111,9 +111,29 @@ The publications below were retrieved for other predicted indications, with tric
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12116Q | Ritalin LA | Capsule containing methylphenidate hydrochloride 60 mg (modified release) | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2172H | Methylphenidate XR ARX | Methylphenidate | Tablet containing methylphenidate hydrochloride 27 mg (extended release) | Valid |
+| 2276T | Rubifen LA | Methylphenidate | Capsule containing methylphenidate hydrochloride 20 mg (modified release) | Valid |
+| 2280B | Rubifen LA | Methylphenidate | Capsule containing methylphenidate hydrochloride 30 mg (modified release) | Valid |
+| 2283E | Rubifen LA | Methylphenidate | Capsule containing methylphenidate hydrochloride 40 mg (modified release) | Valid |
+| 2387P | Methylphenidate XR ARX | Methylphenidate | Tablet containing methylphenidate hydrochloride 18 mg (extended release) | Valid |
+| 2388Q | Methylphenidate XR ARX | Methylphenidate | Tablet containing methylphenidate hydrochloride 36 mg (extended release) | Valid |
+| 2432B | Methylphenidate XR ARX | Methylphenidate | Tablet containing methylphenidate hydrochloride 54 mg (extended release) | Valid |
+| 3440C | Rubifen LA | Methylphenidate | Capsule containing methylphenidate hydrochloride 10 mg (modified release) | Valid |
+| 8839F | Artige | Methylphenidate | Tablet containing methylphenidate hydrochloride 10 mg | Valid |
+| 12116Q | Ritalin LA | Methylphenidate | Capsule containing methylphenidate hydrochloride 60 mg (modified release) | Valid |
+| 14857Y | Concerta (Switzerland) | Methylphenidate | Tablet containing methylphenidate hydrochloride 18 mg (extended release) Concerta (Switzerland) (S19A) | Valid |
+| 14862F | Concerta (Switzerland) | Methylphenidate | Tablet containing methylphenidate hydrochloride 36 mg (extended release) Concerta (Switzerland) (S19A) | Valid |
+| 14871Q | Concerta (Switzerland) | Methylphenidate | Tablet containing methylphenidate hydrochloride 54 mg (extended release) Concerta (Switzerland) (S19A) | Valid |
+| 15169J | Atenza (Spain) | Methylphenidate | Tablet containing methylphenidate hydrochloride 27 mg (modified release) (Spain) (S19A) | Valid |
+| 15198X | Atenza (Spain) | Methylphenidate | Tablet containing methylphenidate hydrochloride 54 mg (modified release) (Spain) (S19A) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

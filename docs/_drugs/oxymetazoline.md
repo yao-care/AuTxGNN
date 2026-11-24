@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 539
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis"
 monitor_inn: "Oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
@@ -77,9 +77,17 @@ None of these publications is a randomised trial demonstrating oxymetazoline eff
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11711J | Pharmacy Action Nasal Decongestant | Nasal spray 500 micrograms per mL (0.05%), 20 mL | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4378K | Drixine | Oxymetazoline | Nasal spray 500 micrograms per mL (0.05%), 15 mL | Valid |
+| 4379L | Logicin Rapid Relief | Oxymetazoline | Nasal spray 500 micrograms per mL (0.05%), 18 mL | Valid |
+| 11711J | Pharmacy Action Nasal Decongestant | Oxymetazoline | Nasal spray 500 micrograms per mL (0.05%), 20 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

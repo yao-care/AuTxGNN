@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 497
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Nebivolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
@@ -109,9 +109,20 @@ No literature is available for malignant hypertensive renal disease. The most re
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13441K | APO-Nebivolol | Tablet 10 mg (as hydrochloride) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 9311C | APO-Nebivolol | Nebivolol | Tablet 5 mg (as hydrochloride) | Valid |
+| 9312D | APO-Nebivolol | Nebivolol | Tablet 10 mg (as hydrochloride) | Valid |
+| 9316H | Nebilet | Nebivolol | Tablet 1.25 mg (as hydrochloride) | Valid |
+| 13441K | APO-Nebivolol | Nebivolol | Tablet 10 mg (as hydrochloride) | Valid |
+| 13510C | APO-Nebivolol | Nebivolol | Tablet 5 mg (as hydrochloride) | Valid |
+| 13568D | Nebilet | Nebivolol | Tablet 1.25 mg (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Only the oral route is available (tablet).
 

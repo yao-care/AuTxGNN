@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Ciclesonide"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciclesonide: predicted new indication atopic eczema (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 
@@ -70,9 +70,18 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14312G | Alvesco 80 | Pressurised inhalation 80 micrograms per dose, 120 doses (CFC-free formulation) | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8853Y | Alvesco 80 | Ciclesonide | Pressurised inhalation 80 micrograms per dose, 120 doses (CFC-free formulation) | Valid |
+| 8854B | Alvesco 160 | Ciclesonide | Pressurised inhalation 160 micrograms per dose, 120 doses (CFC-free formulation) | Valid |
+| 14312G | Alvesco 80 | Ciclesonide | Pressurised inhalation 80 micrograms per dose, 120 doses (CFC-free formulation) | Valid |
+| 14348E | Alvesco 160 | Ciclesonide | Pressurised inhalation 160 micrograms per dose, 120 doses (CFC-free formulation) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 All four listed PBS items are inhaled formulations. No topical presentation is recorded, so route compatibility with atopic eczema is unresolved.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "decitabine"
 predicted_indications: ["refractory cytopenia of childhood"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Decitabine: predicted new indication refractory cytopenia of childhood (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 
@@ -73,9 +73,18 @@ The abstracts supplied are truncated, so outcomes cannot be summarised. The evid
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13081L | Inqovi 35/100 | Tablet containing decitabine 35 mg with cedazuridine 100 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 13081L | Inqovi 35/100 | Decitabine + cedazuridine | Tablet containing decitabine 35 mg with cedazuridine 100 mg | Valid |
+| 13087T | Inqovi 35/100 | Decitabine + cedazuridine | Tablet containing decitabine 35 mg with cedazuridine 100 mg | Valid |
+| 13107W | Inqovi 35/100 | Decitabine + cedazuridine | Tablet containing decitabine 35 mg with cedazuridine 100 mg | Valid |
+| 13133F | Inqovi 35/100 | Decitabine + cedazuridine | Tablet containing decitabine 35 mg with cedazuridine 100 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Note: this product is a decitabine and cedazuridine combination, so it does not describe how single-ingredient decitabine is approved.
 

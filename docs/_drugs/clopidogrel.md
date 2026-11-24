@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 176
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clopidogrel: predicted new indication Migraine disorder (evidence level L5). Approved use: Acute coronary syndrome, intracranial embolism…"
 monitor_inn: "Clopidogrel"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
@@ -107,9 +107,20 @@ Related but non-clopidogrel evidence includes a ticagrelor open-label pilot (PMI
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13365K | Clovix 75 | Tablet 75 mg (as besilate) | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8358X | Iscover | Clopidogrel | Tablet 75 mg (as hydrogen sulfate) | Valid |
+| 9296G | DuoPlidogrel | clopidogrel + aspirin | Tablet 75 mg (as hydrogen sulfate)-100 mg | Valid |
+| 9354H | Clovix 75 | Clopidogrel | Tablet 75 mg (as besilate) | Valid |
+| 13365K | Clovix 75 | Clopidogrel | Tablet 75 mg (as besilate) | Valid |
+| 13399F | Iscover | Clopidogrel | Tablet 75 mg (as hydrogen sulfate) | Valid |
+| 13427Q | DuoPlidogrel | clopidogrel + aspirin | Tablet 75 mg (as hydrogen sulfate)-100 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Six current oral PBS items are listed: four single-ingredient clopidogrel tablets and two clopidogrel with aspirin tablets. Migraine is not an approved indication.
 

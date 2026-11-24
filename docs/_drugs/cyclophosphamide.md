@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Cyclophosphamide"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). In Australia: 9 PBS items (9 currently listed)"
 ---
 
@@ -81,9 +81,23 @@ None of the publications below is a controlled trial of cyclophosphamide in retr
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1266P | Cyclonex | Tablet 50 mg (anhydrous) | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1266P | Cyclonex | Cyclophosphamide | Tablet 50 mg (anhydrous) | Valid |
+| 4327R | CYCLOPHOSPHAMIDE-REACH | Cyclophosphamide | Powder for injection 500 mg (anhydrous) | Valid |
+| 7226H | CYCLOPHOSPHAMIDE-REACH | Cyclophosphamide | Powder for injection 500 mg (anhydrous) | Valid |
+| 15395G | Cyclophosphamide (NorthStar, USA) | Cyclophosphamide | Powder for injection 1 g (NorthStar, USA) (s19A) | Valid |
+| 15407X | Cyclophosphamide (NorthStar, USA) | Cyclophosphamide | Powder for injection 1 g (NorthStar, USA) (s19A) | Valid |
+| 15505C | Cyclophosphamide (Sagent, USA) | Cyclophosphamide | Powder for injection 2 g (Sagent, USA) (s19A) | Valid |
+| 15520W | Cyclophosphamide (Sagent, USA) | Cyclophosphamide | Powder for injection 2 g (Sagent, USA) (s19A) | Valid |
+| 15576T | Cyclophosphamide (Seacross Pharmaceuticals, UK) | Cyclophosphamide | Powder for injection 2 g (Seacross Pharmaceuticals, UK) (s19A) | Valid |
+| 15603F | Cyclophosphamide (Seacross Pharmaceuticals, UK) | Cyclophosphamide | Powder for injection 2 g (Seacross Pharmaceuticals, UK) (s19A) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Nine current single-ingredient PBS items are recorded: one oral tablet (Cyclonex 50 mg) and eight injections (powder for injection, several supplied under Section 19A).
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L5). In Australia: at least 20 PBS items"
@@ -127,9 +127,36 @@ The literature is dominated by DFSP, which is already an approved indication, ra
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10915L | IMATINIB-DRLA | Capsule 100 mg (as mesilate) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10915L | IMATINIB-DRLA | Imatinib | Capsule 100 mg (as mesilate) | Valid |
+| 10916M | IMATINIB-DRLA | Imatinib | Capsule 400 mg (as mesilate) | Valid |
+| 10917N | IMATINIB-DRLA | Imatinib | Capsule 400 mg (as mesilate) | Valid |
+| 10918P | IMATINIB-DRLA | Imatinib | Capsule 100 mg (as mesilate) | Valid |
+| 10920R | IMATINIB-DRLA | Imatinib | Capsule 100 mg (as mesilate) | Valid |
+| 10921T | IMATINIB-DRLA | Imatinib | Capsule 400 mg (as mesilate) | Valid |
+| 10924Y | IMATINIB-DRLA | Imatinib | Capsule 100 mg (as mesilate) | Valid |
+| 10925B | IMATINIB-DRLA | Imatinib | Capsule 400 mg (as mesilate) | Valid |
+| 10933K | IMATINIB-DRLA | Imatinib | Capsule 400 mg (as mesilate) | Valid |
+| 10935M | IMATINIB-DRLA | Imatinib | Capsule 400 mg (as mesilate) | Valid |
+| 10939R | IMATINIB-DRLA | Imatinib | Capsule 400 mg (as mesilate) | Valid |
+| 10940T | IMATINIB-DRLA | Imatinib | Capsule 100 mg (as mesilate) | Valid |
+| 10941W | IMATINIB-DRLA | Imatinib | Capsule 100 mg (as mesilate) | Valid |
+| 10942X | IMATINIB-DRLA | Imatinib | Capsule 100 mg (as mesilate) | Valid |
+| 11752M | Glivec | Imatinib | Tablet 400 mg (as mesilate) | Valid |
+| 11753N | Glivec | Imatinib | Tablet 100 mg (as mesilate) | Valid |
+| 11756R | IMATINIB-DRLA | Imatinib | Capsule 400 mg (as mesilate) | Valid |
+| 11757T | IMATINIB-DRLA | Imatinib | Capsule 100 mg (as mesilate) | Valid |
+| 11758W | Glivec | Imatinib | Tablet 400 mg (as mesilate) | Valid |
+| 11762C | Glivec | Imatinib | Tablet 100 mg (as mesilate) | Valid |
+
+The table shows 20 of 82 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The data compiled for this report contain at least 20 current PBS items, all single-ingredient oral products. Oral administration is the only route available. The licence number is given as it appears in the data and is not in a standard ARTG format, so check it against the ARTG before relying on it.
 

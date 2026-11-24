@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 522
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Olaparib: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,36 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Olaparib,
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 11503K | Lynparza | Tablet 100 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11503K | Lynparza | Olaparib | Tablet 100 mg | Valid |
+| 11522K | Lynparza | Olaparib | Tablet 100 mg | Valid |
+| 11528R | Lynparza | Olaparib | Tablet 150 mg | Valid |
+| 11539H | Lynparza | Olaparib | Tablet 150 mg | Valid |
+| 12157W | Lynparza | Olaparib | Tablet 150 mg | Valid |
+| 12161C | Lynparza | Olaparib | Tablet 150 mg | Valid |
+| 12169L | Lynparza | Olaparib | Tablet 100 mg | Valid |
+| 12170M | Lynparza | Olaparib | Tablet 100 mg | Valid |
+| 12913P | Lynparza | Olaparib | Tablet 150 mg | Valid |
+| 12921C | Lynparza | Olaparib | Tablet 100 mg | Valid |
+| 12929L | Lynparza | Olaparib | Tablet 150 mg | Valid |
+| 12932P | Lynparza | Olaparib | Tablet 100 mg | Valid |
+| 13782J | Lynparza | Olaparib | Tablet 100 mg | Valid |
+| 13783K | Lynparza | Olaparib | Tablet 100 mg | Valid |
+| 13800H | Lynparza | Olaparib | Tablet 150 mg | Valid |
+| 13807Q | Lynparza | Olaparib | Tablet 150 mg | Valid |
+| 14181J | Lynparza | Olaparib | Tablet 100 mg | Valid |
+| 14208T | Lynparza | Olaparib | Tablet 150 mg | Valid |
+| 14215E | Lynparza | Olaparib | Tablet 150 mg | Valid |
+| 14216F | Lynparza | Olaparib | Tablet 100 mg | Valid |
+
+The table shows 20 of 22 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

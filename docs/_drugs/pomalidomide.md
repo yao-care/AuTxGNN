@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 583
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Pomalidomide: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,30 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Pomalidomide
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 10386P | Pomalyst | Capsule 4 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10386P | Pomalyst | Pomalidomide | Capsule 4 mg | Valid |
+| 10387Q | Pomolide | Pomalidomide | Capsule 4 mg | Valid |
+| 10406Q | Pomolide | Pomalidomide | Capsule 3 mg | Valid |
+| 10417G | Pomolide | Pomalidomide | Capsule 3 mg | Valid |
+| 12661J | Pomolide | Pomalidomide | Capsule 4 mg | Valid |
+| 12665N | Pomolide | Pomalidomide | Capsule 4 mg | Valid |
+| 12666P | Pomolide | Pomalidomide | Capsule 3 mg | Valid |
+| 12668R | Pomolide | Pomalidomide | Capsule 3 mg | Valid |
+| 13788Q | Pomolide | Pomalidomide | Capsule 2 mg | Valid |
+| 13794B | Pomolide | Pomalidomide | Capsule 1 mg | Valid |
+| 13803L | Pomolide | Pomalidomide | Capsule 1 mg | Valid |
+| 13811X | Pomolide | Pomalidomide | Capsule 2 mg | Valid |
+| 13812Y | Pomolide | Pomalidomide | Capsule 2 mg | Valid |
+| 13813B | Pomolide | Pomalidomide | Capsule 1 mg | Valid |
+| 13814C | Pomolide | Pomalidomide | Capsule 1 mg | Valid |
+| 13815D | Pomolide | Pomalidomide | Capsule 2 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

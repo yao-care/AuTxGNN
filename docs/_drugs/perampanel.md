@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 559
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Perampanel"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). In Australia: at least 20 PBS items"
@@ -99,9 +99,36 @@ No publications specific to visual epilepsy were retrieved. The following are th
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10151G | Fycompa | Tablet 10 mg (as hemisesquihydrate), oral | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10151G | Fycompa | Perampanel | Tablet 10 mg (as hemisesquihydrate) | Valid |
+| 10157N | Fycompa | Perampanel | Tablet 2 mg (as hemisesquihydrate) | Valid |
+| 10159Q | Fycompa | Perampanel | Tablet 12 mg (as hemisesquihydrate) | Valid |
+| 10160R | Fycompa | Perampanel | Tablet 8 mg (as hemisesquihydrate) | Valid |
+| 10162W | Fycompa | Perampanel | Tablet 4 mg (as hemisesquihydrate) | Valid |
+| 10163X | Fycompa | Perampanel | Tablet 6 mg (as hemisesquihydrate) | Valid |
+| 11407J | Fycompa | Perampanel | Tablet 6 mg (as hemisesquihydrate) | Valid |
+| 11409L | Fycompa | Perampanel | Tablet 12 mg (as hemisesquihydrate) | Valid |
+| 11418Y | Fycompa | Perampanel | Tablet 4 mg (as hemisesquihydrate) | Valid |
+| 11428L | Fycompa | Perampanel | Tablet 10 mg (as hemisesquihydrate) | Valid |
+| 11429M | Fycompa | Perampanel | Tablet 8 mg (as hemisesquihydrate) | Valid |
+| 11436X | Fycompa | Perampanel | Tablet 2 mg (as hemisesquihydrate) | Valid |
+| 13864Q | Fycompa | Perampanel | Tablet 4 mg (as hemisesquihydrate) | Valid |
+| 13865R | Fycompa | Perampanel | Tablet 12 mg (as hemisesquihydrate) | Valid |
+| 13914H | Fycompa | Perampanel | Tablet 10 mg (as hemisesquihydrate) | Valid |
+| 13915J | Fycompa | Perampanel | Tablet 8 mg (as hemisesquihydrate) | Valid |
+| 13948D | Fycompa | Perampanel | Tablet 4 mg (as hemisesquihydrate) | Valid |
+| 13970G | Fycompa | Perampanel | Tablet 8 mg (as hemisesquihydrate) | Valid |
+| 13971H | Fycompa | Perampanel | Tablet 10 mg (as hemisesquihydrate) | Valid |
+| 14010J | Fycompa | Perampanel | Tablet 6 mg (as hemisesquihydrate) | Valid |
+
+The table shows 20 of 22 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

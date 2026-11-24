@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease and related parkinsonian syndromes"
 monitor_inn: "levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -72,11 +72,36 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11910W | Duodopa | Intestinal gel containing levodopa 20 mg with carbidopa monohydrate 5 mg per mL, 100 mL | Not available in the data compiled |
-| ARTG 14356N | Madopar Rapid 62.5 | Dispersible tablet containing levodopa 50 mg with 12.5 mg benserazide (as hydrochloride) | Not available in the data compiled |
-| ARTG 14357P | Lecteva | Tablet 150 mg-37.5 mg (as monohydrate)-200 mg | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1242J | SINADOPA 100/25 | Levodopa + carbidopa | Tablet 100 mg-25 mg (as monohydrate) | Valid |
+| 1245M | SINADOPA 250/25 | Levodopa + carbidopa | Tablet 250 mg-25 mg (as monohydrate) | Valid |
+| 1255C | Sinemet CR | Levodopa + carbidopa | Tablet (modified release) 200 mg-50 mg (as monohydrate) | Valid |
+| 2225D | Madopar 125 | Levodopa + benserazide | Capsule containing levodopa 100 mg with 25 mg benserazide (as hydrochloride) | Valid |
+| 2226E | Madopar | Levodopa + benserazide | Capsule containing levodopa 200 mg with 50 mg benserazide (as hydrochloride) | Valid |
+| 11910W | Duodopa | Levodopa + carbidopa | Intestinal gel containing levodopa 20 mg with carbidopa monohydrate 5 mg per mL, 100 mL | Valid |
+| 11913B | Duodopa | Levodopa + carbidopa | Intestinal gel containing levodopa 20 mg with carbidopa monohydrate 5 mg per mL, 100 mL | Valid |
+| 11919H | Duodopa | Levodopa + carbidopa | Intestinal gel containing levodopa 20 mg with carbidopa monohydrate 5 mg per mL, 100 mL | Valid |
+| 14322T | Sinemet CR | Levodopa + carbidopa | Tablet (modified release) 200 mg-50 mg (as monohydrate) | Valid |
+| 14356N | Madopar Rapid 62.5 | Levodopa + benserazide | Dispersible tablet containing levodopa 50 mg with 12.5 mg benserazide (as hydrochloride) | Valid |
+| 14357P | Lecteva | Levodopa + carbidopa + entacapone | Tablet 150 mg-37.5 mg (as monohydrate)-200 mg | Valid |
+| 14387F | Madopar 125 | Levodopa + benserazide | Capsule containing levodopa 100 mg with 25 mg benserazide (as hydrochloride) | Valid |
+| 14388G | Madopar 62.5 | Levodopa + benserazide | Capsule containing levodopa 50 mg with 12.5 mg benserazide (as hydrochloride) | Valid |
+| 14427H | SINADOPA 100/25 | Levodopa + carbidopa | Tablet 100 mg-25 mg (as monohydrate) | Valid |
+| 14428J | Madopar | Levodopa + benserazide | Tablet containing levodopa 200 mg with 50 mg benserazide (as hydrochloride) | Valid |
+| 14454R | SINADOPA 250/25 | Levodopa + carbidopa | Tablet 250 mg-25 mg (as monohydrate) | Valid |
+| 14455T | Madopar 125 | Levodopa + benserazide | Tablet containing levodopa 100 mg with 25 mg benserazide (as hydrochloride) | Valid |
+| 14525L | Madopar HBS | Levodopa + benserazide | Capsule containing levodopa 100 mg with 25 mg benserazide (as hydrochloride) (sustained release) | Valid |
+| 14551W | Madopar | Levodopa + benserazide | Capsule containing levodopa 200 mg with 50 mg benserazide (as hydrochloride) | Valid |
+| 14552X | Madopar Rapid 125 | Levodopa + benserazide | Dispersible tablet containing levodopa 100 mg with 25 mg benserazide (as hydrochloride) | Valid |
+
+The table shows 20 of 40 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

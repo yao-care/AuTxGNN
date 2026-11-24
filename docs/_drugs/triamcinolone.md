@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 753
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). In Australia: 6 PBS items (6 currently listed)"
@@ -84,9 +84,20 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 2117K | Tricortone | Cream containing triamcinolone acetonide 200 micrograms per g, 100 g | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2117K | Tricortone | Triamcinolone | Cream containing triamcinolone acetonide 200 micrograms per g, 100 g | Valid |
+| 2118L | Tricortone | Triamcinolone | Ointment containing triamcinolone acetonide 200 micrograms per g, 100 g | Valid |
+| 2971J | Otocomb Otic | triamcinolone + neomycin + gramicidin + nystatin | Ear drops containing triamcinolone acetonide 0.9 mg with neomycin 2.25 mg (as sulfate), gramicidin 225 micrograms and n… | Valid |
+| 2974M | Otocomb Otic | triamcinolone + neomycin + gramicidin + nystatin | Ear ointment containing triamcinolone acetonide 1 mg with neomycin 2.5 mg (as sulfate), gramicidin 250 micrograms and n… | Valid |
+| 2990J | Kenacort-A10 | Triamcinolone | Injection containing triamcinolone acetonide 10 mg in 1 mL | Valid |
+| 5233K | Kenacort-A10 | Triamcinolone | Injection containing triamcinolone acetonide 10 mg in 1 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The listed forms are topical cream and ointment, an injection (Kenacort-A10, the kind used intralesionally) and ear preparations combined with neomycin, gramicidin and nystatin. Suitability for follicular disease has not been assessed.
 

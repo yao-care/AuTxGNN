@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 488
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). In Australia: at least 20 PBS items"
@@ -93,9 +93,36 @@ None of these publications tests morphine as a treatment for myofascial pain syn
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10858L | Morphine Juno | Injection containing morphine hydrochloride trihydrate 20 mg in 1 mL | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10858L | Morphine Juno | Morphine | Injection containing morphine hydrochloride trihydrate 20 mg in 1 mL | Valid |
+| 10862Q | Morphine Juno | Morphine | Injection containing morphine hydrochloride trihydrate 10 mg in 1 mL | Valid |
+| 10863R | Morphine Juno | Morphine | Injection containing morphine hydrochloride trihydrate 10 mg in 1 mL | Valid |
+| 10864T | Morphine Juno | Morphine | Injection containing morphine hydrochloride trihydrate 10 mg in 1 mL | Valid |
+| 10868B | Morphine Juno | Morphine | Injection containing morphine hydrochloride trihydrate 20 mg in 1 mL | Valid |
+| 10869C | Morphine Juno | Morphine | Injection containing morphine hydrochloride trihydrate 50 mg in 5 mL | Valid |
+| 10874H | Morphine Juno | Morphine | Injection containing morphine hydrochloride trihydrate 20 mg in 1 mL | Valid |
+| 10878M | Morphine Juno | Morphine | Injection containing morphine hydrochloride trihydrate 100 mg in 5 mL | Valid |
+| 11760Y | Kapanol | Morphine | Capsule containing morphine sulfate pentahydrate 10 mg (containing sustained release pellets) | Valid |
+| 11761B | Kapanol | Morphine | Capsule containing morphine sulfate pentahydrate 20 mg (containing sustained release pellets) | Valid |
+| 12009C | Anamorph | Morphine | Tablet containing morphine sulfate pentahydrate 30 mg | Valid |
+| 12055L | MS Contin | Morphine | Tablet containing morphine sulfate pentahydrate 200 mg (controlled release) | Valid |
+| 12067D | Anamorph | Morphine | Tablet containing morphine sulfate pentahydrate 30 mg | Valid |
+| 12470H | Morphine Juno | Morphine | Injection containing morphine hydrochloride trihydrate 50 mg in 5 mL | Valid |
+| 12472K | Ordine 10 | Morphine | Oral solution containing morphine hydrochloride trihydrate 10 mg per mL, 1 mL | Valid |
+| 12476P | MS Contin | Morphine | Tablet containing morphine sulfate pentahydrate 15 mg (controlled release) | Valid |
+| 12483B | MS Contin | Morphine | Tablet containing morphine sulfate pentahydrate 100 mg (controlled release) | Valid |
+| 12487F | MS Mono | Morphine | Capsule containing morphine sulfate pentahydrate 60 mg (controlled release) | Valid |
+| 12489H | Kapanol | Morphine | Capsule containing morphine sulfate pentahydrate 50 mg (containing sustained release pellets) | Valid |
+| 12490J | MS Mono | Morphine | Capsule containing morphine sulfate pentahydrate 30 mg (controlled release) | Valid |
+
+The table shows 20 of 75 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

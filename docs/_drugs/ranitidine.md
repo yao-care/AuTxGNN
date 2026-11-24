@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 625
 evidence_level: L1
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L1). In Australia: 2 PBS items (2 currently listed)"
@@ -90,9 +90,16 @@ Currently no related clinical trials are registered for "active peptic ulcer dis
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1977C | Zantac 300 | Tablet 300 mg (as hydrochloride) | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1977C | Zantac 300 | Ranitidine | Tablet 300 mg (as hydrochloride) | Valid |
+| 1978D | Zantac 150 | Ranitidine | Tablet 150 mg (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 680
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Sodium Chloride: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,10 +72,25 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Chlor
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 4460R | Baxter Healthcare Pty Ltd | Irrigation solution 9 mg per mL (0.9%),  | Valid |
-| 456B | nan | nan | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 456B | – | Sodium Chloride | – | Valid |
+| 3196F | O.R.S. | sodium chloride + potassium chloride + glucose + citric acid | Oral rehydration salts containing glucose monohydrate 3.56 g, sodium chloride 470 mg, potassium chloride 300 mg and sod… | Valid |
+| 3278M | APO-MACROGOL plus ELECTROLYTES | macrogol-3350 + sodium chloride + bicarbonate + potassium chloride | Sachets containing powder for oral solution 13.125 g with electrolytes, 30 | Valid |
+| 4460R | Baxter Healthcare Pty Ltd | Sodium chloride | Irrigation solution 9 mg per mL (0.9%), 500 mL | Valid |
+| 4461T | Baxter Healthcare Pty Ltd | Sodium chloride | Irrigation solution 9 mg per mL (0.9%), 1 L | Valid |
+| 5389P | APO-MACROGOL plus ELECTROLYTES | macrogol-3350 + sodium chloride + bicarbonate + potassium chloride | Sachets containing powder for oral solution 13.125 g with electrolytes, 30 | Valid |
+| 8612G | APO-MACROGOL plus ELECTROLYTES | macrogol-3350 + sodium chloride + bicarbonate + potassium chloride | Sachets containing powder for oral solution 13.125 g with electrolytes, 30 | Valid |
+| 9487H | Voluven 6% | hydroxyethyl starch 130/0.4 + sodium chloride | I.V. infusion 30 g per 500 mL, 500 mL | Valid |
+| 11049M | O.R.S. | sodium chloride + potassium chloride + glucose + citric acid | Oral rehydration salts containing glucose monohydrate 3.56 g, sodium chloride 470 mg, potassium chloride 300 mg and sod… | Valid |
+| 11134B | Microdacyn | sodium chloride + hypochlorous acid + sodium hypochlorite | Solution containing sodium chloride 0.022% with hypochlorous acid 0.004% and sodium hypochlorite 0.004%, 250 mL | Valid |
+| 14408H | APO-MACROGOL plus ELECTROLYTES | macrogol-3350 + sodium chloride + bicarbonate + potassium chloride | Sachets containing powder for oral solution 13.125 g with electrolytes, 30 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

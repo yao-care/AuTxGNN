@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Benzatropine"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzatropine: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 
@@ -78,9 +78,18 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11249C | Benzatropine Injection | Injection containing benzatropine mesilate 2 mg in 2 mL | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2362H | Benztrop | Benzatropine | Tablet containing benzatropine mesilate 2 mg | Valid |
+| 11249C | Benzatropine Injection | Benzatropine | Injection containing benzatropine mesilate 2 mg in 2 mL | Valid |
+| 11255J | Benzatropine Injection | Benzatropine | Injection containing benzatropine mesilate 2 mg in 2 mL | Valid |
+| 11265X | Benzatropine Injection | Benzatropine | Injection containing benzatropine mesilate 2 mg in 2 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Four current single-ingredient PBS items are recorded: three injections and one oral tablet (Benztrop 2 mg).
 

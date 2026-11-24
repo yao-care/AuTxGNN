@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 569
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Phenoxymethylpenicillin"
 predicted_indications: ["epiglottitis", "laryngitis"]
 description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). In Australia: 18 PBS items (18 currently listed)"
@@ -83,9 +83,32 @@ For context, the second-ranked prediction (laryngitis) had one paper, a 1992 ery
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13968E | Cilicaine VK | Capsule 250 mg phenoxymethylpenicillin (as potassium), oral | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1703P | Aspecillin VK | Phenoxymethylpenicillin | Tablet 250 mg phenoxymethylpenicillin (as potassium) | Valid |
+| 1705R | Cilicaine VK | Phenoxymethylpenicillin | Capsule 250 mg phenoxymethylpenicillin (as potassium) | Valid |
+| 1787C | Aspecillin VK | Phenoxymethylpenicillin | Tablet 250 mg phenoxymethylpenicillin (as potassium) | Valid |
+| 1789E | Cilicaine VK | Phenoxymethylpenicillin | Capsule 250 mg phenoxymethylpenicillin (as potassium) | Valid |
+| 2965C | Cilicaine VK | Phenoxymethylpenicillin | Capsule 500 mg phenoxymethylpenicillin (as potassium) | Valid |
+| 3028J | Aspecillin VK | Phenoxymethylpenicillin | Tablet 500 mg phenoxymethylpenicillin (as potassium) | Valid |
+| 3360W | Aspecillin VK | Phenoxymethylpenicillin | Tablet 250 mg phenoxymethylpenicillin (as potassium) | Valid |
+| 3361X | Aspecillin VK | Phenoxymethylpenicillin | Tablet 500 mg phenoxymethylpenicillin (as potassium) | Valid |
+| 3363B | Cilicaine VK | Phenoxymethylpenicillin | Capsule 250 mg phenoxymethylpenicillin (as potassium) | Valid |
+| 3364C | Cilicaine VK | Phenoxymethylpenicillin | Capsule 500 mg phenoxymethylpenicillin (as potassium) | Valid |
+| 5012T | Cilicaine V | Phenoxymethylpenicillin | Oral suspension 150 mg (as benzathine) per 5 mL, 100 mL | Valid |
+| 5024K | Phenoxymethylpenicillin-AFT | Phenoxymethylpenicillin | Powder for oral liquid 125 mg (as potassium) per 5 mL, 100 mL | Valid |
+| 5029Q | Phenoxymethylpenicillin-AFT | Phenoxymethylpenicillin | Powder for oral liquid 250 mg (as potassium) per 5 mL, 100 mL | Valid |
+| 8976K | Phenoxymethylpenicillin-AFT | Phenoxymethylpenicillin | Powder for oral liquid 125 mg (as potassium) per 5 mL, 100 mL | Valid |
+| 8977L | Phenoxymethylpenicillin-AFT | Phenoxymethylpenicillin | Powder for oral liquid 250 mg (as potassium) per 5 mL, 100 mL | Valid |
+| 9143F | Cilicaine V | Phenoxymethylpenicillin | Oral suspension 150 mg (as benzathine) per 5 mL, 100 mL | Valid |
+| 13968E | Cilicaine VK | Phenoxymethylpenicillin | Capsule 250 mg phenoxymethylpenicillin (as potassium) | Valid |
+| 14044E | Aspecillin VK | Phenoxymethylpenicillin | Tablet 250 mg phenoxymethylpenicillin (as potassium) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

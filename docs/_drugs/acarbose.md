@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Acarbose"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acarbose: predicted new indication focal stiff limb syndrome (evidence level L5). In Australia: 8 PBS items (8 currently listed)"
 ---
 
@@ -80,9 +80,22 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13869Y | GLYBOSAY | Tablet 100 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8188Y | GLYBOSAY | Acarbose | Tablet 50 mg | Valid |
+| 8189B | GLYBOSAY | Acarbose | Tablet 100 mg | Valid |
+| 13869Y | GLYBOSAY | Acarbose | Tablet 100 mg | Valid |
+| 13955L | GLYBOSAY | Acarbose | Tablet 50 mg | Valid |
+| 14722W | Acarbose 100 mg tablets (Morningside Healthcare, UK) | Acarbose | Tablet 100 mg (S19A) | Valid |
+| 14726C | Acarbose 50 mg tablets (Morningside Healthcare, UK) | Acarbose | Tablet 50 mg (S19A) | Valid |
+| 14734L | Acarbose 100 mg tablets (Morningside Healthcare, UK) | Acarbose | Tablet 100 mg (S19A) | Valid |
+| 14735M | Acarbose 50 mg tablets (Morningside Healthcare, UK) | Acarbose | Tablet 50 mg (S19A) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

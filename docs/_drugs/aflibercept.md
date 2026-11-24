@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 28
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aflibercept: predicted new indication Esotropia (evidence level L5). Approved use: Metastatic colorectal cancer, macular degeneration…"
 monitor_inn: "Aflibercept"
 predicted_indications: ["esotropia"]
@@ -69,9 +69,36 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10505X | Eylea | Solution for intravitreal injection 4 mg in 100 microlitres (40 mg per mL) | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10505X | Eylea | Aflibercept | Solution for intravitreal injection 4 mg in 100 microlitres (40 mg per mL) | Valid |
+| 11991D | Eylea | Aflibercept | Solution for intravitreal injection 4 mg in 100 microlitres (40 mg per mL) | Valid |
+| 12131L | Eylea | Aflibercept | Solution for intravitreal injection 4 mg in 100 microlitres (40 mg per mL) | Valid |
+| 12132M | Eylea | Aflibercept | Solution for intravitreal injection 3.6 mg in 90 microlitres (40 mg per mL) pre-filled syringe | Valid |
+| 12141B | Eylea | Aflibercept | Solution for intravitreal injection 3.6 mg in 90 microlitres (40 mg per mL) pre-filled syringe | Valid |
+| 12152N | Eylea | Aflibercept | Solution for intravitreal injection 3.6 mg in 90 microlitres (40 mg per mL) pre-filled syringe | Valid |
+| 12153P | Eylea | Aflibercept | Solution for intravitreal injection 3.6 mg in 90 microlitres (40 mg per mL) pre-filled syringe | Valid |
+| 13138L | Eylea | Aflibercept | Solution for intravitreal injection 4 mg in 100 microlitres (40 mg per mL) | Valid |
+| 13139M | Eylea | Aflibercept | Solution for intravitreal injection 3.6 mg in 90 microlitres (40 mg per mL) pre-filled syringe | Valid |
+| 13141P | Eylea | Aflibercept | Solution for intravitreal injection 3.6 mg in 90 microlitres (40 mg per mL) pre-filled syringe | Valid |
+| 13146X | Eylea | Aflibercept | Solution for intravitreal injection 4 mg in 100 microlitres (40 mg per mL) | Valid |
+| 13150D | Eylea | Aflibercept | Solution for intravitreal injection 3.6 mg in 90 microlitres (40 mg per mL) pre-filled syringe | Valid |
+| 13151E | Eylea | Aflibercept | Solution for intravitreal injection 4 mg in 100 microlitres (40 mg per mL) | Valid |
+| 13164W | Eylea | Aflibercept | Solution for intravitreal injection 4 mg in 100 microlitres (40 mg per mL) | Valid |
+| 13167B | Eylea | Aflibercept | Solution for intravitreal injection 3.6 mg in 90 microlitres (40 mg per mL) pre-filled syringe | Valid |
+| 14594D | Eylea | Aflibercept | Solution for intravitreal injection 11.43 mg in 100 microlitres (114.3 mg per mL) | Valid |
+| 14626T | Eylea | Aflibercept | Solution for intravitreal injection 11.43 mg in 100 microlitres (114.3 mg per mL) | Valid |
+| 14627W | Eylea | Aflibercept | Solution for intravitreal injection 11.43 mg in 100 microlitres (114.3 mg per mL) | Valid |
+| 14635G | Eylea | Aflibercept | Solution for intravitreal injection 11.43 mg in 100 microlitres (114.3 mg per mL) | Valid |
+| 15206H | Afqlir | Aflibercept | Solution for intravitreal injection 6.6 mg in 165 microlitres (40 mg per mL) pre-filled syringe | Valid |
+
+The table shows 20 of 32 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The only registered form is an intravitreal injection. Whether this route is suitable for esotropia has not been assessed.
 

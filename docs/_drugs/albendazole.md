@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Albendazole"
 predicted_indications: ["coenurosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Albendazole: predicted new indication Coenurosis (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 
@@ -105,9 +105,18 @@ The publications are reviews and case reports on neurocysticercosis and related 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 8459F | Eskazole | Tablet 400 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8459F | Eskazole | Albendazole | Tablet 400 mg | Valid |
+| 8503M | Zentel | Albendazole | Tablet 200 mg | Valid |
+| 9047E | Zentel | Albendazole | Tablet 200 mg | Valid |
+| 15560Y | Albendazole (Micro Labs, Germany) | Albendazole | Tablet 400 mg (s19A) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

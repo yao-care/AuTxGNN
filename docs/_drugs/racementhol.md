@@ -5,7 +5,7 @@ layout: default
 title: Racementhol
 parent: Known Uses Only (No New Predictions)
 nav_order: 619
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Racementhol: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Racementhol"
 predicted_indications: []
@@ -48,9 +48,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 7308P | Not recorded | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 7308P | – | Menthol | – | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The entry is a valid single-ingredient licence. Manufacturer and indication text are not recorded in the data compiled for this report.
 

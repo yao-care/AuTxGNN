@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 1
 monitor_inn: "Clobetasol"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clobetasol: predicted new indication primary cutaneous T-cell lymphoma (evidence level L3). In Australia: 3 PBS items (3 currently listed)"
 ---
 
@@ -76,9 +76,17 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10080M | Clobex | Shampoo containing clobetasol propionate 500 micrograms per mL, 125 mL | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10080M | Clobex | Clobetasol | Shampoo containing clobetasol propionate 500 micrograms per mL, 125 mL | Valid |
+| 14808J | Xobet | Clobetasol | Ointment containing clobetasol propionate 500 micrograms per g, 30 g | Valid |
+| 14832P | Xobet | Clobetasol | Cream containing clobetasol propionate 500 micrograms per g, 30 g | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

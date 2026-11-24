@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 724
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). Approved use: Acute coronary syndrome…"
 monitor_inn: "Ticagrelor"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
@@ -88,9 +88,16 @@ The case is still limited by thin evidence and by bleeding risk. The evidence co
 
 ## Australia Market Information
 
-| Licence Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 13524T | ARX-TICAGRELOR | Tablet 90 mg (oral) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1418P | ARX-TICAGRELOR | Ticagrelor | Tablet 90 mg | Valid |
+| 13524T | ARX-TICAGRELOR | Ticagrelor | Tablet 90 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

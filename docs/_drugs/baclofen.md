@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Baclofen"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Baclofen: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). In Australia: 10 PBS items (10 currently listed)"
 ---
 
@@ -76,9 +76,24 @@ None of these papers directly studies baclofen in ADHD. They are listed to show 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11126N | Sintetica Baclofen Intrathecal | Intrathecal injection 10 mg in 5 mL | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2729P | APO-Baclofen | Baclofen | Tablet 10 mg | Valid |
+| 2730Q | APO-Baclofen | Baclofen | Tablet 25 mg | Valid |
+| 5617P | Bacthecal | Baclofen | Intrathecal injection 10 mg in 5 mL | Valid |
+| 6284R | Bacthecal | Baclofen | Intrathecal injection 10 mg in 5 mL | Valid |
+| 11126N | Sintetica Baclofen Intrathecal | Baclofen | Intrathecal injection 10 mg in 5 mL | Valid |
+| 11128Q | Sintetica Baclofen Intrathecal | Baclofen | Intrathecal injection 10 mg in 5 mL | Valid |
+| 11194E | Sintetica Baclofen Intrathecal | Baclofen | Intrathecal injection 40 mg in 20 mL | Valid |
+| 11195F | Sintetica Baclofen Intrathecal | Baclofen | Intrathecal injection 40 mg in 20 mL | Valid |
+| 13359D | APO-Baclofen | Baclofen | Tablet 25 mg | Valid |
+| 13522Q | APO-Baclofen | Baclofen | Tablet 10 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

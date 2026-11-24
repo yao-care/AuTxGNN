@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Darunavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "Darunavir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -89,9 +89,20 @@ The closest literature, for simian immunodeficiency virus infection (preclinical
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10329P | Prezista | Tablet 600 mg (as ethanolate) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10329P | Prezista | Darunavir | Tablet 600 mg (as ethanolate) | Valid |
+| 10367P | Prezista | Darunavir | Tablet 800 mg (as ethanolate) | Valid |
+| 10903W | Prezcobix | Darunavir + cobicistat | Tablet containing darunavir 800 mg with cobicistat 150 mg | Valid |
+| 11955F | Symtuza | darunavir + cobicistat + emtricitabine + tenofovir alafenamide | Tablet containing darunavir 800 mg with cobicistat 150 mg, emtricitabine 200 mg and tenofovir alafenamide 10 mg | Valid |
+| 12111K | Darunavir Juno | Darunavir | Tablet 800 mg | Valid |
+| 12946J | Darunavir Juno | Darunavir | Tablet 600 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

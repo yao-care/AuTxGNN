@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 767
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Valine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not stated in the data compiled for this report. The ARTG entries inc…"
 monitor_inn: "valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
@@ -73,10 +73,20 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 9135T | Valine 50 | Oral powder sachets, 4 g (50 mg valine), 30 | Not stated |
-| ARTG 10730R | MMA/PA Anamix Junior | Oral powder sachets, 18 g, 30 | Not stated |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 3443F | MMA/PA express 15 | amino acid formula with vitamins and minerals without methionine, threonine and valine an… | Sachets containing oral powder 25 g, 30 (MMA/PA express 15) | Valid |
+| 8058D | MMA/PA Anamix infant | amino acid formula with vitamins and minerals without methionine, threonine and valine an… | Oral powder 400 g (MMA/PA Anamix infant) | Valid |
+| 9135T | Valine 50 | valine with carbohydrate | Sachets of oral powder 4 g containing 50 mg valine, 30 (Valine 50) | Valid |
+| 9434M | Valine 1000 | valine with carbohydrate | Sachets of oral powder 4 g containing 1 g valine, 30 (Valine 1000) | Valid |
+| 10730R | MMA/PA Anamix Junior | amino acid formula with vitamins and minerals without methionine, threonine and valine an… | Sachets containing oral powder 18 g, 30 (MMA/PA Anamix Junior) | Valid |
+| 14775P | MMA/PA explore5 | amino acid formula with vitamins and minerals without methionine, threonine and valine an… | Sachets containing oral powder 12.5 g, pack of 30 (MMA/PA explore5) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 656
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Asthma, bronchial disease"
 monitor_inn: "Salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
@@ -81,9 +81,28 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1103C | Ventolin | Oral solution 2 mg (as sulfate) per 5 mL, 150 mL | Not specified in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1103C | Ventolin | Salbutamol | Oral solution 2 mg (as sulfate) per 5 mL, 150 mL | Valid |
+| 2001H | Salbutamol Cipla | Salbutamol | Nebuliser solution 5 mg (as sulfate) in 2.5 mL single dose units, 30 | Valid |
+| 3497C | Salbutamol Cipla | Salbutamol | Nebuliser solution 5 mg (as sulfate) in 2.5 mL single dose units, 30 | Valid |
+| 8354Q | Airomir Autohaler | Salbutamol | Pressurised inhalation in breath actuated device 100 micrograms (as sulfate) per dose, 200 doses (CFC-free formulation) | Valid |
+| 11088N | Ventolin Nebules | Salbutamol | Nebuliser solution 5 mg (as sulfate) in 2.5 mL single dose units, 20 | Valid |
+| 11095Y | Ventolin Nebules | Salbutamol | Nebuliser solution 5 mg (as sulfate) in 2.5 mL single dose units, 20 | Valid |
+| 11125M | Ventolin Nebules | Salbutamol | Nebuliser solution 2.5 mg (as sulfate) in 2.5 mL single dose units, 20 | Valid |
+| 11130T | Ventolin Nebules | Salbutamol | Nebuliser solution 2.5 mg (as sulfate) in 2.5 mL single dose units, 20 | Valid |
+| 12108G | Ventolin CFC-Free with dose counter | Salbutamol | Pressurised inhalation 100 micrograms (as sulfate) per dose with dose counter, 200 doses (CFC-free formulation) | Valid |
+| 12109H | Ventolin CFC-Free with dose counter | Salbutamol | Pressurised inhalation 100 micrograms (as sulfate) per dose with dose counter, 200 doses (CFC-free formulation) | Valid |
+| 13821K | PMS-SALBUTAMOL (Canada) | Salbutamol | Nebuliser solution 2.5 mg (as sulfate) in 2.5 mL single dose units, 20 (S19A) | Valid |
+| 13828T | PMS-SALBUTAMOL (Canada) | Salbutamol | Nebuliser solution 2.5 mg (as sulfate) in 2.5 mL single dose units, 20 (S19A) | Valid |
+| 15347R | Salbutamol (as sulfate) (Accord, UK) | Salbutamol | Nebuliser solution 5 mg (as sulfate) in 2.5 mL single dose units, 20 (s19A) | Valid |
+| 15348T | Salbutamol (as sulfate) (Accord, UK) | Salbutamol | Nebuliser solution 5 mg (as sulfate) in 2.5 mL single dose units, 20 (s19A) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The listed products are mainly inhaled formulations (nebuliser solutions and pressurised inhalers), plus an oral solution. No ocular or topical eye formulation is listed, so route compatibility with an eye indication is unresolved.
 

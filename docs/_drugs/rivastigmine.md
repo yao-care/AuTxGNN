@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
 description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). In Australia: 14 PBS items (14 currently listed)"
@@ -76,9 +76,28 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10538P | Exelon Patch 15 | Transdermal patch 27 mg | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2475G | Exelon | Rivastigmine | Capsule 1.5 mg (as hydrogen tartrate) | Valid |
+| 2477J | Exelon Patch 5 | Rivastigmine | Transdermal patch 9 mg | Valid |
+| 2493F | Exelon | Rivastigmine | Capsule 3 mg (as hydrogen tartrate) | Valid |
+| 2494G | Exelon | Rivastigmine | Capsule 4.5 mg (as hydrogen tartrate) | Valid |
+| 2526Y | Exelon | Rivastigmine | Capsule 6 mg (as hydrogen tartrate) | Valid |
+| 2551G | Exelon Patch 10 | Rivastigmine | Transdermal patch 18 mg | Valid |
+| 8497F | Exelon | Rivastigmine | Capsule 1.5 mg (as hydrogen tartrate) | Valid |
+| 8498G | Exelon | Rivastigmine | Capsule 3 mg (as hydrogen tartrate) | Valid |
+| 8499H | Exelon | Rivastigmine | Capsule 4.5 mg (as hydrogen tartrate) | Valid |
+| 8500J | Exelon | Rivastigmine | Capsule 6 mg (as hydrogen tartrate) | Valid |
+| 9161E | Exelon Patch 5 | Rivastigmine | Transdermal patch 9 mg | Valid |
+| 9162F | Exelon Patch 10 | Rivastigmine | Transdermal patch 18 mg | Valid |
+| 10538P | Exelon Patch 15 | Rivastigmine | Transdermal patch 27 mg | Valid |
+| 10541T | Exelon Patch 15 | Rivastigmine | Transdermal patch 27 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

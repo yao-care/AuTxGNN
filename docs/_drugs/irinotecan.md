@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Irinotecan"
 predicted_indications: ["female breast carcinoma"]
 description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -107,9 +107,16 @@ Much of this literature concerns SN-38 conjugates or novel formulations, not iri
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4451G | Irinotecan Accord | I.V. injection containing irinotecan hydrochloride trihydrate 500 mg in 25 mL | Indication text not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4451G | Irinotecan Accord | Irinotecan | I.V. injection containing irinotecan hydrochloride trihydrate 500 mg in 25 mL | Valid |
+| 7249M | Irinotecan Accord | Irinotecan | I.V. injection containing irinotecan hydrochloride trihydrate 500 mg in 25 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

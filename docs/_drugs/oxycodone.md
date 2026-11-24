@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 538
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Oxycodone: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,36 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Oxycodone, s
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 12031F | Oxycodone BNM | Capsule containing oxycodone hydrochlori | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2622B | Mayne Pharma Oxycodone IR | Oxycodone | Tablet containing oxycodone hydrochloride 5 mg | Valid |
+| 5190E | OxyNorm Liquid 1mg/mL | Oxycodone | Oral solution containing oxycodone hydrochloride 1 mg per mL, 1 mL | Valid |
+| 5191F | Oxycodone BNM | Oxycodone | Capsule containing oxycodone hydrochloride 5 mg | Valid |
+| 5195K | Mayne Pharma Oxycodone IR | Oxycodone | Tablet containing oxycodone hydrochloride 5 mg | Valid |
+| 12031F | Oxycodone BNM | Oxycodone | Capsule containing oxycodone hydrochloride 10 mg | Valid |
+| 12074L | Oxycodone BNM | Oxycodone | Capsule containing oxycodone hydrochloride 10 mg | Valid |
+| 12311Y | OxyNorm | Oxycodone | Capsule containing oxycodone hydrochloride 5 mg | Valid |
+| 12314D | OxyNorm | Oxycodone | Capsule containing oxycodone hydrochloride 5 mg | Valid |
+| 12510K | Oxycodone Sandoz | Oxycodone | Tablet containing oxycodone hydrochloride 20 mg (controlled release) | Valid |
+| 12518W | Oxycodone Sandoz | Oxycodone | Tablet containing oxycodone hydrochloride 10 mg (controlled release) | Valid |
+| 12525F | Oxycodone Sandoz | Oxycodone | Tablet containing oxycodone hydrochloride 40 mg (controlled release) | Valid |
+| 12527H | Oxycodone Sandoz | Oxycodone | Tablet containing oxycodone hydrochloride 80 mg (controlled release) | Valid |
+| 12538X | OxyContin | Oxycodone | Tablet containing oxycodone hydrochloride 30 mg (controlled release) | Valid |
+| 12545G | OxyContin | Oxycodone | Tablet containing oxycodone hydrochloride 15 mg (controlled release) | Valid |
+| 13233L | ENDONE | Oxycodone | Tablet containing oxycodone hydrochloride 5 mg | Valid |
+| 13234M | ENDONE | Oxycodone | Tablet containing oxycodone hydrochloride 5 mg | Valid |
+| 15423R | Oxycodone BNM | Oxycodone | Capsule containing oxycodone hydrochloride 5 mg | Valid |
+| 15424T | Mayne Pharma Oxycodone IR | Oxycodone | Tablet containing oxycodone hydrochloride 5 mg | Valid |
+| 15450E | Mayne Pharma Oxycodone IR | Oxycodone | Tablet containing oxycodone hydrochloride 5 mg | Valid |
+| 15495M | Oxycodone BNM | Oxycodone | Capsule containing oxycodone hydrochloride 5 mg | Valid |
+
+The table shows 20 of 49 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 162
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
@@ -73,9 +73,20 @@ Evidence level is set at L5 because the cited studies do not allow a reliable co
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1208N | C-Flox 250 | Tablet 250 mg (as hydrochloride) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1208N | C-Flox 250 | Ciprofloxacin | Tablet 250 mg (as hydrochloride) | Valid |
+| 1209P | C-Flox 500 | Ciprofloxacin | Tablet 500 mg (as hydrochloride) | Valid |
+| 1210Q | C-Flox 750 | Ciprofloxacin | Tablet 750 mg (as hydrochloride) | Valid |
+| 1217C | Ciloxan | Ciprofloxacin | Eye drops 3 mg (as hydrochloride) per mL, 5 mL | Valid |
+| 2480M | Ciloxan | Ciprofloxacin | Ear drops 3 mg (as hydrochloride) per mL, 5 mL | Valid |
+| 5564W | Ciloxan | Ciprofloxacin | Eye drops 3 mg (as hydrochloride) per mL, 5 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

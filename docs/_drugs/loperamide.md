@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 434
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Diarrhoeal disease"
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "chronic follicular conjunctivitis", "Angelucci syndrome"]
@@ -92,9 +92,18 @@ For context, the literature found for other top-ranked predictions is summarised
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10592L | Gastrex | Capsule containing loperamide hydrochloride 2 mg | Not specified in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1571Q | Gastrex | Loperamide | Capsule containing loperamide hydrochloride 2 mg | Valid |
+| 10592L | Gastrex | Loperamide | Capsule containing loperamide hydrochloride 2 mg | Valid |
+| 10889D | Gastrex | Loperamide | Capsule containing loperamide hydrochloride 2 mg | Valid |
+| 11135C | Pharmacy Action Diarrhoea Relief | Loperamide | Capsule containing 2 mg loperamide hydrochloride | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

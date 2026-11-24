@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 487
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). In Australia: 4 PBS items (4 currently listed)"
@@ -104,9 +104,18 @@ The evidence is mixed in design. Small controlled trials address eosinophilic br
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14526M | Montelukast Sandoz 4 | Chewable tablet, 4 mg (as sodium), oral | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8627C | Montelukast Sandoz 4 | Montelukast | Tablet, chewable, 4 mg (as sodium) | Valid |
+| 8628D | Montelukast Sandoz 5 | Montelukast | Tablet, chewable, 5 mg (as sodium) | Valid |
+| 14526M | Montelukast Sandoz 4 | Montelukast | Tablet, chewable, 4 mg (as sodium) | Valid |
+| 14553Y | Montelukast Sandoz 5 | Montelukast | Tablet, chewable, 5 mg (as sodium) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The data compiled for this report contain four valid single-ingredient PBS items (Montelukast Sandoz 4 mg and 5 mg chewable tablets), and the drug is marketed in Australia. The only dosage form recorded is oral.
 

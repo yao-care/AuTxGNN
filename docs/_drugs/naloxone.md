@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 492
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Naloxone: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -73,9 +73,36 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Naloxone, so
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 10783M | Naloxone Hydrochloride (DBL) | Injection containing naloxone hydrochlor | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10757E | Targin 15/7.5mg | Oxycodone + naloxone | Tablet (controlled release) containing oxycodone hydrochloride 15 mg with naloxone hydrochloride 7.5 mg | Valid |
+| 10758F | Targin 30/15 mg | Oxycodone + naloxone | Tablet (controlled release) containing oxycodone hydrochloride 30 mg with naloxone hydrochloride 15 mg | Valid |
+| 10776E | Targin 2.5/1.25 mg | Oxycodone + naloxone | Tablet (controlled release) containing oxycodone hydrochloride 2.5 mg with naloxone hydrochloride 1.25 mg | Valid |
+| 10783M | Naloxone Hydrochloride (DBL) | Naloxone | Injection containing naloxone hydrochloride 400 micrograms in 1 mL ampoule | Valid |
+| 10786Q | Naloxone Hydrochloride (DBL) | Naloxone | Injection containing naloxone hydrochloride 400 micrograms in 1 mL ampoule | Valid |
+| 10787R | Naloxone Hydrochloride (DBL) | Naloxone | Injection containing naloxone hydrochloride 400 micrograms in 1 mL ampoule | Valid |
+| 11077B | Prenoxad | Naloxone | Injection containing naloxone hydrochloride 2 mg in 2 mL pre-filled syringe | Valid |
+| 11078C | Prenoxad | Naloxone | Injection containing naloxone hydrochloride 2 mg in 2 mL pre-filled syringe | Valid |
+| 11102H | Targin 60/30 | Oxycodone + naloxone | Tablet (controlled release) containing oxycodone hydrochloride 60 mg with naloxone hydrochloride 30 mg | Valid |
+| 11111T | Targin 80/40 | Oxycodone + naloxone | Tablet (controlled release) containing oxycodone hydrochloride 80 mg with naloxone hydrochloride 40 mg | Valid |
+| 11233F | NARCAN | Naloxone | Injection containing naloxone hydrochloride 400 micrograms in 1 mL ampoule | Valid |
+| 11816X | Nyxoid | Naloxone | Nasal spray 1.8 mg (as hydrochloride dihydrate) in 0.1 mL single dose unit, 2 | Valid |
+| 11817Y | Nyxoid | Naloxone | Nasal spray 1.8 mg (as hydrochloride dihydrate) in 0.1 mL single dose unit, 2 | Valid |
+| 12471J | Targin 2.5/1.25 mg | Oxycodone + naloxone | Tablet (controlled release) containing oxycodone hydrochloride 2.5 mg with naloxone hydrochloride 1.25 mg | Valid |
+| 12475N | ARX-Oxycodone/Naloxone 40/20 | Oxycodone + naloxone | Tablet (controlled release) containing oxycodone hydrochloride 40 mg with naloxone hydrochloride 20 mg | Valid |
+| 12486E | ARX-Oxycodone/Naloxone 20/10 | Oxycodone + naloxone | Tablet (controlled release) containing oxycodone hydrochloride 20 mg with naloxone hydrochloride 10 mg | Valid |
+| 12498T | Targin 80/40 | Oxycodone + naloxone | Tablet (controlled release) containing oxycodone hydrochloride 80 mg with naloxone hydrochloride 40 mg | Valid |
+| 12511L | Targin 60/30 | Oxycodone + naloxone | Tablet (controlled release) containing oxycodone hydrochloride 60 mg with naloxone hydrochloride 30 mg | Valid |
+| 12522C | ARX-Oxycodone/Naloxone 5/2.5 | Oxycodone + naloxone | Tablet (controlled release) containing oxycodone hydrochloride 5 mg with naloxone hydrochloride 2.5 mg | Valid |
+| 12523D | ARX-Oxycodone/Naloxone 10/5 | Oxycodone + naloxone | Tablet (controlled release) containing oxycodone hydrochloride 10 mg with naloxone hydrochloride 5 mg | Valid |
+
+The table shows 20 of 28 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

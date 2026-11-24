@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 758
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -93,19 +93,29 @@ Note: several retrieved papers (for example PMID 24821006) concern tyrosine kina
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 9165J | Tyrosine 1000 | Oral powder sachets, 4 g (1 g tyrosine), 30 | Not available |
-| ARTG 12015J | TYR Easy Tablet | Tablets containing 0.91 g protein, 462 | Not available |
-| ARTG 10260B | TYR Anamix Junior | Oral powder sachets, 36 g, 30 | Not available |
-| ARTG 14126L | TYR explore5 | Oral powder sachets, 12.5 g, 30 | Not available |
-| ARTG 10934L | TYR Easy Shake & Go | Oral powder bottle, 34 g, 30 | Not available |
+<!-- licenses:begin -->
 
-The five entries in the table are among 9 current PBS items in the data compiled for this report, all taken orally (a tyrosine supplement and amino acid formulas without phenylalanine and tyrosine).
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1547K | TYR Lophlex LQ 20 | amino acid formula with vitamins and minerals without phenylalanine and tyrosine | Oral liquid 125 mL, 30 (TYR Lophlex LQ 20) | Valid |
+| 2701E | TYR cooler 20 | amino acid formula with vitamins and minerals without phenylalanine and tyrosine | Oral liquid 174 mL, 30 (TYR cooler 20) | Valid |
+| 8445L | TYR Anamix infant | amino acid formula with vitamins and minerals without phenylalanine and tyrosine | Oral powder 400 g (TYR Anamix infant) | Valid |
+| 9165J | Tyrosine 1000 | tyrosine with carbohydrate | Sachets of oral powder 4 g containing 1 g tyrosine, 30 (Tyrosine 1000) | Valid |
+| 10260B | TYR Anamix Junior | amino acid formula with vitamins and minerals without phenylalanine and tyrosine | Sachets containing oral powder 36 g, 30 (TYR Anamix Junior) | Valid |
+| 10934L | TYR Easy Shake & Go | amino acid formula with fat, carbohydrate, vitamins, minerals and trace elements, without… | Bottles containing oral powder 34 g, 30 (TYR Easy Shake & Go) | Valid |
+| 12015J | TYR Easy Tablet | amino acid formula with fat, carbohydrate without phenylalanine and tyrosine | Tablets containing 0.91 g protein, 462 (TYR Easy Tablet) | Valid |
+| 12274B | TYR Lophlex | amino acid formula with vitamins and minerals without phenylalanine and tyrosine | Sachets containing oral powder 28 g, 30 (TYR Lophlex) | Valid |
+| 14126L | TYR explore5 | amino acid formula with vitamins and minerals without phenylalanine, tyrosine and supplem… | Sachets containing oral powder 12.5 g, 30 (TYR explore5) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
+
+The data compiled for this report contain 9 current PBS items, all taken orally (a tyrosine supplement and amino acid formulas without phenylalanine and tyrosine).
 
 <!-- review:begin au-lic-20261117-tyrosine-1 -->
 
-> **Review correction (2026-11-17)**: Originally stated: "All five entries are valid single-ingredient listings with oral routes of administration." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+> **Review correction (2026-11-24)**: Originally stated: "All five entries are valid single-ingredient listings with oral routes of administration." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
 
 <!-- review:end au-lic-20261117-tyrosine-1 -->
 
@@ -136,7 +146,7 @@ Below is the review log for this page: statements checked against official Austr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: PBS item count updated to the current PBS Schedule | Corrected (revised 2026-11-24; earlier version kept in the record) | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

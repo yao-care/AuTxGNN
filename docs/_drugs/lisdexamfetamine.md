@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Lisdexamfetamine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "autosomal dominant cerebellar ataxia", "cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "trichotillomania", "transient tic disorder", "narcolepsy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lisdexamfetamine: predicted new indication Specific developmental disorder (evidence level L5). Approved use: Attention deficit hyperactivity disorder…"
 ---
 
@@ -84,9 +84,20 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10474G | Vyvanse | Capsule containing lisdexamfetamine dimesilate 50 mg | Not stated in the licence record |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10474G | Vyvanse | Lisdexamfetamine | Capsule containing lisdexamfetamine dimesilate 50 mg | Valid |
+| 10486X | Vyvanse | Lisdexamfetamine | Capsule containing lisdexamfetamine dimesilate 30 mg | Valid |
+| 10492F | Vyvanse | Lisdexamfetamine | Capsule containing lisdexamfetamine dimesilate 70 mg | Valid |
+| 11884L | Vyvanse | Lisdexamfetamine | Capsule containing lisdexamfetamine dimesilate 20 mg | Valid |
+| 11897E | Vyvanse | Lisdexamfetamine | Capsule containing lisdexamfetamine dimesilate 60 mg | Valid |
+| 11898F | Vyvanse | Lisdexamfetamine | Capsule containing lisdexamfetamine dimesilate 40 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

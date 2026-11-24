@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fluticasone furoate"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
 description: "Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). In Australia: 12 PBS items (12 currently listed)"
@@ -74,9 +74,26 @@ Neither publication tests fluticasone furoate for atopic eczema.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form |
-|---------|------|------|
-| ARTG 11719T | Arnuity Ellipta | Powder for oral inhalation in breath actuated device containing fluticasone furoate 100 micrograms per dose, 30 doses |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11124L | Breo Ellipta 100/25 | fluticasone furoate + vilanterol | Powder for oral inhalation in breath actuated device containing fluticasone furoate 100 micrograms with vilanterol 25 m… | Valid |
+| 11129R | Breo Ellipta 200/25 | fluticasone furoate + vilanterol | Powder for oral inhalation in breath actuated device containing fluticasone furoate 200 micrograms with vilanterol 25 m… | Valid |
+| 11379X | Trelegy Ellipta 100/62.5/25 | fluticasone furoate + umeclidinium + vilanterol | Powder for oral inhalation in breath actuated device containing fluticasone furoate 100 micrograms with umeclidinium 62… | Valid |
+| 11719T | Arnuity Ellipta | fluticasone furoate | Powder for oral inhalation in breath actuated device containing fluticasone furoate 100 micrograms per dose, 30 doses | Valid |
+| 11729H | Arnuity Ellipta | fluticasone furoate | Powder for oral inhalation in breath actuated device containing fluticasone furoate 200 micrograms per dose, 30 doses | Valid |
+| 12917W | Trelegy Ellipta 200/62.5/25 | fluticasone furoate + umeclidinium + vilanterol | Powder for oral inhalation in breath actuated device containing fluticasone furoate 200 micrograms with umeclidinium 62… | Valid |
+| 14345B | Breo Ellipta 200/25 | fluticasone furoate + vilanterol | Powder for oral inhalation in breath actuated device containing fluticasone furoate 200 micrograms with vilanterol 25 m… | Valid |
+| 14346C | Trelegy Ellipta 100/62.5/25 | fluticasone furoate + umeclidinium + vilanterol | Powder for oral inhalation in breath actuated device containing fluticasone furoate 100 micrograms with umeclidinium 62… | Valid |
+| 14379T | Breo Ellipta 100/25 | fluticasone furoate + vilanterol | Powder for oral inhalation in breath actuated device containing fluticasone furoate 100 micrograms with vilanterol 25 m… | Valid |
+| 14380W | Arnuity Ellipta | fluticasone furoate | Powder for oral inhalation in breath actuated device containing fluticasone furoate 200 micrograms per dose, 30 doses | Valid |
+| 14382Y | Trelegy Ellipta 200/62.5/25 | fluticasone furoate + umeclidinium + vilanterol | Powder for oral inhalation in breath actuated device containing fluticasone furoate 200 micrograms with umeclidinium 62… | Valid |
+| 14515Y | Arnuity Ellipta | fluticasone furoate | Powder for oral inhalation in breath actuated device containing fluticasone furoate 100 micrograms per dose, 30 doses | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

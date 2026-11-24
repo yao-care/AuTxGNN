@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Deferiprone: predicted new indication hepatic porphyria (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
 ---
 
@@ -75,9 +75,20 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 11724C | Ferriprox | Tablet 1000 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5657R | Ferriprox | Deferiprone | Tablet 500 mg | Valid |
+| 5658T | Ferriprox | Deferiprone | Oral solution 100 mg per mL, 250 mL | Valid |
+| 6416Q | Ferriprox | Deferiprone | Tablet 500 mg | Valid |
+| 9638G | Ferriprox | Deferiprone | Oral solution 100 mg per mL, 250 mL | Valid |
+| 11724C | Ferriprox | Deferiprone | Tablet 1000 mg | Valid |
+| 11747G | Ferriprox | Deferiprone | Tablet 1000 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

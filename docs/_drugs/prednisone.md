@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 601
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). In Australia: 5 PBS items (5 currently listed)"
@@ -81,9 +81,19 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13944X | Panafcort | Tablet 5 mg (oral) | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1934T | Predsone | Prednisone | Tablet 1 mg | Valid |
+| 1935W | Panafcort | Prednisone | Tablet 5 mg | Valid |
+| 1936X | Panafcort | Prednisone | Tablet 25 mg | Valid |
+| 13944X | Panafcort | Prednisone | Tablet 5 mg | Valid |
+| 14043D | Predsone | Prednisone | Tablet 1 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

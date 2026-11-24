@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 783
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "vitamin a"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
 description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). In Australia: 2 PBS items (1 currently listed)"
@@ -80,10 +80,16 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG / Licence Number | Product Name | Dosage Form |
-|---------|------|------|
-| 14426G | Tearsagain | Eye spray 10 mg per mL, 10 mL |
-| 12191P | Renastep | Oral liquid 125 mL, 24 (Renastep) |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12191P | Renastep | protein formula with vitamins and minerals, and low in potassium, phosphorus, calcium, ch… | Oral liquid 125 mL, 24 (Renastep) | Valid |
+| 14426G | tearsagain | soy lecithin + tocopherol + vitamin A | Eye spray 10 mg per mL, 10 mL | No longer listed on the PBS Schedule |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 One of the two entries (12191P, Renastep) is still listed on the PBS Schedule; 14426G (Tearsagain) is no longer listed (absent from the PBS Schedule since 1 June 2026). Approved indication text was not available in the data compiled for this report.
 

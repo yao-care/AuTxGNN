@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Indacaterol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis . Evidence is asse… (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Indacaterol"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
@@ -106,9 +106,30 @@ The table covers the bronchial disease prediction (the other nine predictions ha
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14334K | Onbrez | Capsule containing powder for oral inhalation 150 micrograms (as maleate), for use in Breezhaler | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5134F | Onbrez | Indacaterol | Capsule containing powder for oral inhalation 150 micrograms (as maleate) (for use in Breezhaler) | Valid |
+| 5137J | Onbrez | Indacaterol | Capsule containing powder for oral inhalation 300 micrograms (as maleate) (for use in Breezhaler) | Valid |
+| 10156M | ultibro breezhaler 110/50 | indacaterol + glycopyrronium | Capsule containing powder for oral inhalation indacaterol 110 micrograms (as maleate) with glycopyrronium 50 micrograms… | Valid |
+| 12269R | Atectura Breezhaler | indacaterol + mometasone | Capsule containing powder for oral inhalation indacaterol 125 micrograms (as acetate) with mometasone furoate 62.5 micr… | Valid |
+| 12279G | Atectura Breezhaler | indacaterol + mometasone | Capsule containing powder for oral inhalation indacaterol 125 micrograms (as acetate) with mometasone furoate 260 micro… | Valid |
+| 12289T | Atectura Breezhaler | indacaterol + mometasone | Capsule containing powder for oral inhalation indacaterol 125 micrograms (as acetate) with mometasone furoate 127.5 mic… | Valid |
+| 12295D | Enerzair Breezhaler | indacaterol + glycopyrronium + mometasone | Capsule containing powder for oral inhalation indacaterol 114 micrograms (as maleate) with glycopyrronium 46 micrograms… | Valid |
+| 12298G | Enerzair Breezhaler | indacaterol + glycopyrronium + mometasone | Capsule containing powder for oral inhalation indacaterol 114 micrograms (as maleate) with glycopyrronium 46 micrograms… | Valid |
+| 14332H | Atectura Breezhaler | indacaterol + mometasone | Capsule containing powder for oral inhalation indacaterol 125 micrograms (as acetate) with mometasone furoate 62.5 micr… | Valid |
+| 14333J | Atectura Breezhaler | indacaterol + mometasone | Capsule containing powder for oral inhalation indacaterol 125 micrograms (as acetate) with mometasone furoate 127.5 mic… | Valid |
+| 14334K | Onbrez | Indacaterol | Capsule containing powder for oral inhalation 150 micrograms (as maleate) (for use in Breezhaler) | Valid |
+| 14368F | Onbrez | Indacaterol | Capsule containing powder for oral inhalation 300 micrograms (as maleate) (for use in Breezhaler) | Valid |
+| 14399W | Enerzair Breezhaler | indacaterol + glycopyrronium + mometasone | Capsule containing powder for oral inhalation indacaterol 114 micrograms (as maleate) with glycopyrronium 46 micrograms… | Valid |
+| 14441C | Atectura Breezhaler | indacaterol + mometasone | Capsule containing powder for oral inhalation indacaterol 125 micrograms (as acetate) with mometasone furoate 260 micro… | Valid |
+| 14471P | Enerzair Breezhaler | indacaterol + glycopyrronium + mometasone | Capsule containing powder for oral inhalation indacaterol 114 micrograms (as maleate) with glycopyrronium 46 micrograms… | Valid |
+| 14504J | ultibro breezhaler 110/50 | indacaterol + glycopyrronium | Capsule containing powder for oral inhalation indacaterol 110 micrograms (as maleate) with glycopyrronium 50 micrograms… | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

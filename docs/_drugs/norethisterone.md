@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 510
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "Norethisterone"
 description: "Norethisterone: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
@@ -46,9 +46,24 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13873E | Primolut N | Tablet 5 mg (oral) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1967M | Noriday 28 Day | Norethisterone | Tablets 350 micrograms, 28 | Valid |
+| 2774B | Norimin 28 Day | Norethisterone + ethinylestradiol | Pack containing 21 tablets 500 micrograms-35 micrograms and 7 inert tablets | Valid |
+| 2775C | Norimin-1 28 Day | Norethisterone + ethinylestradiol | Pack containing 21 tablets 1 mg-35 micrograms and 7 inert tablets | Valid |
+| 2993M | Primolut N | Norethisterone | Tablet 5 mg | Valid |
+| 8427M | Estalis continuous 50/140 | estradiol + norethisterone acetate | Transdermal patches containing 620 micrograms estradiol (as hemihydrate) with 2.7 mg norethisterone acetate, 8 | Valid |
+| 8428N | Estalis continuous 50/250 | estradiol + norethisterone acetate | Transdermal patches containing 510 micrograms estradiol (as hemihydrate) with 4.8 mg norethisterone acetate, 8 | Valid |
+| 13873E | Primolut N | Norethisterone | Tablet 5 mg | Valid |
+| 13902Q | Estalis continuous 50/140 | estradiol + norethisterone acetate | Transdermal patches containing 620 micrograms estradiol (as hemihydrate) with 2.7 mg norethisterone acetate, 8 | Valid |
+| 14336M | Estalis continuous 50/250 | estradiol + norethisterone acetate | Transdermal patches containing 510 micrograms estradiol (as hemihydrate) with 4.8 mg norethisterone acetate, 8 | Valid |
+| 14795Q | Ryeqo | relugolix + estradiol + norethisterone acetate | Tablet containing relugolix 40 mg with estradiol (as hemihydrate) 1 mg and with norethisterone acetate 500 micrograms | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

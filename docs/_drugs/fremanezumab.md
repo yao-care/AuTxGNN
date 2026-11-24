@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fremanezumab"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Fremanezumab: predicted new indication Atrophoderma vermiculata (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -94,9 +94,18 @@ Of the 19 publications compiled, the most relevant to aura and the predicted ind
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12603H | Ajovy | Solution for injection 225 mg in 1.5 mL single-dose pre-filled syringe | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12603H | Ajovy | Fremanezumab | Solution for injection 225 mg in 1.5 mL single dose pre-filled syringe | Valid |
+| 12611R | Ajovy | Fremanezumab | Solution for injection 225 mg in 1.5 mL single dose pre-filled syringe | Valid |
+| 13115G | Ajovy | Fremanezumab | Solution for injection 225 mg in 1.5 mL single dose pre-filled pen | Valid |
+| 13129B | Ajovy | Fremanezumab | Solution for injection 225 mg in 1.5 mL single dose pre-filled pen | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

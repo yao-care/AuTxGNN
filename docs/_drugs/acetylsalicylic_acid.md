@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Acetylsalicylic acid"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetylsalicylic Acid: predicted new indication atrophoderma vermiculata (evidence level L5). In Australia: 9 PBS items (9 currently listed)"
 ---
 
@@ -70,9 +70,23 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 104L | Not recorded | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 104L | – | Aspirin | – | Valid |
+| 4076M | Cardiprin 100 | Aspirin | Tablet 100 mg (with glycine) | Valid |
+| 4077N | Pharmacy Action Low Dose Aspirin | Aspirin | Tablet 100 mg (enteric coated) | Valid |
+| 4078P | Astrix | Aspirin | Capsule 100 mg (containing enteric coated pellets) | Valid |
+| 4286N | Aspalgin 40 | Aspirin + codeine | Tablet containing codeine phosphate hemihydrate 8 mg with aspirin 300 mg | Valid |
+| 8202Q | Spren 100 | Aspirin | Tablet 100 mg | Valid |
+| 9296G | DuoPlidogrel | clopidogrel + aspirin | Tablet 75 mg (as hydrogen sulfate)-100 mg | Valid |
+| 10590J | Spren 100 | Aspirin | Tablet 100 mg | Valid |
+| 13427Q | DuoPlidogrel | clopidogrel + aspirin | Tablet 75 mg (as hydrogen sulfate)-100 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The data compiled for this report contain nine current PBS items: six single-ingredient aspirin items (mostly 100 mg oral tablets or capsules) and three combinations (clopidogrel with aspirin, aspirin with codeine). Indication text is not recorded in the local data.
 

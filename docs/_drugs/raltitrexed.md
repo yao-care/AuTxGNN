@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 622
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Raltitrexed: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Colorectal cancer and malignant mesothelioma"
 monitor_inn: "Raltitrexed"
 predicted_indications: ["sclerosing cholangitis", "myelodysplastic syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "partial deletion of the long arm of chromosome 5"]
@@ -82,9 +82,16 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4610P | Tomudex | Powder for I.V. infusion, 2 mg in single use vial | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4610P | Tomudex | Raltitrexed | Powder for I.V. infusion 2 mg in single use vial | Valid |
+| 7256X | Tomudex | Raltitrexed | Powder for I.V. infusion 2 mg in single use vial | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

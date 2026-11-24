@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Rizatriptan"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Rizatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -85,9 +85,16 @@ No publication addresses brainstem aura specifically. The most relevant general 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10551H | RIXALT | Orally disintegrating tablet, 10 mg (as benzoate) | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 9313E | Rizatriptan Wafers-10mg | Rizatriptan | Wafer 10 mg (as benzoate) | Valid |
+| 10551H | RIXALT | Rizatriptan | Tablet (orally disintegrating) 10 mg (as benzoate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

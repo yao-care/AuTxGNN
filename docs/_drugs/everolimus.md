@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 280
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
 description: "Everolimus: predicted new indication Liposarcoma (evidence level L2). In Australia: at least 20 PBS items"
@@ -92,9 +92,36 @@ No ANZCTR trial identifiers were found in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10131F | Afinitor | Tablet 5 mg (oral) | Indication text not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2818H | Afinitor | Everolimus | Tablet 2.5 mg | Valid |
+| 10131F | Afinitor | Everolimus | Tablet 5 mg | Valid |
+| 10132G | Afinitor | Everolimus | Tablet 10 mg | Valid |
+| 10133H | Afinitor | Everolimus | Tablet 5 mg | Valid |
+| 10135K | Afinitor | Everolimus | Tablet 10 mg | Valid |
+| 11254H | Afinitor | Everolimus | Tablet 5 mg | Valid |
+| 11257L | Afinitor | Everolimus | Tablet 5 mg | Valid |
+| 11258M | Afinitor | Everolimus | Tablet 2.5 mg | Valid |
+| 11262R | Afinitor | Everolimus | Tablet 10 mg | Valid |
+| 11267B | Afinitor | Everolimus | Tablet 10 mg | Valid |
+| 11362B | Afinitor | Everolimus | Tablet 5 mg | Valid |
+| 11377T | Afinitor | Everolimus | Tablet 10 mg | Valid |
+| 11591C | Afinitor | Everolimus | Tablet, dispersible, 2 mg | Valid |
+| 11592D | Afinitor | Everolimus | Tablet, dispersible, 5 mg | Valid |
+| 11598K | Afinitor | Everolimus | Tablet, dispersible, 5 mg | Valid |
+| 11599L | Afinitor | Everolimus | Tablet, dispersible, 3 mg | Valid |
+| 11607X | Afinitor | Everolimus | Tablet, dispersible, 2 mg | Valid |
+| 11608Y | Afinitor | Everolimus | Tablet, dispersible, 3 mg | Valid |
+| 13941R | Everocan | Everolimus | Tablet 1 mg | Valid |
+| 14040Y | Everocan | Everolimus | Tablet 0.75 mg | Valid |
+
+The table shows 20 of 34 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

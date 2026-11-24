@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 534
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L2). Approved use: Metastasis from malignant tumour of colon"
 monitor_inn: "Oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
@@ -89,9 +89,16 @@ No Australian (ANZCTR) trial identifiers were found in the data compiled for thi
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4542C | Oxaliplatin SUN | Solution concentrate for I.V. infusion, 200 mg in 40 mL | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4542C | Oxaliplatin SUN | Oxaliplatin | Solution concentrate for I.V. infusion 200 mg in 40 mL | Valid |
+| 7253R | Oxaliplatin Accord | Oxaliplatin | Solution concentrate for I.V. infusion 100 mg in 20 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

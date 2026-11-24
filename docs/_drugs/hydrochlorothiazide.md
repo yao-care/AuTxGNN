@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 352
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Hydrochlorothiazide: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -75,9 +75,36 @@ The TxGNN model produced no candidate with a score of 0.99 or higher for Hydroch
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 13409R | Dithiazide | Tablet 25 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1484D | Dithiazide | Hydrochlorothiazide | Tablet 25 mg | Valid |
+| 13391T | Atacand Plus 16/12.5 | Candesartan + hydrochlorothiazide | Tablet containing candesartan cilexetil 16 mg with hydrochlorothiazide 12.5 mg | Valid |
+| 13392W | Atacand Plus 32/25 | Candesartan + hydrochlorothiazide | Tablet containing candesartan cilexetil 32 mg with hydrochlorothiazide 25 mg | Valid |
+| 13393X | Dilart HCT 80/12.5 | Valsartan + hydrochlorothiazide | Tablet 80 mg-12.5 mg | Valid |
+| 13409R | Dithiazide | Hydrochlorothiazide | Tablet 25 mg | Valid |
+| 13410T | Moduretic | Amiloride + hydrochlorothiazide | Tablet containing hydrochlorothiazide 50 mg with amiloride hydrochloride 5 mg | Valid |
+| 13439H | Renitec Plus 20/6 | Enalapril + hydrochlorothiazide | Tablet containing enalapril maleate 20 mg with hydrochlorothiazide 6 mg | Valid |
+| 13446Q | Avapro HCT 300/25 | Irbesartan + hydrochlorothiazide | Tablet 300 mg-25 mg | Valid |
+| 13447R | Olmesartan HCT - MYL 20/12.5 | Olmesartan + hydrochlorothiazide | Tablet containing olmesartan medoxomil 20 mg with hydrochlorothiazide 12.5 mg | Valid |
+| 13452B | Atacand Plus 32/12.5 | Candesartan + hydrochlorothiazide | Tablet containing candesartan cilexetil 32 mg with hydrochlorothiazide 12.5 mg | Valid |
+| 13453C | Dilart HCT 160/25 | Valsartan + hydrochlorothiazide | Tablet 160 mg-25 mg | Valid |
+| 13455E | Dilart HCT 320/25 | Valsartan + hydrochlorothiazide | Tablet 320 mg-25 mg | Valid |
+| 13517K | Dilart HCT 320/12.5 | Valsartan + hydrochlorothiazide | Tablet 320 mg-12.5 mg | Valid |
+| 13545X | Avapro HCT 300/12.5 | Irbesartan + hydrochlorothiazide | Tablet 300 mg-12.5 mg | Valid |
+| 13546Y | Teltartan HCT 40/12.5 | Telmisartan + hydrochlorothiazide | Tablet 40 mg-12.5 mg | Valid |
+| 13572H | Avapro HCT 150/12.5 | Irbesartan + hydrochlorothiazide | Tablet 150 mg-12.5 mg | Valid |
+| 13574K | Teltartan HCT 80/12.5 | Telmisartan + hydrochlorothiazide | Tablet 80 mg-12.5 mg | Valid |
+| 13601W | Olmesartan HCT - MYL 40/12.5 | Olmesartan + hydrochlorothiazide | Tablet containing olmesartan medoxomil 40 mg with hydrochlorothiazide 12.5 mg | Valid |
+| 13602X | Olmesartan HCT - MYL 40/25 | Olmesartan + hydrochlorothiazide | Tablet containing olmesartan medoxomil 40 mg with hydrochlorothiazide 25 mg | Valid |
+| 13606D | Dilart HCT 160/12.5 | Valsartan + hydrochlorothiazide | Tablet 160 mg-12.5 mg | Valid |
+
+The table shows 20 of 62 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

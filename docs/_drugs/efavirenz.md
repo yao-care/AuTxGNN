@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Efavirenz: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "efavirenz"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -78,9 +78,16 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11732L | Tenofovir Disoproxil Emtricitabine Efavirenz Viatris 300/200/600 | Tablet (tenofovir disoproxil maleate 300 mg, emtricitabine 200 mg, efavirenz 600 mg) | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11732L | Tenofovir Disoproxil Emtricitabine Efavirenz Viatris 300/200/600 | tenofovir disoproxil + emtricitabine + efavirenz | Tablet containing tenofovir disoproxil maleate 300 mg with emtricitabine 200 mg and efavirenz 600 mg | Valid |
+| 15231P | Efavirenz, Emtricitabine and Tenofovir Disoproxil Fumarate Tablet 600 mg/200 mg… | tenofovir disoproxil + emtricitabine + efavirenz | Tablet containing tenofovir disoproxil fumarate 300 mg with emtricitabine 200 mg and efavirenz 600 mg (s19A) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

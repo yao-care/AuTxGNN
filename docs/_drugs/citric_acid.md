@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Citric Acid: predicted new indication stomach disease (evidence level L5). In Australia: 10 PBS items (10 currently listed)"
 ---
 
@@ -78,6 +78,25 @@ No cited study evaluates citric acid as a treatment for stomach disease. The mos
 | [7106518](https://pubmed.ncbi.nlm.nih.gov/7106518/) | 1982 | Observational | Gastroenterology | Salivary secretion in reflux oesophagitis |
 
 ## Australia Market Information
+
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 108Q | – | Citric Acid Monohydrate | – | Valid |
+| 2091C | Micolette | citric acid + lauryl sulfoacetate sodium + sorbitol | Enemas 3.125 g-450 mg-45 mg in 5 mL, 12 | Valid |
+| 3196F | O.R.S. | sodium chloride + potassium chloride + glucose + citric acid | Oral rehydration salts containing glucose monohydrate 3.56 g, sodium chloride 470 mg, potassium chloride 300 mg and sod… | Valid |
+| 3274H | Micolette | citric acid + lauryl sulfoacetate sodium + sorbitol | Enemas 3.125 g-450 mg-45 mg in 5 mL, 12 | Valid |
+| 4049D | Ural Sachets | bicarbonate + citric acid + tartaric acid | Sachets containing oral effervescent powder 4 g, 28 | Valid |
+| 4462W | Micolette | citric acid + lauryl sulfoacetate sodium + sorbitol | Enemas 3.125 g-450 mg-45 mg in 5 mL, 4 | Valid |
+| 5331N | Micolette | citric acid + lauryl sulfoacetate sodium + sorbitol | Enemas 3.125 g-450 mg-45 mg in 5 mL, 12 | Valid |
+| 11049M | O.R.S. | sodium chloride + potassium chloride + glucose + citric acid | Oral rehydration salts containing glucose monohydrate 3.56 g, sodium chloride 470 mg, potassium chloride 300 mg and sod… | Valid |
+| 12179B | Trust Cystitis Relief | bicarbonate + citric acid + tartaric acid | Sachets containing oral effervescent granules 4 g, 28 | Valid |
+| 14534Y | Micolette | citric acid + lauryl sulfoacetate sodium + sorbitol | Enemas 3.125 g-450 mg-45 mg in 5 mL, 12 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The data compiled for this report list ten current PBS items: one single-ingredient citric acid entry (108Q, with no product name or dosage form recorded) and nine combination products (Ural and Trust Cystitis Relief oral sachets, Micolette enemas and O.R.S. oral rehydration salts). Approved indication text is not recorded.
 

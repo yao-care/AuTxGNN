@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 24
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acyclovir: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Herpes simplex infections, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -115,9 +115,20 @@ Evidence for the other predictions is weak:
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1002R | XOROX | Eye ointment 30 mg per g, 4.5 g | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1002R | XOROX | Aciclovir | Eye ointment 30 mg per g, 4.5 g | Valid |
+| 1003T | Aciclovir Sandoz | Aciclovir | Tablet 200 mg | Valid |
+| 1007B | Aciclovir Sandoz | Aciclovir | Tablet 200 mg | Valid |
+| 1052J | Aciclovir Sandoz | Aciclovir | Tablet 800 mg | Valid |
+| 1555W | APO-Aciclovir | Aciclovir | Tablet 200 mg | Valid |
+| 5501M | XOROX | Aciclovir | Eye ointment 30 mg per g, 4.5 g | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The current PBS items are eye ointments (XOROX) and oral tablets (200 mg and 800 mg). There is no intralesional product in the data compiled for this report, so the route used in the wart studies (injection into the lesion) does not match the listed forms. Route compatibility has not been assessed.
 

@@ -5,7 +5,7 @@ layout: default
 title: Osilodrostat
 parent: Known Uses Only (No New Predictions)
 nav_order: 532
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Osilodrostat: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Osilodrostat"
 predicted_indications: []
@@ -48,9 +48,18 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14714K | Isturisa | Tablet 1 mg (as phosphate) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 14714K | Isturisa | Osilodrostat | Tablet 1 mg (as phosphate) | Valid |
+| 14723X | Isturisa | Osilodrostat | Tablet 1 mg (as phosphate) | Valid |
+| 14724Y | Isturisa | Osilodrostat | Tablet 5 mg (as phosphate) | Valid |
+| 14729F | Isturisa | Osilodrostat | Tablet 5 mg (as phosphate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The product is a single-ingredient oral tablet and its status is valid.
 

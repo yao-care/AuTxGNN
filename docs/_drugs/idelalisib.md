@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 366
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Idelalisib: predicted new indication Mantle cell lymphoma (evidence level L2). Approved use: Follicular lymphoma, CLL/SLL and other B-cell malignancies"
 monitor_inn: "Idelalisib"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
@@ -95,9 +95,20 @@ No randomised controlled trial publications were identified for this indication.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11162L | Zydelig | Tablet 150 mg (oral) | Indication text not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11162L | Zydelig | Idelalisib | Tablet 150 mg | Valid |
+| 11165P | Zydelig | Idelalisib | Tablet 150 mg | Valid |
+| 11170X | Zydelig | Idelalisib | Tablet 100 mg | Valid |
+| 11171Y | Zydelig | Idelalisib | Tablet 100 mg | Valid |
+| 12812H | Zydelig | Idelalisib | Tablet 150 mg | Valid |
+| 12813J | Zydelig | Idelalisib | Tablet 100 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

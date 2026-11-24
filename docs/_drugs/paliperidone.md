@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 543
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia, schizoaffective disorder…"
 monitor_inn: "Paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
@@ -69,9 +69,28 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form |
-|---------|------|------|
-| 11066K | Invega Trinza | I.M. injection (modified release) 525 mg (as palmitate) in pre-filled syringe |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5100K | Invega Sustenna | Paliperidone | I.M. injection (modified release) 25 mg (as palmitate) in pre-filled syringe | Valid |
+| 5102M | Invega Sustenna | Paliperidone | I.M. injection (modified release) 50 mg (as palmitate) in pre-filled syringe | Valid |
+| 5103N | Invega Sustenna | Paliperidone | I.M. injection (modified release) 75 mg (as palmitate) in pre-filled syringe | Valid |
+| 5107T | Invega Sustenna | Paliperidone | I.M. injection (modified release) 100 mg (as palmitate) in pre-filled syringe | Valid |
+| 5109X | Invega Sustenna | Paliperidone | I.M. injection (modified release) 150 mg (as palmitate) in pre-filled syringe | Valid |
+| 9140C | Invega | Paliperidone | Tablet 3 mg (prolonged release) | Valid |
+| 9141D | Invega | Paliperidone | Tablet 6 mg (prolonged release) | Valid |
+| 9142E | Invega | Paliperidone | Tablet 9 mg (prolonged release) | Valid |
+| 11066K | Invega Trinza | Paliperidone | I.M. injection (modified release) 525 mg (as palmitate) in pre-filled syringe | Valid |
+| 11072R | Invega Trinza | Paliperidone | I.M. injection (modified release) 263 mg (as palmitate) in pre-filled syringe | Valid |
+| 11085K | Invega Trinza | Paliperidone | I.M. injection (modified release) 175 mg (as palmitate) in pre-filled syringe | Valid |
+| 11094X | Invega Trinza | Paliperidone | I.M. injection (modified release) 350 mg (as palmitate) in pre-filled syringe | Valid |
+| 13046P | Invega Hafyera | Paliperidone | I.M. injection (modified release) 1000 mg (as palmitate) in pre-filled syringe | Valid |
+| 13053B | Invega Hafyera | Paliperidone | I.M. injection (modified release) 700 mg (as palmitate) in pre-filled syringe | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The listed presentations are long-acting intramuscular injections and oral tablets. Compatibility of this route with a retinal indication has not been assessed.
 

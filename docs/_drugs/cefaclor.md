@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 140
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Cefaclor: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -81,9 +81,20 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for C
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1169M | Ceclor CD | Tablet (sustained release) 375 mg (as mo | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1169M | Ceclor CD | Cefaclor | Tablet (sustained release) 375 mg (as monohydrate) | Valid |
+| 2460L | Ceclor | Cefaclor | Powder for oral suspension 125 mg (as monohydrate) per 5 mL, 100 mL | Valid |
+| 2461M | Ceclor | Cefaclor | Powder for oral suspension 250 mg (as monohydrate) per 5 mL, 75 mL | Valid |
+| 5045M | Ceclor CD | Cefaclor | Tablet (sustained release) 375 mg (as monohydrate) | Valid |
+| 5046N | Ceclor | Cefaclor | Powder for oral suspension 125 mg (as monohydrate) per 5 mL, 100 mL | Valid |
+| 5047P | Ceclor | Cefaclor | Powder for oral suspension 250 mg (as monohydrate) per 5 mL, 75 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

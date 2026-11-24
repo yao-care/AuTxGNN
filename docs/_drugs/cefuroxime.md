@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cefuroxime"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefuroxime: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 
@@ -78,9 +78,18 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11227X | Zinnat | Tablet 250 mg (as axetil) | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5052X | Pharmacor Cefuroxime | Cefuroxime | Tablet 250 mg (as axetil) | Valid |
+| 8292K | Pharmacor Cefuroxime | Cefuroxime | Tablet 250 mg (as axetil) | Valid |
+| 11227X | Zinnat | Cefuroxime | Tablet 250 mg (as axetil) | Valid |
+| 11228Y | Zinnat | Cefuroxime | Tablet 250 mg (as axetil) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Four current PBS items are recorded, all single-ingredient oral tablets. The list is complete (4 items).
 

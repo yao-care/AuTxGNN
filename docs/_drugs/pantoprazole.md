@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 546
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). In Australia: 16 PBS items (16 currently listed)"
@@ -86,9 +86,30 @@ For the related indications of duodenal and gastric ulcer, further trials are li
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 11678P | Somac | Sachet containing granules 40 mg (as sodium sesquihydrate) | Not recorded in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8007K | Somac | Pantoprazole | Tablet (enteric coated) 40 mg (as sodium sesquihydrate) | Valid |
+| 8008L | Somac | Pantoprazole | Tablet (enteric coated) 40 mg (as sodium sesquihydrate) | Valid |
+| 8399C | Somac | Pantoprazole | Tablet (enteric coated) 20 mg (as sodium sesquihydrate) | Valid |
+| 9423Y | Somac | Pantoprazole | Sachet containing granules 40 mg (as sodium sesquihydrate) | Valid |
+| 9424B | Somac | Pantoprazole | Sachet containing granules 40 mg (as sodium sesquihydrate) | Valid |
+| 11678P | Somac | Pantoprazole | Sachet containing granules 40 mg (as sodium sesquihydrate) | Valid |
+| 11681T | Somac | Pantoprazole | Tablet (enteric coated) 40 mg (as sodium sesquihydrate) | Valid |
+| 12277E | Somac | Pantoprazole | Tablet (enteric coated) 40 mg (as sodium sesquihydrate) | Valid |
+| 12282K | Somac | Pantoprazole | Sachet containing granules 40 mg (as sodium sesquihydrate) | Valid |
+| 14330F | Somac | Pantoprazole | Tablet (enteric coated) 40 mg (as sodium sesquihydrate) | Valid |
+| 14362X | Somac | Pantoprazole | Tablet (enteric coated) 40 mg (as sodium sesquihydrate) | Valid |
+| 14394N | Somac | Pantoprazole | Tablet (enteric coated) 40 mg (as sodium sesquihydrate) | Valid |
+| 14395P | Somac | Pantoprazole | Sachet containing granules 40 mg (as sodium sesquihydrate) | Valid |
+| 14466J | Somac | Pantoprazole | Sachet containing granules 40 mg (as sodium sesquihydrate) | Valid |
+| 14500E | Somac | Pantoprazole | Sachet containing granules 40 mg (as sodium sesquihydrate) | Valid |
+| 14501F | Somac | Pantoprazole | Tablet (enteric coated) 20 mg (as sodium sesquihydrate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

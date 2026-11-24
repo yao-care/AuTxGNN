@@ -3,7 +3,7 @@ layout: default
 title: Dapagliflozin
 parent: Known Uses Only (No New Predictions)
 nav_order: 195
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Dapagliflozin: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -76,9 +76,30 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 10011X | Forxiga | Tablet 10 mg (as propanediol monohydrate | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10011X | Forxiga | Dapagliflozin | Tablet 10 mg (as propanediol monohydrate) | Valid |
+| 10510E | Xigduo XR 5/1000 | dapagliflozin + metformin | Tablet (modified release) containing 5 mg dapagliflozin (as propanediol monohydrate) with 1000 mg metformin hydrochlori… | Valid |
+| 10515K | Xigduo XR 10/1000 | dapagliflozin + metformin | Tablet (modified release) containing 10 mg dapagliflozin (as propanediol monohydrate) with 1000 mg metformin hydrochlor… | Valid |
+| 10516L | Xigduo XR 10/500 | dapagliflozin + metformin | Tablet (modified release) containing 10 mg dapagliflozin (as propanediol monohydrate) with 500 mg metformin hydrochlori… | Valid |
+| 12823X | Forxiga | Dapagliflozin | Tablet 10 mg (as propanediol monohydrate) | Valid |
+| 13106T | Forxiga | Dapagliflozin | Tablet 10 mg (as propanediol monohydrate) | Valid |
+| 13844P | Forxiga | Dapagliflozin | Tablet 10 mg (as propanediol monohydrate) | Valid |
+| 13851B | Xigduo XR 5/1000 | dapagliflozin + metformin | Tablet (modified release) containing 5 mg dapagliflozin (as propanediol monohydrate) with 1000 mg metformin hydrochlori… | Valid |
+| 13875G | Xigduo XR 10/1000 | dapagliflozin + metformin | Tablet (modified release) containing 10 mg dapagliflozin (as propanediol monohydrate) with 1000 mg metformin hydrochlor… | Valid |
+| 14028H | Xigduo XR 10/500 | dapagliflozin + metformin | Tablet (modified release) containing 10 mg dapagliflozin (as propanediol monohydrate) with 500 mg metformin hydrochlori… | Valid |
+| 14054Q | Forxiga | Dapagliflozin | Tablet 10 mg (as propanediol monohydrate) | Valid |
+| 14073Q | Forxiga | Dapagliflozin | Tablet 10 mg (as propanediol monohydrate) | Valid |
+| 14638K | Sidapvia 10/100 | Dapagliflozin + sitagliptin | Tablet containing 10 mg dapagliflozin (as propanediol monohydrate) with 100 mg sitagliptin (as phosphate monohydrate) | Valid |
+| 14645T | Sidapvia 10/100 | Dapagliflozin + sitagliptin | Tablet containing 10 mg dapagliflozin (as propanediol monohydrate) with 100 mg sitagliptin (as phosphate monohydrate) | Valid |
+| 15257B | Forxiga | Dapagliflozin | Tablet 10 mg (as propanediol monohydrate) | Valid |
+| 15353C | Forxiga | Dapagliflozin | Tablet 10 mg (as propanediol monohydrate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

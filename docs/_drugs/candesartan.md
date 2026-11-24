@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 127
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
 description: "Candesartan: predicted new indication Migraine disorder (evidence level L2). In Australia: 14 PBS items (14 currently listed)"
@@ -99,9 +99,28 @@ No ANZCTR identifiers were found in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13436E | Atacand | Tablet containing candesartan cilexetil 8 mg (oral) | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8295N | Atacand | Candesartan | Tablet containing candesartan cilexetil 4 mg | Valid |
+| 8296P | Atacand | Candesartan | Tablet containing candesartan cilexetil 8 mg | Valid |
+| 8297Q | Atacand | Candesartan | Tablet containing candesartan cilexetil 16 mg | Valid |
+| 8504N | Atacand Plus 16/12.5 | Candesartan + hydrochlorothiazide | Tablet containing candesartan cilexetil 16 mg with hydrochlorothiazide 12.5 mg | Valid |
+| 8889W | Atacand | Candesartan | Tablet containing candesartan cilexetil 32 mg | Valid |
+| 9314F | Atacand Plus 32/12.5 | Candesartan + hydrochlorothiazide | Tablet containing candesartan cilexetil 32 mg with hydrochlorothiazide 12.5 mg | Valid |
+| 9315G | Atacand Plus 32/25 | Candesartan + hydrochlorothiazide | Tablet containing candesartan cilexetil 32 mg with hydrochlorothiazide 25 mg | Valid |
+| 13391T | Atacand Plus 16/12.5 | Candesartan + hydrochlorothiazide | Tablet containing candesartan cilexetil 16 mg with hydrochlorothiazide 12.5 mg | Valid |
+| 13392W | Atacand Plus 32/25 | Candesartan + hydrochlorothiazide | Tablet containing candesartan cilexetil 32 mg with hydrochlorothiazide 25 mg | Valid |
+| 13436E | Atacand | Candesartan | Tablet containing candesartan cilexetil 8 mg | Valid |
+| 13438G | Atacand | Candesartan | Tablet containing candesartan cilexetil 32 mg | Valid |
+| 13452B | Atacand Plus 32/12.5 | Candesartan + hydrochlorothiazide | Tablet containing candesartan cilexetil 32 mg with hydrochlorothiazide 12.5 mg | Valid |
+| 13565Y | Atacand | Candesartan | Tablet containing candesartan cilexetil 16 mg | Valid |
+| 13592J | Atacand | Candesartan | Tablet containing candesartan cilexetil 4 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

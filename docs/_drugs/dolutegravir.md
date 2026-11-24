@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 223
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dolutegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Dolutegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -83,9 +83,18 @@ Fourteen publications were retrieved; the most relevant are listed below. All ar
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10283F | Tivicay | Tablet 50 mg (as sodium) | Not provided in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10283F | Tivicay | Dolutegravir | Tablet 50 mg (as sodium) | Valid |
+| 10345L | Triumeq | Dolutegravir + abacavir + lamivudine | Tablet containing dolutegravir 50 mg with abacavir 600 mg and lamivudine 300 mg | Valid |
+| 11540J | Juluca | Dolutegravir + rilpivirine | Tablet containing dolutegravir 50 mg (as sodium) with rilpivirine 25 mg (as hydrochloride) | Valid |
+| 11843H | Dovato | Dolutegravir + lamivudine | Tablet containing dolutegravir 50 mg (as sodium) with lamivudine 300 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

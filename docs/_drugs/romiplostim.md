@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Romiplostim"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "platelet-type bleeding disorder", "autosomal dominant macrothrombocytopenia", "Ehlers-Danlos syndrome, fibronectinemic type"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Romiplostim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Relations recorded in the knowledge graph: idiopathic aplastic anaemi…"
 ---
 
@@ -85,9 +85,18 @@ For the fourth-ranked prediction (fetal and neonatal alloimmune thrombocytopenia
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 9696H | Nplate | Powder for injection 375 micrograms | Not stated in the available record |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 9696H | Nplate | Romiplostim | Powder for injection 375 micrograms | Valid |
+| 9697J | Nplate | Romiplostim | Powder for injection 375 micrograms | Valid |
+| 9698K | Nplate | Romiplostim | Powder for injection 625 micrograms | Valid |
+| 9699L | Nplate | Romiplostim | Powder for injection 625 micrograms | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

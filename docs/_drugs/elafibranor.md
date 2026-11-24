@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 242
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Elafibranor"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Elafibranor: predicted new indication Amenorrhea (disease) (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
@@ -68,9 +68,17 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 15084X | Iqirvo | Tablet 80 mg (oral) | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 15084X | Iqirvo | Elafibranor | Tablet 80 mg | Valid |
+| 15089E | Iqirvo | Elafibranor | Tablet 80 mg | Valid |
+| 15107D | Iqirvo | Elafibranor | Tablet 80 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 598
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Prazosin: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -73,9 +73,20 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 13367M | APO-Prazosin | Tablet 5 mg (as hydrochloride) | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1478T | APO-Prazosin | Prazosin | Tablet 5 mg (as hydrochloride) | Valid |
+| 1479W | APO-Prazosin | Prazosin | Tablet 1 mg (as hydrochloride) | Valid |
+| 1480X | APO-Prazosin | Prazosin | Tablet 2 mg (as hydrochloride) | Valid |
+| 13367M | APO-Prazosin | Prazosin | Tablet 5 mg (as hydrochloride) | Valid |
+| 13400G | APO-Prazosin | Prazosin | Tablet 2 mg (as hydrochloride) | Valid |
+| 13553H | APO-Prazosin | Prazosin | Tablet 1 mg (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 509
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Nizatidine"
 predicted_indications: ["duodenal obstruction", "gastroduodenitis", "multiple endocrine neoplasia"]
 description: "Nizatidine: predicted new indication Duodenal obstruction (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -91,9 +91,18 @@ Selected publications for active peptic ulcer disease (priority to randomised tr
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14306Y | Tazac | Capsule 150 mg (oral) | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1504E | Tazac | Nizatidine | Capsule 300 mg | Valid |
+| 1505F | Tazac | Nizatidine | Capsule 150 mg | Valid |
+| 14306Y | Tazac | Nizatidine | Capsule 150 mg | Valid |
+| 14372K | Tazac | Nizatidine | Capsule 300 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

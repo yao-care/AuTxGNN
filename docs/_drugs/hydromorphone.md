@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Hydromorphone"
 predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
 description: "Hydromorphone: predicted new indication Pharyngitis (evidence level L5). In Australia: at least 20 PBS items"
@@ -80,9 +80,36 @@ Currently no related literature available for pharyngitis.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 12010D | Dilaudid | Tablet containing hydromorphone hydrochloride 8 mg | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5115F | Dilaudid | Hydromorphone | Tablet containing hydromorphone hydrochloride 2 mg | Valid |
+| 5116G | Dilaudid | Hydromorphone | Tablet containing hydromorphone hydrochloride 4 mg | Valid |
+| 5117H | Dilaudid | Hydromorphone | Tablet containing hydromorphone hydrochloride 8 mg | Valid |
+| 12010D | Dilaudid | Hydromorphone | Tablet containing hydromorphone hydrochloride 8 mg | Valid |
+| 12016K | Dilaudid | Hydromorphone | Tablet containing hydromorphone hydrochloride 8 mg | Valid |
+| 12032G | Dilaudid | Hydromorphone | Tablet containing hydromorphone hydrochloride 4 mg | Valid |
+| 12045Y | Dilaudid | Hydromorphone | Tablet containing hydromorphone hydrochloride 2 mg | Valid |
+| 12046B | Dilaudid | Hydromorphone | Tablet containing hydromorphone hydrochloride 4 mg | Valid |
+| 12047C | Dilaudid | Hydromorphone | Tablet containing hydromorphone hydrochloride 2 mg | Valid |
+| 12484C | Dilaudid | Hydromorphone | Tablet containing hydromorphone hydrochloride 4 mg | Valid |
+| 12493M | Dilaudid | Hydromorphone | Injection containing hydromorphone hydrochloride 2 mg in 1 mL | Valid |
+| 12497R | Dilaudid | Hydromorphone | Tablet containing hydromorphone hydrochloride 2 mg | Valid |
+| 12515Q | Dilaudid | Hydromorphone | Tablet containing hydromorphone hydrochloride 8 mg | Valid |
+| 12531M | Dilaudid-HP | Hydromorphone | Injection containing hydromorphone hydrochloride 10 mg in 1 mL | Valid |
+| 12559B | Hikma | Hydromorphone | Oral solution containing hydromorphone hydrochloride 1 mg per mL, 1 mL | Valid |
+| 12565H | Hikma | Hydromorphone | Oral solution containing hydromorphone hydrochloride 1 mg per mL, 1 mL | Valid |
+| 12582F | Hikma | Hydromorphone | Oral solution containing hydromorphone hydrochloride 1 mg per mL, 1 mL | Valid |
+| 13796D | Hydromorphone hydrochloride oral solution, USP (Medsurge) | Hydromorphone | Oral solution containing hydromorphone hydrochloride 1 mg per mL, 1 mL (S19A) | Valid |
+| 13799G | Hydromorphone hydrochloride oral solution, USP (Medsurge) | Hydromorphone | Oral solution containing hydromorphone hydrochloride 1 mg per mL, 1 mL (S19A) | Valid |
+| 13806P | Hydromorphone hydrochloride oral solution, USP (Medsurge) | Hydromorphone | Oral solution containing hydromorphone hydrochloride 1 mg per mL, 1 mL (S19A) | Valid |
+
+The table shows 20 of 25 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The data compiled for this report contain at least 20 current PBS items, all single-ingredient: oral tablets and liquids and injections. The listed number is as recorded in the data and should be checked against the ARTG.
 

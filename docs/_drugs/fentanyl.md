@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 291
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fentanyl"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In Australia: at least 20 PBS items"
@@ -89,9 +89,36 @@ For reference, the most relevant publications linked to lower-ranked predictions
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10600X | Abstral | Tablet (sublingual) 200 micrograms (as citrate) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10600X | Abstral | Fentanyl | Tablet (sublingual) 200 micrograms (as citrate) | Valid |
+| 10601Y | Abstral | Fentanyl | Tablet (sublingual) 100 micrograms (as citrate) | Valid |
+| 10602B | Abstral | Fentanyl | Tablet (sublingual) 100 micrograms (as citrate) | Valid |
+| 10603C | Abstral | Fentanyl | Tablet (sublingual) 400 micrograms (as citrate) | Valid |
+| 10604D | Abstral | Fentanyl | Tablet (sublingual) 600 micrograms (as citrate) | Valid |
+| 10606F | Abstral | Fentanyl | Tablet (sublingual) 300 micrograms (as citrate) | Valid |
+| 10607G | Abstral | Fentanyl | Tablet (sublingual) 200 micrograms (as citrate) | Valid |
+| 10608H | Abstral | Fentanyl | Tablet (sublingual) 400 micrograms (as citrate) | Valid |
+| 10610K | Abstral | Fentanyl | Tablet (sublingual) 300 micrograms (as citrate) | Valid |
+| 10611L | Abstral | Fentanyl | Tablet (sublingual) 800 micrograms (as citrate) | Valid |
+| 10612M | Abstral | Fentanyl | Tablet (sublingual) 800 micrograms (as citrate) | Valid |
+| 10613N | Abstral | Fentanyl | Tablet (sublingual) 600 micrograms (as citrate) | Valid |
+| 10684H | Fentora | Fentanyl | Tablet (orally disintegrating) 100 micrograms (as citrate) | Valid |
+| 10697B | Fentora | Fentanyl | Tablet (orally disintegrating) 200 micrograms (as citrate) | Valid |
+| 10698C | Fentora | Fentanyl | Tablet (orally disintegrating) 200 micrograms (as citrate) | Valid |
+| 10713W | Fentora | Fentanyl | Tablet (orally disintegrating) 600 micrograms (as citrate) | Valid |
+| 10729Q | Fentora | Fentanyl | Tablet (orally disintegrating) 100 micrograms (as citrate) | Valid |
+| 10737D | Fentora | Fentanyl | Tablet (orally disintegrating) 400 micrograms (as citrate) | Valid |
+| 10738E | Fentora | Fentanyl | Tablet (orally disintegrating) 800 micrograms (as citrate) | Valid |
+| 12474M | Fentanyl Sandoz | Fentanyl | Transdermal patch 12.6 mg | Valid |
+
+The table shows 20 of 35 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

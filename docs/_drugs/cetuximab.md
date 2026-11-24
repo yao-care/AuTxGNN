@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Cetuximab"
 predicted_indications: ["bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "cystic neoplasm", "epiglottis neoplasm", "pre-malignant neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cetuximab: predicted new indication bronchial adenomas/carcinoids childhood (evidence level L5). In Australia: 14 PBS items (14 currently listed)"
 ---
 
@@ -69,9 +69,28 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10262D | Erbitux | Solution for I.V. infusion 100 mg in 20 mL | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4312Y | Erbitux | Cetuximab | Solution for I.V. infusion 100 mg in 20 mL | Valid |
+| 4435K | Erbitux | Cetuximab | Solution for I.V. infusion 100 mg in 20 mL | Valid |
+| 4436L | Erbitux | Cetuximab | Solution for I.V. infusion 100 mg in 20 mL | Valid |
+| 4731B | Erbitux | Cetuximab | Solution for I.V. infusion 100 mg in 20 mL | Valid |
+| 7223E | Erbitux | Cetuximab | Solution for I.V. infusion 100 mg in 20 mL | Valid |
+| 7240C | Erbitux | Cetuximab | Solution for I.V. infusion 100 mg in 20 mL | Valid |
+| 7242E | Erbitux | Cetuximab | Solution for I.V. infusion 100 mg in 20 mL | Valid |
+| 7273T | Erbitux | Cetuximab | Solution for I.V. infusion 100 mg in 20 mL | Valid |
+| 10262D | Erbitux | Cetuximab | Solution for I.V. infusion 100 mg in 20 mL | Valid |
+| 10265G | Erbitux | Cetuximab | Solution for I.V. infusion 100 mg in 20 mL | Valid |
+| 12816M | Erbitux | Cetuximab | Solution for I.V. infusion 100 mg in 20 mL | Valid |
+| 12817N | Erbitux | Cetuximab | Solution for I.V. infusion 100 mg in 20 mL | Valid |
+| 12820R | Erbitux | Cetuximab | Solution for I.V. infusion 100 mg in 20 mL | Valid |
+| 12821T | Erbitux | Cetuximab | Solution for I.V. infusion 100 mg in 20 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

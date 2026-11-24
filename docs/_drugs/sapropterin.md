@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sapropterin: predicted new indication Disorder of tyrosine metabolism (evidence level L5). Approved use: Phenylketonuria"
 monitor_inn: "Sapropterin"
 predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome"]
@@ -88,9 +88,25 @@ None of the publications below addresses primary tyrosine metabolism disorders. 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10086W | Kuvan | Tablet (soluble) containing sapropterin dihydrochloride 100 mg (oral) | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10086W | Kuvan | Sapropterin | Tablet (soluble) containing sapropterin dihydrochloride 100 mg | Valid |
+| 10087X | Kuvan | Sapropterin | Tablet (soluble) containing sapropterin dihydrochloride 100 mg | Valid |
+| 11676M | Kuvan | Sapropterin | Tablet (soluble) containing sapropterin dihydrochloride 100 mg | Valid |
+| 11691H | Kuvan | Sapropterin | Tablet (soluble) containing sapropterin dihydrochloride 100 mg | Valid |
+| 11970B | Kuvan | Sapropterin | Powder for oral solution 500 mg (as dihydrochloride) | Valid |
+| 11971C | Kuvan | Sapropterin | Powder for oral solution 500 mg (as dihydrochloride) | Valid |
+| 11973E | Kuvan | Sapropterin | Powder for oral solution 500 mg (as dihydrochloride) | Valid |
+| 11983Q | Kuvan | Sapropterin | Powder for oral solution 500 mg (as dihydrochloride) | Valid |
+| 12569M | Kuvan | Sapropterin | Tablet (soluble) containing sapropterin dihydrochloride 100 mg | Valid |
+| 12570N | Kuvan | Sapropterin | Powder for oral solution 500 mg (as dihydrochloride) | Valid |
+| 12579C | Kuvan | Sapropterin | Tablet (soluble) containing sapropterin dihydrochloride 100 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 254
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Entecavir"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 description: "Entecavir: predicted new indication Chronic hepatitis C virus infection (evidence level L4). In Australia: 2 PBS items (2 currently listed)"
@@ -86,9 +86,16 @@ The literature concerns HBV/HCV co-infection management. None of it shows enteca
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10279B | ENTECAVIR RBX | Tablet 0.5 mg (as monohydrate) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10279B | ENTECAVIR RBX | Entecavir | Tablet 0.5 mg (as monohydrate) | Valid |
+| 10353X | ENTECAVIR RBX | Entecavir | Tablet 1 mg (as monohydrate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Both current PBS items are single-ingredient oral products.
 

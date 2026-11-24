@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 613
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 description: "Pyridostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
@@ -75,9 +75,20 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 14392L | Mestinon | Tablet containing pyridostigmine bromide 10 mg | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1959D | Mestinon | Pyridostigmine | Tablet containing pyridostigmine bromide 60 mg | Valid |
+| 2608G | Mestinon Timespan | Pyridostigmine | Tablet containing pyridostigmine bromide 180 mg (modified release) | Valid |
+| 2724J | Mestinon | Pyridostigmine | Tablet containing pyridostigmine bromide 10 mg | Valid |
+| 14392L | Mestinon | Pyridostigmine | Tablet containing pyridostigmine bromide 10 mg | Valid |
+| 14462E | Mestinon Timespan | Pyridostigmine | Tablet containing pyridostigmine bromide 180 mg (modified release) | Valid |
+| 14529Q | Mestinon | Pyridostigmine | Tablet containing pyridostigmine bromide 60 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

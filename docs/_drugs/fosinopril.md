@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fosinopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Fosinopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -102,9 +102,16 @@ For other predictions, the literature is indirect or unhelpful. For pulmonary hy
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1182F | Monace 10 | Tablet containing fosinopril sodium 10 mg (oral) | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1182F | Monace 10 | Fosinopril | Tablet containing fosinopril sodium 10 mg | Valid |
+| 1183G | Monace 20 | Fosinopril | Tablet containing fosinopril sodium 20 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 *The licence number is reported as given in the data and should be verified against the ARTG.*
 

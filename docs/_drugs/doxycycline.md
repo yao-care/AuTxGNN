@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 description: "Doxycycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In Australia: at least 20 PBS items"
@@ -86,9 +86,36 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| Licence Number | Product Name | Dosage Form |
-|---------|------|------|
-| 10176N | Doxylin 100 | Tablet 100 mg (as hyclate), oral |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2702F | APX-Doxycycline | Doxycycline | Tablet 100 mg (as hyclate) | Valid |
+| 2703G | Mayne Pharma Doxycycline | Doxycycline | Capsule 100 mg (as hyclate) (containing enteric coated pellets) | Valid |
+| 2707L | Mayne Pharma Doxycycline | Doxycycline | Capsule 50 mg (as hyclate) (containing enteric coated pellets) | Valid |
+| 2708M | Mayne Pharma Doxycycline | Doxycycline | Capsule 100 mg (as hyclate) (containing enteric coated pellets) | Valid |
+| 2709N | APX-Doxycycline | Doxycycline | Tablet 100 mg (as hyclate) | Valid |
+| 2711Q | Doxsig | Doxycycline | Tablet 50 mg (as hyclate) | Valid |
+| 2714W | APX-Doxycycline | Doxycycline | Tablet 100 mg (as hyclate) | Valid |
+| 2715X | Mayne Pharma Doxycycline | Doxycycline | Capsule 100 mg (as hyclate) (containing enteric coated pellets) | Valid |
+| 3321T | APX-Doxycycline | Doxycycline | Tablet 100 mg (as hyclate) | Valid |
+| 3322W | Mayne Pharma Doxycycline | Doxycycline | Capsule 100 mg (as hyclate) (containing enteric coated pellets) | Valid |
+| 10176N | Doxylin 100 | Doxycycline | Tablet 100 mg (as hyclate) | Valid |
+| 10777F | Mayne Pharma Doxycycline | Doxycycline | Capsule 100 mg (as hyclate) (containing enteric coated pellets) | Valid |
+| 10779H | APX-Doxycycline | Doxycycline | Tablet 100 mg (as hyclate) | Valid |
+| 10781K | Doxycycline Sandoz | Doxycycline | Tablet 100 mg (as monohydrate) | Valid |
+| 14307B | Doxsig | Doxycycline | Tablet 50 mg (as hyclate) | Valid |
+| 14443E | Mayne Pharma Doxycycline | Doxycycline | Capsule 100 mg (as hyclate) (containing enteric coated pellets) | Valid |
+| 14480D | APX-Doxycycline | Doxycycline | Tablet 100 mg (as hyclate) | Valid |
+| 14484H | Mayne Pharma Doxycycline | Doxycycline | Capsule 50 mg (as hyclate) (containing enteric coated pellets) | Valid |
+| 14511R | Doxycycline Sandoz | Doxycycline | Tablet 100 mg (as monohydrate) | Valid |
+| 14513W | Doxycycline Sandoz | Doxycycline | Tablet 50 mg (as monohydrate) | Valid |
+
+The table shows 20 of 25 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The approved indication text was not available in the licence data compiled for this report. Only oral tablets are listed, and no ocular or topical formulation was identified.
 

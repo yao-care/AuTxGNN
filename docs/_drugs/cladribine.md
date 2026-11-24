@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cladribine"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cladribine: predicted new indication parameningeal embryonal rhabdomyosarcoma (evidence level L5). In Australia: 5 PBS items (5 currently listed)"
 ---
 
@@ -80,9 +80,19 @@ Currently no related literature available for this disease.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form |
-|---------|------|------|
-| ARTG 11603Q | Mavenclad | Tablet 10 mg |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4326Q | Leustatin | Cladribine | Solution for I.V. infusion 10 mg in 10 mL single use vial | Valid |
+| 7225G | Leustatin | Cladribine | Solution for I.V. infusion 10 mg in 10 mL single use vial | Valid |
+| 11603Q | Mavenclad | Cladribine | Tablet 10 mg | Valid |
+| 11604R | Mavenclad | Cladribine | Tablet 10 mg | Valid |
+| 11611D | Mavenclad | Cladribine | Tablet 10 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The approved indication text is not recorded in the local data.
 

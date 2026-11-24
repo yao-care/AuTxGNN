@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 790
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Zinc: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -73,9 +73,17 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for Z
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 7558T | nan | nan | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 390M | – | Zinc and Salicylic Acid Paste | – | Valid |
+| 7558T | – | Zinc | – | Valid |
+| 11401C | Cubitan | protein formula with arginine, vitamin C, E and zinc | Oral liquid 200 mL, 24 (Cubitan) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

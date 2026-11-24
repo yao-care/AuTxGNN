@@ -5,7 +5,7 @@ layout: default
 title: Onasemnogene Abeparvovec
 parent: Known Uses Only (No New Predictions)
 nav_order: 528
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Onasemnogene Abeparvovec: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Onasemnogene abeparvovec"
 predicted_indications: []
@@ -48,9 +48,36 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 12940C | Zolgensma | Pack containing 2 vials solution for I.V. infusion 20 trillion vector genomes per mL, 5.5 mL and 3 vials solution for I.V. infusion 20 trillion vector genomes per mL, 8.3 mL | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12940C | Zolgensma | Onasemnogene abeparvovec | Pack containing 2 vials solution for I.V. infusion 20 trillion vector genomes per mL, 5.5 mL and 3 vials solution for I… | Valid |
+| 12941D | Zolgensma | Onasemnogene abeparvovec | Pack containing 2 vials solution for I.V. infusion 20 trillion vector genomes per mL, 5.5 mL and 6 vials solution for I… | Valid |
+| 12942E | Zolgensma | Onasemnogene abeparvovec | Pack containing 1 vial solution for I.V. infusion 20 trillion vector genomes per mL, 5.5 mL and 4 vials solution for I.… | Valid |
+| 12949M | Zolgensma | Onasemnogene abeparvovec | Pack containing 9 vials solution for I.V. infusion 20 trillion vector genomes per mL, 8.3 mL | Valid |
+| 12950N | Zolgensma | Onasemnogene abeparvovec | Pack containing 2 vials solution for I.V. infusion 20 trillion vector genomes per mL, 5.5 mL and 4 vials solution for I… | Valid |
+| 12951P | Zolgensma | Onasemnogene abeparvovec | Pack containing 1 vial solution for I.V. infusion 20 trillion vector genomes per mL, 5.5 mL and 2 vials solution for I.… | Valid |
+| 12952Q | Zolgensma | Onasemnogene abeparvovec | Pack containing 2 vials solution for I.V. infusion 20 trillion vector genomes per mL, 5.5 mL and 7 vials solution for I… | Valid |
+| 12954T | Zolgensma | Onasemnogene abeparvovec | Pack containing 7 vials solution for I.V. infusion 20 trillion vector genomes per mL, 8.3 mL | Valid |
+| 12955W | Zolgensma | Onasemnogene abeparvovec | Pack containing 2 vials solution for I.V. infusion 20 trillion vector genomes per mL, 5.5 mL and 1 vial solution for I.… | Valid |
+| 12956X | Zolgensma | Onasemnogene abeparvovec | Pack containing 1 vial solution for I.V. infusion 20 trillion vector genomes per mL, 5.5 mL and 7 vials solution for I.… | Valid |
+| 12957Y | Zolgensma | Onasemnogene abeparvovec | Pack containing 2 vials solution for I.V. infusion 20 trillion vector genomes per mL, 8.3 mL | Valid |
+| 12958B | Zolgensma | Onasemnogene abeparvovec | Pack containing 2 vials solution for I.V. infusion 20 trillion vector genomes per mL, 5.5 mL and 2 vials solution for I… | Valid |
+| 12961E | Zolgensma | Onasemnogene abeparvovec | Pack containing 3 vials solution for I.V. infusion 20 trillion vector genomes per mL, 8.3 mL | Valid |
+| 12962F | Zolgensma | Onasemnogene abeparvovec | Pack containing 5 vials solution for I.V. infusion 20 trillion vector genomes per mL, 8.3 mL | Valid |
+| 12963G | Zolgensma | Onasemnogene abeparvovec | Pack containing 2 vials solution for I.V. infusion 20 trillion vector genomes per mL, 5.5 mL and 5 vials solution for I… | Valid |
+| 12964H | Zolgensma | Onasemnogene abeparvovec | Pack containing 1 vial solution for I.V. infusion 20 trillion vector genomes per mL, 5.5 mL and 8 vials solution for I.… | Valid |
+| 12971Q | Zolgensma | Onasemnogene abeparvovec | Pack containing 4 vials solution for I.V. infusion 20 trillion vector genomes per mL, 8.3 mL | Valid |
+| 12973T | Zolgensma | Onasemnogene abeparvovec | Pack containing 6 vials solution for I.V. infusion 20 trillion vector genomes per mL, 8.3 mL | Valid |
+| 12974W | Zolgensma | Onasemnogene abeparvovec | Pack containing 8 vials solution for I.V. infusion 20 trillion vector genomes per mL, 8.3 mL | Valid |
+| 12975X | Zolgensma | Onasemnogene abeparvovec | Pack containing 1 vial solution for I.V. infusion 20 trillion vector genomes per mL, 5.5 mL and 6 vials solution for I.… | Valid |
+
+The table shows 20 of 74 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

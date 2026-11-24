@@ -3,7 +3,7 @@ layout: default
 title: Ondansetron
 parent: Known Uses Only (No New Predictions)
 nav_order: 529
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Ondansetron: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -71,9 +71,31 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Ondansetron,
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1594X | Zofran | Tablet 4 mg (as hydrochloride dihydrate) | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1594X | Zofran | Ondansetron | Tablet 4 mg (as hydrochloride dihydrate) | Valid |
+| 1595Y | Zofran | Ondansetron | Tablet 8 mg (as hydrochloride dihydrate) | Valid |
+| 5470X | Ondansetron ODT-DRLA | Ondansetron | Tablet (orally disintegrating) 4 mg | Valid |
+| 5471Y | Ondansetron ODT-DRLA | Ondansetron | Tablet (orally disintegrating) 8 mg | Valid |
+| 5472B | Ondansetron ODT-DRLA | Ondansetron | Tablet (orally disintegrating) 4 mg | Valid |
+| 5473C | Ondansetron ODT-DRLA | Ondansetron | Tablet (orally disintegrating) 8 mg | Valid |
+| 5848T | Zofran syrup 50 mL | Ondansetron | Syrup 4 mg (as hydrochloride dihydrate) per 5 mL, 50 mL | Valid |
+| 5857G | Ondansetron ODT-DRLA | Ondansetron | Tablet (orally disintegrating) 4 mg | Valid |
+| 5858H | Ondansetron ODT-DRLA | Ondansetron | Tablet (orally disintegrating) 8 mg | Valid |
+| 5967C | Zofran | Ondansetron | Tablet 4 mg (as hydrochloride dihydrate) | Valid |
+| 5968D | Zofran | Ondansetron | Tablet 8 mg (as hydrochloride dihydrate) | Valid |
+| 8224W | Zofran | Ondansetron | Tablet 4 mg (as hydrochloride dihydrate) | Valid |
+| 8225X | Zofran | Ondansetron | Tablet 8 mg (as hydrochloride dihydrate) | Valid |
+| 8233H | Zofran syrup 50 mL | Ondansetron | Syrup 4 mg (as hydrochloride dihydrate) per 5 mL, 50 mL | Valid |
+| 8412R | Zofran Zydis | Ondansetron | Wafer 4 mg | Valid |
+| 8413T | Zofran Zydis | Ondansetron | Wafer 8 mg | Valid |
+| 9441X | Zofran syrup 50 mL | Ondansetron | Syrup 4 mg (as hydrochloride dihydrate) per 5 mL, 50 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

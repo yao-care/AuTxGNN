@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 191
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cytarabine: predicted new indication Small cell lung carcinoma (evidence level L4). Approved use: Acute lymphoblastic leukaemia and acute myeloid leukaemia (including…"
 monitor_inn: "Cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
@@ -80,9 +80,20 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4357H | Pfizer Australia Pty Ltd | Injection 100 mg in 5 mL vial | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4357H | Pfizer Australia Pty Ltd | Cytarabine | Injection 100 mg in 5 mL vial | Valid |
+| 7227J | Pfizer Australia Pty Ltd | Cytarabine | Injection 100 mg in 5 mL vial | Valid |
+| 14661P | Vyxeos | Daunorubicin + cytarabine | Powder for I.V. infusion containing daunorubicin 44 mg (as hydrochloride) and cytarabine 100 mg | Valid |
+| 14663R | Vyxeos | Daunorubicin + cytarabine | Powder for I.V. infusion containing daunorubicin 44 mg (as hydrochloride) and cytarabine 100 mg | Valid |
+| 14669C | Vyxeos | Daunorubicin + cytarabine | Powder for I.V. infusion containing daunorubicin 44 mg (as hydrochloride) and cytarabine 100 mg | Valid |
+| 14672F | Vyxeos | Daunorubicin + cytarabine | Powder for I.V. infusion containing daunorubicin 44 mg (as hydrochloride) and cytarabine 100 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

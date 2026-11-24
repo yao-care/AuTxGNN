@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 733
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). In Australia: 8 PBS items (8 currently listed)"
@@ -80,9 +80,22 @@ Currently no related clinical trials registered for exposure keratitis.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10066T | TOBI Podhaler | Capsule containing powder for oral inhalation 28 mg (for use in Podhaler) | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1356J | Tobramycin Viatris | Tobramycin | Injection 80 mg in 2 mL | Valid |
+| 5442K | Tobi | Tobramycin | Solution for inhalation 300 mg in 5 mL | Valid |
+| 8872Y | Pfizer Australia Pty Ltd | Tobramycin | Injection 80 mg (as sulfate) in 2 mL (without preservative) | Valid |
+| 9480Y | Tobra-Day | Tobramycin | Injection 500 mg (as sulfate) in 5 mL (without preservative) | Valid |
+| 10066T | TOBI podhaler | Tobramycin | Capsule containing powder for oral inhalation 28 mg (for use in podhaler) | Valid |
+| 10074F | TOBI podhaler | Tobramycin | Capsule containing powder for oral inhalation 28 mg (for use in podhaler) | Valid |
+| 13965B | TOBI podhaler | Tobramycin | Capsule containing powder for oral inhalation 28 mg (for use in podhaler) | Valid |
+| 14006E | Tobi | Tobramycin | Solution for inhalation 300 mg in 5 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The listed Australian products are inhaled formulations and injections. There is no registered ophthalmic formulation in the data compiled for this report, so route compatibility with an eye indication is unconfirmed.
 

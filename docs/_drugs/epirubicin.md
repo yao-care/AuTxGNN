@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 259
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -77,9 +77,16 @@ The retrieved publications are indirect. They are case reports, small retrospect
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4375G | Epirubicin Accord | Solution for injection containing epirubicin hydrochloride 200 mg in 100 mL | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4375G | Epirubicin Accord | Epirubicin | Solution for injection containing epirubicin hydrochloride 200 mg in 100 mL | Valid |
+| 7231N | Epirubicin Accord | Epirubicin | Solution for injection containing epirubicin hydrochloride 200 mg in 100 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

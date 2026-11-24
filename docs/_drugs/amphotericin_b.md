@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 49
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Amphotericin B: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -86,9 +86,16 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 2931G | Fungilin | Lozenge 10 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2931G | Fungilin | Amphotericin B | Lozenge 10 mg | Valid |
+| 3306B | Fungilin | Amphotericin B | Lozenge 10 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

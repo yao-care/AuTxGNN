@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 302
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Oral candidiasis, oesophageal candidiasis, vulvovaginal candidiasis…"
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -69,9 +69,18 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1471K | Diflucan | Capsule 50 mg | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1471K | Diflucan | Fluconazole | Capsule 50 mg | Valid |
+| 1472L | Diflucan | Fluconazole | Capsule 100 mg | Valid |
+| 1475P | Diflucan | Fluconazole | Capsule 200 mg | Valid |
+| 5446P | Diflucan | Fluconazole | Powder for oral suspension 50 mg in 5 mL, 35 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The listed dosage forms are oral capsules (50 mg, 100 mg and 200 mg) and a powder for oral suspension. Whether an ophthalmic or topical route would be needed for the predicted indication has not been assessed.
 

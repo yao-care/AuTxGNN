@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "Magnesium sulfate"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L3). In Australia: 1 PBS item (1 currently listed)"
 ---
 
@@ -49,6 +49,7 @@ Magnesium sulfate is a magnesium salt that has long been marketed in Australia. 
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L3 |
 | Australia Market Status | Listed on the PBS Schedule (1 of 1 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,9 +80,15 @@ Human data are sparse. They consist of one small non-randomised pilot study in p
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 307E (licence number as recorded) | 1 (valid: 1) | Not specified | Not specified in the licence record |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 307E | – | Magnesium Sulfate (may only be prescribed for other than oral use) | – | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The Australian register lists one valid single-ingredient licence for this drug.
 

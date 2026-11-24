@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 644
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the Australian licence data (the approved indication…"
 monitor_inn: "Rivaroxaban"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -75,9 +75,31 @@ Currently no related clinical trials registered for rheumatoid arthritis.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11633G | Rivaroxaban Dr.Reddy's | Tablet 10 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2160Q | Xarelto | Rivaroxaban | Tablet 15 mg | Valid |
+| 2268J | Xarelto | Rivaroxaban | Tablet 20 mg | Valid |
+| 2691P | Xarelto | Rivaroxaban | Tablet 15 mg | Valid |
+| 9466F | Xarelto | Rivaroxaban | Tablet 10 mg | Valid |
+| 9467G | Rivaroxaban Dr.Reddy's | Rivaroxaban | Tablet 10 mg | Valid |
+| 9469J | Xarelto | Rivaroxaban | Tablet 10 mg | Valid |
+| 11633G | Rivaroxaban Dr.Reddy''s | Rivaroxaban | Tablet 10 mg | Valid |
+| 12192Q | Xarelto | Rivaroxaban | Tablet 2.5 mg | Valid |
+| 12197Y | Xarelto | Rivaroxaban | Tablet 2.5 mg | Valid |
+| 13366L | Xarelto | Rivaroxaban | Tablet 2.5 mg | Valid |
+| 13462M | Xarelto | Rivaroxaban | Tablet 20 mg | Valid |
+| 13463N | Xarelto | Rivaroxaban | Tablet 15 mg | Valid |
+| 13521P | Rivaroxaban Dr.Reddy's | Rivaroxaban | Tablet 10 mg | Valid |
+| 14969W | Relaban | Rivaroxaban | Capsule 15 mg | Valid |
+| 14994E | Relaban | Rivaroxaban | Capsule 20 mg | Valid |
+| 15017J | Relaban | Rivaroxaban | Capsule 20 mg | Valid |
+| 15037K | Relaban | Rivaroxaban | Capsule 15 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

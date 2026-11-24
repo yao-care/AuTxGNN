@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "adapalene"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
 ---
 
@@ -70,9 +70,17 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 13363H | Epiduo | Gel 1 mg-25 mg per g, 30 g | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8954G | Epiduo | Adapalene + benzoyl peroxide | Gel 1 mg-25 mg per g, 30 g | Valid |
+| 8955H | Epiduo | Adapalene + benzoyl peroxide | Gel 1 mg-25 mg per g, 30 g | Valid |
+| 13363H | Epiduo | Adapalene + benzoyl peroxide | Gel 1 mg-25 mg per g, 30 g | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 This is a combination product licence (listed as a single-ingredient entry in the data), so it should not be taken to describe how adapalene alone is approved. The dosage form is topical.
 

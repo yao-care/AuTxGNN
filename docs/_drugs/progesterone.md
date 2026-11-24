@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 606
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). In Australia: 11 PBS items (11 currently listed)"
@@ -91,10 +91,25 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10116K | Endometrin | Vaginal tablet 100 mg | Not available in the data compiled for this report |
-| ARTG 14720R | Estrogel Pro | Pack with 30 capsules of micronised progesterone 100 mg and estradiol transdermal gel 750 micrograms per 1.25 g dose (64 doses) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 6366C | Crinone 8% | Progesterone | Vaginal gel (prolonged release) 90 mg in single dose pre-filled applicator | Valid |
+| 9608Q | Oripro | Progesterone | Pessary 100 mg | Valid |
+| 9609R | Oripro | Progesterone | Pessary 200 mg | Valid |
+| 10116K | Endometrin | Progesterone | Vaginal tablet 100 mg | Valid |
+| 10930G | Utrogestan | Progesterone | Capsule 200 mg | Valid |
+| 12465C | Oripro | Progesterone | Pessary 200 mg | Valid |
+| 12598C | Utrogestan | Progesterone | Capsule 200 mg | Valid |
+| 14720R | Estrogel Pro | progesterone (&) estradiol | Pack containing 30 capsules progesterone 100 mg (micronised) and transdermal gel (pump pack) estradiol 750 micrograms (… | Valid |
+| 14721T | Estrogel Pro | progesterone (&) estradiol | Pack containing 30 capsules progesterone 100 mg (micronised) and transdermal gel (pump pack) estradiol 750 micrograms (… | Valid |
+| 14730G | Prometrium | Progesterone | Capsule 100 mg | Valid |
+| 14733K | Prometrium | Progesterone | Capsule 100 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 All eleven current PBS items are listed: vaginal tablets, capsules, pessaries and gel, oral capsules, and Estrogel Pro. Estrogel Pro is a co-packaged product with estradiol, so its licence does not describe progesterone alone.
 

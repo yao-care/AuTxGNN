@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 694
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Sunitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). In Australia: at least 20 PBS items"
@@ -82,9 +82,36 @@ No ANZCTR identifiers were available in the data compiled.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10004M | Sunitinib Sandoz | Capsule 12.5 mg | Not recorded in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2837H | Sunitinib Sandoz | Sunitinib | Capsule 50 mg | Valid |
+| 2842N | Sunitinib Sandoz | Sunitinib | Capsule 25 mg | Valid |
+| 2959R | Sunitinib Sandoz | Sunitinib | Capsule 25 mg | Valid |
+| 9417P | Sunitinib Sandoz | Sunitinib | Capsule 12.5 mg | Valid |
+| 9418Q | Sunitinib Sandoz | Sunitinib | Capsule 25 mg | Valid |
+| 9419R | Sunitinib Sandoz | Sunitinib | Capsule 50 mg | Valid |
+| 9420T | Sunitinib Sandoz | Sunitinib | Capsule 12.5 mg | Valid |
+| 9421W | Sunitinib Sandoz | Sunitinib | Capsule 25 mg | Valid |
+| 10004M | Sunitinib Sandoz | Sunitinib | Capsule 12.5 mg | Valid |
+| 10009T | Sunitinib Sandoz | Sunitinib | Capsule 12.5 mg | Valid |
+| 10010W | Sunitinib Sandoz | Sunitinib | Capsule 50 mg | Valid |
+| 10459L | Sutent | Sunitinib | Capsule 37.5 mg | Valid |
+| 10464R | Sutent | Sunitinib | Capsule 37.5 mg | Valid |
+| 10473F | Sutent | Sunitinib | Capsule 37.5 mg | Valid |
+| 10503T | Sutent | Sunitinib | Capsule 37.5 mg | Valid |
+| 10504W | Sutent | Sunitinib | Capsule 37.5 mg | Valid |
+| 11250D | Sunitinib Sandoz | Sunitinib | Capsule 50 mg | Valid |
+| 11253G | Sunitinib Sandoz | Sunitinib | Capsule 25 mg | Valid |
+| 11256K | Sutent | Sunitinib | Capsule 37.5 mg | Valid |
+| 11266Y | Sunitinib Sandoz | Sunitinib | Capsule 12.5 mg | Valid |
+
+The table shows 20 of 24 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

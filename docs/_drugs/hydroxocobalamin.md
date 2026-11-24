@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Hydroxocobalamin"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
 description: "Hydroxocobalamin: predicted new indication Esophageal varices without bleeding (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -73,9 +73,18 @@ Examples include [38987879](https://pubmed.ncbi.nlm.nih.gov/38987879/) (2024, Re
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10577Q | Vita-B12 | Injection 1 mg (as acetate) in 1 mL | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2162T | Vita-B12 | Hydroxocobalamin | Injection 1 mg (as acetate) in 1 mL | Valid |
+| 9048F | Neo-B12 | Hydroxocobalamin | Injection 1 mg (as chloride) in 1 mL | Valid |
+| 10577Q | Vita-B12 | Hydroxocobalamin | Injection 1 mg (as acetate) in 1 mL | Valid |
+| 10587F | Neo-B12 | Hydroxocobalamin | Injection 1 mg (as chloride) in 1 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

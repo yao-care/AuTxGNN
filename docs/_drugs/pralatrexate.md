@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 593
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pralatrexate"
 predicted_indications: ["pleural adenomatoid tumor", "relapsing-remitting multiple sclerosis", "pleural biphasic mesothelioma", "pleural epithelioid mesothelioma", "lymphohistiocytoid mesothelioma", "pericardium cancer", "pleural sarcomatoid mesothelioma", "malignant peritoneal mesothelioma", "well differentiated papillary mesothelioma", "pleural mesothelioma"]
 description: "Pralatrexate: predicted new indication Pleural adenomatoid tumor (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -91,9 +91,18 @@ The following publications relate to the better-supported mesothelioma predictio
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 11271F | Folotyn | Solution for I.V. infusion, 20 mg in 1 mL | Not provided in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11271F | Folotyn | Pralatrexate | Solution for I.V. infusion 20 mg in 1 mL | Valid |
+| 11272G | Folotyn | Pralatrexate | Solution for I.V. infusion 20 mg in 1 mL | Valid |
+| 11278N | Folotyn | Pralatrexate | Solution for I.V. infusion 20 mg in 1 mL | Valid |
+| 11293J | Folotyn | Pralatrexate | Solution for I.V. infusion 20 mg in 1 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Pralatrexate is available in Australia only as an intravenous injection.
 

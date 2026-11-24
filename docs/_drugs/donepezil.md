@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil: predicted new indication Psychogenic movement disorders (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -112,9 +112,18 @@ Selected literature for other predictions:
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 2479L | Aricept | Tablet containing donepezil hydrochloride 10 mg (oral) | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2479L | Aricept | Donepezil | Tablet containing donepezil hydrochloride 10 mg | Valid |
+| 2532G | Aricept | Donepezil | Tablet containing donepezil hydrochloride 5 mg | Valid |
+| 8495D | Aricept | Donepezil | Tablet containing donepezil hydrochloride 5 mg | Valid |
+| 8496E | Aricept | Donepezil | Tablet containing donepezil hydrochloride 10 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

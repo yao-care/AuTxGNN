@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Esketamine"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Esketamine: predicted new indication Agoraphobia (evidence level L5). In Australia: 18 PBS items (18 currently listed)"
@@ -141,9 +141,32 @@ No publications were found for agoraphobia.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14786F | Spravato | Nasal spray device, 28 mg in 2 actuations | Not available in the data compiled; refer to the TGA Product Information |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 14786F | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14787G | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14794P | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14798W | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14811M | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14812N | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14813P | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14814Q | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14815R | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14816T | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14821C | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14822D | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14823E | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14830M | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14831N | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14835T | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14836W | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+| 14837X | Spravato | Esketamine | Nasal spray device 28 mg in 2 actuations | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

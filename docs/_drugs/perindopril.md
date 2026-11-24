@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 562
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "Perindopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Australia: at least 20 PBS items"
@@ -101,9 +101,36 @@ These studies are small, older, partly non-English, and their designs cannot be 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13371R | PERISYL | Tablet containing perindopril erbumine 4 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2190G | Coversyl Plus LD 2.5mg/0.625mg | Perindopril + indapamide | Tablet containing perindopril arginine 2.5 mg with indapamide hemihydrate 0.625 mg | Valid |
+| 3050M | PERISYL | Perindopril | Tablet containing perindopril erbumine 2 mg | Valid |
+| 3051N | PERISYL | Perindopril | Tablet containing perindopril erbumine 4 mg | Valid |
+| 8704D | PERISYL | Perindopril | Tablet containing perindopril erbumine 8 mg | Valid |
+| 9006B | PREXUM 2.5 | Perindopril | Tablet containing perindopril arginine 2.5 mg | Valid |
+| 9007C | PREXUM 5 | Perindopril | Tablet containing perindopril arginine 5 mg | Valid |
+| 9008D | PREXUM 10 | Perindopril | Tablet containing perindopril arginine 10 mg | Valid |
+| 13371R | PERISYL | Perindopril | Tablet containing perindopril erbumine 4 mg | Valid |
+| 13372T | PERISYL | Perindopril | Tablet containing perindopril erbumine 8 mg | Valid |
+| 13381G | APO-Perindopril Arginine/Amlodipine 5/10 | Perindopril + amlodipine | Tablet containing 5 mg perindopril arginine with 10 mg amlodipine (as besilate) | Valid |
+| 13382H | APO-Perindopril Arginine/Amlodipine 10/10 | Perindopril + amlodipine | Tablet containing 10 mg perindopril arginine with 10 mg amlodipine (as besilate) | Valid |
+| 13404L | PERISYL | Perindopril | Tablet containing perindopril erbumine 2 mg | Valid |
+| 13413Y | Coversyl Plus LD 2.5mg/0.625mg | Perindopril + indapamide | Tablet containing perindopril arginine 2.5 mg with indapamide hemihydrate 0.625 mg | Valid |
+| 13476G | GenRx Perindopril/ Indapamide 4/1.25 | Perindopril + indapamide | Tablet containing perindopril erbumine 4 mg with indapamide hemihydrate 1.25 mg | Valid |
+| 13478J | APO-Perindopril Arginine/Amlodipine 10/5 | Perindopril + amlodipine | Tablet containing 10 mg perindopril arginine with 5 mg amlodipine (as besilate) | Valid |
+| 13494F | PREXUM 2.5 | Perindopril | Tablet containing perindopril arginine 2.5 mg | Valid |
+| 13506W | Coversyl Plus 5mg/1.25mg | Perindopril + indapamide | Tablet containing perindopril arginine 5 mg with indapamide hemihydrate 1.25 mg | Valid |
+| 13508Y | APO-Perindopril Arginine/Amlodipine 5/5 | Perindopril + amlodipine | Tablet containing 5 mg perindopril arginine with 5 mg amlodipine (as besilate) | Valid |
+| 13555K | PREXUM 10 | Perindopril | Tablet containing perindopril arginine 10 mg | Valid |
+| 13585B | PREXUM 5 | Perindopril | Tablet containing perindopril arginine 5 mg | Valid |
+
+The table shows 20 of 26 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

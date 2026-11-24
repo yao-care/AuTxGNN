@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Ceftriaxone"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ceftriaxone: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). In Australia: 11 PBS items (11 currently listed)"
 ---
 
@@ -69,9 +69,25 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11169W | Ceftriaxone Viatris | Powder for injection 2 g (as sodium) | Indication text not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1783W | Ceftriaxone-AFT | Ceftriaxone | Powder for injection 500 mg (as sodium) | Valid |
+| 9058R | Ceftriaxone-AFT | Ceftriaxone | Powder for injection 500 mg (as sodium) | Valid |
+| 11169W | Ceftriaxone Viatris | Ceftriaxone | Powder for injection 2 g (as sodium) | Valid |
+| 12112L | Ceftriaxone Viatris | Ceftriaxone | Powder for injection 2 g (as sodium) | Valid |
+| 12114N | Ceftriaxone Viatris | Ceftriaxone | Powder for injection 1 g (as sodium) | Valid |
+| 14695K | Ceftriaxone Viatris | Ceftriaxone | Powder for injection 2 g (as sodium) | Valid |
+| 14697M | Ceftriaxone-AFT | Ceftriaxone | Powder for injection 500 mg (as sodium) | Valid |
+| 14699P | Ceftriaxone Viatris | Ceftriaxone | Powder for injection 2 g (as sodium) | Valid |
+| 14700Q | Ceftriaxone Viatris | Ceftriaxone | Powder for injection 1 g (as sodium) | Valid |
+| 15171L | Ceftriaxone Viatris | Ceftriaxone | Powder for injection 2 g (as sodium) | Valid |
+| 15179X | Ceftriaxone Viatris | Ceftriaxone | Powder for injection 2 g (as sodium) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 791
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Zinc oxide"
 predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis"]
 description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). In Australia: 6 PBS items (6 currently listed)"
@@ -86,9 +86,20 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 598L | Not available | Not available | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 598L | – | Zinc Oxide | – | Valid |
+| 4039N | Anusol | zinc oxide + peru balsam + benzyl benzoate | Compound ointment 50 g | Valid |
+| 4040P | Anusol | zinc oxide + peru balsam + benzyl benzoate | Compound suppositories, 12 | Valid |
+| 4280G | Egoderm Ointment | Ichthammol + zinc oxide | Ointment 10 mg-150 mg per g (1%-15%), 50 g | Valid |
+| 4497Q | Z.S.C. | zinc oxide + maize starch + purified talc + chlorphenesin | Dusting powder 100 g | Valid |
+| 7902X | – | Boric Acid, Olive Oil and Zinc Oxide | – | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

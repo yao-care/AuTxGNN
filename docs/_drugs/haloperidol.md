@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 349
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Haloperidol"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). In Australia: 9 PBS items (9 currently listed)"
@@ -80,9 +80,23 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12519X | HALOPERIDOL MEDSURGE | Injection 5 mg in 1 mL | Not specified in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2761H | Serenace | Haloperidol | Tablet 500 micrograms | Valid |
+| 2763K | Serenace | Haloperidol | Oral solution 2 mg per mL, 100 mL | Valid |
+| 2765M | Haldol decanoate | haloperidol decanoate | I.M. injection equivalent to 50 mg haloperidol in 1 mL ampoule | Valid |
+| 2766N | Haldol decanoate | haloperidol decanoate | I.M. injection equivalent to 150 mg haloperidol in 3 mL ampoule | Valid |
+| 2767P | Serenace | Haloperidol | Tablet 1.5 mg | Valid |
+| 2768Q | HALOPERIDOL MEDSURGE | Haloperidol | Injection 5 mg in 1 mL | Valid |
+| 2770T | Serenace | Haloperidol | Tablet 5 mg | Valid |
+| 3456X | HALOPERIDOL MEDSURGE | Haloperidol | Injection 5 mg in 1 mL | Valid |
+| 12519X | HALOPERIDOL MEDSURGE | Haloperidol | Injection 5 mg in 1 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Only an injectable form is registered. Please confirm the approved indications in the TGA Product Information.
 

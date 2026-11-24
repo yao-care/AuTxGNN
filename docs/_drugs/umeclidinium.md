@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 760
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Umeclidinium: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,22 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Umeclidinium
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 10187E | Incruse Ellipta | Powder for oral inhalation in breath act | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10187E | Incruse Ellipta | Umeclidinium | Powder for oral inhalation in breath actuated device 62.5 micrograms (as bromide) per dose, 30 doses | Valid |
+| 10188F | Anoro Ellipta 62.5/25 | umeclidinium + vilanterol | Powder for oral inhalation in breath actuated device containing umeclidinium 62.5 micrograms (as bromide) with vilanter… | Valid |
+| 11379X | Trelegy Ellipta 100/62.5/25 | fluticasone furoate + umeclidinium + vilanterol | Powder for oral inhalation in breath actuated device containing fluticasone furoate 100 micrograms with umeclidinium 62… | Valid |
+| 12917W | Trelegy Ellipta 200/62.5/25 | fluticasone furoate + umeclidinium + vilanterol | Powder for oral inhalation in breath actuated device containing fluticasone furoate 200 micrograms with umeclidinium 62… | Valid |
+| 14346C | Trelegy Ellipta 100/62.5/25 | fluticasone furoate + umeclidinium + vilanterol | Powder for oral inhalation in breath actuated device containing fluticasone furoate 100 micrograms with umeclidinium 62… | Valid |
+| 14358Q | Anoro Ellipta 62.5/25 | umeclidinium + vilanterol | Powder for oral inhalation in breath actuated device containing umeclidinium 62.5 micrograms (as bromide) with vilanter… | Valid |
+| 14382Y | Trelegy Ellipta 200/62.5/25 | fluticasone furoate + umeclidinium + vilanterol | Powder for oral inhalation in breath actuated device containing fluticasone furoate 200 micrograms with umeclidinium 62… | Valid |
+| 14389H | Incruse Ellipta | Umeclidinium | Powder for oral inhalation in breath actuated device 62.5 micrograms (as bromide) per dose, 30 doses | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

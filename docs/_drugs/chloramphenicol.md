@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Chloramphenicol"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chloramphenicol: predicted new indication Diffuse scleroderma (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
@@ -75,9 +75,16 @@ None of these studies evaluates chloramphenicol as a treatment for diffuse scler
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11112W | Chlorsig | Eye drops 5 mg per mL, 10 mL | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11112W | Chlorsig | Chloramphenicol | Eye drops 5 mg per mL, 10 mL | Valid |
+| 14180H | Chlorsig | Chloramphenicol | Eye drops 5 mg per mL, 10 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Both PBS items in the local data are single-ingredient ophthalmic products, and both are currently listed. No systemic or oral formulation is recorded.
 

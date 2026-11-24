@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "cobicistat"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cobicistat: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 
@@ -70,12 +70,18 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10903W | Prezcobix | Tablet containing darunavir 800 mg with cobicistat 150 mg | Not recorded in the local data |
-| ARTG 10692R | Evotaz | Tablet containing atazanavir 300 mg and cobicistat 150 mg | Not recorded in the local data |
-| ARTG 11114Y | Genvoya | Tablet containing tenofovir alafenamide 10 mg, emtricitabine 200 mg, elvitegravir 150 mg and cobicistat 150 mg | Not recorded in the local data |
-| ARTG 11955F | Symtuza | Tablet containing darunavir 800 mg, cobicistat 150 mg, emtricitabine 200 mg and tenofovir alafenamide 10 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10692R | Evotaz | Atazanavir + cobicistat | Tablet containing 300 mg atazanavir and 150 mg cobicistat | Valid |
+| 10903W | Prezcobix | Darunavir + cobicistat | Tablet containing darunavir 800 mg with cobicistat 150 mg | Valid |
+| 11114Y | Genvoya | tenofovir alafenamide + emtricitabine + elvitegravir + cobicistat | Tablet containing tenofovir alafenamide 10 mg with emtricitabine 200 mg, elvitegravir 150 mg and cobicistat 150 mg | Valid |
+| 11955F | Symtuza | darunavir + cobicistat + emtricitabine + tenofovir alafenamide | Tablet containing darunavir 800 mg with cobicistat 150 mg, emtricitabine 200 mg and tenofovir alafenamide 10 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

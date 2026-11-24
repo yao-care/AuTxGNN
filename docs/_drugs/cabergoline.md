@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cabergoline"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabergoline: predicted new indication progeria-short stature-pigmented nevi syndrome (evidence level L5). In Australia: 7 PBS items (7 currently listed)"
 ---
 
@@ -68,9 +68,21 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| Licence Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 13901P | Dostinex | Tablet 500 micrograms (oral) | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8114C | Dostinex | Cabergoline | Tablet 500 micrograms | Valid |
+| 8115D | Dostinex | Cabergoline | Tablet 500 micrograms | Valid |
+| 8393R | Cabaser | Cabergoline | Tablet 1 mg | Valid |
+| 8394T | Cabaser | Cabergoline | Tablet 2 mg | Valid |
+| 13901P | Dostinex | Cabergoline | Tablet 500 micrograms | Valid |
+| 14516B | Cabaser | Cabergoline | Tablet 1 mg | Valid |
+| 14543K | Cabaser | Cabergoline | Tablet 2 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Seven current single-ingredient PBS items are on record.
 

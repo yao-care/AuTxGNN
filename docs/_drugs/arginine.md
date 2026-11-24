@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 58
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Arginine: predicted new indication Gastroparesis (evidence level L4). Approved use: Not available"
 monitor_inn: "arginine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -97,10 +97,18 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10093F | Arginine 5000 | Sachets of oral powder 7.6 g containing 5 g arginine, 30 | Not available |
-| 11401C | Cubitan | Oral liquid 200 mL, 24 | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5482M | Arginine 2000 | arginine with carbohydrate | Sachets of oral powder 4 g containing 2 g arginine, 30 (Arginine 2000) | Valid |
+| 9437Q | Arginine 500 | arginine with carbohydrate | Sachets of oral powder 4 g containing 500 mg arginine, 30 (Arginine 500) | Valid |
+| 10093F | Arginine 5000 | arginine with carbohydrate | Sachets of oral powder 7.6 g containing 5 g arginine, 30 (Arginine 5000) | Valid |
+| 11401C | Cubitan | protein formula with arginine, vitamin C, E and zinc | Oral liquid 200 mL, 24 (Cubitan) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Perhexiline: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the Australian licence data (historically used as an…"
 monitor_inn: "Perhexiline"
 predicted_indications: ["migraine disorder"]
@@ -69,9 +69,15 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1822X | Pexsig | Tablet containing perhexiline maleate 100 mg (oral) | Not recorded in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1822X | Pexsig | Perhexiline | Tablet containing perhexiline maleate 100 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

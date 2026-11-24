@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desmopressin: predicted new indication congenital prothrombin deficiency (evidence level L5). In Australia: 17 PBS items (16 currently listed)"
 ---
 
@@ -79,9 +79,31 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12458Q | Desmopressin Nasal Spray USP (Apotex) | Nasal spray (pump pack), desmopressin acetate 10 micrograms per actuation, 50 actuations, 5 mL | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8662X | Minirin | Desmopressin | Tablet containing desmopressin acetate 200 micrograms | Valid |
+| 8663Y | Minirin | Desmopressin | Tablet containing desmopressin acetate 200 micrograms | Valid |
+| 8711L | Minirin Nasal Spray | Desmopressin | Nasal spray (pump pack) containing desmopressin acetate 10 micrograms per actuation, 60 actuations, 6 mL | Valid |
+| 8712M | Minirin Nasal Spray | Desmopressin | Nasal spray (pump pack) containing desmopressin acetate 10 micrograms per actuation, 60 actuations, 6 mL | Valid |
+| 8975J | Minirin Melt | Desmopressin | Wafer 240 micrograms (as acetate) | Valid |
+| 9398P | Minirin Melt | Desmopressin | Wafer 120 micrograms (as acetate) | Valid |
+| 13889B | Minirin | Desmopressin | Tablet containing desmopressin acetate 200 micrograms | Valid |
+| 13890C | Minirin Melt | Desmopressin | Wafer 240 micrograms (as acetate) | Valid |
+| 13945Y | Minirin | Desmopressin | Tablet containing desmopressin acetate 200 micrograms | Valid |
+| 14004C | Minirin Melt | Desmopressin | Wafer 120 micrograms (as acetate) | Valid |
+| 15282H | Desmomed | Desmopressin | Nasal spray (pump pack) containing desmopressin acetate 10 micrograms per actuation, 50 actuations, 5 mL | Valid |
+| 15291T | Desmopressin ADVZ | Desmopressin | Tablet (sublingual) 240 micrograms (as acetate) | Valid |
+| 15312X | Desmopressin ADVZ | Desmopressin | Tablet (sublingual) 240 micrograms (as acetate) | Valid |
+| 15313Y | Desmopressin ADVZ | Desmopressin | Tablet (sublingual) 120 micrograms (as acetate) | Valid |
+| 15323L | Desmopressin ADVZ | Desmopressin | Tablet (sublingual) 120 micrograms (as acetate) | Valid |
+| 15333B | Desmomed | Desmopressin | Nasal spray (pump pack) containing desmopressin acetate 10 micrograms per actuation, 50 actuations, 5 mL | Valid |
+| 12458Q | Desmopressin Nasal Spray USP (Apotex) | Desmopressin | Nasal spray (pump pack) containing desmopressin acetate 10 micrograms per actuation, 50 actuations, 5 mL, USP (Apotex) | No longer listed on the PBS Schedule |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

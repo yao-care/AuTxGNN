@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Glimepiride"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Glimepiride: predicted new indication Classic stiff person syndrome (evidence level L5). In Australia: 8 PBS items (8 currently listed)"
@@ -79,9 +79,22 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form |
-|---------|------|------|
-| ARTG 13848W | Glimepiride Sandoz | Tablet 1 mg (oral) |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8450R | Glimepiride Sandoz | Glimepiride | Tablet 1 mg | Valid |
+| 8451T | Glimepiride Sandoz | Glimepiride | Tablet 2 mg | Valid |
+| 8452W | Glimepiride Sandoz | Glimepiride | Tablet 4 mg | Valid |
+| 8533D | Glimepiride Sandoz | Glimepiride | Tablet 3 mg | Valid |
+| 13848W | Glimepiride Sandoz | Glimepiride | Tablet 1 mg | Valid |
+| 13870B | Glimepiride Sandoz | Glimepiride | Tablet 2 mg | Valid |
+| 14020X | Glimepiride Sandoz | Glimepiride | Tablet 3 mg | Valid |
+| 14055R | Glimepiride Sandoz | Glimepiride | Tablet 4 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The approved indication text was not available for this entry. Refer to the TGA Product Information (PI).
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 537
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -105,9 +105,18 @@ Currently no related clinical trials are registered for any of the ten predicted
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13957N | Ditropan | Oral tablet containing oxybutynin hydrochloride 5 mg | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8039D | Ditropan | Oxybutynin | Tablet containing oxybutynin hydrochloride 5 mg | Valid |
+| 9454N | Oxytrol | Oxybutynin | Transdermal patches 36 mg, 8 | Valid |
+| 13957N | Ditropan | Oxybutynin | Tablet containing oxybutynin hydrochloride 5 mg | Valid |
+| 13984B | Oxytrol | Oxybutynin | Transdermal patches 36 mg, 8 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Disopyramide"
 predicted_indications: ["Tourette syndrome", "attention deficit-hyperactivity disorder", "trichotillomania", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "idiopathic neonatal atrial flutter", "chondromyxoid fibroma", "multifocal atrial tachycardia (disease)", "trigeminal nerve neoplasm"]
 description: "Disopyramide: predicted new indication Tourette syndrome (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
@@ -87,9 +87,17 @@ For context, the only publication in the data compiled for this report relates t
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 13280Y | Rythmodan (Canada) | Capsule 100 mg (s19A) | Not recorded |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2923W | Rythmodan | Disopyramide | Capsule 100 mg | Valid |
+| 13280Y | Rythmodan (Canada) | Disopyramide | Capsule 100 mg (s19A) | Valid |
+| 15521X | Rythmodan (Japan) | Disopyramide | Capsule 100 mg (Japan) (s19A) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Three current PBS items are recorded, all oral capsules (Rythmodan 100 mg); two of them are supplied under Section 19A (imported, not a standard ARTG-registered product).
 

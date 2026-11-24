@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 490
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -96,9 +96,18 @@ No RCTs were found. The most relevant publications are listed below.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11822F | Mupirocin Nasal (Medsurge) | Nasal ointment 20 mg (as calcium) per g, 5 g | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4348W | Bactroban | Mupirocin | Cream 20 mg (as calcium) per g, 15 g | Valid |
+| 4350Y | Bactroban | Mupirocin | Ointment 20 mg per g, 15 g | Valid |
+| 9440W | Bactroban | Mupirocin | Nasal ointment 20 mg (as calcium) per g, 3 g | Valid |
+| 11822F | Mupirocin Nasal (Medsurge) | Mupirocin | Nasal ointment 20 mg (as calcium) per g, 5 g | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The current PBS items are nasal ointments and Bactroban skin cream and ointment (20 mg per g, 2%), so a skin formulation like the one used in the SSSS literature is listed; compatibility with the predicted indication has not been assessed.
 

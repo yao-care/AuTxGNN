@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 650
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Rotigotine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Restless legs syndrome and Parkinson's disease"
 monitor_inn: "Rotigotine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
@@ -76,9 +76,22 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11140H | Neupro | Transdermal patch 18 mg | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2384L | Neupro | Rotigotine | Transdermal patch 9 mg | Valid |
+| 2385M | Neupro | Rotigotine | Transdermal patch 4.5 mg | Valid |
+| 2410W | Neupro | Rotigotine | Transdermal patch 13.5 mg | Valid |
+| 11140H | Neupro | Rotigotine | Transdermal patch 18 mg | Valid |
+| 14326B | Neupro | Rotigotine | Transdermal patch 9 mg | Valid |
+| 14327C | Neupro | Rotigotine | Transdermal patch 4.5 mg | Valid |
+| 14359R | Neupro | Rotigotine | Transdermal patch 18 mg | Valid |
+| 14431M | Neupro | Rotigotine | Transdermal patch 13.5 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

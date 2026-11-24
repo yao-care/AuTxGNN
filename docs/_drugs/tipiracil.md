@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 729
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tipiracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
 description: "Tipiracil: predicted new indication Cecum villous adenoma (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -69,9 +69,18 @@ Currently no related literature available for cecum villous adenoma.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11507P | Lonsurf 15/6.14 | Tablet containing 15 mg trifluridine with 6.14 mg tipiracil (as hydrochloride) | Not specified in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11507P | Lonsurf 15/6.14 | Trifluridine + tipiracil | Tablet containing 15 mg trifluridine with 6.14 mg tipiracil (as hydrochloride) | Valid |
+| 11524M | Lonsurf 20/8.19 | Trifluridine + tipiracil | Tablet containing 20 mg trifluridine with 8.19 mg tipiracil (as hydrochloride) | Valid |
+| 12033H | Lonsurf 20/8.19 | Trifluridine + tipiracil | Tablet containing 20 mg trifluridine with 8.19 mg tipiracil (as hydrochloride) | Valid |
+| 12056M | Lonsurf 15/6.14 | Trifluridine + tipiracil | Tablet containing 15 mg trifluridine with 6.14 mg tipiracil (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Four valid PBS items are recorded, all for the combination product Lonsurf (trifluridine with tipiracil, 15/6.14 and 20/8.19 oral tablets).
 

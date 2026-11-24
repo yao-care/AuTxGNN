@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 639
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Risdiplam: predicted new indication Acne (disease) (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Risdiplam"
 predicted_indications: ["acne (disease)"]
@@ -69,9 +69,36 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12606L | Evrysdi | Powder for oral solution 750 micrograms per mL, 80 mL | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12606L | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 12609P | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 12610Q | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 12614X | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 12943F | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 12959C | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 13631K | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 13632L | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 13633M | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 13639W | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 13646F | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 13647G | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 13654P | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 13655Q | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 13656R | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 13659X | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 14639L | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 14646W | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 14647X | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+| 14659M | Evrysdi | Risdiplam | Powder for oral solution 750 micrograms per mL, 80 mL | Valid |
+
+The table shows 20 of 34 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

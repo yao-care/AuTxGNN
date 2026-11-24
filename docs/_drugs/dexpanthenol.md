@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Dexpanthenol"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Dexpanthenol: predicted new indication Anorectal stricture (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
@@ -74,9 +74,16 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4510J | SebiRinse | Cream 200 g | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4510J | SebiRinse | panthenol | Cream 200 g | Valid |
+| 15408Y | SebiRinse | panthenol | Cream 250 g | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The only listed product is a topical cream. No rectal or anal formulation appears in the local data, so route compatibility with an anorectal indication is unconfirmed.
 

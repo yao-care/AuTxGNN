@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Famciclovir"
 predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Famciclovir: predicted new indication Post-infectious neuralgia (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
@@ -116,9 +116,20 @@ Literature for other predictions is limited:
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 2274Q | Famvir | Tablet 250 mg (oral) | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2274Q | Famvir | Famciclovir | Tablet 250 mg | Valid |
+| 8002E | Famvir | Famciclovir | Tablet 250 mg | Valid |
+| 8092X | Famvir | Famciclovir | Tablet 125 mg | Valid |
+| 8217L | Famvir | Famciclovir | Tablet 250 mg | Valid |
+| 8896F | Famvir | Famciclovir | Tablet 500 mg | Valid |
+| 8897G | Famvir | Famciclovir | Tablet 500 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

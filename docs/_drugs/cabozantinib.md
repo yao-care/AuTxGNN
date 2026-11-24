@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 122
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabozantinib: predicted new indication Liposarcoma (evidence level L5). Approved use: Renal cell carcinoma (including clear cell) and medullary thyroid car…"
 monitor_inn: "Cabozantinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
@@ -78,9 +78,32 @@ No ANZCTR trials were identified in the data compiled.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11360X | Cabometyx | Tablet 60 mg (oral) | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11360X | Cabometyx | Cabozantinib | Tablet 60 mg | Valid |
+| 11367G | Cabometyx | Cabozantinib | Tablet 60 mg | Valid |
+| 11368H | Cabometyx | Cabozantinib | Tablet 40 mg | Valid |
+| 11369J | Cabometyx | Cabozantinib | Tablet 40 mg | Valid |
+| 11371L | Cabometyx | Cabozantinib | Tablet 20 mg | Valid |
+| 11374P | Cabometyx | Cabozantinib | Tablet 20 mg | Valid |
+| 14224P | Cabometyx | Cabozantinib | Tablet 60 mg | Valid |
+| 14237H | Cabometyx | Cabozantinib | Tablet 60 mg | Valid |
+| 14246T | Cabometyx | Cabozantinib | Tablet 40 mg | Valid |
+| 14254F | Cabometyx | Cabozantinib | Tablet 40 mg | Valid |
+| 14265T | Cabometyx | Cabozantinib | Tablet 20 mg | Valid |
+| 14297L | Cabometyx | Cabozantinib | Tablet 20 mg | Valid |
+| 15114L | Cabometyx | Cabozantinib | Tablet 40 mg | Valid |
+| 15115M | Cabometyx | Cabozantinib | Tablet 60 mg | Valid |
+| 15123Y | Cabometyx | Cabozantinib | Tablet 60 mg | Valid |
+| 15124B | Cabometyx | Cabozantinib | Tablet 20 mg | Valid |
+| 15129G | Cabometyx | Cabozantinib | Tablet 40 mg | Valid |
+| 15130H | Cabometyx | Cabozantinib | Tablet 20 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

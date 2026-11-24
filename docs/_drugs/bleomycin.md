@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bleomycin: predicted new indication Cauda equina neoplasm (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
@@ -70,9 +70,16 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4433H | DBL Bleomycin Sulfate | Powder for injection containing bleomycin sulfate 15,000 I.U. | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4433H | DBL Bleomycin Sulfate | Bleomycin | Powder for injection containing bleomycin sulfate 15,000 I.U. | Valid |
+| 7244G | DBL Bleomycin Sulfate | Bleomycin | Powder for injection containing bleomycin sulfate 15,000 I.U. | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

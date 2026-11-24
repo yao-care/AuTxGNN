@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lisinopril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
@@ -75,9 +75,20 @@ Currently no related literature available for posterolateral myocardial infarcti
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13402J | Zestril | Tablet 20 mg (oral) | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2456G | Zestril | Lisinopril | Tablet 5 mg | Valid |
+| 2457H | Zestril | Lisinopril | Tablet 10 mg | Valid |
+| 2458J | Zestril | Lisinopril | Tablet 20 mg | Valid |
+| 13402J | Zestril | Lisinopril | Tablet 20 mg | Valid |
+| 13583X | Zestril | Lisinopril | Tablet 5 mg | Valid |
+| 13584Y | Zestril | Lisinopril | Tablet 10 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

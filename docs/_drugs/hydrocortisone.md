@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 353
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L2). In Australia: 12 PBS items (12 currently listed)"
@@ -91,15 +91,32 @@ No ANZCTR identifiers were found in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13863P | Hydrocortisone Viatris 4 | Tablet 4 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
 
-The table lists one of 12 valid single-ingredient PBS items in the data compiled for this report; these are oral tablets (4 mg and 20 mg) and hydrocortisone sodium succinate injections (Solu-Cortef 100 mg and 250 mg).
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1499X | Hydrocortisone Viatris 4 | Hydrocortisone | Tablet 4 mg | Valid |
+| 1500Y | Hydrocortisone Viatris 20 | Hydrocortisone | Tablet 20 mg | Valid |
+| 1501B | Solu-Cortef | hydrocortisone sodium succinate | Injection 100 mg (as sodium succinate) with 2 mL solvent | Valid |
+| 1510L | Solu-Cortef | hydrocortisone sodium succinate | Injection 100 mg (as sodium succinate) with 2 mL solvent | Valid |
+| 1511M | Solu-Cortef | hydrocortisone sodium succinate | Injection 250 mg (as sodium succinate) with 2 mL solvent | Valid |
+| 3096Y | Solu-Cortef | hydrocortisone sodium succinate | Injection 250 mg (as sodium succinate) with 2 mL solvent | Valid |
+| 3470P | Solu-Cortef | hydrocortisone sodium succinate | Injection 100 mg (as sodium succinate) with 2 mL solvent | Valid |
+| 3471Q | Solu-Cortef | hydrocortisone sodium succinate | Injection 250 mg (as sodium succinate) with 2 mL solvent | Valid |
+| 5118J | Solu-Cortef | hydrocortisone sodium succinate | Injection 100 mg (as sodium succinate) with 2 mL solvent | Valid |
+| 5119K | Solu-Cortef | hydrocortisone sodium succinate | Injection 250 mg (as sodium succinate) with 2 mL solvent | Valid |
+| 13863P | Hydrocortisone Viatris 4 | Hydrocortisone | Tablet 4 mg | Valid |
+| 14476X | Hydrocortisone Viatris 20 | Hydrocortisone | Tablet 20 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
+
+The data compiled for this report contain 12 valid single-ingredient PBS items; these are oral tablets (4 mg and 20 mg) and hydrocortisone sodium succinate injections (Solu-Cortef 100 mg and 250 mg).
 
 <!-- review:begin au-lic-20261117-hydrocortisone-1 -->
 
-> **Review correction (2026-11-17)**: Originally stated: "One valid single-ingredient licence is listed; the product is an oral tablet." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+> **Review correction (2026-11-24)**: Originally stated: "One valid single-ingredient licence is listed; the product is an oral tablet." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
 
 <!-- review:end au-lic-20261117-hydrocortisone-1 -->
 
@@ -134,7 +151,7 @@ Below is the review log for this page: statements checked against official Austr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: PBS item count updated to the current PBS Schedule | Corrected (revised 2026-11-24; earlier version kept in the record) | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
 
 <!-- review:end log -->

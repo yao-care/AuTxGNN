@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "Ofatumumab"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ofatumumab: predicted new indication Follicular lymphoma (evidence level L2). Approved use: Acute lymphoblastic leukaemia and Richter syndrome"
 ---
 
@@ -95,9 +95,16 @@ Two further trials (NCT01397591, terminated with 3 patients; NCT01263418, withdr
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12641H | Kesimpta | Solution for injection 20 mg in 0.4 mL pre-filled pen | Indication text not available in the licence record |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12641H | Kesimpta | Ofatumumab | Solution for injection 20 mg in 0.4 mL pre-filled pen | Valid |
+| 12642J | Kesimpta | Ofatumumab | Solution for injection 20 mg in 0.4 mL pre-filled pen | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Both current PBS items are pre-filled pen presentations (Kesimpta 20 mg). Its suitability for any oncology use cannot be assumed; dosing and formulation would need separate confirmation.
 

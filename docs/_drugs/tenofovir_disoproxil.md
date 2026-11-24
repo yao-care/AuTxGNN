@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 707
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tenofovir Disoproxil: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Tenofovir disoproxil"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -99,9 +99,31 @@ All studies below are preclinical (animal) work, reviews, or one human pharmacok
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10310P | Tenofovir Sandoz | Tablet containing tenofovir disoproxil fumarate 300 mg (oral) | Indication text not specified in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10310P | Tenofovir Sandoz | tenofovir disoproxil | Tablet containing tenofovir disoproxil fumarate 300 mg | Valid |
+| 10347N | CIPLA TENOFOVIR + EMTRICITABINE 300/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil fumarate 300 mg with emtricitabine 200 mg | Valid |
+| 11142K | Tenofovir GH | tenofovir disoproxil | Tablet containing tenofovir disoproxil phosphate 291 mg | Valid |
+| 11149T | Tenofovir Disoproxil Emtricitabine Viatris 300/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil maleate 300 mg with emtricitabine 200 mg | Valid |
+| 11155D | Tenofovir Disoproxil Viatris | tenofovir disoproxil | Tablet containing tenofovir disoproxil maleate 300 mg | Valid |
+| 11276L | CIPLA TENOFOVIR + EMTRICITABINE 300/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil fumarate 300 mg with emtricitabine 200 mg | Valid |
+| 11296M | Tenofovir Disoproxil Emtricitabine Viatris 300/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil maleate 300 mg with emtricitabine 200 mg | Valid |
+| 11732L | Tenofovir Disoproxil Emtricitabine Efavirenz Viatris 300/200/600 | tenofovir disoproxil + emtricitabine + efavirenz | Tablet containing tenofovir disoproxil maleate 300 mg with emtricitabine 200 mg and efavirenz 600 mg | Valid |
+| 11978K | Tenofovir GH | tenofovir disoproxil | Tablet containing tenofovir disoproxil phosphate 291 mg | Valid |
+| 11982P | Tenofovir Disoproxil Viatris | tenofovir disoproxil | Tablet containing tenofovir disoproxil maleate 300 mg | Valid |
+| 11992E | Tenofovir Sandoz | tenofovir disoproxil | Tablet containing tenofovir disoproxil fumarate 300 mg | Valid |
+| 12506F | Tenofovir/Emtricitabine Sandoz 301/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil succinate 301 mg with emtricitabine 200 mg | Valid |
+| 12542D | Tenofovir/Emtricitabine Sandoz 301/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil succinate 301 mg with emtricitabine 200 mg | Valid |
+| 15231P | Efavirenz, Emtricitabine and Tenofovir Disoproxil Fumarate Tablet 600 mg/200 mg… | tenofovir disoproxil + emtricitabine + efavirenz | Tablet containing tenofovir disoproxil fumarate 300 mg with emtricitabine 200 mg and efavirenz 600 mg (s19A) | Valid |
+| 15366R | Tenofovir Disoproxil Emtricitabine Viatris 300/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil maleate 300 mg with emtricitabine 200 mg | Valid |
+| 15383P | CIPLA TENOFOVIR + EMTRICITABINE 300/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil fumarate 300 mg with emtricitabine 200 mg | Valid |
+| 15410C | Tenofovir/Emtricitabine Sandoz 301/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil succinate 301 mg with emtricitabine 200 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

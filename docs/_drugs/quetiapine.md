@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 614
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In Australia: 9 PBS items (9 currently listed)"
@@ -102,9 +102,23 @@ Note that one case report (PMID 11212595) describes quetiapine worsening obsessi
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 5458G | Seroquel XR | Tablet (modified release) 150 mg (as fumarate) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5458G | Seroquel XR | Quetiapine | Tablet (modified release) 150 mg (as fumarate) | Valid |
+| 8456C | Seroquel | Quetiapine | Tablet 25 mg (as fumarate) | Valid |
+| 8457D | Seroquel | Quetiapine | Tablet 100 mg (as fumarate) | Valid |
+| 8458E | Seroquel | Quetiapine | Tablet 200 mg (as fumarate) | Valid |
+| 8580N | Seroquel | Quetiapine | Tablet 300 mg (as fumarate) | Valid |
+| 9202H | Seroquel XR | Quetiapine | Tablet (modified release) 50 mg (as fumarate) | Valid |
+| 9203J | Seroquel XR | Quetiapine | Tablet (modified release) 200 mg (as fumarate) | Valid |
+| 9204K | Seroquel XR | Quetiapine | Tablet (modified release) 300 mg (as fumarate) | Valid |
+| 9205L | Seroquel XR | Quetiapine | Tablet (modified release) 400 mg (as fumarate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

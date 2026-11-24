@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 241
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Eflornithine: predicted new indication Esotropia (evidence level L5). Approved use: Human African trypanosomiasis"
 monitor_inn: "Eflornithine"
 predicted_indications: ["esotropia", "neurotrophic keratopathy"]
@@ -71,9 +71,18 @@ Currently no related literature available for esotropia.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14880E | Ifinwil | Tablet 192 mg (as hydrochloride) | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 14880E | Ifinwil | Eflornithine | Tablet 192 mg (as hydrochloride) | Valid |
+| 14894X | Ifinwil | Eflornithine | Tablet 192 mg (as hydrochloride) | Valid |
+| 14900F | Ifinwil | Eflornithine | Tablet 192 mg (as hydrochloride) | Valid |
+| 14910R | Ifinwil | Eflornithine | Tablet 192 mg (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

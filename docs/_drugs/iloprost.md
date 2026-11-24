@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Iloprost"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
 description: "Iloprost: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -87,9 +87,16 @@ For PAH associated with connective tissue disease, the more relevant publication
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 5751Q | Ventavis | Solution for inhalation 20 micrograms (as trometamol) in 2 mL | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5751Q | Ventavis | Iloprost | Solution for inhalation 20 micrograms (as trometamol) in 2 mL | Valid |
+| 6456T | Ventavis | Iloprost | Solution for inhalation 20 micrograms (as trometamol) in 2 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

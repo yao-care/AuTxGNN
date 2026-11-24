@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 178
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "Clozapine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
 description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L2). In Australia: 18 PBS items (18 currently listed)"
@@ -83,9 +83,32 @@ No Phase 3 trial of clozapine specific to mania is listed, which is why the evid
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10288L | Clopine 200 | Tablet 200 mg | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5626D | Clopine 50 | Clozapine | Tablet 50 mg | Valid |
+| 5627E | Clopine 200 | Clozapine | Tablet 200 mg | Valid |
+| 5628F | Clozaril 25 | Clozapine | Tablet 25 mg | Valid |
+| 5629G | Clozaril 100 | Clozapine | Tablet 100 mg | Valid |
+| 5630H | Clopine Suspension | Clozapine | Oral liquid 50 mg per mL, 100 mL | Valid |
+| 6101D | Clozaril 25 | Clozapine | Tablet 25 mg | Valid |
+| 6102E | Clozaril 100 | Clozapine | Tablet 100 mg | Valid |
+| 6417R | Clopine 50 | Clozapine | Tablet 50 mg | Valid |
+| 6418T | Clopine 200 | Clozapine | Tablet 200 mg | Valid |
+| 9632Y | Clopine Suspension | Clozapine | Oral liquid 50 mg per mL, 100 mL | Valid |
+| 10288L | Clopine 200 | Clozapine | Tablet 200 mg | Valid |
+| 10289M | Clozaril 25 | Clozapine | Tablet 25 mg | Valid |
+| 10302F | Clopine 50 | Clozapine | Tablet 50 mg | Valid |
+| 10341G | Clopine Suspension | Clozapine | Oral liquid 50 mg per mL, 100 mL | Valid |
+| 10358E | Clozaril 100 | Clozapine | Tablet 100 mg | Valid |
+| 11415T | Versacloz | Clozapine | Oral liquid 50 mg per mL, 100 mL | Valid |
+| 11422E | Versacloz | Clozapine | Oral liquid 50 mg per mL, 100 mL | Valid |
+| 11433R | Versacloz | Clozapine | Oral liquid 50 mg per mL, 100 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

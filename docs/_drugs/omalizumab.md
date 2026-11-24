@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 526
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Omalizumab"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: predicted new indication Bronchitis (evidence level L5). In Australia: at least 20 PBS items"
@@ -88,9 +88,36 @@ The link to bronchitis is indirect. The supporting literature concerns allergic 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10109C | Omlyclo | Injection 150 mg in 1 mL single dose pre-filled syringe | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10109C | Omlyclo | Omalizumab | Injection 150 mg in 1 mL single dose pre-filled syringe | Valid |
+| 10110D | Xolair | Omalizumab | Injection 75 mg in 0.5 mL single dose pre-filled syringe | Valid |
+| 10118M | Xolair | Omalizumab | Injection 75 mg in 0.5 mL single dose pre-filled syringe | Valid |
+| 10122R | Omlyclo | Omalizumab | Injection 150 mg in 1 mL single dose pre-filled syringe | Valid |
+| 10956P | Xolair | Omalizumab | Injection 75 mg in 0.5 mL single dose pre-filled syringe | Valid |
+| 10967F | Xolair | Omalizumab | Injection 75 mg in 0.5 mL single dose pre-filled syringe | Valid |
+| 10968G | Omlyclo | Omalizumab | Injection 150 mg in 1 mL single dose pre-filled syringe | Valid |
+| 10973M | Omlyclo | Omalizumab | Injection 150 mg in 1 mL single dose pre-filled syringe | Valid |
+| 11163M | Omlyclo | Omalizumab | Injection 150 mg in 1 mL single dose pre-filled syringe | Valid |
+| 11168T | Omlyclo | Omalizumab | Injection 150 mg in 1 mL single dose pre-filled syringe | Valid |
+| 11175E | Omlyclo | Omalizumab | Injection 150 mg in 1 mL single dose pre-filled syringe | Valid |
+| 11176F | Omlyclo | Omalizumab | Injection 150 mg in 1 mL single dose pre-filled syringe | Valid |
+| 11824H | Omlyclo | Omalizumab | Injection 150 mg in 1 mL single dose pre-filled syringe | Valid |
+| 11825J | Omlyclo | Omalizumab | Injection 150 mg in 1 mL single dose pre-filled syringe | Valid |
+| 11826K | Xolair | Omalizumab | Injection 75 mg in 0.5 mL single dose pre-filled syringe | Valid |
+| 11828M | Omlyclo | Omalizumab | Injection 150 mg in 1 mL single dose pre-filled syringe | Valid |
+| 11835X | Xolair | Omalizumab | Injection 75 mg in 0.5 mL single dose pre-filled syringe | Valid |
+| 11840E | Xolair | Omalizumab | Injection 75 mg in 0.5 mL single dose pre-filled syringe | Valid |
+| 11846L | Xolair | Omalizumab | Injection 75 mg in 0.5 mL single dose pre-filled syringe | Valid |
+| 11864K | Omlyclo | Omalizumab | Injection 150 mg in 1 mL single dose pre-filled syringe | Valid |
+
+The table shows 20 of 68 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

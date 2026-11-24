@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 221
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Docetaxel"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
 description: "Docetaxel: predicted new indication Ewing sarcoma (evidence level L2). In Australia: 2 PBS items (2 currently listed)"
@@ -94,9 +94,16 @@ Response rates in these studies appear modest, and the regimens are used in salv
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10148D | Docetaxel Accord | Solution concentrate for I.V. infusion, 80 mg in 4 mL | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10148D | Docetaxel Accord | Docetaxel | Solution concentrate for I.V. infusion 80 mg in 4 mL | Valid |
+| 10158P | Docetaxel Accord | Docetaxel | Solution concentrate for I.V. infusion 80 mg in 4 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

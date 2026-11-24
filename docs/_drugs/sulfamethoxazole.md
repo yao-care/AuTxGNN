@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 690
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
 description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). In Australia: 5 PBS items (5 currently listed)"
@@ -83,9 +83,19 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10784N | Bactrim DS | Tablet 160 mg-800 mg | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2951H | Bactrim DS | Trimethoprim + sulfamethoxazole | Tablet 160 mg-800 mg | Valid |
+| 3103H | Septrin | Trimethoprim + sulfamethoxazole | Paediatric oral suspension 40 mg-200 mg per 5 mL, 100 mL | Valid |
+| 3390K | Bactrim DS | Trimethoprim + sulfamethoxazole | Tablet 160 mg-800 mg | Valid |
+| 3391L | Septrin | Trimethoprim + sulfamethoxazole | Paediatric oral suspension 40 mg-200 mg per 5 mL, 100 mL | Valid |
+| 10784N | Bactrim DS | Trimethoprim + sulfamethoxazole | Tablet 160 mg-800 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

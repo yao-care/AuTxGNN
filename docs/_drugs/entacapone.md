@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease and related parkinsonian syndromes"
 monitor_inn: "Entacapone"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
@@ -102,9 +102,28 @@ Literature found for Lewy body dementia is preclinical only:
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 14542J | Comtan | Tablet 200 mg (oral) | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8367J | Comtan | Entacapone | Tablet 200 mg | Valid |
+| 8797B | Lecteva | Levodopa + carbidopa + entacapone | Tablet 50 mg-12.5 mg (as monohydrate)-200 mg | Valid |
+| 8798C | Lecteva | Levodopa + carbidopa + entacapone | Tablet 100 mg-25 mg (as monohydrate)-200 mg | Valid |
+| 8799D | Lecteva | Levodopa + carbidopa + entacapone | Tablet 150 mg-37.5 mg (as monohydrate)-200 mg | Valid |
+| 9292C | Lecteva | Levodopa + carbidopa + entacapone | Tablet 200 mg-50 mg (as monohydrate)-200 mg | Valid |
+| 9344T | Lecteva | Levodopa + carbidopa + entacapone | Tablet 75 mg-18.75 mg (as monohydrate)-200 mg | Valid |
+| 9345W | Lecteva | Levodopa + carbidopa + entacapone | Tablet 125 mg-31.25 mg (as monohydrate)-200 mg | Valid |
+| 14357P | Lecteva | Levodopa + carbidopa + entacapone | Tablet 150 mg-37.5 mg (as monohydrate)-200 mg | Valid |
+| 14456W | Lecteva | Levodopa + carbidopa + entacapone | Tablet 50 mg-12.5 mg (as monohydrate)-200 mg | Valid |
+| 14457X | Lecteva | Levodopa + carbidopa + entacapone | Tablet 200 mg-50 mg (as monohydrate)-200 mg | Valid |
+| 14498C | Lecteva | Levodopa + carbidopa + entacapone | Tablet 75 mg-18.75 mg (as monohydrate)-200 mg | Valid |
+| 14527N | Lecteva | Levodopa + carbidopa + entacapone | Tablet 125 mg-31.25 mg (as monohydrate)-200 mg | Valid |
+| 14542J | Comtan | Entacapone | Tablet 200 mg | Valid |
+| 14554B | Lecteva | Levodopa + carbidopa + entacapone | Tablet 100 mg-25 mg (as monohydrate)-200 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

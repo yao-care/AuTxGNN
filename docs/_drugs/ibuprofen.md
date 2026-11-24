@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ibuprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In Australia: 5 PBS items (5 currently listed)"
@@ -74,9 +74,19 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 3190X | APO-Ibuprofen 400 | Tablet 400 mg (oral) | Not specified in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 3190X | APO-Ibuprofen 400 | Ibuprofen | Tablet 400 mg | Valid |
+| 3192B | APO-Ibuprofen 400 | Ibuprofen | Tablet 400 mg | Valid |
+| 5123P | APO-Ibuprofen 400 | Ibuprofen | Tablet 400 mg | Valid |
+| 5124Q | APO-Ibuprofen 400 | Ibuprofen | Tablet 400 mg | Valid |
+| 5368M | APO-Ibuprofen 400 | Ibuprofen | Tablet 400 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

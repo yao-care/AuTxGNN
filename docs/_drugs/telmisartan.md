@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 703
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). In Australia: 18 PBS items (18 currently listed)"
@@ -104,9 +104,32 @@ For cerebral artery occlusion (L3), the literature is preclinical only, mainly r
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13437F | Micardis | Tablet 40 mg (oral) | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8355R | Micardis | Telmisartan | Tablet 40 mg | Valid |
+| 8356T | Micardis | Telmisartan | Tablet 80 mg | Valid |
+| 8622T | Teltartan HCT 40/12.5 | Telmisartan + hydrochlorothiazide | Tablet 40 mg-12.5 mg | Valid |
+| 8623W | Teltartan HCT 80/12.5 | Telmisartan + hydrochlorothiazide | Tablet 80 mg-12.5 mg | Valid |
+| 8978M | ARX-Telmisartan/Amlodipine | Telmisartan + amlodipine | Tablet 40 mg-5 mg (as besilate) | Valid |
+| 8979N | ARX-Telmisartan/Amlodipine | Telmisartan + amlodipine | Tablet 40 mg-10 mg (as besilate) | Valid |
+| 8980P | ARX-Telmisartan/Amlodipine | Telmisartan + amlodipine | Tablet 80 mg-5 mg (as besilate) | Valid |
+| 8981Q | ARX-Telmisartan/Amlodipine | Telmisartan + amlodipine | Tablet 80 mg-10 mg (as besilate) | Valid |
+| 9381R | Teltartan HCT 80/25 | Telmisartan + hydrochlorothiazide | Tablet 80 mg-25 mg | Valid |
+| 13437F | Micardis | Telmisartan | Tablet 40 mg | Valid |
+| 13450X | ARX-Telmisartan/Amlodipine | Telmisartan + amlodipine | Tablet 80 mg-5 mg (as besilate) | Valid |
+| 13451Y | ARX-Telmisartan/Amlodipine | Telmisartan + amlodipine | Tablet 80 mg-10 mg (as besilate) | Valid |
+| 13483P | ARX-Telmisartan/Amlodipine | Telmisartan + amlodipine | Tablet 40 mg-5 mg (as besilate) | Valid |
+| 13515H | ARX-Telmisartan/Amlodipine | Telmisartan + amlodipine | Tablet 40 mg-10 mg (as besilate) | Valid |
+| 13546Y | Teltartan HCT 40/12.5 | Telmisartan + hydrochlorothiazide | Tablet 40 mg-12.5 mg | Valid |
+| 13574K | Teltartan HCT 80/12.5 | Telmisartan + hydrochlorothiazide | Tablet 80 mg-12.5 mg | Valid |
+| 13593K | Micardis | Telmisartan | Tablet 80 mg | Valid |
+| 13607E | Teltartan HCT 80/25 | Telmisartan + hydrochlorothiazide | Tablet 80 mg-25 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

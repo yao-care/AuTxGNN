@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 536
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). In Australia: 8 PBS items (8 currently listed)"
@@ -91,9 +91,22 @@ The retrieved items are general epilepsy references. None directly tests oxcarba
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13935K | Trileptal | Tablet 600 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8584T | Trileptal | Oxcarbazepine | Tablet 150 mg | Valid |
+| 8585W | Trileptal | Oxcarbazepine | Tablet 300 mg | Valid |
+| 8586X | Trileptal | Oxcarbazepine | Tablet 600 mg | Valid |
+| 8588B | Trileptal | Oxcarbazepine | Oral suspension 60 mg per mL, 250 mL | Valid |
+| 13935K | Trileptal | Oxcarbazepine | Tablet 600 mg | Valid |
+| 13936L | Trileptal | Oxcarbazepine | Oral suspension 60 mg per mL, 250 mL | Valid |
+| 14033N | Trileptal | Oxcarbazepine | Tablet 300 mg | Valid |
+| 14562K | Trileptal | Oxcarbazepine | Tablet 150 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

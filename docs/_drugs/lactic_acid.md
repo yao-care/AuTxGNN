@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lactic Acid: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not available"
 monitor_inn: "Lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
@@ -99,9 +99,16 @@ The second-ranked prediction (aortic malformation) retrieved 14 publications, no
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 113Y (licence number as recorded) | Not recorded | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 113Y | – | Lactic Acid | – | Valid |
+| 11959K | Duofilm Solution | Salicylic acid + lactic acid | Liquid 167 mg-150 mg per g (16.7%-15%), 15 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Two current PBS items are recorded: one single-ingredient lactic acid entry and Duofilm Solution (salicylic acid with lactic acid). Product name, dosage form and approved indication are not available in the data compiled for this report.
 

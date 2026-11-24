@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 669
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Sertraline"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). In Australia: 8 PBS items (8 currently listed)"
@@ -69,9 +69,22 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 14400X | Zoloft | Tablet 50 mg (as hydrochloride) | Not specified in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2236Q | Zoloft | Sertraline | Tablet 50 mg (as hydrochloride) | Valid |
+| 2237R | Zoloft | Sertraline | Tablet 100 mg (as hydrochloride) | Valid |
+| 8836C | Zoloft | Sertraline | Tablet 50 mg (as hydrochloride) | Valid |
+| 8837D | Zoloft | Sertraline | Tablet 100 mg (as hydrochloride) | Valid |
+| 14400X | Zoloft | Sertraline | Tablet 50 mg (as hydrochloride) | Valid |
+| 14403C | Zoloft | Sertraline | Tablet 50 mg (as hydrochloride) | Valid |
+| 14404D | Zoloft | Sertraline | Tablet 100 mg (as hydrochloride) | Valid |
+| 14506L | Zoloft | Sertraline | Tablet 100 mg (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

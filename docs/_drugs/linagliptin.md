@@ -5,7 +5,7 @@ layout: default
 title: Linagliptin
 parent: Known Uses Only (No New Predictions)
 nav_order: 427
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Linagliptin: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Linagliptin"
 predicted_indications: []
@@ -48,9 +48,26 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13954K | Trajenta | Tablet 5 mg (oral) | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 3387G | Trajenta | Linagliptin | Tablet 5 mg | Valid |
+| 10038H | Trajentamet | Linagliptin + metformin | Tablet containing 2.5 mg linagliptin with 500 mg metformin hydrochloride | Valid |
+| 10044P | Trajentamet | Linagliptin + metformin | Tablet containing 2.5 mg linagliptin with 1000 mg metformin hydrochloride | Valid |
+| 10045Q | Trajentamet | Linagliptin + metformin | Tablet containing 2.5 mg linagliptin with 850 mg metformin hydrochloride | Valid |
+| 11269D | Glyxambi | Empagliflozin + linagliptin | Tablet containing 10 mg empagliflozin with 5 mg linagliptin | Valid |
+| 11303X | Glyxambi | Empagliflozin + linagliptin | Tablet containing 25 mg empagliflozin with 5 mg linagliptin | Valid |
+| 13879L | Trajentamet | Linagliptin + metformin | Tablet containing 2.5 mg linagliptin with 1000 mg metformin hydrochloride | Valid |
+| 13904T | Glyxambi | Empagliflozin + linagliptin | Tablet containing 10 mg empagliflozin with 5 mg linagliptin | Valid |
+| 13954K | Trajenta | Linagliptin | Tablet 5 mg | Valid |
+| 13958P | Glyxambi | Empagliflozin + linagliptin | Tablet containing 25 mg empagliflozin with 5 mg linagliptin | Valid |
+| 13959Q | Trajentamet | Linagliptin + metformin | Tablet containing 2.5 mg linagliptin with 500 mg metformin hydrochloride | Valid |
+| 14065G | Trajentamet | Linagliptin + metformin | Tablet containing 2.5 mg linagliptin with 850 mg metformin hydrochloride | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

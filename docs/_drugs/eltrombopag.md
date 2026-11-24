@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 245
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Eltrombopag"
 predicted_indications: ["HIV infectious disease"]
 description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L5). In Australia: 16 PBS items (16 currently listed)"
@@ -81,9 +81,30 @@ One laboratory screen of approved drugs (PMID 32977702) suggests eltrombopag mig
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14107L | Revolade | Tablet 50 mg (as olamine) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5825N | Revolade | Eltrombopag | Tablet 25 mg (as olamine) | Valid |
+| 5826P | Revolade | Eltrombopag | Tablet 50 mg (as olamine) | Valid |
+| 5827Q | Revolade | Eltrombopag | Tablet 25 mg (as olamine) | Valid |
+| 5828R | Revolade | Eltrombopag | Tablet 50 mg (as olamine) | Valid |
+| 14107L | Revolade | Eltrombopag | Tablet 50 mg (as olamine) | Valid |
+| 14112R | Revolade | Eltrombopag | Tablet 50 mg (as olamine) | Valid |
+| 14115X | Revolade | Eltrombopag | Tablet 25 mg (as olamine) | Valid |
+| 14119D | Revolade | Eltrombopag | Tablet 25 mg (as olamine) | Valid |
+| 14120E | Revolade | Eltrombopag | Tablet 25 mg (as olamine) | Valid |
+| 14121F | Revolade | Eltrombopag | Tablet 50 mg (as olamine) | Valid |
+| 14127M | Revolade | Eltrombopag | Tablet 50 mg (as olamine) | Valid |
+| 14128N | Revolade | Eltrombopag | Tablet 25 mg (as olamine) | Valid |
+| 14131R | Revolade | Eltrombopag | Tablet 50 mg (as olamine) | Valid |
+| 14136B | Revolade | Eltrombopag | Tablet 25 mg (as olamine) | Valid |
+| 14143J | Revolade | Eltrombopag | Tablet 50 mg (as olamine) | Valid |
+| 14144K | Revolade | Eltrombopag | Tablet 25 mg (as olamine) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

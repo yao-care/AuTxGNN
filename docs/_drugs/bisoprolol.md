@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bisoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bisoprolol: predicted new indication malignant hypertensive renal disease (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
 ---
 
@@ -78,9 +78,20 @@ Currently no related literature available for malignant hypertensive renal disea
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13419G | Bisoprolol generichealth | Tablet containing bisoprolol fumarate 2.5 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8604W | Bisoprolol generichealth | Bisoprolol | Tablet containing bisoprolol fumarate 2.5 mg | Valid |
+| 8605X | Bisoprolol generichealth | Bisoprolol | Tablet containing bisoprolol fumarate 5 mg | Valid |
+| 8606Y | Bisoprolol generichealth | Bisoprolol | Tablet containing bisoprolol fumarate 10 mg | Valid |
+| 13419G | Bisoprolol generichealth | Bisoprolol | Tablet containing bisoprolol fumarate 2.5 mg | Valid |
+| 13443M | Bisoprolol generichealth | Bisoprolol | Tablet containing bisoprolol fumarate 5 mg | Valid |
+| 13444N | Bisoprolol generichealth | Bisoprolol | Tablet containing bisoprolol fumarate 10 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 This is a single-ingredient product and it is currently valid.
 

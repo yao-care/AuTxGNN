@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 628
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Reboxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
 description: "Reboxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -124,9 +124,16 @@ No literature was found for the top-ranked prediction (benign paroxysmal tortico
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14474T | Edronax | Tablet 4 mg (as mesilate) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8583R | Edronax | Reboxetine | Tablet 4 mg (as mesilate) | Valid |
+| 14474T | Edronax | Reboxetine | Tablet 4 mg (as mesilate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

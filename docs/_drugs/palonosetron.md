@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Palonosetron: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the data compiled for this report (the registered Aus…"
 monitor_inn: "Palonosetron"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -76,9 +76,20 @@ For the broader headache-related prediction, the linked publications are CINV st
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 5295Q | Palonosetron Dr.Reddy's | Injection 250 micrograms (as hydrochloride) in 5 mL | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5295Q | Palonosetron Dr.Reddy''s | Palonosetron | Injection 250 micrograms (as hydrochloride) in 5 mL | Valid |
+| 5853C | Palonosetron Dr.Reddy's | Palonosetron | Injection 250 micrograms (as hydrochloride) in 5 mL | Valid |
+| 10714X | Akynzeo | Netupitant + palonosetron | Capsule containing netupitant 300 mg with palonosetron 500 microgram (as hydrochloride) | Valid |
+| 10731T | Akynzeo | Netupitant + palonosetron | Capsule containing netupitant 300 mg with palonosetron 500 microgram (as hydrochloride) | Valid |
+| 13640X | Akynzeo IV | Fosnetupitant + palonosetron | Solution concentrate for I.V. infusion containing fosnetupitant 235 mg (as chloride hydrochloride) and palonosetron 250… | Valid |
+| 13650K | Akynzeo IV | Fosnetupitant + palonosetron | Solution concentrate for I.V. infusion containing fosnetupitant 235 mg (as chloride hydrochloride) and palonosetron 250… | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

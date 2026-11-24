@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "antidepressant type abuse", "hallucinogen abuse", "barbiturate abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diazepam: predicted new indication Insomnia (disease) (evidence level L2). In Australia: 7 PBS items (7 currently listed)"
 ---
 
@@ -81,9 +81,21 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2669L | Diazepam Elixir | Oral liquid 10 mg per 10 mL, 100 mL | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2669L | Diazepam Elixir | Diazepam | Oral liquid 10 mg per 10 mL, 100 mL | Valid |
+| 3161J | APX-Diazepam | Diazepam | Tablet 2 mg | Valid |
+| 3162K | APX-Diazepam | Diazepam | Tablet 5 mg | Valid |
+| 5071X | APX-Diazepam | Diazepam | Tablet 2 mg | Valid |
+| 5072Y | APX-Diazepam | Diazepam | Tablet 5 mg | Valid |
+| 5355W | APX-Diazepam | Diazepam | Tablet 2 mg | Valid |
+| 5356X | APX-Diazepam | Diazepam | Tablet 5 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

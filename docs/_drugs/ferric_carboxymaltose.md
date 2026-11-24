@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ferric carboxymaltose"
 predicted_indications: ["bronchitis"]
 description: "Ferric Carboxymaltose: predicted new indication Bronchitis (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -83,9 +83,16 @@ For context, literature was retrieved for other predicted indications, none of w
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10104T | Ferinject | Injection 500 mg (iron) in 10 mL | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10104T | Ferinject | Ferric carboxymaltose | Injection 500 mg (iron) in 10 mL | Valid |
+| 11702X | Ferinject | Ferric carboxymaltose | Injection 1000 mg (iron) in 20 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

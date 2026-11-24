@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Bromazepam"
 predicted_indications: ["migraine disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromazepam: predicted new indication migraine disorder (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
@@ -61,9 +61,16 @@ A possible, unproven link to migraine is that reduced central hyperexcitability 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4150K | Lexotan | Tablet 3 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4150K | Lexotan | Bromazepam | Tablet 3 mg | Valid |
+| 4151L | Lexotan | Bromazepam | Tablet 6 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

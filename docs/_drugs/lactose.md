@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Lactose: predicted new indication Esophageal varices with bleeding (evidence level L5). Approved use: Lactose intolerance"
 monitor_inn: "lactose"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding", "varicose disease", "Steel syndrome", "cystinosis", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Immunoerythromyeloid hypoplasia", "familial apolipoprotein C-II deficiency", "hypophosphatasia"]
@@ -71,10 +71,16 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 8587Y | Kindergen | Oral powder 400 g | Not available |
-| ARTG 2870C | Renastart | Oral powder 400 g, 6 | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2870C | Renastart | whey protein formula supplemented with amino acids, long chain polyunsaturated fatty acid… | Oral powder 400 g, 6 (Renastart) | Valid |
+| 8587Y | Kindergen | whey protein formula supplemented with amino acids, vitamins and minerals, and low in pro… | Oral powder 400 g (Kindergen) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

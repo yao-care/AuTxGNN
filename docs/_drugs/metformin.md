@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: predicted new indication Classic stiff person syndrome (evidence level L5). In Australia: at least 20 PBS items"
@@ -73,9 +73,36 @@ Currently no related literature available for classic stiff person syndrome.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13847T | Diaformin XR 1000 | Extended-release tablet containing metformin hydrochloride 1 g | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1801T | APX-METFORMIN | Metformin | Tablet containing metformin hydrochloride 850 mg | Valid |
+| 2430X | Metformin GH | Metformin | Tablet containing metformin hydrochloride 500 mg | Valid |
+| 3439B | Diaformin XR 1000 | Metformin | Tablet (extended release) containing metformin hydrochloride 1 g | Valid |
+| 8607B | Metformin GH | Metformin | Tablet containing metformin hydrochloride 1 g | Valid |
+| 9435N | APO-Metformin XR 500 | Metformin | Tablet (extended release) containing metformin hydrochloride 500 mg | Valid |
+| 10032B | Nesina Met 12.5/850 | Alogliptin + metformin | Tablet containing 12.5 mg alogliptin (as benzoate) with 850 mg metformin hydrochloride | Valid |
+| 10033C | Nesina Met 12.5/500 | Alogliptin + metformin | Tablet containing 12.5 mg alogliptin (as benzoate) with 500 mg metformin hydrochloride | Valid |
+| 10035E | Nesina Met 12.5/1000 | Alogliptin + metformin | Tablet containing 12.5 mg alogliptin (as benzoate) with 1 g metformin hydrochloride | Valid |
+| 10038H | Trajentamet | Linagliptin + metformin | Tablet containing 2.5 mg linagliptin with 500 mg metformin hydrochloride | Valid |
+| 10044P | Trajentamet | Linagliptin + metformin | Tablet containing 2.5 mg linagliptin with 1000 mg metformin hydrochloride | Valid |
+| 10045Q | Trajentamet | Linagliptin + metformin | Tablet containing 2.5 mg linagliptin with 850 mg metformin hydrochloride | Valid |
+| 10048W | Kombiglyze XR 2.5/1000 | Saxagliptin + metformin | Tablet (modified release) containing 2.5 mg saxagliptin (as hydrochloride) with 1000 mg metformin hydrochloride | Valid |
+| 10051B | Kombiglyze XR 5/1000 | Saxagliptin + metformin | Tablet (modified release) containing 5 mg saxagliptin (as hydrochloride) with 1000 mg metformin hydrochloride | Valid |
+| 10055F | Kombiglyze XR 5/500 | Saxagliptin + metformin | Tablet (modified release) containing 5 mg saxagliptin (as hydrochloride) with 500 mg metformin hydrochloride | Valid |
+| 10089B | Janumet XR | Sitagliptin + metformin | Tablet (modified release) containing 100 mg sitagliptin with 1000 mg metformin hydrochloride | Valid |
+| 13847T | Diaformin XR 1000 | Metformin | Tablet (extended release) containing metformin hydrochloride 1 g | Valid |
+| 13899M | APO-Metformin XR 500 | Metformin | Tablet (extended release) containing metformin hydrochloride 500 mg | Valid |
+| 13952H | APX-METFORMIN | Metformin | Tablet containing metformin hydrochloride 850 mg | Valid |
+| 13976N | Metformin GH | Metformin | Tablet containing metformin hydrochloride 500 mg | Valid |
+| 14056T | Metformin GH | Metformin | Tablet containing metformin hydrochloride 1 g | Valid |
+
+The table shows 20 of 58 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

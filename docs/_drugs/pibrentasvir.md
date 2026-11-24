@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 574
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pibrentasvir: predicted new indication Hepatitis B virus infection (evidence level L4). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "pibrentasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -95,9 +95,23 @@ The retrieved items below were matched to the predicted indication. All concern 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11332K | Maviret | Tablet containing 100 mg glecaprevir with 40 mg pibrentasvir | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11332K | Maviret | Glecaprevir + pibrentasvir | Tablet containing 100 mg glecaprevir with 40 mg pibrentasvir | Valid |
+| 11333L | Maviret | Glecaprevir + pibrentasvir | Tablet containing 100 mg glecaprevir with 40 mg pibrentasvir | Valid |
+| 11337Q | Maviret | Glecaprevir + pibrentasvir | Tablet containing 100 mg glecaprevir with 40 mg pibrentasvir | Valid |
+| 11344C | Maviret | Glecaprevir + pibrentasvir | Tablet containing 100 mg glecaprevir with 40 mg pibrentasvir | Valid |
+| 11345D | Maviret | Glecaprevir + pibrentasvir | Tablet containing 100 mg glecaprevir with 40 mg pibrentasvir | Valid |
+| 11346E | Maviret | Glecaprevir + pibrentasvir | Tablet containing 100 mg glecaprevir with 40 mg pibrentasvir | Valid |
+| 11353M | Maviret | Glecaprevir + pibrentasvir | Tablet containing 100 mg glecaprevir with 40 mg pibrentasvir | Valid |
+| 11354N | Maviret | Glecaprevir + pibrentasvir | Tablet containing 100 mg glecaprevir with 40 mg pibrentasvir | Valid |
+| 11355P | Maviret | Glecaprevir + pibrentasvir | Tablet containing 100 mg glecaprevir with 40 mg pibrentasvir | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

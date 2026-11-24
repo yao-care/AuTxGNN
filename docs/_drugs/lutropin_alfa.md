@@ -5,7 +5,7 @@ layout: default
 title: Lutropin Alfa
 parent: Known Uses Only (No New Predictions)
 nav_order: 440
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Lutropin Alfa: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Lutropin alfa"
 predicted_indications: []
@@ -50,9 +50,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10465T | Luveris | Powder for injection 75 I.U. with solvent | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10465T | Luveris | Lutropin alfa | Powder for injection 75 I.U. with solvent | Valid |
+| 11667C | Pergoveris | Follitropin alfa + lutropin alfa | Injection 900 I.U. - 450 I.U. in 1.44 mL multi-dose cartridge | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 776
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). In Australia: 10 PBS items (10 currently listed)"
@@ -98,9 +98,24 @@ For pulmonary hypertension due to lung disease or hypoxia (rank 4), the most rel
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1241H | Cordilox SR | Tablet containing verapamil hydrochloride 240 mg (sustained release), oral | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1241H | Cordilox SR | Verapamil | Tablet containing verapamil hydrochloride 240 mg (sustained release) | Valid |
+| 1250T | Isoptin | Verapamil | Tablet containing verapamil hydrochloride 80 mg | Valid |
+| 2208F | Cordilox 180 SR | Verapamil | Tablet containing verapamil hydrochloride 180 mg (sustained release) | Valid |
+| 2857J | Tarka 4/240 | Trandolapril + verapamil | Tablet containing trandolapril 4 mg with verapamil hydrochloride 240 mg (sustained release) | Valid |
+| 9387C | Tarka 2/180 | Trandolapril + verapamil | Tablet containing trandolapril 2 mg with verapamil hydrochloride 180 mg (sustained release) | Valid |
+| 13408Q | Cordilox SR | Verapamil | Tablet containing verapamil hydrochloride 240 mg (sustained release) | Valid |
+| 13434C | Cordilox 180 SR | Verapamil | Tablet containing verapamil hydrochloride 180 mg (sustained release) | Valid |
+| 13530D | Isoptin | Verapamil | Tablet containing verapamil hydrochloride 80 mg | Valid |
+| 13591H | Tarka 4/240 | Trandolapril + verapamil | Tablet containing trandolapril 4 mg with verapamil hydrochloride 240 mg (sustained release) | Valid |
+| 13594L | Tarka 2/180 | Trandolapril + verapamil | Tablet containing trandolapril 2 mg with verapamil hydrochloride 180 mg (sustained release) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Durvalumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Durvalumab: predicted new indication Uterine ligament adenocarcinoma (evidence level L5). Approved use: Transitional cell carcinoma"
 ---
 
@@ -82,9 +82,36 @@ Currently no related literature available for uterine ligament adenocarcinoma.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11911X | Imfinzi | Solution concentrate for I.V. infusion, 120 mg in 2.4 mL | Not stated in the licence record compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11911X | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 11915D | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 13745K | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 13766M | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 13767N | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 13775B | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 13779F | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 13780G | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 14889P | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 14925M | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 14932X | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 14942K | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 15068C | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 15091G | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 15283J | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 15292W | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 15324M | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 15330W | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 15503Y | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+| 15504B | Imfinzi | Durvalumab | Solution concentrate for I.V. infusion 120 mg in 2.4 mL | Valid |
+
+The table shows 20 of 22 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 This is a single-ingredient product and its licence status is valid.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 561
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Periciazine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the ARTG data compiled for this report (the approved…"
 monitor_inn: "Periciazine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "ulerythema ophryogenesis"]
@@ -92,9 +92,16 @@ For the top-ranked prediction (migraine disorder), currently no related literatu
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 3052P | Neulactil | Tablet 2.5 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 3052P | Neulactil | Periciazine | Tablet 2.5 mg | Valid |
+| 3053Q | Neulactil | Periciazine | Tablet 10 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

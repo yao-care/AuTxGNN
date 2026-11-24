@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Anakinra: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "Anakinra"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
@@ -136,9 +136,16 @@ No literature is available for the top-ranked prediction (extracutaneous mastocy
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10263E | Kineret | Injection 100 mg in 0.67 mL single use pre-filled syringe | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10263E | Kineret | Anakinra | Injection 100 mg in 0.67 mL single use pre-filled syringe | Valid |
+| 10264F | Kineret | Anakinra | Injection 100 mg in 0.67 mL single use pre-filled syringe | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

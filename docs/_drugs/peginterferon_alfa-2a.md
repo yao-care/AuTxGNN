@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 552
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Peginterferon alfa-2a"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
 description: "Peginterferon Alfa-2A: predicted new indication Hepatitis E virus infection (evidence level L1). In Australia: 12 PBS items (12 currently listed)"
@@ -97,9 +97,26 @@ No ANZCTR identifiers were found in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11037X | Pegasys | Injection 180 micrograms in 0.5 mL single use pre-filled syringe | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 6439X | Pegasys | Peginterferon alfa-2a | Injection 135 micrograms in 0.5 mL single use pre-filled syringe | Valid |
+| 6449K | Pegasys | Peginterferon alfa-2a | Injection 180 micrograms in 0.5 mL single use pre-filled syringe | Valid |
+| 9515T | Pegasys | Peginterferon alfa-2a | Injection 135 micrograms in 0.5 mL single use pre-filled syringe | Valid |
+| 9516W | Pegasys | Peginterferon alfa-2a | Injection 180 micrograms in 0.5 mL single use pre-filled syringe | Valid |
+| 11037X | Pegasys | Peginterferon alfa-2a | Injection 180 micrograms in 0.5 mL single use pre-filled syringe | Valid |
+| 11416W | Pegasys | Peginterferon alfa-2a | Injection 135 micrograms in 0.5 mL single use pre-filled syringe | Valid |
+| 14992C | Pegasys (Ireland) | Peginterferon alfa-2a | Injection 180 micrograms in 0.5 mL single use pre-filled syringe (s19A) | Valid |
+| 14993D | Pegasys (Ireland) | Peginterferon alfa-2a | Injection 180 micrograms in 0.5 mL single use pre-filled syringe (s19A) | Valid |
+| 15015G | Pegasys (Ireland) | Peginterferon alfa-2a | Injection 135 micrograms in 0.5 mL single use pre-filled syringe (s19A) | Valid |
+| 15025T | Pegasys (Ireland) | Peginterferon alfa-2a | Injection 135 micrograms in 0.5 mL single use pre-filled syringe (s19A) | Valid |
+| 15036J | Pegasys (Ireland) | Peginterferon alfa-2a | Injection 180 micrograms in 0.5 mL single use pre-filled syringe (s19A) | Valid |
+| 15045W | Pegasys (Ireland) | Peginterferon alfa-2a | Injection 135 micrograms in 0.5 mL single use pre-filled syringe (s19A) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

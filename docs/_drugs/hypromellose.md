@@ -5,7 +5,7 @@ layout: default
 title: Hypromellose
 parent: Known Uses Only (No New Predictions)
 nav_order: 359
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Hypromellose: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Hypromellose"
 predicted_indications: []
@@ -48,9 +48,26 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11625W | Revive Tears | Eye drops 3 mg per mL, 10 mL | Not stated |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1509K | Poly-Tears | Dextran-70 + hypromellose | Eye drops containing 3 mg hypromellose 4500 with 1 mg dextran 70 per mL, 15 mL | Valid |
+| 2956N | Methopt | Hypromellose | Eye drops 5 mg per mL, 15 mL | Valid |
+| 5517J | Methopt | Hypromellose | Eye drops 5 mg per mL, 15 mL | Valid |
+| 5520M | Poly-Tears | Dextran-70 + hypromellose | Eye drops containing 3 mg hypromellose 4500 with 1 mg dextran 70 per mL, 15 mL | Valid |
+| 11625W | Revive Tears | Hypromellose | Eye drops 3 mg per mL, 10 mL | Valid |
+| 11634H | Revive Tears | Hypromellose | Eye drops 3 mg per mL, 10 mL | Valid |
+| 11842G | Evolve Hypromellose | Hypromellose | 0.3% w/v eye drops, 10 mL (preservative free) | Valid |
+| 11849P | Evolve Hypromellose | Hypromellose | 0.3% w/v eye drops, 10 mL (preservative free) | Valid |
+| 14318N | Revive Tears | Hypromellose | Eye drops 3 mg per mL, 10 mL | Valid |
+| 14320Q | Methopt | Hypromellose | Eye drops 5 mg per mL, 15 mL | Valid |
+| 14492R | Evolve Hypromellose | Hypromellose | 0.3% w/v eye drops, 10 mL (preservative free) | Valid |
+| 14521G | Poly-Tears | Dextran-70 + hypromellose | Eye drops containing 3 mg hypromellose 4500 with 1 mg dextran 70 per mL, 15 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 All twelve current PBS items are ophthalmic preparations (including three with dextran-70), so the available route (ophthalmic) has not been shown to be compatible with any predicted indication.
 

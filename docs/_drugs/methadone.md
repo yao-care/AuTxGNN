@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 462
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methadone: predicted new indication Tourette syndrome (evidence level L4). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -86,9 +86,24 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12520Y | METHADONE-AFT | Tablet containing methadone hydrochloride 10 mg | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1609Q | METHADONE-AFT | Methadone | Tablet containing methadone hydrochloride 10 mg | Valid |
+| 5399E | Aspen Methadone Syrup | Methadone | Oral liquid containing methadone hydrochloride 25 mg per 5 mL in 200 mL bottle, 1 mL | Valid |
+| 5400F | Aspen Methadone Syrup | Methadone | Oral liquid containing methadone hydrochloride 25 mg per 5 mL in 200 mL bottle, 1 mL | Valid |
+| 12520Y | METHADONE-AFT | Methadone | Tablet containing methadone hydrochloride 10 mg | Valid |
+| 13333R | Aspen Methadone Syrup | Methadone | Oral liquid containing methadone hydrochloride 25 mg per 5 mL in 1 L bottle, 1 mL | Valid |
+| 13334T | Aspen Methadone Syrup | Methadone | Oral liquid containing methadone hydrochloride 25 mg per 5 mL in 200 mL bottle, 1 mL | Valid |
+| 14193B | Physeptone | Methadone | Injection containing methadone hydrochloride 10 mg in 1 mL | Valid |
+| 14202L | Physeptone | Methadone | Injection containing methadone hydrochloride 10 mg in 1 mL | Valid |
+| 15377H | METHADONE-AFT | Methadone | Tablet containing methadone hydrochloride 5 mg | Valid |
+| 15412E | METHADONE-AFT | Methadone | Tablet containing methadone hydrochloride 5 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

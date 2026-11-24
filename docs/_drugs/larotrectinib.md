@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Larotrectinib: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "Larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
@@ -91,9 +91,26 @@ No ANZCTR trials were identified in the compiled data.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 13027P | Vitrakvi | Capsule 25 mg (as sulfate) | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 13027P | Vitrakvi | Larotrectinib | Capsule 25 mg (as sulfate) | Valid |
+| 13029R | Vitrakvi | Larotrectinib | Capsule 25 mg (as sulfate) | Valid |
+| 13031W | Vitrakvi | Larotrectinib | Capsule 100 mg (as sulfate) | Valid |
+| 13043L | Vitrakvi | Larotrectinib | Capsule 100 mg (as sulfate) | Valid |
+| 13281B | Vitrakvi | Larotrectinib | Oral solution 20 mg per mL (as sulfate), 50 mL, 2 | Valid |
+| 13289K | Vitrakvi | Larotrectinib | Oral solution 20 mg per mL (as sulfate), 50 mL, 2 | Valid |
+| 14230Y | Vitrakvi | Larotrectinib | Oral solution 20 mg per mL (as sulfate), 50 mL, 2 | Valid |
+| 14256H | Vitrakvi | Larotrectinib | Oral solution 20 mg per mL (as sulfate), 50 mL, 2 | Valid |
+| 14257J | Vitrakvi | Larotrectinib | Capsule 25 mg (as sulfate) | Valid |
+| 14258K | Vitrakvi | Larotrectinib | Capsule 25 mg (as sulfate) | Valid |
+| 14282Q | Vitrakvi | Larotrectinib | Capsule 100 mg (as sulfate) | Valid |
+| 14300P | Vitrakvi | Larotrectinib | Capsule 100 mg (as sulfate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

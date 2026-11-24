@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
 description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -85,9 +85,18 @@ For context, the only literature retrieved among the top 10 predictions relates 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11302W | Toujeo Solostar | Injection (human analogue), cartridges, 300 units per mL, 1.5 mL, 5 | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 9039R | Optisulin | Insulin glargine | Injections (human analogue), cartridges, 100 units per mL, 3 mL, 5 | Valid |
+| 11302W | Toujeo Solostar | Insulin glargine | Injections (human analogue), cartridges, 300 units per mL, 1.5 mL, 5 | Valid |
+| 11308E | Toujeo Solostar | Insulin glargine | Injections (human analogue), cartridge, 300 units per mL, 1.5 mL, 3 | Valid |
+| 11815W | Optisulin SoloStar | Insulin glargine | Injections (human analogue), cartridges, 100 units per mL, 3 mL, 5 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

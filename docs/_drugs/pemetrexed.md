@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 556
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pemetrexed"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: predicted new indication Pleural adenomatoid tumor (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -91,9 +91,16 @@ Other TxGNN predictions in this list are not equally credible. Pleural mesotheli
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4600D | Pemetrexed Accord | Powder for I.V. infusion 100 mg (as disodium) | Indication text not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4600D | Pemetrexed Accord | Pemetrexed | Powder for I.V. infusion 100 mg (as disodium) | Valid |
+| 7255W | Pemetrexed Accord | Pemetrexed | Powder for I.V. infusion 100 mg (as disodium) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

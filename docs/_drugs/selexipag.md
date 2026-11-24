@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 664
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Selexipag: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,34 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for S
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 12235Y | Uptravi | Tablet 400 micrograms | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12235Y | Uptravi | Selexipag | Tablet 400 micrograms | Valid |
+| 12240F | Uptravi | Selexipag | Tablet 1.4 mg | Valid |
+| 12241G | Uptravi | Selexipag | Tablet 200 micrograms | Valid |
+| 12242H | Uptravi | Selexipag | Tablet 200 micrograms | Valid |
+| 12245L | Uptravi | Selexipag | Tablet 1 mg | Valid |
+| 12246M | Uptravi | Selexipag | Tablet 800 micrograms | Valid |
+| 12247N | Uptravi | Selexipag | Tablet 200 micrograms | Valid |
+| 12248P | Uptravi | Selexipag | Tablet 600 micrograms | Valid |
+| 12249Q | Uptravi | Selexipag | Tablet 800 micrograms | Valid |
+| 12251T | Uptravi | Selexipag | Tablet 1.4 mg | Valid |
+| 12252W | Uptravi | Selexipag | Tablet 1.2 mg | Valid |
+| 12253X | Uptravi | Selexipag | Tablet 800 micrograms | Valid |
+| 12257D | Uptravi | Selexipag | Tablet 1.2 mg | Valid |
+| 12258E | Uptravi | Selexipag | Tablet 200 micrograms | Valid |
+| 12259F | Uptravi | Selexipag | Tablet 1 mg | Valid |
+| 12260G | Uptravi | Selexipag | Tablet 400 micrograms | Valid |
+| 12263K | Uptravi | Selexipag | Tablet 600 micrograms | Valid |
+| 12264L | Uptravi | Selexipag | Tablet 1.6 mg | Valid |
+| 12265M | Uptravi | Selexipag | Tablet 1.6 mg | Valid |
+| 12266N | Uptravi | Selexipag | Tablet 800 micrograms | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

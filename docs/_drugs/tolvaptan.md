@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 737
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). In Australia: 10 PBS items (10 currently listed)"
@@ -85,9 +85,24 @@ Currently no related clinical trials registered in the data compiled for this re
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11588X | Jinarc | Pack containing 28 tablets 30 mg and 28 tablets 90 mg (oral) | Not recorded in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11588X | Jinarc | Tolvaptan | Pack containing 28 tablets 30 mg and 28 tablets 90 mg | Valid |
+| 11593E | Jinarc | Tolvaptan | Pack containing 28 tablets 30 mg and 28 tablets 60 mg | Valid |
+| 11596H | Jinarc | Tolvaptan | Pack containing 28 tablets 30 mg and 28 tablets 90 mg | Valid |
+| 11597J | Jinarc | Tolvaptan | Pack containing 28 tablets 30 mg and 28 tablets 60 mg | Valid |
+| 11600M | Jinarc | Tolvaptan | Pack containing 28 tablets 15 mg and 28 tablets 45 mg | Valid |
+| 11602P | Jinarc | Tolvaptan | Pack containing 28 tablets 15 mg and 28 tablets 45 mg | Valid |
+| 12457P | Jinarc | Tolvaptan | Tablet 15 mg | Valid |
+| 12460T | Jinarc | Tolvaptan | Tablet 15 mg | Valid |
+| 12461W | Jinarc | Tolvaptan | Tablet 30 mg | Valid |
+| 12462X | Jinarc | Tolvaptan | Tablet 30 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

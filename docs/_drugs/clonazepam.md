@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 3
 monitor_inn: "Clonazepam"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clonazepam: predicted new indication restless legs syndrome (evidence level L3). In Australia: 11 PBS items (11 currently listed)"
 ---
 
@@ -82,9 +82,25 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11520H | Rivotril | Tablet 500 micrograms | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1805B | Paxam 0.5 | Clonazepam | Tablet 500 micrograms | Valid |
+| 1806C | Paxam 2 | Clonazepam | Tablet 2 mg | Valid |
+| 1807D | Rivotril | Clonazepam | Injection 1 mg in 2 mL (set containing solution 1 mg in 1 mL and 1 mL diluent) | Valid |
+| 1808E | Rivotril | Clonazepam | Oral liquid 2.5 mg per mL, 10 mL | Valid |
+| 3478C | Rivotril | Clonazepam | Oral liquid 2.5 mg per mL, 10 mL | Valid |
+| 5337X | Paxam 0.5 | Clonazepam | Tablet 500 micrograms | Valid |
+| 5338Y | Paxam 2 | Clonazepam | Tablet 2 mg | Valid |
+| 5339B | Rivotril | Clonazepam | Oral liquid 2.5 mg per mL, 10 mL | Valid |
+| 11520H | Rivotril | Clonazepam | Tablet 500 micrograms | Valid |
+| 11559J | Rivotril | Clonazepam | Tablet 500 micrograms | Valid |
+| 12534Q | Rivotril | Clonazepam | Injection 1 mg in 2 mL (set containing solution 1 mg in 1 mL and 1 mL diluent) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

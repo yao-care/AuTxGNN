@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 507
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "nitroglycerin"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -99,9 +99,23 @@ No ANZCTR trial identifiers were found in the compiled data.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13490B | Transiderm-Nitro 25 | Transdermal patch 25 mg | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1515R | Transiderm-Nitro 25 | Glyceryl trinitrate | Transdermal patch 25 mg | Valid |
+| 1516T | Transiderm-Nitro 50 | Glyceryl trinitrate | Transdermal patch 50 mg | Valid |
+| 3475X | Nitrolingual Pumpspray | Glyceryl trinitrate | Sublingual spray (pump pack) 400 micrograms per dose, 200 doses | Valid |
+| 8027L | Minitran 5 | Glyceryl trinitrate | Transdermal patch 18 mg | Valid |
+| 8171C | Nitrolingual Pumpspray | Glyceryl trinitrate | Sublingual spray (pump pack) 400 micrograms per dose, 200 doses | Valid |
+| 13490B | Transiderm-Nitro 25 | Glyceryl trinitrate | Transdermal patch 25 mg | Valid |
+| 13549D | Nitrolingual Pumpspray | Glyceryl trinitrate | Sublingual spray (pump pack) 400 micrograms per dose, 200 doses | Valid |
+| 13580R | Transiderm-Nitro 50 | Glyceryl trinitrate | Transdermal patch 50 mg | Valid |
+| 14371J | Minitran 5 | Glyceryl trinitrate | Transdermal patch 18 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

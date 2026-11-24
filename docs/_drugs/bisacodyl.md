@@ -5,7 +5,7 @@ layout: default
 title: Bisacodyl
 parent: Known Uses Only (No New Predictions)
 nav_order: 97
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Bisacodyl: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Bisacodyl"
 predicted_indications: []
@@ -48,9 +48,27 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10578R | Dulcolax | Suppositories 10 mg, 10 | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1258F | Petrus Bisacodyl Suppositories | Bisacodyl | Suppositories 10 mg, 12 | Valid |
+| 1259G | Lax-Tab | Bisacodyl | Tablet 5 mg | Valid |
+| 1260H | Dulcolax | Bisacodyl | Suppositories 10 mg, 10 | Valid |
+| 3250C | Dulcolax | Bisacodyl | Suppositories 10 mg, 10 | Valid |
+| 3261P | Lax-Tab | Bisacodyl | Tablet 5 mg | Valid |
+| 3276K | Petrus Bisacodyl Suppositories | Bisacodyl | Suppositories 10 mg, 12 | Valid |
+| 10578R | Dulcolax | Bisacodyl | Suppositories 10 mg, 10 | Valid |
+| 10580W | Petrus Bisacodyl Suppositories | Bisacodyl | Suppositories 10 mg, 12 | Valid |
+| 14305X | Petrus Bisacodyl Suppositories | Bisacodyl | Suppositories 10 mg, 12 | Valid |
+| 14446H | Lax-Tab | Bisacodyl | Tablet 5 mg | Valid |
+| 14447J | Dulcolax | Bisacodyl | Suppositories 10 mg, 10 | Valid |
+| 14567Q | Dulcolax | Bisacodyl | Suppositories 10 mg, 10 | Valid |
+| 14572Y | Petrus Bisacodyl Suppositories | Bisacodyl | Suppositories 10 mg, 12 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

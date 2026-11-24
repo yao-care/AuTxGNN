@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 251
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Enfortumab Vedotin: predicted new indication Leprosy (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "malignant catarrh", "infectious bovine rhinotracheitis"]
@@ -107,9 +107,18 @@ No ANZCTR identifiers were available in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 13634N | Padcev | Powder for I.V. infusion 20 mg | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 13634N | Padcev | Enfortumab vedotin | Powder for I.V. infusion 20 mg | Valid |
+| 13648H | Padcev | Enfortumab vedotin | Powder for I.V. infusion 20 mg | Valid |
+| 15513L | Padcev | Enfortumab vedotin | Powder for I.V. infusion 20 mg | Valid |
+| 15522Y | Padcev | Enfortumab vedotin | Powder for I.V. infusion 20 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

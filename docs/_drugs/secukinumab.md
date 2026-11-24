@@ -5,7 +5,7 @@ layout: default
 title: Secukinumab
 parent: Known Uses Only (No New Predictions)
 nav_order: 661
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Secukinumab: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Secukinumab"
 predicted_indications: []
@@ -48,9 +48,36 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10425Q | Cosentyx | Injection 150 mg in 1 mL pre-filled pen | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10425Q | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 10494H | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 10890E | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 10893H | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 10894J | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 10895K | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 10898N | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 10899P | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 10900Q | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 10901R | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 10906B | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 10910F | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 12297F | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 12307R | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 12321L | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 14146M | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 14154Y | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 14161H | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 14164L | Cosentyx | Secukinumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 14955D | Cosentyx | Secukinumab | Injection 300 mg in 2 mL pre-filled pen | Valid |
+
+The table shows 20 of 32 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

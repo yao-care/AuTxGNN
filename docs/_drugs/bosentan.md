@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 8
 monitor_inn: "Bosentan"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bosentan: predicted new indication rheumatoid arthritis (evidence level L4). In Australia: 12 PBS items (12 currently listed)"
 ---
 
@@ -79,9 +79,26 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12134P | Bosentan RBX | Tablet 62.5 mg (as monohydrate) | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5618Q | Bosentan RBX | Bosentan | Tablet 62.5 mg (as monohydrate) | Valid |
+| 5619R | Bosentan RBX | Bosentan | Tablet 125 mg (as monohydrate) | Valid |
+| 6429J | Bosentan RBX | Bosentan | Tablet 62.5 mg (as monohydrate) | Valid |
+| 6430K | Bosentan RBX | Bosentan | Tablet 125 mg (as monohydrate) | Valid |
+| 12134P | Bosentan RBX | Bosentan | Tablet 62.5 mg (as monohydrate) | Valid |
+| 12139X | Bosentan RBX | Bosentan | Tablet 62.5 mg (as monohydrate) | Valid |
+| 12140Y | Bosentan RBX | Bosentan | Tablet 62.5 mg (as monohydrate) | Valid |
+| 12143D | Bosentan RBX | Bosentan | Tablet 62.5 mg (as monohydrate) | Valid |
+| 12145F | Bosentan RBX | Bosentan | Tablet 62.5 mg (as monohydrate) | Valid |
+| 12146G | Bosentan RBX | Bosentan | Tablet 125 mg (as monohydrate) | Valid |
+| 12148J | Bosentan RBX | Bosentan | Tablet 62.5 mg (as monohydrate) | Valid |
+| 12149K | Bosentan RBX | Bosentan | Tablet 125 mg (as monohydrate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 108
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Brimonidine: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -75,9 +75,24 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 14496Y | Alphagan P 1.5 | Eye drops containing brimonidine tartrat | No longer listed on the PBS Schedule |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5534G | Alphagan | Brimonidine | Eye drops containing brimonidine tartrate 2 mg per mL, 5 mL | Valid |
+| 5535H | Combigan | Brimonidine + timolol | Eye drops containing brimonidine tartrate 2 mg with timolol 5 mg (as maleate) per mL, 5 mL | Valid |
+| 8351M | Alphagan | Brimonidine | Eye drops containing brimonidine tartrate 2 mg per mL, 5 mL | Valid |
+| 8826M | Combigan | Brimonidine + timolol | Eye drops containing brimonidine tartrate 2 mg with timolol 5 mg (as maleate) per mL, 5 mL | Valid |
+| 10536M | Simbrinza 1%/0.2% | brinzolamide + brimonidine | Eye drops 10 mg brinzolamide with 2 mg brimonidine tartrate per mL, 5 mL | Valid |
+| 10547D | Simbrinza 1%/0.2% | brinzolamide + brimonidine | Eye drops 10 mg brinzolamide with 2 mg brimonidine tartrate per mL, 5 mL | Valid |
+| 14423D | Simbrinza 1%/0.2% | brinzolamide + brimonidine | Eye drops 10 mg brinzolamide with 2 mg brimonidine tartrate per mL, 5 mL | Valid |
+| 14491Q | Combigan | Brimonidine + timolol | Eye drops containing brimonidine tartrate 2 mg with timolol 5 mg (as maleate) per mL, 5 mL | Valid |
+| 14497B | Alphagan | Brimonidine | Eye drops containing brimonidine tartrate 2 mg per mL, 5 mL | Valid |
+| 14496Y | Alphagan P 1.5 | Brimonidine | Eye drops containing brimonidine tartrate 1.5 mg per mL, 5 mL | No longer listed on the PBS Schedule |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

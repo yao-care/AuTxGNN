@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 1
 monitor_inn: "Propantheline"
 predicted_indications: ["irritable bowel syndrome"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Propantheline: predicted new indication Irritable bowel syndrome (evidence level L3). Approved use: Peptic ulcer disease"
 ---
 
@@ -74,9 +74,16 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13927B | Pro-Banthine | Tablet containing propantheline bromide 15 mg | Not stated in the licence record |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1953T | Pro-Banthine | Propantheline | Tablet containing propantheline bromide 15 mg | Valid |
+| 13927B | Pro-Banthine | Propantheline | Tablet containing propantheline bromide 15 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

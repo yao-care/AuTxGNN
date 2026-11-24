@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 793
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
 description: "Ziprasidone: predicted new indication Trichotillomania (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -78,9 +78,18 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 9070J | ZIPROX | Capsule 20 mg (as hydrochloride), oral | Not recorded in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 9070J | ZIPROX | Ziprasidone | Capsule 20 mg (as hydrochloride) | Valid |
+| 9071K | ZIPROX | Ziprasidone | Capsule 40 mg (as hydrochloride) | Valid |
+| 9072L | ZIPROX | Ziprasidone | Capsule 60 mg (as hydrochloride) | Valid |
+| 9073M | ZIPROX | Ziprasidone | Capsule 80 mg (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The drug is currently marketed in Australia as a single-ingredient oral product.
 

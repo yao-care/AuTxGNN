@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 232
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Drospirenone: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,23 @@ All of the model's candidates for Drospirenone that can be traced to a source ar
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 14791L | Slinda | Pack containing 24 tablets 4 mg and 4 in | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 14709E | Yaz | Drospirenone + ethinylestradiol | Pack containing 24 tablets 3 mg drospirenone with 20 micrograms ethinylestradiol (as betadex clathrate) and 4 inert tab… | Valid |
+| 14710F | Yaz | Drospirenone + ethinylestradiol | Pack containing 24 tablets 3 mg drospirenone with 20 micrograms ethinylestradiol (as betadex clathrate) and 4 inert tab… | Valid |
+| 14711G | Yasmin | Drospirenone + ethinylestradiol | Pack containing 21 tablets 3 mg drospirenone with 30 micrograms ethinylestradiol and 7 inert tablets | Valid |
+| 14725B | Yasmin | Drospirenone + ethinylestradiol | Pack containing 21 tablets 3 mg drospirenone with 30 micrograms ethinylestradiol and 7 inert tablets | Valid |
+| 14791L | Slinda | Drospirenone | Pack containing 24 tablets 4 mg and 4 inert tablets | Valid |
+| 14875X | Slinda | Drospirenone | Pack containing 24 tablets 4 mg and 4 inert tablets | Valid |
+| 14941J | Rosie | Drospirenone + ethinylestradiol | Pack containing 24 tablets 3 mg drospirenone with 20 micrograms ethinylestradiol and 4 inert tablets | Valid |
+| 14954C | Rosie | Drospirenone + ethinylestradiol | Pack containing 24 tablets 3 mg drospirenone with 20 micrograms ethinylestradiol and 4 inert tablets | Valid |
+| 15054H | Nextstellis | Estetrol + drospirenone | Pack containing 24 tablets estetrol 14.2 mg (as monohydrate) with drospirenone 3 mg and 4 inert tablets | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

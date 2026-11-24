@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 248
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "emtricitabine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Emtricitabine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). In Australia: 17 PBS items (17 currently listed)"
@@ -89,21 +89,45 @@ Ten of the 20 publications are listed below, prioritising the most relevant. Stu
 
 Emtricitabine is available in Australia only as fixed-dose combination tablets. No approved indication text was available in the data compiled for this report.
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10347N | Cipla Tenofovir + Emtricitabine 300/200 | Tablet: tenofovir disoproxil fumarate 300 mg with emtricitabine 200 mg | Not available |
-| ARTG 11099E | Descovy | Tablet: emtricitabine 200 mg with tenofovir alafenamide 10 mg | Not available |
-| ARTG 11649D | Biktarvy | Tablet: bictegravir 50 mg with emtricitabine 200 mg and tenofovir alafenamide 25 mg | Not available |
-| ARTG 11732L | Tenofovir Disoproxil Emtricitabine Efavirenz Viatris 300/200/600 | Tablet: tenofovir disoproxil maleate 300 mg with emtricitabine 200 mg and efavirenz 600 mg | Not available |
-| ARTG 11104K | Odefsey | Tablet: emtricitabine 200 mg with rilpivirine 25 mg and tenofovir alafenamide 25 mg | Not available |
+<!-- licenses:begin -->
 
-Two further entries are registered: Genvoya (ARTG 11114Y) and Symtuza (ARTG 11955F). The data compiled for this report contain 17 PBS items in all (the seven named above plus further generic tenofovir disoproxil with emtricitabine, Descovy and efavirenz combination items); all are oral combination tablets and currently listed.
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10347N | CIPLA TENOFOVIR + EMTRICITABINE 300/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil fumarate 300 mg with emtricitabine 200 mg | Valid |
+| 11099E | Descovy | emtricitabine + tenofovir alafenamide | Tablet containing emtricitabine 200 mg with tenofovir alafenamide 10 mg | Valid |
+| 11104K | Odefsey | emtricitabine + rilpivirine + tenofovir alafenamide | Tablet containing emtricitabine 200 mg with rilpivirine 25 mg with tenofovir alafenamide 25 mg | Valid |
+| 11113X | Descovy | emtricitabine + tenofovir alafenamide | Tablet containing emtricitabine 200 mg with tenofovir alafenamide 25 mg | Valid |
+| 11114Y | Genvoya | tenofovir alafenamide + emtricitabine + elvitegravir + cobicistat | Tablet containing tenofovir alafenamide 10 mg with emtricitabine 200 mg, elvitegravir 150 mg and cobicistat 150 mg | Valid |
+| 11149T | Tenofovir Disoproxil Emtricitabine Viatris 300/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil maleate 300 mg with emtricitabine 200 mg | Valid |
+| 11276L | CIPLA TENOFOVIR + EMTRICITABINE 300/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil fumarate 300 mg with emtricitabine 200 mg | Valid |
+| 11296M | Tenofovir Disoproxil Emtricitabine Viatris 300/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil maleate 300 mg with emtricitabine 200 mg | Valid |
+| 11649D | Biktarvy | bictegravir + emtricitabine + tenofovir alafenamide | Tablet containing bictegravir 50 mg with emtricitabine 200 mg with tenofovir alafenamide 25 mg | Valid |
+| 11732L | Tenofovir Disoproxil Emtricitabine Efavirenz Viatris 300/200/600 | tenofovir disoproxil + emtricitabine + efavirenz | Tablet containing tenofovir disoproxil maleate 300 mg with emtricitabine 200 mg and efavirenz 600 mg | Valid |
+| 11955F | Symtuza | darunavir + cobicistat + emtricitabine + tenofovir alafenamide | Tablet containing darunavir 800 mg with cobicistat 150 mg, emtricitabine 200 mg and tenofovir alafenamide 10 mg | Valid |
+| 12506F | Tenofovir/Emtricitabine Sandoz 301/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil succinate 301 mg with emtricitabine 200 mg | Valid |
+| 12542D | Tenofovir/Emtricitabine Sandoz 301/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil succinate 301 mg with emtricitabine 200 mg | Valid |
+| 15231P | Efavirenz, Emtricitabine and Tenofovir Disoproxil Fumarate Tablet 600 mg/200 mg… | tenofovir disoproxil + emtricitabine + efavirenz | Tablet containing tenofovir disoproxil fumarate 300 mg with emtricitabine 200 mg and efavirenz 600 mg (s19A) | Valid |
+| 15366R | Tenofovir Disoproxil Emtricitabine Viatris 300/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil maleate 300 mg with emtricitabine 200 mg | Valid |
+| 15383P | CIPLA TENOFOVIR + EMTRICITABINE 300/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil fumarate 300 mg with emtricitabine 200 mg | Valid |
+| 15410C | Tenofovir/Emtricitabine Sandoz 301/200 | tenofovir disoproxil + emtricitabine | Tablet containing tenofovir disoproxil succinate 301 mg with emtricitabine 200 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
+
+Genvoya (11114Y) and Symtuza (11955F) are also on the PBS Schedule. The data compiled for this report contain 17 PBS items in all (generic tenofovir disoproxil with emtricitabine, Descovy, Odefsey, Biktarvy, Genvoya, Symtuza and efavirenz combination items); all are oral combination tablets and currently listed.
 
 <!-- review:begin au-lic-20261117-emtricitabine-1 -->
 
-> **Review correction (2026-11-17)**: Originally stated: "All 7 entries are oral tablets and currently valid." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+> **Review correction (2026-11-24)**: Originally stated: "All 7 entries are oral tablets and currently valid." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
 
 <!-- review:end au-lic-20261117-emtricitabine-1 -->
+
+<!-- review:begin au-lic-20261124-emtricitabine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Two further entries are registered: Genvoya (ARTG 11114Y) and Symtuza (ARTG 11955F)." Corrected: 11114Y and 11955F are PBS item codes, not ARTG numbers, and the table now lists all PBS items in the data, so they are no longer "further" entries beyond the table. PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124-emtricitabine-1 -->
 
 ## Safety Considerations
 
@@ -136,8 +160,9 @@ Below is the review log for this page: statements checked against official Austr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: PBS item count updated to the current PBS Schedule | Corrected (revised 2026-11-24; earlier version kept in the record) | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f) |
+| 2026-11-24 | Corrected: Genvoya and Symtuza codes are PBS item codes; wording no longer refers to the old table | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

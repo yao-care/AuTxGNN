@@ -21,11 +21,11 @@
   "items_current": 3505
  },
  "reviews": {
-  "records": 610,
+  "records": 612,
   "pages": 535,
   "public_pages_with_records": 534,
   "by_action": {
-   "correct": 84,
+   "correct": 86,
    "mechanism": 526
   }
  },
@@ -144,8 +144,17 @@
    "l": "L5",
    "lt": 4,
    "lv": 4,
-   "r": 2,
+   "r": 3,
    "i": "post-bacterial disorder"
+  },
+  {
+   "t": "Emtricitabine",
+   "u": "/drugs/emtricitabine/",
+   "l": "L5",
+   "lt": 17,
+   "lv": 17,
+   "r": 3,
+   "i": "feline acquired immunodeficiency syndrome"
   },
   {
    "t": "Acetylsalicylic Acid",
@@ -182,15 +191,6 @@
    "lv": 2,
    "r": 2,
    "i": "catecholaminergic polymorphic ventricular tachycardia"
-  },
-  {
-   "t": "Amlodipine",
-   "u": "/drugs/amlodipine/",
-   "l": "L5",
-   "lt": 0,
-   "lv": 20,
-   "r": 2,
-   "i": "brain stem infarction"
   }
  ],
  "example": {
@@ -204,14 +204,62 @@
  },
  "recent_reviews": [
   {
-   "t": "Vilanterol",
-   "u": "/drugs/vilanterol/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "t": "Emtricitabine",
+   "u": "/drugs/emtricitabine/",
+   "s": "Corrected: Genvoya and Symtuza codes are PBS item codes; wording no longer refers to the old table",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Acetic Acid",
+   "u": "/drugs/acetic-acid/",
+   "s": "Corrected: a product table is now shown; product details are missing only for the single-ingredient entries",
+   "d": "2026-11-24"
   },
   {
    "t": "Tyrosine",
    "u": "/drugs/tyrosine/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Terbutaline",
+   "u": "/drugs/terbutaline/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Temozolomide",
+   "u": "/drugs/temozolomide/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Propylene Glycol",
+   "u": "/drugs/propylene-glycol/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Isoleucine",
+   "u": "/drugs/isoleucine/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Hydrocortisone",
+   "u": "/drugs/hydrocortisone/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Codeine",
+   "u": "/drugs/codeine/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Vilanterol",
+   "u": "/drugs/vilanterol/",
    "s": "Corrected: PBS item count updated to the current PBS Schedule",
    "d": "2026-11-17"
   },
@@ -252,20 +300,8 @@
    "d": "2026-11-17"
   },
   {
-   "t": "Terbutaline",
-   "u": "/drugs/terbutaline/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
    "t": "Tenofovir Alafenamide",
    "u": "/drugs/tenofovir-alafenamide/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Temozolomide",
-   "u": "/drugs/temozolomide/",
    "s": "Corrected: PBS item count updated to the current PBS Schedule",
    "d": "2026-11-17"
   },
@@ -310,92 +346,56 @@
    "u": "/drugs/risperidone/",
    "s": "Corrected: PBS item count updated to the current PBS Schedule",
    "d": "2026-11-17"
-  },
-  {
-   "t": "Propylthiouracil",
-   "u": "/drugs/propylthiouracil/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Propylene Glycol",
-   "u": "/drugs/propylene-glycol/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Progesterone",
-   "u": "/drugs/progesterone/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Polyethylene Glycol",
-   "u": "/drugs/polyethylene-glycol/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Plerixafor",
-   "u": "/drugs/plerixafor/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Phenylephrine",
-   "u": "/drugs/phenylephrine/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Vilanterol",
-   "u": "/drugs/vilanterol/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "t": "Emtricitabine",
+   "u": "/drugs/emtricitabine/",
+   "s": "Corrected: Genvoya and Symtuza codes are PBS item codes; wording no longer refers to the old table",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Acetic Acid",
+   "u": "/drugs/acetic-acid/",
+   "s": "Corrected: a product table is now shown; product details are missing only for the single-ingredient entries",
+   "d": "2026-11-24"
   },
   {
    "t": "Tyrosine",
    "u": "/drugs/tyrosine/",
    "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "d": "2026-11-24"
   },
   {
-   "t": "Trimethoprim",
-   "u": "/drugs/trimethoprim/",
-   "s": "Corrected: dosage forms updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Triamcinolone",
-   "u": "/drugs/triamcinolone/",
-   "s": "Corrected: dosage forms updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Travoprost",
-   "u": "/drugs/travoprost/",
+   "t": "Terbutaline",
+   "u": "/drugs/terbutaline/",
    "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "d": "2026-11-24"
   },
   {
-   "t": "Tobramycin",
-   "u": "/drugs/tobramycin/",
-   "s": "Corrected: dosage forms updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Tipiracil",
-   "u": "/drugs/tipiracil/",
+   "t": "Temozolomide",
+   "u": "/drugs/temozolomide/",
    "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "d": "2026-11-24"
   },
   {
-   "t": "Tezacaftor",
-   "u": "/drugs/tezacaftor/",
+   "t": "Propylene Glycol",
+   "u": "/drugs/propylene-glycol/",
    "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Isoleucine",
+   "u": "/drugs/isoleucine/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Hydrocortisone",
+   "u": "/drugs/hydrocortisone/",
+   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "d": "2026-11-24"
   }
  ],
  "files": {

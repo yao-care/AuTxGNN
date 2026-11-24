@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Azithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Azithromycin: predicted new indication hyperamylasemia (evidence level L5). In Australia: 5 PBS items (5 currently listed)"
 ---
 
@@ -69,9 +69,19 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4115N | Zithromax | Tablet 500 mg (as dihydrate) | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4115N | Zithromax | Azithromycin | Tablet 500 mg (as dihydrate) | Valid |
+| 5616N | Zithromax | Azithromycin | Tablet 600 mg (as dihydrate) | Valid |
+| 6221K | Zithromax | Azithromycin | Tablet 600 mg (as dihydrate) | Valid |
+| 8201P | Zithromax | Azithromycin | Powder for oral suspension 200 mg (as dihydrate) per 5 mL, 15 mL | Valid |
+| 8336R | Zithromax | Azithromycin | Tablet 500 mg (as dihydrate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

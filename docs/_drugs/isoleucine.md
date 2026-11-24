@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Isoleucine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated in the registration data"
 monitor_inn: "isoleucine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -71,19 +71,33 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 9134R | Isoleucine 50 | Oral powder sachets, 4 g (50 mg isoleucine), 30 | Not stated in the data |
-| ARTG 10161T | MSUD amino5 | Oral powder sachets, 6 g, 30 | Not stated in the data |
-| ARTG 12014H | MSUD Easy Tablet | Tablets, 0.91 g protein, 462 | Not stated in the data |
-| ARTG 10259Y | MSUD Anamix Junior | Oral powder sachets, 36 g, 30 | Not stated in the data |
-| ARTG 14118C | MSUD Explore5 | Oral powder sachets, 12.5 g, 30 | Not stated in the data |
+<!-- licenses:begin -->
 
-The five entries in the table are among 13 current PBS items in the data compiled for this report, all for oral use (isoleucine supplements and amino acid formulas without valine, leucine and isoleucine).
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1546J | MSUD Lophlex LQ 20 | amino acid formula with vitamins and minerals without valine, leucine and isoleucine | Oral liquid 125 mL, 30 (MSUD Lophlex LQ 20) | Valid |
+| 2375B | MSUD cooler 15 | amino acid formula with vitamins and minerals without valine, leucine and isoleucine | Oral liquid 130 mL, 30 (MSUD cooler 15) | Valid |
+| 2380G | MSUD Anamix infant | amino acid formula with vitamins and minerals without valine, leucine and isoleucine | Oral powder 400 g (MSUD Anamix infant) | Valid |
+| 2654Q | MSUD cooler 20 | amino acid formula with vitamins and minerals without valine, leucine and isoleucine | Oral liquid 174 mL, 30 (MSUD cooler 20) | Valid |
+| 8057C | MSUD Maxamum | amino acid formula with vitamins and minerals without valine, leucine and isoleucine | Oral powder 500 g (MSUD Maxamum) | Valid |
+| 8632H | MSUD express 15 | amino acid formula with vitamins and minerals without valine, leucine and isoleucine | Sachets containing oral powder 25 g, 30 (MSUD express 15) | Valid |
+| 9134R | Isoleucine 50 | isoleucine with carbohydrate | Sachets of oral powder 4 g containing 50 mg isoleucine, 30 (Isoleucine 50) | Valid |
+| 9436P | Isoleucine 1000 | isoleucine with carbohydrate | Sachets of oral powder 4 g containing 1 g isoleucine, 30 (Isoleucine 1000) | Valid |
+| 10161T | MSUD amino5 | amino acid formula without valine, leucine and isoleucine | Sachets containing oral powder 6 g, 30 (MSUD amino5) | Valid |
+| 10259Y | MSUD Anamix Junior | amino acid formula with vitamins and minerals without valine, leucine and isoleucine | Sachets containing oral powder 36 g, 30 (MSUD Anamix Junior) | Valid |
+| 12014H | MSUD Easy Tablet | amino acid formula with fat, carbohydrate without valine, leucine and isoleucine | Tablets containing 0.91 g protein, 462 (MSUD Easy Tablet) | Valid |
+| 12285N | MSUD Lophlex | amino acid formula with vitamins and minerals without valine, leucine and isoleucine | Sachets containing oral powder 28 g, 30 (MSUD Lophlex) | Valid |
+| 14118C | MSUD explore5 | amino acid formula with vitamins and minerals without valine, leucine, isoleucine and sup… | Sachets containing oral powder 12.5 g, 30 (MSUD Explore5) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
+
+The data compiled for this report contain 13 current PBS items, all for oral use (isoleucine supplements and amino acid formulas without valine, leucine and isoleucine).
 
 <!-- review:begin au-lic-20261117-isoleucine-1 -->
 
-> **Review correction (2026-11-17)**: Originally stated: "All five entries are valid, single-ingredient products for oral use." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+> **Review correction (2026-11-24)**: Originally stated: "All five entries are valid, single-ingredient products for oral use." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
 
 <!-- review:end au-lic-20261117-isoleucine-1 -->
 
@@ -116,7 +130,7 @@ Below is the review log for this page: statements checked against official Austr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: PBS item count updated to the current PBS Schedule | Corrected (revised 2026-11-24; earlier version kept in the record) | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

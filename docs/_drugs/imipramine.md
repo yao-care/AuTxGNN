@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 370
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). In Australia: 3 PBS items (3 currently listed)"
@@ -84,9 +84,17 @@ Of the 19 publications retrieved, the most relevant are listed below. Most are r
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12113M | Imipramine (Leading) | Tablet containing imipramine hydrochloride 25 mg (s19A) | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2420J | Tofranil 10 | Imipramine | Tablet containing imipramine hydrochloride 10 mg | Valid |
+| 2421K | Tofranil 25 | Imipramine | Tablet containing imipramine hydrochloride 25 mg | Valid |
+| 12113M | Imipramine (Leading) | Imipramine | Tablet containing imipramine hydrochloride 25 mg (s19A) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The product is an oral tablet supplied under Section 19A (import of an unregistered product during a shortage). Because approved indication text is not available, check the current Product Information for the exact approved uses.
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 351
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "Hyaluronic acid"
 predicted_indications: ["Sjogren syndrome", "xerophthalmia", "psoriasis", "dermatitis, atopic", "prolapse of lacrimal gland", "parapsoriasis", "pityriasis lichenoides", "severe nonproliferative diabetic retinopathy", "exanthem (disease)"]
 description: "Hyaluronic Acid: predicted new indication Sjogren syndrome (evidence level L3). In Australia: 6 PBS items (6 currently listed)"
@@ -79,9 +79,20 @@ No clinical trials registered specifically for hyaluronic acid in Sjogren syndro
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14354L | Hylo-Fresh | Eye drops containing sodium hyaluronate 1 mg per mL, 10 mL | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2171G | Hylo-Forte | hyaluronate sodium | Eye drops containing sodium hyaluronate 2 mg per mL, 10 mL | Valid |
+| 2181T | Hylo-Fresh | hyaluronate sodium | Eye drops containing sodium hyaluronate 1 mg per mL, 10 mL | Valid |
+| 2184Y | Hylo-Fresh | hyaluronate sodium | Eye drops containing sodium hyaluronate 1 mg per mL, 10 mL | Valid |
+| 2253N | Hylo-Forte | hyaluronate sodium | Eye drops containing sodium hyaluronate 2 mg per mL, 10 mL | Valid |
+| 14354L | Hylo-Fresh | hyaluronate sodium | Eye drops containing sodium hyaluronate 1 mg per mL, 10 mL | Valid |
+| 14494W | Hylo-Forte | hyaluronate sodium | Eye drops containing sodium hyaluronate 2 mg per mL, 10 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Six current PBS items are recorded (Hylo-Fresh and Hylo-Forte eye drops). It is a single-ingredient ophthalmic product.
 

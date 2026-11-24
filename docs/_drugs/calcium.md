@@ -3,7 +3,7 @@ layout: default
 title: Calcium
 parent: Known Uses Only (No New Predictions)
 nav_order: 125
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Calcium: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -71,9 +71,27 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 11726E | Cal-500 | Tablet, chewable, 500 mg (as carbonate) | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 3117C | Calci-Tab 600 | Calcium | Tablet 600 mg (as carbonate) | Valid |
+| 4082W | CAL-600 | Calcium | Tablet 600 mg (as carbonate) | Valid |
+| 4142B | CAL-600 | Calcium | Tablet 600 mg (as carbonate) | Valid |
+| 11726E | Cal-500 | Calcium | Tablet, chewable, 500 mg (as carbonate) | Valid |
+| 11845K | Cal-500 | Calcium | Tablet, chewable, 500 mg (as carbonate) | Valid |
+| 11862H | Cal-500 | Calcium | Tablet, chewable, 500 mg (as carbonate) | Valid |
+| 12191P | Renastep | protein formula with vitamins and minerals, and low in potassium, phosphorus, calcium, ch… | Oral liquid 125 mL, 24 (Renastep) | Valid |
+| 13485R | Cal-500 | Calcium | Tablet, chewable, 500 mg (as carbonate) | Valid |
+| 13547B | Calci-Tab 600 | Calcium | Tablet 600 mg (as carbonate) | Valid |
+| 14174B | CAL-600 | Calcium | Tablet 600 mg (as carbonate) | Valid |
+| 14175C | CAL-600 | Calcium | Tablet 600 mg (as carbonate) | Valid |
+| 14176D | Cal-500 | Calcium | Tablet, chewable, 500 mg (as carbonate) | Valid |
+| 14217G | Cal-500 | Calcium | Tablet, chewable, 500 mg (as carbonate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

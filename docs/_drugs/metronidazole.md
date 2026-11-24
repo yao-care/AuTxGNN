@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Anaerobic bacterial infections, giardiasis, bacterial vaginosis…"
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
@@ -81,9 +81,22 @@ Note: [6282154](https://pubmed.ncbi.nlm.nih.gov/6282154/) (1982, case report) an
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1621H | METRONIDAMED | Tablet 400 mg | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1621H | METRONIDAMED | Metronidazole | Tablet 400 mg | Valid |
+| 1630T | Flagyl S | Metronidazole | Oral suspension containing metronidazole benzoate 320 mg per 5 mL, 100 mL | Valid |
+| 1636D | METRONIDAMED | Metronidazole | Tablet 200 mg | Valid |
+| 1642K | Flagyl | Metronidazole | Suppositories 500 mg, 10 | Valid |
+| 3339R | METRONIDAMED | Metronidazole | Tablet 200 mg | Valid |
+| 3341W | Flagyl S | Metronidazole | Oral suspension containing metronidazole benzoate 320 mg per 5 mL, 100 mL | Valid |
+| 5155H | METRONIDAMED | Metronidazole | Tablet 400 mg | Valid |
+| 5157K | Flagyl | Metronidazole | Suppositories 500 mg, 10 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 401
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ivosidenib"
 predicted_indications: ["bulbar polio"]
 description: "Ivosidenib: predicted new indication Bulbar polio (evidence level L5). In Australia: 1 PBS item (1 currently listed)"
@@ -94,9 +94,15 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14868M | Tibsovo | Tablet 250 mg (oral) | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 14868M | Tibsovo | Ivosidenib | Tablet 250 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The licence number is reproduced as it appears in the data compiled, and it should be verified against the ARTG before it is cited.
 

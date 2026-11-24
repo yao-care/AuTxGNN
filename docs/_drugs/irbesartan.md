@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Irbesartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 description: "Irbesartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Australia: 12 PBS items (12 currently listed)"
@@ -87,9 +87,26 @@ For context, the most relevant publications retrieved for the closest-supported 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13380F | Avapro | Tablet 150 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2136K | Avapro HCT 300/25 | Irbesartan + hydrochlorothiazide | Tablet 300 mg-25 mg | Valid |
+| 8246B | Irbesartan Sandoz | Irbesartan | Tablet 75 mg | Valid |
+| 8247C | Avapro | Irbesartan | Tablet 150 mg | Valid |
+| 8248D | Avapro | Irbesartan | Tablet 300 mg | Valid |
+| 8404H | Avapro HCT 150/12.5 | Irbesartan + hydrochlorothiazide | Tablet 150 mg-12.5 mg | Valid |
+| 8405J | Avapro HCT 300/12.5 | Irbesartan + hydrochlorothiazide | Tablet 300 mg-12.5 mg | Valid |
+| 13380F | Avapro | Irbesartan | Tablet 150 mg | Valid |
+| 13435D | Irbesartan Sandoz | Irbesartan | Tablet 75 mg | Valid |
+| 13446Q | Avapro HCT 300/25 | Irbesartan + hydrochlorothiazide | Tablet 300 mg-25 mg | Valid |
+| 13545X | Avapro HCT 300/12.5 | Irbesartan + hydrochlorothiazide | Tablet 300 mg-12.5 mg | Valid |
+| 13564X | Avapro | Irbesartan | Tablet 300 mg | Valid |
+| 13572H | Avapro HCT 150/12.5 | Irbesartan + hydrochlorothiazide | Tablet 150 mg-12.5 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

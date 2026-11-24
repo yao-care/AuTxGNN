@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 374
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Indapamide: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,9 +74,24 @@ The TxGNN deep-learning model has no candidate indication for Indapamide with a 
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 13378D | Dapa-Tabs | Tablet containing indapamide hemihydrate | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2190G | Coversyl Plus LD 2.5mg/0.625mg | Perindopril + indapamide | Tablet containing perindopril arginine 2.5 mg with indapamide hemihydrate 0.625 mg | Valid |
+| 2436F | Dapa-Tabs | Indapamide | Tablet containing indapamide hemihydrate 2.5 mg | Valid |
+| 2845R | Coversyl Plus 5mg/1.25mg | Perindopril + indapamide | Tablet containing perindopril arginine 5 mg with indapamide hemihydrate 1.25 mg | Valid |
+| 8449Q | GenRx Perindopril/ Indapamide 4/1.25 | Perindopril + indapamide | Tablet containing perindopril erbumine 4 mg with indapamide hemihydrate 1.25 mg | Valid |
+| 8532C | APO-Indapamide SR | Indapamide | Tablet containing indapamide hemihydrate 1.5 mg (sustained release) | Valid |
+| 13378D | Dapa-Tabs | Indapamide | Tablet containing indapamide hemihydrate 2.5 mg | Valid |
+| 13413Y | Coversyl Plus LD 2.5mg/0.625mg | Perindopril + indapamide | Tablet containing perindopril arginine 2.5 mg with indapamide hemihydrate 0.625 mg | Valid |
+| 13475F | APO-Indapamide SR | Indapamide | Tablet containing indapamide hemihydrate 1.5 mg (sustained release) | Valid |
+| 13476G | GenRx Perindopril/ Indapamide 4/1.25 | Perindopril + indapamide | Tablet containing perindopril erbumine 4 mg with indapamide hemihydrate 1.25 mg | Valid |
+| 13506W | Coversyl Plus 5mg/1.25mg | Perindopril + indapamide | Tablet containing perindopril arginine 5 mg with indapamide hemihydrate 1.25 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

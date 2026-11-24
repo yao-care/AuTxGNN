@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 47
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Amorolfine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Fungal nail infection (onychomycosis)…"
 monitor_inn: "Amorolfine"
 predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "sacrum chordoma", "lymph node palisaded myofibroblastoma", "urethral disease"]
@@ -72,9 +72,15 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4010C | Loceryl | Nail treatment kit containing nail lacquer 50 mg (base) per mL (5%), 5 mL, 60 isopropyl alcohol cleaning pads, 10 spatulas and 30 nail files | Not stated in the data compiled for this report (clinically used topically for onychomycosis) |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4010C | Loceryl | Amorolfine | Nail treatment kit containing nail lacquer 50 mg (base) per mL (5%), 5 mL, 60 isopropyl alcohol cleaning pads, 10 spatu… | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

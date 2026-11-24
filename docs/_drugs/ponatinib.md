@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 584
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ponatinib: predicted new indication Gingival fibromatosis (evidence level L5). Approved use: Chronic myelogenous leukaemia, BCR-ABL1 positive"
 monitor_inn: "Ponatinib"
 predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
@@ -90,9 +90,20 @@ For context, publications retrieved for other predictions (liposarcoma, lung ben
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10520Q | Iclusig | Tablet 15 mg (as hydrochloride) | Not stated in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10520Q | Iclusig | Ponatinib | Tablet 15 mg (as hydrochloride) | Valid |
+| 10523W | Iclusig | Ponatinib | Tablet 15 mg (as hydrochloride) | Valid |
+| 10524X | Iclusig | Ponatinib | Tablet 45 mg (as hydrochloride) | Valid |
+| 10530F | Iclusig | Ponatinib | Tablet 45 mg (as hydrochloride) | Valid |
+| 11453T | Iclusig | Ponatinib | Tablet 45 mg (as hydrochloride) | Valid |
+| 11454W | Iclusig | Ponatinib | Tablet 15 mg (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

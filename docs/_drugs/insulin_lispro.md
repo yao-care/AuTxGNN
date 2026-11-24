@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Insulin lispro"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Lispro: predicted new indication Autoimmune oophoritis (evidence level L5). In Australia: 7 PBS items (7 currently listed)"
@@ -81,9 +81,21 @@ For context, the only publication retrieved across the top 10 predictions concer
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11645X | Humalog U200 Kwikpen | Injection (human analogue), pre-filled pen, 200 units per mL, 3 mL, pack of 5 | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8212F | Humalog | Insulin lispro | Injections (human analogue), cartridges, 100 units per mL, 3 mL, 5 | Valid |
+| 8390N | Humalog Mix25 | Insulin lispro + insulin lispro protamine | Injections (human analogue), cartridges, 25 units-75 units per mL, 3 mL, 5 | Valid |
+| 8874C | Humalog Mix50 | Insulin lispro + insulin lispro protamine | Injections (human analogue), cartridges, 50 units-50 units per mL, 3 mL, 5 | Valid |
+| 11645X | Humalog U200 Kwikpen | Insulin lispro | Injections (human analogue), pre-filled pen, 200 units per mL, 3 mL, 5 | Valid |
+| 12234X | Humalog Mix25 KwikPen | Insulin lispro + insulin lispro protamine | Injections (human analogue), cartridges, 25 units-75 units per mL, 3 mL, 5 | Valid |
+| 12237C | Humalog KwikPen | Insulin lispro | Injections (human analogue), cartridges, 100 units per mL, 3 mL, 5 | Valid |
+| 12261H | Humalog Mix50 KwikPen | Insulin lispro + insulin lispro protamine | Injections (human analogue), cartridges, 50 units-50 units per mL, 3 mL, 5 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

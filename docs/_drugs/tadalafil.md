@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 696
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tadalafil"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In Australia: 12 PBS items (12 currently listed)"
@@ -83,9 +83,26 @@ For context, the only tadalafil-specific paper found among the lower-ranked pred
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12150L | Tadalca | Tablet 20 mg | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1304P | Tadalca | Tadalafil | Tablet 20 mg | Valid |
+| 1308W | Tadalca | Tadalafil | Tablet 20 mg | Valid |
+| 4596X | Cipla Tadalafil | Tadalafil | Tablet 10 mg | Valid |
+| 4597Y | Tadalaccord | Tadalafil | Tablet 20 mg | Valid |
+| 12150L | Tadalca | Tadalafil | Tablet 20 mg | Valid |
+| 12151M | Tadalca | Tadalafil | Tablet 20 mg | Valid |
+| 14229X | Tadalis 20 | Tadalafil | Tablet 20 mg | Valid |
+| 14240L | Tadalis 20 | Tadalafil | Tablet 20 mg | Valid |
+| 14271D | Tadalis 20 | Tadalafil | Tablet 20 mg | Valid |
+| 14281P | Tadalis 20 | Tadalafil | Tablet 20 mg | Valid |
+| 14785E | Opsynvi | Macitentan + tadalafil | Tablet containing 10 mg macitentan with 40 mg tadalafil | Valid |
+| 14828K | Opsynvi | Macitentan + tadalafil | Tablet containing 10 mg macitentan with 40 mg tadalafil | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

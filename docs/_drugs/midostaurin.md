@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 477
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Midostaurin: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -85,9 +85,20 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Midostaurin,
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 11505M | Rydapt | Capsule 25 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11505M | Rydapt | Midostaurin | Capsule 25 mg | Valid |
+| 11506N | Rydapt | Midostaurin | Capsule 25 mg | Valid |
+| 11518F | Rydapt | Midostaurin | Capsule 25 mg | Valid |
+| 11531X | Rydapt | Midostaurin | Capsule 25 mg | Valid |
+| 11552B | Rydapt | Midostaurin | Capsule 25 mg | Valid |
+| 11553C | Rydapt | Midostaurin | Capsule 25 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

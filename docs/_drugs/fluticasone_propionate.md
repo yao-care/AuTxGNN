@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 311
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Fluticasone Propionate: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -73,9 +73,36 @@ The TxGNN deep-learning model produced candidates for Fluticasone Propionate, bu
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 14347D | Flixotide | Pressurised inhalation containing flutic | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8147T | Flixotide Junior Accuhaler | fluticasone propionate | Powder for oral inhalation in breath actuated device containing fluticasone propionate 100 micrograms per dose, 60 doses | Valid |
+| 8148W | Flixotide Accuhaler | fluticasone propionate | Powder for oral inhalation in breath actuated device containing fluticasone propionate 250 micrograms per dose, 60 doses | Valid |
+| 8149X | Flixotide Accuhaler | fluticasone propionate | Powder for oral inhalation in breath actuated device containing fluticasone propionate 500 micrograms per dose, 60 doses | Valid |
+| 8345F | Flixotide | fluticasone propionate | Pressurised inhalation containing fluticasone propionate 125 micrograms per dose, 120 doses (CFC-free formulation) | Valid |
+| 8346G | Flixotide | fluticasone propionate | Pressurised inhalation containing fluticasone propionate 250 micrograms per dose, 120 doses (CFC-free formulation) | Valid |
+| 8516F | Flixotide Junior | fluticasone propionate | Pressurised inhalation containing fluticasone propionate 50 micrograms per dose, 120 doses (CFC-free formulation) | Valid |
+| 10007Q | flutiform 125/5 | fluticasone propionate + formoterol | Pressurised inhalation containing fluticasone propionate 125 micrograms with formoterol fumarate dihydrate 5 micrograms… | Valid |
+| 10008R | flutiform 250/10 | fluticasone propionate + formoterol | Pressurised inhalation containing fluticasone propionate 250 micrograms with formoterol fumarate dihydrate 10 microgram… | Valid |
+| 14311F | Seretide MDI 250/25 | fluticasone propionate + salmeterol | Pressurised inhalation containing fluticasone propionate 250 micrograms with salmeterol 25 micrograms (as xinafoate) pe… | Valid |
+| 14343X | flutiform 125/5 | fluticasone propionate + formoterol | Pressurised inhalation containing fluticasone propionate 125 micrograms with formoterol fumarate dihydrate 5 micrograms… | Valid |
+| 14344Y | flutiform 250/10 | fluticasone propionate + formoterol | Pressurised inhalation containing fluticasone propionate 250 micrograms with formoterol fumarate dihydrate 10 microgram… | Valid |
+| 14347D | Flixotide | fluticasone propionate | Pressurised inhalation containing fluticasone propionate 125 micrograms per dose, 120 doses (CFC-free formulation) | Valid |
+| 14381X | Flixotide Accuhaler | fluticasone propionate | Powder for oral inhalation in breath actuated device containing fluticasone propionate 250 micrograms per dose, 60 doses | Valid |
+| 14411L | flutiform 50/5 | fluticasone propionate + formoterol | Pressurised inhalation containing fluticasone propionate 50 micrograms with formoterol fumarate dihydrate 5 micrograms… | Valid |
+| 14412M | Flixotide Junior Accuhaler | fluticasone propionate | Powder for oral inhalation in breath actuated device containing fluticasone propionate 100 micrograms per dose, 60 doses | Valid |
+| 14413N | Seretide Accuhaler 100/50 | fluticasone propionate + salmeterol | Powder for oral inhalation in breath actuated device containing fluticasone propionate 100 micrograms with salmeterol 5… | Valid |
+| 14414P | Seretide MDI 50/25 | fluticasone propionate + salmeterol | Pressurised inhalation containing fluticasone propionate 50 micrograms with salmeterol 25 micrograms (as xinafoate) per… | Valid |
+| 14449L | Seretide Accuhaler 250/50 | fluticasone propionate + salmeterol | Powder for oral inhalation in breath actuated device containing fluticasone propionate 250 micrograms with salmeterol 5… | Valid |
+| 14450M | Seretide Accuhaler 500/50 | fluticasone propionate + salmeterol | Powder for oral inhalation in breath actuated device containing fluticasone propionate 500 micrograms with salmeterol 5… | Valid |
+| 14487L | Flixotide Junior | fluticasone propionate | Pressurised inhalation containing fluticasone propionate 50 micrograms per dose, 120 doses (CFC-free formulation) | Valid |
+
+The table shows 20 of 28 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

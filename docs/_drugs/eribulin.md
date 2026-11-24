@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 264
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eribulin: predicted new indication Autosomal recessive familial Mediterranean fever (evidence level L5). Approved use: Liposarcoma"
 monitor_inn: "Eribulin"
 predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
@@ -95,9 +95,18 @@ No literature is available for the rank 1 indication. The following publications
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10140Q | Halaven | Solution for I.V. injection containing eribulin mesilate 1 mg in 2 mL | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10140Q | Halaven | Eribulin | Solution for I.V. injection containing eribulin mesilate 1 mg in 2 mL | Valid |
+| 10144X | Halaven | Eribulin | Solution for I.V. injection containing eribulin mesilate 1 mg in 2 mL | Valid |
+| 11199K | Halaven | Eribulin | Solution for I.V. injection containing eribulin mesilate 1 mg in 2 mL | Valid |
+| 11212D | Halaven | Eribulin | Solution for I.V. injection containing eribulin mesilate 1 mg in 2 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ layout: default
 title: Somatotropin
 parent: Known Uses Only (No New Predictions)
 nav_order: 683
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Somatotropin: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Somatotropin"
 predicted_indications: []
@@ -48,9 +48,36 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10426R | Genotropin GoQuick | Powder for injection 12 mg (36 i.u.) with diluent in pre-filled pen (with preservative) | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10426R | Genotropin GoQuick | Somatropin | Powder for injection 12 mg (36 i.u.) with diluent in pre-filled pen (with preservative) | Valid |
+| 10427T | Scitropin A | Somatropin | Solution for injection 5 mg (15 i.u.) in 1.5 mL cartridge (with preservative) | Valid |
+| 10428W | Genotropin MiniQuick | Somatropin | Injection 2 mg (6 i.u.) with diluent in single use syringe (without preservative) | Valid |
+| 10430Y | Genotropin MiniQuick | Somatropin | Injection 1 mg (3 i.u.) with diluent in single use syringe (without preservative) | Valid |
+| 10431B | Genotropin GoQuick | Somatropin | Powder for injection 12 mg (36 i.u.) with diluent in pre-filled pen (with preservative) | Valid |
+| 10432C | Norditropin FlexPro | Somatropin | Solution for injection 5 mg (15 i.u.) in 1.5 mL cartridge (with preservative) in pre-filled pen | Valid |
+| 10434E | Genotropin MiniQuick | Somatropin | Injection 1.4 mg (4.2 i.u.) with diluent in single use syringe (without preservative) | Valid |
+| 10435F | Genotropin GoQuick | Somatropin | Powder for injection 5 mg (15 i.u.) with diluent in pre-filled pen (with preservative) | Valid |
+| 10441M | SciTropin A | Somatropin | Solution for injection 10 mg (30 i.u.) in 1.5 mL cartridge (with preservative) | Valid |
+| 10442N | Saizen | Somatropin | Solution for injection 20 mg (60 i.u.) in 2.5 mL cartridge (with preservative) | Valid |
+| 10443P | Genotropin GoQuick | Somatropin | Powder for injection 5 mg (15 i.u.) with diluent in pre-filled pen (with preservative) | Valid |
+| 10446T | Omnitrope Surepal 15 | Somatropin | Solution for injection 15 mg (45 i.u.) in 1.5 mL cartridge (with preservative) | Valid |
+| 10449Y | Norditropin FlexPro | Somatropin | Solution for injection 15 mg (45 i.u.) in 1.5 mL cartridge (with preservative) in pre-filled pen | Valid |
+| 10451C | Norditropin FlexPro | Somatropin | Solution for injection 10 mg (30 i.u.) in 1.5 mL cartridge (with preservative) in pre-filled pen | Valid |
+| 10453E | Genotropin MiniQuick | Somatropin | Injection 1.2 mg (3.6 i.u.) with diluent in single use syringe (without preservative) | Valid |
+| 10454F | Genotropin MiniQuick | Somatropin | Injection 1.6 mg (4.8 i.u.) with diluent in single use syringe (without preservative) | Valid |
+| 10456H | Genotropin MiniQuick | Somatropin | Injection 0.6 mg (1.8 i.u.) with diluent in single use syringe (without preservative) | Valid |
+| 10457J | Genotropin MiniQuick | Somatropin | Injection 1.2 mg (3.6 i.u.) with diluent in single use syringe (without preservative) | Valid |
+| 10458K | Saizen | Somatropin | Solution for injection 6 mg (18 i.u.) in 1.03 mL cartridge (with preservative) | Valid |
+| 10462P | Saizen | Somatropin | Solution for injection 6 mg (18 i.u.) in 1.03 mL cartridge (with preservative) | Valid |
+
+The table shows 20 of 74 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The only available route is injectable.
 

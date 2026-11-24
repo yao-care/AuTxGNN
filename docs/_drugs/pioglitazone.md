@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 577
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Pioglitazone"
 predicted_indications: ["opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -82,9 +82,26 @@ No literature specific to opsismodysplasia is available. The only publications r
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13898L | ARX-PIOGLITAZONE | Tablet 15 mg (as hydrochloride) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8694N | ARX-PIOGLITAZONE | Pioglitazone | Tablet 15 mg (as hydrochloride) | Valid |
+| 8695P | ARX-PIOGLITAZONE | Pioglitazone | Tablet 30 mg (as hydrochloride) | Valid |
+| 8696Q | ARX-PIOGLITAZONE | Pioglitazone | Tablet 45 mg (as hydrochloride) | Valid |
+| 13898L | ARX-PIOGLITAZONE | Pioglitazone | Tablet 15 mg (as hydrochloride) | Valid |
+| 13921Q | ARX-PIOGLITAZONE | Pioglitazone | Tablet 30 mg (as hydrochloride) | Valid |
+| 14057W | ARX-PIOGLITAZONE | Pioglitazone | Tablet 45 mg (as hydrochloride) | Valid |
+| 15222E | Actos | Pioglitazone | Tablet 45 mg (as hydrochloride), pack of 30 | Valid |
+| 15223F | Actos | Pioglitazone | Tablet 30 mg (as hydrochloride), pack of 30 | Valid |
+| 15229M | Actos | Pioglitazone | Tablet 45 mg (as hydrochloride), pack of 30 | Valid |
+| 15236X | Actos | Pioglitazone | Tablet 15 mg (as hydrochloride), pack of 30 | Valid |
+| 15261F | Actos | Pioglitazone | Tablet 15 mg (as hydrochloride), pack of 30 | Valid |
+| 15267M | Actos | Pioglitazone | Tablet 30 mg (as hydrochloride), pack of 30 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 739
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "Topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 description: "Topotecan: predicted new indication Female breast carcinoma (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -86,9 +86,16 @@ Clinical support is limited, however. The listed trials are Phase 1 or terminate
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4617B | Hycamtin | Powder for I.V. infusion 4 mg (as hydrochloride) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4617B | Hycamtin | Topotecan | Powder for I.V. infusion 4 mg (as hydrochloride) | Valid |
+| 7260D | Hycamtin | Topotecan | Powder for I.V. infusion 4 mg (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 764
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ustekinumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Ustekinumab: predicted new indication Dermatitis (evidence level L2). In Australia: at least 20 PBS items"
@@ -90,9 +90,36 @@ Clinical results in atopic dermatitis have been modest and inconsistent. Th2-tar
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10767Q | Stelara | Injection 45 mg in 0.5 mL | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10767Q | Stelara | Ustekinumab | Injection 45 mg in 0.5 mL | Valid |
+| 10774C | Wezlana | Ustekinumab | Injection 45 mg in 0.5 mL | Valid |
+| 11164N | Stelara | Ustekinumab | Solution for I.V. infusion 130 mg in 26 mL | Valid |
+| 11178H | Wezlana | Ustekinumab | Injection 45 mg in 0.5 mL | Valid |
+| 11182M | Stelara | Ustekinumab | Solution for I.V. infusion 130 mg in 26 mL | Valid |
+| 12662K | Wezlana | Ustekinumab | Injection 45 mg in 0.5 mL | Valid |
+| 12664M | Wezlana | Ustekinumab | Injection 45 mg in 0.5 mL | Valid |
+| 12669T | Wezlana | Ustekinumab | Injection 45 mg in 0.5 mL | Valid |
+| 13255P | Stelara | Ustekinumab | Solution for I.V. infusion 130 mg in 26 mL | Valid |
+| 13261Y | Stelara | Ustekinumab | Injection 90 mg in 1 mL single use pre-filled syringe | Valid |
+| 13272M | Stelara | Ustekinumab | Solution for I.V. infusion 130 mg in 26 mL | Valid |
+| 13273N | Stelara | Ustekinumab | Injection 90 mg in 1 mL single use pre-filled syringe | Valid |
+| 13781H | Stelara | Ustekinumab | Solution for I.V. infusion 130 mg in 26 mL | Valid |
+| 13789R | Stelara | Ustekinumab | Injection 90 mg in 1 mL single use pre-filled syringe | Valid |
+| 13804M | Stelara | Ustekinumab | Solution for I.V. infusion 130 mg in 26 mL | Valid |
+| 13805N | Stelara | Ustekinumab | Injection 90 mg in 1 mL single use pre-filled syringe | Valid |
+| 14877B | Steqeyma | Ustekinumab | Injection 45 mg in 0.5 mL single use pre-filled syringe | Valid |
+| 14878C | Steqeyma | Ustekinumab | Injection 90 mg in 1 mL single use pre-filled syringe | Valid |
+| 14879D | Steqeyma | Ustekinumab | Injection 45 mg in 0.5 mL single use pre-filled syringe | Valid |
+| 14890Q | Steqeyma | Ustekinumab | Injection 45 mg in 0.5 mL single use pre-filled syringe | Valid |
+
+The table shows 20 of 44 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

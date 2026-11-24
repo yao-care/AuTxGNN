@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 670
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Sevelamer: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -73,9 +73,22 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sevelamer, s
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 11838C | Sevelamer Lupin | Tablet containing sevelamer carbonate 80 | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2142R | Renagel | Sevelamer | Tablet containing sevelamer hydrochloride 800 mg | Valid |
+| 9546K | Renagel | Sevelamer | Tablet containing sevelamer hydrochloride 800 mg | Valid |
+| 9620H | Renagel | Sevelamer | Tablet containing sevelamer hydrochloride 800 mg | Valid |
+| 11838C | Sevelamer Lupin | Sevelamer | Tablet containing sevelamer carbonate 800 mg | Valid |
+| 11855Y | Sevelamer Lupin | Sevelamer | Tablet containing sevelamer carbonate 800 mg | Valid |
+| 11856B | Sevelamer Lupin | Sevelamer | Tablet containing sevelamer carbonate 800 mg | Valid |
+| 13934J | Renagel | Sevelamer | Tablet containing sevelamer hydrochloride 800 mg | Valid |
+| 14027G | Sevelamer Lupin | Sevelamer | Tablet containing sevelamer carbonate 800 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

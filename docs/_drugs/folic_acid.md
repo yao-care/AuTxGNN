@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 314
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L4). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
@@ -85,9 +85,20 @@ The retrieved literature is mainly narrative reviews of vitamins and metabolic d
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10573L | Megafol 5 | Tablet 5 mg (oral) | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1437P | Megafol 5 | Folic acid | Tablet 5 mg | Valid |
+| 2958Q | Foltabs 500 | Folic acid | Tablet 500 micrograms | Valid |
+| 9011G | Ferro-f-tab | Ferrous fumarate + folic acid | Tablet 310 mg (equivalent to 100 mg iron)-350 micrograms | Valid |
+| 10573L | Megafol 5 | Folic acid | Tablet 5 mg | Valid |
+| 10579T | Ferro-f-tab | Ferrous fumarate + folic acid | Tablet 310 mg (equivalent to 100 mg iron)-350 micrograms | Valid |
+| 10584C | Foltabs 500 | Folic acid | Tablet 500 micrograms | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

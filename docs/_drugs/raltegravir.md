@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 621
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Raltegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Raltegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). In Australia: 2 PBS items (2 currently listed)"
@@ -88,9 +88,16 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10286J | Isentress | Tablet 400 mg (as potassium) | Not stated in the available record |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10286J | Isentress | Raltegravir | Tablet 400 mg (as potassium) | Valid |
+| 11248B | Isentress HD | Raltegravir | Tablet 600 mg (as potassium) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

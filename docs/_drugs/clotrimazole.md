@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clotrimazole: predicted new indication acne (disease) (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
 ---
 
@@ -70,9 +70,17 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4004R | Pharmacy Action Anti-Fungal Cream | Cream 10 mg per g, 20 g | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4004R | Pharmacy Action Anti-Fungal Cream | Clotrimazole | Cream 10 mg per g, 20 g | Valid |
+| 4016J | Pharmacy Action FemCream | Clotrimazole | Vaginal cream 50 mg per 5 g (1%), 35 g | Valid |
+| 4017K | Clonea 3 Day Cream | Clotrimazole | Vaginal cream 100 mg per 5 g (2%), 20 g | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 301
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Flucloxacillin: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not available in the data compiled for this report (flucloxacillin is…"
 monitor_inn: "Flucloxacillin"
 predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
@@ -72,9 +72,23 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10788T | Flopen Viatris | Capsule 500 mg (as sodium monohydrate) | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1526H | Flopen Viatris | Flucloxacillin | Capsule 250 mg (as sodium monohydrate) | Valid |
+| 1527J | Flopen Viatris | Flucloxacillin | Capsule 500 mg (as sodium monohydrate) | Valid |
+| 5090X | Flopen Viatris | Flucloxacillin | Capsule 250 mg (as sodium monohydrate) | Valid |
+| 5091Y | Flopen Viatris | Flucloxacillin | Capsule 500 mg (as sodium monohydrate) | Valid |
+| 5257Q | Flucil | Flucloxacillin | Powder for oral liquid 125 mg (as sodium monohydrate) per 5 mL, 100 mL | Valid |
+| 5258R | Flucil | Flucloxacillin | Powder for oral liquid 250 mg (as sodium monohydrate) per 5 mL, 100 mL | Valid |
+| 9149M | Flucil | Flucloxacillin | Powder for oral liquid 125 mg (as sodium monohydrate) per 5 mL, 100 mL | Valid |
+| 9150N | Flucil | Flucloxacillin | Powder for oral liquid 250 mg (as sodium monohydrate) per 5 mL, 100 mL | Valid |
+| 10788T | Flopen Viatris | Flucloxacillin | Capsule 500 mg (as sodium monohydrate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

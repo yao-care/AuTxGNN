@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 502
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Chronic myelogenous leukaemia, BCR-ABL1 positive"
 monitor_inn: "Nilotinib"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
@@ -78,9 +78,21 @@ Currently no related clinical trials registered for dermatofibrosarcoma protuber
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12858R | Tasigna | Capsule 200 mg (as hydrochloride monohydrate) | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1309X | MSN-NILOTINIB | Nilotinib | Capsule 150 mg (as hydrochloride) | Valid |
+| 9171Q | MSN-NILOTINIB | Nilotinib | Capsule 200 mg (as hydrochloride) | Valid |
+| 12858R | Tasigna | Nilotinib | Capsule 200 mg (as hydrochloride monohydrate) | Valid |
+| 12867F | Tasigna | Nilotinib | Capsule 200 mg (as hydrochloride) | Valid |
+| 12868G | MSN-NILOTINIB | Nilotinib | Capsule 150 mg (as hydrochloride) | Valid |
+| 12885E | Tasigna | Nilotinib | Capsule 200 mg (as hydrochloride) | Valid |
+| 12887G | Tasigna | Nilotinib | Capsule 200 mg (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

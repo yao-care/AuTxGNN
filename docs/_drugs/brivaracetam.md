@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Brivaracetam"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brivaracetam: predicted new indication beta-ketothiolase deficiency (evidence level L5). In Australia: 10 PBS items (10 currently listed)"
 ---
 
@@ -69,9 +69,24 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11327E | Briviact | Tablet 25 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11327E | Briviact | Brivaracetam | Tablet 25 mg | Valid |
+| 11328F | Briviact | Brivaracetam | Tablet 25 mg | Valid |
+| 11334M | Briviact | Brivaracetam | Tablet 50 mg | Valid |
+| 11338R | Briviact | Brivaracetam | Tablet 50 mg | Valid |
+| 11339T | Briviact | Brivaracetam | Tablet 100 mg | Valid |
+| 11349H | Briviact | Brivaracetam | Oral solution 10 mg per mL, 300 mL | Valid |
+| 11350J | Briviact | Brivaracetam | Tablet 75 mg | Valid |
+| 11356Q | Briviact | Brivaracetam | Tablet 75 mg | Valid |
+| 11357R | Briviact | Brivaracetam | Tablet 100 mg | Valid |
+| 11358T | Briviact | Brivaracetam | Oral solution 10 mg per mL, 300 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

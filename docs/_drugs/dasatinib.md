@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 201
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Chronic myelogenous leukaemia…"
 monitor_inn: "Dasatinib"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -98,9 +98,36 @@ The rationale is plausible but clinical benefit is not demonstrated. A review no
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12842X | DASATINIB-TEVA | Tablet 100 mg (oral) | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1354G | DASATINIB-TEVA | Dasatinib | Tablet 20 mg | Valid |
+| 1381Q | DASATINIB-TEVA | Dasatinib | Tablet 50 mg | Valid |
+| 1415L | DASATINIB-TEVA | Dasatinib | Tablet 70 mg | Valid |
+| 1416M | DASATINIB-TEVA | Dasatinib | Tablet 100 mg | Valid |
+| 12842X | DASATINIB-TEVA | Dasatinib | Tablet 100 mg | Valid |
+| 12843Y | DASATINIB-TEVA | Dasatinib | Tablet 50 mg | Valid |
+| 12849G | DASATINIB-TEVA | Dasatinib | Tablet 20 mg | Valid |
+| 12850H | DASATINIB-TEVA | Dasatinib | Tablet 20 mg | Valid |
+| 12857Q | DASATINIB-TEVA | Dasatinib | Tablet 50 mg | Valid |
+| 12859T | DASATINIB-TEVA | Dasatinib | Tablet 100 mg | Valid |
+| 12860W | DASATINIB-TEVA | Dasatinib | Tablet 50 mg | Valid |
+| 12865D | DASATINIB-TEVA | Dasatinib | Tablet 50 mg | Valid |
+| 12866E | DASATINIB-TEVA | Dasatinib | Tablet 70 mg | Valid |
+| 12869H | DASATINIB-TEVA | Dasatinib | Tablet 20 mg | Valid |
+| 12886F | DASATINIB-TEVA | Dasatinib | Tablet 70 mg | Valid |
+| 12888H | DASATINIB-TEVA | Dasatinib | Tablet 20 mg | Valid |
+| 12889J | DASATINIB-TEVA | Dasatinib | Tablet 100 mg | Valid |
+| 12890K | DASATINIB-TEVA | Dasatinib | Tablet 70 mg | Valid |
+| 12902C | DASATINIB-TEVA | Dasatinib | Tablet 100 mg | Valid |
+| 12903D | DASATINIB-TEVA | Dasatinib | Tablet 70 mg | Valid |
+
+The table shows 20 of 28 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

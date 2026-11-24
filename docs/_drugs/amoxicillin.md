@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amoxicillin: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). In Australia: at least 20 PBS items"
 ---
 
@@ -68,9 +68,36 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11947T | AMILOXYN | Capsule 500 mg (as trihydrate) | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1884E | AMILOXYN | Amoxicillin | Capsule 250 mg (as trihydrate) | Valid |
+| 1886G | APO-Amoxycillin | Amoxicillin | Powder for oral suspension 125 mg (as trihydrate) per 5 mL, 100 mL | Valid |
+| 1887H | APO-Amoxycillin | Amoxicillin | Powder for oral suspension 250 mg (as trihydrate) per 5 mL, 100 mL | Valid |
+| 1888J | Amoxil | Amoxicillin | Powder for paediatric oral drops 100 mg (as trihydrate) per mL, 20 mL | Valid |
+| 1889K | AMILOXYN | Amoxicillin | Capsule 500 mg (as trihydrate) | Valid |
+| 1891M | AMCLAVOX DUO 500/125 | Amoxicillin + clavulanic acid | Tablet containing 500 mg amoxicillin (as trihydrate) with 125 mg clavulanic acid (as potassium clavulanate) | Valid |
+| 3300Q | AMILOXYN | Amoxicillin | Capsule 500 mg (as trihydrate) | Valid |
+| 3301R | AMILOXYN | Amoxicillin | Capsule 250 mg (as trihydrate) | Valid |
+| 3302T | APO-Amoxycillin | Amoxicillin | Powder for oral suspension 125 mg (as trihydrate) per 5 mL, 100 mL | Valid |
+| 3310F | Amoxil | Amoxicillin | Powder for paediatric oral drops 100 mg (as trihydrate) per mL, 20 mL | Valid |
+| 3393N | APO-Amoxycillin | Amoxicillin | Powder for oral suspension 250 mg (as trihydrate) per 5 mL, 100 mL | Valid |
+| 5225B | Maxamox | Amoxicillin | Powder for oral suspension 500 mg (as trihydrate) per 5 mL, 100 mL | Valid |
+| 8581P | Maxamox | Amoxicillin | Tablet 1 g (as trihydrate) | Valid |
+| 8705E | Maxamox | Amoxicillin | Powder for oral suspension 500 mg (as trihydrate) per 5 mL, 100 mL | Valid |
+| 9714G | Amoxil | Amoxicillin | Powder for paediatric oral drops 100 mg (as trihydrate) per mL, 20 mL | Valid |
+| 11933C | APO-Amoxycillin and Clavulanic Acid | Amoxicillin + clavulanic acid | Tablet containing 875 mg amoxicillin (as trihydrate) with 125 mg clavulanic acid (as potassium clavulanate) | Valid |
+| 11941L | AMCLAVOX DUO 500/125 | Amoxicillin + clavulanic acid | Tablet containing 500 mg amoxicillin (as trihydrate) with 125 mg clavulanic acid (as potassium clavulanate) | Valid |
+| 11947T | AMILOXYN | Amoxicillin | Capsule 500 mg (as trihydrate) | Valid |
+| 11998L | AMILOXYN | Amoxicillin | Capsule 250 mg (as trihydrate) | Valid |
+| 12002Q | Maxamox | Amoxicillin | Tablet 1 g (as trihydrate) | Valid |
+
+The table shows 20 of 27 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

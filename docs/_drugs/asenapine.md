@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 63
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Asenapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Asenapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -72,9 +72,16 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 5140M | Saphris | Sublingual wafer 5 mg (as maleate) | Not stated in the data compiled; refer to the TGA Product Information |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5140M | Saphris | Asenapine | Sublingual wafer 5 mg (as maleate) | Valid |
+| 5141N | Saphris | Asenapine | Sublingual wafer 10 mg (as maleate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

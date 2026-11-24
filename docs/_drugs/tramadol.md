@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 743
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In Australia: 13 PBS items (13 currently listed)"
@@ -78,9 +78,27 @@ For context, the only publication identified in the wider prediction set is for 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12008B | Tramal | Capsule containing tramadol hydrochloride 50 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2527B | Tramal SR 50 | Tramadol | Tablet (sustained release) containing tramadol hydrochloride 50 mg | Valid |
+| 3484J | Tramal 100 | Tramadol | Injection containing tramadol hydrochloride 100 mg in 2 mL | Valid |
+| 5150C | Tramal | Tramadol | Oral drops containing tramadol hydrochloride 100 mg per mL, 10 mL | Valid |
+| 5231H | Tramal 100 | Tramadol | Injection containing tramadol hydrochloride 100 mg in 2 mL | Valid |
+| 5232J | Tramal | Tramadol | Capsule containing tramadol hydrochloride 50 mg | Valid |
+| 8455B | Tramal | Tramadol | Capsule containing tramadol hydrochloride 50 mg | Valid |
+| 8523N | Tramal SR 100 | Tramadol | Tablet (sustained release) containing tramadol hydrochloride 100 mg | Valid |
+| 8524P | Tramal SR 150 | Tramadol | Tablet (sustained release) containing tramadol hydrochloride 150 mg | Valid |
+| 8525Q | Tramal SR 200 | Tramadol | Tablet (sustained release) containing tramadol hydrochloride 200 mg | Valid |
+| 8582Q | Tramal 100 | Tramadol | Injection containing tramadol hydrochloride 100 mg in 2 mL | Valid |
+| 8843K | Tramal | Tramadol | Oral drops containing tramadol hydrochloride 100 mg per mL, 10 mL | Valid |
+| 12008B | Tramal | Tramadol | Capsule containing tramadol hydrochloride 50 mg | Valid |
+| 12024W | Tramal | Tramadol | Capsule containing tramadol hydrochloride 50 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

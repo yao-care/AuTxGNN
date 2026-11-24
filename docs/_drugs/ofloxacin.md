@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ofloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Typhoid fever, salmonellosis, urinary tract infection, bronchitis…"
 monitor_inn: "Ofloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
@@ -92,9 +92,16 @@ Literature for the other predictions is limited and indirect. The most relevant 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 5567B | Ocuflox | Eye drops 3 mg per mL, 5 mL | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5567B | Ocuflox | Ofloxacin | Eye drops 3 mg per mL, 5 mL | Valid |
+| 8383F | Ocuflox | Ofloxacin | Eye drops 3 mg per mL, 5 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Both listed PBS items are ophthalmic formulations. Its route is unlikely to suit a systemic condition such as polyclonal hyperviscosity syndrome.
 

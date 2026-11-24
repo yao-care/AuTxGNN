@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 735
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Tofacitinib: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,29 @@ The TxGNN deep-learning model produced candidates for Tofacitinib, but every can
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 10511F | Xeljanz | Tablet 5 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10511F | Xeljanz | Tofacitinib | Tablet 5 mg | Valid |
+| 10517M | Xeljanz | Tofacitinib | Tablet 5 mg | Valid |
+| 11675L | Xeljanz | Tofacitinib | Tablet 5 mg | Valid |
+| 11690G | Xeljanz | Tofacitinib | Tablet 5 mg | Valid |
+| 12556W | Xeljanz | Tofacitinib | Tablet 5 mg | Valid |
+| 12557X | Xeljanz | Tofacitinib | Tablet 5 mg | Valid |
+| 12588M | Xeljanz | Tofacitinib | Tablet 10 mg | Valid |
+| 12589N | Xeljanz | Tofacitinib | Tablet 10 mg | Valid |
+| 13345J | Xeljanz | Tofacitinib | Tablet 5 mg | Valid |
+| 13349N | Xeljanz | Tofacitinib | Tablet 5 mg | Valid |
+| 13730P | Xeljanz | Tofacitinib | Tablet 5 mg | Valid |
+| 13737B | Xeljanz | Tofacitinib | Tablet 5 mg | Valid |
+| 13738C | Xeljanz | Tofacitinib | Oral solution 1 mg per mL, 240 mL | Valid |
+| 13755Y | Xeljanz | Tofacitinib | Tablet 5 mg | Valid |
+| 13770R | Xeljanz | Tofacitinib | Oral solution 1 mg per mL, 240 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Chlorobutanol: predicted new indication erectile dysfunction (disease) (evidence level L5). Approved use: Not stated in the data compiled for this report (the product is an ea…"
 monitor_inn: "chlorobutanol"
 predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
@@ -71,9 +71,15 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4180B | Cerumol | Ear drops: ortho-dichlorobenzene 140 mg/mL, para-dichlorobenzene 20 mg/mL, chlorobutanol hemihydrate 50 mg/mL, arachis oil 573 mg/mL, 10 mL | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4180B | Cerumol | ortho-dichlorobenzene + para-dichlorobenzene + chlorobutanol + arachis oil | Ear drops, ortho-dichlorobenzene 140 mg per mL, para-dichlorobenzene 20 mg per mL, chlorobutanol hemihydrate 50 mg per… | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

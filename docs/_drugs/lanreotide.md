@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
 description: "Lanreotide: predicted new indication Hypertrichosis (disease) (evidence level L5). In Australia: at least 20 PBS items"
@@ -93,9 +93,36 @@ No literature is available for hypertrichosis.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form |
-|---------|------|------|
-| ARTG 11289E | Mytolac | Injection 120 mg (as acetate) in single dose pre-filled syringe |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5777C | Mytolac | Lanreotide | Injection 60 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 5778D | Mytolac | Lanreotide | Injection 90 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 5779E | Mytolac | Lanreotide | Injection 120 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 6423C | Mytolac | Lanreotide | Injection 60 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 11289E | Mytolac | Lanreotide | Injection 120 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 11315M | Mytolac | Lanreotide | Injection 60 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 11316N | Mytolac | Lanreotide | Injection 90 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 11513Y | Mytolac | Lanreotide | Injection 120 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 11527Q | Mytolac | Lanreotide | Injection 120 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 11736Q | Mytolac | Lanreotide | Injection 120 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 15607K | Mytolac | Lanreotide | Injection 120 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 15608L | Mytolac | Lanreotide | Injection 90 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 15619C | Mytolac | Lanreotide | Injection 120 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 15624H | Mytolac | Lanreotide | Injection 90 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 15636Y | Mytolac | Lanreotide | Injection 90 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 15637B | Mytolac | Lanreotide | Injection 120 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 15645K | Mytolac | Lanreotide | Injection 60 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 15668P | Mytolac | Lanreotide | Injection 60 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 15678E | Mytolac | Lanreotide | Injection 60 mg (as acetate) in single dose pre-filled syringe | Valid |
+| 15679F | Mytolac | Lanreotide | Injection 120 mg (as acetate) in single dose pre-filled syringe | Valid |
+
+The table shows 20 of 22 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

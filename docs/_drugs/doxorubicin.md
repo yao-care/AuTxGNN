@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 230
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxorubicin: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma…"
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
@@ -98,10 +98,20 @@ No ANZCTR identifiers were included in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4361M | Adriamycin | Solution for I.V. injection or intravesical administration, doxorubicin hydrochloride 50 mg in 25 mL single dose vial | Not available in the compiled data |
-| ARTG 4364Q | Caelyx | Suspension for I.V. infusion, pegylated liposomal doxorubicin hydrochloride 20 mg in 10 mL | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4361M | Adriamycin | Doxorubicin | Solution for I.V. injection or intravesical administration containing doxorubicin hydrochloride 50 mg in 25 mL single d… | Valid |
+| 4364Q | Caelyx | doxorubicin hydrochloride (as pegylated liposomal) | Suspension for I.V. infusion containing pegylated liposomal doxorubicin hydrochloride 20 mg in 10 mL | Valid |
+| 5705G | Caelyx | doxorubicin hydrochloride (as pegylated liposomal) | Suspension for I.V. infusion containing pegylated liposomal doxorubicin hydrochloride 20 mg in 10 mL | Valid |
+| 6249X | Caelyx | doxorubicin hydrochloride (as pegylated liposomal) | Suspension for I.V. infusion containing pegylated liposomal doxorubicin hydrochloride 20 mg in 10 mL | Valid |
+| 7229L | Adriamycin | Doxorubicin | Solution for I.V. injection or intravesical administration containing doxorubicin hydrochloride 50 mg in 25 mL single d… | Valid |
+| 7230M | Caelyx | doxorubicin hydrochloride (as pegylated liposomal) | Suspension for I.V. infusion containing pegylated liposomal doxorubicin hydrochloride 20 mg in 10 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

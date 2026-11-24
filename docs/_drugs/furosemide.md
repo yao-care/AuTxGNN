@@ -5,7 +5,7 @@ layout: default
 title: Furosemide
 parent: Known Uses Only (No New Predictions)
 nav_order: 323
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Furosemide: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Furosemide"
 predicted_indications: []
@@ -48,9 +48,27 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form |
-|---------|------|------|
-| ARTG 12222G | Frusemix-M | Tablet 20 mg (oral) |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1810G | Frusemix-M | Furosemide | Tablet 20 mg | Valid |
+| 2411X | Lasix | Furosemide | Oral solution 10 mg per mL, 30 mL | Valid |
+| 2412Y | APO-Frusemide | Furosemide | Tablet 40 mg | Valid |
+| 2413B | Lasix | Furosemide | Injection 20 mg in 2 mL | Valid |
+| 2414C | APO-Frusemide | Furosemide | Tablet 20 mg | Valid |
+| 2415D | Urex-Forte | Furosemide | Tablet 500 mg | Valid |
+| 3466K | Lasix | Furosemide | Injection 20 mg in 2 mL | Valid |
+| 12222G | Frusemix-M | Furosemide | Tablet 20 mg | Valid |
+| 13472C | APO-Frusemide | Furosemide | Tablet 40 mg | Valid |
+| 13473D | APO-Frusemide | Furosemide | Tablet 20 mg | Valid |
+| 13474E | Urex-Forte | Furosemide | Tablet 500 mg | Valid |
+| 13501N | Frusemix-M | Furosemide | Tablet 20 mg | Valid |
+| 13504R | Lasix | Furosemide | Oral solution 10 mg per mL, 30 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The approved indication text for this entry is not available in the data compiled for this report.
 

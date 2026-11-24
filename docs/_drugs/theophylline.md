@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Theophylline"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Asthma, bronchitis, pulmonary emphysema and related lung disease"
 ---
 
@@ -79,9 +79,18 @@ Nineteen publications were retrieved, but none directly studies theophylline for
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 2614N | Nuelin | Oral solution 133.3 mg per 25 mL, 500 mL | Not stated in the licence record |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2614N | Nuelin | Theophylline | Oral solution 133.3 mg per 25 mL, 500 mL | Valid |
+| 2634P | Nuelin-SR 250 | Theophylline | Tablet 250 mg (sustained release) | Valid |
+| 8230E | Nuelin-SR 200 | Theophylline | Tablet 200 mg (sustained release) | Valid |
+| 8231F | Nuelin-SR 300 | Theophylline | Tablet 300 mg (sustained release) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

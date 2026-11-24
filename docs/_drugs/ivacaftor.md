@@ -5,7 +5,7 @@ layout: default
 title: Ivacaftor
 parent: Known Uses Only (No New Predictions)
 nav_order: 399
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Ivacaftor: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Ivacaftor"
 predicted_indications: []
@@ -48,9 +48,36 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10170G | Kalydeco | Tablet 150 mg (oral) | Not recorded in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10170G | Kalydeco | Ivacaftor | Tablet 150 mg | Valid |
+| 10175M | Kalydeco | Ivacaftor | Tablet 150 mg | Valid |
+| 11097C | Kalydeco | Ivacaftor | Sachet containing granules 50 mg | Valid |
+| 11098D | Kalydeco | Ivacaftor | Sachet containing granules 75 mg | Valid |
+| 11105L | Kalydeco | Ivacaftor | Sachet containing granules 50 mg | Valid |
+| 11109Q | Kalydeco | Ivacaftor | Sachet containing granules 75 mg | Valid |
+| 14147N | Kalydeco | Ivacaftor | Sachet containing granules 25 mg | Valid |
+| 14148P | Kalydeco | Ivacaftor | Sachet containing granules 50 mg | Valid |
+| 14153X | Kalydeco | Ivacaftor | Tablet 150 mg | Valid |
+| 14155B | Kalydeco | Ivacaftor | Sachet containing granules 25 mg | Valid |
+| 14156C | Kalydeco | Ivacaftor | Sachet containing granules 25 mg | Valid |
+| 14157D | Kalydeco | Ivacaftor | Sachet containing granules 75 mg | Valid |
+| 14158E | Kalydeco | Ivacaftor | Sachet containing granules 50 mg | Valid |
+| 14165M | Kalydeco | Ivacaftor | Sachet containing granules 25 mg | Valid |
+| 14167P | Kalydeco | Ivacaftor | Sachet containing granules 75 mg | Valid |
+| 14169R | Kalydeco | Ivacaftor | Tablet 150 mg | Valid |
+| 14881F | Kalydeco | Ivacaftor | Sachet containing granules 13.4 mg | Valid |
+| 14901G | Kalydeco | Ivacaftor | Sachet containing granules 13.4 mg | Valid |
+| 14902H | Kalydeco | Ivacaftor | Sachet containing granules 13.4 mg | Valid |
+| 14936D | Kalydeco | Ivacaftor | Sachet containing granules 13.4 mg | Valid |
+
+The table shows 20 of 80 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 761
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Upadacitinib"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Upadacitinib: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). In Australia: at least 20 PBS items"
@@ -72,9 +72,36 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11979L | Rinvoq | Tablet 15 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11979L | Rinvoq | Upadacitinib | Tablet 15 mg | Valid |
+| 11989B | Rinvoq | Upadacitinib | Tablet 15 mg | Valid |
+| 12621G | Rinvoq | Upadacitinib | Tablet 15 mg | Valid |
+| 12624K | Rinvoq | Upadacitinib | Tablet 15 mg | Valid |
+| 12625L | Rinvoq | Upadacitinib | Tablet 15 mg | Valid |
+| 12648Q | Rinvoq | Upadacitinib | Tablet 15 mg | Valid |
+| 12827D | Rinvoq | Upadacitinib | Tablet 30 mg | Valid |
+| 12828E | Rinvoq | Upadacitinib | Tablet 15 mg | Valid |
+| 12829F | Rinvoq | Upadacitinib | Tablet 30 mg | Valid |
+| 12831H | Rinvoq | Upadacitinib | Tablet 15 mg | Valid |
+| 12835M | Rinvoq | Upadacitinib | Tablet 15 mg | Valid |
+| 12836N | Rinvoq | Upadacitinib | Tablet 30 mg | Valid |
+| 13249H | Rinvoq | Upadacitinib | Tablet 30 mg | Valid |
+| 13250J | Rinvoq | Upadacitinib | Tablet 15 mg | Valid |
+| 13256Q | Rinvoq | Upadacitinib | Tablet 15 mg | Valid |
+| 13262B | Rinvoq | Upadacitinib | Tablet 45 mg | Valid |
+| 13265E | Rinvoq | Upadacitinib | Tablet 30 mg | Valid |
+| 13343G | Rinvoq | Upadacitinib | Tablet 15 mg | Valid |
+| 13350P | Rinvoq | Upadacitinib | Tablet 15 mg | Valid |
+| 13746L | Rinvoq | Upadacitinib | Tablet 30 mg | Valid |
+
+The table shows 20 of 25 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

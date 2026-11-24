@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Camphor: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded"
 monitor_inn: "camphor"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
@@ -83,9 +83,15 @@ Other retrieved papers for this prediction were not relevant, including feverfew
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11707E | Goanna Heat Cream | Cream 20%-5%-3.5%-3%-1%-1%-0.5%-0.5%-0.15%, 100 g | Not recorded |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11707E | Goanna Heat Cream | methyl salicylate + menthol + camphor + eucalyptus oil + pine oil pumilio + turpentine oi… | Cream 20%-5%-3.5%-3%-1%-1%-0.5%-0.5%-0.15%, 100 g | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

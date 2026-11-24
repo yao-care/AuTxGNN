@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 757
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 description: "Triptorelin: predicted new indication Hypertrichosis (disease) (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -80,9 +80,18 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10907C | Decapeptyl | Injection 100 micrograms (as acetate) in 1 mL pre-filled syringe | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5297T | Diphereline | Triptorelin | Powder for I.M. injection (prolonged release) 22.5 mg (as embonate) with solvent, syringe and needles | Valid |
+| 9378N | Diphereline | Triptorelin | Powder for I.M. injection (prolonged release) 3.75 mg (as embonate) with solvent, syringe and needles | Valid |
+| 9379P | Diphereline | Triptorelin | Powder for I.M. injection (prolonged release) 11.25 mg (as embonate) with solvent, syringe and needles | Valid |
+| 10907C | Decapeptyl | Triptorelin | Injection 100 micrograms (as acetate) in 1 mL pre-filled syringe | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

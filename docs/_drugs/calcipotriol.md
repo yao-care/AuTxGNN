@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 123
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not recorded in the data compiled for this report"
 monitor_inn: "calcipotriol"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -77,9 +77,22 @@ Study designs were inferred from titles and abstracts only.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11091R | Enstilar | Foam containing calcipotriol 50 micrograms with betamethasone 500 micrograms (as dipropionate) per g, 60 g | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 9494Q | Calcipotriol/Betamethasone Sandoz 50/500 | calcipotriol + betamethasone dipropionate | Ointment containing calcipotriol 50 micrograms with betamethasone 500 micrograms (as dipropionate) per g, 30 g | Valid |
+| 11091R | Enstilar | calcipotriol + betamethasone dipropionate | Foam containing calcipotriol 50 micrograms with betamethasone 500 micrograms (as dipropionate) per g, 60 g | Valid |
+| 13520N | Enstilar | calcipotriol + betamethasone dipropionate | Foam containing calcipotriol 50 micrograms with betamethasone 500 micrograms (as dipropionate) per g, 60 g | Valid |
+| 13577N | Calcipotriol/Betamethasone Sandoz 50/500 | calcipotriol + betamethasone dipropionate | Ointment containing calcipotriol 50 micrograms with betamethasone 500 micrograms (as dipropionate) per g, 30 g | Valid |
+| 15203E | Wynzora 50/500 | calcipotriol + betamethasone dipropionate | Cream containing calcipotriol 50 micrograms with betamethasone 500 micrograms (as dipropionate) per g, 60 g | Valid |
+| 15212P | Wynzora 50/500 | calcipotriol + betamethasone dipropionate | Cream containing calcipotriol 50 micrograms with betamethasone 500 micrograms (as dipropionate) per g, 60 g | Valid |
+| 15345P | Actobet 50/500 | calcipotriol + betamethasone dipropionate | Gel containing calcipotriol 50 micrograms with betamethasone 500 micrograms (as dipropionate) per g, 60 g | Valid |
+| 15352B | Actobet 50/500 | calcipotriol + betamethasone dipropionate | Gel containing calcipotriol 50 micrograms with betamethasone 500 micrograms (as dipropionate) per g, 60 g | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 description: "Dorzolamide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
@@ -107,9 +107,20 @@ No literature is available for primary hereditary glaucoma. The following public
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 14524K (as listed in the data) | Trusopt | Eye drops 20 mg (as hydrochloride) per mL, 5 mL | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5541P | Trusopt | Dorzolamide | Eye drops 20 mg (as hydrochloride) per mL, 5 mL | Valid |
+| 5542Q | Cosdor | Dorzolamide + timolol | Eye drops containing dorzolamide 20 mg (as hydrochloride) with timolol 5 mg (as maleate) per mL, 5 mL | Valid |
+| 8488R | Trusopt | Dorzolamide | Eye drops 20 mg (as hydrochloride) per mL, 5 mL | Valid |
+| 8567X | Cosdor | Dorzolamide + timolol | Eye drops containing dorzolamide 20 mg (as hydrochloride) with timolol 5 mg (as maleate) per mL, 5 mL | Valid |
+| 14386E | Cosdor | Dorzolamide + timolol | Eye drops containing dorzolamide 20 mg (as hydrochloride) with timolol 5 mg (as maleate) per mL, 5 mL | Valid |
+| 14524K | Trusopt | Dorzolamide | Eye drops 20 mg (as hydrochloride) per mL, 5 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

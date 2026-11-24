@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 682
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "sofosbuvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
@@ -89,10 +89,20 @@ No ANZCTR identifiers were available in the data compiled.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11144M | Epclusa | Tablet containing 400 mg sofosbuvir with 100 mg velpatasvir | Not available in the data compiled |
-| ARTG 11658N | Vosevi | Tablet containing 400 mg sofosbuvir with 100 mg velpatasvir and 100 mg voxilaprevir | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11144M | Epclusa | Sofosbuvir + velpatasvir | Tablet containing 400 mg sofosbuvir with 100 mg velpatasvir | Valid |
+| 11145N | Epclusa | Sofosbuvir + velpatasvir | Tablet containing 400 mg sofosbuvir with 100 mg velpatasvir | Valid |
+| 11147Q | Epclusa | Sofosbuvir + velpatasvir | Tablet containing 400 mg sofosbuvir with 100 mg velpatasvir | Valid |
+| 11658N | Vosevi | Sofosbuvir + velpatasvir + voxilaprevir | Tablet containing 400 mg sofosbuvir with 100 mg velpatasvir and 100 mg voxilaprevir | Valid |
+| 11659P | Vosevi | Sofosbuvir + velpatasvir + voxilaprevir | Tablet containing 400 mg sofosbuvir with 100 mg velpatasvir and 100 mg voxilaprevir | Valid |
+| 11665Y | Vosevi | Sofosbuvir + velpatasvir + voxilaprevir | Tablet containing 400 mg sofosbuvir with 100 mg velpatasvir and 100 mg voxilaprevir | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

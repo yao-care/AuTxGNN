@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 7
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). In Australia: at least 20 PBS items"
 ---
 
@@ -72,10 +72,36 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10794D | Betnovate 1/2 | Cream 500 micrograms (as valerate) per g, 15 g | Not recorded in the local data |
-| ARTG 10795E | Diprosone | Ointment 500 micrograms (as dipropionate) per g, 15 g | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1115Q | Diprosone | betamethasone dipropionate | Cream 500 micrograms (as dipropionate) per g, 15 g | Valid |
+| 1119X | Diprosone | betamethasone dipropionate | Ointment 500 micrograms (as dipropionate) per g, 15 g | Valid |
+| 2812B | Betnovate 1/5 | betamethasone valerate | Cream 200 micrograms (as valerate) per g, 100 g | Valid |
+| 2813C | Betnovate 1/2 | betamethasone valerate | Cream 500 micrograms (as valerate) per g, 15 g | Valid |
+| 4131K | Betnovate | betamethasone valerate | Cream 1 mg (as valerate) per g, 30 g | Valid |
+| 10794D | Betnovate 1/2 | betamethasone valerate | Cream 500 micrograms (as valerate) per g, 15 g | Valid |
+| 10795E | Diprosone | betamethasone dipropionate | Ointment 500 micrograms (as dipropionate) per g, 15 g | Valid |
+| 10799J | Betnovate 1/2 | betamethasone valerate | Cream 500 micrograms (as valerate) per g, 15 g | Valid |
+| 10800K | Diprosone | betamethasone dipropionate | Cream 500 micrograms (as dipropionate) per g, 15 g | Valid |
+| 10801L | Diprosone | betamethasone dipropionate | Cream 500 micrograms (as dipropionate) per g, 15 g | Valid |
+| 10802M | Diprosone | betamethasone dipropionate | Cream 500 micrograms (as dipropionate) per g, 15 g | Valid |
+| 10807T | Betnovate 1/2 | betamethasone valerate | Cream 500 micrograms (as valerate) per g, 15 g | Valid |
+| 10808W | Betnovate 1/2 | betamethasone valerate | Cream 500 micrograms (as valerate) per g, 15 g | Valid |
+| 10810Y | Betnovate 1/2 | betamethasone valerate | Cream 500 micrograms (as valerate) per g, 15 g | Valid |
+| 10813D | Diprosone | betamethasone dipropionate | Cream 500 micrograms (as dipropionate) per g, 15 g | Valid |
+| 10816G | Diprosone | betamethasone dipropionate | Ointment 500 micrograms (as dipropionate) per g, 15 g | Valid |
+| 10820L | Diprosone | betamethasone dipropionate | Ointment 500 micrograms (as dipropionate) per g, 15 g | Valid |
+| 10821M | Diprosone | betamethasone dipropionate | Ointment 500 micrograms (as dipropionate) per g, 15 g | Valid |
+| 10823P | Diprosone | betamethasone dipropionate | Ointment 500 micrograms (as dipropionate) per g, 15 g | Valid |
+| 10824Q | Diprosone | betamethasone dipropionate | Cream 500 micrograms (as dipropionate) per g, 15 g | Valid |
+
+The table shows 20 of 31 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The data compiled for this report contain at least 20 current PBS items (betamethasone valerate and betamethasone dipropionate), all single-ingredient topical presentations.
 

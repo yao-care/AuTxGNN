@@ -3,7 +3,7 @@ layout: default
 title: Olodaterol
 parent: Known Uses Only (No New Predictions)
 nav_order: 524
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Olodaterol: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "olodaterol"
 predicted_indications: []
@@ -48,10 +48,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form |
-|---------|------|------|
-| ARTG 14849M | Spiolto Respimat | Inhalation solution (tiotropium 2.5 µg + olodaterol 2.5 µg per dose), 60 doses, pack of 2 |
-| ARTG 10557P | Spiolto Respimat | Inhalation solution (tiotropium 2.5 µg + olodaterol 2.5 µg per dose), 60 doses |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10557P | Spiolto Respimat | Tiotropium + olodaterol | Solution for oral inhalation containing tiotropium 2.5 micrograms (as bromide monohydrate) with olodaterol 2.5 microgra… | Valid |
+| 14849M | Spiolto Respimat | tiotropium + olodaterol | Solution for oral inhalation containing tiotropium 2.5 micrograms (as bromide monohydrate) with olodaterol 2.5 microgra… | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Methylprednisolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). In Australia: at least 20 PBS items"
@@ -78,9 +78,36 @@ Currently no related literature available for alopecia mucinosa.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10830B | Advantan | Lotion containing methylprednisolone aceponate 1 mg per g, 20 g | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1928L | Depo-Medrol | Methylprednisolone | Injection containing methylprednisolone acetate 40 mg in 1 mL | Valid |
+| 10830B | Advantan | Methylprednisolone | Lotion containing methylprednisolone aceponate 1 mg per g, 20 g | Valid |
+| 10833E | Advantan | Methylprednisolone | Cream containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10834F | Advantan | Methylprednisolone | Ointment containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10835G | Advantan | Methylprednisolone | Cream containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10836H | Advantan | Methylprednisolone | Ointment containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10838K | Advantan | Methylprednisolone | Lotion containing methylprednisolone aceponate 1 mg per g, 20 g | Valid |
+| 10839L | Advantan (Fatty) | Methylprednisolone | Fatty ointment containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10840M | Advantan (Fatty) | Methylprednisolone | Fatty ointment containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10842P | Advantan | Methylprednisolone | Cream containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10843Q | Advantan (Fatty) | Methylprednisolone | Fatty ointment containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10844R | Advantan (Fatty) | Methylprednisolone | Fatty ointment containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10845T | Advantan | Methylprednisolone | Ointment containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10846W | Advantan | Methylprednisolone | Ointment containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10848Y | Advantan (Fatty) | Methylprednisolone | Fatty ointment containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10851D | Advantan | Methylprednisolone | Cream containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10852E | Advantan | Methylprednisolone | Lotion containing methylprednisolone aceponate 1 mg per g, 20 g | Valid |
+| 10853F | Advantan | Methylprednisolone | Ointment containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10855H | Advantan | Methylprednisolone | Cream containing methylprednisolone aceponate 1 mg per g, 15 g | Valid |
+| 10856J | Advantan | Methylprednisolone | Lotion containing methylprednisolone aceponate 1 mg per g, 20 g | Valid |
+
+The table shows 20 of 25 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The local entries are mainly topical lotions, creams and ointments containing methylprednisolone aceponate, a related ester form of the molecule, and all are currently listed. One injection (Depo-Medrol, methylprednisolone acetate) is also listed.
 

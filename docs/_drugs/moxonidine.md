@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 489
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Moxonidine"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "primary hereditary glaucoma"]
 description: "Moxonidine: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -87,9 +87,18 @@ For the fourth-ranked prediction (alopecia), one publication was linked:
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13552G | Moxonidine GX | Tablet 400 micrograms | Not recorded in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 9019Q | Moxonidine GX | Moxonidine | Tablet 200 micrograms | Valid |
+| 9020R | Moxonidine GX | Moxonidine | Tablet 400 micrograms | Valid |
+| 13552G | Moxonidine GX | Moxonidine | Tablet 400 micrograms | Valid |
+| 13579Q | Moxonidine GX | Moxonidine | Tablet 200 micrograms | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

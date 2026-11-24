@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 677
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Sirolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: predicted new indication Liposarcoma (evidence level L5). In Australia: 16 PBS items (16 currently listed)"
@@ -80,9 +80,30 @@ No published study in the compiled data tests sirolimus in liposarcoma. The item
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13860L | Rapamune | Tablet 0.5 mg (oral) | Indication text not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 6436R | Rapamune | Sirolimus | Tablet 1 mg | Valid |
+| 6437T | Rapamune | Sirolimus | Oral solution 1 mg per mL, 60 mL | Valid |
+| 6457W | Rapamune | Sirolimus | Tablet 2 mg | Valid |
+| 8724E | Rapamune | Sirolimus | Tablet 1 mg | Valid |
+| 8725F | Rapamune | Sirolimus | Oral solution 1 mg per mL, 60 mL | Valid |
+| 8833X | Rapamune | Sirolimus | Tablet 2 mg | Valid |
+| 8984W | Rapamune | Sirolimus | Tablet 0.5 mg | Valid |
+| 9548M | Rapamune | Sirolimus | Tablet 2 mg | Valid |
+| 9549N | Rapamune | Sirolimus | Tablet 1 mg | Valid |
+| 9550P | Rapamune | Sirolimus | Oral solution 1 mg per mL, 60 mL | Valid |
+| 9747B | Rapamune | Sirolimus | Tablet 0.5 mg | Valid |
+| 9748C | Rapamune | Sirolimus | Tablet 0.5 mg | Valid |
+| 13860L | Rapamune | Sirolimus | Tablet 0.5 mg | Valid |
+| 13885T | Rapamune | Sirolimus | Oral solution 1 mg per mL, 60 mL | Valid |
+| 13886W | Rapamune | Sirolimus | Tablet 2 mg | Valid |
+| 14072P | Rapamune | Sirolimus | Tablet 1 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Sixteen valid single-ingredient PBS items are recorded (Rapamune 0.5 mg, 1 mg and 2 mg tablets and 1 mg/mL oral solution), and none have been delisted.
 

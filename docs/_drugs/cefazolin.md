@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefazolin: predicted new indication infectious otitis media (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
 ---
 
@@ -73,9 +73,20 @@ Neither publication studies cefazolin as a treatment of infectious otitis media 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 12115P | Cephazolin Viatris | Powder for injection 2 g (as sodium) | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1797N | Cefazolin-AFT | Cefazolin | Powder for injection 1 g (as sodium) | Valid |
+| 1799Q | Cefazolin-AFT | Cefazolin | Powder for injection 1 g (as sodium) | Valid |
+| 12115P | Cephazolin Viatris | Cefazolin | Powder for injection 2 g (as sodium) | Valid |
+| 12118T | Cephazolin Viatris | Cefazolin | Powder for injection 2 g (as sodium) | Valid |
+| 14694J | Cephazolin Viatris | Cefazolin | Powder for injection 2 g (as sodium) | Valid |
+| 14698N | Cefazolin-AFT | Cefazolin | Powder for injection 1 g (as sodium) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The product is a single-ingredient injectable and its licence is valid.
 

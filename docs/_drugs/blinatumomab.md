@@ -5,7 +5,7 @@ layout: default
 title: Blinatumomab
 parent: Known Uses Only (No New Predictions)
 nav_order: 101
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Blinatumomab: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Blinatumomab"
 predicted_indications: []
@@ -50,9 +50,22 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11115B | Blincyto | Powder for I.V. infusion 38.5 micrograms | Not stated in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11115B | Blincyto | Blinatumomab | Powder for I.V. infusion 38.5 micrograms | Valid |
+| 11116C | Blincyto | Blinatumomab | Powder for I.V. infusion 38.5 micrograms | Valid |
+| 11117D | Blincyto | Blinatumomab | Powder for I.V. infusion 38.5 micrograms | Valid |
+| 11118E | Blincyto | Blinatumomab | Powder for I.V. infusion 38.5 micrograms | Valid |
+| 11119F | Blincyto | Blinatumomab | Powder for I.V. infusion 38.5 micrograms | Valid |
+| 11120G | Blincyto | Blinatumomab | Powder for I.V. infusion 38.5 micrograms | Valid |
+| 11850Q | Blincyto | Blinatumomab | Powder for I.V. infusion 38.5 micrograms | Valid |
+| 11867N | Blincyto | Blinatumomab | Powder for I.V. infusion 38.5 micrograms | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

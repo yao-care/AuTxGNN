@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 325
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Gabapentin: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,24 @@ The TxGNN model's candidates for Gabapentin (score ≥ 0.99) are all known uses 
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1834M | Neurontin | Capsule 300 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1834M | Neurontin | Gabapentin | Capsule 300 mg | Valid |
+| 1835N | Neurontin | Gabapentin | Capsule 400 mg | Valid |
+| 4591P | Neurontin | Gabapentin | Capsule 100 mg | Valid |
+| 4592Q | Neurontin | Gabapentin | Capsule 300 mg | Valid |
+| 4593R | Neurontin | Gabapentin | Capsule 400 mg | Valid |
+| 4594T | Neurontin | Gabapentin | Tablet 600 mg | Valid |
+| 4595W | Neurontin | Gabapentin | Tablet 800 mg | Valid |
+| 8389M | Neurontin | Gabapentin | Tablet 800 mg | Valid |
+| 8505P | Neurontin | Gabapentin | Capsule 100 mg | Valid |
+| 8559L | Neurontin | Gabapentin | Tablet 600 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

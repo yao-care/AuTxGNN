@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Atenolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atenolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension"
 ---
 
@@ -70,9 +70,18 @@ Currently no related literature available for malignant hypertensive renal disea
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1081X | Atenolol GH | Tablet 50 mg (oral) | Not stated in the licence record |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1081X | Atenolol GH | Atenolol | Tablet 50 mg | Valid |
+| 2243C | Atenolol-AFT | Atenolol | Oral solution 50 mg in 10 mL, 300 mL | Valid |
+| 13540P | Atenolol GH | Atenolol | Tablet 50 mg | Valid |
+| 13600T | Atenolol-AFT | Atenolol | Oral solution 50 mg in 10 mL, 300 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 This is a single-ingredient product, valid and marketed.
 

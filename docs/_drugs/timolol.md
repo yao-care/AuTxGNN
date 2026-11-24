@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 726
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Timolol: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -75,9 +75,36 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Timolol, so 
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1279H | Timoptol | Eye drops 5 mg (as maleate) per mL, 5 mL | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1279H | Timoptol | Timolol | Eye drops 5 mg (as maleate) per mL, 5 mL | Valid |
+| 1926J | Timoptol XE | Timolol | Eye drops (gellan gum solution) 5 mg (as maleate) per mL, 2.5 mL | Valid |
+| 3438Y | Azarga | brinzolamide + timolol | Eye drops 10 mg brinzolamide with timolol 5 mg (as maleate) per mL, 5 mL | Valid |
+| 5535H | Combigan | Brimonidine + timolol | Eye drops containing brimonidine tartrate 2 mg with timolol 5 mg (as maleate) per mL, 5 mL | Valid |
+| 5542Q | Cosdor | Dorzolamide + timolol | Eye drops containing dorzolamide 20 mg (as hydrochloride) with timolol 5 mg (as maleate) per mL, 5 mL | Valid |
+| 5548B | Timoptol | Timolol | Eye drops 5 mg (as maleate) per mL, 5 mL | Valid |
+| 5550D | Timoptol XE | Timolol | Eye drops (gellan gum solution) 5 mg (as maleate) per mL, 2.5 mL | Valid |
+| 5553G | APO-Latanoprost/Timolol 0.05/5 | Latanoprost + timolol | Eye drops 50 micrograms latanoprost with timolol 5 mg (as maleate) per mL, 2.5 mL | Valid |
+| 5555J | Duotrav | Travoprost + timolol | Eye drops 40 micrograms travoprost with timolol 5 mg (as maleate) per mL, 2.5 mL | Valid |
+| 10107Y | GANfort PF 0.3/5 | Bimatoprost + timolol | Eye drops 300 micrograms bimatoprost with timolol 5 mg (as maleate) per mL, single dose units 0.4 mL, 30 | Valid |
+| 10108B | GANfort PF 0.3/5 | Bimatoprost + timolol | Eye drops 300 micrograms bimatoprost with timolol 5 mg (as maleate) per mL, single dose units 0.4 mL, 30 | Valid |
+| 14316L | Duotrav | Travoprost + timolol | Eye drops 40 micrograms travoprost with timolol 5 mg (as maleate) per mL, 2.5 mL | Valid |
+| 14317M | Ganfort 0.3/5 | Bimatoprost + timolol | Eye drops 300 micrograms bimatoprost with timolol 5 mg (as maleate) per mL, 3 mL | Valid |
+| 14350G | APO-Latanoprost/Timolol 0.05/5 | Latanoprost + timolol | Eye drops 50 micrograms latanoprost with timolol 5 mg (as maleate) per mL, 2.5 mL | Valid |
+| 14351H | GANfort PF 0.3/5 | Bimatoprost + timolol | Eye drops 300 micrograms bimatoprost with timolol 5 mg (as maleate) per mL, single dose units 0.4 mL, 30 | Valid |
+| 14386E | Cosdor | Dorzolamide + timolol | Eye drops containing dorzolamide 20 mg (as hydrochloride) with timolol 5 mg (as maleate) per mL, 5 mL | Valid |
+| 14491Q | Combigan | Brimonidine + timolol | Eye drops containing brimonidine tartrate 2 mg with timolol 5 mg (as maleate) per mL, 5 mL | Valid |
+| 14495X | Azarga | brinzolamide + timolol | Eye drops 10 mg brinzolamide with timolol 5 mg (as maleate) per mL, 5 mL | Valid |
+| 15048B | Timoptol | Timolol | Eye drops 5 mg (as maleate) per mL, 5 mL | Valid |
+| 15062R | Timoptol XE | Timolol | Eye drops (gellan gum solution) 5 mg (as maleate) per mL, 2.5 mL | Valid |
+
+The table shows 20 of 27 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Evolocumab"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
 description: "Evolocumab: predicted new indication Symptomatic form of hemophilia in female carriers (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
@@ -74,9 +74,20 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10958R | Repatha | Injection 140 mg in 1 mL single use pre-filled pen | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10958R | Repatha | Evolocumab | Injection 140 mg in 1 mL single use pre-filled pen | Valid |
+| 11484K | Repatha | Evolocumab | Injection 140 mg in 1 mL single use pre-filled pen | Valid |
+| 11977J | Repatha | Evolocumab | Injection 140 mg in 1 mL single use pre-filled pen | Valid |
+| 11985T | Repatha | Evolocumab | Injection 140 mg in 1 mL single use pre-filled pen | Valid |
+| 15592P | Repatha | Evolocumab | Injection 140 mg in 1 mL single use pre-filled pen | Valid |
+| 15599B | Repatha | Evolocumab | Injection 140 mg in 1 mL single use pre-filled pen | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

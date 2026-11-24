@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 459
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L3). In Australia: 2 PBS items (2 currently listed)"
@@ -102,9 +102,16 @@ Many of the registered trials below are multi-agent protocols in which mercaptop
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10214N | Allmercap | Oral suspension containing mercaptopurine monohydrate 20 mg per mL, 100 mL | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1598D | MERCAPTOPURINE-LINK | Mercaptopurine | Tablet containing mercaptopurine monohydrate 50 mg | Valid |
+| 10214N | Allmercap | Mercaptopurine | Oral suspension containing mercaptopurine monohydrate 20 mg per mL, 100 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

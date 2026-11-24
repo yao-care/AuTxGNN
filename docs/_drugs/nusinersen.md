@@ -5,7 +5,7 @@ layout: default
 title: Nusinersen
 parent: Known Uses Only (No New Predictions)
 nav_order: 513
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Nusinersen: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Nusinersen"
 predicted_indications: []
@@ -48,9 +48,33 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11363C | Spinraza | Solution for injection 12 mg in 5 mL | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11363C | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 11378W | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 11472T | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 11476B | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 12176W | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 12177X | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 12972R | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 13045N | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 13052Y | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 13064N | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 13068T | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 13083N | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 13084P | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 13091B | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 13111C | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 14090N | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 14095W | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 14096X | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+| 14099C | Spinraza | Nusinersen | Solution for injection 12 mg in 5 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The only available route is injectable. The required route for the predicted indication has not been assessed.
 

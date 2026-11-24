@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 326
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Galantamine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Alzheimer's disease"
 monitor_inn: "Galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
@@ -85,9 +85,20 @@ No literature was found for psychogenic movement disorders. The table below show
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 2463P | Reminyl | Capsule (prolonged release) 8 mg (as hydrobromide) | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2463P | Reminyl | Galantamine | Capsule (prolonged release) 8 mg (as hydrobromide) | Valid |
+| 2531F | Reminyl | Galantamine | Capsule (prolonged release) 24 mg (as hydrobromide) | Valid |
+| 2537M | Reminyl | Galantamine | Capsule (prolonged release) 16 mg (as hydrobromide) | Valid |
+| 8770N | Reminyl | Galantamine | Capsule (prolonged release) 8 mg (as hydrobromide) | Valid |
+| 8771P | Reminyl | Galantamine | Capsule (prolonged release) 16 mg (as hydrobromide) | Valid |
+| 8772Q | Reminyl | Galantamine | Capsule (prolonged release) 24 mg (as hydrobromide) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

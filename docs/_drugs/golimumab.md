@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Golimumab"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
 description: "Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). In Australia: at least 20 PBS items"
@@ -94,9 +94,36 @@ No ANZCTR trials were identified in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form |
-|---------|------|------|
-| 11361Y | Simponi | Injection 50 mg in 0.5 mL single use pre-filled pen |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 3426H | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled syringe | Valid |
+| 3428K | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled syringe | Valid |
+| 3430M | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled syringe | Valid |
+| 3432P | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled syringe | Valid |
+| 3434R | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled syringe | Valid |
+| 11361Y | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled pen | Valid |
+| 11365E | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled pen | Valid |
+| 11372M | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled pen | Valid |
+| 11373N | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled pen | Valid |
+| 11375Q | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled pen | Valid |
+| 11376R | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled pen | Valid |
+| 11381B | Simponi | Golimumab | Injection 100 mg in 1 mL single use pre-filled pen | Valid |
+| 11382C | Simponi | Golimumab | Injection 100 mg in 1 mL single use pre-filled pen | Valid |
+| 11502J | Simponi | Golimumab | Injection 100 mg in 1 mL single use pre-filled pen | Valid |
+| 11516D | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled syringe | Valid |
+| 11521J | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled pen | Valid |
+| 11538G | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled pen | Valid |
+| 11560K | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled syringe | Valid |
+| 13699B | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled syringe | Valid |
+| 13706J | Simponi | Golimumab | Injection 50 mg in 0.5 mL single use pre-filled pen | Valid |
+
+The table shows 20 of 21 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

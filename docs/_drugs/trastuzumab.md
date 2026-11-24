@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 748
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Trastuzumab"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). In Australia: at least 20 PBS items"
@@ -83,9 +83,36 @@ No ANZCTR identifiers were available in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10383L | Ogivri | Powder for I.V. infusion 150 mg | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4632T | Ogivri | Trastuzumab | Powder for I.V. infusion 150 mg | Valid |
+| 4639E | Ogivri | Trastuzumab | Powder for I.V. infusion 150 mg | Valid |
+| 4650R | Ogivri | Trastuzumab | Powder for I.V. infusion 150 mg | Valid |
+| 4703M | Ogivri | Trastuzumab | Powder for I.V. infusion 150 mg | Valid |
+| 7264H | Ogivri | Trastuzumab | Powder for I.V. infusion 150 mg | Valid |
+| 7265J | Ogivri | Trastuzumab | Powder for I.V. infusion 150 mg | Valid |
+| 10383L | Ogivri | Trastuzumab | Powder for I.V. infusion 150 mg | Valid |
+| 10391X | Ogivri | Trastuzumab | Powder for I.V. infusion 150 mg | Valid |
+| 10401K | Ogivri | Trastuzumab | Powder for I.V. infusion 150 mg | Valid |
+| 10402L | Ogivri | Trastuzumab | Powder for I.V. infusion 150 mg | Valid |
+| 10581X | Ogivri | Trastuzumab | Powder for I.V. infusion 150 mg | Valid |
+| 10588G | Ogivri | Trastuzumab | Powder for I.V. infusion 150 mg | Valid |
+| 10589H | Ogivri | Trastuzumab | Powder for I.V. infusion 150 mg | Valid |
+| 10597R | Ogivri | Trastuzumab | Powder for I.V. infusion 150 mg | Valid |
+| 10682F | Herceptin SC | Trastuzumab | Solution for subcutaneous injection containing trastuzumab 600 mg in 5 mL | Valid |
+| 10743K | Herceptin SC | Trastuzumab | Solution for subcutaneous injection containing trastuzumab 600 mg in 5 mL | Valid |
+| 10798H | Herceptin SC | Trastuzumab | Solution for subcutaneous injection containing trastuzumab 600 mg in 5 mL | Valid |
+| 10803N | Herceptin SC | Trastuzumab | Solution for subcutaneous injection containing trastuzumab 600 mg in 5 mL | Valid |
+| 10811B | Herceptin SC | Trastuzumab | Solution for subcutaneous injection containing trastuzumab 600 mg in 5 mL | Valid |
+| 10817H | Herceptin SC | Trastuzumab | Solution for subcutaneous injection containing trastuzumab 600 mg in 5 mL | Valid |
+
+The table shows 20 of 22 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

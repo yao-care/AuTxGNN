@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mometasone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L5). Approved use: Not available in the data compiled . Pharmacology data describe topic…"
 monitor_inn: "Mometasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -73,9 +73,36 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10791Y | Elocon | Ointment containing mometasone furoate 1 mg per g, 15 g | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1913Q | Novasone | Mometasone | Cream containing mometasone furoate 1 mg per g, 15 g | Valid |
+| 1915T | Elocon | Mometasone | Ointment containing mometasone furoate 1 mg per g, 15 g | Valid |
+| 4342M | Elocon Alcohol Free | Mometasone | Cream containing mometasone furoate 1 mg per g, 50 g | Valid |
+| 4343N | Elocon | Mometasone | Ointment containing mometasone furoate 1 mg per g, 50 g | Valid |
+| 8043H | Elocon | Mometasone | Lotion containing mometasone furoate 1 mg per g, 30 mL | Valid |
+| 10791Y | Elocon | Mometasone | Ointment containing mometasone furoate 1 mg per g, 15 g | Valid |
+| 10792B | Novasone | Mometasone | Cream containing mometasone furoate 1 mg per g, 15 g | Valid |
+| 10793C | Elocon | Mometasone | Ointment containing mometasone furoate 1 mg per g, 15 g | Valid |
+| 10804P | Elocon | Mometasone | Lotion containing mometasone furoate 1 mg per g, 30 mL | Valid |
+| 10805Q | Elocon | Mometasone | Lotion containing mometasone furoate 1 mg per g, 30 mL | Valid |
+| 10809X | Novasone | Mometasone | Cream containing mometasone furoate 1 mg per g, 15 g | Valid |
+| 10812C | Elocon | Mometasone | Ointment containing mometasone furoate 1 mg per g, 15 g | Valid |
+| 10814E | Elocon | Mometasone | Ointment containing mometasone furoate 1 mg per g, 15 g | Valid |
+| 10815F | Novasone | Mometasone | Cream containing mometasone furoate 1 mg per g, 15 g | Valid |
+| 10818J | Novasone | Mometasone | Cream containing mometasone furoate 1 mg per g, 15 g | Valid |
+| 10819K | Elocon | Mometasone | Lotion containing mometasone furoate 1 mg per g, 30 mL | Valid |
+| 10826T | Elocon | Mometasone | Lotion containing mometasone furoate 1 mg per g, 30 mL | Valid |
+| 10827W | Novasone | Mometasone | Cream containing mometasone furoate 1 mg per g, 15 g | Valid |
+| 10828X | Elocon | Mometasone | Ointment containing mometasone furoate 1 mg per g, 15 g | Valid |
+| 12269R | Atectura Breezhaler | indacaterol + mometasone | Capsule containing powder for oral inhalation indacaterol 125 micrograms (as acetate) with mometasone furoate 62.5 micr… | Valid |
+
+The table shows 20 of 29 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

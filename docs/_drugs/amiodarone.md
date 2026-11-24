@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 43
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -79,9 +79,16 @@ The retrieved publications describe CPVT itself or other treatments. None demons
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2343H | Amdarone | Tablet containing amiodarone hydrochloride 200 mg | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2343H | Amdarone | Amiodarone | Tablet containing amiodarone hydrochloride 200 mg | Valid |
+| 2344J | Aratac 100 | Amiodarone | Tablet containing amiodarone hydrochloride 100 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Market status: marketed, with two valid PBS items, both single-ingredient oral tablets (amiodarone hydrochloride 200 mg and 100 mg).
 

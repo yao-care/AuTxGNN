@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "Ferrous fumarate"
 predicted_indications: ["non-syndromic esophageal malformation"]
 description: "Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -86,9 +86,18 @@ One further retrieved paper (PMID 28716993, on soluble Fms-like tyrosine kinase-
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10594N | Ferro-tab | Tablet 200 mg (equivalent to 65.7 mg iron), oral | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8985X | Ferro-tab | Ferrous fumarate | Tablet 200 mg (equivalent to 65.7 mg iron) | Valid |
+| 9011G | Ferro-f-tab | Ferrous fumarate + folic acid | Tablet 310 mg (equivalent to 100 mg iron)-350 micrograms | Valid |
+| 10579T | Ferro-f-tab | Ferrous fumarate + folic acid | Tablet 310 mg (equivalent to 100 mg iron)-350 micrograms | Valid |
+| 10594N | Ferro-tab | Ferrous fumarate | Tablet 200 mg (equivalent to 65.7 mg iron) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "Magnesium trisilicate"
 predicted_indications: ["gastroduodenitis"]
 description: "Magnesium Trisilicate: predicted new indication Gastroduodenitis (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -91,9 +91,18 @@ Several other retrieved papers were off-topic and are not listed (phenytoin bioa
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 309G (one entry; valid, single-ingredient) | Not available | Not available | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 309G | – | Magnesium Trisilicate | – | Valid |
+| 7342K | – | Magnesium Trisilicate | – | Valid |
+| 7343L | – | Magnesium Trisilicate and Belladonna | – | Valid |
+| 7545D | – | Magnesium Trisilicate | – | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

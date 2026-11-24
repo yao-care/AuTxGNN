@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 504
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib: predicted new indication Epiglottis neoplasm (evidence level L5). In Australia: 8 PBS items (8 currently listed)"
@@ -91,9 +91,22 @@ No ANZCTR trial identifiers were found in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14172X | Zejula | Tablet 100 mg (as tosilate monohydrate) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 14172X | Zejula | Niraparib | Tablet 100 mg (as tosilate monohydrate) | Valid |
+| 14173Y | Zejula | Niraparib | Tablet 100 mg (as tosilate monohydrate) | Valid |
+| 14179G | Zejula | Niraparib | Tablet 100 mg (as tosilate monohydrate) | Valid |
+| 14190W | Zejula | Niraparib | Tablet 100 mg (as tosilate monohydrate) | Valid |
+| 14196E | Zejula | Niraparib | Tablet 100 mg (as tosilate monohydrate) | Valid |
+| 14206Q | Zejula | Niraparib | Tablet 100 mg (as tosilate monohydrate) | Valid |
+| 14207R | Zejula | Niraparib | Tablet 100 mg (as tosilate monohydrate) | Valid |
+| 14212B | Zejula | Niraparib | Tablet 100 mg (as tosilate monohydrate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

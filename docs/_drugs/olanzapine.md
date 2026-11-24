@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 521
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In Australia: 15 PBS items (15 currently listed)"
@@ -98,9 +98,29 @@ No literature was found for the rank 1 prediction. The table lists the most rele
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 3381Y | APO-Olanzapine ODT | Tablet 5 mg (orally disintegrating) | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 3381Y | APO-Olanzapine ODT | Olanzapine | Tablet 5 mg (orally disintegrating) | Valid |
+| 3382B | APO-Olanzapine ODT | Olanzapine | Tablet 10 mg (orally disintegrating) | Valid |
+| 3384D | APO-Olanzapine ODT | Olanzapine | Tablet 15 mg (orally disintegrating) | Valid |
+| 3385E | APO-Olanzapine ODT | Olanzapine | Tablet 20 mg (orally disintegrating) | Valid |
+| 8170B | Zyprexa | Olanzapine | Tablet 2.5 mg | Valid |
+| 8185T | Zyprexa | Olanzapine | Tablet 5 mg | Valid |
+| 8186W | Zyprexa | Olanzapine | Tablet 7.5 mg | Valid |
+| 8187X | Zyprexa | Olanzapine | Tablet 10 mg | Valid |
+| 8433W | Zyprexa Zydis | Olanzapine | Wafer 5 mg | Valid |
+| 8434X | Zyprexa Zydis | Olanzapine | Wafer 10 mg | Valid |
+| 8952E | Zyprexa Zydis | Olanzapine | Wafer 15 mg | Valid |
+| 8953F | Zyprexa Zydis | Olanzapine | Wafer 20 mg | Valid |
+| 9294E | Zyprexa Relprevv | Olanzapine | Powder for injection 210 mg (as pamoate monohydrate) with diluent | Valid |
+| 9295F | Zyprexa Relprevv | Olanzapine | Powder for injection 300 mg (as pamoate monohydrate) with diluent | Valid |
+| 9303P | Zyprexa Relprevv | Olanzapine | Powder for injection 405 mg (as pamoate monohydrate) with diluent | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

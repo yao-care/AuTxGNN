@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 169
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Clavulanic Acid: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Urinary tract infection, bacterial pneumonia…"
 monitor_inn: "clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
@@ -94,9 +94,24 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11933C | APO-Amoxycillin and Clavulanic Acid | Oral tablet containing 875 mg amoxicillin (as trihydrate) with 125 mg clavulanic acid (as potassium clavulanate) | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1891M | AMCLAVOX DUO 500/125 | Amoxicillin + clavulanic acid | Tablet containing 500 mg amoxicillin (as trihydrate) with 125 mg clavulanic acid (as potassium clavulanate) | Valid |
+| 1892N | Curam | Amoxicillin + clavulanic acid | Powder for oral suspension containing 125 mg amoxicillin (as trihydrate) with 31.25 mg clavulanic acid (as potassium cl… | Valid |
+| 5006L | APO-Amoxycillin and Clavulanic Acid | Amoxicillin + clavulanic acid | Tablet containing 875 mg amoxicillin (as trihydrate) with 125 mg clavulanic acid (as potassium clavulanate) | Valid |
+| 5008N | AMCLAVOX DUO 500/125 | Amoxicillin + clavulanic acid | Tablet containing 500 mg amoxicillin (as trihydrate) with 125 mg clavulanic acid (as potassium clavulanate) | Valid |
+| 5009P | Curam | Amoxicillin + clavulanic acid | Powder for oral suspension containing 125 mg amoxicillin (as trihydrate) with 31.25 mg clavulanic acid (as potassium cl… | Valid |
+| 5011R | Augmentin Duo 400 | Amoxicillin + clavulanic acid | Powder for oral suspension containing 400 mg amoxicillin (as trihydrate) with 57 mg clavulanic acid (as potassium clavu… | Valid |
+| 8254K | APO-Amoxycillin and Clavulanic Acid | Amoxicillin + clavulanic acid | Tablet containing 875 mg amoxicillin (as trihydrate) with 125 mg clavulanic acid (as potassium clavulanate) | Valid |
+| 8319W | Augmentin Duo 400 | Amoxicillin + clavulanic acid | Powder for oral suspension containing 400 mg amoxicillin (as trihydrate) with 57 mg clavulanic acid (as potassium clavu… | Valid |
+| 11933C | APO-Amoxycillin and Clavulanic Acid | Amoxicillin + clavulanic acid | Tablet containing 875 mg amoxicillin (as trihydrate) with 125 mg clavulanic acid (as potassium clavulanate) | Valid |
+| 11941L | AMCLAVOX DUO 500/125 | Amoxicillin + clavulanic acid | Tablet containing 500 mg amoxicillin (as trihydrate) with 125 mg clavulanic acid (as potassium clavulanate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ezetimibe"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ezetimibe: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hyperlipidaemia, familial hyperlipidaemia…"
 ---
 
@@ -82,10 +82,36 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13440J | Zient 10mg | Tablet 10 mg | Not available in the compiled data |
-| ARTG 10201X | Rosuzet Composite Pack | Pack containing 30 tablets ezetimibe 10 mg and 30 tablets rosuvastatin 20 mg (as calcium) | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8757X | Zient 10mg | Ezetimibe | Tablet 10 mg | Valid |
+| 10201X | Rosuzet Composite Pack | ezetimibe (&) rosuvastatin | Pack containing 30 tablets ezetimibe 10 mg and 30 tablets rosuvastatin 20 mg (as calcium) | Valid |
+| 10204C | Rosuzet Composite Pack | ezetimibe (&) rosuvastatin | Pack containing 30 tablets ezetimibe 10 mg and 30 tablets rosuvastatin 5 mg (as calcium) | Valid |
+| 10207F | Rosuzet Composite Pack | ezetimibe (&) rosuvastatin | Pack containing 30 tablets ezetimibe 10 mg and 30 tablets rosuvastatin 40 mg (as calcium) | Valid |
+| 10208G | Rosuzet Composite Pack | ezetimibe (&) rosuvastatin | Pack containing 30 tablets ezetimibe 10 mg and 30 tablets rosuvastatin 10 mg (as calcium) | Valid |
+| 10376D | Atozet | Ezetimibe + atorvastatin | Tablet 10 mg-80 mg | Valid |
+| 10377E | Atozet | Ezetimibe + atorvastatin | Tablet 10 mg-40 mg | Valid |
+| 10392Y | Atozet | Ezetimibe + atorvastatin | Tablet 10 mg-10 mg | Valid |
+| 10393B | Atozet | Ezetimibe + atorvastatin | Tablet 10 mg-20 mg | Valid |
+| 13385L | APO-Ezetimibe/Simvastatin 10/10 | Ezetimibe + simvastatin | Tablet 10 mg-10 mg | Valid |
+| 13416D | Atozet | Ezetimibe + atorvastatin | Tablet 10 mg-40 mg | Valid |
+| 13440J | Zient 10mg | Ezetimibe | Tablet 10 mg | Valid |
+| 13442L | APO-Ezetimibe/Simvastatin 10/20 | Ezetimibe + simvastatin | Tablet 10 mg-20 mg | Valid |
+| 13480L | Rosuzet Composite Pack | ezetimibe (&) rosuvastatin | Pack containing 30 tablets ezetimibe 10 mg and 30 tablets rosuvastatin 20 mg (as calcium) | Valid |
+| 13535J | APO-Ezetimibe/Simvastatin 10/40 | Ezetimibe + simvastatin | Tablet 10 mg-40 mg | Valid |
+| 13537L | Rosuzet Composite Pack | ezetimibe (&) rosuvastatin | Pack containing 30 tablets ezetimibe 10 mg and 30 tablets rosuvastatin 40 mg (as calcium) | Valid |
+| 13538M | Atozet | Ezetimibe + atorvastatin | Tablet 10 mg-80 mg | Valid |
+| 13539N | Atozet | Ezetimibe + atorvastatin | Tablet 10 mg-10 mg | Valid |
+| 13569E | Rosuzet Composite Pack | ezetimibe (&) rosuvastatin | Pack containing 30 tablets ezetimibe 10 mg and 30 tablets rosuvastatin 10 mg (as calcium) | Valid |
+| 13595M | APO-Ezetimibe/Simvastatin 10/80 | Ezetimibe + simvastatin | Tablet 10 mg-80 mg | Valid |
+
+The table shows 20 of 26 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Note: Rosuzet is a combination pack (ezetimibe with rosuvastatin), so its licence does not describe the approval of ezetimibe as a single ingredient.
 

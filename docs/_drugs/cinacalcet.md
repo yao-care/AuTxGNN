@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 161
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Cinacalcet: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,29 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cinacalcet, 
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 11885M | Pharmacor Cinacalcet | Tablet 90 mg (as hydrochloride) | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5621W | Pharmacor Cinacalcet | Cinacalcet | Tablet 30 mg (as hydrochloride) | Valid |
+| 5622X | Pharmacor Cinacalcet | Cinacalcet | Tablet 60 mg (as hydrochloride) | Valid |
+| 5623Y | Pharmacor Cinacalcet | Cinacalcet | Tablet 90 mg (as hydrochloride) | Valid |
+| 9157Y | Pharmacor Cinacalcet | Cinacalcet | Tablet 30 mg (as hydrochloride) | Valid |
+| 9158B | Pharmacor Cinacalcet | Cinacalcet | Tablet 60 mg (as hydrochloride) | Valid |
+| 9159C | Pharmacor Cinacalcet | Cinacalcet | Tablet 90 mg (as hydrochloride) | Valid |
+| 9625N | Pharmacor Cinacalcet | Cinacalcet | Tablet 30 mg (as hydrochloride) | Valid |
+| 9626P | Pharmacor Cinacalcet | Cinacalcet | Tablet 60 mg (as hydrochloride) | Valid |
+| 9627Q | Pharmacor Cinacalcet | Cinacalcet | Tablet 90 mg (as hydrochloride) | Valid |
+| 11885M | Pharmacor Cinacalcet | Cinacalcet | Tablet 90 mg (as hydrochloride) | Valid |
+| 11886N | Pharmacor Cinacalcet | Cinacalcet | Tablet 60 mg (as hydrochloride) | Valid |
+| 11887P | Pharmacor Cinacalcet | Cinacalcet | Tablet 30 mg (as hydrochloride) | Valid |
+| 11888Q | Pharmacor Cinacalcet | Cinacalcet | Tablet 90 mg (as hydrochloride) | Valid |
+| 11889R | Pharmacor Cinacalcet | Cinacalcet | Tablet 60 mg (as hydrochloride) | Valid |
+| 11891W | Pharmacor Cinacalcet | Cinacalcet | Tablet 30 mg (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

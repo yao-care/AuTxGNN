@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 768
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). In Australia: at least 20 PBS items"
@@ -76,9 +76,36 @@ Related class-level evidence: [11560862](https://pubmed.ncbi.nlm.nih.gov/1156086
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13383J | Dilart | Tablet 320 mg | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 9368C | Dilart | Valsartan | Tablet 40 mg | Valid |
+| 9369D | Dilart | Valsartan | Tablet 80 mg | Valid |
+| 9370E | Dilart | Valsartan | Tablet 160 mg | Valid |
+| 9371F | Dilart | Valsartan | Tablet 320 mg | Valid |
+| 11122J | Entresto | Sacubitril + valsartan | Tablet containing sacubitril 97.2 mg with valsartan 102.8 mg | Valid |
+| 11123K | Entresto | Sacubitril + valsartan | Tablet containing sacubitril 24.3 mg with valsartan 25.7 mg | Valid |
+| 11131W | Entresto | Sacubitril + valsartan | Tablet containing sacubitril 48.6 mg with valsartan 51.4 mg | Valid |
+| 13383J | Dilart | Valsartan | Tablet 320 mg | Valid |
+| 13389Q | Amlodipine/Valsartan Novartis 10/320 | Amlodipine + valsartan | Tablet 10 mg (as besilate)-320 mg | Valid |
+| 13393X | Dilart HCT 80/12.5 | Valsartan + hydrochlorothiazide | Tablet 80 mg-12.5 mg | Valid |
+| 13414B | Dilart | Valsartan | Tablet 80 mg | Valid |
+| 13421J | Amlodipine/Valsartan Novartis 5/80 | Amlodipine + valsartan | Tablet 5 mg (as besilate)-80 mg | Valid |
+| 13445P | Entresto | Sacubitril + valsartan | Tablet containing sacubitril 97.2 mg with valsartan 102.8 mg | Valid |
+| 13453C | Dilart HCT 160/25 | Valsartan + hydrochlorothiazide | Tablet 160 mg-25 mg | Valid |
+| 13454D | Amlodipine/Valsartan Novartis 10/160 | Amlodipine + valsartan | Tablet 10 mg (as besilate)-160 mg | Valid |
+| 13455E | Dilart HCT 320/25 | Valsartan + hydrochlorothiazide | Tablet 320 mg-25 mg | Valid |
+| 13511D | Entresto | Sacubitril + valsartan | Tablet containing sacubitril 48.6 mg with valsartan 51.4 mg | Valid |
+| 13516J | Amlodipine/Valsartan Novartis 5/160 | Amlodipine + valsartan | Tablet 5 mg (as besilate)-160 mg | Valid |
+| 13517K | Dilart HCT 320/12.5 | Valsartan + hydrochlorothiazide | Tablet 320 mg-12.5 mg | Valid |
+| 13566B | Dilart | Valsartan | Tablet 160 mg | Valid |
+
+The table shows 20 of 43 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

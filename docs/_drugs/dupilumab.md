@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 235
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Dupilumab"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 description: "Dupilumab: predicted new indication Bronchitis (evidence level L3). In Australia: at least 20 PBS items"
@@ -86,9 +86,36 @@ No registered trial directly tests dupilumab in bronchitis. No ANZCTR identifier
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12291X | Dupixent | Injection 200 mg in 1.14 mL single dose pre-filled syringe | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12291X | Dupixent | Dupilumab | Injection 200 mg in 1.14 mL single dose pre-filled syringe | Valid |
+| 12292Y | Dupixent | Dupilumab | Injection 300 mg in 2 mL single dose pre-filled syringe | Valid |
+| 12293B | Dupixent | Dupilumab | Injection 300 mg in 2 mL single dose pre-filled syringe | Valid |
+| 12294C | Dupixent | Dupilumab | Injection 300 mg in 2 mL single dose pre-filled syringe | Valid |
+| 12302L | Dupixent | Dupilumab | Injection 300 mg in 2 mL single dose pre-filled syringe | Valid |
+| 12309W | Dupixent | Dupilumab | Injection 200 mg in 1.14 mL single dose pre-filled syringe | Valid |
+| 12310X | Dupixent | Dupilumab | Injection 300 mg in 2 mL single dose pre-filled syringe | Valid |
+| 12313C | Dupixent | Dupilumab | Injection 200 mg in 1.14 mL single dose pre-filled syringe | Valid |
+| 12316F | Dupixent | Dupilumab | Injection 200 mg in 1.14 mL single dose pre-filled syringe | Valid |
+| 12318H | Dupixent | Dupilumab | Injection 200 mg in 1.14 mL single dose pre-filled syringe | Valid |
+| 14959H | Dupixent | Dupilumab | Injection 200 mg in 1.14 mL single dose pre-filled pen | Valid |
+| 14960J | Dupixent | Dupilumab | Injection 300 mg in 2 mL single dose pre-filled syringe | Valid |
+| 14961K | Dupixent | Dupilumab | Injection 200 mg in 1.14 mL single dose pre-filled syringe | Valid |
+| 14962L | Dupixent | Dupilumab | Injection 200 mg in 1.14 mL single dose pre-filled pen | Valid |
+| 14963M | Dupixent | Dupilumab | Injection 300 mg in 2 mL single dose pre-filled pen | Valid |
+| 14964N | Dupixent | Dupilumab | Injection 300 mg in 2 mL single dose pre-filled pen | Valid |
+| 14965P | Dupixent | Dupilumab | Injection 300 mg in 2 mL single dose pre-filled pen | Valid |
+| 14977G | Dupixent | Dupilumab | Injection 200 mg in 1.14 mL single dose pre-filled syringe | Valid |
+| 14978H | Dupixent | Dupilumab | Injection 300 mg in 2 mL single dose pre-filled syringe | Valid |
+| 14979J | Dupixent | Dupilumab | Injection 300 mg in 2 mL single dose pre-filled pen | Valid |
+
+The table shows 20 of 36 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

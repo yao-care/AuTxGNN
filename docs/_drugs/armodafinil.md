@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 60
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Armodafinil: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Narcolepsy (excessive sleepiness)"
 monitor_inn: "Armodafinil"
 predicted_indications: ["insomnia (disease)"]
@@ -98,9 +98,17 @@ Publications listed under the insomnia prediction:
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10912H | Nuvigil | Tablet 150 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10912H | Nuvigil | Armodafinil | Tablet 150 mg | Valid |
+| 10919Q | Nuvigil | Armodafinil | Tablet 250 mg | Valid |
+| 10922W | Nuvigil | Armodafinil | Tablet 50 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

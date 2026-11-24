@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 18
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Acetaminophen: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,34 @@ The TxGNN deep-learning model produced candidates for Acetaminophen, but every c
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 10582Y | PHARMACY CARE PARACETAMOL | Tablet 500 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1215Y | Paracetamol/Codeine GH 500/30 | Paracetamol + codeine | Tablet containing codeine phosphate hemihydrate 30 mg with paracetamol 500 mg | Valid |
+| 1746X | PHARMACY CARE PARACETAMOL | Paracetamol | Tablet 500 mg | Valid |
+| 1770E | Panamax 240 Elixir | Paracetamol | Oral liquid 240 mg per 5 mL, 200 mL | Valid |
+| 3316M | Paracetamol/Codeine GH 500/30 | Paracetamol + codeine | Tablet containing codeine phosphate hemihydrate 30 mg with paracetamol 500 mg | Valid |
+| 3349G | Panamax 240 Elixir | Paracetamol | Oral liquid 240 mg per 5 mL, 200 mL | Valid |
+| 4275B | Panamax Co. 40 | Paracetamol + codeine | Tablet containing codeine phosphate hemihydrate 8 mg with paracetamol 500 mg | Valid |
+| 5196L | PHARMACY CARE PARACETAMOL | Paracetamol | Tablet 500 mg | Valid |
+| 5224Y | PHARMACY CARE PARACETAMOL | Paracetamol | Tablet 500 mg | Valid |
+| 5343F | Osteomol 665 Paracetamol | Paracetamol | Tablet 665 mg (modified release) | Valid |
+| 8784H | PHARMACY CARE PARACETAMOL | Paracetamol | Tablet 500 mg | Valid |
+| 8814X | Osteomol 665 Paracetamol | Paracetamol | Tablet 665 mg (modified release) | Valid |
+| 10582Y | PHARMACY CARE PARACETAMOL | Paracetamol | Tablet 500 mg | Valid |
+| 10585D | PHARMACY CARE PARACETAMOL | Paracetamol | Tablet 500 mg | Valid |
+| 10598T | Osteomol 665 Paracetamol | Paracetamol | Tablet 665 mg (modified release) | Valid |
+| 10599W | Trust for Kids Paracetamol 6 to 12 years | Paracetamol | Oral liquid 240 mg per 5 mL, 200 mL | Valid |
+| 10796F | Osteomol 665 Paracetamol | Paracetamol | Tablet 665 mg (modified release) | Valid |
+| 10797G | Osteomol 665 Paracetamol | Paracetamol | Tablet 665 mg (modified release) | Valid |
+| 12022R | Paracetamol/Codeine GH 500/30 | Paracetamol + codeine | Tablet containing codeine phosphate hemihydrate 30 mg with paracetamol 500 mg | Valid |
+| 12066C | Paracetamol/Codeine GH 500/30 | Paracetamol + codeine | Tablet containing codeine phosphate hemihydrate 30 mg with paracetamol 500 mg | Valid |
+| 12210P | Panadol | Paracetamol | Suppository 500 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

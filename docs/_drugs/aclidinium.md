@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 23
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Aclidinium: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,18 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Aclidinium, 
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 10124W | Bretaris Genuair | Powder for oral inhalation in breath act | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10124W | Bretaris Genuair | Aclidinium | Powder for oral inhalation in breath actuated device 322 micrograms (as bromide) per dose, 60 doses | Valid |
+| 10565C | Brimica Genuair | Aclidinium + formoterol | Powder for oral inhalation in breath actuated device containing aclidinium 340 micrograms (as bromide) with formoterol… | Valid |
+| 14410K | Brimica Genuair | Aclidinium + formoterol | Powder for oral inhalation in breath actuated device containing aclidinium 340 micrograms (as bromide) with formoterol… | Valid |
+| 14539F | Bretaris Genuair | Aclidinium | Powder for oral inhalation in breath actuated device 322 micrograms (as bromide) per dose, 60 doses | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

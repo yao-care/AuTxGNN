@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Interferon beta-1b"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
 description: "Interferon Beta-1B: predicted new indication Hairy cell leukemia (evidence level L5). In Australia: 1 PBS item (1 currently listed)"
@@ -111,9 +111,15 @@ No ANZCTR identifiers are present in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 8101J | Betaferon | Injection set including 1 vial powder for injection 8,000,000 I.U. (250 micrograms) and solvent | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8101J | Betaferon | Interferon beta-1b | Injection set including 1 vial powder for injection 8,000,000 I.U. (250 micrograms) and solvent | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

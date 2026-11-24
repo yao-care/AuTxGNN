@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 651
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Roxithromycin: predicted new indication Leprosy (evidence level L5). Approved use: Not specified in the Australian registration data compiled for this r…"
 monitor_inn: "Roxithromycin"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
@@ -78,9 +78,20 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11993F | Roxar 300 | Tablet 300 mg | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1760P | Roxar 150 | Roxithromycin | Tablet 150 mg | Valid |
+| 5260W | Roxar 150 | Roxithromycin | Tablet 150 mg | Valid |
+| 5261X | Roxar 300 | Roxithromycin | Tablet 300 mg | Valid |
+| 8016X | Roxar 300 | Roxithromycin | Tablet 300 mg | Valid |
+| 11993F | Roxar 300 | Roxithromycin | Tablet 300 mg | Valid |
+| 12001P | Roxar 150 | Roxithromycin | Tablet 150 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
 description: "Docusate: predicted new indication Plummer-Vinson syndrome (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
@@ -72,9 +72,17 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4199B | Waxsol | Ear drops 5 mg per mL (0.5%), 10 mL | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4199B | Waxsol | Docusate | Ear drops 5 mg per mL (0.5%), 10 mL | Valid |
+| 4200C | Coloxyl 50 | Docusate | Tablet 50 mg | Valid |
+| 10177P | Co-Senna | docusate + sennoside B | Tablet containing docusate sodium 50 mg with sennoside B 8 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Note that the current PBS items include an ear-drop product (Waxsol, ceruminolytic use) and oral laxative tablets (Coloxyl 50 and docusate with sennoside B).
 

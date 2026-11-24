@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Travoprost"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma and ocular hypertension"
 ---
 
@@ -101,9 +101,20 @@ Literature retrieved for neighbouring predictions, which does not support effica
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14549R | Travatan | Eye drops 40 micrograms per mL, 2.5 mL | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5554H | Travatan | Travoprost | Eye drops 40 micrograms per mL, 2.5 mL | Valid |
+| 5555J | Duotrav | Travoprost + timolol | Eye drops 40 micrograms travoprost with timolol 5 mg (as maleate) per mL, 2.5 mL | Valid |
+| 8597L | Travatan | Travoprost | Eye drops 40 micrograms per mL, 2.5 mL | Valid |
+| 9057Q | Duotrav | Travoprost + timolol | Eye drops 40 micrograms travoprost with timolol 5 mg (as maleate) per mL, 2.5 mL | Valid |
+| 14316L | Duotrav | Travoprost + timolol | Eye drops 40 micrograms travoprost with timolol 5 mg (as maleate) per mL, 2.5 mL | Valid |
+| 14549R | Travatan | Travoprost | Eye drops 40 micrograms per mL, 2.5 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Six current PBS items are listed: three single-ingredient travoprost eye drops and three travoprost with timolol. The only available dosage form is ophthalmic, which differs from what a systemic condition such as visceral calciphylaxis would likely need.
 

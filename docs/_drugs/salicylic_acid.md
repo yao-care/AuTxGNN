@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 657
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Salicylic acid"
 predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
 description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). In Australia: 8 PBS items (8 currently listed)"
@@ -81,10 +81,22 @@ Eight current PBS items were identified in the data compiled for this report, in
 
 <!-- review:end au-lic-20261117-salicylic_acid-1 -->
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 117E | Not available | Not available | Not available |
-| ARTG 7928G | Not available | Not available | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 117E | – | Salicylic Acid | – | Valid |
+| 4447C | Sebitar | tar + coal tar solution + salicylic acid | Scalp cleanser 20 mg-10 mg-10 mg per mL (2%-1%-1%), 250 mL | Valid |
+| 4560B | Ionil-T | coal tar solution + salicylic acid | Scalp cleanser 20 mg-50 mg per mL (2%-5%), 200 mL | Valid |
+| 7502W | – | Salicylic Acid and Sulfur Aqueous | – | Valid |
+| 7568H | – | Salicylic Acid | – | Valid |
+| 7926E | – | Salicylic Acid | – | Valid |
+| 7928G | – | Salicylic Acid (extemporaneous formula) | – | Valid |
+| 11959K | Duofilm Solution | Salicylic acid + lactic acid | Liquid 167 mg-150 mg per g (16.7%-15%), 15 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

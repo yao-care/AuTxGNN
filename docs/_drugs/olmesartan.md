@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 523
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Olmesartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not available in the data compiled for this report (olmesartan is an…"
 monitor_inn: "Olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
@@ -101,9 +101,36 @@ Currently no related literature is available for Prinzmetal angina. The table be
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13505T | Olmesartan - MYL | Tablet containing olmesartan medoxomil 20 mg | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2147B | Olmesartan - MYL | Olmesartan | Tablet containing olmesartan medoxomil 20 mg | Valid |
+| 2148C | Olmesartan - MYL | Olmesartan | Tablet containing olmesartan medoxomil 40 mg | Valid |
+| 2161R | Olmesartan HCT - MYL 20/12.5 | Olmesartan + hydrochlorothiazide | Tablet containing olmesartan medoxomil 20 mg with hydrochlorothiazide 12.5 mg | Valid |
+| 2166B | Olmesartan HCT - MYL 40/12.5 | Olmesartan + hydrochlorothiazide | Tablet containing olmesartan medoxomil 40 mg with hydrochlorothiazide 12.5 mg | Valid |
+| 2170F | Olmesartan HCT - MYL 40/25 | Olmesartan + hydrochlorothiazide | Tablet containing olmesartan medoxomil 40 mg with hydrochlorothiazide 25 mg | Valid |
+| 5292M | Olmesartan/Amlodipine - MYL 20/5 | Olmesartan + amlodipine | Tablet containing olmesartan medoxomil 20 mg with amlodipine 5 mg (as besilate) | Valid |
+| 5293N | Olmesartan/Amlodipine - MYL 40/5 | Olmesartan + amlodipine | Tablet containing olmesartan medoxomil 40 mg with amlodipine 5 mg (as besilate) | Valid |
+| 5294P | Olmesartan/Amlodipine - MYL 40/10 | Olmesartan + amlodipine | Tablet containing olmesartan medoxomil 40 mg with amlodipine 10 mg (as besilate) | Valid |
+| 10005N | Sevikar HCT 20/5/12.5 | Olmesartan + amlodipine + hydrochlorothiazide | Tablet containing olmesartan medoxomil 20 mg with amlodipine 5 mg (as besilate) and hydrochlorothiazide 12.5 mg | Valid |
+| 13447R | Olmesartan HCT - MYL 20/12.5 | Olmesartan + hydrochlorothiazide | Tablet containing olmesartan medoxomil 20 mg with hydrochlorothiazide 12.5 mg | Valid |
+| 13449W | Olmesartan/Amlodipine - MYL 20/5 | Olmesartan + amlodipine | Tablet containing olmesartan medoxomil 20 mg with amlodipine 5 mg (as besilate) | Valid |
+| 13481M | Sevikar HCT 20/5/12.5 | Olmesartan + amlodipine + hydrochlorothiazide | Tablet containing olmesartan medoxomil 20 mg with amlodipine 5 mg (as besilate) and hydrochlorothiazide 12.5 mg | Valid |
+| 13482N | Sevikar HCT 40/10/12.5 | Olmesartan + amlodipine + hydrochlorothiazide | Tablet containing olmesartan medoxomil 40 mg with amlodipine 10 mg (as besilate) and hydrochlorothiazide 12.5 mg | Valid |
+| 13505T | Olmesartan - MYL | Olmesartan | Tablet containing olmesartan medoxomil 20 mg | Valid |
+| 13512E | Sevikar HCT 40/5/25 | Olmesartan + amlodipine + hydrochlorothiazide | Tablet containing olmesartan medoxomil 40 mg with amlodipine 5 mg (as besilate) and hydrochlorothiazide 25 mg | Valid |
+| 13533G | Olmesartan - MYL | Olmesartan | Tablet containing olmesartan medoxomil 40 mg | Valid |
+| 13601W | Olmesartan HCT - MYL 40/12.5 | Olmesartan + hydrochlorothiazide | Tablet containing olmesartan medoxomil 40 mg with hydrochlorothiazide 12.5 mg | Valid |
+| 13602X | Olmesartan HCT - MYL 40/25 | Olmesartan + hydrochlorothiazide | Tablet containing olmesartan medoxomil 40 mg with hydrochlorothiazide 25 mg | Valid |
+| 13943W | Olmesartan/Amlodipine - MYL 40/10 | Olmesartan + amlodipine | Tablet containing olmesartan medoxomil 40 mg with amlodipine 10 mg (as besilate) | Valid |
+| 13964Y | Olmesartan/Amlodipine - MYL 40/5 | Olmesartan + amlodipine | Tablet containing olmesartan medoxomil 40 mg with amlodipine 5 mg (as besilate) | Valid |
+
+The table shows 20 of 26 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

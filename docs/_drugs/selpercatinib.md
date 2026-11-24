@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 666
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Selpercatinib: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Selpercatinib"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -77,9 +77,20 @@ The publications retrieved do not test selpercatinib in pulmonary hypertension. 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14693H | Retevmo | Capsule 40 mg | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 14693H | Retevmo | Selpercatinib | Capsule 40 mg | Valid |
+| 14703W | Retevmo | Selpercatinib | Capsule 80 mg | Valid |
+| 15371B | Retevmo | Selpercatinib | Tablet 40 mg | Valid |
+| 15416J | Retevmo | Selpercatinib | Tablet 80 mg | Valid |
+| 15447B | Retevmo | Selpercatinib | Tablet 40 mg | Valid |
+| 15494L | Retevmo | Selpercatinib | Tablet 80 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

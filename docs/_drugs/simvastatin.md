@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 675
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Simvastatin: predicted new indication brain stem infarction (evidence level L5). Approved use: Hyperlipidaemia, including homozygous familial hypercholesterolaemia…"
 monitor_inn: "Simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -95,9 +95,32 @@ Many of the trials below test another drug (ezetimibe, alirocumab or an investig
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13373W | Simvar 20 | Tablet 20 mg (oral) | Not specified in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2011W | Simvar 10 | Simvastatin | Tablet 10 mg | Valid |
+| 2012X | Simvar 20 | Simvastatin | Tablet 20 mg | Valid |
+| 2013Y | Zimstat | Simvastatin | Tablet 5 mg | Valid |
+| 8173E | Lipex 40 | Simvastatin | Tablet 40 mg | Valid |
+| 8313M | Simvar 80 | Simvastatin | Tablet 80 mg | Valid |
+| 8881K | APO-Ezetimibe/Simvastatin 10/40 | Ezetimibe + simvastatin | Tablet 10 mg-40 mg | Valid |
+| 8882L | APO-Ezetimibe/Simvastatin 10/80 | Ezetimibe + simvastatin | Tablet 10 mg-80 mg | Valid |
+| 9483D | APO-Ezetimibe/Simvastatin 10/10 | Ezetimibe + simvastatin | Tablet 10 mg-10 mg | Valid |
+| 9484E | APO-Ezetimibe/Simvastatin 10/20 | Ezetimibe + simvastatin | Tablet 10 mg-20 mg | Valid |
+| 13373W | Simvar 20 | Simvastatin | Tablet 20 mg | Valid |
+| 13385L | APO-Ezetimibe/Simvastatin 10/10 | Ezetimibe + simvastatin | Tablet 10 mg-10 mg | Valid |
+| 13442L | APO-Ezetimibe/Simvastatin 10/20 | Ezetimibe + simvastatin | Tablet 10 mg-20 mg | Valid |
+| 13471B | Lipex 40 | Simvastatin | Tablet 40 mg | Valid |
+| 13498K | Simvar 80 | Simvastatin | Tablet 80 mg | Valid |
+| 13528B | Simvar 10 | Simvastatin | Tablet 10 mg | Valid |
+| 13535J | APO-Ezetimibe/Simvastatin 10/40 | Ezetimibe + simvastatin | Tablet 10 mg-40 mg | Valid |
+| 13559P | Zimstat | Simvastatin | Tablet 5 mg | Valid |
+| 13595M | APO-Ezetimibe/Simvastatin 10/80 | Ezetimibe + simvastatin | Tablet 10 mg-80 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

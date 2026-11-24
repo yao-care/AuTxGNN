@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 596
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L4). In Australia: 8 PBS items (8 currently listed)"
@@ -82,9 +82,22 @@ The high model score therefore likely reflects network proximity within the lipi
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13432Y | Pravachol | Tablet containing pravastatin sodium 40 mg | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2833D | Pravachol | Pravastatin | Tablet containing pravastatin sodium 10 mg | Valid |
+| 2834E | Pravachol | Pravastatin | Tablet containing pravastatin sodium 20 mg | Valid |
+| 8197K | Pravachol | Pravastatin | Tablet containing pravastatin sodium 40 mg | Valid |
+| 8829Q | Pravachol | Pravastatin | Tablet containing pravastatin sodium 80 mg | Valid |
+| 13432Y | Pravachol | Pravastatin | Tablet containing pravastatin sodium 40 mg | Valid |
+| 13496H | Pravachol | Pravastatin | Tablet containing pravastatin sodium 10 mg | Valid |
+| 13497J | Pravachol | Pravastatin | Tablet containing pravastatin sodium 20 mg | Valid |
+| 13527Y | Pravachol | Pravastatin | Tablet containing pravastatin sodium 80 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

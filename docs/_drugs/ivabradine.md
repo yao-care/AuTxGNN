@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ivabradine"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Ivabradine: predicted new indication Hypertrichosis (disease) (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -96,9 +96,18 @@ The remaining retrieved papers are tangential (heart transplant, cirrhotic cardi
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10012Y | Coralan | Tablet 5 mg (as hydrochloride) | Not stated in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2960T | Coralan | Ivabradine | Tablet 7.5 mg (as hydrochloride) | Valid |
+| 10012Y | Coralan | Ivabradine | Tablet 5 mg (as hydrochloride) | Valid |
+| 15241E | Coralan | Ivabradine | Tablet 7.5 mg (as hydrochloride) | Valid |
+| 15270Q | Coralan | Ivabradine | Tablet 5 mg (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 121
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabotegravir: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the data compiled for this report . Cabotegravir is kno…"
 monitor_inn: "Cabotegravir"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
@@ -72,10 +72,16 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12939B | Vocabria | Tablet 30 mg | Not available in the compiled data |
-| ARTG 12937X | Cabenuva | Pack containing 1 vial cabotegravir 600 mg in 3 mL and 1 vial rilpivirine 900 mg in 3 mL | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12937X | Cabenuva | cabotegravir (&) rilpivirine | Pack containing 1 vial cabotegravir 600 mg in 3 mL and 1 vial rilpivirine 900 mg in 3 mL | Valid |
+| 12939B | Vocabria | Cabotegravir | Tablet 30 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

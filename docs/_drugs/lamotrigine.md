@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (partial epilepsy, Lennox-Gastaut syndrome)"
 monitor_inn: "Lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -109,9 +109,34 @@ No ANZCTR identifiers were identified in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13842M | Lamictal | Tablet 25 mg | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2848X | Lamictal | Lamotrigine | Tablet 25 mg | Valid |
+| 2849Y | Lamictal | Lamotrigine | Tablet 50 mg | Valid |
+| 2850B | Lamictal | Lamotrigine | Tablet 100 mg | Valid |
+| 2851C | Lamictal | Lamotrigine | Tablet 200 mg | Valid |
+| 8063J | Lamictal | Lamotrigine | Tablet 5 mg | Valid |
+| 13842M | Lamictal | Lamotrigine | Tablet 25 mg | Valid |
+| 13843N | Lamictal | Lamotrigine | Tablet 200 mg | Valid |
+| 13975M | Lamictal | Lamotrigine | Tablet 50 mg | Valid |
+| 14047H | Lamictal | Lamotrigine | Tablet 5 mg | Valid |
+| 14052N | Lamictal | Lamotrigine | Tablet 100 mg | Valid |
+| 15338G | Lamictal | Lamotrigine | Tablet 25 mg | Valid |
+| 15339H | Lamictal | Lamotrigine | Tablet 5 mg | Valid |
+| 15340J | Lamictal | Lamotrigine | Tablet 100 mg | Valid |
+| 15341K | Lamictal | Lamotrigine | Tablet 5 mg | Valid |
+| 15342L | Lamictal | Lamotrigine | Tablet 50 mg | Valid |
+| 15343M | Lamictal | Lamotrigine | Tablet 100 mg | Valid |
+| 15346Q | Lamictal | Lamotrigine | Tablet 25 mg | Valid |
+| 15349W | Lamictal | Lamotrigine | Tablet 50 mg | Valid |
+| 15350X | Lamictal | Lamotrigine | Tablet 200 mg | Valid |
+| 15351Y | Lamictal | Lamotrigine | Tablet 200 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lansoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). In Australia: 18 PBS items (18 currently listed)"
@@ -79,9 +79,32 @@ Currently no related clinical trials registered for duodenogastric reflux.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11669E | Zopral | Capsule 30 mg (oral) | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2240X | Zopral | Lansoprazole | Capsule 30 mg | Valid |
+| 2241Y | Zopral | Lansoprazole | Capsule 30 mg | Valid |
+| 8198L | Zopral | Lansoprazole | Capsule 15 mg | Valid |
+| 9331D | Zoton FasTabs | Lansoprazole | Tablet 15 mg (orally disintegrating) | Valid |
+| 9477T | Zoton FasTabs | Lansoprazole | Tablet 30 mg (orally disintegrating) | Valid |
+| 9478W | Zoton FasTabs | Lansoprazole | Tablet 30 mg (orally disintegrating) | Valid |
+| 11669E | Zopral | Lansoprazole | Capsule 30 mg | Valid |
+| 11697P | Zoton FasTabs | Lansoprazole | Tablet 30 mg (orally disintegrating) | Valid |
+| 12276D | Zoton FasTabs | Lansoprazole | Tablet 30 mg (orally disintegrating) | Valid |
+| 12284M | Zopral | Lansoprazole | Capsule 30 mg | Valid |
+| 14302R | Zopral | Lansoprazole | Capsule 30 mg | Valid |
+| 14304W | Zopral | Lansoprazole | Capsule 30 mg | Valid |
+| 14339Q | Zoton FasTabs | Lansoprazole | Tablet 30 mg (orally disintegrating) | Valid |
+| 14340R | Zopral | Lansoprazole | Capsule 30 mg | Valid |
+| 14342W | Zoton FasTabs | Lansoprazole | Tablet 30 mg (orally disintegrating) | Valid |
+| 14374M | Zoton FasTabs | Lansoprazole | Tablet 15 mg (orally disintegrating) | Valid |
+| 14406F | Zoton FasTabs | Lansoprazole | Tablet 30 mg (orally disintegrating) | Valid |
+| 14448K | Zopral | Lansoprazole | Capsule 15 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Acute lymphoblastic leukaemia, non-Hodgkin lymphoma…"
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
@@ -114,9 +114,36 @@ Note that some retrieved papers describe methotrexate as a *cause* of lymphoprol
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11268C | Trexject | Injection 15 mg in 0.3 mL pre-filled syringe | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1622J | Chexate | Methotrexate | Tablet 2.5 mg | Valid |
+| 1623K | Chexate | Methotrexate | Tablet 10 mg | Valid |
+| 2272N | Chexate | Methotrexate | Tablet 10 mg | Valid |
+| 2395C | DBL Methotrexate | Methotrexate | Injection 50 mg in 2 mL vial | Valid |
+| 2396D | DBL Methotrexate | Methotrexate | Injection 5 mg in 2 mL vial | Valid |
+| 4502Y | Methotrexate Ebewe | Methotrexate | Solution concentrate for I.V. infusion 5000 mg in 50 mL vial | Valid |
+| 4512L | Methotrexate Ebewe | Methotrexate | Solution concentrate for I.V. infusion 5000 mg in 50 mL vial | Valid |
+| 7250N | Methotrexate Ebewe | Methotrexate | Solution concentrate for I.V. infusion 5000 mg in 50 mL vial | Valid |
+| 11268C | Trexject | Methotrexate | Injection 15 mg in 0.3 mL pre-filled syringe | Valid |
+| 11275K | Trexject | Methotrexate | Injection 7.5 mg in 0.15 mL pre-filled syringe | Valid |
+| 11283W | Trexject | Methotrexate | Injection 10 mg in 0.2 mL pre-filled syringe | Valid |
+| 11288D | Trexject | Methotrexate | Injection 20 mg in 0.4 mL pre-filled syringe | Valid |
+| 11295L | Trexject | Methotrexate | Injection 25 mg in 0.5 mL pre-filled syringe | Valid |
+| 13882P | DBL Methotrexate | Methotrexate | Injection 50 mg in 2 mL vial | Valid |
+| 14089M | Trexject | Methotrexate | Injection 10 mg in 0.2 mL pre-filled syringe | Valid |
+| 14091P | Trexject | Methotrexate | Injection 7.5 mg in 0.15 mL pre-filled syringe | Valid |
+| 14097Y | Trexject | Methotrexate | Injection 20 mg in 0.4 mL pre-filled syringe | Valid |
+| 14102F | Trexject | Methotrexate | Injection 15 mg in 0.3 mL pre-filled syringe | Valid |
+| 14103G | Trexject | Methotrexate | Injection 25 mg in 0.5 mL pre-filled syringe | Valid |
+| 14643Q | Methoblastin | Methotrexate | Tablet 10 mg | Valid |
+
+The table shows 20 of 21 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Only injectable presentations are listed in the data.
 

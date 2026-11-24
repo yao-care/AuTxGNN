@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Liothyronine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "angiomyxoma", "myxoma", "hypotrichosis simplex of the scalp"]
 description: "Liothyronine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
@@ -71,9 +71,17 @@ Currently no related literature available for renal hypodysplasia/aplasia.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13966C | Tertroxin | Tablet containing liothyronine sodium 20 micrograms (oral) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2318B | Tertroxin | Liothyronine | Tablet containing liothyronine sodium 20 micrograms | Valid |
+| 13966C | Tertroxin | Liothyronine | Tablet containing liothyronine sodium 20 micrograms | Valid |
+| 14841D | Tertroxin | Liothyronine | Tablet containing liothyronine sodium 20 micrograms | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

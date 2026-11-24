@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Codeine: predicted new indication nasal cavity disease (evidence level L5). In Australia: 12 PBS items (12 currently listed)"
 ---
 
@@ -72,16 +72,32 @@ This publication does not study codeine as a treatment for nasal cavity disease,
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 12054K | Aspen Pharmacare Australia Pty Ltd | Tablet containing codeine phosphate hemihydrate 30 mg | Not recorded in the local data |
-| 191C | Not recorded | Not recorded | Not recorded in the local data |
+<!-- licenses:begin -->
 
-The two items in the table are single-ingredient and currently listed. The data compiled for this report contain 12 current PBS items in all: 6 single-ingredient codeine items and 6 combinations (paracetamol with codeine, aspirin with codeine).
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 191C | – | Codeine Phosphate (may only be prescribed in linctuses, mixtures or mixtures for children) | – | Valid |
+| 1214X | Aspen Pharmacare Australia Pty Ltd | Codeine | Tablet containing codeine phosphate hemihydrate 30 mg | Valid |
+| 1215Y | Paracetamol/Codeine GH 500/30 | Paracetamol + codeine | Tablet containing codeine phosphate hemihydrate 30 mg with paracetamol 500 mg | Valid |
+| 3316M | Paracetamol/Codeine GH 500/30 | Paracetamol + codeine | Tablet containing codeine phosphate hemihydrate 30 mg with paracetamol 500 mg | Valid |
+| 4275B | Panamax Co. 40 | Paracetamol + codeine | Tablet containing codeine phosphate hemihydrate 8 mg with paracetamol 500 mg | Valid |
+| 4286N | Aspalgin 40 | Aspirin + codeine | Tablet containing codeine phosphate hemihydrate 8 mg with aspirin 300 mg | Valid |
+| 5063L | Aspen Pharmacare Australia Pty Ltd | Codeine | Tablet containing codeine phosphate hemihydrate 30 mg | Valid |
+| 7530H | – | Codeine | – | Valid |
+| 12022R | Paracetamol/Codeine GH 500/30 | Paracetamol + codeine | Tablet containing codeine phosphate hemihydrate 30 mg with paracetamol 500 mg | Valid |
+| 12054K | Aspen Pharmacare Australia Pty Ltd | Codeine | Tablet containing codeine phosphate hemihydrate 30 mg | Valid |
+| 12065B | Aspen Pharmacare Australia Pty Ltd | Codeine | Tablet containing codeine phosphate hemihydrate 30 mg | Valid |
+| 12066C | Paracetamol/Codeine GH 500/30 | Paracetamol + codeine | Tablet containing codeine phosphate hemihydrate 30 mg with paracetamol 500 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
+
+The data compiled for this report contain 12 current PBS items for codeine: 6 single-ingredient codeine items and 6 combinations (paracetamol with codeine, aspirin with codeine).
 
 <!-- review:begin au-lic-20261117-codeine-1 -->
 
-> **Review correction (2026-11-17)**: Originally stated: "Both licences are single-ingredient and currently valid." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+> **Review correction (2026-11-24)**: Originally stated: "Both licences are single-ingredient and currently valid." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
 
 <!-- review:end au-lic-20261117-codeine-1 -->
 
@@ -112,7 +128,7 @@ Below is the review log for this page: statements checked against official Austr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: PBS item count updated to the current PBS Schedule | Corrected (revised 2026-11-24; earlier version kept in the record) | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data are not available for codeine in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293) |
 
 <!-- review:end log -->

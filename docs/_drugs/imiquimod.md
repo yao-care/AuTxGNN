@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
 description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). In Australia: 5 PBS items (5 currently listed)"
@@ -89,9 +89,19 @@ No ANZCTR identifiers were found in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10106X | Aldara Pump | Cream, 50 mg per g, 2 g, 2 | Indication text not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2546B | APO-Imiquimod | Imiquimod | Cream 50 mg per g, 250 mg single use sachets, 12 | Valid |
+| 2637T | Aldara Pump | Imiquimod | Cream 50 mg per g, 2 g, 2 | Valid |
+| 4134N | APO-Imiquimod | Imiquimod | Cream 50 mg per g, 250 mg single use sachets, 12 | Valid |
+| 4559Y | APO-Imiquimod | Imiquimod | Cream 50 mg per g, 250 mg single use sachets, 12 | Valid |
+| 10106X | Aldara Pump | Imiquimod | Cream 50 mg per g, 2 g, 2 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

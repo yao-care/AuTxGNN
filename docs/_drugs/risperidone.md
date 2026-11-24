@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 641
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In Australia: at least 20 PBS items"
@@ -70,9 +70,36 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11869Q | APO-Risperidone | Tablet 0.5 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 3169T | APO-Risperidone | Risperidone | Tablet 1 mg | Valid |
+| 3170W | APO-Risperidone | Risperidone | Tablet 2 mg | Valid |
+| 3171X | APO-Risperidone | Risperidone | Tablet 3 mg | Valid |
+| 3172Y | APO-Risperidone | Risperidone | Tablet 4 mg | Valid |
+| 8100H | Risperdal | Risperidone | Oral solution 1 mg per mL, 100 mL | Valid |
+| 8780D | Risperdal Consta | Risperidone | I.M. injection (modified release), set containing 1 vial powder for injection 25 mg and 1 pre-filled syringe diluent 2… | Valid |
+| 8781E | Risperdal Consta | Risperidone | I.M. injection (modified release), set containing 1 vial powder for injection 37.5 mg and 1 pre-filled syringe diluent… | Valid |
+| 8782F | Risperdal Consta | Risperidone | I.M. injection (modified release), set containing 1 vial powder for injection 50 mg and 1 pre-filled syringe diluent 2… | Valid |
+| 8787L | APO-Risperidone | Risperidone | Tablet 0.5 mg | Valid |
+| 8789N | APO-Risperidone | Risperidone | Tablet 1 mg | Valid |
+| 8869T | APO-Risperidone | Risperidone | Tablet 0.5 mg | Valid |
+| 9079W | APO-Risperidone | Risperidone | Tablet 2 mg | Valid |
+| 11869Q | APO-Risperidone | Risperidone | Tablet 0.5 mg | Valid |
+| 11874Y | Risperdal | Risperidone | Oral solution 1 mg per mL, 100 mL | Valid |
+| 11877D | APO-Risperidone | Risperidone | Tablet 1 mg | Valid |
+| 11879F | APO-Risperidone | Risperidone | Tablet 1 mg | Valid |
+| 11881H | APO-Risperidone | Risperidone | Tablet 0.5 mg | Valid |
+| 11882J | Risperdal | Risperidone | Oral solution 1 mg per mL, 100 mL | Valid |
+| 14686Y | Risvan | Risperidone | I.M. injection (modified release), set containing 1 pre-filled syringe powder for injection 75 mg and 1 pre-filled syri… | Valid |
+| 14688C | Risvan | Risperidone | I.M. injection (modified release), set containing 1 pre-filled syringe powder for injection 100 mg and 1 pre-filled syr… | Valid |
+
+The table shows 20 of 21 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The data compiled for this report contain at least 20 current PBS items, all single-ingredient. Available routes: oral (tablets and oral solution) and intramuscular injection.
 

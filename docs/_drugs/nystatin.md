@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 514
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin: predicted new indication Disease of orbital region (evidence level L5). In Australia: 8 PBS items (8 currently listed)"
@@ -72,9 +72,22 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10854G | Pharmacy Action Nystatin Oral Drops | Oral suspension, 100,000 units per mL, 24 mL | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1696G | Nilstat | Nystatin | Tablet 500,000 units | Valid |
+| 1699K | Nilstat | Nystatin | Capsule 500,000 units | Valid |
+| 2971J | Otocomb Otic | triamcinolone + neomycin + gramicidin + nystatin | Ear drops containing triamcinolone acetonide 0.9 mg with neomycin 2.25 mg (as sulfate), gramicidin 225 micrograms and n… | Valid |
+| 2974M | Otocomb Otic | triamcinolone + neomycin + gramicidin + nystatin | Ear ointment containing triamcinolone acetonide 1 mg with neomycin 2.5 mg (as sulfate), gramicidin 250 micrograms and n… | Valid |
+| 3342X | Nilstat | Nystatin | Tablet 500,000 units | Valid |
+| 3345C | Nilstat | Nystatin | Capsule 500,000 units | Valid |
+| 4013F | Nilstat | Nystatin | Vaginal cream 100,000 units per dose, 15 doses, 75 g | Valid |
+| 10854G | Pharmacy Action Nystatin Oral Drops | Nystatin | Oral suspension 100,000 units per mL, 24 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 This is a single-ingredient product, and the licence is currently valid.
 

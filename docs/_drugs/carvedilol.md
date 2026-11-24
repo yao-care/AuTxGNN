@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Carvedilol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). In Australia: 7 PBS items (7 currently listed)"
 ---
 
@@ -68,9 +68,21 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13387N | Dilatrend 25 | Tablet 25 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8255L | Vedilol 3.125 | Carvedilol | Tablet 3.125 mg | Valid |
+| 8256M | Dilatrend 6.25 | Carvedilol | Tablet 6.25 mg | Valid |
+| 8257N | Dilatrend 12.5 | Carvedilol | Tablet 12.5 mg | Valid |
+| 8258P | Dilatrend 25 | Carvedilol | Tablet 25 mg | Valid |
+| 13387N | Dilatrend 25 | Carvedilol | Tablet 25 mg | Valid |
+| 13417E | Dilatrend 6.25 | Carvedilol | Tablet 6.25 mg | Valid |
+| 13418F | Dilatrend 12.5 | Carvedilol | Tablet 12.5 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Seven current PBS items are recorded, all single-ingredient oral tablets.
 

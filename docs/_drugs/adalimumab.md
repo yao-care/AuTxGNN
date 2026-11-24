@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Adalimumab"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adalimumab: predicted new indication hypermobility of coccyx (evidence level L5). In Australia: at least 20 PBS items"
 ---
 
@@ -69,9 +69,36 @@ Currently no related literature available for hypermobility of coccyx.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10399H | Hadlima | Injection 40 mg in 0.8 mL pre-filled syringe | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10399H | Hadlima | Adalimumab | Injection 40 mg in 0.8 mL pre-filled syringe | Valid |
+| 10400J | Hyrimoz | Adalimumab | Injection 40 mg in 0.8 mL pre-filled pen | Valid |
+| 10412B | Hadlima | Adalimumab | Injection 40 mg in 0.8 mL pre-filled syringe | Valid |
+| 10413C | Hyrimoz | Adalimumab | Injection 40 mg in 0.8 mL pre-filled pen | Valid |
+| 10419J | Hadlima | Adalimumab | Injection 40 mg in 0.8 mL pre-filled syringe | Valid |
+| 10420K | Hyrimoz | Adalimumab | Injection 40 mg in 0.8 mL pre-filled pen | Valid |
+| 10944B | Hadlima | Adalimumab | Injection 40 mg in 0.8 mL pre-filled syringe | Valid |
+| 10955N | Hyrimoz | Adalimumab | Injection 40 mg in 0.8 mL pre-filled pen | Valid |
+| 10960W | Hadlima | Adalimumab | Injection 40 mg in 0.8 mL pre-filled syringe | Valid |
+| 10961X | Hyrimoz | Adalimumab | Injection 40 mg in 0.8 mL pre-filled pen | Valid |
+| 12325Q | Hadlima | Adalimumab | Injection 40 mg in 0.8 mL pre-filled syringe | Valid |
+| 12326R | Hadlima | Adalimumab | Injection 40 mg in 0.8 mL pre-filled syringe | Valid |
+| 12327T | Hadlima | Adalimumab | Injection 40 mg in 0.8 mL pre-filled syringe | Valid |
+| 12328W | Hyrimoz | Adalimumab | Injection 40 mg in 0.8 mL pre-filled pen | Valid |
+| 12329X | Hyrimoz | Adalimumab | Injection 40 mg in 0.8 mL pre-filled pen | Valid |
+| 12330Y | Hyrimoz | Adalimumab | Injection 40 mg in 0.8 mL pre-filled pen | Valid |
+| 12331B | Hadlima | Adalimumab | Injection 40 mg in 0.8 mL pre-filled syringe | Valid |
+| 12332C | Amgevita | Adalimumab | Injection 20 mg in 0.4 mL pre-filled syringe | Valid |
+| 12333D | Hadlima | Adalimumab | Injection 40 mg in 0.8 mL pre-filled syringe | Valid |
+| 12334E | Hyrimoz | Adalimumab | Injection 40 mg in 0.8 mL pre-filled pen | Valid |
+
+The table shows 20 of 298 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The data compiled for this report show at least 20 current PBS items (all single-ingredient injections) and none that are no longer listed.
 

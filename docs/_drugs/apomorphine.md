@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Apomorphine: predicted new indication polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Parkinson's disease (and related parkinsonian syndromes). The Austral…"
 monitor_inn: "Apomorphine"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
@@ -89,9 +89,36 @@ The remaining publications are animal or model studies, or concern other agents 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10950H | Movapo PFS | Solution for subcutaneous infusion containing apomorphine hydrochloride hemihydrate 50 mg in 10 mL pre-filled syringe | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10950H | Movapo PFS | Apomorphine | Solution for subcutaneous infusion containing apomorphine hydrochloride hemihydrate 50 mg in 10 mL pre-filled syringe | Valid |
+| 10971K | Movapo PFS | Apomorphine | Solution for subcutaneous infusion containing apomorphine hydrochloride hemihydrate 50 mg in 10 mL pre-filled syringe | Valid |
+| 11083H | Apomine Solution for Infusion | Apomorphine | Injection containing apomorphine hydrochloride hemihydrate 100 mg in 20 mL | Valid |
+| 11093W | Apomine Solution for Infusion | Apomorphine | Injection containing apomorphine hydrochloride hemihydrate 100 mg in 20 mL | Valid |
+| 11475Y | Movapo Pen | Apomorphine | Solution for subcutaneous injection containing apomorphine hydrochloride 30 mg in 3 mL pre-filled pen | Valid |
+| 11477C | Movapo Pen | Apomorphine | Solution for subcutaneous injection containing apomorphine hydrochloride 30 mg in 3 mL pre-filled pen | Valid |
+| 11672H | Apomine Intermittent | Apomorphine | Solution for subcutaneous injection containing apomorphine hydrochloride 30 mg in 3 mL pre-filled pen | Valid |
+| 11688E | Apomine Intermittent | Apomorphine | Solution for subcutaneous injection containing apomorphine hydrochloride 30 mg in 3 mL pre-filled pen | Valid |
+| 12133N | Apomine Intermittent | Apomorphine | Solution for subcutaneous injection containing apomorphine hydrochloride 30 mg in 3 mL pre-filled pen | Valid |
+| 12137T | Movapo Pen | Apomorphine | Solution for subcutaneous injection containing apomorphine hydrochloride 30 mg in 3 mL pre-filled pen | Valid |
+| 12142C | Apomine Solution for Infusion | Apomorphine | Injection containing apomorphine hydrochloride hemihydrate 100 mg in 20 mL | Valid |
+| 12306Q | Movapo | Apomorphine | Injection containing apomorphine hydrochloride hemihydrate 50 mg in 5 mL | Valid |
+| 12319J | Movapo PFS | Apomorphine | Solution for subcutaneous infusion containing apomorphine hydrochloride hemihydrate 50 mg in 10 mL pre-filled syringe | Valid |
+| 14309D | Apomine Intermittent | Apomorphine | Solution for subcutaneous injection containing apomorphine hydrochloride 30 mg in 3 mL pre-filled pen | Valid |
+| 14375N | Apomine Solution for Infusion | Apomorphine | Injection containing apomorphine hydrochloride hemihydrate 100 mg in 20 mL | Valid |
+| 14377Q | Movapo PFS | Apomorphine | Solution for subcutaneous infusion containing apomorphine hydrochloride hemihydrate 50 mg in 10 mL pre-filled syringe | Valid |
+| 14407G | Movapo | Apomorphine | Injection containing apomorphine hydrochloride hemihydrate 50 mg in 5 mL | Valid |
+| 14485J | Movapo Pen | Apomorphine | Solution for subcutaneous injection containing apomorphine hydrochloride 30 mg in 3 mL pre-filled pen | Valid |
+| 15111H | MOVAPO POD | Apomorphine | Injection containing apomorphine hydrochloride hemihydrate 100 mg in 20 mL | Valid |
+| 15118Q | MOVAPO POD | Apomorphine | Injection containing apomorphine hydrochloride hemihydrate 100 mg in 20 mL | Valid |
+
+The table shows 20 of 24 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

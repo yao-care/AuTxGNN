@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 418
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lenalidomide: predicted new indication Myeloid leukaemia (evidence level L2). Approved use: Plasma cell myeloma, mantle cell lymphoma, B-cell neoplasm…"
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
@@ -108,9 +108,36 @@ No randomised controlled trial publications specific to lenalidomide in myeloid 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11029L | Lenalidomide Dr.Reddy's | Capsule 5 mg | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11029L | Lenalidomide Dr.Reddy''s | Lenalidomide | Capsule 5 mg | Valid |
+| 11036W | Lenalidomide Sandoz | Lenalidomide | Capsule 5 mg | Valid |
+| 11041D | Lenalide | Lenalidomide | Capsule 25 mg | Valid |
+| 11042E | Lenalide | Lenalidomide | Capsule 15 mg | Valid |
+| 11055W | Lenalide | Lenalidomide | Capsule 25 mg | Valid |
+| 11062F | Lenalide | Lenalidomide | Capsule 15 mg | Valid |
+| 11063G | Lenalidomide Sandoz | Lenalidomide | Capsule 10 mg | Valid |
+| 11064H | Lenalidomide Sandoz | Lenalidomide | Capsule 10 mg | Valid |
+| 11964Q | Revlimid | Lenalidomide | Capsule 15 mg | Valid |
+| 11965R | Revlimid | Lenalidomide | Capsule 15 mg | Valid |
+| 11966T | Revlimid | Lenalidomide | Capsule 5 mg | Valid |
+| 11967W | Revlimid | Lenalidomide | Capsule 5 mg | Valid |
+| 11968X | Revlimid | Lenalidomide | Capsule 10 mg | Valid |
+| 11969Y | Revlimid | Lenalidomide | Capsule 10 mg | Valid |
+| 12004T | Revlimid | Lenalidomide | Capsule 10 mg | Valid |
+| 12011E | Lenalide | Lenalidomide | Capsule 15 mg | Valid |
+| 12012F | Revlimid | Lenalidomide | Capsule 15 mg | Valid |
+| 12018M | Revlimid | Lenalidomide | Capsule 25 mg | Valid |
+| 12019N | Revlimid | Lenalidomide | Capsule 25 mg | Valid |
+| 12020P | Lenalide | Lenalidomide | Capsule 15 mg | Valid |
+
+The table shows 20 of 98 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

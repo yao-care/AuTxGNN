@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Atezolizumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atezolizumab: predicted new indication uterine ligament adenocarcinoma (evidence level L5). In Australia: at least 20 PBS items"
 ---
 
@@ -70,9 +70,36 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11277M | Tecentriq | Solution concentrate for I.V. infusion 1200 mg in 20 mL | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11277M | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 1200 mg in 20 mL | Valid |
+| 11284X | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 1200 mg in 20 mL | Valid |
+| 11297N | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 1200 mg in 20 mL | Valid |
+| 11309F | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 1200 mg in 20 mL | Valid |
+| 11792P | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 1200 mg in 20 mL | Valid |
+| 11801D | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 1200 mg in 20 mL | Valid |
+| 11802E | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 1200 mg in 20 mL | Valid |
+| 11807K | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 1200 mg in 20 mL | Valid |
+| 11926Q | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 1200 mg in 20 mL | Valid |
+| 11927R | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 1200 mg in 20 mL | Valid |
+| 11928T | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 1200 mg in 20 mL | Valid |
+| 11929W | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 1200 mg in 20 mL | Valid |
+| 11930X | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 840 mg in 14 mL | Valid |
+| 11931Y | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 840 mg in 14 mL | Valid |
+| 11940K | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 840 mg in 14 mL | Valid |
+| 11957H | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 840 mg in 14 mL | Valid |
+| 12076N | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 840 mg in 14 mL | Valid |
+| 12078Q | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 840 mg in 14 mL | Valid |
+| 12097Q | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 840 mg in 14 mL | Valid |
+| 12098R | Tecentriq | Atezolizumab | Solution concentrate for I.V. infusion 840 mg in 14 mL | Valid |
+
+The table shows 20 of 48 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

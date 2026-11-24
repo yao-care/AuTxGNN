@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 273
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Ethanol: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "Ethanol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -87,10 +87,16 @@ Several other retrieved papers are unrelated to ethanol as a treatment (for exam
 
 The registration data list 2 valid single-ingredient entries. Product names, dosage forms and approved indication text are not available for either entry.
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 128R | Not available | Not available | Not available |
-| ARTG 127Q | Not available | Not available | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 127Q | – | Ethanol (96 per cent) (use as additive only) | – | Valid |
+| 128R | – | Ethanol (90 per cent) (use as additive only) | – | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 642
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ritonavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). In Australia: 3 PBS items (3 currently listed)"
@@ -83,9 +83,17 @@ None of the publications is an RCT or human clinical study. The table lists the 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10273Q | Norvir | Tablet 100 mg | Not specified in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10272P | Kaletra | Lopinavir + ritonavir | Tablet 200 mg-50 mg | Valid |
+| 10273Q | Norvir | Ritonavir | Tablet 100 mg | Valid |
+| 10327M | Kaletra | Lopinavir + ritonavir | Oral liquid 400 mg-100 mg per 5 mL, 60 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

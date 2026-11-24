@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Temozolomide"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Anaplastic astrocytoma…"
 ---
 
@@ -77,15 +77,31 @@ Note: The first case report concerns a spinal myxopapillary ependymoma, a tumour
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10062N | APO-Temozolomide | Capsule 180 mg | Not stated in the licence record |
+<!-- licenses:begin -->
 
-The table lists one of 11 valid single-ingredient oral PBS items in the data compiled for this report (APO-Temozolomide and Temizole capsules, 5 mg to 250 mg).
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2438H | APO-Temozolomide | Temozolomide | Capsule 180 mg | Valid |
+| 8378Y | Temizole 5 | Temozolomide | Capsule 5 mg | Valid |
+| 8379B | Temizole 20 | Temozolomide | Capsule 20 mg | Valid |
+| 8380C | Temizole 100 | Temozolomide | Capsule 100 mg | Valid |
+| 8381D | Temizole 250 | Temozolomide | Capsule 250 mg | Valid |
+| 8819E | Temizole 5 | Temozolomide | Capsule 5 mg | Valid |
+| 8820F | Temizole 20 | Temozolomide | Capsule 20 mg | Valid |
+| 8821G | Temizole 100 | Temozolomide | Capsule 100 mg | Valid |
+| 9361Q | Temizole 140 | Temozolomide | Capsule 140 mg | Valid |
+| 9362R | Temizole 140 | Temozolomide | Capsule 140 mg | Valid |
+| 10062N | APO-Temozolomide | Temozolomide | Capsule 180 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
+
+The data compiled for this report contain 11 valid single-ingredient oral PBS items (APO-Temozolomide and Temizole capsules, 5 mg to 250 mg).
 
 <!-- review:begin au-lic-20261117-temozolomide-1 -->
 
-> **Review correction (2026-11-17)**: Originally stated: "The listing is a single-ingredient oral product (1 valid entry)." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+> **Review correction (2026-11-24)**: Originally stated: "The listing is a single-ingredient oral product (1 valid entry)." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
 
 <!-- review:end au-lic-20261117-temozolomide-1 -->
 
@@ -128,7 +144,7 @@ Below is the review log for this page: statements checked against official Austr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: PBS item count updated to the current PBS Schedule | Corrected (revised 2026-11-24; earlier version kept in the record) | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 734
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Rheumatoid arthritis"
 monitor_inn: "Tocilizumab"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
@@ -85,9 +85,36 @@ Ankylosing spondylitis is an inflammatory spondyloarthropathy, and spondyloarthr
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10056G | Actemra | Concentrate for injection 200 mg in 10 mL | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10056G | Actemra | Tocilizumab | Concentrate for injection 200 mg in 10 mL | Valid |
+| 10058J | Avtozma | Tocilizumab | Concentrate for injection 200 mg in 10 mL | Valid |
+| 10060L | Avtozma | Tocilizumab | Concentrate for injection 400 mg in 20 mL | Valid |
+| 10064Q | Avtozma | Tocilizumab | Concentrate for injection 400 mg in 20 mL | Valid |
+| 10068X | Avtozma | Tocilizumab | Concentrate for injection 80 mg in 4 mL | Valid |
+| 10071C | Avtozma | Tocilizumab | Concentrate for injection 200 mg in 10 mL | Valid |
+| 10072D | Avtozma | Tocilizumab | Concentrate for injection 400 mg in 20 mL | Valid |
+| 10073E | Avtozma | Tocilizumab | Concentrate for injection 80 mg in 4 mL | Valid |
+| 10077J | Avtozma | Tocilizumab | Concentrate for injection 80 mg in 4 mL | Valid |
+| 10078K | Avtozma | Tocilizumab | Concentrate for injection 400 mg in 20 mL | Valid |
+| 10079L | Avtozma | Tocilizumab | Concentrate for injection 200 mg in 10 mL | Valid |
+| 10081N | Avtozma | Tocilizumab | Concentrate for injection 80 mg in 4 mL | Valid |
+| 10951J | Actemra Subcutaneous Injection | Tocilizumab | Injection 162 mg in 0.9 mL single use pre-filled syringe | Valid |
+| 10954M | Actemra Subcutaneous Injection | Tocilizumab | Injection 162 mg in 0.9 mL single use pre-filled syringe | Valid |
+| 11565Q | Actemra ACTPen | Tocilizumab | Injection 162 mg in 0.9 mL single use pre-filled pen | Valid |
+| 11567T | Actemra ACTPen | Tocilizumab | Injection 162 mg in 0.9 mL single use pre-filled pen | Valid |
+| 11720W | Actemra Subcutaneous Injection | Tocilizumab | Injection 162 mg in 0.9 mL single use pre-filled syringe | Valid |
+| 11721X | Actemra Subcutaneous Injection | Tocilizumab | Injection 162 mg in 0.9 mL single use pre-filled syringe | Valid |
+| 11722Y | Actemra ACTPen | Tocilizumab | Injection 162 mg in 0.9 mL single use pre-filled pen | Valid |
+| 11725D | Actemra ACTPen | Tocilizumab | Injection 162 mg in 0.9 mL single use pre-filled pen | Valid |
+
+The table shows 20 of 132 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

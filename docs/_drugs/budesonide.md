@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 114
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Budesonide: predicted new indication Atopic eczema (evidence level L5). Approved use: Crohn's disease, inflammatory bowel disease, Crohn's colitis, asthma…"
 monitor_inn: "Budesonide"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -84,9 +84,36 @@ No randomised controlled trial of budesonide in human atopic eczema was identifi
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10034D | Budenofalk | Rectal foam 2 mg per application, 14 applications, aerosol 16.8 g | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2065Q | Pulmicort Respules | Budesonide | Nebuliser suspension 500 micrograms in 2 mL single dose units, 30 | Valid |
+| 2066R | Pulmicort Respules | Budesonide | Nebuliser suspension 1 mg in 2 mL single dose units, 30 | Valid |
+| 2070Y | Pulmicort Turbuhaler | Budesonide | Powder for oral inhalation in breath actuated device 100 micrograms per dose, 200 doses | Valid |
+| 2071B | Pulmicort Turbuhaler | Budesonide | Powder for oral inhalation in breath actuated device 200 micrograms per dose, 200 doses | Valid |
+| 2072C | Pulmicort Turbuhaler | Budesonide | Powder for oral inhalation in breath actuated device 400 micrograms per dose, 200 doses | Valid |
+| 10015D | Symbicort Rapihaler 100/3 | Budesonide + formoterol | Pressurised inhalation containing budesonide 100 micrograms with formoterol fumarate dihydrate 3 micrograms per dose, 1… | Valid |
+| 10018G | Symbicort Rapihaler 200/6 | Budesonide + formoterol | Pressurised inhalation containing budesonide 200 micrograms with formoterol fumarate dihydrate 6 micrograms per dose, 1… | Valid |
+| 10034D | Budenofalk | Budesonide | Rectal foam 2 mg per application, 14 applications, aerosol 16.8 g, 2 | Valid |
+| 12915R | Entocort | Budesonide | Capsule (modified release) 3 mg | Valid |
+| 12982G | Jorveza | Budesonide | Tablet 1 mg (orally disintegrating) | Valid |
+| 12987M | Jorveza | Budesonide | Tablet 500 micrograms (orally disintegrating) | Valid |
+| 12994X | Jorveza | Budesonide | Tablet 1 mg (orally disintegrating) | Valid |
+| 13711P | Jorveza | Budesonide | Tablet 1 mg (orally disintegrating) | Valid |
+| 13719C | Jorveza | Budesonide | Tablet 500 micrograms (orally disintegrating) | Valid |
+| 14331G | Pulmicort Turbuhaler | Budesonide | Powder for oral inhalation in breath actuated device 100 micrograms per dose, 200 doses | Valid |
+| 14438X | Pulmicort Respules | Budesonide | Nebuliser suspension 500 micrograms in 2 mL single dose units, 30 | Valid |
+| 14469M | Pulmicort Respules | Budesonide | Nebuliser suspension 1 mg in 2 mL single dose units, 30 | Valid |
+| 14470N | Pulmicort Turbuhaler | Budesonide | Powder for oral inhalation in breath actuated device 400 micrograms per dose, 200 doses | Valid |
+| 14503H | Pulmicort Turbuhaler | Budesonide | Powder for oral inhalation in breath actuated device 200 micrograms per dose, 200 doses | Valid |
+| 14571X | Budenofalk | Budesonide | Capsule (enteric) 3 mg | Valid |
+
+The table shows 20 of 50 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The listed Australian products are a rectal foam, oral capsules and orally disintegrating tablets, and inhaled forms (including budesonide with formoterol); none is a dermatological or topical skin formulation. A suitable route of administration for atopic eczema would therefore need separate consideration.
 

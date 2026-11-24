@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 303
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fludarabine: predicted new indication Plasma cell myeloma (evidence level L2). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Fludarabine"
 predicted_indications: ["plasma cell myeloma", "hyperthyroidism", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "indolent plasma cell myeloma", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "brain small vessel disease 1 with or without ocular anomalies", "myelodysplastic syndrome", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "diabetic nephropathy"]
@@ -113,9 +113,18 @@ No ANZCTR trial identifiers were available in the compiled data.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 15144C | Fludarabine Phosphate Injection, USP 50 mg/2 mL (Areva, USA) | Solution for I.V. injection, 50 mg fludarabine phosphate in 2 mL (s19A) | Not stated in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4393F | Fludarabine Ebewe | Fludarabine | Solution for I.V. injection 50 mg fludarabine phosphate in 2 mL | Valid |
+| 7233Q | Fludarabine Ebewe | Fludarabine | Solution for I.V. injection 50 mg fludarabine phosphate in 2 mL | Valid |
+| 9184J | Fludara | Fludarabine | Tablet containing fludarabine phosphate 10 mg | Valid |
+| 15144C | Fludarabine Phosphate Injection, USP 50 mg/2 mL (Areva, USA) | Fludarabine | Solution for I.V. injection 50 mg fludarabine phosphate in 2 mL (s19A) | No longer listed on the PBS Schedule |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The product is supplied under Section 19A, so it is imported and not a standard fully registered product.
 

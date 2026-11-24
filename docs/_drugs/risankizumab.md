@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 638
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Risankizumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Risankizumab: predicted new indication Dermatitis (evidence level L2). In Australia: 4 PBS items (4 currently listed)"
@@ -98,9 +98,18 @@ No ANZCTR entries were identified in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14111Q | Skyrizi | Injection 150 mg in 1 mL pre-filled pen | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 14111Q | Skyrizi | Risankizumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 14142H | Skyrizi | Risankizumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 14713J | Skyrizi | Risankizumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+| 14732J | Skyrizi | Risankizumab | Injection 150 mg in 1 mL pre-filled pen | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

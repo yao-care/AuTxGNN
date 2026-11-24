@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 257
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Ephedrine: predicted new indication Nasal cavity disease (evidence level L4). In Australia: 1 PBS item (1 currently listed)"
@@ -75,9 +75,15 @@ Both publications are early or preliminary, and neither tests ephedrine alone.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 224T | Not available | Not available | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 224T | – | Ephedrine Hydrochloride (may only be prescribed in nasal instillations) | – | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The licence record has no product name, dosage form or indication text, so the current approved Australian indications cannot be confirmed from the data compiled.
 

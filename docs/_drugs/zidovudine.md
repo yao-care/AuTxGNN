@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 789
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infection and AIDS"
 monitor_inn: "Zidovudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -93,9 +93,18 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form |
-|---------|------|------|
-| 10266H | Retrovir | Capsule 100 mg (oral) |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10266H | Retrovir | Zidovudine | Capsule 100 mg | Valid |
+| 10284G | Combivir | Lamivudine + zidovudine | Tablet 150 mg-300 mg | Valid |
+| 10360G | Retrovir | Zidovudine | Capsule 250 mg | Valid |
+| 10361H | Retrovir | Zidovudine | Syrup 10 mg per mL, 200 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

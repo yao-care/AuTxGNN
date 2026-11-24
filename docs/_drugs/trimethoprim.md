@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 756
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection, infectious otitis media, pneumocystosis…"
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -79,9 +79,22 @@ For context, the data compiled for this report include literature on the already
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10785P | Alprim | Tablet 300 mg (oral) | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2666H | Alprim | Trimethoprim | Tablet 300 mg | Valid |
+| 2922T | Alprim | Trimethoprim | Tablet 300 mg | Valid |
+| 2951H | Bactrim DS | Trimethoprim + sulfamethoxazole | Tablet 160 mg-800 mg | Valid |
+| 3103H | Septrin | Trimethoprim + sulfamethoxazole | Paediatric oral suspension 40 mg-200 mg per 5 mL, 100 mL | Valid |
+| 3390K | Bactrim DS | Trimethoprim + sulfamethoxazole | Tablet 160 mg-800 mg | Valid |
+| 3391L | Septrin | Trimethoprim + sulfamethoxazole | Paediatric oral suspension 40 mg-200 mg per 5 mL, 100 mL | Valid |
+| 10784N | Bactrim DS | Trimethoprim + sulfamethoxazole | Tablet 160 mg-800 mg | Valid |
+| 10785P | Alprim | Trimethoprim | Tablet 300 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The listed Australian products are oral: trimethoprim tablets and trimethoprim with sulfamethoxazole tablets and paediatric suspension. The predicted ocular indication would likely need a topical ophthalmic formulation, and no route compatibility assessment is available.
 

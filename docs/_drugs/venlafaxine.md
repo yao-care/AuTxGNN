@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 775
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Venlafaxine: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -78,9 +78,19 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Venlafaxine,
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 14402B | Efexor-XR | Capsule (modified release) 150 mg (as hy | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8301X | Efexor-XR | Venlafaxine | Capsule (modified release) 75 mg (as hydrochloride) | Valid |
+| 8302Y | Efexor-XR | Venlafaxine | Capsule (modified release) 150 mg (as hydrochloride) | Valid |
+| 8868R | Efexor-XR | Venlafaxine | Capsule (modified release) 37.5 mg (as hydrochloride) | Valid |
+| 14402B | Efexor-XR | Venlafaxine | Capsule (modified release) 150 mg (as hydrochloride) | Valid |
+| 14472Q | Efexor-XR | Venlafaxine | Capsule (modified release) 75 mg (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

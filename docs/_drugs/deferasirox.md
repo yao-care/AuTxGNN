@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Deferasirox"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L5). In Australia: at least 20 PBS items"
 ---
 
@@ -71,9 +71,36 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11231D | Deferasirox Juno | Tablet, dispersible, 500 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11231D | Deferasirox Juno | Deferasirox | Tablet, dispersible, 500 mg | Valid |
+| 11232E | Deferasirox Juno | Deferasirox | Tablet, dispersible, 500 mg | Valid |
+| 11234G | Deferasirox Juno | Deferasirox | Tablet, dispersible, 500 mg | Valid |
+| 11235H | Deferasirox Juno | Deferasirox | Tablet, dispersible, 125 mg | Valid |
+| 11236J | Deferasirox Juno | Deferasirox | Tablet, dispersible, 125 mg | Valid |
+| 11238L | Deferasirox Juno | Deferasirox | Tablet, dispersible, 250 mg | Valid |
+| 11239M | Deferasirox Juno | Deferasirox | Tablet, dispersible, 250 mg | Valid |
+| 11240N | Deferasirox Juno | Deferasirox | Tablet, dispersible, 250 mg | Valid |
+| 11241P | Deferasirox Juno | Deferasirox | Tablet, dispersible, 125 mg | Valid |
+| 11243R | Deferasirox Juno | Deferasirox | Tablet, dispersible, 500 mg | Valid |
+| 11244T | Deferasirox Juno | Deferasirox | Tablet, dispersible, 250 mg | Valid |
+| 11247Y | Deferasirox Juno | Deferasirox | Tablet, dispersible, 125 mg | Valid |
+| 11496C | Jadenu | Deferasirox | Tablet 360 mg | Valid |
+| 11499F | Jadenu | Deferasirox | Tablet 90 mg | Valid |
+| 11500G | Jadenu | Deferasirox | Tablet 180 mg | Valid |
+| 11510T | Jadenu | Deferasirox | Tablet 180 mg | Valid |
+| 11511W | Jadenu | Deferasirox | Tablet 360 mg | Valid |
+| 11519G | Jadenu | Deferasirox | Tablet 90 mg | Valid |
+| 11533B | Jadenu | Deferasirox | Tablet 360 mg | Valid |
+| 11534C | Jadenu | Deferasirox | Tablet 90 mg | Valid |
+
+The table shows 20 of 36 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

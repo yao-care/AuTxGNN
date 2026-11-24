@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 609
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Propylene Glycol: predicted new indication Bronchitis (evidence level L5). Approved use: Dry eye syndrome / xerophthalmia"
 monitor_inn: "Propylene glycol"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "immature cataract", "mature cataract", "tetanic cataract"]
@@ -83,16 +83,32 @@ For reference, one trial is linked to the related prediction of diabetic retinop
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 425J | Not recorded | Not recorded | Not recorded |
-| 14768G | Systane Balance | Eye drops 60 micrograms per mL, 10 mL | Not recorded |
+<!-- licenses:begin -->
 
-The table shows two of the 12 current PBS items in the data compiled for this report: 3 are single-ingredient propylene glycol items (including the two in the table) and 9 are Systane eye drops combining polyethylene glycol-400 with propylene glycol. The only recorded route of the product with a stated dosage form is ophthalmic.
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 425J | – | Propylene Glycol | – | Valid |
+| 5524R | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, 15 mL | Valid |
+| 8676P | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, 15 mL | Valid |
+| 13100L | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, single dose units 0.8 mL, 30 | Valid |
+| 13113E | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, single dose units 0.8 mL, 30 | Valid |
+| 14421B | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, 15 mL | Valid |
+| 14520F | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, single dose units 0.8 mL, 30 | Valid |
+| 14768G | Systane Balance | Propylene glycol | Eye drops 60 micrograms per mL, 10 mL | Valid |
+| 15242F | Systane Balance | Propylene glycol | Eye drops 60 micrograms per mL, 10 mL | Valid |
+| 15272T | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, single dose units 0.8 mL, 28 | Valid |
+| 15320H | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, single dose units 0.8 mL, 28 | Valid |
+| 15326P | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, single dose units 0.8 mL, 28 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
+
+The data compiled for this report contain 12 current PBS items: 3 are single-ingredient propylene glycol items and 9 are Systane eye drops combining polyethylene glycol-400 with propylene glycol. The only recorded route of the product with a stated dosage form is ophthalmic.
 
 <!-- review:begin au-lic-20261117-propylene_glycol-1 -->
 
-> **Review correction (2026-11-17)**: Originally stated: "Both entries are valid single-ingredient listings." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+> **Review correction (2026-11-24)**: Originally stated: "Both entries are valid single-ingredient listings." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
 
 <!-- review:end au-lic-20261117-propylene_glycol-1 -->
 
@@ -124,7 +140,7 @@ Below is the review log for this page: statements checked against official Austr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: PBS item count updated to the current PBS Schedule | Corrected (revised 2026-11-24; earlier version kept in the record) | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

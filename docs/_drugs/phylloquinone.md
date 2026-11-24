@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 573
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 monitor_inn: "Phylloquinone"
 predicted_indications: ["renal tubular acidosis", "hypophosphatemic rickets", "Pendred syndrome", "autosomal recessive nonsyndromic deafness", "NAD(P)HX dehydratase deficiency", "leukocyte adhesion deficiency", "hypermanganesemia with dystonia", "Fraser syndrome", "temtamy preaxial brachydactyly syndrome"]
 description: "Phylloquinone: predicted new indication Renal tubular acidosis (evidence level L5). In Australia: 1 PBS item (1 currently listed)"
@@ -72,9 +72,15 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10213M | Konakion MM | Injection 10 mg in 1 mL | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10213M | Konakion MM | Phytomenadione | Injection 10 mg in 1 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

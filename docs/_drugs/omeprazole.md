@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 527
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). In Australia: at least 20 PBS items"
@@ -92,9 +92,36 @@ There is also a safety concern. Three animal studies (1996, 1999, 2020) suggest 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11677N | Losec Tablets | Tablet 20 mg (as magnesium) | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1326T | OMEPRAZOLE CAPS WGR | Omeprazole | Capsule 20 mg | Valid |
+| 1327W | OMEPRAZOLE CAPS WGR | Omeprazole | Capsule 20 mg | Valid |
+| 11677N | Losec Tablets | Omeprazole | Tablet 20 mg (as magnesium) | Valid |
+| 11682W | OMEPRAZOLE CAPS WGR | Omeprazole | Capsule 20 mg | Valid |
+| 11683X | Maxor EC Tabs | Omeprazole | Tablet 20 mg | Valid |
+| 12270T | Losec Tablets | Omeprazole | Tablet 20 mg (as magnesium) | Valid |
+| 12272X | Maxor EC Tabs | Omeprazole | Tablet 20 mg | Valid |
+| 12281J | OMEPRAZOLE CAPS WGR | Omeprazole | Capsule 20 mg | Valid |
+| 14363Y | Losec Tablets | Omeprazole | Tablet 20 mg (as magnesium) | Valid |
+| 14364B | Maxor EC Tabs | Omeprazole | Tablet 20 mg | Valid |
+| 14397R | Losec Tablets | Omeprazole | Tablet 20 mg (as magnesium) | Valid |
+| 14432N | Losec Tablets | Omeprazole | Tablet 10 mg (as magnesium) | Valid |
+| 14464G | OMEPRAZOLE CAPS WGR | Omeprazole | Capsule 20 mg | Valid |
+| 14465H | OMEPRAZOLE CAPS WGR | Omeprazole | Capsule 20 mg | Valid |
+| 14533X | Maxor EC Tabs | Omeprazole | Tablet 20 mg | Valid |
+| 14557E | Losec Tablets | Omeprazole | Tablet 20 mg (as magnesium) | Valid |
+| 14558F | Maxor EC Tabs | Omeprazole | Tablet 20 mg | Valid |
+| 14559G | OMEPRAZOLE CAPS WGR | Omeprazole | Capsule 20 mg | Valid |
+| 14702T | Losec Tablets | Omeprazole | Tablet 10 mg (as magnesium) | Valid |
+| 14706B | OMEPRAZOLE CAPS WGR | Omeprazole | Capsule 20 mg | Valid |
+
+The table shows 20 of 27 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

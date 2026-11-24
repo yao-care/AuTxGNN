@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 354
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Hydrocortisone acetate"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
 description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L2). In Australia: 8 PBS items (8 currently listed)"
@@ -86,9 +86,22 @@ Hydrocortisone is a low-potency corticosteroid. Higher-potency agents (for examp
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10831C | Cortic-DS 1% | Ointment containing hydrocortisone acetate 10 mg per g, 30 g | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2441L | Hycor | hydrocortisone acetate | Eye ointment containing hydrocortisone acetate 10 mg per g, 5 g | Valid |
+| 2881P | Cortic-DS 1% | hydrocortisone acetate | Cream containing hydrocortisone acetate 10 mg per g, 50 g | Valid |
+| 2882Q | Cortic-DS 1% | hydrocortisone acetate | Ointment containing hydrocortisone acetate 10 mg per g, 50 g | Valid |
+| 5113D | Cortic-DS 1% | hydrocortisone acetate | Cream containing hydrocortisone acetate 10 mg per g, 50 g | Valid |
+| 5114E | Cortic-DS 1% | hydrocortisone acetate | Ointment containing hydrocortisone acetate 10 mg per g, 50 g | Valid |
+| 5516H | Hycor | hydrocortisone acetate | Eye ointment containing hydrocortisone acetate 10 mg per g, 5 g | Valid |
+| 10831C | Cortic-DS 1% | hydrocortisone acetate | Ointment containing hydrocortisone acetate 10 mg per g, 30 g | Valid |
+| 11710H | Pharmacy Action Hydrocortisone Cream 1% | hydrocortisone acetate | Cream containing hydrocortisone acetate 10 mg per g, 30 g | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

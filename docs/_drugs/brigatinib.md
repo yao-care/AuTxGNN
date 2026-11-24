@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Brigatinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brigatinib: predicted new indication Gingival fibromatosis (fibromatosis, gingival) (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 
@@ -70,9 +70,18 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11974F | Alunbrig | Tablet 90 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11974F | Alunbrig | Brigatinib | Tablet 90 mg | Valid |
+| 11976H | Alunbrig | Brigatinib | Pack containing 7 tablets 90 mg and 21 tablets 180 mg | Valid |
+| 11980M | Alunbrig | Brigatinib | Tablet 30 mg | Valid |
+| 11984R | Alunbrig | Brigatinib | Tablet 180 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

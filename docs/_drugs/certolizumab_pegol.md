@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Certolizumab pegol"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Certolizumab Pegol: predicted new indication hypermobility of coccyx (evidence level L5). In Australia: at least 20 PBS items"
 ---
 
@@ -68,9 +68,36 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10137M | Cimzia | Injection 200 mg in 1 mL single use pre-filled syringe | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10137M | Cimzia | Certolizumab pegol | Injection 200 mg in 1 mL single use pre-filled syringe | Valid |
+| 10238W | Cimzia | Certolizumab pegol | Injection 200 mg in 1 mL single use pre-filled syringe | Valid |
+| 10892G | Cimzia | Certolizumab pegol | Injection 200 mg in 1 mL single use pre-filled syringe | Valid |
+| 10896L | Cimzia | Certolizumab pegol | Injection 200 mg in 1 mL single use pre-filled syringe | Valid |
+| 10897M | Cimzia | Certolizumab pegol | Injection 200 mg in 1 mL single use pre-filled syringe | Valid |
+| 10904X | Cimzia | Certolizumab pegol | Injection 200 mg in 1 mL single use pre-filled syringe | Valid |
+| 10905Y | Cimzia | Certolizumab pegol | Injection 200 mg in 1 mL single use pre-filled syringe | Valid |
+| 10909E | Cimzia | Certolizumab pegol | Injection 200 mg in 1 mL single use pre-filled syringe | Valid |
+| 11318Q | Cimzia | Certolizumab pegol | Solution for injection 200 mg in 1 mL pre-filled pen | Valid |
+| 11319R | Cimzia | Certolizumab pegol | Solution for injection 200 mg in 1 mL pre-filled pen | Valid |
+| 11320T | Cimzia | Certolizumab pegol | Solution for injection 200 mg in 1 mL pre-filled pen | Valid |
+| 11321W | Cimzia | Certolizumab pegol | Solution for injection 200 mg in 1 mL pre-filled pen | Valid |
+| 11322X | Cimzia | Certolizumab pegol | Solution for injection 200 mg in 1 mL pre-filled pen | Valid |
+| 11323Y | Cimzia | Certolizumab pegol | Solution for injection 200 mg in 1 mL pre-filled pen | Valid |
+| 11324B | Cimzia | Certolizumab pegol | Solution for injection 200 mg in 1 mL pre-filled pen | Valid |
+| 11325C | Cimzia | Certolizumab pegol | Solution for injection 200 mg in 1 mL pre-filled pen | Valid |
+| 11326D | Cimzia | Certolizumab pegol | Solution for injection 200 mg in 1 mL pre-filled pen | Valid |
+| 12005W | Cimzia | Certolizumab pegol | Injection 200 mg in 1 mL single use pre-filled syringe | Valid |
+| 12013G | Cimzia | Certolizumab pegol | Solution for injection 200 mg in 1 mL pre-filled pen | Valid |
+| 12027B | Cimzia | Certolizumab pegol | Solution for injection 200 mg in 1 mL pre-filled pen | Valid |
+
+The table shows 20 of 26 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The product is a single-ingredient injectable, and the licence is currently valid.
 

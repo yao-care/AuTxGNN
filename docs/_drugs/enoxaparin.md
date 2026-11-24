@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 252
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). In Australia: 14 PBS items (14 currently listed)"
@@ -77,9 +77,28 @@ For context, the second- to tenth-ranked predictions were also reviewed. Literat
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13688K | Exarane Forte | Injection containing enoxaparin sodium 120 mg (12,000 I.U. anti-Xa) in 0.8 mL pre-filled syringe | Not provided |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5434B | Clexane Safety-Lock | enoxaparin sodium | Injection containing enoxaparin sodium 80 mg (8,000 I.U. anti-Xa) in 0.8 mL pre-filled syringe | Valid |
+| 5435C | Clexane Safety-Lock | enoxaparin sodium | Injection containing enoxaparin sodium 100 mg (10,000 I.U. anti-Xa) in 1 mL pre-filled syringe | Valid |
+| 8262W | Clexane Safety-Lock | enoxaparin sodium | Injection containing enoxaparin sodium 60 mg (6,000 I.U. anti-Xa) in 0.6 mL pre-filled syringe | Valid |
+| 8263X | Clexane Safety-Lock | enoxaparin sodium | Injection containing enoxaparin sodium 80 mg (8,000 I.U. anti-Xa) in 0.8 mL pre-filled syringe | Valid |
+| 8264Y | Clexane Safety-Lock | enoxaparin sodium | Injection containing enoxaparin sodium 100 mg (10,000 I.U. anti-Xa) in 1 mL pre-filled syringe | Valid |
+| 8510X | Clexane Safety-Lock | enoxaparin sodium | Injection containing enoxaparin sodium 40 mg (4,000 I.U. anti-Xa) in 0.4 mL pre-filled syringe | Valid |
+| 8558K | Clexane Safety-Lock | enoxaparin sodium | Injection containing enoxaparin sodium 20 mg (2,000 I.U. anti-Xa) in 0.2 mL pre-filled syringe | Valid |
+| 8639Q | Clexane Safety-Lock | enoxaparin sodium | Injection containing enoxaparin sodium 40 mg (4,000 I.U. anti-Xa) in 0.4 mL pre-filled syringe | Valid |
+| 8640R | Clexane Safety-Lock | enoxaparin sodium | Injection containing enoxaparin sodium 60 mg (6,000 I.U. anti-Xa) in 0.6 mL pre-filled syringe | Valid |
+| 8716R | Clexane Safety-Lock | enoxaparin sodium | Injection containing enoxaparin sodium 20 mg (2,000 I.U. anti-Xa) in 0.2 mL pre-filled syringe | Valid |
+| 13688K | Exarane Forte | enoxaparin sodium | Injection containing enoxaparin sodium 120 mg (12,000 I.U. anti-Xa) in 0.8 mL pre-filled syringe | Valid |
+| 13710N | Clexane Forte Safety-Lock | enoxaparin sodium | Injection containing enoxaparin sodium 120 mg (12,000 I.U. anti-Xa) in 0.8 mL pre-filled syringe | Valid |
+| 13717Y | Exarane Forte | enoxaparin sodium | Injection containing enoxaparin sodium 150 mg (15,000 I.U. anti-Xa) in 1 mL pre-filled syringe | Valid |
+| 13729N | Clexane Forte Safety-Lock | enoxaparin sodium | Injection containing enoxaparin sodium 150 mg (15,000 I.U. anti-Xa) in 1 mL pre-filled syringe | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

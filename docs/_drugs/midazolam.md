@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 476
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Midazolam: predicted new indication Insomnia (evidence level L2). Approved use: Anxiety"
 monitor_inn: "Midazolam"
 predicted_indications: ["insomnia (disease)"]
@@ -97,9 +97,23 @@ The evidence is old and small-scale, and it was conducted before modern insomnia
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10178Q | Sponsor: Pfizer Australia Pty Ltd | Injection 5 mg (as hydrochloride) in 1 mL | Not specified in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10178Q | Pfizer Australia Pty Ltd | Midazolam | Injection 5 mg (as hydrochloride) in 1 mL | Valid |
+| 14238J | Zyamis | Midazolam | Oromucosal solution (as maleate) 7.5 mg in 0.75 mL single use pre-filled oral syringe | Valid |
+| 14270C | Zyamis | Midazolam | Oromucosal solution (as maleate) 10 mg in 1 mL single use pre-filled oral syringe | Valid |
+| 14291E | Zyamis | Midazolam | Oromucosal solution (as maleate) 7.5 mg in 0.75 mL single use pre-filled oral syringe | Valid |
+| 14292F | Zyamis | Midazolam | Oromucosal solution (as maleate) 5 mg in 0.5 mL single use pre-filled oral syringe | Valid |
+| 14293G | Zyamis | Midazolam | Oromucosal solution (as maleate) 5 mg in 0.5 mL single use pre-filled oral syringe | Valid |
+| 14299N | Zyamis | Midazolam | Oromucosal solution (as maleate) 10 mg in 1 mL single use pre-filled oral syringe | Valid |
+| 15381M | Zyamis | Midazolam | Oromucosal solution (as maleate) 2.5 mg in 0.25 mL single use pre-filled oral syringe | Valid |
+| 15388X | Zyamis | Midazolam | Oromucosal solution (as maleate) 2.5 mg in 0.25 mL single use pre-filled oral syringe | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The Australian listings are an injection and buccal (oromucosal) solutions (Zyamis); none is an oral tablet. The oral hypnotic studies above used an oral formulation, so route compatibility has not been established.
 

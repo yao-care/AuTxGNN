@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 579
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Piroxicam"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
 description: "Piroxicam: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -96,9 +96,18 @@ The following is for juvenile idiopathic arthritis (rank 10). No literature was 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1897W | APO-Piroxicam | Capsule 10 mg | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1897W | APO-Piroxicam | Piroxicam | Capsule 10 mg | Valid |
+| 1898X | APO-Piroxicam | Piroxicam | Capsule 20 mg | Valid |
+| 5203W | APO-Piroxicam | Piroxicam | Capsule 10 mg | Valid |
+| 5204X | APO-Piroxicam | Piroxicam | Capsule 20 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

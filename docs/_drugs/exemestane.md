@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 282
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Exemestane"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
 description: "Exemestane: predicted new indication Antithrombin deficiency type 2 (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -81,9 +81,18 @@ No literature was retrieved for antithrombin deficiency type 2. The five publica
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10103R | Aromasin | Tablet 25 mg (oral) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8506Q | Aromasin | Exemestane | Tablet 25 mg | Valid |
+| 10103R | Aromasin | Exemestane | Tablet 25 mg | Valid |
+| 13857H | Aromasin | Exemestane | Tablet 25 mg | Valid |
+| 14036R | Aromasin | Exemestane | Tablet 25 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

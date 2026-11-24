@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 655
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Safinamide"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
 description: "Safinamide: predicted new indication Rasmussen subacute encephalitis (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -79,9 +79,18 @@ Currently no related literature available for Rasmussen subacute encephalitis.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11656L | Xadago | Tablet 50 mg (oral) | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11656L | Xadago | Safinamide | Tablet 50 mg | Valid |
+| 11666B | Xadago | Safinamide | Tablet 100 mg | Valid |
+| 14391K | Xadago | Safinamide | Tablet 50 mg | Valid |
+| 14528P | Xadago | Safinamide | Tablet 100 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

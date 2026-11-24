@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 197
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Daratumumab: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,36 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 12220E | Darzalex | Solution concentrate for I.V. infusion 1 | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12220E | Darzalex | Daratumumab | Solution concentrate for I.V. infusion 100 mg in 5 mL | Valid |
+| 12225K | Darzalex | Daratumumab | Solution concentrate for I.V. infusion 100 mg in 5 mL | Valid |
+| 12226L | Darzalex | Daratumumab | Solution concentrate for I.V. infusion 100 mg in 5 mL | Valid |
+| 12228N | Darzalex | Daratumumab | Solution concentrate for I.V. infusion 100 mg in 5 mL | Valid |
+| 12230Q | Darzalex | Daratumumab | Solution concentrate for I.V. infusion 100 mg in 5 mL | Valid |
+| 12231R | Darzalex | Daratumumab | Solution concentrate for I.V. infusion 100 mg in 5 mL | Valid |
+| 12682L | Darzalex SC | Daratumumab | Solution for subcutaneous injection containing daratumumab 1800 mg in 15 mL | Valid |
+| 12683M | Darzalex SC | Daratumumab | Solution for subcutaneous injection containing daratumumab 1800 mg in 15 mL | Valid |
+| 12725R | Darzalex SC | Daratumumab | Solution for subcutaneous injection containing daratumumab 1800 mg in 15 mL | Valid |
+| 12745T | Darzalex SC | Daratumumab | Solution for subcutaneous injection containing daratumumab 1800 mg in 15 mL | Valid |
+| 12746W | Darzalex SC | Daratumumab | Solution for subcutaneous injection containing daratumumab 1800 mg in 15 mL | Valid |
+| 12755H | Darzalex SC | Daratumumab | Solution for subcutaneous injection containing daratumumab 1800 mg in 15 mL | Valid |
+| 13199Q | Darzalex SC | Daratumumab | Solution for subcutaneous injection containing daratumumab 1800 mg in 15 mL | Valid |
+| 13201T | Darzalex SC | Daratumumab | Solution for subcutaneous injection containing daratumumab 1800 mg in 15 mL | Valid |
+| 13202W | Darzalex SC | Daratumumab | Solution for subcutaneous injection containing daratumumab 1800 mg in 15 mL | Valid |
+| 13203X | Darzalex SC | Daratumumab | Solution for subcutaneous injection containing daratumumab 1800 mg in 15 mL | Valid |
+| 15065X | Darzalex | Daratumumab | Solution concentrate for I.V. infusion 100 mg in 5 mL | Valid |
+| 15066Y | Darzalex | Daratumumab | Solution concentrate for I.V. infusion 100 mg in 5 mL | Valid |
+| 15071F | Darzalex SC | Daratumumab | Solution for subcutaneous injection containing daratumumab 1800 mg in 15 mL | Valid |
+| 15072G | Darzalex | Daratumumab | Solution concentrate for I.V. infusion 100 mg in 5 mL | Valid |
+
+The table shows 20 of 28 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

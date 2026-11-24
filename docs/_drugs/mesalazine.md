@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). In Australia: at least 20 PBS items"
@@ -71,9 +71,36 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10254Q | Pentasa | Sachet containing prolonged release granules, 4 g per sachet | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10254Q | Pentasa | Mesalazine | Sachet containing prolonged release granules, 4 g per sachet | Valid |
+| 10257W | Salofalk | Mesalazine | Sachet containing granules, 3 g per sachet | Valid |
+| 11210B | Asacol | Mesalazine | Tablet 800 mg (enteric coated) | Valid |
+| 11554D | Salofalk | Mesalazine | Tablet 1 g (enteric coated) | Valid |
+| 12198B | Pentasa | Mesalazine | Suppository 1 g | Valid |
+| 12203G | Pentasa | Mesalazine | Sachet containing prolonged release granules, 1 g per sachet | Valid |
+| 12463Y | Asacol | Mesalazine | Tablet 1.6 g (enteric coated) | Valid |
+| 13247F | MESALZ | Mesalazine | Tablet 1.2 g (prolonged release) | Valid |
+| 13355X | Pentasa | Mesalazine | Sachet containing prolonged release granules, 1 g per sachet | Valid |
+| 13356Y | MESALZ | Mesalazine | Tablet 1.2 g (prolonged release) | Valid |
+| 13361F | Salofalk | Mesalazine | Sachet containing granules, 500 mg per sachet | Valid |
+| 13362G | Salofalk | Mesalazine | Tablet 500 mg (enteric coated) | Valid |
+| 13394Y | Salofalk | Mesalazine | Tablet 1 g (enteric coated) | Valid |
+| 13395B | Asacol | Mesalazine | Tablet 1.6 g (enteric coated) | Valid |
+| 13396C | Pentasa | Mesalazine | Tablet 500 mg (prolonged release) | Valid |
+| 13397D | Pentasa | Mesalazine | Sachet containing prolonged release granules, 2 g per sachet | Valid |
+| 13398E | Salofalk | Mesalazine | Sachet containing granules, 1 g per sachet | Valid |
+| 13422K | Asacol | Mesalazine | Tablet 800 mg (enteric coated) | Valid |
+| 13423L | Mesasal | Mesalazine | Tablet 250 mg (enteric coated) | Valid |
+| 13456F | Pentasa | Mesalazine | Sachet containing prolonged release granules, 4 g per sachet | Valid |
+
+The table shows 20 of 44 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

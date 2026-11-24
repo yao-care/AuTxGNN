@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 272
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Etanercept"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 description: "Etanercept: predicted new indication Hypermobility of coccyx (evidence level L5). In Australia: at least 20 PBS items"
@@ -135,9 +135,36 @@ No literature was found for hypermobility of coccyx, Kummell disease or WHIM syn
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11196G | Brenzys | Injection, 50 mg in 1 mL single-use pre-filled syringes (pack of 4) | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11197H | Enbrel | Etanercept | Injection set containing 4 vials powder for injection 25 mg and 4 pre-filled syringes solvent 1 mL | Valid |
+| 11202N | Brenzys | Etanercept | Injection 50 mg in 1 mL single use auto-injector, 4 | Valid |
+| 11211C | Brenzys | Etanercept | Injections 50 mg in 1 mL single use pre-filled syringes, 4 | Valid |
+| 11215G | Brenzys | Etanercept | Injection 50 mg in 1 mL single use auto-injector, 4 | Valid |
+| 11216H | Brenzys | Etanercept | Injections 50 mg in 1 mL single use pre-filled syringes, 4 | Valid |
+| 11217J | Brenzys | Etanercept | Injections 50 mg in 1 mL single use pre-filled syringes, 4 | Valid |
+| 11218K | Brenzys | Etanercept | Injection 50 mg in 1 mL single use auto-injector, 4 | Valid |
+| 11221N | Brenzys | Etanercept | Injection 50 mg in 1 mL single use auto-injector, 4 | Valid |
+| 11225T | Brenzys | Etanercept | Injections 50 mg in 1 mL single use pre-filled syringes, 4 | Valid |
+| 13294Q | Enbrel | Etanercept | Injection set containing 4 vials powder for injection 25 mg and 4 pre-filled syringes solvent 1 mL | Valid |
+| 13295R | Enbrel | Etanercept | Injection set containing 4 vials powder for injection 25 mg and 4 pre-filled syringes solvent 1 mL | Valid |
+| 13308K | Erelzi | Etanercept | Injections 50 mg in 1 mL single use pre-filled syringes, 4 | Valid |
+| 13319B | Erelzi | Etanercept | Injection 50 mg in 1 mL single use auto-injector, 4 | Valid |
+| 13326J | Erelzi | Etanercept | Injection 50 mg in 1 mL single use auto-injector, 4 | Valid |
+| 13332Q | Erelzi | Etanercept | Injections 50 mg in 1 mL single use pre-filled syringes, 4 | Valid |
+| 13687J | Brenzys | Etanercept | Injection 50 mg in 1 mL single use auto-injector, 4 | Valid |
+| 13693Q | Enbrel | Etanercept | Injection set containing 4 vials powder for injection 25 mg and 4 pre-filled syringes solvent 1 mL | Valid |
+| 13697X | Erelzi | Etanercept | Injection 50 mg in 1 mL single use auto-injector, 4 | Valid |
+| 13698Y | Brenzys | Etanercept | Injections 50 mg in 1 mL single use pre-filled syringes, 4 | Valid |
+| 11196G | Brenzys | Etanercept | Injections 50 mg in 1 mL single use pre-filled syringes, 4 | No longer listed on the PBS Schedule |
+
+The table shows 20 of 66 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

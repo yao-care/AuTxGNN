@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 604
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Probenecid"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 description: "Probenecid: predicted new indication Hypouricemia, renal (evidence level L4). In Australia: 2 PBS items (2 currently listed)"
@@ -95,9 +95,16 @@ The publications below concern renal hypouricaemia. None is a randomised trial o
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13942T | Pro-Cid | Tablet 500 mg (oral) | Indication text not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1940D | Pro-Cid | Probenecid | Tablet 500 mg | Valid |
+| 13942T | Pro-Cid | Probenecid | Tablet 500 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

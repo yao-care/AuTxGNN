@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Anastrozole"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Anastrozole: predicted new indication neuroblastoma (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
@@ -78,9 +78,16 @@ Currently no related literature available for neuroblastoma.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13858J | APO-Anastrozole | Tablet 1 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8179L | APO-Anastrozole | Anastrozole | Tablet 1 mg | Valid |
+| 13858J | APO-Anastrozole | Anastrozole | Tablet 1 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The licence is a single-ingredient product and is currently valid. The oral tablet is the only route available locally.
 

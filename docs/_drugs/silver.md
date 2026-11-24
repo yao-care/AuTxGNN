@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 674
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Silver: predicted new indication Bone Paget disease (evidence level L5). Approved use: Not recorded in the data compiled for this report (marketed as silver…"
 monitor_inn: "silver"
 predicted_indications: ["bone Paget disease"]
@@ -88,12 +88,31 @@ None of these publications evaluates silver as a treatment. All are laboratory o
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12591Q | Atrauman Ag 499573 | Tulle dressings 10 cm x 10 cm, 10 | Not recorded |
-| ARTG 10097K | Aquacel Ag 403708 | Dressing 10 cm x 10 cm | Not recorded |
-| ARTG 4252T | Allevyn Ag Adhesive 66800073 | Dressings, adhesive, 7.5 cm x 7.5 cm, 10 | Not recorded |
-| ARTG 2439J | Mepilex Ag | Dressings 10 cm x 10 cm, 5 | Not recorded |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2439J | Mepilex Ag | dressing foam with silicone and silver | Dressings 10 cm x 10 cm, 5 | Valid |
+| 2470B | Mepilex Border Ag | dressing foam with silicone and silver | Dressings, border, 10 cm x 10 cm, 5 | Valid |
+| 4252T | Allevyn Ag Adhesive 66800073 | dressing foam with silver | Dressings, adhesive, 7.5 cm x 7.5 cm, 10 | Valid |
+| 4255Y | Allevyn Ag Adhesive 66800075 | dressing foam with silver | Dressings, adhesive, 10 cm x 10 cm, 10 | Valid |
+| 4258D | Allevyn Ag Adhesive 66800078 | dressing foam with silver | Dressings, adhesive, 12.5 cm x 12.5 cm, 10 | Valid |
+| 4259E | Allevyn Ag Non-Adhesive 66800086 | dressing foam with silver | Dressings, non-adhesive, 10 cm x 10 cm, 10 | Valid |
+| 4263J | Allevyn Ag Gentle Border 66800460 | dressing foam with silver | Dressings 7.5 cm x 7.5 cm, 10 | Valid |
+| 4266M | Allevyn Ag Gentle Border 66800461 | dressing foam with silver | Dressings 10 cm x 10 cm, 10 | Valid |
+| 4270R | Allevyn Ag Gentle Border 66800462 | dressing foam with silver | Dressings 12.5 cm x 12.5 cm, 10 | Valid |
+| 4646M | Biatain Ag 9622 | dressing with silver | Hydroactive dressings non-adhesive 10 cm x 10 cm, 5 | Valid |
+| 4647N | Biatain Ag 9632 | dressing with silver | Hydroactive dressings adhesive 12.5 cm x 12.5 cm, 5 | Valid |
+| 4648P | Atrauman Ag 499572 | dressing with silver | Tulle dressings 10 cm x 10 cm, 3 | Valid |
+| 12591Q | Atrauman Ag 499573 | dressing with silver | Tulle dressings 10 cm x 10 cm, 10 | Valid |
+| 15373D | Aquacel Ag+ Extra 413567 | dressing hydrofibre with silver | Dressing 10 cm x 10 cm | Valid |
+| 15396H | Aquacel Ag+ Extra 413568 | dressing hydrofibre with silver | Dressing 15 cm x 15 cm | Valid |
+| 15409B | Aquacel Ag+ Ribbon 413571 | dressing hydrofibre with silver | Ribbon 2 cm x 45 cm | Valid |
+| 10097K | Aquacel Ag 403708 | dressing hydrofibre with silver | Dressing 10 cm x 10 cm | No longer listed on the PBS Schedule |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Chlorpromazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chlorpromazine: predicted new indication retinal dystrophy with or without extraocular anomalies (evidence level L5). In Australia: 5 PBS items (5 currently listed)"
 ---
 
@@ -71,9 +71,19 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1195X | Largactil | Injection containing chlorpromazine hydrochloride 50 mg in 2 mL | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1195X | Largactil | Chlorpromazine | Injection containing chlorpromazine hydrochloride 50 mg in 2 mL | Valid |
+| 1197B | Largactil | Chlorpromazine | Tablet containing chlorpromazine hydrochloride 25 mg | Valid |
+| 1199D | Largactil | Chlorpromazine | Tablet containing chlorpromazine hydrochloride 100 mg | Valid |
+| 1201F | Largactil | Chlorpromazine | Oral solution containing chlorpromazine hydrochloride 25 mg per 5 mL, 100 mL | Valid |
+| 3455W | Largactil | Chlorpromazine | Injection containing chlorpromazine hydrochloride 50 mg in 2 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

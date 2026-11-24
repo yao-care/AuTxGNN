@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Benralizumab"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benralizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
 ---
 
@@ -78,9 +78,20 @@ Currently no related literature available for thrombocytopenia due to immune des
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11994G | Fasenra Pen | Injection 30 mg in 1 mL single dose pre-filled pen | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11994G | Fasenra Pen | Benralizumab | Injection 30 mg in 1 mL single dose pre-filled pen | Valid |
+| 11995H | Fasenra Pen | Benralizumab | Injection 30 mg in 1 mL single dose pre-filled pen | Valid |
+| 11996J | Fasenra Pen | Benralizumab | Injection 30 mg in 1 mL single dose pre-filled pen | Valid |
+| 11997K | Fasenra Pen | Benralizumab | Injection 30 mg in 1 mL single dose pre-filled pen | Valid |
+| 11999M | Fasenra Pen | Benralizumab | Injection 30 mg in 1 mL single dose pre-filled pen | Valid |
+| 12000N | Fasenra Pen | Benralizumab | Injection 30 mg in 1 mL single dose pre-filled pen | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 361
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Ibrutinib: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -81,9 +81,33 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 11213E | Imbruvica | Capsule 140 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11213E | Imbruvica | Ibrutinib | Capsule 140 mg | Valid |
+| 11419B | Imbruvica | Ibrutinib | Capsule 140 mg | Valid |
+| 14074R | Imbruvica | Ibrutinib | Tablet 280 mg | Valid |
+| 14075T | Imbruvica | Ibrutinib | Tablet 420 mg | Valid |
+| 14079B | Imbruvica | Ibrutinib | Tablet 280 mg | Valid |
+| 14085H | Imbruvica | Ibrutinib | Tablet 420 mg | Valid |
+| 14086J | Imbruvica | Ibrutinib | Tablet 560 mg | Valid |
+| 14579H | Imbruvica | Ibrutinib | Tablet 280 mg | Valid |
+| 14580J | Imbruvica | Ibrutinib | Tablet 280 mg | Valid |
+| 14596F | Imbruvica | Ibrutinib | Capsule 140 mg | Valid |
+| 14597G | Imbruvica | Ibrutinib | Capsule 140 mg | Valid |
+| 14598H | Imbruvica | Ibrutinib | Tablet 420 mg | Valid |
+| 14603N | Imbruvica | Ibrutinib | Tablet 420 mg | Valid |
+| 14604P | Imbruvica | Ibrutinib | Capsule 140 mg | Valid |
+| 14612C | Imbruvica | Ibrutinib | Tablet 280 mg | Valid |
+| 14613D | Imbruvica | Ibrutinib | Capsule 140 mg | Valid |
+| 14619K | Imbruvica | Ibrutinib | Tablet 420 mg | Valid |
+| 14620L | Imbruvica | Ibrutinib | Tablet 280 mg | Valid |
+| 14621M | Imbruvica | Ibrutinib | Tablet 420 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

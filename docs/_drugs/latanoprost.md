@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Latanoprost"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
@@ -70,9 +70,20 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14453Q | Xalatan | Eye drops 50 micrograms per mL, 2.5 mL | Not recorded in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5552F | Xalatan | Latanoprost | Eye drops 50 micrograms per mL, 2.5 mL | Valid |
+| 5553G | APO-Latanoprost/Timolol 0.05/5 | Latanoprost + timolol | Eye drops 50 micrograms latanoprost with timolol 5 mg (as maleate) per mL, 2.5 mL | Valid |
+| 8243W | Xalatan | Latanoprost | Eye drops 50 micrograms per mL, 2.5 mL | Valid |
+| 8895E | APO-Latanoprost/Timolol 0.05/5 | Latanoprost + timolol | Eye drops 50 micrograms latanoprost with timolol 5 mg (as maleate) per mL, 2.5 mL | Valid |
+| 14350G | APO-Latanoprost/Timolol 0.05/5 | Latanoprost + timolol | Eye drops 50 micrograms latanoprost with timolol 5 mg (as maleate) per mL, 2.5 mL | Valid |
+| 14453Q | Xalatan | Latanoprost | Eye drops 50 micrograms per mL, 2.5 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

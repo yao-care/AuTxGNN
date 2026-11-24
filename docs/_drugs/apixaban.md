@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Apixaban: predicted new indication migraine disorder (evidence level L5). In Australia: 8 PBS items (7 currently listed)"
 ---
 
@@ -76,9 +76,22 @@ This link is hypothetical. The TxGNN score is a model-based ranking, not a valid
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10414D | Eliquis | Tablet 5 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2735Y | Eliquis | Apixaban | Tablet 5 mg | Valid |
+| 2744K | Apexa | Apixaban | Tablet 2.5 mg | Valid |
+| 5054B | Apexa | Apixaban | Tablet 2.5 mg | Valid |
+| 5061J | Apexa | Apixaban | Tablet 2.5 mg | Valid |
+| 5500L | Apexa | Apixaban | Tablet 2.5 mg | Valid |
+| 13464P | Apexa | Apixaban | Tablet 2.5 mg | Valid |
+| 13525W | Eliquis | Apixaban | Tablet 5 mg | Valid |
+| 10414D | Eliquis | Apixaban | Tablet 5 mg | No longer listed on the PBS Schedule |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

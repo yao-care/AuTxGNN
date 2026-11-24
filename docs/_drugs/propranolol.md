@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 608
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -89,9 +89,18 @@ No literature is available for the top-ranked prediction. The table below shows 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13386M | APO-Propranolol | Tablet containing propranolol hydrochloride 10 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2565B | APO-Propranolol | Propranolol | Tablet containing propranolol hydrochloride 10 mg | Valid |
+| 2566C | APO-Propranolol | Propranolol | Tablet containing propranolol hydrochloride 40 mg | Valid |
+| 13386M | APO-Propranolol | Propranolol | Tablet containing propranolol hydrochloride 10 mg | Valid |
+| 13542R | APO-Propranolol | Propranolol | Tablet containing propranolol hydrochloride 40 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

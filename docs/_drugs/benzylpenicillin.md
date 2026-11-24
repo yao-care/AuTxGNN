@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Benzylpenicillin"
 predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "denture stomatitis", "chemotherapy-induced oral mucositis", "leukoplakia of gingiva"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzylpenicillin: predicted new indication pericoronitis (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
 ---
 
@@ -68,9 +68,20 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1775K | BenPen | Powder for injection 600 mg (as sodium) | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1775K | BenPen | Benzylpenicillin | Powder for injection 600 mg (as sodium) | Valid |
+| 2647H | BenPen | Benzylpenicillin | Powder for injection 3 g (as sodium) | Valid |
+| 3398W | BenPen | Benzylpenicillin | Powder for injection 600 mg (as sodium) | Valid |
+| 3399X | BenPen | Benzylpenicillin | Powder for injection 3 g (as sodium) | Valid |
+| 3486L | BenPen | Benzylpenicillin | Powder for injection 600 mg (as sodium) | Valid |
+| 3487M | BenPen | Benzylpenicillin | Powder for injection 3 g (as sodium) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

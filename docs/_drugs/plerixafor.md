@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 581
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Plerixafor"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 description: "Plerixafor: predicted new indication CMM7 (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -110,9 +110,16 @@ No Australian (ANZCTR) trial identifiers were available in the data. All trials 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 10083Q | Plerixafor ARX | Injection 24 mg in 1.2 mL | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10083Q | Plerixafor ARX | Plerixafor | Injection 24 mg in 1.2 mL | Valid |
+| 10084R | Plerixafor ARX | Plerixafor | Injection 24 mg in 1.2 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Two valid single-ingredient PBS items are recorded, both in injectable form.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 745
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Trandolapril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Australia: 12 PBS items (12 currently listed)"
@@ -84,9 +84,26 @@ No publications are available for the top-ranked prediction (malignant hypertens
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13403K | Gopten | Capsule 2 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2791X | Gopten | Trandolapril | Capsule 500 micrograms | Valid |
+| 2792Y | Gopten | Trandolapril | Capsule 1 mg | Valid |
+| 2793B | Gopten | Trandolapril | Capsule 2 mg | Valid |
+| 2857J | Tarka 4/240 | Trandolapril + verapamil | Tablet containing trandolapril 4 mg with verapamil hydrochloride 240 mg (sustained release) | Valid |
+| 8758Y | Gopten | Trandolapril | Capsule 4 mg | Valid |
+| 9387C | Tarka 2/180 | Trandolapril + verapamil | Tablet containing trandolapril 2 mg with verapamil hydrochloride 180 mg (sustained release) | Valid |
+| 13403K | Gopten | Trandolapril | Capsule 2 mg | Valid |
+| 13429T | Gopten | Trandolapril | Capsule 1 mg | Valid |
+| 13467T | Gopten | Trandolapril | Capsule 4 mg | Valid |
+| 13554J | Gopten | Trandolapril | Capsule 500 micrograms | Valid |
+| 13591H | Tarka 4/240 | Trandolapril + verapamil | Tablet containing trandolapril 4 mg with verapamil hydrochloride 240 mg (sustained release) | Valid |
+| 13594L | Tarka 2/180 | Trandolapril + verapamil | Tablet containing trandolapril 2 mg with verapamil hydrochloride 180 mg (sustained release) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

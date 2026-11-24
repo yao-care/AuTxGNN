@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 600
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "prednisolone acetate"
 predicted_indications: ["conjunctival folliculosis", "serous conjunctivitis except viral", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
 description: "Prednisolone Acetate: predicted new indication Conjunctival folliculosis (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
@@ -110,9 +110,17 @@ None of these publications is a randomised trial of prednisolone acetate in the 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 11908R | Prednefrin Forte | Eye drops containing prednisolone acetate 10 mg with phenylephrine hydrochloride 1.2 mg per mL, 10 mL | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 3112T | Prednefrin Forte | prednisolone acetate + phenylephrine | Eye drops containing prednisolone acetate 10 mg with phenylephrine hydrochloride 1.2 mg per mL, 10 mL | Valid |
+| 5568C | Prednefrin Forte | prednisolone acetate + phenylephrine | Eye drops containing prednisolone acetate 10 mg with phenylephrine hydrochloride 1.2 mg per mL, 10 mL | Valid |
+| 11908R | Prednefrin Forte | prednisolone acetate + phenylephrine | Eye drops containing prednisolone acetate 10 mg with phenylephrine hydrochloride 1.2 mg per mL, 10 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The product is a single-ingredient-class steroid combined with a vasoconstrictor (phenylephrine), administered by the ophthalmic route.
 

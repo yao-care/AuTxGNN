@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 649
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Rosuvastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). In Australia: 8 PBS items (8 currently listed)"
@@ -108,9 +108,22 @@ No trial registered in the Australian New Zealand Clinical Trials Registry (ANZC
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13406N | Rosuvastatin Sandoz | Tablet 5 mg (as calcium), oral | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2574L | Rosuvastatin Sandoz | Rosuvastatin | Tablet 20 mg (as calcium) | Valid |
+| 2594M | Rosuvastatin Sandoz | Rosuvastatin | Tablet 40 mg (as calcium) | Valid |
+| 2606E | Rosuvastatin Sandoz | Rosuvastatin | Tablet 5 mg (as calcium) | Valid |
+| 2628H | Rosuvastatin Sandoz | Rosuvastatin | Tablet 10 mg (as calcium) | Valid |
+| 13406N | Rosuvastatin Sandoz | Rosuvastatin | Tablet 5 mg (as calcium) | Valid |
+| 13586C | Rosuvastatin Sandoz | Rosuvastatin | Tablet 10 mg (as calcium) | Valid |
+| 13588E | Rosuvastatin Sandoz | Rosuvastatin | Tablet 20 mg (as calcium) | Valid |
+| 13589F | Rosuvastatin Sandoz | Rosuvastatin | Tablet 40 mg (as calcium) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

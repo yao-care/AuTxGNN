@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Auranofin"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Auranofin: predicted new indication colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
@@ -60,9 +60,16 @@ No mechanistic link between these pathways and the biology of this ultra-rare de
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1095P | Ridaura | Tablet 3 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1095P | Ridaura | Auranofin | Tablet 3 mg | Valid |
+| 2022K | Ridaura | Auranofin | Capsule 3 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

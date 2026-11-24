@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 270
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Estradiol: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,11 +72,36 @@ The TxGNN model (score ≥ 0.99) produced candidates for Estradiol, but every ca
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 10203B | Vagifem Low | Pessary (modified release) 10 micrograms | Valid |
-| 13932G | Estalis sequi 50/140 | Pack containing 4 transdermal patches 78 | Valid |
-| 10146B | Femoston 1/10 | Pack containing 14 tablets estradiol 1 m | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1663M | Progynova | Estradiol | Tablet containing estradiol valerate 1 mg | Valid |
+| 1664N | Progynova | Estradiol | Tablet containing estradiol valerate 2 mg | Valid |
+| 10146B | Femoston 1/10 | estradiol (&) estradiol + dydrogesterone | Pack containing 14 tablets estradiol 1 mg and 14 tablets estradiol 1 mg with dydrogesterone 10 mg | Valid |
+| 10203B | Vagifem Low | Estradiol | Pessary (modified release) 10 micrograms (as hemihydrate) | Valid |
+| 13872D | Progynova | Estradiol | Tablet containing estradiol valerate 1 mg | Valid |
+| 13931F | Zumenon | Estradiol | Tablet 2 mg | Valid |
+| 13932G | Estalis sequi 50/140 | estradiol (&) estradiol + norethisterone acetate | Pack containing 4 transdermal patches 780 micrograms estradiol (as hemihydrate) and 4 transdermal patches 620 microgram… | Valid |
+| 13978Q | Vagifem Low | Estradiol | Pessary (modified release) 10 micrograms (as hemihydrate) | Valid |
+| 13980T | Progynova | Estradiol | Tablet containing estradiol valerate 2 mg | Valid |
+| 14026F | Sandrena | Estradiol | Transdermal gel 1 mg (as hemihydrate) in 1 g sachet, 28 | Valid |
+| 14642P | Sandrena | Estradiol | Transdermal gel 500 micrograms in 0.5 g sachet, 28 | Valid |
+| 14652E | Estramon (Germany, Sandoz) | Estradiol | Transdermal patches 1.17 mg, 24 (S19A) | Valid |
+| 14653F | Sandrena | Estradiol | Transdermal gel 500 micrograms in 0.5 g sachet, 28 | Valid |
+| 14660N | Estramon (Germany, Sandoz) | Estradiol | Transdermal patches 780 micrograms, 24 (S19A) | Valid |
+| 14691F | Estramon (Germany, Sandoz) | Estradiol | Transdermal patches 390 micrograms, 24 (S19A) | Valid |
+| 14715L | Estramon (Germany, Sandoz) | Estradiol | Transdermal patches 1.56 mg, 24 (Sandoz) (S19A) | Valid |
+| 14719Q | Estrogel | Estradiol | Transdermal gel (pump pack) 750 micrograms (as hemihydrate) per 1.25 g dose, 64 doses | Valid |
+| 14741W | Estrogel | Estradiol | Transdermal gel (pump pack) 750 micrograms (as hemihydrate) per 1.25 g dose, 64 doses | Valid |
+| 15507E | Dermestril 50 (Italy) | Estradiol | Transdermal patches 780 micrograms, 8 (s19A) | Valid |
+| 15524C | Dermestril 25 (Italy) | Estradiol | Transdermal patches 390 micrograms, 8 (s19A) | Valid |
+
+The table shows 20 of 41 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

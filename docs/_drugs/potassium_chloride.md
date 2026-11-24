@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 588
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "Potassium chloride"
 predicted_indications: ["renal tubular acidosis"]
 description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). In Australia: 10 PBS items (10 currently listed)"
@@ -84,9 +84,24 @@ The literature is dominated by case reports, small cohorts and narrative reviews
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13357B | Span-K | Tablet 600 mg (sustained release) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1841X | Span-K | Potassium chloride | Tablet 600 mg (sustained release) | Valid |
+| 3012M | Chlorvescent | potassium chloride + potassium bicarbonate + potassium carbonate | Tablet, effervescent, 14 mmol potassium and 8 mmol chloride | Valid |
+| 3196F | O.R.S. | sodium chloride + potassium chloride + glucose + citric acid | Oral rehydration salts containing glucose monohydrate 3.56 g, sodium chloride 470 mg, potassium chloride 300 mg and sod… | Valid |
+| 3278M | APO-MACROGOL plus ELECTROLYTES | macrogol-3350 + sodium chloride + bicarbonate + potassium chloride | Sachets containing powder for oral solution 13.125 g with electrolytes, 30 | Valid |
+| 5389P | APO-MACROGOL plus ELECTROLYTES | macrogol-3350 + sodium chloride + bicarbonate + potassium chloride | Sachets containing powder for oral solution 13.125 g with electrolytes, 30 | Valid |
+| 8612G | APO-MACROGOL plus ELECTROLYTES | macrogol-3350 + sodium chloride + bicarbonate + potassium chloride | Sachets containing powder for oral solution 13.125 g with electrolytes, 30 | Valid |
+| 11049M | O.R.S. | sodium chloride + potassium chloride + glucose + citric acid | Oral rehydration salts containing glucose monohydrate 3.56 g, sodium chloride 470 mg, potassium chloride 300 mg and sod… | Valid |
+| 13357B | Span-K | Potassium chloride | Tablet 600 mg (sustained release) | Valid |
+| 13486T | Chlorvescent | potassium chloride + potassium bicarbonate + potassium carbonate | Tablet, effervescent, 14 mmol potassium and 8 mmol chloride | Valid |
+| 14408H | APO-MACROGOL plus ELECTROLYTES | macrogol-3350 + sodium chloride + bicarbonate + potassium chloride | Sachets containing powder for oral solution 13.125 g with electrolytes, 30 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The only registered form is oral. No other routes (such as intravenous) appear in the data compiled for this report.
 

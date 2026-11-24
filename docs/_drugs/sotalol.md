@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 687
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Sotalol"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
 description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -70,9 +70,16 @@ Currently no related literature available for this predicted indication.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2043M | Cardol | Tablet containing sotalol hydrochloride 160 mg | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2043M | Cardol | Sotalol | Tablet containing sotalol hydrochloride 160 mg | Valid |
+| 8398B | Solavert | Sotalol | Tablet containing sotalol hydrochloride 80 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 *The licence number is reported as supplied in the compiled data and should be verified against the ARTG.*
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 660
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Saxagliptin: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -77,9 +77,24 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Saxagliptin,
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 10128C | Onglyza | Tablet 2.5 mg (as hydrochloride) | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8983T | Onglyza | Saxagliptin | Tablet 5 mg (as hydrochloride) | Valid |
+| 10048W | Kombiglyze XR 2.5/1000 | Saxagliptin + metformin | Tablet (modified release) containing 2.5 mg saxagliptin (as hydrochloride) with 1000 mg metformin hydrochloride | Valid |
+| 10051B | Kombiglyze XR 5/1000 | Saxagliptin + metformin | Tablet (modified release) containing 5 mg saxagliptin (as hydrochloride) with 1000 mg metformin hydrochloride | Valid |
+| 10055F | Kombiglyze XR 5/500 | Saxagliptin + metformin | Tablet (modified release) containing 5 mg saxagliptin (as hydrochloride) with 500 mg metformin hydrochloride | Valid |
+| 10128C | Onglyza | Saxagliptin | Tablet 2.5 mg (as hydrochloride) | Valid |
+| 13876H | Kombiglyze XR 5/1000 | Saxagliptin + metformin | Tablet (modified release) containing 5 mg saxagliptin (as hydrochloride) with 1000 mg metformin hydrochloride | Valid |
+| 13880M | Kombiglyze XR 2.5/1000 | Saxagliptin + metformin | Tablet (modified release) containing 2.5 mg saxagliptin (as hydrochloride) with 1000 mg metformin hydrochloride | Valid |
+| 13895H | Onglyza | Saxagliptin | Tablet 2.5 mg (as hydrochloride) | Valid |
+| 13923T | Onglyza | Saxagliptin | Tablet 5 mg (as hydrochloride) | Valid |
+| 14030K | Kombiglyze XR 5/500 | Saxagliptin + metformin | Tablet (modified release) containing 5 mg saxagliptin (as hydrochloride) with 500 mg metformin hydrochloride | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 249
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Enalapril: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,26 @@ The TxGNN model's candidates for Enalapril (score ≥ 0.99) are all known uses, 
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 13369P | APO-Enalapril | Tablet containing enalapril maleate 5 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1368B | APO-Enalapril | Enalapril | Tablet containing enalapril maleate 10 mg | Valid |
+| 1369C | APO-Enalapril | Enalapril | Tablet containing enalapril maleate 20 mg | Valid |
+| 1370D | APO-Enalapril | Enalapril | Tablet containing enalapril maleate 5 mg | Valid |
+| 8477E | Renitec Plus 20/6 | Enalapril + hydrochlorothiazide | Tablet containing enalapril maleate 20 mg with hydrochlorothiazide 6 mg | Valid |
+| 9144G | Zan-Extra 10/10 | lercanidipine + enalapril | Tablet containing lercanidipine hydrochloride 10 mg with enalapril maleate 10 mg | Valid |
+| 9145H | Zan-Extra 10/20 | lercanidipine + enalapril | Tablet containing lercanidipine hydrochloride 10 mg with enalapril maleate 20 mg | Valid |
+| 13369P | APO-Enalapril | Enalapril | Tablet containing enalapril maleate 5 mg | Valid |
+| 13401H | APO-Enalapril | Enalapril | Tablet containing enalapril maleate 20 mg | Valid |
+| 13439H | Renitec Plus 20/6 | Enalapril + hydrochlorothiazide | Tablet containing enalapril maleate 20 mg with hydrochlorothiazide 6 mg | Valid |
+| 13465Q | APO-Enalapril | Enalapril | Tablet containing enalapril maleate 10 mg | Valid |
+| 13477H | Zan-Extra 10/20 | lercanidipine + enalapril | Tablet containing lercanidipine hydrochloride 10 mg with enalapril maleate 20 mg | Valid |
+| 13507X | Zan-Extra 10/10 | lercanidipine + enalapril | Tablet containing lercanidipine hydrochloride 10 mg with enalapril maleate 10 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

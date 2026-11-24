@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lumacaftor: predicted new indication Leprosy (evidence level L5). Approved use: Cystic fibrosis"
 monitor_inn: "lumacaftor"
 predicted_indications: ["leprosy"]
@@ -70,9 +70,34 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11463H | Orkambi | Tablet containing lumacaftor 200 mg with ivacaftor 125 mg (oral) | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11463H | Orkambi | Lumacaftor + ivacaftor | Tablet containing lumacaftor 200 mg with ivacaftor 125 mg | Valid |
+| 11464J | Orkambi | Lumacaftor + ivacaftor | Tablet containing lumacaftor 100 mg with ivacaftor 125 mg | Valid |
+| 11465K | Orkambi | Lumacaftor + ivacaftor | Tablet containing lumacaftor 100 mg with ivacaftor 125 mg | Valid |
+| 11466L | Orkambi | Lumacaftor + ivacaftor | Tablet containing lumacaftor 200 mg with ivacaftor 125 mg | Valid |
+| 11841F | Orkambi | Lumacaftor + ivacaftor | Sachet containing granules, lumacaftor 100 mg and ivacaftor 125 mg | Valid |
+| 11848N | Orkambi | Lumacaftor + ivacaftor | Sachet containing granules, lumacaftor 150 mg and ivacaftor 188 mg | Valid |
+| 11851R | Orkambi | Lumacaftor + ivacaftor | Sachet containing granules, lumacaftor 150 mg and ivacaftor 188 mg | Valid |
+| 11866M | Orkambi | Lumacaftor + ivacaftor | Sachet containing granules, lumacaftor 100 mg and ivacaftor 125 mg | Valid |
+| 13795C | Orkambi | Lumacaftor + ivacaftor | Sachet containing granules, lumacaftor 75 mg and ivacaftor 94 mg | Valid |
+| 13798F | Orkambi | Lumacaftor + ivacaftor | Sachet containing granules, lumacaftor 75 mg and ivacaftor 94 mg | Valid |
+| 15617Y | Orkambi | Lumacaftor + ivacaftor | Tablet containing lumacaftor 100 mg with ivacaftor 125 mg | Valid |
+| 15618B | Orkambi | Lumacaftor + ivacaftor | Tablet containing lumacaftor 200 mg with ivacaftor 125 mg | Valid |
+| 15633T | Orkambi | Lumacaftor + ivacaftor | Sachet containing granules, lumacaftor 100 mg and ivacaftor 125 mg | Valid |
+| 15641F | Orkambi | Lumacaftor + ivacaftor | Sachet containing granules, lumacaftor 100 mg and ivacaftor 125 mg | Valid |
+| 15643H | Orkambi | Lumacaftor + ivacaftor | Sachet containing granules, lumacaftor 75 mg and ivacaftor 94 mg | Valid |
+| 15644J | Orkambi | Lumacaftor + ivacaftor | Sachet containing granules, lumacaftor 75 mg and ivacaftor 94 mg | Valid |
+| 15652T | Orkambi | Lumacaftor + ivacaftor | Sachet containing granules, lumacaftor 150 mg and ivacaftor 188 mg | Valid |
+| 15653W | Orkambi | Lumacaftor + ivacaftor | Tablet containing lumacaftor 200 mg with ivacaftor 125 mg | Valid |
+| 15664K | Orkambi | Lumacaftor + ivacaftor | Sachet containing granules, lumacaftor 150 mg and ivacaftor 188 mg | Valid |
+| 15676C | Orkambi | Lumacaftor + ivacaftor | Tablet containing lumacaftor 100 mg with ivacaftor 125 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

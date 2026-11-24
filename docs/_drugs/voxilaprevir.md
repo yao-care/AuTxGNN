@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 786
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "voxilaprevir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "chronic hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 description: "Voxilaprevir: predicted new indication Hepatitis B virus infection (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
@@ -83,9 +83,17 @@ None of the nine retrieved publications tests voxilaprevir against HBV. They con
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11658N | Vosevi | Tablet containing 400 mg sofosbuvir with 100 mg velpatasvir and 100 mg voxilaprevir (oral) | Indication text not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11658N | Vosevi | Sofosbuvir + velpatasvir + voxilaprevir | Tablet containing 400 mg sofosbuvir with 100 mg velpatasvir and 100 mg voxilaprevir | Valid |
+| 11659P | Vosevi | Sofosbuvir + velpatasvir + voxilaprevir | Tablet containing 400 mg sofosbuvir with 100 mg velpatasvir and 100 mg voxilaprevir | Valid |
+| 11665Y | Vosevi | Sofosbuvir + velpatasvir + voxilaprevir | Tablet containing 400 mg sofosbuvir with 100 mg velpatasvir and 100 mg voxilaprevir | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

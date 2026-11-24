@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amiloride: predicted new indication malignant hypertensive renal disease (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
 ---
 
@@ -80,9 +80,16 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13410T | Moduretic | Tablet containing hydrochlorothiazide 50 mg with amiloride hydrochloride 5 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1486F | Moduretic | Amiloride + hydrochlorothiazide | Tablet containing hydrochlorothiazide 50 mg with amiloride hydrochloride 5 mg | Valid |
+| 13410T | Moduretic | Amiloride + hydrochlorothiazide | Tablet containing hydrochlorothiazide 50 mg with amiloride hydrochloride 5 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

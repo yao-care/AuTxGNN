@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 471
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). In Australia: 7 PBS items (7 currently listed)"
@@ -86,9 +86,21 @@ Most of these are general reviews on dyspepsia, gastroparesis or reflux. None sh
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10762K | Metoclopramide Injection BP | Injection containing 10 mg metoclopramide hydrochloride (as monohydrate) in 2 mL | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1206L | METOCLOPRAMIDE INJECTION BP | Metoclopramide | Injection containing 10 mg metoclopramide hydrochloride (as monohydrate) in 2 mL | Valid |
+| 1207M | APO-Metoclopramide | Metoclopramide | Tablet containing 10 mg metoclopramide hydrochloride (as monohydrate) | Valid |
+| 3476Y | METOCLOPRAMIDE INJECTION BP | Metoclopramide | Injection containing 10 mg metoclopramide hydrochloride (as monohydrate) in 2 mL | Valid |
+| 5151D | APO-Metoclopramide | Metoclopramide | Tablet containing 10 mg metoclopramide hydrochloride (as monohydrate) | Valid |
+| 5153F | METOCLOPRAMIDE INJECTION BP | Metoclopramide | Injection containing 10 mg metoclopramide hydrochloride (as monohydrate) in 2 mL | Valid |
+| 10762K | METOCLOPRAMIDE INJECTION BP | Metoclopramide | Injection containing 10 mg metoclopramide hydrochloride (as monohydrate) in 2 mL | Valid |
+| 12507G | APO-Metoclopramide | Metoclopramide | Tablet containing 10 mg metoclopramide hydrochloride (as monohydrate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

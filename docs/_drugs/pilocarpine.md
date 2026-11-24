@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 575
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Pilocarpine: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,23 @@ The TxGNN deep-learning model produced candidates for Pilocarpine with a score o
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 14355M | Isopto Carpine | Eye drops containing pilocarpine hydroch | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2595N | Isopto Carpine | Pilocarpine | Eye drops containing pilocarpine hydrochloride 10 mg per mL, 15 mL | Valid |
+| 2596P | Isopto Carpine | Pilocarpine | Eye drops containing pilocarpine hydrochloride 20 mg per mL, 15 mL | Valid |
+| 2598R | Isopto Carpine | Pilocarpine | Eye drops containing pilocarpine hydrochloride 40 mg per mL, 15 mL | Valid |
+| 5536J | Isopto Carpine | Pilocarpine | Eye drops containing pilocarpine hydrochloride 10 mg per mL, 15 mL | Valid |
+| 5537K | Isopto Carpine | Pilocarpine | Eye drops containing pilocarpine hydrochloride 20 mg per mL, 15 mL | Valid |
+| 5538L | Isopto Carpine | Pilocarpine | Eye drops containing pilocarpine hydrochloride 40 mg per mL, 15 mL | Valid |
+| 14355M | Isopto Carpine | Pilocarpine | Eye drops containing pilocarpine hydrochloride 10 mg per mL, 15 mL | Valid |
+| 14523J | Isopto Carpine | Pilocarpine | Eye drops containing pilocarpine hydrochloride 20 mg per mL, 15 mL | Valid |
+| 14550T | Isopto Carpine | Pilocarpine | Eye drops containing pilocarpine hydrochloride 40 mg per mL, 15 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

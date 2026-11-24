@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 770
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Varenicline: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the data compiled for this report (varenicline is known…"
 monitor_inn: "Varenicline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
@@ -76,9 +76,17 @@ For the related prediction of headache disorder, the retrieved papers (for examp
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 5469W | VARENAPIX | Tablet 1 mg | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5469W | VARENAPIX | Varenicline | Tablet 1 mg | Valid |
+| 9128K | PHARMACOR VARENICLINE | Varenicline | Box containing 11 tablets 0.5 mg and 42 tablets 1 mg | Valid |
+| 9129L | VARENAPIX | Varenicline | Tablet 1 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

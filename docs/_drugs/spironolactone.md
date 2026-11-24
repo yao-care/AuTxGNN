@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 688
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -79,9 +79,18 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 13503Q | Spiractin 25 | Tablet 25 mg (oral) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2339D | Spiractin 25 | Spironolactone | Tablet 25 mg | Valid |
+| 2340E | Spiractin 100 | Spironolactone | Tablet 100 mg | Valid |
+| 13503Q | Spiractin 25 | Spironolactone | Tablet 25 mg | Valid |
+| 14042C | Spiractin 100 | Spironolactone | Tablet 100 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 All four current PBS items are single-ingredient products. No manufacturer is recorded.
 

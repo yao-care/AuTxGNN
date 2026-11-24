@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amlodipine: predicted new indication brain stem infarction (evidence level L5). In Australia: at least 20 PBS items"
 ---
 
@@ -67,6 +67,37 @@ Currently no related clinical trials registered.
 Currently no related literature available.
 
 ## Australia Market Information
+
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2751T | Norvasc | Amlodipine | Tablet 5 mg (as besilate) | Valid |
+| 2752W | Norvasc | Amlodipine | Tablet 10 mg (as besilate) | Valid |
+| 13381G | APO-Perindopril Arginine/Amlodipine 5/10 | Perindopril + amlodipine | Tablet containing 5 mg perindopril arginine with 10 mg amlodipine (as besilate) | Valid |
+| 13382H | APO-Perindopril Arginine/Amlodipine 10/10 | Perindopril + amlodipine | Tablet containing 10 mg perindopril arginine with 10 mg amlodipine (as besilate) | Valid |
+| 13384K | Cadivast 10/20 | Amlodipine + atorvastatin | Tablet 10 mg amlodipine (as besilate) with 20 mg atorvastatin (as calcium) | Valid |
+| 13389Q | Amlodipine/Valsartan Novartis 10/320 | Amlodipine + valsartan | Tablet 10 mg (as besilate)-320 mg | Valid |
+| 13415C | Cadivast 5/40 | Amlodipine + atorvastatin | Tablet 5 mg amlodipine (as besilate) with 40 mg atorvastatin (as calcium) | Valid |
+| 13421J | Amlodipine/Valsartan Novartis 5/80 | Amlodipine + valsartan | Tablet 5 mg (as besilate)-80 mg | Valid |
+| 13449W | Olmesartan/Amlodipine - MYL 20/5 | Olmesartan + amlodipine | Tablet containing olmesartan medoxomil 20 mg with amlodipine 5 mg (as besilate) | Valid |
+| 13450X | ARX-Telmisartan/Amlodipine | Telmisartan + amlodipine | Tablet 80 mg-5 mg (as besilate) | Valid |
+| 13451Y | ARX-Telmisartan/Amlodipine | Telmisartan + amlodipine | Tablet 80 mg-10 mg (as besilate) | Valid |
+| 13454D | Amlodipine/Valsartan Novartis 10/160 | Amlodipine + valsartan | Tablet 10 mg (as besilate)-160 mg | Valid |
+| 13478J | APO-Perindopril Arginine/Amlodipine 10/5 | Perindopril + amlodipine | Tablet containing 10 mg perindopril arginine with 5 mg amlodipine (as besilate) | Valid |
+| 13479K | Cadivast 10/10 | Amlodipine + atorvastatin | Tablet 10 mg amlodipine (as besilate) with 10 mg atorvastatin (as calcium) | Valid |
+| 13483P | ARX-Telmisartan/Amlodipine | Telmisartan + amlodipine | Tablet 40 mg-5 mg (as besilate) | Valid |
+| 13508Y | APO-Perindopril Arginine/Amlodipine 5/5 | Perindopril + amlodipine | Tablet containing 5 mg perindopril arginine with 5 mg amlodipine (as besilate) | Valid |
+| 13515H | ARX-Telmisartan/Amlodipine | Telmisartan + amlodipine | Tablet 40 mg-10 mg (as besilate) | Valid |
+| 13516J | Amlodipine/Valsartan Novartis 5/160 | Amlodipine + valsartan | Tablet 5 mg (as besilate)-160 mg | Valid |
+| 13532F | Norvasc | Amlodipine | Tablet 5 mg (as besilate) | Valid |
+| 13562T | Norvasc | Amlodipine | Tablet 10 mg (as besilate) | Valid |
+
+The table shows 20 of 72 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Amlodipine is marketed in Australia. The local records show at least 20 current PBS items, all oral tablets, including single-ingredient amlodipine and combinations with perindopril, atorvastatin, valsartan, olmesartan and telmisartan. The approved indication is not recorded in the local data.
 

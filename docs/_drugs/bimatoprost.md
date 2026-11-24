@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Bimatoprost"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bimatoprost: predicted new indication malformation syndrome with odontal and/or periodontal component (evidence level L5). In Australia: 12 PBS items (12 currently listed)"
 ---
 
@@ -68,9 +68,26 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10046R | Lumigan PF | Eye drops 300 micrograms per mL, single dose units 0.4 mL, 30 | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5551E | Bimatoprost Sandoz | Bimatoprost | Eye drops 300 micrograms per mL, 3 mL | Valid |
+| 5558M | Ganfort 0.3/5 | Bimatoprost + timolol | Eye drops 300 micrograms bimatoprost with timolol 5 mg (as maleate) per mL, 3 mL | Valid |
+| 8620Q | Bimatoprost Sandoz | Bimatoprost | Eye drops 300 micrograms per mL, 3 mL | Valid |
+| 9464D | Ganfort 0.3/5 | Bimatoprost + timolol | Eye drops 300 micrograms bimatoprost with timolol 5 mg (as maleate) per mL, 3 mL | Valid |
+| 10046R | Lumigan PF | Bimatoprost | Eye drops 300 micrograms per mL, single dose units 0.4 mL, 30 | Valid |
+| 10053D | Lumigan PF | Bimatoprost | Eye drops 300 micrograms per mL, single dose units 0.4 mL, 30 | Valid |
+| 10107Y | GANfort PF 0.3/5 | Bimatoprost + timolol | Eye drops 300 micrograms bimatoprost with timolol 5 mg (as maleate) per mL, single dose units 0.4 mL, 30 | Valid |
+| 10108B | GANfort PF 0.3/5 | Bimatoprost + timolol | Eye drops 300 micrograms bimatoprost with timolol 5 mg (as maleate) per mL, single dose units 0.4 mL, 30 | Valid |
+| 14315K | Bimatoprost Sandoz | Bimatoprost | Eye drops 300 micrograms per mL, 3 mL | Valid |
+| 14317M | Ganfort 0.3/5 | Bimatoprost + timolol | Eye drops 300 micrograms bimatoprost with timolol 5 mg (as maleate) per mL, 3 mL | Valid |
+| 14351H | GANfort PF 0.3/5 | Bimatoprost + timolol | Eye drops 300 micrograms bimatoprost with timolol 5 mg (as maleate) per mL, single dose units 0.4 mL, 30 | Valid |
+| 14422C | Lumigan PF | Bimatoprost | Eye drops 300 micrograms per mL, single dose units 0.4 mL, 30 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Twelve current PBS items are recorded (six single-ingredient bimatoprost eye drops and six bimatoprost with timolol), and the local data show the drug as marketed. The only available route is ophthalmic. The predicted condition is systemic and developmental, so route compatibility is unassessed and would need to be established.
 

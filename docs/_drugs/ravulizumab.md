@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 627
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ravulizumab"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
 description: "Ravulizumab: predicted new indication Autosomal recessive severe congenital neutropenia due to G6PC3 deficiency (evidence level L5). In Australia: at least 20 PBS items"
@@ -71,9 +71,36 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12841W | Ultomiris | Solution concentrate for I.V. infusion, 300 mg in 3 mL | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12841W | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 300 mg in 3 mL | Valid |
+| 12856P | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 1,100 mg in 11 mL | Valid |
+| 12883C | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 1,100 mg in 11 mL | Valid |
+| 12884D | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 300 mg in 3 mL | Valid |
+| 12895Q | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 300 mg in 3 mL | Valid |
+| 12897T | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 1,100 mg in 11 mL | Valid |
+| 12898W | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 300 mg in 3 mL | Valid |
+| 12901B | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 1,100 mg in 11 mL | Valid |
+| 13784L | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 1,100 mg in 11 mL | Valid |
+| 13785M | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 300 mg in 3 mL | Valid |
+| 13786N | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 300 mg in 3 mL | Valid |
+| 13791W | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 300 mg in 3 mL | Valid |
+| 13797E | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 1,100 mg in 11 mL | Valid |
+| 13802K | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 1,100 mg in 11 mL | Valid |
+| 13808R | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 300 mg in 3 mL | Valid |
+| 13809T | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 1,100 mg in 11 mL | Valid |
+| 14745C | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 1,100 mg in 11 mL | Valid |
+| 14746D | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 300 mg in 3 mL | Valid |
+| 14758R | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 1,100 mg in 11 mL | Valid |
+| 14759T | Ultomiris | Ravulizumab | Solution concentrate for I.V. infusion 300 mg in 3 mL | Valid |
+
+The table shows 20 of 36 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

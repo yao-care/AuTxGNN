@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 376
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Infliximab: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -78,9 +78,36 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 10057H | Inflectra | Powder for I.V. infusion 100 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10057H | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 10067W | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 10184B | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 10196P | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11389K | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11396T | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11399Y | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11400B | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11412P | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11423F | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11424G | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11432Q | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11445J | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11448M | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11449N | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11450P | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11459D | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11461F | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11482H | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+| 11483J | Inflectra | Infliximab | Powder for I.V. infusion 100 mg | Valid |
+
+The table shows 20 of 97 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

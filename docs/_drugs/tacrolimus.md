@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 695
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). In Australia: at least 20 PBS items"
@@ -88,9 +88,36 @@ No ANZCTR identifiers were available in the data compiled.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10859M | Tacrolimus Sandoz | Capsule 0.75 mg (oral) | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5299X | ADVAGRAF XL | Tacrolimus | Capsule 0.5 mg (once daily prolonged release) | Valid |
+| 10859M | Tacrolimus Sandoz | Tacrolimus | Capsule 0.75 mg | Valid |
+| 10860N | Tacrolimus Sandoz | Tacrolimus | Capsule 2 mg | Valid |
+| 10870D | Tacrolimus Sandoz | Tacrolimus | Capsule 0.75 mg | Valid |
+| 10871E | Tacrolimus Sandoz | Tacrolimus | Capsule 2 mg | Valid |
+| 10875J | Tacrolimus Sandoz | Tacrolimus | Capsule 0.75 mg | Valid |
+| 10879N | Tacrolimus Sandoz | Tacrolimus | Capsule 2 mg | Valid |
+| 11907Q | ADVAGRAF XL | Tacrolimus | Capsule 3 mg (once daily prolonged release) | Valid |
+| 11914C | ADVAGRAF XL | Tacrolimus | Capsule 3 mg (once daily prolonged release) | Valid |
+| 11920J | ADVAGRAF XL | Tacrolimus | Capsule 3 mg (once daily prolonged release) | Valid |
+| 13907Y | ADVAGRAF XL | Tacrolimus | Capsule 0.5 mg (once daily prolonged release) | Valid |
+| 13908B | Prograf | Tacrolimus | Capsule 0.5 mg | Valid |
+| 13909C | Prograf | Tacrolimus | Capsule 5 mg | Valid |
+| 13962W | ADVAGRAF XL | Tacrolimus | Capsule 1 mg (once daily prolonged release) | Valid |
+| 13995N | Tacrolimus Sandoz | Tacrolimus | Capsule 2 mg | Valid |
+| 13996P | ADVAGRAF XL | Tacrolimus | Capsule 3 mg (once daily prolonged release) | Valid |
+| 14039X | ADVAGRAF XL | Tacrolimus | Capsule 5 mg (once daily prolonged release) | Valid |
+| 14066H | Tacrolimus Sandoz | Tacrolimus | Capsule 0.75 mg | Valid |
+| 14070M | Prograf | Tacrolimus | Capsule 1 mg | Valid |
+| 15542B | aZematop | Tacrolimus | Ointment 1 mg per g, 30 g | Valid |
+
+The table shows 20 of 37 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Most PBS items in the data compiled are oral capsules, but a topical tacrolimus ointment (aZematop 1 mg per g) is also listed, which matches the form used in the seborrheic dermatitis evidence.
 

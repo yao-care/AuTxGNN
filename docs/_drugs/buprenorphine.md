@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Buprenorphine: predicted new indication acute intermittent porphyria (evidence level L5). In Australia: at least 20 PBS items"
 ---
 
@@ -70,9 +70,36 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10746N | Norspan | Transdermal patch 40 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10746N | Norspan | Buprenorphine | Transdermal patch 40 mg | Valid |
+| 10755C | Norspan | Buprenorphine | Transdermal patch 30 mg | Valid |
+| 10756D | Norspan | Buprenorphine | Transdermal patch 25 mg | Valid |
+| 10770W | Norspan | Buprenorphine | Transdermal patch 15 mg | Valid |
+| 10948F | Bupredermal | Buprenorphine | Transdermal patch 10 mg | Valid |
+| 10949G | Norspan | Buprenorphine | Transdermal patch 30 mg | Valid |
+| 10953L | Norspan | Buprenorphine | Transdermal patch 15 mg | Valid |
+| 10957Q | Bupredermal | Buprenorphine | Transdermal patch 5 mg | Valid |
+| 10959T | Norspan | Buprenorphine | Transdermal patch 40 mg | Valid |
+| 10964C | Norspan | Buprenorphine | Transdermal patch 25 mg | Valid |
+| 10970J | Bupredermal | Buprenorphine | Transdermal patch 20 mg | Valid |
+| 13296T | Buvidal Weekly | Buprenorphine | Injection (modified release) 24 mg in 0.48 mL pre-filled syringe | Valid |
+| 13297W | Buvidal Weekly | Buprenorphine | Injection (modified release) 16 mg in 0.32 mL pre-filled syringe | Valid |
+| 13298X | Buvidal Monthly | Buprenorphine | Injection (modified release) 64 mg in 0.18 mL pre-filled syringe | Valid |
+| 13302D | Buvidal Monthly | Buprenorphine | Injection (modified release) 128 mg in 0.36 mL pre-filled syringe | Valid |
+| 13303E | Buvidal Monthly | Buprenorphine | Injection (modified release) 160 mg in 0.45 mL pre-filled syringe | Valid |
+| 13309L | Buvidal Monthly | Buprenorphine | Injection (modified release) 96 mg in 0.27 mL pre-filled syringe | Valid |
+| 13310M | Subutex | Buprenorphine | Tablet (sublingual) 400 micrograms (as hydrochloride) | Valid |
+| 13314R | Buvidal Weekly | Buprenorphine | Injection (modified release) 32 mg in 0.64 mL pre-filled syringe | Valid |
+| 13320C | Sublocade | Buprenorphine | Injection (modified release) 100 mg in 0.5 mL pre-filled syringe | Valid |
+
+The table shows 20 of 29 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

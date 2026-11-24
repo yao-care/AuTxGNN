@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 424
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Levonorgestrel"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). In Australia: 8 PBS items (8 currently listed)"
@@ -90,9 +90,22 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11909T | Kyleena | Intrauterine drug delivery system 19.5 mg | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1392G | Trifeme 28 | Levonorgestrel + ethinylestradiol | Pack containing 6 tablets 50 micrograms-30 micrograms, 5 tablets 75 micrograms-40 micrograms, 10 tablets 125 micrograms… | Valid |
+| 1394J | Femme-Tab ED 30/150 | Levonorgestrel + ethinylestradiol | Pack containing 21 tablets 150 micrograms-30 micrograms and 7 inert tablets | Valid |
+| 1456P | Microgynon 50 ED | Levonorgestrel + ethinylestradiol | Pack containing 21 tablets 125 micrograms-50 micrograms and 7 inert tablets | Valid |
+| 2416E | Femme-Tab ED 20/100 | Levonorgestrel + ethinylestradiol | Pack containing 21 tablets 100 micrograms-20 micrograms and 7 inert tablets | Valid |
+| 2913H | Mirolesa | Levonorgestrel | Tablets 30 micrograms, 28 | Valid |
+| 8633J | Mirena | Levonorgestrel | Intrauterine drug delivery system 52 mg | Valid |
+| 11909T | Kyleena | Levonorgestrel | Intrauterine drug delivery system 19.5 mg | Valid |
+| 14705Y | Mirena | Levonorgestrel | Intrauterine drug delivery system 52 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

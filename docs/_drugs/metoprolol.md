@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Australia: 11 PBS items (11 currently listed)"
 ---
 
@@ -68,10 +68,25 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13420H | Metrol-XL 190 | Tablet 190 mg (controlled release) | Not stated in the records compiled |
-| ARTG 1324Q | Metoprolol Sandoz | Tablet containing metoprolol tartrate 50 mg | Not stated in the records compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1324Q | Metoprolol Sandoz | METOPROLOL TARTRATE | Tablet containing metoprolol tartrate 50 mg | Valid |
+| 1325R | Metoprolol Sandoz | METOPROLOL TARTRATE | Tablet containing metoprolol tartrate 100 mg | Valid |
+| 8732N | Metrol-XL 23.75 | METOPROLOL SUCCINATE | Tablet 23.75 mg (controlled release) | Valid |
+| 8733P | Metrol-XL 47.5 | METOPROLOL SUCCINATE | Tablet 47.5 mg (controlled release) | Valid |
+| 8734Q | Metrol-XL 95 | METOPROLOL SUCCINATE | Tablet 95 mg (controlled release) | Valid |
+| 8735R | Metrol-XL 190 | METOPROLOL SUCCINATE | Tablet 190 mg (controlled release) | Valid |
+| 13420H | Metrol-XL 190 | METOPROLOL SUCCINATE | Tablet 190 mg (controlled release) | Valid |
+| 13541Q | Metoprolol Sandoz | METOPROLOL TARTRATE | Tablet containing metoprolol tartrate 100 mg | Valid |
+| 13543T | Metrol-XL 47.5 | METOPROLOL SUCCINATE | Tablet 47.5 mg (controlled release) | Valid |
+| 13544W | Metrol-XL 95 | METOPROLOL SUCCINATE | Tablet 95 mg (controlled release) | Valid |
+| 13598Q | Metoprolol Sandoz | METOPROLOL TARTRATE | Tablet containing metoprolol tartrate 50 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 All eleven current PBS items are single-ingredient oral products (metoprolol succinate and metoprolol tartrate).
 

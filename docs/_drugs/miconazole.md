@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 475
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: predicted new indication Acne (disease) (evidence level L4). In Australia: 3 PBS items (3 currently listed)"
@@ -78,9 +78,17 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 9027D | Daktarin | Cream containing miconazole nitrate 20 mg per g, 30 g | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 9027D | Daktarin | Miconazole | Cream containing miconazole nitrate 20 mg per g, 30 g | Valid |
+| 9028E | Daktarin | Miconazole | Cream containing miconazole nitrate 20 mg per g, 70 g | Valid |
+| 9029F | Daktarin | Miconazole | Powder containing miconazole nitrate 20 mg per g, 30 g | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

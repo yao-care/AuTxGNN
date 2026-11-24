@@ -5,7 +5,7 @@ layout: default
 title: Abiraterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 14
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Abiraterone: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Abiraterone"
 predicted_indications: []
@@ -48,11 +48,19 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11206T | Zytiga | Tablet containing abiraterone acetate 500 mg | Not stated in the data compiled |
-| ARTG 13263C | Yonsa Mpred | Pack containing 120 tablets abiraterone acetate 125 mg and 60 tablets methylprednisolone 4 mg | Not stated in the data compiled |
-| ARTG 15209L | ANDRIGA-10 | Pack containing 56 tablets abiraterone acetate 500 mg and 56 tablets prednisolone 5 mg | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2698B | Zytiga | Abiraterone | Tablet containing abiraterone acetate 250 mg | Valid |
+| 11206T | Zytiga | Abiraterone | Tablet containing abiraterone acetate 500 mg | Valid |
+| 13263C | Yonsa Mpred | abiraterone (&) methylprednisolone | Pack containing 120 tablets abiraterone acetate 125 mg and 60 tablets methylprednisolone 4 mg | Valid |
+| 14078Y | Yonsa Mpred | abiraterone (&) methylprednisolone | Pack containing 120 tablets abiraterone acetate 125 mg and 30 tablets methylprednisolone 4 mg | Valid |
+| 15209L | ANDRIGA-10 | abiraterone (&) prednisolone | Pack containing 56 tablets abiraterone acetate 500 mg and 56 tablets prednisolone 5 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

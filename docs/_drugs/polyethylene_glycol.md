@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 582
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "polyethylene glycol"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
 description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). In Australia: 9 PBS items (9 currently listed)"
@@ -72,9 +72,23 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13100L | Systane | Eye drops 4 mg-3 mg per mL, single dose units 0.8 mL, 30 | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5524R | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, 15 mL | Valid |
+| 8676P | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, 15 mL | Valid |
+| 13100L | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, single dose units 0.8 mL, 30 | Valid |
+| 13113E | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, single dose units 0.8 mL, 30 | Valid |
+| 14421B | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, 15 mL | Valid |
+| 14520F | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, single dose units 0.8 mL, 30 | Valid |
+| 15272T | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, single dose units 0.8 mL, 28 | Valid |
+| 15320H | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, single dose units 0.8 mL, 28 | Valid |
+| 15326P | Systane | polyethylene glycol-400 + propylene glycol | Eye drops 4 mg-3 mg per mL, single dose units 0.8 mL, 28 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 All nine current PBS items are ophthalmic preparations (Systane, polyethylene glycol-400 with propylene glycol). No topical dermatological formulation is listed, so route compatibility with the predicted skin indication has not been established.
 

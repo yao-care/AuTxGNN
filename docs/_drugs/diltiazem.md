@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 217
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Diltiazem: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,22 @@ The TxGNN model's candidates for Diltiazem are all known uses, so there is curre
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1312C | Cardizem CD | Capsule (controlled delivery) containing | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1312C | Cardizem CD | Diltiazem | Capsule (controlled delivery) containing diltiazem hydrochloride 180 mg | Valid |
+| 1313D | Cardizem CD | Diltiazem | Capsule (controlled delivery) containing diltiazem hydrochloride 240 mg | Valid |
+| 1335G | Cardizem | Diltiazem | Tablet containing diltiazem hydrochloride 60 mg | Valid |
+| 8480H | Vasocardol CD | Diltiazem | Capsule (controlled delivery) containing diltiazem hydrochloride 360 mg | Valid |
+| 14479C | Cardizem | Diltiazem | Tablet containing diltiazem hydrochloride 60 mg | Valid |
+| 14508N | Cardizem CD | Diltiazem | Capsule (controlled delivery) containing diltiazem hydrochloride 240 mg | Valid |
+| 14564M | Cardizem CD | Diltiazem | Capsule (controlled delivery) containing diltiazem hydrochloride 180 mg | Valid |
+| 14565N | Vasocardol CD | Diltiazem | Capsule (controlled delivery) containing diltiazem hydrochloride 360 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Cemiplimab"
 predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cemiplimab: predicted new indication gallbladder adenosquamous carcinoma (evidence level L5). In Australia: 8 PBS items (8 currently listed)"
 ---
 
@@ -69,9 +69,22 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13135H | Libtayo | Solution concentrate for I.V. infusion 350 mg in 7 mL | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 13135H | Libtayo | Cemiplimab | Solution concentrate for I.V. infusion 350 mg in 7 mL | Valid |
+| 13152F | Libtayo | Cemiplimab | Solution concentrate for I.V. infusion 350 mg in 7 mL | Valid |
+| 13153G | Libtayo | Cemiplimab | Solution concentrate for I.V. infusion 350 mg in 7 mL | Valid |
+| 13159N | Libtayo | Cemiplimab | Solution concentrate for I.V. infusion 350 mg in 7 mL | Valid |
+| 13160P | Libtayo | Cemiplimab | Solution concentrate for I.V. infusion 350 mg in 7 mL | Valid |
+| 13161Q | Libtayo | Cemiplimab | Solution concentrate for I.V. infusion 350 mg in 7 mL | Valid |
+| 13162R | Libtayo | Cemiplimab | Solution concentrate for I.V. infusion 350 mg in 7 mL | Valid |
+| 13169D | Libtayo | Cemiplimab | Solution concentrate for I.V. infusion 350 mg in 7 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

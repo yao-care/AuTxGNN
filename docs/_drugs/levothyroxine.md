@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). In Australia: 9 PBS items (9 currently listed)"
 ---
 
@@ -76,9 +76,23 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12830G | Eltroxin | Tablet containing 125 micrograms anhydrous levothyroxine sodium | Not stated in the licence record |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2173J | Eutroxsig | Levothyroxine | Tablet containing 200 micrograms anhydrous levothyroxine sodium | Valid |
+| 2174K | Eutroxsig | Levothyroxine | Tablet containing 50 micrograms anhydrous levothyroxine sodium | Valid |
+| 2175L | Eutroxsig | Levothyroxine | Tablet containing 100 micrograms anhydrous levothyroxine sodium | Valid |
+| 9287T | Eutroxsig | Levothyroxine | Tablet containing 75 micrograms anhydrous levothyroxine sodium | Valid |
+| 12830G | Eltroxin | Levothyroxine | Tablet containing 125 micrograms anhydrous levothyroxine sodium | Valid |
+| 12960D | LEVOXINE | Levothyroxine | Tablet containing 75 micrograms anhydrous levothyroxine sodium | Valid |
+| 12968M | LEVOXINE | Levothyroxine | Tablet containing 100 micrograms anhydrous levothyroxine sodium | Valid |
+| 12969N | LEVOXINE | Levothyroxine | Tablet containing 50 micrograms anhydrous levothyroxine sodium | Valid |
+| 12970P | LEVOXINE | Levothyroxine | Tablet containing 200 micrograms anhydrous levothyroxine sodium | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

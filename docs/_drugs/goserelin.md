@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 344
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L2). In Australia: 5 PBS items (5 currently listed)"
@@ -99,10 +99,19 @@ Most of this literature concerns breast cancer, where amenorrhoea is a side effe
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1454M | Zoladex Implant | Subcutaneous implant 3.6 mg (as acetate) in pre-filled injection syringe | Not stated in the compiled data |
-| ARTG 9064C | ZolaCos CP 3.6/50 | Pack with 1 goserelin 3.6 mg subcutaneous implant and 28 bicalutamide 50 mg tablets | Not stated in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1454M | Zoladex Implant | Goserelin | Subcutaneous implant 3.6 mg (as acetate) in pre-filled injection syringe | Valid |
+| 8093Y | Zoladex 10.8 Implant | Goserelin | Subcutaneous implant (long acting) 10.8 mg (as acetate) in pre-filled injection syringe | Valid |
+| 9064C | ZolaCos CP 3.6/50 | goserelin (&) bicalutamide | Pack containing 1 subcutaneous implant containing goserelin 3.6 mg (as acetate) in pre-filled injection syringe and 28… | Valid |
+| 9065D | ZolaCos CP 10.8/50(28) | goserelin (&) bicalutamide | Pack containing 1 subcutaneous implant containing goserelin 10.8 mg (as acetate) in pre-filled injection syringe and 28… | Valid |
+| 9066E | ZolaCos CP 10.8/50(84) | goserelin (&) bicalutamide | Pack containing 1 subcutaneous implant containing goserelin 10.8 mg (as acetate) in pre-filled injection syringe and 84… | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

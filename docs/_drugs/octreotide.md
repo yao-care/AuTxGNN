@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 518
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Acromegaly, hyperpituitarism, carcinoid syndrome"
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
@@ -84,9 +84,36 @@ For reference, the literature retrieved for lower-ranked predictions is not supp
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10533J | Sandostatin LAR | Injection (modified release) 20 mg (as acetate), vial and diluent syringe | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10533J | Sandostatin LAR | Octreotide | Injection (modified release) 20 mg (as acetate), vial and diluent syringe | Valid |
+| 10543X | Sandostatin LAR | Octreotide | Injection (modified release) 10 mg (as acetate), vial and diluent syringe | Valid |
+| 10549F | Sandostatin LAR | Octreotide | Injection (modified release) 20 mg (as acetate), vial and diluent syringe | Valid |
+| 10550G | Sandostatin LAR | Octreotide | Injection (modified release) 30 mg (as acetate), vial and diluent syringe | Valid |
+| 10558Q | Sandostatin LAR | Octreotide | Injection (modified release) 30 mg (as acetate), vial and diluent syringe | Valid |
+| 10566D | Sandostatin LAR | Octreotide | Injection (modified release) 10 mg (as acetate), vial and diluent syringe | Valid |
+| 11501H | Sandostatin LAR | Octreotide | Injection (modified release) 10 mg (as acetate), vial and diluent syringe | Valid |
+| 11512X | Sandostatin LAR | Octreotide | Injection (modified release) 30 mg (as acetate), vial and diluent syringe | Valid |
+| 11537F | Sandostatin LAR | Octreotide | Injection (modified release) 20 mg (as acetate), vial and diluent syringe | Valid |
+| 11893Y | Sandostatin LAR | Octreotide | Injection (modified release) 30 mg (as acetate), vial and diluent syringe | Valid |
+| 11894B | Sandostatin LAR | Octreotide | Injection (modified release) 30 mg (as acetate), vial and diluent syringe | Valid |
+| 11896D | Sandostatin LAR | Octreotide | Injection (modified release) 30 mg (as acetate), vial and diluent syringe | Valid |
+| 15609M | Sandostatin LAR | Octreotide | Injection (modified release) 10 mg (as acetate), vial and diluent syringe | Valid |
+| 15610N | Sandostatin 0.1 | Octreotide | Injection 100 micrograms (as acetate) in 1 mL | Valid |
+| 15627L | Sandostatin LAR | Octreotide | Injection (modified release) 10 mg (as acetate), vial and diluent syringe | Valid |
+| 15628M | Sandostatin 0.05 | Octreotide | Injection 50 micrograms (as acetate) in 1 mL | Valid |
+| 15629N | Sandostatin LAR | Octreotide | Injection (modified release) 10 mg (as acetate), vial and diluent syringe | Valid |
+| 15638C | Sandostatin 0.1 | Octreotide | Injection 100 micrograms (as acetate) in 1 mL | Valid |
+| 15639D | Sandostatin LAR | Octreotide | Injection (modified release) 30 mg (as acetate), vial and diluent syringe | Valid |
+| 15647M | Sandostatin LAR | Octreotide | Injection (modified release) 30 mg (as acetate), vial and diluent syringe | Valid |
+
+The table shows 20 of 33 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

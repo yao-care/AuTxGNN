@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbamazepine: predicted new indication trigeminal nerve neoplasm (evidence level L5). In Australia: 15 PBS items (15 currently listed)"
 ---
 
@@ -95,9 +95,29 @@ The retrieved publications are mostly reviews of trigeminal neuralgia and case r
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 14051M | Tegretol Liquid | Oral suspension 100 mg per 5 mL, 300 mL | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1706T | Tegretol 200 | Carbamazepine | Tablet 200 mg | Valid |
+| 1724R | Tegretol 200 | Carbamazepine | Tablet 200 mg | Valid |
+| 2422L | Tegretol 100 | Carbamazepine | Tablet 100 mg | Valid |
+| 2427R | Tegretol Liquid | Carbamazepine | Oral suspension 100 mg per 5 mL, 300 mL | Valid |
+| 5039F | Tegretol 100 | Carbamazepine | Tablet 100 mg | Valid |
+| 5041H | Tegretol Liquid | Carbamazepine | Oral suspension 100 mg per 5 mL, 300 mL | Valid |
+| 14051M | Tegretol Liquid | Carbamazepine | Oral suspension 100 mg per 5 mL, 300 mL | Valid |
+| 14338P | Tegretol 200 | Carbamazepine | Tablet 200 mg | Valid |
+| 14509P | Tegretol 100 | Carbamazepine | Tablet 100 mg | Valid |
+| 14662Q | Tegretol CR 400 | Carbamazepine | Tablet 400 mg (controlled release) | Valid |
+| 14666X | Tegretol CR 400 | Carbamazepine | Tablet 400 mg (controlled release) | Valid |
+| 14671E | Tegretol CR 200 | Carbamazepine | Tablet 200 mg (controlled release) | Valid |
+| 14673G | Tegretol CR 200 | Carbamazepine | Tablet 200 mg (controlled release) | Valid |
+| 14680P | Tegretol CR 400 | Carbamazepine | Tablet 400 mg (controlled release) | Valid |
+| 14681Q | Tegretol CR 200 | Carbamazepine | Tablet 200 mg (controlled release) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

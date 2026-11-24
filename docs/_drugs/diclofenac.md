@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diclofenac: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). In Australia: 5 PBS items (5 currently listed)"
 ---
 
@@ -70,9 +70,19 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1299J | Fenac EC | Tablet (enteric coated) containing diclofenac sodium 25 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1299J | Fenac EC | Diclofenac | Tablet (enteric coated) containing diclofenac sodium 25 mg | Valid |
+| 1300K | Fenac EC | Diclofenac | Tablet (enteric coated) containing diclofenac sodium 50 mg | Valid |
+| 4046Y | Dofidaz | Diclofenac | Gel containing diclofenac sodium 30 mg per g, 25 g | Valid |
+| 5076E | Fenac EC | Diclofenac | Tablet (enteric coated) containing diclofenac sodium 25 mg | Valid |
+| 5077F | Fenac EC | Diclofenac | Tablet (enteric coated) containing diclofenac sodium 50 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

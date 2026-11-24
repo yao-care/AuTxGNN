@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ocrelizumab"
 predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
 description: "Ocrelizumab: predicted new indication HER2 positive breast carcinoma (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -72,9 +72,18 @@ For context, 18 records were retrieved for the related prediction "breast tumour
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11237K | Ocrevus | Solution concentrate for I.V. infusion, 300 mg in 10 mL | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11237K | Ocrevus | Ocrelizumab | Solution concentrate for I.V. infusion 300 mg in 10 mL | Valid |
+| 11242Q | Ocrevus | Ocrelizumab | Solution concentrate for I.V. infusion 300 mg in 10 mL | Valid |
+| 15113K | Ocrevus SC | Ocrelizumab | Solution for subcutaneous injection 920 mg in 23 mL | Valid |
+| 15120T | Ocrevus SC | Ocrelizumab | Solution for subcutaneous injection 920 mg in 23 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

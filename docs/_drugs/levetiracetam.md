@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Levetiracetam"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). In Australia: 8 PBS items (8 currently listed)"
@@ -107,9 +107,22 @@ For visual epilepsy, the retrieved literature is general to seizures and not dis
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 13937M | Levactam | Tablet 1 g (oral) | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8654L | Levactam | Levetiracetam | Tablet 250 mg | Valid |
+| 8655M | Levactam | Levetiracetam | Tablet 500 mg | Valid |
+| 8656N | Levactam | Levetiracetam | Tablet 1 g | Valid |
+| 9169N | Levetiracetam-AFT | Levetiracetam | Oral solution 100 mg per mL, 300 mL | Valid |
+| 13937M | Levactam | Levetiracetam | Tablet 1 g | Valid |
+| 13992K | Levactam | Levetiracetam | Tablet 250 mg | Valid |
+| 13993L | Levetiracetam-AFT | Levetiracetam | Oral solution 100 mg per mL, 300 mL | Valid |
+| 14034P | Levactam | Levetiracetam | Tablet 500 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

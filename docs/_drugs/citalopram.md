@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "Citalopram"
 predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). In Australia: 6 PBS items (6 currently listed)"
 ---
 
@@ -82,9 +82,20 @@ Obsessive-compulsive disorder (OCD) is known to respond to serotonergic medicati
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14313H | Celapram | Tablet 10 mg (as hydrobromide) | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8220P | Cipramil | Citalopram | Tablet 20 mg (as hydrobromide) | Valid |
+| 8702B | Celapram | Citalopram | Tablet 10 mg (as hydrobromide) | Valid |
+| 8703C | Celapram | Citalopram | Tablet 40 mg (as hydrobromide) | Valid |
+| 14313H | Celapram | Citalopram | Tablet 10 mg (as hydrobromide) | Valid |
+| 14490P | Cipramil | Citalopram | Tablet 20 mg (as hydrobromide) | Valid |
+| 14518D | Celapram | Citalopram | Tablet 40 mg (as hydrobromide) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 At least one valid licence is held, and the drug is marketed in Australia in an oral tablet form.
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 452
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). In Australia: 13 PBS items (13 currently listed)"
@@ -80,9 +80,27 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13849X | Ralovera | Tablet containing medroxyprogesterone acetate 10 mg (oral) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2316X | Provera | Medroxyprogesterone | Tablet containing medroxyprogesterone acetate 200 mg | Valid |
+| 2321E | Ralovera | Medroxyprogesterone | Tablet containing medroxyprogesterone acetate 10 mg | Valid |
+| 2323G | Ralovera | Medroxyprogesterone | Tablet containing medroxyprogesterone acetate 5 mg | Valid |
+| 2722G | Ralovera | Medroxyprogesterone | Tablet containing medroxyprogesterone acetate 10 mg | Valid |
+| 2725K | Provera | Medroxyprogesterone | Tablet containing medroxyprogesterone acetate 100 mg | Valid |
+| 2727M | Provera | Medroxyprogesterone | Tablet containing medroxyprogesterone acetate 250 mg | Valid |
+| 13849X | Ralovera | Medroxyprogesterone | Tablet containing medroxyprogesterone acetate 10 mg | Valid |
+| 13881N | Provera | Medroxyprogesterone | Tablet containing medroxyprogesterone acetate 200 mg | Valid |
+| 13928C | Ralovera | Medroxyprogesterone | Tablet containing medroxyprogesterone acetate 10 mg | Valid |
+| 13956M | Ralovera | Medroxyprogesterone | Tablet containing medroxyprogesterone acetate 5 mg | Valid |
+| 13961T | Provera | Medroxyprogesterone | Tablet containing medroxyprogesterone acetate 250 mg | Valid |
+| 14067J | Provera | Medroxyprogesterone | Tablet containing medroxyprogesterone acetate 100 mg | Valid |
+| 14160G | Depo-Provera | Medroxyprogesterone | Injection containing medroxyprogesterone acetate 150 mg in 1 mL pre-filled syringe | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The approved indication text for this entry is not recorded in the local data. The market status is Marketed, with 13 current PBS items (oral tablets and a Depo-Provera injection).
 

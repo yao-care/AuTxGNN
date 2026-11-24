@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Ethinylestradiol: predicted new indication Zinc, elevated plasma (evidence level L5). In Australia: 13 PBS items (13 currently listed)"
@@ -80,12 +80,27 @@ All 13 PBS items in the data compiled for this report are products in which ethi
 
 <!-- review:end au-lic-20261106-ethinylestradiol-1 -->
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 15074J | NuvaRing | Vaginal ring containing etonogestrel 11.7 mg with ethinylestradiol 2.7 mg | Not available |
-| ARTG 1392G | Trifeme 28 | Pack of 6 tablets (50 µg-30 µg), 5 tablets (75 µg-40 µg), 10 tablets (125 µg-30 µg) and 7 inert tablets | Not available |
-| ARTG 14709E | Yaz | Pack of 24 tablets (drospirenone 3 mg with ethinylestradiol 20 µg as betadex clathrate) and 4 inert tablets | Not available |
-| ARTG 2774B | Norimin 28 Day | Pack of 21 tablets (500 µg-35 µg) and 7 inert tablets | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1392G | Trifeme 28 | Levonorgestrel + ethinylestradiol | Pack containing 6 tablets 50 micrograms-30 micrograms, 5 tablets 75 micrograms-40 micrograms, 10 tablets 125 micrograms… | Valid |
+| 1394J | Femme-Tab ED 30/150 | Levonorgestrel + ethinylestradiol | Pack containing 21 tablets 150 micrograms-30 micrograms and 7 inert tablets | Valid |
+| 1456P | Microgynon 50 ED | Levonorgestrel + ethinylestradiol | Pack containing 21 tablets 125 micrograms-50 micrograms and 7 inert tablets | Valid |
+| 2416E | Femme-Tab ED 20/100 | Levonorgestrel + ethinylestradiol | Pack containing 21 tablets 100 micrograms-20 micrograms and 7 inert tablets | Valid |
+| 2774B | Norimin 28 Day | Norethisterone + ethinylestradiol | Pack containing 21 tablets 500 micrograms-35 micrograms and 7 inert tablets | Valid |
+| 2775C | Norimin-1 28 Day | Norethisterone + ethinylestradiol | Pack containing 21 tablets 1 mg-35 micrograms and 7 inert tablets | Valid |
+| 14709E | Yaz | Drospirenone + ethinylestradiol | Pack containing 24 tablets 3 mg drospirenone with 20 micrograms ethinylestradiol (as betadex clathrate) and 4 inert tab… | Valid |
+| 14710F | Yaz | Drospirenone + ethinylestradiol | Pack containing 24 tablets 3 mg drospirenone with 20 micrograms ethinylestradiol (as betadex clathrate) and 4 inert tab… | Valid |
+| 14711G | Yasmin | Drospirenone + ethinylestradiol | Pack containing 21 tablets 3 mg drospirenone with 30 micrograms ethinylestradiol and 7 inert tablets | Valid |
+| 14725B | Yasmin | Drospirenone + ethinylestradiol | Pack containing 21 tablets 3 mg drospirenone with 30 micrograms ethinylestradiol and 7 inert tablets | Valid |
+| 14941J | Rosie | Drospirenone + ethinylestradiol | Pack containing 24 tablets 3 mg drospirenone with 20 micrograms ethinylestradiol and 4 inert tablets | Valid |
+| 14954C | Rosie | Drospirenone + ethinylestradiol | Pack containing 24 tablets 3 mg drospirenone with 20 micrograms ethinylestradiol and 4 inert tablets | Valid |
+| 15074J | NuvaRing | etonogestrel + ethinylestradiol | Vaginal ring containing etonogestrel 11.7 mg with ethinylestradiol 2.7 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

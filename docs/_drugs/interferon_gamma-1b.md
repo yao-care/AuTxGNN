@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 385
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Interferon Gamma-1B: predicted new indication Heart disease (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Interferon gamma-1b"
 predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofacial clefting syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "genetic syndromic Pierre Robin syndrome", "partial deletion of the long arm of chromosome 7", "Laubry-Pezzi syndrome", "partial deletion of the long arm of chromosome 22", "interventricular septum aneurysm"]
@@ -94,9 +94,16 @@ None of the three papers below shows efficacy of interferon gamma-1b in heart di
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 5769P | Imukin | Injection 2,000,000 I.U. in 0.5 mL | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5769P | Imukin | Interferon gamma-1b | Injection 2,000,000 I.U. in 0.5 mL | Valid |
+| 6148N | Imukin | Interferon gamma-1b | Injection 2,000,000 I.U. in 0.5 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

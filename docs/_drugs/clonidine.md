@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clonidine: predicted new indication Tourette syndrome (evidence level L5). Approved use: Hypertension, open-angle glaucoma, ADHD"
 monitor_inn: "Clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
@@ -114,9 +114,18 @@ The data compiled for this report also cover nine other predictions. None has st
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13548C | Catapres | Tablet containing clonidine hydrochloride 150 micrograms | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 3141H | Catapres | Clonidine | Tablet containing clonidine hydrochloride 150 micrograms | Valid |
+| 3145M | APO-Clonidine | Clonidine | Tablet containing clonidine hydrochloride 100 micrograms | Valid |
+| 13548C | Catapres | Clonidine | Tablet containing clonidine hydrochloride 150 micrograms | Valid |
+| 13578P | APO-Clonidine | Clonidine | Tablet containing clonidine hydrochloride 100 micrograms | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

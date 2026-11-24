@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 720
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Threonine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not recorded"
 monitor_inn: "threonine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -71,9 +71,18 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10730R | MMA/PA Anamix Junior | Sachets containing oral powder 18 g, 30 | Not stated |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 3443F | MMA/PA express 15 | amino acid formula with vitamins and minerals without methionine, threonine and valine an… | Sachets containing oral powder 25 g, 30 (MMA/PA express 15) | Valid |
+| 8058D | MMA/PA Anamix infant | amino acid formula with vitamins and minerals without methionine, threonine and valine an… | Oral powder 400 g (MMA/PA Anamix infant) | Valid |
+| 10730R | MMA/PA Anamix Junior | amino acid formula with vitamins and minerals without methionine, threonine and valine an… | Sachets containing oral powder 18 g, 30 (MMA/PA Anamix Junior) | Valid |
+| 14775P | MMA/PA explore5 | amino acid formula with vitamins and minerals without methionine, threonine and valine an… | Sachets containing oral powder 12.5 g, pack of 30 (MMA/PA explore5) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The only available route is oral.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). In Australia: 12 PBS items (12 currently listed)"
@@ -97,9 +97,26 @@ No ANZCTR trials were identified in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14369G | MIRTANZA ODT | Tablet 15 mg (orally disintegrating) | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8513C | Avanza | Mirtazapine | Tablet 30 mg | Valid |
+| 8855C | MIRTANZA ODT | Mirtazapine | Tablet 15 mg (orally disintegrating) | Valid |
+| 8856D | MIRTANZA ODT | Mirtazapine | Tablet 30 mg (orally disintegrating) | Valid |
+| 8857E | MIRTANZA ODT | Mirtazapine | Tablet 45 mg (orally disintegrating) | Valid |
+| 8883M | Mirtazapine Sandoz | Mirtazapine | Tablet 45 mg | Valid |
+| 9365X | Axit 15 | Mirtazapine | Tablet 15 mg | Valid |
+| 14369G | MIRTANZA ODT | Mirtazapine | Tablet 15 mg (orally disintegrating) | Valid |
+| 14370H | MIRTANZA ODT | Mirtazapine | Tablet 30 mg (orally disintegrating) | Valid |
+| 14473R | Avanza | Mirtazapine | Tablet 30 mg | Valid |
+| 14475W | MIRTANZA ODT | Mirtazapine | Tablet 45 mg (orally disintegrating) | Valid |
+| 14507M | Axit 15 | Mirtazapine | Tablet 15 mg | Valid |
+| 14561J | Mirtazapine Sandoz | Mirtazapine | Tablet 45 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

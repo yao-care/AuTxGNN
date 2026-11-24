@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 728
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tiotropium"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). In Australia: 14 PBS items (14 currently listed)"
@@ -83,9 +83,28 @@ Only two of the retrieved publications touch on malformation or airway physiolog
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10509D | Spiriva Respimat | Solution for oral inhalation, 2.5 micrograms (as bromide monohydrate) per actuation (60 actuations) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8626B | Spiriva | Tiotropium | Capsule containing powder for oral inhalation 18 micrograms (as bromide monohydrate) (for use in HandiHaler) | Valid |
+| 10509D | Spiriva Respimat | Tiotropium | Solution for oral inhalation 2.5 micrograms (as bromide monohydrate) per actuation (60 actuations) | Valid |
+| 10557P | Spiolto Respimat | Tiotropium + olodaterol | Solution for oral inhalation containing tiotropium 2.5 micrograms (as bromide monohydrate) with olodaterol 2.5 microgra… | Valid |
+| 11043F | Spiriva Respimat | Tiotropium | Solution for oral inhalation 2.5 micrograms (as bromide monohydrate) per actuation (60 actuations) | Valid |
+| 11629C | Spiriva Respimat | Tiotropium | Solution for oral inhalation 2.5 micrograms (as bromide monohydrate) per actuation (60 actuations) | Valid |
+| 11892X | Braltus | Tiotropium | Capsule containing powder for oral inhalation 13 micrograms (as bromide) (for use in Zonda device) | Valid |
+| 14361W | Spiriva | Tiotropium | Capsule containing powder for oral inhalation 18 micrograms (as bromide monohydrate) (for use in HandiHaler) | Valid |
+| 14555C | Braltus | Tiotropium | Capsule containing powder for oral inhalation 13 micrograms (as bromide) (for use in Zonda device) | Valid |
+| 14574C | Tiotropium Lupin | Tiotropium | Capsule containing powder for oral inhalation 18 micrograms (as bromide monohydrate) (for use in LupinHaler) | Valid |
+| 14576E | Tiotropium Lupin | Tiotropium | Capsule containing powder for oral inhalation 18 micrograms (as bromide monohydrate) (for use in LupinHaler) | Valid |
+| 14839B | Spiriva Respimat | Tiotropium | Solution for oral inhalation 2.5 micrograms (as bromide monohydrate) per actuation (60 actuations), pack of 2 | Valid |
+| 14842E | Spiriva Respimat | Tiotropium | Solution for oral inhalation 2.5 micrograms (as bromide monohydrate) per actuation (60 actuations), pack of 2 | Valid |
+| 14845H | Spiriva Respimat | Tiotropium | Solution for oral inhalation 2.5 micrograms (as bromide monohydrate) per actuation (60 actuations), pack of 2 | Valid |
+| 14849M | Spiolto Respimat | tiotropium + olodaterol | Solution for oral inhalation containing tiotropium 2.5 micrograms (as bromide monohydrate) with olodaterol 2.5 microgra… | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

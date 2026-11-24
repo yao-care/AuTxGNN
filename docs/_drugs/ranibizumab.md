@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 624
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ranibizumab"
 predicted_indications: ["immature cataract", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: predicted new indication Immature cataract (evidence level L5). In Australia: 16 PBS items (16 currently listed)"
@@ -87,9 +87,30 @@ The RIDE/RISE trials (NCT00473382 / NCT00473330) are referenced in the literatur
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10138N | Lucentis | Solution for intravitreal injection 1.65 mg in 0.165 mL pre-filled syringe | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1382R | Lucentis | Ranibizumab | Solution for intravitreal injection 2.3 mg in 0.23 mL | Valid |
+| 10138N | Lucentis | Ranibizumab | Solution for intravitreal injection 1.65 mg in 0.165 mL pre-filled syringe | Valid |
+| 10373Y | Lucentis | Ranibizumab | Solution for intravitreal injection 2.3 mg in 0.23 mL | Valid |
+| 10374B | Lucentis | Ranibizumab | Solution for intravitreal injection 1.65 mg in 0.165 mL pre-filled syringe | Valid |
+| 11471R | Lucentis | Ranibizumab | Solution for intravitreal injection 2.3 mg in 0.23 mL | Valid |
+| 11480F | Lucentis | Ranibizumab | Solution for intravitreal injection 1.65 mg in 0.165 mL pre-filled syringe | Valid |
+| 11975G | Lucentis | Ranibizumab | Solution for intravitreal injection 1.65 mg in 0.165 mL pre-filled syringe | Valid |
+| 11981N | Lucentis | Ranibizumab | Solution for intravitreal injection 2.3 mg in 0.23 mL | Valid |
+| 13134G | Lucentis | Ranibizumab | Solution for intravitreal injection 1.65 mg in 0.165 mL pre-filled syringe | Valid |
+| 13137K | Lucentis | Ranibizumab | Solution for intravitreal injection 2.3 mg in 0.23 mL | Valid |
+| 13143R | Lucentis | Ranibizumab | Solution for intravitreal injection 1.65 mg in 0.165 mL pre-filled syringe | Valid |
+| 13149C | Lucentis | Ranibizumab | Solution for intravitreal injection 2.3 mg in 0.23 mL | Valid |
+| 13156K | Lucentis | Ranibizumab | Solution for intravitreal injection 2.3 mg in 0.23 mL | Valid |
+| 13157L | Lucentis | Ranibizumab | Solution for intravitreal injection 1.65 mg in 0.165 mL pre-filled syringe | Valid |
+| 13165X | Lucentis | Ranibizumab | Solution for intravitreal injection 2.3 mg in 0.23 mL | Valid |
+| 13166Y | Lucentis | Ranibizumab | Solution for intravitreal injection 1.65 mg in 0.165 mL pre-filled syringe | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

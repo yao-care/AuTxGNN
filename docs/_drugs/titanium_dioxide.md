@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 732
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Titanium Dioxide: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "titanium dioxide"
 predicted_indications: ["drug-induced osteoporosis", "diabetic retinopathy", "diabetic cataract", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "tetanic cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "cortical cataract"]
@@ -70,9 +70,15 @@ Currently no related literature available for drug-induced osteoporosis.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13188D | Sunsense Comfort SPF 50+ | Lotion 1.8%-4%-8%-8%-2.5%, 125 mL | Not stated |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 13188D | Sunsense Comfort SPF 50+ | bemotrizinol + diethylamino hydroxybenzoyl hexyl benzoate + homosalate + octocrylene + ti… | Lotion 1.8%-4%-8%-8%-2.5%, 125 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

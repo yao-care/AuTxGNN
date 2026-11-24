@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Felodipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Felodipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
@@ -81,9 +81,22 @@ All nine publications retrieved are preclinical, animal or ex vivo studies.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13377C | Felodil XR 2.5 | Tablet 2.5 mg (extended release) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2361G | Felodil XR 2.5 | Felodipine | Tablet 2.5 mg (extended release) | Valid |
+| 2366M | Felodur ER 5 mg | Felodipine | Tablet 5 mg (extended release) | Valid |
+| 2367N | Felodur ER 10 mg | Felodipine | Tablet 10 mg (extended release) | Valid |
+| 2629J | Triasyn 5.0/5.0 | Ramipril + felodipine | Tablet 5 mg-5 mg (modified release) | Valid |
+| 13377C | Felodil XR 2.5 | Felodipine | Tablet 2.5 mg (extended release) | Valid |
+| 13531E | Felodur ER 10 mg | Felodipine | Tablet 10 mg (extended release) | Valid |
+| 13534H | Triasyn 5.0/5.0 | Ramipril + felodipine | Tablet 5 mg-5 mg (modified release) | Valid |
+| 13561R | Felodur ER 5 mg | Felodipine | Tablet 5 mg (extended release) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

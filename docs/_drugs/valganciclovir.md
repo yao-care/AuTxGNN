@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 766
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Valganciclovir: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,20 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Valganciclov
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 10277X | Valcyte | Powder for oral solution 50 mg (as hydro | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 6357N | Valganciclovir Sandoz | Valganciclovir | Tablet 450 mg (as hydrochloride) | Valid |
+| 9569P | Valganciclovir Sandoz | Valganciclovir | Tablet 450 mg (as hydrochloride) | Valid |
+| 9655E | Valcyte | Valganciclovir | Powder for oral solution 50 mg (as hydrochloride) per mL, 100 mL | Valid |
+| 9675F | Valcyte | Valganciclovir | Powder for oral solution 50 mg (as hydrochloride) per mL, 100 mL | Valid |
+| 10277X | Valcyte | Valganciclovir | Powder for oral solution 50 mg (as hydrochloride) per mL, 100 mL | Valid |
+| 10306K | Valganciclovir Sandoz | Valganciclovir | Tablet 450 mg (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

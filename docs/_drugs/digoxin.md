@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Digoxin"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Digoxin: predicted new indication Prinzmetal angina (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
 ---
 
@@ -80,9 +80,17 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1322N | Lanoxin | Tablet 250 micrograms | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1322N | Lanoxin | Digoxin | Tablet 250 micrograms | Valid |
+| 2605D | Lanoxin-PG | Digoxin | Tablet 62.5 micrograms | Valid |
+| 3164M | Lanoxin | Digoxin | Paediatric oral solution 50 micrograms per mL, 60 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 635
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Riluzole: predicted new indication Bilateral parasagittal parieto-occipital polymicrogyria (evidence level L5). Approved use: Amyotrophic lateral sclerosis"
 monitor_inn: "Riluzole"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
@@ -72,9 +72,18 @@ Currently no related literature available for the predicted indication of bilate
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11662T | Teglutik | Oral suspension 50 mg per 10 mL, 300 mL | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8664B | Riluzole Sandoz | Riluzole | Tablet 50 mg | Valid |
+| 11662T | Teglutik | Riluzole | Oral suspension 50 mg per 10 mL, 300 mL | Valid |
+| 14393M | Riluzole Sandoz | Riluzole | Tablet 50 mg | Valid |
+| 14429K | Teglutik | Riluzole | Oral suspension 50 mg per 10 mL, 300 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

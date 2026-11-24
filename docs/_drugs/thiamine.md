@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Thiamine: predicted new indication resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not stated in the licence record (approved indication text…"
 ---
 
@@ -70,9 +70,19 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| Licence Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1070H | Betavit | Oral tablet containing thiamine hydrochloride 100 mg | Not stated in the licence record |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1070H | Betavit | Thiamine | Tablet containing thiamine hydrochloride 100 mg | Valid |
+| 4043T | Betavit | Thiamine | Tablet containing thiamine hydrochloride 100 mg | Valid |
+| 4493L | Accomin Adult Tonic | lysine + thiamine + pyridoxine + cyanocobalamin + ferric pyrophosphate | Oral liquid 200 mL | Valid |
+| 13354W | Betavit | Thiamine | Tablet containing thiamine hydrochloride 100 mg | Valid |
+| 14182K | Betavit | Thiamine | Tablet containing thiamine hydrochloride 100 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

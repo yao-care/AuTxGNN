@@ -5,7 +5,7 @@ layout: default
 title: Pegvisomant
 parent: Known Uses Only (No New Predictions)
 nav_order: 554
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Pegvisomant: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Pegvisomant"
 predicted_indications: []
@@ -48,9 +48,22 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11166Q | Somavert | Injection set containing powder for injection 20 mg, 1 and diluent, 1 | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11166Q | Somavert | Pegvisomant | Injection set containing powder for injection 20 mg, 1 and diluent, 1 | Valid |
+| 11167R | Somavert | Pegvisomant | Injection set containing powder for injection 10 mg, 30 and diluent, 30 | Valid |
+| 11172B | Somavert | Pegvisomant | Injection set containing powder for injection 15 mg, 30 and diluent, 30 | Valid |
+| 11173C | Somavert | Pegvisomant | Injection set containing powder for injection 15 mg, 30 and diluent, 30 | Valid |
+| 11174D | Somavert | Pegvisomant | Injection set containing powder for injection 20 mg, 30 and diluent, 30 | Valid |
+| 11177G | Somavert | Pegvisomant | Injection set containing powder for injection 20 mg, 1 and diluent, 1 | Valid |
+| 11179J | Somavert | Pegvisomant | Injection set containing powder for injection 10 mg, 30 and diluent, 30 | Valid |
+| 11181L | Somavert | Pegvisomant | Injection set containing powder for injection 20 mg, 30 and diluent, 30 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 632
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -82,9 +82,23 @@ Currently no related clinical trials registered for conjunctivitis.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12189M | Rimycin 300 | Capsule 300 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1981G | Rimycin 150 | Rifampicin | Capsule 150 mg | Valid |
+| 1982H | Rimycin 150 | Rifampicin | Capsule 150 mg | Valid |
+| 1983J | Rimycin 300 | Rifampicin | Capsule 300 mg | Valid |
+| 1984K | Rimycin 300 | Rifampicin | Capsule 300 mg | Valid |
+| 8025J | Rifadin | Rifampicin | Syrup 100 mg per 5 mL, 60 mL | Valid |
+| 12189M | Rimycin 300 | Rifampicin | Capsule 300 mg | Valid |
+| 12190N | Rimycin 150 | Rifampicin | Capsule 150 mg | Valid |
+| 12200D | Rimycin 150 | Rifampicin | Capsule 150 mg | Valid |
+| 12215X | Rimycin 300 | Rifampicin | Capsule 300 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

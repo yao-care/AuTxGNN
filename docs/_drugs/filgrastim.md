@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Filgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Constitutional neutropenia, severe congenital neutropenia…"
 monitor_inn: "Filgrastim"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
@@ -79,9 +79,24 @@ No trials were registered for the top-ranked prediction. The trials below were m
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 2733W | Zarzio | Injection 480 micrograms in 0.5 mL single-use pre-filled syringe | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2733W | Zarzio | Filgrastim | Injection 480 micrograms in 0.5 mL single-use pre-filled syringe | Valid |
+| 2747N | Zarzio | Filgrastim | Injection 300 micrograms in 0.5 mL single-use pre-filled syringe | Valid |
+| 2758E | Zarzio | Filgrastim | Injection 300 micrograms in 0.5 mL single-use pre-filled syringe | Valid |
+| 2783L | Zarzio | Filgrastim | Injection 480 micrograms in 0.5 mL single-use pre-filled syringe | Valid |
+| 5742F | Nivestim | Filgrastim | Injection 300 micrograms in 0.5 mL single-use pre-filled syringe | Valid |
+| 5744H | Nivestim | Filgrastim | Injection 480 micrograms in 0.5 mL single-use pre-filled syringe | Valid |
+| 5829T | Nivestim | Filgrastim | Injection 120 micrograms in 0.2 mL single-use pre-filled syringe | Valid |
+| 5830W | Nivestim | Filgrastim | Injection 120 micrograms in 0.2 mL single-use pre-filled syringe | Valid |
+| 6291D | Nivestim | Filgrastim | Injection 300 micrograms in 0.5 mL single-use pre-filled syringe | Valid |
+| 6292E | Nivestim | Filgrastim | Injection 480 micrograms in 0.5 mL single-use pre-filled syringe | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

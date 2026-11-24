@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 484
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "Moclobemide"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
@@ -95,9 +95,18 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14442D | Aurorix 300 mg | Tablet 300 mg (oral) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1900B | Aurorix | Moclobemide | Tablet 150 mg | Valid |
+| 8003F | Aurorix 300 mg | Moclobemide | Tablet 300 mg | Valid |
+| 14442D | Aurorix 300 mg | Moclobemide | Tablet 300 mg | Valid |
+| 14560H | Aurorix | Moclobemide | Tablet 150 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

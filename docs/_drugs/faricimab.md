@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 286
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Faricimab: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,9 +74,26 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Faricimab, s
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 13177M | Vabysmo | Solution for intravitreal injection 28.8 | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 13177M | Vabysmo | faricimab | Solution for intravitreal injection 28.8 mg in 0.24 mL (120 mg per mL) | Valid |
+| 13183W | Vabysmo | faricimab | Solution for intravitreal injection 28.8 mg in 0.24 mL (120 mg per mL) | Valid |
+| 13195L | Vabysmo | faricimab | Solution for intravitreal injection 28.8 mg in 0.24 mL (120 mg per mL) | Valid |
+| 13198P | Vabysmo | faricimab | Solution for intravitreal injection 28.8 mg in 0.24 mL (120 mg per mL) | Valid |
+| 14737P | Vabysmo | faricimab | Solution for intravitreal injection 28.8 mg in 0.24 mL (120 mg per mL) | Valid |
+| 14738Q | Vabysmo | faricimab | Solution for intravitreal injection 28.8 mg in 0.24 mL (120 mg per mL) | Valid |
+| 14788H | Vabysmo | faricimab | Solution for intravitreal injection 21 mg in 0.175 mL (120 mg per mL) pre-filled syringe | Valid |
+| 14789J | Vabysmo | faricimab | Solution for intravitreal injection 21 mg in 0.175 mL (120 mg per mL) pre-filled syringe | Valid |
+| 14799X | Vabysmo | faricimab | Solution for intravitreal injection 21 mg in 0.175 mL (120 mg per mL) pre-filled syringe | Valid |
+| 14817W | Vabysmo | faricimab | Solution for intravitreal injection 21 mg in 0.175 mL (120 mg per mL) pre-filled syringe | Valid |
+| 14864H | Vabysmo | faricimab | Solution for intravitreal injection 21 mg in 0.175 mL (120 mg per mL) pre-filled syringe | Valid |
+| 14873T | Vabysmo | faricimab | Solution for intravitreal injection 21 mg in 0.175 mL (120 mg per mL) pre-filled syringe | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

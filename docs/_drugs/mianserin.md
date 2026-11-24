@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "Mianserin"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
 description: "Mianserin: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -86,9 +86,18 @@ For reference, the nearest on-label or adjacent predictions have the following p
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14366D | Lumin 10 | Tablet containing mianserin hydrochloride 10 mg | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1627P | Lumin 10 | Mianserin | Tablet containing mianserin hydrochloride 10 mg | Valid |
+| 1628Q | Lumin 20 | Mianserin | Tablet containing mianserin hydrochloride 20 mg | Valid |
+| 14366D | Lumin 10 | Mianserin | Tablet containing mianserin hydrochloride 10 mg | Valid |
+| 14505K | Lumin 20 | Mianserin | Tablet containing mianserin hydrochloride 20 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

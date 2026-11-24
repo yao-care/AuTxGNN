@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
@@ -107,9 +107,20 @@ Five further publications (reviews, a podocyte cell study and a mouse study) wer
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11122J | Entresto | Tablet containing sacubitril 97.2 mg with valsartan 102.8 mg | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11122J | Entresto | Sacubitril + valsartan | Tablet containing sacubitril 97.2 mg with valsartan 102.8 mg | Valid |
+| 11123K | Entresto | Sacubitril + valsartan | Tablet containing sacubitril 24.3 mg with valsartan 25.7 mg | Valid |
+| 11131W | Entresto | Sacubitril + valsartan | Tablet containing sacubitril 48.6 mg with valsartan 51.4 mg | Valid |
+| 13445P | Entresto | Sacubitril + valsartan | Tablet containing sacubitril 97.2 mg with valsartan 102.8 mg | Valid |
+| 13511D | Entresto | Sacubitril + valsartan | Tablet containing sacubitril 48.6 mg with valsartan 51.4 mg | Valid |
+| 13570F | Entresto | Sacubitril + valsartan | Tablet containing sacubitril 24.3 mg with valsartan 25.7 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

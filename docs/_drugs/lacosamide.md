@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). In Australia: at least 20 PBS items"
@@ -127,9 +127,36 @@ For Tourette syndrome, the only relevant literature is a review of tics induced 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10293R | Lacosamide ARX | Tablet 50 mg (oral) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 9333F | Lacosamide ARX | Lacosamide | Tablet 50 mg | Valid |
+| 10293R | Lacosamide ARX | Lacosamide | Tablet 50 mg | Valid |
+| 11694L | Vimpat | Lacosamide | Oral solution 10 mg per mL, 200 mL | Valid |
+| 12626M | Lacosamide ARX | Lacosamide | Tablet 50 mg | Valid |
+| 12627N | Lacosamide ARX | Lacosamide | Tablet 150 mg | Valid |
+| 12628P | Vimpat | Lacosamide | Oral solution 10 mg per mL, 200 mL | Valid |
+| 12633X | Lacosamide Sandoz | Lacosamide | Tablet 100 mg | Valid |
+| 12634Y | Lacosamide ARX | Lacosamide | Tablet 100 mg | Valid |
+| 12649R | Vimcosa | Lacosamide | Tablet 150 mg | Valid |
+| 12658F | Lacosamide ARX | Lacosamide | Tablet 200 mg | Valid |
+| 13838H | Lacosamide ARX | Lacosamide | Tablet 150 mg | Valid |
+| 13839J | Lacosamide ARX | Lacosamide | Tablet 100 mg | Valid |
+| 13867W | Lacosamide ARX | Lacosamide | Tablet 100 mg | Valid |
+| 13949E | Lacosamide ARX | Lacosamide | Tablet 200 mg | Valid |
+| 13951G | Lacosamide ARX | Lacosamide | Tablet 200 mg | Valid |
+| 14011K | Lacosamide ARX | Lacosamide | Tablet 50 mg | Valid |
+| 14013M | Vimpat | Lacosamide | Oral solution 10 mg per mL, 200 mL | Valid |
+| 14048J | Vimpat | Lacosamide | Oral solution 10 mg per mL, 200 mL | Valid |
+| 14049K | Lacosamide ARX | Lacosamide | Tablet 50 mg | Valid |
+| 14053P | Lacosamide ARX | Lacosamide | Tablet 150 mg | Valid |
+
+The table shows 20 of 25 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The data compiled for this report contain at least 20 current PBS items, all single-ingredient oral products, including 50 mg, 100 mg and 150 mg tablets and an oral solution.
 

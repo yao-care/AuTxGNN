@@ -5,7 +5,7 @@ layout: default
 title: Toripalimab
 parent: Known Uses Only (No New Predictions)
 nav_order: 741
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Toripalimab: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Toripalimab"
 predicted_indications: []
@@ -50,9 +50,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 15125C | Zytorvi | Solution concentrate for I.V. infusion, 240 mg in 6 mL | Not stated in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 15125C | Zytorvi | Toripalimab | Solution concentrate for I.V. infusion 240 mg in 6 mL | Valid |
+| 15126D | Zytorvi | Toripalimab | Solution concentrate for I.V. infusion 240 mg in 6 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

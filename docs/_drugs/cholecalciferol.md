@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cholecalciferol: predicted new indication Acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). Approved use: Osteoporosis, vitamin D deficiency, osteomalacia…"
 ---
 
@@ -68,9 +68,20 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13835E | Fosamax Plus 70 mg/140 mcg | Oral tablet, 70 mg (as alendronate sodium) with 140 micrograms colecalciferol | Not provided in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2194L | Fosamax Plus | Alendronate + colecalciferol | Tablet 70 mg (as alendronate sodium) with 70 micrograms colecalciferol | Valid |
+| 2224C | Fosamax Plus 70 mg/140 mcg | Alendronate + colecalciferol | Tablet 70 mg (as alendronate sodium) with 140 micrograms colecalciferol | Valid |
+| 9012H | Fosamax Plus | Alendronate + colecalciferol | Tablet 70 mg (as alendronate sodium) with 70 micrograms colecalciferol | Valid |
+| 9183H | Fosamax Plus 70 mg/140 mcg | Alendronate + colecalciferol | Tablet 70 mg (as alendronate sodium) with 140 micrograms colecalciferol | Valid |
+| 13835E | Fosamax Plus 70 mg/140 mcg | Alendronate + colecalciferol | Tablet 70 mg (as alendronate sodium) with 140 micrograms colecalciferol | Valid |
+| 14003B | Fosamax Plus | Alendronate + colecalciferol | Tablet 70 mg (as alendronate sodium) with 70 micrograms colecalciferol | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 All six current PBS items found are combination products (alendronate plus colecalciferol, Fosamax Plus tablets). It therefore does not show how cholecalciferol on its own is approved or marketed in Australia.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Isosorbide dinitrate"
 predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata", "vascular disease", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "visceral calciphylaxis", "arterial thoracic outlet syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isosorbide Dinitrate: predicted new indication Alopecia (evidence level L5)."
 ---
 
@@ -80,9 +80,16 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form |
-|---------|------|------|
-| 13491C | Isordil Sublingual | Tablet 5 mg (sublingual) |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2588F | Isordil Sublingual | Isosorbide dinitrate | Tablet 5 mg (sublingual) | Valid |
+| 13491C | Isordil Sublingual | Isosorbide dinitrate | Tablet 5 mg (sublingual) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Two current PBS items are listed (Isordil Sublingual 5 mg tablets). No approved indication text is recorded for it, and only the sublingual tablet route is available. A formulation suited to scalp use has not been identified.
 

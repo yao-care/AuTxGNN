@@ -3,7 +3,7 @@ layout: default
 title: Alemtuzumab
 parent: Known Uses Only (No New Predictions)
 nav_order: 31
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Alemtuzumab: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -70,9 +70,18 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Alemtuzumab,
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 10228H | Lemtrada | Solution concentrate for I.V. infusion 1 | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10228H | Lemtrada | Alemtuzumab | Solution concentrate for I.V. infusion 12 mg in 1.2 mL | Valid |
+| 10232M | Lemtrada | Alemtuzumab | Solution concentrate for I.V. infusion 12 mg in 1.2 mL | Valid |
+| 10243D | Lemtrada | Alemtuzumab | Solution concentrate for I.V. infusion 12 mg in 1.2 mL | Valid |
+| 10246G | Lemtrada | Alemtuzumab | Solution concentrate for I.V. infusion 12 mg in 1.2 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

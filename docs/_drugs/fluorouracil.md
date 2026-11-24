@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
 description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
@@ -89,9 +89,20 @@ For liver sarcoma (rank 7), the most relevant papers are a 2019 single-centre co
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13758D | TOLAK 4% ONCE DAILY | Cream 40 mg per g (4%), 20 g | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4222F | APOC-5FU | Fluorouracil | Cream 50 mg per g (5%), 20 g | Valid |
+| 4394G | Fluorouracil Accord | Fluorouracil | Injection 2500 mg in 50 mL | Valid |
+| 4431F | Fluorouracil Accord | Fluorouracil | Injection 2500 mg in 50 mL | Valid |
+| 7234R | Fluorouracil Accord | Fluorouracil | Injection 2500 mg in 50 mL | Valid |
+| 7239B | Fluorouracil Accord | Fluorouracil | Injection 2500 mg in 50 mL | Valid |
+| 13758D | TOLAK 4% ONCE DAILY | Fluorouracil | Cream 40 mg per g (4%), 20 g | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The current PBS items are topical preparations and injections, so an injectable formulation of the kind used in systemic sarcoma therapy is listed; route compatibility with the predicted indication has still not been assessed.
 

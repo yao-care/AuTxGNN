@@ -5,7 +5,7 @@ layout: default
 title: Povidone-Iodine
 parent: Known Uses Only (No New Predictions)
 nav_order: 592
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Povidone-Iodine: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Povidone-iodine"
 predicted_indications: []
@@ -48,9 +48,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10847X | Inadine | Dressing 9.5 cm x 9.5 cm | Not specified in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4411E | Betadine Antiseptic Liquid | Povidone-iodine | Solution 100 mg per mL (10%), 100 mL | Valid |
+| 10847X | Inadine | Povidone-iodine | Dressing 9.5 cm x 9.5 cm | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

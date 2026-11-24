@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 599
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease, Crohn disease, adrenocortical insufficiency…"
 monitor_inn: "Prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
@@ -93,9 +93,23 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13888Y | Predsolone | Tablet 1 mg (oral) | Not recorded in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1916W | Panafcortelone | Prednisolone | Tablet 25 mg | Valid |
+| 1917X | Panafcortelone | Prednisolone | Tablet 5 mg | Valid |
+| 1920C | Predsol | prednisolone sodium phosphate | Enema, retention, 20 mg (as sodium phosphate) in 100 mL | Valid |
+| 2554K | Predsol | prednisolone sodium phosphate | Suppositories 5 mg (as sodium phosphate), 10 | Valid |
+| 3152X | Predsolone | Prednisolone | Tablet 1 mg | Valid |
+| 8285C | Redipred | prednisolone sodium phosphate | Oral solution 5 mg (as sodium phosphate) per mL, 30 mL | Valid |
+| 13837G | Redipred | prednisolone sodium phosphate | Oral solution 5 mg (as sodium phosphate) per mL, 30 mL | Valid |
+| 13888Y | Predsolone | Prednisolone | Tablet 1 mg | Valid |
+| 14045F | Panafcortelone | Prednisolone | Tablet 5 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

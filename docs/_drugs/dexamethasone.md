@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 210
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Dexamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). In Australia: 9 PBS items (9 currently listed)"
@@ -80,9 +80,23 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10943Y | Ozurdex | Intravitreal injection 700 micrograms | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1292B | Dexmethsone | Dexamethasone | Tablet 500 micrograms | Valid |
+| 2507Y | Dexmethsone | Dexamethasone | Tablet 4 mg | Valid |
+| 2781J | Otodex | framycetin sulfate + gramicidin + dexamethasone | Ear drops containing dexamethasone 500 micrograms (as sodium metasulfobenzoate), framycetin sulfate 5 mg and gramicidin… | Valid |
+| 10943Y | Ozurdex | Dexamethasone | Intravitreal injection 700 micrograms | Valid |
+| 11317P | Ozurdex | Dexamethasone | Intravitreal injection 700 micrograms | Valid |
+| 11469P | Ozurdex | Dexamethasone | Intravitreal injection 700 micrograms | Valid |
+| 13142Q | Ozurdex | Dexamethasone | Intravitreal injection 700 micrograms | Valid |
+| 13168C | Ozurdex | Dexamethasone | Intravitreal injection 700 micrograms | Valid |
+| 14007F | Dexmethsone | Dexamethasone | Tablet 500 micrograms | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 This is a single-ingredient product, and its licence is currently valid.
 

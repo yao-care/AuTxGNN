@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 193
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Dabrafenib: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,31 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for D
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 10003L | Tafinlar | Capsule 75 mg (as mesilate) | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2846T | Tafinlar | Dabrafenib | Capsule 75 mg (as mesilate) | Valid |
+| 2954L | Tafinlar | Dabrafenib | Capsule 50 mg (as mesilate) | Valid |
+| 2963Y | Tafinlar | Dabrafenib | Capsule 50 mg (as mesilate) | Valid |
+| 10003L | Tafinlar | Dabrafenib | Capsule 75 mg (as mesilate) | Valid |
+| 11820D | Tafinlar | Dabrafenib | Capsule 50 mg (as mesilate) | Valid |
+| 11823G | Tafinlar | Dabrafenib | Capsule 75 mg (as mesilate) | Valid |
+| 14752K | Tafinlar | Dabrafenib | Tablet (dispersible) 10 mg (as mesilate) | Valid |
+| 14753L | Tafinlar | Dabrafenib | Tablet (dispersible) 10 mg (as mesilate) | Valid |
+| 14754M | Tafinlar | Dabrafenib | Capsule 75 mg (as mesilate) | Valid |
+| 14755N | Tafinlar | Dabrafenib | Capsule 50 mg (as mesilate) | Valid |
+| 14757Q | Tafinlar | Dabrafenib | Capsule 75 mg (as mesilate) | Valid |
+| 14760W | Tafinlar | Dabrafenib | Capsule 50 mg (as mesilate) | Valid |
+| 14766E | Tafinlar | Dabrafenib | Capsule 75 mg (as mesilate) | Valid |
+| 14773M | Tafinlar | Dabrafenib | Tablet (dispersible) 10 mg (as mesilate) | Valid |
+| 14778T | Tafinlar | Dabrafenib | Capsule 50 mg (as mesilate) | Valid |
+| 15055J | Tafinlar | Dabrafenib | Capsule 75 mg (as mesilate) | Valid |
+| 15056K | Tafinlar | Dabrafenib | Capsule 50 mg (as mesilate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 709
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline: predicted new indication Respiratory malformation (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -93,15 +93,22 @@ None of these publications tests terbutaline in respiratory malformation.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1034K | Bricanyl | Injection containing terbutaline sulfate 500 micrograms in 1 mL | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
 
-Two valid single-ingredient PBS items are on record (2 listed, 0 no longer listed): the Bricanyl injection in the table and the Bricanyl Turbuhaler inhalation powder.
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1034K | Bricanyl | Terbutaline | Injection containing terbutaline sulfate 500 micrograms in 1 mL | Valid |
+| 12267P | Bricanyl Turbuhaler | Terbutaline | Powder for oral inhalation in breath actuated device containing terbutaline sulfate 500 micrograms per dose, 120 doses | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
+
+Two valid single-ingredient PBS items are on record (2 listed, 0 no longer listed): the Bricanyl injection and the Bricanyl Turbuhaler inhalation powder.
 
 <!-- review:begin au-lic-20261117-terbutaline-1 -->
 
-> **Review correction (2026-11-17)**: Originally stated: "At least one valid single-ingredient licence is on record (1 valid, 0 cancelled)." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+> **Review correction (2026-11-24)**: Originally stated: "At least one valid single-ingredient licence is on record (1 valid, 0 cancelled)." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
 
 <!-- review:end au-lic-20261117-terbutaline-1 -->
 
@@ -138,7 +145,7 @@ Below is the review log for this page: statements checked against official Austr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: PBS item count updated to the current PBS Schedule | Corrected (revised 2026-11-24; earlier version kept in the record) | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726) |
 
 <!-- review:end log -->

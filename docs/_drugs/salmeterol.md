@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 658
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). In Australia: 14 PBS items (14 currently listed)"
@@ -82,9 +82,28 @@ None of these publications directly studies salmeterol in respiratory malformati
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14328D | Serevent Accuhaler | Powder for oral inhalation in breath actuated device, 50 micrograms (as xinafoate) per dose, 60 doses | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8141L | Serevent Accuhaler | Salmeterol | Powder for oral inhalation in breath actuated device 50 micrograms (as xinafoate) per dose, 60 doses | Valid |
+| 8430Q | Seretide Accuhaler 100/50 | fluticasone propionate + salmeterol | Powder for oral inhalation in breath actuated device containing fluticasone propionate 100 micrograms with salmeterol 5… | Valid |
+| 8431R | Seretide Accuhaler 250/50 | fluticasone propionate + salmeterol | Powder for oral inhalation in breath actuated device containing fluticasone propionate 250 micrograms with salmeterol 5… | Valid |
+| 8432T | Seretide Accuhaler 500/50 | fluticasone propionate + salmeterol | Powder for oral inhalation in breath actuated device containing fluticasone propionate 500 micrograms with salmeterol 5… | Valid |
+| 8517G | Seretide MDI 50/25 | fluticasone propionate + salmeterol | Pressurised inhalation containing fluticasone propionate 50 micrograms with salmeterol 25 micrograms (as xinafoate) per… | Valid |
+| 8518H | Seretide MDI 125/25 | fluticasone propionate + salmeterol | Pressurised inhalation containing fluticasone propionate 125 micrograms with salmeterol 25 micrograms (as xinafoate) pe… | Valid |
+| 8519J | Seretide MDI 250/25 | fluticasone propionate + salmeterol | Pressurised inhalation containing fluticasone propionate 250 micrograms with salmeterol 25 micrograms (as xinafoate) pe… | Valid |
+| 14311F | Seretide MDI 250/25 | fluticasone propionate + salmeterol | Pressurised inhalation containing fluticasone propionate 250 micrograms with salmeterol 25 micrograms (as xinafoate) pe… | Valid |
+| 14328D | Serevent Accuhaler | Salmeterol | Powder for oral inhalation in breath actuated device 50 micrograms (as xinafoate) per dose, 60 doses | Valid |
+| 14413N | Seretide Accuhaler 100/50 | fluticasone propionate + salmeterol | Powder for oral inhalation in breath actuated device containing fluticasone propionate 100 micrograms with salmeterol 5… | Valid |
+| 14414P | Seretide MDI 50/25 | fluticasone propionate + salmeterol | Pressurised inhalation containing fluticasone propionate 50 micrograms with salmeterol 25 micrograms (as xinafoate) per… | Valid |
+| 14449L | Seretide Accuhaler 250/50 | fluticasone propionate + salmeterol | Powder for oral inhalation in breath actuated device containing fluticasone propionate 250 micrograms with salmeterol 5… | Valid |
+| 14450M | Seretide Accuhaler 500/50 | fluticasone propionate + salmeterol | Powder for oral inhalation in breath actuated device containing fluticasone propionate 500 micrograms with salmeterol 5… | Valid |
+| 14544L | Seretide MDI 125/25 | fluticasone propionate + salmeterol | Pressurised inhalation containing fluticasone propionate 125 micrograms with salmeterol 25 micrograms (as xinafoate) pe… | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

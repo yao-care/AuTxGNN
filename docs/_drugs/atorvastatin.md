@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 4
 monitor_inn: "Atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atorvastatin: predicted new indication HIV infectious disease (evidence level L1). In Australia: at least 20 PBS items"
 ---
 
@@ -103,9 +103,36 @@ Atorvastatin is metabolised by CYP3A4, and protease inhibitors and boosters (rit
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13374X | Lipitor | Tablet 80 mg (as calcium) | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8213G | Lipitor | Atorvastatin | Tablet 10 mg (as calcium) | Valid |
+| 8214H | Lipitor | Atorvastatin | Tablet 20 mg (as calcium) | Valid |
+| 8215J | Lipitor | Atorvastatin | Tablet 40 mg (as calcium) | Valid |
+| 8521L | Lipitor | Atorvastatin | Tablet 80 mg (as calcium) | Valid |
+| 10376D | Atozet | Ezetimibe + atorvastatin | Tablet 10 mg-80 mg | Valid |
+| 10377E | Atozet | Ezetimibe + atorvastatin | Tablet 10 mg-40 mg | Valid |
+| 10392Y | Atozet | Ezetimibe + atorvastatin | Tablet 10 mg-10 mg | Valid |
+| 10393B | Atozet | Ezetimibe + atorvastatin | Tablet 10 mg-20 mg | Valid |
+| 13374X | Lipitor | Atorvastatin | Tablet 80 mg (as calcium) | Valid |
+| 13384K | Cadivast 10/20 | Amlodipine + atorvastatin | Tablet 10 mg amlodipine (as besilate) with 20 mg atorvastatin (as calcium) | Valid |
+| 13415C | Cadivast 5/40 | Amlodipine + atorvastatin | Tablet 5 mg amlodipine (as besilate) with 40 mg atorvastatin (as calcium) | Valid |
+| 13416D | Atozet | Ezetimibe + atorvastatin | Tablet 10 mg-40 mg | Valid |
+| 13468W | Lipitor | Atorvastatin | Tablet 40 mg (as calcium) | Valid |
+| 13479K | Cadivast 10/10 | Amlodipine + atorvastatin | Tablet 10 mg amlodipine (as besilate) with 10 mg atorvastatin (as calcium) | Valid |
+| 13495G | Lipitor | Atorvastatin | Tablet 10 mg (as calcium) | Valid |
+| 13529C | Lipitor | Atorvastatin | Tablet 20 mg (as calcium) | Valid |
+| 13536K | Cadivast 10/40 | Amlodipine + atorvastatin | Tablet 10 mg amlodipine (as besilate) with 40 mg atorvastatin (as calcium) | Valid |
+| 13538M | Atozet | Ezetimibe + atorvastatin | Tablet 10 mg-80 mg | Valid |
+| 13539N | Atozet | Ezetimibe + atorvastatin | Tablet 10 mg-10 mg | Valid |
+| 13567C | Cadivast 5/20 | Amlodipine + atorvastatin | Tablet 5 mg amlodipine (as besilate) with 20 mg atorvastatin (as calcium) | Valid |
+
+The table shows 20 of 32 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). In Australia: at least 20 PBS items"
@@ -80,9 +80,36 @@ None of the publications retrieved directly studies respiratory malformation. Th
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14419X | Foradile | Capsule containing powder for oral inhalation, formoterol fumarate dihydrate 12 micrograms (for use in Foradile Aerolizer) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8136F | Foradile | Formoterol | Capsule containing powder for oral inhalation containing formoterol fumarate dihydrate 12 micrograms (for use in Foradi… | Valid |
+| 8239P | Oxis Turbuhaler | Formoterol | Powder for oral inhalation in breath actuated device containing formoterol fumarate dihydrate 6 micrograms per dose, 60… | Valid |
+| 8240Q | Oxis Turbuhaler | Formoterol | Powder for oral inhalation in breath actuated device containing formoterol fumarate dihydrate 12 micrograms per dose, 6… | Valid |
+| 10007Q | flutiform 125/5 | fluticasone propionate + formoterol | Pressurised inhalation containing fluticasone propionate 125 micrograms with formoterol fumarate dihydrate 5 micrograms… | Valid |
+| 10008R | flutiform 250/10 | fluticasone propionate + formoterol | Pressurised inhalation containing fluticasone propionate 250 micrograms with formoterol fumarate dihydrate 10 microgram… | Valid |
+| 10015D | Symbicort Rapihaler 100/3 | Budesonide + formoterol | Pressurised inhalation containing budesonide 100 micrograms with formoterol fumarate dihydrate 3 micrograms per dose, 1… | Valid |
+| 10018G | Symbicort Rapihaler 200/6 | Budesonide + formoterol | Pressurised inhalation containing budesonide 200 micrograms with formoterol fumarate dihydrate 6 micrograms per dose, 1… | Valid |
+| 10565C | Brimica Genuair | Aclidinium + formoterol | Powder for oral inhalation in breath actuated device containing aclidinium 340 micrograms (as bromide) with formoterol… | Valid |
+| 11273H | DuoResp Spiromax | Budesonide + formoterol | Powder for oral inhalation in breath actuated device containing budesonide 200 micrograms with formoterol fumarate dihy… | Valid |
+| 11301T | DuoResp Spiromax | Budesonide + formoterol | Powder for oral inhalation in breath actuated device containing budesonide 400 micrograms with formoterol fumarate dihy… | Valid |
+| 12029D | DuoResp Spiromax | Budesonide + formoterol | Powder for oral inhalation in breath actuated device containing budesonide 200 micrograms with formoterol fumarate dihy… | Valid |
+| 12041R | Rilast TURBUHALER 200/6 | Budesonide + formoterol | Powder for oral inhalation in breath actuated device containing budesonide 200 micrograms with formoterol fumarate dihy… | Valid |
+| 12042T | Symbicort Rapihaler 100/3 | Budesonide + formoterol | Pressurised inhalation containing budesonide 100 micrograms with formoterol fumarate dihydrate 3 micrograms per dose, 1… | Valid |
+| 12082X | Symbicort Rapihaler 200/6 | Budesonide + formoterol | Pressurised inhalation containing budesonide 200 micrograms with formoterol fumarate dihydrate 6 micrograms per dose, 1… | Valid |
+| 12089G | Symbicort Rapihaler 100/3 | Budesonide + formoterol | Pressurised inhalation containing budesonide 100 micrograms with formoterol fumarate dihydrate 3 micrograms per dose, 1… | Valid |
+| 12093L | DuoResp Spiromax | Budesonide + formoterol | Powder for oral inhalation in breath actuated device containing budesonide 200 micrograms with formoterol fumarate dihy… | Valid |
+| 12101X | Symbicort Turbuhaler 100/6 | Budesonide + formoterol | Powder for oral inhalation in breath actuated device containing budesonide 100 micrograms with formoterol fumarate dihy… | Valid |
+| 14419X | Foradile | Formoterol | Capsule containing powder for oral inhalation containing formoterol fumarate dihydrate 12 micrograms (for use in Foradi… | Valid |
+| 14517C | Oxis Turbuhaler | Formoterol | Powder for oral inhalation in breath actuated device containing formoterol fumarate dihydrate 12 micrograms per dose, 6… | Valid |
+| 14547P | Oxis Turbuhaler | Formoterol | Powder for oral inhalation in breath actuated device containing formoterol fumarate dihydrate 6 micrograms per dose, 60… | Valid |
+
+The table shows 20 of 56 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

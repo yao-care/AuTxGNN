@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eculizumab: predicted new indication cyclic hematopoiesis (evidence level L5). Approved use: Paroxysmal nocturnal haemoglobinuria"
 monitor_inn: "Eculizumab"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
@@ -71,9 +71,26 @@ No publications address cyclic haematopoiesis directly. The data compiled for th
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10182X | Soliris | Solution concentrate for I.V. infusion, 300 mg in 30 mL | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10182X | Soliris | Eculizumab | Solution concentrate for I.V. infusion 300 mg in 30 mL | Valid |
+| 10183Y | Soliris | Eculizumab | Solution concentrate for I.V. infusion 300 mg in 30 mL | Valid |
+| 10190H | Soliris | Eculizumab | Solution concentrate for I.V. infusion 300 mg in 30 mL | Valid |
+| 10191J | Soliris | Eculizumab | Solution concentrate for I.V. infusion 300 mg in 30 mL | Valid |
+| 10192K | Soliris | Eculizumab | Solution concentrate for I.V. infusion 300 mg in 30 mL | Valid |
+| 10194M | Soliris | Eculizumab | Solution concentrate for I.V. infusion 300 mg in 30 mL | Valid |
+| 12840T | Soliris | Eculizumab | Solution concentrate for I.V. infusion 300 mg in 30 mL | Valid |
+| 12864C | Soliris | Eculizumab | Solution concentrate for I.V. infusion 300 mg in 30 mL | Valid |
+| 12877R | Soliris | Eculizumab | Solution concentrate for I.V. infusion 300 mg in 30 mL | Valid |
+| 12896R | Soliris | Eculizumab | Solution concentrate for I.V. infusion 300 mg in 30 mL | Valid |
+| 12899X | Soliris | Eculizumab | Solution concentrate for I.V. infusion 300 mg in 30 mL | Valid |
+| 12900Y | Soliris | Eculizumab | Solution concentrate for I.V. infusion 300 mg in 30 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

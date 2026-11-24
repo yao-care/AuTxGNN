@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 499
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Nicorandil: predicted new indication Benign prostatic hyperplasia (evidence level L4). Approved use: Chronic stable angina pectoris"
 monitor_inn: "Nicorandil"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
@@ -77,9 +77,18 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13550E | Ikotab | Tablets 10 mg, 60 (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8228C | Ikotab | Nicorandil | Tablets 10 mg, 60 | Valid |
+| 8229D | Ikotab | Nicorandil | Tablets 20 mg, 60 | Valid |
+| 13550E | Ikotab | Nicorandil | Tablets 10 mg, 60 | Valid |
+| 13551F | Ikotab | Nicorandil | Tablets 20 mg, 60 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

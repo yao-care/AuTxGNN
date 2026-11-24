@@ -5,7 +5,7 @@ layout: default
 title: Patisiran
 parent: Known Uses Only (No New Predictions)
 nav_order: 549
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Patisiran: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Patisiran"
 predicted_indications: []
@@ -48,9 +48,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14264R | Onpattro | Solution concentrate for I.V. infusion 10 mg in 5 mL | Not available in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 14264R | Onpattro | Patisiran | Solution concentrate for I.V. infusion 10 mg in 5 mL | No longer listed on the PBS Schedule |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

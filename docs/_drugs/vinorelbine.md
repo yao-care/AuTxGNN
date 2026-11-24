@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 781
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Vinorelbine"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
 description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). In Australia: 4 PBS items (4 currently listed)"
@@ -85,9 +85,18 @@ No ANZCTR trial identifiers were found in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 4620E | Vinorelbine Ebewe | Solution for I.V. infusion, 50 mg (as tartrate) in 5 mL | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 4620E | Vinorelbine Ebewe | Vinorelbine | Solution for I.V. infusion 50 mg (as tartrate) in 5 mL | Valid |
+| 7263G | Vinorelbine Ebewe | Vinorelbine | Solution for I.V. infusion 50 mg (as tartrate) in 5 mL | Valid |
+| 9009E | Velabine | Vinorelbine | Capsule 20 mg (as tartrate) | Valid |
+| 9010F | Velabine | Vinorelbine | Capsule 30 mg (as tartrate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

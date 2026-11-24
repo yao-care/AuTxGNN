@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 7
 monitor_inn: "Abatacept"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abatacept: predicted new indication ankylosing spondylitis (evidence level L3). In Australia: 10 PBS items (10 currently listed)"
 ---
 
@@ -83,9 +83,24 @@ There are important caveats. In ankylosing spondylitis, the TNF and IL-17 pathwa
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11684Y | Orencia ClickJect | Injection 125 mg in 1 mL single dose autoinjector | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1220F | Orencia | Abatacept | Injection 125 mg in 1 mL single dose pre-filled syringe | Valid |
+| 1221G | Orencia | Abatacept | Injection 125 mg in 1 mL single dose pre-filled syringe | Valid |
+| 5605B | Orencia | Abatacept | Powder for I.V. infusion 250 mg | Valid |
+| 9621J | Orencia | Abatacept | Powder for I.V. infusion 250 mg | Valid |
+| 11684Y | Orencia ClickJect | Abatacept | Injection 125 mg in 1 mL single dose autoinjector | Valid |
+| 11693K | Orencia ClickJect | Abatacept | Injection 125 mg in 1 mL single dose autoinjector | Valid |
+| 13705H | Orencia | Abatacept | Powder for I.V. infusion 250 mg | Valid |
+| 13725J | Orencia | Abatacept | Powder for I.V. infusion 250 mg | Valid |
+| 13726K | Orencia | Abatacept | Injection 125 mg in 1 mL single dose pre-filled syringe | Valid |
+| 13727L | Orencia ClickJect | Abatacept | Injection 125 mg in 1 mL single dose autoinjector | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

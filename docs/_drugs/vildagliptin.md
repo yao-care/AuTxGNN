@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 779
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vildagliptin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Vildagliptin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -70,9 +70,22 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13846R | Galvus | Tablet 50 mg (oral) | Not specified in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 3415R | Galvus | Vildagliptin | Tablet 50 mg | Valid |
+| 5474D | ARX-Vildagliptin/Metformin 50/500 | Vildagliptin + metformin | Tablet containing 50 mg vildagliptin with 500 mg metformin hydrochloride | Valid |
+| 5475E | ARX-Vildagliptin/Metformin 50/850 | Vildagliptin + metformin | Tablet containing 50 mg vildagliptin with 850 mg metformin hydrochloride | Valid |
+| 5476F | ARX-Vildagliptin/Metformin 50/1000 | Vildagliptin + metformin | Tablet containing 50 mg vildagliptin with 1000 mg metformin hydrochloride | Valid |
+| 13846R | Galvus | Vildagliptin | Tablet 50 mg | Valid |
+| 13877J | ARX-Vildagliptin/Metformin 50/500 | Vildagliptin + metformin | Tablet containing 50 mg vildagliptin with 500 mg metformin hydrochloride | Valid |
+| 13991J | ARX-Vildagliptin/Metformin 50/850 | Vildagliptin + metformin | Tablet containing 50 mg vildagliptin with 850 mg metformin hydrochloride | Valid |
+| 14032M | ARX-Vildagliptin/Metformin 50/1000 | Vildagliptin + metformin | Tablet containing 50 mg vildagliptin with 1000 mg metformin hydrochloride | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

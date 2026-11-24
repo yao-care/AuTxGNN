@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 686
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Sorbitol: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not available"
 monitor_inn: "sorbitol"
 predicted_indications: ["exercise-induced malignant hyperthermia"]
@@ -81,9 +81,19 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 14534Y | Micolette | Enemas 3.125 g-450 mg-45 mg in 5 mL, 12 | Not recorded |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2091C | Micolette | citric acid + lauryl sulfoacetate sodium + sorbitol | Enemas 3.125 g-450 mg-45 mg in 5 mL, 12 | Valid |
+| 3274H | Micolette | citric acid + lauryl sulfoacetate sodium + sorbitol | Enemas 3.125 g-450 mg-45 mg in 5 mL, 12 | Valid |
+| 4462W | Micolette | citric acid + lauryl sulfoacetate sodium + sorbitol | Enemas 3.125 g-450 mg-45 mg in 5 mL, 4 | Valid |
+| 5331N | Micolette | citric acid + lauryl sulfoacetate sodium + sorbitol | Enemas 3.125 g-450 mg-45 mg in 5 mL, 12 | Valid |
+| 14534Y | Micolette | citric acid + lauryl sulfoacetate sodium + sorbitol | Enemas 3.125 g-450 mg-45 mg in 5 mL, 12 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

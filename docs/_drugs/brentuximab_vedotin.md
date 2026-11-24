@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 105
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brentuximab Vedotin: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Hodgkin lymphoma (classical Hodgkin lymphoma and related subtypes)"
 monitor_inn: "Brentuximab vedotin"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -89,9 +89,36 @@ Note that none of these publications reports brentuximab vedotin outcomes in fol
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10166C | Adcetris | Powder for I.V. infusion 50 mg | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10166C | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 10171H | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 10172J | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 10180T | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 11067L | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 11073T | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 11079D | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 11080E | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 11086L | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 11087M | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 11089P | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 11096B | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 11651F | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 11660Q | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 11661R | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 11664X | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 12632W | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 12646N | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 12656D | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+| 12657E | Adcetris | Brentuximab vedotin | Powder for I.V. infusion 50 mg | Valid |
+
+The table shows 20 of 22 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

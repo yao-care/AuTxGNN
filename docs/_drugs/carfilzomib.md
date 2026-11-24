@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Carfilzomib"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carfilzomib: predicted new indication CMM7 (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
 ---
 
@@ -70,9 +70,20 @@ Currently no related literature available for CMM7.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11229B | Kyprolis | Powder for injection 30 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11229B | Kyprolis | Carfilzomib | Powder for injection 30 mg | Valid |
+| 11230C | Kyprolis | Carfilzomib | Powder for injection 30 mg | Valid |
+| 12243J | Kyprolis | Carfilzomib | Powder for injection 30 mg | Valid |
+| 12244K | Kyprolis | Carfilzomib | Powder for injection 30 mg | Valid |
+| 13637R | Kyprolis | Carfilzomib | Powder for injection 30 mg | Valid |
+| 13638T | Kyprolis | Carfilzomib | Powder for injection 30 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The licence is a single-ingredient product and is currently valid.
 

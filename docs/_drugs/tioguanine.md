@@ -3,7 +3,7 @@ layout: default
 title: Tioguanine
 parent: Known Uses Only (No New Predictions)
 nav_order: 727
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Tioguanine: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -70,9 +70,15 @@ All of the TxGNN model's candidates for Tioguanine (score ≥ 0.99) that can be 
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1233X | Lanvis | Tablet 40 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1233X | Lanvis | Tioguanine | Tablet 40 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

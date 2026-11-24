@@ -289,7 +289,7 @@
    "file": "codeine.md",
    "action": "correct",
    "claim": "Both licences are single-ingredient and currently valid.",
-   "replacement": "The two items in the table are single-ingredient and currently listed. The data compiled for this report contain 12 current PBS items in all: 6 single-ingredient codeine items and 6 combinations (paracetamol with codeine, aspirin with codeine).",
+   "replacement": "The data compiled for this report contain 12 current PBS items for codeine: 6 single-ingredient codeine items and 6 combinations (paracetamol with codeine, aspirin with codeine).",
    "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
    "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 12 個品項皆在列：單方 6（12054K、191C、12065B、1214X、5063L、7530H）、複方 6（paracetamol＋codeine 5、aspirin＋codeine 1）；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
    "sources": [
@@ -304,8 +304,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "Corrected: PBS item count updated to the current PBS Schedule"
+   "checked": "2026-11-24",
+   "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+   "history": [
+    {
+     "id": "au-lic-20261117-codeine-1",
+     "drug": "codeine",
+     "file": "codeine.md",
+     "action": "correct",
+     "claim": "Both licences are single-ingredient and currently valid.",
+     "replacement": "The two items in the table are single-ingredient and currently listed. The data compiled for this report contain 12 current PBS items in all: 6 single-ingredient codeine items and 6 combinations (paracetamol with codeine, aspirin with codeine).",
+     "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
+     "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 12 個品項皆在列：單方 6（12054K、191C、12065B、1214X、5063L、7530H）、複方 6（paracetamol＋codeine 5、aspirin＋codeine 1）；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
+     "sources": [
+      {
+       "title": "PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)",
+       "url": "https://data-api.health.gov.au/pbs/api/v3/items",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PBS Schedule",
+       "url": "https://www.pbs.gov.au/",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 市場段落的 AI 許可證表換成程式 PBS 品項表（scripts/sync_license_tables.py，列出證據包全部品項、最多 20 列），前版更正文字講「表上列了幾筆」或「上面列的 N 筆」，跟新表對不上；張數本身不變，只拿掉講舊表的部分（用戶 2026-11-24 決定程式產生許可證表）"
+    }
+   ]
   },
   {
    "id": "au-lic-20261117-emtricitabine-1",
@@ -313,7 +341,7 @@
    "file": "emtricitabine.md",
    "action": "correct",
    "claim": "All 7 entries are oral tablets and currently valid.",
-   "replacement": "The data compiled for this report contain 17 PBS items in all (the seven named above plus further generic tenofovir disoproxil with emtricitabine, Descovy and efavirenz combination items); all are oral combination tablets and currently listed.",
+   "replacement": "The data compiled for this report contain 17 PBS items in all (generic tenofovir disoproxil with emtricitabine, Descovy, Odefsey, Biktarvy, Genvoya, Symtuza and efavirenz combination items); all are oral combination tablets and currently listed.",
    "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
    "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 17 個品項皆在列、皆為口服複方錠；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
    "sources": [
@@ -328,8 +356,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "Corrected: PBS item count updated to the current PBS Schedule"
+   "checked": "2026-11-24",
+   "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+   "history": [
+    {
+     "id": "au-lic-20261117-emtricitabine-1",
+     "drug": "emtricitabine",
+     "file": "emtricitabine.md",
+     "action": "correct",
+     "claim": "All 7 entries are oral tablets and currently valid.",
+     "replacement": "The data compiled for this report contain 17 PBS items in all (the seven named above plus further generic tenofovir disoproxil with emtricitabine, Descovy and efavirenz combination items); all are oral combination tablets and currently listed.",
+     "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
+     "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 17 個品項皆在列、皆為口服複方錠；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
+     "sources": [
+      {
+       "title": "PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)",
+       "url": "https://data-api.health.gov.au/pbs/api/v3/items",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PBS Schedule",
+       "url": "https://www.pbs.gov.au/",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 市場段落的 AI 許可證表換成程式 PBS 品項表（scripts/sync_license_tables.py，列出證據包全部品項、最多 20 列），前版更正文字講「表上列了幾筆」或「上面列的 N 筆」，跟新表對不上；張數本身不變，只拿掉講舊表的部分（用戶 2026-11-24 決定程式產生許可證表）"
+    }
+   ]
   },
   {
    "id": "au-lic-20261117-hydrocortisone-1",
@@ -337,7 +393,7 @@
    "file": "hydrocortisone.md",
    "action": "correct",
    "claim": "One valid single-ingredient licence is listed; the product is an oral tablet.",
-   "replacement": "The table lists one of 12 valid single-ingredient PBS items in the data compiled for this report; these are oral tablets (4 mg and 20 mg) and hydrocortisone sodium succinate injections (Solu-Cortef 100 mg and 250 mg).",
+   "replacement": "The data compiled for this report contain 12 valid single-ingredient PBS items; these are oral tablets (4 mg and 20 mg) and hydrocortisone sodium succinate injections (Solu-Cortef 100 mg and 250 mg).",
    "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
    "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 12 個品項皆在列：Hydrocortisone Viatris 錠 4 個、Solu-Cortef 注射劑 8 個；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
    "sources": [
@@ -352,8 +408,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "Corrected: PBS item count updated to the current PBS Schedule"
+   "checked": "2026-11-24",
+   "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+   "history": [
+    {
+     "id": "au-lic-20261117-hydrocortisone-1",
+     "drug": "hydrocortisone",
+     "file": "hydrocortisone.md",
+     "action": "correct",
+     "claim": "One valid single-ingredient licence is listed; the product is an oral tablet.",
+     "replacement": "The table lists one of 12 valid single-ingredient PBS items in the data compiled for this report; these are oral tablets (4 mg and 20 mg) and hydrocortisone sodium succinate injections (Solu-Cortef 100 mg and 250 mg).",
+     "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
+     "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 12 個品項皆在列：Hydrocortisone Viatris 錠 4 個、Solu-Cortef 注射劑 8 個；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
+     "sources": [
+      {
+       "title": "PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)",
+       "url": "https://data-api.health.gov.au/pbs/api/v3/items",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PBS Schedule",
+       "url": "https://www.pbs.gov.au/",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 市場段落的 AI 許可證表換成程式 PBS 品項表（scripts/sync_license_tables.py，列出證據包全部品項、最多 20 列），前版更正文字講「表上列了幾筆」或「上面列的 N 筆」，跟新表對不上；張數本身不變，只拿掉講舊表的部分（用戶 2026-11-24 決定程式產生許可證表）"
+    }
+   ]
   },
   {
    "id": "au-lic-20261117-isoleucine-1",
@@ -361,7 +445,7 @@
    "file": "isoleucine.md",
    "action": "correct",
    "claim": "All five entries are valid, single-ingredient products for oral use.",
-   "replacement": "The five entries in the table are among 13 current PBS items in the data compiled for this report, all for oral use (isoleucine supplements and amino acid formulas without valine, leucine and isoleucine).",
+   "replacement": "The data compiled for this report contain 13 current PBS items, all for oral use (isoleucine supplements and amino acid formulas without valine, leucine and isoleucine).",
    "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
    "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 13 個品項皆在列、皆口服（isoleucine 補充品 2、不含 valine／leucine／isoleucine 的胺基酸配方 11；後者照原收集器的 drug_mapping 對照收進來）；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
    "sources": [
@@ -376,8 +460,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "Corrected: PBS item count updated to the current PBS Schedule"
+   "checked": "2026-11-24",
+   "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+   "history": [
+    {
+     "id": "au-lic-20261117-isoleucine-1",
+     "drug": "isoleucine",
+     "file": "isoleucine.md",
+     "action": "correct",
+     "claim": "All five entries are valid, single-ingredient products for oral use.",
+     "replacement": "The five entries in the table are among 13 current PBS items in the data compiled for this report, all for oral use (isoleucine supplements and amino acid formulas without valine, leucine and isoleucine).",
+     "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
+     "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 13 個品項皆在列、皆口服（isoleucine 補充品 2、不含 valine／leucine／isoleucine 的胺基酸配方 11；後者照原收集器的 drug_mapping 對照收進來）；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
+     "sources": [
+      {
+       "title": "PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)",
+       "url": "https://data-api.health.gov.au/pbs/api/v3/items",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PBS Schedule",
+       "url": "https://www.pbs.gov.au/",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 市場段落的 AI 許可證表換成程式 PBS 品項表（scripts/sync_license_tables.py，列出證據包全部品項、最多 20 列），前版更正文字講「表上列了幾筆」或「上面列的 N 筆」，跟新表對不上；張數本身不變，只拿掉講舊表的部分（用戶 2026-11-24 決定程式產生許可證表）"
+    }
+   ]
   },
   {
    "id": "au-lic-20261117-montelukast-1",
@@ -433,7 +545,7 @@
    "file": "propylene_glycol.md",
    "action": "correct",
    "claim": "Both entries are valid single-ingredient listings.",
-   "replacement": "The table shows two of the 12 current PBS items in the data compiled for this report: 3 are single-ingredient propylene glycol items (including the two in the table) and 9 are Systane eye drops combining polyethylene glycol-400 with propylene glycol.",
+   "replacement": "The data compiled for this report contain 12 current PBS items: 3 are single-ingredient propylene glycol items and 9 are Systane eye drops combining polyethylene glycol-400 with propylene glycol.",
    "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
    "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 12 個品項皆在列：單方 3（425J、14768G、15242F）、Systane 複方 9；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
    "sources": [
@@ -448,8 +560,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "Corrected: PBS item count updated to the current PBS Schedule"
+   "checked": "2026-11-24",
+   "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+   "history": [
+    {
+     "id": "au-lic-20261117-propylene_glycol-1",
+     "drug": "propylene_glycol",
+     "file": "propylene_glycol.md",
+     "action": "correct",
+     "claim": "Both entries are valid single-ingredient listings.",
+     "replacement": "The table shows two of the 12 current PBS items in the data compiled for this report: 3 are single-ingredient propylene glycol items (including the two in the table) and 9 are Systane eye drops combining polyethylene glycol-400 with propylene glycol.",
+     "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
+     "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 12 個品項皆在列：單方 3（425J、14768G、15242F）、Systane 複方 9；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
+     "sources": [
+      {
+       "title": "PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)",
+       "url": "https://data-api.health.gov.au/pbs/api/v3/items",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PBS Schedule",
+       "url": "https://www.pbs.gov.au/",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 市場段落的 AI 許可證表換成程式 PBS 品項表（scripts/sync_license_tables.py，列出證據包全部品項、最多 20 列），前版更正文字講「表上列了幾筆」或「上面列的 N 筆」，跟新表對不上；張數本身不變，只拿掉講舊表的部分（用戶 2026-11-24 決定程式產生許可證表）"
+    }
+   ]
   },
   {
    "id": "au-lic-20261117-salicylic_acid-1",
@@ -529,7 +669,7 @@
    "file": "temozolomide.md",
    "action": "correct",
    "claim": "The listing is a single-ingredient oral product (1 valid entry).",
-   "replacement": "The table lists one of 11 valid single-ingredient oral PBS items in the data compiled for this report (APO-Temozolomide and Temizole capsules, 5 mg to 250 mg).",
+   "replacement": "The data compiled for this report contain 11 valid single-ingredient oral PBS items (APO-Temozolomide and Temizole capsules, 5 mg to 250 mg).",
    "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
    "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 11 個品項皆單方膠囊、在列；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
    "sources": [
@@ -544,8 +684,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "Corrected: PBS item count updated to the current PBS Schedule"
+   "checked": "2026-11-24",
+   "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+   "history": [
+    {
+     "id": "au-lic-20261117-temozolomide-1",
+     "drug": "temozolomide",
+     "file": "temozolomide.md",
+     "action": "correct",
+     "claim": "The listing is a single-ingredient oral product (1 valid entry).",
+     "replacement": "The table lists one of 11 valid single-ingredient oral PBS items in the data compiled for this report (APO-Temozolomide and Temizole capsules, 5 mg to 250 mg).",
+     "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
+     "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 11 個品項皆單方膠囊、在列；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
+     "sources": [
+      {
+       "title": "PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)",
+       "url": "https://data-api.health.gov.au/pbs/api/v3/items",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PBS Schedule",
+       "url": "https://www.pbs.gov.au/",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 市場段落的 AI 許可證表換成程式 PBS 品項表（scripts/sync_license_tables.py，列出證據包全部品項、最多 20 列），前版更正文字講「表上列了幾筆」或「上面列的 N 筆」，跟新表對不上；張數本身不變，只拿掉講舊表的部分（用戶 2026-11-24 決定程式產生許可證表）"
+    }
+   ]
   },
   {
    "id": "au-lic-20261117-terbutaline-1",
@@ -553,7 +721,7 @@
    "file": "terbutaline.md",
    "action": "correct",
    "claim": "At least one valid single-ingredient licence is on record (1 valid, 0 cancelled).",
-   "replacement": "Two valid single-ingredient PBS items are on record (2 listed, 0 no longer listed): the Bricanyl injection in the table and the Bricanyl Turbuhaler inhalation powder.",
+   "replacement": "Two valid single-ingredient PBS items are on record (2 listed, 0 no longer listed): the Bricanyl injection and the Bricanyl Turbuhaler inhalation powder.",
    "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
    "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 2 個品項（1034K 注射劑、12267P Turbuhaler），皆單方、在列；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
    "sources": [
@@ -568,8 +736,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "Corrected: PBS item count updated to the current PBS Schedule"
+   "checked": "2026-11-24",
+   "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+   "history": [
+    {
+     "id": "au-lic-20261117-terbutaline-1",
+     "drug": "terbutaline",
+     "file": "terbutaline.md",
+     "action": "correct",
+     "claim": "At least one valid single-ingredient licence is on record (1 valid, 0 cancelled).",
+     "replacement": "Two valid single-ingredient PBS items are on record (2 listed, 0 no longer listed): the Bricanyl injection in the table and the Bricanyl Turbuhaler inhalation powder.",
+     "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
+     "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 2 個品項（1034K 注射劑、12267P Turbuhaler），皆單方、在列；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
+     "sources": [
+      {
+       "title": "PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)",
+       "url": "https://data-api.health.gov.au/pbs/api/v3/items",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PBS Schedule",
+       "url": "https://www.pbs.gov.au/",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 市場段落的 AI 許可證表換成程式 PBS 品項表（scripts/sync_license_tables.py），新表列出兩個品項，前版的「the Bricanyl injection in the table」會讀成吸入劑不在表上；張數不變（用戶 2026-11-24 決定程式產生許可證表）"
+    }
+   ]
   },
   {
    "id": "au-lic-20261117-tipiracil-1",
@@ -601,7 +797,7 @@
    "file": "tyrosine.md",
    "action": "correct",
    "claim": "All five entries are valid single-ingredient listings with oral routes of administration.",
-   "replacement": "The five entries in the table are among 9 current PBS items in the data compiled for this report, all taken orally (a tyrosine supplement and amino acid formulas without phenylalanine and tyrosine).",
+   "replacement": "The data compiled for this report contain 9 current PBS items, all taken orally (a tyrosine supplement and amino acid formulas without phenylalanine and tyrosine).",
    "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
    "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 9 個品項皆在列、皆口服（tyrosine 補充品 1、不含 phenylalanine／tyrosine 的胺基酸配方 8）；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
    "sources": [
@@ -616,8 +812,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "Corrected: PBS item count updated to the current PBS Schedule"
+   "checked": "2026-11-24",
+   "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+   "history": [
+    {
+     "id": "au-lic-20261117-tyrosine-1",
+     "drug": "tyrosine",
+     "file": "tyrosine.md",
+     "action": "correct",
+     "claim": "All five entries are valid single-ingredient listings with oral routes of administration.",
+     "replacement": "The five entries in the table are among 9 current PBS items in the data compiled for this report, all taken orally (a tyrosine supplement and amino acid formulas without phenylalanine and tyrosine).",
+     "note": "Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status.",
+     "finding": "2026-11-17 依成分補收當期 PBS Schedule（4753）上同成分的品項（scripts/add_current_pbs_items.py，比對規則同原收集器）：證據包 9 個品項皆在列、皆口服（tyrosine 補充品 1、不含 phenylalanine／tyrosine 的胺基酸配方 8）；原句依只收 1 個品項的舊證據包寫成，跟事實層不符。",
+     "sources": [
+      {
+       "title": "PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)",
+       "url": "https://data-api.health.gov.au/pbs/api/v3/items",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PBS Schedule",
+       "url": "https://www.pbs.gov.au/",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "Corrected: PBS item count updated to the current PBS Schedule",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 市場段落的 AI 許可證表換成程式 PBS 品項表（scripts/sync_license_tables.py，列出證據包全部品項、最多 20 列），前版更正文字講「表上列了幾筆」或「上面列的 N 筆」，跟新表對不上；張數本身不變，只拿掉講舊表的部分（用戶 2026-11-24 決定程式產生許可證表）"
+    }
+   ]
   },
   {
    "id": "au-lic-20261117-acetic_acid-1",
@@ -15266,6 +15490,54 @@
    ],
    "checked": "2026-11-20",
    "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "au-lic-20261124-emtricitabine-1",
+   "drug": "emtricitabine",
+   "file": "emtricitabine.md",
+   "action": "correct",
+   "claim": "Two further entries are registered: Genvoya (ARTG 11114Y) and Symtuza (ARTG 11955F).",
+   "replacement": "Genvoya (11114Y) and Symtuza (11955F) are also on the PBS Schedule.",
+   "note": "Corrected: 11114Y and 11955F are PBS item codes, not ARTG numbers, and the table now lists all PBS items in the data, so they are no longer \"further\" entries beyond the table. PBS listing does not show TGA (ARTG) registration status.",
+   "finding": "證據包 tfda.records 的 license_id 是 PBS 品項代碼（pbs_code）；11114Y（Genvoya）、11955F（Symtuza）在當期 PBS Schedule 4753（事實層 valid）。原句的「Two further entries」相對於舊 AI 表的 5 列；2026-11-24 起程式表列出本藥全部 17 個品項。",
+   "sources": [
+    {
+     "title": "PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)",
+     "url": "https://data-api.health.gov.au/pbs/api/v3/items",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PBS Schedule",
+     "url": "https://www.pbs.gov.au/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: Genvoya and Symtuza codes are PBS item codes; wording no longer refers to the old table"
+  },
+  {
+   "id": "au-lic-20261124-acetic_acid-1",
+   "drug": "acetic_acid",
+   "file": "acetic_acid.md",
+   "action": "correct",
+   "claim": "Product names, dosage forms and approved indication text were not available in the data compiled for this report, so a product table cannot be provided.",
+   "replacement": "Product names and dosage forms are not recorded for the three single-ingredient entries, and approved indication text is not available in the data compiled for this report.",
+   "note": "Corrected: a PBS item table is now shown; Aci-Jel (4434J) has a product name and dosage form in the PBS data, while the three single-ingredient entries do not.",
+   "finding": "證據包 4 筆：101H、102J、710J 沒有 brand_name、dosage_form；4434J Aci-Jel 有品名與劑型（Vaginal jelly）。2026-11-24 起市場段落有程式 PBS 品項表，原句「so a product table cannot be provided」不再成立。",
+   "sources": [
+    {
+     "title": "PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)",
+     "url": "https://data-api.health.gov.au/pbs/api/v3/items",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PBS Schedule",
+     "url": "https://www.pbs.gov.au/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: a product table is now shown; product details are missing only for the single-ingredient entries"
   }
  ]
 }

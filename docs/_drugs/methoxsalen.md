@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methoxsalen: predicted new indication Localized pagetoid reticulosis (evidence level L5). Approved use: Primary cutaneous T-cell lymphoma"
 monitor_inn: "Methoxsalen"
 predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
@@ -75,9 +75,22 @@ No literature specific to localized pagetoid reticulosis is available. The only 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12154Q | Uvadex | Solution for blood fraction, 20 microgram per mL, 10 mL | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12154Q | Uvadex | Methoxsalen | Solution for blood fraction 20 microgram per mL, 10 mL | Valid |
+| 12156T | Uvadex | Methoxsalen | Solution for blood fraction 20 microgram per mL, 10 mL | Valid |
+| 12162D | Uvadex | Methoxsalen | Solution for blood fraction 20 microgram per mL, 10 mL | Valid |
+| 12173Q | Uvadex | Methoxsalen | Solution for blood fraction 20 microgram per mL, 10 mL | Valid |
+| 12839R | Uvadex | Methoxsalen | Solution for blood fraction 20 microgram per mL, 10 mL | Valid |
+| 12854M | Uvadex | Methoxsalen | Solution for blood fraction 20 microgram per mL, 10 mL | Valid |
+| 12855N | Uvadex | Methoxsalen | Solution for blood fraction 20 microgram per mL, 10 mL | Valid |
+| 12876Q | Uvadex | Methoxsalen | Solution for blood fraction 20 microgram per mL, 10 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The only registered route is "Other" (a solution for blood fraction, consistent with extracorporeal use). It has not been assessed whether this is suitable for the predicted indication.
 

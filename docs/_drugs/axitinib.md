@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "Axitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Axitinib: predicted new indication liposarcoma (evidence level L4). In Australia: 4 PBS items (4 currently listed)"
 ---
 
@@ -70,9 +70,18 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10539Q | Inlyta | Tablet 1 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10539Q | Inlyta | Axitinib | Tablet 1 mg | Valid |
+| 10540R | Inlyta | Axitinib | Tablet 5 mg | Valid |
+| 10556N | Inlyta | Axitinib | Tablet 5 mg | Valid |
+| 10572K | Inlyta | Axitinib | Tablet 1 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

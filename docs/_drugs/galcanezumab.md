@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Galcanezumab"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Galcanezumab: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -97,9 +97,16 @@ The compiled data include 20 publications. The most relevant are listed below (R
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12469G | Emgality | Injection 120 mg in 1 mL pre-filled pen | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12469G | Emgality | Galcanezumab | Injection 120 mg in 1 mL pre-filled pen | Valid |
+| 12478R | Emgality | Galcanezumab | Injection 120 mg in 1 mL pre-filled pen | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

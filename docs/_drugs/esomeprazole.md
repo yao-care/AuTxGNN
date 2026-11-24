@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Esomeprazole: predicted new indication Duodenal obstruction (evidence level L5). In Australia: at least 20 PBS items"
@@ -83,10 +83,36 @@ Currently no related clinical trials registered for duodenogastric reflux.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10295W | Noxicid Caps | Enteric capsule 20 mg (as magnesium) | Not listed in the data compiled |
-| ARTG 10759G | ESOMEPRAZOLE SANDOZ Hp7 | Co-pack: 14 enteric-coated esomeprazole 20 mg tablets, 14 clarithromycin 500 mg tablets and 28 amoxicillin 500 mg capsules (H. pylori eradication pack) | Not listed in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10295W | Noxicid Caps | Esomeprazole | Capsule (enteric) 20 mg (as magnesium) | Valid |
+| 10330Q | Noxicid Caps | Esomeprazole | Capsule (enteric) 40 mg (as magnesium) | Valid |
+| 10331R | Noxicid Caps | Esomeprazole | Capsule (enteric) 40 mg (as magnesium) | Valid |
+| 10343J | Noxicid Caps | Esomeprazole | Capsule (enteric) 20 mg (as magnesium) | Valid |
+| 10759G | ESOMEPRAZOLE SANDOZ Hp7 | esomeprazole (&) clarithromycin (&) amoxicillin | Pack containing 14 tablets (enteric coated) containing esomeprazole 20 mg (as magnesium), 14 tablets clarithromycin 500… | Valid |
+| 11687D | Noxicid Caps | Esomeprazole | Capsule (enteric) 20 mg (as magnesium) | Valid |
+| 11692J | Esomeprazole RBX | Esomeprazole | Tablet (enteric coated) 20 mg (as magnesium) | Valid |
+| 12275C | Noxicid Caps | Esomeprazole | Capsule (enteric) 20 mg (as magnesium) | Valid |
+| 12283L | Esomeprazole RBX | Esomeprazole | Tablet (enteric coated) 40 mg (as magnesium) | Valid |
+| 12287Q | Esomeprazole RBX | Esomeprazole | Tablet (enteric coated) 20 mg (as magnesium) | Valid |
+| 12290W | Noxicid Caps | Esomeprazole | Capsule (enteric) 40 mg (as magnesium) | Valid |
+| 14303T | Noxicid Caps | Esomeprazole | Capsule (enteric) 20 mg (as magnesium) | Valid |
+| 14308C | Esomeprazole RBX | Esomeprazole | Tablet (enteric coated) 20 mg (as magnesium) | Valid |
+| 14373L | Esomeprazole RBX | Esomeprazole | Tablet (enteric coated) 40 mg (as magnesium) | Valid |
+| 14405E | Noxicid Caps | Esomeprazole | Capsule (enteric) 40 mg (as magnesium) | Valid |
+| 14444F | Esomeprazole RBX | Esomeprazole | Tablet (enteric coated) 20 mg (as magnesium) | Valid |
+| 14445G | Noxicid Caps | Esomeprazole | Capsule (enteric) 40 mg (as magnesium) | Valid |
+| 14481E | Esomeprazole RBX | Esomeprazole | Tablet (enteric coated) 20 mg (as magnesium) | Valid |
+| 14510Q | Noxicid Caps | Esomeprazole | Capsule (enteric) 20 mg (as magnesium) | Valid |
+| 14512T | Esomeprazole RBX | Esomeprazole | Tablet (enteric coated) 40 mg (as magnesium) | Valid |
+
+The table shows 20 of 28 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

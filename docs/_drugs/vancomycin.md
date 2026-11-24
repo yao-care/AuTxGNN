@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 769
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Clostridium difficile colitis, staphylococcal infections…"
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
@@ -87,9 +87,24 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14696L | Vancomycin Viatris | Powder for injection 500 mg (500,000 I.U.) (as hydrochloride) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2269K | Vancomycin Viatris | Vancomycin | Powder for injection 1 g (1,000,000 I.U.) (as hydrochloride) | Valid |
+| 2270L | Vancomycin Viatris | Vancomycin | Powder for injection 1 g (1,000,000 I.U.) (as hydrochloride) | Valid |
+| 3113W | Vancocin | Vancomycin | Capsule 125 mg (125,000 I.U.) (as hydrochloride) | Valid |
+| 3114X | Vancocin | Vancomycin | Capsule 250 mg (250,000 I.U.) (as hydrochloride) | Valid |
+| 3130R | Vancomycin Viatris | Vancomycin | Powder for injection 500 mg (500,000 I.U.) (as hydrochloride) | Valid |
+| 3131T | Vancomycin Viatris | Vancomycin | Powder for injection 500 mg (500,000 I.U.) (as hydrochloride) | Valid |
+| 3323X | Vancomycin Viatris | Vancomycin | Powder for injection 500 mg (500,000 I.U.) (as hydrochloride) | Valid |
+| 5083M | Vancomycin Viatris | Vancomycin | Powder for injection 1 g (1,000,000 I.U.) (as hydrochloride) | Valid |
+| 14696L | Vancomycin Viatris | Vancomycin | Powder for injection 500 mg (500,000 I.U.) (as hydrochloride) | Valid |
+| 14704X | Vancomycin Viatris | Vancomycin | Powder for injection 1 g (1,000,000 I.U.) (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

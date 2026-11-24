@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Nafarelin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "pelvic organ prolapse", "syndrome with a Dandy-Walker malformation as major feature", "physiological sexual disorder", "female genital tuberculosis", "isolated genetic hair shaft abnormality", "dysplasia of cervix"]
 description: "Nafarelin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -88,9 +88,16 @@ For the rank 6 prediction (physiological sexual disorder), one publication was f
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 2962X | Synarel | Nasal spray (pump pack), 200 micrograms (as acetate) per dose, 60 doses | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2962X | Synarel | Nafarelin | Nasal spray (pump pack) 200 micrograms (as acetate) per dose, 60 doses | Valid |
+| 5815C | Synarel | Nafarelin | Nasal spray (pump pack) 200 micrograms (as acetate) per dose, 60 doses | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

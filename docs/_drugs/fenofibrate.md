@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fenofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenofibrate: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia, hyperlipidaemia, familial hyperlipidaemia…"
 ---
 
@@ -89,9 +89,18 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13469X | FENOFIBRATE RBX | Tablet 48 mg (oral) | Not stated in the available record |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 9022W | FENOFIBRATE RBX | Fenofibrate | Tablet 48 mg | Valid |
+| 9023X | FENOFIBRATE RBX | Fenofibrate | Tablet 145 mg | Valid |
+| 13469X | FENOFIBRATE RBX | Fenofibrate | Tablet 48 mg | Valid |
+| 13587D | FENOFIBRATE RBX | Fenofibrate | Tablet 145 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Four current single-ingredient PBS items are recorded. The list is complete.
 

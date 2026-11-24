@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 558
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Peppermint Oil: predicted new indication Top-ranked: leprosy . Best-evidenced: cardiovascular disease (evidence level L5). Approved use: Not specified in the data compiled for this report"
 monitor_inn: "Peppermint oil"
 predicted_indications: ["leprosy", "pneumocystosis", "coronary artery disease", "myocardial ischemia", "echinococcus granulosus infectious disease", "polyp of vocal cord", "uterine polyp", "polyp of middle ear", "cardiovascular disease", "polyp of frontal sinus"]
@@ -86,9 +86,16 @@ The remaining retrieved items were unrelated (lercanidipine and candesartan form
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 342B | Not available | Not available | Not available |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 342B | – | Peppermint Oil (use as additive only) | – | Valid |
+| 11707E | Goanna Heat Cream | methyl salicylate + menthol + camphor + eucalyptus oil + pine oil pumilio + turpentine oi… | Cream 20%-5%-3.5%-3%-1%-1%-0.5%-0.5%-0.15%, 100 g | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

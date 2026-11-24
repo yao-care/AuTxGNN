@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyclosporine: predicted new indication granulomatous disease, chronic, autosomal recessive (evidence level L5). In Australia: at least 20 PBS items"
 ---
 
@@ -66,9 +66,36 @@ The single publication linked to this prediction reports survival after sibling 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12663L | Ikervis | Eye drops 1 mg per mL, single dose units 0.3 mL, 30 | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 5631J | Sandimmun | Ciclosporin | Solution concentrate for I.V. infusion 50 mg in 1 mL | Valid |
+| 5632K | Neoral 10 | Ciclosporin | Capsule 10 mg | Valid |
+| 12663L | Ikervis | Ciclosporin | Eye drops 1 mg per mL, single dose units 0.3 mL, 30 | Valid |
+| 13284E | Cequa | Ciclosporin | Eye drops 900 micrograms per mL, single dose units 0.25 mL, 60 | Valid |
+| 13883Q | Neoral 25 | Ciclosporin | Capsule 25 mg | Valid |
+| 13910D | Neoral 50 | Ciclosporin | Capsule 50 mg | Valid |
+| 13911E | Neoral 100 | Ciclosporin | Capsule 100 mg | Valid |
+| 13999T | Neoral 10 | Ciclosporin | Capsule 10 mg | Valid |
+| 14001X | Neoral | Ciclosporin | Oral liquid 100 mg per mL, 50 mL | Valid |
+| 15541Y | Vevye | Ciclosporin | Eye drops 1 mg per mL, 2 mL | Valid |
+| 15622F | Neoral 10 | Ciclosporin | Capsule 10 mg | Valid |
+| 15623G | Neoral | Ciclosporin | Oral liquid 100 mg per mL, 50 mL | Valid |
+| 15632R | Neoral 10 | Ciclosporin | Capsule 10 mg | Valid |
+| 15634W | Neoral 50 | Ciclosporin | Capsule 50 mg | Valid |
+| 15642G | Neoral 50 | Ciclosporin | Capsule 50 mg | Valid |
+| 15654X | Neoral | Ciclosporin | Oral liquid 100 mg per mL, 50 mL | Valid |
+| 15663J | Neoral 100 | Ciclosporin | Capsule 100 mg | Valid |
+| 15665L | Neoral 25 | Ciclosporin | Capsule 25 mg | Valid |
+| 15666M | Neoral 25 | Ciclosporin | Capsule 25 mg | Valid |
+| 15677D | Neoral 100 | Ciclosporin | Capsule 100 mg | Valid |
+
+The table shows 20 of 35 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 The listed PBS items include oral capsules and solution and an injection as well as ophthalmic preparations, so systemic formulations of the kind used for transplant-related immunosuppression are available.
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 209
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Desvenlafaxine"
 predicted_indications: ["obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Desvenlafaxine: predicted new indication Obsessive-compulsive disorder (evidence level L4). In Australia: 12 PBS items (12 currently listed)"
@@ -74,9 +74,26 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10231L | Desfax | Tablet (modified release) 100 mg | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 9366Y | Pristiq | Desvenlafaxine | Tablet (extended release) 50 mg (as succinate) | Valid |
+| 9367B | Pristiq | Desvenlafaxine | Tablet (extended release) 100 mg (as succinate) | Valid |
+| 10231L | Desfax | Desvenlafaxine | Tablet (modified release) 100 mg | Valid |
+| 10234P | Desvenlafaxine GH XR | Desvenlafaxine | Tablet (modified release) 50 mg (as benzoate) | Valid |
+| 10241B | Desfax | Desvenlafaxine | Tablet (modified release) 50 mg | Valid |
+| 10245F | Desvenlafaxine GH XR | Desvenlafaxine | Tablet (modified release) 100 mg (as benzoate) | Valid |
+| 14383B | Desfax | Desvenlafaxine | Tablet (modified release) 50 mg | Valid |
+| 14384C | Desvenlafaxine GH XR | Desvenlafaxine | Tablet (modified release) 100 mg (as benzoate) | Valid |
+| 14418W | Desvenlafaxine GH XR | Desvenlafaxine | Tablet (modified release) 50 mg (as benzoate) | Valid |
+| 14451N | Pristiq | Desvenlafaxine | Tablet (extended release) 50 mg (as succinate) | Valid |
+| 14489N | Desfax | Desvenlafaxine | Tablet (modified release) 100 mg | Valid |
+| 14545M | Pristiq | Desvenlafaxine | Tablet (extended release) 100 mg (as succinate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

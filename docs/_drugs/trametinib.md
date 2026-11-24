@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 744
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Trametinib"
 predicted_indications: ["choroideremia"]
 description: "Trametinib: predicted new indication Choroideremia (evidence level L5). In Australia: 14 PBS items (14 currently listed)"
@@ -108,9 +108,28 @@ No publications were found for non-cutaneous melanoma itself. Literature for clo
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10382K | Mekinist | Tablet 2 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10382K | Mekinist | Trametinib | Tablet 2 mg | Valid |
+| 10385N | Mekinist | Trametinib | Tablet 500 micrograms | Valid |
+| 10403M | Mekinist | Trametinib | Tablet 500 micrograms | Valid |
+| 10405P | Mekinist | Trametinib | Tablet 2 mg | Valid |
+| 11819C | Mekinist | Trametinib | Tablet 2 mg | Valid |
+| 11821E | Mekinist | Trametinib | Tablet 500 micrograms | Valid |
+| 14742X | Mekinist | Trametinib | Powder for oral solution 50 micrograms per mL (as dimethylsulfoxide), 90 mL | Valid |
+| 14761X | Mekinist | Trametinib | Powder for oral solution 50 micrograms per mL (as dimethylsulfoxide), 90 mL | Valid |
+| 14767F | Mekinist | Trametinib | Tablet 2 mg | Valid |
+| 14774N | Mekinist | Trametinib | Tablet 2 mg | Valid |
+| 14779W | Mekinist | Trametinib | Tablet 500 micrograms | Valid |
+| 14780X | Mekinist | Trametinib | Tablet 500 micrograms | Valid |
+| 15051E | Mekinist | Trametinib | Tablet 500 micrograms | Valid |
+| 15057L | Mekinist | Trametinib | Tablet 2 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Note: the licence number is reproduced as supplied and should be verified against the ARTG.
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 640
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Risedronic Acid: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,9 +72,29 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Risedroni
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 13360E | Actonel | Tablet containing risedronate sodium 5 m | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2191H | Actonel EC | risedronate | Tablet (enteric coated) containing risedronate sodium 35 mg | Valid |
+| 4443W | Actonel | risedronate | Tablet containing risedronate sodium 5 mg | Valid |
+| 4444X | APO-Risedronate | risedronate | Tablet containing risedronate sodium 35 mg | Valid |
+| 8481J | Actonel | risedronate | Tablet containing risedronate sodium 5 mg | Valid |
+| 8482K | Actonel | risedronate | Tablet containing risedronate sodium 30 mg | Valid |
+| 8621R | APO-Risedronate | risedronate | Tablet containing risedronate sodium 35 mg | Valid |
+| 8972F | Actonel EC | risedronate | Tablet (enteric coated) containing risedronate sodium 35 mg | Valid |
+| 9391G | Actonel Once-a-Month | risedronate | Tablet containing risedronate sodium 150 mg | Valid |
+| 13360E | Actonel | risedronate | Tablet containing risedronate sodium 5 mg | Valid |
+| 13364J | Actonel EC | risedronate | Tablet (enteric coated) containing risedronate sodium 35 mg | Valid |
+| 13459J | APO-Risedronate | risedronate | Tablet containing risedronate sodium 35 mg | Valid |
+| 13488X | Actonel Once-a-Month | risedronate | Tablet containing risedronate sodium 150 mg | Valid |
+| 14197F | APO-Risedronate | risedronate | Tablet containing risedronate sodium 35 mg | Valid |
+| 14198G | Actonel EC | risedronate | Tablet (enteric coated) containing risedronate sodium 35 mg | Valid |
+| 14209W | Actonel | risedronate | Tablet containing risedronate sodium 5 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

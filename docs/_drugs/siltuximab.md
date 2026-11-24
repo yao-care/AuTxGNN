@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 673
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Siltuximab"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
 description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -88,9 +88,18 @@ For context, the literature retrieved for the related Castleman disease predicti
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12916T | Sylvant | Powder for injection 100 mg | Not specified in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12916T | Sylvant | Siltuximab | Powder for injection 100 mg | Valid |
+| 12922D | Sylvant | Siltuximab | Powder for injection 400 mg | Valid |
+| 12930M | Sylvant | Siltuximab | Powder for injection 100 mg | Valid |
+| 12934R | Sylvant | Siltuximab | Powder for injection 400 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

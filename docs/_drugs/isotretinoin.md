@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Isotretinoin"
 predicted_indications: ["malignant hypertensive renal disease"]
 description: "Isotretinoin: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Australia: 6 PBS items (6 currently listed)"
@@ -81,9 +81,20 @@ None of these studies examined pulmonary hypertension or hypertensive renal dise
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 11621P | Roaccutane | Capsule 20 mg (oral) | Not specified in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2549E | Dermatane | Isotretinoin | Capsule 40 mg | Valid |
+| 2591J | Dermatane | Isotretinoin | Capsule 10 mg | Valid |
+| 2592K | Dermatane | Isotretinoin | Capsule 20 mg | Valid |
+| 11621P | Roaccutane | Isotretinoin | Capsule 20 mg | Valid |
+| 11716P | Oratane | Isotretinoin | Capsule 5 mg | Valid |
+| 11921K | Oratane | Isotretinoin | Capsule 30 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

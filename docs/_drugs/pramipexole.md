@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 594
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
 description: "Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). In Australia: at least 20 PBS items"
@@ -90,9 +90,36 @@ Currently no related clinical trials registered for ADHD.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 14324X | SIMIPEX XR | Extended-release tablet containing pramipexole dihydrochloride monohydrate 375 micrograms (oral) | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 3418X | SIMIPEX XR | Pramipexole | Tablet (extended release) containing pramipexole dihydrochloride monohydrate 375 micrograms | Valid |
+| 3419Y | SIMIPEX XR | Pramipexole | Tablet (extended release) containing pramipexole dihydrochloride monohydrate 750 micrograms | Valid |
+| 3420B | SIMIPEX XR | Pramipexole | Tablet (extended release) containing pramipexole dihydrochloride monohydrate 1.5 mg | Valid |
+| 3421C | SIMIPEX XR | Pramipexole | Tablet (extended release) containing pramipexole dihydrochloride monohydrate 3 mg | Valid |
+| 3422D | SIMIPEX XR | Pramipexole | Tablet (extended release) containing pramipexole dihydrochloride monohydrate 4.5 mg | Valid |
+| 5143Q | SIMIPEX XR | Pramipexole | Tablet (extended release) containing pramipexole dihydrochloride monohydrate 2.25 mg | Valid |
+| 5145T | SIMIPEX XR | Pramipexole | Tablet (extended release) containing pramipexole dihydrochloride monohydrate 3.75 mg | Valid |
+| 9151P | Simpral | Pramipexole | Tablet containing pramipexole dihydrochloride monohydrate 125 micrograms | Valid |
+| 9152Q | Simpral | Pramipexole | Tablet containing pramipexole dihydrochloride monohydrate 250 micrograms | Valid |
+| 9153R | Simpral | Pramipexole | Tablet containing pramipexole dihydrochloride monohydrate 1 mg | Valid |
+| 9393J | Simpral | Pramipexole | Tablet containing pramipexole dihydrochloride monohydrate 125 micrograms | Valid |
+| 14324X | SIMIPEX XR | Pramipexole | Tablet (extended release) containing pramipexole dihydrochloride monohydrate 375 micrograms | Valid |
+| 14325Y | SIMIPEX XR | Pramipexole | Tablet (extended release) containing pramipexole dihydrochloride monohydrate 4.5 mg | Valid |
+| 14329E | Simpral | Pramipexole | Tablet containing pramipexole dihydrochloride monohydrate 250 micrograms | Valid |
+| 14360T | SIMIPEX XR | Pramipexole | Tablet (extended release) containing pramipexole dihydrochloride monohydrate 1.5 mg | Valid |
+| 14459B | SIMIPEX XR | Pramipexole | Tablet (extended release) containing pramipexole dihydrochloride monohydrate 750 micrograms | Valid |
+| 14460C | SIMIPEX XR | Pramipexole | Tablet (extended release) containing pramipexole dihydrochloride monohydrate 3 mg | Valid |
+| 14461D | SIMIPEX XR | Pramipexole | Tablet (extended release) containing pramipexole dihydrochloride monohydrate 3.75 mg | Valid |
+| 14532W | Simpral | Pramipexole | Tablet containing pramipexole dihydrochloride monohydrate 1 mg | Valid |
+| 14556D | SIMIPEX XR | Pramipexole | Tablet (extended release) containing pramipexole dihydrochloride monohydrate 2.25 mg | Valid |
+
+The table shows 20 of 21 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 774
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Venetoclax"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax: predicted new indication Hodgkins lymphoma (evidence level L5). In Australia: 17 PBS items (17 currently listed)"
@@ -115,9 +115,31 @@ No ANZCTR identifiers were available in the data compiled for this report.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11630D | Venclexta | Oral starter pack: 14 × 10 mg, 7 × 50 mg, 7 × 100 mg and 14 × 100 mg tablets | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11630D | Venclexta | Venetoclax | Pack containing 14 tablets venetoclax 10 mg and 7 tablets venetoclax 50 mg and 7 tablets venetoclax 100 mg and 14 table… | Valid |
+| 11639N | Venclexta | Venetoclax | Tablet 100 mg | Valid |
+| 11648C | Venclexta | Venetoclax | Tablet 50 mg | Valid |
+| 12188L | Venclexta | Venetoclax | Pack containing 14 tablets venetoclax 10 mg and 7 tablets venetoclax 50 mg and 7 tablets venetoclax 100 mg and 14 table… | Valid |
+| 12199C | Venclexta | Venetoclax | Tablet 100 mg | Valid |
+| 12205J | Venclexta | Venetoclax | Tablet 100 mg | Valid |
+| 12773G | Venclexta | Venetoclax | Tablet 50 mg | Valid |
+| 12803W | Venclexta | Venetoclax | Tablet 100 mg | Valid |
+| 12999E | Venclexta | Venetoclax | Tablet 10 mg | Valid |
+| 14581K | Venclexta | Venetoclax | Tablet 100 mg | Valid |
+| 14584N | Venclexta | Venetoclax | Pack containing 14 tablets venetoclax 10 mg and 7 tablets venetoclax 50 mg and 7 tablets venetoclax 100 mg and 14 table… | Valid |
+| 14585P | Venclexta | Venetoclax | Tablet 100 mg | Valid |
+| 14595E | Venclexta | Venetoclax | Tablet 100 mg | Valid |
+| 14599J | Venclexta | Venetoclax | Pack containing 14 tablets venetoclax 10 mg and 7 tablets venetoclax 50 mg and 7 tablets venetoclax 100 mg and 14 table… | Valid |
+| 15357G | Venclexta | Venetoclax | Tablet 100 mg | Valid |
+| 15358H | Venclexta | Venetoclax | Tablet 100 mg | Valid |
+| 15361L | Venclexta | Venetoclax | Pack containing 14 tablets venetoclax 10 mg and 7 tablets venetoclax 50 mg and 7 tablets venetoclax 100 mg and 14 table… | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 652
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 description: "Ruxolitinib: predicted new indication Uterine corpus perivascular epithelioid cell tumor (evidence level L5). In Australia: at least 20 PBS items"
@@ -69,9 +69,36 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10614P | Jakavi | Tablet 5 mg (oral) | Not listed in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10614P | Jakavi | Ruxolitinib | Tablet 5 mg | Valid |
+| 10615Q | Jakavi | Ruxolitinib | Tablet 15 mg | Valid |
+| 10616R | Jakavi | Ruxolitinib | Tablet 5 mg | Valid |
+| 10617T | Jakavi | Ruxolitinib | Tablet 20 mg | Valid |
+| 10618W | Jakavi | Ruxolitinib | Tablet 20 mg | Valid |
+| 10619X | Jakavi | Ruxolitinib | Tablet 15 mg | Valid |
+| 10913J | Jakavi | Ruxolitinib | Tablet 10 mg | Valid |
+| 10927D | Jakavi | Ruxolitinib | Tablet 10 mg | Valid |
+| 13231J | Jakavi | Ruxolitinib | Tablet 10 mg | Valid |
+| 13232K | Jakavi | Ruxolitinib | Tablet 10 mg | Valid |
+| 13235N | Jakavi | Ruxolitinib | Tablet 10 mg | Valid |
+| 13236P | Jakavi | Ruxolitinib | Tablet 10 mg | Valid |
+| 13238R | Jakavi | Ruxolitinib | Tablet 5 mg | Valid |
+| 13239T | Jakavi | Ruxolitinib | Tablet 5 mg | Valid |
+| 13241X | Jakavi | Ruxolitinib | Tablet 5 mg | Valid |
+| 13243B | Jakavi | Ruxolitinib | Tablet 5 mg | Valid |
+| 13244C | Jakavi | Ruxolitinib | Tablet 5 mg | Valid |
+| 13245D | Jakavi | Ruxolitinib | Tablet 10 mg | Valid |
+| 14990Y | Jakavi | Ruxolitinib | Tablet 5 mg | Valid |
+| 14991B | Jakavi | Ruxolitinib | Tablet 10 mg | Valid |
+
+The table shows 20 of 22 PBS items for this ingredient in these data (items on the current PBS Schedule first).
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

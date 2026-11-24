@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lidocaine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
 ---
 
@@ -70,9 +70,17 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10209H | LIGNOCAINE INJECTION (BRIDGEWEST) | Injection containing lidocaine hydrochloride monohydrate 50 mg in 5 mL | Not stated in the data compiled |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2876J | Xylocard 500 | Lidocaine | Infusion containing lidocaine hydrochloride 500 mg in 5 mL | Valid |
+| 4308R | Xylocaine Viscous | Lidocaine | Solution containing lidocaine hydrochloride 20 mg per mL (2%), 200 mL | Valid |
+| 10209H | LIGNOCAINE INJECTION (BRIDGEWEST) | Lidocaine | Injection containing lidocaine hydrochloride monohydrate 50 mg in 5 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

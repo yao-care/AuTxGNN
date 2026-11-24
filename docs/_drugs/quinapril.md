@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 616
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Quinapril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Australia: 3 PBS items (3 currently listed)"
@@ -80,9 +80,17 @@ No literature was retrieved for malignant hypertensive renal disease. The table 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 1968N | ACQUIN | Tablet 5 mg (as hydrochloride), oral | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1968N | ACQUIN | Quinapril | Tablet 5 mg (as hydrochloride) | Valid |
+| 1969P | APO-Quinapril | Quinapril | Tablet 10 mg (as hydrochloride) | Valid |
+| 1970Q | APO-Quinapril | Quinapril | Tablet 20 mg (as hydrochloride) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

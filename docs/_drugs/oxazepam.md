@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 535
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxazepam: predicted new indication Insomnia (evidence level L3). Approved use: Alcohol withdrawal delirium"
 monitor_inn: "Oxazepam"
 predicted_indications: ["insomnia (disease)"]
@@ -84,9 +84,22 @@ Several further small RCTs compare oxazepam versus midazolam ([6138067](https://
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 3132W | Alepam 15 | Tablet 15 mg (oral) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 3132W | Alepam 15 | Oxazepam | Tablet 15 mg | Valid |
+| 3133X | OXAZEPAM-WGR | Oxazepam | Tablet 30 mg | Valid |
+| 3134Y | Alepam 15 | Oxazepam | Tablet 15 mg | Valid |
+| 3135B | OXAZEPAM-WGR | Oxazepam | Tablet 30 mg | Valid |
+| 5192G | Alepam 15 | Oxazepam | Tablet 15 mg | Valid |
+| 5193H | OXAZEPAM-WGR | Oxazepam | Tablet 30 mg | Valid |
+| 5371Q | Alepam 15 | Oxazepam | Tablet 15 mg | Valid |
+| 5372R | OXAZEPAM-WGR | Oxazepam | Tablet 30 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

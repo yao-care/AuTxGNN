@@ -5,7 +5,7 @@ layout: default
 title: Gliclazide
 parent: Known Uses Only (No New Predictions)
 nav_order: 337
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Gliclazide: known uses and market status in Australia; currently no new candidate indication"
 monitor_inn: "Gliclazide"
 predicted_indications: []
@@ -48,9 +48,20 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13896J | APX-Gliclazide | Tablet 80 mg (oral) | Not stated in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2449X | APX-Gliclazide | Gliclazide | Tablet 80 mg | Valid |
+| 8535F | Pharmacor Gliclazide MR | Gliclazide | Tablet 30 mg (modified release) | Valid |
+| 9302N | ARDIX GLICLAZIDE 60mg MR | Gliclazide | Tablet 60 mg (modified release) | Valid |
+| 13896J | APX-Gliclazide | Gliclazide | Tablet 80 mg | Valid |
+| 13922R | ARDIX GLICLAZIDE 60mg MR | Gliclazide | Tablet 60 mg (modified release) | Valid |
+| 14740T | Pharmacor Gliclazide MR | Gliclazide | Tablet 30 mg (modified release) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

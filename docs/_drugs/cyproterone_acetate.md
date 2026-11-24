@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 190
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the Australian registration data compiled for this repo…"
 monitor_inn: "Cyproterone acetate"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
@@ -77,9 +77,20 @@ Currently no related clinical trials registered for migraine disorder.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1269T | Cyproterone Sandoz | Tablet containing cyproterone acetate 50 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1269T | Cyproterone Sandoz | Cyproterone | Tablet containing cyproterone acetate 50 mg | Valid |
+| 1270W | Cyproterone Sandoz | Cyproterone | Tablet containing cyproterone acetate 50 mg | Valid |
+| 8019C | Cyproterone Sandoz | Cyproterone | Tablet containing cyproterone acetate 100 mg | Valid |
+| 13925X | Cyproterone Sandoz | Cyproterone | Tablet containing cyproterone acetate 50 mg | Valid |
+| 14022B | Cyproterone Sandoz | Cyproterone | Tablet containing cyproterone acetate 100 mg | Valid |
+| 14023C | Cyproterone Sandoz | Cyproterone | Tablet containing cyproterone acetate 50 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

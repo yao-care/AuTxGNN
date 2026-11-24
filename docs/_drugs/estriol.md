@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 271
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Estriol"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Estriol: predicted new indication Amenorrhea (disease) (evidence level L3). In Australia: 4 PBS items (4 currently listed)"
@@ -78,9 +78,18 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 13926Y | Ovestin | Vaginal cream, 1 mg per g, 15 g | Not listed in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1771F | Ovestin Ovula | Estriol | Pessaries 500 micrograms, 15 | Valid |
+| 1781R | Ovestin | Estriol | Vaginal cream 1 mg per g, 15 g | Valid |
+| 13926Y | Ovestin | Estriol | Vaginal cream 1 mg per g, 15 g | Valid |
+| 14059Y | Ovestin Ovula | Estriol | Pessaries 500 micrograms, 15 | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

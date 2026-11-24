@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Fluvoxamine: predicted new indication Paranoid personality disorder (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
@@ -73,9 +73,18 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14314J | Luvox | Tablet containing fluvoxamine maleate 100 mg (oral) | Not available in the data compiled for this report |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8174F | Luvox | Fluvoxamine | Tablet containing fluvoxamine maleate 100 mg | Valid |
+| 8512B | Luvox | Fluvoxamine | Tablet containing fluvoxamine maleate 50 mg | Valid |
+| 14314J | Luvox | Fluvoxamine | Tablet containing fluvoxamine maleate 100 mg | Valid |
+| 14488M | Luvox | Fluvoxamine | Tablet containing fluvoxamine maleate 50 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Four current single-ingredient PBS items are recorded, and the oral tablet is the only dosage form recorded.
 

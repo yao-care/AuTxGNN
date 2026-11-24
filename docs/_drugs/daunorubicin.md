@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Daunorubicin: predicted new indication Hodgkins lymphoma (evidence level L5). In Australia: 4 PBS items (4 currently listed)"
 ---
 
@@ -84,9 +84,18 @@ No ANZCTR trials were identified.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 14661P | Vyxeos | Powder for I.V. infusion containing daunorubicin 44 mg (as hydrochloride) and cytarabine 100 mg | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 14661P | Vyxeos | Daunorubicin + cytarabine | Powder for I.V. infusion containing daunorubicin 44 mg (as hydrochloride) and cytarabine 100 mg | Valid |
+| 14663R | Vyxeos | Daunorubicin + cytarabine | Powder for I.V. infusion containing daunorubicin 44 mg (as hydrochloride) and cytarabine 100 mg | Valid |
+| 14669C | Vyxeos | Daunorubicin + cytarabine | Powder for I.V. infusion containing daunorubicin 44 mg (as hydrochloride) and cytarabine 100 mg | Valid |
+| 14672F | Vyxeos | Daunorubicin + cytarabine | Powder for I.V. infusion containing daunorubicin 44 mg (as hydrochloride) and cytarabine 100 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 This is a fixed-combination daunorubicin and cytarabine product. It should not be taken as describing the approval or marketing of daunorubicin as a single ingredient.
 

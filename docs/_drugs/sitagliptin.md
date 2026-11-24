@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 678
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Sitagliptin: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -73,9 +73,32 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sitagliptin,
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 13871C | Sitagliptin Sandoz Pharma | Tablet 100 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 9180E | Sitagliptin Sandoz Pharma | Sitagliptin | Tablet 25 mg | Valid |
+| 9181F | Sitagliptin Sandoz Pharma | Sitagliptin | Tablet 50 mg | Valid |
+| 9182G | Sitagliptin Sandoz Pharma | Sitagliptin | Tablet 100 mg | Valid |
+| 9449H | Velmetia | Sitagliptin + metformin | Tablet containing 50 mg sitagliptin with 500 mg metformin hydrochloride | Valid |
+| 9450J | Velmetia | Sitagliptin + metformin | Tablet containing 50 mg sitagliptin with 850 mg metformin hydrochloride | Valid |
+| 9451K | Velmetia | Sitagliptin + metformin | Tablet containing 50 mg sitagliptin with 1000 mg metformin hydrochloride | Valid |
+| 10089B | Janumet XR | Sitagliptin + metformin | Tablet (modified release) containing 100 mg sitagliptin with 1000 mg metformin hydrochloride | Valid |
+| 10090C | Janumet XR | Sitagliptin + metformin | Tablet (modified release) containing 50 mg sitagliptin with 1000 mg metformin hydrochloride | Valid |
+| 13871C | Sitagliptin Sandoz Pharma | Sitagliptin | Tablet 100 mg | Valid |
+| 13990H | Janumet XR | Sitagliptin + metformin | Tablet (modified release) containing 50 mg sitagliptin with 1000 mg metformin hydrochloride | Valid |
+| 13994M | Velmetia | Sitagliptin + metformin | Tablet containing 50 mg sitagliptin with 500 mg metformin hydrochloride | Valid |
+| 14021Y | Sitagliptin Sandoz Pharma | Sitagliptin | Tablet 25 mg | Valid |
+| 14031L | Janumet XR | Sitagliptin + metformin | Tablet (modified release) containing 100 mg sitagliptin with 1000 mg metformin hydrochloride | Valid |
+| 14035Q | Velmetia | Sitagliptin + metformin | Tablet containing 50 mg sitagliptin with 1000 mg metformin hydrochloride | Valid |
+| 14058X | Sitagliptin Sandoz Pharma | Sitagliptin | Tablet 50 mg | Valid |
+| 14064F | Velmetia | Sitagliptin + metformin | Tablet containing 50 mg sitagliptin with 850 mg metformin hydrochloride | Valid |
+| 14638K | Sidapvia 10/100 | Dapagliflozin + sitagliptin | Tablet containing 10 mg dapagliflozin (as propanediol monohydrate) with 100 mg sitagliptin (as phosphate monohydrate) | Valid |
+| 14645T | Sidapvia 10/100 | Dapagliflozin + sitagliptin | Tablet containing 10 mg dapagliflozin (as propanediol monohydrate) with 100 mg sitagliptin (as phosphate monohydrate) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

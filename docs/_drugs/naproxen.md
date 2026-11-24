@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). In Australia: 15 PBS items (14 currently listed)"
@@ -69,9 +69,29 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form |
-|---------|------|------|
-| ARTG 14854T | Pediapharm Naproxen Suspension 25 mg/mL (Medexus Pharma, Canada) | Oral suspension 125 mg per 5 mL, 474 mL (S19A) |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 1614Y | Proxen SR 750 | Naproxen | Tablet 750 mg (sustained release) | Valid |
+| 1615B | Proxen SR 1000 | Naproxen | Tablet 1 g (sustained release) | Valid |
+| 1658G | Phebra Naproxen Suspension | Naproxen | Oral suspension 125 mg per 5 mL, 474 mL | Valid |
+| 1674D | Naprosyn | Naproxen | Tablet 250 mg | Valid |
+| 1795L | Anaprox 550 | Naproxen | Tablet containing naproxen sodium 550 mg | Valid |
+| 5176K | Naprosyn | Naproxen | Tablet 250 mg | Valid |
+| 5178M | Proxen SR 750 | Naproxen | Tablet 750 mg (sustained release) | Valid |
+| 5179N | Proxen SR 1000 | Naproxen | Tablet 1 g (sustained release) | Valid |
+| 5186Y | Anaprox 550 | Naproxen | Tablet containing naproxen sodium 550 mg | Valid |
+| 5345H | Naprosyn | Naproxen | Tablet 250 mg | Valid |
+| 5347K | Proxen SR 750 | Naproxen | Tablet 750 mg (sustained release) | Valid |
+| 5348L | Proxen SR 1000 | Naproxen | Tablet 1 g (sustained release) | Valid |
+| 5353R | Anaprox 550 | Naproxen | Tablet containing naproxen sodium 550 mg | Valid |
+| 5397C | Phebra Naproxen Suspension | Naproxen | Oral suspension 125 mg per 5 mL, 474 mL | Valid |
+| 14854T | Pediapharm Naproxen Suspension 25 mg/mL (Medexus Pharma, Canada) | Naproxen | Oral suspension 125 mg per 5 mL, 474 mL (S19A) | No longer listed on the PBS Schedule |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 Fourteen current oral PBS items are recorded (tablets, sustained-release tablets and oral suspensions); the Section 19A oral suspension (imported supply) in this data is no longer listed. Approved indication text was not available in the data compiled for this report, so please refer to the Product Information.
 

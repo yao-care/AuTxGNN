@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lipegfilgrastim"
 predicted_indications: ["primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "diabetic retinopathy"]
 description: "Lipegfilgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). In Australia: 2 PBS items (2 currently listed)"
@@ -71,9 +71,16 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10931H | Lonquex | Injection 6 mg in 0.6 mL single use pre-filled syringe | Not stated in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 10931H | Lonquex | Lipegfilgrastim | Injection 6 mg in 0.6 mL single use pre-filled syringe | Valid |
+| 10936N | Lonquex | Lipegfilgrastim | Injection 6 mg in 0.6 mL single use pre-filled syringe | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

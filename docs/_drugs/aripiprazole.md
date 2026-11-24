@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Aripiprazole"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In Australia: 10 PBS items (10 currently listed)"
 ---
 
@@ -94,9 +94,24 @@ Note: PMID 38669232 (a meta-analysis of aripiprazole or bupropion augmentation) 
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 10219W | Abilify Maintena | Powder for injection 400 mg (as monohydrate) with diluent | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 8717T | Aripiprazole GH | Aripiprazole | Tablet 10 mg | Valid |
+| 8718W | Aripiprazole GH | Aripiprazole | Tablet 15 mg | Valid |
+| 8719X | Aripiprazole GH | Aripiprazole | Tablet 20 mg | Valid |
+| 8720Y | Aripiprazole GH | Aripiprazole | Tablet 30 mg | Valid |
+| 10219W | Abilify Maintena | Aripiprazole | Powder for injection 400 mg (as monohydrate) with diluent | Valid |
+| 10224D | Abilify Maintena | Aripiprazole | Powder for injection 300 mg (as monohydrate) with diluent | Valid |
+| 14790K | Abilify Asimtufii | Aripiprazole | I.M. injection (modified release) 720 mg (as monohydrate) in 2.4 mL pre-filled syringe | Valid |
+| 14824F | Abilify Asimtufii | Aripiprazole | I.M. injection (modified release) 960 mg (as monohydrate) in 3.2 mL pre-filled syringe | Valid |
+| 15122X | Abilify Maintena | Aripiprazole | Powder for injection 400 mg (as monohydrate) with diluent in pre-filled dual-chamber syringe | Valid |
+| 15128F | Abilify Maintena | Aripiprazole | Powder for injection 300 mg (as monohydrate) with diluent in pre-filled dual-chamber syringe | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

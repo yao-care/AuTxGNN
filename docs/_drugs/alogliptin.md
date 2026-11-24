@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 35
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Alogliptin: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -73,9 +73,26 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 13897K | Nesina | Tablet 6.25 mg (as benzoate) | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2933J | Nesina | Alogliptin | Tablet 12.5 mg (as benzoate) | Valid |
+| 2944Y | Nesina | Alogliptin | Tablet 6.25 mg (as benzoate) | Valid |
+| 2986E | Nesina | Alogliptin | Tablet 25 mg (as benzoate) | Valid |
+| 10032B | Nesina Met 12.5/850 | Alogliptin + metformin | Tablet containing 12.5 mg alogliptin (as benzoate) with 850 mg metformin hydrochloride | Valid |
+| 10033C | Nesina Met 12.5/500 | Alogliptin + metformin | Tablet containing 12.5 mg alogliptin (as benzoate) with 500 mg metformin hydrochloride | Valid |
+| 10035E | Nesina Met 12.5/1000 | Alogliptin + metformin | Tablet containing 12.5 mg alogliptin (as benzoate) with 1 g metformin hydrochloride | Valid |
+| 13897K | Nesina | Alogliptin | Tablet 6.25 mg (as benzoate) | Valid |
+| 13953J | Nesina | Alogliptin | Tablet 25 mg (as benzoate) | Valid |
+| 13977P | Nesina | Alogliptin | Tablet 12.5 mg (as benzoate) | Valid |
+| 13989G | Nesina Met 12.5/1000 | Alogliptin + metformin | Tablet containing 12.5 mg alogliptin (as benzoate) with 1 g metformin hydrochloride | Valid |
+| 14061C | Nesina Met 12.5/850 | Alogliptin + metformin | Tablet containing 12.5 mg alogliptin (as benzoate) with 850 mg metformin hydrochloride | Valid |
+| 14062D | Nesina Met 12.5/500 | Alogliptin + metformin | Tablet containing 12.5 mg alogliptin (as benzoate) with 500 mg metformin hydrochloride | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

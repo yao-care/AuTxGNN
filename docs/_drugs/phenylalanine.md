@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 570
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the data compiled for this report"
 monitor_inn: "phenylalanine"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -81,10 +81,17 @@ Currently no related clinical trials registered.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 9384X | Phenylalanine 50 | Oral powder sachets, 4 g containing 50 mg phenylalanine, 30 | Not recorded |
-| ARTG 11832R | TYR Sphere20 | Oral powder sachets, 35 g, 30 | Not recorded |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 9384X | Phenylalanine 50 | phenylalanine with carbohydrate | Sachets of oral powder 4 g containing 50 mg phenylalanine, 30 (Phenylalanine 50) | Valid |
+| 11832R | TYR Sphere20 | glycomacropeptide and essential amino acid formula with vitamins, minerals, and low in ty… | Sachets containing oral powder 35 g, 30 (TYR Sphere20) | Valid |
+| 12175T | Tylactin Build 20 | glycomacropeptide and essential amino acid formula with vitamins, minerals, and low in ty… | Sachets containing oral powder 31 g, 30 (Tylactin Build 20) | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

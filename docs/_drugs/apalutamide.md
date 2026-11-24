@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 53
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Apalutamide: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,9 +74,16 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Apalutamide,
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 12992T | Erlyand | Tablet 60 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12992T | Erlyand | Apalutamide | Tablet 60 mg | Valid |
+| 13288J | Erlyand | Apalutamide | Tablet 60 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

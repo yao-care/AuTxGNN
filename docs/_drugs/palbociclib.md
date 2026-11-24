@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 542
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Palbociclib: predicted new indication Hyperthyroidism (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Palbociclib"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
@@ -96,9 +96,17 @@ For reference, selected publications for the better-supported predictions:
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 12818P | Ibrance | Tablet 75 mg | Not available in the compiled data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 12818P | Ibrance | Palbociclib | Tablet 75 mg | Valid |
+| 12819Q | Ibrance | Palbociclib | Tablet 100 mg | Valid |
+| 12822W | Ibrance | Palbociclib | Tablet 125 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

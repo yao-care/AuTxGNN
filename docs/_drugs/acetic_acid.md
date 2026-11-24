@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 20
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetic Acid: predicted new indication Post-bacterial disorder (evidence level L5). Approved use: Otitis externa"
 monitor_inn: "Acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
@@ -96,13 +96,32 @@ One further retrieved paper (PMID 30941788) is an analytical chemistry study unr
 
 ## Australia Market Information
 
-Four current PBS items are recorded: three single-ingredient acetic acid entries (102J, 710J and 101H) and Aci-Jel vaginal jelly (4434J), a combination with oxyquinoline and ricinoleic acid. Product names, dosage forms and approved indication text were not available in the data compiled for this report, so a product table cannot be provided.
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 101H | – | Acetic Acid (33 per cent) | – | Valid |
+| 102J | – | Acetic Acid (6 per cent) | – | Valid |
+| 710J | – | Acetic Acid Glacial BP | – | Valid |
+| 4434J | Aci-Jel | acetic acid + oxyquinoline + ricinoleic acid | Vaginal jelly 7.5 mg-9.4 mg-250 micrograms per g (0.75%-0.94%-0.025%), 100 g | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
+
+Four current PBS items are recorded: three single-ingredient acetic acid entries (102J, 710J and 101H) and Aci-Jel vaginal jelly (4434J), a combination with oxyquinoline and ricinoleic acid. Product names and dosage forms are not recorded for the three single-ingredient entries, and approved indication text is not available in the data compiled for this report.
 
 <!-- review:begin au-lic-20261117-acetic_acid-1 -->
 
 > **Review correction (2026-11-17)**: Originally stated: "Three valid single-ingredient licence entries are recorded (102J, 710J and 101H)." Corrected: the earlier wording counted only the PBS items originally collected for this page. The data now include the current PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
 
 <!-- review:end au-lic-20261117-acetic_acid-1 -->
+
+<!-- review:begin au-lic-20261124-acetic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Product names, dosage forms and approved indication text were not available in the data compiled for this report, so a product table cannot be provided." Corrected: a PBS item table is now shown; Aci-Jel (4434J) has a product name and dosage form in the PBS data, while the three single-ingredient entries do not. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124-acetic_acid-1 -->
 
 ## Safety Considerations
 
@@ -137,6 +156,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d) |
+| 2026-11-24 | Corrected: a product table is now shown; product details are missing only for the single-ingredient entries | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

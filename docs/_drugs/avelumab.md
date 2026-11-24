@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Avelumab"
 predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "kidney pelvis sarcomatoid transitional cell carcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Avelumab: predicted new indication human herpesvirus 8-related tumor (evidence level L5). In Australia: 8 PBS items (8 currently listed)"
 ---
 
@@ -78,9 +78,22 @@ Currently no related literature available.
 
 ## Australia Market Information
 
-| ARTG Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| ARTG 11671G | Bavencio | Solution concentrate for I.V. infusion 200 mg in 10 mL | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11671G | Bavencio | Avelumab | Solution concentrate for I.V. infusion 200 mg in 10 mL | Valid |
+| 11679Q | Bavencio | Avelumab | Solution concentrate for I.V. infusion 200 mg in 10 mL | Valid |
+| 11685B | Bavencio | Avelumab | Solution concentrate for I.V. infusion 200 mg in 10 mL | Valid |
+| 11695M | Bavencio | Avelumab | Solution concentrate for I.V. infusion 200 mg in 10 mL | Valid |
+| 13122P | Bavencio | Avelumab | Solution concentrate for I.V. infusion 200 mg in 10 mL | Valid |
+| 13123Q | Bavencio | Avelumab | Solution concentrate for I.V. infusion 200 mg in 10 mL | Valid |
+| 13126W | Bavencio | Avelumab | Solution concentrate for I.V. infusion 200 mg in 10 mL | Valid |
+| 13132E | Bavencio | Avelumab | Solution concentrate for I.V. infusion 200 mg in 10 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ---
 

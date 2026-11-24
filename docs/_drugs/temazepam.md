@@ -3,7 +3,7 @@ layout: default
 title: Temazepam
 parent: Known Uses Only (No New Predictions)
 nav_order: 704
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Temazepam: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -70,9 +70,18 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Temazepam
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 2088X | Temtabs | Tablet 10 mg | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 2088X | Temtabs | Temazepam | Tablet 10 mg | Valid |
+| 2089Y | Temtabs | Temazepam | Tablet 10 mg | Valid |
+| 5221T | Temtabs | Temazepam | Tablet 10 mg | Valid |
+| 5375X | Temtabs | Temazepam | Tablet 10 mg | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

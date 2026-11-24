@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 508
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Nivolumab: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -83,9 +83,28 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Nivolumab, s
 
 ## Australia Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 11900H | Opdivo | Injection concentrate for I.V. infusion  | Valid |
+<!-- licenses:begin -->
+
+| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
+|------|------|------|------|------|
+| 11900H | Opdivo | Nivolumab | Injection concentrate for I.V. infusion 100 mg in 10 mL | Valid |
+| 11906P | Opdivo | Nivolumab | Injection concentrate for I.V. infusion 100 mg in 10 mL | Valid |
+| 13240W | Opdivo | Nivolumab | Injection concentrate for I.V. infusion 100 mg in 10 mL | Valid |
+| 13246E | Opdivo | Nivolumab | Injection concentrate for I.V. infusion 100 mg in 10 mL | Valid |
+| 14231B | Opdivo | Nivolumab | Injection concentrate for I.V. infusion 100 mg in 10 mL | Valid |
+| 14232C | Opdivo | Nivolumab | Injection concentrate for I.V. infusion 100 mg in 10 mL | Valid |
+| 14233D | Opdivo | Nivolumab | Injection concentrate for I.V. infusion 100 mg in 10 mL | Valid |
+| 14260M | Opdivo | Nivolumab | Injection concentrate for I.V. infusion 100 mg in 10 mL | Valid |
+| 14664T | Opdualag | nivolumab + relatlimab | Solution concentrate for I.V. infusion containing 240 mg nivolumab and 80 mg relatlimab in 20 mL | Valid |
+| 14676K | Opdualag | nivolumab + relatlimab | Solution concentrate for I.V. infusion containing 240 mg nivolumab and 80 mg relatlimab in 20 mL | Valid |
+| 14677L | Opdualag | nivolumab + relatlimab | Solution concentrate for I.V. infusion containing 240 mg nivolumab and 80 mg relatlimab in 20 mL | Valid |
+| 14678M | Opdualag | nivolumab + relatlimab | Solution concentrate for I.V. infusion containing 240 mg nivolumab and 80 mg relatlimab in 20 mL | Valid |
+| 15224G | Opdivo | Nivolumab | Injection concentrate for I.V. infusion 100 mg in 10 mL | Valid |
+| 15238B | Opdivo | Nivolumab | Injection concentrate for I.V. infusion 100 mg in 10 mL | Valid |
+
+Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
