@@ -117,7 +117,7 @@
     "i": "seborrheic dermatitis",
     "lt": 0,
     "lv": 20,
-    "r": 2,
+    "r": 3,
     "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
@@ -150,8 +150,8 @@
     "i": "migraine disorder",
     "lt": 14,
     "lv": 14,
-    "r": 1,
-    "rs": "\"Detailed mechanism-of-action data beyond this receptor-blocking role are not available in the data compiled…",
+    "r": 3,
+    "rs": "Corrected: strengths updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -227,8 +227,8 @@
     "i": "plasma cell myeloma",
     "lt": 4,
     "lv": 3,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the compiled data\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -249,8 +249,8 @@
     "i": "alopecia areata",
     "lt": 12,
     "lv": 12,
-    "r": 2,
-    "rs": "Corrected: PBS item count updated to the current PBS Schedule",
+    "r": 3,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -315,7 +315,7 @@
     "i": "insomnia (disease)",
     "lt": 9,
     "lv": 9,
-    "r": 2,
+    "r": 3,
     "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
@@ -403,8 +403,8 @@
     "i": "alopecia areata",
     "lt": 9,
     "lv": 9,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: dosage forms and strengths updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -458,8 +458,8 @@
     "i": "Ewing sarcoma",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    }
   ],
@@ -482,7 +482,7 @@
   "with_current": 66,
   "none_current": 0,
   "without_data": 6,
-  "with_reviews": 57,
+  "with_reviews": 58,
   "rows": [
    {
     "t": "Abatacept",
@@ -546,8 +546,8 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -557,8 +557,8 @@
     "i": "restless legs syndrome",
     "lt": 11,
     "lv": 11,
-    "r": 1,
-    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -579,8 +579,8 @@
     "i": "amenorrhea (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 3,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -601,8 +601,8 @@
     "i": "Sjogren syndrome",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Corrected: PBS item count updated to the current PBS Schedule",
+    "r": 2,
+    "rs": "Corrected: strengths updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -667,8 +667,8 @@
     "i": "pulmonary hypertension",
     "lt": 9,
     "lv": 9,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the compiled data\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -997,8 +997,8 @@
     "i": "renal tubular acidosis",
     "lt": 10,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: the only single-ingredient product is distinguished from combination products",
     "x": 0
    },
    {
@@ -1096,8 +1096,8 @@
     "i": "conjunctivitis",
     "lt": 9,
     "lv": 9,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 3,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -1140,7 +1140,7 @@
     "i": "exposure keratitis",
     "lt": 8,
     "lv": 8,
-    "r": 2,
+    "r": 3,
     "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
@@ -1229,7 +1229,7 @@
   "with_current": 482,
   "none_current": 2,
   "without_data": 44,
-  "with_reviews": 438,
+  "with_reviews": 441,
   "rows": [
    {
     "t": "Adalimumab",
@@ -1304,7 +1304,7 @@
     "i": "atopic eczema",
     "lt": 0,
     "lv": 20,
-    "r": 2,
+    "r": 4,
     "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
@@ -1315,8 +1315,8 @@
     "i": "acute intermittent porphyria",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -1337,7 +1337,7 @@
     "i": "granulomatous disease, chronic, autosomal recessive",
     "lt": 0,
     "lv": 20,
-    "r": 2,
+    "r": 3,
     "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
@@ -1359,8 +1359,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "r": 3,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -1546,8 +1546,8 @@
     "i": "pulmonary blastoma",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -1557,7 +1557,7 @@
     "i": "alopecia mucinosa",
     "lt": 0,
     "lv": 20,
-    "r": 2,
+    "r": 3,
     "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
@@ -1568,8 +1568,8 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the compiled data\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -2030,8 +2030,8 @@
     "i": "glaucoma",
     "lt": 14,
     "lv": 14,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 3,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -2041,7 +2041,7 @@
     "i": "papillary conjunctivitis",
     "lt": 14,
     "lv": 14,
-    "r": 2,
+    "r": 4,
     "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
@@ -2327,8 +2327,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 10,
     "lv": 10,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not otherwise available in the data compiled for this report\" replaced…",
+    "r": 3,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -2459,8 +2459,8 @@
     "i": "alopecia mucinosa",
     "lt": 9,
     "lv": 9,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data for dexamethasone is not available in the compiled data\"…",
+    "r": 3,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -2470,8 +2470,8 @@
     "i": "conjunctivitis",
     "lt": 9,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -2492,8 +2492,8 @@
     "i": "congenital disorder of glycosylation with defective fucosylation",
     "lt": 9,
     "lv": 9,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data for this drug is not available in the data compiled for this…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -2635,8 +2635,8 @@
     "i": "beta-ketothiolase deficiency",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: dosage forms and strengths updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -2679,8 +2679,8 @@
     "i": "disease of orbital region",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -2701,8 +2701,8 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -2734,8 +2734,8 @@
     "i": "papillary conjunctivitis",
     "lt": 8,
     "lv": 8,
-    "r": 2,
-    "rs": "Corrected: PBS item count updated to the current PBS Schedule",
+    "r": 3,
+    "rs": "Corrected: removed the assumption that there are only two entries",
     "x": 0
    },
    {
@@ -2756,8 +2756,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 8,
     "lv": 8,
-    "r": 2,
-    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
+    "r": 3,
+    "rs": "Corrected: the only single-ingredient product is distinguished from combination products",
     "x": 0
    },
    {
@@ -2866,7 +2866,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 6,
     "lv": 6,
-    "r": 2,
+    "r": 3,
     "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
@@ -2943,8 +2943,8 @@
     "i": "acromesomelic dysplasia, Campailla Martinelli type",
     "lt": 6,
     "lv": 6,
-    "r": 2,
-    "rs": "Corrected: PBS item count updated to the current PBS Schedule",
+    "r": 3,
+    "rs": "Corrected: removed the assumption that only one entry was found",
     "x": 0
    },
    {
@@ -2987,8 +2987,8 @@
     "i": "hepatic porphyria",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: dosage forms and strengths updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -3020,8 +3020,8 @@
     "i": "post-infectious neuralgia",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: strengths updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -3031,7 +3031,7 @@
     "i": "botryoid-type embryonal rhabdomyosarcoma of the vagina",
     "lt": 6,
     "lv": 6,
-    "r": 2,
+    "r": 4,
     "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
@@ -3229,8 +3229,8 @@
     "i": "migraine disorder",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -3251,8 +3251,8 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -3262,8 +3262,8 @@
     "i": "parameningeal embryonal rhabdomyosarcoma",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -3328,8 +3328,8 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 3,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -3625,7 +3625,7 @@
     "i": "well-differentiated fetal adenocarcinoma of the lung",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
@@ -3691,7 +3691,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
@@ -3867,7 +3867,7 @@
     "i": "pleural empyema (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
@@ -4087,8 +4087,8 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -4098,8 +4098,8 @@
     "i": "cauda equina syndrome",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 2,
+    "rs": "Corrected: strengths updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -4131,8 +4131,8 @@
     "i": "gastroparesis (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 2,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -4307,7 +4307,7 @@
     "i": "Plummer-Vinson syndrome",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
@@ -4340,8 +4340,8 @@
     "i": "prostate leiomyoma",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: removed the assumption that only one entry was found",
     "x": 0
    },
    {
@@ -4417,8 +4417,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 3,
+    "rs": "Corrected: dosage forms updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -4439,8 +4439,8 @@
     "i": "rheumatoid arthritis",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the compiled data\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Corrected: strengths updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -4923,8 +4923,8 @@
     "i": "hypertrichosis (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: strengths updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -5176,8 +5176,8 @@
     "i": "autoimmune oophoritis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: the single-ingredient product is now included",
     "x": 0
    },
    {
@@ -5385,8 +5385,8 @@
     "i": "multiple endocrine neoplasia",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 2,
+    "rs": "Corrected: strengths updated to the current PBS Schedule",
     "x": 0
    },
    {
@@ -5561,8 +5561,8 @@
     "i": "migraine disorder",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: strengths updated to the current PBS Schedule",
     "x": 0
    },
    {

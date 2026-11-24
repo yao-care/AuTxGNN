@@ -156,18 +156,25 @@ Warnings and label contraindications were not available. Please refer to the TGA
 - Mechanism of action data from DrugBank
 - A chickenpox-specific efficacy study, or a regulatory review of extrapolation from zoster and paediatric PK data
 - A trial of famciclovir for preventing postherpetic neuralgia, if that indication is pursued
-- Paediatric dosing and formulation availability in Australia, as the current ARTG entry is a 250 mg tablet only
+- Paediatric dosing and formulation availability in Australia, as the listed PBS items are tablets only (125 mg, 250 mg and 500 mg)
 - Review of the 84 interaction entries, which have no severity classification, and of the renal impairment flags
+
+<!-- review:begin au-lic-20261124b-famciclovir-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "as the current ARTG entry is a 250 mg tablet only" Corrected: the earlier wording described the strengths of only the PBS items originally collected for this page. The current PBS items for this ingredient include other strengths (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-famciclovir-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761) |
+| 2026-11-24 | Corrected: strengths updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

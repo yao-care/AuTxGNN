@@ -123,7 +123,13 @@ Product Information warnings and contraindications were not available. The follo
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials or literature behind it (L5). The proposed indication is often viral or inflammatory, so a DHFR-inhibiting antibacterial has no clear mechanistic role. The only Australian product is an oral tablet.
+The prediction has no trials or literature behind it (L5). The proposed indication is often viral or inflammatory, so a DHFR-inhibiting antibacterial has no clear mechanistic role. The only single-ingredient Australian product is an oral tablet (combinations with sulfamethoxazole are also listed as tablets and a paediatric oral suspension).
+
+<!-- review:begin au-lic-20261124b-trimethoprim-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only Australian product is an oral tablet." Corrected: the earlier wording did not distinguish the single-ingredient product from the combination products that are also PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-trimethoprim-1 -->
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a clear causal link (bacterial versus viral or inflammatory aetiology) for punctate epithelial keratoconjunctivitis
@@ -146,6 +152,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
+| 2026-11-24 | Corrected: the only single-ingredient product is distinguished from combination products | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

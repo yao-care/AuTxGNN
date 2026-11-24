@@ -21,11 +21,11 @@
   "items_current": 3505
  },
  "reviews": {
-  "records": 612,
-  "pages": 535,
-  "public_pages_with_records": 534,
+  "records": 681,
+  "pages": 539,
+  "public_pages_with_records": 538,
   "by_action": {
-   "correct": 86,
+   "correct": 155,
    "mechanism": 526
   }
  },
@@ -139,6 +139,33 @@
  "no_current_more": 0,
  "most_reviewed": [
   {
+   "t": "Budesonide",
+   "u": "/drugs/budesonide/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 20,
+   "r": 4,
+   "i": "atopic eczema"
+  },
+  {
+   "t": "Fluorouracil",
+   "u": "/drugs/fluorouracil/",
+   "l": "L5",
+   "lt": 6,
+   "lv": 6,
+   "r": 4,
+   "i": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
+  },
+  {
+   "t": "Salbutamol",
+   "u": "/drugs/salbutamol/",
+   "l": "L5",
+   "lt": 14,
+   "lv": 14,
+   "r": 4,
+   "i": "papillary conjunctivitis"
+  },
+  {
    "t": "Acetic Acid",
    "u": "/drugs/acetic-acid/",
    "l": "L5",
@@ -148,49 +175,22 @@
    "i": "post-bacterial disorder"
   },
   {
-   "t": "Emtricitabine",
-   "u": "/drugs/emtricitabine/",
-   "l": "L5",
-   "lt": 17,
-   "lv": 17,
-   "r": 3,
-   "i": "feline acquired immunodeficiency syndrome"
-  },
-  {
-   "t": "Acetylsalicylic Acid",
-   "u": "/drugs/acetylsalicylic-acid/",
-   "l": "L5",
-   "lt": 9,
-   "lv": 9,
-   "r": 2,
-   "i": "atrophoderma vermiculata"
-  },
-  {
    "t": "Acyclovir",
    "u": "/drugs/acyclovir/",
    "l": "L5",
    "lt": 6,
    "lv": 6,
-   "r": 2,
+   "r": 3,
    "i": "punctate epithelial keratoconjunctivitis"
   },
   {
-   "t": "Adalimumab",
-   "u": "/drugs/adalimumab/",
+   "t": "Baclofen",
+   "u": "/drugs/baclofen/",
    "l": "L5",
-   "lt": 0,
-   "lv": 20,
-   "r": 2,
-   "i": "hypermobility of coccyx"
-  },
-  {
-   "t": "Amiodarone",
-   "u": "/drugs/amiodarone/",
-   "l": "L5",
-   "lt": 2,
-   "lv": 2,
-   "r": 2,
-   "i": "catecholaminergic polymorphic ventricular tachycardia"
+   "lt": 10,
+   "lv": 10,
+   "r": 3,
+   "i": "attention deficit-hyperactivity disorder"
   }
  ],
  "example": {
@@ -204,197 +204,197 @@
  },
  "recent_reviews": [
   {
-   "t": "Emtricitabine",
-   "u": "/drugs/emtricitabine/",
-   "s": "Corrected: Genvoya and Symtuza codes are PBS item codes; wording no longer refers to the old table",
+   "t": "Vinorelbine",
+   "u": "/drugs/vinorelbine/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
    "d": "2026-11-24"
-  },
-  {
-   "t": "Acetic Acid",
-   "u": "/drugs/acetic-acid/",
-   "s": "Corrected: a product table is now shown; product details are missing only for the single-ingredient entries",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Tyrosine",
-   "u": "/drugs/tyrosine/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Terbutaline",
-   "u": "/drugs/terbutaline/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Temozolomide",
-   "u": "/drugs/temozolomide/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Propylene Glycol",
-   "u": "/drugs/propylene-glycol/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Isoleucine",
-   "u": "/drugs/isoleucine/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Hydrocortisone",
-   "u": "/drugs/hydrocortisone/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Codeine",
-   "u": "/drugs/codeine/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Vilanterol",
-   "u": "/drugs/vilanterol/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
   },
   {
    "t": "Trimethoprim",
    "u": "/drugs/trimethoprim/",
-   "s": "Corrected: dosage forms updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Triamcinolone",
-   "u": "/drugs/triamcinolone/",
-   "s": "Corrected: dosage forms updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Travoprost",
-   "u": "/drugs/travoprost/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "s": "Corrected: the only single-ingredient product is distinguished from combination products",
+   "d": "2026-11-24"
   },
   {
    "t": "Tobramycin",
    "u": "/drugs/tobramycin/",
    "s": "Corrected: dosage forms updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "d": "2026-11-24"
   },
   {
-   "t": "Tipiracil",
-   "u": "/drugs/tipiracil/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Tezacaftor",
-   "u": "/drugs/tezacaftor/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Tenofovir Alafenamide",
-   "u": "/drugs/tenofovir-alafenamide/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "t": "Threonine",
+   "u": "/drugs/threonine/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-24"
   },
   {
    "t": "Tacrolimus",
    "u": "/drugs/tacrolimus/",
    "s": "Corrected: dosage forms updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "d": "2026-11-24"
   },
   {
-   "t": "Spironolactone",
-   "u": "/drugs/spironolactone/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "t": "Sulthiame",
+   "u": "/drugs/sulthiame/",
+   "s": "Corrected: strengths updated to the current PBS Schedule",
+   "d": "2026-11-24"
   },
   {
-   "t": "Sorafenib",
-   "u": "/drugs/sorafenib/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Sirolimus",
-   "u": "/drugs/sirolimus/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "t": "Sulfasalazine",
+   "u": "/drugs/sulfasalazine/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-24"
   },
   {
    "t": "Salicylic Acid",
    "u": "/drugs/salicylic-acid/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "s": "Corrected: removed the assumption that there are only two entries",
+   "d": "2026-11-24"
   },
   {
    "t": "Salbutamol",
    "u": "/drugs/salbutamol/",
    "s": "Corrected: dosage forms updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "d": "2026-11-24"
   },
   {
-   "t": "Risperidone",
-   "u": "/drugs/risperidone/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
-   "d": "2026-11-17"
+   "t": "Rivastigmine",
+   "u": "/drugs/rivastigmine/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Rifampicin",
+   "u": "/drugs/rifampicin/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Prochlorperazine",
+   "u": "/drugs/prochlorperazine/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Prednisolone",
+   "u": "/drugs/prednisolone/",
+   "s": "Corrected: dosage forms and strengths updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Potassium Chloride",
+   "u": "/drugs/potassium-chloride/",
+   "s": "Corrected: the only single-ingredient product is distinguished from combination products",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Phenytoin",
+   "u": "/drugs/phenytoin/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Periciazine",
+   "u": "/drugs/periciazine/",
+   "s": "Corrected: strengths updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Obeticholic Acid",
+   "u": "/drugs/obeticholic-acid/",
+   "s": "Corrected: strengths updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Nystatin",
+   "u": "/drugs/nystatin/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Nitroglycerin",
+   "u": "/drugs/nitroglycerin/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Mupirocin",
+   "u": "/drugs/mupirocin/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Mometasone",
+   "u": "/drugs/mometasone/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Midazolam",
+   "u": "/drugs/midazolam/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Methylprednisolone",
+   "u": "/drugs/methylprednisolone/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Methotrexate",
+   "u": "/drugs/methotrexate/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
+   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Emtricitabine",
-   "u": "/drugs/emtricitabine/",
-   "s": "Corrected: Genvoya and Symtuza codes are PBS item codes; wording no longer refers to the old table",
+   "t": "Vinorelbine",
+   "u": "/drugs/vinorelbine/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
    "d": "2026-11-24"
   },
   {
-   "t": "Acetic Acid",
-   "u": "/drugs/acetic-acid/",
-   "s": "Corrected: a product table is now shown; product details are missing only for the single-ingredient entries",
+   "t": "Trimethoprim",
+   "u": "/drugs/trimethoprim/",
+   "s": "Corrected: the only single-ingredient product is distinguished from combination products",
    "d": "2026-11-24"
   },
   {
-   "t": "Tyrosine",
-   "u": "/drugs/tyrosine/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "t": "Tobramycin",
+   "u": "/drugs/tobramycin/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
    "d": "2026-11-24"
   },
   {
-   "t": "Terbutaline",
-   "u": "/drugs/terbutaline/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "t": "Threonine",
+   "u": "/drugs/threonine/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
    "d": "2026-11-24"
   },
   {
-   "t": "Temozolomide",
-   "u": "/drugs/temozolomide/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "t": "Tacrolimus",
+   "u": "/drugs/tacrolimus/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
    "d": "2026-11-24"
   },
   {
-   "t": "Propylene Glycol",
-   "u": "/drugs/propylene-glycol/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "t": "Sulthiame",
+   "u": "/drugs/sulthiame/",
+   "s": "Corrected: strengths updated to the current PBS Schedule",
    "d": "2026-11-24"
   },
   {
-   "t": "Isoleucine",
-   "u": "/drugs/isoleucine/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "t": "Sulfasalazine",
+   "u": "/drugs/sulfasalazine/",
+   "s": "Corrected: dosage forms updated to the current PBS Schedule",
    "d": "2026-11-24"
   },
   {
-   "t": "Hydrocortisone",
-   "u": "/drugs/hydrocortisone/",
-   "s": "Corrected: PBS item count updated to the current PBS Schedule",
+   "t": "Salicylic Acid",
+   "u": "/drugs/salicylic-acid/",
+   "s": "Corrected: removed the assumption that there are only two entries",
    "d": "2026-11-24"
   }
  ],

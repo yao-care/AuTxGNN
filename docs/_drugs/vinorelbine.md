@@ -131,17 +131,24 @@ Vinorelbine has an established role in NSCLC, a plausible antimitotic mechanism,
 - Ewing sarcoma-specific results from the mixed-population Phase 2 trials (NCT00180947, NCT00003234) and the outcome of INTER-EWING-1
 - Detailed mechanism of action data (MOA) and the TGA Product Information, including approved indications, warnings and contraindications
 - A paediatric-specific safety and dosing plan, including myelosuppression monitoring and management of the major interaction with clarithromycin
-- Confirmation of route and formulation suitability, noting that the Australian listing is an intravenous solution only
+- Confirmation of route and formulation suitability, noting that the Australian listings are an intravenous solution and oral capsules
+
+<!-- review:begin au-lic-20261124b-vinorelbine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "noting that the Australian listing is an intravenous solution only" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-vinorelbine-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

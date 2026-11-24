@@ -100,24 +100,38 @@ Additional information from the compiled data:
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score but no direct clinical or literature support, so the evidence level is L5. Ocular surface use of lidocaine also raises a plausible epithelial toxicity concern. The only Australian licence listed is an injectable product, which does not match an ocular surface route.
+The prediction has a very high model score but no direct clinical or literature support, so the evidence level is L5. Ocular surface use of lidocaine also raises a plausible epithelial toxicity concern. The Australian PBS items are injectable products and a viscous oral solution (Xylocaine Viscous), none of which matches an ocular surface route.
+
+<!-- review:begin au-lic-20261124b-lidocaine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only Australian licence listed is an injectable product, which does not match an ocular surface route." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-lidocaine-1 -->
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a clear mechanistic rationale for punctate epithelial keratoconjunctivitis
 - Preclinical or clinical studies that directly test lidocaine in this disease, including corneal epithelial safety
-- A suitable ophthalmic formulation and route assessment, as the current ARTG entry is an injection
+- A suitable ophthalmic formulation and route assessment, as the listed PBS items are injections and a viscous oral solution
 - The approved indication text and the PI warnings and contraindications for the listed product
 - Review of the interaction and contraindication signals above against the PI
+
+<!-- review:begin au-lic-20261124b-lidocaine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "as the current ARTG entry is an injection" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-lidocaine-2 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

@@ -94,8 +94,14 @@ Source: PBS Schedule, PBS public data API (Department of Health, Disability and 
 ## Safety Considerations
 
 - **Drug interactions:** The interaction records compiled for this report are pharmacological target records (estriol binding oestrogen receptor-α and receptor-β), not drug-drug interactions.
-- **Route consideration:** The only Australian product is a vaginal cream. The FHA evidence used oestrogen administration that may differ in route and dose. Route compatibility has not been assessed.
+- **Route consideration:** The Australian products are for vaginal use (a vaginal cream and pessaries). The FHA evidence used oestrogen administration that may differ in route and dose. Route compatibility has not been assessed.
 - **Theoretical concerns:** Exogenous oestrogen is associated with proliferative effects on breast tissue, which matters for the lower-ranked breast-related predictions. Oestrogens also generally suppress lactation.
+
+<!-- review:begin au-lic-20261124b-estriol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "**Route consideration:** The only Australian product is a vaginal cream." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-estriol-1 -->
 
 Please refer to the TGA-approved Product Information (PI) for full warnings, contraindications and interaction information.
 
@@ -108,7 +114,13 @@ The other top-10 predictions are weaker. All were rated Hold.
 **Decision: Hold (treat as a research question)**
 
 **Rationale:**
-The prediction score is high, and there is a plausible neuroendocrine rationale and one small physiological study in FHA. However, there are no registered trials, no outcome data such as return of menses, and the only Australian product is a vaginal cream with no recorded indication in the data compiled for this report. The evidence level is L3 at best.
+The prediction score is high, and there is a plausible neuroendocrine rationale and one small physiological study in FHA. However, there are no registered trials, no outcome data such as return of menses, and the Australian products (a vaginal cream and pessaries) have no recorded indication in the data compiled for this report. The evidence level is L3 at best.
+
+<!-- review:begin au-lic-20261124b-estriol-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and the only Australian product is a vaginal cream with no recorded indication" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-estriol-2 -->
 
 **To proceed, the following is needed:**
 - The TGA-approved Product Information (warnings, contraindications and approved indications), as safety screening cannot proceed without it
@@ -121,11 +133,13 @@ The prediction score is high, and there is a plausible neuroendocrine rationale 
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

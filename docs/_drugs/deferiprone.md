@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Deferiprone is an oral iron chelator supplied in Australia as a 1000 mg tablet (Ferriprox).
+Deferiprone is an oral iron chelator supplied in Australia as Ferriprox tablets (500 mg and 1000 mg) and oral solution.
 The TxGNN model predicts it may be useful for **hepatic porphyria**, with a score of **0.9920**.
 Support comes from **2 publications** (one case-level preclinical report and one mouse study) and **no registered clinical trials**.
+
+<!-- review:begin au-lic-20261124b-deferiprone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "supplied in Australia as a 1000 mg tablet (Ferriprox)." Corrected: the earlier wording described the dosage forms and strengths of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms and strengths (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-deferiprone-1 -->
 
 ## Quick Overview
 
@@ -117,11 +123,12 @@ The prediction is scored highly by the model, but no cited study examines hepati
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86) |
+| 2026-11-24 | Corrected: dosage forms and strengths updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

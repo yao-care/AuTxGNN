@@ -160,19 +160,26 @@ Label warnings and contraindications were not available in the data compiled for
 - Mechanism of action data to be retrieved (DrugBank)
 - Product Information warnings and contraindications to be retrieved from the TGA, since the safety screening could not be completed
 - The approved indication text for ARTG 10174L, for comparison with the predicted indication
-- Confirmation of the ARTG entry count, as only one entry was found
+- Confirmation of the ARTG entry count (the PBS data list several Xtandi items and do not show ARTG registration status)
 - A safety monitoring plan for elderly patients and those on interacting medicines
 - For any novel indication (such as benign prostate neoplasms), preclinical or early-phase evidence of androgen receptor dependency and a benefit-risk assessment
+
+<!-- review:begin au-lic-20261124b-enzalutamide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the ARTG entry count, as only one entry was found" Corrected: the data compiled for this report list more than one PBS item for this ingredient; see the PBS item table in the Australia Market Information section. PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-enzalutamide-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf) |
+| 2026-11-24 | Corrected: removed the assumption that only one entry was found | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

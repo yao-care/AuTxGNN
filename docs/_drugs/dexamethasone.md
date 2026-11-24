@@ -62,7 +62,13 @@ According to the Mechanism of Action section of the US FDA-approved prescribing 
 
 This rationale is general. No dexamethasone-specific mechanism, study or case data for alopecia mucinosa were provided. The only support is the high model score (0.9999), so the prediction is a hypothesis for further investigation, not an evidence-based recommendation.
 
-The only Australian licence on record is an intravitreal (eye) injection. Route compatibility with a skin or hair-follicle condition has not been assessed and would need to be addressed.
+The Australian PBS items on record are intravitreal (eye) injections (Ozurdex) and oral tablets, plus a combination ear drop. Route compatibility with a skin or hair-follicle condition has not been assessed and would need to be addressed.
+
+<!-- review:begin au-lic-20261124b-dexamethasone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only Australian licence on record is an intravitreal (eye) injection." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-dexamethasone-1 -->
 
 ---
 
@@ -119,7 +125,13 @@ TGA-approved Product Information (PI) warnings and contraindications were not av
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no trials, no publications and no dexamethasone-specific mechanistic data for alopecia mucinosa (evidence level L5). The only Australian licence is an intravitreal product, which does not match a dermatological use.
+The prediction rests only on a model score, with no trials, no publications and no dexamethasone-specific mechanistic data for alopecia mucinosa (evidence level L5). The Australian PBS items are intravitreal injections and oral tablets (plus a combination ear drop), none of which matches a dermatological use.
+
+<!-- review:begin au-lic-20261124b-dexamethasone-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only Australian licence is an intravitreal product, which does not match a dermatological use." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-dexamethasone-2 -->
 
 **To proceed, the following is needed:**
 - Literature review for case reports or studies of corticosteroids in alopecia mucinosa
@@ -132,11 +144,13 @@ The prediction rests only on a model score, with no trials, no publications and 
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data for dexamethasone is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

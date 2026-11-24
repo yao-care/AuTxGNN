@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Baclofen is a GABA-B receptor agonist available in Australia as an intrathecal injection. The TxGNN model predicts it may be useful for **attention deficit-hyperactivity disorder**, but the data compiled for this report contain **no clinical trials** and **9 publications**, none of which test baclofen in this condition. The prediction is therefore supported by the model alone.
+Baclofen is a GABA-B receptor agonist available in Australia as intrathecal injections and oral tablets. The TxGNN model predicts it may be useful for **attention deficit-hyperactivity disorder**, but the data compiled for this report contain **no clinical trials** and **9 publications**, none of which test baclofen in this condition. The prediction is therefore supported by the model alone.
+
+<!-- review:begin au-lic-20261124b-baclofen-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "available in Australia as an intrathecal injection." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-baclofen-1 -->
 
 ## Quick Overview
 
@@ -111,18 +117,26 @@ No clinical trial or publication in the data compiled for this report studies ba
 **To proceed, the following is needed:**
 - Clinical studies or systematic reviews of baclofen in ADHD, and preclinical work on GABA-B modulation of attention and impulsivity
 - Detailed mechanism of action data
-- TGA Product Information warnings and contraindications for safety screening, noting that the only listed product is an intrathecal injection and that route compatibility with this use has not been assessed
+- TGA Product Information warnings and contraindications for safety screening, noting that the listed products are intrathecal injections and oral tablets and that route compatibility with this use has not been assessed
 - A safety review for the neuropsychiatric population, given the DDI signals above
+
+<!-- review:begin au-lic-20261124b-baclofen-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "noting that the only listed product is an intrathecal injection and that" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-baclofen-2 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-20 | "Detailed mechanism of action data are not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

@@ -114,8 +114,14 @@ The prediction rests on a model score alone (L5), with no trials, no literature 
 - Mechanism of action data for docusate, and a testable hypothesis for Plummer-Vinson syndrome
 - Product Information warnings and contraindications for a relevant formulation
 - Any preclinical or clinical evidence supporting benefit in the predicted condition
-- A route and formulation assessment, since the only ARTG entry is an ear-drop product
+- A route and formulation assessment, since the listed products are an ear-drop product and oral tablets
 - Consideration of whether a more established treatment, such as iron replacement and oesophageal dilatation for Plummer-Vinson syndrome, already addresses the need
+
+<!-- review:begin au-lic-20261124b-docusate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since the only ARTG entry is an ear-drop product" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-docusate-1 -->
 
 <!-- review:begin log -->
 
@@ -127,6 +133,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

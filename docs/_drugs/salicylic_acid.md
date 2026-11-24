@@ -113,11 +113,17 @@ No label-based warnings or contraindications were available. Please refer to the
 The prediction for papillary conjunctivitis rests solely on a model score, with no clinical trials, no literature and a safety concern with ocular application. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Obtain the TGA Product Information for both ARTG entries to confirm approved indications, dosage forms, warnings and contraindications
+- Obtain the TGA Product Information for the listed products to confirm approved indications, dosage forms, warnings and contraindications
 - Detailed mechanism of action data, including ocular-relevant pharmacology
 - Preclinical ocular tolerability and safety data for any conjunctival use
 - A systematic literature search for salicylates or NSAIDs in allergic conjunctivitis
 - Consideration of spondyloarthropathy as a better-grounded research question, using class-level NSAID evidence
+
+<!-- review:begin au-lic-20261124b-salicylic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "for both ARTG entries" Corrected: the data compiled for this report list more PBS items for this ingredient than the two entries assumed here; see the PBS item table in the Australia Market Information section. PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-salicylic_acid-1 -->
 
 <!-- review:begin log -->
 
@@ -129,6 +135,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b) |
+| 2026-11-24 | Corrected: removed the assumption that there are only two entries | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

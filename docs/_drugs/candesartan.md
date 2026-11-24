@@ -135,25 +135,39 @@ Please refer to the TGA-approved Product Information (PI) for safety information
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The evidence level is L2. Two randomised, placebo-controlled trials (a phase 2/3 crossover trial and a phase 2 parallel-group trial, the latter published in 2025) and a real-world observational study directly address migraine prevention. There are no multiple completed phase 3 trials, and the only listed Australian product is the 8 mg tablet.
+The evidence level is L2. Two randomised, placebo-controlled trials (a phase 2/3 crossover trial and a phase 2 parallel-group trial, the latter published in 2025) and a real-world observational study directly address migraine prevention. There are no multiple completed phase 3 trials, and the listed Australian products are tablets in several strengths (4 mg to 32 mg).
+
+<!-- review:begin au-lic-20261124b-candesartan-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and the only listed Australian product is the 8 mg tablet." Corrected: the earlier wording described the strengths of only the PBS items originally collected for this page. The current PBS items for this ingredient include other strengths (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-candesartan-2 -->
 
 **To proceed, the following is needed:**
 - Review of the full results of NCT04574713 and PMID 40975098, including the efficacy of the 8 mg and 16 mg doses and their tolerability.
 - Confirmation of whether a confirmatory phase 3 trial or independent replication is needed.
 - Review of the TGA-approved PI for warnings, contraindications and interactions, which the data compiled for this report do not provide.
 - A safety monitoring plan for patients who may be pregnant or have renal impairment, and for those taking other renin-angiotensin system agents.
-- Clarification of dose and strength availability in Australia, since only an 8 mg tablet is listed locally.
+- Clarification of dose and strength availability in Australia, since tablets of several strengths are listed locally (4 mg to 32 mg, alone or with hydrochlorothiazide).
 - Detailed mechanism-of-action data linking AT1 receptor blockade to migraine prevention.
+
+<!-- review:begin au-lic-20261124b-candesartan-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since only an 8 mg tablet is listed locally." Corrected: the earlier wording described the strengths of only the PBS items originally collected for this page. The current PBS items for this ingredient include other strengths (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-candesartan-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism-of-action data beyond this receptor-blocking role are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: candesartan prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7eb297cb-ef1b-44e0-a49d-03727100579e) |
+| 2026-11-24 | Corrected: strengths updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: strengths updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

@@ -159,9 +159,15 @@ For key warnings and label contraindications, please refer to the TGA-approved P
 **To proceed, the following is needed:**
 - A larger, multicentre, preferably placebo- or standard-of-care-controlled Phase 3 trial of intralesional acyclovir in warts, with long-term recurrence follow-up
 - Clarification of the mechanism of action, since the standard antiviral mechanism does not apply to HPV
-- A formulation and route assessment, because the only ARTG-listed product is an eye ointment and no injectable or oral product was identified
+- A formulation and route assessment, because the listed PBS items are eye ointments and oral tablets and no injectable product was identified
 - Review of the TGA Product Information for warnings and contraindications, which were not available in the data compiled for this report
 - Verification of the knowledge-graph contraindications and the interaction list against the PI, particularly for patients with renal impairment
+
+<!-- review:begin au-lic-20261124b-acyclovir-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "because the only ARTG-listed product is an eye ointment and no injectable or oral product was identified" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-acyclovir-1 -->
 
 <!-- review:begin log -->
 
@@ -173,6 +179,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Obeticholic acid is a farnesoid X receptor (FXR) agonist, registered in Australia as Ocaliva 5 mg tablets. The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **no registered clinical trials** and only **one directly relevant preclinical study** (in rats). The evidence is therefore very early-stage.
+Obeticholic acid is a farnesoid X receptor (FXR) agonist, registered in Australia as Ocaliva tablets (5 mg and 10 mg). The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **no registered clinical trials** and only **one directly relevant preclinical study** (in rats). The evidence is therefore very early-stage.
+
+<!-- review:begin au-lic-20261124b-obeticholic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "registered in Australia as Ocaliva 5 mg tablets." Corrected: the earlier wording described the strengths of only the PBS items originally collected for this page. The current PBS items for this ingredient include other strengths (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-obeticholic_acid-1 -->
 
 ## Quick Overview
 
@@ -124,11 +130,12 @@ Other top-ranked predictions are not recommended for progression at this stage:
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL566315 (obeticholic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566315) |
+| 2026-11-24 | Corrected: strengths updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

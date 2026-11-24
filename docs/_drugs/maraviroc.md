@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Maraviroc is an oral CCR5 antagonist marketed in Australia as a 150 mg tablet. The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but **no clinical trials** and **no publications** currently support this prediction. It is a model-only prediction, and a different candidate (HER2-positive breast carcinoma) has far more biological support.
+Maraviroc is an oral CCR5 antagonist marketed in Australia as 150 mg and 300 mg tablets. The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but **no clinical trials** and **no publications** currently support this prediction. It is a model-only prediction, and a different candidate (HER2-positive breast carcinoma) has far more biological support.
+
+<!-- review:begin au-lic-20261124b-maraviroc-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "marketed in Australia as a 150 mg tablet." Corrected: the earlier wording described the strengths of only the PBS items originally collected for this page. The current PBS items for this ingredient include other strengths (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-maraviroc-1 -->
 
 ## Quick Overview
 
@@ -114,11 +120,12 @@ The prediction for multiple endocrine neoplasia rests on a model score alone (L5
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5) |
+| 2026-11-24 | Corrected: strengths updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

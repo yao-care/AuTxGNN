@@ -599,3 +599,12 @@ PBS Schedule 只列當期給付的品項——代碼消失＝「no longer listed
   另寫的寬偵測（數字不等於事實層任一讀法、the only／sole、all … valid 而有註銷、講表格）全量掃公開頁：改前 100 句、改後 90 句，剩下都不是這次的張數句：
   「The only Australian product is an oral capsule」這類只講劑型／給藥途徑的句子（11-17 依成分補收後品項變多，劑型說法沒有逐張確認）、「one entry was found」等待辦條目、交互作用與文獻的「entries／items」誤中。
 - 母目錄 `.claude/license_labels/AuTxGNN.json` 只有「Valid」：建議加 `"No longer listed on the PBS Schedule": "cancelled"`（preferred.cancelled）；目前排程把有效格翻成註銷時會用證據包原文（同一字樣），所以不影響同步。
+
+## 劑型說法逐張對照（2026-11-24 第二輪）
+
+用戶 2026-11-24 第二輪決定：正文依 11-17 依成分補收前的舊證據包（多數只收 1～2 個 PBS 品項）寫的劑型／規格說法（「The only Australian product is an oral capsule」「marketed in Australia as a 150 mg tablet」「Only an injectable form is registered」等），逐句對照證據包（data-20261117-130853，PBS Schedule 4753）全部品項的劑型。
+- 偵測（全量、公開頁）：劑型字樣＋市場字樣的句子 386 句（另放寬：only／sole／single＋市場＋product/item/form 字樣、市場動詞＋規格數字、「marketed … as」），逐句對照證據包劑型類別（給藥途徑）與細分（錠／膠囊／口服液…、規格）。
+- 判定規則：全稱說法（the only／only／sole／「the product is …」）要跟本藥全部單方品項的劑型與規格（有寫才算）一致；描述說法（marketed/registered in Australia as …）有不同給藥途徑的單方品項、或寫了單一規格而另有其他規格，才算不成立；「沒有 X 劑型」的說法查有無該途徑品項。證據包沒有單方品項時拿全部品項比；只有複方才有的劑型不算推翻描述說法。
+- 結果：不成立 69 句（56 頁）以 69 筆 `au-lic-20261124b-*` 更正（劑型 51、規格 9、劑型與規格 3、以「只有一筆／兩筆」為前提的待辦 3、未區分單方與複方 3）；更正文字只列劑型類別與規格、不寫張數；待辦條目只改錯的前提。成立的保留（例：aflibercept 全為玻璃體內注射、benzydamine 全為口腔噴洗劑、gefitinib 全為 250 mg 錠）。待查清單 11-24 沒有新增項目（第一輪 B 待查 0 句）。
+- `scripts/reviews_from_edits.py` 的 figures() 改成不寫張數（指向概覽表與程式 PBS 品項表）；寫死張數的 `au-lic-20261031-lurasidone-1` 說明同 id 重發（前版存 history）。
+- 已知問題（沒改）：`au-lic-20261031-lurasidone-1` 是 10-31 刪句工具把「1 clinical trial (withdrawn…) and 20 publications」誤當許可證註銷句刪掉的（一句話摘要只剩半句）。還原原句後母目錄 check_drug_page.py 的 M3 會把「withdrawn」誤判成許可證全部註銷（非 0 數變多），所以先不還原，要等 checker 排除試驗語境後再撤回這筆紀錄。

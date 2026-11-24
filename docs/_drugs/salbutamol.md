@@ -145,13 +145,25 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but the evidence is model-only (L5), with no trials or literature for papillary conjunctivitis. The only registered Australian product is oral, and the knowledge graph flags several contraindications (including glaucoma-related ones) that matter for any eye-directed use.
+The prediction score is very high, but the evidence is model-only (L5), with no trials or literature for papillary conjunctivitis. The Australian products are inhaled (pressurised inhalers and nebuliser solutions) plus an oral solution, and the knowledge graph flags several contraindications (including glaucoma-related ones) that matter for any eye-directed use.
+
+<!-- review:begin au-lic-20261124b-salbutamol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only registered Australian product is oral, and" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-salbutamol-1 -->
 
 **To proceed, the following is needed:**
 - Human clinical or mechanistic studies of beta-2 agonists in papillary or allergic conjunctivitis
 - Mechanism of action data to support the proposed mast cell link
-- A feasible route and formulation for eye delivery, as only an oral product is currently registered in Australia
+- A feasible route and formulation for eye delivery, as only inhaled and oral products are currently listed in Australia
 - Review of the PI warnings and contraindications, which could not be retrieved for this report
+
+<!-- review:begin au-lic-20261124b-salbutamol-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "as only an oral product is currently registered in Australia" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-salbutamol-2 -->
 
 **Note on other predictions for salbutamol:** Other indications predicted for this drug have stronger support, notably obstructive lung disease (L1). That prediction largely extends the existing bronchodilator use rather than representing true repurposing, so it may be worth evaluating separately.
 
@@ -165,6 +177,8 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

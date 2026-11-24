@@ -140,8 +140,14 @@ A completed randomised Phase 3 trial in children with alopecia areata used hydro
 
 **To proceed, the following is needed:**
 - Head-to-head or placebo-controlled data on hydrocortisone itself in alopecia areata, ideally in adults as well as children
-- Confirmation of a suitable topical or intralesional formulation, as the listed Australian product is an oral tablet
+- Confirmation of a suitable topical or intralesional formulation, as the listed Australian products are oral tablets and injections
 - Mechanism of action data and a safety review based on the TGA Product Information, including monitoring plans for long-term corticosteroid exposure
+
+<!-- review:begin au-lic-20261124b-hydrocortisone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "as the listed Australian product is an oral tablet" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-hydrocortisone-1 -->
 
 <!-- review:begin log -->
 
@@ -153,6 +159,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-24 | Corrected: PBS item count updated to the current PBS Schedule | Corrected (revised 2026-11-24; earlier version kept in the record) | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

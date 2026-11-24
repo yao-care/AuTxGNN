@@ -137,7 +137,13 @@ Label warnings and contraindications were not available in the compiled data. Pl
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score (0.9999) but no supporting trials or publications for alopecia mucinosa, so it is classed as L5 (model prediction only). The only local product is a topical lotion, so route compatibility with the systemic use that the prediction might imply is unresolved.
+The prediction has a very high model score (0.9999) but no supporting trials or publications for alopecia mucinosa, so it is classed as L5 (model prediction only). The local products are mainly topical lotions, creams and ointments (with an injection), so route compatibility with the systemic use that the prediction might imply is unresolved.
+
+<!-- review:begin au-lic-20261124b-methylprednisolone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only local product is a topical lotion, so" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-methylprednisolone-1 -->
 
 **To proceed, the following is needed:**
 - A structured literature search for case series or studies of corticosteroids in alopecia mucinosa.
@@ -155,6 +161,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

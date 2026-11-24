@@ -60,7 +60,13 @@ Rivastigmine inhibits the enzymes that break down acetylcholine. According to th
 
 Cholinergic stimulation at the ciliary muscle and trabecular meshwork may increase aqueous outflow and lower intraocular pressure, as seen with cholinergic agents such as pilocarpine. A 2000 rabbit study reported that topical rivastigmine lowered intraocular pressure in normotensive animals.
 
-This is preclinical evidence only. No human trials are listed. Ocular safety, local tolerability and a topical formulation are untested, and the only Australian product is a transdermal patch.
+This is preclinical evidence only. No human trials are listed. Ocular safety, local tolerability and a topical formulation are untested, and the Australian products are transdermal patches and oral capsules.
+
+<!-- review:begin au-lic-20261124b-rivastigmine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and the only Australian product is a transdermal patch." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-rivastigmine-1 -->
 
 ## Clinical Trial Evidence
 
@@ -114,7 +120,13 @@ Please refer to the TGA-approved Product Information (PI) for label warnings and
 **Decision: Hold**
 
 **Rationale:**
-The glaucoma prediction has a high model score and a plausible cholinergic mechanism, but the only supporting data are one rabbit study and two reviews. There are no human trials, and the only Australian product is a transdermal patch, not an ocular formulation.
+The glaucoma prediction has a high model score and a plausible cholinergic mechanism, but the only supporting data are one rabbit study and two reviews. There are no human trials, and the Australian products are transdermal patches and oral capsules, not an ocular formulation.
+
+<!-- review:begin au-lic-20261124b-rivastigmine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and the only Australian product is a transdermal patch, not an ocular formulation." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-rivastigmine-2 -->
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data (MOA)
@@ -127,11 +139,13 @@ The glaucoma prediction has a high model score and a plausible cholinergic mecha
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

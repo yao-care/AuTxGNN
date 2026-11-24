@@ -114,7 +114,13 @@ The only registered form is oral. No other routes (such as intravenous) appear i
 - Hepatic and biliary: liver disease, gallbladder disease
 - Other: hypercalcaemia, sarcoidosis, sickle cell anaemia, epilepsy, COPD, benign prostatic hyperplasia
 
-**Gastrointestinal injury:** The literature retrieved for the gastric-disease predictions consistently reports upper GI mucosal injury and ulceration with solid KCl formulations, particularly wax-matrix preparations. This is relevant because the only Australian product is a sustained-release tablet.
+**Gastrointestinal injury:** The literature retrieved for the gastric-disease predictions consistently reports upper GI mucosal injury and ulceration with solid KCl formulations, particularly wax-matrix preparations. This is relevant because the only single-ingredient Australian product is a sustained-release tablet (the other PBS items are combination products: effervescent tablets, oral rehydration salts and macrogol with electrolytes).
+
+<!-- review:begin au-lic-20261124b-potassium_chloride-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "because the only Australian product is a sustained-release tablet." Corrected: the earlier wording did not distinguish the single-ingredient product from the combination products that are also PBS items for this ingredient (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-potassium_chloride-1 -->
 
 **Drug interactions:** The interaction check returned 100 interactions. The main Major-level interactions include:
 - Potassium-sparing diuretics: amiloride
@@ -142,6 +148,19 @@ The RTA prediction rests on case reports and reviews that describe potassium rep
 - The Australian PI warnings and contraindications, and the approved indication text for Span-K
 - Mechanism of action data
 - Assessment of GI safety of sustained-release tablets in this population, and of renal function and hyperkalaemia monitoring needs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: the only single-ingredient product is distinguished from combination products | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

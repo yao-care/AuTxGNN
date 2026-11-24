@@ -38,7 +38,13 @@ Evidence Level: **L3** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Hyaluronic acid is marketed in Australia as sodium hyaluronate 1 mg/mL eye drops. The TxGNN model predicts it may help with **Sjogren syndrome**, mainly as symptomatic relief of ocular surface dryness rather than treatment of the underlying autoimmune disease. Support comes from **1 loosely related Phase 3 trial** and **a small body of published studies**, including a comparative study in Sjögren patients. No Phase 3 trial of hyaluronic acid itself in Sjogren syndrome appears in the data compiled for this report.
+Hyaluronic acid is marketed in Australia as sodium hyaluronate eye drops (1 mg/mL and 2 mg/mL). The TxGNN model predicts it may help with **Sjogren syndrome**, mainly as symptomatic relief of ocular surface dryness rather than treatment of the underlying autoimmune disease. Support comes from **1 loosely related Phase 3 trial** and **a small body of published studies**, including a comparative study in Sjögren patients. No Phase 3 trial of hyaluronic acid itself in Sjogren syndrome appears in the data compiled for this report.
+
+<!-- review:begin au-lic-20261124b-hyaluronic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "as sodium hyaluronate 1 mg/mL eye drops." Corrected: the earlier wording described the strengths of only the PBS items originally collected for this page. The current PBS items for this ingredient include other strengths (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-hyaluronic_acid-1 -->
 
 ## Quick Overview
 
@@ -133,6 +139,7 @@ Below is the review log for this page: statements checked against official Austr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: strengths updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

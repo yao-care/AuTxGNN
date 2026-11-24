@@ -95,7 +95,13 @@ Source: PBS Schedule, PBS public data API (Department of Health, Disability and 
 
 <!-- licenses:end -->
 
-Only an injectable form is registered. Route compatibility with the predicted indication has not been assessed.
+Injectable and oral tablet forms are listed. Route compatibility with the predicted indication has not been assessed.
+
+<!-- review:begin au-lic-20261124b-prochlorperazine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Only an injectable form is registered." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-prochlorperazine-1 -->
 
 ---
 
@@ -140,18 +146,26 @@ The prediction rests on a model score alone. There are no trials or publications
 **To proceed, the following is needed:**
 - A biologically plausible mechanistic hypothesis linking D2 antagonism to retinal degeneration, supported by preclinical data
 - Mechanism of action data and the TGA Product Information safety sections (warnings and contraindications)
-- An assessment of route compatibility, since only an injectable is registered in Australia
+- An assessment of route compatibility, since only injectable and oral tablet forms are listed in Australia
 - A comparison with other model predictions for this drug. For example, **manic bipolar affective disorder** is more biologically plausible (D2 antagonists are an established class for mania), though the supporting literature is old and weak and no trials are registered. It may be a more productive research question than the retinal prediction.
+
+<!-- review:begin au-lic-20261124b-prochlorperazine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since only an injectable is registered in Australia" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-prochlorperazine-2 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL728 (prochlorperazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL728) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

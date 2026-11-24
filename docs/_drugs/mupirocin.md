@@ -149,10 +149,16 @@ SSSS shares its toxin-mediated, *S. aureus*-driven pathophysiology with bullous 
 **To proceed, the following is needed:**
 - Product Information warnings and contraindications (the package insert data were not available, which blocks formal safety screening)
 - Mechanism of action data confirmed from DrugBank
-- Confirmation of the approved indication text and of formulation suitability (the only ARTG entry is a nasal ointment)
+- Confirmation of the approved indication text and of formulation suitability (the PBS items are nasal ointments and a skin cream and ointment)
 - Prospective or comparative studies of topical mupirocin as an adjunct in SSSS
 - Local Australian *S. aureus* mupirocin resistance surveillance data
 - Review of the dermatitis contraindication signal against the PI
+
+<!-- review:begin au-lic-20261124b-mupirocin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(the only ARTG entry is a nasal ointment)" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-mupirocin-1 -->
 
 <!-- review:begin log -->
 
@@ -164,6 +170,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

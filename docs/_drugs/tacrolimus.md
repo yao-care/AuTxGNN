@@ -141,7 +141,13 @@ Please refer to the TGA-approved Product Information (PI) for full safety inform
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism is plausible, and a completed Phase 3 trial and a completed Phase 4 study evaluate tacrolimus ointment specifically in seborrheic dermatitis, supported by a published maintenance-therapy study and reviews. However, results of the registered trials are not summarised in the data compiled, and the only Australian product listed is an oral capsule.
+The mechanism is plausible, and a completed Phase 3 trial and a completed Phase 4 study evaluate tacrolimus ointment specifically in seborrheic dermatitis, supported by a published maintenance-therapy study and reviews. However, results of the registered trials are not summarised in the data compiled, and the Australian products listed are mainly oral capsules, with a topical ointment (aZematop).
+
+<!-- review:begin au-lic-20261124b-tacrolimus-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and the only Australian product listed is an oral capsule." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-tacrolimus-1 -->
 
 **To proceed, the following is needed:**
 - Results of NCT02004860 and NCT01591070 (efficacy, relapse rates, safety)
@@ -160,6 +166,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

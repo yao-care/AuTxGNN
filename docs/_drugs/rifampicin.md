@@ -57,7 +57,13 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 
 According to the Mechanism of Action section of the US FDA-approved prescribing information for rifampicin: "Rifampin inhibits DNA-dependent RNA polymerase activity in susceptible Mycobacterium tuberculosis organisms. Specifically, it interacts with bacterial RNA polymerase but does not inhibit the mammalian enzyme." ([DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5), label version 2026-05-05; accessed 2026-11-19.) Based on known information, rifampicin is a broad-spectrum antibacterial that inhibits bacterial RNA polymerase. It has activity against Gram-positive bacteria, *Staphylococcus* and *Chlamydia*, and its efficacy in tuberculosis is established.
 
-Bacterial conjunctivitis is commonly caused by *Staphylococcus*, *Streptococcus*, *Haemophilus* and *Chlamydia trachomatis*. An antibacterial with activity against these organisms could plausibly be applied. The evidence is indirect, however: older studies used **topical (eye ointment)** rifampicin, whereas the only Australian product is an **oral capsule**. A topical ocular formulation and antimicrobial resistance (tuberculosis stewardship) concerns remain unresolved.
+Bacterial conjunctivitis is commonly caused by *Staphylococcus*, *Streptococcus*, *Haemophilus* and *Chlamydia trachomatis*. An antibacterial with activity against these organisms could plausibly be applied. The evidence is indirect, however: older studies used **topical (eye ointment)** rifampicin, whereas the Australian products are **oral** (capsules and a syrup). A topical ocular formulation and antimicrobial resistance (tuberculosis stewardship) concerns remain unresolved.
+
+<!-- review:begin au-lic-20261124b-rifampicin-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "whereas the only Australian product is an **oral capsule**." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-rifampicin-2 -->
 
 Note that the model also returned a near-duplicate entry, "conjunctivitis (disease)" (score 0.9960), which should be merged with this one. Their literature largely overlaps.
 
@@ -117,7 +123,13 @@ Please also refer to the TGA-approved Product Information (PI) for full warnings
 **Decision: Hold**
 
 **Rationale:**
-Support for conjunctivitis rests on a high model score, in vitro susceptibility data and a few 1970s topical-ointment studies, with no registered trials. The only Australian product is an oral capsule, and there are antimicrobial stewardship concerns.
+Support for conjunctivitis rests on a high model score, in vitro susceptibility data and a few 1970s topical-ointment studies, with no registered trials. The Australian products are oral (capsules and a syrup), and there are antimicrobial stewardship concerns.
+
+<!-- review:begin au-lic-20261124b-rifampicin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only Australian product is an oral capsule, and" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-rifampicin-1 -->
 
 **To proceed, the following is needed:**
 - Product Information warnings and contraindications for the Australian product
@@ -140,11 +152,13 @@ Support for conjunctivitis rests on a high model score, in vitro susceptibility 
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

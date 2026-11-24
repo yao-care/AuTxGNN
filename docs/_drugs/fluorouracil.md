@@ -140,14 +140,26 @@ Please refer to the TGA-approved Product Information (PI) for authoritative safe
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (0.9975), but there are no clinical trials or publications for the top-ranked indication, so the evidence level is L5 (model prediction only). Fluorouracil is not part of standard rhabdomyosarcoma regimens, and the only Australian product is a topical cream.
+The prediction score is high (0.9975), but there are no clinical trials or publications for the top-ranked indication, so the evidence level is L5 (model prediction only). Fluorouracil is not part of standard rhabdomyosarcoma regimens, and the Australian products are topical creams and an injection.
+
+<!-- review:begin au-lic-20261124b-fluorouracil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and the only Australian product is a topical cream." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-fluorouracil-1 -->
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data (e.g. from DrugBank)
 - Product Information warnings and contraindications (this safety data gap blocks progression to safety screening)
 - Preclinical or clinical evidence specific to rhabdomyosarcoma subtypes, and a comparison against standard VAC/VAI regimens
-- Assessment of route and formulation compatibility, as the registered product is topical only
+- Assessment of route and formulation compatibility, as the listed products are topical creams and an injection
 - DPD deficiency screening and a haematological monitoring plan if systemic use is ever considered
+
+<!-- review:begin au-lic-20261124b-fluorouracil-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "as the registered product is topical only" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-fluorouracil-2 -->
 
 <!-- review:begin log -->
 
@@ -159,6 +171,8 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,13 @@ Flucloxacillin is an anti-staphylococcal penicillin antibiotic, marketed in Aust
 
 Currently, detailed mechanism of action data is not available. Based on known information, flucloxacillin is a penicillinase-resistant beta-lactam antibiotic with activity against susceptible *Staphylococcus aureus*. Bacterial conjunctivitis is sometimes caused by staphylococci, so antibacterial activity against such infections is plausible.
 
-However, the link is weak. The only retrieved publication concerns gonococcal dacryoadenitis, caused by *Neisseria gonorrhoeae*, which is not typically flucloxacillin-susceptible. Flucloxacillin is also not a standard topical ocular agent, and the marketed product is an oral capsule. The high model score should be viewed as a hypothesis rather than confirmation.
+However, the link is weak. The only retrieved publication concerns gonococcal dacryoadenitis, caused by *Neisseria gonorrhoeae*, which is not typically flucloxacillin-susceptible. Flucloxacillin is also not a standard topical ocular agent, and the marketed products are oral capsules and powders for oral liquid. The high model score should be viewed as a hypothesis rather than confirmation.
+
+<!-- review:begin au-lic-20261124b-flucloxacillin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and the marketed product is an oral capsule." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-flucloxacillin-1 -->
 
 Other predictions in the list (for example rheumatoid arthritis, leprosy, Prinzmetal angina and several rare genetic syndromes) have no plausible mechanistic link and are likely TxGNN model (deep learning) artefacts. They are not pursued in this report.
 
@@ -109,6 +115,19 @@ The prediction rests on a model score alone. There are no clinical trials, and t
 - Microbiological evidence of flucloxacillin susceptibility in the pathogens that cause conjunctivitis
 - Clinical studies, or a review of whether a suitable ocular formulation and route are feasible
 - Route compatibility assessment (oral capsule versus ocular delivery)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

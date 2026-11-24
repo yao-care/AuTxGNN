@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Periciazine (also spelled pericyazine) is a phenothiazine antipsychotic, marketed in Australia as Neulactil 2.5 mg tablets. The TxGNN model predicts it may be effective for **migraine disorder**, but **no clinical trials and no publications** currently support this prediction. The evidence is a model prediction only.
+Periciazine (also spelled pericyazine) is a phenothiazine antipsychotic, marketed in Australia as Neulactil tablets (2.5 mg and 10 mg). The TxGNN model predicts it may be effective for **migraine disorder**, but **no clinical trials and no publications** currently support this prediction. The evidence is a model prediction only.
+
+<!-- review:begin au-lic-20261124b-periciazine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "marketed in Australia as Neulactil 2.5 mg tablets." Corrected: the earlier wording described the strengths of only the PBS items originally collected for this page. The current PBS items for this ingredient include other strengths (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-periciazine-1 -->
 
 ---
 
@@ -82,7 +88,6 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 For the top-ranked prediction (migraine disorder), currently no related literature is available.
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -133,6 +138,19 @@ All predictions are supported only by the TxGNN model (Evidence Level L5). No cl
 - A systematic search for periciazine data in migraine, and a comparison against established phenothiazine use in acute migraine
 - Early-phase clinical evidence (for example, a pilot study in acute migraine) before any further consideration
 - An assessment of whether the oral tablet form is suitable for acute migraine treatment (route compatibility is still pending)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: strengths updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

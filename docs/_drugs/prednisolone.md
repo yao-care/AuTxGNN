@@ -134,11 +134,17 @@ Please refer to the TGA-approved Product Information (PI) for full warnings and 
 Alopecia areata is an immune-mediated condition, and there is a placebo-controlled RCT of oral pulse prednisolone, a Cochrane network meta-analysis and a systematic review. However, there are no registered trials, relapse after withdrawal is common, and long-term systemic steroid toxicity limits use.
 
 **To proceed, the following is needed:**
-- The ARTG approved indication text and the Product Information warnings and contraindications for the Predsolone 1 mg tablet. The 1 mg strength may also be impractical for pulse dosing.
+- The ARTG approved indication text and the Product Information warnings and contraindications for the listed prednisolone products (tablets of 1 mg, 5 mg and 25 mg, an oral solution, an enema and suppositories).
 - Detailed mechanism of action data.
 - A critical appraisal of the 2005 placebo-controlled RCT (a published critique of this trial exists) and of the Cochrane network meta-analysis, to confirm the strength of prednisolone-specific evidence.
 - A defined pulse or short-course regimen, with a relapse-management and steroid-sparing plan.
 - A safety monitoring plan covering blood pressure, glucose and growth in children, and review of interacting medicines.
+
+<!-- review:begin au-lic-20261124b-prednisolone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "for the Predsolone 1 mg tablet. The 1 mg strength may also be impractical for pulse dosing." Corrected: the earlier wording described the dosage forms and strengths of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms and strengths (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-prednisolone-1 -->
 
 ---
 
@@ -156,11 +162,12 @@ Alopecia areata is an immune-mediated condition, and there is a placebo-controll
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+| 2026-11-24 | Corrected: dosage forms and strengths updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

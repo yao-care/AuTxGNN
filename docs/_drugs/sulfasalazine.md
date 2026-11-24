@@ -134,17 +134,24 @@ The top-ranked prediction (brachydactyly-syndactyly syndrome) has no clinical tr
 - Detailed mechanism of action data for sulfasalazine
 - Human efficacy data for osteoarthritis, such as a pilot clinical trial, before any clinical decision
 - Approved indication text and safety information from the TGA Product Information, which were not available in the data compiled for this report
-- Confirmation of the route and formulation needed (the only Australian product is an oral enteric-coated tablet, whereas the preclinical osteoarthritis work used a sulfasalazine-hyaluronic acid formulation)
+- Confirmation of the route and formulation needed (the Australian products are oral tablets, plain and enteric-coated, whereas the preclinical osteoarthritis work used a sulfasalazine-hyaluronic acid formulation)
+
+<!-- review:begin au-lic-20261124b-sulfasalazine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(the only Australian product is an oral enteric-coated tablet, whereas" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-sulfasalazine-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Azulfidine En-Tabs (sulfasalazine) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b9ef541a-93c8-4428-ba45-398aa0b327d1) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

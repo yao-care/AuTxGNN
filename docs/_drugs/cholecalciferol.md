@@ -109,7 +109,13 @@ The prediction is supported only by a TxGNN model (deep learning) score. No clin
 - Mechanistic evidence linking vitamin D biology to the pathway underlying this skeletal dysplasia
 - Any preclinical, case-based or clinical data in this specific condition
 - Detailed mechanism of action data and TGA PI warnings and contraindications for cholecalciferol
-- Confirmation of how cholecalciferol is licensed as a single ingredient in Australia, as the only entry found is a combination product
+- Confirmation of how cholecalciferol is licensed as a single ingredient in Australia, as the entries found are combination products (Fosamax Plus)
+
+<!-- review:begin au-lic-20261124b-cholecalciferol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "as the only entry found is a combination product" Corrected: the data compiled for this report list more than one PBS item for this ingredient; see the PBS item table in the Australia Market Information section. PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-cholecalciferol-1 -->
 
 For context, other TxGNN predictions for this drug, such as renal osteodystrophy, have more supporting evidence and may be better candidates for further review.
 
@@ -123,6 +129,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: PBS item count updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
+| 2026-11-24 | Corrected: removed the assumption that only one entry was found | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

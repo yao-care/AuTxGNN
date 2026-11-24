@@ -55,7 +55,13 @@ The TxGNN model predicts it may be relevant to **gastroparesis**, but this rests
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Threonine is an essential amino acid, and the data compiled for this report list no original indication for it. Its only registered Australian product is a specialised oral amino acid formulation, MMA/PA Anamix Junior.
+Currently, detailed mechanism of action data is not available. Threonine is an essential amino acid, and the data compiled for this report list no original indication for it. Its registered Australian products are specialised oral amino acid formulations (such as MMA/PA Anamix Junior).
+
+<!-- review:begin au-lic-20261124b-threonine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Its only registered Australian product is a specialised oral amino acid formulation, MMA/PA Anamix Junior." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-threonine-1 -->
 
 The prediction is supported only by a high TxGNN model (deep learning) score, which is a computational inference and not clinical evidence. One plausible but unverified link is threonine's role in gastrointestinal mucin synthesis and gut mucosal integrity. Another is amino acid-related modulation of gastric motility and gut hormone signalling. Neither is supported by the data supplied.
 
@@ -105,7 +111,27 @@ The recommendation rests entirely on a model prediction score (L5), with no regi
 - A systematic literature search, and preclinical or clinical studies in gastroparesis
 - Approved indication and safety information from the Product Information for the Australian product
 - Review of the phenylalanine-metabolism contraindication signals
-- An assessment of route and formulation suitability, since the only Australian product is a specialised metabolic formulation
+- An assessment of route and formulation suitability, since the Australian products are specialised metabolic formulations
+
+<!-- review:begin au-lic-20261124b-threonine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since the only Australian product is a specialised metabolic formulation" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-threonine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -38,8 +38,14 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Fludarabine is a purine nucleoside analogue chemotherapy agent. It is registered in Australia as an intravenous injection, though the data compiled for this report do not include its approved indication text.
+Fludarabine is a purine nucleoside analogue chemotherapy agent. It is registered in Australia as an intravenous injection and an oral tablet, though the data compiled for this report do not include its approved indication text.
 The TxGNN model predicts it may be useful for **plasma cell myeloma**, and the evidence is mostly indirect: fludarabine appears in **transplant conditioning and CAR-T lymphodepletion regimens** (**28 listed clinical trials** and **20 publications**), not as a standalone antimyeloma therapy.
+
+<!-- review:begin au-lic-20261124b-fludarabine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "registered in Australia as an intravenous injection," Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-fludarabine-1 -->
 
 ---
 
@@ -175,11 +181,12 @@ Warnings and contraindications were not available in the compiled data. Please r
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

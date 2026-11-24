@@ -223,11 +223,11 @@ def classify(rm):
 
 
 def figures(fc):
+    # 2026-11-24 用戶決定：紀錄說明不寫死張數（張數每週變），改指向概覽表與程式 PBS 品項表
     if not fc or fc.get("total") is None:
         return ""
-    t, v = fc["total"], fc.get("valid") or 0
-    return (f" The PBS data list {t} PBS item{'' if t == 1 else 's'} for this drug, {v} current; "
-            "the Quick Overview and the table under Australia Market Information show the current figures.")
+    return (" The Quick Overview and the PBS item table under Australia Market Information show the current "
+            "number and status of PBS items.")
 
 
 def note_for(kind, date, fc):

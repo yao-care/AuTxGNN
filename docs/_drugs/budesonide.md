@@ -136,15 +136,27 @@ Warnings and contraindications from the TGA-approved Product Information (PI) we
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, and the anti-inflammatory rationale is plausible, but there are no clinical trials in atopic eczema, and the only budesonide-specific therapeutic work is preclinical. The only Australian product is a rectal foam, and the safety data from the PI are missing.
+The prediction score is high, and the anti-inflammatory rationale is plausible, but there are no clinical trials in atopic eczema, and the only budesonide-specific therapeutic work is preclinical. The Australian products include a rectal foam as well as oral, inhaled and nebulised forms, and the safety data from the PI are missing.
+
+<!-- review:begin au-lic-20261124b-budesonide-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only Australian product is a rectal foam, and" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-budesonide-2 -->
 
 **To proceed, the following is needed:**
 - Mechanism of action data for budesonide
 - TGA Product Information (warnings, contraindications) for the Australian product
 - Budesonide-specific clinical studies in atopic eczema, ideally randomised and controlled, with an appropriate topical formulation
-- A route and formulation assessment, since the registered product is a rectal foam
+- A route and formulation assessment, since the listed products include a rectal foam as well as oral (capsules and orally disintegrating tablets), inhaled and nebulised forms
 - Safety assessment for dermal use, covering systemic absorption, adrenal suppression, growth in children and contact sensitisation
 - Review of bronchitis (L2) as a possible alternative lead, once the indication is clearly defined (bronchiolitis obliterans, post-viral bronchiolitis, or COPD-related)
+
+<!-- review:begin au-lic-20261124b-budesonide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since the registered product is a rectal foam" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-budesonide-1 -->
 
 <!-- review:begin log -->
 
@@ -156,6 +168,8 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

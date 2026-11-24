@@ -117,7 +117,13 @@ Source: PBS Schedule, PBS public data API (Department of Health, Disability and 
 
 <!-- licenses:end -->
 
-The approved indication text was not available in the licence data compiled for this report. Only oral tablets are listed, and no ocular or topical formulation was identified.
+The approved indication text was not available in the licence data compiled for this report. Only oral tablets and capsules are listed, and no ocular or topical formulation was identified.
+
+<!-- review:begin au-lic-20261124b-doxycycline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Only oral tablets are listed, and" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-doxycycline-1 -->
 
 ---
 
@@ -148,7 +154,13 @@ The model score is very high, but the supporting evidence is a single 1992 case 
 - Controlled clinical studies of doxycycline (oral or topical ocular) in punctate epithelial keratoconjunctivitis
 - Detailed mechanism of action data
 - Approved indication text and PI safety information for the Australian product
-- Ophthalmic formulation and route feasibility, since only an oral tablet is currently registered
+- Ophthalmic formulation and route feasibility, since only oral tablets and capsules are currently listed
+
+<!-- review:begin au-lic-20261124b-doxycycline-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since only an oral tablet is currently registered" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-doxycycline-2 -->
 
 **Note:** Among the other predictions for this drug, chronic gingivitis/periodontitis has substantially stronger support (L2, with multiple clinical studies of subantimicrobial-dose and locally delivered doxycycline). It may be a better candidate to prioritise.
 
@@ -156,11 +168,13 @@ The model score is very high, but the supporting evidence is a single 1992 case 
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

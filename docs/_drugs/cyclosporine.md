@@ -125,7 +125,13 @@ No clinical trial or publication tests cyclosporine in chronic granulomatous dis
 - Studies that directly evaluate cyclosporine in chronic granulomatous disease, rather than as transplant support
 - Mechanism of action data to support a specific biological link
 - TGA Product Information safety data, including warnings and contraindications
-- Clarification of whether a systemic formulation would be needed, since the only licensed product here is an eye drop
+- Clarification of whether a systemic formulation would be needed, since the listed products here include eye drops as well as oral capsules, an oral liquid and an intravenous infusion concentrate
+
+<!-- review:begin au-lic-20261124b-cyclosporine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since the only licensed product here is an eye drop" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-cyclosporine-1 -->
 
 <!-- review:begin log -->
 
@@ -137,6 +143,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

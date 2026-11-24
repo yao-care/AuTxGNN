@@ -100,7 +100,13 @@ Please refer to the TGA-approved Product Information (PI) for warnings and contr
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Several cohort studies and case reports support topical clobetasol in early-stage mycosis fungoides, and the prediction is consistent with current clinical practice. However, there are no registered clinical trials and no randomised evidence. The only Australian product identified is a shampoo, so route and formulation compatibility with skin-directed lymphoma therapy is unconfirmed.
+Several cohort studies and case reports support topical clobetasol in early-stage mycosis fungoides, and the prediction is consistent with current clinical practice. However, there are no registered clinical trials and no randomised evidence. The Australian products identified are a shampoo, a cream and an ointment, so route and formulation compatibility with skin-directed lymphoma therapy is unconfirmed.
+
+<!-- review:begin au-lic-20261124b-clobetasol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only Australian product identified is a shampoo, so" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-clobetasol-1 -->
 
 **To proceed, the following is needed:**
 - Confirmation of suitable topical formulations (cream or ointment) available in Australia, as the listed product is a shampoo
@@ -113,11 +119,12 @@ Several cohort studies and case reports support topical clobetasol in early-stag
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

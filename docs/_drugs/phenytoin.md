@@ -157,18 +157,25 @@ The top-ranked prediction, trigeminal nerve neoplasm, has no clinical trials, no
 - Re-evaluate the candidate with trigeminal neuralgia as the lead indication, and check whether the original prediction is a labelling or mapping error
 - Detailed mechanism of action data (MOA) from DrugBank
 - TGA Product Information with warnings, contraindications and the approved indication text for ARTG 1249R
-- A prospective or controlled evidence review for phenytoin in trigeminal neuralgia, including the oral formulation (the evidence found is mainly for IV use, whereas the registered product is an oral tablet)
+- A prospective or controlled evidence review for phenytoin in trigeminal neuralgia, including the oral formulation (the evidence found is mainly for IV use, whereas the listed products are oral tablets, capsules and an oral suspension)
 - A safety plan covering the flagged cardiac, hepatic, haematological and metabolic risks and the high number of drug interactions
+
+<!-- review:begin au-lic-20261124b-phenytoin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "whereas the registered product is an oral tablet)" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-phenytoin-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

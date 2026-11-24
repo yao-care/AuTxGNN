@@ -118,7 +118,13 @@ Please also refer to the TGA-approved Product Information (PI) for full safety i
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but it is based on the model alone. There are no registered trials, the literature is indirect (infectious keratitis, in vitro toxicity and case reports), and the available data raise a safety concern for a compromised cornea. The only Australian product is an inhaled formulation.
+The prediction score is very high, but it is based on the model alone. There are no registered trials, the literature is indirect (infectious keratitis, in vitro toxicity and case reports), and the available data raise a safety concern for a compromised cornea. The Australian products are inhaled formulations and injections.
+
+<!-- review:begin au-lic-20261124b-tobramycin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only Australian product is an inhaled formulation." Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-tobramycin-1 -->
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to support the mechanistic-link analysis
@@ -147,6 +153,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data are not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

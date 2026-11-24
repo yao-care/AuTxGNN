@@ -43,7 +43,7 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 <!-- review:begin au-lic-20261031-lurasidone-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications** (mostly reviews, guidelines and meta-analyses, none directly demonstrating efficacy in mania) are available, so evidence is limited." Removed: it said the PBS items or ARTG entries were cancelled, discontinued, or not current, which did not match the PBS data (the PBS Schedule as of 2026-10-31). The PBS data list 1 PBS item for this drug, 1 current; the Quick Overview and the table under Australia Market Information show the current figures. Source: [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg).
+> **Review correction (2026-10-31)**: Originally stated: "The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications** (mostly reviews, guidelines and meta-analyses, none directly demonstrating efficacy in mania) are available, so evidence is limited." Removed: it said the PBS items or ARTG entries were cancelled, discontinued, or not current, which did not match the PBS data (the PBS Schedule as of 2026-10-31). The Quick Overview and the PBS item table under Australia Market Information show the current number and status of PBS items. Source: [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg).
 
 <!-- review:end au-lic-20261031-lurasidone-1 -->
 
@@ -133,7 +133,7 @@ Below is the review log for this page: statements checked against official Austr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications** (mostly reviews, guidelines and meta-analys" | Corrected | [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg) |
+| 2026-10-31 | Removed: "but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications** (mostly reviews, guidelines and meta-analys" | Corrected (revised 2026-11-24; earlier version kept in the record) | [PBS Schedule (Department of Health and Aged Care)](https://www.pbs.gov.au/); [TGA ARTG](https://www.tga.gov.au/resources/artg) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8) |
 
 <!-- review:end log -->

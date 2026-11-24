@@ -111,8 +111,14 @@ The prediction is supported only by a score from the TxGNN model (deep learning)
 - Evidence of a fungal or otherwise azole-responsive aetiology in punctate epithelial keratoconjunctivitis
 - Preclinical or clinical studies of fluconazole in this condition
 - Detailed mechanism of action data
-- Assessment of route and formulation suitability, since only an oral capsule is listed in Australia
+- Assessment of route and formulation suitability, since only oral forms (capsules and a powder for oral suspension) are listed in Australia
 - Safety information from the TGA-approved Product Information, including the knowledge-graph flags for QT prolongation and kidney and liver disease
+
+<!-- review:begin au-lic-20261124b-fluconazole-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since only an oral capsule is listed in Australia" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-fluconazole-1 -->
 
 <!-- review:begin log -->
 
@@ -124,6 +130,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

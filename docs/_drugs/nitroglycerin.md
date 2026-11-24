@@ -38,9 +38,15 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Nitroglycerin is a nitric oxide donor vasodilator. It is registered in Australia as a transdermal patch (Transiderm-Nitro 25), but the data compiled for this report contain no approved indication text.
+Nitroglycerin is a nitric oxide donor vasodilator. It is registered in Australia as transdermal patches (such as Transiderm-Nitro 25) and a sublingual spray, but the data compiled for this report contain no approved indication text.
 The TxGNN model predicts it may be effective for **pulmonary hypertension**, with **3 clinical trials** and **20 publications** currently linked to this direction.
 The evidence is mostly small, early-phase or older haemodynamic studies, so it supports further research rather than a clinical change.
+
+<!-- review:begin au-lic-20261124b-nitroglycerin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "registered in Australia as a transdermal patch (Transiderm-Nitro 25)," Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-nitroglycerin-1 -->
 
 ---
 
@@ -151,11 +157,12 @@ The prediction is mechanistically plausible and the TxGNN score is high. However
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

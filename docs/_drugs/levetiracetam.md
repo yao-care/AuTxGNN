@@ -152,18 +152,25 @@ Please refer to the TGA-approved Product Information (PI) for full safety inform
 - Disease-specific clinical data for visual or photosensitive epilepsy (for example, a photoparoxysmal response study, noting the related SV2A ligand seletracetam has a Phase 2 trial in this setting)
 - Mechanism of action data to be confirmed from DrugBank
 - TGA Product Information, including the approved indication text, warnings and contraindications, which were missing from the data compiled for this report
-- Clarification of whether the status epilepticus use is already covered by the current ARTG indication, and which formulations (IV) are available in Australia, since the single ARTG entry is an oral 1 g tablet
+- Clarification of whether the status epilepticus use is already covered by the current ARTG indication, and which formulations (IV) are available in Australia, since the listed PBS items are oral tablets and an oral solution
 - For any reflex-epilepsy extension, a safety monitoring plan covering behavioural and psychiatric effects, haematological effects and renal dose adjustment
+
+<!-- review:begin au-lic-20261124b-levetiracetam-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since the single ARTG entry is an oral 1 g tablet" Corrected: the earlier wording described the dosage forms and strengths of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms and strengths (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-levetiracetam-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e) |
+| 2026-11-24 | Corrected: dosage forms and strengths updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

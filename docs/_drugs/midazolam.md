@@ -144,7 +144,13 @@ Product Information warnings and contraindications were not available in the dat
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible, and older randomised studies suggest oral midazolam works as a hypnotic. However, the evidence is dated and the registered trials do not address chronic insomnia. The only ARTG listing is an injectable, and safety labelling data are missing. Current evidence supports this as a research question, not a clinical recommendation.
+The mechanism is plausible, and older randomised studies suggest oral midazolam works as a hypnotic. However, the evidence is dated and the registered trials do not address chronic insomnia. The PBS listings are an injection and oromucosal solutions (Zyamis), and safety labelling data are missing. Current evidence supports this as a research question, not a clinical recommendation.
+
+<!-- review:begin au-lic-20261124b-midazolam-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only ARTG listing is an injectable, and" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-midazolam-1 -->
 
 **To proceed, the following is needed:**
 - Product Information warnings and contraindications for Australia.
@@ -163,6 +169,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

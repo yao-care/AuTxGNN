@@ -164,10 +164,16 @@ Multiple randomised phase 3 trials and publications support etoposide-containing
 
 **To proceed, the following is needed:**
 - Confirmation of the Australian approved indications, as the ARTG indication text for Vepesid was not available and the Ewing sarcoma use may be off-label
-- Review of intravenous etoposide products on the ARTG, since only an oral capsule was identified
+- Review of intravenous etoposide products on the ARTG (the PBS data list oral capsules and an intravenous infusion solution)
 - Mechanism of action data and Product Information warnings and contraindications (both are data gaps)
 - A myelosuppression and secondary malignancy monitoring plan, plus interaction management
 - Review against local paediatric and adolescent/young adult sarcoma protocols and Australian practice data, such as the Peter MacCallum oral etoposide series
+
+<!-- review:begin au-lic-20261124b-etoposide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "on the ARTG, since only an oral capsule was identified" Corrected: the earlier wording described the dosage forms of only the PBS items originally collected for this page. The current PBS items for this ingredient include other dosage forms (PBS public data API, Schedule effective 2026-11-01). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261124b-etoposide-1 -->
 
 **Other predictions:** All other predicted indications in the data (pulmonary blastoma, primary pulmonary lymphoma, and rhabdomyosarcoma subtypes) should be treated as **Hold** or research questions. Evidence for them is limited to case reports, indirect literature or model scores alone. Rhabdomyosarcoma overall has trial support but is also confounded by combination regimens.
 
@@ -181,6 +187,7 @@ Below is the review log for this page: statements checked against official Austr
 |------|------|------|------|
 | 2026-11-17 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059) |
+| 2026-11-24 | Corrected: dosage forms updated to the current PBS Schedule | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 
