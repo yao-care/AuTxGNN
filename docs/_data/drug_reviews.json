@@ -108,7 +108,11 @@
      "retired": "2026-11-24",
      "reason": "紀錄說明裡寫死的張數改成指向概覽表與程式 PBS 品項表（程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定）"
     }
-   ]
+   ],
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-24",
+   "withdrawn_note": "the removed clause was about the clinical trial (withdrawn) and publications, not about PBS items or ARTG entries; the original sentence is restored",
+   "withdrawn_reason": "10-31 刪句工具（checker ONLY_CANCEL）把試驗語境的「only 1 clinical trial (withdrawn…)」誤判成許可證註銷句刪掉；母目錄 checker 963a4ab8 已排除試驗／文獻語境，撤回紀錄、頁面還原原句（原句取自 7203dc4f4^），2026-11-24 用戶決定"
   },
   {
    "id": "au-lic-20261106-vitamin_a-1",

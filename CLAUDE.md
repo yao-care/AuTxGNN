@@ -607,4 +607,14 @@ PBS Schedule 只列當期給付的品項——代碼消失＝「no longer listed
 - 判定規則：全稱說法（the only／only／sole／「the product is …」）要跟本藥全部單方品項的劑型與規格（有寫才算）一致；描述說法（marketed/registered in Australia as …）有不同給藥途徑的單方品項、或寫了單一規格而另有其他規格，才算不成立；「沒有 X 劑型」的說法查有無該途徑品項。證據包沒有單方品項時拿全部品項比；只有複方才有的劑型不算推翻描述說法。
 - 結果：不成立 69 句（56 頁）以 69 筆 `au-lic-20261124b-*` 更正（劑型 51、規格 9、劑型與規格 3、以「只有一筆／兩筆」為前提的待辦 3、未區分單方與複方 3）；更正文字只列劑型類別與規格、不寫張數；待辦條目只改錯的前提。成立的保留（例：aflibercept 全為玻璃體內注射、benzydamine 全為口腔噴洗劑、gefitinib 全為 250 mg 錠）。待查清單 11-24 沒有新增項目（第一輪 B 待查 0 句）。
 - `scripts/reviews_from_edits.py` 的 figures() 改成不寫張數（指向概覽表與程式 PBS 品項表）；寫死張數的 `au-lic-20261031-lurasidone-1` 說明同 id 重發（前版存 history）。
-- 已知問題（沒改）：`au-lic-20261031-lurasidone-1` 是 10-31 刪句工具把「1 clinical trial (withdrawn…) and 20 publications」誤當許可證註銷句刪掉的（一句話摘要只剩半句）。還原原句後母目錄 check_drug_page.py 的 M3 會把「withdrawn」誤判成許可證全部註銷（非 0 數變多），所以先不還原，要等 checker 排除試驗語境後再撤回這筆紀錄。
+- 已知問題（2026-11-24 第三輪已處理，見下節）：`au-lic-20261031-lurasidone-1` 是 10-31 刪句工具把「1 clinical trial (withdrawn…) and 20 publications」誤當許可證註銷句刪掉的（一句話摘要只剩半句）。
+
+## 第三輪：誤刪的試驗句還原、缺市場段落的防線（2026-11-24）
+
+用戶 2026-11-24 第三輪決定（本站做 B、C）：
+- C. `au-lic-20261031-lurasidone-1` 撤回（status withdrawn，withdrawn_on／withdrawn_note／withdrawn_reason）：10-31 刪句工具（checker ONLY_CANCEL）把一句話摘要裡講臨床試驗的「but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications** …」當成許可證註銷句刪掉；
+  母目錄 checker 963a4ab8 已把「only … trial (withdrawn)」等試驗／文獻語境排除。撤回的紀錄不會自動還原原句，頁面原句依 7203dc4f4^ 手動還原（模型報告原文），查核紀錄表註明撤回；還原後 checker 全量仍 0。
+  全站查同類：刪改轉紀錄（reviews_from_edits，10-31 7203dc4f4、11-06 37a0310a1）只有 3 筆，另 2 筆（ethinylestradiol、vitamin_a）刪的確是許可證單方／有效說法；其他 correct 紀錄刪改的文字也都是許可證／劑型句，沒有同類。
+- B. `scripts/sync_license_tables.py` 的 add_section（照 JpTxGNN 第二輪）：公開頁沒有「## Australia Market Information」、證據包有 PBS 品項紀錄的，補段落＋程式表，位置在「## Cytotoxicity」（有這段的頁市場段落固定在它前面）→「## Safety Considerations」→「## Conclusion and Next Steps」→「## Disclaimer」之前；noindex 頁不補。
+  gate（licenses.page_problems）加一條「公開頁沒有市場段落、證據包卻有紀錄」就擋；PAGE_NOTE（license_adapter 共用）放行新標題行。2026-11-24 量測：788 頁（公開 749＋noindex 39）都有市場段落，補 0 頁；這是給之後整頁重產的頁用的防線（以拿掉段落的頁試過：gate 擋、補回後與原頁相同、noindex 不補、可重複執行）。
+

@@ -15,7 +15,8 @@ PBS Schedule 每月變，AI 表不會跟著改。改成程式依證據包（data
   含 add_current_pbs_items.py 因 20 筆上限只算張數、沒存進 records 的品項）；最後一行來源句 SOURCE。
   證據包沒有任何品項時整個區塊只有 NONE_LINE 一行。
   區塊前後各一行 <!-- licenses:begin --> <!-- licenses:end -->（查核紀錄、gate 用來分辨程式寫的字）。
-放在哪：取代市場段落裡的第一張許可證表（表頭含 ARTG／Licence）；段落沒有表時放在段落開頭。沒有市場段落的頁不加。
+放在哪：取代市場段落裡的第一張許可證表（表頭含 ARTG／Licence）；段落沒有表時放在段落開頭。沒有市場段落的公開頁
+  （2026-11-24 第三輪起）由 add_section 補段落；noindex 頁不補。
   表以外的文字不動（正文張數由 scripts/rewrite_license_counts.py 依快照改寫）；--migrate 另拿掉緊接在舊表前後、
   只講「舊表列了幾筆」的說明句（CAPTION），查核紀錄的更正文字所在的句子不動。
 資料來源：預設讀快照 snapshots/au_licenses.json.gz 的 rows／show（scripts/build_license_snapshot.py 用 program_rows 算好）；
@@ -48,8 +49,9 @@ SHOW_RX = r"The table shows \d+ of \d+ PBS items for this ingredient in these da
 NONE_LINE = ("No PBS items for this ingredient are recorded in these data; TGA (ARTG) registration status is not included "
              "in these data.")
 MAX_ROWS = 20
-# 每週排程 3b 的自我檢查（license_refresh）：改到的行除了表格列只能是這些（license_adapter.PAGE_NOTE 用同一份）
-PAGE_NOTE = r"^(" + "|".join(re.escape(x) for x in (BEGIN, END, SOURCE, NONE_LINE)) + "|" + SHOW_RX + r")$"
+# 每週排程 3b 的自我檢查（license_refresh）：改到的行除了表格列只能是這些（license_adapter.PAGE_NOTE 用同一份；
+# 2026-11-24 第三輪起另有 add_section 補的市場段落標題行）
+PAGE_NOTE = r"^(" + "|".join(re.escape(x) for x in (SEC, BEGIN, END, SOURCE, NONE_LINE)) + "|" + SHOW_RX + r")$"
 # --migrate：緊接舊表、只講表上列了幾筆的說明句（換成程式表後列數對不上）
 CAPTION = re.compile(r"^(?:The (?:table|list) (?:above |below )?(?:shows|lists|includes|contains) [^.]*\.|"
                      r"(?:Selected|Representative|Example) (?:PBS items|entries|products)[^.]*:)$", re.I)
@@ -160,7 +162,7 @@ def process(text, rows, show, migrate=False, protect=()):
         return "\n".join(_splice(lines, lines.index(BEGIN), lines.index(END) + 1, blk))
     sec = section(lines)
     if sec is None:
-        return text
+        return add_section(text, rows, show)
     a, b = sec
     tb = [k for k in range(a + 1, b) if _is_license_table_head(lines, k)]
     if tb:
@@ -172,6 +174,28 @@ def process(text, rows, show, migrate=False, protect=()):
             lines, x, y = _drop_caption(lines, x, y, protect)
         return "\n".join(_splice(lines, x, y, blk))
     return "\n".join(_splice(lines, a + 1, a + 1, blk))
+
+
+# 2026-11-24 第三輪（用戶決定；照 JpTxGNN 第二輪 add_section）：公開頁沒有「## Australia Market Information」段落、
+# 但證據包有 PBS 品項紀錄的，補一個段落放程式表。位置：「## Cytotoxicity」之前（本站有這段的頁，市場段落固定在它前面）；
+# 沒有就「## Safety Considerations」之前（預測頁的固定順序）；再沒有就「## Conclusion and Next Steps」、「## Disclaimer」之前。
+# noindex 頁與證據包沒有紀錄的頁不補。2026-11-24 量測：公開頁 0 頁缺市場段落（788 頁都有），這是給之後整頁重產的頁用的防線。
+ADD_BEFORE = ("## Cytotoxicity", "## Safety Considerations", "## Conclusion and Next Steps", "## Disclaimer")
+
+
+def is_noindex(text):
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    return bool(re.search(r"^noindex:\s*true", fm, re.M))
+
+
+def add_section(text, rows, show):
+    if not rows or is_noindex(text):
+        return text
+    lines = text.split("\n")
+    at = next((lines.index(h) for h in ADD_BEFORE if h in lines), None)
+    if at is None:
+        return text
+    return "\n".join(_splice(lines, at, at, [SEC, ""] + wrap(program_block(rows, show))))
 
 
 def _snapshot():
