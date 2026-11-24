@@ -575,3 +575,27 @@ PBS Schedule 只列當期給付的品項——代碼消失＝「no longer listed
 例：abatacept「Approved use: Not recorded in the local data」→「In Australia: 10 PBS items (10 currently listed)」；2026-11-19 改了 393 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site AuTxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 市場段落 PBS 品項表與正文張數由程式維護（2026-11-24）
+
+用戶 2026-11-24 決定（30 站「許可證張數與狀態不再每週過期」，本站做表＋B）：每週排程只改得到概覽表狀態列／張數列，「## Australia Market Information」段落裡 AI 寫的自由格式表
+（609 頁表頭「| ARTG Number | Product Name | Dosage Form | Approved Indication |」、156 頁「| Licence | Product | Dosage form | Status |」、19 頁其他三欄／四欄寫法）不會跟著 PBS Schedule 變，
+而且第一欄其實是 PBS 品項代碼（不是 ARTG 號碼）、適應症欄全是「Not recorded…」，多數表只列 11-17 依成分補收前的 1～2 個品項。
+- A. `scripts/sync_license_tables.py`：市場段落第一張許可證表換成程式依證據包（tfda.records）產生的表 `| PBS Item Code | Product Name | Ingredients | Dosage Form | Status |`
+  （產品名、成分、劑型照 PBS public data API 原文；證據包的 pandas 空值「nan」寫成「–」）；狀態＝在當期 Schedule「Valid」（本站既有寫法）、不在當期 Schedule 用證據包原文「No longer listed on the PBS Schedule」；
+  在列的在前、同狀態依代碼，最多 20 列；列數少於總數時表下一句「The table shows N of M PBS items for this ingredient in these data (items on the current PBS Schedule first).」
+  （M＝total_matches，含 add_current_pbs_items.py 因 20 筆上限沒存的品項）；最後一行來源句（PBS listing 不含 TGA ARTG 狀態）；沒有品項時一句 NONE_LINE。前後 `<!-- licenses:begin/end -->`；段落沒有表的 4 頁補在段落開頭。
+  快照 `snapshots/au_licenses.json.gz` 存 rows／show（program_rows）；gate 第 18 項（licenses.page_problems → sync_license_tables.block_problems）擋「程式區塊≠快照重算」「市場段落沒有程式區塊」「程式區塊外還有 AI 許可證表」。
+  接上：`scripts/apply_drug_reviews.py`（非 --check）結尾、`scripts/build_license_snapshot.py` 結尾（`--no-rewrite` 不跑）、每週排程 `license_adapter.sync_tables`（--bundles，全站比對、只寫有變的）與 `PAGE_NOTE`（3b 放行程式區塊的非表格行）。
+  add_current_pbs_items.py 的行為沒動。
+- B. `scripts/rewrite_license_counts.py`＋`src/autxgnn/regulatory/count_prose.py`（照 Kr／My／DE 移植，英文句型）：「N current PBS items」「N valid PBS items」「N of M PBS items are listed」「(N listed, M no longer listed)」依快照事實層改寫
+  （本站 valid＝在當期 PBS Schedule、cancelled＝不在）；有保留、講證據包或查詢、相對數、劑型／單方複方／廠商子集、TGA／ARTG 口徑、講表格筆數、partial 頁不動；同一行有判斷不了的整行不動；
+  0／1 跨越與 both（單複數）、「all … listed」而事實不符（premise）不改、列待查。不寫查核框；gate 第 22 項擋「再跑一次會變」。2026-11-24 量測：句型對得到的 44 句，數字全部已等於事實層，改寫 0 句、待查 0 句。
+- 2026-11-24 套用（資料 data-20261117-130853）：程式表 788 頁（公開 749＋noindex 39；AI 表取代 784 頁、補表 4 頁）；magnesium_sulfate 的「1 (valid: 1)」原本寫在舊 AI 表的品名格，概覽表缺張數列，補上「| Number of PBS Items | 1 (valid: 1) |」。
+  查核紀錄更正文字講舊表筆數的 8 筆同 id 重發（前版存 history）：codeine、hydrocortisone、isoleucine、propylene_glycol、temozolomide、tyrosine（「The table lists one of 12…」「The five entries in the table…」等→只留總數）、
+  emtricitabine（「the seven named above」）、terbutaline（「the Bricanyl injection in the table」）；新增 2 筆：`au-lic-20261124-emtricitabine-1`（「Two further entries are registered: Genvoya (ARTG 11114Y)…」→代碼是 PBS 品項代碼、不再是表外的「further」）、
+  `au-lic-20261124-acetic_acid-1`（「so a product table cannot be provided」）。被取代的表上沒有錨著的查核紀錄（0 筆 superseded）。
+  checker 全量前後 0／0；gate exit 0；last_modified_at：788 頁表格內容有變，改 2026-11-24。
+  另寫的寬偵測（數字不等於事實層任一讀法、the only／sole、all … valid 而有註銷、講表格）全量掃公開頁：改前 100 句、改後 90 句，剩下都不是這次的張數句：
+  「The only Australian product is an oral capsule」這類只講劑型／給藥途徑的句子（11-17 依成分補收後品項變多，劑型說法沒有逐張確認）、「one entry was found」等待辦條目、交互作用與文獻的「entries／items」誤中。
+- 母目錄 `.claude/license_labels/AuTxGNN.json` 只有「Valid」：建議加 `"No longer listed on the PBS Schedule": "cancelled"`（preferred.cancelled）；目前排程把有效格翻成註銷時會用證據包原文（同一字樣），所以不影響同步。

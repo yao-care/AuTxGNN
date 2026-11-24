@@ -3,7 +3,8 @@
 依 snapshots/au_licenses.json.gz（scripts/build_license_snapshot.py 產生）檢查，不需要 data/：
   1. 「## Australia Market Information」段落裡許可證表第一欄的號碼（含數字的格）都屬於本藥（快照 own；正規化後相同，或格子以該號碼結尾，
      例「ARTG 10294T」對「10294T」）。
-  2. 程式產生的許可證表（本站 沒有程式產生的許可證表，只驗號碼、狀態列、張數列與表格列狀態）：<!-- licenses:begin --> … <!-- licenses:end --> 內＝依快照重算的結果。
+  2. 程式產生的 PBS 品項表（2026-11-24 起，scripts/sync_license_tables.py）：<!-- licenses:begin --> … <!-- licenses:end --> 內＝
+     依快照 rows／show 重算的結果；快照有 rows 的頁，市場段落一定要有程式區塊。
   3. 概覽表的狀態列與張數列＝事實層的寫法：用本站 tools/txgnn/.claude/check_drug_page.py 的 marketed_text／not_marketed_text／
      unknown_status_text／not_reg_text／count_text（checker M1／M4 的同一套函式）。
   4. 表格列寫的狀態不得跟事實相反（checker row_status_conflicts）。
@@ -120,27 +121,8 @@ def page_problems(stem: str, text: str) -> list[str]:
             if bad:
                 errs.append(f"市場段落許可證表的號碼不屬於本藥：{', '.join(bad[:5])}")
         s = S()
-        has_b, has_e = BEGIN in sec, END in sec
-        if has_b != has_e:
-            errs.append("程式區塊標記不成對")
-        if s is not None and has_b and has_e:
-            i, j = sec.index(BEGIN), sec.index(END)
-            blk = [x for x in sec[i + 1:j] if x.strip()]
-            tb = [x for x in blk if x.startswith("|")]
-            rest = [x.strip() for x in blk if not x.startswith("|")]
-            n = len(tb) - 2
-            if not e.get("rows"):
-                if tb:
-                    errs.append("程式區塊有表格，但快照沒有任何可列的許可證")
-            elif not tb or tb[0].strip() != s.HEAD:
-                errs.append("程式區塊的表頭不是程式表頭")
-            elif tb[2:] != e["rows"][:n]:
-                k = next((k for k, (x, y) in enumerate(zip(tb[2:], e["rows"])) if x != y), min(n, len(e["rows"])))
-                errs.append(f"程式表第 {k + 1} 列跟快照重算的結果不同（程式表被手改或資料已更新：跑 scripts/sync_license_tables.py）")
-            if e.get("show") is not None and tb and rest != e["show"]:
-                errs.append(f"程式區塊表格下方的程式文字應為「{' '.join(e['show']) or '（無）'}」")
-        elif s is not None and getattr(s, "HEAD", None) and any(x.strip() == s.HEAD for x in sec):
-            errs.append("程式表沒有程式區塊標記（跑 python3 scripts/sync_license_tables.py --mark-existing）")
+        if s is not None:
+            errs += s.block_problems(sec, e)  # 2026-11-24：程式 PBS 品項表＝快照重算的結果、市場段落要有程式表
     fc = e.get("facts")
     if fc:
         all_rows = [r for t in _tables(lines) for r in _rows(t)]

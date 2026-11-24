@@ -9,12 +9,12 @@
 內容（鍵＝藥物頁檔名去 .md）：
   facts：事實層那一筆（market_status、total、valid、cancelled、partial、licenses{號碼: 狀態} …）
   own：本藥證據包 tfda.records 的號碼（正規化：check_drug_page 的 mv2.norm_id）
-  rows／show：有程式許可證表的站（scripts/sync_license_tables.py）才有：程式算出的表格列（最多 20 列）與表下的程式文字
+  rows／show：程式 PBS 品項表（scripts/sync_license_tables.py program_rows；2026-11-24 起）：程式算出的表格列（最多 20 列）與表下的程式文字
   meta：產生日、Release tag、規則所在檔案
 
 什麼時候跑：證據包或事實層變了之後（每週許可證排程與依成分重建都會在改頁後自動跑，並把 snapshots/ 跟 docs/ 一起 commit）。
 用法（repo 根目錄，先還原 data/ 並在工作目錄跑 dump_license_facts）：
-  python3 scripts/build_license_snapshot.py --ws <工作目錄> [--release-tag data-YYYYMMDD-HHMMSS]
+  python3 scripts/build_license_snapshot.py --ws <工作目錄> [--release-tag data-YYYYMMDD-HHMMSS] [--no-rewrite]
 """
 import datetime as dt
 import gzip
@@ -100,3 +100,12 @@ if __name__ == "__main__":
     if not re.fullmatch(r"(data-[\w-]+)?", tag):
         sys.exit("--release-tag 要是 data-… 的 tag")
     build(ws, tag)
+    # 2026-11-24（用戶決定）：快照換了，程式 PBS 品項表與正文張數跟著依新快照改寫（--no-rewrite 不跑）。
+    # 母目錄每週排程在 checker 之前就會跑這支（--ws <母目錄>），所以這裡一定要改寫，且只改表格與張數句。
+    if "--no-rewrite" not in a:
+        import subprocess
+        for _s in ("sync_license_tables.py", "rewrite_license_counts.py"):
+            _r = subprocess.run([sys.executable, str(ROOT / "scripts" / _s)])
+            if _r.returncode:
+                print(f"  ✗ 結尾自動改寫失敗：{_s}（exit {_r.returncode}）", file=sys.stderr)
+                _lf_fail.append(_s)

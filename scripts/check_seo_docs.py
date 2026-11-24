@@ -25,13 +25,16 @@
   17. docs/_data/drug_reviews.json 的人工查核紀錄（更正／加註／待重審／重審結果）都還套在藥物頁上
       （頁面被產線或排程改寫會蓋掉；修法：python3 scripts/apply_drug_reviews.py）（2026-11-12，本站查核機制）。
   18. 藥物頁的許可證資訊＝snapshots/au_licenses.json.gz：市場段落許可證表的號碼屬於本藥、
-      狀態列與張數列＝事實層寫法、表格列狀態不跟事實相反（src/autxgnn/regulatory/licenses.py）（2026-11-12）。
+      狀態列與張數列＝事實層寫法、表格列狀態不跟事實相反（src/autxgnn/regulatory/licenses.py）（2026-11-12）；市場段落的程式 PBS 品項表
+      （<!-- licenses:begin/end -->，scripts/sync_license_tables.py）＝快照 rows／show 重算的結果、段落裡沒有程式區塊外的 AI 許可證表（2026-11-24）。
   19. 藥物頁頁首等級＝Quick Overview「Evidence Level」格的主預測等級（第一個等級）（主預測撤回時為其他預測表最高等級或 N/A），
       parent 對應列表頁（src/autxgnn/regulatory/page_format.py）（2026-11-12）。
   20. 查核紀錄裡重審撤回（verdict=withdraw）的預測，不出現在 search-index.json、FHIR ClinicalUseDefinition、
       證據監測清單 scripts/drug_list.json（src/autxgnn/regulatory/withdrawn.py）（2026-11-12）。同、只宣稱 read（2026-11-06）。
   21. 公開藥物頁寫「作用機轉資料不可得」的，有附出處的作用機轉紀錄（drug_reviews.json action=mechanism）
       或列在待查清單（source＝mechanism of action，附補不到的原因）（scripts/build_mechanism_reviews.py）（2026-11-19）。
+  22. 正文的 PBS 品項張數＝依快照事實層程式改寫的結果，再跑一次不會變
+      （scripts/rewrite_license_counts.py、src/autxgnn/regulatory/count_prose.py）（2026-11-24）。
 
 2026-11-12 起本站有自己的查核機制（核心流程比照 TwTxGNN，用戶決定 30 站各自建立；範本 UsTxGNN）：第 17–20 項對應 Tw 的
 人工查核紀錄、許可證、頁首等級、撤回預測檢查，規則在本站 src/autxgnn/regulatory/ 與 scripts/apply_drug_reviews.py。
@@ -782,6 +785,8 @@ errors += _si_cov_errors()
 #     （drug_reviews.json action=mechanism，由 scripts/build_mechanism_reviews.py 產生），要嘛列在待查清單並寫明補不到的原因。
 from build_mechanism_reviews import gate_errors as _moa_errors  # noqa: E402
 errors += _moa_errors()
+from rewrite_license_counts import check_errors as _count_errors  # noqa: E402
+errors += _count_errors()  # 22) 正文 PBS 品項張數＝程式改寫結果（2026-11-24）
 # 說明頁／證據等級頁的在地資料檔（2026-11-19；docs/_data/local_facts.json、evidence_tier_facts.json，說明見 scripts/local_facts.py）
 import subprocess as _lf_sp  # noqa: E402
 _lf = _lf_sp.run([sys.executable, str(DOCS.parent / "scripts/local_facts.py"), "--check"], capture_output=True, text=True)
