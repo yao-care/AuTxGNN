@@ -17227,6 +17227,54 @@
    ],
    "checked": "2026-11-24",
    "summary": "Corrected: the only single-ingredient product is distinguished from combination products"
+  },
+  {
+   "id": "au-lic-20261125-hydroxyurea-1",
+   "drug": "hydroxyurea",
+   "file": "hydroxyurea.md",
+   "action": "correct",
+   "claim": "The only registered Australian product is a **topical** hydroxyurea 1% cream. No oral dosage form appears in the data compiled, so the systemic route used for oncology and sickle cell disease is not represented in the ARTG data reviewed here.",
+   "replacement": "The PBS item for this ingredient is an oral hydroxycarbamide (the INN for hydroxyurea) 500 mg capsule.",
+   "note": "Corrected: the cream originally collected for this page (PBS item 4281H, Egoderm Cream) contains ichthammol, not hydroxyurea, and has been removed. The current PBS Schedule lists hydroxycarbamide 500 mg capsules (item 3093T). PBS listing does not show TGA (ARTG) registration status.",
+   "finding": "2026-11-25 第五輪（用戶決定）：證據包原收的 4281H Egoderm Cream 成分是 Ichthammol（drug_mapping.csv 把 ICHTHAMMOL 對到 DB01005 Hydroxyurea），依 config/bundle_record_exclusions.json 移出；PBS 的 hydroxycarbamide（＝hydroxyurea 的 INN）3093T 原本對照失敗沒收，drug_mapping 補上 INN 別名後由 add_current_pbs_items.py 補收（Capsule 500 mg，Hydrea／Hydroxycarbamide Medsurge）",
+   "sources": [
+    {
+     "title": "PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)",
+     "url": "https://data-api.health.gov.au/pbs/api/v3/items",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PBS Schedule",
+     "url": "https://www.pbs.gov.au/",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: the PBS product is an oral hydroxycarbamide capsule, not a cream"
+  },
+  {
+   "id": "au-lic-20261125-hydroxyurea-2",
+   "drug": "hydroxyurea",
+   "file": "hydroxyurea.md",
+   "action": "correct",
+   "claim": "There are no registered trials and no clinical efficacy data, and the Australian product is a topical cream rather than a systemic formulation.",
+   "replacement": "There are no registered trials and no clinical efficacy data.",
+   "note": "Corrected: the earlier wording rested on a cream that contains ichthammol, not hydroxyurea. The current PBS Schedule lists oral hydroxycarbamide 500 mg capsules (item 3093T).",
+   "finding": "2026-11-25 第五輪（用戶決定）：證據包原收的 4281H Egoderm Cream 成分是 Ichthammol（drug_mapping.csv 把 ICHTHAMMOL 對到 DB01005 Hydroxyurea），依 config/bundle_record_exclusions.json 移出；PBS 的 hydroxycarbamide（＝hydroxyurea 的 INN）3093T 原本對照失敗沒收，drug_mapping 補上 INN 別名後由 add_current_pbs_items.py 補收（Capsule 500 mg，Hydrea／Hydroxycarbamide Medsurge）",
+   "sources": [
+    {
+     "title": "PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)",
+     "url": "https://data-api.health.gov.au/pbs/api/v3/items",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PBS Schedule",
+     "url": "https://www.pbs.gov.au/",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Removed the premise that the Australian product is a topical cream"
   }
  ]
 }

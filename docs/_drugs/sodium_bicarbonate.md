@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 679
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Sodium Bicarbonate: known uses and market status in Australia; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Bicar
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 5 |
 | Evidence level | Not applicable |
-| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 2 (valid: 2) |
+| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 4 (valid: 4) |
 
 ## Known uses recorded for this drug
 
@@ -82,6 +82,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Bicar
 |------|------|------|------|------|
 | 452T | – | Sodium Bicarbonate | – | Valid |
 | 7314Y | – | Sodium Bicarbonate | – | Valid |
+| 9470K | Sodibic | bicarbonate | Capsule 840 mg | Valid |
+| 13933H | Sodibic | bicarbonate | Capsule 840 mg | Valid |
 
 Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
 

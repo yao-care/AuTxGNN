@@ -21,11 +21,11 @@
   "items_current": 3505
  },
  "reviews": {
-  "records": 680,
+  "records": 682,
   "pages": 539,
   "public_pages_with_records": 538,
   "by_action": {
-   "correct": 154,
+   "correct": 156,
    "mechanism": 526
   }
  },
@@ -204,6 +204,12 @@
  },
  "recent_reviews": [
   {
+   "t": "Hydroxyurea",
+   "u": "/drugs/hydroxyurea/",
+   "s": "Removed the premise that the Australian product is a topical cream",
+   "d": "2026-11-25"
+  },
+  {
    "t": "Vinorelbine",
    "u": "/drugs/vinorelbine/",
    "s": "Corrected: dosage forms updated to the current PBS Schedule",
@@ -340,15 +346,15 @@
    "u": "/drugs/methylprednisolone/",
    "s": "Corrected: dosage forms updated to the current PBS Schedule",
    "d": "2026-11-24"
-  },
-  {
-   "t": "Methotrexate",
-   "u": "/drugs/methotrexate/",
-   "s": "Corrected: dosage forms updated to the current PBS Schedule",
-   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
+  {
+   "t": "Hydroxyurea",
+   "u": "/drugs/hydroxyurea/",
+   "s": "Removed the premise that the Australian product is a topical cream",
+   "d": "2026-11-25"
+  },
   {
    "t": "Vinorelbine",
    "u": "/drugs/vinorelbine/",
@@ -389,12 +395,6 @@
    "t": "Sulfasalazine",
    "u": "/drugs/sulfasalazine/",
    "s": "Corrected: dosage forms updated to the current PBS Schedule",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Salicylic Acid",
-   "u": "/drugs/salicylic-acid/",
-   "s": "Corrected: removed the assumption that there are only two entries",
    "d": "2026-11-24"
   }
  ],

@@ -3960,17 +3960,6 @@
     "x": 0
    },
    {
-    "t": "Potassium Bicarbonate",
-    "u": "/drugs/potassium-bicarbonate/",
-    "l": "L5",
-    "i": "gastroduodenitis",
-    "lt": 4,
-    "lv": 4,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
-    "x": 0
-   },
-   {
     "t": "Pralatrexate",
     "u": "/drugs/pralatrexate/",
     "l": "L5",
@@ -5599,6 +5588,17 @@
     "x": 0
    },
    {
+    "t": "Potassium Bicarbonate",
+    "u": "/drugs/potassium-bicarbonate/",
+    "l": "L5",
+    "i": "gastroduodenitis",
+    "lt": 2,
+    "lv": 2,
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "x": 0
+   },
+   {
     "t": "Prasugrel",
     "u": "/drugs/prasugrel/",
     "l": "L5",
@@ -6166,8 +6166,8 @@
     "i": "female breast carcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data was not available in the data compiled for this report\" replaced with a…",
+    "r": 3,
+    "rs": "Removed the premise that the Australian product is a topical cream",
     "x": 0
    },
    {

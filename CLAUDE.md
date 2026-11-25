@@ -618,3 +618,11 @@ PBS Schedule 只列當期給付的品項——代碼消失＝「no longer listed
 - B. `scripts/sync_license_tables.py` 的 add_section（照 JpTxGNN 第二輪）：公開頁沒有「## Australia Market Information」、證據包有 PBS 品項紀錄的，補段落＋程式表，位置在「## Cytotoxicity」（有這段的頁市場段落固定在它前面）→「## Safety Considerations」→「## Conclusion and Next Steps」→「## Disclaimer」之前；noindex 頁不補。
   gate（licenses.page_problems）加一條「公開頁沒有市場段落、證據包卻有紀錄」就擋；PAGE_NOTE（license_adapter 共用）放行新標題行。2026-11-24 量測：788 頁（公開 749＋noindex 39）都有市場段落，補 0 頁；這是給之後整頁重產的頁用的防線（以拿掉段落的頁試過：gate 擋、補回後與原頁相同、noindex 不補、可重複執行）。
 
+
+## 證據包收錯品項排除（2026-11-25 第五輪）
+
+用戶 2026-11-25 決定（第五輪第 1 條）：collectors/aufda.py 與 scripts/add_current_pbs_items.py 依 drug_mapping.csv（PBS drug_name → DrugBank ID）收品項，drug_mapping 把別的成分對到本藥 ID：PBS drug_name「bicarbonate」（Sodibic 840 mg，PBS li_drug_name 是 Sodium bicarbonate）對到 DB11098 Potassium bicarbonate、「Ichthammol」（Egoderm Cream）對到 DB01005 Hydroxyurea。
+- 排除表 `config/bundle_record_exclusions.json`（比照 CHTxGNN 第三輪；每條附 reason、basis）：證據包名在 bundles 裡、紀錄成分欄（PBS drug_name，「 + 」分隔）沒有一段符合 require 就排除；`src/autxgnn/regulatory/record_exclusions.py` 判定，`scripts/exclude_mismatched_records.py` 移到 `tfda.excluded_records`（附 excluded、excluded_reason、excluded_basis；total_matches 扣掉；可重複執行）；aufda.py 收集時、add_current_pbs_items.py 補收時照同一份規則不收、excluded_records 的代碼不補回；`.github/workflows/license-refresh.yml` 在補收之後、license_refresh 之前跑。
+- 量測：報告確認組 potassium_bicarbonate 2 筆（13933H、9470K Sodibic）；另寫的獨立偵測（全部證據包，紀錄成分欄沒有本藥名的）逐組看過，同類另有 hydroxyurea 1 筆（4281H Egoderm Cream＝ichthammol，頁面正文寫「唯一澳洲產品是 hydroxyurea 1% 外用乳膏」）；其餘是寫法（ciclosporin、glyceryl trinitrate、mitozantrone、chlormethine、phytomenadione、trientine、panthenol、risedronate 等），照收。
+- 對照修正（data/processed/drug_mapping.csv，Release）：3093T Hydroxycarbamide 原本對照失敗，補 INN 別名對到 DB01005；13933H Sodibic 改對 DB01390 Sodium bicarbonate。add_current_pbs_items.py（Schedule 4753 items）因此補收 3 筆：hydroxyurea＋3093T（Capsule 500 mg）、sodium_bicarbonate＋13933H、9470K；第二次跑 0 筆。
+- 套用（證據包 Release data-20261117-130853）：2 個證據包移出 3 筆；證據包 local_regulatory 重算；potassium_bicarbonate（4→2 張）、hydroxyurea（1→1 張，換成 hydroxycarbamide 膠囊）、sodium_bicarbonate（2→4 張）概覽列、程式表、description 由程式同步；正文矛盾 2 筆 `au-lic-20261125-hydroxyurea-*`（「唯一產品是外用乳膏、沒有口服劑型」與結論理由的同一前提）。checker 前後 0；gate exit 0。

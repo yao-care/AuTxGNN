@@ -929,7 +929,7 @@
     "hydroxyurea": {
       "tail": "In Australia: 1 PBS item (1 currently listed)",
       "original": "Approved use: Not recorded in the local data",
-      "date": "2026-11-19"
+      "date": "2026-11-25"
     },
     "ibuprofen": {
       "tail": "In Australia: 5 PBS items (5 currently listed)",
@@ -4717,6 +4717,20 @@
       "date": "2026-11-19",
       "from": "\"Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data\"",
       "to": "\"Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In Australia: 1 PBS item (1 currently listed)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/hydroxyurea.md",
+      "date": "2026-11-25",
+      "from": "\"Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). In Australia: 1 PBS item (1 currently listed)\"",
+      "to": "\"Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). In Australia: no PBS items in this data\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/hydroxyurea.md",
+      "date": "2026-11-25",
+      "from": "\"Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). In Australia: no PBS items in this data\"",
+      "to": "\"Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). In Australia: 1 PBS item (1 currently listed)\"",
       "tool": ".claude/drug_meta_description.py --apply"
     }
   ]

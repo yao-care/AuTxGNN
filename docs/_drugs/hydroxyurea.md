@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Hydroxyurea"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
 description: "Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). In Australia: 1 PBS item (1 currently listed)"
@@ -101,13 +101,19 @@ The remaining retrieved papers were either not specific to hydroxyurea or off-to
 
 | PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
 |------|------|------|------|------|
-| 4281H | Egoderm Cream | Ichthammol | Cream 10 mg per g (1%), 50 g | Valid |
+| 3093T | HYDROXYCARBAMIDE MEDSURGE | Hydroxycarbamide | Capsule 500 mg | Valid |
 
 Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
 
 <!-- licenses:end -->
 
-The only registered Australian product is a **topical** hydroxyurea 1% cream. No oral dosage form appears in the data compiled, so the systemic route used for oncology and sickle cell disease is not represented in the ARTG data reviewed here.
+The PBS item for this ingredient is an oral hydroxycarbamide (the INN for hydroxyurea) 500 mg capsule.
+
+<!-- review:begin au-lic-20261125-hydroxyurea-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "The only registered Australian product is a **topical** hydroxyurea 1% cream. No oral dosage form appears in the data compiled, so the systemic route used for oncology and sickle cell disease is not represented in the ARTG data reviewed here." Corrected: the cream originally collected for this page (PBS item 4281H, Egoderm Cream) contains ichthammol, not hydroxyurea, and has been removed. The current PBS Schedule lists hydroxycarbamide 500 mg capsules (item 3093T). PBS listing does not show TGA (ARTG) registration status. Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261125-hydroxyurea-1 -->
 
 ---
 
@@ -147,7 +153,13 @@ Please refer to the TGA-approved Product Information (PI) for formal warnings an
 **Decision: Hold**
 
 **Rationale:**
-The breast carcinoma prediction rests on a plausible mechanism and preclinical work only. There are no registered trials and no clinical efficacy data, and the Australian product is a topical cream rather than a systemic formulation. Of the predictions, sickle cell-haemoglobin C disease is the strongest candidate for further investigation.
+The breast carcinoma prediction rests on a plausible mechanism and preclinical work only. There are no registered trials and no clinical efficacy data. Of the predictions, sickle cell-haemoglobin C disease is the strongest candidate for further investigation.
+
+<!-- review:begin au-lic-20261125-hydroxyurea-2 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "There are no registered trials and no clinical efficacy data, and the Australian product is a topical cream rather than a systemic formulation." Corrected: the earlier wording rested on a cream that contains ichthammol, not hydroxyurea. The current PBS Schedule lists oral hydroxycarbamide 500 mg capsules (item 3093T). Source: [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/).
+
+<!-- review:end au-lic-20261125-hydroxyurea-2 -->
 
 **To proceed, the following is needed:**
 - Mechanism of action data to support the mechanistic-link analysis
@@ -160,11 +172,13 @@ The breast carcinoma prediction rests on a plausible mechanism and preclinical w
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Australian data (the PBS Schedule of the Department of Health and Aged Care, and the TGA's ARTG). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xromi (hydroxyurea) prescribing information, Nova Laboratories, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b37d336-86da-4363-aef1-34a7d3ba973b) |
+| 2026-11-25 | Corrected: the PBS product is an oral hydroxycarbamide capsule, not a cream | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
+| 2026-11-25 | Removed the premise that the Australian product is a topical cream | Corrected | [PBS public data API – items, Schedule 4753 (effective 2026-11-01) (Department of Health, Disability and Ageing)](https://data-api.health.gov.au/pbs/api/v3/items); [PBS Schedule](https://www.pbs.gov.au/) |
 
 <!-- review:end log -->
 

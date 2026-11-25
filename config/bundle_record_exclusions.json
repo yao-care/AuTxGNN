@@ -1,0 +1,11 @@
+{
+  "_doc": "證據包收錯的品項（2026-11-25 第五輪，用戶決定）：collectors/aufda.py 與 scripts/add_current_pbs_items.py 依 data/processed/drug_mapping.csv（PBS drug_name → DrugBank ID）收 PBS 品項，drug_mapping 把別的成分對到本藥的 DrugBank ID（PBS drug_name「bicarbonate」〔Sodibic，碳酸氫鈉〕對到 DB11098 Potassium bicarbonate；「Ichthammol」〔Egoderm〕對到 DB01005 Hydroxyurea），別的藥就被收進本藥證據包。規則：證據包名在 bundles 裡，紀錄成分欄（PBS drug_name，以「 + 」分隔）沒有任何一段符合 require，就從 tfda.records 移到 tfda.excluded_records（附 excluded、excluded_reason、excluded_basis），total_matches 同步扣掉。scripts/exclude_mismatched_records.py 套用（可重複執行；每週 license-refresh.yml 在補收之後、license_refresh 之前跑），collectors/aufda.py 收集時與 add_current_pbs_items.py 補收時也照同一份規則不收。不收的另一類：同一成分的鹽類、酯類或寫法（ciclosporin、glyceryl trinitrate、mitozantrone、chlormethine、phytomenadione、trientine、panthenol 之於 dexpanthenol、risedronate 之於 risedronic acid）。",
+  "rules": [
+    {"bundles": ["potassium_bicarbonate"], "require": "potassium bicarbonate",
+     "reason": "成分是 sodium bicarbonate（Sodibic 840 mg 膠囊，碳酸氫鈉；PBS drug_name 只寫「bicarbonate」），不是 potassium bicarbonate（碳酸氫鉀）",
+     "basis": "PBS Schedule（PBS public data API items，Schedule 4753）：13933H、9470K Sodibic，drug_name「bicarbonate」、Capsule 840 mg（Sodibic 是 sodium bicarbonate 840 mg 膠囊）；drug_mapping.csv 把 BICARBONATE 對到 DB11098（Potassium bicarbonate）"},
+    {"bundles": ["hydroxyurea"], "require": "hydroxyurea|hydroxycarbamide",
+     "reason": "成分是 ichthammol（魚石脂，Egoderm 外用乳膏），不是 hydroxyurea（羥基脲）",
+     "basis": "PBS Schedule（PBS public data API items）：4281H Egoderm Cream，drug_name「Ichthammol」；drug_mapping.csv 把 ICHTHAMMOL 對到 DB01005（Hydroxyurea）"}
+  ]
+}

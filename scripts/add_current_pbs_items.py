@@ -16,6 +16,7 @@
 - total_matches 加上補收的品項數（原本的 total_matches 不含這些代碼）；records 照原收集器最多存 20 筆（單方優先），
   超過的不存、只算進 total_matches（證據包算部分收錄，頁面寫「at least N」）。
 可重複執行（已在證據包的代碼不重補）、只加不刪。
+2026-11-25（第五輪，用戶決定）：config/bundle_record_exclusions.json 列的收錯品項（例 potassium_bicarbonate 的 Sodibic）不補、已移到 tfda.excluded_records 的代碼也不再補回。
 用法（repo 根目錄）：python3 scripts/add_current_pbs_items.py [--csv <當期 items CSV>] [--dry-run] [--report out.tsv]
   不給 --csv 就用 PBS public data API 下載當期 schedule（要環境變數 PBS_PUBLIC_KEY；共用限流每 20 秒 1 次）。
 """
@@ -105,6 +106,7 @@ def main():
 
     src = f"PBS Schedule {sched}" + (f"（effective {eff}）" if eff else "") + "，PBS public data API items"
     today = time.strftime("%Y-%m-%d")
+    from autxgnn.regulatory import record_exclusions as RX  # 2026-11-25（第五輪）：排除表列的收錯品項不補
     out, n_b, n_cap = [], 0, 0
     for f in sorted((ROOT / "data/bundles").glob("*/drug_bundle.json")):
         b = json.loads(f.read_text(encoding="utf-8"))
@@ -115,7 +117,9 @@ def main():
             continue
         have = {str(r.get("license_id") or "").strip() for r in recs}
         have |= set(t.get("pbs_items_not_stored") or [])
-        add = sorted((c for c, d in code_db.items() if c not in have and d & dbs),
+        have |= {str(r.get("license_id") or "").strip() for r in t.get("excluded_records") or []}
+        add = sorted((c for c, d in code_db.items() if c not in have and d & dbs
+                      and not RX.match_ingredients(f.parent.name, items[c].get("drug_name"))),
                      key=lambda c: (_n_ing(items[c]["drug_name"]), c))
         if not add:
             continue

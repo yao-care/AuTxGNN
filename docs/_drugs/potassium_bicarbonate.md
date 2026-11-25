@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Potassium Bicarbonate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Peptic ulcer disease, potassium deficiency…"
 monitor_inn: "Potassium bicarbonate"
 predicted_indications: ["gastroduodenitis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **gastroduodenitis**, but there
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| Australia Market Status | Listed on the PBS Schedule (4 of 4 items) – TGA (ARTG) registration status is not included in this data |
-| Number of PBS Items | 4 (valid: 4) |
+| Australia Market Status | Listed on the PBS Schedule (2 of 2 items) – TGA (ARTG) registration status is not included in this data |
+| Number of PBS Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -92,9 +92,7 @@ For the related prediction of active peptic ulcer disease, one publication was r
 | PBS Item Code | Product Name | Ingredients | Dosage Form | Status |
 |------|------|------|------|------|
 | 3012M | Chlorvescent | potassium chloride + potassium bicarbonate + potassium carbonate | Tablet, effervescent, 14 mmol potassium and 8 mmol chloride | Valid |
-| 9470K | Sodibic | bicarbonate | Capsule 840 mg | Valid |
 | 13486T | Chlorvescent | potassium chloride + potassium bicarbonate + potassium carbonate | Tablet, effervescent, 14 mmol potassium and 8 mmol chloride | Valid |
-| 13933H | Sodibic | bicarbonate | Capsule 840 mg | Valid |
 
 Source: PBS Schedule, PBS public data API (Department of Health, Disability and Ageing); product names, ingredients and dosage forms as recorded there. "Valid" means the item is on the current PBS Schedule; TGA (ARTG) registration status is not included in these data.
 
